@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Ôn luyện — Kiến thức vững vàng • Tương lai rộng mở</title>
-    <meta name="description" content="Hệ thống tự học và củng cố kiến thức bám sát SGK Bộ Giáo dục và Đào tạo năm học 2026 - 2027. Tích hợp Gia sư Socrate DeepTutor, phân tích bẫy sai 3 bước cho Lớp 6 và Lớp 11.">
+    <meta name="description" content="Hệ thống tự học và củng cố kiến thức bám sát SGK Bộ Giáo dục và Đào tạo năm học 2026 - 2027 theo khung GDPT 2018. Tích hợp gợi ý 3 bậc dẫn dắt tư duy, phân tích bẫy sai và Sổ tay phục hồi kiến thức cho học sinh.">
     <meta name="keywords" content="ôn luyện sgk, học tốt lớp 6, ôn thi thpt quốc gia lớp 11, deeptutor, đề trắc nghiệm toán lý hóa văn, giải thích bẫy sai">
     <meta name="author" content="Ôn Luyện SGK Community">
     
@@ -72,8 +72,8 @@
 
             <div class="ol-nav-actions">
                 <button class="ol-btn-icon" title="Tìm kiếm bài học, chủ đề...">🔍</button>
-                <button class="ol-btn-outline" onclick="alert('Tính năng đồng bộ tài khoản!')">Đăng nhập</button>
-                <button class="ol-btn-primary" onclick="alert('Chào mừng em đến với nền tảng Ôn luyện!')">Đăng ký</button>
+                <a href="parent.html" class="ol-btn-icon" title="Góc Phụ huynh" style="text-decoration: none; font-size: 1.15rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 50%;">👨‍👩‍👧</a>
+                <button class="ol-btn-primary" onclick="openNotifyModal('Tài khoản học sinh')" style="font-size: 0.85rem; padding: 0.45rem 0.95rem; border-radius: 8px;">🔔 Nhận thông báo</button>
             </div>
         </div>
     </header>
@@ -84,7 +84,7 @@
         <section class="ol-hero-section">
             <div class="ol-hero-card">
                 <div>
-                    <div class="ol-hero-tag">🌟 TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI</div>
+                    <div class="ol-hero-tag">🌟 BẢN THỬ NGHIỆM MỞ — MIỄN PHÍ NĂM HỌC 2026 – 2027</div>
                     <h1 class="ol-hero-title">Học đúng hướng.<br>Ôn đúng trọng tâm.</h1>
                     <p class="ol-hero-desc">
                         Hệ thống đề ôn tập bám sát SGK của Bộ Giáo dục và Đào tạo năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.
@@ -95,16 +95,16 @@
                     </div>
                     <div class="ol-hero-stats">
                         <div class="ol-stat-item">
-                            <h3>50.000+</h3>
-                            <p>Học sinh tin tưởng</p>
+                            <h3>9 chương · 39 bài</h3>
+                            <p>Toán 6 Kết nối tri thức</p>
                         </div>
                         <div class="ol-stat-item">
-                            <h3>10.000+</h3>
-                            <p>Đề ôn tập chất lượng</p>
+                            <h3 id="stat-total-exams">411 đề</h3>
+                            <p>Đề ôn luyện trắc nghiệm</p>
                         </div>
                         <div class="ol-stat-item">
                             <h3>100%</h3>
-                            <p>Bám sát SGK 2026 – 2027</p>
+                            <p>Theo khung GDPT 2018</p>
                         </div>
                     </div>
                 </div>
@@ -295,7 +295,7 @@
             <div class="ol-feature-card">
                 <img src="assets/feature_devices.png" alt="Học trên mọi thiết bị" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
                 <h4>Học trên mọi thiết bị</h4>
-                <p>Website và ứng dụng PWA mượt mà trên máy tính, máy tính bảng và điện thoại.</p>
+                <p>Dùng tốt trên điện thoại, máy tính bảng và máy tính.</p>
             </div>
             <div class="ol-feature-card">
                 <img src="assets/feature_parent.png" alt="Đồng hành cùng phụ huynh" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
@@ -569,14 +569,89 @@
         }
 
         function showKnowledgeGapsModal() {
-            if (!window.DeepTutor) return;
-            const gaps = DeepTutor.getKnowledgeGaps(10);
-            if (gaps.length === 0) {
-                alert('🎉 Chúc mừng! DeepTutor chưa phát hiện lỗ hổng kiến thức nào. Hãy tiếp tục làm bài tập nhé!');
+            const mistakes = window.getMistakes ? window.getMistakes() : [];
+            if (mistakes.length === 0) {
+                openCustomModal('🎉 Kiến thức rất vững vàng', '<p style="color:#15803d; font-size:1rem; line-height:1.6;">Chúc mừng em! Hệ thống chưa phát hiện lỗ hổng kiến thức nào cần cảnh báo. Hãy tiếp tục duy trì thói quen luyện đề nhé!</p>');
                 return;
             }
-            const list = gaps.map(g => `• [${g.subject.toUpperCase()}] ${g.concept} (Sai ${g.wrongCount} lần)${g.trap ? ' - Lưu ý: ' + g.trap : ''}`).join('\n\n');
-            alert('📋 DANH SÁCH LỖ HỔNG KIẾN THỨC CẦN KHẮC PHỤC:\n\n' + list + '\n\nHãy nhấn vào "Sổ tay câu sai" để gia sư DeepTutor hướng dẫn làm lại nhé!');
+            const topicMap = {};
+            mistakes.forEach(m => {
+                const top = m.topic || (m.breakdown && m.breakdown.concept) || 'Chủ đề rèn luyện';
+                if (!topicMap[top]) topicMap[top] = { topic: top, count: 0, trap: (m.breakdown && m.breakdown.trap) || '', grade: m.grade || '06', subject: m.subject || 'toan' };
+                topicMap[top].count += (m.wrongCount || 1);
+            });
+            const list = Object.values(topicMap).map((t, i) => `
+                <div style="background:#f8fafc; border:1px solid #fed7aa; border-radius:10px; padding:0.85rem 1rem; margin-bottom:0.6rem; text-align:left;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <strong style="color:#c2410c;">${i + 1}. ${t.topic}</strong>
+                        <span style="background:#fee2e2; color:#b91c1c; font-size:0.75rem; font-weight:700; padding:0.15rem 0.5rem; border-radius:10px;">Sai ${t.count} lần</span>
+                    </div>
+                    ${t.trap ? `<div style="font-size:0.82rem; color:#78350f; margin-top:0.25rem;">⚠️ Bẫy: ${t.trap}</div>` : ''}
+                </div>
+            `).join('');
+            openCustomModal('📋 Lỗ hổng kiến thức cần củng cố', `
+                <div style="max-height:350px; overflow-y:auto; margin-bottom:1.25rem;">${list}</div>
+                <a href="quiz.html?mode=mistakes" class="ol-btn-primary" style="background:#dc2626; text-decoration:none; padding:0.65rem 1.25rem; font-weight:700; display:inline-block; border-radius:10px;">
+                    📕 Mở Sổ tay câu sai để luyện ngay ➔
+                </a>
+            `);
+        }
+
+        function openCustomModal(title, bodyHtml) {
+            let m = document.getElementById('inpage-custom-modal');
+            if (!m) {
+                m = document.createElement('div');
+                m.id = 'inpage-custom-modal';
+                m.style.cssText = 'position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(15,23,42,0.6); backdrop-filter:blur(4px); z-index:2000; display:flex; align-items:center; justify-content:center; padding:1.25rem;';
+                m.innerHTML = `
+                    <div style="background:white; border-radius:16px; max-width:480px; width:100%; padding:2rem; box-shadow:0 20px 25px -5px rgba(0,0,0,0.2); text-align:center; border:1px solid #e2e8f0; position:relative;">
+                        <button onclick="document.getElementById('inpage-custom-modal').style.display='none'" style="position:absolute; top:1rem; right:1rem; border:none; background:#f1f5f9; width:32px; height:32px; border-radius:50%; font-weight:800; cursor:pointer;">✕</button>
+                        <h3 id="custom-modal-title" style="font-size:1.25rem; font-weight:800; color:#0f172a; margin:0 0 1rem 0;"></h3>
+                        <div id="custom-modal-body"></div>
+                    </div>
+                `;
+                document.body.appendChild(m);
+            }
+            document.getElementById('custom-modal-title').innerHTML = title;
+            document.getElementById('custom-modal-body').innerHTML = bodyHtml;
+            m.style.display = 'flex';
+        }
+
+        function openNotifyModal(targetName = 'Tính năng mới') {
+            openCustomModal(`🔔 Nhận thông báo khi mở ${targetName}`, `
+                <p style="color:#64748b; font-size:0.9rem; line-height:1.5; margin-bottom:1.25rem;">
+                    Để lại thông tin để hệ thống gửi thông báo ngay khi tính năng hoặc chương trình học của <strong>${targetName}</strong> chính thức ra mắt.
+                </p>
+                <div style="display:flex; flex-direction:column; gap:0.75rem; text-align:left; margin-bottom:1.25rem;">
+                    <div>
+                        <label style="font-size:0.82rem; font-weight:700; color:#334155;">Số điện thoại / Zalo hoặc Email:</label>
+                        <input type="text" id="notify-contact-input" placeholder="Ví dụ: 0985578385 hoặc email@vidu.com" style="width:100%; padding:0.6rem 0.85rem; border:1.5px solid #cbd5e1; border-radius:8px; margin-top:0.25rem; font-size:0.9rem; outline:none; box-sizing:border-box;">
+                    </div>
+                </div>
+                <button class="ol-btn-primary" onclick="submitNotifyContact('${targetName}')" style="background:#059669; width:100%; padding:0.65rem; border-radius:8px; font-weight:700;">
+                    Đăng ký nhận tin ➔
+                </button>
+            `);
+        }
+
+        function submitNotifyContact(targetName) {
+            const val = (document.getElementById('notify-contact-input').value || '').trim();
+            if (!val) {
+                alert('Vui lòng nhập số điện thoại hoặc email!');
+                return;
+            }
+            // Lưu local danh sách đăng ký
+            const key = 'sgk_notify_registrations';
+            const list = JSON.parse(localStorage.getItem(key) || '[]');
+            list.push({ target: targetName, contact: val, createdAt: new Date().toISOString() });
+            localStorage.setItem(key, JSON.stringify(list));
+
+            document.getElementById('custom-modal-body').innerHTML = `
+                <div style="font-size:2.5rem; margin-bottom:0.5rem;">🎉</div>
+                <h4 style="color:#15803d; font-size:1.1rem; margin-bottom:0.4rem;">Đã ghi nhận thành công!</h4>
+                <p style="color:#475569; font-size:0.9rem; margin-bottom:1.25rem;">Cảm ơn em và cha mẹ. Hệ thống sẽ gửi thông báo sớm nhất ngay khi mở!</p>
+                <button class="ol-btn-outline" onclick="document.getElementById('inpage-custom-modal').style.display='none'" style="border-radius:8px; padding:0.5rem 1.25rem;">Đóng</button>
+            `;
         }
 
         document.addEventListener('DOMContentLoaded', refreshDeepTutorUI);
