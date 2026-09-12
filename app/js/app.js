@@ -235,3 +235,69 @@ function buildOptionOrder(question, attemptSeed) {
 window.hashSeed = hashSeed;
 window.seededRandom = seededRandom;
 window.buildOptionOrder = buildOptionOrder;
+
+
+// ==========================================
+// P0-6: MOBILE BOTTOM TAB BAR INJECTION
+// ==========================================
+function setupBottomTabBar() {
+    if (window.self !== window.top) return;
+
+    const existing = document.getElementById('ol-mobile-tabbar');
+    if (existing) existing.remove();
+
+    const path = window.location.pathname.toLowerCase();
+    // Khong hien tab bar tren goc phu huynh vi day la goc rieng cua cha me
+    if (path.includes('parent.html')) return;
+
+    const isSubject = path.includes('subject.html') || path.includes('lesson.html');
+    const isMistakes = window.location.search.includes('mode=mistakes');
+    const isQuiz = path.includes('quiz.html') && !isMistakes;
+    const isProgress = path.includes('progress.html');
+    const isHome = path.endsWith('index.html') || path === '/' || path.endsWith('/app/') || path.endsWith('/app');
+
+    const ctx = (window.getContext ? window.getContext() : null) || { grade: '06', subject: 'toan' };
+    const grade = ctx.grade || '06';
+    const subject = ctx.subject || 'toan';
+
+    const mistakes = (window.getMistakes ? window.getMistakes() : []);
+    const mistakeCount = mistakes.length;
+
+    const nav = document.createElement('nav');
+    nav.id = 'ol-mobile-tabbar';
+    nav.className = 'ol-bottom-tabbar';
+    nav.setAttribute('aria-label', 'Điều hướng chính ứng dụng');
+
+    const hocActive = isSubject;
+    const luyenActive = isQuiz;
+    const sotayActive = isMistakes;
+    const tiendoActive = isProgress;
+
+    nav.innerHTML = `
+        <a href="subject.html?grade=${grade}&subject=${subject}" class="ol-tab-item ${hocActive ? 'active' : ''}" ${hocActive ? 'aria-current="page"' : ''}>
+            <span class="ol-tab-icon">📖</span>
+            <span>Học</span>
+        </a>
+        <a href="quiz.html?grade=${grade}&subject=${subject}&chapter=ch01" class="ol-tab-item ${luyenActive ? 'active' : ''}" ${luyenActive ? 'aria-current="page"' : ''}>
+            <span class="ol-tab-icon">✍️</span>
+            <span>Luyện</span>
+        </a>
+        <a href="quiz.html?mode=mistakes&grade=${grade}&subject=${subject}" class="ol-tab-item ${sotayActive ? 'active' : ''}" ${sotayActive ? 'aria-current="page"' : ''}>
+            <span class="ol-tab-icon">📕</span>
+            <span>Sổ tay</span>
+            ${mistakeCount > 0 ? `<span class="ol-tab-badge" id="mobile-tab-mistake-badge">${mistakeCount}</span>` : ''}
+        </a>
+        <a href="progress.html" class="ol-tab-item ${tiendoActive ? 'active' : ''}" ${tiendoActive ? 'aria-current="page"' : ''}>
+            <span class="ol-tab-icon">📊</span>
+            <span>Tiến độ</span>
+        </a>
+    `;
+
+    document.body.appendChild(nav);
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupBottomTabBar);
+} else {
+    setupBottomTabBar();
+}
