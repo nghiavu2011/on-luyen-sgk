@@ -400,7 +400,7 @@
                         <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #e2e8f0; display: inline-block;"></span> Chưa làm</span>
                     </div>
 
-                    <button id="desktop-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="submitExam()" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
+                    <button id="desktop-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="confirmSubmitExam()" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
                         Nộp bài thi ➔
                     </button>
                 </div>
@@ -440,7 +440,7 @@
             <div class="thpt-matrix-grid" id="mobile-matrix-container" style="margin-bottom: 1.25rem;">
             </div>
 
-            <button id="mobile-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="toggleMobileMatrixModal(); submitExam();" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
+            <button id="mobile-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="toggleMobileMatrixModal(); confirmSubmitExam();" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
                 Nộp bài thi ➔
             </button>
         </div>
@@ -637,7 +637,16 @@
 
             renderMatrix();
             renderQuestion();
-            startTimer();
+            const currentMode = params.mode || (params.exam === 'tonghop' ? 'exam' : 'practice');
+            if (currentMode === 'exam') {
+                startTimer();
+            } else {
+                // Chế độ Luyện tập: Tắt đồng hồ, hiện huy hiệu tự do
+                const tBox = document.getElementById('timer-text');
+                if (tBox) tBox.textContent = '∞';
+                const mTimer = document.getElementById('mobile-timer-text');
+                if (mTimer) mTimer.textContent = 'Luyện tập';
+            }
         }
 
         function startTimer() {
@@ -814,9 +823,11 @@
             renderMatrix();
             renderQuestion();
 
-            // Hiển thị ngay lời giải sư phạm 3 bước
+            // P1-5: Chỉ hiển thị lời giải ngay trong chế độ Practice hoặc Mistakes. Trong chế độ Exam, ẩn lời giải tới khi nộp bài.
+            const currentMode = params.mode || (params.exam === 'tonghop' ? 'exam' : 'practice');
             const expBox = document.getElementById('explanation-step-box');
-            expBox.style.display = 'block';
+            if (currentMode !== 'exam') {
+                expBox.style.display = 'block';
             expBox.className = 'ol-explanation-card';
 
             let breakdownHtml = '';
@@ -837,6 +848,9 @@
                 ${breakdownHtml}
             `;
             renderKaTeX();
+            } else {
+                expBox.style.display = 'none';
+            }
         }
 
         function prevQuestion() {
@@ -845,6 +859,44 @@
 
         function nextQuestion() {
             if (currentIdx < questions.length - 1) jumpToQuestion(currentIdx + 1);
+        }
+
+        
+        // ==========================================
+        // P1-5: XÁC NHẬN NỘP BÀI & TÁCH HAI CHẾ ĐỘ
+        // ==========================================
+        function confirmSubmitExam() {
+            if (isExamSubmitted) return;
+            const total = questions.length;
+            const answeredCount = Object.keys(userAnswers).length;
+            const unanswered = total - answeredCount;
+
+            const modal = document.getElementById('confirm-submit-modal');
+            const iconEl = document.getElementById('confirm-modal-icon');
+            const titleEl = document.getElementById('confirm-modal-title');
+            const descEl = document.getElementById('confirm-modal-desc');
+
+            if (unanswered > 0) {
+                iconEl.textContent = '⚠️';
+                titleEl.textContent = 'Còn câu chưa trả lời!';
+                descEl.innerHTML = `Em còn <strong style="color: #dc2626; font-size: 1.1rem;">${unanswered} câu</strong> chưa trả lời trong tổng số ${total} câu.<br>Em có muốn nộp bài bây giờ không?`;
+            } else {
+                iconEl.textContent = '🎉';
+                titleEl.textContent = 'Đã hoàn thành tất cả!';
+                descEl.innerHTML = `Em đã làm đủ <strong style="color: #059669; font-size: 1.1rem;">${total}/${total} câu</strong>.<br>Nộp bài để xem điểm và chữa bài nhé?`;
+            }
+
+            modal.style.display = 'flex';
+        }
+
+        function closeConfirmModal() {
+            const modal = document.getElementById('confirm-submit-modal');
+            if (modal) modal.style.display = 'none';
+        }
+
+        function executeSubmitExam() {
+            closeConfirmModal();
+            submitExam();
         }
 
         function submitExam() {
@@ -1035,7 +1087,16 @@
 
             renderMatrix();
             renderQuestion();
-            startTimer();
+            const currentMode = params.mode || (params.exam === 'tonghop' ? 'exam' : 'practice');
+            if (currentMode === 'exam') {
+                startTimer();
+            } else {
+                // Chế độ Luyện tập: Tắt đồng hồ, hiện huy hiệu tự do
+                const tBox = document.getElementById('timer-text');
+                if (tBox) tBox.textContent = '∞';
+                const mTimer = document.getElementById('mobile-timer-text');
+                if (mTimer) mTimer.textContent = 'Luyện tập';
+            }
         }
 
         // ================= P0-3: MÀN CHỮA BÀI CHI TIẾT =================
@@ -1263,5 +1324,27 @@
 
         init();
     </script>
+
+    <!-- P1-5: IN-PAGE CONFIRMATION MODAL (NO BROWSER CONFIRM) -->
+    <div id="confirm-submit-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px); z-index: 2000; align-items: center; justify-content: center; padding: 1.25rem;">
+        <div style="background: white; border-radius: 16px; max-width: 460px; width: 100%; padding: 2rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2); text-align: center; border: 1px solid #e2e8f0;">
+            <div id="confirm-modal-icon" style="font-size: 3rem; margin-bottom: 0.75rem;">📋</div>
+            <h3 id="confirm-modal-title" style="font-size: 1.3rem; font-weight: 800; color: #0f172a; margin: 0 0 0.5rem 0;">
+                Xác nhận nộp bài
+            </h3>
+            <p id="confirm-modal-desc" style="font-size: 0.95rem; color: #475569; line-height: 1.5; margin: 0 0 1.75rem 0;">
+                Em còn câu chưa trả lời. Nộp bài bây giờ?
+            </p>
+            <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                <button type="button" class="ol-btn-outline" onclick="closeConfirmModal()" style="padding: 0.65rem 1.25rem; font-weight: 700; border-radius: 10px; min-width: 140px;">
+                    Quay lại làm tiếp
+                </button>
+                <button type="button" class="ol-btn-primary" onclick="executeSubmitExam()" style="background: #059669; padding: 0.65rem 1.4rem; font-weight: 800; border-radius: 10px; min-width: 140px;">
+                    Nộp bài ➔
+                </button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
