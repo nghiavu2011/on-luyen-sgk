@@ -1,0 +1,403 @@
+{
+  "subjectId": "toan",
+  "subjectName": "Toán",
+  "grade": 6,
+  "book": "Kết nối tri thức với cuộc sống (BGDĐT 2026 - 2027)",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Chương 1: Tập hợp các số tự nhiên",
+      "description": "Tập hợp, cách ghi số, thứ tự, lũy thừa với số mũ tự nhiên và thứ tự thực hiện phép tính.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Tập hợp và phần tử của tập hợp"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Cách ghi số tự nhiên và hệ thập phân"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 3: Phép cộng và phép trừ số tự nhiên"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 4: Phép nhân và phép chia số tự nhiên"
+        },
+        {
+          "id": "l05",
+          "title": "Bài 5: Lũy thừa với số mũ tự nhiên"
+        },
+        {
+          "id": "l06",
+          "title": "Bài 6: Thứ tự thực hiện các phép tính"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Khái niệm & Thứ tự phép tính",
+          "badge": "Khái niệm",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Kỹ năng tính toán & Lũy thừa",
+          "badge": "Kỹ năng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "Chương 2: Tính chia hết trong tập hợp các số tự nhiên",
+      "description": "Quan hệ chia hết, dấu hiệu chia hết cho 2, 5, 3, 9, số nguyên tố, ước chung lớn nhất và bội chung nhỏ nhất.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 8: Quan hệ chia hết và tính chất chia hết của một tổng"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 9: Dấu hiệu chia hết cho 2, cho 5, cho 3, cho 9"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 10: Số nguyên tố và Hợp số"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 11: Ước chung. Ước chung lớn nhất (ƯCLN)"
+        },
+        {
+          "id": "l05",
+          "title": "Bài 12: Bội chung. Bội chung nhỏ nhất (BCNN)"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Dấu hiệu chia hết & Số nguyên tố",
+          "badge": "Lý thuyết",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Kỹ năng tìm ƯCLN và BCNN",
+          "badge": "Kỹ năng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "Chương 3: Số nguyên",
+      "description": "Tập hợp các số nguyên Z, phép cộng trừ số nguyên, quy tắc dấu ngoặc và phép nhân số nguyên.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 13: Tập hợp các số nguyên và biểu diễn trên trục số"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 14: Phép cộng và phép trừ số nguyên"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 15: Quy tắc dấu ngoặc"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 16: Phép nhân số nguyên và tính chất"
+        },
+        {
+          "id": "l05",
+          "title": "Bài 17: Quan hệ chia hết trong tập hợp số nguyên"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Trục số & Quy tắc cộng trừ số nguyên",
+          "badge": "Cơ bản",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Quy tắc dấu ngoặc & Phép nhân số nguyên",
+          "badge": "Kỹ năng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "Chương 4: Một số hình phẳng trong thực tiễn",
+      "description": "Tam giác đều, hình vuông, hình lục giác đều, hình chữ nhật, hình thoi, hình bình hành, hình thang cân và chu vi diện tích.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 18: Tam giác đều. Hình vuông. Hình lục giác đều"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 20: Chu vi và diện tích của một số hình phẳng trong thực tiễn"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Nhận diện đặc điểm các hình phẳng",
+          "badge": "Nhận biết",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Tính chu vi và diện tích tứ giác",
+          "badge": "Kỹ năng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "Chương 5: Tính đối xứng của hình phẳng trong tự nhiên",
+      "description": "Hình có trục đối xứng, hình có tâm đối xứng và ứng dụng trong tự nhiên, kiến trúc.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 21: Hình có trục đối xứng trong thực tiễn"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 22: Hình có tâm đối xứng trong đời sống"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Trục đối xứng trong tự nhiên",
+          "badge": "Hình học",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Tâm đối xứng & Ứng dụng thực tế",
+          "badge": "Ứng dụng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "Chương 6: Phân số",
+      "description": "Khái niệm phân số, phân số bằng nhau, quy đồng mẫu số, các phép tính phân số và hai bài toán về phân số.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 23: Mở rộng phân số. Phân số bằng nhau"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 24: So sánh phân số. Hỗn số dương"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 25: Phép cộng và phép trừ phân số"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 26: Phép nhân và phép chia phân số"
+        },
+        {
+          "id": "l05",
+          "title": "Bài 27: Hai bài toán cơ bản về phân số"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Khái niệm & So sánh phân số",
+          "badge": "Khái niệm",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: 4 Phép tính & Hai bài toán phân số",
+          "badge": "Tính toán",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "Chương 7: Số thập phân",
+      "description": "Số thập phân, các phép tính cộng trừ nhân chia số thập phân, làm tròn số và ước lượng, tỉ số phần trăm.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 28: Số thập phân và giá trị theo hàng"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 29: Các phép tính với số thập phân"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 30: Làm tròn số và ước lượng kết quả"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Số thập phân & Làm tròn số",
+          "badge": "Lý thuyết",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Phép tính & Tỉ số phần trăm",
+          "badge": "Tính toán",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "Chương 8: Những hình hình học cơ bản",
+      "description": "Điểm, đường thẳng, tia, đoạn thẳng, độ dài đoạn thẳng, trung điểm, góc và số đo góc.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 32: Điểm và đường thẳng"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 33: Điểm nằm giữa hai điểm. Tia"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 34: Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 35: Góc. Các góc đặc biệt. Số đo góc"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Điểm, đường thẳng, tia & Đoạn thẳng",
+          "badge": "Khái niệm",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Trung điểm đoạn thẳng & Số đo góc",
+          "badge": "Kỹ năng",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "Chương 9: Dữ liệu và xác suất thực nghiệm",
+      "description": "Thu thập, tổ chức dữ liệu, bảng số liệu, biểu đồ tranh, biểu đồ cột, cột kép và xác suất thực nghiệm.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 36: Dữ liệu và thu thập dữ liệu"
+        },
+        {
+          "id": "l02",
+          "title": "Bài 37: Bảng dữ liệu và Biểu đồ tranh"
+        },
+        {
+          "id": "l03",
+          "title": "Bài 38: Biểu đồ cột và Biểu đồ cột kép"
+        },
+        {
+          "id": "l04",
+          "title": "Bài 39: Khả năng xảy ra của sự kiện và Xác suất thực nghiệm"
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "Đề 1: Thu thập dữ liệu & Đọc biểu đồ tranh",
+          "badge": "Thống kê",
+          "count": 6
+        },
+        {
+          "id": "de2",
+          "title": "Đề 2: Biểu đồ cột kép & Xác suất thực nghiệm",
+          "badge": "Xác suất",
+          "count": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+          "badge": "Tổng hợp ★",
+          "count": 6
+        }
+      ]
+    }
+  ]
+}

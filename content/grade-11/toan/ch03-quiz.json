@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch03_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "question": "Cho hàm số $f(x) = \\begin{cases} \\frac{x^2 - 1}{x - 1} & \\text{khi } x \\ne 1 \\\\ m + 2 & \\text{khi } x = 1 \\end{cases}$. Giá trị của tham số $m$ để hàm số liên tục tại $x = 1$ là:",
+    "options": [
+      "A. $m = 0$",
+      "B. $m = 2$",
+      "C. $m = -1$",
+      "D. $m = 1$"
+    ],
+    "answer": 0,
+    "explanation": "📌 Điều kiện liên tục: $\\lim_{x \\to 1} f(x) = f(1)$.\n- $\\lim_{x \\to 1} \\frac{(x - 1)(x + 1)}{x - 1} = \\lim_{x \\to 1} (x + 1) = 2$.\n- $f(1) = m + 2$.\nĐể hàm số liên tục tại $x = 1 \\Rightarrow m + 2 = 2 \\Leftrightarrow m = 0$.\n⚠️ Bài toán tìm tham số kinh điển của hàm số liên tục."
+  }
+]

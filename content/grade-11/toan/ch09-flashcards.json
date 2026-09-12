@@ -1,0 +1,82 @@
+[
+  {
+    "front": "Biến cố hợp của hai biến cố $A$ và $B$ là gì?",
+    "back": "Là biến cố '$A$ hoặc $B$ xảy ra', kí hiệu là $A \\cup B$.",
+    "tags": [
+      "Biến cố hợp",
+      "Xác suất"
+    ]
+  },
+  {
+    "front": "Biến cố giao của hai biến cố $A$ và $B$ là gì?",
+    "back": "Là biến cố 'cả $A$ và $B$ cùng xảy ra', kí hiệu là $A \\cap B$ hoặc $AB$.",
+    "tags": [
+      "Biến cố giao",
+      "Xác suất"
+    ]
+  },
+  {
+    "front": "Thế nào là hai biến cố xung khắc?",
+    "back": "Là hai biến cố không thể cùng xảy ra trong cùng một phép thử: $A \\cap B = \\emptyset$.",
+    "tags": [
+      "Xung khắc",
+      "Khái niệm"
+    ]
+  },
+  {
+    "front": "Công thức cộng xác suất cho hai biến cố xung khắc?",
+    "back": "$P(A \\cup B) = P(A) + P(B)$.",
+    "tags": [
+      "Cộng xác suất",
+      "Xung khắc"
+    ]
+  },
+  {
+    "front": "Công thức cộng xác suất tổng quát cho hai biến cố bất kì?",
+    "back": "$P(A \\cup B) = P(A) + P(B) - P(AB)$.",
+    "tags": [
+      "Cộng tổng quát",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Thế nào là hai biến cố độc lập?",
+    "back": "Việc xảy ra hay không xảy ra của biến cố này hoàn toàn không ảnh hưởng đến xác suất xảy ra của biến cố kia.",
+    "tags": [
+      "Độc lập",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Công thức nhân xác suất cho hai biến cố độc lập $A$ và $B$?",
+    "back": "$P(AB) = P(A) \\times P(B)$.",
+    "tags": [
+      "Nhân xác suất",
+      "Độc lập"
+    ]
+  },
+  {
+    "front": "Mối quan hệ giữa xác suất của biến cố $A$ và biến cố đối $\\overline{A}$?",
+    "back": "$P(\\overline{A}) = 1 - P(A)$.",
+    "tags": [
+      "Biến cố đối",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Một xạ thủ bắn 2 phát súng độc lập với xác suất trúng đích mỗi phát là $0,8$. Xác suất cả hai phát đều trúng là:",
+    "back": "$P = 0,8 \\times 0,8 = 0,64$.",
+    "tags": [
+      "Tính toán",
+      "Độc lập"
+    ]
+  },
+  {
+    "front": "Tung một con xúc xắc 6 mặt cân đối. Biến cố 'xuất hiện mặt chẵn' và 'xuất hiện mặt lẻ' có quan hệ gì?",
+    "back": "Là hai biến cố xung khắc và là hai biến cố đối của nhau.",
+    "tags": [
+      "Xúc xắc",
+      "Ví dụ"
+    ]
+  }
+]

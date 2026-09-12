@@ -1,0 +1,16 @@
+[
+  {
+    "id": "th6_ch06_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "question": "Thuật toán tìm giá trị lớn nhất ($MAX$) trong ba số $a, b, c$ cần thực hiện phép so sánh điều kiện rẽ nhánh theo thứ tự logic nào sau đây?",
+    "options": [
+      "A. Gán bừa một số là lớn nhất",
+      "B. Gán $MAX = a$. Nếu $b > MAX$ thì gán $MAX = b$. Nếu $c > MAX$ thì gán $MAX = c$. Kết quả là $MAX$",
+      "C. Lấy $a + b + c$",
+      "D. Nhân cả ba số lại"
+    ],
+    "answer": 1,
+    "explanation": "📌 Thuật toán tìm số lớn nhất: 1. Giả sử số đầu tiên $a$ là lớn nhất ($MAX=a$). 2. Lần lượt so sánh với từng số còn lại, nếu số nào lớn hơn $MAX$ thì cập nhật $MAX$ bằng số đó.\n💡 Trình tự so sánh tuần tự tối ưu.\n⚠️ Rèn luyện tư duy thuật toán nền tảng."
+  }
+]

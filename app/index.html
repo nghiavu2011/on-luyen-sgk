@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Ôn luyện — Kiến thức vững vàng • Tương lai rộng mở</title>
+    <meta name="description" content="Hệ thống tự học và củng cố kiến thức bám sát SGK Bộ Giáo dục và Đào tạo năm học 2026 - 2027. Tích hợp Gia sư Socrate DeepTutor, phân tích bẫy sai 3 bước cho Lớp 6 và Lớp 11.">
+    <meta name="keywords" content="ôn luyện sgk, học tốt lớp 6, ôn thi thpt quốc gia lớp 11, deeptutor, đề trắc nghiệm toán lý hóa văn, giải thích bẫy sai">
+    <meta name="author" content="Ôn Luyện SGK Community">
+    
+    <!-- Open Graph / Facebook / Zalo -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.nmstudio.id.vn/">
+    <meta property="og:title" content="Ôn Luyện SGK 2026 - 2027 • Đồng hành cùng Gia sư DeepTutor">
+    <meta property="og:description" content="Hệ thống đề ôn luyện trắc nghiệm 4 mức độ bám sát SGK, tích hợp Gia sư Socrate chỉ rõ bẫy sai và Sổ tay phục hồi kiến thức.">
+    <meta property="og:image" content="assets/hero_banner.jpg">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ôn Luyện SGK 2026 - 2027 • Gia sư DeepTutor Socratic">
+    <meta name="twitter:description" content="Tự học thông minh, nắm chắc kiến thức SGK 2026 - 2027 cùng phân tích sư phạm 3 bước.">
+    <meta name="twitter:image" content="assets/hero_banner.jpg">
+
+    <!-- Structured Data: Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Ôn Luyện SGK & DeepTutor - N&Mstudio Education",
+      "description": "Nền tảng tự học và củng cố kiến thức bám sát SGK Bộ GD&ĐT 2026-2027",
+      "url": "https://www.nmstudio.id.vn/",
+      "educationalCredentialAwarded": "Huy hiệu hoàn thành chương trình SGK",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kho Đề Thi & Bài Học SGK",
+        "itemListElement": [
+          { "@type": "Course", "name": "Toán 6 BGDĐT 2026-2027" },
+          { "@type": "Course", "name": "Ngữ Văn 6 BGDĐT 2026-2027" },
+          { "@type": "Course", "name": "Vật lí 11 THPT BGDĐT 2026-2027" },
+          { "@type": "Course", "name": "Hóa học 11 THPT BGDĐT 2026-2027" }
+        ]
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260911_v4">
+</head>
+<body>
+
+    <!-- ================= TOP NAVIGATION ================= -->
+    <header class="ol-navbar">
+        <div class="ol-nav-container">
+            <a href="index.html" class="ol-brand">
+                <div class="ol-brand-icon">
+                    <img src="assets/app_logo.png" alt="Ôn Luyện Logo">
+                </div>
+                <div class="ol-brand-text">
+                    <h1>Ôn luyện</h1>
+                    <p>Kiến thức vững vàng • Tương lai rộng mở</p>
+                </div>
+            </a>
+
+            <ul class="ol-nav-menu">
+                <li class="ol-nav-item"><a href="index.html" class="active">Trang chủ</a></li>
+                <li class="ol-nav-item"><a href="#levels">Cấp học</a></li>
+                <li class="ol-nav-item"><a href="#subjects">Môn học</a></li>
+                <li class="ol-nav-item"><a href="quiz.html?grade=06&subject=toan&chapter=ch01">Đề ôn tập</a></li>
+                <li class="ol-nav-item"><a href="quiz.html?mode=mistakes" style="color:#b91c1c; font-weight:700;">📕 Sổ tay câu sai <span id="nav-mistake-count" style="display:none; background:#ef4444; color:white; font-size:0.7rem; padding:0.1rem 0.4rem; border-radius:10px; margin-left:0.2rem;">0</span></a></li>
+                <li class="ol-nav-item"><a href="progress.html">Tiến độ</a></li>
+                <li class="ol-nav-item"><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-nav-actions">
+                <button class="ol-btn-icon" title="Tìm kiếm bài học, chủ đề...">🔍</button>
+                <button class="ol-btn-outline" onclick="alert('Tính năng đồng bộ tài khoản!')">Đăng nhập</button>
+                <button class="ol-btn-primary" onclick="alert('Chào mừng em đến với nền tảng Ôn luyện!')">Đăng ký</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="ol-container">
+
+        <!-- ================= HERO BANNER ================= -->
+        <section class="ol-hero-section">
+            <div class="ol-hero-card">
+                <div>
+                    <div class="ol-hero-tag">🌟 TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI</div>
+                    <h1 class="ol-hero-title">Học đúng hướng.<br>Ôn đúng trọng tâm.</h1>
+                    <p class="ol-hero-desc">
+                        Hệ thống đề ôn tập bám sát SGK của Bộ Giáo dục và Đào tạo năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.
+                    </p>
+                    <div class="ol-hero-actions">
+                        <a href="#levels" class="ol-btn-cta">Bắt đầu ngay ➔</a>
+                        <a href="#features" class="ol-btn-secondary">Tìm hiểu thêm</a>
+                    </div>
+                    <div class="ol-hero-stats">
+                        <div class="ol-stat-item">
+                            <h3>50.000+</h3>
+                            <p>Học sinh tin tưởng</p>
+                        </div>
+                        <div class="ol-stat-item">
+                            <h3>10.000+</h3>
+                            <p>Đề ôn tập chất lượng</p>
+                        </div>
+                        <div class="ol-stat-item">
+                            <h3>100%</h3>
+                            <p>Bám sát SGK 2026 – 2027</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ol-hero-banner-visual">
+                    <div style="position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12); margin-bottom: 1rem; border: 2px solid white;">
+                        <img src="assets/hero_banner.jpg" alt="Học sinh Việt Nam học tập chủ động cùng Ôn Luyện SGK" style="width: 100%; height: auto; display: block; object-fit: cover;">
+                        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(15, 23, 42, 0.85)); padding: 0.75rem 1rem; color: white;">
+                            <span class="ol-badge-note" style="margin: 0; display: inline-block; background: #f59e0b; color: white; font-weight: 800; font-size: 0.75rem;">🌟 KHÁM PHÁ & SÁNG TẠO</span>
+                            <div style="font-size: 0.85rem; font-weight: 700; margin-top: 0.2rem;">Học sinh Việt Nam vững bước cùng SGK 2026 - 2027</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; justify-content: center;">
+                        <span style="background: #e2e8f0; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">🌱 Tiểu học (Lớp 1-5)</span>
+                        <span style="background: #bae6fd; color: #0369a1; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">🎓 THCS (Lớp 6-9)</span>
+                        <span style="background: #bbf7d0; color: #166534; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">📈 THPT (Lớp 10-12)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CHỌN CẤP HỌC ================= -->
+        <section id="levels" class="ol-levels-section">
+            <div class="ol-section-title">
+                <h2>Chọn cấp học</h2>
+                <p>Bắt đầu hành trình ôn luyện phù hợp với lứa tuổi của bạn</p>
+            </div>
+
+            <div class="ol-levels-grid">
+                <!-- Thẻ Tiểu học -->
+                <div class="ol-level-card ol-level-c1" onclick="selectLevel('c1')">
+                    <div class="ol-level-left">
+                        <img src="assets/the cap 1.png" alt="Cấp 1 Tiểu học" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <div class="ol-level-info">
+                            <div class="ol-level-badge">Lớp 1 – 5</div>
+                            <h3>Tiểu học</h3>
+                            <p>Xây nền tảng vững chắc cho tương lai</p>
+                        </div>
+                    </div>
+                    <div class="ol-level-btn">➔</div>
+                </div>
+
+                <!-- Thẻ THCS -->
+                <div class="ol-level-card ol-level-c2" onclick="selectLevel('c2')">
+                    <div class="ol-level-left">
+                        <img src="assets/the cap 2.png" alt="Cấp 2 THCS" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <div class="ol-level-info">
+                            <div class="ol-level-badge">Lớp 6 – 9</div>
+                            <h3>THCS</h3>
+                            <p>Ôn luyện toàn diện phát triển năng lực</p>
+                        </div>
+                    </div>
+                    <div class="ol-level-btn">➔</div>
+                </div>
+
+                <!-- Thẻ THPT -->
+                <div class="ol-level-card ol-level-c3" onclick="selectLevel('c3')">
+                    <div class="ol-level-left">
+                        <img src="assets/the cap 3.png" alt="Cấp 3 THPT" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <div class="ol-level-info">
+                            <div class="ol-level-badge">Lớp 10 – 12</div>
+                            <h3>THPT</h3>
+                            <p>Bứt phá điểm số sẵn sàng cho tương lai</p>
+                        </div>
+                    </div>
+                    <div class="ol-level-btn">➔</div>
+                </div>
+            </div>
+        </section>
+
+                <!-- ================= DEEPTUTOR SOCRATIC PERSONAL TUTOR BANNER ================= -->
+        <section id="deeptutor-banner" style="margin-bottom: 2.5rem;">
+            <div style="background: linear-gradient(135deg, #fdf4ff 0%, #f0fdf4 50%, #eff6ff 100%); border: 1.5px solid #d8b4fe; border-radius: 16px; padding: 1.5rem 2rem; box-shadow: 0 4px 14px rgba(147, 51, 234, 0.08);">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <div style="font-size: 2.2rem; background: white; width: 52px; height: 52px; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                            🤖
+                        </div>
+                        <div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: #581c87; margin: 0;">Gia sư DeepTutor Cá Nhân Hóa</h3>
+                                <span style="background: #a855f7; color: white; font-size: 0.7rem; font-weight: 800; padding: 0.15rem 0.6rem; border-radius: 20px; text-transform: uppercase;">Lifelong Socratic AI</span>
+                            </div>
+                            <p style="font-size: 0.85rem; color: #6b21a8; margin: 0.2rem 0 0 0;">Ký ức 3 tầng (L1-L2-L3) · Dẫn dắt Socrate không spoil đáp án · Sổ tay phục hồi câu sai</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                        <a href="quiz.html?mode=mistakes" id="deeptutor-cta-mistakes" class="ol-btn-primary" style="background: #dc2626; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.55rem 1.1rem; font-size: 0.88rem; font-weight: 700; border-radius: 10px;">
+                            <span>📕</span> Sổ tay câu sai (<span id="dt-mistake-count">0</span>)
+                        </a>
+                        <button class="ol-btn-outline" onclick="showKnowledgeGapsModal()" style="font-size: 0.88rem; font-weight: 700; border-radius: 10px; background: white; cursor: pointer;">
+                            🎯 Chẩn đoán lỗ hổng
+                        </button>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+                    <!-- Card 1: Sổ tay câu sai -->
+                    <div style="background: white; border: 1px solid #fed7aa; border-radius: 14px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                        <img src="assets/badge_shield.png" alt="Khiên phục hồi" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+                        <div style="flex: 1;">
+                            <div style="font-size: 0.78rem; font-weight: 700; color: #c2410c; text-transform: uppercase;">Phục hồi câu sai</div>
+                            <div style="font-size: 1.1rem; font-weight: 800; color: #1e293b;" id="dt-card-mistakes-text">0 câu cần khắc phục</div>
+                            <div style="font-size: 0.75rem; color: #64748b;">Luyện lại để xóa khỏi sổ tay</div>
+                        </div>
+                        <a href="quiz.html?mode=mistakes" style="font-size: 0.82rem; font-weight: 700; color: #ea580c; text-decoration: none;">Luyện ➔</a>
+                    </div>
+
+                    <!-- Card 2: Knowledge Gaps -->
+                    <div style="background: white; border: 1px solid #bbf7d0; border-radius: 14px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                        <img src="assets/mascot_inspect.png" alt="Chẩn đoán lỗ hổng" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+                        <div style="flex: 1;">
+                            <div style="font-size: 0.78rem; font-weight: 700; color: #15803d; text-transform: uppercase;">Lỗ hổng trọng tâm</div>
+                            <div style="font-size: 1.05rem; font-weight: 800; color: #1e293b;" id="dt-top-gap-text">Chưa ghi nhận lỗ hổng</div>
+                            <div style="font-size: 0.75rem; color: #64748b;" id="dt-gap-subtext">Hệ thống sẽ tự động chẩn đoán</div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Mastery Level -->
+                    <div style="background: white; border: 1px solid #bfdbfe; border-radius: 14px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+                        <img src="assets/badge_trophy.png" alt="Cấp độ tinh thông" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+                        <div style="flex: 1;">
+                            <div style="font-size: 0.78rem; font-weight: 700; color: #1d4ed8; text-transform: uppercase;">Cấp độ tinh thông (L3)</div>
+                            <div style="font-size: 1.1rem; font-weight: 800; color: #1e293b;" id="dt-mastery-level-text">🌱 Tập sự</div>
+                            <div style="font-size: 0.75rem; color: #64748b;">Dựa trên số lượt giải & độ chuẩn xác</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= KHÔNG GIAN BÀI HỌC VÀ MÔN HỌC THEO CẤP ================= -->
+        <section id="subjects" class="ol-view-wrapper">
+            <!-- Header của cấp học hiện tại -->
+            <div class="ol-sub-header">
+                <div>
+                    <span id="level-tag" style="display:inline-block; font-size:0.8rem; font-weight:700; text-transform:uppercase; padding:0.25rem 0.75rem; border-radius:20px; margin-bottom:0.4rem; background:#e0f2fe; color:#0369a1;">THCS • LỚP 6 - 9</span>
+                    <h3 id="level-headline" style="font-size: 1.45rem;">Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.</h3>
+                </div>
+                <div id="student-badges" style="display:flex; gap:0.75rem; align-items:center;">
+                    <div style="background:#fef3c7; border:1px solid #fde68a; padding:0.35rem 0.75rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#92400e; display:flex; align-items:center; gap:0.4rem;">
+                        <img src="assets/badge_streak.png" alt="Streak" style="width:24px; height:24px; object-fit:contain;">
+                        <span>7 ngày streak</span>
+                    </div>
+                    <div style="background:#e0f2fe; border:1px solid #bae6fd; padding:0.35rem 0.75rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#0369a1; display:flex; align-items:center; gap:0.4rem;">
+                        <img src="assets/badge_trophy.png" alt="XP" style="width:24px; height:24px; object-fit:contain;">
+                        <span>1.250 XP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thanh chọn lớp của cấp -->
+            <p style="font-size: 0.95rem; font-weight: 700; color: var(--ol-text-title); margin-bottom: 0.6rem;">Chọn lớp của bạn:</p>
+            <div class="ol-grade-selector" id="grade-selector-container">
+                <!-- Sẽ được render động bằng Javascript -->
+            </div>
+
+            <!-- Thông báo trạng thái dữ liệu lớp học -->
+            <div id="grade-status-notice" style="margin-bottom: 1.25rem;"></div>
+
+            <!-- Lưới môn học -->
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                <p style="font-size: 0.95rem; font-weight: 700; color: var(--ol-text-title);">Học theo môn học:</p>
+                <a href="#" style="font-size:0.85rem; color:var(--ol-primary); font-weight:600; text-decoration:none;">Khám phá tất cả môn học ➔</a>
+            </div>
+            <div class="ol-subjects-grid" id="subjects-grid">
+                <!-- Sẽ được render động bằng Javascript -->
+            </div>
+        </section>
+
+        <!-- ================= GIÁ TRỊ NỔI BẬT ================= -->
+        <section id="features" class="ol-features-row">
+            <div class="ol-feature-card">
+                <img src="assets/feature_sgk.png" alt="Bám sát SGK" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h4>Bám sát SGK BGDĐT 2026 – 2027</h4>
+                <p>Nội dung chuẩn xác, cập nhật, bám sát các bộ Kết nối tri thức, Cánh diều, Chân trời sáng tạo.</p>
+            </div>
+            <div class="ol-feature-card">
+                <img src="assets/feature_roadmap.png" alt="Lộ trình cá nhân hóa" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h4>Lộ trình cá nhân hóa</h4>
+                <p>Phù hợp năng lực, mục tiêu và từng giai đoạn học tập, chuẩn bị thi cử.</p>
+            </div>
+            <div class="ol-feature-card">
+                <img src="assets/feature_practice.png" alt="Luyện tập thông minh" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h4>Luyện tập thông minh</h4>
+                <p>Đa dạng dạng bài trắc nghiệm, điền số, giải thích 3 bước sư phạm và bẫy lỗi sai.</p>
+            </div>
+            <div class="ol-feature-card">
+                <img src="assets/feature_devices.png" alt="Học trên mọi thiết bị" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h4>Học trên mọi thiết bị</h4>
+                <p>Website và ứng dụng PWA mượt mà trên máy tính, máy tính bảng và điện thoại.</p>
+            </div>
+            <div class="ol-feature-card">
+                <img src="assets/feature_parent.png" alt="Đồng hành cùng phụ huynh" style="width: 58px; height: 58px; object-fit: contain; margin-bottom: 0.75rem;">
+                <h4>Đồng hành cùng phụ huynh</h4>
+                <p>Dễ dàng theo dõi tiến độ, thời gian học tập và đồng hành cùng con mỗi ngày.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <!-- ================= FOOTER ================= -->
+    <footer class="ol-footer" style="margin-top: 3.5rem;">
+        <div class="ol-footer-content">
+            <div style="display:flex; align-items:center; gap:0.85rem;">
+                <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
+                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                    <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
+                    <p style="font-size:0.75rem; color:var(--ol-text-muted); margin:0;">Phát triển bởi <strong>N&Mstudio_Education</strong></p>
+                </div>
+            </div>
+
+            <div style="font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.25rem;">
+                <div>📞 Hotline / Zalo: <a href="tel:+84985578385" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">+84 985578385</a></div>
+                <div>🌐 Website: <a href="https://www.nmstudio.id.vn/" target="_blank" rel="noopener" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">www.nmstudio.id.vn</a></div>
+            </div>
+
+            <ul class="ol-footer-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="index.html#levels">Cấp học</a></li>
+                <li><a href="progress.html">Tiến độ</a></li>
+                <li><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-footer-copy">
+                © 2026 by NMstudio. Toàn bộ chương trình bám sát SGK Bộ GD&ĐT 2026 – 2027.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= LOGIC ĐIỀU KHIỂN GIAO DIỆN CẤP HỌC ================= -->
+    <script>
+        // Cấu hình dữ liệu chuẩn theo 3 mockup của người dùng
+        const LEVEL_DATA = {
+            c1: {
+                name: "Tiểu học",
+                tag: "TIỂU HỌC • LỚP 1 - 5",
+                tagColor: { bg: "#ffedd5", text: "#ea580c" },
+                headline: "Học vui mỗi ngày • Vững vàng tương lai",
+                grades: [
+                    { id: "01", name: "Lớp 1", desc: "Khám phá thế giới mới", icon: "🌱" },
+                    { id: "02", name: "Lớp 2", desc: "Vững vàng hơn mỗi ngày", icon: "⭐" },
+                    { id: "03", name: "Lớp 3", desc: "Học sâu hiểu rộng", icon: "🌿" },
+                    { id: "04", name: "Lớp 4", desc: "Tự tin chinh phục", icon: "🚀" },
+                    { id: "05", name: "Lớp 5", desc: "Sẵn sàng vươn xa", icon: "🎓" }
+                ],
+                subjects: [
+                    { id: "tieng-viet", name: "Tiếng Việt", icon: "📖", chapters: 10 },
+                    { id: "toan", name: "Toán", icon: "🔢", chapters: 12 },
+                    { id: "tu-nhien-xa-hoi", name: "Tự nhiên & Xã hội", icon: "🌿", chapters: 8 },
+                    { id: "dao-duc", name: "Đạo đức", icon: "🧡", chapters: 8 },
+                    { id: "am-nhac", name: "Âm nhạc", icon: "🎵", chapters: 4 },
+                    { id: "mi-thuat", name: "Mĩ thuật", icon: "🎨", chapters: 4 }
+                ]
+            },
+            c2: {
+                name: "THCS",
+                tag: "THCS • LỚP 6 - 9",
+                tagColor: { bg: "#e0f2fe", text: "#0369a1" },
+                headline: "Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.",
+                grades: [
+                    { id: "06", name: "Lớp 6", desc: "Khám phá tri thức • Xây nền vững chắc", icon: "6️⃣" },
+                    { id: "07", name: "Lớp 7", desc: "Mở rộng hiểu biết • Tự tin tiến bước", icon: "7️⃣" },
+                    { id: "08", name: "Lớp 8", desc: "Làm chủ kiến thức • Bứt phá giới hạn", icon: "8️⃣" },
+                    { id: "09", name: "Lớp 9", desc: "Ôn tập vững vàng • Sẵn sàng chinh phục", icon: "9️⃣" }
+                ],
+                subjects: [
+                    { id: "toan", name: "Toán", icon: "🔢", chapters: 12 },
+                    { id: "khoa-hoc-tu-nhien", name: "Khoa học Tự nhiên", icon: "🔬", chapters: 11 },
+                    { id: "ngu-van", name: "Ngữ Văn", icon: "📖", chapters: 10 },
+                    { id: "tieng-anh", name: "Tiếng Anh", icon: "🔤", chapters: 12 },
+                    { id: "lich-su-dia-li", name: "Lịch sử & Địa lí", icon: "🌍", chapters: 10 },
+                    { id: "giao-duc-cong-dan", name: "Giáo dục Công dân", icon: "🏛️", chapters: 8 },
+                    { id: "tin-hoc", name: "Tin học", icon: "💻", chapters: 6 }
+                ]
+            },
+            c3: {
+                name: "THPT",
+                tag: "THPT • LỚP 10 - 12",
+                tagColor: { bg: "#dcfce7", text: "#15803d" },
+                headline: "Học đúng hướng. Bứt phá tương lai. Chuẩn bị cho giảng đường đại học.",
+                grades: [
+                    { id: "10", name: "Lớp 10", desc: "Xây nền vững chắc", icon: "🔟" },
+                    { id: "11", name: "Lớp 11", desc: "Tăng tốc kiến thức", icon: "⚡" },
+                    { id: "12", name: "Lớp 12", desc: "Bứt phá về đích", icon: "🎯" }
+                ],
+                subjects: [
+                    { id: "toan", name: "Toán", icon: "📐", chapters: 8 },
+                    { id: "vat-li", name: "Vật lí", icon: "⚛️", chapters: 4 },
+                    { id: "hoa-hoc", name: "Hóa học", icon: "🧪", chapters: 7 },
+                    { id: "sinh-hoc", name: "Sinh học", icon: "🧬", chapters: 6 },
+                    { id: "ngu-van", name: "Ngữ Văn", icon: "🪶", chapters: 8 },
+                    { id: "tieng-anh", name: "Tiếng Anh", icon: "Aa", chapters: 10 },
+                    { id: "lich-su", name: "Lịch sử", icon: "🏛️", chapters: 6 },
+                    { id: "dia-li", name: "Địa lí", icon: "🌍", chapters: 6 },
+                    { id: "gdkt-pl", name: "GDKT & Pháp luật", icon: "⚖️", chapters: 6 },
+                    { id: "tin-hoc", name: "Tin học", icon: "💻", chapters: 7 }
+                ]
+            }
+        };
+
+        let currentLevel = 'c2'; // Mặc định hiển thị THCS (có Lớp 6)
+        let selectedGrade = '06';
+
+        function selectLevel(levelKey) {
+            currentLevel = levelKey;
+            const lvl = LEVEL_DATA[levelKey];
+            
+            // Cập nhật Header
+            const tagEl = document.getElementById('level-tag');
+            tagEl.innerText = lvl.tag;
+            tagEl.style.background = lvl.tagColor.bg;
+            tagEl.style.color = lvl.tagColor.text;
+            
+            document.getElementById('level-headline').innerText = lvl.headline;
+            
+            // Mặc định chọn lớp đầu tiên của cấp đó (nếu là c2 thì chọn 06, c3 thì chọn 11)
+            selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : lvl.grades[0].id);
+            
+            renderGrades();
+            renderSubjects();
+            
+            // Cuộn mượt xuống vùng bài học
+            document.getElementById('subjects').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function selectGrade(gradeId) {
+            selectedGrade = gradeId;
+            renderGrades();
+            renderSubjects();
+        }
+
+        function renderGrades() {
+            const container = document.getElementById('grade-selector-container');
+            const lvl = LEVEL_DATA[currentLevel];
+            
+            container.innerHTML = lvl.grades.map(g => {
+                const isReady = (g.id === '06' || g.id === '11');
+                const badgeHtml = isReady 
+                    ? `<span style="background:#10b981; color:white; font-size:0.68rem; padding:0.15rem 0.5rem; border-radius:12px; font-weight:800; margin-left:0.35rem; display:inline-flex; align-items:center; gap:0.2rem;">✨ Sẵn sàng 100%</span>`
+                    : `<span style="background:#f1f5f9; color:#64748b; font-size:0.68rem; padding:0.15rem 0.45rem; border-radius:12px; font-weight:600; margin-left:0.35rem; border:1px solid #cbd5e1;">⏳ Đang số hóa SGK</span>`;
+
+                return `
+                <button class="ol-grade-btn ${g.id === selectedGrade ? 'active' : ''}" onclick="selectGrade('${g.id}')">
+                    <span>${g.icon}</span>
+                    <span>${g.name}</span>
+                    ${badgeHtml}
+                    <span class="tag-desc">(${g.desc})</span>
+                </button>
+            `;
+            }).join('');
+
+            // Cập nhật thông báo trạng thái lớp
+            const noticeEl = document.getElementById('grade-status-notice');
+            if (noticeEl) {
+                if (selectedGrade === '06' || selectedGrade === '11') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1px solid #a7f3d0; border-radius:12px; padding:0.75rem 1rem; display:flex; align-items:center; gap:0.75rem; color:#065f46; font-size:0.88rem;">
+                            <span style="font-size:1.25rem;">🌟</span>
+                            <div>
+                                <strong>Dữ liệu Lớp ${selectedGrade} đã sẵn sàng 100%!</strong> Đầy đủ toàn bộ các môn học, bài giảng lý thuyết chuẩn SGK 2026-2027, bộ đề thi 3 cấp độ phân hóa và Gia sư DeepTutor Socratic.
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    noticeEl.innerHTML = `
+                        <div style="background:#fffbeb; border:1px solid #fde68a; border-radius:12px; padding:0.75rem 1rem; display:flex; align-items:center; gap:0.75rem; color:#92400e; font-size:0.88rem;">
+                            <span style="font-size:1.25rem;">⏳</span>
+                            <div>
+                                <strong>Dữ liệu Lớp ${selectedGrade} đang trong quy trình số hóa OCR tự động.</strong> Để kiểm tra thử toàn bộ các tính năng luyện đề và Gia sư DeepTutor, bạn hãy bấm chọn <strong>Lớp 6</strong> (cấp THCS) hoặc <strong>Lớp 11</strong> (cấp THPT) nhé!
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+        }
+
+        function renderSubjects() {
+            const grid = document.getElementById('subjects-grid');
+            const lvl = LEVEL_DATA[currentLevel];
+            
+            const subjectAssetMap = {
+                'toan': 'assets/bia mon toan hoc.png',
+                'ngu-van': 'assets/bia mon ngu van - tieng anh.png',
+                'tieng-anh': 'assets/bia mon ngu van - tieng anh.png',
+                'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
+                'vat-li': 'assets/icon_vat_li.png',
+                'hoa-hoc': 'assets/icon_hoa_hoc.png',
+                'sinh-hoc': 'assets/icon_sinh_hoc.png',
+                'lich-su': 'assets/icon_lich_su.png',
+                'dia-li': 'assets/icon_dia_li.png',
+                'lich-su-dia-li': 'assets/icon_lich_su_dia_li.png',
+                'giao-duc-cong-dan': 'assets/icon_giao_duc_cong_dan.png',
+                'gdkt-pl': 'assets/icon_giao_duc_cong_dan.png',
+                'tin-hoc': 'assets/icon_tin_hoc.png',
+                'cong-nghe': 'assets/icon_cong_nghe.png',
+                'hdtn-huong-nghiep': 'assets/icon_hdtn_huong_nghiep.png'
+            };
+            
+            grid.innerHTML = lvl.subjects.map(s => {
+                const imgSrc = subjectAssetMap[s.id] || `assets/icon_${s.id.replace(/-/g, '_')}.png`;
+
+                return `
+                    <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card" style="align-items: center;">
+                        <img src="${imgSrc}" alt="${s.name}" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" style="width: 52px; height: 52px; border-radius: 12px; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); background: white;">
+                        <div class="ol-subject-icon" style="display: none;">${s.icon}</div>
+                        <div class="ol-subject-info">
+                            <h4>${s.name}</h4>
+                            <p>${s.chapters} chương • Chuẩn GDPT 2018</p>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+        }
+
+        // Khởi tạo
+        selectLevel('c2');
+
+        function refreshDeepTutorUI() {
+            if (!window.DeepTutor) return;
+            const mistakes = DeepTutor.getMistakeBank();
+            const count = mistakes.length;
+
+            const countEl = document.getElementById('dt-mistake-count');
+            const cardTextEl = document.getElementById('dt-card-mistakes-text');
+            const navCountEl = document.getElementById('nav-mistake-count');
+
+            if (countEl) countEl.textContent = count;
+            if (cardTextEl) cardTextEl.textContent = `${count} câu cần khắc phục`;
+            if (navCountEl) {
+                navCountEl.textContent = count;
+                navCountEl.style.display = count > 0 ? 'inline-block' : 'none';
+            }
+
+            // Top Gap
+            const gaps = DeepTutor.getKnowledgeGaps(1);
+            const gapTextEl = document.getElementById('dt-top-gap-text');
+            const gapSubEl = document.getElementById('dt-gap-subtext');
+            if (gapTextEl) {
+                if (gaps && gaps.length > 0) {
+                    gapTextEl.textContent = gaps[0].concept;
+                    if (gapSubEl) gapSubEl.textContent = `Sai ${gaps[0].wrongCount} lần · Môn ${gaps[0].subject.toUpperCase()}`;
+                } else {
+                    gapTextEl.textContent = 'Kiến thức rất vững vàng';
+                    if (gapSubEl) gapSubEl.textContent = 'Chưa phát hiện lỗ hổng lớn';
+                }
+            }
+
+            // Mastery Level
+            const mastery = DeepTutor.getMasteryProfile();
+            const masteryEl = document.getElementById('dt-mastery-level-text');
+            if (masteryEl) {
+                const levels = Object.values(mastery);
+                if (levels.length > 0) {
+                    masteryEl.textContent = levels[0].level;
+                } else {
+                    masteryEl.textContent = '🌱 Tập sự';
+                }
+            }
+        }
+
+        function showKnowledgeGapsModal() {
+            if (!window.DeepTutor) return;
+            const gaps = DeepTutor.getKnowledgeGaps(10);
+            if (gaps.length === 0) {
+                alert('🎉 Chúc mừng! DeepTutor chưa phát hiện lỗ hổng kiến thức nào. Hãy tiếp tục làm bài tập nhé!');
+                return;
+            }
+            const list = gaps.map(g => `• [${g.subject.toUpperCase()}] ${g.concept} (Sai ${g.wrongCount} lần)${g.trap ? ' - Lưu ý: ' + g.trap : ''}`).join('\n\n');
+            alert('📋 DANH SÁCH LỖ HỔNG KIẾN THỨC CẦN KHẮC PHỤC:\n\n' + list + '\n\nHãy nhấn vào "Sổ tay câu sai" để gia sư DeepTutor hướng dẫn làm lại nhé!');
+        }
+
+        document.addEventListener('DOMContentLoaded', refreshDeepTutorUI);
+
+    </script>
+<script src="js/app.js"></script>
+    <script src="js/deeptutor.js"></script>
+</body>
+</html>

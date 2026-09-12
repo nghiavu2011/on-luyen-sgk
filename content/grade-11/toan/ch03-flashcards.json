@@ -1,0 +1,98 @@
+[
+  {
+    "front": "$\\lim_{n \\to +\\infty} \\frac{1}{n^k}$ ($k > 0$) bằng bao nhiêu?",
+    "back": "Bằng 0.",
+    "tags": [
+      "Giới hạn",
+      "Cơ bản"
+    ]
+  },
+  {
+    "front": "$\\lim_{n \\to +\\infty} q^n$ khi $|q| < 1$ bằng bao nhiêu?",
+    "back": "Bằng 0.",
+    "tags": [
+      "Lũy thừa",
+      "Giới hạn"
+    ]
+  },
+  {
+    "front": "Bốn dạng vô định cơ bản trong tính giới hạn?",
+    "back": "$\\frac{0}{0}$, $\\frac{\\infty}{\\infty}$, $\\infty - \\infty$, và $0 \\times \\infty$.",
+    "tags": [
+      "Vô định",
+      "Giải tích"
+    ]
+  },
+  {
+    "front": "Khử dạng vô định $\\frac{0}{0}$ đối với hàm phân thức hữu tỉ?",
+    "back": "Phân tích đa thức ở tử và mẫu thành nhân tử chứa $(x - x_0)$ rồi triệt tiêu nhân tử chung.",
+    "tags": [
+      "Khử vô định",
+      "Nhân tử"
+    ]
+  },
+  {
+    "front": "Khử dạng vô định $\\frac{0}{0}$ hoặc $\\infty - \\infty$ có chứa căn thức?",
+    "back": "Nhân và chia với lượng liên hợp tương ứng (bậc 2: $(\\sqrt{A} - B)(\\sqrt{A} + B) = A - B^2$).",
+    "tags": [
+      "Lượng liên hợp",
+      "Căn thức"
+    ]
+  },
+  {
+    "front": "Điều kiện để hàm số $y = f(x)$ liên tục tại điểm $x_0$?",
+    "back": "$\\lim_{x \\to x_0} f(x) = f(x_0)$ (hàm số xác định tại $x_0$, có giới hạn hữu hạn và giới hạn bằng giá trị của hàm tại đó).",
+    "tags": [
+      "Hàm liên tục",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Các hàm số sơ cấp (đa thức, phân thức, lượng giác) liên tục trên đâu?",
+    "back": "Liên tục trên từng khoảng xác định của chúng.",
+    "tags": [
+      "Tính liên tục",
+      "Tập xác định"
+    ]
+  },
+  {
+    "front": "Nội dung định lí giá trị trung gian (nghiệm của phương trình)?",
+    "back": "Nếu $f(x)$ liên tục trên đoạn $[a; b]$ và $f(a) \\times f(b) < 0$ thì phương trình $f(x) = 0$ có ít nhất một nghiệm trong khoảng $(a; b)$.",
+    "tags": [
+      "Nghiệm PT",
+      "Định lí"
+    ]
+  },
+  {
+    "front": "$\\lim_{x \\to 0} \\frac{\\sin x}{x}$ bằng bao nhiêu?",
+    "back": "Bằng 1.",
+    "tags": [
+      "Giới hạn đặc biệt",
+      "Lượng giác"
+    ]
+  },
+  {
+    "front": "Giới hạn một bên $\\lim_{x \\to x_0^+} f(x)$ và $\\lim_{x \\to x_0^-} f(x)$ có quan hệ gì để tồn tại $\\lim_{x \\to x_0} f(x)$?",
+    "back": "Hai giới hạn một bên phải cùng tồn tại và bằng nhau.",
+    "tags": [
+      "Giới hạn 1 bên",
+      "Điều kiện"
+    ]
+  },
+  {
+    "front": "$\\lim_{x \\to +\\infty} \\frac{2x^2 - 3x + 1}{x^2 + 5}$ bằng bao nhiêu?",
+    "back": "Bằng hệ số bậc cao nhất: $\\frac{2}{1} = 2$.",
+    "tags": [
+      "Tính nhanh",
+      "Giới hạn"
+    ]
+  },
+  {
+    "front": "Khi nào một hàm số bị gián đoạn tại điểm $x_0$?",
+    "back": "Khi hàm số không xác định tại $x_0$, hoặc không tồn tại giới hạn, hoặc $\\lim_{x \\to x_0} f(x) \\ne f(x_0)$.",
+    "tags": [
+      "Gián đoạn",
+      "Hàm số"
+    ]
+  }
+]

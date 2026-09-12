@@ -1,0 +1,16 @@
+[
+  {
+    "id": "khtn6_ch06_d2_q1",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "question": "Từ một tế bào mẹ ban đầu trải qua $4$ lần phân chia liên tiếp thì số tế bào con tạo thành là bao nhiêu?",
+    "options": [
+      "A. $8$ tế bào",
+      "B. $16$ tế bào",
+      "C. $32$ tế bào",
+      "D. $64$ tế bào"
+    ],
+    "answer": 1,
+    "explanation": "📌 Công thức: Số tế bào con sau $n$ lần phân chia là $N = 2^n$. Với $n = 4 \\Rightarrow 2^4 = 16$ tế bào.\n💡 Mỗi lần phân chia số lượng tế bào nhân đôi ($1 \\rightarrow 2 \\rightarrow 4 \\rightarrow 8 \\rightarrow 16$).\n⚠️ Tránh nhầm lấy $1 \\times 4$ hoặc $4 \\times 2$."
+  }
+]

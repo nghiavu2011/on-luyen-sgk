@@ -1,0 +1,98 @@
+[
+  {
+    "front": "Định nghĩa đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$?",
+    "back": "$f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0} = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x}$.",
+    "tags": [
+      "Đạo hàm",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Ý nghĩa hình học của đạo hàm $f'(x_0)$?",
+    "back": "Là hệ số góc $k$ của tiếp tuyến với đồ thị $(C)$ tại tiếp điểm $M(x_0; f(x_0))$: $k = f'(x_0) = \\tan \\alpha$.",
+    "tags": [
+      "Ý nghĩa hình học",
+      "Tiếp tuyến"
+    ]
+  },
+  {
+    "front": "Phương trình tiếp tuyến của đồ thị hàm số tại điểm $M(x_0; y_0)$?",
+    "back": "$y - y_0 = f'(x_0)(x - x_0)$ hay $y = f'(x_0)(x - x_0) + y_0$.",
+    "tags": [
+      "Phương trình",
+      "Tiếp tuyến"
+    ]
+  },
+  {
+    "front": "Đạo hàm của hàm lũy thừa: $(x^n)'$ và $(u^n)'$?",
+    "back": "$(x^n)' = n x^{n-1}$; $(u^n)' = n u^{n-1} u'$.",
+    "tags": [
+      "Quy tắc",
+      "Lũy thừa"
+    ]
+  },
+  {
+    "front": "Đạo hàm của tích $(u \\cdot v)'$ và thương $\\left(\\frac{u}{v}\\right)'$?",
+    "back": "$(u v)' = u'v + uv'$; $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$.",
+    "tags": [
+      "Tích thương",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Đạo hàm của các hàm lượng giác $(\\sin x)', (\\cos x)', (\\tan x)'$?",
+    "back": "$(\\sin x)' = \\cos x$; $(\\cos x)' = -\\sin x$; $(\\tan x)' = \\frac{1}{\\cos^2 x} = 1 + \\tan^2 x$.",
+    "tags": [
+      "Lượng giác",
+      "Đạo hàm"
+    ]
+  },
+  {
+    "front": "Đạo hàm của hàm mũ $(e^x)'$ và $(a^x)'$?",
+    "back": "$(e^x)' = e^x$; $(a^x)' = a^x \\ln a$.",
+    "tags": [
+      "Hàm mũ",
+      "Đạo hàm"
+    ]
+  },
+  {
+    "front": "Đạo hàm của $(\\ln x)'$ và $(\\log_a x)'$?",
+    "back": "$(\\ln x)' = \\frac{1}{x}$; $(\\log_a x)' = \\frac{1}{x \\ln a}$.",
+    "tags": [
+      "Lôgarit",
+      "Đạo hàm"
+    ]
+  },
+  {
+    "front": "Ý nghĩa vật lí của đạo hàm cấp một và cấp hai trong chuyển động thẳng $s = s(t)$?",
+    "back": "Vận tốc tức thời $v(t) = s'(t)$; Gia tốc tức thời $a(t) = v'(t) = s''(t)$.",
+    "tags": [
+      "Vật lí",
+      "Vận tốc gia tốc"
+    ]
+  },
+  {
+    "front": "Đạo hàm của hàm hợp $y = f(u(x))$ tính theo công thức nào?",
+    "back": "$y'_x = y'_u \\times u'_x$.",
+    "tags": [
+      "Hàm hợp",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Tính đạo hàm của $y = x^3 - 3x^2 + 2$ tại điểm $x = 2$?",
+    "back": "$y' = 3x^2 - 6x \\Rightarrow y'(2) = 3(4) - 6(2) = 0$.",
+    "tags": [
+      "Tính toán",
+      "Đạo hàm"
+    ]
+  },
+  {
+    "front": "Một chất điểm chuyển động với phương trình $s(t) = t^3 - 3t$. Vận tốc tại thời điểm $t = 2\\text{ s}$ là bao nhiêu?",
+    "back": "$v(t) = s'(t) = 3t^2 - 3 \\Rightarrow v(2) = 3(4) - 3 = 9\\text{ m/s}$.",
+    "tags": [
+      "Vận tốc",
+      "Bài toán vật lí"
+    ]
+  }
+]

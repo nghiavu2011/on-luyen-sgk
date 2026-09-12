@@ -1,0 +1,30 @@
+[
+  {
+    "id": "toan11_ch01_d1_q1",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "question": "Khẳng định nào sau đây là ĐÚNG với mọi số thực $x$?",
+    "options": [
+      "A. $\\sin^2 x - \\cos^2 x = 1$",
+      "B. $\\sin^2 x + \\cos^2 x = 1$",
+      "C. $\\sin x + \\cos x = 1$",
+      "D. $\\sin^2 x + \\cos^2 x = 0$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Hằng đẳng thức lượng giác cơ bản: $\\sin^2 x + \\cos^2 x = 1$ với mọi $x \\in \\mathbb{R}$.\n💡 Xuất phát trực tiếp từ định lí Pythagore trên đường tròn lượng giác.\n⚠️ Tránh nhầm với hiệu hai bình phương."
+  },
+  {
+    "id": "toan11_ch01_d1_q2",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "question": "Hàm số nào sau đây là hàm số chẵn?",
+    "options": [
+      "A. $y = \\sin x$",
+      "B. $y = \\tan x$",
+      "C. $y = \\cos x$",
+      "D. $y = \\cot x$"
+    ],
+    "answer": 2,
+    "explanation": "📌 Tính chẵn lẻ: $\\cos(-x) = \\cos x$ nên $y = \\cos x$ là hàm số chẵn.\n💡 $\\sin(-x) = -\\sin x$, $\\tan(-x) = -\\tan x$ là các hàm số lẻ.\n⚠️ Cos đối là hàm chẵn duy nhất trong nhóm cơ bản."
+  }
+]

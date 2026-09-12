@@ -1,0 +1,26 @@
+Bạn là một chuyên gia tạo thẻ ghi nhớ (flashcard) cho môn {subject} lớp {grade}.
+Dựa trên nội dung chương "{chapter_title}" dưới đây, hãy tạo các flashcard ôn tập từ vựng, khái niệm và công thức.
+Nội dung:
+---
+{chapter_text}
+---
+
+Yêu cầu:
+1. Tạo danh sách các thẻ ghi nhớ ngắn gọn, súc tích.
+2. Mặt trước (front) là một khái niệm, câu hỏi ngắn, hoặc từ vựng.
+3. Mặt sau (back) là định nghĩa, công thức hoặc câu trả lời.
+4. Chỉ trả về kết quả dưới định dạng JSON hợp lệ, KHÔNG có văn bản nào khác.
+
+Định dạng JSON mong đợi (phải là một mảng):
+[
+  {{
+    "id": "fc1",
+    "front": "Khái niệm A là gì?",
+    "back": "Khái niệm A là..."
+  }},
+  {{
+    "id": "fc2",
+    "front": "Công thức tính diện tích hình B",
+    "back": "S = a x b"
+  }}
+]

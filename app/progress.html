@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Tiến độ học tập — 📖 Ôn luyện</title>
+    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v5">
+</head>
+<body>
+
+    <!-- ================= TOP NAVIGATION ================= -->
+    <header class="ol-navbar">
+        <div class="ol-nav-container">
+            <a href="index.html" class="ol-brand">
+                <div class="ol-brand-icon">
+                    <img src="assets/app_logo.png" alt="Ôn Luyện Logo">
+                </div>
+                <div class="ol-brand-text">
+                    <h1>Ôn luyện</h1>
+                    <p>Kiến thức vững vàng • Tương lai rộng mở</p>
+                </div>
+            </a>
+
+            <ul class="ol-nav-menu">
+                <li class="ol-nav-item"><a href="index.html">Trang chủ</a></li>
+                <li class="ol-nav-item"><a href="index.html#levels">Cấp học</a></li>
+                <li class="ol-nav-item"><a href="index.html#subjects">Môn học</a></li>
+                <li class="ol-nav-item"><a href="progress.html" class="active">Tiến độ</a></li>
+                <li class="ol-nav-item"><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-nav-actions">
+                <a href="index.html" class="ol-btn-back">⬅ Trang chủ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subpage Breadcrumb Header -->
+    <div class="ol-subpage-header">
+        <div class="ol-breadcrumb-container">
+            <div class="ol-breadcrumbs">
+                <a href="index.html">Trang chủ</a>
+                <span class="separator">/</span>
+                <span class="current">Hồ sơ & Tiến độ học tập</span>
+            </div>
+            <div>
+                <span class="ol-badge-tag ol-badge-blue">🌟 Thành tích cá nhân</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="ol-container" style="max-width: 960px;">
+
+        <!-- Overview Stats Grid -->
+        <div class="ol-card-box" style="margin-bottom: 1.5rem;">
+            <h2 style="font-size: 1.35rem; font-weight: 800; color: var(--ol-text-title); margin-bottom: 1.25rem;">
+                🏆 Thành tích tích lũy
+            </h2>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="background: var(--ol-bg); padding: 1.5rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border); text-align: center;">
+                    <img src="assets/badge_trophy.png" alt="XP Trophy" style="width: 48px; height: 48px; object-fit: contain; margin: 0 auto 0.5rem; display: block;">
+                    <div style="font-size: 2rem; font-weight: 800; color: #f59e0b;" id="prog-xp">0</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Tổng điểm kinh nghiệm (XP)</div>
+                </div>
+
+                <div style="background: var(--ol-bg); padding: 1.5rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border); text-align: center;">
+                    <img src="assets/badge_streak.png" alt="Streak Fire" style="width: 48px; height: 48px; object-fit: contain; margin: 0 auto 0.5rem; display: block;">
+                    <div style="font-size: 2rem; font-weight: 800; color: #ea580c;" id="prog-streak">1</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Ngày học liên tục (Streak)</div>
+                </div>
+
+                <div style="background: var(--ol-bg); padding: 1.5rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border); text-align: center;">
+                    <div style="font-size: 2.2rem; font-weight: 800; color: #0284c7;" id="prog-level">Cấp 1</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Danh hiệu hiện tại</div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- DeepTutor Diagnostic & Mastery Section -->
+        <div class="ol-card-box" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, #fdf4ff 0%, #f0fdf4 100%); border: 1.5px solid #d8b4fe;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                    <img src="assets/mascot_inspect.png" alt="Chẩn đoán" style="width: 44px; height: 44px; object-fit: contain;">
+                    <div>
+                        <h2 style="font-size: 1.25rem; font-weight: 800; color: #581c87; margin: 0;">
+                            DeepTutor: Chẩn đoán Ký ức 3 tầng
+                        </h2>
+                        <p style="font-size: 0.8rem; color: #7e22ce; margin: 0.15rem 0 0 0;">L1 Dấu vết · L2 Lỗ hổng kiến thức & Bẫy ngụy biện · L3 Tinh thông</p>
+                    </div>
+                </div>
+                <a href="quiz.html?mode=mistakes" class="ol-btn-primary" style="background: #dc2626; text-decoration: none; font-size: 0.85rem; padding: 0.45rem 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                    <img src="assets/badge_shield.png" alt="Khiên phục hồi" style="width: 22px; height: 22px; object-fit: contain;">
+                    <span>Luyện tập Sổ tay câu sai (<span id="prog-dt-mistakes">0</span>)</span>
+                </a>
+            </div>
+
+            <!-- 2 Cột: L2 Lỗ hổng & L3 Tinh thông -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                <!-- L2 Knowledge Gaps -->
+                <div style="background: white; border-radius: 12px; padding: 1.25rem; border: 1px solid #fed7aa;">
+                    <h4 style="font-size: 0.95rem; font-weight: 800; color: #c2410c; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem;">
+                        <span>🎯</span> L2: Danh sách lỗ hổng kiến thức
+                    </h4>
+                    <div id="prog-gaps-list" style="font-size: 0.88rem; color: #475569;">
+                        Đang phân tích...
+                    </div>
+                </div>
+
+                <!-- L3 Mastery State -->
+                <div style="background: white; border-radius: 12px; padding: 1.25rem; border: 1px solid #bbf7d0;">
+                    <h4 style="font-size: 0.95rem; font-weight: 800; color: #15803d; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem;">
+                        <span>👑</span> L3: Cấp độ tinh thông theo môn
+                    </h4>
+                    <div id="prog-mastery-list" style="font-size: 0.88rem; color: #475569;">
+                        Đang phân tích...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <!-- Data Backup & Restore Section (Bảo toàn tiến độ học tập) -->
+        <div class="ol-card-box" style="margin-bottom: 1.5rem; border: 1px solid #cbd5e1; background: white;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 0.25rem;">
+                        💾 Sao lưu & Bảo toàn tiến độ học tập
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #64748b; margin: 0;">
+                        Xuất dữ liệu Streak, XP, Ký ức DeepTutor & Sổ tay câu sai ra tệp JSON để đồng bộ sang điện thoại hoặc máy tính khác.
+                    </p>
+                </div>
+                <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+                    <button class="ol-btn-primary" onclick="exportStudyProgress()" style="background: #0284c7; font-size: 0.85rem; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer;">
+                        📥 Tải file sao lưu (.JSON)
+                    </button>
+                    <label class="ol-btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; display: inline-flex; align-items: center; gap: 0.35rem; margin: 0;">
+                        📤 Khôi phục tiến độ
+                        <input type="file" id="import-file-input" accept=".json" style="display: none;" onchange="handleFileImport(event)">
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Completed Lessons -->
+        <div class="ol-card-box">
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--ol-text-title); margin-bottom: 1rem;">
+                📚 Các bài học đã hoàn thành
+            </h3>
+            <div id="subject-progress">
+                <div style="background: var(--ol-bg); padding: 1.25rem; border-radius: var(--ol-radius-sm); border: 1px dashed var(--ol-border); text-align: center; color: var(--ol-text-muted);">
+                    Em hãy bắt đầu học và làm bài tập trắc nghiệm để mở khóa thêm nhiều huy hiệu nhé!
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
+    <footer class="ol-footer" style="margin-top: 3.5rem;">
+        <div class="ol-footer-content">
+            <div style="display:flex; align-items:center; gap:0.85rem;">
+                <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
+                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                    <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
+                    <p style="font-size:0.75rem; color:var(--ol-text-muted); margin:0;">Phát triển bởi <strong>N&Mstudio_Education</strong></p>
+                </div>
+            </div>
+
+            <div style="font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.25rem;">
+                <div>📞 Hotline / Zalo: <a href="tel:+84985578385" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">+84 985578385</a></div>
+                <div>🌐 Website: <a href="https://www.nmstudio.id.vn/" target="_blank" rel="noopener" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">www.nmstudio.id.vn</a></div>
+            </div>
+
+            <ul class="ol-footer-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="index.html#levels">Cấp học</a></li>
+                <li><a href="progress.html">Tiến độ</a></li>
+                <li><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-footer-copy">
+                © 2026 by NMstudio. Toàn bộ chương trình bám sát SGK Bộ GD&ĐT 2026 – 2027.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/deeptutor.js"></script>
+    <script>
+        function loadProgress() {
+            const state = getState();
+            document.getElementById('prog-xp').textContent = state.xp || 0;
+            document.getElementById('prog-streak').textContent = `${state.streak || 1} ngày`;
+
+            const level = Math.floor((state.xp || 0) / 50) + 1;
+            document.getElementById('prog-level').textContent = `Cấp ${level}`;
+
+            // DeepTutor Progress Rendering
+            if (window.DeepTutor) {
+                const mistakes = DeepTutor.getMistakeBank();
+                const dtMistakesEl = document.getElementById('prog-dt-mistakes');
+                if (dtMistakesEl) dtMistakesEl.textContent = mistakes.length;
+
+                // L2 Gaps
+                const gaps = DeepTutor.getKnowledgeGaps(5);
+                const gapsEl = document.getElementById('prog-gaps-list');
+                if (gapsEl) {
+                    if (gaps.length === 0) {
+                        gapsEl.innerHTML = '<div style="color:#059669; font-weight:600;">✔ Rất tuyệt! Chưa có lỗ hổng nào cần cảnh báo.</div>';
+                    } else {
+                        gapsEl.innerHTML = gaps.map(g => `
+                            <div style="margin-bottom: 0.6rem; padding-bottom: 0.6rem; border-bottom: 1px dashed #e2e8f0;">
+                                <div style="font-weight: 700; color: #0f172a;">${g.concept} <span style="font-size:0.75rem; color:#dc2626;">(Sai ${g.wrongCount} lần)</span></div>
+                                ${g.trap ? `<div style="font-size: 0.78rem; color: #b45309; margin-top:0.2rem;">⚠️ Bẫy: ${g.trap}</div>` : ''}
+                            </div>
+                        `).join('');
+                    }
+                }
+
+                // L3 Mastery
+                const mastery = DeepTutor.getMasteryProfile();
+                const masteryEl = document.getElementById('prog-mastery-list');
+                if (masteryEl) {
+                    const entries = Object.entries(mastery);
+                    if (entries.length === 0) {
+                        masteryEl.innerHTML = '<div style="color:#64748b;">Chưa có dữ liệu môn học. Hãy hoàn thành các bài trắc nghiệm nhé!</div>';
+                    } else {
+                        masteryEl.innerHTML = entries.map(([sub, data]) => `
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 0.5rem; padding: 0.4rem 0.6rem; background:#f8fafc; border-radius:6px;">
+                                <strong style="text-transform:uppercase; color:#1e293b;">${sub}</strong>
+                                <span style="font-weight:700; color:#059669;">${data.level} (${data.correct}/${data.total} câu)</span>
+                            </div>
+                        `).join('');
+                    }
+                }
+            }
+
+            const container = document.getElementById('subject-progress');
+            if (state.completedLessons && state.completedLessons.length > 0) {
+                container.innerHTML = `
+                    <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                        ${state.completedLessons.map(k => {
+                            const parts = k.split('/');
+                            return `
+                                <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; background: var(--ol-bg); border-radius: var(--ol-radius-sm); border: 1px solid var(--ol-border);">
+                                    <div style="font-weight: 600; color: var(--ol-text-title); font-size: 0.92rem;">
+                                        📘 Lớp ${parts[0]} · ${parts[1].toUpperCase()} · ${parts[2]} (${parts[3]})
+                                    </div>
+                                    <span class="ol-badge-tag ol-badge-emerald" style="margin: 0;">✔ Đã hoàn thành</span>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            }
+        }
+        loadProgress();
+    </script>
+</body>
+</html>

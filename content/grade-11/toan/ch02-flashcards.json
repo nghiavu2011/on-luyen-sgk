@@ -1,0 +1,98 @@
+[
+  {
+    "front": "Cấp số cộng (CSC) là gì?",
+    "back": "Là dãy số mà từ số hạng thứ hai trở đi, mỗi số hạng bằng số hạng đứng ngay trước nó cộng với một số không đổi $d$ (công sai): $u_{n+1} = u_n + d$.",
+    "tags": [
+      "CSC",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Số hạng tổng quát $u_n$ của Cấp số cộng?",
+    "back": "$u_n = u_1 + (n - 1)d$.",
+    "tags": [
+      "CSC",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Tổng $n$ số hạng đầu $S_n$ của Cấp số cộng?",
+    "back": "$S_n = \\frac{n(u_1 + u_n)}{2} = \\frac{n[2u_1 + (n - 1)d]}{2}$.",
+    "tags": [
+      "CSC",
+      "Tổng n số"
+    ]
+  },
+  {
+    "front": "Tính chất 3 số hạng liên tiếp của CSC?",
+    "back": "$u_{k-1} + u_{k+1} = 2u_k$ (số ở giữa là trung bình cộng của 2 số kề bên).",
+    "tags": [
+      "CSC",
+      "Tính chất"
+    ]
+  },
+  {
+    "front": "Cấp số nhân (CSN) là gì?",
+    "back": "Là dãy số mà từ số hạng thứ hai trở đi, mỗi số hạng bằng số hạng đứng trước nó nhân với một số không đổi $q$ (công bội): $u_{n+1} = u_n \\times q$.",
+    "tags": [
+      "CSN",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Số hạng tổng quát $u_n$ của Cấp số nhân?",
+    "back": "$u_n = u_1 \\times q^{n-1}$.",
+    "tags": [
+      "CSN",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Tổng $n$ số hạng đầu $S_n$ của Cấp số nhân ($q \\ne 1$)?",
+    "back": "$S_n = \\frac{u_1(1 - q^n)}{1 - q}$.",
+    "tags": [
+      "CSN",
+      "Tổng n số"
+    ]
+  },
+  {
+    "front": "Tính chất 3 số hạng liên tiếp của CSN?",
+    "back": "$u_{k-1} \\times u_{k+1} = u_k^2$.",
+    "tags": [
+      "CSN",
+      "Tính chất"
+    ]
+  },
+  {
+    "front": "Tổng của cấp số nhân lùi vô hạn ($|q| < 1$)?",
+    "back": "$S = \\frac{u_1}{1 - q}$.",
+    "tags": [
+      "Lùi vô hạn",
+      "CSN"
+    ]
+  },
+  {
+    "front": "Thế nào là một dãy số tăng?",
+    "back": "$u_{n+1} > u_n, \\forall n \\in \\mathbb{N}^*$ (hoặc $u_{n+1} - u_n > 0$).",
+    "tags": [
+      "Dãy tăng",
+      "Tính đơn điệu"
+    ]
+  },
+  {
+    "front": "Thế nào là dãy số bị chặn trên, bị chặn dưới?",
+    "back": "Bị chặn trên nếu $\\exists M: u_n \\le M, \\forall n$; Bị chặn dưới nếu $\\exists m: u_n \\ge m, \\forall n$.",
+    "tags": [
+      "Bị chặn",
+      "Dãy số"
+    ]
+  },
+  {
+    "front": "Cấp số nhân có $u_1 = 3, q = 2$. Số hạng thứ 5 là bao nhiêu?",
+    "back": "$u_5 = 3 \\times 2^{5-1} = 3 \\times 16 = 48$.",
+    "tags": [
+      "Tính toán",
+      "CSN"
+    ]
+  }
+]

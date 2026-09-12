@@ -1,0 +1,98 @@
+[
+  {
+    "front": "Định nghĩa Lôgarit cơ số $a$ của $b$ ($0 < a \\ne 1, b > 0$)?",
+    "back": "$\\log_a b = c \\Leftrightarrow a^c = b$.",
+    "tags": [
+      "Lôgarit",
+      "Định nghĩa"
+    ]
+  },
+  {
+    "front": "Công thức lôgarit của một tích và một thương?",
+    "back": "$\\log_a(xy) = \\log_a x + \\log_a y$; $\\log_a(\\frac{x}{y}) = \\log_a x - \\log_a y$ ($x, y > 0$).",
+    "tags": [
+      "Công thức",
+      "Lôgarit"
+    ]
+  },
+  {
+    "front": "Công thức đổi cơ số lôgarit?",
+    "back": "$\\log_a b = \\frac{\\log_c b}{\\log_c a}$ ($0 < c \\ne 1$).",
+    "tags": [
+      "Đổi cơ số",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Tập xác định và tập giá trị của hàm số mũ $y = a^x$ ($a > 0, a \\ne 1$)?",
+    "back": "TXĐ $D = \\mathbb{R}$; Tập giá trị $T = (0; +\\infty)$ (đồ thị luôn nằm phía trên trục hoành).",
+    "tags": [
+      "Hàm số mũ",
+      "Tập xác định"
+    ]
+  },
+  {
+    "front": "Tập xác định và tập giá trị của hàm số lôgarit $y = \\log_a x$?",
+    "back": "TXĐ $D = (0; +\\infty)$; Tập giá trị $T = \\mathbb{R}$.",
+    "tags": [
+      "Hàm lôgarit",
+      "Tập xác định"
+    ]
+  },
+  {
+    "front": "Tính đồng biến và nghịch biến của hàm số mũ và lôgarit cơ số $a$?",
+    "back": "Nếu $a > 1$: hàm số luôn đồng biến trên TXĐ; Nếu $0 < a < 1$: hàm số luôn nghịch biến trên TXĐ.",
+    "tags": [
+      "Đơn điệu",
+      "Cơ số a"
+    ]
+  },
+  {
+    "front": "Nghiệm của phương trình $a^x = b$ ($a > 0, a \\ne 1$)?",
+    "back": "Nếu $b > 0 \\Rightarrow x = \\log_a b$; Nếu $b \\le 0 \\Rightarrow$ phương trình vô nghiệm.",
+    "tags": [
+      "Phương trình mũ",
+      "Nghiệm"
+    ]
+  },
+  {
+    "front": "Nghiệm của phương trình $\\log_a x = b$?",
+    "back": "$x = a^b$ (luôn có nghiệm duy nhất với mọi $b \\in \\mathbb{R}$).",
+    "tags": [
+      "PT Lôgarit",
+      "Nghiệm"
+    ]
+  },
+  {
+    "front": "Khi giải bất phương trình $a^{f(x)} > a^{g(x)}$ với $0 < a < 1$, chiều bất đẳng thức thay đổi thế nào?",
+    "back": "Chiều bất đẳng thức phải đổi ngược lại: $f(x) < g(x)$.",
+    "tags": [
+      "Bất phương trình",
+      "Đổi chiều"
+    ]
+  },
+  {
+    "front": "Lôgarit tự nhiên (ln) và Lôgarit thập phân (log/lg) có cơ số lần lượt là gì?",
+    "back": "Lôgarit tự nhiên có cơ số là số vô tỉ $e \\approx 2,71828$; Lôgarit thập phân có cơ số là 10.",
+    "tags": [
+      "Cơ số e",
+      "Lôgarit"
+    ]
+  },
+  {
+    "front": "Đồ thị của $y = a^x$ và $y = \\log_a x$ đối xứng với nhau qua đường thẳng nào?",
+    "back": "Đối xứng nhau qua đường phân giác của góc phần tư thứ nhất $y = x$.",
+    "tags": [
+      "Đối xứng",
+      "Đồ thị"
+    ]
+  },
+  {
+    "front": "Tính giá trị: $\\log_2 8 + \\log_3 \\frac{1}{9}$?",
+    "back": "$\\log_2 2^3 + \\log_3 3^{-2} = 3 + (-2) = 1$.",
+    "tags": [
+      "Tính toán",
+      "Lôgarit"
+    ]
+  }
+]

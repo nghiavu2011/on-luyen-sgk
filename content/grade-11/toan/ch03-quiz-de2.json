@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch03_d2_q1",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "question": "Tính giới hạn dạng $\\frac{0}{0}$: $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$:",
+    "options": [
+      "A. $0$",
+      "B. $2$",
+      "C. $4$",
+      "D. Không tồn tại"
+    ],
+    "answer": 2,
+    "explanation": "📌 Khử dạng vô định: Phân tích tử $x^2 - 4 = (x - 2)(x + 2)$.\nTriệt tiêu $(x - 2)$: $\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4$.\n💡 Thay $x = 2$ vào sau khi đã rút gọn thừa số triệt tiêu.\n⚠️ Tránh kết luận ngay giới hạn bằng 0/0."
+  }
+]

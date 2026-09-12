@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch02_d2_q1",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "question": "Tổng của $10$ số hạng đầu tiên của cấp số cộng có $u_1 = 1$ và công sai $d = 2$ (dãy 10 số lẻ đầu tiên) bằng:",
+    "options": [
+      "A. $100$",
+      "B. $90$",
+      "C. $110$",
+      "D. $19$"
+    ],
+    "answer": 0,
+    "explanation": "📌 Công thức: $S_n = \\frac{n[2u_1 + (n-1)d]}{2}$.\n💡 $S_{10} = \\frac{10[2 \\times 1 + 9 \\times 2]}{2} = 5 \\times (2 + 18) = 100$.\n⚠️ Tổng của $n$ số lẻ đầu tiên luôn bằng $n^2$ ($10^2 = 100$)."
+  }
+]

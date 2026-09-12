@@ -1,0 +1,26 @@
+Bạn là một giáo viên chuyên môn giảng dạy môn {subject} lớp {grade}.
+Hãy tóm tắt nội dung bài học sau để học sinh ôn tập.
+Tên bài học: {lesson_title}
+Nội dung trích xuất từ sách:
+---
+{lesson_text}
+---
+
+Yêu cầu:
+1. Tóm tắt bài học dưới dạng các gạch đầu dòng (bullet points) dễ hiểu cho học sinh lớp {grade}.
+2. Làm nổi bật các công thức, định nghĩa và từ vựng quan trọng.
+3. Cung cấp 1-2 ví dụ minh họa kèm theo lời giải từng bước.
+4. Sử dụng ngôn ngữ tiếng Việt đơn giản, rõ ràng.
+5. Chỉ trả về kết quả dưới định dạng JSON hợp lệ, KHÔNG có văn bản nào khác.
+
+Định dạng JSON mong đợi (phải là một object):
+{{
+  "summary": ["Ý 1", "Ý 2", "Ý 3"],
+  "keyConcepts": ["Khái niệm 1", "Khái niệm 2"],
+  "examples": [
+    {{
+      "question": "Câu hỏi ví dụ",
+      "solution": ["Bước 1...", "Bước 2..."]
+    }}
+  ]
+}}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "th11_ch06_d1_q1",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "question": "Điều kiện tiên quyết để có thể áp dụng thuật toán tìm kiếm nhị phân trên một mảng là:",
+    "options": [
+      "A. Mảng có số phần tử là số chẵn",
+      "B. Các phần tử trong mảng đã được sắp xếp theo thứ tự tăng hoặc giảm",
+      "C. Mảng chỉ chứa các số nguyên dương",
+      "D. Mảng có độ dài dưới 10 phần tử"
+    ],
+    "answer": 1,
+    "explanation": "📌 Nguyên lí tìm kiếm nhị phân: Mảng phải được sắp xếp để mỗi lần so sánh có thể loại bỏ được một nửa số phần tử còn lại.\n💡 Nếu mảng lộn xộn phải dùng tìm kiếm tuần tự $O(n)$.\n⚠️ Thuật toán tìm kiếm kinh điển."
+  }
+]

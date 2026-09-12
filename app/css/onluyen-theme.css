@@ -1,0 +1,1515 @@
+/* ==========================================================================
+   HỆ THỐNG GIAO DIỆN "ÔN LUYỆN" (THEO MẪU THIẾT KẾ DEMO 2026 - 2027)
+   Chuẩn hóa cho 3 cấp: Tiểu học (Lớp 1-5), THCS (Lớp 6-9), THPT (Lớp 10-12)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+:root {
+    /* Main Theme - Clean Modern Premium EdTech */
+    --ol-primary: #1565c0;        /* Royal Blue */
+    --ol-primary-hover: #0d47a1;
+    --ol-primary-light: #e3f2fd;
+    --ol-accent: #f59e0b;         /* Warm Gold/Amber */
+    
+    /* Backgrounds */
+    --ol-bg: #f8fafc;
+    --ol-surface: #ffffff;
+    --ol-border: #e2e8f0;
+    --ol-border-hover: #cbd5e1;
+    
+    /* Text */
+    --ol-text-title: #0f172a;
+    --ol-text-body: #334155;
+    --ol-text-muted: #64748b;
+    --ol-text-light: #94a3b8;
+    
+    /* Cấp 1 - Tiểu học (Orange / Warm / Joyful) */
+    --ol-c1-primary: #ea580c;
+    --ol-c1-bg: #fff7ed;
+    --ol-c1-border: #fed7aa;
+    --ol-c1-btn: #f97316;
+    
+    /* Cấp 2 - THCS (Sky Blue / Vibrant) */
+    --ol-c2-primary: #0284c7;
+    --ol-c2-bg: #f0f9ff;
+    --ol-c2-border: #bae6fd;
+    --ol-c2-btn: #0284c7;
+    
+    /* Cấp 3 - THPT (Emerald Mint & Deep Navy) */
+    --ol-c3-primary: #059669;
+    --ol-c3-bg: #f0fdf4;
+    --ol-c3-border: #bbf7d0;
+    --ol-c3-btn: #10b981;
+    
+    /* Shadows & Radii */
+    --ol-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --ol-shadow-md: 0 4px 14px -2px rgba(15, 23, 42, 0.07);
+    --ol-shadow-lg: 0 10px 25px -4px rgba(15, 23, 42, 0.09);
+    --ol-radius-sm: 8px;
+    --ol-radius-md: 14px;
+    --ol-radius-lg: 20px;
+    --ol-radius-full: 9999px;
+    
+    --ol-font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ol-font);
+}
+
+body {
+    background-color: var(--ol-bg);
+    color: var(--ol-text-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 3rem;
+}
+
+/* ================= TOP NAVBAR (ZERO WRAP & POLISHED) ================= */
+.ol-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--ol-border);
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.ol-nav-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.ol-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    text-decoration: none;
+    cursor: pointer;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.ol-brand-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(21, 101, 192, 0.2);
+    border: 1.5px solid white;
+    flex-shrink: 0;
+}
+
+.ol-brand-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ol-brand-text {
+    white-space: nowrap;
+}
+
+.ol-brand-text h1 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #1565c0;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.ol-brand-text p {
+    font-size: 0.75rem;
+    color: var(--ol-text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+    margin: 0.15rem 0 0 0;
+}
+
+.ol-nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.15rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.ol-nav-item {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.ol-nav-item a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--ol-text-body);
+    transition: color 0.15s ease;
+    padding: 0.4rem 0.25rem;
+    position: relative;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+}
+
+.ol-nav-item a:hover,
+.ol-nav-item a.active {
+    color: var(--ol-primary);
+}
+
+.ol-nav-item a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--ol-primary);
+    border-radius: 2px;
+}
+
+.ol-nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.ol-nav-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ol-nav-search input {
+    background: #f1f5f9;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-full);
+    padding: 0.45rem 1rem 0.45rem 2.2rem;
+    font-size: 0.85rem;
+    width: 200px;
+    outline: none;
+    transition: all 0.2s ease;
+    color: var(--ol-text-title);
+}
+
+.ol-nav-search input:focus {
+    background: white;
+    border-color: var(--ol-primary);
+    width: 250px;
+    box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.1);
+}
+
+.ol-nav-search-icon {
+    position: absolute;
+    left: 0.75rem;
+    color: var(--ol-text-muted);
+    font-size: 0.85rem;
+    pointer-events: none;
+}
+
+.ol-user-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.3rem 0.75rem 0.3rem 0.3rem;
+    background: #f8fafc;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-full);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ol-user-badge:hover {
+    background: white;
+    border-color: var(--ol-primary);
+}
+
+.ol-user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.82rem;
+}
+
+.ol-user-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ol-user-name {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--ol-text-title);
+    line-height: 1.1;
+}
+
+.ol-user-role {
+    font-size: 0.7rem;
+    color: var(--ol-text-muted);
+    font-weight: 500;
+}
+
+/* Study Tabs Switcher */
+.ol-study-tabs-container {
+    background: white;
+    border-bottom: 1px solid var(--ol-border);
+    padding: 0.75rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.ol-study-tabs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f1f5f9;
+    padding: 0.35rem;
+    border-radius: var(--ol-radius-full);
+    width: fit-content;
+}
+
+.ol-study-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.35rem;
+    border-radius: var(--ol-radius-full);
+    border: none;
+    background: transparent;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--ol-text-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.ol-study-tab:hover {
+    color: var(--ol-text-title);
+}
+
+.ol-study-tab.active {
+    background: white;
+    color: var(--ol-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ol-study-tab.active.tab-thcs {
+    color: #0284c7;
+}
+
+.ol-study-tab.active.tab-thpt {
+    color: #059669;
+}
+
+.ol-btn-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--ol-border);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--ol-text-body);
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.ol-btn-icon:hover {
+    background: var(--ol-bg);
+    border-color: var(--ol-border-hover);
+}
+
+.ol-btn-outline {
+    padding: 0.5rem 1.15rem;
+    border: 1px solid var(--ol-border);
+    background: white;
+    border-radius: var(--ol-radius-full);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--ol-text-body);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ol-btn-outline:hover {
+    border-color: var(--ol-primary);
+    color: var(--ol-primary);
+    background: var(--ol-primary-light);
+}
+
+.ol-btn-primary {
+    padding: 0.5rem 1.35rem;
+    background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+    border: none;
+    border-radius: var(--ol-radius-full);
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(21, 101, 192, 0.25);
+    transition: all 0.2s ease;
+}
+
+.ol-btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(21, 101, 192, 0.35);
+}
+
+/* ================= MAIN CONTAINER ================= */
+.ol-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* ================= HERO BANNER ================= */
+.ol-hero-section {
+    padding: 2.5rem 0 1.5rem;
+}
+
+.ol-hero-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+    border: 1px solid #dbeafe;
+    border-radius: var(--ol-radius-lg);
+    padding: 3rem;
+    box-shadow: var(--ol-shadow-md);
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.ol-hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(21, 101, 192, 0.08);
+    color: var(--ol-primary);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0.3rem 0.85rem;
+    border-radius: var(--ol-radius-full);
+    margin-bottom: 1rem;
+    border: 1px solid rgba(21, 101, 192, 0.15);
+}
+
+.ol-hero-title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    letter-spacing: -0.8px;
+}
+
+.ol-hero-desc {
+    font-size: 1.02rem;
+    color: var(--ol-text-muted);
+    line-height: 1.6;
+    margin-bottom: 1.75rem;
+    max-width: 580px;
+}
+
+.ol-hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.25rem;
+}
+
+.ol-btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.75rem;
+    background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: var(--ol-radius-full);
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(21, 101, 192, 0.3);
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.ol-btn-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(21, 101, 192, 0.4);
+}
+
+.ol-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: var(--ol-primary);
+    font-size: 0.98rem;
+    font-weight: 600;
+    border-radius: var(--ol-radius-full);
+    text-decoration: none;
+    border: 1px solid #bfdbfe;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.ol-btn-secondary:hover {
+    background: #eff6ff;
+    border-color: var(--ol-primary);
+}
+
+.ol-hero-stats {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e2e8f0;
+}
+
+.ol-stat-item h3 {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: var(--ol-primary);
+    line-height: 1.1;
+}
+
+.ol-stat-item p {
+    font-size: 0.82rem;
+    color: var(--ol-text-muted);
+    font-weight: 500;
+}
+
+.ol-hero-banner-visual {
+    background: transparent;
+    border: none;
+    border-radius: var(--ol-radius-md);
+    padding: 0;
+    box-shadow: none;
+    text-align: center;
+}
+
+.ol-badge-note {
+    display: inline-block;
+    background: #fef3c7;
+    color: #92400e;
+    padding: 0.4rem 0.85rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* ================= CẤP HỌC SECTION ================= */
+.ol-levels-section {
+    padding: 2.5rem 0;
+}
+
+.ol-section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ol-section-title h2 {
+    font-size: 1.95rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.5px;
+}
+
+.ol-section-title p {
+    font-size: 0.98rem;
+    color: var(--ol-text-muted);
+}
+
+.ol-levels-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.ol-level-card {
+    background: white;
+    border-radius: var(--ol-radius-lg);
+    padding: 1.75rem;
+    box-shadow: var(--ol-shadow-sm);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+.ol-level-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--ol-shadow-lg);
+}
+
+/* Level: Tiểu học */
+.ol-level-c1 {
+    background: var(--ol-c1-bg);
+    border-color: var(--ol-c1-border);
+}
+.ol-level-c1:hover {
+    border-color: var(--ol-c1-primary);
+}
+.ol-level-c1 .ol-level-icon {
+    background: #ffedd5;
+    color: var(--ol-c1-primary);
+}
+.ol-level-c1 .ol-level-badge {
+    color: var(--ol-c1-primary);
+}
+.ol-level-c1 .ol-level-btn {
+    background: var(--ol-c1-btn);
+}
+
+/* Level: THCS */
+.ol-level-c2 {
+    background: var(--ol-c2-bg);
+    border-color: var(--ol-c2-border);
+}
+.ol-level-c2:hover {
+    border-color: var(--ol-c2-primary);
+}
+.ol-level-c2 .ol-level-icon {
+    background: #e0f2fe;
+    color: var(--ol-c2-primary);
+}
+.ol-level-c2 .ol-level-badge {
+    color: var(--ol-c2-primary);
+}
+.ol-level-c2 .ol-level-btn {
+    background: var(--ol-c2-btn);
+}
+
+/* Level: THPT */
+.ol-level-c3 {
+    background: var(--ol-c3-bg);
+    border-color: var(--ol-c3-border);
+}
+.ol-level-c3:hover {
+    border-color: var(--ol-c3-primary);
+}
+.ol-level-c3 .ol-level-icon {
+    background: #dcfce7;
+    color: var(--ol-c3-primary);
+}
+.ol-level-c3 .ol-level-badge {
+    color: var(--ol-c3-primary);
+}
+.ol-level-c3 .ol-level-btn {
+    background: var(--ol-c3-btn);
+}
+
+.ol-level-left {
+    display: flex;
+    align-items: center;
+    gap: 1.15rem;
+}
+
+.ol-level-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.ol-level-info h3 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    line-height: 1.2;
+}
+
+.ol-level-badge {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.ol-level-info p {
+    font-size: 0.85rem;
+    color: var(--ol-text-muted);
+    line-height: 1.4;
+}
+
+.ol-level-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.ol-level-card:hover .ol-level-btn {
+    transform: translateX(3px);
+}
+
+/* ================= CHỌN LỚP & MÔN HỌC INTERACTIVE ================= */
+.ol-view-wrapper {
+    background: white;
+    border-radius: var(--ol-radius-lg);
+    border: 1px solid var(--ol-border);
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: var(--ol-shadow-sm);
+}
+
+.ol-sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.ol-sub-header h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+}
+
+.ol-grade-selector {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.ol-grade-btn {
+    padding: 0.75rem 1.25rem;
+    border: 1.5px solid var(--ol-border);
+    background: var(--ol-bg);
+    border-radius: var(--ol-radius-md);
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--ol-text-title);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: all 0.2s ease;
+}
+
+.ol-grade-btn:hover {
+    background: white;
+    border-color: var(--ol-primary);
+}
+
+.ol-grade-btn.active {
+    background: var(--ol-primary);
+    color: white;
+    border-color: var(--ol-primary);
+    box-shadow: 0 4px 12px rgba(21, 101, 192, 0.25);
+}
+
+.ol-grade-btn .tag-desc {
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.ol-subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.15rem;
+}
+
+.ol-subject-card {
+    background: var(--ol-bg);
+    border: 1.5px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    padding: 1.25rem 1.15rem;
+    text-decoration: none;
+    color: var(--ol-text-title);
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ol-subject-card:hover {
+    background: white;
+    border-color: var(--ol-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--ol-shadow-md);
+}
+
+.ol-subject-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    box-shadow: var(--ol-shadow-sm);
+    flex-shrink: 0;
+}
+
+.ol-subject-info h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.ol-subject-info p {
+    font-size: 0.8rem;
+    color: var(--ol-text-muted);
+}
+
+/* ================= VALUE PROPOSITION ROW ================= */
+.ol-features-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+    margin: 3rem 0 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--ol-border);
+}
+
+.ol-feature-card {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+
+.ol-feature-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 0.75rem;
+    border-radius: 50%;
+    background: #e0f2fe;
+    color: #0284c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35rem;
+}
+
+.ol-feature-card h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--ol-text-title);
+    margin-bottom: 0.35rem;
+}
+
+.ol-feature-card p {
+    font-size: 0.78rem;
+    color: var(--ol-text-muted);
+    line-height: 1.45;
+}
+
+/* ================= FOOTER ================= */
+.ol-footer {
+    background: white;
+    border-top: 1px solid var(--ol-border);
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.ol-footer-content {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.ol-footer-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.ol-footer-links a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: var(--ol-text-muted);
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.ol-footer-links a:hover {
+    color: var(--ol-primary);
+}
+
+.ol-footer-copy {
+    font-size: 0.85rem;
+    color: var(--ol-text-muted);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .ol-hero-card {
+        grid-template-columns: 1fr;
+    }
+    .ol-levels-grid {
+        grid-template-columns: 1fr;
+    }
+    .ol-features-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ol-nav-menu {
+        display: none;
+    }
+}
+
+/* ==========================================================================
+   GIAO DIỆN ĐỒNG BỘ CHO CÁC TRANG CON (BREADCRUMB, LESSON, QUIZ, FLASHCARD, SUBJECT)
+   ========================================================================== */
+
+/* Breadcrumbs & Sub-Header Bar */
+.ol-subpage-header {
+    background: white;
+    border-bottom: 1px solid var(--ol-border);
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.ol-breadcrumb-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.ol-breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.88rem;
+    color: var(--ol-text-muted);
+}
+
+.ol-breadcrumbs a {
+    color: var(--ol-text-body);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.15s;
+}
+
+.ol-breadcrumbs a:hover {
+    color: var(--ol-primary);
+}
+
+.ol-breadcrumbs .separator {
+    color: var(--ol-text-light);
+}
+
+.ol-breadcrumbs .current {
+    color: var(--ol-primary);
+    font-weight: 700;
+}
+
+.ol-btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.95rem;
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ol-text-body);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ol-btn-back:hover {
+    background: var(--ol-bg);
+    border-color: var(--ol-primary);
+    color: var(--ol-primary);
+}
+
+/* Banner Môn học / Bài học */
+.ol-page-banner {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-lg);
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.75rem;
+    box-shadow: var(--ol-shadow-sm);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.ol-page-banner-info h1 {
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    margin-bottom: 0.35rem;
+}
+
+.ol-page-banner-info p {
+    font-size: 0.92rem;
+    color: var(--ol-text-muted);
+}
+
+.ol-badge-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--ol-radius-full);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.ol-badge-blue {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.ol-badge-emerald {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.ol-badge-orange {
+    background: #ffedd5;
+    color: #c2410c;
+}
+
+/* ================= LESSON PAGE (LAYOUT 2 CỘT HIỆN ĐẠI) ================= */
+.ol-lesson-grid {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 1.75rem;
+    align-items: start;
+}
+
+.ol-lesson-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ol-card-box {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    padding: 1.75rem;
+    box-shadow: var(--ol-shadow-sm);
+}
+
+.ol-concept-box {
+    background: #f8fafc;
+    border-left: 4px solid var(--ol-primary);
+    border-radius: 0 var(--ol-radius-sm) var(--ol-radius-sm) 0;
+    padding: 1.25rem 1.5rem;
+}
+
+.ol-concept-header {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--ol-primary);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ol-formula-box {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: 0 var(--ol-radius-sm) var(--ol-radius-sm) 0;
+    padding: 1.25rem 1.5rem;
+}
+
+.ol-formula-header {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ol-keypoint-item {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+    margin-bottom: 0.6rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ol-text-body);
+}
+
+.ol-keypoint-bullet {
+    color: #f59e0b;
+    font-weight: 800;
+}
+
+.ol-example-card {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    padding: 1.25rem;
+    margin-top: 1rem;
+}
+
+.ol-example-title {
+    font-weight: 800;
+    color: var(--ol-primary);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.ol-example-prob {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--ol-text-title);
+    margin-bottom: 0.75rem;
+}
+
+.ol-example-sol {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-left: 3px solid #10b981;
+    border-radius: var(--ol-radius-sm);
+    padding: 1rem 1.25rem;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #1e293b;
+}
+
+.ol-lesson-nav-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--ol-border);
+    margin-top: 1rem;
+}
+
+/* Cột phải: Lộ trình chương */
+.ol-sidebar-card {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    padding: 1.5rem;
+    box-shadow: var(--ol-shadow-sm);
+    position: sticky;
+    top: 5rem;
+}
+
+.ol-sidebar-title {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ol-chapter-lessons-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ol-chapter-lesson-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.65rem 0.85rem;
+    border-radius: var(--ol-radius-sm);
+    text-decoration: none;
+    color: var(--ol-text-body);
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: all 0.15s;
+    border: 1px solid transparent;
+}
+
+.ol-chapter-lesson-item:hover {
+    background: var(--ol-bg);
+    color: var(--ol-primary);
+}
+
+.ol-chapter-lesson-item.active {
+    background: #eff6ff;
+    color: var(--ol-primary);
+    border-color: #bfdbfe;
+    font-weight: 700;
+}
+
+.ol-quick-action-box {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ol-border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+/* ================= QUIZ PAGE (PHÒNG LUYỆN TẬP THẨM MỸ) ================= */
+.ol-quiz-wrapper {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.ol-quiz-topbar {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--ol-shadow-sm);
+}
+
+.ol-quiz-progress-track {
+    flex: 1;
+    max-width: 320px;
+    height: 8px;
+    background: #e2e8f0;
+    border-radius: var(--ol-radius-full);
+    overflow: hidden;
+    margin: 0 1rem;
+}
+
+.ol-quiz-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.ol-question-card {
+    background: white;
+    border: 1px solid var(--ol-border);
+    border-radius: var(--ol-radius-lg);
+    padding: 2rem;
+    box-shadow: var(--ol-shadow-md);
+    margin-bottom: 1.5rem;
+}
+
+.ol-question-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.ol-question-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--ol-text-title);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.ol-options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.ol-option-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: #f8fafc;
+    border: 1.5px solid var(--ol-border);
+    border-radius: var(--ol-radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ol-text-title);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+    width: 100%;
+}
+
+.ol-option-btn:hover:not([disabled]) {
+    background: white;
+    border-color: var(--ol-primary);
+    transform: translateY(-1px);
+    box-shadow: var(--ol-shadow-sm);
+}
+
+.ol-option-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: white;
+    border: 1.5px solid var(--ol-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 0.95rem;
+    color: var(--ol-text-muted);
+    flex-shrink: 0;
+}
+
+.ol-option-btn.selected .ol-option-badge {
+    background: var(--ol-primary);
+    color: white;
+    border-color: var(--ol-primary);
+}
+
+.ol-option-btn.correct {
+    background: #f0fdf4 !important;
+    border-color: #10b981 !important;
+    color: #15803d !important;
+}
+
+.ol-option-btn.correct .ol-option-badge {
+    background: #10b981;
+    color: white;
+    border-color: #10b981;
+}
+
+.ol-option-btn.wrong {
+    background: #fef2f2 !important;
+    border-color: #ef4444 !important;
+    color: #b91c1c !important;
+}
+
+.ol-option-btn.wrong .ol-option-badge {
+    background: #ef4444;
+    color: white;
+    border-color: #ef4444;
+}
+
+/* Lời giải 3 bước sư phạm */
+.ol-explanation-card {
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: var(--ol-radius-md);
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.25rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.ol-explanation-step {
+    margin-bottom: 0.75rem;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.ol-explanation-step strong {
+    color: var(--ol-text-title);
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+/* ================= FLASHCARD PAGE (THẺ LẬT 3D TINH KHÔI) ================= */
+.ol-fc-wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ol-fc-card-scene {
+    perspective: 1000px;
+    width: 100%;
+    height: 340px;
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+
+.ol-fc-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.ol-fc-card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.ol-fc-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: var(--ol-radius-lg);
+    background: white;
+    border: 1.5px solid var(--ol-border);
+    box-shadow: var(--ol-shadow-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+.ol-fc-face--back {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, #ffffff 0%, #f0fdf4 100%);
+    border-color: #bbf7d0;
+}
+
+.ol-fc-title {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: var(--ol-text-title);
+    line-height: 1.5;
+}
+
+.ol-fc-sub {
+    font-size: 0.85rem;
+    color: var(--ol-text-muted);
+    margin-top: 1rem;
+}
+
+.ol-fc-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .ol-lesson-grid {
+        grid-template-columns: 1fr;
+    }
+    .ol-page-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+/* ================= THPT MOBILE RESPONSIVE EXAM BAR ================= */
+.thpt-mobile-bottom-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid #e2e8f0;
+    padding: 0.6rem 1rem;
+    z-index: 1000;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.08);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thpt-mobile-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 1001;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.thpt-mobile-modal-content {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    max-height: 80vh;
+    border-radius: 20px 20px 0 0;
+    padding: 1.5rem;
+    overflow-y: auto;
+    animation: slideUp 0.25s ease-out;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+    .thpt-exam-grid {
+        grid-template-columns: 1fr !important;
+    }
+    .thpt-answer-sheet {
+        display: none !important; /* Hide static column on mobile */
+    }
+    .thpt-mobile-bottom-bar {
+        display: flex !important;
+    }
+    body {
+        padding-bottom: 5rem !important;
+    }
+}

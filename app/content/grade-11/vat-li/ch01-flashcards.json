@@ -1,0 +1,98 @@
+[
+  {
+    "front": "Phương trình li độ dao động điều hoà dạng chuẩn?",
+    "back": "$x = A \\cos(\\omega t + \\varphi)$ (với $A$: biên độ, $\\omega$: tần số góc, $\\varphi$: pha ban đầu).",
+    "tags": [
+      "Dao động",
+      "Phương trình"
+    ]
+  },
+  {
+    "front": "Phương trình vận tốc $v$ trong dao động điều hoà?",
+    "back": "$v = x' = -\\omega A \\sin(\\omega t + \\varphi) = \\omega A \\cos(\\omega t + \\varphi + \\frac{\\pi}{2})$. Vận tốc sớm pha $\\frac{\\pi}{2}$ so với li độ.",
+    "tags": [
+      "Vận tốc",
+      "Pha dao động"
+    ]
+  },
+  {
+    "front": "Phương trình gia tốc $a$ trong dao động điều hoà?",
+    "back": "$a = v' = -\\omega^2 x = \\omega^2 A \\cos(\\omega t + \\varphi + \\pi)$. Gia tốc ngược pha với li độ và luôn hướng về vị trí cân bằng.",
+    "tags": [
+      "Gia tốc",
+      "Ngược pha"
+    ]
+  },
+  {
+    "front": "Hệ thức độc lập thời gian giữa $x, v, a$?",
+    "back": "$A^2 = x^2 + \\frac{v^2}{\\omega^2} = \\frac{a^2}{\\omega^4} + \\frac{v^2}{\\omega^2}$.",
+    "tags": [
+      "Độc lập thời gian",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Vận tốc cực đại $v_{\\max}$ và gia tốc cực đại $a_{\\max}$ đạt được ở đâu?",
+    "back": "$v_{\\max} = \\omega A$ tại vị trí cân bằng ($x = 0$); $a_{\\max} = \\omega^2 A$ tại hai vị trí biên ($x = \\pm A$).",
+    "tags": [
+      "Cực đại",
+      "Vị trí"
+    ]
+  },
+  {
+    "front": "Công thức chu kì $T$ và tần số góc $\\omega$ của con lắc lò xo?",
+    "back": "$\\omega = \\sqrt{\\frac{k}{m}} \\Rightarrow T = 2\\pi \\sqrt{\\frac{m}{k}}$.",
+    "tags": [
+      "Con lắc lò xo",
+      "Chu kì"
+    ]
+  },
+  {
+    "front": "Công thức chu kì dao động điều hoà của con lắc đơn?",
+    "back": "$T = 2\\pi \\sqrt{\\frac{l}{g}}$ (không phụ thuộc vào khối lượng quả nặng $m$).",
+    "tags": [
+      "Con lắc đơn",
+      "Chu kì"
+    ]
+  },
+  {
+    "front": "Cơ năng $W$ của con lắc lò xo được bảo toàn thế nào?",
+    "back": "$W = W_đ + W_t = \\frac{1}{2} m v^2 + \\frac{1}{2} k x^2 = \\frac{1}{2} k A^2 = \\frac{1}{2} m \\omega^2 A^2 = \\text{hằng số}$.",
+    "tags": [
+      "Cơ năng",
+      "Bảo toàn"
+    ]
+  },
+  {
+    "front": "Dao động tắt dần là gì và nguyên nhân gây tắt dần?",
+    "back": "Là dao động có biên độ và cơ năng giảm dần theo thời gian do ma sát và lực cản của môi trường.",
+    "tags": [
+      "Tắt dần",
+      "Nguyên nhân"
+    ]
+  },
+  {
+    "front": "Hiện tượng Cộng hưởng cơ xảy ra khi nào?",
+    "back": "Khi tần số của lực cưỡng bức bằng tần số dao động riêng của hệ ($f = f_0$), biên độ dao động cưỡng bức đạt giá trị cực đại.",
+    "tags": [
+      "Cộng hưởng",
+      "Điều kiện"
+    ]
+  },
+  {
+    "front": "Một vật dao động có phương trình $x = 5\\cos(10\\pi t)\\text{ cm}$. Tần số dao động là bao nhiêu?",
+    "back": "$f = \\frac{\\omega}{2\\pi} = \\frac{10\\pi}{2\\pi} = 5\\text{ Hz}$.",
+    "tags": [
+      "Tính toán",
+      "Tần số"
+    ]
+  },
+  {
+    "front": "Ứng dụng và tác hại của hiện tượng cộng hưởng?",
+    "back": "Ứng dụng: Hộp đàn ghita, lò vi sóng; Tác hại: Làm gãy sập cầu, nứt vỡ nhà cửa do bước đi đều của đoàn quân hoặc gió bão giật trùng tần số riêng.",
+    "tags": [
+      "Cộng hưởng",
+      "Ứng dụng"
+    ]
+  }
+]

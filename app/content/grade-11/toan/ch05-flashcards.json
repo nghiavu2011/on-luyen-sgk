@@ -1,0 +1,66 @@
+[
+  {
+    "front": "Mẫu số liệu ghép nhóm là gì?",
+    "back": "Là mẫu số liệu được chia thành các nhóm con kế tiếp nhau có dạng $[a_i; a_{i+1})$, mỗi nhóm có độ dài và tần số tương ứng.",
+    "tags": [
+      "Thống kê 11",
+      "Ghép nhóm"
+    ]
+  },
+  {
+    "front": "Giá trị đại diện $c_i$ của nhóm $[a_i; a_{i+1})$ được tính thế nào?",
+    "back": "$c_i = \\frac{a_i + a_{i+1}}{2}$ (trung bình cộng của hai đầu mút nhóm).",
+    "tags": [
+      "Giá trị đại diện",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Công thức tính số trung bình $\\bar{x}$ của mẫu ghép nhóm?",
+    "back": "$\\bar{x} = \\frac{m_1 c_1 + m_2 c_2 + \\dots + m_k c_k}{n}$ (với $n = \\sum m_i$ là cỡ mẫu).",
+    "tags": [
+      "Số trung bình",
+      "Công thức"
+    ]
+  },
+  {
+    "front": "Trung vị $M_e$ của mẫu số liệu ghép nhóm chia mẫu thành mấy phần bằng nhau?",
+    "back": "Chia mẫu số liệu đã sắp xếp thành 2 phần bằng nhau ($50\\%$ số liệu nhỏ hơn và $50\\%$ lớn hơn trung vị).",
+    "tags": [
+      "Trung vị",
+      "Ý nghĩa"
+    ]
+  },
+  {
+    "front": "Tứ phân vị $Q_1, Q_2, Q_3$ chia mẫu số liệu thành mấy phần bằng nhau?",
+    "back": "Chia mẫu thành 4 phần bằng nhau, mỗi phần chứa $25\\%$ số quan sát. Trong đó $Q_2 = M_e$ (trung vị).",
+    "tags": [
+      "Tứ phân vị",
+      "Ý nghĩa"
+    ]
+  },
+  {
+    "front": "Mốt ($M_o$) của mẫu số liệu ghép nhóm là gì?",
+    "back": "Là giá trị có tần số xuất hiện lớn nhất, đại diện cho giá trị phổ biến nhất trong mẫu số liệu.",
+    "tags": [
+      "Mốt",
+      "Khái niệm"
+    ]
+  },
+  {
+    "front": "Khi nào nên dùng Trung vị thay cho Số trung bình để đo xu thế trung tâm?",
+    "back": "Khi trong mẫu số liệu xuất hiện các giá trị ngoại lai bất thường (quá lớn hoặc quá nhỏ làm méo mó số trung bình).",
+    "tags": [
+      "Ứng dụng",
+      "Thống kê"
+    ]
+  },
+  {
+    "front": "Nhóm chứa trung vị được xác định dựa vào điều kiện nào?",
+    "back": "Nhóm đầu tiên có tần số tích luỹ lớn hơn hoặc bằng $\\frac{n}{2}$.",
+    "tags": [
+      "Xác định nhóm",
+      "Thuật toán"
+    ]
+  }
+]

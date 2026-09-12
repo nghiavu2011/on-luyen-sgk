@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Chương trình môn học — 📖 Ôn luyện SGK</title>
+    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v5">
+</head>
+<body>
+
+    <!-- ================= TOP NAVIGATION ================= -->
+    <header class="ol-navbar">
+        <div class="ol-nav-container">
+            <a href="index.html" class="ol-brand">
+                <div class="ol-brand-icon">
+                    <img src="assets/app_logo.png" alt="Ôn Luyện Logo">
+                </div>
+                <div class="ol-brand-text">
+                    <h1>Ôn luyện</h1>
+                    <p>Kiến thức vững vàng • Tương lai rộng mở</p>
+                </div>
+            </a>
+
+            <ul class="ol-nav-menu">
+                <li class="ol-nav-item"><a href="index.html">Trang chủ</a></li>
+                <li class="ol-nav-item"><a href="index.html#levels">Cấp học</a></li>
+                <li class="ol-nav-item"><a href="index.html#subjects" class="active">Môn học</a></li>
+                <li class="ol-nav-item"><a href="progress.html">Tiến độ</a></li>
+                <li class="ol-nav-item"><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-nav-actions">
+                <a href="index.html" class="ol-btn-back">⬅ Trang chủ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subpage Breadcrumb Header -->
+    <div class="ol-subpage-header">
+        <div class="ol-breadcrumb-container">
+            <div class="ol-breadcrumbs">
+                <a href="index.html">Trang chủ</a>
+                <span class="separator">/</span>
+                <span id="bc-grade">Lớp học</span>
+                <span class="separator">/</span>
+                <span class="current" id="bc-subject">Môn học</span>
+            </div>
+            <div id="grade-badge-container">
+                <span class="ol-badge-tag ol-badge-blue" id="grade-badge">Khối THCS</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="ol-container">
+
+        <!-- Subject Banner -->
+        <div class="ol-page-banner">
+            <div class="ol-page-banner-info" style="display: flex; align-items: center; gap: 1.25rem;">
+                <img id="subject-banner-cover" src="" alt="Bìa môn học" style="display: none; width: 72px; height: 72px; border-radius: 14px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 2px solid white; flex-shrink: 0;">
+                <div style="font-size: 2.5rem;" id="subject-icon">📚</div>
+                <div>
+                    <h1 id="subject-title" style="margin: 0;">Môn học</h1>
+                    <p id="subject-desc" style="margin-top: 0.25rem;">Chương trình chuẩn theo sách giáo khoa BGDĐT 2026 – 2027. Chọn bài học hoặc đề ôn tập bên dưới.</p>
+                </div>
+            </div>
+            <div style="text-align: right; display: flex; flex-direction: column; gap: 0.5rem;">
+                <div style="font-size: 0.85rem; color: var(--ol-text-muted);">Tổng số chương học</div>
+                <div style="font-size: 1.8rem; font-weight: 800; color: var(--ol-primary);" id="total-chapters-count">--</div>
+            </div>
+        </div>
+
+                <!-- Subject DeepTutor Status Bar -->
+        <div id="subject-deeptutor-bar" style="background: linear-gradient(135deg, #fdf4ff 0%, #eff6ff 100%); border: 1px solid #d8b4fe; border-radius: 14px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+            <div style="display: flex; align-items: center; gap: 0.85rem;">
+                <img src="assets/mascot_teaching.png" alt="DeepTutor Tutor" style="width: 46px; height: 46px; object-fit: contain; flex-shrink: 0;">
+                <div>
+                    <strong style="color: #6b21a8; font-size: 0.98rem;">Gia sư DeepTutor đồng hành cùng môn học</strong>
+                    <div style="font-size: 0.82rem; color: #475569;" id="sub-dt-status">Đang tải hồ sơ học tập môn học...</div>
+                </div>
+            </div>
+            <div id="sub-dt-actions" style="display: flex; gap: 0.5rem; align-items: center;">
+                <span id="sub-dt-mastery" style="background: #dcfce7; color: #166534; font-size: 0.8rem; font-weight: 700; padding: 0.3rem 0.75rem; border-radius: 20px;">L3: 🌱 Tập sự</span>
+                <a id="sub-dt-remediate-btn" href="#" class="ol-btn-primary" style="background: #dc2626; text-decoration: none; font-size: 0.82rem; padding: 0.45rem 0.9rem; display: none;">
+                    📕 Luyện tập câu sai (0)
+                </a>
+            </div>
+        </div>
+
+        <!-- Chapters List -->
+        <div id="chapter-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <div class="ol-card-box text-center" style="padding: 3rem 1rem; text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+                <div style="color: var(--ol-text-muted); font-weight: 600;">Đang kết nối dữ liệu Sách Giáo Khoa...</div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <!-- ================= FOOTER ================= -->
+    <footer class="ol-footer" style="margin-top: 3.5rem;">
+        <div class="ol-footer-content">
+            <div style="display:flex; align-items:center; gap:0.85rem;">
+                <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
+                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                    <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
+                    <p style="font-size:0.75rem; color:var(--ol-text-muted); margin:0;">Phát triển bởi <strong>N&Mstudio_Education</strong></p>
+                </div>
+            </div>
+
+            <div style="font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.25rem;">
+                <div>📞 Hotline / Zalo: <a href="tel:+84985578385" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">+84 985578385</a></div>
+                <div>🌐 Website: <a href="https://www.nmstudio.id.vn/" target="_blank" rel="noopener" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">www.nmstudio.id.vn</a></div>
+            </div>
+
+            <ul class="ol-footer-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="index.html#levels">Cấp học</a></li>
+                <li><a href="progress.html">Tiến độ</a></li>
+                <li><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-footer-copy">
+                © 2026 by NMstudio. Toàn bộ chương trình bám sát SGK Bộ GD&ĐT 2026 – 2027.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/deeptutor.js"></script>
+    <script>
+        async function init() {
+            const params = getUrlParams();
+            if (!params.grade || !params.subject) return window.location.href = 'index.html';
+
+            const gNum = parseInt(params.grade, 10);
+            const isTHCS = (gNum >= 6 && gNum <= 9);
+            const isTHPT = (gNum >= 10 && gNum <= 12);
+
+            const badgeEl = document.getElementById('grade-badge');
+            if (isTHCS) {
+                badgeEl.className = 'ol-badge-tag ol-badge-blue';
+                badgeEl.textContent = `🎓 Lớp ${params.grade} · Cấp THCS`;
+            } else if (isTHPT) {
+                badgeEl.className = 'ol-badge-tag ol-badge-emerald';
+                badgeEl.textContent = `📈 Lớp ${params.grade} · Cấp THPT`;
+            } else {
+                badgeEl.className = 'ol-badge-tag ol-badge-orange';
+                badgeEl.textContent = `🌱 Lớp ${params.grade} · Tiểu học`;
+            }
+
+            document.getElementById('bc-grade').textContent = `Lớp ${params.grade}`;
+
+            // Load Subject Info
+            let subjectName = params.subject;
+            let subjectIcon = '📚';
+            try {
+                const subRes = await smartFetch(`content/grade-${params.grade}/subjects.json`);
+                if (subRes.ok) {
+                    const subData = await subRes.json();
+                    const currentSub = subData.subjects.find(s => s.id === params.subject);
+                    if (currentSub) {
+                        subjectName = currentSub.name;
+                        subjectIcon = currentSub.icon || '📚';
+                    }
+                }
+            } catch(e) {}
+
+            document.getElementById('subject-icon').textContent = subjectIcon;
+            document.getElementById('subject-title').textContent = `${subjectName} — Lớp ${params.grade}`;
+            const coverImg = document.getElementById('subject-banner-cover');
+            const iconEl = document.getElementById('subject-icon');
+            const subAssetMap = {
+                'toan': 'assets/bia mon toan hoc.png',
+                'ngu-van': 'assets/bia mon ngu van - tieng anh.png',
+                'tieng-anh': 'assets/bia mon ngu van - tieng anh.png',
+                'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
+                'vat-li': 'assets/icon_vat_li.png',
+                'hoa-hoc': 'assets/icon_hoa_hoc.png',
+                'sinh-hoc': 'assets/icon_sinh_hoc.png',
+                'lich-su': 'assets/icon_lich_su.png',
+                'dia-li': 'assets/icon_dia_li.png',
+                'lich-su-dia-li': 'assets/icon_lich_su_dia_li.png',
+                'giao-duc-cong-dan': 'assets/icon_giao_duc_cong_dan.png',
+                'gdkt-pl': 'assets/icon_giao_duc_cong_dan.png',
+                'tin-hoc': 'assets/icon_tin_hoc.png',
+                'cong-nghe': 'assets/icon_cong_nghe.png',
+                'hdtn-huong-nghiep': 'assets/icon_hdtn_huong_nghiep.png'
+            };
+            const customSrc = subAssetMap[params.subject] || `assets/icon_${params.subject.replace(/-/g, '_')}.png`;
+            coverImg.src = customSrc;
+            coverImg.style.display = 'block';
+            coverImg.onerror = () => {
+                coverImg.style.display = 'none';
+                iconEl.style.display = 'block';
+            };
+            iconEl.style.display = 'none';
+            document.getElementById('bc-subject').textContent = subjectName;
+            document.title = `${subjectName} Lớp ${params.grade} — 📖 Ôn luyện SGK`;
+
+            
+            // DeepTutor Subject Status Hook
+            if (window.DeepTutor) {
+                const mistakes = DeepTutor.getMistakeBank(params.grade, params.subject);
+                const mastery = DeepTutor.getMasteryProfile()[params.subject] || { level: '🌱 Tập sự', total: 0, correct: 0 };
+                
+                const statusEl = document.getElementById('sub-dt-status');
+                const masteryEl = document.getElementById('sub-dt-mastery');
+                const remBtn = document.getElementById('sub-dt-remediate-btn');
+                
+                if (masteryEl) masteryEl.textContent = `L3: ${mastery.level}`;
+                if (mistakes.length > 0) {
+                    if (statusEl) statusEl.innerHTML = `Em có <strong style="color:#b91c1c;">${mistakes.length} câu sai</strong> cần khắc phục trong Sổ tay câu sai.`;
+                    if (remBtn) {
+                        remBtn.style.display = 'inline-block';
+                        remBtn.href = `quiz.html?mode=mistakes&grade=${params.grade}&subject=${params.subject}`;
+                        remBtn.innerHTML = `📕 Luyện ${mistakes.length} câu sai`;
+                    }
+                } else {
+                    if (statusEl) statusEl.innerHTML = `Chưa có câu sai nào cần sửa. Em đang nắm rất vững chương trình!`;
+                    if (remBtn) remBtn.style.display = 'none';
+                }
+            }
+
+            // Load Chapters
+            const container = document.getElementById('chapter-list');
+            try {
+                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/chapters.json`);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                const chapters = data.chapters || [];
+
+                const isLiterature = (params.subject === 'ngu-van');
+                const unitLabel = isLiterature ? 'Chủ điểm / Bài học' : 'Chương';
+                document.getElementById('total-chapters-count').textContent = `${chapters.length} ${isLiterature ? 'Bài học' : 'Chương'}`;
+
+                if (chapters.length === 0) {
+                    container.innerHTML = `
+                        <div class="ol-card-box text-center" style="padding: 2.5rem; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📂</div>
+                            <div style="font-weight: 700; color: var(--ol-text-title);">Nội dung bài học đang được cập nhật bám sát SGK</div>
+                            <p style="color: var(--ol-text-muted); font-size: 0.9rem; margin-top: 0.4rem;">Vui lòng quay lại trong ít phút hoặc chọn môn học khác.</p>
+                        </div>`;
+                    return;
+                }
+
+                container.innerHTML = '';
+                chapters.forEach((ch, idx) => {
+                    const card = document.createElement('div');
+                    card.className = 'ol-card-box';
+                    card.style.transition = 'all 0.2s ease';
+                    
+                    const firstLessonId = (ch.lessons && ch.lessons[0]) ? ch.lessons[0].id : 'l01';
+                    const badgeTitle = isLiterature ? `Chủ điểm ${idx + 1}` : `Chương ${idx + 1}`;
+
+                    card.innerHTML = `
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
+                            <div>
+                                <span class="ol-badge-tag ol-badge-blue" style="font-size: 0.75rem;">${badgeTitle}</span>
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ol-text-title); margin-top: 0.3rem;">
+                                    ${ch.title}
+                                </h3>
+                                <p style="font-size: 0.88rem; color: var(--ol-text-muted); margin-top: 0.25rem;">
+                                    ${ch.description || 'Nắm chắc kiến thức cốt lõi và các dạng bài tập thực hành theo SGK.'}
+                                </p>
+                            </div>
+                            <span style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); background: var(--ol-bg); padding: 0.3rem 0.75rem; border-radius: var(--ol-radius-full); border: 1px solid var(--ol-border);">
+                                📚 ${ch.lessons ? ch.lessons.length : 0} bài học
+                            </span>
+                        </div>
+
+                        ${ch.lessons ? `
+                            <div style="background: var(--ol-bg); border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px solid var(--ol-border);">
+                                <div style="font-size: 0.8rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-bottom: 0.4rem;">Danh sách bài:</div>
+                                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                    ${ch.lessons.map(l => `
+                                        <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${l.id}" 
+                                           style="text-decoration: none; font-size: 0.85rem; font-weight: 600; color: var(--ol-text-body); background: white; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid var(--ol-border); display: inline-flex; align-items: center; gap: 0.3rem;">
+                                            <span>📄</span> <span>${l.title}</span>
+                                        </a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        ${ch.quizzes ? `
+                            <div style="background: #f8fafc; border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px solid var(--ol-border);">
+                                <div style="font-size: 0.8rem; font-weight: 700; color: #475569; text-transform: uppercase; margin-bottom: 0.4rem; display: flex; align-items: center; justify-content: space-between;">
+                                    <span>✍️ Các đề ôn luyện chuyên sâu:</span>
+                                    <span style="font-size: 0.75rem; color: #0284c7; font-weight: 800;">3 đề phân hóa</span>
+                                </div>
+                                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                    ${ch.quizzes.map((qz, qIdx) => `
+                                        <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=${qz.id}" 
+                                           style="text-decoration: none; font-size: 0.85rem; font-weight: 700; color: #1e293b; background: white; padding: 0.4rem 0.85rem; border-radius: 6px; border: 1px solid #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; box-shadow: 0 1px 2px rgba(0,0,0,0.04); transition: all 0.15s;">
+                                            <span style="font-size: 0.9rem;">${qIdx === 0 ? '📖' : (qIdx === 1 ? '✍️' : '🏆')}</span>
+                                            <span>${qz.title}</span>
+                                            <span class="ol-badge-tag ${qIdx === 2 ? 'ol-badge-orange' : 'ol-badge-blue'}" style="font-size: 0.7rem; padding: 0.15rem 0.45rem;">${qz.badge}</span>
+                                        </a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; border-top: 1px solid var(--ol-border); padding-top: 1rem;">
+                            <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 
+                               class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                <span>📖</span> <span>Học lý thuyết</span>
+                            </a>
+                            <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=tonghop" 
+                               class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                <span>✍️</span> <span>Luyện đề tổng hợp</span>
+                            </a>
+                            <a href="flashcard.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}" 
+                               class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; background: #fefce8; border-color: #fde047; color: #854d0e; font-weight: 700;">
+                                <span>🎴</span> <span>Thẻ ghi nhớ (14 thẻ)</span>
+                            </a>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+
+            } catch (err) {
+                container.innerHTML = `
+                    <div class="ol-card-box text-center" style="padding: 2.5rem; text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚠️</div>
+                        <div style="font-weight: 700; color: var(--ol-text-title);">Chưa tìm thấy dữ liệu cho môn học này</div>
+                        <p style="color: var(--ol-text-muted); font-size: 0.9rem; margin-top: 0.4rem;">Hệ thống đang tiếp tục hoàn thiện trọn vẹn theo chương trình SGK chuẩn.</p>
+                        <a href="index.html" class="ol-btn-back" style="margin-top: 1rem;">Quay lại trang chủ</a>
+                    </div>`;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

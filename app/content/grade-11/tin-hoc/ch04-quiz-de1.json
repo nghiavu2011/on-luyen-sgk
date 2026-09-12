@@ -1,0 +1,16 @@
+[
+  {
+    "id": "th11_ch04_d1_q1",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "question": "Trong bảng 'HOC_SINH', trường nào sau đây thích hợp nhất để chọn làm KHOÁ CHÍNH (Primary Key)?",
+    "options": [
+      "A. HoTen",
+      "B. NgaySinh",
+      "C. MaHocSinh (hoặc SoCCCD)",
+      "D. DiaChi"
+    ],
+    "answer": 2,
+    "explanation": "📌 Tiêu chí chọn khoá chính: Giá trị phải duy nhất không trùng lặp giữa các học sinh. Mã học sinh là trường định danh chuẩn nhất.\n💡 Họ tên và ngày sinh có thể trùng nhau.\n⚠️ Nguyên tắc vàng trong thiết kế CSDL."
+  }
+]

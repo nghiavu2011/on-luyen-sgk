@@ -1,0 +1,30 @@
+[
+  {
+    "id": "toan11_ch02_d1_q1",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "question": "Cho cấp số cộng $(u_n)$ có số hạng đầu $u_1 = 2$ và công sai $d = 3$. Số hạng thứ 4 của cấp số cộng đó là:",
+    "options": [
+      "A. $14$",
+      "B. $11$",
+      "C. $8$",
+      "D. $24$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Công thức: $u_n = u_1 + (n - 1)d$.\n💡 $u_4 = 2 + (4 - 1) \\times 3 = 2 + 9 = 11$.\n⚠️ Tránh nhầm lẫn nhân $n \\times d$ thay vì $(n-1)d$."
+  },
+  {
+    "id": "toan11_ch02_d1_q2",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "question": "Cho cấp số nhân $(u_n)$ có $u_1 = 3$ và công bội $q = -2$. Giá trị của số hạng $u_4$ là:",
+    "options": [
+      "A. $24$",
+      "B. $-24$",
+      "C. $-48$",
+      "D. $48$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Công thức: $u_n = u_1 \\times q^{n-1}$.\n💡 $u_4 = 3 \\times (-2)^3 = 3 \\times (-8) = -24$.\n⚠️ Chú ý dấu âm với lũy thừa bậc lẻ."
+  }
+]

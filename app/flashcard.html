@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Thẻ ghi nhớ Flashcard — 📖 Ôn luyện</title>
+    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v6">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <style>
+        .ol-subnav-stats {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .ol-stat-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.25rem 0.65rem;
+            border-radius: var(--ol-radius-full);
+            font-size: 0.78rem;
+            font-weight: 700;
+            background: #f8fafc;
+            border: 1px solid var(--ol-border);
+        }
+        .ol-tab-panel {
+            display: none;
+            animation: fadeIn 0.2s ease-in-out;
+        }
+        .ol-tab-panel.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================= 1. TOP NAVIGATION CHUẨN THEO MOCKUP ================= -->
+    <header class="ol-navbar">
+        <div class="ol-nav-container">
+            <a href="index.html" class="ol-brand">
+                <div class="ol-brand-icon">
+                    <img src="assets/app_logo.png" alt="Ôn Luyện Logo">
+                </div>
+                <div class="ol-brand-text">
+                    <h1>Ôn luyện</h1>
+                    <p>Kiến thức vững vàng • Tương lai rộng mở</p>
+                </div>
+            </a>
+
+            <ul class="ol-nav-menu">
+                <li class="ol-nav-item"><a href="index.html">Trang chủ</a></li>
+                <li class="ol-nav-item"><a id="nav-subject-link" href="index.html#subjects">Học bài</a></li>
+                <li class="ol-nav-item"><a href="javascript:void(0)" onclick="setStudyTab('quiz')">Luyện tập</a></li>
+                <li class="ol-nav-item"><a href="javascript:void(0)" onclick="setStudyTab('flashcard')" class="active">Ghi nhớ</a></li>
+                <li class="ol-nav-item"><a href="progress.html">Tiến độ</a></li>
+            </ul>
+
+            <div class="ol-nav-actions">
+                <div class="ol-nav-search">
+                    <span class="ol-nav-search-icon">🔍</span>
+                    <input type="text" placeholder="Tìm kiếm bài học, công thức...">
+                </div>
+                
+                <button class="ol-btn-icon" title="Thông báo" style="position: relative;">
+                    🔔
+                    <span style="position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; background: #ef4444; border-radius: 50%;"></span>
+                </button>
+
+                <div class="ol-user-badge">
+                    <div class="ol-user-avatar" id="user-avatar-text">MA</div>
+                    <div class="ol-user-info">
+                        <span class="ol-user-name">Nguyễn Minh Anh</span>
+                        <span class="ol-user-role" id="user-grade-text">Học sinh · Lớp 11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= 2. BREADCRUMBS & STATS BAR ================= -->
+    <div class="ol-subpage-header">
+        <div class="ol-breadcrumb-container">
+            <div class="ol-breadcrumbs">
+                <a href="index.html">Trang chủ</a>
+                <span class="separator">/</span>
+                <a id="bc-subject" href="index.html">Môn học</a>
+                <span class="separator">/</span>
+                <span id="bc-chapter">Chương 1</span>
+                <span class="separator">/</span>
+                <span class="current" id="bc-lesson">Thẻ ghi nhớ Flashcard</span>
+            </div>
+            <div class="ol-subnav-stats">
+                <span class="ol-stat-badge" style="color: #ea580c; border-color: #fed7aa;">
+                    🔥 7 ngày liên tiếp
+                </span>
+                <span class="ol-stat-badge" style="color: #f59e0b; border-color: #fde68a;" id="bar-xp-stat">
+                    ⭐ 1.250 XP
+                </span>
+                <span class="ol-stat-badge" style="color: #0284c7; border-color: #bae6fd;">
+                    🎖️ Lv. 5 Chăm chỉ
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= 3. STUDY TABS SWITCHER (NHƯ TRÊN ĐIỆN THOẠI MOCKUP) ================= -->
+    <div class="ol-container" style="margin-bottom: 1.25rem;">
+        <div class="ol-study-tabs">
+            <button class="ol-study-tab" id="tab-btn-lesson" onclick="setStudyTab('lesson')">
+                <span>📖</span> <span>Bài học & Lý thuyết</span>
+            </button>
+            <button class="ol-study-tab" id="tab-btn-quiz" onclick="setStudyTab('quiz')">
+                <span>✍️</span> <span>Luyện tập trắc nghiệm</span>
+            </button>
+            <button class="ol-study-tab active" id="tab-btn-flashcard" onclick="setStudyTab('flashcard')">
+                <span>🎴</span> <span>Thẻ ghi nhớ Flashcard</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ================= 4. MAIN WORKSPACE (BỐ CỤC 2 CỘT HIỆN ĐẠI) ================= -->
+    <main class="ol-container">
+        <div class="ol-lesson-grid">
+
+            <!-- CỘT CHÍNH (BÊN TRÁI): NỘI DUNG THAY ĐỔI THEO TAB -->
+            <div class="ol-lesson-main">
+
+                <!-- TAB 3: THẺ GHI NHỚ FLASHCARD (ACTIVE MẶC ĐỊNH CHO FLASHCARD) -->
+                <div class="ol-tab-panel active" id="panel-flashcard">
+                    <div class="ol-fc-wrapper">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <span id="fc-counter" style="font-weight: 800; font-size: 0.95rem; color: #1e40af; background: #e0e7ff; padding: 0.25rem 0.75rem; border-radius: 20px; border: 1px solid #c7d2fe;">Thẻ 1 / --</span>
+                                <span style="font-size: 0.85rem; color: var(--ol-text-muted);">👆 Chạm vào thẻ để lật xem mặt sau</span>
+                            </div>
+                            <div id="fc-tags-container" style="display: flex; gap: 0.35rem; flex-wrap: wrap;"></div>
+                        </div>
+
+                        <div class="ol-fc-card-scene" onclick="flipCurrentCard()">
+                            <div class="ol-fc-card" id="active-fc-card">
+                                <div class="ol-fc-face" id="fc-face-front">
+                                    <div id="fc-front-label" style="font-size: 0.8rem; font-weight: 700; color: var(--ol-primary); text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
+                                        ✦ CÂU HỎI / KHÁI NIỆM ✦
+                                    </div>
+                                    <div class="ol-fc-title" id="fc-text-front">Đang tải thẻ...</div>
+                                    <div class="ol-fc-sub">Nhấp để lật mặt sau ↻</div>
+                                </div>
+                                <div class="ol-fc-face ol-fc-face--back" id="fc-face-back">
+                                    <div id="fc-back-label" style="font-size: 0.8rem; font-weight: 700; color: #15803d; text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
+                                        💡 ĐỊNH NGHĨA / PHÂN TÍCH CHI TIẾT 💡
+                                    </div>
+                                    <div class="ol-fc-title" id="fc-text-back" style="font-size: 1.15rem; line-height: 1.6;">Nội dung mặt sau</div>
+                                    <div class="ol-fc-sub">Nhấp để lật lại ↺</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ol-fc-controls" id="fc-controls" style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
+                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="prevCard()">
+                                ⬅ Thẻ trước
+                            </button>
+                            <button class="ol-btn-secondary" style="border-color: #fed7aa; color: #c2410c; background: #fff7ed; padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="rateCard(false)">
+                                ❌ Cần ôn lại
+                            </button>
+                            <button class="ol-btn-cta" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 0.75rem 1.75rem; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);" onclick="rateCard(true)">
+                                ✔ Đã ghi nhớ (+1 XP)
+                            </button>
+                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="nextCardDirect()">
+                                Thẻ sau ➡
+                            </button>
+                        </div>
+
+                        <div id="fc-complete-screen" style="display: none; margin-top: 2rem;">
+                            <div class="ol-card-box" style="text-align: center; padding: 3rem 2rem;">
+                                <div style="font-size: 3.5rem; margin-bottom: 0.5rem;">🎉</div>
+                                <h2 style="font-size: 1.85rem; font-weight: 800; color: var(--ol-text-title); margin-bottom: 0.5rem;">
+                                    Tuyệt vời! Em đã hoàn thành bộ thẻ ghi nhớ
+                                </h2>
+                                <p style="font-size: 0.95rem; color: var(--ol-text-muted); margin-bottom: 2rem;">
+                                    Lặp lại ngắt quãng giúp em ghi nhớ công thức vững chắc vào trí nhớ dài hạn.
+                                </p>
+                                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                                    <button class="ol-btn-outline" onclick="restartCards()">🔄 Ôn tập lại từ đầu</button>
+                                    <button class="ol-btn-primary" onclick="setStudyTab('quiz')">✍️ Làm bài trắc nghiệm ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 1: BÀI HỌC LÝ THUYẾT -->
+                <div class="ol-tab-panel" id="panel-lesson">
+                    <div class="ol-card-box" style="padding: 1.5rem 1.75rem; margin-bottom: 1.25rem;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <span class="ol-badge-tag ol-badge-blue" id="lesson-chapter-tag">Chương 1</span>
+                            <span style="font-size: 0.82rem; color: var(--ol-text-muted); font-weight: 600;">⏱ Thời gian đọc: ~10 phút</span>
+                        </div>
+                        <h1 id="lesson-title" style="font-size: 1.65rem; font-weight: 800; color: var(--ol-text-title); line-height: 1.35;">
+                            Đang tải bài học...
+                        </h1>
+                    </div>
+
+                    <div id="lesson-content-area">
+                        <div class="ol-card-box text-center" style="padding: 3rem 1rem; text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+                            <div style="font-weight: 600; color: var(--ol-text-muted);">Đang tải dữ liệu bài giảng...</div>
+                        </div>
+                    </div>
+
+                    <div class="ol-card-box" id="lesson-nav-box" style="margin-top: 1.25rem; padding: 1.25rem 1.75rem;">
+                        <div class="ol-lesson-nav-actions" style="margin-top: 0; padding-top: 0; border-top: none;">
+                            <button class="ol-btn-back" id="btn-prev-lesson" onclick="prevLesson()">⬅ Bài trước</button>
+                            <button class="ol-btn-primary" onclick="markCompleted()">✔ Đã hiểu bài (+10 XP)</button>
+                            <button class="ol-btn-cta" onclick="setStudyTab('quiz')" style="font-size: 0.9rem; padding: 0.55rem 1.25rem;">
+                                Làm bài luyện tập ➔
+                            </button>
+                            <button class="ol-btn-back" id="btn-next-lesson" onclick="nextLesson()">Bài tiếp theo ➡</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: PHÒNG LUYỆN TẬP TRẮC NGHIỆM -->
+                <div class="ol-tab-panel" id="panel-quiz">
+                    <div class="ol-quiz-topbar" id="quiz-topbar">
+                        <div style="font-weight: 700; color: var(--ol-primary); font-size: 0.95rem;" id="quiz-counter">
+                            Câu 1/10
+                        </div>
+                        <div class="ol-quiz-progress-track">
+                            <div class="ol-quiz-progress-bar" id="quiz-progress-bar"></div>
+                        </div>
+                        <div style="font-size: 0.88rem; font-weight: 700; color: #f59e0b; display: flex; align-items: center; gap: 0.3rem;">
+                            <span>⭐</span> <span id="quiz-score-live">0 XP</span>
+                        </div>
+                    </div>
+
+                    <div id="quiz-card-container">
+                        <div class="ol-card-box text-center" style="padding: 3rem 1rem; text-align: center;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+                            <div style="font-weight: 600; color: var(--ol-text-muted);">Đang kết nối ngân hàng câu hỏi...</div>
+                        </div>
+                    </div>
+
+                    <div id="quiz-result-container" style="display: none;">
+                        <div class="ol-card-box" style="text-align: center; padding: 3rem 2rem;">
+                            <div style="font-size: 3.5rem; margin-bottom: 0.5rem;" id="result-emoji">🎉</div>
+                            <h2 style="font-size: 1.85rem; font-weight: 800; color: var(--ol-text-title); margin-bottom: 0.5rem;" id="result-title">
+                                Xuất sắc! Em đã hoàn thành bài luyện tập
+                            </h2>
+                            <p style="font-size: 1rem; color: var(--ol-text-muted); max-width: 500px; margin: 0 auto 2rem;">
+                                Nắm chắc từng dạng câu hỏi trắc nghiệm sẽ giúp em tự tin tối đa trong các kỳ kiểm tra.
+                            </p>
+
+                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 460px; margin: 0 auto 2rem;">
+                                <div style="background: var(--ol-bg); padding: 1.25rem 1rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border);">
+                                    <div style="font-size: 1.8rem; font-weight: 800; color: var(--ol-primary);" id="stat-correct">0/0</div>
+                                    <div style="font-size: 0.78rem; color: var(--ol-text-muted); font-weight: 600; text-transform: uppercase;">Số câu đúng</div>
+                                </div>
+                                <div style="background: var(--ol-bg); padding: 1.25rem 1rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border);">
+                                    <div style="font-size: 1.8rem; font-weight: 800; color: #10b981;" id="stat-accuracy">0%</div>
+                                    <div style="font-size: 0.78rem; color: var(--ol-text-muted); font-weight: 600; text-transform: uppercase;">Độ chính xác</div>
+                                </div>
+                                <div style="background: var(--ol-bg); padding: 1.25rem 1rem; border-radius: var(--ol-radius-md); border: 1px solid var(--ol-border);">
+                                    <div style="font-size: 1.8rem; font-weight: 800; color: #f59e0b;" id="stat-xp">+0</div>
+                                    <div style="font-size: 0.78rem; color: var(--ol-text-muted); font-weight: 600; text-transform: uppercase;">XP nhận được</div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                                <button class="ol-btn-outline" onclick="restartQuiz()">🔄 Luyện tập lại</button>
+                                <button class="ol-btn-primary" onclick="setStudyTab('flashcard')">🎴 Ôn công thức với Flashcard</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CỘT PHỤ (BÊN PHẢI): LỘ TRÌNH CHƯƠNG HỌC -->
+            <aside class="ol-sidebar-card">
+                <div class="ol-sidebar-title">
+                    <span id="sidebar-subject-title">Lộ trình bài học</span>
+                    <span style="font-size: 0.8rem; font-weight: 700; color: var(--ol-primary);" id="chapter-progress-stat">3/4 bài · 75%</span>
+                </div>
+
+                <div style="height: 6px; background: #e2e8f0; border-radius: var(--ol-radius-full); overflow: hidden; margin-bottom: 1.25rem;">
+                    <div id="sidebar-progress-bar" style="height: 100%; width: 75%; background: var(--ol-primary); border-radius: var(--ol-radius-full); transition: width 0.3s;"></div>
+                </div>
+                
+                <ul class="ol-chapter-lessons-list" id="sidebar-lessons-list">
+                    <li style="font-size: 0.85rem; color: var(--ol-text-muted);">Đang tải danh sách bài...</li>
+                </ul>
+
+                <div class="ol-quick-action-box">
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-bottom: 0.2rem;">
+                        Chế độ ôn tập
+                    </div>
+                    <button class="ol-btn-outline" onclick="setStudyTab('quiz')" style="justify-content: center; display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; width: 100%;">
+                        <span>✍️</span> <span>Luyện đề trắc nghiệm</span>
+                    </button>
+                    <button class="ol-btn-outline" onclick="setStudyTab('flashcard')" style="justify-content: center; display: flex; align-items: center; gap: 0.4rem; font-size: 0.88rem; width: 100%;">
+                        <span>🎴</span> <span>Thẻ ghi nhớ công thức</span>
+                    </button>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- ================= 5. FOOTER ================= -->
+    <!-- ================= FOOTER ================= -->
+    <footer class="ol-footer" style="margin-top: 3.5rem;">
+        <div class="ol-footer-content">
+            <div style="display:flex; align-items:center; gap:0.85rem;">
+                <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
+                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div>
+                    <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
+                    <p style="font-size:0.75rem; color:var(--ol-text-muted); margin:0;">Phát triển bởi <strong>N&Mstudio_Education</strong></p>
+                </div>
+            </div>
+
+            <div style="font-size: 0.82rem; color: #475569; display: flex; flex-direction: column; gap: 0.25rem;">
+                <div>📞 Hotline / Zalo: <a href="tel:+84985578385" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">+84 985578385</a></div>
+                <div>🌐 Website: <a href="https://www.nmstudio.id.vn/" target="_blank" rel="noopener" style="color: var(--ol-primary); font-weight: 700; text-decoration: none;">www.nmstudio.id.vn</a></div>
+            </div>
+
+            <ul class="ol-footer-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="index.html#levels">Cấp học</a></li>
+                <li><a href="progress.html">Tiến độ</a></li>
+                <li><a href="parent.html">Phụ huynh</a></li>
+            </ul>
+
+            <div class="ol-footer-copy">
+                © 2026 by NMstudio. Toàn bộ chương trình bám sát SGK Bộ GD&ĐT 2026 – 2027.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+        let params = {};
+        let lessons = [];
+        let currentLessonIdx = 0;
+        let activeTab = 'flashcard'; // Mặc định là Flashcard trên flashcard.html
+
+        // Quiz State
+        let questions = [];
+        let currentQuizIdx = 0;
+        let quizScore = 0;
+        let quizAnswered = false;
+
+        // Flashcard State
+        let cards = [];
+        let currentCardIdx = 0;
+        let isCardFlipped = false;
+
+        async function init() {
+            params = getUrlParams();
+            if (!params.grade) params.grade = '11';
+            if (!params.subject) params.subject = 'vat-li';
+            if (!params.chapter) params.chapter = 'ch01';
+
+            if (params.tab && ['lesson', 'quiz', 'flashcard'].includes(params.tab)) {
+                activeTab = params.tab;
+            }
+
+            // User Profile
+            const gNum = parseInt(params.grade, 10);
+            const userRoleEl = document.getElementById('user-grade-text');
+            const userAvatarEl = document.getElementById('user-avatar-text');
+            if (gNum >= 10) {
+                userRoleEl.textContent = `Học sinh · Lớp ${params.grade} (THPT)`;
+                userAvatarEl.style.background = 'linear-gradient(135deg, #059669 0%, #047857 100%)';
+            } else {
+                userRoleEl.textContent = `Học sinh · Lớp ${params.grade} (THCS)`;
+                userAvatarEl.style.background = 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)';
+            }
+
+            // Subject Info & Breadcrumb
+            let subName = params.subject;
+            try {
+                const subRes = await smartFetch(`content/grade-${params.grade}/subjects.json`);
+                if (subRes.ok) {
+                    const subData = await subRes.json();
+                    const currentSub = subData.subjects.find(s => s.id === params.subject);
+                    if (currentSub) subName = currentSub.name;
+                }
+            } catch(e) {}
+
+            const subjectLink = `subject.html?grade=${params.grade}&subject=${params.subject}`;
+            document.getElementById('bc-subject').href = subjectLink;
+            document.getElementById('bc-subject').textContent = `${subName} ${params.grade}`;
+            document.getElementById('nav-subject-link').href = subjectLink;
+            document.title = `${subName} ${params.grade} · Ghi nhớ & Luyện tập — 📖 Ôn luyện`;
+
+            // Load Chapter Lessons
+            try {
+                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-lessons.json`);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                lessons = data.lessons || [];
+
+                const chapterTitle = data.title || 'Chương 1';
+                document.getElementById('bc-chapter').textContent = chapterTitle;
+                document.getElementById('lesson-chapter-tag').textContent = chapterTitle;
+                document.getElementById('sidebar-subject-title').textContent = `${chapterTitle}`;
+            } catch (e) {
+                lessons = [];
+            }
+
+            renderSidebarLessons();
+            renderLessonContent();
+
+            // Load Quiz & Flashcard
+            loadQuizData();
+            await loadFlashcardData();
+
+            setStudyTab(activeTab);
+        }
+
+        function setStudyTab(tabName) {
+            activeTab = tabName;
+            document.querySelectorAll('.ol-study-tab').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.ol-tab-panel').forEach(p => p.classList.remove('active'));
+
+            const tabBtn = document.getElementById(`tab-btn-${tabName}`);
+            const panel = document.getElementById(`panel-${tabName}`);
+
+            if (tabBtn) tabBtn.classList.add('active');
+            if (panel) panel.classList.add('active');
+
+            if (tabName === 'quiz' && questions.length > 0) renderQuestion();
+            else if (tabName === 'flashcard' && cards.length > 0) renderCard();
+
+            renderKaTeX();
+            window.scrollTo({ top: 140, behavior: 'smooth' });
+        }
+
+        function renderSidebarLessons() {
+            const listEl = document.getElementById('sidebar-lessons-list');
+            listEl.innerHTML = '';
+            const total = lessons.length;
+            const current = currentLessonIdx + 1;
+            const pct = Math.round((current / (total || 1)) * 100);
+
+            document.getElementById('chapter-progress-stat').textContent = `${current}/${total} bài · ${pct}%`;
+            document.getElementById('sidebar-progress-bar').style.width = `${pct}%`;
+
+            lessons.forEach((l, idx) => {
+                const li = document.createElement('li');
+                const isActive = (idx === currentLessonIdx);
+                const isPassed = (idx < currentLessonIdx);
+
+                li.innerHTML = `
+                    <a href="javascript:void(0)" onclick="selectLesson(${idx})" class="ol-chapter-lesson-item ${isActive ? 'active' : ''}">
+                        <div style="display: flex; align-items: center; gap: 0.6rem; overflow: hidden;">
+                            <span style="width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; ${isActive ? 'background: var(--ol-primary); color: white;' : (isPassed ? 'background: #dcfce7; color: #15803d;' : 'background: #f1f5f9; color: #64748b;')}">
+                                ${isPassed ? '✔' : (idx + 1)}
+                            </span>
+                            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${l.title}</span>
+                        </div>
+                    </a>
+                `;
+                listEl.appendChild(li);
+            });
+        }
+
+        function selectLesson(idx) {
+            currentLessonIdx = idx;
+            renderSidebarLessons();
+            renderLessonContent();
+            setStudyTab('lesson');
+        }
+
+        function renderLessonContent() {
+            if (lessons.length === 0) return;
+            const lesson = lessons[currentLessonIdx];
+            document.getElementById('lesson-title').textContent = lesson.title;
+
+            let html = '';
+            if (lesson.summary) {
+                html += `
+                    <div class="ol-card-box" style="padding: 1.5rem 1.75rem; margin-bottom: 1.25rem;">
+                        <div class="ol-concept-box">
+                            <div class="ol-concept-header"><span>📋</span> <span>Khái niệm trọng tâm</span></div>
+                            <div style="font-size: 0.98rem; line-height: 1.7; color: var(--ol-text-body);">${lesson.summary}</div>
+                        </div>
+                    </div>`;
+            }
+            if (lesson.keyPoints && lesson.keyPoints.length) {
+                html += `
+                    <div class="ol-card-box" style="padding: 1.5rem 1.75rem; margin-bottom: 1.25rem;">
+                        <div class="ol-formula-box">
+                            <div class="ol-formula-header"><span>🔑</span> <span>Quy tắc & Công thức cốt lõi</span></div>
+                            <div style="display: flex; flex-direction: column; gap: 0.5rem;">`;
+                lesson.keyPoints.forEach(kp => {
+                    html += `<div class="ol-keypoint-item"><span class="ol-keypoint-bullet">✦</span><span>${kp}</span></div>`;
+                });
+                html += `</div></div></div>`;
+            }
+            if (lesson.examples && lesson.examples.length) {
+                html += `<div class="ol-card-box" style="padding: 1.5rem 1.75rem;"><h3 style="font-size: 1.15rem; font-weight: 800; color: var(--ol-text-title); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;"><span>📝</span> <span>Ví dụ minh họa</span></h3>`;
+                lesson.examples.forEach((ex, i) => {
+                    const prob = ex.problem || ex.question || '';
+                    const sol = (ex.solution || ex.answer || '').replace(/\n/g, '<br>');
+                    html += `
+                        <div class="ol-example-card">
+                            <div class="ol-example-title">Ví dụ ${i + 1}:</div>
+                            <div class="ol-example-prob">${prob}</div>
+                            <div class="ol-example-sol"><strong style="color: #15803d; display: block; margin-bottom: 0.35rem;">💡 BƯỚC GIẢI CHI TIẾT:</strong>${sol}</div>
+                        </div>`;
+                });
+                html += `</div>`;
+            }
+            document.getElementById('lesson-content-area').innerHTML = html;
+            renderKaTeX();
+        }
+
+        function prevLesson() { if (currentLessonIdx > 0) selectLesson(currentLessonIdx - 1); }
+        function nextLesson() { if (currentLessonIdx < lessons.length - 1) selectLesson(currentLessonIdx + 1); }
+        function markCompleted() { addXP(10); alert('🎉 Em đã hoàn thành bài học và được cộng +10 XP!'); }
+
+        // QUIZ LOGIC
+        async function loadQuizData() {
+            try {
+                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-quiz.json`);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                questions = data.questions || [];
+            } catch (e) {
+                questions = [];
+            }
+        }
+
+        function renderQuestion() {
+            if (questions.length === 0) return;
+            quizAnswered = false;
+            const q = questions[currentQuizIdx];
+            const total = questions.length;
+
+            document.getElementById('quiz-counter').textContent = `Câu ${currentQuizIdx + 1} / ${total}`;
+            const pct = Math.round((currentQuizIdx / total) * 100);
+            document.getElementById('quiz-progress-bar').style.width = `${pct}%`;
+            document.getElementById('quiz-score-live').textContent = `${quizScore * 5} XP`;
+
+            let diffBadge = '<span class="ol-badge-tag ol-badge-blue">🌱 Nhận biết (Dễ)</span>';
+            if (q.difficulty === 'medium') diffBadge = '<span class="ol-badge-tag ol-badge-orange">🔍 Thông hiểu (Vừa)</span>';
+            if (q.difficulty === 'hard') diffBadge = '<span class="ol-badge-tag" style="background:#fee2e2; color:#dc2626; font-weight:700;">⚡ Vận dụng (Khó)</span>';
+            if (q.difficulty === 'expert') diffBadge = '<span class="ol-badge-tag" style="background:#fef3c7; color:#b45309; font-weight:800; border:1px solid #fde68a;">⭐ Vận dụng cao (Khó sao)</span>';
+
+            const letters = ['A', 'B', 'C', 'D'];
+            const cardHtml = `
+                <div class="ol-question-card">
+                    <div class="ol-question-header">
+                        ${diffBadge}
+                        <span style="font-size: 0.8rem; font-weight: 600; color: var(--ol-text-muted);">+5 XP câu đúng</span>
+                    </div>
+
+                    <div class="ol-question-text">${q.question}</div>
+
+                    <div class="ol-options-grid">
+                        ${(q.options || []).map((opt, i) => `
+                            <button class="ol-option-btn" id="opt-${i}" onclick="selectQuizOption(${i})">
+                                <span class="ol-option-badge">${letters[i]}</span>
+                                <span>${opt}</span>
+                            </button>
+                        `).join('')}
+                    </div>
+
+                    <div id="quiz-exp-box" style="display: none;"></div>
+
+                    <div id="quiz-next-box" style="display: none; justify-content: flex-end; margin-top: 1.5rem;">
+                        <button class="ol-btn-primary" onclick="nextQuizQuestion()" style="padding: 0.65rem 1.75rem; font-size: 0.95rem;">
+                            ${currentQuizIdx === total - 1 ? 'Xem kết quả ➔' : 'Câu tiếp theo ➡'}
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('quiz-card-container').innerHTML = cardHtml;
+            renderKaTeX();
+        }
+
+        function selectQuizOption(idx) {
+            if (quizAnswered) return;
+            quizAnswered = true;
+
+            const q = questions[currentQuizIdx];
+            const isCorrect = (idx === q.answer);
+
+            const chosenBtn = document.getElementById(`opt-${idx}`);
+            if (isCorrect) {
+                quizScore++;
+                if (chosenBtn) chosenBtn.classList.add('correct');
+            } else {
+                if (chosenBtn) chosenBtn.classList.add('wrong');
+                const correctBtn = document.getElementById(`opt-${q.answer}`);
+                if (correctBtn) correctBtn.classList.add('correct');
+            }
+
+            document.querySelectorAll('.ol-option-btn').forEach(b => b.setAttribute('disabled', 'true'));
+
+            const expBox = document.getElementById('quiz-exp-box');
+            expBox.style.display = 'block';
+            expBox.className = 'ol-explanation-card';
+
+            let breakdownHtml = '';
+            if (q.breakdown) {
+                breakdownHtml = `
+                    <div class="ol-explanation-step"><strong>📌 Khái niệm áp dụng:</strong> <span>${q.breakdown.concept || ''}</span></div>
+                    <div class="ol-explanation-step"><strong>💡 Phương pháp giải:</strong> <span>${q.breakdown.steps || ''}</span></div>
+                    ${q.breakdown.trap ? `<div class="ol-explanation-step" style="background:#fffbeb; padding:0.6rem 0.8rem; border-radius:6px; border-left:3px solid #f59e0b;"><strong style="color:#b45309;">⚠️ Bẫy sai thường gặp:</strong> <span style="color:#92400e;">${q.breakdown.trap}</span></div>` : ''}
+                `;
+            } else {
+                breakdownHtml = `<div class="ol-explanation-step"><strong>💡 Hướng dẫn giải:</strong> <span>${q.explanation || 'Đáp án theo chương trình SGK.'}</span></div>`;
+            }
+
+            expBox.innerHTML = `
+                <div style="font-weight: 800; font-size: 1.05rem; margin-bottom: 0.75rem; color: ${isCorrect ? '#15803d' : '#b91c1c'};">
+                    ${isCorrect ? '✔ Chính xác! Em làm rất tốt!' : '❌ Chưa đúng. Đừng nản lòng nhé!'}
+                </div>
+                ${breakdownHtml}
+            `;
+
+            document.getElementById('quiz-next-box').style.display = 'flex';
+            document.getElementById('quiz-score-live').textContent = `${quizScore * 5} XP`;
+            renderKaTeX();
+        }
+
+        function nextQuizQuestion() {
+            if (currentQuizIdx < questions.length - 1) {
+                currentQuizIdx++;
+                renderQuestion();
+            } else {
+                showQuizResult();
+            }
+        }
+
+        function showQuizResult() {
+            document.getElementById('quiz-topbar').style.display = 'none';
+            document.getElementById('quiz-card-container').style.display = 'none';
+            document.getElementById('quiz-result-container').style.display = 'block';
+
+            const total = questions.length;
+            const accuracy = Math.round((quizScore / total) * 100);
+            const xp = quizScore * 5;
+
+            document.getElementById('stat-correct').textContent = `${quizScore}/${total}`;
+            document.getElementById('stat-accuracy').textContent = `${accuracy}%`;
+            document.getElementById('stat-xp').textContent = `+${xp} XP`;
+
+            addXP(xp);
+        }
+
+        function restartQuiz() {
+            currentQuizIdx = 0;
+            quizScore = 0;
+            document.getElementById('quiz-topbar').style.display = 'flex';
+            document.getElementById('quiz-card-container').style.display = 'block';
+            document.getElementById('quiz-result-container').style.display = 'none';
+            renderQuestion();
+        }
+
+        // FLASHCARD LOGIC
+        async function loadFlashcardData() {
+            try {
+                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-flashcards.json`);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                cards = Array.isArray(data) ? data : (data.flashcards || []);
+            } catch (e) {
+                cards = [];
+            }
+        }
+
+        function renderCard() {
+            if (cards.length === 0) {
+                document.getElementById('fc-text-front').textContent = 'Chưa có thẻ ghi nhớ cho bài này.';
+                document.getElementById('fc-controls').style.display = 'none';
+                return;
+            }
+
+            isCardFlipped = false;
+            const cardEl = document.getElementById('active-fc-card');
+            cardEl.classList.remove('is-flipped');
+
+            const c = cards[currentCardIdx];
+            document.getElementById('fc-text-front').textContent = c.front || '';
+            document.getElementById('fc-text-back').textContent = c.back || '';
+
+            // Update Counter & Tags
+            const counterEl = document.getElementById('fc-counter');
+            if (counterEl) counterEl.textContent = `Thẻ ${currentCardIdx + 1} / ${cards.length}`;
+
+            const tagsEl = document.getElementById('fc-tags-container');
+            if (tagsEl) {
+                tagsEl.innerHTML = (c.tags || []).map(t => `<span class="ol-badge-tag ol-badge-blue" style="font-size: 0.72rem; padding: 0.2rem 0.5rem;">${t}</span>`).join(' ');
+            }
+
+            const isLit = (params.subject === 'ngu-van');
+            const frontLbl = document.getElementById('fc-front-label');
+            if (frontLbl) frontLbl.textContent = isLit ? '✦ TRỌNG TÂM / CÂU HỎI BÀI HỌC ✦' : '✦ CÂU HỎI / CÔNG THỨC ✦';
+            const backLbl = document.getElementById('fc-back-label');
+            if (backLbl) backLbl.textContent = isLit ? '💡 BÀI HỌC / PHÂN TÍCH CHI TIẾT 💡' : '💡 ĐỊNH NGHĨA / Ý NGHĨA 💡';
+
+            renderKaTeX();
+        }
+
+        function prevCard() {
+            if (currentCardIdx > 0) {
+                currentCardIdx--;
+                renderCard();
+            }
+        }
+
+        function nextCardDirect() {
+            if (currentCardIdx < cards.length - 1) {
+                currentCardIdx++;
+                renderCard();
+            } else {
+                document.querySelector('.ol-fc-card-scene').style.display = 'none';
+                document.getElementById('fc-controls').style.display = 'none';
+                document.getElementById('fc-complete-screen').style.display = 'block';
+            }
+        }
+
+        function flipCurrentCard() {
+            isCardFlipped = !isCardFlipped;
+            const cardEl = document.getElementById('active-fc-card');
+            if (isCardFlipped) cardEl.classList.add('is-flipped');
+            else cardEl.classList.remove('is-flipped');
+        }
+
+        function rateCard(known) {
+            if (known) addXP(1);
+            nextCardDirect();
+        }
+
+        function restartCards() {
+            currentCardIdx = 0;
+            document.querySelector('.ol-fc-card-scene').style.display = 'block';
+            document.getElementById('fc-controls').style.display = 'flex';
+            document.getElementById('fc-complete-screen').style.display = 'none';
+            renderCard();
+        }
+
+        function renderKaTeX() {
+            if (window.renderMathInElement) {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        {left: '$$', right: '$$', display: true},
+                        {left: '$', right: '$', display: false}
+                    ],
+                    throwOnError: false
+                });
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch07_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "question": "Một vật chuyển động thẳng xác định bởi phương trình $s(t) = t^3 - 6t^2 + 9t$, trong đó $t$ tính bằng giây (s), $s$ tính bằng mét (m). Gia tốc của chuyển động tại thời điểm vận tốc triệt tiêu ($v = 0$) lần thứ hai là:",
+    "options": [
+      "A. $6\\text{ m/s}^2$",
+      "B. $-6\\text{ m/s}^2$",
+      "C. $0\\text{ m/s}^2$",
+      "D. $12\\text{ m/s}^2$"
+    ],
+    "answer": 0,
+    "explanation": "📌 Ứng dụng vật lí:\n1. Vận tốc $v(t) = s'(t) = 3t^2 - 12t + 9$.\n$v = 0 \\Leftrightarrow 3t^2 - 12t + 9 = 0 \\Leftrightarrow t_1 = 1\\text{ s}, t_2 = 3\\text{ s}$.\nThời điểm triệt tiêu lần thứ hai là $t = 3\\text{ s}$.\n2. Gia tốc $a(t) = v'(t) = s''(t) = 6t - 12$.\nTại $t = 3\\text{ s} \\Rightarrow a(3) = 6(3) - 12 = 6\\text{ m/s}^2$.\n⚠️ Bài toán vận dụng cao kết hợp đạo hàm cấp 1 và cấp 2."
+  }
+]

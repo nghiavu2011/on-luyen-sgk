@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch06_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "question": "Tổng tất cả các nghiệm của phương trình $4^x - 5 \\times 2^x + 4 = 0$ bằng:",
+    "options": [
+      "A. $5$",
+      "B. $2$",
+      "C. $4$",
+      "D. $0$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Phương pháp đặt ẩn phụ:\nĐặt $t = 2^x$ ($t > 0$). Phương trình trở thành: $t^2 - 5t + 4 = 0$.\nNghiệm: $t = 1$ hoặc $t = 4$ (đều thoả mãn $t > 0$).\n- Với $t = 1 \\Rightarrow 2^x = 1 \\Leftrightarrow x_1 = 0$.\n- Với $t = 4 \\Rightarrow 2^x = 4 \\Leftrightarrow x_2 = 2$.\nTổng các nghiệm là $x_1 + x_2 = 0 + 2 = 2$.\n⚠️ Cảnh báo bẫy: Nhầm lẫn tổng nghiệm $x$ với tổng nghiệm $t_1 + t_2 = 5$."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "toan11_ch02_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "expert",
+    "question": "★ Cho ba số thực dương $a, b, c$ theo thứ tự đó lập thành một cấp số cộng và có tổng $a + b + c = 15$. Nếu thêm 1 vào $a$, thêm 2 vào $b$ và thêm 9 vào $c$ thì được ba số mới lập thành một cấp số nhân. Giá trị của tích $a \\times c$ là:",
+    "options": [
+      "A. $16$",
+      "B. $21$",
+      "C. $25$",
+      "D. $24$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Phân tích logic:\n1. Ba số lập CSC có tổng $= 15 \\Rightarrow 3b = 15 \\Rightarrow b = 5$.\nKhi đó $a = 5 - d, c = 5 + d$.\n2. Ba số mới: $a + 1 = 6 - d$, $b + 2 = 7$, $c + 9 = 14 + d$.\nBa số này lập CSN $\\Rightarrow (6 - d)(14 + d) = 7^2 = 49$.\n$\\Leftrightarrow 84 - 8d - d^2 = 49 \\Leftrightarrow d^2 + 8d - 35 = 0 \\Rightarrow d = 2$ (do số dương).\nVới $d = 2 \\Rightarrow a = 3, c = 7 \\Rightarrow a \\times c = 21$.\n⚠️ Bài toán vận dụng cao kết hợp hoàn hảo CSC và CSN."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "toan11_ch01_th_q1",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "question": "Giá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $y = 3\\sin 2x - 1$ lần lượt là:",
+    "options": [
+      "A. $M = 3, m = -3$",
+      "B. $M = 2, m = -4$",
+      "C. $M = 4, m = -2$",
+      "D. $M = 2, m = -1$"
+    ],
+    "answer": 1,
+    "explanation": "📌 Bất đẳng thức lượng giác: $-1 \\le \\sin 2x \\le 1$.\n💡 Nhân 3: $-3 \\le 3\\sin 2x \\le 3$.\nTrừ 1: $-3 - 1 \\le 3\\sin 2x - 1 \\le 3 - 1 \\Leftrightarrow -4 \\le y \\le 2$.\nVậy $M = 2$ và $m = -4$.\n⚠️ Cảnh báo bẫy: Quên trừ 1 cho cả hai đầu chặn."
+  },
+  {
+    "id": "toan11_ch01_th_q2",
+    "type": "multiple_choice",
+    "difficulty": "expert",
+    "question": "★ Số nghiệm của phương trình $\\sin\\left(2x - \\frac{\\pi}{3}\\right) = \\frac{1}{2}$ thuộc khoảng $(0; \\pi)$ là:",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": 1,
+    "explanation": "📌 Phương pháp giải:\n$\\sin(2x - \\frac{\\pi}{3}) = \\sin \\frac{\\pi}{6} \\Leftrightarrow \\left[\\begin{array}{l} 2x - \\frac{\\pi}{3} = \\frac{\\pi}{6} + k2\\pi \\\\ 2x - \\frac{\\pi}{3} = \\frac{5\\pi}{6} + k2\\pi \\end{array}\\right. \\Leftrightarrow \\left[\\begin{array}{l} x = \\frac{\\pi}{4} + k\\pi \\\\ x = \\frac{7\\pi}{12} + k\\pi \\end{array}\\right.$\nVới $x \\in (0; \\pi)$ và $k \\in \\mathbb{Z}$:\n- Nhánh 1: $k = 0 \\Rightarrow x = \\frac{\\pi}{4} \\in (0; \\pi)$.\n- Nhánh 2: $k = 0 \\Rightarrow x = \\frac{7\\pi}{12} \\in (0; \\pi)$.\nTổng cộng có đúng 2 nghiệm thỏa mãn.\n⚠️ Bậc tư duy cao: Giải phương trình lượng giác và chặn nghiệm trên khoảng cho trước."
+  }
+]
