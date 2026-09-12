@@ -1,115 +1,156 @@
 {
-  "chapterId": "ch03",
-  "examId": "de2",
-  "title": "Toán 6 — Chương 3: Số nguyên: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "examId": "toan-06-ch03-de02",
+  "grade": "06",
+  "subject": "toan",
+  "chapter": "ch03",
+  "chapterTitle": "Số nguyên",
+  "title": "Toán 6 — Chương 3: Số nguyên (Đề 2: Kỹ năng tính toán & Thực hành)",
+  "description": "Rèn luyện kỹ năng cộng trừ nhân chia số nguyên, bỏ dấu ngoặc và tìm x.",
+  "examCode": "102",
+  "mode": "practice",
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 3: Số nguyên là gì?",
+      "id": "toan-06-ch03-de02-q01",
+      "difficulty": "thong-hieu",
+      "topic": "Cộng hai số nguyên khác dấu",
+      "question": "Kết quả của phép tính: $(-25) + 17$ có giá trị bằng bao nhiêu?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 3: Số nguyên",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "Kết quả của phép tính nhận giá trị bằng âm 8",
+        "Kết quả của phép tính nhận giá trị bằng dương 8",
+        "Kết quả của phép tính nhận giá trị bằng âm 42",
+        "Kết quả của phép tính nhận giá trị bằng dương 42"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Quy tắc cộng hai số nguyên khác dấu",
+        "socraticPrompt": "Lấy phần tự nhiên lớn trừ phần tự nhiên bé, rồi đặt dấu của số có phần tự nhiên lớn hơn.",
+        "calculation": "$|-25| = 25 > 17$. Hiệu hai phần tự nhiên: $25 - 17 = 8$. Vì số $-25$ mang dấu âm nên kết quả là $-8$.",
+        "trap": "Đặt nhầm dấu dương thành $+8$ hoặc cộng gộp thành 42.",
+        "distractorReasons": {
+          "1": "Quên đặt dấu của số có phần tự nhiên lớn hơn.",
+          "2": "Cộng hai phần tự nhiên $25 + 17 = 42$ rồi đặt dấu âm.",
+          "3": "Cộng hai phần tự nhiên và đặt dấu dương."
+        }
       }
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "id": "toan-06-ch03-de02-q02",
+      "difficulty": "thong-hieu",
+      "topic": "Phép trừ số nguyên",
+      "question": "Thực hiện phép tính: $12 - (-18)$, ta được kết quả là:",
       "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+        "Kết quả phép tính có giá trị bằng âm 6",
+        "Kết quả phép tính có giá trị bằng dương 30",
+        "Kết quả phép tính có giá trị bằng âm 30",
+        "Kết quả phép tính có giá trị bằng dương 6"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+        "concept": "Quy tắc trừ hai số nguyên: trừ cho số âm thành cộng số dương",
+        "socraticPrompt": "Số đối của số âm 18 là gì? Hãy chuyển phép trừ thành phép cộng.",
+        "calculation": "$12 - (-18) = 12 + 18 = 30$.",
+        "trap": "Nhầm trừ số âm thành trừ bình thường: $12 - 18 = -6$.",
+        "distractorReasons": {
+          "0": "Nhầm dấu trừ thành $12 - 18 = -6$.",
+          "2": "Tính ra 30 nhưng lại đặt dấu trừ thành $-30$.",
+          "3": "Lấy $18 - 12 = 6$ sai quy tắc."
+        }
       }
     },
     {
-      "id": "q03",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "id": "toan-06-ch03-de02-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Phép nhân số nguyên",
+      "question": "Kết quả của tích hai số nguyên: $(-6) \\times (-5)$ là:",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "Giá trị của tích tính được bằng số âm 30",
+        "Giá trị của tích tính được bằng số âm 11",
+        "Giá trị của tích tính được bằng số dương 30",
+        "Giá trị của tích tính được bằng số dương 11"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Quy tắc nhân hai số nguyên cùng dấu âm",
+        "socraticPrompt": "Hai số nguyên cùng dấu âm nhân với nhau sẽ cho kết quả mang dấu gì?",
+        "calculation": "$(-6) \\times (-5) = 6 \\times 5 = 30$.",
+        "trap": "Nhầm âm nhân âm ra âm thành $-30$ hoặc nhầm sang phép cộng $(-6) + (-5) = -11$.",
+        "distractorReasons": {
+          "0": "Nhầm quy tắc dấu của phép nhân.",
+          "1": "Nhầm phép nhân thành phép cộng hai số âm.",
+          "3": "Lấy tổng hai số rồi đổi dấu."
+        }
       }
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "id": "toan-06-ch03-de02-q04",
+      "difficulty": "thong-hieu",
+      "topic": "Bỏ dấu ngoặc tính nhanh",
+      "question": "Bỏ dấu ngoặc rồi tính giá trị của biểu thức: $A = (125 - 45) - (125 - 45 + 18)$:",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "Giá trị rút gọn cuối cùng nhận kết quả bằng 18",
+        "Giá trị rút gọn cuối cùng nhận kết quả bằng 0",
+        "Giá trị rút gọn cuối cùng nhận kết quả bằng âm 36",
+        "Giá trị rút gọn cuối cùng nhận kết quả bằng âm 18"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Vận dụng quy tắc dấu ngoặc để triệt tiêu các số hạng giống nhau",
+        "socraticPrompt": "Hãy bỏ dấu ngoặc thứ hai có dấu trừ phía trước, các dấu bên trong biến đổi thế nào?",
+        "calculation": "$A = 125 - 45 - 125 + 45 - 18 = (125 - 125) + (-45 + 45) - 18 = 0 + 0 - 18 = -18$.",
+        "trap": "Quên đổi dấu số 18 khi phá ngoặc có dấu trừ, dẫn đến kết quả $+18$.",
+        "distractorReasons": {
+          "0": "Quên đổi dấu số hạng cuối cùng trong ngoặc.",
+          "1": "Nghĩ rằng hai cụm trong ngoặc giống hệt nhau triệt tiêu hết.",
+          "2": "Tính nhầm $-18 - 18 = -36$."
+        }
       }
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "id": "toan-06-ch03-de02-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Tìm x trong tập Z",
+      "question": "Tìm số nguyên $x$ thỏa mãn đẳng thức: $x + (-7) = -15$:",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "Số nguyên x cần tìm nhận giá trị bằng dương 8",
+        "Số nguyên x cần tìm nhận giá trị bằng âm 8",
+        "Số nguyên x cần tìm nhận giá trị bằng âm 22",
+        "Số nguyên x cần tìm nhận giá trị bằng dương 22"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Tìm số hạng chưa biết trong phép cộng số nguyên",
+        "socraticPrompt": "Muốn tìm số hạng chưa biết $x$, ta lấy tổng trừ đi số hạng đã biết.",
+        "calculation": "$x = -15 - (-7) = -15 + 7 = -8$.",
+        "trap": "Chuyển vế nhưng quên đổi dấu: $-15 + (-7) = -22$.",
+        "distractorReasons": {
+          "0": "Tính sai dấu của kết quả thành $+8$.",
+          "2": "Chuyển vế không đổi dấu dẫn đến $-15 - 7 = -22$.",
+          "3": "Cộng hai phần tự nhiên rồi đặt dấu dương."
+        }
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
-      "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "id": "toan-06-ch03-de02-q06",
+      "difficulty": "thong-hieu",
+      "topic": "Ước và bội trong Z",
+      "question": "Tập hợp tất cả các ước nguyên của số 4 trong tập số nguyên $\\mathbb{Z}$ là:",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "Tập hợp các ước gồm: {1; 2; 4} là các số tự nhiên",
+        "Tập hợp các ước gồm: {-4; -2; -1} là các số âm",
+        "Tập hợp các ước gồm: {-4; -2; -1; 1; 2; 4}",
+        "Tập hợp các ước gồm: {-4; -3; -2; -1; 1; 2; 4}"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Tập hợp các ước trong tập số nguyên Z (gồm cả ước âm và ước dương)",
+        "socraticPrompt": "Nếu d là ước của 4 thì -d có phải là ước của 4 không?",
+        "calculation": "Các ước tự nhiên của 4 là 1, 2, 4. Trong tập $\\mathbb{Z}$, lấy thêm các số đối: $Ư(4) = \\{-4; -2; -1; 1; 2; 4\\}$.",
+        "trap": "Chỉ liệt kê các ước dương như trong tập số tự nhiên $\\mathbb{N}$.",
+        "distractorReasons": {
+          "0": "Đây chỉ là các ước trong $\\mathbb{N}$, thiếu các ước nguyên âm.",
+          "1": "Thiếu toàn bộ các ước nguyên dương.",
+          "3": "Thừa số $-3$ (số 4 không chia hết cho 3)."
+        }
       }
     }
   ]

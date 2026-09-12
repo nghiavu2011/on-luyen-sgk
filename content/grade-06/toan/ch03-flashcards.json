@@ -1,114 +1,92 @@
 [
   {
-    "front": "Trọng tâm kiến thức Chương 3: Số nguyên là gì?",
-    "back": "Tập hợp các số nguyên Z, phép cộng trừ số nguyên, quy tắc dấu ngoặc và phép nhân số nguyên.. Học sinh cần nắm chắc định nghĩa, quy tắc và công thức tính toán chuẩn mực.",
+    "id": "fc-toan6-ch03-01",
+    "front": "Tập hợp số nguyên $\\mathbb{Z}$ gồm những phần tử nào?",
+    "back": "Gồm các số nguyên âm, số 0 và các số nguyên dương: $\\mathbb{Z} = \\{...; -3; -2; -1; 0; 1; 2; 3; ...\\}$. Số 0 không là số nguyên dương, cũng không là số nguyên âm.",
     "tags": [
-      "Toán 6",
-      "ch03"
+      "Khái niệm",
+      "Tập hợp Z"
     ]
   },
   {
-    "front": "Thứ tự thực hiện các phép tính trong biểu thức?",
-    "back": "1. Trong ngoặc trước, ngoài ngoặc sau: ( ) -> [ ] -> { }; 2. Phép tính: Lũy thừa -> Nhân & Chia -> Cộng & Trừ.",
+    "id": "fc-toan6-ch03-02",
+    "front": "Số đối của số nguyên $a$ là gì?",
+    "back": "Số đối của $a$ là $-a$. Hai số đối nhau có tổng bằng 0 ($a + (-a) = 0$). Trên trục số, hai số đối nhau nằm về hai phía so với gốc 0 và cách đều gốc 0. Số đối của 0 là 0.",
     "tags": [
-      "Toán 6",
-      "Quy tắc"
+      "Khái niệm",
+      "Số đối"
     ]
   },
   {
-    "front": "Tính chất phân phối của phép nhân đối với phép cộng?",
-    "back": "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$. Dùng để tính nhanh bằng cách đặt thừa số chung ra ngoài.",
+    "id": "fc-toan6-ch03-03",
+    "front": "Quy tắc so sánh hai số nguyên âm?",
+    "back": "Trong hai số nguyên âm, số nào có khoảng cách đến gốc 0 lớn hơn (phần tự nhiên lớn hơn) thì số đó NHỎ HƠN. Ví dụ: $-8 < -5$ vì $8 > 5$.",
     "tags": [
-      "Toán 6",
-      "Công thức"
+      "Quy tắc",
+      "So sánh số âm"
     ]
   },
   {
-    "front": "Quy tắc chuyển vế trong bài toán tìm x?",
-    "back": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: '+' thành '-' và '-' thành '+'.",
-    "tags": [
-      "Toán 6",
-      "Đại số"
-    ]
-  },
-  {
-    "front": "Thế nào là Số nguyên tố và Hợp số?",
-    "back": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có 2 ước là 1 và chính nó. Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước.",
-    "tags": [
-      "Toán 6",
-      "Số học"
-    ]
-  },
-  {
-    "front": "Số 0 và số 1 có phải số nguyên tố không?",
-    "back": "KHÔNG. Số 0 và số 1 không phải là số nguyên tố và cũng không phải là hợp số. Số nguyên tố nhỏ nhất là số 2 (số nguyên tố chẵn duy nhất).",
-    "tags": [
-      "Toán 6",
-      "Bẫy sai"
-    ]
-  },
-  {
+    "id": "fc-toan6-ch03-04",
     "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "Muốn cộng hai số nguyên cùng dấu, ta cộng hai giá trị tuyệt đối rồi đặt dấu chung trước kết quả. Ví dụ: (-3) + (-5) = -8.",
+    "back": "• Cộng hai số dương: như cộng số tự nhiên.\n• Cộng hai số âm: cộng hai phần tự nhiên rồi đặt dấu '-' trước kết quả: $(-a) + (-b) = -(a + b)$.",
     "tags": [
-      "Toán 6",
-      "Số nguyên"
+      "Quy tắc",
+      "Cộng cùng dấu"
     ]
   },
   {
-    "front": "Quy tắc nhân hai số nguyên khác dấu và cùng dấu?",
-    "back": "Cùng dấu nhân nhau ra DƯƠNG: (+) * (+) = (+), (-) * (-) = (+). Khác dấu nhân nhau ra ÂM: (+) * (-) = (-).",
+    "id": "fc-toan6-ch03-05",
+    "front": "Quy tắc cộng hai số nguyên khác dấu?",
+    "back": "• Hai số đối nhau có tổng bằng 0.\n• Muốn cộng hai số khác dấu: lấy phần tự nhiên lớn trừ phần tự nhiên bé, rồi đặt dấu của số có phần tự nhiên lớn hơn trước hiệu tìm được.",
     "tags": [
-      "Toán 6",
-      "Quy tắc dấu"
+      "Quy tắc",
+      "Cộng khác dấu"
     ]
   },
   {
-    "front": "Công thức tính chu vi và diện tích Hình vuông cạnh a?",
-    "back": "Chu vi $P = 4a$. Diện tích $S = a^2$.",
+    "id": "fc-toan6-ch03-06",
+    "front": "Quy tắc phép trừ số nguyên?",
+    "back": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta cộng $a$ với số đối của $b$:\n$a - b = a + (-b)$.\nĐặc biệt: $a - (-b) = a + b$.",
     "tags": [
-      "Toán 6",
-      "Hình học"
+      "Quy tắc",
+      "Trừ số nguyên"
     ]
   },
   {
-    "front": "Công thức tính chu vi và diện tích Hình thoi hai đường chéo m, n?",
-    "back": "Chu vi $P = 4a$ (a là cạnh hình thoi). Diện tích $S = \\frac{1}{2} \\cdot m \\cdot n$ (nửa tích hai đường chéo).",
+    "id": "fc-toan6-ch03-07",
+    "front": "Quy tắc bỏ dấu ngoặc?",
+    "back": "• Đằng trước có dấu '+': GIỮ NGUYÊN dấu các số hạng trong ngoặc.\n• Đằng trước có dấu '-': ĐỔI DẤU tất cả các số hạng trong ngoặc ('+' thành '-', '-' thành '+').",
     "tags": [
-      "Toán 6",
-      "Hình học"
+      "Quy tắc",
+      "Dấu ngoặc"
     ]
   },
   {
-    "front": "Công thức tính diện tích Hình bình hành đáy a, chiều cao h?",
-    "back": "$S = a \\cdot h$ (đáy nhân với chiều cao tương ứng).",
+    "id": "fc-toan6-ch03-08",
+    "front": "Quy tắc nhân hai số nguyên về dấu?",
+    "back": "• Cùng dấu nhân nhau ra DƯƠNG (+): $(+) \\times (+) = (+)$ và $(-) \\times (-) = (+)$.\n• Khác dấu nhân nhau ra ÂM (-): $(+) \\times (-) = (-)$ và $(-) \\times (+) = (-)$.",
     "tags": [
-      "Toán 6",
-      "Hình học"
+      "Quy tắc",
+      "Nhân số nguyên"
     ]
   },
   {
-    "front": "Công thức tính diện tích Hình thang hai đáy a, b, chiều cao h?",
-    "back": "$S = \\frac{(a + b) \\cdot h}{2}$ (tổng hai đáy nhân chiều cao chia đôi).",
+    "id": "fc-toan6-ch03-09",
+    "front": "Dấu của tích chứa nhiều thừa số nguyên âm?",
+    "back": "• Chứa số CHẴN thừa số nguyên âm $\\rightarrow$ tích mang dấu DƯƠNG (+).\n• Chứa số LẺ thừa số nguyên âm $\\rightarrow$ tích mang dấu ÂM (-).",
     "tags": [
-      "Toán 6",
-      "Hình học"
+      "Tính chất",
+      "Tích nhiều số"
     ]
   },
   {
-    "front": "Muốn cộng hoặc trừ hai phân số không cùng mẫu ta làm thế nào?",
-    "back": "1. Quy đồng mẫu số hai phân số (đưa về mẫu chung dương); 2. Cộng hoặc trừ các tử số và giữ nguyên mẫu số chung.",
+    "id": "fc-toan6-ch03-10",
+    "front": "Ước và bội trong tập hợp số nguyên $\\mathbb{Z}$?",
+    "back": "Nếu $a = b \\cdot q$ ($b \\ne 0$) thì $a$ chia hết cho $b$. Khi đó $b$ là ước của $a$, và $a$ là bội của $b$. Nếu $d$ là ước của $a$ thì $-d$ cũng là ước của $a$ (các ước luôn đi theo từng cặp số đối).",
     "tags": [
-      "Toán 6",
-      "Phân số"
-    ]
-  },
-  {
-    "front": "Công thức tính Xác suất thực nghiệm của một sự kiện?",
-    "back": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện phép thử nghiệm).",
-    "tags": [
-      "Toán 6",
-      "Xác suất"
+      "Khái niệm",
+      "Ước và bội trong Z"
     ]
   }
 ]

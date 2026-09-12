@@ -4,81 +4,250 @@
   "lessons": [
     {
       "id": "l01",
-      "title": "Bài 13: Tập hợp các số nguyên và biểu diễn trên trục số",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 13: Tập hợp các số nguyên và biểu diễn trên trục số</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 13: Tập hợp các số nguyên và biểu diễn trên trục số.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "title": "Bài 13: Tập hợp các số nguyên",
+      "hasRealContent": true,
+      "objectives": [
+        "Nhận biết được số nguyên âm, số nguyên dương và số 0.",
+        "Mô tả được tập hợp các số nguyên $\\mathbb{Z}$ và biểu diễn các số nguyên trên trục số.",
+        "Hiểu khái niệm số đối và so sánh thành thạo hai số nguyên bất kì."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 13: Tập hợp các số nguyên và biểu diễn trên trục số: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Tập hợp số nguyên $\\mathbb{Z}$",
+          "definition": "Bao gồm các số nguyên âm, số 0 và các số nguyên dương.",
+          "notation": "$\\mathbb{Z} = \\{...; -3; -2; -1; 0; 1; 2; 3; ...\\}$",
+          "note": "Số 0 không là số nguyên dương và cũng không là số nguyên âm."
+        },
+        {
+          "term": "Số đối của một số nguyên",
+          "definition": "Hai số nguyên trên trục số nằm ở hai phía của gốc 0 và cách đều gốc 0 được gọi là hai số đối nhau.",
+          "notation": "Số đối của $a$ là $-a$. Số đối của $-a$ là $a$. Số đối của 0 là 0.",
+          "note": "Hai số đối nhau có tổng bằng 0: $a + (-a) = 0$."
+        },
+        {
+          "term": "So sánh hai số nguyên",
+          "definition": "Khi biểu diễn trên trục số nằm ngang, điểm $a$ nằm bên trái điểm $b$ thì số nguyên $a$ nhỏ hơn số nguyên $b$ ($a < b$).",
+          "notation": "Mọi số âm $< 0 <$ mọi số dương",
+          "note": "Trong hai số nguyên âm, số nào có khoảng cách đến gốc 0 lớn hơn thì số đó nhỏ hơn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ý nghĩa thực tế của số nguyên",
+          "meaning": "Số dương và số âm biểu thị các đại lượng đối lập: nhiệt độ trên/dưới $0^oC$, độ cao trên/dưới mực nước biển, tiền lãi/lỗ."
+        },
+        {
+          "statement": "Quy tắc so sánh số nguyên âm",
+          "meaning": "Số nguyên âm càng xa số 0 về bên trái thì càng bé: $-10 < -2 < 0 < 5$."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: $3; -5; 0; -2; 7; -8$?",
+          "steps": [
+            "Bước 1: Tách các số thành nhóm âm, số 0 và nhóm dương. Nhóm âm: $\\{-8; -5; -2\\}$; số 0; nhóm dương: $\\{3; 7\\}$.",
+            "Bước 2: So sánh trong nhóm âm: $-8 < -5 < -2$.",
+            "Bước 3: So sánh trong nhóm dương: $3 < 7$. Ghép lại qua số 0: $-8 < -5 < -2 < 0 < 3 < 7$."
+          ],
+          "answer": "Thứ tự tăng dần: $-8; -5; -2; 0; 3; 7$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng $-8 > -5$ vì số 8 lớn hơn số 5.",
+          "why": "Với số âm, số nào có phần tự nhiên lớn hơn thì lại nhỏ hơn: $-8 < -5$."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 14: Phép cộng và phép trừ số nguyên",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 14: Phép cộng và phép trừ số nguyên</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 14: Phép cộng và phép trừ số nguyên.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc cộng hai số nguyên cùng dấu và cộng hai số nguyên khác dấu.",
+        "Biết cách chuyển phép trừ số nguyên thành phép cộng với số đối: $a - b = a + (-b)$.",
+        "Vận dụng các tính chất giao hoán, kết hợp để tính nhanh hợp lý."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 14: Phép cộng và phép trừ số nguyên: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Cộng hai số nguyên cùng dấu",
+          "definition": "Cộng hai số nguyên dương chính là cộng hai số tự nhiên. Muốn cộng hai số nguyên âm, ta cộng hai phần tự nhiên của chúng rồi đặt dấu trừ trước kết quả.",
+          "notation": "$(-a) + (-b) = -(a + b)$",
+          "note": "Ví dụ: $(-3) + (-5) = -(3 + 5) = -8$."
+        },
+        {
+          "term": "Cộng hai số nguyên khác dấu",
+          "definition": "Hai số nguyên đối nhau có tổng bằng 0. Muốn cộng hai số nguyên khác dấu (không đối nhau), ta lấy số có phần tự nhiên lớn hơn trừ số có phần tự nhiên nhỏ hơn rồi đặt dấu của số lớn hơn trước hiệu tìm được.",
+          "notation": "$(-a) + b$ hoặc $a + (-b)$",
+          "note": "Ví dụ: $(-8) + 3 = -(8 - 3) = -5$."
+        },
+        {
+          "term": "Phép trừ số nguyên",
+          "definition": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta cộng $a$ với số đối của $b$.",
+          "notation": "$a - b = a + (-b)$",
+          "note": "Phép trừ trong $\\mathbb{Z}$ luôn luôn thực hiện được."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc trừ số nguyên",
+          "meaning": "Biến phép trừ thành phép cộng với số đối: $a - (-b) = a + b$."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức: $A = (-15) + 23 - (-12)$?",
+          "steps": [
+            "Bước 1: Chuyển phép trừ thành cộng với số đối: $A = (-15) + 23 + 12$.",
+            "Bước 2: Cộng hai số dương trước: $23 + 12 = 35$.",
+            "Bước 3: Thực hiện phép cộng khác dấu: $(-15) + 35 = 35 - 15 = 20$."
+          ],
+          "answer": "$A = 20$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi dấu khi trừ số âm: nhầm $5 - (-3) = 2$.",
+          "why": "Trừ cho số âm trở thành cộng số dương: $5 - (-3) = 5 + 3 = 8$."
         }
       ]
     },
     {
       "id": "l03",
       "title": "Bài 15: Quy tắc dấu ngoặc",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 15: Quy tắc dấu ngoặc</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 15: Quy tắc dấu ngoặc.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc bỏ dấu ngoặc khi đằng trước có dấu '+' hoặc dấu '-'.",
+        "Vận dụng quy tắc dấu ngoặc để tính nhanh giá trị các biểu thức đại số."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 15: Quy tắc dấu ngoặc: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Bỏ ngoặc đằng trước có dấu cộng (+)",
+          "definition": "Khi bỏ dấu ngoặc có dấu '+' đằng trước, ta giữ nguyên dấu của các số hạng trong ngoặc.",
+          "notation": "$+(a - b + c) = a - b + c$",
+          "note": "Các số hạng giữ nguyên vẹn dấu ban đầu."
+        },
+        {
+          "term": "Bỏ ngoặc đằng trước có dấu trừ (-)",
+          "definition": "Khi bỏ dấu ngoặc có dấu '-' đằng trước, ta phải đổi dấu tất cả các số hạng trong ngoặc: dấu '+' thành '-', dấu '-' thành '+'.",
+          "notation": "$-(a - b + c) = -a + b - c$",
+          "note": "Bắt buộc đổi dấu TẤT CẢ các số hạng bên trong."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhóm số hạng",
+          "meaning": "Khi nhóm các số hạng vào trong ngoặc có dấu '-' đằng trước, phải đổi dấu của tất cả các số hạng đưa vào trong ngoặc."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính nhanh: $B = (215 - 37) - (215 - 37 + 50)$?",
+          "steps": [
+            "Bước 1: Bỏ ngoặc thứ nhất (giữ nguyên): $215 - 37$.",
+            "Bước 2: Bỏ ngoặc thứ hai có dấu trừ phía trước (đổi dấu toàn bộ): $- 215 + 37 - 50$.",
+            "Bước 3: Ghép các cặp đối nhau: $B = (215 - 215) + (-37 + 37) - 50 = 0 + 0 - 50 = -50$."
+          ],
+          "answer": "$B = -50$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ đổi dấu số hạng đầu tiên sau dấu trừ mà quên đổi dấu các số hạng phía sau.",
+          "why": "$-(a - b) = -a + b$, nhiều bạn làm sai thành $-a - b$."
         }
       ]
     },
     {
       "id": "l04",
-      "title": "Bài 16: Phép nhân số nguyên và tính chất",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 16: Phép nhân số nguyên và tính chất</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 16: Phép nhân số nguyên và tính chất.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "title": "Bài 16: Phép nhân số nguyên",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc dấu khi nhân hai số nguyên cùng dấu và khác dấu.",
+        "Biết xác định dấu của một tích gồm nhiều thừa số nguyên.",
+        "Vận dụng tính chất phân phối của phép nhân đối với phép cộng."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 16: Phép nhân số nguyên và tính chất: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Nhân hai số nguyên khác dấu",
+          "definition": "Tích của hai số nguyên khác dấu luôn luôn là một số nguyên âm.",
+          "notation": "$(+) \\times (-) = (-)$ và $(-) \\times (+) = (-)$",
+          "note": "Muốn nhân hai số nguyên khác dấu, ta nhân hai phần tự nhiên rồi đặt dấu trừ trước kết quả."
+        },
+        {
+          "term": "Nhân hai số nguyên cùng dấu",
+          "definition": "Tích của hai số nguyên cùng dấu luôn luôn là một số nguyên dương.",
+          "notation": "$(+) \\times (+) = (+)$ và $(-) \\times (-) = (+)$",
+          "note": "Nhân hai số nguyên âm bằng cách nhân hai phần tự nhiên của chúng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Dấu của tích nhiều thừa số",
+          "meaning": "Tích chứa một số chẵn thừa số âm thì mang dấu dương '+'. Tích chứa một số lẻ thừa số âm thì mang dấu âm '-'."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức: $C = (-4) \\times (-25) \\times (-7)$?",
+          "steps": [
+            "Bước 1: Tích có 3 thừa số nguyên âm (số lẻ) nên kết quả chắc chắn mang dấu âm '-'.",
+            "Bước 2: Kết hợp tính nhanh: $[(-4) \\times (-25)] = 100$.",
+            "Bước 3: Nhân tiếp với $-7$: $100 \\times (-7) = -700$."
+          ],
+          "answer": "$C = -700$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng nhân hai số âm vẫn ra số âm.",
+          "why": "Nhân hai số âm luôn luôn ra số dương: $(-a) \\times (-b) = a \\times b$."
         }
       ]
     },
     {
       "id": "l05",
-      "title": "Bài 17: Quan hệ chia hết trong tập hợp số nguyên",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 17: Quan hệ chia hết trong tập hợp số nguyên</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 17: Quan hệ chia hết trong tập hợp số nguyên.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "title": "Bài 17: Phép chia hết. Ước và bội của một số nguyên",
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm chia hết, ước và bội mở rộng trong tập hợp số nguyên $\\mathbb{Z}$.",
+        "Tìm được tất cả các ước nguyên (cả dương và âm) của một số nguyên cho trước."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 17: Quan hệ chia hết trong tập hợp số nguyên: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Quan hệ chia hết trong $\\mathbb{Z}$",
+          "definition": "Cho $a, b \\in \\mathbb{Z}$ ($b \\ne 0$). Nếu có số nguyên $q$ sao cho $a = b \\cdot q$ thì ta nói $a$ chia hết cho $b$, kí hiệu $a \\vdots b$.",
+          "notation": "$a \\vdots b$ với $a, b \\in \\mathbb{Z}$",
+          "note": "Khi đó $b$ là ước của $a$, và $a$ là bội của $b$."
+        },
+        {
+          "term": "Ước nguyên âm và ước nguyên dương",
+          "definition": "Nếu $d$ là một ước của $a$ thì $-d$ cũng là một ước của $a$.",
+          "notation": "Ví dụ: $Ư(4) = \\{-4; -2; -1; 1; 2; 4\\}$",
+          "note": "Các ước luôn tồn tại theo từng cặp số đối nhau."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất chia hết trong Z",
+          "meaning": "Nếu $a \\vdots b$ và $b \\vdots c$ thì $a \\vdots c$. Nếu $a \\vdots b$ thì bội của a cũng chia hết cho b."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tìm tất cả các số nguyên $n$ sao cho $(n + 3)$ là ước của 6?",
+          "steps": [
+            "Bước 1: Tập các ước của 6 trong $\\mathbb{Z}$ là $Ư(6) = \\{-6; -3; -2; -1; 1; 2; 3; 6\\}$.",
+            "Bước 2: Lần lượt cho $n + 3$ bằng từng ước: $n = \\text{ước} - 3$.",
+            "Bước 3: Ta tìm được các giá trị tương ứng của $n$: $\\{-9; -6; -5; -4; -2; -1; 0; 3\\}$."
+          ],
+          "answer": "$n \\in \\{-9; -6; -5; -4; -2; -1; 0; 3\\}$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Bỏ sót các ước nguyên âm khi tìm ước của một số nguyên.",
+          "why": "Trong tập $\\mathbb{Z}$, ước bao gồm cả số dương và số âm đối xứng nhau."
         }
       ]
     }

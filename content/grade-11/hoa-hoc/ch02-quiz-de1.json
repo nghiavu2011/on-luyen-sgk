@@ -1,16 +1,157 @@
-[
-  {
-    "id": "hoahoc11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khí nào sau đây có mùi khai nồng nặc và làm quỳ tím ẩm chuyển sang màu xanh?",
-    "options": [
-      "A. $SO_2$",
-      "B. $NH_3$",
-      "C. $CO_2$",
-      "D. $N_2$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Tính chất đặc trưng: Ammonia ($NH_3$) có mùi khai đặc trưng, khi tan vào nước tạo môi trường base ($NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-$) làm quỳ ẩm hoá xanh.\n💡 Khí $SO_2$ có mùi hắc làm quỳ ẩm hoá đỏ.\n⚠️ Phân biệt rõ tính acid và base của các chất khí."
-  }
-]
+{
+  "examId": "hoa-11-ch02-de01",
+  "grade": "11",
+  "subject": "hoa-hoc",
+  "chapter": "ch02",
+  "chapterTitle": "Nitrogen & Sulfur",
+  "title": "Hóa học 11 — Chương 2: Nitrogen & Sulfur (Đề 1: Khái niệm & Nhận biết)",
+  "description": "Kiểm tra nhận biết cấu tạo nguyên tử, tính chất vật lí và hoá học cơ bản của nitrogen và sulfur.",
+  "examCode": "101",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "hoahoc-11-ch02-de01-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Cấu tạo phân tử Nitrogen",
+      "question": "Cấu tạo phân tử của đơn chất nitrogen ($N_2$) có đặc điểm nổi bật nào sau đây?",
+      "options": [
+        "Chứa một liên kết ba rất bền vững giữa hai nguyên tử",
+        "Chứa hai liên kết đôi phân cực mạnh giữa hai nguyên tử",
+        "Chứa một liên kết đơn cộng hóa trị rất kém bền vững",
+        "Chứa các liên kết ion phân tử tự do trong không gian"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cấu tạo phân tử và năng lượng liên kết của nitrogen",
+        "socraticPrompt": "Hai nguyên tử nitrogen dùng chung bao nhiêu đôi electron để đạt cấu hình bền?",
+        "calculation": "Phân tử nitrogen có cấu tạo $:N \\equiv N:$ với liên kết ba có năng lượng liên kết lớn ($945\\text{ kJ/mol}$), rất bền.",
+        "trap": "Học sinh nhầm với liên kết đôi của oxygen hoặc liên kết đơn của halogen.",
+        "distractorReasons": {
+          "1": "Phân tử nitrogen gồm 2 nguyên tử cùng loại nên không phân cực.",
+          "2": "Liên kết ba của nitrogen cực kì bền vững chứ không kém bền.",
+          "3": "Đơn chất phi kim tồn tại dạng phân tử cộng hóa trị, không phải ion."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-de01-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Tính chất vật lí của Ammonia",
+      "question": "Ở điều kiện thường, khí ammonia ($NH_3$) có tính chất vật lí nào sau đây?",
+      "options": [
+        "Là chất khí màu vàng lục có mùi hắc rất độc và nguy hiểm",
+        "Là khí không màu có mùi khai nồng và tan rất nhiều trong nước",
+        "Là chất khí không màu không mùi và hoàn toàn không tan trong nước",
+        "Là chất lỏng sánh không màu và có khối lượng riêng rất lớn"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tính chất vật lí và khả năng tan của ammonia",
+        "socraticPrompt": "Mùi đặc trưng của nước tiểu để lâu ngày do khí nào bay lên, và khí đó tan thế nào trong nước?",
+        "calculation": "Ammonia là chất khí không màu, mùi khai nồng, tan rất nhiều trong nước (1 lít nước hòa tan khoảng 800 lít $NH_3$).",
+        "trap": "Nhầm mùi khai của ammonia với mùi hắc của khí sulfur dioxide.",
+        "distractorReasons": {
+          "0": "Khí màu vàng lục là khí chlorine ($Cl_2$).",
+          "2": "Khí không mùi và ít tan là nitrogen ($N_2$).",
+          "3": "Ammonia là chất khí ở điều kiện thường, không phải chất lỏng sánh."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-de01-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Tính chất hoá học của Acid Nitric",
+      "question": "Dung dịch acid nitric ($HNO_3$) đặc, nóng tác dụng với kim loại đồng ($Cu$) sinh ra khí có màu gì?",
+      "options": [
+        "Khí không màu hóa nâu trong không khí ($NO$)",
+        "Khí không màu không mùi nhẹ hơn không khí ($N_2$)",
+        "Khí màu nâu đỏ có mùi hắc đặc trưng ($NO_2$)",
+        "Khí không màu có mùi trứng thối nặng ($H_2S$)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sản phẩm khử của dung dịch acid nitric đặc",
+        "socraticPrompt": "Khi dùng acid nitric đậm đặc phản ứng với kim loại, sản phẩm khử khí sinh ra có màu gì?",
+        "calculation": "Phản ứng: $Cu + 4HNO_3\\text{ đặc} \\xrightarrow{t^o} Cu(NO_3)_2 + 2NO_2\\uparrow + 2H_2O$. Khí $NO_2$ có màu nâu đỏ.",
+        "trap": "Nhầm sản phẩm của acid đặc ($NO_2$) với sản phẩm của acid loãng ($NO$).",
+        "distractorReasons": {
+          "0": "Khí $NO$ không màu sinh ra khi dùng dung dịch $HNO_3$ loãng.",
+          "1": "Khí $N_2$ thường sinh ra khi dùng kim loại khử mạnh như $Mg, Zn$.",
+          "3": "Khí $H_2S$ là sản phẩm khử của hợp chất chứa sulfur."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-de01-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Hiện tượng phú dưỡng",
+      "question": "Hiện tượng phú dưỡng trong các ao hồ sông ngòi chủ yếu do nguyên nhân nào gây ra?",
+      "options": [
+        "Do nguồn nước bị nhiễm quá nhiều ion kim loại nặng độc hại",
+        "Do nồng độ chất phóng xạ trong lòng hồ bị rò rỉ quá mức",
+        "Do nhiệt độ của nguồn nước bị tăng cao bởi các nhà máy",
+        "Do dư thừa các nguyên tố dinh dưỡng nitrogen và phosphorus"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nguyên nhân gây ra hiện tượng phú dưỡng",
+        "socraticPrompt": "Tảo trong ao hồ phát triển bùng nổ khi nguồn nước bị thừa những chất dinh dưỡng phân bón nào?",
+        "calculation": "Hiện tượng phú dưỡng là sự tích tụ lượng lớn các chất dinh dưỡng chứa nitrogen và phosphorus từ phân bón, nước thải sinh hoạt.",
+        "trap": "Nhầm lẫn phú dưỡng với ô nhiễm kim loại nặng hoặc ô nhiễm nhiệt.",
+        "distractorReasons": {
+          "0": "Kim loại nặng gây độc sinh học chứ không gây hiện tượng bùng nổ tảo.",
+          "1": "Nhiễm phóng xạ là sự cố hạt nhân, không phải hiện tượng phú dưỡng.",
+          "2": "Ô nhiễm nhiệt chỉ làm giảm lượng oxy hòa tan chứ không tạo dinh dưỡng dư thừa."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-de01-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Tính chất hoá học của SO2",
+      "question": "Khí sulfur dioxide ($SO_2$) thể hiện tính chất hoá học nào trong các phản ứng?",
+      "options": [
+        "Chỉ thể hiện duy nhất tính oxi hoá mạnh trong môi trường",
+        "Vừa có tính oxi hoá vừa có tính khử tùy chất phản ứng",
+        "Chỉ thể hiện duy nhất tính khử đặc trưng trong dung dịch",
+        "Hoàn toàn trơ về mặt hoá học ở mọi điều kiện nhiệt độ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Số oxi hoá trung gian của nguyên tố sulfur trong $SO_2$",
+        "socraticPrompt": "Nguyên tố sulfur trong $SO_2$ có số oxi hoá là $+4$, số này có thể tăng lên $+6$ hoặc giảm xuống $0$ được không?",
+        "calculation": "Trong $SO_2$, nguyên tố sulfur có số oxi hoá $+4$ (trung gian giữa $-2, 0$ và $+6$). Do đó $SO_2$ vừa có tính khử vừa có tính oxi hoá.",
+        "trap": "Chỉ nhớ $SO_2$ làm mất màu thuốc tím (tính khử) mà quên nó có thể tác dụng $H_2S$ (tính oxi hoá).",
+        "distractorReasons": {
+          "0": "Sai vì $SO_2$ cũng có thể tăng số oxi hoá lên $+6$ nên có tính khử.",
+          "2": "Sai vì $SO_2$ cũng có thể giảm số oxi hoá xuống $0$ nên có tính oxi hoá.",
+          "3": "Sai vì $SO_2$ là một oxide acid hoạt động hoá học tốt."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-de01-q06",
+      "difficulty": "nhan-biet",
+      "topic": "An toàn khi pha loãng H2SO4",
+      "question": "Khi pha loãng acid sulfuric đặc ($H_2SO_4$ đặc), thao tác an toàn đúng quy chuẩn là:",
+      "options": [
+        "Rót nhanh một lượng lớn nước sạch vào cốc chứa acid đặc",
+        "Rót từ từ acid đặc và nước cùng một lúc vào cốc thủy tinh",
+        "Rót từ từ acid đặc vào nước và khuấy đều bằng đũa thủy tinh",
+        "Đun sôi nước trước khi đổ acid sulfuric đặc vào bình nón"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nguyên tắc an toàn phòng thí nghiệm khi pha loãng acid đặc",
+        "socraticPrompt": "Acid sulfuric đặc nặng hơn nước và tỏa nhiệt rất mạnh khi tan, ta phải rót chất nào vào chất nào?",
+        "calculation": "Quy tắc an toàn bất biến: Rót từ từ acid đặc vào nước và khuấy đều. Không bao giờ làm ngược lại.",
+        "trap": "Rót nước vào acid sẽ làm nước sôi cục bộ bắn giọt acid ra ngoài gây bỏng nặng.",
+        "distractorReasons": {
+          "0": "Rất nguy hiểm vì nước sôi tức thì làm bắn acid đặc vào người.",
+          "1": "Rót cùng lúc khó kiểm soát và dễ gây quá nhiệt cục bộ.",
+          "3": "Đun sôi nước trước sẽ càng làm tăng nguy cơ nổ nhiệt nguy hiểm."
+        }
+      }
+    }
+  ]
+}

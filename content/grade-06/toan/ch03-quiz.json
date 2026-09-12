@@ -1,117 +1,157 @@
 {
-  "chapterId": "ch03",
-  "examId": "tonghop",
-  "title": "Toán 6 — Chương 3: Số nguyên: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "examId": "toan-06-ch03-tonghop",
+  "grade": "06",
+  "subject": "toan",
+  "chapter": "ch03",
+  "chapterTitle": "Số nguyên",
+  "title": "Toán 6 — Chương 3: Số nguyên (Đề 3: Đánh giá Năng lực Tổng hợp)",
+  "description": "Đề thi phân hóa kiểm tra tư duy tổng hợp số nguyên, bài toán thực tiễn độ sâu và tài chính.",
+  "examCode": "103",
+  "mode": "exam",
+  "durationMinutes": 15,
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 3: Số nguyên được phát biểu chính xác là:",
+      "id": "toan-06-ch03-th-q01",
+      "difficulty": "van-dung",
+      "topic": "Tính tổng dãy số nguyên trong khoảng",
+      "question": "Cho số nguyên $x$ thỏa mãn: $-4 \\le x < 3$. Tổng tất cả các giá trị nguyên của $x$ là:",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 3: Số nguyên theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Tổng tất cả các giá trị của x có kết quả bằng âm 7",
+        "Tổng tất cả các giá trị của x có kết quả bằng âm 4",
+        "Tổng tất cả các giá trị của x có kết quả bằng 0",
+        "Tổng tất cả các giá trị của x có kết quả bằng âm 9"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 3: Số nguyên.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Liệt kê và tính tổng các số nguyên trong một khoảng cho trước",
+        "socraticPrompt": "Dấu $\\le$ có lấy số $-4$, còn dấu $<$ có lấy số 3 không? Liệt kê tất cả các số.",
+        "calculation": "Các số thỏa mãn: $\\{-4; -3; -2; -1; 0; 1; 2\\}$. Tổng: $[(-2)+2] + [(-1)+1] + 0 + (-4) + (-3) = -4 - 3 = -7$.",
+        "trap": "Lấy cả số 3 vào tổng do nhầm dấu $<$ thành $\\le$.",
+        "distractorReasons": {
+          "1": "Nếu lấy cả số 3 thì tổng là $-7 + 3 = -4$ (sai vì dấu < không lấy 3).",
+          "2": "Nghĩ rằng các số âm và dương triệt tiêu hết cho nhau về 0.",
+          "3": "Bỏ sót số 2 hoặc tính sai phép cộng âm."
+        }
       }
     },
     {
-      "id": "q02",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "id": "toan-06-ch03-th-q02",
+      "difficulty": "van-dung",
+      "topic": "Bài toán thực tế độ sâu tàu ngầm",
+      "question": "Một tàu ngầm đang ở độ sâu 40 m (kí hiệu $-40\\text{ m}$). Tàu lặn sâu thêm 25 m rồi nổi lên 15 m. Vị trí hiện tại của tàu là:",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "Tàu ngầm đang ở độ cao âm 80 mét so với mặt biển",
+        "Tàu ngầm đang ở độ cao âm 50 mét so với mặt biển",
+        "Tàu ngầm đang ở độ cao âm 30 mét so với mặt biển",
+        "Tàu ngầm đang ở độ cao âm 65 mét so với mặt biển"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Mô hình hóa bài toán thực tế chuyển động theo phương thẳng đứng bằng số nguyên",
+        "socraticPrompt": "Lặn sâu thêm tương ứng với phép trừ (hoặc cộng số âm), nổi lên tương ứng với phép cộng số dương.",
+        "calculation": "Vị trí tàu ngầm: $(-40) - 25 + 15 = -65 + 15 = -50\\text{ m}$. Tức tàu đang ở độ sâu 50 m dưới mực nước biển.",
+        "trap": "Nhầm lẫn chiều lặn sâu là cộng thêm số dương.",
+        "distractorReasons": {
+          "0": "Tính nhầm phép cộng trừ các đại lượng.",
+          "2": "Lấy $-40 + 25 - 15 = -30\\text{ m}$ hiểu ngược quy ước lặn và nổi.",
+          "3": "Quên không tính lượt nổi lên 15 m."
+        }
       }
     },
     {
-      "id": "q03",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "id": "toan-06-ch03-th-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Tính giá trị tích nhiều số nguyên",
+      "question": "Tính giá trị của tích nhiều số nguyên: $B = (-5) \\times 13 \\times (-2) \\times (-4)$:",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "Giá trị của biểu thức B tính được bằng dương 520",
+        "Giá trị của biểu thức B tính được bằng âm 260",
+        "Giá trị của biểu thức B tính được bằng âm 520",
+        "Giá trị của biểu thức B tính được bằng dương 260"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Xác định dấu của tích và phối hợp tính nhanh hợp lý",
+        "socraticPrompt": "Đếm xem tích có bao nhiêu thừa số nguyên âm? Số lượng này là chẵn hay lẻ?",
+        "calculation": "Tích có 3 thừa số âm (lẻ) nên kết quả mang dấu âm '-'. Kết hợp: $[(-5) \\times (-2)] = 10$. Tích: $10 \\times [13 \\times (-4)] = 10 \\times (-52) = -520$.",
+        "trap": "Xác định sai dấu thành $+520$ do tưởng có nhiều dấu trừ thì thành dấu cộng.",
+        "distractorReasons": {
+          "0": "Nhầm dấu của tích 3 thừa số âm thành dấu dương.",
+          "1": "Tính thiếu một thừa số dẫn đến ra 260.",
+          "3": "Sai cả dấu lẫn tính thiếu thừa số."
+        }
       }
     },
     {
-      "id": "q04",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "id": "toan-06-ch03-th-q04",
+      "difficulty": "van-dung-cao",
+      "topic": "Tìm điều kiện để phân số nhận giá trị nguyên",
+      "question": "Tìm tập hợp tất cả các số nguyên $n$ để phân số $\\frac{5}{n - 2}$ nhận giá trị là một số nguyên:",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "Số n nhận một trong các giá trị {1; 3; 5; 7}",
+        "Số n nhận một trong các giá trị {-5; -1; 1; 5}",
+        "Số n nhận một trong các giá trị {2; 4; 6; 8}",
+        "Số n nhận một trong các giá trị {-3; 1; 3; 7}"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Ứng dụng quan hệ chia hết trong Z để tìm biến số",
+        "socraticPrompt": "Để phân số nhận giá trị nguyên thì mẫu số $(n - 2)$ phải là gì của tử số 5?",
+        "calculation": "Để $\\frac{5}{n - 2} \\in \\mathbb{Z} \\Rightarrow (n - 2) \\in Ư(5) = \\{-5; -1; 1; 5\\}$.\n• $n - 2 = -5 \\Rightarrow n = -3$\n• $n - 2 = -1 \\Rightarrow n = 1$\n• $n - 2 = 1 \\Rightarrow n = 3$\n• $n - 2 = 5 \\Rightarrow n = 7$.\nVậy $n \\in \\{-3; 1; 3; 7\\}$.",
+        "trap": "Dừng lại ở tập ước $\\{-5; -1; 1; 5\\}$ mà quên cộng thêm 2 để tìm $n$.",
+        "distractorReasons": {
+          "0": "Chỉ lấy các ước dương trong $\\mathbb{N}$.",
+          "1": "Đây mới chỉ là các giá trị của $(n - 2)$, chưa phải của $n$.",
+          "2": "Tập các số chẵn không làm mẫu chia hết cho 5."
+        }
       }
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "id": "toan-06-ch03-th-q05",
+      "difficulty": "van-dung",
+      "topic": "Bài toán tài chính kinh doanh",
+      "question": "Một cửa hàng tháng đầu lỗ 25 triệu đồng ($-25$), tháng hai lãi 40 triệu ($+40$), tháng ba lỗ 12 triệu ($-12$). Sau 3 tháng kết quả là:",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "Doanh nghiệp bị thua lỗ tất cả 3 triệu đồng",
+        "Doanh nghiệp thu được tiền lãi là 3 triệu đồng",
+        "Doanh nghiệp thu được tiền lãi là 15 triệu đồng",
+        "Doanh nghiệp hoàn toàn hòa vốn với kết quả 0 đồng"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Ứng dụng số nguyên âm và dương giải bài toán tài chính",
+        "socraticPrompt": "Quy ước: lãi mang dấu '+', lỗ mang dấu '-'. Hãy cộng tất cả các kết quả lại.",
+        "calculation": "Tổng kết quả tài chính: $(-25) + (+40) + (-12) = 15 + (-12) = +3$ triệu đồng. Kết quả dương nên cửa hàng có lãi 3 triệu đồng.",
+        "trap": "Tính nhầm $-25 + 40 = -15$ dẫn đến ra lỗ 27 triệu.",
+        "distractorReasons": {
+          "0": "Tính sai dấu của tổng thành $-3$ triệu đồng.",
+          "2": "Quên tính tháng thứ ba bị lỗ 12 triệu.",
+          "3": "Nghĩ rằng kinh doanh vừa lãi vừa lỗ thì hòa vốn."
+        }
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
-      "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "id": "toan-06-ch03-th-q06",
+      "difficulty": "van-dung-cao",
+      "topic": "Tư duy tính chất số nguyên",
+      "question": "Cho hai số nguyên $a$ và $b$ thỏa mãn tích $a \\cdot b < 0$ và tổng $a + b < 0$. Khẳng định nào sau đây chắc chắn ĐÚNG?",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "Cả hai số a và b đều là hai số nguyên âm khác nhau",
+        "Hai số a và b là hai số đối nhau có tổng bằng 0",
+        "Hai số a và b khác dấu và số âm có phần tự nhiên lớn hơn",
+        "Hai số a và b cùng mang dấu dương và có tích lớn hơn 0"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Lập luận tư duy dấu và phần tự nhiên của hai số nguyên",
+        "socraticPrompt": "Tích nhỏ hơn 0 chứng tỏ hai số thế nào? Tổng nhỏ hơn 0 chứng tỏ số nào có phần tự nhiên lớn hơn?",
+        "calculation": "1) $a \\cdot b < 0 \\Rightarrow a$ và $b$ là hai số nguyên trái dấu (một dương, một âm). 2) $a + b < 0 \\Rightarrow$ khi cộng hai số khác dấu, kết quả mang dấu của số có phần tự nhiên lớn hơn. Vì tổng mang dấu âm nên số âm có phần tự nhiên lớn hơn số dương.",
+        "trap": "Nghĩ rằng cả hai số đều âm (nhưng hai số âm nhân nhau lại ra số dương).",
+        "distractorReasons": {
+          "0": "Nếu cả hai cùng âm thì tích $a \\cdot b > 0$, mâu thuẫn giả thiết.",
+          "1": "Nếu đối nhau thì tổng $a + b = 0$, mâu thuẫn giả thiết $a + b < 0$.",
+          "3": "Nếu cùng dương thì tích $a \\cdot b > 0$ và tổng $a + b > 0$."
+        }
       }
     }
   ]

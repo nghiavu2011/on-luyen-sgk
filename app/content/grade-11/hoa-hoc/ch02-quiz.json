@@ -1,1 +1,158 @@
-[]
+{
+  "examId": "hoa-11-ch02-tonghop",
+  "grade": "11",
+  "subject": "hoa-hoc",
+  "chapter": "ch02",
+  "chapterTitle": "Nitrogen & Sulfur",
+  "title": "Hóa học 11 — Chương 2: Nitrogen & Sulfur (Đề 3: Đánh giá Năng lực Tổng hợp)",
+  "description": "Đề thi phân hóa 4 mức độ bám sát bài toán thực tiễn công nghiệp sản xuất acid và môi trường.",
+  "examCode": "103",
+  "mode": "exam",
+  "durationMinutes": 15,
+  "questions": [
+    {
+      "id": "hoahoc-11-ch02-th-q01",
+      "difficulty": "van-dung",
+      "topic": "Tính toán định lượng Acid Nitric",
+      "question": "Hòa tan hoàn toàn $3,84\\text{ gam } Cu$ vào dung dịch $HNO_3$ loãng dư. Thể tích khí $NO$ (sản phẩm khử duy nhất, ở $25^oC, 1\\text{ bar}$) là:",
+      "options": [
+        "Thể tích khí NO thu được bằng 0,99 lít khí",
+        "Thể tích khí NO thu được bằng 1,48 lít khí",
+        "Thể tích khí NO thu được bằng 2,47 lít khí",
+        "Thể tích khí NO thu được bằng 0,74 lít khí"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định lượng phản ứng oxi hoá khử của kim loại với acid nitric",
+        "socraticPrompt": "Em hãy tính số mol của Cu, viết phương trình bảo toàn electron hoặc phương trình phân tử để tìm số mol NO.",
+        "calculation": "$n_{Cu} = \\frac{3,84}{64} = 0,06\\text{ mol}$. Phương trình: $3Cu + 8HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO\\uparrow + 4H_2O$. Suy ra $n_{NO} = \\frac{2}{3} n_{Cu} = 0,04\\text{ mol}$. Thể tích ở điều kiện chuẩn ($25^oC, 1\\text{ bar}$): $V = 0,04 \\times 24,79 = 0,9916\\text{ lít} \\approx 0,99\\text{ lít}$.",
+        "trap": "Học sinh nhân nhầm hệ số $22,4$ của chương trình cũ thay vì hệ số $24,79$ của chuẩn mới BGDĐT.",
+        "distractorReasons": {
+          "1": "Tính nhầm số mol $n_{NO} = n_{Cu} = 0,06\\text{ mol} \\Rightarrow V = 1,48\\text{ lít}$.",
+          "2": "Nhân với tỉ lệ 1 mol chất khí bằng 24,79 nhưng tính sai số mol thành 0,1 mol.",
+          "3": "Lấy hệ số mol electron chia nhầm cho 2."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-th-q02",
+      "difficulty": "van-dung",
+      "topic": "Sản xuất Sulfuric Acid công nghiệp",
+      "question": "Trong công nghiệp sản xuất $H_2SO_4$ bằng phương pháp tiếp xúc, công đoạn hấp thụ $SO_3$ được thực hiện bằng chất nào?",
+      "options": [
+        "Dùng nước cất tinh khiết để tạo ra dung dịch loãng",
+        "Dùng acid sulfuric đặc 98% để tạo thành oleum",
+        "Dùng dung dịch nước vôi trong để tạo kết tủa trắng",
+        "Dùng dung dịch kiềm sodium hydroxide đậm đặc nóng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy trình công nghệ hấp thụ khí $SO_3$ trong sản xuất $H_2SO_4$",
+        "socraticPrompt": "Tại sao người ta không dùng nước trực tiếp để hấp thụ $SO_3$ mà phải dùng $H_2SO_4$ đặc?",
+        "calculation": "Người ta dùng dung dịch $H_2SO_4$ đặc $98\\%$ để hấp thụ $SO_3$ tạo thành oleum ($H_2SO_4 \\cdot nSO_3$). Nếu dùng nước, phản ứng tỏa nhiệt dữ dội làm nước sôi tạo mù acid khó ngưng tụ và ăn mòn thiết bị.",
+        "trap": "Học sinh nghĩ đơn giản $SO_3 + H_2O \\rightarrow H_2SO_4$ nên chọn dùng nước tinh khiết.",
+        "distractorReasons": {
+          "0": "Dùng nước sẽ tạo mù acid rất nguy hiểm và không thu hồi được acid hiệu quả.",
+          "2": "Nước vôi tạo kết tủa thạch cao $CaSO_4$ không thu được acid thương phẩm.",
+          "3": "Dùng kiềm sẽ trung hòa mất acid, không có ý nghĩa sản xuất."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-th-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Mưa acid và môi trường",
+      "question": "Một mẫu nước mưa có pH = 4,5. Nước mưa này có tính acid chủ yếu do sự có mặt của các acid nào sau đây hình thành trong khí quyển?",
+      "options": [
+        "Acid carbonic ($H_2CO_3$) và acid acetic ($CH_3COOH$)",
+        "Acid clohiđric ($HCl$) và acid photphoric ($H_3PO_4$)",
+        "Acid nitric ($HNO_3$) và acid sulfuric ($H_2SO_4$)",
+        "Acid flohiđric ($HF$) và acid fomic hữu cơ ($HCOOH$)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nguyên nhân và thành phần hóa học chính của mưa acid",
+        "socraticPrompt": "Các khí thải công nghiệp $SO_2$ và $NO_x$ khi gặp oxy và nước mưa sẽ chuyển hóa thành những acid nào?",
+        "calculation": "Khí thải $SO_2$ và $NO_x$ bị oxi hoá bởi oxy không khí có xúc tác bụi kim loại tạo $H_2SO_4$ và $HNO_3$. Đây là hai tác nhân chính gây ra mưa acid ($pH < 5,6$).",
+        "trap": "Nghĩ rằng chỉ có khí $CO_2$ hòa tan (nước mưa bình thường chứa $CO_2$ chỉ có $pH \\approx 5,6$, chưa đạt mức mưa acid).",
+        "distractorReasons": {
+          "0": "$CO_2$ chỉ làm nước mưa có $pH \\approx 5,6$, không thể làm giảm xuống 4,5.",
+          "1": "Khí $HCl$ và $H_3PO_4$ không phải nguồn khí thải phổ biến trong khí quyển.",
+          "3": "Acid flohiđric chỉ xuất hiện ở các sự cố nhà máy hóa chất cá biệt."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-th-q04",
+      "difficulty": "van-dung",
+      "topic": "Phản ứng của SO2 với dung dịch kiềm",
+      "question": "Sục từ từ $0,1\\text{ mol } SO_2$ vào dung dịch chứa $0,15\\text{ mol } NaOH$. Muối thu được sau phản ứng gồm có:",
+      "options": [
+        "Chỉ thu được một muối acid duy nhất là NaHSO3",
+        "Chỉ thu được một muối trung hòa duy nhất Na2SO3",
+        "Thu được muối Na2SO4 và khí hydro sục bọt nhanh",
+        "Thu được hỗn hợp gồm cả hai muối NaHSO3 và Na2SO3"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Xác định sản phẩm phản ứng giữa $SO_2$ và dung dịch kiềm dựa vào tỉ lệ mol",
+        "socraticPrompt": "Em hãy tính tỉ số $T = n_{NaOH} / n_{SO_2}$ rồi so sánh với các mốc 1 và 2.",
+        "calculation": "Tỉ số $T = \\frac{n_{NaOH}}{n_{SO_2}} = \\frac{0,15}{0,1} = 1,5$. Vì $1 < T < 2$ nên phản ứng tạo ra đồng thời cả hai muối: muối acid $NaHSO_3$ và muối trung hòa $Na_2SO_3$.",
+        "trap": "Học sinh chỉ nhớ 1 phương trình tạo $Na_2SO_3$ mà quên trường hợp tạo hỗn hợp hai muối.",
+        "distractorReasons": {
+          "0": "Chỉ tạo $NaHSO_3$ khi tỉ lệ $T \\le 1$.",
+          "1": "Chỉ tạo $Na_2SO_3$ khi tỉ lệ $T \\ge 2$.",
+          "2": "Đây không phải phản ứng tạo gốc sulfate $SO_4^{2-}$ hay giải phóng $H_2$."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-th-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Hợp chất Nitrogen trong nông nghiệp",
+      "question": "Hợp chất nào của nitrogen thường được dùng làm phân đạm urê cung cấp dinh dưỡng cho cây trồng?",
+      "options": [
+        "Phân bón đạm ammonium nitrate ($NH_4NO_3$ dạng hạt)",
+        "Hợp chất hữu cơ urê có công thức $(NH_2)_2CO$",
+        "Phân bón đạm ammonium chloride có công thức $NH_4Cl$",
+        "Phân bón kali nitrate có công thức hóa học là $KNO_3$"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức và đặc điểm của phân đạm urê",
+        "socraticPrompt": "Phân đạm urê là phân đạm có hàm lượng dinh dưỡng nitrogen cao nhất, công thức phân tử là gì?",
+        "calculation": "Phân urê có công thức là $(NH_2)_2CO$, chứa khoảng $46\\%$ nitrogen, là loại phân đạm tốt và phổ biến nhất.",
+        "trap": "Nhầm phân urê với các loại phân đạm vô cơ khác như đạm 2 lá ($NH_4NO_3$).",
+        "distractorReasons": {
+          "0": "$NH_4NO_3$ là phân đạm nitrate, dễ gây cháy nổ khi bảo quản.",
+          "2": "$NH_4Cl$ là phân đạm clorua, gây chua đất và hại vi sinh vật.",
+          "3": "$KNO_3$ là phân kali nitrate (cung cấp cả K và N)."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch02-th-q06",
+      "difficulty": "van-dung-cao",
+      "topic": "Hiện tượng thụ động hóa kim loại",
+      "question": "Cặp kim loại nào sau đây bị thụ động hóa (không phản ứng) trong cả dung dịch $HNO_3$ đặc, nguội và $H_2SO_4$ đặc, nguội?",
+      "options": [
+        "Đồng ($Cu$) và Bạc ($Ag$) trơ trong acid nguội",
+        "Kẽm ($Zn$) và Chì ($Pb$) trơ trong acid nguội",
+        "Nhôm ($Al$) và Sắt ($Fe$) trơ trong acid nguội",
+        "Magie ($Mg$) và Canxi ($Ca$) trơ trong acid nguội"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hiện tượng thụ động hóa của nhôm và sắt trong acid đặc nguội",
+        "socraticPrompt": "Kim loại nào được dùng để làm bồn chứa vận chuyển acid sulfuric và acid nitric đặc nguội?",
+        "calculation": "Nhôm ($Al$) và Sắt ($Fe$) (cùng với $Cr$) bị thụ động hóa trong $HNO_3$ đặc nguội và $H_2SO_4$ đặc nguội do tạo ra màng oxide mỏng nhưng rất bền vững, ngăn không cho kim loại tiếp tục phản ứng. Do đó có thể dùng thùng bằng sắt hoặc nhôm để vận chuyển các acid này.",
+        "trap": "Nhầm các kim loại đứng sau hydro như Cu, Ag (chúng vẫn tan trong acid đặc nguội giải phóng khí).",
+        "distractorReasons": {
+          "0": "Đồng và Bạc tan được trong dung dịch acid nitric đặc nguội.",
+          "1": "Kẽm và Chì vẫn phản ứng bình thường trong acid đặc.",
+          "3": "Magie và Canxi phản ứng rất mãnh liệt tỏa nhiều nhiệt."
+        }
+      }
+    }
+  ]
+}

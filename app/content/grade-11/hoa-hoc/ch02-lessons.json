@@ -1,47 +1,164 @@
-[
-  {
-    "id": "l03",
-    "title": "Bài 3: Đơn chất Nitrogen và Ammonia, muối ammonium",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 3: Đơn chất Nitrogen và Ammonia, muối ammonium.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 3: Đơn chất Nitrogen và Ammonia, muối ammonium.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 3: Đơn chất Nitrogen và Ammonia, muối ammonium để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l04",
-    "title": "Bài 4: Acid nitric ($HNO_3$) và hiện tượng phú dưỡng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 4: Acid nitric ($HNO_3$) và hiện tượng phú dưỡng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 4: Acid nitric ($HNO_3$) và hiện tượng phú dưỡng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 4: Acid nitric ($HNO_3$) và hiện tượng phú dưỡng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l05",
-    "title": "Bài 5: Sulfur, Sulfur dioxide ($SO_2$) và Sulfuric acid ($H_2SO_4$)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 5: Sulfur, Sulfur dioxide ($SO_2$) và Sulfuric acid ($H_2SO_4$).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 5: Sulfur, Sulfur dioxide ($SO_2$) và Sulfuric acid ($H_2SO_4$).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 5: Sulfur, Sulfur dioxide ($SO_2$) và Sulfuric acid ($H_2SO_4$) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Nitrogen & Sulfur",
+  "lessons": [
+    {
+      "id": "l03",
+      "title": "Bài 3: Đơn chất Nitrogen và Ammonia, muối ammonium",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được cấu tạo phân tử, tính trơ ở nhiệt độ thường và tính oxi hoá - khử của đơn chất nitrogen.",
+        "Giải thích được cấu tạo phân tử, tính base yếu, tính khử của ammonia ($NH_3$) và tính tan đặc biệt trong nước.",
+        "Nêu được tính chất của muối ammonium ($NH_4^+$) và phương pháp nhận biết bằng dung dịch kiềm."
+      ],
+      "concepts": [
+        {
+          "term": "Đơn chất Nitrogen ($N_2$)",
+          "definition": "Phân tử gồm 2 nguyên tử liên kết với nhau bằng liên kết ba ($N \\equiv N$) có năng lượng liên kết rất lớn ($945\\text{ kJ/mol}$), không phân cực.",
+          "notation": "$:N \\equiv N:$",
+          "note": "Ở nhiệt độ thường nitrogen khá trơ về mặt hoá học; ở nhiệt độ cao hoạt động hơn, vừa thể hiện tính oxi hoá vừa thể hiện tính khử."
+        },
+        {
+          "term": "Ammonia ($NH_3$)",
+          "definition": "Chất khí không màu, mùi khai nồng, nhẹ hơn không khí, tan rất nhiều trong nước nhờ tạo liên kết hydrogen với nước.",
+          "notation": "$NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-$",
+          "note": "Phân tử có cặp electron tự do trên nguyên tử N nên thể hiện tính base yếu và tính khử."
+        },
+        {
+          "term": "Muối ammonium",
+          "definition": "Gồm cation ammonium ($NH_4^+$) và anion gốc acid. Đều dễ tan trong nước, điện li hoàn toàn và kém bền nhiệt.",
+          "notation": "$NH_4Cl \\xrightarrow{t^o} NH_3\\uparrow + HCl\\uparrow$",
+          "note": "Nhận biết muối ammonium bằng dung dịch kiềm nóng sinh khí $NH_3$ làm quỳ tím ẩm hóa xanh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất của liên kết ba $N \\equiv N$",
+          "meaning": "Do năng lượng liên kết ba rất lớn nên đơn chất nitrogen trơ ở điều kiện thường, chỉ phản ứng ở nhiệt độ cao hoặc có tia lửa điện."
+        },
+        {
+          "statement": "Tính base và tính khử của $NH_3$",
+          "meaning": "Tác dụng với acid tạo muối ammonium. Tác dụng với chất oxi hoá ($O_2, Cl_2$) thể hiện tính khử do số oxi hoá $-3$ tăng lên $0$."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình hoá học chứng minh $NH_3$ thể hiện tính khử khi tác dụng với khí oxygen có xúc tác platin ở $850^oC$?",
+          "steps": [
+            "Bước 1: Trong $NH_3$, nguyên tố nitrogen có số oxi hoá thấp nhất là $-3$.",
+            "Bước 2: Khi gặp chất oxi hoá mạnh $O_2$ có xúc tác $Pt$ ở nhiệt độ cao, $N^{-3}$ bị oxi hoá lên $N^{+2}$ trong $NO$.",
+            "Bước 3: Cân bằng phản ứng oxi hoá - khử: $4NH_3 + 5O_2 \\xrightarrow{Pt, 850^oC} 4NO + 6H_2O$."
+          ],
+          "answer": "$4NH_3 + 5O_2 \\xrightarrow{Pt, 850^oC} 4NO + 6H_2O$."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng nitrogen không phản ứng với bất kì chất nào ở nhiệt độ thường.",
+          "why": "Ngoại lệ: Nitrogen phản ứng được với kim loại Lithium ($Li$) ngay ở nhiệt độ thường tạo $Li_3N$."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Acid nitric ($HNO_3$) và hiện tượng phú dưỡng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được tính acid mạnh và tính chất oxi hoá rất mạnh của $HNO_3$ đối với kim loại, phi kim và hợp chất.",
+        "Giải thích được nguyên nhân, hậu quả và biện pháp kiểm soát hiện tượng phú dưỡng (eutrophication) trong môi trường nước."
+      ],
+      "concepts": [
+        {
+          "term": "Acid nitric ($HNO_3$)",
+          "definition": "Là một trong những acid mạnh nhất, trong đó nguyên tố nitrogen có số oxi hoá cao nhất là $+5$.",
+          "notation": "$HNO_3 \\rightarrow H^+ + NO_3^-$",
+          "note": "Có tính oxi hoá cực mạnh đối với hầu hết kim loại (trừ Au, Pt) mà không giải phóng khí hydrogen ($H_2$)."
+        },
+        {
+          "term": "Hiện tượng phú dưỡng",
+          "definition": "Sự tích tụ quá mức các chất dinh dưỡng (đặc biệt là nitrate và phosphate) trong các thủy vực ao, hồ.",
+          "notation": "Dư thừa N, P $\\rightarrow$ Tảo nở hoa $\\rightarrow$ Thiếu hụt $O_2$ hòa tan $\\rightarrow$ Cá chết",
+          "note": "Gây ô nhiễm nguồn nước sinh hoạt, bốc mùi hôi thối và hủy hoại hệ sinh thái thủy sinh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc sản phẩm khử của $HNO_3$",
+          "meaning": "$HNO_3$ đặc tác dụng kim loại thường sinh khí $NO_2$ màu nâu đỏ. $HNO_3$ loãng tác dụng kim loại thường sinh khí $NO$ không màu hóa nâu trong không khí."
+        },
+        {
+          "statement": "Quy tắc thụ động hóa",
+          "meaning": "Kim loại Nhôm ($Al$), Sắt ($Fe$), Crom ($Cr$) bị thụ động hóa trong $HNO_3$ đặc nguội do màng oxide bền bảo vệ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẩu đồng ($Cu$) vào ống nghiệm chứa dung dịch $HNO_3$ đặc. Nêu hiện tượng và viết phương trình phản ứng?",
+          "steps": [
+            "Bước 1: Đồng tan dần tạo dung dịch muối đồng(II) nitrate $Cu(NO_3)_2$ có màu xanh lam.",
+            "Bước 2: Thoát ra khí màu nâu đỏ, mùi hắc là khí nitrogen dioxide ($NO_2$).",
+            "Bước 3: Phương trình phản ứng: $Cu + 4HNO_3\\text{ đặc} \\rightarrow Cu(NO_3)_2 + 2NO_2\\uparrow + 2H_2O$."
+          ],
+          "answer": "Đồng tan, dung dịch chuyển sang màu xanh và có khí màu nâu đỏ thoát ra."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết phản ứng giữa kim loại với $HNO_3$ giải phóng khí $H_2$.",
+          "why": "Tuyệt đối không giải phóng khí $H_2$, nguyên tố $N^{+5}$ bị khử tạo các sản phẩm như $NO_2, NO, N_2O, N_2, NH_4NO_3$."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Sulfur, Sulfur dioxide ($SO_2$) và Sulfuric acid ($H_2SO_4$)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được tính chất của đơn chất sulfur và vai trò vừa oxi hoá vừa khử của sulfur dioxide ($SO_2$).",
+        "Trình bày được tính chất của dung dịch sulfuric acid loãng và sulfuric acid đặc (tính acid mạnh, tính oxi hoá mạnh, tính háo nước).",
+        "Nắm vững quy tắc an toàn khi sử dụng và pha loãng sulfuric acid đặc trong thực tế."
+      ],
+      "concepts": [
+        {
+          "term": "Sulfur dioxide ($SO_2$)",
+          "definition": "Chất khí không màu, mùi hắc, độc, nặng hơn không khí, tan nhiều trong nước tạo acid yếu $H_2SO_3$.",
+          "notation": "$S^{+4}O_2$",
+          "note": "Số oxi hoá $+4$ là trung gian nên $SO_2$ vừa có tính oxi hoá vừa có tính khử."
+        },
+        {
+          "term": "Sulfuric acid ($H_2SO_4$)",
+          "definition": "Chất lỏng sánh như dầu, không màu, không bay hơi, tan vô hạn trong nước và tỏa lượng nhiệt cực lớn.",
+          "notation": "$H_2SO_4$",
+          "note": "$H_2SO_4$ đặc có tính háo nước mãnh liệt (chiếm lấy nước từ hợp chất hữu cơ carbonhydrate làm hóa than)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc pha loãng acid sulfuric đặc an toàn",
+          "meaning": "Rót từ từ acid đặc vào nước và khuấy đều bằng đũa thủy tinh. TUYỆT ĐỐI KHÔNG làm ngược lại (rót nước vào acid) vì sẽ gây sôi cục bộ bắn acid ra ngoài gây bỏng cực kì nguy hiểm."
+        },
+        {
+          "statement": "Tính oxi hoá của $H_2SO_4$ đặc, nóng",
+          "meaning": "Oxi hoá hầu hết kim loại (trừ Au, Pt) lên số oxi hoá cao nhất, giải phóng khí $SO_2$ (hoặc $S, H_2S$), không giải phóng khí $H_2$."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Nhỏ vài giọt dung dịch $H_2SO_4$ đặc vào một ít đường ăn ($C_{12}H_{22}O_{11}$). Mô tả hiện tượng xảy ra?",
+          "steps": [
+            "Bước 1: Acid đặc háo nước hút $H_2O$ từ phân tử đường: $C_{12}H_{22}O_{11} \\xrightarrow{H_2SO_4\\text{ đặc}} 12C + 11H_2O$, đường chuyển thành khối màu đen xốp.",
+            "Bước 2: Một phần carbon tạo ra bị $H_2SO_4$ đặc oxi hoá: $C + 2H_2SO_4 \\rightarrow CO_2\\uparrow + 2SO_2\\uparrow + 2H_2O$.",
+            "Bước 3: Các bọt khí $CO_2$ và $SO_2$ thoát ra đẩy khối carbon đen dâng trào lên khỏi miệng cốc kèm khói và nhiệt tỏa mạnh."
+          ],
+          "answer": "Đường biến thành khối than đen xốp, bốc khói mùi hắc và dâng cao trào khỏi miệng cốc."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Rót nước vào cốc đựng acid sulfuric đặc khi pha loãng.",
+          "why": "Nước nhẹ hơn nổi lên trên, nhiệt độ tăng vọt làm nước sôi đột ngột bắn acid ra ngoài gây bỏng nặng."
+        }
+      ]
+    }
+  ]
+}
