@@ -210,7 +210,7 @@
                 <button class="ol-btn-icon" title="Thông báo">🔔</button>
                 <div style="display: flex; align-items: center; gap: 0.5rem; background: white; border: 1px solid #cbd5e1; padding: 0.25rem 0.6rem 0.25rem 0.25rem; border-radius: 20px;">
                     <div id="user-avatar-badge" style="width: 28px; height: 28px; border-radius: 50%; background: #0284c7; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700;">MA</div>
-                    <span id="user-name-badge" style="font-size: 0.8rem; font-weight: 700; color: #0f172a;">Nguyễn Minh Anh</span>
+                    <span id="user-name-badge" style="font-size: 0.8rem; font-weight: 700; color: #0f172a;">Học sinh</span>
                 </div>
             </div>
         </div>
@@ -222,7 +222,7 @@
         <div class="thcs-greeting-bar">
             <div>
                 <h2 style="font-size: 1.35rem; font-weight: 800; color: #0369a1; margin-bottom: 0.2rem;" id="greeting-title">
-                    Xin chào, Nguyễn Minh Anh! 👋
+                    Xin chào, em! 👋
                 </h2>
                 <p style="font-size: 0.9rem; color: #475569;" id="greeting-desc">
                     Hôm nay là một ngày tuyệt vời để khám phá bài học mới và củng cố kiến thức!
@@ -372,6 +372,7 @@
         </div>
     </footer>
 
+    <script src="js/context.js"></script>
     <script src="js/app.js"></script>
     <script>
         let lessons = [];
@@ -392,7 +393,8 @@
             if (headerLevelEl) headerLevelEl.textContent = levelDesc;
 
             const userBadgeEl = document.getElementById('user-name-badge');
-            if (userBadgeEl) userBadgeEl.textContent = `Nguyễn Minh Anh (${grade}${isTHPT ? 'A1' : 'A'})`;
+            if (userBadgeEl) const ctx = window.getContext ? window.getContext() : { nickname: 'Học sinh', grade: grade };
+            if (userBadgeEl) userBadgeEl.textContent = `${ctx.nickname} (Lớp ${ctx.grade})`;
 
             // Load Subject Info to update Header & Links
             let subName = subject;
