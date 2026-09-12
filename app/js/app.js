@@ -199,3 +199,39 @@ async function smartFetch(path) {
 // Init on load
 document.addEventListener('DOMContentLoaded', updateStats);
 
+
+// ================= DETERMINISTIC OPTION SHUFFLING (P0-1a) =================
+function hashSeed(str) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  return h >>> 0;
+}
+
+function seededRandom(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function buildOptionOrder(question, attemptSeed) {
+  const n = (question.options || []).length;
+  const order = Array.from({ length: n }, (_, i) => i);
+  const qSeedId = question.id || question.question || 'q';
+  const rand = seededRandom(hashSeed(`${qSeedId}::${attemptSeed}`));
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  const originalCorrect = (question.correct !== undefined ? question.correct : (question.answer !== undefined ? question.answer : 0));
+  return { order, correctDisplayIndex: order.indexOf(originalCorrect) };
+}
+
+window.hashSeed = hashSeed;
+window.seededRandom = seededRandom;
+window.buildOptionOrder = buildOptionOrder;

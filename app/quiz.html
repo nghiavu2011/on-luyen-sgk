@@ -461,6 +461,7 @@
     <script>
         let questions = [];
         let currentIdx = 0;
+        let attemptSeed = Date.now();
         let userAnswers = {}; // { 0: 2, 1: 0, ... }
         let timerSeconds = 45 * 60;
         let timerInterval;
@@ -557,6 +558,20 @@
                 if (metaEl) {
                     metaEl.innerHTML = `Chế độ: <strong>DeepTutor Remediation</strong> · Số lượng: <strong>${questions.length} câu</strong> · Mục tiêu: Làm chủ 100%`;
                 }
+                
+            // Initialize deterministic option shuffling (P0-1a)
+            attemptSeed = Date.now();
+            questions.forEach(q => {
+                if (window.buildOptionOrder) {
+                    const { order, correctDisplayIndex } = window.buildOptionOrder(q, attemptSeed);
+                    q._displayOrder = order;
+                    q._correctDisplayIndex = correctDisplayIndex;
+                } else {
+                    q._displayOrder = Array.from({ length: (q.options || []).length }, (_, i) => i);
+                    q._correctDisplayIndex = (q.correct !== undefined ? q.correct : (q.answer !== undefined ? q.answer : 0));
+                }
+            });
+
                 renderMatrix();
                 renderQuestion();
                 startTimer();
@@ -691,10 +706,10 @@
                     </div>
 
                     <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem;">
-                        ${(q.options || []).map((opt, i) => `
-                            <button class="thpt-opt-btn ${userAnswers[currentIdx] === i ? 'correct' : ''}" onclick="chooseOption(${i})">
-                                <span class="thpt-opt-badge">${letters[i]}</span>
-                                <span>${opt}</span>
+                        ${(q._displayOrder || (q.options || []).map((_, i) => i)).map((origIdx, displayIdx) => `
+                            <button class="thpt-opt-btn ${userAnswers[currentIdx] === displayIdx ? 'correct' : ''}" onclick="chooseOption(${displayIdx})">
+                                <span class="thpt-opt-badge">${letters[displayIdx]}</span>
+                                <span>${q.options[origIdx]}</span>
                             </button>
                         `).join('')}
                     </div>
@@ -715,14 +730,15 @@
             renderKaTeX();
         }
 
-        function chooseOption(optIdx) {
-            userAnswers[currentIdx] = optIdx;
+        function chooseOption(displayIdx) {
+            userAnswers[currentIdx] = displayIdx;
             const q = questions[currentIdx];
-            const isCorrect = (optIdx === q.answer);
+            const isCorrect = (displayIdx === q._correctDisplayIndex);
+            const origChosen = q._displayOrder ? q._displayOrder[displayIdx] : displayIdx;
 
             // Ghi nhận DeepTutor 3-Layer Memory & Mistake Bank
             if (window.DeepTutor) {
-                DeepTutor.recordAttempt(q, optIdx, isCorrect, {
+                DeepTutor.recordAttempt(q, origChosen, isCorrect, {
                     grade: params.grade || '06',
                     subject: params.subject || 'toan',
                     chapter: params.chapter || 'ch01'
@@ -770,7 +786,8 @@
 
             let correct = 0;
             questions.forEach((q, idx) => {
-                if (userAnswers[idx] === q.answer) correct++;
+                const targetCorrect = (q._correctDisplayIndex !== undefined ? q._correctDisplayIndex : (q.correct !== undefined ? q.correct : q.answer));
+                if (userAnswers[idx] === targetCorrect) correct++;
             });
 
             const total = questions.length;
