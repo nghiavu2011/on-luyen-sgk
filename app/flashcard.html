@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Thẻ ghi nhớ Flashcard — 📖 Ôn luyện</title>
     <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v6">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
@@ -758,6 +758,14 @@
                         {left: '$', right: '$', display: false}
                     ],
                     throwOnError: false
+                });
+                document.querySelectorAll('.katex').forEach(el => {
+                    if (!el.getAttribute('aria-label')) {
+                        const annotation = el.querySelector('annotation');
+                        const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();
+                        el.setAttribute('aria-label', 'Công thức toán học: ' + mathText);
+                        el.setAttribute('role', 'math');
+                    }
                 });
             }
         }
