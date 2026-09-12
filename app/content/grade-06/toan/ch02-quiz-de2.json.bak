@@ -1,0 +1,116 @@
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Toán 6 — Chương 2: Tính chia hết trong tập hợp các số tự nhiên: Đề 2: Kỹ năng & Tính toán",
+  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "questions": [
+    {
+      "id": "q01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 2: Tính chia hết trong tập hợp các số tự nhiên là gì?",
+      "options": [
+        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 2: Tính chia hết trong tập hợp các số tự nhiên",
+        "Vẽ tranh minh họa trừu tượng",
+        "Đo độ dài bằng mắt thường không dùng thước",
+        "Đếm số bằng cách gõ tay lên bàn"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
+        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
+        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+      }
+    },
+    {
+      "id": "q02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "options": [
+        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
+        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
+        "Tính từ ngoài vào trong bất kể loại ngoặc",
+        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
+        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
+        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+      }
+    },
+    {
+      "id": "q03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "options": [
+        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
+        "Đoán một số bất kỳ thay vào",
+        "Lấy tất cả các số trong biểu thức cộng lại",
+        "Chuyển $x$ sang vế phải mà không đổi dấu"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
+        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
+        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+      }
+    },
+    {
+      "id": "q04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "options": [
+        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
+        "Vẽ hình thật to chiếm hết trang giấy",
+        "Tô màu sặc sỡ lên các cạnh",
+        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
+        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
+        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+      }
+    },
+    {
+      "id": "q05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "options": [
+        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
+        "$a \\cdot b + a \\cdot c = a + b + c$",
+        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
+        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
+        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
+        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+      }
+    },
+    {
+      "id": "q06",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "options": [
+        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
+        "Chọn con số lớn nhất có trong đề bài",
+        "Chọn con số nhỏ nhất có trong đề bài",
+        "Bỏ qua không làm vì không có công thức cố định"
+      ],
+      "answer": 0,
+      "breakdown": {
+        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
+        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
+        "trap": "Đoán mò không có căn cứ logic."
+      }
+    }
+  ]
+}

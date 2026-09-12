@@ -1,82 +1,92 @@
 [
   {
-    "front": "Thế nào là phản ứng thuận nghịch?",
-    "back": "Là phản ứng xảy ra đồng thời theo hai chiều ngược nhau trong cùng điều kiện xác định ($aA + bB \\rightleftharpoons cC + dD$).",
+    "id": "fc-hoa11-ch01-01",
+    "front": "Cân bằng hoá học là gì?",
+    "back": "Là trạng thái của phản ứng thuận nghịch khi tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch ($v_t = v_n > 0$). Cân bằng hoá học là cân bằng động, nồng độ các chất không đổi theo thời gian.",
     "tags": [
-      "Thuận nghịch",
-      "Hoá 11"
+      "Khái niệm",
+      "Cân bằng động"
     ]
   },
   {
-    "front": "Cân bằng hoá học là cân bằng tĩnh hay động?",
-    "back": "Là cân bằng động, vì tại thời điểm cân bằng, phản ứng thuận và nghịch vẫn diễn ra liên tục với tốc độ bằng nhau ($v_t = v_n$).",
+    "id": "fc-hoa11-ch01-02",
+    "front": "Biểu thức hằng số cân bằng $K_C$ của phản ứng $aA + bB \\rightleftharpoons cC + dD$?",
+    "back": "$K_C = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$. Lưu ý: Không đưa nồng độ chất rắn nguyên chất vào biểu thức. $K_C$ chỉ phụ thuộc vào bản chất phản ứng và nhiệt độ.",
     "tags": [
-      "Cân bằng động",
-      "Bản chất"
+      "Công thức",
+      "Hằng số KC"
     ]
   },
   {
-    "front": "Biểu thức hằng số cân bằng $K_C$ cho hệ phản ứng: $aA + bB \\rightleftharpoons cC + dD$?",
-    "back": "$K_C = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$ (chỉ phụ thuộc vào bản chất phản ứng và nhiệt độ, không phụ thuộc chất rắn).",
+    "id": "fc-hoa11-ch01-03",
+    "front": "Nguyên lý chuyển dịch cân bằng Le Chatelier phát biểu thế nào?",
+    "back": "Một phản ứng thuận nghịch đang ở trạng thái cân bằng, khi chịu một tác động bên ngoài (nồng độ, nhiệt độ, áp suất) thì cân bằng sẽ chuyển dịch theo chiều làm giảm tác động bên ngoài đó.",
     "tags": [
-      "Hằng số Kc",
-      "Công thức"
+      "Nguyên lý",
+      "Le Chatelier"
     ]
   },
   {
-    "front": "Nguyên lí chuyển dịch cân bằng Le Chatelier (Lơ Sa-tơ-li-ê)?",
-    "back": "Khi làm thay đổi một trong các yếu tố nồng độ, nhiệt độ, áp suất, cân bằng sẽ tự chuyển dịch theo chiều làm giảm tác động của sự thay đổi đó.",
+    "id": "fc-hoa11-ch01-04",
+    "front": "Nhiệt độ ảnh hưởng đến cân bằng hoá học như thế nào?",
+    "back": "• Tăng nhiệt độ: Cân bằng chuyển dịch theo chiều THU NHIỆT ($\\Delta_r H > 0$).\n• Giảm nhiệt độ: Cân bằng chuyển dịch theo chiều TỎA NHIỆT ($\\Delta_r H < 0$).",
     "tags": [
-      "Le Chatelier",
-      "Nguyên lí"
+      "Quy tắc",
+      "Nhiệt độ"
     ]
   },
   {
-    "front": "Khi tăng nhiệt độ, cân bằng chuyển dịch theo chiều thu nhiệt hay toả nhiệt?",
-    "back": "Chuyển dịch theo chiều phản ứng thu nhiệt (chiều có $\\Delta_r H > 0$).",
+    "id": "fc-hoa11-ch01-05",
+    "front": "Áp suất ảnh hưởng đến cân bằng khí như thế nào?",
+    "back": "• Tăng áp suất chung: Cân bằng chuyển dịch theo chiều GIẢM số mol khí.\n• Giảm áp suất: Chuyển dịch theo chiều TĂNG số mol khí.\n• Nếu số mol khí 2 vế bằng nhau: Áp suất không làm chuyển dịch cân bằng.",
     "tags": [
-      "Nhiệt độ",
-      "Chuyển dịch"
+      "Quy tắc",
+      "Áp suất"
     ]
   },
   {
-    "front": "Yếu tố áp suất chỉ ảnh hưởng đến chuyển dịch cân bằng của phản ứng có điều kiện gì?",
-    "back": "Phản ứng có sự tham gia của chất khí và có sự chênh lệch tổng số mol khí ở hai vế ($n_{\\text{khí trước}} \\ne n_{\\text{khí sau}}$).",
-    "tags": [
-      "Áp suất",
-      "Khí"
-    ]
-  },
-  {
+    "id": "fc-hoa11-ch01-06",
     "front": "Chất xúc tác có làm chuyển dịch cân bằng hoá học không?",
-    "back": "KHÔNG. Chất xúc tác chỉ làm tăng đồng thời tốc độ phản ứng thuận và nghịch, giúp hệ nhanh đạt tới trạng thái cân bằng hơn.",
+    "back": "KHÔNG. Chất xúc tác làm tăng tốc độ phản ứng thuận và nghịch với số lần như nhau, giúp hệ nhanh đạt tới trạng thái cân bằng chứ không làm chuyển dịch cân bằng và không làm thay đổi giá trị $K_C$.",
     "tags": [
-      "Chất xúc tác",
-      "Lưu ý"
+      "Lưu ý",
+      "Chất xúc tác"
     ]
   },
   {
-    "front": "Định nghĩa Acid và Base theo thuyết Bronsted - Lowry?",
-    "back": "Acid là chất có khả năng cho proton ($H^+$); Base là chất có khả năng nhận proton ($H^+$).",
+    "id": "fc-hoa11-ch01-07",
+    "front": "Định nghĩa Acid và Base theo thuyết Brønsted - Lowry?",
+    "back": "• Acid: Là chất có khả năng nhường proton ($H^+$).\n• Base: Là chất có khả năng nhận proton ($H^+$).",
     "tags": [
-      "Acid - Base",
-      "Bronsted"
+      "Định nghĩa",
+      "Bronsted-Lowry"
     ]
   },
   {
-    "front": "Thang đo pH và công thức tính pH?",
-    "back": "$\\text{pH} = -\\log[H^+]$. Môi trường acid: $\\text{pH} < 7$; Môi trường trung tính: $\\text{pH} = 7$; Môi trường base: $\\text{pH} > 7$.",
+    "id": "fc-hoa11-ch01-08",
+    "front": "Công thức tính $pH$ và thang đo $pH$ ở $25^oC$?",
+    "back": "$pH = -\\log[H^+]$ và $pH + pOH = 14$.\n• $pH < 7$: Môi trường acid ($[H^+] > 10^{-7}\\text{ M}$).\n• $pH = 7$: Môi trường trung tính ($[H^+] = 10^{-7}\\text{ M}$).\n• $pH > 7$: Môi trường base ($[H^+] < 10^{-7}\\text{ M}$).",
     "tags": [
-      "Độ pH",
-      "Công thức"
+      "Công thức",
+      "pH"
     ]
   },
   {
-    "front": "Dung dịch có $[H^+] = 10^{-3}\\text{ M}$ thì có pH bằng bao nhiêu và làm quỳ tím đổi màu gì?",
-    "back": "$\\text{pH} = 3$ (môi trường acid), làm quỳ tím hoá đỏ.",
+    "id": "fc-hoa11-ch01-09",
+    "front": "Sự đổi màu của quỳ tím và phenolphthalein?",
+    "back": "• Quỳ tím: Hóa ĐỎ trong môi trường acid ($pH < 7$), hóa XANH trong môi trường base ($pH > 7$).\n• Phenolphthalein: Không màu trong môi trường acid và trung tính; chuyển sang màu HỒNG khi $pH \\ge 8,3$.",
     "tags": [
-      "Tính toán pH",
-      "Chỉ thị"
+      "Chỉ thị màu",
+      "Thực hành"
+    ]
+  },
+  {
+    "id": "fc-hoa11-ch01-10",
+    "front": "Vì sao phèn chua làm trong được nước đục?",
+    "back": "Phèn chua chứa ion $Al^{3+}$, khi hòa vào nước bị thủy phân: $Al^{3+} + 3H_2O \\rightleftharpoons Al(OH)_3\\downarrow + 3H^+$. Kết tủa keo $Al(OH)_3$ có diện tích bề mặt lớn, hấp phụ các hạt bụi bẩn lơ lửng lắng xuống đáy.",
+    "tags": [
+      "Ứng dụng thực tế",
+      "Thủy phân ion"
     ]
   }
 ]

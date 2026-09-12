@@ -1,115 +1,156 @@
 {
-  "chapterId": "ch02",
-  "examId": "de2",
-  "title": "Toán 6 — Chương 2: Tính chia hết trong tập hợp các số tự nhiên: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "examId": "toan-06-ch02-de02",
+  "grade": "06",
+  "subject": "toan",
+  "chapter": "ch02",
+  "chapterTitle": "Tính chia hết trong tập hợp các số tự nhiên",
+  "title": "Toán 6 — Chương 2: Tính chia hết (Đề 2: Kỹ năng tìm ƯCLN và BCNN)",
+  "description": "Rèn luyện kỹ năng phân tích thừa số nguyên tố, tìm ước chung lớn nhất và bội chung nhỏ nhất.",
+  "examCode": "102",
+  "mode": "practice",
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 2: Tính chia hết trong tập hợp các số tự nhiên là gì?",
+      "id": "toan-06-ch02-de02-q01",
+      "difficulty": "thong-hieu",
+      "topic": "Phân tích ra thừa số nguyên tố",
+      "question": "Phân tích số 36 ra thừa số nguyên tố, ta được kết quả viết gọn dưới dạng lũy thừa là:",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 2: Tính chia hết trong tập hợp các số tự nhiên",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "$36 = 2^2 \\cdot 3^2$ biểu diễn tích các thừa số",
+        "$36 = 4 \\cdot 9$ biểu diễn dạng tích hai hợp số",
+        "$36 = 2 \\cdot 3^3$ biểu diễn tích các thừa số",
+        "$36 = 6^2$ biểu diễn dạng một lũy thừa cơ số chẵn"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Phân tích một số tự nhiên ra thừa số nguyên tố",
+        "socraticPrompt": "Các thừa số trong kết quả phân tích có phải đều là số nguyên tố không?",
+        "calculation": "$36 = 4 \\times 9 = 2^2 \\times 3^2$. Các cơ số 2 và 3 đều là số nguyên tố.",
+        "trap": "Dừng lại ở $4 \\cdot 9$ hoặc $6^2$ (các số 4, 9, 6 đều là hợp số, chưa phân tích xong).",
+        "distractorReasons": {
+          "1": "Số 4 và 9 là hợp số, chưa phải thừa số nguyên tố.",
+          "2": "Tính sai tích: $2 \\times 27 = 54 \\ne 36$.",
+          "3": "Số 6 là hợp số, chưa phân tích ra số nguyên tố."
+        }
       }
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "id": "toan-06-ch02-de02-q02",
+      "difficulty": "thong-hieu",
+      "topic": "Ước chung lớn nhất",
+      "question": "Ước chung lớn nhất của hai số tự nhiên 18 và 30 có giá trị là:",
       "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+        "ƯCLN(18, 30) = 3 là một ước chung nhỏ của hai số",
+        "ƯCLN(18, 30) = 6 là ước chung lớn nhất của hai số",
+        "ƯCLN(18, 30) = 9 là một ước chung riêng của hai số",
+        "ƯCLN(18, 30) = 2 là một ước chung chẵn của hai số"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+        "concept": "Tìm ƯCLN bằng phân tích ra thừa số nguyên tố",
+        "socraticPrompt": "Em hãy phân tích 18 và 30 ra thừa số nguyên tố rồi nhân các thừa số chung với số mũ nhỏ nhất.",
+        "calculation": "$18 = 2 \\cdot 3^2$; $30 = 2 \\cdot 3 \\cdot 5$. Thừa số chung là 2 và 3. $ƯCLN(18, 30) = 2 \\cdot 3 = 6$.",
+        "trap": "Chọn 3 hoặc 2 (đó chỉ là ước chung, chưa phải ước chung lớn nhất).",
+        "distractorReasons": {
+          "0": "Số 3 chỉ là một ước chung, chưa phải lớn nhất.",
+          "2": "Số 9 không phải là ước của 30 ($30 \\not\\vdots 9$).",
+          "3": "Số 2 chỉ là một ước chung, chưa phải lớn nhất."
+        }
       }
     },
     {
-      "id": "q03",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "id": "toan-06-ch02-de02-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Bội chung nhỏ nhất",
+      "question": "Bội chung nhỏ nhất của hai số tự nhiên 12 và 18 có giá trị là:",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "BCNN(12, 18) = 72 là một bội chung lớn của hai số",
+        "BCNN(12, 18) = 24 là một bội của số 12 ban đầu",
+        "BCNN(12, 18) = 36 là bội chung nhỏ nhất của hai số",
+        "BCNN(12, 18) = 48 là một bội của số 12 ban đầu"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Tìm BCNN bằng phân tích thừa số nguyên tố",
+        "socraticPrompt": "Lấy tất cả các thừa số chung và riêng với số mũ lớn nhất để tính BCNN.",
+        "calculation": "$12 = 2^2 \\cdot 3$; $18 = 2 \\cdot 3^2$. $BCNN(12, 18) = 2^2 \\cdot 3^2 = 4 \\cdot 9 = 36$.",
+        "trap": "Lấy nhầm tích $12 \\times 18 = 216$ hoặc 72 mà không tối giản.",
+        "distractorReasons": {
+          "0": "Số 72 là bội chung nhưng chưa phải là số nhỏ nhất.",
+          "1": "Số 24 không chia hết cho 18 nên không phải bội chung.",
+          "3": "Số 48 không chia hết cho 18 nên không phải bội chung."
+        }
       }
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "id": "toan-06-ch02-de02-q04",
+      "difficulty": "thong-hieu",
+      "topic": "Tính chất chia hết của một tổng",
+      "question": "Không làm phép tính, tổng $A = 120 + 45$ có chia hết cho 5 hay không và vì sao?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "Không chia hết cho 5 vì số 120 là số chẵn khác 0",
+        "Chia hết cho 2 vì tổng hai số là một số chẵn lớn",
+        "Không chia hết cho 5 vì số 45 là một số lẻ bé hơn",
+        "Chia hết cho 5 vì cả 120 và 45 đều chia hết cho 5"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Tính chất chia hết của một tổng",
+        "socraticPrompt": "Xét riêng từng số hạng 120 và 45 xem có chia hết cho 5 không?",
+        "calculation": "$120$ có tận cùng là 0 nên $120 \\vdots 5$. $45$ có tận cùng là 5 nên $45 \\vdots 5$. Cả hai số hạng đều chia hết cho 5 nên $(120 + 45) \\vdots 5$.",
+        "trap": "Cộng hai số lại rồi mới xét thay vì dùng tính chất chia hết của tổng.",
+        "distractorReasons": {
+          "0": "Số chẵn tận cùng là 0 vẫn chia hết cho 5 bình thường.",
+          "1": "Tổng $120 + 45 = 165$ là số lẻ, không chia hết cho 2.",
+          "2": "Số 45 có tận cùng là 5 nên chia hết cho 5."
+        }
       }
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "id": "toan-06-ch02-de02-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Tìm bội của một số",
+      "question": "Cho $x \\in B(6)$ và thỏa mãn điều kiện $10 \\le x \\le 30$. Tập hợp các giá trị của $x$ là:",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "Tập hợp các số gồm: {6; 12; 18; 24; 30} thỏa điều kiện",
+        "Tập hợp các số gồm: {12; 18; 24; 30} thỏa điều kiện",
+        "Tập hợp các số gồm: {12; 18; 24; 28} thỏa điều kiện",
+        "Tập hợp các số gồm: {18; 24; 30; 36} thỏa điều kiện"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Tìm bội của một số tự nhiên trong khoảng cho trước",
+        "socraticPrompt": "Em hãy liệt kê các bội của 6: 0, 6, 12, 18, 24, 30, 36... rồi chọn các số từ 10 đến 30.",
+        "calculation": "$B(6) = \\{0; 6; 12; 18; 24; 30; 36; ...\\}$. Vì $10 \\le x \\le 30$ nên $x \\in \\{12; 18; 24; 30\\}$.",
+        "trap": "Lấy cả số 6 (nhỏ hơn 10) hoặc bỏ quên số 30 (dấu $\\le$ có lấy số 30).",
+        "distractorReasons": {
+          "0": "Lấy thừa số 6 không thỏa mãn điều kiện lớn hơn hoặc bằng 10.",
+          "2": "Số 28 không phải là bội của 6 ($28 \\not\\vdots 6$).",
+          "3": "Bỏ sót số 12 và lấy thừa số 36 lớn hơn 30."
+        }
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
-      "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "id": "toan-06-ch02-de02-q06",
+      "difficulty": "van-dung",
+      "topic": "Dấu hiệu chia hết cho 3",
+      "question": "Tìm các chữ số $x$ thích hợp để số $\\overline{1x5}$ chia hết cho 3:",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "Chữ số x chỉ có thể nhận giá trị bằng số 1 duy nhất",
+        "Chữ số x chỉ có thể nhận giá trị bằng số 2 duy nhất",
+        "Chữ số x nhận một trong các giá trị {0; 3; 6; 9}",
+        "Chữ số x nhận một trong các giá trị {2; 5; 8}"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Tìm chữ số chưa biết dựa vào dấu hiệu chia hết cho 3",
+        "socraticPrompt": "Tổng các chữ số là $(1 + x + 5) = 6 + x$. Để tổng này chia hết cho 3 thì x phải là chữ số nào?",
+        "calculation": "Tổng các chữ số: $1 + x + 5 = 6 + x$. Vì $6 \\vdots 3$ nên để $(6 + x) \\vdots 3$ thì $x \\vdots 3$. Vì $x$ là chữ số nên $x \\in \\{0; 3; 6; 9\\}$.",
+        "trap": "Quên số 0 ($x$ đứng ở giữa nên có thể nhận giá trị 0).",
+        "distractorReasons": {
+          "0": "Thử $x=1$ thì $1+1+5 = 7 \\not\\vdots 3$.",
+          "1": "Thử $x=2$ thì $1+2+5 = 8 \\not\\vdots 3$.",
+          "3": "Tập {2, 5, 8} làm tổng bằng 8, 11, 14 không chia hết cho 3."
+        }
       }
     }
   ]

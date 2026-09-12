@@ -1,16 +1,157 @@
-[
-  {
-    "id": "hoahoc11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Tại trạng thái cân bằng hoá học của một phản ứng thuận nghịch, phát biểu nào sau đây luôn ĐÚNG?",
-    "options": [
-      "A. Phản ứng dừng lại hoàn toàn không diễn ra nữa",
-      "B. Tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch ($v_t = v_n$)",
-      "C. Nồng độ của chất phản ứng bằng nồng độ của chất sản phẩm",
-      "D. Toàn bộ chất tham gia đã biến hết thành sản phẩm"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất cân bằng động: Tại cân bằng, tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch, nồng độ các chất trong hệ không đổi theo thời gian.\n💡 Cân bằng không có nghĩa là nồng độ 2 vế bằng nhau.\n⚠️ Tránh nhầm lẫn phản ứng dừng lại (nó vẫn diễn ra liên tục)."
-  }
-]
+{
+  "examId": "hoa-11-ch01-de01",
+  "grade": "11",
+  "subject": "hoa-hoc",
+  "chapter": "ch01",
+  "chapterTitle": "Cân bằng hoá học",
+  "title": "Hóa học 11 — Chương 1: Cân bằng hoá học (Đề 1: Khái niệm & Nhận biết)",
+  "description": "Kiểm tra kiến thức cốt lõi về phản ứng thuận nghịch, trạng thái cân bằng động và thuyết Brønsted - Lowry.",
+  "examCode": "101",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "hoahoc-11-ch01-de01-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Khái niệm cân bằng hoá học",
+      "question": "Tại trạng thái cân bằng hoá học của một phản ứng thuận nghịch, phát biểu nào sau đây là ĐÚNG?",
+      "options": [
+        "Tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch ($v_t = v_n$)",
+        "Toàn bộ lượng chất ban đầu đã chuyển hóa hoàn toàn thành sản phẩm",
+        "Nồng độ của các chất tham gia luôn bằng nồng độ các chất sản phẩm",
+        "Phản ứng hóa học dừng lại hoàn toàn và không còn phân tử nào biến đổi"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất cân bằng động của phản ứng thuận nghịch",
+        "socraticPrompt": "Khi một quá trình đạt trạng thái ổn định động, hai chiều chuyển dịch sẽ diễn ra với vận tốc như thế nào?",
+        "calculation": "Tại trạng thái cân bằng: $v_t = v_n > 0$, nồng độ các chất trong hệ giữ nguyên không đổi.",
+        "trap": "Học sinh hay nhầm trạng thái cân bằng là nồng độ hai vế bằng nhau hoặc phản ứng đã dừng hẳn.",
+        "distractorReasons": {
+          "1": "Hiểu nhầm phản ứng thuận nghịch xảy ra hoàn toàn như phản ứng một chiều.",
+          "2": "Nhầm lẫn giữa tốc độ hai chiều bằng nhau với nồng độ hai vế bằng nhau.",
+          "3": "Quên mất bản chất động của cân bằng hoá học (phân tử vẫn va chạm liên tục)."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de01-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Hằng số cân bằng KC",
+      "question": "Đại lượng nào sau đây KHÔNG làm thay đổi giá trị hằng số cân bằng $K_C$ của phản ứng thuận nghịch?",
+      "options": [
+        "Nhiệt độ môi trường diễn ra phản ứng",
+        "Chất xúc tác và nồng độ ban đầu của các chất",
+        "Bản chất hóa học của các chất tham gia phản ứng",
+        "Cấu trúc mạng tinh thể và năng lượng liên kết"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Các yếu tố ảnh hưởng tới hằng số cân bằng $K_C$",
+        "socraticPrompt": "Hằng số cân bằng $K_C$ là một hằng số nhiệt động lực học, chỉ phụ thuộc vào những yếu tố cơ bản nào?",
+        "calculation": "$K_C$ chỉ phụ thuộc vào bản chất phản ứng và nhiệt độ. Chất xúc tác hay nồng độ không làm đổi $K_C$.",
+        "trap": "Nhiều bạn tưởng chất xúc tác làm phản ứng nhanh hơn thì giá trị $K_C$ sẽ tăng lên.",
+        "distractorReasons": {
+          "0": "Nhiệt độ là yếu tố duy nhất làm thay đổi giá trị $K_C$ của một phản ứng xác định.",
+          "2": "Bản chất hóa học quyết định nhiệt phản ứng và cấu trúc biểu thức $K_C$.",
+          "3": "Cấu trúc mạng và liên kết hóa học gắn liền với bản chất phản ứng."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de01-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Thuyết acid base Bronsted",
+      "question": "Theo thuyết acid - base của Brønsted - Lowry, base được định nghĩa là chất có khả năng nào?",
+      "options": [
+        "Phân li ra ion hydroxide ($OH^-$) khi hòa tan hoàn toàn vào nước",
+        "Nhường một hoặc nhiều hạt electron cho nguyên tử chất khác",
+        "Nhận proton ($H^+$) từ phân tử hay ion của chất khác",
+        "Nhường proton ($H^+$) cho phân tử dung môi hoặc chất khác"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa acid - base theo Brønsted - Lowry",
+        "socraticPrompt": "Thuyết Brønsted - Lowry dựa trên sự cho và nhận hạt mang điện nào giữa các phân tử?",
+        "calculation": "Theo Brønsted - Lowry: Acid là chất nhường $H^+$, Base là chất nhận $H^+$.",
+        "trap": "Học sinh hay nhầm lẫn với thuyết Arrhenius (phải phân li ra ion $OH^-$ trong dung dịch nước).",
+        "distractorReasons": {
+          "0": "Đây là định nghĩa base hẹp theo thuyết Arrhenius truyền thống.",
+          "1": "Đây là định nghĩa chất khử trong phản ứng oxi hoá - khử.",
+          "3": "Đây là định nghĩa của acid theo thuyết Brønsted - Lowry."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de01-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Độ pH và môi trường",
+      "question": "Ở nhiệt độ $25^oC$, một dung dịch có môi trường acid khi thỏa mãn điều kiện nào sau đây?",
+      "options": [
+        "Nồng độ ion hydroxide trong dung dịch lớn hơn $10^{-7}\\text{ M}$",
+        "Dung dịch làm cho phenolphthalein chuyển sang màu hồng đậm",
+        "Dung dịch có giá trị chỉ số đo $pH$ lớn hơn hoặc bằng 7",
+        "Nồng độ ion hydrogen $[H^+] > 10^{-7}\\text{ M}$ (tức $pH < 7$)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mối quan hệ giữa $[H^+]$, $[OH^-]$ và $pH$ ở $25^oC$",
+        "socraticPrompt": "Trong môi trường có tính acid, lượng ion hydrogen tự do phân li ra nhiều hay ít hơn nước cất?",
+        "calculation": "Môi trường acid: $[H^+] > [OH^-] \\Rightarrow [H^+] > 10^{-7}\\text{ M} \\Rightarrow pH = -\\log[H^+] < 7$.",
+        "trap": "Học sinh hay nhầm $pH$ lớn là acid mạnh do quên mất dấu trừ trong công thức $-\\log[H^+]$.",
+        "distractorReasons": {
+          "0": "$[OH^-] > 10^{-7}\\text{ M}$ là điều kiện của môi trường base.",
+          "1": "Phenolphthalein hóa hồng khi dung dịch có môi trường base mạnh ($pH \\ge 8,3$).",
+          "2": "$pH > 7$ là môi trường base; $pH = 7$ là trung tính."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de01-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Sự điện li",
+      "question": "Chất nào sau đây khi hòa tan vào nước tạo thành dung dịch chất điện li mạnh?",
+      "options": [
+        "Dung dịch acid acetic loãng trong giấm ăn ($CH_3COOH$)",
+        "Muối ăn tinh khiết gồm các tinh thể sodium chloride ($NaCl$)",
+        "Khí ammonia hòa tan trong nước sinh hoạt ($NH_3$)",
+        "Dung dịch đường saccharose nguyên chất trong nước cất"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân loại chất điện li mạnh và yếu",
+        "socraticPrompt": "Các hợp chất ion như muối ăn khi cho vào nước sẽ phân li hoàn toàn hay một phần?",
+        "calculation": "NaCl là muối tan, phân li hoàn toàn trong nước: $NaCl \\rightarrow Na^+ + Cl^-$.",
+        "trap": "Nhầm lẫn giữa chất tan tốt không điện li (như đường) và chất điện li mạnh.",
+        "distractorReasons": {
+          "0": "$CH_3COOH$ là acid hữu cơ yếu, chỉ phân li một phần trong nước.",
+          "2": "$NH_3$ là base yếu trong dung dịch nước, phân li thuận nghịch.",
+          "3": "Đường saccharose tan tốt nhưng tồn tại dạng phân tử, không dẫn điện."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de01-q06",
+      "difficulty": "nhan-biet",
+      "topic": "Biểu thức hằng số KC",
+      "question": "Cho phản ứng nhiệt phân đá vôi: $CaCO_3(s) \\rightleftharpoons CaO(s) + CO_2(g)$. Biểu thức $K_C$ đúng là:",
+      "options": [
+        "$K_C = \\frac{[CaO] \\cdot [CO_2]}{[CaCO_3]}$ theo tỉ lệ phản ứng",
+        "$K_C = \\frac{[CaCO_3]}{[CaO] \\cdot [CO_2]}$ đảo ngược sản phẩm",
+        "$K_C = [CO_2]$ chỉ tính nồng độ của chất ở thể khí",
+        "$K_C = [CaO] \\cdot [CO_2]$ bỏ qua chất rắn tham gia"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy ước viết biểu thức hằng số cân bằng $K_C$ cho hệ dị thể",
+        "socraticPrompt": "Với những chất ở trạng thái rắn nguyên chất, nồng độ của chúng được quy ước như thế nào?",
+        "calculation": "Chất rắn $CaCO_3(s)$ và $CaO(s)$ không đưa vào biểu thức $K_C$. Do đó $K_C = [CO_2]$.",
+        "trap": "Viết toàn bộ các chất rắn vào tử số và mẫu số như hệ đồng thể.",
+        "distractorReasons": {
+          "0": "Sai vì đưa các chất rắn vào biểu thức tính hằng số cân bằng.",
+          "1": "Sai cả về quy ước chất rắn lẫn đảo ngược vị trí tử và mẫu.",
+          "3": "Sai vì vẫn giữ lại chất rắn $CaO$ trong biểu thức."
+        }
+      }
+    }
+  ]
+}

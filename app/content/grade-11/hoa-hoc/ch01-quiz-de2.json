@@ -1,1 +1,157 @@
-[]
+{
+  "examId": "hoa-11-ch01-de02",
+  "grade": "11",
+  "subject": "hoa-hoc",
+  "chapter": "ch01",
+  "chapterTitle": "Cân bằng hoá học",
+  "title": "Hóa học 11 — Chương 1: Cân bằng hoá học (Đề 2: Kỹ năng & Vận dụng)",
+  "description": "Vận dụng nguyên lý Le Chatelier, tính toán nồng độ ion và xác định chiều chuyển dịch cân bằng.",
+  "examCode": "102",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "hoahoc-11-ch01-de02-q01",
+      "difficulty": "thong-hieu",
+      "topic": "Nguyên lý Le Chatelier",
+      "question": "Cho phản ứng: $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$ có $\\Delta_r H_{298}^o < 0$. Để cân bằng chuyển dịch theo chiều thuận, ta cần:",
+      "options": [
+        "Giảm nhiệt độ của hệ phản ứng và tăng áp suất chung của hệ",
+        "Tăng nhiệt độ của hệ phản ứng và giảm áp suất chung của hệ",
+        "Thêm chất xúc tác thích hợp vào bình phản ứng ở nhiệt độ cao",
+        "Tăng thể tích của bình phản ứng trong khi giữ nhiệt độ cố định"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sự chuyển dịch cân bằng dưới tác động của nhiệt độ và áp suất",
+        "socraticPrompt": "Khi phản ứng tỏa nhiệt ($\\Delta_r H < 0$) và giảm số mol khí ($3 \\rightarrow 2$), muốn sang chiều thuận cần làm gì?",
+        "calculation": "$\\Delta_r H < 0 \\Rightarrow$ giảm $T$ cân bằng dịch chiều thuận. Số mol khí giảm ($3 \\rightarrow 2$) $\\Rightarrow$ tăng $P$ dịch chiều thuận.",
+        "trap": "Nhầm dấu $\\Delta_r H < 0$ là thu nhiệt, hoặc nhầm chiều tăng áp suất chuyển dịch về nơi nhiều mol khí hơn.",
+        "distractorReasons": {
+          "1": "Tăng nhiệt độ làm chuyển dịch theo chiều thu nhiệt (chiều nghịch).",
+          "2": "Chất xúc tác chỉ làm tăng tốc độ đạt cân bằng, không làm chuyển dịch.",
+          "3": "Tăng thể tích tương đương với việc giảm áp suất chung của hệ khí."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-q02",
+      "difficulty": "thong-hieu",
+      "topic": "Tính toán pH dung dịch",
+      "question": "Hòa tan hoàn toàn $0,004\\text{ gam } NaOH$ vào nước thu được $1\\text{ lít}$ dung dịch. Giá trị $pH$ của dung dịch thu được là:",
+      "options": [
+        "Giá trị $pH$ bằng 4 với môi trường acid rõ rệt",
+        "Giá trị $pH$ bằng 10 với môi trường mang tính base",
+        "Giá trị $pH$ bằng 11 với nồng độ ion hydroxide lớn",
+        "Giá trị $pH$ bằng 7 tương đương với nước cất trung tính"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tính $pH$ của dung dịch base mạnh đơn chức",
+        "socraticPrompt": "Em hãy tính số mol của NaOH, suy ra nồng độ $[OH^-]$, rồi tính $pOH$ và $pH$ theo công thức liên hệ.",
+        "calculation": "$n_{NaOH} = \\frac{0,004}{40} = 10^{-4}\\text{ mol} \\Rightarrow [OH^-] = 10^{-4}\\text{ M} \\Rightarrow pOH = 4 \\Rightarrow pH = 14 - 4 = 10$.",
+        "trap": "Học sinh tính ra số mũ 4 và vội vàng kết luận $pH = 4$ mà quên đây là dung dịch kiềm.",
+        "distractorReasons": {
+          "0": "Nhầm lẫn chỉ số $pOH = 4$ chính là giá trị $pH$ của dung dịch kiềm.",
+          "2": "Tính sai số mol dẫn đến nồng độ ion hydroxide bị lệch 10 lần.",
+          "3": "Nghĩ rằng lượng chất tan quá nhỏ thì dung dịch xem như trung tính."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-q03",
+      "difficulty": "van-dung",
+      "topic": "Thuyết acid base Bronsted",
+      "question": "Trong phản ứng: $HCO_3^- + H_2O \\rightleftharpoons H_3O^+ + CO_3^{2-}$, ion $HCO_3^-$ đóng vai trò gì theo Brønsted - Lowry?",
+      "options": [
+        "Đóng vai trò là một base vì nó đã nhận proton từ nước",
+        "Đóng vai trò là chất oxi hoá do có nguyên tố carbon",
+        "Đóng vai trò là một acid vì nó đã nhường proton cho nước",
+        "Đóng vai trò là chất trung tính không tham gia cho nhận"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính lưỡng tính của ion hydrocarbonate ($HCO_3^-$)",
+        "socraticPrompt": "Hãy quan sát sự thay đổi của ion $HCO_3^-$ sau phản ứng, nó đã cho đi hay nhận thêm hạt $H^+$?",
+        "calculation": "$HCO_3^-$ nhường $H^+$ cho $H_2O$ để tạo thành $CO_3^{2-}$ và $H_3O^+$. Vậy $HCO_3^-$ là một acid.",
+        "trap": "Nhớ máy móc $HCO_3^-$ là base do thường gặp trong phản ứng với acid mạnh.",
+        "distractorReasons": {
+          "0": "Sai vì trong phản ứng cụ thể này nó đã nhường chứ không nhận $H^+$.",
+          "1": "Đây không phải là phản ứng có sự thay đổi số oxi hoá của các nguyên tố.",
+          "3": "Ion này trực tiếp tham gia cho nhận proton nên không thể trung tính."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-q04",
+      "difficulty": "van-dung",
+      "topic": "Nguyên lý Le Chatelier",
+      "question": "Xét cân bằng: $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$ (khí $NO_2$ màu nâu đỏ, $N_2O_4$ không màu). Khi nén pít-tông làm giảm thể tích bình thì:",
+      "options": [
+        "Màu nâu đỏ đậm lên tức thì rồi sau đó tiếp tục đậm hơn nữa",
+        "Màu của hỗn hợp khí nhạt dần ngay lập tức và hoàn toàn mất màu",
+        "Cân bằng chuyển dịch sang chiều thuận làm tăng số mol các khí",
+        "Màu nâu đậm lên tức thì do nồng độ tăng rồi nhạt dần về sau"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phân biệt giữa tác động vật lý ban đầu và chiều chuyển dịch cân bằng",
+        "socraticPrompt": "Khi giảm thể tích bình, nồng độ các chất khí biến đổi thế nào trước khi cân bằng phản ứng lại?",
+        "calculation": "Khi nén thể tích: nồng độ $[NO_2]$ tăng tức thì $\\rightarrow$ màu đậm lên. Sau đó áp suất tăng làm cân bằng dịch chuyển sang trái (chiều giảm mol khí, từ 2 về 1) $\\rightarrow$ màu nhạt dần so với lúc vừa nén.",
+        "trap": "Chỉ nghĩ đến chiều chuyển dịch mà bỏ qua sự tăng nồng độ tức thì do thể tích bị thu hẹp.",
+        "distractorReasons": {
+          "0": "Không nhận thấy cân bằng sẽ dịch chuyển sang chiều nghịch làm giảm $[NO_2]$.",
+          "1": "Bỏ qua hiện tượng nồng độ bị tăng vọt ngay tại thời điểm nén ống tiêm.",
+          "2": "Tăng áp suất phải làm cân bằng dịch chuyển sang chiều giảm số mol khí."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Sự điện li",
+      "question": "Trường hợp nào sau đây có khả năng dẫn điện tốt nhất khi đặt vào một mạch điện kín?",
+      "options": [
+        "Nước cất tinh khiết đã qua lọc khử toàn bộ khoáng chất",
+        "Tinh thể muối ăn sodium chloride dạng rắn và khô ráo",
+        "Dung dịch sodium chloride trong nước với nồng độ xác định",
+        "Dung dịch đường glucose nồng độ cao trong nước cất sạch"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Điều kiện để một vật thể dẫn điện (có hạt mang điện chuyển động tự do)",
+        "socraticPrompt": "Trong trạng thái nào thì các ion $Na^+$ và $Cl^-$ có thể chuyển động tự do để tải điện tích?",
+        "calculation": "NaCl tan trong nước tạo ra các ion tự do chuyển động: $NaCl \\rightarrow Na^+ + Cl^-$, giúp tải dòng điện.",
+        "trap": "Nghĩ rằng muối rắn chứa ion sẵn thì sẽ dẫn điện tốt (muối rắn các ion bị khóa chặt trong tinh thể).",
+        "distractorReasons": {
+          "0": "Nước cất chứa lượng ion vô cùng bé ($10^{-7}\\text{ M}$) nên dẫn điện rất kém.",
+          "1": "Trong mạng tinh thể rắn, các ion bị giữ chặt ở nút mạng, không di chuyển.",
+          "3": "Dung dịch đường phân li thành các phân tử trung hòa, không mang điện."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-q06",
+      "difficulty": "van-dung",
+      "topic": "Chuẩn độ acid base",
+      "question": "Để chuẩn độ $10\\text{ mL}$ dung dịch $HCl$ chưa biết nồng độ, cần dùng đúng $15\\text{ mL}$ dung dịch $NaOH\\text{ }0,1\\text{ M}$. Nồng độ mol của $HCl$ là:",
+      "options": [
+        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,15\\text{ M}$",
+        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,10\\text{ M}$",
+        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,067\\text{ M}$",
+        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,20\\text{ M}$"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nguyên tắc bảo toàn số mol tại điểm tương đương của chuẩn độ acid - base",
+        "socraticPrompt": "Tại điểm tương đương, số mol ion $H^+$ của acid phản ứng thế nào với số mol ion $OH^-$ của base?",
+        "calculation": "Phản ứng: $HCl + NaOH \\rightarrow NaCl + H_2O$. Ta có $n_{HCl} = n_{NaOH} \\Rightarrow C_A \\cdot V_A = C_B \\cdot V_B \\Rightarrow C_A = \\frac{0,1 \\cdot 15}{10} = 0,15\\text{ M}$.",
+        "trap": "Lấy nhầm thể tích hoặc chia ngược tỉ lệ thể tích giữa acid và base.",
+        "distractorReasons": {
+          "1": "Cho rằng hai chất phản ứng thì nồng độ mol của chúng phải bằng nhau.",
+          "2": "Tính ngược tỉ số thể tích: $\\frac{0,1 \\cdot 10}{15} \\approx 0,067\\text{ M}$.",
+          "3": "Tính nhầm số mol do không đổi đúng đơn vị thể tích sang lít."
+        }
+      }
+    }
+  ]
+}

@@ -337,7 +337,7 @@
 
                         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; border-top: 1px solid var(--ol-border); padding-top: 1rem;">
                             ${(() => {
-                                const hasAnyReal = (ch.lessons || []).some(l => l.hasRealContent === true || (ch.id === 'ch01' && l.id === 'l01'));
+                                const hasAnyReal = (ch.hasRealContent === true) || (ch.lessons || []).some(l => l.hasRealContent === true);
                                 if (hasAnyReal) {
                                     return `
                                         <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 

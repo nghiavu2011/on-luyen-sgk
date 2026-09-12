@@ -1,117 +1,157 @@
 {
-  "chapterId": "ch02",
-  "examId": "tonghop",
-  "title": "Toán 6 — Chương 2: Tính chia hết trong tập hợp các số tự nhiên: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "examId": "toan-06-ch02-tonghop",
+  "grade": "06",
+  "subject": "toan",
+  "chapter": "ch02",
+  "chapterTitle": "Tính chia hết trong tập hợp các số tự nhiên",
+  "title": "Toán 6 — Chương 2: Tính chia hết (Đề 3: Đánh giá Năng lực Tổng hợp)",
+  "description": "Đề thi phân hóa giải quyết các bài toán thực tiễn về ƯCLN, BCNN và tính chất số học.",
+  "examCode": "103",
+  "mode": "exam",
+  "durationMinutes": 15,
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 2: Tính chia hết trong tập hợp các số tự nhiên được phát biểu chính xác là:",
+      "id": "toan-06-ch02-th-q01",
+      "difficulty": "van-dung",
+      "topic": "Bài toán thực tế BCNN",
+      "question": "Học sinh khối 6 khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ. Biết số học sinh trong khoảng từ 300 đến 400. Số học sinh khối 6 là:",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 2: Tính chia hết trong tập hợp các số tự nhiên theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Khối 6 có tất cả 360 học sinh tham gia",
+        "Khối 6 có tất cả 320 học sinh tham gia",
+        "Khối 6 có tất cả 380 học sinh tham gia",
+        "Khối 6 có tất cả 340 học sinh tham gia"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 2: Tính chia hết trong tập hợp các số tự nhiên.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Ứng dụng BCNN giải bài toán xếp hàng thực tế",
+        "socraticPrompt": "Số học sinh chia hết cho cả 12, 15 và 18, vậy số đó là gì của 12, 15, 18?",
+        "calculation": "Gọi số học sinh là $a$. $a \\in BC(12, 15, 18)$. $12 = 2^2 \\cdot 3$; $15 = 3 \\cdot 5$; $18 = 2 \\cdot 3^2$. $BCNN(12, 15, 18) = 2^2 \\cdot 3^2 \\cdot 5 = 180$. Bội của 180 là: 0, 180, 360, 540... Vì $300 \\le a \\le 400$ nên $a = 360$.",
+        "trap": "Chọn luôn 180 mà quên điều kiện đề bài cho số học sinh trong khoảng 300 đến 400.",
+        "distractorReasons": {
+          "1": "320 không chia hết cho 18 ($320 : 18$ có dư).",
+          "2": "380 không chia hết cho 12 và 15.",
+          "3": "340 không chia hết cho 12 và 18."
+        }
       }
     },
     {
-      "id": "q02",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "id": "toan-06-ch02-th-q02",
+      "difficulty": "van-dung",
+      "topic": "Bài toán thực tế ƯCLN",
+      "question": "Đội tình nguyện có 36 nam và 24 nữ chia đều vào các nhóm sao cho số nam và nữ ở mỗi nhóm bằng nhau. Số nhóm chia được nhiều nhất là:",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "Số nhóm chia được nhiều nhất là 6 nhóm nhỏ",
+        "Số nhóm chia được nhiều nhất là 12 nhóm nhỏ",
+        "Số nhóm chia được nhiều nhất là 18 nhóm nhỏ",
+        "Số nhóm chia được nhiều nhất là 24 nhóm nhỏ"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Ứng dụng ƯCLN giải bài toán chia tổ nhóm nhiều nhất",
+        "socraticPrompt": "Số nhóm phải là ước chung của 36 và 24. Để số nhóm nhiều nhất thì đó là số nào?",
+        "calculation": "Số nhóm chia được nhiều nhất chính là $ƯCLN(36, 24)$. $36 = 2^2 \\cdot 3^2$; $24 = 2^3 \\cdot 3$. $ƯCLN(36, 24) = 2^2 \\cdot 3 = 12$.",
+        "trap": "Học sinh chia được 6 nhóm là dừng lại mà không tìm ước lớn nhất.",
+        "distractorReasons": {
+          "0": "6 là một ước chung nhưng chưa phải là số nhóm nhiều nhất.",
+          "2": "24 không chia hết cho 18 nên không thể chia thành 18 nhóm.",
+          "3": "36 không chia hết cho 24 nên không thể chia thành 24 nhóm."
+        }
       }
     },
     {
-      "id": "q03",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "id": "toan-06-ch02-th-q03",
+      "difficulty": "van-dung-cao",
+      "topic": "Chứng minh chia hết",
+      "question": "Cho tổng $S = 2 + 2^2 + 2^3 + 2^4 + 2^5 + 2^6$. Khẳng định nào sau đây là ĐÚNG về tổng $S$?",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "Tổng S là một số nguyên tố chia hết cho 2",
+        "Tổng S chia hết cho 5 và có tận cùng là 0",
+        "Tổng S chia hết cho 3 vì nhóm được các cặp số",
+        "Tổng S không chia hết cho 2 vì có các lũy thừa"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Phương pháp nhóm số hạng chứng minh tính chia hết",
+        "socraticPrompt": "Thử nhóm 2 số hạng liên tiếp: $(2 + 2^2) = 6$. Số 6 có chia hết cho 3 không?",
+        "calculation": "$S = (2 + 2^2) + (2^3 + 2^4) + (2^5 + 2^6) = 6 + 2^2 \\cdot 6 + 2^4 \\cdot 6 = 6 \\cdot (1 + 4 + 16) = 6 \\cdot 21$. Vì $6 \\vdots 3$ nên $S \\vdots 3$.",
+        "trap": "Cố gắng tính toàn bộ giá trị $S = 2+4+8+16+32+64 = 126$ dễ nhầm lẫn khi số mũ lớn.",
+        "distractorReasons": {
+          "0": "126 là số chẵn lớn hơn 2 nên chắc chắn là hợp số.",
+          "1": "126 có tận cùng là 6 không chia hết cho 5.",
+          "3": "Tất cả các số hạng đều là lũy thừa của 2 nên S chắc chắn chia hết cho 2."
+        }
       }
     },
     {
-      "id": "q04",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "id": "toan-06-ch02-th-q04",
+      "difficulty": "van-dung",
+      "topic": "Bài toán thực tế ƯCLN",
+      "question": "Một tấm bìa hình chữ nhật dài 60 cm, rộng 48 cm được cắt thành các hình vuông bằng nhau không thừa. Cạnh hình vuông lớn nhất là:",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "Độ dài cạnh hình vuông lớn nhất bằng 6 cm",
+        "Độ dài cạnh hình vuông lớn nhất bằng 8 cm",
+        "Độ dài cạnh hình vuông lớn nhất bằng 16 cm",
+        "Độ dài cạnh hình vuông lớn nhất bằng 12 cm"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Ứng dụng hình học của ước chung lớn nhất",
+        "socraticPrompt": "Để cắt không thừa thì cạnh hình vuông phải là ước của chiều dài và chiều rộng. Lớn nhất thì là gì?",
+        "calculation": "Cạnh hình vuông lớn nhất là $ƯCLN(60, 48)$. $60 = 2^2 \\cdot 3 \\cdot 5$; $48 = 2^4 \\cdot 3$. $ƯCLN(60, 48) = 2^2 \\cdot 3 = 12\\text{ cm}$.",
+        "trap": "Chọn 6 hoặc 8 mà quên kiểm tra số lớn nhất chia hết cả hai cạnh.",
+        "distractorReasons": {
+          "0": "6 là ước chung nhưng chưa phải cạnh hình vuông lớn nhất.",
+          "1": "60 không chia hết cho 8 nên không cắt được cạnh 8 cm.",
+          "2": "60 không chia hết cho 16 nên không cắt được cạnh 16 cm."
+        }
       }
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "id": "toan-06-ch02-th-q05",
+      "difficulty": "van-dung-cao",
+      "topic": "Quan hệ giữa ƯCLN và BCNN",
+      "question": "Cho hai số tự nhiên $a$ và $b$ thỏa mãn tích $a \\cdot b = 720$ và $ƯCLN(a, b) = 6$. Khi đó giá trị của $BCNN(a, b)$ là:",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "Giá trị BCNN của hai số có kết quả bằng 60",
+        "Giá trị BCNN của hai số có kết quả bằng 120",
+        "Giá trị BCNN của hai số có kết quả bằng 180",
+        "Giá trị BCNN của hai số có kết quả bằng 240"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Mối quan hệ cốt lõi: $ƯCLN(a, b) \\times BCNN(a, b) = a \\times b$",
+        "socraticPrompt": "Tích của ƯCLN và BCNN của hai số tự nhiên luôn bằng tích của chính hai số đó.",
+        "calculation": "Áp dụng công thức: $ƯCLN(a, b) \\cdot BCNN(a, b) = a \\cdot b \\Rightarrow 6 \\cdot BCNN(a, b) = 720 \\Rightarrow BCNN(a, b) = \\frac{720}{6} = 120$.",
+        "trap": "Học sinh cố gắng đi tìm cụ thể hai số $a$ và $b$ thay vì dùng ngay công thức liên hệ.",
+        "distractorReasons": {
+          "0": "Chia nhầm cho 12 thay vì chia cho 6: $720 / 12 = 60$.",
+          "2": "Chia nhầm cho 4: $720 / 4 = 180$.",
+          "3": "Chia nhầm cho 3: $720 / 3 = 240$."
+        }
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
-      "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "id": "toan-06-ch02-th-q06",
+      "difficulty": "van-dung",
+      "topic": "Dấu hiệu chia hết phối hợp",
+      "question": "Tìm các chữ số $a$ và $b$ thích hợp để số $\\overline{4a1b}$ chia hết cho cả ba số 2, 5 và 9:",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "Chữ số a = 3 và chữ số b = 5",
+        "Chữ số a = 5 và chữ số b = 0",
+        "Chữ số a = 4 và chữ số b = 0",
+        "Chữ số a = 9 và chữ số b = 0"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Phối hợp các dấu hiệu chia hết để tìm chữ số",
+        "socraticPrompt": "Số chia hết cho cả 2 và 5 thì tận cùng b phải bằng bao nhiêu? Sau đó xét tổng chia hết cho 9.",
+        "calculation": "Vì $\\overline{4a1b} \\vdots 2$ và $5 \\Rightarrow b = 0$. Ta được số $\\overline{4a10}$. Để số này $\\vdots 9$ thì tổng các chữ số $(4 + a + 1 + 0) = (5 + a) \\vdots 9$. Vì $a$ là chữ số nên $a = 4$. Vậy $a = 4, b = 0$ (số 4410).",
+        "trap": "Chọn $b = 5$ do chỉ nhớ chia hết cho 5 mà quên mất điều kiện chia hết cho 2.",
+        "distractorReasons": {
+          "0": "Tận cùng $b = 5$ thì không chia hết cho 2.",
+          "1": "Nếu $a = 5, b = 0$ thì tổng $4+5+1+0 = 10 \\not\\vdots 9$.",
+          "3": "Nếu $a = 9, b = 0$ thì tổng $4+9+1+0 = 14 \\not\\vdots 9$."
+        }
       }
     }
   ]

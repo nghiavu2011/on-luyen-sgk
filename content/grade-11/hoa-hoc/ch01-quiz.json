@@ -1,1 +1,158 @@
-[]
+{
+  "examId": "hoa-11-ch01-tonghop",
+  "grade": "11",
+  "subject": "hoa-hoc",
+  "chapter": "ch01",
+  "chapterTitle": "Cân bằng hoá học",
+  "title": "Hóa học 11 — Chương 1: Cân bằng hoá học (Đề 3: Đánh giá Năng lực Tổng hợp)",
+  "description": "Đề thi phân hóa 4 mức độ bám sát cấu trúc đề thi tốt nghiệp THPT và Đánh giá năng lực.",
+  "examCode": "103",
+  "mode": "exam",
+  "durationMinutes": 15,
+  "questions": [
+    {
+      "id": "hoahoc-11-ch01-th-q01",
+      "difficulty": "van-dung",
+      "topic": "Hằng số cân bằng KC",
+      "question": "Cho phản ứng: $H_2(g) + I_2(g) \\rightleftharpoons 2HI(g)$ có $K_C = 64$ ở $445^oC$. Nếu nồng độ cân bằng $[H_2] = [I_2] = 0,05\\text{ M}$, nồng độ $[HI]$ là:",
+      "options": [
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,20\\text{ M}$",
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,32\\text{ M}$",
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,16\\text{ M}$",
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,40\\text{ M}$"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính nồng độ các chất từ biểu thức hằng số cân bằng $K_C$",
+        "socraticPrompt": "Em hãy viết biểu thức $K_C$ cho phản ứng tạo thành $HI$, sau đó thay các giá trị đã biết vào phương trình.",
+        "calculation": "$K_C = \\frac{[HI]^2}{[H_2][I_2]} = 64 \\Rightarrow \\frac{[HI]^2}{(0,05)^2} = 64 \\Rightarrow [HI]^2 = 64 \\times 0,0025 = 0,16 \\Rightarrow [HI] = 0,40\\text{ M}$.",
+        "trap": "Quên lấy căn bậc hai của 64 hoặc quên bình phương nồng độ $HI$ trong biểu thức $K_C$.",
+        "distractorReasons": {
+          "0": "Tính $[HI] = \\sqrt{64} \\times 0,05 / 2 = 0,20\\text{ M}$ (chia nhầm hệ số 2).",
+          "1": "Nhân thẳng $64 \\times 0,05 = 3,2$ rồi chia 10 sai quy tắc lũy thừa.",
+          "2": "Tính ra $[HI]^2 = 0,16$ nhưng quên khai căn bậc hai để tìm $[HI]$."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-th-q02",
+      "difficulty": "van-dung-cao",
+      "topic": "Tổng hợp công nghiệp Ammonia",
+      "question": "Trong công nghiệp, phản ứng $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ (tỏa nhiệt) thực tế được thực hiện ở $450^oC$ mà không phải nhiệt độ thường vì:",
+      "options": [
+        "Ở nhiệt độ thường cân bằng bị dịch chuyển theo chiều làm giảm lượng $NH_3$",
+        "Nhiệt độ $450^oC$ làm tăng giá trị của hằng số cân bằng lên rất nhiều lần",
+        "Ở nhiệt độ thấp tốc độ phản ứng quá chậm dù cân bằng có hiệu suất lý thuyết cao",
+        "Phản ứng chỉ bắt đầu chuyển động khi được nung nóng tới điểm sôi của nitrogen"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sự cân bằng giữa nhiệt động học (hiệu suất) và động học (tốc độ phản ứng)",
+        "socraticPrompt": "Về mặt lý thuyết tỏa nhiệt thì nhiệt độ thấp có lợi về hiệu suất, vậy vì sao kỹ thuật hóa học phải chọn $450^oC$?",
+        "calculation": "Ở nhiệt độ thấp, hiệu suất lý thuyết cao nhưng năng lượng hoạt hóa của liên kết ba $N \\equiv N$ rất bền khiến tốc độ phản ứng cực kỳ chậm, không hiệu quả kinh tế.",
+        "trap": "Học sinh chỉ nhìn vào nguyên lý Le Chatelier mà quên mất yếu tố tốc độ phản ứng trong công nghiệp.",
+        "distractorReasons": {
+          "0": "Sai vì phản ứng tỏa nhiệt thì hạ nhiệt độ mới dịch chuyển tạo nhiều $NH_3$ hơn.",
+          "1": "Sai vì phản ứng tỏa nhiệt khi tăng nhiệt độ thì $K_C$ thực tế bị giảm đi.",
+          "3": "Điểm sôi của nitrogen là $-196^oC$, không liên quan đến nhiệt độ $450^oC$."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-th-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Độ pH và chỉ thị màu",
+      "question": "Trộn $100\\text{ mL}$ dung dịch $HCl\\text{ }0,15\\text{ M}$ với $100\\text{ mL}$ dung dịch $NaOH\\text{ }0,05\\text{ M}$. Giá trị $pH$ của dung dịch thu được là:",
+      "options": [
+        "Dung dịch thu được có độ kiềm yếu với giá trị $pH$ xấp xỉ 8,0",
+        "Dung dịch thu được có tính acid mạnh với giá trị $pH$ bằng 1,3",
+        "Dung dịch thu được hoàn toàn trung tính với giá trị $pH$ bằng 7,0",
+        "Dung dịch thu được có tính acid nhẹ với giá trị $pH$ xấp xỉ 2,0"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tính $pH$ sau phản ứng trung hòa acid mạnh và base mạnh",
+        "socraticPrompt": "Em hãy tính số mol của $H^+$ và $OH^-$, so sánh lượng dư sau phản ứng và chia cho tổng thể tích hai dung dịch.",
+        "calculation": "$n_{H^+} = 0,1 \\times 0,15 = 0,015\\text{ mol}$; $n_{OH^-} = 0,1 \\times 0,05 = 0,005\\text{ mol}$. Lượng $H^+$ dư $= 0,010\\text{ mol}$. Tổng thể tích $V = 0,2\\text{ L} \\Rightarrow [H^+]_{dư} = \\frac{0,01}{0,2} = 0,05\\text{ M} \\Rightarrow pH = -\\log(0,05) \\approx 1,3$.",
+        "trap": "Quên cộng tổng thể tích $100 + 100 = 200\\text{ mL}$ khi tính lại nồng độ mol dư.",
+        "distractorReasons": {
+          "0": "Nhầm số mol acid và base dẫn đến hiểu sai là kiềm dư.",
+          "2": "Nghĩ rằng trộn acid và base thì tự động trung hòa hoàn toàn về $pH = 7$.",
+          "3": "Quên chia cho tổng thể tích mà lấy luôn số mol dư $0,01$ để bấm $-\\log(0,01) = 2$."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-th-q04",
+      "difficulty": "van-dung-cao",
+      "topic": "Ý nghĩa thực tiễn cân bằng ion",
+      "question": "Phèn chua $[K_2SO_4 \\cdot Al_2(SO_4)_3 \\cdot 24H_2O]$ được dùng làm trong nước đục vì ion $Al^{3+}$ thủy phân tạo thành:",
+      "options": [
+        "Keo $Al(OH)_3$ có bề mặt hấp phụ các hạt bụi cặn lơ lửng lắng xuống",
+        "Dung dịch acid mạnh hòa tan toàn bộ các chất bẩn hữu cơ trong nước",
+        "Khí hydrogen sục bọt đẩy toàn bộ chất cặn bã nổi lên trên bề mặt",
+        "Màng ngăn muối sulfate kết tinh phủ kín đáy bể chứa nước sinh hoạt"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sự thủy phân của ion kim loại $Al^{3+}$ trong dung dịch nước",
+        "socraticPrompt": "Khi ion $Al^{3+}$ tác dụng với nước sẽ tạo ra hợp chất dạng keo nào có khả năng dính giữ các chất bẩn?",
+        "calculation": "Phản ứng thủy phân: $Al^{3+} + 3H_2O \\rightleftharpoons Al(OH)_3\\downarrow + 3H^+$. Kết tủa keo $Al(OH)_3$ có diện tích bề mặt lớn, hấp phụ các hạt đất phù sa lơ lửng và kéo chúng lắng xuống đáy.",
+        "trap": "Học sinh nghĩ rằng phèn chua diệt khuẩn hoặc hòa tan chất bẩn chứ không biết cơ chế keo tụ.",
+        "distractorReasons": {
+          "1": "Sự thủy phân chỉ tạo môi trường acid nhẹ, không thể hòa tan chất bẩn đất cát.",
+          "2": "Quá trình này không có phản ứng oxi hoá - khử để giải phóng khí hydrogen.",
+          "3": "Muối sulfate tan tốt trong nước, không kết tinh tạo màng dưới đáy."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-th-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Sự điện li và hằng số Ka",
+      "question": "Khi pha loãng một dung dịch acid acetic ($CH_3COOH$) với nước cất ở nhiệt độ không đổi, độ điện li $\\alpha$ sẽ biến đổi thế nào?",
+      "options": [
+        "Độ điện li $\\alpha$ giảm dần do nồng độ acid ban đầu bị giảm đi",
+        "Độ điện li $\\alpha$ hoàn toàn giữ nguyên vì hằng số $K_a$ không đổi",
+        "Độ điện li $\\alpha$ bằng 1 ngay khi tiếp xúc với phân tử dung môi",
+        "Độ điện li $\\alpha$ tăng lên do các ion có không gian xa nhau hơn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Định luật pha loãng Ostwald đối với chất điện li yếu",
+        "socraticPrompt": "Khi thêm nước vào dung dịch chất điện li yếu, cân bằng điện li sẽ chuyển dịch theo chiều nào?",
+        "calculation": "Phản ứng: $CH_3COOH \\rightleftharpoons CH_3COO^- + H^+$. Khi pha loãng, nồng độ các chất giảm, cân bằng dịch chuyển sang chiều làm tăng số ion (chiều thuận) $\\Rightarrow$ độ điện li $\\alpha$ tăng.",
+        "trap": "Nghĩ rằng nồng độ acid giảm thì độ điện li cũng giảm theo tỉ lệ thuận.",
+        "distractorReasons": {
+          "0": "Nhầm lẫn giữa độ điện li $\\alpha$ (tỉ lệ phần trăm) với nồng độ mol của dung dịch.",
+          "1": "$K_a$ không đổi nhưng tỉ số nồng độ thay đổi dẫn tới $\\alpha$ phải thay đổi theo.",
+          "2": "$CH_3COOH$ là acid yếu, không bao giờ đạt độ điện li $\\alpha = 1$ ở điều kiện thường."
+        }
+      }
+    },
+    {
+      "id": "hoahoc-11-ch01-th-q06",
+      "difficulty": "van-dung",
+      "topic": "Nguyên lý Le Chatelier",
+      "question": "Cho hệ cân bằng: $C(s) + H_2O(g) \\rightleftharpoons CO(g) + H_2(g)$ có $\\Delta_r H > 0$. Biện pháp nào làm cân bằng dịch chuyển sang chiều nghịch?",
+      "options": [
+        "Hạ thấp nhiệt độ của hệ hoặc tăng áp suất chung của bình kín",
+        "Thêm một lượng than rắn $C(s)$ vào trong buồng nung kín của hệ",
+        "Dẫn thêm hơi nước $H_2O(g)$ vào buồng nung ở áp suất không đổi",
+        "Tăng nhiệt độ của buồng nung đồng thời hút bớt khí hydrogen ra"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ảnh hưởng của nhiệt độ, áp suất và chất rắn đến cân bằng hoá học",
+        "socraticPrompt": "Phản ứng này thu nhiệt và tăng số mol khí ($1 \\rightarrow 2$), muốn sang chiều nghịch ta cần điều chỉnh nhiệt độ và áp suất ra sao?",
+        "calculation": "$\\Delta_r H > 0$ (thu nhiệt) $\\Rightarrow$ hạ nhiệt độ sẽ dịch chuyển chiều nghịch (chiều tỏa nhiệt). Số mol khí tăng ($1 \\rightarrow 2$) $\\Rightarrow$ tăng áp suất sẽ dịch chuyển chiều nghịch (chiều giảm mol khí).",
+        "trap": "Cho rằng thêm than $C(s)$ sẽ làm dịch chuyển cân bằng sang chiều thuận (chất rắn không làm dịch chuyển cân bằng).",
+        "distractorReasons": {
+          "1": "Chất rắn nguyên chất không làm chuyển dịch cân bằng hoá học.",
+          "2": "Thêm chất phản ứng $H_2O$ sẽ làm cân bằng chuyển dịch sang chiều thuận.",
+          "3": "Tăng nhiệt độ và hút bớt sản phẩm đều thúc đẩy cân bằng chuyển dịch chiều thuận."
+        }
+      }
+    }
+  ]
+}

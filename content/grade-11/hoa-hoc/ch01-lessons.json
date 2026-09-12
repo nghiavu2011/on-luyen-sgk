@@ -1,32 +1,144 @@
-[
-  {
-    "id": "l01",
-    "title": "Bài 1: Khái niệm về cân bằng hoá học và phản ứng thuận nghịch",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 1: Khái niệm về cân bằng hoá học và phản ứng thuận nghịch.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 1: Khái niệm về cân bằng hoá học và phản ứng thuận nghịch.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 1: Khái niệm về cân bằng hoá học và phản ứng thuận nghịch để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l02",
-    "title": "Bài 2: Cân bằng trong dung dịch nước (Thuyết Acid - Base Bronsted & pH)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 2: Cân bằng trong dung dịch nước (Thuyết Acid - Base Bronsted & pH).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 2: Cân bằng trong dung dịch nước (Thuyết Acid - Base Bronsted & pH).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 2: Cân bằng trong dung dịch nước (Thuyết Acid - Base Bronsted & pH) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Cân bằng hoá học",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm về cân bằng hoá học và phản ứng thuận nghịch",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được khái niệm phản ứng một chiều, phản ứng thuận nghịch và trạng thái cân bằng hoá học.",
+        "Viết và áp dụng được biểu thức hằng số cân bằng $K_C$ cho các hệ phản ứng đồng thể và dị thể.",
+        "Vận dụng thành thạo nguyên lý chuyển dịch cân bằng Le Chatelier (nhiệt độ, nồng độ, áp suất) để giải thích các hiện tượng thực tế và sản xuất công nghiệp."
+      ],
+      "concepts": [
+        {
+          "term": "Phản ứng thuận nghịch",
+          "definition": "Là phản ứng xảy ra theo hai chiều trái ngược nhau trong cùng một điều kiện xác định.",
+          "notation": "$aA + bB \\rightleftharpoons cC + dD$",
+          "note": "Biểu diễn bằng hai nửa mũi tên ngược chiều nhau."
+        },
+        {
+          "term": "Cân bằng hoá học",
+          "definition": "Là trạng thái của phản ứng thuận nghịch khi tốc độ phản ứng thuận bằng tốc độ phản ứng nghịch ($v_t = v_n$).",
+          "notation": "$v_t = v_n > 0$",
+          "note": "Cân bằng hoá học là cân bằng động, các phản ứng vẫn diễn ra liên tục chứ không hề dừng lại."
+        },
+        {
+          "term": "Hằng số cân bằng $K_C$",
+          "definition": "Tỉ số giữa tích nồng độ chất sản phẩm và tích nồng độ chất đầu tại thời điểm cân bằng, mỗi nồng độ được nâng lên số mũ bằng hệ số tỉ lượng.",
+          "notation": "$K_C = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$",
+          "note": "Không đưa nồng độ chất rắn nguyên chất vào biểu thức $K_C$. $K_C$ chỉ phụ thuộc vào bản chất phản ứng và nhiệt độ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên lý chuyển dịch cân bằng Le Chatelier",
+          "meaning": "Một phản ứng thuận nghịch đang ở trạng thái cân bằng, khi chịu một tác động bên ngoài làm thay đổi nồng độ, nhiệt độ, áp suất thì cân bằng sẽ chuyển dịch theo chiều làm giảm tác động đó."
+        },
+        {
+          "statement": "Quy tắc ảnh hưởng nhiệt độ",
+          "meaning": "Tăng nhiệt độ làm cân bằng chuyển dịch theo chiều thu nhiệt ($\\Delta_r H > 0$); giảm nhiệt độ làm cân bằng chuyển dịch theo chiều tỏa nhiệt ($\\Delta_r H < 0$)."
+        },
+        {
+          "statement": "Quy tắc ảnh hưởng áp suất",
+          "meaning": "Tăng áp suất chung của hệ làm cân bằng chuyển dịch theo chiều giảm số mol khí; giảm áp suất chuyển dịch theo chiều tăng số mol khí. Hệ có tổng số mol khí 2 vế bằng nhau thì áp suất không làm chuyển dịch cân bằng."
+        },
+        {
+          "statement": "Ảnh hưởng của chất xúc tác",
+          "meaning": "Chất xúc tác làm tăng tốc độ phản ứng thuận và nghịch như nhau nên giúp hệ nhanh đạt cân bằng chứ KHÔNG làm chuyển dịch cân bằng và KHÔNG làm thay đổi giá trị $K_C$."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho phản ứng: $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ có $\\Delta_r H_{298}^o = -92\\text{ kJ}$. Nêu cách điều chỉnh nhiệt độ và áp suất để tăng hiệu suất tổng hợp $NH_3$?",
+          "steps": [
+            "Bước 1: Phản ứng có $\\Delta_r H < 0$ nên chiều thuận là chiều tỏa nhiệt. Để cân bằng chuyển dịch theo chiều thuận, ta cần hạ nhiệt độ phản ứng.",
+            "Bước 2: Vế trái có 4 mol khí ($1N_2 + 3H_2$), vế phải có 2 mol khí ($2NH_3$). Chiều thuận là chiều làm giảm số mol khí. Theo Le Chatelier, để cân bằng chuyển dịch sang chiều thuận, ta cần tăng áp suất của hệ.",
+            "Bước 3: Tổng hợp: Cần hạ nhiệt độ thích hợp (thực tế chọn $450^oC$ có xúc tác Fe) và tăng áp suất cao (khoảng $200\\text{ bar}$)."
+          ],
+          "answer": "Hạ nhiệt độ và tăng áp suất chung của hệ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng tại trạng thái cân bằng hoá học thì phản ứng dừng lại hoàn toàn.",
+          "why": "Cân bằng hoá học là cân bằng động, cả hai chiều vẫn diễn ra với tốc độ bằng nhau ($v_t = v_n > 0$)."
+        },
+        {
+          "mistake": "Đưa chất rắn vào biểu thức tính hằng số cân bằng $K_C$.",
+          "why": "Nồng độ chất rắn nguyên chất là hằng số và quy ước bằng 1, tuyệt đối không viết vào biểu thức $K_C$."
+        },
+        {
+          "mistake": "Cho rằng chất xúc tác làm chuyển dịch cân bằng theo chiều thuận.",
+          "why": "Chất xúc tác tăng tốc độ cả 2 chiều như nhau nên không làm chuyển dịch cân bằng."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Cân bằng trong dung dịch nước (Thuyết Acid - Base Bronsted & pH)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm sự điện li, chất điện li mạnh, chất điện li yếu và chất không điện li.",
+        "Trình bày và vận dụng được thuyết Brønsted - Lowry về acid, base (khái niệm nhường/nhận proton $H^+$).",
+        "Tính được $pH$, nồng độ $[H^+]$, $[OH^-]$ và giải thích ý nghĩa của $pH$ trong đời sống thực tiễn và nông nghiệp."
+      ],
+      "concepts": [
+        {
+          "term": "Sự điện li",
+          "definition": "Là quá trình phân li các chất thành ion khi tan trong nước hoặc nóng chảy.",
+          "notation": "Muối, Acid, Base $\\rightarrow$ Cation + Anion",
+          "note": "Dung dịch dẫn điện được là nhờ sự có mặt của các ion chuyển động tự do."
+        },
+        {
+          "term": "Thuyết Acid - Base của Brønsted - Lowry",
+          "definition": "Acid là chất có khả năng nhường proton ($H^+$); Base là chất có khả năng nhận proton ($H^+$).",
+          "notation": "$HA + H_2O \\rightleftharpoons H_3O^+ + A^-$",
+          "note": "Nước ($H_2O$) là chất lưỡng tính vì vừa có thể nhường vừa có thể nhận proton tuỳ môi trường."
+        },
+        {
+          "term": "Độ pH và chỉ thị màu",
+          "definition": "Đại lượng đặc trưng cho độ acid hoặc base của dung dịch, được xác định qua nồng độ ion hydrogen: $pH = -\\log[H^+]$.",
+          "notation": "$pH = -\\log[H^+]$",
+          "note": "Ở $25^oC$: môi trường acid có $pH < 7$; môi trường trung tính có $pH = 7$; môi trường base có $pH > 7$."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tích số ion của nước ($K_w$)",
+          "meaning": "Ở $25^oC$, tích số nồng độ $H^+$ và $OH^-$ trong nước hay dung dịch nước luôn không đổi: $[H^+][OH^-] = 10^{-14} \\Rightarrow pH + pOH = 14$."
+        },
+        {
+          "statement": "Phân loại chất điện li",
+          "meaning": "Chất điện li mạnh (acid mạnh như $HCl, HNO_3, H_2SO_4$; base mạnh như $NaOH, KOH, Ba(OH)_2$; hầu hết muối) phân li hoàn toàn (mũi tên $\\rightarrow$). Chất điện li yếu phân li một phần (mũi tên $\\rightleftharpoons$)."
+        },
+        {
+          "statement": "Nguyên tắc chuẩn độ acid - base",
+          "meaning": "Sử dụng một dung dịch đã biết chính xác nồng độ (dung dịch chuẩn) để xác định nồng độ của dung dịch chưa biết thông qua phản ứng trung hòa tại điểm tương đương với chất chỉ thị thích hợp."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Hòa tan $0,001\\text{ mol } HCl$ vào nước thu được $1\\text{ lít}$ dung dịch. Tính nồng độ ion $H^+$ và $pH$ của dung dịch thu được?",
+          "steps": [
+            "Bước 1: $HCl$ là chất điện li mạnh, phân li hoàn toàn: $HCl \\rightarrow H^+ + Cl^-$.",
+            "Bước 2: Nồng độ $[H^+] = C_{M(HCl)} = \\frac{0,001}{1} = 10^{-3}\\text{ M}$.",
+            "Bước 3: Tính $pH$: Áp dụng công thức $pH = -\\log[H^+] = -\\log(10^{-3}) = 3$."
+          ],
+          "answer": "$[H^+] = 10^{-3}\\text{ M}$ và $pH = 3$ (môi trường acid)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tưởng dung dịch acid càng mạnh thì giá trị $pH$ càng lớn.",
+          "why": "Vì $pH = -\\log[H^+]$ nên nồng độ acid $[H^+]$ càng lớn thì chỉ số $pH$ càng nhỏ."
+        },
+        {
+          "mistake": "Kí hiệu mũi tên 1 chiều $(\\rightarrow)$ cho phương trình điện li của acid yếu như $CH_3COOH$.",
+          "why": "Acid yếu phân li thuận nghịch chưa hoàn toàn nên bắt buộc phải dùng mũi tên hai chiều $(\\rightleftharpoons)$."
+        }
+      ]
+    }
+  ]
+}
