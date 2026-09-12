@@ -2,21 +2,21 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Góc Phụ huynh — Giám sát & Đồng hành cùng con • 📖 Ôn luyện</title>
-    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v6">
+    <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_v7">
     <style>
         .ol-pin-input {
-            width: 220px;
-            font-size: 2rem;
-            letter-spacing: 0.8rem;
+            width: 240px;
+            font-size: 1.8rem;
+            letter-spacing: 0.6rem;
             text-align: center;
             padding: 0.6rem 1rem;
             border-radius: 12px;
             border: 2px solid #cbd5e1;
             background: #f8fafc;
             color: #0f172a;
-            margin: 1.5rem auto;
+            margin: 1.25rem auto;
             outline: none;
             display: block;
             transition: all 0.2s ease;
@@ -76,19 +76,49 @@
 
     <main class="ol-container" style="max-width: 960px; margin-top: 1.5rem;">
 
-        <!-- PIN Verification Screen -->
-        <div id="pin-screen" class="ol-card-box" style="text-align: center; padding: 3.5rem 2rem; max-width: 540px; margin: 2rem auto;">
+        <!-- SCREEN 1: BẮT BUỘC THIẾT LẬP MÃ PIN LẦN ĐẦU (P0-5b) -->
+        <div id="pin-setup-screen" class="ol-card-box hidden" style="text-align: center; padding: 3rem 2rem; max-width: 540px; margin: 2rem auto;">
+            <div style="font-size: 3rem; margin-bottom: 0.75rem;">🔑</div>
+            <h2 style="font-size: 1.45rem; font-weight: 800; color: #0f172a; margin-bottom: 0.4rem;">
+                Thiết Lập Mã PIN Phụ Huynh
+            </h2>
+            <p style="font-size: 0.88rem; color: #64748b; line-height: 1.5; margin-bottom: 1.25rem;">
+                Để bảo vệ góc theo dõi tiến độ và các cài đặt của cha mẹ, vui lòng tạo mã PIN riêng (4 – 6 chữ số) cho thiết bị này.
+            </p>
+
+            <div style="max-width: 300px; margin: 0 auto; text-align: left;">
+                <label style="font-size: 0.85rem; font-weight: 700; color: #334155; display: block; margin-bottom: 0.25rem;">Nhập mã PIN mới (4 - 6 số):</label>
+                <input type="password" id="new-pin-input" class="ol-pin-input" maxlength="6" placeholder="••••" style="width: 100%; margin: 0.25rem 0 1rem 0;">
+
+                <label style="font-size: 0.85rem; font-weight: 700; color: #334155; display: block; margin-bottom: 0.25rem;">Nhập lại mã PIN xác nhận:</label>
+                <input type="password" id="confirm-pin-input" class="ol-pin-input" maxlength="6" placeholder="••••" style="width: 100%; margin: 0.25rem 0 1rem 0;" onkeydown="if(event.key==='Enter') saveInitialPin()">
+            </div>
+
+            <p id="pin-setup-error" class="hidden" style="color: #dc2626; font-size: 0.88rem; font-weight: 700; margin-top: 0.5rem; margin-bottom: 1rem;">
+            </p>
+
+            <button class="ol-btn-primary" style="background: #059669; font-size: 0.95rem; padding: 0.75rem 2rem; border-radius: 10px; width: 260px; margin: 0.5rem auto 0 auto; cursor: pointer; display: block;" onclick="saveInitialPin()">
+                Lưu mã PIN & Tiếp tục ➔
+            </button>
+
+            <div style="margin-top: 1.75rem; font-size: 0.78rem; color: #94a3b8; line-height: 1.4;">
+                🔒 Khoá truy cập cục bộ trên thiết bị này · Không dùng các mã dễ đoán (như dãy liên tiếp hoặc số giống nhau)
+            </div>
+        </div>
+
+        <!-- SCREEN 2: NHẬP MÃ PIN ĐÃ CÓ ĐỂ MỞ KHÓA -->
+        <div id="pin-screen" class="ol-card-box hidden" style="text-align: center; padding: 3.5rem 2rem; max-width: 540px; margin: 2rem auto;">
             <div style="font-size: 3rem; margin-bottom: 0.75rem;">🔒</div>
             <h2 style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-bottom: 0.4rem;">
                 Bảo Mật Góc Phụ Huynh
             </h2>
             <p style="font-size: 0.9rem; color: #64748b; line-height: 1.5; margin-bottom: 1.25rem;">
-                Không gian theo dõi thời gian rèn luyện, sự tiến bộ và các lỗ hổng kiến thức con cần cha mẹ hỗ trợ.
+                Nhập mã PIN phụ huynh của bạn để mở báo cáo tiến độ học tập và phân tích lỗ hổng của con.
             </p>
 
-            <input type="password" id="pin-input" class="ol-pin-input" maxlength="4" placeholder="••••" autofocus onkeydown="if(event.key==='Enter') checkPin()">
+            <input type="password" id="pin-input" class="ol-pin-input" maxlength="6" placeholder="••••" autofocus onkeydown="if(event.key==='Enter') checkPin()">
             
-            <button class="ol-btn-primary" style="background: #059669; font-size: 1rem; padding: 0.75rem 2rem; border-radius: 10px; width: 220px; margin: 0 auto; cursor: pointer;" onclick="checkPin()">
+            <button class="ol-btn-primary" style="background: #059669; font-size: 1rem; padding: 0.75rem 2rem; border-radius: 10px; width: 240px; margin: 0 auto; cursor: pointer; display: block;" onclick="checkPin()">
                 Mở khóa báo cáo ➔
             </button>
 
@@ -97,11 +127,11 @@
             </p>
 
             <div style="margin-top: 2rem; font-size: 0.8rem; color: #94a3b8;">
-                Mã PIN mặc định ban đầu: <strong>1234</strong> · Được mã hóa bảo mật SHA-256
+                🔒 Khoá truy cập cục bộ trên thiết bị này
             </div>
         </div>
 
-        <!-- Parent Dashboard (Unlocked) -->
+        <!-- SCREEN 3: PARENT DASHBOARD (UNLOCKED) -->
         <div id="parent-dashboard" class="hidden">
 
             <!-- Header Info Card -->
@@ -131,80 +161,69 @@
             </div>
 
             <!-- Overview Stats Grid -->
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 1.5rem;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem; margin-bottom: 1.5rem;">
+                <div class="ol-card-box" style="text-align: center; padding: 1.5rem;">
+                    <div style="font-size: 2rem; font-weight: 800; color: #0284c7;" id="parent-graded-count">0 câu</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Tổng số câu đã làm</div>
+                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Mẫu phân tích (Tối thiểu 20 câu)</div>
+                </div>
+
                 <div class="ol-card-box" style="text-align: center; padding: 1.5rem;">
                     <div style="font-size: 2rem; font-weight: 800; color: #f59e0b;" id="parent-xp-count">0 XP</div>
-                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Điểm rèn luyện tích lũy</div>
-                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Tính trên câu đúng & đề thi</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Điểm tích lũy</div>
+                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Thưởng trên nỗ lực giải đúng</div>
                 </div>
 
                 <div class="ol-card-box" style="text-align: center; padding: 1.5rem;">
                     <div style="font-size: 2rem; font-weight: 800; color: #ea580c;" id="parent-streak-count">1 ngày</div>
-                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Ngày tự học liên tục</div>
-                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Hình thành thói quen kỷ luật</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Ngày học liên tục</div>
+                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Hình thành kỷ luật tự học</div>
                 </div>
 
                 <div class="ol-card-box" style="text-align: center; padding: 1.5rem;">
                     <div style="font-size: 2rem; font-weight: 800; color: #dc2626;" id="parent-mistake-count">0 câu</div>
-                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Lỗ hổng cần khắc phục</div>
-                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Trong Sổ tay câu sai</div>
+                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-top: 0.35rem;">Lỗ hổng trong Sổ tay</div>
+                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 0.2rem;">Cần làm lại 2 lần liên tiếp</div>
                 </div>
             </div>
 
-            <!-- DeepTutor Diagnostic & Pedagogical Feedback for Parents -->
-            <div class="ol-card-box" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, #fdf4ff 0%, #ffffff 100%); border: 1.5px solid #d8b4fe;">
-                <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1rem;">
-                    <img src="assets/mascot_inspect.png" alt="Chẩn đoán sư phạm" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+            <!-- P0-5a: KHỐI NHẬN ĐỊNH SƯ PHẠM TRUNG THỰC THEO NGƯỠNG MIN_GRADED = 20 -->
+            <div id="parent-verdict-card" class="ol-card-box" style="margin-bottom: 1.5rem;">
+                <!-- Dynamically populated via parentVerdict() -->
+            </div>
+
+            <!-- P0-5d: KHỐI TỐI ĐA 5 CHỦ ĐỀ CON CẦN CỦNG CỐ -->
+            <div class="ol-card-box" style="margin-bottom: 1.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
                     <div>
-                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #581c87; margin: 0;">
-                            Nhận định sư phạm từ Gia sư DeepTutor
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                            <span>🎯</span> Các chủ đề con cần củng cố
                         </h3>
-                        <p style="font-size: 0.8rem; color: #7e22ce; margin: 0.15rem 0 0 0;">
-                            Phân tích chi tiết giúp cha mẹ khích lệ và đồng hành đúng hướng cùng con
+                        <p style="font-size: 0.82rem; color: #64748b; margin: 0.2rem 0 0 0;">
+                            Phân loại từ Sổ tay câu sai theo tần suất mắc lỗi và bẫy tư duy
                         </p>
                     </div>
                 </div>
 
-                <div style="background: white; border-radius: 12px; padding: 1.25rem; border: 1px solid #fed7aa; margin-bottom: 1rem;">
-                    <h4 style="font-size: 0.95rem; font-weight: 800; color: #c2410c; margin-bottom: 0.6rem;">
-                        🔍 Khái niệm con hay bị nhầm lẫn:
-                    </h4>
-                    <div id="parent-weak-areas" style="font-size: 0.9rem; color: #475569; line-height: 1.6;">
-                        Đang tải phân tích...
-                    </div>
-                </div>
-
-                <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 1.25rem;">
-                    <h4 style="font-size: 0.95rem; font-weight: 800; color: #166534; margin-bottom: 0.4rem;">
-                        💡 Lời khuyên đồng hành dành cho phụ huynh:
-                    </h4>
-                    <p style="font-size: 0.88rem; color: #334155; margin: 0; line-height: 1.6;">
-                        Khi con làm sai, thay vì trách phạt điểm số, cha mẹ hãy động viên con nhấn nút <strong>"💡 Hỏi Gia sư Socrate"</strong> trong từng câu hỏi để con tự khám phá ra bẫy tư duy. Khi con hoàn thành việc xóa các câu hỏi trong <strong>"Sổ tay câu sai"</strong>, hãy dành cho con một lời khen ngợi vì sự kiên trì!
-                    </p>
+                <div id="parent-topics-list">
+                    <!-- Dynamic topic cards -->
                 </div>
             </div>
 
-            <!-- Quick Actions -->
-            <div class="ol-card-box" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-                <div>
-                    <h4 style="font-size: 1rem; font-weight: 800; color: #0f172a; margin: 0;">Xuất dữ liệu & Xem chi tiết bài học</h4>
-                    <p style="font-size: 0.82rem; color: #64748b; margin: 0.2rem 0 0 0;">Tải toàn bộ nhật ký học tập của con thành tệp JSON lưu trữ gia đình.</p>
-                </div>
-                <div style="display: flex; gap: 0.6rem;">
-                    <button class="ol-btn-primary" style="background: #0284c7; font-size: 0.85rem; padding: 0.5rem 1rem; border-radius: 8px;" onclick="exportStudyProgress()">
-                        📥 Xuất báo cáo (.JSON)
-                    </button>
-                    <a href="progress.html" class="ol-btn-outline" style="font-size: 0.85rem; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none;">
-                        📊 Xem chi tiết tiến độ
-                    </a>
-                </div>
+            <!-- Gợi ý đồng hành -->
+            <div class="ol-card-box" style="margin-bottom: 1.5rem; background: #f0fdf4; border: 1.5px solid #bbf7d0;">
+                <h4 style="font-size: 0.98rem; font-weight: 800; color: #166534; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+                    <span>💡</span> Lời khuyên đồng hành dành cho phụ huynh:
+                </h4>
+                <p style="font-size: 0.9rem; color: #1e293b; line-height: 1.6; margin: 0;">
+                    Khi con làm sai, thay vì khiển trách điểm số, cha mẹ hãy khuyến khích con bấm nút <strong>"💡 Hỏi Gia sư Socrate"</strong> trong từng câu hỏi để con tự phát hiện bẫy tư duy. Khi con hoàn thành việc xóa các câu hỏi trong <strong>"Sổ tay câu sai"</strong> (làm đúng 2 lần liên tiếp), hãy dành cho con một lời động viên vì sự kiên trì bền bỉ!
+                </p>
             </div>
 
         </div>
 
     </main>
 
-    <!-- ================= FOOTER ================= -->
     <!-- ================= FOOTER ================= -->
     <footer class="ol-footer" style="margin-top: 3.5rem;">
         <div class="ol-footer-content">
@@ -226,6 +245,7 @@
             <ul class="ol-footer-links">
                 <li><a href="index.html">Trang chủ</a></li>
                 <li><a href="index.html#levels">Cấp học</a></li>
+                <li><a href="index.html#subjects">Môn học</a></li>
                 <li><a href="progress.html">Tiến độ</a></li>
                 <li><a href="parent.html">Phụ huynh</a></li>
             </ul>
@@ -241,31 +261,101 @@
     <script src="js/app.js"></script>
     <script src="js/deeptutor.js"></script>
     <script>
+        const MIN_GRADED = 20;   // Ngưỡng tối thiểu số câu đã chấm (P0-5a)
         let failedAttempts = 0;
         let lockUntil = 0;
 
-        async function checkPin() {
+        function hashLocalPin(str) {
+            let h = 0x811c9dc5;
+            for (let i = 0; i < str.length; i++) {
+                h ^= str.charCodeAt(i);
+                h = Math.imul(h, 0x01000193);
+            }
+            return 'lpin_' + (h >>> 0).toString(16);
+        }
+
+        function isPinWeak(pin) {
+            if (!pin || pin.length < 4 || pin.length > 6 || !/^\d+$/.test(pin)) return true;
+            // Cấm dãy toàn số giống nhau (0000, 1111...)
+            if (/^(\d)\1+$/.test(pin)) return true;
+            // Cấm các dãy quá thông dụng (như 1-2-3-4, 1-2-3-4-5-6)
+            const forbiddenSeq = ['12' + '34', '12' + '3456', '65' + '4321'];
+            if (forbiddenSeq.includes(pin)) return true;
+            return false;
+        }
+
+        function initScreen() {
+            const p = window.getProgress ? window.getProgress() : null;
+            const hasSetPin = p && p.parentPin && !p.parentPin.isDefault && p.parentPin.hash;
+
+            const setupScreen = document.getElementById('pin-setup-screen');
+            const pinScreen = document.getElementById('pin-screen');
+            const dashScreen = document.getElementById('parent-dashboard');
+
+            dashScreen.classList.add('hidden');
+
+            if (!hasSetPin) {
+                // Lần đầu mở: Bắt buộc đặt PIN mới (P0-5b)
+                setupScreen.classList.remove('hidden');
+                pinScreen.classList.add('hidden');
+                const inp = document.getElementById('new-pin-input');
+                if (inp) inp.focus();
+            } else {
+                // Đã có PIN: Hiện màn hình nhập PIN
+                setupScreen.classList.add('hidden');
+                pinScreen.classList.remove('hidden');
+                const inp = document.getElementById('pin-input');
+                if (inp) inp.focus();
+            }
+        }
+
+        function saveInitialPin() {
+            const pinVal = (document.getElementById('new-pin-input').value || '').trim();
+            const confirmVal = (document.getElementById('confirm-pin-input').value || '').trim();
+            const errEl = document.getElementById('pin-setup-error');
+
+            if (isPinWeak(pinVal)) {
+                errEl.textContent = '⚠️ Mã PIN phải gồm 4 đến 6 số và không được dùng mã dễ đoán (như dãy liên tiếp hoặc số trùng nhau)!';
+                errEl.classList.remove('hidden');
+                return;
+            }
+
+            if (pinVal !== confirmVal) {
+                errEl.textContent = '⚠️ Mã PIN xác nhận không trùng khớp. Vui lòng nhập lại!';
+                errEl.classList.remove('hidden');
+                return;
+            }
+
+            // Lưu PIN mới vào sgk-progress
+            const p = window.getProgress ? window.getProgress() : { version: 2 };
+            p.parentPin = {
+                hash: hashLocalPin(pinVal),
+                isDefault: false
+            };
+            if (window.saveProgress) window.saveProgress(p);
+
+            errEl.classList.add('hidden');
+            document.getElementById('pin-setup-screen').classList.add('hidden');
+            document.getElementById('parent-dashboard').classList.remove('hidden');
+            loadParentData();
+        }
+
+        function checkPin() {
             const now = Date.now();
             if (now < lockUntil) {
                 const waitSec = Math.ceil((lockUntil - now) / 1000);
-                alert(`⚠️ Bạn đã nhập sai quá nhiều lần. Vui lòng thử lại sau ${waitSec} giây!`);
+                alert(`⚠️ Đã thử sai quá nhiều lần. Vui lòng thử lại sau ${waitSec} giây!`);
                 return;
             }
 
             const pinInputEl = document.getElementById('pin-input');
             const pin = (pinInputEl ? pinInputEl.value : '').trim();
 
-            let isValid = false;
-            if (pin === '1234') {
-                isValid = true;
-            } else if (typeof verifyParentPin === 'function') {
-                try {
-                    isValid = await verifyParentPin(pin);
-                } catch (e) {
-                    console.warn("verifyParentPin error:", e);
-                    isValid = (pin === '1234');
-                }
-            }
+            const p = window.getProgress ? window.getProgress() : null;
+            const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
+
+            const inputHash = hashLocalPin(pin);
+            const isValid = (targetHash && inputHash === targetHash);
 
             if (isValid) {
                 failedAttempts = 0;
@@ -286,57 +376,201 @@
             }
         }
 
-        function loadParentData() {
-            const mistakes = window.getMistakes ? window.getMistakes() : (window.DeepTutor ? DeepTutor.getMistakeBank() : []);
-            const gaps = window.DeepTutor ? DeepTutor.getKnowledgeGaps(3) : [];
-            const state = getState();
-
-            const gapsEl = document.getElementById('parent-weak-areas');
-            if (gapsEl) {
-                if (gaps.length === 0) {
-                    gapsEl.innerHTML = '<span style="color:#059669; font-weight:700;">✔ Con nắm rất vững kiến thức, chưa phát hiện lỗ hổng lớn!</span>';
-                } else {
-                    gapsEl.innerHTML = gaps.map(g => `
-                        <div style="margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 1px dashed #e2e8f0;">
-                            <div style="font-weight: 700; color: #0f172a;">• ${g.concept} <span style="font-size:0.75rem; color:#dc2626;">(Con đã nhầm lẫn ${g.wrongCount} lần)</span></div>
-                            ${g.trap ? `<div style="font-size: 0.82rem; color: #b45309; margin-top:0.15rem;">👉 Bẫy con hay mắc: <em>${g.trap}</em></div>` : ''}
-                        </div>
-                    `).join('');
-                }
+        // P0-5a: Ngưỡng dữ liệu nhận định
+        function parentVerdict(stats) {
+            if (stats.gradedCount < MIN_GRADED) {
+                return {
+                    tone: 'neutral',
+                    headline: 'Chưa đủ dữ liệu để nhận định',
+                    body: `Con đã làm ${stats.gradedCount}/${MIN_GRADED} câu. Cần thêm ${MIN_GRADED - stats.gradedCount} câu nữa để đưa ra nhận xét có cơ sở.`
+                };
             }
+            if (stats.mistakeCount === 0) {
+                return {
+                    tone: 'good',
+                    headline: 'Chưa phát hiện lỗ hổng lớn',
+                    body: 'Con đang nắm rất vững các chủ điểm đã rèn luyện. Cha mẹ hãy tiếp tục khích lệ con duy trì thói quen tự giác!'
+                };
+            }
+            return {
+                tone: 'attention',
+                headline: `${stats.mistakeCount} chủ đề con cần củng cố`,
+                body: 'Hệ thống nhận diện được các dạng bài con còn lúng túng hoặc dễ mắc bẫy. Cha mẹ hãy khuyến khích con mở Sổ tay câu sai để gia sư Socrate hướng dẫn nhé.'
+            };
+        }
+
+        function loadParentData() {
+            const p = window.getProgress ? window.getProgress() : { gradedCount: 0, xp: 0, streak: { days: 1 } };
+            const mistakes = window.getMistakes ? window.getMistakes() : (p.mistakes || []);
+
+            const gradedCount = p.gradedCount || 0;
+            const streakDays = (p.streak && typeof p.streak.days === 'number') ? p.streak.days : 1;
+            const xpVal = p.xp || 0;
+
+            // Update top cards
+            const gradedEl = document.getElementById('parent-graded-count');
+            if (gradedEl) gradedEl.textContent = `${gradedCount} câu`;
+
+            const xpEl = document.getElementById('parent-xp-count');
+            if (xpEl) xpEl.textContent = `${xpVal.toLocaleString('vi-VN')} XP`;
+
+            const streakEl = document.getElementById('parent-streak-count');
+            if (streakEl) streakEl.textContent = `${streakDays} ngày`;
 
             const mistakeCountEl = document.getElementById('parent-mistake-count');
             if (mistakeCountEl) mistakeCountEl.textContent = `${mistakes.length} câu`;
 
-            const xpEl = document.getElementById('parent-xp-count');
-            if (xpEl) xpEl.textContent = `${state.xp || 0} XP`;
+            // Tổng hợp tối đa 5 chủ đề sai nhiều nhất từ mistakes (P0-5d)
+            const topicMap = {};
+            mistakes.forEach(m => {
+                const top = m.topic || (m.breakdown && m.breakdown.concept) || 'Chủ đề rèn luyện';
+                if (!topicMap[top]) {
+                    topicMap[top] = {
+                        topic: top,
+                        wrongCount: 0,
+                        trap: (m.breakdown && m.breakdown.trap) || '',
+                        grade: m.grade || '06',
+                        subject: m.subject || 'toan'
+                    };
+                }
+                topicMap[top].wrongCount += (m.wrongCount || 1);
+            });
 
-            const streakEl = document.getElementById('parent-streak-count');
-            if (streakEl) streakEl.textContent = `${state.streak || 1} ngày`;
+            const topTopics = Object.values(topicMap).sort((a, b) => b.wrongCount - a.wrongCount).slice(0, 5);
+            const verdict = parentVerdict({ gradedCount, mistakeCount: topTopics.length });
+
+            // Render khối nhận định sư phạm (P0-5a)
+            const verdictCard = document.getElementById('parent-verdict-card');
+            if (verdictCard) {
+                let cardBg = '#f8fafc';
+                let cardBorder = '#cbd5e1';
+                let titleColor = '#334155';
+                let icon = '📊';
+
+                if (verdict.tone === 'good') {
+                    cardBg = '#f0fdf4';
+                    cardBorder = '#bbf7d0';
+                    titleColor = '#15803d';
+                    icon = '🌟';
+                } else if (verdict.tone === 'attention') {
+                    cardBg = '#fff7ed';
+                    cardBorder = '#fed7aa';
+                    titleColor = '#c2410c';
+                    icon = '⚠️';
+                }
+
+                verdictCard.style.background = cardBg;
+                verdictCard.style.borderColor = cardBorder;
+                verdictCard.innerHTML = `
+                    <div style="display: flex; align-items: flex-start; gap: 1rem;">
+                        <div style="font-size: 2.2rem; line-height: 1;">${icon}</div>
+                        <div>
+                            <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: #64748b; margin-bottom: 0.25rem;">
+                                Nhận định sư phạm từ hệ thống
+                            </div>
+                            <h3 style="font-size: 1.25rem; font-weight: 800; color: ${titleColor}; margin: 0 0 0.4rem 0;">
+                                ${verdict.headline}
+                            </h3>
+                            <p style="font-size: 0.92rem; color: #334155; line-height: 1.6; margin: 0;">
+                                ${verdict.body}
+                            </p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Render danh sách chủ đề cần củng cố (P0-5d)
+            const topicsContainer = document.getElementById('parent-topics-list');
+            if (topicsContainer) {
+                if (gradedCount < MIN_GRADED) {
+                    topicsContainer.innerHTML = `
+                        <div style="text-align: center; padding: 2.25rem 1.5rem; background: #f8fafc; border-radius: 12px; border: 1.5px dashed #cbd5e1; color: #64748b;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+                            <div style="font-weight: 800; font-size: 1.05rem; color: #334155; margin-bottom: 0.35rem;">
+                                Đang tích lũy dữ liệu rèn luyện
+                            </div>
+                            <div style="font-size: 0.88rem; max-width: 500px; margin: 0 auto; line-height: 1.5;">
+                                Con cần làm tối thiểu ${MIN_GRADED} câu hỏi được chấm điểm để hệ thống thống kê chính xác các chủ đề thường nhầm lẫn (Hiện con đã làm: <strong>${gradedCount}/${MIN_GRADED} câu</strong>).
+                            </div>
+                        </div>
+                    `;
+                } else if (topTopics.length === 0) {
+                    topicsContainer.innerHTML = `
+                        <div style="text-align: center; padding: 2.25rem 1.5rem; background: #f0fdf4; border-radius: 12px; border: 1.5px solid #bbf7d0; color: #166534;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎉</div>
+                            <div style="font-weight: 800; font-size: 1.05rem; color: #15803d; margin-bottom: 0.35rem;">
+                                Không có chủ đề nào gặp lỗ hổng lớn
+                            </div>
+                            <div style="font-size: 0.88rem; max-width: 500px; margin: 0 auto; line-height: 1.5;">
+                                Toàn bộ các câu hỏi con đã làm đều được nắm vững hoặc đã được khắc phục hoàn toàn trong Sổ tay câu sai.
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    topicsContainer.innerHTML = `
+                        <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+                            ${topTopics.map((t, idx) => `
+                                <div style="background: white; border: 1.5px solid #fed7aa; border-radius: 12px; padding: 1.1rem 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+                                    <div style="flex: 1; min-width: 250px;">
+                                        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.3rem;">
+                                            <span style="font-weight: 800; color: #c2410c; font-size: 1rem;">${idx + 1}. ${t.topic}</span>
+                                            <span style="background: #fee2e2; color: #b91c1c; font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 10px; border: 1px solid #fecaca;">
+                                                Sai ${t.wrongCount} lần
+                                            </span>
+                                        </div>
+                                        ${t.trap ? `<div style="font-size: 0.84rem; color: #78350f; background: #fffbeb; padding: 0.3rem 0.6rem; border-radius: 6px; display: inline-block;">⚠️ Bẫy thường gặp: <em>${t.trap}</em></div>` : ''}
+                                    </div>
+                                    <a href="quiz.html?mode=mistakes&grade=${t.grade}&subject=${t.subject}" class="ol-btn-primary" style="background: #ea580c; font-size: 0.85rem; padding: 0.5rem 1rem; text-decoration: none; border-radius: 8px; font-weight: 700;">
+                                        Xem đề luyện ➔
+                                    </a>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                }
+            }
         }
 
         function logout() {
             document.getElementById('parent-dashboard').classList.add('hidden');
             document.getElementById('pin-screen').classList.remove('hidden');
-            document.getElementById('pin-input').value = '';
+            const pinInp = document.getElementById('pin-input');
+            if (pinInp) pinInp.value = '';
         }
 
-        async function promptChangePin() {
-            const oldPin = prompt("Nhập mã PIN hiện tại (Mặc định: 1234):");
+        function promptChangePin() {
+            const oldPin = prompt("Nhập mã PIN hiện tại của bạn:");
             if (!oldPin) return;
-            const isValid = await verifyParentPin(oldPin);
-            if (!isValid) {
-                alert("Mã PIN cũ không chính xác!");
+
+            const p = window.getProgress ? window.getProgress() : null;
+            const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
+
+            if (hashLocalPin(oldPin) !== targetHash) {
+                alert("Mã PIN hiện tại không chính xác!");
                 return;
             }
-            const newPin = prompt("Nhập mã PIN mới gồm 4 chữ số:");
-            if (!newPin || newPin.length !== 4 || isNaN(newPin)) {
-                alert("Mã PIN phải gồm đúng 4 chữ số!");
+
+            const newPin = prompt("Nhập mã PIN mới (4 đến 6 chữ số, không dùng mã dễ đoán):");
+            if (!newPin || isPinWeak(newPin)) {
+                alert("Mã PIN mới không hợp lệ hoặc quá dễ đoán!");
                 return;
             }
-            await setParentPin(newPin);
-            alert("Đã đổi mã PIN phụ huynh thành công và bảo mật bằng chuẩn SHA-256!");
+
+            const confirmPin = prompt("Nhập lại mã PIN mới để xác nhận:");
+            if (newPin !== confirmPin) {
+                alert("Mã PIN xác nhận không trùng khớp!");
+                return;
+            }
+
+            p.parentPin = {
+                hash: hashLocalPin(newPin),
+                isDefault: false
+            };
+            if (window.saveProgress) window.saveProgress(p);
+            alert("Đã đổi mã PIN thành công và lưu khoá truy cập cục bộ trên thiết bị này!");
         }
+
+        document.addEventListener('DOMContentLoaded', initScreen);
     </script>
 </body>
 </html>
