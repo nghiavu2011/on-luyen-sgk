@@ -525,9 +525,26 @@
             const headerLevelEl = document.getElementById('header-level-desc');
             if (headerLevelEl) headerLevelEl.textContent = levelDesc;
             
+            const ctx = window.getContext ? window.getContext() : { nickname: 'Học sinh', grade: grade, level: (gNum >= 10 ? 'c3' : (gNum <= 5 ? 'c1' : 'c2')) };
             const userInfoEl = document.getElementById('user-info-text');
-            if (userInfoEl) const ctx = window.getContext ? window.getContext() : { nickname: 'Học sinh', grade: grade };
             if (userInfoEl) userInfoEl.textContent = `${ctx.nickname} (Lớp ${ctx.grade})`;
+
+            // P2-4: Bảng màu cấp học theo getContext().level
+            const level = ctx.level || (gNum >= 10 ? 'c3' : (gNum <= 5 ? 'c1' : 'c2'));
+            const LEVEL_PALETTE = {
+                c1: { primary: '#ea580c', lightBg: '#fff7ed', border: '#fed7aa' },
+                c2: { primary: '#0284c7', lightBg: '#f0f9ff', border: '#bae6fd' },
+                c3: { primary: '#059669', lightBg: '#f0fdf4', border: '#bbf7d0' }
+            };
+            const pal = LEVEL_PALETTE[level] || LEVEL_PALETTE.c2;
+            document.documentElement.style.setProperty('--thpt-emerald', pal.primary);
+            document.documentElement.style.setProperty('--ol-primary', pal.primary);
+            
+            const goalBarEl = document.querySelector('.thpt-goal-bar');
+            if (goalBarEl) {
+                goalBarEl.style.background = `linear-gradient(135deg, #ffffff 0%, ${pal.lightBg} 100%)`;
+                goalBarEl.style.borderColor = pal.border;
+            }
 
             // Load Subject Info to update Header & Banner
             let subName = subject;

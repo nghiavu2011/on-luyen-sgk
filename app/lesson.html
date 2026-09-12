@@ -232,22 +232,22 @@
                 <div class="thcs-stat-card">
                     <span style="font-size: 1.3rem;">🔥</span>
                     <div>
-                        <div style="font-size: 1.05rem; font-weight: 800; color: #ea580c;">7</div>
+                        <div style="font-size: 1.05rem; font-weight: 800; color: #ea580c;" id="lesson-stat-streak">0</div>
                         <div style="font-size: 0.7rem; color: #64748b; font-weight: 600;">ngày liên tiếp</div>
                     </div>
                 </div>
                 <div class="thcs-stat-card">
                     <span style="font-size: 1.3rem;">⭐</span>
                     <div>
-                        <div style="font-size: 1.05rem; font-weight: 800; color: #d97706;">1.250</div>
+                        <div style="font-size: 1.05rem; font-weight: 800; color: #d97706;" id="lesson-stat-xp">0</div>
                         <div style="font-size: 0.7rem; color: #64748b; font-weight: 600;">điểm thưởng</div>
                     </div>
                 </div>
                 <div class="thcs-stat-card">
                     <span style="font-size: 1.3rem;">🎖️</span>
                     <div>
-                        <div style="font-size: 1.05rem; font-weight: 800; color: #0284c7;">Lv. 5</div>
-                        <div style="font-size: 0.7rem; color: #64748b; font-weight: 600;">Học chăm chỉ</div>
+                        <div style="font-size: 1.05rem; font-weight: 800; color: #0284c7;" id="lesson-stat-level">Lv. 1</div>
+                        <div style="font-size: 0.7rem; color: #64748b; font-weight: 600;" id="lesson-stat-level-title">Khởi động</div>
                     </div>
                 </div>
             </div>
@@ -409,6 +409,20 @@
                     if (currentSub) subName = currentSub.name;
                 }
             } catch(e) {}
+
+            // P2-4: Nhất quán dữ liệu hiển thị từ stats.js
+            if (window.getProgressState) {
+                const prog = window.getProgressState();
+                const streakDays = (prog.streak && prog.streak.days) ? prog.streak.days : 0;
+                const xp = prog.xp || 0;
+                const lvl = Math.floor(xp / 100) + 1;
+                const sEl = document.getElementById('lesson-stat-streak');
+                const xEl = document.getElementById('lesson-stat-xp');
+                const lEl = document.getElementById('lesson-stat-level');
+                if (sEl) sEl.textContent = streakDays;
+                if (xEl) xEl.textContent = xp;
+                if (lEl) lEl.textContent = `Lv. ${lvl}`;
+            }
 
             const greetingDescEl = document.getElementById('greeting-desc');
             if (greetingDescEl) {

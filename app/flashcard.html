@@ -92,14 +92,14 @@
                 <span class="current" id="bc-lesson">Thẻ ghi nhớ Flashcard</span>
             </div>
             <div class="ol-subnav-stats">
-                <span class="ol-stat-badge" style="color: #ea580c; border-color: #fed7aa;">
-                    🔥 7 ngày liên tiếp
+                <span class="ol-stat-badge" style="color: #ea580c; border-color: #fed7aa;" id="fc-streak-stat">
+                    🔥 0 ngày liên tiếp
                 </span>
                 <span class="ol-stat-badge" style="color: #f59e0b; border-color: #fde68a;" id="bar-xp-stat">
-                    ⭐ 1.250 XP
+                    ⭐ 0 XP
                 </span>
-                <span class="ol-stat-badge" style="color: #0284c7; border-color: #bae6fd;">
-                    🎖️ Lv. 5 Chăm chỉ
+                <span class="ol-stat-badge" style="color: #0284c7; border-color: #bae6fd;" id="fc-level-stat">
+                    🎖️ Lv. 1 Khởi động
                 </span>
             </div>
         </div>
@@ -370,16 +370,18 @@
                 activeTab = params.tab;
             }
 
-            // User Profile
-            const gNum = parseInt(params.grade, 10);
-            const userRoleEl = document.getElementById('user-grade-text');
-            const userAvatarEl = document.getElementById('user-avatar-text');
-            if (gNum >= 10) {
-                userRoleEl.textContent = `Học sinh · Lớp ${params.grade} (THPT)`;
-                userAvatarEl.style.background = 'linear-gradient(135deg, #059669 0%, #047857 100%)';
-            } else {
-                userRoleEl.textContent = `Học sinh · Lớp ${params.grade} (THCS)`;
-                userAvatarEl.style.background = 'linear-gradient(135deg, #0284c7 0%, #0369a1 100%)';
+            // P2-4: Nhất quán số liệu hiển thị từ stats.js
+            if (window.getProgressState) {
+                const prog = window.getProgressState();
+                const streakDays = (prog.streak && prog.streak.days) ? prog.streak.days : 0;
+                const xp = prog.xp || 0;
+                const lvl = Math.floor(xp / 100) + 1;
+                const sEl = document.getElementById('fc-streak-stat');
+                const xEl = document.getElementById('bar-xp-stat');
+                const lEl = document.getElementById('fc-level-stat');
+                if (sEl) sEl.innerHTML = `🔥 ${streakDays} ngày liên tiếp`;
+                if (xEl) xEl.innerHTML = `⭐ ${xp} XP`;
+                if (lEl) lEl.innerHTML = `🎖️ Lv. ${lvl}`;
             }
 
             // Subject Info & Breadcrumb
