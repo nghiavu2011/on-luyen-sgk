@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title id="page-title">Đề thi & Luyện trắc nghiệm — 📖 Ôn luyện</title>
+    <link rel="canonical" href="https://onluyen-sgk.vercel.app/quiz.html">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Quiz",
+      "name": "Đề ôn luyện trắc nghiệm SGK",
+      "description": "Hệ thống trắc nghiệm phân hoá 4 mức độ bám sát SGK 2026-2027",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "N&Mstudio Education",
+        "sameAs": "https://onluyen-sgk.vercel.app/"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="css/onluyen-theme.css?v=20260912_thpt_v1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -623,12 +637,13 @@
                 if (!res.ok) throw new Error();
                 const data = await res.json();
                 questions = data.questions || [];
+                const chTitle = data.chapterTitle || (data.title ? data.title.split('—')[1] || data.title : `Chương ${chapter}`);
                 if (data.title) {
                     document.getElementById('exam-title').textContent = data.title;
-                    document.title = `${data.title} — 📖 Ôn luyện`;
+                    document.title = `${subName} ${grade} — ${chTitle.trim()} | Ôn luyện`;
                 } else {
                     document.getElementById('exam-title').textContent = `Đề trắc nghiệm: ${subName} - Lớp ${grade}`;
-                    document.title = `Luyện trắc nghiệm ${subName} ${grade} — 📖 Ôn luyện`;
+                    document.title = `${subName} ${grade} — Luyện đề | Ôn luyện`;
                 }
 
                 const metaEl = document.getElementById('exam-meta');

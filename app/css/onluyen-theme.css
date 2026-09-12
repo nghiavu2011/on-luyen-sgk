@@ -124,13 +124,15 @@ body {
     white-space: nowrap;
 }
 
-.ol-brand-text h1 {
+.ol-brand-text h1,
+.ol-brand-text .ol-brand-title {
     font-size: 1.45rem;
     font-weight: 800;
     color: #1565c0;
     line-height: 1.1;
     letter-spacing: -0.5px;
     margin: 0;
+    display: block;
 }
 
 .ol-brand-text p {
