@@ -1,0 +1,82 @@
+{
+  "id": "toan-06-ch01-l01",
+  "title": "Bài 1: Tập hợp và phần tử của tập hợp",
+  "durationMinutes": 15,
+  "hasRealContent": true,
+  "objectives": [
+    "Nhận biết được một tập hợp và các phần tử của nó trong thực tiễn",
+    "Viết được tập hợp theo hai cách: liệt kê các phần tử và chỉ ra tính chất đặc trưng",
+    "Sử dụng thành thạo và chính xác các ký hiệu $\\in$ và $\\notin$"
+  ],
+  "concepts": [
+    {
+      "term": "Tập hợp",
+      "definition": "Một nhóm các đối tượng (số, đồ vật, chữ cái...) được xác định rõ ràng và phân biệt.",
+      "notation": "$A = \\{1; 2; 3; 4\\}$",
+      "note": "Tên tập hợp thường được đặt bằng chữ cái in hoa ($A, B, X, Y...$). Các phần tử viết cách nhau bởi dấu chấm phẩy (;), đặt trong cặp dấu ngoặc nhọn { }."
+    },
+    {
+      "term": "Phần tử",
+      "definition": "Mỗi đối tượng nằm trong một tập hợp được gọi là một phần tử của tập hợp đó.",
+      "notation": "$x \\in A$ hoặc $y \\notin A$",
+      "note": "Mỗi phần tử chỉ được liệt kê một lần, thứ tự liệt kê tùy ý."
+    }
+  ],
+  "rules": [
+    {
+      "statement": "$a \\in A$",
+      "meaning": "$a$ là một phần tử thuộc tập hợp $A$"
+    },
+    {
+      "statement": "$b \\notin A$",
+      "meaning": "$b$ không phải là phần tử thuộc tập hợp $A$"
+    },
+    {
+      "statement": "Cách 1: Liệt kê các phần tử",
+      "meaning": "Viết tất cả các phần tử của tập hợp vào trong dấu $\\{ \\}$, cách nhau bởi dấu chấm phẩy (;)."
+    },
+    {
+      "statement": "Cách 2: Chỉ ra tính chất đặc trưng",
+      "meaning": "Nêu điều kiện hoặc tính chất mà chỉ các phần tử của tập hợp đó mới thỏa mãn, ví dụ: $A = \\{x \\in \\mathbb{N} \\mid x < 5\\}$."
+    }
+  ],
+  "workedExamples": [
+    {
+      "prompt": "Viết tập hợp $A$ các số tự nhiên nhỏ hơn 5 bằng hai cách và cho biết các khẳng định sau đúng hay sai: $3 \\in A$; $5 \\in A$.",
+      "steps": [
+        "Bước 1: Liệt kê các số tự nhiên nhỏ hơn 5 gồm: 0, 1, 2, 3, 4.",
+        "Bước 2: Viết theo Cách 1 (liệt kê): $A = \\{0; 1; 2; 3; 4\\}$.",
+        "Bước 3: Viết theo Cách 2 (chỉ ra tính chất đặc trưng): $A = \\{x \\in \\mathbb{N} \\mid x < 5\\}$.",
+        "Bước 4: Xét quan hệ phần tử: Số 3 có trong tập hợp $A$ nên khẳng định $3 \\in A$ là ĐÚNG. Số 5 không nhỏ hơn 5 nên không thuộc $A$, do đó khẳng định $5 \\in A$ là SAI (phải viết $5 \\notin A$)."
+      ],
+      "answer": "Cách 1: $A = \\{0; 1; 2; 3; 4\\}$; Cách 2: $A = \\{x \\in \\mathbb{N} \\mid x < 5\\}$. Khẳng định $3 \\in A$ đúng, $5 \\in A$ sai."
+    },
+    {
+      "prompt": "Cho tập hợp $B = \\{x \\in \\mathbb{N}^* \\mid x \\le 4\\}$. Viết tập hợp $B$ dưới dạng liệt kê các phần tử.",
+      "steps": [
+        "Bước 1: Lưu ý ký hiệu $\\mathbb{N}^*$ là tập hợp các số tự nhiên khác 0 (bắt đầu từ 1).",
+        "Bước 2: Điều kiện $x \\le 4$ nghĩa là lấy các số từ 1 đến 4 (bao gồm cả số 4).",
+        "Bước 3: Liệt kê các phần tử ngăn cách bằng dấu chấm phẩy: 1; 2; 3; 4."
+      ],
+      "answer": "$B = \\{1; 2; 3; 4\\}$"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Viết $A = \\{0, 1, 2, 3, 4\\}$ dùng dấu phẩy (,) thay vì dấu chấm phẩy (;)",
+      "why": "SGK Toán 6 quy ước bắt buộc dùng dấu chấm phẩy (;) để phân tách các phần tử số, nhằm tránh nhầm lẫn với số thập phân (ví dụ nhầm giữa hai số 1 và 2 với số thập phân 1,2)."
+    },
+    {
+      "mistake": "Lặp lại phần tử trong tập hợp, ví dụ viết từ 'NHA TRANG' thành $\\{N; H; A; T; R; A; N; G\\}$",
+      "why": "Quy tắc cơ bản của tập hợp: mỗi phần tử chỉ được liệt kê một lần. Từ 'NHA TRANG' có chữ A và N xuất hiện 2 lần, viết đúng là: $\\{N; H; A; T; R; G\\}$."
+    },
+    {
+      "mistake": "Nhầm lẫn giữa tập $\\mathbb{N}$ (có số 0) và tập $\\mathbb{N}^*$ (không có số 0)",
+      "why": "$\\mathbb{N} = \\{0; 1; 2; 3; ...\\}$ còn $\\mathbb{N}^* = \\{1; 2; 3; ...\\}$. Cần đọc kỹ đề bài có dấu sao (*) hay không."
+    }
+  ],
+  "practiceRefs": [
+    "toan-06-ch01-de01",
+    "toan-06-ch01-de02"
+  ]
+}

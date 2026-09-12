@@ -295,7 +295,9 @@
                 <!-- CTA Next Practice Button -->
                 <div class="ol-card-box" style="margin-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
                     <button class="ol-btn-outline" onclick="history.back()">⬅ Quay lại</button>
-                    <button class="ol-btn-primary" onclick="markCompleted()">✔ Đã hiểu bài (+10 XP)</button>
+                    <button id="btn-mark-read" class="ol-btn-primary" onclick="markAsRead()" style="background: #059669; font-size: 0.9rem;">
+                        Đánh dấu đã đọc
+                    </button>
                     <a id="practice-link-bottom" href="#" class="ol-btn-cta" style="background: #0284c7; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3); text-decoration: none;">
                         Làm bài luyện tập ➔
                     </a>
@@ -430,31 +432,30 @@
             const ctaPracEl = document.getElementById('practice-link-cta');
             if (ctaPracEl) ctaPracEl.href = practiceUrl;
 
-            // Load Lessons
+            // Load Lessons & Check for individual real lesson JSON (P0-2)
             try {
+                // First try loading chapter metadata or lessons list
                 const res = await smartFetch(`content/grade-${grade}/${subject}/${chapter}-lessons.json`);
-                if (!res.ok) throw new Error();
-                const data = await res.json();
-                lessons = data.lessons || [];
-                if (data.title) {
-                    const phoneChTitle = document.getElementById('phone-chapter-title');
-                    if (phoneChTitle) phoneChTitle.textContent = data.title;
-                    const badgeSubCh = document.getElementById('badge-subject-chapter');
-                    if (badgeSubCh) badgeSubCh.textContent = `${subName.toUpperCase()} · Lớp ${grade} · ${data.title}`;
+                if (res.ok) {
+                    const data = await res.json();
+                    lessons = data.lessons || [];
+                    if (data.title) {
+                        const phoneChTitle = document.getElementById('phone-chapter-title');
+                        if (phoneChTitle) phoneChTitle.textContent = data.title;
+                        const badgeSubCh = document.getElementById('badge-subject-chapter');
+                        if (badgeSubCh) badgeSubCh.textContent = `${subName.toUpperCase()} · Lớp ${grade} · ${data.title}`;
+                    }
+                } else {
+                    // Fallback to chapters.json
+                    const cRes = await smartFetch(`content/grade-${grade}/${subject}/chapters.json`);
+                    if (cRes.ok) {
+                        const cData = await cRes.json();
+                        const foundCh = (cData.chapters || []).find(c => c.id === chapter);
+                        if (foundCh && foundCh.lessons) lessons = foundCh.lessons;
+                    }
                 }
             } catch (e) {
                 lessons = [];
-            }
-
-            if (lessons.length === 0) {
-                document.getElementById('lesson-body-area').innerHTML = `
-                    <div class="ol-card-box text-center" style="padding: 2.5rem;">
-                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📂</div>
-                        <h3 style="font-weight: 800; color: #0f172a;">Bài học môn ${subName} đang được cập nhật bám sát SGK</h3>
-                        <p style="color: #64748b; font-size: 0.9rem; margin-top: 0.4rem;">Vui lòng quay lại trong ít phút.</p>
-                        <a href="subject.html?grade=${grade}&subject=${subject}" class="ol-btn-back" style="margin-top: 1rem;">Quay lại môn ${subName}</a>
-                    </div>`;
-                return;
             }
 
             if (params.lesson) {
@@ -462,11 +463,43 @@
                 if (idx >= 0) currentLessonIdx = idx;
             }
 
+            const targetLessonId = (lessons[currentLessonIdx] ? lessons[currentLessonIdx].id : params.lesson) || 'l01';
+
+            // P0-2c: Try loading standalone individual lesson file (schema: content/grade-XX/<subject>/chNN/<lesson>.json)
+            try {
+                const singleRes = await smartFetch(`content/grade-${grade}/${subject}/${chapter}/${targetLessonId}.json`);
+                if (singleRes.ok) {
+                    const singleData = await singleRes.json();
+                    if (singleData && singleData.hasRealContent) {
+                        lessons[currentLessonIdx] = singleData;
+                    }
+                }
+            } catch (e) {}
+
             const currentLesson = lessons[currentLessonIdx];
             document.title = `${currentLesson ? currentLesson.title : 'Bài học'} — 📖 ${subName} ${grade}`;
 
             renderSidebarPhoneList(grade, subject, chapter);
             renderLessonBody();
+            updateReadButtonState(grade, subject, chapter, targetLessonId);
+        }
+
+        function updateReadButtonState(grade, subject, chapter, lessonId) {
+            const p = window.getProgress ? window.getProgress() : null;
+            const lessonKey = `${grade}/${subject}/${chapter}/${lessonId}`;
+            const btn = document.getElementById('btn-mark-read');
+            if (!btn) return;
+            if (p && p.lessonsRead && p.lessonsRead.includes(lessonKey)) {
+                btn.textContent = '✓ Đã đọc bài này';
+                btn.style.background = '#e2e8f0';
+                btn.style.color = '#475569';
+                btn.disabled = true;
+            } else {
+                btn.textContent = 'Đánh dấu đã đọc';
+                btn.style.background = '#059669';
+                btn.style.color = 'white';
+                btn.disabled = false;
+            }
         }
 
         function renderSidebarPhoneList(grade, subject, chapter) {
@@ -500,76 +533,182 @@
         }
 
         function renderLessonBody() {
-            if (lessons.length === 0) return;
+            const bodyEl = document.getElementById('lesson-body-area');
+            if (!bodyEl) return;
+
+            if (lessons.length === 0) {
+                bodyEl.innerHTML = `
+                    <div class="ol-card-box text-center" style="padding: 2.5rem;">
+                        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏳</div>
+                        <h3 style="font-weight: 800; color: #0f172a;">Bài học này đang được biên soạn</h3>
+                        <p style="color: #64748b; font-size: 0.95rem; margin-top: 0.4rem;">Em có thể luyện đề của chương ngay bây giờ.</p>
+                        <a href="quiz.html?grade=${params.grade || '06'}&subject=${params.subject || 'toan'}&chapter=${params.chapter || 'ch01'}" class="ol-btn-primary" style="background: #0284c7; text-decoration: none; margin-top: 1rem; display: inline-block;">
+                            ✍️ Luyện đề của chương ngay ➔
+                        </a>
+                    </div>`;
+                return;
+            }
+
             const l = lessons[currentLessonIdx];
-            document.getElementById('lesson-title').textContent = l.title;
+            document.getElementById('lesson-title').textContent = l.title || 'Bài học SGK';
+
+            // P0-2a: Che bài học chưa có nội dung thật (hasRealContent !== true)
+            if (l.hasRealContent !== true) {
+                bodyEl.innerHTML = `
+                    <div class="ol-card-box text-center" style="padding: 3.5rem 2rem; background: white; border: 1.5px dashed #cbd5e1; border-radius: 16px;">
+                        <div style="font-size: 3rem; margin-bottom: 0.75rem;">✍️</div>
+                        <h2 style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-bottom: 0.5rem;">
+                            Bài học này đang được biên soạn
+                        </h2>
+                        <p style="color: #64748b; font-size: 0.95rem; line-height: 1.6; max-width: 520px; margin: 0 auto 1.75rem auto;">
+                            Nội dung lý thuyết chuyên sâu bám sát SGK Kết nối tri thức đang được đội ngũ sư phạm hoàn thiện. Em có thể luyện đề của chương ngay bây giờ!
+                        </p>
+                        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                            <a href="quiz.html?grade=${params.grade || '06'}&subject=${params.subject || 'toan'}&chapter=${params.chapter || 'ch01'}" class="ol-btn-primary" style="background: #0284c7; text-decoration: none; padding: 0.7rem 1.4rem; font-weight: 700; border-radius: 10px;">
+                                ✍️ Luyện đề của chương ngay ➔
+                            </a>
+                            <a href="subject.html?grade=${params.grade || '06'}&subject=${params.subject || 'toan'}" class="ol-btn-outline" style="text-decoration: none; padding: 0.7rem 1.4rem; font-weight: 600; border-radius: 10px;">
+                                📚 Về danh sách bài học
+                            </a>
+                        </div>
+                    </div>
+                `;
+                const btnMark = document.getElementById('btn-mark-read');
+                if (btnMark) btnMark.style.display = 'none';
+                return;
+            }
+
+            const btnMark = document.getElementById('btn-mark-read');
+            if (btnMark) btnMark.style.display = 'inline-block';
 
             let html = '';
 
-            // 1. Tóm tắt
-            if (l.summary) {
+            // 1. Mục tiêu bài học (Objectives)
+            if (l.objectives && l.objectives.length) {
+                html += `
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem; background: #f0fdf4; border: 1.5px solid #bbf7d0; border-radius: 14px; padding: 1.25rem;">
+                        <h4 style="font-size: 1rem; font-weight: 800; color: #166534; margin: 0 0 0.6rem 0; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>🎯</span> Mục tiêu cần đạt:
+                        </h4>
+                        <ul style="margin: 0; padding-left: 1.25rem; color: #1e293b; font-size: 0.92rem; line-height: 1.6;">
+                            ${l.objectives.map(o => `<li>${o}</li>`).join('')}
+                        </ul>
+                    </div>`;
+            }
+
+            // 2. Khái niệm cốt lõi (Concepts)
+            if (l.concepts && l.concepts.length) {
                 html += `
                     <div class="ol-card-box" style="margin-bottom: 1.25rem;">
-                        <div class="ol-concept-box" style="border-left-color: #0284c7; background: #f8fafc;">
-                            <div class="ol-concept-header" style="color: #0284c7;">
-                                <span>📋</span> <span>Khái niệm trọng tâm</span>
-                            </div>
-                            <div style="font-size: 0.98rem; line-height: 1.7; color: #334155;">
-                                ${l.summary}
-                            </div>
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>📋</span> Khái niệm & Thuật ngữ trọng tâm
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+                            ${l.concepts.map(c => `
+                                <div style="background: #f8fafc; border-left: 4px solid #0284c7; border-radius: 0 10px 10px 0; padding: 1rem; border: 1px solid #e2e8f0; border-left-width: 4px;">
+                                    <div style="font-weight: 800; color: #0284c7; font-size: 1rem; margin-bottom: 0.35rem;">
+                                        ${c.term}: <span style="color: #0f172a; font-weight: 600;">${c.definition}</span>
+                                    </div>
+                                    ${c.notation ? `<div style="font-size: 0.95rem; margin: 0.4rem 0; color: #0369a1; background: white; padding: 0.35rem 0.75rem; border-radius: 6px; display: inline-block; border: 1px solid #bae6fd;"><strong>Ký hiệu:</strong> ${c.notation}</div>` : ''}
+                                    ${c.note ? `<div style="font-size: 0.84rem; color: #64748b; margin-top: 0.3rem;"><em>💡 Lưu ý: ${c.note}</em></div>` : ''}
+                                </div>
+                            `).join('')}
                         </div>
                     </div>`;
             }
 
-            // 2. Quy tắc / Công thức
-            if (l.keyPoints && l.keyPoints.length) {
+            // 3. Quy tắc & Tính chất (Rules)
+            if (l.rules && l.rules.length) {
                 html += `
                     <div class="ol-card-box" style="margin-bottom: 1.25rem;">
-                        <div class="ol-formula-box">
-                            <div class="ol-formula-header">
-                                <span>🔑</span> <span>Quy tắc & Tính chất cần nhớ</span>
-                            </div>
-                            <div style="display: flex; flex-direction: column; gap: 0.5rem;">`;
-                l.keyPoints.forEach(kp => {
-                    html += `
-                        <div class="ol-keypoint-item">
-                            <span class="ol-keypoint-bullet">✦</span>
-                            <span>${kp}</span>
-                        </div>`;
-                });
-                html += `</div></div></div>`;
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>🔑</span> Quy tắc & Ký hiệu cần nhớ
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+                            ${l.rules.map(r => `
+                                <div style="display: flex; align-items: baseline; gap: 0.6rem; background: #fffdf5; border: 1px solid #fef3c7; border-radius: 8px; padding: 0.75rem 1rem;">
+                                    <span style="font-weight: 800; color: #d97706; font-size: 1rem;">✦</span>
+                                    <div>
+                                        <strong style="color: #1e293b; font-size: 0.95rem;">${r.statement}</strong>
+                                        <span style="color: #475569; font-size: 0.9rem;"> — ${r.meaning}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>`;
             }
 
-            // 3. Ví dụ mẫu
-            if (l.examples && l.examples.length) {
+            // 4. Ví dụ mẫu từng bước (Worked Examples)
+            if (l.workedExamples && l.workedExamples.length) {
                 html += `
-                    <div class="ol-card-box">
-                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                            <span>📝</span> <span>Ví dụ minh họa & Phương pháp giải</span>
-                        </h3>`;
-                l.examples.forEach((ex, i) => {
-                    const prob = ex.problem || ex.question || '';
-                    const sol = (ex.solution || ex.answer || '').replace(/\n/g, '<br>');
-                    html += `
-                        <div class="ol-example-card">
-                            <div class="ol-example-title" style="color: #0284c7;">Ví dụ ${i + 1}:</div>
-                            <div class="ol-example-prob">${prob}</div>
-                            <div class="ol-example-sol">
-                                <strong style="color: #15803d; display: block; margin-bottom: 0.35rem;">💡 BƯỚC GIẢI CHI TIẾT:</strong>
-                                ${sol}
-                            </div>
-                        </div>`;
-                });
-                html += `</div>`;
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem;">
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>📝</span> Ví dụ minh họa có lời giải từng bước
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            ${l.workedExamples.map((ex, i) => `
+                                <div style="border: 1.5px solid #bae6fd; border-radius: 12px; padding: 1.15rem; background: #f0f9ff;">
+                                    <div style="font-weight: 800; color: #0284c7; font-size: 0.95rem; margin-bottom: 0.35rem;">Ví dụ ${i + 1}:</div>
+                                    <div style="font-size: 1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.75rem;">${ex.prompt}</div>
+                                    <div style="background: white; border-radius: 8px; padding: 0.85rem; border: 1px solid #e0f2fe; margin-bottom: 0.5rem;">
+                                        <strong style="color: #15803d; font-size: 0.85rem; display: block; margin-bottom: 0.4rem;">💡 BƯỚC GIẢI CHI TIẾT:</strong>
+                                        <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.92rem; color: #334155;">
+                                            ${ex.steps.map(s => `<div>${s}</div>`).join('')}
+                                        </div>
+                                    </div>
+                                    <div style="font-size: 0.9rem; color: #1e293b; font-weight: 700; padding: 0.2rem 0;">
+                                        👉 Kết luận: <span style="color: #0369a1;">${ex.answer}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>`;
             }
 
-            document.getElementById('lesson-body-area').innerHTML = html;
+            // 5. Bẫy sai thường gặp (Common Mistakes)
+            if (l.commonMistakes && l.commonMistakes.length) {
+                html += `
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem; background: #fffbeb; border: 1.5px solid #fde68a; border-radius: 14px; padding: 1.25rem;">
+                        <h4 style="font-size: 1rem; font-weight: 800; color: #b45309; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>⚠️</span> Bẫy sai & Lưu ý SGK cần tránh
+                        </h4>
+                        <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+                            ${l.commonMistakes.map(m => `
+                                <div style="background: white; border-radius: 8px; padding: 0.75rem 1rem; border: 1px solid #fef3c7;">
+                                    <div style="font-weight: 700; color: #dc2626; font-size: 0.92rem; margin-bottom: 0.2rem;">❌ ${m.mistake}</div>
+                                    <div style="font-size: 0.88rem; color: #92400e;">💡 ${m.why}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>`;
+            }
+
+            bodyEl.innerHTML = html;
             renderKaTeX();
         }
 
-        function markCompleted() {
-            addXP(10);
-            alert('🎉 Em đã hoàn thành bài học này và nhận được +10 XP!');
+        // P0-2b: Bỏ XP cho hành vi đọc - chỉ ghi nhận trạng thái
+        function markAsRead() {
+            const p = window.getProgress ? window.getProgress() : { version: 2 };
+            const g = params.grade || '06';
+            const s = params.subject || 'toan';
+            const c = params.chapter || 'ch01';
+            const targetLessonId = (lessons[currentLessonIdx] ? lessons[currentLessonIdx].id : params.lesson) || 'l01';
+            const lessonKey = `${g}/${s}/${c}/${targetLessonId}`;
+
+            if (!p.lessonsRead) p.lessonsRead = [];
+            if (!p.lessonsRead.includes(lessonKey)) {
+                p.lessonsRead.push(lessonKey);
+                if (window.saveProgress) window.saveProgress(p);
+            }
+
+            const btn = document.getElementById('btn-mark-read');
+            if (btn) {
+                btn.textContent = '✓ Đã đọc bài này';
+                btn.style.background = '#e2e8f0';
+                btn.style.color = '#475569';
+                btn.disabled = true;
+            }
         }
 
         function goToPractice() {

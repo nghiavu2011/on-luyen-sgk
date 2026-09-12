@@ -277,12 +277,16 @@
                             <div style="background: var(--ol-bg); border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px solid var(--ol-border);">
                                 <div style="font-size: 0.8rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-bottom: 0.4rem;">Danh sách bài:</div>
                                 <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                                    ${ch.lessons.map(l => `
-                                        <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${l.id}" 
-                                           style="text-decoration: none; font-size: 0.85rem; font-weight: 600; color: var(--ol-text-body); background: white; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid var(--ol-border); display: inline-flex; align-items: center; gap: 0.3rem;">
-                                            <span>📄</span> <span>${l.title}</span>
-                                        </a>
-                                    `).join('')}
+                                    ${ch.lessons.map(l => {
+                                        const isReal = (l.hasRealContent === true || (ch.id === 'ch01' && l.id === 'l01'));
+                                        return `
+                                            <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${l.id}" 
+                                               style="text-decoration: none; font-size: 0.85rem; font-weight: 600; color: ${isReal ? 'var(--ol-primary)' : 'var(--ol-text-muted)'}; background: white; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid ${isReal ? 'var(--ol-primary)' : 'var(--ol-border)'}; display: inline-flex; align-items: center; gap: 0.35rem;">
+                                                <span>${isReal ? '📄' : '⏳'}</span> <span>${l.title}</span>
+                                                ${!isReal ? '<span style="font-size: 0.7rem; background: #f1f5f9; color: #64748b; padding: 0.1rem 0.35rem; border-radius: 4px;">Đang soạn</span>' : ''}
+                                            </a>
+                                        `;
+                                    }).join('')}
                                 </div>
                             </div>
                         ` : ''}
@@ -307,10 +311,23 @@
                         ` : ''}
 
                         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; border-top: 1px solid var(--ol-border); padding-top: 1rem;">
-                            <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 
-                               class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
-                                <span>📖</span> <span>Học lý thuyết</span>
-                            </a>
+                            ${(() => {
+                                const hasAnyReal = (ch.lessons || []).some(l => l.hasRealContent === true || (ch.id === 'ch01' && l.id === 'l01'));
+                                if (hasAnyReal) {
+                                    return `
+                                        <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 
+                                           class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                            <span>📖</span> <span>Học lý thuyết</span>
+                                        </a>
+                                    `;
+                                } else {
+                                    return `
+                                        <button class="ol-btn-outline" disabled style="opacity: 0.6; cursor: not-allowed; font-size: 0.85rem; background: #f1f5f9; color: #94a3b8; border-color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px;">
+                                            <span>⏳</span> <span>Đang biên soạn</span>
+                                        </button>
+                                    `;
+                                }
+                            })()}
                             <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=tonghop" 
                                class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
                                 <span>✍️</span> <span>Luyện đề tổng hợp</span>

@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SGK Lesson Schema",
+  "description": "Schema chuẩn cho nội dung bài học lý thuyết SGK bám sát chương trình GDPT 2018",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "hasRealContent"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Định danh duy nhất của bài học, ví dụ: toan-06-ch01-l01"
+    },
+    "title": {
+      "type": "string",
+      "description": "Tên bài học đầy đủ theo SGK"
+    },
+    "durationMinutes": {
+      "type": "integer",
+      "minimum": 5,
+      "maximum": 90,
+      "default": 15,
+      "description": "Thời lượng ước tính để hoàn thành bài học (phút)"
+    },
+    "hasRealContent": {
+      "type": "boolean",
+      "description": "Cờ đánh dấu bài học đã có nội dung sư phạm thật hay đang biên soạn"
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Các mục tiêu cần đạt sau khi học xong bài"
+    },
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "definition"
+        ],
+        "properties": {
+          "term": {
+            "type": "string",
+            "description": "Thuật ngữ / Khái niệm"
+          },
+          "definition": {
+            "type": "string",
+            "description": "Định nghĩa hoặc giải thích dễ hiểu"
+          },
+          "notation": {
+            "type": "string",
+            "description": "Ký hiệu toán học / công thức dạng LaTeX"
+          },
+          "note": {
+            "type": "string",
+            "description": "Lưu ý hoặc quy ước"
+          }
+        }
+      },
+      "description": "Danh sách các khái niệm trọng tâm"
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "statement",
+          "meaning"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string",
+            "description": "Quy tắc / Định lý / Công thức (hỗ trợ LaTeX)"
+          },
+          "meaning": {
+            "type": "string",
+            "description": "Ý nghĩa diễn giải bằng ngôn ngữ tự nhiên"
+          }
+        }
+      },
+      "description": "Quy tắc, tính chất hoặc công thức cốt lõi"
+    },
+    "workedExamples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "prompt",
+          "steps",
+          "answer"
+        ],
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Đề bài ví dụ minh họa"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Các bước giải chi tiết, rõ ràng"
+          },
+          "answer": {
+            "type": "string",
+            "description": "Đáp số hoặc kết luận cuối cùng"
+          }
+        }
+      },
+      "description": "Các bài toán ví dụ mẫu có lời giải từng bước"
+    },
+    "commonMistakes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "mistake",
+          "why"
+        ],
+        "properties": {
+          "mistake": {
+            "type": "string",
+            "description": "Lỗi sai học sinh hay mắc"
+          },
+          "why": {
+            "type": "string",
+            "description": "Giải thích vì sao sai và cách khắc phục theo SGK"
+          }
+        }
+      },
+      "description": "Bẫy sai và nhầm lẫn thường gặp"
+    },
+    "practiceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Danh sách mã đề hoặc mã câu hỏi thực hành liên quan"
+    }
+  }
+}
