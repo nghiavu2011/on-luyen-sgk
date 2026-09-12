@@ -1787,3 +1787,18 @@ button,
         bottom: calc(56px + env(safe-area-inset-bottom, 0px)) !important;
     }
 }
+
+
+/* P1-4 & P2-1: Accessible Level Cards as real anchors */
+a.ol-level-card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+a.ol-level-card:focus-visible {
+    outline: 2px solid var(--ol-primary);
+    outline-offset: 3px;
+}

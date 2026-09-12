@@ -134,44 +134,46 @@
             </div>
 
             <div class="ol-levels-grid">
-                <!-- Thẻ Tiểu học -->
-                <div class="ol-level-card ol-level-c1" onclick="selectLevel('c1')">
+                <!-- Thẻ Tiểu học: P1-4 Sắp mở + Form nhận thông báo -->
+                <a href="#levels" id="level-card-c1" class="ol-level-card ol-level-c1" onclick="handleLevelClick(event, 'c1')">
                     <div class="ol-level-left">
                         <img src="assets/the cap 1.png" alt="Cấp 1 Tiểu học" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
-                            <div class="ol-level-badge">Lớp 1 – 5</div>
+                            <div class="ol-level-badge" style="background: #ffedd5; color: #c2410c;">Lớp 1 – 5 · Sắp mở</div>
                             <h3>Tiểu học</h3>
-                            <p>Xây nền tảng vững chắc cho tương lai</p>
+                            <p>Nhận thông báo khi hệ thống ra mắt</p>
                         </div>
                     </div>
-                    <div class="ol-level-btn">➔</div>
-                </div>
+                    <div class="ol-level-btn" style="font-size: 0.82rem; font-weight: 700; background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; padding: 0.35rem 0.65rem; border-radius: 8px;">
+                        Đăng ký ➔
+                    </div>
+                </a>
 
-                <!-- Thẻ THCS -->
-                <div class="ol-level-card ol-level-c2" onclick="selectLevel('c2')">
+                <!-- Thẻ THCS: Đang hoạt động -->
+                <a href="#subjects" id="level-card-c2" class="ol-level-card ol-level-c2 active" onclick="handleLevelClick(event, 'c2')">
                     <div class="ol-level-left">
                         <img src="assets/the cap 2.png" alt="Cấp 2 THCS" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
-                            <div class="ol-level-badge">Lớp 6 – 9</div>
+                            <div class="ol-level-badge" style="background: #e0f2fe; color: #0369a1;">Lớp 6 – 9 · Đang mở</div>
                             <h3>THCS</h3>
-                            <p>Ôn luyện toàn diện phát triển năng lực</p>
+                            <p>Lớp 6 sẵn sàng 100% bám sát SGK</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
-                </div>
+                </a>
 
-                <!-- Thẻ THPT -->
-                <div class="ol-level-card ol-level-c3" onclick="selectLevel('c3')">
+                <!-- Thẻ THPT: Có lớp 11 -->
+                <a href="#subjects" id="level-card-c3" class="ol-level-card ol-level-c3" onclick="handleLevelClick(event, 'c3')">
                     <div class="ol-level-left">
                         <img src="assets/the cap 3.png" alt="Cấp 3 THPT" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
-                            <div class="ol-level-badge">Lớp 10 – 12</div>
+                            <div class="ol-level-badge" style="background: #dcfce7; color: #15803d;">Lớp 10 – 12 · Mở Lớp 11</div>
                             <h3>THPT</h3>
-                            <p>Bứt phá điểm số sẵn sàng cho tương lai</p>
+                            <p>Toán, Hóa học 11 ôn thi chuyên sâu</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
-                </div>
+                </a>
             </div>
         </section>
 
@@ -412,9 +414,27 @@
         let currentLevel = 'c2'; // Mặc định hiển thị THCS (có Lớp 6)
         let selectedGrade = '06';
 
+        function handleLevelClick(event, levelKey) {
+            if (levelKey === 'c1') {
+                // Tiểu học chưa có dữ liệu: Mở form nhận thông báo (P1-4)
+                openNotifyModal('Cấp Tiểu học (Lớp 1 - 5)');
+                return;
+            }
+            selectLevel(levelKey);
+        }
+
         function selectLevel(levelKey) {
             currentLevel = levelKey;
             const lvl = LEVEL_DATA[levelKey];
+
+            // Highlight active level card
+            ['c1', 'c2', 'c3'].forEach(k => {
+                const el = document.getElementById(`level-card-${k}`);
+                if (el) {
+                    if (k === levelKey) el.classList.add('active');
+                    else el.classList.remove('active');
+                }
+            });
             
             // Cập nhật Header
             const tagEl = document.getElementById('level-tag');
