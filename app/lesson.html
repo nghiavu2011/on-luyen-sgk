@@ -398,7 +398,7 @@
             if (headerLevelEl) headerLevelEl.textContent = levelDesc;
 
             const userBadgeEl = document.getElementById('user-name-badge');
-            if (userBadgeEl) const ctx = window.getContext ? window.getContext() : { nickname: 'Học sinh', grade: grade };
+            const ctx = window.getContext ? window.getContext() : { nickname: 'Học sinh', grade: grade };
             if (userBadgeEl) userBadgeEl.textContent = `${ctx.nickname} (Lớp ${ctx.grade})`;
 
             // Load Subject Info to update Header & Links

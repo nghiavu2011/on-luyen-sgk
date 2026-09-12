@@ -153,8 +153,11 @@
     <script src="js/deeptutor.js"></script>
     <script>
         async function init() {
-            const params = getUrlParams();
-            if (!params.grade || !params.subject) return window.location.href = 'index.html';
+            const rawParams = (typeof getUrlParams === 'function') ? getUrlParams() : Object.fromEntries(new URLSearchParams(window.location.search).entries());
+            const ctx = (typeof getContext === 'function') ? getContext() : {};
+            const grade = rawParams.grade || ctx.grade || '06';
+            const subject = rawParams.subject || ctx.subject || 'toan';
+            const params = { ...rawParams, grade, subject };
 
             const gNum = parseInt(params.grade, 10);
             const isTHCS = (gNum >= 6 && gNum <= 9);

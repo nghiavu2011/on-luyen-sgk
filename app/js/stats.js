@@ -3,8 +3,8 @@
  * Tuân thủ nghiêm ngặt Đặc tả §7 (ON-LUYEN-SGK_IMPLEMENTATION-SPEC.md).
  */
 
-const STATE_KEY = 'sgk-progress';
-const DEFAULT_PIN_HASH = '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
+var STATE_KEY = window.STATE_KEY || 'sgk-progress';
+var DEFAULT_PIN_HASH = window.DEFAULT_PIN_HASH || '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
 
 const XP_TABLE = {
   'nhan-biet': 2,

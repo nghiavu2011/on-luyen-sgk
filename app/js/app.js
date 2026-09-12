@@ -1,8 +1,8 @@
 // Core utilities & Security for Ôn Luyện SGK
-const STATE_KEY = 'sgk-progress';
-const PIN_HASH_KEY = 'sgk_parent_pin_hash';
+var STATE_KEY = window.STATE_KEY || 'sgk-progress';
+var PIN_HASH_KEY = window.PIN_HASH_KEY || 'sgk_parent_pin_hash';
 // Default SHA-256 hash for PIN '1234'
-const DEFAULT_PIN_HASH = '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
+var DEFAULT_PIN_HASH = window.DEFAULT_PIN_HASH || '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
 
 // 1. URL Params Helper
 function getUrlParams() {
