@@ -156,6 +156,21 @@
                     Em hãy bắt đầu học và làm bài tập trắc nghiệm để mở khóa thêm nhiều huy hiệu nhé!
                 </div>
             </div>
+        <!-- P2-5: Data Inventory & Reset Button -->
+        <div class="ol-card-box" style="border: 1px solid #fed7aa; background: #fffaf5; margin-bottom: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <h3 style="font-size: 1.15rem; font-weight: 800; color: #9a3412; margin-bottom: 0.25rem;">
+                        🛡️ Quyền riêng tư & Quản lý dữ liệu thiết bị
+                    </h3>
+                    <p style="font-size: 0.85rem; color: #7c2d12; margin: 0;">
+                        Toàn bộ tiến độ lưu cục bộ trên trình duyệt này. Em hoặc cha mẹ có toàn quyền thanh tẩy và thiết lập lại dữ liệu bất cứ lúc nào theo Nghị định 13/2023/NĐ-CP.
+                    </p>
+                </div>
+                <button type="button" class="ol-btn-outline" onclick="openResetDataModal()" style="border-color: #fca5a5; color: #dc2626; background: white; font-weight: 700; font-size: 0.85rem; padding: 0.55rem 1.1rem; border-radius: 8px; cursor: pointer;">
+                    🗑️ Xoá toàn bộ dữ liệu học tập trên thiết bị này
+                </button>
+            </div>
         </div>
 
     </main>
@@ -166,7 +181,7 @@
         <div class="ol-footer-content">
             <div style="display:flex; align-items:center; gap:0.85rem;">
                 <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
-                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="assets/app_logo.png" alt="Logo" width="44" height="44" decoding="async" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div>
                     <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
@@ -184,6 +199,8 @@
                 <li><a href="index.html#levels">Cấp học</a></li>
                 <li><a href="progress.html">Tiến độ</a></li>
                 <li><a href="parent.html">Phụ huynh</a></li>
+                <li><a href="privacy.html">Quyền riêng tư</a></li>
+                <li><a href="terms.html">Điều khoản</a></li>
             </ul>
 
             <div class="ol-footer-copy">
@@ -191,6 +208,27 @@
             </div>
         </div>
     </footer>
+
+    <!-- P2-5: Modal xác nhận xoá toàn bộ dữ liệu -->
+    <div id="reset-data-modal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px); z-index: 2000; align-items: center; justify-content: center; padding: 1.25rem;">
+        <div style="background: white; border-radius: 16px; max-width: 480px; width: 100%; padding: 2rem; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2); text-align: center; border: 1px solid #fca5a5;">
+            <div style="font-size: 3rem; margin-bottom: 0.75rem;">⚠️</div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: #991b1b; margin: 0 0 0.5rem 0;">
+                Xác nhận xoá toàn bộ dữ liệu?
+            </h3>
+            <p style="font-size: 0.95rem; color: #475569; line-height: 1.6; margin: 0 0 1.75rem 0;">
+                Hành động này sẽ đặt lại về 0 toàn bộ điểm thưởng XP, chuỗi ngày streak và xoá sạch sổ tay câu sai trên thiết bị này. Em hoặc cha mẹ có chắc chắn muốn xoá không?
+            </p>
+            <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                <button type="button" class="ol-btn-outline" onclick="closeResetDataModal()" style="padding: 0.65rem 1.25rem; font-weight: 700; border-radius: 10px; min-width: 140px;">
+                    Giữ lại dữ liệu
+                </button>
+                <button type="button" class="ol-btn-primary" onclick="confirmResetAllData()" style="background: #dc2626; padding: 0.65rem 1.4rem; font-weight: 800; border-radius: 10px; min-width: 140px;">
+                    Đồng ý xoá sạch ➔
+                </button>
+            </div>
+        </div>
+    </div>
 
     <script src="js/context.js"></script>
     <script src="js/stats.js"></script>
@@ -271,6 +309,39 @@
                 `;
             }
         }
+
+        function openResetDataModal() {
+            const m = document.getElementById('reset-data-modal');
+            if (m) m.style.display = 'flex';
+        }
+
+        function closeResetDataModal() {
+            const m = document.getElementById('reset-data-modal');
+            if (m) m.style.display = 'none';
+        }
+
+        function confirmResetAllData() {
+            try {
+                if (window.saveProgressState) {
+                    window.saveProgressState({
+                        version: 2,
+                        nickname: null,
+                        xp: 0,
+                        streak: { days: 0, lastActiveDate: null },
+                        lessonsRead: [],
+                        attempts: [],
+                        mistakes: [],
+                        parentPin: { hash: null, isDefault: true },
+                        settings: { dailyGoalMinutes: 30 }
+                    });
+                } else {
+                    localStorage.removeItem('sgk-progress');
+                }
+                localStorage.removeItem('sgk_parent_pin_hash');
+            } catch(e) {}
+            window.location.reload();
+        }
+
         loadProgress();
     </script>
 </body>
