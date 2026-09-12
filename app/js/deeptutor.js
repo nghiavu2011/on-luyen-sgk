@@ -211,28 +211,49 @@ const DeepTutor = (function() {
     // 5. SOCRATIC SCAFFOLDING TUTOR HINTS
     // ==========================================
     function getSocraticHints(question) {
-        const concept = (question.breakdown && question.breakdown.concept) || 'Đọc kĩ đề bài';
-        const steps = (question.breakdown && question.breakdown.steps) || (question.explanation || '');
+        const concept = (question.breakdown && question.breakdown.concept) || '';
+        const socraticPrompt = (question.breakdown && question.breakdown.socraticPrompt) || '';
         const trap = (question.breakdown && question.breakdown.trap) || '';
 
-        // Tạo 3 bậc gợi ý sư phạm Socrate:
-        return [
-            {
+        // P1-2: Gợi ý 3 bậc sư phạm (Không khẳng định spoil đáp án, viết dưới dạng câu hỏi gợi mở)
+        const hints = [];
+
+        // Bậc 1: Định vị khái niệm
+        if (concept) {
+            hints.push({
                 step: 1,
-                title: '🎯 Bậc 1: Định vị vùng kiến thức',
-                content: `Câu hỏi này kiểm tra chuyên sâu về: <strong>${concept}</strong>. Hãy dừng lại 5 giây và nhớ lại định nghĩa hoặc quy tắc quan trọng nhất của phần này.`
-            },
-            {
+                title: '🎯 Bậc 1: Định vị khái niệm',
+                content: `Câu hỏi này liên quan đến: <strong>${concept}</strong>. Em hãy nhớ lại định nghĩa hoặc tính chất cơ bản nhất của phần này.`
+            });
+        }
+
+        // Bậc 2: Câu hỏi gợi mở tư duy (chỉ hiện khi có socraticPrompt, tuyệt đối không trích đáp án khẳng định)
+        if (socraticPrompt) {
+            hints.push({
                 step: 2,
-                title: '💡 Bậc 2: Hướng giải quyết từng bước',
-                content: steps ? `Gợi ý phương pháp: ${steps.split('.')[0]}.` : `Quan sát kỹ các dữ kiện đã cho và đối chiếu từng phương án để loại trừ.`
-            },
-            {
+                title: '💡 Bậc 2: Câu hỏi gợi mở tư duy',
+                content: socraticPrompt
+            });
+        }
+
+        // Bậc 3: Cảnh báo bẫy sai
+        if (trap) {
+            hints.push({
                 step: 3,
-                title: '⚠️ Bậc 3: Cảnh báo bẫy ngụy biện (Self-check)',
-                content: trap ? `Học sinh thường hay nhầm ở điểm này: <em>"${trap}"</em>. Em có đang phạm phải lỗi suy luận này không?` : `Kiểm tra lại xem phương án em chọn có thỏa mãn tất cả điều kiện của câu hỏi chưa!`
-            }
-        ];
+                title: '⚠️ Bậc 3: Cảnh báo bẫy sai',
+                content: `Học sinh thường hay nhầm ở điểm này: <em>"${trap}"</em>. Em có đang mắc phải bẫy này không?`
+            });
+        }
+
+        if (hints.length === 0) {
+            hints.push({
+                step: 1,
+                title: '💡 Gợi ý tư duy',
+                content: 'Em hãy đọc kỹ lại dữ kiện trong đề bài, phân tích từng phương án và loại trừ các phương án vô lý.'
+            });
+        }
+
+        return hints;
     }
 
     // ==========================================

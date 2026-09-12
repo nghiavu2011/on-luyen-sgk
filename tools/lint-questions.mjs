@@ -106,6 +106,25 @@ for (const file of quizFiles) {
         });
       }
     }
+
+    // Rule: SOCRATIC_LEAK (P1-2)
+    if (q.breakdown && q.breakdown.socraticPrompt && opts[correctIdx]) {
+      const promptText = String(q.breakdown.socraticPrompt).toLowerCase();
+      const correctText = String(opts[correctIdx]).toLowerCase();
+      const correctWords = correctText.split(/\s+/).filter(w => w.length >= 3 && !['các', 'những', 'trong', 'được', 'hoặc', 'theo'].includes(w));
+      if (correctWords.length >= 3) {
+        const matchingWords = correctWords.filter(w => promptText.includes(w));
+        const overlapRatio = matchingWords.length / correctWords.length;
+        if (overlapRatio >= 0.6) {
+          warnings.push({
+            file: relFile,
+            questionId: qid,
+            rule: 'SOCRATIC_LEAK',
+            msg: `socraticPrompt chứa ${(overlapRatio * 100).toFixed(0)}% từ khóa của phương án đúng (nguy cơ spoil đáp án): "${q.breakdown.socraticPrompt.slice(0, 50)}..."`
+          });
+        }
+      }
+    }
   }
 
   // Rule: POSITION_BIAS
