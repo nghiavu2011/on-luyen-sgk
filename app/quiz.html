@@ -342,7 +342,32 @@
                             </div>
                         </div>
 
-                        <div style="display: flex; justify-content: center; gap: 1rem;">
+                        <!-- P0-3: MÀN CHỮA BÀI SAU KHI NỘP (MỞ SẴN) -->
+                        <div id="exam-review-section" style="margin-top: 2rem; text-align: left; border-top: 2px dashed #e2e8f0; padding-top: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.75rem;">
+                                <div>
+                                    <h3 style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+                                        📝 Chi tiết chữa bài & Hướng dẫn phương pháp
+                                    </h3>
+                                    <p style="font-size: 0.85rem; color: #64748b; margin: 0.25rem 0 0 0;">
+                                        Phân tích từng câu, chỉ rõ phương pháp giải và bẫy tư duy cần tránh
+                                    </p>
+                                </div>
+                                <div class="review-filter-tabs" style="display: flex; gap: 0.5rem;">
+                                    <button id="filter-review-all" class="ol-btn-outline" onclick="setReviewFilter('all')" style="font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 20px; font-weight: 700;">
+                                        Tất cả (<span id="review-count-all">0</span>)
+                                    </button>
+                                    <button id="filter-review-wrong" class="ol-btn-outline" onclick="setReviewFilter('wrong')" style="font-size: 0.85rem; padding: 0.35rem 0.85rem; border-radius: 20px; font-weight: 700; border-color: #fca5a5; color: #b91c1c; background: #fef2f2;">
+                                        Câu sai & bỏ trống (<span id="review-count-wrong">0</span>)
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="review-questions-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+                                <!-- Dynamic review items -->
+                            </div>
+                        </div>
+
+                        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
                             <button class="ol-btn-outline" onclick="restartExam()">🔄 Thi lại đề này</button>
                             <a id="back-to-subject-btn" href="subject.html?grade=11&subject=lich-su" class="ol-btn-primary" style="background: #059669; text-decoration: none;">
                                 📚 Về môn học
@@ -375,7 +400,7 @@
                         <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="width: 10px; height: 10px; border-radius: 2px; background: #e2e8f0; display: inline-block;"></span> Chưa làm</span>
                     </div>
 
-                    <button class="ol-btn-primary" onclick="submitExam()" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
+                    <button id="desktop-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="submitExam()" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
                         Nộp bài thi ➔
                     </button>
                 </div>
@@ -415,7 +440,7 @@
             <div class="thpt-matrix-grid" id="mobile-matrix-container" style="margin-bottom: 1.25rem;">
             </div>
 
-            <button class="ol-btn-primary" onclick="toggleMobileMatrixModal(); submitExam();" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
+            <button id="mobile-submit-btn" class="ol-btn-primary thpt-submit-btn" onclick="toggleMobileMatrixModal(); submitExam();" style="width: 100%; background: linear-gradient(135deg, #059669 0%, #047857 100%); padding: 0.75rem 1rem; font-size: 0.95rem;">
                 Nộp bài thi ➔
             </button>
         </div>
@@ -634,14 +659,53 @@
             const container = document.getElementById('matrix-container');
             container.innerHTML = '';
 
+            const mContainer = document.getElementById('mobile-matrix-container');
+            if (mContainer) mContainer.innerHTML = '';
+
             questions.forEach((q, idx) => {
                 const btn = document.createElement('button');
                 btn.className = 'thpt-matrix-btn';
-                if (userAnswers[idx] !== undefined) btn.classList.add('answered');
-                if (idx === currentIdx) btn.classList.add('current');
                 btn.textContent = idx + 1;
-                btn.onclick = () => jumpToQuestion(idx);
+
+                if (isExamSubmitted) {
+                    const isCorrect = (userAnswers[idx] !== undefined && userAnswers[idx] === q._correctDisplayIndex);
+                    if (isCorrect) {
+                        btn.style.background = '#10b981';
+                        btn.style.borderColor = '#059669';
+                        btn.style.color = '#fff';
+                        btn.title = `Câu ${idx + 1}: Đúng`;
+                    } else if (userAnswers[idx] !== undefined) {
+                        btn.style.background = '#ef4444';
+                        btn.style.borderColor = '#dc2626';
+                        btn.style.color = '#fff';
+                        btn.title = `Câu ${idx + 1}: Sai`;
+                    } else {
+                        btn.style.background = '#e2e8f0';
+                        btn.style.borderColor = '#cbd5e1';
+                        btn.style.color = '#64748b';
+                        btn.title = `Câu ${idx + 1}: Chưa làm`;
+                    }
+                    btn.onclick = () => scrollToReviewQuestion(idx);
+                } else {
+                    if (userAnswers[idx] !== undefined) btn.classList.add('answered');
+                    if (idx === currentIdx) btn.classList.add('current');
+                    btn.onclick = () => jumpToQuestion(idx);
+                }
                 container.appendChild(btn);
+
+                if (mContainer) {
+                    const mBtn = btn.cloneNode(true);
+                    mBtn.onclick = () => {
+                        if (isExamSubmitted) {
+                            toggleMobileMatrixModal();
+                            scrollToReviewQuestion(idx);
+                        } else {
+                            jumpToQuestion(idx);
+                            toggleMobileMatrixModal();
+                        }
+                    };
+                    mContainer.appendChild(mBtn);
+                }
             });
 
             const answeredCount = Object.keys(userAnswers).length;
@@ -653,6 +717,10 @@
         }
 
         function jumpToQuestion(idx) {
+            if (isExamSubmitted) {
+                scrollToReviewQuestion(idx);
+                return;
+            }
             currentIdx = idx;
             renderMatrix();
             renderQuestion();
@@ -783,25 +851,46 @@
 
         function submitExam() {
             clearInterval(timerInterval);
+            isExamSubmitted = true;
+
+            // Vô hiệu hóa nút nộp bài thi (P0-3)
+            document.querySelectorAll('.thpt-submit-btn').forEach(btn => {
+                btn.disabled = true;
+                btn.style.opacity = '0.5';
+                btn.style.cursor = 'not-allowed';
+                btn.textContent = '✓ Đã nộp bài';
+            });
 
             let correct = 0;
+            let earnedXp = 0;
             questions.forEach((q, idx) => {
                 const targetCorrect = (q._correctDisplayIndex !== undefined ? q._correctDisplayIndex : (q.correct !== undefined ? q.correct : q.answer));
-                if (userAnswers[idx] === targetCorrect) correct++;
+                const isCorr = (userAnswers[idx] === targetCorrect);
+                if (isCorr) {
+                    correct++;
+                    const diff = q.difficulty || 'nhan-biet';
+                    const xpVal = (window.XP_TABLE && window.XP_TABLE[diff]) ? window.XP_TABLE[diff] : 2;
+                    earnedXp += xpVal;
+                }
             });
 
             const total = questions.length;
-            const points = (correct / total) * 10;
-            const xp = correct * 5;
+            const points = total > 0 ? (correct / total) * 10 : 0;
 
             document.getElementById('question-render-box').style.display = 'none';
             document.getElementById('exam-result-box').style.display = 'block';
 
             document.getElementById('res-score').textContent = `${correct}/${total}`;
             document.getElementById('res-points').textContent = `${points.toFixed(1)} / 10`;
-            document.getElementById('res-xp').textContent = `+${xp} XP`;
+            document.getElementById('res-xp').textContent = `+${earnedXp} XP`;
 
-            addXP(xp);
+            if (window.addXP) addXP(earnedXp);
+
+            // Cập nhật ma trận sang chế độ xem kết quả
+            renderMatrix();
+
+            // Render màn chữa bài chi tiết (P0-3)
+            renderExamReview();
 
             // DeepTutor Celebration Confetti & Diagnostic Report
             if (window.DeepTutor) {
@@ -889,11 +978,242 @@
             userAnswers = {};
             currentIdx = 0;
             timerSeconds = 45 * 60;
+            isExamSubmitted = false;
             document.getElementById('question-render-box').style.display = 'block';
             document.getElementById('exam-result-box').style.display = 'none';
+
+            // Re-enable submit buttons
+            document.querySelectorAll('.thpt-submit-btn').forEach(btn => {
+                btn.disabled = false;
+                btn.style.opacity = '1';
+                btn.style.cursor = 'pointer';
+                btn.textContent = 'Nộp bài thi ➔';
+            });
+
+            // Re-shuffle for next attempt
+            attemptSeed = Date.now();
+            questions.forEach(q => {
+                if (window.buildOptionOrder) {
+                    const { order, correctDisplayIndex } = window.buildOptionOrder(q, attemptSeed);
+                    q._displayOrder = order;
+                    q._correctDisplayIndex = correctDisplayIndex;
+                }
+            });
+
             renderMatrix();
             renderQuestion();
             startTimer();
+        }
+
+        // ================= P0-3: MÀN CHỮA BÀI CHI TIẾT =================
+        function renderExamReview() {
+            const listEl = document.getElementById('review-questions-list');
+            if (!listEl) return;
+            listEl.innerHTML = '';
+
+            const letters = ['A', 'B', 'C', 'D'];
+            let wrongCount = 0;
+
+            const items = questions.map((q, idx) => {
+                const userChoice = userAnswers[idx];
+                const isSkipped = (userChoice === undefined);
+                const isCorrect = (!isSkipped && userChoice === q._correctDisplayIndex);
+                if (!isCorrect) wrongCount++;
+
+                let diffLabel = '🌱 Nhận biết';
+                if (q.difficulty === 'thong-hieu' || q.difficulty === 'medium') diffLabel = '🔍 Thông hiểu';
+                if (q.difficulty === 'van-dung' || q.difficulty === 'hard') diffLabel = '⚡ Vận dụng';
+                if (q.difficulty === 'van-dung-cao' || q.difficulty === 'expert') diffLabel = '⭐ Vận dụng cao';
+
+                const chosenText = !isSkipped ? `${letters[userChoice]}. ${q.options[q._displayOrder[userChoice]]}` : null;
+                const correctText = `${letters[q._correctDisplayIndex]}. ${q.options[q._displayOrder[q._correctDisplayIndex]]}`;
+
+                const calcExplanation = (q.breakdown && (q.breakdown.calculation || q.breakdown.steps)) || q.explanation || '';
+
+                return {
+                    q, idx, isCorrect, isSkipped, diffLabel, chosenText, correctText, calcExplanation
+                };
+            });
+
+            // Update badge counts
+            const countAllEl = document.getElementById('review-count-all');
+            const countWrongEl = document.getElementById('review-count-wrong');
+            if (countAllEl) countAllEl.textContent = questions.length;
+            if (countWrongEl) countWrongEl.textContent = wrongCount;
+
+            // Default filter: 'wrong' if wrongCount > 0, else 'all'
+            currentReviewFilter = (wrongCount > 0) ? 'wrong' : 'all';
+            updateReviewFilterButtons();
+
+            // P0-3: Câu sai / bỏ trống đứng trước câu đúng
+            const sortedItems = [
+                ...items.filter(it => !it.isCorrect),
+                ...items.filter(it => it.isCorrect)
+            ];
+
+            sortedItems.forEach(item => {
+                const { q, idx, isCorrect, isSkipped, diffLabel, chosenText, correctText, calcExplanation } = item;
+                const wrapper = document.createElement('div');
+                wrapper.id = `review-q-${idx}`;
+                wrapper.className = `review-item-card ${isCorrect ? 'is-correct' : 'is-wrong'}`;
+                wrapper.setAttribute('data-idx', idx);
+                wrapper.setAttribute('data-status', isCorrect ? 'correct' : (isSkipped ? 'skipped' : 'wrong'));
+
+                if (isCorrect) {
+                    // Câu đúng: Dùng details thu gọn mặc định
+                    wrapper.innerHTML = `
+                        <details style="background: white; border: 1.5px solid #bbf7d0; border-radius: 12px; padding: 0.85rem 1.15rem; transition: all 0.2s;">
+                            <summary style="cursor: pointer; font-weight: 700; color: #15803d; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+                                <span style="font-size: 0.95rem;">✓ Câu ${idx + 1} · ${diffLabel}</span>
+                                <span style="font-size: 0.75rem; color: #166534; background: #dcfce7; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 800;">
+                                    Đúng (bấm để xem)
+                                </span>
+                            </summary>
+                            <div style="margin-top: 1rem; border-top: 1px solid #dcfce7; padding-top: 0.85rem;">
+                                <div style="font-size: 1rem; font-weight: 700; color: #0f172a; line-height: 1.5; margin-bottom: 0.75rem;">
+                                    ${q.question}
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.92rem; margin-bottom: 0.85rem;">
+                                    <div><strong>Em chọn:</strong> <span style="color: #15803d; font-weight: 700; background: #f0fdf4; padding: 0.2rem 0.5rem; border-radius: 6px;">✓ ${chosenText}</span></div>
+                                    <div><strong>Đáp án:</strong> <span style="color: #15803d; font-weight: 700; background: #f0fdf4; padding: 0.2rem 0.5rem; border-radius: 6px;">✓ ${correctText}</span></div>
+                                </div>
+                                <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.85rem; font-size: 0.88rem;">
+                                    <div style="font-weight: 800; color: #334155; margin-bottom: 0.4rem;">📖 Lời giải chi tiết:</div>
+                                    ${q.breakdown && q.breakdown.concept ? `<div style="margin-bottom: 0.3rem;"><strong>📌 Khái niệm:</strong> ${q.breakdown.concept}</div>` : ''}
+                                    ${calcExplanation ? `<div style="margin-bottom: 0.3rem;"><strong>💡 Cách làm:</strong> ${calcExplanation}</div>` : ''}
+                                    ${q.breakdown && q.breakdown.trap ? `<div style="color: #92400e; background: #fffbeb; padding: 0.4rem 0.6rem; border-radius: 6px; border-left: 3px solid #f59e0b; margin-top: 0.3rem;"><strong>⚠️ Bẫy sai:</strong> ${q.breakdown.trap}</div>` : ''}
+                                </div>
+                            </div>
+                        </details>
+                    `;
+                } else {
+                    // Câu sai hoặc bỏ trống: Hiển thị mở sẵn
+                    const statusBadge = isSkipped
+                        ? '<span style="background: #f1f5f9; color: #475569; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 12px; border: 1px solid #cbd5e1;">⚪ Chưa trả lời</span>'
+                        : '<span style="background: #fee2e2; color: #b91c1c; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 12px; border: 1px solid #fca5a5;">✗ Sai</span>';
+
+                    const emChonHtml = isSkipped
+                        ? '<span style="color: #64748b; font-weight: 600; background: #f1f5f9; padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid #cbd5e1;">Em chưa trả lời</span>'
+                        : `<span style="color: #dc2626; font-weight: 700; background: #fef2f2; padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid #fca5a5;">✗ ${chosenText}</span>`;
+
+                    wrapper.innerHTML = `
+                        <div style="background: white; border: 1.5px solid ${isSkipped ? '#cbd5e1' : '#fca5a5'}; border-radius: 12px; padding: 1.15rem; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                                <span style="font-size: 1.05rem; font-weight: 800; color: ${isSkipped ? '#475569' : '#dc2626'};">
+                                    ${isSkipped ? '⚪' : '✗'} Câu ${idx + 1} · ${diffLabel}
+                                </span>
+                                ${statusBadge}
+                            </div>
+
+                            <div style="font-size: 1.05rem; font-weight: 700; color: #0f172a; line-height: 1.6; margin-bottom: 1rem;">
+                                ${q.question}
+                            </div>
+
+                            <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.95rem; margin-bottom: 1rem;">
+                                <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
+                                    <strong style="min-width: 80px; color: #334155;">Em chọn:</strong>
+                                    ${emChonHtml}
+                                </div>
+                                <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
+                                    <strong style="min-width: 80px; color: #334155;">Đáp án:</strong>
+                                    <span style="color: #15803d; font-weight: 700; background: #f0fdf4; padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid #bbf7d0;">✓ ${correctText}</span>
+                                </div>
+                            </div>
+
+                            <div style="background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 10px; padding: 1rem; margin-bottom: 0.85rem;">
+                                <div style="font-weight: 800; color: #0f172a; font-size: 0.92rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;">
+                                    <span>💡</span> Vì sao và Phương pháp giải:
+                                </div>
+                                ${q.breakdown && q.breakdown.concept ? `<div style="font-size: 0.9rem; margin-bottom: 0.4rem; color: #1e293b;"><strong>📌 Khái niệm:</strong> ${q.breakdown.concept}</div>` : ''}
+                                ${calcExplanation ? `<div style="font-size: 0.9rem; margin-bottom: 0.4rem; color: #1e293b;"><strong>📝 Cách làm:</strong> ${calcExplanation}</div>` : ''}
+                                ${q.breakdown && q.breakdown.trap ? `
+                                    <div style="font-size: 0.88rem; color: #92400e; background: #fffbeb; padding: 0.6rem 0.8rem; border-radius: 8px; border-left: 3px solid #f59e0b; margin-top: 0.5rem;">
+                                        <strong>⚠️ Bẫy sai:</strong> ${q.breakdown.trap}
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                listEl.appendChild(wrapper);
+            });
+
+            applyReviewFilter();
+            renderKaTeX();
+        }
+
+        function setReviewFilter(filter) {
+            currentReviewFilter = filter;
+            updateReviewFilterButtons();
+            applyReviewFilter();
+        }
+
+        function updateReviewFilterButtons() {
+            const btnAll = document.getElementById('filter-review-all');
+            const btnWrong = document.getElementById('filter-review-wrong');
+            if (!btnAll || !btnWrong) return;
+
+            if (currentReviewFilter === 'all') {
+                btnAll.style.background = '#059669';
+                btnAll.style.color = '#fff';
+                btnAll.style.borderColor = '#059669';
+
+                btnWrong.style.background = '#fef2f2';
+                btnWrong.style.color = '#b91c1c';
+                btnWrong.style.borderColor = '#fca5a5';
+            } else {
+                btnWrong.style.background = '#dc2626';
+                btnWrong.style.color = '#fff';
+                btnWrong.style.borderColor = '#dc2626';
+
+                btnAll.style.background = '#f8fafc';
+                btnAll.style.color = '#475569';
+                btnAll.style.borderColor = '#cbd5e1';
+            }
+        }
+
+        function applyReviewFilter() {
+            const cards = document.querySelectorAll('.review-item-card');
+            cards.forEach(card => {
+                const status = card.getAttribute('data-status');
+                if (currentReviewFilter === 'wrong') {
+                    if (status === 'correct') {
+                        card.style.display = 'none';
+                    } else {
+                        card.style.display = 'block';
+                    }
+                } else {
+                    card.style.display = 'block';
+                }
+            });
+        }
+
+        function scrollToReviewQuestion(idx) {
+            const targetEl = document.getElementById(`review-q-${idx}`);
+            if (!targetEl) return;
+
+            // Nếu câu này đang bị filter ẩn (ví dụ filter là 'wrong' nhưng câu đúng), chuyển filter sang 'all'
+            if (targetEl.style.display === 'none') {
+                setReviewFilter('all');
+            }
+
+            // Nếu là details đang đóng, mở ra
+            const details = targetEl.querySelector('details');
+            if (details) details.open = true;
+
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Hiệu ứng viền nổi bật nhận biết
+            const childBox = targetEl.firstElementChild || targetEl;
+            const origBorder = childBox.style.borderColor;
+            childBox.style.transition = 'box-shadow 0.3s ease, border-color 0.3s ease';
+            childBox.style.boxShadow = '0 0 0 3px #059669';
+            childBox.style.borderColor = '#059669';
+            setTimeout(() => {
+                childBox.style.boxShadow = '';
+                childBox.style.borderColor = origBorder;
+            }, 2000);
         }
 
         function renderKaTeX() {
