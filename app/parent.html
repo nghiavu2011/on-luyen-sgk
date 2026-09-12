@@ -287,9 +287,8 @@
         }
 
         function loadParentData() {
-            if (!window.DeepTutor) return;
-            const mistakes = DeepTutor.getMistakeBank();
-            const gaps = DeepTutor.getKnowledgeGaps(3);
+            const mistakes = window.getMistakes ? window.getMistakes() : (window.DeepTutor ? DeepTutor.getMistakeBank() : []);
+            const gaps = window.DeepTutor ? DeepTutor.getKnowledgeGaps(3) : [];
             const state = getState();
 
             const gapsEl = document.getElementById('parent-weak-areas');

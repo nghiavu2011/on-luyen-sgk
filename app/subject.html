@@ -203,9 +203,9 @@
             document.title = `${subjectName} Lớp ${params.grade} — 📖 Ôn luyện SGK`;
 
             
-            // DeepTutor Subject Status Hook
-            if (window.DeepTutor) {
-                const mistakes = DeepTutor.getMistakeBank(params.grade, params.subject);
+            // DeepTutor Subject Status Hook (P0-4b: Nguồn sự thật duy nhất getMistakes)
+            if (window.getMistakes || window.DeepTutor) {
+                const mistakes = window.getMistakes ? window.getMistakes(params.grade, params.subject) : DeepTutor.getMistakeBank(params.grade, params.subject);
                 const mastery = DeepTutor.getMasteryProfile()[params.subject] || { level: '🌱 Tập sự', total: 0, correct: 0 };
                 
                 const statusEl = document.getElementById('sub-dt-status');

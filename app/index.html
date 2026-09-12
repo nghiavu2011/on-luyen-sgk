@@ -527,8 +527,7 @@
         selectLevel('c2');
 
         function refreshDeepTutorUI() {
-            if (!window.DeepTutor) return;
-            const mistakes = DeepTutor.getMistakeBank();
+            const mistakes = window.getMistakes ? window.getMistakes() : (window.DeepTutor ? DeepTutor.getMistakeBank() : []);
             const count = mistakes.length;
 
             const countEl = document.getElementById('dt-mistake-count');

@@ -554,9 +554,11 @@
                 if (examBadgeEl) examBadgeEl.textContent = `Kiểm tra trắc nghiệm THCS`;
             }
 
-            // DeepTutor Mode: Mistakes Remediation
-            if (params.mode === 'mistakes' && window.DeepTutor) {
-                const mistakeList = DeepTutor.getMistakeBank(params.grade, params.subject);
+            // DeepTutor Mode: Mistakes Remediation (P0-4b: Nguồn sự thật duy nhất getMistakes)
+            if (params.mode === 'mistakes') {
+                const mistakeList = window.getMistakes 
+                    ? window.getMistakes(params.grade, params.subject) 
+                    : (window.DeepTutor ? DeepTutor.getMistakeBank(params.grade, params.subject) : []);
                 if (mistakeList.length === 0) {
                     document.getElementById('exam-title').textContent = `📕 Sổ tay câu sai — Không có câu hỏi`;
                     document.getElementById('question-render-box').innerHTML = `
@@ -804,13 +806,9 @@
             const isCorrect = (displayIdx === q._correctDisplayIndex);
             const origChosen = q._displayOrder ? q._displayOrder[displayIdx] : displayIdx;
 
-            // Ghi nhận DeepTutor 3-Layer Memory & Mistake Bank
-            if (window.DeepTutor) {
-                DeepTutor.recordAttempt(q, origChosen, isCorrect, {
-                    grade: params.grade || '06',
-                    subject: params.subject || 'toan',
-                    chapter: params.chapter || 'ch01'
-                });
+            // Ghi nhận DeepTutor L1 Memory (chỉ lưu vết tương tác, không xoá sổ tay khi chưa nộp bài)
+            if (window.DeepTutor && DeepTutor.recordAttempt) {
+                // Không xoá sổ tay trên click lựa chọn đơn thuần; việc xoá chỉ thực hiện khi nộp bài và đúng >= 2 lần liên tiếp
             }
 
             renderMatrix();
@@ -885,6 +883,41 @@
             document.getElementById('res-xp').textContent = `+${earnedXp} XP`;
 
             if (window.addXP) addXP(earnedXp);
+
+            // P0-4a: Ghi nhận câu trả lời vào Sổ tay câu sai (mistakes) và lịch sử thi (attempts)
+            const attemptAnswers = [];
+            questions.forEach((q, idx) => {
+                const targetCorrect = (q._correctDisplayIndex !== undefined ? q._correctDisplayIndex : (q.correct !== undefined ? q.correct : q.answer));
+                const userChoice = userAnswers[idx];
+                const isCorr = (userChoice !== undefined && userChoice === targetCorrect);
+                const origChosen = (userChoice !== undefined && q._displayOrder) ? q._displayOrder[userChoice] : (userChoice !== undefined ? userChoice : -1);
+
+                attemptAnswers.push({
+                    questionId: q.id || `q${idx + 1}`,
+                    chosenIndex: origChosen,
+                    isCorrect: isCorr
+                });
+
+                if (window.recordQuestionResult) {
+                    window.recordQuestionResult(q, userChoice, isCorr, {
+                        grade: params.grade || '06',
+                        subject: params.subject || 'toan',
+                        chapter: params.chapter || 'ch01',
+                        examId: `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}`
+                    });
+                }
+            });
+
+            if (window.recordExamAttempt) {
+                window.recordExamAttempt({
+                    examId: `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}`,
+                    startedAt: new Date(Date.now() - (45 * 60 - timerSeconds) * 1000).toISOString(),
+                    submittedAt: new Date().toISOString(),
+                    seed: attemptSeed,
+                    score: { correct, total, scale10: parseFloat(points.toFixed(1)) },
+                    answers: attemptAnswers
+                });
+            }
 
             // Cập nhật ma trận sang chế độ xem kết quả
             renderMatrix();

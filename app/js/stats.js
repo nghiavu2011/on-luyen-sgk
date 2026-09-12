@@ -176,6 +176,27 @@ function updateUIStats() {
 
   const lessonStat = document.getElementById('lesson-user-stat');
   if (lessonStat) lessonStat.textContent = `${p.xp.toLocaleString('vi-VN')} điểm thưởng · Lv. ${Math.floor(p.xp / 100) + 1}`;
+
+  // Update Mistake Badges (P0-4b: Đọc từ một nguồn duy nhất)
+  const mistakeCount = (p.mistakes || []).length;
+  
+  const navMistakeBadge = document.getElementById('nav-mistake-count');
+  if (navMistakeBadge) {
+    navMistakeBadge.textContent = mistakeCount;
+    navMistakeBadge.style.display = mistakeCount > 0 ? 'inline-block' : 'none';
+  }
+
+  const dtMistakeCountEl = document.getElementById('dt-mistake-count');
+  if (dtMistakeCountEl) dtMistakeCountEl.textContent = mistakeCount;
+
+  const dtCardMistakesText = document.getElementById('dt-card-mistakes-text');
+  if (dtCardMistakesText) dtCardMistakesText.textContent = `${mistakeCount} câu cần khắc phục`;
+
+  const progDtMistakes = document.getElementById('prog-dt-mistakes');
+  if (progDtMistakes) progDtMistakes.textContent = mistakeCount;
+
+  const parentMistakeEl = document.getElementById('parent-mistake-count');
+  if (parentMistakeEl) parentMistakeEl.textContent = `${mistakeCount} câu`;
 }
 
 // Single source of truth for Mistakes
@@ -192,6 +213,95 @@ function getMistakes(grade, subject) {
   return list;
 }
 
+
+/**
+ * P0-4a: Ghi nhận câu trả lời vào Sổ tay câu sai (mistakes) tuân thủ schema §7.2:
+ * - Sai hoặc bỏ trống: ghi vào sgk-progress.mistakes hoặc tăng wrongCount, reset correctStreak = 0.
+ * - Đúng và có trong sổ: tăng correctStreak.
+ * - correctStreak >= 2: xoá khỏi sổ tay (chống ăn may) và thưởng 10 XP (§7.3).
+ */
+function recordQuestionResult(q, chosenDisplayIdx, isCorrect, meta = {}) {
+  const p = getProgress();
+  const qid = q.id || q.question;
+  const grade = meta.grade || q.grade || '06';
+  const subject = meta.subject || q.subject || 'toan';
+  const chapter = meta.chapter || q.chapter || 'ch01';
+  const examId = meta.examId || q.examId || '';
+
+  const origCorrect = (q.correct !== undefined ? q.correct : (q.answer !== undefined ? q.answer : 0));
+  const origChosen = (chosenDisplayIdx !== undefined && q._displayOrder) 
+    ? q._displayOrder[chosenDisplayIdx] 
+    : (chosenDisplayIdx !== undefined ? chosenDisplayIdx : -1);
+
+  if (!p.mistakes) p.mistakes = [];
+  let existingIdx = p.mistakes.findIndex(m => m.questionId === qid || m.id === qid);
+  let cleared = false;
+  const nowIso = new Date().toISOString();
+
+  if (isCorrect) {
+    if (existingIdx >= 0) {
+      p.mistakes[existingIdx].correctStreak = (p.mistakes[existingIdx].correctStreak || 0) + 1;
+      p.mistakes[existingIdx].lastSeenAt = nowIso;
+      if (p.mistakes[existingIdx].correctStreak >= 2) {
+        p.mistakes.splice(existingIdx, 1);
+        cleared = true;
+        p.xp += (XP_TABLE.clear_mistake || 10);
+      }
+    }
+  } else {
+    // Sai hoặc bỏ trống
+    if (existingIdx >= 0) {
+      p.mistakes[existingIdx].wrongCount = (p.mistakes[existingIdx].wrongCount || 1) + 1;
+      p.mistakes[existingIdx].correctStreak = 0;
+      p.mistakes[existingIdx].chosenIndex = origChosen;
+      p.mistakes[existingIdx].lastSeenAt = nowIso;
+    } else {
+      p.mistakes.push({
+        id: qid,
+        questionId: qid,
+        examId: examId,
+        grade: String(grade).padStart(2, '0'),
+        subject: subject,
+        chapter: chapter,
+        topic: q.topic || (q.breakdown && q.breakdown.concept) || 'Chủ đề rèn luyện',
+        question: q.question,
+        options: q.options || [],
+        correct: origCorrect,
+        breakdown: q.breakdown || {},
+        explanation: q.explanation || '',
+        difficulty: q.difficulty || 'nhan-biet',
+        chosenIndex: origChosen,
+        correctIndex: origCorrect,
+        wrongCount: 1,
+        correctStreak: 0,
+        firstWrongAt: nowIso,
+        lastSeenAt: nowIso
+      });
+    }
+  }
+
+  saveProgress(p);
+  return { cleared };
+}
+
+/**
+ * Ghi nhận một lượt nộp bài thi (attempt) theo schema §7.2
+ */
+function recordExamAttempt(attemptData) {
+  const p = getProgress();
+  if (!p.attempts) p.attempts = [];
+
+  p.attempts.push(attemptData);
+  if (p.attempts.length > 50) p.attempts.shift(); // Giữ 50 lượt gần nhất
+
+  if (attemptData.score) {
+    p.gradedCount = (p.gradedCount || 0) + (attemptData.score.total || 0);
+    p.correctCount = (p.correctCount || 0) + (attemptData.score.correct || 0);
+  }
+
+  saveProgress(p);
+}
+
 // Global exposure
 window.getProgress = getProgress;
 window.saveProgress = saveProgress;
@@ -201,5 +311,7 @@ window.addXP = addXP;
 window.getMistakes = getMistakes;
 window.updateUIStats = updateUIStats;
 window.XP_TABLE = XP_TABLE;
+window.recordQuestionResult = recordQuestionResult;
+window.recordExamAttempt = recordExamAttempt;
 
 document.addEventListener('DOMContentLoaded', updateUIStats);

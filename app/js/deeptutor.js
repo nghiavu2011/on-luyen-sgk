@@ -111,9 +111,13 @@ const DeepTutor = (function() {
     }
 
     function getMistakeBank(grade = null, subject = null) {
+        if (window.getMistakes) {
+            return window.getMistakes(grade, subject);
+        }
         let mistakes = _readJSON(KEY_MISTAKES, []);
         if (grade) {
-            mistakes = mistakes.filter(m => m.grade === grade);
+            const gNorm = String(grade).padStart(2, '0');
+            mistakes = mistakes.filter(m => String(m.grade).padStart(2, '0') === gNorm);
         }
         if (subject) {
             mistakes = mistakes.filter(m => m.subject === subject);
