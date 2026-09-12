@@ -302,9 +302,14 @@
 
                 <div id="exam-result-box" style="display: none;">
                     <div class="ol-card-box" style="text-align: center; padding: 3rem 2rem;">
-                        <div style="margin-bottom: 1rem;"><img src="assets/mascot_celebrate.png" alt="Ăn mừng" style="width: 110px; height: 110px; object-fit: contain; margin: 0 auto; display: block;"></div>
-                        <h2 style="font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-bottom: 0.5rem;">
-                            Em đã hoàn thành bài thi thử THPT!
+                        <div style="margin-bottom: 1rem;">
+                            <picture>
+                                <source srcset="assets/mascot_celebrate.webp" type="image/webp">
+                                <img src="assets/mascot_celebrate.png" alt="Ăn mừng" width="110" height="110" loading="lazy" decoding="async" style="width: 110px; height: 110px; object-fit: contain; margin: 0 auto; display: block;">
+                            </picture>
+                        </div>
+                        <h2 style="font-size: 1.85rem; font-weight: 800; color: #0f172a; margin-bottom: 0.5rem;" id="exam-result-headline">
+                            Em đã hoàn thành bài kiểm tra!
                         </h2>
                         <p style="font-size: 0.95rem; color: #64748b; margin-bottom: 2rem;">
                             Kết quả rèn luyện bám sát cấu trúc đề thi Bộ Giáo dục & Đào tạo.
@@ -775,7 +780,10 @@
                     <div id="deeptutor-hints-box" style="display: none; background: #faf5ff; border: 1px solid #e9d5ff; border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem; text-align: left;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
                             <div style="display: flex; align-items: center; gap: 0.5rem;">
-                                <img src="assets/mascot_teaching.png" alt="Socrate Tutor" style="width: 32px; height: 32px; object-fit: contain;">
+                                <picture>
+                                    <source srcset="assets/mascot_teaching.webp" type="image/webp">
+                                    <img src="assets/mascot_teaching.png" alt="Gia sư Socrate" width="32" height="32" decoding="async" style="width: 32px; height: 32px; object-fit: contain;">
+                                </picture>
                                 <strong style="color: #6b21a8; font-size: 0.95rem;">Gợi ý 3 bậc dẫn dắt tư duy:</strong>
                             </div>
                             <span style="font-size: 0.75rem; color: #7e22ce; background: #f3e8ff; padding: 0.2rem 0.6rem; border-radius: 12px; font-weight: 700;">Không spoil đáp án</span>

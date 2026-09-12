@@ -137,7 +137,7 @@
                 <!-- Thẻ Tiểu học: P1-4 Sắp mở + Form nhận thông báo -->
                 <a href="#levels" id="level-card-c1" class="ol-level-card ol-level-c1" onclick="handleLevelClick(event, 'c1')">
                     <div class="ol-level-left">
-                        <img src="assets/the cap 1.png" alt="Cấp 1 Tiểu học" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <img src="assets/level-c1.png" alt="Cấp 1 Tiểu học" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #ffedd5; color: #c2410c;">Lớp 1 – 5 · Sắp mở</div>
                             <h3>Tiểu học</h3>
@@ -152,7 +152,7 @@
                 <!-- Thẻ THCS: Đang hoạt động -->
                 <a href="#subjects" id="level-card-c2" class="ol-level-card ol-level-c2 active" onclick="handleLevelClick(event, 'c2')">
                     <div class="ol-level-left">
-                        <img src="assets/the cap 2.png" alt="Cấp 2 THCS" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <img src="assets/level-c2.png" alt="Cấp 2 THCS" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #e0f2fe; color: #0369a1;">Lớp 6 – 9 · Đang mở</div>
                             <h3>THCS</h3>
@@ -165,7 +165,7 @@
                 <!-- Thẻ THPT: Có lớp 11 -->
                 <a href="#subjects" id="level-card-c3" class="ol-level-card ol-level-c3" onclick="handleLevelClick(event, 'c3')">
                     <div class="ol-level-left">
-                        <img src="assets/the cap 3.png" alt="Cấp 3 THPT" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
+                        <img src="assets/level-c3.png" alt="Cấp 3 THPT" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #dcfce7; color: #15803d;">Lớp 10 – 12 · Mở Lớp 11</div>
                             <h3>THPT</h3>
@@ -217,7 +217,7 @@
 
                     <!-- Card 2: Knowledge Gaps -->
                     <div style="background: white; border: 1px solid #bbf7d0; border-radius: 14px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
-                        <img src="assets/mascot_inspect.png" alt="Chẩn đoán lỗ hổng" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+                        <img src="assets/mascot_inspect.png" alt="Chẩn đoán lỗ hổng" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
                         <div style="flex: 1;">
                             <div style="font-size: 0.78rem; font-weight: 700; color: #15803d; text-transform: uppercase;">Lỗ hổng trọng tâm</div>
                             <div style="font-size: 1.05rem; font-weight: 800; color: #1e293b;" id="dt-top-gap-text">Chưa ghi nhận lỗ hổng</div>
@@ -227,7 +227,7 @@
 
                     <!-- Card 3: Mastery Level -->
                     <div style="background: white; border: 1px solid #bfdbfe; border-radius: 14px; padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
-                        <img src="assets/badge_trophy.png" alt="Cấp độ tinh thông" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
+                        <img src="assets/badge_trophy.png" alt="Cấp độ tinh thông" width="44" height="44" loading="lazy" decoding="async" style="width: 44px; height: 44px; object-fit: contain; flex-shrink: 0;">
                         <div style="flex: 1;">
                             <div style="font-size: 0.78rem; font-weight: 700; color: #1d4ed8; text-transform: uppercase;">Cấp độ rèn luyện</div>
                             <div style="font-size: 1.1rem; font-weight: 800; color: #1e293b;" id="dt-mastery-level-text">🌱 Tập sự</div>
@@ -510,9 +510,9 @@
             const lvl = LEVEL_DATA[currentLevel];
             
             const subjectAssetMap = {
-                'toan': 'assets/bia mon toan hoc.png',
-                'ngu-van': 'assets/bia mon ngu van - tieng anh.png',
-                'tieng-anh': 'assets/bia mon ngu van - tieng anh.png',
+                'toan': 'assets/subject-toan.png',
+                'ngu-van': 'assets/subject-ngu-van.png',
+                'tieng-anh': 'assets/subject-tieng-anh.png',
                 'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
                 'vat-li': 'assets/icon_vat_li.png',
                 'hoa-hoc': 'assets/icon_hoa_hoc.png',
@@ -532,7 +532,7 @@
 
                 return `
                     <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card" style="align-items: center;">
-                        <img src="${imgSrc}" alt="${s.name}" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" style="width: 52px; height: 52px; border-radius: 12px; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); background: white;">
+                        <img src="${imgSrc}" alt="${s.name}" width="52" height="52" loading="lazy" decoding="async" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" style="width: 52px; height: 52px; border-radius: 12px; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); background: white;">
                         <div class="ol-subject-icon" style="display: none;">${s.icon}</div>
                         <div class="ol-subject-info">
                             <h4>${s.name}</h4>

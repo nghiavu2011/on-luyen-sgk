@@ -82,7 +82,10 @@
         <div class="ol-card-box" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, #fdf4ff 0%, #f0fdf4 100%); border: 1.5px solid #d8b4fe;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
                 <div style="display: flex; align-items: center; gap: 0.75rem;">
-                    <img src="assets/mascot_inspect.png" alt="Chẩn đoán" style="width: 44px; height: 44px; object-fit: contain;">
+                    <picture>
+                        <source srcset="assets/mascot_inspect.webp" type="image/webp">
+                        <img src="assets/mascot_inspect.png" alt="Chẩn đoán" width="44" height="44" decoding="async" style="width: 44px; height: 44px; object-fit: contain;">
+                    </picture>
                     <div>
                         <h2 style="font-size: 1.25rem; font-weight: 800; color: #581c87; margin: 0;">
                             DeepTutor: Chẩn đoán & Thống kê học tập
@@ -91,7 +94,7 @@
                     </div>
                 </div>
                 <a href="quiz.html?mode=mistakes" class="ol-btn-primary" style="background: #dc2626; text-decoration: none; font-size: 0.85rem; padding: 0.45rem 1rem; display: flex; align-items: center; gap: 0.4rem;">
-                    <img src="assets/badge_shield.png" alt="Khiên phục hồi" style="width: 22px; height: 22px; object-fit: contain;">
+                    <img src="assets/badge_shield.png" alt="Khiên phục hồi" width="22" height="22" decoding="async" style="width: 22px; height: 22px; object-fit: contain;">
                     <span>Luyện tập Sổ tay câu sai (<span id="prog-dt-mistakes">0</span>)</span>
                 </a>
             </div>

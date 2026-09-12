@@ -56,7 +56,7 @@
         <!-- Subject Banner -->
         <div class="ol-page-banner">
             <div class="ol-page-banner-info" style="display: flex; align-items: center; gap: 1.25rem;">
-                <img id="subject-banner-cover" src="" alt="Bìa môn học" style="display: none; width: 72px; height: 72px; border-radius: 14px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 2px solid white; flex-shrink: 0;">
+                <img id="subject-banner-cover" src="" alt="Bìa môn học" width="72" height="72" decoding="async" style="display: none; width: 72px; height: 72px; border-radius: 14px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 2px solid white; flex-shrink: 0;">
                 <div style="font-size: 2.5rem;" id="subject-icon">📚</div>
                 <div>
                     <h1 id="subject-title" style="margin: 0;">Môn học</h1>
@@ -72,7 +72,10 @@
                 <!-- Subject DeepTutor Status Bar -->
         <div id="subject-deeptutor-bar" style="background: linear-gradient(135deg, #fdf4ff 0%, #eff6ff 100%); border: 1px solid #d8b4fe; border-radius: 14px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
             <div style="display: flex; align-items: center; gap: 0.85rem;">
-                <img src="assets/mascot_teaching.png" alt="DeepTutor Tutor" style="width: 46px; height: 46px; object-fit: contain; flex-shrink: 0;">
+                <picture>
+                    <source srcset="assets/mascot_teaching.webp" type="image/webp">
+                    <img src="assets/mascot_teaching.png" alt="DeepTutor Tutor" width="46" height="46" decoding="async" style="width: 46px; height: 46px; object-fit: contain; flex-shrink: 0;">
+                </picture>
                 <div>
                     <strong style="color: #6b21a8; font-size: 0.98rem;">Gia sư DeepTutor đồng hành cùng môn học</strong>
                     <div style="font-size: 0.82rem; color: #475569;" id="sub-dt-status">Đang tải hồ sơ học tập môn học...</div>
@@ -175,9 +178,9 @@
             const coverImg = document.getElementById('subject-banner-cover');
             const iconEl = document.getElementById('subject-icon');
             const subAssetMap = {
-                'toan': 'assets/bia mon toan hoc.png',
-                'ngu-van': 'assets/bia mon ngu van - tieng anh.png',
-                'tieng-anh': 'assets/bia mon ngu van - tieng anh.png',
+                'toan': 'assets/subject-toan.png',
+                'ngu-van': 'assets/subject-ngu-van.png',
+                'tieng-anh': 'assets/subject-tieng-anh.png',
                 'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
                 'vat-li': 'assets/icon_vat_li.png',
                 'hoa-hoc': 'assets/icon_hoa_hoc.png',
