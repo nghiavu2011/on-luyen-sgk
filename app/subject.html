@@ -271,6 +271,44 @@
                 }
 
                 container.innerHTML = '';
+
+                // Header thông báo tiến độ môn học
+                const readyCount = chapters.filter(c => c.hasRealContent === true).length;
+                const noticeBox = document.createElement('div');
+                if (readyCount === 0) {
+                    noticeBox.innerHTML = `
+                        <div style="background: #fffbeb; border: 1.5px solid #fde68a; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
+                            <div style="display: flex; align-items: center; gap: 0.75rem;">
+                                <span style="font-size: 1.8rem;">⏳</span>
+                                <div>
+                                    <strong style="color: #92400e; font-size: 0.95rem;">Môn ${subjectName} đang trong quy trình số hóa OCR & Biên soạn SGK</strong>
+                                    <p style="margin: 0.2rem 0 0 0; font-size: 0.85rem; color: #b45309;">
+                                        Ngân hàng bài giảng và đề thi đang được số hóa. Để luyện đề ngay, em có thể vào môn <strong>Toán 6</strong> (3 chương) hoặc <strong>Hóa học 11</strong> (2 chương) nhé!
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="subject.html?grade=06&subject=toan" class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; background: #059669; padding: 0.45rem 0.9rem; border-radius: 8px; font-weight: 700; white-space: nowrap;">
+                                Sang Toán 6 ➔
+                            </a>
+                        </div>
+                    `;
+                } else {
+                    noticeBox.innerHTML = `
+                        <div style="background: #ecfdf5; border: 1.5px solid #a7f3d0; border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
+                            <div style="display: flex; align-items: center; gap: 0.75rem;">
+                                <span style="font-size: 1.8rem;">🌟</span>
+                                <div>
+                                    <strong style="color: #065f46; font-size: 0.95rem;">Môn ${subjectName} đã sẵn sàng ${readyCount} chương hoàn thiện 100% chuẩn SGK!</strong>
+                                    <p style="margin: 0.2rem 0 0 0; font-size: 0.85rem; color: #047857;">
+                                        Gồm đầy đủ lý thuyết bám sát SGK Kết nối tri thức, các bộ đề thi phân hóa và thẻ ghi nhớ ôn tập.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+                container.appendChild(noticeBox);
+
                 chapters.forEach((ch, idx) => {
                     const card = document.createElement('div');
                     card.className = 'ol-card-box';
@@ -278,12 +316,19 @@
                     
                     const firstLessonId = (ch.lessons && ch.lessons[0]) ? ch.lessons[0].id : 'l01';
                     const badgeTitle = isLiterature ? `Chủ điểm ${idx + 1}` : `Chương ${idx + 1}`;
+                    const isRealChapter = (ch.hasRealContent === true);
 
                     card.innerHTML = `
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.25rem;">
                             <div>
-                                <span class="ol-badge-tag ol-badge-blue" style="font-size: 0.75rem;">${badgeTitle}</span>
-                                <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ol-text-title); margin-top: 0.3rem;">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                                    <span class="ol-badge-tag ol-badge-blue" style="font-size: 0.75rem;">${badgeTitle}</span>
+                                    ${isRealChapter 
+                                        ? `<span class="ol-badge-tag" style="background: #dcfce7; color: #15803d; font-size: 0.72rem; font-weight: 800; border: 1px solid #bbf7d0;">✅ Đã xong chuẩn SGK</span>` 
+                                        : `<span class="ol-badge-tag" style="background: #f1f5f9; color: #64748b; font-size: 0.72rem; font-weight: 700; border: 1px solid #cbd5e1;">⏳ Đang biên soạn & Thẩm định QA</span>`
+                                    }
+                                </div>
+                                <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ol-text-title); margin-top: 0.4rem;">
                                     ${ch.title}
                                 </h3>
                                 <p style="font-size: 0.88rem; color: var(--ol-text-muted); margin-top: 0.25rem;">
@@ -300,20 +345,28 @@
                                 <div style="font-size: 0.8rem; font-weight: 700; color: var(--ol-text-muted); text-transform: uppercase; margin-bottom: 0.4rem;">Danh sách bài:</div>
                                 <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
                                     ${ch.lessons.map(l => {
-                                        const isReal = (l.hasRealContent === true || (ch.id === 'ch01' && l.id === 'l01'));
-                                        return `
-                                            <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${l.id}" 
-                                               style="text-decoration: none; font-size: 0.85rem; font-weight: 600; color: ${isReal ? 'var(--ol-primary)' : 'var(--ol-text-muted)'}; background: white; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid ${isReal ? 'var(--ol-primary)' : 'var(--ol-border)'}; display: inline-flex; align-items: center; gap: 0.35rem;">
-                                                <span>${isReal ? '📄' : '⏳'}</span> <span>${l.title}</span>
-                                                ${!isReal ? '<span style="font-size: 0.7rem; background: #f1f5f9; color: #64748b; padding: 0.1rem 0.35rem; border-radius: 4px;">Đang soạn</span>' : ''}
-                                            </a>
-                                        `;
+                                        const isReal = isRealChapter || (l.hasRealContent === true);
+                                        if (isReal) {
+                                            return `
+                                                <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${l.id}" 
+                                                   style="text-decoration: none; font-size: 0.85rem; font-weight: 600; color: var(--ol-primary); background: white; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid var(--ol-primary); display: inline-flex; align-items: center; gap: 0.35rem;">
+                                                    <span>📄</span> <span>${l.title}</span>
+                                                </a>
+                                            `;
+                                        } else {
+                                            return `
+                                                <span style="font-size: 0.85rem; font-weight: 500; color: #94a3b8; background: #f8fafc; padding: 0.35rem 0.75rem; border-radius: 6px; border: 1px solid #e2e8f0; display: inline-flex; align-items: center; gap: 0.35rem; cursor: not-allowed;">
+                                                    <span>⏳</span> <span>${l.title}</span>
+                                                    <span style="font-size: 0.68rem; background: #f1f5f9; color: #64748b; padding: 0.1rem 0.3rem; border-radius: 4px;">Đang soạn</span>
+                                                </span>
+                                            `;
+                                        }
                                     }).join('')}
                                 </div>
                             </div>
                         ` : ''}
 
-                        ${(ch.quizzes && ch.quizzes.length > 0) ? `
+                        ${isRealChapter && (ch.quizzes && ch.quizzes.length > 0) ? `
                             <div style="background: #f8fafc; border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px solid var(--ol-border);">
                                 <div style="font-size: 0.8rem; font-weight: 700; color: #475569; text-transform: uppercase; margin-bottom: 0.4rem; display: flex; align-items: center; justify-content: space-between;">
                                     <span>✍️ Các đề ôn luyện chuyên sâu:</span>
@@ -333,39 +386,43 @@
                                     }).join('')}
                                 </div>
                             </div>
-                        ` : ''}
+                        ` : (!isRealChapter ? `
+                            <div style="background: #f8fafc; border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px dashed #cbd5e1;">
+                                <div style="font-size: 0.8rem; font-weight: 700; color: #64748b; display: flex; align-items: center; justify-content: space-between;">
+                                    <span>✍️ Ngân hàng đề thi phân hóa:</span>
+                                    <span style="font-size: 0.72rem; color: #b45309; background: #fef3c7; padding: 0.15rem 0.45rem; border-radius: 4px; font-weight: 700;">Đang số hóa OCR SGK</span>
+                                </div>
+                                <p style="font-size: 0.78rem; color: #94a3b8; margin: 0.35rem 0 0 0;">
+                                    Bộ đề trắc nghiệm chuẩn 4 mức độ nhận thức đang được hoàn thiện. Vui lòng học các chương đã sẵn sàng.
+                                </p>
+                            </div>
+                        ` : '')}
 
                         <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; border-top: 1px solid var(--ol-border); padding-top: 1rem;">
-                            ${(() => {
-                                const hasAnyReal = (ch.hasRealContent === true) || (ch.lessons || []).some(l => l.hasRealContent === true);
-                                if (hasAnyReal) {
-                                    return `
-                                        <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 
-                                           class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
-                                            <span>📖</span> <span>Học lý thuyết</span>
-                                        </a>
-                                    `;
-                                } else {
-                                    return `
-                                        <button class="ol-btn-outline" disabled style="opacity: 0.6; cursor: not-allowed; font-size: 0.85rem; background: #f1f5f9; color: #94a3b8; border-color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px;">
-                                            <span>⏳</span> <span>Đang biên soạn</span>
-                                        </button>
-                                    `;
-                                }
-                            })()}
-                            ${(ch.quizzes && ch.quizzes.length > 0) ? `
+                            ${isRealChapter ? `
+                                <a href="lesson.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&lesson=${firstLessonId}" 
+                                   class="ol-btn-primary" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                    <span>📖</span> <span>Học lý thuyết</span>
+                                </a>
                                 <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=tonghop&mode=exam" 
                                    class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
                                     <span>✍️</span> <span>Luyện đề tổng hợp</span>
                                 </a>
+                                <a href="flashcard.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}" 
+                                   class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; background: #fefce8; border-color: #fde047; color: #854d0e; font-weight: 700;">
+                                    <span>🎴</span> <span>Thẻ ghi nhớ (10 thẻ)</span>
+                                </a>
                             ` : `
                                 <button class="ol-btn-outline" disabled style="opacity: 0.6; cursor: not-allowed; font-size: 0.85rem; background: #f1f5f9; color: #94a3b8; border-color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px;">
-                                    <span>✍️</span> <span>Đang biên soạn</span>
+                                    <span>📖</span> <span>Lý thuyết đang soạn</span>
+                                </button>
+                                <button class="ol-btn-outline" disabled style="opacity: 0.6; cursor: not-allowed; font-size: 0.85rem; background: #f1f5f9; color: #94a3b8; border-color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px;">
+                                    <span>✍️</span> <span>Đề đang số hóa</span>
+                                </button>
+                                <button class="ol-btn-outline" disabled style="opacity: 0.6; cursor: not-allowed; font-size: 0.85rem; background: #f1f5f9; color: #94a3b8; border-color: #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; border-radius: 8px;">
+                                    <span>🎴</span> <span>Thẻ đang soạn</span>
                                 </button>
                             `}
-                            <a href="flashcard.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}" 
-                               class="ol-btn-outline" style="text-decoration: none; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem; background: #fefce8; border-color: #fde047; color: #854d0e; font-weight: 700;">
-                                <span>🎴</span> <span>Thẻ ghi nhớ (14 thẻ)</span>
                         </div>
                     `;
                     container.appendChild(card);

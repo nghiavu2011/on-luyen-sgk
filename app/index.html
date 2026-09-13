@@ -146,7 +146,7 @@
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #e0f2fe; color: #0369a1;">Lớp 6 – 9 · Đang mở</div>
                             <h3>THCS</h3>
-                            <p>Lớp 6 môn Toán 9 chương chuẩn SGK</p>
+                            <p>Lớp 6 môn Toán 3 chương chuẩn SGK</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
@@ -159,7 +159,7 @@
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #dcfce7; color: #15803d;">Lớp 10 – 12 · Mở Lớp 11</div>
                             <h3>THPT</h3>
-                            <p>Toán, Hóa học 11 ôn thi chuyên sâu</p>
+                            <p>Hóa học 11 (2 chương chuẩn SGK)</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
@@ -487,12 +487,12 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Chương trình Lớp 6 — Môn Toán đã hoàn thiện 100%!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Gồm 9 chương chuẩn SGK Kết nối tri thức, trọn bộ đề thi phân hóa và gợi ý 3 bậc. Bấm nút bên cạnh để vào học ngay môn Toán hoặc chọn các môn khác bên dưới.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Môn Toán đã sẵn sàng 3 chương đầu tiên chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Gồm Chương 1, 2, 3 với 9 bộ đề phân hóa 4 mức độ nhận thức và trọn bộ bài giảng lý thuyết bám sát SGK Kết nối tri thức. Các chương và môn khác đang trong quy trình số hóa OCR và thẩm định QA Gate.</p>
                                 </div>
                             </div>
                             <a href="subject.html?grade=06&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.6rem 1.2rem; font-size:0.88rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.4rem; white-space:nowrap; box-shadow:0 2px 6px rgba(5,150,105,0.25);">
-                                📖 Vào học môn Toán 6 ➔
+                                📖 Học Toán 6 (Chương 1 - 3) ➔
                             </a>
                         </div>
                     `;
@@ -502,12 +502,12 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Chương trình Lớp 11 — Toán & Hóa học đã sẵn sàng ôn luyện!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Bao gồm chuyên đề ôn thi chuyên sâu, ngân hàng câu hỏi trắc nghiệm và lời giải chi tiết. Bấm nút bên cạnh để vào học ngay môn Toán hoặc chọn các môn bên dưới.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Môn Hóa học đã sẵn sàng 2 chương đầu tiên chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Gồm Chương 1 & Chương 2 với 6 bộ đề phân hóa chuẩn GDPT 2018 và bài giảng lý thuyết. Môn Toán và các môn khác đang được số hóa và thẩm định QA Gate.</p>
                                 </div>
                             </div>
-                            <a href="subject.html?grade=11&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.6rem 1.2rem; font-size:0.88rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.4rem; white-space:nowrap; box-shadow:0 2px 6px rgba(5,150,105,0.25);">
-                                📐 Vào học môn Toán 11 ➔
+                            <a href="subject.html?grade=11&subject=hoa-hoc" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.6rem 1.2rem; font-size:0.88rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.4rem; white-space:nowrap; box-shadow:0 2px 6px rgba(5,150,105,0.25);">
+                                🧪 Học Hóa 11 (Chương 1 - 2) ➔
                             </a>
                         </div>
                     `;
@@ -552,18 +552,38 @@
                 'hdtn-huong-nghiep': 'assets/icon_hdtn_huong_nghiep.png'
             };
             
+            // Xác định môn học nào đã có nội dung hoàn thiện theo chuẩn SGK
             grid.innerHTML = lvl.subjects.map(s => {
                 const imgSrc = subjectAssetMap[s.id] || `assets/icon_${s.id.replace(/-/g, '_')}.png`;
+                
+                let isReady = false;
+                let readyNote = '';
+                if (selectedGrade === '06' && s.id === 'toan') {
+                    isReady = true;
+                    readyNote = '3 chương đã xong 100%';
+                } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
+                    isReady = true;
+                    readyNote = '2 chương đã xong 100%';
+                }
 
                 return `
-                    <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card" style="align-items: center; text-decoration: none;">
+                    <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card" style="align-items: center; text-decoration: none; border-color: ${isReady ? '#a7f3d0' : '#e2e8f0'}; background: ${isReady ? '#f0fdf4' : 'white'};">
                         <img src="${imgSrc}" alt="${s.name}" width="52" height="52" loading="lazy" decoding="async" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" style="width: 52px; height: 52px; border-radius: 12px; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); background: white;">
                         <div class="ol-subject-icon" style="display: none;">${s.icon}</div>
                         <div class="ol-subject-info" style="flex: 1;">
-                            <h4>${s.name}</h4>
-                            <p>${s.chapters} chương • Chuẩn GDPT 2018</p>
+                            <div style="display: flex; align-items: center; gap: 0.4rem;">
+                                <h4 style="margin: 0;">${s.name}</h4>
+                                ${isReady 
+                                    ? `<span style="font-size: 0.68rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 0.15rem 0.45rem; border-radius: 4px; border: 1px solid #bbf7d0;">${readyNote}</span>` 
+                                    : `<span style="font-size: 0.68rem; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 0.15rem 0.45rem; border-radius: 4px; border: 1px solid #e2e8f0;">Đang số hóa OCR</span>`
+                                }
+                            </div>
+                            <p style="margin-top: 0.25rem;">${s.chapters} chương • Chuẩn GDPT 2018</p>
                         </div>
-                        <span style="font-size: 0.82rem; font-weight: 800; color: var(--ol-primary); background: #f0f9ff; padding: 0.35rem 0.7rem; border-radius: 8px; border: 1px solid #bae6fd; flex-shrink: 0;">Vào học ➔</span>
+                        ${isReady 
+                            ? `<span style="font-size: 0.82rem; font-weight: 800; color: #059669; background: #ecfdf5; padding: 0.35rem 0.7rem; border-radius: 8px; border: 1px solid #a7f3d0; flex-shrink: 0;">Vào học ➔</span>` 
+                            : `<span style="font-size: 0.78rem; font-weight: 600; color: #64748b; background: #f8fafc; padding: 0.35rem 0.6rem; border-radius: 8px; border: 1px solid #cbd5e1; flex-shrink: 0;">Xem tiến độ</span>`
+                        }
                     </a>
                 `;
             }).join('');

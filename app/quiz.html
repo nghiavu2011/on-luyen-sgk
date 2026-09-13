@@ -513,10 +513,15 @@
         let timerInterval;
         let params = {};
 
+        function formatOptionText(text) {
+            if (!text) return '';
+            return String(text).replace(/^[A-D][\.\:\)\s\-–]\s*/i, '');
+        }
+
         async function init() {
             params = getUrlParams();
-            const grade = params.grade || '11';
-            const subject = params.subject || 'lich-su';
+            const grade = params.grade || '06';
+            const subject = params.subject || 'toan';
             const chapter = params.chapter || 'ch01';
 
             const gNum = parseInt(grade, 10);
@@ -623,7 +628,108 @@
                 if (metaEl) {
                     metaEl.innerHTML = `Chế độ: <strong>DeepTutor Remediation</strong> · Số lượng: <strong>${questions.length} câu</strong> · Mục tiêu: Làm chủ 100%`;
                 }
-                
+            } else {
+                // Dynamic Fetch Quiz Data
+                try {
+                    let quizFileName = `${chapter}-quiz.json`;
+                    if (params.exam && params.exam !== 'tonghop') {
+                        quizFileName = `${chapter}-quiz-${params.exam}.json`;
+                    }
+                    let res = await smartFetch(`content/grade-${grade}/${subject}/${quizFileName}`);
+                    if (!res.ok && params.exam) {
+                        res = await smartFetch(`content/grade-${grade}/${subject}/${chapter}-quiz.json`);
+                    }
+                    if (!res.ok) throw new Error('Cannot fetch quiz');
+                    const data = await res.json();
+                    let rawList = [];
+                    if (Array.isArray(data)) {
+                        rawList = data;
+                    } else if (data && Array.isArray(data.questions)) {
+                        rawList = data.questions;
+                    }
+                    questions = rawList.map(q => {
+                        const c = (q.correct !== undefined ? q.correct : (q.answer !== undefined ? q.answer : 0));
+                        return {
+                            ...q,
+                            correct: c,
+                            answer: c,
+                            breakdown: q.breakdown || (q.explanation ? {
+                                concept: 'Kiến thức trọng tâm SGK',
+                                steps: q.explanation,
+                                socraticPrompt: 'Em hãy đọc kỹ lại dữ kiện câu hỏi và nhớ lại định lý/quy tắc tương ứng.'
+                            } : undefined)
+                        };
+                    });
+
+                    const chTitle = data.chapterTitle || (data.title ? (data.title.split('—')[1] || data.title) : `Chương ${chapter}`);
+                    if (data.title) {
+                        document.getElementById('exam-title').textContent = data.title;
+                        document.title = `${subName} ${grade} — ${chTitle.trim()} | Ôn luyện`;
+                    } else {
+                        document.getElementById('exam-title').textContent = `Đề trắc nghiệm: ${subName} - Lớp ${grade}`;
+                        document.title = `${subName} ${grade} — Luyện đề | Ôn luyện`;
+                    }
+
+                    const metaEl = document.getElementById('exam-meta');
+                    if (metaEl) {
+                        const examCode = params.exam ? params.exam.toUpperCase() : '101';
+                        metaEl.innerHTML = `Mã đề: <strong>${examCode}</strong> · Số lượng: <strong>${questions.length} câu</strong> · ${data.description || 'Hình thức: Trắc nghiệm khách quan 4 mức độ'}`;
+                    }
+                } catch (e) {
+                    questions = [];
+                }
+            }
+
+            // Xử lý khi chưa có dữ liệu câu hỏi (Chương đang biên soạn / File rỗng)
+            if (questions.length === 0) {
+                clearInterval(timerInterval);
+                const titleEl = document.getElementById('exam-title');
+                if (titleEl) titleEl.textContent = `✍️ Đang hoàn thiện nội dung: ${subName} Lớp ${grade}`;
+                const metaEl = document.getElementById('exam-meta');
+                if (metaEl) metaEl.innerHTML = `Trạng thái: <strong>Đang số hóa OCR & Thẩm định QA Gate</strong>`;
+                const renderBox = document.getElementById('question-render-box');
+                if (renderBox) {
+                    renderBox.innerHTML = `
+                        <div class="ol-card-box text-center" style="padding: 3.5rem 2rem; max-width: 680px; margin: 0 auto;">
+                            <div style="font-size: 3.5rem; margin-bottom: 1rem;">✍️</div>
+                            <h3 style="font-size: 1.35rem; font-weight: 800; color: #1e293b; margin-bottom: 0.75rem;">
+                                Bộ đề này đang được hoàn thiện theo chuẩn SGK
+                            </h3>
+                            <p style="color: #64748b; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                                Dữ liệu đề thi đang trong quy trình số hóa và thẩm định chất lượng bám sát SGK 2026–2027 (chuẩn hóa 4 mức độ nhận thức, phương pháp giải 3 bước, 0% trùng lặp).
+                            </p>
+                            <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 1.25rem; margin-bottom: 1.75rem; text-align: left;">
+                                <div style="font-weight: 700; color: #334155; margin-bottom: 0.5rem; font-size: 0.9rem;">
+                                    📚 Các nội dung đã hoàn thiện 100% chuẩn SGK sẵn sàng học ngay:
+                                </div>
+                                <ul style="margin: 0; padding-left: 1.25rem; color: #475569; font-size: 0.88rem; line-height: 1.7;">
+                                    <li><strong>Toán 6:</strong> Chương 1 (Số tự nhiên), Chương 2 (Số nguyên), Chương 3 (Hình học trực quan)</li>
+                                    <li><strong>Hóa học 11:</strong> Chương 1 (Cân bằng hóa học), Chương 2 (Nitrogen & Sulfur)</li>
+                                </ul>
+                            </div>
+                            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                                <a href="subject.html?grade=${grade}&subject=${subject}" class="ol-btn-primary" style="text-decoration: none; padding: 0.6rem 1.25rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                    <span>📚</span> <span>Xem danh sách chương môn học</span>
+                                </a>
+                                <a href="index.html" class="ol-btn-outline" style="text-decoration: none; padding: 0.6rem 1.25rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+                                    <span>🏠</span> <span>Về trang chủ</span>
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                }
+                const mContainer = document.getElementById('matrix-container');
+                if (mContainer) mContainer.innerHTML = '';
+                const answeredEl = document.getElementById('answered-count-text');
+                if (answeredEl) answeredEl.textContent = '0/0 câu';
+                document.querySelectorAll('.thpt-submit-btn').forEach(btn => {
+                    btn.disabled = true;
+                    btn.style.opacity = '0.5';
+                    btn.style.cursor = 'not-allowed';
+                });
+                return;
+            }
+
             // Initialize deterministic option shuffling (P0-1a)
             attemptSeed = Date.now();
             questions.forEach(q => {
@@ -636,43 +742,6 @@
                     q._correctDisplayIndex = (q.correct !== undefined ? q.correct : (q.answer !== undefined ? q.answer : 0));
                 }
             });
-
-                renderMatrix();
-                renderQuestion();
-                startTimer();
-                return;
-            }
-
-            // Dynamic Fetch Quiz Data
-            try {
-                let quizFileName = `${chapter}-quiz.json`;
-                if (params.exam && params.exam !== 'tonghop') {
-                    quizFileName = `${chapter}-quiz-${params.exam}.json`;
-                }
-                let res = await smartFetch(`content/grade-${grade}/${subject}/${quizFileName}`);
-                if (!res.ok && params.exam) {
-                    res = await smartFetch(`content/grade-${grade}/${subject}/${chapter}-quiz.json`);
-                }
-                if (!res.ok) throw new Error();
-                const data = await res.json();
-                questions = data.questions || [];
-                const chTitle = data.chapterTitle || (data.title ? data.title.split('—')[1] || data.title : `Chương ${chapter}`);
-                if (data.title) {
-                    document.getElementById('exam-title').textContent = data.title;
-                    document.title = `${subName} ${grade} — ${chTitle.trim()} | Ôn luyện`;
-                } else {
-                    document.getElementById('exam-title').textContent = `Đề trắc nghiệm: ${subName} - Lớp ${grade}`;
-                    document.title = `${subName} ${grade} — Luyện đề | Ôn luyện`;
-                }
-
-                const metaEl = document.getElementById('exam-meta');
-                if (metaEl) {
-                    const examCode = params.exam ? params.exam.toUpperCase() : '101';
-                    metaEl.innerHTML = `Mã đề: <strong>${examCode}</strong> · Số lượng: <strong>${questions.length} câu</strong> · ${data.description || 'Hình thức: Trắc nghiệm khách quan 4 mức độ'}`;
-                }
-            } catch (e) {
-                questions = [];
-            }
 
             renderMatrix();
             renderQuestion();
@@ -830,7 +899,7 @@
                         ${(q._displayOrder || (q.options || []).map((_, i) => i)).map((origIdx, displayIdx) => `
                             <button class="thpt-opt-btn ${userAnswers[currentIdx] === displayIdx ? 'correct' : ''}" onclick="chooseOption(${displayIdx})">
                                 <span class="thpt-opt-badge">${letters[displayIdx]}</span>
-                                <span>${q.options[origIdx]}</span>
+                                <span>${formatOptionText(q.options[origIdx])}</span>
                             </button>
                         `).join('')}
                     </div>
@@ -1161,8 +1230,8 @@
                 if (q.difficulty === 'van-dung' || q.difficulty === 'hard') diffLabel = '⚡ Vận dụng';
                 if (q.difficulty === 'van-dung-cao' || q.difficulty === 'expert') diffLabel = '⭐ Vận dụng cao';
 
-                const chosenText = !isSkipped ? `${letters[userChoice]}. ${q.options[q._displayOrder[userChoice]]}` : null;
-                const correctText = `${letters[q._correctDisplayIndex]}. ${q.options[q._displayOrder[q._correctDisplayIndex]]}`;
+                const chosenText = !isSkipped ? `${letters[userChoice]}. ${formatOptionText(q.options[q._displayOrder[userChoice]])}` : null;
+                const correctText = `${letters[q._correctDisplayIndex]}. ${formatOptionText(q.options[q._displayOrder[q._correctDisplayIndex]])}`;
 
                 const calcExplanation = (q.breakdown && (q.breakdown.calculation || q.breakdown.steps)) || q.explanation || '';
 
