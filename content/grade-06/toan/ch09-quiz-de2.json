@@ -1,115 +1,127 @@
 {
   "chapterId": "ch09",
   "examId": "de2",
-  "title": "Toán 6 — Chương 9: Dữ liệu và xác suất thực nghiệm: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 9: Đề 2 — Biểu đồ cột kép & Xác suất thực nghiệm",
+  "description": "Bộ đề rèn luyện kỹ năng đọc biểu đồ cột kép và tính xác suất thực nghiệm trong các thí nghiệm ngẫu nhiên.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c9_d2_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 9: Dữ liệu và xác suất thực nghiệm là gì?",
+      "topic": "Nhận biết sự kiện chắc chắn",
+      "question": "Khi gieo một đồng xu cân đối và đồng chất, sự kiện nào sau đây là sự kiện chắc chắn?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 9: Dữ liệu và xác suất thực nghiệm",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "Mặt xuất hiện là mặt sấp hoặc mặt ngửa",
+        "Mặt xuất hiện chắc chắn là mặt sấp",
+        "Mặt xuất hiện chắc chắn là mặt ngửa",
+        "Đồng xu đứng thăng bằng trên cạnh"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Định nghĩa sự kiện chắc chắn luôn luôn xảy ra.",
+        "socraticPrompt": "Đồng xu chỉ có hai mặt là mặt sấp và mặt ngửa, vậy khi rơi xuống mặt xuất hiện luôn là mặt nào?",
+        "steps": "Vì một đồng xu chỉ có hai mặt sấp và ngửa nên biến cố 'Mặt xuất hiện là mặt sấp hoặc mặt ngửa' luôn luôn xảy ra, đây là sự kiện chắc chắn.",
+        "trap": "Khẳng định chắc chắn ra mặt sấp hoặc chắc chắn ra mặt ngửa là sai vì kết quả mỗi lần gieo là ngẫu nhiên."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c9_d2_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "topic": "Nhận biết sự kiện không thể",
+      "question": "Gieo một con xúc xắc 6 mặt (số chấm từ 1 đến 6). Sự kiện nào sau đây là sự kiện không thể?",
       "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+        "Xuất hiện mặt có số chấm là số chẵn",
+        "Xuất hiện mặt có số chấm là số lẻ",
+        "Xuất hiện mặt có 7 chấm",
+        "Xuất hiện mặt có 6 chấm"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+        "concept": "Định nghĩa sự kiện không thể không bao giờ xảy ra.",
+        "socraticPrompt": "Con xúc xắc tiêu chuẩn có các mặt mang những số chấm nào? Liệu có mặt 7 chấm không?",
+        "steps": "Con xúc xắc 6 mặt chỉ có số chấm từ 1 đến 6, không có mặt nào 7 chấm. Do đó sự kiện 'Xuất hiện mặt có 7 chấm' không bao giờ xảy ra (sự kiện không thể).",
+        "trap": "Nhầm sự kiện không thể với sự kiện có thể."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c9_d2_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Tính xác suất thực nghiệm gieo đồng xu",
+      "question": "Gieo một đồng xu 50 lần thấy có 28 lần xuất hiện mặt sấp. Xác suất thực nghiệm xuất hiện mặt sấp là bao nhiêu?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "56%",
+        "44%",
+        "50%",
+        "28%"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Công thức tính xác suất thực nghiệm: P = k / n.",
+        "socraticPrompt": "Lấy số lần xuất hiện mặt sấp (28) chia cho tổng số lần gieo (50) rồi đổi ra phần trăm?",
+        "steps": "Xác suất thực nghiệm xuất hiện mặt sấp là: P = 28 / 50 = (28 · 2) / (50 · 2) = 56 / 100 = 56%.",
+        "trap": "Chọn 28% vì nhầm số lần xuất hiện là tỉ số phần trăm."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c9_d2_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Đọc biểu đồ cột kép",
+      "question": "Biểu đồ cột kép biểu diễn số học sinh Giỏi của lớp 6A: Học kỳ 1 có 15 học sinh, Học kỳ 2 có 21 học sinh. Số học sinh Giỏi Học kỳ 2 tăng thêm bao nhiêu học sinh so với Học kỳ 1?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "6 học sinh",
+        "8 học sinh",
+        "5 học sinh",
+        "7 học sinh"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Kỹ năng so sánh và tính độ chênh lệch số liệu từ biểu đồ cột kép.",
+        "socraticPrompt": "Lấy số học sinh Giỏi Học kỳ 2 trừ đi số học sinh Giỏi Học kỳ 1: 21 trừ 15 bằng bao nhiêu?",
+        "steps": "Số học sinh Giỏi Học kỳ 2 tăng thêm so với Học kỳ 1 là: 21 - 15 = 6 học sinh.",
+        "trap": "Tính nhầm phép trừ 21 - 15 thành 5 hoặc 7."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c9_d2_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Xác suất thực nghiệm quay vòng quay",
+      "question": "Quay một đĩa tròn có 4 phần bằng nhau ghi các số 1, 2, 3, 4 tổng cộng 40 lần. Mũi tên dừng lại ở ô số 2 đúng 14 lần. Xác suất thực nghiệm để mũi tên dừng lại ở ô số 2 là bao nhiêu?",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "25%",
+        "35%",
+        "30%",
+        "40%"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Tính xác suất thực nghiệm của sự kiện dừng ở một ô cụ thể.",
+        "socraticPrompt": "Số lần dừng ở ô số 2 là 14 lần trên tổng số 40 lần quay. Hãy tính thương 14 / 40 rồi đổi ra phần trăm?",
+        "steps": "Xác suất thực nghiệm là: P = 14 / 40 = 7 / 20 = (7 · 5) / (20 · 5) = 35 / 100 = 35%.",
+        "trap": "Lấy 1/4 = 25% (đây là xác suất lý thuyết chứ không phải xác suất thực nghiệm theo số liệu đề bài)."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c9_d2_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Xác suất thực nghiệm sự kiện hợp",
+      "question": "Gieo một con xúc xắc 6 mặt 50 lần. Kết quả cho thấy: mặt 1 chấm xuất hiện 8 lần, mặt 2 chấm xuất hiện 10 lần, mặt 3 chấm xuất hiện 7 lần, các mặt còn lại xuất hiện 25 lần. Xác suất thực nghiệm để xuất hiện mặt có số chấm nhỏ hơn 4 là bao nhiêu?",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "40%",
+        "50%",
+        "45%",
+        "60%"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Xác suất thực nghiệm của sự kiện gồm nhiều biến cố thành phần.",
+        "socraticPrompt": "Số chấm nhỏ hơn 4 gồm những mặt nào? Cộng số lần xuất hiện của các mặt đó lại rồi chia cho 50?",
+        "steps": "Số chấm nhỏ hơn 4 gồm các mặt: 1 chấm, 2 chấm và 3 chấm. Tổng số lần xuất hiện của các mặt này là: 8 + 10 + 7 = 25 lần. Xác suất thực nghiệm là: P = 25 / 50 = 1/2 = 50%.",
+        "trap": "Cộng cả mặt 4 chấm vào làm tăng số lần xuất hiện lên quá 25."
       }
     }
   ]

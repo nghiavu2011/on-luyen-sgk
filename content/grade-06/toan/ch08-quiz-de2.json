@@ -1,115 +1,127 @@
 {
   "chapterId": "ch08",
   "examId": "de2",
-  "title": "Toán 6 — Chương 8: Những hình hình học cơ bản: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 8: Đề 2 — Trung điểm đoạn thẳng & Số đo góc",
+  "description": "Bộ đề rèn luyện kỹ năng tính toán độ dài hình học, nhận biết trung điểm và phân loại các góc đặc biệt.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c8_d2_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 8: Những hình hình học cơ bản là gì?",
+      "topic": "Định nghĩa góc vuông",
+      "question": "Một góc có số đo đúng bằng 90° được gọi là loại góc nào sau đây?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 8: Những hình hình học cơ bản",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "Góc nhọn",
+        "Góc vuông",
+        "Góc tù",
+        "Góc bẹt"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Định nghĩa và tên gọi của góc vuông theo số đo.",
+        "socraticPrompt": "Góc có số đo đúng bằng 90 độ có tên gọi quen thuộc là gì trong hình học?",
+        "steps": "Theo định nghĩa SGK: Góc có số đo bằng 90° được gọi là góc vuông.",
+        "trap": "Nhầm góc 90° là góc nhọn hoặc góc bẹt."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c8_d2_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "topic": "Định nghĩa góc tù",
+      "question": "Góc có số đo lớn hơn 90° và nhỏ hơn 180° được gọi là loại góc nào sau đây?",
       "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+        "Góc nhọn",
+        "Góc bẹt",
+        "Góc tù",
+        "Góc vuông"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+        "concept": "Định nghĩa và khoảng số đo của góc tù.",
+        "socraticPrompt": "Góc lớn hơn góc vuông (90 độ) nhưng nhỏ hơn góc bẹt (180 độ) có tên gọi là gì?",
+        "steps": "Theo phân loại góc: Góc có số đo lớn hơn 90° và nhỏ hơn 180° được gọi là góc tù.",
+        "trap": "Nhầm góc tù với góc nhọn (nhỏ hơn 90°) hoặc góc bẹt (đúng 180°)."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c8_d2_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Số đo góc bẹt",
+      "question": "Số đo của góc bẹt bằng bao nhiêu độ?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "90°",
+        "180°",
+        "360°",
+        "120°"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Định nghĩa góc bẹt và số đo của góc bẹt.",
+        "socraticPrompt": "Góc bẹt có hai cạnh là hai tia đối nhau tạo thành một đường thẳng, số đo của nó bằng bao nhiêu độ?",
+        "steps": "Góc bẹt là góc có hai cạnh là hai tia đối nhau. Số đo của góc bẹt luôn bằng 180°.",
+        "trap": "Nhầm với góc vuông (90°) hoặc góc trọn vòng tròn (360°)."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c8_d2_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Tính độ dài đoạn thẳng qua trung điểm",
+      "question": "Cho đoạn thẳng PQ = 12 cm. Điểm I nằm giữa P và Q sao cho PI = 4 cm. Điểm M là trung điểm của đoạn thẳng IQ. Độ dài của đoạn thẳng IM bằng bao nhiêu?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "4 cm",
+        "8 cm",
+        "6 cm",
+        "2 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Tính độ dài đoạn thẳng trung gian rồi tính độ dài trung điểm.",
+        "socraticPrompt": "Tính đoạn IQ trước bằng cách lấy PQ trừ PI. M là trung điểm của IQ thì IM bằng IQ chia mấy?",
+        "steps": "Vì I nằm giữa P và Q nên PI + IQ = PQ, suy ra IQ = PQ - PI = 12 - 4 = 8 cm. Vì M là trung điểm của IQ nên IM = IQ / 2 = 8 / 2 = 4 cm.",
+        "trap": "Lấy luôn kết quả IQ = 8 cm mà quên chia 2 cho trung điểm M."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c8_d2_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Góc tạo bởi kim đồng hồ lúc 3 giờ",
+      "question": "Lúc 3 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ có số đo bằng bao nhiêu độ?",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "60°",
+        "90°",
+        "120°",
+        "45°"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Ứng dụng số đo góc vào thực tế xác định góc kim đồng hồ.",
+        "socraticPrompt": "Mỗi khoảng giữa hai số liền nhau trên đồng hồ là 30 độ. Lúc 3 giờ đúng, hai kim cách nhau 3 khoảng số thì góc bằng bao nhiêu độ?",
+        "steps": "Mặt đồng hồ có 12 khoảng số tương ứng 360°. Mỗi khoảng giữa hai số là 360° : 12 = 30°. Lúc 3 giờ đúng, kim phút chỉ số 12, kim giờ chỉ số 3 (cách nhau 3 khoảng số). Góc tạo thành là: 3 · 30° = 90° (góc vuông).",
+        "trap": "Nhẩm sai 3 khoảng thành 60° hoặc 45°."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c8_d2_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Góc tạo bởi kim đồng hồ lúc 6 giờ",
+      "question": "Lúc 6 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ là loại góc nào và có số đo bằng bao nhiêu?",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "Góc vuông có số đo 90°",
+        "Góc bẹt có số đo 180°",
+        "Góc tù có số đo 150°",
+        "Góc bẹt có số đo 360°"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Góc bẹt hình thành bởi hai tia đối nhau trên mặt đồng hồ.",
+        "socraticPrompt": "Lúc 6 giờ đúng, kim phút chỉ số 12 hướng thẳng lên trên, kim giờ chỉ số 6 hướng thẳng xuống dưới tạo thành hai tia đối nhau thì đó là góc gì?",
+        "steps": "Lúc 6 giờ đúng, kim phút chỉ số 12 và kim giờ chỉ số 6. Hai kim nằm trên cùng một đường thẳng và hướng về hai phía ngược nhau (hai tia đối nhau). Góc tạo thành là góc bẹt có số đo 180°.",
+        "trap": "Ghi nhận nhầm số đo là 360° (một vòng tròn) thay vì góc tạo bởi hai tia (180°)."
       }
     }
   ]

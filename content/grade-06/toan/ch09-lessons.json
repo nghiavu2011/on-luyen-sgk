@@ -5,64 +5,194 @@
     {
       "id": "l01",
       "title": "Bài 36: Dữ liệu và thu thập dữ liệu",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 36: Dữ liệu và thu thập dữ liệu</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 36: Dữ liệu và thu thập dữ liệu.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm dữ liệu và phân biệt dữ liệu là số (số liệu) với dữ liệu không phải là số.",
+        "Đánh giá được tính hợp lý của dữ liệu thu thập được trong các tình huống thực tế.",
+        "Nắm vững các phương pháp thu thập dữ liệu phổ biến: quan sát, làm thí nghiệm, phiếu hỏi khảo sát."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 36: Dữ liệu và thu thập dữ liệu: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Dữ liệu",
+          "definition": "Các thông tin thu thập được như chữ số, chữ cái, hình ảnh, âm thanh... được gọi là dữ liệu.",
+          "notation": "Dữ liệu số (số liệu) và dữ liệu không là số",
+          "note": "Ví dụ: chiều cao học sinh là số liệu; màu sắc yêu thích là dữ liệu không là số."
+        },
+        {
+          "term": "Tính hợp lý của dữ liệu",
+          "definition": "Dữ liệu thống kê phải phù hợp với quy luật thực tế và giới hạn cho phép của bài toán.",
+          "notation": "Ví dụ: điểm kiểm tra thuộc [0; 10], số người phải là số tự nhiên",
+          "note": "Nếu dữ liệu vượt khỏi phạm vi hợp lý thì kết quả thống kê sẽ bị sai lệch."
+        },
+        {
+          "term": "Thu thập dữ liệu",
+          "definition": "Có nhiều cách để thu thập dữ liệu như quan sát trực tiếp, lập phiếu hỏi khảo sát, làm thí nghiệm hoặc tìm kiếm từ internet, sách báo.",
+          "notation": "Phiếu điều tra, bảng kiểm đếm",
+          "note": "Cần chọn phương pháp thu thập phù hợp với đối tượng khảo sát."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc kiểm tra tính hợp lý",
+          "meaning": "Dữ liệu số phải đúng định dạng, nằm trong khoảng giá trị có thể xảy ra và tổng các thành phần phải bằng tổng thể ban đầu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trong một bảng thống kê điểm thi học kỳ môn Toán của tổ 1 gồm các số: 7, 8, 9, 12, 6, 8.5. Giá trị nào trong dãy là không hợp lý và vì sao?",
+          "steps": [
+            "Bước 1: Nhận xét thang điểm môn Toán theo quy định của Bộ Giáo dục và Đào tạo là thang điểm 10 (từ 0 đến 10).",
+            "Bước 2: So sánh từng giá trị: các số 7, 8, 9, 6, 8.5 đều thuộc khoảng [0; 10].",
+            "Bước 3: Giá trị 12 vượt quá điểm tối đa 10 nên là giá trị không hợp lý trong bảng thống kê."
+          ],
+          "answer": "Số 12 là không hợp lý vì thang điểm tối đa là 10."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng số thập phân 8.5 là không hợp lý vì nghĩ điểm thi chỉ được là số nguyên.",
+          "why": "Điểm thi theo quy chế hiện hành có thể lấy điểm thập phân làm tròn đến 0.5 hoặc 0.1."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 37: Bảng dữ liệu và Biểu đồ tranh",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 37: Bảng dữ liệu và Biểu đồ tranh</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 37: Bảng dữ liệu và Biểu đồ tranh.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Biết cách lập và đọc bảng số liệu thống kê ban đầu.",
+        "Hiểu cấu tạo biểu đồ tranh và ý nghĩa của mỗi biểu tượng quy ước.",
+        "Đọc, phân tích thông tin và trả lời các câu hỏi từ biểu đồ tranh."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 37: Bảng dữ liệu và Biểu đồ tranh: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Bảng thống kê",
+          "definition": "Bảng gồm các hàng và cột để tổ chức, sắp xếp dữ liệu một cách trực quan, khoa học.",
+          "notation": "Các cột: Đối tượng, Kiểm đếm, Số lượng",
+          "note": "Bảng thống kê giúp người đọc dễ dàng so sánh các số liệu."
+        },
+        {
+          "term": "Biểu đồ tranh",
+          "definition": "Biểu đồ sử dụng các hình ảnh hoặc biểu tượng để biểu diễn dữ liệu thống kê.",
+          "notation": "Mỗi biểu tượng đại diện cho một số lượng đơn vị cụ thể",
+          "note": "Ví dụ: 1 ngôi sao biểu diễn 5 học sinh; nửa ngôi sao biểu diễn 2.5 học sinh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc đọc biểu đồ tranh",
+          "meaning": "Số lượng thực tế của đối tượng bằng số lượng biểu tượng nhân với giá trị quy ước của một biểu tượng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trên biểu đồ tranh, một biểu tượng bông hoa 🌸 đại diện cho 6 bông hoa điểm tốt. Nếu bạn Lan có 5 biểu tượng bông hoa thì bạn Lan nhận được bao nhiêu bông hoa điểm tốt?",
+          "steps": [
+            "Bước 1: Xác định giá trị quy ước: Mỗi biểu tượng 🌸 = 6 bông hoa điểm tốt.",
+            "Bước 2: Đếm số lượng biểu tượng của bạn Lan: có 5 biểu tượng 🌸.",
+            "Bước 3: Tính số lượng thực tế: 5 · 6 = 30 bông hoa điểm tốt."
+          ],
+          "answer": "Bạn Lan nhận được 30 bông hoa điểm tốt."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ đếm số biểu tượng (trả lời 5 bông) mà quên nhân với giá trị quy ước (6 bông/biểu tượng).",
+          "why": "Phải luôn chú ý dòng chú thích ở chân biểu đồ tranh để nhân đúng hệ số quy ước."
         }
       ]
     },
     {
       "id": "l03",
       "title": "Bài 38: Biểu đồ cột và Biểu đồ cột kép",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 38: Biểu đồ cột và Biểu đồ cột kép</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 38: Biểu đồ cột và Biểu đồ cột kép.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Biết cách đọc và phân tích dữ liệu từ biểu đồ cột đơn.",
+        "Hiểu cấu trúc biểu đồ cột kép và cách so sánh hai nhóm dữ liệu cùng loại.",
+        "Nhận xét xu hướng và đưa ra kết luận từ biểu đồ cột kép."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 38: Biểu đồ cột và Biểu đồ cột kép: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Biểu đồ cột",
+          "definition": "Biểu đồ gồm các cột hình chữ nhật có chiều rộng bằng nhau và chiều cao biểu diễn số liệu của từng đối tượng.",
+          "notation": "Trục ngang: tên đối tượng; Trục dọc: số lượng",
+          "note": "Khoảng cách giữa các cột nên được giữ đều nhau."
+        },
+        {
+          "term": "Biểu đồ cột kép",
+          "definition": "Biểu đồ ghép hai cột cạnh nhau cho mỗi đối tượng để so sánh hai nhóm số liệu của cùng các đối tượng đó.",
+          "notation": "Hai cột có hai màu sắc hoặc họa tiết khác nhau",
+          "note": "Thường dùng so sánh số học sinh nam - nữ, so sánh số liệu hai học kỳ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh trên biểu đồ cột kép",
+          "meaning": "Cột nào cao hơn thì số liệu của nhóm đó lớn hơn. Chênh lệch độ cao phản ánh sự chênh lệch số lượng thực tế."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một biểu đồ cột kép biểu diễn số học sinh Giỏi của lớp 6A trong Học kỳ 1 là 14 bạn, Học kỳ 2 là 22 bạn. Hỏi số học sinh Giỏi Học kỳ 2 tăng bao nhiêu phần trăm so với Học kỳ 1 (làm tròn đến hàng phần mười)?",
+          "steps": [
+            "Bước 1: Số học sinh Giỏi tăng thêm là: 22 - 14 = 8 bạn.",
+            "Bước 2: Tỉ số phần trăm tăng thêm so với Học kỳ 1 là: (8 · 100 / 14)% ≈ 57.14%.",
+            "Bước 3: Làm tròn đến hàng phần mười ta được: 57.1%."
+          ],
+          "answer": "Tăng thêm 8 bạn, tương ứng tăng 57.1%."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy số tăng thêm chia cho số liệu Học kỳ 2 (chia 22) thay vì chia cho số liệu gốc Học kỳ 1 (chia 14).",
+          "why": "Khi tính tỉ lệ tăng trưởng, mẫu số luôn là số liệu ban đầu trước khi tăng (ở đây là Học kỳ 1)."
         }
       ]
     },
     {
       "id": "l04",
-      "title": "Bài 39: Khả năng xảy ra của sự kiện và Xác suất thực nghiệm",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 39: Khả năng xảy ra của sự kiện và Xác suất thực nghiệm</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 39: Khả năng xảy ra của sự kiện và Xác suất thực nghiệm.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "title": "Bài 39: Khả năng xảy ra của một sự kiện và Xác suất thực nghiệm",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt được ba loại sự kiện: sự kiện chắc chắn, sự kiện không thể và sự kiện có thể.",
+        "Nắm vững định nghĩa và công thức tính xác suất thực nghiệm của một sự kiện.",
+        "Vận dụng tính xác suất thực nghiệm qua các hoạt động gieo đồng xu, tung xúc xắc."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 39: Khả năng xảy ra của sự kiện và Xác suất thực nghiệm: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phân loại sự kiện",
+          "definition": "Sự kiện chắc chắn luôn xảy ra. Sự kiện không thể không bao giờ xảy ra. Sự kiện có thể là sự kiện có thể xảy ra hoặc không xảy ra.",
+          "notation": "Chắc chắn (P = 1), Không thể (P = 0), Có thể (0 < P < 1)",
+          "note": "Gieo con xúc xắc 6 mặt: mặt xuất hiện có số chấm nhỏ hơn 7 là sự kiện chắc chắn."
+        },
+        {
+          "term": "Xác suất thực nghiệm",
+          "definition": "Khi thực hiện một phép thử lặp lại n lần, nếu sự kiện E xuất hiện k lần thì tỉ số k / n được gọi là xác suất thực nghiệm của sự kiện E.",
+          "notation": "P(E) = k / n (với 0 ≤ k ≤ n)",
+          "note": "Xác suất thực nghiệm luôn là một số từ 0 đến 1 (từ 0% đến 100%)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật số lớn",
+          "meaning": "Khi số lần thực nghiệm n càng lớn thì xác suất thực nghiệm k/n càng tiến gần và dao động xung quanh xác suất lý thuyết của sự kiện đó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gieo một đồng xu 40 lần thấy có 24 lần xuất hiện mặt sấp. Tính xác suất thực nghiệm xuất hiện: a) Mặt sấp; b) Mặt ngửa?",
+          "steps": [
+            "Bước 1: Tổng số lần gieo n = 40 lần.",
+            "Bước 2: Số lần xuất hiện mặt sấp là k1 = 24 lần. Xác suất thực nghiệm xuất hiện mặt sấp là: P(S) = 24 / 40 = 3/5 = 0.6 = 60%.",
+            "Bước 3: Số lần xuất hiện mặt ngửa là k2 = 40 - 24 = 16 lần. Xác suất thực nghiệm xuất hiện mặt ngửa là: P(N) = 16 / 40 = 2/5 = 0.4 = 40%."
+          ],
+          "answer": "Mặt sấp là 60%; Mặt ngửa là 40%."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy số lần xuất hiện mặt sấp chia cho số lần xuất hiện mặt ngửa (24 / 16) thay vì chia cho tổng số lần gieo (24 / 40).",
+          "why": "Mẫu số của xác suất thực nghiệm luôn luôn là TỔNG SỐ LẦN THỰC NGHIỆM n."
         }
       ]
     }

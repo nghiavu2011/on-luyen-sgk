@@ -1,115 +1,127 @@
 {
   "chapterId": "ch07",
   "examId": "de2",
-  "title": "Toán 6 — Chương 7: Số thập phân: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 7: Đề 2 — Phép tính & Tỉ số phần trăm",
+  "description": "Bộ đề rèn luyện kỹ năng thực hiện 4 phép tính với số thập phân và giải các bài toán về tỉ số phần trăm.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c7_d2_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 7: Số thập phân là gì?",
+      "topic": "Phép cộng hai số thập phân âm",
+      "question": "Tính kết quả của phép tính: (-4.5) + (-2.3)?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 7: Số thập phân",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "-6.8",
+        "6.8",
+        "-2.2",
+        "-6.2"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Quy tắc cộng hai số thập phân có cùng dấu âm.",
+        "socraticPrompt": "Muốn cộng hai số âm, ta cộng hai giá trị tuyệt đối của chúng rồi đặt dấu gì trước kết quả?",
+        "steps": "Áp dụng quy tắc cộng hai số cùng dấu âm: (-4.5) + (-2.3) = -(4.5 + 2.3) = -6.8.",
+        "trap": "Tính nhầm ra số dương (+6.8) hoặc thực hiện phép trừ 4.5 - 2.3."
       }
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
-      "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
-      }
-    },
-    {
-      "id": "q03",
+      "id": "t6_c7_d2_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Phép trừ số thập phân với số âm",
+      "question": "Tính giá trị của phép tính: 15.8 - (-4.2)?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "11.6",
+        "20.0",
+        "-20.0",
+        "19.0"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Quy tắc trừ cho một số âm là cộng với số đối của nó.",
+        "socraticPrompt": "Trừ cho số âm (-4.2) chuyển thành phép cộng với số dương nào? 15.8 cộng với số đó bằng bao nhiêu?",
+        "steps": "Biến đổi phép trừ: 15.8 - (-4.2) = 15.8 + 4.2 = 20.0 = 20.",
+        "trap": "Lấy 15.8 trừ đi 4.2 được 11.6 do quên quy tắc đổi dấu trừ của số âm."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c7_d2_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Phép nhân số thập phân khác dấu",
+      "question": "Tính kết quả phép nhân: (-2.5) · 0.04?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "0.1",
+        "-0.1",
+        "-0.01",
+        "-1.0"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Nhân hai số thập phân khác dấu và quy tắc đếm chữ số thập phân.",
+        "socraticPrompt": "Nhân hai số tự nhiên 25 và 4 được 100. Có tổng cộng bao nhiêu chữ số ở phần thập phân cần tách ra?",
+        "steps": "Nhân khác dấu cho kết quả âm. Tính 25 · 4 = 100. Vì 2.5 có 1 chữ số thập phân và 0.04 có 2 chữ số thập phân (tổng là 3), ta tách 3 chữ số: 0.100 = 0.1. Vậy (-2.5) · 0.04 = -0.1.",
+        "trap": "Đếm sai số chữ số thập phân thành -0.01 hoặc quên dấu âm thành +0.1."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c7_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phép chia hai số thập phân cùng dấu âm",
+      "question": "Tính kết quả phép chia: (-14.4) : (-1.2)?",
+      "options": [
+        "-12",
+        "12",
+        "1.2",
+        "-1.2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Chia hai số thập phân cùng dấu âm cho kết quả dương.",
+        "socraticPrompt": "Hai số cùng dấu âm chia cho nhau sẽ ra kết quả mang dấu gì? Dời dấu phẩy ở cả hai số 1 chữ số ta được phép chia tự nhiên nào?",
+        "steps": "Hai số âm chia cho nhau ra kết quả dương. Dời dấu phẩy một hàng sang phải: 14.4 : 1.2 = 144 : 12 = 12. Vậy (-14.4) : (-1.2) = 12.",
+        "trap": "Đặt nhầm dấu âm thành -12, hoặc chia nhầm dấu phẩy thành 1.2."
+      }
+    },
+    {
+      "id": "t6_c7_d2_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Tìm giá trị phần trăm của một số",
+      "question": "Tìm 25% của số 160 ta được kết quả là:",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "40",
+        "35",
+        "45",
+        "64"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Phương pháp tính p% của một số cho trước.",
+        "socraticPrompt": "25% tương ứng với phân số 25/100 hay 1/4. Hãy lấy 160 nhân với 1/4 hoặc lấy 160 nhân 25 rồi chia 100?",
+        "steps": "Giá trị cần tìm là: 160 · 25% = 160 · 25 / 100 = 4000 / 100 = 40 (hoặc 160 : 4 = 40).",
+        "trap": "Lấy 160 chia cho 25 được 6.4 rồi nhân 10 nhầm thành 64."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c7_d2_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Tìm một số khi biết giá trị phần trăm",
+      "question": "Biết rằng 30% giá tiền của một chiếc áo khoác là 120 000 đồng. Giá tiền ban đầu của chiếc áo khoác đó là bao nhiêu?",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "360 000 đồng",
+        "300 000 đồng",
+        "400 000 đồng",
+        "450 000 đồng"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Bài toán tìm một số khi biết p% của nó bằng b.",
+        "socraticPrompt": "Khi biết 30% giá tiền là 120 000 đồng, muốn tìm giá tiền ban đầu (100%) ta lấy 120 000 chia cho 30% hay nhân?",
+        "steps": "Giá tiền ban đầu của chiếc áo khoác là: 120 000 : 30% = 120 000 : (30/100) = 120 000 · 100 / 30 = 400 000 đồng.",
+        "trap": "Lấy 120 000 nhân với 30% được 36 000 đồng rồi cộng vào thành 156 000 đồng hoặc lấy 120 000 · 3 = 360 000 đồng."
       }
     }
   ]

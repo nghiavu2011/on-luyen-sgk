@@ -5,64 +5,212 @@
     {
       "id": "l01",
       "title": "Bài 32: Điểm và đường thẳng",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 32: Điểm và đường thẳng</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 32: Điểm và đường thẳng.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm điểm, đường thẳng, quan hệ điểm thuộc và không thuộc đường thẳng.",
+        "Nhận biết ba điểm thẳng hàng, ba điểm không thẳng hàng và vị trí tương đối giữa hai đường thẳng.",
+        "Sử dụng đúng các ký hiệu hình học cơ bản thuộc, không thuộc, cắt nhau, song song."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 32: Điểm và đường thẳng: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Điểm và đường thẳng",
+          "definition": "Dấu chấm nhỏ trên trang giấy là hình ảnh của điểm (đặt tên bằng chữ in hoa A, B, C). Sợi chỉ căng thẳng là hình ảnh đường thẳng (đặt tên bằng chữ thường a, b hoặc AB).",
+          "notation": "A ∈ d (A thuộc d); B ∉ d (B không thuộc d)",
+          "note": "Qua hai điểm phân biệt có một và chỉ một đường thẳng."
+        },
+        {
+          "term": "Ba điểm thẳng hàng",
+          "definition": "Khi ba điểm cùng thuộc một đường thẳng, ta nói chúng thẳng hàng. Khi ba điểm không cùng thuộc bất kỳ đường thẳng nào, ta nói chúng không thẳng hàng.",
+          "notation": "A, B, C cùng ∈ d: thẳng hàng",
+          "note": "Trong ba điểm thẳng hàng, có một và chỉ một điểm nằm giữa hai điểm còn lại."
+        },
+        {
+          "term": "Hai đường thẳng cắt nhau và song song",
+          "definition": "Hai đường thẳng có một điểm chung gọi là hai đường thẳng cắt nhau. Hai đường thẳng không có điểm chung nào gọi là hai đường thẳng song song.",
+          "notation": "d1 ∩ d2 = {M} (cắt nhau); a // b (song song)",
+          "note": "Điểm chung của hai đường thẳng cắt nhau gọi là giao điểm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tiên đề về đường thẳng đi qua hai điểm",
+          "meaning": "Có một và chỉ một đường thẳng đi qua hai điểm phân biệt cho trước."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho 4 điểm phân biệt A, B, C, D trong đó không có 3 điểm nào thẳng hàng. Vẽ được tất cả bao nhiêu đường thẳng đi qua từng cặp điểm?",
+          "steps": [
+            "Bước 1: Từ mỗi điểm trong 4 điểm, ta có thể nối với 3 điểm còn lại để tạo thành 3 đường thẳng.",
+            "Bước 2: Có 4 điểm nên số lượt nối là 4 · 3 = 12 lượt.",
+            "Bước 3: Vì mỗi đường thẳng nối hai điểm (ví dụ đường thẳng AB và BA là một) nên mỗi đường thẳng bị tính lặp 2 lần. Do đó số đường thẳng là: 12 : 2 = 6 đường thẳng."
+          ],
+          "answer": "Vẽ được tất cả 6 đường thẳng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy 4 nhân 3 = 12 đường thẳng mà quên chia cho 2.",
+          "why": "Mỗi đoạn nối giữa hai điểm A và B chỉ tạo thành duy nhất một đường thẳng, nên phải chia 2 để tránh tính lặp."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 33: Điểm nằm giữa hai điểm. Tia",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 33: Điểm nằm giữa hai điểm. Tia</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 33: Điểm nằm giữa hai điểm. Tia.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa và tính chất của điểm nằm giữa hai điểm.",
+        "Hiểu khái niệm tia, gốc của tia và phân biệt hai tia đối nhau, hai tia trùng nhau.",
+        "Vận dụng để xác định vị trí điểm và tia trên hình vẽ hình học."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 33: Điểm nằm giữa hai điểm. Tia: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Tia",
+          "definition": "Hình gồm điểm O và một phần đường thẳng bị chia ra bởi điểm O được gọi là một tia gốc O (còn gọi là nửa đường thẳng gốc O).",
+          "notation": "Tia Ox (O là gốc, viết trước)",
+          "note": "Tia Ox bị giới hạn ở điểm gốc O nhưng không bị giới hạn về phía x."
+        },
+        {
+          "term": "Hai tia đối nhau",
+          "definition": "Hai tia chung gốc và tạo thành một đường thẳng được gọi là hai tia đối nhau.",
+          "notation": "Tia Ox và tia Oy đối nhau tạo thành đường thẳng xy",
+          "note": "Nếu điểm O nằm giữa hai điểm A và B thì tia OA và tia OB là hai tia đối nhau."
+        },
+        {
+          "term": "Hai tia trùng nhau",
+          "definition": "Hai tia chung gốc và cùng chung một phía của đường thẳng được gọi là hai tia trùng nhau.",
+          "notation": "Nếu A thuộc tia Ox thì tia OA và tia Ox là hai tia trùng nhau",
+          "note": "Hai tia trùng nhau có chung gốc và cùng tập hợp điểm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quan hệ giữa điểm nằm giữa và tia đối",
+          "meaning": "Điểm M nằm giữa hai điểm A và B khi và chỉ khi hai tia MA và MB là hai tia đối nhau."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hai tia Ox và Oy đối nhau. Lấy điểm M thuộc tia Ox, điểm N thuộc tia Oy. Điểm nào nằm giữa hai điểm còn lại?",
+          "steps": [
+            "Bước 1: Vì Ox và Oy là hai tia đối nhau nên điểm O nằm trên đường thẳng xy.",
+            "Bước 2: Điểm M thuộc tia Ox và điểm N thuộc tia Oy nên M và N nằm ở hai phía khác nhau đối với gốc O.",
+            "Bước 3: Suy ra điểm O nằm giữa hai điểm M và N."
+          ],
+          "answer": "Điểm O nằm giữa hai điểm M và N."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tưởng hai tia có chung gốc bất kỳ thì là hai tia đối nhau.",
+          "why": "Hai tia đối nhau bắt buộc phải cùng nằm trên một đường thẳng và hướng về hai phía ngược nhau."
         }
       ]
     },
     {
       "id": "l03",
       "title": "Bài 34: Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 34: Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 34: Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa đoạn thẳng, cách đo và so sánh độ dài hai đoạn thẳng.",
+        "Hiểu và áp dụng hệ thức AM + MB = AB khi M nằm giữa A và B.",
+        "Nắm vững định nghĩa và tính chất trung điểm của đoạn thẳng."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 34: Đoạn thẳng. Độ dài đoạn thẳng. Trung điểm: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Đoạn thẳng",
+          "definition": "Đoạn thẳng AB là hình gồm điểm A, điểm B và tất cả các điểm nằm giữa A và B. Hai điểm A, B gọi là hai đầu mút của đoạn thẳng.",
+          "notation": "Đoạn thẳng AB (hoặc BA)",
+          "note": "Đoạn thẳng bị giới hạn ở cả hai đầu mút."
+        },
+        {
+          "term": "Khi nào AM + MB = AB?",
+          "definition": "Nếu điểm M nằm giữa hai điểm A và B thì AM + MB = AB. Ngược lại, nếu AM + MB = AB thì điểm M nằm giữa hai điểm A và B.",
+          "notation": "M nằm giữa A, B <=> AM + MB = AB",
+          "note": "Đây là căn cứ cốt lõi để tính độ dài đoạn thẳng và chứng minh vị trí điểm."
+        },
+        {
+          "term": "Trung điểm của đoạn thẳng",
+          "definition": "Trung điểm M của đoạn thẳng AB là điểm nằm giữa A, B và cách đều A, B (MA = MB = AB / 2).",
+          "notation": "M là trung điểm AB <=> M nằm giữa A, B và MA = MB",
+          "note": "Trung điểm còn được gọi là điểm chính giữa của đoạn thẳng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ dài đoạn thẳng luôn dương",
+          "meaning": "Mỗi đoạn thẳng có một độ dài lớn hơn 0. Khi hai điểm trùng nhau thì khoảng cách giữa chúng bằng 0."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho đoạn thẳng AB = 10 cm. Trên tia AB lấy điểm M sao cho AM = 4 cm. Tính MB và cho biết M có là trung điểm của AB không?",
+          "steps": [
+            "Bước 1: Vì AM < AB (4 cm < 10 cm) nên điểm M nằm giữa hai điểm A và B.",
+            "Bước 2: Ta có hệ thức: AM + MB = AB, suy ra MB = AB - AM = 10 - 4 = 6 cm.",
+            "Bước 3: Vì AM = 4 cm và MB = 6 cm (AM ≠ MB) nên điểm M không phải là trung điểm của đoạn thẳng AB."
+          ],
+          "answer": "MB = 6 cm và M không là trung điểm của AB."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ kiểm tra điều kiện MA = MB mà quên kiểm tra M có nằm giữa A và B không.",
+          "why": "Điểm M phải vừa nằm giữa vừa cách đều hai đầu mút thì mới là trung điểm của đoạn thẳng."
         }
       ]
     },
     {
       "id": "l04",
       "title": "Bài 35: Góc. Các góc đặc biệt. Số đo góc",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 35: Góc. Các góc đặc biệt. Số đo góc</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 35: Góc. Các góc đặc biệt. Số đo góc.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu định nghĩa góc, đỉnh và cạnh của góc.",
+        "Biết sử dụng thước đo góc để đo và vẽ góc với số đo cho trước.",
+        "Phân loại được các góc: góc nhọn, góc vuông, góc tù, góc bẹt."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 35: Góc. Các góc đặc biệt. Số đo góc: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Góc",
+          "definition": "Góc là hình gồm hai tia chung gốc. Gốc chung của hai tia gọi là đỉnh của góc, hai tia gọi là hai cạnh của góc.",
+          "notation": "Góc xOy hoặc góc yOx (đỉnh O viết ở giữa), ký hiệu ∠xOy",
+          "note": "Góc có hai cạnh là hai tia đối nhau được gọi là góc bẹt."
+        },
+        {
+          "term": "Số đo góc",
+          "definition": "Mỗi góc có một số đo xác định. Số đo của góc bẹt là 180°. Góc có số đo bằng 90° là góc vuông.",
+          "notation": "Đơn vị đo góc là độ (°)",
+          "note": "Số đo của góc luôn nằm trong khoảng từ 0° đến 180°."
+        },
+        {
+          "term": "Phân loại các góc",
+          "definition": "Góc nhọn có số đo lớn hơn 0° và nhỏ hơn 90°. Góc tù có số đo lớn hơn 90° và nhỏ hơn 180°. Góc vuông bằng 90°. Góc bẹt bằng 180°.",
+          "notation": "0° < nhọn < 90° = vuông < tù < 180° = bẹt",
+          "note": "Góc nhọn < Góc vuông < Góc tù < Góc bẹt."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Thứ tự độ lớn của các loại góc",
+          "meaning": "Góc nhọn nhỏ hơn góc vuông; góc vuông nhỏ hơn góc tù; góc tù nhỏ hơn góc bẹt."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Lúc 4 giờ đúng, hai kim giờ và kim phút của đồng hồ tạo thành một góc có số đo bằng bao nhiêu độ và thuộc loại góc nào?",
+          "steps": [
+            "Bước 1: Mặt đồng hồ hình tròn chia thành 12 khoảng giờ bằng nhau, mỗi khoảng giờ tương ứng với góc: 360° : 12 = 30°.",
+            "Bước 2: Lúc 4 giờ đúng, kim phút chỉ số 12 và kim giờ chỉ số 4, cách nhau đúng 4 khoảng giờ.",
+            "Bước 3: Góc tạo bởi hai kim là: 4 · 30° = 120°. Vì 90° < 120° < 180° nên đây là góc tù."
+          ],
+          "answer": "Góc có số đo 120° và là góc tù."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tưởng góc 90° là góc nhọn hoặc góc 180° là góc tù.",
+          "why": "Góc 90° là góc vuông, góc 180° là góc bẹt. Góc nhọn phải nhỏ hơn 90° và góc tù phải nằm giữa 90° và 180°."
         }
       ]
     }

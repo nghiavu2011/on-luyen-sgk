@@ -5,64 +5,205 @@
     {
       "id": "l01",
       "title": "Bài 28: Số thập phân và giá trị theo hàng",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 28: Số thập phân và giá trị theo hàng</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 28: Số thập phân và giá trị theo hàng.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm phân số thập phân và cách viết phân số thập phân thành số thập phân.",
+        "Nhận biết cấu tạo gồm phần nguyên, phần thập phân và giá trị theo hàng của số thập phân.",
+        "Thực hiện thành thạo so sánh hai số thập phân âm và dương."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 28: Số thập phân và giá trị theo hàng: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phân số thập phân",
+          "definition": "Phân số thập phân là phân số mà mẫu số là lũy thừa của 10 (như 10, 100, 1000,...).",
+          "notation": "a / 10^n (n ∈ N*)",
+          "note": "Các phân số thập phân có thể viết dưới dạng số thập phân và ngược lại."
+        },
+        {
+          "term": "Số thập phân",
+          "definition": "Số thập phân gồm hai phần: phần nguyên (viết trước dấu phẩy) và phần thập phân (viết sau dấu phẩy).",
+          "notation": "Ví dụ: -12.35 có phần nguyên là -12, phần thập phân là 35.",
+          "note": "Hàng thập phân thứ nhất là hàng phần mười, thứ hai là hàng phần trăm, thứ ba là hàng phần nghìn."
+        },
+        {
+          "term": "So sánh số thập phân",
+          "definition": "Số thập phân âm luôn nhỏ hơn 0, 0 luôn nhỏ hơn số thập phân dương. Với hai số âm, số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn.",
+          "notation": "-a < -b khi và chỉ khi a > b (với a, b > 0)",
+          "note": "Ví dụ: -3.15 < -3.149 vì 3.15 > 3.149."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh số thập phân dương",
+          "meaning": "So sánh phần nguyên trước: phần nguyên lớn hơn thì số đó lớn hơn. Nếu phần nguyên bằng nhau, so sánh lần lượt các hàng phần mười, phần trăm, phần nghìn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phân số thập phân -345/100 dưới dạng số thập phân và so sánh nó với số -3.5?",
+          "steps": [
+            "Bước 1: Viết dưới dạng số thập phân: -345/100 = -3.45.",
+            "Bước 2: Viết -3.5 thành -3.50 để có cùng 2 chữ số ở phần thập phân.",
+            "Bước 3: So sánh giá trị dương: 3.45 < 3.50, do đó giữa hai số âm ta có -3.45 > -3.50, tức là -3.45 > -3.5."
+          ],
+          "answer": "-345/100 = -3.45 và -3.45 > -3.5."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn hàng phần mười với hàng chục, hoặc thấy 3.5 có ít chữ số hơn 3.45 nên nghĩ 3.5 nhỏ hơn.",
+          "why": "Phải so sánh theo từng hàng từ trái sang phải: hàng phần mười của 3.5 là 5 lớn hơn hàng phần mười của 3.45 là 4."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 29: Các phép tính với số thập phân",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 29: Các phép tính với số thập phân</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 29: Các phép tính với số thập phân.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Thực hiện thành thạo phép cộng, trừ, nhân, chia các số thập phân dương và âm.",
+        "Nắm vững quy tắc đặt dấu và thứ tự thực hiện phép tính với số thập phân.",
+        "Vận dụng tính chất giao hoán, kết hợp, phân phối để tính toán nhanh, hợp lý."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 29: Các phép tính với số thập phân: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phép cộng và trừ số thập phân",
+          "definition": "Cộng, trừ hai số thập phân cùng dấu hoặc khác dấu theo quy tắc tương tự như phép cộng, trừ số nguyên.",
+          "notation": "(-a) + (-b) = -(a + b); a - b = a + (-b)",
+          "note": "Khi đặt tính phải đặt các chữ số ở cùng một hàng và dấu phẩy thẳng cột với nhau."
+        },
+        {
+          "term": "Phép nhân số thập phân",
+          "definition": "Nhân hai số như nhân các số tự nhiên, rồi đếm tổng chữ số ở phần thập phân của hai thừa số để tách ở tích bằng dấu phẩy.",
+          "notation": "(+a) · (-b) = -(a · b); (-a) · (-b) = +(a · b)",
+          "note": "Nhân hai số cùng dấu ra kết quả dương, khác dấu ra kết quả âm."
+        },
+        {
+          "term": "Phép chia số thập phân",
+          "definition": "Chia hai số thập phân bằng cách dời dấu phẩy ở cả số chia và số bị chia sang phải để số chia trở thành số tự nhiên.",
+          "notation": "a : b = (a · 10^k) : (b · 10^k)",
+          "note": "Quy tắc dấu của phép chia hoàn toàn giống quy tắc dấu của phép nhân."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất phân phối của phép nhân đối với phép cộng",
+          "meaning": "a · b + a · c = a · (b + c). Áp dụng tính chất này để nhóm các số có tổng tròn chục, tròn trăm giúp tính nhẩm nhanh."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức thuận tiện: A = 4.2 · 15.8 + 4.2 · 84.2?",
+          "steps": [
+            "Bước 1: Nhận thấy 4.2 là thừa số chung, áp dụng tính chất phân phối: A = 4.2 · (15.8 + 84.2).",
+            "Bước 2: Thực hiện phép tính trong ngoặc: 15.8 + 84.2 = 100.0 = 100.",
+            "Bước 3: Thực hiện phép nhân với 100: A = 4.2 · 100 = 420."
+          ],
+          "answer": "A = 420."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dời dấu phẩy ở số bị chia khi đã dời dấu phẩy ở số chia, hoặc đếm thiếu chữ số phần thập phân khi nhân.",
+          "why": "Khi nhân hai số thập phân có 1 và 2 chữ số sau dấu phẩy thì tích phải có tổng cộng 1 + 2 = 3 chữ số sau dấu phẩy."
         }
       ]
     },
     {
       "id": "l03",
       "title": "Bài 30: Làm tròn số và ước lượng kết quả",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 30: Làm tròn số và ước lượng kết quả</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 30: Làm tròn số và ước lượng kết quả.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc làm tròn số thập phân đến một hàng cho trước (hàng đơn vị, hàng phần mười, hàng phần trăm...).",
+        "Hiểu ý nghĩa và ứng dụng của việc làm tròn số trong đời sống và đo đạc thực tế.",
+        "Biết cách ước lượng nhanh kết quả của các phép tính trong thực tiễn."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 30: Làm tròn số và ước lượng kết quả: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Quy tắc làm tròn số",
+          "definition": "Nhìn chữ số đầu tiên bên phải của hàng làm tròn: nếu nhỏ hơn 5 thì giữ nguyên chữ số hàng làm tròn; nếu từ 5 trở lên thì cộng thêm 1 vào chữ số hàng làm tròn.",
+          "notation": "Nếu chữ số ngay sau < 5: giữ nguyên; nếu ≥ 5: cộng 1 vào hàng làm tròn.",
+          "note": "Ở phần nguyên, thay các chữ số bị bỏ bằng số 0. Ở phần thập phân thì bỏ hẳn các chữ số đó."
+        },
+        {
+          "term": "Ước lượng kết quả",
+          "definition": "Thay các số trong phép tính bằng các số làm tròn thích hợp để nhẩm tính nhanh kết quả xấp xỉ.",
+          "notation": "a + b ≈ round(a) + round(b)",
+          "note": "Ước lượng giúp kiểm tra nhanh xem kết quả tính toán có bị sai sót lớn hay không."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ chính xác khi làm tròn",
+          "meaning": "Làm tròn đến hàng phần mười tương ứng với độ chính xác d = 0.05. Làm tròn đến hàng đơn vị tương ứng với độ chính xác d = 0.5."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Làm tròn số 47.385 đến hàng phần mười và hàng phần trăm?",
+          "steps": [
+            "Bước 1: Làm tròn đến hàng phần mười (chữ số 3): Chữ số ngay sau là 8 (≥ 5), nên cộng 1 vào 3 thành 4, bỏ các số sau: 47.385 ≈ 47.4.",
+            "Bước 2: Làm tròn đến hàng phần trăm (chữ số 8): Chữ số ngay sau là 5 (≥ 5), nên cộng 1 vào 8 thành 9, bỏ số sau: 47.385 ≈ 47.39."
+          ],
+          "answer": "Đến hàng phần mười là 47.4; đến hàng phần trăm là 47.39."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Làm tròn số 47.385 đến hàng phần mười bằng cách nhìn chữ số cuối cùng là 5 rồi làm tròn dây chuyền thành 47.39 rồi thành 47.4.",
+          "why": "Quy tắc chỉ nhìn duy nhất một chữ số ngay liền kề bên phải hàng làm tròn, không được làm tròn liên tiếp."
         }
       ]
     },
     {
       "id": "l04",
       "title": "Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa tỉ số của hai số và tỉ số phần trăm.",
+        "Biết cách tìm giá trị phần trăm của một số và tìm một số khi biết giá trị phần trăm của nó.",
+        "Vận dụng giải các bài toán thực tiễn về mua bán, giảm giá, lãi suất ngân hàng."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 31: Một số bài toán về tỉ số và tỉ số phần trăm: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Tỉ số của hai số",
+          "definition": "Thương trong phép chia số a cho số b (b khác 0) được gọi là tỉ số của a và b.",
+          "notation": "a : b hoặc a/b (b ≠ 0)",
+          "note": "Hai số a và b phải cùng một đơn vị đo khi lập tỉ số."
+        },
+        {
+          "term": "Tỉ số phần trăm",
+          "definition": "Tỉ số phần trăm của hai số a và b là (a · 100 / b) kèm theo ký hiệu %.",
+          "notation": "(a · 100 / b) %",
+          "note": "Ví dụ: Tỉ số phần trăm của 3 và 4 là (3 · 100 / 4)% = 75%."
+        },
+        {
+          "term": "Hai bài toán về phần trăm",
+          "definition": "1) Tìm p% của số a: lấy a · (p / 100). 2) Tìm một số biết p% của nó bằng b: lấy b : (p / 100) = (b · 100) / p.",
+          "notation": "Giá trị = a · p%; Số ban đầu = b : p%",
+          "note": "Rất phổ biến trong bài toán giảm giá hàng hóa và tiền gửi tiết kiệm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đồng nhất đơn vị trước khi tính tỉ số",
+          "meaning": "Khi tính tỉ số giữa hai đại lượng, bắt buộc phải đổi hai đại lượng về cùng một đơn vị đo lường (ví dụ cùng đổi ra gam hoặc cùng đổi ra kilôgam)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một cửa hàng niêm yết giá một đôi giày là 500 000 đồng. Cửa hàng đang có chương trình giảm giá 15%. Hỏi người mua phải trả bao nhiêu tiền?",
+          "steps": [
+            "Bước 1: Tính số tiền được giảm giá: 500 000 · 15% = 500 000 · 15 / 100 = 75 000 đồng.",
+            "Bước 2: Tính số tiền thực tế phải trả: 500 000 - 75 000 = 425 000 đồng.",
+            "Cách 2: Người mua phải trả: 100% - 15% = 85% giá gốc. Số tiền: 500 000 · 85% = 425 000 đồng."
+          ],
+          "answer": "Người mua phải trả 425 000 đồng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy giá gốc trừ đi 15 đồng thay vì tính 15% của 500 000 đồng.",
+          "why": "15% là tỉ lệ phần trăm trên giá gốc, phải nhân giá gốc với 15/100 trước khi trừ."
         }
       ]
     }

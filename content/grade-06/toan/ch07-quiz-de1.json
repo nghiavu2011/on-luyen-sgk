@@ -1,116 +1,127 @@
 {
   "chapterId": "ch07",
   "examId": "de1",
-  "title": "Toán 6 — Chương 7: Số thập phân: Đề 1: Khái niệm & Nhận biết",
-  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "title": "Toán 6 — Chương 7: Đề 1 — Số thập phân & Làm tròn số",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết số thập phân, cấu tạo hàng và quy tắc làm tròn số.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c7_d1_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 7: Số thập phân?",
+      "topic": "Chuyển phân số thập phân thành số thập phân",
+      "question": "Phân số thập phân -125 / 100 được viết dưới dạng số thập phân là:",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 7: Số thập phân",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "-1.25",
+        "-12.5",
+        "-0.125",
+        "1.25"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 7: Số thập phân.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
+        "concept": "Cách viết phân số thập phân sang số thập phân.",
+        "socraticPrompt": "Mẫu số là 100 có hai chữ số 0, vậy sau dấu phẩy của số thập phân cần có bao nhiêu chữ số và dấu âm giữ nguyên thế nào?",
+        "steps": "Mẫu số là 100 có 2 số 0 nên ta đếm từ phải sang trái 2 chữ số ở tử số để đặt dấu phẩy: -125/100 = -1.25.",
+        "trap": "Đặt sai vị trí dấu phẩy thành -12.5 hoặc làm mất dấu âm thành 1.25."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c7_d1_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Giá trị theo hàng của số thập phân",
+      "question": "Trong số thập phân 47.382, chữ số 8 có giá trị thuộc hàng nào sau đây?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "Hàng phần mười",
+        "Hàng phần trăm",
+        "Hàng phần nghìn",
+        "Hàng đơn vị"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
+        "concept": "Vị trí và tên gọi các hàng trong phần thập phân.",
+        "socraticPrompt": "Sau dấu phẩy, chữ số đầu tiên là hàng phần mười, vậy chữ số thứ hai ngay sau nó là hàng gì?",
+        "steps": "Số 47.382 có: chữ số 3 ở hàng phần mười, chữ số 8 ở hàng phần trăm, chữ số 2 ở hàng phần nghìn.",
+        "trap": "Nhầm thứ tự các hàng sau dấu phẩy hoặc nhầm với hàng chục, hàng trăm ở phần nguyên."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c7_d1_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "So sánh hai số thập phân âm",
+      "question": "Khẳng định so sánh nào sau đây là ĐÚNG giữa hai số thập phân -3.15 và -3.149?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "-3.15 > -3.149",
+        "-3.15 = -3.149",
+        "-3.15 < -3.149",
+        "-3.15 ≥ 0"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
+        "concept": "Quy tắc so sánh hai số thập phân có cùng dấu âm.",
+        "socraticPrompt": "So sánh hai số dương 3.150 và 3.149: số nào lớn hơn? Khi đổi sang số âm thì chiều so sánh thay đổi như thế nào?",
+        "steps": "Viết -3.15 thành -3.150. Vì 3.150 > 3.149 nên số âm có giá trị tuyệt đối lớn hơn sẽ nhỏ hơn: -3.150 < -3.149, tức là -3.15 < -3.149.",
+        "trap": "Thấy 3.15 ngắn hơn 3.149 nên nghĩ -3.15 lớn hơn, hoặc nhầm chiều so sánh của số âm."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c7_d1_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Làm tròn số thập phân đến hàng phần mười",
+      "question": "Làm tròn số 18.476 đến hàng phần mười (chữ số thập phân thứ nhất) ta được kết quả là:",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "18.4",
+        "18.48",
+        "18.5",
+        "19.0"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
+        "concept": "Quy tắc làm tròn số thập phân đến hàng chỉ định.",
+        "socraticPrompt": "Hàng phần mười là chữ số 4. Chữ số ngay sau nó là 7 (lớn hơn hoặc bằng 5). Em cần cộng thêm bao nhiêu vào chữ số 4?",
+        "steps": "Hàng phần mười là chữ số 4. Chữ số ngay bên phải là 7. Vì 7 ≥ 5 nên cộng thêm 1 vào chữ số hàng phần mười: 4 + 1 = 5, bỏ các chữ số sau. Kết quả là 18.5.",
+        "trap": "Chọn 18.4 do quên không cộng 1 khi chữ số sau lớn hơn hoặc bằng 5."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c7_d1_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "Làm tròn số tự nhiên đến hàng trăm",
+      "question": "Làm tròn số 45 826 đến hàng trăm ta được kết quả là số nào sau đây?",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "45 800",
+        "45 900",
+        "45 830",
+        "46 000"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
+        "concept": "Làm tròn số tự nhiên đến hàng trăm.",
+        "socraticPrompt": "Hàng trăm là chữ số 8. Chữ số ngay sau nó ở hàng chục là 2. Chữ số 2 nhỏ hơn 5 thì chữ số hàng trăm giữ nguyên hay tăng lên?",
+        "steps": "Chữ số hàng trăm là 8. Chữ số ngay bên phải (hàng chục) là 2. Vì 2 < 5 nên giữ nguyên chữ số 8, thay các chữ số hàng chục và đơn vị bằng hai số 0. Ta được 45 800.",
+        "trap": "Nhìn chữ số 6 ở hàng đơn vị rồi làm tròn tăng dần dây chuyền thành 45 900."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c7_d1_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "Ứng dụng làm tròn trong đo đạc thực tế",
+      "question": "Một thanh thép có chiều dài đo được là 24.38 cm. Khi làm tròn chiều dài thanh thép này đến hàng đơn vị (centimét gần nhất), ta được kết quả là:",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "25 cm",
+        "24.4 cm",
+        "24 cm",
+        "24.3 cm"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
+        "concept": "Làm tròn số đo thực tế đến hàng đơn vị.",
+        "socraticPrompt": "Hàng đơn vị là chữ số 4. Chữ số ngay sau nó ở hàng phần mười là chữ số 3. Vì 3 nhỏ hơn 5, ta giữ nguyên chữ số 4 hay tăng lên?",
+        "steps": "Hàng đơn vị là chữ số 4. Chữ số ngay bên phải là chữ số 3 (ở hàng phần mười). Do 3 < 5 nên giữ nguyên chữ số 4 và bỏ phần thập phân. Kết quả là 24 cm.",
+        "trap": "Làm tròn đến hàng phần mười (24.4 cm) thay vì hàng đơn vị theo đúng yêu cầu đề bài."
       }
     }
   ]

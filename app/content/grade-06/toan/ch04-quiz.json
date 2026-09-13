@@ -1,117 +1,127 @@
 {
   "chapterId": "ch04",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 4: Một số hình phẳng trong thực tiễn: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 4: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi tổng hợp kiểm tra năng lực tư duy hình học và giải quyết vấn đề thực tiễn theo chuẩn GDPT 2018.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c4_th_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 4: Một số hình phẳng trong thực tiễn được phát biểu chính xác là:",
+      "topic": "Nhận biết các loại tứ giác đặc biệt",
+      "question": "Tứ giác nào sau đây có hai đường chéo vừa bằng nhau vừa vuông góc với nhau tại trung điểm của mỗi đường?",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 4: Một số hình phẳng trong thực tiễn theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Hình vuông",
+        "Hình thoi",
+        "Hình chữ nhật",
+        "Hình bình hành"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 4: Một số hình phẳng trong thực tiễn.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Dấu hiệu nhận biết hình vuông qua tính chất hai đường chéo.",
+        "socraticPrompt": "Hình nào kết hợp cả tính chất của hình chữ nhật (đường chéo bằng nhau) và hình thoi (đường chéo vuông góc)?",
+        "steps": "Hình vuông có hai đường chéo vừa bằng nhau, vừa vuông góc và cắt nhau tại trung điểm mỗi đường.",
+        "trap": "Nhầm với hình thoi (đường chéo vuông góc nhưng không bằng nhau) hoặc hình chữ nhật (đường chéo bằng nhau nhưng không vuông góc)."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c4_th_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "topic": "Tính chất lục giác đều",
+      "question": "Một hình lục giác đều được ghép lại từ 6 tam giác đều có cạnh 4 cm. Chu vi của hình lục giác đều này bằng:",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "24 cm",
+        "18 cm",
+        "36 cm",
+        "30 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Cấu tạo và chu vi của hình lục giác đều.",
+        "socraticPrompt": "Khi ghép 6 tam giác đều cạnh 4 cm lại thì đường viền ngoài của lục giác đều có bao nhiêu cạnh, mỗi cạnh dài bao nhiêu?",
+        "steps": "Đường viền ngoài của lục giác đều gồm 6 cạnh, mỗi cạnh chính là cạnh của tam giác đều bằng 4 cm. Chu vi = 6 × 4 = 24 cm.",
+        "trap": "Cộng cả các cạnh bên trong tam giác (lấy 6 × 3 = 18 cạnh nhân 4 = 72 cm)."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c4_th_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "topic": "Đường chéo hình thoi",
+      "question": "Một tấm bìa hình thoi có diện tích 48 cm². Biết độ dài một đường chéo là 8 cm, độ dài đường chéo còn lại là:",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "12 cm",
+        "6 cm",
+        "16 cm",
+        "24 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Tính độ dài đường chéo hình thoi từ diện tích.",
+        "socraticPrompt": "Diện tích S = (d₁ · d₂) / 2. Vậy tích hai đường chéo bằng 2 lần diện tích, tức là bao nhiêu?",
+        "steps": "Tích hai đường chéo = 48 × 2 = 96 cm². Đường chéo còn lại = 96 / 8 = 12 cm.",
+        "trap": "Quên nhân đôi diện tích, lấy luôn 48 / 8 = 6 cm."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c4_th_q4",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Diện tích hình phẳng phức hợp",
+      "question": "Một mảnh đất gồm một hình chữ nhật kích thước 10 m × 6 m ghép với một tam giác vuông có hai cạnh góc vuông là 6 m và 4 m. Tổng diện tích mảnh đất là:",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "72 m²",
+        "84 m²",
+        "68 m²",
+        "96 m²"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Phương pháp cộng diện tích các hình thành phần.",
+        "socraticPrompt": "Em hãy tính riêng diện tích hình chữ nhật và diện tích tam giác vuông rồi cộng lại với nhau.",
+        "steps": "Bước 1: Diện tích hình chữ nhật = 10 × 6 = 60 m². Bước 2: Diện tích tam giác vuông = (6 × 4) / 2 = 12 m². Bước 3: Tổng diện tích = 60 + 12 = 72 m².",
+        "trap": "Quên chia đôi diện tích tam giác vuông (lấy 6 × 4 = 24 m² dẫn đến kết quả 84 m²)."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c4_th_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "Toán thực tế diện tích lối đi",
+      "question": "Người ta làm một lối đi rộng 1 m bao quanh một bể bơi hình chữ nhật có kích thước 12 m × 8 m. Diện tích của lối đi đó là:",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "44 m²",
+        "40 m²",
+        "48 m²",
+        "52 m²"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Tính diện tích phần lối đi bao quanh bằng phương pháp trừ diện tích.",
+        "socraticPrompt": "Khi làm lối đi rộng 1 m về cả hai phía thì chiều dài và chiều rộng của toàn bộ khu vực tăng thêm bao nhiêu mét?",
+        "steps": "Bước 1: Kích thước toàn bộ cả lối đi: Chiều dài = 12 + 1 + 1 = 14 m, Chiều rộng = 8 + 1 + 1 = 10 m. Bước 2: Tổng diện tích = 14 × 10 = 140 m². Bước 3: Diện tích bể bơi = 12 × 8 = 96 m². Bước 4: Diện tích lối đi = 140 - 96 = 44 m².",
+        "trap": "Chỉ cộng 1 m vào chiều dài và chiều rộng thay vì cộng cả 2 phía (+2 m)."
       }
     },
     {
-      "id": "q06",
+      "id": "t6_c4_th_q6",
       "difficulty": "expert",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Bài toán thực tế chu vi và diện tích cực trị",
+      "question": "Một mảnh đất hình chữ nhật có chu vi 100 m. Nếu giảm chiều dài đi 5 m và tăng chiều rộng thêm 5 m thì mảnh đất trở thành hình vuông. Diện tích ban đầu của mảnh đất là:",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "600 m²",
+        "625 m²",
+        "575 m²",
+        "525 m²"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Mối quan hệ giữa chu vi, cạnh hình vuông và diện tích hình chữ nhật.",
+        "socraticPrompt": "Nửa chu vi mảnh đất là bao nhiêu? Khi trở thành hình vuông thì cạnh hình vuông bằng nửa chu vi chia đôi.",
+        "steps": "Bước 1: Nửa chu vi = 100 / 2 = 50 m. Bước 2: Cạnh hình vuông sau khi biến đổi = 50 / 2 = 25 m. Bước 3: Chiều dài ban đầu = 25 + 5 = 30 m; Chiều rộng ban đầu = 25 - 5 = 20 m. Bước 4: Diện tích ban đầu = 30 × 20 = 600 m².",
+        "trap": "Lấy luôn diện tích hình vuông 25 × 25 = 625 m² thay vì diện tích ban đầu của hình chữ nhật."
       }
     }
   ]

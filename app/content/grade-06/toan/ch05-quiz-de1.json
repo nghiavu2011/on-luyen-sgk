@@ -1,116 +1,127 @@
 {
   "chapterId": "ch05",
   "examId": "de1",
-  "title": "Toán 6 — Chương 5: Tính đối xứng của hình phẳng trong tự nhiên: Đề 1: Khái niệm & Nhận biết",
-  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "title": "Toán 6 — Chương 5: Đề 1 — Trục đối xứng trong tự nhiên",
+  "description": "Bộ đề kiểm tra nhận biết và thông hiểu về trục đối xứng của các hình hình học và trong đời sống thực tế.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c5_d1_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 5: Tính đối xứng của hình phẳng trong tự nhiên?",
+      "topic": "Trục đối xứng của tam giác đều",
+      "question": "Hình tam giác đều có bao nhiêu trục đối xứng?",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 5: Tính đối xứng của hình phẳng trong tự nhiên",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "3 trục đối xứng",
+        "1 trục đối xứng",
+        "2 trục đối xứng",
+        "Vô số trục đối xứng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 5: Tính đối xứng của hình phẳng trong tự nhiên.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
+        "concept": "Số lượng trục đối xứng của tam giác đều theo SGK Toán 6.",
+        "socraticPrompt": "Tam giác đều có mấy đỉnh và mấy cạnh bằng nhau? Mỗi đường kẻ từ đỉnh vuông góc với cạnh đối diện có phải là trục đối xứng không?",
+        "steps": "Tam giác đều có 3 trục đối xứng là 3 đường trung trực của 3 cạnh (đồng thời là 3 đường cao xuất phát từ 3 đỉnh).",
+        "trap": "Nhầm với tam giác cân (chỉ có 1 trục đối xứng)."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c5_d1_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Trục đối xứng của chữ cái",
+      "question": "Chữ cái in hoa nào sau đây có đúng một trục đối xứng thẳng đứng?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "Chữ M",
+        "Chữ N",
+        "Chữ S",
+        "Chữ P"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
+        "concept": "Trục đối xứng thẳng đứng của các ký tự chữ cái.",
+        "socraticPrompt": "Em thử tưởng tượng kẻ một đường dọc chính giữa chữ cái, chữ nào hai nửa trái phải gấp lại trùng khít nhau?",
+        "steps": "Chữ M có một trục đối xứng thẳng đứng chia đôi chữ thành 2 phần cân xứng. Chữ N và S có tâm đối xứng chứ không có trục đối xứng.",
+        "trap": "Nhầm chữ N hoặc S có trục đối xứng (thực chất chúng chỉ có tâm đối xứng)."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c5_d1_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "Trục đối xứng của hình chữ nhật",
+      "question": "Khẳng định nào sau đây về trục đối xứng của hình chữ nhật là ĐÚNG?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "Hình chữ nhật có 2 trục đối xứng là hai đường thẳng đi qua trung điểm từng cặp cạnh đối diện",
+        "Hình chữ nhật có 2 trục đối xứng chính là hai đường chéo của nó",
+        "Hình chữ nhật có 4 trục đối xứng bao gồm hai đường chéo và hai trục cạnh",
+        "Hình chữ nhật không có trục đối xứng nào trong hình học phẳng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
+        "concept": "Tính chất trục đối xứng của hình chữ nhật.",
+        "socraticPrompt": "Nếu gấp hình chữ nhật theo đường chéo thì hai nửa có chồng khít lên nhau không?",
+        "steps": "Hình chữ nhật có 2 trục đối xứng là hai đường trung trực của hai cặp cạnh đối. Hai đường chéo không phải là trục đối xứng.",
+        "trap": "Nhiều bạn nhầm tưởng hai đường chéo của hình chữ nhật là hai trục đối xứng."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c5_d1_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Trục đối xứng trong đời sống",
+      "question": "Trong các biển báo giao thông sau, biển báo nào có trục đối xứng?",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "Biển báo cấm đi ngược chiều (hình tròn đỏ có vạch trắng nằm ngang)",
+        "Biển báo nguy hiểm đường trơn trượt (vẽ vệt bánh xe ngoằn ngoèo)",
+        "Biển báo hiệu lệnh rẽ phải (mũi tên uốn cong sang một bên)",
+        "Biển báo khu vực công trường thi công (vẽ người cầm xẻng xúc đất)"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
+        "concept": "Ứng dụng hình học đối xứng trong biển báo giao thông.",
+        "socraticPrompt": "Biển báo nào có họa tiết đối xứng qua một đường thẳng ở chính giữa?",
+        "steps": "Biển báo cấm đi ngược chiều gồm hình tròn đỏ và dải chữ nhật trắng nằm ngang, có cả trục đối xứng ngang và trục đối xứng dọc.",
+        "trap": "Các hình vẽ người, vệt bánh xe hay mũi tên rẽ hướng là hình bất đối xứng."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c5_d1_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "Tính chất bảo toàn khoảng cách của trục đối xứng",
+      "question": "Cho đoạn thẳng AB = 8 cm có d là đường trung trực. Lấy điểm M trên đoạn thẳng AB sao cho AM = 3 cm. Điểm M' đối xứng với M qua d. Độ dài đoạn thẳng BM' là:",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "3 cm",
+        "5 cm",
+        "4 cm",
+        "1 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
+        "concept": "Phép đối xứng trục biến điểm đầu mút A thành B và bảo toàn khoảng cách.",
+        "socraticPrompt": "Đường trung trực d đối xứng điểm A thành điểm nào? Vậy điểm M cách A 3 cm thì điểm M' cách đầu mút tương ứng bao nhiêu?",
+        "steps": "Đường trung trực d của AB biến điểm A thành B. Điểm M nằm trên AB cách A 3 cm thì điểm đối xứng M' sẽ nằm trên AB và cách B một khoảng đúng bằng 3 cm.",
+        "trap": "Nhầm tính khoảng cách M' đến A thay vì khoảng cách M' đến B."
       }
     },
     {
-      "id": "q06",
+      "id": "t6_c5_d1_q6",
       "difficulty": "expert",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "So sánh trục đối xứng các hình hình học",
+      "question": "Khẳng định nào sau đây về số lượng trục đối xứng của hình tròn và hình vuông là ĐÚNG?",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "Hình tròn có vô số trục đối xứng, còn hình vuông có đúng 4 trục đối xứng",
+        "Hình tròn có 8 trục đối xứng, còn hình vuông có đúng 4 trục đối xứng",
+        "Hình tròn có 4 trục đối xứng, còn hình vuông có đúng 2 trục đối xứng",
+        "Cả hình tròn và hình vuông đều có số lượng trục đối xứng bằng nhau"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
+        "concept": "Số lượng trục đối xứng của đường tròn so với đa giác đều.",
+        "socraticPrompt": "Bất kỳ đường thẳng nào đi qua tâm hình tròn đều có phải là trục đối xứng không? Hình vuông có mấy trục đối xứng?",
+        "steps": "Mọi đường thẳng đi qua tâm của hình tròn đều là trục đối xứng, do đó hình tròn có vô số trục đối xứng. Hình vuông có đúng 4 trục đối xứng (2 đường chéo và 2 đường nối trung điểm cạnh đối).",
+        "trap": "Nghĩ rằng hình tròn chỉ có một số hữu hạn các trục đối xứng."
       }
     }
   ]

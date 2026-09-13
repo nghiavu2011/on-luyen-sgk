@@ -1,117 +1,127 @@
 {
   "chapterId": "ch08",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 8: Những hình hình học cơ bản: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 8: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính toán đoạn thẳng phức tạp, tia đối và ứng dụng thực tiễn.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c8_th_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 8: Những hình hình học cơ bản được phát biểu chính xác là:",
+      "topic": "Khẳng định về quan hệ giữa các tia",
+      "question": "Cho điểm M nằm giữa hai điểm E và F. Khẳng định nào sau đây là SAI?",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 8: Những hình hình học cơ bản theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Hai tia ME và MF là hai tia đối nhau",
+        "Hai tia EM và EF là hai tia trùng nhau",
+        "Hai tia ME và MF là hai tia trùng nhau",
+        "Độ dài đoạn thẳng EF = EM + MF"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 8: Những hình hình học cơ bản.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Phân biệt hai tia đối nhau và hai tia trùng nhau.",
+        "socraticPrompt": "Điểm M nằm giữa E và F thì tia ME hướng về điểm E còn tia MF hướng về điểm F, hai tia này đối nhau hay trùng nhau?",
+        "steps": "Vì M nằm giữa E và F nên hai tia ME và MF chung gốc M và kéo dài về hai phía ngược nhau, do đó chúng là hai tia đối nhau. Khẳng định chúng là hai tia trùng nhau là SAI.",
+        "trap": "Nhầm lẫn giữa hai tia đối nhau và hai tia trùng nhau."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c8_th_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "topic": "Tính độ dài đoạn thẳng qua hai trung điểm liên tiếp",
+      "question": "Cho đoạn thẳng AB = 16 cm. Điểm C là trung điểm của AB, điểm D là trung điểm của AC. Độ dài của đoạn thẳng CD bằng bao nhiêu?",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "4 cm",
+        "8 cm",
+        "6 cm",
+        "2 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Áp dụng định nghĩa trung điểm liên tiếp hai lần.",
+        "socraticPrompt": "C là trung điểm của AB thì AC bằng bao nhiêu? D là trung điểm của AC thì CD bằng AC chia mấy?",
+        "steps": "Vì C là trung điểm AB nên AC = CB = AB / 2 = 16 / 2 = 8 cm. Vì D là trung điểm AC nên AD = CD = AC / 2 = 8 / 2 = 4 cm.",
+        "trap": "Dừng lại ở bước tính AC = 8 cm mà quên tính tiếp CD."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c8_th_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "topic": "Nhận biết góc nhọn",
+      "question": "Góc xOy có số đo bằng 65°. Hỏi góc xOy thuộc loại góc nào sau đây?",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "Góc tù",
+        "Góc vuông",
+        "Góc nhọn",
+        "Góc bẹt"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Nhận dạng góc nhọn có số đo từ 0° đến 90°.",
+        "socraticPrompt": "Góc 65 độ lớn hơn 0 độ và nhỏ hơn 90 độ thì theo định nghĩa đó là góc gì?",
+        "steps": "Vì 0° < 65° < 90° nên góc xOy là góc nhọn.",
+        "trap": "Nhầm với góc vuông (90°) hoặc góc tù (lớn hơn 90°)."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c8_th_q4",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Đếm số đoạn thẳng trên một đường thẳng",
+      "question": "Trên một đường thẳng lấy 4 điểm phân biệt A, B, C, D. Có tất cả bao nhiêu đoạn thẳng có hai đầu mút là hai trong bốn điểm đó?",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "4 đoạn thẳng",
+        "6 đoạn thẳng",
+        "8 đoạn thẳng",
+        "12 đoạn thẳng"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Công thức tính số đoạn thẳng từ n điểm: n(n - 1) / 2.",
+        "socraticPrompt": "Liệt kê các đoạn thẳng: AB, AC, AD, BC, BD, CD. Có tổng cộng bao nhiêu đoạn thẳng tất cả?",
+        "steps": "Số đoạn thẳng được tạo thành từ 4 điểm là: 4 · (4 - 1) / 2 = (4 · 3) / 2 = 6 đoạn thẳng (cụ thể gồm: AB, AC, AD, BC, BD, CD).",
+        "trap": "Chỉ đếm các đoạn thẳng kề nhau (AB, BC, CD) thành 3 hoặc 4 đoạn mà quên các đoạn lớn."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c8_th_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "Tính độ dài điểm trên tia đối",
+      "question": "Cho đoạn thẳng AB = 8 cm. Trên tia đối của tia AB lấy điểm M sao cho AM = 3 cm. Độ dài của đoạn thẳng MB bằng bao nhiêu?",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "5 cm",
+        "11 cm",
+        "14 cm",
+        "6 cm"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Xác định vị trí điểm và cộng độ dài trên tia đối.",
+        "socraticPrompt": "Điểm M nằm trên tia đối của tia AB nên tia AM và tia AB là hai tia đối nhau. Điểm nào nằm giữa M và B?",
+        "steps": "Vì điểm M nằm trên tia đối của tia AB nên điểm A nằm giữa hai điểm M và B. Ta có hệ thức: MA + AB = MB. Suy ra: MB = 3 + 8 = 11 cm.",
+        "trap": "Lấy 8 - 3 = 5 cm do nhầm điểm M nằm trên tia AB thay vì tia đối của tia AB."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c8_th_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Tính số đo góc kim đồng hồ lúc 5 giờ",
+      "question": "Lúc 5 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ có số đo bằng bao nhiêu độ?",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "150°",
+        "120°",
+        "160°",
+        "140°"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Tính số đo góc giữa hai kim đồng hồ trong thực tế.",
+        "socraticPrompt": "Mỗi khoảng giờ trên mặt đồng hồ ứng với góc 30 độ. Lúc 5 giờ đúng, hai kim cách nhau đúng 5 khoảng giờ, góc tạo thành bằng bao nhiêu?",
+        "steps": "Mỗi khoảng giữa hai số liên tiếp trên mặt đồng hồ tương ứng với góc 360° : 12 = 30°. Lúc 5 giờ đúng, kim phút chỉ số 12 và kim giờ chỉ số 5 (cách nhau 5 khoảng giờ). Số đo góc tạo bởi hai kim là: 5 · 30° = 150°.",
+        "trap": "Tính nhầm 5 · 30° = 120° hoặc 160°."
       }
     }
   ]

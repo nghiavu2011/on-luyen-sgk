@@ -1,116 +1,127 @@
 {
   "chapterId": "ch04",
   "examId": "de1",
-  "title": "Toán 6 — Chương 4: Một số hình phẳng trong thực tiễn: Đề 1: Khái niệm & Nhận biết",
-  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "title": "Toán 6 — Chương 4: Đề 1 — Nhận diện đặc điểm các hình phẳng",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết và thông hiểu đặc điểm hình học phẳng theo chuẩn SGK.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c4_d1_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 4: Một số hình phẳng trong thực tiễn?",
+      "topic": "Tam giác đều",
+      "question": "Hình nào sau đây luôn có 3 cạnh bằng nhau và 3 góc bằng nhau (mỗi góc bằng 60°)?",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 4: Một số hình phẳng trong thực tiễn",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "Tam giác đều",
+        "Tam giác cân",
+        "Tam giác vuông",
+        "Hình thoi"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 4: Một số hình phẳng trong thực tiễn.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
+        "concept": "Định nghĩa tam giác đều trong hình học trực quan.",
+        "socraticPrompt": "Em hãy nhớ lại tam giác có 3 cạnh bằng nhau thì tên gọi chính xác là gì?",
+        "steps": "Tam giác đều là tam giác có cả 3 cạnh bằng nhau và 3 góc bằng nhau, mỗi góc bằng 60°.",
+        "trap": "Nhầm với tam giác cân (tam giác cân chỉ có 2 cạnh bằng nhau)."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c4_d1_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Tính chất hình chữ nhật",
+      "question": "Khẳng định nào sau đây về tính chất của hình chữ nhật là SAI?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "Hai đường chéo vuông góc với nhau",
+        "Bốn góc bằng nhau và bằng 90°",
+        "Hai đường chéo có độ dài bằng nhau",
+        "Các cạnh đối song song và bằng nhau"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
+        "concept": "Tính chất các đường chéo trong hình chữ nhật và hình thoi.",
+        "socraticPrompt": "Hình chữ nhật có nhất thiết hai đường chéo phải vuông góc với nhau không, hay đó là tính chất của hình thoi?",
+        "steps": "Hình chữ nhật có 4 góc vuông, 2 đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường. Hai đường chéo chỉ vuông góc khi nó là hình vuông.",
+        "trap": "Nhầm lẫn tính chất vuông góc của đường chéo hình thoi sang hình chữ nhật."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c4_d1_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "Chu vi lục giác đều",
+      "question": "Một hình lục giác đều có độ dài một cạnh là 5 cm. Chu vi của hình lục giác đều đó bằng bao nhiêu?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "30 cm",
+        "25 cm",
+        "36 cm",
+        "20 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
+        "concept": "Công thức tính chu vi của đa giác đều: Chu vi = số cạnh × độ dài một cạnh.",
+        "socraticPrompt": "Lục giác đều có bao nhiêu cạnh bằng nhau? Em lấy số cạnh đó nhân với độ dài 1 cạnh nhé.",
+        "steps": "Lục giác đều có 6 cạnh bằng nhau. Chu vi = 6 × 5 cm = 30 cm.",
+        "trap": "Nhầm lục giác (6 cạnh) với ngũ giác (5 cạnh, ra 25 cm)."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c4_d1_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Chu vi hình thoi",
+      "question": "Cho hình thoi ABCD có độ dài cạnh bằng 6 cm. Chu vi của hình thoi ABCD là:",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "24 cm",
+        "18 cm",
+        "36 cm",
+        "12 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
+        "concept": "Tính chất 4 cạnh bằng nhau của hình thoi và công thức tính chu vi.",
+        "socraticPrompt": "Hình thoi có 4 cạnh như thế nào với nhau? Muốn tính chu vi ta làm phép tính gì?",
+        "steps": "Hình thoi có 4 cạnh đều bằng 6 cm. Chu vi = 4 × 6 = 24 cm.",
+        "trap": "Lấy 6 × 6 = 36 cm (nhầm sang công thức diện tích hình vuông)."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c4_d1_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "Chu vi và diện tích hình chữ nhật",
+      "question": "Một mảnh vườn hình chữ nhật có diện tích 120 m² và chiều dài là 15 m. Chu vi của mảnh vườn đó là:",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "46 m",
+        "38 m",
+        "52 m",
+        "60 m"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
+        "concept": "Tìm cạnh còn lại từ diện tích và tính chu vi hình chữ nhật.",
+        "socraticPrompt": "Biết diện tích và chiều dài, em tính chiều rộng bằng cách nào? Sau đó tính chu vi ra sao?",
+        "steps": "Bước 1: Chiều rộng = 120 / 15 = 8 m. Bước 2: Chu vi = 2 × (15 + 8) = 2 × 23 = 46 m.",
+        "trap": "Quên nhân 2 trong công thức tính chu vi, chỉ tính 15 + 8 = 23 m hoặc tính nhầm chiều rộng."
       }
     },
     {
-      "id": "q06",
+      "id": "t6_c4_d1_q6",
       "difficulty": "expert",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "Diện tích hình thoi thực tế",
+      "question": "Một bồn hoa hình thoi có độ dài hai đường chéo lần lượt là 6 m và 8 m. Người ta trồng hoa với chi phí 50.000 đồng/m². Tổng chi phí để trồng hoa cho toàn bộ bồn hoa là:",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "1.200.000 đồng",
+        "2.400.000 đồng",
+        "900.000 đồng",
+        "1.600.000 đồng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
+        "concept": "Tính diện tích hình thoi và bài toán chi phí thực tế.",
+        "socraticPrompt": "Công thức tính diện tích hình thoi khi biết 2 đường chéo là gì? Đừng quên chia đôi nhé.",
+        "steps": "Bước 1: Diện tích hình thoi = (6 × 8) / 2 = 24 m². Bước 2: Tổng chi phí = 24 × 50.000 = 1.200.000 đồng.",
+        "trap": "Quên chia 2 khi tính diện tích (lấy 6 × 8 = 48 m²), dẫn tới kết quả sai 2.400.000 đồng."
       }
     }
   ]

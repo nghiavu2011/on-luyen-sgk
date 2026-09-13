@@ -1,116 +1,127 @@
 {
   "chapterId": "ch09",
   "examId": "de1",
-  "title": "Toán 6 — Chương 9: Dữ liệu và xác suất thực nghiệm: Đề 1: Khái niệm & Nhận biết",
-  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "title": "Toán 6 — Chương 9: Đề 1 — Thu thập dữ liệu & Đọc biểu đồ tranh",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng phân loại dữ liệu, đánh giá tính hợp lý và đọc biểu đồ tranh.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c9_d1_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 9: Dữ liệu và xác suất thực nghiệm?",
+      "topic": "Phân loại dữ liệu số",
+      "question": "Dãy dữ liệu nào sau đây là dãy dữ liệu số (số liệu)?",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 9: Dữ liệu và xác suất thực nghiệm",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "Số anh chị em trong gia đình",
+        "Màu sắc yêu thích của học sinh",
+        "Tên các quận huyện của thành phố",
+        "Nơi sinh của các thành viên"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 9: Dữ liệu và xác suất thực nghiệm.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
+        "concept": "Phân biệt dữ liệu là số (số liệu) và dữ liệu không phải là số.",
+        "socraticPrompt": "Trong các thông tin trên, thông tin nào được biểu diễn bằng các con số đếm được?",
+        "steps": "Số anh chị em trong gia đình là các con số cụ thể (như 1, 2, 3...), do đó đây là dãy dữ liệu số (số liệu). Các phương án còn lại là dữ liệu định tính không phải là số.",
+        "trap": "Nhầm lẫn giữa dữ liệu chữ (tên, màu sắc) và dữ liệu số."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c9_d1_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Tính hợp lý của dữ liệu",
+      "question": "Trong bảng khảo sát điểm kiểm tra môn Toán của 5 học sinh gồm: 8; 9; 10; 12; 7. Giá trị nào sau đây là KHÔNG hợp lý?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "Điểm 10",
+        "Điểm 12",
+        "Điểm 7",
+        "Điểm 8"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
+        "concept": "Tiêu chí đánh giá tính hợp lý của số liệu thực tế.",
+        "socraticPrompt": "Thang điểm kiểm tra môn học theo chuẩn Bộ Giáo dục có điểm tối đa là bao nhiêu?",
+        "steps": "Thang điểm kiểm tra chuẩn từ 0 đến 10. Do đó điểm 12 vượt quá giới hạn tối đa nên là giá trị không hợp lý.",
+        "trap": "Nghĩ rằng điểm 10 là không hợp lý vì khó đạt được."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c9_d1_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "Đọc biểu đồ tranh",
+      "question": "Trong một biểu đồ tranh, một biểu tượng ngôi sao đại diện cho 5 điểm tốt. Nếu tổ một có 6 biểu tượng ngôi sao thì tổ một đã đạt được bao nhiêu điểm tốt?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "30 điểm tốt",
+        "25 điểm tốt",
+        "35 điểm tốt",
+        "11 điểm tốt"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
+        "concept": "Quy tắc tính giá trị thực tế từ biểu đồ tranh: số biểu tượng nhân giá trị quy ước.",
+        "socraticPrompt": "Mỗi biểu tượng là 5 điểm tốt, tổ một có 6 biểu tượng như thế thì có bao nhiêu điểm tốt?",
+        "steps": "Số điểm tốt của tổ một là: 6 · 5 = 30 điểm tốt.",
+        "trap": "Cộng 6 + 5 = 11 điểm tốt do nhầm phép nhân thành phép cộng."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c9_d1_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Phương pháp thu thập dữ liệu phù hợp",
+      "question": "Để tìm hiểu về môn thể thao yêu thích của các bạn học sinh trong khối 6, phương pháp thu thập dữ liệu nào sau đây là phù hợp và thuận tiện nhất?",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "Làm thí nghiệm trong phòng thí nghiệm",
+        "Lập phiếu hỏi khảo sát ý kiến",
+        "Đo đạc bằng thước cuộn",
+        "Quan sát bầu trời hàng ngày"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
+        "concept": "Lựa chọn phương pháp thu thập dữ liệu phù hợp với mục tiêu điều tra.",
+        "socraticPrompt": "Muốn biết sở thích cá nhân của nhiều người, phương pháp nào hỏi được trực tiếp ý kiến của họ?",
+        "steps": "Sở thích là ý kiến cá nhân nên phương pháp lập phiếu hỏi khảo sát (trực tiếp hoặc trực tuyến) là tối ưu và thuận tiện nhất.",
+        "trap": "Chọn làm thí nghiệm hoặc đo đạc vốn chỉ dùng cho các hiện tượng tự nhiên hay kích thước vật lý."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c9_d1_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "So sánh số liệu trên biểu đồ tranh",
+      "question": "Biểu đồ tranh biểu diễn số cây trồng được của hai lớp: lớp 6A có 4 biểu tượng cây, lớp 6B có 6 biểu tượng cây. Biết mỗi biểu tượng cây đại diện cho 8 cây xanh. Hỏi lớp 6B trồng nhiều hơn lớp 6A bao nhiêu cây xanh?",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "16 cây xanh",
+        "12 cây xanh",
+        "24 cây xanh",
+        "8 cây xanh"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
+        "concept": "Tính độ chênh lệch thực tế từ số lượng biểu tượng trong biểu đồ tranh.",
+        "socraticPrompt": "Lớp 6B nhiều hơn lớp 6A mấy biểu tượng cây? Lấy số biểu tượng chênh lệch đó nhân với 8 cây?",
+        "steps": "Cách 1: Lớp 6B trồng: 6 · 8 = 48 cây. Lớp 6A trồng: 4 · 8 = 32 cây. Chênh lệch: 48 - 32 = 16 cây. Cách 2: Chênh lệch số biểu tượng: 6 - 4 = 2 biểu tượng. Số cây chênh lệch: 2 · 8 = 16 cây.",
+        "trap": "Lấy 6 - 4 = 2 cây (quên nhân với giá trị quy ước 8 cây/biểu tượng)."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c9_d1_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "Đọc bảng dữ liệu tỉ lệ phần trăm",
+      "question": "Khảo sát 60 học sinh về môn thể thao yêu thích thu được kết quả: Bóng đá chiếm 40%, Bơi lội chiếm 25%, Cầu lông chiếm 20%, Bóng bàn chiếm 15%. Số học sinh thích môn Bóng đá nhiều hơn số học sinh thích Bơi lội là bao nhiêu bạn?",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "9 học sinh",
+        "6 học sinh",
+        "12 học sinh",
+        "15 học sinh"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
+        "concept": "Ứng dụng tỉ số phần trăm tính số lượng chênh lệch từ tổng số liệu khảo sát.",
+        "socraticPrompt": "Bóng đá hơn Bơi lội bao nhiêu phần trăm? Lấy 60 học sinh nhân với tỉ số phần trăm chênh lệch đó?",
+        "steps": "Tỉ số phần trăm chênh lệch giữa Bóng đá và Bơi lội là: 40% - 25% = 15%. Số học sinh chênh lệch là: 60 · 15% = 60 · 15 / 100 = 9 học sinh.",
+        "trap": "Lấy 40 - 25 = 15 rồi kết luận 15 bạn mà không nhân với tổng số 60 học sinh."
       }
     }
   ]

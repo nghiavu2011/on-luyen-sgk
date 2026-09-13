@@ -1,117 +1,127 @@
 {
   "chapterId": "ch05",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 5: Tính đối xứng của hình phẳng trong tự nhiên: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 5: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi tổng hợp đánh giá toàn diện năng lực nhận diện tính đối xứng trục và tâm trong tự nhiên và nghệ thuật.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c5_th_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 5: Tính đối xứng của hình phẳng trong tự nhiên được phát biểu chính xác là:",
+      "topic": "Nhận biết đối xứng trong biển báo giao thông",
+      "question": "Biển báo giao thông hình tròn màu đỏ có một vạch trắng nằm ngang ở giữa (biển cấm đi ngược chiều) có tính chất đối xứng nào?",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 5: Tính đối xứng của hình phẳng trong tự nhiên theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Vừa có trục đối xứng vừa có tâm đối xứng",
+        "Chỉ có trục đối xứng, không có tâm đối xứng",
+        "Chỉ có tâm đối xứng, không có trục đối xứng",
+        "Không có trục đối xứng và không có tâm đối xứng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 5: Tính đối xứng của hình phẳng trong tự nhiên.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Tính đối xứng tổng hợp của hình tròn kết hợp vạch kẻ chữ nhật.",
+        "socraticPrompt": "Biển báo này có thể gấp đôi theo chiều dọc, chiều ngang không? Khi quay 180° có trùng lại chính nó không?",
+        "steps": "Biển báo cấm đi ngược chiều có 2 trục đối xứng (1 trục dọc, 1 trục ngang) và có tâm đối xứng tại tâm của hình tròn.",
+        "trap": "Chỉ nhìn thấy trục đối xứng mà bỏ quên tâm đối xứng."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c5_th_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "topic": "Tính đối xứng trong tự nhiên",
+      "question": "Hình ảnh bông hoa 8 cánh tỏa đều quanh nhị hoa có đặc điểm đối xứng nào sau đây?",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "Có 8 trục đối xứng và 1 tâm đối xứng tại nhị hoa",
+        "Chỉ có 4 trục đối xứng và không có tâm đối xứng",
+        "Có 8 trục đối xứng nhưng không có tâm đối xứng",
+        "Không có trục đối xứng và không có tâm đối xứng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Tính đối xứng của các hình hoa có số cánh chẵn trong tự nhiên.",
+        "socraticPrompt": "Hoa có 8 cánh (số chẵn) tỏa đều quanh tâm thì có tâm đối xứng không? Số trục đối xứng bằng mấy?",
+        "steps": "Hoa 8 cánh đều có 8 trục đối xứng (4 trục qua đỉnh cánh và 4 trục qua khe giữa các cánh) và 1 tâm đối xứng ở tâm nhị hoa.",
+        "trap": "Cho rằng hoa trong tự nhiên không có tâm đối xứng."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c5_th_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "topic": "Tâm đối xứng của chữ số",
+      "question": "Số tự nhiên có hai chữ số nào sau đây khi quay ngược 180° vẫn đọc được thành chính nó?",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "Số 88",
+        "Số 69",
+        "Số 96",
+        "Số 18"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Tâm đối xứng của các con số.",
+        "socraticPrompt": "Chữ số 8 quay 180° ra chữ số mấy? Số nào quay nửa vòng vẫn giữ nguyên giá trị ban đầu?",
+        "steps": "Chữ số 8 có tâm đối xứng. Khi quay số 88 một góc 180°, số 8 ở hàng chục và hàng đơn vị đổi chỗ cho nhau và tự quay, vẫn tạo thành số 88.",
+        "trap": "Số 69 quay 180° thành 69 nhưng chữ số bị đổi chỗ (6 thành 9, 9 thành 6)."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c5_th_q4",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Tính chất đối xứng toàn diện của hình thoi",
+      "question": "Cho hình thoi ABCD có một góc bằng 60°. Khẳng định nào sau đây về tính đối xứng của hình thoi này là ĐÚNG?",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "Có đúng 2 trục đối xứng là hai đường chéo và 1 tâm đối xứng là giao điểm hai đường chéo",
+        "Có 4 trục đối xứng bao gồm hai đường chéo và hai đường trung trực cạnh",
+        "Không có tâm đối xứng vì 4 góc của hình thoi không bằng nhau",
+        "Chỉ có 1 trục đối xứng duy nhất là đường chéo dài AC"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Tính đối xứng của hình thoi không phải là hình vuông.",
+        "socraticPrompt": "Hình thoi có góc 60° thì có phải hình vuông không? Hình thoi thông thường có mấy trục đối xứng?",
+        "steps": "Hình thoi có góc 60° không phải là hình vuông, do đó nó có đúng 2 trục đối xứng là hai đường chéo và 1 tâm đối xứng tại giao điểm hai đường chéo.",
+        "trap": "Nhầm sang tính chất 4 trục đối xứng của hình vuông."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c5_th_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "Bảo toàn tính đối xứng trong kiến trúc và gạch bông",
+      "question": "Một viên gạch bông hình vuông cạnh 30 cm có hoa văn đối xứng qua 4 trục và tâm đối xứng. Người ta ghép 4 viên gạch bông giống hệt nhau đó thành một hình vuông lớn cạnh 60 cm. Hình vuông lớn thu được có tính chất đối xứng nào?",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "Có 4 trục đối xứng và 1 tâm đối xứng tại tâm hình vuông lớn",
+        "Có 8 trục đối xứng và 1 tâm đối xứng tại tâm hình vuông lớn",
+        "Chỉ có 2 trục đối xứng và không có tâm đối xứng",
+        "Có 16 trục đối xứng và 4 tâm đối xứng độc lập"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Tính đối xứng của bố cục ghép hoa văn trong trang trí kiến trúc.",
+        "socraticPrompt": "Hình vuông lớn thu được có dạng hình gì? Tính chất đối xứng của hình vuông lớn là gì?",
+        "steps": "Hình vuông lớn cạnh 60 cm ghép từ 4 viên gạch đối xứng vẫn giữ nguyên trọn vẹn tính đối xứng của một hình vuông: 4 trục đối xứng và 1 tâm đối xứng duy nhất ở tâm.",
+        "trap": "Cộng dồn số trục của 4 viên gạch thành 16 trục hoặc 8 trục."
       }
     },
     {
-      "id": "q06",
+      "id": "t6_c5_th_q6",
       "difficulty": "expert",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Vận dụng tâm đối xứng chứng minh hình bình hành",
+      "question": "Cho tam giác ABC có diện tích bằng 24 cm². Gọi I là trung điểm của cạnh BC. Lấy điểm A' đối xứng với A qua I. Tứ giác ABA'C là hình gì và có diện tích bằng bao nhiêu?",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "Hình bình hành, diện tích bằng 48 cm²",
+        "Hình chữ nhật, diện tích bằng 24 cm²",
+        "Hình thoi, diện tích bằng 48 cm²",
+        "Hình thang cân, diện tích bằng 36 cm²"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Tâm đối xứng tạo nên hình bình hành và tính chất diện tích bằng nhau.",
+        "socraticPrompt": "Tứ giác có hai đường chéo BC và AA' cắt nhau tại trung điểm I của mỗi đường là hình gì? Diện tích so với tam giác ABC gấp mấy lần?",
+        "steps": "Bước 1: Tứ giác ABA'C có hai đường chéo BC và AA' cắt nhau tại trung điểm I của mỗi đường nên là hình bình hành. Bước 2: Điểm I là tâm đối xứng nên hai tam giác ABC và A'BC bằng nhau và có diện tích bằng 24 cm². Bước 3: Diện tích hình bình hành = 2 × 24 = 48 cm².",
+        "trap": "Nhầm tứ giác là hình thoi hoặc nhầm diện tích chỉ bằng 24 cm²."
       }
     }
   ]

@@ -1,117 +1,127 @@
 {
   "chapterId": "ch06",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 6: Phân số: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 6: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính nhanh biểu thức, tìm ẩn và ứng dụng thực tiễn.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c6_th_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 6: Phân số được phát biểu chính xác là:",
+      "topic": "Tính chất cơ bản của phân số",
+      "question": "Khẳng định nào sau đây là SAI về tính chất cơ bản của phân số a/b (b ≠ 0)?",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 6: Phân số theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "Nhân cả tử và mẫu với số nguyên m bất kỳ (m ≠ 0) ta được phân số bằng phân số đã cho",
+        "Cộng cả tử và mẫu với cùng một số nguyên m ta luôn được phân số bằng phân số đã cho",
+        "Chia cả tử và mẫu cho cùng một ước chung n của chúng ta được phân số bằng phân số đã cho",
+        "Phân số a/b bằng phân số -a/-b với mọi số nguyên a và b khác 0"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 6: Phân số.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Các phép biến đổi hợp lệ trong tính chất cơ bản của phân số.",
+        "socraticPrompt": "Tính chất cơ bản của phân số chỉ áp dụng với phép tính nhân hoặc chia, liệu có đúng với phép cộng không?",
+        "steps": "Tính chất cơ bản của phân số chỉ đúng với phép NHÂN hoặc CHIA cả tử và mẫu cho cùng một số khác 0. Phép CỘNG không bảo toàn giá trị phân số (ví dụ: 1/2 ≠ (1+1)/(2+1) = 2/3). Do đó khẳng định cộng cả tử và mẫu là SAI.",
+        "trap": "Ngộ nhận rằng cộng cùng một số vào tử và mẫu thì phân số không đổi."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c6_th_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "topic": "Tính nhanh giá trị biểu thức phân số",
+      "question": "Tính giá trị biểu thức sau một cách hợp lý: M = (5/11) · (7/13) + (5/11) · (6/13) + 6/11?",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "5/11",
+        "13/11",
+        "1",
+        "11/13"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng.",
+        "socraticPrompt": "Nhóm hai tích đầu tiên có chung thừa số 5/11 lại, trong ngoặc tổng 7/13 + 6/13 bằng bao nhiêu?",
+        "steps": "Đặt 5/11 ra ngoài: M = 5/11 · (7/13 + 6/13) + 6/11 = 5/11 · (13/13) + 6/11 = 5/11 · 1 + 6/11 = 5/11 + 6/11 = 11/11 = 1.",
+        "trap": "Nhân dồn từng phân số thành các số lớn rồi cộng lại dễ dẫn đến tính toán nhầm lẫn."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c6_th_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "topic": "Tìm ẩn x trong bài toán phân số",
+      "question": "Tìm số nguyên x thỏa mãn phương trình: 2/3 · x - 1/2 = -5/6?",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "x = 1/2",
+        "x = -1/2",
+        "x = -2",
+        "x = 2"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Quy tắc chuyển vế đổi dấu và thứ tự phép tính trong phân số.",
+        "socraticPrompt": "Chuyển -1/2 sang vế phải thành +1/2. Tính vế phải: -5/6 + 1/2 bằng bao nhiêu rồi chia cho 2/3?",
+        "steps": "Chuyển vế: 2/3 · x = -5/6 + 1/2 = -5/6 + 3/6 = -2/6 = -1/3. Tìm x: x = (-1/3) : (2/3) = (-1/3) · (3/2) = -1/2.",
+        "trap": "Quên đổi dấu khi chuyển -1/2 sang vế phải, dẫn đến tính nhầm thành -8/6."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c6_th_q4",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Bài toán thực tế hai bước về phân số",
+      "question": "Một bác nông dân thu hoạch được 600 kg thóc. Đợt một bác bán đi 1/3 tổng số thóc. Đợt hai bác bán tiếp 3/5 số thóc CÒN LẠI. Hỏi sau hai đợt, bác nông dân còn lại bao nhiêu kilôgam thóc?",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "240 kg thóc",
+        "160 kg thóc",
+        "200 kg thóc",
+        "120 kg thóc"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Bài toán thực tế nhiều bước tìm phân số của số còn lại.",
+        "socraticPrompt": "Đợt một bán 1/3 của 600 kg thì còn lại bao nhiêu? Đợt hai bán 3/5 của số còn lại đó là bao nhiêu kg?",
+        "steps": "Đợt 1 bán: 600 · 1/3 = 200 kg. Số thóc còn lại sau đợt 1: 600 - 200 = 400 kg. Đợt 2 bán: 400 · 3/5 = 240 kg. Số thóc còn lại sau hai đợt: 400 - 240 = 160 kg.",
+        "trap": "Lấy 600 nhân trực tiếp 3/5 = 360 kg ở đợt hai thay vì nhân với số thóc còn lại (400 kg)."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c6_th_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "Phương trình tích phân số nâng cao",
+      "question": "Có bao nhiêu số nguyên x thỏa mãn đẳng thức phân số: (x - 1) / 4 = 9 / (x - 1)?",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "Chỉ có 1 số nguyên là x = 7",
+        "Có đúng 2 số nguyên là x = 7 và x = -5",
+        "Có đúng 2 số nguyên là x = 6 và x = -6",
+        "Vô số giá trị nguyên x thỏa mãn"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Ứng dụng tính chất tích chéo dẫn về phương trình lũy thừa bậc hai.",
+        "socraticPrompt": "Nhân chéo hai phân số ta được (x - 1)^2 = 36. Một số có bình phương bằng 36 thì có thể nhận những giá trị nào?",
+        "steps": "Điều kiện x ≠ 1. Nhân chéo: (x - 1) · (x - 1) = 4 · 9 hay (x - 1)^2 = 36. Vì 6^2 = 36 và (-6)^2 = 36 nên: Trường hợp 1: x - 1 = 6 suy ra x = 7. Trường hợp 2: x - 1 = -6 suy ra x = -5. Cả hai giá trị đều là số nguyên thỏa mãn điều kiện.",
+        "trap": "Chỉ lấy nghiệm dương x - 1 = 6 => x = 7 mà bỏ quên nghiệm âm x - 1 = -6."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c6_th_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Bài toán năng suất công việc chung",
+      "question": "Vòi thứ nhất chảy một mình trong 3 giờ thì đầy một bể nước cạn. Vòi thứ hai chảy một mình trong 6 giờ thì đầy bể đó. Nếu mở cả hai vòi cùng một lúc thì sau bao lâu bể sẽ đầy nước?",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "4.5 giờ",
+        "3.0 giờ",
+        "2.0 giờ",
+        "1.5 giờ"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Ứng dụng phân số giải bài toán làm chung - làm riêng trong thực tiễn.",
+        "socraticPrompt": "Trong 1 giờ, vòi một chảy được mấy phần bể và vòi hai chảy được mấy phần bể? Cả hai vòi cùng chảy trong 1 giờ được bao nhiêu phần bể?",
+        "steps": "Quy ước dung tích cả bể là 1 đơn vị công việc. Trong 1 giờ, vòi 1 chảy được 1/3 bể; vòi 2 chảy được 1/6 bể. Trong 1 giờ, cả hai vòi cùng chảy được: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 bể. Thời gian để hai vòi chảy đầy bể là: 1 : (1/2) = 2 giờ.",
+        "trap": "Lấy trung bình cộng (3 + 6) / 2 = 4.5 giờ. Đây là lỗi sai trực giác rất phổ biến."
       }
     }
   ]

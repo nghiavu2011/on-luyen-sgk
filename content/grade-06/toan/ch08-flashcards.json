@@ -1,114 +1,86 @@
-[
-  {
-    "front": "Trọng tâm kiến thức Chương 8: Những hình hình học cơ bản là gì?",
-    "back": "Điểm, đường thẳng, tia, đoạn thẳng, độ dài đoạn thẳng, trung điểm, góc và số đo góc.. Học sinh cần nắm chắc định nghĩa, quy tắc và công thức tính toán chuẩn mực.",
-    "tags": [
-      "Toán 6",
-      "ch08"
-    ]
-  },
-  {
-    "front": "Thứ tự thực hiện các phép tính trong biểu thức?",
-    "back": "1. Trong ngoặc trước, ngoài ngoặc sau: ( ) -> [ ] -> { }; 2. Phép tính: Lũy thừa -> Nhân & Chia -> Cộng & Trừ.",
-    "tags": [
-      "Toán 6",
-      "Quy tắc"
-    ]
-  },
-  {
-    "front": "Tính chất phân phối của phép nhân đối với phép cộng?",
-    "back": "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$. Dùng để tính nhanh bằng cách đặt thừa số chung ra ngoài.",
-    "tags": [
-      "Toán 6",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Quy tắc chuyển vế trong bài toán tìm x?",
-    "back": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: '+' thành '-' và '-' thành '+'.",
-    "tags": [
-      "Toán 6",
-      "Đại số"
-    ]
-  },
-  {
-    "front": "Thế nào là Số nguyên tố và Hợp số?",
-    "back": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có 2 ước là 1 và chính nó. Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước.",
-    "tags": [
-      "Toán 6",
-      "Số học"
-    ]
-  },
-  {
-    "front": "Số 0 và số 1 có phải số nguyên tố không?",
-    "back": "KHÔNG. Số 0 và số 1 không phải là số nguyên tố và cũng không phải là hợp số. Số nguyên tố nhỏ nhất là số 2 (số nguyên tố chẵn duy nhất).",
-    "tags": [
-      "Toán 6",
-      "Bẫy sai"
-    ]
-  },
-  {
-    "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "Muốn cộng hai số nguyên cùng dấu, ta cộng hai giá trị tuyệt đối rồi đặt dấu chung trước kết quả. Ví dụ: (-3) + (-5) = -8.",
-    "tags": [
-      "Toán 6",
-      "Số nguyên"
-    ]
-  },
-  {
-    "front": "Quy tắc nhân hai số nguyên khác dấu và cùng dấu?",
-    "back": "Cùng dấu nhân nhau ra DƯƠNG: (+) * (+) = (+), (-) * (-) = (+). Khác dấu nhân nhau ra ÂM: (+) * (-) = (-).",
-    "tags": [
-      "Toán 6",
-      "Quy tắc dấu"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình vuông cạnh a?",
-    "back": "Chu vi $P = 4a$. Diện tích $S = a^2$.",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình thoi hai đường chéo m, n?",
-    "back": "Chu vi $P = 4a$ (a là cạnh hình thoi). Diện tích $S = \\frac{1}{2} \\cdot m \\cdot n$ (nửa tích hai đường chéo).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình bình hành đáy a, chiều cao h?",
-    "back": "$S = a \\cdot h$ (đáy nhân với chiều cao tương ứng).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình thang hai đáy a, b, chiều cao h?",
-    "back": "$S = \\frac{(a + b) \\cdot h}{2}$ (tổng hai đáy nhân chiều cao chia đôi).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Muốn cộng hoặc trừ hai phân số không cùng mẫu ta làm thế nào?",
-    "back": "1. Quy đồng mẫu số hai phân số (đưa về mẫu chung dương); 2. Cộng hoặc trừ các tử số và giữ nguyên mẫu số chung.",
-    "tags": [
-      "Toán 6",
-      "Phân số"
-    ]
-  },
-  {
-    "front": "Công thức tính Xác suất thực nghiệm của một sự kiện?",
-    "back": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện phép thử nghiệm).",
-    "tags": [
-      "Toán 6",
-      "Xác suất"
-    ]
-  }
-]
+{
+  "chapterId": "ch08",
+  "title": "Chương 8: Những hình hình học cơ bản",
+  "flashcards": [
+    {
+      "id": "fc_t6_c8_01",
+      "front": "Qua hai điểm phân biệt có bao nhiêu đường thẳng?",
+      "back": "Có một và chỉ một đường thẳng đi qua hai điểm phân biệt cho trước.",
+      "category": "Tiên đề",
+      "example": "Qua hai điểm A và B phân biệt, chỉ vẽ được duy nhất đường thẳng AB.",
+      "mnemonic": "Hai điểm phân biệt: một và chỉ một đường thẳng."
+    },
+    {
+      "id": "fc_t6_c8_02",
+      "front": "Thế nào là ba điểm thẳng hàng?",
+      "back": "Ba điểm cùng thuộc một đường thẳng thì thẳng hàng. Không cùng thuộc đường thẳng nào thì không thẳng hàng.",
+      "category": "Khái niệm",
+      "example": "A, B, C cùng nằm trên đường thẳng d thì A, B, C thẳng hàng.",
+      "mnemonic": "Cùng nằm trên một đường: thẳng hàng."
+    },
+    {
+      "id": "fc_t6_c8_03",
+      "front": "Tia gốc O là hình như thế nào?",
+      "back": "Tia gốc O là hình gồm điểm O và một phần đường thẳng bị chia ra bởi điểm O.",
+      "category": "Khái niệm",
+      "example": "Tia Ox có gốc O, bị chặn ở O và kéo dài vô tận về phía x.",
+      "mnemonic": "Tia có một gốc chặn, một đầu kéo dài mãi."
+    },
+    {
+      "id": "fc_t6_c8_04",
+      "front": "Thế nào là hai tia đối nhau?",
+      "back": "Hai tia chung gốc và tạo thành một đường thẳng được gọi là hai tia đối nhau.",
+      "category": "Khái niệm",
+      "example": "Nếu O nằm giữa A và B thì tia OA và tia OB là hai tia đối nhau.",
+      "mnemonic": "Chung một gốc, thẳng một đường, ngược hai hướng: đối nhau."
+    },
+    {
+      "id": "fc_t6_c8_05",
+      "front": "Đoạn thẳng AB là hình như thế nào?",
+      "back": "Đoạn thẳng AB là hình gồm điểm A, điểm B và tất cả các điểm nằm giữa A và B.",
+      "category": "Khái niệm",
+      "example": "Đoạn thẳng AB bị chặn ở cả hai đầu A và B.",
+      "mnemonic": "Đoạn thẳng có hai đầu mút chặn lại."
+    },
+    {
+      "id": "fc_t6_c8_06",
+      "front": "Khi nào ta có hệ thức AM + MB = AB?",
+      "back": "Khi và chỉ khi điểm M nằm giữa hai điểm A và B.",
+      "category": "Định lý",
+      "example": "Nếu M nằm giữa A và B thì AM + MB = AB.",
+      "mnemonic": "Nằm giữa thì tổng hai đoạn con bằng đoạn lớn."
+    },
+    {
+      "id": "fc_t6_c8_07",
+      "front": "Thế nào là trung điểm của đoạn thẳng AB?",
+      "back": "Trung điểm M của đoạn thẳng AB là điểm nằm giữa A, B và cách đều hai điểm A, B (MA = MB = AB / 2).",
+      "category": "Khái niệm",
+      "example": "Nếu AB = 8 cm thì trung điểm M cách mỗi đầu 4 cm.",
+      "mnemonic": "Trung điểm: vừa nằm giữa, vừa cách đều hai đầu."
+    },
+    {
+      "id": "fc_t6_c8_08",
+      "front": "Góc là hình như thế nào?",
+      "back": "Góc là hình gồm hai tia chung gốc. Gốc chung gọi là đỉnh, hai tia gọi là hai cạnh của góc.",
+      "category": "Khái niệm",
+      "example": "Góc xOy có đỉnh là O, hai cạnh là tia Ox và tia Oy.",
+      "mnemonic": "Góc gồm đỉnh chung và hai cạnh xuất phát từ đỉnh."
+    },
+    {
+      "id": "fc_t6_c8_09",
+      "front": "Góc nhọn, góc vuông, góc tù, góc bẹt có số đo như thế nào?",
+      "back": "Góc nhọn: 0° < α < 90°; Góc vuông: α = 90°; Góc tù: 90° < α < 180°; Góc bẹt: α = 180°.",
+      "category": "Phân loại",
+      "example": "Góc 45° là góc nhọn, 90° là góc vuông, 120° là góc tù, 180° là góc bẹt.",
+      "mnemonic": "Nhọn < 90° = Vuông < Tù < 180° = Bẹt."
+    },
+    {
+      "id": "fc_t6_c8_10",
+      "front": "Công thức tính số đường thẳng tạo bởi n điểm phân biệt (không có 3 điểm thẳng hàng) là gì?",
+      "back": "Số đường thẳng = n · (n - 1) / 2.",
+      "category": "Công thức",
+      "example": "Với 5 điểm: số đường thẳng = 5 · 4 / 2 = 10 đường thẳng.",
+      "mnemonic": "n nhân (n trừ 1) chia 2."
+    }
+  ]
+}

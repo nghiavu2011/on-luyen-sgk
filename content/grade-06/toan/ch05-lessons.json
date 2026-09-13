@@ -5,32 +5,95 @@
     {
       "id": "l01",
       "title": "Bài 21: Hình có trục đối xứng trong thực tiễn",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 21: Hình có trục đối xứng trong thực tiễn</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 21: Hình có trục đối xứng trong thực tiễn.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nhận biết được hình có trục đối xứng qua hình ảnh và thao tác gấp hình.",
+        "Chỉ ra được trục đối xứng của một số hình học cơ bản: đoạn thẳng, tam giác cân, tam giác đều, hình thang cân, hình thoi, hình chữ nhật, hình vuông, hình tròn.",
+        "Nhận biết được tính đối xứng trục trong tự nhiên, động vật, kiến trúc và đời sống."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 21: Hình có trục đối xứng trong thực tiễn: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Hình có trục đối xứng",
+          "definition": "Đường thẳng d là trục đối xứng của hình H nếu khi gấp hình H theo đường thẳng d, hai nửa của hình H trùng khít lên nhau.",
+          "notation": "Đường thẳng d gọi là trục đối xứng.",
+          "note": "Một hình có thể có một, nhiều trục đối xứng hoặc vô số trục đối xứng."
+        },
+        {
+          "term": "Trục đối xứng của các hình phẳng quen thuộc",
+          "definition": "Đoạn thẳng có 1 trục đối xứng (đường trung trực). Tam giác cân có 1, tam giác đều có 3. Hình thang cân có 1. Hình chữ nhật có 2. Hình thoi có 2. Hình vuông có 4. Hình tròn có vô số trục đối xứng.",
+          "notation": "Hình chữ nhật: 2 trục đối xứng đi qua trung điểm các cạnh đối. Hình thoi: 2 trục đối xứng là 2 đường chéo.",
+          "note": "Hình bình hành nói chung KHÔNG CÓ trục đối xứng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Lưu ý về đường chéo hình chữ nhật",
+          "meaning": "Đường chéo của hình chữ nhật KHÔNG phải là trục đối xứng của nó (vì khi gấp theo đường chéo, hai phần không chồng khít lên nhau)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trong các chữ cái in hoa sau: A, B, C, D, E, H, K, M, T, U, V, Y, chữ cái nào có đúng một trục đối xứng thẳng đứng?",
+          "steps": [
+            "Bước 1: Xét các chữ cái có thể chia đôi theo chiều dọc: A, M, T, U, V, Y.",
+            "Bước 2: Chữ H vừa có trục thẳng đứng vừa có trục nằm ngang (có 2 trục).",
+            "Bước 3: Chữ B, C, D, E, K có trục đối xứng nằm ngang."
+          ],
+          "answer": "Các chữ cái có đúng 1 trục đối xứng thẳng đứng: A, M, T, U, V, Y."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng hai đường chéo của hình chữ nhật là hai trục đối xứng.",
+          "why": "Hai đường chéo chia hình chữ nhật thành hai tam giác bằng nhau nhưng không đối xứng trục qua đường chéo đó."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 22: Hình có tâm đối xứng trong đời sống",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 22: Hình có tâm đối xứng trong đời sống</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 22: Hình có tâm đối xứng trong đời sống.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nhận biết được hình có tâm đối xứng qua thao tác quay nửa vòng (180°).",
+        "Chỉ ra được tâm đối xứng của đoạn thẳng, hình bình hành, hình thoi, hình chữ nhật, hình vuông, hình tròn, lục giác đều.",
+        "Nhận biết vẻ đẹp của tâm đối xứng trong thiên nhiên, hoa văn, logo và công trình nghệ thuật."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 22: Hình có tâm đối xứng trong đời sống: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Hình có tâm đối xứng",
+          "definition": "Điểm O là tâm đối xứng của hình H nếu quay hình H quanh điểm O một góc 180° (nửa vòng) thì hình H chồng khít lên chính nó.",
+          "notation": "Điểm O gọi là tâm đối xứng.",
+          "note": "Mọi điểm M thuộc hình thì điểm M' đối xứng với M qua O cũng thuộc hình."
+        },
+        {
+          "term": "Tâm đối xứng của các hình quen thuộc",
+          "definition": "Đoạn thẳng: tâm là trung điểm. Hình bình hành, chữ nhật, thoi, vuông: tâm là giao điểm hai đường chéo. Hình tròn: tâm là tâm đường tròn. Lục giác đều: tâm là giao điểm 3 đường chéo chính.",
+          "notation": "Tam giác đều, tam giác cân, hình thang cân KHÔNG CÓ tâm đối xứng.",
+          "note": "Một hình nếu có tâm đối xứng thì chỉ có DUY NHẤT một tâm đối xứng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc kiểm tra tâm đối xứng",
+          "meaning": "Lấy một điểm bất kỳ trên hình, vẽ đoạn thẳng qua tâm O và lấy điểm đối diện bằng khoảng cách đó; nếu điểm đối diện vẫn nằm trên hình thì hình có tâm đối xứng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trong các hình sau: tam giác đều, hình vuông, hình thang cân, hình thoi, hình nào vừa có trục đối xứng vừa có tâm đối xứng?",
+          "steps": [
+            "Bước 1: Xét tam giác đều: có 3 trục đối xứng nhưng không có tâm đối xứng.",
+            "Bước 2: Xét hình thang cân: có 1 trục đối xứng nhưng không có tâm đối xứng.",
+            "Bước 3: Xét hình vuông: có 4 trục đối xứng và 1 tâm đối xứng (giao 2 đường chéo).",
+            "Bước 4: Xét hình thoi: có 2 trục đối xứng và 1 tâm đối xứng (giao 2 đường chéo)."
+          ],
+          "answer": "Hình vuông và hình thoi là hai hình vừa có trục đối xứng vừa có tâm đối xứng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng tam giác đều có tâm đối xứng là trọng tâm của tam giác.",
+          "why": "Khi quay tam giác đều quanh trọng tâm 180°, đỉnh phía trên sẽ chỉ xuống dưới, không trùng khít với hình ban đầu."
         }
       ]
     }

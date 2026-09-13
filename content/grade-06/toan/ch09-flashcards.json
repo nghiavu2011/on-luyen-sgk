@@ -1,114 +1,86 @@
-[
-  {
-    "front": "Trọng tâm kiến thức Chương 9: Dữ liệu và xác suất thực nghiệm là gì?",
-    "back": "Thu thập, tổ chức dữ liệu, bảng số liệu, biểu đồ tranh, biểu đồ cột, cột kép và xác suất thực nghiệm.. Học sinh cần nắm chắc định nghĩa, quy tắc và công thức tính toán chuẩn mực.",
-    "tags": [
-      "Toán 6",
-      "ch09"
-    ]
-  },
-  {
-    "front": "Thứ tự thực hiện các phép tính trong biểu thức?",
-    "back": "1. Trong ngoặc trước, ngoài ngoặc sau: ( ) -> [ ] -> { }; 2. Phép tính: Lũy thừa -> Nhân & Chia -> Cộng & Trừ.",
-    "tags": [
-      "Toán 6",
-      "Quy tắc"
-    ]
-  },
-  {
-    "front": "Tính chất phân phối của phép nhân đối với phép cộng?",
-    "back": "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$. Dùng để tính nhanh bằng cách đặt thừa số chung ra ngoài.",
-    "tags": [
-      "Toán 6",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Quy tắc chuyển vế trong bài toán tìm x?",
-    "back": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: '+' thành '-' và '-' thành '+'.",
-    "tags": [
-      "Toán 6",
-      "Đại số"
-    ]
-  },
-  {
-    "front": "Thế nào là Số nguyên tố và Hợp số?",
-    "back": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có 2 ước là 1 và chính nó. Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước.",
-    "tags": [
-      "Toán 6",
-      "Số học"
-    ]
-  },
-  {
-    "front": "Số 0 và số 1 có phải số nguyên tố không?",
-    "back": "KHÔNG. Số 0 và số 1 không phải là số nguyên tố và cũng không phải là hợp số. Số nguyên tố nhỏ nhất là số 2 (số nguyên tố chẵn duy nhất).",
-    "tags": [
-      "Toán 6",
-      "Bẫy sai"
-    ]
-  },
-  {
-    "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "Muốn cộng hai số nguyên cùng dấu, ta cộng hai giá trị tuyệt đối rồi đặt dấu chung trước kết quả. Ví dụ: (-3) + (-5) = -8.",
-    "tags": [
-      "Toán 6",
-      "Số nguyên"
-    ]
-  },
-  {
-    "front": "Quy tắc nhân hai số nguyên khác dấu và cùng dấu?",
-    "back": "Cùng dấu nhân nhau ra DƯƠNG: (+) * (+) = (+), (-) * (-) = (+). Khác dấu nhân nhau ra ÂM: (+) * (-) = (-).",
-    "tags": [
-      "Toán 6",
-      "Quy tắc dấu"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình vuông cạnh a?",
-    "back": "Chu vi $P = 4a$. Diện tích $S = a^2$.",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình thoi hai đường chéo m, n?",
-    "back": "Chu vi $P = 4a$ (a là cạnh hình thoi). Diện tích $S = \\frac{1}{2} \\cdot m \\cdot n$ (nửa tích hai đường chéo).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình bình hành đáy a, chiều cao h?",
-    "back": "$S = a \\cdot h$ (đáy nhân với chiều cao tương ứng).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình thang hai đáy a, b, chiều cao h?",
-    "back": "$S = \\frac{(a + b) \\cdot h}{2}$ (tổng hai đáy nhân chiều cao chia đôi).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Muốn cộng hoặc trừ hai phân số không cùng mẫu ta làm thế nào?",
-    "back": "1. Quy đồng mẫu số hai phân số (đưa về mẫu chung dương); 2. Cộng hoặc trừ các tử số và giữ nguyên mẫu số chung.",
-    "tags": [
-      "Toán 6",
-      "Phân số"
-    ]
-  },
-  {
-    "front": "Công thức tính Xác suất thực nghiệm của một sự kiện?",
-    "back": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện phép thử nghiệm).",
-    "tags": [
-      "Toán 6",
-      "Xác suất"
-    ]
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chương 9: Dữ liệu và xác suất thực nghiệm",
+  "flashcards": [
+    {
+      "id": "fc_t6_c9_01",
+      "front": "Dữ liệu là gì và gồm những loại nào?",
+      "back": "Dữ liệu là các thông tin thu thập được, gồm dữ liệu số (số liệu: chiều cao, điểm số) và dữ liệu không phải là số (tên, màu sắc, sở thích).",
+      "category": "Khái niệm",
+      "example": "Điểm 9 là số liệu; xếp loại Giỏi là dữ liệu không là số.",
+      "mnemonic": "Dữ liệu gồm: số liệu (đo đếm) và định tính (chữ, hình)."
+    },
+    {
+      "id": "fc_t6_c9_02",
+      "front": "Tính hợp lý của dữ liệu có nghĩa là gì?",
+      "back": "Dữ liệu phải phù hợp với thực tế và quy định của bài toán (ví dụ: điểm thi từ 0 đến 10, số học sinh phải là số nguyên dương).",
+      "category": "Quy tắc",
+      "example": "Điểm thi 12 là không hợp lý vì thang điểm tối đa là 10.",
+      "mnemonic": "Dữ liệu chuẩn phải đúng định dạng và hợp quy luật."
+    },
+    {
+      "id": "fc_t6_c9_03",
+      "front": "Các phương pháp thu thập dữ liệu phổ biến là gì?",
+      "back": "Quan sát trực tiếp, làm thí nghiệm, lập phiếu hỏi khảo sát và thu thập từ nguồn có sẵn (sách, báo, internet).",
+      "category": "Phương pháp",
+      "example": "Khảo sát món ăn yêu thích bằng phiếu hỏi học sinh.",
+      "mnemonic": "Bốn cách thu thập: quan sát, thí nghiệm, phiếu hỏi, tra cứu."
+    },
+    {
+      "id": "fc_t6_c9_04",
+      "front": "Biểu đồ tranh là gì?",
+      "back": "Biểu đồ tranh sử dụng hình ảnh hoặc biểu tượng để biểu diễn dữ liệu thống kê, mỗi biểu tượng ứng với một số lượng đơn vị cụ thể.",
+      "category": "Khái niệm",
+      "example": "Mỗi hình ngôi sao đại diện cho 5 điểm tốt.",
+      "mnemonic": "Dùng hình ảnh vẽ tranh để biểu diễn số lượng."
+    },
+    {
+      "id": "fc_t6_c9_05",
+      "front": "Biểu đồ cột kép dùng để làm gì?",
+      "back": "Dùng để so sánh từng cặp số liệu của hai nhóm đối tượng cùng loại qua các tiêu chí thống kê.",
+      "category": "Khái niệm",
+      "example": "So sánh số học sinh nam và nữ của từng lớp trong khối 6.",
+      "mnemonic": "Hai cột ghép đôi: so sánh hai nhóm đối tượng song hành."
+    },
+    {
+      "id": "fc_t6_c9_06",
+      "front": "Sự kiện chắc chắn là gì?",
+      "back": "Là sự kiện luôn luôn xảy ra trong mọi lần thực nghiệm.",
+      "category": "Khái niệm",
+      "example": "Gieo xúc xắc 6 mặt, số chấm xuất hiện nhỏ hơn 7 là sự kiện chắc chắn.",
+      "mnemonic": "Chắc chắn là 100% luôn luôn xảy ra."
+    },
+    {
+      "id": "fc_t6_c9_07",
+      "front": "Sự kiện không thể là gì?",
+      "back": "Là sự kiện không bao giờ xảy ra trong bất kỳ lần thực nghiệm nào.",
+      "category": "Khái niệm",
+      "example": "Gieo xúc xắc 6 mặt, xuất hiện mặt 8 chấm là sự kiện không thể.",
+      "mnemonic": "Không thể là 0% không bao giờ xảy ra."
+    },
+    {
+      "id": "fc_t6_c9_08",
+      "front": "Sự kiện có thể là gì?",
+      "back": "Là sự kiện có thể xảy ra hoặc không xảy ra sau khi thực hiện phép thử.",
+      "category": "Khái niệm",
+      "example": "Gieo đồng xu xuất hiện mặt sấp là sự kiện có thể.",
+      "mnemonic": "Có thể xảy ra hoặc không: xác suất từ 0% đến 100%."
+    },
+    {
+      "id": "fc_t6_c9_09",
+      "front": "Công thức tính xác suất thực nghiệm của sự kiện E là gì?",
+      "back": "Xác suất thực nghiệm = (Số lần sự kiện E xảy ra) / (Tổng số lần thực nghiệm) = k / n.",
+      "category": "Công thức",
+      "example": "Tung đồng xu 20 lần được 12 lần sấp: P(sấp) = 12 / 20 = 60%.",
+      "mnemonic": "Số lần xảy ra chia tổng số lần thử: k chia n."
+    },
+    {
+      "id": "fc_t6_c9_10",
+      "front": "Mối quan hệ giữa xác suất thực nghiệm và số lần thử n là gì?",
+      "back": "Khi số lần thực nghiệm n càng lớn thì xác suất thực nghiệm càng tiến gần đến xác suất lý thuyết của sự kiện.",
+      "category": "Định lý",
+      "example": "Tung đồng xu càng nhiều nghìn lần thì tỉ lệ mặt sấp càng sát 50%.",
+      "mnemonic": "Càng thử nhiều, kết quả càng chuẩn xác."
+    }
+  ]
+}

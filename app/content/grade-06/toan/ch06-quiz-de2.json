@@ -1,115 +1,127 @@
 {
   "chapterId": "ch06",
   "examId": "de2",
-  "title": "Toán 6 — Chương 6: Phân số: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 6: Đề 2 — 4 Phép tính & Hai bài toán phân số",
+  "description": "Bộ đề rèn luyện kỹ năng cộng, trừ, nhân, chia phân số và giải hai bài toán thực tế về phân số.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c6_d2_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 6: Phân số là gì?",
+      "topic": "Phép cộng phân số",
+      "question": "Tính kết quả phép cộng hai phân số cùng mẫu: 5/13 + (-8/13)?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 6: Phân số",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "3/13",
+        "-3/13",
+        "-13/13",
+        "13/26"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Quy tắc cộng hai phân số có cùng mẫu số.",
+        "socraticPrompt": "Khi hai phân số đã có cùng mẫu số 13, ta chỉ việc thực hiện phép cộng giữa hai tử số: 5 + (-8) bằng bao nhiêu?",
+        "steps": "Áp dụng quy tắc cộng cùng mẫu: 5/13 + (-8/13) = [5 + (-8)] / 13 = -3/13.",
+        "trap": "Cộng nhầm hai mẫu số thành 26, hoặc tính 5 + (-8) thành +3."
       }
     },
     {
-      "id": "q02",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
-      "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
-      }
-    },
-    {
-      "id": "q03",
+      "id": "t6_c6_d2_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Phép trừ phân số khác mẫu",
+      "question": "Tính hiệu hai phân số: 5/6 - 1/4?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "4/2",
+        "7/12",
+        "1/12",
+        "2/3"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Trừ hai phân số khác mẫu bằng cách quy đồng.",
+        "socraticPrompt": "Mẫu chung nhỏ nhất của 6 và 4 là bao nhiêu? Sau khi quy đồng, tử số mới của hai phân số là gì?",
+        "steps": "Mẫu chung BCNN(6, 4) = 12. Quy đồng: 5/6 = 10/12; 1/4 = 3/12. Thực hiện trừ tử số: 10/12 - 3/12 = 7/12.",
+        "trap": "Lấy tử trừ tử mẫu trừ mẫu: (5-1)/(6-4) = 4/2 = 2."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c6_d2_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Phép nhân phân số và rút gọn",
+      "question": "Tính tích của hai phân số: (-6/25) · (15/8)?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "-9/20",
+        "9/20",
+        "-3/10",
+        "-18/50"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Nhân hai phân số và triệt tiêu các ước chung.",
+        "socraticPrompt": "Trước khi nhân, hãy rút gọn 6 với 8 (chia cho 2) và 15 với 25 (chia cho 5) để việc tính toán nhẹ nhàng hơn nhé?",
+        "steps": "Ta có (-6 · 15) / (25 · 8). Rút gọn chia tử và mẫu cho 2 và 5: (-3 · 3) / (5 · 4) = -9/20.",
+        "trap": "Tính sai dấu âm ra dương, hoặc quên rút gọn triệt để."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c6_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Số nghịch đảo và phép chia",
+      "question": "Số nghịch đảo của phân số -7/9 là số nào, và tính (-7/9) : (-14/27)?",
+      "options": [
+        "7/9 và kết quả chia là 2/3",
+        "-9/7 và kết quả chia là -2/3",
+        "-9/7 và kết quả chia là 3/2",
+        "9/7 và kết quả chia là 3/2"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa số nghịch đảo và phép chia phân số.",
+        "socraticPrompt": "Số nghịch đảo của a/b là b/a (giữ nguyên dấu). Khi chia hai số cùng dấu âm, kết quả mang dấu gì?",
+        "steps": "Số nghịch đảo của -7/9 là -9/7. Phép chia: (-7/9) : (-14/27) = (-7/9) · (-27/14) = (7 · 27) / (9 · 14) = (1 · 3) / (1 · 2) = 3/2.",
+        "trap": "Nhầm số nghịch đảo đổi dấu thành số đối 7/9, hoặc tính thương ra số âm."
+      }
+    },
+    {
+      "id": "t6_c6_d2_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Tìm giá trị phân số của một số",
+      "question": "Một lớp học có 45 học sinh. Trong đợt kiểm tra có 2/5 số học sinh đạt điểm Giỏi, 1/3 số học sinh đạt điểm Khá, còn lại là Trung bình. Lớp đó có bao nhiêu học sinh đạt điểm Trung bình?",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "15 học sinh",
+        "12 học sinh",
+        "18 học sinh",
+        "9 học sinh"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Bài toán tìm giá trị phân số của một số cho trước.",
+        "socraticPrompt": "Hãy tính lần lượt số học sinh Giỏi và Khá bằng cách nhân 45 với từng phân số, rồi lấy 45 trừ đi tổng của chúng?",
+        "steps": "Số HS Giỏi: 45 · 2/5 = 18 học sinh. Số HS Khá: 45 · 1/3 = 15 học sinh. Số HS Trung bình: 45 - (18 + 15) = 45 - 33 = 12 học sinh.",
+        "trap": "Cộng 18 + 15 = 33 rồi chọn luôn 33 (không đọc kỹ câu hỏi hỏi số học sinh Trung bình)."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c6_d2_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Tìm một số biết giá trị phân số của nó",
+      "question": "Biết rằng 3/4 khối lượng của một quả dưa hấu nặng 2.7 kg. Hỏi cả quả dưa hấu đó nặng bao nhiêu kilôgam?",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "3.2 kg",
+        "3.8 kg",
+        "3.6 kg",
+        "4.0 kg"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Bài toán tìm một số biết giá trị phân số của nó.",
+        "socraticPrompt": "Khi biết 3/4 của quả dưa bằng 2.7 kg, muốn tìm khối lượng cả quả dưa ta thực hiện phép chia 2.7 cho phân số nào?",
+        "steps": "Khối lượng cả quả dưa hấu là: 2.7 : (3/4) = 2.7 · 4 / 3 = 10.8 / 3 = 3.6 kg.",
+        "trap": "Lấy 2.7 nhân 3/4 được 2.025 kg (nhầm sang bài toán tìm phân số của một số)."
       }
     }
   ]

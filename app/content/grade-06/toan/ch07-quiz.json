@@ -1,117 +1,127 @@
 {
   "chapterId": "ch07",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 7: Số thập phân: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 7: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính nhanh, phương trình thập phân và bài toán thực tế.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c7_th_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 7: Số thập phân được phát biểu chính xác là:",
+      "topic": "Tính tỉ số phần trăm của hai số",
+      "question": "Tỉ số phần trăm của hai số 15 và 60 được tính chính xác là:",
       "options": [
-        "Quy tắc và định lý cơ bản của Chương 7: Số thập phân theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
+        "20%",
+        "25%",
+        "30%",
+        "40%"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 7: Số thập phân.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
+        "concept": "Công thức tính tỉ số phần trăm của a và b: (a · 100 / b)%.",
+        "socraticPrompt": "Lập tỉ số 15/60, rút gọn phân số này thành 1/4 rồi đổi ra tỉ số phần trăm là bao nhiêu?",
+        "steps": "Tỉ số phần trăm của 15 và 60 là: (15 · 100 / 60)% = (1500 / 60)% = 25% (hoặc 15/60 = 1/4 = 0.25 = 25%).",
+        "trap": "Lấy 60 chia 15 được 4 rồi ghi 4% hoặc lấy 60 - 15 = 45%."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c7_th_q2",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
+      "topic": "Tính nhanh giá trị biểu thức số thập phân",
+      "question": "Tính giá trị biểu thức sau bằng cách hợp lý nhất: B = 3.7 · 18.5 + 3.7 · 81.5?",
       "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
+        "370",
+        "37",
+        "3700",
+        "350"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
+        "concept": "Vận dụng tính chất phân phối để tính nhẩm nhanh số thập phân.",
+        "socraticPrompt": "Thừa số chung của cả hai tích là 3.7. Khi đặt 3.7 ra ngoài thì tổng trong ngoặc 18.5 + 81.5 bằng bao nhiêu?",
+        "steps": "Đặt 3.7 ra ngoài ngoặc: B = 3.7 · (18.5 + 81.5) = 3.7 · 100 = 370.",
+        "trap": "Tính nhầm 3.7 · 100 = 37 (quên dịch chuyển 2 chữ số sang phải)."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c7_th_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
+      "topic": "Tìm ẩn x trong phương trình số thập phân",
+      "question": "Tìm số thực x thỏa mãn phương trình: 2.4 · x + 3.6 = -1.2?",
       "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
+        "x = 2.0",
+        "x = -1.0",
+        "x = -2.0",
+        "x = 1.5"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
+        "concept": "Quy tắc chuyển vế đổi dấu và phép chia số thập phân có dấu.",
+        "socraticPrompt": "Chuyển +3.6 sang vế phải thành -3.6. Vế phải có giá trị là (-1.2) - 3.6 bằng bao nhiêu rồi chia cho 2.4?",
+        "steps": "Chuyển vế: 2.4 · x = -1.2 - 3.6 = -4.8. Tìm x: x = (-4.8) : 2.4 = -2.0.",
+        "trap": "Tính -1.2 - 3.6 thành +2.4 dẫn đến tìm ra x = 1.0 hoặc nhầm dấu thành x = +2.0."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c7_th_q4",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Bài toán mua bán giảm giá thực tế",
+      "question": "Một chiếc cặp học sinh có giá niêm yết là 350 000 đồng. Nhân dịp năm học mới, nhà sách giảm giá 20% cho sản phẩm này. Hỏi người mua phải trả bao nhiêu tiền?",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "280 000 đồng",
+        "270 000 đồng",
+        "300 000 đồng",
+        "250 000 đồng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
+        "concept": "Ứng dụng tỉ số phần trăm tính tiền thực tế sau khi giảm giá.",
+        "socraticPrompt": "Giảm giá 20% nghĩa là người mua chỉ cần trả bao nhiêu phần trăm giá gốc? Hãy lấy 350 000 nhân với tỉ lệ đó?",
+        "steps": "Số tiền được giảm giá là: 350 000 · 20% = 70 000 đồng. Số tiền người mua phải trả là: 350 000 - 70 000 = 280 000 đồng (hoặc 350 000 · 80% = 280 000 đồng).",
+        "trap": "Tính ra số tiền giảm 70 000 đồng rồi nhầm lẫn chọn 70 000 thay vì số tiền phải trả."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c7_th_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "Bài toán lãi suất tiền gửi ngân hàng",
+      "question": "Bác An gửi tiết kiệm 60 000 000 đồng vào ngân hàng với lãi suất 6% một năm. Hỏi sau một năm, cả số tiền gốc và tiền lãi bác An nhận được là bao nhiêu?",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "63 000 000 đồng",
+        "63 600 000 đồng",
+        "66 000 000 đồng",
+        "62 400 000 đồng"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
+        "concept": "Tính tiền lãi và tổng tiền nhận được sau kỳ hạn gửi tiết kiệm.",
+        "socraticPrompt": "Tiền lãi sau 1 năm là 6% của 60 triệu đồng. Sau khi tính được tiền lãi, em hãy cộng với số tiền gốc ban đầu?",
+        "steps": "Số tiền lãi sau 1 năm là: 60 000 000 · 6% = 60 000 000 · 6 / 100 = 3 600 000 đồng. Tổng số tiền gốc và lãi là: 60 000 000 + 3 600 000 = 63 600 000 đồng.",
+        "trap": "Tính nhầm 6% của 60 triệu thành 3 triệu hoặc 6 triệu rồi cộng vào."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c7_th_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Ước lượng chi phí mua sắm thực tiễn",
+      "question": "Bạn Mai mua 4 quyển vở giá 11 800 đồng/quyển và 3 chiếc bút bi giá 4 900 đồng/chiếc. Bằng cách làm tròn giá tiền mỗi món hàng đến hàng nghìn gần nhất, tổng chi phí ước tính bạn Mai cần mang theo là:",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "65 000 đồng",
+        "63 000 đồng",
+        "60 000 đồng",
+        "58 000 đồng"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
+        "concept": "Kỹ năng ước lượng kết quả phép tính thông qua làm tròn số.",
+        "socraticPrompt": "Làm tròn 11 800 đồng đến hàng nghìn ta được số nào? Làm tròn 4 900 đồng đến hàng nghìn ta được số nào? Tính tổng tiền ước tính theo hai số đó?",
+        "steps": "Làm tròn 11 800 đến hàng nghìn: Chữ số hàng trăm là 8 ≥ 5 nên làm tròn thành 12 000 đồng. Làm tròn 4 900 đến hàng nghìn: Chữ số hàng trăm là 9 ≥ 5 nên làm tròn thành 5 000 đồng. Tổng chi phí ước tính là: 4 · 12 000 + 3 · 5 000 = 48 000 + 15 000 = 63 000 đồng.",
+        "trap": "Làm tròn xuống thành 11 000 và 4 000 đồng dẫn đến kết quả ước tính bị thiếu hụt so với thực tế."
       }
     }
   ]

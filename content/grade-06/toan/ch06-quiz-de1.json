@@ -1,116 +1,127 @@
 {
   "chapterId": "ch06",
   "examId": "de1",
-  "title": "Toán 6 — Chương 6: Phân số: Đề 1: Khái niệm & Nhận biết",
-  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "title": "Toán 6 — Chương 6: Đề 1 — Khái niệm & So sánh phân số",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết định nghĩa phân số, tính chất cơ bản và kỹ năng so sánh phân số.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c6_d1_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 6: Phân số?",
+      "topic": "Định nghĩa phân số",
+      "question": "Trong các cách viết sau đây, cách viết nào cho ta một phân số?",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 6: Phân số",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "-5/8",
+        "4.2/7",
+        "6/0",
+        "3.5/2.1"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 6: Phân số.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
+        "concept": "Định nghĩa phân số trong tập hợp số nguyên.",
+        "socraticPrompt": "Em hãy nhớ lại điều kiện về tử số và mẫu số của phân số a/b: cả hai phải thuộc tập hợp nào và mẫu số phải khác bao nhiêu?",
+        "steps": "Phân số a/b yêu cầu tử a và mẫu b là các số nguyên (Z) và mẫu b khác 0. Do đó -5/8 là phân số đúng.",
+        "trap": "Nhầm số thập phân 4.2 hoặc 3.5 là số nguyên, hoặc quên điều kiện mẫu số phải khác 0."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c6_d1_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Hai phân số bằng nhau",
+      "question": "Cặp phân số nào sau đây là hai phân số bằng nhau?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "2/5 và 3/7",
+        "-3/4 và 6/-8",
+        "-1/3 và 1/3",
+        "5/6 và 6/5"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
+        "concept": "Điều kiện để hai phân số bằng nhau qua tích chéo.",
+        "socraticPrompt": "Hai phân số a/b và c/d bằng nhau khi tích chéo a · d và b · c có mối quan hệ như thế nào?",
+        "steps": "Xét cặp -3/4 và 6/-8: Ta có (-3) · (-8) = 24 và 4 · 6 = 24. Vì 24 = 24 nên -3/4 = 6/-8.",
+        "trap": "Nhầm dấu âm ở mẫu là phân số khác, thực chất 6/(-8) = -6/8 = -3/4."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c6_d1_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "Tìm số nguyên x trong phân số",
+      "question": "Tìm số nguyên x thỏa mãn đẳng thức phân số: x / 6 = -10 / 4?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "x = 15",
+        "x = -12",
+        "x = -15",
+        "x = -20"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
+        "concept": "Áp dụng định nghĩa hai phân số bằng nhau để tìm ẩn x.",
+        "socraticPrompt": "Từ đẳng thức x/b = c/d, em hãy nhân chéo để tìm tích x · d bằng bao nhiêu, sau đó chia cho d?",
+        "steps": "Áp dụng tích chéo: x · 4 = 6 · (-10) = -60. Suy ra x = -60 : 4 = -15.",
+        "trap": "Tính sai dấu âm thành dương (+15) hoặc nhân chia nhầm hệ số."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c6_d1_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Rút gọn phân số tối giản",
+      "question": "Rút gọn phân số -28 / 42 về phân số tối giản ta được kết quả là:",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "-14/21",
+        "-4/6",
+        "2/3",
+        "-2/3"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
+        "concept": "Rút gọn phân số bằng cách chia cho ước chung lớn nhất.",
+        "socraticPrompt": "Ước chung lớn nhất của 28 và 42 là bao nhiêu, và đừng quên giữ nguyên dấu âm của tử số nhé?",
+        "steps": "Ta tìm ƯCLN(28, 42) = 14. Chia cả tử và mẫu cho 14: (-28 : 14) / (42 : 14) = -2/3. Phân số -2/3 có ƯCLN(2, 3) = 1 nên là tối giản.",
+        "trap": "Chọn -14/21 hoặc -4/6 vì chưa rút gọn hết (chưa tối giản), hoặc làm mất dấu âm."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c6_d1_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "So sánh hai phân số",
+      "question": "Khẳng định so sánh nào sau đây là ĐÚNG giữa hai phân số -7/12 và -5/8?",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "-7/12 > -5/8",
+        "-7/12 < -5/8",
+        "-7/12 = -5/8",
+        "-7/12 ≤ -3/4"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
+        "concept": "Quy đồng mẫu số dương để so sánh hai phân số âm.",
+        "socraticPrompt": "Mẫu số chung nhỏ nhất của 12 và 8 là 24. Khi quy đồng, tử số của hai phân số là những số âm nào?",
+        "steps": "Mẫu chung là 24. Ta có: -7/12 = -14/24 và -5/8 = -15/24. Vì -14 > -15 nên -14/24 > -15/24, tức là -7/12 > -5/8.",
+        "trap": "Thấy 15 > 14 liền kết luận -15 > -14 (quên tính chất số âm: -14 nằm bên phải -15 trên trục số)."
       }
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c6_d1_q6",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "Hỗn số dương",
+      "question": "Viết hỗn số 4 3/5 dưới dạng phân số, sau đó tìm số đối của phân số đó:",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "23/5 và số đối là 5/23",
+        "-23/5 và số đối là 23/5",
+        "23/5 và số đối là -23/5",
+        "17/5 và số đối là -17/5"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
+        "concept": "Đổi hỗn số dương ra phân số và xác định số đối.",
+        "socraticPrompt": "Để đổi hỗn số 4 3/5 ra phân số, ta lấy phần nguyên nhân mẫu cộng tử được bao nhiêu? Số đối của một phân số dương mang dấu gì?",
+        "steps": "Hỗn số 4 3/5 = (4 · 5 + 3)/5 = 23/5. Số đối của phân số 23/5 là -23/5.",
+        "trap": "Nhầm số đối với số nghịch đảo (chọn 5/23), hoặc tính nhầm tử số thành 17."
       }
     }
   ]

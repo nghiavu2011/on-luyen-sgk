@@ -1,115 +1,127 @@
 {
   "chapterId": "ch05",
   "examId": "de2",
-  "title": "Toán 6 — Chương 5: Tính đối xứng của hình phẳng trong tự nhiên: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 5: Đề 2 — Tâm đối xứng & Ứng dụng thực tế",
+  "description": "Luyện tập kỹ năng nhận diện tâm đối xứng và giải quyết bài toán hình học trong đời sống hằng ngày.",
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c5_d2_q1",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 5: Tính đối xứng của hình phẳng trong tự nhiên là gì?",
+      "topic": "Nhận biết hình có tâm đối xứng",
+      "question": "Hình nào sau đây KHÔNG CÓ tâm đối xứng trong mặt phẳng?",
       "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 5: Tính đối xứng của hình phẳng trong tự nhiên",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
+        "Tam giác đều",
+        "Hình bình hành",
+        "Hình tròn",
+        "Hình lục giác đều"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
+        "concept": "Đặc điểm nhận dạng hình có tâm đối xứng.",
+        "socraticPrompt": "Khi quay hình nửa vòng (180°), hình nào sẽ bị đảo ngược đỉnh và không trùng khít với hình ban đầu?",
+        "steps": "Tam giác đều không có tâm đối xứng (quay 180° đỉnh hướng lên sẽ chúc xuống dưới). Hình bình hành, hình tròn và lục giác đều đều có tâm đối xứng.",
+        "trap": "Nhầm trọng tâm của tam giác đều là tâm đối xứng."
       }
     },
     {
-      "id": "q02",
+      "id": "t6_c5_d2_q2",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
+      "topic": "Tâm đối xứng hình bình hành",
+      "question": "Tâm đối xứng của hình bình hành là vị trí nào sau đây?",
       "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
+        "Giao điểm của hai đường chéo",
+        "Trung điểm của cạnh đáy",
+        "Một đỉnh bất kỳ của hình bình hành",
+        "Điểm chính giữa của đường cao"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
+        "concept": "Vị trí tâm đối xứng của hình bình hành.",
+        "socraticPrompt": "Hai đường chéo của hình bình hành cắt nhau tại trung điểm mỗi đường, điểm đó đóng vai trò gì?",
+        "steps": "Giao điểm hai đường chéo của hình bình hành chính là tâm đối xứng của nó.",
+        "trap": "Nhầm sang trung điểm cạnh đáy."
       }
     },
     {
-      "id": "q03",
+      "id": "t6_c5_d2_q3",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Chữ cái có tâm và trục đối xứng",
+      "question": "Trong các chữ cái in hoa sau: A, H, N, O, S, Z, có bao nhiêu chữ cái VỪA có trục đối xứng VỪA có tâm đối xứng?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "2 chữ cái (H, O)",
+        "3 chữ cái (H, N, O)",
+        "4 chữ cái (A, H, O, S)",
+        "1 chữ cái (O)"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
+        "concept": "Phân biệt chữ cái có trục đối xứng, tâm đối xứng và cả hai.",
+        "socraticPrompt": "Xét từng chữ: A chỉ có trục; N, S, Z chỉ có tâm. Chữ nào có cả trục gấp lại bằng nhau và quay 180° trùng khít?",
+        "steps": "Chữ H có 2 trục đối xứng và 1 tâm đối xứng. Chữ O có vô số trục đối xứng và 1 tâm đối xứng. Vậy có đúng 2 chữ cái là H và O.",
+        "trap": "Nhầm chữ N, S, Z có trục đối xứng (thực chất chúng chỉ có tâm đối xứng)."
       }
     },
     {
-      "id": "q04",
+      "id": "t6_c5_d2_q4",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Đối xứng của lục giác đều",
+      "question": "Hình lục giác đều có bao nhiêu trục đối xứng và bao nhiêu tâm đối xứng?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "6 trục đối xứng và 1 tâm đối xứng",
+        "3 trục đối xứng và 1 tâm đối xứng",
+        "6 trục đối xứng và không có tâm đối xứng",
+        "12 trục đối xứng và 2 tâm đối xứng"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
+        "concept": "Tính đối xứng đầy đủ của đa giác đều có số cạnh chẵn.",
+        "socraticPrompt": "Lục giác đều có 6 đỉnh thì có mấy trục đối xứng? Giao điểm 3 đường chéo chính có là tâm đối xứng không?",
+        "steps": "Lục giác đều có 6 trục đối xứng (3 đường nối các đỉnh đối diện và 3 đường nối trung điểm các cạnh đối diện) và có duy nhất 1 tâm đối xứng tại giao điểm 3 đường chéo chính.",
+        "trap": "Bỏ sót 3 trục đối xứng đi qua trung điểm các cặp cạnh đối diện."
       }
     },
     {
-      "id": "q05",
+      "id": "t6_c5_d2_q5",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Ứng dụng tâm đối xứng trong đời sống",
+      "question": "Một chiếc chong chóng có 4 cánh cách đều nhau quanh một trục. Hỏi chiếc chong chóng đó có tâm đối xứng hay không và góc quay nhỏ nhất để các cánh trùng khít lại với vị trí ban đầu là bao nhiêu?",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "Có tâm đối xứng, góc quay nhỏ nhất là 90°",
+        "Không có tâm đối xứng, góc quay nhỏ nhất là 180°",
+        "Có tâm đối xứng, góc quay nhỏ nhất là 45°",
+        "Không có tâm đối xứng, góc quay nhỏ nhất là 90°"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
+        "concept": "Tính đối xứng quay và tâm đối xứng của chong chóng 4 cánh.",
+        "socraticPrompt": "Vòng tròn là 360°, chia đều cho 4 cánh thì mỗi góc quay là bao nhiêu độ? Quay 180° cánh này có trùng cánh đối diện không?",
+        "steps": "Góc quay nhỏ nhất = 360° / 4 = 90°. Khi quay 180° (bằng 2 lần 90°), mỗi cánh chuyển sang vị trí cánh đối diện nên có tâm đối xứng.",
+        "trap": "Nhầm góc quay nhỏ nhất là 180° thay vì 90°."
       }
     },
     {
-      "id": "q06",
+      "id": "t6_c5_d2_q6",
       "difficulty": "expert",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Khoảng cách giữa hai điểm đối xứng qua tâm",
+      "question": "Cho đoạn thẳng AB dài 10 cm có tâm đối xứng là trung điểm O. Lấy điểm M trên đoạn thẳng AB sao cho AM = 2 cm. Gọi M' là điểm đối xứng với M qua O. Độ dài đoạn thẳng MM' là:",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "6 cm",
+        "4 cm",
+        "8 cm",
+        "5 cm"
       ],
-      "answer": 0,
+      "correct": 0,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
+        "concept": "Tính chất điểm đối xứng qua tâm trên đoạn thẳng.",
+        "socraticPrompt": "O là trung điểm AB nên OA dài bao nhiêu? Từ đó tính đoạn OM rồi nhân đôi để ra MM'.",
+        "steps": "Bước 1: OA = AB / 2 = 10 / 2 = 5 cm. Bước 2: Đoạn OM = OA - AM = 5 - 2 = 3 cm. Bước 3: M' đối xứng với M qua O nên O là trung điểm của MM'. Do đó MM' = 2 × OM = 2 × 3 = 6 cm.",
+        "trap": "Nhầm lấy 10 - 2 = 8 cm hoặc lấy luôn OM = 3 cm làm kết quả."
       }
     }
   ]

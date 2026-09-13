@@ -5,80 +5,260 @@
     {
       "id": "l01",
       "title": "Bài 23: Mở rộng phân số. Phân số bằng nhau",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 23: Mở rộng phân số. Phân số bằng nhau</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 23: Mở rộng phân số. Phân số bằng nhau.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm phân số a/b với a, b là các số nguyên và b khác 0.",
+        "Nắm vững định nghĩa hai phân số bằng nhau và tính chất cơ bản của phân số.",
+        "Thực hiện thành thạo thao tác rút gọn phân số về phân số tối giản."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 23: Mở rộng phân số. Phân số bằng nhau: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phân số",
+          "definition": "Người ta gọi a/b với a, b thuộc Z, b khác 0 là một phân số, a là tử số (tử) và b là mẫu số (mẫu).",
+          "notation": "a/b (a, b ∈ Z, b ≠ 0)",
+          "note": "Mỗi số nguyên n đều viết được dưới dạng phân số là n/1."
+        },
+        {
+          "term": "Hai phân số bằng nhau",
+          "definition": "Hai phân số a/b và c/d được gọi là bằng nhau nếu tích chéo a · d = b · c.",
+          "notation": "a/b = c/d khi và chỉ khi a · d = b · c",
+          "note": "Quy tắc nhân chéo là công cụ then chốt để kiểm tra và tìm x trong phân số."
+        },
+        {
+          "term": "Phân số tối giản",
+          "definition": "Phân số tối giản (hay phân số không rút gọn được nữa) là phân số mà tử và mẫu chỉ có ước chung là 1 và -1.",
+          "notation": "ƯCLN(|a|, |b|) = 1",
+          "note": "Để rút gọn phân số thành tối giản một lần, chia cả tử và mẫu cho ƯCLN của chúng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất cơ bản của phân số",
+          "meaning": "Nếu nhân hoặc chia cả tử và mẫu của một phân số với cùng một số nguyên khác 0 (và là ước chung khi chia) thì được một phân số mới bằng phân số đã cho."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tìm số nguyên x biết x / 6 = -15 / 18 và rút gọn phân số -15 / 18 về tối giản?",
+          "steps": [
+            "Bước 1: Rút gọn phân số -15/18 bằng cách chia cả tử và mẫu cho ƯCLN(15, 18) = 3: (-15 : 3) / (18 : 3) = -5/6.",
+            "Bước 2: Thay vào đẳng thức ta có x/6 = -5/6.",
+            "Bước 3: Vì hai phân số bằng nhau và có cùng mẫu số 6 nên hai tử số bằng nhau, suy ra x = -5."
+          ],
+          "answer": "x = -5 và phân số tối giản là -5/6."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn điều kiện mẫu số có thể bằng 0 hoặc chia nhầm dấu âm.",
+          "why": "Phép chia cho 0 không xác định nên mẫu số của phân số bắt buộc phải khác 0."
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 24: So sánh phân số. Hỗn số dương",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 24: So sánh phân số. Hỗn số dương</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 24: So sánh phân số. Hỗn số dương.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc so sánh hai phân số cùng mẫu và khác mẫu.",
+        "Biết cách quy đồng mẫu số nhiều phân số có mẫu số dương.",
+        "Hiểu định nghĩa và cách đổi qua lại giữa hỗn số dương và phân số."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 24: So sánh phân số. Hỗn số dương: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Quy đồng mẫu số",
+          "definition": "Biến đổi các phân số đã cho thành các phân số tương ứng bằng chúng nhưng có chung một mẫu số dương (thường là BCNN của các mẫu).",
+          "notation": "Mẫu chung = BCNN(b1, b2, ...)",
+          "note": "Trước khi quy đồng cần viết tất cả các phân số dưới dạng mẫu dương."
+        },
+        {
+          "term": "So sánh phân số",
+          "definition": "Với hai phân số có cùng mẫu số dương, phân số nào có tử lớn hơn thì phân số đó lớn hơn.",
+          "notation": "Nếu a < b và m > 0 thì a/m < b/m",
+          "note": "Phân số âm luôn nhỏ hơn 0, 0 luôn nhỏ hơn phân số dương."
+        },
+        {
+          "term": "Hỗn số dương",
+          "definition": "Số viết dưới dạng tổng của một số nguyên dương và một phân số dương nhỏ hơn 1 được gọi là hỗn số dương.",
+          "notation": "q r/b = q + r/b = (q · b + r) / b (với q > 0, 0 < r < b)",
+          "note": "Ví dụ: 3 2/5 đổi ra phân số là (3 · 5 + 2) / 5 = 17/5."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh với số 0",
+          "meaning": "Phân số có tử và mẫu cùng dấu thì lớn hơn 0 (phân số dương). Phân số có tử và mẫu trái dấu thì nhỏ hơn 0 (phân số âm)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "So sánh hai phân số -7/12 và -5/8?",
+          "steps": [
+            "Bước 1: Tìm mẫu chung: BCNN(12, 8) = 24.",
+            "Bước 2: Quy đồng mẫu: -7/12 = (-7 · 2)/24 = -14/24; -5/8 = (-5 · 3)/24 = -15/24.",
+            "Bước 3: So sánh hai tử số: Do -14 > -15 nên -14/24 > -15/24, tức là -7/12 > -5/8."
+          ],
+          "answer": "-7/12 > -5/8."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "So sánh nhầm số âm: thấy 15 > 14 nên kết luận -15 > -14.",
+          "why": "Trong tập số nguyên âm, số có giá trị tuyệt đối lớn hơn thì lại nhỏ hơn (-15 < -14)."
         }
       ]
     },
     {
       "id": "l03",
       "title": "Bài 25: Phép cộng và phép trừ phân số",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 25: Phép cộng và phép trừ phân số</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 25: Phép cộng và phép trừ phân số.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Thực hiện thành thạo phép cộng, trừ phân số cùng mẫu và khác mẫu.",
+        "Vận dụng tính chất giao hoán, kết hợp của phép cộng để tính toán hợp lý.",
+        "Nắm vững khái niệm số đối của phân số và quy tắc dấu ngoặc."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 25: Phép cộng và phép trừ phân số: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phép cộng phân số",
+          "definition": "Muốn cộng hai phân số cùng mẫu, ta cộng các tử và giữ nguyên mẫu. Muốn cộng khác mẫu, ta quy đồng về cùng mẫu dương rồi cộng tử.",
+          "notation": "a/m + b/m = (a + b)/m",
+          "note": "Kết quả cuối cùng luôn phải rút gọn về phân số tối giản."
+        },
+        {
+          "term": "Số đối của phân số",
+          "definition": "Hai phân số được gọi là đối nhau nếu tổng của chúng bằng 0. Số đối của a/b ký hiệu là -a/b.",
+          "notation": "a/b + (-a/b) = 0; -(a/b) = (-a)/b = a/(-b)",
+          "note": "Số đối của phân số -3/4 là 3/4."
+        },
+        {
+          "term": "Phép trừ phân số",
+          "definition": "Muốn trừ một phân số cho một phân số, ta cộng số bị trừ với số đối của số trừ.",
+          "notation": "a/b - c/d = a/b + (-c/d)",
+          "note": "Trừ phân số thực chất là phép cộng với số đối."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất của phép cộng phân số",
+          "meaning": "Phép cộng phân số có các tính chất giao hoán: p + q = q + p; kết hợp: (p + q) + r = p + (q + r); cộng với số 0: p + 0 = p."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức: A = 5/11 + (-3/7) + 6/11 + (-4/7)?",
+          "steps": [
+            "Bước 1: Sử dụng tính chất giao hoán và kết hợp để nhóm các phân số có cùng mẫu số: A = (5/11 + 6/11) + [(-3/7) + (-4/7)].",
+            "Bước 2: Thực hiện phép cộng trong từng ngoặc: 5/11 + 6/11 = 11/11 = 1; (-3/7) + (-4/7) = -7/7 = -1.",
+            "Bước 3: Tính tổng kết quả: A = 1 + (-1) = 0."
+          ],
+          "answer": "A = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cộng cả tử với tử và mẫu với mẫu: 1/2 + 1/3 = (1+1)/(2+3) = 2/5.",
+          "why": "Đây là sai lầm kinh điển. Bắt buộc phải quy đồng mẫu số trước khi cộng các tử số: 3/6 + 2/6 = 5/6."
         }
       ]
     },
     {
       "id": "l04",
       "title": "Bài 26: Phép nhân và phép chia phân số",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 26: Phép nhân và phép chia phân số</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 26: Phép nhân và phép chia phân số.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững quy tắc nhân hai phân số và tính chất phân phối của phép nhân đối với phép cộng.",
+        "Hiểu định nghĩa số nghịch đảo và quy tắc chia hai phân số.",
+        "Vận dụng để tính nhanh giá trị biểu thức phân số."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 26: Phép nhân và phép chia phân số: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Phép nhân phân số",
+          "definition": "Muốn nhân hai phân số, ta nhân các tử với nhau và nhân các mẫu với nhau.",
+          "notation": "(a/b) · (c/d) = (a · c) / (b · d)",
+          "note": "Nên rút gọn các thừa số chung ở tử và mẫu trước khi nhân ra kết quả."
+        },
+        {
+          "term": "Số nghịch đảo",
+          "definition": "Hai phân số được gọi là nghịch đảo của nhau nếu tích của chúng bằng 1. Số nghịch đảo của a/b (với a, b ≠ 0) là b/a.",
+          "notation": "(a/b) · (b/a) = 1",
+          "note": "Số 0 không có số nghịch đảo."
+        },
+        {
+          "term": "Phép chia phân số",
+          "definition": "Muốn chia một phân số cho một phân số khác 0, ta nhân số bị chia với số nghịch đảo của số chia.",
+          "notation": "(a/b) : (c/d) = (a/b) · (d/c) = (a · d) / (b · c)",
+          "note": "Chia cho một phân số bằng nhân với phân số đảo ngược của nó."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất phân phối của phép nhân đối với phép cộng",
+          "meaning": "a · (b + c) = a · b + a · c. Áp dụng quy tắc này giúp đặt thừa số chung để tính nhẩm cực nhanh."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức: B = (7/15) · (8/13) + (7/15) · (5/13)?",
+          "steps": [
+            "Bước 1: Nhận thấy 7/15 là thừa số chung của hai tích, đặt 7/15 ra ngoài ngoặc: B = 7/15 · (8/13 + 5/13).",
+            "Bước 2: Tính trong ngoặc: 8/13 + 5/13 = 13/13 = 1.",
+            "Bước 3: Nhân kết quả: B = 7/15 · 1 = 7/15."
+          ],
+          "answer": "B = 7/15."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi chia hai phân số thì nghịch đảo cả hai phân số thay vì chỉ nghịch đảo số chia.",
+          "why": "Quy tắc chia phân số chỉ đảo ngược số chia (phân số đứng sau dấu chia): a/b : c/d = a/b · d/c."
         }
       ]
     },
     {
       "id": "l05",
       "title": "Bài 27: Hai bài toán cơ bản về phân số",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 27: Hai bài toán cơ bản về phân số</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
-      "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 27: Hai bài toán cơ bản về phân số.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững phương pháp tìm giá trị phân số của một số cho trước.",
+        "Nắm vững phương pháp tìm một số biết giá trị phân số của nó.",
+        "Giải quyết các bài toán thực tiễn liên quan đến tỷ lệ, phần trăm và chia phần."
       ],
-      "examples": [
+      "concepts": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 27: Hai bài toán cơ bản về phân số: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "term": "Bài toán 1: Tìm giá trị phân số của một số",
+          "definition": "Muốn tìm m/n của số a cho trước (với m, n thuộc N, n khác 0), ta nhân số a với m/n.",
+          "notation": "Giá trị = a · (m/n)",
+          "note": "Ví dụ: Tìm 3/4 của 28 kg gạo: lấy 28 · 3/4 = 21 kg gạo."
+        },
+        {
+          "term": "Bài toán 2: Tìm một số biết giá trị phân số",
+          "definition": "Muốn tìm một số biết m/n của nó bằng b, ta lấy số b chia cho phân số m/n.",
+          "notation": "Số cần tìm = b : (m/n) = b · (n/m)",
+          "note": "Ví dụ: Tìm số x biết 2/5 của x bằng 14: ta lấy 14 : (2/5) = 14 · 5/2 = 35."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phân biệt hai bài toán cơ bản",
+          "meaning": "Tìm 'phân số CỦA một số' thì làm phép NHÂN. Tìm 'một số KHI BIẾT phân số của nó' thì làm phép CHIA."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một rổ cam có 48 quả. Mẹ đem biếu bà 3/8 số cam, sau đó chia cho hai anh em 2/5 số cam còn lại. Hỏi trong rổ còn lại bao nhiêu quả cam?",
+          "steps": [
+            "Bước 1: Số cam mẹ biếu bà là: 48 · 3/8 = 18 quả cam.",
+            "Bước 2: Số quả cam còn lại sau khi biếu bà là: 48 - 18 = 30 quả cam.",
+            "Bước 3: Số cam chia cho hai anh em là: 30 · 2/5 = 12 quả cam.",
+            "Bước 4: Số quả cam còn lại trong rổ là: 30 - 12 = 18 quả cam."
+          ],
+          "answer": "Còn lại 18 quả cam."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy 2/5 nhân trực tiếp với tổng số 48 quả cam ban đầu thay vì nhân với số cam CÒN LẠI.",
+          "why": "Đề bài nêu rõ '2/5 số cam còn lại' nên phải trừ đi số cam đã biếu bà trước khi tính tiếp."
         }
       ]
     }

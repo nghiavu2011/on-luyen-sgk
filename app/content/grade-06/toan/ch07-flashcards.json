@@ -1,114 +1,86 @@
-[
-  {
-    "front": "Trọng tâm kiến thức Chương 7: Số thập phân là gì?",
-    "back": "Số thập phân, các phép tính cộng trừ nhân chia số thập phân, làm tròn số và ước lượng, tỉ số phần trăm.. Học sinh cần nắm chắc định nghĩa, quy tắc và công thức tính toán chuẩn mực.",
-    "tags": [
-      "Toán 6",
-      "ch07"
-    ]
-  },
-  {
-    "front": "Thứ tự thực hiện các phép tính trong biểu thức?",
-    "back": "1. Trong ngoặc trước, ngoài ngoặc sau: ( ) -> [ ] -> { }; 2. Phép tính: Lũy thừa -> Nhân & Chia -> Cộng & Trừ.",
-    "tags": [
-      "Toán 6",
-      "Quy tắc"
-    ]
-  },
-  {
-    "front": "Tính chất phân phối của phép nhân đối với phép cộng?",
-    "back": "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$. Dùng để tính nhanh bằng cách đặt thừa số chung ra ngoài.",
-    "tags": [
-      "Toán 6",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Quy tắc chuyển vế trong bài toán tìm x?",
-    "back": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: '+' thành '-' và '-' thành '+'.",
-    "tags": [
-      "Toán 6",
-      "Đại số"
-    ]
-  },
-  {
-    "front": "Thế nào là Số nguyên tố và Hợp số?",
-    "back": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có 2 ước là 1 và chính nó. Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước.",
-    "tags": [
-      "Toán 6",
-      "Số học"
-    ]
-  },
-  {
-    "front": "Số 0 và số 1 có phải số nguyên tố không?",
-    "back": "KHÔNG. Số 0 và số 1 không phải là số nguyên tố và cũng không phải là hợp số. Số nguyên tố nhỏ nhất là số 2 (số nguyên tố chẵn duy nhất).",
-    "tags": [
-      "Toán 6",
-      "Bẫy sai"
-    ]
-  },
-  {
-    "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "Muốn cộng hai số nguyên cùng dấu, ta cộng hai giá trị tuyệt đối rồi đặt dấu chung trước kết quả. Ví dụ: (-3) + (-5) = -8.",
-    "tags": [
-      "Toán 6",
-      "Số nguyên"
-    ]
-  },
-  {
-    "front": "Quy tắc nhân hai số nguyên khác dấu và cùng dấu?",
-    "back": "Cùng dấu nhân nhau ra DƯƠNG: (+) * (+) = (+), (-) * (-) = (+). Khác dấu nhân nhau ra ÂM: (+) * (-) = (-).",
-    "tags": [
-      "Toán 6",
-      "Quy tắc dấu"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình vuông cạnh a?",
-    "back": "Chu vi $P = 4a$. Diện tích $S = a^2$.",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính chu vi và diện tích Hình thoi hai đường chéo m, n?",
-    "back": "Chu vi $P = 4a$ (a là cạnh hình thoi). Diện tích $S = \\frac{1}{2} \\cdot m \\cdot n$ (nửa tích hai đường chéo).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình bình hành đáy a, chiều cao h?",
-    "back": "$S = a \\cdot h$ (đáy nhân với chiều cao tương ứng).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình thang hai đáy a, b, chiều cao h?",
-    "back": "$S = \\frac{(a + b) \\cdot h}{2}$ (tổng hai đáy nhân chiều cao chia đôi).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Muốn cộng hoặc trừ hai phân số không cùng mẫu ta làm thế nào?",
-    "back": "1. Quy đồng mẫu số hai phân số (đưa về mẫu chung dương); 2. Cộng hoặc trừ các tử số và giữ nguyên mẫu số chung.",
-    "tags": [
-      "Toán 6",
-      "Phân số"
-    ]
-  },
-  {
-    "front": "Công thức tính Xác suất thực nghiệm của một sự kiện?",
-    "back": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện phép thử nghiệm).",
-    "tags": [
-      "Toán 6",
-      "Xác suất"
-    ]
-  }
-]
+{
+  "chapterId": "ch07",
+  "title": "Chương 7: Số thập phân",
+  "flashcards": [
+    {
+      "id": "fc_t6_c7_01",
+      "front": "Phân số thập phân là gì?",
+      "back": "Phân số thập phân là phân số mà mẫu số là lũy thừa của 10 (như 10, 100, 1000,...).",
+      "category": "Khái niệm",
+      "example": "-7/100, 35/10 là các phân số thập phân.",
+      "mnemonic": "Mẫu là lũy thừa của 10: 10, 100, 1000..."
+    },
+    {
+      "id": "fc_t6_c7_02",
+      "front": "Cấu tạo của một số thập phân gồm những phần nào?",
+      "back": "Gồm phần nguyên (đứng trước dấu phẩy) và phần thập phân (đứng sau dấu phẩy).",
+      "category": "Khái niệm",
+      "example": "-25.48 có phần nguyên là -25, phần thập phân là 48.",
+      "mnemonic": "Trước phẩy là nguyên, sau phẩy là thập phân."
+    },
+    {
+      "id": "fc_t6_c7_03",
+      "front": "Tên các hàng sau dấu phẩy từ trái sang phải là gì?",
+      "back": "Hàng thứ nhất là hàng phần mười, hàng thứ hai là hàng phần trăm, hàng thứ ba là hàng phần nghìn.",
+      "category": "Khái niệm",
+      "example": "Trong số 0.357: 3 ở hàng phần mười, 5 ở hàng phần trăm, 7 ở hàng phần nghìn.",
+      "mnemonic": "Sau phẩy: phần mười, phần trăm, phần nghìn."
+    },
+    {
+      "id": "fc_t6_c7_04",
+      "front": "Quy tắc so sánh hai số thập phân âm là gì?",
+      "back": "Trong hai số thập phân âm, số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn.",
+      "category": "Quy tắc",
+      "example": "-4.25 < -4.2 vì |-4.25| = 4.25 > 4.2 = |-4.2|.",
+      "mnemonic": "Số âm so sánh: tuyệt đối lớn hơn thì lại nhỏ hơn."
+    },
+    {
+      "id": "fc_t6_c7_05",
+      "front": "Quy tắc nhân hai số thập phân là gì?",
+      "back": "Nhân như hai số tự nhiên, đếm tổng số chữ số thập phân ở cả hai thừa số rồi dùng dấu phẩy tách ở tích bấy nhiêu chữ số.",
+      "category": "Kỹ năng",
+      "example": "1.2 · 0.3: lấy 12 · 3 = 36, có tổng 2 chữ số thập phân nên tích là 0.36.",
+      "mnemonic": "Nhân như số tự nhiên, cộng chữ số thập phân để đặt phẩy."
+    },
+    {
+      "id": "fc_t6_c7_06",
+      "front": "Quy tắc làm tròn số thập phân đến một hàng cho trước là gì?",
+      "back": "Nếu chữ số ngay bên phải nhỏ hơn 5 thì giữ nguyên; nếu từ 5 trở lên thì cộng 1 vào chữ số hàng làm tròn.",
+      "category": "Quy tắc",
+      "example": "3.46 làm tròn hàng phần mười là 3.5 (vì 6 ≥ 5).",
+      "mnemonic": "Dưới 5 giữ nguyên, từ 5 cộng thêm 1."
+    },
+    {
+      "id": "fc_t6_c7_07",
+      "front": "Tỉ số của hai số a và b (b ≠ 0) là gì?",
+      "back": "Thương trong phép chia số a cho số b được gọi là tỉ số của a và b, ký hiệu là a/b hoặc a : b.",
+      "category": "Khái niệm",
+      "example": "Tỉ số của 3 m và 5 m là 3/5.",
+      "mnemonic": "Tỉ số là thương: a chia cho b (cùng đơn vị đo)."
+    },
+    {
+      "id": "fc_t6_c7_08",
+      "front": "Công thức tính tỉ số phần trăm của hai số a và b là gì?",
+      "back": "Ta lấy (a · 100 / b) rồi viết thêm ký hiệu % vào bên phải kết quả.",
+      "category": "Công thức",
+      "example": "Tỉ số phần trăm của 3 và 4 là (3 · 100 / 4)% = 75%.",
+      "mnemonic": "Nhân 100 chia b, thêm ký hiệu phần trăm."
+    },
+    {
+      "id": "fc_t6_c7_09",
+      "front": "Muốn tìm p% của một số a ta làm như thế nào?",
+      "back": "Ta lấy số a nhân với p rồi chia cho 100: Giá trị = a · p / 100 = a · (p/100).",
+      "category": "Phương pháp",
+      "example": "Tìm 20% của 80: lấy 80 · 20 / 100 = 16.",
+      "mnemonic": "Tìm phần trăm CỦA một số: lấy số đó NHÂN với phần trăm."
+    },
+    {
+      "id": "fc_t6_c7_10",
+      "front": "Muốn tìm một số khi biết p% của nó bằng b ta làm như thế nào?",
+      "back": "Ta lấy số b chia cho p% tức là lấy (b · 100) / p.",
+      "category": "Phương pháp",
+      "example": "Tìm số x biết 25% của x bằng 10: x = 10 : 25% = 10 · 100 / 25 = 40.",
+      "mnemonic": "Tìm số KHI BIẾT phần trăm: lấy giá trị CHIA cho phần trăm."
+    }
+  ]
+}
