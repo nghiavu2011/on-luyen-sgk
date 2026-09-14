@@ -1,16 +1,203 @@
-[
-  {
-    "id": "en6_u12_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Russia is ______ country in the world by total land area.",
-    "options": [
-      "A. large",
-      "B. larger",
-      "C. largest",
-      "D. the largest"
-    ],
-    "answer": 3,
-    "explanation": "📌 Superlative rule: Always remember the definite article 'the' before superlative adjectives: 'the largest'.\n💡 the + adj-est.\n⚠️ Forgetting 'the' is a very frequent error."
-  }
-]
+{
+  "chapterId": "ch12",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 12: Robots",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng6_u12_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading Comprehension - Evolution and Limits of AI Robots",
+      "question": "Read the text: 'From clumsy mechanical arms in the 1960s, robots have evolved into sophisticated machines capable of diagnosing diseases and exploring distant asteroids. Today, Sophia and other humanoid robots can converse with humans and replicate over 60 facial expressions. Nevertheless, scientists emphasize that robots will never possess genuine human feelings, empathy, or moral values.' What FUNDAMENTAL distinction separates humans from robots according to the text?",
+      "options": [
+        "Robots can explore asteroids while humans cannot.",
+        "Humans are much slower than worker robots.",
+        "Robots cannot smile or move their facial muscles.",
+        "Humans possess genuine emotions, empathy, and moral conscience which robots can never acquire."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kỹ năng phân tích thông điệp cốt lõi: Con người sở hữu cảm xúc chân thật, lòng thấu cảm và lương tri đạo đức - những điều máy móc robot không bao giờ có được.",
+        "steps": [
+          "Bước 1: Chi tiết ở câu kết bài: 'scientists emphasize that robots will never possess genuine human feelings, empathy, or moral values.'",
+          "Bước 2: Điểm khác biệt cốt lõi nhất giữa con người và robot là cảm xúc chân thực, lòng trắc ẩn và lương tri đạo đức.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Chọn chi tiết vụn vặt như robot không biết cười (trong khi bài ghi robot diễn đạt được 60 sắc thái mặt)."
+      },
+      "socraticPrompt": "Điều thiêng liêng nào thuộc về tâm hồn con người mà không một cỗ máy robot tinh vi nào có thể có được?",
+      "distractorReasons": [
+        "Sai vì con người cũng đang chế tạo phi thuyền thám hiểm không gian.",
+        "Sai vì đây không phải là điểm phân biệt cốt lõi về bản chất nhân tính.",
+        "Sai vì bài nêu rõ robot Sophia biểu cảm được 60 nét mặt.",
+        "Đúng vì nêu bật sự khác biệt sâu sắc về cảm xúc nhân văn, lòng trắc ẩn và đạo đức."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u12_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Complex Superlative Comparison",
+      "question": "Choose the grammatically ACCURATE sentence with superlative adjectives:",
+      "options": [
+        "This is the smartest and cheapest robot I have ever seen.",
+        "This is the most smart and the most cheap robot I have ever seen.",
+        "This is smartest and cheapest robot I have ever seen.",
+        "This is the more smart and cheaper robot I have ever seen."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cả hai tính từ 'smart' và 'cheap' đều là tính từ ngắn 1 âm tiết, dạng so sánh nhất thêm đuôi '-est': the smartest and cheapest (mạo từ 'the' có thể dùng chung cho cả hai tính từ song song).",
+        "steps": [
+          "Bước 1: 'smart' và 'cheap' là tính từ ngắn 1 âm tiết, thêm đuôi -est: smartest, cheapest.",
+          "Bước 2: Cần có mạo từ 'the' đứng trước: 'the smartest and cheapest'.",
+          "Bước 3: Câu B đúng chuẩn ngữ pháp tiếng Anh.",
+          "Bước 4: Câu A sai vì dùng 'the most' cho tính từ ngắn; câu C thiếu mạo từ 'the'; câu D dùng so sánh hơn."
+        ],
+        "trap": "Dùng 'the most' trước tính từ ngắn hoặc quên 'the'."
+      },
+      "socraticPrompt": "Hai tính từ 1 âm tiết 'smart' và 'cheap' khi dùng ở so sánh nhất song song viết như thế nào?",
+      "distractorReasons": [
+        "Đúng vì cấu trúc 'the smartest and cheapest' chuẩn xác 100%.",
+        "Sai vì smart và cheap là tính từ ngắn, không dùng 'the most'.",
+        "Sai vì thiếu mạo từ 'the'.",
+        "Sai vì dùng lẫn lộn so sánh hơn."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u12_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Error Identification - Modals and Superlatives",
+      "question": "Find the error in the sentence: 'When my father was a little boy, he could to swim across this wide lake.'",
+      "options": [
+        "was",
+        "could to swim",
+        "little boy",
+        "wide lake"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sau trợ động từ khuyết thiếu 'could' là động từ nguyên thể KHÔNG có 'to' (bare infinitive): could + V.",
+        "steps": [
+          "Bước 1: Cấu trúc: S + could + V-nguyên thể.",
+          "Bước 2: 'could to swim' bị sai do thừa chữ 'to'.",
+          "Bước 3: Sửa lại thành: 'could swim'.",
+          "Bước 4: Chọn phương án C."
+        ],
+        "trap": "Không nhận ra lỗi thừa 'to' sau could."
+      },
+      "socraticPrompt": "Sau trợ động từ 'could', ta dùng động từ 'swim' nguyên mẫu hay phải có chữ 'to'?",
+      "distractorReasons": [
+        "Sai vì was chia theo ngôi he ở thì quá khứ đúng.",
+        "Đúng vì sau could không bao giờ có 'to', phải sửa thành could swim.",
+        "Sai vì little boy là cụm danh từ đúng.",
+        "Sai vì wide lake là cụm danh từ đúng."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u12_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Contrast: Could in the past vs Can in the present",
+      "question": "Fill in the blanks: 'Five years ago, this service robot ________ only sweep flat floors, but now it ________ climb stairs easily.'",
+      "options": [
+        "could - will be",
+        "can - could",
+        "could - can",
+        "can't - could"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đối chiếu năng lực giữa quá khứ (Five years ago -> could) và hiện tại (now -> can).",
+        "steps": [
+          "Bước 1: Vế 1 có 'Five years ago' (5 năm trước) -> khả năng quá khứ dùng 'could'.",
+          "Bước 2: Vế 2 có 'but now' (nhưng bây giờ) -> khả năng hiện tại dùng 'can'.",
+          "Bước 3: Cặp động từ đúng thứ tự là 'could - can'."
+        ],
+        "trap": "Đảo ngược thứ tự thành 'can - could'."
+      },
+      "socraticPrompt": "Vế 1 là 5 năm trước thì dùng từ gì, vế 2 là bây giờ thì dùng từ gì?",
+      "distractorReasons": [
+        "Sai vì will be không hoàn thiện nghĩa chỉ khả năng trực tiếp.",
+        "Sai vì ngược mốc thời gian.",
+        "Đúng vì could chỉ khả năng quá khứ và can chỉ khả năng hiện tại chuẩn xác.",
+        "Sai vì can't là hiện tại phủ định."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u12_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Communication - Future of Robotics Dialogue",
+      "question": "Student: 'Will teaching robots replace human teachers completely in our classrooms?' How should a senior educator respond?",
+      "options": [
+        "Yes, human teachers will be fired next month.",
+        "Computers are too stupid to do math.",
+        "Robots hate all students and will destroy schools.",
+        "No. While robots can provide vast information, they cannot replace teachers' empathy, love, and moral guidance."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Góc nhìn sư phạm đúng đắn về vai trò của công nghệ: Robot chỉ là công cụ hỗ trợ thông tin, không thể thay thế tình thương và sự uốn nắn đạo đức của người thầy.",
+        "steps": [
+          "Bước 1: Câu hỏi về việc robot có thay thế hoàn toàn giáo viên được không.",
+          "Bước 2: Quan điểm sư phạm chuẩn mực: Robot hỗ trợ truyền tải kiến thức nhưng không thể thay thế trái tim, tình yêu thương và sự rèn luyện đạo đức nhân cách của người thầy.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Chọn các phương án mang tính bi quan, tiêu cực hoặc phi khoa học."
+      },
+      "socraticPrompt": "Giáo viên trả lời như thế nào để khẳng định công nghệ chỉ là trợ thủ, còn tình yêu thương và nhân cách của thầy cô là vĩnh cửu?",
+      "distractorReasons": [
+        "Sai vì thầy cô giáo không bị sa thải.",
+        "Sai vì máy tính thực hiện các phép toán cực kỳ nhanh.",
+        "Sai vì robot không có cảm xúc thù ghét.",
+        "Đúng vì thể hiện trọn vẹn triết lý giáo dục nhân văn sâu sắc."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u12_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Transformation into Superlative",
+      "question": "Rewrite the sentence using a superlative adjective: 'No other domestic robot in our market is more affordable than the RoboClean 300.'",
+      "options": [
+        "The RoboClean 300 is the most affordable domestic robot in our market.",
+        "The RoboClean 300 is affordable than all robots.",
+        "The RoboClean 300 is the affordablest robot in our market.",
+        "The RoboClean 300 is as affordable as other robots."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chuyển đổi câu từ so sánh hơn phủ định sang so sánh nhất: 'No other ... is more adj than X' <=> 'X is the most adj...'.",
+        "steps": [
+          "Bước 1: Câu gốc: 'Không có robot gia đình nào trên thị trường có giá cả phải chăng hơn RoboClean 300.'",
+          "Bước 2: Nghĩa là RoboClean 300 là robot có giá cả phải chăng nhất (the most affordable).",
+          "Bước 3: 'affordable' là tính từ dài 4 âm tiết, cấu trúc là: 'the most affordable'.",
+          "Bước 4: Chọn câu A."
+        ],
+        "trap": "Thêm đuôi -est thành 'affordablest' là từ sai chính tả."
+      },
+      "socraticPrompt": "Nếu không có con robot nào giá cả phải chăng hơn RoboClean 300, thì nó chính là con robot như thế nào?",
+      "distractorReasons": [
+        "Đúng vì chuyển đổi từ câu phủ định sang so sánh nhất với tính từ dài chuẩn mực 100%.",
+        "Sai vì thiếu cấu trúc so sánh hơn hoàn chỉnh.",
+        "Sai vì tiếng Anh không có từ affordablest.",
+        "Sai vì đây là câu so sánh bằng làm đổi nghĩa."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    }
+  ]
+}

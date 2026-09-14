@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 90" fill="none">
+    <defs>
+        <linearGradient id="cyanPageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00b4d8"/>
+            <stop offset="100%" stop-color="#0284c7"/>
+        </linearGradient>
+        <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fde047"/>
+            <stop offset="60%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#ea580c"/>
+        </linearGradient>
+    </defs>
+    <!-- Golden Sun Circle -->
+    <circle cx="50" cy="15" r="11" fill="url(#sunGrad)" />
+    
+    <!-- Outer Book Base Outline (Deep Royal Navy Blue) -->
+    <path d="M50 78 C35 68 18 68 8 73 C6.2 73.8 4 72.5 4 70.5 L4 26 C4 24.2 5.8 22.8 7.5 23.5 C18 27.5 35 27.5 50 36 C65 27.5 82 27.5 92.5 23.5 C94.2 22.8 96 24.2 96 26 L96 70.5 C96 72.5 93.8 73.8 92 73 C82 68 65 68 50 78 Z" fill="#0f4c81" />
+    
+    <!-- Left Page -->
+    <path d="M47.5 69 C36 60.5 22 60.5 13 65 L13 27 C22 23 36 23 47.5 32 Z" fill="url(#cyanPageGrad)" />
+    
+    <!-- Right Page -->
+    <path d="M52.5 69 C64 60.5 78 60.5 87 65 L87 27 C78 23 64 23 52.5 32 Z" fill="url(#cyanPageGrad)" />
+</svg>

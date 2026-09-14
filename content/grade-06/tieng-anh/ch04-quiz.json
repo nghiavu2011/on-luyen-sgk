@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en6_u04_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "The air in Da Lat is much ______ and fresher than in Ho Chi Minh City.",
-    "options": [
-      "A. more cool",
-      "B. cooler",
-      "C. coolest",
-      "D. as cool"
-    ],
-    "answer": 1,
-    "explanation": "📌 Grammar: 'cool' is a one-syllable adjective $\\rightarrow$ 'cooler'. 'Much' can be used as an intensifier before comparative.\n💡 much + comparative (cooler).\n⚠️ Never say 'more cool'."
-  }
-]
+{
+  "chapterId": "ch04",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 4: My Neighbourhood",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng6_u04_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading Comprehension - Neighbourhood Comparison",
+      "question": "Read the text: 'Vy lives in a peaceful suburb with many green trees. Her school is only 5 minutes away on foot. Everything is cheaper here than in downtown, but there is no cinema or big shopping mall.' Which statement is TRUE according to the text?",
+      "options": [
+        "Vy lives in a noisy and polluted area.",
+        "There are many big cinemas near Vy's house.",
+        "Vy takes a bus for 30 minutes to get to school.",
+        "Things in Vy's neighbourhood cost less than in downtown."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kỹ năng đọc hiểu và chuyển đổi từ đồng nghĩa: 'cheaper' đồng nghĩa với 'cost less' (rẻ hơn, tốn ít tiền hơn).",
+        "steps": [
+          "Bước 1: Chi tiết bài đọc: 'Everything is cheaper here than in downtown'.",
+          "Bước 2: 'cheaper' = 'cost less' (chi phí thấp hơn).",
+          "Bước 3: Phương án đúng là 'Things in Vy's neighbourhood cost less than in downtown.'"
+        ],
+        "trap": "Đọc lướt không chú ý cụm 'no cinema' lại chọn câu có nhiều rạp chiếu phim."
+      },
+      "socraticPrompt": "Từ 'cheaper' (rẻ hơn) tương đương với cụm từ nào nói về giá cả?",
+      "distractorReasons": [
+        "Sai vì bài đọc ghi Vy sống ở nơi yên bình (peaceful suburb).",
+        "Sai vì bài đọc khẳng định 'there is no cinema'.",
+        "Sai vì trường của Vy chỉ cách 5 phút đi bộ (5 minutes on foot).",
+        "Đúng vì 'cheaper' hoàn toàn đồng nghĩa với 'cost less' (giá rẻ hơn)."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u04_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Sentence Transformation with Comparatives",
+      "question": "Which sentence has the CLOSEST meaning to: 'The public bus in this town is slower than the metro train.'?",
+      "options": [
+        "The metro train is faster than the public bus.",
+        "The metro train is more slow than the public bus.",
+        "The public bus is faster than the metro train.",
+        "The metro train is as slow as the public bus."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chuyển đổi câu so sánh hơn với tính từ trái nghĩa: A is slower than B <=> B is faster than A.",
+        "steps": [
+          "Bước 1: Câu gốc: 'Xe buýt chậm hơn tàu điện ngầm.'",
+          "Bước 2: Ngược lại có nghĩa là: 'Tàu điện ngầm chạy nhanh hơn xe buýt.'",
+          "Bước 3: Dạng so sánh hơn của fast là faster. Câu đúng: 'The metro train is faster than the public bus.'"
+        ],
+        "trap": "Chọn câu giữ nguyên đối tượng nhưng đổi tính từ sai lệch logic."
+      },
+      "socraticPrompt": "Nếu xe buýt chạy chậm hơn tàu điện ngầm thì tàu điện ngầm sẽ như thế nào so với xe buýt?",
+      "distractorReasons": [
+        "Đúng vì chuyển đổi từ trái nghĩa 'slower than' thành 'faster than' hoàn toàn chính xác.",
+        "Sai vì 'fast' là từ trái nghĩa, và 'slow' không dùng 'more slow'.",
+        "Sai vì câu này nói xe buýt nhanh hơn, mâu thuẫn câu gốc.",
+        "Sai vì biến thành câu so sánh bằng 'as slow as'."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u04_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Error Identification - Comparatives",
+      "question": "Find the underlined part that needs correction: 'Living in a big city is much more busier than living in a small village.'",
+      "options": [
+        "Living",
+        "more busier",
+        "much",
+        "than"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lỗi dùng thừa từ so sánh (double comparative): 'busy' đã có dạng so sánh hơn là 'busier', tuyệt đối không được dùng 'more busier'.",
+        "steps": [
+          "Bước 1: 'busy' là tính từ kết thúc bằng -y, dạng so sánh hơn là 'busier'.",
+          "Bước 2: Ta có thể thêm 'much' để nhấn mạnh (much busier), nhưng không được dùng 'more busier'.",
+          "Bước 3: Cụm 'more busier' là lỗi sai ngữ pháp nghiêm trọng."
+        ],
+        "trap": "Tưởng rằng 'much' bị sai nhưng thực chất 'much' đứng trước tính từ so sánh hơn là đúng ngữ pháp."
+      },
+      "socraticPrompt": "Đã có đuôi '-ier' trong 'busier' rồi thì có được để chữ 'more' đằng trước nữa không?",
+      "distractorReasons": [
+        "Sai vì danh động từ 'Living' đứng đầu câu làm chủ ngữ hoàn toàn chuẩn xác.",
+        "Đúng vì 'more busier' bị lỗi trùng lặp so sánh, sửa lại thành 'much busier'.",
+        "Sai vì 'much' dùng bổ nghĩa mức độ cho so sánh hơn là đúng.",
+        "Sai vì liên từ 'than' dùng trong cấu trúc so sánh hơn là đúng."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u04_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Adjective Collocations in Context",
+      "question": "Streets in the old quarter are very ________, so big lorries and coaches cannot enter.",
+      "options": [
+        "wide",
+        "spacious",
+        "narrow",
+        "convenient"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "'narrow' (chật hẹp) giải thích nguyên nhân xe tải lớn và xe khách không thể đi vào các con phố cổ.",
+        "steps": [
+          "Bước 1: Vế sau chỉ kết quả: 'big lorries and coaches cannot enter' (xe tải và xe khách lớn không vào được).",
+          "Bước 2: Nguyên nhân là lòng đường quá hẹp.",
+          "Bước 3: Tính từ mang nghĩa hẹp là 'narrow'."
+        ],
+        "trap": "Chọn 'wide' (rộng rãi) hoặc 'spacious' (thênh thang) là ngược nghĩa thực tế."
+      },
+      "socraticPrompt": "Đường phố như thế nào thì xe ô tô to lớn không thể chui lọt được?",
+      "distractorReasons": [
+        "Sai vì wide (rộng) thì xe lớn phải vào được dễ dàng.",
+        "Sai vì spacious nghĩa là rộng rãi thoáng đãng.",
+        "Đúng vì narrow (chật hẹp) là lý do xe lớn không thể đi vào.",
+        "Sai vì convenient nghĩa là thuận lợi, không hợp logic câu."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u04_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Communication - Giving Complex Directions",
+      "question": "A pedestrian asks for directions to the museum. Which response gives CLEAR and ACCURATE instructions?",
+      "options": [
+        "Go back home and look at your Google Map.",
+        "You go right and then left and somewhere there is museum.",
+        "Turn the car because it is very near here.",
+        "Go straight, take the second turning on your right, and it will be opposite the park."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cách chỉ dẫn đường lịch sự, chuẩn xác trong giao tiếp tiếng Anh theo SGK Global Success.",
+        "steps": [
+          "Bước 1: Cấu trúc chỉ đường chuẩn: Go straight on + Take the ... turning on the right/left + It is opposite/next to...",
+          "Bước 2: Phương án A đáp ứng đầy đủ các mốc chỉ dẫn phương hướng mạch lạc và lịch sự.",
+          "Bước 3: Các phương án còn lại hoặc tối nghĩa hoặc thiếu lịch sự."
+        ],
+        "trap": "Chọn câu trả lời cộc lốc mang tính văn nói tùy tiện."
+      },
+      "socraticPrompt": "Mẫu câu chỉ đường nào sử dụng các mốc tuần tự: đi thẳng, rẽ ở ngã rẽ thứ hai, đối diện công viên?",
+      "distractorReasons": [
+        "Sai vì bất lịch sự và không đáp ứng câu hỏi hỏi đường.",
+        "Sai vì chỉ dẫn mơ hồ 'somewhere there is museum'.",
+        "Sai vì người hỏi là người đi bộ, không thể yêu cầu 'turn the car'.",
+        "Đúng vì câu A chuẩn cấu trúc giao tiếp chỉ đường trong SGK Tiếng Anh 6."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u04_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Comparative in Everyday Dialogue",
+      "question": "Tom: 'Why do you prefer living in the countryside?' - Nam: 'Because people here are ________ and life is much less stressful.'",
+      "options": [
+        "friendlier",
+        "more friendlier",
+        "friendly",
+        "friendliest"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính từ 2 âm tiết có đuôi '-ly' như 'friendly' thường dùng dạng so sánh hơn là 'friendlier' (hoặc more friendly, nhưng friendlier là dạng phổ biến nhất).",
+        "steps": [
+          "Bước 1: Ngữ cảnh so sánh giữa nông thôn và thành thị.",
+          "Bước 2: 'friendly' có 2 âm tiết kết thúc bằng 'y', đổi 'y' thành 'i' thêm 'er' -> 'friendlier'.",
+          "Bước 3: Chọn 'friendlier'."
+        ],
+        "trap": "Dùng 'more friendlier' (sai lỗi double comparative)."
+      },
+      "socraticPrompt": "Dạng so sánh hơn đúng chuẩn của tính từ 'friendly' là gì?",
+      "distractorReasons": [
+        "Đúng vì friendlier là dạng so sánh hơn chuẩn ngữ pháp.",
+        "Sai vì thừa 'more' khi đã có đuôi -er.",
+        "Sai vì đây là câu so sánh hơn cần dạng biến đổi, không để nguyên 'friendly'.",
+        "Sai vì friendliest là so sánh nhất."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    }
+  ]
+}

@@ -7,7 +7,14 @@ let earnedXP = 0;
 async function initQuiz() {
     const params = getUrlParams();
     try {
-        const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-quiz.json`);
+        let quizFile = `${params.chapter}-quiz.json`;
+        if (params.exam && (params.exam === 'de1' || params.exam === 'de2')) {
+            quizFile = `${params.chapter}-quiz-${params.exam}.json`;
+        }
+        let res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${quizFile}`);
+        if (!res.ok && quizFile !== `${params.chapter}-quiz.json`) {
+            res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-quiz.json`);
+        }
         if (!res.ok) throw new Error();
         const data = await res.json();
         currentQuiz = data.questions || [];

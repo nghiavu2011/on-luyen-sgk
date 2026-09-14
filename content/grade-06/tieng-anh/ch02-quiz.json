@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en6_u02_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Which plural noun has the final -s pronounced as /s/?",
-    "options": [
-      "A. rooms",
-      "B. villas",
-      "C. lamps",
-      "D. beds"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phonetics: 'lamp' ends with voiceless sound /p/, so plural -s is pronounced /s/: /læmps/.\n💡 rooms /z/, villas /z/, beds /z/.\n⚠️ Rule: p, k, t, f, th takes /s/."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 2: My House",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng6_u02_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Inverted Subject with 'There is / There are'",
+      "question": "Choose the correct sentence following formal grammar rules of proximity:",
+      "options": [
+        "There are a large fridge and two microwaves in the kitchen.",
+        "There is a large fridge and two microwaves in the kitchen.",
+        "There have a large fridge and two microwaves in the kitchen.",
+        "There be a large fridge and two microwaves in the kitchen."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc gần nhất (Rule of Proximity) với 'There is / There are': Động từ 'to be' hòa hợp với danh từ ĐẦU TIÊN ngay sát nó. Ở đây danh từ đầu tiên là 'a large fridge' (số ít) &rarr; dùng 'There is'.",
+        "steps": [
+          "Bước 1: Xác định danh từ đứng ngay sau to be: 'a large fridge' (danh từ số ít).",
+          "Bước 2: Theo quy tắc ngữ pháp tiếng Anh chuẩn SGK, to be hòa hợp với danh từ liền kề &rarr; dùng 'is'.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Cộng gộp cả hai vế ('a fridge + two microwaves = 3 món') rồi vội vàng chọn 'There are'."
+      },
+      "socraticPrompt": "Trong cấu trúc 'There is/are', động từ to be chia theo tổng số đồ vật hay chia theo danh từ đứng ngay liền kề sau nó?",
+      "distractorReasons": [
+        "Sai vì danh từ liền kề 'a large fridge' là số ít, không chia 'are' theo ngữ pháp chuẩn mực.",
+        "Đúng vì 'There is' hòa hợp với danh từ số ít 'a large fridge' đứng sát nó nhất.",
+        "Sai vì tiếng Anh không dùng 'There have'.",
+        "Sai vì 'There be' không chia thì là sai ngữ pháp."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u02_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Preposition in Complex Spatial Context",
+      "question": "The cat is sitting on the floor ________ the armchair, so you cannot see it when looking from the front of the chair.",
+      "options": [
+        "in front of",
+        "next to",
+        "behind",
+        "under"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ngữ cảnh không gian: 'cannot see it when looking from the front' (không nhìn thấy khi nhìn từ phía trước) &rarr; con mèo đang ở phía sau (behind) chiếc ghế bành.",
+        "steps": [
+          "Bước 1: Phân tích dữ kiện: không thấy từ đằng trước ghế.",
+          "Bước 2: Vị trí bị che khuất tầm nhìn từ phía trước chính là 'behind' (ở đằng sau).",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Chọn 'in front of' do đọc lướt thấy từ 'front' trong mệnh đề sau."
+      },
+      "socraticPrompt": "Nếu đứng đằng trước nhìn vào chiếc ghế mà không thấy con mèo, chứng tỏ con mèo đang nấp ở đâu chiếc ghế?",
+      "distractorReasons": [
+        "Sai vì nếu ngồi 'in front of' (phía trước) thì người đứng trước sẽ nhìn thấy ngay.",
+        "Sai vì nếu ngồi 'next to' (bên cạnh) thì vẫn nhìn thấy được.",
+        "Đúng vì 'behind' (ở phía sau) giải thích hoàn hảo cho việc bị che khuất tầm nhìn.",
+        "Sai vì câu đã có 'sitting on the floor' và vị trí che khuất từ phía trước là phía sau."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u02_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Double Possession / Correct Phrasing",
+      "question": "Which of the following phrases is grammatically INCORRECT in English?",
+      "options": [
+        "the leg of the table",
+        "the boys' ball",
+        "Tom's dog",
+        "the table's leg"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy tắc sở hữu cách: Không dùng sở hữu cách 's cho đồ vật vô tri vô giác (inanimate objects). Thay vào đó, dùng cấu trúc 'of' (the leg of the table).",
+        "steps": [
+          "Bước 1: 'the table' là đồ vật vô tri vô giác.",
+          "Bước 2: Ngữ pháp chuẩn mực không dùng 'the table's leg', mà phải dùng 'the leg of the table'.",
+          "Bước 3: Cụm từ sai là B."
+        ],
+        "trap": "Nghĩ rằng từ nào cũng có thể thêm 's để chỉ quan hệ sở hữu."
+      },
+      "socraticPrompt": "Với đồ vật vô tri như cái bàn, cái ghế, người ta dùng sở hữu cách 's hay dùng cấu trúc với giới từ 'of'?",
+      "distractorReasons": [
+        "Sai vì 'the leg of the table' là cấu trúc đúng ngữ pháp cho đồ vật vô tri.",
+        "Sai vì 'the boys' ball' là quả bóng của các cậu bé, viết đúng sở hữu cách số nhiều.",
+        "Sai vì 'Tom's dog' là sở hữu của người, hoàn toàn chính xác.",
+        "Đúng vì 'the table's leg' là cách viết sai quy tắc sở hữu cách của đồ vật."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u02_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Pronunciation Rules of Plurals",
+      "question": "How many words in the following list have their final '-s' pronounced as /s/: books, lamps, beds, cups, sinks, doors?",
+      "options": [
+        "4 words",
+        "3 words",
+        "2 words",
+        "5 words"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đuôi '-s' đọc là /s/ khi đứng sau âm vô thanh /p, t, k, f, θ/. Phân tích: books (/k/ &rarr; /s/), lamps (/p/ &rarr; /s/), cups (/p/ &rarr; /s/), sinks (/k/ &rarr; /s/) &rarr; Có 4 từ. Hai từ beds (/d/ &rarr; /z/) và doors (/ɔː/ &rarr; /z/) đọc là /z/.",
+        "steps": [
+          "Bước 1: Liệt kê các từ tận cùng bằng âm vô thanh: books (/k/), lamps (/p/), cups (/p/), sinks (/k/).",
+          "Bước 2: Đếm số lượng: có đúng 4 từ phát âm là /s/.",
+          "Bước 3: Chọn phương án C: 4 words."
+        ],
+        "trap": "Bỏ sót từ 'cups' hoặc 'sinks' khi đếm nhẩm."
+      },
+      "socraticPrompt": "Trong danh sách trên, những từ nào kết thúc bằng âm bật hơi vô thanh /p/ và /k/?",
+      "distractorReasons": [
+        "Đúng vì có đúng 4 từ: books, lamps, cups, sinks mang đuôi /s/.",
+        "Sai vì đếm thiếu 1 từ.",
+        "Sai vì đếm thiếu 2 từ.",
+        "Sai vì beds và doors phát âm là /z/, chỉ có 4 từ mang âm /s/."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u02_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading & Logic - House Comparison",
+      "question": "A country house usually differs from a town house in that ________.",
+      "options": [
+        "a country house is always built on water with wooden stilts",
+        "a country house is located in the countryside and usually has a large garden or yard around it",
+        "a country house has no kitchen or bathroom",
+        "a country house only exists in fairy tales"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khái niệm 'country house' (nhà ở vùng quê): nằm ở vùng nông thôn, thường có không gian thoáng đãng, vườn cây hoặc sân rộng bao quanh, khác với 'town house' (nhà ống san sát ở phố).",
+        "steps": [
+          "Bước 1: So sánh đặc trưng của country house và town house trong SGK Unit 2 trang 18.",
+          "Bước 2: Country house ở nông thôn và thường có vườn rộng bao quanh.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Nhầm country house với stilt house (nhà sàn trên mặt nước)."
+      },
+      "socraticPrompt": "Đặc trưng lớn nhất của ngôi nhà ở miền quê (country house) so với nhà phố chật hẹp là gì?",
+      "distractorReasons": [
+        "Sai vì nhà dựng trên cọc gỗ trên mặt nước là 'stilt house' (nhà sàn).",
+        "Đúng vì phản ánh chính xác vị trí địa lí và đặc điểm kiến trúc có sân vườn rộng.",
+        "Sai vì country house vẫn có đầy đủ các phòng tiện nghi sinh hoạt.",
+        "Sai vì country house là loại hình nhà ở thực tế phổ biến khắp thế giới."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u02_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Error Identification - Preposition Collocation",
+      "question": "Find the incorrect part in this sentence: 'The microwave is next the cooker on the kitchen counter.'",
+      "options": [
+        "The microwave",
+        "the cooker",
+        "is next",
+        "on the kitchen counter"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Giới từ chỉ vị trí 'bên cạnh' bắt buộc phải là cụm 'next to', không bao giờ đứng một mình là 'next the cooker'.",
+        "steps": [
+          "Bước 1: Đọc kĩ cụm từ chỉ vị trí: 'next the cooker'.",
+          "Bước 2: Nhận ra thiếu giới từ 'to'. Cụm từ đúng phải là 'next to the cooker'.",
+          "Bước 3: Phần bị sai là 'is next' (thiếu 'to'). Chọn B."
+        ],
+        "trap": "Mắt đọc lướt qua từ 'next' tưởng đã đầy đủ mà không nhận ra thiếu từ 'to'."
+      },
+      "socraticPrompt": "Khi muốn nói 'ở bên cạnh một vật', sau từ 'next' bắt buộc phải có từ gì đi kèm?",
+      "distractorReasons": [
+        "Sai vì 'The microwave' là danh từ số ít làm chủ ngữ hoàn toàn đúng.",
+        "Sai vì 'the cooker' là tân ngữ đứng sau giới từ đúng.",
+        "Đúng vì 'is next' sai ngữ pháp, bắt buộc phải sửa thành 'is next to'.",
+        "Sai vì 'on the kitchen counter' (trên kệ bếp) là cụm giới từ chỉ nơi chốn chuẩn xác."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    }
+  ]
+}

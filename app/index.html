@@ -46,9 +46,9 @@
     <!-- ================= TOP NAVIGATION ================= -->
     <header class="ol-navbar">
         <div class="ol-nav-container">
-            <a href="index.html" class="ol-brand">
+            <a href="index.html" class="ol-brand" onclick="resetToMainHero(event)">
                 <div class="ol-brand-icon">
-                    <img src="assets/app_logo.png" alt="Ôn Luyện Logo" width="42" height="42" decoding="async">
+                    <img src="assets/app_logo.svg" alt="Ôn Luyện Logo" width="44" height="44" decoding="async">
                 </div>
                 <div class="ol-brand-text">
                     <span class="ol-brand-title">Ôn luyện</span>
@@ -57,7 +57,7 @@
             </a>
 
             <ul class="ol-nav-menu">
-                <li class="ol-nav-item"><a href="index.html" class="active">Trang chủ</a></li>
+                <li class="ol-nav-item"><a href="index.html" class="active" onclick="resetToMainHero(event)">Trang chủ</a></li>
                 <li class="ol-nav-item"><a href="#levels">Cấp học</a></li>
                 <li class="ol-nav-item"><a href="#subjects">Môn học</a></li>
                 <li class="ol-nav-item"><a href="quiz.html?grade=06&subject=toan&chapter=ch01">Đề ôn tập</a></li>
@@ -68,64 +68,60 @@
 
             <div class="ol-nav-actions">
                 <button class="ol-btn-icon" title="Tìm kiếm bài học, chủ đề...">🔍</button>
-                <a href="parent.html" class="ol-btn-icon" title="Góc Phụ huynh" style="text-decoration: none; font-size: 1.15rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 50%;">👨‍👩‍👧</a>
-                <button class="ol-btn-primary" onclick="openNotifyModal('Tài khoản học sinh')" style="font-size: 0.85rem; padding: 0.45rem 0.95rem; border-radius: 8px;">🔔 Nhận thông báo</button>
+                <button class="ol-btn-outline" onclick="openNotifyModal('Đăng nhập tài khoản')" style="font-size: 0.88rem; padding: 0.45rem 1.1rem; border-radius: 9999px;">Đăng nhập</button>
+                <button class="ol-btn-primary" onclick="openNotifyModal('Tài khoản học sinh')" style="font-size: 0.88rem; padding: 0.45rem 1.25rem; border-radius: 9999px; background: #0284c7;">Đăng ký</button>
             </div>
         </div>
     </header>
 
-    <main class="ol-container">
-
-        <!-- ================= HERO BANNER ================= -->
-        <section class="ol-hero-section">
-            <div class="ol-hero-card">
-                <div>
-                    <div class="ol-hero-tag">🌟 BẢN MỚI NHẤT NĂM HỌC 2026 – 2027 • BỘ SÁCH KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (NXBGDVN)</div>
-                    <h1 class="ol-hero-title">Học đúng hướng.<br>Ôn đúng trọng tâm.</h1>
-                    <p class="ol-hero-desc">
-                        Hệ thống đề ôn tập bám sát bộ sách <strong>Kết nối tri thức với cuộc sống</strong> của Nhà xuất bản Giáo dục Việt Nam (bản mới nhất cho năm học 2026 – 2027), giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.
-                    </p>
-                    <div class="ol-hero-actions">
-                        <a href="#levels" class="ol-btn-cta">Bắt đầu ngay ➔</a>
-                        <a href="#features" class="ol-btn-secondary">Tìm hiểu thêm</a>
-                    </div>
-                    <div class="ol-hero-stats">
-                        <div class="ol-stat-item">
-                            <h3>9 chương · 39 bài</h3>
-                            <p>Toán 6 Kết nối tri thức</p>
-                        </div>
-                        <div class="ol-stat-item">
-                            <h3 id="stat-total-exams">447 đề</h3>
-                            <p>Đề ôn luyện trắc nghiệm</p>
-                        </div>
-                        <div class="ol-stat-item">
-                            <h3>100%</h3>
-                            <p>Bám sát NXB Giáo dục VN</p>
-                        </div>
-                    </div>
+    <!-- ================= FULL WIDTH HERO BANNER (SEAMLESS BLEND) ================= -->
+    <section class="ol-hero-section-full" id="hero-banner-section">
+        <div class="ol-hero-container">
+            <div>
+                <div class="ol-hero-tag" id="hero-tag">TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI</div>
+                <h1 class="ol-hero-title" id="hero-title">Học đúng hướng.<br>Ôn đúng trọng tâm.</h1>
+                <p class="ol-hero-desc" id="hero-desc">
+                    Hệ thống đề ôn tập bám sát bộ SGK <strong>"Kết nối tri thức với cuộc sống"</strong> của Nhà xuất bản Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.
+                </p>
+                <div class="ol-hero-actions">
+                    <a href="#levels" class="ol-btn-hero-primary">Bắt đầu ngay ➔</a>
+                    <a href="#features" class="ol-btn-hero-secondary">Tìm hiểu thêm</a>
                 </div>
-
-                <div class="ol-hero-banner-visual">
-                    <div style="position: relative; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12); margin-bottom: 1rem; border: 2px solid white;">
-                        <img src="assets/hero_banner.jpg" alt="Học sinh Việt Nam học tập chủ động cùng Ôn Luyện SGK" style="width: 100%; height: auto; display: block; object-fit: cover;">
-                        <div class="ol-hero-quote-sticker">
-                            Hôm nay nỗ lực hơn, ngày mai tự tin hơn! ✨
-                        </div>
-                        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(15, 23, 42, 0.85)); padding: 0.75rem 1rem; color: white;">
-                            <span class="ol-badge-note" style="margin: 0; display: inline-block; background: #f59e0b; color: white; font-weight: 800; font-size: 0.75rem;">🌟 KHÁM PHÁ & SÁNG TẠO</span>
-                            <div style="font-size: 0.85rem; font-weight: 700; margin-top: 0.2rem;">Học sinh Việt Nam vững bước cùng SGK 2026 - 2027</div>
-                        </div>
+                <div class="ol-hero-stats" id="hero-stats-row">
+                    <div class="ol-stat-item">
+                        <h3 id="stat-val-1">50.000+</h3>
+                        <p id="stat-lbl-1">Học sinh tin tưởng</p>
                     </div>
-                    <div style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
-                        <span style="background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">🌱 Tiểu học (Lớp 1-5)</span>
-                        <span style="background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">🎓 THCS (Lớp 6-9)</span>
-                        <span style="background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 20px;">📈 THPT (Lớp 10-12)</span>
+                    <div class="ol-stat-item">
+                        <h3 id="stat-val-2">10.000+</h3>
+                        <p id="stat-lbl-2">Đề ôn tập chất lượng</p>
+                    </div>
+                    <div class="ol-stat-item">
+                        <h3 id="stat-val-3">100%</h3>
+                        <p id="stat-lbl-3">Bám sát SGK 2026 – 2027</p>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- ================= CHỌN CẤP HỌC ================= -->
+            <div class="ol-hero-visual-wrapper">
+                <div class="ol-hero-sticker-handwritten" id="hero-sticker">
+                    Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️
+                </div>
+                <img src="assets/hero_main_blended.png" id="hero-student-img" alt="Học sinh Việt Nam học tập chủ động cùng Ôn Luyện SGK" class="ol-hero-student-img">
+                <div class="ol-hero-floating-glass" id="hero-glass-tag">
+                    <span style="font-size: 1.25rem;">📈</span>
+                    <div>
+                        <strong style="color: #0f172a; font-size: 0.85rem;">Tri thức</strong>
+                        <div style="font-size: 0.75rem; color: #64748b;">Kiến tạo tương lai</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="ol-container">
+
+        <!-- ================= CHỌN CẤP HỌC (DEMO CARDS) ================= -->
         <section id="levels" class="ol-levels-section">
             <div class="ol-section-title">
                 <h2>Chọn cấp học</h2>
@@ -133,45 +129,43 @@
             </div>
 
             <div class="ol-levels-grid">
-                <!-- Thẻ Tiểu học: P1-4 Sắp mở + Form nhận thông báo -->
-                <a href="#levels" id="level-card-c1" class="ol-level-card ol-level-c1" onclick="handleLevelClick(event, 'c1')">
-                    <div class="ol-level-left">
-                        <img src="assets/level-c1.png" alt="Cấp 1 Tiểu học" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
-                        <div class="ol-level-info">
-                            <div class="ol-level-badge" style="background: #ffedd5; color: #c2410c;">Lớp 1 – 5 · Sắp mở</div>
-                            <h3>Tiểu học</h3>
-                            <p>Nhận thông báo khi hệ thống ra mắt</p>
-                        </div>
+                <!-- Thẻ 1: Tiểu học -->
+                <a href="#levels" id="level-card-c1" class="ol-level-card-demo card-c1" onclick="handleLevelClick(event, 'c1')">
+                    <div class="ol-level-icon-badge">
+                        <img src="assets/icon_level_c1.png" alt="Tiểu học" onerror="this.src='assets/level-c1.png'">
                     </div>
-                    <div class="ol-level-btn" style="font-size: 0.82rem; font-weight: 700; background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; padding: 0.35rem 0.65rem; border-radius: 8px;">
-                        Đăng ký ➔
+                    <div class="ol-level-details">
+                        <h3>Tiểu học</h3>
+                        <div class="ol-level-grade-badge">Lớp 1 – 5</div>
+                        <p>Xây nền tảng vững chắc cho tương lai</p>
                     </div>
+                    <div class="ol-level-arrow-btn">➔</div>
                 </a>
 
-                <!-- Thẻ THCS: Đang hoạt động -->
-                <a href="#subjects" id="level-card-c2" class="ol-level-card ol-level-c2 active" onclick="handleLevelClick(event, 'c2')">
-                    <div class="ol-level-left">
-                        <img src="assets/level-c2.png" alt="Cấp 2 THCS" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
-                        <div class="ol-level-info">
-                            <div class="ol-level-badge" style="background: #e0f2fe; color: #0369a1;">Lớp 6 – 9 · Đang mở</div>
-                            <h3>THCS</h3>
-                            <p>Lớp 6 trọn bộ Toán, KHTN và Ngữ văn (100% chuẩn SGK)</p>
-                        </div>
+                <!-- Thẻ 2: THCS -->
+                <a href="#subjects" id="level-card-c2" class="ol-level-card-demo card-c2" onclick="handleLevelClick(event, 'c2')">
+                    <div class="ol-level-icon-badge">
+                        <img src="assets/icon_level_c2.png" alt="THCS" onerror="this.src='assets/level-c2.png'">
                     </div>
-                    <div class="ol-level-btn">➔</div>
+                    <div class="ol-level-details">
+                        <h3>THCS</h3>
+                        <div class="ol-level-grade-badge">Lớp 6 – 9</div>
+                        <p>Ôn luyện toàn diện phát triển năng lực</p>
+                    </div>
+                    <div class="ol-level-arrow-btn">➔</div>
                 </a>
 
-                <!-- Thẻ THPT: Có lớp 11 -->
-                <a href="#subjects" id="level-card-c3" class="ol-level-card ol-level-c3" onclick="handleLevelClick(event, 'c3')">
-                    <div class="ol-level-left">
-                        <img src="assets/level-c3.png" alt="Cấp 3 THPT" width="56" height="56" loading="lazy" decoding="async" style="width: 56px; height: 56px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.08); margin-right: 0.5rem;">
-                        <div class="ol-level-info">
-                            <div class="ol-level-badge" style="background: #dcfce7; color: #15803d;">Lớp 10 – 12 · Mở Lớp 11</div>
-                            <h3>THPT</h3>
-                            <p>Toán, Lí, Hóa, Sinh 11 trọn bộ 24 chương chuẩn SGK (100% Khối A & B)</p>
-                        </div>
+                <!-- Thẻ 3: THPT -->
+                <a href="#subjects" id="level-card-c3" class="ol-level-card-demo card-c3" onclick="handleLevelClick(event, 'c3')">
+                    <div class="ol-level-icon-badge">
+                        <img src="assets/icon_level_c3.png" alt="THPT" onerror="this.src='assets/level-c3.png'">
                     </div>
-                    <div class="ol-level-btn">➔</div>
+                    <div class="ol-level-details">
+                        <h3>THPT</h3>
+                        <div class="ol-level-grade-badge">Lớp 10 – 12</div>
+                        <p>Bứt phá điểm số sẵn sàng cho tương lai</p>
+                    </div>
+                    <div class="ol-level-arrow-btn">➔</div>
                 </a>
             </div>
         </section>
@@ -238,41 +232,52 @@
         </section>
 
         <!-- ================= KHÔNG GIAN BÀI HỌC VÀ MÔN HỌC THEO CẤP ================= -->
-        <section id="subjects" class="ol-view-wrapper">
+        <section id="subjects" class="ol-view-wrapper" style="margin-top: 2rem;">
             <!-- Header của cấp học hiện tại -->
-            <div class="ol-sub-header">
+            <div class="ol-sub-header" style="margin-bottom: 2rem;">
                 <div>
-                    <span id="level-tag" style="display:inline-block; font-size:0.8rem; font-weight:700; text-transform:uppercase; padding:0.25rem 0.75rem; border-radius:20px; margin-bottom:0.4rem; background:#e0f2fe; color:#0369a1;">THCS • LỚP 6 - 9</span>
-                    <h3 id="level-headline" style="font-size: 1.45rem;">Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.</h3>
+                    <span id="level-tag" style="display:inline-block; font-size:0.8rem; font-weight:800; text-transform:uppercase; padding:0.3rem 0.85rem; border-radius:20px; margin-bottom:0.5rem; background:#e0f2fe; color:#0369a1; letter-spacing:0.5px;">THCS • LỚP 6 - 9</span>
+                    <h2 id="level-headline" style="font-size: 1.65rem; font-weight: 800; color: #0f172a; margin: 0; line-height: 1.25;">Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.</h2>
                 </div>
-                <div id="student-badges" style="display:flex; gap:0.75rem; align-items:center;">
-                    <div style="background:#fef3c7; border:1px solid #fde68a; padding:0.35rem 0.75rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#92400e; display:flex; align-items:center; gap:0.4rem;">
-                        <img src="assets/badge_streak.png" alt="Streak" style="width:24px; height:24px; object-fit:contain;">
+                <div id="student-badges" style="display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+                    <div style="background:#fef3c7; border:1px solid #fde68a; padding:0.4rem 0.85rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#92400e; display:flex; align-items:center; gap:0.4rem;">
+                        <img src="assets/badge_streak.png" alt="Streak" style="width:22px; height:22px; object-fit:contain;">
                         <span id="header-streak-text">1 ngày streak</span>
                     </div>
-                    <div style="background:#e0f2fe; border:1px solid #bae6fd; padding:0.35rem 0.75rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#0369a1; display:flex; align-items:center; gap:0.4rem;">
-                        <img src="assets/badge_trophy.png" alt="XP" style="width:24px; height:24px; object-fit:contain;">
+                    <div style="background:#e0f2fe; border:1px solid #bae6fd; padding:0.4rem 0.85rem; border-radius:12px; font-size:0.85rem; font-weight:800; color:#0369a1; display:flex; align-items:center; gap:0.4rem;">
+                        <img src="assets/badge_trophy.png" alt="XP" style="width:22px; height:22px; object-fit:contain;">
                         <span id="header-xp-text">0 XP</span>
                     </div>
                 </div>
             </div>
 
             <!-- Thanh chọn lớp của cấp -->
-            <p style="font-size: 0.95rem; font-weight: 700; color: var(--ol-text-title); margin-bottom: 0.6rem;">Chọn lớp của bạn:</p>
-            <div class="ol-grade-selector" id="grade-selector-container">
-                <!-- Sẽ được render động bằng Javascript -->
+            <div style="margin-bottom: 1.75rem;">
+                <div style="display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:0.85rem; flex-wrap:wrap; gap:0.5rem;">
+                    <div>
+                        <h3 id="grade-section-title" style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0;">Chọn lớp của bạn</h3>
+                        <p id="grade-section-desc" style="font-size: 0.88rem; color: #64748b; margin: 0.2rem 0 0 0;">Lộ trình bám sát bộ sách Kết nối tri thức, phù hợp với từng độ tuổi</p>
+                    </div>
+                </div>
+                <div class="ol-grade-selector" id="grade-selector-container">
+                    <!-- Sẽ được render động bằng Javascript -->
+                </div>
             </div>
 
             <!-- Thông báo trạng thái dữ liệu lớp học -->
-            <div id="grade-status-notice" style="margin-bottom: 1.25rem;"></div>
+            <div id="grade-status-notice" style="margin-bottom: 1.5rem;"></div>
 
             <!-- Lưới môn học -->
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
-                <p style="font-size: 1.02rem; font-weight: 800; color: var(--ol-text-title); margin: 0;">👇 Chọn môn học bên dưới để vào bài giảng & đề thi:</p>
-                <a href="#subjects" class="ol-touch-target-44" style="font-size:0.85rem; color:var(--ol-primary); font-weight:700; text-decoration:none; background:#f0f9ff; border:1px solid #bae6fd;">Khám phá tất cả môn học ➔</a>
-            </div>
-            <div class="ol-subjects-grid" id="subjects-grid">
-                <!-- Sẽ được render động bằng Javascript -->
+            <div style="margin-bottom: 1.5rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.15rem; flex-wrap:wrap; gap:0.75rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.75rem;">
+                    <h3 id="subject-section-title" style="font-size: 1.25rem; font-weight: 800; color: #0f172a; margin: 0; display:flex; align-items:center; gap:0.5rem;">
+                        <span>📚</span> Học theo môn học
+                    </h3>
+                    <a href="#subjects" style="font-size:0.85rem; color:#0284c7; font-weight:700; text-decoration:none; display:inline-flex; align-items:center; gap:0.3rem;">Khám phá tất cả môn học ➔</a>
+                </div>
+                <div class="ol-subjects-grid" id="subjects-grid">
+                    <!-- Sẽ được render động bằng Javascript -->
+                </div>
             </div>
         </section>
 
@@ -330,7 +335,7 @@
         <div class="ol-footer-content">
             <div style="display:flex; align-items:center; gap:0.85rem;">
                 <div class="ol-brand-icon" style="width: 44px; height: 44px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1.5px solid white;">
-                    <img src="assets/app_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="assets/app_logo.svg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div>
                     <strong style="color:var(--ol-primary); font-size:1.15rem; font-weight:800;">Ôn luyện</strong>
@@ -367,6 +372,17 @@
                 tag: "TIỂU HỌC • LỚP 1 - 5",
                 tagColor: { bg: "#ffedd5", text: "#ea580c" },
                 headline: "Học vui mỗi ngày • Vững vàng tương lai",
+                heroImg: "assets/hero_1_blended.png",
+                heroTag: "TIỂU HỌC • LỚP 1 - 5",
+                heroTitle: "Học vui mỗi ngày.<br>Vững vàng tương lai.",
+                heroDesc: "Khơi gợi niềm vui học tập với bài giảng sinh động, hình ảnh ngộ nghĩnh và lộ trình bám sát bộ SGK Kết nối tri thức của NXB Giáo dục Việt Nam (Năm học 2026 – 2027).",
+                heroStats: [
+                    { val: "50.000+", lbl: "Học sinh tiểu học tin tưởng" },
+                    { val: "10.000+", lbl: "Bài học & đề ôn chất lượng" },
+                    { val: "98%", lbl: "Phụ huynh hài lòng" }
+                ],
+                sticker: "Học vui<br>Học giỏi<br>Lớn lên nhé! 💖",
+                glassTag: `<span style="font-size:1.25rem;">🌟</span><div><strong style="color:#0f172a; font-size:0.85rem;">Những bước nhỏ</strong><div style="font-size:0.75rem; color:#64748b;">Tạo nên ước mơ lớn</div></div>`,
                 grades: [
                     { id: "01", name: "Lớp 1", desc: "Khám phá thế giới mới", icon: "🌱" },
                     { id: "02", name: "Lớp 2", desc: "Vững vàng hơn mỗi ngày", icon: "⭐" },
@@ -388,6 +404,17 @@
                 tag: "THCS • LỚP 6 - 9",
                 tagColor: { bg: "#e0f2fe", text: "#0369a1" },
                 headline: "Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.",
+                heroImg: "assets/hero_2_blended.png",
+                heroTag: "THCS • LỚP 6 - 9",
+                heroTitle: "Học đúng hướng.<br>Vững vàng hôm nay. Tự tin ngày mai.",
+                heroDesc: "Hệ thống đề ôn tập bám sát bộ SGK Kết nối tri thức với cuộc sống của NXB Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.",
+                heroStats: [
+                    { val: "200.000+", lbl: "Học sinh THCS tin tưởng" },
+                    { val: "15.000+", lbl: "Bài học & đề ôn chất lượng" },
+                    { val: "98%", lbl: "Tiến bộ rõ rệt" }
+                ],
+                sticker: "Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️",
+                glassTag: `<span style="font-size:1.25rem;">📈</span><div><strong style="color:#0f172a; font-size:0.85rem;">Kiến thức</strong><div style="font-size:0.75rem; color:#64748b;">Mở ra thế giới ngày mai</div></div>`,
                 grades: [
                     { id: "06", name: "Lớp 6", desc: "Khám phá tri thức • Xây nền vững chắc", icon: "6️⃣" },
                     { id: "07", name: "Lớp 7", desc: "Mở rộng hiểu biết • Tự tin tiến bước", icon: "7️⃣" },
@@ -409,6 +436,17 @@
                 tag: "THPT • LỚP 10 - 12",
                 tagColor: { bg: "#dcfce7", text: "#15803d" },
                 headline: "Học đúng hướng. Bứt phá tương lai. Chuẩn bị cho giảng đường đại học.",
+                heroImg: "assets/hero_3_blended.png",
+                heroTag: "THPT • LỚP 10 - 12",
+                heroTitle: "Học đúng hướng.<br>Bứt phá tương lai.",
+                heroDesc: "Nền tảng ôn luyện dành riêng cho học sinh THPT với lộ trình cá nhân hóa, ngân hàng đề thi thử ĐGNL & Tốt nghiệp THPT chuẩn cấu trúc mới, giúp bạn bứt phá điểm số và hiện thực hóa ước mơ đại học.",
+                heroStats: [
+                    { val: "500.000+", lbl: "Học sinh THPT tin tưởng" },
+                    { val: "200.000+", lbl: "Đề thi & bài giảng chất lượng" },
+                    { val: "98%", lbl: "Cải thiện điểm số" }
+                ],
+                sticker: "Phiên bản<br>tốt hơn của chính mình<br>bắt đầu từ hôm nay! ✨",
+                glassTag: `<span style="font-size:1.25rem;">🎯</span><div><strong style="color:#0f172a; font-size:0.85rem;">Mục tiêu rõ ràng</strong><div style="font-size:0.75rem; color:#64748b;">Tương lai rộng mở</div></div>`,
                 grades: [
                     { id: "10", name: "Lớp 10", desc: "Xây nền vững chắc", icon: "🔟" },
                     { id: "11", name: "Lớp 11", desc: "Tăng tốc kiến thức", icon: "⚡" },
@@ -433,12 +471,10 @@
         let selectedGrade = '06';
 
         function handleLevelClick(event, levelKey) {
-            if (levelKey === 'c1') {
-                // Tiểu học chưa có dữ liệu: Mở form nhận thông báo (P1-4)
-                openNotifyModal('Cấp Tiểu học (Lớp 1 - 5)');
-                return;
-            }
             selectLevel(levelKey);
+            if (levelKey === 'c1') {
+                openNotifyModal('Cấp Tiểu học (Lớp 1 - 5)');
+            }
         }
 
         function selectLevel(levelKey) {
@@ -454,22 +490,100 @@
                 }
             });
             
-            // Cập nhật Header
+            // Cập nhật Dynamic Hero Banner
+            const heroTagEl = document.getElementById('hero-tag');
+            const heroTitleEl = document.getElementById('hero-title');
+            const heroDescEl = document.getElementById('hero-desc');
+            const heroImgEl = document.getElementById('hero-student-img');
+            const heroStickerEl = document.getElementById('hero-sticker');
+            const heroGlassEl = document.getElementById('hero-glass-tag');
+
+            if (heroTagEl) heroTagEl.innerHTML = lvl.heroTag;
+            if (heroTitleEl) heroTitleEl.innerHTML = lvl.heroTitle;
+            if (heroDescEl) heroDescEl.innerHTML = lvl.heroDesc;
+            if (heroImgEl) heroImgEl.src = lvl.heroImg;
+            if (heroStickerEl) heroStickerEl.innerHTML = lvl.sticker;
+            if (heroGlassEl) heroGlassEl.innerHTML = lvl.glassTag;
+
+            // Cập nhật Stats
+            if (lvl.heroStats && lvl.heroStats.length >= 3) {
+                const s1v = document.getElementById('stat-val-1');
+                const s1l = document.getElementById('stat-lbl-1');
+                const s2v = document.getElementById('stat-val-2');
+                const s2l = document.getElementById('stat-lbl-2');
+                const s3v = document.getElementById('stat-val-3');
+                const s3l = document.getElementById('stat-lbl-3');
+
+                if (s1v) s1v.textContent = lvl.heroStats[0].val;
+                if (s1l) s1l.textContent = lvl.heroStats[0].lbl;
+                if (s2v) s2v.textContent = lvl.heroStats[1].val;
+                if (s2l) s2l.textContent = lvl.heroStats[1].lbl;
+                if (s3v) s3v.textContent = lvl.heroStats[2].val;
+                if (s3l) s3l.textContent = lvl.heroStats[2].lbl;
+            }
+
+            // Cập nhật Header cấp học
             const tagEl = document.getElementById('level-tag');
-            tagEl.innerText = lvl.tag;
-            tagEl.style.background = lvl.tagColor.bg;
-            tagEl.style.color = lvl.tagColor.text;
+            if (tagEl) {
+                tagEl.innerText = lvl.tag;
+                tagEl.style.background = lvl.tagColor.bg;
+                tagEl.style.color = lvl.tagColor.text;
+            }
             
-            document.getElementById('level-headline').innerText = lvl.headline;
+            const hlEl = document.getElementById('level-headline');
+            if (hlEl) hlEl.innerText = lvl.headline;
             
+            // Cập nhật tiêu đề section
+            const gTitle = document.getElementById('grade-section-title');
+            const gDesc = document.getElementById('grade-section-desc');
+            const sTitle = document.getElementById('subject-section-title');
+
+            if (gTitle) gTitle.textContent = (levelKey === 'c1') ? 'Chọn lớp của con' : 'Chọn lớp của bạn';
+            if (gDesc) gDesc.textContent = (levelKey === 'c1') ? 'Lộ trình bám sát chương trình Tiểu học, phù hợp với từng độ tuổi' : 'Lộ trình bám sát bộ sách Kết nối tri thức, phù hợp với từng độ tuổi';
+            if (sTitle) sTitle.innerHTML = (levelKey === 'c1') ? '<span>🎨</span> Chọn môn học yêu thích' : '<span>📚</span> Học theo môn học';
+
             // Mặc định chọn lớp đầu tiên của cấp đó (nếu là c2 thì chọn 06, c3 thì chọn 11)
             selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : lvl.grades[0].id);
             
             renderGrades();
             renderSubjects();
-            
-            // Cuộn mượt xuống vùng bài học
-            document.getElementById('subjects').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function resetToMainHero(e) {
+            if (e) e.preventDefault();
+            ['c1', 'c2', 'c3'].forEach(k => {
+                const el = document.getElementById(`level-card-${k}`);
+                if (el) el.classList.remove('active');
+            });
+            const heroTagEl = document.getElementById('hero-tag');
+            const heroTitleEl = document.getElementById('hero-title');
+            const heroDescEl = document.getElementById('hero-desc');
+            const heroImgEl = document.getElementById('hero-student-img');
+            const heroStickerEl = document.getElementById('hero-sticker');
+            const heroGlassEl = document.getElementById('hero-glass-tag');
+
+            if (heroTagEl) heroTagEl.innerHTML = 'TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI';
+            if (heroTitleEl) heroTitleEl.innerHTML = 'Học đúng hướng.<br>Ôn đúng trọng tâm.';
+            if (heroDescEl) heroDescEl.innerHTML = 'Hệ thống đề ôn tập bám sát bộ SGK <strong>"Kết nối tri thức với cuộc sống"</strong> của Nhà xuất bản Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.';
+            if (heroImgEl) heroImgEl.src = 'assets/hero_main_blended.png';
+            if (heroStickerEl) heroStickerEl.innerHTML = 'Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️';
+            if (heroGlassEl) heroGlassEl.innerHTML = '<span style="font-size: 1.25rem;">📈</span><div><strong style="color: #0f172a; font-size: 0.85rem;">Tri thức</strong><div style="font-size: 0.75rem; color: #64748b;">Kiến tạo tương lai</div></div>';
+
+            const s1v = document.getElementById('stat-val-1');
+            const s1l = document.getElementById('stat-lbl-1');
+            const s2v = document.getElementById('stat-val-2');
+            const s2l = document.getElementById('stat-lbl-2');
+            const s3v = document.getElementById('stat-val-3');
+            const s3l = document.getElementById('stat-lbl-3');
+
+            if (s1v) s1v.textContent = '50.000+';
+            if (s1l) s1l.textContent = 'Học sinh tin tưởng';
+            if (s2v) s2v.textContent = '10.000+';
+            if (s2l) s2l.textContent = 'Đề ôn tập chất lượng';
+            if (s3v) s3v.textContent = '100%';
+            if (s3l) s3l.textContent = 'Bám sát SGK 2026 – 2027';
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function selectGrade(gradeId, shouldScroll = false) {
@@ -513,15 +627,18 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% 6 môn học: Toán (9 ch), KHTN (11 ch), Ngữ Văn (10 bài), Sử-Địa (10 ch), Tin học (6 ch), GDCD (12 bài) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 58 chương/bài với 174 đề thi phân hóa, 1.044 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 676 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% 7 môn học: Toán (9 ch), KHTN (11 ch), Ngữ Văn (10 bài), Sử-Địa (10 ch), Tin học (6 ch), GDCD (12 bài), Tiếng Anh (12 units) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 70 chương/bài với 210 đề thi phân hóa, 1.260 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 820 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
                                 <a href="subject.html?grade=06&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🔢 Toán 6 ➔
                                 </a>
-                                <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                <a href="subject.html?grade=06&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🇬🇧 Tiếng Anh 6 ➔
+                                </a>
+                                <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🔬 KHTN 6 ➔
                                 </a>
                                 <a href="subject.html?grade=06&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
@@ -629,6 +746,9 @@
                 } else if (selectedGrade === '06' && s.id === 'giao-duc-cong-dan') {
                     isReady = true;
                     readyNote = '12/12 bài đã xong 100%';
+                } else if (selectedGrade === '06' && s.id === 'tieng-anh') {
+                    isReady = true;
+                    readyNote = '12/12 units đã xong 100%';
                 } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
                     isReady = true;
                     readyNote = '6/6 chương đã xong 100%';

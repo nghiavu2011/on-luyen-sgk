@@ -1,30 +1,200 @@
-[
-  {
-    "id": "en6_u01_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Nam ______ football with his classmates every afternoon.",
-    "options": [
-      "A. play",
-      "B. plays",
-      "C. playing",
-      "D. is play"
-    ],
-    "answer": 1,
-    "explanation": "📌 Grammar: Subject 'Nam' is singular (he), so in Present Simple we add -s/-es to the verb: plays.\n💡 Every afternoon indicates Present Simple tense.\n⚠️ Do not forget the third person singular ending -s."
-  },
-  {
-    "id": "en6_u01_d2_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "She is very hard-working. She ______ forgets to do her homework.",
-    "options": [
-      "A. always",
-      "B. usually",
-      "C. never",
-      "D. often"
-    ],
-    "answer": 2,
-    "explanation": "📌 Adverbs of frequency: 'hard-working' (chăm chỉ) means she never (không bao giờ) forgets homework.\n💡 Context clues are vital in choosing frequency adverbs.\n⚠️ Always would mean she is forgetful!"
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 1: My New School",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "eng6_u01_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Grammar - Present Simple Negative Form",
+      "question": "Choose the correct negative sentence: 'My brother (not like) ________ playing board games.'",
+      "options": [
+        "don't like",
+        "doesn't likes",
+        "doesn't like",
+        "isn't like"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Câu phủ định thì Hiện tại đơn: S (số ít: My brother) + doesn't + V-nguyên thể (bare infinitive).",
+        "steps": [
+          "Bước 1: Xác định chủ ngữ 'My brother' là ngôi thứ ba số ít (tương đương 'He').",
+          "Bước 2: Dùng trợ động từ phủ định 'doesn't'.",
+          "Bước 3: Động từ chính 'like' theo sau trợ động từ phải ở dạng nguyên thể không chia &rarr; 'doesn't like'."
+        ],
+        "trap": "Vẫn giữ nguyên đuôi 's' ở động từ sau trợ động từ doesn't ('doesn't likes')."
+      },
+      "socraticPrompt": "Khi đã mượn trợ động từ 'doesn't' trong câu phủ định, động từ chính đi sau có còn được thêm 's' nữa không?",
+      "distractorReasons": [
+        "Sai vì 'don't' chỉ dùng cho chủ ngữ số nhiều và I/You.",
+        "Sai vì đã có 'doesn't' thì động từ không được thêm 's' nữa.",
+        "Đúng vì 'My brother' số ít mượn 'doesn't' và động từ 'like' trở về nguyên mẫu.",
+        "Sai vì 'like' là động từ thường, không mượn to be 'isn't' để phủ định."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u01_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - School Types & Life",
+      "question": "A school where students study, eat, and sleep during the school week is called a ________.",
+      "options": [
+        "international school",
+        "town school",
+        "private school",
+        "boarding school"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "'boarding school' là trường nội trú, nơi học sinh học tập, ăn và ở lại trường suốt tuần (SGK trang 12 bài đọc về An Sơn school).",
+        "steps": [
+          "Bước 1: Đọc định nghĩa: 'students study, eat, and sleep during the school week'.",
+          "Bước 2: Nhớ lại từ vựng SGK Unit 1: boarding school = trường nội trú.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Nhầm với 'international school' (trường quốc tế) chỉ tính chất giảng dạy chứ không nhất thiết nội trú."
+      },
+      "socraticPrompt": "Loại trường học mà học sinh ăn ngủ sinh hoạt nội trú tại trường được gọi là gì trong bài đọc tiếng Anh 6?",
+      "distractorReasons": [
+        "Sai vì international school là trường quốc tế giảng dạy bằng tiếng Anh.",
+        "Sai vì town school chỉ đơn thuần là trường ở thị trấn.",
+        "Sai vì private school là trường tư thục, không đồng nghĩa với trường nội trú.",
+        "Đúng vì boarding school chính là trường nội trú theo đúng định nghĩa SGK."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u01_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Grammar - Yes/No Question in Present Simple",
+      "question": "Choose the best question for the answer: 'Yes, they do. They walk to school every morning.'",
+      "options": [
+        "Do they walk to school every morning?",
+        "Are they walking to school?",
+        "Does they walk to school every morning?",
+        "Did they walk to school every morning?"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Câu hỏi Yes/No thì Hiện tại đơn với chủ ngữ 'they': Do + they + V-nguyên thể...?",
+        "steps": [
+          "Bước 1: Câu trả lời là 'Yes, they do' &rarr; câu hỏi phải bắt đầu bằng trợ động từ 'Do'.",
+          "Bước 2: Cụm từ thời gian 'every morning' chỉ thói quen hiện tại.",
+          "Bước 3: Cấu trúc chuẩn: 'Do they walk to school every morning?'."
+        ],
+        "trap": "Dùng sai trợ động từ 'Does' cho chủ ngữ số nhiều 'they'."
+      },
+      "socraticPrompt": "Chủ ngữ là 'they', trợ động từ hiện tại đơn ở đầu câu hỏi Yes/No là 'Do' hay 'Does'?",
+      "distractorReasons": [
+        "Đúng vì cấu trúc 'Do they walk...' khớp hoàn toàn với câu trả lời 'Yes, they do'.",
+        "Sai vì câu hỏi thì Hiện tại tiếp diễn sẽ có câu trả lời 'Yes, they are'.",
+        "Sai vì 'Does' không bao giờ đi với chủ ngữ số nhiều 'they'.",
+        "Sai vì 'Did' là thì Quá khứ đơn, câu trả lời sẽ là 'Yes, they did'."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u01_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Pronunciation - Odd One Out",
+      "question": "Find the word that has a different sound in the underlined part: club, rubber, smart, compass.",
+      "options": [
+        "club",
+        "smart",
+        "rubber",
+        "compass"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Âm /ɑː/ khác với âm /ʌ/: smart phát âm là /smɑːt/ (/ɑː/ dài); club /klʌb/, rubber /ˈrʌbə/, compass /ˈkʌmpəs/ đều là âm /ʌ/ ngắn.",
+        "steps": [
+          "Bước 1: Phiên âm các từ: club /klʌb/, rubber /ˈrʌbə/, smart /smɑːt/, compass /ˈkʌmpəs/.",
+          "Bước 2: Nhận thấy 'smart' mang âm /ɑː/, 3 từ còn lại mang âm /ʌ/.",
+          "Bước 3: Chọn 'smart'."
+        ],
+        "trap": "Chữ 'o' trong 'compass' phát âm là /ʌ/ chứ không phải /ɒ/ hay /ə/."
+      },
+      "socraticPrompt": "Từ nào trong 4 từ trên phát âm kéo dài âm /ɑː/ giống như từ 'art' (mĩ thuật)?",
+      "distractorReasons": [
+        "Sai vì 'club' mang âm /ʌ/ giống rubber và compass.",
+        "Đúng vì 'smart' là từ duy nhất có nguyên âm /ɑː/ dài trong nhóm.",
+        "Sai vì 'rubber' mang âm /ʌ/.",
+        "Sai vì 'compass' mang âm /ʌ/."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u01_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Grammar - Adverb of Frequency with Action Verbs",
+      "question": "Reorder the words to make a correct sentence: 'never / Lan / goes / late / to / school.'",
+      "options": [
+        "Lan goes never to school late.",
+        "Lan goes to school late never.",
+        "Lan never goes to school late.",
+        "Never Lan goes to school late."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy tắc vị trí: Trạng từ chỉ tần suất (never) đứng trước động từ thường (goes) và sau chủ ngữ.",
+        "steps": [
+          "Bước 1: Xác định chủ ngữ: 'Lan', động từ thường: 'goes', trạng từ: 'never'.",
+          "Bước 2: Cấu trúc: Subject + Adverb + Verb &rarr; 'Lan never goes...'.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Đặt trạng từ sau động từ thường theo thói quen ngữ pháp tiếng Việt."
+      },
+      "socraticPrompt": "Với động từ thường như 'goes', trạng từ 'never' phải đứng TRƯỚC hay SAU động từ đó?",
+      "distractorReasons": [
+        "Sai vì đặt 'never' sau động từ thường 'goes' là sai trật tự từ.",
+        "Sai vì đặt 'never' cuối câu không phải vị trí tự nhiên của trạng từ tần suất.",
+        "Đúng vì 'Lan never goes to school late' tuân thủ chuẩn ngữ pháp tiếng Anh.",
+        "Sai vì đặt 'Never' đầu câu là cấu trúc đảo ngữ nâng cao không áp dụng ở lớp 6."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u01_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Reading Comprehension - School Life",
+      "question": "Read the sentence: 'At Duy Tan School, students have English lessons with native speakers twice a week.' How often do they learn English with native teachers?",
+      "options": [
+        "Every day",
+        "On weekends only",
+        "Once a month",
+        "Two times a week"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "'twice a week' đồng nghĩa với 'two times a week' (hai lần một tuần).",
+        "steps": [
+          "Bước 1: Tìm thông tin trong câu: 'twice a week'.",
+          "Bước 2: Giải nghĩa: once = 1 time, twice = 2 times.",
+          "Bước 3: Twice a week = Two times a week. Chọn B."
+        ],
+        "trap": "Nhầm 'twice' (2 lần) với 'two days' hoặc 'every day'."
+      },
+      "socraticPrompt": "Từ 'twice' trong tiếng Anh chỉ tần suất số lần là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 'every day' nghĩa là mỗi ngày.",
+        "Sai vì bài không hề nhắc đến việc chỉ học vào cuối tuần.",
+        "Sai vì 'once a month' là 1 lần mỗi tháng.",
+        "Đúng vì 'twice a week' chính là 'two times a week' (2 lần mỗi tuần)."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    }
+  ]
+}

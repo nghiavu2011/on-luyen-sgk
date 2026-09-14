@@ -1,30 +1,200 @@
-[
-  {
-    "id": "en6_u01_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Find the sentence with the correct word order of adverbs of frequency:",
-    "options": [
-      "A. He plays usually computer games after school.",
-      "B. He usually plays computer games after school.",
-      "C. Usually he plays after school computer games.",
-      "D. He plays computer games usually after school."
-    ],
-    "answer": 1,
-    "explanation": "📌 Word Order Rule: Adverbs of frequency stand BEFORE ordinary verbs and AFTER the verb 'to be'.\n💡 'He usually plays...' is strictly correct.\n⚠️ Common error: putting frequency adverb after ordinary verb."
-  },
-  {
-    "id": "en6_u01_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ 'Look! The students ______ their new school uniform, and they ______ excited.'",
-    "options": [
-      "A. wear / look",
-      "B. are wearing / look",
-      "C. are wearing / are looking",
-      "D. wear / are looking"
-    ],
-    "answer": 1,
-    "explanation": "📌 Contrast: 'Look!' signals an action happening right now $\\rightarrow$ Present Continuous 'are wearing'. But 'look' here is a state/linking verb (trông có vẻ), which does NOT take continuous tense $\\rightarrow$ 'look'.\n💡 State verbs of perception (look, seem, hear, know) take Present Simple.\n⚠️ Advanced trap: choosing continuous for stative verb 'look'."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 1: My New School",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng6_u01_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar & Meaning - Adverb of Frequency Context",
+      "question": "Tom hates football and he doesn't know any football rules. He ________ plays football with his friends.",
+      "options": [
+        "never",
+        "always",
+        "often",
+        "usually"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ngữ cảnh: Tom ghét bóng đá và không biết luật chơi &rarr; Tom không bao giờ chơi (0% tần suất = never).",
+        "steps": [
+          "Bước 1: Đọc kĩ ngữ cảnh: 'hates football' (ghét bóng đá), 'doesn't know rules' (không biết luật).",
+          "Bước 2: Suy luận mức độ tần suất: Hành động chơi bóng đá sẽ không bao giờ xảy ra.",
+          "Bước 3: Chọn 'never'."
+        ],
+        "trap": "Chọn trạng từ tần suất cao (always/often) do chỉ nhìn vào vế sau mà bỏ qua ngữ cảnh phủ định phía trước."
+      },
+      "socraticPrompt": "Khi một người cực kì ghét một môn thể thao, mức độ thường xuyên người đó chơi môn đó là bao nhiêu phần trăm?",
+      "distractorReasons": [
+        "Đúng vì 'never' (không bao giờ - 0%) phản ánh chính xác thái độ ghét bỏ môn bóng đá của Tom.",
+        "Sai vì 'always' (luôn luôn - 100%) hoàn toàn trái ngược với ngữ cảnh ghét bóng đá.",
+        "Sai vì 'often' (thường xuyên) mâu thuẫn với việc ghét và không biết luật.",
+        "Sai vì 'usually' (thường lệ) không phù hợp với ngữ cảnh."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u01_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Subject-Verb Agreement with 'Every'",
+      "question": "Choose the grammatically correct sentence:",
+      "options": [
+        "Every student in our class wear a white shirt on Monday.",
+        "Every student in our class wears a white shirt on Monday.",
+        "Every students in our class wear a white shirt on Monday.",
+        "Every student in our class are wearing a white shirt on Monday."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "'Every + danh từ số ít' đóng vai trò là chủ ngữ số ít, động từ theo sau phải chia ở ngôi thứ ba số ít (thêm -s/-es).",
+        "steps": [
+          "Bước 1: Nhận diện cấu trúc: 'Every' + danh từ đếm được số ít ('student', không có 's').",
+          "Bước 2: Toàn bộ cụm 'Every student in our class' là chủ ngữ số ít.",
+          "Bước 3: Động từ 'wear' phải chia số ít thành 'wears'. Chọn đáp án B."
+        ],
+        "trap": "Thấy cụm 'in our class' hoặc từ 'Every' tưởng là số nhiều nên để động từ nguyên mẫu."
+      },
+      "socraticPrompt": "Sau từ 'Every' là danh từ số ít hay số nhiều, và động từ theo sau được chia ở dạng số ít hay số nhiều?",
+      "distractorReasons": [
+        "Sai vì 'Every student' là chủ ngữ số ít nên động từ 'wear' thiếu 's'.",
+        "Đúng vì cấu trúc 'Every student ... wears' hoàn toàn chính xác theo ngữ pháp chuẩn.",
+        "Sai vì sau 'Every' phải là danh từ số ít 'student', không dùng 'students'.",
+        "Sai vì 'Every student' không đi với to be số nhiều 'are'."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u01_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary in Context - International Environment",
+      "question": "In an international school, students often learn all subjects in ________ with classmates from many countries.",
+      "options": [
+        "history",
+        "uniform",
+        "English",
+        "calculator"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trong trường quốc tế (international school), ngôn ngữ giảng dạy các môn học và giao tiếp với bạn bè đa quốc gia là tiếng Anh (English).",
+        "steps": [
+          "Bước 1: Phân tích ngữ cảnh: 'international school', 'classmates from many countries'.",
+          "Bước 2: Cụm từ 'in English' (bằng tiếng Anh) là ngôn ngữ toàn cầu kết nối học sinh quốc tế.",
+          "Bước 3: Chọn 'English'."
+        ],
+        "trap": "Chọn 'history' hoặc 'uniform' do không hiểu cấu trúc 'learn all subjects in [language]'."
+      },
+      "socraticPrompt": "Khi học sinh đến từ nhiều nước khác nhau học chung một trường quốc tế, họ dùng ngôn ngữ chung nào để học tập?",
+      "distractorReasons": [
+        "Sai vì history là môn lịch sử, không dùng sau giới từ 'in' để chỉ ngôn ngữ học tập.",
+        "Sai vì uniform là đồng phục, không có nghĩa 'học bằng đồng phục'.",
+        "Đúng vì 'in English' chỉ việc học các môn học bằng phương tiện tiếng Anh.",
+        "Sai vì calculator là máy tính bỏ túi."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u01_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Verb Form with Days of Week",
+      "question": "What ________ your sister usually ________ when she has free time at school?",
+      "options": [
+        "does / does",
+        "do / does",
+        "is / doing",
+        "does / do"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc câu hỏi Wh- với thì Hiện tại đơn: Wh-word + do/does + S + V-nguyên thể? Với S là 'your sister' (số ít), mượn trợ động từ 'does' và động từ chính 'do' giữ nguyên.",
+        "steps": [
+          "Bước 1: Xác định chủ ngữ: 'your sister' (ngôi thứ ba số ít) &rarr; trợ động từ là 'does'.",
+          "Bước 2: Động từ chính chỉ hành động 'làm gì' là 'do' ở dạng nguyên thể.",
+          "Bước 3: Cặp từ đúng là 'does / do'. Chọn đáp án A."
+        ],
+        "trap": "Bị rối giữa trợ động từ 'does' và động từ chính 'do', dẫn đến chọn 'does / does'."
+      },
+      "socraticPrompt": "Trong câu hỏi hiện tại đơn: từ đầu tiên là trợ động từ và từ thứ hai là động từ chính nguyên thể, cặp từ nào thỏa mãn?",
+      "distractorReasons": [
+        "Sai vì sau trợ động từ 'does', động từ chính không được chia thêm 'es'.",
+        "Sai vì 'your sister' là số ít không mượn trợ động từ 'do'.",
+        "Sai vì câu có trạng từ tần suất 'usually' hỏi về thói quen hiện tại đơn, không dùng hiện tại tiếp diễn.",
+        "Đúng vì 'does' là trợ động từ cho 'your sister' và 'do' là động từ chính nguyên mẫu."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u01_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading & Logic - School Schedule",
+      "question": "Nick: 'Do you have classes on Saturday?' - Mai: 'No, our school week starts on Monday and ends on Friday.' This means Mai's school week has ________ days of classes.",
+      "options": [
+        "five",
+        "four",
+        "six",
+        "seven"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Suy luận số ngày đi học: Từ thứ Hai đến thứ Sáu (Monday, Tuesday, Wednesday, Thursday, Friday) gồm đúng 5 ngày học.",
+        "steps": [
+          "Bước 1: Đọc thông tin: bắt đầu từ Monday và kết thúc vào Friday, Saturday không đi học.",
+          "Bước 2: Đếm số ngày: Thứ Hai, Ba, Tư, Năm, Sáu = 5 ngày.",
+          "Bước 3: 5 ngày = 'five days'. Chọn đáp án B."
+        ],
+        "trap": "Đếm nhầm cả thứ Bảy và Chủ nhật thành 7 ngày hoặc đếm sót ngày."
+      },
+      "socraticPrompt": "Một tuần học bắt đầu từ thứ Hai và kết thúc vào thứ Sáu thì gồm tổng cộng bao nhiêu ngày học?",
+      "distractorReasons": [
+        "Đúng vì Monday to Friday có đúng 5 ngày đi học (five days).",
+        "Sai vì từ thứ Hai đến thứ Sáu gồm 5 ngày, không phải 4 ngày.",
+        "Sai vì Mai không đi học thứ Bảy nên không thể là 6 ngày.",
+        "Sai vì 7 ngày là cả tuần kể cả ngày nghỉ cuối tuần."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u01_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Error Identification - Adverb and Verb Form",
+      "question": "Find the error in the sentence: 'She always study English in the school library after class.'",
+      "options": [
+        "always",
+        "study",
+        "in",
+        "after"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lỗi hòa hợp chủ vị: Chủ ngữ 'She' là ngôi thứ ba số ít, động từ kết thúc bằng phụ âm + y ('study') phải đổi thành '-ies' &rarr; 'studies'.",
+        "steps": [
+          "Bước 1: Xác định chủ ngữ 'She'.",
+          "Bước 2: Kiểm tra động từ 'study': chưa được chia ngôi số ít.",
+          "Bước 3: Động từ đúng phải là 'studies'. Vậy từ sai là 'study'."
+        ],
+        "trap": "Không để ý quy tắc biến đổi 'y' thành 'ies' sau phụ âm ở thì hiện tại đơn."
+      },
+      "socraticPrompt": "Khi chủ ngữ là 'She', động từ 'study' cần được chia lại thành từ nào mới đúng ngữ pháp?",
+      "distractorReasons": [
+        "Sai vì 'always' đứng trước động từ thường là hoàn toàn đúng vị trí.",
+        "Đúng vì 'study' chưa chia ngôi thứ ba số ít cho chủ ngữ 'She', phải sửa thành 'studies'.",
+        "Sai vì giới từ 'in the library' dùng đúng vị trí.",
+        "Sai vì 'after class' (sau giờ học) là cụm giới từ chỉ thời gian chuẩn."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    }
+  ]
+}

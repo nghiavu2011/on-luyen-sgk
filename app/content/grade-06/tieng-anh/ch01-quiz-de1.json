@@ -1,30 +1,200 @@
-[
-  {
-    "id": "en6_u01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Which word has the underlined part pronounced /ɑː/?",
-    "options": [
-      "A. study",
-      "B. smart",
-      "C. subject",
-      "D. rubber"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phonetics: 'smart' is pronounced /smɑːt/ with the long /ɑː/ vowel.\n💡 study /'stʌdi/, subject /'sʌbdʒɪkt/, rubber /'rʌbər/ have /ʌ/.\n⚠️ Notice the 'ar' combination usually sounds /ɑː/."
-  },
-  {
-    "id": "en6_u01_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Students wear a ______ when they go to school on Mondays.",
-    "options": [
-      "A. calculator",
-      "B. uniform",
-      "C. compass",
-      "D. notebook"
-    ],
-    "answer": 1,
-    "explanation": "📌 Vocabulary: 'uniform' means đồng phục.\n💡 Students wear uniform to school.\n⚠️ Calculator is a device for calculating numbers."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 1: My New School",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "eng6_u01_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Collocations with Verbs",
+      "question": "Which verb goes correctly with the sport 'judo' in the sentence: 'Phong and his brother ________ judo twice a week.'?",
+      "options": [
+        "do",
+        "play",
+        "have",
+        "study"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quy tắc dùng động từ với hoạt động thể thao: 'do' đi với võ thuật và bài tập thể lực cá nhân không dùng bóng (do judo, do karate, do gymnastics).",
+        "steps": [
+          "Bước 1: Nhận diện danh từ 'judo' (môn võ judo).",
+          "Bước 2: 'play' chỉ dùng cho môn thể thao đối kháng có bóng hoặc trò chơi (football, chess).",
+          "Bước 3: Chọn 'do'. Vì chủ ngữ 'Phong and his brother' là số nhiều nên dùng nguyên thể 'do'."
+        ],
+        "trap": "Học sinh hay nhầm lẫn dùng 'play judo' do thói quen dịch từ tiếng Việt 'chơi judo'."
+      },
+      "socraticPrompt": "Môn võ judo có sử dụng quả bóng để thi đấu tập thể không, hay đây là môn thể thao cá nhân đi với động từ 'do'?",
+      "distractorReasons": [
+        "Đúng vì 'do judo' là cụm từ chuẩn ngữ pháp tiếng Anh trong SGK Global Success.",
+        "Sai vì 'play' chỉ đi với các môn thể thao có bóng (football, tennis) hoặc trò chơi trí tuệ (chess).",
+        "Sai vì 'have' đi với bữa ăn (have lunch) hoặc tiết học (have Maths).",
+        "Sai vì 'study' đi với việc học lý thuyết, môn học (study English)."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u01_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - School Things",
+      "question": "Which school tool do you use to draw circles in Geometry class?",
+      "options": [
+        "a rubber",
+        "a compass",
+        "a pencil sharpener",
+        "a calculator"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "'compass' là cái com-pa dùng để vẽ đường tròn trong môn Hình học.",
+        "steps": [
+          "Bước 1: Phân tích yêu cầu câu hỏi: 'draw circles' (vẽ hình tròn).",
+          "Bước 2: Đối chiếu từ vựng dụng cụ học tập: rubber (tẩy), compass (com-pa), pencil sharpener (gọt bút chì), calculator (máy tính).",
+          "Bước 3: Dụng cụ vẽ hình tròn là 'a compass'."
+        ],
+        "trap": "Nhầm 'compass' (com-pa) với 'calculator' (máy tính bỏ túi)."
+      },
+      "socraticPrompt": "Trong giờ Toán hình, dụng cụ có hai chân kim và bút chì dùng để quay tròn tên tiếng Anh là gì?",
+      "distractorReasons": [
+        "Sai vì rubber dùng để tẩy vết bút chì.",
+        "Đúng vì compass là chiếc com-pa dùng để vẽ đường tròn.",
+        "Sai vì pencil sharpener dùng để gọt đầu bút chì.",
+        "Sai vì calculator dùng để tính toán các con số."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u01_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Pronunciation - /ɑː/ and /ʌ/",
+      "question": "Which of the following words has the underlined part pronounced as /ɑː/?",
+      "options": [
+        "study",
+        "subject",
+        "smart",
+        "lunch"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phát âm: 'smart' có âm 'ar' phát âm là nguyên âm dài /ɑː/ (/smɑːt/). Các từ còn lại có chữ 'u' phát âm là /ʌ/.",
+        "steps": [
+          "Bước 1: Phát âm từng từ: study /ˈstʌdi/, smart /smɑːt/, subject /ˈsʌbdʒɪkt/, lunch /lʌntʃ/.",
+          "Bước 2: Tìm từ có âm /ɑː/ kéo dài sâu trong cổ họng.",
+          "Bước 3: Chọn 'smart'."
+        ],
+        "trap": "Không phân biệt được độ dài giữa âm dài /ɑː/ và âm ngắn dứt khoát /ʌ/."
+      },
+      "socraticPrompt": "Khi đọc từ 'smart', miệng em có mở rộng và ngân dài âm /ɑː/ hơn so với từ 'study' không?",
+      "distractorReasons": [
+        "Sai vì chữ 'u' trong 'study' phát âm là âm ngắn /ʌ/.",
+        "Sai vì 'subject' phát âm là /ˈsʌbdʒɪkt/ mang âm /ʌ/.",
+        "Đúng vì 'smart' phát âm là /smɑːt/ với nguyên âm dài /ɑː/.",
+        "Sai vì 'lunch' phát âm là /lʌntʃ/ mang âm /ʌ/."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u01_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Grammar - Present Simple Tense",
+      "question": "Complete the sentence: 'Nam ________ his new school uniform on Mondays and Fridays.'",
+      "options": [
+        "wear",
+        "is wear",
+        "wearing",
+        "wears"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thì Hiện tại đơn với chủ ngữ ngôi thứ ba số ít (Nam = He): Động từ thường thêm đuôi '-s' hoặc '-es'.",
+        "steps": [
+          "Bước 1: Xác định thì qua dấu hiệu 'on Mondays and Fridays' (thói quen định kì &rarr; Hiện tại đơn).",
+          "Bước 2: Chủ ngữ 'Nam' là số ít nên động từ 'wear' phải thêm '-s' thành 'wears'.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Quên thêm '-s' cho động từ khi đi với chủ ngữ ngôi thứ ba số ít."
+      },
+      "socraticPrompt": "Chủ ngữ là tên một người (Nam), động từ ở thì hiện tại đơn cần thêm đuôi gì?",
+      "distractorReasons": [
+        "Sai vì 'wear' nguyên thể chỉ đi với chủ ngữ I/You/We/They.",
+        "Sai vì cấu trúc 'is wear' sai ngữ pháp tiếng Anh cơ bản.",
+        "Sai vì 'wearing' ở dạng V-ing không thể đứng một mình làm vị ngữ chính.",
+        "Đúng vì 'Nam' là ngôi thứ ba số ít nên động từ thêm 's' thành 'wears'."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u01_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Grammar - Position of Adverbs of Frequency",
+      "question": "Which sentence has the adverb of frequency 'always' placed in the CORRECT position?",
+      "options": [
+        "They are always friendly to new classmates.",
+        "They always are friendly to new classmates.",
+        "They are friendly always to new classmates.",
+        "Always they are friendly to new classmates."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Vị trí của trạng từ chỉ tần suất: đứng SAU động từ 'to be' (am/is/are) và đứng TRƯỚC động từ thường.",
+        "steps": [
+          "Bước 1: Xác định động từ trong câu: động từ 'to be' ('are').",
+          "Bước 2: Áp dụng quy tắc: To be + Adverb of frequency &rarr; 'are always'.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Đặt trạng từ chỉ tần suất trước to be như thói quen đặt trước động từ thường."
+      },
+      "socraticPrompt": "Khi trong câu xuất hiện động từ to be (am/is/are), trạng từ chỉ tần suất như 'always' sẽ đứng trước hay đứng sau to be?",
+      "distractorReasons": [
+        "Đúng vì trạng từ chỉ tần suất đứng ngay sau động từ to be 'are'.",
+        "Sai vì trạng từ đứng trước to be là sai vị trí ngữ pháp chuẩn.",
+        "Sai vì đặt 'always' sau tính từ 'friendly' là sai cấu trúc.",
+        "Sai vì không đặt trạng từ tần suất ở đầu câu trong cấu trúc câu này."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u01_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - School Collocations",
+      "question": "Choose the correct phrase: 'Students ________ lunch in the school canteen at 11:30.'",
+      "options": [
+        "study",
+        "have",
+        "do",
+        "play"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cụm từ cố định chỉ việc ăn uống: 'have lunch' (ăn trưa), 'have breakfast' (ăn sáng), 'have dinner' (ăn tối).",
+        "steps": [
+          "Bước 1: Nhìn vào danh từ tân ngữ 'lunch' (bữa trưa).",
+          "Bước 2: Động từ kết hợp tự nhiên chỉ việc dùng bữa là 'have'.",
+          "Bước 3: Chọn đáp án C."
+        ],
+        "trap": "Chọn 'do' hoặc 'study' theo thói quen ghép từ lộn xộn."
+      },
+      "socraticPrompt": "Để nói 'ăn cơm trưa' trong tiếng Anh, người bản xứ dùng cụm từ 'do lunch' hay 'have lunch'?",
+      "distractorReasons": [
+        "Sai vì 'study' chỉ dùng cho việc học môn học.",
+        "Đúng vì 'have lunch' là cụm từ chuẩn diễn tả việc ăn trưa.",
+        "Sai vì 'do lunch' không phải là cách diễn đạt chuẩn chỉ việc ăn trưa.",
+        "Sai vì 'play lunch' là cách ghép từ hoàn toàn vô nghĩa."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    }
+  ]
+}

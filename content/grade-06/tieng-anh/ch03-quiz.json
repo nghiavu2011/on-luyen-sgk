@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en6_u03_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Choose the correct description: 'My best friend has ______.'",
-    "options": [
-      "A. a short black hair",
-      "B. short black hair",
-      "C. hairs short and black",
-      "D. short black hairs"
-    ],
-    "answer": 1,
-    "explanation": "📌 Grammar: 'Hair' referring to all hair on head is uncountable, so no article 'a' and no plural 's'. Adjective order: length (short) + color (black) + noun (hair).\n💡 OSASCOMP adjective order.\n⚠️ Hair is uncountable when describing hairstyle."
-  }
-]
+{
+  "chapterId": "ch03",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 3: My Friends",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng6_u03_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Stative Verbs not used in Continuous",
+      "question": "Which of the following sentences is grammatically INCORRECT in English?",
+      "options": [
+        "They are having a picnic in the park now.",
+        "She is playing the piano in the music room.",
+        "I am understanding this difficult grammar rule now.",
+        "We are writing an email to our new penfriend."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Động từ chỉ trạng thái/nhận thức (Stative Verbs) như 'understand', 'know', 'like', 'love' KHÔNG được chia ở thì tiếp diễn, dù có trạng từ 'now'. Phải nói: 'I understand...', không nói 'I am understanding...'.",
+        "steps": [
+          "Bước 1: Kiểm tra động từ 'understand' (hiểu): đây là động từ chỉ nhận thức/trí tuệ.",
+          "Bước 2: Theo ngữ pháp tiếng Anh chuẩn mực, động từ nhận thức không dùng ở thì tiếp diễn.",
+          "Bước 3: Câu B là câu sai ngữ pháp &rarr; Chọn B."
+        ],
+        "trap": "Thấy từ 'now' nên nghĩ chia 'am understanding' là đúng."
+      },
+      "socraticPrompt": "Các động từ chỉ nhận thức như 'understand', 'know', 'love' có được chia ở thì tiếp diễn có đuôi -ing không?",
+      "distractorReasons": [
+        "Sai vì 'have a picnic' (đi dã ngoại) là hành động thể chất, dùng thì tiếp diễn hoàn toàn đúng.",
+        "Sai vì 'play the piano' là hành động đang diễn ra, dùng tiếp diễn đúng.",
+        "Đúng vì 'understand' là động từ trạng thái, không dùng ở thì tiếp diễn; câu đúng phải là 'I understand'.",
+        "Sai vì 'write an email' là hành động thể chất, dùng tiếp diễn đúng."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u03_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary in Context - Personality Deduction",
+      "question": "Mai is not afraid of speaking in front of the whole school, and she always believes in her own abilities. Mai is very ________.",
+      "options": [
+        "shy",
+        "worried",
+        "curious",
+        "confident"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "'confident' (tự tin): 'not afraid of speaking in public' (không sợ nói trước đám đông), 'believes in her own abilities' (tin vào năng lực của mình).",
+        "steps": [
+          "Bước 1: Phân tích biểu hiện: không sợ phát biểu trước toàn trường, tin vào năng lực bản thân.",
+          "Bước 2: Tính từ tiếng Anh tương ứng là 'confident' (tự tin).",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Nhầm 'confident' với 'curious' (tò mò, hiếu kì)."
+      },
+      "socraticPrompt": "Người không hề rụt rè khi đứng trên sân khấu lớn và luôn tin tưởng vào chính mình là người có phẩm chất gì?",
+      "distractorReasons": [
+        "Sai vì shy là nhút nhát, e thẹn (trái ngược với không sợ phát biểu).",
+        "Sai vì worried là lo lắng, bồn chồn.",
+        "Sai vì curious là tò mò, ham tìm hiểu điều lạ.",
+        "Đúng vì confident là tự tin, khớp hoàn toàn với dữ kiện đề bài."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u03_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Double Negatives & Contrast",
+      "question": "Choose the best combination: 'Although it ________ heavily outside, the children ________ in the living room calmly.'",
+      "options": [
+        "is raining / are reading",
+        "rains / read",
+        "is raining / read",
+        "rains / are reading"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Miêu tả hai hành động đang đồng thời diễn ra tại thời điểm nói: ngoài trời đang mưa to (is raining) và lũ trẻ đang đọc sách trong phòng khách (are reading).",
+        "steps": [
+          "Bước 1: Ngữ cảnh 'outside' và 'in the living room' miêu tả một khung cảnh thực tế đang diễn ra.",
+          "Bước 2: Cả hai vế đều diễn tả hành động đang tiếp diễn đồng thời &rarr; dùng thì Hiện tại tiếp diễn cho cả hai động từ.",
+          "Bước 3: 'it is raining' và 'the children are reading'. Chọn B."
+        ],
+        "trap": "Dùng thì hiện tại đơn cho chủ ngữ 'the children' trong khi ngữ cảnh đang miêu tả hành động cụ thể lúc trời mưa."
+      },
+      "socraticPrompt": "Khi vẽ nên một khung cảnh: ngoài trời đang đổ mưa và trong nhà các bạn nhỏ đang chăm chú đọc sách, ta dùng thì nào cho cả 2 hành động?",
+      "distractorReasons": [
+        "Đúng vì cả hai hành động đều đang đồng thời tiếp diễn ở thời điểm quan sát.",
+        "Sai vì hiện tại đơn diễn tả sự thật muôn thuở chứ không diễn tả khung cảnh đang xảy ra.",
+        "Sai vì vế sau chia hiện tại đơn làm mất tính tiếp diễn đồng thời.",
+        "Sai vì vế trước chia hiện tại đơn là không phù hợp với ngữ cảnh thời tiết cụ thể."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u03_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Order of Adjectives for Appearance",
+      "question": "Which sentence has the adjectives in the CORRECT order to describe appearance?",
+      "options": [
+        "She has hair black long.",
+        "She has long black hair.",
+        "She has black long hair.",
+        "She has a long hair black."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc trật tự tính từ miêu tả tóc: Độ dài (Length) &rarr; Kiểu dáng (Shape) &rarr; Màu sắc (Colour) &rarr; Danh từ (Hair). Ví dụ: long (dài) đứng trước black (đen) &rarr; 'long black hair'.",
+        "steps": [
+          "Bước 1: Xác định tính từ: 'long' (độ dài) và 'black' (màu sắc).",
+          "Bước 2: Quy tắc OSASCOMP: Kích thước/độ dài đứng trước màu sắc &rarr; 'long black'.",
+          "Bước 3: 'hair' là danh từ không đếm được nên không dùng mạo từ 'a' &rarr; 'She has long black hair'."
+        ],
+        "trap": "Đảo ngược màu sắc lên trước độ dài ('black long hair') hoặc thêm mạo từ 'a' trước danh từ không đếm được 'hair'."
+      },
+      "socraticPrompt": "Khi tả mái tóc, tính từ chỉ độ dài (dài/ngắn) hay tính từ chỉ màu sắc (đen/vàng) sẽ đứng trước?",
+      "distractorReasons": [
+        "Sai vì tính từ phải đứng trước danh từ miêu tả.",
+        "Đúng vì 'long black hair' tuân thủ chuẩn xác trật tự tính từ trong tiếng Anh.",
+        "Sai vì tính từ chỉ độ dài 'long' phải đứng trước tính từ chỉ màu sắc 'black'.",
+        "Sai vì 'hair' là danh từ không đếm được, không dùng mạo từ 'a'."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u03_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading & Logic - Identifying Best Friends",
+      "question": "Read: 'Phong is creative and sporty. He likes painting and playing football. Duy is also sporty and loves playing football every afternoon. Lan likes reading books quietly.' Who are most likely to be sports buddies?",
+      "options": [
+        "Phong and Lan",
+        "Duy and Lan",
+        "Phong and Duy",
+        "All three of them"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Suy luận sở thích chung: Cả Phong và Duy đều yêu thích thể thao ('sporty') và thích chơi bóng đá ('playing football'), do đó họ là đôi bạn cùng chơi thể thao ('sports buddies').",
+        "steps": [
+          "Bước 1: Phong thích 'painting and playing football', là người 'sporty'.",
+          "Bước 2: Duy cũng 'sporty' và 'loves playing football'.",
+          "Bước 3: Cả hai có chung sở thích bóng đá &rarr; Phong and Duy là 'sports buddies'."
+        ],
+        "trap": "Chọn Lan trong khi Lan có sở thích tĩnh (reading books quietly)."
+      },
+      "socraticPrompt": "Hai bạn nào trong đoạn văn trên có cùng đặc điểm 'sporty' và cùng thích chơi môn thể thao bóng đá?",
+      "distractorReasons": [
+        "Sai vì Lan thích đọc sách yên tĩnh, không thích chơi thể thao.",
+        "Sai vì Duy thích bóng đá còn Lan thích đọc sách.",
+        "Đúng vì cả Phong và Duy đều là người năng động yêu thích bóng đá.",
+        "Sai vì Lan không tham gia hoạt động thể thao cùng hai bạn."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u03_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Error Identification - Present Continuous Subject-Verb Agreement",
+      "question": "Find the mistake in this sentence: 'The team of young volunteers are helping old people in the community right now.'",
+      "options": [
+        "The team of",
+        "right now",
+        "in the community",
+        "are helping"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hòa hợp chủ vị với danh từ tập hợp: 'The team of young volunteers' có danh từ cốt lõi là 'The team' (danh từ số ít chỉ một đội ngũ) &rarr; động từ to be chuẩn mực phải là 'is helping', không dùng 'are helping'.",
+        "steps": [
+          "Bước 1: Xác định chủ ngữ chính: 'The team' (đội, nhóm số ít).",
+          "Bước 2: Cụm 'of young volunteers' là bổ ngữ giới từ, không quyết định số của động từ.",
+          "Bước 3: Động từ số ít phải là 'is helping'. Lỗi sai nằm ở 'are helping'."
+        ],
+        "trap": "Nhìn thấy danh từ số nhiều 'volunteers' đứng ngay trước to be tưởng chủ ngữ là số nhiều nên chọn 'are'."
+      },
+      "socraticPrompt": "Trong cụm 'The team of young volunteers', chủ ngữ chính là cả một đội nhóm ('The team' số ít) hay từng tình nguyện viên?",
+      "distractorReasons": [
+        "Sai vì 'The team of' là cụm danh từ làm chủ ngữ hoàn toàn đúng.",
+        "Sai vì 'right now' là dấu hiệu nhận biết của thì hiện tại tiếp diễn.",
+        "Sai vì 'in the community' (trong cộng đồng) là trạng ngữ nơi chốn đúng.",
+        "Đúng vì chủ ngữ cốt lõi là 'The team' số ít nên phải chia là 'is helping', không dùng 'are helping'."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    }
+  ]
+}

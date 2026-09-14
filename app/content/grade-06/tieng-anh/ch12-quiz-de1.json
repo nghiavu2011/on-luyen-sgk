@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en6_u12_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Robots that help doctors perform precise surgeries in hospitals are ______.",
-    "options": [
-      "A. teacher robots",
-      "B. doctor robots",
-      "C. space robots",
-      "D. cook robots"
-    ],
-    "answer": 1,
-    "explanation": "📌 Robot application: Doctor robots assist with surgery and patient care.\n💡 Surgery = doctor robot.\n⚠️ Teacher robots help in classrooms."
-  }
-]
+{
+  "chapterId": "ch12",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 12: Robots",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "eng6_u12_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Types of Robots",
+      "question": "Which type of robot assists surgeons in operating rooms and monitors patients' vital signs in hospitals?",
+      "options": [
+        "worker robot",
+        "home robot",
+        "teaching robot",
+        "doctor robot"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "'doctor robot' là robot y tế hỗ trợ phẫu thuật và chăm sóc theo dõi sức khỏe bệnh nhân.",
+        "steps": [
+          "Bước 1: Từ khóa: 'assists surgeons in operating rooms' (hỗ trợ bác sĩ trong phòng mổ) và 'hospitals' (bệnh viện).",
+          "Bước 2: Chủng loại robot y tế trong SGK là 'doctor robot'.",
+          "Bước 3: Chọn 'doctor robot'."
+        ],
+        "trap": "Nhầm với robot công nhân (worker robot)."
+      },
+      "socraticPrompt": "Robot làm việc trong bệnh viện trợ giúp bác sĩ phẫu thuật và đo nhịp tim bệnh nhân gọi là gì?",
+      "distractorReasons": [
+        "Sai vì worker robot làm việc trong nhà máy xí nghiệp.",
+        "Sai vì home robot làm việc nhà.",
+        "Sai vì teaching robot dạy học trong lớp.",
+        "Đúng vì doctor robot là robot y tế bệnh viện."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u12_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Grammar - Past Ability 'could'",
+      "question": "When my grandfather was young, he ________ run 10 kilometres every single morning without getting exhausted.",
+      "options": [
+        "could",
+        "can",
+        "will",
+        "is able"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "'When my grandfather was young' là mệnh đề thời gian trong quá khứ, dùng 'could' để diễn tả khả năng trong quá khứ.",
+        "steps": [
+          "Bước 1: Ngữ cảnh: 'When my grandfather was young' (khi ông tôi còn trẻ) -> Quá khứ.",
+          "Bước 2: Khả năng trong quá khứ của 'can' là 'could'.",
+          "Bước 3: Chọn 'could'."
+        ],
+        "trap": "Dùng 'can' của thì hiện tại."
+      },
+      "socraticPrompt": "Khi nói về khả năng chạy 10 km thời ông còn trẻ trong quá khứ, ta dùng 'can' hay 'could'?",
+      "distractorReasons": [
+        "Đúng vì could diễn tả khả năng thể lực trong quá khứ chuẩn xác.",
+        "Sai vì can chỉ khả năng ở hiện tại.",
+        "Sai vì will là thì tương lai.",
+        "Sai vì is able thiếu giới từ 'to' và là thì hiện tại."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng6_u12_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Grammar - Superlative Short Adjectives",
+      "question": "This newly designed robot is ________ machine in the entire technology exhibition.",
+      "options": [
+        "smartest",
+        "the smartest",
+        "more smart",
+        "most smart"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "So sánh nhất của tính từ ngắn 'smart': the + adj + est -> 'the smartest'.",
+        "steps": [
+          "Bước 1: Phạm vi so sánh: 'in the entire technology exhibition' (trong toàn bộ triển lãm) -> so sánh nhất.",
+          "Bước 2: 'smart' là tính từ ngắn 1 âm tiết, cấu trúc là 'the smartest'.",
+          "Bước 3: Chọn 'the smartest'."
+        ],
+        "trap": "Quên mạo từ 'the' chọn mỗi 'smartest'."
+      },
+      "socraticPrompt": "Trong cấu trúc so sánh nhất của tính từ ngắn, trước đuôi '-est' bắt buộc phải có mạo từ gì?",
+      "distractorReasons": [
+        "Sai vì thiếu mạo từ 'the'.",
+        "Đúng vì 'the smartest' là dạng so sánh nhất chuẩn ngữ pháp.",
+        "Sai vì more smart là so sánh hơn không chuẩn.",
+        "Sai vì smart là tính từ ngắn không dùng most."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng6_u12_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Grammar - Superlative Long Adjectives",
+      "question": "The humanoid robot Atlas is ________ machine produced by Boston Dynamics.",
+      "options": [
+        "expensivest",
+        "more expensive",
+        "the most expensive",
+        "the expensivest"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "'expensive' là tính từ dài (3 âm tiết), dạng so sánh nhất là 'the most expensive'.",
+        "steps": [
+          "Bước 1: 'expensive' là tính từ dài 3 âm tiết.",
+          "Bước 2: Cấu trúc so sánh nhất: the most + adj dài.",
+          "Bước 3: Chọn 'the most expensive'."
+        ],
+        "trap": "Thêm đuôi -est vào tính từ dài thành 'expensivest'."
+      },
+      "socraticPrompt": "Tính từ dài 3 âm tiết 'expensive' khi chuyển sang so sánh nhất dùng cấu trúc gì?",
+      "distractorReasons": [
+        "Sai vì tiếng Anh không có từ expensivest.",
+        "Sai vì more expensive là so sánh hơn.",
+        "Đúng vì the most expensive là cấu trúc so sánh nhất chuẩn cho tính từ dài.",
+        "Sai vì tính từ dài không bao giờ thêm đuôi -est."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng6_u12_d1_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Robot Tasks",
+      "question": "In the garden, our outdoor service robot can trim branches and ________ to keep the yard tidy.",
+      "options": [
+        "cook the rice",
+        "make the bed",
+        "wash the dishes",
+        "cut the hedge"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "'cut the hedge' là công việc cắt tỉa hàng rào cây xanh ngoài vườn trong SGK Tiếng Anh 6.",
+        "steps": [
+          "Bước 1: Địa điểm và bối cảnh: 'In the garden' (ở ngoài vườn) và 'trim branches' (cắt tỉa cành cây).",
+          "Bước 2: Công việc tương ứng ngoài vườn là cắt tỉa hàng rào cây: cut the hedge.",
+          "Bước 3: Chọn 'cut the hedge'."
+        ],
+        "trap": "Chọn các công việc trong phòng ngủ (make the bed) hay nhà bếp."
+      },
+      "socraticPrompt": "Công việc chăm sóc hàng rào cây xanh ngoài sân vườn trong tiếng Anh là cụm từ nào?",
+      "distractorReasons": [
+        "Sai vì cook the rice là nấu cơm trong bếp.",
+        "Sai vì make the bed là dọn giường trong phòng ngủ.",
+        "Sai vì wash the dishes là rửa chén bát trong bồn rửa.",
+        "Đúng vì cut the hedge là hoạt động cắt tỉa hàng rào ngoài sân vườn."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng6_u12_d1_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Grammar - Irregular Superlatives: good / bad",
+      "question": "What is the superlative form of the irregular adjective 'good'?",
+      "options": [
+        "the best",
+        "the goodest",
+        "the better",
+        "the most good"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "'good' là tính từ bất quy tắc: good -> better -> the best.",
+        "steps": [
+          "Bước 1: Nhận diện 'good' là tính từ bất quy tắc.",
+          "Bước 2: Bảng biến đổi: good -> better (hơn) -> the best (nhất).",
+          "Bước 3: Chọn 'the best'."
+        ],
+        "trap": "Thêm -est thành 'the goodest'."
+      },
+      "socraticPrompt": "Từ 'tốt nhất' xuất phát từ 'good' có dạng viết so sánh nhất là gì?",
+      "distractorReasons": [
+        "Đúng vì the best là dạng so sánh nhất bất quy tắc của good.",
+        "Sai vì tiếng Anh không có từ the goodest.",
+        "Sai vì better là so sánh hơn.",
+        "Sai vì không dùng the most good."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    }
+  ]
+}
