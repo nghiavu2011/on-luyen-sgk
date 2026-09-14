@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch08_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Cấu trúc cơ bản của một hạt virus gồm có những thành phần nào?",
-    "options": [
-      "A. Màng tế bào, nhân hoàn chỉnh và lục lạp",
-      "B. Vỏ protein bọc ngoài và lõi vật chất di truyền (ADN hoặc ARN)",
-      "C. Thành tế bào bằng cellulose và không bào",
-      "D. Lông bơi và roi bơi"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Virus vô cùng đơn giản, chưa có cấu tạo tế bào, chỉ gồm lõi axit nucleic nằm trong vỏ capsid bằng protein.\n💡 Kí sinh bắt buộc trong tế bào chủ.\n⚠️ Virus không có màng tế bào hay bào quan."
-  },
-  {
-    "id": "khtn6_ch08_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Trong các nhóm thực vật sau, nhóm nào là thực vật bậc cao đầu tiên có hạt nhưng hạt nằm lộ trên các lá noãn hở (chưa có quả bọc)?",
-    "options": [
-      "A. Ngành Rêu",
-      "B. Ngành Dương xỉ",
-      "C. Ngành Hạt trần (Cây thông)",
-      "D. Ngành Hạt kín"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phân loại: Ngành Hạt trần (đại diện là cây thông, cây tuế) sinh sản bằng hạt nằm lộ trên noãn hở ở nón cái, chưa có hoa và quả thật sự.\n💡 Hạt kín mới có quả bao bọc bảo vệ hạt.\n⚠️ Chú ý từ 'nằm lộ' = Hạt trần."
-  }
-]
+{
+  "chapterId": "ch08",
+  "title": "Chủ đề 8: Đa dạng thế giới sống — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c8_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hệ thống 5 giới",
+      "question": "Trong hệ thống 5 giới sinh vật của Whittaker, giới nào gồm các sinh vật có cấu tạo TẾ BÀO NHÂN SƠ?",
+      "options": [
+        "Giới Nấm",
+        "Giới Nguyên sinh",
+        "Giới Khởi sinh",
+        "Giới Thực vật"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Giới Khởi sinh (Monera) gồm các loài vi khuẩn mang tế bào nhân sơ chưa có màng nhân.",
+        "socraticPrompt": "Giới nào chỉ chứa vi khuẩn đơn bào nhân sơ?",
+        "steps": "Giới Khởi sinh gồm sinh vật nhân sơ; 4 giới còn lại là nhân thực.",
+        "trap": "Giới Nguyên sinh là nhân thực (trùng roi, trùng giày)."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm của virus",
+      "question": "Khẳng định nào sau đây là ĐÚNG nhất về cấu tạo của virus?",
+      "options": [
+        "Có màng tế bào, tế bào chất và nhân hoàn chỉnh",
+        "Có khả năng tự quang hợp như cây xanh",
+        "Là sinh vật đa bào kích thước khổng lồ",
+        "Chưa có cấu tạo tế bào, chỉ gồm lõi vật chất di truyền bọc trong vỏ protein"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Virus chưa phải là một tế bào hoàn chỉnh; chúng chỉ là hạt siêu hiển vi gồm lõi acid nucleic và vỏ capsid protein.",
+        "socraticPrompt": "Virus có màng tế bào và tế bào chất không hay chỉ là cấu trúc chưa có tế bào?",
+        "steps": "Virus chưa có cấu tạo tế bào, kí sinh nội bào bắt buộc.",
+        "trap": "Nhầm virus với vi khuẩn (vi khuẩn có cấu tạo tế bào nhân sơ)."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ngành thực vật tiến hoá nhất",
+      "question": "Ngành thực vật nào tiến hoá nhất, có mạch dẫn hoàn chỉnh, có hoa và hạt được bảo vệ kín bên trong quả?",
+      "options": [
+        "Ngành Hạt kín",
+        "Ngành Dương xỉ",
+        "Ngành Hạt trần",
+        "Ngành Rêu"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ngành Hạt kín (thực vật có hoa) là ngành đa dạng và tiến hoá nhất hành tinh hiện nay.",
+        "socraticPrompt": "Cây có hoa và hạt nằm trong quả bảo vệ gọi là ngành hạt gì?",
+        "steps": "Hạt kín là ngành thực vật có hoa tiến hoá cao nhất.",
+        "trap": "Hạt trần (cây thông) hạt nằm lộ trên nón, chưa có hoa và quả thật sự."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm lớp Thú",
+      "question": "Đặc điểm sinh học nào sau đây là đặc trưng quan trọng nhất chỉ có ở lớp Thú (Động vật có vú)?",
+      "options": [
+        "Biết bay lượn trên bầu trời",
+        "Đẻ con và nuôi con bằng sữa mẹ tiết ra từ tuyến vú",
+        "Sống hoàn toàn dưới nước và thở bằng mang",
+        "Đẻ trứng có vỏ đá vôi"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lớp Thú (Mammalia) đặc trưng bởi sự mang thai, sinh con và nuôi con bằng dòng sữa mẹ giàu dưỡng chất.",
+        "socraticPrompt": "Con non mới đẻ của chó, mèo, người bú chất dinh dưỡng gì từ mẹ?",
+        "steps": "Đẻ con và nuôi con bằng sữa mẹ là đặc trưng của lớp Thú.",
+        "trap": "Chim đẻ trứng; cá thở bằng mang."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vai trò của nấm men",
+      "question": "Nấm men (yeast) được con người ứng dụng phổ biến trong ngành công nghiệp nào?",
+      "options": [
+        "Làm gạch xây dựng",
+        "Sản xuất phân bón hoá học",
+        "Lên men làm bánh mì nở xốp và sản xuất bia, rượu nếp",
+        "Chế tạo lõi dây điện"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nấm men lên men đường tạo khí CO2 giúp bột bánh phồng xốp và tạo cồn trong sản xuất rượu bia.",
+        "socraticPrompt": "Bánh mì nở phồng xốp thơm ngon là nhờ hoạt động của loại vi nấm nào?",
+        "steps": "Nấm men dùng lên men bánh mì, bia rượu.",
+        "trap": "Nấm mốc sinh độc tố Aflatoxin có hại, nấm men mới làm bánh mì."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Bệnh do vi khuẩn",
+      "question": "Bệnh nào sau đây ở người là do VI KHUẨN gây ra (có thể điều trị hiệu quả bằng thuốc kháng sinh)?",
+      "options": [
+        "Bệnh dại do chó cắn",
+        "Bệnh cảm cúm mùa",
+        "Bệnh sốt xuất huyết Dengue",
+        "Bệnh lao phổi (do trực khuẩn lao Koch)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lao phổi do trực khuẩn lao Mycobacterium tuberculosis gây ra. Cảm cúm, sốt xuất huyết, bệnh dại đều do virus.",
+        "socraticPrompt": "Bệnh nào do trực khuẩn gây ra và chữa khỏi bằng phác đồ kháng sinh dài ngày?",
+        "steps": "Bệnh lao do vi khuẩn gây nên và chữa được bằng kháng sinh.",
+        "trap": "Sốt xuất huyết do virus Dengue truyền qua muỗi vằn, không chữa bằng kháng sinh."
+      }
+    }
+  ]
+}

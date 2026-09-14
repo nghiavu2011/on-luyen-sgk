@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Khoa học tự nhiên (KHTN) nghiên cứu đối tượng nào?",
-    "back": "KHTN nghiên cứu các hiện tượng tự nhiên, tìm ra các tính chất, quy luật của sự vật, hiện tượng trong thế giới tự nhiên.",
-    "tags": [
-      "KHTN 6",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Giới hạn đo (GHĐ) và Độ chia nhỏ nhất (ĐCNN) của thước là gì?",
-    "back": "GHĐ là độ dài lớn nhất ghi trên thước. ĐCNN là độ dài giữa 2 vạch chia liên tiếp trên thước.",
-    "tags": [
-      "Phép đo",
-      "Kỹ năng"
-    ]
-  },
-  {
-    "front": "Đơn vị đo độ dài, khối lượng, thời gian chuẩn trong hệ SI?",
-    "back": "Độ dài: mét (m); Khối lượng: kilôgam (kg); Thời gian: giây (s).",
-    "tags": [
-      "Đơn vị SI",
-      "Đo lường"
-    ]
-  },
-  {
-    "front": "Nhiệt độ nóng chảy của nước đá và nhiệt độ sôi của nước tinh khiết ở 1 atm là bao nhiêu độ C?",
-    "back": "Nước đá tan ở $0^\\circ\\text{C}$, nước sôi ở $100^\\circ\\text{C}$ (thang Celsius).",
-    "tags": [
-      "Nhiệt độ",
-      "Vật lí"
-    ]
-  },
-  {
-    "front": "Kính lúp và kính hiển vi quang học dùng để làm gì?",
-    "back": "Kính lúp phóng to vật từ 3 đến 20 lần; Kính hiển vi phóng to hàng trăm đến hàng nghìn lần để quan sát tế bào, vi sinh vật.",
-    "tags": [
-      "Dụng cụ",
-      "Thực hành"
-    ]
-  },
-  {
-    "front": "Kí hiệu cảnh báo chất độc hại và chất dễ cháy có hình ảnh gì?",
-    "back": "Chất độc: Đầu lâu xương chéo; Chất dễ cháy: Ngọn lửa bốc cháy trong hình tam giác viền đen nền vàng hoặc đỏ.",
-    "tags": [
-      "An toàn",
-      "Phòng TN"
-    ]
-  },
-  {
-    "front": "Để đo thể tích chất lỏng bằng bình chia độ, mắt phải đặt thế nào?",
-    "back": "Đặt mắt ngang bằng với độ cao đáy của mặt khum chất lỏng.",
-    "tags": [
-      "Đo thể tích",
-      "Kỹ năng"
-    ]
-  },
-  {
-    "front": "Cách hiệu chỉnh cân đồng hồ trước khi cân một vật?",
-    "back": "Vặn ốc điều chỉnh sao cho kim chỉ đúng vạch số 0 trước khi đặt vật lên đĩa cân.",
-    "tags": [
-      "Đo khối lượng",
-      "Kỹ năng"
-    ]
-  },
-  {
-    "front": "Công thức đổi từ độ Celsius sang độ Fahrenheit?",
-    "back": "$t(^\\circ\\text{F}) = (t(^\\circ\\text{C}) \\times 1.8) + 32$.",
-    "tags": [
-      "Nhiệt độ",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Làm thế nào để giảm sai số khi đo thời gian bằng đồng hồ bấm giây?",
-    "back": "Bấm bắt đầu và kết thúc dứt khoát trùng khớp thời điểm vật chuyển động, thực hiện đo ít nhất 3 lần lấy trung bình cộng.",
-    "tags": [
-      "Thời gian",
-      "Thực hành"
-    ]
-  },
-  {
-    "front": "Quy tắc an toàn cơ bản khi tiếp xúc với hoá chất?",
-    "back": "Không ngửi trực tiếp, không nếm, đeo kính bảo hộ và găng tay, làm theo đúng hướng dẫn của giáo viên.",
-    "tags": [
-      "Quy tắc",
-      "An toàn"
-    ]
-  },
-  {
-    "front": "Tại sao thủy ngân được dùng trong nhiệt kế y tế?",
-    "back": "Thủy ngân có tính dãn nở vì nhiệt đều đặn và không dính ướt thành ống thủy tinh.",
-    "tags": [
-      "Nhiệt kế",
-      "Ứng dụng"
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "flashcards": [
+    {
+      "id": "fc_khtn6_c1_01",
+      "front": "Khoa học tự nhiên nghiên cứu những đối tượng nào?",
+      "back": "Nghiên cứu các sự vật, hiện tượng, quy luật tự nhiên và tác động của chúng đối với con người và môi trường.",
+      "category": "Giới thiệu KHTN",
+      "example": "Hiện tượng mưa, nhật thực, sự quang hợp ở cây xanh.",
+      "mnemonic": "Nghiên cứu mọi quy luật của thế giới tự nhiên xung quanh ta."
+    },
+    {
+      "id": "fc_khtn6_c1_02",
+      "front": "Biển báo hình ngọn lửa trong hình thoi viền đỏ mang ý nghĩa gì?",
+      "back": "Chất dễ cháy. Cần để xa nguồn nhiệt, tia lửa và ánh nắng gay gắt.",
+      "category": "An toàn phòng thí nghiệm",
+      "example": "Cồn 90 độ, xăng, khí gas.",
+      "mnemonic": "Thấy hình ngọn lửa - tránh xa lửa nhiệt."
+    },
+    {
+      "id": "fc_khtn6_c1_03",
+      "front": "Biển báo hình giọt chất lỏng làm ăn mòn tay và thanh kim loại là gì?",
+      "back": "Chất ăn mòn. Có thể gây bỏng da nặng và phá hủy kim loại; bắt buộc đeo kính và găng tay khi thao tác.",
+      "category": "An toàn phòng thí nghiệm",
+      "example": "Axit sunfuric đặc, kiềm xút NaOH.",
+      "mnemonic": "Ăn mòn da thịt và sắt thép - đeo kính găng tay."
+    },
+    {
+      "id": "fc_khtn6_c1_04",
+      "front": "Giới hạn đo (GHĐ) và Độ chia nhỏ nhất (ĐCNN) là gì?",
+      "back": "GHĐ: Giá trị lớn nhất ghi trên dụng cụ. ĐCNN: Giá trị giữa hai vạch chia liên tiếp trên dụng cụ.",
+      "category": "Kĩ năng đo",
+      "example": "Thước kẻ dài 20 cm, mỗi vạch cách nhau 1 mm -> GHĐ = 20 cm, ĐCNN = 1 mm.",
+      "mnemonic": "GHĐ là kịch kim (lớn nhất), ĐCNN là một bước nhảy nhỏ nhất."
+    },
+    {
+      "id": "fc_khtn6_c1_05",
+      "front": "Đơn vị đo cơ bản hợp pháp của chiều dài, khối lượng, thời gian ở Việt Nam?",
+      "back": "Chiều dài: mét (m); Khối lượng: kilôgam (kg); Thời gian: giây (s).",
+      "category": "Đơn vị đo",
+      "example": "1 m = 100 cm; 1 kg = 1000 g; 1 phút = 60 s.",
+      "mnemonic": "Bộ ba cơ bản SI: mét (m) - kilôgam (kg) - giây (s)."
+    },
+    {
+      "id": "fc_khtn6_c1_06",
+      "front": "Cách đo thể tích vật rắn không thấm nước bằng bình chia độ?",
+      "back": "V = V2 - V1 (Thể tích vật rắn bằng thể tích nước sau khi thả chìm trừ thể tích nước ban đầu).",
+      "category": "Kĩ năng đo",
+      "example": "Nước dâng từ 50 mL lên 75 mL -> V viên đá = 25 mL = 25 cm³.",
+      "mnemonic": "Vật rắn chiếm chỗ nước bao nhiêu thì thể tích đúng bấy nhiêu."
+    },
+    {
+      "id": "fc_khtn6_c1_07",
+      "front": "Kính hiển vi quang học có thể phóng đại ảnh lên bao nhiêu lần?",
+      "back": "Từ 40 lần đến 1000 lần (nhờ sự kết hợp giữa hệ thống thị kính và vật kính).",
+      "category": "Dụng cụ quang học",
+      "example": "Thị kính 10x kết hợp vật kính 40x tạo độ phóng đại 400 lần.",
+      "mnemonic": "Kính hiển vi phóng to hàng trăm đến nghìn lần - soi rõ tế bào."
+    },
+    {
+      "id": "fc_khtn6_c1_08",
+      "front": "Thang nhiệt độ Celsius lấy hai mốc chuẩn nhiệt độ nào?",
+      "back": "0 °C: Nhiệt độ nước đá tinh khiết đang tan; 100 °C: Nhiệt độ nước tinh khiết đang sôi (ở áp suất chuẩn).",
+      "category": "Nhiệt độ",
+      "example": "Thân nhiệt người bình thường khoảng 36,5 - 37,0 °C.",
+      "mnemonic": "0 độ đóng băng - 100 độ sôi sục."
+    },
+    {
+      "id": "fc_khtn6_c1_09",
+      "front": "Tại sao nhiệt kế y tế có đoạn thắt hẹp ở gần bầu?",
+      "back": "Ngăn không cho thủy ngân tự động tụt về bầu khi lấy ra khỏi cơ thể, giúp người đọc quan sát chính xác kết quả.",
+      "category": "Dụng cụ đo nhiệt",
+      "example": "Sau khi đo sốt, nhiệt độ vẫn giữ nguyên ở 38,5 °C cho đến khi vẩy mạnh.",
+      "mnemonic": "Cổ thắt giữ thủy ngân đứng yên để kịp đọc số."
+    },
+    {
+      "id": "fc_khtn6_c1_10",
+      "front": "Khi bị hóa chất dính vào da hoặc mắt, bước xử lý đầu tiên là gì?",
+      "back": "Rửa ngay dưới vòi nước sạch chảy liên tục ít nhất 15 phút, sau đó báo ngay cho giáo viên quản lý.",
+      "category": "An toàn phòng thí nghiệm",
+      "example": "Axit dính vào tay phải đưa ngay vào vòi nước mát xả liên tục.",
+      "mnemonic": "Nước sạch xả 15 phút - cứu cánh đầu tiên khi bỏng hoá chất."
+    }
+  ]
+}

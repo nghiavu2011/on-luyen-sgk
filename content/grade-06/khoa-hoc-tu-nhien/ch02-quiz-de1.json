@@ -1,58 +1,127 @@
-[
-  {
-    "id": "khtn6_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hiện tượng nào sau đây thể hiện tính chất hoá học của chất?",
-    "options": [
-      "A. Cồn để trong lọ hở bị bay hơi",
-      "B. Đinh sắt để ngoài không khí ẩm bị gỉ sét màu nâu",
-      "C. Nước đá tan thành nước lỏng",
-      "D. Muối ăn hoà tan vào nước"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Tính chất hoá học gắn liền với sự biến đổi chất này thành chất khác. Sắt bị gỉ tạo thành oxit sắt là chất mới.\n💡 Bay hơi, nóng chảy, hoà tan chỉ là hiện tượng vật lí.\n⚠️ Nhớ từ khóa: 'tạo chất mới' = tính chất hoá học."
-  },
-  {
-    "id": "khtn6_ch02_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Quá trình chất chuyển từ thể lỏng sang thể rắn được gọi là:",
-    "options": [
-      "A. Sự nóng chảy",
-      "B. Sự bay hơi",
-      "C. Sự đông đặc",
-      "D. Sự ngưng tụ"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Đông đặc là quá trình chuyển thể từ lỏng thành rắn khi giảm nhiệt độ.\n💡 Ví dụ: Nước lỏng để vào ngăn đá đông lại thành đá lạnh.\n⚠️ Nóng chảy là chiều ngược lại."
-  },
-  {
-    "id": "khtn6_ch02_d1_q3",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Đặc điểm nào sau đây KHÔNG đúng với chất ở thể khí?",
-    "options": [
-      "A. Rất dễ bị nén",
-      "B. Không có hình dạng xác định",
-      "C. Có thể tích xác định không đổi",
-      "D. Chiếm toàn bộ thể tích vật chứa nó"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Chất khí không có thể tích xác định, các hạt chuyển động tự do và giãn nở chiếm toàn bộ thể tích.\n💡 Chất rắn và chất lỏng mới có thể tích xác định.\n⚠️ Đọc kĩ đề: câu hỏi phủ định 'KHÔNG đúng'."
-  },
-  {
-    "id": "khtn6_ch02_d1_q4",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Những giọt sương đọng trên lá cây vào sáng sớm là kết quả của quá trình nào?",
-    "options": [
-      "A. Đông đặc",
-      "B. Ngưng tụ",
-      "C. Nóng chảy",
-      "D. Bay hơi"
-    ],
-    "answer": 1,
-    "explanation": "📌 Hiện tượng: Hơi nước trong không khí gặp lạnh vào ban đêm ngưng tụ lại thành những giọt nước lỏng đọng trên lá.\n💡 Ngưng tụ là chuyển từ hơi sang lỏng.\n⚠️ Đừng nhầm với bay hơi (nắng lên sương mới bay hơi)."
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chủ đề 2: Các thể của chất — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c2_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm các thể của chất",
+      "question": "Chất ở thể lỏng có đặc điểm nào sau đây?",
+      "options": [
+        "Có hình dạng và thể tích xác định",
+        "Không có hình dạng và không có thể tích xác định",
+        "Có thể tích xác định nhưng không có hình dạng xác định",
+        "Dễ dàng bị nén lại rất nhiều"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thể lỏng có thể tích cố định nhưng mang hình dạng của phần bình chứa nó, rất khó nén.",
+        "socraticPrompt": "Rót 100 mL nước từ chai tròn sang cốc vuông, thể tích có đổi không và hình dạng có đổi không?",
+        "steps": "Chất lỏng có thể tích xác định nhưng hình dạng phụ thuộc bình chứa.",
+        "trap": "Nhầm với thể khí (không có cả thể tích lẫn hình dạng xác định)."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Sự nóng chảy",
+      "question": "Quá trình chất chuyển từ thể rắn sang thể lỏng được gọi là gì?",
+      "options": [
+        "Sự ngưng tụ",
+        "Sự đông đặc",
+        "Sự bay hơi",
+        "Sự nóng chảy"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nóng chảy là sự biến đổi từ thể rắn sang thể lỏng khi nhận nhiệt.",
+        "socraticPrompt": "Cục nước đá để ngoài trời nóng chuyển thành nước nước thì gọi là hiện tượng gì?",
+        "steps": "Rắn sang lỏng là sự nóng chảy.",
+        "trap": "Đông đặc là quá trình ngược lại (lỏng sang rắn)."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính chất hoá học",
+      "question": "Dãy nào sau đây chỉ gồm các tính chất hoá học của chất?",
+      "options": [
+        "Khả năng cháy sinh nhiệt, khả năng bị gỉ sét trong không khí ẩm",
+        "Nhiệt độ nóng chảy, nhiệt độ sôi, khối lượng riêng",
+        "Màu sắc, mùi vị, tính tan trong nước",
+        "Tính dẫn điện, tính dẫn nhiệt, độ dẻo"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính chất hoá học thể hiện qua khả năng chất biến đổi thành chất khác (cháy, gỉ, phân hủy).",
+        "socraticPrompt": "Hiện tượng nào biến đổi tạo thành chất mới hoàn toàn?",
+        "steps": "Cháy và gỉ sét tạo ra chất mới, đó là tính chất hoá học.",
+        "trap": "Dẫn điện, màu sắc, nhiệt độ sôi là tính chất vật lí vì không biến chất."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Sự ngưng tụ",
+      "question": "Hiện tượng sương đọng trên lá cây vào buổi sáng sớm là ví dụ điển hình của quá trình nào?",
+      "options": [
+        "Sự nóng chảy",
+        "Sự ngưng tụ",
+        "Sự đông đặc",
+        "Sự thăng hoa"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ngưng tụ là quá trình hơi nước trong không khí gặp lạnh chuyển thành những giọt nước lỏng.",
+        "socraticPrompt": "Đêm lạnh, hơi nước trong không khí gặp phiến lá lạnh sẽ biến thành những giọt nước li ti gọi là gì?",
+        "steps": "Hơi nước biến thành giọt sương lỏng chính là sự ngưng tụ.",
+        "trap": "Nhầm với sự bay hơi (lỏng sang hơi)."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm thể khí",
+      "question": "Vì sao ta có thể bơm một lượng lớn khí vào trong một chiếc lốp xe đạp nhỏ?",
+      "options": [
+        "Vì chất khí có hình dạng xác định",
+        "Vì chất khí nặng hơn chất rắn",
+        "Vì các hạt cấu tạo chất khí ở rất xa nhau và khoảng cách giữa chúng dễ dàng thu hẹp khi bị nén",
+        "Vì chất khí không có khối lượng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Chất khí dễ bị nén do khoảng cách giữa các hạt phân tử rất lớn so với kích thước hạt.",
+        "socraticPrompt": "Các phân tử khí nằm thưa thớt nên khi ép pittông thì chúng sẽ bị dồn lại gần nhau đúng không?",
+        "steps": "Chất khí dễ bị nén do khoảng cách giữa các phân tử khí rất rộng.",
+        "trap": "Chất khí vẫn có khối lượng, không phải là không có khối lượng."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhiệt độ sôi",
+      "question": "Ở áp suất tiêu chuẩn, nước tinh khiết sôi ở nhiệt độ nào và trong suốt quá trình sôi nhiệt độ đó biến đổi ra sao?",
+      "options": [
+        "Sôi ở 100 °C và nhiệt độ tiếp tục tăng cao",
+        "Sôi ở 0 °C và nhiệt độ giảm dần",
+        "Sôi ở 80 °C và nhiệt độ dao động liên tục",
+        "Sôi ở 100 °C và nhiệt độ được giữ không đổi"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nước tinh khiết sôi ở 100 °C (1 atm) và nhiệt độ không đổi trong suốt thời gian sôi.",
+        "socraticPrompt": "Trong quá trình chuyển thể của chất tinh khiết, nhiệt độ có tăng thêm khi đun tiếp không?",
+        "steps": "Nhiệt độ sôi là 100 °C và không đổi trong lúc sôi.",
+        "trap": "Lầm tưởng rằng cứ đun lửa to thì nước sôi sẽ lên 110 °C hay 120 °C."
+      }
+    }
+  ]
+}

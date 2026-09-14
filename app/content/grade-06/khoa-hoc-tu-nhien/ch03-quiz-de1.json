@@ -1,44 +1,127 @@
-[
-  {
-    "id": "khtn6_ch03_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong không khí sạch, khí oxygen chiếm khoảng bao nhiêu phần trăm về thể tích?",
-    "options": [
-      "A. $78\\%$",
-      "B. $21\\%$",
-      "C. $1\\%$",
-      "D. $50\\%$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Khí oxygen chiếm xấp xỉ $21\\%$ thể tích không khí ($N_2$ chiếm $78\\%$).\n💡 Dễ nhớ: 1/5 là oxygen, 4/5 là nitrogen.\n⚠️ Tránh nhầm 78% là của Nitrogen."
-  },
-  {
-    "id": "khtn6_ch03_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Để nhận biết khí oxygen trong ống nghiệm, người ta dùng que đóm còn tàn đỏ, hiện tượng xảy ra là:",
-    "options": [
-      "A. Que đóm tắt ngay lập tức",
-      "B. Que đóm bùng cháy sáng trở lại",
-      "C. Que đóm phát tiếng nổ lách tách và khói đen",
-      "D. Que đóm chuyển sang màu xanh lục"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thí nghiệm đặc trưng: Oxygen duy trì sự cháy, do đó làm bùng cháy tàn đóm đỏ.\n💡 Đây là phương pháp nhận biết khí oxygen cơ bản trong SGK.\n⚠️ Khí $CO_2$ hoặc $N_2$ mới làm tắt tàn đóm."
-  },
-  {
-    "id": "khtn6_ch03_d1_q3",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Đặc điểm nào sau đây KHÔNG PHẢI là tính chất vật lí của khí oxygen?",
-    "options": [
-      "A. Chất khí không màu, không mùi",
-      "B. Nặng hơn không khí",
-      "C. Tan rất nhiều và dễ dàng trong nước",
-      "D. Hoá lỏng ở nhiệt độ rất thấp ($-183^\\circ\\text{C}$)"
-    ],
-    "answer": 2,
-    "explanation": "📌 Tính chất: Oxygen là chất khí rất ít tan trong nước ($1\\text{ lít}$ nước chỉ hoà tan khoảng $31\\text{ mL}$ $O_2$ ở $20^\\circ\\text{C}$).\n💡 Nếu oxygen tan nhiều trong nước thì không khí trên cạn đã bị cạn kiệt oxy.\n⚠️ Đọc kĩ từ phủ định: 'KHÔNG PHẢI'."
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chủ đề 3: Oxygen & Không khí — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c3_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thành phần không khí",
+      "question": "Khí nào chiếm tỉ lệ phần trăm thể tích LỚN NHẤT trong không khí xung quanh chúng ta?",
+      "options": [
+        "Khí Nitrogen",
+        "Khí Oxygen",
+        "Khí Carbon dioxide",
+        "Khí Argon"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khí nitrogen (N2) chiếm tỉ lệ lớn nhất trong không khí, khoảng 78% thể tích.",
+        "socraticPrompt": "Khí nào chiếm gần 4/5 (khoảng 78%) bầu khí quyển của chúng ta?",
+        "steps": "Nitrogen chiếm 78%, Oxygen chiếm 21%, còn lại 1% là các khí khác.",
+        "trap": "Học sinh thường chọn nhầm oxygen vì oxygen cần thiết nhất cho con người hít thở."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính chất của Oxygen",
+      "question": "Tính chất vật lí nào sau đây là của khí oxygen?",
+      "options": [
+        "Chất khí màu vàng lục, mùi hắc nồng",
+        "Chất khí không màu, không mùi, ít tan trong nước và nặng hơn không khí",
+        "Chất lỏng màu xanh, nhẹ hơn không khí",
+        "Chất khí có mùi thơm hoa quả và tan vô hạn trong nước"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Oxygen là chất khí không màu, không mùi, không vị, ít tan trong nước và nặng hơn không khí (d ≈ 32/29 ≈ 1,1).",
+        "socraticPrompt": "Không khí chứa 21% oxygen ta có nhìn thấy màu hay ngửi thấy mùi của nó không?",
+        "steps": "Oxygen là khí không màu, không mùi, ít tan trong nước.",
+        "trap": "Khí màu vàng lục mùi hắc là clo (Cl2), không phải oxygen."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vai trò của Oxygen",
+      "question": "Ứng dụng quan trọng nào sau đây thể hiện vai trò duy trì sự sống của khí oxygen?",
+      "options": [
+        "Dùng làm chất diệt cỏ trên đồng ruộng",
+        "Dùng làm nhiên liệu đốt chạy xe máy",
+        "Bình thở oxygen hỗ trợ cho thợ lặn, phi hành gia và bệnh nhân cấp cứu",
+        "Bơm vào bóng bay để bóng bay lơ lửng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Oxygen là chất khí bắt buộc cho quá trình hô hấp tế bào, duy trì sự sống của sinh vật và con người.",
+        "socraticPrompt": "Thợ lặn xuống sâu dưới nước cần thở khí gì chứa trong bình nén?",
+        "steps": "Khí oxygen trong bình nén giúp cung cấp khí thở duy trì sự sống.",
+        "trap": "Oxygen duy trì sự cháy chứ bản thân nó không phải là chất đốt/nhiên liệu."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tỉ lệ Oxygen trong không khí",
+      "question": "Khí oxygen chiếm khoảng bao nhiêu phần trăm thể tích không khí?",
+      "options": [
+        "1%",
+        "50%",
+        "78%",
+        "21%"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Khí oxygen chiếm khoảng 21% thể tích không khí (xấp xỉ 1/5 thể tích bầu khí quyển).",
+        "socraticPrompt": "Tỉ lệ thể tích oxygen trong không khí là bao nhiêu phần trăm?",
+        "steps": "Oxygen chiếm khoảng 21% thể tích không khí.",
+        "trap": "78% là nitrogen, 1% là các khí khác."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Bảo vệ môi trường không khí",
+      "question": "Biện pháp nào sau đây giúp giảm thiểu ô nhiễm không khí hiệu quả nhất?",
+      "options": [
+        "Tăng cường trồng nhiều cây xanh và sử dụng phương tiện giao thông công cộng",
+        "Đốt rác thải nhựa ngoài trời",
+        "Chặt phá rừng phòng hộ làm nương rẫy",
+        "Xả khí thải công nghiệp chưa qua xử lí ra khí quyển"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cây xanh quang hợp hấp thụ CO2 và nhả O2, đồng thời giữ bụi bẩn giúp thanh lọc không khí.",
+        "socraticPrompt": "Hành động xanh nào giúp làm sạch không khí và giảm khí thải nhà kính?",
+        "steps": "Trồng cây xanh và đi xe bus/xe điện giúp giảm thiểu ô nhiễm không khí.",
+        "trap": "Đốt rác làm phát sinh khí độc dioxin cực kì nguy hại."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Dấu hiệu nhận biết Oxygen",
+      "question": "Để nhận biết khí oxygen thu được trong ống nghiệm, người ta dùng phương pháp nào?",
+      "options": [
+        "Nhỏ dung dịch nước chanh vào ống nghiệm",
+        "Đưa que đóm còn tàn đỏ vào miệng ống nghiệm, que đóm bùng cháy sáng",
+        "Đưa mẩu quỳ tím khô vào ống nghiệm",
+        "Dùng nam châm hút"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khí oxygen duy trì sự cháy mạnh mẽ nên làm que đóm tàn đỏ bùng cháy thành ngọn lửa.",
+        "socraticPrompt": "Khí nào có khả năng làm tàn đóm đỏ bùng cháy sáng trở lại?",
+        "steps": "Que đóm tàn đỏ tiếp xúc với khí oxygen sẽ bùng cháy ngay lập tức.",
+        "trap": "Khí nitrogen hay carbon dioxide sẽ làm que đóm tắt phụt."
+      }
+    }
+  ]
+}

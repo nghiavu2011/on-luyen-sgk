@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch10_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Biện pháp nào sau đây giúp sử dụng điện năng an toàn và tiết kiệm nhất trong gia đình?",
-    "options": [
-      "A. Bật bình nóng lạnh suốt 24/24 giờ",
-      "B. Sử dụng các bóng đèn LED chiếu sáng và tắt khi rời khỏi phòng",
-      "C. Bật điều hòa ở mức lạnh tối đa $16^\\circ\\text{C}$ và mở toang cửa sổ",
-      "D. Để tivi ở chế độ chờ (standby) liên tục cả tuần"
-    ],
-    "answer": 1,
-    "explanation": "📌 Kỹ năng sống: Đèn LED tiết kiệm tới $80\\%$ điện so với đèn sợi đốt, và việc tắt thiết bị khi không dùng giúp cắt giảm hao phí điện năng.\n💡 Vừa tiết kiệm tiền vừa bảo vệ môi trường.\n⚠️ Để thiết bị chờ vẫn ngốn một lượng điện âm thầm."
-  }
-]
+{
+  "chapterId": "ch10",
+  "title": "Chủ đề 10: Năng lượng & Biến đổi — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c10_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chuyển hoá năng lượng thuỷ điện",
+      "question": "Trong nhà máy thuỷ điện (như thuỷ điện Hoà Bình, Sơn La), chuỗi chuyển hoá năng lượng chính để phát ra dòng điện là gì?",
+      "options": [
+        "Thế năng của nước trên đập cao -> Động năng dòng nước chảy làm quay tuabin -> Điện năng từ máy phát",
+        "Hoá năng -> Quang năng -> Điện năng",
+        "Năng lượng hạt nhân -> Nhiệt năng -> Điện năng",
+        "Điện năng -> Cơ năng -> Thế năng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nước hồ chứa trên cao có thế năng -> xả nước biến thành động năng dòng xoáy quay tuabin -> máy phát tạo ra điện năng.",
+        "socraticPrompt": "Nước tích trên đập cao có thế năng gì? Chảy xuống dốc biến thành động năng làm quay cái gì để ra điện?",
+        "steps": "Thế năng nước -> Động năng tuabin -> Điện năng.",
+        "trap": "Thuỷ điện không đốt nhiên liệu nên không có hoá năng hay nhiệt năng."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiệu suất năng lượng bóng đèn",
+      "question": "Một bóng đèn LED tiêu thụ 10 J điện năng thì chuyển hoá thành 9 J quang năng có ích để thắp sáng và 1 J nhiệt năng hao phí. Hiệu suất thắp sáng của bóng đèn LED này là bao nhiêu?",
+      "options": [
+        "10%",
+        "90%",
+        "50%",
+        "100%"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức hiệu suất: H = (Năng lượng có ích / Năng lượng toàn phần) · 100% = (9 / 10) · 100% = 90%.",
+        "socraticPrompt": "Lấy năng lượng có ích là 9 chia cho tổng năng lượng tiêu thụ là 10 rồi nhân 100% ta được bao nhiêu?",
+        "steps": "H = (9 / 10) · 100% = 90%.",
+        "trap": "Lấy 1 / 10 = 10% là phần trăm hao phí chứ không phải hiệu suất."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Năng lượng hao phí xe máy",
+      "question": "Khi xe máy chạy trên đường, hoá năng của xăng biến đổi thành cơ năng giúp xe di chuyển. Dạng năng lượng nào sau đây là NĂNG LƯỢNG HAO PHÍ?",
+      "options": [
+        "Động năng của xe di chuyển tiến về phía trước",
+        "Quang năng của đèn pha chiếu sáng đường ban đêm",
+        "Nhiệt năng làm nóng bô xe, động cơ và năng lượng âm thanh tiếng nổ pô xe toả ra môi trường",
+        "Cả động năng và quang năng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nhiệt làm nóng lốc máy, ống xả và tiếng ồn động cơ không phục vụ chuyển động của xe, đó là năng lượng hao phí thất thoát vô ích.",
+        "socraticPrompt": "Ống xả xe máy nóng bỏng tay và tiếng nổ ồn ào có giúp xe chạy nhanh hơn không?",
+        "steps": "Nhiệt nóng máy và âm thanh tiếng nổ là năng lượng hao phí.",
+        "trap": "Động năng xe chạy là năng lượng có ích mục đích chính."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chuyển hoá cơ năng con lắc",
+      "question": "Khi thả một quả bóng cao su rơi từ trên cao xuống sàn nhà cứng rồi nảy lên, tại vị trí quả bóng chạm sàn và bắt đầu nảy lên, thế năng ban đầu đã chuyển hoá thành dạng năng lượng nào?",
+      "options": [
+        "Toàn bộ biến thành quang năng chớp sáng",
+        "Chuyển thành năng lượng hạt nhân",
+        "Biến mất vĩnh viễn không còn dấu vết",
+        "Chuyển hoá thành động năng khi rơi, sau đó thành thế năng đàn hồi khi bóng bị nén bẹp rồi nảy bật lên"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Chu trình chuyển hoá: Thế năng hấp dẫn -> Động năng rơi -> Thế năng đàn hồi (bóng biến dạng) -> Động năng nảy lên.",
+        "socraticPrompt": "Bóng chạm sàn bị móp lõm tích trữ thế năng gì trước khi nảy ngược lên?",
+        "steps": "Thế năng rơi thành động năng, chạm sàn thành thế năng đàn hồi rồi đẩy bóng nảy lên.",
+        "trap": "Sau nhiều lần nảy bóng dừng lại vì một phần cơ năng chuyển thành nhiệt làm ấm quả bóng và sàn."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhãn năng lượng 5 sao",
+      "question": "Khi đi mua tủ lạnh hoặc điều hoà, trên thiết bị thường dán 'Nhãn năng lượng' có số sao từ 1 sao đến 5 sao. Thiết bị dán nhãn 5 sao mang ý nghĩa gì?",
+      "options": [
+        "Thiết bị có hiệu suất năng lượng cao nhất, tiết kiệm điện năng tiêu thụ nhất theo chuẩn Bộ Công Thương",
+        "Thiết bị đắt tiền nhất",
+        "Thiết bị chạy ồn nhất",
+        "Thiết bị có trọng lượng nặng nhất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Càng nhiều sao hiệu suất càng cao; nhãn 5 sao chứng nhận sản phẩm áp dụng công nghệ tiết kiệm điện tối ưu nhất (Inverter).",
+        "socraticPrompt": "Biểu tượng 5 ngôi sao xanh trên đồ điện gia dụng báo hiệu mức độ tiết kiệm điện như thế nào?",
+        "steps": "5 sao là cấp độ tiết kiệm điện năng tối ưu nhất.",
+        "trap": "Nghĩ rằng số sao chỉ độ bền hay đánh giá của khách hàng."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quang năng chuyển hoá hoá năng",
+      "question": "Trong tự nhiên, quá trình quang hợp của cây xanh là một ví dụ kì diệu về sự chuyển hoá năng lượng nào sau đây?",
+      "options": [
+        "Nhiệt năng chuyển thành điện năng",
+        "Quang năng (năng lượng ánh sáng mặt trời) chuyển hoá thành hoá năng tích trữ trong các hợp chất hữu cơ (tinh bột, đường)",
+        "Cơ năng chuyển thành nhiệt năng",
+        "Điện năng chuyển thành thế năng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lá cây hấp thụ hạt photon ánh sáng (quang năng) để bẻ gãy liên kết CO2 và H2O tổng hợp chất hữu cơ tích luỹ hoá năng nuôi sống muôn loài.",
+        "socraticPrompt": "Ánh sáng mặt trời được lá cây biến đổi thành dạng năng lượng hoá học nào cất trong củ khoai, hạt gạo?",
+        "steps": "Quang năng mặt trời biến thành hoá năng chất hữu cơ.",
+        "trap": "Quang hợp không sinh ra dòng điện hay nhiệt lượng để thắp sáng."
+      }
+    }
+  ]
+}

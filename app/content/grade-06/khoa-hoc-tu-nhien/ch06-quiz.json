@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch06_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Cây xanh có khả năng tự dưỡng (quang hợp tự tổng hợp chất dinh dưỡng) nhờ vào tế bào lá chứa bào quan nào?",
-    "options": [
-      "A. Ti thể",
-      "B. Lục lạp",
-      "C. Không bào tiêu hoá",
-      "D. Mạng lưới nội chất"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Lục lạp chứa chất diệp lục giúp hấp thụ ánh sáng mặt trời biến nước và $CO_2$ thành đường glucose và giải phóng oxygen.\n💡 Động vật không có lục lạp nên phải dị dưỡng.\n⚠️ Ti thể là bào quan hô hấp tạo năng lượng cho cả tế bào TV và ĐV."
-  },
-  {
-    "id": "khtn6_ch06_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Một bạn học sinh quan sát tế bào vảy hành dưới kính hiển vi quang học và nhận thấy tế bào có hình đa giác rất đều đặn, không bị méo mó. Cấu trúc nào chịu trách nhiệm chính giúp tế bào thực vật giữ được hình dạng cố định này?",
-    "options": [
-      "A. Màng sinh chất mỏng manh",
-      "B. Thành tế bào bằng cellulose vững chắc",
-      "C. Không bào chứa dịch tế bào",
-      "D. Các hạt diệp lục"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất: Thành tế bào thực vật cấu tạo từ cellulose tạo thành bộ khung ngoại bào cứng cáp bảo vệ và định hình tế bào không bị biến dạng.\n💡 Tế bào động vật không có thành tế bào nên có hình dạng mềm mại, biến thiên.\n⚠️ Phân biệt rõ thành tế bào ở thực vật với màng tế bào."
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chủ đề 6: Tế bào – Đơn vị sự sống — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c6_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giới hạn kích thước tế bào",
+      "question": "Tại sao hầu hết các tế bào trong tự nhiên đều có kích thước rất nhỏ bé (cỡ micromét) mà không lớn lên bằng kích thước một quả bóng đá?",
+      "options": [
+        "Vì Trái Đất không đủ chất dinh dưỡng cho tế bào to",
+        "Vì nếu to thì tế bào sẽ bị ánh sáng mặt trời đốt cháy",
+        "Vì khi tế bào có kích thước nhỏ, tỉ lệ diện tích bề mặt trên thể tích (S/V) rất lớn, giúp tế bào trao đổi chất dinh dưỡng và đào thải chất độc qua màng diễn ra cực kì nhanh chóng và hiệu quả",
+        "Vì kính hiển vi không nhìn được tế bào to"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy luật tỉ lệ S/V: Tế bào càng nhỏ thì tỉ lệ S/V càng lớn. Diện tích tiếp xúc lớn giúp khuếch tán oxy và thức ăn đến mọi ngóc ngách của tế bào kịp thời.",
+        "socraticPrompt": "Nếu tế bào quá khổng lồ, chất dinh dưỡng từ màng có thể khuếch tán kịp vào tận tâm tế bào được không?",
+        "steps": "Kích thước nhỏ -> tỉ lệ S/V lớn -> trao đổi chất và duy trì sự sống tối ưu.",
+        "trap": "Lầm tưởng tế bào càng to càng mạnh khoẻ."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Cơ chế kháng sinh diệt vi khuẩn",
+      "question": "Thuốc kháng sinh penicillin tiêu diệt vi khuẩn gây bệnh bằng cách ức chế quá trình tổng hợp thành tế bào của vi khuẩn. Tại sao loại kháng sinh này lại rất an toàn, không phá huỷ các tế bào cơ thể người?",
+      "options": [
+        "Vì tế bào người có khả năng kháng thuốc tuyệt đối",
+        "Vì tế bào người hấp thụ penicillin làm thức ăn",
+        "Vì thuốc kháng sinh tự biết phân biệt người tốt kẻ xấu",
+        "Vì tế bào người là tế bào động vật không có thành tế bào (thành peptitdoglican), nên thuốc chỉ tác động chọn lọc lên vi khuẩn mà không làm tổn hại tế bào người"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tế bào động vật/người chỉ có màng tế bào, không có thành tế bào. Kháng sinh ức chế sinh tổng hợp thành tế bào khiến vi khuẩn vỡ tan khi phân chia, trong khi tế bào người không bị ảnh hưởng.",
+        "socraticPrompt": "Tế bào người có thành tế bào giống vi khuẩn và thực vật không?",
+        "steps": "Người không có thành tế bào -> thuốc diệt thành tế bào không gây hại cho người.",
+        "trap": "Nghĩ rằng thuốc tác động bừa bãi lên mọi tế bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân chia không kiểm soát (Ung thư)",
+      "question": "Hiện tượng các tế bào trong một cơ quan phân chia sinh sản liên tục, mất kiểm soát và không chịu sự chi phối của cơ thể dẫn đến sự hình thành khối u bệnh lí nào sau đây?",
+      "options": [
+        "Khối u bệnh ung thư",
+        "Bệnh loãng xương",
+        "Bệnh cận thị học đường",
+        "Bệnh cảm cúm thông thường"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ung thư bản chất là sự đột biến gen điều hoà chu kì tế bào, khiến tế bào phân chia vô tổ chức, xâm lấn và phá huỷ các mô lành xung quanh.",
+        "socraticPrompt": "Khi tế bào phân chia điên cuồng mất kiểm soát sẽ tạo thành khối thịt thừa gọi là gì?",
+        "steps": "Phân chia mất kiểm soát hình thành khối u ác tính (ung thư).",
+        "trap": "Cảm cúm do virus gây ra, không phải do phân chia mất kiểm soát."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng héo và tươi lại của cây",
+      "question": "Khi cây rau bị thiếu nước vào buổi trưa nắng, lá cây bị rũ héo. Khi được tưới đủ nước mát vào buổi chiều, cành lá lại tươi tỉnh và căng mọng trở lại. Bào quan nào trong tế bào thực vật đóng vai trò điều hòa lượng nước này?",
+      "options": [
+        "Lục lạp",
+        "Không bào trung tâm lớn (chứa dịch tế bào tạo áp suất trương nước)",
+        "Nhân tế bào",
+        "Màng nhân"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Không bào lớn ở thực vật hút no nước tạo áp suất trương nước (turgor pressure) đẩy màng ép sát thành tế bào giúp cành lá cứng cáp, tươi tốt.",
+        "socraticPrompt": "Túi chứa đầy nước bên trong tế bào thực vật tạo sức căng cho tế bào là gì?",
+        "steps": "Không bào no nước tạo áp suất trương giúp cây tươi đứng thẳng; mất nước làm cây héo rũ.",
+        "trap": "Lục lạp làm nhiệm vụ quang hợp, không tích trữ dịch trương nước như không bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán sinh trưởng quần thể vi khuẩn",
+      "question": "Ban đầu trên một miếng thịt ôi có 100 con vi khuẩn Salmonella. Biết rằng trong điều kiện nhiệt độ phòng ấm áp, cứ 30 phút số lượng vi khuẩn lại tăng gấp đôi một lần. Sau 2 giờ, số lượng vi khuẩn trên miếng thịt là bao nhiêu?",
+      "options": [
+        "400 con",
+        "800 con",
+        "1600 con",
+        "3200 con"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trong 2 giờ (120 phút) có: 120 / 30 = 4 lần phân chia. Số vi khuẩn: N = N0 · 2^n = 100 · 2⁴ = 100 · 16 = 1600 con.",
+        "socraticPrompt": "2 giờ chia làm mấy khoảng 30 phút? Lấy 100 nhân 2 mũ mấy?",
+        "steps": "n = 4 lần phân chia -> N = 100 · 16 = 1600 con vi khuẩn.",
+        "trap": "Lấy 100 x 4 x 2 = 800 (sai công thức luỹ thừa)."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thí nghiệm co nguyên sinh",
+      "question": "Khi nhỏ một giọt dung dịch nước muối đậm đặc vào tiêu bản tế bào biểu bì lá lẻ bạn (lá thài lài tía) đang căng mọng, hiện tượng nào sau đây sẽ xảy ra khi quan sát dưới kính hiển vi?",
+      "options": [
+        "Tế bào trương phồng to lên và nổ tung",
+        "Nhân tế bào tự phân chia ngay lập tức",
+        "Lục lạp biến thành màu đỏ rực",
+        "Nước từ trong không bào và tế bào chất thẩm thấu ra ngoài môi trường ưu trương, làm màng sinh chất co rúm tách rời khỏi thành tế bào (hiện tượng co nguyên sinh)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nước muối đậm đặc là môi trường ưu trương. Nước thoát ra khỏi tế bào theo thế năng nước làm màng tế bào co lại tách khỏi thành cứng (co nguyên sinh).",
+        "socraticPrompt": "Nước bên trong tế bào sẽ đi ra ngoài môi trường mặn hay đi vào? Màng tế bào co lại hay phồng lên?",
+        "steps": "Mất nước -> màng tế bào co rúm tách khỏi thành tế bào (co nguyên sinh).",
+        "trap": "Thành tế bào cứng cáp vẫn giữ nguyên khung ngoài, chỉ có màng sinh chất bên trong bị co lại."
+      }
+    }
+  ]
+}

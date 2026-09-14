@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hỗn hợp nào sau đây là một hỗn hợp đồng nhất (dung dịch)?",
-    "options": [
-      "A. Dầu ăn nổi trên mặt nước",
-      "B. Nước đường khuấy tan hoàn toàn",
-      "C. Nước phù sa sông đục ngầu",
-      "D. Cát lẫn trong sỏi đá"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Nước đường sau khi tan hoàn toàn không còn ranh giới giữa đường và nước, tạo thành dung dịch đồng nhất.\n💡 Dầu ăn với nước tạo 2 lớp tách biệt.\n⚠️ Phân biệt hỗn hợp đồng nhất và không đồng nhất."
-  },
-  {
-    "id": "khtn6_ch05_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Nước phù sa đỏ đục chứa nhiều hạt đất sét lơ lửng trong nước là ví dụ điển hình của:",
-    "options": [
-      "A. Dung dịch",
-      "B. Nhũ tương",
-      "C. Huyền phù",
-      "D. Chất tinh khiết"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Hạt rắn lơ lửng trong chất lỏng được gọi là huyền phù.\n💡 Để yên một thời gian, các hạt phù sa sẽ lắng xuống đáy.\n⚠️ Nhũ tương là hạt chất lỏng lơ lửng trong chất lỏng."
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Chất tinh khiết & Tách chất — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c5_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Chất tinh khiết",
+      "question": "Vật mẫu nào sau đây là một CHẤT TINH KHIẾT?",
+      "options": [
+        "Nước cất một lần",
+        "Nước khoáng đóng chai",
+        "Nước biển",
+        "Nước chanh đường"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nước cất chỉ gồm duy nhất các phân tử nước H2O, không pha tạp chất khác nên là chất tinh khiết.",
+        "socraticPrompt": "Nước dùng trong tiêm truyền y tế đã qua chưng cất loại bỏ hết tạp chất gọi là nước gì?",
+        "steps": "Nước cất là chất tinh khiết; các loại nước khác là hỗn hợp.",
+        "trap": "Nước khoáng có nhiều muối khoáng hoà tan nên là hỗn hợp."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hỗn hợp đồng nhất",
+      "question": "Hỗn hợp nào sau đây là hỗn hợp ĐỒNG NHẤT?",
+      "options": [
+        "Dầu ăn trộn với nước",
+        "Nước đường đã khuấy tan hoàn toàn",
+        "Bột sắn dây khuấy trong nước lạnh",
+        "Cát trộn lẫn với sỏi"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hỗn hợp đồng nhất là hỗn hợp không xuất hiện ranh giới phân cách giữa các thành phần.",
+        "socraticPrompt": "Đường tan hoàn toàn vào nước có còn nhìn thấy hạt đường riêng lẻ không?",
+        "steps": "Nước đường là dung dịch hỗn hợp đồng nhất.",
+        "trap": "Dầu ăn và nước tạo thành 2 lớp riêng biệt, là hỗn hợp không đồng nhất."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm huyền phù",
+      "question": "Huyền phù là hỗn hợp không đồng nhất gồm thành phần nào sau đây?",
+      "options": [
+        "Hai chất lỏng không tan vào nhau",
+        "Chất rắn tan hoàn toàn trong chất lỏng",
+        "Các hạt chất rắn lơ lửng trong lòng chất lỏng",
+        "Hai chất khí trộn lẫn vào nhau"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Huyền phù gồm các hạt chất rắn lơ lửng phân tán trong chất lỏng (như nước phù sa, bùn).",
+        "socraticPrompt": "Nước phù sa có các hạt hạt phù sa rắn lơ lửng trong nước gọi là gì?",
+        "steps": "Hạt chất rắn lơ lửng trong chất lỏng là huyền phù.",
+        "trap": "Hai chất lỏng không tan vào nhau là nhũ tương."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phương pháp lọc",
+      "question": "Phương pháp nào sau đây dùng để tách một chất rắn KHÔNG TAN ra khỏi chất lỏng?",
+      "options": [
+        "Phương pháp chưng cất",
+        "Phương pháp cô cạn",
+        "Phương pháp chiết",
+        "Phương pháp lọc"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phương pháp lọc dùng giấy lọc giữ lại hạt chất rắn không tan và cho chất lỏng chảy qua.",
+        "socraticPrompt": "Pha cà phê phin người ta dùng màng lọc để giữ lại cái gì?",
+        "steps": "Lọc dùng tách chất rắn không tan khỏi chất lỏng.",
+        "trap": "Cô cạn dùng tách chất rắn hoà tan."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hỗn hợp nhũ tương",
+      "question": "Trường hợp nào sau đây là một ví dụ về NHŨ TƯƠNG trong đời sống?",
+      "options": [
+        "Sữa tươi (các hạt chất béo lỏng lơ lửng phân tán trong nước)",
+        "Nước muối sinh lí 0,9%",
+        "Nước đường mía",
+        "Không khí sạch"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhũ tương là hỗn hợp gồm các giọt chất lỏng lơ lửng trong một chất lỏng khác (chất béo sữa trong nước).",
+        "socraticPrompt": "Sữa chứa các giọt mỡ lỏng li ti phân tán trong nước sữa gọi là gì?",
+        "steps": "Sữa tươi, sốt mayonnaise là nhũ tương.",
+        "trap": "Nước muối sinh lí là dung dịch đồng nhất."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phương pháp cô cạn",
+      "question": "Để tách muối ăn ra khỏi dung dịch nước muối, người ta sử dụng phương pháp nào?",
+      "options": [
+        "Phương pháp lọc qua phễu",
+        "Phương pháp cô cạn đun nóng",
+        "Phương pháp dùng nam châm hút",
+        "Phương pháp chiết bằng phễu chiết"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đun nóng làm nước bay hơi hết, muối ăn không bay hơi sẽ kết tinh đọng lại ở đáy bát sứ.",
+        "socraticPrompt": "Muối tan hoàn toàn trong nước, đổ qua giấy lọc muối có bị giữ lại không? Đun nóng nước bốc hơi thì còn lại gì?",
+        "steps": "Đun cô cạn làm bay hơi nước thu được muối ăn.",
+        "trap": "Giấy lọc không giữ được muối tan, nước muối chảy qua giấy lọc bình thường."
+      }
+    }
+  ]
+}

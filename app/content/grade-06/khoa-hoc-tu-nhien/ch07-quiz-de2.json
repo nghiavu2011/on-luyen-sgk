@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch07_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dãy nào sau đây sắp xếp đúng thứ tự các cấp độ tổ chức sống của cơ thể người từ thấp đến cao?",
-    "options": [
-      "A. Tế bào $\\rightarrow$ Cơ quan $\\rightarrow$ Mô $\\rightarrow$ Hệ cơ quan $\\rightarrow$ Cơ thể",
-      "B. Tế bào $\\rightarrow$ Mô $\\rightarrow$ Cơ quan $\\rightarrow$ Hệ cơ quan $\\rightarrow$ Cơ thể",
-      "C. Mô $\\rightarrow$ Tế bào $\\rightarrow$ Cơ quan $\\rightarrow$ Hệ cơ quan $\\rightarrow$ Cơ thể",
-      "D. Cơ quan $\\rightarrow$ Mô $\\rightarrow$ Tế bào $\\rightarrow$ Cơ thể $\\rightarrow$ Hệ cơ quan"
-    ],
-    "answer": 1,
-    "explanation": "📌 Trình tự chuẩn: Tế bào là viên gạch đầu tiên $\\rightarrow$ ghép thành Mô $\\rightarrow$ hình thành Cơ quan $\\rightarrow$ cấu tạo Hệ cơ quan $\\rightarrow$ hoàn thiện Cơ thể.\n💡 Nhớ câu thần chú: Tế bào - Mô - Cơ quan - Hệ cơ quan - Cơ thể.\n⚠️ Đừng đảo lộn vị trí Mô và Cơ quan."
-  }
-]
+{
+  "chapterId": "ch07",
+  "title": "Chủ đề 7: Từ tế bào đến cơ thể — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c7_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Mô dẫn ở thực vật",
+      "question": "Mô dẫn ở cây xanh gồm mạch rây và mạch gỗ. Mạch gỗ có chức năng chủ yếu là gì?",
+      "options": [
+        "Vận chuyển chất hữu cơ từ lá xuống rễ",
+        "Bảo vệ bề mặt ngoài của lá",
+        "Vận chuyển nước và muối khoáng hoà tan do rễ hút từ đất lên thân và lá",
+        "Thực hiện quang hợp chế tạo đường"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Mạch gỗ dẫn dòng nhựa nguyên (nước và ion khoáng) từ rễ đi lên; mạch rây dẫn dòng nhựa luyện (chất hữu cơ) từ lá đi xuống.",
+        "socraticPrompt": "Rễ cây hút nước ngầm, ống dẫn nào dẫn nước từ dưới rễ vọt lên đỉnh ngọn cây?",
+        "steps": "Mạch gỗ dẫn nước và khoáng từ rễ lên lá.",
+        "trap": "Mạch rây mới dẫn chất hữu cơ từ lá đi xuống rễ."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích cấp độ tổ chức của cái cây",
+      "question": "Cho các bộ phận sau của cây bưởi: Hạt diệp lục, Tế bào thịt lá, Mô giậu, Chiếc lá bưởi, Toàn bộ cây bưởi. Cấp độ 'Cơ quan' tương ứng với bộ phận nào?",
+      "options": [
+        "Tế bào thịt lá",
+        "Mô giậu",
+        "Toàn bộ cây bưởi",
+        "Chiếc lá bưởi"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lá cây là cơ quan dinh dưỡng của thực vật (được cấu tạo từ mô biểu bì, mô giậu, mô xốp, mô dẫn).",
+        "socraticPrompt": "Rễ, thân, lá được gọi là các cấp độ gì của cây xanh?",
+        "steps": "Chiếc lá bưởi là cấp độ Cơ quan.",
+        "trap": "Mô giậu là cấp độ Mô; cây bưởi là cấp độ Cơ thể."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc tính của cơ thể đơn bào",
+      "question": "Tại sao cơ thể đơn bào như trùng giày dù chỉ có kích thước hiển vi nhưng vẫn được xem là một CƠ THỂ sinh vật hoàn chỉnh độc lập?",
+      "options": [
+        "Vì một tế bào đơn lẻ của nó tự mình thực hiện được đầy đủ mọi quá trình sống cơ bản: thu nhận thức ăn, tiêu hoá, hô hấp, bài tiết, cảm ứng và sinh sản",
+        "Vì nó có thể biến hình thành động vật lớn",
+        "Vì nó có nhiều cơ quan như tim, gan",
+        "Vì nó có xương sống bên trong"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tiêu chí của một cơ thể sinh vật độc lập là khả năng tự thực hiện mọi chức năng sống cơ bản mà không phụ thuộc tế bào khác.",
+        "socraticPrompt": "Trùng giày có tự bơi lội bắt mồi, tiêu hoá thức ăn trong không bào và tự phân chia sinh sản được không?",
+        "steps": "Dù chỉ là một tế bào, nó tự vận hành trọn vẹn mọi hoạt động sống như một cơ thể hoàn chỉnh.",
+        "trap": "Nó không có tim gan mà dùng các bào quan chuyên biệt nội bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Mô cơ ở người",
+      "question": "Mô cơ ở người gồm cơ tim, cơ vân và cơ trơn. Đặc tính sinh lí chung quan trọng nhất của mô cơ là gì?",
+      "options": [
+        "Dẫn truyền luồng xung điện",
+        "Khả năng co và dãn tạo nên lực cơ học giúp các cơ quan vận động hoặc cơ thể di chuyển",
+        "Lưu trữ dịch tế bào ngọt",
+        "Bảo vệ da chống thấm nước"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Chức năng của mô cơ là co duỗi: Cơ vân gắn xương giúp đi lại; cơ tim co bóp bơm máu; cơ trơn co bóp co bóp dạ dày, ruột non.",
+        "socraticPrompt": "Khi em gập cánh tay lại, bắp tay nổi lên co lại đó là hoạt động gì của mô cơ?",
+        "steps": "Co và dãn tạo lực chuyển động cơ học.",
+        "trap": "Dẫn truyền xung điện là chức năng của mô thần kinh."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phối hợp giữa các hệ cơ quan",
+      "question": "Khi học sinh chạy cự li 100m, nhịp tim đập nhanh hơn, nhịp thở dồn dập hơn và mồ hôi toát ra nhiều. Hiện tượng này chứng minh điều gì về cơ thể sống?",
+      "options": [
+        "Các cơ quan trong cơ thể hoạt động hoàn toàn độc lập và không liên quan gì tới nhau",
+        "Học sinh đang bị bệnh đau tim nguy kịch",
+        "Cơ thể là một thể thống nhất toàn vẹn, các hệ cơ quan (vận động, tuần hoàn, hô hấp, bài tiết) phối hợp nhịp nhàng dưới sự điều hoà của hệ thần kinh",
+        "Hệ tiêu hoá đang ngừng hoạt động vĩnh viễn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính thống nhất cơ thể: Cơ vận động cần nhiều oxy và năng lượng -> tim đập nhanh bơm máu, phổi thở nhanh lấy O2, toát mồ hôi toả nhiệt điều hoà thân nhiệt.",
+        "socraticPrompt": "Khi cơ bắp hoạt động mạnh, tim và phổi có làm việc tăng cường để cung cấp oxy và năng lượng cho cơ không?",
+        "steps": "Các hệ cơ quan phối hợp đồng bộ, nhịp nhàng duy trì cân bằng nội môi cơ thể.",
+        "trap": "Nghĩ rằng nhịp tim đập nhanh khi tập thể dục là triệu chứng bệnh lí."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Mô biểu bì",
+      "question": "Mô biểu bì ở động vật và mô biểu bì ở thực vật có điểm tương đồng cơ bản nào về chức năng vị trí?",
+      "options": [
+        "Đều chứa tủy sống và não bộ",
+        "Đều có khả năng quang hợp chế tạo tinh bột",
+        "Đều có khả năng co bóp bơm máu",
+        "Đều nằm ở lớp ngoài cùng của cơ thể hoặc bao phủ bề mặt các cơ quan, có chức năng che chở và bảo vệ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Biểu bì luôn nằm ở bề mặt ngoài cùng, các tế bào xếp khít nhau tạo thành lớp màng chắn cơ học che chở bảo vệ các mô bên trong khỏi tổn thương và mầm bệnh.",
+        "socraticPrompt": "Lớp da ngoài cùng của em và lớp vỏ ngoài của lá cây có vai trò gì giống nhau?",
+        "steps": "Nằm ngoài cùng, che chở bảo vệ cơ thể.",
+        "trap": "Biểu bì động vật không có lục lạp nên không quang hợp."
+      }
+    }
+  ]
+}

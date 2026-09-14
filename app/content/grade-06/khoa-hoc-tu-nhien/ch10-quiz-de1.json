@@ -1,33 +1,127 @@
-[
-  {
-    "id": "khtn6_ch10_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khi ta gảy đàn ghi-ta, năng lượng dao động của dây đàn đã chuyển hoá thành dạng năng lượng nào truyền đến tai người nghe?",
-    "options": [
-      "A. Điện năng",
-      "B. Âm năng",
-      "C. Hoá năng",
-      "D. Năng lượng hạt nhân"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Dao động cơ học của dây đàn làm rung động các phân tử không khí, truyền âm năng đến màng nhĩ tai người.\n💡 Âm thanh là một dạng năng lượng.\n⚠️ Không nhầm với điện năng (trừ đàn ghi-ta điện có gắn bộ thu tín hiệu).",
-    "breakdown": {
-      "calculation": "năng lượng âm thanh"
+{
+  "chapterId": "ch10",
+  "title": "Chủ đề 10: Năng lượng & Biến đổi — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c10_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị đo năng lượng",
+      "question": "Đơn vị chuẩn quốc tế để đo năng lượng và công trong hệ SI là gì?",
+      "options": [
+        "Vôn (V)",
+        "Oát (W)",
+        "Jun (J)",
+        "Ampe (A)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Năng lượng được đo bằng đơn vị Jun, kí hiệu là J (đặt theo tên nhà vật lí James Prescott Joule).",
+        "socraticPrompt": "Đơn vị đo nhiệt lượng và năng lượng viết tắt là J có tên gọi là gì?",
+        "steps": "Đơn vị đo năng lượng là Jun (J).",
+        "trap": "Oát (W) là đơn vị công suất; Vôn là điện thế."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Động năng",
+      "question": "Dạng năng lượng mà một vật có được do nó ĐANG CHUYỂN ĐỘNG được gọi là gì?",
+      "options": [
+        "Thế năng hấp dẫn",
+        "Năng lượng hạt nhân",
+        "Hoá năng",
+        "Động năng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Động năng là năng lượng gắn liền với chuyển động của vật chất (xe đang chạy, gió đang thổi).",
+        "socraticPrompt": "Chữ 'động' chỉ sự chuyển động, năng lượng của vật đang chuyển động gọi là gì?",
+        "steps": "Vật chuyển động mang động năng.",
+        "trap": "Thế năng là năng lượng do độ cao vị trí."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nội dung định luật bảo toàn",
+      "question": "Định luật bảo toàn năng lượng khẳng định điều nào sau đây?",
+      "options": [
+        "Năng lượng không tự sinh ra cũng không tự mất đi, nó chỉ chuyển hoá từ dạng này sang dạng khác hoặc truyền từ vật này sang vật khác",
+        "Năng lượng tự sinh ra khi máy móc hoạt động",
+        "Năng lượng sẽ biến mất vĩnh viễn sau khi đốt cháy than",
+        "Năng lượng của vũ trụ ngày càng giảm dần về 0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nguyên lí bảo toàn bất biến: Tổng năng lượng không bao giờ tự sinh ra hay mất đi, chỉ biến đổi qua lại giữa các dạng.",
+        "socraticPrompt": "Năng lượng có bao giờ tự nhiên biến mất vào hư vô hay nó chuyển thành dạng khác?",
+        "steps": "Năng lượng không tự sinh ra, không tự mất đi, chỉ chuyển hoá hoặc truyền đi.",
+        "trap": "Lầm tưởng than cháy là năng lượng bị huỷ diệt (thực chất hoá năng chuyển thành nhiệt năng và quang năng)."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Chuyển hoá năng lượng ở quạt điện",
+      "question": "Khi cắm điện cho quạt bàn chạy, quạt đã chuyển hoá điện năng chủ yếu thành dạng năng lượng có ích nào?",
+      "options": [
+        "Nhiệt năng",
+        "Cơ năng (động năng quay cánh quạt tạo gió)",
+        "Quang năng",
+        "Hoá năng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mục đích sử dụng quạt là tạo gió mát, động cơ chuyển điện năng thành cơ năng làm quay cánh quạt.",
+        "socraticPrompt": "Quạt điện quay vù vù tạo ra luồng gió là dạng năng lượng cơ học gì?",
+        "steps": "Điện năng chuyển thành cơ năng có ích để làm mát.",
+        "trap": "Nhiệt năng làm nóng mô tơ là năng lượng hao phí, không phải năng lượng có ích."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Năng lượng hoá năng",
+      "question": "Dạng năng lượng được lưu trữ trong thức ăn ta ăn hàng ngày, trong viên pin và trong bình xăng là gì?",
+      "options": [
+        "Nhiệt năng",
+        "Quang năng",
+        "Hoá năng",
+        "Cơ năng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hoá năng là năng lượng dự trữ trong các liên kết hoá học của các hợp chất hữu cơ (thức ăn, xăng dầu) hoặc pin.",
+        "socraticPrompt": "Năng lượng cất giấu trong chất hoá học của pin và cơm bánh gọi là gì?",
+        "steps": "Hoá năng dự trữ trong thức ăn, xăng dầu và pin ắc quy.",
+        "trap": "Ăn thức ăn vào cơ thể chuyển hoá thành nhiệt và cơ năng, nhưng ban đầu trong thức ăn là hoá năng."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tiết kiệm năng lượng gia đình",
+      "question": "Biện pháp nào sau đây giúp sử dụng điện tiết kiệm và hiệu quả nhất trong gia đình?",
+      "options": [
+        "Bật đèn chiếu sáng khắp sân vườn cả ngày lẫn đêm",
+        "Bật bình nóng lạnh 24/24 giờ liên tục",
+        "Để nhiệt độ điều hoà ở mức 16 °C và mở toang cửa sổ",
+        "Tắt các thiết bị điện khi không sử dụng và thay thế bóng đèn sợi đốt bằng bóng đèn LED tiết kiệm điện"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đèn LED tiêu thụ ít điện hơn 80% so với đèn sợi đốt, kết hợp thói quen tắt thiết bị khi rời phòng giúp tiết kiệm điện tối ưu.",
+        "socraticPrompt": "Loại đèn nào hiện đại sáng rõ và ăn ít điện hơn đèn dây tóc? Rời phòng cần làm gì?",
+        "steps": "Dùng đèn LED và tắt điện khi không dùng.",
+        "trap": "Để điều hoà 16 °C mở cửa làm lãng phí điện kinh hoàng."
+      }
     }
-  },
-  {
-    "id": "khtn6_ch10_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Nguồn năng lượng nào sau đây là nguồn năng lượng tái tạo?",
-    "options": [
-      "A. Khí đốt tự nhiên",
-      "B. Dầu mỏ",
-      "C. Năng lượng gió",
-      "D. Than bùn"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phân loại: Gió luôn được tạo ra liên tục bởi sự chênh lệch nhiệt độ khí quyển dưới ánh nắng Mặt Trời, không bao giờ bị cạn kiệt.\n💡 Nguồn năng lượng vô tận và sạch sẽ.\n⚠️ Than, dầu, khí là nguồn hoá thạch hữu hạn."
-  }
-]
+  ]
+}

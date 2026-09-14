@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Chất tồn tại ở mấy thể cơ bản trong điều kiện thường?",
-    "back": "3 thể cơ bản: Thể Rắn, Thể Lỏng, Thể Khí (Hơi).",
-    "tags": [
-      "KHTN 6",
-      "Thể của chất"
-    ]
-  },
-  {
-    "front": "Đặc điểm về hình dạng và thể tích của chất rắn?",
-    "back": "Chất rắn có hình dạng xác định và thể tích xác định, rất khó bị nén.",
-    "tags": [
-      "Chất rắn",
-      "Tính chất"
-    ]
-  },
-  {
-    "front": "Đặc điểm của chất khí (hơi) về hình dạng và thể tích?",
-    "back": "Chất khí không có hình dạng và thể tích xác định, chiếm toàn bộ thể tích bình chứa và rất dễ bị nén.",
-    "tags": [
-      "Chất khí",
-      "Đặc tính"
-    ]
-  },
-  {
-    "front": "Sự nóng chảy và sự đông đặc là gì?",
-    "back": "Nóng chảy: quá trình chuyển từ thể rắn sang thể lỏng. Đông đặc: quá trình chuyển từ thể lỏng sang thể rắn.",
-    "tags": [
-      "Chuyển thể",
-      "Nóng chảy"
-    ]
-  },
-  {
-    "front": "Sự bay hơi và sự sôi khác nhau thế nào?",
-    "back": "Bay hơi diễn ra ở bề mặt chất lỏng và ở mọi nhiệt độ; Sôi là quá trình bay hơi diễn ra cả trên bề mặt và trong lòng khối chất lỏng ở nhiệt độ sôi xác định.",
-    "tags": [
-      "Bay hơi",
-      "Sự sôi"
-    ]
-  },
-  {
-    "front": "Sự ngưng tụ là gì? Cho ví dụ thực tế.",
-    "back": "Sự ngưng tụ là quá trình chuyển từ thể khí sang thể lỏng. Ví dụ: Sương đọng trên lá cây buổi sớm, hơi nước ngưng tụ trên nắp nồi cơm.",
-    "tags": [
-      "Ngưng tụ",
-      "Hiện tượng"
-    ]
-  },
-  {
-    "front": "Phân biệt tính chất vật lí và tính chất hoá học?",
-    "back": "Tính chất vật lí: không có sự tạo thành chất mới (nhiệt độ sôi, màu sắc, khối lượng riêng). Tính chất hoá học: có sự biến đổi tạo thành chất mới (cháy, gỉ sét, lên men).",
-    "tags": [
-      "Hoá học",
-      "Vật lí"
-    ]
-  },
-  {
-    "front": "Vòng tuần hoàn của nước trong tự nhiên gồm các quá trình chuyển thể nào?",
-    "back": "Nước mặt bốc hơi thành hơi nước $\\rightarrow$ hơi nước bốc lên cao gặp lạnh ngưng tụ thành mây $\\rightarrow$ mây tạo mưa rơi xuống $\\rightarrow$ tiếp diễn chu trình.",
-    "tags": [
-      "Vòng tuần hoàn",
-      "Tự nhiên"
-    ]
-  },
-  {
-    "front": "Hiện tượng thăng hoa là gì?",
-    "back": "Là hiện tượng chất chuyển trực tiếp từ thể rắn sang thể khí mà không qua thể lỏng (ví dụ: băng khô $CO_2$, viên long não).",
-    "tags": [
-      "Thăng hoa",
-      "Đặc biệt"
-    ]
-  },
-  {
-    "front": "Trong suốt thời gian nóng chảy hoặc sôi của chất tinh khiết, nhiệt độ thay đổi thế nào?",
-    "back": "Nhiệt độ của chất tinh khiết không thay đổi trong suốt quá trình chuyển thể.",
-    "tags": [
-      "Nhiệt độ",
-      "Định luật"
-    ]
-  },
-  {
-    "front": "Tại sao khi mở nắp lọ nước hoa, một lúc sau cả phòng đều ngửi thấy mùi thơm?",
-    "back": "Do các phân tử hương nước hoa bay hơi và khuếch tán vào các khoảng trống giữa các phân tử không khí lan toả khắp phòng.",
-    "tags": [
-      "Khuếch tán",
-      "Hiện tượng"
-    ]
-  },
-  {
-    "front": "Nhiệt độ sôi của nước phụ thuộc vào yếu tố nào?",
-    "back": "Phụ thuộc vào áp suất trên mặt thoáng chất lỏng (áp suất càng cao, nhiệt độ sôi càng tăng).",
-    "tags": [
-      "Áp suất",
-      "Nhiệt độ sôi"
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "flashcards": [
+    {
+      "id": "fc_khtn6_c2_01",
+      "front": "Nêu đặc điểm hình dạng và thể tích của 3 thể cơ bản?",
+      "back": "Rắn: hình dạng & thể tích xác định. Lỏng: thể tích xác định, hình dạng theo bình chứa. Khí: không có hình dạng & thể tích xác định.",
+      "category": "Các thể của chất",
+      "example": "Đá lạnh (rắn) -> Nước (lỏng) -> Hơi nước (khí).",
+      "mnemonic": "Rắn giữ nguyên khuôn - Lỏng theo đáy bình - Khí tràn khắp nơi."
+    },
+    {
+      "id": "fc_khtn6_c2_02",
+      "front": "Phân biệt tính chất vật lí và tính chất hoá học?",
+      "back": "Tính chất vật lí: không có chất mới tạo thành (thể, màu, sôi, tan). Tính chất hoá học: có chất mới tạo thành (cháy, gỉ sét, phân hủy).",
+      "category": "Tính chất của chất",
+      "example": "Nước đá tan là vật lí; củi cháy thành than là hoá học.",
+      "mnemonic": "Có chất mới là Hoá học - Vẫn chất cũ là Vật lí."
+    },
+    {
+      "id": "fc_khtn6_c2_03",
+      "front": "Sự nóng chảy và Sự đông đặc là gì?",
+      "back": "Nóng chảy: chuyển từ thể rắn sang thể lỏng. Đông đặc: chuyển từ thể lỏng sang thể rắn.",
+      "category": "Sự chuyển thể",
+      "example": "Nước đá tan ra ở 0 °C (nóng chảy); nước đóng băng ở 0 °C (đông đặc).",
+      "mnemonic": "Rắn sang lỏng là chảy - Lỏng sang rắn là đông."
+    },
+    {
+      "id": "fc_khtn6_c2_04",
+      "front": "Sự bay hơi và Sự ngưng tụ khác nhau thế nào?",
+      "back": "Bay hơi: lỏng sang hơi (ở bề mặt, mọi nhiệt độ). Ngưng tụ: hơi sang lỏng (khi gặp lạnh).",
+      "category": "Sự chuyển thể",
+      "example": "Nước bốc hơi phơi khô áo; sương đêm đọng trên lá cây.",
+      "mnemonic": "Lỏng lên hơi là bay - Hơi thành giọt là tụ."
+    },
+    {
+      "id": "fc_khtn6_c2_05",
+      "front": "Sự sôi khác sự bay hơi thông thường ở điểm nào?",
+      "back": "Sự sôi là sự bay hơi xảy ra đồng thời cả ở mặt thoáng VÀ trong lòng chất lỏng tại một nhiệt độ xác định.",
+      "category": "Sự chuyển thể",
+      "example": "Nước sôi ở 100 °C sủi bọt từ đáy lên mặt thoáng.",
+      "mnemonic": "Sôi là bay hơi cả trong lẫn ngoài tại nhiệt độ chuẩn."
+    },
+    {
+      "id": "fc_khtn6_c2_06",
+      "front": "Trong suốt quá trình chuyển thể của chất tinh khiết, nhiệt độ thế nào?",
+      "back": "Nhiệt độ được giữ không đổi (ví dụ nước đá tan giữ 0 °C, nước sôi giữ 100 °C cho đến khi chuyển thể xong).",
+      "category": "Quy luật chuyển thể",
+      "example": "Dù đun lửa to, nồi nước đang sôi vẫn duy trì 100 °C.",
+      "mnemonic": "Đang chuyển thể - nhiệt độ đứng yên."
+    },
+    {
+      "id": "fc_khtn6_c2_07",
+      "front": "Tốc độ bay hơi của chất lỏng phụ thuộc vào những yếu tố nào?",
+      "back": "Nhiệt độ (càng cao bay càng nhanh), Gió (càng mạnh bay càng nhanh) và Diện tích mặt thoáng (càng rộng bay càng nhanh).",
+      "category": "Yếu tố ảnh hưởng",
+      "example": "Phơi quần áo nơi có nắng, lộng gió và căng rộng bề mặt.",
+      "mnemonic": "Nắng to - Gió mạnh - Bề mặt rộng: mau khô."
+    },
+    {
+      "id": "fc_khtn6_c2_08",
+      "front": "Tại sao chất khí lại rất dễ bị nén?",
+      "back": "Do các hạt phân tử chất khí ở rất xa nhau, khoảng cách giữa chúng lớn nên dễ bị thu hẹp lại khi có lực ép.",
+      "category": "Cấu tạo hạt",
+      "example": "Bơm nén khí vào bình oxy hay lốp xe máy.",
+      "mnemonic": "Hạt ở xa nhau nên dễ dàng ép sát lại."
+    },
+    {
+      "id": "fc_khtn6_c2_09",
+      "front": "Hiện tượng khuếch tán là gì?",
+      "back": "Hiện tượng các phân tử của các chất tự trộn lẫn vào nhau do chuyển động nhiệt hỗn loạn không ngừng.",
+      "category": "Hiện tượng tự nhiên",
+      "example": "Nhỏ giọt mực vào cốc nước, một lúc sau cả cốc nước đều có màu.",
+      "mnemonic": "Phân tử chuyển động không ngừng tự xen kẽ vào nhau."
+    },
+    {
+      "id": "fc_khtn6_c2_10",
+      "front": "Nguyên lí giúp nồi áp suất nấu chín thức ăn nhanh chóng?",
+      "back": "Hơi nước kín làm tăng áp suất trong nồi, từ đó làm tăng nhiệt độ sôi của nước lên đến khoảng 120 °C.",
+      "category": "Ứng dụng đời sống",
+      "example": "Ninh xương bằng nồi áp suất chỉ mất 15-20 phút.",
+      "mnemonic": "Áp suất tăng cao - Nước sôi trên trăm độ - Hầm xương mau nhừ."
+    }
+  ]
+}

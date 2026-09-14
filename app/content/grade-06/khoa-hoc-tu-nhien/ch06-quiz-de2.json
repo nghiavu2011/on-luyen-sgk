@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch06_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Từ một tế bào mẹ ban đầu trải qua $4$ lần phân chia liên tiếp thì số tế bào con tạo thành là bao nhiêu?",
-    "options": [
-      "A. $8$ tế bào",
-      "B. $16$ tế bào",
-      "C. $32$ tế bào",
-      "D. $64$ tế bào"
-    ],
-    "answer": 1,
-    "explanation": "📌 Công thức: Số tế bào con sau $n$ lần phân chia là $N = 2^n$. Với $n = 4 \\Rightarrow 2^4 = 16$ tế bào.\n💡 Mỗi lần phân chia số lượng tế bào nhân đôi ($1 \\rightarrow 2 \\rightarrow 4 \\rightarrow 8 \\rightarrow 16$).\n⚠️ Tránh nhầm lấy $1 \\times 4$ hoặc $4 \\times 2$."
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chủ đề 6: Tế bào – Đơn vị sự sống — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c6_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh tế bào thực vật và động vật",
+      "question": "Quan sát dưới kính hiển vi, bạn Minh nhận ra một tế bào là tế bào THỰC VẬT chứ không phải tế bào động vật nhờ vào đặc điểm nào sau đây?",
+      "options": [
+        "Tế bào có thành tế bào bằng xenlulozo dày bọc ngoài và có các hạt lục lạp màu xanh",
+        "Tế bào có nhân hoàn chỉnh",
+        "Tế bào có màng tế bào mỏng",
+        "Tế bào có chất tế bào trong suốt"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Thành tế bào xenlulozo và lục lạp là 2 đặc trưng phân biệt độc quyền của tế bào thực vật so với tế bào động vật.",
+        "socraticPrompt": "Tế bào động vật có thành xenlulozo cứng và lục lạp xanh không?",
+        "steps": "Thành xenlulozo và lục lạp chỉ có ở tế bào thực vật.",
+        "trap": "Cả tế bào thực vật và động vật đều có nhân hoàn chỉnh và màng tế bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sự lớn lên và làm lành vết thương",
+      "question": "Khi bị trầy xước da ở đầu gối do vấp ngã, sau khoảng một tuần lớp vảy khô bong ra và vùng da đó liền lại nguyên vẹn như cũ. Hiện tượng này nhờ vào quá trình nào của tế bào?",
+      "options": [
+        "Do tế bào xương dài ra",
+        "Do các tế bào biểu bì da ở xung quanh lớn lên và liên tục phân chia tạo ra các tế bào mới bù đắp vào chỗ tổn thương",
+        "Do vi khuẩn xâm nhập vào vết thương tạo da mới",
+        "Do tế bào máu đông lại biến thành tế bào da"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tế bào phân chia sinh sản tạo các tế bào con giống hệt để thay thế tế bào tổn thương, tái tạo mô và làm lành vết thương.",
+        "socraticPrompt": "Vết thương liền sẹo được là nhờ tế bào da thực hiện quá trình gì để sinh thêm tế bào mới?",
+        "steps": "Sự phân chia liên tục của các tế bào biểu bì lành tạo ra tế bào mới trám kín vết xước.",
+        "trap": "Tế bào hồng cầu không thể biến đổi thành tế bào da."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính toán số tế bào",
+      "question": "Từ 3 tế bào mẹ ban đầu, trải qua 4 lần phân chia liên tiếp thì tổng số tế bào con thu được là bao nhiêu?",
+      "options": [
+        "12 tế bào",
+        "64 tế bào",
+        "48 tế bào",
+        "24 tế bào"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Số tế bào con = Số tế bào mẹ ban đầu · 2^n = 3 · 2⁴ = 3 · 16 = 48 tế bào con.",
+        "socraticPrompt": "1 tế bào phân chia 4 lần tạo 2⁴ = 16 tế bào. Vậy 3 tế bào ban đầu sẽ tạo ra bao nhiêu?",
+        "steps": "3 · 2⁴ = 3 · 16 = 48 tế bào con.",
+        "trap": "Chỉ tính cho 1 tế bào (ra 16) hoặc nhân 3 x 4 = 12."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hình dạng phù hợp chức năng",
+      "question": "Tế bào thần kinh (nơ-ron) ở động vật có nhiều sợi nhánh và một sợi trục rất dài. Hình dạng đặc biệt này phù hợp với chức năng sinh học nào?",
+      "options": [
+        "Bơi lội tự do trong mạch máu",
+        "Co dãn để tạo lực chuyển động xương khớp",
+        "Dự trữ mỡ cho cơ thể",
+        "Thu nhận kích thích và dẫn truyền xung thần kinh đi khắp cơ thể một cách nhanh chóng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc sợi dài phân nhánh giúp nơ-ron liên kết thành mạng lưới thông tin truyền tín hiệu điện/hoá khắp cơ thể.",
+        "socraticPrompt": "Dây điện dài dùng để truyền tín hiệu, sợi trục thần kinh dài phân nhánh giúp truyền gì?",
+        "steps": "Các sợi thần kinh kéo dài giúp tiếp nhận và truyền xung thần kinh cực nhanh.",
+        "trap": "Co dãn là chức năng của tế bào cơ; bơi trong máu là hồng cầu/bạch cầu."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thứ tự phân chia tế bào",
+      "question": "Trật tự diễn ra các giai đoạn trong quá trình phân chia của một tế bào nhân thực là gì?",
+      "options": [
+        "Phân chia nhân trước -> Phân chia chất tế bào -> Hình thành vách ngăn tách thành hai tế bào con",
+        "Phân chia màng tế bào -> Phân chia nhân -> Phân chia chất tế bào",
+        "Tế bào tự đứt đôi ngẫu nhiên không theo quy luật",
+        "Phân chia chất tế bào trước -> Phân chia nhân sau"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quy trình phân chia chuẩn: Nhân nhân đôi và chia đều trước -> tiếp đến chất tế bào phân chia -> màng/thành ngăn đôi.",
+        "socraticPrompt": "Bộ não trung tâm (nhân) phải nhân đôi và phân chia về 2 cực trước hay tế bào chất phân chia trước?",
+        "steps": "Phân chia nhân -> Phân chia chất tế bào -> Tạo vách ngăn chia đôi.",
+        "trap": "Nếu phân chia chất tế bào trước thì một tế bào con có thể không nhận được nhân di truyền."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quan sát lục lạp thực nghiệm",
+      "question": "Khi làm tiêu bản tế bào lá rong đuôi chó soi dưới kính hiển vi quang học ở độ phóng đại 400x, ta quan sát thấy các hạt tròn màu xanh lục chuyển động vòng quanh trong tế bào. Đó là bào quan nào?",
+      "options": [
+        "Nhân tế bào",
+        "Lục lạp",
+        "Không bào lớn",
+        "Màng tế bào"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hạt tròn màu xanh lục trong tế bào lá cây là các lục lạp chứa diệp lục; dòng tế bào chất cuốn chúng chuyển động tuần hoàn.",
+        "socraticPrompt": "Bào quan có màu xanh lục đặc trưng của lá cây chuyển động quanh dòng tế bào chất là gì?",
+        "steps": "Các hạt màu xanh lục chính là lục lạp đang thực hiện chức năng quang hợp.",
+        "trap": "Nhân tế bào không có màu xanh lục (nhân trong suốt chỉ thấy màu khi nhuộm)."
+      }
+    }
+  ]
+}

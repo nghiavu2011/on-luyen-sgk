@@ -1,47 +1,117 @@
-[
-  {
-    "id": "l28",
-    "title": "Bài 28: Năng lượng và các dạng năng lượng",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 28: Năng lượng và các dạng năng lượng.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 28: Năng lượng và các dạng năng lượng.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 28: Năng lượng và các dạng năng lượng.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l29",
-    "title": "Bài 29: Sự truyền năng lượng và chuyển hoá năng lượng",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 29: Sự truyền năng lượng và chuyển hoá năng lượng.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 29: Sự truyền năng lượng và chuyển hoá năng lượng.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 29: Sự truyền năng lượng và chuyển hoá năng lượng.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l30",
-    "title": "Bài 30: Định luật bảo toàn năng lượng và tiết kiệm năng lượng",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 30: Định luật bảo toàn năng lượng và tiết kiệm năng lượng.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 30: Định luật bảo toàn năng lượng và tiết kiệm năng lượng.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 30: Định luật bảo toàn năng lượng và tiết kiệm năng lượng.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch10",
+  "title": "Chủ đề 10: Năng lượng & Sự biến đổi",
+  "lessons": [
+    {
+      "id": "l28",
+      "title": "Bài 28: Năng lượng và các dạng năng lượng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nhận biết được mọi hoạt động đều cần năng lượng; năng lượng đặc trưng cho khả năng sinh công hoặc truyền nhiệt.",
+        "Kể tên và nhận biết các dạng năng lượng thông dụng: động năng, thế năng hấp dẫn, nhiệt năng, quang năng, điện năng, hoá năng, năng lượng hạt nhân.",
+        "Nêu được đơn vị đo năng lượng là Jun (J) hoặc calo (cal)."
+      ],
+      "concepts": [
+        {
+          "term": "Năng lượng (Energy)",
+          "definition": "Đại lượng đặc trưng cho khả năng tác dụng lực, sinh công hoặc truyền nhiệt làm biến đổi trạng thái của vật chất. Đơn vị đo là Jun (J) hoặc kilojun (kJ). 1 kJ = 1000 J.",
+          "note": "1 calo ≈ 4,184 J (thường dùng tính calo thực phẩm)."
+        },
+        {
+          "term": "Các dạng năng lượng",
+          "definition": "Động năng: năng lượng do vật chuyển động (xe chạy); Thế năng hấp dẫn: năng lượng do vị trí ở trên cao (nước trên đập thuỷ điện); Hoá năng: năng lượng lưu trữ trong liên kết hoá học (thức ăn, pin, xăng dầu); Quang năng: ánh sáng; Điện năng: dòng điện; Nhiệt năng: nhiệt độ.",
+          "note": "Cơ năng gồm động năng và thế năng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhận diện dạng năng lượng",
+          "meaning": "Vật chuyển động ➔ Động năng; Vật ở trên cao ➔ Thế năng; Nhiệt độ nóng ➔ Nhiệt năng; Phát sáng ➔ Quang năng; Pin/ắc quy/thực phẩm ➔ Hoá năng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Một chiếc máy bay đang bay trên bầu trời ở độ cao 10.000 mét với vận tốc 800 km/h sở hữu những dạng cơ năng nào?",
+          "solution": "Máy bay sở hữu cả hai dạng cơ năng: (1) Động năng vì nó đang chuyển động với tốc độ cao 800 km/h; (2) Thế năng hấp dẫn vì nó đang ở độ cao 10.000 m so với mặt đất."
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm hoá năng trong quả pin là điện năng có sẵn (Trong pin hoá chất lưu trữ hoá năng, khi nối mạch mới biến đổi thành điện năng)."
+      ]
+    },
+    {
+      "id": "l29",
+      "title": "Bài 29: Sự truyền năng lượng và chuyển hoá năng lượng",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được hai cách truyền năng lượng: truyền nhiệt và thực hiện công.",
+        "Mô tả được các quá trình chuyển hoá năng lượng từ dạng này sang dạng khác trong các thiết bị quen thuộc.",
+        "Phân biệt được năng lượng có ích và năng lượng hao phí."
+      ],
+      "concepts": [
+        {
+          "term": "Chuyển hoá năng lượng",
+          "definition": "Sự biến đổi năng lượng từ dạng này sang dạng khác trong tự nhiên và kĩ thuật.",
+          "note": "Quạt điện: Điện năng -> Cơ năng (quay cánh) + Nhiệt năng (nóng động cơ)."
+        },
+        {
+          "term": "Năng lượng có ích & Năng lượng hao phí",
+          "definition": "Năng lượng có ích: phần năng lượng phục vụ đúng mục đích sử dụng. Năng lượng hao phí: phần năng lượng vô ích toả ra môi trường (thường dưới dạng nhiệt năng hoặc âm thanh).",
+          "note": "Hiệu suất H = (Năng lượng có ích / Năng lượng toàn phần) · 100%."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy luật năng lượng hao phí",
+          "meaning": "Trong mọi quá trình chuyển hoá năng lượng luôn xuất hiện năng lượng hao phí toả ra môi trường xung quanh (thường là nhiệt ma sát)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Khi thắp sáng bóng đèn sợi đốt, hãy chỉ ra phần năng lượng có ích và phần năng lượng hao phí.",
+          "solution": "Năng lượng toàn phần đầu vào là điện năng. Năng lượng có ích là quang năng (ánh sáng phát ra để thắp sáng). Năng lượng hao phí là nhiệt năng (bóng đèn toả nhiệt rất nóng ra xung quanh, chiếm tới 90% điện năng)."
+        }
+      ],
+      "commonMistakes": [
+        "Nghĩ rằng bóng đèn sợi đốt chuyển 100% điện năng thành ánh sáng (Thực tế đèn sợi đốt hao phí tới 90-95% thành nhiệt)."
+      ]
+    },
+    {
+      "id": "l30",
+      "title": "Bài 30: Định luật bảo toàn năng lượng và tiết kiệm năng lượng",
+      "hasRealContent": true,
+      "objectives": [
+        "Phát biểu được Định luật bảo toàn năng lượng.",
+        "Hiểu được năng lượng không tự sinh ra và không tự mất đi.",
+        "Nêu được lí do cần tiết kiệm năng lượng và các biện pháp tiết kiệm điện trong sinh hoạt gia đình, trường học."
+      ],
+      "concepts": [
+        {
+          "term": "Định luật bảo toàn năng lượng",
+          "definition": "Năng lượng không tự sinh ra cũng không tự mất đi; nó chỉ chuyển hoá từ dạng này sang dạng khác, hoặc truyền từ vật này sang vật khác.",
+          "note": "Tổng năng lượng của một hệ kín luôn bảo toàn không đổi."
+        },
+        {
+          "term": "Tiết kiệm năng lượng",
+          "definition": "Sử dụng năng lượng đúng mục đích, tránh lãng phí bằng cách tắt thiết bị khi không dùng, sử dụng thiết bị hiệu suất cao (đèn LED, biến tần Inverter).",
+          "note": "Tiết kiệm năng lượng giúp giảm chi phí và giảm khí thải nhà kính bảo vệ môi trường."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hành động tiết kiệm điện 5 sao",
+          "meaning": "Tắt đèn quạt khi rời phòng, cài điều hoà từ 26 °C trở lên, tận dụng ánh sáng và gió tự nhiên, chọn thiết bị có dán nhãn năng lượng 5 sao."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Tại sao con lắc đồng hồ đu đưa qua lại trong không khí sau một thời gian lại dừng hẳn nếu không được lên dây cót định kì?",
+          "solution": "Cơ năng của con lắc không tự mất đi mà đã chuyển hoá thành nhiệt năng do ma sát với không khí và tại trục quay toả ra môi trường. Cần lên dây cót để bổ sung năng lượng bù vào phần hao phí."
+        }
+      ],
+      "commonMistakes": [
+        "Cho rằng năng lượng của con lắc bị biến mất hoàn toàn vào hư vô."
+      ]
+    }
+  ]
+}

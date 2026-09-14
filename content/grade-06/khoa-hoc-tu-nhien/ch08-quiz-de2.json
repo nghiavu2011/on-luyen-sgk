@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch08_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Động vật nào sau đây thuộc nhóm động vật có xương sống?",
-    "options": [
-      "A. Con mực ống",
-      "B. Con giun đũa",
-      "C. Con cá chép",
-      "D. Con cua biển"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phân loại: Cá chép có bộ xương trong với cột sống nâng đỡ cơ thể.\n💡 Mực, giun, cua là động vật không xương sống.\n⚠️ Cua có mai cứng bên ngoài nhưng là bộ xương ngoài bằng kitin, không có cột sống lưng."
-  }
-]
+{
+  "chapterId": "ch08",
+  "title": "Chủ đề 8: Đa dạng thế giới sống — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c8_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sử dụng khoá lưỡng phân",
+      "question": "Dựa vào khoá lưỡng phân để phân loại 4 loài: Cá chép, Ếch đồng, Chim bồ câu, Con thỏ. Cặp đặc điểm đối lập đầu tiên để tách 'Cá chép' ra khỏi 3 loài còn lại là gì?",
+      "options": [
+        "Sống dưới nước thở bằng mang suốt đời / Sống trên cạn hô hấp bằng phổi",
+        "Có lông mao / Không có lông mao",
+        "Có cánh / Không có cánh",
+        "Đẻ con / Đẻ trứng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khóa lưỡng phân chia đôi: Nhóm 1 thở bằng mang dưới nước (Cá chép); Nhóm 2 hô hấp bằng phổi trên cạn (Ếch, Chim, Thỏ).",
+        "socraticPrompt": "Cá chép có mang sống hoàn toàn dưới nước khác biệt rõ nhất với 3 con vật còn lại ở đặc điểm môi trường và cơ quan hô hấp nào?",
+        "steps": "Thở bằng mang ở nước vs Thở bằng phổi ở cạn giúp tách ngay cá chép.",
+        "trap": "Có cánh chỉ tách được chim bồ câu."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Kháng sinh và Virus",
+      "question": "Một người bị cảm cúm sốt nhẹ do nhiễm virus cúm A. Bạn người đó khuyên mua ngay thuốc kháng sinh Amoxicillin uống liều cao. Lời khuyên đó có hợp lí không và vì sao?",
+      "options": [
+        "Rất hợp lí vì kháng sinh chữa được mọi loại bệnh sốt",
+        "Không hợp lí vì thuốc kháng sinh chỉ tiêu diệt được vi khuẩn, hoàn toàn không có tác dụng với virus; uống bừa bãi sẽ gây kháng thuốc và hại gan thận",
+        "Hợp lí vì kháng sinh tiêu diệt tế bào virus",
+        "Không hợp lí vì kháng sinh làm virus phân chia nhanh hơn"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Kháng sinh chỉ tấn công các thành phần tế bào của vi khuẩn (thành peptidoglycan, màng, ribosome 70S). Virus không có các cấu trúc này nên kháng sinh vô hiệu.",
+        "socraticPrompt": "Kháng sinh có diệt được virus không? Uống kháng sinh bừa bãi dẫn đến hiểm hoạ gì?",
+        "steps": "Kháng sinh vô tác dụng với virus, lạm dụng gây nguy cơ vi khuẩn kháng thuốc toàn cầu.",
+        "trap": "Cứ sốt là uống kháng sinh là sai lầm phổ biến nhất trong đời sống."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt nấm độc",
+      "question": "Khi đi dã ngoại trong rừng ẩm, học sinh bắt gặp những cây nấm mọc hoang rất đẹp có màu trắng tinh hoặc đỏ chấm trắng, phần gốc có bao gốc nấm phình to và thân có vòng cổ nấm. Hành động nào sau đây là ĐÚNG?",
+      "options": [
+        "Hái về nấu canh nấm ăn thử vì nấm đẹp chắc chắn ngon bổ",
+        "Nếm thử một miếng nhỏ xem có ngọt không",
+        "Tuyệt đối không hái ăn vì các dấu hiệu bao gốc và vòng cuống là đặc trưng của các loài nấm kịch độc có thể gây tử vong",
+        "Mang về phơi khô làm trà uống"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nấm tán trắng (Amanita verna) và nấm độc tán đỏ chứa độc tố amatoxin phá huỷ gan thận cực nhanh, thường có đủ bao gốc và vòng cuống nấm.",
+        "socraticPrompt": "Nấm hoang dã có bao gốc phình to và vòng cổ nấm thường là nấm gì?",
+        "steps": "Tuyệt đối không hái ăn nấm hoang dã lạ trong rừng.",
+        "trap": "Nếm thử một lượng nhỏ cũng đủ gây suy gan cấp tử vong."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm ngành Rêu",
+      "question": "Tại sao các cây rêu thường chỉ có kích thước rất nhỏ bé (vài milimét đến vài centimet) và chỉ sống được ở những nơi ẩm ướt như chân tường, bờ suối?",
+      "options": [
+        "Vì rêu sợ ánh nắng mặt trời đốt cháy rễ củ",
+        "Vì rêu không có chất diệp lục",
+        "Vì rêu là sinh vật đơn bào",
+        "Vì rêu chưa có mạch dẫn thực sự để vận chuyển nước lên cao và chưa có rễ thật (chỉ có rễ giả bám đất), thụ tinh bắt buộc phải nhờ nước"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Rêu là thực vật bậc thấp chưa có mạch dẫn, nước thẩm thấu trực tiếp qua bề mặt nên không thể phát triển cao và cần môi trường ẩm ướt để duy trì sự sống.",
+        "socraticPrompt": "Rêu đã có ống mạch gỗ dẫn nước lên cao như cây thân gỗ to chưa?",
+        "steps": "Chưa có mạch dẫn + rễ giả -> không dẫn nước lên cao -> cơ thể nhỏ bé ở nơi ẩm ướt.",
+        "trap": "Rêu đã là cơ thể đa bào và có diệp lục quang hợp bình thường."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân loại động vật xương sống",
+      "question": "Con dơi biết bay lượn trên trời và con cá heo bơi lội dưới biển. Chúng được xếp chung vào nhóm động vật nào sau đây?",
+      "options": [
+        "Lớp Thú (Động vật có vú)",
+        "Lớp Bò sát",
+        "Lớp Chim và Lớp Cá",
+        "Lớp Lưỡng cư"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cả dơi và cá heo đều là thú: mang thai, đẻ con, nuôi con bằng sữa mẹ và là động vật hằng nhiệt (máu nóng).",
+        "socraticPrompt": "Dơi có đẻ trứng như chim không? Cá heo có đẻ con và cho con bú sữa không?",
+        "steps": "Đẻ con và nuôi con bằng sữa mẹ -> cả dơi và cá heo đều thuộc lớp Thú.",
+        "trap": "Nhầm dơi là chim (vì có cánh bay) và cá heo là cá (vì bơi dưới nước)."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vai trò của vi khuẩn đường ruột",
+      "question": "Hàng nghìn tỷ vi khuẩn vi sinh vật sống cộng sinh trong ruột già của người (như vi khuẩn E. coli, Bifidobacterium) đem lại lợi ích quan trọng nào?",
+      "options": [
+        "Làm tăng huyết áp",
+        "Hỗ trợ phân giải chất xơ, tổng hợp một số vitamin (như vitamin K, B12) và ức chế sự phát triển của vi khuẩn có hại",
+        "Ăn hết mọi thức ăn làm người gầy yếu",
+        "Biến ruột già thành nước muối"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hệ vi sinh đường ruột (microbiome) giúp tiêu hoá thức ăn khó tan, sản xuất vitamin thiết yếu và tăng cường miễn dịch cho cơ thể.",
+        "socraticPrompt": "Vi khuẩn có lợi trong sữa chua và ruột non giúp cơ thể tiêu hoá và tạo ra vitamin gì?",
+        "steps": "Hỗ trợ tiêu hoá, tổng hợp vitamin và cạnh tranh bảo vệ ruột khỏi hại khuẩn.",
+        "trap": "Nghĩ rằng mọi vi khuẩn đều có hại gây bệnh."
+      }
+    }
+  ]
+}

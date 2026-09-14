@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch09_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi ô tô đang chạy nhanh trên đường trơn ướt nếu tài xế phanh gấp thì xe dễ bị trượt bánh mất lái. Biện pháp nào sau đây giúp tăng lực ma sát để đảm bảo an toàn giao thông?",
-    "options": [
-      "A. Bơm căng lốp xe quá mức quy định",
-      "B. Thay lốp xe mới có các rãnh gai sâu, không dùng lốp đã bị mòn nhẵn",
-      "C. Đổ thêm dầu nhớt ra mặt đường",
-      "D. Chạy tốc độ càng nhanh càng tốt"
-    ],
-    "answer": 1,
-    "explanation": "📌 Vận dụng: Lốp xe có rãnh gai sâu giúp thoát nước nhanh và bám chắc vào mặt đường, tăng lực ma sát chống trượt bánh.\n💡 Lốp mòn nhẵn làm giảm ma sát dẫn đến tai nạn nguy hiểm.\n⚠️ Liên hệ an toàn giao thông thực tế."
-  },
-  {
-    "id": "khtn6_ch09_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Một lò xo có chiều dài tự nhiên ban đầu là $l_0 = 10\\text{ cm}$. Khi treo vào đầu dưới của lò xo một quả nặng $100\\text{ g}$ thì chiều dài của lò xo là $12\\text{ cm}$. Hỏi nếu treo thêm $2$ quả nặng $100\\text{ g}$ như thế nữa (tổng cộng 3 quả) thì chiều dài mới của lò xo là bao nhiêu?",
-    "options": [
-      "A. $14\\text{ cm}$",
-      "B. $16\\text{ cm}$",
-      "C. $18\\text{ cm}$",
-      "D. $20\\text{ cm}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Định luật biến dạng: Độ dãn của lò xo tỉ lệ thuận với lực kéo (trọng lượng quả nặng).\n💡 1 quả $100\\text{ g}$ làm lò xo dãn: $\\Delta l_1 = 12 - 10 = 2\\text{ cm}$.\nKhi treo 3 quả, độ dãn tăng gấp 3: $\\Delta l_3 = 2 \\times 3 = 6\\text{ cm}$.\nChiều dài mới của lò xo là: $l = l_0 + \\Delta l_3 = 10 + 6 = 16\\text{ cm}$.\n⚠️ Bẫy sai: Tính ra độ dãn 6 cm rồi quên cộng vào chiều dài ban đầu 10 cm."
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chủ đề 9: Lực & Biến đổi chuyển động — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c9_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Trọng lượng trên Mặt Trăng",
+      "question": "Một nhà du hành vũ trụ cùng bộ đồ phi hành gia có tổng khối lượng 90 kg trên Trái Đất. Biết lực hút của Mặt Trăng chỉ bằng 1/6 lực hút của Trái Đất. Khi đặt chân lên bề mặt Mặt Trăng, khối lượng và trọng lượng của nhà du hành lần lượt là bao nhiêu?",
+      "options": [
+        "Khối lượng 90 kg và trọng lượng 150 N",
+        "Khối lượng 15 kg và trọng lượng 150 N",
+        "Khối lượng 90 kg và trọng lượng 900 N",
+        "Khối lượng 15 kg và trọng lượng 900 N"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khối lượng chỉ lượng chất trong cơ thể nên không đổi: m = 90 kg. Trọng lượng trên Trái Đất P0 = 10 · 90 = 900 N. Lên Mặt Trăng trọng lượng giảm 6 lần: P = 900 / 6 = 150 N.",
+        "socraticPrompt": "Khối lượng có bị giảm đi khi lên Mặt Trăng không? Trọng lượng bằng 900 N chia 6 bằng bao nhiêu?",
+        "steps": "Khối lượng giữ nguyên 90 kg; trọng lượng P = 900 / 6 = 150 N.",
+        "trap": "Nhiều học sinh lầm tưởng khối lượng cũng bị chia 6 thành 15 kg."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Lực đẩy Ac-si-met và sự nổi",
+      "question": "Một tảng băng trôi khổng lồ trên biển Bắc Cực có phần chìm dưới nước chiếm khoảng 9/10 thể tích và chỉ có 1/10 thể tích nhô lên khỏi mặt nước. Hiện tượng này được giải thích bằng quy luật lực nào?",
+      "options": [
+        "Tảng băng bị cá voi đội lên",
+        "Khối lượng riêng của nước đá nhỏ hơn một chút so với khối lượng riêng của nước biển (khoảng 0,92 g/cm³ so với 1,03 g/cm³), khi nổi cân bằng thì lực đẩy Ac-si-met hướng thẳng đứng lên trên cân bằng với trọng lực của tảng băng",
+        "Băng trôi không chịu tác dụng của trọng lực",
+        "Do gió thổi nhấc bổng tảng băng lên"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Điều kiện nổi cân bằng: F_A = P. Do khối lượng riêng của băng nhỏ hơn nước biển nên băng nổi, phần chìm chiếm tỉ lệ đúng bằng tỉ số khối lượng riêng D_băng / D_nước ≈ 90%.",
+        "socraticPrompt": "Nước đá nhẹ hơn nước lỏng nổi lên, lực đẩy chất lỏng hướng lên cân bằng với lực hút nào?",
+        "steps": "Lực đẩy Ac-si-met cân bằng với trọng lực tạo trạng thái nổi cân bằng 9/10 phần chìm.",
+        "trap": "Tảng băng vẫn chịu trọng lực bình thường chứ không mất trọng lực."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khoảng cách phanh an toàn xe cơ giới",
+      "question": "Khi trời mưa to làm mặt đường nhựa bị ướt, lực ma sát trượt giữa lốp ô tô và mặt đường giảm mạnh tới 50%. Để đảm bảo an toàn giao thông, người lái xe bắt buộc phải làm gì?",
+      "options": [
+        "Tăng tốc độ chạy thật nhanh để vượt qua đoạn ướt",
+        "Phanh gấp liên tục",
+        "Giảm tốc độ và tăng khoảng cách an toàn với xe phía trước gấp đôi so với khi trời khô ráo",
+        "Tắt hết đèn xe"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ma sát trượt giảm làm quãng đường phanh trượt (quãng đường dừng xe) dài gấp đôi. Do đó phải giảm tốc và nới rộng khoảng cách an toàn để tránh va chạm dồn toa.",
+        "socraticPrompt": "Đường trơn xe bị trượt xa hơn khi phanh, muốn không đâm vào xe trước thì phải giữ cự li xa hơn hay gần hơn?",
+        "steps": "Giảm tốc độ + Tăng khoảng cách an toàn chống trơn trượt mất lái.",
+        "trap": "Phanh gấp trên đường trơn sẽ làm bó cứng phanh gây trượt quay xe lật đổ."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đệm khí tàu đệm từ",
+      "question": "Tàu đệm từ trường (Maglev) có thể đạt vận tốc siêu thanh trên 600 km/h mà không gây tiếng ồn ma sát đường ray. Tàu đạt được tốc độ kì diệu đó là nhờ ứng dụng loại bỏ lực nào?",
+      "options": [
+        "Triệt tiêu hoàn toàn lực hút của Trái Đất",
+        "Tàu không có khối lượng",
+        "Tạo ra chân không xung quanh tàu",
+        "Dùng lực đẩy từ trường nâng toàn bộ đoàn tàu lơ lửng cách đường ray vài centimet, triệt tiêu hoàn toàn lực ma sát tiếp xúc giữa bánh xe và đường ray"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lực từ của nam châm siêu dẫn nâng bổng thân tàu không chạm ray, loại bỏ ma sát lăn và ma sát trượt cơ học, tàu chỉ chịu lực cản không khí.",
+        "socraticPrompt": "Tàu bay lơ lửng không chạm đường ray thì có còn ma sát giữa bánh xe với thanh ray không?",
+        "steps": "Lực từ nâng bổng tàu -> triệt tiêu ma sát đường ray -> đạt vận tốc siêu cao.",
+        "trap": "Tàu vẫn chịu lực hút Trái Đất và lực cản không khí, không thể triệt tiêu trọng lực."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Biến dạng đàn hồi lò xo",
+      "question": "Một lò xo xoắn có chiều dài tự nhiên ban đầu là l0 = 12 cm. Khi treo quả cân 100 g thì lò xo dài 14 cm. Nếu treo thêm một quả cân 200 g nữa (tổng khối lượng 300 g) trong giới hạn đàn hồi thì chiều dài mới của lò xo là bao nhiêu?",
+      "options": [
+        "18 cm",
+        "16 cm",
+        "20 cm",
+        "15 cm"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Độ dãn tỉ lệ thuận với khối lượng: 100 g làm lò xo dãn Δl = 14 - 12 = 2 cm. Treo 300 g (gấp 3 lần) thì dãn: Δl' = 2 · 3 = 6 cm. Chiều dài mới: l = l0 + Δl' = 12 + 6 = 18 cm.",
+        "socraticPrompt": "100 g dãn 2 cm thì 300 g dãn mấy cm? Lấy chiều dài ban đầu 12 cộng độ dãn mới ra bao nhiêu?",
+        "steps": "Δl' = 6 cm -> l = 12 + 6 = 18 cm.",
+        "trap": "Chỉ lấy 14 + 2 = 16 cm (quên tính tổng 300 g)."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thí nghiệm dù lượn và vận tốc giới hạn",
+      "question": "Một người nhảy dù từ máy bay rơi xuống tự do. Khi bung dù, tại sao sau vài giây người đó lại rơi đều với vận tốc không đổi và tiếp đất rất êm ái?",
+      "options": [
+        "Vì trọng lực bị biến mất hoàn toàn khi bung dù",
+        "Vì diện tích vòm dù rất lớn tạo ra lực cản của không khí hướng lên trên tăng dần, đến khi lực cản này có độ lớn cân bằng đúng bằng trọng lực tác dụng lên người và dù, vật rơi đều",
+        "Vì gió thổi người bay ngược lên trời",
+        "Vì dù được làm bằng kim loại nhẹ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khi F_cản = P (hai lực cân bằng), tổng hợp lực bằng 0, người nhảy dù đạt vận tốc giới hạn (terminal velocity) ổn định và rơi đều an toàn tiếp đất.",
+        "socraticPrompt": "Lực cản không khí của vòm dù hướng lên cân bằng với trọng lực hướng xuống làm chuyển động của người rơi như thế nào?",
+        "steps": "Lực cản vòm dù cân bằng với trọng lực -> rơi đều với vận tốc an toàn khoảng 5 m/s.",
+        "trap": "Trọng lực không hề mất đi mà được cân bằng bởi lực cản không khí."
+      }
+    }
+  ]
+}

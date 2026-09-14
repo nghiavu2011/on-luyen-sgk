@@ -1,47 +1,127 @@
-[
-  {
-    "id": "khtn6_ch03_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Tại sao các thợ lặn chuyên nghiệp khi lặn sâu dưới đáy biển hoặc các phi hành gia ngoài vũ trụ phải đeo bình dưỡng khí chứa khí gì?",
-    "options": [
-      "A. Khí Hydrogen",
-      "B. Khí Carbon dioxide",
-      "C. Khí Oxygen",
-      "D. Khí Methane"
-    ],
-    "answer": 2,
-    "explanation": "📌 Thực tế: Dưới nước sâu hoặc ngoài không gian vũ trụ không có khí oxy tự do cho cơ thể người hô hấp, nên cần bình khí nén giàu oxygen để duy trì sự sống.\n💡 Oxy giúp hồng cầu vận chuyển nuôi dưỡng tế bào.\n⚠️ Không nhầm lẫn với các loại khí gas đốt.",
-    "breakdown": {
-      "calculation": "hoặc hỗn hợp giàu oxy"
+{
+  "chapterId": "ch03",
+  "title": "Chủ đề 3: Oxygen & Không khí — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c3_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bảo quản thực phẩm bằng khí trơ",
+      "question": "Trong các gói snack, khoai tây chiên đóng gói sẵn phồng to, các nhà sản xuất thường bơm một lượng lớn chất khí nào để thực phẩm giòn lâu và không bị ôi thiu do oxy hoá?",
+      "options": [
+        "Khí Nitrogen",
+        "Khí Oxygen tinh khiết",
+        "Khí Clo độc hại",
+        "Khí Hydrogen dễ nổ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khí nitrogen là khí trơ ở nhiệt độ thường, không màu, không mùi, không độc và không duy trì sự oxy hoá, giúp chống ôi thiu dầu mỡ trong thực phẩm.",
+        "socraticPrompt": "Khí trơ chiếm 78% không khí, không phản ứng với dầu mỡ giúp thực phẩm không bị ôi khét là khí gì?",
+        "steps": "Bơm khí nitrogen thay thế oxygen để ngăn quá trình oxy hoá dầu mỡ làm ôi thiu bánh.",
+        "trap": "Nếu bơm oxygen thì chất béo trong khoai tây chiên sẽ bị oxy hoá ôi thiu rất nhanh."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đám cháy kim loại magie",
+      "question": "Khi kim loại Magie (Mg) đang cháy dữ dội ở nhiệt độ cao, người lính cứu hoả tuyệt đối KHÔNG được dùng bình chữa cháy khí CO2 để dập. Nguyên nhân khoa học là gì?",
+      "options": [
+        "Vì khí CO2 nặng hơn không khí",
+        "Vì ở nhiệt độ cao, Magie phản ứng mãnh liệt với khí CO2 cướp oxygen tạo ra khí CO độc và làm đám cháy bùng phát dữ dội hơn",
+        "Vì bình CO2 quá lạnh làm hỏng kim loại",
+        "Vì CO2 là chất dễ cháy"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Magie nóng sáng có ái lực cực mạnh với oxy: 2Mg + CO2 -> 2MgO + C. Phản ứng toả nhiệt rất lớn và sinh cacbon tiếp tục cháy, không thể dập bằng CO2 mà phải dùng cát khô.",
+        "socraticPrompt": "Magie cháy có khả năng giật lấy nguyên tử oxy ngay trong phân tử CO2 không?",
+        "steps": "Mg khử CO2 ở nhiệt độ cao làm ngọn lửa bùng mạnh hơn và sinh khí độc.",
+        "trap": "Cứ tưởng bình CO2 dập được mọi đám cháy thông thường, nhưng với kim loại kiềm/kiềm thổ thì cấm kị."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng ngạt khí giếng sâu",
+      "question": "Khi dọn dẹp các giếng sâu bỏ hoang lâu ngày hoặc các hầm kín, người ta thường thả một con gà hoặc thắp một ngọn nến thả xuống đáy giếng trước khi bước xuống. Thao tác này nhằm mục đích gì?",
+      "options": [
+        "Để cúng thần giếng",
+        "Để đuổi bớt côn trùng dưới giếng",
+        "Để kiểm tra xem đáy giếng có đủ lượng khí oxygen cho con người hô hấp hay không và có tích tụ khí độc không",
+        "Để làm ấm không khí dưới giếng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Dưới giếng sâu thường tích tụ khí CO2 nặng chìm xuống đáy và thiếu hụt trầm trọng khí oxygen. Nến tắt hoặc gà lịm đi là dấu hiệu thiếu oxy gây ngạt thở nguy hiểm tính mạng.",
+        "socraticPrompt": "Nếu nến tắt ngay khi vừa chạm đáy giếng chứng tỏ điều gì về nồng độ khí oxygen ở đó?",
+        "steps": "Nến tắt hoặc sinh vật khó thở chứng tỏ đáy giếng thiếu oxy hoặc có khí độc, người không được xuống ngay mà phải thông gió trước.",
+        "trap": "Hành vi mê tín dị đoan là sai lệch; đây là phương pháp kiểm nghiệm sinh thái thực tiễn."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiệu ứng nhà kính",
+      "question": "Khí nào sau đây tích tụ quá nhiều trong khí quyển do hoạt động đốt nhiên liệu hoá thạch của con người là nguyên nhân chính gây nên hiện tượng Hiệu ứng nhà kính và biến đổi khí hậu toàn cầu?",
+      "options": [
+        "Khí Argon (Ar)",
+        "Khí Nitrogen (N2)",
+        "Khí Oxygen (O2)",
+        "Khí Carbon dioxide (CO2)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Khí CO2 và hơi nước, CH4 có khả năng hấp thụ bức xạ nhiệt hồng ngoại từ mặt đất phát ra, giữ nhiệt lại khí quyển gây ấm lên toàn cầu.",
+        "socraticPrompt": "Khí thải từ động cơ ô tô, xe máy và nhà máy nhiệt điện sinh ra nhiều nhất là khí gì?",
+        "steps": "Khí CO2 sinh ra từ sự đốt cháy nhiên liệu là thủ phạm số 1 gây hiệu ứng nhà kính.",
+        "trap": "Oxygen và Nitrogen không giữ bức xạ hồng ngoại nên không gây hiệu ứng nhà kính."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định phần trăm thể tích Oxygen thực nghiệm",
+      "question": "Trong thí nghiệm đốt cháy photpho đỏ trong chuông thuỷ tinh úp trên chậu nước, mực nước dâng lên chiếm đúng 1/5 thể tích của chuông. Thí nghiệm này chứng minh điều gì?",
+      "options": [
+        "Khí oxygen chiếm khoảng 1/5 (khoảng 20%) thể tích không khí",
+        "Không khí gồm 100% khí oxygen",
+        "Nước phản ứng với photpho tạo thành chất khí",
+        "Photpho hút hết không khí vào bên trong nó"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Photpho cháy tác dụng hết với toàn bộ khí oxygen trong chuông tạo chất rắn P2O5 tan vào nước. Thể tích khí giảm đúng bằng thể tích oxygen ban đầu (chiếm khoảng 1/5).",
+        "socraticPrompt": "Nước dâng lên chiếm đúng 1/5 khoảng trống chuông sau khi cháy hết oxy, vậy oxy chiếm bao nhiêu phần không khí?",
+        "steps": "Mực nước dâng 1/5 chứng minh khí oxygen chiếm xấp xỉ 20% - 21% thể tích không khí.",
+        "trap": "Lầm tưởng photpho tác dụng với cả khí nitrogen."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Quá trình quang hợp và hô hấp",
+      "question": "Tại sao ban đêm không nên để nhiều chậu hoa, cây cảnh tươi tốt trong phòng ngủ đóng kín cửa?",
+      "options": [
+        "Vì cây cảnh ban đêm thu hút ma quỷ",
+        "Vì ban đêm không có ánh sáng cây chỉ thực hiện quá trình hô hấp: hút khí oxygen và thải ra khí carbon dioxide làm phòng ngủ ngột ngạt thiếu oxy",
+        "Vì ban đêm cây sẽ toả nhiệt làm phòng quá nóng",
+        "Vì cây cảnh ban đêm sẽ tiêu thụ hết nước uống trong phòng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ban đêm cây không quang hợp mà chỉ hô hấp (lấy O2 và thải CO2). Phòng ngủ kín sẽ bị cạn kiệt oxy và tăng nồng độ CO2 gây mệt mỏi, khó thở khi ngủ.",
+        "socraticPrompt": "Khi không có ánh mặt trời, cây xanh có quang hợp được không? Chúng hô hấp hít khí gì và thải khí gì?",
+        "steps": "Không quang hợp -> chỉ hô hấp -> lấy O2 và nhả CO2 -> thiếu oxy cho người ngủ.",
+        "trap": "Ban ngày cây quang hợp nhả O2 nên để cây trong phòng làm việc rất tốt, nhưng ban đêm thì ngược lại."
+      }
     }
-  },
-  {
-    "id": "khtn6_ch03_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi một đám cháy do chập điện hoặc xăng dầu bùng phát trong nhà, hành động nào sau đây là SAI LẦM và cực kì nguy hiểm?",
-    "options": [
-      "A. Ngắt cầu dao điện tổng ngay lập tức",
-      "B. Dùng xô nước hắt mạnh vào đám cháy xăng dầu",
-      "C. Dùng bình chữa cháy bột hoặc bọt xịt phủ kín gốc lửa",
-      "D. Dùng cát khô hoặc chăn dày nhúng đẫm nước trùm kín"
-    ],
-    "answer": 1,
-    "explanation": "📌 An toàn PCCC: Xăng dầu nhẹ hơn nước, nổi lên trên mặt nước và trôi lan ra xung quanh làm đám cháy bùng phát dữ dội hơn, có thể gây nổ nguy hiểm.\n💡 Nước chỉ dùng chữa cháy gỗ, giấy, vải thông thường.\n⚠️ Cảnh báo khẩn cấp: Tuyệt đối không dùng nước dập cháy xăng dầu và điện."
-  },
-  {
-    "id": "khtn6_ch03_th_q3",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Trong một phòng học kín có thể tích $120\\text{ m}^3$. Biết thể tích oxygen chiếm $21\\%$ thể tích không khí. Thể tích khí oxygen có trong phòng học đó là bao nhiêu mét khối?",
-    "options": [
-      "A. $25,2\\text{ m}^3$",
-      "B. $21\\text{ m}^3$",
-      "C. $93,6\\text{ m}^3$",
-      "D. $12\\text{ m}^3$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Tính toán: $V_{O_2} = V_{\\text{phòng}} \\times 21\\% = 120 \\times 0,21 = 25,2\\text{ m}^3$.\n💡 Phương pháp: Nhân thể tích phòng với tỉ lệ phần trăm thể tích của oxy trong không khí.\n⚠️ Cảnh báo bẫy: Tính nhầm $78\\%$ ($93,6\\text{ m}^3$) là thể tích của khí Nitrogen."
-  }
-]
+  ]
+}

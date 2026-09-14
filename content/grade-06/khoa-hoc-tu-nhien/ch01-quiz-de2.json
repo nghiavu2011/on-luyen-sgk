@@ -1,58 +1,127 @@
-[
-  {
-    "id": "khtn6_ch01_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khi đọc kết quả đo độ dài bằng thước kẻ, mắt cần đặt ở vị trí nào?",
-    "options": [
-      "A. Nhìn nghiêng sang trái để nhìn rõ vạch",
-      "B. Nhìn xiên sang phải từ trên xuống",
-      "C. Nhìn theo hướng vuông góc với cạnh thước ở đầu vật",
-      "D. Nhìn ở góc bất kì thuận mắt nhất"
-    ],
-    "answer": 2,
-    "explanation": "📌 Kỹ năng: Mắt phải đặt vuông góc với cạnh thước tại vạch chia tương ứng với đầu vật.\n💡 Nhìn nghiêng sẽ gây sai số thị sai (parallax error).\n⚠️ Luôn giữ đường ngắm vuông góc với mặt thước."
-  },
-  {
-    "id": "khtn6_ch01_d2_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Một bạn học sinh đo khối lượng cuốn sách KHTN 6 ba lần được các giá trị: $320\\text{ g}$, $322\\text{ g}$, $321\\text{ g}$. Kết quả trung bình đo được là:",
-    "options": [
-      "A. $320\\text{ g}$",
-      "B. $321\\text{ g}$",
-      "C. $322\\text{ g}$",
-      "D. $323\\text{ g}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp: Giá trị trung bình $\\bar{m} = \\frac{320 + 322 + 321}{3} = \\frac{963}{3} = 321\\text{ g}$.\n💡 Lấy trung bình cộng nhiều lần đo giúp triệt tiêu sai số ngẫu nhiên.\n⚠️ Nhớ cộng tất cả lại rồi chia đúng số lần đo."
-  },
-  {
-    "id": "khtn6_ch01_d2_q3",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Để đo thời gian một bạn chạy cự li $100\\text{ m}$, dụng cụ nào sau đây là phù hợp và chính xác nhất?",
-    "options": [
-      "A. Đồng hồ quả lắc",
-      "B. Đồng hồ cát",
-      "C. Đồng hồ bấm giây điện tử",
-      "D. Đồng hồ đeo tay kim trôi"
-    ],
-    "answer": 2,
-    "explanation": "📌 Kỹ năng: Đồng hồ bấm giây có ĐCNN tới $0,01\\text{ giây}$, phản hồi tức thì với nút bấm.\n💡 Đồng hồ cát hay đồng hồ kim có độ chính xác thấp, không đo được phần trăm giây.\n⚠️ Chọn dụng cụ có thang đo và độ nhạy phù hợp mục đích."
-  },
-  {
-    "id": "khtn6_ch01_d2_q4",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Trên một nhiệt kế y tế thủy ngân có thang đo từ $35^\\circ\\text{C}$ đến $42^\\circ\\text{C}$. Giữa vạch $36$ và $37$ chia thành $10$ khoảng bằng nhau. ĐCNN của nhiệt kế này là:",
-    "options": [
-      "A. $1^\\circ\\text{C}$",
-      "B. $0,5^\\circ\\text{C}$",
-      "C. $0,1^\\circ\\text{C}$",
-      "D. $0,01^\\circ\\text{C}$"
-    ],
-    "answer": 2,
-    "explanation": "📌 Kỹ năng tính toán: Khoảng cách giữa 2 vạch lớn là $37 - 36 = 1^\\circ\\text{C}$. Chia làm $10$ phần nên $\\text{ĐCNN} = \\frac{1}{10} = 0,1^\\circ\\text{C}$.\n💡 Nhờ ĐCNN nhỏ mà nhiệt kế y tế đo được nhiệt độ chính xác đến hàng phần mười độ.\n⚠️ Đừng nhầm khoảng chia 10 phần với ĐCNN $0,5^\\circ\\text{C}$."
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Chủ đề 1: Mở đầu về KHTN & Phép đo — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c1_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đo thể tích bằng bình chia độ",
+      "question": "Bình chia độ chứa 60 mL nước. Thả chìm hoàn toàn một vật rắn thì mực nước dâng lên 85 mL. Thể tích của vật rắn là bao nhiêu?",
+      "options": [
+        "145 mL",
+        "60 cm³",
+        "25 cm³",
+        "85 cm³"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thể tích vật rắn không thấm nước: V = V2 - V1, và 1 mL = 1 cm³.",
+        "socraticPrompt": "Mực nước dâng thêm bao nhiêu mililít khi thả vật rắn vào? Đổi mL sang cm³ như thế nào?",
+        "steps": "V = 85 - 60 = 25 mL = 25 cm³.",
+        "trap": "Lấy nhầm 85 + 60 = 145 mL hoặc quên 1 mL = 1 cm³."
+      }
+    },
+    {
+      "id": "q_khtn6_c1_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đọc kết quả đo",
+      "question": "Một cây thước có ĐCNN là 0,2 cm. Cách ghi kết quả đo chiều dài nào sau đây là ĐÚNG quy cách?",
+      "options": [
+        "15,3 cm",
+        "15,42 cm",
+        "15,45 cm",
+        "15,4 cm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kết quả đo phải được ghi theo bội số của độ chia nhỏ nhất (ĐCNN).",
+        "socraticPrompt": "Vì ĐCNN là 0,2 cm nên chữ số thập phân cuối cùng phải chia hết cho 0,2 (ví dụ: ,0; ,2; ,4; ,6; ,8).",
+        "steps": "Chỉ có 15,4 cm có phần thập phân là bội của 0,2. Số 15,3 cm hay 15,45 cm không phù hợp ĐCNN 0,2 cm.",
+        "trap": "Học sinh thường ghi theo ước lượng mắt vượt quá khả năng của ĐCNN."
+      }
+    },
+    {
+      "id": "q_khtn6_c1_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhiệt kế y tế",
+      "question": "Tại sao trước khi dùng nhiệt kế thủy ngân để đo thân nhiệt cho người, ta cần phải vẩy mạnh nhiệt kế?",
+      "options": [
+        "Để đưa cột thủy ngân tụt xuống dưới mức 35 °C",
+        "Để làm sạch lớp thủy tinh bên ngoài nhiệt kế",
+        "Để làm tăng nhiệt độ của thủy ngân trong bầu",
+        "Để làm vỡ bọt khí trong ống quản"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhiệt kế y tế có chỗ thắt giữ thủy ngân. Vẩy mạnh tạo lực quán tính kéo thủy ngân về bầu để đo chính xác thân nhiệt mới.",
+        "socraticPrompt": "Nếu không vẩy mà thân nhiệt trước đó lưu ở 38 °C thì người sau có thân nhiệt 36,5 °C có đo được đúng không?",
+        "steps": "Cần vẩy để thủy ngân tụt xuống dưới vạch 35 °C, sẵn sàng tiếp nhận nhiệt độ mới của người cần đo.",
+        "trap": "Nhiệt kế điện tử thì bấm nút reset chứ không vẩy; nhiệt kế thủy ngân mới cần vẩy."
+      }
+    },
+    {
+      "id": "q_khtn6_c1_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chọn dụng cụ đo",
+      "question": "Để đo thời gian chạy 100 mét của học sinh trong giờ thể dục, dụng cụ đo nào thích hợp và chính xác nhất?",
+      "options": [
+        "Đồng hồ cát",
+        "Đồng hồ bấm giây điện tử",
+        "Đồng hồ treo tường quả lắc",
+        "Đồng hồ để bàn có kim giây"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đồng hồ bấm giây điện tử có ĐCNN tới 0,01 giây, cho phép bấm bắt đầu và kết thúc tức thì khi chạy.",
+        "socraticPrompt": "Chạy cự li ngắn 100m diễn ra trong khoảng 13 - 18 giây, dụng cụ nào phản ứng nhanh và có số chia nhỏ nhất?",
+        "steps": "Đồng hồ bấm giây điện tử đo chuẩn xác khoảng thời gian ngắn có ĐCNN 0,01s.",
+        "trap": "Đồng hồ để bàn hoặc treo tường có độ trễ lớn và ĐCNN chỉ là 1 giây."
+      }
+    },
+    {
+      "id": "q_khtn6_c1_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sử dụng kính hiển vi",
+      "question": "Khi sử dụng kính hiển vi quang học, thao tác nào sau đây giúp đưa tiêu bản vào vùng nhìn rõ nét nhất?",
+      "options": [
+        "Tháo thị kính ra lau bằng khăn ướt",
+        "Dùng tay đẩy mạnh tiêu bản trên bàn kính",
+        "Xoay ốc vi cấp (ốc nhỏ) từ từ để tinh chỉnh tiêu cự",
+        "Tắt nguồn sáng của đèn gương chiếu"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ốc sơ cấp (ốc to) dùng nâng hạ ống kính nhanh để tìm ảnh; ốc vi cấp (ốc nhỏ) dùng để chỉnh nét mịn hình ảnh.",
+        "socraticPrompt": "Muốn hình ảnh hiển vi từ mờ trở nên cực kì sắc nét, ta điều chỉnh nút vặn nào?",
+        "steps": "Sau khi thấy ảnh sơ bộ bằng ốc to, xoay ốc vi cấp nhẹ nhàng để lấy nét tối ưu.",
+        "trap": "Xoay ốc to quá nhanh có thể làm vỡ lam kính (tiêu bản)."
+      }
+    },
+    {
+      "id": "q_khtn6_c1_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đo nhiệt độ chất lỏng",
+      "question": "Khi dùng nhiệt kế chất lỏng để đo nhiệt độ cốc nước nóng, thao tác nào sau đây là ĐÚNG?",
+      "options": [
+        "Chạm bầu nhiệt kế sát đáy cốc đang đun",
+        "Cầm tay trực tiếp vào bầu nhiệt kế khi nhúng vào nước",
+        "Rút ngay nhiệt kế ra ngoài không khí rồi mới đọc số chỉ",
+        "Nhúng ngập bầu nhiệt kế trong lòng chất lỏng và không chạm đáy hay thành cốc"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bầu nhiệt kế phải tiếp xúc hoàn toàn với chất lỏng cần đo và không được chạm đáy/thành cốc để tránh đo sai nhiệt độ của vỏ cốc.",
+        "socraticPrompt": "Đáy cốc tiếp xúc với nguồn nhiệt nóng hơn nước bên trong, bầu nhiệt kế chạm đáy sẽ gây ra sai lệch gì?",
+        "steps": "Nhúng ngập bầu nhiệt kế lơ lửng trong chất lỏng, đợi cột nhiệt ổn định rồi đọc ngay khi bầu vẫn ở trong nước.",
+        "trap": "Nhiệt kế rượu/thủy ngân thông thường (không phải nhiệt kế y tế) nếu rút ra không khí sẽ tụt ngay lập tức."
+      }
+    }
+  ]
+}

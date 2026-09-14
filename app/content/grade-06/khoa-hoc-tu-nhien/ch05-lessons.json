@@ -1,47 +1,132 @@
-[
-  {
-    "id": "l12",
-    "title": "Bài 12: Chất tinh khiết và hỗn hợp",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 12: Chất tinh khiết và hỗn hợp.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 12: Chất tinh khiết và hỗn hợp.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 12: Chất tinh khiết và hỗn hợp.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l13",
-    "title": "Bài 13: Dung dịch, huyền phù và nhũ tương",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 13: Dung dịch, huyền phù và nhũ tương.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 13: Dung dịch, huyền phù và nhũ tương.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 13: Dung dịch, huyền phù và nhũ tương.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l14",
-    "title": "Bài 14: Một số phương pháp tách chất ra khỏi hỗn hợp",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 14: Một số phương pháp tách chất ra khỏi hỗn hợp.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 14: Một số phương pháp tách chất ra khỏi hỗn hợp.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 14: Một số phương pháp tách chất ra khỏi hỗn hợp.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Chất tinh khiết, Hỗn hợp & Tách chất",
+  "lessons": [
+    {
+      "id": "l12",
+      "title": "Bài 12: Chất tinh khiết và hỗn hợp",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt được chất tinh khiết (nguyên chất) và hỗn hợp.",
+        "Phân biệt được hỗn hợp đồng nhất và hỗn hợp không đồng nhất.",
+        "Hiểu được mỗi chất tinh khiết có tính chất vật lí và hoá học xác định, không đổi."
+      ],
+      "concepts": [
+        {
+          "term": "Chất tinh khiết",
+          "definition": "Được tạo ra từ một chất duy nhất, có tính chất vật lí và hoá học hoàn toàn xác định.",
+          "note": "Ví dụ: Nước cất (sôi ở 100 °C, đông đặc ở 0 °C), đường saccarozơ tinh khiết, vàng bốn số chín (99,99%)."
+        },
+        {
+          "term": "Hỗn hợp",
+          "definition": "Được tạo thành từ hai hay nhiều chất trộn lẫn vào nhau; tính chất của hỗn hợp thay đổi tuỳ thuộc vào tỉ lệ các chất thành phần.",
+          "note": "Ví dụ: Nước biển, nước khoáng thiên nhiên, không khí, nước chanh."
+        },
+        {
+          "term": "Hỗn hợp đồng nhất & Không đồng nhất",
+          "definition": "Đồng nhất: Không xuất hiện ranh giới giữa các thành phần (nước đường, cồn pha nước). Không đồng nhất: Xuất hiện ranh giới rõ rệt giữa các chất (dầu ăn nổi trên nước, cát trong nước).",
+          "note": "Khuấy tan hoàn toàn tạo hỗn hợp đồng nhất."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đặc trưng nhận diện chất tinh khiết",
+          "meaning": "Nếu một chất có nhiệt độ sôi, nhiệt độ nóng chảy cố định không đổi trong quá trình chuyển thể thì đó là chất tinh khiết."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Nước khoáng đóng chai và nước cất trong phòng thí nghiệm: mẫu nào là chất tinh khiết, mẫu nào là hỗn hợp?",
+          "solution": "Nước cất là chất tinh khiết (chỉ gồm các phân tử nước H2O). Nước khoáng đóng chai là hỗn hợp đồng nhất vì chứa nước và nhiều khoáng chất hoà tan (canxi, magie, kali...)."
+        }
+      ],
+      "commonMistakes": [
+        "Nghĩ rằng nước máy hoặc nước mưa là chất tinh khiết (Thực tế chứa nhiều khí và khoáng chất hoà tan)."
+      ]
+    },
+    {
+      "id": "l13",
+      "title": "Bài 13: Dung dịch, huyền phù và nhũ tương",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm dung môi, chất tan, dung dịch.",
+        "Phân biệt được dung dịch với huyền phù và nhũ tương.",
+        "Biết cách làm chất rắn tan nhanh hơn trong nước (khuấy, đun nóng, nghiền nhỏ)."
+      ],
+      "concepts": [
+        {
+          "term": "Dung dịch",
+          "definition": "Là hỗn hợp đồng nhất của chất tan và dung môi.",
+          "note": "Chất tan là chất được hoà tan (muối, đường); Dung môi là chất dùng để hoà tan (thường là nước)."
+        },
+        {
+          "term": "Huyền phù",
+          "definition": "Hỗn hợp không đồng nhất gồm các hạt chất rắn lơ lửng trong lòng chất lỏng.",
+          "note": "Ví dụ: Nước phù sa sông Hồng, bột sắn dây khuấy vào nước lạnh, nước bùn."
+        },
+        {
+          "term": "Nhũ tương",
+          "definition": "Hỗn hợp không đồng nhất gồm các giọt chất lỏng lơ lửng trong lòng một chất lỏng khác (hai chất lỏng không tan vào nhau).",
+          "note": "Ví dụ: Sữa mẹ, sốt mayonnaise (trứng và dầu), dầu giấm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "3 biện pháp hoà tan chất rắn nhanh hơn",
+          "meaning": "1. Khuấy đều dung dịch -> 2. Đun nóng dung môi -> 3. Nghiền nhỏ chất rắn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Nước phù sa của sông Hồng khi để yên một thời gian sẽ có hiện tượng gì xảy ra? Nó thuộc loại hỗn hợp nào?",
+          "solution": "Nước phù sa là một huyền phù. Khi để yên một thời gian, các hạt hạt sét, đất cát nặng hơn sẽ từ từ lắng xuống đáy, phía trên là lớp nước trong hơn."
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm lẫn giữa huyền phù (rắn trong lỏng) và nhũ tương (lỏng trong lỏng)."
+      ]
+    },
+    {
+      "id": "l14",
+      "title": "Bài 14: Một số phương pháp tách chất ra khỏi hỗn hợp",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được các phương pháp tách chất đơn giản: lọc, cô cạn, chiết.",
+        "Lựa chọn được phương pháp tách chất phù hợp dựa vào sự khác nhau về tính chất vật lí của các chất.",
+        "Thực hành tách muối ăn ra khỏi cát hoặc tách dầu ăn ra khỏi nước."
+      ],
+      "concepts": [
+        {
+          "term": "Phương pháp lọc (Filtration)",
+          "definition": "Dùng phễu và giấy lọc để tách chất rắn không tan ra khỏi hỗn hợp lỏng.",
+          "note": "Ví dụ: Tách cát ra khỏi nước, lọc bã cà phê."
+        },
+        {
+          "term": "Phương pháp cô cạn (Evaporation)",
+          "definition": "Đun nóng để dung môi bay hơi hết, thu được chất rắn tan không bay hơi.",
+          "note": "Ví dụ: Cô cạn nước muối thu được muối ăn kết tinh."
+        },
+        {
+          "term": "Phương pháp chiết (Extraction)",
+          "definition": "Dùng phễu chiết để tách hai chất lỏng không hoà tan vào nhau và phân thành hai lớp riêng biệt.",
+          "note": "Ví dụ: Tách dầu ăn ra khỏi nước (dầu nhẹ hơn nổi lên trên)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc chọn phương pháp tách chất",
+          "meaning": "Dựa vào sự khác biệt về tính chất vật lí: độ tan, kích thước hạt, nhiệt độ sôi, khối lượng riêng của các chất trong hỗn hợp."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Làm thế nào để tách riêng hỗn hợp gồm cát và muối ăn?",
+          "solution": "Bước 1: Hòa tan hỗn hợp vào nước (muối tan hoàn toàn, cát không tan). Bước 2: Dùng phễu lọc để giữ cát lại trên giấy lọc, thu được dung dịch nước muối. Bước 3: Đun cô cạn dung dịch nước muối cho nước bay hơi hết, thu được muối ăn kết tinh."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng phương pháp cô cạn để tách cát khỏi nước (Cách đúng: dùng phương pháp lọc nhanh hơn rất nhiều)."
+      ]
+    }
+  ]
+}

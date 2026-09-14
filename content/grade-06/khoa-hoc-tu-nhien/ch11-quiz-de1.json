@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch11_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trái Đất là hành tinh thứ mấy tính theo khoảng cách từ Mặt Trời trở ra?",
-    "options": [
-      "A. Thứ nhất",
-      "B. Thứ hai",
-      "C. Thứ ba",
-      "D. Thứ tư"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Thứ tự tính từ Mặt Trời: Thuỷ tinh $\\rightarrow$ Kim tinh $\\rightarrow$ Trái Đất (vị trí thứ 3).\n💡 Khoảng cách thích hợp giúp Trái Đất có nhiệt độ ôn hoà cho sự sống phát triển.\n⚠️ Đừng nhầm Sao Hoả là vị trí thứ 3."
-  },
-  {
-    "id": "khtn6_ch11_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Mặt Trăng quay một vòng quanh Trái Đất mất khoảng thời gian bao lâu?",
-    "options": [
-      "A. 24 giờ",
-      "B. Khoảng 29,5 ngày (gần một tháng)",
-      "C. 365 ngày",
-      "D. 12 giờ"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thiên văn học: Chu kì tuần trăng của Mặt Trăng quay quanh Trái Đất khoảng 29,5 ngày đêm.\n💡 Chu kì này tạo nên tháng Âm lịch của người phương Đông.\n⚠️ 24 giờ là thời gian Trái Đất tự quay quanh mình nó."
-  }
-]
+{
+  "chapterId": "ch11",
+  "title": "Chủ đề 11: Trái Đất & Bầu trời — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c11_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguyên nhân ngày đêm luân phiên",
+      "question": "Hiện tượng ngày và đêm luân phiên liên tục trên Trái Đất là do nguyên nhân chính nào sau đây?",
+      "options": [
+        "Trái Đất hình cầu và tự quay quanh trục tưởng tượng của nó từ Tây sang Đông",
+        "Mặt Trời tự bật tắt như bóng đèn điện",
+        "Mặt Trăng che khuất Mặt Trời",
+        "Mây đen bao phủ nửa Trái Đất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trái Đất hình cầu nên một nửa luôn được chiếu sáng, kết hợp tự quay quanh trục làm mọi nơi lần lượt luân phiên sáng (ngày) và tối (đêm).",
+        "socraticPrompt": "Trái Đất có hình cầu và tự quay quanh trục thì các vùng đất có lần lượt xoay về phía Mặt Trời không?",
+        "steps": "Hình cầu + tự quay quanh trục -> ngày đêm luân phiên đều đặn 24 giờ.",
+        "trap": "Nếu Trái Đất đứng yên thì một nửa sẽ mãi là ngày, một nửa mãi là đêm."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Chuyển động biểu kiến Mặt Trời",
+      "question": "Hàng ngày ta nhìn thấy Mặt Trời mọc ở hướng Đông và lặn ở hướng Tây. Thực chất hiện tượng này là do đâu?",
+      "options": [
+        "Do Mặt Trời bay quanh Trái Đất từ Đông sang Tây",
+        "Do Trái Đất tự quay quanh trục theo chiều từ Tây sang Đông",
+        "Do Trái Đất đứng yên hoàn toàn",
+        "Do Mặt Trăng hút Mặt Trời di chuyển"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trái Đất quay từ Tây sang Đông, người đứng trên Trái Đất nhìn thấy Mặt Trời chuyển động ngược lại từ Đông sang Tây (chuyển động biểu kiến).",
+        "socraticPrompt": "Khi em ngồi trên xe ô tô chạy về phía trước, em nhìn thấy hàng cây bên đường như chuyển động giật lùi về phía nào?",
+        "steps": "Trái Đất quay từ Tây sang Đông tạo ảo giác Mặt Trời chuyển động từ Đông sang Tây.",
+        "trap": "Mặt Trời là tâm Hệ Mặt Trời, Trái Đất mới là thiên thể chuyển động."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hành tinh gần Mặt Trời nhất",
+      "question": "Hành tinh nào nằm ở vị trí GẦN Mặt Trời nhất trong Hệ Mặt Trời?",
+      "options": [
+        "Kim tinh (Sao Kim)",
+        "Trái Đất",
+        "Thủy tinh (Sao Thủy)",
+        "Hỏa tinh (Sao Hỏa)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thủy tinh (Mercury) là hành tinh thứ nhất tính từ tâm Mặt Trời, có cự li gần nhất.",
+        "socraticPrompt": "Tên hành tinh thứ nhất trong chuỗi Thủy - Kim - Trái Đất - Hỏa là gì?",
+        "steps": "Thủy tinh là hành tinh gần Mặt Trời nhất.",
+        "trap": "Kim tinh đứng thứ 2; Trái Đất đứng thứ 3."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hành tinh lớn nhất",
+      "question": "Hành tinh nào có kích thước và khối lượng LỚN NHẤT trong Hệ Mặt Trời?",
+      "options": [
+        "Thổ tinh (Sao Thổ)",
+        "Trái Đất",
+        "Hải Vương tinh",
+        "Mộc tinh (Sao Mộc)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mộc tinh (Jupiter) là hành tinh khí khổng lồ lớn nhất, thể tích có thể chứa hơn 1300 Trái Đất.",
+        "socraticPrompt": "Hành tinh chúa tể khổng lồ nhất trong Thái Dương Hệ tên là gì?",
+        "steps": "Mộc tinh là hành tinh lớn nhất trong 8 hành tinh.",
+        "trap": "Thổ tinh có vành đai to đẹp nhưng kích thước vẫn nhỏ hơn Mộc tinh."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguồn sáng của Mặt Trăng",
+      "question": "Ánh trăng vằng vặc chiếu sáng ban đêm thực chất bắt nguồn từ đâu?",
+      "options": [
+        "Mặt Trăng phản chiếu ánh sáng từ Mặt Trời chiếu vào bề mặt của nó",
+        "Mặt Trăng tự cháy sáng như một bóng đèn khổng lồ",
+        "Ánh sáng phát ra từ lòng đất Trái Đất chiếu lên",
+        "Các vì sao xung quanh rọi sáng Mặt Trăng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mặt Trăng là thiên thể đất đá tối, không tự phát sáng; nó phản xạ lại ánh sáng Mặt Trời tới mắt người quan sát.",
+        "socraticPrompt": "Mặt Trăng là một vệ tinh đá lạnh, nó có thể tự cháy phát sáng như Mặt Trời không?",
+        "steps": "Mặt Trăng phản chiếu ánh sáng Mặt Trời.",
+        "trap": "Chỉ có các ngôi sao (như Mặt Trời) mới tự phát sáng."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm Ngân Hà",
+      "question": "Ngân Hà (Milky Way) mà Hệ Mặt Trời của chúng ta đang cư trú thuộc loại thiên thể nào?",
+      "options": [
+        "Một ngôi sao đơn lẻ",
+        "Một thiên hà hình xoắn ốc chứa hàng trăm tỉ ngôi sao",
+        "Một hành tinh khổng lồ",
+        "Một đám mây đen trong khí quyển"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ngân Hà là thiên hà xoắn ốc (Spiral Galaxy) khổng lồ tập hợp khoảng 200 - 400 tỉ ngôi sao, Mặt Trời là một thành viên.",
+        "socraticPrompt": "Dải bạc lấp lánh vắt ngang bầu trời đêm mùa hạ là một thiên hà chứa hàng trăm tỉ ngôi sao gọi là gì?",
+        "steps": "Ngân Hà là một thiên hà xoắn ốc chứa hàng trăm tỉ vì sao.",
+        "trap": "Hệ Mặt Trời chỉ là một chấm nhỏ xíu nằm ở cánh tay ngoài của Ngân Hà."
+      }
+    }
+  ]
+}

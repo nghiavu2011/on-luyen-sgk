@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Năng lượng là gì? Đơn vị đo năng lượng trong hệ SI?",
-    "back": "Năng lượng là khả năng thực hiện công hoặc cung cấp nhiệt lượng. Đơn vị đo là Jun (J) hoặc Calo (cal).",
-    "tags": [
-      "Năng lượng",
-      "Đơn vị SI"
-    ]
-  },
-  {
-    "front": "Kể tên các dạng năng lượng chính xung quanh ta?",
-    "back": "Động năng, thế năng (cơ năng); Nhiệt năng; Quang năng; Điện năng; Hoá năng; Năng lượng hạt nhân.",
-    "tags": [
-      "Dạng năng lượng",
-      "Vật lí"
-    ]
-  },
-  {
-    "front": "Nội dung Định luật bảo toàn và chuyển hoá năng lượng?",
-    "back": "Năng lượng không tự nhiên sinh ra cũng không tự nhiên mất đi, nó chỉ truyền từ vật này sang vật khác hoặc chuyển hoá từ dạng này sang dạng khác.",
-    "tags": [
-      "Bảo toàn năng lượng",
-      "Định luật"
-    ]
-  },
-  {
-    "front": "Quá trình sạc pin điện thoại có sự chuyển hoá năng lượng thế nào?",
-    "back": "Điện năng từ ổ cắm chuyển hoá thành hoá năng tích trữ trong quả pin lithium.",
-    "tags": [
-      "Chuyển hoá",
-      "Pin"
-    ]
-  },
-  {
-    "front": "Năng lượng hao phí khi bóng đèn sợi đốt phát sáng là dạng nào?",
-    "back": "Nhiệt năng toả ra môi trường xung quanh (làm bóng đèn rất nóng).",
-    "tags": [
-      "Hao phí",
-      "Đèn sợi đốt"
-    ]
-  },
-  {
-    "front": "Tại sao bóng đèn LED tiết kiệm điện hơn bóng đèn dây tóc?",
-    "back": "Vì đèn LED chuyển hoá phần lớn điện năng thành quang năng, tỉ lệ nhiệt năng hao phí rất thấp.",
-    "tags": [
-      "Đèn LED",
-      "Tiết kiệm"
-    ]
-  },
-  {
-    "front": "Nguồn năng lượng tái tạo và không tái tạo khác nhau thế nào?",
-    "back": "Tái tạo: có sẵn vô tận trong tự nhiên (nắng, gió, sóng); Không tái tạo: có hạn và cạn kiệt theo thời gian (dầu mỏ, than đá).",
-    "tags": [
-      "Tái tạo",
-      "Năng lượng"
-    ]
-  },
-  {
-    "front": "Trong nhà máy thuỷ điện, nước từ trên cao chảy xuống làm quay tua-bin sinh điện năng. Quá trình chuyển hoá là gì?",
-    "back": "Thế năng của nước $\\rightarrow$ Động năng dòng chảy $\\rightarrow$ Cơ năng quay tua-bin $\\rightarrow$ Điện năng ở máy phát.",
-    "tags": [
-      "Thuỷ điện",
-      "Chuyển hoá"
-    ]
-  },
-  {
-    "front": "Khẩu hiệu 'Tắt khi không sử dụng' có ý nghĩa gì?",
-    "back": "Tiết kiệm điện năng tiêu thụ, giảm chi phí tiền điện gia đình và giảm lượng khí thải CO2 từ các nhà máy nhiệt điện.",
-    "tags": [
-      "Tiết kiệm điện",
-      "Ý thức"
-    ]
-  },
-  {
-    "front": "$1\\text{ kJ}$ bằng bao nhiêu Jun?",
-    "back": "$1\\text{ kJ} = 1000\\text{ J}$.",
-    "tags": [
-      "Đổi đơn vị",
-      "Toán học"
-    ]
-  },
-  {
-    "front": "Thực vật lấy năng lượng từ đâu để sống và tạo quả ngọt?",
-    "back": "Hấp thụ quang năng từ ánh sáng mặt trời qua quá trình quang hợp để chuyển hoá thành hoá năng chứa trong tinh bột.",
-    "tags": [
-      "Quang hợp",
-      "Sinh học"
-    ]
-  },
-  {
-    "front": "Tại sao quạt điện sau khi chạy một lúc lâu sờ vào vỏ động cơ lại thấy ấm nóng?",
-    "back": "Do một phần điện năng bị chuyển hoá thành nhiệt năng hao phí bởi điện trở của cuộn dây và ma sát trục quay.",
-    "tags": [
-      "Động cơ điện",
-      "Nhiệt năng"
-    ]
-  }
-]
+{
+  "chapterId": "ch10",
+  "flashcards": [
+    {
+      "id": "fc_khtn6_c10_01",
+      "front": "Năng lượng là gì? Đơn vị đo năng lượng?",
+      "back": "Là đại lượng đặc trưng cho khả năng tác dụng lực, sinh công hoặc truyền nhiệt. Đơn vị đo là Jun (J) hoặc kilojun (kJ).",
+      "category": "Khái niệm năng lượng",
+      "example": "1 kJ = 1000 J; năng lượng một bữa ăn khoảng 2000 kJ.",
+      "mnemonic": "Khả năng sinh công truyền nhiệt - Đơn vị Jun (J)."
+    },
+    {
+      "id": "fc_khtn6_c10_02",
+      "front": "Động năng và thế năng hấp dẫn là gì?",
+      "back": "Động năng: năng lượng do vật chuyển động. Thế năng hấp dẫn: năng lượng do vật ở trên một độ cao so với mặt đất.",
+      "category": "Cơ năng",
+      "example": "Nước chảy có động năng; nước chứa trên đập cao có thế năng.",
+      "mnemonic": "Chuyển động có Động năng - Trên cao có Thế năng."
+    },
+    {
+      "id": "fc_khtn6_c10_03",
+      "front": "Hoá năng được lưu trữ ở đâu?",
+      "back": "Được tích trữ trong liên kết hoá học của thức ăn, xăng dầu, than đá, gỗ củi và pin ắc quy.",
+      "category": "Dạng năng lượng",
+      "example": "Hoá năng trong xăng cháy đẩy piston xe chạy.",
+      "mnemonic": "Năng lượng tiềm ẩn trong thức ăn, xăng dầu, pin."
+    },
+    {
+      "id": "fc_khtn6_c10_04",
+      "front": "Phát biểu Định luật bảo toàn năng lượng?",
+      "back": "Năng lượng không tự sinh ra cũng không tự mất đi; nó chỉ chuyển hoá từ dạng này sang dạng khác, hoặc truyền từ vật này sang vật khác.",
+      "category": "Định luật bảo toàn",
+      "example": "Điện năng chuyển hoá thành cơ năng và nhiệt năng ở quạt điện.",
+      "mnemonic": "Không tự sinh - Không tự mất - Chỉ chuyển dạng truyền đi."
+    },
+    {
+      "id": "fc_khtn6_c10_05",
+      "front": "Thế nào là năng lượng có ích và năng lượng hao phí?",
+      "back": "Có ích: phục vụ đúng mục đích sử dụng. Hao phí: phần năng lượng thất thoát vô ích ra môi trường (thường là nhiệt ma sát, âm thanh).",
+      "category": "Hiệu suất năng lượng",
+      "example": "Bóng đèn: quang năng là có ích, nhiệt năng nóng bóng là hao phí.",
+      "mnemonic": "Đúng mục đích là có ích - Toả nhiệt vô ích là hao phí."
+    },
+    {
+      "id": "fc_khtn6_c10_06",
+      "front": "Công thức tính hiệu suất năng lượng?",
+      "back": "H = (Năng lượng có ích / Năng lượng toàn phần) · 100%.",
+      "category": "Công thức",
+      "example": "Đèn tiêu thụ 100 J điện sinh 90 J ánh sáng -> H = 90%.",
+      "mnemonic": "Có ích chia Toàn phần nhân một trăm."
+    },
+    {
+      "id": "fc_khtn6_c10_07",
+      "front": "Tại sao không thể chế tạo động cơ vĩnh cửu?",
+      "back": "Vì vi phạm Định luật bảo toàn năng lượng. Muốn sinh công liên tục bắt buộc phải có nguồn năng lượng đầu vào tương ứng bù vào.",
+      "category": "Quy luật vật lí",
+      "example": "Cỗ máy không dùng nhiên liệu mà chạy mãi là điều không tưởng.",
+      "mnemonic": "Không có năng lượng cấp vào thì không thể sinh công."
+    },
+    {
+      "id": "fc_khtn6_c10_08",
+      "front": "Tại sao bóng đèn LED lại tiết kiệm điện hơn đèn sợi đốt?",
+      "back": "Vì đèn LED có hiệu suất cao (~90% điện thành ánh sáng), trong khi đèn sợi đốt hao phí tới 90-95% điện năng biến thành nhiệt nóng.",
+      "category": "Thiết bị tiết kiệm",
+      "example": "Đèn LED 10W sáng ngang đèn sợi đốt 60W.",
+      "mnemonic": "LED sáng mát tiết kiệm - Sợi đốt nóng bỏng hao điện."
+    },
+    {
+      "id": "fc_khtn6_c10_09",
+      "front": "Kể tên 3 thói quen tốt giúp tiết kiệm điện gia đình?",
+      "back": "1. Tắt đèn quạt khi ra khỏi phòng. 2. Cài điều hoà từ 26 °C trở lên. 3. Sử dụng thiết bị dán nhãn năng lượng 5 sao.",
+      "category": "Hành động xanh",
+      "example": "Tận dụng gió trời và ánh sáng tự nhiên ban ngày.",
+      "mnemonic": "Tắt khi rời phòng - Điều hoà hai sáu độ - Chọn nhãn năm sao."
+    },
+    {
+      "id": "fc_khtn6_c10_10",
+      "front": "Sự suy thoái năng lượng là gì?",
+      "back": "Năng lượng có ích sau khi sử dụng dần chuyển thành nhiệt năng tản mát vào môi trường ở nhiệt độ thấp, không thể thu hồi để sinh công tiếp.",
+      "category": "Quy luật nhiệt động",
+      "example": "Nhiệt toả ra từ ống bô xe không thể gom lại biến thành xăng.",
+      "mnemonic": "Chất lượng năng lượng giảm dần thành nhiệt phân tán."
+    }
+  ]
+}

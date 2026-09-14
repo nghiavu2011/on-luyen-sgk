@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Tế bào có vai trò gì đối với sinh vật?",
-    "back": "Là đơn vị cấu trúc và chức năng cơ bản của mọi sinh vật sống. Mọi cơ thể sống từ vi khuẩn đến con người đều cấu tạo từ tế bào.",
-    "tags": [
-      "Tế bào",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Ba thành phần chính luôn có ở mọi tế bào?",
-    "back": "1. Màng tế bào; 2. Chất tế bào (bào tương); 3. Nhân tế bào (hoặc vùng nhân).",
-    "tags": [
-      "Cấu tạo tế bào",
-      "Sinh học"
-    ]
-  },
-  {
-    "front": "Chức năng của màng tế bào?",
-    "back": "Bao bọc tế bào, kiểm soát sự trao đổi chất giữa tế bào với môi trường ngoài.",
-    "tags": [
-      "Màng tế bào",
-      "Chức năng"
-    ]
-  },
-  {
-    "front": "Chức năng của nhân tế bào?",
-    "back": "Chứa vật chất di truyền ($ADN$), là trung tâm điều khiển mọi hoạt động sống của tế bào.",
-    "tags": [
-      "Nhân tế bào",
-      "Di truyền"
-    ]
-  },
-  {
-    "front": "Phân biệt tế bào nhân sơ và tế bào nhân thực?",
-    "back": "Nhân sơ: chưa có màng nhân bao bọc (chỉ có vùng nhân chứa ADN trần - ví dụ vi khuẩn); Nhân thực: đã có màng nhân bao bọc nhân hoàn chỉnh (động vật, thực vật).",
-    "tags": [
-      "Nhân sơ",
-      "Nhân thực"
-    ]
-  },
-  {
-    "front": "Bào quan nào chỉ có ở tế bào thực vật mà không có ở tế bào động vật?",
-    "back": "Lục lạp (chứa chất diệp lục giúp quang hợp), thành tế bào ($cellulose$), và không bào trung tâm lớn.",
-    "tags": [
-      "Lục lạp",
-      "Thực vật"
-    ]
-  },
-  {
-    "front": "Ý nghĩa sinh học của sự lớn lên và phân chia tế bào?",
-    "back": "Giúp cơ thể sinh vật lớn lên về kích thước và khối lượng; Giúp thay thế các tế bào già cỗi bị tổn thương.",
-    "tags": [
-      "Phân chia",
-      "Ý nghĩa"
-    ]
-  },
-  {
-    "front": "Từ 1 tế bào mẹ ban đầu, sau 3 lần phân chia liên tiếp sẽ tạo ra bao nhiêu tế bào con?",
-    "back": "$2^3 = 8$ tế bào con.",
-    "tags": [
-      "Tính toán",
-      "Tế bào"
-    ]
-  },
-  {
-    "front": "Tại sao da người liên tục bong vảy (tế bào chết) nhưng da không bị mỏng đi?",
-    "back": "Do các tế bào ở tầng sinh trưởng liên tục phân chia tạo ra các tế bào mới thay thế cho tế bào chết bị bong tróc.",
-    "tags": [
-      "Tế bào da",
-      "Thực tế"
-    ]
-  },
-  {
-    "front": "Kích thước tế bào trung bình khoảng bao nhiêu?",
-    "back": "Phần lớn rất nhỏ, từ $1$ đến $100\\ \\mu\\text{m}$, phải quan sát bằng kính hiển vi (trừ một số ngoại lệ như tép bưởi, lòng đỏ trứng).",
-    "tags": [
-      "Kích thước",
-      "Vi mô"
-    ]
-  },
-  {
-    "front": "Lục lạp có màu gì và giữ chức năng gì?",
-    "back": "Màu xanh lục, chứa sắc tố diệp lục hấp thụ ánh sáng mặt trời để tổng hợp chất hữu cơ (quang hợp).",
-    "tags": [
-      "Lục lạp",
-      "Quang hợp"
-    ]
-  },
-  {
-    "front": "Thành tế bào ở thực vật được cấu tạo chủ yếu từ chất gì?",
-    "back": "Cellulose, giúp tạo khung cứng cáp bảo vệ và giữ hình dạng cố định cho tế bào thực vật.",
-    "tags": [
-      "Cellulose",
-      "Thành tế bào"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "flashcards": [
+    {
+      "id": "fc_khtn6_c6_01",
+      "front": "Tế bào là gì trong sinh học?",
+      "back": "Là đơn vị cơ sở cấu trúc và chức năng của mọi cơ thể sinh vật sống.",
+      "category": "Khái niệm",
+      "example": "Cơ thể người có khoảng 30.000 tỷ tế bào phối hợp hoạt động.",
+      "mnemonic": "Tế bào là viên gạch đầu tiên xây nên sự sống."
+    },
+    {
+      "id": "fc_khtn6_c6_02",
+      "front": "Ba thành phần cấu tạo cơ bản của một tế bào là gì?",
+      "back": "1. Màng tế bào. 2. Chất tế bào (tế bào chất). 3. Nhân (ở tế bào nhân thực) hoặc vùng nhân (ở tế bào nhân sơ).",
+      "category": "Cấu tạo tế bào",
+      "example": "Màng bao bọc - Chất tế bào chứa bào quan - Nhân điều khiển.",
+      "mnemonic": "Màng bọc ngoài - Chất ở giữa - Nhân trung tâm."
+    },
+    {
+      "id": "fc_khtn6_c6_03",
+      "front": "Chức năng của màng tế bào và nhân tế bào?",
+      "back": "Màng tế bào: bao bọc bảo vệ và kiểm soát chất ra vào tế bào. Nhân: chứa DNA di truyền, điều khiển mọi hoạt động sống.",
+      "category": "Chức năng",
+      "example": "Nhân là 'bộ não' trung tâm chỉ huy của tế bào.",
+      "mnemonic": "Màng gác cổng - Nhân chỉ huy."
+    },
+    {
+      "id": "fc_khtn6_c6_04",
+      "front": "Phân biệt tế bào nhân sơ và tế bào nhân thực?",
+      "back": "Nhân sơ (vi khuẩn): chưa có màng nhân bọc vật chất di truyền. Nhân thực (thực vật, động vật): đã có màng nhân bao bọc bảo vệ DNA.",
+      "category": "Phân loại tế bào",
+      "example": "Vi khuẩn E. coli là nhân sơ; tế bào cây lúa là nhân thực.",
+      "mnemonic": "Nhân sơ chưa có màng bọc - Nhân thực có màng nhân chuẩn."
+    },
+    {
+      "id": "fc_khtn6_c6_05",
+      "front": "Hai thành phần đặc trưng chỉ có ở tế bào thực vật mà động vật không có?",
+      "back": "1. Thành tế bào bằng xenlulozo (cứng cáp tạo khung nâng đỡ). 2. Lục lạp (chứa diệp lục để quang hợp).",
+      "category": "So sánh tế bào",
+      "example": "Nhờ thành xenlulozo mà thân cây gỗ đứng sừng sững.",
+      "mnemonic": "Thành tế bào che chở - Lục lạp hấp thụ nắng."
+    },
+    {
+      "id": "fc_khtn6_c6_06",
+      "front": "Chức năng của bào quan lục lạp ở tế bào thực vật?",
+      "back": "Hấp thụ năng lượng ánh sáng mặt trời để thực hiện quá trình quang hợp, tổng hợp chất hữu cơ nuôi cây.",
+      "category": "Bào quan",
+      "example": "Lá cây có màu xanh do lục lạp chứa chất diệp lục.",
+      "mnemonic": "Lục lạp quang hợp - Biến nắng thành đường."
+    },
+    {
+      "id": "fc_khtn6_c6_07",
+      "front": "Quá trình phân chia tế bào diễn ra như thế nào?",
+      "back": "Từ 1 tế bào mẹ: Nhân nhân đôi và phân chia trước -> Chất tế bào phân chia -> Hình thành vách ngăn tạo 2 tế bào con giống hệt.",
+      "category": "Sinh sản tế bào",
+      "example": "1 tế bào phân chia 1 lần thành 2 tế bào con.",
+      "mnemonic": "Chia nhân trước - Chia chất tế bào sau - Tạo đôi tế bào con."
+    },
+    {
+      "id": "fc_khtn6_c6_08",
+      "front": "Công thức tính số tế bào con sau n lần phân chia liên tiếp?",
+      "back": "N = 2^n (với 1 tế bào ban đầu) hoặc N = N0 · 2^n (với N0 tế bào ban đầu).",
+      "category": "Công thức sinh học",
+      "example": "1 tế bào qua 3 lần phân chia tạo 2³ = 8 tế bào con.",
+      "mnemonic": "Hai luỹ thừa số lần phân chia."
+    },
+    {
+      "id": "fc_khtn6_c6_09",
+      "front": "Ý nghĩa của sự lớn lên và phân chia tế bào đối với cơ thể?",
+      "back": "Giúp cơ thể sinh trưởng lớn lên, thay thế tế bào già bị chết và làm lành các vết thương tổn thương trên cơ thể.",
+      "category": "Ý nghĩa sinh học",
+      "example": "Em bé lớn thành người lớn; vết trầy xước tự liền da sau 1 tuần.",
+      "mnemonic": "Tế bào nhân đôi - Cơ thể lớn khôn - Liền da khỏi sẹo."
+    },
+    {
+      "id": "fc_khtn6_c6_10",
+      "front": "Tại sao hầu hết tế bào đều có kích thước vi mô siêu nhỏ?",
+      "back": "Kích thước nhỏ giúp tỉ lệ diện tích bề mặt trên thể tích (S/V) lớn, tối ưu hoá tốc độ trao đổi chất dinh dưỡng và thải chất độc qua màng.",
+      "category": "Quy luật sinh học",
+      "example": "Đơn vị đo tế bào thường là micromét (µm).",
+      "mnemonic": "Nhỏ bé trao đổi mau - Tỉ lệ S/V cực lớn."
+    }
+  ]
+}

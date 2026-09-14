@@ -1,32 +1,95 @@
-[
-  {
-    "id": "l05",
-    "title": "Bài 5: Các thể của chất và tính chất của chất",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 5: Các thể của chất và tính chất của chất.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 5: Các thể của chất và tính chất của chất.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 5: Các thể của chất và tính chất của chất.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l06",
-    "title": "Bài 6: Sự chuyển thể của các chất trong tự nhiên",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 6: Sự chuyển thể của các chất trong tự nhiên.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 6: Sự chuyển thể của các chất trong tự nhiên.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 6: Sự chuyển thể của các chất trong tự nhiên.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chủ đề 2: Các thể của chất & Sự chuyển thể",
+  "lessons": [
+    {
+      "id": "l05",
+      "title": "Bài 5: Các thể của chất và tính chất của chất",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được ba thể cơ bản của chất (rắn, lỏng, khí) và các đặc điểm về hình dạng, thể tích của chúng.",
+        "Phân biệt được tính chất vật lí và tính chất hoá học của chất.",
+        "Nhận biết được chất có ở khắp xung quanh ta và cấu tạo từ những hạt vô cùng nhỏ bé."
+      ],
+      "concepts": [
+        {
+          "term": "Thể rắn (Solid)",
+          "definition": "Có hình dạng và thể tích xác định, rất khó bị nén; các hạt liên kết rất chặt chẽ và chỉ dao động xung quanh vị trí cân bằng.",
+          "note": "Ví dụ: Thanh sắt, viên đá lạnh, hạt đường."
+        },
+        {
+          "term": "Thể lỏng (Liquid)",
+          "definition": "Có thể tích xác định nhưng không có hình dạng xác định (mang hình dạng của phần bình chứa nó), khó bị nén; các hạt trượt lên nhau.",
+          "note": "Ví dụ: Nước uống, dầu ăn, cồn."
+        },
+        {
+          "term": "Thể khí/hơi (Gas)",
+          "definition": "Không có hình dạng và không có thể tích xác định (chiếm toàn bộ không gian bình chứa), dễ bị nén; các hạt chuyển động tự do hỗn loạn.",
+          "note": "Ví dụ: Không khí, khí oxygen, hơi nước."
+        },
+        {
+          "term": "Tính chất vật lí & Tính chất hoá học",
+          "definition": "Tính chất vật lí: Thể, màu sắc, mùi vị, nhiệt độ nóng chảy, nhiệt độ sôi, tính dẫn điện, dẫn nhiệt (không tạo chất mới). Tính chất hoá học: Khả năng biến đổi thành chất khác (cháy, gỉ sét, bị phân huỷ).",
+          "note": "Sắt bị gỉ tạo gỉ sắt là tính chất hoá học; nước đá tan thành nước lỏng là tính chất vật lí."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Dấu hiệu phân biệt biến đổi vật lí và biến đổi hoá học",
+          "meaning": "Biến đổi hoá học luôn có sự tạo thành chất mới kèm theo dấu hiệu toả nhiệt, phát sáng, đổi màu, sủi bọt khí hoặc tạo kết tủa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Hiện tượng que diêm bốc cháy và hiện tượng nến chảy lỏng ra khi đốt nóng: đâu là tính chất vật lí, đâu là tính chất hoá học?",
+          "solution": "Nến chảy lỏng ra là tính chất vật lí (sự nóng chảy từ rắn sang lỏng, vẫn là chất sáp nến). Que diêm bốc cháy tạo than đen, khói và nhiệt là tính chất hoá học (tạo ra chất mới)."
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm lẫn hiện tượng sôi (chuyển thể, vật lí) với phản ứng hoá học sinh bọt khí."
+      ]
+    },
+    {
+      "id": "l06",
+      "title": "Bài 6: Sự chuyển thể của các chất trong tự nhiên",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được các quá trình chuyển thể: nóng chảy, đông đặc, bay hơi, ngưng tụ, sôi.",
+        "Giải thích được vòng tuần hoàn của nước trong tự nhiên và một số hiện tượng đời sống.",
+        "Hiểu được sự biến thiên nhiệt độ trong quá trình chuyển thể chất tinh khiết."
+      ],
+      "concepts": [
+        {
+          "term": "Sự nóng chảy và Sự đông đặc",
+          "definition": "Nóng chảy là quá trình chuyển từ thể rắn sang thể lỏng. Đông đặc là quá trình ngược lại, chuyển từ thể lỏng sang thể rắn.",
+          "note": "Nước đá nóng chảy ở 0 °C và nước đông đặc ở 0 °C (ở áp suất tiêu chuẩn)."
+        },
+        {
+          "term": "Sự bay hơi và Sự ngưng tụ",
+          "definition": "Bay hơi là sự chuyển từ thể lỏng sang thể hơi xảy ra ở bề mặt chất lỏng (xảy ra ở mọi nhiệt độ). Ngưng tụ là quá trình chuyển từ thể hơi sang thể lỏng.",
+          "note": "Sương mù ban sớm là do hơi nước trong không khí ngưng tụ khi gặp lạnh."
+        },
+        {
+          "term": "Sự sôi",
+          "definition": "Là quá trình bay hơi đặc biệt diễn ra đồng thời cả ở trên bề mặt và trong lòng khối chất lỏng tại một nhiệt độ xác định (nhiệt độ sôi).",
+          "note": "Trong suốt thời gian sôi của chất tinh khiết, nhiệt độ không đổi."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đặc điểm nhiệt độ khi chuyển thể",
+          "meaning": "Trong suốt thời gian nóng chảy, đông đặc hoặc sôi, nhiệt độ của chất tinh khiết được giữ không đổi."
+        }
+      ],
+      "workedExamples": [
+        {
+          "problem": "Tại sao khi đun nước tinh khiết đến 100 °C, dù ta tiếp tục đun với ngọn lửa rất to thì nhiệt kế cắm trong nước vẫn chỉ đúng 100 °C?",
+          "solution": "Vì 100 °C là nhiệt độ sôi của nước tinh khiết ở áp suất chuẩn. Trong suốt quá trình sôi, toàn bộ nhiệt lượng cung cấp được sử dụng để chuyển các phân tử nước từ thể lỏng sang thể hơi chứ không làm tăng nhiệt độ của nước."
+        }
+      ],
+      "commonMistakes": [
+        "Nghĩ rằng sự bay hơi chỉ xảy ra khi chất lỏng sôi (Thực tế: bay hơi xảy ra ở mọi nhiệt độ, quần áo ướt vẫn khô được ở nhiệt độ thường)."
+      ]
+    }
+  ]
+}

@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch11_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Vào ngày Trăng rằm (ngày 15 Âm lịch hàng tháng), hình dạng của Mặt Trăng nhìn từ Trái Đất sẽ có dạng như thế nào?",
-    "options": [
-      "A. Không nhìn thấy Mặt Trăng (Trăng non)",
-      "B. Trăng hình lưỡi liềm mỏng",
-      "C. Trăng bán nguyệt",
-      "D. Trăng tròn đầy đặn và sáng rực"
-    ],
-    "answer": 3,
-    "explanation": "📌 Tuần trăng: Vào ngày rằm, Mặt Trăng nằm đối diện với Mặt Trời qua Trái Đất, toàn bộ nửa được chiếu sáng của Mặt Trăng hướng về phía Trái Đất nên ta thấy Trăng tròn viên mãn.\n💡 Đầu tháng âm lịch (mùng 1) là không thấy trăng.\n⚠️ Gắn liền với các lễ hội truyền thống như Tết Trung Thu."
-  },
-  {
-    "id": "khtn6_ch11_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Khi xảy ra hiện tượng Nhật thực toàn phần, thứ tự sắp xếp thẳng hàng của Mặt Trời, Mặt Trăng và Trái Đất là gì?",
-    "options": [
-      "A. Mặt Trời – Trái Đất – Mặt Trăng",
-      "B. Mặt Trời – Mặt Trăng – Trái Đất",
-      "C. Trái Đất – Mặt Trời – Mặt Trăng",
-      "D. Mặt Trăng – Mặt Trời – Trái Đất"
-    ],
-    "answer": 1,
-    "explanation": "📌 Vị trí hình học: Nhật thực xảy ra ban ngày khi Mặt Trăng đi vào giữa Mặt Trời và Trái Đất, che khuất ánh sáng Mặt Trời chiếu tới một vùng trên Trái Đất.\n💡 Mặt Trời $\\rightarrow$ Mặt Trăng $\\rightarrow$ Trái Đất.\n⚠️ Cảnh báo bẫy: Nếu Trái Đất ở giữa thì đó là Nguyệt thực vào ban đêm."
-  }
-]
+{
+  "chapterId": "ch11",
+  "title": "Chủ đề 11: Trái Đất & Bầu trời — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c11_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nguyên nhân mùa trên Trái Đất",
+      "question": "Khí hậu miền Bắc Việt Nam có 4 mùa rõ rệt (Xuân, Hạ, Thu, Đông). Nguyên nhân thiên văn chính tạo nên các mùa trên Trái Đất là gì?",
+      "options": [
+        "Do trục Trái Đất nghiêng một góc không đổi (23,5 độ) so với mặt phẳng quỹ đạo và giữ nguyên phương nghiêng khi chuyển động quay quanh Mặt Trời, khiến bán cầu Bắc và bán cầu Nam luân phiên nghiêng về phía Mặt Trời",
+        "Do mùa hè Trái Đất tiến lại gần Mặt Trời hơn mùa đông",
+        "Do Mặt Trời tỏa nhiệt không đều theo từng tháng",
+        "Do khoảng cách Mặt Trăng thay đổi"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trục nghiêng 23,5 độ không đổi trong quá trình chuyển động quanh Mặt Trời: Bán cầu nào ngả về phía Mặt Trời sẽ nhận nhiều nhiệt và ánh sáng (mùa nóng/hè); bán cầu ngả xa là mùa lạnh/đông.",
+        "socraticPrompt": "Khoảng cách Trái Đất đến Mặt Trời thay đổi rất ít, yếu tố trục Trái Đất nghiêng làm góc chiếu của tia nắng thay đổi như thế nào?",
+        "steps": "Trục nghiêng 23,5 độ kết hợp quay quanh Mặt Trời sinh ra các mùa trong năm.",
+        "trap": "Nhiều người lầm tưởng mùa hè Trái Đất ở gần Mặt Trời hơn mùa đông (thực tế tháng 7 Trái Đất ở điểm viễn nhật xa Mặt Trời nhất mà Bắc bán cầu vẫn là mùa hè)."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Mặt Trăng luôn hướng một mặt về Trái Đất",
+      "question": "Con người trên Trái Đất luôn luôn chỉ nhìn thấy duy nhất một nửa bề mặt của Mặt Trăng (gọi là mặt gần), nửa còn lại (mặt tối/mặt xa) không bao giờ nhìn thấy được từ mặt đất. Bí ẩn thiên văn này là do đâu?",
+      "options": [
+        "Do Mặt Trăng không hề tự quay quanh mình nó",
+        "Do thời gian Mặt Trăng tự quay một vòng quanh trục của nó đúng bằng thời gian nó quay một vòng quanh Trái Đất (khoảng 27,3 ngày - hiện tượng khoá thuỷ triều)",
+        "Do nửa kia của Mặt Trăng trong suốt như thuỷ tinh",
+        "Do Trái Đất che kín mặt kia của Mặt Trăng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hiện tượng khoá thuỷ triều (Tidal Locking): Lực hấp dẫn của Trái Đất đồng bộ chu kì tự quay của Mặt Trăng đúng bằng chu kì quay quanh Trái Đất, khiến cùng một mặt luôn hướng về Trái Đất.",
+        "socraticPrompt": "Vừa đi vòng quanh bạn vừa tự xoay người sao cho mặt luôn nhìn thẳng vào bạn thì chu kì tự xoay và chu kì quay quanh bạn có bằng nhau không?",
+        "steps": "Chu kì tự quay = Chu kì quay quanh Trái Đất (27,3 ngày) -> chỉ một mặt hướng về Trái Đất.",
+        "trap": "Mặt Trăng vẫn tự quay quanh trục của nó chứ không phải đứng yên."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thời gian ánh sáng truyền từ Mặt Trời",
+      "question": "Khoảng cách trung bình từ Mặt Trời đến Trái Đất là khoảng 150 triệu km. Biết tốc độ ánh sáng trong chân không là 300.000 km/s. Một tia sáng phát ra từ bề mặt Mặt Trời mất khoảng bao nhiêu thời gian để đến được Trái Đất?",
+      "options": [
+        "8 giây",
+        "8 giờ",
+        "8 phút 20 giây (500 giây)",
+        "1 ngày đêm"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thời gian truyền: t = s / v = 150.000.000 km / (300.000 km/s) = 500 giây = 8 phút 20 giây.",
+        "socraticPrompt": "Lấy 150 triệu chia cho 300 nghìn ta được 500 giây. 500 giây đổi ra phút là bao nhiêu phút?",
+        "steps": "500 giây = 8 phút 20 giây.",
+        "trap": "Nhầm tưởng ánh sáng truyền tức thời (0 giây) hoặc nhầm 500 giây là 5 phút."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng Ngày đêm địa cực",
+      "question": "Ở hai vùng cực Trái Đất (Bắc Cực và Nam Cực), hiện tượng ngày và đêm diễn ra rất kì lạ: có những thời kì ròng rã suốt 6 tháng trời Mặt Trời không bao giờ lặn (Đêm trắng / Ngày vùng cực) và 6 tháng trời Mặt Trời không bao giờ mọc (Đêm vùng cực). Hiện tượng này chứng minh điều gì?",
+      "options": [
+        "Trái Đất là một mặt phẳng đĩa dẹt",
+        "Bắc Cực bị Mặt Trăng hút chặt",
+        "Mặt Trời ngừng quay trong 6 tháng",
+        "Trục Trái Đất bị nghiêng 23,5 độ so với mặt phẳng quỹ đạo, nên trong 6 tháng mùa hè vùng cực hoàn toàn nghiêng trọn vẹn về phía Mặt Trời và đón ánh nắng liên tục khi Trái Đất tự quay"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Độ nghiêng của trục Trái Đất khiến chỏm cực Bắc (từ vĩ tuyến 66°33' Bắc trở lên) hoàn toàn nằm trong vùng được chiếu sáng trong mùa hè Bắc bán cầu, tạo nên ngày dài 24/24 suốt nhiều tháng.",
+        "socraticPrompt": "Khi cực Bắc chúc thẳng về phía Mặt Trời thì dù Trái Đất tự xoay tròn, cực Bắc có bao giờ chui vào bóng tối không?",
+        "steps": "Trục nghiêng 23,5 độ khiến vùng cực luân phiên có 6 tháng ngày liên tục và 6 tháng đêm liên tục.",
+        "trap": "Không liên quan đến giả thuyết Trái Đất phẳng."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân loại hành tinh đá và hành tinh khí",
+      "question": "Tám hành tinh trong Hệ Mặt Trời được chia thành hai nhóm rõ rệt: Nhóm 4 hành tinh đá vòng trong (Thủy, Kim, Trái Đất, Hỏa) và Nhóm 4 hành tinh khí khổng lồ vòng ngoài (Mộc, Thổ, Thiên Vương, Hải Vương). Đặc điểm phân biệt chính giữa hai nhóm này là gì?",
+      "options": [
+        "Nhóm hành tinh trong có bề mặt đất đá rắn chắc, kích thước nhỏ và khối lượng riêng lớn; nhóm hành tinh ngoài có kích thước khổng lồ cấu tạo chủ yếu từ khí hydro và heli, khối lượng riêng nhỏ",
+        "Nhóm vòng trong làm bằng vàng, nhóm vòng ngoài làm bằng bạc",
+        "Nhóm ngoài quay quanh Mặt Trăng",
+        "Nhóm trong không có lực hấp dẫn"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hành tinh đá (Terrestrial planets) có bề mặt rắn chắc, lõi kim loại; Hành tinh khí (Gas giants) là khối khí khổng lồ không có bề mặt rắn rõ ràng, thể tích siêu lớn.",
+        "socraticPrompt": "Trái Đất và Sao Hỏa có bề mặt đất đá rắn ta đứng lên được, còn Sao Mộc Sao Thổ chủ yếu là khối khí gì?",
+        "steps": "Hành tinh trong: đá rắn, nhỏ, nặng; Hành tinh ngoài: khí khổng lồ, nhẹ.",
+        "trap": "Sao Thổ có khối lượng riêng nhỏ hơn cả nước (nếu có chậu nước đủ to thì Sao Thổ sẽ nổi)."
+      }
+    },
+    {
+      "id": "q_khtn6_c11_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự sống ngoài Trái Đất",
+      "question": "Khi các tàu vũ trụ thăm dò của NASA (như tàu Curiosity, Perseverance) tìm kiếm dấu vết của sự sống cổ đại trên Sao Hỏa hoặc trên các mặt trăng băng (như Europa của Sao Mộc), mục tiêu tìm kiếm số 1 mang tính quyết định là gì?",
+      "options": [
+        "Tìm vàng và kim cương nguyên khối",
+        "Tìm kiếm sự hiện diện của NƯỚC Ở THỂ LỎNG và các hợp chất hữu cơ (carbon), vì nước lỏng là dung môi hoà tan thiết yếu cho mọi quá trình hoá sinh của sự sống",
+        "Tìm các toà nhà bê tông cổ đại",
+        "Tìm củi khô để nhóm lửa"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ở đâu có nước lỏng và carbon, ở đó có tiềm năng hình thành sự sống. Nước là dung môi duy nhất cho phép các phản ứng sinh hoá tế bào diễn ra.",
+        "socraticPrompt": "Dung môi sống thiết yếu nhất cho mọi tế bào sinh vật từ vi khuẩn đến con người là chất lỏng nào?",
+        "steps": "Nước ở thể lỏng và phân tử hữu cơ carbon là dấu hiệu vàng chỉ điểm sự sống.",
+        "trap": "Băng đá vĩnh cửu không cho phép phản ứng trao đổi chất linh hoạt như nước thể lỏng."
+      }
+    }
+  ]
+}

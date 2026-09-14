@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch05_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Để tách bã trà ra khỏi ấm nước trà sau khi hãm, người ta dùng phương pháp nào sau đây?",
-    "options": [
-      "A. Phương pháp lọc",
-      "B. Phương pháp cô cạn",
-      "C. Phương pháp chiết",
-      "D. Phương pháp đông đá"
-    ],
-    "answer": 0,
-    "explanation": "📌 Kỹ năng: Dùng màng lọc hoặc rây lọc giữ lại bã trà (chất rắn không tan) và cho nước trà chảy qua.\n💡 Đây là phương pháp lọc chất rắn không tan.\n⚠️ Rất thông dụng trong pha trà, nấu ăn hàng ngày."
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Chất tinh khiết & Tách chất — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c5_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tách dầu ăn khỏi nước",
+      "question": "Để tách riêng dầu ăn ra khỏi hỗn hợp dầu ăn và nước, dụng cụ và phương pháp phù hợp nhất là gì?",
+      "options": [
+        "Dùng phễu lọc và giấy lọc",
+        "Đun sôi hỗn hợp trên ngọn lửa đèn cồn",
+        "Dùng phễu chiết và phương pháp chiết",
+        "Dùng nam châm vĩnh cửu"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Dầu ăn nhẹ hơn nước và không tan trong nước, phân thành 2 lớp rõ rệt. Dùng phễu chiết mở khóa cho nước chảy xuống trước rồi khóa lại thu riêng dầu.",
+        "socraticPrompt": "Hai chất lỏng tách thành 2 lớp, mở van phía dưới cho lớp nước ở dưới chảy ra trước ta dùng dụng cụ gì?",
+        "steps": "Dùng phễu chiết thực hiện phương pháp chiết.",
+        "trap": "Dầu và nước đều là chất lỏng nên giấy lọc không tách được."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tăng tốc độ hoà tan",
+      "question": "Để pha một cốc nước chanh đường nhanh tan nhất, bạn Lan nên làm cách nào?",
+      "options": [
+        "Bỏ đường nguyên hạt to vào nước đá lạnh rồi để yên không khuấy",
+        "Đổ trực tiếp nước sôi 100 °C vào cốc nhựa chứa đá",
+        "Cho nước cốt chanh vào trước rồi mới thả đường hạt vào",
+        "Nghiền nhỏ hạt đường, hoà tan đường vào một ít nước ấm trước, khuấy đều rồi mới cho đá lạnh và vắt chanh"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nghiền nhỏ, dùng nước ấm và khuấy đều là 3 yếu tố tối ưu giúp đường tan nhanh nhất vào dung dịch.",
+        "socraticPrompt": "Nước đá lạnh làm đường tan nhanh hay chậm? Khuấy và nghiền nhỏ có tác dụng gì?",
+        "steps": "Nghiền nhỏ hạt + nước ấm + khuấy đều giúp đường tan cực nhanh trước khi làm lạnh.",
+        "trap": "Cho vào nước đá lạnh khiến đường rất khó tan."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tách hỗn hợp bột sắt và cát",
+      "question": "Một người vô tình làm rơi lẫn bột sắt vào trong một chậu cát khô. Phương pháp đơn giản và nhanh nhất để thu hồi lại bột sắt sạch là gì?",
+      "options": [
+        "Dùng một thanh nam châm bọc túi nilon rê trên mặt chậu cát để hút bột sắt",
+        "Đổ nước vào chậu cát rồi đun sôi",
+        "Đem chậu cát đi nung ở 1000 °C",
+        "Dùng phễu và giấy lọc cát"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Dựa vào tính chất từ: Sắt có từ tính bị nam châm hút, còn cát không bị hút.",
+        "socraticPrompt": "Kim loại sắt có đặc tính vật lí đặc trưng nào với nam châm?",
+        "steps": "Nam châm hút hết bột sắt tách ra khỏi cát trong tích tắc.",
+        "trap": "Đổ nước vào thì cả cát và sắt đều chìm, không tách được."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Dung dịch bão hoà",
+      "question": "Khi cho muối ăn vào cốc nước và khuấy đều, đến một thời điểm dù khuấy rất lâu muối vẫn không tan thêm được nữa mà đọng ở đáy cốc. Dung dịch thu được lúc này gọi là gì?",
+      "options": [
+        "Dung dịch chưa bão hoà",
+        "Dung dịch bão hoà",
+        "Huyền phù lỏng",
+        "Chất tinh khiết"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dung dịch bão hoà là dung dịch không thể hoà tan thêm chất tan đó ở một nhiệt độ xác định.",
+        "socraticPrompt": "Khi cốc nước đã 'no' muối và không thể hoà tan thêm hạt muối nào nữa thì gọi là dung dịch gì?",
+        "steps": "Không thể hoà tan thêm chất tan -> dung dịch bão hoà.",
+        "trap": "Dung dịch chưa bão hoà là dung dịch vẫn có thể hoà tan thêm chất tan."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quy trình lọc nước giếng khoan",
+      "question": "Trong các bể lọc nước giếng khoan gia đình ở nông thôn, các lớp vật liệu sắp xếp từ trên xuống dưới thường gồm: cát mịn, than hoạt tính, cát vàng, sỏi đỡ. Lớp than hoạt tính có vai trò gì?",
+      "options": [
+        "Làm tăng độ ngọt của nước",
+        "Tiêu diệt toàn bộ khoáng chất",
+        "Hấp phụ các chất màu, mùi hôi tanh và các chất độc hại hoà tan trong nước",
+        "Làm đông đặc nước thành đá"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Than hoạt tính có cấu trúc xốp rỗng với diện tích bề mặt cực lớn, có tính hấp phụ màu, mùi và độc tố hữu cơ rất mạnh.",
+        "socraticPrompt": "Than củi hoạt tính xốp có khả năng giữ lại các chất gây mùi tanh và màu đục gọi là tính chất gì?",
+        "steps": "Than hoạt tính hấp phụ chất độc, khử mùi tanh của nước ngầm.",
+        "trap": "Cát giữ cặn bẩn cơ học; than hoạt tính khử mùi và hoá chất độc hại."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Làm sạch muối ăn lẫn bùn cát",
+      "question": "Để làm sạch muối ăn bị lẫn đất cát trong phòng thực hành, thứ tự các bước thực nghiệm nào sau đây là ĐÚNG?",
+      "options": [
+        "Cô cạn -> Lọc -> Hoà tan vào nước",
+        "Gạn lấy cát -> Ép chặt muối",
+        "Dùng nam châm hút -> Đun sôi",
+        "Hoà tan vào nước -> Lọc qua phễu lấy dung dịch nước trong -> Cô cạn dung dịch"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy trình tách: Hoà tan (muối tan, cát không tan) -> Lọc (giữ cát lại, nước muối chảy qua) -> Cô cạn (nước bay hơi thu muối sạch).",
+        "socraticPrompt": "Đầu tiên phải hoà tan vào nước, sau đó lọc loại bỏ cái gì rồi mới đun cô cạn?",
+        "steps": "Hoà tan -> Lọc lấy dung dịch -> Cô cạn thu tinh thể muối.",
+        "trap": "Cô cạn trước khi lọc sẽ làm cát dính chặt vào muối không tách được."
+      }
+    }
+  ]
+}

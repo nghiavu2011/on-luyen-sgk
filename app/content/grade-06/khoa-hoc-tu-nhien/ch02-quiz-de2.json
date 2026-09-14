@@ -1,44 +1,127 @@
-[
-  {
-    "id": "khtn6_ch02_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Tốc độ bay hơi của một chất lỏng KHÔNG phụ thuộc vào yếu tố nào sau đây?",
-    "options": [
-      "A. Nhiệt độ của chất lỏng",
-      "B. Diện tích mặt thoáng của chất lỏng",
-      "C. Tốc độ gió",
-      "D. Khối lượng toàn bộ chiếc bình chứa"
-    ],
-    "answer": 3,
-    "explanation": "📌 Nguyên lí: Tốc độ bay hơi chỉ phụ thuộc vào nhiệt độ, diện tích mặt thoáng, gió và độ ẩm không khí.\n💡 Khối lượng chiếc bình không ảnh hưởng đến sự bay hơi của chất lỏng bên trong.\n⚠️ Nhớ 3 yếu tố chính: Nhiệt độ, Gió, Diện tích tiếp xúc."
-  },
-  {
-    "id": "khtn6_ch02_d2_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Để phơi quần áo ướt nhanh khô nhất, ta nên áp dụng cách nào sau đây?",
-    "options": [
-      "A. Vò túm quần áo lại phơi trong phòng kín",
-      "B. Trải rộng quần áo ra chỗ có nắng to và gió thông thoáng",
-      "C. Treo quần áo sát nhau ở nơi râm mát",
-      "D. Cho quần áo vào túi nilon buộc kín"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thực hành: Tăng nhiệt độ (nắng to), tăng diện tích mặt thoáng (trải rộng), tăng lưu thông gió giúp nước bay hơi nhanh nhất.\n💡 Vận dụng kiến thức bay hơi vào đời sống hàng ngày.\n⚠️ Phơi túm lại làm giảm diện tích mặt thoáng nên rất lâu khô."
-  },
-  {
-    "id": "khtn6_ch02_d2_q3",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi đun sôi nước tinh khiết trong ấm nhôm trên bếp lửa, trong suốt thời gian nước đang sôi sùng sục, nhiệt độ của nước sẽ:",
-    "options": [
-      "A. Liên tục tăng lên trên $100^\\circ\\text{C}$",
-      "B. Giữ không đổi ở $100^\\circ\\text{C}$",
-      "C. Giảm dần vì nhiệt truyền vào hơi nước",
-      "D. Biến thiên thất thường tùy kích thước ấm"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất vật lí: Trong suốt thời gian chuyển thể (sôi), nhiệt lượng cung cấp dùng để bẻ gãy liên kết chuyển thể, nhiệt độ chất tinh khiết được duy trì ổn định không đổi ở điểm sôi.\n💡 Với nước tinh khiết ở 1 atm là đúng $100^\\circ\\text{C}$.\n⚠️ Bẫy sai: Tưởng đun lửa càng to thì nước càng nóng vượt $100^\\circ\\text{C}$."
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chủ đề 2: Các thể của chất — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c2_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tốc độ bay hơi",
+      "question": "Để quần áo ướt mau khô nhất sau khi giặt, người ta nên thực hiện biện pháp nào sau đây?",
+      "options": [
+        "Phơi quần áo ở nơi thoáng gió, có ánh nắng mặt trời và căng rộng bề mặt",
+        "Gấp gọn quần áo lại rồi để trong phòng kín tối",
+        "Ngâm quần áo trong chậu nước lạnh",
+        "Treo quần áo sát nhau trong góc khuất gió"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tốc độ bay hơi của chất lỏng phụ thuộc vào 3 yếu tố: nhiệt độ, gió và diện tích mặt thoáng.",
+        "socraticPrompt": "Nhiệt độ cao, gió mạnh và mặt tiếp xúc lớn sẽ thúc đẩy nước bốc hơi nhanh hay chậm?",
+        "steps": "Nắng (nhiệt cao), gió mạnh và căng rộng quần áo (diện tích mặt thoáng lớn) giúp nước bay hơi nhanh nhất.",
+        "trap": "Gấp gọn làm giảm diện tích mặt thoáng khiến quần áo lâu khô và ẩm mốc."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng ngưng tụ đời sống",
+      "question": "Khi rót nước đá lạnh vào một chiếc cốc thủy tinh khô, sau vài phút ta thấy có những giọt nước đọng ở mặt NGOÀI thành cốc. Những giọt nước đó từ đâu ra?",
+      "options": [
+        "Nước đá bên trong cốc thấm xuyên qua thành thủy tinh ra ngoài",
+        "Hơi nước có sẵn trong không khí xung quanh gặp thành cốc lạnh bị ngưng tụ lại thành giọt nước",
+        "Thủy tinh tự tiết ra chất lỏng khi gặp lạnh",
+        "Nước đá bốc hơi rồi rơi trở lại quanh đáy cốc"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Thủy tinh không thấm nước. Mặt ngoài cốc lạnh làm giảm nhiệt độ lớp không khí sát đó, khiến hơi nước trong không khí ngưng tụ thành giọt lỏng.",
+        "socraticPrompt": "Thành cốc làm lạnh lớp không khí xung quanh nó, hơi nước trong không khí gặp lạnh sẽ xảy ra quá trình chuyển thể nào?",
+        "steps": "Hơi nước trong không khí ngưng tụ trên bề mặt lạnh của thành cốc.",
+        "trap": "Nhiều người nghĩ nước từ trong cốc thấm qua thành kính ra ngoài."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt biến đổi vật lí và hoá học",
+      "question": "Trong các hiện tượng sau, hiện tượng nào là biến đổi HOÁ HỌC?",
+      "options": [
+        "Hòa tan đường vào nước được nước đường ngọt",
+        "Nước lỏng bay hơi tạo thành mây",
+        "Đinh sắt để ngoài không khí ẩm lâu ngày bị phủ một lớp gỉ sắt màu nâu đỏ",
+        "Bẻ cong một đoạn dây thép"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Gỉ sắt (sắt oxit ngậm nước) là chất mới sinh ra do phản ứng giữa sắt, oxygen và hơi nước, mang tính chất hoá học.",
+        "socraticPrompt": "Hiện tượng nào biến chất ban đầu thành một chất hoàn toàn mới không còn giữ tính chất cũ?",
+        "steps": "Sắt biến thành gỉ sắt là phản ứng hoá học sinh chất mới.",
+        "trap": "Hòa tan đường chỉ là biến đổi vật lí (cô cạn nước lại thu được đường)."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sự giãn nở vì nhiệt",
+      "question": "Tại sao khi đun nước bằng ấm, ta không nên đổ nước thật đầy đến tận miệng ấm?",
+      "options": [
+        "Vì nước sẽ lâu sôi hơn",
+        "Vì làm giảm độ tinh khiết của nước uống",
+        "Vì ấm sẽ bị nổ tung ngay lập tức",
+        "Vì khi đun nóng, nước nở ra và khi sôi bọt nước dâng trào làm tràn ra ngoài gây tắt bếp và nguy hiểm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Chất lỏng nở ra khi nóng lên. Đổ đầy nước khi sôi sẽ tràn ra ngoài gây bỏng hoặc chập điện/tắt lửa bếp ga.",
+        "socraticPrompt": "Nước nóng lên có tăng thể tích không và bọt khí sôi có làm dâng mực nước không?",
+        "steps": "Nước nở vì nhiệt và trào bọt khi sôi, gây nguy hiểm nếu đổ quá đầy.",
+        "trap": "Nước không làm nổ ấm hở nắp."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm hạt phân tử",
+      "question": "Mở một lọ nước hoa ở góc phòng, chỉ một lát sau người ở đầu kia phòng đã ngửi thấy mùi thơm. Hiện tượng này chứng tỏ điều gì?",
+      "options": [
+        "Các phân tử nước hoa chuyển động nhiệt hỗn loạn không ngừng và khuếch tán xen vào giữa các phân tử không khí",
+        "Các phân tử nước hoa đứng yên tại chỗ",
+        "Nước hoa có tính dẫn điện tốt",
+        "Không khí hút nước hoa về phía con người"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hiện tượng khuếch tán: Các phân tử hương thơm bay hơi và chuyển động hỗn loạn không ngừng, lan toả khắp không gian.",
+        "socraticPrompt": "Mùi thơm bay xa được là nhờ các hạt phân tử hương chuyển động như thế nào?",
+        "steps": "Các phân tử khí/hơi luôn chuyển động hỗn loạn không ngừng và khuếch tán tự do.",
+        "trap": "Tưởng rằng không khí có lực hút chọn lọc."
+      }
+    },
+    {
+      "id": "q_khtn6_c2_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chu trình chuyển thể",
+      "question": "Trong sản xuất muối ăn từ nước biển bằng phương pháp phơi cát hoặc phơi nước biển trên ruộng muối, người dân đã ứng dụng hiện tượng chuyển thể nào?",
+      "options": [
+        "Sự nóng chảy của muối",
+        "Sự bay hơi của nước dưới ánh nắng mặt trời và gió để kết tinh muối ăn",
+        "Sự đông đặc của nước biển",
+        "Sự ngưng tụ của nước muối"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lợi dụng năng lượng mặt trời và gió làm nước bay hơi, nồng độ muối tăng đến bão hòa và kết tinh thành hạt muối rắn.",
+        "socraticPrompt": "Nắng làm nước biến đi đâu để lại những hạt muối trắng trên đồng?",
+        "steps": "Nước bay hơi vào không khí để lại muối ăn kết tinh.",
+        "trap": "Nhầm với sự đông đặc (làm lạnh)."
+      }
+    }
+  ]
+}

@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch03_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hành động nào sau đây góp phần trực tiếp bảo vệ và làm sạch môi trường không khí?",
-    "options": [
-      "A. Đốt nhiều than tổ ong để sưởi ấm",
-      "B. Tích cực trồng và chăm sóc cây xanh quanh nhà và trường học",
-      "C. Tự ý đốt rơm rạ trên đồng ruộng sau mùa gặt",
-      "D. Sử dụng xe máy cá nhân cho mọi quãng đường đi lại"
-    ],
-    "answer": 1,
-    "explanation": "📌 Biện pháp: Cây xanh quang hợp hấp thụ khí $CO_2$ và thải ra khí $O_2$, đồng thời lá cây giữ lại bụi mịn, điều hòa vi khí hậu.\n💡 'Lá phổi xanh' của Trái Đất.\n⚠️ Đốt rác rơm rạ tạo ra lượng lớn khói bụi ô nhiễm nghiêm trọng."
-  },
-  {
-    "id": "khtn6_ch03_d2_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Khi ngọn nến đang cháy, nếu ta úp một chiếc cốc thuỷ tinh lên ngọn nến thì hiện tượng gì sẽ xảy ra sau vài giây?",
-    "options": [
-      "A. Nến tiếp tục cháy sáng mãi không tắt",
-      "B. Nến cháy bùng to hơn trước",
-      "C. Nến cháy yếu dần rồi tắt hẳn",
-      "D. Cốc thuỷ tinh nổ tung ngay lập tức"
-    ],
-    "answer": 2,
-    "explanation": "📌 Hiện tượng: Khi úp cốc kín, lượng oxygen bên trong bị nến cháy tiêu thụ cạn kiệt, khi hết oxy thì sự cháy không thể duy trì và nến tắt.\n💡 Chứng minh oxygen là chất cần thiết để duy trì sự cháy.\n⚠️ Điều kiện duy trì sự cháy: Nhiệt độ đạt điểm bắt cháy và phải có chất oxy hoá (oxygen)."
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chủ đề 3: Oxygen & Không khí — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c3_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Dập tắt đám cháy",
+      "question": "Khi chảo dầu ăn trên bếp ga bị bắt lửa bốc cháy, hành động nào sau đây là ĐÚNG và an toàn nhất?",
+      "options": [
+        "Dùng một ca nước lạnh dội thật mạnh vào chảo dầu",
+        "Thổi mạnh bằng miệng vào ngọn lửa",
+        "Tắt bếp ga ngay và dùng nắp vung kim loại đậy kín miệng chảo",
+        "Bê chảo dầu đang cháy chạy ra ngoài sân"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đậy nắp vung giúp cách ly hoàn toàn chất cháy với khí oxygen, đồng thời tắt bếp để ngắt nguồn nhiệt, ngọn lửa sẽ tắt ngay.",
+        "socraticPrompt": "Dội nước vào dầu sôi sẽ làm dầu bắn tung toé gây cháy lan, còn đậy kín nắp chảo sẽ ngăn chặn khí gì tiếp xúc?",
+        "steps": "Tắt bếp -> đậy nắp vung để cách ly oxy -> đám cháy bị dập tắt an toàn.",
+        "trap": "Dội nước vào dầu sôi là tai nạn kinh hoàng làm dầu bắn toé gây bỏng và cháy nhà."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thu khí Oxygen",
+      "question": "Vì sao trong phòng thí nghiệm, người ta có thể thu khí oxygen bằng phương pháp đẩy nước (úp ngược ống nghiệm đựng đầy nước vào chậu nước)?",
+      "options": [
+        "Vì khí oxygen tan vô hạn trong nước",
+        "Vì nước hút khí oxygen vào lòng nó",
+        "Vì khí oxygen phản ứng với nước tạo bọt",
+        "Vì khí oxygen rất ít tan trong nước và không tác dụng hoá học với nước ở điều kiện thường"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thu khí bằng phương pháp đẩy nước áp dụng cho các chất khí ít tan hoặc không tan trong nước.",
+        "socraticPrompt": "Nếu oxygen tan nhiều trong nước thì khi sục vào nước nó có đẩy được nước ra ngoài không?",
+        "steps": "Khí oxygen ít tan trong nước nên khi sục vào ống nghiệm nó sẽ đẩy nước ra ngoài và chiếm chỗ.",
+        "trap": "Các khí tan tốt trong nước như amoniac hay hydro clorua không thể thu bằng phương pháp này."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng cháy trong không gian kín",
+      "question": "Úp một chiếc cốc thủy tinh lên một cây nến đang cháy trên đĩa nước. Hiện tượng nào sau đây sẽ xảy ra?",
+      "options": [
+        "Nến cháy yếu dần rồi tắt hẳn, đồng thời nước trong đĩa dâng lên chiếm khoảng 1/5 thể tích bên trong cốc",
+        "Nến cháy mãi không bao giờ tắt",
+        "Cốc thủy tinh bị vỡ nát ngay lập tức",
+        "Nến phát nổ sinh khói xanh"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khi úp cốc, nến tiêu thụ hết 21% (khoảng 1/5) thể tích khí oxygen trong cốc rồi tắt. Áp suất trong cốc giảm làm nước dâng lên chiếm chỗ.",
+        "socraticPrompt": "Khi hết khí oxygen thì nến có cháy tiếp được không và mực nước dâng lên bao nhiêu phần cốc?",
+        "steps": "Oxy bị tiêu hao (khoảng 1/5) -> nến tắt -> nước dâng lên khoảng 1/5 thể tích cốc.",
+        "trap": "Nghĩ rằng toàn bộ không khí trong cốc bị đốt cháy hết (thực tế 78% nitrogen không cháy)."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sự rỉ sét kim loại",
+      "question": "Để bảo vệ khung xe đạp bằng thép không bị gỉ sét khi sử dụng trong không khí ẩm, người ta thường làm gì?",
+      "options": [
+        "Rửa xe bằng nước muối mỗi ngày",
+        "Sơn phủ một lớp sơn tĩnh điện và tra dầu mỡ định kì vào ổ bi xích",
+        "Dùng giấy ráp đánh sạch lớp sơn bảo vệ",
+        "Để xe ngoài trời mưa nắng quanh năm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Gỉ sét xảy ra khi sắt tiếp xúc đồng thời với oxygen và hơi nước. Lớp sơn và dầu mỡ ngăn cách sắt tiếp xúc với môi trường.",
+        "socraticPrompt": "Lớp sơn phủ bên ngoài có tác dụng bảo vệ ngăn kim loại tiếp xúc với chất khí nào trong không khí?",
+        "steps": "Sơn tĩnh điện và bôi dầu mỡ ngăn cách hoàn toàn bề mặt kim loại với oxygen và độ ẩm.",
+        "trap": "Rửa bằng nước muối càng làm kim loại bị ăn mòn rỉ sét nhanh hơn gấp bội."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính toán thể tích không khí",
+      "question": "Một người trưởng thành trung bình cần khoảng 500 lít khí oxygen mỗi ngày để duy trì hoạt động hô hấp. Thể tích không khí sạch tương đương mà người đó cần hít vào mỗi ngày là bao nhiêu (biết oxygen chiếm 20% thể tích không khí)?",
+      "options": [
+        "100 lít",
+        "1000 lít",
+        "2500 lít",
+        "5000 lít"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thể tích không khí = Thể tích oxygen / 20% = Thể tích oxygen · 5.",
+        "socraticPrompt": "Vì oxygen chiếm 1/5 thể tích không khí nên lượng không khí cần thiết gấp mấy lần lượng oxygen?",
+        "steps": "V_không_khí = 500 / 0,2 = 2500 lít.",
+        "trap": "Lấy 500 nhân 20% ra 100 lít (sai hướng tính)."
+      }
+    },
+    {
+      "id": "q_khtn6_c3_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hậu quả ô nhiễm không khí",
+      "question": "Hiện tượng mưa axit gây hại cho mùa màng và ăn mòn các công trình xây dựng chủ yếu do khí thải nào từ các nhà máy nhiệt điện và khu công nghiệp gây ra?",
+      "options": [
+        "Khí oxygen và nitrogen",
+        "Hơi nước tinh khiết",
+        "Khí argon và heli",
+        "Khí sulfur dioxide (SO2) và nitrogen dioxide (NO2)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "SO2 và NO2 phản ứng với nước mưa trong khí quyển tạo thành axit sunfuric và axit nitric, gây hiện tượng mưa axit.",
+        "socraticPrompt": "Khí thải công nghiệp chứa oxit của lưu huỳnh và nitơ khi gặp mưa sẽ tạo thành dung dịch gì?",
+        "steps": "SO2 và NO2 kết hợp hơi nước tạo thành mưa axit phá huỷ mùa màng và di tích lịch sử.",
+        "trap": "CO2 tạo mưa có tính axit rất yếu bình thường, nhưng SO2 và NO2 mới là tác nhân chính gây mưa axit độc hại."
+      }
+    }
+  ]
+}

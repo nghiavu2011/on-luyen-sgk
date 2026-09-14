@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch05_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Một hỗn hợp gồm cát và muối ăn bị trộn lẫn. Để tách riêng cát sạch và thu lại muối ăn khan, ta cần tiến hành các bước theo thứ tự nào?",
-    "options": [
-      "A. Cô cạn $\\rightarrow$ Hoà tan vào nước $\\rightarrow$ Lọc",
-      "B. Hoà tan vào nước $\\rightarrow$ Lọc bỏ cát $\\rightarrow$ Cô cạn phần dung dịch nước muối thu muối",
-      "C. Chiết $\\rightarrow$ Cô cạn $\\rightarrow$ Lọc",
-      "D. Đun nóng chảy cát rồi vớt muối"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy trình khoa học: 1. Đổ nước khuấy đều: Muối tan, cát không tan. 2. Lọc qua phễu: Cát giữ lại trên giấy lọc đem phơi khô. 3. Đem nước lọc đun cô cạn: Nước bay hơi thu được tinh thể muối ăn.\n💡 Kết hợp linh hoạt 2 phương pháp lọc và cô cạn.\n⚠️ Đảm bảo đúng trình tự logic các bước tách chất."
-  },
-  {
-    "id": "khtn6_ch05_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Trong phòng thí nghiệm, một bạn học sinh muốn tách riêng dầu ăn ra khỏi hỗn hợp dầu ăn và nước. Dụng cụ chuyên dụng và phương pháp bạn cần dùng là gì?",
-    "options": [
-      "A. Dùng giấy lọc và phễu lọc thường",
-      "B. Dùng phễu chiết có khoá van xả, áp dụng phương pháp chiết",
-      "C. Đun sôi hỗn hợp trên ngọn lửa đèn cồn",
-      "D. Cho vào ngăn đông tủ lạnh"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp chiết: Dầu ăn không tan và nhẹ hơn nước nên nổi thành lớp phía trên. Đổ hỗn hợp vào phễu chiết, mở van xả cho nước lớp dưới chảy hết ra rồi đóng van, giữ lại dầu ăn trong phễu.\n💡 Phễu chiết là dụng cụ đặc thù tách hai chất lỏng không trộn lẫn.\n⚠️ Giấy lọc không thể tách được dầu và nước vì cả hai đều là chất lỏng thấm qua giấy."
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Chất tinh khiết & Tách chất — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c5_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Chưng cất tinh dầu thiên nhiên",
+      "question": "Để tách tinh dầu tràm, tinh dầu sả hoặc tinh dầu bưởi từ vỏ cây tươi, người ta thường dùng phương pháp lôi cuốn hơi nước (chưng cất). Phương pháp này dựa trên nguyên lí nào?",
+      "options": [
+        "Tinh dầu nhẹ hơn nước, không tan trong nước và dễ bay hơi cùng hơi nước ở nhiệt độ sôi, sau đó ngưng tụ làm lạnh rồi dùng phễu chiết tách lớp tinh dầu nổi phía trên",
+        "Tinh dầu hoà tan hoàn toàn trong nước ở nhiệt độ phòng",
+        "Dùng nam châm hút tinh dầu",
+        "Nghiền nát vỏ cây rồi lọc qua giấy lọc thông thường"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chưng cất lôi cuốn hơi nước: Tinh dầu bay hơi theo hơi nước, khi ngưng tụ tạo thành hỗn hợp hai lớp lỏng (nhũ tương/tách lớp), sau đó chiết tách lấy tinh dầu nguyên chất.",
+        "socraticPrompt": "Tinh dầu bốc hơi cùng nước khi đun sôi, khi làm lạnh ngưng tụ thì tinh dầu nổi lên hay chìm xuống?",
+        "steps": "Đun sôi lôi cuốn tinh dầu -> ngưng tụ làm lạnh -> chiết tách lớp tinh dầu nổi ở trên.",
+        "trap": "Tinh dầu không tan trong nước nên không dùng phương pháp cô cạn thông thường."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sản xuất nước cất y tế",
+      "question": "Trong các bệnh viện, nước cất pha thuốc tiêm được sản xuất bằng máy chưng cất nước. Tại sao nước cất thu được lại đạt độ tinh khiết gần như 100% so với nước ngầm ban đầu?",
+      "options": [
+        "Vì máy chưng cất lọc nước qua hàng triệu lớp giấy lọc",
+        "Vì khi đun sôi, chỉ có các phân tử nước H2O bay hơi ở 100 °C, còn các muối khoáng, vi khuẩn và tạp chất có nhiệt độ sôi rất cao sẽ ở lại buồng đun; hơi nước dẫn qua ống làm lạnh ngưng tụ thành nước tinh khiết",
+        "Vì nước cất được pha thêm cồn tiệt trùng",
+        "Vì nước được chiếu tia X phá huỷ mọi phân tử"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Chưng cất dựa vào độ chênh lệch nhiệt độ sôi: Nước sôi ở 100 °C bốc hơi, muối khoáng sôi ở hàng nghìn độ C ở lại đáy bình. Hơi nước ngưng tụ là nước cất tinh khiết.",
+        "socraticPrompt": "Khi đun sôi nước máy, chỉ có nước bốc hơi hay cả muối khoáng và cặn đá vôi cũng bốc hơi theo?",
+        "steps": "Nước bốc hơi ở 100 °C -> làm lạnh ngưng tụ -> tách hoàn toàn tạp chất rắn ở lại.",
+        "trap": "Giấy lọc vi sinh không tách được các ion muối khoáng hoà tan như phương pháp chưng cất."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xử lý nước ngập lũ lụt",
+      "question": "Khi xảy ra bão lũ, nguồn nước giếng bị ngập bùn đất đục ngầu. Để có nước sinh hoạt tạm thời, người dân thường cho phèn chua vào nước khuấy đều rồi để yên, sau đó khử trùng bằng Cloramin B và đun sôi. Phèn chua có tác dụng chính là gì?",
+      "options": [
+        "Tiêu diệt hoàn toàn vi khuẩn gây bệnh trong nước",
+        "Làm nước có vị ngọt thanh dễ uống",
+        "Tạo ra các kết tủa dạng keo dính kết các hạt phù sa lơ lửng lại thành khối lớn lắng nhanh xuống đáy bể (làm trong nước)",
+        "Biến nước lũ thành nước khoáng thiên nhiên"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phèn chua (nhôm sunfat) thuỷ phân tạo keo nhôm Al(OH)3. Hạt keo này hút dính các hạt bùn đất lơ lửng trong huyền phù kết tụ lại và lắng xuống, giúp nước trong vắt.",
+        "socraticPrompt": "Hạt keo phèn chua làm gì với các hạt đất sét nhỏ li ti lơ lửng trong nước đục?",
+        "steps": "Keo tụ phù sa lắng xuống đáy giúp làm trong nước đục.",
+        "trap": "Phèn chua chỉ làm trong nước (vật lí/keo tụ) chứ không có tính sát trùng; phải dùng Cloramin B hoặc đun sôi mới diệt khuẩn."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự cố tràn dầu trên biển",
+      "question": "Khi tàu chở dầu gặp nạn làm hàng nghìn tấn dầu tràn ra biển, các đội cứu hộ môi trường thường thả các phao quây thấm dầu chuyên dụng để gom dầu lại. Giải pháp này dựa trên đặc tính nào của dầu mỏ?",
+      "options": [
+        "Dầu mỏ tan vô hạn trong nước biển",
+        "Dầu mỏ phản ứng sinh bọt khí với muối biển",
+        "Dầu mỏ nặng hơn nước biển chìm xuống đáy",
+        "Dầu mỏ có khối lượng riêng nhỏ hơn nước biển (nhẹ hơn nước) và không tan trong nước nên nổi thành váng mỏng trên mặt biển"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Dầu mỏ không phân cực, không tan trong nước và khối lượng riêng nhỏ (~0,8 - 0,9 g/cm³) nên nổi hoàn toàn trên bề mặt, cho phép dùng phao nổi quây gom lại.",
+        "socraticPrompt": "Dầu mỏ nổi hay chìm trong nước biển? Phao nổi trên mặt nước chặn được lớp dầu không?",
+        "steps": "Nhẹ hơn nước + không tan -> nổi trên mặt nước -> dùng phao quây hút tách dầu.",
+        "trap": "Nếu dầu tan trong nước thì không thể dùng phao quây cơ học để xử lý."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích độ tan theo nhiệt độ",
+      "question": "Một bạn học sinh hoà tan 40 g đường vào 100 g nước ở 20 °C thấy tan hết. Khi tăng nhiệt độ nước lên 60 °C bạn cho thêm 150 g đường nữa vẫn tan hoàn toàn. Hiện tượng này rút ra kết luận gì?",
+      "options": [
+        "Độ tan của phần lớn chất rắn (như đường ăn) trong nước tăng lên đáng kể khi nhiệt độ tăng",
+        "Nhiệt độ không ảnh hưởng đến độ tan của chất rắn",
+        "Đường ở 60 °C bị phân huỷ thành khí bay đi",
+        "Nước ở 60 °C biến thành chất khác"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đa số chất rắn tăng độ tan mạnh khi nhiệt độ tăng do nhiệt độ cung cấp năng lượng phá vỡ mạng tinh thể chất rắn.",
+        "socraticPrompt": "Nước nóng hoà tan được nhiều đường hơn nước lạnh rất nhiều chứng tỏ điều gì về độ tan?",
+        "steps": "Nhiệt độ tăng làm độ tan của đường tăng lên vượt bậc.",
+        "trap": "Một số ít chất như khí gas thì độ tan giảm khi nhiệt độ tăng, nhưng với đường là chất rắn thì tăng."
+      }
+    },
+    {
+      "id": "q_khtn6_c5_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tách hỗn hợp phức tạp 3 chất",
+      "question": "Cho một hỗn hợp gồm vụn gỗ (mạt cưa), cát xây dựng và muối ăn. Phương án nào sau đây giúp tách riêng từng chất một cách triệt để nhất?",
+      "options": [
+        "Đun nóng ở 500 °C đốt cháy hết",
+        "Đổ nước vào hỗn hợp: vụn gỗ nhẹ nổi lên trên vớt ra -> lọc lấy cát chìm ở đáy -> đun cô cạn dung dịch nước lọc thu lại muối ăn",
+        "Dùng nam châm hút cát -> gạn lấy muối",
+        "Dùng quạt thổi bay cả cát và muối"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tận dụng 3 tính chất khác biệt: Vụn gỗ nhẹ nổi trên nước; Cát nặng không tan chìm xuống đáy; Muối tan trong nước tách bằng cô cạn.",
+        "socraticPrompt": "Khi thả vào nước: gỗ thế nào, cát thế nào, muối thế nào?",
+        "steps": "Cho vào nước: Vớt vụn gỗ nổi -> Lọc tách cát chìm -> Cô cạn nước muối thu muối sạch.",
+        "trap": "Không chất nào có từ tính nên không thể dùng nam châm."
+      }
+    }
+  ]
+}

@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch07_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Ở cơ thể thực vật có hoa, nhóm nào sau đây gồm toàn các cơ quan sinh dưỡng?",
-    "options": [
-      "A. Hoa, quả, hạt",
-      "B. Rễ, thân, lá",
-      "C. Hoa, thân, cành",
-      "D. Quả, rễ, hạt"
-    ],
-    "answer": 1,
-    "explanation": "📌 Sinh học thực vật: Rễ, thân, lá là các cơ quan sinh dưỡng (chế tạo thức ăn và nâng đỡ cây).\n💡 Hoa, quả, hạt là cơ quan sinh sản.\n⚠️ Phân biệt rõ hai nhóm cơ quan sinh dưỡng và sinh sản."
-  },
-  {
-    "id": "khtn6_ch07_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Khi ta chạy bộ nhanh, hệ vận động hoạt động mạnh kéo theo tim đập nhanh hơn (hệ tuần hoàn) và thở gấp hơn (hệ hô hấp), đồng thời tuyến mồ hôi tiết nhiều nước (hệ bài tiết). Hiện tượng này chứng minh điều gì về cơ thể sống?",
-    "options": [
-      "A. Các hệ cơ quan hoạt động hoàn toàn độc lập và tách rời nhau",
-      "B. Cơ thể là một thể thống nhất, có sự phối hợp điều hòa nhịp nhàng giữa tất cả các hệ cơ quan",
-      "C. Tim và phổi bị tổn thương khi chạy",
-      "D. Hệ vận động không cần sự trợ giúp của các hệ cơ quan khác"
-    ],
-    "answer": 1,
-    "explanation": "📌 Tính toàn vẹn: Cơ thể sinh vật là một khối thống nhất hoàn chỉnh dưới sự điều khiển của hệ thần kinh và thể dịch, các cơ quan luôn liên kết chặt chẽ để đáp ứng nhu cầu năng lượng và sinh tồn.\n💡 Khi cơ bắp tiêu thụ nhiều oxy, tim phải bơm máu nhanh và phổi phải tăng cường trao đổi khí.\n⚠️ Bậc tư duy cao: Đánh giá mối quan hệ thống nhất giữa các hệ cơ quan trong cơ thể."
-  }
-]
+{
+  "chapterId": "ch07",
+  "title": "Chủ đề 7: Từ tế bào đến cơ thể — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c7_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ưu thế của cơ thể đa bào",
+      "question": "So với sinh vật đơn bào, cơ thể sinh vật đa bào có ưu thế tiến hoá nổi trội nào giúp chúng thích nghi cao với môi trường sống?",
+      "options": [
+        "Có sự phân hoá và chuyên hoá sâu sắc của các tế bào thành các mô, cơ quan chuyên biệt đảm trách từng chức năng sống riêng, giúp hiệu suất hoạt động cực cao và kích thước cơ thể lớn hơn",
+        "Cơ thể đa bào có số lượng cá thể nhiều hơn vi khuẩn",
+        "Cơ thể đa bào không bao giờ bị vi khuẩn gây bệnh tấn công",
+        "Cơ thể đa bào không cần hấp thụ chất dinh dưỡng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phân công lao động tế bào: Mỗi loại tế bào chỉ làm một nhiệm vụ nhưng rất chuyên nghiệp (như chuyên gia), phối hợp thành khối thống nhất giúp cơ thể đa bào hoạt động mạnh mẽ, tuổi thọ cao.",
+        "socraticPrompt": "Một người làm hết mọi việc từ may áo đến đóng gạch hiệu quả hơn hay mỗi người làm một nghề chuyên sâu hiệu quả hơn?",
+        "steps": "Chuyên hoá tế bào tạo năng suất sinh học cao và khả năng thích nghi môi trường rộng lớn.",
+        "trap": "Đa bào vẫn bị vi khuẩn và virus tấn công bình thường."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hỏng hóc một cơ quan ảnh hưởng toàn thân",
+      "question": "Khi thận của một người bị suy giảm chức năng nghiêm trọng (bệnh suy thận giai đoạn cuối), người bệnh không chỉ gặp vấn đề bài tiết nước tiểu mà còn bị phù nề, cao huyết áp, thiếu máu và suy tim. Điều này phản ánh nguyên lí sinh học nào?",
+      "options": [
+        "Thận là nơi sản xuất toàn bộ thức ăn của cơ thể",
+        "Cơ thể là một khối thống nhất toàn vẹn: thận lọc sạch máu và bài tiết độc tố, khi thận suy thì chất độc tích tụ trong máu đầu độc các cơ quan khác, ảnh hưởng tuần hoàn và toàn bộ cơ thể",
+        "Các cơ quan khác ghen tị với quả thận",
+        "Bệnh suy thận không liên quan đến tim mạch"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mối quan hệ mật thiết giữa các cơ quan: Hỏng một cơ quan trọng yếu sẽ kéo theo phản ứng dây chuyền làm suy sụp các hệ cơ quan liên đới do dòng tuần hoàn máu lưu thông chung.",
+        "socraticPrompt": "Máu chảy qua thận để lọc độc, nếu độc tố không được lọc mà đi khắp cơ thể thì các cơ quan khác có bị nhiễm độc không?",
+        "steps": "Thận suy -> chất độc tồn lưu trong máu -> phá huỷ tim mạch và các mô toàn thân.",
+        "trap": "Nghĩ rằng bệnh thận chỉ gói gọn ở đường tiết niệu."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Mô phân sinh ở thực vật",
+      "question": "Vì sao khi bấm ngọn (ngắt chồi ngọn) của cây đậu ván hoặc cây cà chua, cây lại ngừng dài ra theo chiều cao mà phát triển rất nhiều cành nhánh xum xuê hai bên?",
+      "options": [
+        "Vì ngọn cây làm cay mắt rễ cây",
+        "Vì cây bị tổn thương sẽ chết ngay",
+        "Vì ngọn cây chứa mô phân sinh đỉnh ngọn giúp tăng chiều cao; khi bấm ngọn đã loại bỏ mô phân sinh đỉnh, kích thích mô phân sinh chồi nách phát triển cành nhánh đâm chồi",
+        "Vì rễ cây không hút được nước nữa"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Mô phân sinh ngọn tạo ưu thế ngọn. Cắt chồi ngọn làm mất ưu thế ngọn, các hormone kích thích mô phân sinh bên ở nách lá hoạt động đâm chồi nhánh xum xuê ra hoa kết trái nhiều.",
+        "socraticPrompt": "Mô phân sinh đỉnh ở đầu ngọn làm cây dài ra; cắt bỏ nó đi thì chồi ở nách lá sẽ phát triển như thế nào?",
+        "steps": "Bấm ngọn kích thích chồi nách phát triển đâm nhánh nhiều nhánh quả.",
+        "trap": "Bấm ngọn đúng kĩ thuật giúp tăng năng suất chứ không làm chết cây."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tập đoàn Volvox (Tảo mắt bơi)",
+      "question": "Tập đoàn trùng roi (Volvox) gồm hàng nghìn tế bào giống hệt nhau liên kết thành một hình cầu rỗng bơi lăn tròn trong nước. Các nhà khoa học xem tập đoàn Volvox là dạng trung gian chuyển tiếp giữa nhóm sinh vật nào?",
+      "options": [
+        "Giữa virus và vi khuẩn",
+        "Giữa động vật có xương sống và không xương sống",
+        "Giữa thực vật và nấm mốc",
+        "Giữa sinh vật đơn bào và sinh vật đa bào"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tập đoàn Volvox gồm các tế bào đơn lẻ sống liên kết hợp tác với nhau, manh nha sự phân hoá chức năng, là bằng chứng tiến hoá từ đơn bào lên đa bào.",
+        "socraticPrompt": "Nhiều tế bào đơn bào gom lại sống chung bơi cùng nhau là bước đệm tiến hoá lên sinh vật gì?",
+        "steps": "Volvox là cầu nối tiến hoá từ thế giới đơn bào sang thế giới đa bào.",
+        "trap": "Volvox không phải là động vật có xương sống."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Cơ chế tự điều hoà nội môi",
+      "question": "Khi nhiệt độ môi trường tăng cao trên 38 °C vào mùa hè, cơ thể người tự động giãn mạch máu dưới da và toát mồ hôi để làm mát; khi trời rét lạnh cơ thể lại co mạch và run giật sinh nhiệt. Cơ chế này phản ánh điều gì?",
+      "options": [
+        "Khả năng tự điều hoà (cân bằng nội môi) của cơ thể đa bào thông qua sự phối hợp nhịp nhàng giữa hệ thần kinh, hệ tuần hoàn và hệ bài tiết da để giữ thân nhiệt ổn định ở 37 °C",
+        "Cơ thể phản ứng hoàn toàn ngẫu nhiên",
+        "Hệ cơ quan bị rối loạn chức năng",
+        "Cơ thể đang bị mất kiểm soát"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cân bằng nội môi (Homeostasis): Khả năng tự động điều chỉnh các chỉ số sinh lí (nhiệt độ, đường huyết, huyết áp) luôn ở mức hằng số sinh học tối ưu cho sự sống.",
+        "socraticPrompt": "Hệ thần kinh phối hợp với mạch máu và tuyến mồ hôi để giữ thân nhiệt con người luôn ổn định ở mức bao nhiêu?",
+        "steps": "Cơ thể tự điều hoà nhiệt độ giữ ổn định khoảng 37 °C nhờ sự phối hợp nhịp nhàng các hệ cơ quan.",
+        "trap": "Run giật khi rét là phản xạ co cơ tự nhiên sinh nhiệt sưởi ấm, không phải bệnh co giật."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự chuyên hoá tế bào gốc",
+      "question": "Trong y học hiện đại, công nghệ 'Tế bào gốc' (Stem cells) được xem là cuộc cách mạng điều trị các bệnh nan y (liệt tuỷ sống, bỏng da, tiểu đường) nhờ vào tiềm năng sinh học nào?",
+      "options": [
+        "Tế bào gốc có thể biến thành thuốc kháng sinh dạng bột",
+        "Tế bào gốc là tế bào chưa biệt hoá, có khả năng tự nhân đôi liên tục và có thể phân hoá biệt hoá thành bất kì loại tế bào chuyên biệt nào (tế bào thần kinh, tế bào cơ tim, tế bào da) để thay thế tế bào tổn thương",
+        "Tế bào gốc tiêu diệt toàn bộ tế bào trong cơ thể người",
+        "Tế bào gốc chỉ tồn tại ở các loài bò sát"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tế bào gốc vạn năng có khả năng biệt hoá thành các loại tế bào chuyên trách của các mô cơ quan khác nhau để sửa chữa, tái sinh các mô bị hoại tử.",
+        "socraticPrompt": "Tế bào gốc chưa được phân công nhiệm vụ cụ thể có khả năng biến thành tế bào cơ tim hoặc da mới không?",
+        "steps": "Tế bào gốc chưa biệt hoá -> có thể phân hoá thành mọi tế bào chuyên biệt tái tạo cơ quan tổn thương.",
+        "trap": "Tế bào chuyên biệt (như hồng cầu, nơ-ron già) không thể tự biến thành tế bào khác, chỉ có tế bào gốc mới làm được."
+      }
+    }
+  ]
+}

@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch09_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Một vật có khối lượng $m = 2,5\\text{ kg}$ đặt trên mặt bàn nằm ngang. Trọng lượng của vật này bằng:",
-    "options": [
-      "A. $2,5\\text{ N}$",
-      "B. $25\\text{ N}$",
-      "C. $250\\text{ N}$",
-      "D. $0,25\\text{ N}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Công thức: $P = 10 \\times m = 10 \\times 2,5 = 25\\text{ N}$.\n💡 Khối lượng tính bằng kg nhân với 10 ra trọng lượng tính bằng N.\n⚠️ Nếu khối lượng cho bằng gam phải đổi ra kg trước khi tính."
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chủ đề 9: Lực & Biến đổi chuyển động — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c9_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính trọng lượng",
+      "question": "Một bao gạo có khối lượng ghi trên bao bì là 25 kg. Trọng lượng của bao gạo này khi đặt trên sàn nhà là bao nhiêu?",
+      "options": [
+        "2,5 N",
+        "25 N",
+        "250 N",
+        "2500 N"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Áp dụng công thức P = 10 · m = 10 · 25 = 250 N.",
+        "socraticPrompt": "Lấy khối lượng 25 nhân với 10 ta được kết quả bao nhiêu Niutơn?",
+        "steps": "P = 10 · 25 = 250 N.",
+        "trap": "Nhầm đơn vị 25 kg sang 25 N."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tác dụng biến đổi chuyển động",
+      "question": "Khi thủ môn dùng tay đẩy bóng bay chệch hướng khung thành cứu thua, lực tác dụng của bàn tay thủ môn đã gây ra hiện tượng gì cho quả bóng?",
+      "options": [
+        "Chỉ làm biến dạng quả bóng",
+        "Làm quả bóng tăng khối lượng lên gấp đôi",
+        "Làm quả bóng biến mất",
+        "Làm biến đổi hướng chuyển động của quả bóng và làm bóng biến dạng tạm thời"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lực tác dụng làm thay đổi phương chuyển động (đổi hướng bay) đồng thời làm quả bóng bị méo lõm tạm thời (biến dạng).",
+        "socraticPrompt": "Quả bóng đổi hướng bay và bị móp méo khi chạm găng tay thể hiện hai tác dụng nào của lực?",
+        "steps": "Đổi hướng chuyển động và biến dạng đàn hồi.",
+        "trap": "Khối lượng quả bóng luôn không đổi."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ma sát nghỉ có lợi",
+      "question": "Hiện tượng con người có thể bước đi vững vàng trên mặt đất mà không bị trượt ngã là nhờ tác dụng của lực nào?",
+      "options": [
+        "Lực ma sát nghỉ giữa đế giày và mặt đất",
+        "Trọng lực",
+        "Lực cản của không khí",
+        "Lực từ của Trái Đất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khi bước đi, chân đạp về phía sau, lực ma sát nghỉ đóng vai trò là lực phát động giữ chân bám đất đẩy cơ thể tiến lên phía trước.",
+        "socraticPrompt": "Đi trên băng trơn bóng không có ma sát ta có đi lại bình thường được không?",
+        "steps": "Lực ma sát nghỉ giữ đế giày bám mặt đường không bị trượt lùi.",
+        "trap": "Nghĩ rằng ma sát chỉ cản trở, thực tế ma sát nghỉ là lực đẩy giúp ta bước đi."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đo độ lớn lực bằng lực kế",
+      "question": "Treo một vật nặng vào lực kế lò xo, lò xo dãn ra và kim chỉ vạch 3,5 N. Khối lượng của vật nặng đó là bao nhiêu?",
+      "options": [
+        "35 kg",
+        "0,35 kg (350 g)",
+        "3,5 kg",
+        "350 kg"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Từ P = 10 · m suy ra m = P / 10 = 3,5 / 10 = 0,35 kg = 350 g.",
+        "socraticPrompt": "Lấy trọng lượng P chia cho 10 ta tìm được khối lượng m bằng bao nhiêu kg?",
+        "steps": "m = 3,5 / 10 = 0,35 kg = 350 gam.",
+        "trap": "Nhân 3,5 với 10 ra 35 kg (sai hướng biến đổi)."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Lực cản khí động học",
+      "question": "Tại sao đầu mũi tàu cao tốc, thân máy bay và cá bơi dưới nước đều có hình dạng thuôn nhọn (hình khí động học)?",
+      "options": [
+        "Để đẹp mắt và dễ sơn vẽ",
+        "Để tăng trọng lượng của phương tiện",
+        "Để giảm thiểu tối đa lực cản của không khí hoặc lực cản của nước khi di chuyển với tốc độ cao",
+        "Để chở được nhiều người hơn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hình dạng thon dài thuôn nhọn ở đầu (hình giọt nước/con thoi) giúp dòng khí hoặc nước lướt nhẹ qua thân, giảm lực cản môi trường đến mức thấp nhất.",
+        "socraticPrompt": "Mũi tên nhọn bay xé gió ít cản hơn tấm bảng phẳng đúng không?",
+        "steps": "Dáng khí động học giảm lực cản không khí và nước, giúp tăng tốc tiết kiệm nhiên liệu.",
+        "trap": "Mặt phẳng vuông góc sẽ chịu lực cản lớn nhất."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Biểu diễn vectơ lực",
+      "question": "Một người kéo một thùng gỗ trên sàn nhà bằng một lực kéo nằm ngang hướng từ trái sang phải với độ lớn 40 N. Chọn tỉ xích 1 cm ứng với 10 N, mũi tên biểu diễn vectơ lực này có chiều dài bao nhiêu cm?",
+      "options": [
+        "1 cm",
+        "2 cm",
+        "40 cm",
+        "4 cm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Chiều dài mũi tên = Độ lớn lực / Tỉ xích = 40 N / (10 N/cm) = 4 cm.",
+        "socraticPrompt": "Mỗi cm biểu diễn 10 N thì 40 N cần vẽ đoạn thẳng dài mấy cm?",
+        "steps": "40 / 10 = 4 cm.",
+        "trap": "Vẽ nguyên 40 cm quá dài tràn trang giấy."
+      }
+    }
+  ]
+}

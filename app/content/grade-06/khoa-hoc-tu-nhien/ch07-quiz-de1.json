@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch07_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Sinh vật nào sau đây là cơ thể đơn bào?",
-    "options": [
-      "A. Con giun đất",
-      "B. Cây hoa phượng",
-      "C. Trùng roi xanh",
-      "D. Con ve sầu"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Trùng roi xanh là sinh vật chỉ gồm một tế bào duy nhất có roi bơi và hạt diệp lục.\n💡 Giun đất, hoa phượng, ve sầu là cơ thể đa bào cấu tạo từ hàng triệu tế bào.\n⚠️ Ghi nhớ các đại diện đơn bào: trùng roi, trùng giày, vi khuẩn."
-  },
-  {
-    "id": "khtn6_ch07_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Tập hợp các tế bào có cấu tạo tương tự nhau cùng phối hợp thực hiện một chức năng xác định được gọi là:",
-    "options": [
-      "A. Bào quan",
-      "B. Mô",
-      "C. Cơ quan",
-      "D. Hệ cơ quan"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Mô là cấp độ tổ chức đứng ngay trên tế bào, do tập hợp nhiều tế bào cùng loại tạo thành.\n💡 Ví dụ: mô cơ gồm các tế bào cơ.\n⚠️ Nhiều mô kết hợp mới thành cơ quan."
-  }
-]
+{
+  "chapterId": "ch07",
+  "title": "Chủ đề 7: Từ tế bào đến cơ thể — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c7_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm đơn bào",
+      "question": "Sinh vật nào sau đây là một cơ thể ĐƠN BÀO?",
+      "options": [
+        "Trùng roi xanh",
+        "Cây ngô",
+        "Con thỏ",
+        "Con giun đất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trùng roi xanh có cơ thể chỉ cấu tạo từ một tế bào duy nhất thực hiện mọi chức năng sống.",
+        "socraticPrompt": "Sinh vật hiển vi nào chỉ gồm một tế bào có roi bơi di chuyển trong giọt nước?",
+        "steps": "Trùng roi xanh là sinh vật đơn bào.",
+        "trap": "Cây ngô, thỏ, giun đất là cơ thể đa bào gồm hàng triệu tế bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Định nghĩa mô",
+      "question": "Trong cơ thể sinh vật đa bào, 'Mô' được định nghĩa là gì?",
+      "options": [
+        "Tập hợp các cơ quan khác nhau",
+        "Tập hợp các tế bào có cùng hình dạng, cấu tạo và cùng thực hiện một chức năng nhất định",
+        "Toàn bộ chất lỏng bên trong tế bào",
+        "Một loại vi khuẩn sống kí sinh"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mô là tập hợp các tế bào có cấu trúc và chức năng tương tự nhau (như mô cơ, mô biểu bì).",
+        "socraticPrompt": "Nhóm các tế bào giống nhau về hình dạng và phối hợp cùng làm một nhiệm vụ gọi là gì?",
+        "steps": "Mô là tập hợp tế bào cùng cấu tạo và chức năng.",
+        "trap": "Tập hợp các cơ quan gọi là hệ cơ quan."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thứ tự các cấp độ tổ chức sống",
+      "question": "Thứ tự sắp xếp các cấp độ tổ chức sống trong cơ thể đa bào từ THẤP đến CAO là gì?",
+      "options": [
+        "Cơ thể -> Hệ cơ quan -> Cơ quan -> Mô -> Tế bào",
+        "Mô -> Tế bào -> Hệ cơ quan -> Cơ quan -> Cơ thể",
+        "Tế bào -> Mô -> Cơ quan -> Hệ cơ quan -> Cơ thể",
+        "Tế bào -> Cơ quan -> Mô -> Hệ cơ quan -> Cơ thể"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "5 cấp độ từ nhỏ đến lớn: Tế bào ➔ Mô ➔ Cơ quan ➔ Hệ cơ quan ➔ Cơ thể.",
+        "socraticPrompt": "Bắt đầu từ đơn vị nhỏ nhất là tế bào, sau đó tạo thành mô, rồi đến gì?",
+        "steps": "Tế bào -> Mô -> Cơ quan -> Hệ cơ quan -> Cơ thể.",
+        "trap": "Nhớ đừng đảo ngược mô với cơ quan."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Cơ quan sinh dưỡng ở thực vật",
+      "question": "Bộ phận nào sau đây ở cây xanh có hoa thuộc nhóm CƠ QUAN SINH DƯỠNG?",
+      "options": [
+        "Bông hoa",
+        "Quả cam",
+        "Hạt đỗ",
+        "Lá cây"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cơ quan sinh dưỡng của thực vật gồm rễ, thân, lá (làm nhiệm vụ quang hợp, hút nước và nuôi cây). Hoa, quả, hạt là cơ quan sinh sản.",
+        "socraticPrompt": "Lá, thân, rễ làm nhiệm vụ nuôi dưỡng cơ thể cây được xếp vào nhóm cơ quan nào?",
+        "steps": "Lá cây là cơ quan sinh dưỡng; hoa quả hạt là cơ quan sinh sản.",
+        "trap": "Hoa và quả là cơ quan sinh sản, duy trì nòi giống."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ví dụ về cơ quan ở người",
+      "question": "Đối tượng nào sau đây được xem là một CƠ QUAN trong cơ thể người?",
+      "options": [
+        "Dạ dày",
+        "Tế bào biểu bì niêm mạc",
+        "Mô liên kết",
+        "Hệ hô hấp"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Dạ dày là một cơ quan được cấu tạo từ nhiều loại mô (mô cơ trơn, mô biểu bì, mô thần kinh) phối hợp tiêu hoá thức ăn.",
+        "socraticPrompt": "Tim, phổi, dạ dày, não bộ được xếp ở cấp độ tổ chức nào?",
+        "steps": "Dạ dày là một cơ quan thuộc hệ tiêu hoá.",
+        "trap": "Hệ hô hấp là hệ cơ quan; tế bào là cấp độ nhỏ nhất."
+      }
+    },
+    {
+      "id": "q_khtn6_c7_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hệ cơ quan ở động vật",
+      "question": "Hệ cơ quan nào ở người có chức năng vận chuyển chất dinh dưỡng và khí oxygen đến từng tế bào, đồng thời đưa chất thải đến các cơ quan bài tiết?",
+      "options": [
+        "Hệ thần kinh",
+        "Hệ tuần hoàn",
+        "Hệ tiêu hoá",
+        "Hệ vận động"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hệ tuần hoàn gồm tim và hệ thống mạch máu, có nhiệm vụ bơm máu vận chuyển oxy, dinh dưỡng và chất thải khắp cơ thể.",
+        "socraticPrompt": "Tim co bóp đẩy máu chảy trong các mạch máu thuộc hệ nào?",
+        "steps": "Hệ tuần hoàn thực hiện vận chuyển máu và các chất.",
+        "trap": "Hệ hô hấp trao đổi khí ở phổi; hệ tuần hoàn mới là hệ thống vận chuyển máu đến từng tế bào."
+      }
+    }
+  ]
+}

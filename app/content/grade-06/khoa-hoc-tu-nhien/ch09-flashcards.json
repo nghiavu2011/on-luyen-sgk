@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Lực là gì? Đơn vị đo của lực trong hệ SI?",
-    "back": "Lực là tác dụng đẩy hoặc kéo của vật này lên vật khác. Đơn vị đo lực là Niutơn (N).",
-    "tags": [
-      "Lực",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Lực tác dụng lên một vật có thể gây ra những kết quả nào?",
-    "back": "1. Làm biến đổi chuyển động của vật (nhanh lên, chậm đi, đổi hướng); 2. Làm vật bị biến dạng; hoặc cả hai.",
-    "tags": [
-      "Tác dụng của lực",
-      "Vật lí"
-    ]
-  },
-  {
-    "front": "Dụng cụ dùng để đo độ lớn của lực là gì?",
-    "back": "Lực kế (thường là lực kế lò xo).",
-    "tags": [
-      "Lực kế",
-      "Dụng cụ"
-    ]
-  },
-  {
-    "front": "Ba yếu tố để biểu diễn một vectơ lực?",
-    "back": "Gốc (điểm đặt của lực), Phương và chiều, Độ lớn (theo một tỉ xích cho trước).",
-    "tags": [
-      "Vectơ lực",
-      "Biểu diễn"
-    ]
-  },
-  {
-    "front": "Phân biệt lực tiếp xúc và lực không tiếp xúc?",
-    "back": "Lực tiếp xúc xuất hiện khi các vật chạm vào nhau (lực đẩy xe, đá bóng); Lực không tiếp xúc xuất hiện ngay cả khi không chạm nhau (lực hút Trái Đất, lực từ của nam châm).",
-    "tags": [
-      "Phân loại lực",
-      "Tiếp xúc"
-    ]
-  },
-  {
-    "front": "Trọng lượng ($P$) của một vật là gì và liên hệ với khối lượng ($m$) thế nào?",
-    "back": "Trọng lượng là độ lớn của lực hút Trái Đất tác dụng lên vật. Công thức: $P = 10 \\times m$ (với $m$ tính bằng kg, $P$ tính bằng N).",
-    "tags": [
-      "Trọng lượng",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Lực ma sát là gì? Kể 3 loại ma sát thường gặp.",
-    "back": "Lực cản trở chuyển động của vật khi tiếp xúc bề mặt vật khác. Gồm: ma sát trượt, ma sát lăn, ma sát nghỉ.",
-    "tags": [
-      "Lực ma sát",
-      "Cơ học"
-    ]
-  },
-  {
-    "front": "Lực ma sát có lợi hay có hại trong đời sống?",
-    "back": "Cả hai: Có lợi giúp người đi lại không trượt ngã, xe phanh dừng lại được; Có hại làm mòn lốp xe, nóng máy, cản trở chuyển động.",
-    "tags": [
-      "Ma sát",
-      "Thực tiễn"
-    ]
-  },
-  {
-    "front": "Cách làm giảm lực ma sát có hại trong máy móc?",
-    "back": "Tra dầu mỡ bôi trơn, dùng ổ bi (chuyển ma sát trượt thành ma sát lăn), làm nhẵn bề mặt tiếp xúc.",
-    "tags": [
-      "Giảm ma sát",
-      "Kỹ thuật"
-    ]
-  },
-  {
-    "front": "Tại sao rãnh khía trên lốp xe máy và đế giày dép lại có ích?",
-    "back": "Để tăng ma sát giữa lốp/đế với mặt đường, chống trơn trượt khi di chuyển trời mưa hoặc cua gấp.",
-    "tags": [
-      "Đế giày",
-      "Tăng ma sát"
-    ]
-  },
-  {
-    "front": "Lực cản của nước tác dụng lên tàu ngầm hay cá bơi có hình dạng gì để giảm lực cản?",
-    "back": "Hình dạng thuôn nhọn (dạng khí động học/thuỷ động học) giúp giảm ma sát và lực cản của chất lỏng.",
-    "tags": [
-      "Lực cản",
-      "Thuỷ động học"
-    ]
-  },
-  {
-    "front": "Một quả cân có khối lượng $500\\text{ g}$ thì có trọng lượng khoảng bao nhiêu?",
-    "back": "$m = 0,5\\text{ kg} \\Rightarrow P = 10 \\times 0,5 = 5\\text{ N}$.",
-    "tags": [
-      "Tính toán",
-      "Trọng lượng"
-    ]
-  }
-]
+{
+  "chapterId": "ch09",
+  "flashcards": [
+    {
+      "id": "fc_khtn6_c9_01",
+      "front": "Lực là gì? Đơn vị và dụng cụ đo lực?",
+      "back": "Lực là tác dụng đẩy hoặc kéo của vật này lên vật khác. Đơn vị đo là Niutơn (N). Dụng cụ đo là lực kế lò xo.",
+      "category": "Khái niệm lực",
+      "example": "Lực kéo đầu tàu hỏa, lực đẩy của pittông.",
+      "mnemonic": "Đẩy và kéo là sinh lực - Đơn vị Niutơn (N)."
+    },
+    {
+      "id": "fc_khtn6_c9_02",
+      "front": "Hai tác dụng có thể xảy ra khi lực tác dụng lên vật?",
+      "back": "1. Làm biến đổi chuyển động của vật (nhanh lên, chậm lại, đổi hướng). 2. Làm vật bị biến dạng (móp méo, co dãn).",
+      "category": "Tác dụng của lực",
+      "example": "Sút bóng làm bóng bay đi và bóng bị lõm méo.",
+      "mnemonic": "Biến đổi chuyển động và Biến dạng vật thể."
+    },
+    {
+      "id": "fc_khtn6_c9_03",
+      "front": "Phân biệt lực tiếp xúc và lực không tiếp xúc?",
+      "back": "Tiếp xúc: hai vật chạm trực tiếp vào nhau (lực cơ bắp, ma sát). Không tiếp xúc: tác dụng qua không gian từ xa (trọng lực, lực từ nam châm).",
+      "category": "Phân loại lực",
+      "example": "Đá bóng (tiếp xúc); Nam châm hút đinh sắt từ xa (không tiếp xúc).",
+      "mnemonic": "Có chạm là tiếp xúc - Tác dụng từ xa là không tiếp xúc."
+    },
+    {
+      "id": "fc_khtn6_c9_04",
+      "front": "Lực ma sát là gì? Có mấy loại ma sát cơ bản?",
+      "back": "Lực cản trở chuyển động xuất hiện tại bề mặt tiếp xúc giữa hai vật. Gồm: ma sát trượt, ma sát lăn, ma sát nghỉ.",
+      "category": "Lực ma sát",
+      "example": "Phanh xe làm má phanh trượt trên vành bánh xe.",
+      "mnemonic": "Bề mặt tiếp xúc cản trở trượt lăn."
+    },
+    {
+      "id": "fc_khtn6_c9_05",
+      "front": "Kể tên cách tăng ma sát có lợi và giảm ma sát có hại?",
+      "back": "Tăng ma sát: khía rãnh lốp xe, rải cát chống trơn. Giảm ma sát: tra dầu mỡ bôi trơn, dùng ổ bi lăn.",
+      "category": "Ứng dụng ma sát",
+      "example": "Xích líp xe tra dầu đi rất nhẹ; lốp xe khía rãnh bám đường.",
+      "mnemonic": "Bôi dầu giảm mòn - Khía rãnh chống trơn."
+    },
+    {
+      "id": "fc_khtn6_c9_06",
+      "front": "Khối lượng và trọng lượng khác nhau thế nào?",
+      "back": "Khối lượng: lượng chất chứa trong vật (kg, đo bằng cân, không đổi). Trọng lượng: độ lớn lực hút Trái Đất (N, đo bằng lực kế, thay đổi theo vị trí).",
+      "category": "Khối lượng & Trọng lượng",
+      "example": "Vật 1 kg trên Trái Đất có trọng lượng 10 N.",
+      "mnemonic": "Khối lượng lượng chất không đổi - Trọng lượng lực hút Niutơn."
+    },
+    {
+      "id": "fc_khtn6_c9_07",
+      "front": "Công thức liên hệ giữa trọng lượng P và khối lượng m?",
+      "back": "P = 10 · m (với m tính bằng kg, P tính bằng N).",
+      "category": "Công thức",
+      "example": "Học sinh 40 kg có trọng lượng P = 10 · 40 = 400 N.",
+      "mnemonic": "P bằng mười lần mờ (P = 10m)."
+    },
+    {
+      "id": "fc_khtn6_c9_08",
+      "front": "Đặc điểm của trọng lực tác dụng lên vật?",
+      "back": "Điểm đặt tại trọng tâm của vật; Phương thẳng đứng; Chiều từ trên xuống dưới (hướng về tâm Trái Đất).",
+      "category": "Trọng lực",
+      "example": "Quả dọi thợ xây buông thẳng đứng chỉ phương trọng lực.",
+      "mnemonic": "Phương thẳng đứng - Chiều hướng tâm Trái Đất."
+    },
+    {
+      "id": "fc_khtn6_c9_09",
+      "front": "Tại sao đầu mũi tàu xe máy bay có dạng khí động học?",
+      "back": "Dạng thuôn nhọn giúp giảm tối đa lực cản của không khí hoặc nước, giúp chuyển động nhanh và tiết kiệm nhiên liệu.",
+      "category": "Lực cản môi trường",
+      "example": "Mũi tàu cao tốc Shinkansen thuôn dài như mỏ chim bói cá.",
+      "mnemonic": "Mũi thuôn lướt gió - Xé cản lao nhanh."
+    },
+    {
+      "id": "fc_khtn6_c9_10",
+      "front": "Tính chất biến dạng của lò xo trong giới hạn đàn hồi?",
+      "back": "Độ dãn của lò xo treo thẳng đứng tỉ lệ thuận với khối lượng của vật treo (hoặc lực kéo tác dụng).",
+      "category": "Biến dạng đàn hồi",
+      "example": "Treo 1 quả cân dãn 1 cm thì treo 2 quả cân dãn 2 cm.",
+      "mnemonic": "Treo nặng gấp đôi - Lò xo dãn gấp hai."
+    }
+  ]
+}

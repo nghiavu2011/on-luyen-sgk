@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Vật liệu nào sau đây có tính chất dẫn nhiệt tốt và dẫn điện tốt?",
-    "options": [
-      "A. Cao su",
-      "B. Nhựa plastic",
-      "C. Đồng, nhôm (kim loại)",
-      "D. Thuỷ tinh"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Các kim loại như đồng, nhôm, sắt có khả năng dẫn điện và dẫn nhiệt tuyệt vời.\n💡 Cao su, nhựa, thuỷ tinh là chất cách điện, cách nhiệt.\n⚠️ Ứng dụng: Dây điện lõi đồng bọc nhựa cách điện."
-  },
-  {
-    "id": "khtn6_ch04_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Loại nhiên liệu nào sau đây thuộc nhóm nhiên liệu tái tạo thân thiện với môi trường?",
-    "options": [
-      "A. Than đá",
-      "B. Dầu mỏ",
-      "C. Khí thiên nhiên",
-      "D. Khí sinh học (Biogas)"
-    ],
-    "answer": 3,
-    "explanation": "📌 Khái niệm: Khí biogas sản xuất từ ủ phân và chất thải hữu cơ, có thể tái tạo liên tục và giảm thiểu ô nhiễm.\n💡 Than đá, dầu mỏ, khí tự nhiên là nhiên liệu hoá thạch hữu hạn.\n⚠️ Khí sinh học là xu hướng năng lượng xanh ở nông thôn."
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Vật liệu, Nhiên liệu & Nguyên liệu — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c4_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc tính của cao su",
+      "question": "Tính chất đặc trưng nổi bật nhất của vật liệu cao su là gì?",
+      "options": [
+        "Tính dẫn điện rất tốt",
+        "Tính giòn, dễ vỡ vụn khi va chạm nhẹ",
+        "Tính đàn hồi cao (biến dạng khi kéo căng và co lại hình dạng ban đầu khi thả ra)",
+        "Tính trong suốt cho ánh sáng đi qua hoàn toàn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Cao su có tính đàn hồi vượt trội, không thấm nước và cách điện tốt, chuyên dùng sản xuất lốp xe, nệm, găng tay.",
+        "socraticPrompt": "Vật liệu làm săm lốp xe có khả năng đàn hồi co giãn linh hoạt là gì?",
+        "steps": "Cao su có tính đàn hồi cao và không thấm nước.",
+        "trap": "Thủy tinh mới giòn dễ vỡ; kim loại mới dẫn điện tốt."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phân loại nhiên liệu",
+      "question": "Dãy nhiên liệu nào sau đây đều thuộc nhóm nhiên liệu RẮN?",
+      "options": [
+        "Xăng, dầu diesel, cồn y tế",
+        "Khí gas (LPG), khí biogas, khí thiên nhiên",
+        "Dầu hoả, khí methan, củi khô",
+        "Than đá, than củi, gỗ, rơm rạ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nhiên liệu rắn tồn tại ở thể rắn ở nhiệt độ thường như than đá, than bùn, củi gỗ, rơm rạ.",
+        "socraticPrompt": "Than đá và củi tồn tại ở thể gì?",
+        "steps": "Than đá, than củi, củi gỗ thuộc nhiên liệu rắn.",
+        "trap": "Xăng dầu là nhiên liệu lỏng; gas là nhiên liệu khí."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguyên liệu sản xuất xi măng",
+      "question": "Nguyên liệu tự nhiên chính được khai thác từ các dãy núi để sản xuất xi măng và vôi quét tường là gì?",
+      "options": [
+        "Đá vôi",
+        "Cát thạch anh",
+        "Quặng bauxite",
+        "Than chì"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đá vôi (thành phần chính CaCO3) kết hợp đất sét là nguyên liệu nung clanhke sản xuất xi măng và nung vôi tôi.",
+        "socraticPrompt": "Các nhà máy xi măng thường xây gần các dãy núi nào?",
+        "steps": "Đá vôi là nguyên liệu chính sản xuất vôi và xi măng.",
+        "trap": "Cát thạch anh dùng sản xuất thủy tinh."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vật liệu cách điện",
+      "question": "Vật liệu nào sau đây có tính dẫn nhiệt tốt và dẫn điện tốt nhất?",
+      "options": [
+        "Chất dẻo (nhựa PVC)",
+        "Kim loại (đồng, nhôm, sắt)",
+        "Thủy tinh",
+        "Gỗ khô"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Kim loại có các electron tự do nên dẫn điện và dẫn nhiệt rất tốt.",
+        "socraticPrompt": "Dây điện gia đình bên trong lõi làm bằng chất gì để dẫn điện?",
+        "steps": "Kim loại dẫn điện và dẫn nhiệt tốt nhất.",
+        "trap": "Nhựa, gỗ, thủy tinh là các vật liệu cách điện."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Mô hình 3R",
+      "question": "Trong mô hình 3R về bảo vệ môi trường, chữ R thứ ba 'Recycle' có nghĩa là gì?",
+      "options": [
+        "Giảm thiểu rác thải",
+        "Tái sử dụng nhiều lần",
+        "Tái chế rác thành vật liệu mới",
+        "Chôn lấp rác"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "3R: Reduce (Giảm thiểu) - Reuse (Tái sử dụng) - Recycle (Tái chế rác thành nguyên liệu mới).",
+        "socraticPrompt": "Recycle dịch sang tiếng Việt trong xử lý rác là gì?",
+        "steps": "Recycle là tái chế phế liệu thành sản phẩm mới.",
+        "trap": "Reuse là tái sử dụng; Reduce là giảm thiểu."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Năng lượng tái tạo",
+      "question": "Nguồn năng lượng nào sau đây là nguồn năng lượng sạch và có thể tái tạo?",
+      "options": [
+        "Năng lượng từ than đá",
+        "Năng lượng từ khí tự nhiên",
+        "Năng lượng từ dầu mỏ",
+        "Năng lượng mặt trời và năng lượng gió"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Năng lượng mặt trời và gió là tài nguyên tái tạo vô tận, không phát thải khí nhà kính.",
+        "socraticPrompt": "Nắng và gió có bao giờ bị con người dùng cạn kiệt không?",
+        "steps": "Năng lượng mặt trời và gió là năng lượng tái tạo sạch.",
+        "trap": "Than đá và dầu mỏ là năng lượng hoá thạch không thể tái tạo."
+      }
+    }
+  ]
+}

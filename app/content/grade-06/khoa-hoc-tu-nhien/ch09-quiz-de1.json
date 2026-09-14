@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch09_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Đơn vị đo độ lớn của lực trong hệ thống đo lường quốc tế (SI) là gì?",
-    "options": [
-      "A. Kilôgam (kg)",
-      "B. Mét (m)",
-      "C. Niutơn (N)",
-      "D. Giây (s)"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Đơn vị của lực mang tên nhà bác học Isaac Newton, kí hiệu là N.\n💡 Kilôgam là đơn vị đo khối lượng.\n⚠️ Phân biệt rõ đơn vị đo khối lượng và lực."
-  },
-  {
-    "id": "khtn6_ch09_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Trường hợp nào sau đây xuất hiện lực KHÔNG tiếp xúc?",
-    "options": [
-      "A. Vận động viên dùng chân sút quả bóng bay lên",
-      "B. Nam châm hút một chiếc đinh sắt từ xa",
-      "C. Tay kéo chiếc lò xo dãn ra",
-      "D. Gió thổi cánh buồm căng phồng"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phân loại: Lực từ của nam châm tác dụng xuyên qua không gian mà không cần nam châm phải chạm trực tiếp vào đinh sắt.\n💡 Đá bóng, kéo lò xo, gió thổi đều cần có sự tiếp xúc trực tiếp giữa các bề mặt.\n⚠️ Lực hấp dẫn và lực từ là ví dụ điển hình của lực không tiếp xúc."
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chủ đề 9: Lực & Biến đổi chuyển động — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c9_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị đo lực",
+      "question": "Đơn vị hợp pháp để đo độ lớn của lực trong hệ SI là gì?",
+      "options": [
+        "Niutơn (N)",
+        "Mét (m)",
+        "Kilôgam (kg)",
+        "Jun (J)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Lực được đo bằng đơn vị Niutơn, kí hiệu là N (đặt theo tên nhà bác học Isaac Newton).",
+        "socraticPrompt": "Đơn vị đo lực mang tên nhà bác học tìm ra quả táo rơi là gì?",
+        "steps": "Đơn vị đo lực là Niutơn (N).",
+        "trap": "Kilôgam là đơn vị khối lượng; Jun là đơn vị năng lượng."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Lực không tiếp xúc",
+      "question": "Trường hợp nào sau đây xuất hiện LỰC KHÔNG TIẾP XÚC?",
+      "options": [
+        "Bàn tay đẩy cánh cửa mở ra",
+        "Quả táo rụng trên cành tự do rơi xuống mặt đất do lực hút của Trái Đất",
+        "Chân sút bóng bay đi",
+        "Dùng búa gõ đinh ngập vào gỗ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trọng lực của Trái Đất tác dụng lên quả táo xuyên qua không gian mà Trái Đất không cần chạm vào quả táo trên cây.",
+        "socraticPrompt": "Quả táo lơ lửng trên cành cây bị Trái Đất hút rơi xuống có cần chạm đất trước khi rơi không?",
+        "steps": "Lực hút Trái Đất tác dụng từ xa là lực không tiếp xúc.",
+        "trap": "Búa đập đinh hay tay đẩy cửa đều là lực tiếp xúc cơ học."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức liên hệ P và m",
+      "question": "Công thức liên hệ giữa trọng lượng P (đơn vị N) và khối lượng m (đơn vị kg) của một vật trên bề mặt Trái Đất là gì?",
+      "options": [
+        "P = m / 10",
+        "P = m + 10",
+        "P = 10 · m",
+        "P = 10 / m"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trọng lượng gần đúng bằng 10 lần khối lượng: P = 10 · m.",
+        "socraticPrompt": "Một vật nặng 1 kg trên Trái Đất chịu lực hút bằng khoảng bao nhiêu Niutơn?",
+        "steps": "P = 10 · m (với m tính bằng kg, P tính bằng N).",
+        "trap": "Lấy m chia 10 là sai chiều tính."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Dụng cụ đo lực",
+      "question": "Để đo độ lớn của lực kéo trong phòng thực hành, người ta dùng dụng cụ nào?",
+      "options": [
+        "Nhiệt kế",
+        "Bình chia độ",
+        "Cân điện tử",
+        "Lực kế lò xo"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lực kế lò xo hoạt động dựa trên độ dãn của lò xo tỉ lệ với độ lớn lực kéo.",
+        "socraticPrompt": "Dụng cụ có lò xo và thang chia vạch Niutơn dùng để đo lực gọi là gì?",
+        "steps": "Lực kế lò xo chuyên dùng đo lực.",
+        "trap": "Cân điện tử dùng đo khối lượng; bình chia độ đo thể tích."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phương chiều của trọng lực",
+      "question": "Trọng lực tác dụng lên một vật trên mặt đất có phương và chiều như thế nào?",
+      "options": [
+        "Phương thẳng đứng, chiều từ trên xuống dưới (hướng về tâm Trái Đất)",
+        "Phương xiên 45 độ",
+        "Phương nằm ngang, chiều từ trái sang phải",
+        "Phương thẳng đứng, chiều từ dưới lên trên"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trọng lực luôn có phương thẳng đứng (phương dây dọi) và chiều hướng về tâm Trái Đất (từ trên xuống).",
+        "socraticPrompt": "Sợi dây dọi của thợ xây buông tự do chỉ phương gì và chiều hướng về đâu?",
+        "steps": "Phương thẳng đứng, chiều hướng xuống dưới về tâm Trái Đất.",
+        "trap": "Lực đẩy Ac-si-met mới có chiều từ dưới lên trên."
+      }
+    },
+    {
+      "id": "q_khtn6_c9_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Giảm ma sát có hại",
+      "question": "Hành động nào sau đây nhằm mục đích GIẢM ma sát có hại trong kĩ thuật?",
+      "options": [
+        "Tạo các khía rãnh sâu trên lốp xe",
+        "Tra dầu mỡ bôi trơn vào xích líp và ổ bi của xe đạp",
+        "Bôi nhựa thông vào dây cung vĩ cầm",
+        "Rải cát lên sàn nhà bị trơn ướt"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dầu mỡ tạo màng trơn ngăn tiếp xúc trực tiếp giữa các mặt kim loại, giảm ma sát trượt và chống mòn máy móc.",
+        "socraticPrompt": "Xe đạp đi nặng xích kêu cót két, nhỏ dầu nhớt vào xích để làm gì?",
+        "steps": "Tra dầu mỡ bôi trơn giúp giảm ma sát và mài mòn.",
+        "trap": "Khía rãnh hay rải cát là để tăng ma sát chống trượt."
+      }
+    }
+  ]
+}

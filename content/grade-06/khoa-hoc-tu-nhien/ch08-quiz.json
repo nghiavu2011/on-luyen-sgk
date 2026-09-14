@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch08_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Để phòng chống các bệnh truyền nhiễm nguy hiểm do vi khuẩn gây ra, việc sử dụng thuốc kháng sinh cần tuân thủ nguyên tắc sống còn nào sau đây?",
-    "options": [
-      "A. Tự ý mua kháng sinh uống ngay khi mới chớm cảm sốt nhẹ do virus cúm",
-      "B. Uống đúng liều lượng, đủ ngày theo đơn của bác sĩ dù thấy triệu chứng đã đỡ",
-      "C. Uống liều gấp đôi để bệnh mau khỏi",
-      "D. Đổi thuốc liên tục mỗi ngày"
-    ],
-    "answer": 1,
-    "explanation": "📌 Y học thường thức: Dùng kháng sinh bừa bãi sẽ dẫn đến hiện tượng 'kháng kháng sinh' (vi khuẩn kháng thuốc cực kì nguy hiểm), và kháng sinh hoàn toàn vô tác dụng đối với virus.\n💡 Phải dùng đủ liệu trình theo chỉ định của bác sĩ.\n⚠️ Cảnh báo bẫy: Tuyệt đối không dùng kháng sinh chữa bệnh do virus."
-  },
-  {
-    "id": "khtn6_ch08_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Có 4 loài sinh vật: Cây bưởi, Nấm rơm, Trùng giày, Con hươu sao. Nếu dùng khoá lưỡng phân để phân chia 4 loài trên theo tiêu chí: 'Có khả năng quang hợp' và 'Cơ thể đa bào hay đơn bào', loài nào sẽ tách ra đầu tiên nhờ tiêu chí 'Cơ thể đơn bào'?",
-    "options": [
-      "A. Cây bưởi",
-      "B. Nấm rơm",
-      "C. Trùng giày",
-      "D. Con hươu sao"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khóa lưỡng phân: Trùng giày là cơ thể đơn bào duy nhất trong 4 loài trên, sẽ được tách ra đầu tiên ở bước phân loại kích thước/cấu tạo cơ thể.\n💡 Cây bưởi, nấm rơm, hươu sao đều là cơ thể đa bào.\n⚠️ Bậc tư duy cao: Áp dụng phương pháp khóa lưỡng phân chuẩn KHTN 6."
-  }
-]
+{
+  "chapterId": "ch08",
+  "title": "Chủ đề 8: Đa dạng thế giới sống — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c8_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Kháng kháng sinh toàn cầu",
+      "question": "Tổ chức Y tế Thế giới (WHO) cảnh báo hiện tượng 'Kháng kháng sinh' (Superbugs - Siêu vi khuẩn) là một trong những mối đe doạ y tế lớn nhất của nhân loại. Nguyên nhân chính bắt nguồn từ hành vi nào của con người?",
+      "options": [
+        "Tập thể dục thể thao quá nhiều",
+        "Tiêm vắc-xin đầy đủ",
+        "Lạm dụng thuốc kháng sinh bừa bãi (tự ý mua uống khi chưa có chỉ định, không uống đủ liều, dùng kháng sinh tràn lan trong chăn nuôi) tạo áp lực chọn lọc khiến vi khuẩn biến dị kháng thuốc",
+        "Ăn nhiều rau xanh và uống nhiều nước cất"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Kháng kháng sinh xảy ra khi vi khuẩn biến đổi kháng lại thuốc do con người dùng thuốc sai cách, bỏ dở giữa chừng hoặc dùng liều thấp trong thức ăn gia súc.",
+        "socraticPrompt": "Uống kháng sinh 2 ngày thấy đỡ rồi tự ý dừng thuốc làm các con vi khuẩn còn sót lại sẽ bị làm sao?",
+        "steps": "Vi khuẩn sót lại thích nghi và truyền gen kháng thuốc cho thế hệ sau tạo siêu vi khuẩn kháng thuốc.",
+        "trap": "Tiêm vắc-xin giúp tăng đề kháng, không gây kháng kháng sinh."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Cơ chế vắc-xin phòng bệnh virus",
+      "question": "Vắc-xin (vaccine) giúp cơ thể người chủ động phòng chống các bệnh truyền nhiễm nguy hiểm do virus (như sởi, bại liệt, COVID-19) dựa trên cơ chế miễn dịch nào?",
+      "options": [
+        "Vắc-xin trực tiếp dùng hoá chất tiêu diệt hết virus trong máu ngay lập tức",
+        "Vắc-xin làm tăng nhiệt độ cơ thể vĩnh viễn lên 40 °C",
+        "Vắc-xin bọc một lớp áo giáp sắt xung quanh tế bào phổi",
+        "Đưa kháng nguyên (virus đã làm suy yếu, bất hoạt hoặc một mảnh protein gai) vào cơ thể để tập dượt cho hệ miễn dịch sản sinh kháng thể và tế bào nhớ, giúp tiêu diệt mầm bệnh thật nhanh chóng khi tiếp xúc"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Vắc-xin kích hoạt phản ứng miễn dịch tập dượt: Tạo ra tế bào lympho B và T nhớ. Khi virus thật xâm nhập, kháng thể được sản xuất ồ ạt tiêu diệt mầm bệnh ngay trước khi kịp phát bệnh.",
+        "socraticPrompt": "Vắc-xin đóng vai trò như 'quân xanh' để cơ thể tập dượt tạo ra vũ khí phòng thủ gì?",
+        "steps": "Kích thích tạo kháng thể và tế bào ghi nhớ miễn dịch bảo vệ cơ thể lâu dài.",
+        "trap": "Vắc-xin không phải là thuốc kháng sinh diệt mầm bệnh trực tiếp."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hạt trần và Hạt kín",
+      "question": "Nón của cây thông thường bị nhiều người gọi nhầm là 'Quả thông'. Dưới góc độ sinh học chính xác, vì sao cây thông KHÔNG THỂ có quả thật sự?",
+      "options": [
+        "Vì cây thông thuộc ngành Hạt trần, noãn không được bao bọc kín trong bầu nhuỵ (chưa có hoa thật sự), do đó hạt nằm lộ trần trên các lá noãn hở của nón nên không hình thành quả thịt bọc hạt",
+        "Vì cây thông không có hạt",
+        "Vì cây thông quá cao nên quả bị gió thổi rụng hết",
+        "Vì cây thông chỉ sinh sản vô tính bằng rễ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quả do bầu nhuỵ của hoa phát triển thành. Hạt trần chưa có hoa và bầu nhuỵ kín, noãn nằm lộ trần trên vảy nón nên không bao giờ có quả thật sự.",
+        "socraticPrompt": "Hạt của cây thông nằm hở trên các vảy nón hay nằm kín bên trong một quả thịt?",
+        "steps": "Chưa có bầu nhuỵ kín -> hạt nằm trần -> không có quả thật sự (chỉ có nón chứa hạt).",
+        "trap": "Dân gian quen gọi 'quả thông' nhưng thực vật học xếp nó là nón (nón đực và nón cái)."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bảo tồn đa dạng sinh học",
+      "question": "Biện pháp nào sau đây thể hiện chiến lược bảo tồn đa dạng sinh học 'chuyển chỗ' (Ex-situ conservation)?",
+      "options": [
+        "Thành lập Vườn quốc gia Cúc Phương để bảo vệ rừng nguyên sinh tại chỗ",
+        "Thu thập hạt giống cây quý hiếm lưu giữ trong Ngân hàng hạt giống lạnh và nuôi dưỡng thú quý tại Vườn thú, Trung tâm cứu hộ sinh vật",
+        "Thả động vật hoang dã về môi trường rừng tự nhiên vốn có của chúng",
+        "Khoanh nuôi bảo vệ khu bảo tồn biển đảo Cù Lao Chàm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Bảo tồn chuyển chỗ (Ex-situ) là đưa cá thể, hạt giống ra khỏi môi trường sống tự nhiên để chăm sóc, nhân giống trong vườn bách thảo, ngân hàng gen.",
+        "socraticPrompt": "Mang hạt giống hoặc con thú quý hiếm về nuôi cấy trong ngân hàng gen hoặc sở thú gọi là bảo tồn tại chỗ hay chuyển chỗ?",
+        "steps": "Bảo tồn ngoài sinh cảnh tự nhiên (ngân hàng giống, vườn thú) là bảo tồn chuyển chỗ.",
+        "trap": "Vườn quốc gia là bảo tồn tại chỗ (In-situ)."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Độc tố Aflatoxin của nấm mốc",
+      "question": "Hạt lạc (đậu phộng), ngô để lâu ngày bị mốc vàng xám thường sản sinh độc tố nấm Aflatoxin do vi nấm Aspergillus flavus tiết ra. Độc tố này gây nguy hại sức khoẻ nghiêm trọng nào sau đây?",
+      "options": [
+        "Làm sâu răng",
+        "Làm da đen sạm tạm thời",
+        "Là chất độc cực mạnh gây tổn thương tế bào gan và là tác nhân gây ung thư gan hàng đầu, độc tố này không bị phân huỷ ở nhiệt độ nấu ăn thông thường",
+        "Chỉ làm đầy hơi nhẹ sau 1 giờ"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Aflatoxin là độc tố vi nấm bền nhiệt (chịu được > 250 °C), gây hoại tử tế bào gan và đột biến gen p53 dẫn đến ung thư gan nguyên phát.",
+        "socraticPrompt": "Độc tố trong lạc mốc có bị đun sôi 100 °C phá huỷ không và nó tấn công cơ quan nào trong cơ thể?",
+        "steps": "Aflatoxin bền nhiệt tích luỹ gây độc gan và ung thư gan, tuyệt đối không ăn đồ mốc.",
+        "trap": "Nấu chín hay rửa nước không thể loại bỏ được Aflatoxin."
+      }
+    },
+    {
+      "id": "q_khtn6_c8_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự thích nghi của Động vật chân khớp",
+      "question": "Ngành Chân khớp (Côn trùng, Giáp xác, Hình nhện) là ngành động vật có số lượng loài đông đúc nhất hành tinh (chiếm hơn 80% loài động vật). Đặc điểm thích nghi vượt bậc nào giúp chúng thành công như vậy?",
+      "options": [
+        "Cơ thể mềm nhũn không xương",
+        "Kích thước to lớn như khủng long",
+        "Chỉ sống được dưới đáy biển sâu",
+        "Có bộ xương ngoài bằng chất kitin cứng nhẹ chống mất nước bảo vệ cơ thể, các phần phụ phân đốt khớp động linh hoạt và khả năng sinh sản nhanh với số lượng trứng khổng lồ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bộ xương ngoài kitin chống thoát hơi nước cho phép lên cạn, chân phân đốt linh hoạt, cánh biết bay và sinh sản nhanh tạo nên ưu thế thống trị của Chân khớp.",
+        "socraticPrompt": "Lớp vỏ kitin và các khớp chân linh hoạt giúp côn trùng sống được ở những môi trường nào?",
+        "steps": "Vỏ kitin bảo vệ + chân khớp linh hoạt + sinh sản cực nhanh giúp Chân khớp thống trị thế giới động vật.",
+        "trap": "Chân khớp có bộ xương ngoài bằng kitin chứ không phải mềm nhũn."
+      }
+    }
+  ]
+}

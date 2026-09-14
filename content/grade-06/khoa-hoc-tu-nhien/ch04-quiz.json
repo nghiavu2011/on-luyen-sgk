@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch04_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi ngửi thấy mùi khí gas nồng nặc trong bếp nhà mình, phản xạ an toàn ĐẦU TIÊN của em là gì?",
-    "options": [
-      "A. Bật ngay quạt điện để thổi khí gas bay ra ngoài",
-      "B. Bật đèn điện lên để tìm chỗ rò rỉ",
-      "C. Khoá van bình gas ngay lập tức, mở toang cửa sổ cho thông thoáng khí, không bật tắt bất kì thiết bị điện nào",
-      "D. Lấy bật lửa quẹt thử xem gas hở ở đâu"
-    ],
-    "answer": 2,
-    "explanation": "📌 Xử lí sự cố: Tia lửa điện li ti khi bật công tắc điện hoặc quẹt lửa sẽ kích hoạt vụ nổ khí gas cực kì nguy hiểm.\n💡 Phải khoá van và mở cửa tự nhiên để khí gas thoát ra.\n⚠️ Cảnh báo sống còn: Tuyệt đối không chạm vào công tắc điện khi rò rỉ gas."
-  },
-  {
-    "id": "khtn6_ch04_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Để bếp than tổ ong cháy đều, đượm lửa và không sinh ra nhiều khí độc Carbon monoxide ($CO$), người ta thường đục các lỗ rỗng xuyên suốt dọc thân viên than. Việc làm này nhằm mục đích khoa học gì?",
-    "options": [
-      "A. Để giảm bớt khối lượng than cho dễ gắp",
-      "B. Để tăng diện tích tiếp xúc giữa than với không khí (oxygen) và tạo luồng đối lưu khí",
-      "C. Để than có hình dáng đẹp mắt",
-      "D. Để than hút ẩm nhanh hơn"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất: Đục lỗ giúp tăng diện tích tiếp xúc với oxygen, khí $O_2$ đi sâu vào trong giúp than cháy hoàn toàn tạo $CO_2$ thay vì cháy thiếu khí sinh khí cực độc $CO$.\n💡 Tăng diện tích tiếp xúc là phương pháp tăng tốc độ và hiệu suất cháy.\n⚠️ Bậc tư duy cao: Giải thích hiện tượng thực tế bằng kiến thức khoa học tự nhiên."
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Vật liệu, Nhiên liệu & Nguyên liệu — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c4_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vật liệu composite",
+      "question": "Vật liệu compozit (composite) ngày càng được ứng dụng rộng rãi làm vỏ tàu thuyền, thân máy bay, ống dẫn nước lớn nhờ vào đặc tính vượt trội nào sau đây?",
+      "options": [
+        "Dễ tan trong nước và nhẹ",
+        "Dẫn điện tốt như đồng và mềm dẻo như bơ",
+        "Kết hợp các ưu điểm của vật liệu cốt (sợi thuỷ tinh, sợi carbon) và vật liệu nền (nhựa) tạo ra vật liệu mới vừa nhẹ, vừa có độ bền cơ học cao, không bị ăn mòn",
+        "Làm hoàn toàn từ đất sét nung ở nhiệt độ thấp"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Compozit là vật liệu tổ hợp gồm pha nền (chất dẻo) và pha cốt (sợi thủy tinh, carbon), mang tính cơ học siêu việt: nhẹ, siêu bền, kháng hóa chất.",
+        "socraticPrompt": "Sự kết hợp giữa sợi trợ lực và nhựa dẻo tạo nên vật liệu có độ bền như thế nào so với kim loại?",
+        "steps": "Composite kết hợp ưu điểm dẻo dai chống rỉ của nhựa và độ chịu lực cao của sợi cốt.",
+        "trap": "Compozit không phải là một chất đơn thuần mà là vật liệu tổ hợp nhân tạo."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nguy hiểm ngạt khí than CO",
+      "question": "Vào mùa đông giá rét, đã có nhiều trường hợp tử vong thương tâm khi đốt bếp than tổ ong hoặc than củi để sưởi ấm trong phòng ngủ đóng kín cửa. Cơ chế gây độc của hiện tượng này là gì?",
+      "options": [
+        "Do than bốc mùi thơm làm người ngủ mê mệt",
+        "Do tro than bay vào mắt",
+        "Do nhiệt độ trong phòng tăng quá cao làm cháy da",
+        "Do trong phòng kín thiếu oxy, than cháy không hoàn toàn sinh ra khí carbon monoxide (CO) không màu, không mùi, khí này liên kết chặt với hemoglobin trong máu làm mất khả năng vận chuyển oxy đến não"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Khí CO sinh ra khi cháy thiếu oxy. Khí CO gắn chặt với huyết sắc tố hồng cầu mạnh gấp 200 lần O2, khiến não bộ bị tê liệt và nạn nhân lịm đi không thể kêu cứu.",
+        "socraticPrompt": "Than cháy thiếu oxy sinh ra khí độc không màu không mùi có tên là gì?",
+        "steps": "C + O2 (thiếu) -> CO cực độc -> chiếm chỗ O2 trong máu gây ngạt não tử vong trong giấc ngủ.",
+        "trap": "Khí CO hoàn toàn không có mùi, nạn nhân không cảm nhận được nên tử vong êm dịu rất nguy hiểm."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ô nhiễm rác thải nhựa đại dương",
+      "question": "Vì sao rác thải nhựa dùng một lần (túi nilon, cốc nhựa) được coi là hiểm hoạ 'ô nhiễm trắng' đối với môi trường toàn cầu?",
+      "options": [
+        "Vì nhựa rất khó phân huỷ trong tự nhiên, phải mất từ 100 đến hàng trăm năm mới phân rã thành vi nhựa gây nhiễm độc đất, nguồn nước và chuỗi thức ăn sinh vật",
+        "Vì rác thải nhựa có màu trắng xóa",
+        "Vì nhựa dễ dàng bốc cháy trong nước",
+        "Vì động vật biển thích ăn nhựa để lớn nhanh"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cấu trúc polyme bền vững của chất dẻo khiến chúng tồn tại hàng thế kỉ, vỡ vụn thành các hạt vi nhựa (microplastics) độc hại xâm nhập vào hải sản và cơ thể con người.",
+        "socraticPrompt": "Một chiếc túi nilon chôn dưới đất mất bao nhiêu năm mới phân huỷ hoàn toàn?",
+        "steps": "Nhựa mất hàng trăm năm phân huỷ, biến thành vi nhựa gây độc hại chuỗi thức ăn.",
+        "trap": "Ô nhiễm trắng là thuật ngữ chỉ rác thải nhựa nói chung, không nhất thiết túi nhựa phải có màu trắng."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bảo vệ an ninh năng lượng",
+      "question": "Khái niệm 'An ninh năng lượng quốc gia' được hiểu đúng đắn nhất theo phương diện nào sau đây?",
+      "options": [
+        "Mua thật nhiều than đá và dầu mỏ từ nước ngoài cất vào kho dự trữ",
+        "Sự bảo đảm đầy đủ, liên tục, ổn định các nguồn năng lượng với giá cả hợp lí, kết hợp đa dạng hoá các nguồn năng lượng sạch và sử dụng tiết kiệm, hiệu quả",
+        "Cấm người dân sử dụng điện vào ban đêm",
+        "Chỉ sử dụng duy nhất một nguồn năng lượng than đá"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "An ninh năng lượng là khả năng đáp ứng nhu cầu năng lượng một cách bền vững, tin cậy, giá cả phải chăng và thân thiện môi trường cho phát triển kinh tế.",
+        "socraticPrompt": "An ninh năng lượng đòi hỏi nguồn cung cấp năng lượng phải như thế nào đối với mọi hoạt động sản xuất của đất nước?",
+        "steps": "Cung ứng năng lượng ổn định, bền vững, đa dạng hoá nguồn điện sạch và sử dụng tiết kiệm.",
+        "trap": "Phụ thuộc vào nhập khẩu hoặc độc tôn một nguồn hoá thạch sẽ gây rủi ro an ninh nghiêm trọng."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khai thác đá vôi và cân bằng sinh thái",
+      "question": "Tại các vùng núi đá vôi (như Tràng An - Ninh Bình hay Vịnh Hạ Long), việc nổ mìn phá đá vôi làm xi măng bị nghiêm cấm vì lí do nào sau đây?",
+      "options": [
+        "Vì đá vôi ở đó không có giá trị sản xuất xi măng",
+        "Vì thuốc nổ không nổ được trên núi đá",
+        "Vì phá huỷ cảnh quan di sản thiên nhiên thế giới, tàn phá hệ sinh thái rừng trên núi đá vôi độc nhất vô nhị và mất nguồn tài nguyên du lịch bền vững",
+        "Vì đá vôi ở đó quá mềm không xây dựng được"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hệ sinh thái Karst đá vôi có tính đặc hữu cao và giá trị di sản địa chất vô giá. Phá đá vôi gây tổn thất không thể phục hồi cho đa dạng sinh học và môi trường du lịch.",
+        "socraticPrompt": "Các danh lam thắng cảnh như Tràng An, Hạ Long mang lại lợi ích bền vững nào lớn hơn việc nghiền đá làm xi măng?",
+        "steps": "Bảo tồn di sản sinh thái và cảnh quan tự nhiên có giá trị bền vững lâu dài hơn việc khai thác cạn kiệt.",
+        "trap": "Nghĩ rằng mọi núi đá vôi đều phải san phẳng để lấy xi măng."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Biogas trong nông nghiệp tuần hoàn",
+      "question": "Mô hình hầm khí sinh học (hầm biogas) xử lý chất thải chăn nuôi lợn, bò ở nông thôn mang lại lợi ích kép nào sau đây?",
+      "options": [
+        "Biến phân chuồng thành than đá sau 2 ngày",
+        "Tạo ra dòng điện hạt nhân giá rẻ",
+        "Làm tăng lượng khí thải độc hại vào nguồn nước ngầm",
+        "Vừa xử lý sạch nguồn phân ô nhiễm môi trường, vừa thu được khí methane (CH4) làm khí đốt đun nấu sinh hoạt và tạo phân bón hữu cơ an toàn cho cây trồng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quá trình lên men kỵ khí chất thải hữu cơ sinh ra khí biogas (thành phần chính là metan CH4). Khí này cháy sinh nhiệt sạch, đồng thời bùn thải là phân hữu cơ vi sinh rất tốt.",
+        "socraticPrompt": "Ủ phân gia súc trong hầm kín sinh ra khí gì dùng để đun bếp thay gas?",
+        "steps": "Hầm biogas giải quyết ô nhiễm chuồng trại, tạo năng lượng sạch đun nấu và phân bón hữu cơ.",
+        "trap": "Không xử lý mà xả thẳng ra kênh rạch gây ô nhiễm nguồn nước nghiêm trọng."
+      }
+    }
+  ]
+}

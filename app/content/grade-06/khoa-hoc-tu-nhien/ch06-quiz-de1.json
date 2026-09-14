@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Thành phần nào sau đây được ví như 'bộ não' điều khiển mọi hoạt động sống của tế bào?",
-    "options": [
-      "A. Màng tế bào",
-      "B. Nhân tế bào",
-      "C. Chất tế bào",
-      "D. Lục lạp"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Nhân tế bào chứa vật chất di truyền ADN chỉ huy toàn bộ quá trình trao đổi chất và phân chia.\n💡 Trung tâm chỉ huy của tế bào.\n⚠️ Màng tế bào là cổng bảo vệ ra vào."
-  },
-  {
-    "id": "khtn6_ch06_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Điểm khác biệt cốt lõi giữa tế bào nhân sơ và tế bào nhân thực là gì?",
-    "options": [
-      "A. Tế bào nhân sơ không có màng tế bào",
-      "B. Tế bào nhân sơ chưa có màng bao bọc nhân (chỉ có vùng nhân)",
-      "C. Tế bào nhân sơ kích thước lớn hơn tế bào nhân thực",
-      "D. Tế bào nhân sơ có nhiều loại bào quan có màng"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Tế bào nhân sơ (ở vi khuẩn) chỉ có vùng nhân mang vật chất di truyền, chưa có màng nhân ngăn cách với bào tương.\n💡 Tế bào nhân thực (thực vật, động vật, nấm) đã có nhân hoàn chỉnh có màng nhân.\n⚠️ Chú ý cấu trúc màng nhân."
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chủ đề 6: Tế bào – Đơn vị sự sống — Đề 1: Khái niệm & Nhận biết",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "q_khtn6_c6_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị cấu tạo của sự sống",
+      "question": "Đơn vị cơ bản cấu trúc và chức năng nên mọi cơ thể sinh vật sống là gì?",
+      "options": [
+        "Nguyên tử",
+        "Phân tử",
+        "Tế bào",
+        "Mô"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tế bào là đơn vị cơ sở nhỏ nhất có đầy đủ các đặc trưng sống cơ bản của mọi sinh vật.",
+        "socraticPrompt": "Mọi cơ thể sinh vật từ cây cỏ đến động vật đều được tạo nên từ những 'viên gạch' sống nào?",
+        "steps": "Tế bào là đơn vị cấu trúc và chức năng của mọi sinh vật sống.",
+        "trap": "Nguyên tử là đơn vị cấu tạo hoá học của vật chất nói chung, không phải đơn vị sống."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "3 thành phần cơ bản của tế bào",
+      "question": "Mọi tế bào đều có 3 thành phần cấu tạo cơ bản nào sau đây?",
+      "options": [
+        "Thành tế bào, lục lạp và không bào",
+        "Nhân, lục lạp và ti thể",
+        "Vỏ protein, lông và roi",
+        "Màng tế bào, chất tế bào (tế bào chất) và nhân hoặc vùng nhân"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc tối thiểu gồm: Màng tế bào (bảo vệ, trao đổi chất), Tế bào chất (nơi diễn ra hoạt động sống) và Nhân/vùng nhân (chứa DNA di truyền).",
+        "socraticPrompt": "Tế bào nhân sơ và nhân thực đều bắt buộc phải có 3 bộ phận cốt lõi nào?",
+        "steps": "3 thành phần cơ bản: Màng tế bào, Chất tế bào và Nhân (hoặc vùng nhân).",
+        "trap": "Thành tế bào và lục lạp chỉ có ở tế bào thực vật, không phải mọi tế bào."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Chức năng của nhân tế bào",
+      "question": "Thành phần nào được ví như 'trung tâm chỉ huy' điều khiển mọi hoạt động sống của tế bào?",
+      "options": [
+        "Nhân tế bào",
+        "Lục lạp",
+        "Màng tế bào",
+        "Chất tế bào"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhân tế bào chứa vật chất di truyền (DNA) quy định đặc tính và điều khiển mọi quá trình trao đổi chất, sinh sản của tế bào.",
+        "socraticPrompt": "Bộ phận nào chứa DNA di truyền và chỉ huy toàn bộ hoạt động của tế bào?",
+        "steps": "Nhân tế bào là trung tâm chỉ huy hoạt động sống.",
+        "trap": "Màng tế bào chỉ là lớp vỏ bao bọc kiểm soát chất ra vào."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tế bào nhân sơ",
+      "question": "Tế bào nhân sơ khác tế bào nhân thực ở đặc điểm cốt lõi nào?",
+      "options": [
+        "Không có màng tế bào",
+        "Chưa có màng nhân bao bọc vật chất di truyền, vật chất di truyền nằm trần ở vùng nhân",
+        "Không có khả năng sinh sản",
+        "Có kích thước lớn gấp trăm lần tế bào nhân thực"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tế bào nhân sơ (ở vi khuẩn) chưa có nhân hoàn chỉnh vì chưa có màng nhân ngăn cách DNA với tế bào chất.",
+        "socraticPrompt": "Chữ 'sơ' trong nhân sơ chỉ trạng thái cấu trúc của nhân đã hoàn thiện có màng bọc chưa?",
+        "steps": "Nhân sơ chưa có màng nhân (chỉ có vùng nhân chứa DNA trần).",
+        "trap": "Tế bào nhân sơ vẫn có màng tế bào và màng sinh chất bình thường."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Bào quan quang hợp",
+      "question": "Bào quan nào chứa sắc tố diệp lục giúp tế bào thực vật có khả năng quang hợp chế tạo chất dinh dưỡng?",
+      "options": [
+        "Không bào",
+        "Ti thể",
+        "Lục lạp",
+        "Riboxom"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Lục lạp chứa chất diệp lục màu xanh hấp thụ ánh sáng mặt trời để tổng hợp glucose từ nước và CO2.",
+        "socraticPrompt": "Bào quan màu xanh lá cây ở tế bào lá có tên là gì?",
+        "steps": "Lục lạp là bào quan thực hiện chức năng quang hợp.",
+        "trap": "Không bào chứa dịch tế bào, không chứa diệp lục quang hợp."
+      }
+    },
+    {
+      "id": "q_khtn6_c6_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Số lượng tế bào con sau phân chia",
+      "question": "Từ 1 tế bào ban đầu, sau 2 lần phân chia liên tiếp sẽ tạo ra bao nhiêu tế bào con?",
+      "options": [
+        "2 tế bào con",
+        "8 tế bào con",
+        "6 tế bào con",
+        "4 tế bào con"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công thức số tế bào con sau n lần phân chia: N = 2^n = 2² = 4 tế bào con.",
+        "socraticPrompt": "Lần 1 tạo ra 2 tế bào, lần 2 mỗi tế bào đó lại phân chia thành 2 tế bào nữa thì tổng cộng là mấy?",
+        "steps": "1 -> 2 -> 4 tế bào con.",
+        "trap": "Nhầm 2 lần phân chia là 2 x 3 = 6."
+      }
+    }
+  ]
+}

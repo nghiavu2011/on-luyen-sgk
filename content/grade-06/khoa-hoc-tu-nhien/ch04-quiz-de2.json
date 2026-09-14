@@ -1,16 +1,127 @@
-[
-  {
-    "id": "khtn6_ch04_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hành động nào sau đây thể hiện việc áp dụng chữ 'Reuse' (Tái sử dụng) trong mô hình 3R?",
-    "options": [
-      "A. Tận dụng chai lọ thuỷ tinh đựng thực phẩm để trồng hoa hoặc cắm bút",
-      "B. Đốt rác thải nhựa ở bãi rác",
-      "C. Mua thêm nhiều túi nilon mới",
-      "D. Nấu chảy vỏ lon nhôm tại nhà máy để đúc đồ gia dụng"
-    ],
-    "answer": 0,
-    "explanation": "📌 Ứng dụng: Tái sử dụng (Reuse) là dùng lại đồ vật cho mục đích cũ hoặc công năng mới mà không qua nấu chảy tái chế.\n💡 Nấu chảy lon nhôm là Recycle (tái chế).\n⚠️ Phân biệt rõ Reuse (dùng lại trực tiếp) và Recycle (chế biến lại)."
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Vật liệu, Nhiên liệu & Nguyên liệu — Đề 2: Kỹ năng & Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "q_khtn6_c4_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sử dụng nhiên liệu hiệu quả",
+      "question": "Khi đun nấu bằng bếp gas, nếu thấy ngọn lửa có màu vàng và đáy nồi bị bám một lớp muội than đen kịt, em cần điều chỉnh cửa gió của bếp như thế nào?",
+      "options": [
+        "Mở rộng cửa gió để tăng lượng không khí hút vào giúp gas cháy hoàn toàn ngọn lửa xanh",
+        "Khép nhỏ cửa gió lại hơn nữa",
+        "Tắt bếp và đổ thêm nước vào bình gas",
+        "Đậy kín toàn bộ mặt bếp"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ngọn lửa vàng và muội than đen là dấu hiệu thiếu oxygen khiến khí gas cháy không hoàn toàn, lãng phí nhiên liệu. Mở rộng cửa gió cấp thêm oxygen để lửa chuyển xanh không muội.",
+        "socraticPrompt": "Thiếu khí gì làm gas cháy không hết sinh muội đen? Mở cửa gió sẽ hút thêm khí gì?",
+        "steps": "Mở rộng cửa gió để cấp đủ không khí (oxygen) -> gas cháy hoàn toàn thành CO2 và H2O toả nhiệt cực đại, ngọn lửa xanh sạch.",
+        "trap": "Khép cửa gió sẽ càng làm thiếu oxy trầm trọng hơn."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt vật thể và vật liệu",
+      "question": "Cặp từ nào sau đây thể hiện đúng mối quan hệ giữa 'Vật liệu' và 'Vật thể'?",
+      "options": [
+        "Chiếc thìa nhôm — Kim loại nhôm",
+        "Gỗ tự nhiên — Chiếc bàn học bằng gỗ",
+        "Kim loại sắt — Kim loại đồng",
+        "Chiếc cặp sách — Cuốn vở học sinh"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Gỗ tự nhiên là vật liệu; Chiếc bàn học là vật thể nhân tạo được chế tạo từ vật liệu gỗ.",
+        "socraticPrompt": "Chất dùng để làm ra đồ vật gọi là vật liệu, đồ vật hoàn chỉnh gọi là vật thể.",
+        "steps": "Gỗ (vật liệu) -> làm nên Chiếc bàn (vật thể).",
+        "trap": "Câu đầu tiên bị đảo ngược thứ tự (vật thể trước vật liệu sau)."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "An toàn khi dùng đồ nhựa",
+      "question": "Hành động nào sau đây là KHÔNG an toàn cho sức khoẻ khi sử dụng đồ dùng bằng nhựa?",
+      "options": [
+        "Dùng hộp nhựa chuyên dụng chịu nhiệt cho lò vi sóng theo hướng dẫn",
+        "Rửa sạch hộp nhựa đựng thức ăn bằng xà phòng sau khi dùng",
+        "Dùng chai nhựa PET dùng một lần đựng nước sôi 100 °C hoặc đựng dầu ăn nóng",
+        "Phân loại rác thải nhựa để tái chế"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nhựa PET (mã số 1) dùng cho chai nước khoáng chỉ chịu nhiệt thấp (< 70 °C). Đựng nước sôi sẽ làm biến dạng và thôi nhiễm các chất phụ gia độc hại vào đồ uống.",
+        "socraticPrompt": "Chai nước khoáng dùng một lần gặp nước sôi sẽ bị sun queo và thôi nhiễm hoá chất độc hại đúng không?",
+        "steps": "Không dùng chai PET đựng nước nóng vì giải phóng chất độc hại gây ung thư.",
+        "trap": "Cứ nghĩ nhựa nào cũng chịu được nhiệt độ sôi."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng vật liệu thủy tinh",
+      "question": "Tại sao các dụng cụ thí nghiệm hoá học như ống nghiệm, cốc đong, bình tam giác thường được làm bằng thủy tinh chịu nhiệt thay vì kim loại?",
+      "options": [
+        "Vì thủy tinh nhẹ hơn kim loại",
+        "Vì thủy tinh rẻ tiền hơn đất sét",
+        "Vì thủy tinh dẫn điện rất tốt",
+        "Vì thủy tinh trong suốt dễ quan sát hiện tượng và trơ về mặt hoá học (không bị axit, kiềm thông thường ăn mòn)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thủy tinh trong suốt cho phép nhìn rõ màu sắc, kết tủa phản ứng và có tính trơ không tác dụng với hầu hết hoá chất.",
+        "socraticPrompt": "Kim loại sẽ phản ứng bị axit ăn mòn, còn thủy tinh có bị axit thông thường hoà tan không?",
+        "steps": "Thủy tinh trơ hoá học và trong suốt nên là vật liệu lý tưởng cho phòng thí nghiệm.",
+        "trap": "Axit HF ăn mòn được thủy tinh nhưng đó là trường hợp đặc biệt không dùng trong hoá phổ thông."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xăng sinh học E5",
+      "question": "Xăng sinh học E5 được đưa vào sử dụng rộng rãi nhằm mục đích bảo vệ môi trường và an ninh năng lượng là hỗn hợp gồm những thành phần nào?",
+      "options": [
+        "5% cồn sinh học (ethanol làm từ sắn, ngô) và 95% xăng truyền thống",
+        "5% nước tinh khiết và 95% xăng khoáng",
+        "50% dầu diesel và 50% cồn",
+        "5% chì và 95% dầu hoả"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "E5 gồm 5% thể tích cồn ethanol sinh học phối trộn với 95% xăng khoáng A92, giúp nhiên liệu cháy kiệt hơn và giảm phát thải khí độc.",
+        "socraticPrompt": "Chữ E trong E5 là viết tắt của cồn gì sản xuất từ tinh bột ngô sắn?",
+        "steps": "E5 = 5% Ethanol + 95% xăng truyền thống.",
+        "trap": "Tuyệt đối không có nước pha vào xăng."
+      }
+    },
+    {
+      "id": "q_khtn6_c4_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tác hại khai thác nguyên liệu bừa bãi",
+      "question": "Việc khai thác cát sỏi quá mức trái phép trên các dòng sông lớn dẫn đến hậu quả nghiêm trọng nào sau đây?",
+      "options": [
+        "Làm nước sông ngọt hơn",
+        "Làm sạt lở bờ sông, xói mòn chân đê và thay đổi dòng chảy tự nhiên gây ngập lụt nghiêm trọng",
+        "Làm tăng số lượng cá tôm trong lòng sông",
+        "Làm đáy sông phẳng đẹp hơn"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hút cát bừa bãi làm rỗng lòng sông, tạo hàm ếch gây sụt lún nhà cửa, sạt lở đê điều và ảnh hưởng sinh thái nghiêm trọng.",
+        "socraticPrompt": "Hút hết cát dưới lòng sông thì đất hai bên bờ kè đê có giữ vững được không?",
+        "steps": "Khai thác cát trái phép gây sạt lở bờ sông và đe dọa an toàn đê điều mùa lũ.",
+        "trap": "Cát sông là nguyên liệu xây dựng quan trọng nhưng phải được khai thác có quy hoạch nghiêm ngặt."
+      }
+    }
+  ]
+}

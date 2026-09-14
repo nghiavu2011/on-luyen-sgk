@@ -1,30 +1,127 @@
-[
-  {
-    "id": "khtn6_ch10_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Thả một quả bóng cao su từ độ cao $2\\text{ m}$ xuống mặt sàn bê tông phẳng. Sau mỗi lần nảy lên, độ cao của quả bóng đạt được giảm dần rồi dừng hẳn. Điều này có mâu thuẫn với Định luật bảo toàn năng lượng không?",
-    "options": [
-      "A. Có, vì năng lượng ban đầu của quả bóng đã tự nhiên biến mất hoàn toàn",
-      "B. Không mâu thuẫn, vì cơ năng ban đầu đã chuyển hoá thành nhiệt năng (làm ấm bóng và sàn) và âm năng (tiếng 'bộp' phát ra khi va chạm)",
-      "C. Có, định luật chỉ đúng trong chân không",
-      "D. Không, quả bóng tự hút thêm năng lượng từ mặt đất"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất vật lí: Cơ năng không mất đi mà bị chuyển hoá thành nhiệt năng và năng lượng âm thanh toả ra môi trường xung quanh do va chạm và ma sát không khí.\n💡 Tổng năng lượng của toàn bộ hệ luôn được bảo toàn tuyệt đối.\n⚠️ Bẫy sai: Tưởng cơ năng bị tiêu biến vi phạm định luật bảo toàn."
-  },
-  {
-    "id": "khtn6_ch10_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Một chiếc bàn là điện có công suất tiêu thụ điện là $1000\\text{ W}$. Nếu mỗi ngày gia đình sử dụng bàn là đó liên tục trong $30\\text{ phút}$ thì trong một tháng ($30\\text{ ngày}$), lượng điện năng tiêu thụ của chiếc bàn là đó là bao nhiêu số điện (kWh)?",
-    "options": [
-      "A. $15\\text{ kWh}$",
-      "B. $30\\text{ kWh}$",
-      "C. $45\\text{ kWh}$",
-      "D. $300\\text{ kWh}$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Phương pháp tính: Đổi $1000\\text{ W} = 1\\text{ kW}$. Thời gian mỗi ngày $30\\text{ phút} = 0,5\\text{ giờ}$.\nĐiện năng tiêu thụ 1 ngày: $A_1 = 1\\text{ kW} \\times 0,5\\text{ h} = 0,5\\text{ kWh}$.\nTrong 30 ngày: $A = 0,5 \\times 30 = 15\\text{ kWh}$ (tương đương 15 số điện).\n⚠️ Bẫy sai: Quên đổi phút sang giờ hoặc nhân nhầm 30 phút thành 30 giờ."
-  }
-]
+{
+  "chapterId": "ch10",
+  "title": "Chủ đề 10: Năng lượng & Biến đổi — Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "q_khtn6_c10_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ảo tưởng động cơ vĩnh cửu",
+      "question": "Trong lịch sử khoa học, nhiều người từng cố gắng sáng chế 'Động cơ vĩnh cửu loại 1' (cỗ máy có thể tự chạy liên tục mãi mãi và sinh công cơ học mà không cần cung cấp bất kì nhiên liệu hay năng lượng nào từ bên ngoài). Tại sao cỗ máy này KHÔNG BAO GIỜ có thể chế tạo thành công?",
+      "options": [
+        "Vì chưa có vật liệu sắt thép đủ cứng",
+        "Vì Trái Đất quay quá nhanh làm hỏng máy",
+        "Vì nó vi phạm trực tiếp Định luật bảo toàn năng lượng: Năng lượng không thể tự sinh ra từ hư vô, muốn sinh công thì bắt buộc phải nhận năng lượng từ bên ngoài bù vào",
+        "Vì các nhà khoa học không cho phép đăng kí bản quyền"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định luật bảo toàn năng lượng bác bỏ hoàn toàn động cơ vĩnh cửu loại 1: Không có năng lượng đầu vào thì năng lượng đầu ra sinh công phải bằng 0.",
+        "socraticPrompt": "Một cỗ máy không ăn than, không dùng điện, không đổ xăng có thể tự chạy làm việc mãi mãi được không?",
+        "steps": "Vi phạm định luật bảo toàn năng lượng nên động cơ vĩnh cửu là điều không tưởng.",
+        "trap": "Nghĩ rằng khoa học tương lai sẽ tạo được năng lượng từ con số không."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán tiền điện và tiết kiệm",
+      "question": "Một gia đình thay thế 5 bóng đèn sợi đốt công suất 60 W bằng 5 bóng đèn LED công suất 12 W. Mỗi ngày các bóng đèn thắp sáng trung bình 5 giờ. Trong 30 ngày (1 tháng), gia đình đó đã tiết kiệm được bao nhiêu số điện (kWh)?",
+      "options": [
+        "18 kWh",
+        "72 kWh",
+        "7,2 kWh",
+        "36 kWh"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công suất giảm: ΔP = 5 · (60 - 12) = 240 W = 0,24 kW. Điện năng tiết kiệm trong 1 tháng (150 giờ): A = ΔP · t = 0,24 kW · (5 · 30 h) = 0,24 · 150 = 36 kWh (36 số điện).",
+        "socraticPrompt": "Mỗi giờ tiết kiệm được 240 W. Trong 150 giờ thắp sáng cả tháng tiết kiệm được bao nhiêu Watt-giờ rồi đổi ra kWh?",
+        "steps": "0,24 kW x 150 h = 36 kWh.",
+        "trap": "Chỉ tính cho 1 bóng đèn (ra 7,2 kWh) hoặc quên đổi W sang kW."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tàu lượn siêu tốc và bảo toàn cơ năng",
+      "question": "Trên đường ray tàu lượn siêu tốc tại công viên giải trí, ngọn đồi uốn lượn đầu tiên bao giờ cũng được thiết kế cao nhất so với tất cả các ngọn đồi phía sau. Lí do kĩ thuật nào sau đây là ĐÚNG?",
+      "options": [
+        "Động cơ kéo tàu lên đỉnh cao nhất tạo thế năng cực đại; khi tàu thả trôi tự do, cơ năng bị tiêu hao một phần do ma sát và lực cản không khí, nên các đỉnh sau phải thấp hơn thì tàu mới vượt qua được",
+        "Để người chơi ngắm cảnh được xa nhất",
+        "Để tiết kiệm sắt thép làm đường ray",
+        "Để gió đẩy tàu chạy nhanh hơn"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bảo toàn cơ năng có ma sát: Cơ năng giảm dần do ma sát chuyển thành nhiệt. Nếu đỉnh sau cao hơn đỉnh đầu, thế năng cần thiết lớn hơn cơ năng còn lại, tàu sẽ bị tụt dốc.",
+        "socraticPrompt": "Khi tàu thả trôi tự do không động cơ, ma sát làm cơ năng tăng hay giảm? Đỉnh sau có thể cao hơn đỉnh trước được không?",
+        "steps": "Ma sát làm hao hụt cơ năng -> đỉnh sau bắt buộc phải thấp hơn đỉnh trước.",
+        "trap": "Nếu không có ma sát thì đỉnh sau có thể bằng đỉnh trước, nhưng thực tế luôn có ma sát."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Pin nhiên liệu Hydro (Năng lượng tương lai)",
+      "question": "Công nghệ xe điện chạy bằng pin nhiên liệu Hydro (Hydrogen Fuel Cell) được xem là giải pháp giao thông xanh tương lai vì khí thải duy nhất thoát ra từ ống xả của xe là gì?",
+      "options": [
+        "Khí Carbon dioxide (CO2)",
+        "Hơi nước sạch tinh khiết (H2O)",
+        "Khí Sulfur dioxide (SO2)",
+        "Khí Carbon monoxide (CO)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Pin nhiên liệu cho Hydro phản ứng với Oxy: 2H2 + O2 -> 2H2O + Điện năng. Không phát thải bất kì khí nhà kính hay muội độc nào, chất thải duy nhất là nước tinh khiết.",
+        "socraticPrompt": "Khí hydro cháy kết hợp với oxy tạo ra hợp chất gì quen thuộc?",
+        "steps": "Hydro phản ứng với Oxy sinh điện và chỉ thải ra hơi nước tinh khiết.",
+        "trap": "Nhiên liệu hoá thạch thải CO2 và CO; pin hydro thải nước sạch."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự suy thoái năng lượng",
+      "question": "Mặc dù tổng năng lượng trong vũ trụ luôn được bảo toàn tuyệt đối, tại sao nhân loại vẫn luôn phải đối mặt với nguy cơ 'Khủng hoảng năng lượng'?",
+      "options": [
+        "Vì năng lượng biến mất vào các lỗ đen vũ trụ",
+        "Vì năng lượng mặt trời sắp tắt sau 10 năm nữa",
+        "Vì trong các quá trình sử dụng, năng lượng có ích chất lượng cao (hoá năng, điện năng) dần chuyển hoá thành nhiệt năng phân tán loãng vào môi trường ở nhiệt độ thấp, không thể tái thu hồi để sinh công (sự suy thoái năng lượng)",
+        "Vì các nhà máy điện ngừng hoạt động"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy luật suy thoái năng lượng (Entropy): Năng lượng hữu ích chuyển thành nhiệt năng tản mát vô ích, không thể tự gom lại để sử dụng tiếp.",
+        "socraticPrompt": "Nhiệt toả ra môi trường khi xe máy chạy có thể tự thu gom lại đổ vào bình xăng làm xe chạy tiếp được không?",
+        "steps": "Năng lượng bị suy thoái thành nhiệt loãng vô ích -> cạn kiệt nguồn năng lượng sơ cấp hữu dụng.",
+        "trap": "Năng lượng không hề bị mất số lượng, nhưng bị suy giảm phẩm chất sử dụng."
+      }
+    },
+    {
+      "id": "q_khtn6_c10_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tối ưu năng lượng kiến trúc xanh",
+      "question": "Trong thiết kế các ngôi nhà hiện đại theo tiêu chuẩn 'Kiến trúc xanh', giải pháp nào sau đây giúp giảm tải tiêu thụ năng lượng điện làm mát vào mùa hè một cách tự nhiên?",
+      "options": [
+        "Lắp đặt thật nhiều kính trong suốt hướng chính Tây hứng nắng chiều",
+        "Đóng kín toàn bộ cửa sổ suốt mùa hè",
+        "Sơn toàn bộ tường nhà bằng màu đen tuyền",
+        "Thiết kế giếng trời thông gió đối lưu tự nhiên, trồng cây xanh che bóng mát và sử dụng tường cách nhiệt, cửa sổ kính hai lớp chống hấp thụ nhiệt"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kiến trúc xanh tận dụng thông gió đối lưu (giếng trời) và che nắng tự nhiên, giảm nhiệt truyền vào nhà, từ đó giảm 50% thời gian bật điều hoà nhiệt độ.",
+        "socraticPrompt": "Giếng trời thông gió và tán cây xanh giúp làm gì cho ngôi nhà mùa hè?",
+        "steps": "Thông gió tự nhiên + tường cách nhiệt giảm nhu cầu điều hoà làm mát.",
+        "trap": "Kính hướng Tây hoặc sơn màu đen sẽ hấp thụ nhiệt khủng khiếp làm nhà nóng như lò lửa."
+      }
+    }
+  ]
+}
