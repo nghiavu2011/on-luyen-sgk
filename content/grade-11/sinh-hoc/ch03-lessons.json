@@ -1,32 +1,117 @@
-[
-  {
-    "id": "l08",
-    "title": "Bài 8: Sinh trưởng và phát triển ở thực vật",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 8: Sinh trưởng và phát triển ở thực vật.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 8: Sinh trưởng và phát triển ở thực vật.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 8: Sinh trưởng và phát triển ở thực vật để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l09",
-    "title": "Bài 9: Sinh trưởng và phát triển ở động vật và các nhân tố ảnh hưởng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 9: Sinh trưởng và phát triển ở động vật và các nhân tố ảnh hưởng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 9: Sinh trưởng và phát triển ở động vật và các nhân tố ảnh hưởng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 9: Sinh trưởng và phát triển ở động vật và các nhân tố ảnh hưởng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Sinh trưởng & Phát triển ở sinh vật",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Sinh trưởng và phát triển ở thực vật",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu khái niệm sinh trưởng, phát triển và mối quan hệ giữa chúng ở thực vật.",
+        "Phân biệt mô phân sinh đỉnh, mô phân sinh bên và mô phân sinh lóng; sinh trưởng sơ cấp và thứ cấp.",
+        "Trình bày tác động sinh lí và ứng dụng của các nhóm hormone kích thích (auxin, GA, cytokinin) và ức chế (ABA, ethylene).",
+        "Giải thích hiện tượng quang chu kì, phytochrom và hiện tượng xuân hoá."
+      ],
+      "concepts": [
+        {
+          "term": "Mô phân sinh và Sinh trưởng sơ cấp, thứ cấp",
+          "definition": "Mô phân sinh là nhóm tế bào chưa phân hoá, duy trì khả năng phân chia liên tục tạo tế bào mới. Gồm: Mô phân sinh đỉnh (chồi đỉnh, đỉnh rễ) giúp cây dài ra (sinh trưởng sơ cấp ở cả cây 1 lá mầm và 2 lá mầm); Mô phân sinh bên (tầng sinh vỏ, tầng sinh trụ) giúp thân to ra (sinh trưởng thứ cấp ở cây 2 lá mầm); Mô phân sinh lóng (ở các mắt đốt cây 1 lá mầm như tre, lúa).",
+          "notation": "MPS đỉnh: Dài ra (Sơ cấp); MPS bên: To ra (Thứ cấp); MPS lóng: Kéo dài lóng",
+          "note": "Cây Một lá mầm (như lúa, ngô, cau) không có mô phân sinh bên nên không có sinh trưởng thứ cấp."
+        },
+        {
+          "term": "Vòng năm của gỗ (Tuổi cây)",
+          "definition": "Hằng năm, tầng sinh trụ phân chia sinh ra lớp gỗ bên trong. Vào mùa xuân khí hậu ấm áp ẩm ướt, tế bào gỗ phân chia mạnh tạo mạch ống lớn, vách mỏng, màu sáng (gỗ sớm). Vào mùa thu đông khô lạnh, tế bào phân chia chậm tạo mạch nhỏ, vách dày, màu sẫm (gỗ muộn). Một dải sáng kết hợp một dải sẫm tạo nên một vòng năm tương ứng một tuổi của cây.",
+          "notation": "1 Vòng năm = 1 Gỗ sớm (sáng, to) + 1 Gỗ muộn (sẫm, nhỏ) = 1 Năm tuổi",
+          "note": "Ở vùng nhiệt đới có 2 mùa mưa - khô rõ rệt cũng hình thành các vòng gỗ năm rất rõ nét."
+        },
+        {
+          "term": "Hormone thực vật (Phytohormone)",
+          "definition": "1. Nhóm kích thích sinh trưởng: Auxin (IAA - ngọn thân, chồi đỉnh; ưu thế ngọn, kích thích ra rễ phụ, tạo quả không hạt); Gibberellin (GA - kéo dài lóng, kích thích nảy mầm hạt và củ, nở hoa); Cytokinin (kích thích phân chia tế bào, kích thích chồi bên mọc, làm chậm sự già hóa lá). 2. Nhóm ức chế sinh trưởng: Abscisic acid (ABA - kích thích đóng khí khổng khi thiếu nước, gây trạng thái ngủ nghỉ của hạt); Ethylene (C2H4 dạng khí - kích thích quả nhanh chín, làm rụng lá và hoa quả).",
+          "notation": "Auxin/Cytokinin cao -> Kích thích ra rễ; Cytokinin/Auxin cao -> Kích thích ra chồi",
+          "note": "Tỉ lệ tương quan giữa các hormone điều hòa cân bằng toàn bộ quá trình sinh trưởng và phát triển của cây."
+        },
+        {
+          "term": "Quang chu kì và Phytochrom",
+          "definition": "Quang chu kì là phản ứng ra hoa của thực vật phụ thuộc vào tương quan độ dài ngày và đêm. Cây ngày ngắn (lúa, đậu tương, mía, cúc) ra hoa khi độ dài đêm lớn hơn thời gian tối tới hạn (vào mùa thu đông). Cây ngày dài (cải, lúa mì, sen) ra hoa khi ngày dài hoặc đêm ngắn hơn thời gian tối tới hạn (mùa xuân hè). Cây trung tính (cà chua, hướng dương, ngô) ra hoa khi đạt độ tuổi nhất định không phụ thuộc quang chu kì. Phytochrom là sắc tố tiếp nhận ánh sáng có 2 dạng chuyển hoá thuận nghịch: P660 (Pr - hấp thụ ánh sáng đỏ) và P730 (Pfr - hấp thụ ánh sáng đỏ xa).",
+          "notation": "Cây ngày ngắn: Cần đêm dài liên tục; Cây ngày dài: Cần đêm ngắn",
+          "note": "Nếu ngắt quãng đêm dài của cây ngày ngắn bằng một chớp ánh sáng đỏ thì cây sẽ không thể ra hoa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hiện tượng xuân hóa (Vernalization)",
+          "meaning": "Là hiện tượng cây chỉ có thể ra hoa sau khi trải qua một giai đoạn tiếp xúc với nhiệt độ thấp (mùa đông lạnh). Ví dụ: các giống lúa mì mùa đông, bắp cải cần trải qua nhiệt độ 0 - 5 °C mới có thể hình thành mầm hoa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao nhà vườn trồng hoa cúc thường thắp đèn điện vào ban đêm vào mùa thu đông, còn nông dân trồng thanh long lại thắp đèn vào ban đêm trái vụ?",
+          "steps": [
+            "Bước 1: Cây hoa cúc là cây ngày ngắn (cần đêm dài mùa thu đông để ra hoa). Việc thắp đèn ban đêm làm ngắt quãng đêm dài khiến cây cúc không ra hoa sớm, tiếp tục sinh trưởng thân lá để hoa to và thân dài, bán đúng dịp Tết.",
+            "Bước 2: Cây thanh long là cây ngày dài (chỉ ra hoa khi ngày dài mùa hè). Vào mùa đông đêm dài ngày ngắn, việc thắp đèn ban đêm làm ngắn thời gian đêm, kích thích cây thanh long ra hoa trái vụ để thu hoạch quả bán giá cao."
+          ],
+          "answer": "Thắp đèn ngắt quãng đêm dài để kìm hãm hoa cúc (cây ngày ngắn) nở sớm và kích thích thanh long (cây ngày dài) ra hoa trái vụ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng cây ngày ngắn là cây cần ban ngày có số giờ chiếu sáng ngắn.",
+          "why": "Thực chất nhân tố quyết định việc ra hoa của cây ngày ngắn là ĐỘ DÀI LIÊN TỤC CỦA ĐÊM (thời gian tối), chứ không phải độ dài của ngày."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Sinh trưởng và phát triển ở động vật",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt phát triển không qua biến thái, biến thái hoàn toàn và biến thái không hoàn toàn.",
+        "Trình bày tác dụng sinh lí của các hormone điều hòa sinh trưởng ở động vật có xương sống (GH, thyroxine, testosterone, estrogen).",
+        "Mô tả cơ chế phối hợp giữa hormone ecdysone và juvenile điều hòa quá trình lột xác và biến thái ở côn trùng.",
+        "Nêu các biện pháp điều khiển sinh trưởng và phát triển ở động vật phục vụ sản xuất và nâng cao sức khỏe con người."
+      ],
+      "concepts": [
+        {
+          "term": "Các kiểu phát triển ở động vật",
+          "definition": "1. Không qua biến thái: Con non mới sinh có đặc điểm hình thái và cấu tạo tương tự con trưởng thành (người, chim, bò sát, cá, thú). 2. Biến thái hoàn toàn: Ấu trùng (sâu non) có cấu tạo và sinh lí rất khác con trưởng thành; trải qua giai đoạn nhộng biến đổi toàn diện thành con trưởng thành (bướm, muỗi, ruồi, ong, bọ cánh cứng, ếch nhái). 3. Biến thái không hoàn toàn: Ấu trùng có hình thái tương tự con trưởng thành nhưng chưa hoàn thiện cánh và cơ quan sinh dục; qua nhiều lần lột xác biến đổi dần thành con trưởng thành không qua giai đoạn nhộng (châu chấu, gián, chuồn chuồn, tôm, cua).",
+          "notation": "Không biến thái: Non giống già; Biến thái hoàn toàn: Có nhộng; Biến thái không hoàn toàn: Không nhộng",
+          "note": "Ở ếch nhái: nòng nọc hô hấp bằng mang, có đuôi; ếch trưởng thành hô hấp bằng phổi và da, tiêu biến đuôi (biến thái hoàn toàn)."
+        },
+        {
+          "term": "Hormone điều hòa sinh trưởng ở động vật có xương sống",
+          "definition": "- Hormone sinh trưởng (GH - Tuyến yên): Kích thích phân chia tế bào, tăng trưởng kích thước tế bào, đặc biệt kích thích xương dài ra. Thiếu GH ở tuổi trẻ gây bệnh lùn tuyến yên, thừa GH gây bệnh khổng lồ; thừa GH ở người lớn gây bệnh to đầu ngón (Acromegaly).\n- Thyroxine (Tuyến giáp): Kích thích chuyển hoá tế bào, kích thích sinh trưởng và phát triển bình thường của hệ thần kinh; kích thích nòng nọc biến thái thành ếch. Thiếu iodine gây bướu cổ và đần độn ở trẻ nhỏ.\n- Testosterone (Tinh hoàn) & Estrogen (Buồng trứng): Kích thích sinh trưởng mạnh ở tuổi dậy thì, phát triển các đặc điểm sinh dục phụ thứ cấp."
+        },
+        {
+          "term": "Hormone điều hòa lột xác và biến thái ở côn trùng",
+          "definition": "- Ecdysone (Tuyến ngực tiết): Kích thích quá trình lột xác ở sâu bướm, kích thích sâu biến thành nhộng và nhộng biến thành bướm trưởng thành.\n- Juvenile (Thể allata tiết): Phối hợp với ecdysone duy trì trạng thái ấu trùng sâu non, ngăn cản quá trình biến thái thành nhộng và bướm.\n- Cơ chế: Nồng độ Juvenile cao + Ecdysone -> sâu lột xác thành sâu lớn hơn; Khi thể allata ngừng tiết Juvenile, chỉ còn Ecdysone tác động -> sâu non hoá nhộng rồi biến thái thành bướm.",
+          "notation": "Ecdysone: Gây lột xác; Juvenile: Giữ nguyên dạng sâu non (chống biến thái)",
+          "note": "Ứng dụng: Dùng chất tương tự Juvenile phun lên tằm ăn lá dâu kéo dài tuổi sâu tằm để tăng sản lượng tơ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy luật tương quan hormone điều hòa biến thái",
+          "meaning": "Biến thái chỉ xảy ra khi nồng độ hormone Juvenile giảm xuống mức tối thiểu hoặc bằng không, giải phóng tác dụng biến thái của hormone Ecdysone."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao nếu thiếu iodine trong thức ăn hằng ngày, trẻ em sẽ chậm lớn, trí tuệ kém phát triển (đần độn) và chịu rét kém?",
+          "steps": [
+            "Bước 1: Iodine là thành phần cấu tạo thiết yếu không thể thay thế của phân tử hormone thyroxine do tuyến giáp tiết ra.",
+            "Bước 2: Thiếu iodine -> tuyến giáp không tổng hợp đủ thyroxine -> giảm chuyển hoá cơ bản trong tế bào, giảm sinh nhiệt khiến cơ thể chịu rét kém.",
+            "Bước 3: Thyroxine cần thiết cho sự phân chia và myelin hoá tế bào thần kinh; thiếu thyroxine trong những năm đầu đời làm não bộ kém phát triển, dẫn đến suy giảm trí tuệ vĩnh viễn (chứng đần độn) và ngừng trệ sinh trưởng chiều cao."
+          ],
+          "answer": "Do thiếu iodine làm giảm tổng hợp thyroxine, dẫn đến suy giảm chuyển hóa sinh nhiệt và ngưng trệ sự phát triển của hệ thần kinh và xương."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng châu chấu phát triển qua biến thái hoàn toàn vì chúng có lột xác nhiều lần.",
+          "why": "Châu chấu non đã có hình thái tương tự con trưởng thành và không hề trải qua giai đoạn nhộng, nên là biến thái KHÔNG hoàn toàn."
+        }
+      ]
+    }
+  ]
+}

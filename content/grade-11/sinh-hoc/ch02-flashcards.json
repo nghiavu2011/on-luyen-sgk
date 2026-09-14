@@ -1,42 +1,76 @@
-[
-  {
-    "front": "Hướng động ở thực vật là gì?",
-    "back": "Là phản ứng sinh trưởng của cơ quan thực vật đối với tác nhân kích thích từ một hướng xác định (hướng sáng, hướng đất/trọng lực, hướng nước, hướng tiếp xúc).",
-    "tags": [
-      "Hướng động",
-      "Thực vật"
-    ]
-  },
-  {
-    "front": "Auxin có vai trò gì trong tính hướng sáng của ngọn cây?",
-    "back": "Auxin phân bố dồn về phía bị che tối nhiều hơn phía sáng, kích thích các tế bào phía tối sinh trưởng kéo dài nhanh hơn làm ngọn cây cong về phía nguồn sáng.",
-    "tags": [
-      "Auxin",
-      "Hướng sáng"
-    ]
-  },
-  {
-    "front": "Hiện tượng lá cây trinh nữ (xấu hổ) cụp lại khi chạm tay vào là dạng cảm ứng nào?",
-    "back": "Ứng động không sinh trưởng (do sự thay đổi sức trương nước đột ngột ở các thể gối gốc cuống lá).",
-    "tags": [
-      "Cây xấu hổ",
-      "Ứng động"
-    ]
-  },
-  {
-    "front": "Các dạng hệ thần kinh ở động vật theo chiều hướng tiến hoá?",
-    "back": "Chưa có hệ thần kinh (đơn bào) $\\rightarrow$ Hệ thần kinh dạng lưới (ruột khoang) $\\rightarrow$ Hệ thần kinh chuỗi hạch (giun, côn trùng) $\\rightarrow$ Hệ thần kinh dạng ống (động vật có xương sống).",
-    "tags": [
-      "Hệ thần kinh",
-      "Tiến hoá"
-    ]
-  },
-  {
-    "front": "Phân biệt tập tính bẩm sinh và tập tính học được?",
-    "back": "Tập tính bẩm sinh: sinh ra đã có, do gen di truyền quy định, mang tính bản năng bền vững (nhện giăng tơ); Tập tính học được: hình thành qua kinh nghiệm sống và học hỏi cá thể (vẹt bắt chước tiếng người).",
-    "tags": [
-      "Tập tính",
-      "Hành vi"
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "chapterTitle": "Cảm ứng ở sinh vật",
+  "cards": [
+    {
+      "id": "11-sh-fc-02-01",
+      "front": "Phân biệt Hướng động và Ứng động ở thực vật?",
+      "back": "- Hướng động: Vận động sinh trưởng của cơ quan thực vật định hướng theo hướng tác nhân kích thích (hướng sáng, hướng đất, hướng hoá...).\n- Ứng động: Vận động phản ứng trước kích thích không định hướng của môi trường (nở hoa theo nhiệt độ, lá trinh nữ cụp khi va chạm...).",
+      "tag": "Cảm ứng ở thực vật",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11-sh-fc-02-02",
+      "front": "Tại sao thân cây hướng sáng dương còn rễ cây lại hướng sáng âm?",
+      "back": "Dưới ánh sáng 1 phía, auxin dồn sang phía tối. Ở thân, nồng độ auxin cao kích thích tế bào dãn dài -> uốn cong về phía sáng (hướng sáng dương). Ở rễ, tế bào nhạy cảm hơn rất nhiều nên nồng độ auxin cao ở phía tối lại ức chế tế bào dãn dài -> rễ uốn tránh xa ánh sáng (hướng sáng âm).",
+      "tag": "Cơ chế Auxin",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11-sh-fc-02-03",
+      "front": "Cơ chế nào làm lá cây trinh nữ cụp xuống nhanh chóng khi bị chạm vào?",
+      "back": "Là ứng động không sinh trưởng do biến đổi sức trương nước: va chạm kích thích mở kênh K+ thoát ra khỏi tế bào nửa dưới thể gối ở gốc cuống lá -> nước thẩm thấu ùa ra ngoài gian bào -> tế bào nửa dưới xẹp xuống làm cuống lá gục xuống và lá chét khép lại.",
+      "tag": "Ứng động không sinh trưởng",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11-sh-fc-02-04",
+      "front": "Các giai đoạn tiến hóa của tổ chức hệ thần kinh ở động vật?",
+      "back": "1. Dạng lưới (Ruột khoang: phản ứng toàn thân, co rút tốn năng lượng).\n2. Dạng chuỗi hạch (Giun, Chân khớp: phản ứng cục bộ từng hạch, nhanh hơn).\n3. Dạng ống (Động vật có xương sống: não và tủy phát triển, phản xạ tinh tế, học tập cao).",
+      "tag": "Hệ thần kinh động vật",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11-sh-fc-02-05",
+      "front": "Yếu tố trực tiếp nào quyết định việc hình thành Điện thế nghỉ (trong âm, ngoài dương)?",
+      "back": "Sự khuếch tán ra ngoài màng của ion K+ qua các cổng K+ mở tự do (do nồng độ K+ trong tế bào cao hơn ngoài). Mặt ngoài tích điện dương do K+ kéo ra, mặt trong âm do các anion protein lớn bị giữ lại sát mặt trong màng, kết hợp với bơm Na+-K+ duy trì chênh lệch nồng độ.",
+      "tag": "Điện thế nghỉ",
+      "difficulty": "hard"
+    },
+    {
+      "id": "11-sh-fc-02-06",
+      "front": "Ba pha của Điện thế hoạt động khi tế bào thần kinh bị kích thích đạt ngưỡng?",
+      "back": "1. Khử cực (Mất phân cực): Cổng Na+ mở, Na+ ùa vào trong tế bào.\n2. Đảo cực: Na+ tiếp tục vào làm mặt trong tích điện dương (+35 mV), ngoài âm.\n3. Tái phân cực: Cổng Na+ đóng, cổng K+ mở rộng cho K+ tràn ra ngoài lập lại mặt trong âm, ngoài dương.",
+      "tag": "Điện thế hoạt động",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11-sh-fc-02-07",
+      "front": "Tại sao xung thần kinh lan truyền trên sợi có bao myelin lại nhanh và tiết kiệm ATP?",
+      "back": "Vì bao myelin cách điện hoàn toàn, xung thần kinh chỉ có thể phát sinh và lan truyền theo lối nhảy cóc (saltatory conduction) từ eo Ranvier này sang eo Ranvier kế tiếp, giúp tăng tốc độ truyền tin tới hơn 100 m/s và giảm lượng ion cần bơm qua màng.",
+      "tag": "Bao Myelin & Eo Ranvier",
+      "difficulty": "medium"
+    },
+    {
+      "id": "11-sh-fc-02-08",
+      "front": "Vì sao xung thần kinh chỉ truyền một chiều qua synapse hoá học?",
+      "back": "Vì chỉ có cúc/chùy màng trước synapse mới chứa các bọc túi chất trung gian hoá học (như acetylcholine) và chỉ có màng sau synapse mới có các protein thụ thể tiếp nhận tương ứng.",
+      "tag": "Synapse",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11-sh-fc-02-09",
+      "front": "Thế nào là hiện tượng In vết (Imprinting) ở động vật non?",
+      "back": "Là hình thức học tập diễn ra trong giai đoạn nhạy cảm ngắn ngay sau khi sinh/nở: con non ghi nhớ và lẽo đẽo đi theo cá thể chuyển động đầu tiên nhìn thấy (thường là mẹ nó), giúp tăng khả năng sống sót và được bảo bọc.",
+      "tag": "Hình thức học tập",
+      "difficulty": "easy"
+    },
+    {
+      "id": "11-sh-fc-02-10",
+      "front": "Phân biệt Điều kiện hoá đáp ứng (Paplov) và Điều kiện hoá hành động (Skinner)?",
+      "back": "- Điều kiện hoá đáp ứng: con vật thụ động liên kết kích thích trung tính (chuông) với kích thích không điều kiện (thức ăn) -> tiết nước bọt.\n- Điều kiện hoá hành động: con vật chủ động thực hiện hành vi thử sai (gạt đòn bẩy) và được củng cố bằng phần thưởng tích cực (thức ăn).",
+      "tag": "Học tập ở động vật",
+      "difficulty": "medium"
+    }
+  ]
+}

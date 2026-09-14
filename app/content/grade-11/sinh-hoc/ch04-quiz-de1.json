@@ -1,16 +1,158 @@
-[
-  {
-    "id": "sinhhoc11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Ở thực vật có hoa, hạt được hình thành từ bộ phận nào của hoa sau khi thụ tinh?",
-    "options": [
-      "A. Bầu nhụy",
-      "B. Noãn đã thụ tinh",
-      "C. Cánh hoa",
-      "D. Đầu nhụy"
-    ],
-    "answer": 1,
-    "explanation": "📌 Sự hình thành hạt và quả: Noãn sau khi thụ tinh sẽ phát triển thành Hạt chứa phôi; Bầu nhụy dày lên phát triển thành Quả bảo vệ hạt.\n💡 Noãn $\\rightarrow$ Hạt, Bầu $\\rightarrow$ Quả.\n⚠️ Tránh nhầm lẫn giữa bầu nhụy và noãn."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de1",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch04",
+  "chapterTitle": "Sinh sản ở sinh vật",
+  "title": "Sinh học 11 — Chương 4: Đề 1 — Khái niệm & Nhận biết",
+  "description": "Kiểm tra nhận biết về sinh sản sinh dưỡng, thụ tinh kép ở thực vật, trinh sinh và các hormone sinh dục.",
+  "examCode": "401",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch04-d1-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Hình thức sinh sản sinh dưỡng tự nhiên",
+      "question": "Cây khoai tây trong tự nhiên sinh sản sinh dưỡng tạo cây con chủ yếu bắt nguồn từ bộ phận nào?",
+      "options": [
+        "Từ các kẽ gân của phiến lá già",
+        "Từ đầu chóp của rễ cọc",
+        "Từ các mầm chồi trên thân củ",
+        "Từ các đoạn rễ thở mọc trồi lên khỏi mặt đất"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khoai tây sinh sản sinh dưỡng bằng thân củ.",
+        "socraticPrompt": "Củ khoai tây thực chất là biến dạng của bộ phận nào (thân hay rễ) có chứa các mắt mầm chồi?",
+        "steps": "Củ khoai tây là phần thân ngầm phình to tích lũy tinh bột (thân củ). Trên mặt củ có các mắt (chính là các chồi ngọn và chồi nách), khi gặp đất ẩm các mắt mầm này sẽ nguyên phân mọc ra các chồi thân và rễ bất định phát triển thành cây khoai tây con mới.",
+        "trap": "Nhầm củ khoai tây là rễ củ (khoai lang mới là rễ củ, khoai tây là thân củ).",
+        "distractorReasons": {
+          "1": "Rễ cọc không có mắt mầm sinh dưỡng tạo chồi thân ở khoai tây.",
+          "0": "Sinh sản bằng phiến lá là đặc điểm của cây thuốc bỏng (Kalanchoe).",
+          "3": "Rễ thở có ở cây ngập mặn (bần, vẹt), không phải khoai tây."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch04-d1-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Bản chất của Thụ tinh kép",
+      "question": "Trong hiện tượng thụ tinh kép ở thực vật hạt kín, tinh tử thứ hai (n) kết hợp với cấu trúc nào trong túi phôi để hình thành nên nội nhũ (3n)?",
+      "options": [
+        "Noãn cầu (tế bào trứng n)",
+        "Tế bào kèm (trợ bào n)",
+        "Tế bào đối cực (tế bào tam đối n)",
+        "Nhân cực (tế bào trung tâm 2n)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tinh tử 2 (n) + Nhân cực (2n) -> Tế bào nội nhũ tam bội (3n).",
+        "socraticPrompt": "Cấu trúc nào ở tâm túi phôi chứa 2 nhân đơn bội hợp nhất tạo bộ NST 2n tiếp nhận tinh tử thứ hai?",
+        "steps": "Thụ tinh kép gồm 2 quá trình hợp nhất đồng thời: Tinh tử 1 (n) kết hợp với noãn cầu (n) tạo hợp tử (2n) phát triển thành phôi; Tinh tử 2 (n) kết hợp với nhân cực (2n) tại trung tâm túi phôi tạo ra tế bào nhân tam bội (3n), tế bào này phân chia liên tục hình thành mô nội nhũ chứa chất dinh dưỡng nuôi phôi.",
+        "trap": "Nhầm noãn cầu (kết hợp với noãn cầu tạo hợp tử 2n, không phải nội nhũ 3n).",
+        "distractorReasons": {
+          "0": "Noãn cầu kết hợp với tinh tử 1 tạo hợp tử phôi (2n).",
+          "1": "Trợ bào giúp dẫn đường cho ống phấn vào túi phôi rồi tiêu biến.",
+          "2": "Tế bào đối cực nằm ở đáy túi phôi và sẽ thoái hóa sau khi thụ tinh."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch04-d1-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Khái niệm Trinh sinh ở động vật",
+      "question": "Hiện tượng trinh sinh (Parthenogenesis) ở các loài ong, kiến, rệp được định nghĩa là hình thức sinh sản nào?",
+      "options": [
+        "Cơ thể con phát triển trực tiếp từ tế bào trứng không qua thụ tinh",
+        "Cơ thể con phát triển trực tiếp từ một mảnh vụn đứt rời của cơ thể mẹ",
+        "Cơ thể mẹ tự nảy một chồi con trên thành vách cơ thể",
+        "Hai cá thể đơn tính trao đổi vật chất di truyền cho nhau"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trinh sinh là hiện tượng trứng không thụ tinh vẫn phát triển thành cơ thể mới (ong đực n).",
+        "socraticPrompt": "Khi ong chúa đẻ trứng mà không cho tinh trùng thụ tinh, quả trứng đó sẽ phát triển như thế nào?",
+        "steps": "Trinh sinh là một hình thức sinh sản vô tính đặc biệt ở động vật, trong đó tế bào trứng đơn bội (n) không cần thụ tinh với tinh trùng nhưng vẫn tiến hành nguyên phân và phát triển thành một cá thể con hoàn chỉnh (ở ong mật nở thành ong đực đơn bội n).",
+        "trap": "Nhầm trinh sinh với phân mảnh (sao biển) hoặc nảy chồi (thủy tức).",
+        "distractorReasons": {
+          "1": "Phát triển từ mảnh đứt rời là hình thức phân mảnh (Fragmentation).",
+          "2": "Mọc chồi trên thành cơ thể là hình thức nảy chồi (Budding).",
+          "3": "Trao đổi vật chất di truyền giữa hai cá thể là hình thức tiếp hợp hữu tính."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch04-d1-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Hormone Testosterone ở nam giới",
+      "question": "Loại tế bào nào trong tinh hoàn chịu trách nhiệm trực tiếp sản xuất hormone sinh dục nam Testosterone?",
+      "options": [
+        "Tế bào Sertoli (tế bào nâng đỡ)",
+        "Tế bào kẽ (tế bào Leydig)",
+        "Tế bào biểu mô ống dẫn tinh",
+        "Tế bào tiền liệt tuyến"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tế bào kẽ Leydig nằm giữa các ống sinh tinh tiết testosterone dưới tác động của LH.",
+        "socraticPrompt": "Tế bào nào nằm xen kẽ giữa các ống sinh tinh trong tinh hoàn chuyên tiết hormone sinh dục nam?",
+        "steps": "Hormone LH do thùy trước tuyến yên tiết ra kích thích các tế bào kẽ (tế bào Leydig) nằm trong mô kẽ giữa các ống sinh tinh tổng hợp và tiết hormone Testosterone, kích hoạt quá trình sinh tinh và duy trì các đặc điểm sinh dục phụ nam.",
+        "trap": "Nhầm tế bào Sertoli (Sertoli có chức năng nâng đỡ và nuôi dưỡng tinh trùng, không tiết testosterone).",
+        "distractorReasons": {
+          "0": "Tế bào Sertoli nuôi dưỡng các tế bào dòng tinh trong ống sinh tinh.",
+          "2": "Tế bào biểu mô ống dẫn tinh chỉ làm nhiệm vụ dẫn dịch.",
+          "3": "Tuyến tiền liệt tiết dịch kiềm nuôi dưỡng tinh trùng trong tinh dịch."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch04-d1-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Thể vàng và hormone Progesterone",
+      "question": "Sau khi trứng chín và rụng khỏi buồng trứng, phần vỏ bao nang rỗng còn lại sẽ biến đổi thành cấu trúc nào và tiết ra hormone gì?",
+      "options": [
+        "Biến thành nang trứng mới và tiết ra hormone GnRH",
+        "Tiêu biến hoàn toàn ngay lập tức mà không để lại dấu vết gì",
+        "Biến thành Thể vàng và tiết ra hormone Progesterone cùng Estrogen",
+        "Di chuyển xuống tử cung và bám vào thành tử cung tạo nhau thai"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sau rụng trứng, nang trứng rỗng biến thành Thể vàng (Corpus luteum) tiết Progesterone và Estrogen làm dày niêm mạc tử cung.",
+        "socraticPrompt": "Cấu trúc màu vàng xuất hiện tại buồng trứng sau khi phóng noãn tiết ra hormone nào giúp giữ thai?",
+        "steps": "Dưới tác động của đỉnh hormone LH, trứng chín rụng khỏi nang. Các tế bào nang còn lại tại buồng trứng tăng sinh biến đổi thành Thể vàng (Corpus luteum). Thể vàng tiết ra lượng lớn hormone Progesterone và Estrogen làm niêm mạc tử cung dày xốp, sung huyết mạch máu để đón phôi làm tổ.",
+        "trap": "Nhầm cấu trúc thể vàng với phôi thai (thể vàng nằm lại ở buồng trứng, không đi xuống tử cung).",
+        "distractorReasons": {
+          "0": "Nang rỗng biến thành thể vàng, không biến thành nang mới và GnRH do vùng dưới đồi tiết.",
+          "1": "Thể vàng tồn tại ít nhất 10 - 14 ngày (nếu không có thai) hoặc nhiều tháng (nếu có thai).",
+          "3": "Thể vàng ở lại buồng trứng, không di chuyển xuống tử cung."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch04-d1-q06",
+      "difficulty": "nhan-biet",
+      "topic": "Biện pháp tránh thai kép",
+      "question": "Biện pháp tránh thai nào sau đây là duy nhất có tác dụng kép: vừa ngăn ngừa mang thai ngoài ý muốn, vừa phòng tránh hiệu quả các bệnh lây truyền qua đường tình dục (STDs) và HIV/AIDS?",
+      "options": [
+        "Đặt dụng cụ tử cung (đặt vòng tránh thai)",
+        "Uống viên thuốc tránh thai hàng ngày",
+        "Tính ngày rụng trứng theo chu kì kinh nguyệt",
+        "Sử dụng bao cao su đúng cách"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bao cao su tạo hàng rào cơ học ngăn cản tinh trùng và các tác nhân vi sinh vật, virus lây qua dịch sinh dục.",
+        "socraticPrompt": "Biện pháp tránh thai nào tạo màng chắn cơ học ngăn tiếp xúc dịch thể giữa hai cơ thể?",
+        "steps": "Bao cao su (nam hoặc nữ) tạo nên hàng rào vật lí ngăn chặn hoàn toàn tinh trùng gặp trứng, đồng thời ngăn cản sự lây truyền của vi khuẩn, nấm và virus (như HIV, lậu, giang mai, sùi mào gà HPV) qua dịch sinh dục và niêm mạc. Các biện pháp nội tiết tố hay đặt vòng chỉ có tác dụng ngừa thai, không có khả năng chống bệnh lây truyền.",
+        "trap": "Nghĩ uống thuốc tránh thai hoặc đặt vòng cũng phòng ngừa được bệnh lây truyền qua đường tình dục.",
+        "distractorReasons": {
+          "0": "Đặt vòng chỉ ngăn phôi làm tổ trong buồng tử cung, không ngăn được vi khuẩn/virus xâm nhập.",
+          "1": "Thuốc tránh thai chỉ ngăn rụng trứng bằng hormone, không ngăn được bệnh truyền nhiễm.",
+          "2": "Tính ngày rụng trứng tỉ lệ thất bại rất cao và hoàn toàn không chống được bệnh STDs."
+        }
+      }
+    }
+  ]
+}

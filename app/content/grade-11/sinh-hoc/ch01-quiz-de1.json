@@ -1,19 +1,158 @@
-[
-  {
-    "id": "sinhhoc11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khí Oxygen ($O_2$) được giải phóng trong quá trình quang hợp của cây xanh có nguồn gốc từ phân tử nào?",
-    "options": [
-      "A. Khí Carbon dioxide ($CO_2$)",
-      "B. Phân tử nước",
-      "C. Phân tử đường Glucose",
-      "D. Hợp chất diệp lục"
-    ],
-    "answer": 1,
-    "explanation": "📌 Cơ chế quang hợp: Khí oxy sinh ra từ quá trình quang phân li nước ở pha sáng tại màng thylakoid: $2H_2O \\rightarrow 4H^+ + 4e^- + O_2$.\n💡 $CO_2$ tham gia cố định cacbon ở pha tối tạo đường glucose.\n⚠️ Thí nghiệm đồng vị phóng xạ $O^{18}$ đã chứng minh oxy sinh ra từ nước.",
-    "breakdown": {
-      "calculation": "$H_2O$ do quang phân li"
+{
+  "chapterId": "ch01",
+  "examId": "de1",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch01",
+  "chapterTitle": "Trao đổi chất & Chuyển hoá năng lượng ở sinh vật",
+  "title": "Sinh học 11 — Chương 1: Đề 1 — Khái niệm & Nhận biết",
+  "description": "Kiểm tra nhận biết về vai trò trao đổi chất, con đường hấp thu nước khoáng, pha sáng quang hợp và hệ tuần hoàn.",
+  "examCode": "101",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch01-d1-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Vai trò của trao đổi chất và chuyển hoá năng lượng",
+      "question": "Trong cơ thể sinh vật, quá trình nào sau đây giải phóng năng lượng ATP cung cấp cho các hoạt động sống?",
+      "options": [
+        "Phân giải các hợp chất hữu cơ trong hô hấp tế bào",
+        "Tổng hợp glycogen từ các phân tử glucose",
+        "Quá trình quang hợp hấp thu năng lượng ánh sáng",
+        "Quá trình khử nitrate thành ammonium ở rễ cây"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hô hấp tế bào là quá trình dị hoá bẻ gãy liên kết trong chất hữu cơ để tích lũy năng lượng vào ATP.",
+        "socraticPrompt": "Quá trình nào biến đổi chất hữu cơ phức tạp thành chất đơn giản kèm theo sự giải phóng năng lượng?",
+        "steps": "Hô hấp tế bào là quá trình phân giải chất hữu cơ (chủ yếu là glucose) giải phóng năng lượng tích luỹ trong phân tử ATP cung cấp cho mọi hoạt động sống.",
+        "trap": "Nhầm quang hợp là tạo năng lượng cho cơ thể dùng ngay (quang hợp tích lũy năng lượng vào chất hữu cơ, chưa dùng trực tiếp được).",
+        "distractorReasons": {
+          "1": "Tổng hợp chất là quá trình tiêu tốn năng lượng tích lũy vào liên kết hóa học.",
+          "2": "Quang hợp tích luỹ quang năng vào liên kết hoá học của carbohydrate chứ không giải phóng ATP cho hoạt động sống toàn cơ thể.",
+          "3": "Khử nitrate là quá trình đồng hoá cần cung cấp năng lượng và chất khử."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d1-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Đai Caspary ở rễ cây",
+      "question": "Đai Caspary có vai trò quan trọng nào sau đây trong quá trình hấp thụ nước và ion khoáng ở rễ?",
+      "options": [
+        "Tăng diện tích tiếp xúc giữa tế bào lông hút và hạt đất",
+        "Ngăn dòng nước và khoáng đi qua gian bào, buộc đi qua tế bào chất để kiểm soát",
+        "Tiêu huỷ hoàn toàn các chất độc hại trước khi vào mạch gỗ",
+        "Tạo áp suất rễ đẩy dòng nhựa luyện đi lên các cành cây trên cao"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đai Caspary tẩm suberin không thấm nước nằm ở nội bì, chặn con đường gian bào.",
+        "socraticPrompt": "Khi dòng nước đi theo thành tế bào đến lớp nội bì, cấu trúc nào chặn lại để tế bào thực hiện chọn lọc chất?",
+        "steps": "Đai Caspary nằm ở thành các tế bào nội bì, có tính không thấm nước giúp chặn dòng vận chuyển gian bào, buộc nước và ion khoáng phải đi qua màng sinh chất và tế bào chất của tế bào nội bì, nhờ đó cây kiểm soát được lượng và loại chất tan đi vào trung trụ.",
+        "trap": "Nghĩ rằng đai Caspary cản trở hoàn toàn không cho nước vào cây hoặc có khả năng tiêu hủy độc chất như lysosome.",
+        "distractorReasons": {
+          "0": "Lông hút mới đảm nhiệm vai trò tăng diện tích tiếp xúc với dung dịch đất.",
+          "2": "Đai Caspary chỉ đóng vai trò hàng rào cơ học buộc dòng chất đi qua tế bào chất chọn lọc chứ không có enzyme tiêu huỷ.",
+          "3": "Đai Caspary không tham gia tạo lực đẩy áp suất rễ và mạch gỗ vận chuyển nhựa nguyên chứ không phải nhựa luyện."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d1-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Nguồn gốc oxy trong quang hợp",
+      "question": "Khí oxy ($O_2$) được giải phóng trong quá trình quang hợp ở thực vật có nguồn gốc trực tiếp từ phân tử nào?",
+      "options": [
+        "Phân tử đường glucose ($C_6H_{12}O_6$) bị phân giải",
+        "Khí carbon dioxide ($CO_2$) trong pha tối",
+        "Phân tử nước ($H_2O$) qua phản ứng quang phân li",
+        "Phân tử Ribulose 1,5-bisphosphate ($RuBP$)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quang phân li nước tại xoang tilacoid: 2 H2O -> 4 H+ + 4 e- + O2.",
+        "socraticPrompt": "Trong pha sáng, electron bù cho diệp lục lấy từ việc bẻ gãy phân tử nào và sinh ra khí gì?",
+        "steps": "Thí nghiệm dùng đồng vị phóng xạ 18O đã chứng minh toàn bộ khí O2 sinh ra trong quang hợp đều bắt nguồn từ phản ứng quang phân li H2O ở màng tilacoid trong pha sáng.",
+        "trap": "Học sinh thường nhìn vào công thức CO2 và lầm tưởng cây lấy C nhả O2 từ CO2.",
+        "distractorReasons": {
+          "1": "Oxy trong CO2 đi vào cấu tạo của phân tử glucose và nước mới sinh ra.",
+          "0": "Glucose là sản phẩm của quang hợp chứ không phải chất tham gia tạo O2.",
+          "3": "RuBP là chất nhận CO2 trong chu trình Calvin."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d1-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Dạ dày động vật nhai lại",
+      "question": "Ở động vật nhai lại như trâu, bò, ngăn nào của dạ dày được coi là dạ dày chính thức có chức năng tiết dịch vị pepsin và HCl?",
+      "options": [
+        "Dạ cỏ",
+        "Dạ tổ ong",
+        "Dạ lá sách",
+        "Dạ múi khế"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Dạ múi khế có tuyến dịch vị tiết enzyme pepsin và HCl như dạ dày người.",
+        "socraticPrompt": "Trong 4 ngăn dạ dày của bò, ngăn nào có tuyến tiêu hoá tiết enzyme acid phân giải protein?",
+        "steps": "Dạ múi khế là dạ dày thực sự của động vật nhai lại, có các tuyến tiết dịch vị chứa enzyme pepsin và acid HCl để tiêu hoá hóa học protein của thức ăn và sinh khối vi sinh vật.",
+        "trap": "Học sinh hay chọn dạ cỏ vì nghĩ dạ cỏ lớn nhất và lên men tiêu hoá nhiều nhất.",
+        "distractorReasons": {
+          "0": "Dạ cỏ là nơi chứa và lên men thức ăn nhờ vi sinh vật cộng sinh, không tiết dịch vị.",
+          "1": "Dạ tổ ong giúp đưa thức ăn ngược lên miệng để nhai lại.",
+          "2": "Dạ lá sách có chức năng ép và tái hấp thu bớt nước từ thức ăn."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d1-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Hệ dẫn truyền tim",
+      "question": "Trật tự lan truyền xung điện tự động trong hệ dẫn truyền tim diễn ra theo đúng thứ tự nào sau đây?",
+      "options": [
+        "Nút xoang nhĩ -> Nút nhĩ thất -> Bó His -> Mạng Purkinje",
+        "Nút nhĩ thất -> Nút xoang nhĩ -> Bó His -> Mạng Purkinje",
+        "Mạng Purkinje -> Bó His -> Nút nhĩ thất -> Nút xoang nhĩ",
+        "Nút xoang nhĩ -> Bó His -> Nút nhĩ thất -> Mạng Purkinje"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính tự động của tim điều khiển bởi hệ dẫn truyền tim phát xung nhịp nhàng.",
+        "socraticPrompt": "Nút nào nằm ở tâm nhĩ phải đóng vai trò chủ nhịp phát xung đầu tiên cho quả tim?",
+        "steps": "Nút xoang nhĩ tự động phát xung điện -> lan truyền ra cơ tâm nhĩ và đến nút nhĩ thất -> truyền qua bó His -> toả vào mạng Purkinje lan truyền khắp cơ tâm thất gây co tâm thất.",
+        "trap": "Đảo vị trí giữa nút nhĩ thất và bó His.",
+        "distractorReasons": {
+          "1": "Nút xoang nhĩ mới là nơi khởi phát xung điện nhịp nhàng.",
+          "2": "Mạng Purkinje là chặng cuối cùng nhận xung để kích hoạt tâm thất co.",
+          "3": "Xung từ nút xoang nhĩ phải đến nút nhĩ thất trước khi truyền vào bó His."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d1-q06",
+      "difficulty": "nhan-biet",
+      "topic": "Miễn dịch thể dịch",
+      "question": "Loại tế bào nào sau đây trực tiếp sản xuất và tiết các phân tử kháng thể vào huyết tương trong đáp ứng miễn dịch thể dịch?",
+      "options": [
+        "Tế bào lympho T hỗ trợ (Th)",
+        "Tương bào (biệt hoá từ lympho B)",
+        "Tế bào đại thực bào (Macrophage)",
+        "Tế bào lympho T độc (Tc)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tế bào lympho B sau khi nhận diện kháng nguyên sẽ nhân dòng và biệt hoá thành tương bào tiết kháng thể.",
+        "socraticPrompt": "Tế bào lympho B phân chia và biệt hoá thành dạng tế bào nào để phóng thích lượng lớn phân tử kháng thể?",
+        "steps": "Khi được hoạt hoá, tế bào lympho B nhân dòng tạo ra tế bào nhớ và tương bào (plasma cell). Tương bào là tế bào chuyên biệt trực tiếp tiết hàng ngàn phân tử kháng thể đặc hiệu mỗi giây vào dòng tuần hoàn.",
+        "trap": "Nhầm tế bào T hỗ trợ hoặc đại thực bào trực tiếp tiết kháng thể.",
+        "distractorReasons": {
+          "0": "Lympho T hỗ trợ tiết cytokine hoạt hoá các tế bào miễn dịch khác chứ không tiết kháng thể.",
+          "2": "Đại thực bào thực hiện thực bào và trình diện kháng nguyên.",
+          "3": "Lympho T độc trực tiếp tấn công và làm tan tế bào nhiễm bằng perforin và granzyme."
+        }
+      }
     }
-  }
-]
+  ]
+}

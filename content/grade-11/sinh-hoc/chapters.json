@@ -6,170 +6,207 @@
     {
       "id": "ch01",
       "title": "Chương 1: Trao đổi chất & Chuyển hoá năng lượng ở sinh vật",
-      "description": "Quang hợp và Hô hấp ở thực vật; Dinh dưỡng khoáng và nước; Tiêu hoá, Tuần hoàn, Hô hấp và Bài tiết ở động vật.",
+      "description": "Khái quát TĐC và chuyển hoá năng lượng; Trao đổi nước và khoáng ở thực vật; Quang hợp và Hô hấp ở thực vật; Tiêu hóa, Hô hấp, Tuần hoàn, Miễn dịch và Bài tiết ở động vật.",
       "lessons": [
         {
           "id": "l01",
-          "title": "Bài 1: Khái quát về trao đổi chất và chuyển hoá năng lượng"
+          "title": "Bài 1: Khái quát về trao đổi chất và chuyển hoá năng lượng",
+          "hasRealContent": true
         },
         {
           "id": "l02",
-          "title": "Bài 2: Trao đổi nước và khoáng ở thực vật"
+          "title": "Bài 2: Trao đổi nước và dinh dưỡng khoáng ở thực vật",
+          "hasRealContent": true
         },
         {
           "id": "l03",
-          "title": "Bài 3: Quang hợp ở thực vật (Pha sáng và Pha tối C3, C4, CAM)"
+          "title": "Bài 3: Quang hợp và Hô hấp ở thực vật (Pha sáng, C3, C4, CAM & Chu trình Krebs)",
+          "hasRealContent": true
         },
         {
           "id": "l04",
-          "title": "Bài 4: Hô hấp ở thực vật và Trao đổi chất ở động vật"
+          "title": "Bài 4: Tiêu hóa, Hô hấp, Tuần hoàn, Miễn dịch & Bài tiết ở động vật",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
           "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "questionCount": 6,
+          "badge": "Nhận biết"
         },
         {
           "id": "de2",
           "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Thông hiểu"
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Vận dụng cao"
         }
-      ]
+      ],
+      "hasRealContent": true
     },
     {
       "id": "ch02",
       "title": "Chương 2: Cảm ứng ở sinh vật",
-      "description": "Cảm ứng ở thực vật (hướng động, ứng động); Cảm ứng ở động vật (hệ thần kinh dạng lưới, chuỗi hạch, ống); Điện thế nghỉ, điện thế hoạt động; Tập tính động vật.",
+      "description": "Cảm ứng ở thực vật (hướng động và ứng động); Cảm ứng ở động vật (hệ thần kinh lưới, hạch, ống; điện thế nghỉ, điện thế hoạt động, synapse); Tập tính động vật và các hình thức học tập.",
       "lessons": [
         {
-          "id": "l05",
-          "title": "Bài 5: Cảm ứng ở thực vật (Hướng động và Ứng động)"
+          "id": "l01",
+          "title": "Bài 1: Khái quát về cảm ứng và Cảm ứng ở thực vật (Hướng động và Ứng động)",
+          "hasRealContent": true
         },
         {
-          "id": "l06",
-          "title": "Bài 6: Cảm ứng ở động vật và Hệ thần kinh"
+          "id": "l02",
+          "title": "Bài 2: Cảm ứng ở động vật (Hệ thần kinh, Điện thế nghỉ, Điện thế hoạt động và Synapse)",
+          "hasRealContent": true
         },
         {
-          "id": "l07",
-          "title": "Bài 7: Tập tính ở động vật và ứng dụng"
+          "id": "l03",
+          "title": "Bài 3: Tập tính ở động vật và Các hình thức học tập",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
           "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "questionCount": 6,
+          "badge": "Nhận biết"
         },
         {
           "id": "de2",
           "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Thông hiểu"
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Vận dụng cao"
         }
-      ]
+      ],
+      "hasRealContent": true
     },
     {
       "id": "ch03",
       "title": "Chương 3: Sinh trưởng & Phát triển ở sinh vật",
-      "description": "Sinh trưởng sơ cấp và thứ cấp ở thực vật; Hormone thực vật; Sinh trưởng phát triển ở động vật (biến thái hoàn toàn, không hoàn toàn, không qua biến thái).",
+      "description": "Sinh trưởng và phát triển ở thực vật (mô phân sinh, hormone thực vật, vòng năm gỗ, quang chu kì, xuân hoá); Sinh trưởng và phát triển ở động vật (không biến thái, biến thái hoàn toàn, hormone GH, thyroxine, ecdysone, juvenile).",
       "lessons": [
         {
-          "id": "l08",
-          "title": "Bài 8: Sinh trưởng và phát triển ở thực vật"
+          "id": "l01",
+          "title": "Bài 1: Sinh trưởng và phát triển ở thực vật (Mô phân sinh, Phytohormone, Quang chu kì & Xuân hoá)",
+          "hasRealContent": true
         },
         {
-          "id": "l09",
-          "title": "Bài 9: Sinh trưởng và phát triển ở động vật và các nhân tố ảnh hưởng"
+          "id": "l02",
+          "title": "Bài 2: Sinh trưởng và phát triển ở động vật (Các kiểu biến thái và Hormone điều hoà)",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
           "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "questionCount": 6,
+          "badge": "Nhận biết"
         },
         {
           "id": "de2",
           "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Thông hiểu"
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Vận dụng cao"
         }
-      ]
+      ],
+      "hasRealContent": true
     },
     {
       "id": "ch04",
       "title": "Chương 4: Sinh sản ở sinh vật",
-      "description": "Sinh sản vô tính và hữu tính ở thực vật; Sinh sản vô tính và hữu tính ở động vật; Thụ tinh kép; Cơ chế điều hòa sinh sản.",
+      "description": "Sinh sản ở thực vật (sinh sản sinh dưỡng, thụ tinh kép tạo hạt và quả); Sinh sản ở động vật (vô tính, hữu tính thụ tinh trong/ngoài; điều hoà sinh sản hạ đồi - tuyến yên - tuyến sinh dục; sinh đẻ có kế hoạch và IVF).",
       "lessons": [
         {
-          "id": "l10",
-          "title": "Bài 10: Sinh sản ở thực vật (Thụ tinh kép ở thực vật có hoa)"
+          "id": "l01",
+          "title": "Bài 1: Sinh sản ở thực vật (Sinh sản sinh dưỡng, Thụ phấn và Thụ tinh kép)",
+          "hasRealContent": true
         },
         {
-          "id": "l11",
-          "title": "Bài 11: Sinh sản ở động vật và các biện pháp kế hoạch hoá gia đình"
+          "id": "l02",
+          "title": "Bài 2: Sinh sản ở động vật và Sinh đẻ có kế hoạch (Điều hòa sinh sản & Kĩ thuật IVF)",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
           "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "questionCount": 6,
+          "badge": "Nhận biết"
         },
         {
           "id": "de2",
           "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Thông hiểu"
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Vận dụng cao"
         }
-      ]
+      ],
+      "hasRealContent": true
     },
     {
       "id": "ch05",
-      "title": "Chương 5: Mối quan hệ giữa các quá trình sinh học",
-      "description": "Mối quan hệ qua lại và tính thống nhất giữa trao đổi chất, cảm ứng, sinh trưởng và sinh sản trong cơ thể sinh vật.",
+      "title": "Chương 5: Mối quan hệ giữa các quá trình sinh lí & Ngành nghề liên quan",
+      "description": "Tính thống nhất, toàn vẹn và tự điều chỉnh của cơ thể sinh vật; Các ngành nghề triển vọng liên quan đến Sinh học cơ thể (Y - Dược học, Nông nghiệp công nghệ cao, Công nghệ sinh học, Thú y, Đạo đức sinh học).",
       "lessons": [
         {
-          "id": "l12",
-          "title": "Bài 12: Mối quan hệ giữa các quá trình sinh học trong cơ thể sinh vật và cơ thể là một thể thống nhất"
+          "id": "l01",
+          "title": "Bài 1: Mối quan hệ giữa các quá trình sinh lí trong cơ thể sinh vật",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Một số ngành nghề liên quan đến sinh học cơ thể và Đạo đức sinh học",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
           "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "questionCount": 6,
+          "badge": "Nhận biết"
         },
         {
           "id": "de2",
           "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Thông hiểu"
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 0
+          "questionCount": 6,
+          "badge": "Vận dụng cao"
         }
-      ]
+      ],
+      "hasRealContent": true
     }
   ]
 }

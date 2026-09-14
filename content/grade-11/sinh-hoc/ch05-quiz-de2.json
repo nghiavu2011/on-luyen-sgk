@@ -1,1 +1,158 @@
-[]
+{
+  "chapterId": "ch05",
+  "examId": "de2",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch05",
+  "chapterTitle": "Mối quan hệ sinh lí & Ngành nghề",
+  "title": "Sinh học 11 — Chương 5: Đề 2 — Kỹ năng & Thực hành",
+  "description": "Phân tích mối quan hệ nhân quả giữa các quá trình sinh lí khi cây bị ngập úng, khi cơ thể vận động và ứng dụng trong chọn ngành nghề.",
+  "examCode": "502",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch05-d2-q01",
+      "difficulty": "thong-hieu",
+      "topic": "Cơ chế cây trồng cạn bị chết khi ngập úng lâu ngày",
+      "question": "Tại sao các loài cây trồng cạn (như ngô, đậu, cam) khi bị ngập úng rễ trong nước lâu ngày thì lá cây lại bị héo vàng và cây bị chết?",
+      "options": [
+        "Vì rễ cây hút quá nhiều nước làm vỡ toàn bộ các tế bào lá cây",
+        "Vì nước ngập làm trôi mất toàn bộ ánh sáng Mặt Trời của cây",
+        "Vì đất ngập nước bị thiếu O2 làm rễ ngừng hô hấp hiếu khí, thiếu ATP khiến tế bào lông hút chết và không hút được khoáng, cây bị ngộ độc sản phẩm lên men và héo vì thiếu nước",
+        "Vì ngập nước kích thích cây hô hấp sáng cực mạnh thiêu rụi tế bào"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ngập úng -> Đất kị khí thiếu O2 -> Rễ không hô hấp hiếu khí được -> Không có ATP hút khoáng chủ động -> Lông hút thối chết -> Cây mất nước héo chết.",
+        "socraticPrompt": "Tế bào rễ cây cần khí gì từ các khe đất để hô hấp tạo năng lượng ATP cho việc hút nước và khoáng?",
+        "steps": "Khi đất bị úng ngập, nước choán hết các khe hở chứa không khí trong đất làm rễ cây bị thiếu oxy trầm trọng. Tế bào rễ phải chuyển sang lên men kị khí sinh ra acid lactic và ethanol gây độc tế bào, đồng thời tạo ra rất ít ATP (chỉ 2 ATP/glucose). Không đủ năng lượng, tế bào lông hút bị chết thối rữa và không thể hấp thu nước, khoáng; trong khi lá trên cạn vẫn thoát hơi nước dẫn đến cây mất cân bằng nước, lá héo rũ và cây chết khô ngay trên vùng nước úng.",
+        "trap": "Học sinh ngạc nhiên 'tại sao cây ở trong nước ngập mà lại bị chết vì thiếu nước?'.",
+        "distractorReasons": {
+          "0": "Rễ bị thối lông hút nên không hề hút được nước, không có chuyện vỡ tế bào lá do thừa nước.",
+          "1": "Nước chỉ ngập ở rễ, tán lá trên cao vẫn nhận ánh sáng bình thường.",
+          "3": "Hô hấp sáng chỉ diễn ra ở lá trong điều kiện giàu O2 và ánh sáng mạnh, không xảy ra ở rễ ngập úng."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch05-d2-q02",
+      "difficulty": "thong-hieu",
+      "topic": "Sự phối hợp giữa Hệ Tuần hoàn và Hệ Hô hấp khi sốt cao",
+      "question": "Khi cơ thể bị nhiễm khuẩn sốt cao, nhịp tim và nhịp thở thường tăng nhanh rõ rệt. Sự thay đổi sinh lí phối hợp này nhằm đáp ứng yêu cầu cấp bách nào của cơ thể?",
+      "options": [
+        "Để làm giảm nhanh khối lượng cơ thể",
+        "Do hệ thần kinh trung ương bị phá hủy hoàn toàn nên mất khả năng kiểm soát nhịp đập",
+        "Để làm cho vi khuẩn trong máu bị say sóng và chết rụi",
+        "Nhiệt độ cơ thể tăng làm tăng tốc độ chuyển hoá tế bào, nhu cầu tiêu thụ O2 tăng vọt và lượng CO2 sinh ra nhiều, buộc tim và phổi phải tăng tốc để cung cấp đủ O2 và thải nhiệt"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thân nhiệt tăng -> Chuyển hóa tế bào tăng mạnh (theo định luật Van't Hoff) -> Nhu cầu O2 tăng và thải CO2, tỏa nhiệt qua hô hấp và tuần hoàn.",
+        "socraticPrompt": "Khi thân nhiệt tăng thêm 1 độ C, tốc độ các phản ứng sinh hóa chuyển hóa trong tế bào tăng hay giảm?",
+        "steps": "Theo quy luật sinh học, khi thân nhiệt tăng cao do sốt, tốc độ các phản ứng trao đổi chất trong tế bào tăng mạnh kéo theo nhu cầu tiêu thụ oxy và giải phóng khí carbonic (CO2) tăng vọt. Nồng độ CO2 máu tăng kích thích trung khu hô hấp và tuần hoàn ở hành não phát xung tăng nhịp tim và nhịp thở, đồng thời tăng lưu lượng máu qua các mao mạch dưới da để khuếch tán nhiệt lượng ra ngoài chống quá nhiệt cơ thể.",
+        "trap": "Nghĩ sốt làm tim đập nhanh là dấu hiệu tim bị tổn thương do vi khuẩn cắn phá.",
+        "distractorReasons": {
+          "0": "Cơ thể sốt không nhằm mục tiêu giảm cân.",
+          "2": "Vi khuẩn không bị say sóng bởi dòng máu lưu thông.",
+          "1": "Đây là phản ứng điều hòa sinh lí chủ động và chính xác của hệ thần kinh, không phải bị tê liệt."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch05-d2-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Cơ chế điều hòa đường huyết của Tuyến tụy",
+      "question": "Ngay sau một bữa ăn nhiều tinh bột, nồng độ glucose trong máu tăng lên. Cơ thể thực hiện cơ chế phối hợp nội tiết nào để nhanh chóng đưa đường huyết về mức ổn định bình thường (khoảng 4,4 - 7,2 mmol/L)?",
+      "options": [
+        "Tế bào beta của đảo tụy tăng cường tiết Insulin giúp vận chuyển glucose vào tế bào và kích thích gan tổng hợp glucose dư thừa thành glycogen dự trữ",
+        "Tuyến tụy tiết nhiều Glucagon để kích thích gan biến glycogen thành glucose",
+        "Thận lập tức lọc và thải bỏ toàn bộ lượng đường trong máu qua nước tiểu",
+        "Tuyến giáp tiết thyroxine làm ngừng hẳn việc hấp thu chất dinh dưỡng ở ruột non"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Insulin (tế bào beta đảo tụy) hạ đường huyết; Glucagon (tế bào alpha) tăng đường huyết.",
+        "socraticPrompt": "Khi lượng đường trong máu dư thừa sau bữa ăn, tuyến tụy sẽ tiết hormone gì để cất giữ đường vào gan và cơ?",
+        "steps": "Khi glucose máu tăng cao sau ăn, tế bào beta của đảo Langerhans ở tuyến tụy cảm ứng và tiết ngay hormone Insulin vào máu. Insulin gắn lên các thụ thể ở màng tế bào gan, cơ và mô mỡ, mở các kênh vận chuyển đưa glucose vào trong tế bào sử dụng, đồng thời kích hoạt enzyme tổng hợp glucose thành glycogen dự trữ tại gan và cơ, đưa nồng độ đường huyết nhanh chóng trở về mức an toàn.",
+        "trap": "Nhầm tác dụng của Insulin (làm giảm đường huyết) với Glucagon (làm tăng đường huyết).",
+        "distractorReasons": {
+          "1": "Glucagon chỉ được tiết ra khi đói để nâng đường huyết lên, không tiết sau khi vừa ăn no.",
+          "2": "Thận bình thường tái hấp thu 100% glucose, chỉ thải đường khi đường huyết vượt ngưỡng thận (> 10 mmol/L) như ở bệnh đái tháo đường.",
+          "3": "Thyroxine không ức chế hấp thu dinh dưỡng tại ruột."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch05-d2-q04",
+      "difficulty": "thong-hieu",
+      "topic": "Ứng dụng chiếu sáng quang chu kì trong trồng hoa cúc bán Tết",
+      "question": "Người trồng hoa cúc ở các làng hoa truyền thống (như Tây Tựu, Đà Lạt) thường thắp bóng đèn điện ngắt quãng đêm dài suốt vài tuần đầu vụ thu đông. Cơ sở khoa học của việc làm này là gì?",
+      "options": [
+        "Để sưởi ấm cho hoa cúc khỏi bị sâu bọ cắn phá",
+        "Vì hoa cúc là cây ngày ngắn (cần đêm dài để ra hoa); việc thắp đèn ban đêm làm ngắt quãng thời gian tối khiến cây tiếp tục sinh trưởng thân lá, hoa không nở sớm mà nở đúng dịp Tết",
+        "Để kích thích hoa cúc nở ngay lập tức trong đêm",
+        "Để làm cho cánh hoa cúc chuyển sang màu đỏ rực rỡ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cây cúc là cây ngày ngắn cần đêm dài liên tục để tạo hormone ra hoa (florigen). Thắp đèn ngắt quãng đêm kìm hãm ra hoa sớm.",
+        "socraticPrompt": "Muốn giữ cho hoa cúc không nở sớm vào đầu mùa đông để đợi đến Tết bán được giá cao, người làm vườn can thiệp vào yếu tố nào?",
+        "steps": "Hoa cúc là thực vật ngày ngắn, ra hoa khi thời gian ban đêm dài liên tục vượt quá độ dài tới hạn. Vào mùa thu đông đêm tự nhiên rất dài, nếu không can thiệp thì hoa cúc sẽ ra hoa rất sớm khi thân cây còn ngắn và hoa nhỏ. Người làm vườn thắp đèn điện vào giữa đêm chia một đêm dài thành hai đêm ngắn, cây nhận biết tín hiệu đêm ngắn nên hoãn việc phân hóa mầm hoa, tiếp tục cao thêm và ra nhiều lá. Khi cây đã đạt chiều cao chuẩn, họ tắt đèn để cây đón đêm dài tự nhiên và đồng loạt nở hoa đúng dịp Tết Nguyên Đán.",
+        "trap": "Nghĩ thắp đèn là để kích thích hoa nở sớm (thực chất là để hoãn hoa nở sớm).",
+        "distractorReasons": {
+          "0": "Đèn thắp giữa vườn không có tác dụng diệt sâu bọ mà chỉ điều khiển quang chu kì.",
+          "2": "Thắp đèn ức chế ra hoa chứ không làm hoa nở ngay trong đêm.",
+          "3": "Màu sắc hoa do gene quyết định, không đổi màu nhờ ánh sáng đèn."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch05-d2-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Kĩ năng và năng lực của chuyên gia Y sinh học",
+      "question": "Để trở thành một nhà nghiên cứu Y sinh học hoặc chuyên viên xét nghiệm gene di truyền, học sinh cần rèn luyện tốt nhất nhóm năng lực và phẩm chất nào dưới đây?",
+      "options": [
+        "Khả năng học vẹt kiến thức mà không cần hiểu bản chất cơ chế",
+        "Chỉ cần có sức khỏe cơ bắp thật tốt để khiêng vác dụng cụ thí nghiệm",
+        "Tư duy khoa học logic, kĩ năng thao tác thực nghiệm chính xác, sự kiên trì tỉ mỉ và đạo đức nghiên cứu sinh học y đức",
+        "Kĩ năng hùng biện chèo kéo khách hàng mua thực phẩm chức năng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nghiên cứu y sinh đòi hỏi tư duy phân tích, kĩ năng thao tác vi lượng chính xác và y đức bảo vệ sự sống.",
+        "socraticPrompt": "Khi làm việc với các mẫu máu, tế bào và DNA của người bệnh, người làm xét nghiệm cần đức tính gì quan trọng nhất?",
+        "steps": "Ngành Y sinh học và xét nghiệm gene liên quan trực tiếp đến sức khỏe và tính mạng con người. Người làm nghề đòi hỏi phải có tư duy khoa học sắc bén để phân tích cơ chế phân tử, kĩ năng phòng thí nghiệm chuẩn xác từng microlit hóa chất, tính trung thực khoa học, sự cẩn trọng tuyệt đối và đạo đức nghề nghiệp (y đức) để bảo mật thông tin và tôn trọng sự sống.",
+        "trap": "Nhầm phẩm chất kinh doanh buôn bán sang nghiên cứu khoa học hàn lâm.",
+        "distractorReasons": {
+          "0": "Học vẹt không thể xử lí được các tình huống phát sinh trong nghiên cứu y sinh.",
+          "1": "Công việc y sinh đòi hỏi sự khéo léo tỉ mỉ vi lượng chứ không phải sức mạnh cơ bắp nặng nhọc.",
+          "3": "Hùng biện bán hàng thuộc kĩ năng thương mại tiếp thị, không thuộc nghiên cứu y sinh."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch05-d2-q06",
+      "difficulty": "thong-hieu",
+      "topic": "Vai trò của Bác sĩ thú y trong an toàn thực phẩm",
+      "question": "Công việc kiểm soát dư lượng kháng sinh và giám sát dịch bệnh gia súc gia cầm của Bác sĩ Thú y có ý nghĩa bảo vệ sức khỏe cộng đồng như thế nào?",
+      "options": [
+        "Chỉ bảo vệ động vật chứ hoàn toàn không có liên hệ gì đến sức khỏe con người",
+        "Thay thế hoàn toàn vai trò của các bác sĩ điều trị tại bệnh viện người",
+        "Làm tăng giá thành thịt cá ngoài chợ để hạn chế người dân ăn thịt",
+        "Ngăn chặn các mầm bệnh truyền nhiễm lây từ động vật sang người (như cúm gia cầm H5N1, dại, liên cầu lợn) và ngăn chặn hiện tượng kháng kháng sinh ở người tiêu dùng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mô hình Một Sức Khỏe (One Health): Sức khỏe con người gắn liền hữu cơ với sức khỏe động vật và môi trường sinh thái.",
+        "socraticPrompt": "Nếu gia súc bị lạm dụng kháng sinh hoặc nhiễm virus nguy hiểm thì người ăn phải thịt đó sẽ chịu hậu quả gì?",
+        "steps": "Hơn 70% các bệnh truyền nhiễm nguy hiểm mới nổi ở người có nguồn gốc lây truyền từ động vật (như cúm H5N1, dịch tả lợn châu Phi, virus dại, liên cầu khuẩn). Bác sĩ thú y kiểm soát dịch bệnh và giám sát thời gian ngừng thuốc kháng sinh trước khi giết mổ gia súc, giúp bảo đảm nguồn thực phẩm thịt trứng sữa sạch mầm bệnh, bảo vệ người tiêu dùng khỏi nguy cơ nhiễm khuẩn chéo và hiểm họa vi khuẩn kháng thuốc đa kháng sinh toàn cầu.",
+        "trap": "Nghĩ thú y chỉ là chữa bệnh cho vật nuôi cưng trong nhà.",
+        "distractorReasons": {
+          "0": "Sức khỏe động vật và con người liên quan trực tiếp qua chuỗi thức ăn và bệnh lây truyền.",
+          "2": "Mục tiêu là cung cấp thực phẩm an toàn với giá cả hợp lí cho người dân.",
+          "1": "Bác sĩ thú y làm việc trên động vật, không thay thế bác sĩ điều trị cho bệnh nhân người."
+        }
+      }
+    }
+  ]
+}

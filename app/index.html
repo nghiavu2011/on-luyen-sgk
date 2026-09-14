@@ -159,7 +159,7 @@
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #dcfce7; color: #15803d;">Lớp 10 – 12 · Mở Lớp 11</div>
                             <h3>THPT</h3>
-                            <p>Toán 11 & Hóa 11 trọn bộ 15 chương chuẩn SGK (100%)</p>
+                            <p>Toán, Lí, Hóa, Sinh 11 trọn bộ 24 chương chuẩn SGK (100% Khối A & B)</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
@@ -389,10 +389,10 @@
                     { id: "12", name: "Lớp 12", desc: "Bứt phá về đích", icon: "🎯" }
                 ],
                 subjects: [
-                    { id: "toan", name: "Toán", icon: "📐", chapters: 8 },
+                    { id: "toan", name: "Toán", icon: "📐", chapters: 9 },
                     { id: "vat-li", name: "Vật lí", icon: "⚛️", chapters: 4 },
                     { id: "hoa-hoc", name: "Hóa học", icon: "🧪", chapters: 6 },
-                    { id: "sinh-hoc", name: "Sinh học", icon: "🧬", chapters: 6 },
+                    { id: "sinh-hoc", name: "Sinh học", icon: "🧬", chapters: 5 },
                     { id: "ngu-van", name: "Ngữ Văn", icon: "🪶", chapters: 8 },
                     { id: "tieng-anh", name: "Tiếng Anh", icon: "Aa", chapters: 10 },
                     { id: "lich-su", name: "Lịch sử", icon: "🏛️", chapters: 6 },
@@ -507,8 +507,8 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🏆</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Hoàn thành 100% trọn bộ Khối A (Toán, Vật lí, Hóa học) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 19 chương: Toán học (9 ch - 27 đề), Vật lí (4 ch - 12 đề), Hóa học (6 ch - 18 đề) với 342 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 190 flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Hoàn thành 100% trọn bộ Khối A & Khối B (Toán, Lí, Hóa, Sinh) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 24 chương: Toán học (9 ch - 27 đề), Vật lí (4 ch - 12 đề), Hóa học (6 ch - 18 đề), Sinh học (5 ch - 15 đề) với 432 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 240 flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
@@ -520,6 +520,9 @@
                                 </a>
                                 <a href="subject.html?grade=11&subject=hoa-hoc" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🧪 Hóa 11 ➔
+                                </a>
+                                <a href="subject.html?grade=11&subject=sinh-hoc" class="ol-btn-primary" style="background:#16a34a; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧬 Sinh 11 ➔
                                 </a>
                             </div>
                         </div>
@@ -585,6 +588,9 @@
                 } else if (selectedGrade === '11' && s.id === 'vat-li') {
                     isReady = true;
                     readyNote = '4/4 chương đã xong 100%';
+                } else if (selectedGrade === '11' && s.id === 'sinh-hoc') {
+                    isReady = true;
+                    readyNote = '5/5 chương đã xong 100%';
                 }
 
                 return `

@@ -1,47 +1,178 @@
-[
-  {
-    "id": "l05",
-    "title": "Bài 5: Cảm ứng ở thực vật (Hướng động và Ứng động)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 5: Cảm ứng ở thực vật (Hướng động và Ứng động).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 5: Cảm ứng ở thực vật (Hướng động và Ứng động).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 5: Cảm ứng ở thực vật (Hướng động và Ứng động) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l06",
-    "title": "Bài 6: Cảm ứng ở động vật và Hệ thần kinh",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 6: Cảm ứng ở động vật và Hệ thần kinh.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 6: Cảm ứng ở động vật và Hệ thần kinh.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 6: Cảm ứng ở động vật và Hệ thần kinh để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Tập tính ở động vật và ứng dụng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 7: Tập tính ở động vật và ứng dụng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 7: Tập tính ở động vật và ứng dụng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 7: Tập tính ở động vật và ứng dụng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Cảm ứng ở sinh vật",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái quát về cảm ứng và Cảm ứng ở thực vật",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm cảm ứng và vai trò thích nghi của cảm ứng đối với đời sống sinh vật.",
+        "Phân biệt rõ hướng động (vận động sinh trưởng định hướng) và ứng động (vận động không định hướng) ở thực vật.",
+        "Giải thích cơ chế hướng sáng, hướng trọng lực và ứng động đóng mở lá ở cây trinh nữ, bắt mồi ở cây nắp ấm."
+      ],
+      "concepts": [
+        {
+          "term": "Khái niệm cảm ứng ở sinh vật",
+          "definition": "Là khả năng tiếp nhận kích thích từ môi trường (bên trong hoặc bên ngoài) và phản ứng lại các kích thích đó nhằm giúp sinh vật tồn tại, thích nghi và phát triển trong môi trường sống luôn biến đổi.",
+          "notation": "Kích thích -> Tiếp nhận -> Dẫn truyền tín hiệu -> Cơ quan đáp ứng",
+          "note": "Cảm ứng ở thực vật thường diễn ra chậm, khó nhận thấy bằng mắt thường (trừ một số trường hợp ứng động nhanh)."
+        },
+        {
+          "term": "Hướng động (Tropic movement)",
+          "definition": "Là hình thức phản ứng của cơ quan thực vật đối với tác nhân kích thích từ một hướng xác định thông qua sự sinh trưởng không đều của các tế bào ở hai phía đối diện. Hướng động dương: sinh trưởng uốn cong về phía nguồn kích thích; Hướng động âm: uốn cong tránh xa nguồn kích thích.",
+          "notation": "Hướng sáng, Hướng trọng lực, Hướng hoá, Hướng nước, Hướng tiếp xúc",
+          "note": "Thân cây hướng sáng dương và hướng trọng lực âm; rễ cây hướng sáng âm và hướng trọng lực dương."
+        },
+        {
+          "term": "Cơ chế hướng sáng và hướng trọng lực",
+          "definition": "Dưới tác dụng của ánh sáng đơn hướng, auxin (IAA) di chuyển chủ động từ phía được chiếu sáng sang phía bị che tối. Ở thân cây: nồng độ auxin phía tối cao hơn kích thích tế bào kéo dài nhanh hơn phía sáng làm thân uốn cong về phía nguồn sáng (hướng sáng dương). Ở rễ: nồng độ auxin cao ở phía dưới lại ức chế tế bào rễ kéo dài, làm tế bào phía trên dãn dài nhanh hơn đẩy rễ cong chúc xuống đất (hướng đất dương).",
+          "notation": "Thân: Auxin kích thích kéo dài; Rễ: Nồng độ auxin cao gây ức chế dãn dài",
+          "note": "Độ nhạy cảm của rễ đối với auxin cao hơn thân hàng nghìn lần."
+        },
+        {
+          "term": "Ứng động (Nastic movement)",
+          "definition": "Là hình thức phản ứng của thực vật trước kích thích không định hướng của môi trường. Gồm: Ứng động sinh trưởng (nở hoa bồ công anh, tulip theo biến thiên nhiệt độ và ánh sáng) và Ứng động không sinh trưởng (sự cụp lá của cây trinh nữ khi va chạm cơ học do giảm sức trương nước ở thể gối; cây nắp ấm, gọng vó bắt mồi).",
+          "notation": "Ứng động sinh trưởng (chậm, phân chia tế bào); Ứng động không sinh trưởng (nhanh, biến đổi sức trương nước)",
+          "note": "Vận động cụp lá cây trinh nữ diễn ra chỉ trong vài phần mười giây nhờ dòng ion K+ di chuyển ra khỏi thể gối kéo nước thẩm thấu ra ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc phân biệt Hướng động và Ứng động",
+          "meaning": "Hướng động phụ thuộc vào hướng của tác nhân kích thích (kích thích từ một phía xác định). Ứng động không phụ thuộc vào hướng của tác nhân kích thích mà phụ thuộc vào cấu tạo đối xứng của cơ quan phản ứng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao khi đặt chậu cây nằm ngang một thời gian thì ngọn cây cong hướng lên trên còn rễ cây lại cong chúc xuống đất?",
+          "steps": [
+            "Bước 1: Dưới tác dụng của trọng lực, hormone auxin bị dồn xuống tích luỹ nhiều ở mặt dưới của cả ngọn thân và rễ cây.",
+            "Bước 2: Ở ngọn thân, nồng độ auxin cao ở mặt dưới kích thích tế bào dãn dài nhanh hơn mặt trên làm ngọn uốn cong lên trên (hướng trọng lực âm).",
+            "Bước 3: Ở rễ cây, tế bào rễ rất nhạy cảm với auxin nên nồng độ auxin cao ở mặt dưới lại ức chế sinh trưởng dãn dài; mặt trên có ít auxin hơn dãn dài nhanh hơn đẩy rễ uốn cong xuống dưới (hướng trọng lực dương)."
+          ],
+          "answer": "Do auxin phân bố ở mặt dưới kích thích thân kéo dài (hướng trọng lực âm) nhưng lại ức chế rễ kéo dài (hướng trọng lực dương)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng cây trinh nữ cụp lá là phản ứng hướng tiếp xúc.",
+          "why": "Va chạm vào bất kì hướng nào lá cũng cụp xuống theo một kiểu giống nhau do thay đổi sức trương ở thể gối, không định hướng theo nguồn kích thích nên là ứng động tiếp xúc, không phải hướng tiếp xúc."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Cảm ứng ở động vật (Hệ thần kinh, Điện thế nghỉ, Điện thế hoạt động và Synapse)",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân tích sự tiến hóa của tổ chức hệ thần kinh: dạng lưới, chuỗi hạch và dạng ống.",
+        "Trình bày cơ chế hình thành điện thế nghỉ và điện thế hoạt động (mất phân cực, đảo cực, tái phân cực).",
+        "Mô tả cấu tạo synapse hóa học và cơ chế truyền xung thần kinh qua synapse một chiều."
+      ],
+      "concepts": [
+        {
+          "term": "Tiến hóa của các dạng hệ thần kinh",
+          "definition": "1. Hệ thần kinh dạng lưới (ruột khoang - thủy tức): Tế bào thần kinh rải rác khắp cơ thể, phản ứng co toàn thân tốn năng lượng và thiếu chính xác. 2. Hệ thần kinh dạng chuỗi hạch (giun, chân khớp): Thần kinh tập trung thành các hạch, phản ứng cục bộ từng phần cơ thể nhanh và tiết kiệm năng lượng. 3. Hệ thần kinh dạng ống (động vật có xương sống): Não bộ và tủy sống phát triển mạnh, hình thành số lượng lớn phản xạ có điều kiện giúp động vật học tập và thích nghi cao độ.",
+          "notation": "Dạng lưới -> Dạng chuỗi hạch -> Dạng ống (phức tạp, chuyên hóa cao)",
+          "note": "Càng tiến hoá, số lượng tế bào thần kinh càng nhiều, tập trung về phía đầu (hiện tượng đầu hóa) và phản xạ càng tinh tế."
+        },
+        {
+          "term": "Cơ chế hình thành Điện thế nghỉ",
+          "definition": "Là sự chênh lệch điện thế giữa hai bên màng tế bào khi tế bào không bị kích thích (mặt trong tích điện âm khoảng -70 mV so với mặt ngoài tích điện dương). Cơ chế: Sự chênh lệch nồng độ ion (K+ trong tế bào cao hơn ngoài, Na+ ngoài tế bào cao hơn trong); Tính thấm chọn lọc của màng (cổng K+ mở cho ion K+ tự do khuếch tán từ trong ra ngoài màng kéo theo điện tích dương); Lực hút tĩnh điện của các anion hữu cơ giữ K+ sát màng ngoài; Hoạt động của bơm Na+-K+ tiêu tốn ATP bơm 3 Na+ ra ngoài và 2 K+ vào trong duy trì điện thế nghỉ.",
+          "notation": "Trong âm, Ngoài dương (Màng phân cực, -70 mV)",
+          "note": "Sự khuếch tán của ion K+ từ trong ra ngoài màng là yếu tố quyết định trực tiếp tạo nên điện thế nghỉ."
+        },
+        {
+          "term": "Cơ chế hình thành Điện thế hoạt động",
+          "definition": "Khi tế bào bị kích thích đạt ngưỡng: 1. Mất phân cực (khử cực): Cổng Na+ mở rộng, Na+ ào ạt ùa vào trong tế bào trung hòa điện âm. 2. Đảo cực: Na+ tiếp tục vào làm mặt trong màng tích điện dương (+35 mV) so với mặt ngoài âm. 3. Tái phân cực: Cổng Na+ đóng, cổng K+ mở rộng cho K+ ào ạt tràn ra ngoài mang theo điện tích dương lập lại trạng thái mặt ngoài dương và mặt trong âm.",
+          "notation": "Nghỉ (-70mV) -> Khử cực (0mV) -> Đảo cực (+35mV) -> Tái phân cực (-70mV)",
+          "note": "Lan truyền trên sợi có bao myelin theo lối nhảy cóc (saltatory conduction) qua các eo Ranvier với tốc độ rất nhanh (đạt tới 100-120 m/s)."
+        },
+        {
+          "term": "Cấu tạo và Truyền tin qua Synapse",
+          "definition": "Synapse là diện tiếp xúc giữa tế bào thần kinh với tế bào thần kinh hoặc với tế bào cơ/tuyến. Cấu tạo synapse hóa học: Chùy synapse (chứa túi chất trung gian hoá học như acetylcholine, noradrenaline và ty thể), Khe synapse và Màng sau synapse (có các thụ thể đặc hiệu tiếp nhận chất trung gian hoá học). Cơ chế: Xung điện đến làm mở cổng Ca2+ -> Ca2+ đi vào chùy kích thích túi chứa vỡ giải phóng acetylcholine vào khe -> acetylcholine gắn thụ thể màng sau làm mở kênh ion gây điện thế hoạt động ở màng sau.",
+          "notation": "Màng trước -> Khe synapse -> Màng sau (Chỉ truyền 1 chiều duy nhất)",
+          "note": "Chỉ truyền 1 chiều vì chỉ chùy màng trước mới có túi chứa chất trung gian hóa học và chỉ màng sau mới có thụ thể tiếp nhận."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy luật 'Tất cả hoặc không' (All-or-none law)",
+          "meaning": "Khi kích thích dưới ngưỡng thì không xuất hiện điện thế hoạt động. Khi kích thích đạt ngưỡng hoặc trên ngưỡng thì tế bào thần kinh đáp ứng bằng một điện thế hoạt động với biên độ tối đa cố định, không phụ thuộc vào cường độ kích thích mạnh hay yếu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao việc dùng thuốc giảm đau hoặc thuốc tê (như novocaine, lidocaine) lại làm mất cảm giác đau đớn cục bộ khi nhổ răng hoặc khâu vết thương?",
+          "steps": [
+            "Bước 1: Cảm giác đau truyền từ thụ thể cảm giác đau dọc theo sợi thần kinh hướng tâm về vỏ não thông qua sự hình thành và lan truyền của các điện thế hoạt động.",
+            "Bước 2: Thuốc tê (như novocaine) có tác dụng gắn đặc hiệu và chẹn các cổng Na+ trên màng sợi thần kinh.",
+            "Bước 3: Do cổng Na+ bị phong bế, ion Na+ không thể tràn vào trong tế bào nên không xảy ra quá trình khử cực và đảo cực -> không hình thành được điện thế hoạt động.",
+            "Bước 4: Xung thần kinh truyền tín hiệu đau bị cắt đứt hoàn toàn tại chỗ, não bộ không nhận được tín hiệu đau."
+          ],
+          "answer": "Thuốc tê chẹn cổng Na+ làm ngưng trệ quá trình khử cực, ngăn chặn sự phát sinh và lan truyền xung cảm giác đau về não bộ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng xung thần kinh có thể truyền hai chiều qua synapse hoá học.",
+          "why": "Ở synapse hoá học, xung thần kinh chỉ có thể truyền MỘT CHIỀU từ màng trước qua khe sang màng sau vì chỉ màng trước có chất trung gian hoá học và chỉ màng sau có thụ thể tiếp nhận."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Tập tính ở động vật và Các hình thức học tập",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt tập tính bẩm sinh và tập tính học được ở động vật.",
+        "Trình bày các hình thức học tập: quen nhờn, in vết, điều kiện hóa, học ngầm và học giải quyết vấn đề.",
+        "Mô tả các dạng tập tính phổ biến: kiếm ăn, bảo vệ lãnh thổ, sinh sản, di cư và tập tính xã hội."
+      ],
+      "concepts": [
+        {
+          "term": "Tập tính bẩm sinh và Tập tính học được",
+          "definition": "Tập tính bẩm sinh: Sinh ra đã có, do gene quy định, mang tính bản năng, bền vững và đặc trưng cho loài (ví dụ: nhện giăng tơ, chim non há mỏ đòi ăn, ong xây tổ). Tập tính học được: Hình thành trong đời sống cá thể qua quá trình học tập và rút kinh nghiệm, không di truyền, dễ thay đổi mềm dẻo thích ứng với hoàn cảnh mới (ví dụ: khỉ biết dùng que khều kiến, cá heo làm xiếc, người tuân thủ đèn giao thông).",
+          "notation": "Bẩm sinh: Di truyền, bất biến; Học được: Trải nghiệm, linh hoạt",
+          "note": "Nhiều tập tính phức tạp là sự kết hợp giữa nền tảng bẩm sinh được hoàn thiện qua quá trình học hỏi (tập tính hỗn hợp)."
+        },
+        {
+          "term": "Các hình thức học tập ở động vật",
+          "definition": "1. Quen nhờn: Động vật không đáp ứng với kích thích lặp đi lặp lại không mang lại lợi ích hay gây hại (bù nhìn đuổi chim lâu ngày chim không sợ). 2. In vết: Động vật non bám theo vật chuyển động đầu tiên nhìn thấy sau khi nở (vịt con mới nở bám theo gà mẹ hoặc người). 3. Điều kiện hoá đáp ứng (Paplov): Liên kết kích thích không điều kiện (thức ăn) với kích thích có điều kiện (ánh đèn/tiếng chuông). 4. Điều kiện hoá hành động (Skinner): Liên kết hành vi của bản thân với phần thưởng hoặc hình phạt (chuột đạp đòn bẩy để lấy thức ăn). 5. Học ngầm: Học không ý thức, không có phần thưởng tức thì nhưng tái hiện lại khi cần thiết (chuột chạy trong mê cung). 6. Học giải quyết vấn đề: Phối hợp kinh nghiệm cũ giải quyết tình huống mới (tinh tinh xếp thùng gỗ để lấy chuối trên cao).",
+          "notation": "Quen nhờn, In vết, Điều kiện hoá, Học ngầm, Học giải quyết vấn đề",
+          "note": "Học giải quyết vấn đề phát triển vượt trội ở động vật có hệ thần kinh phát triển cao như linh trưởng và con người."
+        },
+        {
+          "term": "Các dạng tập tính phổ biến",
+          "definition": "Tập tính kiếm ăn (tối ưu hóa năng lượng thu nhận); Tập tính bảo vệ lãnh thổ (dùng mùi pheromone, tiếng hót, nước tiểu đánh dấu ranh giới nguồn sống); Tập tính sinh sản (khoe mẽ, ve vãn, giao hoan, chăm sóc con non); Tập tính di cư (tránh rét, tìm nguồn thức ăn, sinh sản định kì); Tập tính xã hội (thứ bậc tôn ty, phân công lao động ở đàn ong, kiến; tính vị tha hy sinh vì bầy đàn).",
+          "notation": "Kiếm ăn, Lãnh thổ, Sinh sản, Di cư, Xã hội (Thứ bậc & Vị tha)",
+          "note": "Pheromone là tín hiệu hóa học phát tán trong không khí hoặc nước điều khiển tập tính đồng loại rất mạnh mẽ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cơ sở thần kinh của tập tính",
+          "meaning": "Tập tính bẩm sinh là một chuỗi các phản xạ không điều kiện được điều khiển bởi các trung khu thần kinh cố định dưới vỏ não. Tập tính học được là sự hình thành các đường liên hệ thần kinh tạm thời giữa các neuron trên vỏ bán cầu đại não."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao người nông dân huấn luyện chó nghiệp vụ hoặc xiếc cá heo thường thưởng cho chúng một miếng mồi ngay sau khi con vật thực hiện đúng khẩu lệnh?",
+          "steps": [
+            "Bước 1: Đây là phương pháp học tập dựa trên hình thức điều kiện hoá hành động (học thử và sai).",
+            "Bước 2: Con vật thực hiện hành vi đúng (hành động mong muốn) và ngay lập tức được củng cố bằng phần thưởng tích cực (thức ăn).",
+            "Bước 3: Bộ não con vật hình thành mối liên hệ nhân quả bền chặt giữa hành động đó và sự thỏa mãn cơn đói, giúp hành vi được lặp lại nhanh chóng và thành thục ở những lần sau."
+          ],
+          "answer": "Dùng phần thưởng để củng cố đường liên hệ thần kinh tạm thời trong hình thức học tập điều kiện hoá hành động."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tưởng tập tính in vết có thể xảy ra ở bất kì độ tuổi nào của động vật.",
+          "why": "In vết chỉ có hiệu lực duy nhất trong một khoảng thời gian nhạy cảm rất ngắn (thường là vài giờ đến vài ngày đầu tiên ngay sau khi con non chào đời)."
+        }
+      ]
+    }
+  ]
+}

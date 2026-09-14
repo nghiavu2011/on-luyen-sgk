@@ -1,19 +1,158 @@
-[
-  {
-    "id": "sinhhoc11_ch03_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Loài sinh vật nào sau đây có quá trình phát triển qua biến thái HOÀN TOÀN?",
-    "options": [
-      "A. Con gà",
-      "B. Con người",
-      "C. Con châu chấu",
-      "D. Con bướm"
-    ],
-    "answer": 3,
-    "explanation": "📌 Vòng đời côn trùng: Bướm trải qua giai đoạn nhộng, sâu bướm khác hoàn toàn bướm trưởng thành về cấu tạo và thức ăn.\n💡 Châu chấu là biến thái không hoàn toàn; Người và gà phát triển không qua biến thái.\n⚠️ Ghi nhớ các đại diện biến thái hoàn toàn.",
-    "breakdown": {
-      "calculation": "Trứng $\\rightarrow$ Sâu bướm $\\rightarrow$ Nhộng $\\rightarrow$ Bướm"
+{
+  "chapterId": "ch03",
+  "examId": "de1",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch03",
+  "chapterTitle": "Sinh trưởng & Phát triển ở sinh vật",
+  "title": "Sinh học 11 — Chương 3: Đề 1 — Khái niệm & Nhận biết",
+  "description": "Kiểm tra nhận biết về mô phân sinh, hormone thực vật, các hình thức biến thái và hormone GH, thyroxine.",
+  "examCode": "301",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch03-d1-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Khái niệm mô phân sinh đỉnh",
+      "question": "Mô phân sinh đỉnh ở ngọn thân và chóp rễ của thực vật có vai trò trực tiếp nào sau đây?",
+      "options": [
+        "Giúp thân và rễ cây dài ra theo chiều đứng (sinh trưởng sơ cấp)",
+        "Làm cho thân cây to ra về đường kính ngang (sinh trưởng thứ cấp)",
+        "Tạo ra các lớp bần xốp bảo vệ vỏ ngoài thân gỗ già",
+        "Chuyên trách việc hút nước và ion khoáng từ dung dịch đất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mô phân sinh đỉnh giúp thân và rễ dài ra (sinh trưởng sơ cấp).",
+        "socraticPrompt": "Mô phân sinh nằm ở chóp ngọn cây và đỉnh rễ khi phân chia sẽ làm cây biến đổi về chiều nào?",
+        "steps": "Mô phân sinh đỉnh nằm ở ngọn thân, chồi nách và chóp rễ, liên tục nguyên phân tạo tế bào mới giúp cây vươn dài theo chiều dọc, đây là quá trình sinh trưởng sơ cấp diễn ra ở cả cây Một lá mầm và Hai lá mầm.",
+        "trap": "Nhầm chức năng làm thân to ra của mô phân sinh bên (tầng sinh trụ).",
+        "distractorReasons": {
+          "1": "Làm thân to ra là chức năng của mô phân sinh bên.",
+          "2": "Tạo lớp bần là chức năng của tầng sinh bần (mô phân sinh bên ngoài).",
+          "3": "Hút nước khoáng là chức năng của miền lông hút ở rễ."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch03-d1-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Hormone làm chín quả Ethylene",
+      "question": "Loại hormone thực vật tồn tại ở thể khí, có tác dụng kích thích nhanh quá trình chín của quả và thúc đẩy rụng lá, rụng hoa là hormone nào?",
+      "options": [
+        "Auxin (IAA)",
+        "Ethylene (C2H4)",
+        "Gibberellin (GA)",
+        "Cytokinin (Zeatin)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ethylene là hormone thể khí duy nhất ở thực vật, thúc đẩy chín quả và rụng cơ quan già.",
+        "socraticPrompt": "Người ta thường xếp lẫn quả chín với quả xanh để khí gì thoát ra làm quả xanh nhanh chín?",
+        "steps": "Ethylene (C2H4) là một phytohormone dạng khí được sinh ra nhiều trong các mô thực vật đang già hóa và quả đang chín, có tác dụng kích thích tăng cường tính thấm của màng, kích hoạt enzyme phân giải diệp lục và thủy phân tinh bột thành đường, làm quả nhanh chín ngọt.",
+        "trap": "Nhầm với auxin hoặc gibberellin (vốn có tác dụng giữ quả non không rụng).",
+        "distractorReasons": {
+          "0": "Auxin kích thích dãn dài tế bào, ức chế rụng lá quả khi ở nồng độ sinh lí.",
+          "2": "Gibberellin kích thích kéo dài lóng thân và nảy mầm hạt.",
+          "3": "Cytokinin kích thích phân chia tế bào và làm chậm quá trình già hóa."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch03-d1-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Biến thái hoàn toàn ở động vật",
+      "question": "Động vật nào sau đây có quá trình sinh trưởng và phát triển trải qua hình thức BIẾN THÁI HOÀN TOÀN?",
+      "options": [
+        "Châu chấu, cào cào, gián nhà",
+        "Cá chép, rắn hổ mang, gà nhà, lợn",
+        "Bướm tằm, ruồi nhà, muỗi sốt xuất huyết, ếch đồng",
+        "Tôm sông, cua đồng, nhện nhà"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Biến thái hoàn toàn: ấu trùng có hình thái sinh lí rất khác con trưởng thành, qua giai đoạn nhộng (sâu bướm, ruồi, muỗi, ếch).",
+        "socraticPrompt": "Loài côn trùng nào có vòng đời gồm 4 giai đoạn: Trứng -> Sâu non -> Nhộng -> Con trưởng thành?",
+        "steps": "Bướm tằm, ruồi, muỗi, ong và ếch nhái có quá trình phát triển biến thái hoàn toàn: con non (sâu/nòng nọc) có hình thái và lối sống rất khác con trưởng thành, trải qua giai đoạn trung gian biến đổi toàn diện cơ thể để thành con trưởng thành.",
+        "trap": "Nhầm châu chấu, tôm (biến thái không hoàn toàn không có nhộng).",
+        "distractorReasons": {
+          "0": "Châu chấu, gián phát triển qua biến thái không hoàn toàn (không có nhộng).",
+          "1": "Cá, rắn, gà, lợn phát triển không qua biến thái (con non giống con trưởng thành).",
+          "3": "Tôm, cua, nhện lột xác không qua giai đoạn nhộng biến đổi."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch03-d1-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Hormone sinh trưởng GH",
+      "question": "Tuyến nội tiết nào sau đây trực tiếp sản xuất hormone sinh trưởng (GH - Growth Hormone) ở động vật có xương sống?",
+      "options": [
+        "Tuyến giáp",
+        "Vỏ tuyến thượng thận",
+        "Tuyến tụy nội tiết",
+        "Thùy trước tuyến yên"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "GH được tiết ra từ thùy trước tuyến yên.",
+        "socraticPrompt": "Tuyến nhạc trưởng nằm ở đáy não tiết ra hormone kích thích xương dài ra là tuyến nào?",
+        "steps": "Hormone sinh trưởng GH (somatotropin) được tổng hợp và tiết ra từ các tế bào ưa acid của thùy trước tuyến yên, có tác dụng kích thích phân chia tế bào, tăng tổng hợp protein và kích thích các đĩa sụn tiếp hợp ở đầu xương dài ra.",
+        "trap": "Nhầm tuyến giáp (tuyến giáp tiết thyroxine và calcitonin).",
+        "distractorReasons": {
+          "0": "Tuyến giáp tiết thyroxine điều hòa chuyển hóa năng lượng.",
+          "2": "Tuyến tụy tiết insulin và glucagon điều hòa đường huyết.",
+          "1": "Vỏ thượng thận tiết aldosterone và cortisol."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch03-d1-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Tác dụng của Hormone Ecdysone ở côn trùng",
+      "question": "Ở sâu bướm, hormone Ecdysone do tuyến ngực tiết ra có tác dụng sinh học chủ yếu nào?",
+      "options": [
+        "Kích thích sâu bướm lột xác và kích thích biến thái từ sâu non thành nhộng rồi thành bướm",
+        "Ức chế quá trình lột xác và giữ sâu non mãi ở trạng thái ấu trùng",
+        "Kích thích sâu bướm ăn thật nhiều lá cây để tích lũy mỡ",
+        "Gây chết tế bào hàng loạt làm sâu bướm rơi vào trạng thái hôn mê"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ecdysone là hormone gây lột xác và thúc đẩy biến thái ở côn trùng.",
+        "socraticPrompt": "Tuyến ngực tiết hormone nào để kích hoạt mỗi đợt lột xác của sâu bướm?",
+        "steps": "Hormone Ecdysone do tuyến ngực tiết ra tác động lên tế bào biểu bì gây bong lớp cutin cũ và hình thành lớp cutin mới (quá trình lột xác). Khi nồng độ hormone Juvenile giảm xuống, Ecdysone kích thích sâu non hoá nhộng và từ nhộng biến thái thành bướm trưởng thành.",
+        "trap": "Nhầm tác dụng giữ sâu non của hormone Juvenile sang Ecdysone.",
+        "distractorReasons": {
+          "1": "Giữ sâu non không biến thái là tác dụng của hormone Juvenile do thể allata tiết.",
+          "2": "Ecdysone điều hòa chu kì lột xác chứ không trực tiếp kích thích cảm giác đói.",
+          "3": "Ecdysone điều hòa sự phát triển bình thường, không phải độc tố gây hôn mê."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch03-d1-q06",
+      "difficulty": "nhan-biet",
+      "topic": "Cây ngày ngắn",
+      "question": "Loài cây nào sau đây thuộc nhóm CÂY NGÀY NGẮN (chỉ ra hoa khi thời gian chiếu sáng trong ngày ngắn hoặc đêm dài)?",
+      "options": [
+        "Lúa mì, lúa mạch, rau cải xoong, dâm bụt",
+        "Cây lúa mùa, đậu tương, cây mía, hoa cúc",
+        "Cà chua, hướng dương, ngô, bưởi",
+        "Cây sen, hành tây, cà rốt, củ cải đường"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cây ngày ngắn ra hoa vào mùa thu đông khi đêm dài liên tục (lúa, đậu tương, cúc, mía).",
+        "socraticPrompt": "Loài hoa nào thường nở rộ tự nhiên vào dịp cuối thu và mùa đông lạnh có đêm dài?",
+        "steps": "Cây ngày ngắn là những loài cây ra hoa trong điều kiện thời gian ban đêm dài hơn một độ dài tới hạn nhất định (mùa thu, mùa đông), tiêu biểu gồm cây hoa cúc, lúa mùa, đậu tương, cây thược dược, cây mía, cà phê.",
+        "trap": "Nhầm nhóm cây ngày dài (cải, lúa mì) hoặc cây trung tính (cà chua, ngô).",
+        "distractorReasons": {
+          "0": "Lúa mì, rau cải là cây ngày dài (ra hoa mùa hè ngày dài).",
+          "2": "Cà chua, hướng dương, ngô là cây trung tính (ra hoa không phụ thuộc quang chu kì).",
+          "3": "Hành tây, cà rốt là cây ngày dài đòi hỏi mùa hè."
+        }
+      }
     }
-  }
-]
+  ]
+}

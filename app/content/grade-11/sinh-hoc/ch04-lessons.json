@@ -1,32 +1,107 @@
-[
-  {
-    "id": "l10",
-    "title": "Bài 10: Sinh sản ở thực vật (Thụ tinh kép ở thực vật có hoa)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 10: Sinh sản ở thực vật (Thụ tinh kép ở thực vật có hoa).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 10: Sinh sản ở thực vật (Thụ tinh kép ở thực vật có hoa).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 10: Sinh sản ở thực vật (Thụ tinh kép ở thực vật có hoa) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l11",
-    "title": "Bài 11: Sinh sản ở động vật và các biện pháp kế hoạch hoá gia đình",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 11: Sinh sản ở động vật và các biện pháp kế hoạch hoá gia đình.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 11: Sinh sản ở động vật và các biện pháp kế hoạch hoá gia đình.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 11: Sinh sản ở động vật và các biện pháp kế hoạch hoá gia đình để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Sinh sản ở sinh vật",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Sinh sản ở thực vật",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày các hình thức sinh sản sinh dưỡng tự nhiên và nhân tạo ở thực vật.",
+        "Mô tả cấu tạo hoa, quá trình thụ phấn và hiện tượng thụ tinh kép ở thực vật hạt kín.",
+        "Giải thích sự hình thành hạt, quả và ý nghĩa thích nghi của hạt và quả trong phát tán nòi giống."
+      ],
+      "concepts": [
+        {
+          "term": "Sinh sản vô tính (Sinh dưỡng) ở thực vật",
+          "definition": "Là hình thức sinh sản tạo ra cá thể mới từ các bộ phận sinh dưỡng (rễ, thân, lá) của cây mẹ qua nguyên phân mà không có sự kết hợp của giao tử đực và cái. Cây con giữ nguyên kiểu gene của cây mẹ. Tự nhiên: thân củ (khoai tây), thân rễ (gừng), thân bò (rau má), lá (thuốc bỏng). Nhân tạo: giâm cành, chiết cành, ghép mắt/cành, nuôi cấy mô in vitro.",
+          "notation": "Nguyên phân -> Cây con giữ nguyên 100% đặc tính di truyền của mẹ",
+          "note": "Ưu điểm: nhân nhanh giống tốt, giữ nguyên phẩm chất quý; Nhược điểm: tính biến dị thấp, dễ chết hàng loạt nếu môi trường biến đổi bất lợi."
+        },
+        {
+          "term": "Thụ phấn và Thụ tinh kép ở thực vật có hoa",
+          "definition": "Thụ phấn là quá trình hạt phấn tiếp xúc với đầu nhụy của hoa. Thụ tinh kép (đặc trưng chỉ có ở thực vật hạt kín): Khi ống phấn vươn vào túi phôi, 2 tinh tử (n) được giải phóng vào túi phôi:\n- Tinh tử 1 (n) kết hợp với noãn cầu (trứng n) tạo hợp tử (2n) -> phát triển thành phôi cây non.\n- Tinh tử 2 (n) kết hợp với nhân cực (2n) tạo nội nhũ (3n) -> chứa chất dinh dưỡng nuôi phôi phát triển.",
+          "notation": "Tinh tử 1 (n) + Trứng (n) -> Hợp tử (2n); Tinh tử 2 (n) + Nhân cực (2n) -> Nội nhũ (3n)",
+          "note": "Sau thụ tinh: Noãn biến đổi thành Hạt (chứa phôi), Bầu nhụy biến đổi thành Quả (bảo vệ hạt và hỗ trợ phát tán)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ý nghĩa sinh học của Thụ tinh kép",
+          "meaning": "Thực vật hạt kín chỉ hình thành mô dinh dưỡng nội nhũ (3n) sau khi đã thụ tinh thành công noãn cầu, tránh lãng phí năng lượng tích lũy dinh dưỡng khi chưa có phôi như ở hạt trần."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao trong thực tế nhân giống cây ăn quả lâu năm (cam, bưởi, xoài), người ta thường áp dụng phương pháp chiết cành hoặc ghép cành thay vì gieo bằng hạt?",
+          "steps": [
+            "Bước 1: Cây trồng từ hạt sinh ra qua sinh sản hữu tính, có hiện tượng phân li và tái tổ hợp di truyền nên cây con dễ bị thoái hóa, quả có thể bị chua, nhỏ hoặc biến đổi so với cây mẹ.",
+            "Bước 2: Cây gieo từ hạt phải mất nhiều năm sinh trưởng sơ cấp (thời kì kiến thiết cơ bản) mới đạt độ tuổi thành thục ra hoa kết quả.",
+            "Bước 3: Chiết cành và ghép cành là sinh sản sinh dưỡng (vô tính), giữ nguyên vẹn 100% đặc tính thơm ngon, ngọt quả của cây mẹ và cây giống ra hoa đậu quả rất sớm (chỉ sau 1 - 2 năm)."
+          ],
+          "answer": "Giúp giữ nguyên phẩm chất quý của giống cây mẹ và rút ngắn đáng kể thời gian cây bắt đầu cho thu hoạch quả."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng quả phát triển từ noãn và hạt phát triển từ bầu nhụy.",
+          "why": "Hoàn toàn ngược lại: NOÃN phát triển thành HẠT, còn BẦU NHỤY phì đại biến đổi thành QUẢ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Sinh sản ở động vật và Sinh đẻ có kế hoạch",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt các hình thức sinh sản vô tính ở động vật: phân đôi, nảy chồi, phân mảnh và trinh sinh.",
+        "So sánh thụ tinh ngoài và thụ tinh trong, đẻ trứng và đẻ con có nhau thai.",
+        "Trình bày cơ chế điều hòa sinh tinh và sinh trứng thông qua trục Hạ đồi - Tuyến yên - Tuyến sinh dục.",
+        "Nêu các biện pháp tránh thai khoa học, phòng tránh bệnh lây qua đường tình dục và ứng dụng công nghệ hỗ trợ sinh sản (IVF)."
+      ],
+      "concepts": [
+        {
+          "term": "Các hình thức sinh sản vô tính ở động vật",
+          "definition": "1. Phân đôi: Tế bào mẹ phân đôi thành 2 cá thể mới bằng nhau (trùng roi, trùng giày, hải quỳ). 2. Nảy chồi: Chồi con mọc ra từ cơ thể mẹ, lớn lên tách ra sống độc lập hoặc tạo tập đoàn (thủy tức, bọt biển). 3. Phân mảnh: Cơ thể đứt thành các mảnh, mỗi mảnh tái sinh thành một cá thể hoàn chỉnh (sao biển, giun dẹp). 4. Trinh sinh: Trứng không qua thụ tinh phát triển trực tiếp thành cá thể con đơn bội n (ở ong, kiến, rệp: trứng không thụ tinh phát triển thành ong đực n).",
+          "notation": "Phân đôi, Nảy chồi, Phân mảnh, Trinh sinh (trứng không thụ tinh -> con đực n)",
+          "note": "Trinh sinh xen kẽ với sinh sản hữu tính giúp loài nhân nhanh số lượng trong điều kiện thuận lợi."
+        },
+        {
+          "term": "Cơ chế điều hòa sinh tinh và sinh trứng",
+          "definition": "- Ở nam giới: Vùng dưới đồi tiết GnRH -> kích thích thùy trước tuyến yên tiết FSH và LH. FSH kích thích ống sinh tinh sản sinh tinh trùng; LH kích thích tế bào kẽ (Leydig) tiết hormone Testosterone kích hoạt sinh tinh.\n- Ở nữ giới: GnRH kích thích tuyến yên tiết FSH và LH. FSH kích thích nang trứng phát triển và tiết Estrogen; LH nồng độ cao gây rụng trứng và biến nang trứng rỗng thành Thể vàng. Thể vàng tiết Progesterone và Estrogen làm dày niêm mạc tử cung chuẩn bị đón phôi, đồng thời ức chế ngược âm tính lên tuyến yên và hạ đồi ngăn trứng mới rụng.",
+          "notation": "GnRH -> FSH & LH -> Tinh hoàn/Buồng trứng -> Testosterone/Progesterone & Estrogen",
+          "note": "Khi không có thai, thể vàng teo đi làm tụt nồng độ progesterone và estrogen, niêm mạc tử cung bong tróc gây hiện tượng kinh nguyệt."
+        },
+        {
+          "term": "Sinh đẻ có kế hoạch và Tránh thai khoa học",
+          "definition": "Các biện pháp tránh thai phổ biến: Dùng bao cao su (ngăn tinh trùng gặp trứng, ngăn ngừa bệnh lây qua đường tình dục STDs/HIV); Viên thuốc tránh thai hằng ngày (chứa progesterone và estrogen nhân tạo duy trì nồng độ ổn định ức chế tuyến yên tiết FSH và LH, ngăn cản trứng chín và rụng); Dụng cụ tử cung (vòng tránh thai - ngăn phôi làm tổ); Thắt ống dẫn tinh / thắt ống dẫn trứng (triệt sản vĩnh viễn).",
+          "notation": "Bao cao su: Ngăn thụ tinh + Chống lây nhiễm HIV/STDs; Thuốc tránh thai: Ngăn rụng trứng",
+          "note": "Bao cao su là biện pháp duy nhất vừa tránh thai vừa phòng ngừa hiệu quả các bệnh lây truyền qua đường tình dục."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên lí ức chế ngược âm tính của thuốc tránh thai",
+          "meaning": "Viên thuốc uống tránh thai hàng ngày cung cấp nồng độ ổn định của progesterone và estrogen, liên tục ức chế ngược âm tính lên vùng dưới đồi và tuyến yên không cho tiết FSH và LH, kết quả là nang trứng không thể phát triển và trứng không bao giờ rụng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao trong một tổ ong mật, ong chúa và ong thợ đều là con cái có bộ nhiễm sắc thể lưỡng bội (2n) trong khi ong đực lại có bộ nhiễm sắc thể đơn bội (n)?",
+          "steps": [
+            "Bước 1: Loài ong mật có hình thức sinh sản trinh sinh kết hợp với sinh sản hữu tính.",
+            "Bước 2: Ong chúa giao phối với ong đực và tích trữ tinh trùng trong túi nhận tinh. Khi đẻ trứng: Những quả trứng được thụ tinh với tinh trùng (n + n) sẽ phát triển thành ấu trùng lưỡng bội (2n). Nếu ấu trùng 2n được nuôi bằng sữa chúa đặc biệt sẽ thành ong chúa, nếu nuôi bằng mật hoa thông thường sẽ thành ong thợ.",
+            "Bước 3: Những quả trứng KHÔNG được thụ tinh (chỉ mang bộ gene đơn bội n của mẹ) sẽ tự phát triển theo hình thức trinh sinh thành ong đực có bộ NST đơn bội (n)."
+          ],
+          "answer": "Ong cái (chúa, thợ) phát triển từ trứng được thụ tinh (2n), còn ong đực phát triển từ trứng không thụ tinh qua trinh sinh (n)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng thắt ống dẫn tinh ở nam giới sẽ làm mất khả năng sinh lí và giọng nói biến đổi.",
+          "why": "Thắt ống dẫn tinh chỉ ngăn tinh trùng đi ra ngoài theo tinh dịch, tế bào Leydig ở tinh hoàn vẫn sản xuất hormone testosterone đổ thẳng vào máu nên chức năng sinh dục và nam tính hoàn toàn bình thường."
+        }
+      ]
+    }
+  ]
+}

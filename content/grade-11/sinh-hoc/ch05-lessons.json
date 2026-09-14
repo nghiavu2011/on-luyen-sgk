@@ -1,17 +1,108 @@
-[
-  {
-    "id": "l12",
-    "title": "Bài 12: Mối quan hệ giữa các quá trình sinh học trong cơ thể sinh vật và cơ thể là một thể thống nhất",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 12: Mối quan hệ giữa các quá trình sinh học trong cơ thể sinh vật và cơ thể là một thể thống nhất.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 12: Mối quan hệ giữa các quá trình sinh học trong cơ thể sinh vật và cơ thể là một thể thống nhất.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 12: Mối quan hệ giữa các quá trình sinh học trong cơ thể sinh vật và cơ thể là một thể thống nhất để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Mối quan hệ giữa các quá trình sinh lí & Ngành nghề liên quan",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Mối quan hệ giữa các quá trình sinh lí trong cơ thể sinh vật",
+      "hasRealContent": true,
+      "objectives": [
+        "Chứng minh cơ thể sinh vật (thực vật và động vật) là một hệ thống mở, tự điều chỉnh và toàn vẹn thống nhất.",
+        "Phân tích mối liên hệ mật thiết giữa trao đổi nước, khoáng, quang hợp và hô hấp ở thực vật.",
+        "Phân tích mối quan hệ phối hợp giữa các hệ cơ quan tiêu hoá, hô hấp, tuần hoàn, bài tiết và hệ thần kinh - thể dịch ở động vật."
+      ],
+      "concepts": [
+        {
+          "term": "Tính thống nhất trong cơ thể thực vật",
+          "definition": "Các quá trình sinh lí trong cây liên hệ phụ thuộc lẫn nhau tạo thành chu trình khép kín: Thoát hơi nước tạo động lực kéo dòng mạch gỗ đưa nước và khoáng lên lá; Nước và ion khoáng là nguyên liệu cho Quang hợp; Quang hợp tạo hợp chất hữu cơ nuôi toàn cây và cung cấp cơ chất cho Hô hấp tế bào; Hô hấp giải phóng năng lượng ATP cung cấp cho quá trình hấp thu chủ động khoáng ở rễ và vận chuyển chất trong mạch rây.",
+          "notation": "Thoát hơi nước (kéo nước) -> Quang hợp (tạo chất) -> Hô hấp (tạo ATP) -> Hút khoáng",
+          "note": "Nếu một khâu sinh lí bị ức chế (ví dụ rễ thiếu oxy ngừng hô hấp) thì toàn bộ các quá trình quang hợp, thoát hơi nước cũng sẽ bị đình trệ theo."
+        },
+        {
+          "term": "Tính thống nhất trong cơ thể động vật",
+          "definition": "Hệ Tiêu hoá phân giải thức ăn hấp thu chất dinh dưỡng vào máu; Hệ Hô hấp lấy O2 từ môi trường và thải CO2; Hệ Tuần hoàn làm trung tâm vận chuyển đưa O2 và chất dinh dưỡng đến từng tế bào sống, đồng thời gom chất cặn bã chuyển đến Hệ Bài tiết (thận) và phổi đào thải ra ngoài; Hệ Thần kinh và Hệ Nội tiết điều khiển, phối hợp nhịp nhàng hoạt động của toàn bộ các hệ cơ quan đảm bảo duy trì cân bằng nội môi.",
+          "notation": "Tiêu hóa + Hô hấp -> Tuần hoàn vận chuyển -> Tế bào sống -> Bài tiết (Thần kinh & Nội tiết điều phối)",
+          "note": "Cơ thể động vật hoạt động như một cỗ máy sinh học hoàn hảo, thống nhất và có khả năng tự điều chỉnh cao độ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cơ thể là một hệ thống mở và tự điều chỉnh",
+          "meaning": "Cơ thể thường xuyên trao đổi vật chất và năng lượng với môi trường ngoài (hệ thống mở), đồng thời có cơ chế tự duy trì sự ổn định của môi trường bên trong thông qua các cung phản xạ thần kinh và cơ chế điều hòa ngược thể dịch (tự điều chỉnh)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Khi một người chạy bộ nhanh, các hệ cơ quan trong cơ thể phối hợp nhịp nhàng như thế nào để đáp ứng nhu cầu năng lượng của cơ bắp?",
+          "steps": [
+            "Bước 1: Cơ bắp hoạt động mạnh tiêu tốn nhiều ATP -> nồng độ CO2 trong máu tăng cao và nồng độ O2 giảm xuống.",
+            "Bước 2: Hệ Thần kinh (trung khu hô hấp và tuần hoàn ở hành não) tiếp nhận tín hiệu từ các thụ thể hoá học, kích thích tim đập nhanh và mạnh hơn, tăng huyết áp để bơm máu giàu dinh dưỡng đến cơ bắp.",
+            "Bước 3: Hệ Hô hấp tăng nhịp thở và độ sâu hô hấp để lấy thêm O2 và đào thải nhanh CO2 ra ngoài.",
+            "Bước 4: Tuyến tụy tăng tiết glucagon kích thích gan phân giải glycogen thành glucose đổ vào máu cung cấp nguyên liệu cho hô hấp tế bào cơ.",
+            "Bước 5: Da giãn mạch và tăng tiết mồ hôi để tỏa nhiệt giải phóng lượng nhiệt dư thừa."
+          ],
+          "answer": "Hệ tuần hoàn, hô hấp, nội tiết và bài tiết phối hợp nhịp nhàng dưới sự chỉ huy của hệ thần kinh để cấp đủ O2, glucose và điều nhiệt cho cơ thể."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Xem xét các hệ cơ quan hoạt động hoàn toàn độc lập, tách rời nhau.",
+          "why": "Mọi cơ quan trong cơ thể đều liên hệ mật thiết qua dòng máu của hệ tuần hoàn và sự điều hòa thống nhất của hệ thần kinh - nội tiết."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Một số ngành nghề liên quan đến sinh học cơ thể",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được các ngành nghề chính trong xã hội có liên quan mật thiết đến Sinh học cơ thể.",
+        "Trình bày vai trò và triển vọng phát triển của các ngành Y học, Dược học, Nông nghiệp công nghệ cao và Công nghệ sinh học.",
+        "Xác định được các kĩ năng, phẩm chất cần thiết để định hướng nghề nghiệp bản thân trong tương lai."
+      ],
+      "concepts": [
+        {
+          "term": "Nhóm ngành Y - Dược học và Chăm sóc sức khỏe",
+          "definition": "Vận dụng kiến thức sinh lí người và động vật vào chẩn đoán, điều trị bệnh và nghiên cứu phát triển thuốc mới. Gồm các vị trí: Bác sĩ đa khoa, bác sĩ chuyên khoa, Dược sĩ bào chế, Kỹ thuật viên xét nghiệm y sinh, Điều dưỡng viên, Chuyên gia dinh dưỡng và phục hồi chức năng.",
+          "notation": "Y học lâm sàng, Dược học phân tử, Y tế công cộng",
+          "note": "Xu hướng y học cá thể hóa và công nghệ tế bào gốc, liệu pháp miễn dịch điều trị ung thư đang phát triển vượt bậc."
+        },
+        {
+          "term": "Nhóm ngành Nông - Lâm - Thủy sản công nghệ cao",
+          "definition": "Ứng dụng sinh lí thực vật và động vật vào điều khiển sinh trưởng, phát triển, ra hoa trái vụ, nhân giống và bảo vệ mùa màng. Gồm: Kỹ sư nông nghiệp công nghệ cao (trồng trọt thủy canh, nhà màng thông minh), Kỹ sư chăn nuôi thú y, Kỹ sư nuôi trồng thủy sản, Kỹ sư chọn tạo giống cây trồng - vật nuôi.",
+          "notation": "Nông nghiệp thông minh, Nhà kính IoT, Thú y hiện đại",
+          "note": "Giúp nâng cao năng suất, chất lượng nông sản xuất khẩu và đảm bảo an ninh lương thực bền vững."
+        },
+        {
+          "term": "Nhóm ngành Công nghệ sinh học và Khoa học môi trường",
+          "definition": "Nghiên cứu ứng dụng tế bào và cơ thể sinh vật tạo ra các sản phẩm công nghệ giá trị cao: Nhân giống vi nhân giống mô tế bào, sản xuất enzyme công nghiệp, vaccine thế hệ mới, thực phẩm chức năng, xử lí ô nhiễm môi trường bằng công nghệ vi sinh và bảo tồn đa dạng sinh học.",
+          "notation": "Công nghệ tế bào, Công nghệ enzyme, Xử lí môi trường",
+          "note": "Là ngành kinh tế kĩ thuật mũi nhọn trong cuộc cách mạng công nghiệp 4.0."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc định hướng nghề nghiệp Sinh học",
+          "meaning": "Lựa chọn nghề nghiệp dựa trên sự kết hợp hài hòa giữa đam mê khoa học sự sống, năng lực tư duy logic - thực hành thí nghiệm và nhu cầu nhân lực phát triển của xã hội."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một bạn học sinh yêu thích việc nghiên cứu điều khiển cây trồng ra hoa trái vụ và tạo các giống hoa mới bằng nuôi cấy mô tế bào thì nên định hướng theo học ngành nghề nào?",
+          "steps": [
+            "Bước 1: Phân tích lĩnh vực bạn học sinh quan tâm: sinh lí thực vật, hormone điều khiển sinh trưởng, kĩ thuật nuôi cấy mô tế bào in vitro.",
+            "Bước 2: Đối chiếu với các chuyên ngành đào tạo đại học: Ngành Công nghệ sinh học nông nghiệp hoặc Ngành Khoa học cây trồng / Nông nghiệp công nghệ cao.",
+            "Bước 3: Các trường đại học đào tạo uy tín: Học viện Nông nghiệp Việt Nam, Đại học Quốc gia, Đại học Nông Lâm TP.HCM, Đại học Cần Thơ..."
+          ],
+          "answer": "Nên theo học ngành Công nghệ sinh học hoặc Nông nghiệp công nghệ cao (Khoa học cây trồng)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng học Sinh học chỉ có thể làm bác sĩ hoặc giáo viên dạy Sinh.",
+          "why": "Sinh học cơ thể mở ra hàng chục ngành nghề triển vọng cao như kĩ sư CNSH, nghiên cứu dược phẩm, chuyên gia dinh dưỡng, nông nghiệp thông minh, kiểm nghiệm thực phẩm..."
+        }
+      ]
+    }
+  ]
+}

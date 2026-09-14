@@ -1,16 +1,158 @@
-[
-  {
-    "id": "sinhhoc11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hành vi nào sau đây của động vật là ví dụ về tập tính BẨM SINH?",
-    "options": [
-      "A. Chó làm xiếc theo khẩu lệnh huấn luyện",
-      "B. Nhện tự giăng lưới bắt mồi khi vừa sinh ra",
-      "C. Trẻ em biết đi xe đạp",
-      "D. Chim bồ câu nhận biết tín hiệu gõ kẻng cho ăn"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất tập tính bẩm sinh: Nhện giăng tơ là phản xạ không điều kiện được mã hoá trong bộ gen, sinh ra là tự biết làm mà không cần ai dạy.\n💡 Xiếc, đi xe đạp, gõ kẻng là tập tính học được qua rèn luyện.\n⚠️ Phân biệt rõ nguồn gốc di truyền và học tập."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch02",
+  "chapterTitle": "Cảm ứng ở sinh vật",
+  "title": "Sinh học 11 — Chương 2: Đề 1 — Khái niệm & Nhận biết",
+  "description": "Kiểm tra nhận biết về hướng động, hệ thần kinh dạng ống, điện thế nghỉ và tập tính bẩm sinh.",
+  "examCode": "201",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch02-d1-q01",
+      "difficulty": "nhan-biet",
+      "topic": "Khái niệm hướng động",
+      "question": "Hình thức phản ứng sinh trưởng của cơ quan thực vật đối với tác nhân kích thích từ một hướng xác định được gọi là gì?",
+      "options": [
+        "Ứng động",
+        "Quang chu kì",
+        "Hướng động (vận động định hướng)",
+        "Xuân hoá"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hướng động là phản ứng sinh trưởng uốn cong cơ quan thực vật theo hướng của kích thích môi trường.",
+        "socraticPrompt": "Khi ngọn cây vươn mình cong về phía cửa sổ có ánh nắng mặt trời chiếu từ một bên, đó là dạng vận động nào?",
+        "steps": "Hướng động là hình thức phản ứng sinh trưởng của các cơ quan thực vật (thân, rễ, tua cuốn) trước tác nhân kích thích đến từ một hướng xác định (ánh sáng, trọng lực, hóa chất, nước...).",
+        "trap": "Nhầm hướng động (có hướng kích thích) với ứng động (kích thích không định hướng).",
+        "distractorReasons": {
+          "0": "Ứng động phản ứng trước kích thích không định hướng (như nhiệt độ, ánh sáng khuếch tán).",
+          "1": "Quang chu kì là phản ứng ra hoa theo độ dài chiếu sáng ngày đêm.",
+          "3": "Xuân hoá là hiện tượng ra hoa phụ thuộc nhiệt độ thấp mùa đông."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch02-d1-q02",
+      "difficulty": "nhan-biet",
+      "topic": "Hệ thần kinh dạng chuỗi hạch",
+      "question": "Nhóm động vật nào sau đây sở hữu hệ thần kinh tổ chức theo dạng chuỗi hạch?",
+      "options": [
+        "Thủy tức, san hô, hải quỳ",
+        "Trùng roi xanh, trùng giày, amip",
+        "Cá chép, ếch đồng, thằn lằn, chim bồ câu",
+        "Giun dẹp, giun tròn, giun đốt và chân khớp (côn trùng)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giun và chân khớp có các hạch thần kinh nối với nhau tạo thành chuỗi hạch chạy dọc cơ thể.",
+        "socraticPrompt": "Hệ thần kinh của giun đất và cào cào có cấu trúc gồm nhiều hạch thần kinh nối với nhau như thế nào?",
+        "steps": "Ở giun và chân khớp, các tế bào thần kinh tập trung lại thành các hạch thần kinh (hạch não, hạch ngực, hạch bụng) và nối với nhau tạo thành chuỗi hạch thần kinh dọc theo chiều dài cơ thể.",
+        "trap": "Nhầm nhóm ruột khoang (dạng lưới) hoặc động vật có xương sống (dạng ống).",
+        "distractorReasons": {
+          "0": "Thủy tức, san hô thuộc ruột khoang có hệ thần kinh dạng lưới.",
+          "2": "Cá, ếch, bò sát, chim có hệ thần kinh dạng ống với não bộ và tủy sống phát triển.",
+          "1": "Trùng roi, amip là động vật đơn bào chưa có tổ chức hệ thần kinh."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch02-d1-q03",
+      "difficulty": "nhan-biet",
+      "topic": "Bản chất Điện thế nghỉ",
+      "question": "Ở trạng thái nghỉ ngơi khi tế bào không bị kích thích, điện tích ở hai bên màng sợi thần kinh phân bố như thế nào?",
+      "options": [
+        "Mặt trong màng tích điện âm, mặt ngoài màng tích điện dương",
+        "Cả hai mặt màng đều trung hòa về điện tích (bằng 0 mV)",
+        "Mặt trong màng tích điện dương, mặt ngoài màng tích điện âm",
+        "Mặt trong màng tích điện âm, mặt ngoài màng không tích điện"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Điện thế nghỉ: trong âm (-70 mV), ngoài dương.",
+        "socraticPrompt": "Khi ion K+ mang điện tích dương thoát từ trong ra ngoài màng, lớp trong tế bào sẽ thừa lại điện tích gì?",
+        "steps": "Khi ở trạng thái nghỉ, tính thấm của màng đối với ion K+ cao hơn nhiều so với Na+, ion K+ mang điện dương khuếch tán từ trong ra ngoài màng làm mặt ngoài màng tích điện dương so với mặt trong tích điện âm (khoảng -70 mV).",
+        "trap": "Học sinh hay nhớ nhầm ngược dấu điện tích: trong dương, ngoài âm.",
+        "distractorReasons": {
+          "2": "Mặt trong dương ngoài âm là trạng thái đảo cực của điện thế hoạt động (+35 mV).",
+          "1": "Trạng thái trung hòa (0 mV) là thời điểm khử cực.",
+          "3": "Mặt ngoài mang lớp điện tích dương tạo hiệu điện thế màng xác định."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch02-d1-q04",
+      "difficulty": "nhan-biet",
+      "topic": "Chất trung gian hoá học trong synapse",
+      "question": "Chất trung gian hoá học phổ biến nhất được chứa trong các bóng synapse ở chùy màng trước là chất nào?",
+      "options": [
+        "Insulin và Glucagon",
+        "Acetylcholine và Noradrenaline",
+        "Hemoglobin và Myoglobin",
+        "Pepsin và Trypsin"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Chất dẫn truyền xung thần kinh qua khe synapse là các chất trung gian hoá học như acetylcholine, noradrenaline, dopamine...",
+        "socraticPrompt": "Loại chất hóa học nào được phóng thích vào khe synapse khi xung thần kinh đến màng trước?",
+        "steps": "Tại các cúc/chùy synapse, chất dẫn truyền xung thần kinh hóa học phổ biến nhất là acetylcholine (ở động vật) và noradrenaline, cùng với dopamine, serotonin, GABA...",
+        "trap": "Nhầm chất dẫn truyền thần kinh với hormone nội tiết (insulin) hoặc enzyme tiêu hoá (pepsin).",
+        "distractorReasons": {
+          "0": "Insulin và glucagon là hormone tuyến tụy điều hòa đường huyết.",
+          "2": "Hemoglobin và myoglobin là protein vận chuyển oxy trong máu và cơ.",
+          "3": "Pepsin và trypsin là enzyme tiêu hoá protein ở dạ dày và ruột non."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch02-d1-q05",
+      "difficulty": "nhan-biet",
+      "topic": "Đặc điểm tập tính bẩm sinh",
+      "question": "Đặc điểm nào sau đây KHÔNG PHẢI là đặc trưng của tập tính bẩm sinh ở động vật?",
+      "options": [
+        "Sinh ra đã có sẵn, không cần phải trải qua học tập hay rèn luyện",
+        "Mang tính bản năng, có tính bền vững và không thay đổi trong đời cá thể",
+        "Hình thành do học tập và rút kinh nghiệm cá nhân nên rất mềm dẻo, dễ thay đổi",
+        "Do kiểu gene quy định và được di truyền từ thế hệ trước sang thế hệ sau"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tập tính bẩm sinh mang tính di truyền, bản năng, đặc trưng cho loài, khó thay đổi.",
+        "socraticPrompt": "Đặc điểm nào sau đây thuộc về tập tính học được chứ không phải bẩm sinh?",
+        "steps": "Tập tính bẩm sinh là chuỗi phản xạ không điều kiện sinh ra đã có, do gene quy định, bền vững và di truyền được. Ngược lại, hình thành qua học tập, kinh nghiệm và mềm dẻo dễ thay đổi là đặc trưng của TẬP TÍNH HỌC ĐƯỢC.",
+        "trap": "Đọc không kĩ chữ 'KHÔNG PHẢI' trong câu hỏi.",
+        "distractorReasons": {
+          "0": "Đây là đặc điểm chuẩn của tập tính bẩm sinh.",
+          "1": "Đây là đặc điểm chuẩn của tập tính bẩm sinh.",
+          "3": "Đây là đặc điểm chuẩn của tập tính bẩm sinh."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch02-d1-q06",
+      "difficulty": "nhan-biet",
+      "topic": "Ví dụ về tập tính in vết",
+      "question": "Hiện tượng vịt con vừa mới nở ra khỏi vỏ trứng lập tức lẽo đẽo đi theo con vịt mẹ hoặc đi theo người chuyển động trước mặt nó là ví dụ về hình thức học tập nào?",
+      "options": [
+        "Học giải quyết vấn đề (Insight learning)",
+        "Quen nhờn (Habituation)",
+        "Học ngầm (Latent learning)",
+        "In vết (Imprinting)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "In vết là hình thức học tập bám theo vật chuyển động đầu tiên nhìn thấy ngay sau khi chào đời.",
+        "socraticPrompt": "Động vật non ghi nhớ sâu sắc hình ảnh mẹ mình ngay trong những giờ đầu sau sinh gọi là gì?",
+        "steps": "In vết là hình thức học tập ở động vật non, có hiệu lực trong giai đoạn nhạy cảm ngắn sau khi nở, động vật non có xu hướng bám theo và đi theo cá thể chuyển động đầu tiên mà nó nhìn thấy (thường là con mẹ).",
+        "trap": "Nhầm in vết với tập tính bẩm sinh thông thường (in vết có tính học hỏi nhận diện đối tượng đầu tiên).",
+        "distractorReasons": {
+          "1": "Quen nhờn là phớt lờ kích thích vô hại lặp đi lặp lại.",
+          "2": "Học ngầm là học không có phần thưởng tức thì, ghi nhớ sơ đồ đường đi.",
+          "0": "Học giải quyết vấn đề đòi hỏi tư duy phân tích tình huống ở động vật bậc cao."
+        }
+      }
+    }
+  ]
+}

@@ -1,1 +1,158 @@
-[]
+{
+  "chapterId": "ch01",
+  "examId": "de2",
+  "grade": "11",
+  "subject": "sinh-hoc",
+  "chapter": "ch01",
+  "chapterTitle": "Trao đổi chất & Chuyển hoá năng lượng ở sinh vật",
+  "title": "Sinh học 11 — Chương 1: Đề 2 — Kỹ năng & Thực hành",
+  "description": "Vận dụng kiến thức giải thích cơ chế đóng mở khí khổng, hô hấp sáng C3, hiệu ứng dòng chảy ngược ở cá và điều hòa áp suất thẩm thấu.",
+  "examCode": "102",
+  "mode": "practice",
+  "questions": [
+    {
+      "id": "11-sh-ch01-d2-q01",
+      "difficulty": "thong-hieu",
+      "topic": "Cơ chế đóng mở khí khổng",
+      "question": "Khi cây bị hạn hoặc thiếu nước nghiêm trọng, cơ chế nào sau đây giải thích ĐÚNG hiện tượng khí khổng đóng nhanh để chống mất nước?",
+      "options": [
+        "Lá tăng cường tổng hợp glucose làm tế bào hạt đậu trương nước mạnh",
+        "Ion K+ được bơm dồn dập vào tế bào hạt đậu làm tăng áp suất thẩm thấu kéo nước vào trong",
+        "Hàm lượng hormone abscisic acid (ABA) tăng nhanh kích thích bơm ion K+ ra khỏi tế bào hạt đậu làm tế bào xẹp lại",
+        "Thành mỏng của tế bào hạt đậu dãn căng ép thành dày khép chặt lỗ khí"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khi thiếu nước, rễ và lá tăng tiết hormone ABA báo hiệu tế bào khí khổng giải phóng ion K+, dịch bào nhược trương làm nước thoát ra, tế bào xẹp lại và lỗ khí đóng.",
+        "socraticPrompt": "Hormone thực vật nào chịu trách nhiệm phản ứng chống stress khô hạn ở khí khổng?",
+        "steps": "Hạn -> kích thích tổng hợp Abscisic acid (ABA) -> ABA kích hoạt mở kênh ion K+ thoát ra khỏi tế bào hạt đậu -> nồng độ thẩm thấu giảm -> nước thẩm thấu ra ngoài -> tế bào hạt đậu mất sức trương nước, thành mỏng co lại khiến khí khổng đóng.",
+        "trap": "Nghĩ rằng tế bào hạt đậu phải hút thêm nước thì mới đóng kín được khe khí khổng.",
+        "distractorReasons": {
+          "0": "Trương nước mạnh sẽ làm khí khổng mở to hơn, làm cây mất nước nhiều hơn.",
+          "1": "Bơm K+ vào làm tăng áp suất thẩm thấu, nước đi vào làm khí khổng mở chứ không đóng.",
+          "3": "Khi no nước thành mỏng dãn cong kéo thành dày mở lỗ khí, khi mất nước tế bào xẹp lại mới đóng."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d2-q02",
+      "difficulty": "thong-hieu",
+      "topic": "Thực vật C4 và CAM thích nghi sinh thái",
+      "question": "Đặc điểm nào sau đây giúp thực vật C4 (như ngô, mía) có năng suất sinh học cao hơn rõ rệt so với thực vật C3 trong điều kiện nhiệt đới nắng gắt?",
+      "options": [
+        "Không có chu trình Calvin trong pha tối",
+        "Sử dụng nước thay thế CO2 làm nguyên liệu trực tiếp tạo đường trong lục lạp",
+        "Khí khổng mở hoàn toàn vào ban đêm và đóng kín vào ban ngày để ngăn thoát nước",
+        "Có enzyme PEP carboxylase với ái lực cực cao với CO2 và nồng độ CO2 được gom tụ cao quanh Rubisco triệt tiêu hô hấp sáng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "C4 có 2 loại tế bào quang hợp và bơm CO2 nồng độ cao vào tế bào bao bó mạch tránh hô hấp sáng.",
+        "socraticPrompt": "Enzyme nào ở tế bào thịt lá thực vật C4 có khả năng cố định CO2 hiệu quả ngay cả khi nồng độ CO2 trong gian bào rất thấp?",
+        "steps": "Thực vật C4 có enzyme PEP carboxylase có ái lực rất mạnh với CO2 giúp cố định CO2 hiệu quả ngay cả khi khí khổng khép hờ. Hợp chất 4C sau đó vận chuyển vào tế bào bao bó mạch giải phóng CO2 duy trì nồng độ CO2 cao quanh Rubisco, ức chế hoàn toàn hô hấp sáng giúp tiết kiệm quang năng và sản phẩm hữu cơ.",
+        "trap": "Nhầm lẫn đặc điểm mở khí khổng ban đêm của thực vật CAM sang thực vật C4.",
+        "distractorReasons": {
+          "0": "Cả C3, C4 và CAM đều có chu trình Calvin để tổng hợp đường glucose.",
+          "2": "Mở khí khổng ban đêm là đặc điểm của thực vật CAM (xương rồng, dứa), không phải C4.",
+          "1": "CO2 vẫn là nguồn carbon duy nhất để tạo đường hữu cơ, nước chỉ cung cấp H+ và electron."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d2-q03",
+      "difficulty": "thong-hieu",
+      "topic": "Hiệu quả trao đổi khí ở mang cá xương",
+      "question": "Cách sắp xếp dòng máu trong mao mạch mang chảy ngược chiều với dòng nước qua các phiến mang đem lại lợi ích sinh học nào cho cá?",
+      "options": [
+        "Duy trì chênh lệch phân áp O2 giữa nước và máu trên suốt chiều dài mao mạch mang, tối đa hóa lượng O2 khuếch tán vào máu",
+        "Làm tăng áp lực máu ở tâm thất của cá khi bơm máu vào động mạch mang",
+        "Giúp cá bơi tiến về phía trước nhanh hơn mà không tốn năng lượng bơi lội",
+        "Ngăn chặn hoàn toàn các chất độc hại trong môi trường nước xâm nhập vào dòng máu"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hiện tượng dòng chảy ngược chiều (countercurrent exchange) duy trì gradient nồng độ O2 liên tục giữa nước và máu.",
+        "socraticPrompt": "Nếu dòng nước và dòng máu chảy cùng chiều, sự khuếch tán O2 sẽ dừng lại khi nào và lượng O2 hấp thu được là bao nhiêu?",
+        "steps": "Khi chảy song song ngược chiều, máu dù đã nhận thêm O2 nhưng luôn tiếp xúc với dòng nước có hàm lượng O2 cao hơn nó. Do đó, gradient khuếch tán O2 từ nước vào máu luôn được duy trì dọc toàn bộ chiều dài phiến mang, giúp cá hấp thu tới hơn 80% lượng O2 hòa tan trong nước.",
+        "trap": "Nghĩ rằng dòng chảy ngược chiều nhằm hỗ trợ vận động cơ học bơi lội của cá.",
+        "distractorReasons": {
+          "2": "Hiện tượng này diễn ra ở cấp độ vi mao mạch phiến mang, không liên quan đến lực đẩy bơi cơ học.",
+          "1": "Dòng nước ngoài môi trường không tác động làm tăng áp lực tâm thất cá.",
+          "3": "Sự trao đổi khí dựa vào khuếch tán qua màng biểu mô mỏng, không có tác dụng lọc bỏ chất độc hóa học."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d2-q04",
+      "difficulty": "thong-hieu",
+      "topic": "Vận tốc máu và Tiết diện mạch",
+      "question": "Tại sao trong hệ mạch của người, vận tốc máu chảy trong các mao mạch là chậm nhất (chỉ khoảng 0,5 mm/s) mặc dù đường kính từng mao mạch rất nhỏ?",
+      "options": [
+        "Do huyết áp tại mao mạch đã giảm về giá trị bằng 0 mmHg",
+        "Do tổng tiết diện của toàn bộ hệ thống mao mạch là lớn nhất trong toàn bộ hệ mạch",
+        "Do tim ngừng co bóp khi máu bắt đầu chảy vào các mao mạch",
+        "Do máu bị đông vón cục tạm thời tại mạng lưới mao mạch"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Vận tốc dòng chảy tỉ lệ nghịch với tổng tiết diện mạch (v = Q / S_tổng).",
+        "socraticPrompt": "Một dòng sông khi chảy vào vùng phân nhánh thành vô số dòng kênh nhỏ thì tốc độ dòng nước sẽ biến đổi thế nào?",
+        "steps": "Số lượng mao mạch trong cơ thể cực kì lớn (hàng tỉ mao mạch), nên tổng diện tích mặt cắt ngang (tổng tiết diện) của hệ thống mao mạch lớn gấp hàng trăm lần tổng tiết diện động mạch chủ. Theo định luật dòng liên tục, tổng tiết diện càng lớn thì vận tốc dòng chảy càng chậm, tạo điều kiện thuận lợi cho sự trao đổi khí và chất giữa máu với tế bào.",
+        "trap": "Nhầm tiết diện của 1 mao mạch đơn lẻ (rất nhỏ) với tổng tiết diện của toàn bộ mạng lưới mao mạch (rất lớn).",
+        "distractorReasons": {
+          "0": "Huyết áp tại mao mạch vẫn duy trì khoảng 15 - 35 mmHg để đẩy dịch ra khoảng gian bào, chỉ về gần 0 ở tĩnh mạch chủ.",
+          "2": "Tim co bóp nhịp nhàng liên tục theo chu kì chứ không ngừng đập.",
+          "3": "Máu bình thường không hề đông vón trong mao mạch nhờ lớp nội mô nhẵn và chất chống đông heparin."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d2-q05",
+      "difficulty": "thong-hieu",
+      "topic": "Điều hòa áp suất thẩm thấu khi mất nước",
+      "question": "Khi một người lao động nặng ra nhiều mồ hôi mà chưa kịp uống nước, cơ thể sẽ có phản ứng điều hoà sinh lí nào sau đây?",
+      "options": [
+        "Giảm tiết hormone ADH để tăng bài xuất nước tiểu qua thận",
+        "Tăng tiết hormone insulin để biến đổi toàn bộ glucose thành mỡ",
+        "Tăng tiết hormone ADH từ tuyến yên làm tăng tái hấp thu nước ở ống thận và kích thích cảm giác khát",
+        "Giảm nhịp tim và giãn toàn bộ mạch máu ngoại vi để giữ nước"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Mất nước -> Áp suất thẩm thấu máu tăng -> Kích thích thùy sau tuyến yên tăng tiết ADH (Vasopressin) tăng tái hấp thu nước.",
+        "socraticPrompt": "Khi lượng nước trong huyết tương giảm xuống, tuyến nội tiết nào sẽ tiết hormone gì để ống thận giữ nước lại?",
+        "steps": "Ra mồ hôi nhiều làm thể tích máu giảm và áp suất thẩm thấu máu tăng -> Kích thích thụ thể áp suất thẩm thấu ở vùng dưới đồi -> Kích thích thùy sau tuyến yên tiết ADH -> ADH gắn thụ thể ống lượn xa và ống góp làm tăng tái hấp thu nước về máu -> Lượng nước tiểu giảm và đậm đặc, đồng thời kích thích trung khu thần kinh tạo cảm giác khát để uống nước bù dịch.",
+        "trap": "Nhầm lẫn tác dụng của ADH (tăng tái hấp thu nước làm giảm lượng nước tiểu chứ không phải tăng bài xuất).",
+        "distractorReasons": {
+          "0": "Giảm tiết ADH sẽ gây mất thêm nước qua đường tiểu (triệu chứng bệnh đái tháo nhạt).",
+          "1": "Insulin chỉ điều hoà glucose máu, không phản ứng với tình trạng thiếu nước.",
+          "3": "Mất nước làm giảm thể tích tuần hoàn thường kích thích tim đập nhanh hơn để duy trì huyết áp."
+        }
+      }
+    },
+    {
+      "id": "11-sh-ch01-d2-q06",
+      "difficulty": "thong-hieu",
+      "topic": "Hô hấp sáng ở thực vật C3",
+      "question": "Hô hấp sáng ở thực vật C3 diễn ra tuần tự qua 3 bào quan nào trong tế bào và gây hậu quả gì?",
+      "options": [
+        "Lưới nội chất -> Ty thể -> Peroxisome; giúp giải phóng khí oxy ra khí quyển",
+        "Ty thể -> Lục lạp -> Không bào; làm tăng lượng ATP sinh ra gấp đôi cho tế bào",
+        "Lục lạp -> Bộ máy Golgi -> Lysosome; giúp tổng hợp thêm tinh bột dự trữ",
+        "Lục lạp -> Peroxisome -> Ty thể; làm tiêu hao 25-50% sản phẩm quang hợp mà không tạo ATP"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hô hấp sáng là quá trình oxy hóa RuBP bởi enzyme Rubisco ở thực vật C3 qua 3 bào quan: Lục lạp -> Peroxisome -> Ty thể.",
+        "socraticPrompt": "Ba bào quan nào tham gia vào chu trình hô hấp sáng làm tiêu hao sản phẩm của chu trình Calvin mà không sinh ATP?",
+        "steps": "Khi nhiệt độ cao và nồng độ O2 trong lá cao hơn CO2, enzyme Rubisco thể hiện hoạt tính oxygenase gắn O2 vào RuBP tạo glycolate tại Lục lạp -> Glycolate chuyển sang Peroxisome bị oxy hoá thành glyoxylate rồi glycine -> Glycine chuyển sang Ty thể biến đổi thành serine và giải phóng CO2 mà không sinh ATP. Quá trình này tiêu hao tới 25-50% lượng chất hữu cơ cây vừa quang hợp được.",
+        "trap": "Nhầm trật tự các bào quan hoặc nghĩ hô hấp sáng tạo ra năng lượng có ích như hô hấp tế bào.",
+        "distractorReasons": {
+          "1": "Hô hấp sáng không diễn ra ở không bào và không hề sinh thêm ATP.",
+          "2": "Golgi và lysosome không tham gia vào chu trình chuyển hóa hô hấp sáng.",
+          "0": "Hô hấp sáng tiêu thụ O2 và giải phóng CO2 chứ không giải phóng O2."
+        }
+      }
+    }
+  ]
+}
