@@ -1,47 +1,161 @@
-[
-  {
-    "id": "l28",
-    "title": "Bài 28: Biến cố hợp, biến cố giao và biến cố độc lập",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 28: Biến cố hợp, biến cố giao và biến cố độc lập.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 28: Biến cố hợp, biến cố giao và biến cố độc lập.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 28: Biến cố hợp, biến cố giao và biến cố độc lập để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l29",
-    "title": "Bài 29: Công thức cộng xác suất và biến cố xung khắc",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 29: Công thức cộng xác suất và biến cố xung khắc.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 29: Công thức cộng xác suất và biến cố xung khắc.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 29: Công thức cộng xác suất và biến cố xung khắc để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l30",
-    "title": "Bài 30: Công thức nhân xác suất cho hai biến cố độc lập",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 30: Công thức nhân xác suất cho hai biến cố độc lập.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 30: Công thức nhân xác suất cho hai biến cố độc lập.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 30: Công thức nhân xác suất cho hai biến cố độc lập để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chương 9: Các quy tắc tính xác suất",
+  "lessons": [
+    {
+      "id": "l28",
+      "title": "Bài 28: Biến cố hợp, biến cố giao và biến cố độc lập",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa biến cố hợp A ∪ B và biến cố giao AB (A ∩ B).",
+        "Hiểu khái niệm hai biến cố độc lập trong các phép thử thực tế.",
+        "Biết biểu diễn quan hệ giữa các biến cố bằng biểu đồ Venn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến cố hợp A ∪ B",
+          "definition": "Cho hai biến cố A và B. Biến cố 'A hoặc B xảy ra', kí hiệu là A ∪ B, được gọi là biến cố hợp của A và B.",
+          "notation": "A ∪ B = {ω ∈ Ω: ω ∈ A hoặc ω ∈ B}",
+          "note": "Xảy ra khi ít nhất một trong hai biến cố A hoặc B xảy ra."
+        },
+        {
+          "term": "Biến cố giao AB (A ∩ B)",
+          "definition": "Biến cố 'Cả A và B cùng xảy ra', kí hiệu là AB hoặc A ∩ B, được gọi là biến cố giao của A và B.",
+          "notation": "AB = {ω ∈ Ω: ω ∈ A và ω ∈ B}",
+          "note": "Xảy ra khi đồng thời cả hai biến cố đều xảy ra."
+        },
+        {
+          "term": "Hai biến cố độc lập",
+          "definition": "Hai biến cố A và B gọi là độc lập nếu việc xảy ra hay không xảy ra của biến cố này không làm ảnh hưởng tới xác suất xảy ra của biến cố kia.",
+          "notation": "A và B độc lập",
+          "note": "Ví dụ: Gieo hai con xúc xắc riêng biệt, kết quả của con thứ nhất độc lập với con thứ hai."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đặc điểm của biến cố độc lập",
+          "meaning": "Nếu A và B độc lập thì các cặp: (A và B ngang), (A ngang và B), (A ngang và B ngang) cũng đều độc lập với nhau."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gieo hai con xúc xắc cân đối. Gọi A là biến cố 'Con thứ nhất xuất hiện mặt 6 chấm', B là biến cố 'Con thứ hai xuất hiện mặt 6 chấm'. A và B có độc lập không và tính xác suất cả hai con cùng xuất hiện mặt 6 chấm?",
+          "steps": [
+            "Bước 1: Do hai con xúc xắc được gieo độc lập nên kết quả con 1 không ảnh hưởng con 2. Vậy A và B độc lập.",
+            "Bước 2: Xác suất từng biến cố: P(A) = 1/6, P(B) = 1/6.",
+            "Bước 3: Biến cố cả hai cùng xuất hiện mặt 6 là biến cố giao AB. Vì A và B độc lập nên P(AB) = P(A) · P(B) = 1/6 · 1/6 = 1/36."
+          ],
+          "answer": "A và B độc lập và P(AB) = 1/36."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa hai biến cố độc lập và hai biến cố xung khắc.",
+          "why": "Xung khắc là không thể cùng xảy ra (AB = rỗng); Độc lập là xảy ra cùng nhau nhưng không ảnh hưởng xác suất của nhau."
+        }
+      ]
+    },
+    {
+      "id": "l29",
+      "title": "Bài 29: Công thức cộng xác suất và biến cố xung khắc",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa hai biến cố xung khắc (A ∩ B = ∅).",
+        "Thành thạo công thức cộng xác suất cho hai biến cố bất kì và hai biến cố xung khắc.",
+        "Biết sử dụng công thức biến cố đối P(A ngang) = 1 - P(A)."
+      ],
+      "concepts": [
+        {
+          "term": "Biến cố xung khắc",
+          "definition": "Hai biến cố A và B gọi là xung khắc nếu chúng không thể cùng xảy ra trong một phép thử (tập kết quả chung bằng rỗng).",
+          "notation": "A ∩ B = ∅",
+          "note": "Khi A và B xung khắc thì P(AB) = 0."
+        },
+        {
+          "term": "Công thức cộng xác suất",
+          "definition": "Với hai biến cố bất kì A và B: P(A ∪ B) = P(A) + P(B) - P(AB). Nếu A và B xung khắc thì: P(A ∪ B) = P(A) + P(B).",
+          "notation": "P(A ∪ B) = P(A) + P(B) - P(AB)",
+          "note": "Phải trừ đi phần giao P(AB) vì phần giao đã bị tính hai lần."
+        },
+        {
+          "term": "Biến cố đối",
+          "definition": "Biến cố đối của A, kí hiệu là Ā, là biến cố 'A không xảy ra'. A và Ā luôn xung khắc và A ∪ Ā = Ω.",
+          "notation": "P(Ā) = 1 - P(A)",
+          "note": "Rất hữu ích khi bài toán yêu cầu 'ít nhất một'."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc phần bù cho bài toán 'ít nhất một'",
+          "meaning": "Xác suất 'Có ít nhất 1 biến cố xảy ra' = 1 - Xác suất 'Không có biến cố nào xảy ra': P(ít nhất 1) = 1 - P(không có)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một hộp có 10 tấm thẻ đánh số từ 1 đến 10. Rút ngẫu nhiên một tấm thẻ. Tính xác suất rút được thẻ ghi số chẵn hoặc số chia hết cho 3?",
+          "steps": [
+            "Bước 1: Gọi A là biến cố 'rút được số chẵn': A = {2, 4, 6, 8, 10} => n(A) = 5 => P(A) = 5/10.",
+            "Bước 2: Gọi B là biến cố 'rút được số chia hết cho 3': B = {3, 6, 9} => n(B) = 3 => P(B) = 3/10.",
+            "Bước 3: Biến cố giao AB là 'số vừa chẵn vừa chia hết cho 3': AB = {6} => n(AB) = 1 => P(AB) = 1/10.",
+            "Bước 4: Áp dụng công thức cộng: P(A ∪ B) = P(A) + P(B) - P(AB) = 5/10 + 3/10 - 1/10 = 7/10 = 0,7."
+          ],
+          "answer": "Xác suất bằng 0,7 (70%)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy P(A) + P(B) = 5/10 + 3/10 = 8/10 mà quên trừ số 6 bị tính lặp hai lần.",
+          "why": "Vì A và B không xung khắc (số 6 cùng xuất hiện trong cả hai biến cố)."
+        }
+      ]
+    },
+    {
+      "id": "l30",
+      "title": "Bài 30: Công thức nhân xác suất cho hai biến cố độc lập",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững công thức nhân xác suất cho hai biến cố độc lập: P(AB) = P(A) · P(B).",
+        "Mở rộng công thức nhân cho nhiều biến cố độc lập.",
+        "Vận dụng vào các bài toán thực tế: xác suất trúng bia, mạch điện, kiểm tra chất lượng sản phẩm."
+      ],
+      "concepts": [
+        {
+          "term": "Công thức nhân xác suất",
+          "definition": "Hai biến cố A và B độc lập khi và chỉ khi xác suất của biến cố giao bằng tích xác suất của từng biến cố.",
+          "notation": "P(AB) = P(A) · P(B)",
+          "note": "Công thức này chỉ áp dụng khi hai biến cố ĐỘC LẬP."
+        },
+        {
+          "term": "Mở rộng cho n biến cố độc lập",
+          "definition": "Nếu các biến cố A1, A2, ..., An độc lập toàn phần với nhau thì xác suất để tất cả cùng xảy ra bằng tích xác suất của từng biến cố.",
+          "notation": "P(A1 · A2 · ... · An) = P(A1) · P(A2) · ... · P(An)",
+          "note": "Xác suất có ít nhất một biến cố xảy ra là: 1 - P(Ā1) · P(Ā2) ... P(Ān)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phân biệt công thức cộng và công thức nhân",
+          "meaning": "Quy tắc cộng áp dụng cho biến cố HỢP (A HOẶC B). Quy tắc nhân áp dụng cho biến cố GIAO (A VÀ B) khi độc lập."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Hai xạ thủ cùng bắn độc lập vào một bia. Xác suất bắn trúng của xạ thủ thứ nhất là 0,8 và của xạ thủ thứ hai là 0,7. Tính xác suất có ít nhất một xạ thủ bắn trúng bia?",
+          "steps": [
+            "Bước 1: Gọi A là biến cố xạ thủ 1 trúng, P(A) = 0,8 => P(Ā) = 1 - 0,8 = 0,2.",
+            "Bước 2: Gọi B là biến cố xạ thủ 2 trúng, P(B) = 0,7 => P(B̄) = 1 - 0,7 = 0,3.",
+            "Bước 3: Biến cố 'không ai bắn trúng bia' là ĀB̄. Vì hai xạ thủ bắn độc lập nên: P(ĀB̄) = P(Ā) · P(B̄) = 0,2 · 0,3 = 0,06.",
+            "Bước 4: Xác suất có ít nhất một người trúng bia là biến cố đối: P = 1 - P(ĀB̄) = 1 - 0,06 = 0,94."
+          ],
+          "answer": "Xác suất có ít nhất một xạ thủ bắn trúng bia là 0,94 (94%)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cộng hai xác suất 0,8 + 0,7 = 1,5 (> 1) là hoàn toàn vô lí.",
+          "why": "Xác suất không bao giờ vượt quá 1; hai biến cố không xung khắc nên không được cộng trực tiếp."
+        }
+      ]
+    }
+  ]
+}

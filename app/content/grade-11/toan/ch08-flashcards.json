@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Góc giữa hai đường thẳng $a$ và $b$ trong không gian có số đo trong khoảng nào?",
-    "back": "Từ $0^\\circ$ đến $90^\\circ$ ($0^\\circ \\le (a, b) \\le 90^\\circ$).",
-    "tags": [
-      "Góc",
-      "Không gian"
-    ]
-  },
-  {
-    "front": "Điều kiện để đường thẳng $d$ vuông góc với mặt phẳng $(\\alpha)$?",
-    "back": "$d$ vuông góc với hai đường thẳng cắt nhau cùng nằm trong mặt phẳng $(\\alpha)$.",
-    "tags": [
-      "Đường vuông góc MP",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "Định lí ba đường vuông góc?",
-    "back": "Cho đường thẳng $a$ nằm trong $(\\alpha)$, $b$ không vuông góc với $(\\alpha)$ và $b'$ là hình chiếu của $b$ lên $(\\alpha)$. Khi đó $a \\perp b \\Leftrightarrow a \\perp b'$.",
-    "tags": [
-      "3 đường vuông góc",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "Điều kiện để hai mặt phẳng $(\\alpha)$ và $(\\beta)$ vuông góc với nhau?",
-    "back": "Mặt phẳng $(\\alpha)$ chứa một đường thẳng vuông góc với mặt phẳng $(\\beta)$.",
-    "tags": [
-      "Hai MP vuông góc",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "Góc giữa đường thẳng $d$ và mặt phẳng $(\\alpha)$ là gì?",
-    "back": "Là góc giữa đường thẳng $d$ và hình chiếu vuông góc $d'$ của nó trên $(\\alpha)$.",
-    "tags": [
-      "Góc đường và mặt",
-      "Hình chiếu"
-    ]
-  },
-  {
-    "front": "Khoảng cách từ một điểm $M$ đến mặt phẳng $(\\alpha)$ là gì?",
-    "back": "Là độ dài đoạn thẳng $MH$, trong đó $H$ là hình chiếu vuông góc của điểm $M$ lên $(\\alpha)$.",
-    "tags": [
-      "Khoảng cách",
-      "Điểm đến MP"
-    ]
-  },
-  {
-    "front": "Đoạn vuông góc chung của hai đường thẳng chéo nhau là gì?",
-    "back": "Là đoạn thẳng nối hai điểm trên hai đường thẳng đó và đồng thời vuông góc với cả hai đường thẳng. Độ dài của nó là khoảng cách giữa hai đường chéo nhau.",
-    "tags": [
-      "Đoạn vuông góc chung",
-      "Chéo nhau"
-    ]
-  },
-  {
-    "front": "Công thức thể tích khối chóp có chiều cao $h$ và diện tích đáy $B$?",
-    "back": "$V = \\frac{1}{3} B \\times h$.",
-    "tags": [
-      "Thể tích",
-      "Khối chóp"
-    ]
-  },
-  {
-    "front": "Công thức thể tích khối lăng trụ có chiều cao $h$ và diện tích đáy $B$?",
-    "back": "$V = B \\times h$.",
-    "tags": [
-      "Thể tích",
-      "Khối lăng trụ"
-    ]
-  },
-  {
-    "front": "Hình chóp đều có tính chất gì về đường cao hạ từ đỉnh?",
-    "back": "Đường cao hạ từ đỉnh đi qua tâm đường tròn ngoại tiếp của đa giác đáy.",
-    "tags": [
-      "Chóp đều",
-      "Tính chất"
-    ]
-  },
-  {
-    "front": "Nếu hai mặt phẳng vuông góc với nhau thì bất kì đường thẳng nào nằm trong mặt này và vuông góc với giao tuyến thì sao?",
-    "back": "Thì vuông góc với mặt phẳng kia.",
-    "tags": [
-      "Giao tuyến",
-      "Hệ quả vuông góc"
-    ]
-  },
-  {
-    "front": "Cho hình chóp $S.ABC$ có $SA \\perp (ABC)$, tam giác $ABC$ vuông tại $B$. Mặt phẳng $(SAB)$ vuông góc với mặt phẳng nào?",
-    "back": "Vuông góc với $(ABC)$ và $(SBC)$.",
-    "tags": [
-      "Vuông góc",
-      "Bài tập"
-    ]
-  }
-]
+{
+  "chapterId": "ch08",
+  "flashcards": [
+    {
+      "id": "fc_t11_c8_01",
+      "front": "Định nghĩa hai đường thẳng vuông góc trong không gian?",
+      "back": "Hai đường thẳng vuông góc nếu góc giữa chúng bằng 90°. Chúng có thể cắt nhau hoặc chéo nhau.",
+      "category": "Đường vuông góc đường",
+      "example": "AB và B'C' trong hình lập phương vuông góc và chéo nhau.",
+      "mnemonic": "Góc bằng 90 độ, cắt hay chéo đều được."
+    },
+    {
+      "id": "fc_t11_c8_02",
+      "front": "Dấu hiệu nhận biết đường thẳng d vuông góc mặt phẳng (α)?",
+      "back": "d vuông góc với HAI ĐƯỜNG THẲNG CẮT NHAU cùng nằm trong mặt phẳng (α).",
+      "category": "Đường vuông góc mặt",
+      "example": "d ⊥ a, d ⊥ b (a cắt b trong (α)) => d ⊥ (α).",
+      "mnemonic": "Vuông với hai đường cắt nhau thì vuông với cả mặt."
+    },
+    {
+      "id": "fc_t11_c8_03",
+      "front": "Định lí ba đường vuông góc phát biểu như thế nào?",
+      "back": "Cho a không ⊥ (P), a' là hình chiếu của a trên (P), b ⊂ (P). Khi đó: b ⊥ a <=> b ⊥ a'.",
+      "category": "Định lí quan trọng",
+      "example": "BC ⊥ AB <=> BC ⊥ SB khi SA ⊥ đáy.",
+      "mnemonic": "Đường dưới đáy vuông với bóng thì vuông với que nghiêng."
+    },
+    {
+      "id": "fc_t11_c8_04",
+      "front": "Định nghĩa góc giữa đường thẳng d và mặt phẳng (α)?",
+      "back": "Là góc giữa đường thẳng d và hình chiếu vuông góc d' của nó trên (α) (0° ≤ φ ≤ 90°).",
+      "category": "Góc",
+      "example": "Góc giữa SB và đáy là góc SBA khi SA vuông góc đáy.",
+      "mnemonic": "Góc giữa đường nghiêng và cái bóng của nó."
+    },
+    {
+      "id": "fc_t11_c8_05",
+      "front": "Cách xác định góc giữa hai mặt phẳng cắt nhau?",
+      "back": "Tìm giao tuyến, từ 1 điểm trên giao tuyến dựng 2 đường vuông góc với giao tuyến nằm trong 2 mặt phẳng.",
+      "category": "Góc nhị diện",
+      "example": "Góc giữa (SAB) và (ABCD) có giao tuyến AB.",
+      "mnemonic": "Cùng vuông góc giao tuyến tại một điểm."
+    },
+    {
+      "id": "fc_t11_c8_06",
+      "front": "Dấu hiệu nhận biết hai mặt phẳng vuông góc (P) ⊥ (Q)?",
+      "back": "Mặt phẳng (P) chứa một đường thẳng d mà d vuông góc với mặt phẳng (Q).",
+      "category": "Mặt vuông góc mặt",
+      "example": "Mặt tường chứa cột nhà vuông góc với sàn nên tường ⊥ sàn.",
+      "mnemonic": "Chứa một đường cọc cắm vuông góc với mặt kia."
+    },
+    {
+      "id": "fc_t11_c8_07",
+      "front": "Công thức tính khoảng cách từ điểm M đến mặt phẳng (P)?",
+      "back": "d(M, (P)) = MH, trong đó H là hình chiếu vuông góc của M trên (P).",
+      "category": "Khoảng cách",
+      "example": "Hạ đường vuông góc từ M xuống (P).",
+      "mnemonic": "Độ dài đoạn vuông góc từ điểm xuống mặt."
+    },
+    {
+      "id": "fc_t11_c8_08",
+      "front": "Khoảng cách giữa hai đường thẳng chéo nhau là gì?",
+      "back": "Là độ dài của đoạn vuông góc chung MN nối hai đường thẳng (M ∈ a, N ∈ b, MN ⊥ a, MN ⊥ b).",
+      "category": "Khoảng cách",
+      "example": "Khoảng cách giữa hai mép tường đối diện.",
+      "mnemonic": "Độ dài đoạn vuông góc chung ngắn nhất."
+    },
+    {
+      "id": "fc_t11_c8_09",
+      "front": "Công thức tính thể tích khối chóp và lăng trụ?",
+      "back": "V_chóp = 1/3 · S_đáy · h. V_lăng trụ = S_đáy · h.",
+      "category": "Thể tích",
+      "example": "Chóp đáy diện tích 10, cao 6 => V = 1/3 · 10 · 6 = 20.",
+      "mnemonic": "Khối chóp nhọn đầu chia ba; Lăng trụ bằng phẳng nhân thẳng."
+    },
+    {
+      "id": "fc_t11_c8_10",
+      "front": "Công thức diện tích hình chiếu của hình phẳng?",
+      "back": "S_chiếu = S · cos φ, trong đó φ là góc giữa mặt phẳng chứa hình và mặt phẳng chiếu.",
+      "category": "Ứng dụng hình học",
+      "example": "S_sàn = S_mái · cos(góc nghiêng).",
+      "mnemonic": "Diện tích bóng bằng diện tích thật nhân cos góc nghiêng."
+    }
+  ]
+}

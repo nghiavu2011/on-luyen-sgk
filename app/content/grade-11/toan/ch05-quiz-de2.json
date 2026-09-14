@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch05",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 5: Đề 2 — Kỹ năng & Thực hành Tính Số trung bình và Trung vị",
+  "description": "Bài tập tính toán cụ thể số trung bình, trung vị và mốt từ bảng số liệu ghép nhóm.",
+  "questions": [
+    {
+      "id": "t11_c5_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính số trung bình x̄",
+      "question": "Cho bảng phân bố tần số ghép nhóm sau:\nNhóm [0; 4): tần số 2;\nNhóm [4; 8): tần số 5;\nNhóm [8; 12): tần số 3.\nSố trung bình x̄ của mẫu số liệu trên bằng:",
+      "options": [
+        "6,4",
+        "6,0",
+        "7,2",
+        "5,8"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức tính số trung bình: x̄ = ∑(mi · ci) / n.",
+        "socraticPrompt": "Tính giá trị đại diện từng nhóm: (0+4)/2=2, (4+8)/2=6, (8+12)/2=10. Nhân với tần số rồi chia tổng số mẫu n = 10?",
+        "steps": "Giá trị đại diện: c1 = 2, c2 = 6, c3 = 10. Tổng cỡ mẫu n = 2 + 5 + 3 = 10. Ta có: x̄ = (2·2 + 5·6 + 3·10) / 10 = (4 + 30 + 30) / 10 = 64 / 10 = 6,4.",
+        "trap": "Lấy trung bình cộng các giá trị đại diện (2 + 6 + 10)/3 = 6 mà quên nhân với tần số."
+      }
+    },
+    {
+      "id": "t11_c5_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính trung vị Me",
+      "question": "Một mẫu số liệu gồm 20 số liệu được ghép nhóm như sau:\nNhóm [10; 20): 6 số liệu;\nNhóm [20; 30): 8 số liệu;\nNhóm [30; 40): 6 số liệu.\nTrung vị Me của mẫu số liệu ghép nhóm này bằng:",
+      "options": [
+        "22",
+        "25",
+        "28",
+        "24"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức trung vị: Me = ap + [(n/2 - C) / mp] · h.",
+        "socraticPrompt": "n = 20 => n/2 = 10. Nhóm chứa trung vị là [20; 30) có C = 6, mp = 8, h = 10. Thay vào công thức ra bao nhiêu?",
+        "steps": "n/2 = 10. Nhóm chứa trung vị là [20; 30) vì nhóm 1 có 6 < 10, nhóm 2 tích luỹ 6 + 8 = 14 ≥ 10. Khi đó ap = 20, C = 6, mp = 8, h = 10. Me = 20 + [(10 - 6)/8] · 10 = 20 + (4/8) · 10 = 20 + 5 = 25.",
+        "trap": "Tính nhầm (10 - 6)/8 = 0,2 và ra 22."
+      }
+    },
+    {
+      "id": "t11_c5_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính Mốt Mo",
+      "question": "Cho bảng số liệu ghép nhóm có ba nhóm liên tiếp:\nNhóm 1 [10; 20): tần số m1 = 4;\nNhóm 2 [20; 30): tần số m2 = 10;\nNhóm 3 [30; 40): tần số m3 = 6.\nMốt Mo của mẫu số liệu ghép nhóm trên bằng:",
+      "options": [
+        "28",
+        "24",
+        "25",
+        "26"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công thức Mốt: Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h.",
+        "socraticPrompt": "Nhóm chứa mốt là [20; 30) có mj = 10, mj-1 = 4, mj+1 = 6. Hiệu trên là 6, mẫu là 6 + 4 = 10?",
+        "steps": "Nhóm chứa mốt là [20; 30) với aj = 20, h = 10. Ta có mj = 10, mj-1 = 4, mj+1 = 6. Suy ra: Mo = 20 + [(10 - 4) / ((10 - 4) + (10 - 6))] · 10 = 20 + [6 / (6 + 4)] · 10 = 20 + (6/10) · 10 = 20 + 6 = 26.",
+        "trap": "Lấy luôn giá trị đại diện (20 + 30)/2 = 25 làm Mốt."
+      }
+    },
+    {
+      "id": "t11_c5_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính tứ phân vị thứ nhất Q1",
+      "question": "Một mẫu số liệu ghép nhóm có cỡ mẫu n = 40. Nhóm [0; 10) có 5 số liệu; nhóm [10; 20) có 15 số liệu; nhóm [20; 30) có 20 số liệu. Giá trị của tứ phân vị thứ nhất Q1 là:",
+      "options": [
+        "15,0",
+        "12,5",
+        "13,33",
+        "10,0"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tứ phân vị thứ nhất Q1 ứng với ngưỡng n/4. Công thức: Q1 = ap + [(n/4 - C)/mp] · h.",
+        "socraticPrompt": "n/4 = 40/4 = 10. Nhóm chứa Q1 là nhóm [10; 20) có C = 5, mp = 15, h = 10. Tính Q1?",
+        "steps": "n/4 = 10. Nhóm 1 có 5 < 10. Nhóm 2 tích luỹ 5 + 15 = 20 ≥ 10 nên nhóm chứa Q1 là [10; 20). Ta có ap = 10, C = 5, mp = 15, h = 10. Q1 = 10 + [(10 - 5)/15] · 10 = 10 + (5/15) · 10 = 10 + 10/3 ≈ 13,33.",
+        "trap": "Lấy nhầm n/2 thay vì n/4 hoặc tính nhầm 5/15 = 0,5."
+      }
+    },
+    {
+      "id": "t11_c5_d2_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khoảng tứ phân vị",
+      "question": "Biết mẫu số liệu ghép nhóm có Q1 = 14 và Q3 = 26. Khoảng tứ phân vị ∆Q của mẫu số liệu đó bằng:",
+      "options": [
+        "20",
+        "12",
+        "40",
+        "6"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khoảng tứ phân vị là hiệu số giữa tứ phân vị thứ ba và thứ nhất: ∆Q = Q3 - Q1.",
+        "socraticPrompt": "Lấy Q3 = 26 trừ đi Q1 = 14 được kết quả là bao nhiêu?",
+        "steps": "∆Q = Q3 - Q1 = 26 - 14 = 12.",
+        "trap": "Lấy trung bình cộng (14 + 26)/2 = 20."
+      }
+    },
+    {
+      "id": "t11_c5_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm tần số còn thiếu khi biết số trung bình",
+      "question": "Cho bảng số liệu gồm 3 nhóm:\nNhóm [10; 20): tần số 4;\nNhóm [20; 30): tần số x;\nNhóm [30; 40): tần số 6.\nBiết số trung bình của mẫu ghép nhóm là x̄ = 26. Tìm giá trị của tần số x?",
+      "options": [
+        "8",
+        "10",
+        "5",
+        "6"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lập phương trình ẩn x dựa vào công thức số trung bình x̄ = ∑(mi·ci) / n.",
+        "socraticPrompt": "Giá trị đại diện các nhóm là 15, 25, 35. Tổng số liệu là 10 + x. Lập phương trình theo x̄ = 26?",
+        "steps": "Giá trị đại diện: c1 = 15, c2 = 25, c3 = 35. Cỡ mẫu n = 4 + x + 6 = 10 + x. Tổng tích: 4·15 + 25x + 6·35 = 60 + 25x + 210 = 270 + 25x. Ta có: (270 + 25x)/(10 + x) = 26 <=> 270 + 25x = 260 + 26x <=> 26x - 25x = 270 - 260 <=> x = 10... Ồ kiểm tra lại: 270 - 260 = 10. Suy ra x = 10... Khoan, nếu x = 5: (270 + 125)/15 = 395/15 = 26,33. Khi x = 10: (270 + 250)/20 = 520/20 = 26 đúng!",
+        "trap": "Nhầm x = 5 do tính nhẩm 270 - 260 = 5."
+      }
+    }
+  ]
+}

@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong không gian, hai đường thẳng không có điểm chung và không cùng nằm trong bất kì mặt phẳng nào được gọi là:",
-    "options": [
-      "A. Hai đường thẳng trùng nhau",
-      "B. Hai đường thẳng cắt nhau",
-      "C. Hai đường thẳng song song",
-      "D. Hai đường thẳng chéo nhau"
-    ],
-    "answer": 3,
-    "explanation": "📌 Khái niệm cốt lõi: Hai đường thẳng chéo nhau là hai đường thẳng không đồng phẳng và không có điểm chung.\n💡 Song song bắt buộc phải cùng nằm trong một mặt phẳng.\n⚠️ Phân biệt rõ song song và chéo nhau trong không gian 3 chiều."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 4: Đề 1 — Khái niệm & Nhận biết Quan hệ song song",
+  "description": "Đề kiểm tra nhận biết về vị trí tương đối của đường thẳng và mặt phẳng, các tiên đề hình học không gian.",
+  "questions": [
+    {
+      "id": "t11_c4_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Xác định mặt phẳng",
+      "question": "Có bao nhiêu mặt phẳng đi qua ba điểm phân biệt không thẳng hàng?",
+      "options": [
+        "Vô số",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tiên đề thừa nhận: Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng.",
+        "socraticPrompt": "Ba điểm tạo thành một tam giác thì có bao nhiêu mặt phẳng chứa trọn tam giác đó?",
+        "steps": "Theo tính chất thừa nhận của hình học không gian, qua 3 điểm phân biệt không thẳng hàng có duy nhất 1 mặt phẳng.",
+        "trap": "Nhầm với trường hợp 3 điểm thẳng hàng (có vô số mặt phẳng)."
+      }
+    },
+    {
+      "id": "t11_c4_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vị trí tương đối của hai đường thẳng",
+      "question": "Trong không gian, hai đường thẳng phân biệt không có điểm chung và không cùng thuộc một mặt phẳng gọi là hai đường thẳng:",
+      "options": [
+        "Song song",
+        "Trùng nhau",
+        "Chéo nhau",
+        "Cắt nhau"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa hai đường thẳng chéo nhau là hai đường thẳng không cùng nằm trên bất kì mặt phẳng nào.",
+        "socraticPrompt": "Hai đường không cùng nằm trên một mặt phẳng thì có song song được không?",
+        "steps": "Theo định nghĩa, hai đường thẳng không đồng phẳng và không cắt nhau là hai đường thẳng chéo nhau.",
+        "trap": "Nhầm rằng không có điểm chung thì luôn song song."
+      }
+    },
+    {
+      "id": "t11_c4_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Điều kiện đường thẳng song song mặt phẳng",
+      "question": "Đường thẳng d song song với mặt phẳng (α) khi và chỉ khi:",
+      "options": [
+        "d và (α) có đúng một điểm chung",
+        "d nằm hoàn toàn trong (α)",
+        "d cắt (α) tại một điểm",
+        "d và (α) không có điểm chung nào"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Định nghĩa đường thẳng song song với mặt phẳng: d // (α) <=> d ∩ (α) = ∅.",
+        "socraticPrompt": "Song song theo hình học có nghĩa là chúng có chạm vào nhau điểm nào không?",
+        "steps": "Đường thẳng và mặt phẳng gọi là song song nếu chúng không có điểm chung nào.",
+        "trap": "Nhầm với d nằm trong mặt phẳng."
+      }
+    },
+    {
+      "id": "t11_c4_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Số cạnh của một hình tứ diện",
+      "question": "Một hình tứ diện có tất cả bao nhiêu cạnh?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tứ diện ABCD có 4 đỉnh: A, B, C, D. Số cạnh nối từng cặp 2 đỉnh là C(4,2) = 6 cạnh.",
+        "socraticPrompt": "Hãy đếm các cạnh xuất phát từ đỉnh A (AB, AC, AD) và các cạnh đáy (BC, CD, DB).",
+        "steps": "Các cạnh của tứ diện ABCD gồm: AB, AC, AD, BC, BD, CD. Tổng cộng có 6 cạnh.",
+        "trap": "Nhầm số mặt (4 mặt) hoặc số đỉnh (4 đỉnh) với số cạnh."
+      }
+    },
+    {
+      "id": "t11_c4_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Điều kiện hai mặt phẳng song song",
+      "question": "Mặt phẳng (α) song song với mặt phẳng (β) khi (α) chứa hai đường thẳng a và b thoả mãn điều kiện nào?",
+      "options": [
+        "a // (β) và b // (β), với a và b song song nhau",
+        "a // (β) và b // (β), với a và b cắt nhau",
+        "a ⊂ (β) và b ⊂ (β)",
+        "a // b và cùng nằm ngoài (β)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dấu hiệu nhận biết hai mặt phẳng song song: hai đường thẳng phải cắt nhau và cùng song song với (β).",
+        "socraticPrompt": "Nếu hai đường thẳng a và b song song với nhau thì hai mặt phẳng có thể cắt nhau không?",
+        "steps": "Nếu (α) chứa hai đường thẳng CẮT NHAU cùng song song với (β) thì (α) // (β).",
+        "trap": "Quên điều kiện hai đường thẳng phải 'cắt nhau'."
+      }
+    },
+    {
+      "id": "t11_c4_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính chất hình hộp",
+      "question": "Tất cả các mặt bên và mặt đáy của một hình hộp đều là hình gì?",
+      "options": [
+        "Hình chữ nhật",
+        "Hình thoi",
+        "Hình bình hành",
+        "Hình thang"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa hình hộp: Hình lăng trụ có đáy là hình bình hành. Khi đó tất cả 6 mặt đều là hình bình hành.",
+        "socraticPrompt": "Đáy là hình bình hành, các mặt bên của lăng trụ là hình gì?",
+        "steps": "Theo định nghĩa SGK Toán 11, hình hộp có cả 6 mặt đều là các hình bình hành.",
+        "trap": "Nhầm hình hộp tổng quát với hình hộp chữ nhật."
+      }
+    }
+  ]
+}

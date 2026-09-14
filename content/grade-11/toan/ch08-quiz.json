@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch08",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 8: Đề 3 — Đánh giá Năng lực Tổng hợp Quan hệ vuông góc & Thể tích",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức vuông góc, thiết diện, góc nhị diện và thể tích đa diện thực tế.",
+  "questions": [
+    {
+      "id": "t11_c8_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng góc nghiêng mái nhà",
+      "question": "Một mái nhà bằng tôn có dạng hình chữ nhật nghiêng một góc 30° so với mặt phẳng sàn ngang. Biết diện tích mặt sàn bên dưới mái nhà là 60 m². Diện tích của mái tôn cần dùng (bỏ qua phần mép chồng) là:",
+      "options": [
+        "40√3 m²",
+        "50 m²",
+        "120 m²",
+        "30√3 m²"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức diện tích hình chiếu: S_chiếu = S · cos φ <=> S = S_chiếu / cos φ.",
+        "socraticPrompt": "Mặt sàn là hình chiếu của mái tôn. Lấy 60 chia cho cos 30° = √3 / 2 bằng bao nhiêu?",
+        "steps": "Mặt sàn là hình chiếu vuông góc của mái nhà trên mặt phẳng ngang. Ta có S_sàn = S_mái · cos 30° => S_mái = S_sàn / cos 30° = 60 / (√3 / 2) = 120 / √3 = 40√3 m² (xấp xỉ 69,28 m²).",
+        "trap": "Lấy 60 nhân cos 30° = 30√3 m² (nhầm mái nhà thành hình chiếu của sàn)."
+      }
+    },
+    {
+      "id": "t11_c8_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính khoảng cách từ điểm đến mặt phẳng qua thể tích",
+      "question": "Cho tứ diện OABC có ba cạnh OA, OB, OC đôi một vuông góc với nhau và OA = OB = OC = 3. Khoảng cách từ gốc O đến mặt phẳng (ABC) bằng:",
+      "options": [
+        "1",
+        "√3",
+        "3√3",
+        "3 / 2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hệ thức lượng trong tứ diện vuông: 1 / h² = 1/OA² + 1/OB² + 1/OC².",
+        "socraticPrompt": "1/h² = 1/9 + 1/9 + 1/9 = 3/9 = 1/3. h² = 3 thì h bằng bao nhiêu?",
+        "steps": "Áp dụng hệ thức tứ diện vuông tại O: 1 / d² = 1 / OA² + 1 / OB² + 1 / OC² = 1/3² + 1/3² + 1/3² = 3/9 = 1/3. Suy ra d² = 3 => d = √3.",
+        "trap": "Tính ra d = 3 hoặc 1."
+      }
+    },
+    {
+      "id": "t11_c8_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thể tích lăng trụ tam giác đều",
+      "question": "Một khối lăng trụ tam giác đều có tất cả các cạnh đều bằng a. Thể tích của khối lăng trụ đó là:",
+      "options": [
+        "a³√3 / 4",
+        "a³√3 / 12",
+        "a³ / 2",
+        "a³√2 / 4"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đáy là tam giác đều cạnh a có S = a²√3 / 4. Chiều cao lăng trụ h = a. Thể tích V = B · h.",
+        "socraticPrompt": "Diện tích tam giác đều cạnh a là a²√3/4. Nhân chiều cao a được gì?",
+        "steps": "Diện tích đáy tam giác đều: B = a²√3 / 4. Vì là lăng trụ đều nên cạnh bên là chiều cao: h = a. Thể tích: V = B · h = (a²√3 / 4) · a = a³√3 / 4.",
+        "trap": "Nhầm công thức khối chóp chia 12: a³√3 / 12."
+      }
+    },
+    {
+      "id": "t11_c8_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định góc giữa hai mặt phẳng bên và đáy",
+      "question": "Cho hình chóp S.ABC có đáy là tam giác đều cạnh a, SA ⊥ (ABC) và SA = a√3 / 2. Gọi M là trung điểm của BC. Góc giữa mặt phẳng (SBC) và (ABC) bằng:",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "45°"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Do tam giác đều nên AM ⊥ BC. Lại có SA ⊥ BC => BC ⊥ (SAM) => BC ⊥ SM. Góc cần tìm là SMA.",
+        "socraticPrompt": "Đường cao tam giác đều AM = a√3 / 2. SA cũng bằng a√3 / 2. Tam giác SAM vuông cân tại A thì góc SMA bằng mấy độ?",
+        "steps": "Ta có: AM = a√3 / 2 (đường cao tam giác đều). SA = a√3 / 2 (giả thiết). Tam giác SAM vuông tại A có hai cạnh góc vuông SA = AM nên vuông cân tại A. Do đó góc SMA = 45°.",
+        "trap": "Đoán góc 60° hoặc 30°."
+      }
+    },
+    {
+      "id": "t11_c8_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hình chiếu vuông góc của đường thẳng",
+      "question": "Nếu đường thẳng d vuông góc với mặt phẳng (P) thì hình chiếu vuông góc của d trên (P) là:",
+      "options": [
+        "Một đoạn thẳng",
+        "Một đường thẳng",
+        "Một điểm duy nhất",
+        "Tập hợp rỗng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đường thẳng vuông góc với mặt phẳng thì mọi điểm trên đường thẳng đều chiếu vào đúng một điểm giao.",
+        "socraticPrompt": "Cây cắm thẳng đứng trên cát, ánh sáng rọi thẳng từ trên xuống thì bóng của cây chỉ là một gì?",
+        "steps": "Vì d ⊥ (P) tại giao điểm H nên mọi điểm M thuộc d đều có hình chiếu trùng với H. Vậy hình chiếu của d trên (P) là một điểm duy nhất H.",
+        "trap": "Nhầm rằng hình chiếu của đường thẳng luôn luôn là một đường thẳng."
+      }
+    },
+    {
+      "id": "t11_c8_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Số đo góc giữa hai mặt phẳng vuông góc",
+      "question": "Hai mặt phẳng vuông góc với nhau thì góc giữa chúng bằng:",
+      "options": [
+        "0°",
+        "45°",
+        "180°",
+        "90°"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Định nghĩa hai mặt phẳng vuông góc: góc giữa hai mặt phẳng bằng 90°.",
+        "socraticPrompt": "Vuông góc có nghĩa là tạo góc bao nhiêu độ?",
+        "steps": "Theo định nghĩa SGK Toán 11, hai mặt phẳng gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°.",
+        "trap": "Nhầm góc bù 180°."
+      }
+    }
+  ]
+}

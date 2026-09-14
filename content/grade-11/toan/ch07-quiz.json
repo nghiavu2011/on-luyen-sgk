@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch07_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Một vật chuyển động thẳng xác định bởi phương trình $s(t) = t^3 - 6t^2 + 9t$, trong đó $t$ tính bằng giây (s), $s$ tính bằng mét (m). Gia tốc của chuyển động tại thời điểm vận tốc triệt tiêu ($v = 0$) lần thứ hai là:",
-    "options": [
-      "A. $6\\text{ m/s}^2$",
-      "B. $-6\\text{ m/s}^2$",
-      "C. $0\\text{ m/s}^2$",
-      "D. $12\\text{ m/s}^2$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Ứng dụng vật lí:\n1. Vận tốc $v(t) = s'(t) = 3t^2 - 12t + 9$.\n$v = 0 \\Leftrightarrow 3t^2 - 12t + 9 = 0 \\Leftrightarrow t_1 = 1\\text{ s}, t_2 = 3\\text{ s}$.\nThời điểm triệt tiêu lần thứ hai là $t = 3\\text{ s}$.\n2. Gia tốc $a(t) = v'(t) = s''(t) = 6t - 12$.\nTại $t = 3\\text{ s} \\Rightarrow a(3) = 6(3) - 12 = 6\\text{ m/s}^2$.\n⚠️ Bài toán vận dụng cao kết hợp đạo hàm cấp 1 và cấp 2."
-  }
-]
+{
+  "chapterId": "ch07",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 7: Đề 3 — Đánh giá Năng lực Tổng hợp Đạo hàm",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng đạo hàm vào bài toán tiếp tuyến song song, vận tốc, gia tốc chuyển động thực tế.",
+  "questions": [
+    {
+      "id": "t11_c7_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán vận tốc và gia tốc trong vật lí",
+      "question": "Một vật rơi tự do theo phương trình s(t) = 1/2 · g · t² với g = 9,8 m/s². Vận tốc tức thời của vật tại thời điểm t = 5 giây là:",
+      "options": [
+        "24,5 m/s",
+        "49 m/s",
+        "98 m/s",
+        "122,5 m/s"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Vận tốc tức thời là đạo hàm của quãng đường: v(t) = s'(t) = g · t.",
+        "socraticPrompt": "Đạo hàm của 1/2 · g · t² theo biến t bằng bao nhiêu? Lấy g nhân t với t = 5?",
+        "steps": "Ta có: v(t) = s'(t) = [1/2 · 9,8 · t²]' = 9,8 · t. Tại t = 5 giây: v(5) = 9,8 · 5 = 49 (m/s).",
+        "trap": "Tính nhầm quãng đường s(5) = 1/2 · 9,8 · 25 = 122,5 m."
+      }
+    },
+    {
+      "id": "t11_c7_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tiếp tuyến song song với đường thẳng cho trước",
+      "question": "Có bao nhiêu tiếp tuyến của đồ thị hàm số y = x³ - 3x + 1 song song với đường thẳng d: y = 9x - 5?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tiếp tuyến song song với đường thẳng y = 9x - 5 nên có cùng hệ số góc k = 9. Giải phương trình y'(x0) = 9.",
+        "socraticPrompt": "y' = 3x² - 3. Cho 3x² - 3 = 9 thì tìm được mấy giá trị x0 phân biệt?",
+        "steps": "y' = 3x² - 3. Hệ số góc k = 9 <=> 3x² - 3 = 9 <=> 3x² = 12 <=> x² = 4 <=> x = 2 hoặc x = -2. Với x0 = 2: y0 = 3 => PTTT: y = 9(x - 2) + 3 = 9x - 15 (thoả mãn song song với d). Với x0 = -2: y0 = -1 => PTTT: y = 9(x + 2) - 1 = 9x + 17 (thoả mãn song song với d). Cả hai tiếp tuyến đều phân biệt và song song với d. Vậy có 2 tiếp tuyến.",
+        "trap": "Quên kiểm tra trùng với đường thẳng d (ở đây không trùng)."
+      }
+    },
+    {
+      "id": "t11_c7_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm cấp hai của hàm lượng giác",
+      "question": "Cho hàm số y = sin(2x). Khẳng định nào sau đây là ĐÚNG với mọi số thực x?",
+      "options": [
+        "y'' + 4y = 0",
+        "y'' - 4y = 0",
+        "y'' + 2y = 0",
+        "y'' + y = 0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính y' và y'' rồi thiết lập hệ thức liên hệ vi phân.",
+        "socraticPrompt": "y' = 2 cos(2x). Đạo hàm tiếp ra y'' bằng -4 sin(2x) = -4y. Chuyển vế được gì?",
+        "steps": "Ta có: y' = 2 cos(2x) => y'' = -4 sin(2x). Vì y = sin(2x) nên y'' = -4y <=> y'' + 4y = 0.",
+        "trap": "Nhầm dấu trừ thành y'' - 4y = 0 hoặc quên nhân số 2 hai lần (ra 2 thay vì 4)."
+      }
+    },
+    {
+      "id": "t11_c7_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thời điểm vật dừng lại",
+      "question": "Một chất điểm chuyển động theo quy luật s(t) = -t³ + 6t² + 15t (m). Thời điểm mà tại đó chất điểm có vận tốc tức thời bằng 0 là:",
+      "options": [
+        "t = 2s",
+        "t = 3s",
+        "t = 5s",
+        "t = 1s"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Chất điểm dừng lại khi vận tốc v(t) = s'(t) = 0 (với t > 0).",
+        "socraticPrompt": "Tính v(t) = -3t² + 12t + 15. Cho v(t) = 0 và tìm nghiệm dương?",
+        "steps": "v(t) = s'(t) = -3t² + 12t + 15. Cho v(t) = 0 <=> -3(t² - 4t - 5) = 0 <=> (t + 1)(t - 5) = 0 <=> t = 5 (vì thời gian t > 0).",
+        "trap": "Lấy t = -1 hoặc nhầm công thức quãng đường s(t) = 0."
+      }
+    },
+    {
+      "id": "t11_c7_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hệ số góc nhỏ nhất của tiếp tuyến",
+      "question": "Cho hàm số y = x³ - 3x² + 5. Trong tất cả các tiếp tuyến của đồ thị hàm số, tiếp tuyến có hệ số góc nhỏ nhất bằng:",
+      "options": [
+        "0",
+        "-3",
+        "5",
+        "-1"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hệ số góc k = y' = 3x² - 6x. Tìm giá trị nhỏ nhất của tam thức bậc hai k(x).",
+        "socraticPrompt": "3x² - 6x = 3(x² - 2x + 1) - 3 = 3(x - 1)² - 3. Giá trị nhỏ nhất là bao nhiêu?",
+        "steps": "Ta có k = y' = 3x² - 6x = 3(x² - 2x + 1) - 3 = 3(x - 1)² - 3. Vì (x - 1)² ≥ 0 nên k ≥ -3. Đẳng thức xảy ra khi x = 1 (tại điểm uốn của đồ thị).",
+        "trap": "Đoán k = 0 do nhầm với các điểm cực trị."
+      }
+    },
+    {
+      "id": "t11_c7_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm tại điểm không liên tục hoặc góc nhọn",
+      "question": "Hàm số y = |x| có đạo hàm tại điểm x0 = 0 hay không?",
+      "options": [
+        "Có, và f'(0) = 0",
+        "Có, và f'(0) = 1",
+        "Không tồn tại đạo hàm tại x0 = 0",
+        "Có, và f'(0) = -1"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Điều kiện có đạo hàm: giới hạn tỉ số số gia bên trái và bên phải phải tồn tại hữu hạn và bằng nhau.",
+        "socraticPrompt": "Khi x > 0 thì |x|/x = +1, khi x < 0 thì |x|/x = -1. Giới hạn hai bên có bằng nhau không?",
+        "steps": "Xét lim_{x -> 0^+} (x - 0)/(x - 0) = 1; lim_{x -> 0^-} (-x - 0)/(x - 0) = -1. Hai giới hạn một bên khác nhau nên hàm số không có đạo hàm tại x = 0 (dù hàm số liên tục tại x = 0).",
+        "trap": "Thấy hàm số liên tục và đạt cực tiểu tại 0 nên đoán f'(0) = 0."
+      }
+    }
+  ]
+}

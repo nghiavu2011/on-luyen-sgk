@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch06_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Tập nghiệm của bất phương trình $\\left(\\frac{1}{2}\\right)^x < 4$ là:",
-    "options": [
-      "A. $x > -2$",
-      "B. $x < -2$",
-      "C. $x > 2$",
-      "D. $x < 2$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Phương pháp: Đổi $4 = \\left(\\frac{1}{2}\\right)^{-2}$.\nBất phương trình thành: $\\left(\\frac{1}{2}\\right)^x < \\left(\\frac{1}{2}\\right)^{-2}$.\nDo cơ số $0 < \\frac{1}{2} < 1$, ta phải ĐỔI CHIỀU bất đẳng thức: $x > -2$.\n💡 Cơ số nhỏ hơn 1 nghịch biến đổi chiều.\n⚠️ Bẫy sai kinh điển: Giữ nguyên chiều dấu '<' chọn $x < -2$."
-  }
-]
+{
+  "chapterId": "ch06",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 6: Đề 2 — Kỹ năng & Thực hành Giải phương trình & Bất phương trình",
+  "description": "Bài tập giải phương trình mũ, lôgarit, tìm tập nghiệm bất phương trình và đổi cơ số.",
+  "questions": [
+    {
+      "id": "t11_c6_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải phương trình mũ cơ bản",
+      "question": "Nghiệm của phương trình 3^(2x - 1) = 27 là:",
+      "options": [
+        "x = 2",
+        "x = 1",
+        "x = 3",
+        "x = 4"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đưa về cùng cơ số: 27 = 3³ => 2x - 1 = 3.",
+        "socraticPrompt": "27 là 3 mũ 3. Cho hai số mũ bằng nhau: 2x - 1 = 3 thì x bằng mấy?",
+        "steps": "Ta có: 3^(2x - 1) = 3³ <=> 2x - 1 = 3 <=> 2x = 4 <=> x = 2.",
+        "trap": "Nhầm 2x - 1 = 27 chia 3 = 9 dẫn đến x = 5."
+      }
+    },
+    {
+      "id": "t11_c6_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải phương trình lôgarit",
+      "question": "Nghiệm của phương trình log_2(x + 3) = 4 là:",
+      "options": [
+        "x = 5",
+        "x = 13",
+        "x = 16",
+        "x = 11"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương trình log_a f(x) = b <=> f(x) = a^b.",
+        "socraticPrompt": "2 mũ 4 bằng bao nhiêu? Lấy kết quả đó trừ đi 3?",
+        "steps": "Điều kiện x + 3 > 0. Ta có: x + 3 = 2⁴ = 16 <=> x = 16 - 3 = 13 (thoả mãn điều kiện).",
+        "trap": "Lấy 4 · 2 = 8 rồi trừ 3 ra x = 5."
+      }
+    },
+    {
+      "id": "t11_c6_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bất phương trình lôgarit cơ số bé hơn 1",
+      "question": "Tập nghiệm của bất phương trình log_(1/3) (x - 2) ≥ -1 là:",
+      "options": [
+        "(2; 5]",
+        "[5; +∞)",
+        "(2; 5)",
+        "(-∞; 5]"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cơ số a = 1/3 < 1 nên bất phương trình đảo chiều. Đừng quên điều kiện x - 2 > 0.",
+        "socraticPrompt": "Cơ số 1/3 nhỏ hơn 1 nên dấu ≥ đổi thành dấu gì? (1/3)^(-1) bằng mấy?",
+        "steps": "Điều kiện: x - 2 > 0 <=> x > 2. Vì cơ số 1/3 < 1 nên: x - 2 ≤ (1/3)^(-1) = 3 <=> x ≤ 5. Kết hợp điều kiện: 2 < x ≤ 5, tức S = (2; 5].",
+        "trap": "Quên điều kiện x > 2 dẫn đến chọn (-∞; 5] hoặc quên đổi chiều dẫn đến x ≥ 5."
+      }
+    },
+    {
+      "id": "t11_c6_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đổi cơ số lôgarit",
+      "question": "Cho log_2 5 = a. Khi đó log_4 125 tính theo a bằng:",
+      "options": [
+        "3a",
+        "3a / 2",
+        "2a / 3",
+        "a / 2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng công thức đưa số mũ ra ngoài: log_(2²) (5³) = (3/2) log_2 5.",
+        "socraticPrompt": "4 là 2 mũ 2, 125 là 5 mũ 3. Đưa 3 lên tử và 2 xuống mẫu?",
+        "steps": "Ta có: log_4 125 = log_(2²) (5³) = (3/2) · log_2 5 = (3/2) · a = 3a / 2.",
+        "trap": "Nhầm đảo ngược thành 2a / 3."
+      }
+    },
+    {
+      "id": "t11_c6_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phương trình mũ đặt ẩn phụ",
+      "question": "Tổng các nghiệm của phương trình 4^x - 5 · 2^x + 4 = 0 bằng:",
+      "options": [
+        "5",
+        "4",
+        "0",
+        "2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đặt ẩn phụ t = 2^x (t > 0). Phương trình trở thành t² - 5t + 4 = 0.",
+        "socraticPrompt": "Giải t = 1 hoặc t = 4. Tìm x từ 2^x rồi cộng hai nghiệm lại?",
+        "steps": "Đặt t = 2^x (t > 0). Ta có: t² - 5t + 4 = 0 <=> t = 1 hoặc t = 4. Với t = 1: 2^x = 1 <=> x = 0. Với t = 4: 2^x = 4 <=> x = 2. Tổng các nghiệm là 0 + 2 = 2.",
+        "trap": "Lấy tổng theo định lí Viète của ẩn t (t1 + t2 = 5) làm tổng nghiệm x."
+      }
+    },
+    {
+      "id": "t11_c6_d2_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Rút gọn biểu thức luỹ thừa",
+      "question": "Rút gọn biểu thức Q = a^(√3 + 1) · a^(2 - √3) với a > 0:",
+      "options": [
+        "a",
+        "a²",
+        "a³",
+        "a⁴"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy tắc nhân luỹ thừa cùng cơ số: a^α · a^β = a^(α + β).",
+        "socraticPrompt": "Cộng hai số mũ: (√3 + 1) + (2 - √3) bằng bao nhiêu?",
+        "steps": "Q = a^[(√3 + 1) + (2 - √3)] = a^(1 + 2) = a³.",
+        "trap": "Nhân hai số mũ với nhau thay vì cộng số mũ."
+      }
+    }
+  ]
+}

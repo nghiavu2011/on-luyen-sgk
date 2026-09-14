@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Định nghĩa đạo hàm của hàm số $y = f(x)$ tại điểm $x_0$?",
-    "back": "$f'(x_0) = \\lim_{x \\to x_0} \\frac{f(x) - f(x_0)}{x - x_0} = \\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x}$.",
-    "tags": [
-      "Đạo hàm",
-      "Định nghĩa"
-    ]
-  },
-  {
-    "front": "Ý nghĩa hình học của đạo hàm $f'(x_0)$?",
-    "back": "Là hệ số góc $k$ của tiếp tuyến với đồ thị $(C)$ tại tiếp điểm $M(x_0; f(x_0))$: $k = f'(x_0) = \\tan \\alpha$.",
-    "tags": [
-      "Ý nghĩa hình học",
-      "Tiếp tuyến"
-    ]
-  },
-  {
-    "front": "Phương trình tiếp tuyến của đồ thị hàm số tại điểm $M(x_0; y_0)$?",
-    "back": "$y - y_0 = f'(x_0)(x - x_0)$ hay $y = f'(x_0)(x - x_0) + y_0$.",
-    "tags": [
-      "Phương trình",
-      "Tiếp tuyến"
-    ]
-  },
-  {
-    "front": "Đạo hàm của hàm lũy thừa: $(x^n)'$ và $(u^n)'$?",
-    "back": "$(x^n)' = n x^{n-1}$; $(u^n)' = n u^{n-1} u'$.",
-    "tags": [
-      "Quy tắc",
-      "Lũy thừa"
-    ]
-  },
-  {
-    "front": "Đạo hàm của tích $(u \\cdot v)'$ và thương $\\left(\\frac{u}{v}\\right)'$?",
-    "back": "$(u v)' = u'v + uv'$; $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$.",
-    "tags": [
-      "Tích thương",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Đạo hàm của các hàm lượng giác $(\\sin x)', (\\cos x)', (\\tan x)'$?",
-    "back": "$(\\sin x)' = \\cos x$; $(\\cos x)' = -\\sin x$; $(\\tan x)' = \\frac{1}{\\cos^2 x} = 1 + \\tan^2 x$.",
-    "tags": [
-      "Lượng giác",
-      "Đạo hàm"
-    ]
-  },
-  {
-    "front": "Đạo hàm của hàm mũ $(e^x)'$ và $(a^x)'$?",
-    "back": "$(e^x)' = e^x$; $(a^x)' = a^x \\ln a$.",
-    "tags": [
-      "Hàm mũ",
-      "Đạo hàm"
-    ]
-  },
-  {
-    "front": "Đạo hàm của $(\\ln x)'$ và $(\\log_a x)'$?",
-    "back": "$(\\ln x)' = \\frac{1}{x}$; $(\\log_a x)' = \\frac{1}{x \\ln a}$.",
-    "tags": [
-      "Lôgarit",
-      "Đạo hàm"
-    ]
-  },
-  {
-    "front": "Ý nghĩa vật lí của đạo hàm cấp một và cấp hai trong chuyển động thẳng $s = s(t)$?",
-    "back": "Vận tốc tức thời $v(t) = s'(t)$; Gia tốc tức thời $a(t) = v'(t) = s''(t)$.",
-    "tags": [
-      "Vật lí",
-      "Vận tốc gia tốc"
-    ]
-  },
-  {
-    "front": "Đạo hàm của hàm hợp $y = f(u(x))$ tính theo công thức nào?",
-    "back": "$y'_x = y'_u \\times u'_x$.",
-    "tags": [
-      "Hàm hợp",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Tính đạo hàm của $y = x^3 - 3x^2 + 2$ tại điểm $x = 2$?",
-    "back": "$y' = 3x^2 - 6x \\Rightarrow y'(2) = 3(4) - 6(2) = 0$.",
-    "tags": [
-      "Tính toán",
-      "Đạo hàm"
-    ]
-  },
-  {
-    "front": "Một chất điểm chuyển động với phương trình $s(t) = t^3 - 3t$. Vận tốc tại thời điểm $t = 2\\text{ s}$ là bao nhiêu?",
-    "back": "$v(t) = s'(t) = 3t^2 - 3 \\Rightarrow v(2) = 3(4) - 3 = 9\\text{ m/s}$.",
-    "tags": [
-      "Vận tốc",
-      "Bài toán vật lí"
-    ]
-  }
-]
+{
+  "chapterId": "ch07",
+  "flashcards": [
+    {
+      "id": "fc_t11_c7_01",
+      "front": "Định nghĩa đạo hàm f'(x0) bằng giới hạn là gì?",
+      "back": "f'(x0) = lim_{x -> x0} [f(x) - f(x0)] / (x - x0) = lim_{∆x -> 0} (∆y / ∆x).",
+      "category": "Định nghĩa",
+      "example": "Đạo hàm là tốc độ biến thiên tức thời của hàm số tại điểm x0.",
+      "mnemonic": "Giới hạn của tỉ số số gia hàm số chia số gia đối số khi ∆x dần về 0."
+    },
+    {
+      "id": "fc_t11_c7_02",
+      "front": "Ý nghĩa hình học của đạo hàm là gì?",
+      "back": "f'(x0) là hệ số góc k của tiếp tuyến với đồ thị hàm số tại tiếp điểm (x0; f(x0)).",
+      "category": "Ý nghĩa hình học",
+      "example": "k = f'(x0) = tan α.",
+      "mnemonic": "Đạo hàm tại x0 chính là HỆ SỐ GÓC của tiếp tuyến."
+    },
+    {
+      "id": "fc_t11_c7_03",
+      "front": "Công thức phương trình tiếp tuyến tại tiếp điểm M0(x0; y0)?",
+      "back": "y = f'(x0)(x - x0) + y0 (với y0 = f(x0)).",
+      "category": "Phương trình tiếp tuyến",
+      "example": "x0 = 1, y0 = 2, f'(1) = 3 => y = 3(x - 1) + 2 = 3x - 1.",
+      "mnemonic": "y trừ y0 bằng hệ số góc nhân (x trừ x0)."
+    },
+    {
+      "id": "fc_t11_c7_04",
+      "front": "Ý nghĩa vật lí của đạo hàm cấp 1 và cấp 2 trong chuyển động?",
+      "back": "Vận tốc tức thời v(t) = s'(t). Gia tốc tức thời a(t) = v'(t) = s''(t).",
+      "category": "Ý nghĩa vật lí",
+      "example": "s(t) = 5t² => v(t) = 10t, a(t) = 10 m/s².",
+      "mnemonic": "Quãng đường đạo hàm ra Vận tốc, Vận tốc đạo hàm ra Gia tốc."
+    },
+    {
+      "id": "fc_t11_c7_05",
+      "front": "Bảng đạo hàm 4 hàm lượng giác cơ bản?",
+      "back": "(sin x)' = cos x; (cos x)' = -sin x; (tan x)' = 1 / cos²x; (cot x)' = -1 / sin²x.",
+      "category": "Lượng giác",
+      "example": "(sin 2x)' = 2 cos 2x.",
+      "mnemonic": "Sin ra cos; Cos ra trừ sin; Tan ra một trên cos bình."
+    },
+    {
+      "id": "fc_t11_c7_06",
+      "front": "Công thức đạo hàm tích (uv)' và thương (u/v)'?",
+      "back": "(uv)' = u'v + uv'; (u/v)' = (u'v - uv') / v².",
+      "category": "Quy tắc đại số",
+      "example": "(x·sin x)' = 1·sin x + x·cos x.",
+      "mnemonic": "Tích thì cộng chéo; Thương thì trừ chéo chia mẫu bình phương."
+    },
+    {
+      "id": "fc_t11_c7_07",
+      "front": "Công thức đạo hàm hàm hợp y = f(u(x))?",
+      "back": "y'_x = y'_u · u'_x.",
+      "category": "Hàm hợp",
+      "example": "[(2x+1)³]' = 3(2x+1)² · 2 = 6(2x+1)².",
+      "mnemonic": "Đạo hàm theo u rồi đừng quên nhân thêm u phẩy."
+    },
+    {
+      "id": "fc_t11_c7_08",
+      "front": "Đạo hàm của các hàm mũ và lôgarit cơ bản?",
+      "back": "(e^x)' = e^x; (a^x)' = a^x · ln a; (ln x)' = 1/x; (log_a x)' = 1 / (x ln a).",
+      "category": "Mũ và Lôgarit",
+      "example": "(2^x)' = 2^x · ln 2.",
+      "mnemonic": "e mũ x giữ nguyên; a mũ x nhân thêm ln a; ln x bằng 1 trên x."
+    },
+    {
+      "id": "fc_t11_c7_09",
+      "front": "Mối liên hệ giữa tính liên tục và tính có đạo hàm?",
+      "back": "Có đạo hàm => Chắc chắn liên tục. Liên tục chưa chắc có đạo hàm (ví dụ y = |x| tại 0).",
+      "category": "Định lí",
+      "example": "Hàm y = |x| liên tục tại x = 0 nhưng không có đạo hàm tại x = 0.",
+      "mnemonic": "Có đạo hàm thì trơn mượt nên chắc chắn liên tục; Nhọn gãy thì liên tục nhưng không đạo hàm."
+    },
+    {
+      "id": "fc_t11_c7_10",
+      "front": "Hai tiếp tuyến song song hoặc vuông góc có mối liên hệ hệ số góc gì?",
+      "back": "Song song: k1 = k2 (và khác tung độ gốc). Vuông góc: k1 · k2 = -1.",
+      "category": "Hình học",
+      "example": "Tiếp tuyến vuông góc với d: y = -x + 2 có k = 1.",
+      "mnemonic": "Song song thì k bằng nhau; Vuông góc thì tích k bằng trừ một."
+    }
+  ]
+}

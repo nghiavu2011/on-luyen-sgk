@@ -1,98 +1,86 @@
-[
-  {
-    "front": "Đổi $a^\\circ$ sang radian và $\\alpha\\text{ rad}$ sang độ?",
-    "back": "$\\alpha = a \\times \\frac{\\pi}{180}$; $a = \\alpha \\times \\frac{180}{\\pi}$.",
-    "tags": [
-      "Lượng giác 11",
-      "Đơn vị"
-    ]
-  },
-  {
-    "front": "Công thức cơ bản liên hệ giữa $\\sin$ và $\\cos$?",
-    "back": "$\\sin^2 x + \\cos^2 x = 1, \\forall x \\in \\mathbb{R}$.",
-    "tags": [
-      "Hằng đẳng thức",
-      "Lượng giác"
-    ]
-  },
-  {
-    "front": "Công thức cộng: $\\cos(a \\pm b)$ và $\\sin(a \\pm b)$?",
-    "back": "$\\cos(a \\pm b) = \\cos a \\cos b \\mp \\sin a \\sin b$; $\\sin(a \\pm b) = \\sin a \\cos b \\pm \\cos a \\sin b$.",
-    "tags": [
-      "Công thức cộng",
-      "Đại số"
-    ]
-  },
-  {
-    "front": "Công thức nhân đôi: $\\sin 2x$ và $\\cos 2x$?",
-    "back": "$\\sin 2x = 2\\sin x \\cos x$; $\\cos 2x = \\cos^2 x - \\sin^2 x = 2\\cos^2 x - 1 = 1 - 2\\sin^2 x$.",
-    "tags": [
-      "Nhân đôi",
-      "Lượng giác"
-    ]
-  },
-  {
-    "front": "Tập xác định và chu kì tuần hoàn của hàm số $y = \\sin x$ và $y = \\cos x$?",
-    "back": "TXĐ $D = \\mathbb{R}$, chu kì tuần hoàn $T = 2\\pi$.",
-    "tags": [
-      "Hàm số",
-      "Chu kì"
-    ]
-  },
-  {
-    "front": "Tập xác định và chu kì tuần hoàn của hàm số $y = \\tan x$?",
-    "back": "TXĐ $D = \\mathbb{R} \\setminus \\{\\frac{\\pi}{2} + k\\pi\\}$, chu kì tuần hoàn $T = \\pi$.",
-    "tags": [
-      "Tan",
-      "Tập xác định"
-    ]
-  },
-  {
-    "front": "Tập giá trị của hàm số $y = \\sin x$ và $y = \\cos x$?",
-    "back": "$[-1; 1]$, tức $-1 \\le \\sin x \\le 1$ và $-1 \\le \\cos x \\le 1$.",
-    "tags": [
-      "Tập giá trị",
-      "Bất đẳng thức"
-    ]
-  },
-  {
-    "front": "Nghiệm của phương trình $\\sin x = \\sin \\alpha$?",
-    "back": "$x = \\alpha + k2\\pi$ hoặc $x = \\pi - \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$).",
-    "tags": [
-      "Phương trình",
-      "Sin"
-    ]
-  },
-  {
-    "front": "Nghiệm của phương trình $\\cos x = \\cos \\alpha$?",
-    "back": "$x = \\pm \\alpha + k2\\pi$ ($k \\in \\mathbb{Z}$).",
-    "tags": [
-      "Phương trình",
-      "Cos"
-    ]
-  },
-  {
-    "front": "Nghiệm của phương trình $\\tan x = \\tan \\alpha$?",
-    "back": "$x = \\alpha + k\\pi$ ($k \\in \\mathbb{Z}$).",
-    "tags": [
-      "Phương trình",
-      "Tan"
-    ]
-  },
-  {
-    "front": "Hàm số nào là hàm số chẵn trong 4 hàm số lượng giác cơ bản?",
-    "back": "$y = \\cos x$ là hàm số chẵn (đối xứng qua trục tung $Oy$); ba hàm còn lại là hàm số lẻ (đối xứng qua gốc $O$).",
-    "tags": [
-      "Chẵn lẻ",
-      "Đồ thị"
-    ]
-  },
-  {
-    "front": "Công thức hạ bậc bậc hai cho $\\sin^2 x$ và $\\cos^2 x$?",
-    "back": "$\\sin^2 x = \\frac{1 - \\cos 2x}{2}$; $\\cos^2 x = \\frac{1 + \\cos 2x}{2}$.",
-    "tags": [
-      "Hạ bậc",
-      "Công thức"
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Hàm số lượng giác & Phương trình lượng giác",
+  "flashcards": [
+    {
+      "id": "fc_t11_c1_01",
+      "front": "Công thức đổi từ độ sang radian và ngược lại là gì?",
+      "back": "α (rad) = a° · π / 180°; a° = α · 180° / π.",
+      "category": "Công thức",
+      "example": "180° = π rad; 90° = π/2 rad; 60° = π/3 rad; 45° = π/4 rad.",
+      "mnemonic": "Độ sang Rad nhân Pi chia 180."
+    },
+    {
+      "id": "fc_t11_c1_02",
+      "front": "Hệ thức lượng giác cơ bản giữa sin và cos là gì?",
+      "back": "sin²α + cos²α = 1 với mọi góc α.",
+      "category": "Định lý",
+      "example": "Nếu sin α = 3/5 thì cos²α = 1 - 9/25 = 16/25.",
+      "mnemonic": "Sin bình cộng cos bình luôn bằng 1."
+    },
+    {
+      "id": "fc_t11_c1_03",
+      "front": "Công thức cộng lượng giác cho cos(a + b) và cos(a - b) là gì?",
+      "back": "cos(a + b) = cos a cos b - sin a sin b; cos(a - b) = cos a cos b + sin a sin b.",
+      "category": "Công thức",
+      "example": "cos 75° = cos(45° + 30°) = cos 45° cos 30° - sin 45° sin 30°.",
+      "mnemonic": "Cos thì cos cos sin sin, dấu cộng thành trừ, dấu trừ thành cộng."
+    },
+    {
+      "id": "fc_t11_c1_04",
+      "front": "Công thức nhân đôi của sin 2a và cos 2a là gì?",
+      "back": "sin 2a = 2 sin a cos a; cos 2a = cos²a - sin²a = 2cos²a - 1 = 1 - 2sin²a.",
+      "category": "Công thức",
+      "example": "sin 2a = 2 sin a cos a; cos²a = (1 + cos 2a)/2.",
+      "mnemonic": "Sin đúp bằng 2 sin cos; Cos đúp bằng cos bình trừ sin bình."
+    },
+    {
+      "id": "fc_t11_c1_05",
+      "front": "Tập xác định và chu kì của hàm số y = sin x và y = cos x là gì?",
+      "back": "TXĐ D = R. Chu kì tuần hoàn T = 2π. Tập giá trị [-1; 1].",
+      "category": "Hàm số",
+      "example": "sin(x + 2π) = sin x; cos(x + 2π) = cos x.",
+      "mnemonic": "Sin và Cos: miền R, giá trị từ -1 đến 1, chu kì 2 Pi."
+    },
+    {
+      "id": "fc_t11_c1_06",
+      "front": "Tập xác định và chu kì của hàm số y = tan x là gì?",
+      "back": "TXĐ: D = R \\ {π/2 + kπ, k ∈ Z}. Chu kì tuần hoàn T = π.",
+      "category": "Hàm số",
+      "example": "tan(x + π) = tan x.",
+      "mnemonic": "Tan x: bỏ Pi/2 cộng kPi, chu kì 1 Pi."
+    },
+    {
+      "id": "fc_t11_c1_07",
+      "front": "Tính chẵn lẻ của 4 hàm số lượng giác cơ bản là gì?",
+      "back": "y = cos x là hàm số chẵn. Ba hàm còn lại (y = sin x, y = tan x, y = cot x) đều là hàm số lẻ.",
+      "category": "Tính chất",
+      "example": "cos(-x) = cos x (chẵn); sin(-x) = -sin x (lẻ).",
+      "mnemonic": "Chỉ có Cos là chẵn, còn lại đều lẻ."
+    },
+    {
+      "id": "fc_t11_c1_08",
+      "front": "Công thức nghiệm của phương trình sin x = sin α là gì?",
+      "back": "x = α + k2π hoặc x = π - α + k2π (k ∈ Z).",
+      "category": "Phương trình",
+      "example": "sin x = sin(π/6) => x = π/6 + k2π hoặc x = 5π/6 + k2π.",
+      "mnemonic": "Sin bằng sin: góc đó hoặc Pi trừ góc đó, cộng k2Pi."
+    },
+    {
+      "id": "fc_t11_c1_09",
+      "front": "Công thức nghiệm của phương trình cos x = cos α là gì?",
+      "back": "x = ±α + k2π (k ∈ Z).",
+      "category": "Phương trình",
+      "example": "cos x = cos(π/3) => x = ±π/3 + k2π.",
+      "mnemonic": "Cos bằng cos: cộng trừ góc đó cộng k2Pi."
+    },
+    {
+      "id": "fc_t11_c1_10",
+      "front": "Công thức nghiệm của phương trình tan x = tan α là gì?",
+      "back": "x = α + kπ (k ∈ Z).",
+      "category": "Phương trình",
+      "example": "tan x = tan(π/4) => x = π/4 + kπ.",
+      "mnemonic": "Tan bằng tan: góc đó cộng kPi."
+    }
+  ]
+}

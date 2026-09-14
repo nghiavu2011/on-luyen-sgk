@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch07_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Hệ số góc của tiếp tuyến với đồ thị hàm số $y = x^3 - 2x + 1$ tại điểm có hoành độ $x_0 = 1$ bằng:",
-    "options": [
-      "A. $1$",
-      "B. $3$",
-      "C. $-2$",
-      "D. $0$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Ý nghĩa hình học: Hệ số góc tiếp tuyến $k = y'(x_0)$.\nTa có: $y' = 3x^2 - 2$.\nThay $x_0 = 1 \\Rightarrow k = y'(1) = 3(1)^2 - 2 = 1$.\n💡 Tiếp tuyến có hệ số góc dương đi lên sang phải.\n⚠️ Nhớ công thức $k = f'(x_0)$."
-  }
-]
+{
+  "chapterId": "ch07",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 7: Đề 2 — Kỹ năng & Thực hành Tính đạo hàm và Tiếp tuyến",
+  "description": "Bài tập tính đạo hàm tích, thương, hàm hợp và viết phương trình tiếp tuyến.",
+  "questions": [
+    {
+      "id": "t11_c7_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm hàm phân thức bậc nhất",
+      "question": "Đạo hàm của hàm số y = (x + 2) / (x - 1) là:",
+      "options": [
+        "y' = -3 / (x - 1)²",
+        "y' = 1 / (x - 1)²",
+        "y' = 3 / (x - 1)²",
+        "y' = -1 / (x - 1)²"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức nhanh cho hàm (ax + b)/(cx + d): y' = (ad - bc) / (cx + d)².",
+        "socraticPrompt": "Tính ad - bc = 1·(-1) - 2·1 = -1 - 2 bằng bao nhiêu?",
+        "steps": "Áp dụng công thức thương: y' = [1·(x - 1) - (x + 2)·1] / (x - 1)² = (x - 1 - x - 2) / (x - 1)² = -3 / (x - 1)².",
+        "trap": "Tính sai dấu ở tử số ra 1 hoặc 3."
+      }
+    },
+    {
+      "id": "t11_c7_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Viết phương trình tiếp tuyến",
+      "question": "Phương trình tiếp tuyến của đồ thị hàm số y = x³ - 2x tại điểm M(1; -1) là:",
+      "options": [
+        "y = x",
+        "y = 3x - 4",
+        "y = -x",
+        "y = x - 2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phương trình tiếp tuyến: y = f'(x0)(x - x0) + y0.",
+        "socraticPrompt": "Tính đạo hàm y' = 3x² - 2. Tại x = 1 thì y'(1) bằng mấy?",
+        "steps": "Ta có: y' = 3x² - 2 => k = y'(1) = 3(1)² - 2 = 1. Phương trình tiếp tuyến tại M(1; -1) là: y - (-1) = 1(x - 1) <=> y + 1 = x - 1 <=> y = x - 2.",
+        "trap": "Nhầm dấu ở y - y0: viết y - 1 dẫn đến y = x."
+      }
+    },
+    {
+      "id": "t11_c7_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm hàm hợp lượng giác",
+      "question": "Đạo hàm của hàm số y = cos(3x - 1) là:",
+      "options": [
+        "y' = -sin(3x - 1)",
+        "y' = 3 sin(3x - 1)",
+        "y' = -3 sin(3x - 1)",
+        "y' = 3 cos(3x - 1)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Công thức đạo hàm hàm hợp: [cos u]' = -u' · sin u.",
+        "socraticPrompt": "u = 3x - 1 thì u' bằng 3. Đạo hàm của cos có dấu trừ không?",
+        "steps": "y' = - (3x - 1)' · sin(3x - 1) = -3 sin(3x - 1).",
+        "trap": "Quên nhân u' = 3 hoặc quên dấu trừ của cos thành +3 sin(3x - 1)."
+      }
+    },
+    {
+      "id": "t11_c7_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm của một tích",
+      "question": "Đạo hàm của hàm số y = x · e^x là:",
+      "options": [
+        "y' = e^x",
+        "y' = (x + 1) e^x",
+        "y' = x e^x",
+        "y' = 2x e^x"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức đạo hàm tích: (uv)' = u'v + uv'.",
+        "socraticPrompt": "(x)' · e^x + x · (e^x)'. Đặt thừa số chung e^x ra ngoài?",
+        "steps": "Ta có: y' = (x)' · e^x + x · (e^x)' = 1 · e^x + x · e^x = (x + 1) e^x.",
+        "trap": "Lấy đạo hàm từng cái nhân nhau: (x)' · (e^x)' = 1 · e^x = e^x."
+      }
+    },
+    {
+      "id": "t11_c7_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm cấp hai",
+      "question": "Cho hàm số y = x⁴ - 2x² + 3. Giá trị của y''(1) bằng:",
+      "options": [
+        "8",
+        "12",
+        "0",
+        "4"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đạo hàm cấp hai y'' = (y')'.",
+        "socraticPrompt": "Tính y' = 4x³ - 4x. Đạo hàm thêm lần nữa được y'' bằng bao nhiêu rồi thay x = 1?",
+        "steps": "Đạo hàm cấp 1: y' = 4x³ - 4x. Đạo hàm cấp 2: y'' = 12x² - 4. Thay x = 1: y''(1) = 12(1)² - 4 = 8.",
+        "trap": "Thay x = 1 vào ngay y' thấy 4(1) - 4(1) = 0 và chọn 0."
+      }
+    },
+    {
+      "id": "t11_c7_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giải phương trình y' = 0",
+      "question": "Tập nghiệm của phương trình y' = 0 với y = x³ - 3x² + 2 là:",
+      "options": [
+        "{0; 3}",
+        "{1; 2}",
+        "{0; -2}",
+        "{0; 2}"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính đạo hàm y' rồi giải phương trình bậc hai y' = 0.",
+        "socraticPrompt": "y' = 3x² - 6x. Đặt 3x làm nhân tử chung thì nghiệm là gì?",
+        "steps": "y' = 3x² - 6x. Cho y' = 0 <=> 3x(x - 2) = 0 <=> x = 0 hoặc x = 2. Vậy tập nghiệm là {0; 2}.",
+        "trap": "Giải nhầm 3x² - 6x = 0 ra x = 0 hoặc x = 3."
+      }
+    }
+  ]
+}

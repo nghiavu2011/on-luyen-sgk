@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch02_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Tổng của $10$ số hạng đầu tiên của cấp số cộng có $u_1 = 1$ và công sai $d = 2$ (dãy 10 số lẻ đầu tiên) bằng:",
-    "options": [
-      "A. $100$",
-      "B. $90$",
-      "C. $110$",
-      "D. $19$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Công thức: $S_n = \\frac{n[2u_1 + (n-1)d]}{2}$.\n💡 $S_{10} = \\frac{10[2 \\times 1 + 9 \\times 2]}{2} = 5 \\times (2 + 18) = 100$.\n⚠️ Tổng của $n$ số lẻ đầu tiên luôn bằng $n^2$ ($10^2 = 100$)."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 2: Đề 2 — Kỹ năng & Thực hành Dãy số, CSC, CSN",
+  "description": "Bài tập tính tổng Sn, tìm số hạng đầu và công sai/công bội qua hệ phương trình.",
+  "questions": [
+    {
+      "id": "t11_c2_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tổng n số hạng đầu của CSC",
+      "question": "Cho cấp số cộng (un) có u1 = 1 và công sai d = 2. Tổng của 20 số hạng đầu tiên S20 bằng:",
+      "options": [
+        "400",
+        "380",
+        "420",
+        "200"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức tính tổng n số hạng đầu: Sn = n[2u1 + (n - 1)d] / 2.",
+        "socraticPrompt": "Thay n = 20, u1 = 1, d = 2 vào công thức Sn thì trong ngoặc bằng bao nhiêu?",
+        "steps": "S20 = 20 · [2·1 + (20 - 1)·2] / 2 = 10 · [2 + 38] = 10 · 40 = 400. (Đây chính là tổng 20 số lẻ đầu tiên n² = 20² = 400).",
+        "trap": "Tính nhầm 20 · (1 + 39) / 2 = 400 nhưng quên nhân 2 hoặc chia nhầm ra 200."
+      }
+    },
+    {
+      "id": "t11_c2_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm công sai d từ hệ phương trình",
+      "question": "Một cấp số cộng có u3 = 8 và u7 = 20. Công sai d của cấp số cộng đó bằng:",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hiệu số giữa hai số hạng bất kì: un - um = (n - m)d.",
+        "socraticPrompt": "Từ u3 đến u7 bước qua bao nhiêu lần công sai d?",
+        "steps": "Ta có: u7 - u3 = (7 - 3)d = 4d. Suy ra 20 - 8 = 12 => 4d = 12 => d = 3.",
+        "trap": "Lấy (20 - 8) chia cho (7 - 3 - 1 = 3) ra d = 4."
+      }
+    },
+    {
+      "id": "t11_c2_d2_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính tổng n số hạng đầu của CSN",
+      "question": "Cho cấp số nhân (un) có u1 = 3 và công bội q = 2. Tổng của 5 số hạng đầu tiên S5 bằng:",
+      "options": [
+        "45",
+        "93",
+        "96",
+        "63"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức tính tổng CSN: Sn = u1(q^n - 1) / (q - 1).",
+        "socraticPrompt": "2 mũ 5 bằng bao nhiêu? Trừ 1 rồi nhân u1 chia cho (2 - 1)?",
+        "steps": "S5 = 3 · (2^5 - 1) / (2 - 1) = 3 · (32 - 1) = 3 · 31 = 93.",
+        "trap": "Nhầm 2^5 = 30 hoặc quên trừ 1 thành 3 · 32 = 96."
+      }
+    },
+    {
+      "id": "t11_c2_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ba số hạng lập thành CSC",
+      "question": "Tìm giá trị của x để ba số x - 1, 2x, 5x + 3 theo thứ tự lập thành một cấp số cộng?",
+      "options": [
+        "x = 2",
+        "x = -2",
+        "x = 1",
+        "x = -1"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ba số a, b, c lập thành CSC khi và chỉ khi 2b = a + c.",
+        "socraticPrompt": "Hai lần số hạng ở giữa bằng tổng hai số hạng hai bên, hãy lập phương trình ẩn x.",
+        "steps": "Ta có: 2(2x) = (x - 1) + (5x + 3) <=> 4x = 6x + 2 <=> -2x = 2 <=> x = -1.",
+        "trap": "Nhầm dấu chuyển vế 4x - 6x = 2x dẫn đến x = 1."
+      }
+    },
+    {
+      "id": "t11_c2_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ba số hạng lập thành CSN",
+      "question": "Cho ba số dương 2, x, 18 theo thứ tự lập thành một cấp số nhân. Giá trị của x là:",
+      "options": [
+        "6",
+        "10",
+        "36",
+        "-6"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ba số dương lập thành CSN thoả mãn: b² = ac và b > 0.",
+        "socraticPrompt": "Bình phương số ở giữa bằng tích hai số ngoài. Căn bậc hai của 36 là bao nhiêu?",
+        "steps": "Ta có x² = 2 · 18 = 36. Vì ba số dương nên x = √36 = 6.",
+        "trap": "Nhầm công thức trung bình cộng của CSC lấy (2 + 18)/2 = 10 hoặc lấy cả nghiệm âm x = -6."
+      }
+    },
+    {
+      "id": "t11_c2_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định số hạng của dãy số",
+      "question": "Dãy số (un) cho bởi un = n² - 4n + 3. Số 0 là số hạng thứ mấy của dãy số?",
+      "options": [
+        "Chỉ là số hạng thứ 1",
+        "Là số hạng thứ 1 và thứ 3",
+        "Chỉ là số hạng thứ 3",
+        "Không phải là số hạng của dãy"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Giải phương trình un = 0 với điều kiện nghiệm n ∈ N*.",
+        "socraticPrompt": "Giải phương trình bậc hai n² - 4n + 3 = 0, có bao nhiêu nghiệm nguyên dương?",
+        "steps": "Cho un = 0 <=> n² - 4n + 3 = 0 <=> (n - 1)(n - 3) = 0 <=> n = 1 hoặc n = 3. Cả hai số 1 và 3 đều thuộc N*.",
+        "trap": "Chỉ lấy nghiệm đầu tiên n = 1 mà bỏ sót n = 3."
+      }
+    }
+  ]
+}

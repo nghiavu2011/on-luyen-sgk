@@ -1,62 +1,212 @@
-[
-  {
-    "id": "l24",
-    "title": "Bài 24: Hai đường thẳng vuông góc",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 24: Hai đường thẳng vuông góc.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 24: Hai đường thẳng vuông góc.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 24: Hai đường thẳng vuông góc để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l25",
-    "title": "Bài 25: Đường thẳng vuông góc với mặt phẳng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 25: Đường thẳng vuông góc với mặt phẳng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 25: Đường thẳng vuông góc với mặt phẳng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 25: Đường thẳng vuông góc với mặt phẳng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l26",
-    "title": "Bài 26: Hai mặt phẳng vuông góc và góc giữa hai mặt phẳng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 26: Hai mặt phẳng vuông góc và góc giữa hai mặt phẳng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 26: Hai mặt phẳng vuông góc và góc giữa hai mặt phẳng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 26: Hai mặt phẳng vuông góc và góc giữa hai mặt phẳng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l27",
-    "title": "Bài 27: Khoảng cách và thể tích khối đa diện",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 27: Khoảng cách và thể tích khối đa diện.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 27: Khoảng cách và thể tích khối đa diện.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 27: Khoảng cách và thể tích khối đa diện để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch08",
+  "title": "Chương 8: Quan hệ vuông góc trong không gian",
+  "lessons": [
+    {
+      "id": "l24",
+      "title": "Bài 24: Hai đường thẳng vuông góc",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa góc giữa hai đường thẳng trong không gian (từ 0° đến 90°).",
+        "Hiểu định nghĩa hai đường thẳng vuông góc (có thể cắt nhau hoặc chéo nhau).",
+        "Sử dụng tích vô hướng của hai vectơ chỉ phương để chứng minh hai đường thẳng vuông góc."
+      ],
+      "concepts": [
+        {
+          "term": "Góc giữa hai đường thẳng",
+          "definition": "Góc giữa hai đường thẳng a và b trong không gian là góc giữa hai đường thẳng a' và b' cùng đi qua một điểm O và lần lượt song song với a và b. Kí hiệu (a, b), số đo từ 0° đến 90°.",
+          "notation": "0° ≤ (a, b) ≤ 90°",
+          "note": "Nếu a // b thì góc giữa chúng bằng 0°."
+        },
+        {
+          "term": "Hai đường thẳng vuông góc",
+          "definition": "Hai đường thẳng a và b gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°, kí hiệu a ⊥ b.",
+          "notation": "a ⊥ b <=> (a, b) = 90° <=> u1 · u2 = 0",
+          "note": "Khác với hình học phẳng, trong không gian hai đường thẳng vuông góc CÓ THỂ CHÉO NHAU."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đặc điểm vuông góc trong không gian",
+          "meaning": "Hai đường thẳng vuông góc với nhau không nhất thiết phải cắt nhau, chúng có thể chéo nhau."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hình lập phương ABCD.A'B'C'D'. Tính góc giữa hai đường thẳng AB và B'C'?",
+          "steps": [
+            "Bước 1: Tìm đường thẳng song song với B'C': Vì BCC'B' là hình vuông nên B'C' // BC.",
+            "Bước 2: Góc giữa AB và B'C' bằng góc giữa AB và BC.",
+            "Bước 3: Vì ABCD là hình vuông nên AB ⊥ BC, tức là góc giữa AB và BC bằng 90°. Vậy góc giữa AB và B'C' bằng 90° (chúng vuông góc và chéo nhau)."
+          ],
+          "answer": "Góc giữa AB và B'C' bằng 90°."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng hai đường thẳng vuông góc thì bắt buộc phải cắt nhau.",
+          "why": "Trong không gian, hai đường vuông góc thường chéo nhau."
+        }
+      ]
+    },
+    {
+      "id": "l25",
+      "title": "Bài 25: Đường thẳng vuông góc với mặt phẳng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa và điều kiện để đường thẳng vuông góc với mặt phẳng.",
+        "Biết áp dụng định lí ba đường vuông góc.",
+        "Hiểu định nghĩa góc giữa đường thẳng và mặt phẳng."
+      ],
+      "concepts": [
+        {
+          "term": "Đường thẳng vuông góc mặt phẳng",
+          "definition": "Đường thẳng d vuông góc với mặt phẳng (α) nếu d vuông góc với mọi đường thẳng nằm trong (α). Kí hiệu: d ⊥ (α).",
+          "notation": "d ⊥ (α) <=> d ⊥ a, ∀a ⊂ (α)",
+          "note": "Điều kiện nhận biết: Nếu d vuông góc với HAI ĐƯỜNG THẲNG CẮT NHAU cùng nằm trong (α) thì d ⊥ (α)."
+        },
+        {
+          "term": "Góc giữa đường thẳng và mặt phẳng",
+          "definition": "Góc giữa đường thẳng d và mặt phẳng (α) là góc giữa d và hình chiếu vuông góc d' của d trên (α). Kí hiệu: (d, (α)).",
+          "notation": "0° ≤ (d, (α)) ≤ 90°",
+          "note": "Nếu d ⊥ (α) thì góc bằng 90°. Nếu d // (α) hoặc d ⊂ (α) thì góc bằng 0°."
+        },
+        {
+          "term": "Định lí ba đường vuông góc",
+          "definition": "Cho đường thẳng a không vuông góc với mặt phẳng (P) và a' là hình chiếu của a trên (P). Khi đó một đường thẳng b nằm trong (P) vuông góc với a khi và chỉ khi b vuông góc với a'.",
+          "notation": "b ⊂ (P): b ⊥ a <=> b ⊥ a'",
+          "note": "Công cụ cực mạnh để chứng minh quan hệ vuông góc mà không cần tính góc."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Dấu hiệu nhận biết d ⊥ (α)",
+          "meaning": "d ⊥ a, d ⊥ b với a, b ⊂ (α) và a cắt b tại một điểm thì kết luận d ⊥ (α)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hình chóp S.ABC có SA ⊥ (ABC) và đáy ABC là tam giác vuông tại B. Chứng minh BC ⊥ (SAB)?",
+          "steps": [
+            "Bước 1: Theo giả thiết tam giác ABC vuông tại B nên BC ⊥ AB.",
+            "Bước 2: Vì SA ⊥ (ABC) mà BC ⊂ (ABC) nên SA ⊥ BC, tức là BC ⊥ SA.",
+            "Bước 3: Đường thẳng BC vuông góc với hai đường thẳng cắt nhau AB và SA trong mặt phẳng (SAB). Suy ra BC ⊥ (SAB)."
+          ],
+          "answer": "BC vuông góc với mặt phẳng (SAB)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ chứng minh d vuông góc với 1 đường thẳng trong mặt phẳng rồi kết luận d vuông góc với mặt phẳng.",
+          "why": "Phải vuông góc với HAI ĐƯỜNG THẲNG CẮT NHAU mới đủ điều kiện."
+        }
+      ]
+    },
+    {
+      "id": "l26",
+      "title": "Bài 26: Hai mặt phẳng vuông góc và góc giữa hai mặt phẳng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa góc giữa hai mặt phẳng (từ 0° đến 90°).",
+        "Hiểu định nghĩa và điều kiện để hai mặt phẳng vuông góc.",
+        "Nhận biết các hình khối có tính chất vuông góc: hình chóp đều, lăng trụ đứng, hình hộp chữ nhật."
+      ],
+      "concepts": [
+        {
+          "term": "Góc giữa hai mặt phẳng",
+          "definition": "Góc giữa hai mặt phẳng cắt nhau là góc giữa hai đường thẳng lần lượt nằm trong hai mặt phẳng đó và cùng vuông góc với giao tuyến tại một điểm trên giao tuyến.",
+          "notation": "0° ≤ ((P), (Q)) ≤ 90°",
+          "note": "Nếu (P) // (Q) hoặc (P) trùng (Q) thì góc bằng 0°."
+        },
+        {
+          "term": "Hai mặt phẳng vuông góc",
+          "definition": "Hai mặt phẳng gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°. Kí hiệu (P) ⊥ (Q).",
+          "notation": "(P) ⊥ (Q) <=> ((P), (Q)) = 90°",
+          "note": "Dấu hiệu nhận biết: Nếu một mặt phẳng chứa một đường thẳng vuông góc với mặt phẳng kia thì hai mặt phẳng đó vuông góc với nhau."
+        },
+        {
+          "term": "Lăng trụ đứng và hình chóp đều",
+          "definition": "Lăng trụ đứng có các cạnh bên vuông góc với mặt đáy (các mặt bên là hình chữ nhật). Hình chóp đều có đáy là đa giác đều và chân đường cao trùng với tâm của đáy.",
+          "notation": "Lăng trụ đứng ABC.A'B'C'; Chóp đều S.ABCD",
+          "note": "Trong hình chóp đều, tất cả các cạnh bên bằng nhau và tạo với đáy các góc bằng nhau."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lí giao tuyến của hai mặt phẳng vuông góc",
+          "meaning": "Nếu hai mặt phẳng vuông góc với nhau thì bất kì đường thẳng nào nằm trong mặt phẳng này mà vuông góc với giao tuyến thì sẽ vuông góc với mặt phẳng kia."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hình chóp S.ABCD có đáy ABCD là hình vuông và SA ⊥ (ABCD). Chứng minh mặt phẳng (SBC) vuông góc với mặt phẳng (SAB)?",
+          "steps": [
+            "Bước 1: Do đáy ABCD là hình vuông nên BC ⊥ AB.",
+            "Bước 2: Lại có SA ⊥ (ABCD) nên SA ⊥ BC. Do đó BC ⊥ (SAB).",
+            "Bước 3: Vì mặt phẳng (SBC) chứa đường thẳng BC mà BC ⊥ (SAB) nên theo dấu hiệu nhận biết: (SBC) ⊥ (SAB)."
+          ],
+          "answer": "Mặt phẳng (SBC) vuông góc với mặt phẳng (SAB)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy góc giữa hai mặt phẳng là góc tù (> 90°).",
+          "why": "Quy ước góc giữa hai mặt phẳng luôn là góc nhọn hoặc góc vuông, tức 0° ≤ φ ≤ 90°."
+        }
+      ]
+    },
+    {
+      "id": "l27",
+      "title": "Bài 27: Khoảng cách và thể tích khối đa diện",
+      "hasRealContent": true,
+      "objectives": [
+        "Tính được khoảng cách từ một điểm đến một đường thẳng và đến một mặt phẳng.",
+        "Nắm vững phương pháp tính khoảng cách giữa hai đường thẳng chéo nhau.",
+        "Tính thành thạo thể tích của khối chóp, khối lăng trụ và khối hộp chữ nhật."
+      ],
+      "concepts": [
+        {
+          "term": "Khoảng cách từ điểm đến mặt phẳng",
+          "definition": "Khoảng cách từ điểm M đến mặt phẳng (P) là độ dài đoạn thẳng MH vuông góc với (P) tại H. Kí hiệu d(M, (P)) = MH.",
+          "notation": "d(M, (P)) = MH (H là hình chiếu của M trên (P))",
+          "note": "Nếu M ∈ (P) thì d(M, (P)) = 0."
+        },
+        {
+          "term": "Khoảng cách giữa hai đường thẳng chéo nhau",
+          "definition": "Đoạn thẳng MN vuông góc với cả hai đường thẳng chéo nhau a và b (M ∈ a, N ∈ b) gọi là đoạn vuông góc chung. Độ dài MN là khoảng cách giữa a và b.",
+          "notation": "d(a, b) = MN",
+          "note": "d(a, b) = d(a, (P)) trong đó (P) chứa b và song song với a."
+        },
+        {
+          "term": "Thể tích khối đa diện",
+          "definition": "Thể tích khối chóp: V = 1/3 · S_đáy · h. Thể tích khối lăng trụ: V = S_đáy · h. Thể tích khối hộp chữ nhật: V = a · b · c.",
+          "notation": "V_chóp = 1/3 · B · h; V_lăng trụ = B · h",
+          "note": "Khối chóp có hệ số 1/3 so với khối lăng trụ cùng diện tích đáy và chiều cao."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương pháp đổi đỉnh tính khoảng cách",
+          "meaning": "Nếu đường thẳng AB cắt mặt phẳng (P) tại I thì d(A, (P)) / d(B, (P)) = IA / IB. Dùng để chuyển điểm tính khoảng cách về chân đường cao."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hình chóp tam giác S.ABC có đáy là tam giác vuông tại B, AB = 3, BC = 4. Chiều cao SA = 6. Tính thể tích khối chóp S.ABC?",
+          "steps": [
+            "Bước 1: Tính diện tích đáy tam giác vuông ABC: S_ABC = 1/2 · AB · BC = 1/2 · 3 · 4 = 6.",
+            "Bước 2: Chiều cao khối chóp là h = SA = 6.",
+            "Bước 3: Áp dụng công thức thể tích khối chóp: V = 1/3 · S_ABC · h = 1/3 · 6 · 6 = 12."
+          ],
+          "answer": "Thể tích khối chóp V = 12."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân 1/3 trong công thức thể tích khối chóp, tính ra 36.",
+          "why": "Công thức thể tích chóp luôn có hệ số 1/3."
+        }
+      ]
+    }
+  ]
+}

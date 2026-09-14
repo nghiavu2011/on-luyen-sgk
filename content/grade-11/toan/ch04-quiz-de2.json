@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch04_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình bình hành tâm $O$. Gọi $M$ là trung điểm của $SA$. Đường thẳng $OM$ song song với mặt phẳng nào sau đây?",
-    "options": [
-      "A. $(ABCD)$",
-      "B. $(SCD)$",
-      "C. $(SAB)$",
-      "D. $(SBC)$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp chứng minh đường song song mặt:\nTrong tam giác $SAC$, có $O$ là trung điểm $AC$ và $M$ là trung điểm $SA \\Rightarrow OM$ là đường trung bình của tam giác $SAC$.\nDo đó $OM // SC$.\nMà $SC \\subset (SCD)$ và $OM \\not\\subset (SCD) \\Rightarrow OM // (SCD)$.\n💡 Nhớ tìm đường trung bình song song với 1 cạnh của mặt phẳng mục tiêu.\n⚠️ Áp dụng định lí đường song song mặt phẳng chuẩn xác."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 4: Đề 2 — Kỹ năng & Thực hành Tìm giao tuyến và Thiết diện",
+  "description": "Bài tập xác định giao tuyến, chứng minh đường song song mặt và tìm thiết diện song song.",
+  "questions": [
+    {
+      "id": "t11_c4_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm giao tuyến của hai mặt phẳng",
+      "question": "Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Giao tuyến của hai mặt phẳng (SAD) và (SBC) là đường thẳng đi qua S và:",
+      "options": [
+        "Cắt đường thẳng AB",
+        "Vuông góc với mặt phẳng đáy",
+        "Cắt đường thẳng CD",
+        "Song song với AD và BC"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hai mặt phẳng (SAD) và (SBC) có điểm chung S và lần lượt chứa hai đường thẳng song song AD // BC.",
+        "socraticPrompt": "Khi hai mặt phẳng chứa hai đường thẳng song song thì giao tuyến của chúng có quan hệ gì với hai đường thẳng đó?",
+        "steps": "Điểm chung là S. Vì AD ⊂ (SAD), BC ⊂ (SBC) và AD // BC nên giao tuyến d đi qua S và song song với AD, BC.",
+        "trap": "Cho rằng giao tuyến đi qua trung điểm hoặc cắt các cạnh bên."
+      }
+    },
+    {
+      "id": "t11_c4_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đường trung bình và quan hệ song song",
+      "question": "Cho hình chóp S.ABCD có đáy là hình bình hành. Gọi I, K lần lượt là trung điểm của SA và SB. Khẳng định nào sau đây là ĐÚNG?",
+      "options": [
+        "IK // (SCD)",
+        "IK cắt mặt phẳng (ABCD)",
+        "IK // (ABCD)",
+        "IK chéo CD"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "IK là đường trung bình tam giác SAB => IK // AB. Mà AB ⊂ (ABCD) nên IK // (ABCD).",
+        "socraticPrompt": "IK song song với cạnh đáy AB. Cạnh AB nằm trong mặt phẳng nào?",
+        "steps": "IK là đường trung bình trong tam giác SAB nên IK // AB. Vì IK không nằm trong (ABCD) và AB ⊂ (ABCD) nên IK // (ABCD).",
+        "trap": "Nhầm IK // (SCD) khi chưa đối chiếu mặt phẳng đáy."
+      }
+    },
+    {
+      "id": "t11_c4_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thiết diện của hình chóp",
+      "question": "Cho hình chóp tứ giác S.ABCD có đáy là hình bình hành. Mặt phẳng (α) đi qua trung điểm M của SA và song song với mặt phẳng đáy (ABCD). Thiết diện tạo bởi (α) và hình chóp là:",
+      "options": [
+        "Một hình bình hành",
+        "Một hình tam giác",
+        "Một hình thang cân",
+        "Một hình chữ nhật"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mặt phẳng (α) song song với đáy nên cắt 4 mặt bên theo các đoạn thẳng song song với các cạnh đáy tương ứng.",
+        "socraticPrompt": "Mặt phẳng cắt các mặt tam giác tạo thành các đoạn thẳng nối trung điểm, hình tạo bởi 4 đoạn đó là hình gì?",
+        "steps": "Thiết diện là tứ giác MNPQ với N, P, Q lần lượt là trung điểm của SB, SC, SD. Tứ giác này có MN // AB // PQ và MQ // AD // NP nên là hình bình hành.",
+        "trap": "Đoán là hình thang hoặc hình tam giác."
+      }
+    },
+    {
+      "id": "t11_c4_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Định lí Thales trong lăng trụ",
+      "question": "Cho hình lăng trụ tam giác ABC.A'B'C'. Gọi I là trung điểm của BB'. Mặt phẳng qua I và song song với đáy (ABC) cắt AA' tại M và CC' tại N. Tỉ số A'M / AA' bằng:",
+      "options": [
+        "1/3",
+        "1/2",
+        "2/3",
+        "3/4"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mặt phẳng song song với hai đáy chắn trên các cạnh bên những đoạn thẳng tương ứng tỉ lệ.",
+        "socraticPrompt": "Vì I là trung điểm BB' (tỉ số 1/2), theo định lí Thales thì M trên AA' chia cạnh đó theo tỉ số bao nhiêu?",
+        "steps": "Theo định lí Thales trong không gian, các mặt phẳng song song (ABC), (MIN) và (A'B'C') định ra trên các đường thẳng AA', BB', CC' các đoạn thẳng tỉ lệ. Do I là trung điểm BB' nên M cũng là trung điểm AA'. Vậy A'M / AA' = 1/2.",
+        "trap": "Nhầm tỉ số thành 1/3."
+      }
+    },
+    {
+      "id": "t11_c4_d2_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hai đường thẳng chéo nhau trong tứ diện",
+      "question": "Cho tứ diện ABCD. Cặp đường thẳng nào sau đây là hai đường thẳng chéo nhau?",
+      "options": [
+        "AB và CD",
+        "AB và AC",
+        "BC và CD",
+        "AD và BD"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hai cạnh đối diện trong tứ diện luôn chéo nhau vì không có đỉnh chung.",
+        "socraticPrompt": "Hai cạnh nào dưới đây không có chung bất kì đỉnh nào?",
+        "steps": "AB và CD là hai cạnh đối diện của tứ diện ABCD, không cùng thuộc mặt phẳng nào nên AB và CD chéo nhau. Các cặp còn lại đều cắt nhau tại một đỉnh chung (A, C, D).",
+        "trap": "Chọn các cặp có đỉnh chung như AB và AC (cắt nhau tại A)."
+      }
+    },
+    {
+      "id": "t11_c4_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đường thẳng song song mặt phẳng trong hình hộp",
+      "question": "Cho hình hộp ABCD.A'B'C'D'. Đường thẳng AC song song với mặt phẳng nào sau đây?",
+      "options": [
+        "(A'B'C'D')",
+        "(ABB'A')",
+        "(BDD'B')",
+        "(CDD'C')"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "AC nằm trong đáy (ABCD). Vì (ABCD) // (A'B'C'D') nên mọi đường thẳng nằm trong (ABCD) đều song song với (A'B'C'D').",
+        "socraticPrompt": "Hai mặt đáy của hình hộp song song với nhau. Đường thẳng AC nằm ở đáy dưới thì song song với đáy nào?",
+        "steps": "Do ABCD.A'B'C'D' là hình hộp nên mặt phẳng đáy (ABCD) song song với mặt phẳng đáy (A'B'C'D'). Vì AC ⊂ (ABCD) nên AC // (A'B'C'D').",
+        "trap": "Nhầm AC cắt (BDD'B') tại tâm O."
+      }
+    }
+  ]
+}

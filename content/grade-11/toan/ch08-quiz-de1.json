@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch08_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Để chứng minh đường thẳng $d$ vuông góc với mặt phẳng $(\\alpha)$, ta cần chứng minh $d$ vuông góc với:",
-    "options": [
-      "A. Một đường thẳng bất kì nằm trong $(\\alpha)$",
-      "B. Hai đường thẳng song song nằm trong $(\\alpha)$",
-      "C. Hai đường thẳng cắt nhau nằm trong $(\\alpha)$",
-      "D. Mọi đường thẳng trong không gian"
-    ],
-    "answer": 2,
-    "explanation": "📌 Định lí cơ bản: Phải vuông góc với HAI ĐƯỜNG THẲNG CẮT NHAU cùng nằm trong mặt phẳng đó.\n💡 Nếu hai đường song song thì chưa đủ xác định mặt phẳng.\n⚠️ Ghi nhớ từ khoá 'hai đường cắt nhau'."
-  }
-]
+{
+  "chapterId": "ch08",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 8: Đề 1 — Khái niệm & Nhận biết Quan hệ vuông góc",
+  "description": "Đề kiểm tra nhận biết về hai đường thẳng vuông góc, đường vuông góc mặt, góc giữa đường và mặt.",
+  "questions": [
+    {
+      "id": "t11_c8_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Điều kiện đường thẳng vuông góc mặt phẳng",
+      "question": "Để chứng minh đường thẳng d vuông góc với mặt phẳng (α), ta cần chứng minh d vuông góc với:",
+      "options": [
+        "Một đường thẳng bất kì nằm trong (α)",
+        "Hai đường thẳng song song nằm trong (α)",
+        "Hai đường thẳng cắt nhau cùng nằm trong (α)",
+        "Mọi đường thẳng song song với (α)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định lí điều kiện: Đường thẳng vuông góc với hai đường thẳng CẮT NHAU trong mặt phẳng.",
+        "socraticPrompt": "Hai đường thẳng trong mặt phẳng cần có quan hệ gì với nhau: song song hay cắt nhau?",
+        "steps": "Theo SGK Toán 11, d vuông góc với hai đường thẳng cắt nhau trong (α) thì d ⊥ (α).",
+        "trap": "Nhầm với hai đường thẳng song song (không đủ xác định mặt phẳng)."
+      }
+    },
+    {
+      "id": "t11_c8_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Góc giữa hai đường thẳng",
+      "question": "Số đo góc giữa hai đường thẳng a và b trong không gian luôn thoả mãn điều kiện nào?",
+      "options": [
+        "0° ≤ (a, b) ≤ 90°",
+        "0° < (a, b) < 180°",
+        "0° ≤ (a, b) ≤ 180°",
+        "0° < (a, b) ≤ 90°"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quy ước góc giữa hai đường thẳng trong không gian nằm trong đoạn [0°; 90°].",
+        "socraticPrompt": "Góc giữa hai đường thẳng có thể tù (> 90°) được không?",
+        "steps": "Góc giữa hai đường thẳng không vượt quá 90°, do đó 0° ≤ (a, b) ≤ 90°.",
+        "trap": "Nhầm với góc giữa hai vectơ có thể lên tới 180°."
+      }
+    },
+    {
+      "id": "t11_c8_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính chất của lăng trụ đứng",
+      "question": "Trong hình lăng trụ đứng, tất cả các mặt bên là hình gì?",
+      "options": [
+        "Hình vuông",
+        "Hình chữ nhật",
+        "Hình thoi",
+        "Hình thang cân"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Định nghĩa lăng trụ đứng: cạnh bên vuông góc với đáy nên các mặt bên là hình chữ nhật.",
+        "socraticPrompt": "Mặt bên của lăng trụ là hình bình hành có cạnh bên vuông góc cạnh đáy, đó là hình gì?",
+        "steps": "Do cạnh bên vuông góc với đáy nên các góc ở đỉnh của mặt bên đều bằng 90°. Vậy các mặt bên là hình chữ nhật.",
+        "trap": "Nhầm sang hình vuông (chỉ đúng khi lăng trụ đứng có chiều cao bằng cạnh đáy)."
+      }
+    },
+    {
+      "id": "t11_c8_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Công thức thể tích khối chóp",
+      "question": "Thể tích V của khối chóp có diện tích đáy B và chiều cao h được tính bởi công thức:",
+      "options": [
+        "V = B · h",
+        "V = 1/2 · B · h",
+        "V = 1/3 · B · h",
+        "V = 4/3 · B · h"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Công thức tính thể tích khối chóp: V = 1/3 · B · h.",
+        "socraticPrompt": "Thể tích khối chóp bằng một phần mấy diện tích đáy nhân chiều cao?",
+        "steps": "Theo SGK Toán 11 KNTT, thể tích khối chóp là V = 1/3 · B · h.",
+        "trap": "Nhầm V = B · h của hình lăng trụ hoặc 1/2 · B · h của tam giác."
+      }
+    },
+    {
+      "id": "t11_c8_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hai đường thẳng vuông góc trong không gian",
+      "question": "Khẳng định nào sau đây là ĐÚNG về hai đường thẳng vuông góc trong không gian?",
+      "options": [
+        "Chúng bắt buộc phải cắt nhau",
+        "Chúng có thể cắt nhau hoặc chéo nhau",
+        "Chúng luôn cùng thuộc một mặt phẳng",
+        "Chúng không thể chéo nhau"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trong không gian, hai đường thẳng vuông góc có thể cắt nhau hoặc chéo nhau.",
+        "socraticPrompt": "Một đường thẳng đứng trên tường và một đường ngang trên sàn có vuông góc và chéo nhau không?",
+        "steps": "Góc giữa hai đường thẳng chéo nhau có thể bằng 90°, do đó hai đường vuông góc có thể cắt nhau hoặc chéo nhau.",
+        "trap": "Mang thói quen của hình học phẳng nghĩ rằng vuông góc thì phải cắt nhau."
+      }
+    },
+    {
+      "id": "t11_c8_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hình chiếu vuông góc của một điểm",
+      "question": "Cho hình chóp S.ABC có SA ⊥ (ABC). Hình chiếu vuông góc của điểm S trên mặt phẳng (ABC) là điểm nào?",
+      "options": [
+        "Điểm B",
+        "Trọng tâm tam giác ABC",
+        "Điểm C",
+        "Điểm A"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Do SA ⊥ (ABC) tại A nên chân đường vuông góc hạ từ S xuống (ABC) chính là A.",
+        "socraticPrompt": "SA vuông góc với mặt đáy tại điểm nào?",
+        "steps": "Vì SA ⊥ (ABC) và A ∈ (ABC) nên hình chiếu vuông góc của S lên (ABC) chính là điểm A.",
+        "trap": "Đoán là trọng tâm hoặc tâm đường tròn ngoại tiếp."
+      }
+    }
+  ]
+}

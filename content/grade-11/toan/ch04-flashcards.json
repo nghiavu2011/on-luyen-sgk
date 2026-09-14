@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Có mấy cách xác định một mặt phẳng duy nhất?",
-    "back": "1. Qua 3 điểm không thẳng hàng; 2. Qua một điểm và một đường thẳng không đi qua điểm đó; 3. Qua hai đường thẳng cắt nhau; 4. Qua hai đường thẳng song song.",
-    "tags": [
-      "Mặt phẳng",
-      "Hình học không gian"
-    ]
-  },
-  {
-    "front": "Hai đường thẳng chéo nhau là gì?",
-    "back": "Là hai đường thẳng không cùng nằm trong bất kì một mặt phẳng nào (không song song, không cắt nhau, không trùng nhau).",
-    "tags": [
-      "Chéo nhau",
-      "Vị trí tương đối"
-    ]
-  },
-  {
-    "front": "Điều kiện để đường thẳng $d$ song song với mặt phẳng $(\\alpha)$?",
-    "back": "$d \\not\\subset (\\alpha)$ và $d$ song song với một đường thẳng $a$ nào đó nằm trong $(\\alpha)$.",
-    "tags": [
-      "Đường song song MP",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "Điều kiện để hai mặt phẳng $(\\alpha)$ và $(\\beta)$ song song với nhau?",
-    "back": "Mặt phẳng $(\\alpha)$ chứa hai đường thẳng cắt nhau cùng song song với mặt phẳng $(\\beta)$.",
-    "tags": [
-      "Hai MP song song",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "Tính chất định lí Talet trong không gian?",
-    "back": "Ba mặt phẳng đôi một song song chắn trên hai cát tuyến bất kì những đoạn thẳng tương ứng tỉ lệ.",
-    "tags": [
-      "Talet",
-      "Không gian"
-    ]
-  },
-  {
-    "front": "Hình lăng trụ có các cạnh bên như thế nào với nhau?",
-    "back": "Các cạnh bên song song và bằng nhau; hai mặt đáy là hai đa giác bằng nhau và nằm trong hai mặt phẳng song song.",
-    "tags": [
-      "Lăng trụ",
-      "Tính chất"
-    ]
-  },
-  {
-    "front": "Hình hộp là hình lăng trụ có đáy là hình gì?",
-    "back": "Có đáy là hình bình hành (tất cả 6 mặt đều là hình bình hành).",
-    "tags": [
-      "Hình hộp",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Phép chiếu song song bảo toàn tính chất nào của hình học phẳng?",
-    "back": "Bảo toàn tính thẳng hàng của 3 điểm, thứ tự các điểm, tính song song giữa các đường thẳng và tỉ số độ dài hai đoạn thẳng cùng phương.",
-    "tags": [
-      "Phép chiếu",
-      "Bảo toàn"
-    ]
-  },
-  {
-    "front": "Giao tuyến của hai mặt phẳng là gì?",
-    "back": "Là đường thẳng chung duy nhất đi qua tất cả các điểm chung của hai mặt phẳng đó.",
-    "tags": [
-      "Giao tuyến",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Nếu đường thẳng $d // (\\alpha)$ thì mọi mặt phẳng $(\\beta)$ chứa $d$ cắt $(\\alpha)$ theo giao tuyến $d'$ thì $d'$ quan hệ thế nào với $d$?",
-    "back": "Giao tuyến $d'$ song song với $d$ ($d' // d$).",
-    "tags": [
-      "Giao tuyến",
-      "Hệ quả"
-    ]
-  },
-  {
-    "front": "Trong không gian, hai đường thẳng cùng song song với đường thẳng thứ ba thì sao?",
-    "back": "Thì chúng song song với nhau ($a // c$ và $b // c \\Rightarrow a // b$).",
-    "tags": [
-      "Song song",
-      "Bắc cầu"
-    ]
-  },
-  {
-    "front": "Hình chóp tứ giác có bao nhiêu mặt và bao nhiêu cạnh?",
-    "back": "Có 5 mặt (1 đáy, 4 mặt bên tam giác) và 8 cạnh (4 cạnh đáy, 4 cạnh bên).",
-    "tags": [
-      "Hình chóp",
-      "Yếu tố"
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "flashcards": [
+    {
+      "id": "fc_t11_c4_01",
+      "front": "4 cách xác định duy nhất một mặt phẳng trong không gian?",
+      "back": "1. Ba điểm không thẳng hàng; 2. Một điểm và một đường thẳng không đi qua điểm đó; 3. Hai đường thẳng cắt nhau; 4. Hai đường thẳng song song.",
+      "category": "Khái niệm",
+      "example": "Mặt phẳng (ABC) xác định bởi tam giác ABC.",
+      "mnemonic": "3 điểm rời, 1 điểm 1 đường, 2 đường cắt nhau, 2 đường song song."
+    },
+    {
+      "id": "fc_t11_c4_02",
+      "front": "Định nghĩa hai đường thẳng chéo nhau?",
+      "back": "Hai đường thẳng chéo nhau là hai đường thẳng không cùng nằm trong bất kì một mặt phẳng nào (không đồng phẳng).",
+      "category": "Vị trí tương đối",
+      "example": "Hai cạnh đối diện AB và CD trong tứ diện ABCD chéo nhau.",
+      "mnemonic": "Chéo nhau là không chung một nhà (không đồng phẳng)."
+    },
+    {
+      "id": "fc_t11_c4_03",
+      "front": "Định lí 3 đường giao tuyến của ba mặt phẳng?",
+      "back": "Nếu 3 mặt phẳng đôi một cắt nhau theo 3 giao tuyến phân biệt thì 3 giao tuyến đó hoặc đồng quy hoặc đôi một song song.",
+      "category": "Định lí giao tuyến",
+      "example": "Mái ngói hai bên và trần nhà tạo 3 đường giao tuyến song song.",
+      "mnemonic": "Ba giao tuyến: hoặc chụm đầu (đồng quy) hoặc song hành (song song)."
+    },
+    {
+      "id": "fc_t11_c4_04",
+      "front": "Dấu hiệu nhận biết đường thẳng d song song mặt phẳng (α)?",
+      "back": "Nếu d không nằm trong (α) và d song song với một đường thẳng d' nằm trong (α) thì d // (α).",
+      "category": "Chứng minh song song",
+      "example": "d // d' ⊂ (α) => d // (α).",
+      "mnemonic": "Song song với một đứa con trong nhà thì song song với cả nhà."
+    },
+    {
+      "id": "fc_t11_c4_05",
+      "front": "Dấu hiệu nhận biết hai mặt phẳng song song (α) // (β)?",
+      "back": "Nếu mặt phẳng (α) chứa hai đường thẳng CẮT NHAU a và b cùng song song với (β) thì (α) // (β).",
+      "category": "Chứng minh song song",
+      "example": "a ∩ b = {M}, a // (β), b // (β) => (α) // (β).",
+      "mnemonic": "Phải có HAI ĐƯỜNG CẮT NHAU cùng song song với mặt kia."
+    },
+    {
+      "id": "fc_t11_c4_06",
+      "front": "Định lí về giao tuyến khi cắt hai mặt phẳng song song?",
+      "back": "Nếu một mặt phẳng cắt hai mặt phẳng song song thì hai giao tuyến thu được luôn song song với nhau.",
+      "category": "Tính chất",
+      "example": "Mặt phẳng tường cắt sàn và trần nhà tạo 2 mép tường song song.",
+      "mnemonic": "Cắt hai mặt song song sinh ra hai đường song song."
+    },
+    {
+      "id": "fc_t11_c4_07",
+      "front": "Đặc điểm cơ bản của hình lăng trụ là gì?",
+      "back": "Hai đáy là hai đa giác bằng nhau nằm trên 2 mp song song; Các mặt bên là hình bình hành; Các cạnh bên song song và bằng nhau.",
+      "category": "Hình đa diện",
+      "example": "Lăng trụ tam giác ABC.A'B'C'.",
+      "mnemonic": "Đáy song song bằng nhau, mặt bên hình bình hành."
+    },
+    {
+      "id": "fc_t11_c4_08",
+      "front": "Định nghĩa hình hộp là gì?",
+      "back": "Hình hộp là hình lăng trụ có đáy là hình bình hành. Tất cả 6 mặt của hình hộp đều là hình bình hành.",
+      "category": "Hình đa diện",
+      "example": "Hình hộp ABCD.A'B'C'D'.",
+      "mnemonic": "Lăng trụ đáy bình hành là hình hộp (6 mặt bình hành)."
+    },
+    {
+      "id": "fc_t11_c4_09",
+      "front": "Định lí Thales trong không gian phát biểu thế nào?",
+      "back": "Ba mặt phẳng đôi một song song chắn trên hai cát tuyến bất kì những đoạn thẳng tương ứng tỉ lệ.",
+      "category": "Định lí Thales",
+      "example": "AB / A'B' = BC / B'C'.",
+      "mnemonic": "Mặt phẳng song song chia cát tuyến theo tỉ lệ đều nhau."
+    },
+    {
+      "id": "fc_t11_c4_10",
+      "front": "Các tính chất được bảo toàn qua phép chiếu song song?",
+      "back": "Bảo toàn: tính thẳng hàng, quan hệ song song, tỉ số của 2 đoạn thẳng song song hoặc cùng đường thẳng. KHÔNG bảo toàn: độ dài và số đo góc.",
+      "category": "Phép chiếu song song",
+      "example": "Hình bình hành chiếu song song vẫn là hình bình hành.",
+      "mnemonic": "Bảo toàn song song và tỉ lệ, không giữ độ dài và góc."
+    }
+  ]
+}

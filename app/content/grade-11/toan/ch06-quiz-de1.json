@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Tập xác định của hàm số $y = \\log_2(x - 3)$ là:",
-    "options": [
-      "A. $D = [3; +\\infty)$",
-      "B. $D = (3; +\\infty)$",
-      "C. $D = \\mathbb{R} \\setminus \\{3\\}$",
-      "D. $D = (-\\infty; 3)$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Điều kiện xác định của lôgarit: Biểu thức dưới dấu lôgarit phải dương: $x - 3 > 0 \\Leftrightarrow x > 3$.\n💡 Tập xác định là khoảng $D = (3; +\\infty)$.\n⚠️ Tránh nhầm lẫn lấy cả dấu ngoặc vuông $[3; +\\infty)$."
-  }
-]
+{
+  "chapterId": "ch06",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 6: Đề 1 — Khái niệm & Nhận biết Mũ và Lôgarit",
+  "description": "Đề kiểm tra nhận biết về công thức luỹ thừa, định nghĩa lôgarit, tập xác định của hàm số mũ và logarit.",
+  "questions": [
+    {
+      "id": "t11_c6_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính giá trị lôgarit cơ bản",
+      "question": "Giá trị của log_3 27 bằng:",
+      "options": [
+        "9",
+        "3",
+        "1/3",
+        "81"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Định nghĩa lôgarit: log_a(a^α) = α.",
+        "socraticPrompt": "27 là 3 mũ mấy? 3 mũ 3 bằng bao nhiêu?",
+        "steps": "Ta có 27 = 3³. Do đó log_3 27 = log_3(3³) = 3.",
+        "trap": "Lấy 27 chia 3 = 9."
+      }
+    },
+    {
+      "id": "t11_c6_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tập xác định của hàm số mũ",
+      "question": "Tập xác định D của hàm số y = 2^x là:",
+      "options": [
+        "(0; +∞)",
+        "[0; +∞)",
+        "R",
+        "R \\ {0}"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hàm số mũ y = a^x (a > 0, a ≠ 1) xác định với mọi số thực x ∈ R.",
+        "socraticPrompt": "Số mũ x có thể nhận giá trị âm, 0 hay dương được không?",
+        "steps": "Hàm số mũ y = 2^x có nghĩa với mọi x thuộc R. Vậy tập xác định D = R.",
+        "trap": "Nhầm với tập giá trị (0; +∞) hoặc nhầm với tập xác định của hàm logarit."
+      }
+    },
+    {
+      "id": "t11_c6_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tập xác định của hàm số lôgarit",
+      "question": "Tập xác định D của hàm số y = log_2 x là:",
+      "options": [
+        "D = (0; +∞)",
+        "D = [0; +∞)",
+        "D = R",
+        "D = R \\ {0}"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Biểu thức dưới dấu lôgarit luôn phải dương nghiêm ngặt: x > 0.",
+        "socraticPrompt": "Lôgarit có xác định tại x = 0 hoặc x âm không?",
+        "steps": "Điều kiện xác định của y = log_2 x là x > 0. Do đó D = (0; +∞).",
+        "trap": "Lấy cả dấu ngoặc vuông [0; +∞) vì nhầm log xác định tại 0."
+      }
+    },
+    {
+      "id": "t11_c6_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quy tắc cộng lôgarit",
+      "question": "Với a, b là các số thực dương tuỳ ý, đẳng thức nào sau đây luôn ĐÚNG?",
+      "options": [
+        "ln(ab) = ln a · ln b",
+        "ln(a + b) = ln a + ln b",
+        "ln(ab) = ln a / ln b",
+        "ln(ab) = ln a + ln b"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy tắc logarit của một tích: ln(ab) = ln a + ln b với mọi a, b > 0.",
+        "socraticPrompt": "Logarit biến phép nhân hai số thành phép tính gì của hai logarit?",
+        "steps": "Theo SGK Toán 11, logarit của một tích bằng tổng các logarit: ln(ab) = ln a + ln b.",
+        "trap": "Nhầm ln(ab) = ln a · ln b hoặc ln(a + b) = ln a + ln b."
+      }
+    },
+    {
+      "id": "t11_c6_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận biết hàm số nghịch biến",
+      "question": "Hàm số nào sau đây nghịch biến trên toàn bộ tập xác định của nó?",
+      "options": [
+        "y = e^x",
+        "y = (1/3)^x",
+        "y = 2^x",
+        "y = log_2 x"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hàm số mũ y = a^x nghịch biến khi và chỉ khi 0 < a < 1.",
+        "socraticPrompt": "Trong các cơ số e, 1/3, 2 thì cơ số nào nhỏ hơn 1?",
+        "steps": "Hàm số y = (1/3)^x có cơ số a = 1/3 thoả mãn 0 < a < 1 nên nghịch biến trên R.",
+        "trap": "Nhầm e ≈ 2,718 là bé hơn 1."
+      }
+    },
+    {
+      "id": "t11_c6_d1_q6",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Luỹ thừa với số mũ âm",
+      "question": "Giá trị của biểu thức 2^(-3) bằng:",
+      "options": [
+        "-6",
+        "-8",
+        "1/8",
+        "1/6"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa luỹ thừa số mũ nguyên âm: a^(-n) = 1 / a^n.",
+        "socraticPrompt": "2^(-3) bằng 1 chia cho 2 mũ 3. 2 mũ 3 bằng bao nhiêu?",
+        "steps": "Ta có: 2^(-3) = 1 / (2³) = 1 / 8.",
+        "trap": "Nhầm 2 · (-3) = -6 hoặc đổi dấu thành -8."
+      }
+    }
+  ]
+}

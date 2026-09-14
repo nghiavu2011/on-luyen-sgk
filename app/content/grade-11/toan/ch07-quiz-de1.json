@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch07_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Đạo hàm của hàm số $y = \\sin x$ là:",
-    "options": [
-      "A. $y' = -\\cos x$",
-      "B. $y' = \\cos x$",
-      "C. $y' = -\\sin x$",
-      "D. $y' = \\frac{1}{\\cos^2 x}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Công thức bảng đạo hàm cơ bản: $(\\sin x)' = \\cos x$.\n💡 Còn $(\\cos x)' = -\\sin x$ (có dấu trừ).\n⚠️ Phân biệt rõ dấu của đạo hàm sin và cos."
-  }
-]
+{
+  "chapterId": "ch07",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 7: Đề 1 — Khái niệm & Nhận biết Đạo hàm",
+  "description": "Đề kiểm tra nhận biết định nghĩa đạo hàm, bảng đạo hàm cơ bản và ý nghĩa tiếp tuyến.",
+  "questions": [
+    {
+      "id": "t11_c7_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm luỹ thừa cơ bản",
+      "question": "Đạo hàm của hàm số y = x⁴ là:",
+      "options": [
+        "y' = 4x³",
+        "y' = x³",
+        "y' = 4x",
+        "y' = 3x⁴"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức đạo hàm luỹ thừa: (x^n)' = n · x^(n-1).",
+        "socraticPrompt": "Hạ số mũ 4 xuống phía trước, số mũ trên đầu giảm đi 1 đơn vị còn mấy?",
+        "steps": "Áp dụng công thức (x⁴)' = 4 · x^(4-1) = 4x³.",
+        "trap": "Quên số mũ 4 hoặc nhầm đạo hàm thành x³."
+      }
+    },
+    {
+      "id": "t11_c7_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm hàm số sin x",
+      "question": "Đạo hàm của hàm số y = sin x là:",
+      "options": [
+        "-cos x",
+        "cos x",
+        "-sin x",
+        "1 / cos²x"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức cơ bản trong bảng đạo hàm: (sin x)' = cos x.",
+        "socraticPrompt": "Đạo hàm của sin ra cos dương hay âm?",
+        "steps": "Theo SGK Toán 11, ta có: (sin x)' = cos x.",
+        "trap": "Nhầm dấu trừ: (cos x)' = -sin x, còn (sin x)' là +cos x."
+      }
+    },
+    {
+      "id": "t11_c7_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa hình học của đạo hàm",
+      "question": "Hệ số góc k của tiếp tuyến của đồ thị hàm số y = f(x) tại tiếp điểm M0(x0; y0) là:",
+      "options": [
+        "k = f(x0)",
+        "k = y0 / x0",
+        "k = f'(x0)",
+        "k = -1 / f'(x0)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ý nghĩa hình học: Hệ số góc của tiếp tuyến tại điểm có hoành độ x0 bằng f'(x0).",
+        "socraticPrompt": "Tiếp tuyến có hệ số góc bằng giá trị của hàm số hay giá trị của đạo hàm?",
+        "steps": "Theo định nghĩa SGK, hệ số góc của tiếp tuyến tại x0 là k = f'(x0).",
+        "trap": "Nhầm k = f(x0) là giá trị hàm số."
+      }
+    },
+    {
+      "id": "t11_c7_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm của hằng số",
+      "question": "Đạo hàm của hàm hằng y = 5 là:",
+      "options": [
+        "y' = 5",
+        "y' = 1",
+        "y' = 5x",
+        "y' = 0"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đạo hàm của hàm số không đổi (hằng số) luôn bằng 0: (c)' = 0.",
+        "socraticPrompt": "Hằng số không thay đổi theo biến x, tốc độ biến thiên của nó bằng bao nhiêu?",
+        "steps": "Hằng số có số gia ∆y = 5 - 5 = 0, do đó đạo hàm y' = 0.",
+        "trap": "Nhầm y' = 1 hoặc y' = 5."
+      }
+    },
+    {
+      "id": "t11_c7_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm của căn bậc hai",
+      "question": "Đạo hàm của hàm số y = √x (với x > 0) là:",
+      "options": [
+        "y' = 1 / (2√x)",
+        "y' = 1 / √x",
+        "y' = 2√x",
+        "y' = 1 / (x√x)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức đạo hàm căn bậc hai cơ bản: (√x)' = 1 / (2√x).",
+        "socraticPrompt": "√x là x^(1/2). Lấy 1/2 nhân x^(-1/2) ta được phân số nào?",
+        "steps": "(√x)' = [x^(1/2)]' = (1/2) · x^(-1/2) = 1 / (2√x).",
+        "trap": "Quên hệ số 2 dưới mẫu dẫn đến 1/√x."
+      }
+    },
+    {
+      "id": "t11_c7_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đạo hàm hàm số mũ cơ số e",
+      "question": "Đạo hàm của hàm số y = e^x là:",
+      "options": [
+        "y' = x · e^(x-1)",
+        "y' = e^x",
+        "y' = e^x · ln e",
+        "y' = 1 / e^x"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hàm số e^x có đạo hàm đặc biệt bằng chính nó: (e^x)' = e^x.",
+        "socraticPrompt": "Hàm số duy nhất nào có tốc độ tăng trưởng bằng đúng giá trị hiện tại của nó?",
+        "steps": "Theo bảng đạo hàm chuẩn SGK: (e^x)' = e^x.",
+        "trap": "Áp dụng sai công thức luỹ thừa (x^n)' thành x · e^(x-1)."
+      }
+    }
+  ]
+}

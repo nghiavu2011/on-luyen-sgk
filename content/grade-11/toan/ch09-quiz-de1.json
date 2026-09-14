@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch09_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Cho hai biến cố xung khắc $A$ và $B$ có $P(A) = 0,3$ và $P(B) = 0,4$. Xác suất $P(A \\cup B)$ bằng:",
-    "options": [
-      "A. $0,12$",
-      "B. $0,7$",
-      "C. $0,1$",
-      "D. $0,5$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Công thức cộng xác suất xung khắc: Do $A$ và $B$ xung khắc nên $P(A \\cup B) = P(A) + P(B) = 0,3 + 0,4 = 0,7$.\n💡 Phép cộng xác suất trực tiếp.\n⚠️ Nếu là biến cố độc lập thì $P(AB) = 0,12$."
-  }
-]
+{
+  "chapterId": "ch09",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 9: Đề 1 — Khái niệm & Nhận biết Xác suất",
+  "description": "Đề kiểm tra nhận biết về biến cố hợp, giao, độc lập, xung khắc và công thức cộng, nhân cơ bản.",
+  "questions": [
+    {
+      "id": "t11_c9_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Định nghĩa biến cố hợp",
+      "question": "Biến cố 'A hoặc B xảy ra' được gọi là:",
+      "options": [
+        "Biến cố giao của A và B",
+        "Biến cố hợp của A và B",
+        "Biến cố đối của A",
+        "Biến cố chắc chắn"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Định nghĩa: Biến cố 'A hoặc B xảy ra' kí hiệu là A ∪ B, gọi là biến cố hợp.",
+        "socraticPrompt": "Từ 'hoặc' trong toán học tập hợp tương ứng với phép hợp hay phép giao?",
+        "steps": "Theo định nghĩa SGK, biến cố hợp của A và B xảy ra khi có ít nhất một trong hai biến cố A hoặc B xảy ra.",
+        "trap": "Nhầm với biến cố giao (cả A VÀ B cùng xảy ra)."
+      }
+    },
+    {
+      "id": "t11_c9_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Định nghĩa hai biến cố xung khắc",
+      "question": "Hai biến cố A và B được gọi là xung khắc khi:",
+      "options": [
+        "A và B cùng xảy ra",
+        "P(A) + P(B) = 1",
+        "A và B không thể cùng xảy ra",
+        "P(A) = P(B)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hai biến cố xung khắc là hai biến cố không thể đồng thời cùng xảy ra (A ∩ B = ∅).",
+        "socraticPrompt": "Xung khắc có nghĩa là chúng có thể đội trời chung cùng xảy ra một lúc không?",
+        "steps": "Theo định nghĩa, hai biến cố xung khắc là hai biến cố không thể cùng xảy ra trong cùng một phép thử.",
+        "trap": "Nhầm biến cố xung khắc với biến cố đối (biến cố đối thì tổng xác suất bằng 1)."
+      }
+    },
+    {
+      "id": "t11_c9_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức biến cố đối",
+      "question": "Nếu biến cố A có xác suất P(A) = 0,35 thì xác suất của biến cố đối Ā là:",
+      "options": [
+        "0,35",
+        "0,65",
+        "-0,35",
+        "1,35"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức xác suất biến cố đối: P(Ā) = 1 - P(A).",
+        "socraticPrompt": "Lấy 1 trừ đi 0,35 thì còn lại bao nhiêu?",
+        "steps": "P(Ā) = 1 - P(A) = 1 - 0,35 = 0,65.",
+        "trap": "Nhầm dấu hoặc tính nhẩm 1 - 0,35 = 0,75."
+      }
+    },
+    {
+      "id": "t11_c9_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Công thức nhân xác suất",
+      "question": "Nếu hai biến cố A và B độc lập với nhau thì công thức nào sau đây là ĐÚNG?",
+      "options": [
+        "P(AB) = P(A) + P(B)",
+        "P(AB) = P(A) / P(B)",
+        "P(AB) = P(A) - P(B)",
+        "P(AB) = P(A) · P(B)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy tắc nhân xác suất cho hai biến cố độc lập: P(AB) = P(A) · P(B).",
+        "socraticPrompt": "Khi hai sự việc độc lập cùng xảy ra thì xác suất là phép tính gì của hai xác suất thành phần?",
+        "steps": "Theo định nghĩa biến cố độc lập, P(AB) = P(A) · P(B).",
+        "trap": "Nhầm sang phép cộng P(A) + P(B)."
+      }
+    },
+    {
+      "id": "t11_c9_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Công thức cộng hai biến cố xung khắc",
+      "question": "Cho hai biến cố A và B xung khắc. Biết P(A) = 0,2 và P(B) = 0,5. Xác suất của biến cố hợp P(A ∪ B) bằng:",
+      "options": [
+        "0,7",
+        "0,1",
+        "0,3",
+        "0,25"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khi A và B xung khắc: P(A ∪ B) = P(A) + P(B).",
+        "socraticPrompt": "Hai biến cố xung khắc thì phần giao P(AB) = 0, lấy 0,2 cộng 0,5?",
+        "steps": "Do A và B xung khắc nên P(AB) = 0. Khi đó P(A ∪ B) = P(A) + P(B) = 0,2 + 0,5 = 0,7.",
+        "trap": "Nhầm sang phép nhân 0,2 · 0,5 = 0,1."
+      }
+    },
+    {
+      "id": "t11_c9_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận biết hai biến cố độc lập",
+      "question": "Cặp biến cố nào sau đây là hai biến cố độc lập trong thực tế?",
+      "options": [
+        "A: 'Trời mưa to' và B: 'Đường phố bị ngập lụt'",
+        "A: 'Học sinh ôn bài chăm chỉ' và B: 'Học sinh đạt điểm 10'",
+        "A: 'Gieo đồng xu lần 1 ra mặt Ngửa' và B: 'Gieo đồng xu lần 2 ra mặt Sấp'",
+        "A: 'Rút được lá bài màu đỏ' và B: 'Rút được lá bài chất Cơ trong cùng 1 lần rút'"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hai biến cố độc lập khi kết quả của biến cố này hoàn toàn không làm thay đổi khả năng xảy ra của biến cố kia.",
+        "socraticPrompt": "Việc tung đồng xu lần 2 có bị ảnh hưởng bởi kết quả lần 1 không?",
+        "steps": "Các lần gieo đồng xu là hoàn toàn độc lập với nhau, kết quả lần 1 ra ngửa không làm thay đổi xác suất ra sấp ở lần 2 (vẫn là 1/2).",
+        "trap": "Các cặp còn lại đều có quan hệ nguyên nhân - kết quả hoặc phụ thuộc dữ liệu rút."
+      }
+    }
+  ]
+}

@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch03_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Cho hàm số $f(x) = \\begin{cases} \\frac{x^2 - 1}{x - 1} & \\text{khi } x \\ne 1 \\\\ m + 2 & \\text{khi } x = 1 \\end{cases}$. Giá trị của tham số $m$ để hàm số liên tục tại $x = 1$ là:",
-    "options": [
-      "A. $m = 0$",
-      "B. $m = 2$",
-      "C. $m = -1$",
-      "D. $m = 1$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Điều kiện liên tục: $\\lim_{x \\to 1} f(x) = f(1)$.\n- $\\lim_{x \\to 1} \\frac{(x - 1)(x + 1)}{x - 1} = \\lim_{x \\to 1} (x + 1) = 2$.\n- $f(1) = m + 2$.\nĐể hàm số liên tục tại $x = 1 \\Rightarrow m + 2 = 2 \\Leftrightarrow m = 0$.\n⚠️ Bài toán tìm tham số kinh điển của hàm số liên tục."
-  }
-]
+{
+  "chapterId": "ch03",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 3: Đề 3 — Đánh giá Năng lực Tổng hợp Giới hạn & Liên tục",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng giới hạn vô cực, khử căn thức và định lí nghiệm.",
+  "questions": [
+    {
+      "id": "t11_c3_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khử dạng vô định vô cực trừ vô cực",
+      "question": "Tính giới hạn của dãy số: L = lim [√(n² + 4n) - n] khi n tiến ra dương vô cực?",
+      "options": [
+        "4",
+        "2",
+        "0",
+        "+∞"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dạng ∞ - ∞, nhân lượng liên hợp: √(n² + 4n) + n.",
+        "socraticPrompt": "Tử số là (n² + 4n) - n² = 4n. Dưới mẫu đưa n ra ngoài được n(√(1 + 4/n) + 1). Rút gọn n được bao nhiêu?",
+        "steps": "L = lim [(n² + 4n) - n²] / [√(n² + 4n) + n] = lim 4n / [n(√(1 + 4/n) + 1)] = lim 4 / [√(1 + 4/n) + 1] = 4 / (1 + 1) = 2.",
+        "trap": "Không nhân liên hợp mà đoán ngay bằng 0 hoặc 4."
+      }
+    },
+    {
+      "id": "t11_c3_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đổi số thập phân vô hạn tuần hoàn sang phân số",
+      "question": "Biểu diễn số thập phân vô hạn tuần hoàn 0,(6) = 0,666... dưới dạng phân số tối giản là:",
+      "options": [
+        "6/10",
+        "3/5",
+        "2/3",
+        "6/99"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "0,(6) = 6/10 + 6/100 + 6/1000 + ... là tổng cấp số nhân lùi vô hạn với u1 = 6/10 và q = 1/10.",
+        "socraticPrompt": "S = u1 / (1 - q) = (6/10) / (1 - 1/10) = (6/10) / (9/10) rút gọn bằng bao nhiêu?",
+        "steps": "Áp dụng tổng CSN lùi vô hạn: S = (6/10) / (1 - 1/10) = (6/10) / (9/10) = 6/9 = 2/3.",
+        "trap": "Làm tròn thành 6/10 = 3/5."
+      }
+    },
+    {
+      "id": "t11_c3_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Định lí giá trị trung gian",
+      "question": "Phương trình x^5 - 3x - 1 = 0 có ít nhất bao nhiêu nghiệm thực trong khoảng (-1; 2)?",
+      "options": [
+        "Ít nhất 1 nghiệm",
+        "Ít nhất 2 nghiệm",
+        "Vô nghiệm",
+        "Đúng 5 nghiệm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Xét các khoảng nghiệm con: tìm các điểm xen kẽ để f(x) đổi dấu nhiều lần.",
+        "socraticPrompt": "Tính f(-1), f(0), f(2) để xem hàm số đổi dấu qua mấy khoảng con?",
+        "steps": "Xét f(x) = x^5 - 3x - 1 liên tục trên R. Ta có: f(-1) = -1 + 3 - 1 = 1 > 0; f(0) = -1 < 0 => có ít nhất 1 nghiệm trong (-1; 0). Lại có f(2) = 32 - 6 - 1 = 25 > 0. Vì f(0) · f(2) = (-1) · 25 < 0 nên có thêm ít nhất 1 nghiệm trong (0; 2). Vậy phương trình có ít nhất 2 nghiệm trong (-1; 2).",
+        "trap": "Chỉ xét hai đầu mút f(-1) = 1 và f(2) = 25 thấy cùng dấu dương vội kết luận không có nghiệm."
+      }
+    },
+    {
+      "id": "t11_c3_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giới hạn tại âm vô cực chứa căn thức",
+      "question": "Tính giới hạn: L = lim_{x -> -∞} [√(4x² + 1) / (x + 1)]?",
+      "options": [
+        "2",
+        "4",
+        "-2",
+        "-4"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khi x -> -∞, √(x²) = |x| = -x. Đưa x ra khỏi căn phải mang dấu trừ.",
+        "socraticPrompt": "Khi x là số âm rất lớn, √(4x²) bằng -2x hay +2x?",
+        "steps": "Với x < 0: √(4x² + 1) = √[x²(4 + 1/x²)] = |x|·√(4 + 1/x²) = -x·√(4 + 1/x²). Do đó L = lim_{x -> -∞} [-x·√(4 + 1/x²)] / [x(1 + 1/x)] = -√4 / 1 = -2.",
+        "trap": "Quên trị tuyệt đối |x| = -x khi x -> -∞ dẫn đến tính ra L = +2."
+      }
+    },
+    {
+      "id": "t11_c3_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hàm số liên tục trên từng khoảng",
+      "question": "Cho hàm số f(x) = (x² - 4)/(x - 2) khi x > 2 và f(x) = ax + 1 khi x ≤ 2. Giá trị của a để hàm số liên tục tại x = 2 là:",
+      "options": [
+        "a = 3/2",
+        "a = 2",
+        "a = 1",
+        "a = 5/2"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hàm số liên tục tại x = 2 khi lim_{x -> 2^+} f(x) = lim_{x -> 2^-} f(x) = f(2).",
+        "socraticPrompt": "Tính giới hạn bên phải (x > 2) rồi cho bằng giá trị hàm số tại x = 2 (2a + 1)?",
+        "steps": "Ta có lim_{x -> 2^+} f(x) = lim_{x -> 2^+} (x - 2)(x + 2)/(x - 2) = 4. Mặt khác f(2) = lim_{x -> 2^-} f(x) = 2a + 1. Để hàm số liên tục tại x = 2: 2a + 1 = 4 <=> 2a = 3 <=> a = 3/2.",
+        "trap": "Tính sai lim = 2 dẫn đến 2a + 1 = 2 <=> a = 1/2."
+      }
+    },
+    {
+      "id": "t11_c3_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quy tắc tính giới hạn thương",
+      "question": "Biết lim_{x -> 1} f(x) = 3 và lim_{x -> 1} g(x) = -2. Giới hạn lim_{x -> 1} [2f(x) - 3g(x)] bằng:",
+      "options": [
+        "0",
+        "6",
+        "-12",
+        "12"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính chất tuyến tính của giới hạn: lim [a·f(x) + b·g(x)] = a·lim f(x) + b·lim g(x).",
+        "socraticPrompt": "Thay 3 vào f(x) và -2 vào g(x): 2·(3) - 3·(-2) bằng bao nhiêu?",
+        "steps": "lim [2f(x) - 3g(x)] = 2·(3) - 3·(-2) = 6 + 6 = 12.",
+        "trap": "Nhầm dấu trừ: 6 - 6 = 0."
+      }
+    }
+  ]
+}

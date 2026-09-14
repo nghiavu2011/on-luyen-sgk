@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch03_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Tính giới hạn dạng $\\frac{0}{0}$: $\\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$:",
-    "options": [
-      "A. $0$",
-      "B. $2$",
-      "C. $4$",
-      "D. Không tồn tại"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khử dạng vô định: Phân tích tử $x^2 - 4 = (x - 2)(x + 2)$.\nTriệt tiêu $(x - 2)$: $\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4$.\n💡 Thay $x = 2$ vào sau khi đã rút gọn thừa số triệt tiêu.\n⚠️ Tránh kết luận ngay giới hạn bằng 0/0."
-  }
-]
+{
+  "chapterId": "ch03",
+  "examId": "de2",
+  "title": "Toán 11 — Chương 3: Đề 2 — Kỹ năng & Thực hành Khử dạng vô định",
+  "description": "Bài tập tính giới hạn dạng 0/0, giới hạn vô cực và tìm tham số để hàm số liên tục.",
+  "questions": [
+    {
+      "id": "t11_c3_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khử dạng vô định 0/0 bằng nhân tử",
+      "question": "Tính giới hạn của hàm số: L = lim_{x -> 3} (x² - 9) / (x - 3)?",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "Không tồn tại"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Dạng 0/0, phân tích hằng đẳng thức hiệu hai bình phương: x² - 9 = (x - 3)(x + 3).",
+        "socraticPrompt": "Rút gọn nhân tử chung (x - 3) rồi thay x = 3 vào biểu thức còn lại?",
+        "steps": "L = lim_{x -> 3} [(x - 3)(x + 3)] / (x - 3) = lim_{x -> 3} (x + 3) = 3 + 3 = 6.",
+        "trap": "Thay trực tiếp vào thấy 0/0 vội kết luận giới hạn bằng 0."
+      }
+    },
+    {
+      "id": "t11_c3_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tổng cấp số nhân lùi vô hạn cụ thể",
+      "question": "Tổng của cấp số nhân lùi vô hạn S = 1 + 1/2 + 1/4 + 1/8 + ... + 1/2^n + ... bằng:",
+      "options": [
+        "2",
+        "3/2",
+        "1",
+        "+∞"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cấp số nhân lùi vô hạn có u1 = 1 và công bội q = 1/2.",
+        "socraticPrompt": "Lấy u1 = 1 chia cho 1 - 1/2 thì kết quả là bao nhiêu?",
+        "steps": "Áp dụng công thức S = u1 / (1 - q) = 1 / (1 - 1/2) = 1 / (1/2) = 2.",
+        "trap": "Nhầm S = 1/(1 + 1/2) = 2/3 hoặc nghĩ vô hạn số hạng cộng lại phải ra vô cực."
+      }
+    },
+    {
+      "id": "t11_c3_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khử dạng vô định chứa căn thức",
+      "question": "Tính giới hạn của hàm số: L = lim_{x -> 0} [√(x + 4) - 2] / x?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1",
+        "0"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dạng vô định 0/0 có căn bậc hai, nhân lượng liên hợp: √(x + 4) + 2.",
+        "socraticPrompt": "Tử số sau khi nhân liên hợp trở thành (x + 4) - 4 = x, rút gọn với x dưới mẫu còn gì?",
+        "steps": "L = lim_{x -> 0} [(x + 4) - 4] / [x(√(x + 4) + 2)] = lim_{x -> 0} 1 / [√(x + 4) + 2] = 1 / (√4 + 2) = 1/4.",
+        "trap": "Nhầm căn bậc hai của 4 thành 4 dẫn đến 1/(4 + 2) = 1/6 hoặc tính ra 1/2."
+      }
+    },
+    {
+      "id": "t11_c3_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm tham số để hàm số liên tục",
+      "question": "Cho hàm số f(x) = (x² - 1)/(x - 1) khi x ≠ 1 và f(1) = m. Tìm giá trị của m để hàm số liên tục tại điểm x0 = 1?",
+      "options": [
+        "m = 1",
+        "m = 0",
+        "m = -2",
+        "m = 2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hàm số liên tục tại x = 1 khi lim_{x -> 1} f(x) = f(1).",
+        "socraticPrompt": "Tính giới hạn lim_{x -> 1} (x² - 1)/(x - 1) xem bằng bao nhiêu rồi cho m bằng giá trị đó?",
+        "steps": "Ta có lim_{x -> 1} f(x) = lim_{x -> 1} (x - 1)(x + 1)/(x - 1) = lim_{x -> 1} (x + 1) = 2. Để hàm số liên tục tại x0 = 1 thì f(1) = lim_{x -> 1} f(x) <=> m = 2.",
+        "trap": "Nhầm m = 1 do lấy số hạng tự do."
+      }
+    },
+    {
+      "id": "t11_c3_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giới hạn một bên",
+      "question": "Tính giới hạn một bên: lim_{x -> 2^+} (x - 3) / (x - 2)?",
+      "options": [
+        "-∞",
+        "+∞",
+        "-1",
+        "0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Dạng L/0: Tử số tiến về L < 0, mẫu số tiến về 0 từ phía dương.",
+        "socraticPrompt": "Khi x > 2 thì x - 2 mang dấu gì? Tử số 2 - 3 = -1 mang dấu gì?",
+        "steps": "Khi x -> 2^+, tử số tiến về 2 - 3 = -1 < 0; mẫu số x - 2 -> 0 và x - 2 > 0. Âm chia cho dương dần về 0 sẽ tiến về -∞.",
+        "trap": "Nhầm quy tắc dấu kết luận +∞."
+      }
+    },
+    {
+      "id": "t11_c3_d2_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giới hạn tại vô cực",
+      "question": "Tính giới hạn: lim_{x -> +∞} (4x³ - 2x + 1) / (2x³ + 5x²)?",
+      "options": [
+        "4",
+        "0",
+        "+∞",
+        "2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giới hạn của hàm phân thức hữu tỉ tại vô cực bằng tỉ số hệ số của bậc cao nhất.",
+        "socraticPrompt": "Bậc cao nhất ở cả tử và mẫu là x³. Lấy hệ số 4 chia hệ số 2 bằng mấy?",
+        "steps": "Chia cả tử và mẫu cho x³: lim_{x -> +∞} (4 - 2/x² + 1/x³) / (2 + 5/x) = 4/2 = 2.",
+        "trap": "Nhầm lấy bậc mẫu trừ bậc tử hoặc nhầm với giới hạn khi x -> 0."
+      }
+    }
+  ]
+}

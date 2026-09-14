@@ -1,62 +1,198 @@
-[
-  {
-    "id": "l01",
-    "title": "Bài 1: Giá trị lượng giác của góc lượng giác",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 1: Giá trị lượng giác của góc lượng giác.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 1: Giá trị lượng giác của góc lượng giác.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 1: Giá trị lượng giác của góc lượng giác để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l02",
-    "title": "Bài 2: Công thức lượng giác (cộng, nhân đôi, biến đổi)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 2: Công thức lượng giác (cộng, nhân đôi, biến đổi).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 2: Công thức lượng giác (cộng, nhân đôi, biến đổi).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 2: Công thức lượng giác (cộng, nhân đôi, biến đổi) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l03",
-    "title": "Bài 3: Hàm số lượng giác và đồ thị",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 3: Hàm số lượng giác và đồ thị.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 3: Hàm số lượng giác và đồ thị.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 3: Hàm số lượng giác và đồ thị để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l04",
-    "title": "Bài 4: Phương trình lượng giác cơ bản",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 4: Phương trình lượng giác cơ bản.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 4: Phương trình lượng giác cơ bản.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 4: Phương trình lượng giác cơ bản để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Hàm số lượng giác & Phương trình lượng giác",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Giá trị lượng giác của góc lượng giác",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững khái niệm góc lượng giác, đơn vị radian và đường tròn lượng giác.",
+        "Hiểu định nghĩa các giá trị lượng giác: sin, cos, tan, cot của một góc lượng giác.",
+        "Vận dụng các hệ thức lượng giác cơ bản và giá trị của các góc có liên quan đặc biệt."
+      ],
+      "concepts": [
+        {
+          "term": "Góc lượng giác",
+          "definition": "Quy ước chiều quay ngược chiều kim đồng hồ là chiều dương (+), cùng chiều kim đồng hồ là chiều âm (-). Đơn vị đo là độ (°) hoặc radian (rad) với π rad = 180°.",
+          "notation": "α (rad) = a° · π / 180",
+          "note": "1 rad ≈ 57°17'45''."
+        },
+        {
+          "term": "Đường tròn lượng giác",
+          "definition": "Đường tròn định hướng có tâm là gốc toạ độ O, bán kính R = 1, điểm gốc A(1; 0).",
+          "notation": "Trục hoành Ox là trục cosin, trục tung Oy là trục sin",
+          "note": "-1 ≤ sin α ≤ 1 và -1 ≤ cos α ≤ 1 với mọi góc lượng giác α."
+        },
+        {
+          "term": "Hệ thức lượng giác cơ bản",
+          "definition": "Các đẳng thức liên hệ giữa sin, cos, tan, cot của cùng một góc lượng giác.",
+          "notation": "sin²α + cos²α = 1; tan α = sin α / cos α; 1 + tan²α = 1 / cos²α",
+          "note": "tan α · cot α = 1 (với sin α ≠ 0, cos α ≠ 0)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quan hệ giữa các góc đặc biệt",
+          "meaning": "Cos đối, sin bù, phụ chéo, khác pi tan và cot (Cos(-α) = cos α; sin(π - α) = sin α; sin(π/2 - α) = cos α; tan(α + π) = tan α)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho sin α = 3/5 với π/2 < α < π. Tính giá trị của cos α và tan α?",
+          "steps": [
+            "Bước 1: Áp dụng hệ thức cơ bản: sin²α + cos²α = 1 => cos²α = 1 - (3/5)² = 16/25.",
+            "Bước 2: Vì π/2 < α < π (góc phần tư thứ II), nên cos α < 0. Suy ra cos α = -4/5.",
+            "Bước 3: Tính tan α = sin α / cos α = (3/5) / (-4/5) = -3/4."
+          ],
+          "answer": "cos α = -4/5 và tan α = -3/4."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên xét dấu của góc phần tư, lấy nhầm cos α = +4/5 dẫn đến tan α = +3/4.",
+          "why": "Trong góc phần tư thứ II (π/2 < α < π), điểm biểu diễn có hoành độ âm nên cos α luôn mang dấu âm."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Công thức lượng giác (cộng, nhân đôi, biến đổi)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các công thức cộng lượng giác cho sin, cos, tan.",
+        "Nắm vững các công thức nhân đôi và công thức hạ bậc.",
+        "Biết cách biến đổi tích thành tổng và biến đổi tổng thành tích để rút gọn biểu thức."
+      ],
+      "concepts": [
+        {
+          "term": "Công thức cộng",
+          "definition": "cos(a ± b) = cos a cos b ∓ sin a sin b; sin(a ± b) = sin a cos b ± cos a sin b.",
+          "notation": "tan(a + b) = (tan a + tan b) / (1 - tan a tan b)",
+          "note": "Nhớ: sin thì sin cos cos sin, cos thì cos cos sin sin dấu trừ."
+        },
+        {
+          "term": "Công thức nhân đôi",
+          "definition": "sin 2a = 2 sin a cos a; cos 2a = cos²a - sin²a = 2cos²a - 1 = 1 - 2sin²a.",
+          "notation": "tan 2a = 2tan a / (1 - tan²a)",
+          "note": "Công thức hạ bậc: cos²a = (1 + cos 2a) / 2; sin²a = (1 - cos 2a) / 2."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức biến đổi tích thành tổng",
+          "meaning": "cos a cos b = ½[cos(a - b) + cos(a + b)]; sin a sin b = ½[cos(a - b) - cos(a + b)]; sin a cos b = ½[sin(a - b) + sin(a + b)]."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị chính xác của biểu thức P = cos 75° cos 15°?",
+          "steps": [
+            "Bước 1: Áp dụng công thức biến đổi tích thành tổng: cos a cos b = ½[cos(a - b) + cos(a + b)].",
+            "Bước 2: Thay a = 75° và b = 15°: P = ½[cos(75° - 15°) + cos(75° + 15°)] = ½[cos 60° + cos 90°].",
+            "Bước 3: Ta có cos 60° = 1/2 và cos 90° = 0. Vậy P = ½[1/2 + 0] = 1/4."
+          ],
+          "answer": "P = 1/4."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm công thức sin(a + b) thành sin a + sin b.",
+          "why": "Các hàm số lượng giác không có tính chất phân phối. Bắt buộc phải dùng đúng công thức cộng lượng giác."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Hàm số lượng giác và đồ thị",
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu định nghĩa, tập xác định, tập giá trị, tính chẵn lẻ và chu kì tuần hoàn của 4 hàm số lượng giác.",
+        "Nhận biết được dạng đồ thị của các hàm số y = sin x, y = cos x, y = tan x, y = cot x."
+      ],
+      "concepts": [
+        {
+          "term": "Hàm số y = sin x và y = cos x",
+          "definition": "Đều có tập xác định D = R và tập giá trị [-1; 1]. Hàm sin x là hàm số lẻ, tuần hoàn với chu kì T = 2π. Hàm cos x là hàm số chẵn, tuần hoàn với chu kì T = 2π.",
+          "notation": "y = sin x (lẻ, chu kì 2π); y = cos x (chẵn, chu kì 2π)",
+          "note": "Đồ thị của cả hai hàm số là đường hình sin lượn sóng."
+        },
+        {
+          "term": "Hàm số y = tan x và y = cot x",
+          "definition": "Hàm tan x có TXĐ D = R \\ {π/2 + kπ, k ∈ Z}. Hàm cot x có TXĐ D = R \\ {kπ, k ∈ Z}. Cả hai đều là hàm số lẻ, tuần hoàn với chu kì T = π.",
+          "notation": "T = π (chu kì của hàm tan và cot)",
+          "note": "Hàm số y = tan x luôn đồng biến trên mỗi khoảng xác định của nó."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Chu kì của hàm số hợp",
+          "meaning": "Hàm số y = sin(ωx + φ) và y = cos(ωx + φ) tuần hoàn với chu kì T = 2π / |ω|. Hàm y = tan(ωx + φ) tuần hoàn với chu kì T = π / |ω|."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tìm tập xác định D của hàm số y = tan(2x - π/3)?",
+          "steps": [
+            "Bước 1: Điều kiện xác định của hàm số y = tan u là u ≠ π/2 + kπ (k ∈ Z).",
+            "Bước 2: Thay u = 2x - π/3: 2x - π/3 ≠ π/2 + kπ <=> 2x ≠ π/2 + π/3 + kπ = 5π/6 + kπ.",
+            "Bước 3: Chia cả hai vế cho 2: x ≠ 5π/12 + kπ/2 (k ∈ Z)."
+          ],
+          "answer": "D = R \\ {5π/12 + kπ/2, k ∈ Z}."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chia đuôi kπ cho 2 khi giải điều kiện 2x ≠ ...",
+          "why": "Khi chia cho hệ số của x, bắt buộc phải chia cả số hạng tự do lẫn chu kì tuần hoàn kπ."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Phương trình lượng giác cơ bản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững công thức nghiệm của các phương trình lượng giác cơ bản: sin x = m, cos x = m, tan x = m, cot x = m.",
+        "Biết cách giải và biểu diễn họ nghiệm trên đường tròn lượng giác."
+      ],
+      "concepts": [
+        {
+          "term": "Phương trình sin x = m và cos x = m",
+          "definition": "Có nghiệm khi và chỉ khi |m| ≤ 1. sin x = sin α <=> x = α + k2π hoặc x = π - α + k2π. cos x = cos α <=> x = ±α + k2π (k ∈ Z).",
+          "notation": "sin x = sin α <=> x = α + k2π hoặc x = π - α + k2π",
+          "note": "Nếu |m| > 1 thì phương trình vô nghiệm."
+        },
+        {
+          "term": "Phương trình tan x = m và cot x = m",
+          "definition": "Luôn có nghiệm với mọi giá trị thực m. tan x = tan α <=> x = α + kπ; cot x = cot α <=> x = α + kπ (k ∈ Z).",
+          "notation": "tan x = tan α <=> x = α + kπ",
+          "note": "Chu kì của tan và cot chỉ là kπ (không phải k2π)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các trường hợp nghiệm đặc biệt",
+          "meaning": "sin x = 0 <=> x = kπ; sin x = 1 <=> x = π/2 + k2π; sin x = -1 <=> x = -π/2 + k2π. cos x = 0 <=> x = π/2 + kπ; cos x = 1 <=> x = k2π; cos x = -1 <=> x = π + k2π."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Giải phương trình lượng giác cơ bản: 2sin x - 1 = 0?",
+          "steps": [
+            "Bước 1: Chuyển vế đưa về phương trình cơ bản: sin x = 1/2.",
+            "Bước 2: Nhận thấy 1/2 = sin(π/6). Áp dụng công thức nghiệm của sin x = sin α:",
+            "Bước 3: Ta được hai họ nghiệm: x = π/6 + k2π hoặc x = π - π/6 + k2π = 5π/6 + k2π (k ∈ Z)."
+          ],
+          "answer": "x = π/6 + k2π hoặc x = 5π/6 + k2π (k ∈ Z)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ lấy một họ nghiệm x = π/6 + k2π mà quên mất họ nghiệm x = π - π/6 + k2π.",
+          "why": "Hai góc bù nhau có cùng giá trị sin nên phương trình sin x = m luôn có hai họ nghiệm bù nhau."
+        }
+      ]
+    }
+  ]
+}

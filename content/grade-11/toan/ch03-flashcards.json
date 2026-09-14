@@ -1,98 +1,85 @@
-[
-  {
-    "front": "$\\lim_{n \\to +\\infty} \\frac{1}{n^k}$ ($k > 0$) bằng bao nhiêu?",
-    "back": "Bằng 0.",
-    "tags": [
-      "Giới hạn",
-      "Cơ bản"
-    ]
-  },
-  {
-    "front": "$\\lim_{n \\to +\\infty} q^n$ khi $|q| < 1$ bằng bao nhiêu?",
-    "back": "Bằng 0.",
-    "tags": [
-      "Lũy thừa",
-      "Giới hạn"
-    ]
-  },
-  {
-    "front": "Bốn dạng vô định cơ bản trong tính giới hạn?",
-    "back": "$\\frac{0}{0}$, $\\frac{\\infty}{\\infty}$, $\\infty - \\infty$, và $0 \\times \\infty$.",
-    "tags": [
-      "Vô định",
-      "Giải tích"
-    ]
-  },
-  {
-    "front": "Khử dạng vô định $\\frac{0}{0}$ đối với hàm phân thức hữu tỉ?",
-    "back": "Phân tích đa thức ở tử và mẫu thành nhân tử chứa $(x - x_0)$ rồi triệt tiêu nhân tử chung.",
-    "tags": [
-      "Khử vô định",
-      "Nhân tử"
-    ]
-  },
-  {
-    "front": "Khử dạng vô định $\\frac{0}{0}$ hoặc $\\infty - \\infty$ có chứa căn thức?",
-    "back": "Nhân và chia với lượng liên hợp tương ứng (bậc 2: $(\\sqrt{A} - B)(\\sqrt{A} + B) = A - B^2$).",
-    "tags": [
-      "Lượng liên hợp",
-      "Căn thức"
-    ]
-  },
-  {
-    "front": "Điều kiện để hàm số $y = f(x)$ liên tục tại điểm $x_0$?",
-    "back": "$\\lim_{x \\to x_0} f(x) = f(x_0)$ (hàm số xác định tại $x_0$, có giới hạn hữu hạn và giới hạn bằng giá trị của hàm tại đó).",
-    "tags": [
-      "Hàm liên tục",
-      "Định nghĩa"
-    ]
-  },
-  {
-    "front": "Các hàm số sơ cấp (đa thức, phân thức, lượng giác) liên tục trên đâu?",
-    "back": "Liên tục trên từng khoảng xác định của chúng.",
-    "tags": [
-      "Tính liên tục",
-      "Tập xác định"
-    ]
-  },
-  {
-    "front": "Nội dung định lí giá trị trung gian (nghiệm của phương trình)?",
-    "back": "Nếu $f(x)$ liên tục trên đoạn $[a; b]$ và $f(a) \\times f(b) < 0$ thì phương trình $f(x) = 0$ có ít nhất một nghiệm trong khoảng $(a; b)$.",
-    "tags": [
-      "Nghiệm PT",
-      "Định lí"
-    ]
-  },
-  {
-    "front": "$\\lim_{x \\to 0} \\frac{\\sin x}{x}$ bằng bao nhiêu?",
-    "back": "Bằng 1.",
-    "tags": [
-      "Giới hạn đặc biệt",
-      "Lượng giác"
-    ]
-  },
-  {
-    "front": "Giới hạn một bên $\\lim_{x \\to x_0^+} f(x)$ và $\\lim_{x \\to x_0^-} f(x)$ có quan hệ gì để tồn tại $\\lim_{x \\to x_0} f(x)$?",
-    "back": "Hai giới hạn một bên phải cùng tồn tại và bằng nhau.",
-    "tags": [
-      "Giới hạn 1 bên",
-      "Điều kiện"
-    ]
-  },
-  {
-    "front": "$\\lim_{x \\to +\\infty} \\frac{2x^2 - 3x + 1}{x^2 + 5}$ bằng bao nhiêu?",
-    "back": "Bằng hệ số bậc cao nhất: $\\frac{2}{1} = 2$.",
-    "tags": [
-      "Tính nhanh",
-      "Giới hạn"
-    ]
-  },
-  {
-    "front": "Khi nào một hàm số bị gián đoạn tại điểm $x_0$?",
-    "back": "Khi hàm số không xác định tại $x_0$, hoặc không tồn tại giới hạn, hoặc $\\lim_{x \\to x_0} f(x) \\ne f(x_0)$.",
-    "tags": [
-      "Gián đoạn",
-      "Hàm số"
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "flashcards": [
+    {
+      "id": "fc_t11_c3_01",
+      "front": "Các giới hạn dãy số cơ bản cần nhớ là gì?",
+      "back": "lim (1/n^k) = 0 (k > 0); lim q^n = 0 (|q| < 1); lim c = c; lim n^k = +∞.",
+      "category": "Giới hạn dãy số",
+      "example": "lim (1/n) = 0; lim (1/2)^n = 0.",
+      "mnemonic": "Mẫu số n tiến ra vô cực thì phân số tiến về 0."
+    },
+    {
+      "id": "fc_t11_c3_02",
+      "front": "Công thức tính tổng Cấp số nhân lùi vô hạn (|q| < 1)?",
+      "back": "S = u1 / (1 - q).",
+      "category": "Giới hạn dãy số",
+      "example": "1 + 1/2 + 1/4 + ... = 1 / (1 - 1/2) = 2.",
+      "mnemonic": "u1 chia cho (1 trừ q)."
+    },
+    {
+      "id": "fc_t11_c3_03",
+      "front": "Điều kiện để hàm số có giới hạn tại một điểm x0?",
+      "back": "lim_{x -> x0} f(x) = L khi và chỉ khi lim_{x -> x0^+} f(x) = lim_{x -> x0^-} f(x) = L.",
+      "category": "Giới hạn hàm số",
+      "example": "Giới hạn trái bằng giới hạn phải thì mới tồn tại giới hạn.",
+      "mnemonic": "Trái bằng Phải thì mới có Giới hạn."
+    },
+    {
+      "id": "fc_t11_c3_04",
+      "front": "4 dạng vô định kinh điển trong giới hạn là gì?",
+      "back": "0/0, ∞/∞, ∞ - ∞, 0 · ∞.",
+      "category": "Phương pháp giải",
+      "example": "(x² - 4)/(x - 2) khi x -> 2 là dạng 0/0.",
+      "mnemonic": "Không chia không, vô cùng chia vô cùng, vô cùng trừ vô cùng, không nhân vô cùng."
+    },
+    {
+      "id": "fc_t11_c3_05",
+      "front": "Phương pháp khử dạng vô định 0/0 chứa căn bậc hai?",
+      "back": "Nhân cả tử và mẫu với biểu thức liên hợp: √(a) - b nhân với √(a) + b để xuất hiện hằng đẳng thức a - b².",
+      "category": "Phương pháp giải",
+      "example": "[√(x+1) - 1] · [√(x+1) + 1] = x + 1 - 1 = x.",
+      "mnemonic": "Thấy căn có dấu trừ thì nhân với căn mang dấu cộng."
+    },
+    {
+      "id": "fc_t11_c3_06",
+      "front": "Lưu ý quan trọng khi đưa x ra ngoài căn bậc hai khi x -> -∞?",
+      "back": "√(x²) = |x| = -x (vì x âm).",
+      "category": "Bẫy sai kinh điển",
+      "example": "√(4x² + 1) = -x · √(4 + 1/x²) khi x -> -∞.",
+      "mnemonic": "Tiến về âm vô cùng: đưa x ra ngoài căn PHẢI CÓ DẤU TRỪ."
+    },
+    {
+      "id": "fc_t11_c3_07",
+      "front": "Định nghĩa hàm số liên tục tại điểm x0?",
+      "back": "Hàm số f(x) liên tục tại x0 <=> lim_{x -> x0} f(x) = f(x0).",
+      "category": "Hàm số liên tục",
+      "example": "Hàm đa thức f(x) = x² + 1 liên tục tại mọi x0 ∈ R.",
+      "mnemonic": "Giới hạn khi đến x0 bằng chính giá trị tại x0."
+    },
+    {
+      "id": "fc_t11_c3_08",
+      "front": "Tính liên tục của các hàm số sơ cấp cơ bản?",
+      "back": "Hàm đa thức, hàm phân thức hữu tỉ, các hàm lượng giác liên tục trên từng khoảng xác định của chúng.",
+      "category": "Hàm số liên tục",
+      "example": "y = 1/x liên tục trên (-∞; 0) và (0; +∞).",
+      "mnemonic": "Xác định ở đâu thì liên tục ở đó."
+    },
+    {
+      "id": "fc_t11_c3_09",
+      "front": "Định lí giá trị trung gian (chứng minh phương trình có nghiệm)?",
+      "back": "Nếu f(x) liên tục trên đoạn [a; b] và f(a) · f(b) < 0 thì phương trình f(x) = 0 có ít nhất một nghiệm c ∈ (a; b).",
+      "category": "Định lí nghiệm",
+      "example": "f(0) = -1 < 0, f(1) = 2 > 0 => có nghiệm trong (0; 1).",
+      "mnemonic": "Liên tục trên đoạn + Hai đầu trái dấu = Chắc chắn có nghiệm."
+    },
+    {
+      "id": "fc_t11_c3_10",
+      "front": "Hình ảnh hình học của hàm số liên tục là gì?",
+      "back": "Đồ thị của hàm số liên tục trên một khoảng là một đường liền nét (không bị đứt quãng, nhảy cóc).",
+      "category": "Ý nghĩa hình học",
+      "example": "Đường parabol hoặc đường thẳng là đường nét liền.",
+      "mnemonic": "Liên tục là vẽ một nét không nhấc bút."
+    }
+  ]
+}

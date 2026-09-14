@@ -1,66 +1,85 @@
-[
-  {
-    "front": "Mẫu số liệu ghép nhóm là gì?",
-    "back": "Là mẫu số liệu được chia thành các nhóm con kế tiếp nhau có dạng $[a_i; a_{i+1})$, mỗi nhóm có độ dài và tần số tương ứng.",
-    "tags": [
-      "Thống kê 11",
-      "Ghép nhóm"
-    ]
-  },
-  {
-    "front": "Giá trị đại diện $c_i$ của nhóm $[a_i; a_{i+1})$ được tính thế nào?",
-    "back": "$c_i = \\frac{a_i + a_{i+1}}{2}$ (trung bình cộng của hai đầu mút nhóm).",
-    "tags": [
-      "Giá trị đại diện",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Công thức tính số trung bình $\\bar{x}$ của mẫu ghép nhóm?",
-    "back": "$\\bar{x} = \\frac{m_1 c_1 + m_2 c_2 + \\dots + m_k c_k}{n}$ (với $n = \\sum m_i$ là cỡ mẫu).",
-    "tags": [
-      "Số trung bình",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Trung vị $M_e$ của mẫu số liệu ghép nhóm chia mẫu thành mấy phần bằng nhau?",
-    "back": "Chia mẫu số liệu đã sắp xếp thành 2 phần bằng nhau ($50\\%$ số liệu nhỏ hơn và $50\\%$ lớn hơn trung vị).",
-    "tags": [
-      "Trung vị",
-      "Ý nghĩa"
-    ]
-  },
-  {
-    "front": "Tứ phân vị $Q_1, Q_2, Q_3$ chia mẫu số liệu thành mấy phần bằng nhau?",
-    "back": "Chia mẫu thành 4 phần bằng nhau, mỗi phần chứa $25\\%$ số quan sát. Trong đó $Q_2 = M_e$ (trung vị).",
-    "tags": [
-      "Tứ phân vị",
-      "Ý nghĩa"
-    ]
-  },
-  {
-    "front": "Mốt ($M_o$) của mẫu số liệu ghép nhóm là gì?",
-    "back": "Là giá trị có tần số xuất hiện lớn nhất, đại diện cho giá trị phổ biến nhất trong mẫu số liệu.",
-    "tags": [
-      "Mốt",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Khi nào nên dùng Trung vị thay cho Số trung bình để đo xu thế trung tâm?",
-    "back": "Khi trong mẫu số liệu xuất hiện các giá trị ngoại lai bất thường (quá lớn hoặc quá nhỏ làm méo mó số trung bình).",
-    "tags": [
-      "Ứng dụng",
-      "Thống kê"
-    ]
-  },
-  {
-    "front": "Nhóm chứa trung vị được xác định dựa vào điều kiện nào?",
-    "back": "Nhóm đầu tiên có tần số tích luỹ lớn hơn hoặc bằng $\\frac{n}{2}$.",
-    "tags": [
-      "Xác định nhóm",
-      "Thuật toán"
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "flashcards": [
+    {
+      "id": "fc_t11_c5_01",
+      "front": "Công thức tính giá trị đại diện ci của nhóm [ai; ai+1)?",
+      "back": "ci = (ai + ai+1) / 2 (trung bình cộng hai đầu mút).",
+      "category": "Khái niệm",
+      "example": "Nhóm [40; 60) có ci = (40 + 60)/2 = 50.",
+      "mnemonic": "Đầu trái cộng đầu phải chia hai."
+    },
+    {
+      "id": "fc_t11_c5_02",
+      "front": "Công thức tính độ dài nhóm h của nhóm [ai; ai+1)?",
+      "back": "h = ai+1 - ai (đầu phải trừ đầu trái).",
+      "category": "Khái niệm",
+      "example": "Nhóm [15; 20) có độ dài h = 20 - 15 = 5.",
+      "mnemonic": "Lấy số lớn trừ số bé là ra độ dài nhóm."
+    },
+    {
+      "id": "fc_t11_c5_03",
+      "front": "Công thức tính số trung bình x̄ của mẫu ghép nhóm?",
+      "back": "x̄ = (m1·c1 + m2·c2 + ... + mk·ck) / n, với n = ∑ mi.",
+      "category": "Số trung bình",
+      "example": "Tổng (tần số nhân đại diện) chia cho tổng cỡ mẫu.",
+      "mnemonic": "Tần số nhân đại diện, cộng hết lại rồi chia tổng số."
+    },
+    {
+      "id": "fc_t11_c5_04",
+      "front": "Cách xác định nhóm chứa trung vị Me?",
+      "back": "Là nhóm đầu tiên có tần số tích luỹ Cf ≥ n/2.",
+      "category": "Trung vị",
+      "example": "n = 50 => n/2 = 25. Tìm nhóm đầu tiên có tích luỹ ≥ 25.",
+      "mnemonic": "Tích luỹ đạt nửa mẫu (n/2) ở đâu thì trung vị nằm ở đó."
+    },
+    {
+      "id": "fc_t11_c5_05",
+      "front": "Công thức tính Trung vị Me của mẫu số liệu ghép nhóm?",
+      "back": "Me = ap + [(n/2 - C) / mp] · h.",
+      "category": "Trung vị",
+      "example": "ap là đầu mút trái nhóm chứa trung vị, C là tích luỹ nhóm trước, mp là tần số nhóm đó, h là độ dài nhóm.",
+      "mnemonic": "Đầu trái cộng: (nửa mẫu trừ tích luỹ trước) chia tần số nhóm, rồi nhân độ dài h."
+    },
+    {
+      "id": "fc_t11_c5_06",
+      "front": "Cách xác định nhóm chứa Tứ phân vị Q1 và Q3?",
+      "back": "Nhóm chứa Q1 là nhóm đầu tiên có Cf ≥ n/4. Nhóm chứa Q3 là nhóm đầu tiên có Cf ≥ 3n/4.",
+      "category": "Tứ phân vị",
+      "example": "Q1 ứng với một phần tư mẫu (n/4), Q3 ứng với ba phần tư mẫu (3n/4).",
+      "mnemonic": "Q1: một phần tư; Q2: nửa mẫu; Q3: ba phần tư."
+    },
+    {
+      "id": "fc_t11_c5_07",
+      "front": "Công thức tính Mốt Mo của mẫu số liệu ghép nhóm?",
+      "back": "Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h.",
+      "category": "Mốt",
+      "example": "Nhóm chứa mốt là nhóm có tần số mj lớn nhất.",
+      "mnemonic": "Đầu trái mốt cộng (độ lệch trước chia tổng hai độ lệch trước sau) nhân h."
+    },
+    {
+      "id": "fc_t11_c5_08",
+      "front": "Công thức tính khoảng tứ phân vị ∆Q?",
+      "back": "∆Q = Q3 - Q1.",
+      "category": "Độ phân tán",
+      "example": "Q3 = 25, Q1 = 15 => ∆Q = 25 - 15 = 10.",
+      "mnemonic": "Khoảng tứ phân vị = Q3 trừ Q1."
+    },
+    {
+      "id": "fc_t11_c5_09",
+      "front": "Khi nào nên dùng Trung vị thay cho Số trung bình?",
+      "back": "Khi mẫu số liệu có phân bố lệch mạnh hoặc chứa các giá trị ngoại lai (quá lớn hoặc quá bé bất thường).",
+      "category": "Ứng dụng thực tế",
+      "example": "Thu nhập, giá nhà đất thường dùng trung vị vì không bị méo bởi số ít người siêu giàu.",
+      "mnemonic": "Có số đột biến ngoại lai thì tin Trung vị hơn Số trung bình."
+    },
+    {
+      "id": "fc_t11_c5_10",
+      "front": "Ý nghĩa của Mốt trong kinh doanh thương mại?",
+      "back": "Chỉ ra giá trị hoặc kích cỡ sản phẩm được người tiêu dùng chọn mua nhiều nhất (nhu cầu thị trường cao nhất).",
+      "category": "Ứng dụng thực tế",
+      "example": "Tìm cỡ áo, cỡ giày bán chạy nhất để lập kế hoạch nhập kho.",
+      "mnemonic": "Mốt là hàng bán chạy nhất."
+    }
+  ]
+}

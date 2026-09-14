@@ -1,30 +1,128 @@
-[
-  {
-    "id": "toan11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khẳng định nào sau đây là ĐÚNG với mọi số thực $x$?",
-    "options": [
-      "A. $\\sin^2 x - \\cos^2 x = 1$",
-      "B. $\\sin^2 x + \\cos^2 x = 1$",
-      "C. $\\sin x + \\cos x = 1$",
-      "D. $\\sin^2 x + \\cos^2 x = 0$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Hằng đẳng thức lượng giác cơ bản: $\\sin^2 x + \\cos^2 x = 1$ với mọi $x \\in \\mathbb{R}$.\n💡 Xuất phát trực tiếp từ định lí Pythagore trên đường tròn lượng giác.\n⚠️ Tránh nhầm với hiệu hai bình phương."
-  },
-  {
-    "id": "toan11_ch01_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Hàm số nào sau đây là hàm số chẵn?",
-    "options": [
-      "A. $y = \\sin x$",
-      "B. $y = \\tan x$",
-      "C. $y = \\cos x$",
-      "D. $y = \\cot x$"
-    ],
-    "answer": 2,
-    "explanation": "📌 Tính chẵn lẻ: $\\cos(-x) = \\cos x$ nên $y = \\cos x$ là hàm số chẵn.\n💡 $\\sin(-x) = -\\sin x$, $\\tan(-x) = -\\tan x$ là các hàm số lẻ.\n⚠️ Cos đối là hàm chẵn duy nhất trong nhóm cơ bản."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 1: Đề 1 — Khái niệm & Nhận biết lượng giác",
+  "description": "Bộ đề trắc nghiệm kiểm tra nhận biết góc lượng giác, công thức cơ bản và tập xác định.",
+  "questions": [
+    {
+      "id": "t11_c1_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị đo góc lượng giác",
+      "question": "Góc lượng giác có số đo 60° khi đổi sang đơn vị radian có giá trị bằng:",
+      "options": [
+        "π/3 rad",
+        "π/6 rad",
+        "π/4 rad",
+        "2π/3 rad"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức chuyển đổi từ độ sang radian: α = a° · π / 180°.",
+        "socraticPrompt": "Lấy 60 nhân π chia cho 180 thì kết quả rút gọn bằng bao nhiêu?",
+        "steps": "Ta có: 60° = 60 · π / 180 = π/3 rad.",
+        "trap": "Nhầm 60° với 30° (π/6 rad)."
+      }
+    },
+    {
+      "id": "t11_c1_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hệ thức lượng giác cơ bản",
+      "question": "Khẳng định nào sau đây là ĐÚNG với mọi số thực α (với điều kiện các biểu thức có nghĩa)?",
+      "options": [
+        "sin²α - cos²α = 1",
+        "sin²α + cos²α = 1",
+        "tan α = cos α / sin α",
+        "1 + tan²α = 1 / sin²α"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hệ thức lượng giác cơ bản sin²α + cos²α = 1 dựa trên định lí Pythagore.",
+        "socraticPrompt": "Tổng bình phương của sin và cos của cùng một góc luôn bằng hằng số nào?",
+        "steps": "Theo hệ thức lượng giác cơ bản trên đường tròn đơn vị: sin²α + cos²α = 1.",
+        "trap": "Nhầm dấu trừ sin²α - cos²α = 1."
+      }
+    },
+    {
+      "id": "t11_c1_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tập xác định của hàm số tan x",
+      "question": "Tập xác định D của hàm số y = tan x là:",
+      "options": [
+        "D = R \\ {kπ, k ∈ Z}",
+        "D = R",
+        "D = R \\ {π/2 + kπ, k ∈ Z}",
+        "D = [-1; 1]"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hàm số tan x = sin x / cos x xác định khi cos x ≠ 0.",
+        "socraticPrompt": "cos x = 0 tại những điểm nào trên đường tròn lượng giác?",
+        "steps": "Hàm số y = tan x xác định <=> cos x ≠ 0 <=> x ≠ π/2 + kπ (k ∈ Z). Do đó D = R \\ {π/2 + kπ, k ∈ Z}.",
+        "trap": "Nhầm điều kiện xác định của cot x (x ≠ kπ)."
+      }
+    },
+    {
+      "id": "t11_c1_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phương trình lượng giác cơ bản",
+      "question": "Tập nghiệm của phương trình lượng giác sin x = 1/2 là:",
+      "options": [
+        "x = ±π/6 + k2π",
+        "x = π/3 + k2π hoặc x = 2π/3 + k2π",
+        "x = π/6 + kπ hoặc x = 5π/6 + kπ",
+        "x = π/6 + k2π hoặc x = 5π/6 + k2π"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công thức nghiệm của sin x = sin α: x = α + k2π hoặc x = π - α + k2π.",
+        "socraticPrompt": "Góc nào có sin bằng 1/2? Nhớ hai họ nghiệm bù nhau và có đuôi chu kì k2π nhé!",
+        "steps": "sin x = 1/2 = sin(π/6) <=> x = π/6 + k2π hoặc x = π - π/6 + k2π = 5π/6 + k2π (k ∈ Z).",
+        "trap": "Chọn đuôi kπ thay vì k2π hoặc nhầm họ nghiệm cos (±α)."
+      }
+    },
+    {
+      "id": "t11_c1_d1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giá trị lớn nhất của hàm lượng giác",
+      "question": "Giá trị lớn nhất M của hàm số y = 3sin x - 2 bằng bao nhiêu?",
+      "options": [
+        "M = 1",
+        "M = 3",
+        "M = 5",
+        "M = -1"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.",
+        "socraticPrompt": "Giá trị lớn nhất của sin x bằng bao nhiêu? Thay giá trị đó vào biểu thức để tìm M?",
+        "steps": "Với mọi x ∈ R, ta luôn có sin x ≤ 1. Nhân 3 cả hai vế: 3sin x ≤ 3. Trừ 2: 3sin x - 2 ≤ 3 - 2 = 1. Vậy giá trị lớn nhất là M = 1 (đạt được khi sin x = 1).",
+        "trap": "Lấy luôn hệ số 3 làm giá trị lớn nhất (quên trừ đi 2)."
+      }
+    },
+    {
+      "id": "t11_c1_d1_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính giá trị lượng giác khi biết góc",
+      "question": "Cho góc α thỏa mãn cos α = -12/13 và π < α < 3π/2. Giá trị của sin α bằng bao nhiêu?",
+      "options": [
+        "5/13",
+        "12/13",
+        "-5/13",
+        "-1/13"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.",
+        "socraticPrompt": "Trong góc phần tư thứ III (π < α < 3π/2), tung độ của điểm biểu diễn mang dấu gì?",
+        "steps": "sin²α = 1 - cos²α = 1 - (-12/13)² = 1 - 144/169 = 25/169. Vì π < α < 3π/2 (góc phần tư III) nên sin α < 0. Do đó sin α = -5/13.",
+        "trap": "Lấy nghiệm dương sin α = +5/13 do quên kiểm tra góc phần tư."
+      }
+    }
+  ]
+}

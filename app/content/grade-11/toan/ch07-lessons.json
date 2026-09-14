@@ -1,47 +1,165 @@
-[
-  {
-    "id": "l21",
-    "title": "Bài 21: Định nghĩa và ý nghĩa hình học của đạo hàm",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 21: Định nghĩa và ý nghĩa hình học của đạo hàm.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 21: Định nghĩa và ý nghĩa hình học của đạo hàm.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 21: Định nghĩa và ý nghĩa hình học của đạo hàm để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l22",
-    "title": "Bài 22: Các quy tắc tính đạo hàm cơ bản và hàm hợp",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 22: Các quy tắc tính đạo hàm cơ bản và hàm hợp.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 22: Các quy tắc tính đạo hàm cơ bản và hàm hợp.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 22: Các quy tắc tính đạo hàm cơ bản và hàm hợp để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l23",
-    "title": "Bài 23: Đạo hàm cấp hai và ứng dụng trong chuyển động",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 23: Đạo hàm cấp hai và ứng dụng trong chuyển động.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 23: Đạo hàm cấp hai và ứng dụng trong chuyển động.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 23: Đạo hàm cấp hai và ứng dụng trong chuyển động để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch07",
+  "title": "Chương 7: Đạo hàm",
+  "lessons": [
+    {
+      "id": "l21",
+      "title": "Bài 21: Định nghĩa và ý nghĩa hình học của đạo hàm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa đạo hàm tại một điểm bằng giới hạn tỉ số số gia.",
+        "Hiểu ý nghĩa hình học của đạo hàm: hệ số góc của tiếp tuyến.",
+        "Viết thành thạo phương trình tiếp tuyến của đồ thị hàm số tại một điểm và hiểu ý nghĩa vật lí (vận tốc tức thời)."
+      ],
+      "concepts": [
+        {
+          "term": "Định nghĩa đạo hàm tại một điểm",
+          "definition": "Cho hàm số y = f(x) xác định trên khoảng (a; b) và x0 ∈ (a; b). Giới hạn hữu hạn (nếu có) của tỉ số [f(x) - f(x0)] / (x - x0) khi x dần tới x0 gọi là đạo hàm của f(x) tại x0, kí hiệu f'(x0).",
+          "notation": "f'(x0) = lim_{x -> x0} [f(x) - f(x0)] / (x - x0) = lim_{∆x -> 0} (∆y / ∆x)",
+          "note": "∆x = x - x0 gọi là số gia của đối số; ∆y = f(x0 + ∆x) - f(x0) là số gia của hàm số."
+        },
+        {
+          "term": "Ý nghĩa hình học của đạo hàm",
+          "definition": "Đạo hàm f'(x0) chính là hệ số góc k của tiếp tuyến của đồ thị hàm số y = f(x) tại tiếp điểm M0(x0; y0) với y0 = f(x0).",
+          "notation": "k = f'(x0) = tan α (α là góc tạo với trục Ox)",
+          "note": "Phương trình tiếp tuyến: y = f'(x0)(x - x0) + y0."
+        },
+        {
+          "term": "Ý nghĩa vật lí của đạo hàm",
+          "definition": "Nếu một chất điểm chuyển động có phương trình quỹ đạo s = s(t) thì vận tốc tức thời tại thời điểm t0 là v(t0) = s'(t0).",
+          "notation": "v(t) = s'(t)",
+          "note": "Vận tốc là đạo hàm cấp 1 của quãng đường theo thời gian."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quan hệ giữa tính có đạo hàm và tính liên tục",
+          "meaning": "Nếu hàm số y = f(x) có đạo hàm tại x0 thì nó liên tục tại điểm đó. Điều ngược lại không đúng (liên tục chưa chắc có đạo hàm, ví dụ y = |x| tại x = 0)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình tiếp tuyến của đồ thị hàm số y = x² - 3x + 2 tại điểm có hoành độ x0 = 2?",
+          "steps": [
+            "Bước 1: Tính tung độ tiếp điểm: y0 = f(2) = 2² - 3(2) + 2 = 4 - 6 + 2 = 0. Tiếp điểm là M(2; 0).",
+            "Bước 2: Tính đạo hàm của hàm số: y' = 2x - 3. Hệ số góc của tiếp tuyến tại x0 = 2 là: k = y'(2) = 2(2) - 3 = 1.",
+            "Bước 3: Phương trình tiếp tuyến là: y - y0 = k(x - x0) <=> y - 0 = 1(x - 2) <=> y = x - 2."
+          ],
+          "answer": "Phương trình tiếp tuyến là y = x - 2."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên tính tung độ y0 hoặc nhầm hệ số góc k = f(x0) thay vì k = f'(x0).",
+          "why": "Hệ số góc của tiếp tuyến bắt buộc phải lấy giá trị của đạo hàm f'(x0)."
+        }
+      ]
+    },
+    {
+      "id": "l22",
+      "title": "Bài 22: Các quy tắc tính đạo hàm cơ bản và hàm hợp",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững đạo hàm của các hàm số sơ cấp: luỹ thừa, căn bậc hai, hàm lượng giác, hàm mũ và logarit.",
+        "Thành thạo 4 quy tắc tính đạo hàm: tổng, hiệu, tích, thương.",
+        "Áp dụng chính xác quy tắc đạo hàm hàm hợp y'_x = y'_u · u'_x."
+      ],
+      "concepts": [
+        {
+          "term": "Bảng đạo hàm sơ cấp cơ bản",
+          "definition": "(c)' = 0; (x^n)' = n·x^(n-1); (√x)' = 1 / (2√x); (1/x)' = -1 / x².",
+          "notation": "(x^α)' = α · x^(α-1)",
+          "note": "(sin x)' = cos x; (cos x)' = -sin x; (tan x)' = 1 / cos²x; (cot x)' = -1 / sin²x."
+        },
+        {
+          "term": "Đạo hàm hàm mũ và lôgarit",
+          "definition": "(e^x)' = e^x; (a^x)' = a^x · ln a; (ln x)' = 1 / x; (log_a x)' = 1 / (x ln a).",
+          "notation": "(e^u)' = u' · e^u; (ln u)' = u' / u",
+          "note": "Hàm e^x là hàm duy nhất có đạo hàm bằng chính nó."
+        },
+        {
+          "term": "Quy tắc tính đạo hàm đại số",
+          "definition": "(u ± v)' = u' ± v'; (uv)' = u'v + uv'; (u/v)' = (u'v - uv') / v².",
+          "notation": "(k·u)' = k·u'; (1/v)' = -v' / v²",
+          "note": "Đạo hàm của một thương luôn có dấu TRỪ ở tử số: u'v - uv'."
+        },
+        {
+          "term": "Đạo hàm hàm hợp",
+          "definition": "Nếu u = g(x) có đạo hàm tại x và y = f(u) có đạo hàm tại u thì hàm hợp y = f(g(x)) có đạo hàm tại x: y'_x = y'_u · u'_x.",
+          "notation": "[f(u)]' = u' · f'(u)",
+          "note": "Ví dụ: (u^n)' = n · u^(n-1) · u'; (sin u)' = u' · cos u."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc đạo hàm tích và thương",
+          "meaning": "Không bao giờ lấy (uv)' = u'v' hoặc (u/v)' = u'/v'. Bắt buộc dùng đúng công thức nhân chéo đối xứng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính đạo hàm của hàm số y = (2x + 1) / (x - 3)?",
+          "steps": [
+            "Bước 1: Nhận dạng dạng thương u/v với u = 2x + 1 và v = x - 3.",
+            "Bước 2: Tính đạo hàm từng phần: u' = 2, v' = 1.",
+            "Bước 3: Áp dụng công thức (u/v)' = (u'v - uv') / v² = [2(x - 3) - (2x + 1)·1] / (x - 3)² = (2x - 6 - 2x - 1) / (x - 3)² = -7 / (x - 3)²."
+          ],
+          "answer": "y' = -7 / (x - 3)²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân thêm u' khi tính đạo hàm hàm hợp, ví dụ đạo hàm sin(2x) thành cos(2x).",
+          "why": "Phải nhân với (2x)' = 2: [sin(2x)]' = 2 cos(2x)."
+        }
+      ]
+    },
+    {
+      "id": "l23",
+      "title": "Bài 23: Đạo hàm cấp hai và ứng dụng trong chuyển động",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa và kí hiệu của đạo hàm cấp hai f''(x).",
+        "Tính được đạo hàm cấp hai của các hàm đa thức, lượng giác, phân thức.",
+        "Vận dụng ý nghĩa vật lí: gia tốc tức thời a(t) = s''(t) để giải bài toán chuyển động."
+      ],
+      "concepts": [
+        {
+          "term": "Định nghĩa đạo hàm cấp hai",
+          "definition": "Đạo hàm cấp hai của hàm số y = f(x) là đạo hàm của đạo hàm cấp một f'(x), kí hiệu là f''(x) hoặc y''.",
+          "notation": "f''(x) = [f'(x)]'",
+          "note": "Tương tự ta có thể định nghĩa đạo hàm cấp 3, cấp n."
+        },
+        {
+          "term": "Ý nghĩa vật lí của đạo hàm cấp hai",
+          "definition": "Gia tốc tức thời a(t) của một chuyển động tại thời điểm t là đạo hàm cấp hai của phương trình quãng đường s(t), hoặc đạo hàm cấp một của hàm vận tốc v(t).",
+          "notation": "a(t) = v'(t) = s''(t)",
+          "note": "Đơn vị thường là m/s²."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ý nghĩa hình học của đạo hàm cấp hai",
+          "meaning": "Dấu của f''(x) xác định bề lõm của đồ thị hàm số: f''(x) > 0 đồ thị lõm lên trên (hình chữ U), f''(x) < 0 đồ thị lồi lên (úp xuống)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vật chuyển động thẳng xác định bởi phương trình s(t) = t³ - 3t² + 5t (s tính bằng mét, t tính bằng giây). Tính gia tốc tức thời của vật tại thời điểm t = 3 giây?",
+          "steps": [
+            "Bước 1: Tính hàm vận tốc v(t) = s'(t) = (t³ - 3t² + 5t)' = 3t² - 6t + 5.",
+            "Bước 2: Tính hàm gia tốc a(t) = v'(t) = s''(t) = (3t² - 6t + 5)' = 6t - 6.",
+            "Bước 3: Thay t = 3 vào biểu thức gia tốc: a(3) = 6(3) - 6 = 18 - 6 = 12 (m/s²)."
+          ],
+          "answer": "Gia tốc tức thời tại t = 3s là a = 12 m/s²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm gia tốc a(t) là s'(t) thay vì s''(t).",
+          "why": "s'(t) là vận tốc v(t), còn gia tốc a(t) là đạo hàm cấp hai s''(t)."
+        }
+      ]
+    }
+  ]
+}

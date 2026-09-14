@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch05",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 5: Đề 3 — Đánh giá Năng lực Tổng hợp Thống kê ghép nhóm",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng thống kê mẫu số liệu ghép nhóm vào bài toán đời sống thực tế.",
+  "questions": [
+    {
+      "id": "t11_c5_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng so sánh thu nhập hai công ty",
+      "question": "Khi nghiên cứu thu nhập hàng tháng (triệu đồng) của nhân viên một công ty có phân bố lệch mạnh (có một vài giám đốc có thu nhập cực lớn), đại lượng đo xu thế trung tâm nào phản ánh trung thực nhất mức thu nhập tiêu biểu của nhân viên?",
+      "options": [
+        "Số trung bình",
+        "Trung vị",
+        "Độ dài nhóm lớn nhất",
+        "Giá trị lớn nhất"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khi tập dữ liệu xuất hiện giá trị bất thường (ngoại lai lớn), số trung bình bị kéo lệch mạnh, trong khi Trung vị không bị ảnh hưởng.",
+        "socraticPrompt": "Khi có vài người lương cực cao kéo vọt số trung bình lên, số nào chia đôi nhóm người làm hai nửa chuẩn hơn?",
+        "steps": "Trung vị không bị ảnh hưởng bởi các giá trị đột biến (ngoại lai), do đó khi số liệu bị lệch nhiều thì trung vị đại diện tốt hơn số trung bình.",
+        "trap": "Theo thói quen chọn 'Số trung bình' mà không chú ý phân bố lệch và giá trị ngoại lai."
+      }
+    },
+    {
+      "id": "t11_c5_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tứ phân vị thứ ba Q3",
+      "question": "Khảo sát thời gian xem ti vi (giờ/tuần) của 80 người cao tuổi cho kết quả ghép nhóm:\n[0; 7): 10 người;\n[7; 14): 30 người;\n[14; 21): 30 người;\n[21; 28): 10 người.\nGiá trị của tứ phân vị thứ ba Q3 là:",
+      "options": [
+        "14,5",
+        "18,0",
+        "18,67",
+        "21,0"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Q3 ứng với vị trí 3n/4. Công thức: Q3 = aq + [(3n/4 - C)/mq] · h.",
+        "socraticPrompt": "3n/4 = 3·80/4 = 60. Tần số tích luỹ nhóm 2 là 40, nhóm 3 là 70. Nhóm chứa Q3 là [14; 21). Tính Q3?",
+        "steps": "3n/4 = 60. Nhóm chứa Q3 là [14; 21) vì Cf nhóm 2 là 40 < 60, nhóm 3 là 70 ≥ 60. Ta có aq = 14, C = 40, mq = 30, h = 21 - 14 = 7. Q3 = 14 + [(60 - 40)/30] · 7 = 14 + (20/30) · 7 = 14 + 14/3 = 14 + 4,67 = 18,67.",
+        "trap": "Nhầm nhóm chứa Q3 là nhóm 4 hoặc tính nhầm 2/3 · 7 = 4."
+      }
+    },
+    {
+      "id": "t11_c5_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc trưng của Mốt trong kinh doanh",
+      "question": "Một cửa hàng giày thống kê cỡ giày bán ra trong một tháng dưới dạng ghép nhóm để nhập hàng cho tháng tới. Số đặc trưng nào sau đây hữu ích nhất cho chủ cửa hàng quyết định nhập cỡ giày nào nhiều nhất?",
+      "options": [
+        "Mốt",
+        "Số trung bình",
+        "Trung vị",
+        "Khoảng tứ phân vị"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mốt chỉ ra nhóm giá trị có tần số xuất hiện nhiều nhất (nhu cầu mua lớn nhất).",
+        "socraticPrompt": "Cửa hàng cần nhập cỡ giày mà khách mua NHIỀU NHẤT, đó là khái niệm nào?",
+        "steps": "Mốt cho biết giá trị hoặc nhóm giá trị có tần số lớn nhất, tức là cỡ giày được mua nhiều nhất, rất thích hợp cho quyết định nhập hàng.",
+        "trap": "Nhầm số trung bình (sẽ ra cỡ giày lẻ thập phân không có thật trên thị trường)."
+      }
+    },
+    {
+      "id": "t11_c5_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "So sánh trung vị và số trung bình đối xứng",
+      "question": "Khi một mẫu số liệu ghép nhóm có bảng tần số hoàn toàn đối xứng qua nhóm chính giữa, mối liên hệ giữa số trung bình x̄ và trung vị Me là:",
+      "options": [
+        "x̄ > Me",
+        "x̄ < Me",
+        "x̄ = Me",
+        "Không so sánh được"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trong phân bố đối xứng hoàn hảo, trục đối xứng đi qua cả số trung bình, trung vị và mốt.",
+        "socraticPrompt": "Nếu biểu đồ hình chuông đối xứng cân hai bên thì tâm đối xứng có trùng với số trung bình và trung vị không?",
+        "steps": "Do tính đối xứng của tần số, trọng tâm của phân bố (số trung bình) trùng với điểm chia đôi số liệu (trung vị). Vì vậy x̄ = Me.",
+        "trap": "Nghĩ rằng số trung bình và trung vị luôn khác nhau."
+      }
+    },
+    {
+      "id": "t11_c5_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định phần trăm số liệu vượt ngưỡng",
+      "question": "Theo định nghĩa tứ phân vị của mẫu số liệu ghép nhóm, có khoảng bao nhiêu phần trăm số liệu nhỏ hơn hoặc bằng giá trị của tứ phân vị thứ ba Q3?",
+      "options": [
+        "25%",
+        "50%",
+        "90%",
+        "75%"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ý nghĩa của các tứ phân vị: Q1 chiếm 25%, Q2 chiếm 50%, Q3 chiếm 75% dữ liệu tính từ giá trị nhỏ nhất.",
+        "socraticPrompt": "Tứ phân vị chia mẫu làm 4 phần bằng nhau. Đến Q3 là mấy phần tư?",
+        "steps": "Tứ phân vị thứ ba Q3 là giá trị chia tập số liệu sao cho có khoảng 75% (3/4) số liệu nhỏ hơn hoặc bằng Q3.",
+        "trap": "Nhầm với Q1 (25%) hoặc trung vị Me (50%)."
+      }
+    },
+    {
+      "id": "t11_c5_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tác động khi cộng một hằng số vào số liệu",
+      "question": "Nếu mỗi số liệu trong mẫu ghép nhóm đều được cộng thêm 5 đơn vị thì số trung bình x̄ mới sẽ thay đổi như thế nào?",
+      "options": [
+        "Tăng thêm 5 đơn vị",
+        "Không đổi",
+        "Tăng gấp 5 lần",
+        "Tăng thêm 25 đơn vị"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính chất tịnh tiến của số trung bình: Nếu yi = xi + c thì ȳ = x̄ + c.",
+        "socraticPrompt": "Tất cả các giá trị đều tăng 5 thì trung bình của chúng tăng thêm bao nhiêu?",
+        "steps": "Khi tất cả các số liệu tăng thêm 5 thì giá trị đại diện của các nhóm đều tăng thêm 5. Do đó số trung bình cũng tăng thêm đúng 5 đơn vị.",
+        "trap": "Nhầm tính chất của phương sai (phương sai không đổi khi cộng thêm hằng số)."
+      }
+    }
+  ]
+}

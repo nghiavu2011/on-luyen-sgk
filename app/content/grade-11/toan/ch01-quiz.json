@@ -1,30 +1,128 @@
-[
-  {
-    "id": "toan11_ch01_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Giá trị lớn nhất $M$ và giá trị nhỏ nhất $m$ của hàm số $y = 3\\sin 2x - 1$ lần lượt là:",
-    "options": [
-      "A. $M = 3, m = -3$",
-      "B. $M = 2, m = -4$",
-      "C. $M = 4, m = -2$",
-      "D. $M = 2, m = -1$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bất đẳng thức lượng giác: $-1 \\le \\sin 2x \\le 1$.\n💡 Nhân 3: $-3 \\le 3\\sin 2x \\le 3$.\nTrừ 1: $-3 - 1 \\le 3\\sin 2x - 1 \\le 3 - 1 \\Leftrightarrow -4 \\le y \\le 2$.\nVậy $M = 2$ và $m = -4$.\n⚠️ Cảnh báo bẫy: Quên trừ 1 cho cả hai đầu chặn."
-  },
-  {
-    "id": "toan11_ch01_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Số nghiệm của phương trình $\\sin\\left(2x - \\frac{\\pi}{3}\\right) = \\frac{1}{2}$ thuộc khoảng $(0; \\pi)$ là:",
-    "options": [
-      "A. 1",
-      "B. 2",
-      "C. 3",
-      "D. 4"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp giải:\n$\\sin(2x - \\frac{\\pi}{3}) = \\sin \\frac{\\pi}{6} \\Leftrightarrow \\left[\\begin{array}{l} 2x - \\frac{\\pi}{3} = \\frac{\\pi}{6} + k2\\pi \\\\ 2x - \\frac{\\pi}{3} = \\frac{5\\pi}{6} + k2\\pi \\end{array}\\right. \\Leftrightarrow \\left[\\begin{array}{l} x = \\frac{\\pi}{4} + k\\pi \\\\ x = \\frac{7\\pi}{12} + k\\pi \\end{array}\\right.$\nVới $x \\in (0; \\pi)$ và $k \\in \\mathbb{Z}$:\n- Nhánh 1: $k = 0 \\Rightarrow x = \\frac{\\pi}{4} \\in (0; \\pi)$.\n- Nhánh 2: $k = 0 \\Rightarrow x = \\frac{7\\pi}{12} \\in (0; \\pi)$.\nTổng cộng có đúng 2 nghiệm thỏa mãn.\n⚠️ Bậc tư duy cao: Giải phương trình lượng giác và chặn nghiệm trên khoảng cho trước."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 1: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa tổng hợp kết hợp công thức biến đổi lượng giác, giá trị lớn nhất - nhỏ nhất và ứng dụng thực tiễn.",
+  "questions": [
+    {
+      "id": "t11_c1_th_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính chẵn lẻ của hàm số lượng giác",
+      "question": "Trong các hàm số sau đây, hàm số nào là hàm số chẵn trên tập xác định của nó?",
+      "options": [
+        "y = sin x",
+        "y = tan x",
+        "y = cos x",
+        "y = cot x"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.",
+        "socraticPrompt": "Hàm số lượng giác nào có tính chất cos(-x) = cos x?",
+        "steps": "Ta có cos(-x) = cos x với mọi x ∈ R, do đó y = cos x là hàm số chẵn. Các hàm y = sin x, y = tan x, y = cot x đều là hàm số lẻ.",
+        "trap": "Nhầm hàm số sin x là hàm chẵn."
+      }
+    },
+    {
+      "id": "t11_c1_th_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Rút gọn biểu thức lượng giác",
+      "question": "Rút gọn biểu thức A = sin(x + π/4) - cos(x - π/4) ta được kết quả là:",
+      "options": [
+        "A = 2sin x",
+        "A = √2 cos x",
+        "A = 0",
+        "A = -√2 sin x"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sử dụng công thức cộng hoặc quan hệ góc phụ.",
+        "socraticPrompt": "Hai góc (x + π/4) và (π/4 - x) có quan hệ phụ nhau không? sin góc này bằng cos góc nào?",
+        "steps": "Ta có: cos(x - π/4) = cos(π/4 - x). Vì (x + π/4) + (π/4 - x) = π/2 (hai góc phụ nhau) nên cos(π/4 - x) = sin(x + π/4). Do đó A = sin(x + π/4) - sin(x + π/4) = 0.",
+        "trap": "Khai triển sai dấu trong công thức cộng dẫn đến kết quả khác 0."
+      }
+    },
+    {
+      "id": "t11_c1_th_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tập giá trị hàm số bậc nhất theo sin và cos",
+      "question": "Tập giá trị của hàm số y = √3 sin x + cos x là đoạn nào sau đây?",
+      "options": [
+        "[-2; 2]",
+        "[-√3; √3]",
+        "[-1; 1]",
+        "[0; 2]"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Dạng biểu thức a sin x + b cos x có giá trị lớn nhất là √(a² + b²) và nhỏ nhất là -√(a² + b²).",
+        "socraticPrompt": "Tính căn bậc hai của a² + b² với a = √3 và b = 1?",
+        "steps": "Biến đổi: y = 2[(√3/2)sin x + (1/2)cos x] = 2sin(x + π/6). Vì -1 ≤ sin(x + π/6) ≤ 1 nên -2 ≤ y ≤ 2. Tập giá trị là [-2; 2].",
+        "trap": "Cộng hai giá trị cực đại rời rạc √3 + 1 thành sai bản chất."
+      }
+    },
+    {
+      "id": "t11_c1_th_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng dao động điều hòa trong thực tiễn",
+      "question": "Một vật dao động điều hòa có li độ theo thời gian t (giây) được mô tả bởi phương trình: x = 4cos(2πt - π/3) (cm). Li độ của vật tại thời điểm t = 0.5 giây là:",
+      "options": [
+        "2 cm",
+        "-2 cm",
+        "4 cm",
+        "-4 cm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Thay giá trị thời gian t vào phương trình dao động lượng giác.",
+        "socraticPrompt": "Tính pha dao động tại t = 0.5: (2π · 0.5 - π/3) bằng bao nhiêu? cos của góc đó bằng bao nhiêu?",
+        "steps": "Tại t = 0.5: pha dao động là 2π(0.5) - π/3 = π - π/3 = 2π/3. Ta có: cos(2π/3) = -1/2. Li độ x = 4 · (-1/2) = -2 cm.",
+        "trap": "Tính nhầm cos(2π/3) = +1/2 dẫn đến li độ +2 cm."
+      }
+    },
+    {
+      "id": "t11_c1_th_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giải phương trình lượng giác chứa căn",
+      "question": "Phương trình lượng giác sin x + √3 cos x = √2 tương đương với phương trình nào sau đây?",
+      "options": [
+        "sin(x + π/3) = √2/2",
+        "sin(x + π/6) = √2/2",
+        "cos(x - π/3) = √2",
+        "sin(x + π/3) = 1"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chia cả hai vế cho √(a² + b²) = √(1 + 3) = 2.",
+        "socraticPrompt": "Chia cả hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2. Vế trái đưa về sin của tổng góc nào?",
+        "steps": "Chia hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2 <=> sin x cos(π/3) + cos x sin(π/3) = √2/2 <=> sin(x + π/3) = √2/2.",
+        "trap": "Nhầm góc π/3 với π/6 khi biến đổi sin và cos."
+      }
+    },
+    {
+      "id": "t11_c1_th_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Số nghiệm của phương trình lượng giác trên đoạn",
+      "question": "Số nghiệm của phương trình cos(2x) = 1/2 trên đoạn [0; π] là:",
+      "options": [
+        "1 nghiệm",
+        "2 nghiệm",
+        "3 nghiệm",
+        "4 nghiệm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Giải phương trình cos 2x = cos(π/3) và chặn nghiệm trên đoạn [0; π].",
+        "socraticPrompt": "2x = ±π/3 + k2π suy ra x = ±π/6 + kπ. Trên đoạn [0; π] có những giá trị nào thỏa mãn?",
+        "steps": "cos 2x = 1/2 = cos(π/3) <=> 2x = ±π/3 + k2π <=> x = ±π/6 + kπ (k ∈ Z). Với họ x = π/6 + kπ: k = 0 cho nghiệm x = π/6 ∈ [0; π]. Với họ x = -π/6 + kπ: k = 1 cho nghiệm x = 5π/6 ∈ [0; π]. Tổng cộng có đúng 2 nghiệm.",
+        "trap": "Chỉ lấy 1 nghiệm π/6 mà quên họ nghiệm âm khi cộng thêm chu kì k = 1."
+      }
+    }
+  ]
+}

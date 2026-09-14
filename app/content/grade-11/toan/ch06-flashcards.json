@@ -1,98 +1,85 @@
-[
-  {
-    "front": "Định nghĩa Lôgarit cơ số $a$ của $b$ ($0 < a \\ne 1, b > 0$)?",
-    "back": "$\\log_a b = c \\Leftrightarrow a^c = b$.",
-    "tags": [
-      "Lôgarit",
-      "Định nghĩa"
-    ]
-  },
-  {
-    "front": "Công thức lôgarit của một tích và một thương?",
-    "back": "$\\log_a(xy) = \\log_a x + \\log_a y$; $\\log_a(\\frac{x}{y}) = \\log_a x - \\log_a y$ ($x, y > 0$).",
-    "tags": [
-      "Công thức",
-      "Lôgarit"
-    ]
-  },
-  {
-    "front": "Công thức đổi cơ số lôgarit?",
-    "back": "$\\log_a b = \\frac{\\log_c b}{\\log_c a}$ ($0 < c \\ne 1$).",
-    "tags": [
-      "Đổi cơ số",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Tập xác định và tập giá trị của hàm số mũ $y = a^x$ ($a > 0, a \\ne 1$)?",
-    "back": "TXĐ $D = \\mathbb{R}$; Tập giá trị $T = (0; +\\infty)$ (đồ thị luôn nằm phía trên trục hoành).",
-    "tags": [
-      "Hàm số mũ",
-      "Tập xác định"
-    ]
-  },
-  {
-    "front": "Tập xác định và tập giá trị của hàm số lôgarit $y = \\log_a x$?",
-    "back": "TXĐ $D = (0; +\\infty)$; Tập giá trị $T = \\mathbb{R}$.",
-    "tags": [
-      "Hàm lôgarit",
-      "Tập xác định"
-    ]
-  },
-  {
-    "front": "Tính đồng biến và nghịch biến của hàm số mũ và lôgarit cơ số $a$?",
-    "back": "Nếu $a > 1$: hàm số luôn đồng biến trên TXĐ; Nếu $0 < a < 1$: hàm số luôn nghịch biến trên TXĐ.",
-    "tags": [
-      "Đơn điệu",
-      "Cơ số a"
-    ]
-  },
-  {
-    "front": "Nghiệm của phương trình $a^x = b$ ($a > 0, a \\ne 1$)?",
-    "back": "Nếu $b > 0 \\Rightarrow x = \\log_a b$; Nếu $b \\le 0 \\Rightarrow$ phương trình vô nghiệm.",
-    "tags": [
-      "Phương trình mũ",
-      "Nghiệm"
-    ]
-  },
-  {
-    "front": "Nghiệm của phương trình $\\log_a x = b$?",
-    "back": "$x = a^b$ (luôn có nghiệm duy nhất với mọi $b \\in \\mathbb{R}$).",
-    "tags": [
-      "PT Lôgarit",
-      "Nghiệm"
-    ]
-  },
-  {
-    "front": "Khi giải bất phương trình $a^{f(x)} > a^{g(x)}$ với $0 < a < 1$, chiều bất đẳng thức thay đổi thế nào?",
-    "back": "Chiều bất đẳng thức phải đổi ngược lại: $f(x) < g(x)$.",
-    "tags": [
-      "Bất phương trình",
-      "Đổi chiều"
-    ]
-  },
-  {
-    "front": "Lôgarit tự nhiên (ln) và Lôgarit thập phân (log/lg) có cơ số lần lượt là gì?",
-    "back": "Lôgarit tự nhiên có cơ số là số vô tỉ $e \\approx 2,71828$; Lôgarit thập phân có cơ số là 10.",
-    "tags": [
-      "Cơ số e",
-      "Lôgarit"
-    ]
-  },
-  {
-    "front": "Đồ thị của $y = a^x$ và $y = \\log_a x$ đối xứng với nhau qua đường thẳng nào?",
-    "back": "Đối xứng nhau qua đường phân giác của góc phần tư thứ nhất $y = x$.",
-    "tags": [
-      "Đối xứng",
-      "Đồ thị"
-    ]
-  },
-  {
-    "front": "Tính giá trị: $\\log_2 8 + \\log_3 \\frac{1}{9}$?",
-    "back": "$\\log_2 2^3 + \\log_3 3^{-2} = 3 + (-2) = 1$.",
-    "tags": [
-      "Tính toán",
-      "Lôgarit"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "flashcards": [
+    {
+      "id": "fc_t11_c6_01",
+      "front": "Quy tắc tính luỹ thừa với số mũ hữu tỉ là gì?",
+      "back": "a^(m/n) = ⁿ√(aᵐ) (với a > 0, m ∈ Z, n ∈ N, n ≥ 2).",
+      "category": "Luỹ thừa",
+      "example": "8^(2/3) = ∛(8²) = ∛64 = 4.",
+      "mnemonic": "Tử số là Mũ, Mẫu số là Căn."
+    },
+    {
+      "id": "fc_t11_c6_02",
+      "front": "Định nghĩa Lôgarit cơ số a của b?",
+      "back": "log_a b = α <=> a^α = b (với a > 0, a ≠ 1, b > 0).",
+      "category": "Lôgarit",
+      "example": "log_2 8 = 3 vì 2³ = 8.",
+      "mnemonic": "Logarit là số mũ cần nâng cơ số a lên để được b."
+    },
+    {
+      "id": "fc_t11_c6_03",
+      "front": "Các quy tắc logarit của tích và thương?",
+      "back": "log_a(xy) = log_a x + log_a y; log_a(x/y) = log_a x - log_a y (với x, y > 0).",
+      "category": "Tính chất logarit",
+      "example": "log 20 = log 2 + log 10 = log 2 + 1.",
+      "mnemonic": "Nhân thành Cộng, Chia thành Trừ."
+    },
+    {
+      "id": "fc_t11_c6_04",
+      "front": "Công thức đổi cơ số của lôgarit?",
+      "back": "log_a b = log_c b / log_c a; log_a b = 1 / log_b a; log_(a^β) b = (1/β) log_a b.",
+      "category": "Công thức đổi cơ số",
+      "example": "log_4 8 = (3/2) log_2 2 = 3/2.",
+      "mnemonic": "Đổi cơ số: log trên chia log dưới."
+    },
+    {
+      "id": "fc_t11_c6_05",
+      "front": "Tập xác định và tập giá trị của hàm số mũ y = a^x?",
+      "back": "Tập xác định D = R; Tập giá trị T = (0; +∞).",
+      "category": "Hàm số mũ",
+      "example": "2^x > 0 với mọi số thực x.",
+      "mnemonic": "Mũ nhận mọi x, nhưng giá trị luôn DƯƠNG."
+    },
+    {
+      "id": "fc_t11_c6_06",
+      "front": "Tập xác định và tập giá trị của hàm số lôgarit y = log_a x?",
+      "back": "Tập xác định D = (0; +∞); Tập giá trị T = R.",
+      "category": "Hàm số lôgarit",
+      "example": "log_2 x xác định khi x > 0.",
+      "mnemonic": "Lôgarit chỉ ăn số DƯƠNG, nhưng kết quả ra sao cũng được."
+    },
+    {
+      "id": "fc_t11_c6_07",
+      "front": "Tính đồng biến/nghịch biến của hàm mũ và logarit theo cơ số a?",
+      "back": "Nếu a > 1: hàm số ĐỒNG BIẾN. Nếu 0 < a < 1: hàm số NGHỊCH BIẾN.",
+      "category": "Biến thiên",
+      "example": "y = 2^x đồng biến; y = (0,5)^x nghịch biến.",
+      "mnemonic": "Cơ số lớn hơn 1 đi lên; cơ số bé hơn 1 đi xuống."
+    },
+    {
+      "id": "fc_t11_c6_08",
+      "front": "Quy tắc đảo chiều khi giải bất phương trình mũ và logarit?",
+      "back": "Khi cơ số 0 < a < 1, bất phương trình bắt buộc phải ĐẢO CHIỀU.",
+      "category": "Bất phương trình",
+      "example": "(1/2)^x > (1/2)^3 <=> x < 3.",
+      "mnemonic": "Cơ số bé hơn 1: Gặp bất đẳng thức phải QUAY ĐẦU."
+    },
+    {
+      "id": "fc_t11_c6_09",
+      "front": "Lôgarit tự nhiên (ln) và số e là gì?",
+      "back": "ln x = log_e x với e ≈ 2,71828. Hàm e^x có đạo hàm bằng chính nó.",
+      "category": "Khái niệm",
+      "example": "ln e = 1, ln 1 = 0.",
+      "mnemonic": "ln là logarit cơ số e của Euler."
+    },
+    {
+      "id": "fc_t11_c6_10",
+      "front": "Công thức pH trong hoá học ứng dụng logarit như thế nào?",
+      "back": "pH = -log[H+]. Môi trường axit có pH < 7 ([H+] > 10^-7), bazo có pH > 7.",
+      "category": "Ứng dụng thực tế",
+      "example": "[H+] = 10^-3 M => pH = 3.",
+      "mnemonic": "pH là trừ log nồng độ H+."
+    }
+  ]
+}

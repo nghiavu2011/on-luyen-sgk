@@ -1,47 +1,165 @@
-[
-  {
-    "id": "l08",
-    "title": "Bài 8: Giới hạn của dãy số",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 8: Giới hạn của dãy số.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 8: Giới hạn của dãy số.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 8: Giới hạn của dãy số để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l09",
-    "title": "Bài 9: Giới hạn của hàm số và các dạng vô định",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 9: Giới hạn của hàm số và các dạng vô định.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 9: Giới hạn của hàm số và các dạng vô định.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 9: Giới hạn của hàm số và các dạng vô định để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l10",
-    "title": "Bài 10: Hàm số liên tục",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 10: Hàm số liên tục.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 10: Hàm số liên tục.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 10: Hàm số liên tục để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Giới hạn & Hàm số liên tục",
+  "lessons": [
+    {
+      "id": "l08",
+      "title": "Bài 8: Giới hạn của dãy số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa giới hạn hữu hạn của dãy số và các giới hạn cơ bản.",
+        "Sử dụng thành thạo các định lí về phép toán giới hạn dãy số (tổng, hiệu, tích, thương).",
+        "Tính được tổng của cấp số nhân lùi vô hạn."
+      ],
+      "concepts": [
+        {
+          "term": "Giới hạn hữu hạn của dãy số",
+          "definition": "Dãy số (un) có giới hạn là a (hoặc dần tới a) khi n dần tới dương vô cực nếu |un - a| có thể nhỏ hơn một số dương bé tùy ý kể từ một số hạng nào đó trở đi. Kí hiệu: lim un = a (khi n -> +∞).",
+          "notation": "lim un = a hay un -> a khi n -> +∞",
+          "note": "Một số giới hạn cơ bản: lim (1/n^k) = 0 (k > 0); lim q^n = 0 nếu |q| < 1; lim c = c."
+        },
+        {
+          "term": "Giới hạn vô cực của dãy số",
+          "definition": "Dãy (un) có giới hạn +∞ nếu un có thể lớn hơn một số dương bất kì kể từ một số hạng nào đó trở đi. lim un = -∞ <=> lim (-un) = +∞.",
+          "notation": "lim n^k = +∞ (k nguyên dương); lim q^n = +∞ nếu q > 1",
+          "note": "Nếu lim un = +∞ hoặc -∞ thì lim (1/un) = 0."
+        },
+        {
+          "term": "Tổng cấp số nhân lùi vô hạn",
+          "definition": "Cấp số nhân vô hạn (un) có công bội q thoả mãn |q| < 1 được gọi là cấp số nhân lùi vô hạn. Tổng của nó là giới hạn của Sn khi n -> +∞.",
+          "notation": "S = u1 / (1 - q)",
+          "note": "Ứng dụng đổi số thập phân vô hạn tuần hoàn sang phân số tối giản."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc khử dạng vô định của dãy phân thức",
+          "meaning": "Khi tính giới hạn tỉ số hai đa thức theo n, chia cả tử và mẫu cho luỹ thừa bậc cao nhất của mẫu số."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giới hạn của dãy số: lim (3n² - 5n + 1) / (2n² + 7)?",
+          "steps": [
+            "Bước 1: Bậc cao nhất của mẫu là n². Chia cả tử và mẫu cho n²:",
+            "Bước 2: Ta được: lim [3 - 5/n + 1/n²] / [2 + 7/n²].",
+            "Bước 3: Vì lim (1/n) = 0 và lim (1/n²) = 0 nên giới hạn bằng (3 - 0 + 0)/(2 + 0) = 3/2."
+          ],
+          "answer": "lim = 3/2."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy nhầm tổng cấp số nhân lùi vô hạn S = u1 / (q - 1).",
+          "why": "Vì |q| < 1 nên 1 - q > 0, mẫu số phải là 1 - q để đảm bảo tính đúng đắn."
+        }
+      ]
+    },
+    {
+      "id": "l09",
+      "title": "Bài 9: Giới hạn của hàm số và các dạng vô định",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa giới hạn hàm số tại một điểm, giới hạn một bên và giới hạn tại vô cực.",
+        "Nhận diện và xử lí thành thạo 4 dạng vô định kinh điển: 0/0, ∞/∞, ∞ - ∞, 0 · ∞.",
+        "Biết sử dụng nhân liên hợp để khử căn bậc hai trong biểu thức giới hạn."
+      ],
+      "concepts": [
+        {
+          "term": "Giới hạn hàm số tại một điểm",
+          "definition": "Cho khoảng K chứa x0 và hàm số f(x) xác định trên K hoặc K \\ {x0}. Ta nói f(x) có giới hạn L khi x dần tới x0 nếu với mọi dãy (xn) thuộc K \\ {x0}, xn -> x0 thì f(xn) -> L.",
+          "notation": "lim_{x -> x0} f(x) = L",
+          "note": "Giới hạn một bên: lim_{x -> x0+} f(x) (x > x0) và lim_{x -> x0-} f(x) (x < x0)."
+        },
+        {
+          "term": "Điều kiện tồn tại giới hạn",
+          "definition": "lim_{x -> x0} f(x) = L khi và chỉ khi lim_{x -> x0+} f(x) = lim_{x -> x0-} f(x) = L.",
+          "notation": "lim_{x -> x0+} f(x) = lim_{x -> x0-} f(x) = L <=> lim_{x -> x0} f(x) = L",
+          "note": "Nếu hai giới hạn một bên khác nhau thì không tồn tại giới hạn của hàm số tại x0."
+        },
+        {
+          "term": "Dạng vô định 0/0",
+          "definition": "Khi x -> x0 mà cả tử số và mẫu số đều tiến về 0. Phương pháp giải là triệt tiêu nhân tử chung (x - x0) bằng phân tích đa thức hoặc nhân lượng liên hợp.",
+          "notation": "√(a) - √(b) = (a - b) / [√(a) + √(b)]",
+          "note": "Lượng liên hợp bậc 3: a - b = (a³ - b³) / (a² + ab + b²)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc dấu giới hạn dạng L/0",
+          "meaning": "Nếu tử số tiến về số thực L ≠ 0 và mẫu số tiến về 0 mang một dấu xác định (+ hoặc -) thì giới hạn tiến về +∞ hoặc -∞ theo quy tắc nhân dấu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giới hạn của hàm số: lim_{x -> 2} (x² - 5x + 6) / (x - 2)?",
+          "steps": [
+            "Bước 1: Thay x = 2 vào tử: 2² - 5·2 + 6 = 0; mẫu: 2 - 2 = 0. Đây là dạng vô định 0/0.",
+            "Bước 2: Phân tích tử số thành nhân tử: x² - 5x + 6 = (x - 2)(x - 3).",
+            "Bước 3: Rút gọn nhân tử chung (x - 2): lim_{x -> 2} (x - 3) = 2 - 3 = -1."
+          ],
+          "answer": "lim = -1."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhân liên hợp nhưng quên đổi dấu trong căn hoặc chia nhầm dấu khi x tiến về âm vô cực.",
+          "why": "Khi đưa x ra ngoài dấu căn bậc hai với x -> -∞, phải có dấu trừ: √(x²) = |x| = -x."
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "title": "Bài 10: Hàm số liên tục",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa hàm số liên tục tại một điểm và trên một tập hợp.",
+        "Biết các hàm số sơ cấp (đa thức, phân thức, lượng giác) liên tục trên tập xác định.",
+        "Hiểu và áp dụng định lí giá trị trung gian để chứng minh phương trình có nghiệm."
+      ],
+      "concepts": [
+        {
+          "term": "Liên tục tại một điểm",
+          "definition": "Cho hàm số y = f(x) xác định trên khoảng (a; b) và x0 ∈ (a; b). Hàm số f(x) gọi là liên tục tại điểm x0 nếu: lim_{x -> x0} f(x) = f(x0).",
+          "notation": "lim_{x -> x0} f(x) = f(x0)",
+          "note": "Nếu không thoả mãn điều kiện trên, ta nói hàm số gián đoạn tại điểm x0."
+        },
+        {
+          "term": "Liên tục trên khoảng, đoạn",
+          "definition": "Hàm số liên tục trên khoảng (a; b) nếu nó liên tục tại mọi điểm thuộc khoảng đó. Hàm số liên tục trên đoạn [a; b] nếu nó liên tục trên (a; b) và lim_{x -> a+} f(x) = f(a), lim_{x -> b-} f(x) = f(b).",
+          "notation": "f ∈ C([a; b])",
+          "note": "Đồ thị của hàm số liên tục trên một khoảng là một đường liền nét."
+        },
+        {
+          "term": "Định lí giá trị trung gian (Bolzano - Cauchy)",
+          "definition": "Nếu hàm số y = f(x) liên tục trên đoạn [a; b] và f(a) · f(b) < 0 thì tồn tại ít nhất một điểm c ∈ (a; b) sao cho f(c) = 0.",
+          "notation": "f(a) · f(b) < 0 => ∃c ∈ (a; b): f(c) = 0",
+          "note": "Ý nghĩa: Phương trình f(x) = 0 có ít nhất một nghiệm nằm giữa a và b."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính liên tục của tổng, hiệu, tích, thương",
+          "meaning": "Nếu f(x) và g(x) liên tục tại x0 thì f ± g, f · g cũng liên tục tại x0; f / g liên tục tại x0 nếu g(x0) ≠ 0."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Chứng minh rằng phương trình x³ + 2x - 5 = 0 có ít nhất một nghiệm trong khoảng (1; 2)?",
+          "steps": [
+            "Bước 1: Xét hàm số f(x) = x³ + 2x - 5. Đây là hàm đa thức nên liên tục trên toàn R, do đó f(x) liên tục trên đoạn [1; 2].",
+            "Bước 2: Tính giá trị tại hai đầu mút: f(1) = 1³ + 2(1) - 5 = -2 < 0; f(2) = 2³ + 2(2) - 5 = 8 + 4 - 5 = 7 > 0.",
+            "Bước 3: Nhận thấy f(1) · f(2) = (-2) · 7 = -14 < 0. Theo định lí giá trị trung gian, tồn tại ít nhất một số c ∈ (1; 2) sao cho f(c) = 0."
+          ],
+          "answer": "Phương trình x³ + 2x - 5 = 0 có ít nhất một nghiệm thuộc khoảng (1; 2)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nêu điều kiện hàm số phải 'liên tục trên đoạn [a; b]' khi áp dụng định lí nghiệm.",
+          "why": "Nếu hàm số bị gián đoạn nhảy cóc trên [a; b], f(a) và f(b) trái dấu nhưng đồ thị không cắt trục hoành."
+        }
+      ]
+    }
+  ]
+}

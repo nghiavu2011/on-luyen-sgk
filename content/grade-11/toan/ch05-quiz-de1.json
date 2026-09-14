@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Giá trị đại diện của nhóm số liệu $[20; 30)$ là:",
-    "options": [
-      "A. $20$",
-      "B. $25$",
-      "C. $30$",
-      "D. $10$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Công thức: Giá trị đại diện bằng trung bình cộng 2 đầu mút: $\\frac{20 + 30}{2} = 25$.\n💡 Lấy điểm chính giữa của khoảng nhóm.\n⚠️ Nhớ công thức cơ bản của thống kê ghép nhóm."
-  }
-]
+{
+  "chapterId": "ch05",
+  "examId": "de1",
+  "title": "Toán 11 — Chương 5: Đề 1 — Khái niệm & Nhận biết Thống kê ghép nhóm",
+  "description": "Đề kiểm tra nhận biết về giá trị đại diện, độ dài nhóm, xác định nhóm chứa trung vị và nhóm chứa mốt.",
+  "questions": [
+    {
+      "id": "t11_c5_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Giá trị đại diện của nhóm",
+      "question": "Giá trị đại diện của nhóm số liệu [20; 30) là:",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "10"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Giá trị đại diện của nhóm [a; b) là trung bình cộng hai đầu mút: c = (a + b) / 2.",
+        "socraticPrompt": "Lấy (20 + 30) chia cho 2 thì bằng bao nhiêu?",
+        "steps": "Ta có c = (20 + 30) / 2 = 50 / 2 = 25.",
+        "trap": "Chọn đầu mút trái 20 hoặc đầu mút phải 30 hoặc lấy hiệu 30 - 20 = 10."
+      }
+    },
+    {
+      "id": "t11_c5_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Độ dài của nhóm",
+      "question": "Độ dài của nhóm số liệu [150; 165) bằng:",
+      "options": [
+        "157,5",
+        "165",
+        "15",
+        "315"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Độ dài nhóm [a; b) là hiệu số giữa đầu mút phải và đầu mút trái: h = b - a.",
+        "socraticPrompt": "Lấy 165 trừ đi 150 thì khoảng cách bằng bao nhiêu?",
+        "steps": "Độ dài nhóm là: h = 165 - 150 = 15.",
+        "trap": "Nhầm công thức tính giá trị đại diện ra 157,5."
+      }
+    },
+    {
+      "id": "t11_c5_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Cỡ mẫu của mẫu số liệu",
+      "question": "Một mẫu số liệu ghép nhóm có các tần số tương ứng là 5, 12, 18, 10, 5. Cỡ mẫu n của tập dữ liệu này là:",
+      "options": [
+        "50",
+        "45",
+        "40",
+        "5"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cỡ mẫu n là tổng của tất cả các tần số: n = ∑ mi.",
+        "socraticPrompt": "Cộng tất cả 5 tần số lại với nhau: 5 + 12 + 18 + 10 + 5 = ?",
+        "steps": "Cỡ mẫu n = 5 + 12 + 18 + 10 + 5 = 50.",
+        "trap": "Cộng thiếu nhóm hoặc nhầm số lượng nhóm (5 nhóm) với cỡ mẫu."
+      }
+    },
+    {
+      "id": "t11_c5_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định nhóm chứa mốt",
+      "question": "Cho bảng phân bố tần số ghép nhóm có các tần số lần lượt là: Nhóm 1: 4, Nhóm 2: 15, Nhóm 3: 28, Nhóm 4: 11, Nhóm 5: 2. Nhóm chứa mốt là:",
+      "options": [
+        "Nhóm 2",
+        "Nhóm 4",
+        "Nhóm 1",
+        "Nhóm 3"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nhóm chứa mốt là nhóm có tần số xuất hiện lớn nhất trong bảng phân bố.",
+        "socraticPrompt": "Trong các tần số 4, 15, 28, 11, 2 thì số nào lớn nhất?",
+        "steps": "Tần số lớn nhất là 28, tương ứng với Nhóm 3. Do đó nhóm chứa mốt là Nhóm 3.",
+        "trap": "Nhầm nhóm chứa mốt với nhóm ở chính giữa vị trí bảng."
+      }
+    },
+    {
+      "id": "t11_c5_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhóm chứa trung vị",
+      "question": "Một mẫu số liệu ghép nhóm có cỡ mẫu n = 60. Tần số tích luỹ của các nhóm lần lượt là: Nhóm 1: 10, Nhóm 2: 24, Nhóm 3: 42, Nhóm 4: 55, Nhóm 5: 60. Nhóm chứa trung vị là:",
+      "options": [
+        "Nhóm 2",
+        "Nhóm 3",
+        "Nhóm 4",
+        "Nhóm 1"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nhóm chứa trung vị là nhóm đầu tiên có tần số tích luỹ Cf ≥ n/2.",
+        "socraticPrompt": "Với n = 60 thì n/2 = 30. Tần số tích luỹ của nhóm nào đầu tiên vượt qua 30?",
+        "steps": "Ta có n/2 = 60/2 = 30. Nhóm 2 có Cf = 24 < 30. Nhóm 3 có Cf = 42 ≥ 30. Vậy nhóm chứa trung vị là Nhóm 3.",
+        "trap": "Chọn Nhóm 2 vì thấy 24 gần 30 nhất nhưng chưa đạt ngưỡng."
+      }
+    },
+    {
+      "id": "t11_c5_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa của số trung bình",
+      "question": "Số trung bình x̄ của mẫu số liệu ghép nhóm phản ánh đại lượng nào sau đây?",
+      "options": [
+        "Độ phân tán của dữ liệu",
+        "Giá trị lớn nhất của mẫu",
+        "Xu thế trung tâm đại diện cho toàn bộ mẫu số liệu",
+        "Giá trị xuất hiện nhiều lần nhất"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Số trung bình là số đặc trưng đo xu thế trung tâm của tập số liệu.",
+        "socraticPrompt": "Số trung bình là trung tâm đại diện hay là đo độ tản mác?",
+        "steps": "Theo SGK Toán 11, số trung bình đo xu thế trung tâm của mẫu số liệu, thể hiện giá trị trung bình đại diện cho mẫu.",
+        "trap": "Nhầm với Mốt (xuất hiện nhiều nhất) hoặc phương sai (độ phân tán)."
+      }
+    }
+  ]
+}

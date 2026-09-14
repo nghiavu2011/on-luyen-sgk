@@ -1,16 +1,128 @@
-[
-  {
-    "id": "toan11_ch02_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Cho ba số thực dương $a, b, c$ theo thứ tự đó lập thành một cấp số cộng và có tổng $a + b + c = 15$. Nếu thêm 1 vào $a$, thêm 2 vào $b$ và thêm 9 vào $c$ thì được ba số mới lập thành một cấp số nhân. Giá trị của tích $a \\times c$ là:",
-    "options": [
-      "A. $16$",
-      "B. $21$",
-      "C. $25$",
-      "D. $24$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phân tích logic:\n1. Ba số lập CSC có tổng $= 15 \\Rightarrow 3b = 15 \\Rightarrow b = 5$.\nKhi đó $a = 5 - d, c = 5 + d$.\n2. Ba số mới: $a + 1 = 6 - d$, $b + 2 = 7$, $c + 9 = 14 + d$.\nBa số này lập CSN $\\Rightarrow (6 - d)(14 + d) = 7^2 = 49$.\n$\\Leftrightarrow 84 - 8d - d^2 = 49 \\Leftrightarrow d^2 + 8d - 35 = 0 \\Rightarrow d = 2$ (do số dương).\nVới $d = 2 \\Rightarrow a = 3, c = 7 \\Rightarrow a \\times c = 21$.\n⚠️ Bài toán vận dụng cao kết hợp hoàn hảo CSC và CSN."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 2: Đề 3 — Đánh giá Năng lực Tổng hợp Dãy số & Cấp số",
+  "description": "Bộ đề đánh giá tổng hợp mức độ thông hiểu và vận dụng thực tế của Cấp số cộng và Cấp số nhân.",
+  "questions": [
+    {
+      "id": "t11_c2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Bài toán lãi kép ứng dụng CSN",
+      "question": "Một người gửi tiết kiệm 100 triệu đồng vào ngân hàng với lãi suất 6%/năm theo hình thức lãi kép hàng năm. Sau 3 năm, số tiền cả gốc lẫn lãi người đó nhận được (làm tròn đến triệu đồng) là:",
+      "options": [
+        "118 triệu đồng",
+        "119 triệu đồng",
+        "126 triệu đồng",
+        "116 triệu đồng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức lãi kép: A = P · (1 + r)^n, đây chính là số hạng của một cấp số nhân.",
+        "socraticPrompt": "Số tiền sau mỗi năm tăng gấp 1,06 lần. Sau 3 năm nhân với 1,06^3?",
+        "steps": "Số tiền sau 3 năm: A = 100 · (1 + 0,06)^3 = 100 · 1,191016 = 119,1016 triệu đồng ≈ 119 triệu đồng.",
+        "trap": "Tính nhầm theo lãi đơn: 100 + 3 · 6 = 118 triệu đồng."
+      }
+    },
+    {
+      "id": "t11_c2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm công sai d từ tổng Sn",
+      "question": "Một cấp số cộng có tổng n số hạng đầu cho bởi công thức Sn = 2n² + 3n. Công sai d của cấp số cộng này là:",
+      "options": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mối liên hệ giữa Sn và un: u1 = S1; un = Sn - Sn-1 (với n ≥ 2).",
+        "socraticPrompt": "Tính u1 = S1 và u2 = S2 - S1, rồi tìm d = u2 - u1?",
+        "steps": "Ta có: u1 = S1 = 2(1)² + 3(1) = 5. S2 = 2(2)² + 3(2) = 14 => u2 = S2 - S1 = 14 - 5 = 9. Công sai d = u2 - u1 = 9 - 5 = 4.",
+        "trap": "Nhầm d là hệ số của n² (d = 2) hoặc hệ số của n (d = 3)."
+      }
+    },
+    {
+      "id": "t11_c2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán xếp cọc ống nước",
+      "question": "Người ta xếp các đoạn ống nước hình trụ thành một chồng có mặt cắt là hình tam giác: hàng dưới cùng có 15 ống, mỗi hàng phía trên bớt đi 1 ống so với hàng dưới, hàng trên cùng có 1 ống. Tổng số ống nước trong chồng đó là:",
+      "options": [
+        "120 ống",
+        "105 ống",
+        "135 ống",
+        "225 ống"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tổng các số tự nhiên từ 1 đến n theo công thức CSC: Sn = n(n + 1)/2.",
+        "socraticPrompt": "Tổng các số từ 1 đến 15 là bao nhiêu? Lấy 15 nhân 16 chia 2 nhé!",
+        "steps": "Số lượng ống từ trên xuống: 1, 2, 3, ..., 15. Đây là CSC có u1 = 1, u15 = 15, số số hạng n = 15. Tổng S = 15 · (1 + 15) / 2 = 15 · 8 = 120 ống.",
+        "trap": "Lấy 15 · 15 = 225 hoặc nhân nhầm số hạng."
+      }
+    },
+    {
+      "id": "t11_c2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Dãy số truy hồi tuyến tính",
+      "question": "Cho dãy số (un) xác định bởi: u1 = 1 và un+1 = 2un + 1 với mọi n ≥ 1. Công thức số hạng tổng quát un là:",
+      "options": [
+        "un = 2^(n-1)",
+        "un = 2^n - 1",
+        "un = 2^(n+1) - 3",
+        "un = 2n - 1"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Biến đổi un+1 + 1 = 2(un + 1) để đưa về cấp số nhân phụ vn = un + 1.",
+        "socraticPrompt": "Cộng 1 vào hai vế: un+1 + 1 = 2(un + 1). Dãy (un + 1) là cấp số nhân có công bội bằng bao nhiêu?",
+        "steps": "Đặt vn = un + 1 => v1 = u1 + 1 = 2. Phương trình truy hồi trở thành: vn+1 = 2vn. Do đó (vn) là cấp số nhân có v1 = 2, công bội q = 2 => vn = 2 · 2^(n-1) = 2^n. Suy ra un = vn - 1 = 2^n - 1.",
+        "trap": "Thử nghiệm n = 1 thấy 2^1 - 1 = 1 đúng, nhưng nếu đoán un = 2n - 1 thì n = 2 sai vì u2 = 2(1)+1 = 3 (cả hai đều bằng 3) nhưng n = 3: u3 = 2(3)+1 = 7, còn 2(3)-1 = 5."
+      }
+    },
+    {
+      "id": "t11_c2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "CSC và CSN kết hợp",
+      "question": "Ba số x, y, z theo thứ tự lập thành một cấp số nhân có công bội q ≠ 1. Đồng thời x, 2y, 3z theo thứ tự lập thành một cấp số cộng khác 0. Giá trị của công bội q là:",
+      "options": [
+        "q = 1/3",
+        "q = 3",
+        "q = 2/3",
+        "q = 1/2"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Biểu diễn y = xq, z = xq² vào điều kiện của cấp số cộng: 2(2y) = x + 3z.",
+        "socraticPrompt": "Phương trình 4xq = x + 3xq² chia hai vế cho x ≠ 0 thì nghiệm q bằng bao nhiêu (với q ≠ 1)?",
+        "steps": "Do x, 2y, 3z là CSC nên 2·(2y) = x + 3z <=> 4xq = x + 3xq² <=> 3q² - 4q + 1 = 0. Phương trình có hai nghiệm q = 1 hoặc q = 1/3. Vì giả thiết q ≠ 1 nên q = 1/3.",
+        "trap": "Quên loại nghiệm q = 1 hoặc giải sai dấu phương trình bậc hai."
+      }
+    },
+    {
+      "id": "t11_c2_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính chất của CSC",
+      "question": "Cho cấp số cộng (un) có u1 + u5 = 26. Tổng u2 + u4 của cấp số cộng đó bằng:",
+      "options": [
+        "13",
+        "52",
+        "26",
+        "20"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính chất đối xứng của cấp số cộng: uk + un-k+1 không đổi (u1 + u5 = u2 + u4 = 2u3).",
+        "socraticPrompt": "Trong cấp số cộng, tổng hai số hạng cách đều hai đầu mút luôn như thế nào với nhau?",
+        "steps": "Ta có: u2 + u4 = (u1 + d) + (u5 - d) = u1 + u5 = 26.",
+        "trap": "Nghĩ rằng u2 + u4 bị lệch chỉ số nên chia đôi ra 13."
+      }
+    }
+  ]
+}

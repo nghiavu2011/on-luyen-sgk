@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch04",
+  "examId": "tonghop",
+  "title": "Toán 11 — Chương 4: Đề 3 — Đánh giá Năng lực Tổng hợp Quan hệ song song",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức giao tuyến, song song và hình không gian thực tế.",
+  "questions": [
+    {
+      "id": "t11_c4_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng quan hệ song song trong xây dựng",
+      "question": "Một người thợ muốn kiểm tra xem xà gồ d trên mái nhà có song song với mặt sàn phẳng (P) hay không. Bằng thước thẳng, người đó xác định được d song song với một mép tường nằm trên mặt sàn (P). Kết luận nào sau đây là chính xác?",
+      "options": [
+        "Chưa đủ căn cứ vì cần đo góc",
+        "d chắc chắn song song với sàn (P) nếu d không nằm trên sàn",
+        "d cắt sàn (P)",
+        "d chéo với sàn (P)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dấu hiệu nhận biết đường thẳng song song với mặt phẳng: d ⊄ (P) và d // a ⊂ (P) => d // (P).",
+        "socraticPrompt": "Đường xà gồ trên mái không nằm trên sàn và song song với 1 đường trên sàn thì thoả mãn định lí nào?",
+        "steps": "Áp dụng định lí: Nếu đường thẳng d không nằm trong mặt phẳng sàn (P) và song song với một đường thẳng nằm trên sàn thì d song song với sàn (P).",
+        "trap": "Nghĩ rằng phải đo khoảng cách ở nhiều điểm mới kết luận được."
+      }
+    },
+    {
+      "id": "t11_c4_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Số mặt phẳng song song cách đều",
+      "question": "Cho hai đường thẳng a và b chéo nhau. Có bao nhiêu mặt phẳng chứa đường thẳng a và song song với đường thẳng b?",
+      "options": [
+        "0",
+        "Vô số",
+        "1",
+        "2"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Qua đường thẳng a, dựng đường thẳng b' cắt a và b' // b. Mặt phẳng (a, b') là duy nhất chứa a và song song với b.",
+        "socraticPrompt": "Lấy 1 điểm trên a rồi kẻ đường thẳng song song với b, có xác định được duy nhất 1 mặt phẳng không?",
+        "steps": "Lấy một điểm M trên a. Qua M dựng đường thẳng b' // b. Hai đường thẳng cắt nhau a và b' xác định duy nhất một mặt phẳng (P). Khi đó (P) chứa a và (P) // b.",
+        "trap": "Đoán là vô số mặt phẳng."
+      }
+    },
+    {
+      "id": "t11_c4_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thiết diện qua trọng tâm",
+      "question": "Cho tứ diện đều ABCD. Gọi G là trọng tâm tam giác BCD. Mặt phẳng (α) đi qua G và song song với mặt phẳng (ABC) cắt các cạnh DA, DB, DC tạo thành một thiết diện. Thiết diện đó là:",
+      "options": [
+        "Hình thang",
+        "Hình bình hành",
+        "Hình vuông",
+        "Tam giác đều"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mặt phẳng song song với mặt phẳng tam giác đều (ABC) sẽ cắt các mặt bên theo các đoạn thẳng tỉ lệ, tạo thành tam giác đồng dạng với (ABC).",
+        "socraticPrompt": "Tứ diện đều có mặt ABC là tam giác đều. Cắt bởi mặt phẳng song song với tam giác đều thì được tam giác gì?",
+        "steps": "Vì (α) // (ABC) nên thiết diện đồng dạng với tam giác ABC. Do tam giác ABC là tam giác đều nên thiết diện thu được cũng là tam giác đều.",
+        "trap": "Nhầm thành hình thang do nhầm với thiết diện cắt 4 cạnh."
+      }
+    },
+    {
+      "id": "t11_c4_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vị trí tương đối của hai mặt phẳng",
+      "question": "Cho hai mặt phẳng (P) và (Q) phân biệt cùng song song với mặt phẳng (R). Khi đó khẳng định nào sau đây là ĐÚNG?",
+      "options": [
+        "(P) song song với (Q)",
+        "(P) cắt (Q)",
+        "(P) vuông góc với (Q)",
+        "(P) trùng với (Q)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính chất bắc cầu: Hai mặt phẳng phân biệt cùng song song với mặt phẳng thứ ba thì song song với nhau.",
+        "socraticPrompt": "Hai sàn nhà cùng song song với trần nhà thì hai sàn nhà đó có bao giờ chạm nhau không?",
+        "steps": "Theo tính chất cơ bản SGK Toán 11: Nếu (P) // (R) và (Q) // (R) với (P) ≠ (Q) thì (P) // (Q).",
+        "trap": "Quên giả thiết (P) và (Q) phân biệt dẫn đến chọn (P) trùng (Q)."
+      }
+    },
+    {
+      "id": "t11_c4_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phép chiếu song song bảo toàn tính chất",
+      "question": "Phép chiếu song song KHÔNG bảo toàn tính chất nào sau đây của hình phẳng?",
+      "options": [
+        "Độ dài của đoạn thẳng",
+        "Quan hệ song song của hai đường thẳng",
+        "Tỉ số độ dài hai đoạn thẳng nằm trên hai đường thẳng song song",
+        "Thứ tự ba điểm thẳng hàng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phép chiếu song song bảo toàn tính thẳng hàng, quan hệ song song và tỉ số đoạn thẳng, nhưng KHÔNG bảo toàn độ dài và góc.",
+        "socraticPrompt": "Cái bóng của một chiếc gậy dưới nắng có luôn dài bằng đúng chiếc gậy đó không?",
+        "steps": "Độ dài đoạn thẳng bị co giãn phụ thuộc vào góc nghiêng của phương chiếu, do đó phép chiếu song song không bảo toàn độ dài đoạn thẳng.",
+        "trap": "Chọn tỉ số đoạn thẳng hoặc quan hệ song song (hai tính chất này luôn được bảo toàn)."
+      }
+    },
+    {
+      "id": "t11_c4_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Số đỉnh và số mặt của lăng trụ tam giác",
+      "question": "Một hình lăng trụ tam giác có tổng số đỉnh và số mặt bằng:",
+      "options": [
+        "9",
+        "11",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lăng trụ tam giác ABC.A'B'C' có 2 đáy tam giác và 3 mặt bên hình bình hành.",
+        "socraticPrompt": "Đếm số đỉnh (3 đỉnh trên + 3 đỉnh dưới) và số mặt (2 mặt đáy + 3 mặt bên)?",
+        "steps": "Số đỉnh là 3 + 3 = 6 đỉnh. Số mặt là 2 đáy + 3 mặt bên = 5 mặt. Tổng số đỉnh và số mặt là 6 + 5 = 11.",
+        "trap": "Nhầm số cạnh (9 cạnh) dẫn đến chọn 9."
+      }
+    }
+  ]
+}

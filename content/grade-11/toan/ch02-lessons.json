@@ -1,47 +1,165 @@
-[
-  {
-    "id": "l05",
-    "title": "Bài 5: Dãy số và các tính chất",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 5: Dãy số và các tính chất.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 5: Dãy số và các tính chất.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 5: Dãy số và các tính chất để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l06",
-    "title": "Bài 6: Cấp số cộng (CSC)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 6: Cấp số cộng (CSC).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 6: Cấp số cộng (CSC).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 6: Cấp số cộng (CSC) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Cấp số nhân (CSN)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 7: Cấp số nhân (CSN).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 7: Cấp số nhân (CSN).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 7: Cấp số nhân (CSN) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Dãy số. Cấp số cộng & Cấp số nhân",
+  "lessons": [
+    {
+      "id": "l05",
+      "title": "Bài 5: Dãy số và các tính chất",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững khái niệm dãy số vô hạn, dãy số hữu hạn và các cách biểu diễn dãy số.",
+        "Nhận biết và chứng minh dãy số tăng, dãy số giảm.",
+        "Xác định tính bị chặn trên, bị chặn dưới và bị chặn của dãy số."
+      ],
+      "concepts": [
+        {
+          "term": "Dãy số",
+          "definition": "Hàm số u xác định trên tập các số nguyên dương N* được gọi là một dãy số vô hạn, kí hiệu là (un). Mỗi giá trị u(n) được gọi là số hạng thứ n hay số hạng tổng quát un.",
+          "notation": "(un): u1, u2, u3, ..., un, ...",
+          "note": "Dãy số có thể cho bởi công thức số hạng tổng quát, bằng hệ thức truy hồi hoặc bằng diễn đạt lời văn."
+        },
+        {
+          "term": "Dãy số tăng, dãy số giảm",
+          "definition": "Dãy số (un) là dãy tăng nếu un+1 > un với mọi n ∈ N*. Dãy số (un) là dãy giảm nếu un+1 < un với mọi n ∈ N*.",
+          "notation": "Dãy tăng: un+1 - un > 0; Dãy giảm: un+1 - un < 0",
+          "note": "Nếu un > 0 với mọi n, dãy tăng khi un+1 / un > 1, dãy giảm khi un+1 / un < 1."
+        },
+        {
+          "term": "Dãy số bị chặn",
+          "definition": "Dãy (un) bị chặn trên nếu tồn tại M sao cho un ≤ M với mọi n. Bị chặn dưới nếu tồn tại m sao cho un ≥ m với mọi n. Dãy vừa bị chặn trên vừa bị chặn dưới gọi là dãy bị chặn (m ≤ un ≤ M).",
+          "notation": "m ≤ un ≤ M, ∀n ∈ N*",
+          "note": "Dãy tăng luôn bị chặn dưới bởi số hạng đầu tiên u1."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương pháp xét tính đơn điệu của dãy số",
+          "meaning": "Lập hiệu số: d = un+1 - un. Nếu d > 0 với mọi n thì dãy tăng. Nếu d < 0 với mọi n thì dãy giảm."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Xét tính tăng, giảm và tính bị chặn của dãy số (un) với un = (2n - 1) / (n + 1)?",
+          "steps": [
+            "Bước 1: Xét hiệu un+1 - un = [2(n+1) - 1] / [(n+1) + 1] - (2n - 1) / (n + 1) = (2n + 1)/(n + 2) - (2n - 1)/(n + 1).",
+            "Bước 2: Quy đồng mẫu số: [(2n + 1)(n + 1) - (2n - 1)(n + 2)] / [(n+2)(n+1)] = (2n² + 3n + 1 - 2n² - 3n + 2) / [(n+2)(n+1)] = 3 / [(n+2)(n+1)] > 0 với mọi n ∈ N*. Vậy dãy số (un) là dãy số tăng.",
+            "Bước 3: Vì n ≥ 1 nên un ≥ u1 = (2·1 - 1)/(1 + 1) = 1/2. Lại có un = (2n + 2 - 3)/(n + 1) = 2 - 3/(n + 1) < 2 với mọi n ∈ N*. Do đó 1/2 ≤ un < 2, dãy số bị chặn."
+          ],
+          "answer": "Dãy số (un) tăng và bị chặn."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chỉ so sánh u1 và u2 rồi kết luận luôn tính tăng giảm của toàn bộ dãy số.",
+          "why": "Tính đơn điệu phải đúng với mọi số nguyên dương n, cần chứng minh tổng quát bằng hiệu số un+1 - un."
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "title": "Bài 6: Cấp số cộng (CSC)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa cấp số cộng và công sai d.",
+        "Thành thạo công thức số hạng tổng quát và tính chất các số hạng.",
+        "Vận dụng công thức tính tổng n số hạng đầu tiên của cấp số cộng để giải toán thực tế."
+      ],
+      "concepts": [
+        {
+          "term": "Cấp số cộng",
+          "definition": "Dãy số (un) mà mỗi số hạng kể từ số hạng thứ hai đều bằng số hạng đứng ngay trước nó cộng với một số không đổi d. Số d được gọi là công sai.",
+          "notation": "un+1 = un + d (n ≥ 1)",
+          "note": "Khi d = 0 thì cấp số cộng là một dãy số không đổi: u1, u1, u1, ..."
+        },
+        {
+          "term": "Số hạng tổng quát của CSC",
+          "definition": "Nếu cấp số cộng (un) có số hạng đầu u1 và công sai d thì số hạng tổng quát un được xác định bởi công thức: un = u1 + (n - 1)d.",
+          "notation": "un = u1 + (n - 1)d, với n ≥ 2",
+          "note": "Ba số hạng liên tiếp ak-1, ak, ak+1 của CSC thỏa mãn: ak = (ak-1 + ak+1) / 2."
+        },
+        {
+          "term": "Tổng n số hạng đầu của CSC",
+          "definition": "Tổng n số hạng đầu tiên Sn = u1 + u2 + ... + un được tính theo hai công thức tiện dụng.",
+          "notation": "Sn = n(u1 + un) / 2 = n[2u1 + (n - 1)d] / 2",
+          "note": "Công thức này xuất phát từ phương pháp ghép cặp đối xứng của nhà toán học Gauss."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ phương trình xác định CSC",
+          "meaning": "Mọi bài toán tìm các yếu tố của CSC đều quy về giải hệ phương trình hai ẩn là số hạng đầu u1 và công sai d."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho cấp số cộng (un) thoả mãn: u1 = 3 và u5 = 19. Tìm công sai d và tính tổng 10 số hạng đầu S10?",
+          "steps": [
+            "Bước 1: Áp dụng công thức số hạng tổng quát: u5 = u1 + 4d => 19 = 3 + 4d => 4d = 16 => d = 4.",
+            "Bước 2: Tính tổng 10 số hạng đầu theo công thức: S10 = 10 · [2·u1 + (10 - 1)·d] / 2.",
+            "Bước 3: Thay số: S10 = 5 · [2·3 + 9·4] = 5 · [6 + 36] = 5 · 42 = 210."
+          ],
+          "answer": "Công sai d = 4 và tổng S10 = 210."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng sai công thức un = u1 + nd (dư 1 công sai d).",
+          "why": "Khoảng cách từ u1 đến un chỉ gồm (n - 1) bước nhảy công sai d, nên công thức đúng là u1 + (n - 1)d."
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "title": "Bài 7: Cấp số nhân (CSN)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa cấp số nhân và công bội q.",
+        "Biết áp dụng công thức số hạng tổng quát un = u1 · q^(n-1).",
+        "Tính được tổng n số hạng đầu tiên Sn của cấp số nhân và giải bài toán tăng trưởng mũ."
+      ],
+      "concepts": [
+        {
+          "term": "Cấp số nhân",
+          "definition": "Dãy số (un) mà mỗi số hạng kể từ số hạng thứ hai đều bằng tích của số hạng ngay trước nó với một số không đổi q. Số q được gọi là công bội.",
+          "notation": "un+1 = un · q (n ≥ 1)",
+          "note": "Khi q = 1, dãy là dãy hằng. Khi q = 0 và u1 ≠ 0, dãy là u1, 0, 0, ..."
+        },
+        {
+          "term": "Số hạng tổng quát của CSN",
+          "definition": "Nếu cấp số nhân (un) có số hạng đầu u1 và công bội q thì số hạng tổng quát là un = u1 · q^(n-1).",
+          "notation": "un = u1 · q^(n-1), với n ≥ 2",
+          "note": "Ba số hạng liên tiếp ak-1, ak, ak+1 của CSN thỏa mãn: ak² = ak-1 · ak+1."
+        },
+        {
+          "term": "Tổng n số hạng đầu của CSN",
+          "definition": "Tổng n số hạng đầu Sn = u1 + u2 + ... + un của CSN có công bội q ≠ 1 được tính bởi công thức:",
+          "notation": "Sn = u1 · (1 - q^n) / (1 - q) = u1 · (q^n - 1) / (q - 1)",
+          "note": "Nếu q = 1 thì Sn = n · u1."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện xác định công bội q",
+          "meaning": "Khi các số hạng khác 0, ta có q = un+1 / un. Cần chú ý dấu của q khi khai căn chẵn bậc hai số hạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho cấp số nhân (un) có u1 = 2 và công bội q = 3. Số 486 là số hạng thứ mấy của dãy số?",
+          "steps": [
+            "Bước 1: Giả sử un = 486. Áp dụng công thức số hạng tổng quát: un = u1 · q^(n-1).",
+            "Bước 2: Thay số: 486 = 2 · 3^(n-1) => 3^(n-1) = 243.",
+            "Bước 3: Ta biết 243 = 3^5, do đó n - 1 = 5 => n = 6."
+          ],
+          "answer": "Số 486 là số hạng thứ 6 (u6) của cấp số nhân."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm số mũ của q thành n thay vì n - 1 (viết un = u1 · q^n).",
+          "why": "Số hạng đầu tiên u1 ứng với q^0 = 1, nên số hạng thứ n chỉ nhân với q^(n-1)."
+        }
+      ]
+    }
+  ]
+}

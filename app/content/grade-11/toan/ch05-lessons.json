@@ -1,32 +1,118 @@
-[
-  {
-    "id": "l15",
-    "title": "Bài 15: Mẫu số liệu ghép nhóm và bảng tần số ghép nhóm",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 15: Mẫu số liệu ghép nhóm và bảng tần số ghép nhóm.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 15: Mẫu số liệu ghép nhóm và bảng tần số ghép nhóm.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 15: Mẫu số liệu ghép nhóm và bảng tần số ghép nhóm để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l16",
-    "title": "Bài 16: Các số đặc trưng đo xu thế trung tâm (Số trung bình, Trung vị, Mốt)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 16: Các số đặc trưng đo xu thế trung tâm (Số trung bình, Trung vị, Mốt).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 16: Các số đặc trưng đo xu thế trung tâm (Số trung bình, Trung vị, Mốt).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 16: Các số đặc trưng đo xu thế trung tâm (Số trung bình, Trung vị, Mốt) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Các số đặc trưng đo xu thế trung tâm mẫu số liệu ghép nhóm",
+  "lessons": [
+    {
+      "id": "l15",
+      "title": "Bài 15: Mẫu số liệu ghép nhóm và bảng tần số ghép nhóm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững khái niệm mẫu số liệu ghép nhóm và cách lập bảng tần số ghép nhóm.",
+        "Xác định được các nhóm [ai; ai+1), độ dài nhóm h và giá trị đại diện ci của từng nhóm.",
+        "Hiểu ý nghĩa của việc ghép nhóm số liệu trong phân tích dữ liệu lớn."
+      ],
+      "concepts": [
+        {
+          "term": "Mẫu số liệu ghép nhóm",
+          "definition": "Mẫu số liệu ghép nhóm là mẫu số liệu được chia thành các nhóm con dưới dạng các nửa khoảng [ai; ai+1), trong đó ai là đầu mút trái, ai+1 là đầu mút phải của nhóm.",
+          "notation": "[ai; ai+1) với i = 1, 2, ..., k",
+          "note": "Các nhóm thường có độ dài bằng nhau: h = ai+1 - ai."
+        },
+        {
+          "term": "Giá trị đại diện của nhóm",
+          "definition": "Giá trị đại diện của nhóm [ai; ai+1) là trung bình cộng của hai đầu mút nhóm đó.",
+          "notation": "ci = (ai + ai+1) / 2",
+          "note": "Ví dụ: Nhóm [20; 30) có giá trị đại diện là c = (20 + 30)/2 = 25."
+        },
+        {
+          "term": "Bảng tần số ghép nhóm",
+          "definition": "Bảng ghi lại các nhóm số liệu và tần số mi tương ứng (số lượng số liệu rơi vào từng nhóm). Tổng các tần số chính là cỡ mẫu n = m1 + m2 + ... + mk.",
+          "notation": "n = ∑ mi",
+          "note": "Tần số tích luỹ Cf của một nhóm là tổng tần số từ nhóm thứ nhất đến nhóm đó."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc chia nhóm",
+          "meaning": "Cần chọn số nhóm và độ dài nhóm thích hợp (thường từ 5 đến 12 nhóm) để không làm mất đi các đặc trưng phân bố quan trọng của tập dữ liệu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẫu số liệu ghép nhóm về thời gian tự học (phút/ngày) của 40 học sinh như sau: [30; 60): 8 em; [60; 90): 15 em; [90; 120): 12 em; [120; 150): 5 em. Hãy tìm độ dài nhóm và giá trị đại diện của nhóm [60; 90)?",
+          "steps": [
+            "Bước 1: Nhóm [60; 90) có đầu mút trái a2 = 60, đầu mút phải a3 = 90.",
+            "Bước 2: Độ dài nhóm h = 90 - 60 = 30 (phút).",
+            "Bước 3: Giá trị đại diện c2 = (60 + 90) / 2 = 150 / 2 = 75 (phút)."
+          ],
+          "answer": "Độ dài nhóm h = 30 và giá trị đại diện c2 = 75."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy giá trị đầu mút trái 60 hoặc đầu mút phải 90 làm giá trị đại diện cho nhóm.",
+          "why": "Giá trị đại diện phải là trung bình cộng của cả hai đầu mút (ai + ai+1)/2."
+        }
+      ]
+    },
+    {
+      "id": "l16",
+      "title": "Bài 16: Các số đặc trưng đo xu thế trung tâm (Số trung bình, Trung vị, Mốt)",
+      "hasRealContent": true,
+      "objectives": [
+        "Tính thành thạo số trung bình x̄ của mẫu số liệu ghép nhóm qua giá trị đại diện.",
+        "Áp dụng chính xác công thức nội suy tìm Trung vị Me và Tứ phân vị Q1, Q3.",
+        "Tìm nhóm chứa mốt và tính Mốt Mo của mẫu số liệu ghép nhóm."
+      ],
+      "concepts": [
+        {
+          "term": "Số trung bình x̄",
+          "definition": "Số trung bình của mẫu số liệu ghép nhóm là tổng của tích các giá trị đại diện với tần số tương ứng, chia cho cỡ mẫu n.",
+          "notation": "x̄ = (m1·c1 + m2·c2 + ... + mk·ck) / n",
+          "note": "Phản ánh giá trị đại diện chung nhất của toàn bộ tập dữ liệu."
+        },
+        {
+          "term": "Trung vị Me (và Tứ phân vị Q2)",
+          "definition": "Giá trị chia mẫu số liệu đã sắp xếp thành hai phần có số lượng số liệu bằng nhau. Gọi [ap; ap+1) là nhóm chứa trung vị (nhóm đầu tiên có tần số tích luỹ Cf ≥ n/2).",
+          "notation": "Me = ap + [(n/2 - C) / mp] · h",
+          "note": "C là tần số tích luỹ nhóm trước nhóm p, mp là tần số nhóm p, h là độ dài nhóm."
+        },
+        {
+          "term": "Tứ phân vị Q1 và Q3",
+          "definition": "Q1 là trung vị của nửa dưới (nhóm đầu tiên có Cf ≥ n/4): Q1 = ap + [(n/4 - C)/mp] · h. Q3 là trung vị của nửa trên (nhóm đầu tiên có Cf ≥ 3n/4): Q3 = aq + [(3n/4 - C)/mq] · h.",
+          "notation": "Q1, Q2 = Me, Q3",
+          "note": "Khoảng tứ phân vị ∆Q = Q3 - Q1 là số đo độ phân tán."
+        },
+        {
+          "term": "Mốt Mo của mẫu số liệu ghép nhóm",
+          "definition": "Nhóm chứa mốt là nhóm có tần số lớn nhất mj. Khi đó mốt Mo được tính xấp xỉ bằng công thức:",
+          "notation": "Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h",
+          "note": "mj-1 và mj+1 lần lượt là tần số của nhóm đứng ngay trước và ngay sau nhóm chứa mốt."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nhóm chứa trung vị và mốt",
+          "meaning": "Cần phân biệt rõ: Nhóm chứa mốt là nhóm có tần số lớn nhất (tần số đơn lẻ), còn nhóm chứa trung vị được xác định qua tần số tích luỹ đạt ngưỡng n/2."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho bảng số liệu ghép nhóm về điểm số của 40 học sinh: [4; 6): 10 em; [6; 8): 20 em; [8; 10): 10 em. Tính số trung bình x̄ và tìm trung vị Me?",
+          "steps": [
+            "Bước 1: Giá trị đại diện các nhóm: c1 = (4+6)/2 = 5; c2 = (6+8)/2 = 7; c3 = (8+10)/2 = 9.",
+            "Bước 2: Tính số trung bình: x̄ = (10·5 + 20·7 + 10·9) / 40 = (50 + 140 + 90) / 40 = 280 / 40 = 7.",
+            "Bước 3: Tìm trung vị: n = 40 => n/2 = 20. Tần số tích luỹ nhóm 1 là 10 < 20. Nhóm 2 có Cf = 10 + 20 = 30 ≥ 20. Vậy nhóm chứa trung vị là [6; 8). Khi đó a2 = 6, C = 10, m2 = 20, h = 8 - 6 = 2. Áp dụng công thức: Me = 6 + [(20 - 10)/20] · 2 = 6 + [10/20] · 2 = 6 + 1 = 7."
+          ],
+          "answer": "Số trung bình x̄ = 7 và trung vị Me = 7."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm C là tần số tích luỹ của nhóm hiện tại thay vì nhóm đứng ngay trước đó.",
+          "why": "Công thức n/2 - C trừ đi phần số liệu đã nằm ở các nhóm trước, nên C phải là tần số tích luỹ của nhóm trước."
+        }
+      ]
+    }
+  ]
+}
