@@ -74,10 +74,15 @@
         </div>
     </header>
 
-    <!-- ================= FULL WIDTH HERO BANNER (SEAMLESS BLEND) ================= -->
+    <!-- ================= FULL WIDTH HERO BANNER (FULL BLEED BLEMISH-FREE) ================= -->
     <section class="ol-hero-section-full" id="hero-banner-section">
+        <div class="ol-hero-backdrop-container">
+            <img src="assets/hero_main.png" id="hero-student-img" alt="Học sinh Việt Nam học tập chủ động cùng Ôn Luyện SGK" class="ol-hero-backdrop-img">
+            <div class="ol-hero-backdrop-overlay"></div>
+        </div>
+
         <div class="ol-hero-container">
-            <div>
+            <div class="ol-hero-content-left">
                 <div class="ol-hero-tag" id="hero-tag">TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI</div>
                 <h1 class="ol-hero-title" id="hero-title">Học đúng hướng.<br>Ôn đúng trọng tâm.</h1>
                 <p class="ol-hero-desc" id="hero-desc">
@@ -89,31 +94,23 @@
                 </div>
                 <div class="ol-hero-stats" id="hero-stats-row">
                     <div class="ol-stat-item">
-                        <h3 id="stat-val-1">50.000+</h3>
-                        <p id="stat-lbl-1">Học sinh tin tưởng</p>
+                        <h3 id="stat-val-1">282+</h3>
+                        <p id="stat-lbl-1">Đề ôn luyện chuẩn hóa</p>
                     </div>
                     <div class="ol-stat-item">
-                        <h3 id="stat-val-2">10.000+</h3>
-                        <p id="stat-lbl-2">Đề ôn tập chất lượng</p>
+                        <h3 id="stat-val-2">1.692+</h3>
+                        <p id="stat-lbl-2">Câu hỏi trắc nghiệm</p>
                     </div>
                     <div class="ol-stat-item">
                         <h3 id="stat-val-3">100%</h3>
-                        <p id="stat-lbl-3">Bám sát SGK 2026 – 2027</p>
+                        <p id="stat-lbl-3">Chuẩn SGK 2026 – 2027</p>
                     </div>
                 </div>
             </div>
 
-            <div class="ol-hero-visual-wrapper">
+            <div class="ol-hero-floating-decor">
                 <div class="ol-hero-sticker-handwritten" id="hero-sticker">
-                    Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️
-                </div>
-                <img src="assets/hero_main_blended.png" id="hero-student-img" alt="Học sinh Việt Nam học tập chủ động cùng Ôn Luyện SGK" class="ol-hero-student-img">
-                <div class="ol-hero-floating-glass" id="hero-glass-tag">
-                    <span style="font-size: 1.25rem;">📈</span>
-                    <div>
-                        <strong style="color: #0f172a; font-size: 0.85rem;">Tri thức</strong>
-                        <div style="font-size: 0.75rem; color: #64748b;">Kiến tạo tương lai</div>
-                    </div>
+                    Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️
                 </div>
             </div>
         </div>
@@ -365,24 +362,23 @@
 
     <!-- ================= LOGIC ĐIỀU KHIỂN GIAO DIỆN CẤP HỌC ================= -->
     <script>
-        // Cấu hình dữ liệu chuẩn theo 3 mockup của người dùng
+        // Cấu hình dữ liệu chuẩn theo 3 mockup của người dùng với số liệu thực tế
         const LEVEL_DATA = {
             c1: {
                 name: "Tiểu học",
                 tag: "TIỂU HỌC • LỚP 1 - 5",
                 tagColor: { bg: "#ffedd5", text: "#ea580c" },
                 headline: "Học vui mỗi ngày • Vững vàng tương lai",
-                heroImg: "assets/hero_1_blended.png",
+                heroImg: "assets/hero_1.png",
                 heroTag: "TIỂU HỌC • LỚP 1 - 5",
                 heroTitle: "Học vui mỗi ngày.<br>Vững vàng tương lai.",
                 heroDesc: "Khơi gợi niềm vui học tập với bài giảng sinh động, hình ảnh ngộ nghĩnh và lộ trình bám sát bộ SGK Kết nối tri thức của NXB Giáo dục Việt Nam (Năm học 2026 – 2027).",
                 heroStats: [
-                    { val: "50.000+", lbl: "Học sinh tiểu học tin tưởng" },
-                    { val: "10.000+", lbl: "Bài học & đề ôn chất lượng" },
-                    { val: "98%", lbl: "Phụ huynh hài lòng" }
+                    { val: "5", lbl: "Khối lớp (Lớp 1 – 5)" },
+                    { val: "34+", lbl: "Phân môn học SGK" },
+                    { val: "100%", lbl: "SGK Kết nối tri thức" }
                 ],
-                sticker: "Học vui<br>Học giỏi<br>Lớn lên nhé! 💖",
-                glassTag: `<span style="font-size:1.25rem;">🌟</span><div><strong style="color:#0f172a; font-size:0.85rem;">Những bước nhỏ</strong><div style="font-size:0.75rem; color:#64748b;">Tạo nên ước mơ lớn</div></div>`,
+                sticker: "Học vui • Học giỏi • Lớn lên nhé! 💖",
                 grades: [
                     { id: "01", name: "Lớp 1", desc: "Khám phá thế giới mới", icon: "🌱" },
                     { id: "02", name: "Lớp 2", desc: "Vững vàng hơn mỗi ngày", icon: "⭐" },
@@ -404,17 +400,16 @@
                 tag: "THCS • LỚP 6 - 9",
                 tagColor: { bg: "#e0f2fe", text: "#0369a1" },
                 headline: "Học đúng hướng. Vững vàng hôm nay. Tự tin ngày mai.",
-                heroImg: "assets/hero_2_blended.png",
+                heroImg: "assets/hero_2.png",
                 heroTag: "THCS • LỚP 6 - 9",
                 heroTitle: "Học đúng hướng.<br>Vững vàng hôm nay. Tự tin ngày mai.",
                 heroDesc: "Hệ thống đề ôn tập bám sát bộ SGK Kết nối tri thức với cuộc sống của NXB Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.",
                 heroStats: [
-                    { val: "200.000+", lbl: "Học sinh THCS tin tưởng" },
-                    { val: "15.000+", lbl: "Bài học & đề ôn chất lượng" },
-                    { val: "98%", lbl: "Tiến bộ rõ rệt" }
+                    { val: "210+", lbl: "Đề ôn tập Lớp 6" },
+                    { val: "1.260+", lbl: "Câu trắc nghiệm 3 bước" },
+                    { val: "100%", lbl: "Chuẩn SGK Lớp 6" }
                 ],
-                sticker: "Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️",
-                glassTag: `<span style="font-size:1.25rem;">📈</span><div><strong style="color:#0f172a; font-size:0.85rem;">Kiến thức</strong><div style="font-size:0.75rem; color:#64748b;">Mở ra thế giới ngày mai</div></div>`,
+                sticker: "Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️",
                 grades: [
                     { id: "06", name: "Lớp 6", desc: "Khám phá tri thức • Xây nền vững chắc", icon: "6️⃣" },
                     { id: "07", name: "Lớp 7", desc: "Mở rộng hiểu biết • Tự tin tiến bước", icon: "7️⃣" },
@@ -436,17 +431,16 @@
                 tag: "THPT • LỚP 10 - 12",
                 tagColor: { bg: "#dcfce7", text: "#15803d" },
                 headline: "Học đúng hướng. Bứt phá tương lai. Chuẩn bị cho giảng đường đại học.",
-                heroImg: "assets/hero_3_blended.png",
+                heroImg: "assets/hero_3.png",
                 heroTag: "THPT • LỚP 10 - 12",
                 heroTitle: "Học đúng hướng.<br>Bứt phá tương lai.",
-                heroDesc: "Nền tảng ôn luyện dành riêng cho học sinh THPT với lộ trình cá nhân hóa, ngân hàng đề thi thử ĐGNL & Tốt nghiệp THPT chuẩn cấu trúc mới, giúp bạn bứt phá điểm số và hiện thực hóa ước mơ đại học.",
+                heroDesc: "Nền tảng ôn luyện dành riêng cho học sinh THPT với lộ trình cá nhân hóa, ngân hàng đề thi thử bám sát bộ SGK Kết nối tri thức 2026–2027 chuẩn cấu trúc mới, giúp bạn bứt phá điểm số và hiện thực hóa ước mơ đại học.",
                 heroStats: [
-                    { val: "500.000+", lbl: "Học sinh THPT tin tưởng" },
-                    { val: "200.000+", lbl: "Đề thi & bài giảng chất lượng" },
-                    { val: "98%", lbl: "Cải thiện điểm số" }
+                    { val: "72+", lbl: "Đề thi Khối A & B" },
+                    { val: "432+", lbl: "Câu trắc nghiệm Lớp 11" },
+                    { val: "100%", lbl: "Chuẩn SGK Lớp 11" }
                 ],
-                sticker: "Phiên bản<br>tốt hơn của chính mình<br>bắt đầu từ hôm nay! ✨",
-                glassTag: `<span style="font-size:1.25rem;">🎯</span><div><strong style="color:#0f172a; font-size:0.85rem;">Mục tiêu rõ ràng</strong><div style="font-size:0.75rem; color:#64748b;">Tương lai rộng mở</div></div>`,
+                sticker: "Phiên bản tốt hơn của chính mình bắt đầu từ hôm nay! ✨",
                 grades: [
                     { id: "10", name: "Lớp 10", desc: "Xây nền vững chắc", icon: "🔟" },
                     { id: "11", name: "Lớp 11", desc: "Tăng tốc kiến thức", icon: "⚡" },
@@ -496,14 +490,12 @@
             const heroDescEl = document.getElementById('hero-desc');
             const heroImgEl = document.getElementById('hero-student-img');
             const heroStickerEl = document.getElementById('hero-sticker');
-            const heroGlassEl = document.getElementById('hero-glass-tag');
 
             if (heroTagEl) heroTagEl.innerHTML = lvl.heroTag;
             if (heroTitleEl) heroTitleEl.innerHTML = lvl.heroTitle;
             if (heroDescEl) heroDescEl.innerHTML = lvl.heroDesc;
             if (heroImgEl) heroImgEl.src = lvl.heroImg;
             if (heroStickerEl) heroStickerEl.innerHTML = lvl.sticker;
-            if (heroGlassEl) heroGlassEl.innerHTML = lvl.glassTag;
 
             // Cập nhật Stats
             if (lvl.heroStats && lvl.heroStats.length >= 3) {
@@ -560,14 +552,12 @@
             const heroDescEl = document.getElementById('hero-desc');
             const heroImgEl = document.getElementById('hero-student-img');
             const heroStickerEl = document.getElementById('hero-sticker');
-            const heroGlassEl = document.getElementById('hero-glass-tag');
 
             if (heroTagEl) heroTagEl.innerHTML = 'TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI';
             if (heroTitleEl) heroTitleEl.innerHTML = 'Học đúng hướng.<br>Ôn đúng trọng tâm.';
             if (heroDescEl) heroDescEl.innerHTML = 'Hệ thống đề ôn tập bám sát bộ SGK <strong>"Kết nối tri thức với cuộc sống"</strong> của Nhà xuất bản Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.';
-            if (heroImgEl) heroImgEl.src = 'assets/hero_main_blended.png';
-            if (heroStickerEl) heroStickerEl.innerHTML = 'Hôm nay<br>nỗ lực hơn<br>ngày mai<br>tự tin hơn! ☀️';
-            if (heroGlassEl) heroGlassEl.innerHTML = '<span style="font-size: 1.25rem;">📈</span><div><strong style="color: #0f172a; font-size: 0.85rem;">Tri thức</strong><div style="font-size: 0.75rem; color: #64748b;">Kiến tạo tương lai</div></div>';
+            if (heroImgEl) heroImgEl.src = 'assets/hero_main.png';
+            if (heroStickerEl) heroStickerEl.innerHTML = 'Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️';
 
             const s1v = document.getElementById('stat-val-1');
             const s1l = document.getElementById('stat-lbl-1');
@@ -576,12 +566,12 @@
             const s3v = document.getElementById('stat-val-3');
             const s3l = document.getElementById('stat-lbl-3');
 
-            if (s1v) s1v.textContent = '50.000+';
-            if (s1l) s1l.textContent = 'Học sinh tin tưởng';
-            if (s2v) s2v.textContent = '10.000+';
-            if (s2l) s2l.textContent = 'Đề ôn tập chất lượng';
+            if (s1v) s1v.textContent = '282+';
+            if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa';
+            if (s2v) s2v.textContent = '1.692+';
+            if (s2l) s2l.textContent = 'Câu hỏi trắc nghiệm';
             if (s3v) s3v.textContent = '100%';
-            if (s3l) s3l.textContent = 'Bám sát SGK 2026 – 2027';
+            if (s3l) s3l.textContent = 'Chuẩn SGK 2026 – 2027';
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -728,59 +718,41 @@
                 
                 let isReady = false;
                 let readyNote = '';
-                if (selectedGrade === '06' && s.id === 'toan') {
-                    isReady = true;
-                    readyNote = '9/9 chương đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'khoa-hoc-tu-nhien') {
-                    isReady = true;
-                    readyNote = '11/11 chủ đề đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'ngu-van') {
-                    isReady = true;
-                    readyNote = '10/10 bài đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'lich-su-dia-li') {
-                    isReady = true;
-                    readyNote = '10/10 chương đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'tin-hoc') {
-                    isReady = true;
-                    readyNote = '6/6 chủ đề đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'giao-duc-cong-dan') {
-                    isReady = true;
-                    readyNote = '12/12 bài đã xong 100%';
-                } else if (selectedGrade === '06' && s.id === 'tieng-anh') {
-                    isReady = true;
-                    readyNote = '12/12 units đã xong 100%';
-                } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
-                    isReady = true;
-                    readyNote = '6/6 chương đã xong 100%';
-                } else if (selectedGrade === '11' && s.id === 'toan') {
-                    isReady = true;
-                    readyNote = '9/9 chương đã xong 100%';
-                } else if (selectedGrade === '11' && s.id === 'vat-li') {
-                    isReady = true;
-                    readyNote = '4/4 chương đã xong 100%';
-                } else if (selectedGrade === '11' && s.id === 'sinh-hoc') {
-                    isReady = true;
-                    readyNote = '5/5 chương đã xong 100%';
+                if (selectedGrade === '06') {
+                    if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 27 đề'; }
+                    else if (s.id === 'khoa-hoc-tu-nhien') { isReady = true; readyNote = '11/11 chủ đề • 33 đề'; }
+                    else if (s.id === 'ngu-van') { isReady = true; readyNote = '10/10 bài • 30 đề'; }
+                    else if (s.id === 'lich-su-dia-li') { isReady = true; readyNote = '10/10 chương • 30 đề'; }
+                    else if (s.id === 'tin-hoc') { isReady = true; readyNote = '6/6 chủ đề • 18 đề'; }
+                    else if (s.id === 'giao-duc-cong-dan') { isReady = true; readyNote = '12/12 bài • 36 đề'; }
+                    else if (s.id === 'tieng-anh') { isReady = true; readyNote = '12/12 units • 36 đề'; }
+                } else if (selectedGrade === '11') {
+                    if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 27 đề'; }
+                    else if (s.id === 'vat-li') { isReady = true; readyNote = '4/4 chương • 12 đề'; }
+                    else if (s.id === 'hoa-hoc') { isReady = true; readyNote = '6/6 chương • 18 đề'; }
+                    else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '5/5 chương • 15 đề'; }
                 }
 
                 return `
-                    <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card" style="align-items: center; text-decoration: none; border-color: ${isReady ? '#a7f3d0' : '#e2e8f0'}; background: ${isReady ? '#f0fdf4' : 'white'};">
-                        <img src="${imgSrc}" alt="${s.name}" width="52" height="52" loading="lazy" decoding="async" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';" style="width: 52px; height: 52px; border-radius: 12px; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.08); background: white;">
-                        <div class="ol-subject-icon" style="display: none;">${s.icon}</div>
-                        <div class="ol-subject-info" style="flex: 1;">
-                            <div style="display: flex; align-items: center; gap: 0.4rem;">
-                                <h4 style="margin: 0;">${s.name}</h4>
-                                ${isReady 
-                                    ? `<span style="font-size: 0.68rem; font-weight: 800; color: #15803d; background: #dcfce7; padding: 0.15rem 0.45rem; border-radius: 4px; border: 1px solid #bbf7d0;">${readyNote}</span>` 
-                                    : `<span style="font-size: 0.68rem; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 0.15rem 0.45rem; border-radius: 4px; border: 1px solid #e2e8f0;">Đang số hóa OCR</span>`
-                                }
+                    <a href="subject.html?grade=${selectedGrade}&subject=${s.id}" class="ol-subject-card ${isReady ? 'is-ready' : 'is-draft'}">
+                        <div class="ol-subject-card-header">
+                            <div class="ol-subject-icon-box">
+                                <img src="${imgSrc}" alt="${s.name}" width="48" height="48" loading="lazy" decoding="async" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <span class="ol-subject-icon-fallback" style="display:none; font-size:1.5rem;">${s.icon}</span>
                             </div>
-                            <p style="margin-top: 0.25rem;">${s.chapters} chương • Chuẩn SGK Kết nối tri thức</p>
+                            <div class="ol-subject-card-titles">
+                                <h4 class="ol-subject-card-title">${s.name}</h4>
+                                <span class="ol-subject-card-meta">${s.chapters} chương/bài • Chuẩn SGK mới</span>
+                            </div>
                         </div>
-                        ${isReady 
-                            ? `<span style="font-size: 0.82rem; font-weight: 800; color: #059669; background: #ecfdf5; padding: 0.35rem 0.7rem; border-radius: 8px; border: 1px solid #a7f3d0; flex-shrink: 0;">Vào học ➔</span>` 
-                            : `<span style="font-size: 0.78rem; font-weight: 600; color: #64748b; background: #f8fafc; padding: 0.35rem 0.6rem; border-radius: 8px; border: 1px solid #cbd5e1; flex-shrink: 0;">Xem tiến độ</span>`
-                        }
+                        <div class="ol-subject-card-footer">
+                            ${isReady 
+                                ? `<span class="ol-subject-status ready">✅ ${readyNote}</span>
+                                   <span class="ol-subject-cta-btn ready">Vào học ➔</span>` 
+                                : `<span class="ol-subject-status draft">⏳ Đang số hóa SGK</span>
+                                   <span class="ol-subject-cta-btn draft">Xem tiến độ</span>`
+                            }
+                        </div>
                     </a>
                 `;
             }).join('');

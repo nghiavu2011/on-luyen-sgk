@@ -3,10 +3,10 @@
    Chuẩn hóa cho 3 cấp: Tiểu học (Lớp 1-5), THCS (Lớp 6-9), THPT (Lớp 10-12)
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Mali:wght@500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
 :root {
-    --ol-font-hand: 'Caveat', cursive, sans-serif;
+    --ol-font-hand: 'Patrick Hand', 'Mali', cursive, sans-serif;
     /* Main Theme - Clean Modern Premium EdTech */
     --ol-primary: #1565c0;        /* Royal Blue */
     --ol-primary-hover: #0d47a1;
@@ -390,26 +390,73 @@ body {
     padding: 0 1.5rem;
 }
 
-/* ================= HERO BANNER (FULL WIDTH & SEAMLESS BLEND) ================= */
+/* ================= HERO BANNER (FULL BLEED BLEMISH-FREE BACKDROP & CRISP OVERLAY) ================= */
 .ol-hero-section-full {
     width: 100%;
-    background: linear-gradient(108deg, #f0f7ff 0%, #e2effe 32%, #f1f8ff 65%, #ffffff 100%);
+    background-color: #f0f6ff;
     border-bottom: 1px solid #dbeafe;
-    padding: 3.5rem 0 2.5rem;
-    margin-bottom: 2.5rem;
     position: relative;
+    overflow: hidden;
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.ol-hero-backdrop-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
     overflow: hidden;
 }
 
+.ol-hero-backdrop-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right center;
+    transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.ol-hero-backdrop-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        rgba(240, 246, 255, 0.98) 0%, 
+        rgba(240, 246, 255, 0.96) 42%, 
+        rgba(240, 246, 255, 0.72) 60%, 
+        rgba(240, 246, 255, 0.18) 82%, 
+        rgba(240, 246, 255, 0.0) 100%
+    );
+    z-index: 2;
+    pointer-events: none;
+}
+
 .ol-hero-container {
-    max-width: 1320px;
+    max-width: 1340px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
-    gap: 2.5rem;
-    align-items: center;
+    padding: 3.5rem 2rem 3rem;
     position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ol-hero-content-left {
+    max-width: 650px;
+    width: 100%;
 }
 
 .ol-hero-tag {
@@ -422,10 +469,14 @@ body {
     letter-spacing: 1.2px;
     text-transform: uppercase;
     margin-bottom: 0.85rem;
+    background: rgba(224, 242, 254, 0.85);
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(186, 230, 253, 0.9);
 }
 
 .ol-hero-title {
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     font-weight: 800;
     color: #0f172a;
     line-height: 1.15;
@@ -435,17 +486,18 @@ body {
 
 .ol-hero-desc {
     font-size: 1.05rem;
-    color: #475569;
+    color: #334155;
     line-height: 1.65;
     margin-bottom: 2rem;
-    max-width: 560px;
+    max-width: 580px;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 .ol-hero-actions {
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.25rem;
     flex-wrap: wrap;
 }
 
@@ -477,7 +529,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.85rem 1.85rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
     color: #0284c7;
     font-size: 1rem;
     font-weight: 700;
@@ -489,16 +541,16 @@ body {
 }
 
 .ol-btn-hero-secondary:hover {
-    background: #f0f9ff;
+    background: #ffffff;
     border-color: #0284c7;
 }
 
 .ol-hero-stats {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    padding-top: 1.75rem;
-    border-top: 1px solid rgba(2, 132, 199, 0.18);
+    gap: 2.25rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(2, 132, 199, 0.2);
     flex-wrap: wrap;
 }
 
@@ -509,7 +561,7 @@ body {
 .ol-stat-item:not(:last-child)::after {
     content: '';
     position: absolute;
-    right: -1rem;
+    right: -1.15rem;
     top: 15%;
     bottom: 15%;
     width: 1px;
@@ -525,59 +577,55 @@ body {
 
 .ol-stat-item p {
     font-size: 0.82rem;
-    color: #64748b;
+    color: #475569;
     font-weight: 600;
-    margin-top: 0.2rem;
+    margin-top: 0.25rem;
 }
 
-/* Hero Right Visual with seamless blend */
-.ol-hero-visual-wrapper {
+/* Floating Handwritten Sticker and Badges */
+.ol-hero-floating-decor {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ol-hero-student-img {
-    width: 100%;
-    max-width: 520px;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    filter: drop-shadow(0 15px 30px rgba(15, 23, 42, 0.08));
+    align-self: flex-start;
+    padding-top: 2rem;
 }
 
 .ol-hero-sticker-handwritten {
-    position: absolute;
-    top: 25px;
-    left: -20px;
     font-family: var(--ol-font-hand);
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     color: #0284c7;
-    line-height: 1.25;
+    line-height: 1.3;
     font-weight: 700;
-    transform: rotate(-6deg);
-    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.9);
+    transform: rotate(-4deg);
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border: 1.5px solid #bae6fd;
+    padding: 0.65rem 1.15rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(2, 132, 199, 0.12);
     pointer-events: none;
+    max-width: 240px;
+    text-align: center;
 }
 
-.ol-hero-floating-glass {
-    position: absolute;
-    bottom: 25px;
-    right: -10px;
-    background: rgba(255, 255, 255, 0.92);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
-    padding: 0.65rem 1.1rem;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    font-size: 0.85rem;
-    color: #0f172a;
-    line-height: 1.25;
-    pointer-events: none;
+@media (max-width: 992px) {
+    .ol-hero-section-full {
+        min-height: auto;
+    }
+    .ol-hero-backdrop-overlay {
+        background: linear-gradient(90deg, 
+            rgba(240, 246, 255, 0.98) 0%, 
+            rgba(240, 246, 255, 0.95) 100%
+        );
+    }
+    .ol-hero-container {
+        padding: 2.5rem 1.25rem;
+    }
+    .ol-hero-title {
+        font-size: 2.35rem;
+    }
+    .ol-hero-floating-decor {
+        display: none;
+    }
 }
 
 /* ================= CẤP HỌC SECTION (EXACT DEMO CARDS) ================= */
@@ -978,52 +1026,146 @@ body {
 
 .ol-subjects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1.15rem;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 1.25rem;
 }
 
 .ol-subject-card {
-    background: var(--ol-bg);
-    border: 1.5px solid var(--ol-border);
-    border-radius: var(--ol-radius-md);
-    padding: 1.25rem 1.15rem;
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.25rem 1.35rem;
     text-decoration: none;
     color: var(--ol-text-title);
-    transition: all 0.2s ease;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+    min-height: 140px;
+}
+
+.ol-subject-card:hover {
+    background: #ffffff;
+    border-color: #0284c7;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.ol-subject-card.is-ready {
+    background: #ffffff;
+    border-color: #bbf7d0;
+}
+
+.ol-subject-card.is-ready:hover {
+    border-color: #10b981;
+    box-shadow: 0 10px 24px rgba(16, 185, 129, 0.12);
+}
+
+.ol-subject-card-header {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.ol-subject-card:hover {
-    background: white;
-    border-color: var(--ol-primary);
-    transform: translateY(-2px);
-    box-shadow: var(--ol-shadow-md);
-}
-
-.ol-subject-icon {
+.ol-subject-icon-box {
     width: 48px;
     height: 48px;
     border-radius: 12px;
-    background: white;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
-    box-shadow: var(--ol-shadow-sm);
     flex-shrink: 0;
+    overflow: hidden;
+    font-size: 1.6rem;
 }
 
-.ol-subject-info h4 {
-    font-size: 1.05rem;
-    font-weight: 700;
-    margin-bottom: 0.2rem;
+.ol-subject-icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.ol-subject-info p {
+.ol-subject-card-titles {
+    flex: 1;
+    min-width: 0;
+}
+
+.ol-subject-card-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.3;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ol-subject-card-meta {
+    display: block;
     font-size: 0.8rem;
-    color: var(--ol-text-muted);
+    color: #64748b;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+.ol-subject-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f1f5f9;
+}
+
+.ol-subject-status {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.ol-subject-status.ready {
+    background: #dcfce7;
+    color: #15803d;
+    border: 1px solid #bbf7d0;
+}
+
+.ol-subject-status.draft {
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+}
+
+.ol-subject-cta-btn {
+    font-size: 0.82rem;
+    font-weight: 800;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.ol-subject-cta-btn.ready {
+    background: #ecfdf5;
+    color: #059669;
+    border: 1px solid #a7f3d0;
+}
+
+.ol-subject-card:hover .ol-subject-cta-btn.ready {
+    background: #059669;
+    color: #ffffff;
+}
+
+.ol-subject-cta-btn.draft {
+    background: #f8fafc;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
 }
 
 /* ================= VALUE PROPOSITION ROW ================= */
