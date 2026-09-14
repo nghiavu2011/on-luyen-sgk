@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch02_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Văn bản chứa các đường liên kết chữ màu xanh có thể nhấp chuột để chuyển nhanh sang trang web khác được gọi là:",
-    "options": [
-      "A. Văn bản thuần tuý",
-      "B. Siêu văn bản (Hypertext) chứa siêu liên kết",
-      "C. Tệp nén",
-      "D. Mã nguồn máy tính"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Siêu văn bản là đặc trưng của web, cho phép điều hướng liên kết không giới hạn.\n💡 Nhấp chuột là chuyển trang.\n⚠️ Thuật ngữ cơ bản của World Wide Web."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế - Chủ đề 2: Mạng máy tính và Internet",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "th6_ch02_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Lợi ích chia sẻ tài nguyên phần cứng",
+      "question": "Trong một văn phòng có 10 máy tính làm việc. Thay vì mua 10 chiếc máy in riêng cho từng máy, người ta kết nối tất cả máy tính vào mạng nội bộ và dùng chung 1 máy in. Đây là ví dụ về lợi ích nào của mạng máy tính?",
+      "options": [
+        "Chia sẻ phần mềm diệt virus miễn phí",
+        "Chia sẻ tài nguyên phần cứng để tiết kiệm chi phí",
+        "Tăng tốc độ xử lý tính toán của CPU máy tính",
+        "Tự động sao lưu dữ liệu mà không cần điện"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Chia sẻ tài nguyên phần cứng (Bài 4, SGK Tin học 6, trang 18).",
+        "steps": "Máy in là thiết bị phần cứng. Dùng chung một máy in qua mạng là ví dụ điển hình của việc chia sẻ phần cứng.",
+        "trap": "Nhầm chia sẻ phần cứng với chia sẻ phần mềm hoặc tăng tốc độ chip CPU."
+      },
+      "socraticPrompt": "Máy in thuộc về phần cứng hay phần mềm của hệ thống máy tính?",
+      "distractorReasons": [
+        "Sai, máy in là phần cứng vật lý, không phải phần mềm.",
+        "Chính xác, dùng chung máy in là chia sẻ tài nguyên phần cứng, giúp cơ quan tiết kiệm ngân sách đáng kể.",
+        "Sai, mạng máy tính không làm tăng xung nhịp CPU của máy tính.",
+        "Sai, máy tính và máy in luôn cần nguồn điện để vận hành."
+      ]
+    },
+    {
+      "id": "th6_ch02_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh mạng có dây và không dây",
+      "question": "Ưu điểm nổi bật nhất của mạng không dây (Wi-Fi) so với mạng có dây sử dụng cáp truyền thống là gì?",
+      "options": [
+        "Hoàn toàn miễn nhiễm với mọi loại mưa bão và nhiễu sóng điện từ",
+        "Thiết bị có thể kết nối linh hoạt, di chuyển dễ dàng mà không bị vướng víu bởi dây cáp",
+        "Tốc độ truyền dữ liệu luôn luôn nhanh hơn cáp quang trong mọi điều kiện",
+        "Không cần bất kỳ thiết bị phát sóng hay cấp nguồn điện nào"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đặc điểm mạng không dây (Bài 4, SGK Tin học 6, trang 20).",
+        "steps": "Mạng không dây đem lại sự tiện lợi, linh hoạt cao vì người dùng có thể cầm máy di chuyển trong vùng phủ sóng mà không bị ràng buộc dây dẫn.",
+        "trap": "Nghĩ rằng sóng Wi-Fi luôn nhanh hơn cáp quang (thực tế cáp quang ổn định và tốc độ cao hơn)."
+      },
+      "socraticPrompt": "Tại sao em thích dùng điện thoại di động kết nối Wi-Fi khi đi lại trong nhà hơn là ngồi một chỗ cắm dây cáp?",
+      "distractorReasons": [
+        "Sai, sóng vô tuyến dễ bị ảnh hưởng bởi vật cản như tường dày hoặc nhiễu thời tiết.",
+        "Chính xác, ưu thế số 1 của mạng không dây là sự thuận tiện, cơ động và linh hoạt cho người sử dụng.",
+        "Sai, cáp quang có dây thường đạt tốc độ cao và độ trễ ổn định hơn sóng Wi-Fi.",
+        "Sai, mạng không dây vẫn bắt buộc phải có thiết bị phát sóng như Access Point / Router Wi-Fi."
+      ]
+    },
+    {
+      "id": "th6_ch02_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt mạng máy tính và Internet",
+      "question": "Mối quan hệ giữa 'Mạng máy tính' và 'Internet' được hiểu như thế nào là chính xác nhất?",
+      "options": [
+        "Internet là một mạng máy tính quy mô toàn cầu, bao gồm hàng triệu mạng máy tính nhỏ kết nối lại với nhau",
+        "Mạng máy tính và Internet là hai công nghệ hoàn toàn trái ngược nhau và không có mối liên hệ nào",
+        "Chỉ có các máy tính siêu cấp của quân đội mới thuộc về Internet, còn máy tính gia đình chỉ là mạng máy tính",
+        "Mạng máy tính là mạng toàn cầu, còn Internet chỉ là mạng trong một căn phòng nhỏ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ mạng máy tính và Internet (Bài 5, SGK Tin học 6, trang 21-22).",
+        "steps": "Mạng máy tính là khái niệm chung (có thể là mạng 2 máy tính, mạng trường học LAN). Internet là mạng của các mạng máy tính trên toàn cầu.",
+        "trap": "Xem hai thuật ngữ này đối lập hoặc nhầm lẫn cấp độ quy mô giữa LAN và Internet."
+      },
+      "socraticPrompt": "Khi kết nối mạng của trường em vào mạng của các trường khác trên thế giới thì mạng khổng lồ đó được gọi là gì?",
+      "distractorReasons": [
+        "Chính xác, Internet chính là mạng của các mạng máy tính (Network of Networks) phủ rộng khắp thế giới.",
+        "Sai, chúng có quan hệ mật thiết: Internet được cấu thành từ các mạng máy tính.",
+        "Sai, mọi máy tính kết nối hòa mạng đều là một thành viên của Internet.",
+        "Sai, đảo ngược hoàn toàn quy mô giữa mạng máy tính và Internet."
+      ]
+    },
+    {
+      "id": "th6_ch02_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhà cung cấp dịch vụ Internet (ISP)",
+      "question": "Để một gia đình hoặc một trường học có thể kết nối mạng máy tính của mình vào Internet toàn cầu, họ cần phải đăng ký dịch vụ với đối tượng nào?",
+      "options": [
+        "Nhà cung cấp dịch vụ Internet (ISP như VNPT, Viettel, FPT...)",
+        "Cửa hàng bán linh kiện máy vi tính gần nhà",
+        "Công ty in ấn sách giáo khoa",
+        "Trạm cấp thoát nước đô thị"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhà cung cấp dịch vụ Internet (Bài 5, SGK Tin học 6, trang 22).",
+        "steps": "Muốn truy cập Internet, người sử dụng phải thông qua một nhà cung cấp dịch vụ Internet (ISP - Internet Service Provider) để được cấp đường truyền và địa chỉ mạng.",
+        "trap": "Nghĩ rằng chỉ cần mua máy tính về là tự động có mạng Internet mà không cần nhà mạng."
+      },
+      "socraticPrompt": "Gia đình em hàng tháng đóng tiền cước truyền Internet cho công ty viễn thông nào?",
+      "distractorReasons": [
+        "Chính xác, các nhà mạng (ISP) là đơn vị cung cấp hạ tầng kết nối Internet cho khách hàng.",
+        "Sai, cửa hàng máy tính chỉ bán thiết bị phần cứng.",
+        "Sai, công ty sách in ấn xuất bản phẩm.",
+        "Sai, công ty nước sạch chỉ phụ trách hạ tầng nước sinh hoạt."
+      ]
+    },
+    {
+      "id": "th6_ch02_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tác động tiêu cực cần phòng tránh khi dùng Internet",
+      "question": "Bên cạnh các lợi ích to lớn, việc lạm dụng Internet quá mức (dành 8 - 10 tiếng mỗi ngày chơi game, lướt mạng xã hội) sẽ dẫn đến tác hại tiêu cực nào đối với học sinh lớp 6?",
+      "options": [
+        "Làm tăng cường thị lực và giúp cơ thể dẻo dai khỏe mạnh hơn",
+        "Gây nghiện Internet, suy giảm thị lực, sa sút việc học tập và ít giao tiếp ngoài đời thực",
+        "Làm cho máy vi tính hoạt động nhanh gấp 10 lần",
+        "Giúp học sinh tự động giải được tất cả các bài tập mà không cần suy nghĩ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng Internet hợp lý (Bài 5, SGK Tin học 6, trang 23).",
+        "steps": "Sử dụng Internet quá nhiều sẽ gây hại cho sức khỏe mắt, cột sống, tinh thần mệt mỏi và làm sa sút kết quả học tập.",
+        "trap": "Ảo tưởng việc ngồi trước màn hình lâu có lợi cho mắt hay trí tuệ."
+      },
+      "socraticPrompt": "Khi ngồi xem điện thoại hay máy tính cả ngày liên tục, mắt và cơ thể em cảm thấy thế nào?",
+      "distractorReasons": [
+        "Sai, nhìn màn hình quá lâu khiến mắt bị mỏi, cận thị và cơ thể trì trệ.",
+        "Chính xác, đây là nguy cơ thực tế rất đáng báo động đối với học sinh.",
+        "Sai, thời gian người dùng sử dụng không làm tăng tốc độ xử lý của máy tính.",
+        "Sai, Internet chỉ là công cụ hỗ trợ, học sinh phải tự học và rèn luyện tư duy."
+      ]
+    },
+    {
+      "id": "th6_ch02_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thành phần phần mềm mạng",
+      "question": "Thành phần nào sau đây thuộc về 'Phần mềm mạng' trong hệ thống mạng máy tính?",
+      "options": [
+        "Cục phát sóng Wi-Fi Router gắn trên tường",
+        "Hệ điều hành mạng và các ứng dụng trình duyệt web, gửi email",
+        "Sợi dây cáp quang kéo từ cột điện vào nhà",
+        "Thanh RAM cắm trên bo mạch chủ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phần mềm mạng (Bài 4, SGK Tin học 6, trang 19).",
+        "steps": "Hệ thống mạng máy tính bao gồm: thiết bị đầu cuối, thiết bị kết nối và phần mềm mạng (hệ điều hành mạng, giao thức mạng, trình duyệt).",
+        "trap": "Nhầm lẫn giữa thiết bị mạng phần cứng với phần mềm mạng điều khiển."
+      },
+      "socraticPrompt": "Ứng dụng nào trên máy tính giúp em truy cập và hiển thị các trang thông tin trên mạng?",
+      "distractorReasons": [
+        "Sai, Wi-Fi Router là thiết bị phần cứng kết nối.",
+        "Chính xác, hệ điều hành mạng và ứng dụng truyền thông chính là phần mềm mạng.",
+        "Sai, cáp quang là thiết bị truyền dẫn vật lý.",
+        "Sai, thanh RAM là bộ nhớ trong phần cứng máy tính."
+      ]
+    }
+  ]
+}

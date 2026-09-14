@@ -1,33 +1,164 @@
-[
-  {
-    "id": "th6_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong sơ đồ khối biểu diễn thuật toán, hình nào sau đây được quy ước dùng để biểu diễn THAO TÁC KIỂM TRA ĐIỀU KIỆN (rẽ nhánh)?",
-    "options": [
-      "A. Hình chữ nhật",
-      "B. Hình thoi",
-      "C. Hình oval",
-      "D. Hình bình hành"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy ước sơ đồ khối: Hình thoi dùng cho khối kiểm tra điều kiện (cho ra 2 nhánh ĐÚNG hoặc SAI).\n💡 Hình chữ nhật là tính toán/xử lí; Hình oval là Bắt đầu/Kết thúc.\n⚠️ Khắc sâu các hình dạng chuẩn của flowchart."
-  },
-  {
-    "id": "th6_ch06_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Để chương trình trong Scratch bắt đầu chạy khi người dùng nhấp chuột vào biểu tượng 'Lá cờ màu xanh', ta cần sử dụng khối lệnh nào ở đầu kịch bản?",
-    "options": [
-      "A. move 10 steps",
-      "B. when green flag clicked",
-      "C. say Hello! for 2 secs",
-      "D. repeat 10"
-    ],
-    "answer": 1,
-    "explanation": "📌 Sự kiện trong Scratch: Khối sự kiện 'when green flag clicked' là khối lệnh khởi đầu kích hoạt toàn bộ kịch bản chạy.\n💡 Khối có đỉnh hình vòm cong không thể ghép khối khác lên trên đỉnh nó.\n⚠️ Lệnh mở màn bắt buộc.",
-    "breakdown": {
-      "calculation": "Khi bấm vào lá cờ xanh"
+{
+  "chapterId": "ch06",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi - Chủ đề 6: Thuật toán & Lập trình trực quan Scratch",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "th6_ch06_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm thuật toán",
+      "question": "Theo SGK Tin học 6, khẳng định nào sau đây diễn đạt chính xác nhất về khái niệm 'Thuật toán'?",
+      "options": [
+        "Là một dãy các chỉ dẫn rõ ràng, có trình tự từng bước xác định để giải quyết một bài toán từ Đầu vào nhận được Đầu ra",
+        "Là một thiết bị lưu trữ dữ liệu gắn bên trong thùng máy tính",
+        "Là dây nối từ bộ nguồn đến ổ cắm điện trong nhà",
+        "Là một bức tranh phong cảnh vẽ bằng sơn dầu"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khái niệm thuật toán (Bài 15, SGK Tin học 6, trang 65).",
+        "steps": "Thuật toán là dãy chỉ dẫn có thứ tự từng bước xác định để giải quyết một nhiệm vụ hay bài toán.",
+        "trap": "Nhầm lẫn thuật toán với thiết bị phần cứng vật lý."
+      },
+      "socraticPrompt": "Công thức nấu ăn từng bước một từ nguyên liệu thô đến món ăn ngon có được xem là một thuật toán không?",
+      "distractorReasons": [
+        "Chính xác theo định nghĩa chuẩn SGK Tin học 6 trang 65.",
+        "Sai, thiết bị lưu trữ là phần cứng như ổ cứng, thẻ nhớ.",
+        "Sai, dây nguồn là phương tiện dẫn điện vật lý.",
+        "Sai, bức tranh là tác phẩm nghệ thuật đồ họa."
+      ]
+    },
+    {
+      "id": "th6_ch06_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hình khối quy ước trong sơ đồ khối",
+      "question": "Trong sơ đồ khối của thuật toán, hình elip (oval) được quy ước dùng để thể hiện thao tác nào?",
+      "options": [
+        "Bước kiểm tra điều kiện Đúng hay Sai",
+        "Thực hiện một phép tính nhân phức tạp",
+        "Nhập dữ liệu đầu vào từ bàn phím",
+        "Bắt đầu (Start) hoặc Kết thúc (End) của thuật toán"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy ước sơ đồ khối (Bài 15, SGK Tin học 6, trang 66).",
+        "steps": "Hình oval biểu thị Bắt đầu/Kết thúc; Hình bình hành biểu thị Đầu vào/Đầu ra; Hình chữ nhật biểu thị Xử lý; Hình thoi biểu thị Điều kiện.",
+        "trap": "Nhầm hình oval với hình thoi hoặc hình chữ nhật."
+      },
+      "socraticPrompt": "Hai điểm mốc đầu tiên và cuối cùng trên một sơ đồ luồng thuật toán được bao bọc bởi hình gì?",
+      "distractorReasons": [
+        "Sai, kiểm tra điều kiện dùng hình thoi.",
+        "Sai, tính toán xử lý dùng hình chữ nhật.",
+        "Sai, nhập dữ liệu đầu vào dùng hình bình hành.",
+        "Chính xác, hình oval quy ước cho nút Bắt đầu hoặc Kết thúc."
+      ]
+    },
+    {
+      "id": "th6_ch06_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận diện cấu trúc rẽ nhánh",
+      "question": "Câu nói: 'Nếu ngày mai trời mưa thì lớp ta sẽ hoãn buổi dã ngoại' thể hiện cấu trúc điều khiển nào?",
+      "options": [
+        "Cấu trúc tuần tự",
+        "Cấu trúc rẽ nhánh dạng đủ",
+        "Cấu trúc lặp vô hạn",
+        "Cấu trúc rẽ nhánh dạng thiếu"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc rẽ nhánh dạng thiếu (Bài 16, SGK Tin học 6, trang 69).",
+        "steps": "Mẫu câu: 'Nếu <Điều kiện> thì <Hành động>' chỉ có một vế hành động khi điều kiện Đúng, không có vế Ngược lại. Do đó đây là cấu trúc rẽ nhánh dạng thiếu.",
+        "trap": "Nhầm rẽ nhánh dạng thiếu với dạng đủ (dạng đủ phải có vế 'ngược lại')."
+      },
+      "socraticPrompt": "Câu này có vế 'ngược lại nếu trời không mưa thì làm gì' hay không?",
+      "distractorReasons": [
+        "Sai, câu này có điều kiện kiểm tra thời tiết chứ không làm tuần tự bất chấp mưa nắng.",
+        "Sai, dạng đủ bắt buộc phải có mệnh đề 'ngược lại... thì...'.",
+        "Sai, hoạt động dã ngoại chỉ diễn ra một lần, không có sự lặp lại.",
+        "Chính xác, có điều kiện 'trời mưa' và hành động 'hoãn', thuộc cấu trúc rẽ nhánh dạng thiếu."
+      ]
+    },
+    {
+      "id": "th6_ch06_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận diện cấu trúc lặp",
+      "question": "Hoạt động nào sau đây trong đời sống thể hiện rõ nhất một 'Cấu trúc lặp'?",
+      "options": [
+        "Bật công tắc đèn một lần duy nhất vào buổi tối",
+        "Đọc tiêu đề cuốn sách một lần rồi cất vào tủ",
+        "Điền họ và tên một lần vào bài kiểm tra học kỳ",
+        "Kim giây của chiếc đồng hồ treo tường dịch chuyển từng nhịp liên tục đều đặn suốt ngày đêm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc lặp (Bài 16, SGK Tin học 6, trang 70).",
+        "steps": "Cấu trúc lặp là hành động được thực hiện lặp đi lặp lại nhiều lần. Nhịp dịch chuyển của kim giây lặp lại 60 lần mỗi phút, liên tục không ngừng.",
+        "trap": "Chọn các hành động đơn lẻ chỉ thực hiện đúng 1 lần duy nhất."
+      },
+      "socraticPrompt": "Hành động nào diễn ra đi diễn ra lại nhiều lần theo chu kỳ?",
+      "distractorReasons": [
+        "Sai, hành động đơn lẻ làm đúng 1 lần.",
+        "Sai, hành động diễn ra 1 lần.",
+        "Sai, chỉ điền tên một lần lúc bắt đầu làm bài.",
+        "Chính xác, chuyển động từng bước của kim đồng hồ là ví dụ kinh điển của cấu trúc lặp."
+      ]
+    },
+    {
+      "id": "th6_ch06_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Môi trường lập trình trực quan Scratch",
+      "question": "Đặc điểm nổi bật giúp học sinh dễ dàng học lập trình với phần mềm Scratch là gì?",
+      "options": [
+        "Phải học thuộc lòng hàng nghìn câu lệnh tiếng Anh phức tạp và gõ bằng bàn phím không được sai một dấu phẩy",
+        "Không cho phép người dùng sáng tạo nhân vật hay âm thanh gì",
+        "Chỉ hoạt động được trên các máy tính siêu cấp của phi hành gia vũ trụ",
+        "Lập trình bằng cách kéo thả và lắp ghép các khối lệnh màu sắc trực quan giống như trò chơi ghép hình"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đặc điểm của Scratch (Bài 17, SGK Tin học 6, trang 72-73).",
+        "steps": "Scratch là ngôn ngữ trực quan dạng kéo thả (drag and drop) các khối màu, giúp học sinh tiểu học và THCS tiếp cận tư duy lập trình dễ dàng mà không bị lỗi cú pháp gõ chữ.",
+        "trap": "Nghĩ lập trình Scratch phải gõ mã văn bản phức tạp như C++ hay Java."
+      },
+      "socraticPrompt": "Khi chơi xếp hình Lego, em dùng tay làm thao tác gì với các mảnh ghép để tạo thành ngôi nhà?",
+      "distractorReasons": [
+        "Sai, đó là đặc thù của ngôn ngữ lập trình bậc cao dạng văn bản (text-based).",
+        "Sai, Scratch cho phép tự do vẽ nhân vật, thu âm giọng nói và tạo hoạt hình phong phú.",
+        "Sai, Scratch chạy mượt trên mọi máy tính và trình duyệt web thông thường.",
+        "Chính xác, phương pháp kéo ghép khối lệnh trực quan sinh động là ưu thế của Scratch."
+      ]
+    },
+    {
+      "id": "th6_ch06_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hình khối điều kiện trong sơ đồ khối",
+      "question": "Trong sơ đồ khối của thuật toán, hình khối nào được sử dụng để thể hiện 'Bước kiểm tra điều kiện'?",
+      "options": [
+        "Hình chữ nhật",
+        "Hình tròn",
+        "Hình thoi",
+        "Hình tam giác"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ký hiệu hình thoi (Bài 15, SGK Tin học 6, trang 66).",
+        "steps": "Hình thoi đại diện cho bước ra quyết định (Decision), có một đường vào và hai nhánh đi ra tương ứng với điều kiện Đúng hoặc Sai.",
+        "trap": "Nhầm hình thoi với hình chữ nhật (xử lý)."
+      },
+      "socraticPrompt": "Hình có 4 cạnh bằng nhau nhưng hai góc đối nhọn và hai góc đối tù có tên là hình gì?",
+      "distractorReasons": [
+        "Sai, hình chữ nhật dùng cho bước xử lý hoặc hành động tính toán.",
+        "Sai, hình tròn không thuộc chuẩn sơ đồ khối KNTT.",
+        "Chính xác, hình thoi là chuẩn quy ước quốc tế và SGK cho bước kiểm tra điều kiện.",
+        "Sai, hình tam giác không dùng trong sơ đồ khối thuật toán."
+      ]
     }
-  }
-]
+  ]
+}

@@ -487,8 +487,8 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% Toán học (9 ch), KHTN (11 chủ đề) & Ngữ Văn (10 bài) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 30 chương/chủ đề: Toán học (9 ch - 27 đề), KHTN (11 chủ đề - 33 đề), Ngữ văn (10 bài - 30 đề) với 540 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 340 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% 5 môn học: Toán (9 ch), KHTN (11 ch), Ngữ Văn (10 bài), Sử-Địa (10 ch), Tin học (6 ch) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 46 chương/chủ đề với 138 đề thi phân hóa, 828 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 532 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
@@ -496,10 +496,16 @@
                                     🔢 Toán 6 ➔
                                 </a>
                                 <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🔬 KHTN 6 (11 chủ đề) ➔
+                                    🔬 KHTN 6 ➔
                                 </a>
                                 <a href="subject.html?grade=06&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    📖 Ngữ văn 6 (10 bài) ➔
+                                    📖 Ngữ văn 6 ➔
+                                </a>
+                                <a href="subject.html?grade=06&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🌍 Sử-Địa 6 ➔
+                                </a>
+                                <a href="subject.html?grade=06&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    💻 Tin học 6 ➔
                                 </a>
                             </div>
                         </div>
@@ -588,6 +594,9 @@
                 } else if (selectedGrade === '06' && s.id === 'lich-su-dia-li') {
                     isReady = true;
                     readyNote = '10/10 chương đã xong 100%';
+                } else if (selectedGrade === '06' && s.id === 'tin-hoc') {
+                    isReady = true;
+                    readyNote = '6/6 chủ đề đã xong 100%';
                 } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
                     isReady = true;
                     readyNote = '6/6 chương đã xong 100%';

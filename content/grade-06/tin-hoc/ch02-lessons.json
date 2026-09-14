@@ -1,32 +1,42 @@
-[
-  {
-    "id": "l04",
-    "title": "Bài 4: Mạng máy tính và các thành phần của mạng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 4: Mạng máy tính và các thành phần của mạng.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 4: Mạng máy tính và các thành phần của mạng.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 4: Mạng máy tính và các thành phần của mạng.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l05",
-    "title": "Bài 5: Internet và mạng toàn cầu (World Wide Web)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 5: Internet và mạng toàn cầu (World Wide Web).</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 5: Internet và mạng toàn cầu (World Wide Web).",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 5: Internet và mạng toàn cầu (World Wide Web).",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "chapterTitle": "Chủ đề 2: Mạng máy tính và Internet",
+  "lessons": [
+    {
+      "id": "l04",
+      "title": "Bài 4: Mạng máy tính và các thành phần của mạng",
+      "order": 1,
+      "summary": "<p><strong>1. Mạng máy tính là gì?</strong></p>\n<ul>\n  <li>Mạng máy tính là một tập hợp các máy tính và thiết bị được kết nối với nhau để truyền thông tin và chia sẻ tài nguyên cho nhau.</li>\n  <li>Lợi ích của mạng máy tính:\n    <ul>\n      <li>Chia sẻ dữ liệu: Giúp người dùng trao đổi tệp tin, tài liệu nhanh chóng mà không cần sao chép qua USB.</li>\n      <li>Chia sẻ thiết bị phần cứng: Nhiều máy tính có thể dùng chung một máy in, máy quét hoặc ổ đĩa mạng, giúp tiết kiệm chi phí đầu tư.</li>\n      <li>Chia sẻ phần mềm và kết nối Internet: Nhiều người có thể cùng làm việc trên phần mềm quản lý hoặc cùng truy cập Internet qua một đường truyền chung.</li>\n    </ul>\n  </li>\n</ul>\n<p><strong>2. Các thành phần của mạng máy tính:</strong></p>\n<ul>\n  <li><strong>Thiết bị đầu cuối:</strong> Là các thiết bị gửi và nhận dữ liệu trong mạng, bao gồm máy tính để bàn (PC), máy tính xách tay (Laptop), điện thoại thông minh (Smartphone), máy tính bảng, máy in mạng,...</li>\n  <li><strong>Thiết bị kết nối:</strong> Dùng để liên kết các thiết bị đầu cuối lại với nhau, bao gồm:\n    <ul>\n      <li>Cáp mạng (cáp xoắn đôi, cáp quang) và sóng vô tuyến (Wi-Fi, Bluetooth).</li>\n      <li>Vỉ mạng (Card mạng/NIC) gắn trên từng thiết bị để giao tiếp tín hiệu.</li>\n      <li>Bộ chuyển mạch (Switch) và Bộ định tuyến (Router / Modem Wi-Fi) để điều phối gói tin.</li>\n      <li>Điểm truy cập không dây (Access Point).</li>\n    </ul>\n  </li>\n  <li><strong>Phần mềm mạng:</strong> Bao gồm các hệ điều hành mạng và ứng dụng truyền thông cho phép các thiết bị giao tiếp, chia sẻ tài nguyên với nhau.</li>\n</ul>",
+      "keyPoints": [
+        "Mạng máy tính gồm các máy tính và thiết bị kết nối với nhau để truyền tin và chia sẻ tài nguyên.",
+        "Các thành phần chính: Thiết bị đầu cuối, Thiết bị kết nối, Phần mềm mạng.",
+        "Phương thức kết nối: Có dây (dùng cáp) và Không dây (dùng sóng vô tuyến/Wi-Fi).",
+        "Lợi ích cốt lõi: Chia sẻ dữ liệu, thiết bị phần cứng (máy in) và kết nối Internet."
+      ],
+      "examples": [
+        {
+          "problem": "Phòng thực hành Tin học của trường em có 30 máy tính để bàn nhưng chỉ có 1 chiếc máy in. Nhờ có mạng máy tính kết nối các máy tính với máy in này, các bạn học sinh có thể in bài thực hành như thế nào?",
+          "solution": "Nhờ mạng máy tính, chiếc máy in được cài đặt ở chế độ chia sẻ dùng chung (chia sẻ phần cứng). Bất kỳ học sinh nào ngồi tại 1 trong 30 máy tính đầu cuối đều có thể gửi lệnh in qua mạng đến máy in mà không cần cắm trực tiếp dây cáp vào máy in."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Internet và mạng toàn cầu (World Wide Web)",
+      "order": 2,
+      "summary": "<p><strong>1. Khái niệm và đặc điểm của Internet:</strong></p>\n<ul>\n  <li><strong>Internet:</strong> Là mạng liên kết hàng triệu máy tính và mạng máy tính trên khắp thế giới. Đây là mạng máy tính lớn nhất toàn cầu.</li>\n  <li><strong>Các đặc điểm nổi bật của Internet:</strong>\n    <ul>\n      <li>Quy mô toàn cầu, liên kết không biên giới giữa các quốc gia.</li>\n      <li>Không thuộc quyền sở hữu của riêng bất kỳ một cá nhân, cơ quan hay tổ chức nào trên thế giới.</li>\n      <li>Được thiết lập dựa trên sự kết nối tự nguyện của hàng triệu mạng máy tính thành viên thông qua các bộ giao thức mạng chuẩn quốc tế (TCP/IP).</li>\n      <li>Bình đẳng và mở: Mọi người đều có quyền tham gia, khai thác và chia sẻ thông tin theo quy định của pháp luật.</li>\n    </ul>\n  </li>\n</ul>\n<p><strong>2. Lợi ích to lớn của Internet:</strong></p>\n<ul>\n  <li>Giao tiếp và cộng tác nhanh chóng: Gửi thư điện tử (email), nhắn tin tức thời, gọi điện video thoại miễn phí xuyên quốc gia.</li>\n  <li>Kho tri thức khổng lồ: Tra cứu tài liệu, kiến thức học tập, tin tức thời sự của mọi lĩnh vực khoa học, văn hóa, lịch sử.</li>\n  <li>Học tập trực tuyến (E-learning): Tham gia các lớp học từ xa, làm bài kiểm tra và luyện thi trực tuyến.</li>\n  <li>Thương mại điện tử và dịch vụ công: Mua sắm hàng hóa trực tuyến, thanh toán tiền điện nước, làm thủ tục hành chính công ngay tại nhà.</li>\n  <li>Giải trí đa dạng: Nghe nhạc, xem phim chất lượng cao, chơi trò chơi trí tuệ trực tuyến.</li>\n</ul>",
+      "keyPoints": [
+        "Internet là mạng liên kết các mạng máy tính trên toàn thế giới.",
+        "Internet không thuộc quyền sở hữu của bất kỳ cá nhân hay tổ chức riêng lẻ nào.",
+        "Internet mang lại lợi ích to lớn: Giao tiếp, tra cứu thông tin, học tập từ xa, mua sắm và giải trí.",
+        "Người dùng kết nối Internet thông qua các nhà cung cấp dịch vụ mạng (ISP)."
+      ],
+      "examples": [
+        {
+          "problem": "Tại sao nói Internet là một mạng lưới mở và không có 'ông chủ' sở hữu duy nhất?",
+          "solution": "Vì Internet là sự kết nối phối hợp tự nguyện của hàng triệu mạng máy tính lớn nhỏ (do các trường đại học, doanh nghiệp, cơ quan chính phủ, công ty viễn thông...) trên khắp thế giới cùng tuân theo các tiêu chuẩn giao thức chung, không một cá nhân hay chính phủ nào nắm độc quyền sở hữu toàn bộ hệ thống Internet."
+        }
+      ]
+    }
+  ]
+}

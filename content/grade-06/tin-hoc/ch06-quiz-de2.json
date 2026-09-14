@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch06_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Cho đoạn lệnh Scratch: 'repeat 4 [ move 100 steps ; turn right 90 degrees ]'. Đoạn lệnh trên điều khiển nhân vật vẽ nên hình học nào?",
-    "options": [
-      "A. Hình tam giác đều",
-      "B. Hình tròn",
-      "C. Hình vuông",
-      "D. Hình ngôi sao"
-    ],
-    "answer": 2,
-    "explanation": "📌 Cấu trúc lặp hình học: Đi thẳng 100 bước rồi quay phải 90 độ, lặp lại đúng 4 lần sẽ tạo thành 4 cạnh bằng nhau và 4 góc vuông của một HÌNH VUÔNG.\n💡 Tổng góc quay là $4 \\times 90^\\circ = 360^\\circ$.\n⚠️ Bài toán vẽ hình kinh điển trong Scratch."
-  }
-]
+{
+  "chapterId": "ch06",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế - Chủ đề 6: Thuật toán & Lập trình trực quan Scratch",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "th6_ch06_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định Input và Output của thuật toán",
+      "question": "Cho bài toán: 'Tính diện tích hình chữ nhật khi biết chiều dài a và chiều rộng b'. Đầu vào (Input) và Đầu ra (Output) của thuật toán này là gì?",
+      "options": [
+        "Input: Chiều dài a và chiều rộng b; Output: Diện tích S của hình chữ nhật",
+        "Input: Diện tích S; Output: Chiều dài a và chiều rộng b",
+        "Input: Chu vi hình chữ nhật; Output: Màu sắc của hình chữ nhật",
+        "Input: Chiều dài a; Output: Chiều rộng b"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Xác định Input và Output (Bài 15, SGK Tin học 6, trang 67).",
+        "steps": "Input là thông tin đã cho ban đầu (a và b). Output là kết quả mong muốn tìm kiếm (diện tích S = a * b).",
+        "trap": "Đảo ngược giữa Input (dữ liệu vào) và Output (kết quả ra)."
+      },
+      "socraticPrompt": "Đề bài cho biết trước số đo của những cạnh nào và yêu cầu em tính ra cái gì?",
+      "distractorReasons": [
+        "Chính xác, Input là hai cạnh a, b và Output là diện tích S cần tính.",
+        "Sai, đảo ngược vai trò giữa dữ liệu ban đầu và kết quả.",
+        "Sai, đề bài không cho chu vi và không hỏi về màu sắc.",
+        "Sai, chiều rộng b là dữ liệu đã cho chứ không phải kết quả đầu ra."
+      ]
+    },
+    {
+      "id": "th6_ch06_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận biết cấu trúc rẽ nhánh dạng đủ",
+      "question": "Phát biểu nào sau đây thể hiện đúng mô hình của 'Cấu trúc rẽ nhánh dạng đủ'?",
+      "options": [
+        "Làm bài tập từ câu 1 đến câu 10 lần lượt theo thứ tự",
+        "Nếu thấy đói bụng thì mở tủ lạnh lấy sữa uống",
+        "Chạy 5 vòng quanh sân vận động",
+        "Nếu điểm trung bình môn từ 8,0 trở lên thì xếp loại Tốt, ngược lại (nếu dưới 8,0) thì xếp loại Đạt"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc rẽ nhánh dạng đủ (Bài 16, SGK Tin học 6, trang 69).",
+        "steps": "Dạng đủ luôn có cấu trúc: Nếu <Điều kiện> Đúng thì làm <Hành động 1>, Ngược lại thì làm <Hành động 2>.",
+        "trap": "Nhầm với dạng thiếu (chỉ có vế Đúng) hoặc cấu trúc tuần tự/lặp."
+      },
+      "socraticPrompt": "Phương án nào có cả hai nhánh xử lý: một nhánh khi điều kiện thỏa mãn và một nhánh 'ngược lại' khi không thỏa mãn?",
+      "distractorReasons": [
+        "Sai, đây là cấu trúc tuần tự từng câu.",
+        "Sai, đây là rẽ nhánh dạng thiếu (chỉ nói khi đói thì uống sữa, không nói nếu không đói thì làm gì).",
+        "Sai, đây là cấu trúc lặp 5 lần.",
+        "Chính xác, có đầy đủ hai nhánh: 'nếu từ 8.0 trở lên thì Tốt' và 'ngược lại thì Đạt'."
+      ]
+    },
+    {
+      "id": "th6_ch06_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vai trò của mũi tên trong sơ đồ khối",
+      "question": "Theo câu hỏi trắc nghiệm trang 66 SGK Tin học 6, câu nào sau đây là SAI khi nói về vai trò của mũi tên trong sơ đồ khối của thuật toán?",
+      "options": [
+        "Hướng mũi tên cho thấy hướng đi trong sơ đồ khối",
+        "Mũi tên được sử dụng để chỉ hướng thực hiện tiếp theo",
+        "Mũi tên được sử dụng chỉ để kết nối các hình khối trong sơ đồ khối mà không có ý nghĩa về thứ tự thực hiện",
+        "Đường mũi tên giúp người đọc biết bước nào làm trước, bước nào làm sau"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Vai trò của mũi tên trong sơ đồ khối (Bài 15, SGK Tin học 6, trang 66).",
+        "steps": "Mũi tên có hướng xác định, chỉ rõ tuần tự bước đi tiếp theo. Khẳng định nói mũi tên 'chỉ để kết nối mà không có ý nghĩa thứ tự' là hoàn toàn SAI.",
+        "trap": "Đọc không kỹ yêu cầu tìm 'câu SAI'."
+      },
+      "socraticPrompt": "Nếu mũi tên chỉ từ hình chữ nhật A sang hình chữ nhật B, điều đó có bắt buộc em phải làm bước A trước bước B hay không?",
+      "distractorReasons": [
+        "Sai vì câu này ĐÚNG: mũi tên chỉ hướng đi.",
+        "Sai vì câu này ĐÚNG: mũi tên chỉ bước tiếp theo.",
+        "Chính xác, đây là câu phát biểu SAI theo bài tập trang 66 SGK Tin học 6.",
+        "Sai vì câu này ĐÚNG: thể hiện thứ tự trước sau."
+      ]
+    },
+    {
+      "id": "th6_ch06_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định điều kiện dừng lặp",
+      "question": "Bạn Khoa lập trình trong Scratch: 'Cho nhân vật chú mèo di chuyển 10 bước liên tục cho đến khi chạm vào cạnh biên của sân khấu thì dừng lại'. Điều kiện để DỪNG quá trình lặp của chú mèo là gì?",
+      "options": [
+        "Khi chú mèo chạm vào cạnh biên của sân khấu",
+        "Khi chú mèo chạy được đúng 10 bước đầu tiên",
+        "Khi máy tính bị mất kết nối Internet",
+        "Không bao giờ dừng lại vì chú mèo có 9 mạng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Điều kiện dừng lặp (Bài 16, SGK Tin học 6, trang 70).",
+        "steps": "Hành động lặp là 'di chuyển 10 bước'. Điều kiện kết thúc kiểm tra: 'chạm vào cạnh biên'. Khi điều kiện này xảy ra, vòng lặp chấm dứt.",
+        "trap": "Nhầm bước di chuyển (10 bước) với điều kiện dừng."
+      },
+      "socraticPrompt": "Sự kiện nào xuất hiện khiến chú mèo phải dừng chân lại không được đi tiếp?",
+      "distractorReasons": [
+        "Chính xác, chạm cạnh biên sân khấu là điều kiện dừng lặp theo bài tập Hình 6.10 SGK trang 70.",
+        "Sai, sau 10 bước đầu chú mèo vẫn tiếp tục lặp lại các bước kế tiếp.",
+        "Sai, Scratch chạy ngoại tuyến không phụ thuộc Internet.",
+        "Sai, câu trả lời đùa vui không có căn cứ khoa học."
+      ]
+    },
+    {
+      "id": "th6_ch06_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hiện thuật toán Scratch tính tổng",
+      "question": "Cho chương trình Scratch tính tổng hai số a và b như sau: Nhập a = 7, nhập b = 8; sau đó gán biến tong = a + b; hiển thị tong ra màn hình. Kết quả hiển thị trên sân khấu là gì?",
+      "options": [
+        "15",
+        "56",
+        "78",
+        "1"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chương trình tính tổng trong Scratch (Bài 17, SGK Tin học 6, trang 73).",
+        "steps": "Phép toán: tong = a + b = 7 + 8 = 15. Kết quả biến tong xuất ra là 15.",
+        "trap": "Nhầm phép cộng (+) với phép nhân (*) = 56 hoặc ghép chuỗi = 78."
+      },
+      "socraticPrompt": "Tổng của hai số 7 và 8 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Chính xác, 7 + 8 = 15.",
+        "Sai, 56 là kết quả của phép nhân 7 * 8.",
+        "Sai, 78 là kết quả ghép chuỗi ký tự '7' và '8'.",
+        "Sai, 1 là hiệu số 8 - 7."
+      ]
+    },
+    {
+      "id": "th6_ch06_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính xác định của thuật toán",
+      "question": "Nếu trong một thuật toán hướng dẫn gấp giấy đồ chơi, em tự ý đảo lộn thứ tự giữa bước 1 (cắt tờ giấy thành hình vuông) và bước 4 (gấp 4 góc của tờ giấy vào tâm) thì hậu quả sẽ là gì?",
+      "options": [
+        "Sản phẩm gấp xong sẽ đẹp hơn rất nhiều",
+        "Tờ giấy sẽ tự động biến thành một con hạc bay đi",
+        "Máy tính sẽ tự động tắt nguồn ngay lập tức",
+        "Không thể hoàn thành được sản phẩm hình gấp đúng quy cách, thuật toán bị sai lệch kết quả"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính trình tự của thuật toán (Bài 15, SGK Tin học 6, trang 64-65).",
+        "steps": "Thuật toán đòi hỏi tính xác định và đúng trình tự từng bước. Đảo lộn các bước sẽ phá vỡ logic khiến đầu ra không đạt được mục tiêu.",
+        "trap": "Nghĩ các bước trong thuật toán có thể làm tùy hứng không theo thứ tự."
+      },
+      "socraticPrompt": "Khi nấu cơm, nếu em bấm nút nấu trước rồi mới đổ gạo và nước vào nồi sau thì có nấu được cơm chín không?",
+      "distractorReasons": [
+        "Sai, làm sai quy trình không thể ra sản phẩm đẹp.",
+        "Sai, điều hoang đường không có trong thực tế.",
+        "Sai, việc gấp giấy thủ công không can thiệp vào phần cứng máy tính.",
+        "Chính xác, tính tuần tự là đặc tính sống còn của thuật toán."
+      ]
+    }
+  ]
+}

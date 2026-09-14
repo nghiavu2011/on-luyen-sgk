@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch02_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Lợi ích lớn nhất của việc kết nối các máy tính trong một phòng tin học của nhà trường thành mạng nội bộ (mạng LAN) là gì?",
-    "options": [
-      "A. Giúp các máy tính không bao giờ bị nhiễm virus",
-      "B. Giúp chia sẻ máy in chung, truyền tải tệp bài tập giữa thầy cô và học sinh nhanh chóng mà không cần sao chép qua USB",
-      "C. Làm máy tính chạy nhanh hơn gấp 10 lần",
-      "D. Tiết kiệm điện năng tiêu thụ của màn hình"
-    ],
-    "answer": 1,
-    "explanation": "📌 Mục đích cốt lõi của mạng: Chia sẻ tài nguyên dùng chung (máy in, dữ liệu, ổ cứng chia sẻ) và tạo kênh trao đổi thông tin thông suốt.\n💡 Cả phòng học chỉ cần dùng chung 1 máy in qua mạng.\n⚠️ Mạng LAN không thể tự ngăn chặn virus hoàn toàn."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chủ đề 2: Mạng máy tính và Internet",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "th6_ch02_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá tình huống triển khai mạng thực tế",
+      "question": "Trường Trung học cơ sở An Bình xây dựng khu nhà hiệu bộ gồm 3 tầng. Để các thầy cô giáo có thể vừa sử dụng máy tính xách tay làm việc linh hoạt ở mọi phòng học, vừa in được giáo án tại máy in dùng chung ở tầng 1 với chi phí đi dây gọn đẹp nhất, phương án mạng nào sau đây là TỐI ƯU NHẤT?",
+      "options": [
+        "Không dùng mạng máy tính, mỗi khi cần in tài liệu thì chép vào đĩa mềm rồi mang xuống tầng 1",
+        "Mỗi tầng lắp đặt một điểm truy cập không dây (Access Point / Router Wi-Fi) kết nối về Switch trung tâm, kết hợp chia sẻ máy in qua mạng nội bộ",
+        "Kéo 100 sợi dây cáp riêng từ mỗi bàn làm việc ra tiệm photocopy ngoài cổng trường",
+        "Mua cho mỗi thầy cô một chiếc máy in riêng đặt ngay trên bàn làm việc"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ứng dụng mạng máy tính trong thực tế (Bài 4 & 5, SGK Tin học 6, trang 18-20).",
+        "steps": "Kết hợp mạng có dây làm trục chính kết nối các tầng với các điểm phát Wi-Fi giúp thiết bị di chuyển linh hoạt, đồng thời cài đặt chia sẻ máy in mạng giải quyết triệt để bài toán chi phí và thẩm mỹ.",
+        "trap": "Các phương án tốn kém lãng phí hoặc phản khoa học công nghệ."
+      },
+      "socraticPrompt": "Làm thế nào để vừa di chuyển laptop tự do mà vẫn kết nối in ấn được với máy in ở tầng trệt mà không phải đục tường đi dây khắp nơi?",
+      "distractorReasons": [
+        "Sai, phương pháp thủ công lạc hậu, tốn thời gian công sức.",
+        "Chính xác, mô hình mạng kết hợp không dây (Wi-Fi) và chia sẻ thiết bị qua mạng LAN là giải pháp chuẩn hiện đại và tối ưu chi phí.",
+        "Sai, phương án phi lý và gây mất an toàn kỹ thuật.",
+        "Sai, gây lãng phí ngân sách trường học gấp hàng chục lần."
+      ]
+    },
+    {
+      "id": "th6_ch02_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xử lý sự cố mất kết nối mạng",
+      "question": "Bạn Minh đang làm bài kiểm tra trực tuyến trên máy tính để bàn thì bất ngờ màn hình thông báo 'Không có kết nối Internet'. Minh kiểm tra thấy đèn tín hiệu trên chiếc Router Wi-Fi của nhà vẫn sáng bình thường, nhưng sợi dây mạng cắm từ thùng máy tính vào ổ tường bị tuột ra ngoài. Minh cần làm gì để khôi phục kết nối?",
+      "options": [
+        "Cắm chắc chắn lại đầu giắc cáp mạng vào cổng mạng của máy tính cho đến khi nghe tiếng tách",
+        "Dùng kéo cắt ngắn bớt sợi dây cáp rồi nối lại",
+        "Gọi điện ngay cho nhà cung cấp dịch vụ mạng để báo hỏng đường truyền cáp quang",
+        "Đập mạnh vào màn hình máy tính để màn hình tự tìm lại sóng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Kết nối có dây và xử lý sự cố mạng cơ bản (Bài 4, SGK Tin học 6, trang 19).",
+        "steps": "Nguyên nhân sự cố rất rõ ràng: dây cáp mạng bị tuột ra khỏi cổng mạng trên máy tính. Hành động kỹ thuật chuẩn là cắm chặt lại đầu jack RJ45 vào cổng mạng.",
+        "trap": "Vội vàng gọi tổng đài báo hỏng đường cáp ngoài phố trong khi lỗi do tiếp xúc vật lý tại phòng."
+      },
+      "socraticPrompt": "Khi dây mạng bị lỏng tuột ra ngoài, việc đầu tiên cần làm để thiết bị có thể tiếp nhận lại tín hiệu là gì?",
+      "distractorReasons": [
+        "Chính xác, thao tác cắm chặt lại đầu cáp mạng vào cổng mạng LAN là xử lý đúng nguyên nhân tiếp xúc vật lý.",
+        "Sai, cắt dây sẽ làm hỏng cấu trúc các sợi đồng xoắn đôi bên trong.",
+        "Sai, chưa cần thiết vì đường truyền từ nhà mạng đến Router vẫn đang có tín hiệu bình thường.",
+        "Sai, hành động phá hoại làm vỡ hỏng màn hình máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch02_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ý thức sử dụng Internet văn minh và an toàn",
+      "question": "Khi tham gia giao tiếp trên mạng xã hội hoặc các diễn đàn học tập trực tuyến trên Internet, hành vi nào sau đây thể hiện một học sinh CÓ VĂN HÓA VÀ TRÁCH NHIỆM?",
+      "options": [
+        "Tải và phát tán các đường link chứa nội dung nhảm nhí, bạo lực để câu tương tác",
+        "Tôn trọng ý kiến người khác, sử dụng ngôn ngữ lịch sự, không lan truyền thông tin thất thiệt chưa kiểm chứng",
+        "Bình luận thô tục và công kích xúc phạm ngoại hình của bạn cùng lớp",
+        "Tự ý chia sẻ số điện thoại và địa chỉ nhà riêng của bạn mình cho người lạ trên mạng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Văn hóa ứng xử trên môi trường số (Bài 5, SGK Tin học 6, trang 23).",
+        "steps": "Học sinh văn minh khi dùng Internet phải biết tôn trọng bản thân và cộng đồng, nói năng chuẩn mực, kiểm chứng thông tin trước khi chia sẻ.",
+        "trap": "Nghĩ rằng trên mạng là thế giới ảo ẩn danh nên có thể tự do phát ngôn bất chấp đạo đức và pháp luật."
+      },
+      "socraticPrompt": "Một người học sinh ngoan, có ý thức khi bình luận trên không gian mạng cần giữ thái độ như thế nào?",
+      "distractorReasons": [
+        "Sai, phát tán thông tin độc hại vi phạm đạo đức và pháp luật.",
+        "Chính xác, đây là tiêu chuẩn ứng xử văn hóa số văn minh, lành mạnh theo định hướng giáo dục.",
+        "Sai, đây là hành vi bạo lực ngôn từ trên mạng đáng lên án.",
+        "Sai, hành vi xâm phạm quyền riêng tư và gây mất an toàn cho bạn bè."
+      ]
+    },
+    {
+      "id": "th6_ch02_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nguyên lý định tuyến và chia sẻ thông tin toàn cầu",
+      "question": "Điều gì đảm bảo cho hai máy tính ở hai quốc gia khác nhau (ví dụ: một máy ở Hà Nội, Việt Nam và một máy ở Paris, Pháp) có thể gửi và nhận thông tin qua lại cho nhau trên mạng Internet một cách trơn tru?",
+      "options": [
+        "Vì người dùng ở hai máy tính đó phải dùng chung một dòng điện có cùng điện áp",
+        "Vì hai máy tính cùng tuân theo một bộ quy tắc truyền thông chuẩn quốc tế (gọi là giao thức mạng)",
+        "Vì hai người sử dụng bắt buộc phải nói cùng một tiếng mẹ đẻ",
+        "Vì giữa hai máy tính đó được nối riêng bởi một sợi dây đồng duy nhất nối thẳng từ Hà Nội sang Paris"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy chuẩn kết nối Internet (Bài 5, SGK Tin học 6, trang 21-22).",
+        "steps": "Mọi máy tính trên thế giới dù khác nhà sản xuất, khác hệ điều hành đều có thể giao tiếp với nhau nhờ cùng tuân thủ bộ giao thức mạng chuẩn chung toàn cầu (TCP/IP).",
+        "trap": "Nghĩ rằng cần phải có một sợi dây vật lý nối thẳng tắp giữa hai máy tính cá nhân."
+      },
+      "socraticPrompt": "Muốn hai người khác tiếng nói hiểu nhau cần có quy ước chung, vậy hai máy tính khác hãng muốn trao đổi dữ liệu cần tuân theo điều gì?",
+      "distractorReasons": [
+        "Sai, mạng máy tính truyền tín hiệu dữ liệu số, không phụ thuộc vào điện áp lưới điện quốc gia.",
+        "Chính xác, các máy tính toàn cầu giao tiếp được nhờ cùng sử dụng các bộ giao thức mạng (protocol) thống nhất.",
+        "Sai, ngôn ngữ con người không ảnh hưởng đến khả năng truyền dữ liệu của phần cứng mạng.",
+        "Sai, kết nối đi qua hàng ngàn trạm định tuyến và cáp quang biển trung gian, không nối thẳng đơn lẻ."
+      ]
+    },
+    {
+      "id": "th6_ch02_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Mô hình mạng nội bộ gia đình",
+      "question": "Trong mô hình mạng gia đình gồm có: 1 Smart TV, 2 máy tính xách tay, 3 điện thoại di động và 1 modem Wi-Fi có kết nối cáp quang của nhà mạng. Thiết bị nào đóng vai trò là 'trung tâm tiếp nhận và chuyển phát tín hiệu' để các thiết bị còn lại có thể truy cập Internet?",
+      "options": [
+        "Chiếc Smart TV treo trên tường phòng khách",
+        "Modem Wi-Fi (Bộ định tuyến không dây)",
+        "Một trong hai chiếc máy tính xách tay",
+        "Chiếc điện thoại di động của người bố"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mô hình mạng gia đình (Bài 4, SGK Tin học 6, trang 18-20).",
+        "steps": "Modem Wi-Fi là thiết bị kết nối trung tâm vừa nhận tín hiệu từ đường cáp quang nhà mạng, vừa phát sóng Wi-Fi/cấp cổng mạng cho toàn bộ các thiết bị đầu cuối trong nhà.",
+        "trap": "Nhầm thiết bị hiển thị to lớn (Smart TV) với thiết bị điều phối mạng trung tâm."
+      },
+      "socraticPrompt": "Thiết bị nào trong nhà cắm trực tiếp vào đường dây cáp viễn thông và phát sóng cho cả nhà cùng dùng?",
+      "distractorReasons": [
+        "Sai, Smart TV chỉ là thiết bị đầu cuối thu nhận tín hiệu để phát phim.",
+        "Chính xác, Modem Wi-Fi là thiết bị kết nối trung tâm điều phối mạng của toàn bộ gia đình.",
+        "Sai, máy tính xách tay chỉ là thiết bị đầu cuối của người dùng.",
+        "Sai, điện thoại di động là thiết bị đầu cuối cá nhân."
+      ]
+    },
+    {
+      "id": "th6_ch02_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vận dụng khai thác Internet hiệu quả",
+      "question": "Nhóm của Lan được phân công làm bài thuyết trình môn Khoa học tự nhiên về 'Đa dạng sinh học ở Việt Nam'. Để khai thác Internet hiệu quả và tạo ra bài báo cáo khoa học chất lượng cao, nhóm Lan nên thực hiện theo quy trình nào sau đây?",
+      "options": [
+        "Chỉ tìm một hình ảnh đẹp bất kỳ trên mạng rồi nộp cho thầy cô mà không cần văn bản",
+        "Xác định mục tiêu tìm kiếm -> Tìm kiếm tài liệu từ các nguồn chính thống (báo khoa học, trang giáo dục) -> Chọn lọc, xử lý và tổng hợp nội dung -> Trình bày báo cáo kèm trích dẫn nguồn",
+        "Sao chép nguyên văn toàn bộ nội dung một trang mạng xã hội bất kỳ rồi nhận là bài tự làm của nhóm",
+        "Vào mạng tải các trò chơi điện tử về máy trường rồi ngồi chơi cùng nhau"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy trình ứng dụng Internet trong học tập (Bài 5, SGK Tin học 6, trang 23).",
+        "steps": "Khai thác thông tin học tập đúng phương pháp khoa học: Xác định chủ đề -> Tra cứu từ nguồn uy tín -> Phân tích, tổng hợp -> Trình bày và ghi rõ nguồn gốc tài liệu.",
+        "trap": "Hành vi đạo văn, sao chép nguyên văn trên mạng mà không chịu suy nghĩ và xử lý thông tin."
+      },
+      "socraticPrompt": "Để có một bài thuyết trình hay, các em cần làm gì với các bài viết tìm thấy trên mạng trước khi đưa vào bài của mình?",
+      "distractorReasons": [
+        "Sai, bài báo cáo cần có nội dung khoa học đầy đủ chứ không thể chỉ nộp 1 bức ảnh.",
+        "Chính xác, đây là quy trình học tập tích cực, rèn luyện năng lực tự học và phẩm chất trung thực khoa học.",
+        "Sai, hành vi sao chép không trích dẫn là vi phạm liêm chính học thuật và bản quyền.",
+        "Sai, lãng phí thời gian học tập vào việc giải trí không đúng lúc."
+      ]
+    }
+  ]
+}

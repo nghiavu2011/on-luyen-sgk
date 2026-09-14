@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch06_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Thuật toán tìm giá trị lớn nhất ($MAX$) trong ba số $a, b, c$ cần thực hiện phép so sánh điều kiện rẽ nhánh theo thứ tự logic nào sau đây?",
-    "options": [
-      "A. Gán bừa một số là lớn nhất",
-      "B. Gán $MAX = a$. Nếu $b > MAX$ thì gán $MAX = b$. Nếu $c > MAX$ thì gán $MAX = c$. Kết quả là $MAX$",
-      "C. Lấy $a + b + c$",
-      "D. Nhân cả ba số lại"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thuật toán tìm số lớn nhất: 1. Giả sử số đầu tiên $a$ là lớn nhất ($MAX=a$). 2. Lần lượt so sánh với từng số còn lại, nếu số nào lớn hơn $MAX$ thì cập nhật $MAX$ bằng số đó.\n💡 Trình tự so sánh tuần tự tối ưu.\n⚠️ Rèn luyện tư duy thuật toán nền tảng."
-  }
-]
+{
+  "chapterId": "ch06",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chủ đề 6: Thuật toán & Lập trình trực quan Scratch",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "th6_ch06_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích sơ đồ khối tìm số lớn nhất",
+      "question": "Cho thuật toán tìm số lớn hơn trong hai số a và b. Bắt đầu -> Nhập hai số a và b -> Kiểm tra nếu a > b: nếu Đúng thì gán Max = a, nếu Sai thì gán Max = b -> Thông báo giá trị Max -> Kết thúc. Nếu em nhập a = 12 và b = 25, thuật toán sẽ thực hiện những bước nào và cho ra kết quả Max bằng bao nhiêu?",
+      "options": [
+        "Cộng hai số lại thành Max = 37",
+        "Kiểm tra 12 > 25 là Đúng -> Rẽ sang nhánh Đúng -> Gán Max = 12 -> Thông báo Max = 12",
+        "Thuật toán bị lỗi đứng máy vì số 12 nhỏ hơn số 25",
+        "Kiểm tra 12 > 25 là Sai -> Rẽ sang nhánh Sai -> Gán Max = 25 -> Thông báo Max = 25"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mô phỏng chạy từng bước thuật toán rẽ nhánh (Bài 16 & 17, SGK Tin học 6, trang 69-75).",
+        "steps": "Với a = 12, b = 25: Điều kiện '12 > 25' nhận giá trị SAI. Nhánh Sai được kích hoạt: Max nhận giá trị b (25). Xuất kết quả Max = 25.",
+        "trap": "Nhầm điều kiện 12 > 25 là đúng hoặc cộng bừa hai số."
+      },
+      "socraticPrompt": "So sánh 12 và 25, số nào lớn hơn? Khẳng định '12 lớn hơn 25' là Đúng hay Sai?",
+      "distractorReasons": [
+        "Sai, đây là thuật toán tìm số lớn nhất chứ không phải tính tổng.",
+        "Sai, 12 không lớn hơn 25 nên nhánh Đúng không được chạy.",
+        "Sai, thuật toán xử lý mọi cặp số đầu vào hợp lệ mà không bị lỗi.",
+        "Chính xác, mô phỏng đúng từng bước rẽ nhánh và đưa ra kết quả Max chuẩn xác."
+      ]
+    },
+    {
+      "id": "th6_ch06_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phát hiện lỗi lặp vô tận (Infinite Loop)",
+      "question": "Một bạn học sinh lập trình trong Scratch một vòng lặp: 'Biến i ban đầu gán bằng 1. Lặp lại cho đến khi i = 10: [Hiển thị giá trị i ra màn hình]'. Tuy nhiên bạn quên không thêm lệnh 'Thay đổi i một lượng 1' vào bên trong vòng lặp. Hiện tượng gì sẽ xảy ra khi bấm cờ xanh chạy chương trình?",
+      "options": [
+        "Chương trình chỉ chạy đúng 1 lần rồi tự thoát",
+        "Nhân vật chú mèo tự động đổi màu sang màu tím",
+        "Chương trình tự động tính i tăng lên 100",
+        "Chương trình bị rơi vào vòng lặp vô tận (treo máy) vì biến i luôn luôn bằng 1 và không bao giờ đạt tới giá trị 10 để dừng lặp"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lỗi vòng lặp vô tận (Bài 16 & 17, SGK Tin học 6, trang 70-74).",
+        "steps": "Điều kiện dừng lặp là i = 10. Nhưng do biến i không bao giờ được tăng giá trị (mãi mãi bằng 1), điều kiện dừng không bao giờ đạt được, dẫn đến lỗi lặp vô tận (infinite loop).",
+        "trap": "Nghĩ máy tính tự động tăng giá trị của biến đếm mà không cần lệnh lập trình."
+      },
+      "socraticPrompt": "Nếu không có ai tăng số bước đi của em thì số bước của em có tự lớn lên được không?",
+      "distractorReasons": [
+        "Sai, vòng lặp không dừng mà chạy liên tục không dứt.",
+        "Sai, màu sắc nhân vật không tự đổi nếu không có khối lệnh Looks.",
+        "Sai, máy tính chỉ làm theo lệnh, không tự tăng giá trị nếu không được lập trình.",
+        "Chính xác, phân tích sâu sắc nguyên nhân kinh điển của lỗi vòng lặp vô tận trong khoa học máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch06_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Mô hình hóa bài toán thực tế bằng sơ đồ khối",
+      "question": "Cô giáo điểm danh đầu giờ bằng cách gọi tên từng bạn trong danh sách lớp gồm 40 học sinh: 'Nếu bạn nào có mặt trả lời \"Có\" thì cô đánh dấu tích (v), nếu không trả lời thì cô đánh dấu vắng (x)'. Hoạt động điểm danh của cô giáo kết hợp những cấu trúc điều khiển nào?",
+      "options": [
+        "Chỉ duy nhất một cấu trúc tuần tự đơn giản",
+        "Chỉ duy nhất một cấu trúc rẽ nhánh dạng thiếu",
+        "Không sử dụng bất kỳ cấu trúc điều khiển nào",
+        "Kết hợp giữa Cấu trúc lặp (gọi lần lượt 40 học sinh) và Cấu trúc rẽ nhánh dạng đủ (nếu có mặt thì đánh dấu tích, ngược lại đánh dấu vắng)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kết hợp các cấu trúc điều khiển (Bài 16, SGK Tin học 6, trang 71).",
+        "steps": "Hành động gọi tên lặp lại 40 lần cho 40 học sinh (cấu trúc lặp). Với mỗi học sinh: nếu trả lời Có thì đánh tích (v), ngược lại đánh vắng (x) (cấu trúc rẽ nhánh dạng đủ).",
+        "trap": "Chỉ nhìn thấy hành động gọi tên mà không nhận ra bước rẽ nhánh đánh dấu tích hay vắng."
+      },
+      "socraticPrompt": "Có mấy học sinh được gọi tên và việc kiểm tra bạn đó có mặt hay không chia làm mấy trường hợp?",
+      "distractorReasons": [
+        "Sai, việc kiểm tra từng học sinh có điều kiện rẽ nhánh và lặp lại 40 lần.",
+        "Sai, thiếu mất vòng lặp 40 lần và dạng đủ có cả trường hợp vắng.",
+        "Sai, mọi hoạt động có quy trình đều được mô tả bằng các cấu trúc điều khiển.",
+        "Chính xác, phân tích bài toán thực tế kết hợp nhuần nhuyễn cả cấu trúc lặp và rẽ nhánh dạng đủ."
+      ]
+    },
+    {
+      "id": "th6_ch06_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thiết kế thuật toán tính tiền bán hàng",
+      "question": "Trong bài tập thực hành SGK Tin học 6 trang 73-74: Ba bạn An, Minh, Khoa bán thiệp từ thiện. Mỗi tấm thiệp có giá 15 000 đồng. Nếu một người mua từ 5 tấm thiệp trở lên thì được giảm giá 10 000 đồng trên tổng hóa đơn. Gọi N là số lượng thiệp khách mua. Công thức tính số tiền (Tien) khách phải trả được mô tả bằng cấu trúc rẽ nhánh nào sau đây là ĐÚNG?",
+      "options": [
+        "Tien = N / 15000",
+        "Tien = N * 15000 + 10000 trong mọi trường hợp",
+        "Nếu N >= 5 thì Tien = 10000; Ngược lại Tien = 15000",
+        "Nếu N < 5 thì Tien = N * 15000; Ngược lại (N >= 5) thì Tien = (N * 15000) - 10000"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thuật toán tính tiền bán thiệp (Bài 17, SGK Tin học 6, trang 73-74).",
+        "steps": "Nếu mua dưới 5 tấm: Tien = N * 15 000. Nếu mua từ 5 tấm trở lên: Tien = (N * 15 000) - 10 000 (được giảm 10k).",
+        "trap": "Nhầm dấu điều kiện hoặc trừ 10 000 cho mọi trường hợp."
+      },
+      "socraticPrompt": "Khách mua 6 tấm thiệp thì số tiền gốc là 90 000đ, sau khi giảm 10 000đ thì còn bao nhiêu?",
+      "distractorReasons": [
+        "Sai, tính tiền phải làm phép nhân chứ không phải phép chia.",
+        "Sai, cộng thêm 10 000 là tính đắt hơn chứ không phải giảm giá.",
+        "Sai, giá tiền phụ thuộc vào số lượng N chứ không cố định 10k hay 15k.",
+        "Chính xác, mô tả thuật toán rẽ nhánh chuẩn xác theo bài toán dự án SGK Tin học 6 trang 74."
+      ]
+    },
+    {
+      "id": "th6_ch06_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vai trò của thuật toán đối với chương trình máy tính",
+      "question": "Mối quan hệ bản chất giữa 'Thuật toán' và 'Chương trình máy tính' được giải thích như thế nào là CHÍNH XÁC NHẤT?",
+      "options": [
+        "Thuật toán và chương trình máy tính là hai vật thể phần cứng gắn trên bo mạch chủ",
+        "Thuật toán chỉ dùng để chơi cờ vua, không liên quan gì đến máy tính",
+        "Chương trình máy tính có trước, sau khi chạy xong máy tính mới tự động sáng tác ra thuật toán",
+        "Thuật toán là ý tưởng, là giải pháp từng bước giải quyết vấn đề (dành cho con người hiểu); còn chương trình máy tính là bản thể hiện thuật toán đó bằng một ngôn ngữ lập trình cụ thể để máy tính có thể hiểu và thực thi tự động"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mối quan hệ giữa thuật toán và chương trình (Bài 17, SGK Tin học 6, trang 72-73).",
+        "steps": "Thuật toán là bản thiết kế trí tuệ; chương trình máy tính là sản phẩm xây dựng cụ thể từ bản thiết kế đó để máy vi tính thi hành.",
+        "trap": "Nhầm tưởng chương trình máy tính tự có mà không cần thuật toán định hướng từ trước."
+      },
+      "socraticPrompt": "Người kiến trúc sư vẽ bản vẽ thiết kế ngôi nhà trước, hay người thợ xây đặt từng viên gạch trước?",
+      "distractorReasons": [
+        "Sai, thuật toán và chương trình là phần mềm và tư duy trí tuệ, không phải phần cứng vật lý.",
+        "Sai, thuật toán là linh hồn của mọi phần mềm và ứng dụng tin học trên thế giới.",
+        "Sai, con người phải tư duy thuật toán trước rồi mới lập trình thành chương trình.",
+        "Chính xác, định nghĩa chuẩn về mối quan hệ nền tảng giữa thuật toán và chương trình trong khoa học máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch06_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sắp xếp đúng các bước của thuật toán tính trung bình cộng",
+      "question": "Để xây dựng thuật toán 'Tính điểm trung bình ba môn Toán, Ngữ văn, Ngoại ngữ' (Luyện tập trang 67 SGK Tin học 6), thứ tự sắp xếp các bước nào sau đây là ĐÚNG ĐẮN VÀ CHÍNH XÁC?",
+      "options": [
+        "Bước 1: Tính ĐTB = (Toán + Văn + Ngoại ngữ) / 3 -> Bước 2: Nhập điểm Toán, Văn, Ngoại ngữ -> Bước 3: Thông báo ĐTB",
+        "Bước 1: Tính điểm trung bình = Toán * Văn * Ngoại ngữ -> Bước 2: Kết thúc",
+        "Bước 1: Thông báo điểm trung bình -> Bước 2: Nhập điểm -> Bước 3: Xóa điểm",
+        "Bước 1: Nhập điểm ba môn Toán, Văn, Ngoại ngữ -> Bước 2: Tính tổng = Toán + Văn + Ngoại ngữ -> Bước 3: Tính điểm trung bình = tổng / 3 -> Bước 4: Thông báo điểm trung bình ra màn hình"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thuật toán tính điểm trung bình (Bài 15, SGK Tin học 6, trang 67).",
+        "steps": "Quy trình tuần tự chuẩn: Phải có dữ liệu vào (Nhập điểm) -> Tiến hành tính toán (Cộng tổng rồi chia 3) -> Xuất kết quả (Thông báo ĐTB).",
+        "trap": "Tính toán trước khi có dữ liệu đầu vào hoặc dùng sai phép toán (nhân thay vì cộng)."
+      },
+      "socraticPrompt": "Trước khi tính trung bình cộng ba môn, em cần phải biết điểm của những môn nào trước tiên?",
+      "distractorReasons": [
+        "Sai vì chưa nhập điểm đã vội tính toán là vi phạm logic trình tự.",
+        "Sai vì công thức tính trung bình cộng là cộng các số hạng rồi chia cho số số hạng, không phải phép nhân.",
+        "Sai vì chưa có kết quả đã thông báo.",
+        "Chính xác, các bước thực hiện tuần tự khoa học từ Input -> Xử lý tính toán -> Output."
+      ]
+    }
+  ]
+}

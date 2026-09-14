@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch03_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Địa chỉ thư điện tử nào sau đây có cấu trúc HỢP LỆ theo quy chuẩn quốc tế?",
-    "options": [
-      "A. nguyenvana#gmail.com",
-      "B. nguyenvana@gmail.com",
-      "C. nguyenvana.gmail@com",
-      "D. nguyenvana@gmail@com"
-    ],
-    "answer": 1,
-    "explanation": "📌 Cấu trúc Email: [Tên người dùng]@[Tên miền máy chủ]. Chỉ có duy nhất một kí tự '@' ở giữa.\n💡 Dấu '@' (a còng) là bắt buộc.\n⚠️ Không dùng dấu # hoặc nhiều dấu @."
-  }
-]
+{
+  "chapterId": "ch03",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế - Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "th6_ch03_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận biết địa chỉ email hợp lệ",
+      "question": "Trong các địa chỉ sau đây, địa chỉ nào là một địa chỉ thư điện tử (email) HỢP LỆ theo quy chuẩn?",
+      "options": [
+        "nguyenha.lop6a@gmail.com",
+        "nguyenha lop6a@gmail.com",
+        "nguyenha.lop6a#gmail.com",
+        "nguyenha.lop6a@gmail"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cú pháp địa chỉ email hợp lệ (Bài 8, SGK Tin học 6, trang 34).",
+        "steps": "Địa chỉ email hợp lệ không chứa khoảng trắng, có ký hiệu '@' và có tên miền máy chủ đầy đủ phần mở rộng (.com, .vn...). Vậy nguyenha.lop6a@gmail.com là chuẩn.",
+        "trap": "Chứa khoảng trắng ở tên tài khoản hoặc thiếu đuôi tên miền .com."
+      },
+      "socraticPrompt": "Địa chỉ email có được phép chứa khoảng cách (phím Space) giữa các chữ cái hay không?",
+      "distractorReasons": [
+        "Chính xác, có đầy đủ các thành phần hợp lệ không chứa khoảng trắng.",
+        "Sai vì có chứa khoảng trắng giữa chữ 'nguyenha' và 'lop6a'.",
+        "Sai vì dùng ký hiệu '#' thay cho ký hiệu bắt buộc '@'.",
+        "Sai vì tên máy chủ thiếu phần mở rộng tên miền cấp cao (thiếu .com)."
+      ]
+    },
+    {
+      "id": "th6_ch03_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Kỹ thuật tìm kiếm chính xác",
+      "question": "Để tìm kiếm chính xác một cụm từ cụ thể mà không muốn máy tìm kiếm tách rời từng từ đơn lẻ, em nên đặt cụm từ đó trong dấu ký hiệu nào?",
+      "options": [
+        "Cặp dấu ngoặc vuông [ ]",
+        "Cặp dấu ngoặc kép \" \"",
+        "Cặp dấu ngoặc nhọn { }",
+        "Cặp dấu gạch chéo / /"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tìm kiếm chính xác bằng ngoặc kép (Bài 7, SGK Tin học 6, trang 30).",
+        "steps": "Sử dụng dấu ngoặc kép \"từ khóa\" giúp máy tìm kiếm hiểu rằng cần tìm đúng thứ tự các từ trong ngoặc, không phân tách rời rạc.",
+        "trap": "Nhầm lẫn với dấu ngoặc vuông hoặc dấu gạch chéo."
+      },
+      "socraticPrompt": "Khi muốn tìm chính xác câu thơ 'Nam quốc sơn hà nam đế cư', em đặt câu thơ vào giữa dấu gì để Google tìm nguyên văn?",
+      "distractorReasons": [
+        "Sai, dấu ngoặc vuông không có chức năng tìm kiếm nguyên cụm từ.",
+        "Chính xác theo hướng dẫn SGK Tin học 6: dấu ngoặc kép \"...\" dùng để tìm chính xác cụm từ.",
+        "Sai, dấu ngoặc nhọn dùng trong toán học hoặc lập trình.",
+        "Sai, dấu gạch chéo không hỗ trợ tìm kiếm nguyên cụm từ."
+      ]
+    },
+    {
+      "id": "th6_ch03_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm của siêu liên kết",
+      "question": "Khi di chuyển con trỏ chuột vào một 'siêu liên kết' trên trang web, con trỏ chuột thường tự động thay đổi hình dạng thành biểu tượng nào?",
+      "options": [
+        "Hình bàn tay có ngón trỏ chỉ vào liên kết",
+        "Hình chiếc đồng hồ cát đang quay",
+        "Hình mũi tên bốn chiều chỉ sang các hướng",
+        "Hình dấu gạch chéo màu đỏ cấm truy cập"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Dấu hiệu nhận biết siêu liên kết (Bài 6, SGK Tin học 6, trang 24).",
+        "steps": "Khi trỏ chuột vào một đoạn văn bản hoặc hình ảnh có gắn siêu liên kết (hyperlink), con trỏ chuột sẽ đổi từ mũi tên thành hình bàn tay có ngón trỏ chỉ.",
+        "trap": "Nhầm với con trỏ đồng hồ cát (khi máy đang bận xử lý)."
+      },
+      "socraticPrompt": "Khi rê chuột vào một dòng chữ xanh có gạch chân trên mạng, em thấy con trỏ đổi sang hình gì trước khi bấm vào?",
+      "distractorReasons": [
+        "Chính xác, biểu tượng bàn tay chỉ ngón là quy chuẩn giao diện web để báo hiệu người dùng có thể nhấp chuột.",
+        "Sai, đồng hồ cát hiển thị trạng thái chờ tải trang.",
+        "Sai, mũi tên 4 chiều dùng khi di chuyển đối tượng đồ họa.",
+        "Sai, dấu chéo đỏ biểu thị hành động bị cấm."
+      ]
+    },
+    {
+      "id": "th6_ch03_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Các trường thông tin khi gửi thư điện tử",
+      "question": "Khi soạn một bức thư điện tử, trường 'Chủ đề' (Subject) của thư có vai trò và nội dung là gì?",
+      "options": [
+        "Chứa toàn bộ nội dung chi tiết dài hàng trăm trang của bức thư",
+        "Tóm tắt ngắn gọn mục đích chính hoặc nội dung của bức thư để người nhận nắm bắt ngay",
+        "Là mật khẩu hòm thư của người nhận",
+        "Là số điện thoại của nhà cung cấp dịch vụ mạng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Soạn thư điện tử (Bài 8, SGK Tin học 6, trang 36).",
+        "steps": "Trường Chủ đề (Subject) là dòng tóm tắt tiêu đề bức thư, giúp người nhận biết được thư nói về việc gì trước khi mở xem nội dung chi tiết.",
+        "trap": "Nhầm chủ đề với nội dung chính hoặc mật khẩu."
+      },
+      "socraticPrompt": "Trước khi mở đọc một bức thư dài, người nhận muốn nhìn thấy điều gì ở danh sách Hộp thư đến để biết thư gửi về chuyện gì?",
+      "distractorReasons": [
+        "Sai, nội dung chi tiết được viết ở phần soạn văn bản (Body), không phải ô Chủ đề.",
+        "Chính xác, Chủ đề (Subject) là dòng tiêu đề tóm tắt ngắn gọn nội dung thư.",
+        "Sai, mật khẩu là thông tin tuyệt mật không bao giờ ghi vào ô chủ đề thư.",
+        "Sai, số điện thoại nhà mạng không liên quan đến tiêu đề bức thư."
+      ]
+    },
+    {
+      "id": "th6_ch03_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thu hẹp phạm vi tìm kiếm",
+      "question": "Bạn Mai muốn tìm thông tin về 'lớp vỏ Trái Đất' phục vụ môn Lịch sử và Địa lí 6. Để kết quả tìm kiếm tập trung và chính xác nhất, Mai nên nhập từ khóa nào vào Google?",
+      "options": [
+        "Trái Đất",
+        "\"lớp vỏ Trái Đất\"",
+        "vỏ",
+        "địa lí thế giới"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Kỹ thuật chọn từ khóa (Bài 7, SGK Tin học 6, trang 32).",
+        "steps": "Đặt \"lớp vỏ Trái Đất\" trong dấu ngoặc kép giúp máy tìm kiếm lọc chính xác các bài viết khoa học về lớp vỏ Trái Đất, loại bỏ các kết quả lan man về vỏ trái cây, quả địa cầu...",
+        "trap": "Dùng từ quá rộng như 'Trái Đất' hay 'vỏ'."
+      },
+      "socraticPrompt": "Từ khóa nào vừa ngắn gọn vừa chứa chính xác cấu trúc tên gọi khái niệm địa lý mà Mai đang học?",
+      "distractorReasons": [
+        "Sai, từ 'Trái Đất' quá rộng, trả về hàng trăm triệu trang về hành tinh, thiên văn, phim ảnh...",
+        "Chính xác, đây là câu hỏi trong phần Luyện tập 2 trang 32 SGK Tin học 6.",
+        "Sai, từ 'vỏ' sẽ ra vỏ trứng, vỏ sò, vỏ xe, vỏ gối...",
+        "Sai, 'địa lí thế giới' là môn học rộng lớn bao quát toàn bộ hành tinh."
+      ]
+    },
+    {
+      "id": "th6_ch03_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quy tắc an toàn khi dùng máy tính công cộng",
+      "question": "Sau khi sử dụng xong hòm thư điện tử cá nhân trên máy tính ở phòng thực hành Tin học của trường hoặc tiệm Internet, hành động bắt buộc nào sau đây giúp em bảo vệ tài khoản khỏi bị người khác xâm phạm?",
+      "options": [
+        "Chỉ cần tắt màn hình máy tính bằng nút nguồn vật lý",
+        "Nhấn nút 'Đăng xuất' (Sign out / Log out) khỏi tài khoản rồi đóng trình duyệt",
+        "Để nguyên cửa sổ hòm thư rồi đứng dậy đi về cho người sau dùng tiếp",
+        "Rút phích cắm điện của cả phòng máy"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Bảo vệ tài khoản email (Bài 8, SGK Tin học 6, trang 36-37).",
+        "steps": "Khi dùng máy tính công cộng, nếu không Đăng xuất thì phiên làm việc vẫn lưu lại trong trình duyệt, người sau bật máy lên có thể đọc trộm thư hoặc mạo danh gửi thư phá hoại.",
+        "trap": "Nghĩ rằng chỉ cần tắt màn hình hoặc đóng tab là đã thoát tài khoản an toàn."
+      },
+      "socraticPrompt": "Nút bấm nào trong hòm thư giúp em chính thức ngắt phiên kết nối và khóa quyền truy cập của người dùng tiếp theo?",
+      "distractorReasons": [
+        "Sai, tắt màn hình thì máy tính vẫn chạy ngầm, bật lại màn hình là thấy nguyên hòm thư.",
+        "Chính xác, luôn luôn phải nhấp nút Đăng xuất (Sign out) để xóa phiên đăng nhập.",
+        "Sai, hành vi cực kỳ sơ hở khiến tài khoản bị đánh cắp thông tin bí mật.",
+        "Sai, hành vi phá hoại gây mất điện đột ngột hỏng thiết bị phòng thực hành."
+      ]
+    }
+  ]
+}

@@ -1,44 +1,164 @@
-[
-  {
-    "id": "th6_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong phần mềm soạn thảo Word, tổ hợp phím tắt nào dùng để in đậm (Bold) phần văn bản đang chọn?",
-    "options": [
-      "A. Ctrl + I",
-      "B. Ctrl + U",
-      "C. Ctrl + B",
-      "D. Ctrl + Z"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phím tắt cơ bản: Ctrl + B (Bold) in đậm; Ctrl + I (Italic) in nghiêng; Ctrl + U (Underline) gạch chân.\n💡 Chữ 'B' viết tắt của 'Bold'.\n⚠️ Nhớ bộ ba phím tắt định dạng kinh điển Ctrl + B, I, U."
-  },
-  {
-    "id": "th6_ch05_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Trong cấu trúc của sơ đồ tư duy (Mindmap), chủ đề trung tâm của bài học cần được đặt ở vị trí nào?",
-    "options": [
-      "A. Góc dưới cùng bên trái",
-      "B. Chính giữa trang giấy hoặc màn hình",
-      "C. Góc trên cùng bên phải",
-      "D. Ẩn dưới chân trang"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy tắc Mindmap: Chủ đề trung tâm luôn vẽ nổi bật ở chính giữa để các nhánh ý tưởng toả đều ra các hướng xung quanh.\n💡 Giúp não bộ tập trung vào trọng tâm bài học.\n⚠️ Không vẽ lệch sang góc rìa."
-  },
-  {
-    "id": "th6_ch05_d1_q3",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi chèn bảng điểm vào văn bản, thao tác nào giúp gộp 3 ô liên tiếp trên cùng một hàng thành 1 ô duy nhất?",
-    "options": [
-      "A. Split Cells",
-      "B. Merge Cells",
-      "C. Delete Cells",
-      "D. Insert Table"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thao tác bảng biểu: 'Merge Cells' có nghĩa là gộp các ô đã chọn thành một ô duy nhất.\n💡 'Split Cells' là chia nhỏ một ô thành nhiều ô.\n⚠️ Thuật ngữ tiếng Anh thông dụng trong Microsoft Word."
-  }
-]
+{
+  "chapterId": "ch05",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi - Chủ đề 5: Ứng dụng Tin học (Soạn thảo văn bản & Sơ đồ tư duy)",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "th6_ch05_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Cấu trúc sơ đồ tư duy",
+      "question": "Trong một sơ đồ tư duy (Mindmap), vị trí của 'Chủ đề chính' luôn nằm ở đâu?",
+      "options": [
+        "Nằm khuất ở một góc dưới cùng bên trái trang giấy",
+        "Nằm trên thanh tiêu đề của màn hình máy tính",
+        "Nằm rải rác ngẫu nhiên ở phần ngoài cùng của các nhánh",
+        "Nằm ở trung tâm của sơ đồ tư duy"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc sơ đồ tư duy (Bài 10, SGK Tin học 6, trang 43).",
+        "steps": "Sơ đồ tư duy luôn bắt đầu từ một chủ đề trung tâm (ở giữa), sau đó mới phân nhánh chính và nhánh phụ tỏa ra xung quanh.",
+        "trap": "Nhầm lẫn vị trí trung tâm với lề góc trang giấy."
+      },
+      "socraticPrompt": "Khi vẽ một cái cây hoặc mạng nhện, phần thân hoặc tâm điểm xuất phát nằm ở đâu?",
+      "distractorReasons": [
+        "Sai, góc dưới trang giấy không làm nổi bật chủ đề bao quát.",
+        "Sai, thanh tiêu đề là thanh công cụ của phần mềm máy tính.",
+        "Sai, ngoài cùng là các nhánh chi tiết phụ.",
+        "Chính xác, Chủ đề chính luôn đặt ở vị trí trung tâm nổi bật nhất."
+      ]
+    },
+    {
+      "id": "th6_ch05_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phím tắt định dạng ký tự",
+      "question": "Trong phần mềm soạn thảo văn bản Word, muốn định dạng kiểu chữ 'In đậm' cho đoạn văn bản đang chọn, em sử dụng tổ hợp phím tắt nào?",
+      "options": [
+        "Ctrl + B",
+        "Ctrl + I",
+        "Ctrl + U",
+        "Ctrl + C"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phím tắt định dạng chữ đậm (Bài 11, SGK Tin học 6, trang 49).",
+        "steps": "Ctrl + B (Bold) là phím tắt in đậm; Ctrl + I (Italic) là in nghiêng; Ctrl + U (Underline) là gạch chân; Ctrl + C là sao chép.",
+        "trap": "Dễ nhầm Ctrl+B (Bold) với Ctrl+I (Italic)."
+      },
+      "socraticPrompt": "Từ 'Bold' trong tiếng Anh bắt đầu bằng chữ cái nào?",
+      "distractorReasons": [
+        "Chính xác, Ctrl+B (Bold) dùng để in đậm ký tự văn bản.",
+        "Sai, Ctrl+I (Italic) dùng để in nghiêng.",
+        "Sai, Ctrl+U (Underline) dùng để gạch chân.",
+        "Sai, Ctrl+C (Copy) dùng để sao chép dữ liệu."
+      ]
+    },
+    {
+      "id": "th6_ch05_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm ô trong bảng",
+      "question": "Trong phần mềm văn bản, phần giao nhau giữa một Hàng (Row) và một Cột (Column) trong bảng được gọi là gì?",
+      "options": [
+        "Thẻ lệnh",
+        "Dòng tiêu đề",
+        "Ô (Cell)",
+        "Đoạn văn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khái niệm ô trong bảng (Bài 12, SGK Tin học 6, trang 54).",
+        "steps": "Giao điểm của một hàng ngang và một cột đứng tạo thành một ô (cell) để nhập dữ liệu văn bản, số hoặc ảnh.",
+        "trap": "Nhầm ô với hàng hoặc cột."
+      },
+      "socraticPrompt": "Một ô cờ trên bàn cờ vua tạo thành từ giao của hàng ngang và cột dọc có tên gọi là gì?",
+      "distractorReasons": [
+        "Sai, thẻ lệnh (Tab) nằm trên dải Ribbon giao diện Word.",
+        "Sai, dòng tiêu đề là hàng đầu tiên chứa tên các cột.",
+        "Chính xác, Ô (Cell) là đơn vị cơ bản cấu thành nên bảng biểu.",
+        "Sai, đoạn văn là khối chữ kết thúc bằng phím Enter."
+      ]
+    },
+    {
+      "id": "th6_ch05_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phím tắt mở công cụ Thay thế",
+      "question": "Tổ hợp phím tắt nào dùng để mở nhanh hộp thoại 'Thay thế' (Replace) trong phần mềm soạn thảo văn bản?",
+      "options": [
+        "Ctrl + H",
+        "Ctrl + F",
+        "Ctrl + P",
+        "Ctrl + S"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công cụ thay thế (Bài 13, SGK Tin học 6, trang 59).",
+        "steps": "Ctrl + H mở hộp thoại Thay thế (Replace); Ctrl + F mở Tìm kiếm (Find); Ctrl + P mở In (Print); Ctrl + S Lưu tệp (Save).",
+        "trap": "Nhầm Ctrl+F (Find - Tìm kiếm) với Ctrl+H (Replace - Thay thế)."
+      },
+      "socraticPrompt": "Để thay thế một từ viết sai bằng một từ đúng mới trong Word, tổ hợp phím nào mở chức năng Replace?",
+      "distractorReasons": [
+        "Chính xác, Ctrl+H mở công cụ Replace để tìm và thay thế tự động.",
+        "Sai, Ctrl+F chỉ mở thanh tìm kiếm (Find).",
+        "Sai, Ctrl+P dùng để in ấn văn bản ra máy in.",
+        "Sai, Ctrl+S dùng để lưu tệp văn bản."
+      ]
+    },
+    {
+      "id": "th6_ch05_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Định dạng hướng trang",
+      "question": "Hai kiểu 'Hướng trang' (Page Orientation) cơ bản khi định dạng trang in trong Word là gì?",
+      "options": [
+        "Hướng nghiêng 45 độ và hướng thẳng đứng",
+        "Hướng sang trái và hướng sang phải",
+        "Hướng xoay tròn và hướng lật ngược",
+        "Hướng đứng (Portrait) và hướng nằm ngang (Landscape)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hướng trang văn bản (Bài 11, SGK Tin học 6, trang 51-53).",
+        "steps": "Word hỗ trợ hai kiểu hướng trang in: Portrait (trang đứng) và Landscape (trang nằm ngang).",
+        "trap": "Nhầm lẫn với các góc quay ảnh đồ họa."
+      },
+      "socraticPrompt": "Khi in bảng điểm rộng có nhiều cột, người ta thường lật ngang tờ giấy, kiểu trang nằm ngang tiếng Anh gọi là gì?",
+      "distractorReasons": [
+        "Sai, văn bản không in theo góc nghiêng 45 độ.",
+        "Sai, đây là các hướng căn lề, không phải hướng trang giấy.",
+        "Sai, không có hướng xoay tròn trong chuẩn in ấn.",
+        "Chính xác, Portrait (đứng) và Landscape (nằm ngang) là hai chuẩn hướng trang."
+      ]
+    },
+    {
+      "id": "th6_ch05_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thao tác gộp nhiều ô trong bảng",
+      "question": "Thao tác kết hợp nhiều ô liền kề trong bảng thành một ô duy nhất được gọi là thao tác gì?",
+      "options": [
+        "Tách ô (Split Cells)",
+        "Xóa bảng (Delete Table)",
+        "Gộp ô (Merge Cells)",
+        "Đổi màu chữ (Font Color)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thao tác gộp ô (Bài 12, SGK Tin học 6, trang 56).",
+        "steps": "Gộp nhiều ô thành một ô lớn gọi là Merge Cells (thường dùng khi làm ô tiêu đề bảng bao quát nhiều cột).",
+        "trap": "Nhầm lẫn giữa gộp ô (Merge Cells) và tách ô (Split Cells)."
+      },
+      "socraticPrompt": "Từ 'Merge' trong tiếng Anh có nghĩa là hòa nhập hoặc kết hợp lại thành một, vậy lệnh đó là gì?",
+      "distractorReasons": [
+        "Sai, Split Cells là chia 1 ô thành nhiều ô nhỏ.",
+        "Sai, Delete Table là xóa bỏ toàn bộ bảng.",
+        "Chính xác, Merge Cells là thao tác gộp các ô đã chọn thành một ô duy nhất.",
+        "Sai, Font Color là thay đổi màu sắc của ký tự chữ."
+      ]
+    }
+  ]
+}

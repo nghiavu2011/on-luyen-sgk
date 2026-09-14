@@ -1,32 +1,76 @@
-[
-  {
-    "id": "l10",
-    "title": "Bài 10: Sơ đồ tư duy và phần mềm vẽ sơ đồ tư duy",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 10: Sơ đồ tư duy và phần mềm vẽ sơ đồ tư duy.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 10: Sơ đồ tư duy và phần mềm vẽ sơ đồ tư duy.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 10: Sơ đồ tư duy và phần mềm vẽ sơ đồ tư duy.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l11",
-    "title": "Bài 11: Định dạng văn bản, chèn hình ảnh và tạo bảng biểu",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 11: Định dạng văn bản, chèn hình ảnh và tạo bảng biểu.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 11: Định dạng văn bản, chèn hình ảnh và tạo bảng biểu.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 11: Định dạng văn bản, chèn hình ảnh và tạo bảng biểu.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "chapterTitle": "Chủ đề 5: Ứng dụng Tin học (Soạn thảo văn bản & Sơ đồ tư duy)",
+  "lessons": [
+    {
+      "id": "l10",
+      "title": "Bài 10: Sơ đồ tư duy và phần mềm vẽ sơ đồ tư duy",
+      "order": 1,
+      "summary": "<p><strong>1. Sơ đồ tư duy (Mindmap) là gì?</strong></p>\n<ul>\n  <li>Sơ đồ tư duy là phương pháp ghi chép và trình bày thông tin trực quan, sáng tạo bằng cách kết hợp giữa <strong>từ khóa</strong>, <strong>hình ảnh</strong>, <strong>đường nối</strong> và <strong>màu sắc</strong>.</li>\n  <li><strong>Cấu trúc của sơ đồ tư duy:</strong>\n    <ul>\n      <li><strong>Chủ đề chính:</strong> Nằm ở trung tâm của sơ đồ tư duy (thường được thể hiện bằng hình ảnh nổi bật hoặc từ khóa lớn).</li>\n      <li><strong>Các nhánh chính:</strong> Nối từ chủ đề chính tỏa ra các hướng, đại diện cho các ý lớn, nội dung trọng tâm.</li>\n      <li><strong>Các nhánh phụ:</strong> Tỏa ra từ các nhánh chính để thể hiện các ý chi tiết cụ thể hơn.</li>\n    </ul>\n  </li>\n  <li><strong>Lợi ích của sơ đồ tư duy:</strong> Giúp bộ não ghi nhớ sâu hơn, dễ dàng liên kết các kiến thức, kích thích trí tưởng tượng và tư duy logic.</li>\n</ul>\n<p><strong>2. Phần mềm tạo sơ đồ tư duy:</strong></p>\n<ul>\n  <li>Có thể vẽ sơ đồ tư duy bằng tay trên giấy hoặc sử dụng các phần mềm máy tính chuyên dụng (như MindManager, XMind, GitMind, Coggle...).</li>\n  <li>Ưu điểm khi dùng phần mềm: Dễ chỉnh sửa, di chuyển, thêm nhánh mới, chèn hình ảnh minh họa sống động, chia sẻ qua mạng và lưu trữ lâu dài.</li>\n</ul>",
+      "keyPoints": [
+        "Sơ đồ tư duy kết hợp từ khóa, hình ảnh, đường nối và màu sắc để trình bày thông tin trực quan.",
+        "Cấu trúc gồm: Chủ đề chính ở trung tâm -> Nhánh chính (ý lớn) -> Nhánh phụ (ý chi tiết).",
+        "Phần mềm sơ đồ tư duy giúp tạo lập nhanh, chỉnh sửa linh hoạt và lưu trữ chia sẻ dễ dàng."
+      ],
+      "examples": [
+        {
+          "problem": "Hãy mô tả cách xây dựng một sơ đồ tư duy tóm tắt chủ đề 'Các thành phần của máy tính'.",
+          "solution": "Chủ đề chính ở trung tâm là hình vẽ chiếc máy tính và từ khóa 'MÁY TÍNH'. Từ trung tâm vẽ tỏa ra 4 nhánh chính: 'Thiết bị vào', 'Thiết bị ra', 'Bộ xử lý (CPU)', 'Bộ nhớ'. Từ nhánh chính 'Thiết bị vào' vẽ thêm các nhánh phụ: 'Bàn phím', 'Chuột', 'Máy quét'."
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "title": "Bài 11: Định dạng văn bản, chèn hình ảnh và tạo bảng biểu",
+      "order": 2,
+      "summary": "<p><strong>1. Định dạng văn bản trong phần mềm soạn thảo (MS Word):</strong></p>\n<ul>\n  <li><strong>Định dạng ký tự:</strong>\n    <ul>\n      <li>Phông chữ (Font): Time New Roman, Arial, Calibri...</li>\n      <li>Cỡ chữ (Size): 12 pt, 14 pt...</li>\n      <li>Kiểu chữ (Style): Đậm (Bold - <code>Ctrl+B</code>), Nghiêng (Italic - <code>Ctrl+I</code>), Gạch chân (Underline - <code>Ctrl+U</code>).</li>\n      <li>Màu chữ (Color).</li>\n    </ul>\n  </li>\n  <li><strong>Định dạng đoạn văn bản:</strong>\n    <ul>\n      <li>Căn lề: Căn trái (<code>Ctrl+L</code>), Căn phải (<code>Ctrl+R</code>), Căn giữa (<code>Ctrl+E</code>), Căn đều hai bên (<code>Ctrl+J</code>).</li>\n      <li>Khoảng cách dòng (Line Spacing) và khoảng cách giữa các đoạn (Paragraph Spacing).</li>\n      <li>Thụt đầu dòng đoạn văn bản (First Line Indent).</li>\n    </ul>\n  </li>\n  <li><strong>Định dạng trang văn bản:</strong> Hướng trang (Orientation: Portrait - trang đứng, Landscape - trang nằm ngang); Kích thước trang giấy (Size: chuẩn A4); Lề trang (Margins: trên, dưới, trái, phải).</li>\n</ul>\n<p><strong>2. Chèn hình ảnh minh họa:</strong> Chọn thẻ <code>Insert</code> $\to$ chọn lệnh <code>Pictures</code> $\to$ chọn ảnh từ máy tính $\to$ căn chỉnh kích thước và cách bố trí văn bản bao quanh ảnh (Wrap Text).</p>",
+      "keyPoints": [
+        "Định dạng ký tự: Phông, cỡ, kiểu chữ (Đậm Ctrl+B, Nghiêng Ctrl+I, Gạch chân Ctrl+U).",
+        "Định dạng đoạn: Căn lề (Trái Ctrl+L, Giữa Ctrl+E, Phải Ctrl+R, Đều 2 bên Ctrl+J), dãn dòng.",
+        "Định dạng trang: Hướng trang (Đứng - Portrait, Ngang - Landscape), khổ giấy A4, đặt lề trang.",
+        "Chèn ảnh minh họa qua thẻ Insert -> Pictures để văn bản thêm sinh động."
+      ],
+      "examples": [
+        {
+          "problem": "Khi soạn thảo một bài thơ lục bát, em nên chọn kiểu căn lề nào cho các dòng thơ và tiêu đề bài thơ để trang trí đẹp mắt?",
+          "solution": "Tiêu đề bài thơ thường được căn giữa trang (Ctrl+E) và in đậm (Ctrl+B). Các dòng thơ lục bát có thể căn lề giữa hoặc căn lề trái kết hợp thụt dòng đầu câu 6 chữ để tạo nhịp điệu thơ trang nhã."
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "title": "Bài 12: Trình bày thông tin ở dạng bảng",
+      "order": 3,
+      "summary": "<p><strong>1. Vai trò của bảng (Table):</strong></p>\n<ul>\n  <li>Bảng giúp trình bày thông tin có cấu trúc rõ ràng, cô đọng, dễ so sánh, đối chiếu và theo dõi (ví dụ: thời khóa biểu lớp học, bảng điểm học tập, danh sách phân công trực nhật).</li>\n  <li><strong>Cấu trúc bảng:</strong> Gồm các <strong>Hàng (Rows)</strong> nằm ngang và các <strong>Cột (Columns)</strong> thẳng đứng. Giao của một hàng và một cột được gọi là một <strong>Ô (Cell)</strong>.</li>\n</ul>\n<p><strong>2. Các thao tác cơ bản với bảng:</strong></p>\n<ul>\n  <li><strong>Tạo bảng:</strong> Chọn thẻ <code>Insert</code> $\to$ chọn lệnh <code>Table</code> $\to$ kéo thả số hàng và cột cần thiết (hoặc chọn <code>Insert Table...</code> để nhập số cột, số hàng).</li>\n  <li><strong>Chèn hoặc xóa hàng, cột:</strong> Nhấp chuột phải vào ô $\to$ chọn <code>Insert</code> (chèn thêm hàng trên/dưới, cột trái/phải) hoặc chọn <code>Delete</code> (xóa hàng/cột/ô).</li>\n  <li><strong>Gộp ô (Merge Cells):</strong> Chọn nhiều ô liền kề $\to$ nhấp chuột phải chọn <code>Merge Cells</code> (thường dùng để tạo tiêu đề nhóm cột).</li>\n  <li><strong>Tách ô (Split Cells):</strong> Tách 1 ô thành nhiều ô nhỏ theo số hàng và cột tùy chọn.</li>\n  <li><strong>Định dạng viền và màu nền bảng:</strong> Thẻ <code>Table Design</code> $\to$ chọn kiểu đường viền (Borders) và màu nền (Shading).</li>\n</ul>",
+      "keyPoints": [
+        "Bảng gồm các Hàng, Cột và Ô (giao giữa hàng và cột).",
+        "Thẻ Insert -> Table để chèn bảng mới.",
+        "Các thao tác cấu trúc: Chèn/Xóa hàng cột, Gộp ô (Merge Cells), Tách ô (Split Cells).",
+        "Bảng biểu giúp thông tin rõ ràng, cô đọng, dễ so sánh và tra cứu."
+      ],
+      "examples": [
+        {
+          "problem": "Để tạo Thời khóa biểu học tập gồm 5 buổi học (từ Thứ Hai đến Thứ Sáu) và mỗi buổi có tối đa 5 tiết học (kèm 1 cột ghi số thứ tự tiết), em cần tạo một bảng có bao nhiêu cột và bao nhiêu hàng?",
+          "solution": "Cần tạo bảng gồm: 6 cột (1 cột Tiết + 5 cột các Thứ từ thứ 2 đến thứ 6) và 6 hàng (1 hàng tiêu đề các thứ + 5 hàng ghi môn học của 5 tiết). Vậy bảng có kích thước 6 cột x 6 hàng."
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "title": "Bài 13 & 14: Tìm kiếm, thay thế và hoàn thiện văn bản sổ lưu niệm",
+      "order": 4,
+      "summary": "<p><strong>1. Công cụ Tìm kiếm và Thay thế (Find & Replace):</strong></p>\n<ul>\n  <li><strong>Công cụ Tìm kiếm (Find - <code>Ctrl+F</code>):</strong> Hỗ trợ tìm kiếm nhanh chóng và chính xác vị trí xuất hiện của một từ hoặc cụm từ bất kỳ trong toàn bộ tài liệu dài hàng trăm trang.</li>\n  <li><strong>Công cụ Thay thế (Replace - <code>Ctrl+H</code>):</strong> Tự động tìm và thay thế tất cả các từ hoặc cụm từ tìm thấy bằng một từ/cụm từ mới một cách đồng loạt (Replace All) hoặc từng vị trí (Replace), giúp tiết kiệm thời gian và tránh sai sót bỏ quên.</li>\n</ul>\n<p><strong>2. Thực hành tổng hợp hoàn thiện sản phẩm văn bản (Sổ lưu niệm):</strong></p>\n<ul>\n  <li>Quy trình hoàn thiện một ấn phẩm văn bản hoàn chỉnh:\n    <ul>\n      <li>Bước 1: Soạn thảo nội dung thô và chèn nội dung ký ức bạn bè.</li>\n      <li>Bước 2: Định dạng văn bản đồng bộ (tiêu đề, phông chữ, cỡ chữ, căn lề).</li>\n      <li>Bước 3: Chèn bảng biểu (thông tin liên lạc, danh sách thành viên) và hình ảnh kỷ niệm.</li>\n      <li>Bước 4: Sử dụng công cụ Replace để sửa các lỗi chính tả viết sai phổ biến.</li>\n      <li>Bước 5: Thiết kế trang bìa (Cover Page), đánh số trang và xem trước khi in ấn.</li>\n    </ul>\n  </li>\n</ul>",
+      "keyPoints": [
+        "Phím tắt tìm kiếm: Ctrl+F (Find); Phím tắt thay thế: Ctrl+H (Replace).",
+        "Công cụ Thay thế giúp sửa lỗi đồng loạt nhanh chóng và chuẩn xác tuyệt đối.",
+        "Quy trình hoàn thiện văn bản: Soạn thô -> Định dạng -> Chèn bảng/ảnh -> Soát lỗi bằng Find/Replace -> Trang bìa và In ấn."
+      ],
+      "examples": [
+        {
+          "problem": "Trong bài viết văn bản dài 10 trang, bạn An vô tình gõ nhầm từ 'Hà Nôi' (thiếu dấu nặng) lặp lại hơn 30 lần. Cách nhanh nhất để sửa tất cả các từ này thành 'Hà Nội' chuẩn xác là gì?",
+          "solution": "Nhấn tổ hợp phím Ctrl+H để mở hộp thoại Replace. Tại ô Find what gõ 'Hà Nôi', tại ô Replace with gõ 'Hà Nội'. Sau đó nhấn nút 'Replace All' (Thay thế tất cả). Toàn bộ 30 từ sai sẽ được tự động sửa đúng chỉ trong 1 giây."
+        }
+      ]
+    }
+  ]
+}

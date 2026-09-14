@@ -1,47 +1,59 @@
-[
-  {
-    "id": "l12",
-    "title": "Bài 12: Khái niệm thuật toán và các cách mô tả thuật toán",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 12: Khái niệm thuật toán và các cách mô tả thuật toán.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 12: Khái niệm thuật toán và các cách mô tả thuật toán.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 12: Khái niệm thuật toán và các cách mô tả thuật toán.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l13",
-    "title": "Bài 13: Các cấu trúc điều khiển cơ bản (Tuần tự, Rẽ nhánh, Lặp)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 13: Các cấu trúc điều khiển cơ bản (Tuần tự, Rẽ nhánh, Lặp).</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 13: Các cấu trúc điều khiển cơ bản (Tuần tự, Rẽ nhánh, Lặp).",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 13: Các cấu trúc điều khiển cơ bản (Tuần tự, Rẽ nhánh, Lặp).",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l14",
-    "title": "Bài 14: Lập trình trực quan với khối lệnh Scratch",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 14: Lập trình trực quan với khối lệnh Scratch.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 14: Lập trình trực quan với khối lệnh Scratch.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 14: Lập trình trực quan với khối lệnh Scratch.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "chapterTitle": "Chủ đề 6: Thuật toán & Lập trình trực quan Scratch",
+  "lessons": [
+    {
+      "id": "l15",
+      "title": "Bài 15: Khái niệm thuật toán và các cách mô tả thuật toán",
+      "order": 1,
+      "summary": "<p><strong>1. Thuật toán là gì?</strong></p>\n<ul>\n  <li>Thuật toán là một dãy các chỉ dẫn rõ ràng, có trình tự từng bước xác định để giải quyết một nhiệm vụ hoặc một bài toán cụ thể.</li>\n  <li>Khi thực hiện lần lượt các bước của thuật toán theo đúng thứ tự, từ <strong>Đầu vào (Input)</strong> ta sẽ nhận được <strong>Đầu ra (Output)</strong> mong muốn.</li>\n</ul>\n<p><strong>2. Hai cách mô tả thuật toán phổ biến:</strong></p>\n<ul>\n  <li><strong>Liệt kê các bước bằng ngôn ngữ tự nhiên:</strong> Dùng lời văn thông thường đánh số thứ tự từ bước 1, bước 2,... để chỉ dẫn hành động.</li>\n  <li><strong>Sử dụng sơ đồ khối (Flowchart):</strong> Dùng các hình khối quy ước và đường mũi tên để mô tả thuật toán một cách trực quan, dễ hiểu.</li>\n</ul>\n<p><strong>3. Các hình khối quy ước chuẩn trong sơ đồ khối:</strong></p>\n<ul>\n  <li><strong>Hình oval (elip):</strong> Điểm Bắt đầu (Start) hoặc Kết thúc (End) của thuật toán.</li>\n  <li><strong>Hình bình hành:</strong> Thao tác nhập Đầu vào (Input) hoặc xuất Đầu ra (Output).</li>\n  <li><strong>Hình chữ nhật:</strong> Bước xử lý, thực hiện phép tính hoặc hành động cụ thể.</li>\n  <li><strong>Hình thoi:</strong> Bước kiểm tra điều kiện rẽ nhánh (Đúng / Sai).</li>\n  <li><strong>Đường có mũi tên:</strong> Chỉ hướng thực hiện bước tiếp theo của thuật toán.</li>\n</ul>",
+      "keyPoints": [
+        "Thuật toán là dãy chỉ dẫn có thứ tự từng bước xác định để giải quyết một bài toán từ Input ra Output.",
+        "Hai cách mô tả: Liệt kê bằng ngôn ngữ tự nhiên và Dùng sơ đồ khối.",
+        "Quy ước sơ đồ khối: Oval (Bắt đầu/Kết thúc), Bình hành (Input/Output), Chữ nhật (Xử lý), Thoi (Điều kiện), Mũi tên (Hướng đi)."
+      ],
+      "examples": [
+        {
+          "problem": "Xác định Đầu vào (Input) và Đầu ra (Output) của thuật toán pha một ấm trà nóng.",
+          "solution": "Đầu vào (Input): Nước sôi, lá chè (trà khô), ấm chén pha trà. Đầu ra (Output): Một ấm trà nóng thơm ngát đã được hãm sẵn sàng để thưởng thức."
+        }
+      ]
+    },
+    {
+      "id": "l16",
+      "title": "Bài 16: Các cấu trúc điều khiển cơ bản (Tuần tự, Rẽ nhánh, Lặp)",
+      "order": 2,
+      "summary": "<p><strong>Ba cấu trúc điều khiển cơ bản đủ để mô tả mọi thuật toán trong đời sống và tin học:</strong></p>\n<ul>\n  <li><strong>1. Cấu trúc tuần tự (Sequence):</strong>\n    <ul>\n      <li>Các bước/lệnh được thực hiện lần lượt theo đúng thứ tự từ trên xuống dưới, bước trước xong mới đến bước sau, không nhảy cóc hay rẽ hướng.</li>\n      <li>Ví dụ: Thuật toán tính chu vi hình chữ nhật: Nhập chiều dài, chiều rộng $\to$ Tính nửa chu vi $\to$ Nhân đôi $\to$ In kết quả.</li>\n    </ul>\n  </li>\n  <li><strong>2. Cấu trúc rẽ nhánh (Selection / Branching):</strong>\n    <ul>\n      <li>Dùng khi một hành động chỉ được thực hiện tùy thuộc vào một điều kiện nào đó thỏa mãn hay không.</li>\n      <li><em>Dạng thiếu:</em> Nếu &lt;Điều kiện&gt; Đúng thì thực hiện &lt;Lệnh&gt;. (Ví dụ: Nếu trời mưa thì mang ô).</li>\n      <li><em>Dạng đủ:</em> Nếu &lt;Điều kiện&gt; Đúng thì thực hiện &lt;Lệnh 1&gt;, ngược lại (Sai) thì thực hiện &lt;Lệnh 2&gt;. (Ví dụ: Nếu điểm $\\ge 5$ thì Đạt, ngược lại thì Chưa đạt).</li>\n    </ul>\n  </li>\n  <li><strong>3. Cấu trúc lặp (Iteration / Loop):</strong>\n    <ul>\n      <li>Dùng để mô tả các thao tác được lặp đi lặp lại nhiều lần.</li>\n      <li>Trong cấu trúc lặp, luôn luôn phải có bước kiểm tra điều kiện dừng lặp để tránh việc thuật toán bị lặp vô tận.</li>\n      <li>Ví dụ: Rửa sạch từng chiếc bát cho đến khi hết chồng bát trong bồn; Chạy quanh sân trường đủ 3 vòng thì dừng lại.</li>\n    </ul>\n  </li>\n</ul>",
+      "keyPoints": [
+        "3 cấu trúc điều khiển cơ bản: Tuần tự, Rẽ nhánh và Lặp.",
+        "Tuần tự: Làm lần lượt từng bước từ trên xuống dưới.",
+        "Rẽ nhánh: Nếu <điều kiện> đúng thì làm việc này, ngược lại làm việc khác (dạng thiếu / dạng đủ).",
+        "Lặp: Làm đi làm lại một hành động cho đến khi thỏa mãn điều kiện dừng."
+      ],
+      "examples": [
+        {
+          "problem": "Câu nói: 'Mỗi buổi sáng, chuông đồng hồ báo thức reo liên tục cho đến khi em thức dậy bấm nút tắt' chứa cấu trúc điều khiển nào?",
+          "solution": "Câu này chứa Cấu trúc lặp (Loop). Hoạt động lặp lại là 'tiếng chuông reo', và điều kiện để dừng lặp là 'khi em bấm nút tắt chuông'."
+        }
+      ]
+    },
+    {
+      "id": "l17",
+      "title": "Bài 17: Chương trình máy tính và Lập trình trực quan Scratch",
+      "order": 3,
+      "summary": "<p><strong>1. Chương trình máy tính là gì?</strong></p>\n<ul>\n  <li>Chương trình máy tính là bản mô tả thuật toán được viết bằng một <strong>ngôn ngữ lập trình</strong> để máy tính có thể 'hiểu' và thực thi tự động.</li>\n  <li>Con người viết chương trình $\to$ Máy tính tiếp nhận và thực thi các lệnh trong chương trình $\to$ Xử lý dữ liệu đầu vào và trả lại kết quả đầu ra.</li>\n</ul>\n<p><strong>2. Môi trường lập trình trực quan Scratch:</strong></p>\n<ul>\n  <li>Scratch là môi trường học lập trình trực quan sinh động dành cho học sinh. Thay vì phải gõ những dòng lệnh văn bản khô khan, học sinh chỉ cần kéo thả và ghép các khối lệnh màu sắc lại với nhau (tương tự trò chơi xếp hình Lego).</li>\n  <li><strong>Các thành phần chính trên giao diện Scratch:</strong>\n    <ul>\n      <li><strong>Sân khấu (Stage):</strong> Nơi nhân vật biểu diễn hành động, hiển thị kết quả hoạt họa của chương trình.</li>\n      <li><strong>Nhân vật (Sprite):</strong> Diễn viên chính trong chương trình (mặc định là chú mèo Scratch).</li>\n      <li><strong>Khu vực khối lệnh (Blocks Palette):</strong> Chứa các khối lệnh được phân loại theo màu sắc và chức năng (Chuyển động - Motion, Hiển thị - Looks, Âm thanh - Sound, Sự kiện - Events, Điều khiển - Control, Cảm biến - Sensing, Phép toán - Operators, Biến số - Variables).</li>\n      <li><strong>Khu vực kịch bản (Script Area):</strong> Nơi kéo thả các khối lệnh ghép lại thành chương trình hoàn chỉnh.</li>\n    </ul>\n  </li>\n</ul>",
+      "keyPoints": [
+        "Chương trình máy tính là bản mô tả thuật toán bằng ngôn ngữ lập trình để máy tính thực hiện.",
+        "Scratch là ngôn ngữ lập trình trực quan dạng kéo thả khối lệnh khối màu.",
+        "Các nhóm lệnh chính trong Scratch: Sự kiện (bắt đầu bằng cờ xanh), Chuyển động, Điều khiển (vòng lặp, rẽ nhánh), Cảm biến, Phép toán.",
+        "Giao diện Scratch gồm: Sân khấu, Nhân vật (Sprite), Khu vực khối lệnh và Khu vực kịch bản."
+      ],
+      "examples": [
+        {
+          "problem": "Trong Scratch, khối lệnh 'Khi bấm vào lá cờ màu xanh' (When green flag clicked) có vai trò gì trong một chương trình?",
+          "solution": "Khối lệnh này thuộc nhóm 'Sự kiện' (Events), đóng vai trò là điểm kích hoạt bắt đầu (khởi động) toàn bộ kịch bản các khối lệnh gắn liền bên dưới nó khi người dùng nhấp vào lá cờ xanh trên sân khấu."
+        }
+      ]
+    }
+  ]
+}

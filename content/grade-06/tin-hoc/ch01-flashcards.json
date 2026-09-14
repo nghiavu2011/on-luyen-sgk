@@ -1,98 +1,102 @@
-[
-  {
-    "front": "Phân biệt Thông tin và Dữ liệu?",
-    "back": "Dữ liệu là các con số, văn bản, hình ảnh, âm thanh thu thập được; Thông tin là ý nghĩa được rút ra từ việc xử lí dữ liệu đó.",
-    "tags": [
-      "Tin 6",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Bốn bước cơ bản trong quá trình xử lí thông tin?",
-    "back": "Thu nhận thông tin $\\rightarrow$ Lưu trữ thông tin $\\rightarrow$ Xử lí thông tin $\\rightarrow$ Truyền (xuất) thông tin.",
-    "tags": [
-      "Xử lí",
-      "Quy trình"
-    ]
-  },
-  {
-    "front": "Bit là gì trong máy tính?",
-    "back": "Bit (Binary digit) là đơn vị đo lượng thông tin nhỏ nhất trong máy tính, chỉ nhận một trong hai giá trị 0 hoặc 1.",
-    "tags": [
-      "Bit",
-      "Đơn vị đo"
-    ]
-  },
-  {
-    "front": "$1\\text{ Byte}$ bằng bao nhiêu bit?",
-    "back": "$1\\text{ Byte} = 8\\text{ bit}$. Một byte có thể biểu diễn được một kí tự.",
-    "tags": [
-      "Byte",
-      "Quy đổi"
-    ]
-  },
-  {
-    "front": "Bảng quy đổi các đơn vị đo lượng thông tin theo lũy thừa của 2?",
-    "back": "$1\\text{ KB} = 1024\\text{ Bytes}$; $1\\text{ MB} = 1024\\text{ KB}$; $1\\text{ GB} = 1024\\text{ MB}$; $1\\text{ TB} = 1024\\text{ GB}$.",
-    "tags": [
-      "Đơn vị đo",
-      "Quy đổi"
-    ]
-  },
-  {
-    "front": "Bộ phận nào đóng vai trò 'bộ não' xử lí dữ liệu của máy tính?",
-    "back": "CPU (Central Processing Unit - Bộ vi xử lí trung tâm).",
-    "tags": [
-      "Phần cứng",
-      "CPU"
-    ]
-  },
-  {
-    "front": "Kể tên các thiết bị vào (Input devices) phổ biến?",
-    "back": "Bàn phím (keyboard), chuột (mouse), máy quét (scanner), micro, webcam.",
-    "tags": [
-      "Thiết bị vào",
-      "Phần cứng"
-    ]
-  },
-  {
-    "front": "Kể tên các thiết bị ra (Output devices) phổ biến?",
-    "back": "Màn hình (monitor), máy in (printer), loa (speaker), máy chiếu (projector).",
-    "tags": [
-      "Thiết bị ra",
-      "Phần cứng"
-    ]
-  },
-  {
-    "front": "Một thẻ nhớ dung lượng $16\\text{ GB}$ có thể chứa khoảng bao nhiêu bài hát $4\\text{ MB}$?",
-    "back": "$16\\text{ GB} = 16 \\times 1024 = 16384\\text{ MB} \\Rightarrow$ Chứa được khoảng $\\approx 4000$ bài hát.",
-    "tags": [
-      "Tính toán",
-      "Dung lượng"
-    ]
-  },
-  {
-    "front": "Tại sao máy tính chỉ hiểu và xử lí được dãy bit 0 và 1?",
-    "back": "Vì máy tính cấu tạo từ các mạch điện tử chỉ có hai trạng thái vật lí: có điện (1) hoặc ngắt điện (0).",
-    "tags": [
-      "Bản chất",
-      "Mạch điện"
-    ]
-  },
-  {
-    "front": "Thiết bị nào vừa là thiết bị vào vừa là thiết bị ra?",
-    "back": "Màn hình cảm ứng (touchscreen).",
-    "tags": [
-      "Màn hình cảm ứng",
-      "Thiết bị"
-    ]
-  },
-  {
-    "front": "Bộ nhớ trong của máy tính gồm những loại nào?",
-    "back": "RAM (bộ nhớ truy xuất ngẫu nhiên, mất dữ liệu khi mất điện) và ROM (bộ nhớ chỉ đọc, giữ nguyên dữ liệu).",
-    "tags": [
-      "RAM",
-      "ROM"
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Flashcards Chủ đề 1: Máy tính và cộng đồng",
+  "flashcards": [
+    {
+      "front": "Thông tin là gì?",
+      "back": "Là những hiểu biết của con người về thế giới xung quanh và về chính bản thân mình, giúp con người đưa ra quyết định đúng đắn.",
+      "tags": [
+        "Khái niệm",
+        "Bài 1"
+      ]
+    },
+    {
+      "front": "Dữ liệu là gì?",
+      "back": "Là các con số, văn bản, hình ảnh, âm thanh,... được thu nhận từ thế giới bên ngoài; là hình thức thể hiện của thông tin.",
+      "tags": [
+        "Khái niệm",
+        "Bài 1"
+      ]
+    },
+    {
+      "front": "Vật mang tin là gì?",
+      "back": "Là vật chứa đựng, lưu giữ dữ liệu (ví dụ: sách báo, biển báo giao thông, USB, đĩa cứng, tờ giấy...).",
+      "tags": [
+        "Khái niệm",
+        "Bài 1"
+      ]
+    },
+    {
+      "front": "Mối quan hệ giữa dữ liệu và thông tin?",
+      "back": "Dữ liệu mang lại thông tin cho người tiếp nhận. Sự hiểu biết có được phụ thuộc vào khả năng hiểu và tiếp nhận dữ liệu của người đó.",
+      "tags": [
+        "Mối quan hệ",
+        "Bài 1"
+      ]
+    },
+    {
+      "front": "Bốn hoạt động cơ bản trong quá trình xử lý thông tin ở con người?",
+      "back": "1. Thu nhận thông tin\n2. Lưu trữ thông tin\n3. Xử lý thông tin\n4. Truyền thông tin.",
+      "tags": [
+        "Quy trình",
+        "Bài 2"
+      ]
+    },
+    {
+      "front": "Bốn thành phần của máy tính tương ứng với 4 hoạt động xử lý thông tin?",
+      "back": "- Thiết bị vào (Thu nhận)\n- Bộ nhớ (Lưu trữ)\n- Bộ xử lý CPU (Xử lý)\n- Thiết bị ra (Truyền/hiển thị).",
+      "tags": [
+        "Phần cứng",
+        "Bài 2"
+      ]
+    },
+    {
+      "front": "Bit là gì?",
+      "back": "Là đơn vị đo nhỏ nhất trong lưu trữ thông tin của máy tính. Mỗi bit là một ký hiệu 0 hoặc 1.",
+      "tags": [
+        "Đơn vị đo",
+        "Bài 3"
+      ]
+    },
+    {
+      "front": "Dãy bit là gì?",
+      "back": "Là dãy các ký hiệu 0 và 1 dùng để biểu diễn mọi thông tin (văn bản, số, hình ảnh, âm thanh) trong máy tính.",
+      "tags": [
+        "Mã hoá",
+        "Bài 3"
+      ]
+    },
+    {
+      "front": "1 Byte (B) bằng bao nhiêu bit?",
+      "back": "1 Byte = 8 bit. Một byte có thể biểu diễn được một ký tự chữ cái tiếng Anh cơ bản.",
+      "tags": [
+        "Đơn vị đo",
+        "Bài 3"
+      ]
+    },
+    {
+      "front": "Bảng đơn vị đo thông tin kế tiếp của Byte?",
+      "back": "1 KB = 1024 B\n1 MB = 1024 KB\n1 GB = 1024 MB\n1 TB = 1024 GB (mỗi đơn vị kế tiếp gấp 1024 lần).",
+      "tags": [
+        "Đơn vị đo",
+        "Bài 3"
+      ]
+    },
+    {
+      "front": "1 Gigabyte (GB) xấp xỉ bằng bao nhiêu byte?",
+      "back": "Xấp xỉ 1 tỉ byte (1 000 000 000 byte).",
+      "tags": [
+        "Ước lượng",
+        "Bài 3"
+      ]
+    },
+    {
+      "front": "1 Megabyte (MB) xấp xỉ bằng bao nhiêu byte?",
+      "back": "Xấp xỉ 1 triệu byte (1 000 000 byte).",
+      "tags": [
+        "Ước lượng",
+        "Bài 3"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,164 @@
-[]
+{
+  "chapterId": "ch05",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế - Chủ đề 5: Ứng dụng Tin học (Soạn thảo văn bản & Sơ đồ tư duy)",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "th6_ch05_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chọn kiểu căn lề phù hợp",
+      "question": "Khi trình bày một văn bản hành chính dài như một bản nội quy lớp học hoặc một câu chuyện kể, kiểu căn lề nào sau đây giúp hai mép bên trái và bên phải của trang văn bản trông thẳng tắp, gọn gàng và trang trọng nhất?",
+      "options": [
+        "Căn lề trái (Align Left - Ctrl+L)",
+        "Căn giữa (Center - Ctrl+E)",
+        "Căn lề phải (Align Right - Ctrl+R)",
+        "Căn đều hai bên (Justify - Ctrl+J)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Căn lề đều hai bên Justify (Bài 11, SGK Tin học 6, trang 50).",
+        "steps": "Lệnh Justify (Ctrl+J) tự động điều chỉnh khoảng cách giữa các từ để cả mép trái và mép phải của đoạn văn đều thẳng hàng, tạo cảm giác chuyên nghiệp như sách in.",
+        "trap": "Mặc định dùng căn lề trái (Ctrl+L) khiến mép phải bị lởm chởm so le."
+      },
+      "socraticPrompt": "Kiểu căn lề nào trong các trang sách giáo khoa in khiến cả hai mép trang giấy đều thẳng đều tăm tắp?",
+      "distractorReasons": [
+        "Sai, căn lề trái làm mép bên phải bị nham nhở không đều.",
+        "Sai, căn giữa chỉ dùng cho tiêu đề chính bài học.",
+        "Sai, căn lề phải chỉ dùng cho dòng ký tên góc dưới.",
+        "Chính xác, căn đều hai bên (Justify) là chuẩn trình bày văn bản trang trọng."
+      ]
+    },
+    {
+      "id": "th6_ch05_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sự khác biệt giữa Replace và Replace All",
+      "question": "Trong hộp thoại 'Tìm kiếm và Thay thế' (Replace), sự khác nhau cơ bản giữa hai nút lệnh 'Replace' và 'Replace All' là gì?",
+      "options": [
+        "Nút 'Replace' thay thế từ đầu tiên tìm thấy rồi dừng lại để chờ xác nhận, còn 'Replace All' tự động thay thế tất cả mọi vị trí xuất hiện của từ đó trong toàn bộ tài liệu",
+        "Nút 'Replace' dùng để xóa bỏ đoạn văn, còn 'Replace All' dùng để vẽ thêm hình ảnh",
+        "Hai nút lệnh này có chức năng hoàn toàn giống hệt nhau không có bất kỳ điểm khác biệt nào",
+        "Nút 'Replace' chỉ hoạt động trên máy in, còn 'Replace All' chỉ hoạt động trên màn hình"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sử dụng công cụ thay thế (Bài 13, SGK Tin học 6, trang 60-61).",
+        "steps": "Replace: Thay thế từng từ đơn lẻ tại vị trí đang chọn. Replace All: Thay thế đồng loạt tất cả mọi từ trùng khớp trong toàn bộ tệp.",
+        "trap": "Nhầm tưởng hai nút lệnh này hoàn toàn giống nhau."
+      },
+      "socraticPrompt": "Nếu em muốn sửa tất cả 100 lỗi chính tả trong bài chỉ bằng 1 lần bấm chuột, em sẽ chọn nút nào?",
+      "distractorReasons": [
+        "Chính xác, phân biệt rõ cơ chế thay thế từng bước kiểm soát và thay thế tự động toàn bộ.",
+        "Sai, không nút nào dùng để vẽ hình ảnh.",
+        "Sai, chúng có phạm vi tác động khác nhau hoàn toàn.",
+        "Sai, cả hai nút đều là thao tác soạn thảo trên phần mềm Word."
+      ]
+    },
+    {
+      "id": "th6_ch05_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng sơ đồ tư duy trong học tập",
+      "question": "Khi học bài môn Lịch sử có nhiều mốc thời gian và sự kiện phức tạp, bạn Nga sử dụng sơ đồ tư duy để ôn tập. Ưu thế nổi bật nhất của sơ đồ tư duy so với cách ghi chép kín chữ truyền thống trong trường hợp này là gì?",
+      "options": [
+        "Tiết kiệm mực bút vì chỉ cần gạch vài nét là xong bài kiểm tra trên lớp",
+        "Tự động tăng điểm học kỳ lên mức tối đa mà không cần làm bài thi",
+        "Làm cho học sinh không cần phải suy nghĩ hay hiểu nội dung bài học",
+        "Thông tin được tổ chức cô đọng theo cấu trúc phân nhánh trực quan, kết hợp hình ảnh và màu sắc giúp não bộ ghi nhớ sâu và liên kết kiến thức dễ dàng hơn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lợi ích học tập của sơ đồ tư duy (Bài 10, SGK Tin học 6, trang 44).",
+        "steps": "Sơ đồ tư duy kích hoạt cả hai bán cầu não nhờ sự phối hợp giữa từ khóa logic và hình ảnh màu sắc trực quan, giúp việc tổng hợp và ghi nhớ bài học nhanh hơn nhiều lần.",
+        "trap": "Nghĩ vẽ sơ đồ tư duy chỉ để lười chép bài mà không cần hiểu kiến thức."
+      },
+      "socraticPrompt": "Tại sao một bức tranh sơ đồ có nhiều màu sắc và nhánh lại dễ nhớ hơn một trang vở toàn chữ màu đen đặc?",
+      "distractorReasons": [
+        "Sai, mục đích của sơ đồ tư duy là hiệu quả nhận thức chứ không phải tiết kiệm mực.",
+        "Sai, điểm số phụ thuộc vào năng lực làm bài kiểm tra thực tế.",
+        "Sai, vẽ sơ đồ tư duy đòi hỏi học sinh phải suy nghĩ chắt lọc từ khóa cốt lõi.",
+        "Chính xác, đây là giá trị sư phạm cốt lõi của sơ đồ tư duy đối với học sinh."
+      ]
+    },
+    {
+      "id": "th6_ch05_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chèn và căn chỉnh hình ảnh",
+      "question": "Sau khi chèn một bức ảnh vào trang văn bản Word, bạn Bình thấy bức ảnh bị cố định ở một vị trí và không thể kéo rê chuột di chuyển sang vị trí khác được. Để di chuyển bức ảnh linh hoạt trong văn bản, Bình cần chỉnh sửa thuộc tính nào?",
+      "options": [
+        "Thay đổi kiểu bố trí ngắt dòng bao quanh hình ảnh (Wrap Text chọn Square hoặc Tight)",
+        "Tăng cỡ chữ của tiêu đề bài viết lên 72 pt",
+        "Nhấn nút in văn bản ngay lập tức",
+        "Tắt nguồn máy tính rồi bật lại"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định dạng hình ảnh Wrap Text (Bài 11, SGK Tin học 6, trang 52).",
+        "steps": "Mặc định ảnh mới chèn ở chế độ 'In Line with Text' (như một ký tự chữ nên khó kéo tự do). Chuyển Wrap Text sang dạng 'Square' hoặc 'Tight' giúp ảnh di chuyển tự do giữa các dòng chữ.",
+        "trap": "Nghĩ rằng phần mềm bị đơ nên khởi động lại máy tính."
+      },
+      "socraticPrompt": "Thuộc tính nào trên thanh định dạng ảnh có biểu tượng chú chó và các dòng văn bản bao quanh?",
+      "distractorReasons": [
+        "Chính xác, thay đổi Wrap Text là thao tác kỹ thuật chuẩn để giải phóng vị trí ảnh trong Word.",
+        "Sai, tăng cỡ chữ không làm thay đổi thuộc tính cố định vị trí của ảnh.",
+        "Sai, in ra giấy không giải quyết được việc bố cục trên màn hình.",
+        "Sai, khởi động lại máy không thay đổi định dạng ngắt dòng của tệp."
+      ]
+    },
+    {
+      "id": "th6_ch05_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thiết kế bảng biểu chuẩn mực",
+      "question": "Để tiêu đề của một bảng biểu gồm 5 cột (ví dụ dòng chữ 'DANH SÁCH HỌC SINH KHỐI 6') nằm cân đối chính giữa toàn bộ bề rộng của bảng ở hàng thứ nhất, người dùng nên áp dụng thao tác nào?",
+      "options": [
+        "Chọn 5 ô ở hàng thứ nhất -> Nhấp chuột phải chọn 'Merge Cells' (Gộp ô) -> Chọn căn giữa (Ctrl+E)",
+        "Nhấn phím Spacebar thật nhiều lần để đẩy chữ sang bên phải",
+        "Xóa bỏ 4 cột còn lại để chỉ giữ lại đúng 1 cột duy nhất",
+        "Chuyển bảng biểu thành một tệp âm thanh MP3"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ứng dụng gộp ô tạo tiêu đề bảng (Bài 12, SGK Tin học 6, trang 56).",
+        "steps": "Gộp 5 ô hàng 1 thành 1 ô duy nhất bằng Merge Cells, sau đó căn lề giữa (Ctrl+E) là chuẩn kỹ năng soạn thảo bảng chuyên nghiệp.",
+        "trap": "Dùng phím Space để căn thủ công khiến tiêu đề bị xô lệch khi đổi phông chữ."
+      },
+      "socraticPrompt": "Làm thế nào để biến 5 ô nhỏ trên cùng thành một ô dài duy nhất trước khi căn chữ ra chính giữa?",
+      "distractorReasons": [
+        "Chính xác, đây là quy trình thao tác chuẩn xác và khoa học nhất trong Word.",
+        "Sai, dùng phím cách (Space) là thói quen xấu làm hỏng định dạng khi in.",
+        "Sai, xóa cột sẽ làm mất cấu trúc các hàng dữ liệu bên dưới.",
+        "Sai, bảng biểu là dữ liệu văn bản trực quan, không thể đổi thành âm thanh."
+      ]
+    },
+    {
+      "id": "th6_ch05_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quy trình thiết kế sản phẩm Sổ lưu niệm",
+      "question": "Khi thực hiện dự án hoàn thiện cuốn 'Sổ lưu niệm lớp 6', thứ tự thực hiện các công việc nào sau đây là HỢP LÝ VÀ CHUYÊN NGHIỆP NHẤT?",
+      "options": [
+        "In tài liệu ra giấy trước -> Sau đó mới gõ nội dung bài viết -> Cuối cùng vẽ trang bìa",
+        "Chỉ chèn các hình ảnh hoạt hình tải trên mạng vào tệp trắng không có chữ",
+        "Vẽ trang bìa xong là nộp bài luôn không cần soạn nội dung bên trong",
+        "Xây dựng bố cục và nhập nội dung thô -> Định dạng văn bản đồng bộ -> Chèn hình ảnh và bảng danh sách kỷ niệm -> Soát lỗi bằng công cụ Find/Replace -> Thiết kế trang bìa và in ấn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy trình hoàn thiện văn bản tổng hợp (Bài 14, SGK Tin học 6, trang 62-63).",
+        "steps": "Quy trình sản phẩm hoàn chỉnh: Lên dàn ý và gõ nội dung thô -> Định dạng chữ, đoạn, trang -> Trang trí ảnh và bảng -> Soát lỗi chính tả bằng Find/Replace -> Trang bìa và xuất bản in ấn.",
+        "trap": "Thực hiện lộn xộn in ấn trước khi soạn thảo."
+      },
+      "socraticPrompt": "Để xây dựng một ngôi nhà, em cần đổ móng dựng khung trước hay sơn tường trang trí trước?",
+      "distractorReasons": [
+        "Sai trình tự logic thực tế, không thể in giấy trắng trước khi gõ chữ.",
+        "Sai, thiếu nội dung thông tin bài viết và tình cảm học trò.",
+        "Sai, sản phẩm sổ lưu niệm cốt lõi ở nội dung kỷ niệm của cả tập thể.",
+        "Chính xác, quy trình chuẩn mực giúp sản phẩm đạt chất lượng cao và tiết kiệm thời gian."
+      ]
+    }
+  ]
+}

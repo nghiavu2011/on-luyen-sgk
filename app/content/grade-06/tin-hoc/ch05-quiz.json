@@ -1,1 +1,164 @@
-[]
+{
+  "chapterId": "ch05",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chủ đề 5: Ứng dụng Tin học (Soạn thảo văn bản & Sơ đồ tư duy)",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "th6_ch05_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá hiệu quả sử dụng phần mềm sơ đồ tư duy",
+      "question": "Một nhóm học sinh tranh luận: 'Nên vẽ sơ đồ tư duy trên giấy bằng bút màu hay vẽ bằng phần mềm trên máy tính?'. Kết luận nào sau đây thể hiện cái nhìn TOÀN DIỆN VÀ ĐÚNG ĐẮN NHẤT?",
+      "options": [
+        "Chỉ vẽ bằng tay mới có giá trị học tập, phần mềm máy tính hoàn toàn vô dụng",
+        "Vẽ sơ đồ tư duy bằng máy tính bắt buộc phải mua siêu máy tính đắt tiền mới vẽ được",
+        "Phần mềm máy tính có thể tự học thuộc bài thay cho học sinh khi đi thi",
+        "Vẽ bằng tay giúp rèn nét vẽ và phát huy cảm xúc trực tiếp, còn vẽ bằng phần mềm máy tính có ưu thế vượt trội khi cần chỉnh sửa linh hoạt, thêm bớt nhánh dễ dàng, chèn ảnh sắc nét, chia sẻ nhanh qua Internet và lưu trữ lâu dài mà không sợ rách hỏng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "So sánh sơ đồ tư duy thủ công và kỹ thuật số (Bài 10, SGK Tin học 6, trang 44-46).",
+        "steps": "Cả hai cách đều có giá trị. Phần mềm mang lại sức mạnh công nghệ vượt bậc về tính chỉnh sửa, cộng tác nhóm trực tuyến và lưu trữ bền vững.",
+        "trap": "Cực đoan phủ nhận vẽ tay hoặc phủ nhận phần mềm máy tính."
+      },
+      "socraticPrompt": "Khi vẽ trên giấy nếu muốn đổi vị trí một nhánh lớn thì phải vẽ lại từ đầu, còn trên phần mềm em chỉ cần làm gì?",
+      "distractorReasons": [
+        "Sai, đánh giá phiến diện phủ nhận sức mạnh công nghệ.",
+        "Sai, các phần mềm sơ đồ tư duy chạy mượt mà trên máy tính học đường bình thường.",
+        "Sai, phần mềm chỉ là công cụ hỗ trợ tư duy, học sinh phải tự học.",
+        "Chính xác, phản ánh đầy đủ ưu điểm đặc thù của cả hai phương thức theo đúng tinh thần giáo dục hiện đại."
+      ]
+    },
+    {
+      "id": "th6_ch05_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xử lý lỗi bẫy khi dùng công cụ Replace All",
+      "question": "Bạn Tuấn muốn dùng chức năng 'Replace All' để thay thế tất cả từ 'anh' thành từ 'em' trong một bức thư. Tuy nhiên, sau khi nhấn Replace All, Tuấn giật mình nhận thấy các từ như 'bức tranh', 'thành phố', 'hoàn thành' đã bị đổi thành 'bức trem', 'thềm phố', 'hoàn thềm'. Nguyên nhân của lỗi này và cách khắc phục đúng là gì?",
+      "options": [
+        "Do phần mềm Word bị nhiễm virus; phải cài lại toàn bộ máy tính",
+        "Do bàn phím của Tuấn bị kẹt phím Enter",
+        "Do màn hình máy tính hiển thị sai phông chữ tiếng Việt",
+        "Do Tuấn đã tìm cụm ký tự 'anh' mà không chọn tùy chọn 'Find whole words only' (Chỉ tìm từ nguyên vẹn), khiến máy tìm kiếm thay thế cả chuỗi ký tự 'anh' nằm ẩn bên trong các từ khác"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cơ chế bẫy tìm kiếm chuỗi con vs từ nguyên vẹn (Bài 13, SGK Tin học 6, trang 60).",
+        "steps": "Khi tìm chuỗi 'anh', nếu không tích chọn 'Find whole words only' thì máy tính sẽ thay thế cả phần 'anh' trong 'tranh' -> 'trem', 'thành' -> 'thềm'. Cần bật tùy chọn tìm từ độc lập nguyên vẹn.",
+        "trap": "Đổ lỗi cho virus hoặc bàn phím thay vì hiểu cơ chế so khớp chuỗi của thuật toán tìm kiếm."
+      },
+      "socraticPrompt": "Từ 'tranh' có chứa 3 chữ cái 'a-n-h' bên trong nó hay không?",
+      "distractorReasons": [
+        "Sai, đây là lỗi thao tác do không hiểu quy tắc so khớp chuỗi ký tự.",
+        "Sai, kẹt phím Enter không gây ra việc thay thế ký tự có chọn lọc như vậy.",
+        "Sai, phông chữ không tự ý hoán đổi ký tự văn bản.",
+        "Chính xác, giải thích thấu đáo bản chất thuật toán tìm kiếm chuỗi con và cách khắc phục chuyên nghiệp."
+      ]
+    },
+    {
+      "id": "th6_ch05_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giải quyết tình huống định dạng trang in phức tạp",
+      "question": "Một bài báo cáo môn Tin học gồm 10 trang. Trong đó trang số 5 là một Bảng thống kê rộng gồm 12 cột, nếu để hướng trang đứng (Portrait) thì các cột bị ép nhỏ chữ rất khó đọc. Em muốn duy nhất trang số 5 nằm ngang (Landscape) còn 9 trang khác vẫn giữ nguyên hướng đứng (Portrait). Thao tác kỹ thuật nâng cao nào trong Word đáp ứng được yêu cầu này?",
+      "options": [
+        "Tách tài liệu bằng các điểm ngắt phần (Section Break) trước và sau trang số 5, sau đó chọn hướng Landscape chỉ cho phần Section chứa trang 5",
+        "Cắt rời trang số 5 ra bằng kéo rồi dán ngang vào tập giấy sau khi in xong",
+        "Xóa bỏ 11 cột trong bảng để vừa với trang đứng",
+        "Không thể làm được vì Word bắt buộc mọi trang trong tệp phải cùng một chiều duy nhất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định dạng trang theo phân vùng Section Break (Bài 11 & 14, SGK Tin học 6, trang 51).",
+        "steps": "Sử dụng Section Break cho phép chia tài liệu thành nhiều vùng độc lập, nhờ đó trang bảng biểu có thể xoay ngang (Landscape) trong khi các trang văn bản khác vẫn giữ nguyên hướng đứng (Portrait).",
+        "trap": "Nghĩ rằng Word chỉ xoay được toàn bộ tài liệu cùng một hướng."
+      },
+      "socraticPrompt": "Để một căn phòng trong nhà có màu sơn khác các phòng khác, người ta dùng vách ngăn; vậy trong Word công cụ 'ngắt phân vùng' có tên là gì?",
+      "distractorReasons": [
+        "Chính xác, đây là kỹ năng định dạng trang nâng cao cực kỳ hữu ích trong thực tế.",
+        "Sai, phương pháp thủ công phá hỏng sự nguyên vẹn của văn bản điện tử.",
+        "Sai, làm mất dữ liệu thông tin cần trình bày.",
+        "Sai, Word hoàn toàn hỗ trợ định dạng hướng trang riêng biệt cho từng Section."
+      ]
+    },
+    {
+      "id": "th6_ch05_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích mối liên hệ giữa bảng biểu và cấu trúc cơ sở dữ liệu",
+      "question": "Khi thiết kế một bảng danh sách thông tin lớp học gồm các cột: [STT, Họ và tên, Ngày sinh, Giới tính, Điểm Tin học], mỗi 'Hàng' (Row) trong bảng đại diện cho đối tượng nào?",
+      "options": [
+        "Một thuộc tính chung của cả lớp học",
+        "Chiếc bảng đen treo trên tường lớp",
+        "Một môn học trong chương trình giáo dục",
+        "Toàn bộ thông tin hoàn chỉnh về một học sinh cụ thể"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bản chất dữ liệu bảng (Bài 12, SGK Tin học 6, trang 54-55).",
+        "steps": "Trong cấu trúc bảng dữ liệu, mỗi Cột biểu thị một trường thông tin (thuộc tính), còn mỗi Hàng (dòng) là một bản ghi đầy đủ về một đối tượng cụ thể (ở đây là một học sinh).",
+        "trap": "Nhầm lẫn ý nghĩa giữa Hàng (bản ghi đối tượng) và Cột (thuộc tính dữ liệu)."
+      },
+      "socraticPrompt": "Khi đọc ngang một hàng từ trái sang phải, em đọc được đầy đủ thông tin của mấy bạn học sinh?",
+      "distractorReasons": [
+        "Sai, thuộc tính chung được biểu thị bởi Cột (Column).",
+        "Sai, bảng đen là vật dụng phòng học, không liên quan đến cấu trúc dữ liệu.",
+        "Sai, bảng này chỉ quản lý danh sách học sinh chứ không phải danh mục môn học.",
+        "Chính xác, mỗi hàng là một bản ghi dữ liệu trọn vẹn của một cá nhân học sinh."
+      ]
+    },
+    {
+      "id": "th6_ch05_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tối ưu hóa sơ đồ tư duy cho bài thuyết trình",
+      "question": "Khi thiết kế một sơ đồ tư duy để thuyết trình trước lớp, điều nào sau đây là NÊN TRÁNH để sơ đồ không bị rối mắt và đạt hiệu quả truyền đạt cao nhất?",
+      "options": [
+        "Sử dụng từ khóa ngắn gọn, súc tích thay cho các câu văn dài dòng lê thê",
+        "Sử dụng các màu sắc khác nhau để phân biệt rõ từng nhánh lớn",
+        "Chép nguyên văn cả đoạn văn dài hàng chục dòng chữ nhỏ li ti vào bên trong một nhánh",
+        "Chèn thêm các biểu tượng hình ảnh minh họa ngộ nghĩnh, phù hợp với từ khóa"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nguyên tắc thiết kế sơ đồ tư duy hiệu quả (Bài 10, SGK Tin học 6, trang 45).",
+        "steps": "Sơ đồ tư duy chỉ sử dụng 'Từ khóa' (Keywords). Việc chép nguyên văn cả đoạn văn dài sẽ biến sơ đồ thành một mớ chữ hỗn độn, phá vỡ tính trực quan của sơ đồ.",
+        "trap": "Thói quen chép nguyên văn cả câu dài vào các nhánh sơ đồ."
+      },
+      "socraticPrompt": "Sơ đồ tư duy hoạt động dựa trên từ khóa hay dựa trên cả đoạn văn bản dài dòng?",
+      "distractorReasons": [
+        "Sai vì dùng từ khóa ngắn gọn là nguyên tắc ĐÚNG nên làm.",
+        "Sai vì dùng màu sắc phân biệt nhánh là nguyên tắc ĐÚNG.",
+        "Chính xác, chép đoạn văn dài là sai lầm phổ biến NÊN TRÁNH khi làm sơ đồ tư duy.",
+        "Sai vì chèn biểu tượng hình ảnh trực quan là điều ĐƯỢC KHUYẾN KHÍCH."
+      ]
+    },
+    {
+      "id": "th6_ch05_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá tính thẩm mỹ và chuẩn mực của văn bản",
+      "question": "Một bài văn bản dự thi viết về 'Thầy cô và mái trường' được ban giám khảo đánh giá cao về mặt kỹ thuật trình bày khi đáp ứng các tiêu chuẩn nào sau đây?",
+      "options": [
+        "Mỗi dòng dùng một phông chữ và một màu sắc khác nhau thật lòe loẹt",
+        "Không cách dòng và chèn chữ đè lên kín toàn bộ hình ảnh",
+        "Toàn bộ văn bản viết hoa không có dấu chấm câu",
+        "Sử dụng đồng nhất một phông chữ chuẩn (như Times New Roman hoặc Arial), cỡ chữ hài hòa, các đoạn văn được căn đều hai bên (Justify), hình ảnh minh họa sắc nét và được căn chỉnh bố cục gọn gàng cân đối"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tiêu chuẩn trình bày văn bản chuyên nghiệp (Bài 11 & 14, SGK Tin học 6, trang 50-63).",
+        "steps": "Một văn bản đẹp và chuẩn mực cần: Tính đồng nhất về phông chữ, phân cấp cỡ chữ rõ ràng, căn lề Justify ngay ngắn, bố cục hình ảnh hài hòa và không lạm dụng màu sắc sặc sỡ.",
+        "trap": "Nhầm tưởng dùng càng nhiều phông chữ và màu sắc sặc sỡ thì bài viết càng đẹp."
+      },
+      "socraticPrompt": "Một cuốn sách văn học được trình bày sạch đẹp, trang nhã trông như thế nào?",
+      "distractorReasons": [
+        "Sai, lạm dụng quá nhiều phông chữ và màu sắc gây rối mắt và thiếu nghiêm túc.",
+        "Sai, chữ đè lên ảnh làm mất nội dung cả hai đối tượng.",
+        "Sai, viết hoa toàn bộ không dấu câu gây khó đọc và vi phạm ngữ pháp tiếng Việt.",
+        "Chính xác, tiêu chuẩn vàng của kỹ thuật trình bày văn bản in ấn và học thuật."
+      ]
+    }
+  ]
+}

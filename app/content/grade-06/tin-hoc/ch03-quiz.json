@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch03_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi gửi email nộp bài tập cho thầy cô giáo, hành động nào sau đây thể hiện sự LỊCH SỰ và CHUYÊN NGHIỆP?",
-    "options": [
-      "A. Để trống phần Tiêu đề (Subject) và nội dung thư, chỉ gửi mỗi tệp đính kèm",
-      "B. Ghi tiêu đề rõ ràng (Ví dụ: 'Nộp bài tập Tin học 6 - Nguyễn Văn An - Lớp 6A'), có lời chào đầu thư, lời thưa gửi lễ phép và kí tên cuối thư",
-      "C. Viết toàn bộ nội dung thư bằng chữ in hoa IN ĐẬM",
-      "D. Dùng biệt danh khó hiểu và gửi thư lúc 2 giờ sáng"
-    ],
-    "answer": 1,
-    "explanation": "📌 Văn hóa số (Netiquette): Email học tập cần có tiêu đề rõ ràng giúp thầy cô phân loại bài, có lời chào kính trọng mở đầu và cảm ơn cuối thư.\n💡 Viết chữ in hoa toàn bộ được coi là hành vi 'gào thét' trên mạng.\n⚠️ Xây dựng kỹ năng giao tiếp số chuẩn mực."
-  }
-]
+{
+  "chapterId": "ch03",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "th6_ch03_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá độ tin cậy của thông tin trên Web",
+      "question": "Khi tìm kiếm tài liệu trên Internet để làm báo cáo khoa học, em thấy có hai bài viết đưa ra số liệu hoàn toàn trái ngược nhau về diện tích rừng ngập mặn Cần Giờ. Cách xử lý thông minh và khoa học nhất của em là gì?",
+      "options": [
+        "Chọn bài viết nào có nhiều hình ảnh sặc sỡ và nhiều lượt bình luận khen ngợi nhất trên mạng xã hội",
+        "Xem xét nguồn gốc bài viết: ưu tiên số liệu từ cổng thông tin điện tử của cơ quan Nhà nước, viện nghiên cứu khoa học hoặc tổ chức môi trường uy tín có dẫn chứng rõ ràng",
+        "Tự cộng hai số liệu lại rồi chia đôi lấy giá trị trung bình cộng",
+        "Chọn số liệu nào dễ nhớ và ngắn gọn nhất để viết vào bài báo cáo"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đánh giá độ tin cậy thông tin trên Internet (Bài 7, SGK Tin học 6, trang 30-31).",
+        "steps": "Thông tin trên Internet rất đa dạng và có nhiều nguồn chưa kiểm chứng. Người học thông minh phải đối chiếu nguồn gốc, kiểm tra xem bài viết có xuất phát từ cơ quan chuyên môn chính thống có thẩm quyền hay không.",
+        "trap": "Tin vào số lượt like/comment trên mạng xã hội hoặc tự tính trung bình bừa bãi."
+      },
+      "socraticPrompt": "Nguồn tin nào có giá trị pháp lý và khoa học cao nhất khi cần số liệu địa lý chuẩn xác của quốc gia?",
+      "distractorReasons": [
+        "Sai, lượt like hay ảnh đẹp trên mạng xã hội hoàn toàn có thể mua hoặc tạo ảo.",
+        "Chính xác, kiểm tra độ tin cậy từ các nguồn chính thống là năng lực thông tin cốt lõi của thế hệ số.",
+        "Sai, hai số liệu sai khác nhau về bản chất không thể đem cộng chia đôi.",
+        "Sai, thiếu nghiêm túc và vi phạm nguyên tắc trung thực khoa học."
+      ]
+    },
+    {
+      "id": "th6_ch03_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phòng tránh lừa đảo và mã độc qua thư điện tử",
+      "question": "Một ngày nọ, em nhận được một email từ địa chỉ lạ có tiêu đề: 'CHÚC MỪNG! BẠN ĐÃ TRÚNG THƯỞNG 500 TRIỆU ĐỒNG, BẤM VÀO LIÊN KẾT DƯỚI ĐÂY ĐỂ NHẬN QUÀ NGAY LẬP TỨC'. Em nên xử lý bức thư này như thế nào?",
+      "options": [
+        "Lập tức bấm vào liên kết và điền số thẻ căn cước, mật khẩu tài khoản của bố mẹ để lấy tiền thưởng",
+        "Chuyển tiếp (forward) bức thư cho tất cả các bạn trong lớp để cùng chia nhau phần thưởng",
+        "Tuyệt đối không nhấp vào liên kết lạ, không cung cấp thông tin cá nhân, đánh dấu thư là 'Thư rác' (Spam) hoặc xóa thư vĩnh viễn",
+        "Soạn thư trả lời và gửi hình ảnh nhà riêng của mình để người ta mang tiền đến tận nhà"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Cảnh giác thư rác và lừa đảo qua email (Bài 8, SGK Tin học 6, trang 34-37).",
+        "steps": "Đây là dấu hiệu kinh điển của thư rác lừa đảo (phishing) nhằm cài cắm mã độc hoặc chiếm đoạt thông tin tài chính cá nhân. Học sinh phải cảnh giác, không bấm link lạ và xóa bỏ thư ngay.",
+        "trap": "Tham lam phần thưởng ảo dẫn tới bị lừa đảo hoặc mất tài khoản."
+      },
+      "socraticPrompt": "Những lời mời trúng thưởng tiền tỷ từ người không quen biết trên mạng có thật sự đáng tin hay là bẫy lừa đảo?",
+      "distractorReasons": [
+        "Sai, hành vi cực kỳ nguy hiểm có thể khiến gia đình bị đánh cắp toàn bộ tiền trong tài khoản.",
+        "Sai, tiếp tay lan truyền thư rác và mối nguy hại cho bạn bè.",
+        "Chính xác, biện pháp xử lý chuẩn xác nhất để đảm bảo an toàn tuyệt đối cho thiết bị và gia đình.",
+        "Sai, tiết lộ địa chỉ nhà riêng cho kẻ xấu dẫn tới nguy cơ mất an toàn thực tế."
+      ]
+    },
+    {
+      "id": "th6_ch03_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích cấu trúc hệ thống WWW",
+      "question": "Một bạn học sinh thắc mắc: 'Khi em gõ một từ khóa vào máy tìm kiếm Google, có phải máy tính của em đang lục lọi trực tiếp vào từng ổ đĩa của tất cả máy tính trên toàn thế giới hay không?'. Lời giải thích nào sau đây là ĐÚNG BẢN CHẤT CÔNG NGHỆ?",
+      "options": [
+        "Đúng, Google gửi tín hiệu điện tử đi lục tung mọi thư mục riêng tư của mọi người đang mở máy",
+        "Không, máy tìm kiếm đã dùng các chương trình tự động thu thập và đánh chỉ mục (Index) sẵn hàng tỉ trang web công khai vào các máy chủ dữ liệu khổng lồ của họ từ trước; khi em tìm kiếm, nó chỉ tra cứu trong cơ sở dữ liệu đã lưu sẵn này",
+        "Đúng, nhưng chỉ lục lọi các máy tính đang kết nối Wi-Fi cùng một khu phố",
+        "Không, thực chất là có hàng vạn nhân viên ngồi trực nhật để trả lời thủ công từng câu hỏi của người dùng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nguyên lý hoạt động của máy tìm kiếm (Bài 7, SGK Tin học 6, trang 29-30).",
+        "steps": "Máy tìm kiếm sử dụng các 'bọ tìm kiếm' (web crawlers/spiders) tự động duyệt web liên tục để thu thập dữ liệu và lập chỉ mục (index). Khi người dùng tìm kiếm, thuật toán quét chỉ mục đó để trả về kết quả trong phần nghìn giây.",
+        "trap": "Tưởng tượng máy tìm kiếm xâm nhập trực tiếp vào máy tính cá nhân của người dùng."
+      },
+      "socraticPrompt": "Làm thế nào mà Google có thể trả về hàng triệu kết quả chỉ trong vòng 0,3 giây? Nó tìm trong ổ đĩa của em hay trong máy chủ của Google?",
+      "distractorReasons": [
+        "Sai, hoàn toàn hiểu sai về quyền riêng tư và kiến trúc mạng.",
+        "Chính xác, giải thích đúng nguyên lý thu thập và lập chỉ mục cơ sở dữ liệu của máy tìm kiếm.",
+        "Sai, phạm vi tìm kiếm không bị giới hạn cục bộ trong khu phố.",
+        "Sai, với hàng tỉ truy vấn mỗi giây, con người không thể trả lời thủ công."
+      ]
+    },
+    {
+      "id": "th6_ch03_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giải quyết bài toán gửi tài liệu dung lượng lớn",
+      "question": "Lớp trưởng muốn gửi qua thư điện tử cho cô giáo chủ nhiệm một tệp video quay buổi văn nghệ của lớp có dung lượng 3 GB. Tuy nhiên, hệ thống email báo lỗi vì dung lượng tệp đính kèm vượt quá giới hạn cho phép (thường là 25 MB). Giải pháp thông minh và hiệu quả nhất cho lớp trưởng là gì?",
+      "options": [
+        "Tải tệp video lên dịch vụ lưu trữ đám mây (như Google Drive, OneDrive) rồi gửi đường liên kết chia sẻ (link) vào thư điện tử cho cô giáo",
+        "Cắt vụn video thành hàng trăm đoạn nhỏ mỗi đoạn vài giây để gửi hàng trăm bức thư",
+        "Xóa bỏ video và nói dối với cô giáo là máy quay bị hỏng không ghi hình được",
+        "In toàn bộ các khung hình của video 3 GB ra hàng nghìn tờ giấy rồi gửi bưu điện"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Kết hợp email và lưu trữ đám mây (Bài 8, SGK Tin học 6, trang 34-36).",
+        "steps": "Hộp thư điện tử giới hạn tệp đính kèm trực tiếp (25 MB). Giải pháp chuẩn công nghệ là tải tệp lên dịch vụ lưu trữ đám mây rồi dán đường link chia sẻ quyền truy cập vào nội dung email.",
+        "trap": "Cố gắng đính kèm tệp dung lượng quá lớn vào email trực tiếp."
+      },
+      "socraticPrompt": "Khi một tệp quá nặng không thể đút vừa vào phong bì thư điện tử, người ta thường cất tệp đó ở 'đám mây' nào rồi gửi chìa khóa liên kết qua thư?",
+      "distractorReasons": [
+        "Chính xác, đây là cách xử lý hiện đại, tiện lợi và thông minh nhất được tích hợp sẵn trong các hệ thống email hiện nay.",
+        "Sai, việc cắt vụn tốn công và làm phiền cô giáo khi phải mở hàng trăm bức thư rời rạc.",
+        "Sai, hành vi thiếu trung thực và không hoàn thành nhiệm vụ được giao.",
+        "Sai, video là hình ảnh động kỹ thuật số, in ra giấy sẽ mất hết âm thanh và chuyển động đồng thời vô cùng tốn kém."
+      ]
+    },
+    {
+      "id": "th6_ch03_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích địa chỉ web URL",
+      "question": "Cho địa chỉ trang web: <code>https://moet.gov.vn/tintuc/Pages/default.aspx</code>. Thành phần <code>moet.gov.vn</code> trong địa chỉ trên đóng vai trò là gì?",
+      "options": [
+        "Tên của tệp video bài giảng",
+        "Tên miền (địa chỉ website) của Bộ Giáo dục và Đào tạo",
+        "Mật khẩu truy cập trang web",
+        "Tên của chiếc máy vi tính đang mở trình duyệt"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cấu trúc địa chỉ trang web URL (Bài 6, SGK Tin học 6, trang 24).",
+        "steps": "Địa chỉ URL gồm: giao thức (https://), tên miền website (moet.gov.vn), đường dẫn thư mục và tên tệp trang web chi tiết.",
+        "trap": "Nhầm tên miền với tên tệp hoặc mật khẩu."
+      },
+      "socraticPrompt": "Đoạn ký tự 'moet.gov.vn' giúp em nhận biết đây là cổng thông tin điện tử của cơ quan nào?",
+      "distractorReasons": [
+        "Sai, tệp video có đuôi định dạng như .mp4, .avi.",
+        "Chính xác, moet.gov.vn là tên miền chính thức của Bộ Giáo dục và Đào tạo Việt Nam.",
+        "Sai, URL là địa chỉ công khai, không phải mật khẩu bí mật.",
+        "Sai, tên miền đại diện cho máy chủ web, không phải máy tính cá nhân của người dùng."
+      ]
+    },
+    {
+      "id": "th6_ch03_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Văn hóa gửi thư điện tử chuyên nghiệp",
+      "question": "Khi gửi bài tập thuyết trình qua thư điện tử cho thầy giáo bộ môn Tin học, một bức thư thể hiện sự tôn trọng, lễ phép và chuẩn mực cần có đầy đủ những yếu tố nào?",
+      "options": [
+        "Chỉ đính kèm tệp bài tập và để trống hoàn toàn cả ô Chủ đề lẫn phần Nội dung thư",
+        "Có dòng Chủ đề ghi rõ [Lớp 6A - Nhóm 1 - Nộp bài tập Tin học]; phần nội dung có lời chào kính gửi thầy, lời giới thiệu ngắn gọn về bài nộp, lời chúc sức khỏe và ký tên người gửi",
+        "Dùng biệt danh trên mạng xã hội viết hoa toàn bộ bằng tiếng lóng không dấu",
+        "Gửi một bức thư trống không có tệp đính kèm rồi trách thầy không chịu tải bài về xem"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Văn hóa giao tiếp qua thư điện tử (Bài 8, SGK Tin học 6, trang 36-37).",
+        "steps": "Thư điện tử gửi thầy cô cần đảm bảo chuẩn mực: Tiêu đề rõ ràng, lời chào lễ phép, nội dung súc tích, tệp đính kèm đúng tên và chữ ký trang trọng.",
+        "trap": "Thói quen gửi thư trống không tiêu đề hoặc dùng ngôn ngữ thiếu chuẩn mực."
+      },
+      "socraticPrompt": "Khi viết thư gửi thầy cô giáo, em cần mở đầu bằng lời gì và kết thúc bằng điều gì để thể hiện sự kính trọng?",
+      "distractorReasons": [
+        "Sai, gửi thư không tiêu đề và không lời chào là thiếu tôn trọng người nhận.",
+        "Chính xác, đây là chuẩn mực giao tiếp số văn minh, lịch sự cần rèn luyện ngay từ cấp THCS.",
+        "Sai, tiếng lóng và viết hoa toàn bộ gây phản cảm và khó đọc.",
+        "Sai, thể hiện thái độ thiếu trách nhiệm và vô lễ."
+      ]
+    }
+  ]
+}

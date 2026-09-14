@@ -1,16 +1,164 @@
-[
-  {
-    "id": "th6_ch01_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Một tệp video bài giảng có dung lượng $2\\text{ GB}$. Nếu đổi ra đơn vị Megabyte (MB), dung lượng tệp đó xấp xỉ bằng bao nhiêu?",
-    "options": [
-      "A. $200\\text{ MB}$",
-      "B. $2048\\text{ MB}$",
-      "C. $1024\\text{ MB}$",
-      "D. $20000\\text{ MB}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy đổi đơn vị: $1\\text{ GB} = 1024\\text{ MB} \\Rightarrow 2\\text{ GB} = 2 \\times 1024 = 2048\\text{ MB}$.\n💡 Hệ số chuyển đổi giữa các bậc tiền tố nhị phân là 1024 ($2^{10}$).\n⚠️ Bẫy sai: Nhân với 1000 theo hệ thập phân thông thường."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế - Chủ đề 1: Máy tính và cộng đồng",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "th6_ch01_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt thông tin và dữ liệu",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng bản chất của 'Dữ liệu' chứ không phải 'Thông tin'?",
+      "options": [
+        "Dòng chữ số '39,5' ghi trên màn hình nhiệt kế điện tử đo trán",
+        "Sự nhận biết của người mẹ rằng em bé đang bị sốt cao cần uống thuốc",
+        "Ý thức của học sinh rằng hôm nay thời tiết rét đậm cần mặc thêm áo ấm",
+        "Hiểu biết của tài xế rằng đoạn đường phía trước đang xảy ra ùn tắc giao thông"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phân biệt thông tin và dữ liệu (Bài 1, SGK Tin học 6, trang 6-7).",
+        "steps": "Số '39,5' trên màn hình là dữ liệu con số được thiết bị thu nhận ghi lại; sự hiểu biết rằng con bị sốt là thông tin được rút ra từ dữ liệu đó.",
+        "trap": "Xem con số nhiệt độ là thông tin mà quên rằng con số là dạng thể hiện của dữ liệu."
+      },
+      "socraticPrompt": "Yếu tố nào chỉ là ký tự, con số hiển thị bên ngoài mà chưa qua bộ não phân tích ý nghĩa?",
+      "distractorReasons": [
+        "Chính xác, con số '39,5' được đo hiển thị là dữ liệu vật lý.",
+        "Sai, sự nhận biết và kết luận con bị sốt là thông tin có được sau khi đọc dữ liệu.",
+        "Sai, ý thức và hiểu biết của học sinh là thông tin.",
+        "Sai, hiểu biết về tình trạng kẹt xe là thông tin giúp tài xế điều hướng."
+      ]
+    },
+    {
+      "id": "th6_ch01_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân loại thiết bị theo 4 hoạt động xử lý",
+      "question": "Nhóm thiết bị nào sau đây thuộc cùng một nhóm chức năng 'Thiết bị vào' (thu nhận thông tin) của máy tính?",
+      "options": [
+        "Màn hình LCD, loa máy tính, máy in phun",
+        "Bàn phím, chuột quang, máy quét (scanner), micro",
+        "Ổ đĩa cứng SSD, thẻ nhớ SD, đĩa DVD",
+        "Bộ vi xử lý Intel Core i5, chip đồ họa GPU"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Thiết bị vào (Bài 2, SGK Tin học 6, trang 11).",
+        "steps": "Bàn phím, chuột, máy quét, micro đều có chức năng đưa dữ liệu từ bên ngoài vào máy tính.",
+        "trap": "Nhầm lẫn giữa thiết bị vào (thu nhận) và thiết bị ra (truyền thông tin)."
+      },
+      "socraticPrompt": "Để nhập một đoạn văn, ghi âm giọng hát hoặc vẽ tranh vào máy tính, em sử dụng những thiết bị nào?",
+      "distractorReasons": [
+        "Sai, đây là các thiết bị ra (truyền/chia sẻ thông tin ra môi trường ngoài).",
+        "Chính xác, tất cả các thiết bị này đều dùng để nhập dữ liệu vào máy tính.",
+        "Sai, đây là các thiết bị lưu trữ (bộ nhớ ngoài).",
+        "Sai, đây là các bộ vi xử lý thực thi chương trình."
+      ]
+    },
+    {
+      "id": "th6_ch01_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ước lượng dung lượng lưu trữ",
+      "question": "Một tệp văn bản bài tập Word có dung lượng khoảng 50 KB. Một chiếc USB 16 GB có thể chứa được xấp xỉ bao nhiêu tệp bài tập tương tự như vậy (lấy xấp xỉ 1 GB = 1 000 000 KB)?",
+      "options": [
+        "Khoảng 3 200 tệp",
+        "Khoảng 32 000 tệp",
+        "Khoảng 320 000 tệp",
+        "Khoảng 3 200 000 tệp"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ước lượng dung lượng thông tin (Bài 3, SGK Tin học 6, trang 16).",
+        "steps": "16 GB xấp xỉ 16 000 000 KB. Lấy 16 000 000 / 50 = 320 000 tệp.",
+        "trap": "Nhầm lẫn khi đổi lũy thừa giữa các đơn vị GB -> MB -> KB."
+      },
+      "socraticPrompt": "1 GB bằng khoảng bao nhiêu KB? Hãy nhân dung lượng 16 GB rồi chia cho 50 KB.",
+      "distractorReasons": [
+        "Sai, thiếu hai chữ số 0 do nhầm tỉ lệ đổi đơn vị.",
+        "Sai, tính nhầm 16 GB chỉ bằng 1.6 triệu KB.",
+        "Chính xác, 16 000 000 KB / 50 KB = 320 000 tệp văn bản.",
+        "Sai, tính dư một chữ số 0."
+      ]
+    },
+    {
+      "id": "th6_ch01_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Mã hoá thông tin trong máy tính",
+      "question": "Vì sao máy tính điện tử lại sử dụng các dãy bit (chỉ gồm 0 và 1) để biểu diễn và lưu trữ mọi loại thông tin?",
+      "options": [
+        "Vì các linh kiện mạch điện tử trong máy tính chỉ có hai trạng thái vật lý ổn định (đóng/mở mạch, có điện/không có điện)",
+        "Vì con người không thể sáng tạo ra các chữ số lớn hơn số 1 khi chế tạo máy tính",
+        "Vì các màn hình máy tính chỉ hiển thị được hai màu sắc duy nhất là trắng và đen",
+        "Vì máy tính không thể ghi nhớ được bất kỳ ký tự chữ cái nào ngoài chữ cái A và B"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nguyên lý mã hóa dãy bit (Bài 3, SGK Tin học 6, trang 13-14).",
+        "steps": "Máy tính cấu tạo từ các mạch bán dẫn và linh kiện điện tử chỉ có hai trạng thái vật lý ổn định: có dòng điện (1) hoặc ngắt dòng điện (0).",
+        "trap": "Nghĩ rằng bit 0 và 1 là do giới hạn số học chứ không phải do đặc tính kỹ thuật vật lý mạch điện tử."
+      },
+      "socraticPrompt": "Một công tắc điện trong nhà em thường có mấy trạng thái hoạt động cơ bản?",
+      "distractorReasons": [
+        "Chính xác, mạch điện tử máy tính hoạt động dựa trên 2 trạng thái bật/tắt (on/off) tương ứng với bit 1 và 0.",
+        "Sai, hệ thống chữ số của loài người có đầy đủ các số thập phân từ lâu đời.",
+        "Sai, màn hình máy tính hiện đại hiển thị hàng triệu màu sắc khác nhau.",
+        "Sai, máy tính biểu diễn được hàng trăm nghìn ký tự của mọi ngôn ngữ qua bảng mã Unicode."
+      ]
+    },
+    {
+      "id": "th6_ch01_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Dung lượng 1 GB xấp xỉ bao nhiêu byte",
+      "question": "Theo bài tập Luyện tập trang 16 SGK Tin học 6, một Gigabyte (1 GB) xấp xỉ bằng bao nhiêu Byte?",
+      "options": [
+        "Một nghìn byte",
+        "Một triệu byte",
+        "Một nghìn tỉ byte",
+        "Một tỉ byte"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bảng đơn vị đo dung lượng thông tin (Bài 3, SGK Tin học 6, trang 15-16).",
+        "steps": "1 KB ~ 1 000 Byte (nghìn); 1 MB ~ 1 000 000 Byte (triệu); 1 GB ~ 1 000 000 000 Byte (tỉ); 1 TB ~ 1 000 000 000 000 Byte (nghìn tỉ).",
+        "trap": "Dễ nhầm lẫn giữa một triệu (MB) và một tỉ (GB)."
+      },
+      "socraticPrompt": "Giga là tiền tố đại diện cho $10^9$, con số này tương ứng với từ chỉ số lượng nào trong tiếng Việt?",
+      "distractorReasons": [
+        "Sai, một nghìn byte là Kilobyte (KB).",
+        "Sai, một triệu byte là Megabyte (MB).",
+        "Sai, một nghìn tỉ byte là Terabyte (TB).",
+        "Chính xác, 1 GB xấp xỉ 1 tỉ byte theo câu hỏi Luyện tập 1 SGK Tin học 6 trang 16."
+      ]
+    },
+    {
+      "id": "th6_ch01_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xử lý thông tin trong đời sống thực tế",
+      "question": "Khi trọng tài bóng đá quan sát cầu thủ phạm lỗi, thổi còi và rút thẻ phạt, hoạt động 'rút thẻ phạt và thổi còi' tương ứng với hoạt động nào trong quá trình xử lý thông tin?",
+      "options": [
+        "Truyền thông tin",
+        "Thu nhận thông tin",
+        "Lưu trữ thông tin",
+        "Mã hoá nhị phân"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hoạt động truyền thông tin (Bài 2, SGK Tin học 6, trang 9-10).",
+        "steps": "Mắt trọng tài nhìn thấy va chạm (thu nhận) -> Não nhận diện lỗi phạm luật (xử lý) -> Não điều khiển tay rút thẻ, miệng thổi còi để thông báo cho cầu thủ và khán giả (truyền thông tin).",
+        "trap": "Nghĩ rằng thổi còi là xử lý thông tin, nhưng thực chất đó là hành động phát tín hiệu ra ngoài."
+      },
+      "socraticPrompt": "Tiếng còi và chiếc thẻ được giơ lên nhằm mục đích thông báo quyết định của trọng tài cho ai?",
+      "distractorReasons": [
+        "Chính xác, đây là hành động truyền đạt quyết định sau khi xử lý đến mọi người xung quanh.",
+        "Sai, thu nhận thông tin là lúc mắt trọng tài quan sát tình huống va chạm.",
+        "Sai, lưu trữ thông tin là việc não ghi nhớ pha bóng vừa xảy ra.",
+        "Sai, con người không xử lý bằng mã hoá nhị phân như máy tính bán dẫn."
+      ]
+    }
+  ]
+}

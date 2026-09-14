@@ -1,98 +1,102 @@
-[
-  {
-    "front": "Thuật toán (Algorithm) là gì?",
-    "back": "Là dãy hữu hạn các chỉ dẫn rõ ràng, được sắp xếp theo một trình tự xác định để giải quyết một bài toán hay công việc cụ thể.",
-    "tags": [
-      "Thuật toán",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Hai cách mô tả thuật toán thông dụng?",
-    "back": "1. Liệt kê từng bước bằng ngôn ngữ tự nhiên; 2. Biểu diễn bằng Sơ đồ khối (Flowchart).",
-    "tags": [
-      "Mô tả",
-      "Cách thức"
-    ]
-  },
-  {
-    "front": "Các hình quy ước trong sơ đồ khối thuật toán?",
-    "back": "Hình oval/elip: Bắt đầu / Kết thúc; Hình chữ nhật: Thao tác xử lí; Hình thoi: Điều kiện rẽ nhánh (Đúng/Sai); Hình bình hành: Nhập / Xuất dữ liệu.",
-    "tags": [
-      "Sơ đồ khối",
-      "Quy ước"
-    ]
-  },
-  {
-    "front": "Ba cấu trúc điều khiển cơ bản của mọi thuật toán?",
-    "back": "1. Cấu trúc tuần tự; 2. Cấu trúc rẽ nhánh (Nếu... thì...); 3. Cấu trúc lặp (Lặp lại $n$ lần, lặp cho đến khi...).",
-    "tags": [
-      "Cấu trúc",
-      "Điều khiển"
-    ]
-  },
-  {
-    "front": "Môi trường lập trình Scratch là gì?",
-    "back": "Là ngôn ngữ lập trình trực quan bằng cách kéo thả và ghép các khối lệnh đầy màu sắc (dành cho lứa tuổi học sinh).",
-    "tags": [
-      "Scratch",
-      "Trực quan"
-    ]
-  },
-  {
-    "front": "Nhân vật (Sprite) mặc định khi mở Scratch là gì?",
-    "back": "Chú mèo Scratch màu vàng cam.",
-    "tags": [
-      "Sprite",
-      "Mèo Scratch"
-    ]
-  },
-  {
-    "front": "Khối lệnh màu xanh lam (Motion) trong Scratch có chức năng gì?",
-    "back": "Điều khiển chuyển động của nhân vật (đi tới, xoay góc, lướt tới vị trí...).",
-    "tags": [
-      "Motion",
-      "Chuyển động"
-    ]
-  },
-  {
-    "front": "Khối lệnh màu vàng (Events) dùng để làm gì?",
-    "back": "Kích hoạt chương trình chạy (ví dụ: 'Khi bấm vào lá cờ xanh', 'Khi phím cách được bấm').",
-    "tags": [
-      "Events",
-      "Sự kiện"
-    ]
-  },
-  {
-    "front": "Khối lệnh màu cam (Control) gồm những lệnh nào tiêu biểu?",
-    "back": "Lệnh chờ (wait 1 sec), vòng lặp (repeat 10, forever), lệnh điều kiện (if... then, if... then... else).",
-    "tags": [
-      "Control",
-      "Vòng lặp"
-    ]
-  },
-  {
-    "front": "Toạ độ vị trí của nhân vật trên sân khấu Scratch được xác định bởi cặp giá trị nào?",
-    "back": "Cặp toạ độ $(X, Y)$. Tâm sân khấu là $(0, 0)$. Chiều ngang $X$ từ $-240$ đến $240$; chiều dọc $Y$ từ $-180$ đến $180$.",
-    "tags": [
-      "Toạ độ",
-      "Sân khấu"
-    ]
-  },
-  {
-    "front": "Lệnh 'forever' (lặp vô tận) trong Scratch dùng trong trường hợp nào?",
-    "back": "Dùng cho các hành động lặp đi lặp lại liên tục không ngừng (như nhạc nền game, nhân vật liên tục kiểm tra va chạm).",
-    "tags": [
-      "Forever",
-      "Vòng lặp"
-    ]
-  },
-  {
-    "front": "Ý nghĩa của việc học lập trình đối với học sinh lớp 6?",
-    "back": "Rèn luyện tư duy logic, tính kiên nhẫn, khả năng giải quyết vấn đề sáng tạo và biến ý tưởng thành sản phẩm công nghệ thực tế.",
-    "tags": [
-      "Tư duy lập trình",
-      "Ý nghĩa"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Flashcards Chủ đề 6: Thuật toán & Lập trình trực quan Scratch",
+  "flashcards": [
+    {
+      "front": "Thuật toán là gì?",
+      "back": "Là dãy các chỉ dẫn rõ ràng, có trình tự từng bước xác định để giải quyết một bài toán, từ Đầu vào (Input) tạo ra Đầu ra (Output).",
+      "tags": [
+        "Khái niệm",
+        "Bài 15"
+      ]
+    },
+    {
+      "front": "Hai cách mô tả thuật toán phổ biến?",
+      "back": "1. Liệt kê các bước bằng ngôn ngữ tự nhiên\n2. Sử dụng sơ đồ khối (Flowchart).",
+      "tags": [
+        "Mô tả",
+        "Bài 15"
+      ]
+    },
+    {
+      "front": "Quy ước các hình khối trong sơ đồ khối?",
+      "back": "- Hình oval: Bắt đầu / Kết thúc\n- Hình bình hành: Đầu vào / Đầu ra\n- Hình chữ nhật: Bước xử lý\n- Hình thoi: Điều kiện\n- Mũi tên: Hướng đi.",
+      "tags": [
+        "Quy ước",
+        "Bài 15"
+      ]
+    },
+    {
+      "front": "3 cấu trúc điều khiển cơ bản của thuật toán?",
+      "back": "1. Cấu trúc tuần tự (Sequence)\n2. Cấu trúc rẽ nhánh (Selection)\n3. Cấu trúc lặp (Iteration/Loop).",
+      "tags": [
+        "Cấu trúc",
+        "Bài 16"
+      ]
+    },
+    {
+      "front": "Cấu trúc tuần tự là gì?",
+      "back": "Là các bước được thực hiện lần lượt theo đúng thứ tự từ trên xuống dưới, không rẽ nhánh hay lặp lại.",
+      "tags": [
+        "Cấu trúc",
+        "Bài 16"
+      ]
+    },
+    {
+      "front": "Cấu trúc rẽ nhánh dạng thiếu và dạng đủ khác nhau thế nào?",
+      "back": "- Dạng thiếu: Nếu <ĐK đúng> thì làm lệnh A.\n- Dạng đủ: Nếu <ĐK đúng> thì làm lệnh A, ngược lại (ĐK sai) thì làm lệnh B.",
+      "tags": [
+        "Cấu trúc",
+        "Bài 16"
+      ]
+    },
+    {
+      "front": "Cấu trúc lặp là gì? Yếu tố bắt buộc trong cấu trúc lặp?",
+      "back": "Là các bước được thực hiện lặp đi lặp lại nhiều lần. Yếu tố bắt buộc là phải có điều kiện dừng lặp để tránh lặp vô tận.",
+      "tags": [
+        "Cấu trúc",
+        "Bài 16"
+      ]
+    },
+    {
+      "front": "Chương trình máy tính là gì?",
+      "back": "Là bản mô tả thuật toán được viết bằng ngôn ngữ lập trình để máy tính có thể hiểu và thực thi tự động.",
+      "tags": [
+        "Khái niệm",
+        "Bài 17"
+      ]
+    },
+    {
+      "front": "Scratch là gì?",
+      "back": "Là môi trường học lập trình trực quan, người dùng lập trình bằng cách kéo thả và ghép các khối lệnh màu sắc sinh động.",
+      "tags": [
+        "Phần mềm",
+        "Bài 17"
+      ]
+    },
+    {
+      "front": "4 khu vực chính trên giao diện Scratch?",
+      "back": "1. Sân khấu (Stage)\n2. Nhân vật (Sprite)\n3. Khu vực khối lệnh (Blocks Palette)\n4. Khu vực kịch bản (Script Area).",
+      "tags": [
+        "Giao diện",
+        "Bài 17"
+      ]
+    },
+    {
+      "front": "Lỗi vòng lặp vô tận (Infinite Loop) xảy ra khi nào?",
+      "back": "Khi điều kiện dừng của vòng lặp không bao giờ được thỏa mãn (luôn đúng), khiến chương trình chạy mãi không dừng.",
+      "tags": [
+        "Lỗi lập trình",
+        "Bài 16"
+      ]
+    },
+    {
+      "front": "Tại sao nói 3 cấu trúc điều khiển đủ mô tả mọi thuật toán?",
+      "back": "Vì bất kỳ nhiệm vụ xử lý phức tạp nào trong đời sống hay tin học đều có thể phân rã thành sự kết hợp của tuần tự, rẽ nhánh và lặp.",
+      "tags": [
+        "Nguyên lý",
+        "Bài 16"
+      ]
+    }
+  ]
+}

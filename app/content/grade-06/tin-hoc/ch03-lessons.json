@@ -1,32 +1,60 @@
-[
-  {
-    "id": "l06",
-    "title": "Bài 6: Sắp xếp thông tin trong máy tính (Tệp và Thư mục)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 6: Sắp xếp thông tin trong máy tính (Tệp và Thư mục).</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 6: Sắp xếp thông tin trong máy tính (Tệp và Thư mục).",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 6: Sắp xếp thông tin trong máy tính (Tệp và Thư mục).",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Tìm kiếm thông tin trên Internet & Sử dụng Thư điện tử (Email)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 7: Tìm kiếm thông tin trên Internet & Sử dụng Thư điện tử (Email).</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 7: Tìm kiếm thông tin trên Internet & Sử dụng Thư điện tử (Email).",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 7: Tìm kiếm thông tin trên Internet & Sử dụng Thư điện tử (Email).",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "chapterTitle": "Chủ đề 3: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "lessons": [
+    {
+      "id": "l06",
+      "title": "Bài 6: Mạng thông tin toàn cầu (World Wide Web)",
+      "order": 1,
+      "summary": "<p><strong>1. Khái niệm World Wide Web (WWW / Web):</strong></p>\n<ul>\n  <li>Mạng thông tin toàn cầu (World Wide Web, viết tắt là WWW hay Web) là một hệ thống thông tin khổng lồ trên Internet kết nối hàng tỉ trang web với nhau thông qua các <strong>siêu liên kết (hyperlink)</strong>.</li>\n  <li><strong>Trang web (Webpage):</strong> Là văn bản siêu dữ liệu có thể chứa văn bản, hình ảnh, âm thanh, video và các liên kết trỏ đến các vị trí hoặc trang web khác.</li>\n  <li><strong>Website:</strong> Là tập hợp một hoặc nhiều trang web liên quan được tổ chức dưới một địa chỉ truy cập duy nhất (tên miền).</li>\n  <li><strong>Trang chủ (Homepage):</strong> Là trang web đầu tiên mở ra khi người dùng truy cập vào địa chỉ của một website.</li>\n  <li><strong>Địa chỉ trang web (URL):</strong> Mỗi trang web trên Internet đều có một địa chỉ định danh duy nhất (ví dụ: <code>https://moet.gov.vn</code>).</li>\n</ul>\n<p><strong>2. Trình duyệt web (Web Browser):</strong></p>\n<ul>\n  <li>Trình duyệt web là phần mềm ứng dụng giúp người dùng giao tiếp với hệ thống WWW: tải về, giải mã và hiển thị các trang web lên màn hình.</li>\n  <li>Các trình duyệt web phổ biến hiện nay: Google Chrome, Mozilla Firefox, Microsoft Edge, Cốc Cốc, Apple Safari...</li>\n</ul>",
+      "keyPoints": [
+        "World Wide Web (WWW) là mạng thông tin toàn cầu liên kết các trang web bằng siêu liên kết.",
+        "Website là tập hợp các trang web dưới một địa chỉ chung; Trang chủ là trang xuất hiện đầu tiên.",
+        "Trình duyệt web là phần mềm dùng để xem và truy cập các trang web (Chrome, Edge, Firefox, Cốc Cốc...).",
+        "Siêu liên kết (hyperlink) là cầu nối dẫn người đọc chuyển sang một tài liệu hoặc trang web khác."
+      ],
+      "examples": [
+        {
+          "problem": "Khi em nhập địa chỉ https://thieunien.vn vào thanh địa chỉ của trình duyệt Google Chrome và nhấn Enter, trang đầu tiên xuất hiện trước mắt em được gọi là gì?",
+          "solution": "Đó chính là Trang chủ (Homepage) của website Báo Thiếu niên Tiền phong và Nhi đồng. Trang chủ này sẽ chứa các liên kết dẫn đến các chuyên mục tin tức chi tiết khác."
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "title": "Bài 7: Tìm kiếm thông tin trên Internet",
+      "order": 2,
+      "summary": "<p><strong>1. Máy tìm kiếm (Search Engine):</strong></p>\n<ul>\n  <li>Máy tìm kiếm là một hệ thống phần mềm chuyên dụng hỗ trợ người sử dụng tìm kiếm thông tin trên mạng Internet dựa trên các từ khóa truy vấn.</li>\n  <li>Các máy tìm kiếm phổ biến nhất thế giới: Google (<code>google.com</code>), Bing (<code>bing.com</code>), Yahoo (<code>yahoo.com</code>)...</li>\n  <li>Kết quả trả về của máy tìm kiếm: Là một danh sách các liên kết trỏ tới các trang web có chứa nội dung liên quan, kèm theo tiêu đề bài viết và một đoạn trích tóm tắt ngắn.</li>\n</ul>\n<p><strong>2. Kỹ thuật lựa chọn từ khóa hiệu quả:</strong></p>\n<ul>\n  <li><strong>Từ khóa (Keyword):</strong> Là từ hoặc cụm từ ngắn gọn, chính xác mô tả vấn đề hoặc nội dung em cần tìm kiếm.</li>\n  <li>Lựa chọn từ khóa phù hợp giúp thu hẹp phạm vi tìm kiếm, loại bỏ kết quả rác và tìm được thông tin nhanh chóng, chính xác.</li>\n  <li><strong>Mẹo tìm kiếm nâng cao:</strong> Đặt cụm từ tìm kiếm trong dấu ngoặc kép <code>\"...\"</code> để yêu cầu máy tìm kiếm tìm chính xác cụm từ theo đúng thứ tự (ví dụ: tìm chính xác câu thơ <code>\"Sông núi nước Nam vua Nam ở\"</code>).</li>\n</ul>",
+      "keyPoints": [
+        "Máy tìm kiếm (Google, Bing) giúp người dùng tra cứu thông tin nhanh chóng qua từ khóa.",
+        "Từ khóa cần ngắn gọn, rõ ràng và thể hiện trọng tâm thông tin cần tìm.",
+        "Sử dụng dấu ngoặc kép \"...\" để tìm kiếm chính xác nguyên cụm từ.",
+        "Kết quả tìm kiếm là danh sách các siêu liên kết kèm tiêu đề và đoạn trích ngắn."
+      ],
+      "examples": [
+        {
+          "problem": "Em cần tìm tài liệu hướng dẫn chăm sóc hoa lan hồ điệp. So sánh hiệu quả giữa hai từ khóa: 'hoa' và 'cách chăm sóc hoa lan hồ điệp'.",
+          "solution": "Từ khóa 'hoa' quá chung chung, sẽ trả về hàng trăm triệu kết quả về đủ loại hoa, tranh ảnh, thơ ca khiến em mất nhiều thời gian tìm kiếm. Từ khóa 'cách chăm sóc hoa lan hồ điệp' ngắn gọn, cụ thể và đúng trọng tâm, giúp máy tìm kiếm trả về ngay các bài viết hướng dẫn trồng và chăm sóc lan hồ điệp."
+        }
+      ]
+    },
+    {
+      "id": "l08",
+      "title": "Bài 8: Thư điện tử (Email)",
+      "order": 3,
+      "summary": "<p><strong>1. Khái niệm thư điện tử:</strong></p>\n<ul>\n  <li><strong>Thư điện tử (Email / Electronic Mail):</strong> Là dịch vụ chuyển nhận thông tin dưới dạng thư số qua mạng Internet giữa các tài khoản thư.</li>\n  <li><strong>Cấu trúc địa chỉ email:</strong> Có dạng tổng quát: <code>&lt;tên_đăng_nhập&gt;@&lt;tên_máy_chủ_thư&gt;</code> (ví dụ: <code>thanhphong2011@gmail.com</code>).\n    <ul>\n      <li>Ký hiệu <code>@</code> (a còng) là bắt buộc, ngăn cách giữa tên đăng nhập người dùng và nhà cung cấp dịch vụ thư.</li>\n      <li>Tên đăng nhập do người dùng đặt khi đăng ký và là duy nhất trên máy chủ thư đó.</li>\n    </ul>\n  </li>\n</ul>\n<p><strong>2. Ưu và nhược điểm của thư điện tử:</strong></p>\n<ul>\n  <li><strong>Ưu điểm vượt trội so với thư bưu điện truyền thống:</strong>\n    <ul>\n      <li>Tốc độ gửi nhận tức thời (chỉ mất vài giây dù khoảng cách nửa vòng Trái Đất).</li>\n      <li>Chi phí rất thấp hoặc hoàn toàn miễn phí.</li>\n      <li>Gửi cùng lúc cho nhiều người nhận mà không tốn thêm công sức.</li>\n      <li>Đính kèm được nhiều định dạng tệp: văn bản, bảng tính, hình ảnh, âm thanh, video ngắn...</li>\n      <li>Dễ dàng lưu trữ, phân loại và tìm kiếm lại các bức thư cũ trong hộp thư.</li>\n    </ul>\n  </li>\n  <li><strong>Nhược điểm và rủi ro:</strong> Bắt buộc phải có thiết bị kết nối mạng Internet; có nguy cơ nhận thư rác (spam), thư lừa đảo hoặc tệp đính kèm chứa virus nguy hiểm.</li>\n</ul>\n<p><strong>3. Các thao tác cơ bản:</strong> Đăng nhập $\to$ Đọc thư $\to$ Soạn thư mới $\to$ Nhập địa chỉ người nhận, tiêu đề thư, nội dung $\to$ Đính kèm tệp $\to$ Nhấn Gửi $\to$ Đăng xuất khỏi hộp thư.</p>",
+      "keyPoints": [
+        "Cấu trúc địa chỉ email chuẩn: <tên đăng nhập>@<tên miền máy chủ thư>.",
+        "Ưu điểm email: Nhanh tức thời, gửi nhiều người, chi phí thấp, đính kèm được nhiều loại tệp.",
+        "Nhược điểm email: Cần kết nối Internet, nguy cơ thư rác và virus lây lan qua tệp đính kèm.",
+        "Luôn nhớ đăng xuất khỏi tài khoản email sau khi sử dụng trên máy tính lạ/công cộng."
+      ],
+      "examples": [
+        {
+          "problem": "Địa chỉ email nào sau đây hợp lệ theo quy định: A. hoanglan#gmail.com | B. lanhoang@gmail.com | C. lan hoang@yahoo | D. hoanglan.gmail.com?",
+          "solution": "Địa chỉ B (lanhoang@gmail.com) hợp lệ vì có đầy đủ tên tài khoản, ký hiệu bắt buộc '@' và tên miền máy chủ thư hợp lệ (gmail.com), không chứa khoảng trắng hay ký hiệu sai."
+        }
+      ]
+    }
+  ]
+}

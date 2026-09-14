@@ -1,47 +1,59 @@
-[
-  {
-    "id": "l01",
-    "title": "Bài 1: Thông tin và dữ liệu trong đời sống",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 1: Thông tin và dữ liệu trong đời sống.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 1: Thông tin và dữ liệu trong đời sống.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 1: Thông tin và dữ liệu trong đời sống.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l02",
-    "title": "Bài 2: Xử lí thông tin và các bước xử lí của máy tính",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 2: Xử lí thông tin và các bước xử lí của máy tính.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 2: Xử lí thông tin và các bước xử lí của máy tính.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 2: Xử lí thông tin và các bước xử lí của máy tính.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  },
-  {
-    "id": "l03",
-    "title": "Bài 3: Thông tin trong máy tính & Các đơn vị đo lượng thông tin",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững các thao tác và kiến thức công nghệ trong Bài 3: Thông tin trong máy tính & Các đơn vị đo lượng thông tin.</li><li><b>Kỹ năng:</b> Vận dụng hiệu quả vào học tập số và giải quyết vấn đề thực tế.</li></ul>",
-    "keyPoints": [
-      "Kiến thức cốt lõi của Bài 3: Thông tin trong máy tính & Các đơn vị đo lượng thông tin.",
-      "Kỹ năng thao tác chuẩn mực và an toàn trên không gian số."
-    ],
-    "examples": [
-      {
-        "problem": "Thao tác giải quyết một yêu cầu thực tế liên quan đến Bài 3: Thông tin trong máy tính & Các đơn vị đo lượng thông tin.",
-        "solution": "Thực hiện đúng trình tự các bước theo tiêu chuẩn công nghệ."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "chapterTitle": "Chủ đề 1: Máy tính và cộng đồng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Thông tin và dữ liệu trong đời sống",
+      "order": 1,
+      "summary": "<p><strong>1. Thông tin và dữ liệu:</strong></p>\n<ul>\n  <li><strong>Thông tin:</strong> Là những hiểu biết của con người về thế giới xung quanh và về chính bản thân mình. Thông tin giúp con người nhận thức và đưa ra những quyết định đúng đắn, kịp thời trong cuộc sống.</li>\n  <li><strong>Dữ liệu:</strong> Là các con số, chữ viết, hình ảnh, âm thanh,... được thu nhận từ thế giới bên ngoài mà con người hoặc máy móc có thể ghi lại, lưu trữ và xử lý. Dữ liệu là hình thức thể hiện của thông tin.</li>\n  <li><strong>Vật mang tin:</strong> Là vật chứa đựng hoặc lưu giữ dữ liệu (ví dụ: sách báo, biển báo giao thông, bảng điểm, thẻ nhớ, đĩa cứng, tờ giấy ghi chú...).</li>\n</ul>\n<p><strong>2. Mối quan hệ và tầm quan trọng của thông tin:</strong></p>\n<ul>\n  <li>Dữ liệu mang lại thông tin cho người tiếp nhận. Cùng một dữ liệu có thể đem lại lượng thông tin khác nhau tùy thuộc vào sự hiểu biết của người nhận (ví dụ: bản tin thời tiết người lớn đọc hiểu được nhiệt độ mưa nắng, còn trẻ nhỏ chưa biết chữ thì dữ liệu đó không đem lại thông tin).</li>\n  <li>Thông tin chính xác, đầy đủ và kịp thời giúp con người lựa chọn cách ứng xử an toàn, hiệu quả (ví dụ: nhìn thấy đèn giao thông chuyển màu xanh thì biết được phép qua đường an toàn).</li>\n</ul>",
+      "keyPoints": [
+        "Thông tin là hiểu biết của con người về thế giới xung quanh và bản thân.",
+        "Dữ liệu là con số, văn bản, hình ảnh, âm thanh... mang thông tin.",
+        "Vật mang tin là phương tiện chứa hoặc lưu giữ dữ liệu.",
+        "Thông tin có vai trò quyết định hành động đúng đắn của con người."
+      ],
+      "examples": [
+        {
+          "problem": "Bạn Nam nhìn thấy biển báo giao thông hình tròn viền đỏ, nền trắng vẽ một chiếc xe đạp. Nam biết đoạn đường này cấm xe đạp đi vào. Hãy xác định dữ liệu, thông tin và vật mang tin trong tình huống trên.",
+          "solution": "Dữ liệu: Hình vẽ chiếc xe đạp trong vòng tròn đỏ viền trắng. Thông tin: Đoạn đường này cấm người đi xe đạp. Vật mang tin: Tấm biển báo giao thông bằng kim loại bên đường."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Xử lí thông tin và các bước xử lí của máy tính",
+      "order": 2,
+      "summary": "<p><strong>1. Bốn hoạt động cơ bản của quá trình xử lý thông tin ở con người:</strong></p>\n<ul>\n  <li><strong>Thu nhận thông tin:</strong> Nhờ các giác quan (mắt nhìn, tai nghe, mũi ngửi, lưỡi nếm, da cảm nhận tiếp xúc) để tiếp nhận tín hiệu từ môi trường bên ngoài.</li>\n  <li><strong>Lưu trữ thông tin:</strong> Bộ não ghi nhớ và lưu giữ lại các thông tin thu nhận được. Nếu không ghi nhớ hoặc ghi chép, thông tin sẽ bị lãng quên hoặc mất đi.</li>\n  <li><strong>Xử lý thông tin:</strong> Bộ não liên kết, so sánh, phân tích, thống kê, suy luận từ thông tin đã có để rút ra nhận thức hoặc quyết định mới.</li>\n  <li><strong>Truyền thông tin:</strong> Thông tin sau khi xử lý được truyền đến các cơ quan vận động (tay, chân) để hành động hoặc chia sẻ cho người khác qua lời nói, chữ viết, nét mặt, cử chỉ.</li>\n</ul>\n<p><strong>2. Xử lý thông tin trong máy tính:</strong></p>\n<ul>\n  <li>Máy tính là công cụ hỗ trợ con người xử lý thông tin cực kỳ hiệu quả nhờ tốc độ tính toán siêu nhanh, độ chính xác tuyệt đối, dung lượng lưu trữ khổng lồ và khả năng làm việc liên tục không mệt mỏi.</li>\n  <li>Bốn thành phần máy tính tương ứng với 4 hoạt động:\n    <ul>\n      <li><strong>Thiết bị vào:</strong> Bàn phím, chuột, máy quét (scanner), micro, webcam,... dùng để thu nhận thông tin.</li>\n      <li><strong>Bộ nhớ:</strong> Ổ cứng (HDD/SSD), thẻ nhớ, đĩa quang (CD/DVD), USB,... dùng để lưu trữ thông tin.</li>\n      <li><strong>Bộ xử lý (CPU):</strong> Thực hiện các phép tính và xử lý thông tin theo chương trình định trước.</li>\n      <li><strong>Thiết bị ra:</strong> Màn hình, máy in, loa, máy chiếu,... dùng để truyền hoặc hiển thị thông tin ra ngoài.</li>\n    </ul>\n  </li>\n</ul>",
+      "keyPoints": [
+        "4 hoạt động xử lý thông tin: Thu nhận -> Lưu trữ -> Xử lý -> Truyền thông tin.",
+        "Máy tính có 4 khối chức năng tương ứng: Thiết bị vào, Bộ nhớ, Bộ xử lý (CPU), Thiết bị ra.",
+        "Máy tính giúp con người nâng cao năng suất xử lý dữ liệu với tốc độ và độ chuẩn xác vượt trội."
+      ],
+      "examples": [
+        {
+          "problem": "Khi em gõ một bức thư bằng bàn phím, văn bản hiển thị lên màn hình và được lưu vào ổ đĩa. Hãy chỉ rõ 4 hoạt động xử lý thông tin của máy tính trong trường hợp này.",
+          "solution": "Thu nhận thông tin: Bàn phím nhận tín hiệu gõ phím. Xử lý thông tin: CPU tiếp nhận mã phím và biến đổi thành ký tự tương ứng. Truyền thông tin: Màn hình hiển thị chữ lên để em đọc. Lưu trữ thông tin: Ổ đĩa máy tính ghi lại tệp văn bản."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Thông tin trong máy tính & Các đơn vị đo lượng thông tin",
+      "order": 3,
+      "summary": "<p><strong>1. Biểu diễn thông tin trong máy tính:</strong></p>\n<ul>\n  <li>Trong máy tính, mọi loại thông tin (số, văn bản, hình ảnh, âm thanh) đều được mã hóa và biểu diễn dưới dạng <strong>dãy các bit</strong> (chỉ gồm hai kí hiệu 0 và 1).</li>\n  <li><strong>Bit (Binary Digit):</strong> Là đơn vị nhỏ nhất dùng để đo và lưu trữ lượng thông tin trong máy tính. Mỗi bit mang một trong hai trạng thái: 0 hoặc 1.</li>\n  <li>Biểu diễn văn bản: Mỗi chữ cái, chữ số, dấu câu được mã hoá thành một dãy bit riêng biệt theo bảng mã chuẩn (như ASCII, Unicode).</li>\n  <li>Biểu diễn hình ảnh: Bức ảnh được chia thành lưới các điểm ảnh nhỏ (pixel), màu sắc và độ sáng của mỗi điểm ảnh được chuyển thành dãy bit.</li>\n  <li>Biểu diễn âm thanh: Sóng âm được lấy mẫu theo chu kỳ thời gian và chuyển đổi biên độ thành các dãy bit tương ứng.</li>\n</ul>\n<p><strong>2. Các đơn vị đo dung lượng thông tin thông dụng:</strong></p>\n<ul>\n  <li><strong>1 Byte (B)</strong> = 8 bit. Một byte thường lưu trữ được một ký tự tiếng Anh cơ bản.</li>\n  <li><strong>1 Kilobyte (KB)</strong> = 1024 B (xấp xỉ 1 nghìn byte).</li>\n  <li><strong>1 Megabyte (MB)</strong> = 1024 KB (xấp xỉ 1 triệu byte).</li>\n  <li><strong>1 Gigabyte (GB)</strong> = 1024 MB (xấp xỉ 1 tỉ byte).</li>\n  <li><strong>1 Terabyte (TB)</strong> = 1024 GB (xấp xỉ 1 nghìn tỉ byte).</li>\n</ul>",
+      "keyPoints": [
+        "Mọi dữ liệu máy tính đều được biểu diễn bằng dãy bit (chỉ chứa 0 và 1).",
+        "Bit là đơn vị đo nhỏ nhất trong lưu trữ thông tin.",
+        "1 Byte = 8 bit; các bội số kế tiếp gấp nhau 1024 lần (B -> KB -> MB -> GB -> TB).",
+        "1 GB xấp xỉ một tỉ byte; 1 MB xấp xỉ một triệu byte."
+      ],
+      "examples": [
+        {
+          "problem": "Một chiếc thẻ nhớ điện thoại có dung lượng 32 GB. Hỏi thẻ nhớ đó chứa được xấp xỉ bao nhiêu bức ảnh chất lượng cao nếu mỗi bức ảnh có dung lượng khoảng 4 MB?",
+          "solution": "Đổi 32 GB = 32 x 1024 MB = 32768 MB. Số ảnh tối đa thẻ nhớ lưu được xấp xỉ: 32768 / 4 = 8192 bức ảnh."
+        }
+      ]
+    }
+  ]
+}

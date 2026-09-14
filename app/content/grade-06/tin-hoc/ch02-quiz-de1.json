@@ -1,30 +1,164 @@
-[
-  {
-    "id": "th6_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Thiết bị nào sau đây là thiết bị kết nối mạng không dây giúp điện thoại thông minh kết nối Internet trong gia đình?",
-    "options": [
-      "A. Chuột quang",
-      "B. Bộ định tuyến không dây (Router Wi-Fi)",
-      "C. Ổ cứng di động",
-      "D. Máy scan"
-    ],
-    "answer": 1,
-    "explanation": "📌 Thiết bị mạng: Router Wi-Fi phát sóng sóng vô tuyến cho các thiết bị không dây kết nối vào mạng.\n💡 Wi-Fi = Wireless Fidelity.\n⚠️ Chuột và ổ cứng không phải thiết bị mạng."
-  },
-  {
-    "id": "th6_ch02_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Cụm từ nào sau đây là tên một phần mềm trình duyệt web được sử dụng rộng rãi?",
-    "options": [
-      "A. Microsoft Word",
-      "B. Google Chrome",
-      "C. Scratch 3.0",
-      "D. Windows Media Player"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phần mềm: Google Chrome là trình duyệt web hàng đầu thế giới.\n💡 Word là soạn thảo văn bản; Scratch là lập trình.\n⚠️ Phân biệt trình duyệt web và phần mềm ứng dụng khác."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi - Chủ đề 2: Mạng máy tính và Internet",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "th6_ch02_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm mạng máy tính",
+      "question": "Khái niệm 'Mạng máy tính' được định nghĩa chính xác trong SGK Tin học 6 là gì?",
+      "options": [
+        "Là một tập hợp các máy tính và thiết bị được kết nối để truyền thông tin và chia sẻ tài nguyên cho nhau",
+        "Là một phần mềm trò chơi trực tuyến nhiều người chơi trên điện thoại",
+        "Là hệ thống các đường dây điện cao thế truyền tải điện năng quốc gia",
+        "Là một chiếc máy tính để bàn duy nhất được cắm nhiều màn hình phụ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khái niệm mạng máy tính (Bài 4, SGK Tin học 6, trang 17).",
+        "steps": "Mạng máy tính là sự kết nối của nhiều máy tính và thiết bị nhằm chia sẻ thông tin và tài nguyên.",
+        "trap": "Nhầm mạng máy tính với mạng lưới điện lực hoặc trò chơi trực tuyến."
+      },
+      "socraticPrompt": "Mục đích chính của việc nối nhiều máy tính lại với nhau trong trường học hay văn phòng là gì?",
+      "distractorReasons": [
+        "Chính xác theo định nghĩa chuẩn SGK Tin học 6 trang 17.",
+        "Sai, trò chơi trực tuyến chỉ là một ứng dụng chạy trên mạng.",
+        "Sai, đây là mạng lưới truyền tải điện năng vật lý, không phải mạng máy tính.",
+        "Sai, một máy tính đơn lẻ không tạo thành mạng máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch02_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thành phần mạng máy tính",
+      "question": "Thiết bị nào sau đây đóng vai trò là một 'Thiết bị đầu cuối' trong mạng máy tính?",
+      "options": [
+        "Dây cáp mạng xoắn đôi UTP",
+        "Bộ định tuyến không dây (Wi-Fi Router)",
+        "Bộ chuyển mạch (Switch)",
+        "Điện thoại thông minh (Smartphone)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thiết bị đầu cuối (Bài 4, SGK Tin học 6, trang 19).",
+        "steps": "Thiết bị đầu cuối là thiết bị người dùng sử dụng trực tiếp để gửi hoặc nhận dữ liệu (máy tính, laptop, điện thoại, máy in). Cáp mạng, switch, router là thiết bị kết nối.",
+        "trap": "Nhầm lẫn giữa thiết bị đầu cuối của người dùng với các thiết bị mạng trung gian."
+      },
+      "socraticPrompt": "Em dùng thiết bị nào để trực tiếp lướt web hoặc xem video bài giảng trên mạng?",
+      "distractorReasons": [
+        "Sai, cáp mạng là môi trường truyền dẫn thuộc thiết bị kết nối.",
+        "Sai, router là thiết bị kết nối điều phối gói tin.",
+        "Sai, switch là thiết bị kết nối các máy trong mạng LAN.",
+        "Chính xác, điện thoại thông minh là thiết bị đầu cuối gửi và nhận dữ liệu của người dùng."
+      ]
+    },
+    {
+      "id": "th6_ch02_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm cơ bản của Internet",
+      "question": "Ai là người có quyền sở hữu toàn bộ hệ thống mạng Internet toàn cầu?",
+      "options": [
+        "Chính phủ của một quốc gia phát triển nhất thế giới",
+        "Không thuộc quyền sở hữu của riêng bất kỳ cá nhân hay tổ chức nào",
+        "Tập đoàn công nghệ Microsoft",
+        "Tổ chức Liên Hợp Quốc"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đặc điểm của Internet (Bài 5, SGK Tin học 6, trang 21-22).",
+        "steps": "Internet là mạng toàn cầu mở, liên kết các mạng máy tính thành viên độc lập, không có cơ quan hay quốc gia nào sở hữu độc quyền toàn bộ Internet.",
+        "trap": "Nghĩ rằng các tập đoàn công nghệ lớn hoặc các nước phát triển là chủ sở hữu của Internet."
+      },
+      "socraticPrompt": "Có ai có thể tuyên bố 'Internet là tài sản riêng của công ty tôi' hay không?",
+      "distractorReasons": [
+        "Sai, không một quốc gia nào làm chủ toàn bộ mạng Internet.",
+        "Chính xác theo khẳng định rõ ràng trong SGK Tin học 6 trang 22.",
+        "Sai, Microsoft chỉ là một công ty phần mềm cung cấp dịch vụ.",
+        "Sai, Liên Hợp Quốc không quản lý hay sở hữu mạng Internet."
+      ]
+    },
+    {
+      "id": "th6_ch02_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kết nối không dây",
+      "question": "Mạng không dây (Wi-Fi) truyền tải dữ liệu giữa các thiết bị bằng phương tiện truyền dẫn nào?",
+      "options": [
+        "Sóng vô tuyến",
+        "Dây cáp quang bọc kim",
+        "Tia X",
+        "Dòng nước chảy trong đường ống"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Kết nối không dây (Bài 4, SGK Tin học 6, trang 19-20).",
+        "steps": "Mạng không dây sử dụng sóng điện từ (cụ thể là sóng vô tuyến) để truyền tín hiệu thông tin trong không gian mà không cần dây cáp.",
+        "trap": "Nhầm lẫn với tia phóng xạ hoặc cáp quang có dây."
+      },
+      "socraticPrompt": "Khi điện thoại bắt sóng Wi-Fi không cần cắm dây, tín hiệu được truyền qua không khí nhờ loại sóng nào?",
+      "distractorReasons": [
+        "Chính xác, mạng không dây truyền thông tin qua sóng vô tuyến (radio waves).",
+        "Sai, cáp quang là phương tiện truyền dẫn mạng có dây tốc độ cao.",
+        "Sai, tia X dùng trong y tế để chụp phim xương khớp, không dùng cho Wi-Fi.",
+        "Sai, nước không phải là môi trường truyền dẫn tín hiệu mạng máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch02_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Lợi ích của Internet",
+      "question": "Hoạt động nào sau đây là một ví dụ minh họa cho lợi ích của Internet trong lĩnh vực học tập?",
+      "options": [
+        "Dùng máy vi tính để tắt đèn phòng ngủ từ xa",
+        "Tra cứu tài liệu thí nghiệm và học trực tuyến qua website trường học",
+        "Sử dụng lò vi sóng để hâm nóng thức ăn buổi sáng",
+        "Đạp xe đạp quanh công viên rèn luyện sức khỏe"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lợi ích của Internet (Bài 5, SGK Tin học 6, trang 23).",
+        "steps": "Internet cung cấp kho tư liệu khổng lồ và nền tảng học từ xa cho học sinh.",
+        "trap": "Các phương án khác là hoạt động thể chất hoặc thiết bị gia dụng không liên quan trực tiếp đến học tập qua mạng."
+      },
+      "socraticPrompt": "Học sinh sử dụng mạng Internet để làm gì phục vụ cho việc chuẩn bị bài mới?",
+      "distractorReasons": [
+        "Sai, đây là ứng dụng nhà thông minh (Smarthome), không thuộc lĩnh vực học tập.",
+        "Chính xác, tra cứu tài liệu học tập là lợi ích cốt lõi của Internet đối với giáo dục.",
+        "Sai, lò vi sóng hoạt động gia dụng độc lập.",
+        "Sai, đạp xe là hoạt động thể dục thể thao ngoài trời."
+      ]
+    },
+    {
+      "id": "th6_ch02_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thiết bị kết nối mạng",
+      "question": "Thiết bị nào sau đây là thiết bị kết nối mạng có chức năng chuyển tiếp các gói tin giữa các thiết bị trong mạng LAN?",
+      "options": [
+        "Máy in laser",
+        "Bộ chuyển mạch (Switch)",
+        "Chuột không dây",
+        "Tai nghe có micro"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Thiết bị kết nối mạng (Bài 4, SGK Tin học 6, trang 19).",
+        "steps": "Switch (bộ chuyển mạch) là thiết bị kết nối trung tâm giúp các máy tính trong mạng nội bộ liên lạc với nhau.",
+        "trap": "Chọn nhầm thiết bị đầu cuối như máy in hay tai nghe."
+      },
+      "socraticPrompt": "Thiết bị có nhiều cổng cắm dây cáp mạng ở phòng máy để liên kết các máy tính lại với nhau gọi là gì?",
+      "distractorReasons": [
+        "Sai, máy in laser là thiết bị đầu cuối (thiết bị ra).",
+        "Chính xác, Switch là thiết bị kết nối then chốt trong mạng máy tính cục bộ.",
+        "Sai, chuột là thiết bị vào của máy tính cá nhân.",
+        "Sai, tai nghe là thiết bị ra âm thanh cá nhân."
+      ]
+    }
+  ]
+}

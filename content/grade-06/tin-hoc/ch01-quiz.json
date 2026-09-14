@@ -1,19 +1,164 @@
-[
-  {
-    "id": "th6_ch01_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi em nghe thấy tiếng chuông báo thức reo (dữ liệu âm thanh), não em nhận biết đã đến 6 giờ sáng và tự giác ngồi dậy gấp chăn màn chuẩn bị đi học. Quá trình này mô tả hoạt động nào của con người?",
-    "options": [
-      "A. Chỉ có việc thu nhận dữ liệu",
-      "B. Quá trình xử lí thông tin hoàn chỉnh",
-      "C. Chỉ là phản xạ không điều kiện",
-      "D. Lưu trữ dữ liệu vô thức"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất xử lí thông tin: Tai thu nhận sóng âm $\\rightarrow$ Não bộ đối chiếu dữ liệu nhận biết giờ giấc $\\rightarrow$ Ra lệnh cho cơ bắp thức dậy.\n💡 Con người cũng là một hệ thống xử lí thông tin kì diệu.\n⚠️ Bậc tư duy cao: Liên hệ mô hình xử lí thông tin máy tính với hoạt động trí tuệ con người.",
-    "breakdown": {
-      "calculation": "Thu nhận $\\rightarrow$ Xử lí $\\rightarrow$ Ra quyết định hành động"
+{
+  "chapterId": "ch01",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chủ đề 1: Máy tính và cộng đồng",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "th6_ch01_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá vai trò của máy tính trong xử lý thông tin",
+      "question": "Phát biểu nào sau đây nêu ĐÚNG NHẤT về ưu thế và giới hạn của máy tính so với con người trong việc xử lý thông tin?",
+      "options": [
+        "Máy tính có thể tự đưa ra các quyết định đạo đức và có cảm xúc sáng tạo phong phú hơn con người",
+        "Máy tính xử lý dữ liệu với tốc độ cực nhanh, dung lượng lưu trữ lớn, nhưng chỉ hoạt động dựa trên các chương trình do con người viết ra",
+        "Máy tính hoàn toàn thay thế được tất cả các khả năng tư duy trừu tượng và linh hoạt của não bộ con người",
+        "Máy tính chỉ có thể lưu trữ dữ liệu văn bản chứ không thể mã hoá được hình ảnh và âm thanh sống động"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hiệu quả và giới hạn của máy tính (Bài 2, SGK Tin học 6, trang 11-12).",
+        "steps": "Máy tính là công cụ hỗ trợ con người xử lý thông tin siêu việt về tốc độ, bộ nhớ và độ chính xác, nhưng bản chất máy tính thực thi chương trình con người lập trình và chưa có cảm xúc, ý thức tự chủ độc lập.",
+        "trap": "Ngộ nhận máy tính có trí tuệ hoàn hảo tự chủ mọi quyết định mà không cần đến sự điều khiển của con người."
+      },
+      "socraticPrompt": "Ai là người sáng tạo ra các phần mềm chỉ dẫn cho máy tính từng thao tác xử lý dữ liệu?",
+      "distractorReasons": [
+        "Sai, máy tính là máy móc vô tri, không có cảm xúc hay ý thức đạo đức tự thân.",
+        "Chính xác, phản ánh đầy đủ năng lực vượt trội và bản chất phụ thuộc vào con người của máy tính.",
+        "Sai, tư duy trực giác, cảm xúc và tính linh hoạt trong hoàn cảnh mới của con người máy tính chưa thể thay thế hoàn toàn.",
+        "Sai, máy tính mã hóa và lưu trữ hình ảnh, âm thanh, video vô cùng hoàn hảo bằng dãy bit."
+      ]
+    },
+    {
+      "id": "th6_ch01_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Giải bài toán lưu trữ dữ liệu thực tế",
+      "question": "Một học sinh muốn sao chép một bộ tài liệu học tập gồm: 1 tệp video thí nghiệm KHTN dung lượng 1,2 GB; 50 bức ảnh sơ đồ tư duy mỗi ảnh 4 MB; và 200 tệp bài tập Word mỗi tệp 500 KB. Cần một thiết bị lưu trữ có dung lượng tối thiểu là bao nhiêu để chứa hết bộ tài liệu trên mà không bị đầy bộ nhớ?",
+      "options": [
+        "Một chiếc đĩa CD-ROM dung lượng 700 MB",
+        "Một ổ đĩa mềm cổ điển dung lượng 1,44 MB",
+        "Một chiếc thẻ nhớ dung lượng tối thiểu 2 GB",
+        "Một ổ đĩa cứng di động khổng lồ bắt buộc từ 10 TB trở lên"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính toán tổng dung lượng thông tin (Bài 3, SGK Tin học 6, trang 15-16).",
+        "steps": "Video: 1,2 GB = 1200 MB (hoặc 1,2 x 1024 = 1228,8 MB). 50 ảnh: 50 x 4 MB = 200 MB. 200 tệp Word: 200 x 500 KB = 100 000 KB ~ 100 MB. Tổng cộng: 1228,8 + 200 + 100 ~ 1528,8 MB (~ 1,5 GB). Do đó, thiết bị lưu trữ cần tối thiểu dung lượng 2 GB.",
+        "trap": "Quên đổi đồng nhất đơn vị (GB, MB, KB) trước khi thực hiện phép cộng."
+      },
+      "socraticPrompt": "Hãy đổi tất cả các tệp về cùng đơn vị Megabyte (MB) rồi cộng lại xem tổng số xấp xỉ bao nhiêu MB?",
+      "distractorReasons": [
+        "Sai, đĩa CD chỉ có 700 MB, trong khi riêng video đã chiếm hơn 1200 MB.",
+        "Sai, 1,44 MB quá nhỏ bé, thậm chí không chứa nổi một bức ảnh 4 MB.",
+        "Chính xác, tổng dung lượng khoảng 1,5 GB nên thẻ nhớ 2 GB là phương tiện nhỏ gọn vừa đủ đáp ứng.",
+        "Sai, 10 TB quá mức lãng phí và không phải là yêu cầu tối thiểu."
+      ]
+    },
+    {
+      "id": "th6_ch01_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính tương đối của thông tin",
+      "question": "Trong SGK Tin học 6, ví dụ về việc cùng một bản tin thời tiết nhưng bạn An (học sinh lớp 6) hiểu được 'hôm nay trời nắng', còn em bé 5 tuổi lại không rút ra được thông tin gì, chứng minh cho kết luận nào sau đây?",
+      "options": [
+        "Bản tin dự báo thời tiết đó là dữ liệu giả mạo và không có giá trị khoa học",
+        "Em bé 5 tuổi không có thị giác để nhìn thấy tờ giấy in thời tiết",
+        "Sự hiểu biết mà thông tin đem lại luôn phụ thuộc vào khả năng tiếp nhận của người nhận thông tin",
+        "Dữ liệu và thông tin là hai khái niệm hoàn toàn đồng nhất và không có sự khác biệt"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Mối quan hệ giữa dữ liệu và thông tin (Bài 1, SGK Tin học 6, trang 6-7).",
+        "steps": "Dữ liệu chỉ trở thành thông tin có ý nghĩa khi người tiếp nhận có khả năng giải mã, đọc hiểu và nhận thức được dữ liệu đó.",
+        "trap": "Cho rằng dữ liệu mang lại giá trị như nhau cho tất cả mọi đối tượng tiếp nhận."
+      },
+      "socraticPrompt": "Tại sao cùng nhìn vào một cuốn sách tiếng Pháp, người biết tiếng Pháp thì hiểu được câu chuyện còn người không biết tiếng Pháp chỉ thấy những ký tự vô nghĩa?",
+      "distractorReasons": [
+        "Sai, bản tin dự báo là dữ liệu khách quan chuẩn xác.",
+        "Sai, em bé nhìn thấy các chữ in nhưng chưa biết đọc chữ để hiểu nghĩa.",
+        "Chính xác theo kết luận của mục 1 SGK Tin học 6 trang 6: 'sự hiểu biết mà thông tin đem lại luôn phụ thuộc vào người tiếp nhận'.",
+        "Sai, dữ liệu là vỏ bọc vật lý, thông tin là nội dung ý nghĩa được hiểu."
+      ]
+    },
+    {
+      "id": "th6_ch01_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích quá trình phản xạ xử lý thông tin",
+      "question": "Trong tình huống cầu thủ bóng đá thực hiện quả sút phạt đền (penalty), hoạt động 'não bộ phân tích hướng di chuyển của thủ môn và chuyển hóa thành quyết định sút bóng vào góc cao' thuộc về khâu nào?",
+      "options": [
+        "Khâu xử lý thông tin",
+        "Khâu truyền dữ liệu qua Internet",
+        "Khâu thu nhận thông tin bằng xúc giác",
+        "Khâu lưu trữ thông tin vĩnh viễn trên đĩa từ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quá trình não bộ xử lý thông tin (Bài 2, SGK Tin học 6, trang 9).",
+        "steps": "Mắt theo dõi vị trí thủ môn (thu nhận) -> Não phân tích, đánh giá, suy luận và ra quyết định sút góc cao (xử lý thông tin) -> Não điều khiển cơ chân sút bóng (truyền thông tin).",
+        "trap": "Nhầm phân tích với thu nhận dữ liệu của mắt."
+      },
+      "socraticPrompt": "Hành động so sánh khoảng cách, suy đoán hướng đổ người của thủ môn diễn ra ở cơ quan nào và là hoạt động gì?",
+      "distractorReasons": [
+        "Chính xác, hoạt động liên kết, phân tích, đánh giá để đưa ra ý định là bản chất của xử lý thông tin.",
+        "Sai, tình huống thể thao thực tế của con người không liên quan đến cáp mạng Internet.",
+        "Sai, việc quan sát thủ môn diễn ra bằng thị giác (mắt), không phải xúc giác.",
+        "Sai, đây là hoạt động suy nghĩ tức thời của não bộ, không phải ổ cứng máy tính."
+      ]
+    },
+    {
+      "id": "th6_ch01_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nguyên lý biểu diễn hình ảnh bằng dãy bit",
+      "question": "Một bức ảnh đen trắng kích thước 8 x 8 điểm ảnh (pixel). Nếu mỗi điểm ảnh đen được mã hoá bằng bit 1 và mỗi điểm ảnh trắng được mã hoá bằng bit 0, thì bức ảnh đó sẽ được máy tính biểu diễn bằng một dãy bit có độ dài là bao nhiêu bit?",
+      "options": [
+        "16 bit",
+        "32 bit",
+        "64 bit",
+        "128 bit"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Biểu diễn hình ảnh bằng dãy bit (Bài 3, SGK Tin học 6, trang 14-15).",
+        "steps": "Lưới hình có kích thước 8 hàng x 8 cột = 64 điểm ảnh. Mỗi điểm ảnh ứng với đúng 1 bit (0 hoặc 1). Vậy cả hình ảnh được biểu diễn bằng dãy gồm 64 bit.",
+        "trap": "Cộng 8 + 8 = 16 thay vì nhân số hàng với số cột để ra tổng số điểm ảnh."
+      },
+      "socraticPrompt": "Một bàn cờ có 8 hàng và 8 cột thì có tổng cộng bao nhiêu ô vuông nhỏ?",
+      "distractorReasons": [
+        "Sai do chỉ cộng 8 hàng với 8 cột thay vì nhân diện tích lưới.",
+        "Sai, 32 bit chỉ bằng một nửa bức ảnh.",
+        "Chính xác, 8 hàng x 8 cột = 64 điểm ảnh = 64 bit (tương đương đúng 8 Byte).",
+        "Sai, tính thừa gấp đôi số lượng điểm ảnh."
+      ]
+    },
+    {
+      "id": "th6_ch01_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vận dụng xử lý thông tin an toàn",
+      "question": "Trên đường đi học về, gặp một ngã tư có đèn tín hiệu giao thông đang nhấp nháy màu vàng và có chú cảnh sát giao thông đang ra hiệu lệnh bằng gậy chỉ đường cho phép hướng xe của em di chuyển, hành động đúng đắn và an toàn nhất của em là gì?",
+      "options": [
+        "Bấm còi inh ỏi và phóng xe thật nhanh qua ngã tư bất chấp hiệu lệnh",
+        "Dừng lại giữa ngã tư để chờ cho đến khi đèn giao thông chuyển sang màu đỏ hẳn",
+        "Thu nhận tín hiệu từ người chỉ huy giao thông, tuân thủ tuyệt đối hiệu lệnh của cảnh sát giao thông để di chuyển an toàn",
+        "Nhắm mắt lại và đi theo các phương tiện giao thông khác mà không cần quan sát"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ý nghĩa của thông tin trong quyết định hành động (Bài 1, SGK Tin học 6, trang 8).",
+        "steps": "Khi có cả đèn tín hiệu và người điều khiển giao thông, thông tin từ hiệu lệnh của người chỉ huy giao thông có hiệu lực cao nhất để đảm bảo an toàn.",
+        "trap": "Bối rối giữa tín hiệu đèn và hiệu lệnh của cảnh sát giao thông."
+      },
+      "socraticPrompt": "Khi có xung đột giữa tín hiệu đèn và hiệu lệnh của người cảnh sát đang phân luồng, người tham gia giao thông phải tuân theo chỉ dẫn của ai?",
+      "distractorReasons": [
+        "Sai, hành vi cực kỳ nguy hiểm, vi phạm luật giao thông đường bộ.",
+        "Sai, dừng giữa ngã tư gây cản trở và ùn tắc giao thông nghiêm trọng.",
+        "Chính xác, thông tin chuẩn xác từ hiệu lệnh thực tế giúp người học sinh xử lý tình huống chính xác, bảo vệ an toàn tính mạng bản thân và xã hội.",
+        "Sai, hành vi liều lĩnh có thể dẫn tới tai nạn giao thông."
+      ]
     }
-  }
-]
+  ]
+}
