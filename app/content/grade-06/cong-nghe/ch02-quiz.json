@@ -1,0 +1,200 @@
+{
+  "chapterId": "ch02",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chương II: Bảo quản và chế biến thực phẩm",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "cn6_ch02_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán chi phí và định lượng bữa ăn",
+      "question": "Em được giao nhiệm vụ chuẩn bị bữa cơm trưa cho 4 người trong gia đình với ngân sách tối đa 150.000 đồng. Thực đơn nào sau đây vừa ĐỦ CHẤT DINH DƯỠNG vừa KHÔNG VƯỢT QUÁ NGÂN SÁCH?",
+      "options": [
+        "Mua 1 kg tôm hùm nhập khẩu giá 1.200.000 đồng",
+        "Mua 4 gói mì tôm ăn liền giá 16.000 đồng",
+        "Cá lóc đồng (500g: 45.000đ) kho tộ + Thịt lợn nạc (200g: 25.000đ) nấu canh chua rau muống (1 mớ: 10.000đ) + Trứng gà (4 quả: 16.000đ) chiên + Cà chua hành ngò (10.000đ) + Gạo (300g: 8.000đ) + Dưa hấu tráng miệng (1 kg: 15.000đ). Tổng: 129.000 đồng",
+        "Gọi đồ ăn nhà hàng 5 sao giao tận nhà giá 2.500.000 đồng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thực hành thiết kế thực đơn và dự toán kinh phí bữa ăn gia đình (Bài 6, SGK Công nghệ 6, trang 35).",
+        "steps": [
+          "Bước 1: Tiêu chí kép: Đủ 4 nhóm chất và tổng chi phí <= 150.000 đồng.",
+          "Bước 2: Thực đơn B có cá lóc (đạm), thịt nạc (đạm), trứng (đạm + béo), rau muống cà chua (vitamin, xơ), gạo (đường bột), dưa hấu (tráng miệng).",
+          "Bước 3: Tổng chi phí 129.000đ nằm trong hạn mức 150.000đ, rất kinh tế và giàu dinh dưỡng."
+        ],
+        "trap": "Chọn thực đơn quá đắt (vượt ngân sách) hoặc mì tôm rẻ tiền nhưng suy dinh dưỡng."
+      },
+      "socraticPrompt": "Làm thế nào để chọn mua các nguyên liệu bình dân tươi ngon của chợ truyền thống vừa đủ dinh dưỡng vừa tiết kiệm ngân sách gia đình?",
+      "distractorReasons": [
+        "Sai vì vượt ngân sách gấp gần 10 lần (1.200.000đ so với 150.000đ).",
+        "Sai vì mì tôm đơn điệu nghèo dinh dưỡng, gây nóng trong và thiếu chất.",
+        "Đúng vì thiết kế thực đơn khoa học, cân đối dinh dưỡng hoàn hảo và chi phí 129.000đ cực kỳ tiết kiệm.",
+        "Sai vì lãng phí tài chính gia đình."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "cn6_ch02_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xử lý ngộ độc thực phẩm và phòng ngừa độc tố tự nhiên",
+      "question": "Khi sơ chế thực phẩm trong gia đình, loại củ nào sau đây nếu THẤY MỌC MẦM XANH HOẶC CÓ VỎ MÀU XANH thì TUYỆT ĐỐI KHÔNG ĐƯỢC ĂN vì chứa độc tố solanine cực độc gây nguy hiểm tính mạng?",
+      "options": [
+        "Củ hành tây",
+        "Củ cà rốt",
+        "Củ củ đậu",
+        "Củ khoai tây"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Độc tố tự nhiên trong thực phẩm bảo quản sai cách (Bài 4 & 5, SGK Công nghệ 6).",
+        "steps": [
+          "Bước 1: Khoai tây khi mọc mầm hoặc tiếp xúc nhiều ánh sáng chuyển vỏ xanh sẽ sản sinh độc tố solanine.",
+          "Bước 2: Solanine là chất độc thần kinh gây nôn mửa, tiêu chảy, hôn mê và có thể dẫn đến tử vong.",
+          "Bước 3: Cắt bỏ mầm sâu hoặc vứt bỏ củ khoai tây mọc mầm là quy tắc an toàn sống còn."
+        ],
+        "trap": "Nghĩ chỉ cần gọt qua loa là ăn được khoai tây mọc mầm."
+      },
+      "socraticPrompt": "Loại củ màu vàng quen thuộc nào khi để lâu mọc mầm sẽ sinh ra chất độc chết người solanine?",
+      "distractorReasons": [
+        "Sai vì hành tây mọc mầm xanh chỉ xốp củ, vẫn ăn được bình thường.",
+        "Sai vì cà rốt mọc mầm lá ăn được hoặc chỉ giảm độ ngọt chứ không sinh độc tố chết người.",
+        "Sai vì củ đậu không sinh solanine.",
+        "Đúng vì khoai tây mọc mầm tích tụ độc tố solanine cực kỳ nguy hiểm."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "cn6_ch02_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Kỹ thuật chế biến món salad / nộm",
+      "question": "Khi làm món salad hoa quả hoặc nộm rau củ, bước nào sau đây là BÍ QUYẾT giúp rau củ giữ được độ giòn sần sật và màu sắc tươi sáng?",
+      "options": [
+        "Sau khi chần sơ rau củ qua nước sôi thì vớt ra ngâm ngay vào một âu nước đá lạnh trong 5 phút trước khi trộn",
+        "Đun sôi rau củ trong nồi áp suất 30 phút",
+        "Đổ thật nhiều muối ướp từ sáng đến tối cho nát nhừ",
+        "Để rau củ ngoài trời nắng gắt cho héo queo"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Kỹ thuật sốc nhiệt giữ độ giòn trong chế biến món ăn (Bài 5, SGK Công nghệ 6, trang 32).",
+        "steps": [
+          "Bước 1: Chần sơ nước sôi giúp khử khuẩn và giữ màu sắc diệp lục.",
+          "Bước 2: Vớt ngay thả vào âu nước đá lạnh (kỹ thuật sốc nhiệt) giúp tế bào thực vật co nhanh lại, giữ nguyên độ giòn sần sật.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Đun sôi quá lâu làm rau bị nát nhũn và ngả màu vàng úa."
+      },
+      "socraticPrompt": "Tại sao các đầu bếp chuyên nghiệp sau khi chần nhanh rau qua nước sôi lại thả ngay vào âu nước đá lạnh?",
+      "distractorReasons": [
+        "Đúng vì kỹ thuật sốc nhiệt nước đá giữ độ giòn ngọt và màu sắc tươi đẹp của món nộm/salad.",
+        "Sai vì ninh 30 phút rau củ sẽ nát nhừ biến chất.",
+        "Sai vì ướp quá nhiều muối làm teo nát rau củ.",
+        "Sai vì phơi nắng làm mất nước và bay hơi hết vitamin C."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "cn6_ch02_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa tâm lý và văn hóa của bữa cơm gia đình",
+      "question": "Trong nhịp sống hiện đại bận rộn, hành vi nào của các thành viên trong bữa cơm gia đình thể hiện sự TÔN TRỌNG, KẾT NỐI YÊU THƯƠNG VÀ BẢO VỆ TÂM LÝ ẤM ÁP?",
+      "options": [
+        "Mỗi người cầm một chiếc điện thoại lướt mạng xã hội, vừa ăn vừa xem không ai nói với ai câu nào",
+        "Cả nhà quây quần cùng phụ giúp dọn mâm, mời người lớn tuổi trước khi ăn, trò chuyện sẻ chia những câu chuyện vui vẻ tích cực và lắng nghe con cái",
+        "Bố mẹ nhân lúc con ăn cơm để quát tháo, mắng mỏ và chì chiết điểm số kém",
+        "Mỗi người bưng một bát cơm đi ăn ở một góc riêng biệt"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Giá trị nhân văn của bữa ăn kết nối yêu thương (Bài 6, SGK Công nghệ 6, trang 33).",
+        "steps": [
+          "Bước 1: Bữa cơm không chỉ là ăn để no bụng mà là khoảnh khắc giao lưu tình cảm thiêng liêng.",
+          "Bước 2: Không dùng điện thoại, mời chào lễ phép, trò chuyện động viên giúp tiêu hóa tốt và tạo sự gắn kết gia đình.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Mang sự căng thẳng cãi vã hoặc thiết bị điện tử vào bàn ăn gia đình."
+      },
+      "socraticPrompt": "Bàn ăn gia đình sẽ trở nên ấm áp và hạnh phúc nhất khi mọi người dành cho nhau thái độ và sự quan tâm như thế nào?",
+      "distractorReasons": [
+        "Sai vì dán mắt vào màn hình điện thoại tạo sự xa cách lạnh lẽo trong gia đình.",
+        "Đúng vì thể hiện trọn vẹn nét đẹp văn hóa hiếu nghĩa và tâm lý học gắn kết yêu thương gia đình.",
+        "Sai vì mắng mỏ trên bàn ăn gây ức chế thần kinh làm đau dạ dày và tạo mặc cảm tội lỗi cho trẻ.",
+        "Sai vì ăn riêng lẻ làm mất đi ý nghĩa sum họp của tổ ấm."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "cn6_ch02_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đọc nhãn mác thực phẩm và hạn sử dụng",
+      "question": "Khi đi siêu thị chọn mua thực phẩm đóng gói sẵn (sữa, đồ hộp, bánh mì), thông tin quan trọng hàng đầu trên bao bì mà người tiêu dùng thông thái BẮT BUỘC phải kiểm tra trước tiên là gì?",
+      "options": [
+        "Hình vẽ quảng cáo trên bao bì có hoạt hình vui nhộn không",
+        "Xem vỏ hộp có dán tem giảm giá nhiều tiền không bất kể hộp đã phồng méo",
+        "Hạn sử dụng (Exp Date / Use by Date), ngày sản xuất (MFG Date), nguồn gốc xuất xứ và tình trạng nguyên vẹn của bao bì đóng gói",
+        "Xem tên nhãn hiệu có nhiều chữ tiếng nước ngoài không"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Kỹ năng lựa chọn thực phẩm an toàn qua nhãn mác (Bài 4, SGK Công nghệ 6, trang 24).",
+        "steps": [
+          "Bước 1: Hạn sử dụng cho biết thực phẩm còn an toàn để tiêu thụ hay không.",
+          "Bước 2: Hộp đồ phồng rộp chứng tỏ vi khuẩn sinh khí (như nha bào Clostridium botulinum sinh độc tố thần kinh chết người).",
+          "Bước 3: Phải kiểm tra hạn dùng, ngày sản xuất và độ kín nguyên vẹn của bao bì."
+        ],
+        "trap": "Mua đồ hộp bị phồng méo rỉ sét chỉ vì được khuyến mãi giảm giá sâu."
+      },
+      "socraticPrompt": "Nếu một hộp sữa hoặc đồ hộp đã quá hạn sử dụng hoặc vỏ hộp bị phồng to bất thường, ăn vào sẽ có nguy cơ gì?",
+      "distractorReasons": [
+        "Sai vì hình vẽ bắt mắt chỉ là chiêu thức tiếp thị của nhà sản xuất.",
+        "Sai vì đồ hộp phồng méo chứa vi khuẩn độc tố botulinum cực độc có thể làm chết người.",
+        "Đúng vì kiểm tra hạn dùng và tính nguyên vẹn của bao bì là kỹ năng sống còn bảo vệ sức khỏe.",
+        "Sai vì chữ tiếng nước ngoài không đảm bảo an toàn nếu quá hạn sử dụng."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "cn6_ch02_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bảo tồn vitamin C trong chế biến rau xanh",
+      "question": "Vitamin C trong các loại rau xanh (rau ngót, rau muống, súp lơ) rất dễ bị phân hủy bởi nhiệt độ và oxy không khí. Thao tác chế biến nào sau đây giúp HẠN CHẾ TỐI ĐA SỰ THẤT THOÁT VITAMIN C?",
+      "options": [
+        "Thái nhỏ rau rồi ngâm trong nước muối suốt 2 tiếng trước khi nấu",
+        "Nấu canh xong để nguội trên bàn suốt 8 tiếng mới ăn",
+        "Cho rau vào nồi nước lạnh rồi đun sôi từ từ mở nắp vung suốt 1 tiếng",
+        "Rửa sạch rau nguyên lá trước khi thái; đợi nước thật sôi mới cho rau vào nấu nhanh, đậy vung kín và ăn ngay khi vừa chín tới"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kỹ thuật nấu nướng bảo tồn vitamin C trong rau củ (Bài 5, SGK Công nghệ 6, trang 29).",
+        "steps": [
+          "Bước 1: Vitamin C tan trong nước và bị oxy hóa nhanh bởi nhiệt và không khí.",
+          "Bước 2: Rửa sạch trước khi thái tránh vitamin tan ra nước rửa.",
+          "Bước 3: Nước sôi mới cho rau vào nấu chín nhanh trong thời gian ngắn và ăn nóng bảo toàn tối đa lượng vitamin C quý giá."
+        ],
+        "trap": "Thái vụn rau rồi mới rửa làm trôi sạch vitamin vào nước cống."
+      },
+      "socraticPrompt": "Tại sao mẹ luôn dặn phải rửa sạch mớ rau rồi mới dùng dao thái, chứ không được thái vụn ra rồi mới đem rửa?",
+      "distractorReasons": [
+        "Sai vì ngâm rau thái nhỏ lâu trong nước làm vitamin C hòa tan và mất sạch.",
+        "Sai vì để nguội nhiều giờ làm lượng vitamin giảm sút và nguy cơ ôi thiu nhiễm khuẩn.",
+        "Sai vì đun từ nước lạnh và mở vung lâu khiến vitamin C bị oxy hóa phân hủy hoàn toàn.",
+        "Đúng vì quy trình khoa học: rửa trước thái sau, nước sôi thả vào nấu nhanh đậy vung giúp giữ vitamin trọn vẹn."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    }
+  ]
+}

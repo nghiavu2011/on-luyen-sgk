@@ -1,0 +1,202 @@
+{
+  "chapterId": "ch04",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp - Chương IV: Đồ dùng điện trong gia đình",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "cn6_ch04_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán điện năng tiêu thụ và chi phí kinh tế",
+      "question": "Một gia đình thay thế 5 bóng đèn sợi đốt (công suất 100W/bóng) bằng 5 bóng đèn LED (công suất 10W/bóng). Mỗi ngày các bóng đèn thắp sáng trung bình 6 giờ. Giả sử giá điện bình quân là 2.500 đồng/kWh (1 kWh = 1.000 Wh). Trong một tháng (30 ngày), gia đình đó TIẾT KIỆM ĐƯỢC BAO NHIÊU TIỀN ĐIỆN chỉ riêng từ việc đổi bóng đèn?",
+      "options": [
+        "50.000 đồng",
+        "500.000 đồng",
+        "202.500 đồng",
+        "1.000.000 đồng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bài toán tính toán điện năng tiêu thụ thực tế A = P * t (Bài 10 & 14, SGK Công nghệ 6).",
+        "steps": [
+          "Bước 1: Tính công suất tiết kiệm được mỗi giờ: P_tiết kiệm = 5 * (100W - 10W) = 5 * 90W = 450W = 0,45 kW.",
+          "Bước 2: Tính số kWh điện tiết kiệm trong 1 ngày (6 giờ): 0,45 kW * 6h = 2,7 kWh (số điện).",
+          "Bước 3: Tính số kWh tiết kiệm trong 1 tháng (30 ngày): 2,7 kWh * 30 = 81 kWh.",
+          "Bước 4: Tính số tiền tiết kiệm: 81 kWh * 2.500 đồng = 202.500 đồng/tháng.",
+          "Bước 5: Chọn 202.500 đồng."
+        ],
+        "trap": "Quên nhân với số lượng 5 bóng đèn hoặc quên đổi từ Watt (W) sang Kilôoát (kW)."
+      },
+      "socraticPrompt": "5 bóng đèn giảm từ 500W xuống còn 50W, mỗi ngày 6 tiếng sẽ bớt được bao nhiêu số điện (kWh) trong một tháng 30 ngày?",
+      "distractorReasons": [
+        "Sai vì tính toán thiếu số lượng bóng đèn.",
+        "Sai vì nhầm lẫn phép nhân số giờ sử dụng.",
+        "Đúng vì tính toán công thức A = P * t và nhân đơn giá chính xác 100% ra 202.500 đồng.",
+        "Sai vì kết quả tính toán phi thực tế."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "cn6_ch04_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xử lý tai nạn điện giật khẩn cấp",
+      "question": "Khi em bất ngờ phát hiện một người thân trong gia đình bị điện giật dính chặt vào dây điện hở và đang co giật, hành động CẤP CỨU ĐẦU TIÊN VÀ SINH TỬ NHẤT mà em phải làm là gì?",
+      "options": [
+        "Lao vào dùng hai tay trần kéo giật nạn nhân ra ngay",
+        "Bỏ chạy ra ngoài đường la hét mà không ngắt điện",
+        "Đổ một xô nước vào người nạn nhân để giải nhiệt",
+        "Lập tức ngắt ngay cầu dao điện (Aptomat) gần nhất; hoặc dùng một cây gậy gỗ/nhựa khô gạt dây điện ra khỏi người nạn nhân, tuyệt đối không dùng tay trần chạm vào người đang bị điện giật"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy trình sơ cứu tai nạn điện giật sinh tử (Bài 14, SGK Công nghệ 6, trang 72).",
+        "steps": [
+          "Bước 1: Nạn nhân bị điện giật đang là vật dẫn điện mang điện thế nguy hiểm.",
+          "Bước 2: Nếu dùng tay trần chạm vào người nạn nhân, dòng điện sẽ truyền thẳng sang người cứu nạn khiến cả hai cùng bị điện giật tử vong.",
+          "Bước 3: Nguyên tắc tối thượng: Cắt nguồn điện (ngắt Aptomat) trước tiên; hoặc dùng vật liệu cách điện tuyệt đối (gậy tre gỗ khô ráo) gạt tách nguồn điện ra."
+        ],
+        "trap": "Hốt hoảng lao vào dùng tay trần kéo nạn nhân dẫn đến bị điện giật kép."
+      },
+      "socraticPrompt": "Khi một người đang bị dính dòng điện, nếu em lấy tay trần nắm vào tay họ thì dòng điện có giật sang người em không?",
+      "distractorReasons": [
+        "Sai vì tay trần dẫn điện sẽ khiến người cứu nạn bị điện giật tử vong theo.",
+        "Sai vì mất thời gian vàng cứu sống tính mạng nạn nhân.",
+        "Sai vì tạt nước sẽ làm dẫn điện lan rộng ra toàn bộ sàn nhà giật chết tất cả mọi người.",
+        "Đúng vì tuân thủ chuẩn xác nguyên tắc sinh tử: Cắt nguồn điện hoặc dùng vật cách điện khô tách nạn nhân."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "cn6_ch04_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khắc phục sự cố nồi cơm điện",
+      "question": "Nồi cơm điện nhà bạn Hoa cắm điện đèn vẫn sáng, nhưng nút gạt Cook vừa gạt xuống được 1 phút thì tự động nảy bật ngược lên Warm, làm cho gạo bị sống sít không chín thành cơm. Nguyên nhân kỹ thuật nào sau đây là KHẢ THI NHẤT?",
+      "options": [
+        "Do mặt đáy ngoài của xoong nấu bị dính hạt cơm khô hoặc dị vật làm kênh nghiêng, không tiếp xúc khít với mâm nhiệt; hoặc rơ le nhiệt bị hỏng giãn lò xo sớm",
+        "Do nồi cơm điện bị mất sóng Wi-Fi",
+        "Do gạo mua ở chợ bị lỗi phần mềm",
+        "Do nhà cắm điện quá mạnh làm vỡ nồi"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chuẩn đoán sự cố thường gặp của nồi cơm điện (Bài 12, SGK Công nghệ 6, trang 66).",
+        "steps": [
+          "Bước 1: Rơ le nhiệt nằm ở trung tâm mâm nhiệt, áp sát vào đáy xoong nấu.",
+          "Bước 2: Nếu đáy xoong bị dính hạt cơm khô hay dị vật, đáy xoong bị kênh làm nhiệt cục bộ tăng nhanh hoặc rơ le bị lờn lực nam châm lò xo, công tắc sẽ tự nảy sớm sang Warm.",
+          "Bước 3: Khắc phục: Vệ sinh sạch đáy xoong và mâm nhiệt, hoặc thay rơ le nhiệt mới."
+        ],
+        "trap": "Đè vật nặng lên nút gạt ép nồi nấu tiếp sẽ gây cháy cuộn mâm nhiệt hỏa hoạn."
+      },
+      "socraticPrompt": "Nếu đáy ruột nồi cơm bị dính vật lạ khiến đáy không áp sát vào mâm nhiệt thì nhiệt độ cảm biến sẽ bị sai lệch như thế nào?",
+      "distractorReasons": [
+        "Đúng vì phân tích chuẩn xác nguyên lý tiếp xúc nhiệt giữa đáy xoong và cảm biến rơ le nhiệt.",
+        "Sai vì nồi cơm điện cơ thông thường không sử dụng mạng Wi-Fi.",
+        "Sai vì hạt gạo là nông sản thực phẩm không có phần mềm máy tính.",
+        "Sai vì điện áp chuẩn 220V không làm vỡ nồi theo cách này."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "cn6_ch04_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vệ sinh an toàn thiết bị nhiệt điện",
+      "question": "Trước khi dùng khăn ẩm lau chùi vệ sinh các đồ dùng nhiệt điện như nồi cơm điện, ấm đun siêu tốc hay bếp điện, thao tác BẮT BUỘC ĐẦU TIÊN là gì?",
+      "options": [
+        "Đổ đầy nước vào bảng điều khiển điện tử",
+        "Rút phích cắm điện ra khỏi ổ cắm nguồn và chờ thiết bị nguội hoàn toàn",
+        "Bật công tắc nấu ở nhiệt độ tối đa",
+        "Cắm thêm 3 phích cắm điện vào cùng một ổ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc an toàn khi vệ sinh bảo dưỡng đồ dùng điện (Bài 10, 12, 13, SGK Công nghệ 6).",
+        "steps": [
+          "Bước 1: Khăn ẩm chứa nước là chất dẫn điện nguy hiểm.",
+          "Bước 2: Rút phích cắm triệt tiêu hoàn toàn nguy cơ bị rò điện giật; đợi nguội giúp tránh bị bỏng nhiệt và không làm nứt vỡ mặt kính bếp.",
+          "Bước 3: Tuyệt đối không để nước lọt vào mâm nhiệt hay bo mạch điều khiển."
+        ],
+        "trap": "Để nguyên phích cắm đang có điện mà dùng khăn ướt lau chùi ổ cắm hoặc đáy nồi."
+      },
+      "socraticPrompt": "Muốn dùng khăn ẩm lau sạch dầu mỡ bám trên đồ điện, việc làm đầu tiên để dòng điện không thể truyền sang tay em là gì?",
+      "distractorReasons": [
+        "Sai vì nước lọt vào mạch điện tử sẽ gây chập cháy hỏng máy vĩnh viễn.",
+        "Đúng vì ngắt điện nguồn và chờ nguội là điều kiện tiên quyết đảm bảo an toàn tính mạng.",
+        "Sai vì bật công tắc nấu gây bỏng nặng khi lau chùi.",
+        "Sai vì cắm nhiều phích cắm gây quá tải chập mạch."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "cn6_ch04_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Chọn mua đồ dùng điện theo công suất và nhu cầu",
+      "question": "Gia đình bác Bình có 4 thành viên. Khi chọn mua nồi cơm điện cho gia đình, bác nên chọn dung tích định mức nào là HỢP LÝ VÀ TIẾT KIỆM ĐIỆN NHẤT?",
+      "options": [
+        "Nồi dung tích 0,6 lít (chỉ đủ nấu cho 1 người ăn)",
+        "Nồi dung tích công nghiệp 10 lít (dùng cho nhà hàng ăn 50 người)",
+        "Nồi dung tích từ 1,5 lít đến 1,8 lít (vừa vặn nấu cho 4 - 6 người ăn)",
+        "Nồi mini 0,2 lít"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Lựa chọn dung tích đồ dùng điện phù hợp quy mô gia đình (Bài 12, SGK Công nghệ 6, trang 64).",
+        "steps": [
+          "Bước 1: Nhu cầu thực tế: Gia đình 4 người.",
+          "Bước 2: Nồi 0,6L quá nhỏ không đủ cơm ăn; nồi 10L công suất 3000W quá lớn gây lãng phí điện và cơm dính đáy nồi.",
+          "Bước 3: Dung tích tiêu chuẩn cho gia đình 4-6 người là 1,5L - 1,8L (công suất khoảng 600W - 700W)."
+        ],
+        "trap": "Mua nồi quá to nấu ít cơm gây cháy khô và lãng phí điện năng."
+      },
+      "socraticPrompt": "Nhà có 4 người ăn cơm thì chiếc nồi có dung tích bao nhiêu lít là vừa vặn, không bị thiếu cơm mà cũng không tốn điện lãng phí?",
+      "distractorReasons": [
+        "Sai vì nồi 0,6L quá bé không đủ khẩu phần cho 4 người lớn.",
+        "Sai vì nồi 10L dùng cho bếp ăn tập thể hàng chục người, tiêu tốn rất nhiều điện.",
+        "Đúng vì dung tích 1,5L - 1,8L chuẩn xác tuyệt đối cho gia đình 4-6 thành viên.",
+        "Sai vì nồi 0,2L chỉ đủ nấu một chén cháo trẻ em."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "cn6_ch04_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng phó cháy nổ do chập điện",
+      "question": "Khi phát hiện một ổ cắm điện trong phòng khách bốc khói đen và phát ra tiếng nổ lẹt đẹt bốc lửa, việc làm nào sau đây là TỐI KỴ TUYỆT ĐỐI KHÔNG ĐƯỢC LÀM?",
+      "options": [
+        "Hô hoán báo động và chạy nhanh đi dập cầu dao tổng (Aptomat)",
+        "Gọi điện thoại báo khẩn cấp số 114 cho lực lượng Cảnh sát PCCC",
+        "Dùng bình chữa cháy khí CO2 hoặc bình bột chữa cháy chuyên dụng xịt vào gốc lửa sau khi đã cắt điện",
+        "Dùng xô nước hắt thẳng vào ổ cắm điện đang có lửa bốc cháy"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kỹ năng sinh tồn phòng cháy chữa cháy do chập điện (Bài 14, SGK Công nghệ 6).",
+        "steps": [
+          "Bước 1: Đám cháy do chập điện đang mang điện áp 220V.",
+          "Bước 2: Nước là chất dẫn điện cực mạnh. Hắt nước vào đám cháy điện sẽ biến dòng nước thành cầu dẫn truyền điện giật chết người hắt nước ngay lập tức và gây nổ lan truyền mạng điện.",
+          "Bước 3: Tuyệt đối không dùng nước dập đám cháy khi chưa ngắt điện hoàn toàn."
+        ],
+        "trap": "Thói quen thấy lửa là lấy nước dập mà quên mất đây là đám cháy do điện."
+      },
+      "socraticPrompt": "Khi ngọn lửa đang bùng lên từ nguồn điện 220V chưa ngắt, dội nước vào sẽ khiến dòng điện phóng ngược theo dòng nước như thế nào?",
+      "distractorReasons": [
+        "Sai vì dập Aptomat là hành động đúng đắn cứu mạng.",
+        "Sai vì gọi 114 là hành động cứu nạn cần thiết.",
+        "Sai vì dùng bình chữa cháy CO2 hoặc bình bột là đúng kỹ thuật chữa cháy điện.",
+        "Đúng vì hắt nước vào ổ điện đang có điện là điều tối kỵ nguy hiểm đến tính mạng do bị điện giật tử vong."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    }
+  ]
+}
