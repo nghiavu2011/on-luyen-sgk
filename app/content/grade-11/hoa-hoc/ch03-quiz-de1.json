@@ -1,16 +1,128 @@
-[
-  {
-    "id": "hoahoc11_ch03_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Chất nào sau đây là hợp chất hữu cơ?",
-    "options": [
-      "A. $CO_2$",
-      "B. $CaCO_3$",
-      "C. $C_2H_5OH$ (Cồn ethylic)",
-      "D. $HCN$"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phân loại hữu cơ: $C_2H_5OH$ là cồn ethanol hữu cơ.\n💡 $CO_2$, $CaCO_3$, $HCN$ tuy có Carbon nhưng theo quy ước là hợp chất vô cơ.\n⚠️ Ghi nhớ các ngoại lệ vô cơ chứa carbon."
-  }
-]
+{
+  "chapterId": "ch03",
+  "examId": "de1",
+  "title": "Hóa học 11 — Chương 3: Đề 1 — Khái niệm & Nhận biết hợp chất hữu cơ",
+  "description": "Bộ đề trắc nghiệm kiểm tra nhận biết hợp chất hữu cơ, phương pháp tách biệt tinh chế và thuyết cấu tạo hoá học.",
+  "questions": [
+    {
+      "id": "h11_c3_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm hợp chất hữu cơ",
+      "question": "Chất nào sau đây thuộc loại hợp chất hữu cơ?",
+      "options": [
+        "C₂H₅OH (ethanol)",
+        "CaCO₃ (đá vôi)",
+        "CO₂ (khí carbonic)",
+        "NaCN (sodium cyanide)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa hợp chất hữu cơ là hợp chất của carbon (trừ CO, CO₂, muối carbonate, cyanide, carbide,...).",
+        "socraticPrompt": "Em hãy nhớ lại hợp chất nào của carbon không phải là hợp chất vô cơ như muối carbonate hay khí oxide?",
+        "steps": "Hợp chất hữu cơ là hợp chất của carbon (loại trừ CO, CO₂, muối carbonate, cyanide, carbide). Ethanol C₂H₅OH là alcohol hữu cơ.",
+        "trap": "Nhầm CaCO₃, CO₂, NaCN là hợp chất hữu cơ vì chứa nguyên tố carbon."
+      }
+    },
+    {
+      "id": "h11_c3_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phương pháp chiết lỏng - lỏng",
+      "question": "Để tách hai chất lỏng không hòa tan vào nhau (như dầu ăn và nước), phương pháp nào sau đây là phù hợp nhất?",
+      "options": [
+        "Phương pháp kết tinh",
+        "Phương pháp chiết",
+        "Phương pháp chưng cất",
+        "Phương pháp sắc kí cột"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nguyên tắc của phương pháp chiết dựa trên sự không trộn lẫn của hai chất lỏng.",
+        "socraticPrompt": "Hai chất lỏng tách thành hai lớp riêng biệt trong bình thì dùng dụng cụ phễu gì để tách?",
+        "steps": "Dầu ăn và nước không tan lẫn, tách thành hai lớp riêng biệt. Phương pháp tối ưu để tách là phương pháp chiết bằng phễu chiết.",
+        "trap": "Chọn chưng cất gây tốn kém năng lượng không cần thiết."
+      }
+    },
+    {
+      "id": "h11_c3_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thuyết cấu tạo hoá học Butlerov",
+      "question": "Trong hợp chất hữu cơ, nguyên tử carbon luôn thể hiện hoá trị bằng bao nhiêu?",
+      "options": [
+        "Hoá trị II",
+        "Hoá trị I",
+        "Hoá trị IV",
+        "Hoá trị III"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Luận điểm cơ bản của thuyết cấu tạo hoá học về hoá trị của carbon.",
+        "socraticPrompt": "Nguyên tử carbon có 4 electron ở lớp ngoài cùng, trong hợp chất hữu cơ nó luôn tạo 4 liên kết cộng hoá trị.",
+        "steps": "Theo thuyết cấu tạo hoá học của Butlerov, trong tất cả các hợp chất hữu cơ, nguyên tử carbon luôn luôn có hoá trị IV.",
+        "trap": "Nhầm với hợp chất vô cơ CO trong đó carbon thể hiện số oxi hoá +2."
+      }
+    },
+    {
+      "id": "h11_c3_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khái niệm đồng đẳng",
+      "question": "Cặp chất nào sau đây thuộc cùng một dãy đồng đẳng?",
+      "options": [
+        "CH₄ và C₂H₄",
+        "C₂H₄ và C₂H₂",
+        "C₂H₅OH và CH₃-O-CH₃",
+        "CH₄ và C₃H₈"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Định nghĩa đồng đẳng: cùng loại cấu tạo và hơn kém nhau một hay nhiều nhóm -CH₂-.",
+        "socraticPrompt": "Dãy đồng đẳng alkane có công thức chung CnH2n+2, cặp chất nào cùng công thức chung này?",
+        "steps": "CH₄ (methane) và C₃H₈ (propane) đều là alkane no mạch hở có công thức chung CnH2n+2, phân tử hơn kém nhau 2 nhóm -CH₂-, nên là đồng đẳng của nhau.",
+        "trap": "Nhầm C₂H₅OH và CH₃-O-CH₃ là đồng đẳng (đây là cặp đồng phân nhóm chức)."
+      }
+    },
+    {
+      "id": "h11_c3_d1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đồng phân cấu tạo của C₄H₁₀",
+      "question": "Số lượng đồng phân cấu tạo ứng với công thức phân tử C₄H₁₀ (alkane) là bao nhiêu?",
+      "options": [
+        "2 đồng phân",
+        "3 đồng phân",
+        "4 đồng phân",
+        "1 đồng phân"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Viết đồng phân mạch carbon của alkane C₄H₁₀.",
+        "socraticPrompt": "Với 4 nguyên tử carbon, em có thể xếp thành mạch thẳng mấy carbon và mạch nhánh mấy carbon?",
+        "steps": "C₄H₁₀ có 2 đồng phân cấu tạo: 1) Mạch không nhánh: CH₃-CH₂-CH₂-CH₃ (butane); 2) Mạch phân nhánh: CH₃-CH(CH₃)-CH₃ (2-methylpropane hay isobutane).",
+        "trap": "Đếm lặp mạch bẻ góc hoặc quên đồng phân mạch nhánh."
+      }
+    },
+    {
+      "id": "h11_c3_d1_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định công thức đơn giản nhất",
+      "question": "Một hợp chất hữu cơ X chứa 40% C, 6.7% H và 53.3% O về khối lượng. Công thức đơn giản nhất của X là:",
+      "options": [
+        "C₂H₄O",
+        "C₂H₄O₂",
+        "CH₂O",
+        "C₃H₆O"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Lập tỉ lệ mol các nguyên tố C : H : O từ phần trăm khối lượng.",
+        "socraticPrompt": "Lấy %C / 12, %H / 1 và %O / 16 rồi rút gọn về tỉ lệ số nguyên tối giản.",
+        "steps": "Tỉ lệ n_C : n_H : n_O = (40 / 12) : (6.7 / 1) : (53.3 / 16) = 3.33 : 6.70 : 3.33 = 1 : 2 : 1. Vậy công thức đơn giản nhất là CH₂O.",
+        "trap": "Chọn C₂H₄O₂ vì nhầm công thức phân tử acetic acid với công thức đơn giản nhất (chưa tối giản)."
+      }
+    }
+  ]
+}

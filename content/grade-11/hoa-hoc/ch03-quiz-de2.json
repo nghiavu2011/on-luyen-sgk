@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch03",
+  "examId": "de2",
+  "title": "Hóa học 11 — Chương 3: Đề 2 — Kỹ năng & Thực hành tách chất, phân tích nguyên tố",
+  "description": "Bộ đề rèn luyện kỹ năng giải bài toán xác định CTPT và phương pháp tách biệt tinh chế trong thực nghiệm.",
+  "questions": [
+    {
+      "id": "h11_c3_d2_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phương pháp chưng cất phân đoạn",
+      "question": "Phương pháp nào sau đây được ứng dụng để tách các phân đoạn xăng, dầu hỏa, diesel từ dầu mỏ?",
+      "options": [
+        "Phương pháp chiết lỏng",
+        "Phương pháp chưng cất",
+        "Phương pháp kết tinh lại",
+        "Phương pháp sắc kí cột"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ứng dụng chưng cất phân đoạn tách hỗn hợp lỏng dựa vào sự khác biệt nhiệt độ sôi.",
+        "socraticPrompt": "Dầu mỏ chứa nhiều hydrocarbon tan lẫn vào nhau có nhiệt độ sôi khác nhau thì dùng phương pháp nhiệt gì?",
+        "steps": "Các hydrocarbon trong dầu mỏ có nhiệt độ sôi tăng dần theo chiều tăng khối lượng mol. Chưng cất phân đoạn là phương pháp chuẩn để tách dầu mỏ thành các phân đoạn nhiên liệu.",
+        "trap": "Nhầm với phương pháp chiết hay kết tinh vốn không áp dụng cho hỗn hợp đồng thể này."
+      }
+    },
+    {
+      "id": "h11_c3_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định sự có mặt của carbon và hydrogen",
+      "question": "Khi nung nóng một hợp chất hữu cơ với bột CuO khan, chất khí sinh ra làm đục nước vôi trong và hơi nước làm đổi màu muối CuSO₄ khan từ trắng sang xanh. Hai hiện tượng này lần lượt chứng minh sự có mặt của:",
+      "options": [
+        "Nguyên tố N và H",
+        "Nguyên tố C và O",
+        "Nguyên tố C và H",
+        "Nguyên tố H và O"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phương pháp phân tích định tính nguyên tố C và H bằng CuO.",
+        "socraticPrompt": "Khí làm đục nước vôi trong là khí gì, và hơi ẩm biến CuSO₄ khan màu trắng thành màu xanh là chất gì?",
+        "steps": "Khí CO₂ tạo kết tủa CaCO₃ với Ca(OH)₂ chứng minh có nguyên tố C. Hơi H₂O kết hợp với CuSO₄ khan tạo tinh thể CuSO₄·5H₂O màu xanh chứng minh có nguyên tố H.",
+        "trap": "Nhầm lẫn O có trong hợp chất hữu cơ với O lấy từ chất oxi hoá CuO."
+      }
+    },
+    {
+      "id": "h11_c3_d2_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đồng phân nhóm chức của C₂H₆O",
+      "question": "Ứng với công thức phân tử C₂H₆O, có thể viết được bao nhiêu công thức cấu tạo mạch hở của hai chất thuộc hai loại nhóm chức khác nhau?",
+      "options": [
+        "1 công thức",
+        "4 công thức",
+        "3 công thức",
+        "2 công thức"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đồng phân nhóm chức giữa alcohol và ether của C₂H₆O.",
+        "socraticPrompt": "Với 1 nguyên tử O và 2 C no, O có thể liên kết với H (alcohol) hoặc nằm giữa hai gốc carbon (ether).",
+        "steps": "C₂H₆O có 2 đồng phân cấu tạo: 1) CH₃-CH₂-OH (ethyl alcohol, nhóm chức -OH); 2) CH₃-O-CH₃ (dimethyl ether, nhóm ether -O-).",
+        "trap": "Chỉ nghĩ đến cồn C₂H₅OH mà quên mất dimethyl ether."
+      }
+    },
+    {
+      "id": "h11_c3_d2_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định công thức phân tử từ phổ khối lượng MS",
+      "question": "Một hợp chất hữu cơ Y có công thức đơn giản nhất là C₂H₅O. Phổ khối lượng (MS) của Y cho thấy tín hiệu của ion phân tử [M⁺] có giá trị m/z = 90. Công thức phân tử của Y là:",
+      "options": [
+        "C₄H₁₀O₂",
+        "C₂H₅O",
+        "C₃H₆O₃",
+        "C₆H₁₅O₃"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Xác định CTPT từ công thức đơn giản nhất và phân tử khối qua phổ khối lượng MS.",
+        "socraticPrompt": "Khối lượng mol của nhóm (C₂H₅O) là bao nhiêu, và lấy 90 chia cho số đó để tìm hệ số n?",
+        "steps": "Ta có CTPT là (C₂H₅O)n. Khối lượng mol phân tử M = (12·2 + 5·1 + 16)·n = 45·n = 90 suy ra n = 2. Vậy CTPT là C₄H₁₀O₂.",
+        "trap": "Tính sai phân tử khối của C₂H₅O thành 46 hoặc 44 dẫn đến tìm sai n."
+      }
+    },
+    {
+      "id": "h11_c3_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính phần trăm khối lượng nguyên tố",
+      "question": "Phần trăm khối lượng của nguyên tố carbon trong phân tử acetic acid (CH₃COOH) là bao nhiêu?",
+      "options": [
+        "30.0%",
+        "50.0%",
+        "40.0%",
+        "20.0%"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính thành phần phần trăm theo khối lượng của nguyên tố trong hợp chất.",
+        "socraticPrompt": "Acetic acid có công thức C₂H₄O₂, khối lượng mol phân tử là 60 g/mol. Có 2 nguyên tử C nặng bao nhiêu?",
+        "steps": "CTPT của acetic acid là C₂H₄O₂, M = 12·2 + 1·4 + 16·2 = 60 g/mol. %C = (24 / 60) · 100% = 40.0%.",
+        "trap": "Chỉ tính 1 nguyên tử C (12 / 60 = 20%) do nhìn vào nhóm COOH mà quên nhóm CH₃."
+      }
+    },
+    {
+      "id": "h11_c3_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Số lượng đồng phân của C₅H₁₂",
+      "question": "Có bao nhiêu đồng phân cấu tạo ứng với công thức phân tử C₅H₁₂ (pentane)?",
+      "options": [
+        "2 đồng phân",
+        "3 đồng phân",
+        "4 đồng phân",
+        "5 đồng phân"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Xác định số lượng đồng phân cấu tạo mạch carbon của C₅H₁₂.",
+        "socraticPrompt": "Mạch thẳng 5C, mạch chính 4C có 1 nhánh methyl, và mạch chính 3C có 2 nhánh methyl.",
+        "steps": "C₅H₁₂ có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-CH₂-CH₃ (pentane); 2) CH₃-CH(CH₃)-CH₂-CH₃ (2-methylbutane hay isopentane); 3) C(CH₃)₄ (2,2-dimethylpropane hay neopentane).",
+        "trap": "Vẽ mạch 4C có nhánh ở vị trí số 3 rồi đếm trùng với nhánh ở vị trí số 2."
+      }
+    }
+  ]
+}

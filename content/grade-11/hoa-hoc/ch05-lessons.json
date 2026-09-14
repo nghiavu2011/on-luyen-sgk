@@ -1,47 +1,169 @@
-[
-  {
-    "id": "l11",
-    "title": "Bài 11: Dẫn xuất halogen và ứng dụng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 11: Dẫn xuất halogen và ứng dụng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 11: Dẫn xuất halogen và ứng dụng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 11: Dẫn xuất halogen và ứng dụng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l12",
-    "title": "Bài 12: Alcohol (Ethanol và Glycerol)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 12: Alcohol (Ethanol và Glycerol).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 12: Alcohol (Ethanol và Glycerol).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 12: Alcohol (Ethanol và Glycerol) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l13",
-    "title": "Bài 13: Phenol và ảnh hưởng qua lại giữa các nhóm nguyên tử",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 13: Phenol và ảnh hưởng qua lại giữa các nhóm nguyên tử.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 13: Phenol và ảnh hưởng qua lại giữa các nhóm nguyên tử.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 13: Phenol và ảnh hưởng qua lại giữa các nhóm nguyên tử để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+  "lessons": [
+    {
+      "id": "l11",
+      "title": "Bài 11: Dẫn xuất halogen và ứng dụng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm, danh pháp IUPAC và đặc điểm liên kết C-X trong dẫn xuất halogen.",
+        "Trình bày được phản ứng thế nhóm -OH và phản ứng tách hydrogen halide theo quy tắc Zaitsev.",
+        "Nêu được ứng dụng của dẫn xuất halogen và tác hại của hợp chất CFC đối với tầng ozone."
+      ],
+      "concepts": [
+        {
+          "term": "Dẫn xuất halogen",
+          "definition": "Hợp chất sinh ra khi thay thế một hay nhiều nguyên tử hydrogen trong phân tử hydrocarbon bằng nguyên tử halogen (F, Cl, Br, I).",
+          "notation": "R-X (X là F, Cl, Br, I)",
+          "note": "Liên kết C-X phân cực về phía nguyên tử halogen có độ âm điện lớn hơn."
+        },
+        {
+          "term": "Phản ứng thế nhóm -OH",
+          "definition": "Khi đun nóng dẫn xuất halogen với dung dịch kiềm, nguyên tử halogen bị thay thế bởi nhóm -OH tạo thành alcohol.",
+          "notation": "R-X + NaOH -> R-OH + NaX (đun nóng)",
+          "note": "Phản ứng dùng để điều chế alcohol từ dẫn xuất halogen."
+        },
+        {
+          "term": "Quy tắc tách Zaitsev",
+          "definition": "Trong phản ứng tách hydrogen halide, nguyên tử halogen ưu tiên tách ra cùng với nguyên tử hydrogen ở nguyên tử carbon bên cạnh có bậc cao hơn, tạo alkene có nhiều nhóm thế hơn là sản phẩm chính.",
+          "notation": "R-CH2-CH(X)-CH3 + KOH -> R-CH=CH-CH3 (sản phẩm chính) + KX + H2O",
+          "note": "Sản phẩm chính là alkene bền hơn có nhiều nhóm alkyl gắn vào nối đôi hơn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện phản ứng thế và phản ứng tách",
+          "meaning": "Dẫn xuất halogen đun với dung dịch kiềm trong nước ưu tiên phản ứng thế. Đun với dung dịch kiềm trong cồn (ethanol) ưu tiên phản ứng tách."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình hoá học và xác định sản phẩm chính khi đun nóng 2-bromobutane với KOH trong ethanol?",
+          "steps": [
+            "Bước 1: Công thức cấu tạo 2-bromobutane là CH3-CH(Br)-CH2-CH3. Nguyên tử Br gắn ở C2.",
+            "Bước 2: C1 (bậc 1) có 3H, C3 (bậc 2) có 2H. Theo quy tắc Zaitsev, Br ưu tiên tách cùng H ở C3 (carbon bậc cao hơn).",
+            "Bước 3: Sản phẩm chính thu được là but-2-ene: CH3-CH=CH-CH3 + KBr + H2O."
+          ],
+          "answer": "Sản phẩm chính là but-2-ene (CH3-CH=CH-CH3)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn dung môi nước và cồn: nghĩ đun với KOH trong nước cũng sinh ra alkene.",
+          "why": "KOH trong nước (dung môi nước) cho phản ứng thế tạo alcohol, còn KOH trong cồn (dung môi ethanol) mới xảy ra phản ứng tách tạo alkene."
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "title": "Bài 12: Alcohol (Ethanol và Glycerol)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm, công thức chung, phân loại theo bậc và danh pháp của alcohol.",
+        "Giải thích được ảnh hưởng của liên kết hydrogen đến nhiệt độ sôi và độ tan của alcohol.",
+        "Trình bày được tính chất hoá học: phản ứng thế H của -OH, tách nước tạo alkene/ether, oxi hoá không hoàn toàn và phản ứng tạo phức màu xanh lam thẫm của polyalcohol."
+      ],
+      "concepts": [
+        {
+          "term": "Alcohol",
+          "definition": "Hợp chất hữu cơ mà phân tử có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon no.",
+          "notation": "R-OH (R là gốc hydrocarbon no)",
+          "note": "Bậc của alcohol bằng bậc của nguyên tử carbon liên kết trực tiếp với nhóm -OH."
+        },
+        {
+          "term": "Liên kết hydrogen liên phân tử",
+          "definition": "Lực hút tĩnh điện giữa nguyên tử H linh động của nhóm -OH phân tử này với nguyên tử O mang điện âm của phân tử kia.",
+          "notation": "...O-H...O-H...",
+          "note": "Làm cho alcohol có nhiệt độ sôi cao hơn nhiều so với hydrocarbon hoặc dẫn xuất halogen có cùng khối lượng phân tử."
+        },
+        {
+          "term": "Phản ứng của polyalcohol có -OH liền kề",
+          "definition": "Các alcohol có từ hai nhóm -OH gắn vào hai nguyên tử C liền kề nhau (như glycerol, ethylene glycol) có khả năng hòa tan Cu(OH)2 tạo dung dịch phức chất màu xanh lam thẫm.",
+          "notation": "2C3H5(OH)3 + Cu(OH)2 -> [C3H7O3]2Cu + 2H2O",
+          "note": "Đây là phản ứng đặc trưng dùng để nhận biết glycerol và các polyalcohol liền kề."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc oxi hoá alcohol bằng CuO đun nóng",
+          "meaning": "Alcohol bậc 1 bị oxi hoá tạo aldehyde. Alcohol bậc 2 bị oxi hoá tạo ketone. Alcohol bậc 3 không bị oxi hoá trong điều kiện thường."
+        },
+        {
+          "statement": "Quy tắc tách nước của alcohol",
+          "meaning": "Ở 140°C với H2SO4 đặc tạo ether. Ở 170°C với H2SO4 đặc xảy ra tách nước nội phân tử tạo alkene."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Bằng phương pháp hoá học, hãy phân biệt hai lọ dung dịch mất nhãn đựng ethanol và glycerol?",
+          "steps": [
+            "Bước 1: Trích mẫu thử của hai dung dịch vào hai ống nghiệm.",
+            "Bước 2: Cho vào mỗi ống nghiệm một ít kết tủa Cu(OH)2 màu xanh nhạt vừa mới điều chế.",
+            "Bước 3: Ống nghiệm hòa tan kết tủa tạo dung dịch trong suốt màu xanh lam thẫm là glycerol. Ống nghiệm không có hiện tượng hòa tan là ethanol."
+          ],
+          "answer": "Dùng kết tủa Cu(OH)2; glycerol hòa tan tạo dung dịch xanh lam thẫm, ethanol không phản ứng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng propan-1,3-diol cũng hòa tan được Cu(OH)2 tạo dung dịch xanh lam thẫm.",
+          "why": "Chỉ các alcohol có các nhóm -OH ở các nguyên tử carbon LIỀN KỀ NHAU (như propan-1,2-diol hoặc glycerol) mới tạo phức được với Cu(OH)2."
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "title": "Bài 13: Phenol và ảnh hưởng qua lại giữa các nhóm nguyên tử",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm phenol, cấu tạo phân tử phenol đơn giản nhất C6H5OH.",
+        "Giải thích được tính acid yếu của phenol và ảnh hưởng qua lại giữa nhóm -OH và vòng benzene.",
+        "Trình bày được phản ứng thế vào nhân thơm của phenol với dung dịch bromine và acid nitric."
+      ],
+      "concepts": [
+        {
+          "term": "Phenol",
+          "definition": "Hợp chất hữu cơ trong phân tử có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon của vòng benzene.",
+          "notation": "C6H5OH",
+          "note": "Khác với alcohol thơm (như benzyl alcohol C6H5CH2OH có nhóm -OH gắn vào mạch nhánh no)."
+        },
+        {
+          "term": "Tính acid của phenol",
+          "definition": "Phenol thể hiện tính acid yếu: tác dụng được với dung dịch kiềm tạo muối phenolate, nhưng không làm đổi màu quỳ tím và yếu hơn carbonic acid.",
+          "notation": "C6H5OH + NaOH -> C6H5ONa + H2O",
+          "note": "Khi sục khí CO2 vào dung dịch C6H5ONa thì phenol bị đẩy ra làm vẩn đục dung dịch."
+        },
+        {
+          "term": "Phản ứng thế ở nhân thơm",
+          "definition": "Do ảnh hưởng của nhóm -OH đẩy electron vào vòng thơm, các vị trí ortho và para của phenol trở nên rất linh động, dễ dàng thế với nước bromine tạo kết tủa trắng.",
+          "notation": "C6H5OH + 3Br2 -> 2,4,6-tribromophenol (kết tủa trắng) + 3HBr",
+          "note": "Phản ứng này dùng để nhận biết định tính phenol."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ảnh hưởng qua lại giữa nhóm -OH và gốc phenyl",
+          "meaning": "Vòng benzene hút electron làm liên kết O-H phân cực hơn, phenol có tính acid. Ngược lại nhóm -OH đẩy electron làm các vị trí ortho, para trên vòng dễ tham gia phản ứng thế."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình phản ứng chứng minh phenol có tính acid yếu hơn carbonic acid (H2CO3)?",
+          "steps": [
+            "Bước 1: Sục khí CO2 và nước vào dung dịch sodium phenolate (C6H5ONa).",
+            "Bước 2: Acid mạnh hơn đẩy acid yếu hơn ra khỏi muối: H2CO3 + C6H5ONa -> C6H5OH + NaHCO3.",
+            "Bước 3: Phenol sinh ra ít tan trong nước làm dung dịch chuyển sang vẩn đục."
+          ],
+          "answer": "C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng phenol làm quỳ tím hóa đỏ vì phenol có tính acid.",
+          "why": "Tính acid của phenol cực kỳ yếu (Ka ≈ 10^-10), yếu hơn cả carbonic acid H2CO3 nên hoàn toàn không làm đổi màu quỳ tím."
+        }
+      ]
+    }
+  ]
+}

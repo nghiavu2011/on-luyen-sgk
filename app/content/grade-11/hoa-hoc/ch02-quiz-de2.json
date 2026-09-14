@@ -40,11 +40,11 @@
       "question": "Cho hai phản ứng: (1) $S + O_2 \\xrightarrow{t^o} SO_2$; (2) $S + Fe \\xrightarrow{t^o} FeS$. Vai trò của sulfur trong (1) và (2) lần lượt là:",
       "options": [
         "Sulfur là chất oxi hoá ở phản ứng 1 và là chất khử ở phản ứng 2",
-        "Sulfur là chất khử ở phản ứng 1 và là chất oxi hoá ở phản ứng 2",
         "Sulfur đều đóng vai trò là chất oxi hoá mạnh trong cả 2 phản ứng",
+        "Sulfur là chất khử ở phản ứng 1 và là chất oxi hoá ở phản ứng 2",
         "Sulfur đều đóng vai trò là chất khử điển hình trong cả 2 phản ứng"
       ],
-      "correct": 1,
+      "correct": 2,
       "breakdown": {
         "concept": "Xác định sự thay đổi số oxi hoá của đơn chất sulfur",
         "socraticPrompt": "Hãy xác định số oxi hoá của S trước và sau phản ứng trong $SO_2$ và $FeS$.",
@@ -64,11 +64,11 @@
       "question": "Khi không may bị bỏng acid sulfuric đặc ($H_2SO_4$ đặc) vào da, bước sơ cứu đầu tiên chuẩn y tế là:",
       "options": [
         "Bôi ngay kem đánh răng hoặc mỡ trăn trực tiếp lên vùng da bỏng",
-        "Dùng dung dịch kiềm đậm đặc để trung hòa hoàn toàn lượng acid",
         "Rửa ngay dưới vòi nước chảy nhẹ liên tục trong ít nhất 15 phút",
+        "Dùng dung dịch kiềm đậm đặc để trung hòa hoàn toàn lượng acid",
         "Băng kín vết bỏng bằng bông gạc khô và không được cho dính nước"
       ],
-      "correct": 2,
+      "correct": 1,
       "breakdown": {
         "concept": "Quy trình sơ cứu y tế đối với tai nạn bỏng hóa chất acid",
         "socraticPrompt": "Để pha loãng nhanh chóng và cuốn trôi lượng acid dư thừa trên da, ta cần dùng lượng nước như thế nào?",
@@ -112,11 +112,11 @@
       "question": "Để làm khô khí ammonia ($NH_3$) có lẫn hơi nước trong phòng thí nghiệm, hóa chất thích hợp nhất là:",
       "options": [
         "Dung dịch acid sulfuric đặc có tính hút nước mạnh",
-        "Hạt vôi sống khan $CaO$ không tác dụng với ammonia",
         "Chất bột phosphorus pentoxide dạng khan ($P_2O_5$)",
+        "Hạt vôi sống khan $CaO$ không tác dụng với ammonia",
         "Dung dịch acid clohiđric đậm đặc trong bình kín"
       ],
-      "correct": 1,
+      "correct": 2,
       "breakdown": {
         "concept": "Nguyên tắc chọn chất làm khô khí: chỉ hút nước, không phản ứng hoá học với khí cần làm khô",
         "socraticPrompt": "Ammonia là một base, nó sẽ phản ứng với những chất hút nước có tính acid như thế nào?",
@@ -135,12 +135,12 @@
       "topic": "Tính háo nước của H2SO4 đặc",
       "question": "Acid sulfuric đặc ($H_2SO_4$ đặc) nhỏ lên mẩu đường mía ($C_{12}H_{22}O_{11}$) làm đường hóa đen và sủi bọt dâng cao là do:",
       "options": [
-        "Tính chất acid mạnh hòa tan toàn bộ các liên kết cacbon",
-        "Tính chất bay hơi nhanh cuốn theo các phân tử chất rắn",
         "Tính chất háo nước mãnh liệt và tính chất oxi hoá mạnh",
+        "Tính chất bay hơi nhanh cuốn theo các phân tử chất rắn",
+        "Tính chất acid mạnh hòa tan toàn bộ các liên kết cacbon",
         "Tính chất tẩy màu hữu cơ do giải phóng nhiệt độ cao"
       ],
-      "correct": 2,
+      "correct": 0,
       "breakdown": {
         "concept": "Tính háo nước và tính oxi hoá mạnh của acid sulfuric đặc",
         "socraticPrompt": "Khối màu đen là carbon tạo ra do acid chiếm nước, sau đó carbon bị acid oxi hoá sinh ra những khí gì?",

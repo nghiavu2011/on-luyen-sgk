@@ -16,12 +16,12 @@
       "topic": "Tính toán định lượng Acid Nitric",
       "question": "Hòa tan hoàn toàn $3,84\\text{ gam } Cu$ vào dung dịch $HNO_3$ loãng dư. Thể tích khí $NO$ (sản phẩm khử duy nhất, ở $25^oC, 1\\text{ bar}$) là:",
       "options": [
-        "Thể tích khí NO thu được bằng 0,99 lít khí",
         "Thể tích khí NO thu được bằng 1,48 lít khí",
+        "Thể tích khí NO thu được bằng 0,99 lít khí",
         "Thể tích khí NO thu được bằng 2,47 lít khí",
         "Thể tích khí NO thu được bằng 0,74 lít khí"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
         "concept": "Định lượng phản ứng oxi hoá khử của kim loại với acid nitric",
         "socraticPrompt": "Em hãy tính số mol của Cu, viết phương trình bảo toàn electron hoặc phương trình phân tử để tìm số mol NO.",
@@ -41,11 +41,11 @@
       "question": "Trong công nghiệp sản xuất $H_2SO_4$ bằng phương pháp tiếp xúc, công đoạn hấp thụ $SO_3$ được thực hiện bằng chất nào?",
       "options": [
         "Dùng nước cất tinh khiết để tạo ra dung dịch loãng",
-        "Dùng acid sulfuric đặc 98% để tạo thành oleum",
+        "Dùng dung dịch kiềm sodium hydroxide đậm đặc nóng",
         "Dùng dung dịch nước vôi trong để tạo kết tủa trắng",
-        "Dùng dung dịch kiềm sodium hydroxide đậm đặc nóng"
+        "Dùng acid sulfuric đặc 98% để tạo thành oleum"
       ],
-      "correct": 1,
+      "correct": 3,
       "breakdown": {
         "concept": "Quy trình công nghệ hấp thụ khí $SO_3$ trong sản xuất $H_2SO_4$",
         "socraticPrompt": "Tại sao người ta không dùng nước trực tiếp để hấp thụ $SO_3$ mà phải dùng $H_2SO_4$ đặc?",
@@ -64,12 +64,12 @@
       "topic": "Mưa acid và môi trường",
       "question": "Một mẫu nước mưa có pH = 4,5. Nước mưa này có tính acid chủ yếu do sự có mặt của các acid nào sau đây hình thành trong khí quyển?",
       "options": [
-        "Acid carbonic ($H_2CO_3$) và acid acetic ($CH_3COOH$)",
-        "Acid clohiđric ($HCl$) và acid photphoric ($H_3PO_4$)",
         "Acid nitric ($HNO_3$) và acid sulfuric ($H_2SO_4$)",
+        "Acid clohiđric ($HCl$) và acid photphoric ($H_3PO_4$)",
+        "Acid carbonic ($H_2CO_3$) và acid acetic ($CH_3COOH$)",
         "Acid flohiđric ($HF$) và acid fomic hữu cơ ($HCOOH$)"
       ],
-      "correct": 2,
+      "correct": 0,
       "breakdown": {
         "concept": "Nguyên nhân và thành phần hóa học chính của mưa acid",
         "socraticPrompt": "Các khí thải công nghiệp $SO_2$ và $NO_x$ khi gặp oxy và nước mưa sẽ chuyển hóa thành những acid nào?",
@@ -90,10 +90,10 @@
       "options": [
         "Chỉ thu được một muối acid duy nhất là NaHSO3",
         "Chỉ thu được một muối trung hòa duy nhất Na2SO3",
-        "Thu được muối Na2SO4 và khí hydro sục bọt nhanh",
-        "Thu được hỗn hợp gồm cả hai muối NaHSO3 và Na2SO3"
+        "Thu được hỗn hợp gồm cả hai muối NaHSO3 và Na2SO3",
+        "Thu được muối Na2SO4 và khí hydro sục bọt nhanh"
       ],
-      "correct": 3,
+      "correct": 2,
       "breakdown": {
         "concept": "Xác định sản phẩm phản ứng giữa $SO_2$ và dung dịch kiềm dựa vào tỉ lệ mol",
         "socraticPrompt": "Em hãy tính tỉ số $T = n_{NaOH} / n_{SO_2}$ rồi so sánh với các mốc 1 và 2.",
@@ -138,10 +138,10 @@
       "options": [
         "Đồng ($Cu$) và Bạc ($Ag$) trơ trong acid nguội",
         "Kẽm ($Zn$) và Chì ($Pb$) trơ trong acid nguội",
-        "Nhôm ($Al$) và Sắt ($Fe$) trơ trong acid nguội",
-        "Magie ($Mg$) và Canxi ($Ca$) trơ trong acid nguội"
+        "Magie ($Mg$) và Canxi ($Ca$) trơ trong acid nguội",
+        "Nhôm ($Al$) và Sắt ($Fe$) trơ trong acid nguội"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
         "concept": "Hiện tượng thụ động hóa của nhôm và sắt trong acid đặc nguội",
         "socraticPrompt": "Kim loại nào được dùng để làm bồn chứa vận chuyển acid sulfuric và acid nitric đặc nguội?",

@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch06",
+  "examId": "de2",
+  "title": "Hóa học 11 — Chương 6: Đề 2 — Kỹ năng & Tính chất hoá học",
+  "description": "Bộ đề rèn luyện kỹ năng viết phương trình acid-base, phản ứng ester hoá và bài toán định lượng.",
+  "questions": [
+    {
+      "id": "h11_c6_d2_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính acid của acetic acid",
+      "question": "Dung dịch acetic acid (CH3COOH) làm quỳ tím chuyển sang màu nào sau đây?",
+      "options": [
+        "Màu đỏ",
+        "Màu xanh",
+        "Màu tím không đổi",
+        "Màu vàng"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính acid của carboxylic acid làm đổi màu chất chỉ thị quỳ tím.",
+        "socraticPrompt": "Dung dịch có tính acid làm giấy quỳ tím chuyển sang màu gì?",
+        "steps": "Acetic acid phân li một phần trong nước giải phóng ion H+: CH3COOH <=> CH3COO- + H+. Do đó dung dịch làm quỳ tím chuyển sang màu đỏ (hoặc hồng).",
+        "trap": "Nhầm sang màu xanh của dung dịch kiềm bazơ."
+      }
+    },
+    {
+      "id": "h11_c6_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phản ứng của acid với kim loại",
+      "question": "Cho kim loại kẽm (Zn) vào ống nghiệm chứa dung dịch acetic acid (CH3COOH) dư. Sản phẩm thu được gồm:",
+      "options": [
+        "(CH3COO)2Zn và khí CO2",
+        "CH3COOZn và khí H2",
+        "(CH3COO)2Zn và khí H2",
+        "ZnO và khí H2"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Carboxylic acid tác dụng với kim loại đứng trước hydrogen tạo muối và khí H2.",
+        "socraticPrompt": "Kẽm có hoá trị II, muối zinc acetate có công thức là gì và khí giải phóng là khí gì?",
+        "steps": "Phương trình phản ứng: 2CH3COOH + Zn -> (CH3COO)2Zn + H2↑. Kẽm có hoá trị II nên muối tạo thành là zinc acetate (CH3COO)2Zn và khí hydrogen.",
+        "trap": "Nhầm muối có hoá trị I (CH3COOZn) hoặc nhầm khí sinh ra là CO2."
+      }
+    },
+    {
+      "id": "h11_c6_d2_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm phản ứng ester hoá",
+      "question": "Phản ứng giữa acetic acid và ethanol khi có mặt xúc tác H2SO4 đặc, đun nóng thuộc loại phản ứng nào sau đây?",
+      "options": [
+        "Phản ứng trung hòa một chiều",
+        "Phản ứng ester hoá thuận nghịch",
+        "Phản ứng thế halogen",
+        "Phản ứng trùng hợp"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Bản chất của phản ứng ester hoá là phản ứng thuận nghịch giữa acid và alcohol.",
+        "socraticPrompt": "Phản ứng giữa carboxylic acid và alcohol có đặc điểm gì về chiều phản ứng và tên gọi?",
+        "steps": "Phương trình: CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O (H2SO4 đặc, t°). Đây là phản ứng ester hoá và có tính chất thuận nghịch (hai chiều).",
+        "trap": "Nghĩ đây là phản ứng một chiều hoàn toàn."
+      }
+    },
+    {
+      "id": "h11_c6_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt aldehyde và ketone",
+      "question": "Thuốc thử nào sau đây thích hợp nhất để phân biệt acetaldehyde (CH3CHO) và acetone (CH3COCH3)?",
+      "options": [
+        "Dung dịch quỳ tím",
+        "Dung dịch NaCl",
+        "Kim loại Na",
+        "Dung dịch [Ag(NH3)2]OH đun nóng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Dùng thuốc thử Tollens nhận biết aldehyde nhờ phản ứng tráng bạc mà ketone không có.",
+        "socraticPrompt": "Chất nào tác dụng được với dung dịch chứa phức bạc để tạo kết tủa bạc sáng bóng?",
+        "steps": "Acetaldehyde (CH3CHO) có phản ứng tráng bạc với thuốc thử Tollens [Ag(NH3)2]OH tạo lớp bạc sáng bóng. Acetone (ketone) không có phản ứng này.",
+        "trap": "Dùng kim loại Na (cả aldehyde và ketone đều không phản ứng với Na)."
+      }
+    },
+    {
+      "id": "h11_c6_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán khử aldehyde bằng H2",
+      "question": "Khử hoàn toàn 0.1 mol ethanal (CH3CHO) bằng khí hydrogen (xúc tác Ni, đun nóng). Thể tích khí H2 (đo ở 25°C, 1 bar, 1 mol khí = 24.79 L) đã tham gia phản ứng là:",
+      "options": [
+        "1.2395 lít",
+        "4.958 lít",
+        "2.479 lít",
+        "22.4 lít"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phản ứng cộng H2 vào nhóm carbonyl: CH3CHO + H2 -> CH3CH2OH (tỉ lệ mol 1:1).",
+        "socraticPrompt": "1 mol ethanal phản ứng vừa đủ với mấy mol H2? Thể tích ở điều kiện chuẩn (1 bar, 25°C) tính thế nào?",
+        "steps": "Phương trình: CH3CHO + H2 -> CH3CH2OH (xúc tác Ni, t°). Tỉ lệ mol là 1:1 nên n_H2 = n_ethanal = 0.1 mol. Thể tích khí H2 theo chuẩn mới: V = 0.1 · 24.79 = 2.479 lít.",
+        "trap": "Dùng điều kiện tiêu chuẩn cũ (22.4 L/mol) tính ra 2.24 lít."
+      }
+    },
+    {
+      "id": "h11_c6_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phản ứng của acid với muối carbonate",
+      "question": "Cho một ít dung dịch acetic acid (CH3COOH) vào ống nghiệm chứa dung dịch sodium hydrogencarbonate (NaHCO3), hiện tượng quan sát được là:",
+      "options": [
+        "Có bọt khí không màu thoát ra",
+        "Xuất hiện kết tủa màu trắng sữa",
+        "Dung dịch chuyển sang màu đỏ tím",
+        "Không có hiện tượng gì xảy ra"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Acetic acid mạnh hơn carbonic acid nên phản ứng với NaHCO3 giải phóng khí CO2.",
+        "socraticPrompt": "Acid tác dụng với muối carbonate hoặc hydrogencarbonate sinh ra khí gì quen thuộc?",
+        "steps": "Phương trình: CH3COOH + NaHCO3 -> CH3COONa + CO2↑ + H2O. Khí CO2 thoát ra tạo bọt khí sủi tăm trong dung dịch.",
+        "trap": "Nghĩ rằng acid hữu cơ quá yếu không phản ứng được với muối carbonate."
+      }
+    }
+  ]
+}

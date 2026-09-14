@@ -1,42 +1,86 @@
-[
-  {
-    "front": "Nhóm chức Carbonyl có cấu tạo thế nào?",
-    "back": "Gồm nguyên tử carbon liên kết đôi với nguyên tử oxygen ($>C=O$). Có ở Aldehyde ($-CHO$) và Ketone ($>C=O$).",
-    "tags": [
-      "Carbonyl",
-      "Nhóm chức"
-    ]
-  },
-  {
-    "front": "Phản ứng tráng bạc (Tollens) dùng để nhận biết nhóm chức nào?",
-    "back": "Dùng nhận biết nhóm chức aldehyde ($-CHO$), tạo lớp gương bạc sáng bóng bám thành ống nghiệm: $RCHO + 2[Ag(NH_3)_2]OH \\rightarrow RCOONH_4 + 2Ag \\downarrow + 3NH_3 + H_2O$.",
-    "tags": [
-      "Tráng bạc",
-      "Aldehyde"
-    ]
-  },
-  {
-    "front": "Nhóm chức của Carboxylic acid là gì?",
-    "back": "Nhóm Carboxyl ($-COOH$).",
-    "tags": [
-      "Carboxylic acid",
-      "Nhóm chức"
-    ]
-  },
-  {
-    "front": "Giấm ăn là dung dịch của axit nào và nồng độ bao nhiêu?",
-    "back": "Là dung dịch acetic acid ($CH_3COOH$) nồng độ từ $2\\%$ đến $5\\%$.",
-    "tags": [
-      "Giấm ăn",
-      "Thực tế"
-    ]
-  },
-  {
-    "front": "Phản ứng ester hoá là phản ứng giữa hai chất nào?",
-    "back": "Phản ứng thuận nghịch giữa Carboxylic acid và Alcohol khi có xúc tác $H_2SO_4$ đặc, đun nóng sinh ra Ester có mùi thơm hoa quả và nước.",
-    "tags": [
-      "Ester hoá",
-      "Phản ứng"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Hợp chất Carbonyl & Carboxylic acid",
+  "flashcards": [
+    {
+      "id": "fc_h11_c6_01",
+      "front": "Hợp chất carbonyl là gì?",
+      "back": "Là các hợp chất hữu cơ trong phân tử chứa nhóm chức carbonyl (>C=O), bao gồm aldehyde và ketone.",
+      "category": "Khái niệm",
+      "example": "HCHO (methanal), CH3COCH3 (propan-2-one / acetone).",
+      "mnemonic": "Chứa nhóm carbonyl >C=O là họ Carbonyl."
+    },
+    {
+      "id": "fc_h11_c6_02",
+      "front": "Phân biệt aldehyde và ketone như thế nào?",
+      "back": "Aldehyde có nhóm >C=O liên kết với ít nhất 1 nguyên tử H (nhóm -CHO). Ketone có nhóm >C=O liên kết với 2 gốc hydrocarbon.",
+      "category": "Phân loại",
+      "example": "R-CHO (aldehyde), R-CO-R' (ketone).",
+      "mnemonic": "Aldehyde nằm ở đầu cành (-CHO), Ketone nằm ở giữa thân (>C=O)."
+    },
+    {
+      "id": "fc_h11_c6_03",
+      "front": "Thuốc thử Tollens dùng để làm gì?",
+      "back": "Dùng để nhận biết aldehyde nhờ phản ứng tráng bạc tạo lớp kim loại Ag sáng bóng trên thành ống nghiệm. Ketone không phản ứng.",
+      "category": "Nhận biết",
+      "example": "R-CHO + 2[Ag(NH3)2]OH -> R-COONH4 + 2Ag↓ + 3NH3 + H2O.",
+      "mnemonic": "Thuốc thử Tollens tráng gương chỉ dành cho Aldehyde."
+    },
+    {
+      "id": "fc_h11_c6_04",
+      "front": "Phản ứng tạo iodoform đặc trưng cho nhóm cấu trúc nào?",
+      "back": "Đặc trưng cho các hợp chất có nhóm methyl carbonyl CH3-C(=O)- hoặc CH3-CH(OH)-, tạo kết tủa vàng CHI3 khi gặp I2/NaOH.",
+      "category": "Nhận biết",
+      "example": "Acetone CH3-CO-CH3 tạo kết tủa vàng nhạt CHI3.",
+      "mnemonic": "CH3-C=O gặp I2/kiềm sinh kết tủa vàng iodoform."
+    },
+    {
+      "id": "fc_h11_c6_05",
+      "front": "Carboxylic acid là gì?",
+      "back": "Là những hợp chất hữu cơ mà phân tử có nhóm carboxyl (-COOH) liên kết trực tiếp với nguyên tử carbon hoặc nguyên tử hydrogen.",
+      "category": "Khái niệm",
+      "example": "HCOOH (methanoic acid), CH3COOH (ethanoic acid / acetic acid).",
+      "mnemonic": "Nhóm -COOH là linh hồn của Carboxylic acid."
+    },
+    {
+      "id": "fc_h11_c6_06",
+      "front": "Vì sao carboxylic acid có nhiệt độ sôi cao hơn alcohol cùng số C?",
+      "back": "Do giữa các phân tử carboxylic acid hình thành được liên kết hydrogen liên phân tử dạng dimer (phân tử kép) rất bền vững.",
+      "category": "Giải thích",
+      "example": "CH3COOH (M = 60, sôi ở 118°C) cao hơn C3H7OH (M = 60, sôi ở 97°C).",
+      "mnemonic": "Liên kết hydrogen dạng dimer làm acid sôi cao nhất."
+    },
+    {
+      "id": "fc_h11_c6_07",
+      "front": "Tính chất hoá học của nhóm carboxyl (-COOH) là gì?",
+      "back": "Có tính acid: làm quỳ tím hóa đỏ, tác dụng với kim loại trước H, oxide base, base và muối của acid yếu hơn (như muối carbonate).",
+      "category": "Tính chất",
+      "example": "2CH3COOH + CaCO3 -> (CH3COO)2Ca + CO2↑ + H2O.",
+      "mnemonic": "Mang đầy đủ 5 tính chất của một acid."
+    },
+    {
+      "id": "fc_h11_c6_08",
+      "front": "Phản ứng ester hoá là phản ứng như thế nào?",
+      "back": "Là phản ứng thuận nghịch giữa carboxylic acid và alcohol với xúc tác H2SO4 đặc, đun nóng để tạo thành ester và nước.",
+      "category": "Phản ứng",
+      "example": "CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O (H2SO4 đặc, t°).",
+      "mnemonic": "Acid cộng Alcohol ra Ester cộng Nước (thuận nghịch)."
+    },
+    {
+      "id": "fc_h11_c6_09",
+      "front": "Vai trò của H2SO4 đặc trong phản ứng ester hoá là gì?",
+      "back": "Vừa đóng vai trò chất xúc tác cho phản ứng, vừa hút nước làm chuyển dịch cân bằng hoá học sang chiều tạo ester.",
+      "category": "Cơ chế",
+      "example": "Hút H2O giúp nâng cao hiệu suất điều chế ester.",
+      "mnemonic": "H2SO4 đặc: vừa xúc tác, vừa hút nước đẩy cân bằng."
+    },
+    {
+      "id": "fc_h11_c6_10",
+      "front": "Formon và giấm ăn có thành phần hoá học chính là gì?",
+      "back": "Formon là dung dịch nước chứa 37 - 40% formaldehyde (HCHO). Giấm ăn là dung dịch acetic acid (CH3COOH) có nồng độ 2 - 5%.",
+      "category": "Thực tiễn",
+      "example": "Formon ngâm xác tiêu bản; Giấm ăn làm gia vị nấu nướng.",
+      "mnemonic": "Formon chứa HCHO; Giấm ăn chứa CH3COOH (2-5%)."
+    }
+  ]
+}

@@ -1,42 +1,86 @@
-[
-  {
-    "front": "Tại sao Alcohol có nhiệt độ sôi cao hơn nhiều so với Alkane có khối lượng phân tử tương đương?",
-    "back": "Do giữa các phân tử alcohol hình thành được liên kết hydrogen liên phân tử bền vững.",
-    "tags": [
-      "Liên kết hydrogen",
-      "Nhiệt độ sôi"
-    ]
-  },
-  {
-    "front": "Độ cồn là gì? Cồn $70^\\circ$ có ý nghĩa gì?",
-    "back": "Là số mL cồn nguyên chất ($C_2H_5OH$) có trong $100\\text{ mL}$ dung dịch cồn. Cồn $70^\\circ$ chứa $70\\text{ mL}$ ethanol và $30\\text{ mL}$ nước, có tác dụng sát khuẩn tối ưu.",
-    "tags": [
-      "Độ cồn",
-      "Sát khuẩn"
-    ]
-  },
-  {
-    "front": "Phản ứng đặc trưng của polyalcohol có nhiều nhóm $-OH$ kề nhau (Glycerol)?",
-    "back": "Tạo dung dịch phức chất màu xanh lam thẫm với kết tủa $Cu(OH)_2$ ở nhiệt độ phòng.",
-    "tags": [
-      "Polyalcohol",
-      "Nhận biết"
-    ]
-  },
-  {
-    "front": "Phenol ($C_6H_5OH$) có tính chất acid thế nào?",
-    "back": "Có tính acid rất yếu (yếu hơn $H_2CO_3$, không làm đổi màu quỳ tím), nhưng tác dụng được với dung dịch $NaOH$.",
-    "tags": [
-      "Phenol",
-      "Tính acid"
-    ]
-  },
-  {
-    "front": "Hiện tượng xảy ra khi nhỏ nước Bromine vào dung dịch Phenol?",
-    "back": "Tạo kết tủa trắng $2,4,6\\text{-tribromophenol}$.",
-    "tags": [
-      "Nhận biết Phenol",
-      "Kết tủa trắng"
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Dẫn xuất halogen – Alcohol – Phenol",
+  "flashcards": [
+    {
+      "id": "fc_h11_c5_01",
+      "front": "Dẫn xuất halogen là gì?",
+      "back": "Là hợp chất hữu cơ sinh ra khi thay thế một hay nhiều nguyên tử hydrogen trong phân tử hydrocarbon bằng nguyên tử halogen (F, Cl, Br, I).",
+      "category": "Khái niệm",
+      "example": "CH3Cl (chloromethane), C2H5Br (bromoethane).",
+      "mnemonic": "Thay H bằng halogen (F, Cl, Br, I)."
+    },
+    {
+      "id": "fc_h11_c5_02",
+      "front": "Quy tắc tách Zaitsev phát biểu như thế nào?",
+      "back": "Nguyên tử halogen ưu tiên tách ra cùng với nguyên tử hydrogen ở nguyên tử carbon bên cạnh có bậc cao hơn, tạo alkene có nhiều nhóm thế hơn là sản phẩm chính.",
+      "category": "Quy tắc",
+      "example": "2-bromobutane tách HBr tạo sản phẩm chính là but-2-ene.",
+      "mnemonic": "Zaitsev: tách H ở carbon bậc cao hơn, nối đôi nhiều nhóm thế."
+    },
+    {
+      "id": "fc_h11_c5_03",
+      "front": "Alcohol là gì?",
+      "back": "Là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon no.",
+      "category": "Khái niệm",
+      "example": "C2H5OH (ethanol), CH3OH (methanol).",
+      "mnemonic": "Nhóm -OH gắn trực tiếp vào C no."
+    },
+    {
+      "id": "fc_h11_c5_04",
+      "front": "Bậc của alcohol được xác định như thế nào?",
+      "back": "Bậc của alcohol bằng bậc của nguyên tử carbon liên kết trực tiếp với nhóm -OH.",
+      "category": "Quy tắc",
+      "example": "CH3-CH2-OH (bậc 1), (CH3)2CH-OH (bậc 2), (CH3)3C-OH (bậc 3).",
+      "mnemonic": "Bậc alcohol = Bậc của C gắn nhóm -OH."
+    },
+    {
+      "id": "fc_h11_c5_05",
+      "front": "Vì sao alcohol có nhiệt độ sôi cao hơn hydrocarbon có cùng số C?",
+      "back": "Do giữa các phân tử alcohol hình thành được liên kết hydrogen liên phân tử bền vững.",
+      "category": "Giải thích",
+      "example": "Ethanol (M = 46) sôi ở 78.3°C trong khi propane (M = 44) sôi ở -42°C.",
+      "mnemonic": "Liên kết hydrogen kéo nhiệt độ sôi lên cao."
+    },
+    {
+      "id": "fc_h11_c5_06",
+      "front": "Thuốc thử nhận biết polyalcohol có các nhóm -OH kề nhau là gì?",
+      "back": "Dung dịch Cu(OH)2 ở nhiệt độ phòng. Hiện tượng: hòa tan kết tủa tạo dung dịch phức màu xanh lam thẫm.",
+      "category": "Nhận biết",
+      "example": "Glycerol C3H5(OH)3 hòa tan Cu(OH)2 tạo dung dịch xanh lam thẫm.",
+      "mnemonic": "-OH kề nhau hòa tan Cu(OH)2 ra xanh lam thẫm."
+    },
+    {
+      "id": "fc_h11_c5_07",
+      "front": "Phenol là gì?",
+      "back": "Hợp chất hữu cơ trong phân tử có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon của vòng benzene.",
+      "category": "Khái niệm",
+      "example": "C6H5OH (phenol đơn giản nhất).",
+      "mnemonic": "Nhóm -OH cắm thẳng vào vòng benzene: đó là Phenol."
+    },
+    {
+      "id": "fc_h11_c5_08",
+      "front": "Tính acid của phenol mạnh hay yếu?",
+      "back": "Phenol có tính acid rất yếu: tác dụng được với NaOH nhưng không làm đổi màu quỳ tím và yếu hơn carbonic acid (H2CO3).",
+      "category": "Tính chất",
+      "example": "C6H5OH + NaOH -> C6H5ONa + H2O; C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3.",
+      "mnemonic": "Phenol acid yếu: ăn được kiềm nhưng quỳ không đổi màu."
+    },
+    {
+      "id": "fc_h11_c5_09",
+      "front": "Hiện tượng khi cho phenol tác dụng với dung dịch nước bromine là gì?",
+      "back": "Dung dịch nước bromine bị mất màu và xuất hiện kết tủa trắng 2,4,6-tribromophenol.",
+      "category": "Nhận biết",
+      "example": "C6H5OH + 3Br2 -> C6H2Br3OH↓ (trắng) + 3HBr.",
+      "mnemonic": "Phenol gặp nước bromine: kết tủa trắng 2,4,6-tribromophenol."
+    },
+    {
+      "id": "fc_h11_c5_10",
+      "front": "Sản phẩm khi oxi hoá alcohol bậc 1 và bậc 2 bằng CuO, t° là gì?",
+      "back": "Alcohol bậc 1 bị oxi hoá tạo aldehyde. Alcohol bậc 2 bị oxi hoá tạo ketone. Alcohol bậc 3 không bị oxi hoá.",
+      "category": "Quy tắc",
+      "example": "CH3CH2OH + CuO -> CH3CHO + Cu + H2O; (CH3)2CHOH + CuO -> (CH3)2CO + Cu + H2O.",
+      "mnemonic": "Bậc 1 ra Aldehyde, Bậc 2 ra Ketone, Bậc 3 chịu chết."
+    }
+  ]
+}

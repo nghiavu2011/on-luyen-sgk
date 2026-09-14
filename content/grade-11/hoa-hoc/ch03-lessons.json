@@ -1,32 +1,129 @@
-[
-  {
-    "id": "l06",
-    "title": "Bài 6: Hợp chất hữu cơ và phương pháp tách biệt, tinh chế",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 6: Hợp chất hữu cơ và phương pháp tách biệt, tinh chế.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 6: Hợp chất hữu cơ và phương pháp tách biệt, tinh chế.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 6: Hợp chất hữu cơ và phương pháp tách biệt, tinh chế để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Công thức phân tử và Cấu trúc phân tử hợp chất hữu cơ",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 7: Công thức phân tử và Cấu trúc phân tử hợp chất hữu cơ.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 7: Công thức phân tử và Cấu trúc phân tử hợp chất hữu cơ.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 7: Công thức phân tử và Cấu trúc phân tử hợp chất hữu cơ để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Đại cương về Hoá học hữu cơ",
+  "lessons": [
+    {
+      "id": "l06",
+      "title": "Bài 6: Hợp chất hữu cơ và phương pháp tách biệt, tinh chế",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm hợp chất hữu cơ, hoá học hữu cơ và đặc điểm chung của hợp chất hữu cơ.",
+        "Trình bày được nguyên tắc và ứng dụng của các phương pháp tách biệt, tinh chế: chưng cất, chiết, kết tinh và sắc kí cột."
+      ],
+      "concepts": [
+        {
+          "term": "Hợp chất hữu cơ",
+          "definition": "Hợp chất hữu cơ là hợp chất của carbon (trừ CO, CO₂, muối carbonate, cyanide, carbide,...). Thành phần nguyên tố nhất thiết phải có C, thường có H, O, N, S, halogen.",
+          "notation": "CxHyOzNt...",
+          "note": "Liên kết hoá học chủ yếu trong hợp chất hữu cơ là liên kết cộng hoá trị."
+        },
+        {
+          "term": "Phương pháp chưng cất",
+          "definition": "Dùng để tách các chất lỏng có nhiệt độ sôi khác nhau nhiều và tan lẫn vào nhau.",
+          "notation": "Bay hơi ở nhiệt độ sôi → Ngưng tụ qua ống sinh hàn",
+          "note": "Ví dụ: chưng cất rượu ethylic (ethanol) từ dung dịch giấm lên men, cất tinh dầu tràm."
+        },
+        {
+          "term": "Phương pháp chiết",
+          "definition": "Dùng để tách các chất lỏng không tan lẫn vào nhau (chiết lỏng - lỏng) hoặc tách chất tan dựa vào độ tan khác nhau trong hai dung môi không trộn lẫn.",
+          "notation": "Dùng phễu chiết tách lớp",
+          "note": "Ví dụ: tách dầu ăn lẫn trong nước bằng phễu chiết; chiết cafein từ lá chè xanh."
+        },
+        {
+          "term": "Phương pháp kết tinh",
+          "definition": "Dùng để tách chất rắn dựa vào độ tan khác nhau của chất đó ở các nhiệt độ khác nhau trong cùng một dung môi.",
+          "notation": "Hòa tan nóng → Lọc nóng → Làm nguội để kết tinh",
+          "note": "Ví dụ: tinh chế đường mía, sản xuất muối ăn từ nước biển."
+        },
+        {
+          "term": "Phương pháp sắc kí cột",
+          "definition": "Dùng để tách các chất dựa trên sự phân bố khác nhau của chúng giữa pha tĩnh (chất hấp phụ) và pha động (dung môi di chuyển).",
+          "notation": "Pha tĩnh trong cột thuỷ tinh + Pha động rửa giải",
+          "note": "Dùng tách các hỗn hợp phức tạp như sắc tố lá cây, mẫu dược liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Lựa chọn phương pháp tách biệt phù hợp",
+          "meaning": "Chất lỏng tan lẫn khác nhiệt độ sôi: dùng chưng cất. Hai chất lỏng không trộn lẫn: dùng chiết. Chất rắn tan nhiều khi nóng, ít khi lạnh: dùng kết tinh."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Để tách hỗn hợp gồm dầu ăn và nước, em hãy lựa chọn dụng cụ và phương pháp tách biệt phù hợp nhất?",
+          "steps": [
+            "Bước 1: Phân tích tính chất: Dầu ăn và nước là hai chất lỏng không trộn lẫn vào nhau, dầu ăn nhẹ hơn nên nổi lên trên thành hai lớp tách biệt rõ ràng.",
+            "Bước 2: Phương pháp phù hợp để tách hai chất lỏng không trộn lẫn là phương pháp chiết lỏng - lỏng.",
+            "Bước 3: Dụng cụ sử dụng là phễu chiết. Mở khóa phễu chiết để lớp nước ở dưới chảy ra trước, sau đó khóa lại và thu lớp dầu ăn ở trên."
+          ],
+          "answer": "Dùng phương pháp chiết lỏng - lỏng với dụng cụ là phễu chiết."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng phương pháp chưng cất để tách hỗn hợp dầu ăn và nước.",
+          "why": "Không cần thiết và tốn năng lượng vì hai chất này không tan lẫn vào nhau, chỉ cần dùng phễu chiết là tách được ngay."
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "title": "Bài 7: Công thức phân tử và Cấu trúc phân tử hợp chất hữu cơ",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt được công thức thực nghiệm (công thức đơn giản nhất) và công thức phân tử.",
+        "Nêu được nội dung cơ bản của thuyết cấu tạo hoá học (thuyết Butlerov).",
+        "Hiểu hiện tượng đồng đẳng, đồng phân (đồng phân mạch carbon, đồng phân vị trí nhóm chức, đồng phân nhóm chức)."
+      ],
+      "concepts": [
+        {
+          "term": "Công thức đơn giản nhất",
+          "definition": "Công thức biểu thị tỉ lệ tối giản về số lượng nguyên tử của các nguyên tố trong phân tử hợp chất hữu cơ.",
+          "notation": "CxHyOz -> CnH2n+2,...",
+          "note": "Công thức phân tử là bội số nguyên của công thức đơn giản nhất: (CxHyOz)n."
+        },
+        {
+          "term": "Thuyết cấu tạo hoá học",
+          "definition": "Trong phân tử hợp chất hữu cơ, các nguyên tử liên kết với nhau theo đúng hoá trị và theo một trật tự nhất định gọi là cấu tạo hoá học.",
+          "notation": "Carbon luôn có hoá trị IV trong hợp chất hữu cơ",
+          "note": "Nguyên tử carbon không những liên kết với nguyên tử nguyên tố khác mà còn liên kết trực tiếp với nhau tạo thành mạch carbon (mạch hở không nhánh, có nhánh hoặc mạch vòng)."
+        },
+        {
+          "term": "Đồng đẳng",
+          "definition": "Các chất có cấu tạo và tính chất hoá học tương tự nhau nhưng phân tử hơn kém nhau một hay nhiều nhóm methylene (-CH₂-).",
+          "notation": "CH4, C2H6, C3H8,... là dãy đồng đẳng alkane",
+          "note": "Các chất đồng đẳng có cùng công thức chung nhưng tính chất vật lí biến đổi có quy luật."
+        },
+        {
+          "term": "Đồng phân",
+          "definition": "Hiện tượng các chất có cùng công thức phân tử nhưng có cấu tạo hoá học khác nhau, dẫn đến tính chất khác nhau.",
+          "notation": "C2H6O có 2 đồng phân: C2H5OH (rượu) và CH3-O-CH3 (ether)",
+          "note": "Gồm đồng phân cấu tạo (mạch C, vị trí liên kết bội/nhóm chức, nhóm chức) và đồng phân hình học."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc hoá trị của Butlerov",
+          "meaning": "Trong hợp chất hữu cơ: Carbon có hoá trị IV, Hydrogen hoá trị I, Oxygen hoá trị II, Nitrogen hoá trị III, Halogen hoá trị I."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đốt cháy hoàn toàn 4.4 g một hydrocarbon A thu được 13.2 g CO₂ và 7.2 g H₂O. Khối lượng mol phân tử của A là 44 g/mol. Xác định công thức phân tử của A?",
+          "steps": [
+            "Bước 1: Tính số mol: n_C = n_CO₂ = 13.2 / 44 = 0.3 mol; n_H = 2 · n_H₂O = 2 · (7.2 / 18) = 0.8 mol.",
+            "Bước 2: Lập tỉ lệ mol C : H = 0.3 : 0.8 = 3 : 8. Công thức đơn giản nhất là (C₃H₈)n.",
+            "Bước 3: Ta có M_A = 44 · n = 44 suy ra n = 1. Vậy công thức phân tử của A là C₃H₈ (propane)."
+          ],
+          "answer": "Công thức phân tử của A là C₃H₈."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân đôi số mol H khi tính từ n_H₂O (lấy n_H = n_H₂O).",
+          "why": "Mỗi phân tử H₂O chứa 2 nguyên tử H nên số mol H luôn bằng 2 lần số mol H₂O."
+        }
+      ]
+    }
+  ]
+}

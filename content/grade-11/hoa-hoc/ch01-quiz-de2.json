@@ -15,12 +15,12 @@
       "topic": "Nguyên lý Le Chatelier",
       "question": "Cho phản ứng: $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$ có $\\Delta_r H_{298}^o < 0$. Để cân bằng chuyển dịch theo chiều thuận, ta cần:",
       "options": [
-        "Giảm nhiệt độ của hệ phản ứng và tăng áp suất chung của hệ",
         "Tăng nhiệt độ của hệ phản ứng và giảm áp suất chung của hệ",
+        "Giảm nhiệt độ của hệ phản ứng và tăng áp suất chung của hệ",
         "Thêm chất xúc tác thích hợp vào bình phản ứng ở nhiệt độ cao",
         "Tăng thể tích của bình phản ứng trong khi giữ nhiệt độ cố định"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
         "concept": "Sự chuyển dịch cân bằng dưới tác động của nhiệt độ và áp suất",
         "socraticPrompt": "Khi phản ứng tỏa nhiệt ($\\Delta_r H < 0$) và giảm số mol khí ($3 \\rightarrow 2$), muốn sang chiều thuận cần làm gì?",
@@ -40,11 +40,11 @@
       "question": "Hòa tan hoàn toàn $0,004\\text{ gam } NaOH$ vào nước thu được $1\\text{ lít}$ dung dịch. Giá trị $pH$ của dung dịch thu được là:",
       "options": [
         "Giá trị $pH$ bằng 4 với môi trường acid rõ rệt",
-        "Giá trị $pH$ bằng 10 với môi trường mang tính base",
         "Giá trị $pH$ bằng 11 với nồng độ ion hydroxide lớn",
+        "Giá trị $pH$ bằng 10 với môi trường mang tính base",
         "Giá trị $pH$ bằng 7 tương đương với nước cất trung tính"
       ],
-      "correct": 1,
+      "correct": 2,
       "breakdown": {
         "concept": "Tính $pH$ của dung dịch base mạnh đơn chức",
         "socraticPrompt": "Em hãy tính số mol của NaOH, suy ra nồng độ $[OH^-]$, rồi tính $pOH$ và $pH$ theo công thức liên hệ.",
@@ -65,10 +65,10 @@
       "options": [
         "Đóng vai trò là một base vì nó đã nhận proton từ nước",
         "Đóng vai trò là chất oxi hoá do có nguyên tố carbon",
-        "Đóng vai trò là một acid vì nó đã nhường proton cho nước",
-        "Đóng vai trò là chất trung tính không tham gia cho nhận"
+        "Đóng vai trò là chất trung tính không tham gia cho nhận",
+        "Đóng vai trò là một acid vì nó đã nhường proton cho nước"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
         "concept": "Tính lưỡng tính của ion hydrocarbonate ($HCO_3^-$)",
         "socraticPrompt": "Hãy quan sát sự thay đổi của ion $HCO_3^-$ sau phản ứng, nó đã cho đi hay nhận thêm hạt $H^+$?",
@@ -87,12 +87,12 @@
       "topic": "Nguyên lý Le Chatelier",
       "question": "Xét cân bằng: $N_2O_4(g) \\rightleftharpoons 2NO_2(g)$ (khí $NO_2$ màu nâu đỏ, $N_2O_4$ không màu). Khi nén pít-tông làm giảm thể tích bình thì:",
       "options": [
-        "Màu nâu đỏ đậm lên tức thì rồi sau đó tiếp tục đậm hơn nữa",
+        "Màu nâu đậm lên tức thì do nồng độ tăng rồi nhạt dần về sau",
         "Màu của hỗn hợp khí nhạt dần ngay lập tức và hoàn toàn mất màu",
         "Cân bằng chuyển dịch sang chiều thuận làm tăng số mol các khí",
-        "Màu nâu đậm lên tức thì do nồng độ tăng rồi nhạt dần về sau"
+        "Màu nâu đỏ đậm lên tức thì rồi sau đó tiếp tục đậm hơn nữa"
       ],
-      "correct": 3,
+      "correct": 0,
       "breakdown": {
         "concept": "Phân biệt giữa tác động vật lý ban đầu và chiều chuyển dịch cân bằng",
         "socraticPrompt": "Khi giảm thể tích bình, nồng độ các chất khí biến đổi thế nào trước khi cân bằng phản ứng lại?",
@@ -135,12 +135,12 @@
       "topic": "Chuẩn độ acid base",
       "question": "Để chuẩn độ $10\\text{ mL}$ dung dịch $HCl$ chưa biết nồng độ, cần dùng đúng $15\\text{ mL}$ dung dịch $NaOH\\text{ }0,1\\text{ M}$. Nồng độ mol của $HCl$ là:",
       "options": [
-        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,15\\text{ M}$",
         "Dung dịch acid ban đầu có nồng độ đúng bằng $0,10\\text{ M}$",
+        "Dung dịch acid ban đầu có nồng độ đúng bằng $0,15\\text{ M}$",
         "Dung dịch acid ban đầu có nồng độ đúng bằng $0,067\\text{ M}$",
         "Dung dịch acid ban đầu có nồng độ đúng bằng $0,20\\text{ M}$"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
         "concept": "Nguyên tắc bảo toàn số mol tại điểm tương đương của chuẩn độ acid - base",
         "socraticPrompt": "Tại điểm tương đương, số mol ion $H^+$ của acid phản ứng thế nào với số mol ion $OH^-$ của base?",

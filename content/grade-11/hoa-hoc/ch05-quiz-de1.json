@@ -1,16 +1,128 @@
-[
-  {
-    "id": "hoahoc11_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Để phân biệt dung dịch Glycerol và Cồn ethylic (Ethanol), người ta dùng thuốc thử nào sau đây?",
-    "options": [
-      "A. Kim loại Natri ($Na$)",
-      "B. Quỳ tím",
-      "C. Kết tủa $Cu(OH)_2$ ở nhiệt độ thường",
-      "D. Nước vôi trong"
-    ],
-    "answer": 2,
-    "explanation": "📌 Phản ứng đặc trưng polyalcohol: Glycerol có 3 nhóm -OH kề nhau hoà tan được $Cu(OH)_2$ tạo dung dịch màu xanh lam thẫm.\n💡 Cồn ethanol đơn chức không có phản ứng này.\n⚠️ Phản ứng đặc trưng phân biệt ancol đa chức kề nhau."
-  }
-]
+{
+  "chapterId": "ch05",
+  "examId": "de1",
+  "title": "Hóa học 11 — Chương 5: Đề 1 — Khái niệm & Nhận biết dẫn xuất halogen, alcohol, phenol",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận diện nhóm chức, danh pháp IUPAC và phản ứng nhận biết đặc trưng.",
+  "questions": [
+    {
+      "id": "h11_c5_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm alcohol",
+      "question": "Hợp chất alcohol là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử nào sau đây?",
+      "options": [
+        "Nguyên tử carbon no",
+        "Vòng benzene",
+        "Nguyên tử oxygen",
+        "Nguyên tử carbon không no"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn của alcohol theo SGK Hóa học 11.",
+        "socraticPrompt": "Để là alcohol, nhóm -OH phải gắn vào nguyên tử carbon mang liên kết đơn (no) hay liên kết đôi hoặc vòng thơm?",
+        "steps": "Theo định nghĩa SGK: Alcohol là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon no.",
+        "trap": "Nhầm nhóm -OH gắn trực tiếp vào vòng benzene (đó là hợp chất phenol, không phải alcohol)."
+      }
+    },
+    {
+      "id": "h11_c5_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết hợp chất phenol",
+      "question": "Chất nào sau đây thuộc loại hợp chất phenol?",
+      "options": [
+        "CH3-CH2-OH",
+        "C6H5-OH",
+        "C6H5-CH2-OH",
+        "CH3-O-CH3"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Định nghĩa hợp chất phenol có nhóm -OH gắn trực tiếp vào vòng benzene.",
+        "socraticPrompt": "Chất nào có nhóm -OH gắn trực tiếp vào nguyên tử carbon của vòng benzene C6H5-?",
+        "steps": "C6H5-OH có nhóm -OH gắn trực tiếp vào vòng benzene nên là phenol. C6H5-CH2-OH là alcohol thơm (benzyl alcohol).",
+        "trap": "Nhầm C6H5-CH2-OH là phenol vì thấy có chứa vòng benzene C6H5-."
+      }
+    },
+    {
+      "id": "h11_c5_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Danh pháp IUPAC của alcohol",
+      "question": "Tên gọi thay thế theo danh pháp IUPAC của alcohol có công thức CH3-CH(OH)-CH3 là:",
+      "options": [
+        "Propan-1-ol",
+        "Ethanol",
+        "Propan-2-ol",
+        "Propan-2-one"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy tắc gọi tên thay thế alcohol: tên hydrocarbon mạch chính + vị trí nhóm -OH + ol.",
+        "socraticPrompt": "Mạch chính có 3 carbon là propan, nhóm -OH gắn ở vị trí carbon số mấy?",
+        "steps": "Mạch carbon có 3 nguyên tử C (propan). Nhóm -OH đính ở nguyên tử carbon số 2. Tên thay thế là propan-2-ol.",
+        "trap": "Nhầm đuôi -ol của alcohol với đuôi -one của ketone (propan-2-one)."
+      }
+    },
+    {
+      "id": "h11_c5_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phản ứng nhận biết polyalcohol liền kề",
+      "question": "Thuốc thử thích hợp nhất dùng để phân biệt hai chất lỏng không màu ethanol và glycerol là:",
+      "options": [
+        "Kim loại Na",
+        "Dung dịch quỳ tím",
+        "Dung dịch AgNO3",
+        "Dung dịch Cu(OH)2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phản ứng tạo phức màu xanh lam thẫm của polyalcohol có các nhóm -OH liền kề.",
+        "socraticPrompt": "Chất nào hòa tan được kết tủa Cu(OH)2 tạo dung dịch màu xanh lam thẫm đặc trưng?",
+        "steps": "Glycerol là polyalcohol có 3 nhóm -OH liền kề nên hòa tan được Cu(OH)2 tạo phức chất xanh lam thẫm. Ethanol là alcohol đơn chức nên không có phản ứng này.",
+        "trap": "Chọn kim loại Na vì cả hai chất đều tác dụng giải phóng khí H2 nên không phân biệt được."
+      }
+    },
+    {
+      "id": "h11_c5_d1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Quy tắc tách Zaitsev",
+      "question": "Đun nóng 2-bromobutane với dung dịch KOH trong ethanol. Sản phẩm hữu cơ chính thu được là gì?",
+      "options": [
+        "But-2-ene",
+        "Butan-2-ol",
+        "But-1-ene",
+        "But-2-yne"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Vận dụng quy tắc tách Zaitsev đối với dẫn xuất halogen.",
+        "socraticPrompt": "Nguyên tử Br gắn ở C2 ưu tiên tách cùng H ở carbon bên cạnh có bậc cao hơn là C3 hay C1?",
+        "steps": "Theo quy tắc Zaitsev: Nguyên tử halogen Br ở C2 ưu tiên tách cùng H ở C3 (bậc 2, bậc cao hơn C1 bậc 1). Nối đôi hình thành giữa C2 và C3 tạo sản phẩm chính là but-2-ene.",
+        "trap": "Chọn but-1-ene (đây là sản phẩm phụ) hoặc chọn butan-2-ol (sản phẩm của phản ứng thế trong nước)."
+      }
+    },
+    {
+      "id": "h11_c5_d1_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phản ứng nhận biết phenol bằng nước bromine",
+      "question": "Nhỏ từ từ vài giọt dung dịch nước bromine vào ống nghiệm đựng dung dịch phenol, hiện tượng quan sát được là:",
+      "options": [
+        "Có khí màu nâu đỏ bay lên",
+        "Dung dịch chuyển sang màu tím",
+        "Xuất hiện kết tủa trắng",
+        "Không có hiện tượng gì"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phản ứng thế nhân thơm của phenol tạo kết tủa 2,4,6-tribromophenol màu trắng.",
+        "socraticPrompt": "Nước bromine làm phenol thế đồng thời 3 nguyên tử Br vào các vị trí 2, 4, 6 tạo kết tủa màu gì?",
+        "steps": "Phenol phản ứng rất dễ dàng với nước bromine tạo kết tủa trắng 2,4,6-tribromophenol và làm mất màu nước bromine. Đây là phản ứng đặc trưng nhận biết phenol.",
+        "trap": "Nghĩ rằng không có hiện tượng do nhầm phenol phản ứng khó khăn như benzene."
+      }
+    }
+  ]
+}

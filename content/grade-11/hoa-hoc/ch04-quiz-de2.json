@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "Hóa học 11 — Chương 4: Đề 2 — Kỹ năng & Thực hành phản ứng Hydrocarbon",
+  "description": "Bộ đề rèn luyện kỹ năng vận dụng quy tắc Markovnikov, phản ứng thế nhân thơm và bài toán định lượng hydrocarbon.",
+  "questions": [
+    {
+      "id": "h11_c4_d2_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận diện dãy đồng đẳng từ phản ứng cháy",
+      "question": "Khi đốt cháy hoàn toàn một hydrocarbon X thu được số mol H₂O lớn hơn số mol CO₂. Hydrocarbon X thuộc dãy đồng đẳng nào sau đây?",
+      "options": [
+        "Alkane",
+        "Alkene",
+        "Alkyne",
+        "Arene"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đặc điểm phản ứng cháy của alkane: n_H₂O > n_CO₂ và n_alkane = n_H₂O - n_CO₂.",
+        "socraticPrompt": "Công thức CnH2n+2 khi đốt cháy tạo n mol CO₂ và (n+1) mol H₂O. So sánh số mol hai sản phẩm?",
+        "steps": "Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Vì n + 1 > n nên số mol H₂O luôn lớn hơn số mol CO₂.",
+        "trap": "Nhầm với alkene (n_H₂O = n_CO₂) hoặc alkyne (n_H₂O < n_CO₂)."
+      }
+    },
+    {
+      "id": "h11_c4_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vận dụng quy tắc cộng Markovnikov",
+      "question": "Sản phẩm chính thu được khi cho propene (CH₂=CH-CH₃) tác dụng với khí hydrogen chloride (HCl) là:",
+      "options": [
+        "1-chloropropane",
+        "1,2-dichloropropane",
+        "2-chloropropane",
+        "Propyl chloride"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy tắc cộng Markovnikov khi cộng HX vào alkene bất đối xứng.",
+        "socraticPrompt": "Nguyên tử H cộng vào carbon mang nhiều H hơn (=CH₂ thành -CH₃), nguyên tử Cl cộng vào carbon mang ít H hơn (-CH=).",
+        "steps": "Theo quy tắc Markovnikov: H cộng vào carbon số 1 (chứa 2H), Cl cộng vào carbon số 2 (chứa 1H) tạo thành sản phẩm chính là 2-chloropropane: CH₃-CH(Cl)-CH₃.",
+        "trap": "Chọn 1-chloropropane (đây là sản phẩm phụ)."
+      }
+    },
+    {
+      "id": "h11_c4_d2_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Định hướng thế ở vòng thơm của toluene",
+      "question": "Khi cho toluene tác dụng với dung dịch hỗn hợp HNO₃ đặc và H₂SO₄ đặc (tỉ lệ mol 1 : 1), nhóm -NO₂ ưu tiên thế vào những vị trí nào trên vòng benzene?",
+      "options": [
+        "Chỉ vào vị trí meta",
+        "Ưu tiên vào vị trí ortho và para",
+        "Chỉ vào vị trí para",
+        "Ưu tiên vào vị trí meta và para"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc định hướng thế của nhóm alkyl đẩy electron trên vòng benzene.",
+        "socraticPrompt": "Nhóm methyl (-CH₃) đẩy electron làm tăng mật độ điện tích âm ở những vị trí nào trên vòng?",
+        "steps": "Nhóm -CH₃ là nhóm đẩy electron, hoạt hóa nhân thơm và định hướng các tác nhân thế electrophile ưu tiên tấn công vào vị trí ortho (o-) và para (p-).",
+        "trap": "Nhầm với nhóm hút electron (như -NO₂, -COOH) vốn định hướng vào vị trí meta."
+      }
+    },
+    {
+      "id": "h11_c4_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phản ứng trùng hợp ethylene",
+      "question": "Khi tiến hành trùng hợp monomer ethylene (CH₂=CH₂) ở nhiệt độ, áp suất và xúc tác thích hợp thu được polymer nào sau đây?",
+      "options": [
+        "Polypropylene (PP)",
+        "Polyvinyl chloride (PVC)",
+        "Polystyrene (PS)",
+        "Polyethylene (PE)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phản ứng trùng hợp của alkene tạo polymer mạch dài.",
+        "socraticPrompt": "Tên của polymer được hình thành bằng cách ghép từ 'Poly' phía trước tên của monomer tương ứng.",
+        "steps": "Phương trình phản ứng trùng hợp: n CH₂=CH₂ → (-CH₂-CH₂-)n. Sản phẩm là Polyethylene (nhựa PE), được sử dụng rất phổ biến để sản xuất túi nylon, màng bọc thực phẩm.",
+        "trap": "Nhầm với Polypropylene vốn được trùng hợp từ propylene."
+      }
+    },
+    {
+      "id": "h11_c4_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán định lượng phản ứng cộng bromine",
+      "question": "Dẫn từ từ 0.2 mol khí ethylene (C₂H₄) lội qua bình đựng dung dịch bromine dư. Khối lượng bromine (Br₂) tối đa tham gia phản ứng là bao nhiêu gam?",
+      "options": [
+        "16.0 gam",
+        "64.0 gam",
+        "32.0 gam",
+        "8.0 gam"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính toán theo phương trình hoá học phản ứng cộng halogen của alkene.",
+        "socraticPrompt": "Tỉ lệ mol phản ứng giữa C₂H₄ và Br₂ là 1 : 1. Khối lượng mol của phân tử Br₂ là 160 g/mol.",
+        "steps": "Phương trình phản ứng: C₂H₄ + Br₂ → C₂H₄Br₂. Ta có n_Br₂ = n_C₂H₄ = 0.2 mol. Khối lượng bromine phản ứng là: m_Br₂ = 0.2 · 160 = 32.0 gam.",
+        "trap": "Lấy khối lượng nguyên tử Br (80 g/mol) nhân 0.2 ra 16.0 gam mà quên phân tử bromine là Br₂."
+      }
+    },
+    {
+      "id": "h11_c4_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định CTPT alkane từ phản ứng cháy",
+      "question": "Đốt cháy hoàn toàn 0.1 mol một alkane X cần vừa đủ 0.5 mol khí O₂. Công thức phân tử của alkane X là:",
+      "options": [
+        "C₃H₈",
+        "C₂H₆",
+        "CH₄",
+        "C₄H₁₀"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Xác định CTPT alkane thông qua hệ số phương trình phản ứng cháy.",
+        "socraticPrompt": "1 mol CnH2n+2 cần (3n+1)/2 mol O₂. Đặt tỉ số (3n+1)/2 = n_O₂ / n_alkane = 0.5 / 0.1 = 5 để tìm n?",
+        "steps": "Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Số mol O₂ phản ứng = 0.1 · (3n+1)/2 = 0.5 suy ra (3n+1)/2 = 5, tức là 3n + 1 = 10 hay n = 3. Vậy CTPT của X là C₃H₈ (propane).",
+        "trap": "Tính nhầm (3n+1)/2 = 5 thành 3n = 10 dẫn đến sai số."
+      }
+    }
+  ]
+}

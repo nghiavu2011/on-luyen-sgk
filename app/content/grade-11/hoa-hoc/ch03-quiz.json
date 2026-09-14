@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch03",
+  "examId": "tonghop",
+  "title": "Hóa học 11 — Chương 3: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp phân tích cấu trúc, đồng phân và ứng dụng thực tiễn của hợp chất hữu cơ.",
+  "questions": [
+    {
+      "id": "h11_c3_th_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm liên kết trong hợp chất hữu cơ",
+      "question": "Loại liên kết hoá học phổ biến nhất trong phân tử các hợp chất hữu cơ là:",
+      "options": [
+        "Liên kết ion",
+        "Liên kết kim loại",
+        "Liên kết cộng hoá trị",
+        "Liên kết cho nhận"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đặc điểm cấu tạo phân tử hợp chất hữu cơ.",
+        "socraticPrompt": "Carbon và các phi kim như H, O, N liên kết với nhau bằng cách dùng chung electron thì gọi là liên kết gì?",
+        "steps": "Các nguyên tử trong phân tử hợp chất hữu cơ chủ yếu là các phi kim, chúng liên kết với nhau bằng các cặp electron dùng chung (liên kết cộng hoá trị phân cực hoặc không phân cực).",
+        "trap": "Nhầm liên kết ion vốn chỉ chiếm ưu thế trong các muối vô cơ."
+      }
+    },
+    {
+      "id": "h11_c3_th_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nguyên tắc phương pháp kết tinh",
+      "question": "Phương pháp kết tinh được dùng phổ biến để tinh chế chất rắn dựa trên nguyên tắc nào sau đây?",
+      "options": [
+        "Nhiệt độ sôi khác nhau của các chất",
+        "Màu sắc khác nhau của các tinh thể",
+        "Khối lượng riêng khác nhau của các chất",
+        "Độ tan trong dung môi thay đổi mạnh theo nhiệt độ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cơ sở khoa học của phương pháp kết tinh lại chất rắn.",
+        "socraticPrompt": "Hòa tan chất rắn trong dung môi nóng, khi làm lạnh thì độ tan giảm xuống làm chất rắn tách ra dưới dạng tinh thể.",
+        "steps": "Phương pháp kết tinh dựa trên sự khác nhau về độ tan của chất rắn ở nhiệt độ cao và nhiệt độ thấp: chất tan nhiều ở nhiệt độ cao, khi làm nguội dung dịch bão hòa thì chất sẽ kết tinh tách ra.",
+        "trap": "Nhầm với nguyên tắc chưng cất (dựa vào nhiệt độ sôi)."
+      }
+    },
+    {
+      "id": "h11_c3_th_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Loại mạch carbon",
+      "question": "Theo thuyết cấu tạo hoá học, các nguyên tử carbon có thể liên kết trực tiếp với nhau tạo thành các loại mạch carbon nào sau đây?",
+      "options": [
+        "Mạch hở không nhánh, mạch hở có nhánh và mạch vòng",
+        "Chỉ tạo được mạch thẳng không phân nhánh",
+        "Chỉ tạo được mạch vòng khép kín",
+        "Chỉ tạo được mạch nhánh phân cực"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khả năng liên kết độc đáo của nguyên tử carbon tạo các dạng mạch carbon đa dạng.",
+        "socraticPrompt": "Các nguyên tử C có thể nối dài thành chuỗi thẳng, có nhánh rẽ hoặc khép kín thành vòng.",
+        "steps": "Thuyết cấu tạo hoá học khẳng định: các nguyên tử carbon có khả năng liên kết trực tiếp với nhau tạo thành mạch carbon hở (không phân nhánh, có phân nhánh) hoặc mạch vòng khép kín.",
+        "trap": "Nghĩ rằng carbon chỉ tạo được mạch thẳng."
+      }
+    },
+    {
+      "id": "h11_c3_th_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán lập CTPT từ phản ứng cháy",
+      "question": "Đốt cháy hoàn toàn 2.3 g một hợp chất hữu cơ X (chứa C, H, O) thu được 4.4 g CO₂ và 2.7 g H₂O. Tỉ khối hơi của X so với He là 11.5. Công thức phân tử của X là:",
+      "options": [
+        "C₂H₄O₂",
+        "C₂H₆O",
+        "C₃H₈O",
+        "CH₄O"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Giải bài toán lập công thức phân tử hợp chất hữu cơ từ sản phẩm cháy và tỉ khối hơi.",
+        "socraticPrompt": "Tính mol C từ CO₂, mol H từ H₂O, kiểm tra m_O = m_X - m_C - m_H, rồi đối chiếu với M_X = 11.5 · 4 = 46 g/mol.",
+        "steps": "n_C = 4.4 / 44 = 0.1 mol (m_C = 1.2 g); n_H = 2 · (2.7 / 18) = 0.3 mol (m_H = 0.3 g). m_O = 2.3 - (1.2 + 0.3) = 0.8 g suy ra n_O = 0.8 / 16 = 0.05 mol. Tỉ lệ n_C : n_H : n_O = 0.1 : 0.3 : 0.05 = 2 : 6 : 1. CTPT có dạng (C₂H₆O)n. M_X = 11.5 · 4 = 46 g/mol, suy ra 46·n = 46 => n = 1. CTPT là C₂H₆O.",
+        "trap": "Quên nhân khối lượng mol của He là 4 (lấy tỉ khối với H₂ là 2) hoặc bỏ qua việc tính khối lượng oxi."
+      }
+    },
+    {
+      "id": "h11_c3_th_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nhận biết nhóm chức bằng phổ hồng ngoại IR",
+      "question": "Trên phổ hồng ngoại (IR) của một hợp chất hữu cơ X có một tín hiệu hấp thụ mạnh, rộng ở vùng 3350 cm⁻¹. Tín hiệu này đặc trưng cho liên kết của nhóm chức nào sau đây?",
+      "options": [
+        "Liên kết C=O trong nhóm carbonyl",
+        "Liên kết C-H trong alkane",
+        "Liên kết C=C trong alkene",
+        "Liên kết O-H trong nhóm alcohol"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đặc trưng vùng hấp thụ hồng ngoại (IR) của nhóm hydroxyl (-OH).",
+        "socraticPrompt": "Dải hấp thụ mạnh và tù (rộng) ở vùng 3200 - 3600 cm⁻¹ là dấu hiệu nhận biết nhóm chức chứa oxygen nào?",
+        "steps": "Vùng 3200 - 3650 cm⁻¹ với đỉnh hấp thụ rộng, mạnh là tín hiệu đặc trưng của dao động co giãn liên kết O-H (có liên kết hydrogen liên phân tử) trong alcohol hoặc phenol.",
+        "trap": "Nhầm với liên kết C=O vốn có đỉnh hẹp, rất nhọn ở vùng 1680 - 1750 cm⁻¹."
+      }
+    },
+    {
+      "id": "h11_c3_th_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đồng phân cấu tạo của C₃H₈O",
+      "question": "Ứng với công thức phân tử C₃H₈O, có tất cả bao nhiêu đồng phân cấu tạo gồm cả alcohol và ether?",
+      "options": [
+        "3 đồng phân",
+        "2 đồng phân",
+        "4 đồng phân",
+        "5 đồng phân"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Viết toàn bộ đồng phân cấu tạo (alcohol và ether) của C₃H₈O.",
+        "socraticPrompt": "Alcohol có 2 đồng phân vị trí nhóm -OH (bậc 1 và bậc 2). Ether có mấy cách chia mạch carbon quanh nguyên tử O?",
+        "steps": "C₃H₈O có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-OH (propan-1-ol); 2) CH₃-CH(OH)-CH₃ (propan-2-ol); 3) CH₃-O-CH₂-CH₃ (ethyl methyl ether).",
+        "trap": "Chỉ đếm 2 đồng phân alcohol mà quên đồng phân ether."
+      }
+    }
+  ]
+}

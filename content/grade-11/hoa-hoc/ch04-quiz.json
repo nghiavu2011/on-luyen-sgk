@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch04",
+  "examId": "tonghop",
+  "title": "Hóa học 11 — Chương 4: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp phân tích tính chất thơm, phản ứng phân biệt và bài toán thực tế.",
+  "questions": [
+    {
+      "id": "h11_c4_th_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng oxi hoá nhánh alkyl của toluene",
+      "question": "Khi đun nóng toluene (C₆H₅-CH₃) với dung dịch thuốc tím (KMnO₄), hiện tượng quan sát được là:",
+      "options": [
+        "Có khí màu vàng lục mùi hắc thoát ra",
+        "Dung dịch thuốc tím mất màu và xuất hiện kết tủa nâu đen",
+        "Dung dịch chuyển sang màu xanh lam đậm",
+        "Không có bất kì hiện tượng nào xảy ra"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phản ứng oxi hoá không hoàn toàn nhánh alkyl của arene bằng dung dịch KMnO₄ khi đun nóng.",
+        "socraticPrompt": "Khi đun nóng với chất oxi hoá KMnO₄, nhóm -CH₃ bị oxi hoá thành nhóm -COOK và Mn⁺⁷ bị khử thành chất kết tủa MnO₂ màu gì?",
+        "steps": "Ở nhiệt độ thường toluene không làm mất màu KMnO₄. Khi đun nóng, nhóm methyl bị oxi hoá: C₆H₅CH₃ + 2KMnO₄ → C₆H₅COOK + 2MnO₂↓ (nâu đen) + KOH + H₂O. Dung dịch thuốc tím bị mất màu và sinh kết tủa MnO₂ nâu đen.",
+        "trap": "Cho rằng toluene trơ giống benzene nên không có hiện tượng gì."
+      }
+    },
+    {
+      "id": "h11_c4_th_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khẳng định sai về benzene",
+      "question": "Khẳng định nào sau đây là SAI khi nói về tính chất của benzene (C₆H₆)?",
+      "options": [
+        "Benzene có cấu trúc vòng sáu cạnh đều phẳng rất bền vững",
+        "Benzene tham gia phản ứng thế dễ dàng hơn phản ứng cộng",
+        "Benzene không làm mất màu dung dịch KMnO₄ ngay cả khi đun nóng",
+        "Benzene làm mất màu nhanh dung dịch nước bromine ở nhiệt độ thường"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đặc trưng tính thơm của vòng benzene.",
+        "socraticPrompt": "Benzene có phản ứng với dung dịch nước bromine ở điều kiện thường như alkene không, hay cần điều kiện khan và xúc tác FeBr₃?",
+        "steps": "Hệ liên kết π liên hợp trong benzene rất bền nên benzene KHÔNG làm mất màu dung dịch nước bromine ở điều kiện thường. Benzene chỉ phản ứng với bromine nguyên chất (khan) có mặt xúc tác acid FeBr₃.",
+        "trap": "Nhầm tưởng liên kết pi trong benzene hoạt động giống như liên kết đôi của alkene."
+      }
+    },
+    {
+      "id": "h11_c4_th_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng phản ứng của acetylene với AgNO₃/NH₃",
+      "question": "Hiện tượng thực tế quan sát được khi sục khí acetylene (C₂H₂) vào dung dịch AgNO₃ trong NH₃ dư là:",
+      "options": [
+        "Xuất hiện kết tủa màu vàng nhạt",
+        "Xuất hiện kết tủa màu trắng xốp",
+        "Xuất hiện kết tủa màu đen nhánh",
+        "Dung dịch chuyển sang màu đỏ gạch"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phản ứng tạo kết tủa silver acetylide (CAg≡CAg) màu vàng nhạt.",
+        "socraticPrompt": "Hai nguyên tử H ở hai đầu nối ba của acetylene bị thay thế bởi hai ion Ag⁺ tạo thành kết tủa có màu đặc trưng gì?",
+        "steps": "Phương trình phản ứng: CH≡CH + 2AgNO₃ + 2NH₃ → CAg≡CAg↓ (màu vàng nhạt) + 2NH₄NO₃. Kết tủa màu vàng nhạt là dấu hiệu nhận biết acetylene.",
+        "trap": "Nhầm màu kết tủa thành màu trắng (như AgCl) hoặc màu đỏ gạch (như Cu₂O)."
+      }
+    },
+    {
+      "id": "h11_c4_th_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tách loại hydrocarbon",
+      "question": "Để loại bỏ lượng nhỏ khí ethylene lẫn trong khí ethane nhằm thu được ethane tinh khiết, phương pháp hoá học phù hợp nhất là dẫn hỗn hợp lội qua:",
+      "options": [
+        "Dung dịch kiềm NaOH đặc dư",
+        "Dung dịch nước vôi trong Ca(OH)₂",
+        "Dung dịch nước bromine dư",
+        "Dung dịch muối ăn NaCl bão hoà"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sự khác biệt về khả năng phản ứng cộng giữa alkane và alkene.",
+        "socraticPrompt": "Chất nào tác dụng và giữ lại khí ethylene (có liên kết đôi) mà không phản ứng với khí ethane (chỉ có liên kết đơn)?",
+        "steps": "Ethylene phản ứng với nước bromine và bị giữ lại trong dung dịch theo phản ứng: C₂H₄ + Br₂ → C₂H₄Br₂ (chất lỏng). Khí ethane không phản ứng sẽ bay ra ngoài, thu được ethane tinh khiết.",
+        "trap": "Chọn dung dịch kiềm vốn chỉ dùng để giữ các khí acid như CO₂, SO₂."
+      }
+    },
+    {
+      "id": "h11_c4_th_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính khối lượng kết tủa từ phản ứng cháy",
+      "question": "Đốt cháy hoàn toàn hỗn hợp gồm 0.1 mol CH₄ và 0.1 mol C₂H₆ rồi dẫn toàn bộ sản phẩm cháy vào dung dịch Ca(OH)₂ dư. Khối lượng kết tủa trắng CaCO₃ thu được là:",
+      "options": [
+        "20.0 gam",
+        "30.0 gam",
+        "10.0 gam",
+        "40.0 gam"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Bảo toàn nguyên tố Carbon trong phản ứng đốt cháy hỗn hợp hydrocarbon.",
+        "socraticPrompt": "Tổng số mol C trong hỗn hợp ban đầu bằng n_CH₄ · 1 + n_C₂H₆ · 2 = ? Số mol CO₂ bằng số mol kết tủa CaCO₃.",
+        "steps": "Bảo toàn nguyên tố C: n_CO₂ = 1 · n_CH₄ + 2 · n_C₂H₆ = 0.1 · 1 + 0.1 · 2 = 0.3 mol. Dẫn vào Ca(OH)₂ dư: CO₂ + Ca(OH)₂ → CaCO₃↓ + H₂O. Ta có n_CaCO₃ = n_CO₂ = 0.3 mol. Khối lượng kết tủa là: m = 0.3 · 100 = 30.0 gam.",
+        "trap": "Quên nhân 2 ở C₂H₆ dẫn đến tính n_CO₂ = 0.2 mol và m = 20.0 gam."
+      }
+    },
+    {
+      "id": "h11_c4_th_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nhận biết sản phẩm cộng theo Markovnikov",
+      "question": "Cho 2-methylbut-2-ene tác dụng với nước có xúc tác acid H⁺. Sản phẩm chính thu được có tên thay thế IUPAC là:",
+      "options": [
+        "3-methylbutan-2-ol",
+        "Pentan-2-ol",
+        "2-methylbutan-3-ol",
+        "2-methylbutan-2-ol"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy tắc Markovnikov trong phản ứng cộng nước (hydrate hoá) của alkene.",
+        "socraticPrompt": "Cấu tạo CH₃-C(CH₃)=CH-CH₃: carbon số 2 không có H, carbon số 3 có 1H. Nhóm -OH ưu tiên cộng vào carbon nào?",
+        "steps": "Cấu tạo: CH₃-C(CH₃)=CH-CH₃. Carbon số 2 không liên kết với H nào (bậc cao hơn), carbon số 3 liên kết với 1H. Theo quy tắc Markovnikov: H cộng vào carbon số 3 (nhiều H hơn), nhóm -OH cộng vào carbon số 2 (ít H hơn) tạo thành 2-methylbutan-2-ol: CH₃-C(OH)(CH₃)-CH₂-CH₃.",
+        "trap": "Chọn 3-methylbutan-2-ol (đây là sản phẩm phụ khi nhóm OH cộng vào C số 3)."
+      }
+    }
+  ]
+}

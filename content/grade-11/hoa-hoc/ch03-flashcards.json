@@ -1,50 +1,86 @@
-[
-  {
-    "front": "Hợp chất hữu cơ là gì?",
-    "back": "Là hợp chất của carbon (trừ $CO, CO_2$, muối carbonate, muối carbide, cyanide...).",
-    "tags": [
-      "Hữu cơ 11",
-      "Định nghĩa"
-    ]
-  },
-  {
-    "front": "Đặc điểm liên kết trong hợp chất hữu cơ?",
-    "back": "Chủ yếu là liên kết cộng hoá trị (Carbon luôn có hoá trị IV).",
-    "tags": [
-      "Liên kết",
-      "Cộng hoá trị"
-    ]
-  },
-  {
-    "front": "Phân biệt Công thức đơn giản nhất và Công thức phân tử?",
-    "back": "CTĐGN biểu thị tỉ lệ số lượng nguyên tử giữa các nguyên tố; CTPT cho biết số lượng nguyên tử thực sự của mỗi nguyên tố trong 1 phân tử ($CTPT = (CTĐGN)_n$).",
-    "tags": [
-      "CTPT",
-      "CTĐGN"
-    ]
-  },
-  {
-    "front": "Hiện tượng đồng phân (Isomerism) là gì?",
-    "back": "Hiện tượng các chất có cùng công thức phân tử nhưng có công thức cấu tạo khác nhau, dẫn đến tính chất khác nhau.",
-    "tags": [
-      "Đồng phân",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Hiện tượng đồng đẳng (Homology) là gì?",
-    "back": "Hiện tượng các chất có cấu tạo và tính chất tương tự nhau nhưng phân tử hơn kém nhau một hay nhiều nhóm methylene ($-CH_2-$).",
-    "tags": [
-      "Đồng đẳng",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Phổ hồng ngoại (IR) dùng để xác định điều gì trong phân tử hữu cơ?",
-    "back": "Dùng để xác định sự có mặt của các nhóm chức đặc trưng (như $-OH, -COOH, -C=O...$).",
-    "tags": [
-      "Phổ IR",
-      "Nhóm chức"
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Đại cương về Hoá học hữu cơ",
+  "flashcards": [
+    {
+      "id": "fc_h11_c3_01",
+      "front": "Hợp chất hữu cơ là gì?",
+      "back": "Hợp chất hữu cơ là hợp chất của carbon (trừ CO, CO₂, muối carbonate, cyanide, carbide,...). Thành phần luôn có carbon, thường có H, O, N.",
+      "category": "Khái niệm",
+      "example": "CH₄, C₂H₅OH, C₆H₁₂O₆ là hợp chất hữu cơ; CaCO₃ là vô cơ.",
+      "mnemonic": "Hợp chất của Carbon, trừ CO, CO₂ và muối carbonate."
+    },
+    {
+      "id": "fc_h11_c3_02",
+      "front": "Khi nào sử dụng phương pháp chưng cất?",
+      "back": "Khi cần tách các chất lỏng có nhiệt độ sôi khác nhau nhiều và tan lẫn vào nhau.",
+      "category": "Phương pháp",
+      "example": "Chưng cất rượu ethylic từ dịch lên men tinh bột.",
+      "mnemonic": "Tan lẫn nhau, khác nhiệt độ sôi: Chưng cất."
+    },
+    {
+      "id": "fc_h11_c3_03",
+      "front": "Khi nào sử dụng phương pháp chiết lỏng - lỏng?",
+      "back": "Dùng phễu chiết để tách các chất lỏng không hòa tan vào nhau, tách thành các lớp phân cách rõ rệt.",
+      "category": "Phương pháp",
+      "example": "Tách dầu ăn nổi trên mặt nước bằng phễu chiết.",
+      "mnemonic": "Không tan lẫn, tách thành lớp: Chiết bằng phễu."
+    },
+    {
+      "id": "fc_h11_c3_04",
+      "front": "Nguyên tắc của phương pháp kết tinh là gì?",
+      "back": "Tách chất rắn dựa trên sự thay đổi độ tan mạnh theo nhiệt độ (tan nhiều khi nóng, kết tinh tách ra khi nguội).",
+      "category": "Phương pháp",
+      "example": "Tinh chế đường saccarose từ mật mía cô đặc.",
+      "mnemonic": "Tan khi nóng, kết tinh khi lạnh."
+    },
+    {
+      "id": "fc_h11_c3_05",
+      "front": "Phương pháp sắc kí cột dùng để làm gì?",
+      "back": "Dùng để tách các chất có độ hấp phụ khác nhau trên pha tĩnh khi pha động (dung môi) di chuyển qua cột.",
+      "category": "Phương pháp",
+      "example": "Tách chiết chất diệp lục và carotenoid từ dịch lá cây.",
+      "mnemonic": "Sắc kí: hấp phụ pha tĩnh, rửa giải pha động."
+    },
+    {
+      "id": "fc_h11_c3_06",
+      "front": "Hoá trị của carbon trong hợp chất hữu cơ luôn bằng mấy?",
+      "back": "Trong hợp chất hữu cơ, nguyên tử carbon luôn luôn có hoá trị IV.",
+      "category": "Quy tắc",
+      "example": "Trong CH₄, quanh C có đúng 4 gạch nối với 4 nguyên tử H.",
+      "mnemonic": "Carbon luôn có hoá trị bốn (IV)."
+    },
+    {
+      "id": "fc_h11_c3_07",
+      "front": "Thế nào là hiện tượng đồng đẳng?",
+      "back": "Các chất có cấu tạo tương tự nhau nhưng phân tử hơn kém nhau một hay nhiều nhóm methylene (-CH₂-).",
+      "category": "Khái niệm",
+      "example": "Methane (CH₄) và Ethane (C₂H₆) là hai chất đồng đẳng.",
+      "mnemonic": "Đồng đẳng: tính chất tương tự, hơn kém nhóm -CH₂-."
+    },
+    {
+      "id": "fc_h11_c3_08",
+      "front": "Thế nào là hiện tượng đồng phân?",
+      "back": "Các chất có cùng công thức phân tử nhưng cấu tạo hoá học khác nhau, dẫn đến tính chất vật lí và hoá học khác nhau.",
+      "category": "Khái niệm",
+      "example": "C₂H₆O có 2 đồng phân: C₂H₅OH (rượu) và CH₃-O-CH₃ (ether).",
+      "mnemonic": "Đồng phân: cùng phân tử, khác cấu tạo."
+    },
+    {
+      "id": "fc_h11_c3_09",
+      "front": "Phổ khối lượng MS (Mass Spectrometry) cho biết thông tin gì?",
+      "back": "Giá trị m/z của pic ion phân tử [M⁺] giúp xác định chính xác phân tử khối của hợp chất hữu cơ.",
+      "category": "Kỹ năng",
+      "example": "Pic ion phân tử m/z = 60 xác định M = 60 g/mol.",
+      "mnemonic": "Pic ion phân tử [M⁺] cho biết khối lượng mol phân tử."
+    },
+    {
+      "id": "fc_h11_c3_10",
+      "front": "Phổ hồng ngoại IR (Infrared Spectroscopy) dùng để làm gì?",
+      "back": "Dùng để nhận biết sự có mặt của các nhóm chức đặc trưng trong phân tử dựa vào số sóng hấp thụ dao động liên kết.",
+      "category": "Kỹ năng",
+      "example": "Đỉnh tù 3350 cm⁻¹ là nhóm -OH; đỉnh nhọn 1715 cm⁻¹ là nhóm C=O.",
+      "mnemonic": "Phổ IR: nhận biết nhóm chức phân tử."
+    }
+  ]
+}

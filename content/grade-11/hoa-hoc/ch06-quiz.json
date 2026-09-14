@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch06",
+  "examId": "tonghop",
+  "title": "Hóa học 11 — Chương 6: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kiến thức ứng dụng đời sống, hiệu suất phản ứng ester hoá và xác định CTPT.",
+  "questions": [
+    {
+      "id": "h11_c6_th_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Dung dịch formon trong thực tế",
+      "question": "Dung dịch formon (dùng để ngâm mẫu sinh vật, ướp xác) là dung dịch nước chứa khoảng 37% - 40% chất nào sau đây?",
+      "options": [
+        "Acetaldehyde (CH3CHO)",
+        "Formaldehyde (HCHO)",
+        "Acetic acid (CH3COOH)",
+        "Acetone (CH3COCH3)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ứng dụng thực tế của formaldehyde trong dung dịch formon/formol.",
+        "socraticPrompt": "Dung dịch formon là dung dịch bão hòa trong nước của aldehyde đơn giản nhất nào?",
+        "steps": "Dung dịch chứa khoảng 37% - 40% formaldehyde (HCHO) trong nước được gọi là formon (hoặc formol), có tính sát trùng mạnh dùng để ngâm tiêu bản động thực vật.",
+        "trap": "Nhầm sang acetaldehyde hoặc giấm ăn acetic acid."
+      }
+    },
+    {
+      "id": "h11_c6_th_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích liên kết hydrogen của carboxylic acid",
+      "question": "Khẳng định nào sau đây giải thích chính xác vì sao acetic acid (CH3COOH, M = 60) có nhiệt độ sôi (118°C) cao hơn hẳn propan-1-ol (C3H7OH, M = 60, nhiệt độ sôi 97°C)?",
+      "options": [
+        "Acetic acid có khối lượng phân tử lớn hơn propan-1-ol",
+        "Liên kết C-H trong phân tử acetic acid phân cực hơn",
+        "Propan-1-ol hoàn toàn không tạo được liên kết hydrogen",
+        "Acetic acid có liên kết hydrogen liên phân tử dạng dimer bền hơn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cấu trúc liên kết hydrogen dạng dimer (phân tử kép) rất bền của carboxylic acid.",
+        "socraticPrompt": "Carboxylic acid có hai nguyên tử O giúp tạo được dạng liên kết hydrogen đặc biệt nào giữa hai phân tử?",
+        "steps": "Cả hai chất có cùng khối lượng phân tử M = 60. Tuy nhiên, carboxylic acid tạo được liên kết hydrogen liên phân tử dạng phân tử kép (dimer) bền hơn nhiều so với liên kết hydrogen dạng chuỗi thẳng của alcohol.",
+        "trap": "Nói propan-1-ol không tạo được liên kết hydrogen là sai (alcohol vẫn tạo được liên kết hydrogen nhưng yếu hơn dạng dimer)."
+      }
+    },
+    {
+      "id": "h11_c6_th_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tỉ lệ mol trong phản ứng tráng bạc",
+      "question": "Cho 0.1 mol một aldehyde đơn chức X (không phải HCHO) phản ứng hoàn toàn với lượng dư thuốc thử Tollens đun nóng. Số mol kim loại bạc (Ag) thu được là:",
+      "options": [
+        "0.2 mol",
+        "0.1 mol",
+        "0.4 mol",
+        "0.05 mol"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mỗi nhóm -CHO của aldehyde đơn chức (trừ HCHO) bị oxi hoá tạo ra 2 nguyên tử Ag.",
+        "socraticPrompt": "1 mol nhóm -CHO đơn chức thông thường giải phóng bao nhiêu mol Ag kim loại?",
+        "steps": "Phương trình tổng quát: R-CHO + 2[Ag(NH3)2]OH -> R-COONH4 + 2Ag↓ + 3NH3 + H2O. Tỉ lệ mol n_Ag : n_aldehyde = 2 : 1. Với n_aldehyde = 0.1 mol thì n_Ag = 0.2 mol.",
+        "trap": "Nhầm tỉ lệ 1:4 của HCHO (HCHO tạo ra 4Ag, các aldehyde đơn chức khác chỉ tạo 2Ag)."
+      }
+    },
+    {
+      "id": "h11_c6_th_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính khối lượng ester theo hiệu suất phản ứng",
+      "question": "Đun nóng 6.0 gam acetic acid (CH3COOH, M = 60 g/mol) với lượng dư ethanol (xúc tác H2SO4 đặc). Biết hiệu suất phản ứng ester hoá đạt 60%. Khối lượng ester ethyl acetate (CH3COOC2H5, M = 88 g/mol) thu được là:",
+      "options": [
+        "8.80 gam",
+        "4.40 gam",
+        "5.28 gam",
+        "3.52 gam"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính khối lượng sản phẩm ester hoá có tính đến hiệu suất phản ứng: m_thực = n · M · H%.",
+        "socraticPrompt": "Số mol acetic acid là 6 / 60 = 0.1 mol. Tính khối lượng ester theo lý thuyết rồi nhân hiệu suất 60%?",
+        "steps": "Số mol acid: n = 6.0 / 60 = 0.1 mol. Khối lượng ester theo lý thuyết (H = 100%): m_lt = 0.1 · 88 = 8.8 gam. Khối lượng ester thực tế thu được với H = 60%: m_tt = 8.8 · 60% = 5.28 gam.",
+        "trap": "Quên nhân hiệu suất 60% dẫn đến chọn đáp án 8.80 gam."
+      }
+    },
+    {
+      "id": "h11_c6_th_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán nồng độ phần trăm giấm ăn trong đời sống",
+      "question": "Một chai giấm ăn gia đình có nồng độ acetic acid là 4.5%. Khối lượng acetic acid nguyên chất có trong 200 gam dung dịch giấm ăn này là bao nhiêu?",
+      "options": [
+        "4.5 gam",
+        "9.0 gam",
+        "18.0 gam",
+        "90.0 gam"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ứng dụng công thức nồng độ phần trăm: m_chất_tan = (m_dung_dịch · C%) / 100.",
+        "socraticPrompt": "Lấy 200 gam dung dịch nhân với nồng độ 4.5 chia cho 100 bằng bao nhiêu?",
+        "steps": "Khối lượng acetic acid có trong 200 gam giấm ăn là: m = (200 · 4.5) / 100 = 9.0 gam.",
+        "trap": "Nhẩm 4.5% của 200 thành 4.5 gam (quên nhân đôi theo khối lượng 200 gam)."
+      }
+    },
+    {
+      "id": "h11_c6_th_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác định CTPT carboxylic acid",
+      "question": "Đốt cháy hoàn toàn một carboxylic acid no, đơn chức, mạch hở X thu được 0.3 mol CO2 và 0.3 mol H2O. Cho toàn bộ lượng acid X trên tác dụng với CaCO3 dư thu được 0.15 mol khí CO2. Công thức phân tử của acid X là:",
+      "options": [
+        "CH3COOH",
+        "C3H7COOH",
+        "C2H5COOH",
+        "HCOOH"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Xác định công thức phân tử acid no đơn chức dựa trên số nguyên tử carbon: số C = n_CO2 / n_acid.",
+        "socraticPrompt": "Acid đơn chức phản ứng CaCO3 sinh ra n_CO2 = n_acid / 2. Tìm n_acid rồi tính số nguyên tử C?",
+        "steps": "Acid đơn chức phản ứng với CaCO3: 2RCOOH + CaCO3 -> (RCOO)2Ca + CO2↑ + H2O. Suy ra n_acid = 2 · n_CO2 = 2 · 0.15 = 0.3 mol. Đốt cháy sinh ra 0.3 mol CO2 nên số nguyên tử carbon: C = n_CO2 / n_acid = 0.3 / 0.3 = 1. Acid có 1 carbon là HCOOH (methanoic acid).",
+        "trap": "Tính nhầm số C = 2 dẫn đến chọn CH3COOH."
+      }
+    }
+  ]
+}

@@ -1,47 +1,165 @@
-[
-  {
-    "id": "l08",
-    "title": "Bài 8: Alkane (Methane và đồng đẳng)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 8: Alkane (Methane và đồng đẳng).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 8: Alkane (Methane và đồng đẳng).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 8: Alkane (Methane và đồng đẳng) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l09",
-    "title": "Bài 9: Hydrocarbon không no (Alkene và Alkyne)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 9: Hydrocarbon không no (Alkene và Alkyne).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 9: Hydrocarbon không no (Alkene và Alkyne).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 9: Hydrocarbon không no (Alkene và Alkyne) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l10",
-    "title": "Bài 10: Arene (Benzene và đồng đẳng)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 10: Arene (Benzene và đồng đẳng).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 10: Arene (Benzene và đồng đẳng).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 10: Arene (Benzene và đồng đẳng) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Hydrocarbon",
+  "lessons": [
+    {
+      "id": "l08",
+      "title": "Bài 8: Alkane (Methane và đồng đẳng)",
+      "hasRealContent": true,
+      "objectives": [
+        "Trình bày được công thức chung, đặc điểm liên kết và danh pháp thay thế IUPAC của alkane.",
+        "Giải thích được tính chất vật lý và tính chất hoá học đặc trưng của alkane: phản ứng thế halogen, phản ứng cracking, phản ứng cháy.",
+        "Nêu được ứng dụng của alkane làm nhiên liệu khí đốt, xăng dầu và nguyên liệu trong công nghiệp hoá chất."
+      ],
+      "concepts": [
+        {
+          "term": "Alkane",
+          "definition": "Hydrocarbon no, mạch hở, trong phân tử chỉ chứa các liên kết đơn C-C và C-H. Có công thức chung là CnH2n+2 (n ≥ 1).",
+          "notation": "CnH2n+2 (n ≥ 1)",
+          "note": "Methane (CH₄) là chất đầu tiên của dãy đồng đẳng alkane."
+        },
+        {
+          "term": "Phản ứng thế halogen",
+          "definition": "Phản ứng đặc trưng của alkane khi có ánh sáng khuếch tán hoặc đun nóng. Nguyên tử halogen thay thế lần lượt các nguyên tử H trong phân tử alkane.",
+          "notation": "CH₄ + Cl₂ → CH₃Cl + HCl (chiếu sáng)",
+          "note": "Ưu tiên thế vào nguyên tử carbon bậc cao hơn (carbon liên kết với nhiều carbon hơn)."
+        },
+        {
+          "term": "Phản ứng cracking",
+          "definition": "Dưới tác dụng của nhiệt độ và xúc tác, các alkane có mạch carbon dài bị bẻ gãy thành các hydrocarbon có mạch carbon ngắn hơn (gồm alkane và alkene).",
+          "notation": "C₄H₁₀ → C₂H₆ + C₂H₄ (xúc tác, t°)",
+          "note": "Ứng dụng then chốt trong công nghiệp lọc dầu để tăng sản lượng xăng chất lượng cao."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc thế vào carbon bậc cao",
+          "meaning": "Trong phản ứng thế halogen của alkane, nguyên tử halogen ưu tiên thế vào nguyên tử carbon có bậc cao hơn tạo thành sản phẩm chính."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho 2-methylbutane tác dụng với Cl₂ theo tỉ lệ mol 1 : 1 có ánh sáng khuếch tán. Hãy xác định công thức cấu tạo của sản phẩm chính?",
+          "steps": [
+            "Bước 1: Xác định cấu tạo: CH₃-CH(CH₃)-CH₂-CH₃ có carbon ở vị trí số 2 liên kết với 3 carbon khác nên là carbon bậc III (bậc cao nhất).",
+            "Bước 2: Áp dụng quy tắc thế: nguyên tử Cl ưu tiên thế vào nguyên tử H đính ở carbon bậc III này.",
+            "Bước 3: Sản phẩm chính thu được là 2-chloro-2-methylbutane có công thức: CH₃-C(Cl)(CH₃)-CH₂-CH₃."
+          ],
+          "answer": "Sản phẩm chính là 2-chloro-2-methylbutane: CH₃-C(Cl)(CH₃)-CH₂-CH₃."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng alkane phản ứng được với dung dịch nước bromine ở điều kiện thường.",
+          "why": "Alkane chỉ chứa liên kết đơn bền vững nên hoàn toàn không làm mất màu nước bromine ở điều kiện thường, chỉ phản ứng thế với hơi bromine khan khi có chiếu sáng hoặc đun nóng."
+        }
+      ]
+    },
+    {
+      "id": "l09",
+      "title": "Bài 9: Hydrocarbon không no (Alkene và Alkyne)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được công thức chung, cấu tạo liên kết đôi C=C của alkene và liên kết ba C≡C của alkyne.",
+        "Giải thích được các phản ứng đặc trưng: phản ứng cộng (H₂, X₂, HX, H₂O), quy tắc Markovnikov, phản ứng trùng hợp, phản ứng thế của alk-1-yne với AgNO₃/NH₃.",
+        "Vận dụng để nhận biết và phân biệt alkene, alkyne với các hydrocarbon khác bằng phương pháp hoá học."
+      ],
+      "concepts": [
+        {
+          "term": "Alkene và Alkyne",
+          "definition": "Alkene là hydrocarbon không no mạch hở chứa 1 liên kết đôi C=C (CnH2n, n ≥ 2). Alkyne là hydrocarbon không no mạch hở chứa 1 liên kết ba C≡C (CnH2n-2, n ≥ 2).",
+          "notation": "Alkene: CnH2n; Alkyne: CnH2n-2",
+          "note": "Liên kết đôi gồm 1 liên kết σ và 1 liên kết π; liên kết ba gồm 1 liên kết σ và 2 liên kết π kém bền dễ đứt ra."
+        },
+        {
+          "term": "Quy tắc cộng Markovnikov",
+          "definition": "Khi cộng tác nhân bất đối xứng HX vào alkene bất đối xứng, nguyên tử H ưu tiên cộng vào nguyên tử carbon mang nhiều H hơn ở liên kết đôi, còn X cộng vào carbon mang ít H hơn.",
+          "notation": "CH₂=CH-CH₃ + HCl → CH₃-CH(Cl)-CH₃ (sản phẩm chính)",
+          "note": "Khái quát dễ nhớ: 'Giàu càng giàu thêm' (C nhiều H nhận thêm H)."
+        },
+        {
+          "term": "Phản ứng thế của alk-1-yne",
+          "definition": "Các alkyne có liên kết ba đầu mạch (alk-1-yne) có nguyên tử H linh động liên kết với carbon nối ba, có thể bị thay thế bởi ion Ag⁺ trong dung dịch AgNO₃/NH₃ tạo kết tủa vàng nhạt.",
+          "notation": "CH≡CH + 2AgNO₃ + 2NH₃ → CAg≡CAg↓ (vàng nhạt) + 2NH₄NO₃",
+          "note": "Thuốc thử đặc trưng để phân biệt alk-1-yne với alkene và các alkyne khác."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Làm mất màu dung dịch Bromine và thuốc tím",
+          "meaning": "Các hydrocarbon không no (alkene, alkyne) đều làm mất màu nâu đỏ của dung dịch bromine và làm mất màu tím của dung dịch KMnO₄ ngay ở nhiệt độ thường."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Bằng phương pháp hoá học, hãy trình bày cách phân biệt 3 bình khí không màu đựng riêng biệt: methane (CH₄), ethylene (C₂H₄) và acetylene (C₂H₂)?",
+          "steps": [
+            "Bước 1: Dẫn lần lượt từng khí lội qua dung dịch AgNO₃ trong NH₃ dư. Khí nào tạo kết tủa màu vàng nhạt là acetylene (C₂H₂). Hai khí còn lại không có hiện tượng.",
+            "Bước 2: Dẫn hai khí còn lại (CH₄ và C₂H₄) lội qua dung dịch nước bromine. Khí làm mất màu nâu đỏ của dung dịch bromine là ethylene (C₂H₄).",
+            "Bước 3: Khí còn lại không làm mất màu nước bromine là methane (CH₄)."
+          ],
+          "answer": "Dùng dung dịch AgNO₃/NH₃ nhận biết C₂H₂, sau đó dùng nước bromine phân biệt C₂H₄ và CH₄."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng tất cả các alkyne đều phản ứng với dung dịch AgNO₃/NH₃ tạo kết tủa vàng.",
+          "why": "Chỉ các alkyne có liên kết ba ở ĐẦU MẠCH (alk-1-yne như ethyne, propyne) mới có H linh động để phản ứng thế với ion Ag⁺."
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "title": "Bài 10: Arene (Benzene và đồng đẳng)",
+      "hasRealContent": true,
+      "objectives": [
+        "Mô tả được cấu trúc vòng thơm phẳng của benzene và tính chất 'thơm': dễ thế, khó cộng, bền với chất oxi hoá.",
+        "Giải thích được quy tắc thế ở vòng benzene đối với các đồng đẳng của benzene (như toluene).",
+        "Trình bày được phản ứng oxi hoá nhánh alkyl của toluene bằng dung dịch KMnO₄ khi đun nóng."
+      ],
+      "concepts": [
+        {
+          "term": "Arene (Hydrocarbon thơm)",
+          "definition": "Hydrocarbon trong phân tử có chứa một hay nhiều vòng benzene. Dãy đồng đẳng của benzene có công thức chung là CnH2n-6 (n ≥ 6).",
+          "notation": "CnH2n-6 (n ≥ 6)",
+          "note": "Benzene (C₆H₆) và Toluene (C₆H₅-CH₃) là hai chất tiêu biểu nhất."
+        },
+        {
+          "term": "Tính chất thơm",
+          "definition": "Vòng benzene rất bền vững do hệ 6 electron π liên hợp phân bố đều trên 6 đỉnh của vòng lục giác đều. Do đó benzene dễ tham gia phản ứng thế, khó tham gia phản ứng cộng và bền với tác nhân oxi hoá.",
+          "notation": "Dễ thế, khó cộng, bền oxi hoá",
+          "note": "Benzene không làm mất màu nước bromine và không làm mất màu dung dịch KMnO₄ ở nhiệt độ thường."
+        },
+        {
+          "term": "Quy tắc thế ở vòng benzene",
+          "definition": "Khi vòng benzene đã có sẵn nhóm alkyl (-CH₃), phản ứng thế nguyên tử H ở vòng thơm diễn ra dễ dàng hơn và ưu tiên định hướng vào các vị trí ortho (o-) và para (p-).",
+          "notation": "C₆H₅-CH₃ + Br₂ → o-Br-C₆H₄-CH₃ + p-Br-C₆H₄-CH₃ (xúc tác FeBr₃)",
+          "note": "Đun nóng toluene với dung dịch KMnO₄ làm mất màu thuốc tím và tạo benzoic acid (C₆H₅COOH)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện phản ứng thế nhân thơm",
+          "meaning": "Phản ứng thế halogen vào nhân benzene bắt buộc phải dùng bromine hoặc chlorine nguyên chất (khan) với xúc tác acid Lewis (FeBr₃ hoặc AlCl₃)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình hoá học của phản ứng nitro hoá toluene với hỗn hợp HNO₃ đặc / H₂SO₄ đặc theo tỉ lệ mol 1 : 1 và gọi tên các sản phẩm chính?",
+          "steps": [
+            "Bước 1: Toluene có nhóm methyl (-CH₃) là nhóm đẩy electron, kích hoạt vòng benzene và định hướng thế vào vị trí ortho và para.",
+            "Bước 2: Phản ứng thế nhóm -NO₂ vào vị trí số 2 (ortho) tạo o-nitrotoluene (2-nitrotoluene): C₆H₅CH₃ + HNO₃ → o-CH₃-C₆H₄-NO₂ + H₂O.",
+            "Bước 3: Phản ứng thế nhóm -NO₂ vào vị trí số 4 (para) tạo p-nitrotoluene (4-nitrotoluene): C₆H₅CH₃ + HNO₃ → p-CH₃-C₆H₄-NO₂ + H₂O."
+          ],
+          "answer": "Sản phẩm chính là hỗn hợp o-nitrotoluene và p-nitrotoluene."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng benzene phản ứng được với dung dịch thuốc tím KMnO₄ khi đun nóng.",
+          "why": "Benzene rất bền, không làm mất màu dung dịch KMnO₄ ngay cả khi đun nóng. Chỉ có các đồng đẳng có nhánh alkyl như toluene mới bị oxi hoá nhánh khi đun nóng."
+        }
+      ]
+    }
+  ]
+}

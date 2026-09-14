@@ -1,32 +1,115 @@
-[
-  {
-    "id": "l14",
-    "title": "Bài 14: Hợp chất Carbonyl (Aldehyde và Ketone)",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 14: Hợp chất Carbonyl (Aldehyde và Ketone).</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 14: Hợp chất Carbonyl (Aldehyde và Ketone).",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 14: Hợp chất Carbonyl (Aldehyde và Ketone) để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l15",
-    "title": "Bài 15: Carboxylic acid và phản ứng ester hoá",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 15: Carboxylic acid và phản ứng ester hoá.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 15: Carboxylic acid và phản ứng ester hoá.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 15: Carboxylic acid và phản ứng ester hoá để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Hợp chất Carbonyl & Carboxylic acid",
+  "lessons": [
+    {
+      "id": "l14",
+      "title": "Bài 14: Hợp chất Carbonyl (Aldehyde và Ketone)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm nhóm carbonyl (>C=O), phân biệt aldehyde (R-CHO) và ketone (R-CO-R').",
+        "Trình bày được danh pháp IUPAC và tính chất vật lý của các hợp chất carbonyl đơn giản.",
+        "Mô tả được các phản ứng hoá học đặc trưng: phản ứng khử thành alcohol, phản ứng tráng bạc với thuốc thử Tollens, phản ứng với Cu(OH)2 trong kiềm và phản ứng tạo iodoform."
+      ],
+      "concepts": [
+        {
+          "term": "Hợp chất carbonyl",
+          "definition": "Là các hợp chất hữu cơ trong phân tử chứa nhóm chức carbonyl (>C=O). Gồm aldehyde và ketone.",
+          "notation": ">C=O (liên kết đôi phân cực mạnh về phía nguyên tử O)",
+          "note": "Aldehyde có nhóm -CHO ở đầu mạch, ketone có nhóm >C=O liên kết với 2 gốc hydrocarbon."
+        },
+        {
+          "term": "Phản ứng tráng bạc (Thuốc thử Tollens)",
+          "definition": "Aldehyde bị oxi hoá bởi phức chất [Ag(NH3)2]OH tạo thành lớp kim loại bạc sáng bóng bám trên thành ống nghiệm.",
+          "notation": "R-CHO + 2[Ag(NH3)2]OH -> R-COONH4 + 2Ag↓ + 3NH3 + H2O",
+          "note": "Ketone không phản ứng với thuốc thử Tollens, dùng để phân biệt aldehyde và ketone."
+        },
+        {
+          "term": "Phản ứng tạo iodoform",
+          "definition": "Các hợp chất chứa nhóm methyl carbonyl (CH3-CO-) tác dụng với I2 trong dung dịch NaOH tạo kết tủa màu vàng nhạt triiodomethane (CHI3).",
+          "notation": "CH3-CO-R + 3I2 + 4NaOH -> R-COONa + CHI3↓ (vàng) + 3NaI + 3H2O",
+          "note": "Dùng nhận biết acetaldehyde và các methyl ketone (như acetone)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phản ứng oxi hoá aldehyde với Cu(OH)2 trong kiềm",
+          "meaning": "Khi đun nóng aldehyde với Cu(OH)2 trong môi trường kiềm tạo kết tủa đỏ gạch Cu2O. Ketone không có phản ứng này."
+        },
+        {
+          "statement": "Phản ứng khử hợp chất carbonyl",
+          "meaning": "Aldehyde bị khử bởi NaBH4 hoặc LiAlH4 tạo alcohol bậc 1. Ketone bị khử tạo alcohol bậc 2."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Bằng phương pháp hoá học, hãy nêu cách nhận biết hai chất lỏng không màu đựng trong hai lọ mất nhãn: ethanal (CH3CHO) và acetone (CH3COCH3)?",
+          "steps": [
+            "Bước 1: Trích mẫu thử của hai chất lỏng vào hai ống nghiệm riêng biệt.",
+            "Bước 2: Cho vào mỗi ống nghiệm 1 mL dung dịch thuốc thử Tollens [Ag(NH3)2]OH, đun nóng nhẹ trong cốc nước nóng.",
+            "Bước 3: Ống nghiệm xuất hiện lớp kim loại bạc sáng bóng bám trên thành ống nghiệm là ethanal (CH3CHO). Ống nghiệm không có hiện tượng gì là acetone (CH3COCH3)."
+          ],
+          "answer": "Dùng thuốc thử Tollens: ethanal cho phản ứng tráng bạc tạo Ag sáng bóng, acetone không phản ứng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng acetone cũng tham gia phản ứng tráng bạc vì có chứa nhóm >C=O.",
+          "why": "Chỉ có aldehyde (chứa nguyên tử H gắn trực tiếp vào nhóm carbonyl: -CH=O) mới bị oxi hoá bởi thuốc thử Tollens tạo kết tủa bạc Ag."
+        }
+      ]
+    },
+    {
+      "id": "l15",
+      "title": "Bài 15: Carboxylic acid và phản ứng ester hoá",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được khái niệm carboxylic acid, công thức tổng quát và danh pháp IUPAC.",
+        "Giải thích được nguyên nhân carboxylic acid có nhiệt độ sôi cao hơn alcohol có cùng số carbon do tạo liên kết hydrogen dạng dimer.",
+        "Trình bày được tính chất acid và phản ứng ester hoá với alcohol có xúc tác acid đặc."
+      ],
+      "concepts": [
+        {
+          "term": "Carboxylic acid",
+          "definition": "Là những hợp chất hữu cơ mà phân tử có nhóm carboxyl (-COOH) liên kết trực tiếp với nguyên tử carbon hoặc nguyên tử hydrogen.",
+          "notation": "R-COOH (đơn chức no mạch hở: CnH2n+1COOH hoặc CnH2nO2, n ≥ 1)",
+          "note": "Nhóm -COOH kết hợp giữa nhóm carbonyl (>C=O) và nhóm hydroxy (-OH)."
+        },
+        {
+          "term": "Liên kết hydrogen dạng dimer",
+          "definition": "Hai phân tử carboxylic acid có thể liên kết với nhau bằng hai liên kết hydrogen tạo thành cấu trúc phân tử kép (dimer) rất bền vững.",
+          "notation": "R-C(=O...H-O)-C... (dạng vòng 8 cạnh dimer)",
+          "note": "Do đó carboxylic acid có nhiệt độ sôi cao hơn cả alcohol có cùng số nguyên tử carbon."
+        },
+        {
+          "term": "Phản ứng ester hoá",
+          "definition": "Phản ứng thuận nghịch giữa carboxylic acid và alcohol có mặt chất xúc tác acid mạnh (thường là H2SO4 đặc) và đun nóng, tạo thành ester và nước.",
+          "notation": "R-COOH + R'-OH <=> R-COOR' + H2O (xúc tác H2SO4 đặc, đun nóng)",
+          "note": "H2SO4 đặc vừa đóng vai trò chất xúc tác vừa hút nước để chuyển dịch cân bằng sang phía tạo ester."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính acid của carboxylic acid",
+          "meaning": "Carboxylic acid là các acid yếu nhưng mạnh hơn carbonic acid (H2CO3) và phenol. Chúng làm quỳ tím hóa đỏ, tác dụng kim loại trước H, base, oxide base và muối carbonate sinh khí CO2."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết phương trình phản ứng khi cho acetic acid tác dụng với: a) Đá vôi (CaCO3); b) Kim loại Mg?",
+          "steps": [
+            "Bước 1: Acetic acid CH3COOH mạnh hơn acid carbonic nên đẩy được CO2 ra khỏi muối carbonate: 2CH3COOH + CaCO3 -> (CH3COO)2Ca + CO2↑ + H2O.",
+            "Bước 2: Acetic acid tác dụng với kim loại đứng trước hydrogen giải phóng khí H2: 2CH3COOH + Mg -> (CH3COO)2Mg + H2↑."
+          ],
+          "answer": "a) Sinh khí CO2; b) Sinh khí H2."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng phản ứng ester hoá là phản ứng một chiều và H2SO4 loãng cũng xúc tác được.",
+          "why": "Phản ứng ester hoá là phản ứng thuận nghịch (hai chiều) và bắt buộc phải dùng H2SO4 ĐẶC để hút nước giúp tăng hiệu suất tạo ester."
+        }
+      ]
+    }
+  ]
+}

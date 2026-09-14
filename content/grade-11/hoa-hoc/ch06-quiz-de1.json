@@ -1,19 +1,128 @@
-[
-  {
-    "id": "hoahoc11_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Chất nào sau đây tham gia phản ứng tráng bạc (tạo kết tủa bạc kim loại trắng sáng)?",
-    "options": [
-      "A. Ethanal",
-      "B. Acetone ($CH_3COCH_3$)",
-      "C. Acetic acid ($CH_3COOH$)",
-      "D. Cồn ethanol ($C_2H_5OH$)"
-    ],
-    "answer": 0,
-    "explanation": "📌 Phản ứng tráng bạc: Nhóm aldehyde ($-CHO$) bị oxy hoá bởi thuốc thử Tollens sinh ra $Ag$ kim loại.\n💡 Ketone, acid và alcohol không có phản ứng tráng bạc.\n⚠️ Ghi nhớ phản ứng nhận biết nhóm -CHO.",
-    "breakdown": {
-      "calculation": "Acetaldehyde - $CH_3CHO$"
+{
+  "chapterId": "ch06",
+  "examId": "de1",
+  "title": "Hóa học 11 — Chương 6: Đề 1 — Khái niệm & Nhận biết hợp chất carbonyl và carboxylic acid",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận diện nhóm chức, danh pháp và phản ứng tráng bạc đặc trưng.",
+  "questions": [
+    {
+      "id": "h11_c6_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhóm chức carboxylic acid",
+      "question": "Nhóm chức đặc trưng có mặt trong tất cả các phân tử carboxylic acid là nhóm nào sau đây?",
+      "options": [
+        "Nhóm amino (-NH2)",
+        "Nhóm hydroxy (-OH)",
+        "Nhóm carbonyl (>C=O)",
+        "Nhóm carboxyl (-COOH)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Định nghĩa nhóm chức carboxyl (-COOH) của carboxylic acid.",
+        "socraticPrompt": "Nhóm chức gồm nhóm carbonyl (>C=O) kết hợp trực tiếp với nhóm hydroxy (-OH) có tên gọi là gì?",
+        "steps": "Carboxylic acid là hợp chất hữu cơ có nhóm carboxyl (-COOH) liên kết trực tiếp với nguyên tử carbon hoặc hydrogen.",
+        "trap": "Nhầm nhóm -COOH với nhóm hydroxy (-OH) của alcohol hoặc nhóm carbonyl (>C=O) của ketone."
+      }
+    },
+    {
+      "id": "h11_c6_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết hợp chất aldehyde",
+      "question": "Chất nào sau đây thuộc loại hợp chất aldehyde?",
+      "options": [
+        "CH3-CHO",
+        "CH3-COOH",
+        "CH3-CO-CH3",
+        "CH3-CH2-OH"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cấu tạo nhóm chức aldehyde (-CHO).",
+        "socraticPrompt": "Chất nào có nhóm chức -CHO ở đầu mạch carbon?",
+        "steps": "CH3-CHO (ethanal hay acetaldehyde) có nhóm chức -CHO nên là hợp chất aldehyde. CH3COOH là acid, CH3COCH3 là ketone, C2H5OH là alcohol.",
+        "trap": "Nhầm lẫn giữa đuôi -CHO của aldehyde và đuôi -COOH của acid."
+      }
+    },
+    {
+      "id": "h11_c6_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tên gọi thông thường của methanal",
+      "question": "Aldehyde đơn giản nhất có công thức phân tử HCHO có tên gọi thông thường là:",
+      "options": [
+        "Acetaldehyde",
+        "Formaldehyde",
+        "Formic acid",
+        "Acetone"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Danh pháp thông thường của HCHO là formaldehyde (dung dịch nước gọi là formol/formon).",
+        "socraticPrompt": "Aldehyde 1 carbon có nguồn gốc từ acid formic thường được gọi là gì?",
+        "steps": "HCHO có tên thay thế là methanal và tên thông thường rất quen thuộc là formaldehyde (hoặc aldehyde formic).",
+        "trap": "Nhầm formaldehyde với acid formic (HCOOH) hoặc acetaldehyde (CH3CHO)."
+      }
+    },
+    {
+      "id": "h11_c6_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng phản ứng tráng bạc",
+      "question": "Cho dung dịch ethanal (CH3CHO) tác dụng với lượng dư thuốc thử Tollens [Ag(NH3)2]OH đun nóng nhẹ, hiện tượng quan sát được là:",
+      "options": [
+        "Xuất hiện kết tủa đỏ gạch",
+        "Dung dịch chuyển sang màu xanh lam",
+        "Có lớp bạc kim loại sáng bóng bám trên thành ống nghiệm",
+        "Có khí màu nâu đỏ bay lên"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phản ứng tráng bạc của aldehyde tạo kết tủa kim loại bạc Ag.",
+        "socraticPrompt": "Thuốc thử Tollens oxi hoá nhóm -CHO và giải phóng kim loại bạc tạo hiện tượng gì?",
+        "steps": "Phương trình: CH3CHO + 2[Ag(NH3)2]OH -> CH3COONH4 + 2Ag↓ + 3NH3 + H2O. Kim loại bạc sinh ra sáng bóng bám vào thành ống nghiệm giống như một chiếc gương (phản ứng tráng bạc).",
+        "trap": "Nhầm với hiện tượng tạo kết tủa đỏ gạch Cu2O khi phản ứng với Cu(OH)2 trong kiềm."
+      }
+    },
+    {
+      "id": "h11_c6_d1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phản ứng tạo iodoform",
+      "question": "Chất nào sau đây có khả năng tham gia phản ứng tạo kết tủa màu vàng iodoform (CHI3) khi tác dụng với I2 trong dung dịch NaOH?",
+      "options": [
+        "Acetone (CH3-CO-CH3)",
+        "Benzaldehyde (C6H5CHO)",
+        "Formaldehyde (HCHO)",
+        "Methanol (CH3OH)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phản ứng iodoform đặc trưng cho hợp chất có nhóm methyl carbonyl CH3-CO-.",
+        "socraticPrompt": "Hợp chất nào chứa nhóm CH3- liên kết trực tiếp với nhóm carbonyl >C=O?",
+        "steps": "Hợp chất tham gia phản ứng tạo iodoform phải có nhóm CH3-C(=O)- hoặc CH3-CH(OH)-. Trong các chất trên, acetone (CH3-CO-CH3) chứa nhóm CH3-CO- nên tạo kết tủa vàng nhạt CHI3.",
+        "trap": "Nghĩ HCHO có phản ứng iodoform (HCHO không có nhóm CH3- nên không tham gia)."
+      }
+    },
+    {
+      "id": "h11_c6_d1_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "So sánh nhiệt độ sôi của các nhóm chức",
+      "question": "Khi so sánh nhiệt độ sôi giữa các chất có 2 nguyên tử carbon (C2H6, C2H5Cl, C2H5OH, CH3COOH), thứ tự TĂNG DẦN nhiệt độ sôi chính xác là:",
+      "options": [
+        "C2H6 < C2H5OH < C2H5Cl < CH3COOH",
+        "C2H5Cl < C2H6 < C2H5OH < CH3COOH",
+        "CH3COOH < C2H5OH < C2H5Cl < C2H6",
+        "C2H6 < C2H5Cl < C2H5OH < CH3COOH"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ảnh hưởng của liên kết hydrogen dạng dimer và độ phân cực đến nhiệt độ sôi.",
+        "socraticPrompt": "Carboxylic acid tạo liên kết hydrogen dạng dimer bền hơn alcohol nên sôi cao hơn. Hydrocarbon không phân cực thì sôi thế nào?",
+        "steps": "Hydrocarbon C2H6 không phân cực có nhiệt độ sôi thấp nhất (-89°C). Dẫn xuất C2H5Cl phân cực (12°C). Alcohol C2H5OH có liên kết hydrogen liên phân tử (78.3°C). Carboxylic acid CH3COOH tạo liên kết hydrogen dạng dimer bền nhất (118°C).",
+        "trap": "Nghĩ alcohol sôi cao nhất do quên rằng carboxylic acid tạo liên kết hydrogen dạng dimer bền hơn nhiều."
+      }
     }
-  }
-]
+  ]
+}

@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch05",
+  "examId": "tonghop",
+  "title": "Hóa học 11 — Chương 5: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng phân biệt định tính, chuỗi phản ứng và tính toán nồng độ thực tế.",
+  "questions": [
+    {
+      "id": "h11_c5_th_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tính chất acid của phenol",
+      "question": "Phenol thể hiện tính acid yếu nhưng KHÔNG làm đổi màu chất chỉ thị nào sau đây?",
+      "options": [
+        "Dung dịch phenolphtalein",
+        "Dung dịch bromothymol blue",
+        "Dung dịch nước quỳ tím",
+        "Dung dịch methyl da cam"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính acid của phenol quá yếu (Ka ≈ 10^-10) nên không làm đổi màu quỳ tím.",
+        "socraticPrompt": "Chất chỉ thị thông dụng nhất để phát hiện dung dịch acid làm đổi sang màu đỏ là gì?",
+        "steps": "Phenol có tính acid yếu hơn cả carbonic acid H2CO3 nên không đủ mạnh để làm đổi màu dung dịch quỳ tím thành đỏ.",
+        "trap": "Cứ nghĩ hợp chất có tính acid thì đương nhiên phải làm quỳ tím hóa đỏ."
+      }
+    },
+    {
+      "id": "h11_c5_th_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích nhiệt độ sôi của alcohol",
+      "question": "Khẳng định nào sau đây giải thích chính xác vì sao ethanol (C2H5OH) có nhiệt độ sôi (78.3°C) cao hơn hẳn dimethyl ether (CH3-O-CH3, nhiệt độ sôi -24°C) dù có cùng công thức phân tử C2H6O?",
+      "options": [
+        "Khối lượng phân tử của ethanol lớn hơn dimethyl ether",
+        "Độ âm điện của nguyên tử carbon trong ethanol lớn hơn",
+        "Ethanol có liên kết cộng hoá trị bền vững hơn dimethyl ether",
+        "Giữa các phân tử ethanol tạo được liên kết hydrogen liên phân tử"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Vai trò quyết định của liên kết hydrogen liên phân tử đối với nhiệt độ sôi của alcohol.",
+        "socraticPrompt": "Nhóm -OH của ethanol có nguyên tử H linh động tạo được loại liên kết gì đặc biệt giữa các phân tử?",
+        "steps": "Hai chất có cùng khối lượng phân tử (M = 46). Tuy nhiên, phân tử ethanol có nhóm -OH tạo được liên kết hydrogen liên phân tử bền vững, đòi hỏi cung cấp nhiều năng lượng hơn để phá vỡ khi sôi.",
+        "trap": "Nghĩ rằng khối lượng phân tử khác nhau (trong khi cả hai đều là đồng phân có M = 46)."
+      }
+    },
+    {
+      "id": "h11_c5_th_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phản ứng tạo ether giữa hai alcohol khác nhau",
+      "question": "Khi đun nóng hỗn hợp gồm methanol (CH3OH) và ethanol (C2H5OH) với H2SO4 đặc ở 140°C, có thể thu được tối đa bao nhiêu ether khác nhau?",
+      "options": [
+        "3 ether",
+        "2 ether",
+        "4 ether",
+        "1 ether"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phản ứng tách nước tạo ether liên phân tử từ hỗn hợp hai alcohol.",
+        "socraticPrompt": "Mỗi alcohol tự tách nước với chính nó tạo 1 ether, và hai alcohol tách nước với nhau tạo thêm 1 ether nữa. Tổng cộng có mấy ether?",
+        "steps": "Có 3 ether thu được gồm: CH3-O-CH3 (từ 2 phân tử methanol), C2H5-O-C2H5 (từ 2 phân tử ethanol), và CH3-O-C2H5 (từ 1 methanol và 1 ethanol).",
+        "trap": "Quên hai phản ứng tự tách nước của từng alcohol, chỉ tính phản ứng chéo ra 1 ether."
+      }
+    },
+    {
+      "id": "h11_c5_th_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân biệt các hợp chất hữu cơ bằng phương pháp hoá học",
+      "question": "Để phân biệt 3 chất lỏng không màu đựng trong các lọ riêng biệt mất nhãn: ethanol, glycerol và phenol, thuốc thử có thể dùng theo thứ tự lần lượt là:",
+      "options": [
+        "Dung dịch NaOH và quỳ tím",
+        "Dung dịch Cu(OH)2 và nước bromine",
+        "Kim loại Na và dung dịch kiềm",
+        "Dung dịch AgNO3 và nước vôi trong"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nhận biết glycerol bằng Cu(OH)2 và nhận biết phenol bằng nước bromine.",
+        "socraticPrompt": "Thuốc thử nào nhận biết polyalcohol có nhóm -OH kề, và thuốc thử nào tạo kết tủa trắng với phenol?",
+        "steps": "Bước 1: Dùng Cu(OH)2 nhận biết được glycerol (tạo dung dịch xanh lam thẫm). Bước 2: Dùng nước bromine nhận biết được phenol (xuất hiện kết tủa trắng 2,4,6-tribromophenol). Mẫu còn lại không có hiện tượng là ethanol.",
+        "trap": "Dùng Na không phân biệt được vì cả 3 chất đều giải phóng H2."
+      }
+    },
+    {
+      "id": "h11_c5_th_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính toán định lượng phản ứng phenol với nước bromine",
+      "question": "Cho 9.4 gam phenol (C6H5OH, M = 94 g/mol) phản ứng hoàn toàn với lượng dư dung dịch nước bromine. Khối lượng kết tủa trắng 2,4,6-tribromophenol (M = 331 g/mol) thu được là:",
+      "options": [
+        "66.2 gam",
+        "23.7 gam",
+        "16.55 gam",
+        "33.1 gam"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bài toán tính khối lượng kết tủa theo phương trình phản ứng thế của phenol.",
+        "socraticPrompt": "Số mol phenol là 9.4 / 94 = 0.1 mol. Tỉ lệ mol giữa phenol và kết tủa 2,4,6-tribromophenol là 1:1, khối lượng kết tủa bằng bao nhiêu?",
+        "steps": "Số mol phenol: n = 9.4 / 94 = 0.1 mol. Phương trình: C6H5OH + 3Br2 -> C6H2Br3OH↓ + 3HBr. Số mol kết tủa = n_phenol = 0.1 mol. Khối lượng kết tủa thu được = 0.1 · 331 = 33.1 gam.",
+        "trap": "Tính sai khối lượng mol của kết tủa hoặc nhân nhầm tỉ lệ 3 lần."
+      }
+    },
+    {
+      "id": "h11_c5_th_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán độ cồn và khối lượng riêng trong thực tế",
+      "question": "Một chai cồn y tế 70° sát trùng có thể tích 500 mL. Biết khối lượng riêng của ethanol nguyên chất là 0.8 g/mL. Khối lượng ethanol nguyên chất có trong chai cồn y tế đó là:",
+      "options": [
+        "280 gam",
+        "350 gam",
+        "400 gam",
+        "224 gam"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ứng dụng công thức tính độ cồn: V_rượu = (V_dung_dịch · Độ_cồn) / 100 và m = V · D.",
+        "socraticPrompt": "Tính thể tích ethanol nguyên chất bằng cách lấy 500 mL nhân 70%, sau đó nhân với khối lượng riêng 0.8 g/mL?",
+        "steps": "Thể tích ethanol nguyên chất: V = (500 · 70) / 100 = 350 mL. Khối lượng ethanol nguyên chất: m = V · D = 350 · 0.8 = 280 gam.",
+        "trap": "Nhầm thể tích 350 mL thành khối lượng 350 gam (quên nhân với khối lượng riêng D = 0.8 g/mL)."
+      }
+    }
+  ]
+}

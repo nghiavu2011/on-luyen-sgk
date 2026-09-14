@@ -1,16 +1,128 @@
-[
-  {
-    "id": "hoahoc11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dẫn khí ethylene ($C_2H_4$) vào ống nghiệm chứa dung dịch nước bromine màu da cam, hiện tượng quan sát được là:",
-    "options": [
-      "A. Xuất hiện kết tủa màu trắng",
-      "B. Dung dịch bromine bị mất màu hoàn toàn",
-      "C. Có khí màu nâu đỏ bay lên",
-      "D. Không có hiện tượng gì"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phản ứng cộng alkene: $CH_2=CH_2 + Br_2 \\rightarrow CH_2Br-CH_2Br$ (không màu).\n💡 Brom phản ứng làm mất màu da cam của dung dịch bromine.\n⚠️ Thuốc thử nhận biết liên kết đôi $C=C$."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de1",
+  "title": "Hóa học 11 — Chương 4: Đề 1 — Khái niệm & Nhận biết Hydrocarbon",
+  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết cấu tạo, danh pháp và phản ứng đặc trưng của Alkane, Alkene, Alkyne và Arene.",
+  "questions": [
+    {
+      "id": "h11_c4_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức chung của Alkane",
+      "question": "Công thức phân tử chung của dãy đồng đẳng alkane mạch hở là:",
+      "options": [
+        "CnH2n-6 (với n ≥ 6)",
+        "CnH2n (với n ≥ 2)",
+        "CnH2n-2 (với n ≥ 2)",
+        "CnH2n+2 (với n ≥ 1)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công thức chung của hydrocarbon no mạch hở (alkane).",
+        "socraticPrompt": "Alkane chỉ chứa toàn liên kết đơn mạch hở, chất đơn giản nhất là methane CH₄ tương ứng với công thức nào?",
+        "steps": "Alkane là hydrocarbon no mạch hở, có công thức chung là CnH2n+2 với n ≥ 1.",
+        "trap": "Nhầm CnH2n là của alkene hoặc CnH2n-2 là của alkyne."
+      }
+    },
+    {
+      "id": "h11_c4_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phản ứng làm mất màu dung dịch bromine",
+      "question": "Chất nào sau đây làm mất màu nâu đỏ của dung dịch nước bromine ngay ở điều kiện thường?",
+      "options": [
+        "Ethylene (C₂H₄)",
+        "Methane (CH₄)",
+        "Propane (C₃H₈)",
+        "Benzene (C₆H₆)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phản ứng cộng của hydrocarbon không no chứa liên kết đôi C=C.",
+        "socraticPrompt": "Chất chứa liên kết đôi π kém bền dễ dàng cộng với phân tử Br₂ làm mất màu nước bromine.",
+        "steps": "Ethylene (C₂H₄) có liên kết đôi C=C nên tham gia phản ứng cộng làm mất màu nước bromine tạo thành 1,2-dibromoethane: C₂H₄ + Br₂ → C₂H₄Br₂.",
+        "trap": "Nhầm benzene hoặc methane cũng làm mất màu nước bromine ở điều kiện thường."
+      }
+    },
+    {
+      "id": "h11_c4_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Danh pháp thay thế IUPAC của alkane",
+      "question": "Tên gọi thay thế theo danh pháp IUPAC của chất có công thức cấu tạo CH₃-CH(CH₃)-CH₂-CH₃ là:",
+      "options": [
+        "3-methylbutane",
+        "2-methylbutane",
+        "Isobutane",
+        "2-methylpropane"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc gọi tên theo danh pháp thay thế IUPAC của alkane phân nhánh.",
+        "socraticPrompt": "Chọn mạch chính dài nhất (4 carbon là butane), đánh số từ đầu gần nhánh hơn (vị trí số 2).",
+        "steps": "Mạch chính gồm 4 carbon (butane). Đánh số từ trái sang phải để nhóm methyl ở vị trí số 2: 2-methylbutane.",
+        "trap": "Đánh số từ phải sang trái ra 3-methylbutane (sai quy tắc số chỉ vị trí nhánh nhỏ nhất)."
+      }
+    },
+    {
+      "id": "h11_c4_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phản ứng đặc trưng của alkane",
+      "question": "Phản ứng hoá học đặc trưng nhất của alkane là loại phản ứng nào sau đây?",
+      "options": [
+        "Phản ứng cộng",
+        "Phản ứng trùng hợp",
+        "Phản ứng thế halogen",
+        "Phản ứng thuỷ phân"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tính chất hoá học đặc trưng của hydrocarbon no.",
+        "socraticPrompt": "Vì chỉ chứa các liên kết đơn C-C và C-H bền vững, alkane không thể tham gia phản ứng cộng mà chủ yếu tham gia phản ứng gì?",
+        "steps": "Alkane chỉ có liên kết đơn bền nên phản ứng đặc trưng là phản ứng thế nguyên tử hydrogen bằng nguyên tử halogen (khi có chiếu sáng hoặc nhiệt độ cao).",
+        "trap": "Chọn phản ứng cộng vốn là phản ứng đặc trưng của hydrocarbon không no."
+      }
+    },
+    {
+      "id": "h11_c4_d1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Điều kiện có đồng phân hình học cis - trans",
+      "question": "Chất nào sau đây có đồng phân hình học cis - trans?",
+      "options": [
+        "But-2-ene (CH₃-CH=CH-CH₃)",
+        "But-1-ene (CH₂=CH-CH₂-CH₃)",
+        "Propene (CH₂=CH-CH₃)",
+        "2-methylpropene (CH₂=C(CH₃)₂)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Điều kiện để alkene có đồng phân hình học: R₁ ≠ R₂ và R₃ ≠ R₄ ở hai đầu liên kết đôi.",
+        "socraticPrompt": "Mỗi nguyên tử C ở liên kết đôi phải liên kết với hai nhóm nguyên tử khác nhau. Nếu đầu nối có nhóm =CH₂ thì hai nhóm H giống nhau nên không có đồng phân hình học.",
+        "steps": "But-2-ene có cấu trúc: CH₃-CH=CH-CH₃. Mỗi C của liên kết đôi liên kết với hai nhóm khác nhau là -H và -CH₃, do đó tồn tại 2 dạng đồng phân cis-but-2-ene và trans-but-2-ene.",
+        "trap": "Chọn but-1-ene hoặc propene có đầu =CH₂ (chứa 2 nguyên tử H giống hệt nhau nên không có đồng phân hình học)."
+      }
+    },
+    {
+      "id": "h11_c4_d1_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nhận biết alkyne có liên kết ba đầu mạch",
+      "question": "Để phân biệt hai chất khí prop-1-yne (CH≡C-CH₃) và propene (CH₂=CH-CH₃), thuốc thử tối ưu nhất là:",
+      "options": [
+        "Dung dịch nước bromine",
+        "Dung dịch thuốc tím KMnO₄",
+        "Khí hydrogen có xúc tác Ni",
+        "Dung dịch AgNO₃ trong NH₃"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phản ứng đặc trưng của liên kết ba đầu mạch (alk-1-yne) với dung dịch AgNO₃/NH₃.",
+        "socraticPrompt": "Cả hai chất đều làm mất màu nước bromine và KMnO₄. Thuốc thử nào tạo kết tủa vàng nhạt chỉ với alkyne đầu mạch?",
+        "steps": "Cả hai chất đều làm mất màu nước Br₂ và KMnO₄. Chỉ có prop-1-yne chứa liên kết ba đầu mạch (H linh động) phản ứng với dung dịch AgNO₃/NH₃ tạo kết tủa vàng nhạt (CAg≡C-CH₃↓), còn propene không phản ứng.",
+        "trap": "Chọn dung dịch bromine do quên rằng cả alkene và alkyne đều làm mất màu nước bromine."
+      }
+    }
+  ]
+}

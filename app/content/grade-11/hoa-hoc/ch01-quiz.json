@@ -18,10 +18,10 @@
       "options": [
         "Nồng độ cân bằng của khí $HI$ đạt mức $0,20\\text{ M}$",
         "Nồng độ cân bằng của khí $HI$ đạt mức $0,32\\text{ M}$",
-        "Nồng độ cân bằng của khí $HI$ đạt mức $0,16\\text{ M}$",
-        "Nồng độ cân bằng của khí $HI$ đạt mức $0,40\\text{ M}$"
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,40\\text{ M}$",
+        "Nồng độ cân bằng của khí $HI$ đạt mức $0,16\\text{ M}$"
       ],
-      "correct": 3,
+      "correct": 2,
       "breakdown": {
         "concept": "Tính nồng độ các chất từ biểu thức hằng số cân bằng $K_C$",
         "socraticPrompt": "Em hãy viết biểu thức $K_C$ cho phản ứng tạo thành $HI$, sau đó thay các giá trị đã biết vào phương trình.",
@@ -42,10 +42,10 @@
       "options": [
         "Ở nhiệt độ thường cân bằng bị dịch chuyển theo chiều làm giảm lượng $NH_3$",
         "Nhiệt độ $450^oC$ làm tăng giá trị của hằng số cân bằng lên rất nhiều lần",
-        "Ở nhiệt độ thấp tốc độ phản ứng quá chậm dù cân bằng có hiệu suất lý thuyết cao",
-        "Phản ứng chỉ bắt đầu chuyển động khi được nung nóng tới điểm sôi của nitrogen"
+        "Phản ứng chỉ bắt đầu chuyển động khi được nung nóng tới điểm sôi của nitrogen",
+        "Ở nhiệt độ thấp tốc độ phản ứng quá chậm dù cân bằng có hiệu suất lý thuyết cao"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
         "concept": "Sự cân bằng giữa nhiệt động học (hiệu suất) và động học (tốc độ phản ứng)",
         "socraticPrompt": "Về mặt lý thuyết tỏa nhiệt thì nhiệt độ thấp có lợi về hiệu suất, vậy vì sao kỹ thuật hóa học phải chọn $450^oC$?",
@@ -64,12 +64,12 @@
       "topic": "Độ pH và chỉ thị màu",
       "question": "Trộn $100\\text{ mL}$ dung dịch $HCl\\text{ }0,15\\text{ M}$ với $100\\text{ mL}$ dung dịch $NaOH\\text{ }0,05\\text{ M}$. Giá trị $pH$ của dung dịch thu được là:",
       "options": [
-        "Dung dịch thu được có độ kiềm yếu với giá trị $pH$ xấp xỉ 8,0",
         "Dung dịch thu được có tính acid mạnh với giá trị $pH$ bằng 1,3",
+        "Dung dịch thu được có độ kiềm yếu với giá trị $pH$ xấp xỉ 8,0",
         "Dung dịch thu được hoàn toàn trung tính với giá trị $pH$ bằng 7,0",
         "Dung dịch thu được có tính acid nhẹ với giá trị $pH$ xấp xỉ 2,0"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
         "concept": "Tính $pH$ sau phản ứng trung hòa acid mạnh và base mạnh",
         "socraticPrompt": "Em hãy tính số mol của $H^+$ và $OH^-$, so sánh lượng dư sau phản ứng và chia cho tổng thể tích hai dung dịch.",
@@ -88,12 +88,12 @@
       "topic": "Ý nghĩa thực tiễn cân bằng ion",
       "question": "Phèn chua $[K_2SO_4 \\cdot Al_2(SO_4)_3 \\cdot 24H_2O]$ được dùng làm trong nước đục vì ion $Al^{3+}$ thủy phân tạo thành:",
       "options": [
-        "Keo $Al(OH)_3$ có bề mặt hấp phụ các hạt bụi cặn lơ lửng lắng xuống",
         "Dung dịch acid mạnh hòa tan toàn bộ các chất bẩn hữu cơ trong nước",
+        "Keo $Al(OH)_3$ có bề mặt hấp phụ các hạt bụi cặn lơ lửng lắng xuống",
         "Khí hydrogen sục bọt đẩy toàn bộ chất cặn bã nổi lên trên bề mặt",
         "Màng ngăn muối sulfate kết tinh phủ kín đáy bể chứa nước sinh hoạt"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
         "concept": "Sự thủy phân của ion kim loại $Al^{3+}$ trong dung dịch nước",
         "socraticPrompt": "Khi ion $Al^{3+}$ tác dụng với nước sẽ tạo ra hợp chất dạng keo nào có khả năng dính giữ các chất bẩn?",
