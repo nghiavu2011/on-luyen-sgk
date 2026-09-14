@@ -1,62 +1,218 @@
-[
-  {
-    "id": "l01",
-    "title": "Bài 1: Dao động điều hoà và phương trình dao động",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 1: Dao động điều hoà và phương trình dao động.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 1: Dao động điều hoà và phương trình dao động.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 1: Dao động điều hoà và phương trình dao động để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l02",
-    "title": "Bài 2: Vận tốc, gia tốc trong dao động điều hoà",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 2: Vận tốc, gia tốc trong dao động điều hoà.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 2: Vận tốc, gia tốc trong dao động điều hoà.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 2: Vận tốc, gia tốc trong dao động điều hoà để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l03",
-    "title": "Bài 3: Năng lượng trong dao động điều hoà",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 3: Năng lượng trong dao động điều hoà.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 3: Năng lượng trong dao động điều hoà.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 3: Năng lượng trong dao động điều hoà để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l04",
-    "title": "Bài 4: Dao động tắt dần, dao động cưỡng bức và hiện tượng cộng hưởng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 4: Dao động tắt dần, dao động cưỡng bức và hiện tượng cộng hưởng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 4: Dao động tắt dần, dao động cưỡng bức và hiện tượng cộng hưởng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 4: Dao động tắt dần, dao động cưỡng bức và hiện tượng cộng hưởng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Dao động điều hoà",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Dao động điều hoà và phương trình dao động",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được định nghĩa dao động cơ, dao động tuần hoàn và dao động điều hoà.",
+        "Nắm vững phương trình li độ x = A cos(ωt + φ) và ý nghĩa các đại lượng: A, ω, φ, (ωt + φ).",
+        "Phân biệt rõ chu kì T, tần số f và tần số góc ω của dao động."
+      ],
+      "concepts": [
+        {
+          "term": "Dao động điều hoà",
+          "definition": "Dao động mà li độ của vật là một hàm côsin (hoặc sin) của thời gian theo phương trình x = A cos(ωt + φ).",
+          "notation": "x = A cos(ωt + φ)",
+          "note": "Biên độ A > 0 là li độ cực đại, quỹ đạo chuyển động là một đoạn thẳng dài L = 2A."
+        },
+        {
+          "term": "Chu kì, tần số và tần số góc",
+          "definition": "Chu kì T là khoảng thời gian để vật thực hiện một dao động toàn phần (đơn vị: giây - s). Tần số f là số dao động toàn phần thực hiện trong một giây (đơn vị: héc - Hz). Tần số góc ω (rad/s).",
+          "notation": "T = 2π / ω; f = 1 / T = ω / (2π); ω = 2πf",
+          "note": "Pha dao động (ωt + φ) xác định trạng thái dao động (vị trí và chiều chuyển động) tại thời điểm t."
+        },
+        {
+          "term": "Pha ban đầu φ",
+          "definition": "Pha ban đầu φ cho biết trạng thái dao động của vật tại thời điểm ban đầu t = 0.",
+          "notation": "-π < φ ≤ π",
+          "note": "Nếu t = 0 vật qua VTCB theo chiều dương thì φ = -π/2; theo chiều âm thì φ = +π/2."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Xác định pha ban đầu từ điều kiện đầu",
+          "meaning": "Tại t = 0: cos φ = x0 / A. Nếu vật chuyển động theo chiều dương (v > 0) thì φ < 0; nếu theo chiều âm (v < 0) thì φ > 0."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vật dao động điều hoà theo phương trình x = 6 cos(4πt - π/3) (cm). Hãy xác định biên độ, tần số và toạ độ của vật tại thời điểm t = 0,25 s?",
+          "steps": [
+            "Bước 1: So sánh với phương trình tổng quát x = A cos(ωt + φ): Biên độ A = 6 cm; tần số góc ω = 4π rad/s.",
+            "Bước 2: Tính tần số dao động: f = ω / (2π) = 4π / (2π) = 2 Hz.",
+            "Bước 3: Thay t = 0,25 s vào phương trình li độ: x = 6 cos(4π·0,25 - π/3) = 6 cos(π - π/3) = 6 cos(2π/3) = 6 · (-1/2) = -3 cm."
+          ],
+          "answer": "A = 6 cm, f = 2 Hz và li độ x = -3 cm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy biên độ A mang giá trị âm, ví dụ phương trình x = -5 cos(2t) nói A = -5.",
+          "why": "Biên độ A luôn là số dương (A > 0), phải đổi dấu trừ vào pha: x = 5 cos(2t + π)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Vận tốc, gia tốc trong dao động điều hoà",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững biểu thức vận tốc và gia tốc trong dao động điều hoà.",
+        "Hiểu rõ độ lệch pha giữa li độ, vận tốc và gia tốc.",
+        "Sử dụng thành thạo hệ thức độc lập thời gian giữa x, v và a."
+      ],
+      "concepts": [
+        {
+          "term": "Vận tốc trong dao động điều hoà",
+          "definition": "Vận tốc là đạo hàm bậc nhất của li độ theo thời gian: v = x' = -ωA sin(ωt + φ) = ωA cos(ωt + φ + π/2). Vận tốc sớm pha π/2 so với li độ.",
+          "notation": "v_max = ωA (tại VTCB theo chiều dương); v = 0 (tại 2 biên)",
+          "note": "Véc-tơ vận tốc luôn cùng hướng với hướng chuyển động của vật."
+        },
+        {
+          "term": "Gia tốc trong dao động điều hoà",
+          "definition": "Gia tốc là đạo hàm bậc nhất của vận tốc (đạo hàm bậc hai của li độ): a = v' = -ω²A cos(ωt + φ) = -ω²x. Gia tốc ngược pha (sớm pha π) so với li độ.",
+          "notation": "a_max = ω²A (tại biên âm x = -A); a = 0 (tại VTCB x = 0)",
+          "note": "Véc-tơ gia tốc luôn hướng về vị trí cân bằng và có độ lớn tỉ lệ thuận với độ lớn li độ."
+        },
+        {
+          "term": "Hệ thức độc lập với thời gian",
+          "definition": "Mối liên hệ giữa x, v và a tại cùng một thời điểm không phụ thuộc vào t.",
+          "notation": "A² = x² + v² / ω²; A² = a² / ω⁴ + v² / ω²",
+          "note": "Dùng để tìm biên độ A, tần số góc ω hoặc vận tốc khi biết li độ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy luật biến thiên trạng thái",
+          "meaning": "Khi vật đi từ biên về VTCB: chuyển động nhanh dần (a và v cùng dấu). Khi đi từ VTCB ra biên: chuyển động chậm dần (a và v trái dấu)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một chất điểm dao động điều hoà với chu kì T = 2s và biên độ A = 5 cm. Tính tốc độ của vật khi nó có li độ x = 3 cm?",
+          "steps": [
+            "Bước 1: Tính tần số góc: ω = 2π / T = 2π / 2 = π rad/s.",
+            "Bước 2: Áp dụng hệ thức độc lập thời gian: A² = x² + v² / ω² => v² = ω²(A² - x²).",
+            "Bước 3: Thay số: v² = π² · (5² - 3²) = π² · (25 - 9) = 16π² => tốc độ |v| = 4π cm/s ≈ 12,57 cm/s."
+          ],
+          "answer": "Tốc độ của vật là |v| = 4π cm/s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nói chuyển động từ biên về VTCB là 'nhanh dần đều'.",
+          "why": "Vì gia tốc a = -ω²x biến thiên điều hoà theo thời gian (không phải hằng số) nên đây chỉ là chuyển động 'nhanh dần', không có chữ 'đều'."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Năng lượng trong dao động điều hoà",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững công thức tính động năng, thế năng và cơ năng của vật dao động điều hoà.",
+        "Hiểu định luật bảo toàn cơ năng và sự chuyển hoá qua lại giữa động năng và thế năng.",
+        "Biết chu kì biến thiên tuần hoàn của động năng và thế năng bằng T/2."
+      ],
+      "concepts": [
+        {
+          "term": "Động năng Wd",
+          "definition": "Động năng của vật dao động: Wd = 1/2 · m · v² = 1/2 · m · ω² · A² · sin²(ωt + φ).",
+          "notation": "Wd_max = 1/2 · m · ω² · A² (tại VTCB)",
+          "note": "Động năng cực đại tại VTCB và bằng 0 tại hai vị trí biên."
+        },
+        {
+          "term": "Thế năng Wt",
+          "definition": "Thế năng của vật dao động: Wt = 1/2 · k · x² = 1/2 · m · ω² · x² = 1/2 · m · ω² · A² · cos²(ωt + φ).",
+          "notation": "Wt_max = 1/2 · k · A² (tại 2 biên)",
+          "note": "Thế năng cực đại tại hai vị trí biên và bằng 0 tại vị trí cân bằng."
+        },
+        {
+          "term": "Cơ năng W",
+          "definition": "Cơ năng là tổng động năng và thế năng, luôn được bảo toàn trong dao động điều hoà nếu bỏ qua ma sát.",
+          "notation": "W = Wd + Wt = 1/2 · m · ω² · A² = 1/2 · k · A² = hằng số",
+          "note": "Cơ năng tỉ lệ với bình phương biên độ dao động (W ~ A²)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tần số biến thiên của động năng và thế năng",
+          "meaning": "Nếu li độ dao động với chu kì T và tần số f thì động năng và thế năng biến thiên tuần hoàn với chu kì T' = T/2 và tần số f' = 2f."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một con lắc lò xo có khối lượng m = 200 g dao động điều hoà với tần số góc ω = 10 rad/s và biên độ A = 4 cm. Tính cơ năng của con lắc?",
+          "steps": [
+            "Bước 1: Đổi đơn vị sang hệ SI: m = 200 g = 0,2 kg; A = 4 cm = 0,04 m.",
+            "Bước 2: Áp dụng công thức cơ năng: W = 1/2 · m · ω² · A².",
+            "Bước 3: Thay số: W = 1/2 · 0,2 · 10² · (0,04)² = 0,1 · 100 · 0,0016 = 0,016 J = 16 mJ."
+          ],
+          "answer": "Cơ năng của con lắc là W = 16 mJ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi đơn vị biên độ A từ cm sang m khi tính năng lượng Joules (J).",
+          "why": "Trong công thức tính Joules (J), biên độ A bắt buộc phải có đơn vị chuẩn là mét (m)."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Dao động tắt dần, dao động cưỡng bức và hiện tượng cộng hưởng",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt được dao động tắt dần, dao động duy trì và dao động cưỡng bức.",
+        "Giải thích được nguyên nhân làm tắt dần dao động và các ứng dụng thực tế.",
+        "Nắm vững hiện tượng cộng hưởng, điều kiện xảy ra và tác động của nó trong đời sống và kỹ thuật."
+      ],
+      "concepts": [
+        {
+          "term": "Dao động tắt dần",
+          "definition": "Dao động có biên độ và cơ năng giảm dần theo thời gian do ma sát và lực cản của môi trường.",
+          "notation": "Biên độ A giảm dần theo thời gian",
+          "note": "Lực cản môi trường càng lớn thì sự tắt dần diễn ra càng nhanh. Ứng dụng: bộ phận giảm xóc xe máy, ô tô."
+        },
+        {
+          "term": "Dao động cưỡng bức",
+          "definition": "Dao động xảy ra dưới tác dụng của một ngoại lực tuần hoàn F = F0 cos(Ωt + φ0). Tần số của dao động cưỡng bức bằng đúng tần số Ω của ngoại lực cưỡng bức.",
+          "notation": "f_cưỡng_bức = f_ngoại_lực",
+          "note": "Biên độ của dao động cưỡng bức phụ thuộc vào biên độ F0, lực ma sát và độ chênh lệch |Ω - ω0|."
+        },
+        {
+          "term": "Hiện tượng cộng hưởng",
+          "definition": "Hiện tượng biên độ dao động cưỡng bức tăng nhanh đột ngột đến giá trị cực đại khi tần số của lực cưỡng bức xấp xỉ bằng tần số dao động riêng của hệ (f ≈ f0).",
+          "notation": "f_ngoại_lực = f0 => A đạt cực đại",
+          "note": "Cộng hưởng có lợi trong hộp đàn ghita, máy đo tần số; có hại làm sập cầu, gãy cánh máy bay khi rung lắc mạnh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện xảy ra cộng hưởng cơ",
+          "meaning": "Cộng hưởng xảy ra khi và chỉ khi tần số góc của ngoại lực cưỡng bức bằng tần số góc riêng của hệ dao động: Ω = ω0."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một con lắc lò xo có chu kì dao động riêng T0 = 0,5 s. Nếu tác dụng vào con lắc một ngoại lực tuần hoàn biến thiên với chu kì T = 0,5 s thì hiện tượng gì xảy ra và biên độ dao động có đặc điểm gì?",
+          "steps": [
+            "Bước 1: So sánh chu kì ngoại lực cưỡng bức và chu kì dao động riêng: T = T0 = 0,5 s => f = f0.",
+            "Bước 2: Khi tần số ngoại lực bằng tần số dao động riêng, hiện tượng cộng hưởng cơ xảy ra.",
+            "Bước 3: Tại trạng thái cộng hưởng, biên độ dao động của con lắc đạt giá trị cực đại."
+          ],
+          "answer": "Hiện tượng cộng hưởng xảy ra và biên độ dao động của con lắc đạt cực đại."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng tần số của dao động cưỡng bức bằng tần số riêng f0 của hệ.",
+          "why": "Khi đã ổn định, dao động cưỡng bức LUÔN dao động với tần số của ngoại lực f_ngoại_lực, chỉ khi cộng hưởng thì f_ngoại_lực mới bằng f0."
+        }
+      ]
+    }
+  ]
+}

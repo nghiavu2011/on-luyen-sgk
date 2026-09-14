@@ -1,47 +1,165 @@
-[
-  {
-    "id": "l09",
-    "title": "Bài 9: Định luật Coulomb về lực tương tác tĩnh điện",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 9: Định luật Coulomb về lực tương tác tĩnh điện.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 9: Định luật Coulomb về lực tương tác tĩnh điện.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 9: Định luật Coulomb về lực tương tác tĩnh điện để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l10",
-    "title": "Bài 10: Điện trường và cường độ điện trường",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 10: Điện trường và cường độ điện trường.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 10: Điện trường và cường độ điện trường.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 10: Điện trường và cường độ điện trường để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l11",
-    "title": "Bài 11: Điện thế, hiệu điện thế và Tụ điện",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 11: Điện thế, hiệu điện thế và Tụ điện.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 11: Điện thế, hiệu điện thế và Tụ điện.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 11: Điện thế, hiệu điện thế và Tụ điện để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Điện trường",
+  "lessons": [
+    {
+      "id": "l09",
+      "title": "Bài 9: Định luật Coulomb về lực tương tác tĩnh điện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững hai loại điện tích và định luật bảo toàn điện tích.",
+        "Phát biểu và viết được công thức định luật Coulomb về lực tương tác giữa hai điện tích điểm.",
+        "Tính được lực tương tác tĩnh điện trong chân không và trong điện môi."
+      ],
+      "concepts": [
+        {
+          "term": "Điện tích điểm và hai loại điện tích",
+          "definition": "Điện tích điểm là một vật mang điện có kích thước rất nhỏ so với khoảng cách tới điểm mà ta xét. Có hai loại điện tích: điện tích dương (+) và điện tích âm (-). Các điện tích cùng dấu thì đẩy nhau, trái dấu thì hút nhau.",
+          "notation": "e = 1,6 · 10⁻¹⁹ C (Điện tích nguyên tố)",
+          "note": "Electron mang điện tích -e = -1,6 · 10⁻¹⁹ C, proton mang điện tích +e."
+        },
+        {
+          "term": "Định luật Coulomb",
+          "definition": "Lực tương tác tĩnh điện giữa hai điện tích điểm đứng yên trong chân không có phương trùng với đường thẳng nối hai điện tích, độ lớn tỉ lệ thuận với tích độ lớn hai điện tích và tỉ lệ nghịch với bình phương khoảng cách giữa chúng.",
+          "notation": "F = k · |q1 · q2| / r² (với k = 9 · 10⁹ N·m²/C²)",
+          "note": "Trong điện môi đồng tính có hằng số điện môi ε: F = k · |q1 · q2| / (ε · r²). Với chân không ε = 1, không khí ε ≈ 1."
+        },
+        {
+          "term": "Định luật bảo toàn điện tích",
+          "definition": "Trong một hệ cô lập về điện, tổng đại số của các điện tích luôn là một hằng số.",
+          "notation": "q1 + q2 + ... + qn = hằng số",
+          "note": "Khi hai quả cầu kim loại giống nhau mang điện tích q1 và q2 tiếp xúc nhau rồi tách ra, điện tích mỗi quả cầu là q' = (q1 + q2) / 2."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ lớn lực Coulomb tỉ lệ nghịch với bình phương khoảng cách",
+          "meaning": "Nếu khoảng cách giữa hai điện tích tăng lên n lần thì lực tương tác giảm đi n² lần: F' = F / n²."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Hai điện tích điểm q1 = 2 · 10⁻⁸ C và q2 = -4 · 10⁻⁸ C đặt cách nhau r = 3 cm trong không khí. Tính độ lớn của lực tương tác giữa chúng và cho biết lực hút hay lực đẩy?",
+          "steps": [
+            "Bước 1: Đổi đơn vị: r = 3 cm = 0,03 m. Không khí có hằng số điện môi ε ≈ 1.",
+            "Bước 2: Vì hai điện tích trái dấu (q1 > 0 và q2 < 0) nên lực tương tác là lực HÚT.",
+            "Bước 3: Áp dụng định luật Coulomb: F = k · |q1 · q2| / r² = 9 · 10⁹ · |2 · 10⁻⁸ · (-4 · 10⁻⁸)| / (0,03)² = 9 · 10⁹ · 8 · 10⁻¹⁶ / 0,0009 = 8 · 10⁻³ N = 0,008 N."
+          ],
+          "answer": "Lực hút với độ lớn F = 8 · 10⁻³ N."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi đơn vị khoảng cách r từ cm sang m khi tính lực Coulomb theo chuẩn SI (Newton).",
+          "why": "Đơn vị chuẩn của r bắt buộc là mét (m), nếu để cm sẽ sai kết quả 10.000 lần."
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "title": "Bài 10: Điện trường và cường độ điện trường",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa điện trường và véc-tơ cường độ điện trường E.",
+        "Biết công thức tính cường độ điện trường của một điện tích điểm.",
+        "Áp dụng nguyên lí chồng chất điện trường để tính cường độ điện trường tổng hợp."
+      ],
+      "concepts": [
+        {
+          "term": "Điện trường",
+          "definition": "Điện trường là một dạng vật chất bao quanh các điện tích và truyền tương tác điện. Tính chất cơ bản của điện trường là tác dụng lực điện lên điện tích đặt trong nó.",
+          "notation": "F = q · E",
+          "note": "Nếu q > 0 thì véc-tơ F cùng hướng với E. Nếu q < 0 thì véc-tơ F ngược hướng với E."
+        },
+        {
+          "term": "Cường độ điện trường E",
+          "definition": "Đại lượng đặc trưng cho điện trường về phương diện tác dụng lực tại một điểm. Là thương số giữa lực điện F tác dụng lên điện tích thử q đặt tại điểm đó và độ lớn của q.",
+          "notation": "E = F / |q| (Đơn vị: Vôn trên mét - V/m, hoặc N/C)",
+          "note": "Cường độ điện trường do điện tích điểm Q gây ra tại điểm cách nó khoảng r: E = k · |Q| / (ε · r²). Hướng ra xa nếu Q > 0, hướng lại gần nếu Q < 0."
+        },
+        {
+          "term": "Điện trường đều và đường sức điện",
+          "definition": "Điện trường đều là điện trường có véc-tơ cường độ điện trường tại mọi điểm đều như nhau (cùng hướng và cùng độ lớn). Đường sức điện là các đường thẳng song song cách đều nhau.",
+          "notation": "E = const tại mọi điểm",
+          "note": "Điện trường trong khoảng không gian giữa hai bản kim loại phẳng tích điện trái dấu là điện trường đều."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên lí chồng chất điện trường",
+          "meaning": "Cường độ điện trường tổng hợp do nhiều điện tích gây ra tại một điểm bằng tổng các véc-tơ cường độ điện trường thành phần: E = E1 + E2 + ..."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính cường độ điện trường do điện tích điểm Q = +4 · 10⁻⁹ C gây ra tại điểm M cách nó một khoảng r = 20 cm trong không khí?",
+          "steps": [
+            "Bước 1: Đổi đơn vị r = 20 cm = 0,2 m.",
+            "Bước 2: Áp dụng công thức cường độ điện trường của điện tích điểm: E = k · |Q| / r².",
+            "Bước 3: Thay số: E = 9 · 10⁹ · (4 · 10⁻⁹) / (0,2)² = 36 / 0,04 = 900 V/m. Vì Q > 0 nên véc-tơ E hướng ra xa Q."
+          ],
+          "answer": "Cường độ điện trường E = 900 V/m hướng ra xa Q."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cộng trực tiếp độ lớn E = E1 + E2 mà quên rằng cường độ điện trường là đại lượng véc-tơ.",
+          "why": "Phải dùng quy tắc cộng véc-tơ hình bình hành để tính góc lệch pha giữa E1 và E2."
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "title": "Bài 11: Điện thế, hiệu điện thế và Tụ điện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững công thức tính công của lực điện trường và tính chất bảo toàn (lực thế).",
+        "Hiểu định nghĩa điện thế V, hiệu điện thế U và hệ thức U = E · d trong điện trường đều.",
+        "Nắm vững định nghĩa điện dung C của tụ điện và công thức năng lượng điện trường."
+      ],
+      "concepts": [
+        {
+          "term": "Công của lực điện trường",
+          "definition": "Công của lực điện tác dụng lên điện tích q khi di chuyển từ điểm M đến điểm N không phụ thuộc vào hình dạng đường đi, chỉ phụ thuộc vào vị trí điểm đầu M và điểm cuối N.",
+          "notation": "A_MN = q · E · d = q · (V_M - V_N) = q · U_MN",
+          "note": "d là hình chiếu của đoạn MN lên phương của đường sức điện trường. Điện trường là một trường lực thế."
+        },
+        {
+          "term": "Hiệu điện thế U_MN",
+          "definition": "Đại lượng đặc trưng cho khả năng sinh công của điện trường khi dịch chuyển điện tích q giữa hai điểm M và N: U_MN = V_M - V_N = A_MN / q.",
+          "notation": "U = E · d <=> E = U / d (Đơn vị: Vôn - V)",
+          "note": "Hệ thức E = U/d giải thích vì sao cường độ điện trường có đơn vị là Vôn trên mét (V/m)."
+        },
+        {
+          "term": "Tụ điện và Điện dung C",
+          "definition": "Hệ hai vật dẫn đặt gần nhau và ngăn cách nhau bởi một lớp cách điện (điện môi). Điện dung C đặc trưng cho khả năng tích điện của tụ điện ở một hiệu điện thế nhất định: C = Q / U.",
+          "notation": "Q = C · U; W = 1/2 · C · U² = 1/2 · Q · U (Năng lượng điện trường)",
+          "note": "Đơn vị điện dung là Fara (F). 1 µF = 10⁻⁶ F; 1 nF = 10⁻⁹ F; 1 pF = 10⁻¹² F."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Năng lượng điện trường dự trữ trong tụ điện",
+          "meaning": "Khi nạp điện cho tụ, năng lượng được tích luỹ dưới dạng điện trường trong lớp điện môi giữa hai bản tụ: W = Q² / (2C) = 1/2 C U²."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một tụ điện có điện dung C = 20 µF được nối vào nguồn điện có hiệu điện thế U = 12 V. Tính điện tích Q của tụ điện và năng lượng điện trường dự trữ trong tụ?",
+          "steps": [
+            "Bước 1: Đổi đơn vị C = 20 µF = 20 · 10⁻⁶ F = 2 · 10⁻⁵ F.",
+            "Bước 2: Tính điện tích của tụ điện: Q = C · U = (2 · 10⁻⁵) · 12 = 2,4 · 10⁻⁴ C.",
+            "Bước 3: Tính năng lượng điện trường: W = 1/2 · C · U² = 1/2 · (2 · 10⁻⁵) · 12² = 10⁻⁵ · 144 = 1,44 · 10⁻³ J = 1,44 mJ."
+          ],
+          "answer": "Điện tích Q = 2,4 · 10⁻⁴ C và năng lượng W = 1,44 mJ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng điện dung C phụ thuộc vào điện tích Q và hiệu điện thế U (nói Q tăng thì C tăng).",
+          "why": "Điện dung C là đại lượng không đổi chỉ phụ thuộc vào cấu tạo hình học và chất điện môi của tụ điện."
+        }
+      ]
+    }
+  ]
+}

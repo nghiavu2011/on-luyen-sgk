@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch03_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hai điện tích điểm $q_1 = 2\\cdot 10^{-8}\\text{ C}$ và $q_2 = -2\\cdot 10^{-8}\\text{ C}$ đặt gần nhau trong không khí sẽ tương tác với nhau bằng một lực:",
-    "options": [
-      "A. Lực đẩy tĩnh điện",
-      "B. Lực hút tĩnh điện",
-      "C. Không tương tác",
-      "D. Lực ma sát"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất lực tĩnh điện: Hai điện tích trái dấu (một dương, một âm) luôn hút nhau.\n💡 Trái dấu hút nhau, cùng dấu đẩy nhau.\n⚠️ Nguyên tắc cơ bản của tương tác điện môi."
-  }
-]
+{
+  "chapterId": "ch03",
+  "examId": "de1",
+  "title": "Vật lí 11 — Chương 3: Đề 1 — Khái niệm & Nhận biết Điện trường",
+  "description": "Đề kiểm tra nhận biết về lực Coulomb, cường độ điện trường, điện thế, hiệu điện thế và tụ điện.",
+  "questions": [
+    {
+      "id": "vl11_c3_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị của cường độ điện trường",
+      "question": "Trong hệ đơn vị SI, đơn vị đo cường độ điện trường là:",
+      "options": [
+        "Jun (J)",
+        "Vôn trên mét (V/m)",
+        "Fara (F)",
+        "Cu-lông (C)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cường độ điện trường có đơn vị là Vôn trên mét (V/m) hoặc Niutơn trên culông (N/C).",
+        "socraticPrompt": "Từ hệ thức E = U / d, hiệu điện thế đo bằng Vôn (V) chia khoảng cách đo bằng mét (m) thì đơn vị là gì?",
+        "steps": "Đơn vị đo cường độ điện trường trong hệ SI là V/m.",
+        "trap": "Nhầm đơn vị của điện thế (Vôn) hoặc điện tích (Culông)."
+      }
+    },
+    {
+      "id": "vl11_c3_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hướng của đường sức điện tích dương",
+      "question": "Các đường sức điện trường do một điện tích điểm dương cô lập gây ra có dạng là:",
+      "options": [
+        "Những đường tròn đồng tâm",
+        "Những đường thẳng hướng về phía điện tích",
+        "Những đường thẳng xuất phát từ điện tích hướng ra vô cực",
+        "Những đường cong khép kín"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đường sức của điện trường tĩnh xuất phát từ điện tích dương và kết thúc ở điện tích âm hoặc ở vô cực.",
+        "socraticPrompt": "Lực điện tác dụng lên điện tích thử dương đặt gần điện tích dương có hướng đẩy ra xa hay hút lại gần?",
+        "steps": "Điện tích dương gây ra điện trường hướng ra xa nó, do đó đường sức là những tia thẳng xuất phát từ điện tích hướng ra vô cực.",
+        "trap": "Nhầm đường sức từ (đường cong khép kín)."
+      }
+    },
+    {
+      "id": "vl11_c3_d1_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Định luật Coulomb và khoảng cách",
+      "question": "Khi khoảng cách giữa hai điện tích điểm đặt trong chân không tăng lên 2 lần thì độ lớn lực tương tác tĩnh điện giữa chúng sẽ:",
+      "options": [
+        "Tăng lên 2 lần",
+        "Giảm đi 2 lần",
+        "Tăng lên 4 lần",
+        "Giảm đi 4 lần"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lực Coulomb tỉ lệ nghịch với bình phương khoảng cách: F ~ 1 / r².",
+        "socraticPrompt": "Khoảng cách r tăng gấp đôi (r' = 2r) thì r bình phương tăng lên mấy lần và lực F giảm mấy lần?",
+        "steps": "Theo định luật Coulomb: F = k|q1q2|/r². Khi r tăng 2 lần thì mẫu số r² tăng 4 lần, do đó lực F giảm đi 4 lần.",
+        "trap": "Quên bình phương khoảng cách dẫn đến chọn giảm 2 lần."
+      }
+    },
+    {
+      "id": "vl11_c3_d1_q4",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm của công lực điện trường",
+      "question": "Công của lực điện trường tác dụng lên một điện tích khi dịch chuyển trong điện trường KHÔNG phụ thuộc vào:",
+      "options": [
+        "Hình dạng của đường đi",
+        "Độ lớn của điện tích dịch chuyển",
+        "Vị trí của điểm đầu và điểm cuối",
+        "Cường độ của điện trường"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Lực điện trường tĩnh là lực thế nên công của nó không phụ thuộc hình dạng đường đi, chỉ phụ thuộc vị trí điểm đầu và điểm cuối.",
+        "socraticPrompt": "Tương tự như trọng lực trong cơ học, lực tĩnh điện có công phụ thuộc vào đường đi vòng vèo hay chỉ điểm đầu - cuối?",
+        "steps": "Công của lực điện trường A = qEd chỉ phụ thuộc điểm đầu và điểm cuối, không phụ thuộc đường đi.",
+        "trap": "Chọn vị trí điểm đầu và điểm cuối."
+      }
+    },
+    {
+      "id": "vl11_c3_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đơn vị của điện dung tụ điện",
+      "question": "Điện dung của tụ điện được đo bằng đơn vị:",
+      "options": [
+        "Fara (F)",
+        "Ôm (Ω)",
+        "Hen-ri (H)",
+        "Oát (W)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đơn vị đo điện dung C là Fara (kí hiệu: F).",
+        "socraticPrompt": "Tên nhà bác học Michael Faraday được lấy đặt cho đơn vị đo đại lượng nào của tụ điện?",
+        "steps": "Điện dung C = Q / U có đơn vị đo chuẩn là Fara (F).",
+        "trap": "Nhầm với Henri (đơn vị độ tự cảm của cuộn cảm)."
+      }
+    },
+    {
+      "id": "vl11_c3_d1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Quan hệ giữa E và U trong điện trường đều",
+      "question": "Mối liên hệ giữa cường độ điện trường đều E và hiệu điện thế U giữa hai điểm cách nhau khoảng d theo phương đường sức là:",
+      "options": [
+        "U = E / d",
+        "E = U · d",
+        "U = E · d",
+        "E = U / d²"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hệ thức liên hệ trong điện trường đều: U = E · d <=> E = U / d.",
+        "socraticPrompt": "Hiệu điện thế bằng tích của cường độ điện trường với hình chiếu khoảng cách nào?",
+        "steps": "Theo SGK Vật lí 11, giữa hai bản tụ điện phẳng có điện trường đều thì U = E · d.",
+        "trap": "Nhầm U = E / d."
+      }
+    }
+  ]
+}

@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch01_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Một chất điểm dao động điều hoà với phương trình $x = 4\\cos(2\\pi t)\\text{ cm}$. Tốc độ cực đại của chất điểm khi qua vị trí cân bằng là:",
-    "options": [
-      "A. $8\\pi\\text{ cm/s}$",
-      "B. $4\\pi\\text{ cm/s}$",
-      "C. $16\\pi\\text{ cm/s}$",
-      "D. $2\\pi\\text{ cm/s}$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Công thức: $v_{\\max} = \\omega A$.\nTa có: $A = 4\\text{ cm}, \\omega = 2\\pi\\text{ rad/s}$.\n$\\Rightarrow v_{\\max} = 2\\pi \\times 4 = 8\\pi\\text{ cm/s}$.\n💡 Tốc độ cực đại đạt được khi qua vị trí cân bằng theo cả 2 chiều.\n⚠️ Không nhầm lẫn với gia tốc cực đại $a_{\\max} = \\omega^2 A$."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "de2",
+  "title": "Vật lí 11 — Chương 1: Đề 2 — Kỹ năng & Thực hành Tính toán Dao động điều hoà",
+  "description": "Bài tập tính chu kì, tần số, li độ, vận tốc, gia tốc và hệ thức độc lập thời gian.",
+  "questions": [
+    {
+      "id": "vl11_c1_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính tần số góc từ chu kì",
+      "question": "Một vật dao động điều hoà thực hiện được 30 dao động toàn phần trong thời gian 15 giây. Tần số góc ω của dao động là:",
+      "options": [
+        "4π rad/s",
+        "2π rad/s",
+        "π rad/s",
+        "2 rad/s"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tần số f = N / t (số dao động chia thời gian). Tần số góc ω = 2πf.",
+        "socraticPrompt": "30 dao động trong 15 giây thì 1 giây thực hiện được mấy dao động? Lấy kết quả nhân 2π?",
+        "steps": "Tần số f = 30 / 15 = 2 Hz. Tần số góc: ω = 2πf = 2π · 2 = 4π rad/s.",
+        "trap": "Nhầm f với T = 15/30 = 0,5s rồi quên nhân 2π."
+      }
+    },
+    {
+      "id": "vl11_c1_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hệ thức độc lập thời gian tính vận tốc",
+      "question": "Một vật dao động điều hoà với biên độ A = 10 cm và tần số góc ω = 10 rad/s. Khi vật có li độ x = 6 cm thì vận tốc có độ lớn là:",
+      "options": [
+        "60 cm/s",
+        "100 cm/s",
+        "80 cm/s",
+        "40 cm/s"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Áp dụng hệ thức độc lập thời gian: A² = x² + v² / ω² => |v| = ω√(A² - x²).",
+        "socraticPrompt": "Căn bậc hai của 10² - 6² = 100 - 36 = 64 là mấy? Nhân thêm ω = 10?",
+        "steps": "|v| = ω · √(A² - x²) = 10 · √(10² - 6²) = 10 · √64 = 10 · 8 = 80 cm/s.",
+        "trap": "Nhầm lấy |v| = ω(A - x) = 10 · 4 = 40 cm/s."
+      }
+    },
+    {
+      "id": "vl11_c1_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính gia tốc cực đại",
+      "question": "Một chất điểm dao động điều hoà có phương trình vận tốc v = 20π cos(5πt + π/6) (cm/s). Gia tốc cực đại của chất điểm bằng:",
+      "options": [
+        "20π cm/s²",
+        "100π² cm/s²",
+        "4π cm/s²",
+        "50π² cm/s²"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Vận tốc cực đại v_max = ωA = 20π cm/s; tần số góc ω = 5π rad/s. Gia tốc cực đại a_max = ω · v_max = ω²A.",
+        "socraticPrompt": "Gia tốc cực đại bằng tần số góc ω nhân vận tốc cực đại v_max: 5π nhân 20π?",
+        "steps": "Từ phương trình vận tốc: v_max = 20π cm/s và ω = 5π rad/s. Suy ra gia tốc cực đại: a_max = ω · v_max = 5π · 20π = 100π² cm/s² = 10 m/s² (nếu lấy π² ≈ 10).",
+        "trap": "Lấy nhầm a_max = v_max = 20π."
+      }
+    },
+    {
+      "id": "vl11_c1_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định pha ban đầu từ vị trí ban đầu",
+      "question": "Một vật dao động điều hoà với biên độ A. Tại thời điểm t = 0, vật đi qua vị trí cân bằng theo chiều dương. Pha ban đầu φ của dao động là:",
+      "options": [
+        "φ = 0",
+        "φ = π",
+        "φ = π/2",
+        "φ = -π/2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tại t = 0: x0 = 0 => cos φ = 0 => φ = ±π/2. Do đi theo chiều dương (v > 0) nên sin φ < 0 => φ = -π/2.",
+        "socraticPrompt": "Đi qua VTCB theo chiều dương thì véc tơ quay nằm ở nửa dưới đường tròn lượng giác, góc bằng bao nhiêu?",
+        "steps": "Tại t = 0, x = A cos φ = 0 => cos φ = 0 => φ = ±π/2. Vì vật chuyển động theo chiều dương (v > 0) nên φ mang dấu âm: φ = -π/2.",
+        "trap": "Nhầm chiều dương thì φ = +π/2."
+      }
+    },
+    {
+      "id": "vl11_c1_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vị trí động năng bằng thế năng",
+      "question": "Trong dao động điều hoà với biên độ A, vị trí mà tại đó động năng của vật bằng thế năng (Wd = Wt) có li độ x bằng:",
+      "options": [
+        "x = ±A / √2",
+        "x = ±A / 2",
+        "x = ±A√3 / 2",
+        "x = 0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Cơ năng W = Wd + Wt. Khi Wd = Wt thì W = 2Wt <=> 1/2 k A² = 2 · (1/2 k x²) <=> x² = A² / 2 => x = ±A / √2.",
+        "socraticPrompt": "Khi thế năng bằng một nửa cơ năng thì x bình phương bằng A bình chia 2, khai căn được gì?",
+        "steps": "Ta có W = Wt + Wd = 2Wt. Do đó 1/2 k A² = 2 · (1/2 k x²) <=> x² = A² / 2 <=> x = ±A / √2 = ±A√2 / 2.",
+        "trap": "Đoán vị trí chính giữa x = ±A/2 (tại đó thế năng chỉ bằng 1/4 cơ năng, động năng bằng 3 lần thế năng)."
+      }
+    },
+    {
+      "id": "vl11_c1_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tỉ số cơ năng khi thay đổi biên độ",
+      "question": "Nếu biên độ dao động của một con lắc lò xo tăng lên 3 lần thì cơ năng của con lắc sẽ:",
+      "options": [
+        "Tăng lên 3 lần",
+        "Tăng lên 6 lần",
+        "Tăng lên 9 lần",
+        "Không đổi"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Cơ năng tỉ lệ thuận với bình phương biên độ dao động: W = 1/2 k A².",
+        "socraticPrompt": "A tăng lên 3 lần thì A bình phương tăng lên mấy lần?",
+        "steps": "Vì cơ năng W = 1/2 k A² tỉ lệ thuận với A², nên khi biên độ tăng 3 lần (A' = 3A) thì cơ năng mới W' = 1/2 k (3A)² = 9 · (1/2 k A²) = 9W.",
+        "trap": "Nhầm cơ năng tỉ lệ bậc nhất với A dẫn đến chọn tăng 3 lần."
+      }
+    }
+  ]
+}

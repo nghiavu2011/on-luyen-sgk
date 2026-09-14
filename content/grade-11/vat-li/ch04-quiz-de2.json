@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "Vật lí 11 — Chương 4: Đề 2 — Kỹ năng & Thực hành Tính toán Mạch điện & Định luật Ohm",
+  "description": "Bài tập tính cường độ dòng điện, hiệu điện thế hai cực nguồn điện, công suất mạch và hiệu suất.",
+  "questions": [
+    {
+      "id": "vl11_c4_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính cường độ dòng điện trong mạch kín",
+      "question": "Một nguồn điện có suất điện động E = 9 V, điện trở trong r = 1 Ω nối với điện trở ngoài R = 8 Ω thành mạch kín. Cường độ dòng điện trong mạch là:",
+      "options": [
+        "1,125 A",
+        "1 A",
+        "9 A",
+        "0,5 A"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Áp dụng định luật Ohm toàn mạch: I = E / (R + r).",
+        "socraticPrompt": "9 chia cho (8 + 1) bằng bao nhiêu?",
+        "steps": "I = E / (R + r) = 9 / (8 + 1) = 9 / 9 = 1 A.",
+        "trap": "Lấy 9 chia 8 = 1,125 A (quên điện trở trong r = 1 Ω)."
+      }
+    },
+    {
+      "id": "vl11_c4_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiệu điện thế giữa hai cực nguồn điện",
+      "question": "Một nguồn điện có E = 6 V và điện trở trong r = 0,5 Ω. Khi dòng điện qua nguồn là I = 2 A thì hiệu điện thế giữa hai cực của nguồn điện bằng:",
+      "options": [
+        "6 V",
+        "7 V",
+        "5 V",
+        "4 V"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Hiệu điện thế giữa hai cực nguồn: U = E - I · r.",
+        "socraticPrompt": "Lấy suất điện động 6 V trừ đi độ giảm thế trong nguồn I · r = 2 · 0,5?",
+        "steps": "U = E - I · r = 6 - (2 · 0,5) = 6 - 1 = 5 V.",
+        "trap": "Cộng thêm E + Ir = 7 V hoặc giữ nguyên 6 V."
+      }
+    },
+    {
+      "id": "vl11_c4_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiệu suất của nguồn điện",
+      "question": "Cho mạch điện kín gồm nguồn có E = 12 V, r = 2 Ω và mạch ngoài R_N = 8 Ω. Hiệu suất của nguồn điện là:",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "66,7%"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Hiệu suất nguồn điện: H = R_N / (R_N + r) = U_N / E.",
+        "socraticPrompt": "Lấy điện trở ngoài 8 chia cho tổng điện trở (8 + 2) = 10 nhân 100%?",
+        "steps": "H = R_N / (R_N + r) = 8 / (8 + 2) = 8 / 10 = 0,8 = 80%.",
+        "trap": "Lấy 2 / 8 = 25% rồi trừ ra 75%."
+      }
+    },
+    {
+      "id": "vl11_c4_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính nhiệt lượng toả ra",
+      "question": "Một bếp điện có điện trở R = 100 Ω hoạt động với dòng điện I = 2 A trong thời gian 10 phút. Nhiệt lượng toả ra trên bếp là:",
+      "options": [
+        "240 kJ",
+        "40 kJ",
+        "4 kJ",
+        "24 kJ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định luật Joule - Lenz: Q = R · I² · t. Lưu ý đổi 10 phút = 600 s.",
+        "socraticPrompt": "R = 100 Ω, I² = 4, t = 600 s. Lấy 100 nhân 4 nhân 600 bằng bao nhiêu Joules?",
+        "steps": "Đổi t = 10 phút = 600 s. Nhiệt lượng: Q = R · I² · t = 100 · 2² · 600 = 100 · 4 · 600 = 240.000 J = 240 kJ.",
+        "trap": "Không đổi phút ra giây, lấy 100 · 4 · 10 = 4000 J = 4 kJ."
+      }
+    },
+    {
+      "id": "vl11_c4_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính dòng điện đoản mạch",
+      "question": "Một bình ắc quy ô tô có suất điện động E = 12 V và điện trở trong rất nhỏ r = 0,04 Ω. Nếu vô tình để hai cực của ắc quy chạm nhau (đoản mạch) thì cường độ dòng điện cực đại chạy qua ắc quy là:",
+      "options": [
+        "30 A",
+        "300 A",
+        "120 A",
+        "48 A"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Cường độ dòng điện đoản mạch: I_max = E / r.",
+        "socraticPrompt": "12 chia cho 0,04 bằng bao nhiêu?",
+        "steps": "I_max = E / r = 12 / 0,04 = 300 A. Dòng điện 300 A này sinh nhiệt cực lớn có thể làm nổ bình ắc quy trong tích tắc.",
+        "trap": "Chia nhầm 12 / 0,04 = 30 A."
+      }
+    },
+    {
+      "id": "vl11_c4_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính điện lượng qua dung lượng pin",
+      "question": "Một viên pin điện thoại có dung lượng ghi trên nhãn là 4000 mAh. Nếu sử dụng liên tục với dòng điện trung bình 0,5 A thì viên pin có thể cung cấp năng lượng trong thời gian bao lâu?",
+      "options": [
+        "2 giờ",
+        "4 giờ",
+        "8 giờ",
+        "10 giờ"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Dung lượng pin q = I · t => t = q / I. 4000 mAh = 4 Ah.",
+        "socraticPrompt": "Dung lượng 4 Ah chia cho cường độ dòng 0,5 A bằng mấy giờ?",
+        "steps": "Dung lượng pin q = 4000 mAh = 4 Ah. Thời gian sử dụng: t = q / I = 4 Ah / 0,5 A = 8 giờ.",
+        "trap": "Lấy 4000 / 0,5 = 8000 giờ hoặc nhầm đơn vị."
+      }
+    }
+  ]
+}

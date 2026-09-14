@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong dao động điều hoà, gia tốc biến thiên:",
-    "options": [
-      "A. Cùng pha với li độ",
-      "B. Ngược pha với li độ",
-      "C. Sớm pha $\\frac{\\pi}{2}$ so với li độ",
-      "D. Chậm pha $\\frac{\\pi}{2}$ so với li độ"
-    ],
-    "answer": 1,
-    "explanation": "📌 Mối quan hệ pha: $a = -\\omega^2 x = \\omega^2 A \\cos(\\omega t + \\varphi + \\pi) \\Rightarrow$ gia tốc luôn ngược pha với li độ.\n💡 Khi vật ở biên dương ($x = +A$) thì gia tốc đạt giá trị cực tiểu âm ($a = -\\omega^2 A$).\n⚠️ Nhớ: Vận tốc vuông pha sớm $\\pi/2$, Gia tốc ngược pha $\\pi$."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "de1",
+  "title": "Vật lí 11 — Chương 1: Đề 1 — Khái niệm & Nhận biết Dao động điều hoà",
+  "description": "Bộ đề trắc nghiệm kiểm tra nhận biết về phương trình dao động, chu kì, tần số, vận tốc và gia tốc.",
+  "questions": [
+    {
+      "id": "vl11_c1_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đơn vị của tần số góc",
+      "question": "Trong phương trình dao động điều hoà x = A cos(ωt + φ), đại lượng ω được gọi là gì và có đơn vị là:",
+      "options": [
+        "Pha ban đầu, đơn vị rad",
+        "Tần số góc, đơn vị rad/s",
+        "Chu kì, đơn vị giây (s)",
+        "Biên độ, đơn vị cm"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trong phương trình li độ, ω là tần số góc với đơn vị đo là radian trên giây (rad/s).",
+        "socraticPrompt": "Đại lượng nhân với thời gian t bên trong hàm cosin gọi là gì và có đơn vị đo góc trên thời gian?",
+        "steps": "Theo SGK Vật lí 11, ω là tần số góc của dao động, đơn vị chuẩn là rad/s.",
+        "trap": "Nhầm ω với pha ban đầu φ (rad) hoặc tần số f (Hz)."
+      }
+    },
+    {
+      "id": "vl11_c1_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vị trí có tốc độ cực đại",
+      "question": "Một vật dao động điều hoà quanh vị trí cân bằng O. Tốc độ của vật đạt giá trị cực đại khi vật ở:",
+      "options": [
+        "Vị trí biên dương",
+        "Vị trí biên âm",
+        "Vị trí cân bằng",
+        "Vị trí có li độ x = A / 2"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tốc độ cực đại v_max = ωA đạt được khi vật đi qua vị trí cân bằng (x = 0).",
+        "socraticPrompt": "Khi vật đi qua điểm chính giữa (VTCB) thì lò xo không bị biến dạng, toàn bộ thế năng chuyển thành động năng nên vận tốc thế nào?",
+        "steps": "Tại VTCB x = 0, áp dụng hệ thức độc lập A² = x² + v²/ω² => |v| = ωA đạt cực đại.",
+        "trap": "Nhầm vị trí biên là nơi có vận tốc cực đại (ở biên vận tốc bằng 0)."
+      }
+    },
+    {
+      "id": "vl11_c1_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Mối quan hệ pha giữa li độ và gia tốc",
+      "question": "Trong dao động điều hoà, gia tốc của vật biến thiên điều hoà:",
+      "options": [
+        "Cùng pha với li độ",
+        "Ngược pha với li độ",
+        "Vuông pha trễ hơn li độ góc π/2",
+        "Sớm pha hơn li độ góc π/2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức gia tốc: a = -ω²x = ω²A cos(ωt + φ + π). Gia tốc ngược pha với li độ.",
+        "socraticPrompt": "Dấu trừ trong công thức a = -ω²x thể hiện mối liên hệ pha gì giữa gia tốc và li độ?",
+        "steps": "Ta có a = -ω²x, dấu trừ biểu thị gia tốc ngược pha (lệch pha π) so với li độ.",
+        "trap": "Nhầm mối quan hệ vuông pha π/2 của vận tốc."
+      }
+    },
+    {
+      "id": "vl11_c1_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Độ dài quỹ đạo dao động",
+      "question": "Một chất điểm dao động điều hoà với biên độ A = 4 cm. Độ dài quỹ đạo chuyển động của chất điểm là:",
+      "options": [
+        "4 cm",
+        "16 cm",
+        "2 cm",
+        "8 cm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quỹ đạo chuyển động của dao động điều hoà là đoạn thẳng nối giữa hai vị trí biên có độ dài L = 2A.",
+        "socraticPrompt": "Vật đi từ biên âm x = -A đến biên dương x = +A thì tổng quãng đường đoạn thẳng đó dài bao nhiêu?",
+        "steps": "Độ dài quỹ đạo L = 2A = 2 · 4 = 8 cm.",
+        "trap": "Lấy luôn L = A = 4 cm hoặc nhầm quãng đường trong 1 chu kì (4A = 16 cm)."
+      }
+    },
+    {
+      "id": "vl11_c1_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc trưng của dao động tắt dần",
+      "question": "Dao động tắt dần là dao động có:",
+      "options": [
+        "Biên độ và cơ năng giảm dần theo thời gian",
+        "Chu kì dao động giảm dần theo thời gian",
+        "Vận tốc luôn luôn bằng 0",
+        "Biên độ không đổi nhưng thế năng giảm dần"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa: Dao động tắt dần là dao động có biên độ và cơ năng giảm dần theo thời gian do ma sát.",
+        "socraticPrompt": "Khi có lực cản môi trường làm tiêu hao năng lượng, đại lượng nào của dao động sẽ vơi dần theo thời gian?",
+        "steps": "Lực cản môi trường sinh công âm tiêu hao cơ năng, làm cho cơ năng và biên độ dao động giảm dần đến khi dừng hẳn.",
+        "trap": "Cho rằng chu kì giảm dần (chu kì của dao động tắt dần xấp xỉ không đổi nếu lực cản nhỏ)."
+      }
+    },
+    {
+      "id": "vl11_c1_d1_q6",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức cơ năng dao động",
+      "question": "Cơ năng của một vật khối lượng m dao động điều hoà với tần số góc ω và biên độ A được tính bởi công thức:",
+      "options": [
+        "W = 1/2 · m · ω · A²",
+        "W = 1/2 · m · ω² · A²",
+        "W = m · ω² · A",
+        "W = 1/2 · m · ω² · A"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức cơ năng trong dao động điều hoà: W = 1/2 · m · ω² · A².",
+        "socraticPrompt": "Cả tần số góc ω và biên độ A đều ở bậc mấy trong công thức cơ năng?",
+        "steps": "Theo SGK Vật lí 11, cơ năng W = 1/2 · k · A² = 1/2 · m · ω² · A².",
+        "trap": "Quên bình phương ở ω hoặc ở A."
+      }
+    }
+  ]
+}

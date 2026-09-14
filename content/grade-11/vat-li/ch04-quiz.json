@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch04",
+  "examId": "tonghop",
+  "title": "Vật lí 11 — Chương 4: Đề 3 — Đánh giá Năng lực Tổng hợp Dòng điện & Năng lượng",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức mạch điện, công suất cực đại, an toàn điện và tiết kiệm năng lượng thực tế.",
+  "questions": [
+    {
+      "id": "vl11_c4_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Điều kiện công suất mạch ngoài đạt cực đại",
+      "question": "Cho mạch điện gồm nguồn có suất điện động E và điện trở trong r. Mạch ngoài là một biến trở R. Để công suất tiêu thụ trên biến trở R đạt giá trị lớn nhất thì giá trị của R phải bằng:",
+      "options": [
+        "R = r / 2",
+        "R = 2r",
+        "R = r",
+        "R = 0"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Công suất mạch ngoài P = R · I² = R · E² / (R + r)² = E² / (√R + r/√R)². Theo bất đẳng thức Cauchy, P đạt cực đại khi √R = r / √R <=> R = r.",
+        "socraticPrompt": "Theo bất đẳng thức Cauchy giữa √R và r/√R, dấu bằng xảy ra khi nào?",
+        "steps": "Biểu thức công suất: P = E² / (√R + r/√R)². Dưới mẫu số áp dụng BĐT Cauchy: √R + r/√R ≥ 2√r. Dấu '=' xảy ra khi √R = r/√R <=> R = r. Khi đó P_max = E² / (4r).",
+        "trap": "Đoán R = 0 hoặc R vô cùng lớn."
+      }
+    },
+    {
+      "id": "vl11_c4_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính tiền điện thực tế gia đình",
+      "question": "Một gia đình sử dụng 1 bóng đèn LED 20 W và 1 quạt điện 80 W hoạt động đồng thời trung bình 5 giờ mỗi ngày. Trong 30 ngày, gia đình này đã tiêu thụ hết bao nhiêu số điện (kWh)?",
+      "options": [
+        "15 kWh",
+        "30 kWh",
+        "10 kWh",
+        "150 kWh"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tổng công suất P = P1 + P2. Điện năng A = P · t.",
+        "socraticPrompt": "20 W + 80 W = 100 W = 0,1 kW. Mỗi ngày 5 giờ, 30 ngày là 150 giờ. 0,1 nhân 150 bằng bao nhiêu?",
+        "steps": "Tổng công suất: P = 20 + 80 = 100 W = 0,1 kW. Tổng số giờ dùng trong 30 ngày: t = 5 · 30 = 150 giờ. Tổng điện năng tiêu thụ: A = P · t = 0,1 · 150 = 15 kWh (15 số điện).",
+        "trap": "Quên đổi Watt sang kW lấy 100 · 150 = 15000."
+      }
+    },
+    {
+      "id": "vl11_c4_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Mắc nối tiếp nguồn điện",
+      "question": "Một bộ nguồn gồm 3 pin giống nhau mắc nối tiếp, mỗi pin có suất điện động E0 = 1,5 V và điện trở trong r0 = 0,2 Ω. Suất điện động và điện trở trong của bộ nguồn là:",
+      "options": [
+        "E_b = 1,5 V; r_b = 0,6 Ω",
+        "E_b = 4,5 V; r_b = 0,2 Ω",
+        "E_b = 4,5 V; r_b = 0,6 Ω",
+        "E_b = 3,0 V; r_b = 0,4 Ω"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khi n nguồn giống nhau mắc nối tiếp: E_b = n · E0 và r_b = n · r0.",
+        "socraticPrompt": "3 pin mắc nối tiếp thì suất điện động gấp mấy lần và điện trở trong gấp mấy lần?",
+        "steps": "Bộ nguồn gồm 3 pin mắc nối tiếp: E_b = 3 · E0 = 3 · 1,5 = 4,5 V. Điện trở trong bộ nguồn: r_b = 3 · r0 = 3 · 0,2 = 0,6 Ω.",
+        "trap": "Nhầm công thức mắc song song (E_b = E0)."
+      }
+    },
+    {
+      "id": "vl11_c4_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa thông số định mức ghi trên đồ điện",
+      "question": "Trên vỏ một bóng đèn sợi đốt có ghi '220V - 100W'. Khi bóng đèn được mắc vào mạng điện đúng 220V thì:",
+      "options": [
+        "Điện trở của bóng đèn là 220 Ω",
+        "Bóng đèn tiêu thụ công suất 100 W",
+        "Cường độ dòng điện qua bóng đèn là 1 A",
+        "Bóng đèn toả nhiệt lượng 220 J mỗi giây"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khi mắc vào đúng hiệu điện thế định mức 220V thì thiết bị hoạt động bình thường và tiêu thụ đúng công suất định mức 100W.",
+        "socraticPrompt": "Mắc đúng 220V thì công suất tiêu thụ bằng đúng con số định mức ghi trên vỏ đèn không?",
+        "steps": "Khi U = U_đm = 220 V thì P = P_đm = 100 W. Dòng điện khi đó là I = P/U = 100/220 ≈ 0,45 A; Điện trở R = U²/P = 220²/100 = 484 Ω.",
+        "trap": "Đoán điện trở là 220 Ω hoặc dòng điện 1 A."
+      }
+    },
+    {
+      "id": "vl11_c4_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Định luật bảo toàn năng lượng trong toàn mạch",
+      "question": "Mối quan hệ giữa công của nguồn điện A_ng, điện năng tiêu thụ mạch ngoài A_N và nhiệt lượng toả ra trong nguồn Q_r trong thời gian t là:",
+      "options": [
+        "A_ng = A_N - Q_r",
+        "A_ng = A_N + Q_r",
+        "A_N = A_ng + Q_r",
+        "A_ng = Q_r - A_N"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Định luật bảo toàn năng lượng: Toàn bộ công do nguồn sinh ra chuyển thành điện năng tiêu thụ mạch ngoài và nhiệt lượng hao phí toả ra bên trong nguồn điện.",
+        "socraticPrompt": "Năng lượng nguồn tạo ra phân bố đi đâu: một phần ra mạch ngoài và phần còn lại làm nóng cục pin?",
+        "steps": "A_ng = E · I · t = (U_N + I · r) · I · t = U_N · I · t + r · I² · t = A_N + Q_r.",
+        "trap": "Nhầm dấu trừ thành A_ng = A_N - Q_r."
+      }
+    },
+    {
+      "id": "vl11_c4_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "An toàn điện trong gia đình",
+      "question": "Để bảo vệ an toàn cho hệ thống điện trong gia đình tránh sự cố hoả hoạn do hiện tượng đoản mạch gây ra, người ta sử dụng thiết bị nào?",
+      "options": [
+        "Vôn kế",
+        "Biến trở con chạy",
+        "Tụ điện bù công suất",
+        "Aptomat (Cầu dao tự động ngắt mạch)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Aptomat (CB) tự động ngắt mạch điện khi cường độ dòng điện vượt quá ngưỡng cho phép (như khi bị đoản mạch).",
+        "socraticPrompt": "Thiết bị nào trong hộp điện tổng sẽ tự động 'nhảy' cụp xuống khi có sự cố chập điện?",
+        "steps": "Aptomat có rơle nhiệt và điện từ tự động ngắt mạch tức thì khi xảy ra ngắn mạch, ngăn ngừa cháy nổ đường dây điện.",
+        "trap": "Chọn vôn kế (chỉ để đo) hoặc biến trở."
+      }
+    }
+  ]
+}

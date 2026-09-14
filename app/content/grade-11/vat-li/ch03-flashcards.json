@@ -1,66 +1,85 @@
-[
-  {
-    "front": "Định luật Coulomb về lực tương tác giữa 2 điện tích điểm đặt trong chân không?",
-    "back": "$F = k \\frac{|q_1 q_2|}{r^2}$ (với hằng số Coulomb $k = 9 \\times 10^9\\ \\text{N}\\cdot\\text{m}^2/\\text{C}^2$).",
-    "tags": [
-      "Định luật Coulomb",
-      "Lực điện"
-    ]
-  },
-  {
-    "front": "Hai điện tích cùng dấu thì đẩy hay hút nhau?",
-    "back": "Cùng dấu thì ĐẨY nhau; Trái dấu thì HÚT nhau.",
-    "tags": [
-      "Tương tác",
-      "Quy tắc"
-    ]
-  },
-  {
-    "front": "Cường độ điện trường $E$ do một điện tích điểm $Q$ gây ra tại khoảng cách $r$?",
-    "back": "$E = k \\frac{|Q|}{\\varepsilon r^2}$ (đơn vị: V/m). Chiều hướng ra xa nếu $Q > 0$, hướng về phía $Q$ nếu $Q < 0$.",
-    "tags": [
-      "Cường độ điện trường",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Điện trường đều là gì?",
-    "back": "Là điện trường mà vectơ cường độ điện trường tại mọi điểm đều có cùng phương, cùng chiều và cùng độ lớn (đường sức là các đường thẳng song song cách đều).",
-    "tags": [
-      "Điện trường đều",
-      "Khái niệm"
-    ]
-  },
-  {
-    "front": "Mối liên hệ giữa hiệu điện thế $U$ và cường độ điện trường đều $E$?",
-    "back": "$U = E \\times d$ hay $E = \\frac{U}{d}$ (với $d$ là hình chiếu của khoảng cách lên đường sức).",
-    "tags": [
-      "U và E",
-      "Công thức"
-    ]
-  },
-  {
-    "front": "Công của lực điện trường dịch chuyển điện tích $q$ trong điện trường?",
-    "back": "$A = qEd = qU$ (không phụ thuộc hình dạng đường đi, chỉ phụ thuộc vị trí điểm đầu và điểm cuối).",
-    "tags": [
-      "Công lực điện",
-      "Thế năng"
-    ]
-  },
-  {
-    "front": "Điện dung $C$ của tụ điện được tính bằng công thức nào?",
-    "back": "$C = \\frac{Q}{U}$ (đơn vị: Fara, F). Đại lượng đặc trưng cho khả năng tích điện của tụ điện.",
-    "tags": [
-      "Điện dung",
-      "Tụ điện"
-    ]
-  },
-  {
-    "front": "Năng lượng điện trường tích trữ bên trong tụ điện?",
-    "back": "$W = \\frac{1}{2} Q U = \\frac{1}{2} C U^2 = \\frac{Q^2}{2C}$.",
-    "tags": [
-      "Năng lượng",
-      "Tụ điện"
-    ]
-  }
-]
+{
+  "chapterId": "ch03",
+  "flashcards": [
+    {
+      "id": "fc_vl11_c3_01",
+      "front": "Định luật Coulomb về lực tương tác tĩnh điện giữa hai điện tích điểm?",
+      "back": "F = k · |q1 · q2| / (ε · r²), với k = 9 · 10⁹ N·m²/C². Lực hút nếu trái dấu, lực đẩy nếu cùng dấu.",
+      "category": "Định luật Coulomb",
+      "example": "Hai điện tích cách nhau 10 cm trong không khí (ε = 1).",
+      "mnemonic": "Tỉ lệ thuận tích điện tích, tỉ lệ nghịch bình phương khoảng cách."
+    },
+    {
+      "id": "fc_vl11_c3_02",
+      "front": "Định nghĩa và công thức cường độ điện trường E?",
+      "back": "E = F / |q| (đơn vị: V/m hoặc N/C). Do điện tích điểm Q gây ra: E = k · |Q| / (ε · r²).",
+      "category": "Cường độ điện trường",
+      "example": "Q > 0 véc-tơ E hướng ra xa; Q < 0 véc-tơ E hướng lại gần.",
+      "mnemonic": "Dương ra, Âm vào."
+    },
+    {
+      "id": "fc_vl11_c3_03",
+      "front": "Mối quan hệ giữa véc tơ lực điện F và véc tơ điện trường E?",
+      "back": "F = q · E. Nếu q > 0: F cùng hướng E. Nếu q < 0: F ngược hướng E.",
+      "category": "Lực điện",
+      "example": "Electron mang điện âm luôn bị lực điện kéo ngược chiều đường sức.",
+      "mnemonic": "Điện tích dương đi theo chiều điện trường, âm đi ngược dòng."
+    },
+    {
+      "id": "fc_vl11_c3_04",
+      "front": "Đặc điểm của công của lực điện trường tĩnh?",
+      "back": "A_MN = q · E · d = q · U_MN. Không phụ thuộc hình dạng đường đi, chỉ phụ thuộc vị trí điểm đầu và cuối (lực thế).",
+      "category": "Công lực điện",
+      "example": "Đi theo đường zích zắc hay đường thẳng thì công sinh ra như nhau.",
+      "mnemonic": "Không lo đường xá quanh co, chỉ nhìn điểm cuối điểm đầu là ra."
+    },
+    {
+      "id": "fc_vl11_c3_05",
+      "front": "Hệ thức liên hệ giữa U và E trong điện trường đều?",
+      "back": "U = E · d <=> E = U / d (với d là hình chiếu độ dời lên phương đường sức).",
+      "category": "Điện trường đều",
+      "example": "U = 100V, d = 0,05m => E = 2000 V/m.",
+      "mnemonic": "U bằng E nhân d."
+    },
+    {
+      "id": "fc_vl11_c3_06",
+      "front": "Định nghĩa Điện dung C của tụ điện?",
+      "back": "C = Q / U (đơn vị: Fara - F). Đặc trưng cho khả năng tích điện của tụ, không phụ thuộc Q và U.",
+      "category": "Tụ điện",
+      "example": "Tụ 10 µF nối vào hiệu điện thế 12V tích điện Q = 120 µC.",
+      "mnemonic": "Q bằng C nhân U (Quả Cầu U)."
+    },
+    {
+      "id": "fc_vl11_c3_07",
+      "front": "Công thức tính năng lượng điện trường của tụ điện?",
+      "back": "W = 1/2 · C · U² = 1/2 · Q · U = Q² / (2C).",
+      "category": "Năng lượng tụ điện",
+      "example": "Tụ 100 µF ở 20V tích trữ W = 0,02 J.",
+      "mnemonic": "Một nửa C U bình phương."
+    },
+    {
+      "id": "fc_vl11_c3_08",
+      "front": "Quy tắc chia điện tích khi hai quả cầu kim loại giống nhau tiếp xúc?",
+      "back": "q' = (q1 + q2) / 2 (điện tích tổng chia đôi đều cho hai quả cầu).",
+      "category": "Nhiễm điện do tiếp xúc",
+      "example": "+4 µC chạm -2 µC => mỗi quả nhận (+4 - 2)/2 = +1 µC.",
+      "mnemonic": "Chạm vào nhau thì cào bằng, chia đôi tổng điện tích."
+    },
+    {
+      "id": "fc_vl11_c3_09",
+      "front": "Quỹ đạo của hạt mang điện bay vuông góc vào điện trường đều?",
+      "back": "Quỹ đạo là một nhánh của đường Parabol (tương tự chuyển động ném ngang trong trọng trường).",
+      "category": "Chuyển động trong điện trường",
+      "example": "Tia electron trong đèn hình CRT truyền hình cũ uốn cong parabol.",
+      "mnemonic": "Ngang thẳng đều, Dọc gia tốc đều => Đường Parabol."
+    },
+    {
+      "id": "fc_vl11_c3_10",
+      "front": "Định nghĩa hằng số điện môi ε là gì?",
+      "back": "Đại lượng cho biết lực tương tác tĩnh điện giữa hai điện tích trong môi trường giảm đi bao nhiêu lần so với trong chân không: F = F0 / ε (ε ≥ 1).",
+      "category": "Điện môi",
+      "example": "Nước nguyên chất có ε = 81 làm giảm lực hút tĩnh điện 81 lần.",
+      "mnemonic": "Hằng số làm yếu lực điện."
+    }
+  ]
+}

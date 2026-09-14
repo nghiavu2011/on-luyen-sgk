@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch02_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Trên một sợi dây đàn hồi dài $1,2\\text{ m}$ hai đầu cố định đang có sóng dừng với 3 bụng sóng. Bước sóng $\\lambda$ trên dây là:",
-    "options": [
-      "A. $0,4\\text{ m}$",
-      "B. $0,8\\text{ m}$",
-      "C. $1,2\\text{ m}$",
-      "D. $2,4\\text{ m}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Điều kiện sóng dừng hai đầu cố định: $L = k \\frac{\\lambda}{2}$.\nVới $k = 3$ (số bụng sóng): $1,2 = 3 \\times \\frac{\\lambda}{2} \\Rightarrow \\lambda = \\frac{1,2 \\times 2}{3} = 0,8\\text{ m}$.\n💡 Dây 2 đầu cố định: $k$ bụng thì $k+1$ nút.\n⚠️ Nhớ hệ số chia 2 của nửa bước sóng."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Vật lí 11 — Chương 2: Đề 2 — Kỹ năng & Thực hành Tính toán Sóng và Giao thoa",
+  "description": "Bài tập tính bước sóng, độ lệch pha, đếm số cực đại giao thoa và chiều dài dây có sóng dừng.",
+  "questions": [
+    {
+      "id": "vl11_c2_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính bước sóng từ phương trình",
+      "question": "Một sóng cơ truyền trên trục Ox có phương trình u = 4 cos(20πt - 4πx) (mm), trong đó x tính bằng mét (m), t tính bằng giây (s). Tốc độ truyền sóng v là:",
+      "options": [
+        "20 m/s",
+        "5 m/s",
+        "4 m/s",
+        "80 m/s"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đồng nhất số hạng trong pha: 2πx / λ = 4πx => λ = 0,5 m. Tần số f = ω / 2π = 10 Hz => v = λ · f = 5 m/s. (Hoặc công thức nhanh: v = hệ số của t / hệ số của x = 20π / 4π = 5 m/s).",
+        "socraticPrompt": "Lấy hệ số của biến thời gian t chia cho hệ số của biến toạ độ x bằng bao nhiêu?",
+        "steps": "Công thức nhanh tính tốc độ truyền sóng: v = (hệ số của t) / (hệ số của x) = 20π / 4π = 5 m/s.",
+        "trap": "Lấy 20π nhân 4π = 80π²."
+      }
+    },
+    {
+      "id": "vl11_c2_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Độ lệch pha theo khoảng cách",
+      "question": "Một nguồn sóng dao động với tần số f = 20 Hz, tốc độ truyền sóng v = 4 m/s. Độ lệch pha giữa hai điểm trên cùng một phương truyền sóng cách nhau d = 15 cm là:",
+      "options": [
+        "π / 2 rad",
+        "π rad",
+        "3π / 2 rad",
+        "2π rad"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bước sóng λ = v / f. Độ lệch pha ∆φ = 2πd / λ.",
+        "socraticPrompt": "v = 4 m/s = 400 cm/s. Bước sóng λ = 400 / 20 = 20 cm. 2π · 15 / 20 bằng mấy?",
+        "steps": "Bước sóng: λ = v / f = 4 / 20 = 0,2 m = 20 cm. Độ lệch pha: ∆φ = 2πd / λ = 2π · 15 / 20 = 30π / 20 = 1,5π = 3π / 2 rad.",
+        "trap": "Quên đổi mét sang xentimét khi tính d / λ."
+      }
+    },
+    {
+      "id": "vl11_c2_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đếm số cực đại trên đoạn nối hai nguồn",
+      "question": "Trên mặt nước có hai nguồn kết hợp A và B dao động cùng pha cách nhau 15 cm, bước sóng λ = 4 cm. Số điểm dao động với biên độ cực đại trên đoạn AB là:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Điều kiện cực đại: -AB < kλ < AB <=> -15 < 4k < 15 <=> -3,75 < k < 3,75.",
+        "socraticPrompt": "Có bao nhiêu số nguyên k nằm giữa -3,75 và +3,75?",
+        "steps": "Ta có: -15 / 4 < k < 15 / 4 <=> -3,75 < k < 3,75. Do k nguyên nên k ∈ {-3, -2, -1, 0, 1, 2, 3}. Có 7 giá trị thoả mãn.",
+        "trap": "Lấy k = ±4 hoặc đếm thiếu k = 0."
+      }
+    },
+    {
+      "id": "vl11_c2_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sóng dừng trên dây hai đầu cố định",
+      "question": "Một sợi dây đàn hồi dài l = 1 m hai đầu cố định. Để trên dây có sóng dừng với 2 bụng sóng thì bước sóng λ của sóng truyền trên dây là:",
+      "options": [
+        "0,5 m",
+        "2 m",
+        "0,25 m",
+        "1 m"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Điều kiện sóng dừng 2 đầu cố định: l = k · λ / 2. Có 2 bụng nên k = 2.",
+        "socraticPrompt": "k = 2 bụng sóng, 1 m = 2 · (λ / 2) thì λ bằng bao nhiêu?",
+        "steps": "Áp dụng l = k · (λ / 2) với k = 2 bụng: 1 = 2 · (λ / 2) => λ = 1 m.",
+        "trap": "Nhầm k = 2 là số nửa bước sóng nên lấy 1 / 2 = 0,5 m."
+      }
+    },
+    {
+      "id": "vl11_c2_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tần số sóng điện từ trong chân không",
+      "question": "Một đài phát thanh VOV phát sóng điện từ có bước sóng λ = 300 m trong chân không. Tần số của sóng vô tuyến này là:",
+      "options": [
+        "1 MHz",
+        "10 MHz",
+        "100 kHz",
+        "3 MHz"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tốc độ sóng điện từ trong chân không c = 3 · 10⁸ m/s. Tần số f = c / λ.",
+        "socraticPrompt": "Lấy 3 · 10⁸ m/s chia cho 300 m thì ra bao nhiêu Hz?",
+        "steps": "Ta có: f = c / λ = (3 · 10⁸) / 300 = 10⁶ Hz = 1 MHz.",
+        "trap": "Chia nhầm luỹ thừa 10⁶ thành 100 kHz hoặc 10 MHz."
+      }
+    },
+    {
+      "id": "vl11_c2_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sóng dừng một đầu cố định một đầu tự do",
+      "question": "Một ống sáo có một đầu kín (cố định), một đầu hở (tự do) dài 45 cm. Tốc độ truyền âm trong không khí là v = 360 m/s. Tần số âm nhỏ nhất (âm cơ bản) mà ống sáo có thể phát ra là:",
+      "options": [
+        "400 Hz",
+        "800 Hz",
+        "200 Hz",
+        "100 Hz"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Điều kiện sóng dừng 1 đầu kín 1 đầu hở: l = (2k + 1) · λ / 4. Âm cơ bản ứng với k = 0: l = λ / 4 => λ = 4l.",
+        "socraticPrompt": "Chiều dài l = 45 cm = 0,45 m. Bước sóng âm cơ bản λ = 4 · 0,45 = 1,8 m. Tần số f = v / λ = 360 / 1,8?",
+        "steps": "Với âm cơ bản k = 0: l = λ / 4 => λ = 4l = 4 · 0,45 = 1,8 m. Tần số âm nhỏ nhất: f_min = v / λ = 360 / 1,8 = 200 Hz.",
+        "trap": "Nhầm công thức hai đầu cố định l = λ / 2 dẫn đến f = 400 Hz."
+      }
+    }
+  ]
+}

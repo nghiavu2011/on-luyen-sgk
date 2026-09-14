@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch01_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Một con lắc lò xo gồm vật nặng $m = 100\\text{ g}$ và lò xo có độ cứng $k = 40\\text{ N/m}$ dao động điều hoà với biên độ $A = 5\\text{ cm}$. Cơ năng toàn phần của con lắc là:",
-    "options": [
-      "A. $0,05\\text{ J}$",
-      "B. $0,5\\text{ J}$",
-      "C. $50\\text{ J}$",
-      "D. $0,025\\text{ J}$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Công thức cơ năng: $W = \\frac{1}{2} k A^2$.\nĐổi đơn vị chuẩn SI: $A = 5\\text{ cm} = 0,05\\text{ m}$.\n$W = \\frac{1}{2} \\times 40 \\times (0,05)^2 = 20 \\times 0,0025 = 0,05\\text{ J}$.\n⚠️ Cảnh báo bẫy: Quên đổi biên độ từ cm sang mét dẫn đến kết quả sai lệch 10000 lần!"
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "tonghop",
+  "title": "Vật lí 11 — Chương 1: Đề 3 — Đánh giá Năng lực Tổng hợp Dao động điều hoà",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức dao động điều hoà, con lắc lò xo, hiện tượng cộng hưởng thực tế.",
+  "questions": [
+    {
+      "id": "vl11_c1_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng cộng hưởng của xe lửa",
+      "question": "Một toa xe lửa có khối lượng gắn trên lò xo giảm xóc, có chu kì dao động riêng T0 = 1,5 s. Chiều dài mỗi thanh ray là 12,5 m. Ở các mối nối ray có khe hở nhỏ làm xe bị xóc nhẹ. Xe lửa chạy với vận tốc bằng bao nhiêu thì toa xe sẽ bị rung lắc mạnh nhất (cộng hưởng)?",
+      "options": [
+        "30 km/h",
+        "8,33 m/s (30 km/h)",
+        "12,5 m/s",
+        "18,75 m/s"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Xe bị rung lắc mạnh nhất khi xảy ra cộng hưởng: chu kì kích thích của đường ray bằng chu kì riêng của xe: T = T0 = L / v.",
+        "socraticPrompt": "Khoảng cách giữa 2 mối nối là L = 12,5 m. Để thời gian qua 1 thanh ray đúng bằng T0 = 1,5 s thì vận tốc v = L / T0 bằng mấy?",
+        "steps": "Điều kiện cộng hưởng: T_ngoại_lực = T0 <=> L / v = T0 => v = L / T0 = 12,5 / 1,5 = 8,33 m/s = 30 km/h.",
+        "trap": "Lấy v = L · T0 = 12,5 · 1,5 = 18,75 m/s."
+      }
+    },
+    {
+      "id": "vl11_c1_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Quãng đường vật đi trong 1 chu kì",
+      "question": "Một chất điểm dao động điều hoà với chu kì T và biên độ A. Quãng đường vật đi được trong khoảng thời gian một chu kì T luôn bằng:",
+      "options": [
+        "2A",
+        "A",
+        "4A",
+        "πA"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trong một chu kì T, bất kể xuất phát từ vị trí nào, quãng đường vật đi được luôn là s = 4A.",
+        "socraticPrompt": "Một dao động toàn phần đi từ biên này sang biên kia rồi quay lại thì quãng đường gấp mấy lần biên độ?",
+        "steps": "Trong 1 chu kì, vật thực hiện trọn vẹn 1 dao động toàn phần (đi từ biên âm sang biên dương là 2A, rồi quay lại biên âm là 2A). Tổng quãng đường luôn luôn bằng S = 4A.",
+        "trap": "Nhầm quãng đường bằng độ dài quỹ đạo (2A)."
+      }
+    },
+    {
+      "id": "vl11_c1_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đồ thị thế năng và động năng",
+      "question": "Một vật dao động điều hoà với tần số f = 5 Hz. Tần số biến thiên của động năng và thế năng của vật là:",
+      "options": [
+        "5 Hz",
+        "2,5 Hz",
+        "20 Hz",
+        "10 Hz"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi tần số li độ: f' = 2f.",
+        "socraticPrompt": "Khi li độ có sin và cos thì động năng có sin bình phương. Hạ bậc sin²(ωt) làm tần số tăng lên mấy lần?",
+        "steps": "Hạ bậc: sin²(ωt) = (1 - cos 2ωt) / 2. Do đó tần số góc tăng gấp đôi thành 2ω, tương ứng tần số dao động của động năng và thế năng là f' = 2f = 2 · 5 = 10 Hz.",
+        "trap": "Nghĩ rằng tần số giữ nguyên f' = f = 5 Hz hoặc nhầm f' = f/2."
+      }
+    },
+    {
+      "id": "vl11_c1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Gia tốc của vật tại biên",
+      "question": "Một con lắc dao động điều hoà với phương trình x = 4 cos(10t) (cm). Độ lớn gia tốc của con lắc khi ở vị trí biên là:",
+      "options": [
+        "4 m/s²",
+        "40 cm/s²",
+        "0",
+        "400 m/s²"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tại vị trí biên, độ lớn gia tốc đạt cực đại: a_max = ω²A.",
+        "socraticPrompt": "ω = 10 rad/s, A = 4 cm = 0,04 m. Lấy 10² nhân 0,04 bằng bao nhiêu m/s²?",
+        "steps": "Tại biên |x| = A = 4 cm = 0,04 m. Độ lớn gia tốc: a_max = ω²A = 10² · 0,04 = 100 · 0,04 = 4 m/s² (tương đương 400 cm/s²).",
+        "trap": "Tính ra 400 nhưng nhầm đơn vị cm/s² với m/s² dẫn đến chọn 400 m/s²."
+      }
+    },
+    {
+      "id": "vl11_c1_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thời gian ngắn nhất vật đi từ VTCB đến li độ A/2",
+      "question": "Một vật dao động điều hoà với chu kì T. Khoảng thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí có li độ x = A / 2 là:",
+      "options": [
+        "T / 4",
+        "T / 6",
+        "T / 12",
+        "T / 8"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sử dụng đường tròn lượng giác: góc quét từ VTCB (pha -π/2) đến x = A/2 (pha -π/3) là ∆α = π/2 - π/3 = π/6.",
+        "socraticPrompt": "Góc quét là π/6. Một vòng tròn là 2π tương ứng thời gian T. π/6 ứng với một phần mấy của T?",
+        "steps": "Thời gian ngắn nhất: ∆t = ∆α / ω = (π/6) / (2π / T) = T / 12.",
+        "trap": "Đoán tỉ lệ đều x = A/2 là T/2 chia đôi bằng T/4 hoặc T/8."
+      }
+    },
+    {
+      "id": "vl11_c1_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng dao động tắt dần",
+      "question": "Thiết bị nào sau đây hoạt động dựa trên ứng dụng có lợi của dao động tắt dần?",
+      "options": [
+        "Đồng hồ quả lắc",
+        "Bộ giảm xóc của xe máy",
+        "Máy đầm rung bê tông",
+        "Dây đàn ghita đang rung"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Bộ giảm xóc xe máy làm tắt nhanh dao động lắc lư của khung xe sau khi đi qua chỗ mấp mô gồ ghề.",
+        "socraticPrompt": "Khi đi qua ổ gà, thiết bị nào cần dập tắt rung lắc càng nhanh càng tốt để xe êm ái?",
+        "steps": "Bộ giảm xóc (pít-tông dầu) hấp thụ năng lượng chấn động và biến thành nhiệt năng, giúp triệt tiêu dao động nhanh chóng.",
+        "trap": "Đồng hồ quả lắc cần duy trì dao động không tắt."
+      }
+    }
+  ]
+}

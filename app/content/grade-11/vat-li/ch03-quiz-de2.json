@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch03",
+  "examId": "de2",
+  "title": "Vật lí 11 — Chương 3: Đề 2 — Kỹ năng & Thực hành Tính toán Điện trường & Tụ điện",
+  "description": "Bài tập tính lực tương tác Coulomb, cường độ điện trường, hiệu điện thế và năng lượng tụ điện.",
+  "questions": [
+    {
+      "id": "vl11_c3_d2_q1",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính lực tương tác Coulomb",
+      "question": "Hai điện tích điểm cùng độ lớn |q1| = |q2| = 10⁻⁶ C đặt cách nhau 10 cm trong chân không. Lực đẩy tĩnh điện giữa chúng có độ lớn bằng:",
+      "options": [
+        "0,9 N",
+        "9 N",
+        "0,09 N",
+        "90 N"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Áp dụng định luật Coulomb: F = k · |q1 · q2| / r² với r = 0,1 m.",
+        "socraticPrompt": "10 cm = 0,1 m => r² = 0,01. 9 · 10⁹ · 10⁻¹² / 0,01 bằng bao nhiêu?",
+        "steps": "F = (9 · 10⁹ · 10⁻⁶ · 10⁻⁶) / (0,1)² = (9 · 10⁻³) / 0,01 = 0,9 N.",
+        "trap": "Quên bình phương khoảng cách (0,1) lấy 9 · 10⁻³ / 0,1 = 0,09 N."
+      }
+    },
+    {
+      "id": "vl11_c3_d2_q2",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính cường độ điện trường giữa hai bản cực",
+      "question": "Hai bản kim loại phẳng đặt song song cách nhau d = 2 cm, được nối vào nguồn điện có hiệu điện thế U = 100 V. Cường độ điện trường đều giữa hai bản có độ lớn bằng:",
+      "options": [
+        "50 V/m",
+        "200 V/m",
+        "5000 V/m",
+        "2000 V/m"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Công thức điện trường đều: E = U / d với d = 2 cm = 0,02 m.",
+        "socraticPrompt": "100 V chia cho 0,02 m thì ra kết quả là bao nhiêu V/m?",
+        "steps": "Đổi d = 2 cm = 0,02 m. Cường độ điện trường: E = U / d = 100 / 0,02 = 5000 V/m.",
+        "trap": "Không đổi đơn vị d, lấy 100 / 2 = 50 V/m."
+      }
+    },
+    {
+      "id": "vl11_c3_d2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính công của lực điện trường",
+      "question": "Một điện tích q = 2 · 10⁻⁶ C dịch chuyển giữa hai điểm M và N có hiệu điện thế U_MN = 200 V. Công của lực điện trường thực hiện trong quá trình dịch chuyển đó là:",
+      "options": [
+        "4 · 10⁻⁴ J",
+        "10⁻⁴ J",
+        "4 · 10⁻² J",
+        "2 · 10⁻⁴ J"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công của lực điện trường: A = q · U_MN.",
+        "socraticPrompt": "Lấy q = 2 · 10⁻⁶ nhân với U = 200 V thì được bao nhiêu Joules?",
+        "steps": "A = q · U_MN = (2 · 10⁻⁶) · 200 = 400 · 10⁻⁶ J = 4 · 10⁻⁴ J.",
+        "trap": "Lấy U chia q hoặc tính nhầm luỹ thừa mười."
+      }
+    },
+    {
+      "id": "vl11_c3_d2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Điện tích tiếp xúc và phân bố lại",
+      "question": "Hai quả cầu kim loại nhỏ tích điện q1 = +6 µC và q2 = -2 µC cho tiếp xúc nhau rồi tách ra. Điện tích của mỗi quả cầu sau khi tách ra là:",
+      "options": [
+        "+4 µC",
+        "-2 µC",
+        "+2 µC",
+        "+1 µC"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khi tiếp xúc, điện tích chia đều cho hai quả cầu giống nhau: q' = (q1 + q2) / 2.",
+        "socraticPrompt": "Lấy (+6) cộng (-2) rồi chia đôi bằng bao nhiêu?",
+        "steps": "q' = (q1 + q2) / 2 = (+6 - 2) / 2 = +4 / 2 = +2 µC.",
+        "trap": "Quên chia 2 ra +4 µC hoặc quên dấu âm lấy (6+2)/2 = 4 µC."
+      }
+    },
+    {
+      "id": "vl11_c3_d2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Năng lượng điện trường của tụ điện",
+      "question": "Một tụ điện có điện dung C = 100 µF được tích điện dưới hiệu điện thế U = 20 V. Năng lượng điện trường tích luỹ trong tụ điện bằng:",
+      "options": [
+        "0,01 J",
+        "0,04 J",
+        "0,02 J",
+        "0,2 J"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Năng lượng điện trường: W = 1/2 · C · U².",
+        "socraticPrompt": "C = 100 · 10⁻⁶ F, U² = 400. 1/2 nhân 10⁻⁴ nhân 400 bằng bao nhiêu?",
+        "steps": "W = 1/2 · C · U² = 1/2 · (100 · 10⁻⁶) · 20² = 1/2 · 10⁻⁴ · 400 = 0,02 J.",
+        "trap": "Quên hệ số 1/2 tính ra 0,04 J hoặc quên bình phương U."
+      }
+    },
+    {
+      "id": "vl11_c3_d2_q6",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Điện trường triệt tiêu giữa hai điện tích",
+      "question": "Hai điện tích điểm dương q1 = q và q2 = 4q đặt cố định tại hai điểm A và B cách nhau khoảng d trong không khí. Điểm M có cường độ điện trường tổng hợp bằng 0 nằm ở vị trí nào?",
+      "options": [
+        "Thuộc đoạn AB, cách A một khoảng d / 3",
+        "Thuộc đoạn AB, cách A một khoảng d / 2",
+        "Thuộc đoạn AB, cách A một khoảng 2d / 3",
+        "Nằm ngoài đoạn AB, về phía A"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Hai điện tích cùng dấu nên điểm M nằm TRÊN đoạn AB. E1 = E2 <=> k·q / r1² = k·4q / r2² => r2 = 2r1.",
+        "socraticPrompt": "r1 + r2 = d và r2 = 2r1 thì r1 bằng mấy phần của d?",
+        "steps": "Để E = 0 thì E1 và E2 cùng phương ngược chiều và cùng độ lớn. Do q1, q2 cùng dương nên M nằm giữa A và B. E1 = E2 <=> q / r1² = 4q / r2² => r2 / r1 = 2 => r2 = 2r1. Lại có r1 + r2 = d => 3r1 = d => r1 = d / 3.",
+        "trap": "Nhầm r1 = 2d / 3 (đây là khoảng cách từ B đến M)."
+      }
+    }
+  ]
+}

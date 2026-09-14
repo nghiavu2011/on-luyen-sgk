@@ -1,47 +1,173 @@
-[
-  {
-    "id": "l12",
-    "title": "Bài 12: Dòng điện không đổi và Cường độ dòng điện",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 12: Dòng điện không đổi và Cường độ dòng điện.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 12: Dòng điện không đổi và Cường độ dòng điện.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 12: Dòng điện không đổi và Cường độ dòng điện để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l13",
-    "title": "Bài 13: Định luật Ohm cho toàn mạch và Đoản mạch",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 13: Định luật Ohm cho toàn mạch và Đoản mạch.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 13: Định luật Ohm cho toàn mạch và Đoản mạch.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 13: Định luật Ohm cho toàn mạch và Đoản mạch để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l14",
-    "title": "Bài 14: Năng lượng và công suất tiêu thụ của mạch điện",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 14: Năng lượng và công suất tiêu thụ của mạch điện.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 14: Năng lượng và công suất tiêu thụ của mạch điện.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 14: Năng lượng và công suất tiêu thụ của mạch điện để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Dòng điện & Mạch điện",
+  "lessons": [
+    {
+      "id": "l12",
+      "title": "Bài 12: Dòng điện không đổi và Cường độ dòng điện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nêu được định nghĩa dòng điện, quy ước chiều dòng điện và điều kiện để có dòng điện.",
+        "Nắm vững định nghĩa dòng điện không đổi và công thức cường độ dòng điện I = q / t.",
+        "Hiểu cơ chế dẫn điện trong kim loại và vận tốc trôi của electron tự do."
+      ],
+      "concepts": [
+        {
+          "term": "Dòng điện và chiều dòng điện",
+          "definition": "Dòng điện là dòng chuyển dời có hướng của các hạt mang điện tích. Quy ước chiều dòng điện là chiều chuyển động của các điện tích dương (ngược chiều chuyển động của các electron tự do trong kim loại).",
+          "notation": "Chiều quy ước: Từ cực dương (+) qua dây dẫn về cực âm (-)",
+          "note": "Điều kiện để có dòng điện là phải có các hạt tải điện tự do và có hiệu điện thế đặt vào hai đầu vật dẫn."
+        },
+        {
+          "term": "Cường độ dòng điện không đổi",
+          "definition": "Dòng điện không đổi là dòng điện có chiều và cường độ không đổi theo thời gian. Cường độ dòng điện là đại lượng đặc trưng cho tác dụng mạnh hay yếu của dòng điện, đo bằng lượng điện tích dịch chuyển qua tiết diện thẳng của dây dẫn trong một đơn vị thời gian.",
+          "notation": "I = q / t (Đơn vị: Ampe - A; 1 A = 1 C / 1 s)",
+          "note": "1 mA = 10⁻³ A; 1 µA = 10⁻⁶ A. Dụng cụ đo là Ampe kế, mắc nối tiếp vào mạch."
+        },
+        {
+          "term": "Tốc độ trôi của electron",
+          "definition": "Tốc độ chuyển dời có hướng trung bình của các electron tự do dưới tác dụng của điện trường: I = n · e · v · S.",
+          "notation": "v = I / (n · e · S)",
+          "note": "Tốc độ trôi của electron rất chậm (chỉ khoảng cỡ vài mm/s đến cm/s), nhưng tốc độ lan truyền của điện trường bằng tốc độ ánh sáng (~300.000 km/s)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật bảo toàn số electron",
+          "meaning": "Số electron chuyển qua tiết diện thẳng trong thời gian t là: N = q / e = (I · t) / e."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một dòng điện không đổi có cường độ I = 1,6 A chạy qua một dây dẫn kim loại. Tính điện lượng dịch chuyển qua tiết diện thẳng của dây trong 1 phút và số electron tự do chuyển qua trong thời gian đó?",
+          "steps": [
+            "Bước 1: Đổi đơn vị thời gian: t = 1 phút = 60 s.",
+            "Bước 2: Tính điện lượng chuyển qua dây: q = I · t = 1,6 · 60 = 96 C.",
+            "Bước 3: Tính số electron tự do chuyển qua: N = q / e = 96 / (1,6 · 10⁻¹⁹) = 6 · 10²⁰ electron."
+          ],
+          "answer": "Điện lượng q = 96 C và số electron N = 6 · 10²⁰ hạt."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi thời gian phút sang giây (để t = 1 phút rồi lấy q = 1,6 C).",
+          "why": "Đơn vị chuẩn thời gian trong công thức I = q / t bắt buộc là giây (s)."
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "title": "Bài 13: Định luật Ohm cho toàn mạch và Đoản mạch",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa nguồn điện, suất điện động E và điện trở trong r.",
+        "Phát biểu và viết được công thức Định luật Ohm cho toàn mạch.",
+        "Giải thích được hiện tượng đoản mạch (ngắn mạch), tác hại và biện pháp phòng tránh."
+      ],
+      "concepts": [
+        {
+          "term": "Suất điện động của nguồn điện",
+          "definition": "Đại lượng đặc trưng cho khả năng thực hiện công của nguồn điện khi dịch chuyển một đơn vị điện tích dương bên trong nguồn: E = A_ng / q. Đơn vị là Vôn (V).",
+          "notation": "E (hoặc E_nguồn), đơn vị V",
+          "note": "Nguồn điện có điện trở trong kí hiệu là r (Ω). Kí hiệu nguồn điện: (E, r)."
+        },
+        {
+          "term": "Định luật Ohm cho toàn mạch",
+          "definition": "Cường độ dòng điện chạy trong toàn mạch kín tỉ lệ thuận với suất điện động của nguồn điện và tỉ lệ nghịch với điện trở toàn phần của mạch đó.",
+          "notation": "I = E / (R_N + r)",
+          "note": "R_N là điện trở tương đương của mạch ngoài; R_toàn_phần = R_N + r. Hiệu điện thế mạch ngoài: U_N = I · R_N = E - I · r."
+        },
+        {
+          "term": "Hiện tượng đoản mạch (ngắn mạch)",
+          "definition": "Hiện tượng xảy ra khi nối hai cực của nguồn điện bằng một dây dẫn có điện trở rất nhỏ (R_N ≈ 0). Khi đó cường độ dòng điện trong mạch đạt giá trị rất lớn: I_max = E / r.",
+          "notation": "I_max = E / r khi R_N -> 0",
+          "note": "Dòng điện đoản mạch sinh nhiệt lượng khổng lồ gây cháy nổ, phá huỷ thiết bị và nguồn điện. Cần dùng cầu chì hoặc aptomat (CB) để ngắt mạch bảo vệ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hiệu suất của nguồn điện",
+          "meaning": "Hiệu suất nguồn điện bằng tỉ số giữa công có ích ở mạch ngoài và công toàn phần của nguồn: H = U_N / E = R_N / (R_N + r)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một nguồn điện có suất điện động E = 12 V và điện trở trong r = 1 Ω được mắc với mạch ngoài là điện trở R_N = 5 Ω tạo thành mạch kín. Tính cường độ dòng điện trong mạch, hiệu điện thế mạch ngoài và hiệu suất của nguồn?",
+          "steps": [
+            "Bước 1: Áp dụng định luật Ohm toàn mạch: I = E / (R_N + r) = 12 / (5 + 1) = 12 / 6 = 2 A.",
+            "Bước 2: Tính hiệu điện thế mạch ngoài: U_N = I · R_N = 2 · 5 = 10 V (hoặc U_N = E - Ir = 12 - 2·1 = 10 V).",
+            "Bước 3: Tính hiệu suất của nguồn điện: H = U_N / E = 10 / 12 = 5 / 6 ≈ 83,33%."
+          ],
+          "answer": "I = 2 A, U_N = 10 V và hiệu suất H ≈ 83,33%."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên cộng điện trở trong r vào mẫu số, chỉ tính I = E / R_N.",
+          "why": "Điện trở toàn phần của mạch kín bắt buộc phải gồm cả điện trở mạch ngoài R_N và điện trở trong r của nguồn."
+        }
+      ]
+    },
+    {
+      "id": "l14",
+      "title": "Bài 14: Năng lượng và công suất tiêu thụ của mạch điện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững công thức tính điện năng tiêu thụ A = U·I·t và công suất điện P = U·I.",
+        "Hiểu và áp dụng định luật Joule - Lenz về nhiệt lượng toả ra trên điện trở Q = R·I²·t.",
+        "Biết tính công và công suất của nguồn điện và đổi đơn vị kWh sang Joules."
+      ],
+      "concepts": [
+        {
+          "term": "Điện năng tiêu thụ của đoạn mạch",
+          "definition": "Lượng điện năng mà đoạn mạch tiêu thụ khi có dòng điện chạy qua, đo bằng công của lực điện: A = U · I · t.",
+          "notation": "A = U · I · t (Đơn vị: Jun - J, hoặc kWh)",
+          "note": "1 kWh = 1 số điện = 1000 W · 3600 s = 3,6 · 10⁶ J = 3,6 MJ."
+        },
+        {
+          "term": "Công suất tiêu thụ điện P",
+          "definition": "Tốc độ tiêu thụ điện năng của đoạn mạch trong một đơn vị thời gian: P = A / t = U · I.",
+          "notation": "P = U · I = R · I² = U² / R (Đơn vị: Oát - W)",
+          "note": "Trên các thiết bị điện thường ghi thông số định mức: U_đm và P_đm (ví dụ bóng đèn 220V - 100W)."
+        },
+        {
+          "term": "Định luật Joule - Lenz",
+          "definition": "Nhiệt lượng toả ra trên một vật dẫn có điện trở R khi có dòng điện chạy qua tỉ lệ thuận với điện trở R, bình phương cường độ dòng điện I² và thời gian dòng điện chạy qua.",
+          "notation": "Q = R · I² · t",
+          "note": "Ứng dụng trong bếp điện, bàn là, ấm đun nước, bóng đèn dây tóc."
+        },
+        {
+          "term": "Công và công suất của nguồn điện",
+          "definition": "Công của nguồn điện bằng năng lượng toàn phần sinh ra trong toàn mạch: A_ng = E · I · t. Công suất nguồn điện: P_ng = E · I.",
+          "notation": "P_ng = E · I",
+          "note": "Công suất tiêu thụ mạch ngoài P_N = U_N · I = R_N · I². Công suất hao phí do nhiệt trên nguồn: P_hp = r · I²."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công suất mạch ngoài cực đại",
+          "meaning": "Khi thay đổi R_N, công suất tiêu thụ mạch ngoài P_N đạt giá trị lớn nhất khi điện trở mạch ngoài bằng điện trở trong nguồn: R_N = r, khi đó P_max = E² / (4r)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một bình nóng lạnh có ghi 220V - 2200W được sử dụng ở hiệu điện thế đúng 220V trong thời gian 30 phút mỗi ngày. Tính cường độ dòng điện qua bình, điện trở của bình và số tiền điện phải trả trong 30 ngày (giá 2.500 đồng/kWh)?",
+          "steps": [
+            "Bước 1: Cường độ dòng điện định mức: I = P / U = 2200 / 220 = 10 A.",
+            "Bước 2: Điện trở của bình: R = U² / P = 220² / 2200 = 22 Ω (hoặc R = U / I = 220 / 10 = 22 Ω).",
+            "Bước 3: Điện năng tiêu thụ mỗi ngày: A_ngày = P · t = 2,2 kW · 0,5 h = 1,1 kWh.",
+            "Bước 4: Tổng điện năng tiêu thụ trong 30 ngày: A_tháng = 1,1 · 30 = 33 kWh (33 số điện).",
+            "Bước 5: Tiền điện: 33 · 2.500 = 82.500 đồng."
+          ],
+          "answer": "I = 10 A, R = 22 Ω và tiền điện là 82.500 đồng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy P tính bằng Watt nhân thời gian tính bằng giờ ra kWh (ví dụ lấy 2200 W nhân 0,5 h ra 1100 kWh).",
+          "why": "Phải đổi 2200 W = 2,2 kW trước khi nhân với số giờ để ra đơn vị kWh."
+        }
+      ]
+    }
+  ]
+}

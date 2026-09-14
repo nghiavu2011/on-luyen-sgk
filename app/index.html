@@ -500,15 +500,23 @@
                     noticeEl.innerHTML = `
                         <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
                             <div style="display:flex; align-items:center; gap:0.75rem;">
-                                <span style="font-size:1.6rem;">🌟</span>
+                                <span style="font-size:1.6rem;">🏆</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Môn Hóa học đã hoàn thành 100% trọn vẹn 6 chương chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 6 chương (Cân bằng hoá học, Nitrogen & Sulfur, Đại cương hữu cơ, Hydrocarbon, Dẫn xuất halogen - Alcohol - Phenol, Hợp chất carbonyl - Carboxylic acid) với 18 bộ đề thi phân hóa 4 mức độ nhận thức (108 câu trắc nghiệm giải thích 3 bước sư phạm), đầy đủ bài giảng lý thuyết và flashcards bám sát SGK Kết nối tri thức.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Hoàn thành 100% trọn bộ Khối A (Toán, Vật lí, Hóa học) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 19 chương: Toán học (9 ch - 27 đề), Vật lí (4 ch - 12 đề), Hóa học (6 ch - 18 đề) với 342 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 190 flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
-                            <a href="subject.html?grade=11&subject=hoa-hoc" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.6rem 1.2rem; font-size:0.88rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.4rem; white-space:nowrap; box-shadow:0 2px 6px rgba(5,150,105,0.25);">
-                                🧪 Học Hóa 11 (Trọn bộ 6 chương) ➔
-                            </a>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=11&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🔢 Toán 11 ➔
+                                </a>
+                                <a href="subject.html?grade=11&subject=vat-li" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    ⚡ Vật lí 11 ➔
+                                </a>
+                                <a href="subject.html?grade=11&subject=hoa-hoc" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧪 Hóa 11 ➔
+                                </a>
+                            </div>
                         </div>
                     `;
                 } else {
@@ -538,18 +546,17 @@
                 'toan': 'assets/subject-toan.png',
                 'ngu-van': 'assets/subject-ngu-van.png',
                 'tieng-anh': 'assets/subject-tieng-anh.png',
-                'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
                 'vat-li': 'assets/icon_vat_li.png',
-                'hoa-hoc': 'assets/icon_hoa_hoc.png',
-                'sinh-hoc': 'assets/icon_sinh_hoc.png',
-                'lich-su': 'assets/icon_lich_su.png',
-                'dia-li': 'assets/icon_dia_li.png',
-                'lich-su-dia-li': 'assets/icon_lich_su_dia_li.png',
-                'giao-duc-cong-dan': 'assets/icon_giao_duc_cong_dan.png',
-                'gdkt-pl': 'assets/icon_giao_duc_cong_dan.png',
-                'tin-hoc': 'assets/icon_tin_hoc.png',
-                'cong-nghe': 'assets/icon_cong_nghe.png',
-                'hdtn-huong-nghiep': 'assets/icon_hdtn_huong_nghiep.png'
+                'hoa-hoc': 'assets/subject-hoa-hoc.png',
+                'sinh-hoc': 'assets/subject-sinh-hoc.png',
+                'khoa-hoc-tu-nhien': 'assets/subject-khoa-hoc-tu-nhien.png',
+                'lich-su-dia-li': 'assets/subject-lich-su-dia-li.png',
+                'lich-su': 'assets/subject-lich-su.png',
+                'dia-li': 'assets/subject-dia-li.png',
+                'tin-hoc': 'assets/subject-tin-hoc.png',
+                'cong-nghe': 'assets/subject-cong-nghe.png',
+                'giao-duc-cong-dan': 'assets/subject-giao-duc-cong-dan.png',
+                'gdkt-pl': 'assets/subject-gdkt-pl.png'
             };
             
             // Xác định môn học nào đã có nội dung hoàn thiện theo chuẩn SGK
@@ -567,6 +574,9 @@
                 } else if (selectedGrade === '11' && s.id === 'toan') {
                     isReady = true;
                     readyNote = '9/9 chương đã xong 100%';
+                } else if (selectedGrade === '11' && s.id === 'vat-li') {
+                    isReady = true;
+                    readyNote = '4/4 chương đã xong 100%';
                 }
 
                 return `

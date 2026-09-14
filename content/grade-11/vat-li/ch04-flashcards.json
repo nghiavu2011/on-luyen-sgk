@@ -1,50 +1,85 @@
-[
-  {
-    "front": "Dòng điện trong kim loại là dòng chuyển dời có hướng của hạt nào?",
-    "back": "Là dòng chuyển dời có hướng của các electron tự do ngược chiều điện trường.",
-    "tags": [
-      "Dòng điện",
-      "Bản chất"
-    ]
-  },
-  {
-    "front": "Định nghĩa cường độ dòng điện $I$?",
-    "back": "$I = \\frac{\\Delta q}{\\Delta t}$ (đơn vị: Ampe, A).",
-    "tags": [
-      "Cường độ",
-      "Định nghĩa"
-    ]
-  },
-  {
-    "front": "Định luật Ohm cho toàn mạch (chứa nguồn $\\mathcal{E}, r$ và mạch ngoài $R$)?",
-    "back": "$I = \\frac{\\mathcal{E}}{R_N + r}$.",
-    "tags": [
-      "Định luật Ohm",
-      "Toàn mạch"
-    ]
-  },
-  {
-    "front": "Hiện tượng đoản mạch (ngắn mạch) xảy ra khi nào?",
-    "back": "Khi điện trở mạch ngoài $R_N \\approx 0$, cường độ dòng điện tăng vọt cực đại $I_{\\max} = \\frac{\\mathcal{E}}{r}$, dễ gây cháy nổ phá hỏng nguồn điện.",
-    "tags": [
-      "Đoản mạch",
-      "Nguy hiểm"
-    ]
-  },
-  {
-    "front": "Công suất toả nhiệt trên điện trở theo định luật Joule - Lenz?",
-    "back": "$\\mathcal{P} = R I^2 = \\frac{U^2}{R}$. Nhiệt lượng toả ra $Q = R I^2 t$.",
-    "tags": [
-      "Joule - Lenz",
-      "Nhiệt lượng"
-    ]
-  },
-  {
-    "front": "Hiệu suất của nguồn điện $H$?",
-    "back": "$H = \\frac{U_N}{\\mathcal{E}} = \\frac{R_N}{R_N + r} \\times 100\\%$.",
-    "tags": [
-      "Hiệu suất",
-      "Nguồn điện"
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "flashcards": [
+    {
+      "id": "fc_vl11_c4_01",
+      "front": "Định nghĩa dòng điện và quy ước chiều dòng điện?",
+      "back": "Dòng điện là dòng chuyển dời có hướng của các điện tích. Quy ước chiều dòng điện là chiều chuyển dời của các điện tích DƯƠNG (từ cực dương sang cực âm ngoài mạch).",
+      "category": "Dòng điện",
+      "example": "Trong kim loại, electron chạy từ (-) sang (+) nên chiều dòng điện quy ước ngược lại từ (+) sang (-).",
+      "mnemonic": "Quy ước theo chân điện tích dương."
+    },
+    {
+      "id": "fc_vl11_c4_02",
+      "front": "Công thức cường độ dòng điện không đổi I?",
+      "back": "I = q / t. Số electron qua tiết diện: N = q / e = (I · t) / e.",
+      "category": "Cường độ dòng điện",
+      "example": "I = 1,6 A trong 1s thì q = 1,6 C tương ứng 10¹⁹ electron.",
+      "mnemonic": "I bằng q chia t."
+    },
+    {
+      "id": "fc_vl11_c4_03",
+      "front": "Định luật Ohm cho toàn mạch kín?",
+      "back": "I = E / (R_N + r). Suất điện động chia tổng trở mạch ngoài và trở trong nguồn.",
+      "category": "Định luật Ohm toàn mạch",
+      "example": "E = 12V, R_N = 5Ω, r = 1Ω => I = 12 / 6 = 2A.",
+      "mnemonic": "I bằng E chia cho R ngoài cộng r trong."
+    },
+    {
+      "id": "fc_vl11_c4_04",
+      "front": "Hiện tượng đoản mạch (ngắn mạch) là gì?",
+      "back": "Xảy ra khi điện trở mạch ngoài rất nhỏ (R_N ≈ 0). Cường độ dòng điện tăng vọt I_max = E / r gây toả nhiệt lớn, cháy nổ.",
+      "category": "Hiện tượng nguy hiểm",
+      "example": "Chập hai dây điện nóng và nguội trực tiếp vào nhau.",
+      "mnemonic": "R ngoài bằng không, dòng vọt kịch trần gây nổ."
+    },
+    {
+      "id": "fc_vl11_c4_05",
+      "front": "Công thức tính hiệu điện thế mạch ngoài U_N?",
+      "back": "U_N = I · R_N = E - I · r (bằng suất điện động trừ độ giảm thế trong nguồn).",
+      "category": "Hiệu điện thế mạch",
+      "example": "E = 9V, r = 1Ω, I = 1A => U_N = 9 - 1 = 8V.",
+      "mnemonic": "U ngoài bằng E trừ I nhân r trong."
+    },
+    {
+      "id": "fc_vl11_c4_06",
+      "front": "Công thức tính hiệu suất của nguồn điện H?",
+      "back": "H = U_N / E = R_N / (R_N + r).",
+      "category": "Hiệu suất nguồn",
+      "example": "R_N = 8Ω, r = 2Ω => H = 8 / (8 + 2) = 80%.",
+      "mnemonic": "R ngoài chia tổng trở ngoài trong."
+    },
+    {
+      "id": "fc_vl11_c4_07",
+      "front": "Định luật Joule - Lenz về nhiệt lượng toả ra trên dây dẫn?",
+      "back": "Q = R · I² · t (tỉ lệ thuận với R, I² và t).",
+      "category": "Nhiệt lượng",
+      "example": "Bếp điện, ấm siêu tốc toả nhiệt làm sôi nước.",
+      "mnemonic": "Q bằng R nhân I bình nhân t."
+    },
+    {
+      "id": "fc_vl11_c4_08",
+      "front": "Công và công suất của dòng điện tiêu thụ?",
+      "back": "Điện năng A = U · I · t. Công suất P = U · I = R · I² = U² / R.",
+      "category": "Công và Công suất",
+      "example": "Đèn 220V - 100W tiêu thụ 100 Joules mỗi giây.",
+      "mnemonic": "P bằng U nhân I; A bằng P nhân t."
+    },
+    {
+      "id": "fc_vl11_c4_09",
+      "front": "Điều kiện để công suất tiêu thụ mạch ngoài P_N đạt cực đại?",
+      "back": "Khi điện trở mạch ngoài bằng điện trở trong nguồn: R_N = r. Khi đó P_max = E² / (4r).",
+      "category": "Cực trị công suất",
+      "example": "Ghép tải phối hợp trở kháng.",
+      "mnemonic": "R ngoài bằng r trong thì công suất ngoài lớn nhất."
+    },
+    {
+      "id": "fc_vl11_c4_10",
+      "front": "Ý nghĩa 1 số điện (1 kWh) và cách tiết kiệm điện?",
+      "back": "1 kWh = 1 số điện = 3,6 · 10⁶ J. Tiết kiệm điện bằng cách tắt thiết bị khi không dùng, dùng đèn LED, điều hoà inverter.",
+      "category": "Đời sống thực tiễn",
+      "example": "Bật bóng đèn 100W trong 10 giờ tiêu tốn đúng 1 số điện.",
+      "mnemonic": "Một số điện là một ki-lô-oát-giờ."
+    }
+  ]
+}

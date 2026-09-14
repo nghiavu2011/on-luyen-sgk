@@ -1,62 +1,219 @@
-[
-  {
-    "id": "l05",
-    "title": "Bài 5: Mô tả sóng và các đại lượng đặc trưng của sóng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 5: Mô tả sóng và các đại lượng đặc trưng của sóng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 5: Mô tả sóng và các đại lượng đặc trưng của sóng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 5: Mô tả sóng và các đại lượng đặc trưng của sóng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l06",
-    "title": "Bài 6: Sóng ngang, sóng dọc và sự truyền năng lượng sóng",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 6: Sóng ngang, sóng dọc và sự truyền năng lượng sóng.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 6: Sóng ngang, sóng dọc và sự truyền năng lượng sóng.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 6: Sóng ngang, sóng dọc và sự truyền năng lượng sóng để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Giao thoa sóng cơ",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 7: Giao thoa sóng cơ.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 7: Giao thoa sóng cơ.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 7: Giao thoa sóng cơ để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  },
-  {
-    "id": "l08",
-    "title": "Bài 8: Sóng dừng và Sóng điện từ",
-    "summary": "<ul><li><b>Trọng tâm:</b> Nắm vững toàn bộ định nghĩa, quy luật, công thức và bản chất của Bài 8: Sóng dừng và Sóng điện từ.</li><li><b>Ứng dụng thi cử:</b> Nắm chắc phương pháp giải các dạng bài tập phân hoá từ cơ bản đến vận dụng cao.</li></ul>",
-    "keyPoints": [
-      "Bản chất khoa học và công thức then chốt của Bài 8: Sóng dừng và Sóng điện từ.",
-      "Kỹ năng tư duy logic và các phương pháp giải bài tập tối ưu."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức trọng tâm trong Bài 8: Sóng dừng và Sóng điện từ để giải quyết bài toán điển hình.",
-        "solution": "Phân tích giả thiết đề bài, thiết lập công thức liên hệ và suy luận đưa ra kết luận chính xác."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Sóng cơ & Sóng điện từ",
+  "lessons": [
+    {
+      "id": "l05",
+      "title": "Bài 5: Mô tả sóng và các đại lượng đặc trưng của sóng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa sóng cơ, sự truyền pha dao động và năng lượng.",
+        "Hiểu rõ các đại lượng đặc trưng: bước sóng λ, chu kì T, tần số f, tốc độ truyền sóng v.",
+        "Biết vận dụng công thức liên hệ λ = v · T = v / f để giải toán."
+      ],
+      "concepts": [
+        {
+          "term": "Sóng cơ",
+          "definition": "Sóng cơ là dao động cơ lan truyền trong môi trường vật chất (rắn, lỏng, khí) theo thời gian. Quá trình truyền sóng là quá trình truyền pha dao động và năng lượng, các phần tử môi trường chỉ dao động tại chỗ quanh VTCB.",
+          "notation": "Không truyền vật chất trong không gian",
+          "note": "Sóng cơ KHÔNG truyền được trong chân không."
+        },
+        {
+          "term": "Bước sóng λ",
+          "definition": "Bước sóng là quãng đường sóng truyền được trong một chu kì, hoặc là khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha.",
+          "notation": "λ = v · T = v / f",
+          "note": "Khoảng cách giữa hai điểm gần nhau nhất dao động ngược pha là λ / 2."
+        },
+        {
+          "term": "Tốc độ truyền sóng v",
+          "definition": "Tốc độ lan truyền dao động trong môi trường. Phụ thuộc vào tính chất đàn hồi và mật độ của môi trường.",
+          "notation": "v_rắn > v_lỏng > v_khí",
+          "note": "Cần phân biệt tốc độ truyền sóng v (hằng số trong môi trường đồng chất) với tốc độ dao động của phần tử vật chất u' (biến thiên điều hoà)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ lệch pha giữa hai điểm trên phương truyền sóng",
+          "meaning": "Hai điểm cách nhau khoảng d trên phương truyền sóng có độ lệch pha: ∆φ = 2πd / λ. Cùng pha: d = kλ; Ngược pha: d = (k + 0,5)λ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một sóng cơ truyền trên mặt nước với tần số f = 50 Hz và tốc độ truyền sóng v = 1,5 m/s. Tính bước sóng λ và khoảng cách giữa hai điểm gần nhau nhất trên phương truyền sóng dao động ngược pha?",
+          "steps": [
+            "Bước 1: Tính bước sóng: λ = v / f = 1,5 / 50 = 0,03 m = 3 cm.",
+            "Bước 2: Khoảng cách giữa hai điểm gần nhau nhất dao động ngược pha là nửa bước sóng: d_min = λ / 2.",
+            "Bước 3: Thay số: d_min = 3 / 2 = 1,5 cm."
+          ],
+          "answer": "Bước sóng λ = 3 cm và d_min = 1,5 cm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tốc độ truyền sóng v với vận tốc dao động của phần tử môi trường.",
+          "why": "Tốc độ truyền sóng v là tốc độ lan truyền pha, còn phần tử môi trường chỉ dao động tại chỗ với tốc độ v_pt = u' = ωA cos(...)."
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "title": "Bài 6: Sóng ngang, sóng dọc và sự truyền năng lượng sóng",
+      "hasRealContent": true,
+      "objectives": [
+        "Phân biệt sóng ngang và sóng dọc về phương dao động và môi trường truyền sóng.",
+        "Hiểu bản chất sóng âm là sóng cơ (sóng dọc trong chất khí và chất lỏng).",
+        "Nắm vững đặc điểm truyền năng lượng của sóng (năng lượng tỉ lệ với bình phương biên độ)."
+      ],
+      "concepts": [
+        {
+          "term": "Sóng ngang",
+          "definition": "Sóng có các phần tử môi trường dao động theo phương vuông góc với phương truyền sóng.",
+          "notation": "Phương dao động ⊥ Phương truyền sóng",
+          "note": "Sóng ngang truyền được trong chất rắn và trên bề mặt chất lỏng (ví dụ: sóng trên mặt nước, sóng trên dây cao su)."
+        },
+        {
+          "term": "Sóng dọc",
+          "definition": "Sóng có các phần tử môi trường dao động theo phương trùng với phương truyền sóng.",
+          "notation": "Phương dao động // Phương truyền sóng",
+          "note": "Sóng dọc truyền được trong cả chất rắn, chất lỏng và chất khí (ví dụ: sóng âm trong không khí, sóng nén lò xo)."
+        },
+        {
+          "term": "Năng lượng sóng",
+          "definition": "Năng lượng sóng là năng lượng dao động của các phần tử môi trường khi có sóng truyền qua. Năng lượng sóng tỉ lệ thuận với bình phương biên độ sóng (E ~ A²).",
+          "notation": "E ~ A²; I = P / S (Cường độ sóng)",
+          "note": "Khi sóng truyền từ một nguồn điểm trong không gian, năng lượng phân tán trên mặt cầu rộng dần nên biên độ sóng giảm dần theo khoảng cách."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Môi trường truyền sóng âm",
+          "meaning": "Sóng âm không truyền được trong chân không. Trong không khí và chất lỏng, sóng âm là sóng dọc. Trong chất rắn, sóng âm có thể là sóng dọc hoặc sóng ngang."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Giải thích vì sao các phi hành gia ngoài không gian vũ trụ không thể nói chuyện trực tiếp bằng miệng với nhau mà phải dùng bộ đàm vô tuyến?",
+          "steps": [
+            "Bước 1: Giọng nói của con người truyền đi dưới dạng sóng âm (sóng cơ học).",
+            "Bước 2: Không gian ngoài vũ trụ là môi trường chân không, không có các phần tử vật chất để dao động và lan truyền sóng âm.",
+            "Bước 3: Sóng vô tuyến trong bộ đàm là sóng điện từ, có thể truyền tốt trong chân không."
+          ],
+          "answer": "Vì sóng âm là sóng cơ không thể truyền qua chân không, trong khi sóng vô tuyến là sóng điện từ truyền được trong chân không."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng sóng âm truyền trong không khí là sóng ngang.",
+          "why": "Trong chất khí và chất lỏng, sóng âm chỉ lan truyền dưới dạng các vùng nén - dãn dọc theo phương truyền nên là sóng dọc."
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "title": "Bài 7: Giao thoa sóng cơ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa và điều kiện hai nguồn sóng kết hợp.",
+        "Hiểu bản chất hiện tượng giao thoa sóng và hệ vân giao thoa hình hyperbol.",
+        "Vận dụng công thức xác định vị trí cực đại và cực tiểu giao thoa."
+      ],
+      "concepts": [
+        {
+          "term": "Hai nguồn kết hợp",
+          "definition": "Hai nguồn dao động cùng phương, cùng tần số và có hiệu số pha không đổi theo thời gian gọi là hai nguồn kết hợp. Hai sóng do hai nguồn kết hợp phát ra gọi là hai sóng kết hợp.",
+          "notation": "Cùng f, cùng phương, ∆φ = const",
+          "note": "Giao thoa là hiện tượng đặc trưng của sóng: chỉ có sóng mới có hiện tượng giao thoa."
+        },
+        {
+          "term": "Cực đại giao thoa",
+          "definition": "Những điểm mà tại đó hai sóng tới tăng cường lẫn nhau, dao động với biên độ cực đại: A_max = A1 + A2. Hiệu đường đi bằng một số nguyên lần bước sóng.",
+          "notation": "d2 - d1 = k · λ (với k = 0, ±1, ±2, ...)",
+          "note": "Đường trung trực của đoạn nối hai nguồn cùng pha là đường cực đại trung tâm (k = 0)."
+        },
+        {
+          "term": "Cực tiểu giao thoa",
+          "definition": "Những điểm mà tại đó hai sóng tới triệt tiêu lẫn nhau, đứng yên hoặc dao động với biên độ cực tiểu: A_min = |A1 - A2|. Hiệu đường đi bằng một số bán nguyên lần bước sóng.",
+          "notation": "d2 - d1 = (k + 0,5) · λ (với k = 0, ±1, ±2, ...)",
+          "note": "Nếu hai nguồn có cùng biên độ A thì tại cực tiểu biên độ bằng 0 (nước phẳng lặng)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đếm số cực đại trên đoạn nối hai nguồn",
+          "meaning": "Số cực đại trên đoạn nối 2 nguồn cùng pha S1S2 là số giá trị nguyên k thoả mãn: -S1S2 < kλ < S1S2."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trên mặt nước có hai nguồn kết hợp S1 và S2 cùng pha cách nhau 10 cm, phát sóng có bước sóng λ = 2 cm. Trên đoạn S1S2 có bao nhiêu điểm dao động với biên độ cực đại?",
+          "steps": [
+            "Bước 1: Điều kiện cực đại giao thoa: d2 - d1 = kλ với k ∈ Z.",
+            "Bước 2: Thiết lập bất đẳng thức cho điểm M nằm trên đoạn S1S2: -S1S2 < kλ < S1S2.",
+            "Bước 3: Thay số: -10 < 2k < 10 <=> -5 < k < 5.",
+            "Bước 4: Các giá trị nguyên của k: k ∈ {-4, -3, -2, -1, 0, 1, 2, 3, 4}. Tổng cộng có 9 giá trị."
+          ],
+          "answer": "Có 9 điểm dao động với biên độ cực đại trên đoạn S1S2."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy cả dấu bằng tại hai nguồn k = ±5.",
+          "why": "Hai điểm nguồn S1 và S2 là điểm đặt máy phát dao động, không tính là điểm giao thoa trên trường sóng."
+        }
+      ]
+    },
+    {
+      "id": "l08",
+      "title": "Bài 8: Sóng dừng và Sóng điện từ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững định nghĩa sóng dừng, nút sóng, bụng sóng và khoảng cách giữa chúng.",
+        "Biết điều kiện xảy ra sóng dừng trên dây hai đầu cố định và dây một đầu cố định một đầu tự do.",
+        "Hiểu bản chất sóng điện từ, thang sóng điện từ và ứng dụng trong truyền thông tin."
+      ],
+      "concepts": [
+        {
+          "term": "Sóng dừng",
+          "definition": "Sóng dừng là sóng tạo thành do sự giao thoa giữa sóng tới và sóng phản xạ truyền trên cùng một phương. Đặc trưng bởi các nút sóng (luôn đứng yên) và bụng sóng (dao động với biên độ cực đại).",
+          "notation": "Khoảng cách giữa 2 nút (hoặc 2 bụng) liên tiếp: d = λ / 2",
+          "note": "Khoảng cách từ một nút đến một bụng kề nó là λ / 4."
+        },
+        {
+          "term": "Điều kiện có sóng dừng trên dây",
+          "definition": "Dây 2 đầu cố định: Chiều dài dây l = k · (λ / 2) (với k là số bụng sóng, số nút là k + 1). Dây 1 đầu cố định, 1 đầu tự do: l = (2k + 1) · (λ / 4).",
+          "notation": "l = k · λ / 2 (2 đầu cố định)",
+          "note": "Đầu cố định luôn là nút, đầu tự do luôn là bụng sóng."
+        },
+        {
+          "term": "Sóng điện từ và thang sóng điện từ",
+          "definition": "Sóng điện từ là điện từ trường lan truyền trong không gian. Truyền được trong chân không với tốc độ c = 3 · 10⁸ m/s. Thang sóng điện từ theo chiều bước sóng giảm dần: Sóng vô tuyến -> Tia hồng ngoại -> Ánh sáng nhìn thấy -> Tia tử ngoại -> Tia X -> Tia gamma.",
+          "notation": "c = λ · f = 3 · 10⁸ m/s",
+          "note": "Sóng điện từ luôn luôn là SÓNG NGANG (E và B vuông góc với nhau và vuông góc với phương truyền sóng)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đặc trưng véc tơ sóng điện từ",
+          "meaning": "Tại mỗi điểm trên phương truyền sóng, véc-tơ cường độ điện trường E và véc-tơ cảm ứng từ B luôn dao động CÙNG PHA và vuông góc với nhau."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một sợi dây đàn hồi dài l = 1,2 m hai đầu cố định. Khi có sóng dừng ổn định trên dây, người ta đếm được 3 bụng sóng. Biết tốc độ truyền sóng trên dây là v = 8 m/s. Tính tần số dao động của sóng?",
+          "steps": [
+            "Bước 1: Dây hai đầu cố định có 3 bụng sóng => k = 3.",
+            "Bước 2: Áp dụng công thức sóng dừng: l = k · (λ / 2) => 1,2 = 3 · (λ / 2) => λ = 2 · 1,2 / 3 = 0,8 m.",
+            "Bước 3: Tính tần số dao động: f = v / λ = 8 / 0,8 = 10 Hz."
+          ],
+          "answer": "Tần số của sóng là f = 10 Hz."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng sóng điện từ là sóng dọc vì nó truyền được trong chân không.",
+          "why": "Sóng điện từ là sóng ngang vì hai véc tơ E và B dao động vuông góc với phương truyền sóng c."
+        }
+      ]
+    }
+  ]
+}

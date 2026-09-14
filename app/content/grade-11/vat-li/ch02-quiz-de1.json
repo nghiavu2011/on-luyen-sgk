@@ -1,16 +1,128 @@
-[
-  {
-    "id": "vatli11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Một sóng cơ có tần số $f = 50\\text{ Hz}$ truyền trong một môi trường với tốc độ $v = 150\\text{ m/s}$. Bước sóng của sóng này là:",
-    "options": [
-      "A. $3\\text{ m}$",
-      "B. $7500\\text{ m}$",
-      "C. $0,33\\text{ m}$",
-      "D. $30\\text{ m}$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Công thức bước sóng: $\\lambda = \\frac{v}{f} = \\frac{150}{50} = 3\\text{ m}$.\n💡 Quãng đường đi trong một chu kì sóng.\n⚠️ Không nhầm công thức nhân $v \\times f$."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "title": "Vật lí 11 — Chương 2: Đề 1 — Khái niệm & Nhận biết Sóng cơ và Sóng điện từ",
+  "description": "Đề kiểm tra nhận biết về bước sóng, phân loại sóng ngang, sóng dọc, giao thoa sóng và thang sóng điện từ.",
+  "questions": [
+    {
+      "id": "vl11_c2_d1_q1",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Định nghĩa bước sóng",
+      "question": "Bước sóng λ là khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng mà dao động tại hai điểm đó:",
+      "options": [
+        "Cùng pha",
+        "Ngược pha",
+        "Vuông pha",
+        "Có biên độ cực đại"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn SGK: Bước sóng là khoảng cách giữa hai điểm gần nhau nhất trên cùng phương truyền sóng dao động CÙNG PHA.",
+        "socraticPrompt": "Hai điểm gần nhau nhất dao động y hệt nhau (cùng pha) cách nhau đúng bằng độ dài của một gì?",
+        "steps": "Theo định nghĩa bước sóng: λ là quãng đường sóng truyền trong 1 chu kì, hay khoảng cách giữa 2 điểm gần nhất trên phương truyền dao động cùng pha.",
+        "trap": "Nhầm khoảng cách ngược pha là λ/2."
+      }
+    },
+    {
+      "id": "vl11_c2_d1_q2",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Môi trường truyền sóng cơ",
+      "question": "Sóng cơ KHÔNG thể lan truyền được trong môi trường nào sau đây?",
+      "options": [
+        "Chất lỏng",
+        "Chân không",
+        "Chất rắn",
+        "Chất khí"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sóng cơ là sự lan truyền dao động của các phần tử vật chất, do đó không truyền được trong chân không.",
+        "socraticPrompt": "Môi trường nào hoàn toàn không có các nguyên tử, phân tử vật chất để tương tác dao động?",
+        "steps": "Sóng cơ cần môi trường vật chất đàn hồi để truyền dao động. Trong chân không không có vật chất nên sóng cơ không truyền được.",
+        "trap": "Nhầm với sóng điện từ (sóng điện từ truyền tốt trong chân không)."
+      }
+    },
+    {
+      "id": "vl11_c2_d1_q3",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc trưng của sóng ngang",
+      "question": "Sóng ngang là sóng có phương dao động của các phần tử môi trường:",
+      "options": [
+        "Trùng với phương truyền sóng",
+        "Song song với phương truyền sóng",
+        "Vuông góc với phương truyền sóng",
+        "Luôn nằm ngang theo mặt đất"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa sóng ngang: phương dao động vuông góc với phương truyền sóng.",
+        "socraticPrompt": "Từ 'ngang' trong vật lí sóng cơ nghĩa là góc giữa phương dao động và phương truyền sóng bằng bao nhiêu độ?",
+        "steps": "Sóng ngang có phương dao động vuông góc với phương truyền sóng (ví dụ sóng trên mặt nước).",
+        "trap": "Nghĩ theo nghĩa đen là phương nằm ngang theo phương của mặt đất."
+      }
+    },
+    {
+      "id": "vl11_c2_d1_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khoảng cách giữa hai nút sóng dừng",
+      "question": "Trong hiện tượng sóng dừng, khoảng cách giữa hai nút sóng liên tiếp bằng:",
+      "options": [
+        "Một bước sóng (λ)",
+        "Một phần tư bước sóng (λ / 4)",
+        "Hai bước sóng (2λ)",
+        "Nửa bước sóng (λ / 2)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính chất sóng dừng: Khoảng cách giữa hai nút liên tiếp (hoặc hai bụng liên tiếp) luôn bằng λ / 2.",
+        "socraticPrompt": "Một bó sóng hình bầu dục khép giữa hai nút sóng kề nhau có độ dài bằng bao nhiêu bước sóng?",
+        "steps": "Hai nút sóng liên tiếp cách nhau một khoảng d = λ / 2.",
+        "trap": "Nhầm với khoảng cách từ 1 nút đến 1 bụng liền kề là λ / 4."
+      }
+    },
+    {
+      "id": "vl11_c2_d1_q5",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Điều kiện cực đại giao thoa",
+      "question": "Hai nguồn kết hợp cùng pha phát sóng có bước sóng λ. Một điểm M trong vùng giao thoa dao động với biên độ cực đại khi hiệu khoảng cách từ M đến hai nguồn (d2 - d1) thoả mãn:",
+      "options": [
+        "d2 - d1 = k · λ (với k ∈ Z)",
+        "d2 - d1 = (k + 0,5) · λ (với k ∈ Z)",
+        "d2 - d1 = (2k + 1) · λ / 4 (với k ∈ Z)",
+        "d2 - d1 = k · λ / 2 (với k ∈ Z)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Điều kiện cực đại giao thoa hai nguồn cùng pha: hiệu đường đi bằng một số nguyên lần bước sóng: d2 - d1 = kλ.",
+        "socraticPrompt": "Để hai sóng tăng cường lẫn nhau cực đại, hai sóng tới phải cùng pha, tức hiệu quãng đường bằng nguyên lần gì?",
+        "steps": "Theo SGK Vật lí 11, cực đại giao thoa hai nguồn đồng pha thoả mãn: d2 - d1 = kλ (k = 0, ±1, ±2...).",
+        "trap": "Nhầm với cực tiểu giao thoa d2 - d1 = (k + 0,5)λ."
+      }
+    },
+    {
+      "id": "vl11_c2_d1_q6",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Bản chất của sóng điện từ",
+      "question": "Phát biểu nào sau đây về sóng điện từ là ĐÚNG?",
+      "options": [
+        "Sóng điện từ là sóng dọc và không truyền được trong chân không",
+        "Sóng điện từ là sóng ngang và truyền được trong chân không",
+        "Sóng điện từ có tốc độ truyền giảm dần từ khí sang lỏng sang rắn",
+        "Sóng điện từ chỉ lan truyền được trong dây dẫn điện kim loại"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sóng điện từ là sóng ngang, lan truyền được trong chân không với tốc độ lớn nhất c = 3 · 10⁸ m/s.",
+        "socraticPrompt": "Ánh sáng mặt trời chiếu qua không gian vũ trụ đến Trái Đất chứng minh sóng điện từ có đặc điểm gì?",
+        "steps": "Sóng điện từ mang bản chất là sóng ngang và truyền được trong chân không cũng như các điện môi trong suốt.",
+        "trap": "Nhầm tính chất với sóng cơ (sóng cơ là sóng dọc/ngang không truyền trong chân không)."
+      }
+    }
+  ]
+}

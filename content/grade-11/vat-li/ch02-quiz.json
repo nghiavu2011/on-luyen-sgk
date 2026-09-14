@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch02",
+  "examId": "tonghop",
+  "title": "Vật lí 11 — Chương 2: Đề 3 — Đánh giá Năng lực Tổng hợp Sóng cơ & Sóng điện từ",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức sóng, siêu âm y học, giao thoa sóng và truyền tải sóng vô tuyến.",
+  "questions": [
+    {
+      "id": "vl11_c2_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng máy siêu âm chẩn đoán y khoa",
+      "question": "Trong kĩ thuật chẩn đoán y tế, máy siêu âm phát sóng âm có tần số f = 2 MHz vào mô cơ thể. Tốc độ truyền sóng âm trong mô người là v = 1500 m/s. Bước sóng của chùm siêu âm này trong mô người bằng:",
+      "options": [
+        "0,75 mm",
+        "3,0 mm",
+        "0,3 mm",
+        "1,33 mm"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức tính bước sóng: λ = v / f. Lưu ý đổi 2 MHz = 2 · 10⁶ Hz.",
+        "socraticPrompt": "1500 m/s chia cho 2 · 10⁶ Hz bằng bao nhiêu mét? Đổi sang milimét (mm)?",
+        "steps": "Ta có: f = 2 MHz = 2 · 10⁶ Hz. Bước sóng: λ = v / f = 1500 / (2 · 10⁶) = 7,5 · 10⁻⁴ m = 0,75 mm.",
+        "trap": "Quên đổi MHz thành Hz hoặc đổi nhầm đơn vị milimét."
+      }
+    },
+    {
+      "id": "vl11_c2_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Truyền sóng qua hai môi trường",
+      "question": "Khi một sóng cơ truyền từ không khí vào trong nước thì đại lượng nào sau đây KHÔNG THAY ĐỔI?",
+      "options": [
+        "Tốc độ truyền sóng",
+        "Bước sóng",
+        "Tần số của sóng",
+        "Biên độ sóng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tần số của sóng do nguồn phát quyết định và KHÔNG ĐỔI khi truyền qua các môi trường khác nhau. Tốc độ v tăng nên bước sóng λ = v/f cũng tăng theo.",
+        "socraticPrompt": "Mỗi giây nguồn phát ra bao nhiêu nhịp dao động thì khi vào nước số nhịp trong 1 giây có đổi không?",
+        "steps": "Khi truyền từ môi trường này sang môi trường khác, tần số f không đổi. Vì v_nước > v_khí nên bước sóng λ tăng.",
+        "trap": "Cho rằng bước sóng hoặc tốc độ truyền sóng không đổi."
+      }
+    },
+    {
+      "id": "vl11_c2_q3",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vị trí cực tiểu giao thoa giữa hai nguồn",
+      "question": "Khoảng cách giữa hai điểm cực đại giao thoa liên tiếp trên đoạn thẳng nối hai nguồn kết hợp cùng pha bằng:",
+      "options": [
+        "Một bước sóng (λ)",
+        "Nửa bước sóng (λ / 2)",
+        "Hai bước sóng (2λ)",
+        "Một phần tư bước sóng (λ / 4)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trên đoạn nối hai nguồn kết hợp, khoảng cách giữa hai cực đại liên tiếp (hoặc hai cực tiểu liên tiếp) luôn bằng λ / 2.",
+        "socraticPrompt": "Cực đại thứ k có d2 - d1 = kλ. Hai cực đại kề nhau lệch nhau k = 1, trên đoạn nối nguồn chúng cách nhau bao nhiêu?",
+        "steps": "Giống như khoảng cách giữa hai bụng trong sóng dừng, hai cực đại giao thoa liên tiếp trên đoạn nối nguồn cách nhau đúng bằng d = λ / 2.",
+        "trap": "Nhầm khoảng cách là 1 bước sóng λ."
+      }
+    },
+    {
+      "id": "vl11_c2_q4",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sóng điện từ mang thông tin Wifi",
+      "question": "Sóng Wifi gia đình hoạt động ở dải tần số 2,4 GHz thuộc vùng sóng nào trong thang sóng điện từ?",
+      "options": [
+        "Tia hồng ngoại",
+        "Ánh sáng nhìn thấy",
+        "Sóng vô tuyến (vi sóng)",
+        "Tia tử ngoại"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sóng vi ba (vi sóng) có tần số GHz thuộc dải sóng vô tuyến được dùng phổ biến trong truyền thông tin không dây (Wifi, 4G, 5G).",
+        "socraticPrompt": "Sóng Wifi, Bluetooth, sóng điện thoại di động là loại sóng gì dùng để truyền tín hiệu thông tin?",
+        "steps": "Tần số 2,4 GHz có bước sóng λ = c / f = (3 · 10⁸) / (2,4 · 10⁹) = 0,125 m = 12,5 cm thuộc vùng sóng vô tuyến (vi sóng).",
+        "trap": "Nhầm sang tia hồng ngoại (hồng ngoại có bước sóng nhỏ hơn nhiều, từ 760 nm đến 1 mm)."
+      }
+    },
+    {
+      "id": "vl11_c2_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Độ lệch pha tại một điểm theo thời gian",
+      "question": "Tại một điểm cố định trong môi trường có sóng truyền qua, khoảng thời gian ngắn nhất giữa hai lần liên tiếp phần tử môi trường qua vị trí cân bằng là:",
+      "options": [
+        "T",
+        "T / 4",
+        "2T",
+        "T / 2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phần tử môi trường dao động điều hoà quanh VTCB. Hai lần liên tiếp qua VTCB cách nhau nửa chu kì: ∆t = T / 2.",
+        "socraticPrompt": "Trong dao động điều hoà, vật đi từ VTCB sang biên rồi quay lại VTCB mất bao nhiêu thời gian chu kì?",
+        "steps": "Thời gian đi từ VTCB ra biên rồi về lại VTCB là T/4 + T/4 = T/2.",
+        "trap": "Nhầm khoảng thời gian hoàn thành 1 chu kì (T)."
+      }
+    },
+    {
+      "id": "vl11_c2_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tỉ số bước sóng ánh sáng nhìn thấy",
+      "question": "Trong thang sóng điện từ của ánh sáng nhìn thấy, ánh sáng có bước sóng dài nhất trong chân không là ánh sáng màu gì?",
+      "options": [
+        "Màu Tím",
+        "Màu Vàng",
+        "Màu Đỏ",
+        "Màu Lam"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Ánh sáng đỏ có bước sóng dài nhất (~760 nm = 0,76 µm), ánh sáng tím có bước sóng ngắn nhất (~380 nm = 0,38 µm).",
+        "socraticPrompt": "Trong 7 sắc cầu vồng: Đỏ, Da cam, Vàng, Lục, Lam, Chàm, Tím, màu nào ở đầu thang bước sóng lớn nhất?",
+        "steps": "Dải ánh sáng nhìn thấy trải từ 0,38 µm (tím) đến 0,76 µm (đỏ). Vậy ánh sáng đỏ có bước sóng dài nhất.",
+        "trap": "Nhầm ánh sáng tím có năng lượng lớn nhất là bước sóng dài nhất (ngược lại: bước sóng càng ngắn năng lượng càng cao)."
+      }
+    }
+  ]
+}

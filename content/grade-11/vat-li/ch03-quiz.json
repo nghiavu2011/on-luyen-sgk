@@ -1,1 +1,128 @@
-[]
+{
+  "chapterId": "ch03",
+  "examId": "tonghop",
+  "title": "Vật lí 11 — Chương 3: Đề 3 — Đánh giá Năng lực Tổng hợp Điện trường",
+  "description": "Bộ đề đánh giá tổng hợp mức độ vận dụng kiến thức điện trường, chuyển động của hạt mang điện và ứng dụng tụ điện.",
+  "questions": [
+    {
+      "id": "vl11_c3_q1",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Chuyển động của electron trong điện trường đều",
+      "question": "Một electron bay vào điện trường đều giữa hai bản kim loại phẳng tích điện trái dấu với vận tốc ban đầu v0 song song với hai bản cực. Quỹ đạo chuyển động của electron trong điện trường đó là một nhánh của đường:",
+      "options": [
+        "Đường tròn",
+        "Đường cong hyperbol",
+        "Đường thẳng xiên",
+        "Đường parabol"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tương tự bài toán ném ngang trong trường trọng lực: phương Ox chuyển động thẳng đều, phương Oy chuyển động biến đổi đều dưới tác dụng của lực điện F = eE không đổi.",
+        "socraticPrompt": "Khi một vật chuyển động thẳng đều theo phương ngang và chuyển động nhanh dần đều theo phương thẳng đứng thì quỹ đạo là đường gì?",
+        "steps": "Theo phương Ox: x = v0 · t. Theo phương Oy: y = 1/2 · a · t² = 1/2 · (eE / m) · t² = 1/2 · (eE / m) · (x / v0)². Đây là phương trình parabol y = a x².",
+        "trap": "Nhầm sang đường tròn (đường tròn xảy ra khi hạt chuyển động trong từ trường đều)."
+      }
+    },
+    {
+      "id": "vl11_c3_q2",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng máy khử rung tim (Defibrillator)",
+      "question": "Máy khử rung tim dùng trong cấp cứu y khoa là một ứng dụng điển hình của tụ điện. Máy tích trữ năng lượng W = 360 J dưới hiệu điện thế U = 3000 V. Điện dung C của tụ điện trong máy là:",
+      "options": [
+        "40 µF",
+        "80 µF",
+        "120 µF",
+        "24 µF"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Công thức năng lượng: W = 1/2 · C · U² => C = 2W / U².",
+        "socraticPrompt": "2 nhân 360 = 720. Chia cho 3000 bình phương (9 · 10⁶) bằng bao nhiêu Fara? Đổi sang µF?",
+        "steps": "C = 2W / U² = (2 · 360) / 3000² = 720 / (9 · 10⁶) = 80 · 10⁻⁶ F = 80 µF.",
+        "trap": "Quên nhân 2 ở công thức tính C dẫn đến tính ra 40 µF."
+      }
+    },
+    {
+      "id": "vl11_c3_q3",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa của hằng số điện môi",
+      "question": "Hằng số điện môi ε của một môi trường cách điện cho biết:",
+      "options": [
+        "Lực tương tác tĩnh điện trong môi trường đó lớn hơn trong chân không bao nhiêu lần",
+        "Điện tích tối đa mà môi trường có thể chứa được",
+        "Lực tương tác tĩnh điện giữa các điện tích trong môi trường đó giảm đi bao nhiêu lần so với trong chân không",
+        "Vận tốc ánh sáng trong môi trường đó"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa: Hằng số điện môi ε cho biết lực tương tác tĩnh điện giữa hai điện tích trong chất đó yếu hơn trong chân không ε lần: F = F0 / ε.",
+        "socraticPrompt": "ε nằm ở mẫu số của công thức Coulomb F = k|q1q2|/(ε r²), điều đó thể hiện điều gì?",
+        "steps": "Hằng số điện môi ε ≥ 1 đặc trưng cho tính cách điện của môi trường, làm giảm lực tương tác tĩnh điện đi ε lần so với chân không.",
+        "trap": "Nhầm là làm tăng lực tương tác lên ε lần."
+      }
+    },
+    {
+      "id": "vl11_c3_q4",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vận tốc electron tăng tốc qua hiệu điện thế",
+      "question": "Một electron ban đầu đứng yên được tăng tốc bởi một hiệu điện thế U = 100 V trong chân không. Bỏ qua tác dụng của trọng lực. Động năng mà electron thu được bằng:",
+      "options": [
+        "1,6 · 10⁻¹⁷ J (100 eV)",
+        "1,6 · 10⁻¹⁹ J",
+        "3,2 · 10⁻¹⁷ J",
+        "100 J"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định lí động năng: Wđ = A = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J = 100 eV.",
+        "socraticPrompt": "Lực điện sinh công làm tăng động năng của electron. Lấy điện tích e nhân U = 100 V?",
+        "steps": "Theo định lí động năng: Wđ - 0 = A_điện = q · U = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J (tương đương 100 eV).",
+        "trap": "Lấy 100 J (quên nhân độ lớn điện tích electron e)."
+      }
+    },
+    {
+      "id": "vl11_c3_q5",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Gọt bớt khoảng cách hai bản tụ",
+      "question": "Một tụ điện phẳng được nối cố định vào một nguồn điện có hiệu điện thế U không đổi. Nếu đưa hai bản tụ lại gần nhau để khoảng cách d giảm đi một nửa thì điện dung C và điện tích Q của tụ thay đổi như thế nào?",
+      "options": [
+        "C giảm 2 lần, Q giảm 2 lần",
+        "C tăng 2 lần, Q tăng 2 lần",
+        "C tăng 2 lần, Q không đổi",
+        "C không đổi, Q tăng 2 lần"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Điện dung tụ phẳng tỉ lệ nghịch với khoảng cách: C ~ 1/d. Khi d giảm 2 lần thì C tăng 2 lần. Do U không đổi nên Q = CU cũng tăng 2 lần.",
+        "socraticPrompt": "d giảm 2 lần thì C = εS / (4πkd) tăng hay giảm? U giữ nguyên thì Q = CU thay đổi theo C thế nào?",
+        "steps": "Khi d giảm 2 lần thì C tăng 2 lần. Vì nối với nguồn nên U = const, suy ra Q = C · U tăng 2 lần.",
+        "trap": "Nhầm trường hợp ngắt tụ khỏi nguồn (khi ngắt khỏi nguồn thì Q mới không đổi)."
+      }
+    },
+    {
+      "id": "vl11_c3_q6",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thế năng tĩnh điện của điện tích",
+      "question": "Khi một điện tích dương q di chuyển cùng chiều với đường sức của điện trường đều thì thế năng của điện tích sẽ:",
+      "options": [
+        "Không đổi",
+        "Tăng lên",
+        "Bằng 0",
+        "Giảm đi"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lực điện tác dụng cùng chiều dịch chuyển nên sinh công dương (A > 0). Công dương làm thế năng giảm: A = W_t1 - W_t2 > 0 => W_t2 < W_t1.",
+        "socraticPrompt": "Giống như vật rơi tự do theo chiều trọng lực, thế năng trọng trường giảm thì điện tích dương trôi theo chiều điện trường thế năng ra sao?",
+        "steps": "Lực điện tác dụng lên điện tích dương cùng chiều đường sức E. Khi di chuyển cùng chiều đường sức, lực điện sinh công dương, làm thế năng tĩnh điện của điện tích giảm đi.",
+        "trap": "Đoán thế năng tăng lên do nhầm với điện tích âm."
+      }
+    }
+  ]
+}
