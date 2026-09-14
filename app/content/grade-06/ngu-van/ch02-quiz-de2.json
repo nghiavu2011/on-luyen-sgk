@@ -1,7 +1,7 @@
 {
   "chapterId": "ch02",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 2: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 2: Gõ cửa trái tim (Thơ và truyện ngắn) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Biện pháp tu từ Điệp ngữ, Đại từ xưng hô và kỹ năng phân tích tâm lý nhân vật.",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Khái niệm biện pháp điệp từ, điệp ngữ.",
         "steps": "Điệp ngữ lặp lại yếu tố ngôn ngữ nhằm mục đích tu từ biểu cảm.",
-        "trap": "Tránh nhầm với lỗi lặp từ vô nghĩa."
-      }
+        "trap": "Tránh nhầm với lỗi lặp từ vô nghĩa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm biện pháp điệp từ, điệp ngữ.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Trong câu: 'Kiều Phương là một cô bé rất đáng yêu. <strong>Em</strong> luôn quan tâm đến mọi người xung quanh', từ in đậm là từ loại gì?",
       "options": [
-        "Đại từ thay thế",
         "Danh từ riêng",
+        "Đại từ thay thế",
         "Động từ chỉ hoạt động",
         "Trợ từ nhấn mạnh"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đại từ và chức năng liên kết thay thế.",
         "steps": "'Em' là đại từ ngôi thứ ba thay thế cho 'Kiều Phương' để tránh lặp từ.",
-        "trap": "Không nhầm đại từ với danh từ."
-      }
+        "trap": "Không nhầm đại từ với danh từ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đại từ và chức năng liên kết thay thế.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,17 +60,24 @@
       "type": "multiple_choice",
       "question": "Tác dụng của điệp từ 'Màu' và cấu trúc 'Màu cần cho...' trong bài thơ 'Chuyện cổ tích về loài người' là gì?",
       "options": [
-        "Nhấn mạnh sự phong phú, rực rỡ của thế giới thiên nhiên được sinh ra để nuôi dưỡng tâm hồn trẻ thơ",
-        "Kể tên tất cả các loại cây cỏ có trong rừng",
         "Báo hiệu trời sắp chuyển sang ban đêm",
+        "Kể tên tất cả các loại cây cỏ có trong rừng",
+        "Nhấn mạnh sự phong phú, rực rỡ của thế giới thiên nhiên được sinh ra để nuôi dưỡng tâm hồn trẻ thơ",
         "Thể hiện sự nghèo nàn của cảnh sắc"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Tác dụng tu từ của điệp ngữ trong thơ.",
         "steps": "Điệp từ tạo nhịp thơ dồn dập, khẳng định vũ trụ tràn ngập sắc màu sinh ra là vì tình thương trẻ em.",
-        "trap": "Điệp từ trong thơ luôn mang tính gợi cảm, không phải thống kê sinh học."
-      }
+        "trap": "Điệp từ trong thơ luôn mang tính gợi cảm, không phải thống kê sinh học.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng tu từ của điệp ngữ trong thơ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Khi viết đoạn văn ghi lại cảm xúc về bài thơ 'Mây và sóng', câu mở đoạn cần đảm bảo yêu cầu nào?",
       "options": [
-        "Nêu tên bài thơ 'Mây và sóng', tên tác giả R. Tagore và khái quát cảm xúc ấn tượng sâu sắc về tình mẫu tử",
+        "Liệt kê số lượng chữ cái có trong bài thơ",
         "Chỉ cần viết chữ 'Bài thơ rất hay' rồi xuống dòng",
         "Kể lại toàn bộ cốt truyện từ đầu đến cuối",
-        "Liệt kê số lượng chữ cái có trong bài thơ"
+        "Nêu tên bài thơ 'Mây và sóng', tên tác giả R. Tagore và khái quát cảm xúc ấn tượng sâu sắc về tình mẫu tử"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Yêu cầu kỹ năng viết câu mở đoạn.",
         "steps": "Mở đoạn phải có đủ: Tên tác phẩm + Tác giả + Khái quát cảm xúc chính.",
-        "trap": "Thiếu tên tác giả hoặc thiếu cảm xúc khái quát sẽ bị trừ điểm."
-      }
+        "trap": "Thiếu tên tác giả hoặc thiếu cảm xúc khái quát sẽ bị trừ điểm.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu kỹ năng viết câu mở đoạn.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -91,8 +119,15 @@
       "breakdown": {
         "concept": "Vai trò của ngôi kể thứ nhất trong truyện ngắn tâm lý.",
         "steps": "Ngôi 'tôi' tạo điểm nhìn nội tâm chân thật, độc giả cùng đồng hành với sự thức tỉnh của nhân vật.",
-        "trap": "Nhân vật 'tôi' trong văn học là hình tượng nghệ thuật, không đồng nhất với nhà văn ngoài đời."
-      }
+        "trap": "Nhân vật 'tôi' trong văn học là hình tượng nghệ thuật, không đồng nhất với nhà văn ngoài đời.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vai trò của ngôi kể thứ nhất trong truyện ngắn tâm lý.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Nhận định nào chỉ ra sự khác biệt giữa 'Điệp ngữ nghệ thuật' và 'Lỗi lặp từ ngữ vụng về'?",
       "options": [
-        "Điệp ngữ nghệ thuật lặp lại có chủ đích nhằm tăng sức biểu cảm và tạo nhịp điệu; lỗi lặp từ là sự lặp lại vô thức do nghèo nàn vốn từ gây cảm giác luẩn quẩn",
         "Điệp ngữ chỉ dùng trong thơ, lỗi lặp từ chỉ xuất hiện trong văn xuôi",
+        "Điệp ngữ nghệ thuật lặp lại có chủ đích nhằm tăng sức biểu cảm và tạo nhịp điệu; lỗi lặp từ là sự lặp lại vô thức do nghèo nàn vốn từ gây cảm giác luẩn quẩn",
         "Lỗi lặp từ luôn luôn bị điểm 0",
         "Không có sự khác biệt nào"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Phân biệt tu từ ngữ âm và lỗi diễn đạt văn bản.",
         "steps": "Tính thẩm mỹ và chủ đích biểu đạt là ranh giới giữa sáng tạo tu từ và lỗi nghèo từ ngữ.",
-        "trap": "Cả thơ và văn xuôi đều có thể dùng điệp ngữ hoặc mắc lỗi lặp từ."
-      }
+        "trap": "Cả thơ và văn xuôi đều có thể dùng điệp ngữ hoặc mắc lỗi lặp từ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: phân biệt tu từ ngữ âm và lỗi diễn đạt văn bản.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch02",
+  "chapterTitle": "Bài 2: Gõ cửa trái tim (Thơ và truyện ngắn)",
+  "mode": "practice"
 }

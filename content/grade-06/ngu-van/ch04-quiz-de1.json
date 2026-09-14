@@ -1,7 +1,7 @@
 {
   "chapterId": "ch04",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 4: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 4: Quê hương yêu dấu (Thơ lục bát) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Đọc hiểu Ca dao về quê hương đất nước, Chuyện cổ nước mình (Lâm Thị Mỹ Dạ), Cây tre Việt Nam (Thép Mới).",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Câu ca dao nào sau đây ca ngợi vẻ đẹp trù phú của vùng đồng bằng Nam Bộ?",
       "options": [
-        "Tháp Mười đẹp nhất bông sen / Việt Nam đẹp nhất có tên Bác Hồ",
-        "Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ canh gà Thọ Xương",
         "Đường vô xứ Huế quanh quanh / Non xanh nước biếc như tranh họa đồ",
+        "Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ canh gà Thọ Xương",
+        "Tháp Mười đẹp nhất bông sen / Việt Nam đẹp nhất có tên Bác Hồ",
         "Rủ nhau xem cảnh Kiếm Hồ / Xem cầu Thê Húc, xem chùa Ngọc Sơn"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Ca dao địa danh và lòng tự hào non sông.",
         "steps": "Tháp Mười gắn với hoa sen ngát hương của miền Tây Nam Bộ.",
-        "trap": "Trấn Vũ, Kiếm Hồ là danh thắng Hà Nội; Xứ Huế thuộc miền Trung."
-      }
+        "trap": "Trấn Vũ, Kiếm Hồ là danh thắng Hà Nội; Xứ Huế thuộc miền Trung.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ca dao địa danh và lòng tự hào non sông.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Tác giả của bài ký nổi tiếng 'Cây tre Việt Nam' là ai?",
       "options": [
-        "Nhà văn Thép Mới (1925 - 1991)",
+        "Nhà văn Tô Hoài",
         "Nhà thơ Tố Hữu",
         "Nhà văn Nguyễn Tuân",
-        "Nhà văn Tô Hoài"
+        "Nhà văn Thép Mới (1925 - 1991)"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Tác giả văn bản Cây tre Việt Nam.",
         "steps": "Thép Mới (Hà Văn Lộc) viết bài ký thuyết minh cho bộ phim tài liệu cùng tên của điện ảnh Ba Lan năm 1955.",
-        "trap": "Nguyễn Tuân viết Cô Tô, Tô Hoài viết Dế Mèn."
-      }
+        "trap": "Nguyễn Tuân viết Cô Tô, Tô Hoài viết Dế Mèn.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác giả văn bản cây tre việt nam.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -55,8 +69,15 @@
       "breakdown": {
         "concept": "Đọc hiểu ý nghĩa bài thơ 'Chuyện cổ nước mình'.",
         "steps": "'Nhận mặt ông cha' là nhận ra vẻ đẹp nhân hậu, thông minh, yêu nước của người xưa qua truyện cổ.",
-        "trap": "Không giải thích theo nghĩa nhận dạng khuôn mặt vật lý."
-      }
+        "trap": "Không giải thích theo nghĩa nhận dạng khuôn mặt vật lý.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu ý nghĩa bài thơ 'chuyện cổ nước mình'.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Trong 'Cây tre Việt Nam', tre gắn bó mật thiết với con người từ thuở lọt lòng đến khi nhắm mắt qua những chi tiết nào?",
       "options": [
-        "Từ chiếc nôi tre kẽo kẹt tiếng ru của mẹ, que chuyền tuổi thơ đến chiếc giường tre, đòn gánh lao động và chiếc thang tre cuối đời",
         "Chỉ dùng làm củi đun nấu cơm hàng ngày",
+        "Từ chiếc nôi tre kẽo kẹt tiếng ru của mẹ, que chuyền tuổi thơ đến chiếc giường tre, đòn gánh lao động và chiếc thang tre cuối đời",
         "Chỉ dùng để làm hàng rào ngăn thú dữ",
         "Chỉ dùng để làm đồ lưu niệm xuất khẩu"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Sự gắn bó thủy chung trọn đời giữa cây tre và đời sống người nông dân.",
         "steps": "Tre là người bạn đồng hành thủy chung, chứng kiến toàn bộ vòng đời của người Việt.",
-        "trap": "Không thu hẹp công dụng tre thành củi đốt hay đồ chơi."
-      }
+        "trap": "Không thu hẹp công dụng tre thành củi đốt hay đồ chơi.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được sự gắn bó thủy chung trọn đời giữa cây tre và đời sống người nông dân.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -82,17 +110,24 @@
       "type": "multiple_choice",
       "question": "Hình ảnh cây tre 'măng mọc thẳng', 'ở đâu tre cũng xanh tốt / cho dù đất sỏi đất vôi bạc màu' biểu tượng cho phẩm chất nào của con người Việt Nam?",
       "options": [
-        "Sức sống kiên cường, bất khuất, ngay thẳng và tinh thần vượt lên mọi nghịch cảnh gian khó",
-        "Sự mềm yếu dễ bị khuất phục trước sức mạnh",
         "Tính cách thích sống cô độc một mình",
+        "Sự mềm yếu dễ bị khuất phục trước sức mạnh",
+        "Sức sống kiên cường, bất khuất, ngay thẳng và tinh thần vượt lên mọi nghịch cảnh gian khó",
         "Sự phô trương vẻ đẹp bên ngoài"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Phân tích biểu tượng văn hóa của cây tre.",
         "steps": "Măng mọc thẳng không chịu cong, sống nơi đất cằn cỗi tượng trưng cho ý chí kiên trung và đức tính cần cù chịu khó.",
-        "trap": "Tre mọc thành lũy tượng trưng đoàn kết, không bao giờ cô độc."
-      }
+        "trap": "Tre mọc thành lũy tượng trưng đoàn kết, không bao giờ cô độc.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích biểu tượng văn hóa của cây tre.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Dù ngày nay xi măng, sắt thép và vật liệu hiện đại phát triển vượt bậc, tại sao cây tre vẫn giữ vị trí bất tử trong tâm thức văn hóa dân tộc Việt?",
       "options": [
-        "Vì tre là biểu tượng tinh thần cốt lõi của bản sắc dân tộc, tượng trưng cho tâm hồn thanh cao, ý chí kiên cường và tinh thần đoàn kết ngàn đời",
+        "Vì nhà nước cấm sử dụng các vật liệu khác",
         "Vì tre có giá thành đắt đỏ hơn thép không gỉ",
         "Vì người Việt Nam không biết cách sản xuất bê tông",
-        "Vì nhà nước cấm sử dụng các vật liệu khác"
+        "Vì tre là biểu tượng tinh thần cốt lõi của bản sắc dân tộc, tượng trưng cho tâm hồn thanh cao, ý chí kiên cường và tinh thần đoàn kết ngàn đời"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Nhận định giá trị trường tồn của biểu tượng văn hóa truyền thống.",
         "steps": "Giá trị vật chất có thể thay đổi nhưng biểu tượng tinh thần và cốt cách dân tộc thì trường tồn cùng lịch sử.",
-        "trap": "Tránh các suy diễn ngây ngô về kinh tế hay kỹ thuật."
-      }
+        "trap": "Tránh các suy diễn ngây ngô về kinh tế hay kỹ thuật.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nhận định giá trị trường tồn của biểu tượng văn hóa truyền thống.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch04",
+  "chapterTitle": "Bài 4: Quê hương yêu dấu (Thơ lục bát)",
+  "mode": "practice"
 }

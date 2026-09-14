@@ -1,7 +1,7 @@
 {
   "chapterId": "ch07",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 7: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Công dụng của Dấu chấm lửng (...), Thành ngữ cổ tích và phương pháp đóng vai nhân vật kể lại truyện.",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Dấu chấm lửng (còn gọi là dấu ba chấm - ...) được dùng để làm gì trong câu văn sau: 'Thạch Sanh vung búa lên... Chằn tinh gầm rú... vỡ đầu chết tươi'?",
       "options": [
-        "Biểu thị sự việc diễn biến bất ngờ, kịch tính, ngắt quãng",
-        "Đánh dấu câu hỏi cần trả lời",
         "Báo hiệu lời nói trực tiếp của nhân vật",
+        "Đánh dấu câu hỏi cần trả lời",
+        "Biểu thị sự việc diễn biến bất ngờ, kịch tính, ngắt quãng",
         "Kết thúc đoạn văn miêu tả"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Công dụng của dấu chấm lửng trong văn tự sự.",
         "steps": "Dấu ba chấm tạo nhịp điệu hồi hộp, nghẹt thở cho chuỗi hành động chiến đấu kịch tính.",
-        "trap": "Lời trực tiếp dùng dấu ngoặc kép hoặc gạch đầu dòng."
-      }
+        "trap": "Lời trực tiếp dùng dấu ngoặc kép hoặc gạch đầu dòng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng của dấu chấm lửng trong văn tự sự.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,18 +35,25 @@
       "type": "multiple_choice",
       "question": "Câu thành ngữ nào sau đây được đúc kết trực tiếp từ bài học của truyện 'Cây khế'?",
       "options": [
-        "Tham thì thâm",
+        "Đi một ngày đàng học một sàng khôn",
         "Ăn ốc nói mò",
         "Đầu voi đuôi chuột",
-        "Đi một ngày đàng học một sàng khôn"
+        "Tham thì thâm"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Thành ngữ và bài học truyện cổ tích.",
         "steps": "'Tham thì thâm' phê phán lòng tham không đáy dẫn đến hậu quả tai hại khôn lường.",
         "trap": "Các câu khác không liên quan đến lòng tham.",
-        "calculation": "Lòng tham vô đáy"
-      }
+        "calculation": "Lòng tham vô đáy",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được thành ngữ và bài học truyện cổ tích.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -56,8 +70,15 @@
       "breakdown": {
         "concept": "Kỹ thuật đóng vai nhân vật kể chuyện tự sự.",
         "steps": "Nhất quán ngôi kể thứ nhất và hóa thân vào thế giới tâm lý nhân vật để kể chuyện sinh động.",
-        "trap": "Thay đổi ngôi kể lộn xộn là lỗi nặng nhất trong kiểu bài này."
-      }
+        "trap": "Thay đổi ngôi kể lộn xộn là lỗi nặng nhất trong kiểu bài này.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ thuật đóng vai nhân vật kể chuyện tự sự.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -65,17 +86,24 @@
       "type": "multiple_choice",
       "question": "Công dụng nào sau đây KHÔNG PHẢI là công dụng của dấu chấm lửng?",
       "options": [
-        "Dùng để kết thúc một câu cầu khiến ra lệnh",
         "Biểu thị bộ phận liệt kê chưa hết",
+        "Dùng để kết thúc một câu cầu khiến ra lệnh",
         "Thể hiện lời nói ngập ngừng, xúc động nghẹn ngào",
         "Làm giãn nhịp câu văn chuẩn bị cho từ ngữ bất ngờ"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Các công dụng chuẩn mực của dấu chấm lửng.",
         "steps": "Kết thúc câu cầu khiến dùng dấu chấm than (!), không dùng dấu chấm lửng.",
-        "trap": "Ba phương án còn lại đều là công dụng chuẩn của dấu chấm lửng."
-      }
+        "trap": "Ba phương án còn lại đều là công dụng chuẩn của dấu chấm lửng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được các công dụng chuẩn mực của dấu chấm lửng.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -83,17 +111,24 @@
       "type": "multiple_choice",
       "question": "Khi đóng vai người anh trong truyện 'Cây khế' ở thời khắc bị rơi xuống biển, nhân vật có thể bộc lộ suy nghĩ thức tỉnh nào?",
       "options": [
-        "Nỗi ân hận tột cùng vì đã để lòng tham làm mờ mắt, hối tiếc vì đã đối xử tệ bạc với người em thảo hiền",
-        "Tức giận vì con chim không chở thêm vàng cho mình",
         "Ước gì mình may chiếc túi hai mươi gang to hơn",
+        "Tức giận vì con chim không chở thêm vàng cho mình",
+        "Nỗi ân hận tột cùng vì đã để lòng tham làm mờ mắt, hối tiếc vì đã đối xử tệ bạc với người em thảo hiền",
         "Mong muốn chim quay lại cứu để tiếp tục đi lấy vàng"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Khắc họa chiều sâu nội tâm khi đóng vai nhân vật phản diện.",
         "steps": "Sự thức tỉnh muộn màng trước cái chết làm nổi bật giá trị nhân quả cảnh tỉnh của câu chuyện.",
-        "trap": "Không để nhân vật tiếp tục ngoan cố tham lam trước cái chết."
-      }
+        "trap": "Không để nhân vật tiếp tục ngoan cố tham lam trước cái chết.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khắc họa chiều sâu nội tâm khi đóng vai nhân vật phản diện.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -101,17 +136,29 @@
       "type": "multiple_choice",
       "question": "★ Ưu điểm vượt trội của kiểu bài văn 'Đóng vai nhân vật kể lại truyện cổ tích' so với kiểu bài 'Tóm tắt truyện' là gì?",
       "options": [
-        "Cho phép người viết phát huy trí tưởng tượng, bổ sung miêu tả ngoại cảnh, tâm lý và sáng tạo lời độc thoại nội tâm phong phú mà vẫn tôn trọng cốt truyện",
+        "Để biến truyện cổ tích thành một vở kịch hài hước vô nghĩa",
         "Giúp người viết không cần phải học thuộc bài",
         "Giúp bài văn ngắn hơn và đỡ tốn mực",
-        "Để biến truyện cổ tích thành một vở kịch hài hước vô nghĩa"
+        "Cho phép người viết phát huy trí tưởng tượng, bổ sung miêu tả ngoại cảnh, tâm lý và sáng tạo lời độc thoại nội tâm phong phú mà vẫn tôn trọng cốt truyện"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Năng lực sáng tạo văn học của học sinh THCS.",
         "steps": "Hóa thân nhân vật đòi hỏi năng lực thấu cảm tâm lý và kỹ năng sáng tạo văn học đa chiều.",
-        "trap": "Sáng tạo phải tôn trọng bản chất cốt lõi của câu chuyện dân gian."
-      }
+        "trap": "Sáng tạo phải tôn trọng bản chất cốt lõi của câu chuyện dân gian.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: năng lực sáng tạo văn học của học sinh thcs.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch07",
+  "chapterTitle": "Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì)",
+  "mode": "practice"
 }

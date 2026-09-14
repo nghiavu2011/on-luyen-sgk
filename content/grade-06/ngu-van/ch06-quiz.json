@@ -1,6 +1,6 @@
 {
   "chapterId": "ch06",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 6: Bài học từ lòng biết ơn (Truyền thuyết)",
+  "title": "Ngữ văn 6 — Bài 6: Bài học từ lòng biết ơn (Truyền thuyết) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -8,17 +8,24 @@
       "type": "multiple_choice",
       "question": "Truyền thuyết là thể loại văn học dân gian có đặc trưng then chốt nào?",
       "options": [
-        "Kể về các nhân vật và sự kiện lịch sử qua lăng kính hư cấu, kỳ ảo thể hiện thái độ đánh giá của nhân dân",
-        "Chỉ kể về các loài vật biết nói tiếng người",
         "Những câu đố vui dân gian có vần điệu",
+        "Chỉ kể về các loài vật biết nói tiếng người",
+        "Kể về các nhân vật và sự kiện lịch sử qua lăng kính hư cấu, kỳ ảo thể hiện thái độ đánh giá của nhân dân",
         "Những bài thơ ngắn 4 câu lục bát"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Khái niệm thể loại truyền thuyết dân gian.",
         "steps": "Truyền thuyết có cốt lõi lịch sử kết hợp chi tiết tưởng tượng kỳ ảo.",
-        "trap": "Không nhầm với truyện ngụ ngôn hay đồng thoại."
-      }
+        "trap": "Không nhầm với truyện ngụ ngôn hay đồng thoại.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm thể loại truyền thuyết dân gian.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Thành phần in đậm trong câu: '<strong>Vào thời Hùng Vương thứ sáu</strong>, ở làng Gióng có hai vợ chồng ông lão chăm chỉ làm ăn' đóng vai trò ngữ pháp gì?",
       "options": [
-        "Trạng ngữ chỉ thời gian",
+        "Khởi ngữ",
         "Chủ ngữ của câu",
         "Vị ngữ của câu",
-        "Khởi ngữ"
+        "Trạng ngữ chỉ thời gian"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhận diện thành phần trạng ngữ trong câu.",
         "steps": "'Vào thời Hùng Vương thứ sáu' chỉ mốc thời gian, đứng trước chủ ngữ và ngăn cách bằng dấu phẩy.",
-        "trap": "Không nhầm thành chủ ngữ."
-      }
+        "trap": "Không nhầm thành chủ ngữ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện thành phần trạng ngữ trong câu.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -53,8 +67,15 @@
       "breakdown": {
         "concept": "Ý nghĩa biểu tượng của chi tiết nhân dân nuôi Gióng.",
         "steps": "Sức mạnh đánh giặc cứu nước không phải của riêng cá nhân nào mà là sức mạnh kết tinh từ toàn dân.",
-        "trap": "Không hiểu theo nghĩa tiêu cực hay cơ học."
-      }
+        "trap": "Không hiểu theo nghĩa tiêu cực hay cơ học.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa biểu tượng của chi tiết nhân dân nuôi gióng.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Hành động vua Lê Lợi trả gươm thần cho Rùa Vàng tại hồ Tả Vọng mang ý nghĩa cao quý nhất là gì?",
       "options": [
-        "Khẳng định chiến tranh chính nghĩa đã thắng lợi, thể hiện khát vọng hòa bình muôn thuở của dân tộc Việt Nam",
         "Vua không còn cần thanh gươm vì đã có vũ khí hiện đại hơn",
+        "Khẳng định chiến tranh chính nghĩa đã thắng lợi, thể hiện khát vọng hòa bình muôn thuở của dân tộc Việt Nam",
         "Rùa thần đòi lại vì vua Lê Lợi làm hỏng gươm",
         "Nhà vua sợ bị người khác cướp mất bảo kiếm"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Tư tưởng hòa bình trong Sự tích Hồ Gươm.",
         "steps": "Thanh gươm dùng để trừ bạo khi có giặc; khi đất nước thái bình, gươm trả lại để nhân dân yên ổn làm ăn.",
-        "trap": "Tránh các suy diễn vụ lợi đời thường."
-      }
+        "trap": "Tránh các suy diễn vụ lợi đời thường.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng hòa bình trong sự tích hồ gươm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -80,17 +108,24 @@
       "type": "multiple_choice",
       "question": "Dấu tích nào sau đây của cuộc kháng chiến chống giặc Ân vẫn còn tồn tại trong địa lý và phong tục Việt Nam ngày nay?",
       "options": [
-        "Hội đền Gióng, làng Phù Đổng, các ao hồ liên tiếp (vết chân ngựa sắt), tre đằng ngà ngả màu vàng óng",
-        "Di tích Tháp Rùa ở giữa hồ Tây",
         "Đền Hùng ở tỉnh Cà Mau",
+        "Di tích Tháp Rùa ở giữa hồ Tây",
+        "Hội đền Gióng, làng Phù Đổng, các ao hồ liên tiếp (vết chân ngựa sắt), tre đằng ngà ngả màu vàng óng",
         "Thành Cổ Loa hình tròn ốc ở vùng núi Tây Bắc"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Mối liên hệ giữa truyền thuyết và các di tích văn hóa lịch sử thực tế.",
         "steps": "Truyền thuyết giải thích nguồn gốc tre đằng ngà và tục mở hội làng Gióng đền Sóc.",
-        "trap": "Nhầm địa danh Tháp Rùa hay Thành Cổ Loa."
-      }
+        "trap": "Nhầm địa danh Tháp Rùa hay Thành Cổ Loa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được mối liên hệ giữa truyền thuyết và các di tích văn hóa lịch sử thực tế.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Lòng biết ơn các anh hùng liệt sĩ đã hy sinh vì nền độc lập tự do của Tổ quốc cần được các bạn học sinh lớp 6 thể hiện qua hành động thiết thực nào?",
       "options": [
-        "Chăm chỉ học tập, rèn luyện đạo đức, giữ gìn truyền thống 'Uống nước nhớ nguồn' và tích cực tham gia các hoạt động đền ơn đáp nghĩa ở địa phương",
+        "Đòi hỏi được hưởng đặc quyền miễn học tập",
         "Chỉ cần thắp hương một lần vào ngày tết rồi lãng quên",
         "Chỉ học thuộc lòng các sự kiện chiến tranh mà không cần nỗ lực rèn luyện bản thân",
-        "Đòi hỏi được hưởng đặc quyền miễn học tập"
+        "Chăm chỉ học tập, rèn luyện đạo đức, giữ gìn truyền thống 'Uống nước nhớ nguồn' và tích cực tham gia các hoạt động đền ơn đáp nghĩa ở địa phương"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Bài học đạo lý 'Uống nước nhớ nguồn' cho thế hệ trẻ.",
         "steps": "Lòng biết ơn đích thực thể hiện bằng hành động tu dưỡng bản thân và tri ân cụ thể.",
-        "trap": "Không chọn các thái độ hình thức, hời hợt."
-      }
+        "trap": "Không chọn các thái độ hình thức, hời hợt.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học đạo lý 'uống nước nhớ nguồn' cho thế hệ trẻ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch06",
+  "chapterTitle": "Bài 6: Bài học từ lòng biết ơn (Truyền thuyết)",
+  "examId": "tonghop",
+  "mode": "exam"
 }

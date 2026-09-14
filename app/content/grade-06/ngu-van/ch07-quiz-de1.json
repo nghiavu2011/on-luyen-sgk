@@ -1,7 +1,7 @@
 {
   "chapterId": "ch07",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 7: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Đọc hiểu Thạch Sanh (Dũng sĩ diệt chằn tinh), Cây khế (Bài học về lòng tham), Vua chích chòe (Truyện Grim).",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Hoàn cảnh xuất thân của nhân vật Thạch Sanh.",
         "steps": "Thạch Sanh mồ côi cha mẹ nghèo khổ, tài sản duy nhất chỉ có lưỡi búa kiếm củi độ nhật.",
-        "trap": "Các vũ khí thần kỳ chàng thu được sau khi diệt chằn tinh và đại bàng."
-      }
+        "trap": "Các vũ khí thần kỳ chàng thu được sau khi diệt chằn tinh và đại bàng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được hoàn cảnh xuất thân của nhân vật thạch sanh.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Con chim phượng hoàng trong truyện 'Cây khế' đã dặn người em may chiếc túi có kích thước bao nhiêu để đi lấy vàng?",
       "options": [
-        "Túi ba gang mang đi mà đựng",
         "Túi mười hai gang",
+        "Túi ba gang mang đi mà đựng",
         "Túi một gang nhỏ bé",
         "Túi to bằng cả con voi"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Câu thần chú / câu nói then chốt trong Cây khế.",
         "steps": "'Ăn một quả, trả cục vàng, may túi ba gang, mang đi mà đựng'.",
-        "trap": "Túi 12 gang là do lòng tham của người anh tự ý may."
-      }
+        "trap": "Túi 12 gang là do lòng tham của người anh tự ý may.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được câu thần chú / câu nói then chốt trong cây khế.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,17 +60,24 @@
       "type": "multiple_choice",
       "question": "Trong truyện 'Vua chích chòe' (truyện cổ tích Grim), nàng công chúa kiêu ngạo đã phải trải qua những thử thách nào để chữa khỏi tính kiêu kỳ?",
       "options": [
-        "Phải sống nghèo khổ trong túp lều rách, đan sọt làm đồ gốm và làm phụ bếp vất vả bên người chồng nghèo hát rong",
-        "Bị giam cầm trong tháp tối suốt đời",
         "Bị đày ra hoang đảo một mình",
+        "Bị giam cầm trong tháp tối suốt đời",
+        "Phải sống nghèo khổ trong túp lều rách, đan sọt làm đồ gốm và làm phụ bếp vất vả bên người chồng nghèo hát rong",
         "Bị biến thành một con chim chích chòe"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Đọc hiểu truyện cổ tích nước ngoài trong SGK.",
         "steps": "Vua chích chòe cải trang thành người hát rong để giúp công chúa thấu hiểu nỗi nhọc nhằn của người lao động và rèn luyện đức tính khiêm nhường.",
-        "trap": "Công chúa không bị biến thành chim mà người chồng có cằm nhọn như mỏ chim."
-      }
+        "trap": "Công chúa không bị biến thành chim mà người chồng có cằm nhọn như mỏ chim.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu truyện cổ tích nước ngoài trong sgk.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -64,18 +85,25 @@
       "type": "multiple_choice",
       "question": "Hành động Lý Thông nhiều lần hãm hại, cướp công của Thạch Sanh phản ánh kiểu xung đột xã hội nào trong truyện cổ tích?",
       "options": [
-        "Xung đột giữa cái Thiện",
+        "Mâu thuẫn giữa thầy và trò",
         "Xung đột giữa các vương quốc phong kiến tranh giành đất đai",
         "Xung đột về tôn giáo thời cổ đại",
-        "Mâu thuẫn giữa thầy và trò"
+        "Xung đột giữa cái Thiện"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.",
         "steps": "Thạch Sanh đại diện cho người lao động hiền lành; mẹ con Lý Thông đại diện cho giai cấp bóc lột xảo quyệt.",
         "trap": "Không hiểu truyện cổ tích theo hướng chiến tranh quân sự đơn thuần.",
-        "calculation": "lương thiện, vị tha, thật thà) và cái Ác (xảo quyệt, vụ lợi, bất nhân"
-      }
+        "calculation": "lương thiện, vị tha, thật thà) và cái Ác (xảo quyệt, vụ lợi, bất nhân",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -92,8 +120,15 @@
       "breakdown": {
         "concept": "Ý nghĩa nghệ thuật của biểu tượng tiếng đàn Thạch Sanh.",
         "steps": "Tiếng đàn công lý vượt qua mọi bức tường ngục tối, đem lại sự thật và tình yêu.",
-        "trap": "Tiếng đàn mang ý nghĩa biểu tượng tâm linh và công lý xã hội."
-      }
+        "trap": "Tiếng đàn mang ý nghĩa biểu tượng tâm linh và công lý xã hội.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa nghệ thuật của biểu tượng tiếng đàn thạch sanh.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -101,17 +136,29 @@
       "type": "multiple_choice",
       "question": "★ Kết cục của mẹ con Lý Thông bị sét đánh hóa thành bọ hung và người anh trong Cây khế rơi xuống biển thể hiện quy luật nhân quả nào của nhân dân ta?",
       "options": [
-        "Quy luật 'Ác giả ác báo' – kẻ bất nhân, tham lam tàn độc ắt sẽ tự chuốc lấy sự trừng phạt thích đáng của tự nhiên và công lý nhân dân",
         "Do số phận ngẫu nhiên xui xẻo",
+        "Quy luật 'Ác giả ác báo' – kẻ bất nhân, tham lam tàn độc ắt sẽ tự chuốc lấy sự trừng phạt thích đáng của tự nhiên và công lý nhân dân",
         "Do thời tiết mưa bão thất thường",
         "Để chứng minh công lý không tồn tại"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Triết lý nhân quả và ước mơ công lý của truyện cổ tích.",
         "steps": "Nhân dân luôn tin tưởng vào cái kết có hậu: người hiền gặp lành, kẻ gian ác sẽ bị trừng trị thích đáng.",
-        "trap": "Không quy kết kết cục của kẻ ác cho sự may rủi."
-      }
+        "trap": "Không quy kết kết cục của kẻ ác cho sự may rủi.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: triết lý nhân quả và ước mơ công lý của truyện cổ tích.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch07",
+  "chapterTitle": "Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì)",
+  "mode": "practice"
 }

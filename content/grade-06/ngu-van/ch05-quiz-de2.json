@@ -1,7 +1,7 @@
 {
   "chapterId": "ch05",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 5: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 5: Những nẻo đường xứ sở (Văn bản du kí) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Biện pháp tu từ Ẩn dụ và Nhân hóa, kỹ năng viết bài văn miêu tả cảnh sinh hoạt.",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Ẩn dụ là biện pháp tu từ được định nghĩa như thế nào?",
       "options": [
-        "Gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng (ngầm so sánh không dùng từ như/là)",
-        "Gán hành động của con người cho con vật",
         "Nói quá sự thật để gây ấn tượng mạnh",
+        "Gán hành động của con người cho con vật",
+        "Gọi tên sự vật, hiện tượng này bằng tên sự vật, hiện tượng khác có nét tương đồng (ngầm so sánh không dùng từ như/là)",
         "Lặp lại từ ngữ liên tiếp trong câu"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Định nghĩa biện pháp tu từ ẩn dụ trong Tiếng Việt 6.",
         "steps": "Ẩn dụ bản chất là so sánh ngầm dựa trên mối quan hệ tương đồng giữa hai đối tượng A và B.",
-        "trap": "Gán hành động người cho vật là nhân hóa."
-      }
+        "trap": "Gán hành động người cho vật là nhân hóa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được định nghĩa biện pháp tu từ ẩn dụ trong tiếng việt 6.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Trong câu: 'Những cánh buồm nâu đang <strong>chao lượn</strong> chào đón ngày mới', từ in đậm thể hiện biện pháp tu từ nào?",
       "options": [
-        "Nhân hóa",
+        "Hoán dụ",
         "Chơi chữ",
         "Điệp ngữ",
-        "Hoán dụ"
+        "Nhân hóa"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhận diện biện pháp nhân hóa.",
         "steps": "'chao lượn chào đón' gán hành động và tâm lý chủ động của con người cho cánh buồm.",
-        "trap": "Không nhầm với ẩn dụ hay hoán dụ."
-      }
+        "trap": "Không nhầm với ẩn dụ hay hoán dụ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện biện pháp nhân hóa.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -55,8 +69,15 @@
       "breakdown": {
         "concept": "Giải mã hình ảnh ẩn dụ trong tác phẩm văn học.",
         "steps": "'Mâm bạc' là nét tương đồng về hình dáng phẳng tròn và sắc sáng lấp lánh của mặt biển Đông lúc bình minh.",
-        "trap": "Không hiểu theo nghĩa vật thể cụ thể của đồ gia dụng."
-      }
+        "trap": "Không hiểu theo nghĩa vật thể cụ thể của đồ gia dụng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giải mã hình ảnh ẩn dụ trong tác phẩm văn học.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -64,18 +85,25 @@
       "type": "multiple_choice",
       "question": "Bố cục chuẩn của một bài văn tả cảnh sinh hoạt (ví dụ: cảnh gánh nước giếng Cô Tô hoặc chợ hoa ngày tết) gồm có:",
       "options": [
-        "3 phần: Mở bài",
         "2 phần: Liệt kê đồ vật và tóm tắt",
+        "3 phần: Mở bài",
         "Chỉ gồm một đoạn văn miêu tả không chia tách",
         "Phần ghi âm và phần hình ảnh"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Bố cục bài văn miêu tả cảnh sinh hoạt.",
         "steps": "Bài văn hoàn chỉnh bắt buộc có Mở bài - Thân bài - Kết bài theo trình tự logic.",
         "trap": "Tránh nhầm bố cục bài văn với một đoạn văn đơn lẻ.",
-        "calculation": "giới thiệu cảnh sinh hoạt, thời gian địa điểm); Thân bài (miêu tả không gian, diễn biến hành động của con người theo thời gian); Kết bài (cảm nghĩ về cảnh"
-      }
+        "calculation": "giới thiệu cảnh sinh hoạt, thời gian địa điểm); Thân bài (miêu tả không gian, diễn biến hành động của con người theo thời gian); Kết bài (cảm nghĩ về cảnh",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục bài văn miêu tả cảnh sinh hoạt.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -83,18 +111,25 @@
       "type": "multiple_choice",
       "question": "Điểm mấu chốt để phân biệt giữa biện pháp ẨN DỤ (so sánh ngầm) và HOÁN DỤ là gì?",
       "options": [
-        "Ẩn dụ dựa trên mối quan hệ TƯƠNG ĐỒNG",
-        "Ẩn dụ chỉ dùng cho đồ vật, hoán dụ chỉ dùng cho con người",
         "Ẩn dụ chỉ xuất hiện trong thơ cổ điển",
+        "Ẩn dụ chỉ dùng cho đồ vật, hoán dụ chỉ dùng cho con người",
+        "Ẩn dụ dựa trên mối quan hệ TƯƠNG ĐỒNG",
         "Không có cách nào phân biệt được"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Phân biệt bản chất của ẩn dụ và hoán dụ.",
         "steps": "Tương đồng (giống nét mặt, màu sắc, tính chất) -> Ẩn dụ. Tương cận (áo chàm - người Việt Bắc, bàn tay - sức lao động) -> Hoán dụ.",
         "trap": "Cả hai đều là biện pháp thay tên gọi nhưng khác biệt cơ chế tư duy liên tưởng.",
-        "calculation": "giống nhau); Hoán dụ dựa trên mối quan hệ TƯƠNG CẬN (gần gũi, đi liền với nhau"
-      }
+        "calculation": "giống nhau); Hoán dụ dựa trên mối quan hệ TƯƠNG CẬN (gần gũi, đi liền với nhau",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt bản chất của ẩn dụ và hoán dụ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -102,17 +137,29 @@
       "type": "multiple_choice",
       "question": "★ Trong bài văn tả cảnh sinh hoạt, làm thế nào để cảnh vật không bị tĩnh lặng, khô cứng mà trở nên tràn đầy sức sống?",
       "options": [
-        "Tập trung miêu tả hoạt động, lời nói, âm thanh và sự tương tác qua lại của con người trong bối cảnh thiên nhiên xung quanh",
+        "Không đưa bất kỳ nhân vật con người nào vào bài viết",
         "Chỉ tập trung miêu tả thật nhiều đồ đạc cố định một chỗ",
         "Viết thật nhiều câu văn giải thích lý thuyết ngữ pháp",
-        "Không đưa bất kỳ nhân vật con người nào vào bài viết"
+        "Tập trung miêu tả hoạt động, lời nói, âm thanh và sự tương tác qua lại của con người trong bối cảnh thiên nhiên xung quanh"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Nghệ thuật kết hợp cảnh và người trong văn miêu tả.",
         "steps": "Con người và âm thanh lao động là linh hồn của bức tranh sinh hoạt, làm cho cảnh sống động, ấm áp.",
-        "trap": "Thiếu con người bài văn sẽ trở thành văn tả cảnh tĩnh vật."
-      }
+        "trap": "Thiếu con người bài văn sẽ trở thành văn tả cảnh tĩnh vật.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nghệ thuật kết hợp cảnh và người trong văn miêu tả.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch05",
+  "chapterTitle": "Bài 5: Những nẻo đường xứ sở (Văn bản du kí)",
+  "mode": "practice"
 }

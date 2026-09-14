@@ -1,7 +1,7 @@
 {
   "chapterId": "ch03",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 3: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Đọc hiểu Cô bé bán diêm (Andersen), Gió lạnh đầu mùa (Thạch Lam), Con chào mào (Mai Văn Phấn).",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Trình tự các mộng tưởng của cô bé bán diêm.",
         "steps": "Mỗi que diêm đáp ứng ước mơ cấp bách: được ấm -> được ăn -> được đón giao thừa -> được yêu thương.",
-        "trap": "Tránh nhầm lẫn thứ tự xuất hiện của 4 mộng tưởng."
-      }
+        "trap": "Tránh nhầm lẫn thứ tự xuất hiện của 4 mộng tưởng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được trình tự các mộng tưởng của cô bé bán diêm.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Trong truyện 'Gió lạnh đầu mùa' của Thạch Lam, cái Hiên xuất hiện với hình ảnh đáng thương như thế nào?",
       "options": [
-        "Đứng co ro bên cột quán, chỉ mặc manh áo rách tả tơi hở cả lưng và tay, môi tím ngắt vì rét",
         "Đang nô đùa chạy nhảy vui vẻ với chiếc áo len mới",
+        "Đứng co ro bên cột quán, chỉ mặc manh áo rách tả tơi hở cả lưng và tay, môi tím ngắt vì rét",
         "Được mẹ dắt đi mua sắm quần áo tết ở chợ huyện",
         "Ngồi ấm áp bên bếp lửa hồng"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Chi tiết hoàn cảnh nhân vật cái Hiên.",
         "steps": "Con gái bác mò cua nghèo khổ không có áo ấm giữa cơn gió lạnh đầu mùa.",
-        "trap": "Hiên rất nghèo, không có áo mới như các bạn khác."
-      }
+        "trap": "Hiên rất nghèo, không có áo mới như các bạn khác.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết hoàn cảnh nhân vật cái hiên.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,17 +60,24 @@
       "type": "multiple_choice",
       "question": "Hình ảnh kết thúc truyện 'Cô bé bán diêm' với nụ cười trên môi em bé đã chết vì giá rét trong buổi sáng đầu năm mang ý nghĩa gì?",
       "options": [
-        "Thể hiện niềm thương xót vô hạn của tác giả và niềm tin em đã được giải thoát khỏi khổ đau để về với Chúa và người bà thân yêu",
-        "Em bé đang giả vờ ngủ để trêu chọc mọi người",
         "Mọi người dân trong thành phố rất vui mừng khi thấy em",
+        "Em bé đang giả vờ ngủ để trêu chọc mọi người",
+        "Thể hiện niềm thương xót vô hạn của tác giả và niềm tin em đã được giải thoát khỏi khổ đau để về với Chúa và người bà thân yêu",
         "Em bé không hề cảm thấy lạnh giá"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Ý nghĩa cái chết bi tráng của cô bé bán diêm.",
         "steps": "Nụ cười thể hiện cái chết thanh thản trong thế giới mộng tưởng, đối lập với sự thờ ơ lạnh lùng của người qua đường.",
-        "trap": "Tránh các suy diễn ngây thơ không hiểu hiện thực bi kịch."
-      }
+        "trap": "Tránh các suy diễn ngây thơ không hiểu hiện thực bi kịch.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa cái chết bi tráng của cô bé bán diêm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Tâm trạng hoảng sợ của hai chị em Sơn và Lan sau khi đem cho cái Hiên chiếc áo bông bắt nguồn từ điều gì?",
       "options": [
-        "Sợ mẹ biết chuyện tự ý đem cho áo của em Duyên sẽ nổi giận và trách phạt",
+        "Sợ bác Hiên mang áo đi bán lấy tiền",
         "Sợ cái Hiên sẽ làm rách chiếc áo bông",
         "Sợ bị các bạn trong xóm cười chê",
-        "Sợ bác Hiên mang áo đi bán lấy tiền"
+        "Sợ mẹ biết chuyện tự ý đem cho áo của em Duyên sẽ nổi giận và trách phạt"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Tâm lý hồn nhiên của trẻ thơ trong truyện Thạch Lam.",
         "steps": "Hành động cho áo xuất phát từ tấm lòng tốt bột phát, sau đó trẻ con sợ bị người lớn mắng phạt.",
-        "trap": "Trẻ con lo sợ rất ngây thơ, không toan tính vụ lợi."
-      }
+        "trap": "Trẻ con lo sợ rất ngây thơ, không toan tính vụ lợi.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tâm lý hồn nhiên của trẻ thơ trong truyện thạch lam.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -91,8 +119,15 @@
       "breakdown": {
         "concept": "Ý nghĩa nhân văn của bài thơ 'Con chào mào'.",
         "steps": "Yêu thiên nhiên không phải là giam cầm chim vào lồng mà là mở rộng lòng mình để hòa nhập với tiếng hót tự do.",
-        "trap": "Không giải thích theo hướng kinh tế hay nuôi chim thông thường."
-      }
+        "trap": "Không giải thích theo hướng kinh tế hay nuôi chim thông thường.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa nhân văn của bài thơ 'con chào mào'.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Cách ứng xử tế nhị của mẹ Sơn khi cho mẹ con cái Hiên vay tiền mua áo thể hiện bài học sâu sắc nào về đạo lý 'Của cho không bằng cách cho'?",
       "options": [
-        "Giúp đỡ người nghèo bằng sự tôn trọng, tế nhị bảo vệ danh dự và lòng tự trọng của họ, không ban phát kể cả hay làm nhục người khác",
         "Muốn khoe khoang sự giàu có của gia đình mình trước làng xóm",
+        "Giúp đỡ người nghèo bằng sự tôn trọng, tế nhị bảo vệ danh dự và lòng tự trọng của họ, không ban phát kể cả hay làm nhục người khác",
         "Muốn bắt gia đình bác Hiên phải làm người hầu nợ nần",
         "Muốn được ghi nhận thành tích từ thiện"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Bài học về lòng nhân ái và văn hóa thiện nguyện.",
         "steps": "Mẹ Sơn cho vay tiền kín đáo, vừa giúp được em bé có áo ấm vừa giữ thể diện cho bác mò cua nghèo.",
-        "trap": "Ban phát kèm thái độ khinh miệt sẽ làm tổn thương sâu sắc người yếu thế."
-      }
+        "trap": "Ban phát kèm thái độ khinh miệt sẽ làm tổn thương sâu sắc người yếu thế.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học về lòng nhân ái và văn hóa thiện nguyện.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch03",
+  "chapterTitle": "Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn)",
+  "mode": "practice"
 }

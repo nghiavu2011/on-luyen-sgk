@@ -1,6 +1,6 @@
 {
   "chapterId": "ch07",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì)",
+  "title": "Ngữ văn 6 — Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -17,8 +17,15 @@
       "breakdown": {
         "concept": "Bản chất và chức năng của truyện cổ tích thần kỳ.",
         "steps": "Cổ tích là tiếng nói công lý của tầng lớp bình dân chịu nhiều áp bức bất công.",
-        "trap": "Không chọn các mộng tưởng phi thực tế hoặc phi nhân đạo."
-      }
+        "trap": "Không chọn các mộng tưởng phi thực tế hoặc phi nhân đạo.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bản chất và chức năng của truyện cổ tích thần kỳ.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Công dụng chính của dấu chấm lửng (...) trong câu văn miêu tả là gì?",
       "options": [
-        "Biểu đạt chỗ lời nói ngập ngừng ngắt quãng hoặc biểu thị sự việc chưa liệt kê hết",
         "Dùng để kết thúc một câu nghi vấn",
+        "Biểu đạt chỗ lời nói ngập ngừng ngắt quãng hoặc biểu thị sự việc chưa liệt kê hết",
         "Dùng để ngăn cách chủ ngữ với vị ngữ",
         "Dùng để trích dẫn nguyên văn lời bài hát"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Công dụng của các dấu câu trong Tiếng Việt lớp 6.",
         "steps": "Dấu chấm lửng biểu thị sự ngập ngừng, bỏ lửng hoặc phần liệt kê còn dài.",
-        "trap": "Không nhầm với dấu hỏi chấm hoặc dấu ngoặc kép."
-      }
+        "trap": "Không nhầm với dấu hỏi chấm hoặc dấu ngoặc kép.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng của các dấu câu trong tiếng việt lớp 6.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -44,17 +58,24 @@
       "type": "multiple_choice",
       "question": "Hai bảo bối thần kỳ nào đã giúp Thạch Sanh đẩy lùi 18 nước chư hầu mà không cần tốn một mũi tên hòn đạn?",
       "options": [
-        "Cây đàn thần và niêu cơm thần ăn mãi không hết",
-        "Thanh gươm báu và áo giáp sắt",
         "Ngựa thần phun lửa và cung tên vàng",
+        "Thanh gươm báu và áo giáp sắt",
+        "Cây đàn thần và niêu cơm thần ăn mãi không hết",
         "Chiếc nón tàng hình và đôi hài vạn dặm"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Chi tiết nghệ thuật biểu tượng trong truyện Thạch Sanh.",
         "steps": "Tiếng đàn hòa bình làm quân giặc bủn rủn chân tay xin hàng; niêu cơm thần thết đãi quân giặc no nê.",
-        "trap": "Không nhầm với vũ khí chiến tranh của Thánh Gióng hay truyện khác."
-      }
+        "trap": "Không nhầm với vũ khí chiến tranh của Thánh Gióng hay truyện khác.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết nghệ thuật biểu tượng trong truyện thạch sanh.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Nguyên nhân trực tiếp dẫn đến cái chết thảm của người anh trong truyện 'Cây khế' là gì?",
       "options": [
-        "Do lòng tham mù quáng may túi mười hai gang quá nặng khiến chim không cất cánh nổi rơi xuống biển",
+        "Do người anh bị cướp biển tấn công",
         "Do chim phượng hoàng lừa gạt người anh",
         "Do người em đầu độc người anh",
-        "Do người anh bị cướp biển tấn công"
+        "Do lòng tham mù quáng may túi mười hai gang quá nặng khiến chim không cất cánh nổi rơi xuống biển"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Đọc hiểu bài học nhân quả trong truyện ngụ ngôn / cổ tích Cây khế.",
         "steps": "Lòng tham quá mức làm con người mất hết tỉnh táo, tự chuốc lấy tai họa.",
-        "trap": "Chim phượng hoàng là sứ giả công lý, không phải kẻ lừa gạt."
-      }
+        "trap": "Chim phượng hoàng là sứ giả công lý, không phải kẻ lừa gạt.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu bài học nhân quả trong truyện ngụ ngôn / cổ tích cây khế.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -89,8 +117,15 @@
       "breakdown": {
         "concept": "Phân tích giá trị nhân văn của biểu tượng niêu cơm thần.",
         "steps": "Niêu cơm thần ăn không bao giờ cạn là biểu tượng của tình người rộng mở, hóa giải hận thù bằng tình thương và sự no ấm.",
-        "trap": "Tránh lối hiểu thực dụng thương mại."
-      }
+        "trap": "Tránh lối hiểu thực dụng thương mại.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích giá trị nhân văn của biểu tượng niêu cơm thần.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Câu thành ngữ nào đúc kết chính xác nhất quy luật đạo đức trong truyện cổ tích 'Thạch Sanh' và 'Cây khế'?",
       "options": [
-        "Ở hiền gặp lành, ác giả ác báo",
         "Một con ngựa đau cả tàu bỏ cỏ",
+        "Ở hiền gặp lành, ác giả ác báo",
         "Thuốc đắng dã tật, sự thật mất lòng",
         "Đói cho sạch, rách cho thơm"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.",
         "steps": "Cả hai truyện đều có kết cục: người hiền lành (Thạch Sanh, người em) được hạnh phúc; kẻ gian ác, tham lam (Lý Thông, người anh) bị trừng phạt đích đáng.",
-        "trap": "Các câu thành ngữ khác đúng nhưng không phản ánh cốt lõi nhân quả của cổ tích."
-      }
+        "trap": "Các câu thành ngữ khác đúng nhưng không phản ánh cốt lõi nhân quả của cổ tích.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch07",
+  "chapterTitle": "Bài 7: Thế giới cổ tích (Truyện cổ tích thần kì)",
+  "examId": "tonghop",
+  "mode": "exam"
 }

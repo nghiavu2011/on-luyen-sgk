@@ -1,7 +1,7 @@
 {
   "chapterId": "ch04",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 4: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 4: Quê hương yêu dấu (Thơ lục bát) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Luật thơ lục bát, phân biệt Từ đồng âm và Từ đa nghĩa, kỹ năng sáng tác thơ lục bát.",
   "questions": [
     {
@@ -20,8 +20,15 @@
         "concept": "Khái niệm cấu trúc thể thơ lục bát.",
         "steps": "Lục = 6 chữ, Bát = 8 chữ.",
         "trap": "Không nhầm thứ tự lục trước bát sau.",
-        "calculation": "câu lục), câu dưới 8 tiếng (câu bát"
-      }
+        "calculation": "câu lục), câu dưới 8 tiếng (câu bát",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm cấu trúc thể thơ lục bát.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -29,17 +36,24 @@
       "type": "multiple_choice",
       "question": "Hiện tượng TỪ ĐA NGHĨA xảy ra trong trường hợp nào sau đây?",
       "options": [
-        "Từ 'mũi' trong 'mũi người' và 'mũi thuyền' (nghĩa chuyển dựa trên nét tương đồng về vị trí nhọn nhô ra phía trước)",
         "Từ 'đường' trong 'đường cát trắng' và 'đường đi'",
+        "Từ 'mũi' trong 'mũi người' và 'mũi thuyền' (nghĩa chuyển dựa trên nét tương đồng về vị trí nhọn nhô ra phía trước)",
         "Từ 'bàn' trong 'cái bàn gỗ' và 'bàn bạc công việc'",
         "Từ 'cổ' trong 'cổ áo' và 'cổ tích'"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Phân biệt từ đa nghĩa và từ đồng âm.",
         "steps": "'Mũi thuyền' có mối liên hệ nghĩa trực tiếp với 'mũi người'.",
-        "trap": "Các trường hợp còn lại là từ đồng âm ngẫu nhiên, nghĩa không liên quan."
-      }
+        "trap": "Các trường hợp còn lại là từ đồng âm ngẫu nhiên, nghĩa không liên quan.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt từ đa nghĩa và từ đồng âm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -47,18 +61,25 @@
       "type": "multiple_choice",
       "question": "Quy luật thanh điệu các tiếng chẵn (2, 4, 6, 8) trong một cặp câu lục bát chuẩn là:",
       "options": [
-        "Câu lục: B - T - B",
-        "Tất cả các tiếng chẵn đều là thanh Trắc",
         "Tất cả các tiếng chẵn đều là thanh Bằng",
+        "Tất cả các tiếng chẵn đều là thanh Trắc",
+        "Câu lục: B - T - B",
         "Tiếng thứ 4 bắt buộc là thanh Bằng"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Luật bằng trắc thể thơ lục bát (Nhất tam ngũ bất quản, nhị tứ lục phân minh).",
         "steps": "Tiếng 2(B) - 4(T) - 6(B) ở câu lục; 2(B) - 4(T) - 6(B) - 8(B) ở câu bát.",
         "trap": "Tiếng 4 luôn luôn là thanh Trắc (dấu sắc, huyền, hỏi, ngã, nặng - ở đây thanh Trắc gồm sắc, hỏi, ngã, nặng).",
-        "calculation": "2 Bằng, 4 Trắc, 6 Bằng); Câu bát: B - T - B - B (2 Bằng, 4 Trắc, 6 Bằng, 8 Bằng"
-      }
+        "calculation": "2 Bằng, 4 Trắc, 6 Bằng); Câu bát: B - T - B - B (2 Bằng, 4 Trắc, 6 Bằng, 8 Bằng",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được luật bằng trắc thể thơ lục bát (nhất tam ngũ bất quản, nhị tứ lục phân minh).?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -66,18 +87,25 @@
       "type": "multiple_choice",
       "question": "Hai từ 'đậu' trong câu: 'Ruồi <strong>đậu</strong> mâm xôi <strong>đậu</strong>' có quan hệ với nhau như thế nào?",
       "options": [
-        "Là hai từ đồng âm",
+        "Là hai từ trái nghĩa",
         "Là một từ đa nghĩa chuyển theo ẩn dụ",
         "Là hai từ đồng nghĩa hoàn toàn",
-        "Là hai từ trái nghĩa"
+        "Là hai từ đồng âm"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhận diện từ đồng âm trong câu đố dân gian.",
         "steps": "Một từ là hoạt động đỗ xuống, một từ là thực phẩm ăn uống; nghĩa hoàn toàn không có nét chung.",
         "trap": "Không nhầm sang từ đa nghĩa.",
-        "calculation": "từ thứ nhất là động từ đỗ lại; từ thứ hai là danh từ chỉ loại hạt đỗ"
-      }
+        "calculation": "từ thứ nhất là động từ đỗ lại; từ thứ hai là danh từ chỉ loại hạt đỗ",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện từ đồng âm trong câu đố dân gian.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -94,8 +122,15 @@
       "breakdown": {
         "concept": "Kỹ năng làm thơ lục bát và các lỗi gieo vần.",
         "steps": "Lạc vần khiến bài thơ đọc lên bị gượng gạo, mất đi âm điệu ngọt ngào vốn có của lục bát.",
-        "trap": "Viết hoa đầu dòng là quy tắc chính tả, không phải lỗi."
-      }
+        "trap": "Viết hoa đầu dòng là quy tắc chính tả, không phải lỗi.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng làm thơ lục bát và các lỗi gieo vần.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -103,17 +138,29 @@
       "type": "multiple_choice",
       "question": "★ Tại sao hiện tượng từ đa nghĩa lại giúp làm giàu vốn từ và khả năng diễn đạt của Tiếng Việt?",
       "options": [
-        "Vì từ đa nghĩa cho phép con người dùng một số lượng từ có hạn để biểu đạt vô số khái niệm mới thông qua các phương thức ẩn dụ và hoán dụ tinh tế",
         "Vì nó làm cho từ điển Tiếng Việt dày hơn",
+        "Vì từ đa nghĩa cho phép con người dùng một số lượng từ có hạn để biểu đạt vô số khái niệm mới thông qua các phương thức ẩn dụ và hoán dụ tinh tế",
         "Vì nó gây nhầm lẫn thú vị cho người học nước ngoài",
         "Vì từ đa nghĩa giúp giảm bớt số lượng chữ cái"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Ý nghĩa của phương thức chuyển nghĩa từ vựng.",
         "steps": "Chuyển nghĩa theo ẩn dụ và hoán dụ phản ánh tư duy sáng tạo ngôn ngữ của dân tộc.",
-        "trap": "Tránh lối nhìn nhận phiến diện về sự nhầm lẫn ngôn ngữ."
-      }
+        "trap": "Tránh lối nhìn nhận phiến diện về sự nhầm lẫn ngôn ngữ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: ý nghĩa của phương thức chuyển nghĩa từ vựng.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch04",
+  "chapterTitle": "Bài 4: Quê hương yêu dấu (Thơ lục bát)",
+  "mode": "practice"
 }

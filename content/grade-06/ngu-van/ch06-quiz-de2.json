@@ -1,7 +1,7 @@
 {
   "chapterId": "ch06",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 6: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 6: Bài học từ lòng biết ơn (Truyền thuyết) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Thành phần Trạng ngữ trong câu, Thành ngữ dân gian và kỹ năng viết bài văn thuyết minh thuật lại sự kiện / lễ hội.",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Khái niệm thành phần trạng ngữ.",
         "steps": "Trạng ngữ là thành phần phụ có thể đứng đầu, giữa hoặc cuối câu, thường ngăn cách bằng dấu phẩy.",
-        "trap": "Chủ ngữ và vị ngữ mới là thành phần chính bắt buộc."
-      }
+        "trap": "Chủ ngữ và vị ngữ mới là thành phần chính bắt buộc.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm thành phần trạng ngữ.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Thành phần in đậm trong câu: '<strong>Để đền đáp công ơn cha mẹ</strong>, em quyết tâm chăm chỉ học giỏi' là loại trạng ngữ gì?",
       "options": [
-        "Trạng ngữ chỉ mục đích",
         "Trạng ngữ chỉ nguyên nhân",
+        "Trạng ngữ chỉ mục đích",
         "Trạng ngữ chỉ nơi chốn",
         "Trạng ngữ chỉ thời gian"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Phân loại các loại trạng ngữ.",
         "steps": "'Để...' trả lời cho câu hỏi 'Nhằm mục đích gì?' -> Trạng ngữ chỉ mục đích.",
-        "trap": "Trạng ngữ chỉ nguyên nhân thường bắt đầu bằng 'Vì, Do, Nhờ'."
-      }
+        "trap": "Trạng ngữ chỉ nguyên nhân thường bắt đầu bằng 'Vì, Do, Nhờ'.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân loại các loại trạng ngữ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,18 +60,25 @@
       "type": "multiple_choice",
       "question": "Câu thành ngữ nào sau đây thể hiện rõ nét nhất truyền thống đạo lý làm người được đúc kết từ truyền thuyết thời các vua Hùng?",
       "options": [
-        "Uống nước nhớ nguồn",
-        "Nước đến chân mới nhảy",
         "Được voi đòi tiên",
+        "Nước đến chân mới nhảy",
+        "Uống nước nhớ nguồn",
         "Cháy nhà ra mặt chuột"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Ý nghĩa thành ngữ phản ánh truyền thống lịch sử.",
         "steps": "'Uống nước nhớ nguồn' là đạo lý cốt lõi của ngày Giỗ Tổ Hùng Vương và Lễ hội Đền Gióng.",
         "trap": "Các câu thành ngữ khác thể hiện thói hư tật xấu hoặc thói quen xấu.",
-        "calculation": "Ăn quả nhớ kẻ trồng cây"
-      }
+        "calculation": "Ăn quả nhớ kẻ trồng cây",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa thành ngữ phản ánh truyền thống lịch sử.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -65,18 +86,25 @@
       "type": "multiple_choice",
       "question": "Khi viết bài văn thuyết minh thuật lại một sự việc / lễ hội (như Lễ hội đền Gióng hoặc Lễ khai giảng), trình tự miêu tả hợp lý nhất là gì?",
       "options": [
-        "Theo trình tự thời gian",
+        "Liệt kê bảng giá vé tham quan",
         "Kể từ kết thúc rồi mới quay lại chuẩn bị",
         "Chỉ miêu tả cảnh ăn uống",
-        "Liệt kê bảng giá vé tham quan"
+        "Theo trình tự thời gian"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Trình tự thuật lại sự việc trong văn thuyết minh.",
         "steps": "Trình tự thời gian kết hợp không gian giúp người đọc hình dung trọn vẹn diễn biến lễ hội.",
         "trap": "Đảo lộn thời gian tùy tiện sẽ làm bài viết lộn xộn, thiếu tính mạch lạc.",
-        "calculation": "từ công tác chuẩn bị trước lễ hội -> diễn biến phần lễ và phần hội -> kết thúc lễ hội và ý nghĩa"
-      }
+        "calculation": "từ công tác chuẩn bị trước lễ hội -> diễn biến phần lễ và phần hội -> kết thúc lễ hội và ý nghĩa",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được trình tự thuật lại sự việc trong văn thuyết minh.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -93,8 +121,15 @@
       "breakdown": {
         "concept": "Vị trí và chức năng liên kết của trạng ngữ.",
         "steps": "Trạng ngữ đầu câu tạo 'điểm tựa bối cảnh' giúp toàn bộ thông tin phía sau trở nên rõ ràng, gắn kết.",
-        "trap": "Trạng ngữ không làm mất chủ ngữ nếu viết đúng dấu phẩy ngăn cách."
-      }
+        "trap": "Trạng ngữ không làm mất chủ ngữ nếu viết đúng dấu phẩy ngăn cách.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vị trí và chức năng liên kết của trạng ngữ.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -102,17 +137,29 @@
       "type": "multiple_choice",
       "question": "★ Trong bài văn thuật lại một lễ hội truyền thống, yếu tố nào giúp bài viết không bị khô khan như một bản tin thời sự?",
       "options": [
-        "Kết hợp khéo léo giữa miêu tả không khí tưng bừng, màu sắc, âm thanh với việc bày tỏ cảm xúc tự hào, xúc động chân thành của người viết",
         "Chép lại toàn bộ tài liệu lịch sử của ban tổ chức từ đầu đến cuối",
+        "Kết hợp khéo léo giữa miêu tả không khí tưng bừng, màu sắc, âm thanh với việc bày tỏ cảm xúc tự hào, xúc động chân thành của người viết",
         "Thêm vào những tình tiết ma quái không có thật",
         "Chỉ đưa các bức ảnh chụp mà không cần viết lời văn"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Kết hợp miêu tả và biểu cảm trong văn thuyết minh sự kiện.",
         "steps": "Cảm xúc tự hào dân tộc và hình ảnh sống động của con người làm bài văn truyền cảm hứng.",
-        "trap": "Bịa đặt tình tiết sai sự thật là điều cấm kỵ trong thuyết minh."
-      }
+        "trap": "Bịa đặt tình tiết sai sự thật là điều cấm kỵ trong thuyết minh.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kết hợp miêu tả và biểu cảm trong văn thuyết minh sự kiện.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch06",
+  "chapterTitle": "Bài 6: Bài học từ lòng biết ơn (Truyền thuyết)",
+  "mode": "practice"
 }

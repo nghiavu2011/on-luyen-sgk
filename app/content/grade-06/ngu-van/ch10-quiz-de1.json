@@ -1,7 +1,7 @@
 {
   "chapterId": "ch10",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 10: Đề 1: Chuyên đề Phương pháp & Văn hóa đọc",
+  "title": "Ngữ văn 6 — Bài 10: Cuốn sách tôi yêu (Dự án đọc sách) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Dự án đọc sách, phương pháp đọc chủ động (Active Reading), nhật ký đọc sách (Reading Journal).",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Phương pháp 'Đọc chủ động' (Active Reading) bao gồm những thao tác tư duy nào?",
       "options": [
-        "Vừa đọc vừa đặt câu hỏi, liên hệ với trải nghiệm thực tế, gạch chân từ khóa và ghi chép lại những suy ngẫm vào nhật ký",
-        "Chỉ đọc lướt thật nhanh để đếm số trang sách",
         "Nhắm mắt lắng nghe người khác đọc hộ",
+        "Chỉ đọc lướt thật nhanh để đếm số trang sách",
+        "Vừa đọc vừa đặt câu hỏi, liên hệ với trải nghiệm thực tế, gạch chân từ khóa và ghi chép lại những suy ngẫm vào nhật ký",
         "Chỉ xem tranh minh họa mà không đọc lời"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Khái niệm phương pháp đọc chủ động trong SGK.",
         "steps": "Đọc chủ động biến người đọc từ người tiếp nhận thụ động thành người đối thoại tích cực với cuốn sách.",
-        "trap": "Đọc vẹt hay xem tranh đơn thuần không phải đọc chủ động."
-      }
+        "trap": "Đọc vẹt hay xem tranh đơn thuần không phải đọc chủ động.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm phương pháp đọc chủ động trong sgk.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Một trang 'Nhật ký đọc sách' (Reading Journal) chuẩn mực cần ghi lại những thông tin cơ bản nào?",
       "options": [
-        "Tên sách, tên tác giả, ngày đọc, tóm tắt nội dung chính, trích dẫn câu văn tâm đắc và cảm nghĩ cá nhân",
+        "Số điện thoại của người bán sách",
         "Chỉ cần ghi giá tiền của cuốn sách",
         "Tên địa chỉ của nhà in",
-        "Số điện thoại của người bán sách"
+        "Tên sách, tên tác giả, ngày đọc, tóm tắt nội dung chính, trích dẫn câu văn tâm đắc và cảm nghĩ cá nhân"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Cấu trúc một trang nhật ký đọc sách học đường.",
         "steps": "Nhật ký lưu giữ quá trình tương tác trí tuệ giữa bạn đọc và tác phẩm.",
-        "trap": "Các thông tin thương mại in ấn không phản ánh giá trị học tập."
-      }
+        "trap": "Các thông tin thương mại in ấn không phản ánh giá trị học tập.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được cấu trúc một trang nhật ký đọc sách học đường.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -55,8 +69,15 @@
       "breakdown": {
         "concept": "Giá trị của văn hóa đọc đối với sự trưởng thành con người.",
         "steps": "Sách vừa cung cấp tri thức khoa học vừa là người thầy nuôi dưỡng tâm hồn và nhân cách.",
-        "trap": "Tránh lối nhìn nhận thực dụng thuần túy thi cử hay tiền tài."
-      }
+        "trap": "Tránh lối nhìn nhận thực dụng thuần túy thi cử hay tiền tài.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giá trị của văn hóa đọc đối với sự trưởng thành con người.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Khi đọc một tác phẩm truyện dài, kỹ thuật nào sau đây giúp học sinh nắm bắt cốt truyện logic mà không bị quên chi tiết?",
       "options": [
-        "Vẽ sơ đồ tư duy (Mindmap) về chuỗi sự việc chính và mối quan hệ giữa các tuyến nhân vật",
         "Học thuộc lòng từng câu chữ trong cuốn sách",
+        "Vẽ sơ đồ tư duy (Mindmap) về chuỗi sự việc chính và mối quan hệ giữa các tuyến nhân vật",
         "Bỏ qua các chương giữa chỉ đọc chương đầu và chương cuối",
         "Đọc ngược từ trang cuối lên trang đầu"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Kỹ thuật sơ đồ tư duy hỗ trợ đọc hiểu văn bản.",
         "steps": "Mindmap trực quan hóa sơ đồ nhân vật và chuỗi biến cố, giúp ghi nhớ lâu bền.",
-        "trap": "Học thuộc lòng cả cuốn sách là điều bất khả thi và phi khoa học."
-      }
+        "trap": "Học thuộc lòng cả cuốn sách là điều bất khả thi và phi khoa học.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ thuật sơ đồ tư duy hỗ trợ đọc hiểu văn bản.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -82,17 +110,24 @@
       "type": "multiple_choice",
       "question": "Thói quen đọc sách mỗi ngày từ 20 đến 30 phút rèn luyện cho học sinh lớp 6 năng lực quan trọng nào?",
       "options": [
-        "Rèn luyện khả năng tập trung cao độ, làm giàu vốn từ vựng, phát triển tư duy ngôn ngữ và nuôi dưỡng sự đồng cảm xã hội",
-        "Giúp giảm thị lực nhanh chóng",
         "Làm cho học sinh không cần nghe giảng trên lớp",
+        "Giúp giảm thị lực nhanh chóng",
+        "Rèn luyện khả năng tập trung cao độ, làm giàu vốn từ vựng, phát triển tư duy ngôn ngữ và nuôi dưỡng sự đồng cảm xã hội",
         "Để không phải tham gia các hoạt động thể thao"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Lợi ích toàn diện của thói quen đọc sách thường xuyên.",
         "steps": "Đọc sách kích thích trí não phát triển tư duy phản biện và năng lực thấu cảm cảm xúc.",
-        "trap": "Tránh các định kiến sai lệch về việc đọc sách."
-      }
+        "trap": "Tránh các định kiến sai lệch về việc đọc sách.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được lợi ích toàn diện của thói quen đọc sách thường xuyên.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Làm thế nào để xây dựng và lan tỏa 'Văn hóa đọc' hiệu quả trong không gian lớp học và trường học?",
       "options": [
-        "Xây dựng tủ sách lớp học thân thiện, tổ chức các buổi thuyết trình giới thiệu sách hay hàng tuần, thi viết nhật ký đọc sách và trao đổi sách cũ",
+        "Cấm học sinh đọc truyện tranh lành mạnh",
         "Bắt buộc tất cả các bạn phải mua sách giống hệt nhau",
         "Khóa chặt cửa thư viện để bảo quản sách không bị hỏng",
-        "Cấm học sinh đọc truyện tranh lành mạnh"
+        "Xây dựng tủ sách lớp học thân thiện, tổ chức các buổi thuyết trình giới thiệu sách hay hàng tuần, thi viết nhật ký đọc sách và trao đổi sách cũ"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Dự án lan tỏa văn hóa đọc học đường.",
         "steps": "Văn hóa đọc phát triển khi có môi trường mở, chia sẻ thân thiện và khuyến khích tự do khám phá tri thức.",
-        "trap": "Biện pháp ép buộc hay ngăn cấm sẽ bóp nghẹt niềm đam mê đọc sách của học sinh."
-      }
+        "trap": "Biện pháp ép buộc hay ngăn cấm sẽ bóp nghẹt niềm đam mê đọc sách của học sinh.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: dự án lan tỏa văn hóa đọc học đường.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch10",
+  "chapterTitle": "Bài 10: Cuốn sách tôi yêu (Dự án đọc sách)",
+  "mode": "practice"
 }

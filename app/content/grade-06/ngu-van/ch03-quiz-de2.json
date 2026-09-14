@@ -1,7 +1,7 @@
 {
   "chapterId": "ch03",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 3: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Cụm danh từ, Cụm động từ, Cụm tính từ và phương pháp làm bài văn tự sự kể lại một trải nghiệm.",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Mô hình cấu tạo chuẩn của một cụm từ (cụm danh từ, cụm động từ, cụm tính từ) gồm có mấy phần?",
       "options": [
-        "3 phần: Phần phụ trước, Phần trung tâm, Phần phụ sau",
-        "2 phần: Chủ ngữ và Vị ngữ",
         "1 phần duy nhất là từ đơn",
+        "2 phần: Chủ ngữ và Vị ngữ",
+        "3 phần: Phần phụ trước, Phần trung tâm, Phần phụ sau",
         "4 phần"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Mô hình cụm từ trong Tiếng Việt 6.",
         "steps": "Cụm từ mở rộng cấu trúc gồm thành tố phụ trước, từ trung tâm và thành tố phụ sau.",
-        "trap": "Chủ ngữ và vị ngữ là thành phần câu, không phải thành phần cụm từ."
-      }
+        "trap": "Chủ ngữ và vị ngữ là thành phần câu, không phải thành phần cụm từ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được mô hình cụm từ trong tiếng việt 6.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Cụm từ nào sau đây là CỤM TÍNH TỪ?",
       "options": [
-        "rất đói và rét buốt",
+        "hai chị em Sơn và Lan",
         "những que diêm nhỏ bé ấy",
         "đang chạy vội về nhà",
-        "hai chị em Sơn và Lan"
+        "rất đói và rét buốt"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhận diện cụm tính từ.",
         "steps": "Từ trung tâm là tính từ 'đói, rét buốt' kết hợp phụ trước 'rất'.",
-        "trap": "'những que diêm' là cụm danh từ; 'đang chạy' là cụm động từ."
-      }
+        "trap": "'những que diêm' là cụm danh từ; 'đang chạy' là cụm động từ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện cụm tính từ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -56,8 +70,15 @@
         "concept": "Ý nghĩa các thành tố phụ trước của cụm danh từ.",
         "steps": "'tất cả' là từ chỉ toàn thể, 'những' là từ chỉ số lượng số nhiều.",
         "trap": "'cũ' là phụ sau chỉ đặc điểm, 'ấy' là phụ sau chỉ vị trí/trỏ sự vật.",
-        "calculation": "'tất cả') và chỉ số lượng số nhiều ('những'"
-      }
+        "calculation": "'tất cả') và chỉ số lượng số nhiều ('những'",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa các thành tố phụ trước của cụm danh từ.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -65,18 +86,25 @@
       "type": "multiple_choice",
       "question": "Khi viết bài văn kể lại một trải nghiệm đáng nhớ của bản thân, người viết bắt buộc phải sử dụng ngôi kể nào?",
       "options": [
-        "Ngôi thứ nhất",
         "Ngôi thứ ba khách quan (giấu mình)",
+        "Ngôi thứ nhất",
         "Ngôi thứ hai đối thoại",
         "Không cần xác định ngôi kể"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Yêu cầu ngôi kể trong bài văn tự sự trải nghiệm.",
         "steps": "Kể lại trải nghiệm của chính bản thân đòi hỏi phải dùng ngôi thứ nhất để câu chuyện chân thực, giàu cảm xúc.",
         "trap": "Dùng ngôi thứ ba sẽ biến bài văn thành kể chuyện người khác.",
-        "calculation": "xưng 'tôi' hoặc 'em'"
-      }
+        "calculation": "xưng 'tôi' hoặc 'em'",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu ngôi kể trong bài văn tự sự trải nghiệm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -84,17 +112,24 @@
       "type": "multiple_choice",
       "question": "Tác dụng của việc mở rộng thành phần vị ngữ từ một động từ đơn thành một CỤM ĐỘNG TỪ trong câu văn miêu tả là gì?",
       "options": [
-        "Bổ sung chi tiết về thời gian, địa điểm, cách thức, mức độ diễn ra hành động, giúp hình ảnh sống động và giàu sức gợi hơn",
-        "Làm cho câu văn dài dòng khó hiểu",
         "Để kéo dài bài viết cho đủ số trang",
+        "Làm cho câu văn dài dòng khó hiểu",
+        "Bổ sung chi tiết về thời gian, địa điểm, cách thức, mức độ diễn ra hành động, giúp hình ảnh sống động và giàu sức gợi hơn",
         "Làm thay đổi nghĩa gốc của động từ"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.",
         "steps": "Cụm động từ cung cấp ngữ cảnh đầy đủ, chính xác về hành động của nhân vật.",
-        "trap": "Mở rộng cụm từ không phải là viết dài dòng vô ích."
-      }
+        "trap": "Mở rộng cụm từ không phải là viết dài dòng vô ích.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -102,17 +137,29 @@
       "type": "multiple_choice",
       "question": "★ Trong bài văn kể lại trải nghiệm, yếu tố nào đóng vai trò là 'linh hồn' quyết định chiều sâu tư tưởng của bài viết?",
       "options": [
-        "Bài học nhận thức, sự trưởng thành về nhân cách hoặc tình cảm sâu sắc mà người viết rút ra được sau trải nghiệm đó",
+        "Miêu tả chi tiết giá tiền của các món đồ mua sắm",
         "Kể lại thật nhiều tình tiết kịch tính gay cấn như phim hành động",
         "Sử dụng thật nhiều từ ngữ tiếng nước ngoài thời thượng",
-        "Miêu tả chi tiết giá tiền của các món đồ mua sắm"
+        "Bài học nhận thức, sự trưởng thành về nhân cách hoặc tình cảm sâu sắc mà người viết rút ra được sau trải nghiệm đó"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Tiêu chí chấm điểm sáng tạo bài văn tự sự THCS.",
         "steps": "Giá trị cốt lõi của bài văn trải nghiệm là sự chiêm nghiệm, bài học thức tỉnh lương tâm sau sự việc.",
-        "trap": "Kể lể sự việc ly kỳ mà thiếu bài học nhận thức thì bài viết chỉ là vỏ bọc nông cạn."
-      }
+        "trap": "Kể lể sự việc ly kỳ mà thiếu bài học nhận thức thì bài viết chỉ là vỏ bọc nông cạn.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tiêu chí chấm điểm sáng tạo bài văn tự sự thcs.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch03",
+  "chapterTitle": "Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn)",
+  "mode": "practice"
 }

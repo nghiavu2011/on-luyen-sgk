@@ -1,7 +1,7 @@
 {
   "chapterId": "ch08",
   "examId": "de2",
-  "title": "Ngữ văn 6 — Bài 8: Đề 2: Chuyên đề Tiếng Việt & Kỹ năng Viết",
+  "title": "Ngữ văn 6 — Bài 8: Khác biệt và gần gũi (Văn bản nghị luận) — Đề 2: Tiếng Việt & Kỹ năng viết",
   "description": "Từ Hán Việt, Liên kết câu và đoạn văn (lặp, thế, nối) và phương pháp viết bài văn nghị luận xã hội.",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Khái niệm từ Hán Việt trong Tiếng Việt 6.",
         "steps": "Từ Hán Việt chiếm tỷ lệ lớn trong vốn từ vựng khoa học, chính trị, văn học.",
-        "trap": "Không nhầm với từ vay mượn gốc Âu."
-      }
+        "trap": "Không nhầm với từ vay mượn gốc Âu.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm từ hán việt trong tiếng việt 6.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Cặp từ thuần Việt – Hán Việt nào sau đây có nghĩa tương đương nhau?",
       "options": [
-        "Mẹ – Mẫu",
         "Bàn – Ghế",
+        "Mẹ – Mẫu",
         "Ăn – Ngủ",
         "Học – Chơi"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đối chiếu từ thuần Việt và từ Hán Việt đồng nghĩa.",
         "steps": "'Mẹ' là từ thuần Việt, 'Mẫu' là yếu tố Hán Việt (mẫu thân, mẫu giáo).",
-        "trap": "Các cặp còn lại không phải quan hệ đồng nghĩa Hán - Việt."
-      }
+        "trap": "Các cặp còn lại không phải quan hệ đồng nghĩa Hán - Việt.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đối chiếu từ thuần việt và từ hán việt đồng nghĩa.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,18 +60,25 @@
       "type": "multiple_choice",
       "question": "Trong đoạn văn: 'Mỗi người là một cá thể độc lập. <strong>Tuy nhiên</strong>, chúng ta không thể sống tách rời xã hội', từ in đậm thực hiện phép liên kết gì?",
       "options": [
-        "Phép nối",
-        "Phép lặp từ ngữ",
         "Phép thế đại từ",
+        "Phép lặp từ ngữ",
+        "Phép nối",
         "Phép đồng nghĩa"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Các phương tiện liên kết câu trong đoạn văn.",
         "steps": "'Tuy nhiên' là từ nối biểu thị quan hệ tương phản, tạo sự liên kết mạch lạc giữa hai câu.",
         "trap": "Không nhầm phép nối với phép thế hay phép lặp.",
-        "calculation": "dùng quan hệ từ để nối các câu"
-      }
+        "calculation": "dùng quan hệ từ để nối các câu",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được các phương tiện liên kết câu trong đoạn văn.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -65,18 +86,25 @@
       "type": "multiple_choice",
       "question": "Cấu trúc cơ bản của một bài văn nghị luận trình bày ý kiến về một hiện tượng đời sống gồm có:",
       "options": [
-        "3 phần: Mở bài",
+        "Chỉ gồm lời thoại nhân vật",
         "2 phần: Kể chuyện và làm thơ",
         "Chỉ gồm các số liệu điều tra",
-        "Chỉ gồm lời thoại nhân vật"
+        "3 phần: Mở bài"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Bố cục chuẩn của bài văn nghị luận xã hội THCS.",
         "steps": "Bài văn nghị luận bắt buộc phải có luận điểm, lý lẽ và dẫn chứng chứng minh ý kiến.",
         "trap": "Nghị luận không phải là kể chuyện hư cấu hay làm thơ.",
-        "calculation": "nêu hiện tượng và quan điểm); Thân bài (giải thích, nêu các luận điểm kèm lý lẽ và dẫn chứng thực tế, phản biện); Kết bài (khẳng định lại ý kiến và rút ra bài học"
-      }
+        "calculation": "nêu hiện tượng và quan điểm); Thân bài (giải thích, nêu các luận điểm kèm lý lẽ và dẫn chứng thực tế, phản biện); Kết bài (khẳng định lại ý kiến và rút ra bài học",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục chuẩn của bài văn nghị luận xã hội thcs.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -93,8 +121,15 @@
       "breakdown": {
         "concept": "Yêu cầu của dẫn chứng trong văn nghị luận.",
         "steps": "Dẫn chứng xác thực (người thật việc thật, tấm gương tiêu biểu) tạo nên uy tín cho lập luận.",
-        "trap": "Dẫn chứng bịa đặt hoặc mơ hồ sẽ làm sụp đổ toàn bộ bài viết."
-      }
+        "trap": "Dẫn chứng bịa đặt hoặc mơ hồ sẽ làm sụp đổ toàn bộ bài viết.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu của dẫn chứng trong văn nghị luận.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -102,17 +137,29 @@
       "type": "multiple_choice",
       "question": "★ Vì sao trong giao tiếp hàng ngày, việc lạm dụng quá nhiều từ Hán Việt không cần thiết lại bị coi là vụng về?",
       "options": [
-        "Vì nó làm cho câu nói trở nên kiểu cách, sáo rỗng, xa rời lời ăn tiếng nói tự nhiên và gây khó hiểu cho người đối thoại",
         "Vì từ Hán Việt bị cấm sử dụng trong giao tiếp",
+        "Vì nó làm cho câu nói trở nên kiểu cách, sáo rỗng, xa rời lời ăn tiếng nói tự nhiên và gây khó hiểu cho người đối thoại",
         "Vì từ Hán Việt phát âm quá khó",
         "Vì từ Hán Việt làm câu văn ngắn lại"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Nguyên tắc sử dụng từ ngữ phù hợp phong cách giao tiếp.",
         "steps": "Từ ngữ phải đúng ngữ cảnh: trang trọng dùng Hán Việt, thân mật đời thường dùng từ thuần Việt.",
-        "trap": "Không ai cấm từ Hán Việt nhưng phải dùng đúng lúc đúng chỗ."
-      }
+        "trap": "Không ai cấm từ Hán Việt nhưng phải dùng đúng lúc đúng chỗ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nguyên tắc sử dụng từ ngữ phù hợp phong cách giao tiếp.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch08",
+  "chapterTitle": "Bài 8: Khác biệt và gần gũi (Văn bản nghị luận)",
+  "mode": "practice"
 }

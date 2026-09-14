@@ -146,7 +146,7 @@
                         <div class="ol-level-info">
                             <div class="ol-level-badge" style="background: #e0f2fe; color: #0369a1;">Lớp 6 – 9 · Đang mở</div>
                             <h3>THCS</h3>
-                            <p>Lớp 6 môn Toán 9 chương chuẩn SGK (100%)</p>
+                            <p>Lớp 6 trọn bộ Toán, KHTN và Ngữ văn (100% chuẩn SGK)</p>
                         </div>
                     </div>
                     <div class="ol-level-btn">➔</div>
@@ -487,8 +487,8 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% Toán học (9 chương) & Khoa học Tự nhiên (11 chủ đề) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 20 chương/chủ đề: Toán học (9 ch - 27 đề), KHTN (11 chủ đề - 33 đề) với 360 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 200 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% Toán học (9 ch), KHTN (11 chủ đề) & Ngữ Văn (10 bài) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 30 chương/chủ đề: Toán học (9 ch - 27 đề), KHTN (11 chủ đề - 33 đề), Ngữ văn (10 bài - 30 đề) với 540 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 340 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
@@ -497,6 +497,9 @@
                                 </a>
                                 <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🔬 KHTN 6 (11 chủ đề) ➔
+                                </a>
+                                <a href="subject.html?grade=06&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    📖 Ngữ văn 6 (10 bài) ➔
                                 </a>
                             </div>
                         </div>
@@ -579,6 +582,9 @@
                 } else if (selectedGrade === '06' && s.id === 'khoa-hoc-tu-nhien') {
                     isReady = true;
                     readyNote = '11/11 chủ đề đã xong 100%';
+                } else if (selectedGrade === '06' && s.id === 'ngu-van') {
+                    isReady = true;
+                    readyNote = '10/10 bài đã xong 100%';
                 } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
                     isReady = true;
                     readyNote = '6/6 chương đã xong 100%';

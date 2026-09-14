@@ -1,7 +1,7 @@
 {
   "chapterId": "ch01",
   "examId": "tonghop",
-  "title": "Ngữ văn 6 — Bài 1: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "title": "Ngữ văn 6 — Bài 1: Tôi và các bạn (Truyện đồng thoại) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "description": "Đề kiểm tra phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Đọc hiểu, Tiếng Việt và Tư duy phản biện.",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Khái niệm truyện đồng thoại.",
         "steps": "Nhân vật là động vật/côn trùng mang tâm lý con người.",
-        "trap": "Không nhầm với thần thoại hay văn bản thông tin."
-      }
+        "trap": "Không nhầm với thần thoại hay văn bản thông tin.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm truyện đồng thoại.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Cặp từ nào sau đây là cặp TỪ GHÉP miêu tả hình dáng Dế Mèn?",
       "options": [
-        "mẫm bóng, nhọn hoắt",
         "phanh phách, phành phạch",
+        "mẫm bóng, nhọn hoắt",
         "hung hăng, hống hách",
         "dế mèn, dế trũi"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Phân biệt từ ghép và từ láy.",
         "steps": "'mẫm bóng' và 'nhọn hoắt' ghép từ các tiếng có nghĩa độc lập.",
-        "trap": "Phanh phách hay hung hăng là từ láy."
-      }
+        "trap": "Phanh phách hay hung hăng là từ láy.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt từ ghép và từ láy.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,17 +60,24 @@
       "type": "multiple_choice",
       "question": "Vì sao Dế Choắt trước khi chết không oán trách Dế Mèn mà lại ân cần khuyên bảo Mèn?",
       "options": [
-        "Vì Choắt giàu lòng vị tha, hiểu rõ tính nết bạn và mong Mèn thức tỉnh để không gặp tai họa về sau",
-        "Vì Choắt sợ chị Cốc sẽ quay lại mổ tiếp",
         "Vì Choắt muốn Dế Mèn đền tiền thuốc men cho mình",
+        "Vì Choắt sợ chị Cốc sẽ quay lại mổ tiếp",
+        "Vì Choắt giàu lòng vị tha, hiểu rõ tính nết bạn và mong Mèn thức tỉnh để không gặp tai họa về sau",
         "Vì Choắt không biết chính Dế Mèn đã trêu chị Cốc"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Phân tích vẻ đẹp nhân cách Dế Choắt.",
         "steps": "Lời trăn trối là sự tha thứ cao thượng và bài học cảnh tỉnh sâu sắc.",
-        "trap": "Choắt biết rõ Dế Mèn trêu Cốc vì chính mắt Choắt chứng kiến Mèn hát trêu."
-      }
+        "trap": "Choắt biết rõ Dế Mèn trêu Cốc vì chính mắt Choắt chứng kiến Mèn hát trêu.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích vẻ đẹp nhân cách dế choắt.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Bí mật mà Cáo trao tặng Hoàng tử bé: 'Người ta chỉ thấy rõ với trái tim. Điều cốt lõi vô hình trong mắt trần' khuyên chúng ta điều gì?",
       "options": [
-        "Hãy nhìn nhận và cảm nhận con người bằng tình yêu thương và sự thấu cảm, không đánh giá qua vẻ hào nhoáng bề ngoài",
+        "Chỉ nên kết bạn với những người giàu có",
         "Mắt người không thể nhìn thấy vật thể trong bóng tối",
         "Không nên tin tưởng bất kỳ người bạn nào ngoài đời",
-        "Chỉ nên kết bạn với những người giàu có"
+        "Hãy nhìn nhận và cảm nhận con người bằng tình yêu thương và sự thấu cảm, không đánh giá qua vẻ hào nhoáng bề ngoài"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Triết lý nhân sinh của Saint-Exupéry.",
         "steps": "'Trái tim' là biểu tượng của tình cảm và trực giác chân thành.",
-        "trap": "Tránh hiểu nghĩa vật lý thông thường."
-      }
+        "trap": "Tránh hiểu nghĩa vật lý thông thường.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được triết lý nhân sinh của saint-exupéry.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -91,8 +119,15 @@
       "breakdown": {
         "concept": "Tư tưởng nhân văn của bài thơ 'Bắt nạt'.",
         "steps": "'Bắt nạt là rất hôi / Đừng bắt nạt bạn ơi'. Bắt nạt làm xói mòn nhân cách của chính kẻ đi bắt nạt.",
-        "trap": "Hậu quả vật chất chỉ là thứ yếu, tổn thương tinh thần mới là cốt lõi."
-      }
+        "trap": "Hậu quả vật chất chỉ là thứ yếu, tổn thương tinh thần mới là cốt lõi.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng nhân văn của bài thơ 'bắt nạt'.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Khi bản thân lỡ mắc phải một sai lầm làm tổn hại đến bạn bè như Dế Mèn, thái độ đúng đắn nhất em cần làm là gì?",
       "options": [
-        "Dũng cảm đối diện, thừa nhận lỗi lầm, thành tâm xin lỗi, tìm cách khắc phục hậu quả và khắc ghi bài học để không bao giờ tái phạm",
         "Tìm cách đổ lỗi cho người khác để không bị thầy cô phạt",
+        "Dũng cảm đối diện, thừa nhận lỗi lầm, thành tâm xin lỗi, tìm cách khắc phục hậu quả và khắc ghi bài học để không bao giờ tái phạm",
         "Bỏ trốn khỏi trường học để trốn tránh trách nhiệm",
         "Lấy tiền mua quà đút lót để bạn không nói cho bố mẹ biết"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Bài học kỹ năng sống và đạo đức học đường.",
         "steps": "Học cách chịu trách nhiệm trước mọi hành vi của bản thân như Dế Mèn đứng lặng trước mộ Choắt.",
-        "trap": "Đổ lỗi hay trốn tránh là hành vi hèn nhát."
-      }
+        "trap": "Đổ lỗi hay trốn tránh là hành vi hèn nhát.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học kỹ năng sống và đạo đức học đường.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch01",
+  "chapterTitle": "Bài 1: Tôi và các bạn (Truyện đồng thoại)",
+  "mode": "exam"
 }

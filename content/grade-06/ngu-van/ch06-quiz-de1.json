@@ -1,7 +1,7 @@
 {
   "chapterId": "ch06",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 6: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 6: Bài học từ lòng biết ơn (Truyền thuyết) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Đọc hiểu Thánh Gióng, Sự tích Hồ Gươm, bài thơ À ơi tay mẹ (Bình Nguyên).",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Trong truyền thuyết 'Thánh Gióng', cậu bé Gióng lên ba tuổi có điểm kỳ lạ nào trước khi sứ giả đến?",
       "options": [
-        "Không biết nói, không biết cười, đặt đâu nằm đấy",
-        "Biết đọc sách từ khi mới sinh",
         "Biết cưỡi ngựa bắn cung",
+        "Biết đọc sách từ khi mới sinh",
+        "Không biết nói, không biết cười, đặt đâu nằm đấy",
         "Suốt ngày ca hát"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Sự ra đời và dấu hiệu kỳ lạ của người anh hùng.",
         "steps": "Gióng nằm im nhưng khi nghe tiếng gọi non sông thì cất tiếng nói đầu tiên đòi đi đánh giặc.",
-        "trap": "Không nhầm với các nhân vật thần đồng biết nói từ sơ sinh."
-      }
+        "trap": "Không nhầm với các nhân vật thần đồng biết nói từ sơ sinh.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được sự ra đời và dấu hiệu kỳ lạ của người anh hùng.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Ai là người trực tiếp trao trả thanh gươm Thuận Thiên cho Rùa Vàng trong 'Sự tích Hồ Gươm'?",
       "options": [
-        "Vua Lê Thái Tổ (Lê Lợi)",
+        "Tướng quân Nguyễn Trãi",
         "Chủ tướng Lê Lai",
         "Thầy giáo Chu Văn An",
-        "Tướng quân Nguyễn Trãi"
+        "Vua Lê Thái Tổ (Lê Lợi)"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhân vật lịch sử gắn với truyền thuyết Hồ Gươm.",
         "steps": "Sau khi đánh tan quân Minh, vua Lê Thái Tổ ngự thuyền rồng trên hồ Tả Vọng và trao trả gươm thần.",
-        "trap": "Lê Lai là người liều mình cứu chúa thời kỳ trước đó."
-      }
+        "trap": "Lê Lai là người liều mình cứu chúa thời kỳ trước đó.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhân vật lịch sử gắn với truyền thuyết hồ gươm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -55,8 +69,15 @@
       "breakdown": {
         "concept": "Đặc trưng chi tiết hoang đường kỳ ảo trong truyền thuyết.",
         "steps": "Kỳ ảo hóa nguồn gốc để tôn vinh sự vĩ đại của người anh hùng dân tộc.",
-        "trap": "Không giải thích theo tư duy y học hiện đại."
-      }
+        "trap": "Không giải thích theo tư duy y học hiện đại.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng chi tiết hoang đường kỳ ảo trong truyền thuyết.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Hình ảnh bàn tay mẹ trong bài thơ 'À ơi tay mẹ' của Bình Nguyên được ví với sức mạnh che chở nào?",
       "options": [
-        "Bàn tay mẹ chắn giông bão, nâng niu giấc ngủ con và vượt qua mọi đắng cay cuộc đời để nuôi con khôn lớn",
         "Bàn tay mẹ có phép thuật biến ra vàng bạc",
+        "Bàn tay mẹ chắn giông bão, nâng niu giấc ngủ con và vượt qua mọi đắng cay cuộc đời để nuôi con khôn lớn",
         "Bàn tay mẹ có sức mạnh nhấc bổng quả núi",
         "Bàn tay mẹ dùng để may thêu đồ trang sức"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ Bình Nguyên.",
         "steps": "'Bàn tay mẹ chắn mưa sa / Bàn tay mẹ kéo góc trời xa gần' – biểu tượng cho sự hy sinh vô bờ bến của người mẹ.",
-        "trap": "Bàn tay mẹ là biểu tượng của tình thương, không phải phép thần thông."
-      }
+        "trap": "Bàn tay mẹ là biểu tượng của tình thương, không phải phép thần thông.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ bình nguyên.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -82,17 +110,24 @@
       "type": "multiple_choice",
       "question": "Vì sao sau khi đánh tan giặc Ân, Thánh Gióng cởi áo giáp sắt để lại trên đỉnh núi Sóc rồi một mình một ngựa bay thẳng về trời?",
       "options": [
-        "Thể hiện sự trong sáng, vô tư của người anh hùng cứu nước: đánh giặc vì Tổ quốc chứ không màng danh lợi bổng lộc trần gian",
-        "Vì Gióng giận nhà vua không thăng chức tước cho mình",
         "Vì Gióng sợ bị người khác làm phiền",
+        "Vì Gióng giận nhà vua không thăng chức tước cho mình",
+        "Thể hiện sự trong sáng, vô tư của người anh hùng cứu nước: đánh giặc vì Tổ quốc chứ không màng danh lợi bổng lộc trần gian",
         "Vì ngựa sắt bị hết cỏ ăn"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Ý nghĩa biểu tượng chi tiết Gióng bay về trời.",
         "steps": "Nhân dân bất tử hóa người anh hùng; Gióng về trời để sống mãi trong tâm thức dân tộc.",
-        "trap": "Gióng hoàn toàn không màng quan tước hay tư lợi cá nhân."
-      }
+        "trap": "Gióng hoàn toàn không màng quan tước hay tư lợi cá nhân.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa biểu tượng chi tiết gióng bay về trời.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Thanh gươm thần 'Thuận Thiên' (nghĩa là Thuận theo ý Trời) và sự tích Hồ Hoàn Kiếm gửi gắm thông điệp lịch sử nào về đạo lý dân tộc?",
       "options": [
-        "Khẳng định cuộc kháng chiến của nhân dân ta là cuộc chiến chính nghĩa thuận theo lòng dân, ý trời; và dân tộc Việt Nam luôn yêu chuộng hòa bình, gác lại vũ khí khi đất nước thái bình",
+        "Nhắc nhở vua chúa phải luôn giữ vũ khí bên mình",
         "Khuyên nhân dân nên đúc thật nhiều vũ khí cất giữ",
         "Khẳng định loài rùa biển rất thích ăn kiếm sắt",
-        "Nhắc nhở vua chúa phải luôn giữ vũ khí bên mình"
+        "Khẳng định cuộc kháng chiến của nhân dân ta là cuộc chiến chính nghĩa thuận theo lòng dân, ý trời; và dân tộc Việt Nam luôn yêu chuộng hòa bình, gác lại vũ khí khi đất nước thái bình"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.",
         "steps": "'Thuận Thiên' = Lòng dân là ý trời; 'Hoàn Kiếm' = trả vũ khí, khép lại chiến tranh để xây dựng cuộc sống thái bình.",
-        "trap": "Tránh các suy diễn ngây ngô phi lịch sử."
-      }
+        "trap": "Tránh các suy diễn ngây ngô phi lịch sử.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch06",
+  "chapterTitle": "Bài 6: Bài học từ lòng biết ơn (Truyền thuyết)",
+  "mode": "practice"
 }

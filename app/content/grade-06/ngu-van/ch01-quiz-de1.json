@@ -1,7 +1,7 @@
 {
   "chapterId": "ch01",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 1: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 1: Tôi và các bạn (Truyện đồng thoại) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Kiểm tra kiến thức cốt lõi về truyện đồng thoại qua Bài học đường đời đầu tiên, Nếu cậu muốn có một người bạn... và bài thơ Bắt nạt.",
   "questions": [
     {
@@ -19,8 +19,15 @@
       "breakdown": {
         "concept": "Xuất xứ tác phẩm văn học trong SGK Ngữ văn 6.",
         "steps": "Đoạn trích nằm ở chương 1 của tiểu thuyết đồng thoại 'Dế Mèn phiêu lưu kí'.",
-        "trap": "Vợ chồng A Phủ là tác phẩm của Tô Hoài nhưng dạy ở lớp 12."
-      }
+        "trap": "Vợ chồng A Phủ là tác phẩm của Tô Hoài nhưng dạy ở lớp 12.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được xuất xứ tác phẩm văn học trong sgk ngữ văn 6.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -28,17 +35,24 @@
       "type": "multiple_choice",
       "question": "Trong bài thơ 'Bắt nạt' của Nguyễn Thế Hoàng Linh, tác giả đã đưa ra lời khuyên độc đáo và hài hước nào đối với những kẻ thích bắt nạt?",
       "options": [
-        "'Đừng bắt nạt, hãy đi ăn mù tạt' hoặc thử bắt nạt những đồ vật vô tri",
         "Hãy dùng bạo lực đánh trả kẻ bắt nạt",
+        "'Đừng bắt nạt, hãy đi ăn mù tạt' hoặc thử bắt nạt những đồ vật vô tri",
         "Hãy khóc thật to để người lớn can thiệp",
         "Hãy im lặng chịu đựng để tránh rắc rối"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đọc hiểu chi tiết bài thơ 'Bắt nạt'.",
         "steps": "Tác giả khuyên kẻ bắt nạt ăn mù tạt để nếm vị cay nồng, thức tỉnh hành vi sai trái.",
-        "trap": "Bài thơ kiên quyết phản đối bạo lực, không khuyên đánh trả bằng bạo lực."
-      }
+        "trap": "Bài thơ kiên quyết phản đối bạo lực, không khuyên đánh trả bằng bạo lực.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu chi tiết bài thơ 'bắt nạt'.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -46,17 +60,24 @@
       "type": "multiple_choice",
       "question": "Chi tiết nào sau đây thể hiện rõ nhất thói huênh hoang, tự đắc của Dế Mèn trước khi gây ra cái chết của Dế Choắt?",
       "options": [
-        "Cà khịa với tất cả bà con trong xóm, dám trêu ghẹo chị Cốc đang đứng rỉa lông bên bờ đầm",
-        "Chăm chỉ đào hang sâu và phòng thủ cẩn thận",
         "Tự ti về ngoại hình gầy gò ốm yếu của mình",
+        "Chăm chỉ đào hang sâu và phòng thủ cẩn thận",
+        "Cà khịa với tất cả bà con trong xóm, dám trêu ghẹo chị Cốc đang đứng rỉa lông bên bờ đầm",
         "Chủ động chia sẻ thức ăn cho Dế Choắt"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Phân tích tính cách nhân vật qua hành vi trong truyện đồng thoại.",
         "steps": "Mèn tự hào đôi càng mẫm bóng, hung hăng thách thức chị Cốc dẫn đến cái chết oan uổng của bạn.",
-        "trap": "Đào hang sâu là hành động của Dế Choắt sau khi được Mèn khuyên nhưng chưa kịp làm."
-      }
+        "trap": "Đào hang sâu là hành động của Dế Choắt sau khi được Mèn khuyên nhưng chưa kịp làm.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích tính cách nhân vật qua hành vi trong truyện đồng thoại.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -64,17 +85,24 @@
       "type": "multiple_choice",
       "question": "Trong 'Nếu cậu muốn có một người bạn...', theo con Cáo, điều kiện tiên quyết để tạo lập một tình bạn chân chính ('cảm hóa') là gì?",
       "options": [
-        "Cần phải có sự kiên nhẫn, dành thời gian và tuân thủ những nghi thức gắn kết mỗi ngày",
+        "Chỉ cần gặp gỡ nói chuyện một lần là trở thành tri kỷ",
         "Phải mua nhiều quà cáp và đồ chơi đắt tiền tặng bạn",
         "Phải bắt đối phương phục tùng mọi yêu cầu của mình",
-        "Chỉ cần gặp gỡ nói chuyện một lần là trở thành tri kỷ"
+        "Cần phải có sự kiên nhẫn, dành thời gian và tuân thủ những nghi thức gắn kết mỗi ngày"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Triết lý về tình bạn trong 'Hoàng tử bé'.",
         "steps": "Cáo dặn Hoàng tử bé: Cần phải rất kiên nhẫn, mỗi ngày ngồi lại gần nhau hơn một chút vào cùng một giờ nhất định.",
-        "trap": "Tình bạn không thể mua bằng vật chất hay hình thành chớp nhoáng."
-      }
+        "trap": "Tình bạn không thể mua bằng vật chất hay hình thành chớp nhoáng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được triết lý về tình bạn trong 'hoàng tử bé'.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -91,8 +119,15 @@
       "breakdown": {
         "concept": "Giá trị giáo dục nhân cách của tác phẩm Tô Hoài.",
         "steps": "Nỗi đau mất bạn và bài học đường đời đầu tiên đã biến Mèn từ một kẻ ngỗ ngược thành một dũng sĩ biết bảo vệ kẻ yếu.",
-        "trap": "Mèn không tìm cách trả thù vì nhận ra lỗi lầm hoàn toàn do bản thân gây ra."
-      }
+        "trap": "Mèn không tìm cách trả thù vì nhận ra lỗi lầm hoàn toàn do bản thân gây ra.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giá trị giáo dục nhân cách của tác phẩm tô hoài.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -100,17 +135,29 @@
       "type": "multiple_choice",
       "question": "★ Điểm tương đồng sâu sắc về mặt tư tưởng nhân văn giữa hai văn bản 'Bài học đường đời đầu tiên' và 'Bắt nạt' là gì?",
       "options": [
-        "Cùng lên án thái độ cậy mạnh ức hiếp kẻ yếu, khẳng định giá trị của sự tôn trọng, lòng trắc ẩn và tinh thần hòa đồng",
         "Cùng miêu tả các trận chiến sinh tử trong thế giới côn trùng",
+        "Cùng lên án thái độ cậy mạnh ức hiếp kẻ yếu, khẳng định giá trị của sự tôn trọng, lòng trắc ẩn và tinh thần hòa đồng",
         "Cùng sử dụng thể thơ tự do 4 chữ",
         "Cùng khuyên trẻ em nên sống cô lập một mình"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: So sánh liên văn bản cùng chủ đề.",
         "steps": "Cả hai tác phẩm đều dạy bài học đạo đức: kẻ mạnh thực sự là kẻ biết nâng đỡ người khác chứ không phải kẻ ức hiếp người yếu.",
-        "trap": "Một bài là văn xuôi đồng thoại, một bài là thơ nên không thể giống nhau về thể loại."
-      }
+        "trap": "Một bài là văn xuôi đồng thoại, một bài là thơ nên không thể giống nhau về thể loại.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: so sánh liên văn bản cùng chủ đề.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch01",
+  "chapterTitle": "Bài 1: Tôi và các bạn (Truyện đồng thoại)",
+  "mode": "practice"
 }

@@ -1,7 +1,7 @@
 {
   "chapterId": "ch08",
   "examId": "de1",
-  "title": "Ngữ văn 6 — Bài 8: Đề 1: Chuyên đề Đọc hiểu văn bản",
+  "title": "Ngữ văn 6 — Bài 8: Khác biệt và gần gũi (Văn bản nghị luận) — Đề 1: Chuyên đề Đọc hiểu văn bản",
   "description": "Đọc hiểu Xem người ta kìa! (Lạc Thanh), Hai loại khác biệt (J. Y-mây-da-ki), Bài tập làm văn (Pi-e Đuy-răng).",
   "questions": [
     {
@@ -10,17 +10,24 @@
       "type": "multiple_choice",
       "question": "Câu nói quen thuộc nào của các bậc cha mẹ được tác giả Lạc Thanh mượn làm nhan đề cho bài viết nghị luận?",
       "options": [
-        "Xem người ta kìa!",
-        "Học thầy không tày học bạn",
         "Con nhà tông không giống lông cũng giống cánh",
+        "Học thầy không tày học bạn",
+        "Xem người ta kìa!",
         "Trứng đòi khôn hơn vịt"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Nhan đề và xuất phát điểm của văn bản nghị luận.",
         "steps": "'Xem người ta kìa!' là lời trách móc yêu thương phổ biến của cha mẹ khi muốn con noi gương bạn.",
-        "trap": "Các câu còn lại là tục ngữ, không phải nhan đề bài viết."
-      }
+        "trap": "Các câu còn lại là tục ngữ, không phải nhan đề bài viết.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhan đề và xuất phát điểm của văn bản nghị luận.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -28,18 +35,25 @@
       "type": "multiple_choice",
       "question": "Theo tác giả J. Y-mây-da-ki trong 'Hai loại khác biệt', hai loại khác biệt đó là gì?",
       "options": [
-        "Sự khác biệt vô nghĩa",
+        "Sự khác biệt giữa người giàu và người nghèo",
         "Sự khác biệt về chiều cao và cân nặng",
         "Sự khác biệt về quê quán và giọng nói",
-        "Sự khác biệt giữa người giàu và người nghèo"
+        "Sự khác biệt vô nghĩa"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Luận điểm cốt lõi của 'Hai loại khác biệt'.",
         "steps": "Tác giả phân biệt rạch ròi giữa hành vi cố tình làm trò quái dị và giá trị cống hiến thực chất.",
         "trap": "Không thu hẹp khác biệt thành hình thức sinh học cơ thể.",
-        "calculation": "chỉ để gây chú ý bên ngoài) và Sự khác biệt có ý nghĩa (bắt nguồn từ năng lực, trí tuệ và sự cống hiến"
-      }
+        "calculation": "chỉ để gây chú ý bên ngoài) và Sự khác biệt có ý nghĩa (bắt nguồn từ năng lực, trí tuệ và sự cống hiến",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được luận điểm cốt lõi của 'hai loại khác biệt'.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -56,8 +70,15 @@
       "breakdown": {
         "concept": "Tư tưởng tôn trọng bản sắc cá nhân.",
         "steps": "Sự đa dạng tạo nên vẻ đẹp của thế giới; mỗi người cần tự hào về nét độc đáo của mình.",
-        "trap": "Lập luận mang tính triết lý nhân văn, không đơn thuần là số liệu y học."
-      }
+        "trap": "Lập luận mang tính triết lý nhân văn, không đơn thuần là số liệu y học.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng tôn trọng bản sắc cá nhân.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -65,17 +86,24 @@
       "type": "multiple_choice",
       "question": "Trong truyện 'Bài tập làm văn' của Pi-e Đuy-răng, cậu bé Ni-cô-la đã gặp phải tình huống trớ trêu gì?",
       "options": [
-        "Cậu bé phải viết bài văn miêu tả người bạn thân nhất nhưng các bạn trong lớp lại tranh cãi kịch liệt về ưu điểm của nhau",
         "Cậu bé bị mất bài tập về nhà",
+        "Cậu bé phải viết bài văn miêu tả người bạn thân nhất nhưng các bạn trong lớp lại tranh cãi kịch liệt về ưu điểm của nhau",
         "Cậu bé bị cô giáo phạt vì viết chữ xấu",
         "Cậu bé không biết viết chữ cái"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đọc hiểu văn bản đọc mở rộng bài 8.",
         "steps": "Tình huống hài hước trẻ thơ khi viết bài tập làm văn về tình bạn trong lớp học.",
-        "trap": "Ni-cô-la không bị mất bài mà gặp khó khăn trong việc chọn bạn thân."
-      }
+        "trap": "Ni-cô-la không bị mất bài mà gặp khó khăn trong việc chọn bạn thân.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu văn bản đọc mở rộng bài 8.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -83,17 +111,24 @@
       "type": "multiple_choice",
       "question": "Mối quan hệ biện chứng giữa 'khác biệt bản sắc cá nhân' và 'hòa đồng với cộng đồng' được rút ra là gì?",
       "options": [
-        "Hòa nhập nhưng không hòa tan: biết tôn trọng luật lệ và đóng góp cho tập thể mà vẫn giữ được nét cá tính độc đáo tích cực của bản thân",
-        "Muốn hòa đồng thì phải từ bỏ hoàn toàn sở thích cá nhân",
         "Cá nhân luôn đối đầu và đứng trên mọi quy tắc của xã hội",
+        "Muốn hòa đồng thì phải từ bỏ hoàn toàn sở thích cá nhân",
+        "Hòa nhập nhưng không hòa tan: biết tôn trọng luật lệ và đóng góp cho tập thể mà vẫn giữ được nét cá tính độc đáo tích cực của bản thân",
         "Chỉ cần sống cho riêng mình, không quan tâm đến người xung quanh"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Tư duy biện chứng về cá nhân và xã hội.",
         "steps": "Cá tính lành mạnh giúp tập thể phát triển; tập thể vững mạnh là môi trường nâng đỡ cá nhân.",
-        "trap": "Tránh hai thái cực: độc đoán vị kỷ hoặc đánh mất chính mình."
-      }
+        "trap": "Tránh hai thái cực: độc đoán vị kỷ hoặc đánh mất chính mình.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư duy biện chứng về cá nhân và xã hội.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -101,17 +136,29 @@
       "type": "multiple_choice",
       "question": "★ Khi bị cha mẹ so sánh với 'con nhà người ta', học sinh có thái độ tư duy tích cực và văn minh nhất là gì?",
       "options": [
-        "Lắng nghe với tinh thần cầu thị để học hỏi điểm mạnh của bạn, đồng thời trò chuyện chân thành với cha mẹ để cha mẹ hiểu và ủng hộ năng khiếu riêng của mình",
+        "Tuyệt vọng và buông xuôi việc học hành",
         "Tức giận cãi lại và bỏ bữa ăn",
         "Ghen ghét và tìm cách bêu xấu bạn 'con nhà người ta' trước lớp",
-        "Tuyệt vọng và buông xuôi việc học hành"
+        "Lắng nghe với tinh thần cầu thị để học hỏi điểm mạnh của bạn, đồng thời trò chuyện chân thành với cha mẹ để cha mẹ hiểu và ủng hộ năng khiếu riêng của mình"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.",
         "steps": "Biến áp lực so sánh thành động lực học hỏi và biết cách đối thoại tôn trọng với gia đình.",
-        "trap": "Không chọn các thái độ chống đối tiêu cực hay phá hoại quan hệ gia đình."
-      }
+        "trap": "Không chọn các thái độ chống đối tiêu cực hay phá hoại quan hệ gia đình.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch08",
+  "chapterTitle": "Bài 8: Khác biệt và gần gũi (Văn bản nghị luận)",
+  "mode": "practice"
 }

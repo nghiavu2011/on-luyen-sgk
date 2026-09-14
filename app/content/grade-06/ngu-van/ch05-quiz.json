@@ -1,6 +1,6 @@
 {
   "chapterId": "ch05",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 5: Những nẻo đường xứ sở (Văn bản du kí)",
+  "title": "Ngữ văn 6 — Bài 5: Những nẻo đường xứ sở (Văn bản du kí) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -17,8 +17,15 @@
       "breakdown": {
         "concept": "Tác giả văn bản du kí Cô Tô.",
         "steps": "Nguyễn Tuân là bậc thầy tùy bút và ký với ngôn ngữ điêu luyện.",
-        "trap": "Không nhầm với Tô Hoài viết Dế Mèn."
-      }
+        "trap": "Không nhầm với Tô Hoài viết Dế Mèn.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác giả văn bản du kí cô tô.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Thể loại du kí có đặc điểm then chốt nào sau đây?",
       "options": [
-        "Ghi chép lại những điều mắt thấy tai nghe trong một chuyến đi thực tế của chính tác giả",
         "Tác phẩm tưởng tượng hoàn toàn về thế giới tương lai",
+        "Ghi chép lại những điều mắt thấy tai nghe trong một chuyến đi thực tế của chính tác giả",
         "Những bài hát dân ca truyền miệng",
         "Văn bản quy phạm pháp luật"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đặc trưng thể loại ký và du kí.",
         "steps": "Du kí ghi lại chân thực hành trình trải nghiệm của tác giả tại vùng đất mới.",
-        "trap": "Du kí không phải là hư cấu viễn tưởng."
-      }
+        "trap": "Du kí không phải là hư cấu viễn tưởng.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng thể loại ký và du kí.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -44,17 +58,24 @@
       "type": "multiple_choice",
       "question": "Cảnh mặt trời mọc trên đảo Cô Tô được Nguyễn Tuân so sánh với hình ảnh tuyệt mỹ nào?",
       "options": [
-        "Lòng đỏ một quả trứng thiên nhiên đầy đặn đặt trên mâm bạc đường kính mâm rộng bằng cả một chân trời màu ngọc trai",
-        "Một quả bóng bay khổng lồ rơi xuống biển",
         "Một đốm lửa nhỏ le lói trong sương mù",
+        "Một quả bóng bay khổng lồ rơi xuống biển",
+        "Lòng đỏ một quả trứng thiên nhiên đầy đặn đặt trên mâm bạc đường kính mâm rộng bằng cả một chân trời màu ngọc trai",
         "Một chiếc đĩa bay lơ lửng trên không trung"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Chi tiết nghệ thuật đặc sắc trong Cô Tô.",
         "steps": "Nguyễn Tuân so sánh mặt trời như lòng đỏ quả trứng đặt trên mâm bạc ngọc trai.",
-        "trap": "Các hình ảnh khác không đúng câu chữ văn bản."
-      }
+        "trap": "Các hình ảnh khác không đúng câu chữ văn bản.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết nghệ thuật đặc sắc trong cô tô.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Trong câu thơ: 'Người Cha mái tóc bạc / Đốt lửa cho anh nằm', hình ảnh 'Người Cha' là biện pháp tu từ gì?",
       "options": [
-        "Ẩn dụ phẩm chất",
+        "Chơi chữ",
         "Nhân hóa",
         "Nói quá",
-        "Chơi chữ"
+        "Ẩn dụ phẩm chất"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Phân loại các hình thức ẩn dụ.",
         "steps": "Bác Hồ được gọi là 'Người Cha' dựa trên nét tương đồng về tình yêu thương, sự chăm sóc con cháu.",
-        "trap": "Không phải hoán dụ hay nhân hóa."
-      }
+        "trap": "Không phải hoán dụ hay nhân hóa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân loại các hình thức ẩn dụ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -89,8 +117,15 @@
       "breakdown": {
         "concept": "Phân tích ý nghĩa cảnh sinh hoạt đời thường trong tác phẩm du kí.",
         "steps": "Cảnh gánh nước quanh giếng thể hiện sức sống phục hồi mãnh liệt, tình làng nghĩa xóm ấm no sau thiên tai bão tố.",
-        "trap": "Tránh các yếu tố mê tín hoang đường."
-      }
+        "trap": "Tránh các yếu tố mê tín hoang đường.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích ý nghĩa cảnh sinh hoạt đời thường trong tác phẩm du kí.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Từ các bài ký 'Cô Tô' và 'Hang Én', thế hệ học sinh hôm nay cần hành động cụ thể nào để bảo tồn vẻ đẹp giang sơn xứ sở?",
       "options": [
-        "Nâng cao ý thức du lịch có trách nhiệm, giữ gìn vệ sinh môi trường biển đảo, không xả rác thải nhựa và tích cực quảng bá cảnh đẹp đất nước",
         "Xây dựng thật nhiều khách sạn bê tông cốt thép ngay trong lòng hang động tự nhiên",
+        "Nâng cao ý thức du lịch có trách nhiệm, giữ gìn vệ sinh môi trường biển đảo, không xả rác thải nhựa và tích cực quảng bá cảnh đẹp đất nước",
         "Khuyến khích săn bắt các loài chim én và san hô để làm đồ lưu niệm",
         "Hạn chế người Việt Nam đi tham quan cảnh đẹp trong nước"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Trách nhiệm công dân với môi trường và chủ quyền biển đảo.",
         "steps": "Bảo vệ môi trường sinh thái nguyên sơ và phát triển du lịch xanh bền vững.",
-        "trap": "Không chọn các hành vi phá hủy cân bằng sinh thái."
-      }
+        "trap": "Không chọn các hành vi phá hủy cân bằng sinh thái.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: trách nhiệm công dân với môi trường và chủ quyền biển đảo.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch05",
+  "chapterTitle": "Bài 5: Những nẻo đường xứ sở (Văn bản du kí)",
+  "examId": "tonghop",
+  "mode": "exam"
 }

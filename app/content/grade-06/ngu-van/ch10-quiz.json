@@ -1,6 +1,6 @@
 {
   "chapterId": "ch10",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 10: Cuốn sách tôi yêu (Dự án đọc sách)",
+  "title": "Ngữ văn 6 — Bài 10: Cuốn sách tôi yêu (Dự án đọc sách) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -8,17 +8,24 @@
       "type": "multiple_choice",
       "question": "Mục đích quan trọng nhất của việc ghi chép 'Nhật ký đọc sách' là gì?",
       "options": [
-        "Lưu giữ những suy ngẫm, trích dẫn hay, giúp hiểu sâu và ghi nhớ lâu kiến thức từ cuốn sách",
-        "Để nộp lấy điểm rồi vứt đi ngay sau đó",
         "Để chép lại từng chữ của cả cuốn sách từ đầu đến cuối",
+        "Để nộp lấy điểm rồi vứt đi ngay sau đó",
+        "Lưu giữ những suy ngẫm, trích dẫn hay, giúp hiểu sâu và ghi nhớ lâu kiến thức từ cuốn sách",
         "Để che mắt cha mẹ không cho biết mình đang làm gì"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Ý nghĩa của phương pháp ghi nhật ký đọc sách.",
         "steps": "Nhật ký đọc sách là công cụ đối thoại giữa người đọc và tác phẩm, giúp phát triển tư duy cá nhân.",
-        "trap": "Không nhầm với việc sao chép cơ học."
-      }
+        "trap": "Không nhầm với việc sao chép cơ học.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa của phương pháp ghi nhật ký đọc sách.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Khi giới thiệu một cuốn sách yêu thích trước lớp, thông tin nào sau đây là BẮT BUỘC phải giới thiệu đầu tiên?",
       "options": [
-        "Tên sách và tên tác giả cuốn sách",
+        "Số điện thoại của nhà in",
         "Giá tiền in ở bìa sau của sách",
         "Tên người bán sách ở cửa hàng",
-        "Số điện thoại của nhà in"
+        "Tên sách và tên tác giả cuốn sách"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Kỹ năng thuyết trình giới thiệu sách học đường.",
         "steps": "Tên sách và tác giả là danh tính cốt lõi của tác phẩm cần giới thiệu rõ ràng đầu tiên.",
-        "trap": "Giá tiền hay nhà in là thông tin thứ yếu."
-      }
+        "trap": "Giá tiền hay nhà in là thông tin thứ yếu.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng thuyết trình giới thiệu sách học đường.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q03",
@@ -53,8 +67,15 @@
       "breakdown": {
         "concept": "Kỹ năng đọc hiểu chủ động theo định hướng phát triển năng lực.",
         "steps": "Đọc chủ động là quá trình tư duy tương tác hai chiều giữa người đọc và văn bản.",
-        "trap": "Đọc thụ động là đọc vẹt không đọng lại tri thức."
-      }
+        "trap": "Đọc thụ động là đọc vẹt không đọng lại tri thức.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng đọc hiểu chủ động theo định hướng phát triển năng lực.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Hành vi nào sau đây thể hiện thái độ tôn trọng bản quyền và văn hóa đọc văn minh?",
       "options": [
-        "Mua và đọc sách thật có bản quyền, ghi rõ nguồn trích dẫn khi sử dụng ý tưởng của tác giả",
         "Tự ý photo lậu toàn bộ cuốn sách rồi đem bán kiếm tiền",
+        "Mua và đọc sách thật có bản quyền, ghi rõ nguồn trích dẫn khi sử dụng ý tưởng của tác giả",
         "Cắt xé các trang sách trong thư viện trường mang về nhà",
         "Tải các bản sách scan lậu trái phép trên mạng"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.",
         "steps": "Tôn trọng tác quyền là ủng hộ tác giả tiếp tục sáng tạo tri thức cho xã hội.",
-        "trap": "Sử dụng sách lậu là vi phạm pháp luật sở hữu trí tuệ."
-      }
+        "trap": "Sử dụng sách lậu là vi phạm pháp luật sở hữu trí tuệ.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q05",
@@ -80,17 +108,24 @@
       "type": "multiple_choice",
       "question": "Khi viết đoạn văn tóm tắt nội dung chính của một cuốn sách dài, học sinh cần tuân thủ nguyên tắc nào?",
       "options": [
-        "Giữ đúng sự trung thực với các sự việc cốt lõi của tác phẩm, diễn đạt ngắn gọn bằng lời văn của mình, không thêm thắt chi tiết sai lệch",
-        "Sao chép nguyên xi chương đầu và chương cuối của sách",
         "Tự bịa ra một kết cục hoàn toàn mới theo ý mình rồi nhận là của tác giả",
+        "Sao chép nguyên xi chương đầu và chương cuối của sách",
+        "Giữ đúng sự trung thực với các sự việc cốt lõi của tác phẩm, diễn đạt ngắn gọn bằng lời văn của mình, không thêm thắt chi tiết sai lệch",
         "Chỉ đếm số từ mà không quan tâm đến nội dung"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.",
         "steps": "Tóm tắt phải bảo đảm tính trung thực với nguyên bản nhưng cô đọng, súc tích.",
-        "trap": "Không được xuyên tạc nội dung sách gốc."
-      }
+        "trap": "Không được xuyên tạc nội dung sách gốc.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Đại thi hào Maxim Gorky từng nói: 'Sách mở rộng trước mắt tôi những chân trời mới'. Em hiểu câu danh ngôn này như thế nào để tạo thói quen đọc sách mỗi ngày?",
       "options": [
-        "Sách là kho tàng tri thức vô tận giúp ta hiểu biết thế giới, nuôi dưỡng tâm hồn cao đẹp, bồi đắp nhân cách và chắp cánh cho những ước mơ tương lai",
+        "Đọc sách chỉ tốn kém thời gian chơi game giải trí",
         "Sách chỉ làm mắt ta bị cận thị và không có tác dụng gì cho công việc sau này",
         "Chỉ những ai không có điện thoại thông minh mới phải tìm đến sách",
-        "Đọc sách chỉ tốn kém thời gian chơi game giải trí"
+        "Sách là kho tàng tri thức vô tận giúp ta hiểu biết thế giới, nuôi dưỡng tâm hồn cao đẹp, bồi đắp nhân cách và chắp cánh cho những ước mơ tương lai"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Vận dụng cao: Tầm quan trọng của văn hóa đọc đối với sự trưởng thành của con người.",
         "steps": "Sách vừa cung cấp tri thức khoa học vừa là người thầy uốn nắn nhân cách và mở rộng tầm nhìn cuộc sống.",
-        "trap": "Tránh các quan điểm lệch lạc bài xích văn hóa đọc."
-      }
+        "trap": "Tránh các quan điểm lệch lạc bài xích văn hóa đọc.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tầm quan trọng của văn hóa đọc đối với sự trưởng thành của con người.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch10",
+  "chapterTitle": "Bài 10: Cuốn sách tôi yêu (Dự án đọc sách)",
+  "examId": "tonghop",
+  "mode": "exam"
 }

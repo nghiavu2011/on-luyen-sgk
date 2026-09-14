@@ -1,6 +1,6 @@
 {
   "chapterId": "ch09",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 9: Trái Đất – Ngôi nhà chung (Văn bản thông tin)",
+  "title": "Ngữ văn 6 — Bài 9: Trái Đất – Ngôi nhà chung (Văn bản thông tin) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -17,8 +17,15 @@
       "breakdown": {
         "concept": "Đặc trưng thể loại văn bản thông tin.",
         "steps": "Văn bản thông tin nhằm truyền tải tri thức khoa học, xã hội chính xác.",
-        "trap": "Không nhầm với tác phẩm văn học hư cấu."
-      }
+        "trap": "Không nhầm với tác phẩm văn học hư cấu.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng thể loại văn bản thông tin.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Công dụng của dấu ngoặc kép trong trường hợp: <em>Trái Đất là \"cái nôi\" của sự sống</em> là gì?",
       "options": [
-        "Đánh dấu từ ngữ được dùng với ý nghĩa đặc biệt (nghĩa ẩn dụ)",
         "Đánh dấu lời dẫn trực tiếp của một vị giáo sư",
+        "Đánh dấu từ ngữ được dùng với ý nghĩa đặc biệt (nghĩa ẩn dụ)",
         "Báo hiệu phần giải thích chi tiết",
         "Kết thúc một câu khẳng định"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Công dụng dấu ngoặc kép trong Tiếng Việt 6.",
         "steps": "'Cái nôi' ở đây không phải nôi em bé mà là biểu tượng nguồn cội nuôi dưỡng sự sống.",
-        "trap": "Không nhầm với trích dẫn nguyên văn lời nói."
-      }
+        "trap": "Không nhầm với trích dẫn nguyên văn lời nói.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng dấu ngoặc kép trong tiếng việt 6.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -44,17 +58,24 @@
       "type": "multiple_choice",
       "question": "Yếu tố tự nhiên nào được tác giả ví như 'vị thần hộ mệnh' bảo vệ sự sinh tồn của muôn loài trên Trái Đất?",
       "options": [
-        "Nước và bầu khí quyển giàu dưỡng khí",
-        "Những mỏ vàng và kim cương dưới lòng đất",
         "Những ngọn núi lửa đang phun trào",
+        "Những mỏ vàng và kim cương dưới lòng đất",
+        "Nước và bầu khí quyển giàu dưỡng khí",
         "Các cơn bão cát sa mạc khổng lồ"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Đọc hiểu chi tiết văn bản 'Trái Đất – cái nôi của sự sống'.",
         "steps": "Nước và tầng ozone/khí quyển bảo vệ sinh vật khỏi bức xạ vũ trụ và nuôi sống tế bào.",
-        "trap": "Kim loại quý hay núi lửa không bảo vệ sự sống."
-      }
+        "trap": "Kim loại quý hay núi lửa không bảo vệ sự sống.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu chi tiết văn bản 'trái đất – cái nôi của sự sống'.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Hành vi nào của con người là nguyên nhân trực tiếp nhất khiến diện tích rừng nhiệt đới bị thu hẹp và nhiều loài động vật mất nơi cư trú?",
       "options": [
-        "Nạn chặt phá rừng bừa bãi để lấy gỗ và khai hoang đất nông nghiệp bất hợp pháp",
+        "Chăm sóc động vật tại vườn thú quốc gia",
         "Trồng thêm cây xanh trong sân trường",
         "Tham gia chiến dịch dọn rác bãi biển",
-        "Chăm sóc động vật tại vườn thú quốc gia"
+        "Nạn chặt phá rừng bừa bãi để lấy gỗ và khai hoang đất nông nghiệp bất hợp pháp"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.",
         "steps": "Phá rừng phá hủy môi trường sống nguyên sinh của các loài thú.",
-        "trap": "Các phương án còn lại là hành động bảo vệ môi trường tích cực."
-      }
+        "trap": "Các phương án còn lại là hành động bảo vệ môi trường tích cực.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -89,8 +117,15 @@
       "breakdown": {
         "concept": "Tư duy khoa học về lưới thức ăn và cân bằng sinh thái.",
         "steps": "Mỗi sinh vật là một mắt xích không thể thiếu trong chuỗi chuyển hóa năng lượng tự nhiên.",
-        "trap": "Tránh lối nghĩ mê tín dị đoan hay thuần túy giá cả chợ búa."
-      }
+        "trap": "Tránh lối nghĩ mê tín dị đoan hay thuần túy giá cả chợ búa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư duy khoa học về lưới thức ăn và cân bằng sinh thái.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Em có thể thực hiện ngay giải pháp sống xanh nào sau đây tại gia đình và trường học để góp phần bảo vệ Trái Đất – ngôi nhà chung?",
       "options": [
-        "Hạn chế tối đa sử dụng đồ nhựa dùng một lần, tắt các thiết bị điện khi không sử dụng, phân loại rác tại nguồn và tích cực trồng cây xanh",
         "Xả rác thải nhựa bừa bãi xuống cống rãnh để nước mưa cuốn trôi",
+        "Hạn chế tối đa sử dụng đồ nhựa dùng một lần, tắt các thiết bị điện khi không sử dụng, phân loại rác tại nguồn và tích cực trồng cây xanh",
         "Mở vòi nước chảy tự do cả ngày cho mát nhà",
         "Bật điều hòa nhiệt độ cực thấp và mở toang cửa sổ"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: Kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.",
         "steps": "Sống xanh bắt đầu từ thói quen tiết kiệm tài nguyên và giảm thiểu rác thải nhựa mỗi ngày.",
-        "trap": "Không chọn các hành vi lãng phí và hủy hoại môi trường."
-      }
+        "trap": "Không chọn các hành vi lãng phí và hủy hoại môi trường.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch09",
+  "chapterTitle": "Bài 9: Trái Đất – Ngôi nhà chung (Văn bản thông tin)",
+  "examId": "tonghop",
+  "mode": "exam"
 }

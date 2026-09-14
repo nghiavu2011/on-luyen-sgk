@@ -1,6 +1,6 @@
 {
   "chapterId": "ch03",
-  "title": "Đề ôn tập Ngữ văn 6 — Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn)",
+  "title": "Ngữ văn 6 — Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn) — Đề 3: Đánh giá Năng lực Tổng hợp",
   "questions": [
     {
       "id": "q01",
@@ -17,8 +17,15 @@
       "breakdown": {
         "concept": "Nhận biết thời gian, bối cảnh nghệ thuật trong truyện ngắn Andersen.",
         "steps": "Văn bản mở đầu bằng bối cảnh đêm giao thừa lạnh buốt, phố xá bừng sáng ánh đèn ấm cúng.",
-        "trap": "Học sinh dễ nhầm sang đêm Giáng sinh."
-      }
+        "trap": "Học sinh dễ nhầm sang đêm Giáng sinh.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết thời gian, bối cảnh nghệ thuật trong truyện ngắn andersen.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q02",
@@ -26,17 +33,24 @@
       "type": "multiple_choice",
       "question": "Trong cụm danh từ 'hai chị em Sơn và Lan', từ nào đóng vai trò là danh từ trung tâm?",
       "options": [
-        "chị em",
         "hai",
+        "chị em",
         "Sơn",
         "Lan"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Cấu trúc mô hình cụm danh từ trong Tiếng Việt lớp 6.",
         "steps": "'hai' là phụ trước chỉ số lượng, 'chị em' là danh từ trung tâm, 'Sơn và Lan' là phụ sau định ngữ.",
-        "trap": "Tránh nhầm số từ 'hai' hoặc tên riêng là phần trung tâm."
-      }
+        "trap": "Tránh nhầm số từ 'hai' hoặc tên riêng là phần trung tâm.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được cấu trúc mô hình cụm danh từ trong tiếng việt lớp 6.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     },
     {
       "id": "q03",
@@ -44,17 +58,24 @@
       "type": "multiple_choice",
       "question": "Nguyên nhân chính khiến em bé bán diêm không dám trở về nhà dù trời rét căm căm là gì?",
       "options": [
-        "Vì chưa bán được que diêm nào, em sợ bị bố đánh mắng mỏ",
-        "Vì em bị lạc đường không nhớ lối về nhà",
         "Vì nhà của em đã bị tuyết phủ lấp mất cửa ra vào",
+        "Vì em bị lạc đường không nhớ lối về nhà",
+        "Vì chưa bán được que diêm nào, em sợ bị bố đánh mắng mỏ",
         "Vì em muốn ở lại ngắm pháo hoa đón năm mới"
       ],
-      "answer": 0,
+      "answer": 2,
       "breakdown": {
         "concept": "Phân tích hoàn cảnh sống éo le của nhân vật cô bé bán diêm.",
         "steps": "Tác phẩm nêu rõ: Về nhà cũng lạnh buốt như ngoài đường và thế nào bố cũng đánh vì không mang tiền về.",
-        "trap": "Nhầm sang lý do ham chơi ngắm cảnh đêm giao thừa."
-      }
+        "trap": "Nhầm sang lý do ham chơi ngắm cảnh đêm giao thừa.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích hoàn cảnh sống éo le của nhân vật cô bé bán diêm.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 2
     },
     {
       "id": "q04",
@@ -62,17 +83,24 @@
       "type": "multiple_choice",
       "question": "Thái độ của mẹ Sơn khi biết hai con mang áo bông của em Duyên cho cái Hiên là gì?",
       "options": [
-        "Âu yếm ôm con vào lòng, không mắng mỏ mà cho bác Hiên vay tiền mua áo mới cho con gái",
+        "Thờ ơ không quan tâm đến chuyện chiếc áo cũ",
         "Nổi trận lôi đình và phạt đòn cả hai chị em Sơn",
         "Bắt Sơn sang nhà Hiên đòi lại chiếc áo bằng được",
-        "Thờ ơ không quan tâm đến chuyện chiếc áo cũ"
+        "Âu yếm ôm con vào lòng, không mắng mỏ mà cho bác Hiên vay tiền mua áo mới cho con gái"
       ],
-      "answer": 0,
+      "answer": 3,
       "breakdown": {
         "concept": "Đọc hiểu cách ứng xử nhân văn của người lớn trong 'Gió lạnh đầu mùa'.",
         "steps": "Người mẹ vừa thấu hiểu tấm lòng thơm thảo của các con, vừa ứng xử tế nhị, nhân ái giúp đỡ gia đình bác Hiên bảo vệ lòng tự trọng.",
-        "trap": "Tránh nhầm người mẹ trách phạt con vì làm mất đồ quý."
-      }
+        "trap": "Tránh nhầm người mẹ trách phạt con vì làm mất đồ quý.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu cách ứng xử nhân văn của người lớn trong 'gió lạnh đầu mùa'.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 3
     },
     {
       "id": "q05",
@@ -89,8 +117,15 @@
       "breakdown": {
         "concept": "Tác dụng của thủ pháp nghệ thuật tương phản trong truyện ngắn.",
         "steps": "Tương phản tạo nên sức ám ảnh ghê gớm về khoảng cách giàu nghèo và sự vô cảm của dòng người qua lại trước sinh mệnh đứa trẻ.",
-        "trap": "Các phương án ca ngợi vẻ đẹp cảnh vật không chạm đến chiều sâu nhân đạo."
-      }
+        "trap": "Các phương án ca ngợi vẻ đẹp cảnh vật không chạm đến chiều sâu nhân đạo.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng của thủ pháp nghệ thuật tương phản trong truyện ngắn.?",
+        "distractorReasons": {
+          "1": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 0
     },
     {
       "id": "q06",
@@ -98,17 +133,30 @@
       "type": "multiple_choice",
       "question": "★ Từ câu chuyện hai chị em Sơn cho bạn chiếc áo bông ấm, em rút ra bài học gì về 'cách cho' trong hoạt động thiện nguyện, giúp đỡ người có hoàn cảnh khó khăn?",
       "options": [
-        "Giúp đỡ bằng tấm lòng chân thành, tự nguyện và luôn giữ thái độ tôn trọng, không làm tổn thương lòng tự trọng của người nhận",
         "Chỉ cho những thứ đồ chơi đã hỏng nát không dùng được nữa",
+        "Giúp đỡ bằng tấm lòng chân thành, tự nguyện và luôn giữ thái độ tôn trọng, không làm tổn thương lòng tự trọng của người nhận",
         "Khi làm từ thiện phải quay phim chụp ảnh để khoe lên mạng xã hội tìm kiếm lời khen",
         "Bắt người nhận phải cúi đầu tạ ơn nhiều lần trước tập thể"
       ],
-      "answer": 0,
+      "answer": 1,
       "breakdown": {
         "concept": "Vận dụng cao: 'Của cho không bằng cách cho' – tinh thần nhân đạo học đường.",
         "steps": "Thiện nguyện chân chính xuất phát từ trái tim đồng cảm, phải tôn trọng danh dự và tự tôn của người yếu thế.",
-        "trap": "Tránh các hành vi ban phát kẻ cả hoặc làm màu trên mạng xã hội."
-      }
+        "trap": "Tránh các hành vi ban phát kẻ cả hoặc làm màu trên mạng xã hội.",
+        "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: 'của cho không bằng cách cho' – tinh thần nhân đạo học đường.?",
+        "distractorReasons": {
+          "0": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK.",
+          "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
+        }
+      },
+      "correct": 1
     }
-  ]
+  ],
+  "grade": "06",
+  "subject": "ngu-van",
+  "chapter": "ch03",
+  "chapterTitle": "Bài 3: Yêu thương và chia sẻ (Truyện ngắn giàu lòng trắc ẩn)",
+  "examId": "tonghop",
+  "mode": "exam"
 }
