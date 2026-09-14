@@ -1,16 +1,164 @@
-[
-  {
-    "id": "gd6_ch07_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Số điện thoại gọi cứu hoả khẩn cấp trên toàn quốc khi phát hiện đám cháy là:",
-    "options": [
-      "A. 113",
-      "B. 114",
-      "C. 115",
-      "D. 111"
-    ],
-    "answer": 1,
-    "explanation": "📌 Kỹ năng sinh tồn: 114 là số điện thoại báo cháy khẩn cấp.\n💡 113: Cảnh sát; 115: Cấp cứu y tế; 111: Bảo vệ trẻ em.\n⚠️ Khắc sâu các đầu số cứu nạn cứu hộ quốc gia."
-  }
-]
+{
+  "chapterId": "ch07",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi - Bài 7: Ứng phó với tình huống nguy hiểm",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "gdcd6_ch07_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Số điện thoại khẩn cấp cứu hỏa",
+      "question": "Khi phát hiện có hỏa hoạn (cháy nhà) xảy ra, số điện thoại khẩn cấp nào sau đây dùng để gọi lực lượng Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ?",
+      "options": [
+        "113",
+        "115",
+        "114",
+        "111"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Số điện thoại khẩn cấp quốc gia (Bài 7, SGK GDCD 6, trang 32).",
+        "steps": "114 là số gọi Cứu hỏa; 113 là Cảnh sát trật tự; 115 là Cấp cứu y tế; 111 là Tổng đài Quốc gia bảo vệ trẻ em.",
+        "trap": "Dễ nhầm lẫn giữa 114 (cháy) và 115 (cấp cứu y tế) hoặc 113 (cảnh sát)."
+      },
+      "socraticPrompt": "Số điện thoại khẩn cấp 3 chữ số bắt đầu bằng hai số 11 và kết thúc bằng số 4 có chức năng gì?",
+      "distractorReasons": [
+        "Sai, 113 là lực lượng Cảnh sát phản ứng nhanh xử lý tội phạm trật tự.",
+        "Sai, 115 là đường dây cấp cứu xe cứu thương y tế.",
+        "Chính xác, 114 là đường dây nóng khẩn cấp báo cháy và cứu nạn cứu hộ.",
+        "Sai, 111 là tổng đài bảo vệ trẻ em khỏi xâm hại bạo lực."
+      ]
+    },
+    {
+      "id": "gdcd6_ch07_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kỹ năng thoát hiểm trong đám cháy",
+      "question": "Khi xảy ra hỏa hoạn trong một tòa nhà chung cư có nhiều khói độc bốc lên, hành động thoát hiểm nào sau đây là ĐÚNG QUY CÁCH AN TOÀN?",
+      "options": [
+        "Chạy ngay vào thang máy để bấm nút xuống tầng 1 cho nhanh",
+        "Nhảy từ cửa sổ tầng 5 xuống đất",
+        "Đứng thẳng người hít thở sâu để chạy thật nhanh",
+        "Dùng khăn hoặc vải nhúng ướt bịt kín mũi và miệng, cúi thấp người hoặc bò sát mặt đất men theo tường ra lối cầu thang bộ thoát hiểm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kỹ năng thoát hiểm khi cháy có khói độc (Bài 7, SGK GDCD 6, trang 32).",
+        "steps": "Khói độc và khí CO bốc lên cao. Khăn ướt lọc khí độc, cúi bò sát sàn nhà có lớp không khí sạch để thở và di chuyển bằng thang bộ.",
+        "trap": "Sử dụng thang máy trong đám cháy (thang máy sẽ bị mất điện kẹt nhốt người bên trong)."
+      },
+      "socraticPrompt": "Khói độc khi cháy nhẹ hơn không khí sẽ bay lên trần nhà hay chìm sát mặt sàn? Ta nên đứng thẳng hay bò sát đất?",
+      "distractorReasons": [
+        "Sai, đám cháy thường gây cắt điện, thang máy sẽ biến thành lò thiêu kín cực kỳ nguy hiểm.",
+        "Sai, nhảy từ tầng cao xuống đất chắc chắn dẫn đến tử vong.",
+        "Sai, hít khói độc ở tư thế đứng thẳng sẽ khiến nạn nhân ngất xỉu chỉ sau vài giây.",
+        "Chính xác, kỹ năng sinh tồn tiêu chuẩn vàng chống ngạt khói độc và tìm lối thoát an toàn."
+      ]
+    },
+    {
+      "id": "gdcd6_ch07_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ứng phó khi gặp mưa dông sấm sét",
+      "question": "Khi đang đi ngoài đường gặp mưa dông sấm sét dữ dội, điều nào sau đây là TUYỆT ĐỐI KHÔNG ĐƯỢC LÀM?",
+      "options": [
+        "Chạy đến đứng trú mưa dưới gốc một cây cổ thụ to lớn đơn độc hoặc gần cột điện cao thế",
+        "Vào trú mưa trong một ngôi nhà kiên cố của người dân ven đường",
+        "Tránh xa các vật dụng bằng kim loại như cuốc, xẻng, xe đạp",
+        "Ở trong ô tô đóng kín cửa kính"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phòng tránh sét đánh (Bài 7, SGK GDCD 6, trang 33).",
+        "steps": "Cây to và cột điện cao thế là những vật nhô cao dẫn sét mạnh nhất. Đứng dưới gốc cây khi có sét là tự biến mình thành mục tiêu sét đánh chết người.",
+        "trap": "Thói quen thấy mưa to là lao vào gốc cây to trú tạm."
+      },
+      "socraticPrompt": "Tia sét trên trời thường đánh vào những điểm nhô cao nhất hay đánh xuống vùng trũng thấp?",
+      "distractorReasons": [
+        "Chính xác, hành vi cực kỳ nguy hiểm TUYỆT ĐỐI PHẢI TRÁNH để bảo vệ tính mạng.",
+        "Sai vì trú trong nhà kiên cố là việc NÊN LÀM.",
+        "Sai vì tránh xa kim loại là quy tắc NÊN LÀM.",
+        "Sai vì vỏ kim loại ô tô tạo thành lồng Faraday an toàn."
+      ]
+    },
+    {
+      "id": "gdcd6_ch07_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ứng phó khi thấy người bị đuối nước",
+      "question": "Khi thấy một bạn học sinh đang vùng vẫy kêu cứu dưới ao nước sâu, nếu bản thân em KHÔNG BIẾT BƠI, hành động ĐÚNG ĐẮN NHẤT của em là gì?",
+      "options": [
+        "Lập tức nhảy ùm xuống ao ôm lấy bạn",
+        "Hô hoán thật to để gọi người lớn xung quanh đến cứu hộ, đồng thời nhanh chóng tìm sào tre dài, cành cây, dây thừng hoặc ném can nhựa rỗng, phao xuống cho bạn bám vào",
+        "Bỏ chạy đi về nhà coi như không thấy gì",
+        "Đứng cười đùa quay video phát trực tiếp"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Kỹ năng cứu hộ đuối nước gián tiếp an toàn (Bài 7, SGK GDCD 6, trang 33).",
+        "steps": "Quy tắc vàng: Người không biết bơi (hoặc trẻ em chưa có kỹ năng cứu hộ chuyên nghiệp) tuyệt đối không nhảy trực tiếp xuống nước vì sẽ bị nạn nhân dìm chìm theo. Phải cứu hộ gián tiếp từ trên bờ bằng hô hoán và quăng vật nổi.",
+        "trap": "Nhảy xuống nước theo phản xạ khiến cả hai cùng tử vong thương tâm."
+      },
+      "socraticPrompt": "Khi người sắp chết đuối đang hoảng loạn, họ sẽ có phản xạ bám chặt và dìm bất kỳ ai ở gần xuống nước ra sao?",
+      "distractorReasons": [
+        "Sai, hành động dại dột dẫn đến tai nạn đuối nước kép thương tâm.",
+        "Chính xác, phương pháp cứu hộ thông minh, an toàn và hiệu quả nhất cho học sinh.",
+        "Sai, bỏ mặc bạn chết trong hoạn nạn là hành vi vô cảm.",
+        "Sai, quay video vô cảm tàn nhẫn trước mạng sống con người."
+      ]
+    },
+    {
+      "id": "gdcd6_ch07_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ứng phó khi người lạ gạ gẫm đi theo",
+      "question": "Đang đứng chờ bố mẹ trước cổng trường, có một người đàn ông lạ mặt đi xe máy đến bảo: 'Bố cháu bị tai nạn đang nằm viện cấp cứu, bố nhờ chú đến đón cháu đến viện gấp, lên xe chú đèo đi ngay'. Em cần ứng phó như thế nào?",
+      "options": [
+        "Hoảng hốt nhảy lên xe người lạ đi ngay",
+        "Đưa cặp sách và đồng hồ cho người lạ giữ hộ",
+        "Bình tĩnh lùi lại giữ khoảng cách an toàn, tuyệt đối không lên xe; chạy ngay vào phòng bác bảo vệ hoặc báo cho thầy cô giáo trong trường để gọi điện thoại xác minh trực tiếp với bố mẹ",
+        "Chửi bới và ném đá vào người đàn ông đó"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phòng chống bắt cóc lừa đảo trẻ em (Bài 7, SGK GDCD 6, trang 31-32).",
+        "steps": "Đây là thủ đoạn kinh điển của tội phạm bắt cóc nhằm đánh vào tâm lý hoảng loạn thương cha mẹ của trẻ. Quy tắc: Giữ khoảng cách -> Chạy vào khu vực an toàn (phòng bảo vệ) -> Xác minh với người thân.",
+        "trap": "Nghe tin bố mẹ gặp nạn là mất bình tĩnh tin lời kẻ gian."
+      },
+      "socraticPrompt": "Nếu bố mẹ nhờ người đón em, bố mẹ có dặn trước mật khẩu hay nhờ những người thân quen mà em đã biết mặt không?",
+      "distractorReasons": [
+        "Sai, rơi vào bẫy của tội phạm buôn bán người nguy hiểm khôn lường.",
+        "Sai, mất tài sản cho kẻ gian.",
+        "Chính xác, kỹ năng tự vệ phòng chống bắt cóc chuẩn xác, bình tĩnh và an toàn tuyệt đối.",
+        "Sai, khiêu khích tội phạm có thể dẫn tới bị tấn công bạo lực."
+      ]
+    },
+    {
+      "id": "gdcd6_ch07_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ứng phó khi trời mưa đá",
+      "question": "Khi đang ở trong lớp học mà ngoài trời xuất hiện trận mưa đá dữ dội (những viên đá to rơi rào rào làm vỡ ngói), hành động an toàn nhất của học sinh là gì?",
+      "options": [
+        "Rủ nhau chạy ào ra sân trường để nhặt đá nghịch ném nhau",
+        "Mở toang tất cả các cửa sổ để đón gió lốc vào lớp",
+        "Trèo lên mái nhà để xem mưa đá",
+        "Ở yên trong lớp học, tránh xa cửa sổ kính, che chắn bảo vệ đầu và làm theo hướng dẫn của thầy cô giáo"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ứng phó với mưa đá và lốc xoáy (Bài 7, SGK GDCD 6, trang 35).",
+        "steps": "Mưa đá rơi từ trên cao với vận tốc lớn có thể làm vỡ đầu, thủng mái tôn, vỡ kính bắn vào người. Cần ở nơi có mái che kiên cố, bảo vệ đầu và tránh xa cửa kính.",
+        "trap": "Tính hiếu động chạy ra sân nhặt đá dẫn đến bị chấn thương sọ não."
+      },
+      "socraticPrompt": "Một viên đá rơi từ tầng mây cao hàng nghìn mét xuống đầu em có gây thương tích nặng nề không?",
+      "distractorReasons": [
+        "Sai, đây là hành vi cực kỳ nguy hiểm bị cấm theo bài tập trang 35 SGK GDCD 6.",
+        "Sai, mở cửa đón gió lốc làm tốc mái và nguy hiểm cho lớp học.",
+        "Sai, trèo mái nhà dễ bị sét đánh hoặc ngã tử vong.",
+        "Chính xác, bảo đảm an toàn tính mạng và sức khỏe trước thiên tai thời tiết nguy hiểm."
+      ]
+    }
+  ]
+}

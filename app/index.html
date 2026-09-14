@@ -89,7 +89,7 @@
                             <p>Toán 6 Kết nối tri thức</p>
                         </div>
                         <div class="ol-stat-item">
-                            <h3 id="stat-total-exams">411 đề</h3>
+                            <h3 id="stat-total-exams">447 đề</h3>
                             <p>Đề ôn luyện trắc nghiệm</p>
                         </div>
                         <div class="ol-stat-item">
@@ -374,7 +374,7 @@
                     { id: "ngu-van", name: "Ngữ Văn", icon: "📖", chapters: 10 },
                     { id: "tieng-anh", name: "Tiếng Anh", icon: "🔤", chapters: 12 },
                     { id: "lich-su-dia-li", name: "Lịch sử & Địa lí", icon: "🌍", chapters: 10 },
-                    { id: "giao-duc-cong-dan", name: "Giáo dục Công dân", icon: "🏛️", chapters: 8 },
+                    { id: "giao-duc-cong-dan", name: "Giáo dục Công dân", icon: "🏛️", chapters: 12 },
                     { id: "tin-hoc", name: "Tin học", icon: "💻", chapters: 6 }
                 ]
             },
@@ -487,8 +487,8 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🌟</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% 5 môn học: Toán (9 ch), KHTN (11 ch), Ngữ Văn (10 bài), Sử-Địa (10 ch), Tin học (6 ch) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 46 chương/chủ đề với 138 đề thi phân hóa, 828 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 532 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 6 — Hoàn thành 100% 6 môn học: Toán (9 ch), KHTN (11 ch), Ngữ Văn (10 bài), Sử-Địa (10 ch), Tin học (6 ch), GDCD (12 bài) chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 58 chương/bài với 174 đề thi phân hóa, 1.044 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 676 thẻ flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
@@ -506,6 +506,9 @@
                                 </a>
                                 <a href="subject.html?grade=06&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     💻 Tin học 6 ➔
+                                </a>
+                                <a href="subject.html?grade=06&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🏛️ GDCD 6 ➔
                                 </a>
                             </div>
                         </div>
@@ -597,6 +600,9 @@
                 } else if (selectedGrade === '06' && s.id === 'tin-hoc') {
                     isReady = true;
                     readyNote = '6/6 chủ đề đã xong 100%';
+                } else if (selectedGrade === '06' && s.id === 'giao-duc-cong-dan') {
+                    isReady = true;
+                    readyNote = '12/12 bài đã xong 100%';
                 } else if (selectedGrade === '11' && s.id === 'hoa-hoc') {
                     isReady = true;
                     readyNote = '6/6 chương đã xong 100%';
