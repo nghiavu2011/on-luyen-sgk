@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch08_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Dãy núi Himalaya (Hi-ma-lay-a) đồ sộ nhất thế giới với đỉnh Everest cao $8\\ 848\\text{ m}$ được hình thành do tác động kiến tạo nào sau đây?",
-    "options": [
-      "A. Hai mảng kiến tạo (mảng Ấn Độ và mảng Á - Âu) xô húc va chạm dữ dội vào nhau khiến lớp đất đá bị uốn nếp dồn ép dâng cao",
-      "B. Hai mảng kiến tạo tách xa nhau tạo vực thẳm",
-      "C. Do sóng thần bồi đắp cát sỏi tạo thành",
-      "D. Do một thiên thạch khổng lồ đâm vào Trái Đất"
-    ],
-    "answer": 0,
-    "explanation": "📌 Thuyết kiến tạo mảng: Khi hai mảng lục địa va chạm xô húc vào nhau, mép các mảng bị uốn nếp chèn ép dữ dội đội lớp vỏ Trái Đất nhô cao thành những dãy núi trẻ cao nhất hành tinh.\n💡 Đến nay Himalaya vẫn tiếp tục cao thêm vài milimet mỗi năm.\n⚠️ Bậc tư duy cao: Giải thích nguồn gốc các đại địa hình bằng thuyết kiến tạo mảng."
-  }
-]
+{
+  "chapterId": "ch08",
+  "quizId": "tonghop",
+  "title": "Chương 8: Cấu tạo của Trái Đất & Địa hình bề mặt — 🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "lsdl6_ch08_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự va chạm mảng kiến tạo",
+      "question": "Khi hai mảng kiến tạo xô vào nhau (như mảng Ấn Độ xô vào mảng Á - Âu), kết quả địa chất nào sau đây sẽ xuất hiện dọc theo ranh giới tiếp xúc?",
+      "options": [
+        "Đáy biển sẽ mở rộng ra và hình thành một vùng trũng bằng phẳng",
+        "Vỏ Trái Đất bị nén ép dữ dội, các lớp đất đá bị uốn nếp nhô cao hình thành các dãy núi cao đồ sộ kèm theo nhiều trận động đất mạnh",
+        "Tất cả các mảng kiến tạo sẽ tự động tan chảy hoàn toàn thành nước",
+        "Hai mảng sẽ trượt nhẹ nhàng qua nhau mà không hề gây ra bất kì rung chuyển nào"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khi hai mảng lục địa xô húc nhau: vật chất bị dồn nén uốn nếp tạo thành những nếp gấp khổng lồ nhô cao thành núi (như dãy Hi-ma-lay-a), đồng thời tích lũy ứng suất sinh ra những trận động đất kinh hoàng.",
+        "socraticPrompt": "Lấy hai mép của tấm thảm đẩy mạnh vào nhau thì phần giữa sẽ uốn cong nhô lên hay chìm xuống?",
+        "steps": "Uốn nếp nhô lên tạo núi cao uốn nếp + động đất dữ dội.",
+        "trap": "Nhầm với kết quả của hai mảng tách xa nhau (tạo sống núi ngầm đại dương)."
+      },
+      "distractorReasons": {
+        "A": "Sai, đáy biển mở rộng là kết quả khi hai mảng tách xa nhau.",
+        "B": "Đáp án chính xác theo cơ chế kiến tạo mảng SGK trang 130.",
+        "C": "Sai, mảng thạch quyển rất dày và rắn chắc.",
+        "D": "Sai, sự va chạm luôn đi kèm rung chuyển động đất dữ dội."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Địa hình Karst",
+      "question": "Quần thể danh thắng Tràng An (Ninh Bình) và Vịnh Hạ Long (Quảng Ninh) của Việt Nam với các hang động kì ảo, thạch nhũ lung linh là kiệt tác của quá trình ngoại lực nào?",
+      "options": [
+        "Do núi lửa phun trào dung nham tạo thành các cột thạch nhũ",
+        "Quá trình con người dùng máy khoan để đục khoét hang động nhân tạo",
+        "Do các vụ nổ thiên thạch khoét sâu vào núi",
+        "Quá trình phong hóa hóa học: nước mưa có chứa a-xít nhẹ hòa tan và rửa lũa đá vôi qua hàng triệu năm (địa hình Karst)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nước mưa chứa khí $CO_2$ tạo thành axit yếu $H_2CO_3$, hòa tan đá vôi $CaCO_3$ tạo nên các hang động ngầm và thạch nhũ kì vĩ. Hiện tượng này trong địa lí gọi là hiện tượng Karst (caxtơ).",
+        "socraticPrompt": "Nước mưa chảy vào núi đá vôi lâu ngày có làm tan chảy đá tạo hang động không?",
+        "steps": "Quá trình hòa tan rửa lũa đá vôi tạo địa hình Karst độc nhất vô nhị.",
+        "trap": "Nghĩ rằng hang động do con người đào đục để làm du lịch."
+      },
+      "distractorReasons": {
+        "A": "Sai, đá vôi là đá trầm tích hữu cơ, không phải đá núi lửa.",
+        "B": "Sai, các hang động là kì quan thiên nhiên tạo tác qua hàng triệu năm.",
+        "C": "Sai, thiên thạch không tạo nên cấu trúc hang ngầm thạch nhũ.",
+        "D": "Đáp án đúng theo kiến thức địa mạo ngoại lực SGK trang 132."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sóng thần và động đất dưới đáy biển",
+      "question": "Một trận động đất mạnh xảy ra dưới đáy biển sâu có thể kích hoạt thảm họa thiên tai tàn phá ven bờ cực kì khủng khiếp nào sau đây?",
+      "options": [
+        "Sóng thần (Tsunami) với các cột sóng cao hàng chục mét ập vào đất liền với tốc độ hàng trăm km/h",
+        "Bão cát mù mịt",
+        "Mưa đá rơi trên diện rộng",
+        "Lốc xoáy lửa trên sa mạc"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Động đất đáy biển làm dịch chuyển đột ngột các khối nước khổng lồ theo chiều thẳng đứng, tạo ra các đợt sóng thần lan truyền với vận tốc của máy bay phản lực (700-800 km/h) và khi vào bờ dâng cao thành bức tường nước hủy diệt.",
+        "socraticPrompt": "Đáy biển bị nứt gãy rung chuyển mạnh sẽ hất tung cột nước biển tạo nên loại sóng khổng lồ nào?",
+        "steps": "Động đất dưới đáy biển -> Sóng thần kinh hoàng tàn phá dải ven bờ.",
+        "trap": "Nhầm lẫn sóng thần với sóng do gió bão thông thường."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo cơ chế hiểm họa địa chất SGK trang 134.",
+        "B": "Sai, bão cát chỉ xảy ra trên đất liền khô cằn.",
+        "C": "Sai, mưa đá là hiện tượng khí tượng đối lưu không khí lạnh.",
+        "D": "Sai, lốc xoáy lửa không sinh ra từ đáy biển."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Khai thác bền vững",
+      "question": "Việc khai thác khoáng sản bừa bãi không theo quy hoạch (như khai thác vàng trái phép, đào đãi than lộ thiên) sẽ dẫn đến những hậu quả môi trường nghiêm trọng nào?",
+      "options": [
+        "Làm sạch không khí và nước sông xung quanh",
+        "Làm cho trữ lượng khoáng sản tự động tăng gấp đôi",
+        "Gây sạt lở đất đá, ô nhiễm nguồn nước ngầm bởi hóa chất độc hại và tàn phá nghiêm trọng thảm thực vật tự nhiên",
+        "Không gây ra bất kì ảnh hưởng tiêu cực nào cho môi trường"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Khai thác khoáng sản tự do hủy hoại thảm rừng che phủ, làm xói mòn sạt lở đất nghiêm trọng trong mùa mưa lũ, đồng thời thủy ngân và hóa chất tuyển quặng làm nhiễm độc nguồn nước sinh hoạt của nhân dân.",
+        "socraticPrompt": "Đào bới sườn núi để lấy quặng thì khi mưa lớn sườn núi có nguy cơ bị làm sao?",
+        "steps": "Hủy hoại cân bằng sinh thái, sạt lở đất và đầu độc nguồn nước.",
+        "trap": "Chỉ nhìn thấy nguồn lợi kinh tế trước mắt mà bỏ qua hiểm họa môi trường lâu dài."
+      },
+      "distractorReasons": {
+        "A": "Sai, khói bụi và nước thải làm ô nhiễm nặng nề.",
+        "B": "Sai, khoáng sản là tài nguyên không thể phục hồi.",
+        "C": "Đáp án đúng theo bài học bảo vệ tài nguyên tự nhiên SGK trang 138.",
+        "D": "Sai, đây là hiểm họa sinh thái đe dọa trực tiếp đời sống con người."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Thực hành đọc bản đồ địa hình",
+      "question": "Khi quan sát một lát cắt địa hình đi từ bờ biển vào sâu trong đất liền, thứ tự sắp xếp độ cao tuyệt đối thông thường của các dạng địa hình sẽ là gì?",
+      "options": [
+        "Núi cao nhất nằm sát mép nước biển -> Đồng bằng ở giữa -> Đồi ở sâu trong cùng",
+        "Đồng bằng ven biển (thấp dưới 200m) -> Đồi/Trung du (dưới 200m) -> Vùng núi cao hiểm trở (trên 500m đến hàng nghìn mét)",
+        "Mọi dạng địa hình từ biển vào sâu lục địa đều có độ cao bằng nhau",
+        "Cao nguyên nằm dưới đáy biển sâu"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy luật bậc thang địa hình phổ biến ở Việt Nam: thấp dần từ vùng núi cao nội địa phía Tây Bắc ra vùng đồi trung du, đồng bằng phù sa ven biển và cuối cùng là thềm lục địa.",
+        "socraticPrompt": "Đi từ bờ biển lùi sâu vào nội địa nước ta, địa hình cao dần lên hay thấp xuống?",
+        "steps": "Đồng bằng duyên hải thấp -> đồi bát úp -> các dãy núi trùng điệp phía tây.",
+        "trap": "Đảo lộn trật tự độ cao của các dạng địa hình."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là trường hợp cá biệt bờ biển đá dốc, không phải quy luật lát cắt phổ biến.",
+        "B": "Đáp án đúng theo bài thực hành đọc lát cắt địa hình SGK trang 140.",
+        "C": "Sai, địa hình luôn có sự phân bậc cao thấp rõ rệt.",
+        "D": "Sai, cao nguyên là địa hình trên cạn, dưới đáy biển gọi là bồn trũng."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sống chung an toàn với thiên tai",
+      "question": "Nhật Bản là quốc gia thường xuyên hứng chịu động đất và sóng thần. Người dân Nhật Bản đã thích nghi và giảm thiểu thiệt hại bằng giải pháp thông minh nào sau đây?",
+      "options": [
+        "Chuyển toàn bộ dân cư sang nước khác sinh sống",
+        "Không quan tâm vì cho rằng động đất là do số mệnh trời định",
+        "Cấm toàn bộ người dân không được bước chân ra khỏi nhà",
+        "Xây dựng các tòa nhà có kết cấu giảm chấn chống động đất hiện đại, lắp đặt hệ thống cảnh báo sớm sóng thần và thường xuyên diễn tập cứu nạn cho mọi người dân"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bài học từ Nhật Bản: ứng dụng khoa học công nghệ (vật liệu nhẹ, lò xo giảm chấn dưới móng nhà), mạng lưới cảm biến cảnh báo sớm trên biển và giáo dục kĩ năng sinh tồn từ lứa tuổi mầm non giúp giảm thiểu tối đa thiệt hại.",
+        "socraticPrompt": "Nhật Bản làm gì với các tòa nhà cao tầng để khi động đất không bị sụp đổ?",
+        "steps": "Kết hợp công nghệ chống rung lắc + cảnh báo sớm + giáo dục ý thức toàn dân.",
+        "trap": "Tư tưởng cam chịu mê tín dị đoan hoặc bi quan tiêu cực."
+      },
+      "distractorReasons": {
+        "A": "Sai, người Nhật kiên cường xây dựng đất nước trên chính quê hương mình.",
+        "B": "Sai, người Nhật dựa vào khoa học công nghệ và sự chuẩn bị kĩ lưỡng.",
+        "C": "Sai, cuộc sống sinh hoạt và làm việc vẫn diễn ra năng động, an toàn.",
+        "D": "Đáp án đúng theo bài học thích ứng thiên tai thực tiễn."
+      }
+    }
+  ]
+}

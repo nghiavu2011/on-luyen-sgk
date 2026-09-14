@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch09_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Gió được sinh ra do nguyên nhân cốt lõi nào sau đây?",
-    "options": [
-      "A. Trái Đất ngừng quay",
-      "B. Sự chênh lệch khí áp giữa nơi áp cao và nơi áp thấp",
-      "C. Sóng biển dâng trào xô vào bờ",
-      "D. Mặt Trăng hút không khí"
-    ],
-    "answer": 1,
-    "explanation": "📌 Nguyên lí khí tượng: Không khí di chuyển từ vùng có áp suất cao (áp cao) tràn về vùng có áp suất thấp (áp thấp) tạo nên các luồng gió.\n💡 Chênh lệch áp suất càng lớn thì gió thổi càng mạnh.\n⚠️ Nhớ chiều gió: Từ Cao $\\rightarrow$ Thấp."
-  },
-  {
-    "id": "sd6_ch09_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Hai bạn rủ nhau leo núi Ba Vì. Tại chân núi có độ cao $100\\text{ m}$, nhiệt độ đo được là $28^\\circ\\text{C}$. Khi lên tới đỉnh núi ở độ cao $1100\\text{ m}$, nhiệt độ tại đó xấp xỉ bao nhiêu độ C?",
-    "options": [
-      "A. $22^\\circ\\text{C}$",
-      "B. $25^\\circ\\text{C}$",
-      "C. $34^\\circ\\text{C}$",
-      "D. $18^\\circ\\text{C}$"
-    ],
-    "answer": 0,
-    "explanation": "📌 Phương pháp tính: Độ cao chênh lệch: $1100 - 100 = 1000\\text{ m}$.\nCứ lên $100\\text{ m}$ nhiệt độ giảm $0,6^\\circ\\text{C} \\Rightarrow$ Lên $1000\\text{ m}$ nhiệt độ giảm: $\\frac{1000}{100} \\times 0,6 = 6^\\circ\\text{C}$.\nNhiệt độ trên đỉnh núi: $28 - 6 = 22^\\circ\\text{C}$.\n💡 Càng lên cao không khí càng lạnh.\n⚠️ Cảnh báo bẫy: Nhầm lẫn cộng thêm nhiệt độ thay vì trừ đi."
-  }
-]
+{
+  "chapterId": "ch09",
+  "quizId": "de1",
+  "title": "Chương 9: Khí hậu & Biến đổi khí hậu — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch09_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thành phần không khí",
+      "question": "Khí nào chiếm tỉ lệ thể tích lớn nhất trong thành phần của không khí ở lớp vỏ khí của Trái Đất?",
+      "options": [
+        "Khí Nitơ ($N_2$ chiếm khoảng 78%)",
+        "Khí Ô-xi ($O_2$ chiếm 21%)",
+        "Khí Các-bô-níc ($CO_2$ chiếm 50%)",
+        "Khí Hơi nước chiếm 90%"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Không khí gồm: Khí Nitơ ($N_2$) chiếm khoảng 78%, khí Ô-xi ($O_2$) chiếm khoảng 21%, hơi nước và các khí khác chỉ chiếm khoảng 1%.",
+        "socraticPrompt": "Khí nào chiếm gần 4/5 (khoảng 78%) thể tích bầu khí quyển?",
+        "steps": "Khí Nitơ là thành phần khí chiếm thể tích áp đảo nhất trong khí quyển.",
+        "trap": "Nhầm khí Ô-xi là nhiều nhất vì ô-xi duy trì sự hô hấp."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo biểu đồ thành phần không khí SGK trang 142.",
+        "B": "Sai, Ô-xi chỉ chiếm khoảng 21%.",
+        "C": "Sai, $CO_2$ chiếm tỉ lệ rất nhỏ (dưới 0,04%).",
+        "D": "Sai, hơi nước chiếm chưa đầy 1% thể tích không khí."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tầng đối lưu",
+      "question": "Toàn bộ các hiện tượng khí tượng như mây, mưa, sấm sét, gió bão đều được sinh ra ở tầng nào của khí quyển?",
+      "options": [
+        "Tầng bình lưu",
+        "Tầng đối lưu",
+        "Tầng ion cao",
+        "Khoảng không vũ trụ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tầng đối lưu dày từ 0 đến 16km sát mặt đất, chứa gần như toàn bộ hơi nước (99%) và bụi bặm, có các luồng không khí đối lưu thẳng đứng sinh ra mọi hiện tượng thời tiết mây mưa.",
+        "socraticPrompt": "Mưa và bão xuất hiện ở tầng không khí sát mặt đất hay trên cao tít?",
+        "steps": "Tầng đối lưu là cái nôi sinh ra mọi hiện tượng thời tiết khí tượng.",
+        "trap": "Nhầm sang tầng bình lưu (nơi máy bay dân dụng bay đường dài vì không khí yên tĩnh, không mây mưa)."
+      },
+      "distractorReasons": {
+        "A": "Sai, tầng bình lưu không khí rất khô và yên tĩnh, không có mây mưa bão tố.",
+        "B": "Đáp án đúng theo SGK trang 143.",
+        "C": "Sai, tầng ion cực kì loãng ở độ cao hàng trăm km.",
+        "D": "Sai, ngoài vũ trụ là chân không."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vai trò tầng ôzôn",
+      "question": "Tầng ôzôn ($O_3$) nằm trong tầng bình lưu có vai trò sống còn nào đối với sinh vật và con người trên Trái Đất?",
+      "options": [
+        "Cung cấp nước ngọt cho các dòng sông",
+        "Hút bụi bẩn từ mặt đất lên trời",
+        "Ngăn chặn và hấp thụ các tia bức xạ tử ngoại (tia cực tím UV) độc hại từ Mặt Trời",
+        "Làm cho gió ngừng thổi hoàn toàn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Lớp ôzôn ở độ cao 20 - 30km hoạt động như tấm kính chống nắng vĩ đại của Trái Đất, chặn đứng các tia tử ngoại độc hại có thể gây ung thư da, đục thủy tinh thể và hủy hoại tế bào sinh vật.",
+        "socraticPrompt": "Tầng ôzôn giúp lọc bỏ loại tia sáng mắt thường không nhìn thấy gây hại cho da là tia gì?",
+        "steps": "Hấp thụ tia cực tím (UV) -> bảo vệ sự sống trên Trái Đất.",
+        "trap": "Nghĩ rằng tầng ôzôn tạo ra nước mưa hay hút bụi."
+      },
+      "distractorReasons": {
+        "A": "Sai, nước ngọt do chu trình tuần hoàn nước cung cấp.",
+        "B": "Sai, bụi bẩn phân bố chủ yếu ở tầng đối lưu sát mặt đất.",
+        "C": "Đáp án đúng theo SGK trang 143.",
+        "D": "Sai, ôzôn không liên quan đến sự di chuyển của các đai áp và gió."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm gió",
+      "question": "Gió được định nghĩa trong địa lí tự nhiên là gì?",
+      "options": [
+        "Sự chuyển động của các đám mây trên bầu trời",
+        "Hiện tượng các tảng đá rơi từ trên núi xuống",
+        "Sự bay hơi của nước biển dưới ánh nắng",
+        "Sự chuyển động của các luồng không khí từ nơi áp cao về nơi áp thấp"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Do sự chênh lệch khí áp giữa các vùng, không khí luôn di chuyển từ khu vực khí áp cao về khu vực khí áp thấp, tạo nên các luồng gió.",
+        "socraticPrompt": "Không khí chuyển động từ nơi áp cao sang nơi áp thấp gọi là gì?",
+        "steps": "Gió = sự chuyển động của không khí từ áp cao về áp thấp.",
+        "trap": "Nhầm gió với chuyển động của mây (mây chỉ là hơi nước bị gió cuốn đi)."
+      },
+      "distractorReasons": {
+        "A": "Sai, mây di chuyển theo luồng gió chứ mây không phải là gió.",
+        "B": "Sai, đá rơi là hiện tượng trượt lở địa mạo.",
+        "C": "Sai, bốc hơi nước là hiện tượng chuyển thể của nước.",
+        "D": "Đáp án đúng theo định nghĩa SGK trang 144."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Các đới khí hậu",
+      "question": "Trên Trái Đất có tất cả bao nhiêu đới khí hậu chính?",
+      "options": [
+        "5 đới khí hậu (1 đới nóng, 2 đới ôn hòa, 2 đới lạnh)",
+        "4 đới khí hậu",
+        "3 đới khí hậu",
+        "7 đới khí hậu"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "5 đới khí hậu chính: 1 đới nóng (nhiệt đới) ở giữa, 2 đới ôn hòa (ôn đới) ở hai bên, và 2 đới lạnh (hàn đới) ở hai vùng cực.",
+        "socraticPrompt": "1 đới nóng cộng 2 đới ôn hòa cộng 2 đới lạnh bằng mấy đới?",
+        "steps": "$1 + 2 + 2 = 5$ đới khí hậu chính trên toàn cầu.",
+        "trap": "Nhầm thành 3 đới (chỉ nhớ tên nóng, ôn hòa, lạnh mà quên mỗi nửa cầu đều có đới ôn hòa và đới lạnh riêng)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo sơ đồ phân bố các đới khí hậu SGK trang 151.",
+        "B": "Sai số lượng đới.",
+        "C": "Sai, quên tính hai đới ôn hòa và hai đới lạnh ở hai bán cầu.",
+        "D": "Sai, 7 là số lượng mảng kiến tạo lớn."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đới khí hậu Việt Nam",
+      "question": "Lãnh thổ nước Việt Nam nằm hoàn toàn trong đới khí hậu nào sau đây?",
+      "options": [
+        "Đới lạnh (hàn đới)",
+        "Đới nóng (nhiệt đới)",
+        "Đới ôn hòa (ôn đới)",
+        "Vùng băng tuyết cực địa"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Việt Nam nằm trọn vẹn trong vùng nội chí tuyến Bắc bán cầu (từ $8^\\circ34'\\text{B}$ đến $23^\\circ23'\\text{B}$), thuộc đới nóng, có khí hậu nhiệt đới gió mùa nóng ẩm, mưa nhiều.",
+        "socraticPrompt": "Nước ta có nhiệt độ trung bình năm cao, nắng nhiều, trồng được lúa nước quanh năm thuộc đới gì?",
+        "steps": "Nội chí tuyến = Đới nóng (nhiệt đới).",
+        "trap": "Nghĩ rằng miền Bắc có mùa đông lạnh nên thuộc đới ôn hòa (thực chất chỉ là sắc thái gió mùa trong đới nóng)."
+      },
+      "distractorReasons": {
+        "A": "Sai, đới lạnh ở vùng gần cực Bắc Băng Dương.",
+        "B": "Đáp án đúng theo vị trí địa lí Việt Nam SGK trang 151.",
+        "C": "Sai, đới ôn hòa ở các nước châu Âu, Bắc Mỹ.",
+        "D": "Sai, Việt Nam không thuộc vùng cực."
+      }
+    }
+  ]
+}

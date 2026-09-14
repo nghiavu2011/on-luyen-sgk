@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Những câu chuyện cổ tích, truyền thuyết dân gian được lưu truyền qua nhiều thế hệ thuộc loại tư liệu lịch sử nào?",
-    "options": [
-      "A. Tư liệu chữ viết",
-      "B. Tư liệu truyền miệng",
-      "C. Tư liệu hiện vật",
-      "D. Tư liệu tranh ảnh vệ tinh"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Lời kể, ca dao, truyền thuyết dân gian truyền từ miệng người này sang người khác qua đời này sang đời khác là tư liệu truyền miệng.\n💡 Ví dụ: Truyền thuyết Bánh chưng bánh giầy, Thánh Gióng.\n⚠️ Phân biệt với tư liệu chữ viết được khắc trên đá, giấy."
-  },
-  {
-    "id": "sd6_ch01_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Năm 938 diễn ra chiến thắng Bạch Đằng của Ngô Quyền đập tan quân Nam Hán. Năm đó thuộc thế kỉ thứ mấy?",
-    "options": [
-      "A. Thế kỉ IX (thế kỉ 9)",
-      "B. Thế kỉ X (thế kỉ 10)",
-      "C. Thế kỉ VIII (thế kỉ 8)",
-      "D. Thế kỉ XI (thế kỉ 11)"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp tính thế kỉ: Năm 938 nằm trong khoảng từ năm 901 đến năm 1000, nên thuộc thế kỉ X (thế kỉ thứ 10).\n💡 Lấy chữ số hàng trăm cộng 1: $9 + 1 = 10$.\n⚠️ Tránh nhầm lẫn thế kỉ 9 (801 - 900)."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "de1",
+  "title": "Chương 1: Vì sao cần học Lịch sử? — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch01_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm Lịch sử",
+      "question": "Theo định nghĩa chuẩn trong sách giáo khoa, lịch sử được hiểu là gì?",
+      "options": [
+        "Tất cả những gì đã xảy ra trong quá khứ của xã hội loài người",
+        "Những câu chuyện thần thoại kì ảo do nhân dân tưởng tượng ra",
+        "Những dự đoán về tương lai của các nền văn minh thế giới",
+        "Các văn bản ghi chép của triều đình phong kiến lưu lại"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Lịch sử là tất cả những gì đã xảy ra trong quá khứ. Môn Lịch sử là môn học tìm hiểu quá trình hình thành và phát triển của xã hội loài người.",
+        "socraticPrompt": "Lịch sử gắn liền với quá khứ, hiện tại hay tương lai?",
+        "steps": "Quá khứ là đối tượng nghiên cứu của lịch sử, bao gồm mọi hoạt động, biến cố của con người và tự nhiên.",
+        "trap": "Học sinh thường nhầm lịch sử chỉ là sách sử do vua chúa ghi chép lại hoặc các truyền thuyết dân gian."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo SGK trang 11.",
+        "B": "Sai, truyện thần thoại là tư liệu truyền miệng dân gian, không phải toàn bộ lịch sử.",
+        "C": "Sai, dự đoán tương lai thuộc ngành dự báo khoa học viễn tưởng.",
+        "D": "Sai, văn bản triều đình chỉ là một bộ phận của tư liệu chữ viết."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa học Lịch sử",
+      "question": "Ngày 19 - 9 - 1954 tại Đền Hùng, Chủ tịch Hồ Chí Minh đã căn dặn các chiến sĩ câu nói lịch sử nào sau đây?",
+      "options": [
+        "Không có gì quý hơn độc lập, tự do",
+        "Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước",
+        "Dân ta phải biết sử ta, cho tường gốc tích nước nhà Việt Nam",
+        "Đoàn kết, đoàn kết, đại đoàn kết. Thành công, thành công, đại thành công"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tại Đền Hùng ngày 19-9-1954 trước khi về tiếp quản Thủ đô, Bác Hồ căn dặn Đại đoàn Quân Tiên phong lời dạy bất hủ về công ơn các Vua Hùng.",
+        "socraticPrompt": "Tại Đền Hùng thờ cúng các vị vua nào khai sáng nước Việt?",
+        "steps": "Địa điểm Đền Hùng gắn liền với cội nguồn Vua Hùng dựng nước Văn Lang.",
+        "trap": "Học sinh dễ nhầm với câu thơ 'Dân ta phải biết sử ta' trong tác phẩm Lịch sử nước ta (1942)."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là lời kêu gọi chống Mỹ cứu nước năm 1966.",
+        "B": "Đáp án đúng theo tư liệu SGK trang 12.",
+        "C": "Sai, đây là câu thơ trích trong bài 'Lịch sử nước ta' năm 1942.",
+        "D": "Sai, đây là khẩu hiệu đại đoàn kết dân tộc của Bác."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tư liệu hiện vật",
+      "question": "Hiện vật nào sau đây là di tích/hiện vật tiêu biểu nhất cho nền văn minh Việt cổ thời Văn Lang - Âu Lạc?",
+      "options": [
+        "Bia đá tiến sĩ ở Văn Miếu Quốc Tử Giám",
+        "Bản Tuyên ngôn Độc lập năm 1945",
+        "Mặt trống đồng Ngọc Lũ bằng đồng thau",
+        "Di tích kinh thành Huế của nhà Nguyễn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trống đồng Ngọc Lũ (trưng bày tại Bảo tàng Lịch sử quốc gia) là hiện vật khảo cổ học đỉnh cao của nền văn minh Đông Sơn thời Văn Lang - Âu Lạc.",
+        "socraticPrompt": "Văn minh Đông Sơn gắn liền với hiện vật kim loại đúc bằng chất liệu gì?",
+        "steps": "Trống đồng Ngọc Lũ khắc họa hoa văn chim lạc, cảnh giã gạo, người chèo thuyền, phản ánh sinh động cuộc sống người Việt cổ.",
+        "trap": "Bia tiến sĩ thuộc thời phong kiến Hậu Lê (thế kỉ XV), không phải thời cổ đại dựng nước."
+      },
+      "distractorReasons": {
+        "A": "Sai, bia tiến sĩ Văn Miếu thuộc thời Lê sơ (thế kỉ XV trở đi).",
+        "B": "Sai, Tuyên ngôn Độc lập thuộc lịch sử cận - hiện đại năm 1945.",
+        "C": "Đáp án đúng theo hình 1 trang 13 SGK.",
+        "D": "Sai, kinh thành Huế được xây dựng dưới triều Nguyễn (thế kỉ XIX)."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tư liệu truyền miệng",
+      "question": "Tư liệu truyền miệng bao gồm những dạng nội dung nào sau đây?",
+      "options": [
+        "Các đạo luật khắc trên đá và văn bia cổ",
+        "Di cốt hóa thạch của người tối cổ trong hang đá",
+        "Công cụ lao động bằng đá và mảnh gốm cổ",
+        "Những câu chuyện thần thoại, truyền thuyết, cổ tích lưu truyền trong dân gian"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tư liệu truyền miệng gồm các câu chuyện thần thoại, truyền thuyết, ca dao được truyền miệng từ đời này qua đời khác.",
+        "socraticPrompt": "Từ 'truyền miệng' chỉ phương thức lưu giữ thông tin qua lời nói hay qua chữ viết?",
+        "steps": "Truyền miệng là qua lời kể dân gian từ thế hệ này sang thế hệ khác (như truyện Sơn Tinh - Thủy Tinh, Thánh Gióng).",
+        "trap": "Dễ nhầm di cốt hoặc công cụ là tư liệu truyền miệng, trong khi chúng là tư liệu hiện vật."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là tư liệu chữ viết.",
+        "B": "Sai, đây là tư liệu hiện vật khảo cổ.",
+        "C": "Sai, công cụ đá là tư liệu hiện vật.",
+        "D": "Đáp án đúng theo SGK trang 15."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tư liệu gốc",
+      "question": "Vì sao tư liệu gốc được coi là nguồn sử liệu có giá trị và đáng tin cậy nhất khi nghiên cứu lịch sử?",
+      "options": [
+        "Vì nó cung cấp thông tin đầu tiên, trực tiếp về sự kiện lịch sử mà không qua thêu dệt",
+        "Vì nó được in ấn bằng kĩ thuật in máy hiện đại nhất hiện nay",
+        "Vì nó do các nhà nghiên cứu lịch sử thời nay viết lại dựa trên phỏng đoán",
+        "Vì nó có số lượng phong phú nhất trong tất cả các kho lưu trữ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tư liệu gốc (tư liệu sơ cấp) cung cấp thông tin đầu tiên và trực tiếp về sự kiện hoặc thời kì lịch sử đó.",
+        "socraticPrompt": "Nguồn tin trực tiếp tại hiện trường và nguồn tin kể lại qua nhiều người, nguồn nào chân thực hơn?",
+        "steps": "Thông tin trực tiếp từ đương thời không bị biến dạng qua việc sao chép, truyền khẩu hay diễn giải chủ quan của đời sau.",
+        "trap": "Nhầm lẫn tư liệu gốc với tư liệu thứ cấp (sách nghiên cứu của học giả hiện đại)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo SGK trang 15.",
+        "B": "Sai, tư liệu gốc cổ xưa thường được viết tay hoặc khắc đá, không in máy hiện đại.",
+        "C": "Sai, sách do nhà nghiên cứu viết lại là tư liệu thứ cấp.",
+        "D": "Sai, tư liệu gốc thường rất hiếm và khó bảo quản qua hàng nghìn năm."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Cách tính thời gian",
+      "question": "Dương lịch là hệ lịch được xác định dựa trên cơ sở khoa học tự nhiên nào sau đây?",
+      "options": [
+        "Chu kì chuyển động của Mặt Trăng quanh Trái Đất",
+        "Chu kì chuyển động của Trái Đất quay quanh Mặt Trời",
+        "Khoảng thời gian xuất hiện của các mùa lũ trên sông",
+        "Sự thay đổi chu kì mọc và lặn của sao Kim trên bầu trời"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Dương lịch tính theo chu kì Trái Đất quay quanh Mặt Trời (~365 ngày 6 giờ). Âm lịch tính theo chu kì Mặt Trăng quay quanh Trái Đất (~29,5 ngày/tháng).",
+        "socraticPrompt": "'Dương' trong từ Hán Việt có nghĩa là gì? (Thái dương = Mặt Trời).",
+        "steps": "Thái dương lịch = lịch theo Mặt Trời. Do người phương Tây cổ đại tính toán và hoàn thiện thành Công lịch.",
+        "trap": "Nhầm chu kì của Mặt Trăng (Âm lịch - Thái âm)."
+      },
+      "distractorReasons": {
+        "A": "Sai, chu kì Mặt Trăng quanh Trái Đất là cơ sở của Âm lịch.",
+        "B": "Đáp án đúng theo SGK trang 17.",
+        "C": "Sai, mùa lũ chỉ là lịch nông nghiệp cục bộ thời cổ.",
+        "D": "Sai, sao Kim không phải là cơ sở lập lịch dương."
+      }
+    }
+  ]
+}

@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch01_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Tại sao các nhà khảo cổ học và sử học lại coi 'Tư liệu gốc' là nguồn cứ liệu quý giá và có độ tin cậy khoa học cao nhất?",
-    "options": [
-      "A. Vì tư liệu gốc được làm bằng vàng bạc đắt tiền",
-      "B. Vì tư liệu gốc liên quan trực tiếp và ra đời cùng thời điểm sự kiện lịch sử diễn ra, phản ánh trung thực nguyên bản",
-      "C. Vì tư liệu gốc do các nhà văn ngày nay tự do tưởng tượng viết nên",
-      "D. Vì ai cũng có thể tự chế tạo ra được tư liệu gốc"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp luận sử học: Tư liệu gốc không qua thêu dệt, sửa chữa của các thế hệ sau, cung cấp bằng chứng xác thực nguyên vẹn nhất của quá khứ.\n💡 Ví dụ: Bản Tuyên ngôn Độc lập năm 1945 có chữ ký của Bác Hồ là tư liệu gốc vô giá.\n⚠️ Đánh giá tính xác thực của nguồn sử liệu."
-  },
-  {
-    "id": "sd6_ch01_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Nhà nước cổ đại Văn Lang thành lập vào khoảng thế kỉ VII TCN. Tính từ năm mốc 700 TCN đến năm 2026 hiện nay, thời gian đã trôi qua khoảng bao nhiêu năm?",
-    "options": [
-      "A. 1326 năm",
-      "B. 2026 năm",
-      "C. 2726 năm",
-      "D. 700 năm"
-    ],
-    "answer": 2,
-    "explanation": "📌 Toán lịch sử: Khi tính khoảng cách giữa một năm Trước Công nguyên (TCN) và một năm Sau Công nguyên (SCN), ta cộng hai số năm lại: $700 + 2026 = 2726\\text{ năm}$.\n💡 Trục thời gian có điểm mốc năm 1 SCN ở giữa.\n⚠️ Cảnh báo bẫy: Tránh lấy $2026 - 700 = 1326$ năm (sai vì trừ nhầm như cùng nửa trục)."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "tonghop",
+  "title": "Chương 1: Vì sao cần học Lịch sử? — 🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "lsdl6_ch01_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tổng hợp ý nghĩa lịch sử",
+      "question": "Nhà chính trị La Mã cổ đại Xi-xê-rông từng phát biểu: \"Lịch sử là thầy dạy của cuộc sống\". Câu danh ngôn này hàm chứa thông điệp sâu sắc nào?",
+      "options": [
+        "Con người học lịch sử để hiểu các quy luật, rút ra bài học thành bại của quá khứ nhằm định hướng cho hiện tại và tương lai",
+        "Mọi sự việc trong tương lai đều sẽ lặp lại nguyên xi như trong quá khứ",
+        "Chỉ những ai làm nghề dạy học mới cần phải đọc và nghiên cứu lịch sử",
+        "Lịch sử là môn học duy nhất có thể cung cấp các định lý khoa học chính xác tuyệt đối"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Lịch sử đúc kết kinh nghiệm ngàn đời của nhân loại về dựng nước, giữ nước, phát triển văn hóa và ứng xử. Đó là kim chỉ nam giúp thế hệ hôm nay tránh sai lầm và phát huy thành công.",
+        "socraticPrompt": "Tại sao quá khứ lại có thể dạy cho con người bài học cho tương lai?",
+        "steps": "Học từ quá khứ để hiểu hiện tại và chuẩn bị cho tương lai tốt đẹp hơn.",
+        "trap": "Hiểu sai theo nghĩa đen hẹp là lịch sử chỉ dành cho người dạy học."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng thể hiện trọn vẹn tinh thần bài học SGK trang 12.",
+        "B": "Sai, lịch sử phát triển tiến lên không ngừng chứ không lặp lại nguyên xi.",
+        "C": "Sai, lịch sử cần thiết cho tất cả mọi công dân xã hội.",
+        "D": "Sai, lịch sử là khoa học xã hội và nhân văn, không phải khoa học tự nhiên duy nhất."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phục dựng lịch sử",
+      "question": "Trong các nguồn tư liệu sau, tư liệu nào được xác định CHÍNH XÁC là tư liệu gốc (tư liệu sơ cấp)?",
+      "options": [
+        "Cuốn tiểu thuyết lịch sử viết năm 2020 về cuộc đời vua Quang Trung",
+        "Tấm bản đồ thế giới vẽ mô phỏng lại thời kì cổ đại in trong sách giáo khoa",
+        "Bản khắc chữ Hán trên chuông đồng Thanh Mai đúc năm 798 thời thuộc Đường tìm thấy ở Hà Nội",
+        "Bộ phim hoạt hình kể về truyền thuyết Bánh chưng bánh giầy trên truyền hình"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tư liệu gốc phải được tạo ra trực tiếp ngay trong thời kì lịch sử diễn ra sự kiện. Chuông đồng Thanh Mai được đúc trực tiếp năm 798 thời Bắc thuộc là hiện vật gốc quý hiếm mang chữ viết đương thời.",
+        "socraticPrompt": "Vật nào ra đời ngay tại thời điểm lịch sử năm 798 chứ không phải sản phẩm phóng tác đời sau?",
+        "steps": "Chuông đúc năm 798 là chứng tích vật chất trực tiếp của thế kỉ VIII.",
+        "trap": "Nhầm tiểu thuyết hay phim hoạt hình là tư liệu gốc vì cũng kể chuyện lịch sử."
+      },
+      "distractorReasons": {
+        "A": "Sai, tiểu thuyết năm 2020 là tác phẩm văn học nghệ thuật đời sau sáng tác.",
+        "B": "Sai, bản đồ mô phỏng trong SGK là tư liệu thứ cấp.",
+        "C": "Đáp án đúng: chuông đồng Thanh Mai đúc năm 798 là tư liệu gốc sơ cấp vô giá.",
+        "D": "Sai, phim hoạt hình chỉ là tác phẩm phỏng theo truyền thuyết."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Trục thời gian lịch sử",
+      "question": "Cho các mốc thời gian: (1) Năm 2000 TCN; (2) Năm 111 TCN; (3) Năm 40 CN (khởi nghĩa Hai Bà Trưng); (4) Năm 938 CN. Thứ tự sắp xếp các sự kiện từ xưa nhất đến gần đây nhất theo đúng trục thời gian lịch sử là gì?",
+      "options": [
+        "(2) -> (1) -> (3) -> (4)",
+        "(1) -> (2) -> (3) -> (4)",
+        "(4) -> (3) -> (2) -> (1)",
+        "(1) -> (3) -> (2) -> (4)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc trục thời gian: Thời kì trước Công nguyên tính lùi (số năm càng lớn càng xa xưa: 2000 TCN cách xa hơn 111 TCN). Thời kì Công nguyên tính tiến (năm 40 CN đến 938 CN).",
+        "socraticPrompt": "Năm 2000 TCN và 111 TCN, năm nào xảy ra trước?",
+        "steps": "Trục số: -2000 -> -111 -> 40 -> 938. Thứ tự thời gian là: (1) -> (2) -> (3) -> (4).",
+        "trap": "Nhầm rằng 111 TCN xảy ra trước 2000 TCN vì nghĩ số 111 nhỏ hơn 2000."
+      },
+      "distractorReasons": {
+        "A": "Sai, 2000 TCN xảy ra xa xưa hơn nhiều so với 111 TCN.",
+        "B": "Đáp án đúng theo quy tắc biểu diễn trục thời gian SGK trang 17.",
+        "C": "Sai, đây là thứ tự ngược từ gần đến xa.",
+        "D": "Sai, đảo lộn giữa TCN và CN."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vận dụng tính toán lịch sử",
+      "question": "Một nhà khảo cổ học phát hiện một ngôi mộ cổ chôn cất từ khoảng thiên niên kỉ II TCN. Đến năm 2026, ngôi mộ đó đã tồn tại cách ngày nay trong khoảng thời gian nào?",
+      "options": [
+        "Khoảng từ 1 000 đến 2 000 năm",
+        "Khoảng từ 2 026 đến 2 500 năm",
+        "Khoảng từ 4 000 đến 5 000 năm",
+        "Khoảng từ 3 000 đến 4 000 năm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thiên niên kỉ II TCN kéo dài từ năm 2000 TCN đến hết năm 1001 TCN. Khoảng cách đến năm 2026 là: Từ $1001 + 2026 = 3027$ năm đến $2000 + 2026 = 4026$ năm (khoảng 3 000 đến 4 000 năm).",
+        "socraticPrompt": "1 thiên niên kỉ bằng 1 000 năm, thiên niên kỉ II TCN là khoảng năm bao nhiêu?",
+        "steps": "Thời gian = [1001 + 2026; 2000 + 2026] = [3027; 4026] năm, tương ứng khoảng 3 000 đến 4 000 năm.",
+        "trap": "Chỉ lấy 2000 trừ 2026 hoặc quên cộng năm hiện tại."
+      },
+      "distractorReasons": {
+        "A": "Sai, khoảng này chỉ ứng với thời Công nguyên.",
+        "B": "Sai do tính toán sai mốc thiên niên kỉ.",
+        "C": "Sai, vượt quá khung thời gian thiên niên kỉ II TCN.",
+        "D": "Đáp án đúng theo công thức tính thời gian lịch sử."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân biệt nhận thức lịch sử",
+      "question": "Vì sao khi đọc cùng một sự kiện lịch sử, hai cuốn sách của hai tác giả khác nhau đôi khi lại có những cách đánh giá, nhận định không hoàn toàn giống nhau?",
+      "options": [
+        "Do các nhà sử học dựa vào các nguồn tư liệu tiếp cận khác nhau và góc nhìn phân tích riêng",
+        "Do một trong hai cuốn sách chắc chắn là tài liệu giả mạo bất hợp pháp",
+        "Do các sự kiện lịch sử không hề có thật mà chỉ do con người tự tưởng tượng",
+        "Do luật pháp không cho phép các tác giả viết giống nhau"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "SGK nêu rõ: Dựa vào các nguồn tư liệu, mỗi nhà sử học thường chỉ có thể làm sáng tỏ một phần lịch sử theo quan điểm của mình. Khi có thêm chứng cứ mới, nhận định lịch sử sẽ ngày càng đầy đủ và chân thực hơn.",
+        "socraticPrompt": "Góc nhìn và tư liệu tiếp cận của mỗi người có ảnh hưởng đến đánh giá không?",
+        "steps": "Khoa học lịch sử luôn tôn trọng sự đối thoại và kiểm chứng từ các nguồn cứ liệu khách quan.",
+        "trap": "Cho rằng sự khác biệt đồng nghĩa với việc có tài liệu giả mạo."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo bài học SGK trang 15.",
+        "B": "Sai, sự khác nhau trong góc nhìn phân tích là bình thường trong nghiên cứu khoa học.",
+        "C": "Sai, sự kiện lịch sử là hiện thực khách quan đã xảy ra.",
+        "D": "Sai, không có luật cấm trùng lặp nhận định học thuật."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Liên hệ thực tiễn bảo tồn",
+      "question": "Hành động nào sau đây của học sinh thể hiện thái độ đúng đắn và trách nhiệm thiết thực nhất đối với việc bảo vệ các di sản lịch sử của quê hương?",
+      "options": [
+        "Khắc tên và ngày sinh của mình lên vách đá di tích hoặc thân rùa bia đá để làm kỉ niệm",
+        "Đập phá các hiện vật cổ bằng đá vì cho rằng chúng đã quá cũ kĩ và không còn dùng được",
+        "Tìm hiểu, giới thiệu với bạn bè về di tích, giữ gìn vệ sinh sạch sẽ và không xâm hại hiện vật",
+        "Bỏ mặc các di tích xuống cấp vì nghĩ việc bảo tồn chỉ là trách nhiệm của nhà nước"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Học sinh giữ gìn di sản bằng cách nâng cao hiểu biết, tự hào về truyền thống quê hương, tham gia dọn dẹp vệ sinh di tích, bảo vệ nguyên trạng hiện vật và tuyên truyền bạn bè cùng giữ gìn.",
+        "socraticPrompt": "Khắc tên lên bia đá hay di tích lịch sử là hành vi vi phạm điều gì?",
+        "steps": "Hành vi văn minh: tôn trọng, bảo vệ hiện vật nguyên vẹn cho các thế hệ mai sau.",
+        "trap": "Hành vi khắc chữ lưu danh là thói quen xấu làm xâm hại nghiêm trọng đến di sản."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là hành vi phá hoại di sản văn hóa bị pháp luật nghiêm cấm.",
+        "B": "Sai, phá hoại hiện vật là hủy hoại bằng chứng lịch sử vô giá.",
+        "C": "Đáp án đúng thể hiện đạo đức và trách nhiệm công dân nhỏ tuổi.",
+        "D": "Sai, bảo tồn di sản là trách nhiệm chung của toàn xã hội, trong đó có học sinh."
+      }
+    }
+  ]
+}

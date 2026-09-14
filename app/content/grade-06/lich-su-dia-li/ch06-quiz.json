@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch06_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi đi dã ngoại trong rừng rậm bị mất sóng điện thoại không dùng được GPS, phương pháp tự nhiên nào sau đây giúp em xác định hướng Bắc chính xác nhất vào ban đêm trời quang mây?",
-    "options": [
-      "A. Quan sát chiều gió thổi",
-      "B. Nhìn hướng dòng chảy con suối",
-      "C. Tìm chòm sao Bắc Đẩu hoặc chòm sao Đại Hùng để xác định vị trí Sao Bắc Cực",
-      "D. Nhìn hướng cỏ mọc rậm"
-    ],
-    "answer": 2,
-    "explanation": "📌 Kỹ năng định vị thực địa: Sao Bắc Cực (Polaris) luôn nằm thẳng hàng trên trục quay của cực Bắc Trái Đất, chỉ đúng hướng Bắc địa lí quanh năm trên bầu trời Bán cầu Bắc.\n💡 Phương pháp định hướng sinh tồn kinh điển của nhân loại.\n⚠️ Bậc tư duy cao: Ứng dụng kiến thức bản đồ và thiên văn vào đời sống thực tế."
-  }
-]
+{
+  "chapterId": "ch06",
+  "quizId": "tonghop",
+  "title": "Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất — 🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "lsdl6_ch06_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng bản đồ số",
+      "question": "Khi sử dụng ứng dụng bản đồ số trên điện thoại thông minh (như Google Maps) để tìm đường đi, hành động phóng to (zoom in) bản đồ tương ứng với việc người dùng đang:",
+      "options": [
+        "Làm giảm tỉ lệ bản đồ để nhìn bao quát toàn bộ Trái Đất",
+        "Làm thay đổi vị trí của các kinh tuyến gốc trên toàn cầu",
+        "Làm tăng tỉ lệ bản đồ để quan sát rõ hơn, chi tiết hơn từng con ngõ, số nhà và ngã rẽ cụ thể",
+        "Tắt định vị vệ tinh GPS của thiết bị"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phóng to (zoom in) tương đương với việc chuyển sang bản đồ tỉ lệ lớn hơn (mẫu số thu nhỏ), cho phép hiển thị các chi tiết nhỏ hẹp như ngõ phố, địa chỉ số nhà.",
+        "socraticPrompt": "Phóng to bản đồ trên màn hình giúp ta nhìn thấy chi tiết hơn hay ít chi tiết hơn?",
+        "steps": "Tỉ lệ lớn hơn = chi tiết hơn = quan sát được ngõ ngách đường đi.",
+        "trap": "Nghĩ rằng phóng to là làm giảm tỉ lệ."
+      },
+      "distractorReasons": {
+        "A": "Sai, thu nhỏ (zoom out) mới là giảm tỉ lệ để nhìn bao quát.",
+        "B": "Sai, vị trí kinh tuyến gốc là bất biến trên toàn thế giới.",
+        "C": "Đáp án đúng thể hiện sự liên hệ thực tiễn công nghệ số SGK trang 111.",
+        "D": "Sai, phóng to không làm tắt GPS."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đường đẳng cao địa hình",
+      "question": "Trên bản đồ địa hình có các đường đồng mức (đường đẳng cao), các đường đồng mức nằm càng sát gần nhau thể hiện điều gì về địa hình khu vực đó?",
+      "options": [
+        "Địa hình ở đó rất bằng phẳng như mặt hồ nước",
+        "Khu vực đó có độ cao dưới 0 mét so với mực nước biển",
+        "Khu vực đó là bãi cát phẳng lì ven bờ biển",
+        "Địa hình ở đó có độ dốc rất lớn, sườn núi rất dốc và hiểm trở"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đường đồng mức nối liền các điểm có cùng độ cao tuyệt đối. Các đường càng sít lại gần nhau chứng tỏ độ cao thay đổi nhanh trên một khoảng cách ngắn -> sườn núi rất dốc.",
+        "socraticPrompt": "Leo lên một sườn núi dốc đứng thì cứ đi một đoạn ngắn độ cao đã tăng vọt hay tăng chậm?",
+        "steps": "Khoảng cách giữa các đường đồng mức tỉ lệ nghịch với độ dốc địa hình.",
+        "trap": "Nhầm rằng đường gần nhau là địa hình bằng phẳng."
+      },
+      "distractorReasons": {
+        "A": "Sai, địa hình bằng phẳng các đường đồng mức sẽ thưa thớt xa nhau.",
+        "B": "Sai, độ cao dưới 0m là vùng trũng ngập nước.",
+        "C": "Sai, bãi cát ven biển bằng phẳng có đường đồng mức rất thưa.",
+        "D": "Đáp án đúng theo bài thực hành đọc bản đồ địa hình SGK trang 112."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bài toán thực tế bản đồ",
+      "question": "Một đội cứu hộ đo trên bản đồ tỉ lệ $1 : 25.000$ thấy khoảng cách từ trạm cứu hộ đến vị trí người bị nạn là $12\\text{ cm}$. Hỏi xe cứu hộ chạy với vận tốc trung bình $50\\text{ km/h}$ trên đường thẳng thì sau bao lâu sẽ tiếp cận được vị trí người bị nạn?",
+      "options": [
+        "Sau khoảng 3,6 phút (0,06 giờ)",
+        "Sau khoảng 30 phút",
+        "Sau khoảng 1 giờ",
+        "Sau khoảng 12 phút"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bước 1: Tính khoảng cách thực tế: $S = 12\\text{ cm} \\times 25.000 = 300.000\\text{ cm} = 3\\text{ km}$.\nBước 2: Tính thời gian: $t = \\frac{S}{v} = \\frac{3}{50} = 0,06\\text{ giờ} = 0,06 \\times 60 = 3,6\\text{ phút}$.",
+        "socraticPrompt": "Khoảng cách thực tế là mấy km? Lấy quãng đường chia vận tốc bằng bao nhiêu giờ?",
+        "steps": "$S = 3\\text{ km}$, $t = 3 / 50 = 0,06\\text{ h} = 3,6\\text{ phút}$.",
+        "trap": "Tính sai đơn vị khoảng cách thực tế thành 30 km hoặc 300 km."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác qua hai bước tính toán khoa học.",
+        "B": "Sai, do tính nhầm khoảng cách thành 25 km.",
+        "C": "Sai, do tính nhầm khoảng cách thành 50 km.",
+        "D": "Sai, do chia nhầm đơn vị thời gian."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Lược đồ trí nhớ",
+      "question": "Việc tự tay vẽ một 'lược đồ trí nhớ' về con đường từ nhà em đến trường học mang lại lợi ích thiết thực nào?",
+      "options": [
+        "Bắt buộc phải vẽ chính xác 100% đến từng mi-li-mét như bản đồ chuyên nghiệp của quân đội",
+        "Giúp em rèn luyện khả năng quan sát, định hướng không gian, ghi nhớ các mốc địa vật quan trọng và làm chủ không gian sinh hoạt hàng ngày",
+        "Chỉ để nộp cho giáo viên mĩ thuật chấm điểm vẽ tranh",
+        "Thay thế hoàn toàn ảnh chụp vệ tinh của Trung tâm vũ trụ quốc gia"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Lược đồ trí nhớ là bản vẽ phác thảo không gian trong tâm trí, thể hiện các điểm mốc (ngã tư, cây cầu, tòa nhà) giúp phát triển tư duy định vị không gian và kĩ năng sống an toàn.",
+        "socraticPrompt": "Vẽ lược đồ đường đi từ nhà đến trường giúp ích gì cho khả năng tìm đường của em?",
+        "steps": "Rèn luyện tư duy địa lí thực tế, ghi nhớ mốc định hướng quan trọng.",
+        "trap": "Nghĩ rằng lược đồ trí nhớ đòi hỏi máy đo đạc chuẩn xác tuyệt đối như bản đồ đo đạc trắc địa."
+      },
+      "distractorReasons": {
+        "A": "Sai, lược đồ trí nhớ chỉ cần phác họa trực quan, không cần đo đạc trắc địa tỉ mỉ.",
+        "B": "Đáp án đúng theo bài học Lược đồ trí nhớ SGK trang 113.",
+        "C": "Sai, đây là bài tập kĩ năng địa lí thực hành chứ không riêng gì môn mĩ thuật.",
+        "D": "Sai, ảnh vệ tinh có chức năng chuyên môn khác."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Định hướng khi lạc đường",
+      "question": "Khi bị lạc trong rừng vào ban ngày mà không có la bàn hay điện thoại, phương pháp dân gian nào sau đây có thể giúp em xác định hướng Bắc - Nam một cách tương đối chính xác?",
+      "options": [
+        "Chờ đợi đến khi có mưa rào xuất hiện",
+        "Chạy thật nhanh theo hướng gió thổi bất kì",
+        "Quan sát hướng Mặt Trời mọc (hướng Đông) và lặn (hướng Tây), hoặc cắm một chiếc cọc theo dõi bóng cọc di chuyển theo thời gian",
+        "Nhắm mắt đi về phía có tiếng chim hót"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy luật tự nhiên: Mặt Trời luôn mọc ở phía Đông và lặn ở phía Tây. Đứng dang hai tay: tay phải chỉ hướng Đông (nơi mọc), tay trái chỉ hướng Tây, thì phía trước mặt là hướng Bắc, phía sau lưng là hướng Nam.",
+        "socraticPrompt": "Mặt Trời mọc hướng nào và lặn hướng nào? Đứng quay mặt về đâu thì biết hướng Bắc?",
+        "steps": "Phương pháp phương vị Mặt Trời và bóng cọc là kĩ năng sinh tồn cơ bản SGK trang 125.",
+        "trap": "Chạy lung tung theo hướng gió đổi chiều liên tục trong rừng."
+      },
+      "distractorReasons": {
+        "A": "Sai, mưa rào không giúp xác định phương hướng.",
+        "B": "Sai, gió rừng đổi hướng liên tục sẽ làm lạc sâu hơn.",
+        "C": "Đáp án chính xác theo kĩ năng xác định phương hướng thực tế SGK trang 125.",
+        "D": "Sai, chim có thể bay tán loạn khắp mọi hướng."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ý thức sử dụng bản đồ",
+      "question": "Trong bối cảnh hội nhập quốc tế hiện nay, việc khẳng định chủ quyền lãnh thổ Việt Nam trên các bản đồ xuất bản trong nước và quốc tế (thể hiện đầy đủ hai quần đảo Hoàng Sa và Trường Sa) có ý nghĩa như thế nào?",
+      "options": [
+        "Chỉ là một chi tiết mĩ thuật trang trí cho bản đồ thêm sinh động",
+        "Chỉ phục vụ riêng cho các tàu thuyền đánh cá ngoài khơi",
+        "Không có giá trị pháp lí nào trước luật pháp quốc tế",
+        "Là bằng chứng pháp lí và lịch sử thiêng liêng khẳng định chủ quyền biển đảo toàn vẹn, bất khả xâm phạm của Tổ quốc Việt Nam"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bản đồ là văn bản pháp lí chủ quyền quốc gia. Thể hiện đầy đủ quần đảo Hoàng Sa và Trường Sa trên mọi ấn phẩm bản đồ là trách nhiệm công dân và khẳng định tính toàn vẹn lãnh thổ thiêng liêng của Việt Nam.",
+        "socraticPrompt": "Bản đồ chuẩn mực của Việt Nam luôn phải có hai quần đảo nào ngoài biển Đông?",
+        "steps": "Khẳng định chủ quyền quốc gia bất khả xâm phạm trên trường quốc tế.",
+        "trap": "Coi nhẹ bản đồ chỉ là hình vẽ thông thường."
+      },
+      "distractorReasons": {
+        "A": "Sai, bản đồ là tài liệu pháp lí quốc gia, không phải hình trang trí.",
+        "B": "Sai, phục vụ toàn diện cho quản lí nhà nước, giáo dục và quốc phòng.",
+        "C": "Sai, bản đồ có giá trị pháp lí rất cao trong tranh chấp quốc tế.",
+        "D": "Đáp án đúng thể hiện lòng yêu nước và trách nhiệm công dân sâu sắc."
+      }
+    }
+  ]
+}

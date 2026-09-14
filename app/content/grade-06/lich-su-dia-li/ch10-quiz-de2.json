@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch10_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hiện tượng nước biển dâng lên và rút xuống đều đặn theo chu kì hàng ngày (thuỷ triều) được sinh ra chủ yếu do tác động của lực nào?",
-    "options": [
-      "A. Lực gió bão thổi mạnh",
-      "B. Sức hút hấp dẫn của Mặt Trăng và Mặt Trời tác dụng lên khối nước biển của Trái Đất",
-      "C. Nhiệt độ nước biển nóng lên",
-      "D. Các đàn cá bơi di cư"
-    ],
-    "answer": 1,
-    "explanation": "📌 Lực hấp dẫn thiên văn: Mặt Trăng ở gần Trái Đất nhất nên lực hấp dẫn của nó là nguyên nhân chính kéo hút khối nước biển tạo thành hiện tượng thuỷ triều lên xuống nhịp nhàng.\n💡 Sóng biển thông thường mới do gió tạo ra.\n⚠️ Phân biệt rạch ròi giữa sóng và thuỷ triều."
-  }
-]
+{
+  "chapterId": "ch10",
+  "quizId": "de2",
+  "title": "Chương 10: Nước trên Trái Đất, Đất & Sinh vật — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch10_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng thủy triều trong lịch sử",
+      "question": "Trong lịch sử đánh giặc ngoại xâm của dân tộc ta, danh tướng nào đã tận dụng triệt để hiện tượng thủy triều lên xuống trên sông Bạch Đằng để đập tan quân thù?",
+      "options": [
+        "Ngô Quyền (năm 938), Lê Hoàn (năm 981) và Trần Hưng Đạo (năm 1288)",
+        "Chỉ có riêng một mình vua Quang Trung",
+        "Đinh Bộ Lĩnh thời dẹp loạn 12 sứ quân",
+        "Lý Bí thời khởi nghĩa chống quân Lương"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sông Bạch Đằng có biên độ thủy triều lớn. Cả 3 lần quân dân ta đều dùng trận địa cọc nhọn kết hợp thủy triều để đánh thắng oanh liệt giặc ngoại xâm: Ngô Quyền (938), Lê Hoàn (981), Trần Hưng Đạo (1288).",
+        "socraticPrompt": "Dòng sông Bạch Đằng 3 lần ghi dấu chiến công cọc nhọn thủy triều gắn với những vị anh hùng nào?",
+        "steps": "Ngô Quyền (đánh Nam Hán), Lê Hoàn (đánh Tống), Trần Quốc Tuấn (đánh Nguyên Mông).",
+        "trap": "Chỉ nhớ một mình Ngô Quyền mà quên mất Lê Hoàn và Trần Hưng Đạo cũng đánh thắng trên sông Bạch Đằng."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác và đầy đủ nhất liên môn Lịch sử - Địa lí.",
+        "B": "Sai, vua Quang Trung đánh giặc Thanh trên bộ ở Thăng Long (Ngọc Hồi - Đống Đa).",
+        "C": "Sai, Đinh Bộ Lĩnh chiến đấu ở vùng thung lũng Hoa Lư.",
+        "D": "Sai, Lý Bí khởi nghĩa ở vùng đồng bằng sông Hồng và đầm Dạ Trạch."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vòng tuần hoàn của nước",
+      "question": "Nếu con người chặt phá toàn bộ rừng đầu nguồn trên các sườn núi dốc, vòng tuần hoàn của nước và đời sống người dân ở hạ lưu sẽ bị xáo trộn nghiêm trọng như thế nào?",
+      "options": [
+        "Lượng nước mưa sẽ thấm sâu xuống đất nhiều hơn làm tăng nguồn nước ngầm",
+        "Nước mưa trút xuống không có thảm cây giữ lại sẽ chảy tràn dữ dội gây lũ quét, xói mòn đất sạt lở núi và mùa khô hạ lưu sẽ bị hạn hán kiệt quệ",
+        "Khí hậu hạ lưu sẽ mát mẻ và trong lành hơn",
+        "Nước các dòng sông sẽ tự động biến thành nước ngọt tinh khiết"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Thảm thực vật rừng như chiếc bọt biển khổng lồ giữ nước mưa thấm chậm tạo nước ngầm và điều hòa dòng chảy sông ngòi. Mất rừng -> mùa mưa nước đổ về ồ ạt gây lũ lụt thảm khốc, mùa khô sông cạn trơ đáy gây hạn hán.",
+        "socraticPrompt": "Cây rừng có rễ giữ đất và lá chắn hạt mưa. Mất cây thì khi mưa to đất đá sẽ trôi đi đâu?",
+        "steps": "Mất rừng đầu nguồn -> lũ quét, sạt lở đất mùa mưa + hạn hán khốc liệt mùa khô.",
+        "trap": "Cho rằng chặt rừng giúp nước mưa thấm xuống đất nhiều hơn (thực tế nước chảy tràn trên mặt đất rửa trôi đất màu)."
+      },
+      "distractorReasons": {
+        "A": "Sai, mất rừng làm nước chảy tràn trên mặt chứ không thấm được vào lòng đất.",
+        "B": "Đáp án đúng theo bài học vai trò của rừng trong chu trình nước SGK trang 160.",
+        "C": "Sai, mất rừng làm thời tiết trở nên khắc nghiệt khô nóng hơn.",
+        "D": "Sai, nước sông sẽ đục ngầu bùn đất phù sa xói mòn."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Bảo vệ tài nguyên nước ngọt",
+      "question": "Vì sao con người bắt buộc phải có ý thức sử dụng nước ngọt cực kì tiết kiệm và bảo vệ nguồn nước ngọt khỏi ô nhiễm?",
+      "options": [
+        "Vì nước ngọt trên Trái Đất là vô tận và không bao giờ cạn kiệt",
+        "Vì nước mặn đại dương có thể uống trực tiếp thoải mái thay thế hoàn toàn nước ngọt",
+        "Vì lượng nước ngọt con người dễ tiếp cận khai thác (sông, hồ, nước ngầm nông) chỉ chiếm chưa đầy 1% lượng nước toàn cầu và đang bị ô nhiễm nghiêm trọng",
+        "Do các nhà máy cấp nước bắt buộc phải khóa van nước hàng ngày"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nước ngọt là tài nguyên hữu hạn sống còn. Dù Trái Đất có 71% là nước nhưng 97,5% là nước biển mặn không uống được, trong 2,5% nước ngọt thì phần lớn đóng băng ở cực, chỉ có chưa đầy 1% nước ngọt cho 8 tỉ người sử dụng.",
+        "socraticPrompt": "Nước ngọt trên Trái Đất có nhiều hay rất ít? Nước biển có uống để sinh hoạt được không?",
+        "steps": "Tài nguyên nước ngọt dễ tiếp cận cực kì khan hiếm -> phải tiết kiệm và chống ô nhiễm.",
+        "trap": "Ảo tưởng rằng nước trên Trái Đất bao la thì không bao giờ thiếu nước ngọt."
+      },
+      "distractorReasons": {
+        "A": "Sai, nước ngọt rất khan hiếm ở nhiều quốc gia trên thế giới.",
+        "B": "Sai, uống nước mặn sẽ làm cơ thể mất nước và tử vong.",
+        "C": "Đáp án đúng theo phân tích tài nguyên nước SGK trang 157.",
+        "D": "Sai, việc tiết kiệm xuất phát từ quy luật tự nhiên chứ không do hành chính đơn thuần."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Cấu trúc rừng mưa nhiệt đới",
+      "question": "Vì sao rừng mưa nhiệt đới lại có cấu trúc phân tầng rậm rạp (từ 4 đến 5 tầng tán cây) khác hẳn rừng lá kim phương Bắc?",
+      "options": [
+        "Do người dân địa phương trồng và cắt tỉa cây thành từng tầng",
+        "Do đất ở đây quá nghèo dinh dưỡng không cho cây mọc đều",
+        "Do các loài chim bay làm tổ ép cây phải mọc tầng thấp",
+        "Do điều kiện nhiệt độ cao quanh năm, ánh nắng chan hòa và lượng mưa dồi dào tạo điều kiện cho các loài cây cạnh tranh vươn cao để đón ánh sáng Mặt Trời"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Khí hậu nóng ẩm mưa nhiều thúc đẩy thực vật phát triển cực kì tươi tốt. Các loài cây phải cạnh tranh nhau gay gắt về ánh sáng: cây ưa sáng vươn lên tầng vượt tán (40-50m), bên dưới là tầng tán chính, tầng dưới tán và các loài ưa bóng ở tầng thảm tươi.",
+        "socraticPrompt": "Trong khu rừng rậm cây cối mọc chen chúc, các cây phải vươn cao lên để hứng cái gì?",
+        "steps": "Sự cạnh tranh ánh nắng Mặt Trời tạo nên cấu trúc phân tầng rừng mưa nhiệt đới.",
+        "trap": "Nghĩ rằng rừng mưa nhiệt đới do con người tự trồng tỉa."
+      },
+      "distractorReasons": {
+        "A": "Sai, rừng mưa nhiệt đới là rừng nguyên sinh tự nhiên.",
+        "B": "Sai, sinh khối và chu trình dinh dưỡng rừng nhiệt đới rất dồi dào.",
+        "C": "Sai, chim chóc thích nghi theo tầng tán chứ không ép cây mọc.",
+        "D": "Đáp án đúng theo SGK trang 173."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhân tố hình thành đất",
+      "question": "Thành phần chất hữu cơ (mùn) có trong đất trồng được tạo thành chủ yếu từ nguồn gốc nào sau đây?",
+      "options": [
+        "Từ xác của các loài động vật, thực vật và lá cây rụng được vi sinh vật phân giải",
+        "Từ các tảng đá mẹ bị phong hóa vỡ vụn",
+        "Từ nước mưa rơi xuống từ tầng khí quyển",
+        "Từ cát hạt mịn do gió biển thổi vào"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Xác sinh vật (cỏ cây, lá rụng, vi sinh vật, côn trùng) bị phân hủy bởi vi khuẩn trong đất tạo thành chất mùn hữu cơ màu đen giàu đạm, lân, kali nuôi dưỡng rễ cây.",
+        "socraticPrompt": "Lá cây rụng xuống đất lâu ngày bị mục nát biến thành chất gì bón cho cây?",
+        "steps": "Xác sinh vật phân giải = chất hữu cơ mùn.",
+        "trap": "Nhầm đá mẹ tạo ra mùn (đá mẹ chỉ tạo ra chất khoáng vô cơ)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 169.",
+        "B": "Sai, đá mẹ phong hóa tạo ra thành phần chất khoáng vô cơ.",
+        "C": "Sai, nước mưa chỉ cung cấp độ ẩm.",
+        "D": "Sai, cát mịn là hạt khoáng thạch anh vô sinh."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Sông Cửu Long",
+      "question": "Sông Mê Công khi chảy vào miền Nam nước ta chia thành hai nhánh lớn là sông Tiền và sông Hậu, sau đó đổ ra biển Đông qua 9 cửa sông nên nhân dân ta gọi tên thân thương là gì?",
+      "options": [
+        "Sông Hồng",
+        "Sông Cửu Long (Chín con Rồng đổ ra biển)",
+        "Sông Đồng Nai",
+        "Sông Đà"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sông Cửu Long (Cửu = 9, Long = Rồng). Hệ thống chi lưu chia thành 9 nhánh cửa sông đổ ra biển Đông bồi đắp nên vựa lúa lớn nhất nước ta.",
+        "socraticPrompt": "Con sông nào mang tên chín con rồng ở miền Tây Nam Bộ?",
+        "steps": "Sông Mê Công đoạn chảy qua Việt Nam = Sông Cửu Long.",
+        "trap": "Nhầm sông Đồng Nai (sông Đồng Nai là hệ thống sông riêng ở miền Đông Nam Bộ)."
+      },
+      "distractorReasons": {
+        "A": "Sai, sông Hồng chảy ở miền Bắc nước ta.",
+        "B": "Đáp án đúng theo kiến thức địa lí sông ngòi Việt Nam SGK trang 159.",
+        "C": "Sai, sông Đồng Nai là hệ thống sông nội địa lớn thứ 2 ở Nam Bộ.",
+        "D": "Sai, sông Đà là phụ lưu lớn nhất của sông Hồng ở Tây Bắc."
+      }
+    }
+  ]
+}

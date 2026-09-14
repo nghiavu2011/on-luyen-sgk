@@ -1,33 +1,164 @@
-[
-  {
-    "id": "sd6_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Mùa xuân năm 40, hai nữ anh hùng dân tộc nào đã phất cờ khởi nghĩa đánh đuổi thái thú Tô Định, giành lại quyền tự chủ cho đất nước?",
-    "options": [
-      "A. Bà Triệu (Triệu Thị Trinh)",
-      "B. Hai Bà Trưng",
-      "C. Nữ tướng Lê Chân",
-      "D. Thái hậu Dương Vân Nga"
-    ],
-    "answer": 1,
-    "explanation": "📌 Mốc son lịch sử: Mùa xuân năm 40, Hai Bà Trưng dựng cờ khởi nghĩa tại Hát Môn: 'Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng'.\n💡 Cuộc khởi nghĩa đầu tiên mở đầu cho truyền thống quật khởi chống Bắc thuộc.\n⚠️ Phân biệt với khởi nghĩa Bà Triệu năm 248.",
-    "breakdown": {
-      "calculation": "Trưng Trắc và Trưng Nhị"
+{
+  "chapterId": "ch05",
+  "quizId": "de1",
+  "title": "Chương 5: Việt Nam từ khoảng thế kỉ VII trước Công nguyên đến đầu thế kỉ X — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch05_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kinh đô Văn Lang",
+      "question": "Nhà nước Văn Lang - nhà nước đầu tiên trong lịch sử dân tộc ta - đóng đô ở địa danh nào sau đây?",
+      "options": [
+        "Phong Châu (tỉnh Phú Thọ ngày nay)",
+        "Cổ Loa (Đông Anh, Hà Nội)",
+        "Hoa Lư (Ninh Bình)",
+        "Thăng Long (Hà Nội)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhà nước Văn Lang ra đời vào khoảng thế kỉ VII TCN, đứng đầu là Vua Hùng đóng đô ở Phong Châu (Phú Thọ).",
+        "socraticPrompt": "Khu di tích Đền Hùng nơi thờ các vua dựng nước thuộc tỉnh nào?",
+        "steps": "Phong Châu (Bạch Hạc, Phú Thọ) là đất tổ cội nguồn dựng nước Văn Lang.",
+        "trap": "Nhầm Cổ Loa (Cổ Loa là kinh đô của nhà nước Âu Lạc thời An Dương Vương)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo SGK trang 60.",
+        "B": "Sai, Cổ Loa là kinh đô của nhà nước Âu Lạc thời Thục Phán.",
+        "C": "Sai, Hoa Lư là kinh đô thời Đinh - Tiền Lê (thế kỉ X).",
+        "D": "Sai, Thăng Long do vua Lý Thái Tổ định đô năm 1010."
+      }
+    },
+    {
+      "id": "lsdl6_ch05_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khởi nghĩa Hai Bà Trưng",
+      "question": "Mùa xuân năm 40 CN, cuộc khởi nghĩa chống lại ách cai trị bạo tàn của nhà Đông Hán đã bùng nổ dưới sự lãnh đạo của ai?",
+      "options": [
+        "Bà Triệu (Triệu Thị Trinh)",
+        "Hai Bà Trưng (Trưng Trắc và Trưng Nhị)",
+        "Lý Bí (Lý Nam Đế)",
+        "Mai Thúc Loan (Mai Hắc Đế)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mùa xuân năm 40 CN, Hai Bà Trưng dựng cờ tụ nghĩa ở Hát Môn (Phúc Thọ, Hà Nội), đánh đuổi Thái thú Tô Định, giải phóng 65 thành trì.",
+        "socraticPrompt": "Hai nữ anh hùng cưỡi voi ra trận mở đầu trang sử đấu tranh chống Bắc thuộc là ai?",
+        "steps": "Năm 40 CN gắn liền với chiến công oanh liệt của Hai Bà Trưng.",
+        "trap": "Nhầm Bà Triệu (Bà Triệu khởi nghĩa năm 248 chống quân Ngô)."
+      },
+      "distractorReasons": {
+        "A": "Sai, Bà Triệu khởi nghĩa năm 248.",
+        "B": "Đáp án đúng theo SGK trang 70.",
+        "C": "Sai, Lý Bí khởi nghĩa năm 542.",
+        "D": "Sai, Mai Thúc Loan khởi nghĩa năm 722."
+      }
+    },
+    {
+      "id": "lsdl6_ch05_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nước Vạn Xuân",
+      "question": "Sau khi đánh đuổi quân Lương giành độc lập năm 544, Lý Bí đã lên ngôi hoàng đế và đặt tên nước là gì?",
+      "options": [
+        "Đại Cồ Việt",
+        "Đại Việt",
+        "Vạn Xuân",
+        "Âu Lạc"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Năm 544, Lý Bí lên ngôi xưng Lý Nam Đế, đặt niên hiệu là Thiên Đức và đặt quốc hiệu là Vạn Xuân (với mong muốn đất nước độc lập vững bền vạn mùa xuân).",
+        "socraticPrompt": "Tên nước có nghĩa là 'vạn mùa xuân ấm no độc lập' là tên gì?",
+        "steps": "Lý Bí gắn liền với quốc hiệu Vạn Xuân và chùa Khai Quốc (nay là chùa Trấn Quốc).",
+        "trap": "Nhầm Đại Cồ Việt (thời Đinh Tiên Hoàng năm 968)."
+      },
+      "distractorReasons": {
+        "A": "Sai, Đại Cồ Việt do Đinh Bộ Lĩnh đặt năm 968.",
+        "B": "Sai, Đại Việt do vua Lý Thánh Tông đặt năm 1054.",
+        "C": "Đáp án đúng theo SGK trang 74.",
+        "D": "Sai, Âu Lạc do An Dương Vương đặt năm 208 TCN."
+      }
+    },
+    {
+      "id": "lsdl6_ch05_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Chính sách độc quyền Bắc thuộc",
+      "question": "Trong thời kì Bắc thuộc, các triều đại phong kiến phương Bắc đã nắm độc quyền hai mặt hàng thiết yếu nào đối với đời sống và sản xuất của nhân dân ta?",
+      "options": [
+        "Lụa tơ tằm và gốm hoa lam",
+        "Gạo nếp và rượu cần",
+        "Gỗ lim và ngọc trai",
+        "Muối ăn và sắt"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Chính quyền đô hộ giữ độc quyền sản xuất và buôn bán muối và sắt để kìm hãm nhân dân ta: thiếu muối làm sức khỏe suy yếu, thiếu sắt không chế tạo được vũ khí chống lại chúng.",
+        "socraticPrompt": "Gia vị thiết yếu cho cơ thể con người và kim loại dùng để rèn dao kiếm là gì?",
+        "steps": "Độc quyền muối và sắt là thủ đoạn thâm độc vừa bóc lột kinh tế vừa ngăn chặn khởi nghĩa.",
+        "trap": "Nhầm lẫn sang ngọc trai hay tơ lụa (đây là cống phẩm chứ không phải mặt hàng độc quyền kìm hãm nhân dân)."
+      },
+      "distractorReasons": {
+        "A": "Sai, lụa và gốm là sản phẩm thủ công dân gian.",
+        "B": "Sai, gạo nếp do nhân dân tự trồng trọt được.",
+        "C": "Sai, ngọc trai là đồ cống nạp quý giá.",
+        "D": "Đáp án đúng theo SGK trang 66."
+      }
+    },
+    {
+      "id": "lsdl6_ch05_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Trận Bạch Đằng 938",
+      "question": "Trong trận thủy chiến Bạch Đằng năm 938, Ngô Quyền đã chỉ huy quân dân đánh tan đạo quân xâm lược của triều đại phong kiến nào?",
+      "options": [
+        "Quân Nam Hán",
+        "Quân Tần",
+        "Quân Tống",
+        "Quân Nguyên Mông"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Năm 938, vua Nam Hán sai con trai là Lưu Hoằng Tháo đem thủy quân sang xâm lược nước ta. Ngô Quyền đã chỉ huy phục kích tiêu diệt toàn bộ quân Nam Hán.",
+        "socraticPrompt": "Tướng Lưu Hoằng Tháo bị giết trên sông Bạch Đằng thuộc quân nào?",
+        "steps": "Quân Nam Hán dưới sự chỉ huy của Lưu Hoằng Tháo bị đập tan năm 938.",
+        "trap": "Nhầm quân Tống (Lê Hoàn đánh năm 981, Lý Thường Kiệt đánh năm 1077) hoặc Nguyên Mông (thời Trần)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo SGK trang 83.",
+        "B": "Sai, quân Tần bị Thục Phán đánh bại vào thế kỉ III TCN.",
+        "C": "Sai, quân Tống bị đánh bại ở Bạch Đằng năm 981 thời Tiền Lê.",
+        "D": "Sai, quân Nguyên Mông bị đánh bại ở Bạch Đằng năm 1288 thời Trần."
+      }
+    },
+    {
+      "id": "lsdl6_ch05_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ý nghĩa chiến thắng Bạch Đằng",
+      "question": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền có ý nghĩa lịch sử vĩ đại nhất là gì đối với dân tộc Việt Nam?",
+      "options": [
+        "Mở rộng biên giới đất nước về phía nam đến tận mũi Cà Mau",
+        "Chấm dứt vĩnh viễn hơn một nghìn năm Bắc thuộc, mở ra thời kì độc lập tự chủ lâu dài cho Tổ quốc",
+        "Bắt đầu thời kì nước ta lệ thuộc vào các triều đại phương Tây",
+        "Chế tạo thành công động cơ hơi nước đầu tiên ở châu Á"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trận Bạch Đằng 938 là mốc son chói lọi, chấm dứt hoàn toàn ách thống trị hơn 10 thế kỉ của phong kiến phương Bắc, mở ra kỉ nguyên độc lập tự chủ trường tồn cho dân tộc.",
+        "socraticPrompt": "Trước năm 938 nước ta bị đô hộ hơn 1000 năm, sau năm 938 nước ta như thế nào?",
+        "steps": "Mốc son kết thúc thời kì Bắc thuộc, mở ra thời đại quân chủ độc lập tự chủ.",
+        "trap": "Nhầm lẫn với công cuộc mở cõi phương Nam thời chúa Nguyễn (thế kỉ XVII - XVIII)."
+      },
+      "distractorReasons": {
+        "A": "Sai, mở cõi đến mũi Cà Mau thuộc thời chúa Nguyễn ở thế kỉ XVIII.",
+        "B": "Đáp án đúng theo đánh giá lịch sử trang trọng SGK trang 85.",
+        "C": "Sai, nước ta bước vào kỉ nguyên độc lập chứ không lệ thuộc phương Tây.",
+        "D": "Sai, động cơ hơi nước thuộc cách mạng công nghiệp châu Âu thế kỉ XVIII."
+      }
     }
-  },
-  {
-    "id": "sd6_ch05_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Năm 544, sau khi đánh bại quân Lương, Lý Bí đã lên ngôi hoàng đế (Lý Nam Đế) và đặt tên nước ta là:",
-    "options": [
-      "A. Đại Cồ Việt",
-      "B. Vạn Xuân",
-      "C. Đại Việt",
-      "D. Âu Lạc"
-    ],
-    "answer": 1,
-    "explanation": "📌 Nhà nước Vạn Xuân: Lý Nam Đế đặt tên nước là Vạn Xuân với ước vọng đất nước mãi trường tồn, bình yên và tươi đẹp như vạn mùa xuân.\n💡 Đại Cồ Việt thời Đinh Tiên Hoàng; Đại Việt thời Lý Thánh Tông.\n⚠️ Khắc sâu tên nước Vạn Xuân gắn với Lý Bí."
-  }
-]
+  ]
+}

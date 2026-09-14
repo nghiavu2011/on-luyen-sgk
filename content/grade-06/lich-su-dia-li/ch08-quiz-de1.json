@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch08_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Lớp nào nằm ở vị trí trung tâm trong cùng của Trái Đất, có nhiệt độ cao nhất lên tới gần $5000^\\circ\\text{C}$?",
-    "options": [
-      "A. Vỏ Trái Đất",
-      "B. Lớp Manti",
-      "C. Nhân Trái Đất (lõi)",
-      "D. Thạch quyển"
-    ],
-    "answer": 2,
-    "explanation": "📌 Cấu tạo: Nhân Trái Đất là phần lõi trong cùng, áp suất cực lớn và nhiệt độ cao tương đương bề mặt Mặt Trời.\n💡 Cấu tạo 3 lớp từ ngoài vào trong: Vỏ $\\rightarrow$ Manti $\\rightarrow$ Nhân.\n⚠️ Không nhầm với lớp Manti ở giữa."
-  },
-  {
-    "id": "sd6_ch08_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Địa hình hang động đá vôi kì ảo như ở Vịnh Hạ Long hay Phong Nha - Kẻ Bàng là kết quả của dạng địa hình nào?",
-    "options": [
-      "A. Địa hình nhân tạo do con người đào",
-      "B. Địa hình Karst do nước hoà tan đá vôi lâu đời",
-      "C. Địa hình do dung nham núi lửa tạo nên",
-      "D. Địa hình đồi bát úp"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm địa lí: Nước mưa hoà tan axit carbonic nhẹ ăn mòn đá vôi tạo thành địa hình Karst với những thạch nhũ và hang động tráng lệ.\n💡 Di sản thiên nhiên thế giới của Việt Nam.\n⚠️ Phân biệt địa hình Karst với địa hình núi lửa bazan."
-  }
-]
+{
+  "chapterId": "ch08",
+  "quizId": "de1",
+  "title": "Chương 8: Cấu tạo của Trái Đất & Địa hình bề mặt — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch08_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Cấu tạo bên trong Trái Đất",
+      "question": "Cấu tạo bên trong của Trái Đất gồm có những lớp nào tính từ ngoài vào trong?",
+      "options": [
+        "Tầng đối lưu, tầng bình lưu và tầng cao khí quyển",
+        "Lớp đất trồng, lớp nước ngầm và quặng kim loại",
+        "Vỏ Trái Đất, lớp Manti và nhân Trái Đất",
+        "Lớp manti, lớp vỏ và nhân ngoài"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trái Đất cấu tạo gồm 3 lớp đồng tâm: Vỏ Trái Đất ngoài cùng (5-70km) -> Lớp Manti ở giữa (2900km) -> Nhân Trái Đất trong cùng (3400km).",
+        "socraticPrompt": "Lớp nào ngoài cùng mỏng nhất con người đang sinh sống trên đó?",
+        "steps": "Thứ tự: Vỏ -> Manti -> Nhân.",
+        "trap": "Nhầm lẫn giữa các tầng khí quyển với các lớp cấu tạo lòng đất."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là các tầng của lớp vỏ khí (khí quyển).",
+        "B": "Sai, đây chỉ là các thành phần bề mặt.",
+        "C": "Đáp án chính xác theo SGK trang 129.",
+        "D": "Sai, đảo lộn trật tự các lớp."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Lớp vỏ Trái Đất",
+      "question": "Lớp vỏ Trái Đất có đặc điểm trạng thái vật chất nào sau đây?",
+      "options": [
+        "Ở thể lỏng sôi sùng sục như nước",
+        "Chỉ toàn là băng tuyết đông cứng",
+        "Ở thể khí trong suốt không màu",
+        "Ở thể rắn chắc, có độ dày từ 5 km đến 70 km"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Vỏ Trái Đất ở trạng thái rắn chắc, gồm các loại đất đá, khoáng vật, có độ dày mỏng nhất chỉ từ 5km (đáy biển) đến 70km (lục địa).",
+        "socraticPrompt": "Mặt đất chúng ta bước đi hàng ngày là chất rắn, lỏng hay khí?",
+        "steps": "Trạng thái rắn chắc là nơi diễn ra mọi hoạt động của con người.",
+        "trap": "Nhầm lớp Manti quánh dẻo với vỏ Trái Đất rắn chắc."
+      },
+      "distractorReasons": {
+        "A": "Sai, thể lỏng là nhân ngoài hoặc mắc-ma.",
+        "B": "Sai, băng tuyết chỉ phủ ở hai cực và đỉnh núi cao.",
+        "C": "Sai, thể khí là khí quyển bao quanh Trái Đất.",
+        "D": "Đáp án đúng theo SGK trang 129."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tác động của nội lực",
+      "question": "Lực sinh ra từ bên trong lòng Trái Đất có xu hướng tác động như thế nào đến địa hình bề mặt Trái Đất?",
+      "options": [
+        "Làm cho bề mặt Trái Đất trở nên gồ ghề (tạo núi, nâng cao hoặc hạ thấp các vùng đất)",
+        "San bằng phẳng lì tất cả các dãy núi cao trên thế giới",
+        "Làm biến mất hoàn toàn các con sông",
+        "Làm cho Trái Đất ngừng quay quanh Mặt Trời"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nội lực là nguồn năng lượng trong lòng đất, đẩy các mảng kiến tạo xô húc uốn nếp làm mặt đất gồ ghề (tạo núi, vực sâu, núi lửa).",
+        "socraticPrompt": "Núi cao và rãnh sâu đại dương do lực đẩy từ trong lòng đất hay do mưa gió bên ngoài đẩy lên?",
+        "steps": "Nội lực: làm gồ ghề địa hình; Ngoại lực: san bằng địa hình.",
+        "trap": "Nhầm lẫn vai trò giữa nội lực (làm gồ ghề) và ngoại lực (san bằng)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 131.",
+        "B": "Sai, san bằng là xu hướng của ngoại lực (gió, mưa, nước chảy).",
+        "C": "Sai, sông ngòi do nước mưa và băng tuyết hình thành.",
+        "D": "Sai, nội lực không làm thay đổi chuyển động quỹ đạo Trái Đất."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm địa hình núi",
+      "question": "Dạng địa hình núi có độ cao tuyệt đối thường từ bao nhiêu mét trở lên so với mực nước biển?",
+      "options": [
+        "Trên 100 m",
+        "Trên 500 m",
+        "Trên 200 m",
+        "Trên 5000 m"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Núi là dạng địa hình nhô cao rõ rệt, có độ cao tuyệt đối thường trên 500 m so với mực nước biển, có đỉnh nhọn, sườn dốc.",
+        "socraticPrompt": "Đồi thì cao dưới 200m, còn núi thì độ cao quy chuẩn bắt đầu từ bao nhiêu mét?",
+        "steps": "Núi: > 500m; Đồi: < 200m; Đồng bằng: < 200m.",
+        "trap": "Nhầm số liệu 200m (200m là giới hạn của đồi và đồng bằng)."
+      },
+      "distractorReasons": {
+        "A": "Sai, 100m là địa hình đồng bằng hoặc đồi thấp.",
+        "B": "Đáp án đúng theo định nghĩa SGK trang 135.",
+        "C": "Sai, 200m là độ cao tối đa của đồi so với xung quanh.",
+        "D": "Sai, 5000m là những đỉnh núi tuyết cực cao của thế giới."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vành đai lửa",
+      "question": "Khu vực tập trung tới 75% núi lửa đang hoạt động và xảy ra 90% các trận động đất lớn trên thế giới được gọi là gì?",
+      "options": [
+        "Khu vực Bắc Băng Dương",
+        "Vành đai lửa Đại Tây Dương",
+        "Vành đai lửa Thái Bình Dương",
+        "Sa mạc Xa-ha-ra"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Vành đai lửa Thái Bình Dương (Ring of Fire) hình móng ngựa bao quanh lòng chảo Thái Bình Dương, nơi các mảng kiến tạo va chạm khốc liệt nhất.",
+        "socraticPrompt": "Đại dương lớn nhất thế giới có vành đai núi lửa tên là gì?",
+        "steps": "Vành đai lửa Thái Bình Dương là vùng địa chấn dữ dội nhất hành tinh (Nhật Bản, In-đô-nê-xi-a, Phi-líp-pin,...).",
+        "trap": "Nhầm sang Đại Tây Dương hay Ấn Độ Dương."
+      },
+      "distractorReasons": {
+        "A": "Sai, Bắc Băng Dương là vùng băng lạnh ít núi lửa.",
+        "B": "Sai, Đại Tây Dương chủ yếu có sống núi ngầm giữa đại dương.",
+        "C": "Đáp án chính xác theo SGK trang 134.",
+        "D": "Sai, sa mạc Xa-ha-ra là khiên lục địa cổ ổn định."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khoáng sản nhiên liệu",
+      "question": "Nhóm khoáng sản năng lượng (nhiên liệu) bao gồm các loại khoáng vật nào sau đây?",
+      "options": [
+        "Vàng, bạc, kim cương",
+        "Đá vôi, thạch anh, sét cao lanh",
+        "Sắt, man-gan, crôm",
+        "Than đá, than bùn, dầu mỏ và khí đốt thiên nhiên"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Khoáng sản năng lượng (nhiên liệu) khi đốt cháy sinh ra nhiệt năng, gồm than đá, dầu mỏ, khí đốt, đá phiến dầu.",
+        "socraticPrompt": "Những tài nguyên nào dùng làm chất đốt cho nhà máy nhiệt điện và xe cộ?",
+        "steps": "Than và dầu khí là nhiên liệu năng lượng hóa thạch.",
+        "trap": "Nhầm khoáng sản kim loại (sắt, đồng) hoặc phi kim (đá vôi)."
+      },
+      "distractorReasons": {
+        "A": "Sai, vàng bạc là khoáng sản kim loại quý.",
+        "B": "Sai, đá vôi thạch anh là khoáng sản phi kim loại.",
+        "C": "Sai, sắt man-gan là khoáng sản kim loại đen.",
+        "D": "Đáp án đúng theo phân loại SGK trang 137."
+      }
+    }
+  ]
+}

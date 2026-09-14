@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch01_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dương lịch là hệ thống lịch được tính toán dựa trên chu kì chuyển động nào?",
-    "options": [
-      "A. Mặt Trời tự quay quanh mình nó",
-      "B. Mặt Trăng quay xung quanh Trái Đất",
-      "C. Trái Đất quay xung quanh Mặt Trời",
-      "D. Sao Hoả chuyển động quanh Trái Đất"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm: Dương lịch dựa trên chu kì chuyển động của Trái Đất quanh Mặt Trời (khoảng 365,25 ngày).\n💡 Âm lịch mới tính theo chu kì Mặt Trăng quay quanh Trái Đất.\n⚠️ Phân biệt rõ lịch dương và lịch âm."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "de2",
+  "title": "Chương 1: Vì sao cần học Lịch sử? — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch01_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định thế kỉ",
+      "question": "Năm 938, Ngô Quyền lãnh đạo nhân dân đánh tan quân Nam Hán trên sông Bạch Đằng. Năm 938 thuộc thế kỉ thứ mấy?",
+      "options": [
+        "Thế kỉ IX (thế kỉ 9)",
+        "Thế kỉ VIII (thế kỉ 8)",
+        "Thế kỉ X (thế kỉ 10)",
+        "Thế kỉ XI (thế kỉ 11)"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Thế kỉ X kéo dài từ năm 901 đến hết năm 1000. Do 938 nằm trong khoảng này nên thuộc thế kỉ X.",
+        "socraticPrompt": "Thế kỉ 1 từ năm 1-100, vậy năm 938 lấy chữ số hàng trăm là 9 cộng thêm mấy?",
+        "steps": "Năm có 3 chữ số: Lấy số trăm cộng 1: $9 + 1 = 10$ (thế kỉ X).",
+        "trap": "Học sinh nhìn thấy đầu số 9 vội vàng kết luận là thế kỉ IX."
+      },
+      "distractorReasons": {
+        "A": "Sai, thế kỉ IX kết thúc vào năm 900.",
+        "B": "Sai, thế kỉ VIII kết thúc vào năm 800.",
+        "C": "Đáp án đúng: năm 938 thuộc thế kỉ X (thế kỉ 10).",
+        "D": "Sai, thế kỉ XI bắt đầu từ năm 1001."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Khoảng cách thời gian",
+      "question": "Thục Phán lập ra nhà nước Âu Lạc vào khoảng năm 208 TCN. Sự kiện đó diễn ra cách năm 2026 bao nhiêu năm?",
+      "options": [
+        "1 818 năm",
+        "2 026 năm",
+        "2 442 năm",
+        "2 234 năm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Cách tính khoảng cách từ năm trước Công nguyên ($X$ TCN) đến năm Công nguyên ($Y$): $\\text{Khoảng cách} = X + Y$.",
+        "socraticPrompt": "Từ năm 208 TCN đến năm 1 CN là bao nhiêu năm? Từ năm 1 CN đến 2026 là bao nhiêu năm?",
+        "steps": "Khoảng cách = 208 + 2026 = 2234 năm.",
+        "trap": "Lấy 2026 trừ đi 208 = 1818 năm (sai lầm do không để ý sự kiện xảy ra trước Công nguyên)."
+      },
+      "distractorReasons": {
+        "A": "Sai, do làm phép trừ 2026 - 208.",
+        "B": "Sai, đây chỉ là năm hiện tại.",
+        "C": "Sai, do tính nhầm phép cộng.",
+        "D": "Đáp án đúng: 208 + 2026 = 2234 năm."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân loại tư liệu",
+      "question": "Bản khắc trên 82 tấm bia đá đặt trên lưng rùa tại Văn Miếu - Quốc Tử Giám ghi danh các tiến sĩ thi đỗ thời Hậu Lê thuộc loại tư liệu nào?",
+      "options": [
+        "Vừa là tư liệu chữ viết, vừa là tư liệu hiện vật",
+        "Chỉ thuần túy là tư liệu truyền miệng dân gian",
+        "Tư liệu tranh ảnh phục dựng thời hiện đại",
+        "Bản đồ địa lí cổ của triều đình phong kiến"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bia tiến sĩ Văn Miếu là tấm đá khắc hình rùa (tư liệu hiện vật), trên mặt bia có khắc bài văn bia bằng chữ Hán (tư liệu chữ viết). Đồng thời đây là tư liệu gốc cực kì quý giá.",
+        "socraticPrompt": "Tấm bia đá là vật thể hay lời kể? Chữ khắc trên đó là gì?",
+        "steps": "Kết hợp cả 2 hình thức: hiện vật cụ thể bằng đá và chữ viết khắc trực tiếp trên đó.",
+        "trap": "Chỉ chọn một trong hai yếu tố (chỉ chọn chữ viết hoặc chỉ chọn hiện vật)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác và toàn diện nhất.",
+        "B": "Sai hoàn toàn vì bia đá có chữ viết khắc cụ thể, không phải truyền miệng.",
+        "C": "Sai, bia đá được dựng từ thế kỉ XV, không phải tranh ảnh hiện đại.",
+        "D": "Sai, bia tiến sĩ ghi danh khoa bảng chứ không phải bản đồ."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Lịch trong đời sống",
+      "question": "Quan sát tờ lịch treo tường ở Việt Nam, em thấy in song song hai loại ngày: ngày 01 tháng 01 (dương lịch) và ngày 20 tháng 11 (âm lịch). Điều này thể hiện điều gì?",
+      "options": [
+        "Nhà nước bắt buộc người dân chỉ được sử dụng một loại lịch duy nhất",
+        "Sự kết hợp hài hòa giữa Công lịch dùng cho hành chính quốc tế và Âm lịch theo truyền thống dân tộc",
+        "Người Việt Nam không thể tính toán chính xác chu kì chuyển động của Mặt Trời",
+        "Do chưa có sự thống nhất về cách đo thời gian giữa các vùng miền"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Việt Nam dùng Công lịch trong các văn bản giao dịch hành chính nhà nước và bang giao quốc tế, nhưng nhân dân vẫn dùng Âm lịch để xem ngày tết, hội hè, mùa vụ nông nghiệp truyền thống.",
+        "socraticPrompt": "Tết Nguyên đán của dân tộc ta được đón theo ngày âm hay ngày dương?",
+        "steps": "Tờ lịch song song giúp người dân tiện theo dõi cả công việc hành chính hiện đại lẫn phong tục truyền thống.",
+        "trap": "Nghĩ rằng việc in hai loại lịch là do nhầm lẫn hoặc chưa thống nhất quy chuẩn."
+      },
+      "distractorReasons": {
+        "A": "Sai, thực tế lịch in cả hai hệ ngày.",
+        "B": "Đáp án đúng theo bài học SGK trang 17.",
+        "C": "Sai, Việt Nam áp dụng Công lịch quốc tế rất chuẩn xác.",
+        "D": "Sai, cả nước đều sử dụng chung một quy chuẩn lịch pháp thống nhất."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đơn vị thời gian lịch sử",
+      "question": "Một thế kỉ bao gồm bao nhiêu năm và một thiên niên kỉ bằng bao nhiêu thế kỉ?",
+      "options": [
+        "10 năm và bằng 10 thế kỉ",
+        "100 năm và bằng 100 thế kỉ",
+        "100 năm và bằng 10 thế kỉ",
+        "1 000 năm và bằng 10 thế kỉ"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "1 thập kỉ = 10 năm; 1 thế kỉ = 100 năm; 1 thiên niên kỉ = 1 000 năm = 10 thế kỉ.",
+        "socraticPrompt": "Tiền tố 'thế' ứng với 100 năm, 'thiên' trong Hán Việt nghĩa là gì? (Thiên = 1000).",
+        "steps": "1000 năm chia cho 100 năm = 10 thế kỉ.",
+        "trap": "Nhầm lẫn giữa thập kỉ (10 năm) và thế kỉ (100 năm)."
+      },
+      "distractorReasons": {
+        "A": "Sai, 10 năm là thập kỉ.",
+        "B": "Sai, 100 thế kỉ tương đương 10 000 năm.",
+        "C": "Đáp án đúng theo định nghĩa chuẩn SGK trang 17.",
+        "D": "Sai, 1 thế kỉ chỉ có 100 năm chứ không phải 1 000 năm."
+      }
+    },
+    {
+      "id": "lsdl6_ch01_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đánh giá tư liệu",
+      "question": "Khi nghiên cứu một cuộc khởi nghĩa chống ngoại xâm trong quá khứ, việc đối chiếu giữa tư liệu hiện vật (vũ khí, thành quách) và tư liệu chữ viết (sử sách hai bên) có tác dụng gì?",
+      "options": [
+        "Làm cho các tài liệu trở nên mâu thuẫn và không thể sử dụng được",
+        "Chứng minh rằng sử sách của phía xâm lược luôn luôn đúng đắn",
+        "Thay thế hoàn toàn mọi câu chuyện truyền thuyết trong dân gian",
+        "Giúp nhà sử học phục dựng lại sự kiện một cách khách quan, chính xác và khoa học nhất"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Mỗi nguồn tư liệu có ưu thế riêng: tư liệu hiện vật là minh chứng khách quan, tư liệu chữ viết cung cấp diễn biến chi tiết. Đối chiếu đa nguồn giúp làm sáng tỏ chân lí lịch sử.",
+        "socraticPrompt": "Nếu chỉ nghe lời kể từ một phía, sự việc có bị thiên lệch không?",
+        "steps": "Đối chiếu, phê phán sử liệu là phương pháp cốt lõi của khoa học lịch sử.",
+        "trap": "Nghĩ rằng chỉ cần một loại tư liệu là đủ hiểu hết toàn bộ lịch sử."
+      },
+      "distractorReasons": {
+        "A": "Sai, sự đối chiếu giúp gạn lọc sai lệch chứ không làm mất giá trị tài liệu.",
+        "B": "Sai, sử sách của bên xâm lược thường mang định kiến hoặc che giấu thất bại.",
+        "C": "Sai, truyền thuyết vẫn giữ giá trị văn hóa tinh thần đặc sắc.",
+        "D": "Đáp án đúng theo nguyên lí phương pháp sử học SGK trang 15."
+      }
+    }
+  ]
+}

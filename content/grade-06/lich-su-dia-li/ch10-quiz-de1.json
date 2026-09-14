@@ -1,36 +1,164 @@
-[
-  {
-    "id": "sd6_ch10_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hệ thống một dòng sông hoàn chỉnh bao gồm các bộ phận nào hợp thành?",
-    "options": [
-      "A. Chỉ có duy nhất một dòng sông chính",
-      "B. Sông chính, các phụ lưu",
-      "C. Biển cả và hồ nước",
-      "D. Các mạch nước ngầm"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm thuỷ văn: Hệ thống sông gồm: Phụ lưu (nhánh sông gom nước đổ vào) $\\rightarrow$ Sông chính (dòng chảy lớn ở giữa) $\\rightarrow$ Chi lưu (nhánh sông chia nước đổ ra biển).\n💡 Ví dụ: Hệ thống sông Hồng.\n⚠️ Phân biệt rõ phụ lưu cấp nước và chi lưu chia nước.",
-    "breakdown": {
-      "calculation": "cấp nước) và các chi lưu (thoát nước"
+{
+  "chapterId": "ch10",
+  "quizId": "de1",
+  "title": "Chương 10: Nước trên Trái Đất, Đất & Sinh vật — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch10_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tỉ lệ nước ngọt",
+      "question": "Trong toàn bộ thể tích nước của Thủy quyển bao phủ trên Trái Đất, lượng nước ngọt quý giá chỉ chiếm tỉ lệ khoảng bao nhiêu phần trăm?",
+      "options": [
+        "Khoảng 97,5%",
+        "Khoảng 2,5%",
+        "Khoảng 50%",
+        "Khoảng 10%"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nước mặn trong biển và đại dương chiếm tới 97,5%; nước ngọt chỉ chiếm vẻn vẹn khoảng 2,5% (phần lớn lại đóng băng ở cực).",
+        "socraticPrompt": "Nước mặn biển đại dương chiếm 97,5% thì nước ngọt còn lại mấy %?",
+        "steps": "$100\\% - 97,5\\% = 2,5\\%$ nước ngọt.",
+        "trap": "Nhầm tưởng nước ngọt dồi dào chiếm tỉ lệ lớn (nhầm với tỉ lệ 71% diện tích bề mặt Trái Đất là nước)."
+      },
+      "distractorReasons": {
+        "A": "Sai, 97,5% là tỉ lệ của nước mặn đại dương.",
+        "B": "Đáp án chính xác theo biểu đồ tài nguyên nước SGK trang 156.",
+        "C": "Sai, nước ngọt không chiếm tới một nửa.",
+        "D": "Sai tỉ lệ số liệu."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguyên nhân sóng biển",
+      "question": "Nguyên nhân chủ yếu sinh ra các đợt sóng biển vỗ vào bờ trên các đại dương là do đâu?",
+      "options": [
+        "Do sức hút của Mặt Trăng",
+        "Do nhiệt độ nước biển tăng cao",
+        "Do cá voi bơi lội dưới biển",
+        "Do tác động của gió thổi trên mặt nước"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Sóng biển là hình thức dao động của nước biển, sinh ra chủ yếu do gió. Gió càng mạnh thì sóng biển càng lớn.",
+        "socraticPrompt": "Khi không có gió thì mặt biển phẳng lặng, khi có gió lớn thì mặt nước biển nổi lên cái gì?",
+        "steps": "Gió là nguyên nhân chính sinh ra sóng biển thông thường.",
+        "trap": "Nhầm sức hút của Mặt Trăng (Mặt Trăng sinh ra thủy triều, không phải sóng biển do gió)."
+      },
+      "distractorReasons": {
+        "A": "Sai, sức hút Mặt Trăng sinh ra hiện tượng thủy triều.",
+        "B": "Sai, nhiệt độ không trực tiếp tạo ra chuyển động sóng cơ học.",
+        "C": "Sai, sinh vật biển không thể tạo sóng trên quy mô đại dương.",
+        "D": "Đáp án đúng theo SGK trang 163."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguyên nhân thủy triều",
+      "question": "Hiện tượng nước biển dâng lên và rút xuống có chu kì đều đặn hàng ngày (thủy triều) được sinh ra do tác nhân chủ yếu nào?",
+      "options": [
+        "Do sức hút của Mặt Trăng và Mặt Trời đối với khối nước biển",
+        "Do gió bão thổi mạnh từ ngoài khơi vào đất liền",
+        "Do núi lửa dưới đáy biển phun trào dung nham",
+        "Do các con sông lớn đổ nước ồ ạt ra biển"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Thủy triều là hiện tượng dao động nước biển có chu kì do lực hấp dẫn (sức hút) của Mặt Trăng và Mặt Trời đối với lớp nước đại dương.",
+        "socraticPrompt": "Thủy triều thay đổi theo ngày tuần trăng là do sức hút của thiên thể nào?",
+        "steps": "Sức hút Mặt Trăng (chính) và Mặt Trời (phụ) sinh ra thủy triều.",
+        "trap": "Nhầm sang gió bão (gió bão sinh ra sóng hoặc nước dâng do bão)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 164.",
+        "B": "Sai, gió chỉ sinh ra sóng biển.",
+        "C": "Sai, núi lửa đáy biển sinh ra đá mắc-ma hoặc sóng thần cục bộ.",
+        "D": "Sai, nước sông đổ ra biển duy trì độ muối chứ không tạo chu kì thủy triều."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Độ muối nước biển",
+      "question": "Độ muối trung bình của nước trong các biển và đại dương trên thế giới là bao nhiêu?",
+      "options": [
+        "Khoảng 5‰",
+        "Khoảng 100‰",
+        "Khoảng 35‰ (35 gam muối / lít nước)",
+        "Khoảng 500‰"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Độ muối trung bình của nước biển là 35‰ (tức trong 1000g nước biển hòa tan khoảng 35g muối khoáng, chủ yếu là muối ăn NaCl).",
+        "socraticPrompt": "1 lít nước biển nấu cạn cho khoảng 35 gam muối thì độ muối là bao nhiêu phần nghìn?",
+        "steps": "Độ muối trung bình toàn cầu = 35‰.",
+        "trap": "Nhầm đơn vị phần trăm (%) với phần nghìn (‰)."
+      },
+      "distractorReasons": {
+        "A": "Sai, 5‰ là nước lợ nhạt.",
+        "B": "Sai, 100‰ là độ muối ở các hồ muối cực mặn.",
+        "C": "Đáp án chính xác theo SGK trang 163.",
+        "D": "Sai, mức muối quá cao không có trong đại dương tự nhiên."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khái niệm độ phì của đất",
+      "question": "Khả năng của đất cung cấp đầy đủ nước, chất dinh dưỡng và không khí cho cây cối sinh trưởng, phát triển tươi tốt được gọi là gì?",
+      "options": [
+        "Độ ẩm của đất",
+        "Độ phì của đất",
+        "Độ dốc của đất",
+        "Độ cứng của đất"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Độ phì (màu mỡ) là đặc tính quan trọng nhất của đất, quyết định năng suất cây trồng. Đất nhiều mùn hữu cơ thì độ phì càng cao.",
+        "socraticPrompt": "Mảnh đất màu mỡ trồng cây tốt tươi trong nông nghiệp gọi là đất có cái gì cao?",
+        "steps": "Độ phì = khả năng cung cấp dinh dưỡng cho cây.",
+        "trap": "Nhầm độ phì với độ ẩm đơn thuần."
+      },
+      "distractorReasons": {
+        "A": "Sai, độ ẩm chỉ đo lượng nước chứa trong đất.",
+        "B": "Đáp án đúng theo định nghĩa thổ nhưỡng SGK trang 168.",
+        "C": "Sai, độ dốc là yếu tố địa hình nghiêng.",
+        "D": "Sai, độ cứng là tính chất cơ học."
+      }
+    },
+    {
+      "id": "lsdl6_ch10_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hệ thống sông ngòi",
+      "question": "Những dòng sông nhỏ làm nhiệm vụ dẫn nước, gom nước đổ vào dòng sông chính trong một hệ thống sông được gọi là gì?",
+      "options": [
+        "Chi lưu",
+        "Thác nước",
+        "Cửa sông",
+        "Phụ lưu"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Một hệ thống sông gồm: Dòng sông chính; Phụ lưu (các nhánh sông cấp nước vào sông chính); Chi lưu (các nhánh sông làm nhiệm vụ thoát nước từ sông chính ra biển).",
+        "socraticPrompt": "Dòng sông nhánh gom nước cung cấp (phụ giúp) cho dòng chính gọi là gì?",
+        "steps": "Phụ lưu = cấp nước; Chi lưu = thoát nước.",
+        "trap": "Nhầm lẫn giữa phụ lưu (nhận nước vào) và chi lưu (chia nước tỏa ra biển)."
+      },
+      "distractorReasons": {
+        "A": "Sai, chi lưu làm nhiệm vụ chia nước, thoát nước ra biển.",
+        "B": "Sai, thác nước là đoạn sông dốc nước đổ đứng.",
+        "C": "Sai, cửa sông là nơi sông đổ ra biển.",
+        "D": "Đáp án đúng theo cấu trúc hệ thống sông SGK trang 158."
+      }
     }
-  },
-  {
-    "id": "sd6_ch10_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Đặc tính quan trọng nhất phân biệt lớp đất (thổ nhưỡng) với các lớp đất đá khoáng vật trơ khác là:",
-    "options": [
-      "A. Đất có màu đen sẫm",
-      "B. Đất có chứa sỏi cuội cứng",
-      "C. Đất có độ phì",
-      "D. Đất nằm sâu dưới lòng đất"
-    ],
-    "answer": 2,
-    "explanation": "📌 Khái niệm thổ nhưỡng: Độ phì là linh hồn của đất, nhờ có độ phì mà thực vật có thể bén rễ đâm chồi sinh sôi nảy nở tạo nguồn thức ăn cho sinh giới.\n💡 Nếu mất độ phì đất sẽ bị thoái hoá thành sa mạc trơ trụi.\n⚠️ Ghi nhớ từ khoá 'độ phì'.",
-    "breakdown": {
-      "calculation": "khả năng cung cấp nước, chất dinh dưỡng cho cây cối sinh trưởng"
-    }
-  }
-]
+  ]
+}

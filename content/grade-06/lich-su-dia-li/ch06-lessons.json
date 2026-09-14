@@ -1,32 +1,40 @@
-[
-  {
-    "id": "l13",
-    "title": "Bài 13: Hệ thống kinh, vĩ tuyến và toạ độ địa lí",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 13: Hệ thống kinh, vĩ tuyến và toạ độ địa lí.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 13: Hệ thống kinh, vĩ tuyến và toạ độ địa lí.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 13: Hệ thống kinh, vĩ tuyến và toạ độ địa lí.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l14",
-    "title": "Bài 14: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 14: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 14: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 14: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất",
+  "lessons": [
+    {
+      "id": "l16",
+      "title": "Bài 1 & 2: Hệ thống kinh, vĩ tuyến, toạ độ địa lí và phương hướng trên bản đồ",
+      "summary": "<ul><li><b>Kinh tuyến:</b> Nửa đường tròn nối hai điểm cực Bắc và cực Nam trên bề mặt quả Địa Cầu. Các kinh tuyến đều có độ dài bằng nhau. Kinh tuyến gốc $0^\\circ$ đi qua đài thiên văn Grin-uýt (Luân Đôn, Anh). Những kinh tuyến bên phải kinh tuyến gốc là kinh tuyến Đông, bên trái là kinh tuyến Tây.</li><li><b>Vĩ tuyến:</b> Những vòng tròn vuông góc với các đường kinh tuyến. Các vĩ tuyến song song với nhau và có độ dài nhỏ dần từ Xích đạo về hai cực. Vĩ tuyến gốc $0^\\circ$ là đường Xích đạo, chia Trái Đất thành Bán cầu Bắc và Bán cầu Nam.</li><li><b>Toạ độ địa lí:</b> Gồm kinh độ và vĩ độ của một điểm trên bản đồ. Viết kinh độ ở dưới (hoặc bên phải), vĩ độ ở trên (hoặc bên trái). Ví dụ toạ độ điểm $A(20^\\circ\\text{B}, 105^\\circ\\text{Đ})$.</li><li><b>Phương hướng trên bản đồ:</b> Xác định dựa vào hệ thống kinh, vĩ tuyến (đầu trên kinh tuyến chỉ hướng Bắc, đầu dưới chỉ hướng Nam; bên phải vĩ tuyến chỉ hướng Đông, bên trái chỉ hướng Tây) hoặc dựa vào kim chỉ hướng/hoa gió. Có 8 hướng chính: Bắc, Nam, Đông, Tây, Đông Bắc, Đông Nam, Tây Bắc, Tây Nam.</li></ul>",
+      "keyPoints": [
+        "Kinh tuyến gốc $0^\\circ$ qua Grin-uýt; Vĩ tuyến gốc $0^\\circ$ là đường Xích đạo.",
+        "Toạ độ địa lí gồm cặp giá trị (Vĩ độ, Kinh độ).",
+        "Đầu trên của đường kinh tuyến luôn chỉ hướng Bắc."
+      ],
+      "examples": [
+        {
+          "problem": "Điểm B nằm ở nơi giao nhau giữa vĩ tuyến $10^\\circ$ phía nam Xích đạo và kinh tuyến $110^\\circ$ phía đông kinh tuyến gốc. Ghi toạ độ địa lí của điểm B.",
+          "solution": "Toạ độ địa lí của điểm B được viết là: $B(10^\\circ\\text{N}, 110^\\circ\\text{Đ})$ (hoặc $10^\\circ\\text{Nam}, 110^\\circ\\text{Đông}$)."
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "l17",
+      "title": "Bài 3 & 4: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi",
+      "summary": "<ul><li><b>Tỉ lệ bản đồ:</b> Chỉ rõ mức độ thu nhỏ khoảng cách trên bản đồ so với khoảng cách tương ứng ngoài thực địa. Có hai dạng biểu hiện:<ul><li><i>Tỉ lệ số:</i> Phân số có tử số là 1 (ví dụ $1 : 100.000$, nghĩa là 1 cm trên bản đồ bằng $100.000\\text{ cm} = 1\\text{ km}$ ngoài thực địa). Mẫu số càng nhỏ thì tỉ lệ bản đồ càng lớn, mức độ chi tiết càng cao.</li><li><i>Tỉ lệ thước:</i> Thước đo được vẽ sẵn từng đoạn có ghi độ dài thực tế tương ứng.</li></ul></li><li><b>Công thức tính khoảng cách thực tế:</b> $\\text{Khoảng cách thực địa} = \\text{Khoảng cách đo trên bản đồ} \\times \\text{Mẫu số tỉ lệ}$.</li><li><b>Kí hiệu bản đồ:</b> Bảng chú giải giải thích ý nghĩa các kí hiệu. Phân loại theo hình thức: kí hiệu hình học, kí hiệu chữ, kí hiệu tượng hình. Phân loại theo đối tượng: kí hiệu điểm (sân bay, mỏ than), kí hiệu đường (biên giới, đường sắt, sông), kí hiệu diện tích (vùng trồng lúa, đầm lầy, rừng).</li></ul>",
+      "keyPoints": [
+        "Tỉ lệ bản đồ $1 : M$ cho biết 1 cm trên bản đồ bằng $M$ cm ngoài thực địa.",
+        "Bảng chú giải giúp người đọc hiểu chính xác ý nghĩa các biểu tượng kí hiệu.",
+        "Kí hiệu gồm: kí hiệu điểm, kí hiệu đường và kí hiệu diện tích."
+      ],
+      "examples": [
+        {
+          "problem": "Trên một bản đồ có tỉ lệ $1 : 200.000$, khoảng cách giữa hai thành phố đo được là $5\\text{ cm}$. Hỏi trên thực tế hai thành phố đó cách nhau bao nhiêu ki-lô-mét?",
+          "solution": "Khoảng cách thực tế = $5\\text{ cm} \\times 200.000 = 1.000.000\\text{ cm} = 10.000\\text{ m} = 10\\text{ km}$."
+        }
+      ],
+      "hasRealContent": true
+    }
+  ]
+}

@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch02_th_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Điểm khác biệt căn bản về thể chất giữa Người tinh khôn và Người tối cổ là gì?",
-    "options": [
-      "A. Người tinh khôn vẫn còn lớp lông rậm bao phủ khắp người",
-      "B. Người tinh khôn đã đi đứng thẳng hoàn toàn, hộp sọ lớn hơn, trán thẳng đứng, đôi tay khéo léo chế tác công cụ",
-      "C. Người tinh khôn có xương hàm nhô về phía trước",
-      "D. Người tinh khôn chưa biết phát âm thành tiếng nói"
-    ],
-    "answer": 1,
-    "explanation": "📌 Tiến hoá sinh học: Người tinh khôn có cấu tạo cơ thể hoàn thiện giống hệt người ngày nay: dáng đi thẳng, não bộ phát triển, trán cao, xương hàm thụt vào nhường chỗ cho thanh quản phát âm ngôn ngữ phong phú.\n💡 Khác với người tối cổ còn dáng khom và gờ lông mày nhô cao.\n⚠️ Nắm vững các mốc tiến hoá cơ thể học."
-  },
-  {
-    "id": "sd6_ch02_th_q2",
-    "type": "multiple_choice",
-    "difficulty": "expert",
-    "question": "★ Tại sao trong xã hội thị tộc thời nguyên thủy, tính cộng đồng và sự công bằng bình đẳng lại được duy trì rất chặt chẽ ('làm chung, ăn chung')?",
-    "options": [
-      "A. Do luật pháp của nhà nước nguyên thuỷ bắt buộc",
-      "B. Do trình độ sản xuất còn quá thấp kém, của cải kiếm được chỉ vừa đủ sống qua ngày, muốn tồn tại phải nương tựa sẻ chia tuyệt đối",
-      "C. Do không ai muốn tích luỹ tài sản",
-      "D. Do sự ra lệnh của tộc trưởng"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bản chất xã hội: Năng suất săn bắt hái lượm bấp bênh, nếu chia rẽ hoặc giữ riêng thức ăn thì cả bầy sẽ chết đói và bị diệt vong. Sự công bằng là điều kiện bắt buộc để bầy người cùng sinh tồn.\n💡 'Lực lượng sản xuất quyết định quan hệ sản xuất'.\n⚠️ Bậc tư duy cao: Hiểu rõ nguồn gốc kinh tế của sự bình đẳng nguyên thuỷ."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "tonghop",
+  "title": "Chương 2: Xã hội nguyên thủy — 🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "lsdl6_ch02_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bước nhảy vọt lịch sử",
+      "question": "Nhân tố quyết định trực tiếp thúc đẩy quá trình tiến hóa từ Vượn người thành Người tối cổ rồi thành Người tinh khôn là gì?",
+      "options": [
+        "Sự biến đổi ngẫu nhiên của thời tiết và khí hậu Trái Đất",
+        "Sự xuất hiện của các loài động vật ăn thịt to lớn",
+        "Quá trình lao động sáng tạo công cụ và sử dụng công cụ để cải tạo tự nhiên",
+        "Việc con người di cư từ châu Á sang châu Âu"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Lao động đã sáng tạo ra bản thân con người. Nhờ lao động chế tác công cụ, đôi bàn tay dần trở nên khéo léo, dáng đứng thẳng dần, não bộ phát triển và ngôn ngữ ra đời.",
+        "socraticPrompt": "Cái gì làm cho đôi tay khéo léo và bộ não ngày càng suy nghĩ linh hoạt?",
+        "steps": "Ph. Ăng-ghen khẳng định: 'Lao động là nhân tố quyết định trực tiếp biến vượn thành người'.",
+        "trap": "Cho rằng chỉ do khí hậu lạnh ấm quyết định sự tiến hóa sinh học tự nhiên."
+      },
+      "distractorReasons": {
+        "A": "Sai, khí hậu chỉ là điều kiện môi trường bên ngoài.",
+        "B": "Sai, thú dữ là mối đe dọa chứ không phải động lực tiến hóa ý thức.",
+        "C": "Đáp án đúng theo quan điểm khoa học SGK trang 18.",
+        "D": "Sai, di cư chỉ mở rộng địa bàn sinh sống."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đánh giá công cụ lao động",
+      "question": "So sánh chiếc rìu đá được ghè đẽo thô sơ ở Núi Đọ (Thanh Hóa) với chiếc rìu đồng văn hóa Đông Sơn, nhận xét nào sau đây là ĐÚNG NHẤT?",
+      "options": [
+        "Rìu đá ghè đẽo sắc bén và bền chắc hơn rất nhiều so với rìu đúc bằng đồng",
+        "Rìu đá phản ánh trình độ xã hội đã có nhà nước và luật pháp hoàn chỉnh",
+        "Hai loại rìu có công năng và thời gian chế tạo hoàn toàn giống hệt nhau",
+        "Rìu đồng thể hiện bước nhảy vọt về kĩ thuật luyện kim, có hình dáng cân đối, lưỡi xòe sắc nhọn và hiệu suất gấp nhiều lần rìu đá"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Rìu đá Núi Đọ là đá thô ghè một mặt của Người tối cổ. Rìu đồng Đông Sơn (rìu xòe cân, rìu hình hài) được đúc khuôn tinh xảo, có họng tra cán, bền và nâng năng suất lên vượt bậc.",
+        "socraticPrompt": "Đồ đồng đúc bằng khuôn so với hòn đá ghè vỡ mặt nào tinh xảo và sắc bén hơn?",
+        "steps": "Đồ đồng vượt trội về độ cứng, độ sắc, độ dẻo dai và khả năng tái chế khi bị mẻ.",
+        "trap": "Nghĩ rằng đá cứng hơn đồng nên rìu đá tốt hơn."
+      },
+      "distractorReasons": {
+        "A": "Sai, rìu đá ghè đẽo rất thô và dễ vỡ khi va đập mạnh.",
+        "B": "Sai, rìu đá Núi Đọ thuộc thời Người tối cổ, chưa có nhà nước.",
+        "C": "Sai, công nghệ đúc đồng phức tạp hơn nghìn lần ghè đá.",
+        "D": "Đáp án đúng phản ánh quy luật phát triển lực lượng sản xuất."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Sự xuất hiện nhà nước",
+      "question": "Sơ đồ nào sau đây mô tả ĐÚNG NHẤT mối quan hệ nhân quả dẫn đến sự xuất hiện của các nhà nước cổ đại?",
+      "options": [
+        "Công cụ kim khí ra đời -> Năng suất lao động tăng -> Của cải dư thừa -> Xuất hiện tư hữu -> Phân hóa xã hội -> Nhà nước ra đời",
+        "Nhà nước ra đời -> Chế tạo công cụ kim khí -> Phân hóa giàu nghèo -> Xuất hiện thị tộc",
+        "Xuất hiện tư hữu -> Bầy người nguyên thủy ra đời -> Công cụ đá mài -> Nhà nước thành lập",
+        "Xã hội nguyên thủy tan rã -> Công cụ kim khí ra đời -> Năng suất lao động giảm sút -> Nhà nước ra đời"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Kim loại -> Năng suất tăng -> Thừa của cải -> Tư hữu -> Giàu nghèo phân hóa sâu sắc -> Mâu thuẫn giai cấp -> Nhà nước ra đời để quản lí xã hội.",
+        "socraticPrompt": "Cái gì có trước: công cụ kim khí hay nhà nước?",
+        "steps": "Chuỗi quan hệ nhân quả duy vật lịch sử SGK trang 25.",
+        "trap": "Xếp nhà nước ra đời trước khi có công cụ kim khí hoặc tư hữu."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo toàn bộ chuỗi nhân quả SGK.",
+        "B": "Sai, nhà nước là sản phẩm ra đời sau khi xã hội đã phân hóa giàu nghèo.",
+        "C": "Sai, trật tự các giai đoạn bị đảo lộn hoàn toàn.",
+        "D": "Sai, năng suất lao động tăng chứ không giảm."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Dấu tích khảo cổ An Khê",
+      "question": "Năm 2014, tại An Khê (Gia Lai), các nhà khảo cổ Việt Nam và quốc tế đã phát hiện các rìu tay đá có niên đại khoảng 80 vạn năm. Phát hiện này bác bỏ quan điểm sai lầm nào trước đây của một số học giả phương Tây?",
+      "options": [
+        "Quan điểm cho rằng châu Á là nơi duy nhất trên Trái Đất có Người tinh khôn sinh sống",
+        "Quan điểm cho rằng vùng Đông Á và Đông Nam Á là khu vực bảo thủ, lạc hậu, không có sự xuất hiện sớm của con người thời sơ kì đồ đá",
+        "Quan điểm cho rằng người nguyên thủy chỉ biết ăn chay chứ không biết săn bắt thịt thú rừng",
+        "Quan điểm cho rằng đồ gốm ra đời trước công cụ ghè đẽo bằng đá"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trước đây, học giả Mô-vi-út (Movius) chia thế giới thành hai vùng và cho rằng phương Đông bảo thủ không có rìu tay ghè hai mặt. Phát hiện An Khê chứng minh Đông Nam Á cũng phát triển công cụ đá sớm và tiến bộ tương đương phương Tây.",
+        "socraticPrompt": "Di chỉ An Khê khẳng định vị thế khảo cổ của Việt Nam như thế nào trên bản đồ thế giới?",
+        "steps": "Khẳng định Đông Nam Á là cái nôi tiến hóa loài người độc lập và phát triển sớm.",
+        "trap": "Nghĩ rằng phát hiện chỉ mang tính chất địa phương bình thường."
+      },
+      "distractorReasons": {
+        "A": "Sai, châu Phi cũng là cái nôi phát hiện di cốt vượn người sớm.",
+        "B": "Đáp án đúng theo tài liệu nghiên cứu cập nhật SGK Lịch sử 6 trang 19.",
+        "C": "Sai, quan điểm ăn chay không liên quan đến công cụ rìu đá An Khê.",
+        "D": "Sai, công cụ đá luôn ra đời trước đồ gốm."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Nghệ thuật nguyên thủy",
+      "question": "Những hình khắc mặt người có sừng thú và các con thú trên vách hang Đồng Nội (Hòa Bình) cho ta biết điều gì về đời sống tâm linh của cư dân thời đá mới?",
+      "options": [
+        "Họ chỉ vẽ để trang trí cho vách hang đẹp mắt phục vụ khách du lịch",
+        "Họ dùng các bức vẽ để thay thế cho chữ viết dùng trong thi cử tuyển chọn quan lại",
+        "Họ đã có tư duy nghệ thuật, tín ngưỡng sùng bái sức mạnh muông thú và nghi lễ cầu may trước khi đi săn bắt",
+        "Đây là các hình vẽ do người hiện đại vẽ mô phỏng lại vào thế kỉ XX"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nghệ thuật hang động của người nguyên thủy gắn liền với nghi lễ ma thuật và săn bắn. Đeo sừng thú hoặc vẽ mặt thú nhằm cầu xin thần linh ban cho sức mạnh và săn bắt được nhiều muông thú.",
+        "socraticPrompt": "Người nguyên thủy vẽ thú dữ có phải để chuẩn bị cho chuyến đi săn may mắn không?",
+        "steps": "Gắn liền giữa nghệ thuật tạo hình sơ khai và tín ngưỡng sùng bái tự nhiên.",
+        "trap": "Đem quan niệm hiện đại (trang trí du lịch) áp đặt vào người nguyên thủy."
+      },
+      "distractorReasons": {
+        "A": "Sai, thời nguyên thủy chưa có khái niệm du lịch.",
+        "B": "Sai, thời kì này hoàn toàn chưa có chữ viết hay thi cử.",
+        "C": "Đáp án đúng theo bài học đời sống tinh thần SGK trang 23.",
+        "D": "Sai, đây là di tích khảo cổ đích thực thuộc văn hóa Hòa Bình có niên đại hàng vạn năm."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Trách nhiệm với di sản khảo cổ",
+      "question": "Khi tham quan một hang động tiền sử có các tầng văn hóa khảo cổ chứa nhiều mảnh tước đá và vỏ ốc của người nguyên thủy, em và các bạn NÊN làm gì?",
+      "options": [
+        "Nhặt thật nhiều vỏ ốc và mảnh đá cổ đem về nhà bán cho người sưu tầm đồ cũ",
+        "Dùng phấn hoặc dao khắc tên của mình lên các vách hang để lưu lại dấu ấn kỉ niệm",
+        "Đốt lửa cắm trại nấu nướng ngay trên bề mặt tầng văn hóa khảo cổ",
+        "Tôn trọng nguyên trạng khu vực khảo cổ, không giẫm đạp làm vỡ hiện vật và báo ngay cho ban quản lí nếu phát hiện hiện vật lạ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tầng văn hóa khảo cổ là nguồn tư liệu hiện vật vô giá rất dễ bị hủy hoại. Giữ nguyên trạng thái, không xê dịch hay xâm hại di vật là hành vi văn minh và đúng luật di sản.",
+        "socraticPrompt": "Lấy hiện vật về nhà hoặc đốt lửa trên tầng đất khảo cổ có làm hỏng bằng chứng lịch sử không?",
+        "steps": "Bảo vệ nguyên vẹn để các nhà khảo cổ có thể đo đạc chính xác niên đại của các tầng đất.",
+        "trap": "Nghĩ rằng nhặt một vài vỏ ốc hay mảnh đá đem về làm kỉ niệm là vô hại."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là hành vi xâm hại di chỉ và buôn bán trái phép cổ vật.",
+        "B": "Sai, khắc chữ phá hủy vách đá di sản.",
+        "C": "Sai, nhiệt độ của lửa sẽ làm biến chất hóa học và sai lệch kết quả đo niên đại carbon phóng xạ.",
+        "D": "Đáp án đúng thể hiện ý thức công dân gương mẫu."
+      }
+    }
+  ]
+}

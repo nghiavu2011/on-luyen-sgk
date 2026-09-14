@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch09_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Đới khí hậu nào trên Trái Đất có góc chiếu ánh sáng mặt trời lớn quanh năm, nhiệt độ luôn cao và thảm thực vật rừng rậm xanh tốt phát triển phong phú?",
-    "options": [
-      "A. Đới lạnh (Hàn đới)",
-      "B. Đới ôn hoà (Ôn đới)",
-      "C. Đới nóng (Nhiệt đới)",
-      "D. Vùng địa cực"
-    ],
-    "answer": 2,
-    "explanation": "📌 Đặc điểm đới khí hậu: Đới nóng (nằm giữa hai đường chí tuyến Bắc và Nam) nhận được bức xạ mặt trời lớn nhất, quanh năm ấm áp mưa nhiều.\n💡 Việt Nam nằm trọn vẹn trong đới khí hậu này.\n⚠️ Đới ôn hoà có 4 mùa rõ rệt, đới lạnh băng giá quanh năm."
-  }
-]
+{
+  "chapterId": "ch09",
+  "quizId": "de2",
+  "title": "Chương 9: Khí hậu & Biến đổi khí hậu — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch09_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính nhiệt độ theo độ cao",
+      "question": "Tại chân núi Bà Đen (Tây Ninh) ở độ cao 0m đo được nhiệt độ không khí là $32^\\circ\\text{C}$. Hỏi tại đỉnh núi Bà Đen ở độ cao $986\\text{ m}$ (làm tròn $1.000\\text{ m}$), nhiệt độ ước tính khoảng bao nhiêu độ C?",
+      "options": [
+        "38°C",
+        "32°C",
+        "26°C",
+        "15°C"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy luật: trong tầng đối lưu, cứ lên cao 100m nhiệt độ giảm 0,6°C (lên cao 1000m nhiệt độ giảm $6^\\circ\\text{C}$). Nhiệt độ đỉnh núi = $32^\\circ\\text{C} - 6^\\circ\\text{C} = 26^\\circ\\text{C}$.",
+        "socraticPrompt": "Càng lên cao trời càng mát hay nóng lên? Lên 1000m giảm mấy độ C?",
+        "steps": "Giảm $6^\\circ\\text{C}$: $32 - 6 = 26^\\circ\\text{C}$.",
+        "trap": "Cộng thêm nhiệt độ ($32 + 6 = 38^\\circ\\text{C}$) do nhầm lẫn quy luật."
+      },
+      "distractorReasons": {
+        "A": "Sai lầm nghiêm trọng do làm phép cộng lên cao càng nóng.",
+        "B": "Sai, nhiệt độ phải giảm đi chứ không giữ nguyên.",
+        "C": "Đáp án đúng: $26^\\circ\\text{C}$.",
+        "D": "Sai, giảm quá mức."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt thời tiết và khí hậu",
+      "question": "Câu phát biểu nào sau đây đang diễn đạt về THỜI TIẾT chứ không phải khí hậu?",
+      "options": [
+        "Miền Nam Việt Nam có hai mùa mưa và mùa khô sâu sắc kéo dài quanh năm",
+        "Châu Âu có mùa đông lạnh tuyết rơi và mùa hạ ấm áp ổn định qua hàng thế kỉ",
+        "Hoang mạc Xa-ha-ra quanh năm vô cùng khô hạn và lượng mưa trung bình dưới 50mm",
+        "Sáng nay trời Đà Nẵng se lạnh, gió nhẹ, đến trưa trời hửng nắng ấm rực rỡ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Thời tiết diễn ra trong thời gian ngắn (trong buổi sáng, ngày) và thay đổi mau lẹ. Khí hậu là quy luật lặp lại ổn định qua nhiều năm ở một vùng rộng lớn.",
+        "socraticPrompt": "Câu nào nói về sự thay đổi của trời nắng, gió trong một ngày cụ thể hôm nay?",
+        "steps": "'Sáng nay se lạnh... trưa hửng nắng' = biểu hiện thời tiết cụ thể trong ngày.",
+        "trap": "Nhầm lẫn giữa hiện tượng thời tiết ngắn hạn với quy luật khí hậu dài hạn."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là đặc điểm khí hậu miền Nam.",
+        "B": "Sai, đây là quy luật khí hậu ôn đới châu Âu.",
+        "C": "Sai, đây là quy luật khí hậu hoang mạc.",
+        "D": "Đáp án đúng phản ánh bản chất của thời tiết SGK trang 150."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Gió Tín phong",
+      "question": "Loại gió thổi quanh năm theo hướng Đông Bắc ở Bán cầu Bắc từ áp cao chí tuyến về áp thấp Xích đạo có tên gọi là gì?",
+      "options": [
+        "Gió Tín phong (gió Mậu dịch)",
+        "Gió Đông cực",
+        "Gió Mùa mùa đông",
+        "Gió Tây ôn đới"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Gió Tín phong thổi thường xuyên từ vùng chí tuyến ($30^\\circ$) về Xích đạo ($0^\\circ$). Tên gọi Tín phong (Mậu dịch) gắn liền với những con tàu buôn thuyền buồm tin cậy đúng hẹn thời xưa.",
+        "socraticPrompt": "Gió thổi từ chí tuyến về Xích đạo giúp tàu buôn đi lại tin cậy thời xưa là gió gì?",
+        "steps": "Gió Tín phong hoạt động chủ yếu trong vùng đới nóng.",
+        "trap": "Nhầm gió Tây ôn đới (thổi từ chí tuyến lên vùng ôn đới)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 145.",
+        "B": "Sai, gió Đông cực thổi ở vùng hàn đới.",
+        "C": "Sai, gió mùa thay đổi hướng theo mùa chứ không thổi quanh năm một hướng cố định.",
+        "D": "Sai, gió Tây ôn đới thổi ở vùng ôn hòa."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ảnh hưởng của biển đến khí hậu",
+      "question": "Vì sao các vùng đất nằm ven biển (như Đà Nẵng, Nha Trang) thường có khí hậu mát mẻ về mùa hè và ấm áp hơn về mùa đông so với các vùng nằm sâu trong đất liền cùng vĩ độ?",
+      "options": [
+        "Vì nước biển tự phát sáng làm ấm không khí",
+        "Vì nước biển hấp thụ nhiệt chậm hơn và tỏa nhiệt chậm hơn đất liền, có tác dụng điều hòa nhiệt độ không khí quanh năm",
+        "Vì ở biển không hề có gió thổi",
+        "Vì nước biển hút hết mọi đám mây đen trên trời"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tính chất nhiệt của nước và đất khác nhau: Nước biển nóng chậm và nguội chậm hơn đất liền. Mùa hè nước biển mát làm dịu bớt cái nóng, mùa đông nước biển tỏa nhiệt làm không khí ấm áp hơn -> tính chất điều hòa của khí hậu hải dương.",
+        "socraticPrompt": "Đất và nước cái nào lâu nguội hơn khi đun nóng? Hơi nước biển có giúp dịu mát mùa hè không?",
+        "steps": "Nước biển hấp thụ và tỏa nhiệt chậm -> điều hòa nhiệt độ ven bờ.",
+        "trap": "Cho rằng ven biển mát chỉ đơn thuần do gió thổi mạnh."
+      },
+      "distractorReasons": {
+        "A": "Sai, nước biển không tự phát sáng sưởi ấm.",
+        "B": "Đáp án đúng theo quy luật phân bố nhiệt độ SGK trang 146.",
+        "C": "Sai, vùng ven biển có gió biển thổi rất dồi dào.",
+        "D": "Sai, hơi nước biển chính là nguồn bốc hơi tạo mây."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hậu quả biến đổi khí hậu",
+      "question": "Hậu quả trực tiếp nguy hiểm nhất của hiện tượng Trái Đất ấm lên đối với các vùng đồng bằng ven biển trũng thấp của Việt Nam (như Đồng bằng sông Cửu Long) là gì?",
+      "options": [
+        "Nhiệt độ giảm sâu làm tuyết rơi dày đặc quanh năm",
+        "Đồng bằng biến thành một hoang mạc cát nóng bỏng không có nước",
+        "Băng ở hai cực tan làm nước biển dâng cao, gây ngập lụt diện tích đất canh tác và xâm nhập mặn sâu vào nguồn nước ngọt",
+        "Các con sông tự động chảy ngược lên đỉnh núi"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Biến đổi khí hậu làm nước biển dâng và triều cường mạnh, dẫn tới nguy cơ ngập úng các vùng châu thổ trũng thấp và xâm nhập mặn tàn phá mùa màng lúa gạo ở Đồng bằng sông Cửu Long.",
+        "socraticPrompt": "Băng tan nước biển dâng thì vùng đất thấp ven biển sẽ bị gì?",
+        "steps": "Ngập chìm đất phù sa + mặn hóa nguồn nước ngọt sinh hoạt và tưới tiêu.",
+        "trap": "Nhầm với hiện tượng đóng băng tuyết rơi."
+      },
+      "distractorReasons": {
+        "A": "Sai, Trái Đất ấm lên chứ không phải đóng băng.",
+        "B": "Sai, đồng bằng bị ngập nước chứ không thành sa mạc cát.",
+        "C": "Đáp án đúng thể hiện thách thức sinh thái lớn nhất của Việt Nam SGK trang 152.",
+        "D": "Sai, nước sông luôn chảy xuôi từ cao xuống thấp theo trọng lực."
+      }
+    },
+    {
+      "id": "lsdl6_ch09_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đọc biểu đồ nhiệt ẩm",
+      "question": "Khi đọc một biểu đồ nhiệt độ và lượng mưa của một địa phương, đường cong màu đỏ và các cột hình chữ nhật màu xanh lam lần lượt biểu thị cho đại lượng nào?",
+      "options": [
+        "Cả hai đều biểu thị độ cao địa hình của vùng núi",
+        "Đường cong màu đỏ chỉ lượng mưa và các cột màu xanh chỉ hướng gió",
+        "Đường cong màu đỏ chỉ số dân và cột màu xanh chỉ diện tích rừng",
+        "Đường cong màu đỏ chỉ nhiệt độ (°C) và các cột màu xanh chỉ lượng mưa (mm) của từng tháng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy ước chuẩn quốc tế: Đường biểu diễn màu đỏ thể hiện diễn biến nhiệt độ qua 12 tháng (đơn vị °C ở trục bên trái), các cột đứng màu xanh lam thể hiện lượng mưa tích lũy của từng tháng (đơn vị mm ở trục bên phải).",
+        "socraticPrompt": "Màu đỏ tượng trưng cho độ nóng (nhiệt độ), màu xanh tượng trưng cho nước (mưa). Biểu đồ vẽ thế nào?",
+        "steps": "Đường đỏ = Nhiệt độ; Cột xanh = Lượng mưa.",
+        "trap": "Đảo lộn giữa đại lượng nhiệt độ và lượng mưa."
+      },
+      "distractorReasons": {
+        "A": "Sai, độ cao do lát cắt địa hình thể hiện.",
+        "B": "Sai, đảo ngược quy ước chuẩn.",
+        "C": "Sai, đây là biểu đồ khí hậu chứ không phải dân số hay rừng.",
+        "D": "Đáp án chính xác theo bài thực hành đọc biểu đồ khí hậu SGK trang 153."
+      }
+    }
+  ]
+}

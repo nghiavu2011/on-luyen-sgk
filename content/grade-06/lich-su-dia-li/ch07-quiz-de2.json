@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch07_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Do tác động của lực Cô-ri-ô-lit, một quả đạn pháo bắn theo hướng từ Nam lên Bắc ở Bán cầu Bắc sẽ bị lệch hướng bay về phía nào?",
-    "options": [
-      "A. Lệch về bên phải (hướng Đông)",
-      "B. Lệch về bên trái (hướng Tây)",
-      "C. Không bị lệch hướng nào",
-      "D. Bị kéo giật ngược về phía Nam"
-    ],
-    "answer": 0,
-    "explanation": "📌 Quy luật lực Coriolis: Ở Bán cầu Bắc, mọi vật thể chuyển động đều bị lệch về phía bên phải so với hướng chuyển động ban đầu. Chuyển động Nam $\\rightarrow$ Bắc nhìn về phía trước thì bên phải là hướng Đông.\n💡 Bán cầu Nam lệch về bên trái.\n⚠️ Xác định đúng bên phải theo hướng mũi tên chuyển động."
-  }
-]
+{
+  "chapterId": "ch07",
+  "quizId": "de2",
+  "title": "Chương 7: Trái Đất – Hành tinh của Hệ Mặt Trời — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch07_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính giờ múi",
+      "question": "Một trận bóng đá ở Nhật Bản (múi giờ số 9) bắt đầu lúc $19\\text{ giờ}$ ngày 15 tháng 6. Hỏi khán giả ở Việt Nam (múi giờ số 7) xem truyền hình trực tiếp lúc mấy giờ?",
+      "options": [
+        "21 giờ cùng ngày",
+        "17 giờ cùng ngày",
+        "19 giờ cùng ngày",
+        "15 giờ cùng ngày"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Múi giờ 7 ở phía tây so với múi giờ 9, nên giờ ở Việt Nam chậm hơn Nhật Bản 2 tiếng ($9 - 7 = 2\\text{ giờ}$). Giờ tại Việt Nam = $19 - 2 = 17\\text{ giờ}$ (5 giờ chiều) ngày 15/6.",
+        "socraticPrompt": "Việt Nam (múi 7) chạy chậm hơn hay nhanh hơn Nhật Bản (múi 9)? Mấy tiếng?",
+        "steps": "Chậm hơn 2 tiếng: $19 - 2 = 17\\text{ giờ}$.",
+        "trap": "Cộng thêm 2 tiếng ($19 + 2 = 21\\text{ giờ}$) do nhầm lẫn hướng tính giờ."
+      },
+      "distractorReasons": {
+        "A": "Sai lầm do làm phép cộng $19 + 2$.",
+        "B": "Đáp án đúng: $17\\text{ giờ}$.",
+        "C": "Sai, hai múi giờ khác nhau không thể cùng giờ.",
+        "D": "Sai, chênh lệch chỉ là 2 tiếng chứ không phải 4 tiếng."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiện tượng mùa trái ngược",
+      "question": "Vào tháng 12, khi người dân ở Việt Nam (Bán cầu Bắc) đang trải qua mùa đông lạnh giá thì người dân ở nước Ô-xtrây-li-a (Bán cầu Nam) đang trải qua mùa nào?",
+      "options": [
+        "Mùa đông giá buốt",
+        "Không có mùa nào",
+        "Mùa thu mát mẻ",
+        "Mùa hạ (mùa hè) nóng ấm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hai bán cầu luôn có mùa trái ngược nhau do trục Trái Đất nghiêng. Tháng 12, Bán cầu Nam ngả về phía Mặt Trời nhận nhiều nhiệt (mùa hè), còn Bán cầu Bắc chếch xa Mặt Trời (mùa đông).",
+        "socraticPrompt": "Khi Bán cầu Bắc là mùa đông thì Bán cầu Nam là mùa gì?",
+        "steps": "Mùa trái ngược nhau: Bắc đông thì Nam hè (người dân Úc đón Giáng sinh giữa mùa hè nóng bức).",
+        "trap": "Nghĩ rằng cả Trái Đất đều cùng chung một mùa đông lạnh vào tháng 12."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là sai lầm nghĩ cả hai nửa địa cầu cùng một mùa.",
+        "B": "Sai, mọi nơi đều có mùa theo quy luật góc chiếu sáng.",
+        "C": "Sai, tháng 12 là mùa hạ ở Bán cầu Nam.",
+        "D": "Đáp án đúng theo nguyên lí các mùa SGK trang 123."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Lực Cô-ri-ô-lít",
+      "question": "Do tác động của lực Cô-ri-ô-lít sinh ra từ sự tự quay của Trái Đất, một viên đạn đại bác bắn từ xích đạo bay về phía cực Bắc (ở Bán cầu Bắc) sẽ bị lệch hướng về phía nào?",
+      "options": [
+        "Lệch về bên phải so với hướng di chuyển ban đầu",
+        "Lệch về bên trái so với hướng di chuyển ban đầu",
+        "Không hề bị lệch hướng",
+        "Bị hất ngược trở lại điểm bắn ban đầu"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quy tắc lực Cô-ri-ô-lít: Ở Bán cầu Bắc, các vật thể chuyển động đều bị lệch về bên phải; ở Bán cầu Nam, các vật thể bị lệch về bên trái theo hướng di chuyển.",
+        "socraticPrompt": "Ở Bán cầu Bắc, dòng sông hay viên đạn bị lệch về bên phải hay bên trái?",
+        "steps": "Bắc bán cầu: lệch phải; Nam bán cầu: lệch trái.",
+        "trap": "Nhầm quy tắc giữa Bán cầu Bắc (lệch phải) và Bán cầu Nam (lệch trái)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo định luật Cô-ri-ô-lít SGK trang 120.",
+        "B": "Sai, lệch trái là quy luật ở Bán cầu Nam.",
+        "C": "Sai, sự tự quay của Trái Đất luôn tạo ra lực làm lệch hướng.",
+        "D": "Sai, lực lệch phương ngang chứ không hất ngược vật thể."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Năm nhuận",
+      "question": "Vì sao cứ sau 4 năm lại có một năm nhuận (dương lịch có 366 ngày với tháng 2 có 29 ngày)?",
+      "options": [
+        "Vì các nhà làm lịch muốn tạo ra thêm một ngày nghỉ lễ cho người dân",
+        "Vì Mặt Trời quay chậm lại sau mỗi 4 năm",
+        "Vì Trái Đất quay quanh Mặt Trời mất 365 ngày 6 giờ, phần dư 6 giờ sau 4 năm tích lũy đủ 24 giờ (đúng bằng 1 ngày)",
+        "Do trục Trái Đất tự động đảo chiều sau mỗi 4 năm"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "1 năm thiên văn = 365 ngày + 6 giờ. Năm thường lấy 365 ngày. Sau 4 năm: $6\\text{ giờ} \\times 4 = 24\\text{ giờ} = 1\\text{ ngày}$. Ngày này được cộng thêm vào tháng 2 tạo thành năm nhuận.",
+        "socraticPrompt": "6 giờ dư mỗi năm nhân với 4 năm bằng bao nhiêu giờ? Có bằng 1 ngày không?",
+        "steps": "$6 \\times 4 = 24\\text{ h} = 1\\text{ ngày}$ -> năm nhuận 366 ngày.",
+        "trap": "Cho rằng đây là quy định tùy tiện của con người mà không có cơ sở thiên văn."
+      },
+      "distractorReasons": {
+        "A": "Sai, năm nhuận dựa trên cơ sở đo đạc thiên văn chính xác.",
+        "B": "Sai, vận tốc quay của các hành tinh rất ổn định.",
+        "C": "Đáp án đúng theo giải thích khoa học SGK trang 122.",
+        "D": "Sai, trục Trái Đất nghiêng ổn định không hề đảo chiều sau 4 năm."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đổi ngày quốc tế",
+      "question": "Khi một chiếc tàu thủy đi từ Bán cầu Tây sang Bán cầu Đông vượt qua đường đổi ngày quốc tế (kinh tuyến $180^\\circ$), người trên tàu phải chỉnh lịch như thế nào?",
+      "options": [
+        "Lùi lại 1 ngày lịch",
+        "Tăng thêm 1 ngày lịch",
+        "Giữ nguyên không thay đổi ngày",
+        "Chỉnh đồng hồ chạy chậm lại 12 tiếng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy ước quốc tế: Khi đi từ Tây sang Đông qua kinh tuyến $180^\\circ$ thì phải lùi lại 1 ngày lịch; khi đi từ Đông sang Tây qua kinh tuyến $180^\\circ$ thì tăng thêm 1 ngày lịch.",
+        "socraticPrompt": "Vượt qua kinh tuyến 180 độ từ Tây sang Đông hay Đông sang Tây sẽ đổi ngày lịch như thế nào?",
+        "steps": "Quy ước đường đổi ngày quốc tế SGK trang 120.",
+        "trap": "Nhầm lẫn giữa tăng ngày và lùi ngày khi vượt đường kinh tuyến 180°."
+      },
+      "distractorReasons": {
+        "A": "Sai, lùi ngày là khi đi từ Đông sang Tây.",
+        "B": "Đáp án đúng theo quy ước quốc tế về kinh tuyến 180°.",
+        "C": "Sai, nếu không đổi ngày sẽ bị sai lệch lịch pháp với các quốc gia sở tại.",
+        "D": "Sai, ở đây thay đổi ngày lịch chứ không đơn thuần là giờ trong ngày."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng đêm trắng",
+      "question": "Hiện tượng 'đêm trắng' (trời vẫn sáng mờ dù đã nửa đêm) nổi tiếng ở thành phố Xanh Pê-téc-bua (nước Nga) vào mùa hè là do nguyên nhân địa lí nào?",
+      "options": [
+        "Do người dân thắp hàng triệu bóng đèn điện công suất lớn khắp thành phố",
+        "Do mây phát quang kì lạ trên bầu trời",
+        "Do có một hành tinh khác chiếu sáng bổ sung vào ban đêm",
+        "Do thành phố nằm ở vĩ độ cao gần vòng cực, vào mùa hè góc chiếu sáng rộng khiến ban ngày kéo dài gần như suốt 24 giờ và Mặt Trời chỉ lặn ngay sát đường chân trời"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ở các vĩ độ cao gần vòng cực ($60^\\circ - 66^\\circ\\text{B}$), mùa hè ngày cực dài, Mặt Trời lặn rất muộn và nằm sát dưới đường chân trời khiến ánh hoàng hôn nối liền ánh bình minh, tạo nên hiện tượng đêm trắng kì thú.",
+        "socraticPrompt": "Càng lên gần cực Bắc vào mùa hè thì ban ngày dài ra hay ngắn lại?",
+        "steps": "Hiện tượng ngày dài đêm ngắn ở vĩ độ cao vào mùa hạ.",
+        "trap": "Tin vào lời đồn đèn điện hay hiện tượng phát quang kỳ quái."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là hiện tượng ánh sáng tự nhiên của vũ trụ.",
+        "B": "Sai, đây là ánh sáng tán xạ từ Mặt Trời chứ không phải do mây.",
+        "C": "Sai, không có hành tinh nào chiếu sáng như Mặt Trời.",
+        "D": "Đáp án đúng theo bài học ngày đêm dài ngắn theo vĩ độ SGK trang 124."
+      }
+    }
+  ]
+}

@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Phát minh vĩ đại nào của Người tối cổ đã giúp con người thoát khỏi cảnh ăn lông ở lỗ, sưởi ấm và xua đuổi thú dữ?",
-    "options": [
-      "A. Phát minh ra bánh xe",
-      "B. Biết tạo ra và giữ lửa",
-      "C. Chế tạo đồ gốm",
-      "D. Dệt vải bằng sợi gai"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bước ngoặt tiến hoá: Việc tìm ra lửa và thuần dưỡng lửa giúp con người nấu chín thức ăn, mở rộng không gian sống sang vùng lạnh giá.\n💡 Lửa đưa con người tách biệt hoàn toàn khỏi giới động vật hoang dã.\n⚠️ Bánh xe ra đời muộn hơn nhiều."
-  },
-  {
-    "id": "sd6_ch02_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Dấu tích răng của Người tối cổ có niên đại khoảng 40 vạn năm trước được phát hiện tại địa điểm nào của Việt Nam?",
-    "options": [
-      "A. Núi Đọ (Thanh Hoá)",
-      "B. Hang Thẩm Khuyên, Thẩm Hai (Lạng Sơn)",
-      "C. An Khê (Gia Lai)",
-      "D. Óc Eo (An Giang)"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khảo cổ học Việt Nam: Răng hóa thạch của Người tối cổ được tìm thấy tại hang Thẩm Khuyên, Thẩm Hai ở tỉnh Lạng Sơn.\n💡 Chứng minh Việt Nam là một trong những địa bàn cư trú cổ xưa của nhân loại.\n⚠️ Núi Đọ và An Khê tìm thấy công cụ đá ghè đẽo."
-  }
-]
+{
+  "chapterId": "ch02",
+  "quizId": "de1",
+  "title": "Chương 2: Xã hội nguyên thủy — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch02_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tiến hóa loài người",
+      "question": "Loài người đã trải qua quá trình tiến hóa tuần tự qua các dạng người nào sau đây?",
+      "options": [
+        "Người tối cổ -> Vượn người -> Người hiện đại",
+        "Vượn người -> Người tối cổ -> Người tinh khôn",
+        "Người tinh khôn -> Người tối cổ -> Vượn người",
+        "Vượn cổ -> Khỉ đột -> Người hiện đại"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quá trình tiến hóa: Vượn người (5-6 triệu năm trước) -> Người tối cổ (4 triệu năm trước) -> Người tinh khôn (15 vạn năm trước).",
+        "socraticPrompt": "Dạng người đầu tiên đã hoàn toàn biết đi đứng bằng 2 chân nhưng còn mang nhiều nốt vượn là dạng nào?",
+        "steps": "Tiến hóa đi từ thấp đến cao: Vượn người -> Người tối cổ -> Người tinh khôn.",
+        "trap": "Nhầm lẫn trật tự giữa Vượn người và Người tối cổ."
+      },
+      "distractorReasons": {
+        "A": "Sai, Vượn người xuất hiện trước Người tối cổ.",
+        "B": "Đáp án chính xác theo sơ đồ SGK trang 18.",
+        "C": "Sai, đây là trật tự đảo ngược.",
+        "D": "Sai, khỉ đột là nhánh linh trưởng khác chứ không tiến hóa thành người."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Dấu tích Người tối cổ ở Việt Nam",
+      "question": "Tại Việt Nam, các nhà khảo cổ đã tìm thấy những chiếc răng hóa thạch của Người tối cổ ở địa điểm nào?",
+      "options": [
+        "Hang Con Moong (Thanh Hóa)",
+        "Di chỉ khảo cổ học Óc Eo (An Giang)",
+        "Khu di chỉ Phùng Nguyên (Phú Thọ)",
+        "Hang Thẩm Khuyên, Thẩm Hai (tỉnh Lạng Sơn)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Răng hóa thạch của Người tối cổ có niên đại khoảng 40 vạn năm trước được phát hiện tại hang Thẩm Khuyên và Thẩm Hai thuộc tỉnh Lạng Sơn.",
+        "socraticPrompt": "Hang động nổi tiếng ở miền núi phía Bắc giáp biên giới tìm thấy răng người vượn?",
+        "steps": "Hang Thẩm Khuyên, Thẩm Hai (Lạng Sơn) là bằng chứng hóa thạch trực tiếp sớm nhất tại Việt Nam.",
+        "trap": "Nhầm với hang Con Moong (thuộc thời kì Người tinh khôn)."
+      },
+      "distractorReasons": {
+        "A": "Sai, hang Con Moong tìm thấy dấu vết Người tinh khôn thời đồ đá mới.",
+        "B": "Sai, Óc Eo thuộc vương quốc cổ Phù Nam thế kỉ I - VII.",
+        "C": "Sai, Phùng Nguyên là di chỉ thời đại kim khí (đồng thau).",
+        "D": "Đáp án đúng theo SGK trang 19."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tổ chức thị tộc",
+      "question": "Tổ chức xã hội cơ bản đầu tiên của loài người gồm vài chục gia đình có cùng quan hệ huyết thống được gọi là gì?",
+      "options": [
+        "Thị tộc",
+        "Làng xã nông nghiệp",
+        "Bầy người nguyên thủy",
+        "Gia đình phụ hệ"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Thị tộc là tổ chức của những người có cùng dòng máu (huyết thống), gồm vài chục gia đình, đứng đầu là tộc trưởng, mọi của cải đều làm chung và hưởng chung.",
+        "socraticPrompt": "Nhóm người cùng huyết thống, tôn vinh người mẹ trong gia đình gọi là gì?",
+        "steps": "Từ bầy người tiến lên thị tộc là bước tiến lớn về mặt tổ chức xã hội.",
+        "trap": "Nhầm với bầy người nguyên thủy (chưa có tổ chức gia đình huyết thống rõ ràng)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo định nghĩa SGK trang 21.",
+        "B": "Sai, làng xã xuất hiện muộn hơn khi có nông nghiệp định cư.",
+        "C": "Sai, bầy người sống tự nhiên chưa gắn kết chặt chẽ theo huyết tộc.",
+        "D": "Sai, thời thị tộc nguyên thủy ban đầu theo chế độ mẫu hệ."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phát minh ra lửa",
+      "question": "Phát minh quan trọng bậc nhất giúp Người tối cổ sưởi ấm, nướng chín thức ăn và xua đuổi thú dữ là gì?",
+      "options": [
+        "Phát minh ra cung tên",
+        "Phát minh ra đồ gốm",
+        "Phát minh ra lửa và biết tạo ra lửa",
+        "Phát minh ra bánh xe"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Việc tìm ra lửa và biết cách giữ lửa, tạo ra lửa bằng cách cọ xát đá/gỗ là bước nhảy vọt vĩ đại, giúp con người thoát khỏi đời sống động vật ăn sống ở lỗ.",
+        "socraticPrompt": "Yếu tố nào giúp con người không bị rét buốt trong mùa đông băng giá và ăn thức ăn chín?",
+        "steps": "Lửa cải thiện hệ tiêu hóa, giúp não bộ phát triển và bảo vệ con người an toàn trước dã thú.",
+        "trap": "Cung tên hay đồ gốm xuất hiện muộn hơn nhiều vào thời kì Người tinh khôn."
+      },
+      "distractorReasons": {
+        "A": "Sai, cung tên xuất hiện ở thời Người tinh khôn.",
+        "B": "Sai, đồ gốm xuất hiện thời đồ đá mới.",
+        "C": "Đáp án đúng theo SGK trang 20.",
+        "D": "Sai, bánh xe xuất hiện ở thời đại văn minh cổ đại."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kim loại đầu tiên",
+      "question": "Kim loại đầu tiên mà con người tình cờ tìm thấy và chế tác thành công cụ là kim loại nào?",
+      "options": [
+        "Sắt nguyên chất",
+        "Đồng đỏ",
+        "Đồng thau",
+        "Nhôm dẻo"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Vào khoảng thiên niên kỉ IV TCN, người Tây Á và Ai Cập tìm thấy đồng đỏ (đồng tự nhiên dễ nóng chảy). Sau đó mới đến đồng thau và sắt.",
+        "socraticPrompt": "Kim loại màu đỏ, mềm dẻo, dễ rèn được tìm thấy sớm nhất?",
+        "steps": "Thứ tự xuất hiện kim loại: Đồng đỏ -> Đồng thau -> Sắt.",
+        "trap": "Nhầm lẫn sắt là kim loại đầu tiên vì thấy ngày nay sắt rất phổ biến."
+      },
+      "distractorReasons": {
+        "A": "Sai, sắt có nhiệt độ nóng chảy rất cao, xuất hiện muộn nhất (thiên niên kỉ I TCN).",
+        "B": "Đáp án chính xác theo SGK trang 24.",
+        "C": "Sai, đồng thau là hợp kim của đồng và thiếc, ra đời sau đồng đỏ.",
+        "D": "Sai, nhôm chỉ được sản xuất công nghiệp vào thời cận - hiện đại."
+      }
+    },
+    {
+      "id": "lsdl6_ch02_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đời sống tâm linh nguyên thủy",
+      "question": "Hành động người nguyên thủy chôn cất người chết kèm theo công cụ lao động và đồ trang sức nói lên điều gì?",
+      "options": [
+        "Người nguyên thủy không biết cất giữ tài sản cẩn thận",
+        "Họ muốn giấu công cụ dưới lòng đất để tránh bị kẻ khác cướp đoạt",
+        "Tập tục bắt buộc phải tiêu hủy toàn bộ đồ đạc của người đã khuất",
+        "Họ tin rằng linh hồn con người tiếp tục sống và cần công cụ ở thế giới bên kia"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tục chôn cất người chết kèm công cụ lao động, thức ăn và chuỗi hạt thể hiện mầm mống tôn giáo sơ khai: niềm tin vào sự bất tử của linh hồn ở thế giới bên kia.",
+        "socraticPrompt": "Tại sao người xưa lại chôn đồ dùng xuống mộ cùng thi thể người mất?",
+        "steps": "Quan niệm người chết sang thế giới bên kia vẫn cần săn bắt, làm lụng như trên dương thế.",
+        "trap": "Nghĩ theo lối suy nghĩ đơn thuần là muốn giấu đồ hoặc bỏ đi."
+      },
+      "distractorReasons": {
+        "A": "Sai, đồ trang sức và công cụ đá mài thời đó cực kì quý giá.",
+        "B": "Sai, đây là nghi lễ tâm linh chứ không phải hành vi cất giấu.",
+        "C": "Sai, không phải tiêu hủy mà là cung cấp vật dụng cho linh hồn.",
+        "D": "Đáp án đúng theo bài học đời sống tinh thần SGK trang 23."
+      }
+    }
+  ]
+}

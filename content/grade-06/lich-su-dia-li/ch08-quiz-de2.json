@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch08_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "hard",
-    "question": "Khi đang ở trong lớp học hoặc trong nhà mà bất ngờ xảy ra động đất rung chuyển mạnh, kỹ năng thoát hiểm đúng đắn nhất là:",
-    "options": [
-      "A. Chạy ngay ra ban công hoặc nhảy qua cửa sổ",
-      "B. Sử dụng thang máy để thoát xuống tầng trệt thật nhanh",
-      "C. Nhanh chóng chui xuống gầm bàn kiên cố, dùng tay bảo vệ đầu và tránh xa các cửa kính, tủ kệ cao",
-      "D. Đứng tụ tập giữa phòng gào thét"
-    ],
-    "answer": 2,
-    "explanation": "📌 Kỹ năng phòng chống thiên tai: Động đất làm rơi đổ vỡ đồ đạc, nẹp nhà. Núp dưới gầm bàn gỗ chắc chắn và bảo vệ đầu gáy giúp tránh chấn thương sọ não do bê tông rơi vỡ.\n💡 Tuyệt đối không dùng thang máy vì mất điện sẽ bị kẹt.\n⚠️ Kỹ năng 'Drop, Cover, and Hold On'."
-  }
-]
+{
+  "chapterId": "ch08",
+  "quizId": "de2",
+  "title": "Chương 8: Cấu tạo của Trái Đất & Địa hình bề mặt — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch08_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân biệt nội lực và ngoại lực",
+      "question": "Hiện tượng nước chảy đá mòn, gió thổi cát bay mài mòn các tảng đá tạo thành hình cây nấm là biểu hiện của tác động nào?",
+      "options": [
+        "Tác động của ngoại lực diễn ra trên bề mặt đất",
+        "Tác động của nội lực sinh ra từ tâm Trái Đất",
+        "Tác động của các vụ va chạm thiên thạch ngoài vũ trụ",
+        "Sự dịch chuyển của các mảng kiến tạo ngầm"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ngoại lực là các quá trình diễn ra trên mặt đất do nước chảy, gió thổi, nhiệt độ, sinh vật làm phong hóa, bào mòn đất đá (hiện tượng nước chảy đá mòn).",
+        "socraticPrompt": "Nước chảy và gió thổi diễn ra ở trên mặt đất hay sâu hàng trăm km trong lòng đất?",
+        "steps": "Các yếu tố khí quyển, thủy quyển tác động mài mòn đá = ngoại lực.",
+        "trap": "Nhầm lẫn với nội lực nâng hạ vỏ đất."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 132.",
+        "B": "Sai, nội lực sinh ra động đất, núi lửa từ trong lòng đất.",
+        "C": "Sai, thiên thạch tạo hố va chạm lớn chứ không mài mòn từ từ.",
+        "D": "Sai, mảng kiến tạo chuyển động thuộc phạm trù nội lực."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Địa hình cao nguyên",
+      "question": "Vùng Tây Nguyên của nước ta nổi tiếng với dạng địa hình cao nguyên đất đỏ ba-dan màu mỡ. Vùng đất này có lợi thế tự nhiên lớn nhất để phát triển ngành kinh tế nào?",
+      "options": [
+        "Đóng tàu biển và đánh bắt hải sản xa bờ",
+        "Khai thác băng tuyết phục vụ du lịch trượt tuyết",
+        "Trồng các loại cây công nghiệp lâu năm (cà phê, cao su, hồ tiêu, chè) và chăn nuôi đại gia súc",
+        "Nuôi trồng thủy sản nước lợ ven rừng ngập mặn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Cao nguyên có bề mặt tương đối bằng phẳng trải rộng trên độ cao lớn, đất đỏ ba-dan phì nhiêu là địa bàn lí tưởng nhất để trồng cây công nghiệp dài ngày quy mô lớn (cà phê Buôn Ma Thuột, cao su,...).",
+        "socraticPrompt": "Cà phê và hồ tiêu của Việt Nam được trồng bạt ngàn ở vùng nào nước ta?",
+        "steps": "Đất ba-dan + mặt bằng cao nguyên = thủ phủ cà phê, cao su của đất nước.",
+        "trap": "Tây Nguyên không giáp biển nên không thể phát triển hải sản hay tàu biển."
+      },
+      "distractorReasons": {
+        "A": "Sai, Tây Nguyên không có bờ biển.",
+        "B": "Sai, Tây Nguyên có khí hậu nhiệt đới nắng gió, không có băng tuyết.",
+        "C": "Đáp án đúng theo liên hệ thực tế SGK trang 136.",
+        "D": "Sai, rừng ngập mặn ở ven biển Nam Bộ."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hành vi an toàn khi động đất",
+      "question": "Nếu đang ngồi học trong lớp học trên tầng 2 của một tòa nhà mà bất ngờ xảy ra động đất mạnh làm rung lắc dữ dội, hành động nào sau đây là AN TOÀN NHẤT cho học sinh?",
+      "options": [
+        "Hoảng loạn la hét và chen lấn xô đẩy nhau chạy xuống cầu thang thoát hiểm",
+        "Lập tức chui ngay xuống gầm bàn học vững chắc, hai tay ôm chặt lấy đầu và giữ chặt chân bàn",
+        "Chạy ngay ra ngoài ban công và nhảy xuống đất",
+        "Đứng sát vào cạnh cửa kính để nhìn ra ngoài xem điều gì đang xảy ra"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Quy tắc an toàn động đất: 'Nằm xuống, Che chắn và Giữ chặt' (Drop, Cover, Hold on). Chui xuống gầm bàn học bảo vệ đầu và cổ tránh gạch đá, đèn trần rơi trúng; tuyệt đối không chen lấn xô đẩy ở cầu thang hoặc đứng gần cửa kính vỡ.",
+        "socraticPrompt": "Khi động đất, cái gì dễ rơi từ trần nhà xuống đầu ta? Cần vật gì che chắn trên đầu?",
+        "steps": "Trú ẩn dưới gầm bàn vững chắc là biện pháp cứu mạng hàng đầu.",
+        "trap": "Hành động nhảy ban công hoặc chen lấn cầu thang gây chấn thương và tử vong nhanh nhất."
+      },
+      "distractorReasons": {
+        "A": "Sai, xô đẩy ở cầu thang dẫn đến giẫm đạp thảm khốc.",
+        "B": "Đáp án chính xác theo cẩm nang kĩ năng sinh tồn động đất SGK trang 134.",
+        "C": "Sai, nhảy từ tầng 2 xuống đất cực kì nguy hiểm đến tính mạng.",
+        "D": "Sai, cửa kính sẽ vỡ vụn bắn vào người gây thương tích nặng."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ích lợi của núi lửa",
+      "question": "Mặc dù núi lửa phun trào gây ra thảm họa thiên tai khủng khiếp, nhưng sau khi dung nham nguội đi qua hàng triệu năm, nó lại mang đến món quà vô giá nào cho con người?",
+      "options": [
+        "Biến vùng đất xung quanh thành một hố băng tuyết khổng lồ",
+        "Tạo ra các cơn bão cát sa mạc tàn phá mùa màng",
+        "Làm cho nguồn nước sông ngòi xung quanh biến thành nước muối mặn chát",
+        "Phong hóa tạo thành lớp đất đỏ ba-dan vô cùng tơi xốp, màu mỡ và các mỏ khoáng sản quý giá"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đá mắc-ma núi lửa giàu khoáng chất (sắt, nhôm, kali,...), qua phong hóa tạo thành đất đỏ ba-dan phì nhiêu bậc nhất thế giới, thu hút dân cư đến canh tác nông nghiệp trù phú (như ở Tây Nguyên, đảo Gia-va, Nam Ý).",
+        "socraticPrompt": "Đất đỏ ba-dan ở Tây Nguyên được sinh ra từ loại đá mắc-ma của hiện tượng tự nhiên nào?",
+        "steps": "Đá dung nham núi lửa cổ xưa phong hóa tạo thành đất ba-dan màu mỡ.",
+        "trap": "Nghĩ rằng núi lửa chỉ thuần túy đem lại tác hại tiêu cực."
+      },
+      "distractorReasons": {
+        "A": "Sai, núi lửa mang nhiệt lượng cực nóng chứ không tạo băng tuyết.",
+        "B": "Sai, bão cát sinh ra ở sa mạc khô hạn.",
+        "C": "Sai, núi lửa không làm sông ngòi biến thành nước biển mặn.",
+        "D": "Đáp án đúng theo phân tích hai mặt của tự nhiên SGK trang 134."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Bảo vệ tài nguyên khoáng sản",
+      "question": "Vì sao các loại tài nguyên khoáng sản (như than đá, dầu mỏ, quặng sắt) lại được gọi là nguồn tài nguyên KHÔNG THỂ PHỤC HỒI?",
+      "options": [
+        "Vì chúng được hình thành qua hàng trăm triệu năm biến đổi địa chất, nếu con người khai thác cạn kiệt thì không thể tự tái tạo lại trong thời gian ngắn",
+        "Vì khoáng sản tự bốc hơi biến mất sau mỗi mùa hè nóng bức",
+        "Vì người dân không biết cách trồng lại than đá như trồng cây xanh",
+        "Vì khoáng sản chỉ có thể sử dụng được đúng 1 ngày duy nhất"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Khoáng sản là tài nguyên hữu hạn, mất hàng trăm triệu năm xác thực vật và khoáng vật tích tụ trong lòng đất mới sinh ra than đá, dầu khí. Tốc độ khai thác của con người nhanh gấp triệu lần tốc độ hình thành trong tự nhiên.",
+        "socraticPrompt": "Một mỏ than mất bao nhiêu triệu năm để hình thành? Khai thác hết có trồng lại được không?",
+        "steps": "Không thể tái tạo -> bắt buộc phải khai thác tiết kiệm, hợp lí và tìm năng lượng tái tạo thay thế.",
+        "trap": "Cho rằng than đá có thể nuôi trồng hay tự sinh sôi nhanh chóng."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo giáo dục môi trường SGK trang 138.",
+        "B": "Sai, khoáng sản chôn sâu trong lòng đất không bốc hơi theo mùa.",
+        "C": "Sai, khoáng sản là khoáng vật địa chất vô sinh, không phải sinh vật để trồng trọt.",
+        "D": "Sai, khoáng sản lưu trữ được lâu dài."
+      }
+    },
+    {
+      "id": "lsdl6_ch08_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm đồng bằng châu thổ",
+      "question": "Đồng bằng châu thổ sông Hồng và đồng bằng châu thổ sông Cửu Long của nước ta được bồi đắp chủ yếu bởi tác nhân ngoại lực nào?",
+      "options": [
+        "Bởi những trận gió bão mạnh mang cát từ sa mạc thổi về",
+        "Bởi sự phun trào của các núi lửa dưới đáy biển sâu",
+        "Bởi phù sa màu mỡ của các hệ thống sông lớn lắng đọng qua hàng nghìn năm",
+        "Bởi các tảng băng trôi khổng lồ dạt vào bờ"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đồng bằng phù sa châu thổ là kết quả của quá trình bồi tụ ngoại lực: nước sông bào mòn đất đá ở thượng nguồn, vận chuyển hạ lưu và bồi đắp lớp phù sa mịn màng màu mỡ tại các cửa sông lớn.",
+        "socraticPrompt": "Hàng năm nước sông Hồng màu đỏ đục là do mang theo cái gì bồi đắp cho ruộng đồng?",
+        "steps": "Phù sa sông ngòi là vật liệu chính kiến tạo nên các đồng bằng châu thổ phì nhiêu.",
+        "trap": "Nhầm do cát sa mạc hay do núi lửa ngầm tạo nên."
+      },
+      "distractorReasons": {
+        "A": "Sai, cát sa mạc chỉ tạo cồn cát hoang mạc cằn cỗi.",
+        "B": "Sai, núi lửa ngầm tạo đảo núi lửa chứ không tạo đồng bằng châu thổ.",
+        "C": "Đáp án đúng theo SGK trang 136.",
+        "D": "Sai, Việt Nam ở xứ nhiệt đới không có băng trôi."
+      }
+    }
+  ]
+}

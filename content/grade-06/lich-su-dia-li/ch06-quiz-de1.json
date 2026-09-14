@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Đường vĩ tuyến gốc $0^\\circ$ chia quả Địa Cầu thành hai nửa bán cầu Bắc và Nam được gọi là:",
-    "options": [
-      "A. Kinh tuyến gốc",
-      "B. Đường Xích đạo",
-      "C. Chí tuyến Bắc",
-      "D. Vòng cực Nam"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm: Xích đạo là đường vĩ tuyến lớn nhất chia đôi Trái Đất thành Bán cầu Bắc và Bán cầu Nam.\n💡 Kinh tuyến gốc chia Đông - Tây.\n⚠️ Phân biệt rõ Xích đạo và Kinh tuyến gốc."
-  },
-  {
-    "id": "sd6_ch06_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Khoảng cách giữa hai điểm A và B trên bản đồ có tỉ lệ $1 : 200\\ 000$ đo được là $5\\text{ cm}$. Khoảng cách thực tế ngoài thực địa giữa hai điểm đó là bao nhiêu kilômét?",
-    "options": [
-      "A. $1\\text{ km}$",
-      "B. $10\\text{ km}$",
-      "C. $100\\text{ km}$",
-      "D. $50\\text{ km}$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp tính: Khoảng cách thực tế $= 5\\text{ cm} \\times 200\\ 000 = 1\\ 000\\ 000\\text{ cm}$.\nĐổi từ cm sang km: $1\\ 000\\ 000\\text{ cm} = 10\\ 000\\text{ m} = 10\\text{ km}$.\n💡 $1\\text{ km} = 100\\ 000\\text{ cm}$.\n⚠️ Chú ý cẩn thận khi đếm số chữ số 0 khi đổi đơn vị."
-  }
-]
+{
+  "chapterId": "ch06",
+  "quizId": "de1",
+  "title": "Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch06_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kinh tuyến gốc",
+      "question": "Đường kinh tuyến gốc mang số hiệu $0^\\circ$ được quy ước quốc tế đi qua đài thiên văn nổi tiếng nào sau đây?",
+      "options": [
+        "Đài thiên văn Pa-ri (nước Pháp)",
+        "Đài thiên văn Grin-uýt ở ngoại ô thủ đô Luân Đôn (nước Anh)",
+        "Đài thiên văn Oa-sinh-tơn (Hoa Kỳ)",
+        "Đài thiên văn Bắc Kinh (Trung Quốc)"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Kinh tuyến gốc $0^\\circ$ đi qua đài thiên văn Grin-uýt (Greenwich) ở ngoại ô Luân Đôn (Anh), chia Trái Đất thành Bán cầu Đông và Bán cầu Tây.",
+        "socraticPrompt": "Kinh tuyến số 0 đi qua đài thiên văn nào ở nước Anh?",
+        "steps": "Quy ước quốc tế tại hội nghị kinh tuyến năm 1884 chọn Grin-uýt làm kinh tuyến gốc.",
+        "trap": "Nhầm đài thiên văn Pa-ri hay Oa-sinh-tơn."
+      },
+      "distractorReasons": {
+        "A": "Sai, đài thiên văn Pa-ri từng được Pháp đề xuất nhưng không được chọn.",
+        "B": "Đáp án chính xác theo SGK trang 102.",
+        "C": "Sai, Oa-sinh-tơn không phải nơi đặt kinh tuyến 0.",
+        "D": "Sai, Bắc Kinh nằm ở múi giờ số 8 kinh tuyến đông."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vĩ tuyến gốc",
+      "question": "Vĩ tuyến gốc mang số hiệu $0^\\circ$ có chiều dài lớn nhất trên bề mặt quả Địa Cầu còn được gọi là gì?",
+      "options": [
+        "Kinh tuyến trục giữa",
+        "Đường Chí tuyến Bắc",
+        "Đường Vòng cực Nam",
+        "Đường Xích đạo"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Đường Xích đạo là đường tròn vĩ tuyến lớn nhất chia Trái Đất thành Bán cầu Bắc và Bán cầu Nam, mang vĩ độ $0^\\circ$.",
+        "socraticPrompt": "Đường tròn vĩ tuyến đi ngang qua điểm giữa chia đôi Trái Đất thành 2 nửa Bắc - Nam tên là gì?",
+        "steps": "Xích đạo = vĩ tuyến gốc $0^\\circ$.",
+        "trap": "Nhầm chí tuyến Bắc ($23^\\circ27'\\text{B}$) hoặc vòng cực ($66^\\circ33'$)."
+      },
+      "distractorReasons": {
+        "A": "Sai, kinh tuyến không phải là đường Xích đạo.",
+        "B": "Sai, chí tuyến Bắc ở vĩ độ $23^\\circ27'\\text{B}$.",
+        "C": "Sai, vòng cực Nam ở vĩ độ $66^\\circ33'\\text{N}$.",
+        "D": "Đáp án đúng theo SGK trang 102."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Toạ độ địa lí",
+      "question": "Toạ độ địa lí của một điểm trên bản đồ được xác định bằng cặp đại lượng nào?",
+      "options": [
+        "Kinh độ và vĩ độ của điểm đó",
+        "Nhiệt độ và độ ẩm không khí",
+        "Độ cao so với mực nước biển và hướng gió",
+        "Khoảng cách đến xích đạo và dân số"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Toạ độ địa lí của một điểm là kinh độ và vĩ độ của điểm đó trên bản đồ/quả Địa Cầu (ví dụ điểm cắt giữa kinh tuyến và vĩ tuyến qua điểm đó).",
+        "socraticPrompt": "Xác định vị trí trên bản đồ ta cần biết hai đường nào cắt nhau?",
+        "steps": "Cặp (Vĩ độ, Kinh độ) chỉ vị trí duy nhất của một điểm trên Trái Đất.",
+        "trap": "Nhầm toạ độ với độ cao hay nhiệt độ khí hậu."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo định nghĩa SGK trang 103.",
+        "B": "Sai, đây là các yếu tố khí tượng.",
+        "C": "Sai, độ cao và hướng gió là yếu tố địa hình - khí hậu.",
+        "D": "Sai, dân số thuộc địa lí nhân văn."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy ước phương hướng",
+      "question": "Theo quy ước thông thường trên các bản đồ có lưới kinh vĩ tuyến, hướng Bắc được quy định chỉ về phía nào?",
+      "options": [
+        "Phía dưới mép bản đồ",
+        "Phía bên phải bản đồ",
+        "Phía trên đầu đường kinh tuyến hướng lên trên",
+        "Phía bên trái bản đồ"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Quy ước: đầu trên kinh tuyến chỉ hướng Bắc, đầu dưới chỉ hướng Nam; bên phải vĩ tuyến chỉ hướng Đông, bên trái chỉ hướng Tây.",
+        "socraticPrompt": "Nhìn thẳng vào bản đồ, hướng Bắc ở phía trên hay phía dưới?",
+        "steps": "Phía trên là hướng Bắc, phía dưới là hướng Nam.",
+        "trap": "Nhầm phía trên là hướng Nam hoặc hướng Đông."
+      },
+      "distractorReasons": {
+        "A": "Sai, phía dưới mép bản đồ chỉ hướng Nam.",
+        "B": "Sai, bên phải chỉ hướng Đông.",
+        "C": "Đáp án đúng theo SGK trang 104.",
+        "D": "Sai, bên trái chỉ hướng Tây."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tỉ lệ bản đồ",
+      "question": "Tỉ lệ bản đồ cho chúng ta biết điều gì?",
+      "options": [
+        "Số lượng cư dân sinh sống trên khu vực bản đồ thể hiện",
+        "Mức độ thu nhỏ của khoảng cách trên bản đồ so với khoảng cách thực tế ngoài thực địa",
+        "Nhiệt độ trung bình năm của các địa điểm trên bản đồ",
+        "Độ sâu tối đa của các rãnh đại dương"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tỉ lệ bản đồ là tỉ số giữa khoảng cách trên bản đồ và khoảng cách tương ứng ngoài thực địa.",
+        "socraticPrompt": "Tỉ lệ $1 : 100.000$ có ý nghĩa gì về mặt khoảng cách?",
+        "steps": "Cho biết hình ảnh trên bản đồ đã được thu nhỏ bao nhiêu lần so với thực tế.",
+        "trap": "Nhầm tỉ lệ với mật độ dân số hay nhiệt độ."
+      },
+      "distractorReasons": {
+        "A": "Sai, số dân do mật độ dân số thể hiện.",
+        "B": "Đáp án chính xác theo SGK trang 106.",
+        "C": "Sai, nhiệt độ do biểu đồ khí hậu thể hiện.",
+        "D": "Sai, độ sâu do đường đẳng sâu biểu thị."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phân loại kí hiệu",
+      "question": "Kí hiệu biểu thị vị trí một sân bay, một ngọn hải đăng hoặc một mỏ than trên bản đồ thuộc loại kí hiệu nào?",
+      "options": [
+        "Kí hiệu diện tích",
+        "Kí hiệu chuyển động",
+        "Kí hiệu đường",
+        "Kí hiệu điểm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Kí hiệu điểm dùng để biểu hiện những đối tượng địa lí phân bố theo những điểm riêng biệt cụ thể như sân bay, mỏ khoáng sản, hải đăng, đỉnh núi.",
+        "socraticPrompt": "Sân bay hay mỏ than chiếm một diện tích lớn cả tỉnh hay chỉ định vị tại một điểm cụ thể?",
+        "steps": "Được vẽ bằng một chấm tròn, biểu tượng máy bay hoặc ô vuông tại tọa độ cụ thể = kí hiệu điểm.",
+        "trap": "Nhầm sang kí hiệu diện tích (dành cho vùng đầm lầy, rừng rậm)."
+      },
+      "distractorReasons": {
+        "A": "Sai, kí hiệu diện tích dùng cho rừng, hồ nước lớn.",
+        "B": "Sai, kí hiệu chuyển động là các mũi tên chỉ hướng gió, dòng biển.",
+        "C": "Sai, kí hiệu đường dùng cho sông, đường sắt, biên giới.",
+        "D": "Đáp án đúng theo bảng phân loại SGK trang 109."
+      }
+    }
+  ]
+}

@@ -1,16 +1,164 @@
-[
-  {
-    "id": "sd6_ch06_d2_q1",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Một điểm X nằm ở giao điểm của vĩ tuyến $20^\\circ\\text{B}$ và kinh tuyến $105^\\circ\\text{Đ}$. Toạ độ địa lí của điểm X được ghi chuẩn xác là:",
-    "options": [
-      "A. $X (20^\\circ\\text{N}; 105^\\circ\\text{T})$",
-      "B. $X (20^\\circ\\text{B}; 105^\\circ\\text{Đ})$",
-      "C. $X (105^\\circ\\text{B}; 20^\\circ\\text{Đ})$",
-      "D. $X (20^\\circ\\text{Đ}; 105^\\circ\\text{B})$"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy tắc ghi toạ độ địa lí: Ghi vĩ độ ở trên (hoặc đứng trước) kèm chữ B (Bắc) hoặc N (Nam), kinh độ ở dưới (hoặc đứng sau) kèm chữ Đ (Đông) hoặc T (Tây).\n💡 Điểm này nằm ngay trên lãnh thổ miền Bắc Việt Nam.\n⚠️ Tránh nhầm lẫn đảo lộn kinh độ và vĩ độ."
-  }
-]
+{
+  "chapterId": "ch06",
+  "quizId": "de2",
+  "title": "Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất — ✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+  "difficulty": "medium",
+  "questions": [
+    {
+      "id": "lsdl6_ch06_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính khoảng cách từ tỉ lệ",
+      "question": "Trên bản đồ có tỉ lệ $1 : 500.000$, khoảng cách giữa hai điểm A và B đo được là $4\\text{ cm}$. Hỏi khoảng cách thực tế giữa hai điểm A và B ngoài thực địa là bao nhiêu ki-lô-mét?",
+      "options": [
+        "20 km",
+        "2 km",
+        "200 km",
+        "2000 km"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức: $\\text{Khoảng cách thực địa} = \\text{Khoảng cách trên bản đồ} \\times \\text{Mẫu số tỉ lệ}$. Đổi từ cm sang km: chia cho 100.000.",
+        "socraticPrompt": "$4\\text{ cm} \\times 500.000$ bằng bao nhiêu cm? $2.000.000\\text{ cm}$ đổi ra km bằng bao nhiêu?",
+        "steps": "$4 \\times 500.000 = 2.000.000\\text{ cm} = 20.000\\text{ m} = 20\\text{ km}$.",
+        "trap": "Đổi sai đơn vị giữa cm, m và km (quên bớt 5 số 0 dẫn đến 200 km hoặc 2 km)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng: $20\\text{ km}$.",
+        "B": "Sai, do chia nhầm thêm 1 số 0.",
+        "C": "Sai, do quên bớt số 0 khi đổi đơn vị.",
+        "D": "Sai, do tính nhầm thừa 2 số 0."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh tỉ lệ bản đồ",
+      "question": "Trong các bản đồ có các tỉ lệ sau đây, bản đồ nào có tỉ lệ LỚN NHẤT và thể hiện các đối tượng địa lí CHI TIẾT NHẤT?",
+      "options": [
+        "Bản đồ B tỉ lệ $1 : 100.000$",
+        "Bản đồ A tỉ lệ $1 : 50.000$",
+        "Bản đồ C tỉ lệ $1 : 500.000$",
+        "Bản đồ D tỉ lệ $1 : 1.000.000$"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Tỉ lệ bản đồ là phân số $\\frac{1}{M}$. Mẫu số $M$ càng nhỏ thì phân số càng lớn -> Tỉ lệ bản đồ càng lớn -> Mức độ chi tiết càng cao.",
+        "socraticPrompt": "Phân số $\\frac{1}{50.000}$ và $\\frac{1}{1.000.000}$, phân số nào lớn hơn?",
+        "steps": "Mẫu số nhỏ nhất là 50.000 nên bản đồ có tỉ lệ lớn nhất, biểu hiện chi tiết nhất.",
+        "trap": "Học sinh thường nhìn thấy số 1.000.000 lớn nhất vội vàng chọn bản đồ D."
+      },
+      "distractorReasons": {
+        "A": "Sai, $1:100.000$ nhỏ hơn $1:50.000$.",
+        "B": "Đáp án chính xác theo quy tắc tỉ lệ SGK trang 106.",
+        "C": "Sai, $1:500.000$ là tỉ lệ trung bình.",
+        "D": "Sai lầm phổ biến do nhầm mẫu số lớn là tỉ lệ lớn."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định toạ độ Việt Nam",
+      "question": "Lãnh thổ phần đất liền của nước Việt Nam nằm hoàn toàn trong khu vực bán cầu nào sau đây?",
+      "options": [
+        "Bán cầu Nam và Bán cầu Tây",
+        "Bán cầu Bắc và Bán cầu Tây",
+        "Bán cầu Bắc và Bán cầu Đông",
+        "Bán cầu Nam và Bán cầu Đông"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Việt Nam nằm ở vĩ độ khoảng từ $8^\\circ34'\\text{B}$ đến $23^\\circ23'\\text{B}$ (phía bắc Xích đạo = Bán cầu Bắc) và kinh độ từ $102^\\circ09'\\text{Đ}$ đến $109^\\circ28'\\text{Đ}$ (phía đông kinh tuyến gốc = Bán cầu Đông).",
+        "socraticPrompt": "Việt Nam mang vĩ độ Bắc hay Nam? Kinh độ Đông hay Tây?",
+        "steps": "Vĩ độ Bắc + Kinh độ Đông -> Bán cầu Bắc và Bán cầu Đông.",
+        "trap": "Nhầm sang Bán cầu Nam hoặc Bán cầu Tây."
+      },
+      "distractorReasons": {
+        "A": "Sai, Việt Nam ở phía bắc Xích đạo và đông kinh tuyến 0.",
+        "B": "Sai, Việt Nam ở Bán cầu Đông.",
+        "C": "Đáp án đúng theo số liệu địa lí quốc gia.",
+        "D": "Sai, Việt Nam ở Bán cầu Bắc."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác định hướng di chuyển",
+      "question": "Một người đi từ thành phố Hà Nội vào thành phố Hồ Chí Minh trên bản đồ Việt Nam. Người đó đang di chuyển chủ yếu theo hướng nào?",
+      "options": [
+        "Hướng Bắc",
+        "Hướng Đông Bắc",
+        "Hướng Tây",
+        "Hướng Nam (hoặc Nam - Đông Nam)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hà Nội ở phía bắc (vĩ độ $21^\\circ\\text{B}$), TP. Hồ Chí Minh ở phía nam (vĩ độ $10^\\circ\\text{B}$). Đi từ Hà Nội vào TP. Hồ Chí Minh là đi từ trên xuống dưới theo hướng Nam.",
+        "socraticPrompt": "Hà Nội ở miền Bắc, TP. Hồ Chí Minh ở miền Nam. Đi từ Bắc vào Nam là đi theo hướng nào?",
+        "steps": "Hướng di chuyển chủ yếu là hướng Nam.",
+        "trap": "Nhầm sang hướng Bắc do nghĩ ngược chiều từ Nam ra Bắc."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là hướng từ TP.HCM ra Hà Nội.",
+        "B": "Sai, hướng Đông Bắc là lên Lạng Sơn.",
+        "C": "Sai, hướng Tây là sang Lào.",
+        "D": "Đáp án đúng theo phương hướng bản đồ."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đọc bảng chú giải",
+      "question": "Để biết được các đường màu xanh lam trên bản đồ biểu thị cho đối tượng địa lí nào, người xem bản đồ cần tra cứu ở đâu?",
+      "options": [
+        "Khung bảng chú giải của bản đồ",
+        "Tên của người vẽ bản đồ",
+        "Dòng ghi tỉ lệ thước",
+        "Góc ghi năm xuất bản"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bảng chú giải là chìa khóa để đọc bản đồ, giải thích đầy đủ ý nghĩa của mọi màu sắc và kí hiệu (ví dụ: màu xanh lam biểu thị sông suối, kênh rạch, biển hồ).",
+        "socraticPrompt": "Muốn hiểu kí hiệu lạ trên bản đồ nghĩa là gì thì nhìn vào ô nào?",
+        "steps": "Bảng chú giải liệt kê kí hiệu kèm dòng chữ giải thích bên cạnh.",
+        "trap": "Nhầm sang dòng tỉ lệ thước hay tên tác giả."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 108.",
+        "B": "Sai, tên tác giả chỉ cho biết bản quyền.",
+        "C": "Sai, tỉ lệ thước chỉ dùng để đo khoảng cách.",
+        "D": "Sai, năm xuất bản cho biết thời gian in ấn."
+      }
+    },
+    {
+      "id": "lsdl6_ch06_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đường kinh tuyến và vĩ tuyến đặc biệt",
+      "question": "Đặc điểm nào sau đây là ĐÚNG khi nói về độ dài của các đường kinh tuyến và vĩ tuyến trên quả Địa Cầu?",
+      "options": [
+        "Tất cả các đường vĩ tuyến đều có độ dài bằng nhau",
+        "Tất cả các đường kinh tuyến đều có độ dài bằng nhau, còn các đường vĩ tuyến có độ dài khác nhau và giảm dần từ Xích đạo về hai cực",
+        "Đường vĩ tuyến ở cực dài bằng đường Xích đạo",
+        "Các đường kinh tuyến có độ dài ngắn dần về phía kinh tuyến gốc"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Các kinh tuyến là các nửa vòng tròn nối 2 cực nên có độ dài bằng nhau (~20.000 km). Các vĩ tuyến là các vòng tròn song song, lớn nhất ở Xích đạo (~40.075 km) và thu nhỏ thành 1 điểm tại 2 cực ($90^\\circ$).",
+        "socraticPrompt": "Đường Xích đạo ở bụng Trái Đất và vòng tròn gần cực Bắc, vòng nào lớn hơn?",
+        "steps": "Kinh tuyến bằng nhau; Vĩ tuyến thu nhỏ dần từ Xích đạo về cực.",
+        "trap": "Nghĩ rằng các đường vĩ tuyến cũng có độ dài bằng nhau như kinh tuyến."
+      },
+      "distractorReasons": {
+        "A": "Sai, vĩ tuyến thu nhỏ dần về cực.",
+        "B": "Đáp án chính xác theo quy luật hình cầu SGK trang 102.",
+        "C": "Sai, vĩ tuyến ở cực chỉ là một điểm chấm có độ dài bằng 0.",
+        "D": "Sai, mọi kinh tuyến đều có độ dài bằng nhau."
+      }
+    }
+  ]
+}

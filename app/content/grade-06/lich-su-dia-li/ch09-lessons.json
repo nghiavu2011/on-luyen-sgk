@@ -1,32 +1,42 @@
-[
-  {
-    "id": "l19",
-    "title": "Bài 19: Lớp vỏ khí (khí quyển) và các khối khí, khí áp, gió",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 19: Lớp vỏ khí (khí quyển) và các khối khí, khí áp, gió.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 19: Lớp vỏ khí (khí quyển) và các khối khí, khí áp, gió.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 19: Lớp vỏ khí (khí quyển) và các khối khí, khí áp, gió.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  },
-  {
-    "id": "l20",
-    "title": "Bài 20: Thời tiết, khí hậu và biến đổi khí hậu toàn cầu",
-    "summary": "<ul><li><b>Nội dung cốt lõi:</b> Nắm vững toàn bộ kiến thức trọng tâm của Bài 20: Thời tiết, khí hậu và biến đổi khí hậu toàn cầu.</li><li><b>Ứng dụng:</b> Vận dụng giải thích các hiện tượng tự nhiên và giải quyết các bài tập thực tiễn.</li></ul>",
-    "keyPoints": [
-      "Khái niệm và quy luật căn bản trong Bài 20: Thời tiết, khí hậu và biến đổi khí hậu toàn cầu.",
-      "Phương pháp thực hành khoa học chuẩn mực và kỹ năng liên hệ thực tế đời sống."
-    ],
-    "examples": [
-      {
-        "problem": "Vận dụng kiến thức bài học để giải thích một hiện tượng thực tiễn liên quan đến: Bài 20: Thời tiết, khí hậu và biến đổi khí hậu toàn cầu.",
-        "solution": "Quan sát dấu hiệu đặc trưng, đối chiếu với định luật khoa học đã học để rút ra kết luận chính xác và khách quan."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch09",
+  "title": "Chương 9: Khí hậu & Biến đổi khí hậu",
+  "lessons": [
+    {
+      "id": "l22",
+      "title": "Bài 15 & 16: Lớp vỏ khí, khí áp, gió, nhiệt độ không khí và mưa",
+      "summary": "<ul><li><b>Cấu tạo của khí quyển:</b> Gồm 3 tầng chính:<ul><li><i>Tầng đối lưu:</i> Nằm sát mặt đất từ $0 - 16\\text{ km}$, chứa tới $80\\%$ không khí và gần $99\\%$ hơi nước. Là nơi sinh ra toàn bộ các hiện tượng thời tiết (mây, mưa, sấm chớp, bão). Càng lên cao nhiệt độ càng giảm: trung bình cứ lên cao $100\\text{ m}$ nhiệt độ giảm $0,6^\\circ\\text{C}$.</li><li><i>Tầng bình lưu:</i> Nằm trên tầng đối lưu đến độ cao khoảng $50\\text{ km}$. Chứa <b>tầng ôzôn ($O_3$)</b> có vai trò vô cùng quan trọng như lá chắn che chở sinh vật Trái Đất khỏi tia cực tím (bức xạ tử ngoại) gây hại từ Mặt Trời.</li><li><i>Các tầng cao khí quyển:</i> Cực kì loãng, có hiện tượng cực quang kì thú.</li></ul></li><li><b>Thành phần không khí:</b> $78\\%$ khí Nitơ ($N_2$), $21\\%$ khí Ô-xi ($O_2$), $1\\%$ hơi nước và các khí khác ($CO_2$, argon,...). Dù chiếm lượng nhỏ nhưng hơi nước là nguồn gốc duy nhất sinh ra mây và mưa.</li><li><b>Khí áp và gió:</b> Khí áp là sức ép của không khí lên bề mặt Trái Đất, phân bố thành các đai áp cao và áp thấp xen kẽ. Gió là sự chuyển động của không khí từ nơi áp cao về nơi áp thấp. Ba loại gió thường xuyên chính: Gió Tín phong (thổi từ áp cao chí tuyến về xích đạo), Gió Tây ôn đới (thổi từ chí tuyến về ôn đới $60^\\circ$), Gió Đông cực.</li><li><b>Nhiệt độ và mưa:</b> Nhiệt độ không khí thay đổi theo vĩ độ (càng xa xích đạo càng lạnh), theo độ cao (càng lên cao càng giảm) và khoảng cách ra biển. Khi không khí bão hòa hơi nước bốc lên cao gặp lạnh ngưng tụ thành mây và rơi thành mưa.</li></ul>",
+      "keyPoints": [
+        "Tầng đối lưu sinh ra mọi hiện tượng thời tiết; Tầng bình lưu chứa ôzôn bảo vệ sự sống.",
+        "Cứ lên cao 100m thì nhiệt độ giảm 0,6°C.",
+        "Thành phần không khí: 78% Nitơ, 21% Ô-xi, 1% hơi nước và khí khác.",
+        "Gió thổi từ nơi áp cao về nơi áp thấp."
+      ],
+      "examples": [
+        {
+          "problem": "Một nhóm bạn leo núi từ chân núi (độ cao 0m) có nhiệt độ đo được là $30^\\circ\\text{C}$ lên đỉnh núi Phan-xi-păng có độ cao $3.143\\text{ m}$. Hỏi nhiệt độ ước tính tại đỉnh núi lúc đó là khoảng bao nhiêu độ C?",
+          "solution": "Độ cao chênh lệch: $3.143\\text{ m}$. Độ giảm nhiệt độ: $(3.143 / 100) \\times 0,6^\\circ\\text{C} \\approx 31,43 \\times 0,6 \\approx 18,86^\\circ\\text{C}$. Nhiệt độ tại đỉnh núi = $30^\\circ\\text{C} - 18,86^\\circ\\text{C} \\approx 11,1^\\circ\\text{C}$."
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "l23",
+      "title": "Bài 17 & 18: Thời tiết, khí hậu, các đới khí hậu và biến đổi khí hậu",
+      "summary": "<ul><li><b>Phân biệt thời tiết và khí hậu:</b><ul><li><i>Thời tiết:</i> Là tình trạng khí quyển ở một địa phương cụ thể trong một khoảng thời gian ngắn (vài giờ, một ngày), luôn luôn thay đổi (ví dụ: 'Hôm nay trời Hà Nội nhiều mây, có mưa rào rải rác').</li><li><i>Khí hậu:</i> Là sự lặp đi lặp lại của tình hình thời tiết ở một vùng rộng lớn trong một thời gian dài (hàng chục năm) và đã trở thành quy luật (ví dụ: 'Miền Bắc Việt Nam có khí hậu nhiệt đới gió mùa có mùa đông lạnh').</li></ul></li><li><b>Các đới khí hậu trên Trái Đất:</b> Do góc chiếu sáng của Mặt Trời giảm dần từ Xích đạo về hai cực nên Trái Đất chia thành 5 đới khí hậu chính:<ul><li><i>1 đới nóng (Nhiệt đới):</i> Nằm giữa hai chí tuyến ($23^\\circ27'\\text{B} - 23^\\circ27'\\text{N}$), quanh năm nóng, lượng mưa dồi dào ($1.000 - 2.000\\text{ mm}$), gió Tín phong thổi thường xuyên.</li><li><i>2 đới ôn hòa (Ôn đới):</i> Nằm giữa chí tuyến và vòng cực ở cả hai bán cầu, nhiệt độ trung bình, bốn mùa xuân hạ thu đông phân hóa rất rõ nét, gió Tây ôn đới thổi quanh năm.</li><li><i>2 đới lạnh (Hàn đới):</i> Nằm từ vòng cực đến hai cực, quanh năm giá lạnh đóng băng, lượng mưa rất ít ($<500\\text{ mm}$), gió Đông cực thổi thường xuyên.</li></ul></li><li><b>Biến đổi khí hậu toàn cầu:</b> Hiện tượng Trái Đất nóng lên do hiệu ứng nhà kính tăng cao (khí $CO_2$ thải ra từ nhà máy, xe cộ, chặt phá rừng). Hậu quả: băng tan ở hai cực, mực nước biển dâng cao nhấn chìm các vùng đất thấp ven biển, các hiện tượng thời tiết cực đoan (bão lũ, hạn hán khốc liệt) gia tăng.</li></ul>",
+      "keyPoints": [
+        "Thời tiết mang tính ngắn hạn biến đổi; Khí hậu mang tính dài hạn quy luật.",
+        "5 đới khí hậu: 1 đới nóng, 2 đới ôn hòa, 2 đới lạnh.",
+        "Việt Nam nằm hoàn toàn trong đới nóng (khí hậu nhiệt đới gió mùa).",
+        "Biến đổi khí hậu đe dọa trực tiếp an ninh lương thực và môi trường sống toàn cầu."
+      ],
+      "examples": [
+        {
+          "problem": "Nhận định sau đây nói về thời tiết hay khí hậu: 'Nước ta vào mùa đông thường đón các đợt gió mùa Đông Bắc lạnh và khô'?",
+          "solution": "Đây là nhận định nói về khí hậu, vì hiện tượng này lặp đi lặp lại hàng năm theo chu kì mùa vụ ổn định và đã trở thành quy luật tự nhiên của miền Bắc nước ta."
+        }
+      ],
+      "hasRealContent": true
+    }
+  ]
+}

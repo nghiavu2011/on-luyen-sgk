@@ -1,98 +1,128 @@
-[
-  {
-    "front": "Kinh tuyến là gì? Kinh tuyến gốc là đường nào?",
-    "back": "Là các đường nửa đường tròn nối liền hai cực Bắc và Nam trên quả Địa Cầu. Kinh tuyến gốc ($0^\\circ$) đi qua Đài thiên văn Greenwich (Luân Đôn, Anh).",
-    "tags": [
-      "Địa 6",
-      "Kinh tuyến"
-    ]
-  },
-  {
-    "front": "Vĩ tuyến là gì? Vĩ tuyến gốc là đường nào?",
-    "back": "Là các vòng tròn nằm ngang song song với nhau trên quả Địa Cầu. Vĩ tuyến gốc ($0^\\circ$) là đường Xích đạo chia quả Địa Cầu thành hai bán cầu Bắc và Nam.",
-    "tags": [
-      "Vĩ tuyến",
-      "Xích đạo"
-    ]
-  },
-  {
-    "front": "Toạ độ địa lí của một điểm là gì?",
-    "back": "Là kinh độ và vĩ độ của điểm đó (nơi giao nhau giữa kinh tuyến và vĩ tuyến đi qua điểm đó).",
-    "tags": [
-      "Toạ độ",
-      "Địa lí"
-    ]
-  },
-  {
-    "front": "Tỉ lệ bản đồ cho biết điều gì?",
-    "back": "Cho biết mức độ thu nhỏ khoảng cách trên bản đồ so với khoảng cách thực tế ngoài thực địa.",
-    "tags": [
-      "Tỉ lệ bản đồ",
-      "Ý nghĩa"
-    ]
-  },
-  {
-    "front": "Nếu tỉ lệ bản đồ là $1 : 100\\ 000$ thì $1\\text{ cm}$ trên bản đồ ứng với bao nhiêu ngoài thực tế?",
-    "back": "$1\\text{ cm}$ trên bản đồ ứng với $100\\ 000\\text{ cm} = 1000\\text{ m} = 1\\text{ km}$ trên thực địa.",
-    "tags": [
-      "Tính toán",
-      "Quy đổi"
-    ]
-  },
-  {
-    "front": "Quy ước các hướng chính trên bản đồ địa lí?",
-    "back": "Phía trên là hướng Bắc (N), phía dưới là hướng Nam (S), bên phải là hướng Đông (E), bên trái là hướng Tây (W).",
-    "tags": [
-      "Phương hướng",
-      "Bản đồ"
-    ]
-  },
-  {
-    "front": "Kí hiệu bản đồ gồm những loại nào?",
-    "back": "3 loại chính: Kí hiệu điểm (sân bay, thành phố), Kí hiệu đường (ranh giới, sông ngòi, đường ray), Kí hiệu diện tích (rừng, đầm lầy, vùng trồng trọt).",
-    "tags": [
-      "Kí hiệu",
-      "Bản đồ"
-    ]
-  },
-  {
-    "front": "Kinh tuyến đối diện với kinh tuyến gốc $0^\\circ$ là kinh tuyến bao nhiêu độ?",
-    "back": "Kinh tuyến $180^\\circ$ (kinh tuyến đổi ngày quốc tế).",
-    "tags": [
-      "Kinh độ",
-      "Địa cầu"
-    ]
-  },
-  {
-    "front": "Đường Xích đạo có độ dài vĩ tuyến lớn nhất hay nhỏ nhất?",
-    "back": "Lớn nhất ($\u0007pprox 40\\ 075\\text{ km}$). Càng về hai cực vĩ tuyến càng thu nhỏ lại thành một điểm cực ($90^\\circ$).",
-    "tags": [
-      "Xích đạo",
-      "Kích thước"
-    ]
-  },
-  {
-    "front": "Để tìm đường đi trên bản đồ số (Google Maps) cần bật tính năng định vị nào?",
-    "back": "Hệ thống định vị toàn cầu GPS.",
-    "tags": [
-      "Bản đồ số",
-      "GPS"
-    ]
-  },
-  {
-    "front": "Bản đồ tỉ lệ lớn có mẫu số lớn hay nhỏ?",
-    "back": "Bản đồ tỉ lệ lớn có mẫu số nhỏ (ví dụ $1:10\\ 000$), thể hiện khu vực hẹp với độ chi tiết rất cao.",
-    "tags": [
-      "Tỉ lệ",
-      "So sánh"
-    ]
-  },
-  {
-    "front": "Bán cầu Đông và Bán cầu Tây được phân chia bởi hai kinh tuyến nào?",
-    "back": "Kinh tuyến $20^\\circ\\text{T}$ và kinh tuyến $160^\\circ\\text{Đ}$.",
-    "tags": [
-      "Bán cầu",
-      "Quy ước"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Thuật ngữ & Khái niệm cốt lõi — Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất",
+  "cards": [
+    {
+      "front": "Kinh tuyến là gì?",
+      "back": "Là nửa đường tròn nối liền hai cực Bắc và Nam trên quả Địa Cầu, có độ dài bằng nhau.",
+      "tag": "Khái niệm"
+    },
+    {
+      "front": "Kinh tuyến gốc 0° đi qua đâu?",
+      "back": "Đi qua đài thiên văn Grin-uýt ở ngoại ô thủ đô Luân Đôn (nước Anh).",
+      "tag": "Quy ước"
+    },
+    {
+      "front": "Vĩ tuyến là gì?",
+      "back": "Là các vòng tròn vuông góc với kinh tuyến, song song với nhau và thu nhỏ dần về hai cực.",
+      "tag": "Khái niệm"
+    },
+    {
+      "front": "Đường Xích đạo là gì?",
+      "back": "Là vĩ tuyến gốc mang số hiệu 0°, chia Trái Đất thành Bán cầu Bắc và Bán cầu Nam.",
+      "tag": "Quy ước"
+    },
+    {
+      "front": "Toạ độ địa lí của một điểm gồm những gì?",
+      "back": "Gồm kinh độ và vĩ độ của điểm đó (ví dụ: 20°B, 105°Đ).",
+      "tag": "Toạ độ"
+    },
+    {
+      "front": "Tỉ lệ bản đồ là gì?",
+      "back": "Chỉ rõ mức độ thu nhỏ khoảng cách trên bản đồ so với khoảng cách thực tế ngoài thực địa.",
+      "tag": "Tỉ lệ"
+    },
+    {
+      "front": "Tỉ lệ 1 : 100.000 có ý nghĩa gì?",
+      "back": "1 cm trên bản đồ tương ứng với 100.000 cm = 1.000 m = 1 km ngoài thực địa.",
+      "tag": "Tỉ lệ"
+    },
+    {
+      "front": "Bảng chú giải bản đồ có vai trò gì?",
+      "back": "Giải thích ý nghĩa của các kí hiệu và màu sắc được dùng trên bản đồ.",
+      "tag": "Kí hiệu"
+    },
+    {
+      "front": "Kí hiệu bản đồ gồm những loại nào?",
+      "back": "Kí hiệu điểm, kí hiệu đường và kí hiệu diện tích.",
+      "tag": "Kí hiệu"
+    },
+    {
+      "front": "Đầu trên của đường kinh tuyến luôn chỉ hướng nào?",
+      "back": "Hướng Bắc (đầu dưới chỉ hướng Nam).",
+      "tag": "Phương hướng"
+    },
+    {
+      "front": "Lược đồ trí nhớ là gì?",
+      "back": "Bản vẽ phác thảo không gian trong tâm trí để định hướng và ghi nhớ các mốc địa vật.",
+      "tag": "Kĩ năng"
+    },
+    {
+      "front": "Đường đồng mức (đẳng cao) nằm sát nhau thể hiện điều gì?",
+      "back": "Thể hiện địa hình sườn núi rất dốc và hiểm trở.",
+      "tag": "Địa hình"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Kinh tuyến là gì?",
+      "back": "Là nửa đường tròn nối liền hai cực Bắc và Nam trên quả Địa Cầu, có độ dài bằng nhau.",
+      "tag": "Khái niệm"
+    },
+    {
+      "front": "Kinh tuyến gốc 0° đi qua đâu?",
+      "back": "Đi qua đài thiên văn Grin-uýt ở ngoại ô thủ đô Luân Đôn (nước Anh).",
+      "tag": "Quy ước"
+    },
+    {
+      "front": "Vĩ tuyến là gì?",
+      "back": "Là các vòng tròn vuông góc với kinh tuyến, song song với nhau và thu nhỏ dần về hai cực.",
+      "tag": "Khái niệm"
+    },
+    {
+      "front": "Đường Xích đạo là gì?",
+      "back": "Là vĩ tuyến gốc mang số hiệu 0°, chia Trái Đất thành Bán cầu Bắc và Bán cầu Nam.",
+      "tag": "Quy ước"
+    },
+    {
+      "front": "Toạ độ địa lí của một điểm gồm những gì?",
+      "back": "Gồm kinh độ và vĩ độ của điểm đó (ví dụ: 20°B, 105°Đ).",
+      "tag": "Toạ độ"
+    },
+    {
+      "front": "Tỉ lệ bản đồ là gì?",
+      "back": "Chỉ rõ mức độ thu nhỏ khoảng cách trên bản đồ so với khoảng cách thực tế ngoài thực địa.",
+      "tag": "Tỉ lệ"
+    },
+    {
+      "front": "Tỉ lệ 1 : 100.000 có ý nghĩa gì?",
+      "back": "1 cm trên bản đồ tương ứng với 100.000 cm = 1.000 m = 1 km ngoài thực địa.",
+      "tag": "Tỉ lệ"
+    },
+    {
+      "front": "Bảng chú giải bản đồ có vai trò gì?",
+      "back": "Giải thích ý nghĩa của các kí hiệu và màu sắc được dùng trên bản đồ.",
+      "tag": "Kí hiệu"
+    },
+    {
+      "front": "Kí hiệu bản đồ gồm những loại nào?",
+      "back": "Kí hiệu điểm, kí hiệu đường và kí hiệu diện tích.",
+      "tag": "Kí hiệu"
+    },
+    {
+      "front": "Đầu trên của đường kinh tuyến luôn chỉ hướng nào?",
+      "back": "Hướng Bắc (đầu dưới chỉ hướng Nam).",
+      "tag": "Phương hướng"
+    },
+    {
+      "front": "Lược đồ trí nhớ là gì?",
+      "back": "Bản vẽ phác thảo không gian trong tâm trí để định hướng và ghi nhớ các mốc địa vật.",
+      "tag": "Kĩ năng"
+    },
+    {
+      "front": "Đường đồng mức (đẳng cao) nằm sát nhau thể hiện điều gì?",
+      "back": "Thể hiện địa hình sườn núi rất dốc và hiểm trở.",
+      "tag": "Địa hình"
+    }
+  ]
+}

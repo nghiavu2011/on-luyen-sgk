@@ -1,30 +1,164 @@
-[
-  {
-    "id": "sd6_ch07_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khi luân đôn (nằm ở múi giờ số 0) đang là 12 giờ trưa thì ở thủ đô Hà Nội (múi giờ số 7) đang là mấy giờ?",
-    "options": [
-      "A. 5 giờ sáng",
-      "B. 19 giờ tối (7 giờ tối)",
-      "C. 12 giờ đêm",
-      "D. 7 giờ sáng"
-    ],
-    "answer": 1,
-    "explanation": "📌 Phương pháp tính giờ: Hà Nội ở phía đông Luân Đôn 7 múi giờ nên có giờ sớm hơn: $12 + 7 = 19\\text{ giờ}$.\n💡 Đi về phía Đông thì cộng thêm múi giờ, đi về phía Tây thì trừ đi.\n⚠️ Tránh nhầm lẫn lấy $12 - 7 = 5$ giờ."
-  },
-  {
-    "id": "sd6_ch07_d1_q2",
-    "type": "multiple_choice",
-    "difficulty": "medium",
-    "question": "Hiện tượng các mùa (Xuân, Hạ, Thu, Đông) diễn ra luân phiên trong năm trên Trái Đất là do:",
-    "options": [
-      "A. Trái Đất tự quay quanh trục từ Tây sang Đông",
-      "B. Khoảng cách từ Trái Đất đến Mặt Trời thay đổi thất thường",
-      "C. Trái Đất chuyển động quanh Mặt Trời với trục nghiêng không đổi phương",
-      "D. Mặt Trăng che khuất bớt ánh sáng Mặt Trời"
-    ],
-    "answer": 2,
-    "explanation": "📌 Bản chất: Trục Trái Đất luôn nghiêng $66^\\circ 33'$ và không đổi phương khi quay quanh Mặt Trời, làm cho lần lượt bán cầu Bắc và bán cầu Nam ngả về phía Mặt Trời nhận lượng nhiệt khác nhau sinh ra 4 mùa.\n💡 Tự quay chỉ sinh ra ngày đêm.\n⚠️ Khắc sâu nguyên nhân sinh ra các mùa."
-  }
-]
+{
+  "chapterId": "ch07",
+  "quizId": "de1",
+  "title": "Chương 7: Trái Đất – Hành tinh của Hệ Mặt Trời — 📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "lsdl6_ch07_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Vị trí Trái Đất",
+      "question": "Theo thứ tự khoảng cách xa dần Mặt Trời trong Hệ Mặt Trời, Trái Đất nằm ở vị trí thứ mấy?",
+      "options": [
+        "Vị trí thứ ba",
+        "Vị trí thứ hai",
+        "Vị trí thứ nhất",
+        "Vị trí thứ năm"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Thứ tự các hành tinh từ gần đến xa Mặt Trời: Thủy tinh -> Kim tinh -> Trái Đất -> Hỏa tinh -> Mộc tinh -> Thổ tinh -> Thiên Vương tinh -> Hải Vương tinh. Trái Đất ở vị trí thứ 3.",
+        "socraticPrompt": "Sau Thủy tinh và Kim tinh là đến hành tinh nào?",
+        "steps": "Vị trí số 3 giúp Trái Đất nhận lượng nhiệt vừa phải để duy trì nước lỏng và sự sống.",
+        "trap": "Nhầm Trái Đất ở vị trí số 1 hoặc số 2."
+      },
+      "distractorReasons": {
+        "A": "Đáp án chính xác theo SGK trang 116.",
+        "B": "Sai, vị trí thứ hai là Kim tinh.",
+        "C": "Sai, vị trí thứ nhất là Thủy tinh.",
+        "D": "Sai, vị trí thứ năm là Mộc tinh (hành tinh lớn nhất)."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hình dạng Trái Đất",
+      "question": "Trái Đất của chúng ta có hình dạng thực tế như thế nào?",
+      "options": [
+        "Hình vuông dẹt như một chiếc hộp",
+        "Hình chiếc đĩa tròn phẳng tuyệt đối",
+        "Hình cầu hơi dẹt ở hai cực và phình ra ở xích đạo",
+        "Hình trụ dài nhiều góc cạnh"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Trái Đất có hình cầu (geoid), do chuyển động tự quay nên hơi phình ra ở Xích đạo và dẹt lại một chút ở hai cực.",
+        "socraticPrompt": "Trái Đất có dạng hình tròn phẳng như cái đĩa hay hình quả cầu tròn?",
+        "steps": "Ảnh chụp từ vệ tinh ngoài không gian chứng minh Trái Đất là một quả cầu xanh tuyệt đẹp.",
+        "trap": "Quan niệm cổ xưa sai lầm cho rằng Trái Đất hình vuông hoặc phẳng."
+      },
+      "distractorReasons": {
+        "A": "Sai, quan niệm trời tròn đất vuông là thuyết cổ xưa chưa có khoa học.",
+        "B": "Sai, thuyết Trái Đất phẳng đã bị khoa học hiện đại bác bỏ hoàn toàn.",
+        "C": "Đáp án đúng theo SGK trang 117.",
+        "D": "Sai, Trái Đất không có hình trụ."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hướng tự quay",
+      "question": "Trái Đất tự quay quanh trục tưởng tượng theo hướng nào sau đây?",
+      "options": [
+        "Từ Đông sang Tây",
+        "Từ Tây sang Đông",
+        "Từ Bắc xuống Nam",
+        "Từ Nam lên Bắc"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Trái Đất tự quay quanh trục từ Tây sang Đông. Do đó, chúng ta nhìn thấy Mặt Trời mọc ở hướng Đông và lặn ở hướng Tây.",
+        "socraticPrompt": "Mặt Trời mọc hướng Đông lặn hướng Tây chứng tỏ Trái Đất quay ngược lại theo hướng nào?",
+        "steps": "Chiều tự quay: Tây sang Đông.",
+        "trap": "Nhầm lẫn chiều quay của Trái Đất với chuyển động biểu kiến của Mặt Trời (Đông sang Tây)."
+      },
+      "distractorReasons": {
+        "A": "Sai, đây là hướng chuyển động biểu kiến hàng ngày của Mặt Trời trên bầu trời.",
+        "B": "Đáp án đúng theo SGK trang 118.",
+        "C": "Sai, trục Trái Đất nối 2 cực Bắc - Nam.",
+        "D": "Sai, Trái Đất không quay theo chiều dọc Nam - Bắc."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Múi giờ Việt Nam",
+      "question": "Lãnh thổ nước Việt Nam nằm hoàn toàn trong khu vực múi giờ (giờ khu vực) thứ mấy trên thế giới?",
+      "options": [
+        "Múi giờ số 0 (UTC+0)",
+        "Múi giờ số 5 (UTC+5)",
+        "Múi giờ số 9 (UTC+9)",
+        "Múi giờ số 7 (UTC+7)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Việt Nam nằm ở kinh tuyến từ $102^\\circ\\text{Đ}$ đến $109^\\circ\\text{Đ}$, thuộc trọn vẹn trong múi giờ số 7 (UTC+7).",
+        "socraticPrompt": "Giờ chuẩn Hà Nội được ghi trên đồng hồ quốc tế là GMT cộng mấy?",
+        "steps": "Hà Nội - Băng Cốc - Gia-các-ta cùng nằm trong múi giờ số 7.",
+        "trap": "Nhầm sang múi giờ số 8 (của Bắc Kinh, Xin-ga-po)."
+      },
+      "distractorReasons": {
+        "A": "Sai, múi giờ số 0 là của Anh, Bồ Đào Nha.",
+        "B": "Sai, múi giờ số 5 của Ấn Độ, Pa-ki-xtan.",
+        "C": "Sai, múi giờ số 9 của Nhật Bản, Hàn Quốc.",
+        "D": "Đáp án đúng theo SGK trang 119."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Thời gian quay quanh Mặt Trời",
+      "question": "Thời gian Trái Đất chuyển động trọn một vòng quanh Mặt Trời là bao lâu?",
+      "options": [
+        "365 ngày 6 giờ (1 năm thiên văn)",
+        "30 ngày (1 tháng)",
+        "24 giờ (1 ngày đêm)",
+        "100 ngày"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Trái Đất quay quanh Mặt Trời mất 365 ngày và 6 giờ. Để tiện tính lịch, người ta lấy năm thường có 365 ngày, 6 giờ dư ra cứ 4 năm tích lũy thành 24 giờ (1 ngày) bổ sung vào năm nhuận (366 ngày).",
+        "socraticPrompt": "Một năm thường có 365 ngày và dư thêm mấy giờ?",
+        "steps": "365 ngày 6 giờ = thời gian 1 vòng quay quanh Mặt Trời.",
+        "trap": "Nhầm 24 giờ (24 giờ là thời gian tự quay quanh trục tạo ra 1 ngày đêm)."
+      },
+      "distractorReasons": {
+        "A": "Đáp án đúng theo SGK trang 122.",
+        "B": "Sai, 30 ngày là chu kì tuần trăng quanh Trái Đất.",
+        "C": "Sai, 24 giờ là thời gian tự quay 1 vòng quanh trục.",
+        "D": "Sai, không có chu kì 100 ngày."
+      }
+    },
+    {
+      "id": "lsdl6_ch07_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ngày đêm ở Xích đạo",
+      "question": "Ở đường Xích đạo, độ dài ngày và đêm trong suốt cả năm có đặc điểm gì đặc biệt?",
+      "options": [
+        "Quanh năm ngày luôn dài hơn đêm",
+        "Quanh năm đêm luôn dài hơn ngày",
+        "Quanh năm ngày và đêm luôn luôn dài bằng nhau (12 giờ ngày và 12 giờ đêm)",
+        "Có hiện tượng đêm trắng kéo dài 6 tháng liên tục"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Đường Xích đạo là đường phân chia ánh sáng luôn đi qua trung điểm của vòng tròn Xích đạo, nên quanh năm ở Xích đạo ngày dài bằng đêm ($12\\text{ giờ ngày} = 12\\text{ giờ đêm}$).",
+        "socraticPrompt": "Đường Xích đạo ở chính giữa Trái Đất có sự chênh lệch ngày đêm theo mùa không?",
+        "steps": "Không có chênh lệch: 12h ngày = 12h đêm quanh năm.",
+        "trap": "Nghĩ rằng ở Xích đạo cũng có mùa hè ngày dài, mùa đông ngày ngắn như ở vùng cực."
+      },
+      "distractorReasons": {
+        "A": "Sai, chỉ ở bán cầu mùa hè mới có ngày dài hơn đêm.",
+        "B": "Sai, chỉ ở bán cầu mùa đông mới có đêm dài hơn ngày.",
+        "C": "Đáp án đúng theo SGK trang 124.",
+        "D": "Sai, đêm trắng chỉ xảy ra ở vùng cực từ $66^\\circ33'$ trở lên."
+      }
+    }
+  ]
+}

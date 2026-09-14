@@ -6,64 +6,86 @@
     {
       "id": "ch01",
       "title": "Chương 1: Vì sao cần học Lịch sử?",
-      "description": "Ý nghĩa môn Lịch sử, các nguồn tư liệu lịch sử (truyền miệng, hiện vật, chữ viết) và cách tính thời gian trong lịch sử.",
+      "description": "Ý nghĩa môn Lịch sử, các nguồn tư liệu lịch sử (hiện vật, chữ viết, truyền miệng, tư liệu gốc) và cách tính thời gian trong lịch sử.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Bài 1: Lịch sử là gì và vì sao cần học Lịch sử?"
+          "title": "Bài 1: Lịch sử và cuộc sống",
+          "hasRealContent": true
         },
         {
           "id": "l02",
-          "title": "Bài 2: Thời gian trong lịch sử và các loại tư liệu"
+          "title": "Bài 2: Dựa vào đâu để biết và phục dựng lại lịch sử?",
+          "hasRealContent": true
+        },
+        {
+          "id": "l03",
+          "title": "Bài 3: Thời gian trong lịch sử",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 2
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch02",
       "title": "Chương 2: Xã hội nguyên thủy",
-      "description": "Nguồn gốc loài người; Quá trình tiến hoá từ Vượn người thành Người hiện đại; Đời sống vật chất và tinh thần của người nguyên thủy.",
+      "description": "Nguồn gốc loài người; Quá trình tiến hoá từ Vượn người thành Người hiện đại; Đời sống vật chất, tinh thần và sự phân hoá của xã hội nguyên thủy.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l03",
-          "title": "Bài 3: Nguồn gốc loài người và các mốc tiến hoá"
+          "id": "l04",
+          "title": "Bài 4: Nguồn gốc loài người",
+          "hasRealContent": true
         },
         {
-          "id": "l04",
-          "title": "Bài 4: Xã hội nguyên thuỷ và dấu tích tại Việt Nam"
+          "id": "l05",
+          "title": "Bài 5: Xã hội nguyên thủy",
+          "hasRealContent": true
+        },
+        {
+          "id": "l06",
+          "title": "Bài 6: Sự chuyển biến và phân hoá của xã hội nguyên thủy",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 2
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
@@ -71,267 +93,318 @@
       "id": "ch03",
       "title": "Chương 3: Xã hội cổ đại",
       "description": "Các nền văn minh phương Đông (Ai Cập, Lưỡng Hà, Ấn Độ, Trung Quốc) và phương Tây cổ đại (Hy Lạp, La Mã).",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l05",
-          "title": "Bài 5: Ai Cập và Lưỡng Hà cổ đại"
-        },
-        {
-          "id": "l06",
-          "title": "Bài 6: Ấn Độ và Trung Quốc cổ đại"
-        },
-        {
           "id": "l07",
-          "title": "Bài 7: Hy Lạp và La Mã cổ đại"
+          "title": "Bài 7: Ai Cập và Lưỡng Hà cổ đại",
+          "hasRealContent": true
+        },
+        {
+          "id": "l08",
+          "title": "Bài 8: Ấn Độ cổ đại",
+          "hasRealContent": true
+        },
+        {
+          "id": "l09",
+          "title": "Bài 9: Trung Quốc cổ đại",
+          "hasRealContent": true
+        },
+        {
+          "id": "l10",
+          "title": "Bài 10: Hy Lạp và La Mã cổ đại",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 2
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch04",
-      "title": "Chương 4: Đông Nam Á từ thế kỉ tiếp giáp Công nguyên đến thế kỉ X",
-      "description": "Vị trí địa - chiến lược; Quá trình hình thành các vương quốc cổ và vương quốc phong kiến Đông Nam Á.",
+      "title": "Chương 4: Đông Nam Á từ những thế kỉ tiếp giáp Công nguyên đến thế kỉ X",
+      "description": "Vị trí địa lí, điều kiện tự nhiên; Sự xuất hiện các quốc gia sơ kì và phong kiến; Quá trình giao lưu văn hóa với Ấn Độ và Trung Quốc.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l08",
-          "title": "Bài 8: Vị trí địa lí và các vương quốc cổ Đông Nam Á"
+          "id": "l11",
+          "title": "Bài 11: Các quốc gia sơ kỳ ở Đông Nam Á",
+          "hasRealContent": true
         },
         {
-          "id": "l09",
-          "title": "Bài 9: Sự phát triển kinh tế và văn hoá Đông Nam Á đến thế kỉ X"
+          "id": "l12",
+          "title": "Bài 12: Sự hình thành các vương quốc phong kiến và giao lưu văn hóa",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch05",
-      "title": "Chương 5: Việt Nam thời kì Bắc thuộc & Khởi nghĩa giành độc lập",
-      "description": "Chính sách cai trị của phong kiến phương Bắc; Các cuộc khởi nghĩa tiêu biểu (Hai Bà Trưng, Bà Triệu, Lý Bí, Mai Thúc Loan, Phùng Hưng); Bước ngoặt lịch sử chiến thắng Bạch Đằng 938.",
+      "title": "Chương 5: Việt Nam từ khoảng thế kỉ VII trước Công nguyên đến đầu thế kỉ X",
+      "description": "Thời kì dựng nước Văn Lang - Âu Lạc; Hơn 1000 năm kiên cường chống Bắc thuộc; Các cuộc khởi nghĩa tiêu biểu và Chiến thắng Bạch Đằng năm 938 mở ra kỉ nguyên độc lập.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l10",
-          "title": "Bài 10: Chính sách cai trị bóc lột và chuyển biến kinh tế - xã hội"
+          "id": "l13",
+          "title": "Bài 13 & 14: Nhà nước Văn Lang và Nhà nước Âu Lạc",
+          "hasRealContent": true
         },
         {
-          "id": "l11",
-          "title": "Bài 11: Các cuộc khởi nghĩa tiêu biểu từ thế kỉ I đến thế kỉ IX"
+          "id": "l14",
+          "title": "Bài 15 & 16: Chính sách cai trị của phong kiến phương Bắc và các cuộc khởi nghĩa giành độc lập",
+          "hasRealContent": true
         },
         {
-          "id": "l12",
-          "title": "Bài 12: Cuộc đấu tranh bảo tồn văn hoá và Chiến thắng Bạch Đằng năm 938"
+          "id": "l15",
+          "title": "Bài 17, 18, 19, 20: Bảo tồn văn hóa dân tộc và Bước ngoặt Bạch Đằng năm 938",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch06",
       "title": "Chương 6: Bản đồ – Phương tiện thể hiện bề mặt Trái Đất",
-      "description": "Kinh tuyến, vĩ tuyến, tọa độ địa lí; Tỉ lệ bản đồ; Phương hướng trên bản đồ và cách đọc bản đồ địa lí.",
+      "description": "Kinh tuyến, vĩ tuyến, tọa độ địa lí; Bản đồ và lưới kinh vĩ tuyến; Tỉ lệ bản đồ và cách tính khoảng cách thực tế; Kí hiệu bản đồ và tìm đường đi.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l13",
-          "title": "Bài 13: Hệ thống kinh, vĩ tuyến và toạ độ địa lí"
+          "id": "l16",
+          "title": "Bài 1 & 2: Hệ thống kinh, vĩ tuyến, toạ độ địa lí và phương hướng trên bản đồ",
+          "hasRealContent": true
         },
         {
-          "id": "l14",
-          "title": "Bài 14: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi"
+          "id": "l17",
+          "title": "Bài 3 & 4: Tỉ lệ bản đồ, kí hiệu bản đồ và cách tìm đường đi",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch07",
       "title": "Chương 7: Trái Đất – Hành tinh của Hệ Mặt Trời",
-      "description": "Vị trí, hình dạng và kích thước của Trái Đất; Các chuyển động chính (tự quay quanh trục và quay quanh Mặt Trời) cùng hệ quả địa lí.",
+      "description": "Vị trí, hình dạng và kích thước của Trái Đất; Chuyển động tự quay quanh trục và hệ quả; Chuyển động quanh Mặt Trời và hiện tượng các mùa.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l15",
-          "title": "Bài 15: Trái Đất trong hệ Mặt Trời và hình dạng quả Cầu"
+          "id": "l18",
+          "title": "Bài 6 & 7: Trái Đất trong hệ Mặt Trời và chuyển động tự quay quanh trục",
+          "hasRealContent": true
         },
         {
-          "id": "l16",
-          "title": "Bài 16: Chuyển động tự quay quanh trục và quay quanh Mặt Trời của Trái Đất"
+          "id": "l19",
+          "title": "Bài 8 & 9: Chuyển động của Trái Đất quanh Mặt Trời và các hệ quả",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch08",
       "title": "Chương 8: Cấu tạo của Trái Đất & Địa hình bề mặt",
-      "description": "Lớp vỏ Trái Đất, manti và nhân; Tác động của nội lực (núi lửa, động đất) và ngoại lực (xói mòn, phong hoá); Các dạng địa hình chính (núi, đồi, đồng bằng, cao nguyên).",
+      "description": "Cấu tạo bên trong Trái Đất và các mảng kiến tạo; Tác động của nội lực và ngoại lực; Núi lửa, động đất và các dạng địa hình chính.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l17",
-          "title": "Bài 17: Cấu tạo bên trong của Trái Đất và các mảng kiến tạo"
+          "id": "l20",
+          "title": "Bài 10, 11 & 12: Cấu tạo bên trong của Trái Đất, nội sinh, ngoại sinh, núi lửa và động đất",
+          "hasRealContent": true
         },
         {
-          "id": "l18",
-          "title": "Bài 18: Tác động của nội lực, ngoại lực và các dạng địa hình chính"
+          "id": "l21",
+          "title": "Bài 13 & 14: Các dạng địa hình chính trên Trái Đất và khoáng sản",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch09",
       "title": "Chương 9: Khí hậu & Biến đổi khí hậu",
-      "description": "Cấu tạo khí quyển; Các khối khí, khí áp và gió; Thời tiết và khí hậu; Các đới khí hậu trên Trái Đất và ứng phó biến đổi khí hậu.",
+      "description": "Lớp vỏ khí của Trái Đất; Khí áp và gió; Nhiệt độ, mây và mưa; Thời tiết và khí hậu; Các đới khí hậu và biến đổi khí hậu toàn cầu.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l19",
-          "title": "Bài 19: Lớp vỏ khí (khí quyển) và các khối khí, khí áp, gió"
+          "id": "l22",
+          "title": "Bài 15 & 16: Lớp vỏ khí, khí áp, gió, nhiệt độ không khí và mưa",
+          "hasRealContent": true
         },
         {
-          "id": "l20",
-          "title": "Bài 20: Thời tiết, khí hậu và biến đổi khí hậu toàn cầu"
+          "id": "l23",
+          "title": "Bài 17 & 18: Thời tiết, khí hậu, các đới khí hậu và biến đổi khí hậu",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch10",
-      "title": "Chương 10: Nước trên Trái Đất & Sinh vật",
-      "description": "Thủy quyển; Vòng tuần hoàn của nước; Sông và hồ; Nước ngầm; Biển và đại dương; Đất và sinh vật trên Trái Đất.",
+      "title": "Chương 10: Nước trên Trái Đất, Đất & Sinh vật",
+      "description": "Thuỷ quyển và vòng tuần hoàn lớn của nước; Sông, hồ, nước ngầm; Biển và đại dương; Đất và sinh vật trên Trái Đất; Mối quan hệ con người và tự nhiên.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l21",
-          "title": "Bài 21: Thuỷ quyển và vòng tuần hoàn lớn của nước"
+          "id": "l24",
+          "title": "Bài 19, 20 & 21: Thuỷ quyển, sông hồ, nước ngầm và biển đại dương",
+          "hasRealContent": true
         },
         {
-          "id": "l22",
-          "title": "Bài 22: Sông, hồ, nước ngầm và Biển đảo"
-        },
-        {
-          "id": "l23",
-          "title": "Bài 23: Đất và các thảm thực vật, giới động vật trên Trái Đất"
+          "id": "l25",
+          "title": "Bài 22, 23, 24, 25 & 27: Đất, sinh vật, rừng nhiệt đới và mối quan hệ giữa con người với tự nhiên",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 2
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực hành",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     }
