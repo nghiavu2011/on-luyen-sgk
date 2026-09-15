@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en11_u10_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "The destruction of natural habitats like coral reefs and rainforests leads directly to the loss of ______.",
-    "options": [
-      "A. biodiversity",
-      "B. air pollution",
-      "C. carbon credits",
-      "D. urban cities"
-    ],
-    "answer": 0,
-    "explanation": "📌 Environmental science: Habitat destruction causes extinction and loss of biodiversity.\n💡 Đa dạng sinh học = biodiversity.\n⚠️ Master ecological terms."
-  }
-]
+{
+  "chapterId": "ch10",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 10: The Ecosystem",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng11_u10_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading & Biology - Keystone Species",
+      "question": "In ecology, why are certain animals designated as 'keystone species' within a national park?",
+      "options": [
+        "Because they are made of carved granite stone",
+        "Because they consume exclusively rocks and soil",
+        "Because their presence plays a disproportionately crucial role in holding the entire ecological community together",
+        "Because they are the only animals that human tourists enjoy photographing"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Reading Unit 10: Khái niệm loài chủ chốt (Keystone species): Những loài có vai trò sống còn trong việc giữ vững cấu trúc và sự cân bằng của toàn bộ quần xã sinh vật (nếu mất loài này, hệ sinh thái sẽ sụp đổ).",
+        "steps": [
+          "Bước 1: Hiểu thuật ngữ sinh học 'keystone species'.",
+          "Bước 2: Giống như viên đá đỉnh vòm giữ vững cây cầu đá, loài chủ chốt duy trì sự cân bằng của mọi loài khác trong hệ sinh thái.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Hiểu theo nghĩa đen là động vật làm bằng đá hoa cương (A) hoặc ăn đá (C)."
+      },
+      "socraticPrompt": "Vai trò sinh thái then chốt của một 'loài chủ chốt' (keystone species) đối với sự tồn vong của một khu bảo tồn tự nhiên là gì?",
+      "distractorReasons": [
+        "Sai vì keystone là ẩn dụ sinh học, không phải động vật bằng đá.",
+        "Sai vì động vật không ăn đất đá để sống.",
+        "Đúng vì loài chủ chốt có vai trò sống còn duy trì sự ổn định của toàn bộ chuỗi thức ăn và quần xã.",
+        "Sai vì khoa học bảo tồn không dựa trên sở thích chụp ảnh của du khách."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng11_u10_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar - Nuanced Question Tag in Debate",
+      "question": "Mark and Nam are arguing about a local swamp. Mark wants to challenge Nam's opinion skeptically: 'Draining this wetland for a commercial golf course won't harm the bird sanctuary, ________?'",
+      "options": [
+        "isn't it? (&searr;)",
+        "won't it? (&searr;)",
+        "does it? (&nearr;)",
+        "will it? (&nearr;)"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy tắc câu hỏi đuôi phủ định & ngữ điệu hoài nghi: Mệnh đề chính mang nghĩa phủ định ('won't harm') -> câu hỏi đuôi phải là khẳng định ('will it?'). Khi người nói mang tâm trạng hoài nghi, thách thức (chưa tin), ngữ điệu sẽ lên giọng (&nearr;).",
+        "steps": [
+          "Bước 1: Mệnh đề chính có 'won't harm' (phủ định tương lai) -> tag question phải là 'will it?'.",
+          "Bước 2: Mark hoài nghi thách thức Nam -> ngữ điệu lên giọng (&nearr;).",
+          "Bước 3: Chọn 'will it? (&nearr;)'."
+        ],
+        "trap": "Chọn 'won't it?' (hai vế đều phủ định là sai quy tắc câu hỏi đuôi)."
+      },
+      "socraticPrompt": "Khi mệnh đề trước dùng 'won't', câu hỏi đuôi phải ở dạng khẳng định hay phủ định, và khi người nói bày tỏ sự hoài nghi thì ngữ điệu lên hay xuống?",
+      "distractorReasons": [
+        "Sai vì không dùng 'isn't' khi động từ chính là 'won't harm'.",
+        "Sai vì hai vế cùng phủ định là sai ngữ pháp.",
+        "Sai vì trợ động từ ở mệnh đề chính là 'will/won't', không dùng 'does'.",
+        "Đúng vì 'will it?' là câu hỏi đuôi chuẩn của 'won't' và ngữ điệu lên giọng thể hiện sự hoài nghi phản biện."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng11_u10_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Writing - Opinion Essay on Ecosystem Restoration",
+      "question": "In an opinion essay arguing for allocating public budget to restore mangrove ecosystems (Writing Unit 10, page 116), which counter-argument refutation is most persuasive?",
+      "options": [
+        "While critics argue that mangrove restoration yields slow economic returns, preserved wetlands provide indispensable natural sea walls that save coastal towns billions of dollars from storm damage.",
+        "Mangroves should be burned down immediately because nobody likes walking in muddy swamps.",
+        "Money should only be spent on buying golden statues for downtown squares.",
+        "Fish and crabs are useless creatures that do not need any saltwater environment."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Writing Unit 10: Writing an opinion essay about spending money on restoring local ecosystems (SGK page 116). Phản biện sâu sắc chứng minh giá trị kinh tế gián tiếp của đê chắn sóng tự nhiên.",
+        "steps": [
+          "Bước 1: Đánh giá luận điểm phản biện trong bài văn nghị luận.",
+          "Bước 2: Luận điểm xuất sắc phải đối chiếu giữa chi phí ngắn hạn và lợi ích phòng chống thiên tai khổng lồ: rừng ngập mặn là tường chắn sóng tự nhiên cứu hàng tỷ đô la khỏi bão lũ.",
+          "Bước 3: Chọn phương án A."
+        ],
+        "trap": "Chọn các phát biểu thiển cận chống lại thiên nhiên (B, D)."
+      },
+      "socraticPrompt": "Cách phản bác thuyết phục nhất trước ý kiến cho rằng 'phục hồi rừng ngập mặn tốn kém tiền bạc và sinh lời chậm' là gì?",
+      "distractorReasons": [
+        "Đúng vì chứng minh giá trị thực tế của rừng ngập mặn như đê chắn sóng thiên nhiên bảo vệ sinh mạng và tài sản ngàn tỷ trước bão lũ.",
+        "Sai vì phá rừng ngập mặn gây sạt lở thảm khốc.",
+        "Sai vì lãng phí ngân sách vô lý.",
+        "Sai vì tôm cá là nguồn lợi thủy sản nuôi sống hàng triệu ngư dân."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng11_u10_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Everyday English - Expressing Likes and Dislikes",
+      "question": "Tuan: 'Would you like to go trekking in the tropical rainforest this Sunday?' - Phong: '________'",
+      "options": [
+        "I hate all animals and plants with an undying passion.",
+        "I'm really keen on observing wildlife in their natural habitat, so count me in!",
+        "Sunday is illegal in our municipality.",
+        "I would prefer sitting inside an active volcano."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Everyday English Unit 10: Expressing likes and dislikes (SGK page 116). Mẫu câu bày tỏ sự yêu thích: 'I'm really keen on...' (Tôi rất hào hứng/thích thú...).",
+        "steps": [
+          "Bước 1: Tuấn rủ Phong đi bộ xuyên rừng mưa nhiệt đới vào Chủ nhật.",
+          "Bước 2: Phong bày tỏ sự yêu thích khám phá thiên nhiên hoang dã: 'I'm really keen on observing wildlife... count me in!' (Rất thích quan sát muông thú... hãy cho mình tham gia với!).",
+          "Bước 3: Chọn phương án A."
+        ],
+        "trap": "Chọn các câu từ chối phi lý hoặc hận thù thiên nhiên (B, D)."
+      },
+      "socraticPrompt": "Mẫu câu nào bày tỏ niềm đam mê khám phá thiên nhiên hoang dã ('I'm really keen on...') và đồng ý tham gia chuyến đi rừng?",
+      "distractorReasons": [
+        "Sai vì thái độ ghét bỏ thiên nhiên vô cớ.",
+        "Đúng vì 'I'm really keen on...' là cấu trúc chuẩn diễn đạt sự thích thú nồng nhiệt.",
+        "Sai vì thông tin bịa đặt vô lý.",
+        "Sai vì mỉa mai lố bịch."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng11_u10_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "CLIL - Global Ecosystem Conservation Initiatives",
+      "question": "The 'Green Belt Movement' in Kenya and the 'Great Green Wall' across the African Sahel (CLIL Unit 10, page 117) represent massive international efforts to combat ________ through community tree-planting.",
+      "options": [
+        "heavy blizzards",
+        "over-industrialization",
+        "desertification",
+        "subsea volcanism"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "CLIL Unit 10: Protecting the ecosystem - Ideas from around the world (SGK page 117). Dự án Vành đai xanh và Bức tường xanh vĩ đại châu Phi nhằm ngăn chặn nạn sa mạc hóa ('desertification').",
+        "steps": [
+          "Bước 1: Tìm hiểu dự án Bức tường xanh vĩ đại (Great Green Wall) ở châu Phi.",
+          "Bước 2: Mục tiêu trọng tâm của việc trồng hàng triệu cây xanh là chặn đứng sự mở rộng của sa mạc Sahara (nạn sa mạc hóa - 'desertification').",
+          "Bước 3: Chọn 'desertification'."
+        ],
+        "trap": "Nhầm với các hiện tượng bão tuyết (blizzards) hay núi lửa dưới đáy biển."
+      },
+      "socraticPrompt": "Đại dự án trồng dải rừng phòng hộ xuyên lục địa châu Phi nhằm mục đích chính là ngăn chặn hiểm họa môi trường nào?",
+      "distractorReasons": [
+        "Sai vì vùng cận Sahara không có bão tuyết.",
+        "Sai vì châu Phi không chống quá độ công nghiệp hóa bằng cách này.",
+        "Đúng vì 'desertification' là nạn sa mạc hóa đất đai khô cằn.",
+        "Sai vì không liên quan đến núi lửa đáy biển."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng11_u10_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary - Advanced Compound Terminology",
+      "question": "Ecotourists visiting national parks are strongly advised to adhere to ethical guidelines to preserve fragile ________ like limestone cave formations and pristine coral colonies.",
+      "options": [
+        "supermarkets",
+        "traffic jams",
+        "skyscrapers",
+        "ecosystems"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Vocabulary Unit 10: 'fragile ecosystems' (các hệ sinh thái mỏng manh dễ bị tổn thương).",
+        "steps": [
+          "Bước 1: Hang động đá vôi và rạn san hô nguyên sơ là các ví dụ tiêu biểu của hệ sinh thái thiên nhiên.",
+          "Bước 2: Cụm từ chuyên môn là 'fragile ecosystems'.",
+          "Bước 3: Chọn 'ecosystems'."
+        ],
+        "trap": "Chọn các công trình bê tông đô thị như 'skyscrapers' hay 'supermarkets'."
+      },
+      "socraticPrompt": "Rạn san hô ngầm dưới biển và thạch nhũ trong hang động đá vôi là những cấu phần quan trọng của cái gì cần được bảo vệ nguyên vẹn?",
+      "distractorReasons": [
+        "Sai vì supermarkets là siêu thị.",
+        "Sai vì traffic jams là kẹt xe.",
+        "Sai vì skyscrapers là tòa nhà chọc trời.",
+        "Đúng vì 'ecosystems' là hệ sinh thái tự nhiên phong phú và nhạy cảm."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    }
+  ]
+}

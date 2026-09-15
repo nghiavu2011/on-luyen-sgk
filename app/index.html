@@ -94,23 +94,17 @@
                 </div>
                 <div class="ol-hero-stats" id="hero-stats-row">
                     <div class="ol-stat-item">
-                        <h3 id="stat-val-1">294+</h3>
+                        <h3 id="stat-val-1">324+</h3>
                         <p id="stat-lbl-1">Đề ôn luyện chuẩn hóa</p>
                     </div>
                     <div class="ol-stat-item">
-                        <h3 id="stat-val-2">1.764+</h3>
+                        <h3 id="stat-val-2">1.944+</h3>
                         <p id="stat-lbl-2">Câu hỏi trắc nghiệm</p>
                     </div>
                     <div class="ol-stat-item">
                         <h3 id="stat-val-3">100%</h3>
                         <p id="stat-lbl-3">Chuẩn SGK 2026 – 2027</p>
                     </div>
-                </div>
-            </div>
-
-            <div class="ol-hero-floating-decor">
-                <div class="ol-hero-sticker-handwritten" id="hero-sticker">
-                    Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️
                 </div>
             </div>
         </div>
@@ -437,8 +431,8 @@
                 heroTitle: "Học đúng hướng.<br>Bứt phá tương lai.",
                 heroDesc: "Nền tảng ôn luyện dành riêng cho học sinh THPT với lộ trình cá nhân hóa, ngân hàng đề thi thử bám sát bộ SGK Kết nối tri thức 2026–2027 chuẩn cấu trúc mới, giúp bạn bứt phá điểm số và hiện thực hóa ước mơ đại học.",
                 heroStats: [
-                    { val: "72+", lbl: "Đề thi Khối A & B" },
-                    { val: "432+", lbl: "Câu trắc nghiệm Lớp 11" },
+                    { val: "102+", lbl: "Đề thi Lớp 11" },
+                    { val: "612+", lbl: "Câu trắc nghiệm Lớp 11" },
                     { val: "100%", lbl: "Chuẩn SGK Lớp 11" }
                 ],
                 sticker: "Phiên bản tốt hơn của chính mình bắt đầu từ hôm nay! ✨",
@@ -490,13 +484,11 @@
             const heroTitleEl = document.getElementById('hero-title');
             const heroDescEl = document.getElementById('hero-desc');
             const heroImgEl = document.getElementById('hero-student-img');
-            const heroStickerEl = document.getElementById('hero-sticker');
 
             if (heroTagEl) heroTagEl.innerHTML = lvl.heroTag;
             if (heroTitleEl) heroTitleEl.innerHTML = lvl.heroTitle;
             if (heroDescEl) heroDescEl.innerHTML = lvl.heroDesc;
             if (heroImgEl) heroImgEl.src = lvl.heroImg;
-            if (heroStickerEl) heroStickerEl.innerHTML = lvl.sticker;
 
             // Cập nhật Stats
             if (lvl.heroStats && lvl.heroStats.length >= 3) {
@@ -552,13 +544,11 @@
             const heroTitleEl = document.getElementById('hero-title');
             const heroDescEl = document.getElementById('hero-desc');
             const heroImgEl = document.getElementById('hero-student-img');
-            const heroStickerEl = document.getElementById('hero-sticker');
 
             if (heroTagEl) heroTagEl.innerHTML = 'TRI THỨC HÔM NAY • VỮNG BƯỚC NGÀY MAI';
             if (heroTitleEl) heroTitleEl.innerHTML = 'Học đúng hướng.<br>Ôn đúng trọng tâm.';
             if (heroDescEl) heroDescEl.innerHTML = 'Hệ thống đề ôn tập bám sát bộ SGK <strong>"Kết nối tri thức với cuộc sống"</strong> của Nhà xuất bản Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.';
             if (heroImgEl) heroImgEl.src = 'assets/hero_main.png';
-            if (heroStickerEl) heroStickerEl.innerHTML = 'Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️';
 
             const s1v = document.getElementById('stat-val-1');
             const s1l = document.getElementById('stat-lbl-1');
@@ -567,9 +557,9 @@
             const s3v = document.getElementById('stat-val-3');
             const s3l = document.getElementById('stat-lbl-3');
 
-            if (s1v) s1v.textContent = '294+';
+            if (s1v) s1v.textContent = '324+';
             if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa';
-            if (s2v) s2v.textContent = '1.764+';
+            if (s2v) s2v.textContent = '1.944+';
             if (s2l) s2l.textContent = 'Câu hỏi trắc nghiệm';
             if (s3v) s3v.textContent = '100%';
             if (s3l) s3l.textContent = 'Chuẩn SGK 2026 – 2027';
@@ -656,15 +646,18 @@
                             <div style="display:flex; align-items:center; gap:0.75rem;">
                                 <span style="font-size:1.6rem;">🏆</span>
                                 <div>
-                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Hoàn thành 100% trọn bộ Khối A & Khối B (Toán, Lí, Hóa, Sinh) chuẩn SGK!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 24 chương: Toán học (9 ch - 27 đề), Vật lí (4 ch - 12 đề), Hóa học (6 ch - 18 đề), Sinh học (5 ch - 15 đề) với 432 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 240 flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 11 — Hoàn thành 100% 5 môn học: Toán, Lí, Hóa, Sinh và Tiếng Anh Global Success chuẩn SGK!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 34 chương/units: Toán (9 ch - 27 đề), Vật lí (4 ch - 12 đề), Hóa học (6 ch - 18 đề), Sinh học (5 ch - 15 đề), Tiếng Anh (10 units - 30 đề) với 612 câu hỏi trắc nghiệm giải thích 3 bước sư phạm, 360 flashcards và bài giảng bám sát SGK Kết nối tri thức 2026–2027.</p>
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
                                 <a href="subject.html?grade=11&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🔢 Toán 11 ➔
                                 </a>
-                                <a href="subject.html?grade=11&subject=vat-li" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                <a href="subject.html?grade=11&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🇬🇧 Tiếng Anh 11 ➔
+                                </a>
+                                <a href="subject.html?grade=11&subject=vat-li" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     ⚡ Vật lí 11 ➔
                                 </a>
                                 <a href="subject.html?grade=11&subject=hoa-hoc" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
@@ -699,26 +692,10 @@
             const grid = document.getElementById('subjects-grid');
             const lvl = LEVEL_DATA[currentLevel];
             
-            const subjectAssetMap = {
-                'toan': 'assets/subject-toan.png',
-                'ngu-van': 'assets/subject-ngu-van.png',
-                'tieng-anh': 'assets/subject-tieng-anh.png',
-                'vat-li': 'assets/icon_vat_li.png',
-                'hoa-hoc': 'assets/subject-hoa-hoc.png',
-                'sinh-hoc': 'assets/subject-sinh-hoc.png',
-                'khoa-hoc-tu-nhien': 'assets/subject-khoa-hoc-tu-nhien.png',
-                'lich-su-dia-li': 'assets/subject-lich-su-dia-li.png',
-                'lich-su': 'assets/subject-lich-su.png',
-                'dia-li': 'assets/subject-dia-li.png',
-                'tin-hoc': 'assets/subject-tin-hoc.png',
-                'cong-nghe': 'assets/subject-cong-nghe.png',
-                'giao-duc-cong-dan': 'assets/subject-giao-duc-cong-dan.png',
-                'gdkt-pl': 'assets/subject-gdkt-pl.png'
-            };
-            
             // Xác định môn học nào đã có nội dung hoàn thiện theo chuẩn SGK
             grid.innerHTML = lvl.subjects.map(s => {
-                const imgSrc = subjectAssetMap[s.id] || `assets/icon_${s.id.replace(/-/g, '_')}.png`;
+                const iconName = `subject_${s.id.replace(/-/g, '_')}.svg`;
+                const imgSrc = `assets/icons/${iconName}`;
                 
                 let isReady = false;
                 let readyNote = '';
@@ -736,6 +713,7 @@
                     else if (s.id === 'vat-li') { isReady = true; readyNote = '4/4 chương • 12 đề'; }
                     else if (s.id === 'hoa-hoc') { isReady = true; readyNote = '6/6 chương • 18 đề'; }
                     else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '5/5 chương • 15 đề'; }
+                    else if (s.id === 'tieng-anh') { isReady = true; readyNote = '10/10 units • 30 đề'; }
                 }
 
                 return `

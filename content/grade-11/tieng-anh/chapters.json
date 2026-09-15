@@ -1,331 +1,359 @@
 {
-  "subjectId": "tieng-anh",
-  "subjectName": "Tiếng Anh",
   "grade": 11,
+  "subjectId": "tieng-anh",
+  "subjectName": "Tiếng Anh 11 Global Success",
+  "hasRealContent": true,
+  "totalChapters": 10,
   "chapters": [
     {
       "id": "ch01",
       "title": "Unit 1: A Long and Healthy Life",
-      "description": "Health, fitness, bacteria & viruses; Past Simple vs Present Perfect.",
+      "description": "Health and fitness vocabulary, longevity, past simple vs. present perfect, strong and weak forms of auxiliary verbs.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Healthy habits, immune system, treatment"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Past Simple vs. Present Perfect"
-        },
-        {
-          "id": "l03",
-          "title": "Reading & Listening: Life expectancy"
+          "title": "Unit 1: A Long and Healthy Life - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 1: A Long and Healthy Life",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 1: A Long and Healthy Life",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 1: A Long and Healthy Life",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch02",
       "title": "Unit 2: The Generation Gap",
-      "description": "Family values, generational conflicts; Modal verbs (must, have to, should, ought to).",
+      "description": "Generational differences, family values and structures, modal verbs must, have to, and should, contracted forms.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Generational differences & family rules"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Modal verbs expressing obligation and advice"
+          "title": "Unit 2: The Generation Gap - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 2: The Generation Gap",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 2: The Generation Gap",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 2: The Generation Gap",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch03",
       "title": "Unit 3: Cities of the Future",
-      "description": "Smart cities, urban planning, IoT; Stative verbs & Linking verbs.",
+      "description": "Smart cities, green and sustainable infrastructure, stative verbs in continuous forms, linking verbs, consonant-to-vowel linking.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Smart infrastructure, sustainability"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Stative verbs in continuous forms & Linking verbs"
+          "title": "Unit 3: Cities of the Future - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 3: Cities of the Future",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 3: Cities of the Future",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 3: Cities of the Future",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch04",
       "title": "Unit 4: ASEAN and Viet Nam",
-      "description": "Regional integration, youth volunteering; Gerunds as subject and object.",
+      "description": "ASEAN community, regional cooperation and integration, gerunds as subjects and objects, elision of vowels.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: ASEAN cooperation, cultural diversity"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Gerunds (V-ing) as Subjects and Objects"
+          "title": "Unit 4: ASEAN and Viet Nam - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 4: ASEAN and Viet Nam",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 4: ASEAN and Viet Nam",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 4: ASEAN and Viet Nam",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch05",
       "title": "Unit 5: Global Warming",
-      "description": "Carbon footprint, climate change; Present participle & Past participle clauses.",
+      "description": "Causes and catastrophic consequences of climate change, present and past participle clauses, sentence stress and rhythm.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Greenhouse gases, deforestation"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Participle clauses (-ing and -ed)"
+          "title": "Unit 5: Global Warming - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 5: Global Warming",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 5: Global Warming",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 5: Global Warming",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch06",
       "title": "Unit 6: Preserving Our Heritage",
-      "description": "Tangible & intangible heritage, conservation; To-infinitive clauses.",
+      "description": "Tangible, intangible, and mixed heritage preservation, to-infinitive clauses, intonation in statements, commands, and lists.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: UNESCO World Heritage sites in Viet Nam"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: To-infinitive clauses replacing relative clauses"
+          "title": "Unit 6: Preserving Our Heritage - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 6: Preserving Our Heritage",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 6: Preserving Our Heritage",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 6: Preserving Our Heritage",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch07",
-      "title": "Unit 7: Education Options for School Leavers",
-      "description": "Higher education, vocational training, apprenticeships; Perfect gerunds and participles.",
+      "title": "Unit 7: Education Options for School-Leavers",
+      "description": "Higher education vs. vocational apprenticeships, perfect gerunds and perfect participle clauses, intonation in Wh- and Yes/No questions.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: University degrees, vocational schools"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Perfect Gerunds (having done) and Perfect Participles"
+          "title": "Unit 7: Education Options for School-Leavers - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 7: Education Options for School-Leavers",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 7: Education Options for School-Leavers",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 7: Education Options for School-Leavers",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch08",
       "title": "Unit 8: Becoming Independent",
-      "description": "Self-reliance, life skills, time management; Cleft sentences (It is/was ... that ...).",
+      "description": "Self-reliance, life skills and time management, cleft sentences with It is/was... that/who, intonation in polite requests.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Self-motivation, coping skills"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Cleft sentences with 'It is/was ... that ...'"
+          "title": "Unit 8: Becoming Independent - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 8: Becoming Independent",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 8: Becoming Independent",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 8: Becoming Independent",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch09",
       "title": "Unit 9: Social Issues",
-      "description": "Poverty, peer pressure, cyberbullying, body shaming; Linking words and phrases.",
+      "description": "Peer pressure, cyberbullying, body shaming, depression, linking words and phrases of addition, contrast, and result, intonation in choice questions.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Bullying, social media impact"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Connectors expressing contrast and purpose"
+          "title": "Unit 9: Social Issues - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 9: Social Issues",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 9: Social Issues",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 9: Social Issues",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     },
     {
       "id": "ch10",
       "title": "Unit 10: The Ecosystem",
-      "description": "Biodiversity, food chains, habitat preservation; Compound nouns & adjectives.",
+      "description": "Biodiversity, flora and fauna, habitat loss, keystone species, compound nouns, intonation in question tags.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Vocabulary: Flora, fauna, food webs"
-        },
-        {
-          "id": "l02",
-          "title": "Grammar: Compound nouns and adjectives"
+          "title": "Unit 10: The Ecosystem - Core Knowledge",
+          "order": 1,
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Vocabulary & Grammar Core",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Từ vựng - Ngữ âm - Unit 10: The Ecosystem",
+          "difficulty": "easy",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Skills & Practical Exercises",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Ngữ pháp Thực hành - Unit 10: The Ecosystem",
+          "difficulty": "medium",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
-          "title": "🏆 Đề 3: Comprehensive Assessment",
-          "questionCount": 1
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 10: The Ecosystem",
+          "difficulty": "hard",
+          "questionCount": 6
         }
-      ]
+      ],
+      "flashcardCount": 12
     }
   ]
 }

@@ -1,16 +1,200 @@
-[
-  {
-    "id": "en11_u01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "The doctor prescribed ______ to treat her severe bacterial infection.",
-    "options": [
-      "A. nutrients",
-      "B. antibiotics",
-      "C. fast food",
-      "D. exercise"
-    ],
-    "answer": 1,
-    "explanation": "📌 Vocabulary: Antibiotics are medicines used to destroy bacteria.\n💡 Kháng sinh = antibiotics.\n⚠️ Antibiotics cannot kill viruses."
-  }
-]
+{
+  "chapterId": "ch01",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp & Đọc hiểu - Unit 1: A Long and Healthy Life",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "eng11_u01_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Reading & Logic - Blue Zones Longevity",
+      "question": "Studies on 'Blue Zones'—areas where people live much longer than average—show that longevity is primarily driven by ________ rather than modern medication.",
+      "options": [
+        "plant-based diets, natural daily movement, and strong community bonds",
+        "a sedentary routine and excessive high-protein consumption",
+        "constant reliance on synthetic vitamin supplements",
+        "isolated living conditions and avoidance of physical activities"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Reading Unit 1: Các yếu tố tạo nên tuổi thọ cao (longevity) ở các vùng Blue Zones là ăn nhiều thực vật, vận động tự nhiên và gắn kết cộng đồng.",
+        "steps": [
+          "Bước 1: Tìm hiểu thông điệp cốt lõi của bài đọc về lối sống sống thọ.",
+          "Bước 2: Người sống thọ có chế độ ăn giàu thực vật (plant-based), vận động hằng ngày và có đời sống tinh thần gắn kết.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Chọn lối sống phụ thuộc thuốc men hoặc ít vận động (sedentary)."
+      },
+      "socraticPrompt": "Các nghiên cứu về những người sống thọ trên 100 tuổi chỉ ra lối sống tự nhiên của họ có đặc điểm gì?",
+      "distractorReasons": [
+        "Đúng vì chế độ ăn gốc thực vật, vận động tự nhiên và tình cảm gắn kết là nền tảng của sự trường thọ.",
+        "Sai vì 'sedentary' (ngồi nhiều lười vận động) là nguyên nhân gây suy giảm tuổi thọ.",
+        "Sai vì người ở Blue Zones không phụ thuộc vào vitamin tổng hợp nhân tạo.",
+        "Sai vì sống cô lập và tránh vận động hoàn toàn trái ngược với khoa học sức khỏe."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng11_u01_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Grammar & Meaning - Tense Contrast in Context",
+      "question": "Choose the grammatically and logically correct sentence:",
+      "options": [
+        "Mai has contracted a viral flu two weeks ago, but she felt completely energetic now.",
+        "Mai contracted a viral flu two weeks ago, but she has felt completely recovered since yesterday.",
+        "Mai contracts a viral flu two weeks ago, and she is feeling sick since then.",
+        "Mai had contracted a viral flu two weeks ago, but she recovers right now."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phối hợp thì: 'two weeks ago' -> Quá khứ đơn ('contracted'); 'since yesterday' -> Hiện tại hoàn thành ('has felt').",
+        "steps": [
+          "Bước 1: 'two weeks ago' bắt buộc động từ đi kèm phải là Quá khứ đơn (loại A và C).",
+          "Bước 2: 'since yesterday' thể hiện khoảng thời gian kéo dài đến hiện tại -> Hiện tại hoàn thành 'has felt'.",
+          "Bước 3: Phương án B hoàn toàn chính xác cả về ngữ pháp lẫn logic thời gian."
+        ],
+        "trap": "Không nhận diện dấu hiệu 'two weeks ago' đi kèm 'contracted' và 'since' đi kèm 'has felt'."
+      },
+      "socraticPrompt": "Khi một mệnh đề có 'two weeks ago' và mệnh đề sau có 'since yesterday', các động từ cần chia ở thì nào tương ứng?",
+      "distractorReasons": [
+        "Sai vì 'has contracted' đi với 'two weeks ago' là sai ngữ pháp.",
+        "Đúng vì 'contracted' (quá khứ đơn với two weeks ago) và 'has felt' (hiện tại hoàn thành với since yesterday) chuẩn xác.",
+        "Sai vì 'contracts' là hiện tại đơn, không đi với 'two weeks ago'.",
+        "Sai vì phối hợp thì hỗn loạn giữa quá khứ hoàn thành và hiện tại đơn."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "eng11_u01_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "CLIL - Antibiotic Resistance Threat",
+      "question": "Why is the widespread misuse of antibiotics considered a grave global healthcare threat?",
+      "options": [
+        "Because it causes viruses to mutate into bacteria immediately",
+        "Because it completely destroys human red blood cells within hours",
+        "Because bacteria adapt and develop resistance, rendering common infections untreatable",
+        "Because it prevents vaccines from being manufactured in laboratories"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "CLIL Unit 1 (page 16): Hiện tượng kháng kháng sinh (antibiotic resistance) xảy ra khi vi khuẩn biến đổi kháng lại thuốc.",
+        "steps": [
+          "Bước 1: Hiểu cơ chế kháng thuốc của vi khuẩn.",
+          "Bước 2: Lạm dụng kháng sinh khiến vi khuẩn thích nghi (adapt) và kháng thuốc (develop resistance), khiến các bệnh nhiễm khuẩn thông thường trở nên vô phương cứu chữa.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Nghĩ rằng kháng sinh biến virus thành vi khuẩn (A) - đây là sai lầm nghiêm trọng về sinh học."
+      },
+      "socraticPrompt": "Điều gì xảy ra với các chủng vi khuẩn gây bệnh khi con người lạm dụng thuốc kháng sinh bừa bãi?",
+      "distractorReasons": [
+        "Sai vì virus không thể biến thành vi khuẩn.",
+        "Sai vì kháng sinh không phá hủy lập tức hồng cầu của người.",
+        "Đúng vì vi khuẩn biến đổi kháng thuốc khiến các phác đồ điều trị trở nên vô hiệu.",
+        "Sai vì việc lạm dụng kháng sinh không cản trở quy trình sản xuất vaccine."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "eng11_u01_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Communication & Pragmatics - Giving Health Advice",
+      "question": "Peter: 'I've been feeling extremely fatigued and unable to concentrate lately.' - Doctor: '________'",
+      "options": [
+        "I couldn't agree more with your lazy attitude.",
+        "Never mind, everybody loves staying up all night playing video games.",
+        "Congratulations on your great physical achievements!",
+        "You had better cut down on fast food, establish a consistent sleep schedule, and stay hydrated."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Everyday English Unit 1: Đưa ra lời khuyên y tế/chăm sóc sức khỏe chân thành, đúng mực.",
+        "steps": [
+          "Bước 1: Bệnh nhân than phiền về tình trạng kiệt sức ('fatigued') và mất tập trung ('unable to concentrate').",
+          "Bước 2: Bác sĩ cần đưa ra lời khuyên khoa học: giảm ăn đồ ăn nhanh, ngủ đúng giờ, uống đủ nước.",
+          "Bước 3: Cấu trúc 'You had better...' thể hiện lời khuyên mạnh mẽ và thiết thực."
+        ],
+        "trap": "Chọn các câu trả lời mang tính mỉa mai hoặc cổ vũ thói quen xấu."
+      },
+      "socraticPrompt": "Khi ai đó cảm thấy mệt mỏi suy nhược kéo dài, một chuyên gia y tế sẽ khuyên họ điều chỉnh lối sống ra sao?",
+      "distractorReasons": [
+        "Sai vì câu nói mang tính xúc phạm, không đúng tác phong bác sĩ.",
+        "Sai vì cổ xúy việc thức khuya chơi game làm trầm trọng thêm căn bệnh.",
+        "Sai vì mệt mỏi kiệt sức không phải là thành tựu để chúc mừng.",
+        "Đúng vì đưa ra lời khuyên y tế tích cực và thiết thực về dinh dưỡng và giấc ngủ."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "eng11_u01_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Vocabulary in Context - Word Forms",
+      "question": "Regular cardiovascular workouts strengthen heart muscles and reduce the risk of ________ diseases.",
+      "options": [
+        "infectious",
+        "infected",
+        "infection",
+        "infect"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Word form: Trước danh từ 'diseases' cần một tính từ bổ nghĩa ('infectious diseases' = các bệnh truyền nhiễm).",
+        "steps": [
+          "Bước 1: Xác định từ loại đứng trước danh từ 'diseases': cần một tính từ (adjective).",
+          "Bước 2: 'Infectious' là tính từ có nghĩa là có tính lây truyền / truyền nhiễm.",
+          "Bước 3: Chọn 'infectious'."
+        ],
+        "trap": "Chọn danh từ 'infection' hoặc quá khứ phân từ 'infected' (đã bị nhiễm bệnh) không tạo thành thuật ngữ y khoa chuẩn."
+      },
+      "socraticPrompt": "Tính từ nào đi cùng 'diseases' để chỉ các bệnh có khả năng lây lan từ người sang người?",
+      "distractorReasons": [
+        "Đúng vì 'infectious diseases' là cụm danh từ chuẩn chỉ các bệnh truyền nhiễm.",
+        "Sai vì 'infected' mang nghĩa là cá thể đã bị lây nhiễm (vd: infected person).",
+        "Sai vì 'infection' là danh từ sự nhiễm trùng.",
+        "Sai vì 'infect' là động từ lây nhiễm."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "eng11_u01_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Writing - Message Composition",
+      "question": "Which closing sentence is most appropriate for a polite short message encouraging a friend to join a morning workout group?",
+      "options": [
+        "You must show up or our friendship is officially terminated.",
+        "Let me know if you can make it tomorrow at 6 a.m.; I'm sure you'll love the fresh air!",
+        "Don't bother replying because I know you'll just oversleep anyway.",
+        "Whatever happens, remember that working out is completely useless."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Writing Unit 1: Writing a short message encouraging a peer.",
+        "steps": [
+          "Bước 1: Xác định mục tiêu của lời nhắn: rủ bạn tham gia nhóm tập thể dục buổi sáng một cách lịch sự, khích lệ.",
+          "Bước 2: Câu 'Let me know if you can make it... I'm sure you'll love the fresh air!' thể hiện sự chào đón, ấm áp và tích cực.",
+          "Bước 3: Chọn phương án B."
+        ],
+        "trap": "Các câu mang tính đe dọa (A), coi thường (C) hoặc bi quan tiêu cực (D)."
+      },
+      "socraticPrompt": "Một lời nhắn rủ bạn bè rèn luyện thể thao cần có thái độ lịch sự, khuyến khích và tích cực như thế nào?",
+      "distractorReasons": [
+        "Sai vì mang tính đe dọa cắt đứt tình bạn, bất lịch sự.",
+        "Đúng vì giọng điệu nhã nhặn, khích lệ bạn bè và gợi mở cảm giác sảng khoái.",
+        "Sai vì mang tính chê bai, thiếu tôn trọng bạn.",
+        "Sai vì truyền bá quan điểm tiêu cực về việc tập luyện."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    }
+  ]
+}

@@ -196,24 +196,8 @@
             document.getElementById('subject-title').textContent = `${subjectName} — Lớp ${params.grade}`;
             const coverImg = document.getElementById('subject-banner-cover');
             const iconEl = document.getElementById('subject-icon');
-            const subAssetMap = {
-                'toan': 'assets/subject-toan.png',
-                'ngu-van': 'assets/subject-ngu-van.png',
-                'tieng-anh': 'assets/subject-tieng-anh.png',
-                'khoa-hoc-tu-nhien': 'assets/icon_khoa_hoc_tu_nhien.png',
-                'vat-li': 'assets/icon_vat_li.png',
-                'hoa-hoc': 'assets/icon_hoa_hoc.png',
-                'sinh-hoc': 'assets/icon_sinh_hoc.png',
-                'lich-su': 'assets/icon_lich_su.png',
-                'dia-li': 'assets/icon_dia_li.png',
-                'lich-su-dia-li': 'assets/icon_lich_su_dia_li.png',
-                'giao-duc-cong-dan': 'assets/icon_giao_duc_cong_dan.png',
-                'gdkt-pl': 'assets/icon_giao_duc_cong_dan.png',
-                'tin-hoc': 'assets/icon_tin_hoc.png',
-                'cong-nghe': 'assets/icon_cong_nghe.png',
-                'hdtn-huong-nghiep': 'assets/icon_hdtn_huong_nghiep.png'
-            };
-            const customSrc = subAssetMap[params.subject] || `assets/icon_${params.subject.replace(/-/g, '_')}.png`;
+            const iconName = `subject_${params.subject.replace(/-/g, '_')}.svg`;
+            const customSrc = `assets/icons/${iconName}`;
             coverImg.src = customSrc;
             coverImg.style.display = 'block';
             coverImg.onerror = () => {
