@@ -1,19 +1,200 @@
-[
-  {
-    "id": "nv11_ch08_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Nhân vật Hộ trong tác phẩm 'Đời thừa' của Nam Cao làm nghề nghiệp gì?",
-    "options": [
-      "A. Kỹ sư",
-      "B. Bác sĩ",
-      "C. Nhà văn",
-      "D. Giáo viên"
-    ],
-    "answer": 2,
-    "explanation": "📌 Nhân vật trí thức nghèo: Hộ ôm mộng viết nên một tác phẩm đoạt giải Nobel để đời nhưng bị gánh nặng mưu sinh vùi dập.\n💡 Hình tượng đại diện cho giới trí thức tiểu tư sản trước 1945.\n⚠️ Đề tài sáng tác lớn của Nam Cao.",
-    "breakdown": {
-      "calculation": "người trí thức cầm bút"
+{
+  "chapterId": "ch08",
+  "quizId": "tonghop",
+  "title": "🏆 Đề 3: Vận dụng & Đánh giá Năng lực - Bài 8: Cấu trúc của văn bản thông tin",
+  "difficulty": "hard",
+  "questions": [
+    {
+      "id": "nv11_ch08_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Triết lý thời đại số - Con người trước làn sóng AI",
+      "question": "Trước sự phát triển như vũ bão của Trí tuệ nhân tạo (AI), điều gì tạo nên 'ranh giới không thể thay thế' của con người so với máy móc?",
+      "options": [
+        "Khả năng ghi nhớ hàng tỷ con số thống kê chính xác tuyệt đối",
+        "Tốc độ gõ bàn phím và tính toán các phép nhân ma trận nhiều chiều",
+        "Trí tuệ cảm xúc, lòng thấu cảm, khả năng sáng tạo nghệ thuật đích thực và năng lực phán đoán đạo đức dựa trên lương tri nhân bản",
+        "Khả năng làm việc liên tục 24/7 mà không bao giờ cần nghỉ ngơi ăn uống"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bản chất nhân văn cốt lõi của con người trong kỷ nguyên công nghệ số.",
+        "steps": [
+          "Bước 1: Xem xét những việc máy móc làm giỏi hơn con người: Tính toán, lưu trữ dữ liệu khổng lồ, xử lý tốc độ cao, làm việc không mệt mỏi.",
+          "Bước 2: Xác định thế mạnh độc nhất của con người: Tình yêu thương, sự trắc ẩn, lương tâm đạo đức, ý niệm về công lý và rung cảm thẩm mĩ sâu kín.",
+          "Bước 3: Rút ra kết luận: Lòng thấu cảm và phán đoán đạo đức lương tri là phẩm chất duy nhất máy móc không bao giờ sao chép được."
+        ],
+        "trap": "Đem so sánh con người với máy móc ở các chỉ số cơ học (tốc độ, độ bền, trí nhớ số liệu)."
+      },
+      "socraticPrompt": "Máy tính có thể tính toán nhanh gấp triệu lần, nhưng phẩm chất tinh thần thiêng liêng nào chỉ có ở trái tim và tâm hồn con người?",
+      "distractorReasons": [
+        "Sai vì máy móc vượt trội con người hoàn toàn về dung lượng bộ nhớ số liệu cơ học.",
+        "Sai vì máy móc tính toán ma trận nhanh hơn con người vô số lần.",
+        "Đúng vì tình yêu thương, sự thấu cảm xã hội và lương tâm đạo đức chính là pháo đài nhân bản bảo vệ vị thế làm chủ của con người trước công nghệ.",
+        "Sai vì con người có giới hạn sinh học, không thể vận hành liên tục không ngừng nghỉ như máy."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "nv11_ch08_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Lịch sử văn hóa - Nữ quyền tại Việt Nam",
+      "question": "Bài học lịch sử lớn nhất rút ra từ cuộc đời hoạt động báo chí của Manh Manh nữ sĩ đối với sự phát triển của xã hội hiện đại là gì?",
+      "options": [
+        "Phụ nữ không nên can thiệp vào các vấn đề văn hóa chính trị lớn của đất nước",
+        "Khuyên phụ nữ chỉ nên viết nhật ký cá nhân mà không nên xuất bản công khai",
+        "Chỉ nên làm báo khi gia đình có tiềm lực tài chính giàu có",
+        "Sự dũng cảm vượt qua định kiến xã hội, khát vọng đấu tranh cho sự tiến bộ, bình đẳng giới và tinh thần cổ vũ cho những đổi mới sáng tạo trong văn hóa nghệ thuật"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Ý nghĩa lịch sử và tấm gương truyền cảm hứng của Manh Manh nữ sĩ.",
+        "steps": [
+          "Bước 1: Bối cảnh thế kỷ trước: Định kiến 'đàn bà đái chưa qua ngọn cỏ', phụ nữ bị cấm đoán tham chính và diễn thuyết.",
+          "Bước 2: Hành động của bà: Bước lên diễn đàn, công khai bảo vệ Thơ Mới, đòi quyền bình đẳng cho nữ giới.",
+          "Bước 3: Bài học: Dám dấn thân phá vỡ khuôn mẫu cũ, khai phóng tư tưởng và thúc đẩy bình đẳng giới tiến bộ."
+        ],
+        "trap": "Tư tưởng bảo thủ coi nhẹ vai trò của nữ giới trong lịch sử."
+      },
+      "socraticPrompt": "Tấm gương của nữ phóng viên đầu tiên nước ta nhắc nhở thế hệ trẻ ngày nay bài học gì về lòng dũng cảm bảo vệ cái Mới và quyền bình đẳng?",
+      "distractorReasons": [
+        "Sai vì cuộc đời bà chứng minh điều ngược lại: phụ nữ đóng vai trò then chốt thúc đẩy tiến bộ xã hội.",
+        "Sai vì bà luôn hướng tới truyền thông đại chúng để thức tỉnh cộng đồng.",
+        "Sai vì bản lĩnh và tài năng trí tuệ mới là yếu tố quyết định, không phải tiền tài gia thế.",
+        "Đúng vì bài học lớn nhất là tinh thần tiên phong, bản lĩnh khai phá và khát vọng tự do cống hiến cho sự tiến bộ của văn hóa dân tộc."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "nv11_ch08_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xây dựng xã hội hòa nhập - Paralympic",
+      "question": "Mục tiêu tối thượng của phong trào Paralympic quốc tế hướng tới không chỉ dừng lại ở các tấm huy chương mà là:",
+      "options": [
+        "Kiến tạo một thế giới hòa nhập, không rào cản, nơi mọi cá nhân bất kể thể chất đều được trao quyền, được tôn trọng phẩm giá và đối xử bình đẳng tuyệt đối",
+        "Tạo nguồn thu du lịch khổng lồ cho các công ty lữ hành",
+        "Tập trung tuyển chọn các vận động viên phục vụ cho các thí nghiệm y khoa",
+        "Chứng minh rằng người khuyết tật có thể đánh bại người bình thường trong mọi môn thể thao"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Triết lý và sứ mệnh nhân văn toàn cầu của phong trào Paralympic.",
+        "steps": [
+          "Bước 1: Thể thao là phương tiện, không phải cứu cánh duy nhất.",
+          "Bước 2: Cứu cánh tối thượng: Thay đổi nhận thức của nhân loại, xóa bỏ định kiến phân biệt đối xử, xây dựng cơ sở hạ tầng tiếp cận bình đẳng (giao thông, trường học, việc làm).",
+          "Bước 3: Chọn phương án kiến tạo thế giới hòa nhập, không rào cản, tôn trọng phẩm giá."
+        ],
+        "trap": "Hạn chế ý nghĩa Paralympic trong góc độ thể thao tranh chấp huy chương hoặc thương mại."
+      },
+      "socraticPrompt": "Thông điệp lớn nhất mà các kỳ Paralympic gửi tới tất cả các chính phủ và cộng đồng trên toàn thế giới là gì?",
+      "distractorReasons": [
+        "Đúng vì sứ mệnh vĩ đại của phong trào là giải phóng con người khỏi định kiến, xây dựng một xã hội nhân văn không rào cản nơi mọi cá nhân đều được tôn trọng.",
+        "Sai vì lợi nhuận du lịch chỉ là hệ quả kinh tế phụ, không phải mục tiêu cao cả của phong trào.",
+        "Sai vì phong trào tuyệt đối bảo vệ nhân quyền, cấm mọi hành vi biến con người thành vật thí nghiệm.",
+        "Sai vì mục tiêu là sự hòa nhập và vượt lên chính mình chứ không phải tranh giành thắng thua đối đầu."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "nv11_ch08_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Kỹ năng thông tin - Tư duy phản biện thời đại số",
+      "question": "Trước vấn nạn 'ô nhiễm thông tin' và tin giả (fake news) lan tràn trên các nền tảng mạng xã hội hiện nay, một công dân có trách nhiệm cần thực hiện quy trình kiểm chứng nào?",
+      "options": [
+        "Bấm nút 'Chia sẻ' (Share) ngay lập tức lên trang cá nhân để bạn bè cùng hoang mang",
+        "Đối chiếu chéo với các nguồn tin chính thống, kiểm tra tác giả và ngày xuất bản, phân tích tính logic của bằng chứng trước khi tin và lan tỏa thông tin",
+        "Tin vào bất kỳ bài viết nào có nhiều lượt thích (like) và bình luận",
+        "Tẩy chay hoàn toàn mạng internet và không đọc bất kì tin tức nào nữa"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Năng lực tư duy phản biện (Critical thinking) và an toàn thông tin số.",
+        "steps": [
+          "Bước 1: Quy tắc ứng xử trước tin giật gân: Dừng lại ➔ Đặt câu hỏi ➔ Kiểm chứng nguồn tin.",
+          "Bước 2: Thao tác kiểm chứng chéo (Cross-check): Tra cứu các cơ quan báo chí chính thống, xem ai là chuyên gia phát biểu, kiểm tra bối cảnh ngày giờ gốc.",
+          "Bước 3: Chọn phương án đối chiếu chéo với nguồn tin chính thống, kiểm tra tác giả và tính logic."
+        ],
+        "trap": "Tin tưởng mù quáng vào số lượng like/share ảo trên mạng xã hội."
+      },
+      "socraticPrompt": "Để không trở thành nạn nhân hoặc kẻ tiếp tay cho tin giả lan truyền, chúng ta cần hình thành thói quen kiểm chứng thông tin như thế nào?",
+      "distractorReasons": [
+        "Sai vì chia sẻ thiếu kiểm chứng là hành vi vô trách nhiệm, có thể vi phạm pháp luật an ninh mạng.",
+        "Đúng vì quy trình kiểm chứng nguồn tin khoa học và tỉnh táo là kỹ năng sống sống còn của công dân thời đại số.",
+        "Sai vì lượt thích và bình luận có thể bị thao túng bởi tài khoản ảo và thuật toán câu view.",
+        "Sai vì từ bỏ internet là phản ứng tiêu cực, cản trở sự hội nhập và phát triển tri thức."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "nv11_ch08_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tiếng Việt - Sự tương tác giữa Kênh chữ và Kênh hình",
+      "question": "Mối quan hệ tối ưu giữa phương tiện ngôn ngữ (kênh chữ) và phương tiện phi ngôn ngữ (kênh hình, số liệu) trong một báo cáo nghiên cứu khoa học là gì?",
+      "options": [
+        "Kênh hình càng nhiều càng tốt, có thể lấn át và thay thế hoàn toàn kênh chữ",
+        "Hai kênh này hoàn toàn độc lập, không cần có mối liên hệ nội dung nào với nhau",
+        "Kênh chữ và kênh hình phải bổ trợ tương hỗ chặt chẽ: kênh chữ định hướng luận điểm và phân tích chiều sâu, kênh hình trực quan hóa và minh chứng cụ thể cho luận điểm",
+        "Chỉ nên dùng duy nhất một trong hai kênh, không được phép kết hợp cùng nhau"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nguyên lý giao tiếp đa phương thức (Multimodality) trong văn bản thông tin hiện đại.",
+        "steps": [
+          "Bước 1: Kênh chữ: Đảm nhiệm vai trò phân tích logic, liên kết nguyên nhân hệ quả, đưa ra nhận định và khái quát lý thuyết.",
+          "Bước 2: Kênh hình/số: Đảm nhiệm vai trò minh họa trực quan, cụ thể hóa dữ liệu giúp người đọc dễ hình dung và kiểm chứng.",
+          "Bước 3: Hai kênh hòa quyện tạo nên sức mạnh truyền đạt tối ưu, không thể triệt tiêu lẫn nhau."
+        ],
+        "trap": "Thiên lệch về một phía (lạm dụng hình ảnh vô nghĩa hoặc chỉ dùng chữ khô cứng)."
+      },
+      "socraticPrompt": "Làm thế nào để sự kết hợp giữa chữ viết và hình ảnh biểu đồ đạt được hiệu quả truyền tải tri thức cao nhất mà không bị rối mắt?",
+      "distractorReasons": [
+        "Sai vì lạm dụng kênh hình biến báo cáo thành album ảnh rườm rà thiếu chiều sâu phân tích.",
+        "Sai vì nếu hai kênh lệch pha nhau sẽ gây nhiễu loạn và làm giảm giá trị của báo cáo.",
+        "Đúng vì sự tương hỗ hài hòa giữa lập luận của kênh chữ và sự minh bạch trực quan của kênh hình tạo nên sức thuyết phục khoa học cao nhất.",
+        "Sai vì việc tích hợp đa phương tiện là xu thế tất yếu của truyền thông hiện đại."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "nv11_ch08_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Bản sắc văn hóa - Đờn ca tài tử Nam Bộ",
+      "question": "Vì sao nghệ thuật Đờn ca tài tử Nam Bộ lại được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại?",
+      "options": [
+        "Vì đó là loại hình âm nhạc kiếm được nhiều tiền bán vé nhất tại các rạp hát",
+        "Vì nó chỉ được biểu diễn riêng cho các nguyên thủ quốc gia thưởng thức",
+        "Vì nó sử dụng toàn bộ nhạc cụ điện tử hiện đại nhập khẩu từ nước ngoài",
+        "Vì nó kết tinh tâm hồn phóng khoáng, nghĩa tình, phản ánh đời sống sinh hoạt và sức sáng tạo nghệ thuật độc đáo của cộng đồng người dân phương Nam trong quá trình khai phá vùng đất mới"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giá trị văn hóa di sản của Đờn ca tài tử Nam Bộ được thế giới vinh danh.",
+        "steps": [
+          "Bước 1: Nguồn gốc: Bắt nguồn từ nhạc lễ cung đình Huế và dân ca Nam Bộ, gắn liền với cuộc sống bình dị ven sông rạch của cư dân miệt vườn.",
+          "Bước 2: Bản sắc: Tinh thần tài tử (chơi đàn vì tri âm, vì ngẫu hứng, không vụ lợi), ngợi ca đạo lý nghĩa tình, tình yêu quê hương xứ sở.",
+          "Bước 3: Chọn phương án kết tinh tâm hồn phóng khoáng, nghĩa tình và sức sáng tạo độc đáo của cộng đồng phương Nam."
+        ],
+        "trap": "Thương mại hóa hoặc hiểu sai nguồn gốc nhạc cụ truyền thống."
+      },
+      "socraticPrompt": "UNESCO vinh danh Đờn ca tài tử vì giá trị nhân văn và bản sắc tâm hồn nào của người dân Việt Nam trên mảnh đất phương Nam trù phú?",
+      "distractorReasons": [
+        "Sai vì đờn ca tài tử mang tính sinh hoạt cộng đồng dân dã, phi thương mại.",
+        "Sai vì đây là nghệ thuật của toàn thể nhân dân lao động trong đời sống thường nhật.",
+        "Sai vì đờn ca tài tử dùng dàn nhạc cụ dân tộc cổ truyền như đàn kìm, tranh, bầu, cò.",
+        "Đúng vì di sản phản ánh sâu sắc tâm hồn hào sảng, trọng nghĩa tình và khả năng ứng tác thi ca âm nhạc tuyệt vời của người dân Nam Bộ trong lịch sử."
+      ],
+      "correctIndex": 3,
+      "answer": 3
     }
-  }
-]
+  ]
+}

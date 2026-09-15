@@ -1,19 +1,200 @@
-[
-  {
-    "id": "nv11_ch08_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Nhân vật Hộ trong tác phẩm 'Đời thừa' của Nam Cao làm nghề nghiệp gì?",
-    "options": [
-      "A. Kỹ sư",
-      "B. Bác sĩ",
-      "C. Nhà văn",
-      "D. Giáo viên"
-    ],
-    "answer": 2,
-    "explanation": "📌 Nhân vật trí thức nghèo: Hộ ôm mộng viết nên một tác phẩm đoạt giải Nobel để đời nhưng bị gánh nặng mưu sinh vùi dập.\n💡 Hình tượng đại diện cho giới trí thức tiểu tư sản trước 1945.\n⚠️ Đề tài sáng tác lớn của Nam Cao.",
-    "breakdown": {
-      "calculation": "người trí thức cầm bút"
+{
+  "chapterId": "ch08",
+  "quizId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Ngữ liệu tác phẩm - Bài 8: Cấu trúc của văn bản thông tin",
+  "difficulty": "easy",
+  "questions": [
+    {
+      "id": "nv11_ch08_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đọc hiểu - Nữ phóng viên đầu tiên",
+      "question": "Bà Manh Manh nữ sĩ - nữ phóng viên đầu tiên của báo chí Việt Nam - có tên thật là gì?",
+      "options": [
+        "Nguyễn Thị Duệ",
+        "Đoàn Thị Điểm",
+        "Nguyễn Thị Kiêm",
+        "Hồ Xuân Hương"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tiểu sử Manh Manh nữ sĩ trong văn bản 'Nữ phóng viên đầu tiên' của Trần Nhật Vy.",
+        "steps": [
+          "Bước 1: Tra cứu thông tin nhân vật lịch sử: Manh Manh nữ sĩ là bút danh.",
+          "Bước 2: Tên thật của bà là Nguyễn Thị Kiêm (1914 - 2005), con gái của tri phủ Nguyễn Đình Tri.",
+          "Bước 3: Chọn Nguyễn Thị Kiêm."
+        ],
+        "trap": "Nhầm với nữ tiến sĩ đầu tiên Nguyễn Thị Duệ hoặc nữ sĩ Đoàn Thị Điểm thời trung đại."
+      },
+      "socraticPrompt": "Nữ nhà báo tài ba người miền Nam tiên phong diễn thuyết ủng hộ Thơ Mới mang tên thật là gì?",
+      "distractorReasons": [
+        "Sai vì Nguyễn Thị Duệ là nữ tiến sĩ đầu tiên thời phong kiến thế kỷ XVII.",
+        "Sai vì Đoàn Thị Điểm là tác giả bản dịch Chinh phụ ngâm khúc thời Lê Trung hưng.",
+        "Đúng vì Manh Manh nữ sĩ tên thật là Nguyễn Thị Kiêm, cây bút tiên phong của tờ Phụ nữ Tân văn.",
+        "Sai vì Hồ Xuân Hương là Bà Chúa Thơ Nôm thế kỷ XVIII - XIX."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "nv11_ch08_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đọc hiểu - Trí tuệ nhân tạo",
+      "question": "Trí tuệ nhân tạo (AI) hoạt động và đưa ra các dự đoán dựa trên nền tảng cốt lõi nào?",
+      "options": [
+        "Linh cảm trực giác tâm linh của người lập trình",
+        "Cảm xúc yêu ghét cá nhân của hệ điều hành",
+        "Việc gieo quẻ bói toán ngẫu nhiên của máy tính",
+        "Dữ liệu lớn (Big Data) và các thuật toán học máy (Machine Learning) để nhận diện mô hình mẫu"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Nguyên lý vận hành khoa học của công nghệ Trí tuệ nhân tạo (AI).",
+        "steps": [
+          "Bước 1: AI xử lý lượng thông tin khổng lồ (Dữ liệu lớn - Big Data).",
+          "Bước 2: Nhờ các thuật toán học máy và mạng nơ-ron, hệ thống học từ dữ liệu quá khứ để nhận diện quy luật và đưa ra kết quả dự đoán.",
+          "Bước 3: Chọn phương án dữ liệu lớn và thuật toán học máy."
+        ],
+        "trap": "Gán cho máy móc các phẩm chất tâm linh hoặc cảm xúc sinh học của con người."
+      },
+      "socraticPrompt": "Máy tính có thể thông minh vượt trội và nhận diện khuôn mặt hay ngôn ngữ nhờ xử lý yếu tố nền tảng khoa học nào?",
+      "distractorReasons": [
+        "Sai vì AI hoạt động thuần túy dựa trên toán học và điện toán chứ không có trực giác tâm linh.",
+        "Sai vì AI hiện tại không có cảm xúc sinh học như con người.",
+        "Sai vì máy tính xử lý theo logic chặt chẽ chứ không bói toán may rủi.",
+        "Đúng vì dữ liệu lớn kết hợp các thuật toán học máy là bản chất công nghệ tạo nên sức mạnh tính toán vượt trội của AI."
+      ],
+      "correctIndex": 3,
+      "answer": 3
+    },
+    {
+      "id": "nv11_ch08_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đọc hiểu - Paralympic",
+      "question": "Đại hội thể thao Paralympic ban đầu được khởi xướng nhằm mục đích nhân đạo nào?",
+      "options": [
+        "Giúp các thương phế binh bị tổn thương cột sống trong Chiến tranh thế giới thứ hai phục hồi chức năng và tái hòa nhập cuộc sống",
+        "Tổ chức cá cược thể thao quốc tế để thu lợi nhuận",
+        "Huấn luyện quân nhân thành các điệp viên ngầm cho lực lượng đặc nhiệm",
+        "Thay thế hoàn toàn cho kỳ Thế vận hội Olympic mùa hè của người bình thường"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nguồn gốc lịch sử nhân văn của phong trào thể thao Paralympic.",
+        "steps": [
+          "Bước 1: Nhớ lại năm 1948 tại bệnh viện Stoke Mandeville (Anh), bác sĩ Ludwig Guttmann tổ chức thi đấu bắn cung cho thương binh thế chiến.",
+          "Bước 2: Mục đích: Dùng thể thao như phương pháp vật lý trị liệu phục hồi thể lực và khơi dậy niềm tin sống cho người thương tật.",
+          "Bước 3: Chọn phương án giúp thương binh phục hồi chức năng và tái hòa nhập."
+        ],
+        "trap": "Nhầm phong trào thể thao nhân đạo với mục đích thương mại hoặc quân sự đặc nhiệm."
+      },
+      "socraticPrompt": "Bác sĩ Ludwig Guttmann đã sáng lập tiền thân của Paralympic để giúp đỡ đối tượng nạn nhân đau thương nào sau Thế chiến II?",
+      "distractorReasons": [
+        "Đúng vì sự kiện khởi nguồn nhằm phục hồi chức năng và mang lại phẩm giá tự tin cho các thương binh bị tàn tật sau chiến tranh.",
+        "Sai vì Paralympic là tổ chức phi lợi nhuận hướng tới giá trị nhân đạo cao quý.",
+        "Sai vì đây là hoạt động thể thao dân sự hòa bình.",
+        "Sai vì Paralympic tổ chức song hành và bổ trợ chứ không nhằm thay thế Olympic."
+      ],
+      "correctIndex": 0,
+      "answer": 0
+    },
+    {
+      "id": "nv11_ch08_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tiếng Việt - Phương tiện phi ngôn ngữ",
+      "question": "Phương tiện nào sau đây KHÔNG PHẢI là phương tiện phi ngôn ngữ trong văn bản thông tin?",
+      "options": [
+        "Bảng thống kê số liệu dân số qua các năm",
+        "Đoạn văn miêu tả bằng chữ viết sử dụng các tính từ",
+        "Biểu đồ hình quạt tròn thể hiện cơ cấu kinh tế",
+        "Hình ảnh chụp hiện vật lịch sử tại bảo tàng"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân biệt phương tiện ngôn ngữ (chữ viết, từ ngữ) và phương tiện phi ngôn ngữ (hình ảnh, biểu đồ, số liệu).",
+        "steps": [
+          "Bước 1: Phương tiện phi ngôn ngữ là các yếu tố không dùng hệ thống chữ viết ngôn từ (kênh hình, biểu đồ, ký hiệu).",
+          "Bước 2: Đoạn văn dùng chữ viết và tính từ là phương tiện NGÔN NGỮ thuần túy.",
+          "Bước 3: Chọn đoạn văn miêu tả bằng chữ viết."
+        ],
+        "trap": "Nhầm lẫn giữa kênh chữ (ngôn ngữ) và các phương tiện trực quan hỗ trợ (phi ngôn ngữ)."
+      },
+      "socraticPrompt": "Yếu tố nào sử dụng trực tiếp các con chữ và ngữ pháp tiếng Việt thay vì hình ảnh hay bảng biểu?",
+      "distractorReasons": [
+        "Sai vì bảng thống kê số liệu là phương tiện phi ngôn ngữ (kênh số).",
+        "Đúng vì đoạn văn chữ viết là phương tiện ngôn ngữ chính thống, không thuộc phi ngôn ngữ.",
+        "Sai vì biểu đồ hình quạt là phương tiện phi ngôn ngữ (kênh hình học).",
+        "Sai vì ảnh chụp bảo tàng là phương tiện phi ngôn ngữ (kênh ảnh)."
+      ],
+      "correctIndex": 1,
+      "answer": 1
+    },
+    {
+      "id": "nv11_ch08_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc trưng thể loại - Văn bản thông tin",
+      "question": "Tiêu chí hàng đầu để đánh giá giá trị của một văn bản thông tin là gì?",
+      "options": [
+        "Sự hư cấu các tình tiết hoang đường kì ảo",
+        "Sử dụng thật nhiều câu thơ lục bát trữ tình",
+        "Tính chính xác, khách quan, xác thực của các dữ liệu và sự kiện được kiểm chứng",
+        "Văn bản phải dài trên 1000 trang mới có giá trị"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tiêu chuẩn giá trị cốt lõi của văn bản thông tin.",
+        "steps": [
+          "Bước 1: Phân biệt văn bản thông tin với tác phẩm văn học nghệ thuật (truyện, thơ).",
+          "Bước 2: Chức năng văn bản thông tin là cung cấp tri thức đúng đắn cho xã hội; do đó tính chính xác, khách quan và minh bạch nguồn tin là quan trọng nhất.",
+          "Bước 3: Chọn phương án tính chính xác, khách quan, xác thực của dữ liệu."
+        ],
+        "trap": "Đem tiêu chuẩn của truyện cổ tích (hoang đường) hoặc thơ ca áp đặt vào văn bản thông tin."
+      },
+      "socraticPrompt": "Khi đọc một bản tin khoa học hay bài viết lịch sử, người đọc đòi hỏi điều gì quan trọng nhất ở các thông tin được cung cấp?",
+      "distractorReasons": [
+        "Sai vì hư cấu hoang đường thuộc về truyện cổ tích hoặc truyện kỳ ảo.",
+        "Sai vì thơ lục bát là thể loại thi ca nghệ thuật.",
+        "Đúng vì tính chân thực khách quan được kiểm chứng là thước đo danh dự và giá trị của văn bản thông tin.",
+        "Sai vì độ dài ngắn không quyết định chất lượng khoa học của thông tin."
+      ],
+      "correctIndex": 2,
+      "answer": 2
+    },
+    {
+      "id": "nv11_ch08_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đọc hiểu - Manh Manh nữ sĩ",
+      "question": "Sự kiện Manh Manh nữ sĩ đăng đàn diễn thuyết về đề tài gì vào năm 1932 đã gây chấn động dư luận Nam Kỳ thời bấy giờ?",
+      "options": [
+        "Về phương pháp nuôi dạy thú cưng trong nhà",
+        "Về chính sách thuế quan xuất nhập khẩu gạo của cảng Sài Gòn",
+        "Về kỹ thuật xây dựng cầu đường sắt xuyên Việt",
+        "Về phong trào Thơ Mới và quyền tự do, bình đẳng của phụ nữ"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Sự kiện lịch sử văn hóa chấn động năm 1932 gắn với Manh Manh nữ sĩ.",
+        "steps": [
+          "Bước 1: Nhớ lại ngày 26/7/1932 tại Hội Khuyến học Sài Gòn.",
+          "Bước 2: Bà là người phụ nữ đầu tiên công khai cổ vũ Thơ Mới và đấu tranh cho nữ quyền trên diễn đàn học thuật.",
+          "Bước 3: Chọn phong trào Thơ Mới và quyền tự do bình đẳng của phụ nữ."
+        ],
+        "trap": "Nhầm sang các đề tài kinh tế thương mại hoặc sinh hoạt gia đình vụn vặt."
+      },
+      "socraticPrompt": "Hai chủ đề văn hóa tiến bộ nào đã được người phụ nữ dũng cảm này đứng ra bảo vệ trước sự nghi ngại của giới học giả thủ cựu?",
+      "distractorReasons": [
+        "Sai vì đề tài thú cưng không phản ánh tầm vóc cuộc cách mạng văn hóa lúc bấy giờ.",
+        "Sai vì chính sách thuế gạo không phải chủ đề buổi diễn thuyết của Hội Khuyến học.",
+        "Sai vì bà là nhà báo văn hóa, không thuyết trình về kỹ thuật cơ khí.",
+        "Đúng vì cuộc diễn thuyết lịch sử này đã tiếp lửa cho cuộc cách mạng Thơ Mới và phong trào giải phóng phụ nữ Việt Nam."
+      ],
+      "correctIndex": 3,
+      "answer": 3
     }
-  }
-]
+  ]
+}
