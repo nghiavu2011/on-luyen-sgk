@@ -21,7 +21,16 @@
         "socraticPrompt": "Trái Đất có hình cầu và tự quay quanh trục thì các vùng đất có lần lượt xoay về phía Mặt Trời không?",
         "steps": "Hình cầu + tự quay quanh trục -> ngày đêm luân phiên đều đặn 24 giờ.",
         "trap": "Nếu Trái Đất đứng yên thì một nửa sẽ mãi là ngày, một nửa mãi là đêm."
-      }
+      },
+      "socraticPrompt": "Trái Đất có hình cầu và tự quay quanh trục thì các vùng đất có lần lượt xoay về phía Mặt Trời không?",
+      "distractorReasons": [
+        "Đúng vì: Hình cầu + tự quay quanh trục -> ngày đêm luân phiên đều đặn 24 giờ.",
+        "Sai vì 'Mặt Trời tự bật tắt như bóng đèn điện' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Mặt Trăng che khuất Mặt Trời' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mây đen bao phủ nửa Trái Đất' (Nếu Trái Đất đứng yên thì một nửa sẽ mãi là ngày, một nửa mãi là đêm.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c11_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Khi em ngồi trên xe ô tô chạy về phía trước, em nhìn thấy hàng cây bên đường như chuyển động giật lùi về phía nào?",
         "steps": "Trái Đất quay từ Tây sang Đông tạo ảo giác Mặt Trời chuyển động từ Đông sang Tây.",
         "trap": "Mặt Trời là tâm Hệ Mặt Trời, Trái Đất mới là thiên thể chuyển động."
-      }
+      },
+      "socraticPrompt": "Khi em ngồi trên xe ô tô chạy về phía trước, em nhìn thấy hàng cây bên đường như chuyển động giật lùi về phía nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do Mặt Trời bay quanh Trái Đất từ Đông sang Tây' (Mặt Trời là tâm Hệ Mặt Trời, Trái Đất mới là thiên thể chuyển động.).",
+        "Đúng vì: Trái Đất quay từ Tây sang Đông tạo ảo giác Mặt Trời chuyển động từ Đông sang Tây.",
+        "Sai vì 'Do Trái Đất đứng yên hoàn toàn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Do Mặt Trăng hút Mặt Trời di chuyển' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c11_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Tên hành tinh thứ nhất trong chuỗi Thủy - Kim - Trái Đất - Hỏa là gì?",
         "steps": "Thủy tinh là hành tinh gần Mặt Trời nhất.",
         "trap": "Kim tinh đứng thứ 2; Trái Đất đứng thứ 3."
-      }
+      },
+      "socraticPrompt": "Tên hành tinh thứ nhất trong chuỗi Thủy - Kim - Trái Đất - Hỏa là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kim tinh (Sao Kim)' (Kim tinh đứng thứ 2; Trái Đất đứng thứ 3.).",
+        "Sai vì 'Trái Đất' không phù hợp với định lý/quy tắc trọng tâm (Thủy tinh (Mercury) là hành tinh thứ nhất tính từ tâm Mặt Trời, có cự li gần nhất.).",
+        "Đúng vì: Thủy tinh là hành tinh gần Mặt Trời nhất.",
+        "Sai vì 'Hỏa tinh (Sao Hỏa)' không phù hợp với định lý/quy tắc trọng tâm (Thủy tinh (Mercury) là hành tinh thứ nhất tính từ tâm Mặt Trời, có cự li gần nhất.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c11_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Hành tinh chúa tể khổng lồ nhất trong Thái Dương Hệ tên là gì?",
         "steps": "Mộc tinh là hành tinh lớn nhất trong 8 hành tinh.",
         "trap": "Thổ tinh có vành đai to đẹp nhưng kích thước vẫn nhỏ hơn Mộc tinh."
-      }
+      },
+      "socraticPrompt": "Hành tinh chúa tể khổng lồ nhất trong Thái Dương Hệ tên là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thổ tinh (Sao Thổ)' (Thổ tinh có vành đai to đẹp nhưng kích thước vẫn nhỏ hơn Mộc tinh.).",
+        "Sai vì 'Trái Đất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hải Vương tinh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Mộc tinh là hành tinh lớn nhất trong 8 hành tinh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c11_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Mặt Trăng là một vệ tinh đá lạnh, nó có thể tự cháy phát sáng như Mặt Trời không?",
         "steps": "Mặt Trăng phản chiếu ánh sáng Mặt Trời.",
         "trap": "Chỉ có các ngôi sao (như Mặt Trời) mới tự phát sáng."
-      }
+      },
+      "socraticPrompt": "Mặt Trăng là một vệ tinh đá lạnh, nó có thể tự cháy phát sáng như Mặt Trời không?",
+      "distractorReasons": [
+        "Đúng vì: Mặt Trăng phản chiếu ánh sáng Mặt Trời.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mặt Trăng tự cháy sáng như một bóng đèn khổng lồ' (Chỉ có các ngôi sao (như Mặt Trời) mới tự phát sáng.).",
+        "Sai vì 'Ánh sáng phát ra từ lòng đất Trái Đất chiếu lên' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Các vì sao xung quanh rọi sáng Mặt Trăng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c11_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Dải bạc lấp lánh vắt ngang bầu trời đêm mùa hạ là một thiên hà chứa hàng trăm tỉ ngôi sao gọi là gì?",
         "steps": "Ngân Hà là một thiên hà xoắn ốc chứa hàng trăm tỉ vì sao.",
         "trap": "Hệ Mặt Trời chỉ là một chấm nhỏ xíu nằm ở cánh tay ngoài của Ngân Hà."
-      }
+      },
+      "socraticPrompt": "Dải bạc lấp lánh vắt ngang bầu trời đêm mùa hạ là một thiên hà chứa hàng trăm tỉ ngôi sao gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Một ngôi sao đơn lẻ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Ngân Hà là một thiên hà xoắn ốc chứa hàng trăm tỉ vì sao.",
+        "Sai vì 'Một hành tinh khổng lồ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Một đám mây đen trong khí quyển' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

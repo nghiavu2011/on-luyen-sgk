@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được mô hình cụm từ trong tiếng việt 6.?",
+      "distractorReasons": [
+        "Sai vì '1 phần duy nhất là từ đơn' không phù hợp với định lý/quy tắc trọng tâm (Mô hình cụm từ trong Tiếng Việt 6.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 phần: Chủ ngữ và Vị ngữ' (Chủ ngữ và vị ngữ là thành phần câu, không phải thành phần cụm từ.).",
+        "Đúng vì theo Mô hình cụm từ trong Tiếng Việt 6.: Cụm từ mở rộng cấu trúc gồm thành tố phụ trước, từ trung tâm và thành tố phụ sau.",
+        "Sai vì '4 phần' không phù hợp với định lý/quy tắc trọng tâm (Mô hình cụm từ trong Tiếng Việt 6.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện cụm tính từ.?",
+      "distractorReasons": [
+        "Sai vì 'hai chị em Sơn và Lan' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện cụm tính từ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'những que diêm nhỏ bé ấy' ('những que diêm' là cụm danh từ; 'đang chạy' là cụm động từ.).",
+        "Sai vì 'đang chạy vội về nhà' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện cụm tính từ.).",
+        "Đúng vì theo Nhận diện cụm tính từ.: Từ trung tâm là tính từ 'đói, rét buốt' kết hợp phụ trước 'rất'."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa các thành tố phụ trước của cụm danh từ.?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa các thành tố phụ trước của cụm danh từ.: 'tất cả' là từ chỉ toàn thể, 'những' là từ chỉ số lượng số nhiều.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ đặc điểm của áo' ('cũ' là phụ sau chỉ đặc điểm, 'ấy' là phụ sau chỉ vị trí/trỏ sự vật.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ vị trí của áo trong không gian', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ thời gian sử dụng', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -104,7 +128,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu ngôi kể trong bài văn tự sự trải nghiệm.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ngôi thứ ba khách quan (giấu mình)' (Dùng ngôi thứ ba sẽ biến bài văn thành kể chuyện người khác.).",
+        "Đúng vì theo Yêu cầu ngôi kể trong bài văn tự sự trải nghiệm.: Kể lại trải nghiệm của chính bản thân đòi hỏi phải dùng ngôi thứ nhất để câu chuyện chân thực, giàu cảm xúc.",
+        "Sai vì 'Ngôi thứ hai đối thoại' không phù hợp với định lý/quy tắc trọng tâm (Yêu cầu ngôi kể trong bài văn tự sự trải nghiệm.).",
+        "Sai vì phủ định sai bản chất: 'Không cần xác định ngôi kể' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -129,7 +161,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để kéo dài bài viết cho đủ số trang' (Mở rộng cụm từ không phải là viết dài dòng vô ích.).",
+        "Sai vì 'Làm cho câu văn dài dòng khó hiểu' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.).",
+        "Đúng vì theo Tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.: Cụm động từ cung cấp ngữ cảnh đầy đủ, chính xác về hành động của nhân vật.",
+        "Sai vì 'Làm thay đổi nghĩa gốc của động từ' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng của việc mở rộng cụm từ trong tạo lập văn bản.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -154,7 +194,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tiêu chí chấm điểm sáng tạo bài văn tự sự thcs.?",
+      "distractorReasons": [
+        "Sai vì 'Miêu tả chi tiết giá tiền của các món đồ mua sắm' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tiêu chí chấm điểm sáng tạo bài văn tự sự THCS.).",
+        "Sai vì 'Kể lại thật nhiều tình tiết kịch tính gay cấn như phim hành động' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tiêu chí chấm điểm sáng tạo bài văn tự sự THCS.).",
+        "Sai vì 'Sử dụng thật nhiều từ ngữ tiếng nước ngoài thời thượng' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tiêu chí chấm điểm sáng tạo bài văn tự sự THCS.).",
+        "Đúng vì: Giá trị cốt lõi của bài văn trải nghiệm là sự chiêm nghiệm, bài học thức tỉnh lương tâm sau sự việc."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

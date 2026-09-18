@@ -22,7 +22,16 @@
         "socraticPrompt": "Hàm số lượng giác nào có tính chất cos(-x) = cos x?",
         "steps": "Ta có cos(-x) = cos x với mọi x ∈ R, do đó y = cos x là hàm số chẵn. Các hàm y = sin x, y = tan x, y = cot x đều là hàm số lẻ.",
         "trap": "Nhầm hàm số sin x là hàm chẵn."
-      }
+      },
+      "socraticPrompt": "Hàm số lượng giác nào có tính chất cos(-x) = cos x?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'y = sin x' (hàm số sin x là hàm chẵn).",
+        "Sai vì 'y = tan x' không phù hợp với định lý/quy tắc trọng tâm (Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.).",
+        "Đúng vì: Ta có cos(-x) = cos x với mọi x ∈ R, do đó y = cos x là hàm số chẵn. Các hàm y = sin x, y = tan x, y = cot x đều là hàm số lẻ.",
+        "Sai vì 'y = cot x' không phù hợp với định lý/quy tắc trọng tâm (Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c1_th_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Hai góc (x + π/4) và (π/4 - x) có quan hệ phụ nhau không? sin góc này bằng cos góc nào?",
         "steps": "Ta có: cos(x - π/4) = cos(π/4 - x). Vì (x + π/4) + (π/4 - x) = π/2 (hai góc phụ nhau) nên cos(π/4 - x) = sin(x + π/4). Do đó A = sin(x + π/4) - sin(x + π/4) = 0.",
         "trap": "Khai triển sai dấu trong công thức cộng dẫn đến kết quả khác 0."
-      }
+      },
+      "socraticPrompt": "Hai góc (x + π/4) và (π/4 - x) có quan hệ phụ nhau không? sin góc này bằng cos góc nào?",
+      "distractorReasons": [
+        "Sai vì 'A = 2sin x' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng công thức cộng hoặc quan hệ góc phụ.).",
+        "Sai vì 'A = √2 cos x' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng công thức cộng hoặc quan hệ góc phụ.).",
+        "Đúng vì theo Sử dụng công thức cộng hoặc quan hệ góc phụ.: Ta có: cos(x - π/4) = cos(π/4 - x). Vì (x + π/4) + (π/4 - x) = π/2 (hai góc phụ nhau) nên cos(π/4 - x) = sin(x + π/4). Do đó A = sin(x + π/4) - sin(x + π/4) = 0.",
+        "Sai vì 'A = -√2 sin x' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng công thức cộng hoặc quan hệ góc phụ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c1_th_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tính căn bậc hai của a² + b² với a = √3 và b = 1?",
         "steps": "Biến đổi: y = 2[(√3/2)sin x + (1/2)cos x] = 2sin(x + π/6). Vì -1 ≤ sin(x + π/6) ≤ 1 nên -2 ≤ y ≤ 2. Tập giá trị là [-2; 2].",
         "trap": "Cộng hai giá trị cực đại rời rạc √3 + 1 thành sai bản chất."
-      }
+      },
+      "socraticPrompt": "Tính căn bậc hai của a² + b² với a = √3 và b = 1?",
+      "distractorReasons": [
+        "Đúng vì: Biến đổi: y = 2[(√3/2)sin x + (1/2)cos x] = 2sin(x + π/6). Vì -1 ≤ sin(x + π/6) ≤ 1 nên -2 ≤ y ≤ 2. Tập giá trị là [-2; 2].",
+        "Sai vì '[-√3; √3]' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '[-1; 1]' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '[0; 2]' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c1_th_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Tính pha dao động tại t = 0.5: (2π · 0.5 - π/3) bằng bao nhiêu? cos của góc đó bằng bao nhiêu?",
         "steps": "Tại t = 0.5: pha dao động là 2π(0.5) - π/3 = π - π/3 = 2π/3. Ta có: cos(2π/3) = -1/2. Li độ x = 4 · (-1/2) = -2 cm.",
         "trap": "Tính nhầm cos(2π/3) = +1/2 dẫn đến li độ +2 cm."
-      }
+      },
+      "socraticPrompt": "Tính pha dao động tại t = 0.5: (2π · 0.5 - π/3) bằng bao nhiêu? cos của góc đó bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '2 cm' không phù hợp với định lý/quy tắc trọng tâm (Thay giá trị thời gian t vào phương trình dao động lượng giác.).",
+        "Đúng vì: Tại t = 0.5: pha dao động là 2π(0.5) - π/3 = π - π/3 = 2π/3. Ta có: cos(2π/3) = -1/2. Li độ x = 4 · (-1/2) = -2 cm.",
+        "Sai vì '4 cm' không phù hợp với định lý/quy tắc trọng tâm (Thay giá trị thời gian t vào phương trình dao động lượng giác.).",
+        "Sai vì '-4 cm' không phù hợp với định lý/quy tắc trọng tâm (Thay giá trị thời gian t vào phương trình dao động lượng giác.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c1_th_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Chia cả hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2. Vế trái đưa về sin của tổng góc nào?",
         "steps": "Chia hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2 <=> sin x cos(π/3) + cos x sin(π/3) = √2/2 <=> sin(x + π/3) = √2/2.",
         "trap": "Nhầm góc π/3 với π/6 khi biến đổi sin và cos."
-      }
+      },
+      "socraticPrompt": "Chia cả hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2. Vế trái đưa về sin của tổng góc nào?",
+      "distractorReasons": [
+        "Đúng vì theo Chia cả hai vế cho √(a² + b²) = √(1 + 3) = 2.: Chia hai vế cho 2: (1/2)sin x + (√3/2)cos x = √2/2 <=> sin x cos(π/3) + cos x sin(π/3) = √2/2 <=> sin(x + π/3) = √2/2.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'sin(x + π/6) = √2/2' (góc π/3 với π/6 khi biến đổi sin và cos).",
+        "Sai vì 'cos(x - π/3) = √2' không phù hợp với định lý/quy tắc trọng tâm (Chia cả hai vế cho √(a² + b²) = √(1 + 3) = 2.).",
+        "Sai vì 'sin(x + π/3) = 1' không phù hợp với định lý/quy tắc trọng tâm (Chia cả hai vế cho √(a² + b²) = √(1 + 3) = 2.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c1_th_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "2x = ±π/3 + k2π suy ra x = ±π/6 + kπ. Trên đoạn [0; π] có những giá trị nào thỏa mãn?",
         "steps": "cos 2x = 1/2 = cos(π/3) <=> 2x = ±π/3 + k2π <=> x = ±π/6 + kπ (k ∈ Z). Với họ x = π/6 + kπ: k = 0 cho nghiệm x = π/6 ∈ [0; π]. Với họ x = -π/6 + kπ: k = 1 cho nghiệm x = 5π/6 ∈ [0; π]. Tổng cộng có đúng 2 nghiệm.",
         "trap": "Chỉ lấy 1 nghiệm π/6 mà quên họ nghiệm âm khi cộng thêm chu kì k = 1."
-      }
+      },
+      "socraticPrompt": "2x = ±π/3 + k2π suy ra x = ±π/6 + kπ. Trên đoạn [0; π] có những giá trị nào thỏa mãn?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1 nghiệm' (Chỉ lấy 1 nghiệm π/6 mà quên họ nghiệm âm khi cộng thêm chu kì k = 1.).",
+        "Đúng vì: cos 2x = 1/2 = cos(π/3) <=> 2x = ±π/3 + k2π <=> x = ±π/6 + kπ (k ∈ Z). Với họ x = π/6 + kπ: k = 0 cho nghiệm x = π/6 ∈ [0; π]. Với họ x = -π/6 + kπ: k = 1 cho n.",
+        "Sai vì '3 nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Giải phương trình cos 2x = cos(π/3) và chặn nghiệm trên đoạn [0; π].).",
+        "Sai vì '4 nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Giải phương trình cos 2x = cos(π/3) và chặn nghiệm trên đoạn [0; π].)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

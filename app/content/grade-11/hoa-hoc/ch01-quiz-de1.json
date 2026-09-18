@@ -31,7 +31,16 @@
           "2": "Nhầm lẫn giữa tốc độ hai chiều bằng nhau với nồng độ hai vế bằng nhau.",
           "3": "Quên mất bản chất động của cân bằng hoá học (phân tử vẫn va chạm liên tục)."
         }
-      }
+      },
+      "socraticPrompt": "Khi một quá trình đạt trạng thái ổn định động, hai chiều chuyển dịch sẽ diễn ra với vận tốc như thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Bản chất cân bằng động của phản ứng thuận nghịch: Tại trạng thái cân bằng: $v_t = v_n > 0$, nồng độ các chất trong hệ giữ nguyên không đổi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Toàn bộ lượng chất ban đầu đã chuyển hóa hoàn toàn thành sản phẩm', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Nồng độ của các chất tham gia luôn bằng nồng độ các chất sản phẩm' không phù hợp với định lý/quy tắc trọng tâm (Bản chất cân bằng động của phản ứng thuận nghịch).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phản ứng hóa học dừng lại hoàn toàn và không còn phân tử nào biến đổi' (trạng thái cân bằng là nồng độ hai vế bằng nhau hoặc phản ứng đã dừng hẳn)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch01-de01-q02",
@@ -55,7 +64,16 @@
           "2": "Bản chất hóa học quyết định nhiệt phản ứng và cấu trúc biểu thức $K_C$.",
           "3": "Cấu trúc mạng và liên kết hóa học gắn liền với bản chất phản ứng."
         }
-      }
+      },
+      "socraticPrompt": "Hằng số cân bằng $K_C$ là một hằng số nhiệt động lực học, chỉ phụ thuộc vào những yếu tố cơ bản nào?",
+      "distractorReasons": [
+        "Sai vì 'Nhiệt độ môi trường diễn ra phản ứng' không phù hợp với định lý/quy tắc trọng tâm (Các yếu tố ảnh hưởng tới hằng số cân bằng $K_C$).",
+        "Đúng vì theo Các yếu tố ảnh hưởng tới hằng số cân bằng $K_C$: $K_C$ chỉ phụ thuộc vào bản chất phản ứng và nhiệt độ. Chất xúc tác hay nồng độ không làm đổi $K_C$.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bản chất hóa học của các chất tham gia phản ứng' (Nhiều bạn tưởng chất xúc tác làm phản ứng nhanh hơn thì giá trị $K_C$ sẽ tăng lên.).",
+        "Sai vì 'Cấu trúc mạng tinh thể và năng lượng liên kết' không phù hợp với định lý/quy tắc trọng tâm (Các yếu tố ảnh hưởng tới hằng số cân bằng $K_C$)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch01-de01-q03",
@@ -79,7 +97,16 @@
           "1": "Đây là định nghĩa chất khử trong phản ứng oxi hoá - khử.",
           "3": "Đây là định nghĩa của acid theo thuyết Brønsted - Lowry."
         }
-      }
+      },
+      "socraticPrompt": "Thuyết Brønsted - Lowry dựa trên sự cho và nhận hạt mang điện nào giữa các phân tử?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phân li ra ion hydroxide ($OH^-$) khi hòa tan hoàn toàn vào nước' (lẫn với thuyết Arrhenius (phải phân li ra ion $OH^-$ trong dung dịch nước)).",
+        "Sai vì 'Nhường một hoặc nhiều hạt electron cho nguyên tử chất khác' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa acid - base theo Brønsted - Lowry).",
+        "Đúng vì: Theo Brønsted - Lowry: Acid là chất nhường $H^+$, Base là chất nhận $H^+$.",
+        "Sai vì 'Nhường proton ($H^+$) cho phân tử dung môi hoặc chất khác' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa acid - base theo Brønsted - Lowry)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch01-de01-q04",
@@ -103,7 +130,16 @@
           "1": "Phenolphthalein hóa hồng khi dung dịch có môi trường base mạnh ($pH \\ge 8,3$).",
           "2": "$pH > 7$ là môi trường base; $pH = 7$ là trung tính."
         }
-      }
+      },
+      "socraticPrompt": "Trong môi trường có tính acid, lượng ion hydrogen tự do phân li ra nhiều hay ít hơn nước cất?",
+      "distractorReasons": [
+        "Sai vì 'Nồng độ ion hydroxide trong dung dịch lớn hơn $10^{-7}\\text{ M}$' không phù hợp với định lý/quy tắc trọng tâm (Mối quan hệ giữa $[H^+]$, $[OH^-]$ và $pH$ ở $25^oC$).",
+        "Sai vì 'Dung dịch làm cho phenolphthalein chuyển sang màu hồng đậm' không phù hợp với định lý/quy tắc trọng tâm (Mối quan hệ giữa $[H^+]$, $[OH^-]$ và $pH$ ở $25^oC$).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch có giá trị chỉ số đo $pH$ lớn hơn hoặc bằng 7' ($pH$ lớn là acid mạnh do quên mất dấu trừ trong công thức $-\\log[H^+]$).",
+        "Đúng vì theo Mối quan hệ giữa $[H^+]$, $[OH^-]$ và $pH$ ở $25^oC$: Môi trường acid: $[H^+] > [OH^-] \\Rightarrow [H^+] > 10^{-7}\\text{ M} \\Rightarrow pH = -\\log[H^+] < 7$."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch01-de01-q05",
@@ -127,7 +163,16 @@
           "2": "$NH_3$ là base yếu trong dung dịch nước, phân li thuận nghịch.",
           "3": "Đường saccharose tan tốt nhưng tồn tại dạng phân tử, không dẫn điện."
         }
-      }
+      },
+      "socraticPrompt": "Các hợp chất ion như muối ăn khi cho vào nước sẽ phân li hoàn toàn hay một phần?",
+      "distractorReasons": [
+        "Đúng vì theo Phân loại chất điện li mạnh và yếu: NaCl là muối tan, phân li hoàn toàn trong nước: $NaCl \\rightarrow Na^+ + Cl^-$.",
+        "Sai vì 'Dung dịch acid acetic loãng trong giấm ăn ($CH_3COOH$)' không phù hợp với định lý/quy tắc trọng tâm (Phân loại chất điện li mạnh và yếu).",
+        "Sai vì 'Khí ammonia hòa tan trong nước sinh hoạt ($NH_3$)' không phù hợp với định lý/quy tắc trọng tâm (Phân loại chất điện li mạnh và yếu).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch đường saccharose nguyên chất trong nước cất' (giữa chất tan tốt không điện li (như đường) và chất điện li mạnh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch01-de01-q06",
@@ -151,7 +196,16 @@
           "1": "Sai cả về quy ước chất rắn lẫn đảo ngược vị trí tử và mẫu.",
           "3": "Sai vì vẫn giữ lại chất rắn $CaO$ trong biểu thức."
         }
-      }
+      },
+      "socraticPrompt": "Với những chất ở trạng thái rắn nguyên chất, nồng độ của chúng được quy ước như thế nào?",
+      "distractorReasons": [
+        "Sai vì '$K_C = \\frac{[CaO] \\cdot [CO_2]}{[CaCO_3]}$ theo tỉ lệ phản ứng' không phù hợp với định lý/quy tắc trọng tâm (Quy ước viết biểu thức hằng số cân bằng $K_C$ cho hệ dị thể).",
+        "Sai vì '$K_C = \\frac{[CaCO_3]}{[CaO] \\cdot [CO_2]}$ đảo ngược sản phẩm' không phù hợp với định lý/quy tắc trọng tâm (Quy ước viết biểu thức hằng số cân bằng $K_C$ cho hệ dị thể).",
+        "Đúng vì theo Quy ước viết biểu thức hằng số cân bằng $K_C$ cho hệ dị thể: Chất rắn $CaCO_3(s)$ và $CaO(s)$ không đưa vào biểu thức $K_C$. Do đó $K_C = [CO_2]$.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '$K_C = [CaO] \\cdot [CO_2]$ bỏ qua chất rắn tham gia' (Viết toàn bộ các chất rắn vào tử số và mẫu số như hệ đồng thể.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Hiệu quả và giới hạn của máy tính (Bài 2, SGK Tin học 6, trang 11-12).",
         "steps": "Máy tính là công cụ hỗ trợ con người xử lý thông tin siêu việt về tốc độ, bộ nhớ và độ chính xác, nhưng bản chất máy tính thực thi chương trình con người lập trình và chưa có cảm xúc, ý thức tự chủ độc lập.",
-        "trap": "Ngộ nhận máy tính có trí tuệ hoàn hảo tự chủ mọi quyết định mà không cần đến sự điều khiển của con người."
+        "trap": "Ngộ nhận máy tính có trí tuệ hoàn hảo tự chủ mọi quyết định mà không cần đến sự điều khiển của con người.",
+        "socraticPrompt": "Ai là người sáng tạo ra các phần mềm chỉ dẫn cho máy tính từng thao tác xử lý dữ liệu?"
       },
       "socraticPrompt": "Ai là người sáng tạo ra các phần mềm chỉ dẫn cho máy tính từng thao tác xử lý dữ liệu?",
       "distractorReasons": [
-        "Sai, máy tính là máy móc vô tri, không có cảm xúc hay ý thức đạo đức tự thân.",
-        "Chính xác, phản ánh đầy đủ năng lực vượt trội và bản chất phụ thuộc vào con người của máy tính.",
-        "Sai, tư duy trực giác, cảm xúc và tính linh hoạt trong hoàn cảnh mới của con người máy tính chưa thể thay thế hoàn toàn.",
-        "Sai, máy tính mã hóa và lưu trữ hình ảnh, âm thanh, video vô cùng hoàn hảo bằng dãy bit."
-      ]
+        "Sai vì máy tính là máy móc vô tri, không có cảm xúc hay ý thức đạo đức tự thân.",
+        "Đúng vì phản ánh đầy đủ năng lực vượt trội và bản chất phụ thuộc vào con người của máy tính.",
+        "Sai vì tư duy trực giác, cảm xúc và tính linh hoạt trong hoàn cảnh mới của con người máy tính chưa thể thay thế hoàn toàn.",
+        "Sai vì máy tính mã hóa và lưu trữ hình ảnh, âm thanh, video vô cùng hoàn hảo bằng dãy bit."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch01_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Tính toán tổng dung lượng thông tin (Bài 3, SGK Tin học 6, trang 15-16).",
         "steps": "Video: 1,2 GB = 1200 MB (hoặc 1,2 x 1024 = 1228,8 MB). 50 ảnh: 50 x 4 MB = 200 MB. 200 tệp Word: 200 x 500 KB = 100 000 KB ~ 100 MB. Tổng cộng: 1228,8 + 200 + 100 ~ 1528,8 MB (~ 1,5 GB). Do đó, thiết bị lưu trữ cần tối thiểu dung lượng 2 GB.",
-        "trap": "Quên đổi đồng nhất đơn vị (GB, MB, KB) trước khi thực hiện phép cộng."
+        "trap": "Quên đổi đồng nhất đơn vị (GB, MB, KB) trước khi thực hiện phép cộng.",
+        "socraticPrompt": "Hãy đổi tất cả các tệp về cùng đơn vị Megabyte (MB) rồi cộng lại xem tổng số xấp xỉ bao nhiêu MB?"
       },
       "socraticPrompt": "Hãy đổi tất cả các tệp về cùng đơn vị Megabyte (MB) rồi cộng lại xem tổng số xấp xỉ bao nhiêu MB?",
       "distractorReasons": [
-        "Sai, đĩa CD chỉ có 700 MB, trong khi riêng video đã chiếm hơn 1200 MB.",
-        "Sai, 1,44 MB quá nhỏ bé, thậm chí không chứa nổi một bức ảnh 4 MB.",
-        "Chính xác, tổng dung lượng khoảng 1,5 GB nên thẻ nhớ 2 GB là phương tiện nhỏ gọn vừa đủ đáp ứng.",
-        "Sai, 10 TB quá mức lãng phí và không phải là yêu cầu tối thiểu."
-      ]
+        "Sai vì đĩa CD chỉ có 700 MB, trong khi riêng video đã chiếm hơn 1200 MB.",
+        "Sai vì 1,44 MB quá nhỏ bé, thậm chí không chứa nổi một bức ảnh 4 MB.",
+        "Đúng vì tổng dung lượng khoảng 1,5 GB nên thẻ nhớ 2 GB là phương tiện nhỏ gọn vừa đủ đáp ứng.",
+        "Sai vì 10 TB quá mức lãng phí và không phải là yêu cầu tối thiểu."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch01_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Mối quan hệ giữa dữ liệu và thông tin (Bài 1, SGK Tin học 6, trang 6-7).",
         "steps": "Dữ liệu chỉ trở thành thông tin có ý nghĩa khi người tiếp nhận có khả năng giải mã, đọc hiểu và nhận thức được dữ liệu đó.",
-        "trap": "Cho rằng dữ liệu mang lại giá trị như nhau cho tất cả mọi đối tượng tiếp nhận."
+        "trap": "Cho rằng dữ liệu mang lại giá trị như nhau cho tất cả mọi đối tượng tiếp nhận.",
+        "socraticPrompt": "Tại sao cùng nhìn vào một cuốn sách tiếng Pháp, người biết tiếng Pháp thì hiểu được câu chuyện còn người không biết tiếng Pháp chỉ thấy những ký tự vô nghĩa?"
       },
       "socraticPrompt": "Tại sao cùng nhìn vào một cuốn sách tiếng Pháp, người biết tiếng Pháp thì hiểu được câu chuyện còn người không biết tiếng Pháp chỉ thấy những ký tự vô nghĩa?",
       "distractorReasons": [
-        "Sai, bản tin dự báo là dữ liệu khách quan chuẩn xác.",
-        "Sai, em bé nhìn thấy các chữ in nhưng chưa biết đọc chữ để hiểu nghĩa.",
-        "Chính xác theo kết luận của mục 1 SGK Tin học 6 trang 6: 'sự hiểu biết mà thông tin đem lại luôn phụ thuộc vào người tiếp nhận'.",
-        "Sai, dữ liệu là vỏ bọc vật lý, thông tin là nội dung ý nghĩa được hiểu."
-      ]
+        "Sai vì bản tin dự báo là dữ liệu khách quan chuẩn xác.",
+        "Sai vì em bé nhìn thấy các chữ in nhưng chưa biết đọc chữ để hiểu nghĩa.",
+        "Đúng vì kết luận của mục 1 SGK Tin học 6 trang 6: 'sự hiểu biết mà thông tin đem lại luôn phụ thuộc vào người tiếp nhận'.",
+        "Sai vì dữ liệu là vỏ bọc vật lý, thông tin là nội dung ý nghĩa được hiểu."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch01_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Quá trình não bộ xử lý thông tin (Bài 2, SGK Tin học 6, trang 9).",
         "steps": "Mắt theo dõi vị trí thủ môn (thu nhận) -> Não phân tích, đánh giá, suy luận và ra quyết định sút góc cao (xử lý thông tin) -> Não điều khiển cơ chân sút bóng (truyền thông tin).",
-        "trap": "Nhầm phân tích với thu nhận dữ liệu của mắt."
+        "trap": "Nhầm phân tích với thu nhận dữ liệu của mắt.",
+        "socraticPrompt": "Hành động so sánh khoảng cách, suy đoán hướng đổ người của thủ môn diễn ra ở cơ quan nào và là hoạt động gì?"
       },
       "socraticPrompt": "Hành động so sánh khoảng cách, suy đoán hướng đổ người của thủ môn diễn ra ở cơ quan nào và là hoạt động gì?",
       "distractorReasons": [
-        "Chính xác, hoạt động liên kết, phân tích, đánh giá để đưa ra ý định là bản chất của xử lý thông tin.",
-        "Sai, tình huống thể thao thực tế của con người không liên quan đến cáp mạng Internet.",
-        "Sai, việc quan sát thủ môn diễn ra bằng thị giác (mắt), không phải xúc giác.",
-        "Sai, đây là hoạt động suy nghĩ tức thời của não bộ, không phải ổ cứng máy tính."
-      ]
+        "Đúng vì hoạt động liên kết, phân tích, đánh giá để đưa ra ý định là bản chất của xử lý thông tin.",
+        "Sai vì tình huống thể thao thực tế của con người không liên quan đến cáp mạng Internet.",
+        "Sai vì việc quan sát thủ môn diễn ra bằng thị giác (mắt), không phải xúc giác.",
+        "Sai vì đây là hoạt động suy nghĩ tức thời của não bộ, không phải ổ cứng máy tính."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch01_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Biểu diễn hình ảnh bằng dãy bit (Bài 3, SGK Tin học 6, trang 14-15).",
         "steps": "Lưới hình có kích thước 8 hàng x 8 cột = 64 điểm ảnh. Mỗi điểm ảnh ứng với đúng 1 bit (0 hoặc 1). Vậy cả hình ảnh được biểu diễn bằng dãy gồm 64 bit.",
-        "trap": "Cộng 8 + 8 = 16 thay vì nhân số hàng với số cột để ra tổng số điểm ảnh."
+        "trap": "Cộng 8 + 8 = 16 thay vì nhân số hàng với số cột để ra tổng số điểm ảnh.",
+        "socraticPrompt": "Một bàn cờ có 8 hàng và 8 cột thì có tổng cộng bao nhiêu ô vuông nhỏ?"
       },
       "socraticPrompt": "Một bàn cờ có 8 hàng và 8 cột thì có tổng cộng bao nhiêu ô vuông nhỏ?",
       "distractorReasons": [
         "Sai do chỉ cộng 8 hàng với 8 cột thay vì nhân diện tích lưới.",
-        "Sai, 32 bit chỉ bằng một nửa bức ảnh.",
-        "Chính xác, 8 hàng x 8 cột = 64 điểm ảnh = 64 bit (tương đương đúng 8 Byte).",
-        "Sai, tính thừa gấp đôi số lượng điểm ảnh."
-      ]
+        "Sai vì 32 bit chỉ bằng một nửa bức ảnh.",
+        "Đúng vì 8 hàng x 8 cột = 64 điểm ảnh = 64 bit (tương đương đúng 8 Byte).",
+        "Sai vì tính thừa gấp đôi số lượng điểm ảnh."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch01_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Ý nghĩa của thông tin trong quyết định hành động (Bài 1, SGK Tin học 6, trang 8).",
         "steps": "Khi có cả đèn tín hiệu và người điều khiển giao thông, thông tin từ hiệu lệnh của người chỉ huy giao thông có hiệu lực cao nhất để đảm bảo an toàn.",
-        "trap": "Bối rối giữa tín hiệu đèn và hiệu lệnh của cảnh sát giao thông."
+        "trap": "Bối rối giữa tín hiệu đèn và hiệu lệnh của cảnh sát giao thông.",
+        "socraticPrompt": "Khi có xung đột giữa tín hiệu đèn và hiệu lệnh của người cảnh sát đang phân luồng, người tham gia giao thông phải tuân theo chỉ dẫn của ai?"
       },
       "socraticPrompt": "Khi có xung đột giữa tín hiệu đèn và hiệu lệnh của người cảnh sát đang phân luồng, người tham gia giao thông phải tuân theo chỉ dẫn của ai?",
       "distractorReasons": [
-        "Sai, hành vi cực kỳ nguy hiểm, vi phạm luật giao thông đường bộ.",
-        "Sai, dừng giữa ngã tư gây cản trở và ùn tắc giao thông nghiêm trọng.",
-        "Chính xác, thông tin chuẩn xác từ hiệu lệnh thực tế giúp người học sinh xử lý tình huống chính xác, bảo vệ an toàn tính mạng bản thân và xã hội.",
-        "Sai, hành vi liều lĩnh có thể dẫn tới tai nạn giao thông."
-      ]
+        "Sai vì hành vi cực kỳ nguy hiểm, vi phạm luật giao thông đường bộ.",
+        "Sai vì dừng giữa ngã tư gây cản trở và ùn tắc giao thông nghiêm trọng.",
+        "Đúng vì thông tin chuẩn xác từ hiệu lệnh thực tế giúp người học sinh xử lý tình huống chính xác, bảo vệ an toàn tính mạng bản thân và xã hội.",
+        "Sai vì hành vi liều lĩnh có thể dẫn tới tai nạn giao thông."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -1,86 +1,84 @@
-{
-  "chapterId": "ch06",
-  "title": "Chương 6: Phân số",
-  "flashcards": [
-    {
-      "id": "fc_t6_c6_01",
-      "front": "Định nghĩa phân số là gì?",
-      "back": "Phân số có dạng a/b, trong đó a và b là các số nguyên (Z), b khác 0. a là tử số, b là mẫu số.",
-      "category": "Khái niệm",
-      "example": "-3/5 là phân số vì -3 và 5 thuộc Z, 5 khác 0.",
-      "mnemonic": "Tử trên mẫu dưới, mẫu luôn khác không."
-    },
-    {
-      "id": "fc_t6_c6_02",
-      "front": "Khi nào thì hai phân số a/b và c/d bằng nhau?",
-      "back": "a/b = c/d khi và chỉ khi tích chéo a · d = b · c.",
-      "category": "Định lý",
-      "example": "-2/3 = 4/-6 vì (-2) · (-6) = 3 · 4 = 12.",
-      "mnemonic": "Bằng nhau khi tích chéo bằng nhau: a nhân d bằng b nhân c."
-    },
-    {
-      "id": "fc_t6_c6_03",
-      "front": "Tính chất cơ bản của phân số phát biểu như thế nào?",
-      "back": "Nếu nhân hoặc chia cả tử và mẫu với cùng một số nguyên m khác 0 (và là ước chung khi chia) thì được phân số bằng phân số đã cho.",
-      "category": "Quy tắc",
-      "example": "2/3 = (2 · 4) / (3 · 4) = 8/12.",
-      "mnemonic": "Cùng nhân cùng chia, phân số không đổi."
-    },
-    {
-      "id": "fc_t6_c6_04",
-      "front": "Thế nào là một phân số tối giản?",
-      "back": "Phân số tối giản là phân số mà tử và mẫu chỉ có ước chung là 1 và -1 (tức ƯCLN(|a|, |b|) = 1).",
-      "category": "Khái niệm",
-      "example": "3/7 là phân số tối giản vì ƯCLN(3, 7) = 1.",
-      "mnemonic": "Ước chung chỉ là 1: không thể rút gọn thêm."
-    },
-    {
-      "id": "fc_t6_c6_05",
-      "front": "Quy tắc so sánh hai phân số cùng mẫu số dương là gì?",
-      "back": "Trong hai phân số có cùng mẫu số dương, phân số nào có tử số lớn hơn thì phân số đó lớn hơn.",
-      "category": "Quy tắc",
-      "example": "-3/7 > -5/7 vì -3 > -5.",
-      "mnemonic": "Mẫu dương cùng mẫu: tử lớn hơn thì phân số lớn hơn."
-    },
-    {
-      "id": "fc_t6_c6_06",
-      "front": "Cách đổi hỗn số dương q r/b ra phân số như thế nào?",
-      "back": "Lấy phần nguyên nhân mẫu số rồi cộng với tử số, giữ nguyên mẫu: q r/b = (q · b + r) / b.",
-      "category": "Kỹ năng",
-      "example": "3 2/5 = (3 · 5 + 2) / 5 = 17/5.",
-      "mnemonic": "Nguyên nhân mẫu cộng tử, mẫu giữ nguyên."
-    },
-    {
-      "id": "fc_t6_c6_07",
-      "front": "Số đối của phân số a/b là gì?",
-      "back": "Số đối của phân số a/b là -a/b = (-a)/b = a/(-b). Tổng của hai số đối nhau luôn bằng 0.",
-      "category": "Khái niệm",
-      "example": "Số đối của -4/9 là 4/9 vì (-4/9) + (4/9) = 0.",
-      "mnemonic": "Số đối đổi dấu, cộng lại bằng 0."
-    },
-    {
-      "id": "fc_t6_c6_08",
-      "front": "Số nghịch đảo của phân số a/b (a, b ≠ 0) là gì?",
-      "back": "Số nghịch đảo của a/b là b/a. Tích của hai số nghịch đảo luôn bằng 1.",
-      "category": "Khái niệm",
-      "example": "Số nghịch đảo của -3/7 là -7/3 vì (-3/7) · (-7/3) = 1.",
-      "mnemonic": "Nghịch đảo là lộn ngược tử mẫu, tích bằng 1."
-    },
-    {
-      "id": "fc_t6_c6_09",
-      "front": "Cách tìm m/n của số a cho trước là gì?",
-      "back": "Muốn tìm m/n của số a, ta lấy a nhân với m/n: Kết quả = a · (m/n).",
-      "category": "Phương pháp",
-      "example": "Tìm 2/3 của 18: lấy 18 · 2/3 = 12.",
-      "mnemonic": "Tìm phân số CỦA một số: làm phép NHÂN."
-    },
-    {
-      "id": "fc_t6_c6_10",
-      "front": "Cách tìm một số khi biết m/n của nó bằng b là gì?",
-      "back": "Muốn tìm một số khi biết m/n của nó bằng b, ta lấy b chia cho m/n: Số cần tìm = b : (m/n).",
-      "category": "Phương pháp",
-      "example": "Tìm x biết 3/5 của x bằng 15: lấy 15 : (3/5) = 15 · 5/3 = 25.",
-      "mnemonic": "Tìm số BIẾT giá trị phân số: làm phép CHIA."
-    }
-  ]
-}
+[
+  {
+    "id": "fc_t6_c6_01",
+    "front": "Điều kiện để a/b là một phân số trong tập số nguyên Z là gì?",
+    "back": "a, b ∈ Z và b ≠ 0 (tử và mẫu là số nguyên, mẫu số khác 0).",
+    "tags": [
+      "Phan-so",
+      "Dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_02",
+    "front": "Quy tắc hai phân số bằng nhau a/b = c/d khi nào?",
+    "back": "Khi tích chéo bằng nhau: a × d = b × c.",
+    "tags": [
+      "Phan-so",
+      "Bang-nhau"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_03",
+    "front": "Muốn đổi phân số có mẫu âm thành phân số có mẫu dương ta làm thế nào?",
+    "back": "Đổi dấu cả tử và mẫu (hoặc nhân cả tử và mẫu với -1): a/(-b) = -a/b.",
+    "tags": [
+      "Mau-duong"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_04",
+    "front": "Thế nào là một phân số tối giản?",
+    "back": "Là phân số có tử và mẫu chỉ có ước chung là 1 và -1 (tức ƯCLN(|a|, |b|) = 1).",
+    "tags": [
+      "Toi-gian"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_05",
+    "front": "Muốn so sánh hai phân số không cùng mẫu ta làm thế nào?",
+    "back": "Quy đồng mẫu hai phân số về cùng một mẫu dương, rồi so sánh hai tử số (tử lớn hơn thì phân số lớn hơn).",
+    "tags": [
+      "So-sanh"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_06",
+    "front": "Muốn cộng hoặc trừ hai phân số cùng mẫu số ta làm thế nào?",
+    "back": "Cộng hoặc trừ các tử số với nhau và GIỮ NGUYÊN mẫu số: a/m ± b/m = (a ± b)/m.",
+    "tags": [
+      "Phep-cong-tru"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_07",
+    "front": "Muốn nhân hai phân số ta làm thế nào?",
+    "back": "Nhân tử với tử, nhân mẫu với mẫu: (a/b) × (c/d) = (a × c)/(b × d).",
+    "tags": [
+      "Phep-nhan"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_08",
+    "front": "Phân số nghịch đảo của a/b (a, b ≠ 0) là phân số nào?",
+    "back": "Là phân số b/a (tích của chúng bằng 1). Số 0 không có phân số nghịch đảo.",
+    "tags": [
+      "Nghich-dao"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_09",
+    "front": "Muốn chia phân số a/b cho phân số c/d (c/d ≠ 0) ta làm thế nào?",
+    "back": "Lấy phân số a/b nhân với phân số nghịch đảo của c/d: (a/b) : (c/d) = (a/b) × (d/c).",
+    "tags": [
+      "Phep-chia"
+    ]
+  },
+  {
+    "id": "fc_t6_c6_10",
+    "front": "Muốn tìm m/n của số b cho trước ta thực hiện phép tính gì?",
+    "back": "Thực hiện phép tính NHÂN: b × (m/n).",
+    "tags": [
+      "Bai-toan-phan-so"
+    ]
+  }
+]

@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Bốn tính chất vàng ACID của một Hệ thống Giao dịch CSDL (Transaction) bao gồm",
       "options": [
-        "Atomicity (Nguyên tử), Consistency (Nhất quán), Isolation (Cô lập), Durability (Bền vững)",
-        "Accuracy, Cloud, Internet, Data",
         "Auto, Cache, Index, Delete",
+        "Accuracy, Cloud, Internet, Data",
+        "Atomicity (Nguyên tử), Consistency (Nhất quán), Isolation (Cô lập), Durability (Bền vững)",
         "Access, Code, Input, Display"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Bộ tiêu chuẩn ACID bảo đảm an toàn dữ liệu tuyệt đối trong các hệ thống ngân hàng, tài chính.",
       "breakdown": {
         "concept": "Tính chất ACID trong CSDL",
         "steps": "Atomicity, Consistency, Isolation, Durability.",
         "socraticPrompt": "Bốn tính chất ACID trong giao dịch CSDL là gì?"
-      }
+      },
+      "socraticPrompt": "Bốn tính chất ACID trong giao dịch CSDL là gì?",
+      "distractorReasons": [
+        "Sai vì 'Auto, Cache, Index, Delete' không phù hợp với định lý/quy tắc trọng tâm (Tính chất ACID trong CSDL).",
+        "Sai vì 'Accuracy, Cloud, Internet, Data' không phù hợp với định lý/quy tắc trọng tâm (Tính chất ACID trong CSDL).",
+        "Đúng vì theo Tính chất ACID trong CSDL: Atomicity, Consistency, Isolation, Durability.",
+        "Sai vì 'Access, Code, Input, Display' không phù hợp với định lý/quy tắc trọng tâm (Tính chất ACID trong CSDL)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Mối liên kết giữa Khóa chính và Khóa ngoại (Primary Key - Foreign Key) bảo đảm tính toàn vẹn nào của CSDL?",
       "options": [
-        "Tính toàn vẹn tham chiếu (Referential Integrity)",
+        "Tính ngẫu nhiên của dữ liệu",
         "Tính toàn vẹn phần cứng",
         "Tính toàn vẹn mạng",
-        "Tính ngẫu nhiên của dữ liệu"
+        "Tính toàn vẹn tham chiếu (Referential Integrity)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Bảo đảm không có khóa ngoại nào trỏ tới một bản ghi không tồn tại.",
       "breakdown": {
         "concept": "Toàn vẹn tham chiếu",
         "steps": "Referential Integrity.",
         "socraticPrompt": "Khóa chính và khóa ngoại bảo đảm toàn vẹn gì?"
-      }
+      },
+      "socraticPrompt": "Khóa chính và khóa ngoại bảo đảm toàn vẹn gì?",
+      "distractorReasons": [
+        "Sai vì 'Tính ngẫu nhiên của dữ liệu' không phù hợp với định lý/quy tắc trọng tâm (Toàn vẹn tham chiếu).",
+        "Sai vì 'Tính toàn vẹn phần cứng' không phù hợp với định lý/quy tắc trọng tâm (Toàn vẹn tham chiếu).",
+        "Sai vì 'Tính toàn vẹn mạng' không phù hợp với định lý/quy tắc trọng tâm (Toàn vẹn tham chiếu).",
+        "Đúng vì theo Toàn vẹn tham chiếu: Referential Integrity."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Kỹ thuật đánh Index",
         "steps": "Tăng tốc độ tìm kiếm vượt bậc.",
         "socraticPrompt": "Đánh Index trong cơ sở dữ liệu có tác dụng gì?"
-      }
+      },
+      "socraticPrompt": "Đánh Index trong cơ sở dữ liệu có tác dụng gì?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ thuật đánh Index: Tăng tốc độ tìm kiếm vượt bậc.",
+        "Sai vì 'Làm giảm dung lượng đĩa cứng' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật đánh Index).",
+        "Sai vì 'Làm đẹp giao diện người dùng' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật đánh Index).",
+        "Sai vì 'Tự động sửa lỗi chính tả' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật đánh Index)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Kỹ thuật tấn công 'SQL Injection' (Tiêm mã SQL) khai thác lỗ hổng nào của ứng dụng?",
       "options": [
-        "Khai thác việc không kiểm tra kỹ dữ liệu nhập từ người dùng để chèn mã lệnh SQL độc hại đánh cắp dữ liệu",
         "Cắt đứt dây mạng",
+        "Khai thác việc không kiểm tra kỹ dữ liệu nhập từ người dùng để chèn mã lệnh SQL độc hại đánh cắp dữ liệu",
         "Tấn công quá nhiệt CPU",
         "Gửi virus qua email"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Lỗ hổng bảo mật web kinh điển, phòng chống bằng cách dùng Prepared Statements / Parameterized Queries.",
       "breakdown": {
         "concept": "Lỗ hổng SQL Injection",
         "steps": "Chèn mã SQL độc hại qua ô nhập liệu.",
         "socraticPrompt": "SQL Injection là kiểu tấn công gì?"
-      }
+      },
+      "socraticPrompt": "SQL Injection là kiểu tấn công gì?",
+      "distractorReasons": [
+        "Sai vì 'Cắt đứt dây mạng' không phù hợp với định lý/quy tắc trọng tâm (Lỗ hổng SQL Injection).",
+        "Đúng vì theo Lỗ hổng SQL Injection: Chèn mã SQL độc hại qua ô nhập liệu.",
+        "Sai vì 'Tấn công quá nhiệt CPU' không phù hợp với định lý/quy tắc trọng tâm (Lỗ hổng SQL Injection).",
+        "Sai vì 'Gửi virus qua email' không phù hợp với định lý/quy tắc trọng tâm (Lỗ hổng SQL Injection)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "So sánh SQL và NoSQL",
         "steps": "SQL chặt chẽ có cấu trúc, NoSQL linh hoạt quy mô lớn.",
         "socraticPrompt": "SQL và NoSQL khác nhau ở điểm nào?"
-      }
+      },
+      "socraticPrompt": "SQL và NoSQL khác nhau ở điểm nào?",
+      "distractorReasons": [
+        "Đúng vì theo So sánh SQL và NoSQL: SQL chặt chẽ có cấu trúc, NoSQL linh hoạt quy mô lớn.",
+        "Sai vì phủ định sai bản chất: 'SQL không dùng được trên máy tính' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'NoSQL chỉ dùng để ghi nhớ văn bản', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hai hệ thống giống hệt nhau' không phù hợp với định lý/quy tắc trọng tâm (So sánh SQL và NoSQL)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh thành thạo tư duy CSDL và SQL mở ra cơ hội nghề nghiệp tương lai nào?",
       "options": [
-        "Kỹ sư dữ liệu (Data Engineer), Chuyên viên phân tích dữ liệu (Data Analyst), Kỹ sư phần mềm (Backend Developer)",
+        "Không có việc làm",
         "Chỉ làm thợ sửa máy in",
         "Chỉ làm nhân viên đánh máy",
-        "Không có việc làm"
+        "Kỹ sư dữ liệu (Data Engineer), Chuyên viên phân tích dữ liệu (Data Analyst), Kỹ sư phần mềm (Backend Developer)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Ngành dữ liệu là một trong những ngành nghề có nhu cầu tuyển dụng và thu nhập cao nhất kỷ nguyên số.",
       "breakdown": {
         "concept": "Nghề nghiệp ngành Dữ liệu",
         "steps": "Data Engineer, Data Analyst, Backend Developer.",
         "socraticPrompt": "Học giỏi CSDL và SQL sau này làm nghề gì?"
-      }
+      },
+      "socraticPrompt": "Học giỏi CSDL và SQL sau này làm nghề gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có việc làm' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm thợ sửa máy in', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm nhân viên đánh máy', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Nghề nghiệp ngành Dữ liệu: Data Engineer, Data Analyst, Backend Developer."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

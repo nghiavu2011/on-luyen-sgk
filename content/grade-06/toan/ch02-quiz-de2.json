@@ -1,157 +1,213 @@
 {
-  "examId": "toan-06-ch02-de02",
-  "grade": "06",
-  "subject": "toan",
-  "chapter": "ch02",
-  "chapterTitle": "Tính chia hết trong tập hợp các số tự nhiên",
-  "title": "Toán 6 — Chương 2: Tính chia hết (Đề 2: Kỹ năng tìm ƯCLN và BCNN)",
-  "description": "Rèn luyện kỹ năng phân tích thừa số nguyên tố, tìm ước chung lớn nhất và bội chung nhỏ nhất.",
-  "examCode": "102",
-  "mode": "practice",
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Toán 6 — Chương 2: Tính chia hết trong tập hợp các số tự nhiên: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "toan-06-ch02-de02-q01",
-      "difficulty": "thong-hieu",
+      "id": "t6_c2_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
       "topic": "Phân tích ra thừa số nguyên tố",
-      "question": "Phân tích số 36 ra thừa số nguyên tố, ta được kết quả viết gọn dưới dạng lũy thừa là:",
+      "question": "Phân tích số 120 ra thừa số nguyên tố, kết quả đúng là:",
       "options": [
-        "$36 = 2^2 \\cdot 3^2$ biểu diễn tích các thừa số",
-        "$36 = 4 \\cdot 9$ biểu diễn dạng tích hai hợp số",
-        "$36 = 2 \\cdot 3^3$ biểu diễn tích các thừa số",
-        "$36 = 6^2$ biểu diễn dạng một lũy thừa cơ số chẵn"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Phân tích một số tự nhiên ra thừa số nguyên tố",
-        "socraticPrompt": "Các thừa số trong kết quả phân tích có phải đều là số nguyên tố không?",
-        "calculation": "$36 = 4 \\times 9 = 2^2 \\times 3^2$. Các cơ số 2 và 3 đều là số nguyên tố.",
-        "trap": "Dừng lại ở $4 \\cdot 9$ hoặc $6^2$ (các số 4, 9, 6 đều là hợp số, chưa phân tích xong).",
-        "distractorReasons": {
-          "1": "Số 4 và 9 là hợp số, chưa phải thừa số nguyên tố.",
-          "2": "Tính sai tích: $2 \\times 27 = 54 \\ne 36$.",
-          "3": "Số 6 là hợp số, chưa phân tích ra số nguyên tố."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch02-de02-q02",
-      "difficulty": "thong-hieu",
-      "topic": "Ước chung lớn nhất",
-      "question": "Ước chung lớn nhất của hai số tự nhiên 18 và 30 có giá trị là:",
-      "options": [
-        "ƯCLN(18, 30) = 3 là một ước chung nhỏ của hai số",
-        "ƯCLN(18, 30) = 6 là ước chung lớn nhất của hai số",
-        "ƯCLN(18, 30) = 9 là một ước chung riêng của hai số",
-        "ƯCLN(18, 30) = 2 là một ước chung chẵn của hai số"
+        "2 × 3 × 4 × 5",
+        "2^3 × 3 × 5",
+        "8 × 15",
+        "2^2 × 3^2 × 5"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Tìm ƯCLN bằng phân tích ra thừa số nguyên tố",
-        "socraticPrompt": "Em hãy phân tích 18 và 30 ra thừa số nguyên tố rồi nhân các thừa số chung với số mũ nhỏ nhất.",
-        "calculation": "$18 = 2 \\cdot 3^2$; $30 = 2 \\cdot 3 \\cdot 5$. Thừa số chung là 2 và 3. $ƯCLN(18, 30) = 2 \\cdot 3 = 6$.",
-        "trap": "Chọn 3 hoặc 2 (đó chỉ là ước chung, chưa phải ước chung lớn nhất).",
-        "distractorReasons": {
-          "0": "Số 3 chỉ là một ước chung, chưa phải lớn nhất.",
-          "2": "Số 9 không phải là ước của 30 ($30 \\not\\vdots 9$).",
-          "3": "Số 2 chỉ là một ước chung, chưa phải lớn nhất."
-        }
-      }
+        "concept": "Phân tích ra thừa số nguyên tố là viết số đó dưới dạng tích của các số nguyên tố dạng lũy thừa.",
+        "steps": [
+          "Bước 1: 120 = 2 × 60.",
+          "Bước 2: 60 = 2 × 30.",
+          "Bước 3: 30 = 2 × 15.",
+          "Bước 4: 15 = 3 × 5.",
+          "Bước 5: Viết gọn dưới dạng lũy thừa: 2^3 × 3 × 5."
+        ],
+        "trap": "Để sót số 4 hoặc số 8 không phải là số nguyên tố trong tích phân tích.",
+        "socraticPrompt": "120 chia 8 bằng 15. Mà 8 viết thành 2 mũ mấy? 15 viết thành tích 2 số nguyên tố nào?"
+      },
+      "socraticPrompt": "120 chia 8 bằng 15. Mà 8 viết thành 2 mũ mấy? 15 viết thành tích 2 số nguyên tố nào?",
+      "distractorReasons": [
+        "Sai vì số 4 trong tích là hợp số, chưa phân tích triệt để ra thừa số nguyên tố.",
+        "Đúng vì 120 = 8 × 3 × 5 = 2^3 × 3 × 5 và các cơ số 2, 3, 5 đều là số nguyên tố.",
+        "Sai vì 8 và 15 đều là hợp số.",
+        "Sai vì 2^2 × 3^2 × 5 = 4 × 9 × 5 = 180 (không bằng 120)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch02-de02-q03",
-      "difficulty": "thong-hieu",
-      "topic": "Bội chung nhỏ nhất",
-      "question": "Bội chung nhỏ nhất của hai số tự nhiên 12 và 18 có giá trị là:",
+      "id": "t6_c2_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm ƯCLN của hai số",
+      "question": "Ước chung lớn nhất của 36 và 60 bằng bao nhiêu?",
       "options": [
-        "BCNN(12, 18) = 72 là một bội chung lớn của hai số",
-        "BCNN(12, 18) = 24 là một bội của số 12 ban đầu",
-        "BCNN(12, 18) = 36 là bội chung nhỏ nhất của hai số",
-        "BCNN(12, 18) = 48 là một bội của số 12 ban đầu"
+        "6",
+        "18",
+        "12",
+        "180"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Tìm BCNN bằng phân tích thừa số nguyên tố",
-        "socraticPrompt": "Lấy tất cả các thừa số chung và riêng với số mũ lớn nhất để tính BCNN.",
-        "calculation": "$12 = 2^2 \\cdot 3$; $18 = 2 \\cdot 3^2$. $BCNN(12, 18) = 2^2 \\cdot 3^2 = 4 \\cdot 9 = 36$.",
-        "trap": "Lấy nhầm tích $12 \\times 18 = 216$ hoặc 72 mà không tối giản.",
-        "distractorReasons": {
-          "0": "Số 72 là bội chung nhưng chưa phải là số nhỏ nhất.",
-          "1": "Số 24 không chia hết cho 18 nên không phải bội chung.",
-          "3": "Số 48 không chia hết cho 18 nên không phải bội chung."
-        }
-      }
+        "concept": "ƯCLN là tích các thừa số nguyên tố chung với số mũ nhỏ nhất.",
+        "steps": [
+          "Bước 1: 36 = 2^2 × 3^2.",
+          "Bước 2: 60 = 2^2 × 3 × 5.",
+          "Bước 3: Thừa số chung là 2 và 3, với số mũ nhỏ nhất là 2^2 và 3^1.",
+          "Bước 4: ƯCLN(36, 60) = 2^2 × 3 = 4 × 3 = 12."
+        ],
+        "trap": "Chọn 6 vì thấy cả hai số cùng chia hết cho 6, nhưng quên rằng 12 mới là ước LỚN NHẤT.",
+        "socraticPrompt": "36 chia hết cho 12 (được 3) và 60 cũng chia hết cho 12 (được 5). Có ước nào lớn hơn 12 không?"
+      },
+      "socraticPrompt": "36 chia hết cho 12 (được 3) và 60 cũng chia hết cho 12 (được 5). Có ước nào lớn hơn 12 không?",
+      "distractorReasons": [
+        "Sai vì 6 là ước chung nhưng chưa phải là ước chung lớn nhất (12 > 6).",
+        "Sai vì 60 không chia hết cho 18.",
+        "Đúng vì 36 = 2^2 × 3^2 và 60 = 2^2 × 3 × 5 ⇒ ƯCLN = 2^2 × 3 = 12.",
+        "Sai vì 180 là BCNN của 36 và 60, không phải ƯCLN."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "toan-06-ch02-de02-q04",
-      "difficulty": "thong-hieu",
-      "topic": "Tính chất chia hết của một tổng",
-      "question": "Không làm phép tính, tổng $A = 120 + 45$ có chia hết cho 5 hay không và vì sao?",
+      "id": "t6_c2_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm BCNN của hai số",
+      "question": "Bội chung nhỏ nhất của 15 và 20 bằng bao nhiêu?",
       "options": [
-        "Không chia hết cho 5 vì số 120 là số chẵn khác 0",
-        "Chia hết cho 2 vì tổng hai số là một số chẵn lớn",
-        "Không chia hết cho 5 vì số 45 là một số lẻ bé hơn",
-        "Chia hết cho 5 vì cả 120 và 45 đều chia hết cho 5"
+        "5",
+        "300",
+        "40",
+        "60"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Tính chất chia hết của một tổng",
-        "socraticPrompt": "Xét riêng từng số hạng 120 và 45 xem có chia hết cho 5 không?",
-        "calculation": "$120$ có tận cùng là 0 nên $120 \\vdots 5$. $45$ có tận cùng là 5 nên $45 \\vdots 5$. Cả hai số hạng đều chia hết cho 5 nên $(120 + 45) \\vdots 5$.",
-        "trap": "Cộng hai số lại rồi mới xét thay vì dùng tính chất chia hết của tổng.",
-        "distractorReasons": {
-          "0": "Số chẵn tận cùng là 0 vẫn chia hết cho 5 bình thường.",
-          "1": "Tổng $120 + 45 = 165$ là số lẻ, không chia hết cho 2.",
-          "2": "Số 45 có tận cùng là 5 nên chia hết cho 5."
-        }
-      }
+        "concept": "BCNN là tích các thừa số nguyên tố chung và riêng với số mũ lớn nhất.",
+        "steps": [
+          "Bước 1: 15 = 3 × 5; 20 = 2^2 × 5.",
+          "Bước 2: Thừa số chung và riêng: 2, 3, 5.",
+          "Bước 3: Lấy số mũ lớn nhất: 2^2, 3^1, 5^1.",
+          "Bước 4: BCNN(15, 20) = 2^2 × 3 × 5 = 4 × 3 × 5 = 60."
+        ],
+        "trap": "Lấy tích 15 × 20 = 300 mà không tìm số nhỏ nhất chia hết cho cả hai số.",
+        "socraticPrompt": "Bội của 20 gồm: 20, 40, 60, 80... Số nào trong đó nhỏ nhất mà chia hết cho 15?"
+      },
+      "socraticPrompt": "Bội của 20 gồm: 20, 40, 60, 80... Số nào trong đó nhỏ nhất mà chia hết cho 15?",
+      "distractorReasons": [
+        "Sai vì 5 là ƯCLN của 15 và 20 chứ không phải BCNN.",
+        "Sai vì 300 là một bội chung nhưng chưa phải nhỏ nhất (60 < 300).",
+        "Sai vì 40 không chia hết cho 15.",
+        "Đúng vì 60 chia hết cho cả 15 (60 : 15 = 4) và 20 (60 : 20 = 3) và là số nhỏ nhất khác 0."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "toan-06-ch02-de02-q05",
-      "difficulty": "thong-hieu",
-      "topic": "Tìm bội của một số",
-      "question": "Cho $x \\in B(6)$ và thỏa mãn điều kiện $10 \\le x \\le 30$. Tập hợp các giá trị của $x$ là:",
+      "id": "t6_c2_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm chữ số thỏa mãn chia hết",
+      "question": "Để số 4*7 chia hết cho 3 thì chữ số * có thể nhận các giá trị nào sau đây?",
       "options": [
-        "Tập hợp các số gồm: {6; 12; 18; 24; 30} thỏa điều kiện",
-        "Tập hợp các số gồm: {12; 18; 24; 30} thỏa điều kiện",
-        "Tập hợp các số gồm: {12; 18; 24; 28} thỏa điều kiện",
-        "Tập hợp các số gồm: {18; 24; 30; 36} thỏa điều kiện"
+        "* ∈ {1; 4; 7}",
+        "* ∈ {2; 5; 8}",
+        "* ∈ {0; 3; 6; 9}",
+        "* ∈ {3; 6}"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tìm bội của một số tự nhiên trong khoảng cho trước",
-        "socraticPrompt": "Em hãy liệt kê các bội của 6: 0, 6, 12, 18, 24, 30, 36... rồi chọn các số từ 10 đến 30.",
-        "calculation": "$B(6) = \\{0; 6; 12; 18; 24; 30; 36; ...\\}$. Vì $10 \\le x \\le 30$ nên $x \\in \\{12; 18; 24; 30\\}$.",
-        "trap": "Lấy cả số 6 (nhỏ hơn 10) hoặc bỏ quên số 30 (dấu $\\le$ có lấy số 30).",
-        "distractorReasons": {
-          "0": "Lấy thừa số 6 không thỏa mãn điều kiện lớn hơn hoặc bằng 10.",
-          "2": "Số 28 không phải là bội của 6 ($28 \\not\\vdots 6$).",
-          "3": "Bỏ sót số 12 và lấy thừa số 36 lớn hơn 30."
-        }
-      }
+        "concept": "Dấu hiệu chia hết cho 3: Tổng các chữ số phải chia hết cho 3.",
+        "steps": [
+          "Bước 1: Tổng các chữ số: 4 + * + 7 = 11 + *.",
+          "Bước 2: Để 11 + * chia hết cho 3 thì 11 + * có thể bằng 12, 15, 18.",
+          "Bước 3: Suy ra * có thể nhận các giá trị: 12 - 11 = 1; 15 - 11 = 4; 18 - 11 = 7.",
+          "Bước 4: Vậy * ∈ {1; 4; 7}."
+        ],
+        "trap": "Tính nhầm tổng 4 + 7 = 12 nên tìm sai tập hợp chữ số.",
+        "socraticPrompt": "4 cộng 7 bằng 11. Muốn 11 cộng thêm một chữ số mà chia hết cho 3 thì số đó cần cộng thêm bao nhiêu?"
+      },
+      "socraticPrompt": "4 cộng 7 bằng 11. Muốn 11 cộng thêm một chữ số mà chia hết cho 3 thì số đó cần cộng thêm bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì 4 + 1 + 7 = 12 ⋮ 3; 4 + 4 + 7 = 15 ⋮ 3; 4 + 7 + 7 = 18 ⋮ 3.",
+        "Sai vì thay * = 2 thì tổng 4 + 2 + 7 = 13 không chia hết cho 3.",
+        "Sai vì thay * = 0 thì tổng 4 + 0 + 7 = 11 không chia hết cho 3.",
+        "Sai vì thay * = 3 thì tổng 4 + 3 + 7 = 14 không chia hết cho 3."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "toan-06-ch02-de02-q06",
-      "difficulty": "van-dung",
-      "topic": "Dấu hiệu chia hết cho 3",
-      "question": "Tìm các chữ số $x$ thích hợp để số $\\overline{1x5}$ chia hết cho 3:",
+      "id": "t6_c2_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng ƯCLN rút gọn phân số",
+      "question": "Rút gọn phân số 48/72 về phân số tối giản ta được kết quả là:",
       "options": [
-        "Chữ số x chỉ có thể nhận giá trị bằng số 1 duy nhất",
-        "Chữ số x chỉ có thể nhận giá trị bằng số 2 duy nhất",
-        "Chữ số x nhận một trong các giá trị {0; 3; 6; 9}",
-        "Chữ số x nhận một trong các giá trị {2; 5; 8}"
+        "12/18",
+        "4/6",
+        "6/9",
+        "2/3"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tìm chữ số chưa biết dựa vào dấu hiệu chia hết cho 3",
-        "socraticPrompt": "Tổng các chữ số là $(1 + x + 5) = 6 + x$. Để tổng này chia hết cho 3 thì x phải là chữ số nào?",
-        "calculation": "Tổng các chữ số: $1 + x + 5 = 6 + x$. Vì $6 \\vdots 3$ nên để $(6 + x) \\vdots 3$ thì $x \\vdots 3$. Vì $x$ là chữ số nên $x \\in \\{0; 3; 6; 9\\}$.",
-        "trap": "Quên số 0 ($x$ đứng ở giữa nên có thể nhận giá trị 0).",
-        "distractorReasons": {
-          "0": "Thử $x=1$ thì $1+1+5 = 7 \\not\\vdots 3$.",
-          "1": "Thử $x=2$ thì $1+2+5 = 8 \\not\\vdots 3$.",
-          "3": "Tập {2, 5, 8} làm tổng bằng 8, 11, 14 không chia hết cho 3."
-        }
-      }
+        "concept": "Muốn rút gọn phân số về tối giản, ta chia cả tử và mẫu cho ƯCLN của chúng.",
+        "steps": [
+          "Bước 1: Tìm ƯCLN(48, 72): 48 = 2^4 × 3; 72 = 2^3 × 3^2 ⇒ ƯCLN = 2^3 × 3 = 24.",
+          "Bước 2: Chia cả tử và mẫu cho 24: (48 : 24) / (72 : 24) = 2/3.",
+          "Bước 3: 2/3 là phân số tối giản vì 2 và 3 nguyên tố cùng nhau."
+        ],
+        "trap": "Chọn 4/6 hoặc 6/9 vì chia cho 12 hoặc 8, nhưng các phân số đó CHƯA TỐI GIẢN.",
+        "socraticPrompt": "ƯCLN của 48 và 72 bằng 24. Lấy tử và mẫu cùng chia cho 24 thì được phân số nào?"
+      },
+      "socraticPrompt": "ƯCLN của 48 và 72 bằng 24. Lấy tử và mẫu cùng chia cho 24 thì được phân số nào?",
+      "distractorReasons": [
+        "Sai vì phân số 12/18 chưa tối giản.",
+        "Sai vì phân số 4/6 vẫn có thể rút gọn tiếp cho 2 (chưa tối giản).",
+        "Sai vì phân số 6/9 vẫn rút gọn được cho 3 (chưa tối giản).",
+        "Đúng vì chia cả tử và mẫu cho ƯCLN(48, 72) = 24 ta được phân số tối giản 2/3."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c2_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xét tính chia hết của biểu thức",
+      "question": "Cho biểu thức B = 15 + 25 + 30 + x (với x ∈ N). Điều kiện của x để B chia hết cho 5 là:",
+      "options": [
+        "x có chữ số tận cùng là 0 hoặc 5 (x ⋮ 5)",
+        "x là số tự nhiên bất kỳ",
+        "x là số chẵn",
+        "x không chia hết cho 5"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tính chất chia hết của một tổng: vì 15, 25, 30 đều chia hết cho 5 nên để B chia hết cho 5 thì số hạng x còn lại bắt buộc phải chia hết cho 5.",
+        "steps": [
+          "Bước 1: Xét các số hạng đã biết: 15 ⋮ 5, 25 ⋮ 5, 30 ⋮ 5.",
+          "Bước 2: Tổng 15 + 25 + 30 chia hết cho 5.",
+          "Bước 3: Để B = (15 + 25 + 30) + x chia hết cho 5 thì x phải chia hết cho 5.",
+          "Bước 4: Điều kiện x ⋮ 5 tương đương chữ số tận cùng của x là 0 hoặc 5."
+        ],
+        "trap": "Nghĩ rằng tổng ba số kia lớn rồi thì x cộng thêm số nào cũng chia hết.",
+        "socraticPrompt": "15, 25, 30 đều đã chia hết cho 5. Muốn cả tổng chia hết cho 5 thì số hạng x phải như thế nào đối với 5?"
+      },
+      "socraticPrompt": "15, 25, 30 đều đã chia hết cho 5. Muốn cả tổng chia hết cho 5 thì số hạng x phải như thế nào đối với 5?",
+      "distractorReasons": [
+        "Đúng vì khi tất cả các số hạng kia đã chia hết cho 5, tổng muốn chia hết cho 5 thì số hạng x bắt buộc phải chia hết cho 5 (tận cùng là 0 hoặc 5).",
+        "Sai vì nếu chọn x = 1 thì tổng B = 71 không chia hết cho 5.",
+        "Sai vì x chẵn ví dụ x = 2 thì tổng B = 72 không chia hết cho 5.",
+        "Sai vì nếu x không chia hết cho 5 thì tổng chắc chắn không chia hết cho 5."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

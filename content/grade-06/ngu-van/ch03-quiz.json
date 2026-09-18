@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết thời gian, bối cảnh nghệ thuật trong truyện ngắn andersen.?",
+      "distractorReasons": [
+        "Đúng vì: Văn bản mở đầu bằng bối cảnh đêm giao thừa lạnh buốt, phố xá bừng sáng ánh đèn ấm cúng.",
+        "Sai vì 'Ngày Tết Trung thu trăng sáng' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết thời gian, bối cảnh nghệ thuật trong truyện ngắn Andersen.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Buổi sáng ngày đầu tiên đi học' (Học sinh dễ nhầm sang đêm Giáng sinh.).",
+        "Sai vì 'Một buổi chiều mùa hè nóng nực' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết thời gian, bối cảnh nghệ thuật trong truyện ngắn Andersen.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được cấu trúc mô hình cụm danh từ trong tiếng việt lớp 6.?",
+      "distractorReasons": [
+        "Sai vì 'hai' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc mô hình cụm danh từ trong Tiếng Việt lớp 6.).",
+        "Đúng vì theo Cấu trúc mô hình cụm danh từ trong Tiếng Việt lớp 6.: 'hai' là phụ trước chỉ số lượng, 'chị em' là danh từ trung tâm, 'Sơn và Lan' là phụ sau định ngữ.",
+        "Sai vì 'Sơn' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc mô hình cụm danh từ trong Tiếng Việt lớp 6.).",
+        "Sai vì 'Lan' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc mô hình cụm danh từ trong Tiếng Việt lớp 6.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích hoàn cảnh sống éo le của nhân vật cô bé bán diêm.?",
+      "distractorReasons": [
+        "Sai vì 'Vì nhà của em đã bị tuyết phủ lấp mất cửa ra vào' không phù hợp với định lý/quy tắc trọng tâm (Phân tích hoàn cảnh sống éo le của nhân vật cô bé bán diêm.).",
+        "Sai vì phủ định sai bản chất: 'Vì em bị lạc đường không nhớ lối về nhà' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Phân tích hoàn cảnh sống éo le của nhân vật cô bé bán diêm.: Tác phẩm nêu rõ: Về nhà cũng lạnh buốt như ngoài đường và thế nào bố cũng đánh vì không mang tiền về.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì em muốn ở lại ngắm pháo hoa đón năm mới' (sang lý do ham chơi ngắm cảnh đêm giao thừa)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu cách ứng xử nhân văn của người lớn trong 'gió lạnh đầu mùa'.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Thờ ơ không quan tâm đến chuyện chiếc áo cũ' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nổi trận lôi đình và phạt đòn cả hai chị em Sơn' (Tránh nhầm người mẹ trách phạt con vì làm mất đồ quý.).",
+        "Sai vì 'Bắt Sơn sang nhà Hiên đòi lại chiếc áo bằng được' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu cách ứng xử nhân văn của người lớn trong 'Gió lạnh đầu mùa'.).",
+        "Đúng vì: Người mẹ vừa thấu hiểu tấm lòng thơm thảo của các con, vừa ứng xử tế nhị, nhân ái giúp đỡ gia đình bác Hiên bảo vệ lòng tự trọng."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng của thủ pháp nghệ thuật tương phản trong truyện ngắn.?",
+      "distractorReasons": [
+        "Đúng vì: Tương phản tạo nên sức ám ảnh ghê gớm về khoảng cách giàu nghèo và sự vô cảm của dòng người qua lại trước sinh mệnh đứa trẻ.",
+        "Sai vì 'Khen ngợi sự giàu sang của những người dân trong thành phố' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng của thủ pháp nghệ thuật tương phản trong truyện ngắn.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Miêu tả vẻ đẹp của cảnh tuyết rơi mùa đông châu Âu' (Các phương án ca ngợi vẻ đẹp cảnh vật không chạm đến chiều sâu nhân đạo.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Khuyên trẻ em nên chăm chỉ làm việc hơn để được giàu có', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: 'của cho không bằng cách cho' – tinh thần nhân đạo học đường.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cho những thứ đồ chơi đã hỏng nát không dùng được nữa', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Thiện nguyện chân chính xuất phát từ trái tim đồng cảm, phải tôn trọng danh dự và tự tôn của người yếu thế.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khi làm từ thiện phải quay phim chụp ảnh để khoe lên mạng xã hội tìm kiếm lời khen' (Tránh các hành vi ban phát kẻ cả hoặc làm màu trên mạng xã hội.).",
+        "Sai vì 'Bắt người nhận phải cúi đầu tạ ơn nhiều lần trước tập thể' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: 'Của cho không bằng cách cho' – tinh thần nhân đạo học đường.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

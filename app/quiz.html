@@ -1291,6 +1291,23 @@
                 wrapper.setAttribute('data-idx', idx);
                 wrapper.setAttribute('data-status', isCorrect ? 'correct' : (isSkipped ? 'skipped' : 'wrong'));
 
+                const distractorHtml = (q.distractorReasons && Array.isArray(q.distractorReasons) && q.distractorReasons.length === (q.options || []).length) ? `
+                    <div style="margin-top: 0.65rem; border-top: 1px dashed #cbd5e1; padding-top: 0.55rem;">
+                        <div style="font-weight: 700; color: #475569; font-size: 0.84rem; margin-bottom: 0.35rem;">🔍 Phân tích các phương án (Distractor Analysis):</div>
+                        <div style="display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.84rem;">
+                            ${(q._displayOrder || (q.options || []).map((_, i) => i)).map((origIdx, displayIdx) => {
+                                const isThisCorrect = (origIdx === (q.correct !== undefined ? q.correct : q.answer));
+                                const reason = q.distractorReasons[origIdx];
+                                return `
+                                    <div style="padding: 0.35rem 0.6rem; border-radius: 6px; background: ${isThisCorrect ? '#f0fdf4' : '#fff1f2'}; border: 1px solid ${isThisCorrect ? '#bbf7d0' : '#fecaca'}; color: ${isThisCorrect ? '#166534' : '#991b1b'}; line-height: 1.45;">
+                                        <strong>${letters[displayIdx]}:</strong> ${reason}
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                ` : '';
+
                 if (isCorrect) {
                     // Câu đúng: Dùng details thu gọn mặc định
                     wrapper.innerHTML = `
@@ -1314,6 +1331,7 @@
                                     ${q.breakdown && q.breakdown.concept ? `<div style="margin-bottom: 0.3rem;"><strong>📌 Khái niệm:</strong> ${q.breakdown.concept}</div>` : ''}
                                     ${calcExplanation ? `<div style="margin-bottom: 0.3rem;"><strong>💡 Cách làm:</strong> ${calcExplanation}</div>` : ''}
                                     ${q.breakdown && q.breakdown.trap ? `<div style="color: #92400e; background: #fffbeb; padding: 0.4rem 0.6rem; border-radius: 6px; border-left: 3px solid #f59e0b; margin-top: 0.3rem;"><strong>⚠️ Bẫy sai:</strong> ${q.breakdown.trap}</div>` : ''}
+                                    ${distractorHtml}
                                 </div>
                             </div>
                         </details>
@@ -1363,6 +1381,7 @@
                                         <strong>⚠️ Bẫy sai:</strong> ${q.breakdown.trap}
                                     </div>
                                 ` : ''}
+                                ${distractorHtml}
                             </div>
                         </div>
                     `;

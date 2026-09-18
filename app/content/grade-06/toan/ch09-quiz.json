@@ -1,128 +1,207 @@
 {
   "chapterId": "ch09",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 9: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng đọc biểu đồ tổng hợp, xác suất thực tiễn và phân tích dữ liệu.",
+  "title": "Toán 6 — Chương 9: Dữ liệu và xác suất thực nghiệm: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c9_th_q1",
-      "difficulty": "easy",
+      "id": "t6_c9_d3_01",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Ý nghĩa của biểu đồ cột kép",
-      "question": "Biểu đồ cột kép thường được sử dụng nhằm mục đích chính nào sau đây trong thực tiễn?",
+      "topic": "Toán thực tế - Dự đoán số lần dựa trên xác suất thực nghiệm",
+      "question": "Gieo một con xúc xắc 100 lần thấy mặt 6 chấm xuất hiện 18 lần. Dựa vào xác suất thực nghiệm này, hãy dự đoán xem nếu gieo con xúc xắc đó 500 lần thì mặt 6 chấm có thể xuất hiện khoảng bao nhiêu lần?",
       "options": [
-        "So sánh từng cặp số liệu của hai nhóm đối tượng cùng loại",
-        "Biểu diễn các phần trăm tạo thành một hình tròn khép kín",
-        "Vẽ tranh nghệ thuật minh họa cho bài học",
-        "Đo độ dài đoạn thẳng và số đo góc hình học"
+        "Khoảng 50 lần",
+        "Khoảng 18 lần",
+        "Khoảng 90 lần",
+        "Khoảng 180 lần"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Số lần xuất hiện dự đoán = Tổng số lần thử mới × Xác suất thực nghiệm.",
+        "steps": [
+          "Bước 1: Xác suất thực nghiệm xuất hiện mặt 6 chấm: P = 18 / 100 = 0,18.",
+          "Bước 2: Số lần gieo mới là N = 500 lần.",
+          "Bước 3: Dự đoán số lần mặt 6 chấm xuất hiện: 500 × 0,18 = 90 lần."
+        ],
+        "trap": "Giữ nguyên 18 lần hoặc lấy 500 : 18.",
+        "socraticPrompt": "Cứ 100 lần thì xuất hiện 18 lần. Vậy 500 lần (gấp 5 lần 100 lần) thì số lần xuất hiện sẽ gấp 5 lần 18. 18 nhân 5 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Cứ 100 lần thì xuất hiện 18 lần. Vậy 500 lần (gấp 5 lần 100 lần) thì số lần xuất hiện sẽ gấp 5 lần 18. 18 nhân 5 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì đoán mò không dựa vào tỉ lệ thực nghiệm.",
+        "Sai vì 18 lần mới chỉ là kết quả trong 100 lần gieo ban đầu.",
+        "Đúng vì 500 lần gấp 5 lần 100 lần nên số lần xuất hiện ước lượng là 18 × 5 = 90 lần.",
+        "Sai vì nhân gấp 10 lần thay vì 5 lần."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c9_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Ước lượng số lượng cá trong hồ (Phương pháp đánh dấu bắt lại)",
+      "question": "Người ta bắt 100 con cá từ một hồ nuôi, đánh dấu vào vây rồi thả lại vào hồ. Một tuần sau, người ta vớt ngẫu nhiên 80 con cá từ hồ thì thấy có 8 con cá có dấu. Dựa vào xác suất thực nghiệm đó, ước lượng trong hồ có tất cả khoảng bao nhiêu con cá?",
+      "options": [
+        "Khoảng 100 con cá",
+        "Khoảng 800 con cá",
+        "Khoảng 640 con cá",
+        "Khoảng 1000 con cá"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tỉ lệ cá có dấu trong mẫu bắt lại xấp xỉ tỉ lệ cá có dấu trong toàn bộ hồ: k / n ≈ M / N ⇒ N ≈ (n × M) / k.",
+        "steps": [
+          "Bước 1: Xác suất thực nghiệm bắt được cá có dấu: 8 / 80 = 1/10 (10%).",
+          "Bước 2: Vì có 100 con cá được đánh dấu trong toàn hồ (M = 100) và số cá có dấu chiếm khoảng 1/10 tổng số cá.",
+          "Bước 3: Ước lượng tổng số cá trong hồ: 100 : (1/10) = 100 × 10 = 1000 con cá."
+        ],
+        "trap": "Lấy 80 × 8 = 640 hoặc lấy 100 × 8 = 800.",
+        "socraticPrompt": "Trong 80 con vớt lên có 8 con có dấu, tức là cứ 10 con thì có 1 con có dấu (tỉ lệ 1/10). Ban đầu thả 100 con có dấu thì cả hồ có khoảng bao nhiêu con cá?"
+      },
+      "socraticPrompt": "Trong 80 con vớt lên có 8 con có dấu, tức là cứ 10 con thì có 1 con có dấu (tỉ lệ 1/10). Ban đầu thả 100 con có dấu thì cả hồ có khoảng bao nhiêu con cá?",
+      "distractorReasons": [
+        "Sai vì 100 con chỉ là số cá ban đầu đem đánh dấu.",
+        "Sai vì lấy 100 nhân 8.",
+        "Sai vì lấy 80 nhân 8.",
+        "Đúng vì tỉ lệ có dấu là 8/80 = 1/10; tổng số cá trong hồ ước lượng là 100 : (1/10) = 1000 con."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c9_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Phân tích biểu đồ cột kép so sánh doanh thu",
+      "question": "Biểu đồ cột kép thể hiện doanh thu (triệu đồng) của hai chi nhánh A và B trong 3 tháng đầu năm: Tháng 1 (A: 50, B: 40); Tháng 2 (A: 60, B: 70); Tháng 3 (A: 55, B: 65). Tổng doanh thu sau 3 tháng của chi nhánh B nhiều hơn chi nhánh A là bao nhiêu triệu đồng?",
+      "options": [
+        "10 triệu đồng",
+        "15 triệu đồng",
+        "5 triệu đồng",
+        "20 triệu đồng"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Mục đích sử dụng chính của biểu đồ cột kép.",
-        "socraticPrompt": "Khi đặt hai cột cạnh nhau cho mỗi đối tượng, người đọc muốn so sánh điều gì giữa hai nhóm số liệu?",
-        "steps": "Biểu đồ cột kép ghép hai cột cạnh nhau để người đọc dễ dàng quan sát, đối chiếu và so sánh từng cặp số liệu của hai nhóm đối tượng cùng loại.",
-        "trap": "Nhầm công dụng của biểu đồ cột kép với biểu đồ hình quạt tròn."
-      }
-    },
-    {
-      "id": "t6_c9_th_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Khả năng xảy ra trong hộp kín",
-      "question": "Một hộp kín chứa 5 quả bóng màu xanh và 5 quả bóng màu đỏ có cùng kích thước. Lấy ngẫu nhiên 1 quả bóng. Khẳng định nào sau đây là ĐÚNG?",
-      "options": [
-        "Khả năng lấy được bóng xanh lớn hơn bóng đỏ",
-        "Khả năng lấy được bóng xanh và bóng đỏ là như nhau",
-        "Chắc chắn sẽ lấy được quả bóng màu đỏ",
-        "Không thể lấy được quả bóng màu xanh"
+        "concept": "Tính tổng số liệu của từng đối tượng qua các tháng rồi lấy hiệu số.",
+        "steps": [
+          "Bước 1: Tổng doanh thu chi nhánh A: 50 + 60 + 55 = 165 triệu đồng.",
+          "Bước 2: Tổng doanh thu chi nhánh B: 40 + 70 + 65 = 175 triệu đồng.",
+          "Bước 3: Chi nhánh B nhiều hơn chi nhánh A: 175 - 165 = 10 triệu đồng."
+        ],
+        "trap": "Chỉ lấy tháng 3 so sánh (65 - 55 = 10) mà quên không cộng tổng 3 tháng (tình cờ trùng số nhưng sai bản chất nếu số liệu khác).",
+        "socraticPrompt": "Tổng doanh thu 3 tháng của chi nhánh A là 165 triệu. Tổng của chi nhánh B là 175 triệu. Lấy 175 trừ 165 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Tổng doanh thu 3 tháng của chi nhánh A là 165 triệu. Tổng của chi nhánh B là 175 triệu. Lấy 175 trừ 165 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì tổng doanh thu chi nhánh B là 175 triệu, chi nhánh A là 165 triệu, chênh lệch là 175 - 165 = 10 triệu đồng.",
+        "Sai vì tính nhầm tổng chi nhánh A hoặc B.",
+        "Sai vì chỉ tính riêng chênh lệch của tháng 2 trừ tháng 1.",
+        "Sai vì cộng dồn sai số."
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Tính đồng khả năng của các sự kiện có cùng số lượng phần tử.",
-        "socraticPrompt": "Số lượng bóng xanh và bóng đỏ trong hộp bằng nhau (cùng có 5 quả), vậy khả năng bốc trúng mỗi màu có bằng nhau không?",
-        "steps": "Vì số lượng bóng xanh và bóng đỏ bằng nhau (đều là 5 quả) và các quả bóng có cùng kích thước nên khả năng lấy được bóng xanh và bóng đỏ là ngang nhau (như nhau, đều là 50%).",
-        "trap": "Khẳng định chắc chắn lấy được một màu cố định là SAI vì kết quả bốc là ngẫu nhiên."
-      }
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c9_th_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Xác suất thực nghiệm mặt đối lập",
-      "question": "Gieo một con xúc xắc 6 mặt 40 lần, số lần xuất hiện mặt có số chấm chẵn là 24 lần. Xác suất thực nghiệm xuất hiện mặt có số chấm lẻ là bao nhiêu?",
-      "options": [
-        "60%",
-        "40%",
-        "50%",
-        "30%"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Xác suất thực nghiệm của biến cố đối: P(lẻ) = 1 - P(chẵn).",
-        "socraticPrompt": "Tổng số lần gieo là 40 lần, mặt chẵn xuất hiện 24 lần thì mặt lẻ xuất hiện bao nhiêu lần? Tính tỉ số phần trăm đó?",
-        "steps": "Số lần xuất hiện mặt có số chấm lẻ là: 40 - 24 = 16 lần. Xác suất thực nghiệm xuất hiện mặt lẻ là: P = 16 / 40 = 2/5 = 0.4 = 40%.",
-        "trap": "Tính xác suất mặt chẵn (24/40 = 60%) rồi nhầm lẫn chọn 60%."
-      }
-    },
-    {
-      "id": "t6_c9_th_q4",
+      "id": "t6_c9_d3_04",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tỉ số phần trăm từ số liệu biểu đồ",
-      "question": "Số cây xanh trồng được của ba lớp khối 6 là: lớp 6A trồng 30 cây, lớp 6B trồng 35 cây, lớp 6C trồng 35 cây. Tỉ số phần trăm số cây của lớp 6B so với tổng số cây của cả khối 6 là bao nhiêu?",
+      "topic": "Xác suất thực nghiệm lấy bóng trong túi",
+      "question": "Trong túi có một số viên bi xanh và bi đỏ có kích thước như nhau. Bạn Nam lấy ngẫu nhiên 1 viên bi, ghi lại màu rồi bỏ lại vào túi. Sau 60 lần thử, có 45 lần Nam lấy được viên bi xanh. Biết trong túi có tổng cộng 20 viên bi, hãy dự đoán trong túi có khoảng bao nhiêu viên bi xanh?",
       "options": [
-        "30%",
-        "35%",
-        "40%",
+        "Khoảng 10 viên bi xanh",
+        "Khoảng 15 viên bi xanh",
+        "Khoảng 12 viên bi xanh",
+        "Khoảng 18 viên bi xanh"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Xác suất thực nghiệm lấy bi xanh = 45 / 60 = 3/4 (75%). Số bi xanh trong túi ước lượng = Tổng số bi × Xác suất.",
+        "steps": [
+          "Bước 1: Xác suất thực nghiệm lấy được bi xanh: P = 45 / 60 = 3/4 = 75%.",
+          "Bước 2: Trong túi có 20 viên bi.",
+          "Bước 3: Ước lượng số viên bi xanh trong túi: 20 × 3/4 = 15 viên bi xanh."
+        ],
+        "trap": "Lấy 20 chia cho 45/60 hoặc tính nhầm 20 × 0,6.",
+        "socraticPrompt": "45 lần trên 60 lần rút gọn thành phân số 3/4 (tức 75%). 3/4 của 20 viên bi bằng bao nhiêu viên?"
+      },
+      "socraticPrompt": "45 lần trên 60 lần rút gọn thành phân số 3/4 (tức 75%). 3/4 của 20 viên bi bằng bao nhiêu viên?",
+      "distractorReasons": [
+        "Sai vì 10 viên là một nửa (50%), trong khi tỉ lệ thực nghiệm lên tới 75%.",
+        "Đúng vì tỉ lệ rút được bi xanh là 45/60 = 3/4; ước lượng trong túi có 20 × 3/4 = 15 viên bi xanh.",
+        "Sai vì tính nhầm 20 × 60% = 12 viên.",
+        "Sai vì 18 viên là 90%."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c9_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Xác suất thực nghiệm hai đồng xu đồng thời",
+      "question": "Tung đồng thời hai đồng xu cân đối 80 lần, kết quả thu được: có 22 lần xuất hiện 2 mặt Sấp, 38 lần xuất hiện 1 Sấp 1 Ngửa, còn lại là 2 mặt Ngửa. Xác suất thực nghiệm của sự kiện 'Xuất hiện ít nhất một mặt Sấp' là:",
+      "options": [
+        "75% (hoặc 3/4)",
+        "27,5%",
+        "47,5%",
         "25%"
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Tính tỉ số phần trăm của một bộ phận so với toàn thể từ dữ liệu bảng/biểu đồ.",
-        "socraticPrompt": "Tổng số cây của cả ba lớp là bao nhiêu? Lấy số cây của lớp 6B chia cho tổng đó rồi đổi ra phần trăm?",
-        "steps": "Tổng số cây cả khối 6 trồng được là: 30 + 35 + 35 = 100 cây. Tỉ số phần trăm số cây của lớp 6B so với cả khối là: (35 · 100 / 100)% = 35%.",
-        "trap": "Lấy 35 chia cho 30 (chỉ so với lớp 6A) thay vì so với tổng số cây cả khối."
-      }
-    },
-    {
-      "id": "t6_c9_th_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Xác suất thực nghiệm trong thể thao bắn súng",
-      "question": "Một xạ thủ bắn 80 viên đạn vào bia mục tiêu và ghi nhận có 68 viên trúng vòng 10. Xác suất thực nghiệm để xạ thủ đó bắn trúng vòng 10 là bao nhiêu?",
-      "options": [
-        "85%",
-        "80%",
-        "90%",
-        "75%"
-      ],
       "correct": 0,
       "breakdown": {
-        "concept": "Ứng dụng xác suất thực nghiệm đánh giá độ chính xác trong thể thao.",
-        "socraticPrompt": "Lấy số viên đạn bắn trúng (68) chia cho tổng số viên đạn bắn ra (80) rồi nhân 100%?",
-        "steps": "Xác suất thực nghiệm bắn trúng vòng 10 là: P = 68 / 80 = 17 / 20 = (17 · 5) / (20 · 5) = 85 / 100 = 85%.",
-        "trap": "Tính nhầm 68 / 80 = 80% hoặc 90%."
-      }
+        "concept": "'Ít nhất một mặt Sấp' xảy ra khi có 1 mặt Sấp hoặc 2 mặt Sấp. Số lần xảy ra = 22 + 38 = 60 lần.",
+        "steps": [
+          "Bước 1: Sự kiện 'Ít nhất một mặt Sấp' bao gồm: cả 2 mặt Sấp (22 lần) và 1 Sấp 1 Ngửa (38 lần).",
+          "Bước 2: Tổng số lần xuất hiện ít nhất một mặt Sấp: 22 + 38 = 60 lần.",
+          "Bước 3: Xác suất thực nghiệm: P = 60 / 80 = 3/4 = 75%."
+        ],
+        "trap": "Chỉ tính trường hợp 2 mặt Sấp (22/80 = 27,5%) hoặc chỉ tính 1 Sấp 1 Ngửa (38/80 = 47,5%).",
+        "socraticPrompt": "'Ít nhất một mặt Sấp' nghĩa là 1 mặt Sấp cũng được mà 2 mặt Sấp cũng được. Lấy 22 cộng 38 bằng bao nhiêu lần? Chia cho 80 lần thì được bao nhiêu phần trăm?"
+      },
+      "socraticPrompt": "'Ít nhất một mặt Sấp' nghĩa là 1 mặt Sấp cũng được mà 2 mặt Sấp cũng được. Lấy 22 cộng 38 bằng bao nhiêu lần? Chia cho 80 lần thì được bao nhiêu phần trăm?",
+      "distractorReasons": [
+        "Đúng vì có 22 + 38 = 60 lần có ít nhất một mặt Sấp; xác suất là 60 / 80 = 3/4 = 75%.",
+        "Sai vì chỉ tính trường hợp cả 2 mặt Sấp (22 / 80 = 27,5%).",
+        "Sai vì chỉ tính trường hợp đúng 1 mặt Sấp (38 / 80 = 47,5%).",
+        "Sai vì 25% là xác suất của sự kiện không có mặt Sấp nào (2 mặt Ngửa)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c9_th_q6",
+      "id": "t6_c9_d3_06",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Xác suất thực nghiệm tung đồng thời hai đồng xu",
-      "question": "Tung đồng thời hai đồng xu 100 lần, ghi nhận được: 2 mặt sấp xuất hiện 26 lần, 2 mặt ngửa xuất hiện 24 lần, 1 mặt sấp và 1 mặt ngửa xuất hiện 50 lần. Xác suất thực nghiệm của sự kiện 'Có ít nhất một mặt sấp' là bao nhiêu?",
+      "topic": "Phát hiện lỗi sai trong thu thập và biểu diễn dữ liệu",
+      "question": "Bạn Hà lập bảng thống kê xếp loại học lực của 40 học sinh lớp 6A như sau: Tốt có 15 bạn, Khá có 18 bạn, Đạt có 8 bạn, Chưa đạt có 2 bạn. Bảng số liệu này có sai sót gì?",
       "options": [
-        "50%",
-        "76%",
-        "26%",
-        "74%"
+        "Lớp 6 không thể có học sinh xếp loại Chưa đạt",
+        "Không có sai sót gì, số liệu hoàn toàn hợp lý",
+        "Số học sinh Tốt phải luôn nhiều hơn số học sinh Khá",
+        "Tổng số học sinh trong các nhóm là 43 bạn, vượt quá sĩ số 40 học sinh của lớp"
       ],
-      "correct": 1,
+      "correct": 3,
       "breakdown": {
-        "concept": "Xác định các biến cố thuận lợi cho sự kiện 'có ít nhất một'.",
-        "socraticPrompt": "'Có ít nhất một mặt sấp' nghĩa là có thể xuất hiện 1 mặt sấp hoặc cả 2 mặt sấp. Hãy cộng số lần của hai trường hợp này lại?",
-        "steps": "Sự kiện 'Có ít nhất một mặt sấp' xảy ra khi có 1 mặt sấp (50 lần) hoặc cả 2 mặt sấp (26 lần). Tổng số lần xuất hiện biến cố là: 50 + 26 = 76 lần. Xác suất thực nghiệm là: P = 76 / 100 = 76%. (Cách 2: Lấy 100% trừ đi trường hợp 2 mặt ngửa: 100% - 24% = 76%).",
-        "trap": "Chỉ lấy trường hợp 1 mặt sấp (50%) hoặc chỉ lấy trường hợp 2 mặt sấp (26%)."
-      }
+        "concept": "Kiểm tra tính hợp lý của dữ liệu: Tổng số học sinh các nhóm phân loại phải bằng đúng sĩ số của cả lớp.",
+        "steps": [
+          "Bước 1: Sĩ số cả lớp là 40 học sinh.",
+          "Bước 2: Tính tổng số học sinh ở các mức xếp loại: 15 + 18 + 8 + 2 = 43 bạn.",
+          "Bước 3: Vì 43 > 40 nên dữ liệu bị sai lệch (dư 3 bạn so với sĩ số thực tế)."
+        ],
+        "trap": "Chỉ nhìn lướt qua thấy các số lẻ tẻ không phát hiện ra tổng số lượng vượt quá tổng thể.",
+        "socraticPrompt": "Hãy thử cộng tổng số học sinh 4 mức xếp loại lại: 15 + 18 + 8 + 2 bằng bao nhiêu? So với sĩ số 40 học sinh của lớp thì có gì mâu thuẫn?"
+      },
+      "socraticPrompt": "Hãy thử cộng tổng số học sinh 4 mức xếp loại lại: 15 + 18 + 8 + 2 bằng bao nhiêu? So với sĩ số 40 học sinh của lớp thì có gì mâu thuẫn?",
+      "distractorReasons": [
+        "Sai vì theo quy chế đánh giá học sinh THCS, mức Chưa đạt là mức xếp loại hợp lệ.",
+        "Sai vì có lỗi sai rõ ràng về tổng số học sinh.",
+        "Sai vì số học sinh Khá nhiều hơn Tốt là chuyện hoàn toàn bình thường.",
+        "Đúng vì tổng số bạn 15 + 18 + 8 + 2 = 43 bạn, mâu thuẫn với sĩ số 40 học sinh của lớp 6A."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -23,12 +23,15 @@
         "steps": "Ngô Quyền (đánh Nam Hán), Lê Hoàn (đánh Tống), Trần Quốc Tuấn (đánh Nguyên Mông).",
         "trap": "Chỉ nhớ một mình Ngô Quyền mà quên mất Lê Hoàn và Trần Hưng Đạo cũng đánh thắng trên sông Bạch Đằng."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác và đầy đủ nhất liên môn Lịch sử - Địa lí.",
-        "B": "Sai, vua Quang Trung đánh giặc Thanh trên bộ ở Thăng Long (Ngọc Hồi - Đống Đa).",
-        "C": "Sai, Đinh Bộ Lĩnh chiến đấu ở vùng thung lũng Hoa Lư.",
-        "D": "Sai, Lý Bí khởi nghĩa ở vùng đồng bằng sông Hồng và đầm Dạ Trạch."
-      }
+      "distractorReasons": [
+        "Đúng vì và đầy đủ nhất liên môn Lịch sử - Địa lí.",
+        "Sai vì vua Quang Trung đánh giặc Thanh trên bộ ở Thăng Long (Ngọc Hồi - Đống Đa).",
+        "Sai vì Đinh Bộ Lĩnh chiến đấu ở vùng thung lũng Hoa Lư.",
+        "Sai vì Lý Bí khởi nghĩa ở vùng đồng bằng sông Hồng và đầm Dạ Trạch."
+      ],
+      "socraticPrompt": "Dòng sông Bạch Đằng 3 lần ghi dấu chiến công cọc nhọn thủy triều gắn với những vị anh hùng nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch10_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Mất rừng đầu nguồn -> lũ quét, sạt lở đất mùa mưa + hạn hán khốc liệt mùa khô.",
         "trap": "Cho rằng chặt rừng giúp nước mưa thấm xuống đất nhiều hơn (thực tế nước chảy tràn trên mặt đất rửa trôi đất màu)."
       },
-      "distractorReasons": {
-        "A": "Sai, mất rừng làm nước chảy tràn trên mặt chứ không thấm được vào lòng đất.",
-        "B": "Đáp án đúng theo bài học vai trò của rừng trong chu trình nước SGK trang 160.",
-        "C": "Sai, mất rừng làm thời tiết trở nên khắc nghiệt khô nóng hơn.",
-        "D": "Sai, nước sông sẽ đục ngầu bùn đất phù sa xói mòn."
-      }
+      "distractorReasons": [
+        "Sai vì mất rừng làm nước chảy tràn trên mặt chứ không thấm được vào lòng đất.",
+        "Đúng vì bài học vai trò của rừng trong chu trình nước SGK trang 160.",
+        "Sai vì mất rừng làm thời tiết trở nên khắc nghiệt khô nóng hơn.",
+        "Sai vì nước sông sẽ đục ngầu bùn đất phù sa xói mòn."
+      ],
+      "socraticPrompt": "Cây rừng có rễ giữ đất và lá chắn hạt mưa. Mất cây thì khi mưa to đất đá sẽ trôi đi đâu?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch10_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Tài nguyên nước ngọt dễ tiếp cận cực kì khan hiếm -> phải tiết kiệm và chống ô nhiễm.",
         "trap": "Ảo tưởng rằng nước trên Trái Đất bao la thì không bao giờ thiếu nước ngọt."
       },
-      "distractorReasons": {
-        "A": "Sai, nước ngọt rất khan hiếm ở nhiều quốc gia trên thế giới.",
-        "B": "Sai, uống nước mặn sẽ làm cơ thể mất nước và tử vong.",
-        "C": "Đáp án đúng theo phân tích tài nguyên nước SGK trang 157.",
-        "D": "Sai, việc tiết kiệm xuất phát từ quy luật tự nhiên chứ không do hành chính đơn thuần."
-      }
+      "distractorReasons": [
+        "Sai vì nước ngọt rất khan hiếm ở nhiều quốc gia trên thế giới.",
+        "Sai vì uống nước mặn sẽ làm cơ thể mất nước và tử vong.",
+        "Đúng vì ân tích tài nguyên nước SGK trang 157.",
+        "Sai vì việc tiết kiệm xuất phát từ quy luật tự nhiên chứ không do hành chính đơn thuần."
+      ],
+      "socraticPrompt": "Nước ngọt trên Trái Đất có nhiều hay rất ít? Nước biển có uống để sinh hoạt được không?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch10_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Sự cạnh tranh ánh nắng Mặt Trời tạo nên cấu trúc phân tầng rừng mưa nhiệt đới.",
         "trap": "Nghĩ rằng rừng mưa nhiệt đới do con người tự trồng tỉa."
       },
-      "distractorReasons": {
-        "A": "Sai, rừng mưa nhiệt đới là rừng nguyên sinh tự nhiên.",
-        "B": "Sai, sinh khối và chu trình dinh dưỡng rừng nhiệt đới rất dồi dào.",
-        "C": "Sai, chim chóc thích nghi theo tầng tán chứ không ép cây mọc.",
-        "D": "Đáp án đúng theo SGK trang 173."
-      }
+      "distractorReasons": [
+        "Sai vì rừng mưa nhiệt đới là rừng nguyên sinh tự nhiên.",
+        "Sai vì sinh khối và chu trình dinh dưỡng rừng nhiệt đới rất dồi dào.",
+        "Sai vì chim chóc thích nghi theo tầng tán chứ không ép cây mọc.",
+        "Đúng vì SGK trang 173."
+      ],
+      "socraticPrompt": "Trong khu rừng rậm cây cối mọc chen chúc, các cây phải vươn cao lên để hứng cái gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch10_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Xác sinh vật phân giải = chất hữu cơ mùn.",
         "trap": "Nhầm đá mẹ tạo ra mùn (đá mẹ chỉ tạo ra chất khoáng vô cơ)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 169.",
-        "B": "Sai, đá mẹ phong hóa tạo ra thành phần chất khoáng vô cơ.",
-        "C": "Sai, nước mưa chỉ cung cấp độ ẩm.",
-        "D": "Sai, cát mịn là hạt khoáng thạch anh vô sinh."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 169.",
+        "Sai vì đá mẹ phong hóa tạo ra thành phần chất khoáng vô cơ.",
+        "Sai vì nước mưa chỉ cung cấp độ ẩm.",
+        "Sai vì cát mịn là hạt khoáng thạch anh vô sinh."
+      ],
+      "socraticPrompt": "Lá cây rụng xuống đất lâu ngày bị mục nát biến thành chất gì bón cho cây?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch10_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Sông Mê Công đoạn chảy qua Việt Nam = Sông Cửu Long.",
         "trap": "Nhầm sông Đồng Nai (sông Đồng Nai là hệ thống sông riêng ở miền Đông Nam Bộ)."
       },
-      "distractorReasons": {
-        "A": "Sai, sông Hồng chảy ở miền Bắc nước ta.",
-        "B": "Đáp án đúng theo kiến thức địa lí sông ngòi Việt Nam SGK trang 159.",
-        "C": "Sai, sông Đồng Nai là hệ thống sông nội địa lớn thứ 2 ở Nam Bộ.",
-        "D": "Sai, sông Đà là phụ lưu lớn nhất của sông Hồng ở Tây Bắc."
-      }
+      "distractorReasons": [
+        "Sai vì sông Hồng chảy ở miền Bắc nước ta.",
+        "Đúng vì kiến thức địa lí sông ngòi Việt Nam SGK trang 159.",
+        "Sai vì sông Đồng Nai là hệ thống sông nội địa lớn thứ 2 ở Nam Bộ.",
+        "Sai vì sông Đà là phụ lưu lớn nhất của sông Hồng ở Tây Bắc."
+      ],
+      "socraticPrompt": "Con sông nào mang tên chín con rồng ở miền Tây Nam Bộ?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

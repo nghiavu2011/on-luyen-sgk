@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nguồn gốc thể thơ lục bát.?",
+      "distractorReasons": [
+        "Sai vì 'Dân tộc Ấn Độ' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc thể thơ lục bát.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dân tộc Trung Hoa' (Không nhầm với thơ Đường luật xuất phát từ Trung Quốc.).",
+        "Đúng vì theo Nguồn gốc thể thơ lục bát.: Lục bát là thể thơ độc đáo do người Việt Nam sáng tạo và lưu truyền ngàn đời.",
+        "Sai vì 'Dân tộc Hy Lạp' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc thể thơ lục bát.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -51,7 +59,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt từ đồng âm và từ đa nghĩa.?",
+      "distractorReasons": [
+        "Sai vì 'Mũi người và Mũi thuyền' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đồng âm và từ đa nghĩa.).",
+        "Sai vì 'Mắt người và Mắt na' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đồng âm và từ đa nghĩa.).",
+        "Sai vì 'Chân núi và Chân bàn' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đồng âm và từ đa nghĩa.).",
+        "Đúng vì theo Phân biệt từ đồng âm và từ đa nghĩa.: 'Đường' trong đường ăn và 'đường' đi lại chỉ giống âm phát ra, nghĩa không hề có nét chung nào."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -76,7 +92,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được liên hệ văn học: thơ hiện đại gợi nhắc cổ tích dân gian.?",
+      "distractorReasons": [
+        "Đúng vì theo Liên hệ văn học: Thơ hiện đại gợi nhắc cổ tích dân gian.: Cô Tấm thảo hiền hóa thân vào quả thị thơm, giấu mình giúp bà lão hàng nước.",
+        "Sai vì 'Truyện Thạch Sanh' không phù hợp với định lý/quy tắc trọng tâm (Liên hệ văn học: Thơ hiện đại gợi nhắc cổ tích dân gian.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Truyện Cây khế' (Cây khế gắn với con chim thần, không phải quả thị.).",
+        "Sai vì 'Truyện Sọ Dừa' không phù hợp với định lý/quy tắc trọng tâm (Liên hệ văn học: Thơ hiện đại gợi nhắc cổ tích dân gian.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -101,7 +125,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được quy tắc gieo vần thể thơ lục bát chuẩn mực.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiếng cuối câu lục vần với tiếng đầu câu bát' (thứ tự số tiếng trong cặp câu).",
+        "Đúng vì theo Quy tắc gieo vần thể thơ lục bát chuẩn mực.: Quy tắc 6-6 và 8-6 gieo vần bằng (B).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Toàn bộ các tiếng đều phải gieo vần trắc', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có quy luật gieo vần' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -126,7 +158,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích tác dụng biện pháp tu từ trong văn bản 'cây tre việt nam'.?",
+      "distractorReasons": [
+        "Sai vì 'Nói quá và Liệt kê phi logic' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tác dụng biện pháp tu từ trong văn bản 'Cây tre Việt Nam'.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'So sánh và Chơi chữ' (Không phải chơi chữ hay cảm giác.).",
+        "Đúng vì: Gán hành động anh hùng 'xung phong', 'giữ làng' cho tre (nhân hóa) và lặp từ 'tre', 'giữ' (điệp từ).",
+        "Sai vì 'Ẩn dụ chuyển đổi cảm giác' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tác dụng biện pháp tu từ trong văn bản 'Cây tre Việt Nam'.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -151,7 +191,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: giải mã biểu tượng nghệ thuật văn hóa dân tộc.?",
+      "distractorReasons": [
+        "Sai vì 'Biểu tượng cho ngành nông nghiệp xuất khẩu mây tre đan' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Giải mã biểu tượng nghệ thuật văn hóa dân tộc.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ là một loài cây lấy gỗ làm đồ gia dụng' (Tránh hiểu nghĩa công dụng vật chất đơn thuần.).",
+        "Sai vì 'Loài thực vật phát triển nhanh nhất vùng nhiệt đới' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Giải mã biểu tượng nghệ thuật văn hóa dân tộc.).",
+        "Đúng vì: Tre mọc thẳng, dẻo dai, đoàn kết thành lũy, gắn bó trọn đời người từ thuở lọt lòng đến lúc nhắm mắt."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

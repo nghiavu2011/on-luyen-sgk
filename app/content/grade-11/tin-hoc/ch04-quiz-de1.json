@@ -20,97 +20,151 @@
         "concept": "Giao thức TCP/IP",
         "steps": "TCP/IP.",
         "socraticPrompt": "Bộ giao thức chuẩn của Internet là gì?"
-      }
+      },
+      "socraticPrompt": "Bộ giao thức chuẩn của Internet là gì?",
+      "distractorReasons": [
+        "Đúng vì 'TCP/IP' phản ánh chuẩn xác kiến thức SGK: Giao thức TCP/IP.",
+        "Sai vì 'HTTP/HTML' không phù hợp với định lý/quy tắc trọng tâm (Giao thức TCP/IP).",
+        "Sai vì 'USB/SATA' không phù hợp với định lý/quy tắc trọng tâm (Giao thức TCP/IP).",
+        "Sai vì 'PCI/AGP' không phù hợp với định lý/quy tắc trọng tâm (Giao thức TCP/IP)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Địa chỉ IPv4 được biểu diễn dưới dạng dãy số nhị phân có độ dài là",
       "options": [
-        "32 bit",
         "64 bit",
+        "32 bit",
         "128 bit",
         "16 bit"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "IPv4 có cấu trúc 32 bit chia làm 4 octet.",
       "breakdown": {
         "concept": "Độ dài IPv4",
         "steps": "32 bit.",
         "socraticPrompt": "IPv4 dài bao nhiêu bit?"
-      }
+      },
+      "socraticPrompt": "IPv4 dài bao nhiêu bit?",
+      "distractorReasons": [
+        "Sai vì '64 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv4).",
+        "Đúng vì '32 bit' phản ánh chuẩn xác kiến thức SGK: Độ dài IPv4.",
+        "Sai vì '128 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv4).",
+        "Sai vì '16 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv4)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Địa chỉ IPv6 có độ dài bao nhiêu bit?",
       "options": [
-        "128 bit",
-        "32 bit",
         "64 bit",
+        "32 bit",
+        "128 bit",
         "256 bit"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "IPv6 có độ dài 128 bit biểu diễn dưới dạng hexa.",
       "breakdown": {
         "concept": "Độ dài IPv6",
         "steps": "128 bit.",
         "socraticPrompt": "IPv6 dài bao nhiêu bit?"
-      }
+      },
+      "socraticPrompt": "IPv6 dài bao nhiêu bit?",
+      "distractorReasons": [
+        "Sai vì '64 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv6).",
+        "Sai vì '32 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv6).",
+        "Đúng vì '128 bit' phản ánh chuẩn xác kiến thức SGK: Độ dài IPv6.",
+        "Sai vì '256 bit' không phù hợp với định lý/quy tắc trọng tâm (Độ dài IPv6)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Dịch vụ mạng giúp chuyển đổi tên miền (vd: `vnexpress.net`) thành địa chỉ IP để máy tính kết nối gọi là",
       "options": [
-        "DNS (Domain Name System)",
+        "SMTP",
         "DHCP",
         "FTP",
-        "SMTP"
+        "DNS (Domain Name System)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "DNS là danh bạ phân giải tên miền thành địa chỉ IP.",
       "breakdown": {
         "concept": "Hệ thống DNS",
         "steps": "DNS chuyển tên miền thành IP.",
         "socraticPrompt": "Dịch vụ đổi tên web thành số IP là gì?"
-      }
+      },
+      "socraticPrompt": "Dịch vụ đổi tên web thành số IP là gì?",
+      "distractorReasons": [
+        "Sai vì 'SMTP' không phù hợp với định lý/quy tắc trọng tâm (Hệ thống DNS).",
+        "Sai vì 'DHCP' không phù hợp với định lý/quy tắc trọng tâm (Hệ thống DNS).",
+        "Sai vì 'FTP' không phù hợp với định lý/quy tắc trọng tâm (Hệ thống DNS).",
+        "Đúng vì theo Hệ thống DNS: DNS chuyển tên miền thành IP."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Thiết bị mạng dùng để kết nối các máy tính trong cùng một mạng cục bộ (LAN) là",
       "options": [
-        "Switch (Bộ chuyển mạch)",
         "Chuột máy tính",
+        "Switch (Bộ chuyển mạch)",
         "Bàn phím cơ",
         "Máy in"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Switch quản lý truyền dữ liệu nội bộ qua địa chỉ MAC.",
       "breakdown": {
         "concept": "Thiết bị Switch",
         "steps": "Switch kết nối mạng LAN.",
         "socraticPrompt": "Thiết bị nào nối mạng LAN nội bộ?"
-      }
+      },
+      "socraticPrompt": "Thiết bị nào nối mạng LAN nội bộ?",
+      "distractorReasons": [
+        "Sai vì 'Chuột máy tính' không phù hợp với định lý/quy tắc trọng tâm (Thiết bị Switch).",
+        "Đúng vì theo Thiết bị Switch: Switch kết nối mạng LAN.",
+        "Sai vì 'Bàn phím cơ' không phù hợp với định lý/quy tắc trọng tâm (Thiết bị Switch).",
+        "Sai vì 'Máy in' không phù hợp với định lý/quy tắc trọng tâm (Thiết bị Switch)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Khái niệm IoT là viết tắt của cụm từ tiếng Anh nào?",
       "options": [
-        "Internet of Things (Internet vạn vật)",
-        "Input of Technology",
         "Information of Telecom",
+        "Input of Technology",
+        "Internet of Things (Internet vạn vật)",
         "Internal of Transmit"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Internet of Things - Mạng lưới vạn vật kết nối Internet.",
       "breakdown": {
         "concept": "Khái niệm IoT",
         "steps": "Internet of Things.",
         "socraticPrompt": "IoT viết tắt của từ gì?"
-      }
+      },
+      "socraticPrompt": "IoT viết tắt của từ gì?",
+      "distractorReasons": [
+        "Sai vì 'Information of Telecom' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm IoT).",
+        "Sai vì 'Input of Technology' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm IoT).",
+        "Đúng vì theo Khái niệm IoT: Internet of Things.",
+        "Sai vì 'Internal of Transmit' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm IoT)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

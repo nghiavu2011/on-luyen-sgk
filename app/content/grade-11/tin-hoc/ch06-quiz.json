@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Nghịch lý 'Phi chuẩn hóa' (Denormalization) trong các hệ thống dữ liệu lớn (Big Data / Data Warehouse) được áp dụng khi nào?",
       "options": [
-        "Chấp nhận dư thừa dữ liệu có kiểm soát để giảm bớt số lượng phép JOIN, tối ưu hóa tốc độ đọc báo cáo",
-        "Khi lập trình viên lười biếng",
         "Khi hệ thống bị lỗi",
+        "Khi lập trình viên lười biếng",
+        "Chấp nhận dư thừa dữ liệu có kiểm soát để giảm bớt số lượng phép JOIN, tối ưu hóa tốc độ đọc báo cáo",
         "Khi không biết chuẩn hóa"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Đánh đổi giữa không gian lưu trữ và tốc độ truy vấn trong kiến trúc dữ liệu hiện đại.",
       "breakdown": {
         "concept": "Kỹ thuật Denormalization",
         "steps": "Chấp nhận dư thừa để tăng tốc đọc dữ liệu lớn.",
         "socraticPrompt": "Tại sao đôi khi người ta lại cố tình phi chuẩn hóa CSDL?"
-      }
+      },
+      "socraticPrompt": "Tại sao đôi khi người ta lại cố tình phi chuẩn hóa CSDL?",
+      "distractorReasons": [
+        "Sai vì 'Khi hệ thống bị lỗi' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Denormalization).",
+        "Sai vì 'Khi lập trình viên lười biếng' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Denormalization).",
+        "Đúng vì theo Kỹ thuật Denormalization: Chấp nhận dư thừa để tăng tốc đọc dữ liệu lớn.",
+        "Sai vì phủ định sai bản chất: 'Khi không biết chuẩn hóa' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Khái niệm 'Khóa tự nhiên' (Natural Key) và 'Khóa đại diện' (Surrogate Key như Auto-Increment ID / UUID) khác nhau ở chỗ",
       "options": [
-        "Khóa tự nhiên bắt nguồn từ dữ liệu thực (vd: CCCD), Khóa đại diện là số tự tăng hoặc mã ngẫu nhiên sinh tự động",
+        "Hai khái niệm giống nhau",
         "Khóa đại diện luôn là chữ cái",
         "Khóa tự nhiên không dùng được",
-        "Hai khái niệm giống nhau"
+        "Khóa tự nhiên bắt nguồn từ dữ liệu thực (vd: CCCD), Khóa đại diện là số tự tăng hoặc mã ngẫu nhiên sinh tự động"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Sử dụng Surrogate Key (ID tự tăng/UUID) giúp hệ thống linh hoạt và không bị ảnh hưởng khi dữ liệu nghiệp vụ thay đổi.",
       "breakdown": {
         "concept": "Surrogate Key vs Natural Key",
         "steps": "Surrogate Key là ID tự tăng, độc lập dữ liệu nghiệp vụ.",
         "socraticPrompt": "Khóa tự tăng (ID) khác số CCCD như thế nào?"
-      }
+      },
+      "socraticPrompt": "Khóa tự tăng (ID) khác số CCCD như thế nào?",
+      "distractorReasons": [
+        "Sai vì 'Hai khái niệm giống nhau' không phù hợp với định lý/quy tắc trọng tâm (Surrogate Key vs Natural Key).",
+        "Sai vì 'Khóa đại diện luôn là chữ cái' không phù hợp với định lý/quy tắc trọng tâm (Surrogate Key vs Natural Key).",
+        "Sai vì phủ định sai bản chất: 'Khóa tự nhiên không dùng được' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Surrogate Key vs Natural Key: Surrogate Key là ID tự tăng, độc lập dữ liệu nghiệp vụ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Kỹ thuật Sharding Partitioning",
         "steps": "Chia nhỏ bảng khổng lồ ra nhiều máy chủ.",
         "socraticPrompt": "Database Sharding giải quyết vấn đề gì?"
-      }
+      },
+      "socraticPrompt": "Database Sharding giải quyết vấn đề gì?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ thuật Sharding Partitioning: Chia nhỏ bảng khổng lồ ra nhiều máy chủ.",
+        "Sai vì 'Xóa bớt dữ liệu cũ' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Sharding Partitioning).",
+        "Sai vì 'Nén ảnh đại diện' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Sharding Partitioning).",
+        "Sai vì 'Giảm bớt bộ nhớ RAM' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Sharding Partitioning)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Vai trò của 'Lược đồ hình sao' (Star Schema) và 'Lược đồ bông tuyết' (Snowflake Schema) trong hệ thống Data Warehouse là",
       "options": [
-        "Tối ưu hóa cấu trúc bảng sự kiện (Fact) và bảng chiều (Dimension) phục vụ phân tích dữ liệu kinh doanh thông minh (BI)",
         "Dùng để thiết kế đồ họa game",
+        "Tối ưu hóa cấu trúc bảng sự kiện (Fact) và bảng chiều (Dimension) phục vụ phân tích dữ liệu kinh doanh thông minh (BI)",
         "Dùng để nén file nhạc",
         "Không có tác dụng gì"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Nền tảng của Business Intelligence và phân tích dữ liệu doanh nghiệp.",
       "breakdown": {
         "concept": "Star Schema trong Data Warehouse",
         "steps": "Cấu trúc Fact và Dimension phân tích kinh doanh BI.",
         "socraticPrompt": "Lược đồ hình sao (Star Schema) dùng để làm gì?"
-      }
+      },
+      "socraticPrompt": "Lược đồ hình sao (Star Schema) dùng để làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Dùng để thiết kế đồ họa game' không phù hợp với định lý/quy tắc trọng tâm (Star Schema trong Data Warehouse).",
+        "Đúng vì theo Star Schema trong Data Warehouse: Cấu trúc Fact và Dimension phân tích kinh doanh BI.",
+        "Sai vì 'Dùng để nén file nhạc' không phù hợp với định lý/quy tắc trọng tâm (Star Schema trong Data Warehouse).",
+        "Sai vì phủ định sai bản chất: 'Không có tác dụng gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Hiện tượng Deadlock",
         "steps": "Các giao dịch chờ đợi lẫn nhau gây nghẽn.",
         "socraticPrompt": "Hiện tượng khóa chết (Deadlock) trong CSDL là gì?"
-      }
+      },
+      "socraticPrompt": "Hiện tượng khóa chết (Deadlock) trong CSDL là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Hiện tượng Deadlock: Các giao dịch chờ đợi lẫn nhau gây nghẽn.",
+        "Sai vì 'Khi mất kết nối Internet' không phù hợp với định lý/quy tắc trọng tâm (Hiện tượng Deadlock).",
+        "Sai vì 'Khi ổ cứng bị đầy' không phù hợp với định lý/quy tắc trọng tâm (Hiện tượng Deadlock).",
+        "Sai vì 'Khi máy chủ bị ngắt điện' không phù hợp với định lý/quy tắc trọng tâm (Hiện tượng Deadlock)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh hôm nay vận dụng kiến thức thiết kế CSDL để xây dựng giải pháp số tương lai với tâm thế",
       "options": [
-        "Tỉ mỉ, chuẩn xác, đặt trải nghiệm người dùng và an toàn dữ liệu lên hàng đầu",
+        "Bỏ qua các nguyên tắc khoa học",
         "Làm qua loa đại khái",
         "Không kiểm tra lỗi",
-        "Bỏ qua các nguyên tắc khoa học"
+        "Tỉ mỉ, chuẩn xác, đặt trải nghiệm người dùng và an toàn dữ liệu lên hàng đầu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Tác phong chuyên nghiệp của kỹ sư công nghệ tương lai.",
       "breakdown": {
         "concept": "Tác phong kỹ sư phần mềm",
         "steps": "Tỉ mỉ, chuẩn xác, coi trọng an toàn dữ liệu.",
         "socraticPrompt": "Tâm thế của người thiết kế CSDL chuyên nghiệp là gì?"
-      }
+      },
+      "socraticPrompt": "Tâm thế của người thiết kế CSDL chuyên nghiệp là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bỏ qua các nguyên tắc khoa học' không phù hợp với định lý/quy tắc trọng tâm (Tác phong kỹ sư phần mềm).",
+        "Sai vì 'Làm qua loa đại khái' không phù hợp với định lý/quy tắc trọng tâm (Tác phong kỹ sư phần mềm).",
+        "Sai vì phủ định sai bản chất: 'Không kiểm tra lỗi' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Tác phong kỹ sư phần mềm: Tỉ mỉ, chuẩn xác, coi trọng an toàn dữ liệu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -23,12 +23,15 @@
         "steps": "Quá khứ là đối tượng nghiên cứu của lịch sử, bao gồm mọi hoạt động, biến cố của con người và tự nhiên.",
         "trap": "Học sinh thường nhầm lịch sử chỉ là sách sử do vua chúa ghi chép lại hoặc các truyền thuyết dân gian."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo SGK trang 11.",
-        "B": "Sai, truyện thần thoại là tư liệu truyền miệng dân gian, không phải toàn bộ lịch sử.",
-        "C": "Sai, dự đoán tương lai thuộc ngành dự báo khoa học viễn tưởng.",
-        "D": "Sai, văn bản triều đình chỉ là một bộ phận của tư liệu chữ viết."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 11.",
+        "Sai vì truyện thần thoại là tư liệu truyền miệng dân gian, không phải toàn bộ lịch sử.",
+        "Sai vì dự đoán tương lai thuộc ngành dự báo khoa học viễn tưởng.",
+        "Sai vì văn bản triều đình chỉ là một bộ phận của tư liệu chữ viết."
+      ],
+      "socraticPrompt": "Lịch sử gắn liền với quá khứ, hiện tại hay tương lai?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch01_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Địa điểm Đền Hùng gắn liền với cội nguồn Vua Hùng dựng nước Văn Lang.",
         "trap": "Học sinh dễ nhầm với câu thơ 'Dân ta phải biết sử ta' trong tác phẩm Lịch sử nước ta (1942)."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là lời kêu gọi chống Mỹ cứu nước năm 1966.",
-        "B": "Đáp án đúng theo tư liệu SGK trang 12.",
-        "C": "Sai, đây là câu thơ trích trong bài 'Lịch sử nước ta' năm 1942.",
-        "D": "Sai, đây là khẩu hiệu đại đoàn kết dân tộc của Bác."
-      }
+      "distractorReasons": [
+        "Sai vì đây là lời kêu gọi chống Mỹ cứu nước năm 1966.",
+        "Đúng vì ư liệu SGK trang 12.",
+        "Sai vì đây là câu thơ trích trong bài 'Lịch sử nước ta' năm 1942.",
+        "Sai vì đây là khẩu hiệu đại đoàn kết dân tộc của Bác."
+      ],
+      "socraticPrompt": "Tại Đền Hùng thờ cúng các vị vua nào khai sáng nước Việt?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch01_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Trống đồng Ngọc Lũ khắc họa hoa văn chim lạc, cảnh giã gạo, người chèo thuyền, phản ánh sinh động cuộc sống người Việt cổ.",
         "trap": "Bia tiến sĩ thuộc thời phong kiến Hậu Lê (thế kỉ XV), không phải thời cổ đại dựng nước."
       },
-      "distractorReasons": {
-        "A": "Sai, bia tiến sĩ Văn Miếu thuộc thời Lê sơ (thế kỉ XV trở đi).",
-        "B": "Sai, Tuyên ngôn Độc lập thuộc lịch sử cận - hiện đại năm 1945.",
-        "C": "Đáp án đúng theo hình 1 trang 13 SGK.",
-        "D": "Sai, kinh thành Huế được xây dựng dưới triều Nguyễn (thế kỉ XIX)."
-      }
+      "distractorReasons": [
+        "Sai vì bia tiến sĩ Văn Miếu thuộc thời Lê sơ (thế kỉ XV trở đi).",
+        "Sai vì Tuyên ngôn Độc lập thuộc lịch sử cận - hiện đại năm 1945.",
+        "Đúng vì ình 1 trang 13 SGK.",
+        "Sai vì kinh thành Huế được xây dựng dưới triều Nguyễn (thế kỉ XIX)."
+      ],
+      "socraticPrompt": "Văn minh Đông Sơn gắn liền với hiện vật kim loại đúc bằng chất liệu gì?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch01_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Truyền miệng là qua lời kể dân gian từ thế hệ này sang thế hệ khác (như truyện Sơn Tinh - Thủy Tinh, Thánh Gióng).",
         "trap": "Dễ nhầm di cốt hoặc công cụ là tư liệu truyền miệng, trong khi chúng là tư liệu hiện vật."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là tư liệu chữ viết.",
-        "B": "Sai, đây là tư liệu hiện vật khảo cổ.",
-        "C": "Sai, công cụ đá là tư liệu hiện vật.",
-        "D": "Đáp án đúng theo SGK trang 15."
-      }
+      "distractorReasons": [
+        "Sai vì đây là tư liệu chữ viết.",
+        "Sai vì đây là tư liệu hiện vật khảo cổ.",
+        "Sai vì công cụ đá là tư liệu hiện vật.",
+        "Đúng vì SGK trang 15."
+      ],
+      "socraticPrompt": "Từ 'truyền miệng' chỉ phương thức lưu giữ thông tin qua lời nói hay qua chữ viết?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch01_d1_05",
@@ -127,12 +139,15 @@
         "steps": "Thông tin trực tiếp từ đương thời không bị biến dạng qua việc sao chép, truyền khẩu hay diễn giải chủ quan của đời sau.",
         "trap": "Nhầm lẫn tư liệu gốc với tư liệu thứ cấp (sách nghiên cứu của học giả hiện đại)."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo SGK trang 15.",
-        "B": "Sai, tư liệu gốc cổ xưa thường được viết tay hoặc khắc đá, không in máy hiện đại.",
-        "C": "Sai, sách do nhà nghiên cứu viết lại là tư liệu thứ cấp.",
-        "D": "Sai, tư liệu gốc thường rất hiếm và khó bảo quản qua hàng nghìn năm."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 15.",
+        "Sai vì tư liệu gốc cổ xưa thường được viết tay hoặc khắc đá, không in máy hiện đại.",
+        "Sai vì sách do nhà nghiên cứu viết lại là tư liệu thứ cấp.",
+        "Sai vì tư liệu gốc thường rất hiếm và khó bảo quản qua hàng nghìn năm."
+      ],
+      "socraticPrompt": "Nguồn tin trực tiếp tại hiện trường và nguồn tin kể lại qua nhiều người, nguồn nào chân thực hơn?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch01_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Thái dương lịch = lịch theo Mặt Trời. Do người phương Tây cổ đại tính toán và hoàn thiện thành Công lịch.",
         "trap": "Nhầm chu kì của Mặt Trăng (Âm lịch - Thái âm)."
       },
-      "distractorReasons": {
-        "A": "Sai, chu kì Mặt Trăng quanh Trái Đất là cơ sở của Âm lịch.",
-        "B": "Đáp án đúng theo SGK trang 17.",
-        "C": "Sai, mùa lũ chỉ là lịch nông nghiệp cục bộ thời cổ.",
-        "D": "Sai, sao Kim không phải là cơ sở lập lịch dương."
-      }
+      "distractorReasons": [
+        "Sai vì chu kì Mặt Trăng quanh Trái Đất là cơ sở của Âm lịch.",
+        "Đúng vì SGK trang 17.",
+        "Sai vì mùa lũ chỉ là lịch nông nghiệp cục bộ thời cổ.",
+        "Sai vì sao Kim không phải là cơ sở lập lịch dương."
+      ],
+      "socraticPrompt": "'Dương' trong từ Hán Việt có nghĩa là gì? (Thái dương = Mặt Trời).",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

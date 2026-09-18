@@ -20,97 +20,151 @@
         "concept": "Xiêm giữ độc lập",
         "steps": "Thái Lan là nước duy nhất giữ độc lập.",
         "socraticPrompt": "Nước nào ở Đông Nam Á không bị thực dân đô hộ?"
-      }
+      },
+      "socraticPrompt": "Nước nào ở Đông Nam Á không bị thực dân đô hộ?",
+      "distractorReasons": [
+        "Đúng vì theo Xiêm giữ độc lập: Thái Lan là nước duy nhất giữ độc lập.",
+        "Sai vì 'Miến Điện' không phù hợp với định lý/quy tắc trọng tâm (Xiêm giữ độc lập).",
+        "Sai vì 'In-đô-nê-xi-a' không phù hợp với định lý/quy tắc trọng tâm (Xiêm giữ độc lập).",
+        "Sai vì 'Mã Lai' không phù hợp với định lý/quy tắc trọng tâm (Xiêm giữ độc lập)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Ba quốc gia Đông Nam Á đầu tiên giành độc lập trong năm 1945 là",
       "options": [
-        "In-đô-nê-xi-a, Việt Nam, Lào",
         "Thái Lan, Mi-an-ma, Bru-nây",
+        "In-đô-nê-xi-a, Việt Nam, Lào",
         "Mã Lai, Xin-ga-po, Cam-pu-chia",
         "Phi-líp-pin, Đông Ti-mo, Lào"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Năm 1945: In-đô-nê-xi-a (17/8), Việt Nam (2/9), Lào (12/10) tuyên bố độc lập.",
       "breakdown": {
         "concept": "Ba nước 1945",
         "steps": "Indonesia, Việt Nam, Lào.",
         "socraticPrompt": "Năm 1945 những nước nào tuyên bố độc lập?"
-      }
+      },
+      "socraticPrompt": "Năm 1945 những nước nào tuyên bố độc lập?",
+      "distractorReasons": [
+        "Sai vì 'Thái Lan, Mi-an-ma, Bru-nây' không phù hợp với định lý/quy tắc trọng tâm (Ba nước 1945).",
+        "Đúng vì theo Ba nước 1945: Indonesia, Việt Nam, Lào.",
+        "Sai vì 'Mã Lai, Xin-ga-po, Cam-pu-chia' không phù hợp với định lý/quy tắc trọng tâm (Ba nước 1945).",
+        "Sai vì 'Phi-líp-pin, Đông Ti-mo, Lào' không phù hợp với định lý/quy tắc trọng tâm (Ba nước 1945)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập vào năm nào?",
       "options": [
-        "1967",
-        "1945",
         "1975",
+        "1945",
+        "1967",
         "1995"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "ASEAN thành lập ngày 8/8/1967 tại Bangkok với 5 nước sáng lập.",
       "breakdown": {
         "concept": "Thành lập ASEAN",
         "steps": "Năm 1967 tại Bangkok.",
         "socraticPrompt": "ASEAN ra đời năm nào?"
-      }
+      },
+      "socraticPrompt": "ASEAN ra đời năm nào?",
+      "distractorReasons": [
+        "Sai vì '1975' không phù hợp với định lý/quy tắc trọng tâm (Thành lập ASEAN).",
+        "Sai vì '1945' không phù hợp với định lý/quy tắc trọng tâm (Thành lập ASEAN).",
+        "Đúng vì theo Thành lập ASEAN: Năm 1967 tại Bangkok.",
+        "Sai vì '1995' không phù hợp với định lý/quy tắc trọng tâm (Thành lập ASEAN)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Việt Nam chính thức trở thành thành viên của ASEAN vào năm nào?",
       "options": [
-        "1995",
+        "2000",
         "1986",
         "1990",
-        "2000"
+        "1995"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Việt Nam gia nhập ASEAN ngày 28/7/1995.",
       "breakdown": {
         "concept": "Việt Nam gia nhập ASEAN",
         "steps": "Năm 1995 là thành viên thứ 7.",
         "socraticPrompt": "Việt Nam vào ASEAN năm nào?"
-      }
+      },
+      "socraticPrompt": "Việt Nam vào ASEAN năm nào?",
+      "distractorReasons": [
+        "Sai vì '2000' không phù hợp với định lý/quy tắc trọng tâm (Việt Nam gia nhập ASEAN).",
+        "Sai vì '1986' không phù hợp với định lý/quy tắc trọng tâm (Việt Nam gia nhập ASEAN).",
+        "Sai vì '1990' không phù hợp với định lý/quy tắc trọng tâm (Việt Nam gia nhập ASEAN).",
+        "Đúng vì theo Việt Nam gia nhập ASEAN: Năm 1995 là thành viên thứ 7."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Trước Chiến tranh thế giới thứ hai, ba nước Đông Dương là thuộc địa của nước nào?",
       "options": [
-        "Pháp",
         "Anh",
+        "Pháp",
         "Mỹ",
         "Hà Lan"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Thực dân Pháp đô hộ Việt Nam, Lào, Campuchia thành Liên bang Đông Dương.",
       "breakdown": {
         "concept": "Thuộc địa Pháp",
         "steps": "Pháp cai trị 3 nước Đông Dương.",
         "socraticPrompt": "Thực dân nào đô hộ Đông Dương?"
-      }
+      },
+      "socraticPrompt": "Thực dân nào đô hộ Đông Dương?",
+      "distractorReasons": [
+        "Sai vì 'Anh' không phù hợp với định lý/quy tắc trọng tâm (Thuộc địa Pháp).",
+        "Đúng vì theo Thuộc địa Pháp: Pháp cai trị 3 nước Đông Dương.",
+        "Sai vì 'Mỹ' không phù hợp với định lý/quy tắc trọng tâm (Thuộc địa Pháp).",
+        "Sai vì 'Hà Lan' không phù hợp với định lý/quy tắc trọng tâm (Thuộc địa Pháp)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Thời cơ lịch sử thuận lợi nhất để các nước Đông Nam Á giành độc lập năm 1945 là",
       "options": [
-        "Phát xít Nhật đầu hàng Đồng minh không điều kiện",
-        "Cách mạng Tân Hợi ở Trung Quốc bùng nổ",
         "Chiến tranh thế giới thứ nhất bùng nổ",
+        "Cách mạng Tân Hợi ở Trung Quốc bùng nổ",
+        "Phát xít Nhật đầu hàng Đồng minh không điều kiện",
         "Khủng hoảng kinh tế thế giới"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Nhật đầu hàng Đồng minh tạo khoảng trống quyền lực thuận lợi cho khởi nghĩa.",
       "breakdown": {
         "concept": "Thời cơ 1945",
         "steps": "Nhật đầu hàng Đồng minh tháng 8/1945.",
         "socraticPrompt": "Thời cơ ngàn năm có một năm 1945 là gì?"
-      }
+      },
+      "socraticPrompt": "Thời cơ ngàn năm có một năm 1945 là gì?",
+      "distractorReasons": [
+        "Sai vì 'Chiến tranh thế giới thứ nhất bùng nổ' không phù hợp với định lý/quy tắc trọng tâm (Thời cơ 1945).",
+        "Sai vì 'Cách mạng Tân Hợi ở Trung Quốc bùng nổ' không phù hợp với định lý/quy tắc trọng tâm (Thời cơ 1945).",
+        "Đúng vì theo Thời cơ 1945: Nhật đầu hàng Đồng minh tháng 8/1945.",
+        "Sai vì 'Khủng hoảng kinh tế thế giới' không phù hợp với định lý/quy tắc trọng tâm (Thời cơ 1945)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

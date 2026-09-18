@@ -23,12 +23,15 @@
         "steps": "$4 \\times 500.000 = 2.000.000\\text{ cm} = 20.000\\text{ m} = 20\\text{ km}$.",
         "trap": "Đổi sai đơn vị giữa cm, m và km (quên bớt 5 số 0 dẫn đến 200 km hoặc 2 km)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng: $20\\text{ km}$.",
-        "B": "Sai, do chia nhầm thêm 1 số 0.",
-        "C": "Sai, do quên bớt số 0 khi đổi đơn vị.",
-        "D": "Sai, do tính nhầm thừa 2 số 0."
-      }
+      "distractorReasons": [
+        "Đúng vì : $20\\text{ km}$.",
+        "Sai vì do chia nhầm thêm 1 số 0.",
+        "Sai vì do quên bớt số 0 khi đổi đơn vị.",
+        "Sai vì do tính nhầm thừa 2 số 0."
+      ],
+      "socraticPrompt": "$4\\text{ cm} \\times 500.000$ bằng bao nhiêu cm? $2.000.000\\text{ cm}$ đổi ra km bằng bao nhiêu?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch06_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Mẫu số nhỏ nhất là 50.000 nên bản đồ có tỉ lệ lớn nhất, biểu hiện chi tiết nhất.",
         "trap": "Học sinh thường nhìn thấy số 1.000.000 lớn nhất vội vàng chọn bản đồ D."
       },
-      "distractorReasons": {
-        "A": "Sai, $1:100.000$ nhỏ hơn $1:50.000$.",
-        "B": "Đáp án chính xác theo quy tắc tỉ lệ SGK trang 106.",
-        "C": "Sai, $1:500.000$ là tỉ lệ trung bình.",
-        "D": "Sai lầm phổ biến do nhầm mẫu số lớn là tỉ lệ lớn."
-      }
+      "distractorReasons": [
+        "Sai vì $1:100.000$ nhỏ hơn $1:50.000$.",
+        "Đúng vì quy tắc tỉ lệ SGK trang 106.",
+        "Sai vì $1:500.000$ là tỉ lệ trung bình.",
+        "Sai lầm phổ biến do nhầm mẫu số lớn là tỉ lệ lớn."
+      ],
+      "socraticPrompt": "Phân số $\\frac{1}{50.000}$ và $\\frac{1}{1.000.000}$, phân số nào lớn hơn?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch06_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Vĩ độ Bắc + Kinh độ Đông -> Bán cầu Bắc và Bán cầu Đông.",
         "trap": "Nhầm sang Bán cầu Nam hoặc Bán cầu Tây."
       },
-      "distractorReasons": {
-        "A": "Sai, Việt Nam ở phía bắc Xích đạo và đông kinh tuyến 0.",
-        "B": "Sai, Việt Nam ở Bán cầu Đông.",
-        "C": "Đáp án đúng theo số liệu địa lí quốc gia.",
-        "D": "Sai, Việt Nam ở Bán cầu Bắc."
-      }
+      "distractorReasons": [
+        "Sai vì Việt Nam ở phía bắc Xích đạo và đông kinh tuyến 0.",
+        "Sai vì Việt Nam ở Bán cầu Đông.",
+        "Đúng vì số liệu địa lí quốc gia.",
+        "Sai vì Việt Nam ở Bán cầu Bắc."
+      ],
+      "socraticPrompt": "Việt Nam mang vĩ độ Bắc hay Nam? Kinh độ Đông hay Tây?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch06_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Hướng di chuyển chủ yếu là hướng Nam.",
         "trap": "Nhầm sang hướng Bắc do nghĩ ngược chiều từ Nam ra Bắc."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là hướng từ TP.HCM ra Hà Nội.",
-        "B": "Sai, hướng Đông Bắc là lên Lạng Sơn.",
-        "C": "Sai, hướng Tây là sang Lào.",
-        "D": "Đáp án đúng theo phương hướng bản đồ."
-      }
+      "distractorReasons": [
+        "Sai vì đây là hướng từ TP.HCM ra Hà Nội.",
+        "Sai vì hướng Đông Bắc là lên Lạng Sơn.",
+        "Sai vì hướng Tây là sang Lào.",
+        "Đúng vì ương hướng bản đồ."
+      ],
+      "socraticPrompt": "Hà Nội ở miền Bắc, TP. Hồ Chí Minh ở miền Nam. Đi từ Bắc vào Nam là đi theo hướng nào?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch06_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Bảng chú giải liệt kê kí hiệu kèm dòng chữ giải thích bên cạnh.",
         "trap": "Nhầm sang dòng tỉ lệ thước hay tên tác giả."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 108.",
-        "B": "Sai, tên tác giả chỉ cho biết bản quyền.",
-        "C": "Sai, tỉ lệ thước chỉ dùng để đo khoảng cách.",
-        "D": "Sai, năm xuất bản cho biết thời gian in ấn."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 108.",
+        "Sai vì tên tác giả chỉ cho biết bản quyền.",
+        "Sai vì tỉ lệ thước chỉ dùng để đo khoảng cách.",
+        "Sai vì năm xuất bản cho biết thời gian in ấn."
+      ],
+      "socraticPrompt": "Muốn hiểu kí hiệu lạ trên bản đồ nghĩa là gì thì nhìn vào ô nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch06_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Kinh tuyến bằng nhau; Vĩ tuyến thu nhỏ dần từ Xích đạo về cực.",
         "trap": "Nghĩ rằng các đường vĩ tuyến cũng có độ dài bằng nhau như kinh tuyến."
       },
-      "distractorReasons": {
-        "A": "Sai, vĩ tuyến thu nhỏ dần về cực.",
-        "B": "Đáp án chính xác theo quy luật hình cầu SGK trang 102.",
-        "C": "Sai, vĩ tuyến ở cực chỉ là một điểm chấm có độ dài bằng 0.",
-        "D": "Sai, mọi kinh tuyến đều có độ dài bằng nhau."
-      }
+      "distractorReasons": [
+        "Sai vì vĩ tuyến thu nhỏ dần về cực.",
+        "Đúng vì quy luật hình cầu SGK trang 102.",
+        "Sai vì vĩ tuyến ở cực chỉ là một điểm chấm có độ dài bằng 0.",
+        "Sai vì mọi kinh tuyến đều có độ dài bằng nhau."
+      ],
+      "socraticPrompt": "Đường Xích đạo ở bụng Trái Đất và vòng tròn gần cực Bắc, vòng nào lớn hơn?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

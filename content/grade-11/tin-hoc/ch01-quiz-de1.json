@@ -20,97 +20,151 @@
         "concept": "Hệ điều hành",
         "steps": "Quản lý phần cứng và ứng dụng.",
         "socraticPrompt": "Phần mềm quản lý phần cứng máy tính là gì?"
-      }
+      },
+      "socraticPrompt": "Phần mềm quản lý phần cứng máy tính là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Hệ điều hành: Quản lý phần cứng và ứng dụng.",
+        "Sai vì 'Trình duyệt Web' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành).",
+        "Sai vì 'Phần mềm bảng tính Excel' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành).",
+        "Sai vì 'Trình phát video' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở?",
       "options": [
-        "Linux Ubuntu",
         "Microsoft Windows 11",
+        "Linux Ubuntu",
         "Apple macOS",
         "Apple iOS"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Linux là đại diện tiêu biểu của phần mềm mã nguồn mở.",
       "breakdown": {
         "concept": "Hệ điều hành nguồn mở",
         "steps": "Linux Ubuntu là mã nguồn mở.",
         "socraticPrompt": "Hệ điều hành nào là nguồn mở?"
-      }
+      },
+      "socraticPrompt": "Hệ điều hành nào là nguồn mở?",
+      "distractorReasons": [
+        "Sai vì 'Microsoft Windows 11' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành nguồn mở).",
+        "Đúng vì theo Hệ điều hành nguồn mở: Linux Ubuntu là mã nguồn mở.",
+        "Sai vì 'Apple macOS' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành nguồn mở).",
+        "Sai vì 'Apple iOS' không phù hợp với định lý/quy tắc trọng tâm (Hệ điều hành nguồn mở)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Phần mềm mà người dùng được phép xem mã nguồn, tự do chỉnh sửa và phát triển tiếp được gọi là",
       "options": [
-        "Phần mềm nguồn mở (Open Source)",
-        "Phần mềm thương mại đóng gói",
         "Phần mềm độc hại (Malware)",
+        "Phần mềm thương mại đóng gói",
+        "Phần mềm nguồn mở (Open Source)",
         "Phần mềm gián điệp"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Khái niệm Open Source Software.",
       "breakdown": {
         "concept": "Phần mềm nguồn mở",
         "steps": "Được xem và sửa mã nguồn.",
         "socraticPrompt": "Phần mềm cho phép xem sửa mã nguồn gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Phần mềm cho phép xem sửa mã nguồn gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Phần mềm độc hại (Malware)' không phù hợp với định lý/quy tắc trọng tâm (Phần mềm nguồn mở).",
+        "Sai vì 'Phần mềm thương mại đóng gói' không phù hợp với định lý/quy tắc trọng tâm (Phần mềm nguồn mở).",
+        "Đúng vì theo Phần mềm nguồn mở: Được xem và sửa mã nguồn.",
+        "Sai vì 'Phần mềm gián điệp' không phù hợp với định lý/quy tắc trọng tâm (Phần mềm nguồn mở)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hệ điều hành dành cho thiết bị di động thông minh phổ biến nhất hiện nay là",
       "options": [
-        "Android và iOS",
+        "UNIX System V",
         "MS-DOS và CP/M",
         "Windows 95",
-        "UNIX System V"
+        "Android và iOS"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Android và iOS thống trị thị trường smartphone.",
       "breakdown": {
         "concept": "HĐH di động",
         "steps": "Android và iOS.",
         "socraticPrompt": "Hai hệ điều hành điện thoại phổ biến là gì?"
-      }
+      },
+      "socraticPrompt": "Hai hệ điều hành điện thoại phổ biến là gì?",
+      "distractorReasons": [
+        "Sai vì 'UNIX System V' không phù hợp với định lý/quy tắc trọng tâm (HĐH di động).",
+        "Sai vì 'MS-DOS và CP/M' không phù hợp với định lý/quy tắc trọng tâm (HĐH di động).",
+        "Sai vì 'Windows 95' không phù hợp với định lý/quy tắc trọng tâm (HĐH di động).",
+        "Đúng vì theo HĐH di động: Android và iOS."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Dịch vụ cho phép lưu trữ tệp và chia sẻ tài liệu qua mạng Internet được gọi là",
       "options": [
-        "Lưu trữ đám mây (Cloud Storage)",
         "Bộ nhớ ROM",
+        "Lưu trữ đám mây (Cloud Storage)",
         "Bộ nhớ đệm Cache",
         "Thẻ SIM điện thoại"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Dịch vụ đám mây như Google Drive, OneDrive, Dropbox.",
       "breakdown": {
         "concept": "Lưu trữ đám mây",
         "steps": "Lưu trữ trên Internet.",
         "socraticPrompt": "Lưu trữ dữ liệu trên mạng gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Lưu trữ dữ liệu trên mạng gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bộ nhớ ROM' không phù hợp với định lý/quy tắc trọng tâm (Lưu trữ đám mây).",
+        "Đúng vì theo Lưu trữ đám mây: Lưu trữ trên Internet.",
+        "Sai vì 'Bộ nhớ đệm Cache' không phù hợp với định lý/quy tắc trọng tâm (Lưu trữ đám mây).",
+        "Sai vì 'Thẻ SIM điện thoại' không phù hợp với định lý/quy tắc trọng tâm (Lưu trữ đám mây)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Giao diện dòng lệnh mà người dùng gõ câu lệnh để điều khiển máy tính được viết tắt là",
       "options": [
-        "CLI (Command Line Interface)",
-        "GUI (Graphical User Interface)",
         "VUI (Voice User Interface)",
+        "GUI (Graphical User Interface)",
+        "CLI (Command Line Interface)",
         "API (Application Programming Interface)"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "CLI là giao diện dòng lệnh truyền thống (Terminal / Command Prompt).",
       "breakdown": {
         "concept": "Giao diện dòng lệnh",
         "steps": "CLI (Command Line Interface).",
         "socraticPrompt": "Giao diện gõ lệnh viết tắt là gì?"
-      }
+      },
+      "socraticPrompt": "Giao diện gõ lệnh viết tắt là gì?",
+      "distractorReasons": [
+        "Sai vì 'VUI (Voice User Interface)' không phù hợp với định lý/quy tắc trọng tâm (Giao diện dòng lệnh).",
+        "Sai vì 'GUI (Graphical User Interface)' không phù hợp với định lý/quy tắc trọng tâm (Giao diện dòng lệnh).",
+        "Đúng vì theo Giao diện dòng lệnh: CLI (Command Line Interface).",
+        "Sai vì 'API (Application Programming Interface)' không phù hợp với định lý/quy tắc trọng tâm (Giao diện dòng lệnh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

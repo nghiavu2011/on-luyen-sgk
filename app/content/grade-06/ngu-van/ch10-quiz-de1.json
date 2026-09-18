@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm phương pháp đọc chủ động trong sgk.?",
+      "distractorReasons": [
+        "Sai vì 'Nhắm mắt lắng nghe người khác đọc hộ' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm phương pháp đọc chủ động trong SGK.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ đọc lướt thật nhanh để đếm số trang sách', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Khái niệm phương pháp đọc chủ động trong SGK.: Đọc chủ động biến người đọc từ người tiếp nhận thụ động thành người đối thoại tích cực với cuốn sách.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ xem tranh minh họa mà không đọc lời' (Đọc vẹt hay xem tranh đơn thuần không phải đọc chủ động.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được cấu trúc một trang nhật ký đọc sách học đường.?",
+      "distractorReasons": [
+        "Sai vì 'Số điện thoại của người bán sách' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc một trang nhật ký đọc sách học đường.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ cần ghi giá tiền của cuốn sách' (Các thông tin thương mại in ấn không phản ánh giá trị học tập.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tên địa chỉ của nhà in', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Cấu trúc một trang nhật ký đọc sách học đường.: Nhật ký lưu giữ quá trình tương tác trí tuệ giữa bạn đọc và tác phẩm."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giá trị của văn hóa đọc đối với sự trưởng thành con người.?",
+      "distractorReasons": [
+        "Đúng vì theo Giá trị của văn hóa đọc đối với sự trưởng thành con người.: Sách vừa cung cấp tri thức khoa học vừa là người thầy nuôi dưỡng tâm hồn và nhân cách.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sách là phương tiện duy nhất để thi đỗ đại học' (Tránh lối nhìn nhận thực dụng thuần túy thi cử hay tiền tài.).",
+        "Sai vì 'Sách giúp con người kiếm được thật nhiều tiền bạc' không phù hợp với định lý/quy tắc trọng tâm (Giá trị của văn hóa đọc đối với sự trưởng thành con người.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Sách chỉ cần đọc một lần trong đời là đủ', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ thuật sơ đồ tư duy hỗ trợ đọc hiểu văn bản.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Học thuộc lòng từng câu chữ trong cuốn sách' (Học thuộc lòng cả cuốn sách là điều bất khả thi và phi khoa học.).",
+        "Đúng vì theo Kỹ thuật sơ đồ tư duy hỗ trợ đọc hiểu văn bản.: Mindmap trực quan hóa sơ đồ nhân vật và chuỗi biến cố, giúp ghi nhớ lâu bền.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Bỏ qua các chương giữa chỉ đọc chương đầu và chương cuối', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Đọc ngược từ trang cuối lên trang đầu' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật sơ đồ tư duy hỗ trợ đọc hiểu văn bản.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được lợi ích toàn diện của thói quen đọc sách thường xuyên.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Làm cho học sinh không cần nghe giảng trên lớp' trái ngược với kiến thức SGK.",
+        "Sai vì 'Giúp giảm thị lực nhanh chóng' không phù hợp với định lý/quy tắc trọng tâm (Lợi ích toàn diện của thói quen đọc sách thường xuyên.).",
+        "Đúng vì theo Lợi ích toàn diện của thói quen đọc sách thường xuyên.: Đọc sách kích thích trí não phát triển tư duy phản biện và năng lực thấu cảm cảm xúc.",
+        "Sai vì phủ định sai bản chất: 'Để không phải tham gia các hoạt động thể thao' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: dự án lan tỏa văn hóa đọc học đường.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cấm học sinh đọc truyện tranh lành mạnh' (Biện pháp ép buộc hay ngăn cấm sẽ bóp nghẹt niềm đam mê đọc sách của học sinh.).",
+        "Sai vì 'Bắt buộc tất cả các bạn phải mua sách giống hệt nhau' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Dự án lan tỏa văn hóa đọc học đường.).",
+        "Sai vì phủ định sai bản chất: 'Khóa chặt cửa thư viện để bảo quản sách không bị hỏng' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Vận dụng cao: Dự án lan tỏa văn hóa đọc học đường.: Văn hóa đọc phát triển khi có môi trường mở, chia sẻ thân thiện và khuyến khích tự do khám phá tri thức."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

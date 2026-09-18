@@ -5,104 +5,379 @@
     {
       "id": "l01",
       "title": "Bài 1: Tập hợp và phần tử của tập hợp",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 1: Tập hợp và phần tử của tập hợp</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Nhận biết được một tập hợp và các phần tử của nó trong thực tiễn",
+        "Viết được tập hợp theo hai cách: liệt kê các phần tử và chỉ ra tính chất đặc trưng",
+        "Sử dụng thành thạo và chính xác các ký hiệu ∈ và ∉"
+      ],
+      "concepts": [
+        {
+          "term": "Tập hợp",
+          "definition": "Một nhóm các đối tượng được xác định rõ ràng và phân biệt.",
+          "notation": "A = {1; 2; 3}",
+          "note": "Tên tập hợp viết chữ hoa, các phần tử cách nhau bởi dấu chấm phẩy (;)."
+        },
+        {
+          "term": "Phần tử",
+          "definition": "Mỗi đối tượng thuộc tập hợp được gọi là một phần tử.",
+          "notation": "x ∈ A, y ∉ A",
+          "note": "Mỗi phần tử chỉ được liệt kê một lần, thứ tự liệt kê tùy ý."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "a ∈ A",
+          "meaning": "a là một phần tử thuộc tập hợp A"
+        },
+        {
+          "statement": "b ∉ A",
+          "meaning": "b không phải là phần tử của tập hợp A"
+        },
+        {
+          "statement": "Liệt kê phần tử",
+          "meaning": "Các phần tử số phân cách bằng dấu chấm phẩy (;)"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tập hợp M các chữ cái trong từ 'TOAN HOC'. Hãy viết tập hợp M bằng cách liệt kê.",
+          "steps": [
+            "Bước 1: Liệt kê các chữ cái xuất hiện: T, O, A, N, H, O, C.",
+            "Bước 2: Loại bỏ chữ cái lặp lại (chữ O xuất hiện 2 lần chỉ lấy 1 lần).",
+            "Bước 3: Viết vào trong cặp dấu ngoặc nhọn cách nhau bởi dấu chấm phẩy."
+          ],
+          "answer": "M = {T; O; A; N; H; C}"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng dấu phẩy (,) thay vì dấu chấm phẩy (;) khi viết các phần tử số",
+          "why": "Dễ gây nhầm lẫn với số thập phân, ví dụ {1, 2} có thể hiểu nhầm là số 1,2."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 1: Tập hợp và phần tử của tập hợp</strong>, bao gồm các khái niệm then chốt: Tập hợp, Phần tử. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 1: Tập hợp và phần tử của tập hợp.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "a ∈ A: a là một phần tử thuộc tập hợp A",
+        "b ∉ A: b không phải là phần tử của tập hợp A",
+        "Liệt kê phần tử: Các phần tử số phân cách bằng dấu chấm phẩy (;)"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 1: Tập hợp và phần tử của tập hợp: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Cho tập hợp M các chữ cái trong từ 'TOAN HOC'. Hãy viết tập hợp M bằng cách liệt kê.",
+          "solution": "Bước 1: Liệt kê các chữ cái xuất hiện: T, O, A, N, H, O, C. | Bước 2: Loại bỏ chữ cái lặp lại (chữ O xuất hiện 2 lần chỉ lấy 1 lần). | Bước 3: Viết vào trong cặp dấu ngoặc nhọn cách nhau bởi dấu chấm phẩy. => Đáp số: M = {T; O; A; N; H; C}"
         }
-      ],
-      "hasRealContent": true
+      ]
     },
     {
       "id": "l02",
       "title": "Bài 2: Cách ghi số tự nhiên và hệ thập phân",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 2: Cách ghi số tự nhiên và hệ thập phân</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Biểu diễn số tự nhiên trong hệ thập phân theo các hàng và lớp",
+        "Đọc và viết các số La Mã từ 1 đến 30",
+        "Phân biệt số và chữ số, giá trị của chữ số theo vị trí"
+      ],
+      "concepts": [
+        {
+          "term": "Hệ thập phân",
+          "definition": "Hệ đếm dùng mười chữ số từ 0 đến 9, cứ 10 đơn vị ở một hàng thì làm thành 1 đơn vị ở hàng liền trước nó.",
+          "notation": "ab = 10a + b",
+          "note": "Giá trị của mỗi chữ số phụ thuộc vào vị trí (hàng) của nó."
+        },
+        {
+          "term": "Số La Mã",
+          "definition": "Hệ chữ số cổ gồm các ký tự cơ bản I (1), V (5), X (10).",
+          "notation": "IV = 4, IX = 9, XXI = 21",
+          "note": "Chữ số đứng trước trừ đi, chữ số đứng sau cộng vào."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "abc = 100a + 10b + c",
+          "meaning": "Cấu tạo số thập phân có ba chữ số"
+        },
+        {
+          "statement": "I=1, V=5, X=10",
+          "meaning": "Quy ước cơ bản chữ số La Mã"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết số 24 thành số La Mã và biểu diễn số 358 theo cấu tạo thập phân.",
+          "steps": [
+            "Bước 1: Số 24 = 20 + 4 = XX + IV = XXIV.",
+            "Bước 2: Số 358 = 300 + 50 + 8 = 3 × 100 + 5 × 10 + 8."
+          ],
+          "answer": "Số La Mã: XXIV; Cấu tạo số: 3 × 100 + 5 × 10 + 8"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết số 4 La Mã là IIII",
+          "why": "Quy ước không viết quá 3 ký tự I liên tiếp, số 4 phải viết là IV (5 - 1)."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 2: Cách ghi số tự nhiên và hệ thập phân</strong>, bao gồm các khái niệm then chốt: Hệ thập phân, Số La Mã. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 2: Cách ghi số tự nhiên và hệ thập phân.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "abc = 100a + 10b + c: Cấu tạo số thập phân có ba chữ số",
+        "I=1, V=5, X=10: Quy ước cơ bản chữ số La Mã"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 2: Cách ghi số tự nhiên và hệ thập phân: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Viết số 24 thành số La Mã và biểu diễn số 358 theo cấu tạo thập phân.",
+          "solution": "Bước 1: Số 24 = 20 + 4 = XX + IV = XXIV. | Bước 2: Số 358 = 300 + 50 + 8 = 3 × 100 + 5 × 10 + 8. => Đáp số: Số La Mã: XXIV; Cấu tạo số: 3 × 100 + 5 × 10 + 8"
         }
-      ],
-      "hasRealContent": true
+      ]
     },
     {
       "id": "l03",
       "title": "Bài 3: Phép cộng và phép trừ số tự nhiên",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 3: Phép cộng và phép trừ số tự nhiên</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Vận dụng tính chất giao hoán, kết hợp của phép cộng để tính nhanh, tính hợp lý",
+        "Nắm vững điều kiện để thực hiện được phép trừ trong tập hợp N"
+      ],
+      "concepts": [
+        {
+          "term": "Phép cộng",
+          "definition": "a + b = c (Số hạng + Số hạng = Tổng)",
+          "notation": "a + b = b + a",
+          "note": "Có tính chất giao hoán, kết hợp và cộng với số 0."
+        },
+        {
+          "term": "Phép trừ",
+          "definition": "a - b = c với điều kiện a ≥ b",
+          "notation": "a - b = c ⇔ a = b + c",
+          "note": "Trong tập số tự nhiên N, phép trừ a - b chỉ thực hiện được khi a ≥ b."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "a + b = b + a",
+          "meaning": "Tính chất giao hoán"
+        },
+        {
+          "statement": "(a + b) + c = a + (b + c)",
+          "meaning": "Tính chất kết hợp"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính nhanh: 135 + 360 + 65 + 40.",
+          "steps": [
+            "Bước 1: Nhóm các số có chữ số tận cùng bù nhau tạo thành số tròn chục, tròn trăm: (135 + 65) + (360 + 40).",
+            "Bước 2: Thực hiện phép cộng từng nhóm: 200 + 400 = 600."
+          ],
+          "answer": "600"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Thực hiện phép tính 15 - 20 trong tập hợp số tự nhiên N",
+          "why": "Trong tập hợp N không có số âm, số bị trừ phải lớn hơn hoặc bằng số trừ."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 3: Phép cộng và phép trừ số tự nhiên</strong>, bao gồm các khái niệm then chốt: Phép cộng, Phép trừ. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 3: Phép cộng và phép trừ số tự nhiên.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "a + b = b + a: Tính chất giao hoán",
+        "(a + b) + c = a + (b + c): Tính chất kết hợp"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 3: Phép cộng và phép trừ số tự nhiên: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Tính nhanh: 135 + 360 + 65 + 40.",
+          "solution": "Bước 1: Nhóm các số có chữ số tận cùng bù nhau tạo thành số tròn chục, tròn trăm: (135 + 65) + (360 + 40). | Bước 2: Thực hiện phép cộng từng nhóm: 200 + 400 = 600. => Đáp số: 600"
         }
-      ],
-      "hasRealContent": true
+      ]
     },
     {
       "id": "l04",
       "title": "Bài 4: Phép nhân và phép chia số tự nhiên",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 4: Phép nhân và phép chia số tự nhiên</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Áp dụng tính chất phân phối của phép nhân đối với phép cộng để tính nhẩm nhanh",
+        "Phân biệt phép chia hết và phép chia có dư, điều kiện của số dư (0 ≤ r < b)"
+      ],
+      "concepts": [
+        {
+          "term": "Phép nhân",
+          "definition": "a × b = p (Thừa số × Thừa số = Tích)",
+          "notation": "a(b + c) = ab + ac",
+          "note": "Tính chất phân phối của phép nhân đối với phép cộng."
+        },
+        {
+          "term": "Phép chia có dư",
+          "definition": "a = b × q + r với 0 ≤ r < b",
+          "notation": "a : số bị chia, b : số chia, q : thương, r : số dư",
+          "note": "Số dư r luôn nhỏ hơn số chia b và không âm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "a × (b + c) = a × b + a × c",
+          "meaning": "Tính chất phân phối phép nhân với phép cộng"
+        },
+        {
+          "statement": "0 ≤ r < b",
+          "meaning": "Số dư luôn nhỏ hơn số chia"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính hợp lý: 25 × 37 + 25 × 63.",
+          "steps": [
+            "Bước 1: Nhận thấy thừa số 25 chung, áp dụng tính chất phân phối: 25 × (37 + 63).",
+            "Bước 2: Tính trong ngoặc: 37 + 63 = 100.",
+            "Bước 3: Nhân kết quả: 25 × 100 = 2500."
+          ],
+          "answer": "2500"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Số dư lớn hơn hoặc bằng số chia (ví dụ chia cho 5 mà dư 6)",
+          "why": "Thương chưa tối đa, số dư bắt buộc phải nhỏ hơn số chia."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 4: Phép nhân và phép chia số tự nhiên</strong>, bao gồm các khái niệm then chốt: Phép nhân, Phép chia có dư. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 4: Phép nhân và phép chia số tự nhiên.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "a × (b + c) = a × b + a × c: Tính chất phân phối phép nhân với phép cộng",
+        "0 ≤ r < b: Số dư luôn nhỏ hơn số chia"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 4: Phép nhân và phép chia số tự nhiên: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Tính hợp lý: 25 × 37 + 25 × 63.",
+          "solution": "Bước 1: Nhận thấy thừa số 25 chung, áp dụng tính chất phân phối: 25 × (37 + 63). | Bước 2: Tính trong ngoặc: 37 + 63 = 100. | Bước 3: Nhân kết quả: 25 × 100 = 2500. => Đáp số: 2500"
         }
-      ],
-      "hasRealContent": true
+      ]
     },
     {
       "id": "l05",
       "title": "Bài 5: Lũy thừa với số mũ tự nhiên",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 5: Lũy thừa với số mũ tự nhiên</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu định nghĩa lũy thừa bậc n của a là tích của n thừa số bằng nhau",
+        "Thành thạo công thức nhân và chia hai lũy thừa cùng cơ số: a^m . a^n = a^(m+n), a^m : a^n = a^(m-n)"
+      ],
+      "concepts": [
+        {
+          "term": "Lũy thừa",
+          "definition": "a^n = a . a . ... . a (n thừa số a, n ∈ N*)",
+          "notation": "a: cơ số, n: số mũ",
+          "note": "Quy ước a^1 = a, a^0 = 1 (với a ≠ 0)."
+        },
+        {
+          "term": "Nhân chia cùng cơ số",
+          "definition": "a^m . a^n = a^(m+n); a^m : a^n = a^(m-n) (a ≠ 0, m ≥ n)",
+          "notation": "Giữ nguyên cơ số, cộng hoặc trừ số mũ",
+          "note": "Không nhân hai cơ số với nhau khi nhân lũy thừa cùng cơ số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "a^m × a^n = a^(m + n)",
+          "meaning": "Nhân hai lũy thừa cùng cơ số: cộng số mũ"
+        },
+        {
+          "statement": "a^m : a^n = a^(m - n) (a ≠ 0, m ≥ n)",
+          "meaning": "Chia hai lũy thừa cùng cơ số: trừ số mũ"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết kết quả phép tính dưới dạng một lũy thừa: 3^4 × 3^3 và 5^8 : 5^2.",
+          "steps": [
+            "Bước 1: Với 3^4 × 3^3, giữ nguyên cơ số 3 và cộng các số mũ: 3^(4 + 3) = 3^7.",
+            "Bước 2: Với 5^8 : 5^2, giữ nguyên cơ số 5 và trừ các số mũ: 5^(8 - 2) = 5^6."
+          ],
+          "answer": "3^7 và 5^6"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhân cả cơ số và số mũ: 2^3 × 2^4 = 4^7",
+          "why": "Quy tắc là giữ nguyên cơ số, chỉ cộng số mũ: 2^3 × 2^4 = 2^7."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 5: Lũy thừa với số mũ tự nhiên</strong>, bao gồm các khái niệm then chốt: Lũy thừa, Nhân chia cùng cơ số. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 5: Lũy thừa với số mũ tự nhiên.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "a^m × a^n = a^(m + n): Nhân hai lũy thừa cùng cơ số: cộng số mũ",
+        "a^m : a^n = a^(m - n) (a ≠ 0, m ≥ n): Chia hai lũy thừa cùng cơ số: trừ số mũ"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 5: Lũy thừa với số mũ tự nhiên: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Viết kết quả phép tính dưới dạng một lũy thừa: 3^4 × 3^3 và 5^8 : 5^2.",
+          "solution": "Bước 1: Với 3^4 × 3^3, giữ nguyên cơ số 3 và cộng các số mũ: 3^(4 + 3) = 3^7. | Bước 2: Với 5^8 : 5^2, giữ nguyên cơ số 5 và trừ các số mũ: 5^(8 - 2) = 5^6. => Đáp số: 3^7 và 5^6"
         }
-      ],
-      "hasRealContent": true
+      ]
     },
     {
       "id": "l06",
       "title": "Bài 6: Thứ tự thực hiện các phép tính",
-      "summary": "<p>Nội dung trọng tâm của <strong>Bài 6: Thứ tự thực hiện các phép tính</strong> theo chuẩn SGK Toán 6. Giúp học sinh nắm vững các khái niệm toán học, định lý cơ bản, công thức tính toán và rèn luyện kỹ năng giải các bài toán thực tiễn.</p>",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững thứ tự phép tính không có ngoặc: Lũy thừa → Nhân chia → Cộng trừ",
+        "Nắm vững thứ tự các dấu ngoặc: ( ) → [ ] → { }"
+      ],
+      "concepts": [
+        {
+          "term": "Biểu thức không có ngoặc",
+          "definition": "Nếu chỉ có cộng, trừ hoặc nhân, chia thì làm từ trái sang phải. Nếu có đủ thì: Lũy thừa → Nhân, chia → Cộng, trừ.",
+          "notation": "a^n → ×, : → +, -",
+          "note": "Luôn tính giá trị lũy thừa trước tiên."
+        },
+        {
+          "term": "Biểu thức có dấu ngoặc",
+          "definition": "Thực hiện phép tính trong ngoặc tròn ( ) trước, rồi đến ngoặc vuông [ ], cuối cùng đến ngoặc nhọn { }.",
+          "notation": "( ) → [ ] → { }",
+          "note": "Xử lý từ trong ra ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Lũy thừa → Nhân/Chia → Cộng/Trừ",
+          "meaning": "Thứ tự ưu tiên các phép tính toán học"
+        },
+        {
+          "statement": "( ) → [ ] → { }",
+          "meaning": "Thứ tự giải tỏa các cặp dấu ngoặc"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức: 100 - [60 - (9 - 2)^2].",
+          "steps": [
+            "Bước 1: Tính trong ngoặc tròn trước: 9 - 2 = 7.",
+            "Bước 2: Tính lũy thừa: 7^2 = 49.",
+            "Bước 3: Tính trong ngoặc vuông: 60 - 49 = 11.",
+            "Bước 4: Thực hiện phép trừ ngoài cùng: 100 - 11 = 89."
+          ],
+          "answer": "89"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Thực hiện phép tính cộng trước phép nhân trong 20 + 5 × 2 = 25 × 2 = 50",
+          "why": "Vi phạm thứ tự phép tính, phải nhân chia trước: 20 + (5 × 2) = 20 + 10 = 30."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 6: Thứ tự thực hiện các phép tính</strong>, bao gồm các khái niệm then chốt: Biểu thức không có ngoặc, Biểu thức có dấu ngoặc. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
       "keyPoints": [
-        "Quy tắc và công thức cốt lõi của Bài 6: Thứ tự thực hiện các phép tính.",
-        "Phương pháp tư duy logic và các bước giải chuẩn mực.",
-        "Ứng dụng toán học vào các tình huống thực tế đời sống."
+        "Lũy thừa → Nhân/Chia → Cộng/Trừ: Thứ tự ưu tiên các phép tính toán học",
+        "( ) → [ ] → { }: Thứ tự giải tỏa các cặp dấu ngoặc"
       ],
       "examples": [
         {
-          "problem": "Bài toán mẫu áp dụng kiến thức Bài 6: Thứ tự thực hiện các phép tính: Thực hiện phép tính hoặc giải bài toán có lời văn.",
-          "solution": "Bước 1: Phân tích giả thiết và kết luận.\nBước 2: Vận dụng đúng công thức và quy tắc toán học.\nBước 3: Tính toán cẩn thận và kết luận đáp số."
+          "problem": "Tính giá trị biểu thức: 100 - [60 - (9 - 2)^2].",
+          "solution": "Bước 1: Tính trong ngoặc tròn trước: 9 - 2 = 7. | Bước 2: Tính lũy thừa: 7^2 = 49. | Bước 3: Tính trong ngoặc vuông: 60 - 49 = 11. | Bước 4: Thực hiện phép trừ ngoài cùng: 100 - 11 = 89. => Đáp số: 89"
         }
-      ],
-      "hasRealContent": true
+      ]
     }
   ]
 }

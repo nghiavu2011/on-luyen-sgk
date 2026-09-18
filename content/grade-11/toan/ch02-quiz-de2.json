@@ -22,7 +22,16 @@
         "socraticPrompt": "Thay n = 20, u1 = 1, d = 2 vào công thức Sn thì trong ngoặc bằng bao nhiêu?",
         "steps": "S20 = 20 · [2·1 + (20 - 1)·2] / 2 = 10 · [2 + 38] = 10 · 40 = 400. (Đây chính là tổng 20 số lẻ đầu tiên n² = 20² = 400).",
         "trap": "Tính nhầm 20 · (1 + 39) / 2 = 400 nhưng quên nhân 2 hoặc chia nhầm ra 200."
-      }
+      },
+      "socraticPrompt": "Thay n = 20, u1 = 1, d = 2 vào công thức Sn thì trong ngoặc bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: S20 = 20 · [2·1 + (20 - 1)·2] / 2 = 10 · [2 + 38] = 10 · 40 = 400. (Đây chính là tổng 20 số lẻ đầu tiên n² = 20² = 400).",
+        "Sai vì '380' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính tổng n số hạng đầu: Sn = n[2u1 + (n - 1)d] / 2.).",
+        "Sai vì '420' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính tổng n số hạng đầu: Sn = n[2u1 + (n - 1)d] / 2.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '200' (Tính nhầm 20 · (1 + 39) / 2 = 400 nhưng quên nhân 2 hoặc chia nhầm ra 200.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Từ u3 đến u7 bước qua bao nhiêu lần công sai d?",
         "steps": "Ta có: u7 - u3 = (7 - 3)d = 4d. Suy ra 20 - 8 = 12 => 4d = 12 => d = 3.",
         "trap": "Lấy (20 - 8) chia cho (7 - 3 - 1 = 3) ra d = 4."
-      }
+      },
+      "socraticPrompt": "Từ u3 đến u7 bước qua bao nhiêu lần công sai d?",
+      "distractorReasons": [
+        "Sai vì '4' không phù hợp với định lý/quy tắc trọng tâm (Hiệu số giữa hai số hạng bất kì: un - um = (n - m)d.).",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Hiệu số giữa hai số hạng bất kì: un - um = (n - m)d.).",
+        "Đúng vì theo Hiệu số giữa hai số hạng bất kì: un - um = (n - m)d.: Ta có: u7 - u3 = (7 - 3)d = 4d. Suy ra 20 - 8 = 12 => 4d = 12 => d = 3.",
+        "Sai vì '5' không phù hợp với định lý/quy tắc trọng tâm (Hiệu số giữa hai số hạng bất kì: un - um = (n - m)d.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c2_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "2 mũ 5 bằng bao nhiêu? Trừ 1 rồi nhân u1 chia cho (2 - 1)?",
         "steps": "S5 = 3 · (2^5 - 1) / (2 - 1) = 3 · (32 - 1) = 3 · 31 = 93.",
         "trap": "Nhầm 2^5 = 30 hoặc quên trừ 1 thành 3 · 32 = 96."
-      }
+      },
+      "socraticPrompt": "2 mũ 5 bằng bao nhiêu? Trừ 1 rồi nhân u1 chia cho (2 - 1)?",
+      "distractorReasons": [
+        "Sai vì '45' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính tổng CSN: Sn = u1(q^n - 1) / (q - 1).).",
+        "Đúng vì theo Công thức tính tổng CSN: Sn = u1(q^n - 1) / (q - 1).: S5 = 3 · (2^5 - 1) / (2 - 1) = 3 · (32 - 1) = 3 · 31 = 93.",
+        "Sai vì '96' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính tổng CSN: Sn = u1(q^n - 1) / (q - 1).).",
+        "Sai vì '63' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính tổng CSN: Sn = u1(q^n - 1) / (q - 1).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c2_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Hai lần số hạng ở giữa bằng tổng hai số hạng hai bên, hãy lập phương trình ẩn x.",
         "steps": "Ta có: 2(2x) = (x - 1) + (5x + 3) <=> 4x = 6x + 2 <=> -2x = 2 <=> x = -1.",
         "trap": "Nhầm dấu chuyển vế 4x - 6x = 2x dẫn đến x = 1."
-      }
+      },
+      "socraticPrompt": "Hai lần số hạng ở giữa bằng tổng hai số hạng hai bên, hãy lập phương trình ẩn x.",
+      "distractorReasons": [
+        "Sai vì 'x = 2' không phù hợp với định lý/quy tắc trọng tâm (Ba số a, b, c lập thành CSC khi và chỉ khi 2b = a + c.).",
+        "Sai vì 'x = -2' không phù hợp với định lý/quy tắc trọng tâm (Ba số a, b, c lập thành CSC khi và chỉ khi 2b = a + c.).",
+        "Sai vì 'x = 1' không phù hợp với định lý/quy tắc trọng tâm (Ba số a, b, c lập thành CSC khi và chỉ khi 2b = a + c.).",
+        "Đúng vì theo Ba số a, b, c lập thành CSC khi và chỉ khi 2b = a + c.: Ta có: 2(2x) = (x - 1) + (5x + 3) <=> 4x = 6x + 2 <=> -2x = 2 <=> x = -1."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c2_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Bình phương số ở giữa bằng tích hai số ngoài. Căn bậc hai của 36 là bao nhiêu?",
         "steps": "Ta có x² = 2 · 18 = 36. Vì ba số dương nên x = √36 = 6.",
         "trap": "Nhầm công thức trung bình cộng của CSC lấy (2 + 18)/2 = 10 hoặc lấy cả nghiệm âm x = -6."
-      }
+      },
+      "socraticPrompt": "Bình phương số ở giữa bằng tích hai số ngoài. Căn bậc hai của 36 là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì theo Ba số dương lập thành CSN thoả mãn: b² = ac và b > 0.: Ta có x² = 2 · 18 = 36. Vì ba số dương nên x = √36 = 6.",
+        "Sai vì '10' không phù hợp với định lý/quy tắc trọng tâm (Ba số dương lập thành CSN thoả mãn: b² = ac và b > 0.).",
+        "Sai vì '36' không phù hợp với định lý/quy tắc trọng tâm (Ba số dương lập thành CSN thoả mãn: b² = ac và b > 0.).",
+        "Sai vì '-6' không phù hợp với định lý/quy tắc trọng tâm (Ba số dương lập thành CSN thoả mãn: b² = ac và b > 0.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Giải phương trình bậc hai n² - 4n + 3 = 0, có bao nhiêu nghiệm nguyên dương?",
         "steps": "Cho un = 0 <=> n² - 4n + 3 = 0 <=> (n - 1)(n - 3) = 0 <=> n = 1 hoặc n = 3. Cả hai số 1 và 3 đều thuộc N*.",
         "trap": "Chỉ lấy nghiệm đầu tiên n = 1 mà bỏ sót n = 3."
-      }
+      },
+      "socraticPrompt": "Giải phương trình bậc hai n² - 4n + 3 = 0, có bao nhiêu nghiệm nguyên dương?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ là số hạng thứ 1' (Chỉ lấy nghiệm đầu tiên n = 1 mà bỏ sót n = 3.).",
+        "Đúng vì theo Giải phương trình un = 0 với điều kiện nghiệm n ∈ N*.: Cho un = 0 <=> n² - 4n + 3 = 0 <=> (n - 1)(n - 3) = 0 <=> n = 1 hoặc n = 3. Cả hai số 1 và 3 đều thuộc N*.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là số hạng thứ 3', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không phải là số hạng của dãy' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

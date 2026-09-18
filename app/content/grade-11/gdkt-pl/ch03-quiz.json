@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Mối quan hệ đánh đổi ngắn hạn giữa Lạm phát và Thất nghiệp (theo đường cong Phillips) chỉ ra rằng",
       "options": [
-        "Khi kiềm chế lạm phát quá mức bằng thắt chặt tiền tệ có thể tạm thời làm tăng tỷ lệ thất nghiệp",
-        "Lạm phát cao luôn làm thất nghiệp bằng 0",
         "Hai hiện tượng này hoàn toàn không liên quan",
+        "Lạm phát cao luôn làm thất nghiệp bằng 0",
+        "Khi kiềm chế lạm phát quá mức bằng thắt chặt tiền tệ có thể tạm thời làm tăng tỷ lệ thất nghiệp",
         "Càng in nhiều tiền càng giàu có"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Quyết sách điều hành kinh tế vĩ mô đòi hỏi sự cân bằng tinh tế giữa tăng trưởng và lạm phát.",
       "breakdown": {
         "concept": "Đường cong Phillips",
         "steps": "Cân bằng giữa lạm phát và việc làm.",
         "socraticPrompt": "Mối quan hệ giữa lạm phát và thất nghiệp là gì?"
-      }
+      },
+      "socraticPrompt": "Mối quan hệ giữa lạm phát và thất nghiệp là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Hai hiện tượng này hoàn toàn không liên quan' trái ngược với kiến thức SGK.",
+        "Sai vì 'Lạm phát cao luôn làm thất nghiệp bằng 0' không phù hợp với định lý/quy tắc trọng tâm (Đường cong Phillips).",
+        "Đúng vì theo Đường cong Phillips: Cân bằng giữa lạm phát và việc làm.",
+        "Sai vì 'Càng in nhiều tiền càng giàu có' không phù hợp với định lý/quy tắc trọng tâm (Đường cong Phillips)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Bài học rút ra từ cuộc siêu lạm phát tại Zimbabwe và Venezuela đối với an ninh tiền tệ quốc gia là",
       "options": [
-        "Không được lạm dụng in tiền để bù đắp thâm hụt ngân sách, phải giữ vững kỷ luật tài khóa và dự trữ ngoại hối",
+        "Không cần sản xuất hàng hóa",
         "Cứ in thật nhiều tiền phát cho dân",
         "Xóa bỏ đồng tiền quốc gia",
-        "Không cần sản xuất hàng hóa"
+        "Không được lạm dụng in tiền để bù đắp thâm hụt ngân sách, phải giữ vững kỷ luật tài khóa và dự trữ ngoại hối"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Đồng tiền phải được bảo đảm bằng hàng hóa và sức mạnh kinh tế thực chất.",
       "breakdown": {
         "concept": "Bài học siêu lạm phát",
         "steps": "Kỷ luật tài khóa, không in tiền vô tội vạ.",
         "socraticPrompt": "Bài học đắt giá từ các vụ siêu lạm phát thế giới là gì?"
-      }
+      },
+      "socraticPrompt": "Bài học đắt giá từ các vụ siêu lạm phát thế giới là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần sản xuất hàng hóa' trái ngược với kiến thức SGK.",
+        "Sai vì 'Cứ in thật nhiều tiền phát cho dân' không phù hợp với định lý/quy tắc trọng tâm (Bài học siêu lạm phát).",
+        "Sai vì 'Xóa bỏ đồng tiền quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Bài học siêu lạm phát).",
+        "Đúng vì theo Bài học siêu lạm phát: Kỷ luật tài khóa, không in tiền vô tội vạ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Thách thức AI với việc làm",
         "steps": "Chuyển dịch sang lao động chất lượng cao.",
         "socraticPrompt": "Kỷ nguyên AI đặt ra thách thức gì cho lao động Việt?"
-      }
+      },
+      "socraticPrompt": "Kỷ nguyên AI đặt ra thách thức gì cho lao động Việt?",
+      "distractorReasons": [
+        "Đúng vì theo Thách thức AI với việc làm: Chuyển dịch sang lao động chất lượng cao.",
+        "Sai vì 'Làm biến mất mọi ngành nghề' không phù hợp với định lý/quy tắc trọng tâm (Thách thức AI với việc làm).",
+        "Sai vì phủ định sai bản chất: 'Làm cho con người không cần làm việc vẫn giàu' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có ảnh hưởng gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Ý nghĩa xã hội nhân văn sâu sắc của việc duy trì tỷ lệ thất nghiệp ở mức thấp là",
       "options": [
-        "Bảo đảm thu nhập, giữ vững sự ổn định xã hội, giảm thiểu tệ nạn và phát huy phẩm giá con người",
         "Chỉ để làm đẹp báo cáo",
+        "Bảo đảm thu nhập, giữ vững sự ổn định xã hội, giảm thiểu tệ nạn và phát huy phẩm giá con người",
         "Ép mọi người làm việc kiệt sức",
         "Tăng tiền thu thuế"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Có việc làm là quyền cơ bản và là nền tảng của một xã hội hạnh phúc, phồn vinh.",
       "breakdown": {
         "concept": "Ý nghĩa nhân văn của việc làm",
         "steps": "Ổn định xã hội và phát huy phẩm giá con người.",
         "socraticPrompt": "Tại sao giải quyết việc làm cho dân là ưu tiên số 1?"
-      }
+      },
+      "socraticPrompt": "Tại sao giải quyết việc làm cho dân là ưu tiên số 1?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ để làm đẹp báo cáo', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Ý nghĩa nhân văn của việc làm: Ổn định xã hội và phát huy phẩm giá con người.",
+        "Sai vì 'Ép mọi người làm việc kiệt sức' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa nhân văn của việc làm).",
+        "Sai vì 'Tăng tiền thu thuế' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa nhân văn của việc làm)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Gắn kết trường học - doanh nghiệp",
         "steps": "Giảm thất nghiệp cơ cấu.",
         "socraticPrompt": "Học gắn liền với doanh nghiệp giúp giảm thất nghiệp gì?"
-      }
+      },
+      "socraticPrompt": "Học gắn liền với doanh nghiệp giúp giảm thất nghiệp gì?",
+      "distractorReasons": [
+        "Đúng vì theo Gắn kết trường học - doanh nghiệp: Giảm thất nghiệp cơ cấu.",
+        "Sai vì 'Thất nghiệp tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Gắn kết trường học - doanh nghiệp).",
+        "Sai vì 'Thất nghiệp ma sát' không phù hợp với định lý/quy tắc trọng tâm (Gắn kết trường học - doanh nghiệp).",
+        "Sai vì 'Thất nghiệp chu kỳ' không phù hợp với định lý/quy tắc trọng tâm (Gắn kết trường học - doanh nghiệp)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Phương châm sống tích cực của thanh niên trong bối cảnh thị trường việc làm biến động không ngừng là",
       "options": [
-        "'Học để biết, học để làm, học để chung sống, học để khẳng định mình' và sẵn sàng học lại (Lifelong Learning)",
+        "Chờ đợi sự may rủi",
         "Sợ hãi công nghệ mới",
         "Bằng lòng với kiến thức cũ kỹ",
-        "Chờ đợi sự may rủi"
+        "'Học để biết, học để làm, học để chung sống, học để khẳng định mình' và sẵn sàng học lại (Lifelong Learning)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Tư duy linh hoạt và tinh thần học tập suốt đời là vũ khí bất khả chiến bại.",
       "breakdown": {
         "concept": "Tư duy học tập suốt đời",
         "steps": "Tự học, đổi mới và sẵn sàng thích ứng.",
         "socraticPrompt": "Tâm thế của thanh niên trước biến đổi việc làm là gì?"
-      }
+      },
+      "socraticPrompt": "Tâm thế của thanh niên trước biến đổi việc làm là gì?",
+      "distractorReasons": [
+        "Sai vì 'Chờ đợi sự may rủi' không phù hợp với định lý/quy tắc trọng tâm (Tư duy học tập suốt đời).",
+        "Sai vì 'Sợ hãi công nghệ mới' không phù hợp với định lý/quy tắc trọng tâm (Tư duy học tập suốt đời).",
+        "Sai vì 'Bằng lòng với kiến thức cũ kỹ' không phù hợp với định lý/quy tắc trọng tâm (Tư duy học tập suốt đời).",
+        "Đúng vì theo Tư duy học tập suốt đời: Tự học, đổi mới và sẵn sàng thích ứng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

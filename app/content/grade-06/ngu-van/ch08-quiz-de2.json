@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm từ hán việt trong tiếng việt 6.?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm từ Hán Việt trong Tiếng Việt 6.: Từ Hán Việt chiếm tỷ lệ lớn trong vốn từ vựng khoa học, chính trị, văn học.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Từ có nguồn gốc tiếng Pháp thời Pháp thuộc' (Không nhầm với từ vay mượn gốc Âu.).",
+        "Sai vì 'Từ tiếng Anh dịch sang tiếng Việt' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm từ Hán Việt trong Tiếng Việt 6.).",
+        "Sai vì 'Từ thuần Việt của đồng bào miền núi' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm từ Hán Việt trong Tiếng Việt 6.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đối chiếu từ thuần việt và từ hán việt đồng nghĩa.?",
+      "distractorReasons": [
+        "Sai vì 'Bàn – Ghế' không phù hợp với định lý/quy tắc trọng tâm (Đối chiếu từ thuần Việt và từ Hán Việt đồng nghĩa.).",
+        "Đúng vì theo Đối chiếu từ thuần Việt và từ Hán Việt đồng nghĩa.: 'Mẹ' là từ thuần Việt, 'Mẫu' là yếu tố Hán Việt (mẫu thân, mẫu giáo).",
+        "Sai vì 'Ăn – Ngủ' không phù hợp với định lý/quy tắc trọng tâm (Đối chiếu từ thuần Việt và từ Hán Việt đồng nghĩa.).",
+        "Sai vì 'Học – Chơi' không phù hợp với định lý/quy tắc trọng tâm (Đối chiếu từ thuần Việt và từ Hán Việt đồng nghĩa.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được các phương tiện liên kết câu trong đoạn văn.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phép thế đại từ' (Không nhầm phép nối với phép thế hay phép lặp.).",
+        "Sai vì 'Phép lặp từ ngữ' không phù hợp với định lý/quy tắc trọng tâm (Các phương tiện liên kết câu trong đoạn văn.).",
+        "Đúng vì theo Các phương tiện liên kết câu trong đoạn văn.: 'Tuy nhiên' là từ nối biểu thị quan hệ tương phản, tạo sự liên kết mạch lạc giữa hai câu.",
+        "Sai vì 'Phép đồng nghĩa' không phù hợp với định lý/quy tắc trọng tâm (Các phương tiện liên kết câu trong đoạn văn.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -104,7 +128,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục chuẩn của bài văn nghị luận xã hội thcs.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gồm lời thoại nhân vật', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 phần: Kể chuyện và làm thơ' (Nghị luận không phải là kể chuyện hư cấu hay làm thơ.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gồm các số liệu điều tra', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Bố cục chuẩn của bài văn nghị luận xã hội THCS.: Bài văn nghị luận bắt buộc phải có luận điểm, lý lẽ và dẫn chứng chứng minh ý kiến."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -129,7 +161,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu của dẫn chứng trong văn nghị luận.?",
+      "distractorReasons": [
+        "Đúng vì theo Yêu cầu của dẫn chứng trong văn nghị luận.: Dẫn chứng xác thực (người thật việc thật, tấm gương tiêu biểu) tạo nên uy tín cho lập luận.",
+        "Sai vì phủ định sai bản chất: 'Phải là những câu chuyện thần tiên tưởng tượng không có thật' trái ngược với kiến thức SGK.",
+        "Sai vì 'Càng dài dòng và nhiều chi tiết vụn vặt càng tốt' không phù hợp với định lý/quy tắc trọng tâm (Yêu cầu của dẫn chứng trong văn nghị luận.).",
+        "Sai vì 'Phải giấu kín nguồn gốc xuất xứ' không phù hợp với định lý/quy tắc trọng tâm (Yêu cầu của dẫn chứng trong văn nghị luận.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -154,7 +194,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nguyên tắc sử dụng từ ngữ phù hợp phong cách giao tiếp.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì từ Hán Việt bị cấm sử dụng trong giao tiếp' (Không ai cấm từ Hán Việt nhưng phải dùng đúng lúc đúng chỗ.).",
+        "Đúng vì: Từ ngữ phải đúng ngữ cảnh: trang trọng dùng Hán Việt, thân mật đời thường dùng từ thuần Việt.",
+        "Sai vì 'Vì từ Hán Việt phát âm quá khó' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nguyên tắc sử dụng từ ngữ phù hợp phong cách giao tiếp.).",
+        "Sai vì 'Vì từ Hán Việt làm câu văn ngắn lại' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nguyên tắc sử dụng từ ngữ phù hợp phong cách giao tiếp.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

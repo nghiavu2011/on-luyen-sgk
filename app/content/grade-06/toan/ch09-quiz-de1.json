@@ -1,128 +1,206 @@
 {
   "chapterId": "ch09",
   "examId": "de1",
-  "title": "Toán 6 — Chương 9: Đề 1 — Thu thập dữ liệu & Đọc biểu đồ tranh",
-  "description": "Bộ đề trắc nghiệm kiểm tra khả năng phân loại dữ liệu, đánh giá tính hợp lý và đọc biểu đồ tranh.",
+  "title": "Toán 6 — Chương 9: Dữ liệu và xác suất thực nghiệm: Đề 1: Khái niệm & Nhận biết",
+  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c9_d1_q1",
+      "id": "t6_c9_d1_01",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Phân loại dữ liệu số",
-      "question": "Dãy dữ liệu nào sau đây là dãy dữ liệu số (số liệu)?",
+      "topic": "Khái niệm số liệu",
+      "question": "Dữ liệu nào sau đây là số liệu (dữ liệu dạng số)?",
       "options": [
-        "Số anh chị em trong gia đình",
-        "Màu sắc yêu thích của học sinh",
-        "Tên các quận huyện của thành phố",
-        "Nơi sinh của các thành viên"
+        "Chiều cao (tính bằng cm) của các học sinh trong lớp",
+        "Tên các môn học yêu thích",
+        "Nơi sinh của các thành viên trong gia đình",
+        "Màu sắc ưa thích của các bạn trẻ"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Phân biệt dữ liệu là số (số liệu) và dữ liệu không phải là số.",
-        "socraticPrompt": "Trong các thông tin trên, thông tin nào được biểu diễn bằng các con số đếm được?",
-        "steps": "Số anh chị em trong gia đình là các con số cụ thể (như 1, 2, 3...), do đó đây là dãy dữ liệu số (số liệu). Các phương án còn lại là dữ liệu định tính không phải là số.",
-        "trap": "Nhầm lẫn giữa dữ liệu chữ (tên, màu sắc) và dữ liệu số."
-      }
+        "concept": "Dữ liệu thu thập dưới dạng các con số được gọi là số liệu.",
+        "steps": [
+          "Bước 1: Chiều cao (ví dụ: 145 cm, 150 cm...) là các con số.",
+          "Bước 2: Tên môn học, nơi sinh, màu sắc là dữ liệu dạng chữ, không phải số liệu.",
+          "Bước 3: Chọn đáp án A."
+        ],
+        "trap": "Nhầm lẫn dữ liệu dạng chữ với số liệu.",
+        "socraticPrompt": "Trong 4 loại dữ liệu trên, loại nào câu trả lời nhận được là một con số cụ thể?"
+      },
+      "socraticPrompt": "Trong 4 loại dữ liệu trên, loại nào câu trả lời nhận được là một con số cụ thể?",
+      "distractorReasons": [
+        "Đúng vì chiều cao được đo và biểu diễn bằng các con số (ví dụ: 152 cm, 160 cm).",
+        "Sai vì tên môn học là chữ viết (Toán, Văn, Anh...).",
+        "Sai vì nơi sinh là địa danh bằng chữ (Hà Nội, Nam Định...).",
+        "Sai vì màu sắc là từ ngữ chỉ màu (xanh, đỏ, vàng...)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c9_d1_q2",
+      "id": "t6_c9_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đọc biểu đồ tranh",
+      "question": "Trong biểu đồ tranh, một biểu tượng 🌟 quy ước đại diện cho 10 bông hoa điểm 10. Tổ Một có 4 biểu tượng 🌟. Tổ Một có tất cả bao nhiêu bông hoa điểm 10?",
+      "options": [
+        "4 bông hoa",
+        "40 bông hoa",
+        "14 bông hoa",
+        "25 bông hoa"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Số lượng = Số biểu tượng × Giá trị quy ước của 1 biểu tượng.",
+        "steps": [
+          "Bước 1: Mỗi 🌟 đại diện cho 10 bông hoa.",
+          "Bước 2: Có 4 biểu tượng 🌟.",
+          "Bước 3: Số bông hoa là: 4 × 10 = 40 bông hoa."
+        ],
+        "trap": "Chỉ đếm số biểu tượng rồi kết luận có 4 bông hoa.",
+        "socraticPrompt": "Mỗi ngôi sao là 10 bông hoa. Có 4 ngôi sao thì có tất cả bao nhiêu bông hoa?"
+      },
+      "socraticPrompt": "Mỗi ngôi sao là 10 bông hoa. Có 4 ngôi sao thì có tất cả bao nhiêu bông hoa?",
+      "distractorReasons": [
+        "Sai vì 4 mới chỉ là số lượng biểu tượng, chưa nhân với giá trị quy ước.",
+        "Đúng vì 4 × 10 = 40 bông hoa.",
+        "Sai vì lấy 10 + 4 = 14 thay vì nhân.",
+        "Sai vì tính nhầm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c9_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Kết quả có thể của xúc xắc",
+      "question": "Gieo một con xúc xắc 6 mặt cân đối một lần. Số kết quả có thể xảy ra đối với số chấm xuất hiện là:",
+      "options": [
+        "2 kết quả",
+        "12 kết quả",
+        "6 kết quả",
+        "1 kết quả"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Con xúc xắc có 6 mặt đánh số chấm từ 1 đến 6 nên có 6 kết quả có thể.",
+        "steps": [
+          "Bước 1: Các mặt của con xúc xắc là: 1, 2, 3, 4, 5, 6 chấm.",
+          "Bước 2: Mỗi lần gieo chỉ có thể xuất hiện 1 trong 6 mặt này.",
+          "Bước 3: Vậy có tất cả 6 kết quả có thể xảy ra."
+        ],
+        "trap": "Nhầm 2 kết quả của đồng xu sang xúc xắc.",
+        "socraticPrompt": "Con xúc xắc có bao nhiêu mặt? Mỗi mặt có số chấm từ mấy đến mấy?"
+      },
+      "socraticPrompt": "Con xúc xắc có bao nhiêu mặt? Mỗi mặt có số chấm từ mấy đến mấy?",
+      "distractorReasons": [
+        "Sai vì 2 kết quả là của trò chơi tung đồng xu (Sấp, Ngửa).",
+        "Sai vì 12 là số cạnh của khối lập phương, không phải số mặt.",
+        "Đúng vì có 6 mặt mang số chấm từ 1 đến 6 nên có 6 kết quả có thể.",
+        "Sai vì mỗi lần gieo ra 1 mặt nhưng có 6 khả năng có thể xuất hiện."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c9_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức xác suất thực nghiệm",
+      "question": "Khi thực hiện n lần một thí nghiệm, nếu sự kiện A xuất hiện k lần thì xác suất thực nghiệm của sự kiện A được tính bằng:",
+      "options": [
+        "n - k",
+        "n / k",
+        "k × n",
+        "k / n"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Xác suất thực nghiệm bằng tỉ số giữa số lần sự kiện xảy ra và tổng số lần thực hiện thí nghiệm.",
+        "steps": [
+          "Bước 1: Xác định số lần sự kiện xảy ra là k.",
+          "Bước 2: Tổng số lần thực hiện thí nghiệm là n.",
+          "Bước 3: Tỉ số là k / n."
+        ],
+        "trap": "Đảo ngược thành n / k (lấy tổng số lần chia cho số lần xảy ra).",
+        "socraticPrompt": "Xác suất luôn nhỏ hơn hoặc bằng 1. Tỉ số nào giữa k (số lần xuất hiện) và n (tổng số lần) có giá trị nhỏ hơn hoặc bằng 1?"
+      },
+      "socraticPrompt": "Xác suất luôn nhỏ hơn hoặc bằng 1. Tỉ số nào giữa k (số lần xuất hiện) và n (tổng số lần) có giá trị nhỏ hơn hoặc bằng 1?",
+      "distractorReasons": [
+        "Sai vì đây là hiệu số lần không xảy ra.",
+        "Sai vì n / k sẽ lớn hơn 1 (sai bản chất xác suất).",
+        "Sai vì nhân hai đại lượng là sai công thức.",
+        "Đúng vì xác suất thực nghiệm P = k / n."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c9_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công dụng của biểu đồ cột kép",
+      "question": "Biểu đồ cột kép thường được sử dụng nhằm mục đích chính nào sau đây?",
+      "options": [
+        "Biểu diễn sự thay đổi của một đại lượng duy nhất",
+        "So sánh từng cặp số liệu của hai đối tượng cùng loại",
+        "Vẽ tranh minh họa nghệ thuật",
+        "Hiển thị tọa độ địa lý trên bản đồ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Biểu đồ cột kép gồm các cặp cột cạnh nhau có màu khác nhau dùng để so sánh trực quan hai đối tượng cùng loại.",
+        "steps": [
+          "Bước 1: Nhớ lại định nghĩa và ứng dụng của biểu đồ cột kép trong SGK Toán 6.",
+          "Bước 2: Chọn phương án so sánh từng cặp số liệu của hai đối tượng cùng loại."
+        ],
+        "trap": "Nhầm công dụng biểu đồ cột đơn (chỉ diễn tả 1 đối tượng).",
+        "socraticPrompt": "Từ 'kép' trong biểu đồ cột kép nghĩa là có 2 cột đi liền nhau. Hai cột đó dùng để làm gì giữa hai đối tượng?"
+      },
+      "socraticPrompt": "Từ 'kép' trong biểu đồ cột kép nghĩa là có 2 cột đi liền nhau. Hai cột đó dùng để làm gì giữa hai đối tượng?",
+      "distractorReasons": [
+        "Sai vì biểu diễn một đại lượng chỉ cần dùng biểu đồ cột đơn.",
+        "Đúng vì biểu đồ cột kép tối ưu cho việc so sánh trực quan hai tập dữ liệu (ví dụ so sánh nam và nữ, kì 1 và kì 2).",
+        "Sai vì biểu đồ không phải là tranh minh họa tự do.",
+        "Sai vì hiển thị tọa độ là của bản đồ địa lý."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c9_d1_06",
       "difficulty": "easy",
       "type": "multiple_choice",
       "topic": "Tính hợp lý của dữ liệu",
-      "question": "Trong bảng khảo sát điểm kiểm tra môn Toán của 5 học sinh gồm: 8; 9; 10; 12; 7. Giá trị nào sau đây là KHÔNG hợp lý?",
+      "question": "Trong cuộc điều tra về số con trong các gia đình ở một tổ dân phố, số liệu nào sau đây là KHÔNG HỢP LÝ?",
       "options": [
-        "Điểm 10",
-        "Điểm 12",
-        "Điểm 7",
-        "Điểm 8"
+        "1 con",
+        "2 con",
+        "-2 con",
+        "0 con"
       ],
-      "correct": 1,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tiêu chí đánh giá tính hợp lý của số liệu thực tế.",
-        "socraticPrompt": "Thang điểm kiểm tra môn học theo chuẩn Bộ Giáo dục có điểm tối đa là bao nhiêu?",
-        "steps": "Thang điểm kiểm tra chuẩn từ 0 đến 10. Do đó điểm 12 vượt quá giới hạn tối đa nên là giá trị không hợp lý.",
-        "trap": "Nghĩ rằng điểm 10 là không hợp lý vì khó đạt được."
-      }
-    },
-    {
-      "id": "t6_c9_d1_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Đọc biểu đồ tranh",
-      "question": "Trong một biểu đồ tranh, một biểu tượng ngôi sao đại diện cho 5 điểm tốt. Nếu tổ một có 6 biểu tượng ngôi sao thì tổ một đã đạt được bao nhiêu điểm tốt?",
-      "options": [
-        "30 điểm tốt",
-        "25 điểm tốt",
-        "35 điểm tốt",
-        "11 điểm tốt"
+        "concept": "Số con của một gia đình phải là số tự nhiên (0, 1, 2, 3...), không thể là số âm.",
+        "steps": [
+          "Bước 1: Số người, số con trong thực tế phải thuộc tập hợp N = {0; 1; 2; ...}.",
+          "Bước 2: Số -2 là số nguyên âm, không thể là số con của một gia đình.",
+          "Bước 3: Vậy -2 con là số liệu hoàn toàn không hợp lý."
+        ],
+        "trap": "Nghĩ số nào cũng là dữ liệu hợp lý.",
+        "socraticPrompt": "Số lượng người hoặc đồ vật có bao giờ mang giá trị âm được không?"
+      },
+      "socraticPrompt": "Số lượng người hoặc đồ vật có bao giờ mang giá trị âm được không?",
+      "distractorReasons": [
+        "Sai vì gia đình có 1 con là hợp lý.",
+        "Sai vì gia đình có 2 con là số liệu hoàn toàn bình thường.",
+        "Đúng vì số con không thể là số âm (-2 con là phi lý trong thực tế).",
+        "Sai vì gia đình chưa có con (0 con) là hoàn toàn hợp lý."
       ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Quy tắc tính giá trị thực tế từ biểu đồ tranh: số biểu tượng nhân giá trị quy ước.",
-        "socraticPrompt": "Mỗi biểu tượng là 5 điểm tốt, tổ một có 6 biểu tượng như thế thì có bao nhiêu điểm tốt?",
-        "steps": "Số điểm tốt của tổ một là: 6 · 5 = 30 điểm tốt.",
-        "trap": "Cộng 6 + 5 = 11 điểm tốt do nhầm phép nhân thành phép cộng."
-      }
-    },
-    {
-      "id": "t6_c9_d1_q4",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Phương pháp thu thập dữ liệu phù hợp",
-      "question": "Để tìm hiểu về môn thể thao yêu thích của các bạn học sinh trong khối 6, phương pháp thu thập dữ liệu nào sau đây là phù hợp và thuận tiện nhất?",
-      "options": [
-        "Làm thí nghiệm trong phòng thí nghiệm",
-        "Lập phiếu hỏi khảo sát ý kiến",
-        "Đo đạc bằng thước cuộn",
-        "Quan sát bầu trời hàng ngày"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Lựa chọn phương pháp thu thập dữ liệu phù hợp với mục tiêu điều tra.",
-        "socraticPrompt": "Muốn biết sở thích cá nhân của nhiều người, phương pháp nào hỏi được trực tiếp ý kiến của họ?",
-        "steps": "Sở thích là ý kiến cá nhân nên phương pháp lập phiếu hỏi khảo sát (trực tiếp hoặc trực tuyến) là tối ưu và thuận tiện nhất.",
-        "trap": "Chọn làm thí nghiệm hoặc đo đạc vốn chỉ dùng cho các hiện tượng tự nhiên hay kích thước vật lý."
-      }
-    },
-    {
-      "id": "t6_c9_d1_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "So sánh số liệu trên biểu đồ tranh",
-      "question": "Biểu đồ tranh biểu diễn số cây trồng được của hai lớp: lớp 6A có 4 biểu tượng cây, lớp 6B có 6 biểu tượng cây. Biết mỗi biểu tượng cây đại diện cho 8 cây xanh. Hỏi lớp 6B trồng nhiều hơn lớp 6A bao nhiêu cây xanh?",
-      "options": [
-        "16 cây xanh",
-        "12 cây xanh",
-        "24 cây xanh",
-        "8 cây xanh"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Tính độ chênh lệch thực tế từ số lượng biểu tượng trong biểu đồ tranh.",
-        "socraticPrompt": "Lớp 6B nhiều hơn lớp 6A mấy biểu tượng cây? Lấy số biểu tượng chênh lệch đó nhân với 8 cây?",
-        "steps": "Cách 1: Lớp 6B trồng: 6 · 8 = 48 cây. Lớp 6A trồng: 4 · 8 = 32 cây. Chênh lệch: 48 - 32 = 16 cây. Cách 2: Chênh lệch số biểu tượng: 6 - 4 = 2 biểu tượng. Số cây chênh lệch: 2 · 8 = 16 cây.",
-        "trap": "Lấy 6 - 4 = 2 cây (quên nhân với giá trị quy ước 8 cây/biểu tượng)."
-      }
-    },
-    {
-      "id": "t6_c9_d1_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Đọc bảng dữ liệu tỉ lệ phần trăm",
-      "question": "Khảo sát 60 học sinh về môn thể thao yêu thích thu được kết quả: Bóng đá chiếm 40%, Bơi lội chiếm 25%, Cầu lông chiếm 20%, Bóng bàn chiếm 15%. Số học sinh thích môn Bóng đá nhiều hơn số học sinh thích Bơi lội là bao nhiêu bạn?",
-      "options": [
-        "9 học sinh",
-        "6 học sinh",
-        "12 học sinh",
-        "15 học sinh"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Ứng dụng tỉ số phần trăm tính số lượng chênh lệch từ tổng số liệu khảo sát.",
-        "socraticPrompt": "Bóng đá hơn Bơi lội bao nhiêu phần trăm? Lấy 60 học sinh nhân với tỉ số phần trăm chênh lệch đó?",
-        "steps": "Tỉ số phần trăm chênh lệch giữa Bóng đá và Bơi lội là: 40% - 25% = 15%. Số học sinh chênh lệch là: 60 · 15% = 60 · 15 / 100 = 9 học sinh.",
-        "trap": "Lấy 40 - 25 = 15 rồi kết luận 15 bạn mà không nhân với tổng số 60 học sinh."
-      }
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

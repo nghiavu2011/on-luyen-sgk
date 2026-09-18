@@ -32,7 +32,16 @@
           "1": "Nhân thẳng $64 \\times 0,05 = 3,2$ rồi chia 10 sai quy tắc lũy thừa.",
           "2": "Tính ra $[HI]^2 = 0,16$ nhưng quên khai căn bậc hai để tìm $[HI]$."
         }
-      }
+      },
+      "socraticPrompt": "Em hãy viết biểu thức $K_C$ cho phản ứng tạo thành $HI$, sau đó thay các giá trị đã biết vào phương trình.",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nồng độ cân bằng của khí $HI$ đạt mức $0,20\\text{ M}$' (Quên lấy căn bậc hai của 64 hoặc quên bình phương nồng độ $HI$ trong biểu thức $K_C$.).",
+        "Sai vì 'Nồng độ cân bằng của khí $HI$ đạt mức $0,32\\text{ M}$' không phù hợp với định lý/quy tắc trọng tâm (Tính nồng độ các chất từ biểu thức hằng số cân bằng $K_C$).",
+        "Đúng vì theo Tính nồng độ các chất từ biểu thức hằng số cân bằng $K_C$: $K_C = \\frac{[HI]^2}{[H_2][I_2]} = 64 \\Rightarrow \\frac{[HI]^2}{(0,05)^2} = 64 \\Rightarrow [HI]^2 = 64 \\times 0,0025 = 0,16 \\Rightarrow [HI] = 0,40\\text{ M}$.",
+        "Sai vì 'Nồng độ cân bằng của khí $HI$ đạt mức $0,16\\text{ M}$' không phù hợp với định lý/quy tắc trọng tâm (Tính nồng độ các chất từ biểu thức hằng số cân bằng $K_C$)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch01-th-q02",
@@ -56,7 +65,16 @@
           "1": "Sai vì phản ứng tỏa nhiệt khi tăng nhiệt độ thì $K_C$ thực tế bị giảm đi.",
           "3": "Điểm sôi của nitrogen là $-196^oC$, không liên quan đến nhiệt độ $450^oC$."
         }
-      }
+      },
+      "socraticPrompt": "Về mặt lý thuyết tỏa nhiệt thì nhiệt độ thấp có lợi về hiệu suất, vậy vì sao kỹ thuật hóa học phải chọn $450^oC$?",
+      "distractorReasons": [
+        "Sai vì 'Ở nhiệt độ thường cân bằng bị dịch chuyển theo chiều làm giảm lượng $NH_3$' không phù hợp với định lý/quy tắc trọng tâm (Sự cân bằng giữa nhiệt động học (hiệu suất) và động học (tốc độ phản ứng)).",
+        "Sai vì 'Nhiệt độ $450^oC$ làm tăng giá trị của hằng số cân bằng lên rất nhiều lần' không phù hợp với định lý/quy tắc trọng tâm (Sự cân bằng giữa nhiệt động học (hiệu suất) và động học (tốc độ phản ứng)).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phản ứng chỉ bắt đầu chuyển động khi được nung nóng tới điểm sôi của nitrogen' (Học sinh chỉ nhìn vào nguyên lý Le Chatelier mà quên mất yếu tố tốc độ phản ứng trong công nghiệp.).",
+        "Đúng vì: Ở nhiệt độ thấp, hiệu suất lý thuyết cao nhưng năng lượng hoạt hóa của liên kết ba $N \\equiv N$ rất bền khiến tốc độ phản ứng cực kỳ chậm, không hiệu quả kinh t."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch01-th-q03",
@@ -80,7 +98,16 @@
           "2": "Nghĩ rằng trộn acid và base thì tự động trung hòa hoàn toàn về $pH = 7$.",
           "3": "Quên chia cho tổng thể tích mà lấy luôn số mol dư $0,01$ để bấm $-\\log(0,01) = 2$."
         }
-      }
+      },
+      "socraticPrompt": "Em hãy tính số mol của $H^+$ và $OH^-$, so sánh lượng dư sau phản ứng và chia cho tổng thể tích hai dung dịch.",
+      "distractorReasons": [
+        "Đúng vì theo Tính $pH$ sau phản ứng trung hòa acid mạnh và base mạnh: $n_{H^+} = 0,1 \\times 0,15 = 0,015\\text{ mol}$; $n_{OH^-} = 0,1 \\times 0,05 = 0,005\\text{ mol}$. Lượng $H^+$ dư $= 0,010\\text{ mol}$. Tổng thể tích $V = 0,2\\tex.",
+        "Sai vì 'Dung dịch thu được có độ kiềm yếu với giá trị $pH$ xấp xỉ 8,0' không phù hợp với định lý/quy tắc trọng tâm (Tính $pH$ sau phản ứng trung hòa acid mạnh và base mạnh).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch thu được hoàn toàn trung tính với giá trị $pH$ bằng 7,0' (Quên cộng tổng thể tích $100 + 100 = 200\\text{ mL}$ khi tính lại nồng độ mol dư.).",
+        "Sai vì 'Dung dịch thu được có tính acid nhẹ với giá trị $pH$ xấp xỉ 2,0' không phù hợp với định lý/quy tắc trọng tâm (Tính $pH$ sau phản ứng trung hòa acid mạnh và base mạnh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch01-th-q04",
@@ -104,7 +131,16 @@
           "2": "Quá trình này không có phản ứng oxi hoá - khử để giải phóng khí hydrogen.",
           "3": "Muối sulfate tan tốt trong nước, không kết tinh tạo màng dưới đáy."
         }
-      }
+      },
+      "socraticPrompt": "Khi ion $Al^{3+}$ tác dụng với nước sẽ tạo ra hợp chất dạng keo nào có khả năng dính giữ các chất bẩn?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch acid mạnh hòa tan toàn bộ các chất bẩn hữu cơ trong nước' (Học sinh nghĩ rằng phèn chua diệt khuẩn hoặc hòa tan chất bẩn chứ không biết cơ chế keo tụ.).",
+        "Đúng vì: Phản ứng thủy phân: $Al^{3+} + 3H_2O \\rightleftharpoons Al(OH)_3\\downarrow + 3H^+$. Kết tủa keo $Al(OH)_3$ có diện tích bề mặt lớn, hấp phụ các hạt đất phù sa l.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Khí hydrogen sục bọt đẩy toàn bộ chất cặn bã nổi lên trên bề mặt', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Màng ngăn muối sulfate kết tinh phủ kín đáy bể chứa nước sinh hoạt' không phù hợp với định lý/quy tắc trọng tâm (Sự thủy phân của ion kim loại $Al^{3+}$ trong dung dịch nước)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch01-th-q05",
@@ -128,7 +164,16 @@
           "1": "$K_a$ không đổi nhưng tỉ số nồng độ thay đổi dẫn tới $\\alpha$ phải thay đổi theo.",
           "2": "$CH_3COOH$ là acid yếu, không bao giờ đạt độ điện li $\\alpha = 1$ ở điều kiện thường."
         }
-      }
+      },
+      "socraticPrompt": "Khi thêm nước vào dung dịch chất điện li yếu, cân bằng điện li sẽ chuyển dịch theo chiều nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Độ điện li $\\alpha$ giảm dần do nồng độ acid ban đầu bị giảm đi' (Nghĩ rằng nồng độ acid giảm thì độ điện li cũng giảm theo tỉ lệ thuận.).",
+        "Sai vì phủ định sai bản chất: 'Độ điện li $\\alpha$ hoàn toàn giữ nguyên vì hằng số $K_a$ không đổi' trái ngược với kiến thức SGK.",
+        "Sai vì 'Độ điện li $\\alpha$ bằng 1 ngay khi tiếp xúc với phân tử dung môi' không phù hợp với định lý/quy tắc trọng tâm (Định luật pha loãng Ostwald đối với chất điện li yếu).",
+        "Đúng vì theo Định luật pha loãng Ostwald đối với chất điện li yếu: Phản ứng: $CH_3COOH \\rightleftharpoons CH_3COO^- + H^+$. Khi pha loãng, nồng độ các chất giảm, cân bằng dịch chuyển sang chiều làm tăng số ion (chiều thuận) $\\R."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch01-th-q06",
@@ -152,7 +197,16 @@
           "2": "Thêm chất phản ứng $H_2O$ sẽ làm cân bằng chuyển dịch sang chiều thuận.",
           "3": "Tăng nhiệt độ và hút bớt sản phẩm đều thúc đẩy cân bằng chuyển dịch chiều thuận."
         }
-      }
+      },
+      "socraticPrompt": "Phản ứng này thu nhiệt và tăng số mol khí ($1 \\rightarrow 2$), muốn sang chiều nghịch ta cần điều chỉnh nhiệt độ và áp suất ra sao?",
+      "distractorReasons": [
+        "Đúng vì: $\\Delta_r H > 0$ (thu nhiệt) $\\Rightarrow$ hạ nhiệt độ sẽ dịch chuyển chiều nghịch (chiều tỏa nhiệt). Số mol khí tăng ($1 \\rightarrow 2$) $\\Rightarrow$ tăng áp .",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thêm một lượng than rắn $C(s)$ vào trong buồng nung kín của hệ' (Cho rằng thêm than $C(s)$ sẽ làm dịch chuyển cân bằng sang chiều thuận (chất rắn không làm dịch chuyển cân bằng).).",
+        "Sai vì phủ định sai bản chất: 'Dẫn thêm hơi nước $H_2O(g)$ vào buồng nung ở áp suất không đổi' trái ngược với kiến thức SGK.",
+        "Sai vì 'Tăng nhiệt độ của buồng nung đồng thời hút bớt khí hydrogen ra' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của nhiệt độ, áp suất và chất rắn đến cân bằng hoá học)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -21,7 +21,16 @@
         "socraticPrompt": "Đơn vị đo lực mang tên nhà bác học tìm ra quả táo rơi là gì?",
         "steps": "Đơn vị đo lực là Niutơn (N).",
         "trap": "Kilôgam là đơn vị khối lượng; Jun là đơn vị năng lượng."
-      }
+      },
+      "socraticPrompt": "Đơn vị đo lực mang tên nhà bác học tìm ra quả táo rơi là gì?",
+      "distractorReasons": [
+        "Đúng vì: Đơn vị đo lực là Niutơn (N).",
+        "Sai vì 'Mét (m)' không phù hợp với định lý/quy tắc trọng tâm (Lực được đo bằng đơn vị Niutơn, kí hiệu là N (đặt theo tên nhà bác học Isaac Newton).).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kilôgam (kg)' (Kilôgam là đơn vị khối lượng; Jun là đơn vị năng lượng.).",
+        "Sai vì 'Jun (J)' không phù hợp với định lý/quy tắc trọng tâm (Lực được đo bằng đơn vị Niutơn, kí hiệu là N (đặt theo tên nhà bác học Isaac Newton).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c9_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Quả táo lơ lửng trên cành cây bị Trái Đất hút rơi xuống có cần chạm đất trước khi rơi không?",
         "steps": "Lực hút Trái Đất tác dụng từ xa là lực không tiếp xúc.",
         "trap": "Búa đập đinh hay tay đẩy cửa đều là lực tiếp xúc cơ học."
-      }
+      },
+      "socraticPrompt": "Quả táo lơ lửng trên cành cây bị Trái Đất hút rơi xuống có cần chạm đất trước khi rơi không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bàn tay đẩy cánh cửa mở ra' (Búa đập đinh hay tay đẩy cửa đều là lực tiếp xúc cơ học.).",
+        "Đúng vì: Lực hút Trái Đất tác dụng từ xa là lực không tiếp xúc.",
+        "Sai vì 'Chân sút bóng bay đi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dùng búa gõ đinh ngập vào gỗ' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c9_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Một vật nặng 1 kg trên Trái Đất chịu lực hút bằng khoảng bao nhiêu Niutơn?",
         "steps": "P = 10 · m (với m tính bằng kg, P tính bằng N).",
         "trap": "Lấy m chia 10 là sai chiều tính."
-      }
+      },
+      "socraticPrompt": "Một vật nặng 1 kg trên Trái Đất chịu lực hút bằng khoảng bao nhiêu Niutơn?",
+      "distractorReasons": [
+        "Sai vì 'P = m / 10' không phù hợp với định lý/quy tắc trọng tâm (Trọng lượng gần đúng bằng 10 lần khối lượng: P = 10 · m.).",
+        "Sai vì 'P = m + 10' không phù hợp với định lý/quy tắc trọng tâm (Trọng lượng gần đúng bằng 10 lần khối lượng: P = 10 · m.).",
+        "Đúng vì theo Trọng lượng gần đúng bằng 10 lần khối lượng: P = 10 · m.: P = 10 · m (với m tính bằng kg, P tính bằng N).",
+        "Sai vì 'P = 10 / m' không phù hợp với định lý/quy tắc trọng tâm (Trọng lượng gần đúng bằng 10 lần khối lượng: P = 10 · m.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c9_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Dụng cụ có lò xo và thang chia vạch Niutơn dùng để đo lực gọi là gì?",
         "steps": "Lực kế lò xo chuyên dùng đo lực.",
         "trap": "Cân điện tử dùng đo khối lượng; bình chia độ đo thể tích."
-      }
+      },
+      "socraticPrompt": "Dụng cụ có lò xo và thang chia vạch Niutơn dùng để đo lực gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Nhiệt kế' không phù hợp với định lý/quy tắc trọng tâm (Lực kế lò xo hoạt động dựa trên độ dãn của lò xo tỉ lệ với độ lớn lực kéo.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bình chia độ' (Cân điện tử dùng đo khối lượng; bình chia độ đo thể tích.).",
+        "Sai vì 'Cân điện tử' không phù hợp với định lý/quy tắc trọng tâm (Lực kế lò xo hoạt động dựa trên độ dãn của lò xo tỉ lệ với độ lớn lực kéo.).",
+        "Đúng vì: Lực kế lò xo chuyên dùng đo lực."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c9_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Sợi dây dọi của thợ xây buông tự do chỉ phương gì và chiều hướng về đâu?",
         "steps": "Phương thẳng đứng, chiều hướng xuống dưới về tâm Trái Đất.",
         "trap": "Lực đẩy Ac-si-met mới có chiều từ dưới lên trên."
-      }
+      },
+      "socraticPrompt": "Sợi dây dọi của thợ xây buông tự do chỉ phương gì và chiều hướng về đâu?",
+      "distractorReasons": [
+        "Đúng vì: Phương thẳng đứng, chiều hướng xuống dưới về tâm Trái Đất.",
+        "Sai vì 'Phương xiên 45 độ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Phương nằm ngang, chiều từ trái sang phải' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phương thẳng đứng, chiều từ dưới lên trên' (Lực đẩy Ac-si-met mới có chiều từ dưới lên trên.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c9_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Xe đạp đi nặng xích kêu cót két, nhỏ dầu nhớt vào xích để làm gì?",
         "steps": "Tra dầu mỡ bôi trơn giúp giảm ma sát và mài mòn.",
         "trap": "Khía rãnh hay rải cát là để tăng ma sát chống trượt."
-      }
+      },
+      "socraticPrompt": "Xe đạp đi nặng xích kêu cót két, nhỏ dầu nhớt vào xích để làm gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tạo các khía rãnh sâu trên lốp xe' (Khía rãnh hay rải cát là để tăng ma sát chống trượt.).",
+        "Đúng vì: Tra dầu mỡ bôi trơn giúp giảm ma sát và mài mòn.",
+        "Sai vì 'Bôi nhựa thông vào dây cung vĩ cầm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Rải cát lên sàn nhà bị trơn ướt' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

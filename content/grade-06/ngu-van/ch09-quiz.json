@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng thể loại văn bản thông tin.?",
+      "distractorReasons": [
+        "Đúng vì theo Đặc trưng thể loại văn bản thông tin.: Văn bản thông tin nhằm truyền tải tri thức khoa học, xã hội chính xác.",
+        "Sai vì 'Kể lại câu chuyện tưởng tượng thần tiên' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng thể loại văn bản thông tin.).",
+        "Sai vì 'Bộc lộ cảm xúc nhớ thương người yêu' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng thể loại văn bản thông tin.).",
+        "Sai vì 'Mô tả trận đánh bằng lời thơ hào hùng' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng thể loại văn bản thông tin.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng dấu ngoặc kép trong tiếng việt 6.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đánh dấu lời dẫn trực tiếp của một vị giáo sư' (Không nhầm với trích dẫn nguyên văn lời nói.).",
+        "Đúng vì theo Công dụng dấu ngoặc kép trong Tiếng Việt 6.: 'Cái nôi' ở đây không phải nôi em bé mà là biểu tượng nguồn cội nuôi dưỡng sự sống.",
+        "Sai vì 'Báo hiệu phần giải thích chi tiết' không phù hợp với định lý/quy tắc trọng tâm (Công dụng dấu ngoặc kép trong Tiếng Việt 6.).",
+        "Sai vì 'Kết thúc một câu khẳng định' không phù hợp với định lý/quy tắc trọng tâm (Công dụng dấu ngoặc kép trong Tiếng Việt 6.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu chi tiết văn bản 'trái đất – cái nôi của sự sống'.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Những ngọn núi lửa đang phun trào' (Kim loại quý hay núi lửa không bảo vệ sự sống.).",
+        "Sai vì 'Những mỏ vàng và kim cương dưới lòng đất' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết văn bản 'Trái Đất – cái nôi của sự sống'.).",
+        "Đúng vì theo Đọc hiểu chi tiết văn bản 'Trái Đất – cái nôi của sự sống'.: Nước và tầng ozone/khí quyển bảo vệ sinh vật khỏi bức xạ vũ trụ và nuôi sống tế bào.",
+        "Sai vì 'Các cơn bão cát sa mạc khổng lồ' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết văn bản 'Trái Đất – cái nôi của sự sống'.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chăm sóc động vật tại vườn thú quốc gia' (Các phương án còn lại là hành động bảo vệ môi trường tích cực.).",
+        "Sai vì 'Trồng thêm cây xanh trong sân trường' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.).",
+        "Sai vì 'Tham gia chiến dịch dọn rác bãi biển' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.).",
+        "Đúng vì theo Nhận biết các tác nhân gây ô nhiễm và suy thoái sinh thái.: Phá rừng phá hủy môi trường sống nguyên sinh của các loài thú."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư duy khoa học về lưới thức ăn và cân bằng sinh thái.?",
+      "distractorReasons": [
+        "Đúng vì theo Tư duy khoa học về lưới thức ăn và cân bằng sinh thái.: Mỗi sinh vật là một mắt xích không thể thiếu trong chuỗi chuyển hóa năng lượng tự nhiên.",
+        "Sai vì 'Vì loài vật nhỏ bé đó sẽ biến thành ma quỷ quay lại quấy rối con người' không phù hợp với định lý/quy tắc trọng tâm (Tư duy khoa học về lưới thức ăn và cân bằng sinh thái.).",
+        "Sai vì phủ định sai bản chất: 'Vì con người không còn tranh vẽ về loài vật đó nữa' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì giá thịt của các loài khác trên thị trường sẽ giảm mạnh' (Tránh lối nghĩ mê tín dị đoan hay thuần túy giá cả chợ búa.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.?",
+      "distractorReasons": [
+        "Sai vì 'Xả rác thải nhựa bừa bãi xuống cống rãnh để nước mưa cuốn trôi' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.).",
+        "Đúng vì: Sống xanh bắt đầu từ thói quen tiết kiệm tài nguyên và giảm thiểu rác thải nhựa mỗi ngày.",
+        "Sai vì 'Mở vòi nước chảy tự do cả ngày cho mát nhà' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.).",
+        "Sai vì 'Bật điều hòa nhiệt độ cực thấp và mở toang cửa sổ' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kế hoạch hành động bảo vệ môi trường thiết thực của học sinh.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

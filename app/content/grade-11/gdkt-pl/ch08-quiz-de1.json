@@ -20,97 +20,151 @@
         "concept": "Quyền bầu cử",
         "steps": "Đủ 18 tuổi trở lên.",
         "socraticPrompt": "Bao nhiêu tuổi được đi bầu cử?"
-      }
+      },
+      "socraticPrompt": "Bao nhiêu tuổi được đi bầu cử?",
+      "distractorReasons": [
+        "Đúng vì theo Quyền bầu cử: Đủ 18 tuổi trở lên.",
+        "Sai vì 'Từ đủ 21 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền bầu cử).",
+        "Sai vì 'Từ đủ 16 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền bầu cử).",
+        "Sai vì 'Từ đủ 25 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền bầu cử)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Độ tuổi tối thiểu để công dân có quyền ứng cử đại biểu Quốc hội và Hội đồng nhân dân là",
       "options": [
-        "Từ đủ 21 tuổi trở lên",
         "Từ đủ 18 tuổi trở lên",
+        "Từ đủ 21 tuổi trở lên",
         "Từ đủ 30 tuổi trở lên",
         "Từ đủ 40 tuổi trở lên"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Công dân đủ 21 tuổi trở lên có quyền ứng cử theo luật định.",
       "breakdown": {
         "concept": "Quyền ứng cử",
         "steps": "Đủ 21 tuổi trở lên.",
         "socraticPrompt": "Bao nhiêu tuổi được ứng cử đại biểu?"
-      }
+      },
+      "socraticPrompt": "Bao nhiêu tuổi được ứng cử đại biểu?",
+      "distractorReasons": [
+        "Sai vì 'Từ đủ 18 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền ứng cử).",
+        "Đúng vì theo Quyền ứng cử: Đủ 21 tuổi trở lên.",
+        "Sai vì 'Từ đủ 30 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền ứng cử).",
+        "Sai vì 'Từ đủ 40 tuổi trở lên' không phù hợp với định lý/quy tắc trọng tâm (Quyền ứng cử)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Bốn nguyên tắc bầu cử đại biểu Quốc hội ở nước ta bao gồm",
       "options": [
-        "Phổ thông, bình đẳng, trực tiếp và bỏ phiếu kín",
-        "Công khai, giơ tay, chỉ định và ngẫu nhiên",
         "Ưu tiên người giàu, phỏng vấn, bốc thăm",
+        "Công khai, giơ tay, chỉ định và ngẫu nhiên",
+        "Phổ thông, bình đẳng, trực tiếp và bỏ phiếu kín",
         "Gia đình cử người đi thay"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "4 nguyên tắc bầu cử dân chủ theo Hiến pháp và Luật Bầu cử.",
       "breakdown": {
         "concept": "4 nguyên tắc bầu cử",
         "steps": "Phổ thông, bình đẳng, trực tiếp, bỏ phiếu kín.",
         "socraticPrompt": "4 nguyên tắc bầu cử là gì?"
-      }
+      },
+      "socraticPrompt": "4 nguyên tắc bầu cử là gì?",
+      "distractorReasons": [
+        "Sai vì 'Ưu tiên người giàu, phỏng vấn, bốc thăm' không phù hợp với định lý/quy tắc trọng tâm (4 nguyên tắc bầu cử).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Công khai, giơ tay, chỉ định và ngẫu nhiên', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo 4 nguyên tắc bầu cử: Phổ thông, bình đẳng, trực tiếp, bỏ phiếu kín.",
+        "Sai vì 'Gia đình cử người đi thay' không phù hợp với định lý/quy tắc trọng tâm (4 nguyên tắc bầu cử)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Quyền công dân đề nghị cơ quan nhà nước xem xét lại quyết định hành chính khi có căn cứ cho rằng xâm phạm quyền của mình là",
       "options": [
-        "Quyền khiếu nại",
+        "Quyền khởi nghiệp",
         "Quyền tố cáo",
         "Quyền tự do ngôn luận",
-        "Quyền khởi nghiệp"
+        "Quyền khiếu nại"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Khái niệm quyền khiếu nại của công dân.",
       "breakdown": {
         "concept": "Quyền khiếu nại",
         "steps": "Khiếu nại quyết định hành chính.",
         "socraticPrompt": "Đề nghị xem lại quyết định sai là quyền gì?"
-      }
+      },
+      "socraticPrompt": "Đề nghị xem lại quyết định sai là quyền gì?",
+      "distractorReasons": [
+        "Sai vì 'Quyền khởi nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Quyền khiếu nại).",
+        "Sai vì 'Quyền tố cáo' không phù hợp với định lý/quy tắc trọng tâm (Quyền khiếu nại).",
+        "Sai vì 'Quyền tự do ngôn luận' không phù hợp với định lý/quy tắc trọng tâm (Quyền khiếu nại).",
+        "Đúng vì theo Quyền khiếu nại: Khiếu nại quyết định hành chính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Quyền công dân báo cho cơ quan chức năng biết về hành vi vi phạm pháp luật gây thiệt hại lợi ích nhà nước gọi là",
       "options": [
-        "Quyền tố cáo",
         "Quyền khiếu nại",
+        "Quyền tố cáo",
         "Quyền ứng cử",
         "Quyền học tập"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Khái niệm quyền tố cáo hành vi vi phạm pháp luật.",
       "breakdown": {
         "concept": "Quyền tố cáo",
         "steps": "Tố cáo hành vi vi phạm pháp luật.",
         "socraticPrompt": "Báo tin vi phạm pháp luật là quyền gì?"
-      }
+      },
+      "socraticPrompt": "Báo tin vi phạm pháp luật là quyền gì?",
+      "distractorReasons": [
+        "Sai vì 'Quyền khiếu nại' không phù hợp với định lý/quy tắc trọng tâm (Quyền tố cáo).",
+        "Đúng vì theo Quyền tố cáo: Tố cáo hành vi vi phạm pháp luật.",
+        "Sai vì 'Quyền ứng cử' không phù hợp với định lý/quy tắc trọng tâm (Quyền tố cáo).",
+        "Sai vì 'Quyền học tập' không phù hợp với định lý/quy tắc trọng tâm (Quyền tố cáo)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Phương châm thực hiện dân chủ ở cơ sở hiện nay theo quy định là",
       "options": [
-        "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng",
-        "Chỉ cán bộ quyết định",
         "Dân chỉ được nghe",
+        "Chỉ cán bộ quyết định",
+        "Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng",
         "Không cần hỏi ý kiến dân"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Phương châm dân chủ cơ sở phát huy quyền làm chủ của nhân dân.",
       "breakdown": {
         "concept": "Dân chủ cơ sở",
         "steps": "Dân biết, bàn, làm, kiểm tra, giám sát, thụ hưởng.",
         "socraticPrompt": "Phương châm dân chủ ở xã phường là gì?"
-      }
+      },
+      "socraticPrompt": "Phương châm dân chủ ở xã phường là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Dân chỉ được nghe', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cán bộ quyết định', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Dân chủ cơ sở: Dân biết, bàn, làm, kiểm tra, giám sát, thụ hưởng.",
+        "Sai vì phủ định sai bản chất: 'Không cần hỏi ý kiến dân' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

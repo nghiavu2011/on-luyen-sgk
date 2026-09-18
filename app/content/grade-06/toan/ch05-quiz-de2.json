@@ -1,128 +1,209 @@
 {
   "chapterId": "ch05",
   "examId": "de2",
-  "title": "Toán 6 — Chương 5: Đề 2 — Tâm đối xứng & Ứng dụng thực tế",
-  "description": "Luyện tập kỹ năng nhận diện tâm đối xứng và giải quyết bài toán hình học trong đời sống hằng ngày.",
+  "title": "Toán 6 — Chương 5: Tính đối xứng của hình phẳng: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c5_d2_q1",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Nhận biết hình có tâm đối xứng",
-      "question": "Hình nào sau đây KHÔNG CÓ tâm đối xứng trong mặt phẳng?",
-      "options": [
-        "Tam giác đều",
-        "Hình bình hành",
-        "Hình tròn",
-        "Hình lục giác đều"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Đặc điểm nhận dạng hình có tâm đối xứng.",
-        "socraticPrompt": "Khi quay hình nửa vòng (180°), hình nào sẽ bị đảo ngược đỉnh và không trùng khít với hình ban đầu?",
-        "steps": "Tam giác đều không có tâm đối xứng (quay 180° đỉnh hướng lên sẽ chúc xuống dưới). Hình bình hành, hình tròn và lục giác đều đều có tâm đối xứng.",
-        "trap": "Nhầm trọng tâm của tam giác đều là tâm đối xứng."
-      }
-    },
-    {
-      "id": "t6_c5_d2_q2",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Tâm đối xứng hình bình hành",
-      "question": "Tâm đối xứng của hình bình hành là vị trí nào sau đây?",
-      "options": [
-        "Giao điểm của hai đường chéo",
-        "Trung điểm của cạnh đáy",
-        "Một đỉnh bất kỳ của hình bình hành",
-        "Điểm chính giữa của đường cao"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Vị trí tâm đối xứng của hình bình hành.",
-        "socraticPrompt": "Hai đường chéo của hình bình hành cắt nhau tại trung điểm mỗi đường, điểm đó đóng vai trò gì?",
-        "steps": "Giao điểm hai đường chéo của hình bình hành chính là tâm đối xứng của nó.",
-        "trap": "Nhầm sang trung điểm cạnh đáy."
-      }
-    },
-    {
-      "id": "t6_c5_d2_q3",
+      "id": "t6_c5_d2_01",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Chữ cái có tâm và trục đối xứng",
-      "question": "Trong các chữ cái in hoa sau: A, H, N, O, S, Z, có bao nhiêu chữ cái VỪA có trục đối xứng VỪA có tâm đối xứng?",
+      "topic": "Chữ cái vừa có trục đối xứng vừa có tâm đối xứng",
+      "question": "Trong các chữ cái in hoa sau, chữ cái nào VỪA có trục đối xứng VỪA có tâm đối xứng?",
       "options": [
-        "2 chữ cái (H, O)",
-        "3 chữ cái (H, N, O)",
-        "4 chữ cái (A, H, O, S)",
-        "1 chữ cái (O)"
+        "E",
+        "H",
+        "S",
+        "M"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phân biệt chữ cái có trục đối xứng, tâm đối xứng và cả hai.",
-        "socraticPrompt": "Xét từng chữ: A chỉ có trục; N, S, Z chỉ có tâm. Chữ nào có cả trục gấp lại bằng nhau và quay 180° trùng khít?",
-        "steps": "Chữ H có 2 trục đối xứng và 1 tâm đối xứng. Chữ O có vô số trục đối xứng và 1 tâm đối xứng. Vậy có đúng 2 chữ cái là H và O.",
-        "trap": "Nhầm chữ N, S, Z có trục đối xứng (thực chất chúng chỉ có tâm đối xứng)."
-      }
+        "concept": "Chữ cái vừa có trục đối xứng vừa có tâm đối xứng khi nó có ít nhất hai trục đối xứng vuông góc nhau.",
+        "steps": [
+          "Bước 1: Chữ H: có 2 trục đối xứng (ngang, dọc) và có tâm đối xứng tại chính giữa thanh ngang.",
+          "Bước 2: Chữ E: chỉ có 1 trục đối xứng ngang, không có tâm đối xứng.",
+          "Bước 3: Chữ S: chỉ có tâm đối xứng, không có trục đối xứng.",
+          "Bước 4: Chữ M: chỉ có 1 trục đối xứng dọc, không có tâm đối xứng."
+        ],
+        "trap": "Nhầm chữ S có trục đối xứng chéo hoặc chữ E có tâm đối xứng.",
+        "socraticPrompt": "Chữ cái nào quay 180° vẫn giữ nguyên và có thể gấp đôi theo cả chiều ngang lẫn chiều dọc mà trùng khít?"
+      },
+      "socraticPrompt": "Chữ cái nào quay 180° vẫn giữ nguyên và có thể gấp đôi theo cả chiều ngang lẫn chiều dọc mà trùng khít?",
+      "distractorReasons": [
+        "Sai vì chữ E chỉ có 1 trục đối xứng nằm ngang, không có tâm đối xứng.",
+        "Đúng vì chữ H có 2 trục đối xứng (1 dọc, 1 ngang) và có 1 tâm đối xứng ở tâm hình.",
+        "Sai vì chữ S chỉ có tâm đối xứng, không có trục đối xứng nào.",
+        "Sai vì chữ M chỉ có 1 trục đối xứng thẳng đứng, không có tâm đối xứng."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c5_d2_q4",
+      "id": "t6_c5_d2_02",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Đối xứng của lục giác đều",
-      "question": "Hình lục giác đều có bao nhiêu trục đối xứng và bao nhiêu tâm đối xứng?",
+      "topic": "Nhận diện biển báo giao thông có trục đối xứng",
+      "question": "Biển báo giao thông hình tròn có viền đỏ, nền trắng, bên trong có hình dấu cộng màu đỏ (biển báo Trạm cấp cứu) có bao nhiêu trục đối xứng?",
       "options": [
-        "6 trục đối xứng và 1 tâm đối xứng",
-        "3 trục đối xứng và 1 tâm đối xứng",
-        "6 trục đối xứng và không có tâm đối xứng",
-        "12 trục đối xứng và 2 tâm đối xứng"
+        "1",
+        "2",
+        "4",
+        "Vô số"
       ],
-      "correct": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tính đối xứng đầy đủ của đa giác đều có số cạnh chẵn.",
-        "socraticPrompt": "Lục giác đều có 6 đỉnh thì có mấy trục đối xứng? Giao điểm 3 đường chéo chính có là tâm đối xứng không?",
-        "steps": "Lục giác đều có 6 trục đối xứng (3 đường nối các đỉnh đối diện và 3 đường nối trung điểm các cạnh đối diện) và có duy nhất 1 tâm đối xứng tại giao điểm 3 đường chéo chính.",
-        "trap": "Bỏ sót 3 trục đối xứng đi qua trung điểm các cặp cạnh đối diện."
-      }
+        "concept": "Hình dấu cộng chữ thập (gồm hai hình chữ nhật bằng nhau vuông góc cắt nhau tại tâm) có 4 trục đối xứng: 2 trục dọc ngang và 2 trục chéo.",
+        "steps": [
+          "Bước 1: Hình tròn bao ngoài có vô số trục đối xứng.",
+          "Bước 2: Hình dấu cộng bên trong có 4 trục đối xứng (2 trục theo các thanh và 2 trục theo đường phân giác).",
+          "Bước 3: Giao của hai hình này có 4 trục đối xứng."
+        ],
+        "trap": "Chỉ đếm 2 trục dọc ngang của dấu cộng mà quên mất 2 trục chéo nghiêng 45°.",
+        "socraticPrompt": "Dấu cộng đối xứng qua trục dọc, trục ngang và có đối xứng qua hai đường chéo nghiêng 45 độ không?"
+      },
+      "socraticPrompt": "Dấu cộng đối xứng qua trục dọc, trục ngang và có đối xứng qua hai đường chéo nghiêng 45 độ không?",
+      "distractorReasons": [
+        "Sai vì có nhiều hơn 1 trục đối xứng.",
+        "Sai vì mới chỉ đếm trục dọc và trục ngang, quên 2 trục chéo 45°.",
+        "Đúng vì hình chữ thập đều có 4 trục đối xứng (2 trục đi qua các thanh và 2 trục chia đôi các góc vuông).",
+        "Sai vì dấu cộng bên trong không phải là hình tròn nên không thể có vô số trục."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c5_d2_q5",
-      "difficulty": "hard",
+      "id": "t6_c5_d2_03",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Ứng dụng tâm đối xứng trong đời sống",
-      "question": "Một chiếc chong chóng có 4 cánh cách đều nhau quanh một trục. Hỏi chiếc chong chóng đó có tâm đối xứng hay không và góc quay nhỏ nhất để các cánh trùng khít lại với vị trí ban đầu là bao nhiêu?",
+      "topic": "Tâm đối xứng của các chữ số",
+      "question": "Trong các chữ số từ 0 đến 9 viết theo phông chuẩn (kiểu đồng hồ điện tử 7 đoạn), chữ số nào sau đây có TÂM ĐỐI XỨNG?",
       "options": [
-        "Có tâm đối xứng, góc quay nhỏ nhất là 90°",
-        "Không có tâm đối xứng, góc quay nhỏ nhất là 180°",
-        "Có tâm đối xứng, góc quay nhỏ nhất là 45°",
-        "Không có tâm đối xứng, góc quay nhỏ nhất là 90°"
+        "Số 6 và số 9",
+        "Số 1 và số 3",
+        "Số 2 và số 5",
+        "Số 0 và số 8"
       ],
-      "correct": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tính đối xứng quay và tâm đối xứng của chong chóng 4 cánh.",
-        "socraticPrompt": "Vòng tròn là 360°, chia đều cho 4 cánh thì mỗi góc quay là bao nhiêu độ? Quay 180° cánh này có trùng cánh đối diện không?",
-        "steps": "Góc quay nhỏ nhất = 360° / 4 = 90°. Khi quay 180° (bằng 2 lần 90°), mỗi cánh chuyển sang vị trí cánh đối diện nên có tâm đối xứng.",
-        "trap": "Nhầm góc quay nhỏ nhất là 180° thay vì 90°."
-      }
+        "concept": "Khi quay 180° quanh tâm, hình trùng khít lên chính nó.",
+        "steps": [
+          "Bước 1: Số 0 khi quay 180° vẫn là số 0 ⇒ có tâm đối xứng.",
+          "Bước 2: Số 8 khi quay 180° vẫn là số 8 ⇒ có tâm đối xứng.",
+          "Bước 3: Số 6 quay 180° thành số 9 (thay đổi thành chữ số khác chứ không phải chính nó).",
+          "Bước 4: Vậy các chữ số có tâm đối xứng là 0 và 8."
+        ],
+        "trap": "Nghĩ số 6 có tâm đối xứng vì quay 180° thành số 9 (sai, vì phải trùng khít lên CHÍNH NÓ chứ không phải thành số khác).",
+        "socraticPrompt": "Khi quay một tờ giấy ghi chữ số một nửa vòng (180°), chữ số nào vẫn giữ nguyên là chính nó?"
+      },
+      "socraticPrompt": "Khi quay một tờ giấy ghi chữ số một nửa vòng (180°), chữ số nào vẫn giữ nguyên là chính nó?",
+      "distractorReasons": [
+        "Sai vì số 6 quay 180° biến thành số 9 chứ không trùng khít lên số 6.",
+        "Sai vì số 1 (có móc) và số 3 quay 180° sẽ bị ngược.",
+        "Sai vì số 2 quay 180° bị lộn ngược không trùng khít.",
+        "Đúng vì số 0 và số 8 khi quay 180° quanh tâm đều chồng khít lên chính hình ban đầu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c5_d2_q6",
-      "difficulty": "expert",
+      "id": "t6_c5_d2_04",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Khoảng cách giữa hai điểm đối xứng qua tâm",
-      "question": "Cho đoạn thẳng AB dài 10 cm có tâm đối xứng là trung điểm O. Lấy điểm M trên đoạn thẳng AB sao cho AM = 2 cm. Gọi M' là điểm đối xứng với M qua O. Độ dài đoạn thẳng MM' là:",
+      "topic": "Tính chất điểm đối xứng qua trục",
+      "question": "Cho điểm A nằm cách đường thẳng d một khoảng 4 cm. Điểm A' đối xứng với A qua đường thẳng d sẽ cách điểm A một khoảng bằng bao nhiêu?",
       "options": [
-        "6 cm",
-        "4 cm",
         "8 cm",
-        "5 cm"
+        "4 cm",
+        "2 cm",
+        "16 cm"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tính chất điểm đối xứng qua tâm trên đoạn thẳng.",
-        "socraticPrompt": "O là trung điểm AB nên OA dài bao nhiêu? Từ đó tính đoạn OM rồi nhân đôi để ra MM'.",
-        "steps": "Bước 1: OA = AB / 2 = 10 / 2 = 5 cm. Bước 2: Đoạn OM = OA - AM = 5 - 2 = 3 cm. Bước 3: M' đối xứng với M qua O nên O là trung điểm của MM'. Do đó MM' = 2 × OM = 2 × 3 = 6 cm.",
-        "trap": "Nhầm lấy 10 - 2 = 8 cm hoặc lấy luôn OM = 3 cm làm kết quả."
-      }
+        "concept": "Đường thẳng d là đường trung trực của đoạn thẳng AA'.",
+        "steps": [
+          "Bước 1: Gọi H là hình chiếu vuông góc của A lên d. Theo đề bài AH = 4 cm.",
+          "Bước 2: Vì A' đối xứng với A qua d nên H là trung điểm của đoạn thẳng AA'.",
+          "Bước 3: Khoảng cách AA' = 2 × AH = 2 × 4 = 8 cm."
+        ],
+        "trap": "Học sinh chọn 4 cm do nhầm khoảng cách giữa A và A' với khoảng cách từ A đến đường thẳng d.",
+        "socraticPrompt": "Đường thẳng d đi qua chính giữa đoạn thẳng nối A và A'. Nếu từ A đến d là 4 cm thì từ A đến A' là bao nhiêu?"
+      },
+      "socraticPrompt": "Đường thẳng d đi qua chính giữa đoạn thẳng nối A và A'. Nếu từ A đến d là 4 cm thì từ A đến A' là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì d là trung trực của AA' nên AA' = 2 × 4 = 8 cm.",
+        "Sai vì 4 cm là khoảng cách từ A đến d, khoảng cách từ A đến A' phải gấp đôi.",
+        "Sai vì lấy 4 chia 2 = 2.",
+        "Sai vì bình phương khoảng cách."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c5_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính đối xứng của lục giác đều",
+      "question": "Lục giác đều có bao nhiêu trục đối xứng và bao nhiêu tâm đối xứng?",
+      "options": [
+        "12 trục đối xứng và 1 tâm đối xứng",
+        "3 trục đối xứng và 1 tâm đối xứng",
+        "6 trục đối xứng và 0 tâm đối xứng",
+        "6 trục đối xứng và 1 tâm đối xứng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Lục giác đều có 6 đỉnh nên có 6 trục đối xứng (3 đường chéo chính và 3 đường nối trung điểm các cặp cạnh đối). Tâm của lục giác đều là tâm đối xứng duy nhất.",
+        "steps": [
+          "Bước 1: 3 trục đối xứng đi qua các cặp đỉnh đối diện (3 đường chéo chính).",
+          "Bước 2: 3 trục đối xứng đi qua trung điểm các cặp cạnh đối diện.",
+          "Bước 3: Tổng cộng có 3 + 3 = 6 trục đối xứng.",
+          "Bước 4: Giao điểm của các đường chéo chính là 1 tâm đối xứng."
+        ],
+        "trap": "Chỉ đếm 3 đường chéo chính mà quên 3 đường nối trung điểm cạnh đối.",
+        "socraticPrompt": "Lục giác đều có 6 cạnh: có mấy đường chéo chính và mấy đường nối trung điểm các cạnh đối?"
+      },
+      "socraticPrompt": "Lục giác đều có 6 cạnh: có mấy đường chéo chính và mấy đường nối trung điểm các cạnh đối?",
+      "distractorReasons": [
+        "Sai vì đếm thừa gấp đôi số trục đối xứng.",
+        "Sai vì mới chỉ đếm 3 trục đi qua các cặp đỉnh đối diện.",
+        "Sai vì lục giác đều có số đỉnh chẵn (6) nên chắc chắn có tâm đối xứng.",
+        "Đúng vì lục giác đều có 6 trục đối xứng (3 qua đỉnh, 3 qua trung điểm cạnh) và 1 tâm đối xứng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c5_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Điểm đối xứng qua tâm O",
+      "question": "Trên mặt phẳng, điểm O là tâm đối xứng của đoạn thẳng AB. Biết độ dài đoạn thẳng OA = 7 cm. Độ dài đoạn thẳng AB bằng:",
+      "options": [
+        "14 cm",
+        "7 cm",
+        "3,5 cm",
+        "21 cm"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "O là tâm đối xứng của đoạn thẳng AB nghĩa là O là trung điểm của đoạn thẳng AB.",
+        "steps": [
+          "Bước 1: Vì O là trung điểm của AB nên OA = OB = 7 cm.",
+          "Bước 2: Độ dài đoạn thẳng AB = OA + OB = 7 + 7 = 14 cm."
+        ],
+        "trap": "Chọn 7 cm do nhầm độ dài AB với OA hoặc chia đôi ra 3,5 cm.",
+        "socraticPrompt": "Tâm đối xứng của một đoạn thẳng chính là trung điểm của đoạn thẳng đó. Nếu nửa đoạn thẳng là 7 cm thì cả đoạn thẳng là bao nhiêu?"
+      },
+      "socraticPrompt": "Tâm đối xứng của một đoạn thẳng chính là trung điểm của đoạn thẳng đó. Nếu nửa đoạn thẳng là 7 cm thì cả đoạn thẳng là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì O là trung điểm của AB nên AB = 2 × OA = 2 × 7 = 14 cm.",
+        "Sai vì 7 cm mới chỉ là một nửa đoạn thẳng (OA).",
+        "Sai vì lấy 7 chia 2 = 3,5 cm.",
+        "Sai vì nhân ba đoạn thẳng."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

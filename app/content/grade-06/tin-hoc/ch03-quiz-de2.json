@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Cú pháp địa chỉ email hợp lệ (Bài 8, SGK Tin học 6, trang 34).",
         "steps": "Địa chỉ email hợp lệ không chứa khoảng trắng, có ký hiệu '@' và có tên miền máy chủ đầy đủ phần mở rộng (.com, .vn...). Vậy nguyenha.lop6a@gmail.com là chuẩn.",
-        "trap": "Chứa khoảng trắng ở tên tài khoản hoặc thiếu đuôi tên miền .com."
+        "trap": "Chứa khoảng trắng ở tên tài khoản hoặc thiếu đuôi tên miền .com.",
+        "socraticPrompt": "Địa chỉ email có được phép chứa khoảng cách (phím Space) giữa các chữ cái hay không?"
       },
       "socraticPrompt": "Địa chỉ email có được phép chứa khoảng cách (phím Space) giữa các chữ cái hay không?",
       "distractorReasons": [
-        "Chính xác, có đầy đủ các thành phần hợp lệ không chứa khoảng trắng.",
+        "Đúng vì có đầy đủ các thành phần hợp lệ không chứa khoảng trắng.",
         "Sai vì có chứa khoảng trắng giữa chữ 'nguyenha' và 'lop6a'.",
         "Sai vì dùng ký hiệu '#' thay cho ký hiệu bắt buộc '@'.",
         "Sai vì tên máy chủ thiếu phần mở rộng tên miền cấp cao (thiếu .com)."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch03_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Tìm kiếm chính xác bằng ngoặc kép (Bài 7, SGK Tin học 6, trang 30).",
         "steps": "Sử dụng dấu ngoặc kép \"từ khóa\" giúp máy tìm kiếm hiểu rằng cần tìm đúng thứ tự các từ trong ngoặc, không phân tách rời rạc.",
-        "trap": "Nhầm lẫn với dấu ngoặc vuông hoặc dấu gạch chéo."
+        "trap": "Nhầm lẫn với dấu ngoặc vuông hoặc dấu gạch chéo.",
+        "socraticPrompt": "Khi muốn tìm chính xác câu thơ 'Nam quốc sơn hà nam đế cư', em đặt câu thơ vào giữa dấu gì để Google tìm nguyên văn?"
       },
       "socraticPrompt": "Khi muốn tìm chính xác câu thơ 'Nam quốc sơn hà nam đế cư', em đặt câu thơ vào giữa dấu gì để Google tìm nguyên văn?",
       "distractorReasons": [
-        "Sai, dấu ngoặc vuông không có chức năng tìm kiếm nguyên cụm từ.",
-        "Chính xác theo hướng dẫn SGK Tin học 6: dấu ngoặc kép \"...\" dùng để tìm chính xác cụm từ.",
-        "Sai, dấu ngoặc nhọn dùng trong toán học hoặc lập trình.",
-        "Sai, dấu gạch chéo không hỗ trợ tìm kiếm nguyên cụm từ."
-      ]
+        "Sai vì dấu ngoặc vuông không có chức năng tìm kiếm nguyên cụm từ.",
+        "Đúng vì hướng dẫn SGK Tin học 6: dấu ngoặc kép \"...\" dùng để tìm chính xác cụm từ.",
+        "Sai vì dấu ngoặc nhọn dùng trong toán học hoặc lập trình.",
+        "Sai vì dấu gạch chéo không hỗ trợ tìm kiếm nguyên cụm từ."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch03_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Dấu hiệu nhận biết siêu liên kết (Bài 6, SGK Tin học 6, trang 24).",
         "steps": "Khi trỏ chuột vào một đoạn văn bản hoặc hình ảnh có gắn siêu liên kết (hyperlink), con trỏ chuột sẽ đổi từ mũi tên thành hình bàn tay có ngón trỏ chỉ.",
-        "trap": "Nhầm với con trỏ đồng hồ cát (khi máy đang bận xử lý)."
+        "trap": "Nhầm với con trỏ đồng hồ cát (khi máy đang bận xử lý).",
+        "socraticPrompt": "Khi rê chuột vào một dòng chữ xanh có gạch chân trên mạng, em thấy con trỏ đổi sang hình gì trước khi bấm vào?"
       },
       "socraticPrompt": "Khi rê chuột vào một dòng chữ xanh có gạch chân trên mạng, em thấy con trỏ đổi sang hình gì trước khi bấm vào?",
       "distractorReasons": [
-        "Chính xác, biểu tượng bàn tay chỉ ngón là quy chuẩn giao diện web để báo hiệu người dùng có thể nhấp chuột.",
-        "Sai, đồng hồ cát hiển thị trạng thái chờ tải trang.",
-        "Sai, mũi tên 4 chiều dùng khi di chuyển đối tượng đồ họa.",
-        "Sai, dấu chéo đỏ biểu thị hành động bị cấm."
-      ]
+        "Đúng vì biểu tượng bàn tay chỉ ngón là quy chuẩn giao diện web để báo hiệu người dùng có thể nhấp chuột.",
+        "Sai vì đồng hồ cát hiển thị trạng thái chờ tải trang.",
+        "Sai vì mũi tên 4 chiều dùng khi di chuyển đối tượng đồ họa.",
+        "Sai vì dấu chéo đỏ biểu thị hành động bị cấm."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch03_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Soạn thư điện tử (Bài 8, SGK Tin học 6, trang 36).",
         "steps": "Trường Chủ đề (Subject) là dòng tóm tắt tiêu đề bức thư, giúp người nhận biết được thư nói về việc gì trước khi mở xem nội dung chi tiết.",
-        "trap": "Nhầm chủ đề với nội dung chính hoặc mật khẩu."
+        "trap": "Nhầm chủ đề với nội dung chính hoặc mật khẩu.",
+        "socraticPrompt": "Trước khi mở đọc một bức thư dài, người nhận muốn nhìn thấy điều gì ở danh sách Hộp thư đến để biết thư gửi về chuyện gì?"
       },
       "socraticPrompt": "Trước khi mở đọc một bức thư dài, người nhận muốn nhìn thấy điều gì ở danh sách Hộp thư đến để biết thư gửi về chuyện gì?",
       "distractorReasons": [
-        "Sai, nội dung chi tiết được viết ở phần soạn văn bản (Body), không phải ô Chủ đề.",
-        "Chính xác, Chủ đề (Subject) là dòng tiêu đề tóm tắt ngắn gọn nội dung thư.",
-        "Sai, mật khẩu là thông tin tuyệt mật không bao giờ ghi vào ô chủ đề thư.",
-        "Sai, số điện thoại nhà mạng không liên quan đến tiêu đề bức thư."
-      ]
+        "Sai vì nội dung chi tiết được viết ở phần soạn văn bản (Body), không phải ô Chủ đề.",
+        "Đúng vì Chủ đề (Subject) là dòng tiêu đề tóm tắt ngắn gọn nội dung thư.",
+        "Sai vì mật khẩu là thông tin tuyệt mật không bao giờ ghi vào ô chủ đề thư.",
+        "Sai vì số điện thoại nhà mạng không liên quan đến tiêu đề bức thư."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch03_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Kỹ thuật chọn từ khóa (Bài 7, SGK Tin học 6, trang 32).",
         "steps": "Đặt \"lớp vỏ Trái Đất\" trong dấu ngoặc kép giúp máy tìm kiếm lọc chính xác các bài viết khoa học về lớp vỏ Trái Đất, loại bỏ các kết quả lan man về vỏ trái cây, quả địa cầu...",
-        "trap": "Dùng từ quá rộng như 'Trái Đất' hay 'vỏ'."
+        "trap": "Dùng từ quá rộng như 'Trái Đất' hay 'vỏ'.",
+        "socraticPrompt": "Từ khóa nào vừa ngắn gọn vừa chứa chính xác cấu trúc tên gọi khái niệm địa lý mà Mai đang học?"
       },
       "socraticPrompt": "Từ khóa nào vừa ngắn gọn vừa chứa chính xác cấu trúc tên gọi khái niệm địa lý mà Mai đang học?",
       "distractorReasons": [
-        "Sai, từ 'Trái Đất' quá rộng, trả về hàng trăm triệu trang về hành tinh, thiên văn, phim ảnh...",
-        "Chính xác, đây là câu hỏi trong phần Luyện tập 2 trang 32 SGK Tin học 6.",
-        "Sai, từ 'vỏ' sẽ ra vỏ trứng, vỏ sò, vỏ xe, vỏ gối...",
-        "Sai, 'địa lí thế giới' là môn học rộng lớn bao quát toàn bộ hành tinh."
-      ]
+        "Sai vì từ 'Trái Đất' quá rộng, trả về hàng trăm triệu trang về hành tinh, thiên văn, phim ảnh...",
+        "Đúng vì đây là câu hỏi trong phần Luyện tập 2 trang 32 SGK Tin học 6.",
+        "Sai vì từ 'vỏ' sẽ ra vỏ trứng, vỏ sò, vỏ xe, vỏ gối...",
+        "Sai vì 'địa lí thế giới' là môn học rộng lớn bao quát toàn bộ hành tinh."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch03_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Bảo vệ tài khoản email (Bài 8, SGK Tin học 6, trang 36-37).",
         "steps": "Khi dùng máy tính công cộng, nếu không Đăng xuất thì phiên làm việc vẫn lưu lại trong trình duyệt, người sau bật máy lên có thể đọc trộm thư hoặc mạo danh gửi thư phá hoại.",
-        "trap": "Nghĩ rằng chỉ cần tắt màn hình hoặc đóng tab là đã thoát tài khoản an toàn."
+        "trap": "Nghĩ rằng chỉ cần tắt màn hình hoặc đóng tab là đã thoát tài khoản an toàn.",
+        "socraticPrompt": "Nút bấm nào trong hòm thư giúp em chính thức ngắt phiên kết nối và khóa quyền truy cập của người dùng tiếp theo?"
       },
       "socraticPrompt": "Nút bấm nào trong hòm thư giúp em chính thức ngắt phiên kết nối và khóa quyền truy cập của người dùng tiếp theo?",
       "distractorReasons": [
-        "Sai, tắt màn hình thì máy tính vẫn chạy ngầm, bật lại màn hình là thấy nguyên hòm thư.",
-        "Chính xác, luôn luôn phải nhấp nút Đăng xuất (Sign out) để xóa phiên đăng nhập.",
-        "Sai, hành vi cực kỳ sơ hở khiến tài khoản bị đánh cắp thông tin bí mật.",
-        "Sai, hành vi phá hoại gây mất điện đột ngột hỏng thiết bị phòng thực hành."
-      ]
+        "Sai vì tắt màn hình thì máy tính vẫn chạy ngầm, bật lại màn hình là thấy nguyên hòm thư.",
+        "Đúng vì luôn luôn phải nhấp nút Đăng xuất (Sign out) để xóa phiên đăng nhập.",
+        "Sai vì hành vi cực kỳ sơ hở khiến tài khoản bị đánh cắp thông tin bí mật.",
+        "Sai vì hành vi phá hoại gây mất điện đột ngột hỏng thiết bị phòng thực hành."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

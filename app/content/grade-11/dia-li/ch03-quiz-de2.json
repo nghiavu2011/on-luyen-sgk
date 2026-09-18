@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Lợi ích lớn nhất của việc sử dụng đồng tiền chung Euro đối với các nước EU là",
       "options": [
-        "Xóa bỏ rủi ro tỷ giá, giảm chi phí chuyển đổi tiền và tăng tính minh bạch thương mại",
         "Khiến tất cả các nước đều in tiền tùy thích",
+        "Xóa bỏ rủi ro tỷ giá, giảm chi phí chuyển đổi tiền và tăng tính minh bạch thương mại",
         "Làm tăng lạm phát không kiểm soát",
         "Bãi bỏ hệ thống ngân hàng"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Giao dịch buôn bán nội khối trở nên đơn giản, tiện lợi và tiết kiệm hàng tỷ Euro.",
       "breakdown": {
         "concept": "Lợi ích đồng Euro",
         "steps": "Xóa bỏ rủi ro tỷ giá và chi phí giao dịch.",
         "socraticPrompt": "Tại sao EU dùng đồng Euro?"
-      }
+      },
+      "socraticPrompt": "Tại sao EU dùng đồng Euro?",
+      "distractorReasons": [
+        "Sai vì 'Khiến tất cả các nước đều in tiền tùy thích' không phù hợp với định lý/quy tắc trọng tâm (Lợi ích đồng Euro).",
+        "Đúng vì theo Lợi ích đồng Euro: Xóa bỏ rủi ro tỷ giá và chi phí giao dịch.",
+        "Sai vì phủ định sai bản chất: 'Làm tăng lạm phát không kiểm soát' trái ngược với kiến thức SGK.",
+        "Sai vì 'Bãi bỏ hệ thống ngân hàng' không phù hợp với định lý/quy tắc trọng tâm (Lợi ích đồng Euro)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Cơ hội vàng cho hàng hóa Việt Nam khi xuất khẩu sang EU theo hiệp định EVFTA là",
       "options": [
-        "Thuế quan được cắt giảm gần 100% mở ra cánh cửa thị trường rộng lớn và thu nhập cao",
-        "Không cần kiểm dịch an toàn thực phẩm",
         "Có thể xuất khẩu hàng kém chất lượng",
+        "Không cần kiểm dịch an toàn thực phẩm",
+        "Thuế quan được cắt giảm gần 100% mở ra cánh cửa thị trường rộng lớn và thu nhập cao",
         "Được EU bao tiêu miễn phí"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Thuế quan ưu đãi 0% nhưng đòi hỏi tiêu chuẩn chất lượng và nguồn gốc xuất xứ nghiêm ngặt.",
       "breakdown": {
         "concept": "Cơ hội từ EVFTA",
         "steps": "Thuế quan 0% vào thị trường EU.",
         "socraticPrompt": "EVFTA đem lại ưu đãi gì cho Việt Nam?"
-      }
+      },
+      "socraticPrompt": "EVFTA đem lại ưu đãi gì cho Việt Nam?",
+      "distractorReasons": [
+        "Sai vì 'Có thể xuất khẩu hàng kém chất lượng' không phù hợp với định lý/quy tắc trọng tâm (Cơ hội từ EVFTA).",
+        "Sai vì phủ định sai bản chất: 'Không cần kiểm dịch an toàn thực phẩm' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Cơ hội từ EVFTA: Thuế quan 0% vào thị trường EU.",
+        "Sai vì 'Được EU bao tiêu miễn phí' không phù hợp với định lý/quy tắc trọng tâm (Cơ hội từ EVFTA)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Thách thức lớn nhất đối với doanh nghiệp Việt Nam khi xuất khẩu vào EU là",
       "options": [
-        "Các rào cản kỹ thuật khắt khe, tiêu chuẩn xanh (CBAM) và trách nhiệm xã hội",
+        "Đồng Euro mất giá hoàn toàn",
         "Chi phí vận chuyển đường bộ",
         "EU không có nhu cầu tiêu dùng",
-        "Đồng Euro mất giá hoàn toàn"
+        "Các rào cản kỹ thuật khắt khe, tiêu chuẩn xanh (CBAM) và trách nhiệm xã hội"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Cơ chế điều chỉnh biên giới carbon (CBAM) và các tiêu chuẩn ESG đòi hỏi chuỗi sản xuất xanh.",
       "breakdown": {
         "concept": "Rào cản kỹ thuật EU",
         "steps": "Tiêu chuẩn xanh CBAM và chứng chỉ xuất xứ.",
         "socraticPrompt": "Khó khăn khi bán hàng sang EU là gì?"
-      }
+      },
+      "socraticPrompt": "Khó khăn khi bán hàng sang EU là gì?",
+      "distractorReasons": [
+        "Sai vì 'Đồng Euro mất giá hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Rào cản kỹ thuật EU).",
+        "Sai vì 'Chi phí vận chuyển đường bộ' không phù hợp với định lý/quy tắc trọng tâm (Rào cản kỹ thuật EU).",
+        "Sai vì phủ định sai bản chất: 'EU không có nhu cầu tiêu dùng' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Rào cản kỹ thuật EU: Tiêu chuẩn xanh CBAM và chứng chỉ xuất xứ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Mục đích Euroregion",
         "steps": "Hợp tác kinh tế vùng biên giới.",
         "socraticPrompt": "Euroregion thành lập nhằm mục đích gì?"
-      }
+      },
+      "socraticPrompt": "Euroregion thành lập nhằm mục đích gì?",
+      "distractorReasons": [
+        "Đúng vì theo Mục đích Euroregion: Hợp tác kinh tế vùng biên giới.",
+        "Sai vì 'Tách các vùng biên giới thành quốc gia độc lập' không phù hợp với định lý/quy tắc trọng tâm (Mục đích Euroregion).",
+        "Sai vì 'Xây dựng bức tường ngăn cách các nước' không phù hợp với định lý/quy tắc trọng tâm (Mục đích Euroregion).",
+        "Sai vì 'Cấm giao thương biên giới' không phù hợp với định lý/quy tắc trọng tâm (Mục đích Euroregion)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Ngành công nghiệp chế tạo của EU có thế mạnh nổi bật trên toàn cầu trong lĩnh vực",
       "options": [
-        "Sản xuất máy bay (Airbus), ô tô hạng sang, cơ khí chính xác và hóa dược phẩm",
+        "Đóng tàu gỗ",
         "Chỉ gia công may mặc thô",
         "Khai thác than thủ công",
-        "Đóng tàu gỗ"
+        "Sản xuất máy bay (Airbus), ô tô hạng sang, cơ khí chính xác và hóa dược phẩm"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Airbus, Mercedes-Benz, BMW, Volkswagen, Sanofi là các biểu tượng công nghiệp EU.",
       "breakdown": {
         "concept": "Thế mạnh công nghiệp EU",
         "steps": "Hàng không vũ trụ, ô tô, dược phẩm.",
         "socraticPrompt": "EU nổi tiếng thế giới về sản xuất sản phẩm công nghiệp nào?"
-      }
+      },
+      "socraticPrompt": "EU nổi tiếng thế giới về sản xuất sản phẩm công nghiệp nào?",
+      "distractorReasons": [
+        "Sai vì 'Đóng tàu gỗ' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh công nghiệp EU).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gia công may mặc thô', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Khai thác than thủ công' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh công nghiệp EU).",
+        "Đúng vì theo Thế mạnh công nghiệp EU: Hàng không vũ trụ, ô tô, dược phẩm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Chính sách nông nghiệp CAP",
         "steps": "Nông nghiệp sinh thái bền vững.",
         "socraticPrompt": "Chính sách nông nghiệp EU hướng tới điều gì?"
-      }
+      },
+      "socraticPrompt": "Chính sách nông nghiệp EU hướng tới điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Chính sách nông nghiệp CAP: Nông nghiệp sinh thái bền vững.",
+        "Sai vì 'Bỏ hoang đồng ruộng' không phù hợp với định lý/quy tắc trọng tâm (Chính sách nông nghiệp CAP).",
+        "Sai vì 'Nhập khẩu 100% nông sản từ bên ngoài' không phù hợp với định lý/quy tắc trọng tâm (Chính sách nông nghiệp CAP).",
+        "Sai vì 'Cấm dùng máy móc nông nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Chính sách nông nghiệp CAP)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

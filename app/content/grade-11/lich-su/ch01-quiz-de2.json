@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Điểm giống nhau cơ bản giữa Cách mạng Anh và Cách mạng Bắc Mỹ là",
       "options": [
-        "Đều mở đường cho chủ nghĩa tư bản phát triển thuận lợi",
         "Đều xóa bỏ hoàn toàn quyền vua chúa",
+        "Đều mở đường cho chủ nghĩa tư bản phát triển thuận lợi",
         "Đều giải phóng dân tộc khỏi nô dịch thực dân",
         "Đều do công nhân lãnh đạo"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Mọi cuộc CMTS đều mở đường cho CNTB phát triển tự do.",
       "breakdown": {
         "concept": "So sánh CMTS",
         "steps": "Bản chất kinh tế chung là xác lập CNTB.",
         "socraticPrompt": "Mục đích kinh tế chung của các cuộc CMTS là gì?"
-      }
+      },
+      "socraticPrompt": "Mục đích kinh tế chung của các cuộc CMTS là gì?",
+      "distractorReasons": [
+        "Sai vì 'Đều xóa bỏ hoàn toàn quyền vua chúa' không phù hợp với định lý/quy tắc trọng tâm (So sánh CMTS).",
+        "Đúng vì theo So sánh CMTS: Bản chất kinh tế chung là xác lập CNTB.",
+        "Sai vì 'Đều giải phóng dân tộc khỏi nô dịch thực dân' không phù hợp với định lý/quy tắc trọng tâm (So sánh CMTS).",
+        "Sai vì 'Đều do công nhân lãnh đạo' không phù hợp với định lý/quy tắc trọng tâm (So sánh CMTS)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Nguyên nhân khiến chủ nghĩa tư bản chuyển sang giai đoạn độc quyền là",
       "options": [
-        "Sự phát triển mạnh mẽ của khoa học công nghệ và tích tụ tư bản cao độ",
-        "Sự suy yếu của các ngân hàng thương mại",
         "Chế độ phong kiến khôi phục lại quyền lực",
+        "Sự suy yếu của các ngân hàng thương mại",
+        "Sự phát triển mạnh mẽ của khoa học công nghệ và tích tụ tư bản cao độ",
         "Thị trường thế giới bị thu hẹp hoàn toàn"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Cạnh tranh tự do dẫn tới tập trung sản xuất thành các tổ chức độc quyền.",
       "breakdown": {
         "concept": "Chuyển biến CNTB",
         "steps": "Tập trung sản xuất và tích tụ tư bản tạo ra độc quyền.",
         "socraticPrompt": "Yếu tố công nghệ nào thúc đẩy quy mô nhà máy tăng vọt?"
-      }
+      },
+      "socraticPrompt": "Yếu tố công nghệ nào thúc đẩy quy mô nhà máy tăng vọt?",
+      "distractorReasons": [
+        "Sai vì 'Chế độ phong kiến khôi phục lại quyền lực' không phù hợp với định lý/quy tắc trọng tâm (Chuyển biến CNTB).",
+        "Sai vì 'Sự suy yếu của các ngân hàng thương mại' không phù hợp với định lý/quy tắc trọng tâm (Chuyển biến CNTB).",
+        "Đúng vì theo Chuyển biến CNTB: Tập trung sản xuất và tích tụ tư bản tạo ra độc quyền.",
+        "Sai vì 'Thị trường thế giới bị thu hẹp hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Chuyển biến CNTB)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Hạn chế lớn nhất của bản Tuyên ngôn Độc lập Mỹ 1776 là",
       "options": [
-        "Không xóa bỏ chế độ nô lệ da đen và bất bình đẳng với phụ nữ",
+        "Không thiết lập chế độ cộng hòa",
         "Không tuyên bố tách khỏi nước Anh",
         "Không khẳng định quyền con người",
-        "Không thiết lập chế độ cộng hòa"
+        "Không xóa bỏ chế độ nô lệ da đen và bất bình đẳng với phụ nữ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Tuyên ngôn chưa giải phóng người nô lệ da đen và người da đỏ.",
       "breakdown": {
         "concept": "Hạn chế Tuyên ngôn Mỹ",
         "steps": "Bảo lưu chế độ nô lệ đồn điền ở miền Nam.",
         "socraticPrompt": "Ai là tầng lớp chưa được hưởng quyền con người theo Tuyên ngôn 1776?"
-      }
+      },
+      "socraticPrompt": "Ai là tầng lớp chưa được hưởng quyền con người theo Tuyên ngôn 1776?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không thiết lập chế độ cộng hòa' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không tuyên bố tách khỏi nước Anh' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không khẳng định quyền con người' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Hạn chế Tuyên ngôn Mỹ: Bảo lưu chế độ nô lệ đồn điền ở miền Nam."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Tư bản tài chính",
         "steps": "Ngân hàng kiểm soát công nghiệp và ngược lại.",
         "socraticPrompt": "Khái niệm tư bản tài chính do ai làm chủ?"
-      }
+      },
+      "socraticPrompt": "Khái niệm tư bản tài chính do ai làm chủ?",
+      "distractorReasons": [
+        "Đúng vì theo Tư bản tài chính: Ngân hàng kiểm soát công nghiệp và ngược lại.",
+        "Sai vì 'Sự tách rời hoàn toàn giữa ngân hàng và sản xuất' không phù hợp với định lý/quy tắc trọng tâm (Tư bản tài chính).",
+        "Sai vì 'Ngân hàng bị nhà nước quốc hữu hóa' không phù hợp với định lý/quy tắc trọng tâm (Tư bản tài chính).",
+        "Sai vì 'Sự biến mất của các công ty cổ phần' không phù hợp với định lý/quy tắc trọng tâm (Tư bản tài chính)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Động lực nào giúp chủ nghĩa tư bản hiện đại duy trì sức cạnh tranh và phát triển?",
       "options": [
-        "Đầu tư mạnh vào nghiên cứu khoa học, chuyển đổi số và công nghệ cao",
+        "Triệt tiêu kinh tế thị trường",
         "Duy trì bóc lột lao động thủ công thô sơ",
         "Đóng cửa biên giới quốc gia",
-        "Triệt tiêu kinh tế thị trường"
+        "Đầu tư mạnh vào nghiên cứu khoa học, chuyển đổi số và công nghệ cao"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Kinh tế số và công nghệ 4.0 là động lực phát triển mới của CNTB.",
       "breakdown": {
         "concept": "CNTB hiện đại",
         "steps": "Ứng dụng AI, tự động hóa và kinh tế tri thức.",
         "socraticPrompt": "Khoa học công nghệ đóng vai trò gì trong nền kinh tế hiện đại?"
-      }
+      },
+      "socraticPrompt": "Khoa học công nghệ đóng vai trò gì trong nền kinh tế hiện đại?",
+      "distractorReasons": [
+        "Sai vì 'Triệt tiêu kinh tế thị trường' không phù hợp với định lý/quy tắc trọng tâm (CNTB hiện đại).",
+        "Sai vì 'Duy trì bóc lột lao động thủ công thô sơ' không phù hợp với định lý/quy tắc trọng tâm (CNTB hiện đại).",
+        "Sai vì 'Đóng cửa biên giới quốc gia' không phù hợp với định lý/quy tắc trọng tâm (CNTB hiện đại).",
+        "Đúng vì theo CNTB hiện đại: Ứng dụng AI, tự động hóa và kinh tế tri thức."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Hậu quả mâu thuẫn đế quốc",
         "steps": "Nước phát triển sau đòi chia lại thị trường.",
         "socraticPrompt": "Quy luật phát triển không đều gây ra điều gì?"
-      }
+      },
+      "socraticPrompt": "Quy luật phát triển không đều gây ra điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Hậu quả mâu thuẫn đế quốc: Nước phát triển sau đòi chia lại thị trường.",
+        "Sai vì 'Sự hòa bình vĩnh cửu trên thế giới' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả mâu thuẫn đế quốc).",
+        "Sai vì 'Các nước đế quốc tự nguyện trao trả thuộc địa' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả mâu thuẫn đế quốc).",
+        "Sai vì 'Hệ thống thuộc địa tự động tan rã' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả mâu thuẫn đế quốc)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

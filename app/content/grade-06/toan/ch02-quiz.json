@@ -1,158 +1,216 @@
 {
-  "examId": "toan-06-ch02-tonghop",
-  "grade": "06",
-  "subject": "toan",
-  "chapter": "ch02",
-  "chapterTitle": "Tính chia hết trong tập hợp các số tự nhiên",
-  "title": "Toán 6 — Chương 2: Tính chia hết (Đề 3: Đánh giá Năng lực Tổng hợp)",
-  "description": "Đề thi phân hóa giải quyết các bài toán thực tiễn về ƯCLN, BCNN và tính chất số học.",
-  "examCode": "103",
-  "mode": "exam",
-  "durationMinutes": 15,
+  "chapterId": "ch02",
+  "examId": "tonghop",
+  "title": "Toán 6 — Chương 2: Tính chia hết trong tập hợp các số tự nhiên: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "toan-06-ch02-th-q01",
-      "difficulty": "van-dung",
-      "topic": "Bài toán thực tế BCNN",
-      "question": "Học sinh khối 6 khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ. Biết số học sinh trong khoảng từ 300 đến 400. Số học sinh khối 6 là:",
+      "id": "t6_c2_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Chia tổ đều nhau (Ứng dụng ƯCLN)",
+      "question": "Đội tình nguyện viên của trường có 36 bạn nam và 48 bạn nữ. Đội muốn chia thành các nhóm nhỏ để làm nhiệm vụ sao cho số nam và số nữ ở mỗi nhóm là như nhau. Hỏi có thể chia được nhiều nhất bao nhiêu nhóm?",
       "options": [
-        "Khối 6 có tất cả 360 học sinh tham gia",
-        "Khối 6 có tất cả 320 học sinh tham gia",
-        "Khối 6 có tất cả 380 học sinh tham gia",
-        "Khối 6 có tất cả 340 học sinh tham gia"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Ứng dụng BCNN giải bài toán xếp hàng thực tế",
-        "socraticPrompt": "Số học sinh chia hết cho cả 12, 15 và 18, vậy số đó là gì của 12, 15, 18?",
-        "calculation": "Gọi số học sinh là $a$. $a \\in BC(12, 15, 18)$. $12 = 2^2 \\cdot 3$; $15 = 3 \\cdot 5$; $18 = 2 \\cdot 3^2$. $BCNN(12, 15, 18) = 2^2 \\cdot 3^2 \\cdot 5 = 180$. Bội của 180 là: 0, 180, 360, 540... Vì $300 \\le a \\le 400$ nên $a = 360$.",
-        "trap": "Chọn luôn 180 mà quên điều kiện đề bài cho số học sinh trong khoảng 300 đến 400.",
-        "distractorReasons": {
-          "1": "320 không chia hết cho 18 ($320 : 18$ có dư).",
-          "2": "380 không chia hết cho 12 và 15.",
-          "3": "340 không chia hết cho 12 và 18."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch02-th-q02",
-      "difficulty": "van-dung",
-      "topic": "Bài toán thực tế ƯCLN",
-      "question": "Đội tình nguyện có 36 nam và 24 nữ chia đều vào các nhóm sao cho số nam và nữ ở mỗi nhóm bằng nhau. Số nhóm chia được nhiều nhất là:",
-      "options": [
-        "Số nhóm chia được nhiều nhất là 6 nhóm nhỏ",
-        "Số nhóm chia được nhiều nhất là 12 nhóm nhỏ",
-        "Số nhóm chia được nhiều nhất là 18 nhóm nhỏ",
-        "Số nhóm chia được nhiều nhất là 24 nhóm nhỏ"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Ứng dụng ƯCLN giải bài toán chia tổ nhóm nhiều nhất",
-        "socraticPrompt": "Số nhóm phải là ước chung của 36 và 24. Để số nhóm nhiều nhất thì đó là số nào?",
-        "calculation": "Số nhóm chia được nhiều nhất chính là $ƯCLN(36, 24)$. $36 = 2^2 \\cdot 3^2$; $24 = 2^3 \\cdot 3$. $ƯCLN(36, 24) = 2^2 \\cdot 3 = 12$.",
-        "trap": "Học sinh chia được 6 nhóm là dừng lại mà không tìm ước lớn nhất.",
-        "distractorReasons": {
-          "0": "6 là một ước chung nhưng chưa phải là số nhóm nhiều nhất.",
-          "2": "24 không chia hết cho 18 nên không thể chia thành 18 nhóm.",
-          "3": "36 không chia hết cho 24 nên không thể chia thành 24 nhóm."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch02-th-q03",
-      "difficulty": "van-dung-cao",
-      "topic": "Chứng minh chia hết",
-      "question": "Cho tổng $S = 2 + 2^2 + 2^3 + 2^4 + 2^5 + 2^6$. Khẳng định nào sau đây là ĐÚNG về tổng $S$?",
-      "options": [
-        "Tổng S là một số nguyên tố chia hết cho 2",
-        "Tổng S chia hết cho 5 và có tận cùng là 0",
-        "Tổng S chia hết cho 3 vì nhóm được các cặp số",
-        "Tổng S không chia hết cho 2 vì có các lũy thừa"
+        "6 nhóm",
+        "18 nhóm",
+        "12 nhóm",
+        "24 nhóm"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Phương pháp nhóm số hạng chứng minh tính chia hết",
-        "socraticPrompt": "Thử nhóm 2 số hạng liên tiếp: $(2 + 2^2) = 6$. Số 6 có chia hết cho 3 không?",
-        "calculation": "$S = (2 + 2^2) + (2^3 + 2^4) + (2^5 + 2^6) = 6 + 2^2 \\cdot 6 + 2^4 \\cdot 6 = 6 \\cdot (1 + 4 + 16) = 6 \\cdot 21$. Vì $6 \\vdots 3$ nên $S \\vdots 3$.",
-        "trap": "Cố gắng tính toàn bộ giá trị $S = 2+4+8+16+32+64 = 126$ dễ nhầm lẫn khi số mũ lớn.",
-        "distractorReasons": {
-          "0": "126 là số chẵn lớn hơn 2 nên chắc chắn là hợp số.",
-          "1": "126 có tận cùng là 6 không chia hết cho 5.",
-          "3": "Tất cả các số hạng đều là lũy thừa của 2 nên S chắc chắn chia hết cho 2."
-        }
-      }
+        "concept": "Số nhóm nhiều nhất chia được chính là Ước chung lớn nhất của số nam và số nữ: ƯCLN(36, 48).",
+        "steps": [
+          "Bước 1: Gọi số nhóm chia được là x. Vì số nam và nữ chia đều vào các nhóm nên 36 ⋮ x và 48 ⋮ x.",
+          "Bước 2: Vì số nhóm là nhiều nhất nên x = ƯCLN(36, 48).",
+          "Bước 3: Phân tích ra thừa số nguyên tố: 36 = 2^2 × 3^2; 48 = 2^4 × 3.",
+          "Bước 4: ƯCLN(36, 48) = 2^2 × 3 = 12. Vậy có thể chia được nhiều nhất 12 nhóm."
+        ],
+        "trap": "Chọn 6 nhóm vì thấy chia hết nhưng đề bài hỏi số nhóm NHIỀU NHẤT.",
+        "socraticPrompt": "Để số nam và nữ chia đều thì số nhóm phải là ước chung của 36 và 48. Đề bài hỏi 'nhiều nhất' thì ta cần tìm gì của 36 và 48?"
+      },
+      "socraticPrompt": "Để số nam và nữ chia đều thì số nhóm phải là ước chung của 36 và 48. Đề bài hỏi 'nhiều nhất' thì ta cần tìm gì của 36 và 48?",
+      "distractorReasons": [
+        "Sai vì 6 là ước chung nhưng chưa phải số nhóm nhiều nhất có thể chia.",
+        "Sai vì 48 không chia hết cho 18.",
+        "Đúng vì số nhóm nhiều nhất chính là ƯCLN(36, 48) = 12 nhóm (mỗi nhóm có 3 nam và 4 nữ).",
+        "Sai vì 36 không chia hết cho 24."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "toan-06-ch02-th-q04",
-      "difficulty": "van-dung",
-      "topic": "Bài toán thực tế ƯCLN",
-      "question": "Một tấm bìa hình chữ nhật dài 60 cm, rộng 48 cm được cắt thành các hình vuông bằng nhau không thừa. Cạnh hình vuông lớn nhất là:",
+      "id": "t6_c2_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Chu kỳ lặp lại (Ứng dụng BCNN)",
+      "question": "Hai bạn Minh và Hùng cùng tham gia câu lạc bộ bơi lội từ ngày đầu tháng. Minh cứ 4 ngày đi bơi một lần, Hùng cứ 6 ngày đi bơi một lần. Hỏi sau ít nhất bao nhiêu ngày thì hai bạn lại gặp nhau ở bể bơi?",
       "options": [
-        "Độ dài cạnh hình vuông lớn nhất bằng 6 cm",
-        "Độ dài cạnh hình vuông lớn nhất bằng 8 cm",
-        "Độ dài cạnh hình vuông lớn nhất bằng 16 cm",
-        "Độ dài cạnh hình vuông lớn nhất bằng 12 cm"
+        "8 ngày",
+        "24 ngày",
+        "10 ngày",
+        "12 ngày"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Ứng dụng hình học của ước chung lớn nhất",
-        "socraticPrompt": "Để cắt không thừa thì cạnh hình vuông phải là ước của chiều dài và chiều rộng. Lớn nhất thì là gì?",
-        "calculation": "Cạnh hình vuông lớn nhất là $ƯCLN(60, 48)$. $60 = 2^2 \\cdot 3 \\cdot 5$; $48 = 2^4 \\cdot 3$. $ƯCLN(60, 48) = 2^2 \\cdot 3 = 12\\text{ cm}$.",
-        "trap": "Chọn 6 hoặc 8 mà quên kiểm tra số lớn nhất chia hết cả hai cạnh.",
-        "distractorReasons": {
-          "0": "6 là ước chung nhưng chưa phải cạnh hình vuông lớn nhất.",
-          "1": "60 không chia hết cho 8 nên không cắt được cạnh 8 cm.",
-          "2": "60 không chia hết cho 16 nên không cắt được cạnh 16 cm."
-        }
-      }
+        "concept": "Số ngày ít nhất để hai bạn gặp lại nhau chính là Bội chung nhỏ nhất của hai khoảng thời gian: BCNN(4, 6).",
+        "steps": [
+          "Bước 1: Gọi số ngày để hai bạn gặp lại là a (a > 0).",
+          "Bước 2: Minh bơi theo chu kỳ 4 ngày nên a ⋮ 4. Hùng theo chu kỳ 6 ngày nên a ⋮ 6.",
+          "Bước 3: Để khoảng thời gian là ít nhất thì a = BCNN(4, 6).",
+          "Bước 4: Ta có 4 = 2^2; 6 = 2 × 3 ⇒ BCNN(4, 6) = 2^2 × 3 = 12 ngày."
+        ],
+        "trap": "Lấy tích 4 × 6 = 24 ngày mà quên mất 12 ngày đã chia hết cho cả 4 và 6.",
+        "socraticPrompt": "Số ngày gặp nhau phải vừa là bội của 4, vừa là bội của 6. Số nhỏ nhất chia hết cho cả 4 và 6 là số nào?"
+      },
+      "socraticPrompt": "Số ngày gặp nhau phải vừa là bội của 4, vừa là bội của 6. Số nhỏ nhất chia hết cho cả 4 và 6 là số nào?",
+      "distractorReasons": [
+        "Sai vì 8 không chia hết cho 6.",
+        "Sai vì 24 ngày cũng gặp nhau nhưng không phải thời gian ít nhất (12 ngày đã gặp rồi).",
+        "Sai vì 10 không chia hết cho cả 4 lẫn 6.",
+        "Đúng vì sau ít nhất BCNN(4, 6) = 12 ngày thì hai bạn sẽ cùng đi bơi và gặp lại nhau."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "toan-06-ch02-th-q05",
-      "difficulty": "van-dung-cao",
-      "topic": "Quan hệ giữa ƯCLN và BCNN",
-      "question": "Cho hai số tự nhiên $a$ và $b$ thỏa mãn tích $a \\cdot b = 720$ và $ƯCLN(a, b) = 6$. Khi đó giá trị của $BCNN(a, b)$ là:",
+      "id": "t6_c2_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Xếp hàng (Ứng dụng Bội chung)",
+      "question": "Học sinh khối 6 của một trường khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ không thừa bạn nào. Biết số học sinh khối 6 trong khoảng từ 200 đến 250 em. Số học sinh khối 6 của trường đó là:",
       "options": [
-        "Giá trị BCNN của hai số có kết quả bằng 60",
-        "Giá trị BCNN của hai số có kết quả bằng 120",
-        "Giá trị BCNN của hai số có kết quả bằng 180",
-        "Giá trị BCNN của hai số có kết quả bằng 240"
+        "240 em",
+        "220 em",
+        "210 em",
+        "250 em"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Số học sinh là bội chung của 10, 12, 15 và nằm trong khoảng từ 200 đến 250.",
+        "steps": [
+          "Bước 1: Gọi số học sinh là x. Theo đề bài x ⋮ 10, x ⋮ 12, x ⋮ 15 ⇒ x ∈ BC(10, 12, 15).",
+          "Bước 2: Tìm BCNN: 10 = 2 × 5; 12 = 2^2 × 3; 15 = 3 × 5 ⇒ BCNN(10, 12, 15) = 2^2 × 3 × 5 = 60.",
+          "Bước 3: Bội của 60 gồm: 0, 60, 120, 180, 240, 300...",
+          "Bước 4: Vì 200 ≤ x ≤ 250 nên x = 240 em."
+        ],
+        "trap": "Học sinh tìm BCNN = 60 rồi không biết nhân bội để tìm số nằm trong khoảng 200 đến 250.",
+        "socraticPrompt": "BCNN của 10, 12, 15 bằng 60. Các bội của 60 là 60, 120, 180, 240, 300... Số nào nằm giữa 200 và 250?"
+      },
+      "socraticPrompt": "BCNN của 10, 12, 15 bằng 60. Các bội của 60 là 60, 120, 180, 240, 300... Số nào nằm giữa 200 và 250?",
+      "distractorReasons": [
+        "Đúng vì 240 là bội của BCNN(10, 12, 15) = 60 và thỏa mãn 200 < 240 < 250.",
+        "Sai vì 220 không chia hết cho 12 và 15.",
+        "Sai vì 210 không chia hết cho 12.",
+        "Sai vì 250 không chia hết cho 12."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c2_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm chữ số thỏa mãn nhiều dấu hiệu chia hết",
+      "question": "Tìm các chữ số x và y để số 2x5y chia hết cho cả 2, 5 và 9.",
+      "options": [
+        "x = 2, y = 5",
+        "x = 2, y = 0",
+        "x = 9, y = 0",
+        "x = 0, y = 0"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Mối quan hệ cốt lõi: $ƯCLN(a, b) \\times BCNN(a, b) = a \\times b$",
-        "socraticPrompt": "Tích của ƯCLN và BCNN của hai số tự nhiên luôn bằng tích của chính hai số đó.",
-        "calculation": "Áp dụng công thức: $ƯCLN(a, b) \\cdot BCNN(a, b) = a \\cdot b \\Rightarrow 6 \\cdot BCNN(a, b) = 720 \\Rightarrow BCNN(a, b) = \\frac{720}{6} = 120$.",
-        "trap": "Học sinh cố gắng đi tìm cụ thể hai số $a$ và $b$ thay vì dùng ngay công thức liên hệ.",
-        "distractorReasons": {
-          "0": "Chia nhầm cho 12 thay vì chia cho 6: $720 / 12 = 60$.",
-          "2": "Chia nhầm cho 4: $720 / 4 = 180$.",
-          "3": "Chia nhầm cho 3: $720 / 3 = 240$."
-        }
-      }
+        "concept": "Kết hợp dấu hiệu chia hết cho cả 2 và 5 để tìm y, sau đó dùng dấu hiệu chia hết cho 9 để tìm x.",
+        "steps": [
+          "Bước 1: Số chia hết cho cả 2 và 5 bắt buộc phải có chữ số tận cùng y = 0.",
+          "Bước 2: Thay y = 0 vào số ta được: 2x50.",
+          "Bước 3: Để 2x50 chia hết cho 9 thì tổng các chữ số phải chia hết cho 9: 2 + x + 5 + 0 = 7 + x ⋮ 9.",
+          "Bước 4: Vì x là chữ số (0 ≤ x ≤ 9) nên 7 + x = 9 ⇒ x = 2.",
+          "Bước 5: Kết luận: x = 2, y = 0."
+        ],
+        "trap": "Chọn y = 5 vì thấy chia hết cho 5 mà quên mất điều kiện chia hết cho 2.",
+        "socraticPrompt": "Muốn chia hết cho cả 2 và 5 thì y bắt buộc bằng mấy? Khi y = 0 thì 2 + x + 5 + 0 = 7 + x, x bằng mấy để tổng chia hết cho 9?"
+      },
+      "socraticPrompt": "Muốn chia hết cho cả 2 và 5 thì y bắt buộc bằng mấy? Khi y = 0 thì 2 + x + 5 + 0 = 7 + x, x bằng mấy để tổng chia hết cho 9?",
+      "distractorReasons": [
+        "Sai vì nếu y = 5 thì số 2255 là số lẻ, không chia hết cho 2.",
+        "Đúng vì y = 0 thì chia hết cho 2 và 5; khi đó tổng 2 + 2 + 5 + 0 = 9 chia hết cho 9.",
+        "Sai vì thay x = 9, y = 0 thì tổng là 2 + 9 + 5 + 0 = 16 không chia hết cho 9.",
+        "Sai vì thay x = 0, y = 0 thì tổng là 2 + 0 + 5 + 0 = 7 không chia hết cho 9."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch02-th-q06",
-      "difficulty": "van-dung",
-      "topic": "Dấu hiệu chia hết phối hợp",
-      "question": "Tìm các chữ số $a$ và $b$ thích hợp để số $\\overline{4a1b}$ chia hết cho cả ba số 2, 5 và 9:",
+      "id": "t6_c2_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Cắt gạch lát nền (Ứng dụng ƯCLN)",
+      "question": "Một nền nhà hình chữ nhật có chiều dài 480 cm và chiều rộng 360 cm. Bác thợ muốn lát kín nền nhà bằng các viên gạch hoa hình vuông có kích thước lớn nhất sao cho không phải cắt viên gạch nào. Độ dài cạnh của viên gạch đó là:",
       "options": [
-        "Chữ số a = 3 và chữ số b = 5",
-        "Chữ số a = 5 và chữ số b = 0",
-        "Chữ số a = 4 và chữ số b = 0",
-        "Chữ số a = 9 và chữ số b = 0"
+        "120 cm",
+        "90 cm",
+        "60 cm",
+        "240 cm"
       ],
-      "correct": 2,
+      "correct": 0,
       "breakdown": {
-        "concept": "Phối hợp các dấu hiệu chia hết để tìm chữ số",
-        "socraticPrompt": "Số chia hết cho cả 2 và 5 thì tận cùng b phải bằng bao nhiêu? Sau đó xét tổng chia hết cho 9.",
-        "calculation": "Vì $\\overline{4a1b} \\vdots 2$ và $5 \\Rightarrow b = 0$. Ta được số $\\overline{4a10}$. Để số này $\\vdots 9$ thì tổng các chữ số $(4 + a + 1 + 0) = (5 + a) \\vdots 9$. Vì $a$ là chữ số nên $a = 4$. Vậy $a = 4, b = 0$ (số 4410).",
-        "trap": "Chọn $b = 5$ do chỉ nhớ chia hết cho 5 mà quên mất điều kiện chia hết cho 2.",
-        "distractorReasons": {
-          "0": "Tận cùng $b = 5$ thì không chia hết cho 2.",
-          "1": "Nếu $a = 5, b = 0$ thì tổng $4+5+1+0 = 10 \\not\\vdots 9$.",
-          "3": "Nếu $a = 9, b = 0$ thì tổng $4+9+1+0 = 14 \\not\\vdots 9$."
-        }
-      }
+        "concept": "Để không phải cắt gạch và cạnh gạch lớn nhất thì độ dài cạnh viên gạch chính là ƯCLN của chiều dài và chiều rộng nền nhà.",
+        "steps": [
+          "Bước 1: Gọi độ dài cạnh viên gạch hình vuông là a (cm).",
+          "Bước 2: Vì không phải cắt gạch nên chiều dài và chiều rộng phải chia hết cho a: 480 ⋮ a và 360 ⋮ a.",
+          "Bước 3: Vì cạnh gạch là lớn nhất nên a = ƯCLN(480, 360).",
+          "Bước 4: Ta có 480 = 2^5 × 3 × 5; 360 = 2^3 × 3^2 × 5.",
+          "Bước 5: ƯCLN(480, 360) = 2^3 × 3 × 5 = 8 × 15 = 120 cm."
+        ],
+        "trap": "Chọn 60 cm vì chia hết cho cả hai cạnh, nhưng 60 chưa phải là kích thước LỚN NHẤT.",
+        "socraticPrompt": "Độ dài cạnh gạch hình vuông phải là ước chung của cả chiều dài 480 và chiều rộng 360. Cạnh lớn nhất chính là gì của 480 và 360?"
+      },
+      "socraticPrompt": "Độ dài cạnh gạch hình vuông phải là ước chung của cả chiều dài 480 và chiều rộng 360. Cạnh lớn nhất chính là gì của 480 và 360?",
+      "distractorReasons": [
+        "Đúng vì cạnh gạch lớn nhất chính là ƯCLN(480, 360) = 120 cm.",
+        "Sai vì 480 không chia hết cho 90.",
+        "Sai vì 60 cm là ước chung nhưng chưa phải kích thước lớn nhất (120 cm > 60 cm).",
+        "Sai vì 360 không chia hết cho 240."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c2_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm số tự nhiên thỏa mãn điều kiện chia hết và dư",
+      "question": "Số tự nhiên nhỏ nhất khác 0 khi chia cho 4 dư 3, chia cho 5 dư 4 và chia cho 6 dư 5 là:",
+      "options": [
+        "61",
+        "60",
+        "119",
+        "59"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Bài toán đồng dư: Nhận xét rằng số đó thiếu 1 đơn vị nữa thì sẽ chia hết cho cả 4, 5, 6.",
+        "steps": [
+          "Bước 1: Gọi số cần tìm là a (a ∈ N*).",
+          "Bước 2: Theo đề bài: a : 4 dư 3 ⇒ (a + 1) ⋮ 4; a : 5 dư 4 ⇒ (a + 1) ⋮ 5; a : 6 dư 5 ⇒ (a + 1) ⋮ 6.",
+          "Bước 3: Suy ra (a + 1) là bội chung của 4, 5, 6. Để a nhỏ nhất thì (a + 1) = BCNN(4, 5, 6).",
+          "Bước 4: BCNN(4, 5, 6) = 2^2 × 3 × 5 = 60.",
+          "Bước 5: a + 1 = 60 ⇒ a = 60 - 1 = 59."
+        ],
+        "trap": "Học sinh tìm BCNN = 60 rồi cộng 1 thành 61 thay vì trừ 1.",
+        "socraticPrompt": "Chia cho 4 dư 3 tức là thiếu mấy thì chia hết cho 4? Chia 5 dư 4, chia 6 dư 5 đều thiếu mấy? Nếu cộng thêm 1 thì số đó sẽ chia hết cho những số nào?"
+      },
+      "socraticPrompt": "Chia cho 4 dư 3 tức là thiếu mấy thì chia hết cho 4? Chia 5 dư 4, chia 6 dư 5 đều thiếu mấy? Nếu cộng thêm 1 thì số đó sẽ chia hết cho những số nào?",
+      "distractorReasons": [
+        "Sai vì nhầm lẫn lấy 60 + 1 = 61 (61 chia 4 dư 1 chứ không dư 3).",
+        "Sai vì 60 chia hết cho cả 4, 5, 6 chứ không có dư.",
+        "Sai vì 119 cũng thỏa mãn nhưng chưa phải là số tự nhiên NHỎ NHẤT.",
+        "Đúng vì a + 1 = BCNN(4, 5, 6) = 60 ⇒ a = 59 (59 : 4 = 14 dư 3; 59 : 5 = 11 dư 4; 59 : 6 = 9 dư 5)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

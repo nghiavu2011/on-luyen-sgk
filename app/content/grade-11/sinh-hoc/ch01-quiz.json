@@ -32,7 +32,16 @@
           "2": "Phối hợp hữu cơ và vô cơ giúp cải tạo đất, duy trì hệ vi sinh vật và tăng độ phì nhiêu bền vững.",
           "3": "Bón lót tạo nền dinh dưỡng ban đầu, bón thúc đáp ứng nhu cầu tăng vọt lúc đẻ nhánh, làm đòng, nuôi quả."
         }
-      }
+      },
+      "socraticPrompt": "Bón nhiều đạm ngay trước ngày thu hoạch rau sẽ để lại tồn dư hợp chất nguy hại nào cho người tiêu dùng?",
+      "distractorReasons": [
+        "Đúng vì: Bón quá nhiều đạm hóa học sát ngày thu hoạch khiến cây không kịp đồng hóa hết, làm tích lũy hàm lượng ion nitrate (NO3-) vượt ngưỡng cho phép trong mô thực vật.",
+        "Sai vì 'Bón phân đúng loại, đúng liều lượng, đúng thời điểm và đúng phương pháp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kết hợp hài hòa giữa phân bón hữu cơ vi sinh và phân khoáng vô cơ' (Học sinh thấy rau xanh tươi thì nghĩ là tốt mà quên mất nguy cơ ngộ độc nitrate.).",
+        "Sai vì 'Bón lót lúc gieo trồng và bón thúc vào các giai đoạn sinh trưởng phát triển then chốt' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch01-th-q02",
@@ -56,7 +65,16 @@
           "2": "Khi đinh nhọn đã chọc thủng thành thì lignin đã bị phá vỡ cục bộ.",
           "3": "Mạch rây và mạch gỗ là hai hệ thống ống dẫn tách biệt, tế bào mạch rây sống không thể tự tràn sang bịt lỗ."
         }
-      }
+      },
+      "socraticPrompt": "Khi ta dùng ống hút uống nước, áp suất bên trong lòng ống hút là âm hay dương so với khí quyển bên ngoài?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dịch mạch gỗ trào phụt mạnh ra ngoài như tia nước, vì áp suất rễ luôn tạo lực đẩy dương cực lớn trong toàn cây' (Nghĩ mạch gỗ như mạch máu động vật có tim bơm tạo áp suất dương làm trào phụt dịch.).",
+        "Đúng vì: Khi cây thoát hơi nước mạnh vào ban ngày, lực hút từ lá tạo ra lực căng rất lớn trong lòng mạch gỗ làm áp suất trong lòng mạch gỗ giảm xuống thấp hơn áp suất kh.",
+        "Sai vì phủ định sai bản chất: 'Không có hiện tượng gì xảy ra vì thành mạch gỗ bằng chất gỗ lignin dày không cho bất kì chất nào đi qua' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Dịch trong mạch rây sẽ tự động tràn sang bịt kín lỗ thủng ngăn không cho mạch gỗ thông với khí trời' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch01-th-q03",
@@ -80,7 +98,16 @@
           "1": "Chu trình Krebs tạo nhiều coenzyme khử NADH và FADH2 nhưng chỉ trực tiếp tạo 2 phân tử ATP.",
           "3": "Lên men không thuộc hô hấp hiếu khí và không tạo thêm ATP ngoài đường phân."
         }
-      }
+      },
+      "socraticPrompt": "Phần lớn năng lượng của phân tử glucose ban đầu tích luỹ trong NADH và FADH2 sẽ được chuyển đổi thành ATP tại đâu?",
+      "distractorReasons": [
+        "Sai vì 'Giai đoạn đường phân tại tế bào chất (tạo ra 2 ATP thuần)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giai đoạn chu trình Krebs tại chất nền ty thể (tạo ra 2 ATP)' (Nhiều học sinh nhầm chu trình Krebs là giai đoạn chính tạo ra năng lượng ATP nhiều nhất.).",
+        "Đúng vì: Đường phân chỉ tạo 2 ATP thuần; chu trình Krebs chỉ tạo 2 ATP (hoặc GTP) qua photphoryl hoá mức cơ chất. Chuỗi chuyền electron hô hấp gắn trên màng trong ty thể.",
+        "Sai vì 'Giai đoạn lên men lactic tại màng ngoài ty thể (tạo ra 4 ATP)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch01-th-q04",
@@ -104,7 +131,16 @@
           "2": "Nếu tế bào hạt giống chết thì phôi không thể nảy mầm khi đem gieo trồng vụ sau.",
           "1": "Tăng độ ẩm hạt sẽ kích thích hạt nảy mầm hoặc bị vi khuẩn, nấm hoại sinh làm mốc hỏng."
         }
-      }
+      },
+      "socraticPrompt": "Hô hấp tế bào tiêu tốn chất gì của hạt giống? Muốn giữ hạt giống lâu năm cần làm gì với tốc độ hô hấp?",
+      "distractorReasons": [
+        "Sai vì 'Kích thích tối đa cường độ hô hấp tế bào để phân giải hết độc tố trong nông sản' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Làm tăng nhanh độ ẩm mô để duy trì độ tươi mọng nước của các loại hạt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiêu diệt hoàn toàn toàn bộ tế bào của nông sản để chúng không biến đổi hình thái' (tưởng bảo quản nông sản là phải làm triệt tiêu hô hấp hoàn toàn dẫn đến làm chết phôi hạt giống).",
+        "Đúng vì: Hô hấp phân giải chất hữu cơ làm giảm khối lượng, chất lượng nông sản và sinh nhiệt làm tăng nhiệt độ, độ ẩm thúc đẩy nấm mốc phát triển. Biện pháp làm khô (giả."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch01-th-q05",
@@ -128,7 +164,16 @@
           "2": "AIDS do virus HIV tấn công tế bào lympho T CD4 gây suy giảm miễn dịch.",
           "3": "Ung thư máu liên quan đến sự phân chia vô tổ chức của tế bào tủy xương sinh bạch cầu non."
         }
-      }
+      },
+      "socraticPrompt": "Khi các mảng chất béo tích tụ bên trong thành động mạch vành nuôi tim sẽ dẫn đến hậu quả cấp tính nguy hiểm nào?",
+      "distractorReasons": [
+        "Đúng vì: Lượng lipid và cholesterol dư thừa trong máu tích tụ tại lớp nội mô động mạch, kết hợp với các tế bào viêm và canxi hóa tạo thành mảng xơ vữa. Mảng này làm hẹp .",
+        "Sai vì 'Bệnh máu khó đông di truyền (Hemophilia)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bệnh suy giảm miễn dịch mắc phải (AIDS)' (giữa bệnh tim mạch mắc phải do lối sống với các bệnh di truyền hoặc bệnh truyền nhiễm do virus).",
+        "Sai vì 'Bệnh bạch cầu ác tính (Ung thư máu)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch01-th-q06",
@@ -152,7 +197,16 @@
           "2": "Vaccine kích hoạt miễn dịch thích ứng đặc hiệu với từng chủng mầm bệnh cụ thể.",
           "3": "Vaccine tác động lên hệ miễn dịch bạch cầu, không liên quan đến chức năng tạo hồng cầu."
         }
-      }
+      },
+      "socraticPrompt": "Vaccine đưa thành phần nào vào cơ thể để hệ thống miễn dịch tập dượt nhận diện và ghi nhớ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Miễn dịch thụ động tức thời do nhận trực tiếp kháng thể từ ngoài vào' (giữa tiêm vaccine (chứa kháng nguyên - miễn dịch chủ động) và tiêm huyết thanh kháng độc tố (chứa kháng thể - miễn dịch thụ động)).",
+        "Đúng vì: Vaccine chứa kháng nguyên của mầm bệnh (đã bị làm suy yếu, bất hoạt hoặc là tiểu phần kháng nguyên tái tổ hợp). Khi tiêm vào, kháng nguyên kích hoạt hệ thống mi.",
+        "Sai vì phủ định sai bản chất: 'Miễn dịch không đặc hiệu kích thích đại thực bào tiêu diệt mọi mầm bệnh' trái ngược với kiến thức SGK.",
+        "Sai vì 'Tạm thời làm tăng số lượng hồng cầu để vận chuyển oxy tốt hơn cho các cơ quan' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

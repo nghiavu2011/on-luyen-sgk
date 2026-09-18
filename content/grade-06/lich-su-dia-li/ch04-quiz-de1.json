@@ -23,12 +23,15 @@
         "steps": "Vị trí ngã tư đường biển thúc đẩy thương mại hàng hải sớm phát triển rực rỡ.",
         "trap": "Nhầm tưởng Đông Nam Á nằm sâu trong nội địa."
       },
-      "distractorReasons": {
-        "A": "Sai, cực Bắc là Bắc Cực.",
-        "B": "Sai, Đông Nam Á có bờ biển dài bao bọc.",
-        "C": "Đáp án chính xác theo SGK trang 50.",
-        "D": "Sai, Nam Cực là vùng cực nam hoang vu."
-      }
+      "distractorReasons": [
+        "Sai vì cực Bắc là Bắc Cực.",
+        "Sai vì Đông Nam Á có bờ biển dài bao bọc.",
+        "Đúng vì SGK trang 50.",
+        "Sai vì Nam Cực là vùng cực nam hoang vu."
+      ],
+      "socraticPrompt": "Đông Nam Á nối liền hai đại dương lớn nào?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch04_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Văn minh Đông Nam Á còn được gọi là văn minh nông nghiệp lúa nước.",
         "trap": "Nhầm lúa mì, lúa mạch (vốn phổ biến ở Tây Á và Địa Trung Hải)."
       },
-      "distractorReasons": {
-        "A": "Sai, lúa mạch trồng ở vùng khí hậu khô ôn đới.",
-        "B": "Sai, củ cải đường trồng ở xứ lạnh châu Âu.",
-        "C": "Sai, ô liu là cây đặc trưng của Địa Trung Hải.",
-        "D": "Đáp án đúng theo SGK trang 51."
-      }
+      "distractorReasons": [
+        "Sai vì lúa mạch trồng ở vùng khí hậu khô ôn đới.",
+        "Sai vì củ cải đường trồng ở xứ lạnh châu Âu.",
+        "Sai vì ô liu là cây đặc trưng của Địa Trung Hải.",
+        "Đúng vì SGK trang 51."
+      ],
+      "socraticPrompt": "Cơm gạo ta ăn hàng ngày được thu hoạch từ cây lương thực nào?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch04_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Hạ lưu sông Mê Công gắn liền với nền văn hóa khảo cổ Óc Eo của Phù Nam.",
         "trap": "Nhầm với sông Hồng (địa bàn của Văn Lang - Âu Lạc)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 52.",
-        "B": "Sai, Tây Bắc không phải địa bàn của Phù Nam.",
-        "C": "Sai, sông Hồng thuộc Bắc Bộ Việt Nam.",
-        "D": "Sai, bán đảo Mã Lai có các tiểu quốc khác."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 52.",
+        "Sai vì Tây Bắc không phải địa bàn của Phù Nam.",
+        "Sai vì sông Hồng thuộc Bắc Bộ Việt Nam.",
+        "Sai vì bán đảo Mã Lai có các tiểu quốc khác."
+      ],
+      "socraticPrompt": "Dòng sông Mê Công đổ ra biển Đông ở vùng miền nào nước ta?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch04_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Chữ Phạn là cội nguồn cảm hứng văn tự của các vương quốc cổ Đông Nam Á.",
         "trap": "Nhầm chữ hình nêm hay chữ tượng hình Ai Cập (không lan tới Đông Nam Á)."
       },
-      "distractorReasons": {
-        "A": "Sai, chữ hình nêm không truyền bá sang Đông Nam Á.",
-        "B": "Đáp án đúng theo SGK trang 56.",
-        "C": "Sai, chữ tượng hình Ai Cập chỉ dùng ở Ai Cập cổ đại.",
-        "D": "Sai, chữ La-tinh chỉ du nhập vào Đông Nam Á ở thời cận đại sau này."
-      }
+      "distractorReasons": [
+        "Sai vì chữ hình nêm không truyền bá sang Đông Nam Á.",
+        "Đúng vì SGK trang 56.",
+        "Sai vì chữ tượng hình Ai Cập chỉ dùng ở Ai Cập cổ đại.",
+        "Sai vì chữ La-tinh chỉ du nhập vào Đông Nam Á ở thời cận đại sau này."
+      ],
+      "socraticPrompt": "Nền văn hóa phương Đông nào truyền bá đạo Phật và chữ viết cổ vào Đông Nam Á?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch04_d1_05",
@@ -127,12 +139,15 @@
         "steps": "Bô-rô-bu-đua nằm ở miền trung đảo Gia-va thuộc In-đô-nê-xi-a.",
         "trap": "Nhầm với Cam-pu-chia (nơi có Ăng-co Vát)."
       },
-      "distractorReasons": {
-        "A": "Sai, Cam-pu-chia nổi tiếng với quần thể Ăng-co Vát và Ăng-co Thom.",
-        "B": "Sai, Thái Lan có chùa Phật Ngọc nổi tiếng nhưng không có Bô-rô-bu-đua.",
-        "C": "Đáp án chính xác theo hình ảnh và bài học SGK trang 57.",
-        "D": "Sai, Việt Nam có thánh địa Mỹ Sơn và chùa Một Cột."
-      }
+      "distractorReasons": [
+        "Sai vì Cam-pu-chia nổi tiếng với quần thể Ăng-co Vát và Ăng-co Thom.",
+        "Sai vì Thái Lan có chùa Phật Ngọc nổi tiếng nhưng không có Bô-rô-bu-đua.",
+        "Đúng vì ình ảnh và bài học SGK trang 57.",
+        "Sai vì Việt Nam có thánh địa Mỹ Sơn và chùa Một Cột."
+      ],
+      "socraticPrompt": "Quốc gia vạn đảo ở Đông Nam Á có ngôi đền Phật giáo hình kim tự tháp Bô-rô-bu-đua là nước nào?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch04_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Hin-đu giáo (thờ thần Siva, Visnu) và Phật giáo song song phát triển rực rỡ ở Đông Nam Á.",
         "trap": "Nhầm Đạo Hồi (Đạo Hồi chỉ vào Đông Nam Á muộn hơn từ thế kỉ XIII)."
       },
-      "distractorReasons": {
-        "A": "Sai, Đạo Hồi và Thiên Chúa giáo du nhập muộn hơn.",
-        "B": "Sai, Do Thái giáo không phổ biến ở Đông Nam Á.",
-        "C": "Sai, Nho giáo và Đạo giáo có nguồn gốc từ Trung Quốc.",
-        "D": "Đáp án đúng theo SGK trang 56."
-      }
+      "distractorReasons": [
+        "Sai vì Đạo Hồi và Thiên Chúa giáo du nhập muộn hơn.",
+        "Sai vì Do Thái giáo không phổ biến ở Đông Nam Á.",
+        "Sai vì Nho giáo và Đạo giáo có nguồn gốc từ Trung Quốc.",
+        "Đúng vì SGK trang 56."
+      ],
+      "socraticPrompt": "Ấn Độ là cái nôi của hai tôn giáo lớn nào?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

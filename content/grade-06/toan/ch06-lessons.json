@@ -5,260 +5,313 @@
     {
       "id": "l01",
       "title": "Bài 23: Mở rộng phân số. Phân số bằng nhau",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Hiểu khái niệm phân số a/b với a, b là các số nguyên và b khác 0.",
-        "Nắm vững định nghĩa hai phân số bằng nhau và tính chất cơ bản của phân số.",
-        "Thực hiện thành thạo thao tác rút gọn phân số về phân số tối giản."
+        "Mở rộng khái niệm phân số a/b với tử và mẫu là các số nguyên (b ≠ 0)",
+        "Nhận biết và vận dụng quy tắc hai phân số bằng nhau: a/b = c/d ⇔ a × d = b × c"
       ],
       "concepts": [
         {
           "term": "Phân số",
-          "definition": "Người ta gọi a/b với a, b thuộc Z, b khác 0 là một phân số, a là tử số (tử) và b là mẫu số (mẫu).",
+          "definition": "Biểu thức dạng a/b, trong đó a, b ∈ Z và b ≠ 0. a là tử số, b là mẫu số.",
           "notation": "a/b (a, b ∈ Z, b ≠ 0)",
-          "note": "Mỗi số nguyên n đều viết được dưới dạng phân số là n/1."
+          "note": "Mẫu số luôn phải khác 0."
         },
         {
           "term": "Hai phân số bằng nhau",
-          "definition": "Hai phân số a/b và c/d được gọi là bằng nhau nếu tích chéo a · d = b · c.",
-          "notation": "a/b = c/d khi và chỉ khi a · d = b · c",
-          "note": "Quy tắc nhân chéo là công cụ then chốt để kiểm tra và tìm x trong phân số."
-        },
-        {
-          "term": "Phân số tối giản",
-          "definition": "Phân số tối giản (hay phân số không rút gọn được nữa) là phân số mà tử và mẫu chỉ có ước chung là 1 và -1.",
-          "notation": "ƯCLN(|a|, |b|) = 1",
-          "note": "Để rút gọn phân số thành tối giản một lần, chia cả tử và mẫu cho ƯCLN của chúng."
+          "definition": "Hai phân số a/b và c/d được gọi là bằng nhau nếu a × d = b × c.",
+          "notation": "a/b = c/d ⇔ a × d = b × c",
+          "note": "Tích chéo bằng nhau."
         }
       ],
       "rules": [
         {
-          "statement": "Tính chất cơ bản của phân số",
-          "meaning": "Nếu nhân hoặc chia cả tử và mẫu của một phân số với cùng một số nguyên khác 0 (và là ước chung khi chia) thì được một phân số mới bằng phân số đã cho."
+          "statement": "a/b = c/d ⇔ a × d = b × c",
+          "meaning": "Quy tắc tích chéo hai phân số bằng nhau"
+        },
+        {
+          "statement": "Mẫu số b ≠ 0",
+          "meaning": "Điều kiện xác định của phân số"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Tìm số nguyên x biết x / 6 = -15 / 18 và rút gọn phân số -15 / 18 về tối giản?",
+          "prompt": "Các cặp phân số sau có bằng nhau không: a) -3/4 và 6/-8; b) 2/5 và 3/7?",
           "steps": [
-            "Bước 1: Rút gọn phân số -15/18 bằng cách chia cả tử và mẫu cho ƯCLN(15, 18) = 3: (-15 : 3) / (18 : 3) = -5/6.",
-            "Bước 2: Thay vào đẳng thức ta có x/6 = -5/6.",
-            "Bước 3: Vì hai phân số bằng nhau và có cùng mẫu số 6 nên hai tử số bằng nhau, suy ra x = -5."
+            "Bước 1: Với -3/4 và 6/-8: Xét tích chéo (-3) × (-8) = 24 và 4 × 6 = 24. Vì 24 = 24 nên -3/4 = 6/-8.",
+            "Bước 2: Với 2/5 và 3/7: Xét tích chéo 2 × 7 = 14 và 5 × 3 = 15. Vì 14 ≠ 15 nên 2/5 ≠ 3/7."
           ],
-          "answer": "x = -5 và phân số tối giản là -5/6."
+          "answer": "a) -3/4 = 6/-8; b) 2/5 ≠ 3/7"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Nhầm lẫn điều kiện mẫu số có thể bằng 0 hoặc chia nhầm dấu âm.",
-          "why": "Phép chia cho 0 không xác định nên mẫu số của phân số bắt buộc phải khác 0."
+          "mistake": "Lấy tích ngang thay vì tích chéo: so sánh a × c với b × d",
+          "why": "Quy tắc bằng nhau phải là tích chéo tử này nhân mẫu kia: a × d = b × c."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 23: Mở rộng phân số. Phân số bằng nhau</strong>, bao gồm các khái niệm then chốt: Phân số, Hai phân số bằng nhau. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "a/b = c/d ⇔ a × d = b × c: Quy tắc tích chéo hai phân số bằng nhau",
+        "Mẫu số b ≠ 0: Điều kiện xác định của phân số"
+      ],
+      "examples": [
+        {
+          "problem": "Các cặp phân số sau có bằng nhau không: a) -3/4 và 6/-8; b) 2/5 và 3/7?",
+          "solution": "Bước 1: Với -3/4 và 6/-8: Xét tích chéo (-3) × (-8) = 24 và 4 × 6 = 24. Vì 24 = 24 nên -3/4 = 6/-8. | Bước 2: Với 2/5 và 3/7: Xét tích chéo 2 × 7 = 14 và 5 × 3 = 15. Vì 14 ≠ 15 nên 2/5 ≠ 3/7. => Đáp số: a) -3/4 = 6/-8; b) 2/5 ≠ 3/7"
         }
       ]
     },
     {
       "id": "l02",
-      "title": "Bài 24: So sánh phân số. Hỗn số dương",
+      "title": "Bài 24: Tính chất cơ bản của phân số",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Nắm vững quy tắc so sánh hai phân số cùng mẫu và khác mẫu.",
-        "Biết cách quy đồng mẫu số nhiều phân số có mẫu số dương.",
-        "Hiểu định nghĩa và cách đổi qua lại giữa hỗn số dương và phân số."
+        "Áp dụng tính chất cơ bản: nhân hoặc chia cả tử và mẫu với cùng một số nguyên khác 0 để được phân số bằng phân số đã cho",
+        "Rút gọn phân số về phân số tối giản và quy đồng mẫu nhiều phân số"
       ],
       "concepts": [
         {
-          "term": "Quy đồng mẫu số",
-          "definition": "Biến đổi các phân số đã cho thành các phân số tương ứng bằng chúng nhưng có chung một mẫu số dương (thường là BCNN của các mẫu).",
-          "notation": "Mẫu chung = BCNN(b1, b2, ...)",
-          "note": "Trước khi quy đồng cần viết tất cả các phân số dưới dạng mẫu dương."
+          "term": "Tính chất cơ bản",
+          "definition": "Nếu nhân (hoặc chia) cả tử và mẫu của một phân số với cùng một số nguyên m khác 0 (hoặc ước chung) thì được một phân số bằng phân số đã cho.",
+          "notation": "a/b = (a × m)/(b × m); a/b = (a : n)/(b : n)",
+          "note": "Mọi phân số có mẫu âm đều viết được thành phân số có mẫu dương bằng cách đổi dấu cả tử và mẫu."
         },
         {
-          "term": "So sánh phân số",
-          "definition": "Với hai phân số có cùng mẫu số dương, phân số nào có tử lớn hơn thì phân số đó lớn hơn.",
-          "notation": "Nếu a < b và m > 0 thì a/m < b/m",
-          "note": "Phân số âm luôn nhỏ hơn 0, 0 luôn nhỏ hơn phân số dương."
-        },
-        {
-          "term": "Hỗn số dương",
-          "definition": "Số viết dưới dạng tổng của một số nguyên dương và một phân số dương nhỏ hơn 1 được gọi là hỗn số dương.",
-          "notation": "q r/b = q + r/b = (q · b + r) / b (với q > 0, 0 < r < b)",
-          "note": "Ví dụ: 3 2/5 đổi ra phân số là (3 · 5 + 2) / 5 = 17/5."
+          "term": "Phân số tối giản",
+          "definition": "Phân số mà tử và mẫu chỉ có ước chung là 1 và -1 (tử và mẫu nguyên tố cùng nhau).",
+          "notation": "ƯCLN(|a|, |b|) = 1",
+          "note": "Chia cả tử và mẫu cho ƯCLN để được phân số tối giản."
         }
       ],
       "rules": [
         {
-          "statement": "Quy tắc so sánh với số 0",
-          "meaning": "Phân số có tử và mẫu cùng dấu thì lớn hơn 0 (phân số dương). Phân số có tử và mẫu trái dấu thì nhỏ hơn 0 (phân số âm)."
+          "statement": "Đổi dấu cả tử và mẫu để chuyển về mẫu dương",
+          "meaning": "Quy ước viết mẫu dương"
+        },
+        {
+          "statement": "Chia cả tử và mẫu cho ƯCLN để tối giản",
+          "meaning": "Rút gọn tối giản"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "So sánh hai phân số -7/12 và -5/8?",
+          "prompt": "Rút gọn phân số -36/84 về phân số tối giản.",
           "steps": [
-            "Bước 1: Tìm mẫu chung: BCNN(12, 8) = 24.",
-            "Bước 2: Quy đồng mẫu: -7/12 = (-7 · 2)/24 = -14/24; -5/8 = (-5 · 3)/24 = -15/24.",
-            "Bước 3: So sánh hai tử số: Do -14 > -15 nên -14/24 > -15/24, tức là -7/12 > -5/8."
+            "Bước 1: Tìm ƯCLN(36, 84) = 12.",
+            "Bước 2: Chia cả tử và mẫu cho 12: (-36 : 12) / (84 : 12) = -3/7.",
+            "Bước 3: Phân số -3/7 là tối giản có mẫu dương."
           ],
-          "answer": "-7/12 > -5/8."
+          "answer": "-3/7"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "So sánh nhầm số âm: thấy 15 > 14 nên kết luận -15 > -14.",
-          "why": "Trong tập số nguyên âm, số có giá trị tuyệt đối lớn hơn thì lại nhỏ hơn (-15 < -14)."
+          "mistake": "Giữ nguyên mẫu âm khi viết kết quả phân số (ví dụ để 3/-5)",
+          "why": "Quy ước SGK luôn đưa phân số về dạng mẫu dương: 3/-5 = -3/5."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 24: Tính chất cơ bản của phân số</strong>, bao gồm các khái niệm then chốt: Tính chất cơ bản, Phân số tối giản. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Đổi dấu cả tử và mẫu để chuyển về mẫu dương: Quy ước viết mẫu dương",
+        "Chia cả tử và mẫu cho ƯCLN để tối giản: Rút gọn tối giản"
+      ],
+      "examples": [
+        {
+          "problem": "Rút gọn phân số -36/84 về phân số tối giản.",
+          "solution": "Bước 1: Tìm ƯCLN(36, 84) = 12. | Bước 2: Chia cả tử và mẫu cho 12: (-36 : 12) / (84 : 12) = -3/7. | Bước 3: Phân số -3/7 là tối giản có mẫu dương. => Đáp số: -3/7"
         }
       ]
     },
     {
       "id": "l03",
-      "title": "Bài 25: Phép cộng và phép trừ phân số",
+      "title": "Bài 25: So sánh phân số. Phép cộng và phép trừ phân số",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Thực hiện thành thạo phép cộng, trừ phân số cùng mẫu và khác mẫu.",
-        "Vận dụng tính chất giao hoán, kết hợp của phép cộng để tính toán hợp lý.",
-        "Nắm vững khái niệm số đối của phân số và quy tắc dấu ngoặc."
+        "So sánh hai phân số bằng cách quy đồng về cùng một mẫu dương",
+        "Thực hiện thành thạo phép cộng và phép trừ hai phân số cùng mẫu và khác mẫu"
       ],
       "concepts": [
         {
-          "term": "Phép cộng phân số",
-          "definition": "Muốn cộng hai phân số cùng mẫu, ta cộng các tử và giữ nguyên mẫu. Muốn cộng khác mẫu, ta quy đồng về cùng mẫu dương rồi cộng tử.",
-          "notation": "a/m + b/m = (a + b)/m",
-          "note": "Kết quả cuối cùng luôn phải rút gọn về phân số tối giản."
+          "term": "So sánh hai phân số",
+          "definition": "Quy đồng mẫu dương của hai phân số, phân số nào có tử lớn hơn thì phân số đó lớn hơn.",
+          "notation": "Với b > 0, nếu a > c thì a/b > c/b",
+          "note": "Phân số có tử và mẫu cùng dấu thì lớn hơn 0; khác dấu thì nhỏ hơn 0."
         },
         {
-          "term": "Số đối của phân số",
-          "definition": "Hai phân số được gọi là đối nhau nếu tổng của chúng bằng 0. Số đối của a/b ký hiệu là -a/b.",
-          "notation": "a/b + (-a/b) = 0; -(a/b) = (-a)/b = a/(-b)",
-          "note": "Số đối của phân số -3/4 là 3/4."
-        },
-        {
-          "term": "Phép trừ phân số",
-          "definition": "Muốn trừ một phân số cho một phân số, ta cộng số bị trừ với số đối của số trừ.",
-          "notation": "a/b - c/d = a/b + (-c/d)",
-          "note": "Trừ phân số thực chất là phép cộng với số đối."
+          "term": "Cộng, trừ phân số",
+          "definition": "Cùng mẫu: cộng/trừ tử với tử, giữ nguyên mẫu số. Khác mẫu: quy đồng mẫu số rồi cộng/trừ tử số.",
+          "notation": "a/m + b/m = (a + b)/m; a/m - b/m = (a - b)/m",
+          "note": "Rút gọn kết quả về phân số tối giản."
         }
       ],
       "rules": [
         {
-          "statement": "Tính chất của phép cộng phân số",
-          "meaning": "Phép cộng phân số có các tính chất giao hoán: p + q = q + p; kết hợp: (p + q) + r = p + (q + r); cộng với số 0: p + 0 = p."
+          "statement": "a/m ± b/m = (a ± b)/m",
+          "meaning": "Cộng trừ cùng mẫu số"
+        },
+        {
+          "statement": "Quy đồng mẫu dương trước khi so sánh hoặc tính toán",
+          "meaning": "Quy tắc quy đồng"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Tính giá trị biểu thức: A = 5/11 + (-3/7) + 6/11 + (-4/7)?",
+          "prompt": "Tính: a) 3/8 + (-5)/8; b) 1/6 - 3/4.",
           "steps": [
-            "Bước 1: Sử dụng tính chất giao hoán và kết hợp để nhóm các phân số có cùng mẫu số: A = (5/11 + 6/11) + [(-3/7) + (-4/7)].",
-            "Bước 2: Thực hiện phép cộng trong từng ngoặc: 5/11 + 6/11 = 11/11 = 1; (-3/7) + (-4/7) = -7/7 = -1.",
-            "Bước 3: Tính tổng kết quả: A = 1 + (-1) = 0."
+            "Bước 1: Phép tính a: (3 + (-5)) / 8 = -2/8 = -1/4.",
+            "Bước 2: Phép tính b: Quy đồng mẫu chung là 12: 1/6 = 2/12; 3/4 = 9/12.",
+            "Bước 3: 2/12 - 9/12 = (2 - 9) / 12 = -7/12."
           ],
-          "answer": "A = 0."
+          "answer": "a) -1/4; b) -7/12"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Cộng cả tử với tử và mẫu với mẫu: 1/2 + 1/3 = (1+1)/(2+3) = 2/5.",
-          "why": "Đây là sai lầm kinh điển. Bắt buộc phải quy đồng mẫu số trước khi cộng các tử số: 3/6 + 2/6 = 5/6."
+          "mistake": "Cộng cả tử với tử và mẫu với mẫu: 1/2 + 1/3 = (1+1)/(2+3) = 2/5",
+          "why": "Sai lầm nghiêm trọng! Mẫu số chung phải giữ nguyên, chỉ cộng các tử số."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 25: So sánh phân số. Phép cộng và phép trừ phân số</strong>, bao gồm các khái niệm then chốt: So sánh hai phân số, Cộng, trừ phân số. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "a/m ± b/m = (a ± b)/m: Cộng trừ cùng mẫu số",
+        "Quy đồng mẫu dương trước khi so sánh hoặc tính toán: Quy tắc quy đồng"
+      ],
+      "examples": [
+        {
+          "problem": "Tính: a) 3/8 + (-5)/8; b) 1/6 - 3/4.",
+          "solution": "Bước 1: Phép tính a: (3 + (-5)) / 8 = -2/8 = -1/4. | Bước 2: Phép tính b: Quy đồng mẫu chung là 12: 1/6 = 2/12; 3/4 = 9/12. | Bước 3: 2/12 - 9/12 = (2 - 9) / 12 = -7/12. => Đáp số: a) -1/4; b) -7/12"
         }
       ]
     },
     {
       "id": "l04",
       "title": "Bài 26: Phép nhân và phép chia phân số",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Nắm vững quy tắc nhân hai phân số và tính chất phân phối của phép nhân đối với phép cộng.",
-        "Hiểu định nghĩa số nghịch đảo và quy tắc chia hai phân số.",
-        "Vận dụng để tính nhanh giá trị biểu thức phân số."
+        "Nắm vững quy tắc nhân hai phân số: tử nhân tử, mẫu nhân mẫu",
+        "Hiểu khái niệm phân số nghịch đảo và quy tắc chia phân số: nhân với phân số nghịch đảo"
       ],
       "concepts": [
         {
           "term": "Phép nhân phân số",
-          "definition": "Muốn nhân hai phân số, ta nhân các tử với nhau và nhân các mẫu với nhau.",
-          "notation": "(a/b) · (c/d) = (a · c) / (b · d)",
-          "note": "Nên rút gọn các thừa số chung ở tử và mẫu trước khi nhân ra kết quả."
+          "definition": "Tử số nhân với tử số, mẫu số nhân với mẫu số: (a/b) × (c/d) = (a × c)/(b × d).",
+          "notation": "(a/b) × (c/d) = (a × c)/(b × d)",
+          "note": "Nên rút gọn các thừa số chung trước khi nhân ra kết quả."
         },
         {
-          "term": "Số nghịch đảo",
-          "definition": "Hai phân số được gọi là nghịch đảo của nhau nếu tích của chúng bằng 1. Số nghịch đảo của a/b (với a, b ≠ 0) là b/a.",
-          "notation": "(a/b) · (b/a) = 1",
-          "note": "Số 0 không có số nghịch đảo."
+          "term": "Phân số nghịch đảo",
+          "definition": "Hai phân số gọi là nghịch đảo của nhau nếu tích của chúng bằng 1. Phân số nghịch đảo của a/b (a, b ≠ 0) là b/a.",
+          "notation": "a/b × b/a = 1",
+          "note": "Số 0 không có phân số nghịch đảo."
         },
         {
           "term": "Phép chia phân số",
-          "definition": "Muốn chia một phân số cho một phân số khác 0, ta nhân số bị chia với số nghịch đảo của số chia.",
-          "notation": "(a/b) : (c/d) = (a/b) · (d/c) = (a · d) / (b · c)",
-          "note": "Chia cho một phân số bằng nhân với phân số đảo ngược của nó."
+          "definition": "Muốn chia phân số a/b cho phân số c/d (c/d ≠ 0), ta nhân a/b với phân số nghịch đảo của c/d.",
+          "notation": "(a/b) : (c/d) = (a/b) × (d/c)",
+          "note": "Nhân với nghịch đảo của số chia."
         }
       ],
       "rules": [
         {
-          "statement": "Tính chất phân phối của phép nhân đối với phép cộng",
-          "meaning": "a · (b + c) = a · b + a · c. Áp dụng quy tắc này giúp đặt thừa số chung để tính nhẩm cực nhanh."
+          "statement": "(a/b) × (c/d) = (a × c)/(b × d)",
+          "meaning": "Tử nhân tử, mẫu nhân mẫu"
+        },
+        {
+          "statement": "(a/b) : (c/d) = (a × d)/(b × c)",
+          "meaning": "Nhân nghịch đảo"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Tính giá trị biểu thức: B = (7/15) · (8/13) + (7/15) · (5/13)?",
+          "prompt": "Tính: a) (-4/7) × (21/8); b) (5/9) : (-10/3).",
           "steps": [
-            "Bước 1: Nhận thấy 7/15 là thừa số chung của hai tích, đặt 7/15 ra ngoài ngoặc: B = 7/15 · (8/13 + 5/13).",
-            "Bước 2: Tính trong ngoặc: 8/13 + 5/13 = 13/13 = 1.",
-            "Bước 3: Nhân kết quả: B = 7/15 · 1 = 7/15."
+            "Bước 1: Phép nhân: [(-4) × 21] / [7 × 8] = [(-1) × 3] / [1 × 2] = -3/2.",
+            "Bước 2: Phép chia: 5/9 × (3/-10) = [5 × 3] / [9 × (-10)] = 15 / (-90) = -1/6."
           ],
-          "answer": "B = 7/15."
+          "answer": "a) -3/2; b) -1/6"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Khi chia hai phân số thì nghịch đảo cả hai phân số thay vì chỉ nghịch đảo số chia.",
-          "why": "Quy tắc chia phân số chỉ đảo ngược số chia (phân số đứng sau dấu chia): a/b : c/d = a/b · d/c."
+          "mistake": "Lấy nghịch đảo của số bị chia thay vì số chia",
+          "why": "Phải giữ nguyên số bị chia, chỉ lấy nghịch đảo của SỐ CHIA: a/b : c/d = a/b × d/c."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 26: Phép nhân và phép chia phân số</strong>, bao gồm các khái niệm then chốt: Phép nhân phân số, Phân số nghịch đảo, Phép chia phân số. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "(a/b) × (c/d) = (a × c)/(b × d): Tử nhân tử, mẫu nhân mẫu",
+        "(a/b) : (c/d) = (a × d)/(b × c): Nhân nghịch đảo"
+      ],
+      "examples": [
+        {
+          "problem": "Tính: a) (-4/7) × (21/8); b) (5/9) : (-10/3).",
+          "solution": "Bước 1: Phép nhân: [(-4) × 21] / [7 × 8] = [(-1) × 3] / [1 × 2] = -3/2. | Bước 2: Phép chia: 5/9 × (3/-10) = [5 × 3] / [9 × (-10)] = 15 / (-90) = -1/6. => Đáp số: a) -3/2; b) -1/6"
         }
       ]
     },
     {
       "id": "l05",
-      "title": "Bài 27: Hai bài toán cơ bản về phân số",
+      "title": "Bài 27: Hai bài toán về phân số",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Nắm vững phương pháp tìm giá trị phân số của một số cho trước.",
-        "Nắm vững phương pháp tìm một số biết giá trị phân số của nó.",
-        "Giải quyết các bài toán thực tiễn liên quan đến tỷ lệ, phần trăm và chia phần."
+        "Bài toán 1: Tìm giá trị phân số m/n của số b cho trước (lấy b × m/n)",
+        "Bài toán 2: Tìm một số biết giá trị phân số m/n của nó bằng a (lấy a : m/n)"
       ],
       "concepts": [
         {
-          "term": "Bài toán 1: Tìm giá trị phân số của một số",
-          "definition": "Muốn tìm m/n của số a cho trước (với m, n thuộc N, n khác 0), ta nhân số a với m/n.",
-          "notation": "Giá trị = a · (m/n)",
-          "note": "Ví dụ: Tìm 3/4 của 28 kg gạo: lấy 28 · 3/4 = 21 kg gạo."
+          "term": "Tìm giá trị phân số của một số",
+          "definition": "Muốn tìm m/n của số b cho trước, ta tính b × (m/n).",
+          "notation": "m/n của b là: b × m/n",
+          "note": "'Của' tương ứng với phép NHÂN."
         },
         {
-          "term": "Bài toán 2: Tìm một số biết giá trị phân số",
-          "definition": "Muốn tìm một số biết m/n của nó bằng b, ta lấy số b chia cho phân số m/n.",
-          "notation": "Số cần tìm = b : (m/n) = b · (n/m)",
-          "note": "Ví dụ: Tìm số x biết 2/5 của x bằng 14: ta lấy 14 : (2/5) = 14 · 5/2 = 35."
+          "term": "Tìm một số biết giá trị phân số của nó",
+          "definition": "Muốn tìm một số biết m/n của nó bằng a, ta tính a : (m/n).",
+          "notation": "Số đó là: a : (m/n)",
+          "note": "Tìm ngược lại thì dùng phép CHIA."
         }
       ],
       "rules": [
         {
-          "statement": "Phân biệt hai bài toán cơ bản",
-          "meaning": "Tìm 'phân số CỦA một số' thì làm phép NHÂN. Tìm 'một số KHI BIẾT phân số của nó' thì làm phép CHIA."
+          "statement": "m/n của b = b × (m/n)",
+          "meaning": "Bài toán thuận: phép nhân"
+        },
+        {
+          "statement": "Biết m/n của x là a ⇒ x = a : (m/n)",
+          "meaning": "Bài toán nghịch: phép chia"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Một rổ cam có 48 quả. Mẹ đem biếu bà 3/8 số cam, sau đó chia cho hai anh em 2/5 số cam còn lại. Hỏi trong rổ còn lại bao nhiêu quả cam?",
+          "prompt": "a) Tính 3/5 của 45 kg; b) Tìm một số biết 2/3 của nó bằng 24.",
           "steps": [
-            "Bước 1: Số cam mẹ biếu bà là: 48 · 3/8 = 18 quả cam.",
-            "Bước 2: Số quả cam còn lại sau khi biếu bà là: 48 - 18 = 30 quả cam.",
-            "Bước 3: Số cam chia cho hai anh em là: 30 · 2/5 = 12 quả cam.",
-            "Bước 4: Số quả cam còn lại trong rổ là: 30 - 12 = 18 quả cam."
+            "Bước 1: Bài toán a là tìm phân số của một số: 45 × 3/5 = (45 : 5) × 3 = 9 × 3 = 27 kg.",
+            "Bước 2: Bài toán b là tìm số biết giá trị phân số: 24 : 2/3 = 24 × 3/2 = 12 × 3 = 36."
           ],
-          "answer": "Còn lại 18 quả cam."
+          "answer": "a) 27 kg; b) 36"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Lấy 2/5 nhân trực tiếp với tổng số 48 quả cam ban đầu thay vì nhân với số cam CÒN LẠI.",
-          "why": "Đề bài nêu rõ '2/5 số cam còn lại' nên phải trừ đi số cam đã biếu bà trước khi tính tiếp."
+          "mistake": "Lẫn lộn giữa phép nhân và phép chia trong hai bài toán về phân số",
+          "why": "Cần phân tích: tìm một phần của số đã biết thì làm phép NHÂN; tìm số ban đầu khi biết một phần thì làm phép CHIA."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 27: Hai bài toán về phân số</strong>, bao gồm các khái niệm then chốt: Tìm giá trị phân số của một số, Tìm một số biết giá trị phân số của nó. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "m/n của b = b × (m/n): Bài toán thuận: phép nhân",
+        "Biết m/n của x là a ⇒ x = a : (m/n): Bài toán nghịch: phép chia"
+      ],
+      "examples": [
+        {
+          "problem": "a) Tính 3/5 của 45 kg; b) Tìm một số biết 2/3 của nó bằng 24.",
+          "solution": "Bước 1: Bài toán a là tìm phân số của một số: 45 × 3/5 = (45 : 5) × 3 = 9 × 3 = 27 kg. | Bước 2: Bài toán b là tìm số biết giá trị phân số: 24 : 2/3 = 24 × 3/2 = 12 × 3 = 36. => Đáp số: a) 27 kg; b) 36"
         }
       ]
     }

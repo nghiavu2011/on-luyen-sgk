@@ -22,7 +22,16 @@
         "socraticPrompt": "log của 10^(-4) bằng bao nhiêu? Thêm dấu trừ đằng trước nữa?",
         "steps": "Ta có: pH = -log(10^(-4)) = -(-4 · log 10) = -(-4 · 1) = 4.",
         "trap": "Quên dấu trừ phía trước dẫn đến pH = -4."
-      }
+      },
+      "socraticPrompt": "log của 10^(-4) bằng bao nhiêu? Thêm dấu trừ đằng trước nữa?",
+      "distractorReasons": [
+        "Sai vì '-4' không phù hợp với định lý/quy tắc trọng tâm (Công thức pH = -log(10^(-a)) = a.).",
+        "Đúng vì theo Công thức pH = -log(10^(-a)) = a.: Ta có: pH = -log(10^(-4)) = -(-4 · log 10) = -(-4 · 1) = 4.",
+        "Sai vì '10' không phù hợp với định lý/quy tắc trọng tâm (Công thức pH = -log(10^(-a)) = a.).",
+        "Sai vì '14' không phù hợp với định lý/quy tắc trọng tâm (Công thức pH = -log(10^(-a)) = a.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c6_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "16 là 2 mũ mấy? t/3 bằng số mũ đó thì t bằng bao nhiêu?",
         "steps": "Ta có: 1000 · 2^(t/3) = 16000 <=> 2^(t/3) = 16 = 2⁴ <=> t/3 = 4 <=> t = 12 giờ.",
         "trap": "Lấy t = 4 mà quên nhân 3 từ mẫu số."
-      }
+      },
+      "socraticPrompt": "16 là 2 mũ mấy? t/3 bằng số mũ đó thì t bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Ta có: 1000 · 2^(t/3) = 16000 <=> 2^(t/3) = 16 = 2⁴ <=> t/3 = 4 <=> t = 12 giờ.",
+        "Sai vì '16 giờ' không phù hợp với định lý/quy tắc trọng tâm (Giải phương trình mũ: 1000 · 2^(t/3) = 16000 <=> 2^(t/3) = 16.).",
+        "Sai vì '9 giờ' không phù hợp với định lý/quy tắc trọng tâm (Giải phương trình mũ: 1000 · 2^(t/3) = 16000 <=> 2^(t/3) = 16.).",
+        "Sai vì '6 giờ' không phù hợp với định lý/quy tắc trọng tâm (Giải phương trình mũ: 1000 · 2^(t/3) = 16000 <=> 2^(t/3) = 16.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c6_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Cơ số bé hơn 1 thì đổi dấu ≥ thành ≤. Giải bất phương trình bậc hai x² - 2x - 3 ≤ 0?",
         "steps": "Do 0 < 0,5 < 1 nên: x² - 3 ≤ 2x <=> x² - 2x - 3 ≤ 0 <=> (x + 1)(x - 3) ≤ 0 <=> -1 ≤ x ≤ 3. Vậy S = [-1; 3].",
         "trap": "Không đảo chiều bất đẳng thức dẫn đến nghiệm lấy phần ngoài (-∞; -1] ∪ [3; +∞)."
-      }
+      },
+      "socraticPrompt": "Cơ số bé hơn 1 thì đổi dấu ≥ thành ≤. Giải bất phương trình bậc hai x² - 2x - 3 ≤ 0?",
+      "distractorReasons": [
+        "Đúng vì theo Cơ số 0,5 < 1 nên bất phương trình đảo chiều: x² - 3 ≤ 2x.: Do 0 < 0,5 < 1 nên: x² - 3 ≤ 2x <=> x² - 2x - 3 ≤ 0 <=> (x + 1)(x - 3) ≤ 0 <=> -1 ≤ x ≤ 3. Vậy S = [-1; 3].",
+        "Sai vì '(-∞; -1] ∪ [3; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Cơ số 0,5 < 1 nên bất phương trình đảo chiều: x² - 3 ≤ 2x.).",
+        "Sai vì '[-3; 1]' không phù hợp với định lý/quy tắc trọng tâm (Cơ số 0,5 < 1 nên bất phương trình đảo chiều: x² - 3 ≤ 2x.).",
+        "Sai vì '(-∞; -3] ∪ [1; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Cơ số 0,5 < 1 nên bất phương trình đảo chiều: x² - 3 ≤ 2x.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c6_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Đường thẳng chia đôi góc phần tư thứ nhất có phương trình là gì?",
         "steps": "Theo SGK Toán 11, hai đồ thị y = a^x và y = log_a x luôn đối xứng nhau qua đường thẳng y = x.",
         "trap": "Nhầm đối xứng qua trục hoành Ox hoặc trục tung Oy."
-      }
+      },
+      "socraticPrompt": "Đường thẳng chia đôi góc phần tư thứ nhất có phương trình là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trục tung Oy' (đối xứng qua trục hoành Ox hoặc trục tung Oy).",
+        "Sai vì 'Trục hoành Ox' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Đường thẳng y = -x' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Theo SGK Toán 11, hai đồ thị y = a^x và y = log_a x luôn đối xứng nhau qua đường thẳng y = x."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c6_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "x² - 2x - 8 = 0 có hai nghiệm là 4 và -2. Nghiệm nào thoả mãn điều kiện x > 2?",
         "steps": "Điều kiện: x > 0 và x - 2 > 0 => x > 2. Phương trình <=> log_2(x² - 2x) = 3 <=> x² - 2x = 2³ = 8 <=> x² - 2x - 8 = 0 <=> x = 4 (thoả mãn) hoặc x = -2 (loại vì -2 < 2). Vậy phương trình có đúng 1 nghiệm duy nhất x = 4.",
         "trap": "Quên loại nghiệm âm x = -2 dẫn đến kết luận có 2 nghiệm."
-      }
+      },
+      "socraticPrompt": "x² - 2x - 8 = 0 có hai nghiệm là 4 và -2. Nghiệm nào thoả mãn điều kiện x > 2?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 nghiệm' (Quên loại nghiệm âm x = -2 dẫn đến kết luận có 2 nghiệm.).",
+        "Sai vì '0 nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện x > 2. Đưa về phương trình tích: log_2[x(x - 2)] = 3 <=> x² - 2x = 8.).",
+        "Đúng vì: Điều kiện: x > 0 và x - 2 > 0 => x > 2. Phương trình <=> log_2(x² - 2x) = 3 <=> x² - 2x = 2³ = 8 <=> x² - 2x - 8 = 0 <=> x = 4 (thoả mãn) hoặc x = -2 (loại vì -.",
+        "Sai vì '3 nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện x > 2. Đưa về phương trình tích: log_2[x(x - 2)] = 3 <=> x² - 2x = 8.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c6_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Đưa số 2 vào trong mũ của 3: 3² = 9. e mũ (ln 9) bằng bao nhiêu?",
         "steps": "Ta có: 2 ln 3 = ln(3²) = ln 9. Suy ra e^(2 ln 3) = e^(ln 9) = 9.",
         "trap": "Nhầm 2 · 3 = 6."
-      }
+      },
+      "socraticPrompt": "Đưa số 2 vào trong mũ của 3: 3² = 9. e mũ (ln 9) bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '6' không phù hợp với định lý/quy tắc trọng tâm (2 ln 3 = ln(3²) = ln 9. Khi đó e^(ln 9) = 9.).",
+        "Sai vì '8' không phù hợp với định lý/quy tắc trọng tâm (2 ln 3 = ln(3²) = ln 9. Khi đó e^(ln 9) = 9.).",
+        "Đúng vì theo 2 ln 3 = ln(3²) = ln 9. Khi đó e^(ln 9) = 9.: Ta có: 2 ln 3 = ln(3²) = ln 9. Suy ra e^(2 ln 3) = e^(ln 9) = 9.",
+        "Sai vì '3' không phù hợp với định lý/quy tắc trọng tâm (2 ln 3 = ln(3²) = ln 9. Khi đó e^(ln 9) = 9.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

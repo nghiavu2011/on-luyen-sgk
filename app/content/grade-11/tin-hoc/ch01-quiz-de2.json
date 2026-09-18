@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Khi làm việc nhóm dự án Tin học, nhóm bạn Nam nên dùng công cụ nào để cùng soạn thảo tài liệu báo cáo thời gian thực?",
       "options": [
-        "Google Docs / OneDrive Word Online",
         "Gửi USB qua lại",
+        "Google Docs / OneDrive Word Online",
         "In ra giấy rồi viết bút chì",
         "Chụp ảnh gửi qua tin nhắn"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Google Docs / OneDrive hỗ trợ đồng chỉnh sửa thời gian thực tiện lợi.",
       "breakdown": {
         "concept": "Làm việc cộng tác đám mây",
         "steps": "Google Docs hoặc Word Online.",
         "socraticPrompt": "Công cụ nào giúp cùng soạn văn bản trực tuyến?"
-      }
+      },
+      "socraticPrompt": "Công cụ nào giúp cùng soạn văn bản trực tuyến?",
+      "distractorReasons": [
+        "Sai vì 'Gửi USB qua lại' không phù hợp với định lý/quy tắc trọng tâm (Làm việc cộng tác đám mây).",
+        "Đúng vì theo Làm việc cộng tác đám mây: Google Docs hoặc Word Online.",
+        "Sai vì 'In ra giấy rồi viết bút chì' không phù hợp với định lý/quy tắc trọng tâm (Làm việc cộng tác đám mây).",
+        "Sai vì 'Chụp ảnh gửi qua tin nhắn' không phù hợp với định lý/quy tắc trọng tâm (Làm việc cộng tác đám mây)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Một trường học muốn tiết kiệm chi phí bản quyền phần mềm văn phòng cho 500 máy tính nên chọn giải pháp nào?",
       "options": [
-        "Cài đặt bộ phần mềm nguồn mở LibreOffice hoặc WPS Office miễn phí",
-        "Dùng phần mềm crack bẻ khóa lậu",
         "Không cho học sinh thực hành",
+        "Dùng phần mềm crack bẻ khóa lậu",
+        "Cài đặt bộ phần mềm nguồn mở LibreOffice hoặc WPS Office miễn phí",
         "Mua đĩa lậu ngoài chợ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Sử dụng phần mềm nguồn mở vừa miễn phí hợp pháp vừa an toàn bảo mật.",
       "breakdown": {
         "concept": "Giải pháp phần mềm nguồn mở",
         "steps": "Cài LibreOffice nguồn mở miễn phí.",
         "socraticPrompt": "Trường học tiết kiệm tiền bản quyền phần mềm bằng cách nào?"
-      }
+      },
+      "socraticPrompt": "Trường học tiết kiệm tiền bản quyền phần mềm bằng cách nào?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cho học sinh thực hành' trái ngược với kiến thức SGK.",
+        "Sai vì 'Dùng phần mềm crack bẻ khóa lậu' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp phần mềm nguồn mở).",
+        "Đúng vì theo Giải pháp phần mềm nguồn mở: Cài LibreOffice nguồn mở miễn phí.",
+        "Sai vì 'Mua đĩa lậu ngoài chợ' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp phần mềm nguồn mở)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Để bảo vệ dữ liệu học tập quan trọng trên máy tính cá nhân không bị mất khi ổ cứng bị hỏng đột ngột, bạn cần",
       "options": [
-        "Bật tính năng tự động đồng bộ hóa lên đám mây (Google Drive / OneDrive) và sao lưu định kỳ",
+        "Ghi nhớ trong đầu",
         "Chỉ lưu trên một thư mục Desktop",
         "Không bao giờ tắt máy",
-        "Ghi nhớ trong đầu"
+        "Bật tính năng tự động đồng bộ hóa lên đám mây (Google Drive / OneDrive) và sao lưu định kỳ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Sao lưu dữ liệu định kỳ trên đám mây (Backup 3-2-1).",
       "breakdown": {
         "concept": "Sao lưu dữ liệu an toàn",
         "steps": "Đồng bộ lên đám mây định kỳ.",
         "socraticPrompt": "Làm sao để không mất tài liệu khi máy hỏng?"
-      }
+      },
+      "socraticPrompt": "Làm sao để không mất tài liệu khi máy hỏng?",
+      "distractorReasons": [
+        "Sai vì 'Ghi nhớ trong đầu' không phù hợp với định lý/quy tắc trọng tâm (Sao lưu dữ liệu an toàn).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ lưu trên một thư mục Desktop', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Không bao giờ tắt máy', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Sao lưu dữ liệu an toàn: Đồng bộ lên đám mây định kỳ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Rủi ro cài đặt phần mềm crack",
         "steps": "Tải file bẻ khóa từ web lạ nguy hiểm.",
         "socraticPrompt": "Cài phần mềm nào dễ bị dính virus nhất?"
-      }
+      },
+      "socraticPrompt": "Cài phần mềm nào dễ bị dính virus nhất?",
+      "distractorReasons": [
+        "Đúng vì theo Rủi ro cài đặt phần mềm crack: Tải file bẻ khóa từ web lạ nguy hiểm.",
+        "Sai vì 'Tải từ trang chủ chính thức của nhà phát triển' không phù hợp với định lý/quy tắc trọng tâm (Rủi ro cài đặt phần mềm crack).",
+        "Sai vì 'Tải từ Microsoft Store / App Store' không phù hợp với định lý/quy tắc trọng tâm (Rủi ro cài đặt phần mềm crack).",
+        "Sai vì 'Kiểm tra mã băm SHA256 trước khi cài' không phù hợp với định lý/quy tắc trọng tâm (Rủi ro cài đặt phần mềm crack)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Khi phân quyền chia sẻ một thư mục tài liệu nhóm trên Google Drive, để các bạn chỉ được đọc mà không chỉnh sửa nhầm dữ liệu, ta chọn quyền",
       "options": [
-        "Viewer (Người xem)",
+        "Admin (Quản trị viên)",
         "Editor (Người chỉnh sửa)",
         "Owner (Chủ sở hữu)",
-        "Admin (Quản trị viên)"
+        "Viewer (Người xem)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Phân quyền Viewer để bảo vệ tính toàn vẹn của dữ liệu chia sẻ.",
       "breakdown": {
         "concept": "Phân quyền chia sẻ đám mây",
         "steps": "Chọn quyền Viewer (Người xem).",
         "socraticPrompt": "Chia sẻ file chỉ cho đọc thì chọn quyền gì?"
-      }
+      },
+      "socraticPrompt": "Chia sẻ file chỉ cho đọc thì chọn quyền gì?",
+      "distractorReasons": [
+        "Sai vì 'Admin (Quản trị viên)' không phù hợp với định lý/quy tắc trọng tâm (Phân quyền chia sẻ đám mây).",
+        "Sai vì 'Editor (Người chỉnh sửa)' không phù hợp với định lý/quy tắc trọng tâm (Phân quyền chia sẻ đám mây).",
+        "Sai vì 'Owner (Chủ sở hữu)' không phù hợp với định lý/quy tắc trọng tâm (Phân quyền chia sẻ đám mây).",
+        "Đúng vì theo Phân quyền chia sẻ đám mây: Chọn quyền Viewer (Người xem)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Công cụ lập trình IDE",
         "steps": "VS Code hoặc PyCharm.",
         "socraticPrompt": "Phần mềm nào tốt nhất để viết code Python?"
-      }
+      },
+      "socraticPrompt": "Phần mềm nào tốt nhất để viết code Python?",
+      "distractorReasons": [
+        "Đúng vì theo Công cụ lập trình IDE: VS Code hoặc PyCharm.",
+        "Sai vì 'Notepad của Windows' không phù hợp với định lý/quy tắc trọng tâm (Công cụ lập trình IDE).",
+        "Sai vì 'Phần mềm Paint' không phù hợp với định lý/quy tắc trọng tâm (Công cụ lập trình IDE).",
+        "Sai vì 'Microsoft PowerPoint' không phù hợp với định lý/quy tắc trọng tâm (Công cụ lập trình IDE)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

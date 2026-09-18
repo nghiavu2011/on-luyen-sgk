@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Vào ngày bầu cử, anh A bận đi công tác nên nhờ vợ cầm thẻ cử tri của mình đi bỏ phiếu hộ. Hành động của anh A và vợ là",
       "options": [
-        "Vi phạm nguyên tắc bầu cử trực tiếp",
         "Hành vi đúng đắn giúp đỡ nhau",
+        "Vi phạm nguyên tắc bầu cử trực tiếp",
         "Được pháp luật khuyến khích",
         "Hợp pháp nếu cùng gia đình"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Mỗi cử tri phải tự mình cầm phiếu vào buồng kín gạch phiếu và tự tay bỏ vào hòm phiếu.",
       "breakdown": {
         "concept": "Vi phạm nguyên tắc bầu cử",
         "steps": "Vi phạm bầu cử trực tiếp.",
         "socraticPrompt": "Nhờ vợ đi bỏ phiếu hộ là đúng hay sai?"
-      }
+      },
+      "socraticPrompt": "Nhờ vợ đi bỏ phiếu hộ là đúng hay sai?",
+      "distractorReasons": [
+        "Sai vì 'Hành vi đúng đắn giúp đỡ nhau' không phù hợp với định lý/quy tắc trọng tâm (Vi phạm nguyên tắc bầu cử).",
+        "Đúng vì theo Vi phạm nguyên tắc bầu cử: Vi phạm bầu cử trực tiếp.",
+        "Sai vì 'Được pháp luật khuyến khích' không phù hợp với định lý/quy tắc trọng tâm (Vi phạm nguyên tắc bầu cử).",
+        "Sai vì 'Hợp pháp nếu cùng gia đình' không phù hợp với định lý/quy tắc trọng tâm (Vi phạm nguyên tắc bầu cử)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi nhận được Quyết định thu hồi đất có dấu hiệu áp giá đền bù sai quy định của UBND huyện, ông B cần thực hiện quyền gì?",
       "options": [
-        "Gửi đơn Khiếu nại đến Chủ tịch UBND huyện yêu cầu xem xét lại",
-        "Tập trung đông người gây rối trật tự",
         "Tố cáo bí mật lên mạng xã hội",
+        "Tập trung đông người gây rối trật tự",
+        "Gửi đơn Khiếu nại đến Chủ tịch UBND huyện yêu cầu xem xét lại",
         "Chấp nhận mất đất không ý kiến"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Thực hiện quyền khiếu nại theo đúng trình tự Luật Khiếu nại quy định.",
       "breakdown": {
         "concept": "Thực hiện quyền khiếu nại",
         "steps": "Gửi đơn khiếu nại theo luật.",
         "socraticPrompt": "Bị áp giá đất sai thì làm gì?"
-      }
+      },
+      "socraticPrompt": "Bị áp giá đất sai thì làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Tố cáo bí mật lên mạng xã hội' không phù hợp với định lý/quy tắc trọng tâm (Thực hiện quyền khiếu nại).",
+        "Sai vì 'Tập trung đông người gây rối trật tự' không phù hợp với định lý/quy tắc trọng tâm (Thực hiện quyền khiếu nại).",
+        "Đúng vì theo Thực hiện quyền khiếu nại: Gửi đơn khiếu nại theo luật.",
+        "Sai vì phủ định sai bản chất: 'Chấp nhận mất đất không ý kiến' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Phát hiện một xưởng gỗ đang xả nước thải hóa chất độc hại chưa qua xử lý ra dòng sông sau làng, bạn T cần",
       "options": [
-        "Gửi đơn Tố cáo kèm bằng chứng đến Phòng Tài nguyên & Môi trường hoặc Công an môi trường",
+        "Đăng tin giật gân sai sự thật",
         "Im lặng vì sợ trả thù",
         "Rủ bạn bè đập phá xưởng gỗ",
-        "Đăng tin giật gân sai sự thật"
+        "Gửi đơn Tố cáo kèm bằng chứng đến Phòng Tài nguyên & Môi trường hoặc Công an môi trường"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Thực hiện quyền tố cáo đúng cơ quan có thẩm quyền bảo vệ môi trường chung.",
       "breakdown": {
         "concept": "Thực hiện quyền tố cáo",
         "steps": "Gửi đơn tố cáo đến cơ quan chức năng.",
         "socraticPrompt": "Thấy xả thải trộm hóa chất thì làm gì?"
-      }
+      },
+      "socraticPrompt": "Thấy xả thải trộm hóa chất thì làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Đăng tin giật gân sai sự thật' không phù hợp với định lý/quy tắc trọng tâm (Thực hiện quyền tố cáo).",
+        "Sai vì 'Im lặng vì sợ trả thù' không phù hợp với định lý/quy tắc trọng tâm (Thực hiện quyền tố cáo).",
+        "Sai vì 'Rủ bạn bè đập phá xưởng gỗ' không phù hợp với định lý/quy tắc trọng tâm (Thực hiện quyền tố cáo).",
+        "Đúng vì theo Thực hiện quyền tố cáo: Gửi đơn tố cáo đến cơ quan chức năng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Dân chủ trực tiếp ở thôn",
         "steps": "Dân bàn bạc và biểu quyết công khai.",
         "socraticPrompt": "Họp thôn làm đường dân được làm gì?"
-      }
+      },
+      "socraticPrompt": "Họp thôn làm đường dân được làm gì?",
+      "distractorReasons": [
+        "Đúng vì theo Dân chủ trực tiếp ở thôn: Dân bàn bạc và biểu quyết công khai.",
+        "Sai vì phủ định sai bản chất: 'Bắt buộc chấp hành không được phát biểu' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ ngồi nghe trưởng thôn đọc quyết định', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có quyền biểu quyết' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Hành vi đe dọa, trả thù người khiếu nại, tố cáo bị pháp luật xử lý như thế nào?",
       "options": [
-        "Bị xử lý nghiêm minh theo pháp luật hành chính hoặc truy cứu trách nhiệm hình sự",
+        "Chỉ phạt nhắc nhở",
         "Được coi là chuyện xích mích cá nhân",
         "Không bị xử lý",
-        "Chỉ phạt nhắc nhở"
+        "Bị xử lý nghiêm minh theo pháp luật hành chính hoặc truy cứu trách nhiệm hình sự"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Pháp luật có cơ chế bảo vệ tính mạng, danh dự của người tố cáo và xử phạt nghiêm kẻ trả thù.",
       "breakdown": {
         "concept": "Bảo vệ người tố cáo",
         "steps": "Xử lý nghiêm kẻ đe dọa trả thù.",
         "socraticPrompt": "Đe dọa người tố cáo bị phạt thế nào?"
-      }
+      },
+      "socraticPrompt": "Đe dọa người tố cáo bị phạt thế nào?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phạt nhắc nhở', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Được coi là chuyện xích mích cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ người tố cáo).",
+        "Sai vì phủ định sai bản chất: 'Không bị xử lý' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Bảo vệ người tố cáo: Xử lý nghiêm kẻ đe dọa trả thù."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Trách nhiệm bầu cử học đường",
         "steps": "Tìm hiểu kỹ và sáng suốt lựa chọn.",
         "socraticPrompt": "Bầu cử ở trường học sinh nên làm gì?"
-      }
+      },
+      "socraticPrompt": "Bầu cử ở trường học sinh nên làm gì?",
+      "distractorReasons": [
+        "Đúng vì theo Trách nhiệm bầu cử học đường: Tìm hiểu kỹ và sáng suốt lựa chọn.",
+        "Sai vì 'Bầu theo bạn bè rủ rê' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm bầu cử học đường).",
+        "Sai vì 'Gạch bừa cho xong việc' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm bầu cử học đường).",
+        "Sai vì phủ định sai bản chất: 'Không đi bỏ phiếu' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

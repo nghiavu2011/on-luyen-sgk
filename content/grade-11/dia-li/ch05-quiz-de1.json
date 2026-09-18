@@ -20,97 +20,151 @@
         "concept": "Ngã ba 3 châu lục",
         "steps": "Á - Âu - Phi.",
         "socraticPrompt": "Tây Nam Á nằm ở ngã ba châu lục nào?"
-      }
+      },
+      "socraticPrompt": "Tây Nam Á nằm ở ngã ba châu lục nào?",
+      "distractorReasons": [
+        "Đúng vì theo Ngã ba 3 châu lục: Á - Âu - Phi.",
+        "Sai vì 'Châu Á, Châu Mỹ và Châu Úc' không phù hợp với định lý/quy tắc trọng tâm (Ngã ba 3 châu lục).",
+        "Sai vì 'Châu Âu, Châu Mỹ và Nam Cực' không phù hợp với định lý/quy tắc trọng tâm (Ngã ba 3 châu lục).",
+        "Sai vì 'Châu Phi, Châu Úc và Nam Cực' không phù hợp với định lý/quy tắc trọng tâm (Ngã ba 3 châu lục)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Khu vực Tây Nam Á chiếm hơn một nửa trữ lượng khoáng sản nào của thế giới?",
       "options": [
-        "Dầu mỏ và khí tự nhiên",
         "Than đá và quặng sắt",
+        "Dầu mỏ và khí tự nhiên",
         "Kim cương và vàng",
         "Rừng gỗ quý"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Tập trung trữ lượng dầu khí khổng lồ quanh bồn trũng vịnh Ba Tư.",
       "breakdown": {
         "concept": "Tài nguyên dầu mỏ",
         "steps": "Dầu mỏ và khí đốt.",
         "socraticPrompt": "Tây Nam Á giàu nhất về tài nguyên gì?"
-      }
+      },
+      "socraticPrompt": "Tây Nam Á giàu nhất về tài nguyên gì?",
+      "distractorReasons": [
+        "Sai vì 'Than đá và quặng sắt' không phù hợp với định lý/quy tắc trọng tâm (Tài nguyên dầu mỏ).",
+        "Đúng vì theo Tài nguyên dầu mỏ: Dầu mỏ và khí đốt.",
+        "Sai vì 'Kim cương và vàng' không phù hợp với định lý/quy tắc trọng tâm (Tài nguyên dầu mỏ).",
+        "Sai vì 'Rừng gỗ quý' không phù hợp với định lý/quy tắc trọng tâm (Tài nguyên dầu mỏ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Eo biển hẹp nào ở Tây Nam Á được coi là 'yết hầu' trung chuyển dầu mỏ lớn nhất thế giới?",
       "options": [
-        "Eo biển Hóc-mút (Hormuz)",
-        "Eo biển Bê-rinh",
         "Eo biển Gi-bran-ta",
+        "Eo biển Bê-rinh",
+        "Eo biển Hóc-mút (Hormuz)",
         "Eo biển Đô-vơ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Eo biển Hormuz kiểm soát cửa ngõ ra vào vịnh Péc-xích.",
       "breakdown": {
         "concept": "Eo biển Hormuz",
         "steps": "Eo biển Hormuz.",
         "socraticPrompt": "Eo biển nào vận chuyển 20% dầu mỏ thế giới?"
-      }
+      },
+      "socraticPrompt": "Eo biển nào vận chuyển 20% dầu mỏ thế giới?",
+      "distractorReasons": [
+        "Sai vì 'Eo biển Gi-bran-ta' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Hormuz).",
+        "Sai vì 'Eo biển Bê-rinh' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Hormuz).",
+        "Đúng vì theo Eo biển Hormuz: Eo biển Hormuz.",
+        "Sai vì 'Eo biển Đô-vơ' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Hormuz)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Tổ chức các nước xuất khẩu dầu mỏ quốc tế viết tắt là",
       "options": [
-        "OPEC",
+        "NATO",
         "OECD",
         "APEC",
-        "NATO"
+        "OPEC"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "OPEC (Organization of the Petroleum Exporting Countries).",
       "breakdown": {
         "concept": "Tổ chức OPEC",
         "steps": "OPEC.",
         "socraticPrompt": "Tên tổ chức xuất khẩu dầu mỏ là gì?"
-      }
+      },
+      "socraticPrompt": "Tên tổ chức xuất khẩu dầu mỏ là gì?",
+      "distractorReasons": [
+        "Sai vì 'NATO' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức OPEC).",
+        "Sai vì 'OECD' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức OPEC).",
+        "Sai vì 'APEC' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức OPEC).",
+        "Đúng vì 'OPEC' phản ánh chuẩn xác kiến thức SGK: Tổ chức OPEC."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Đặc điểm tự nhiên gây khó khăn lớn nhất cho sản xuất và đời sống ở Tây Nam Á là",
       "options": [
-        "Khí hậu khô hạn, khan hiếm nghiêm trọng nguồn nước ngọt",
         "Lũ lụt ngập úng quanh năm",
+        "Khí hậu khô hạn, khan hiếm nghiêm trọng nguồn nước ngọt",
         "Bão tuyết lạnh giá",
         "Rừng rậm rạp không có lối đi"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Diện tích hoang mạc và bán hoang mạc chiếm phần lớn diện tích.",
       "breakdown": {
         "concept": "Khí hậu khô hạn Tây Nam Á",
         "steps": "Khô hạn và thiếu nước ngọt.",
         "socraticPrompt": "Khó khăn tự nhiên lớn nhất ở Tây Nam Á là gì?"
-      }
+      },
+      "socraticPrompt": "Khó khăn tự nhiên lớn nhất ở Tây Nam Á là gì?",
+      "distractorReasons": [
+        "Sai vì 'Lũ lụt ngập úng quanh năm' không phù hợp với định lý/quy tắc trọng tâm (Khí hậu khô hạn Tây Nam Á).",
+        "Đúng vì theo Khí hậu khô hạn Tây Nam Á: Khô hạn và thiếu nước ngọt.",
+        "Sai vì 'Bão tuyết lạnh giá' không phù hợp với định lý/quy tắc trọng tâm (Khí hậu khô hạn Tây Nam Á).",
+        "Sai vì phủ định sai bản chất: 'Rừng rậm rạp không có lối đi' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Kênh đào Xuy-ê (Suez) có vai trò rút ngắn hải trình giữa",
       "options": [
-        "Châu Âu và Châu Á qua Biển Đỏ",
-        "Châu Mỹ và Châu Úc",
         "Bắc Băng Dương và Nam Cực",
+        "Châu Mỹ và Châu Úc",
+        "Châu Âu và Châu Á qua Biển Đỏ",
         "Châu Phi và Nam Mỹ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Kênh đào Suez tránh việc phải đi vòng qua mũi Hảo Vọng ở châu Phi.",
       "breakdown": {
         "concept": "Kênh đào Suez",
         "steps": "Rút ngắn đường biển Á - Âu.",
         "socraticPrompt": "Kênh Suez giúp tàu thuyền đi nhanh từ đâu tới đâu?"
-      }
+      },
+      "socraticPrompt": "Kênh Suez giúp tàu thuyền đi nhanh từ đâu tới đâu?",
+      "distractorReasons": [
+        "Sai vì 'Bắc Băng Dương và Nam Cực' không phù hợp với định lý/quy tắc trọng tâm (Kênh đào Suez).",
+        "Sai vì 'Châu Mỹ và Châu Úc' không phù hợp với định lý/quy tắc trọng tâm (Kênh đào Suez).",
+        "Đúng vì theo Kênh đào Suez: Rút ngắn đường biển Á - Âu.",
+        "Sai vì 'Châu Phi và Nam Mỹ' không phù hợp với định lý/quy tắc trọng tâm (Kênh đào Suez)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

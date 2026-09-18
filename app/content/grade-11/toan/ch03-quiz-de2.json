@@ -22,7 +22,16 @@
         "socraticPrompt": "Rút gọn nhân tử chung (x - 3) rồi thay x = 3 vào biểu thức còn lại?",
         "steps": "L = lim_{x -> 3} [(x - 3)(x + 3)] / (x - 3) = lim_{x -> 3} (x + 3) = 3 + 3 = 6.",
         "trap": "Thay trực tiếp vào thấy 0/0 vội kết luận giới hạn bằng 0."
-      }
+      },
+      "socraticPrompt": "Rút gọn nhân tử chung (x - 3) rồi thay x = 3 vào biểu thức còn lại?",
+      "distractorReasons": [
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Dạng 0/0, phân tích hằng đẳng thức hiệu hai bình phương: x² - 9 = (x - 3)(x + 3).).",
+        "Sai vì '3' không phù hợp với định lý/quy tắc trọng tâm (Dạng 0/0, phân tích hằng đẳng thức hiệu hai bình phương: x² - 9 = (x - 3)(x + 3).).",
+        "Đúng vì: L = lim_{x -> 3} [(x - 3)(x + 3)] / (x - 3) = lim_{x -> 3} (x + 3) = 3 + 3 = 6.",
+        "Sai vì phủ định sai bản chất: 'Không tồn tại' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c3_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lấy u1 = 1 chia cho 1 - 1/2 thì kết quả là bao nhiêu?",
         "steps": "Áp dụng công thức S = u1 / (1 - q) = 1 / (1 - 1/2) = 1 / (1/2) = 2.",
         "trap": "Nhầm S = 1/(1 + 1/2) = 2/3 hoặc nghĩ vô hạn số hạng cộng lại phải ra vô cực."
-      }
+      },
+      "socraticPrompt": "Lấy u1 = 1 chia cho 1 - 1/2 thì kết quả là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì theo Cấp số nhân lùi vô hạn có u1 = 1 và công bội q = 1/2.: Áp dụng công thức S = u1 / (1 - q) = 1 / (1 - 1/2) = 1 / (1/2) = 2.",
+        "Sai vì '3/2' không phù hợp với định lý/quy tắc trọng tâm (Cấp số nhân lùi vô hạn có u1 = 1 và công bội q = 1/2.).",
+        "Sai vì '1' không phù hợp với định lý/quy tắc trọng tâm (Cấp số nhân lùi vô hạn có u1 = 1 và công bội q = 1/2.).",
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Cấp số nhân lùi vô hạn có u1 = 1 và công bội q = 1/2.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c3_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tử số sau khi nhân liên hợp trở thành (x + 4) - 4 = x, rút gọn với x dưới mẫu còn gì?",
         "steps": "L = lim_{x -> 0} [(x + 4) - 4] / [x(√(x + 4) + 2)] = lim_{x -> 0} 1 / [√(x + 4) + 2] = 1 / (√4 + 2) = 1/4.",
         "trap": "Nhầm căn bậc hai của 4 thành 4 dẫn đến 1/(4 + 2) = 1/6 hoặc tính ra 1/2."
-      }
+      },
+      "socraticPrompt": "Tử số sau khi nhân liên hợp trở thành (x + 4) - 4 = x, rút gọn với x dưới mẫu còn gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1/2' (căn bậc hai của 4 thành 4 dẫn đến 1/(4 + 2) = 1/6 hoặc tính ra 1/2).",
+        "Đúng vì: L = lim_{x -> 0} [(x + 4) - 4] / [x(√(x + 4) + 2)] = lim_{x -> 0} 1 / [√(x + 4) + 2] = 1 / (√4 + 2) = 1/4.",
+        "Sai vì '1' không phù hợp với định lý/quy tắc trọng tâm (Dạng vô định 0/0 có căn bậc hai, nhân lượng liên hợp: √(x + 4) + 2.).",
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Dạng vô định 0/0 có căn bậc hai, nhân lượng liên hợp: √(x + 4) + 2.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c3_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Tính giới hạn lim_{x -> 1} (x² - 1)/(x - 1) xem bằng bao nhiêu rồi cho m bằng giá trị đó?",
         "steps": "Ta có lim_{x -> 1} f(x) = lim_{x -> 1} (x - 1)(x + 1)/(x - 1) = lim_{x -> 1} (x + 1) = 2. Để hàm số liên tục tại x0 = 1 thì f(1) = lim_{x -> 1} f(x) <=> m = 2.",
         "trap": "Nhầm m = 1 do lấy số hạng tự do."
-      }
+      },
+      "socraticPrompt": "Tính giới hạn lim_{x -> 1} (x² - 1)/(x - 1) xem bằng bao nhiêu rồi cho m bằng giá trị đó?",
+      "distractorReasons": [
+        "Sai vì 'm = 1' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 1 khi lim_{x -> 1} f(x) = f(1).).",
+        "Sai vì 'm = 0' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 1 khi lim_{x -> 1} f(x) = f(1).).",
+        "Sai vì 'm = -2' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 1 khi lim_{x -> 1} f(x) = f(1).).",
+        "Đúng vì theo Hàm số liên tục tại x = 1 khi lim_{x -> 1} f(x) = f(1).: Ta có lim_{x -> 1} f(x) = lim_{x -> 1} (x - 1)(x + 1)/(x - 1) = lim_{x -> 1} (x + 1) = 2. Để hàm số liên tục tại x0 = 1 thì f(1) = lim_{x -> 1} f(x) <=> m = 2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c3_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Khi x > 2 thì x - 2 mang dấu gì? Tử số 2 - 3 = -1 mang dấu gì?",
         "steps": "Khi x -> 2^+, tử số tiến về 2 - 3 = -1 < 0; mẫu số x - 2 -> 0 và x - 2 > 0. Âm chia cho dương dần về 0 sẽ tiến về -∞.",
         "trap": "Nhầm quy tắc dấu kết luận +∞."
-      }
+      },
+      "socraticPrompt": "Khi x > 2 thì x - 2 mang dấu gì? Tử số 2 - 3 = -1 mang dấu gì?",
+      "distractorReasons": [
+        "Đúng vì: Khi x -> 2^+, tử số tiến về 2 - 3 = -1 < 0; mẫu số x - 2 -> 0 và x - 2 > 0. Âm chia cho dương dần về 0 sẽ tiến về -∞.",
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Dạng L/0: Tử số tiến về L < 0, mẫu số tiến về 0 từ phía dương.).",
+        "Sai vì '-1' không phù hợp với định lý/quy tắc trọng tâm (Dạng L/0: Tử số tiến về L < 0, mẫu số tiến về 0 từ phía dương.).",
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Dạng L/0: Tử số tiến về L < 0, mẫu số tiến về 0 từ phía dương.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c3_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Bậc cao nhất ở cả tử và mẫu là x³. Lấy hệ số 4 chia hệ số 2 bằng mấy?",
         "steps": "Chia cả tử và mẫu cho x³: lim_{x -> +∞} (4 - 2/x² + 1/x³) / (2 + 5/x) = 4/2 = 2.",
         "trap": "Nhầm lấy bậc mẫu trừ bậc tử hoặc nhầm với giới hạn khi x -> 0."
-      }
+      },
+      "socraticPrompt": "Bậc cao nhất ở cả tử và mẫu là x³. Lấy hệ số 4 chia hệ số 2 bằng mấy?",
+      "distractorReasons": [
+        "Sai vì '4' không phù hợp với định lý/quy tắc trọng tâm (Giới hạn của hàm phân thức hữu tỉ tại vô cực bằng tỉ số hệ số của bậc cao nhất.).",
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Giới hạn của hàm phân thức hữu tỉ tại vô cực bằng tỉ số hệ số của bậc cao nhất.).",
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Giới hạn của hàm phân thức hữu tỉ tại vô cực bằng tỉ số hệ số của bậc cao nhất.).",
+        "Đúng vì: Chia cả tử và mẫu cho x³: lim_{x -> +∞} (4 - 2/x² + 1/x³) / (2 + 5/x) = 4/2 = 2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -20,97 +20,151 @@
         "concept": "Tìm kiếm cụm từ chính xác",
         "steps": "Dấu ngoặc kép \" \".",
         "socraticPrompt": "Dấu nào dùng để tìm kiếm chính xác cụm từ?"
-      }
+      },
+      "socraticPrompt": "Dấu nào dùng để tìm kiếm chính xác cụm từ?",
+      "distractorReasons": [
+        "Đúng vì theo Tìm kiếm cụm từ chính xác: Dấu ngoặc kép \" \".",
+        "Sai vì 'Dấu ngoặc đơn ( )' không phù hợp với định lý/quy tắc trọng tâm (Tìm kiếm cụm từ chính xác).",
+        "Sai vì 'Dấu gạch dưới _ _' không phù hợp với định lý/quy tắc trọng tâm (Tìm kiếm cụm từ chính xác).",
+        "Sai vì 'Dấu sao * *' không phù hợp với định lý/quy tắc trọng tâm (Tìm kiếm cụm từ chính xác)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Cú pháp nào sau đây dùng để tìm kiếm tài liệu định dạng PDF trên Google?",
       "options": [
-        "filetype:pdf",
         "format=pdf",
+        "filetype:pdf",
         "type:pdf",
         "ext.pdf"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Toán tử filetype: dùng để lọc loại tệp.",
       "breakdown": {
         "concept": "Toán tử filetype",
         "steps": "filetype:pdf.",
         "socraticPrompt": "Toán tử tìm file PDF là gì?"
-      }
+      },
+      "socraticPrompt": "Toán tử tìm file PDF là gì?",
+      "distractorReasons": [
+        "Sai vì 'format=pdf' không phù hợp với định lý/quy tắc trọng tâm (Toán tử filetype).",
+        "Đúng vì theo Toán tử filetype: filetype:pdf.",
+        "Sai vì 'type:pdf' không phù hợp với định lý/quy tắc trọng tâm (Toán tử filetype).",
+        "Sai vì 'ext.pdf' không phù hợp với định lý/quy tắc trọng tâm (Toán tử filetype)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Để giới hạn phạm vi tìm kiếm thông tin chỉ trong các website có tên miền `.edu.vn`, ta dùng cú pháp",
       "options": [
-        "site:edu.vn",
-        "in:edu.vn",
         "domain=edu.vn",
+        "in:edu.vn",
+        "site:edu.vn",
         "web:edu.vn"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Toán tử site: giới hạn tìm kiếm trong trang web hoặc tên miền cụ thể.",
       "breakdown": {
         "concept": "Toán tử site:",
         "steps": "site:edu.vn.",
         "socraticPrompt": "Toán tử tìm trong trang giáo dục là gì?"
-      }
+      },
+      "socraticPrompt": "Toán tử tìm trong trang giáo dục là gì?",
+      "distractorReasons": [
+        "Sai vì 'domain=edu.vn' không phù hợp với định lý/quy tắc trọng tâm (Toán tử site:).",
+        "Sai vì 'in:edu.vn' không phù hợp với định lý/quy tắc trọng tâm (Toán tử site:).",
+        "Đúng vì theo Toán tử site:: site:edu.vn.",
+        "Sai vì 'web:edu.vn' không phù hợp với định lý/quy tắc trọng tâm (Toán tử site:)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hiện tượng sử dụng trí tuệ nhân tạo để ghép mặt và làm giả giọng nói của người khác trong video gọi là",
       "options": [
-        "Deepfake",
+        "Podcast",
         "Photoshop",
         "Livestream",
-        "Podcast"
+        "Deepfake"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Khái niệm công nghệ Deepfake.",
       "breakdown": {
         "concept": "Khái niệm Deepfake",
         "steps": "AI làm giả mặt và giọng nói.",
         "socraticPrompt": "Công nghệ ghép mặt giả giọng gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Công nghệ ghép mặt giả giọng gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Podcast' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Deepfake).",
+        "Sai vì 'Photoshop' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Deepfake).",
+        "Sai vì 'Livestream' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Deepfake).",
+        "Đúng vì theo Khái niệm Deepfake: AI làm giả mặt và giọng nói."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Tên miền website nào sau đây thường là nguồn thông tin chính thống đáng tin cậy nhất của cơ quan nhà nước Việt Nam?",
       "options": [
-        ".gov.vn",
         ".xyz",
+        ".gov.vn",
         ".cc",
         ".biz"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Đuôi tên miền .gov.vn dành riêng cho các cơ quan chính phủ Việt Nam.",
       "breakdown": {
         "concept": "Tên miền chính phủ",
         "steps": ".gov.vn.",
         "socraticPrompt": "Tên miền của cơ quan nhà nước có đuôi gì?"
-      }
+      },
+      "socraticPrompt": "Tên miền của cơ quan nhà nước có đuôi gì?",
+      "distractorReasons": [
+        "Sai vì '.xyz' không phù hợp với định lý/quy tắc trọng tâm (Tên miền chính phủ).",
+        "Đúng vì '.gov.vn' phản ánh chuẩn xác kiến thức SGK: Tên miền chính phủ.",
+        "Sai vì '.cc' không phù hợp với định lý/quy tắc trọng tâm (Tên miền chính phủ).",
+        "Sai vì '.biz' không phù hợp với định lý/quy tắc trọng tâm (Tên miền chính phủ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Cách đặt tên file nào sau đây là khoa học và dễ quản lý nhất?",
       "options": [
-        "2026_TinHoc11_DeCuong_v1.docx",
-        "tailieu1.docx",
         "chua_dat_ten(1)(1).docx",
+        "tailieu1.docx",
+        "2026_TinHoc11_DeCuong_v1.docx",
         "aaa.docx"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Đặt tên có thời gian, chủ đề và phiên bản rõ ràng.",
       "breakdown": {
         "concept": "Đặt tên tệp khoa học",
         "steps": "Có ngày tháng, chủ đề, phiên bản.",
         "socraticPrompt": "Cách đặt tên file nào chuẩn nhất?"
-      }
+      },
+      "socraticPrompt": "Cách đặt tên file nào chuẩn nhất?",
+      "distractorReasons": [
+        "Sai vì 'chua_dat_ten(1)(1).docx' không phù hợp với định lý/quy tắc trọng tâm (Đặt tên tệp khoa học).",
+        "Sai vì 'tailieu1.docx' không phù hợp với định lý/quy tắc trọng tâm (Đặt tên tệp khoa học).",
+        "Đúng vì theo Đặt tên tệp khoa học: Có ngày tháng, chủ đề, phiên bản.",
+        "Sai vì 'aaa.docx' không phù hợp với định lý/quy tắc trọng tâm (Đặt tên tệp khoa học)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

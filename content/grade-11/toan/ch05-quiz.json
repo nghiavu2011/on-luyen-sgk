@@ -22,7 +22,16 @@
         "socraticPrompt": "Khi có vài người lương cực cao kéo vọt số trung bình lên, số nào chia đôi nhóm người làm hai nửa chuẩn hơn?",
         "steps": "Trung vị không bị ảnh hưởng bởi các giá trị đột biến (ngoại lai), do đó khi số liệu bị lệch nhiều thì trung vị đại diện tốt hơn số trung bình.",
         "trap": "Theo thói quen chọn 'Số trung bình' mà không chú ý phân bố lệch và giá trị ngoại lai."
-      }
+      },
+      "socraticPrompt": "Khi có vài người lương cực cao kéo vọt số trung bình lên, số nào chia đôi nhóm người làm hai nửa chuẩn hơn?",
+      "distractorReasons": [
+        "Sai vì 'Số trung bình' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Trung vị không bị ảnh hưởng bởi các giá trị đột biến (ngoại lai), do đó khi số liệu bị lệch nhiều thì trung vị đại diện tốt hơn số trung bình.",
+        "Sai vì 'Độ dài nhóm lớn nhất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giá trị lớn nhất' (Theo thói quen chọn 'Số trung bình' mà không chú ý phân bố lệch và giá trị ngoại lai.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c5_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "3n/4 = 3·80/4 = 60. Tần số tích luỹ nhóm 2 là 40, nhóm 3 là 70. Nhóm chứa Q3 là [14; 21). Tính Q3?",
         "steps": "3n/4 = 60. Nhóm chứa Q3 là [14; 21) vì Cf nhóm 2 là 40 < 60, nhóm 3 là 70 ≥ 60. Ta có aq = 14, C = 40, mq = 30, h = 21 - 14 = 7. Q3 = 14 + [(60 - 40)/30] · 7 = 14 + (20/30) · 7 = 14 + 14/3 = 14 + 4,67 = 18,67.",
         "trap": "Nhầm nhóm chứa Q3 là nhóm 4 hoặc tính nhầm 2/3 · 7 = 4."
-      }
+      },
+      "socraticPrompt": "3n/4 = 3·80/4 = 60. Tần số tích luỹ nhóm 2 là 40, nhóm 3 là 70. Nhóm chứa Q3 là [14; 21). Tính Q3?",
+      "distractorReasons": [
+        "Sai vì '14,5' không phù hợp với định lý/quy tắc trọng tâm (Q3 ứng với vị trí 3n/4. Công thức: Q3 = aq + [(3n/4 - C)/mq] · h.).",
+        "Sai vì '18,0' không phù hợp với định lý/quy tắc trọng tâm (Q3 ứng với vị trí 3n/4. Công thức: Q3 = aq + [(3n/4 - C)/mq] · h.).",
+        "Đúng vì: 3n/4 = 60. Nhóm chứa Q3 là [14; 21) vì Cf nhóm 2 là 40 < 60, nhóm 3 là 70 ≥ 60. Ta có aq = 14, C = 40, mq = 30, h = 21 - 14 = 7. Q3 = 14 + [(60 - 40)/30] · 7 = .",
+        "Sai vì '21,0' không phù hợp với định lý/quy tắc trọng tâm (Q3 ứng với vị trí 3n/4. Công thức: Q3 = aq + [(3n/4 - C)/mq] · h.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c5_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Cửa hàng cần nhập cỡ giày mà khách mua NHIỀU NHẤT, đó là khái niệm nào?",
         "steps": "Mốt cho biết giá trị hoặc nhóm giá trị có tần số lớn nhất, tức là cỡ giày được mua nhiều nhất, rất thích hợp cho quyết định nhập hàng.",
         "trap": "Nhầm số trung bình (sẽ ra cỡ giày lẻ thập phân không có thật trên thị trường)."
-      }
+      },
+      "socraticPrompt": "Cửa hàng cần nhập cỡ giày mà khách mua NHIỀU NHẤT, đó là khái niệm nào?",
+      "distractorReasons": [
+        "Đúng vì: Mốt cho biết giá trị hoặc nhóm giá trị có tần số lớn nhất, tức là cỡ giày được mua nhiều nhất, rất thích hợp cho quyết định nhập hàng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Số trung bình' (số trung bình (sẽ ra cỡ giày lẻ thập phân không có thật trên thị trường)).",
+        "Sai vì 'Trung vị' không phù hợp với định lý/quy tắc trọng tâm (Mốt chỉ ra nhóm giá trị có tần số xuất hiện nhiều nhất (nhu cầu mua lớn nhất).).",
+        "Sai vì 'Khoảng tứ phân vị' không phù hợp với định lý/quy tắc trọng tâm (Mốt chỉ ra nhóm giá trị có tần số xuất hiện nhiều nhất (nhu cầu mua lớn nhất).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c5_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Nếu biểu đồ hình chuông đối xứng cân hai bên thì tâm đối xứng có trùng với số trung bình và trung vị không?",
         "steps": "Do tính đối xứng của tần số, trọng tâm của phân bố (số trung bình) trùng với điểm chia đôi số liệu (trung vị). Vì vậy x̄ = Me.",
         "trap": "Nghĩ rằng số trung bình và trung vị luôn khác nhau."
-      }
+      },
+      "socraticPrompt": "Nếu biểu đồ hình chuông đối xứng cân hai bên thì tâm đối xứng có trùng với số trung bình và trung vị không?",
+      "distractorReasons": [
+        "Sai vì 'x̄ > Me' không phù hợp với định lý/quy tắc trọng tâm (Trong phân bố đối xứng hoàn hảo, trục đối xứng đi qua cả số trung bình, trung vị và mốt.).",
+        "Sai vì 'x̄ < Me' không phù hợp với định lý/quy tắc trọng tâm (Trong phân bố đối xứng hoàn hảo, trục đối xứng đi qua cả số trung bình, trung vị và mốt.).",
+        "Đúng vì: Do tính đối xứng của tần số, trọng tâm của phân bố (số trung bình) trùng với điểm chia đôi số liệu (trung vị). Vì vậy x̄ = Me.",
+        "Sai vì phủ định sai bản chất: 'Không so sánh được' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c5_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Tứ phân vị chia mẫu làm 4 phần bằng nhau. Đến Q3 là mấy phần tư?",
         "steps": "Tứ phân vị thứ ba Q3 là giá trị chia tập số liệu sao cho có khoảng 75% (3/4) số liệu nhỏ hơn hoặc bằng Q3.",
         "trap": "Nhầm với Q1 (25%) hoặc trung vị Me (50%)."
-      }
+      },
+      "socraticPrompt": "Tứ phân vị chia mẫu làm 4 phần bằng nhau. Đến Q3 là mấy phần tư?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '25%' (với Q1 (25%) hoặc trung vị Me (50%)).",
+        "Sai vì '50%' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '90%' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tứ phân vị thứ ba Q3 là giá trị chia tập số liệu sao cho có khoảng 75% (3/4) số liệu nhỏ hơn hoặc bằng Q3."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c5_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Tất cả các giá trị đều tăng 5 thì trung bình của chúng tăng thêm bao nhiêu?",
         "steps": "Khi tất cả các số liệu tăng thêm 5 thì giá trị đại diện của các nhóm đều tăng thêm 5. Do đó số trung bình cũng tăng thêm đúng 5 đơn vị.",
         "trap": "Nhầm tính chất của phương sai (phương sai không đổi khi cộng thêm hằng số)."
-      }
+      },
+      "socraticPrompt": "Tất cả các giá trị đều tăng 5 thì trung bình của chúng tăng thêm bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Khi tất cả các số liệu tăng thêm 5 thì giá trị đại diện của các nhóm đều tăng thêm 5. Do đó số trung bình cũng tăng thêm đúng 5 đơn vị.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không đổi' (tính chất của phương sai (phương sai không đổi khi cộng thêm hằng số)).",
+        "Sai vì 'Tăng gấp 5 lần' không phù hợp với định lý/quy tắc trọng tâm (Tính chất tịnh tiến của số trung bình: Nếu yi = xi + c thì ȳ = x̄ + c.).",
+        "Sai vì 'Tăng thêm 25 đơn vị' không phù hợp với định lý/quy tắc trọng tâm (Tính chất tịnh tiến của số trung bình: Nếu yi = xi + c thì ȳ = x̄ + c.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

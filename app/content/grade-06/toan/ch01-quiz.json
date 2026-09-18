@@ -1,118 +1,210 @@
 {
   "chapterId": "ch01",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 3: Đề Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp Số học, Hình học và Ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kiến thức trọng tâm nhất của Chương 1: Tập hợp các số tự nhiên được phát biểu chính xác là:",
-      "options": [
-        "Quy tắc và định lý cơ bản của Chương 1: Tập hợp các số tự nhiên theo đúng chương trình chuẩn BGDĐT",
-        "Mọi phân số đều có tử số bằng mẫu số",
-        "Số 0 là số nguyên dương nhỏ nhất",
-        "Hình thang cân có hai cạnh đáy bằng nhau"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Kiến thức chuẩn của Chương 1: Tập hợp các số tự nhiên.",
-        "steps": "Học sinh nhận biết chính xác định nghĩa và tiên đề toán học.",
-        "trap": "Số 0 không phải số nguyên dương cũng không phải số nguyên âm."
-      }
-    },
-    {
-      "id": "q02",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Biểu thức toán học nào sau đây được tính toán chính xác?",
-      "options": [
-        "Biểu thức tuân thủ đúng quy tắc thứ tự phép tính và tính chất giao hoán, kết hợp",
-        "$2^3 = 6$ (lấy 2 nhân 3)",
-        "$(-5) + (-3) = +8$",
-        "$\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Các lỗi sai kinh điển trong số học lớp 6.",
-        "steps": "2^3 = 2*2*2 = 8 (không phải 6); (-5)+(-3) = -8; 1/2 + 1/3 = 5/6 (phải quy đồng mẫu).",
-        "trap": "Lỗi cộng tử với tử, mẫu với mẫu là lỗi bẫy rất phổ biến ở phân số."
-      }
-    },
-    {
-      "id": "q03",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "question": "Một mảnh vườn hình chữ nhật có chiều dài $a$ và chiều rộng $b$. Chu vi $P$ và diện tích $S$ được tính bởi công thức:",
-      "options": [
-        "$P = (a + b) \\cdot 2$ và $S = a \\cdot b$",
-        "$P = a \\cdot b$ và $S = (a + b) \\cdot 2$",
-        "$P = a + b$ và $S = a^2$",
-        "$P = 4a$ và $S = b^2$"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Công thức chu vi và diện tích hình chữ nhật.",
-        "steps": "Chu vi = (dài + rộng) * 2; Diện tích = dài * rộng.",
-        "trap": "Nhầm lẫn giữa công thức chu vi và diện tích."
-      }
-    },
-    {
-      "id": "q04",
+      "id": "t6_c1_d3_01",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Một người nông dân trồng rau trên mảnh đất hình chữ nhật dài 20m, rộng 10m. Biết cứ mỗi mét vuông thu hoạch được 3kg rau. Tổng số kilôgam rau thu được là:",
+      "topic": "Toán thực tế - Mua sắm dụng cụ học tập",
+      "question": "Bạn An vào nhà sách mua 5 quyển vở giá 12.000 đồng/quyển và 3 cây bút bi giá 6.000 đồng/cây. An đưa cho thu ngân tờ tiền 100.000 đồng. Số tiền thừa An nhận lại là:",
       "options": [
-        "600 kg rau",
-        "180 kg rau",
-        "300 kg rau",
-        "1200 kg rau"
+        "18.000 đồng",
+        "78.000 đồng",
+        "22.000 đồng",
+        "28.000 đồng"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Toán thực tế tính diện tích và năng suất cây trồng.",
-        "steps": "Bước 1: Tính diện tích S = 20 * 10 = 200 m2. Bước 2: Nhân với năng suất: 200 * 3 = 600 kg.",
-        "trap": "Lấy chu vi 60m đem nhân 3 ra 180kg (nhầm chu vi với diện tích).",
-        "calculation": "Diện tích = $20 \\cdot 10 = 200\\text{ m}^2$; Sản lượng = $200 \\cdot 3 = 600\\text{ kg}$"
-      }
+        "concept": "Toán thực tế: Số tiền thừa = Số tiền trả - Tổng số tiền mua hàng.",
+        "steps": [
+          "Bước 1: Tiền mua 5 quyển vở: 5 × 12.000 = 60.000 đồng.",
+          "Bước 2: Tiền mua 3 cây bút: 3 × 6.000 = 18.000 đồng.",
+          "Bước 3: Tổng tiền mua hàng: 60.000 + 18.000 = 78.000 đồng.",
+          "Bước 4: Tiền thừa An nhận lại: 100.000 - 78.000 = 22.000 đồng."
+        ],
+        "trap": "Học sinh dừng lại ở tổng tiền mua 78.000 đồng mà quên bước trừ đi để tìm tiền thừa, hoặc tính nhẩm 100 - 78 = 18.",
+        "socraticPrompt": "An đã mua hết tổng cộng bao nhiêu tiền cho vở và bút? Lấy 100.000 trừ số tiền đó thì còn lại bao nhiêu?"
+      },
+      "socraticPrompt": "An đã mua hết tổng cộng bao nhiêu tiền cho vở và bút? Lấy 100.000 trừ số tiền đó thì còn lại bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì nhẩm 100.000 - 78.000 = 18.000 do quên nhớ 1 ở hàng chục.",
+        "Sai vì 78.000 đồng là tổng số tiền phải trả, không phải số tiền thừa được thối lại.",
+        "Đúng vì tổng chi phí là 5 × 12.000 + 3 × 6.000 = 78.000 đồng, tiền thừa là 100.000 - 78.000 = 22.000 đồng.",
+        "Sai vì tính sai tổng tiền mua hàng (nhầm 3 × 6.000 = 12.000)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "q05",
+      "id": "t6_c1_d3_02",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-3 \\le x < 2$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "topic": "So sánh hai lũy thừa khác cơ số và số mũ",
+      "question": "So sánh hai lũy thừa 2^30 và 3^20, khẳng định nào sau đây là ĐÚNG?",
       "options": [
-        "$-5$",
-        "$-3$",
-        "$0$",
-        "$-6$"
+        "2^30 > 3^20 vì cơ số 2 có số mũ 30 lớn hơn",
+        "2^30 = 3^20",
+        "Không thể so sánh được vì khác cả cơ số lẫn số mũ",
+        "2^30 < 3^20 vì 8^10 < 9^10"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tìm x trên tập hợp số nguyên Z và tính tổng dãy số nguyên.",
-        "steps": "Liệt kê các số nguyên: x ∈ {-3; -2; -1; 0; 1} (chú ý x < 2 nên không lấy số 2). Tính tổng: (-3)+(-2)+(-1)+0+1 = -5.",
-        "trap": "Lấy nhầm cả số 2 dẫn đến kết quả sai thành -3.",
-        "calculation": "các số thỏa mãn là $-3, -2, -1, 0, 1$; tổng $= -3 - 2 - 1 + 0 + 1 = -5$"
-      }
+        "concept": "Đưa về cùng số mũ: 2^30 = (2^3)^10 và 3^20 = (3^2)^10.",
+        "steps": [
+          "Bước 1: Ta có 30 = 3 × 10 nên 2^30 = (2^3)^10 = 8^10.",
+          "Bước 2: Ta có 20 = 2 × 10 nên 3^20 = (3^2)^10 = 9^10.",
+          "Bước 3: Vì 8 < 9 nên 8^10 < 9^10, do đó 2^30 < 3^20."
+        ],
+        "trap": "Chỉ nhìn số mũ 30 > 20 mà vội kết luận 2^30 lớn hơn, bỏ qua ảnh hưởng của cơ số.",
+        "socraticPrompt": "Số 30 và 20 cùng chia hết cho 10. Hãy đưa 2^30 về lũy thừa có số mũ 10 (2^3)^10 và 3^20 về (3^2)^10. Lúc này 8^10 và 9^10 số nào lớn hơn?"
+      },
+      "socraticPrompt": "Số 30 và 20 cùng chia hết cho 10. Hãy đưa 2^30 về lũy thừa có số mũ 10 (2^3)^10 và 3^20 về (3^2)^10. Lúc này 8^10 và 9^10 số nào lớn hơn?",
+      "distractorReasons": [
+        "Sai vì ngụy biện chỉ nhìn vào số mũ mà quên cơ số 2 bé hơn cơ số 3.",
+        "Sai vì hai giá trị này hoàn toàn khác nhau (8^10 ≠ 9^10).",
+        "Sai vì có phương pháp toán học đưa về cùng cơ số hoặc cùng số mũ để so sánh.",
+        "Đúng vì đưa về cùng số mũ 10: 2^30 = (2^3)^10 = 8^10 và 3^20 = (3^2)^10 = 9^10; do 8 < 9 nên 8^10 < 9^10, vậy 2^30 < 3^20."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c1_d3_03",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "question": "★ Bạn Nam gieo một con xúc xắc 6 mặt 50 lần và ghi lại số lần xuất hiện mặt 6 chấm là 12 lần. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 6 chấm' là:",
+      "topic": "Toán thực tế - Xếp xe chở học sinh",
+      "question": "Một trường THCS có 315 học sinh khối 6 đi tham quan dã ngoại. Nhà trường thuê loại xe ô tô 45 chỗ ngồi. Hỏi cần ít nhất bao nhiêu xe ô tô loại đó để chở hết số học sinh?",
       "options": [
-        "$\\frac{12}{50} = \\frac{6}{25} = 24\\%$",
-        "$\\frac{1}{6}$",
-        "$\\frac{12}{6} = 2$",
-        "$\\frac{50}{12}$"
+        "7 xe",
+        "6 xe",
+        "8 xe",
+        "9 xe"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Ứng dụng phép chia có dư trong bài toán thực tế: nếu phép chia có dư thì phải cộng thêm 1 xe để chở hết học sinh dư ra.",
+        "steps": [
+          "Bước 1: Thực hiện phép chia 315 cho 45.",
+          "Bước 2: 315 : 45 = 7 (dư 0).",
+          "Bước 3: Vì phép chia hết nên cần đúng 7 xe ô tô."
+        ],
+        "trap": "Học sinh nhớ máy móc quy tắc 'lấy thương cộng 1' ngay cả khi phép chia hết (chia ra 7 lại chọn 8).",
+        "socraticPrompt": "315 chia cho 45 được kết quả bằng bao nhiêu? Có dư hay chia hết?"
+      },
+      "socraticPrompt": "315 chia cho 45 được kết quả bằng bao nhiêu? Có dư hay chia hết?",
+      "distractorReasons": [
+        "Đúng vì 315 : 45 = 7 xe vừa vặn đủ chở toàn bộ học sinh không thừa không thiếu.",
+        "Sai vì 6 xe chỉ chở được 6 × 45 = 270 học sinh (thiếu 45 em).",
+        "Sai vì áp dụng máy móc quy tắc làm tròn lên khi phép chia đã chia hết (315 : 45 = 7 dư 0).",
+        "Sai vì tính sai thương của phép chia."
       ],
       "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c1_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm chữ số tận cùng của lũy thừa",
+      "question": "Chữ số tận cùng của biểu thức A = 2 + 2^2 + 2^3 + 2^4 + ... + 2^20 là:",
+      "options": [
+        "2",
+        "0",
+        "4",
+        "6"
+      ],
+      "correct": 1,
       "breakdown": {
-        "concept": "Khái niệm xác suất thực nghiệm của một biến cố.",
-        "steps": "Xác suất thực nghiệm = (Số lần xuất hiện sự kiện) / (Tổng số lần thử) = 12 / 50 = 24%.",
-        "trap": "Nhầm xác suất thực nghiệm với xác suất lý thuyết (1/6) của xúc xắc cân đối."
-      }
+        "concept": "Nhóm các số hạng theo chu kỳ 4 số hạng: 2^1 + 2^2 + 2^3 + 2^4 = 2 + 4 + 8 + 16 = 30 có tận cùng là 0.",
+        "steps": [
+          "Bước 1: Biểu thức có 20 số hạng. Chia thành 5 nhóm, mỗi nhóm có 4 số hạng liên tiếp.",
+          "Bước 2: Xét nhóm đầu: 2 + 2^2 + 2^3 + 2^4 = 2 + 4 + 8 + 16 = 30 (tận cùng là 0).",
+          "Bước 3: Nhóm thứ hai: 2^5 + 2^6 + 2^7 + 2^8 = 2^4 × (2 + 2^2 + 2^3 + 2^4) = 16 × 30 cũng có tận cùng là 0.",
+          "Bước 4: Tương tự, cả 5 nhóm đều có tận cùng là 0 nên tổng A có chữ số tận cùng là 0."
+        ],
+        "trap": "Cộng vội chữ số tận cùng của từng lũy thừa đơn lẻ mà không nhóm theo bội của 10.",
+        "socraticPrompt": "Tính tổng 4 số đầu: 2 + 4 + 8 + 16 = 30. Số 30 có tận cùng là mấy? 20 số hạng chia đều cho các nhóm 4 số thì tổng các nhóm có tận cùng là mấy?"
+      },
+      "socraticPrompt": "Tính tổng 4 số đầu: 2 + 4 + 8 + 16 = 30. Số 30 có tận cùng là mấy? 20 số hạng chia đều cho các nhóm 4 số thì tổng các nhóm có tận cùng là mấy?",
+      "distractorReasons": [
+        "Sai vì chỉ xét số hạng đầu tiên 2^1 = 2.",
+        "Đúng vì mỗi nhóm 4 số hạng liên tiếp luôn có tổng chia hết cho 10 (tận cùng là 0), 20 số hạng chia hết cho 4 nên tận cùng là 0.",
+        "Sai vì nhầm lẫn với chu kỳ số tận cùng của lũy thừa đơn lẻ.",
+        "Sai vì tính nhầm tổng 2 + 4 + 8 + 16 = 36."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c1_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm số tự nhiên thỏa mãn tính chất chia hết và lũy thừa",
+      "question": "Có bao nhiêu số tự nhiên n thỏa mãn: 16 < 2^n ≤ 128?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Đưa các số về cùng cơ số 2: 16 = 2^4 và 128 = 2^7.",
+        "steps": [
+          "Bước 1: Ta có 16 = 2^4 và 128 = 2^7.",
+          "Bước 2: Bất đẳng thức trở thành: 2^4 < 2^n ≤ 2^7.",
+          "Bước 3: Suy ra: 4 < n ≤ 7.",
+          "Bước 4: Vì n là số tự nhiên nên n ∈ {5; 6; 7}. Có tất cả 3 giá trị n thỏa mãn."
+        ],
+        "trap": "Đếm cả số 4 (do nhầm dấu < thành ≤) chọn 4 số, hoặc quên số 7 chọn 2 số.",
+        "socraticPrompt": "16 là 2 mũ mấy? 128 là 2 mũ mấy? Từ 2^4 < 2^n ≤ 2^7 ta suy ra n nhận các giá trị tự nhiên nào?"
+      },
+      "socraticPrompt": "16 là 2 mũ mấy? 128 là 2 mũ mấy? Từ 2^4 < 2^n ≤ 2^7 ta suy ra n nhận các giá trị tự nhiên nào?",
+      "distractorReasons": [
+        "Đúng vì 16 = 2^4 < 2^n ≤ 2^7 = 128 ⇒ 4 < n ≤ 7 ⇒ n ∈ {5; 6; 7}, có 3 số thỏa mãn.",
+        "Sai vì bỏ sót n = 7 (điều kiện là ≤ 128 nên 2^7 vẫn thỏa mãn).",
+        "Sai vì đếm thừa n = 4 (điều kiện là 16 < 2^n ngặt nghèo nên n = 4 không thỏa mãn).",
+        "Sai vì tính sai lũy thừa của 2."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c1_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Tính tiền điện theo bậc thang lũy tiến",
+      "question": "Một gia đình dùng hết 80 kWh điện trong tháng. Biết giá điện bậc 1 (từ 0 đến 50 kWh) là 1.800 đ/kWh, bậc 2 (từ 51 đến 100 kWh) là 2.000 đ/kWh. Số tiền điện gia đình phải trả (chưa tính thuế) là:",
+      "options": [
+        "160.000 đồng",
+        "144.000 đồng",
+        "170.000 đồng",
+        "150.000 đồng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính tiền theo giá điện bậc thang: Tách lượng điện tiêu thụ theo từng khoảng định mức rồi nhân đơn giá tương ứng.",
+        "steps": [
+          "Bước 1: 50 kWh đầu tính theo bậc 1: 50 × 1.800 = 90.000 đồng.",
+          "Bước 2: Lượng điện vượt bậc 1 là: 80 - 50 = 30 kWh, tính theo bậc 2: 30 × 2.000 = 60.000 đồng.",
+          "Bước 3: Tổng tiền điện: 90.000 + 60.000 = 150.000 đồng."
+        ],
+        "trap": "Tính cào bằng 80 × 2.000 = 160.000 đồng hoặc 80 × 1.800 = 144.000 đồng.",
+        "socraticPrompt": "80 kWh gồm 50 kWh đầu tính giá 1.800 và 30 kWh sau tính giá 2.000. Tổng tiền là bao nhiêu?"
+      },
+      "socraticPrompt": "80 kWh gồm 50 kWh đầu tính giá 1.800 và 30 kWh sau tính giá 2.000. Tổng tiền là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính cào bằng tất cả 80 kWh theo giá bậc 2 (80 × 2.000 = 160.000 đ).",
+        "Sai vì tính cào bằng tất cả 80 kWh theo giá bậc 1 (80 × 1.800 = 144.000 đ).",
+        "Sai vì tính sai số kWh bậc 2.",
+        "Đúng vì 50 kWh đầu tính giá 1.800 đ (90.000 đ) cộng với 30 kWh sau tính giá 2.000 đ (60.000 đ) tổng cộng bằng 150.000 đồng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

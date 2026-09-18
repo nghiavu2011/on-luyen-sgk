@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm truyền thống gia đình, dòng họ (Bài 1, SGK GDCD 6, trang 6).",
         "steps": "Truyền thống gia đình, dòng họ là những giá trị vật chất và tinh thần tốt đẹp được tích lũy và trao truyền qua nhiều thế hệ.",
-        "trap": "Nhầm truyền thống với tài sản vật chất đơn thuần như tiền bạc, đất đai."
+        "trap": "Nhầm truyền thống với tài sản vật chất đơn thuần như tiền bạc, đất đai.",
+        "socraticPrompt": "Những điều tốt đẹp như lòng hiếu thảo, tinh thần hiếu học được ông bà truyền lại cho con cháu được gọi là gì?"
       },
       "socraticPrompt": "Những điều tốt đẹp như lòng hiếu thảo, tinh thần hiếu học được ông bà truyền lại cho con cháu được gọi là gì?",
       "distractorReasons": [
-        "Chính xác theo định nghĩa chuẩn SGK GDCD 6 trang 6.",
-        "Sai, tiền bạc đất đai là tài sản thừa kế vật chất, không phải truyền thống văn hóa.",
-        "Sai, quy định xử phạt là quy phạm pháp luật của Nhà nước.",
-        "Sai, thói quen tùy tiện cá nhân không tạo nên truyền thống tốt đẹp."
-      ]
+        "Đúng vì định nghĩa chuẩn SGK GDCD 6 trang 6.",
+        "Sai vì tiền bạc đất đai là tài sản thừa kế vật chất, không phải truyền thống văn hóa.",
+        "Sai vì quy định xử phạt là quy phạm pháp luật của Nhà nước.",
+        "Sai vì thói quen tùy tiện cá nhân không tạo nên truyền thống tốt đẹp."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch01_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Phân biệt truyền thống tốt đẹp và hủ tục lạc hậu (Bài 1, SGK GDCD 6, trang 6-8).",
         "steps": "Thách cưới, mê tín dị đoan là hủ tục lạc hậu cần xóa bỏ, không phải là truyền thống tốt đẹp cần tự hào và gìn giữ.",
-        "trap": "Đọc lướt không chú ý cụm từ 'KHÔNG PHẢI'."
+        "trap": "Đọc lướt không chú ý cụm từ 'KHÔNG PHẢI'.",
+        "socraticPrompt": "Mê tín dị đoan và thách cưới có làm cho cuộc sống gia đình hạnh phúc hơn hay gây thêm gánh nặng khổ sở?"
       },
       "socraticPrompt": "Mê tín dị đoan và thách cưới có làm cho cuộc sống gia đình hạnh phúc hơn hay gây thêm gánh nặng khổ sở?",
       "distractorReasons": [
         "Sai vì đây là truyền thống tốt đẹp tiêu biểu của dân tộc.",
-        "Chính xác, đây là hủ tục lạc hậu cản trở sự tiến bộ xã hội cần bài trừ.",
+        "Đúng vì đây là hủ tục lạc hậu cản trở sự tiến bộ xã hội cần bài trừ.",
         "Sai vì đây là truyền thống đạo đức lao động quý báu.",
         "Sai vì đây là truyền thống thiêng liêng dựng nước và giữ nước."
-      ]
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch01_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Ý nghĩa của truyền thống gia đình (Bài 1, SGK GDCD 6, trang 7).",
         "steps": "Truyền thống là điểm tựa tinh thần, tiếp thêm nghị lực và chỉ dẫn bài học đạo đức cho con cháu hoàn thiện bản thân.",
-        "trap": "Nghĩ truyền thống dùng để tự cao hoặc ỷ lại không chịu phấn đấu."
+        "trap": "Nghĩ truyền thống dùng để tự cao hoặc ỷ lại không chịu phấn đấu.",
+        "socraticPrompt": "Khi biết ông cha mình từng vượt khó học giỏi, em có cảm thấy được tiếp thêm sức mạnh để cố gắng học tốt hơn không?"
       },
       "socraticPrompt": "Khi biết ông cha mình từng vượt khó học giỏi, em có cảm thấy được tiếp thêm sức mạnh để cố gắng học tốt hơn không?",
       "distractorReasons": [
-        "Sai, tự cao tự đại là thói hư tật xấu trái ngược với đạo lý.",
-        "Sai, không thể sống dựa dẫm ỷ lại vào danh tiếng quá khứ.",
-        "Chính xác, truyền thống là động lực tinh thần to lớn cho thế hệ trẻ.",
-        "Sai, đòi hỏi đặc quyền là biểu hiện tiêu cực bất bình đẳng."
-      ]
+        "Sai vì tự cao tự đại là thói hư tật xấu trái ngược với đạo lý.",
+        "Sai vì không thể sống dựa dẫm ỷ lại vào danh tiếng quá khứ.",
+        "Đúng vì truyền thống là động lực tinh thần to lớn cho thế hệ trẻ.",
+        "Sai vì đòi hỏi đặc quyền là biểu hiện tiêu cực bất bình đẳng."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch01_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Tiếp nối nghề truyền thống gia đình (Bài 1, SGK GDCD 6, trang 9).",
         "steps": "Chủ động học nghề gia truyền là hành động cụ thể, đáng khen ngợi thể hiện lòng biết ơn và ý thức bảo tồn nét đẹp văn hóa truyền thống.",
-        "trap": "Coi thường các nghề thủ công truyền thống là lạc hậu."
+        "trap": "Coi thường các nghề thủ công truyền thống là lạc hậu.",
+        "socraticPrompt": "Những món đồ chơi Trung thu thủ công lưu giữ nét đẹp tuổi thơ dân tộc, việc Hải học làm đèn thể hiện tình cảm gì với gia đình?"
       },
       "socraticPrompt": "Những món đồ chơi Trung thu thủ công lưu giữ nét đẹp tuổi thơ dân tộc, việc Hải học làm đèn thể hiện tình cảm gì với gia đình?",
       "distractorReasons": [
-        "Sai, nghề thủ công truyền thống là di sản văn hóa quý giá của đất nước.",
-        "Sai, làm nghề truyền thống trong thời gian rảnh rỗi bổ trợ cho việc giáo dục toàn diện.",
-        "Sai, đây là sự tham gia tự nguyện, say mê của bạn Hải.",
-        "Chính xác, hành vi đáng trân trọng của người con có hiếu và có ý thức giữ gìn nghề tổ tiên."
-      ]
+        "Sai vì nghề thủ công truyền thống là di sản văn hóa quý giá của đất nước.",
+        "Sai vì làm nghề truyền thống trong thời gian rảnh rỗi bổ trợ cho việc giáo dục toàn diện.",
+        "Sai vì đây là sự tham gia tự nguyện, say mê của bạn Hải.",
+        "Đúng vì hành vi đáng trân trọng của người con có hiếu và có ý thức giữ gìn nghề tổ tiên."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch01_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Biểu hiện tự hào về truyền thống (Bài 1, SGK GDCD 6, trang 7-8).",
         "steps": "Tự hào chân chính xuất phát từ lòng hiếu kính, sự chăm ngoan, sống trung thực và trân quý lao động chân chính của cha mẹ.",
-        "trap": "Nhầm sự tự hào với thói đua đòi vật chất xa xỉ hoặc mặc cảm về gia cảnh."
+        "trap": "Nhầm sự tự hào với thói đua đòi vật chất xa xỉ hoặc mặc cảm về gia cảnh.",
+        "socraticPrompt": "Dù bố mẹ làm nghề nông dân hay công nhân quét rác, nếu đồng tiền kiếm được bằng mồ hôi chân chính thì em có đáng tự hào không?"
       },
       "socraticPrompt": "Dù bố mẹ làm nghề nông dân hay công nhân quét rác, nếu đồng tiền kiếm được bằng mồ hôi chân chính thì em có đáng tự hào không?",
       "distractorReasons": [
-        "Chính xác, đây là phẩm chất đạo đức chuẩn mực của người học sinh hiếu nghĩa.",
-        "Sai, mặc cảm xấu hổ là nhận thức chưa đúng về giá trị của lao động chân chính.",
-        "Sai, tiếp thu thói xấu là hủy hoại thanh danh gia đình.",
-        "Sai, đua đòi lãng phí làm khổ cha mẹ nghèo khó."
-      ]
+        "Đúng vì đây là phẩm chất đạo đức chuẩn mực của người học sinh hiếu nghĩa.",
+        "Sai vì mặc cảm xấu hổ là nhận thức chưa đúng về giá trị của lao động chân chính.",
+        "Sai vì tiếp thu thói xấu là hủy hoại thanh danh gia đình.",
+        "Sai vì đua đòi lãng phí làm khổ cha mẹ nghèo khó."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch01_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Tôn trọng sự đa dạng truyền thống (Bài 1, SGK GDCD 6, trang 8).",
         "steps": "Mỗi gia đình dòng họ đều có nét đẹp riêng. Tôn trọng truyền thống của người khác là biểu hiện của người có văn hóa và lòng nhân ái.",
-        "trap": "Thói đố kỵ hoặc so đo gia thế giàu nghèo, chức vụ."
+        "trap": "Thói đố kỵ hoặc so đo gia thế giàu nghèo, chức vụ.",
+        "socraticPrompt": "Em muốn các bạn lắng nghe về gia đình mình với thái độ như thế nào?"
       },
       "socraticPrompt": "Em muốn các bạn lắng nghe về gia đình mình với thái độ như thế nào?",
       "distractorReasons": [
-        "Sai, hành vi hẹp hòi, vô lễ và làm tổn thương lòng tự trọng của bạn.",
-        "Chính xác, tôn trọng bạn bè và trân trọng mọi giá trị lao động tốt đẹp trong xã hội.",
-        "Sai, đố kỵ và bôi nhọ là thói hư tật xấu làm xấu đi nhân cách.",
-        "Sai, thái độ thờ ơ làm rạn nứt tình cảm bạn bè tập thể."
-      ]
+        "Sai vì hành vi hẹp hòi, vô lễ và làm tổn thương lòng tự trọng của bạn.",
+        "Đúng vì tôn trọng bạn bè và trân trọng mọi giá trị lao động tốt đẹp trong xã hội.",
+        "Sai vì đố kỵ và bôi nhọ là thói hư tật xấu làm xấu đi nhân cách.",
+        "Sai vì thái độ thờ ơ làm rạn nứt tình cảm bạn bè tập thể."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

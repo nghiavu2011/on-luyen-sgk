@@ -22,7 +22,16 @@
         "socraticPrompt": "Số hạng thứ hai bằng số hạng đầu cộng với công sai nào?",
         "steps": "Ta có: u2 = u1 + d = 5 + 3 = 8.",
         "trap": "Nhầm phép cộng sang phép nhân lấy 5 · 3 = 15 của cấp số nhân."
-      }
+      },
+      "socraticPrompt": "Số hạng thứ hai bằng số hạng đầu cộng với công sai nào?",
+      "distractorReasons": [
+        "Sai vì '15' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa cấp số cộng: u2 = u1 + d.).",
+        "Đúng vì theo Định nghĩa cấp số cộng: u2 = u1 + d.: Ta có: u2 = u1 + d = 5 + 3 = 8.",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa cấp số cộng: u2 = u1 + d.).",
+        "Sai vì '-2' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa cấp số cộng: u2 = u1 + d.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c2_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lấy số hạng sau chia cho số hạng đứng trước thì được công bội q bằng bao nhiêu?",
         "steps": "Ta có q = u2 / u1 = (-6) / 3 = -2.",
         "trap": "Quên dấu âm dẫn đến chọn sai q = 2."
-      }
+      },
+      "socraticPrompt": "Lấy số hạng sau chia cho số hạng đứng trước thì được công bội q bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì theo Công thức tính công bội cấp số nhân: q = u2 / u1.: Ta có q = u2 / u1 = (-6) / 3 = -2.",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính công bội cấp số nhân: q = u2 / u1.).",
+        "Sai vì '-9' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính công bội cấp số nhân: q = u2 / u1.).",
+        "Sai vì '-3' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính công bội cấp số nhân: q = u2 / u1.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Khoảng cách từ u1 đến un có bao nhiêu khoảng cách công sai d?",
         "steps": "Theo SGK Toán 11 KNTT, số hạng thứ n của cấp số cộng là un = u1 + (n - 1)d.",
         "trap": "Nhầm un = u1 + nd (thừa 1 lần d)."
-      }
+      },
+      "socraticPrompt": "Khoảng cách từ u1 đến un có bao nhiêu khoảng cách công sai d?",
+      "distractorReasons": [
+        "Sai vì 'un = u1 + nd' không phù hợp với định lý/quy tắc trọng tâm (Số hạng tổng quát của cấp số cộng: un = u1 + (n - 1)d với n ≥ 2.).",
+        "Sai vì 'un = u1 · d^(n-1)' không phù hợp với định lý/quy tắc trọng tâm (Số hạng tổng quát của cấp số cộng: un = u1 + (n - 1)d với n ≥ 2.).",
+        "Đúng vì: Theo SGK Toán 11 KNTT, số hạng thứ n của cấp số cộng là un = u1 + (n - 1)d.",
+        "Sai vì 'un = u1 - (n - 1)d' không phù hợp với định lý/quy tắc trọng tâm (Số hạng tổng quát của cấp số cộng: un = u1 + (n - 1)d với n ≥ 2.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c2_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Khi n tăng dần 1, 2, 3... thì hàm bậc nhất nào có giá trị luôn tăng?",
         "steps": "Với un = 3n + 1, ta có un+1 - un = [3(n+1) + 1] - (3n + 1) = 3 > 0. Vậy dãy tăng.",
         "trap": "Dãy 1/n là dãy giảm dần về 0; dãy 5 - 2n có d = -2 là dãy giảm."
-      }
+      },
+      "socraticPrompt": "Khi n tăng dần 1, 2, 3... thì hàm bậc nhất nào có giá trị luôn tăng?",
+      "distractorReasons": [
+        "Sai vì 'un = (-1)^n' không phù hợp với định lý/quy tắc trọng tâm (Dãy số tăng là dãy có un+1 > un với mọi n ∈ N*.).",
+        "Sai vì 'un = 1 / n' không phù hợp với định lý/quy tắc trọng tâm (Dãy số tăng là dãy có un+1 > un với mọi n ∈ N*.).",
+        "Sai vì 'un = 5 - 2n' không phù hợp với định lý/quy tắc trọng tâm (Dãy số tăng là dãy có un+1 > un với mọi n ∈ N*.).",
+        "Đúng vì theo Dãy số tăng là dãy có un+1 > un với mọi n ∈ N*.: Với un = 3n + 1, ta có un+1 - un = [3(n+1) + 1] - (3n + 1) = 3 > 0. Vậy dãy tăng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c2_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "u4 thì số mũ của công bội q là 4 - 1 = 3 hay là 4?",
         "steps": "u4 = u1 · q^(4-1) = 2 · 3^3 = 2 · 27 = 54.",
         "trap": "Nhầm u4 = 2 · 3^4 = 162 do lấy nhầm số mũ n thay vì n - 1."
-      }
+      },
+      "socraticPrompt": "u4 thì số mũ của công bội q là 4 - 1 = 3 hay là 4?",
+      "distractorReasons": [
+        "Đúng vì theo Số hạng tổng quát của cấp số nhân: un = u1 · q^(n-1).: u4 = u1 · q^(4-1) = 2 · 3^3 = 2 · 27 = 54.",
+        "Sai vì '24' không phù hợp với định lý/quy tắc trọng tâm (Số hạng tổng quát của cấp số nhân: un = u1 · q^(n-1).).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '162' (u4 = 2 · 3^4 = 162 do lấy nhầm số mũ n thay vì n - 1).",
+        "Sai vì '18' không phù hợp với định lý/quy tắc trọng tâm (Số hạng tổng quát của cấp số nhân: un = u1 · q^(n-1).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Giá trị của hàm sin luôn dao động trong khoảng giới hạn nào?",
         "steps": "Với mọi số tự nhiên n, ta luôn có -1 ≤ sin(n·π/2) ≤ 1. Do đó -1 ≤ un ≤ 1, dãy số bị chặn.",
         "trap": "Nghĩ rằng dãy sin dao động thì không bị chặn."
-      }
+      },
+      "socraticPrompt": "Giá trị của hàm sin luôn dao động trong khoảng giới hạn nào?",
+      "distractorReasons": [
+        "Sai vì '0 và 1' không phù hợp với định lý/quy tắc trọng tâm (Hàm số sin x luôn nhận giá trị trong đoạn [-1; 1] với mọi cung số thực x.).",
+        "Đúng vì: Với mọi số tự nhiên n, ta luôn có -1 ≤ sin(n·π/2) ≤ 1. Do đó -1 ≤ un ≤ 1, dãy số bị chặn.",
+        "Sai vì '-2 và 2' không phù hợp với định lý/quy tắc trọng tâm (Hàm số sin x luôn nhận giá trị trong đoạn [-1; 1] với mọi cung số thực x.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không bị chặn' (Nghĩ rằng dãy sin dao động thì không bị chặn.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

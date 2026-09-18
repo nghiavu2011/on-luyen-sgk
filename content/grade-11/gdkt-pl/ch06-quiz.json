@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Thông điệp sâu sắc: 'Hạnh phúc đích thực không nằm ở số lượng đồ đạc bạn sở hữu, mà ở chiều sâu tâm hồn và sự tự do bên trong' định hướng",
       "options": [
-        "Lối sống tối giản (Minimalism) và văn hóa tiêu dùng tỉnh thức, nhân văn",
-        "Sự nghèo đói cùng cực",
         "Cấm đoán mọi nhu cầu mua sắm",
+        "Sự nghèo đói cùng cực",
+        "Lối sống tối giản (Minimalism) và văn hóa tiêu dùng tỉnh thức, nhân văn",
         "Sự lập dị xa lánh xã hội"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Lối sống tỉnh thức giải phóng con người khỏi chủ nghĩa tiêu dùng vật chất mù quáng.",
       "breakdown": {
         "concept": "Lối sống tối giản tỉnh thức",
         "steps": "Hạnh phúc từ tâm hồn, tiêu dùng có ý thức.",
         "socraticPrompt": "Lối sống tối giản (Minimalism) mang lại điều gì?"
-      }
+      },
+      "socraticPrompt": "Lối sống tối giản (Minimalism) mang lại điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Cấm đoán mọi nhu cầu mua sắm' không phù hợp với định lý/quy tắc trọng tâm (Lối sống tối giản tỉnh thức).",
+        "Sai vì 'Sự nghèo đói cùng cực' không phù hợp với định lý/quy tắc trọng tâm (Lối sống tối giản tỉnh thức).",
+        "Đúng vì theo Lối sống tối giản tỉnh thức: Hạnh phúc từ tâm hồn, tiêu dùng có ý thức.",
+        "Sai vì 'Sự lập dị xa lánh xã hội' không phù hợp với định lý/quy tắc trọng tâm (Lối sống tối giản tỉnh thức)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Quyền lực của Người tiêu dùng (Consumer Power) trong việc thúc đẩy doanh nghiệp bảo vệ môi trường thể hiện qua",
       "options": [
-        "Lựa chọn tẩy chay các sản phẩm gây ô nhiễm và chỉ ủng hộ các thương hiệu sản xuất xanh",
+        "Chỉ mua hàng rẻ trôi nổi",
         "Không mua bất kỳ hàng hóa nào",
         "Đập phá siêu thị",
-        "Chỉ mua hàng rẻ trôi nổi"
+        "Lựa chọn tẩy chay các sản phẩm gây ô nhiễm và chỉ ủng hộ các thương hiệu sản xuất xanh"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Lá phiếu mua sắm của người tiêu dùng quyết định sự tồn vong của doanh nghiệp xanh.",
       "breakdown": {
         "concept": "Quyền lực người tiêu dùng",
         "steps": "Tẩy chay sản phẩm bẩn, ủng hộ sản phẩm xanh.",
         "socraticPrompt": "Người tiêu dùng ép công ty bảo vệ môi trường bằng cách nào?"
-      }
+      },
+      "socraticPrompt": "Người tiêu dùng ép công ty bảo vệ môi trường bằng cách nào?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ mua hàng rẻ trôi nổi', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không mua bất kỳ hàng hóa nào' trái ngược với kiến thức SGK.",
+        "Sai vì 'Đập phá siêu thị' không phù hợp với định lý/quy tắc trọng tâm (Quyền lực người tiêu dùng).",
+        "Đúng vì theo Quyền lực người tiêu dùng: Tẩy chay sản phẩm bẩn, ủng hộ sản phẩm xanh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Văn hóa ẩm thực Việt",
         "steps": "Cân bằng, tươi ngon, gắn kết yêu thương.",
         "socraticPrompt": "Nét đẹp trong văn hóa ẩm thực gia đình Việt là gì?"
-      }
+      },
+      "socraticPrompt": "Nét đẹp trong văn hóa ẩm thực gia đình Việt là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Văn hóa ẩm thực Việt: Cân bằng, tươi ngon, gắn kết yêu thương.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ ăn đồ ăn nhanh đóng hộp', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Lãng phí đồ ăn bừa bãi' không phù hợp với định lý/quy tắc trọng tâm (Văn hóa ẩm thực Việt).",
+        "Sai vì 'Cắt đứt giao lưu gia đình' không phù hợp với định lý/quy tắc trọng tâm (Văn hóa ẩm thực Việt)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Nợ xấu thẻ tín dụng và vay tiêu dùng online' ở một bộ phận giới trẻ là hồi chuông cảnh báo về",
       "options": [
-        "Sự thiếu hụt kiến thức giáo dục tài chính và lối sống hưởng thụ vượt quá khả năng chi trả",
         "Sự giàu có vượt bậc",
+        "Sự thiếu hụt kiến thức giáo dục tài chính và lối sống hưởng thụ vượt quá khả năng chi trả",
         "Hệ thống ngân hàng quá tốt",
         "Không có rủi ro nào"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Cần trang bị kiến thức tài chính toàn diện cho học sinh từ ghế nhà trường.",
       "breakdown": {
         "concept": "Cảnh báo bẫy nợ tiêu dùng",
         "steps": "Thiếu kiến thức tài chính, hưởng thụ trước trả nợ sau.",
         "socraticPrompt": "Vì sao nhiều bạn trẻ vướng bẫy nợ thẻ tín dụng?"
-      }
+      },
+      "socraticPrompt": "Vì sao nhiều bạn trẻ vướng bẫy nợ thẻ tín dụng?",
+      "distractorReasons": [
+        "Sai vì 'Sự giàu có vượt bậc' không phù hợp với định lý/quy tắc trọng tâm (Cảnh báo bẫy nợ tiêu dùng).",
+        "Đúng vì theo Cảnh báo bẫy nợ tiêu dùng: Thiếu kiến thức tài chính, hưởng thụ trước trả nợ sau.",
+        "Sai vì 'Hệ thống ngân hàng quá tốt' không phù hợp với định lý/quy tắc trọng tâm (Cảnh báo bẫy nợ tiêu dùng).",
+        "Sai vì phủ định sai bản chất: 'Không có rủi ro nào' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Du lịch có trách nhiệm",
         "steps": "Không xả rác, tôn trọng di tích và thiên nhiên.",
         "socraticPrompt": "Hành vi văn minh khi đi du lịch danh lam thắng cảnh là gì?"
-      }
+      },
+      "socraticPrompt": "Hành vi văn minh khi đi du lịch danh lam thắng cảnh là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Du lịch có trách nhiệm: Không xả rác, tôn trọng di tích và thiên nhiên.",
+        "Sai vì 'Khắc tên bừa bãi lên di tích lịch sử' không phù hợp với định lý/quy tắc trọng tâm (Du lịch có trách nhiệm).",
+        "Sai vì 'Xả rác thải nhựa bừa bãi tại danh lam' không phù hợp với định lý/quy tắc trọng tâm (Du lịch có trách nhiệm).",
+        "Sai vì 'Bẻ cành hái hoa quý hiếm' không phù hợp với định lý/quy tắc trọng tâm (Du lịch có trách nhiệm)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thế hệ trẻ Việt Nam xây dựng phong cách tiêu dùng của công dân thế kỷ 21 qua phương châm",
       "options": [
-        "'Tiêu dùng thông thái - Lối sống xanh - Tự hào hàng Việt - Phụng sự cộng đồng'",
+        "Chi tiêu hoang phí vô tội vạ",
         "Chỉ chuộng hàng ngoại xa xỉ",
         "Sống ích kỷ không quan tâm môi trường",
-        "Chi tiêu hoang phí vô tội vạ"
+        "'Tiêu dùng thông thái - Lối sống xanh - Tự hào hàng Việt - Phụng sự cộng đồng'"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Hình mẫu người tiêu dùng văn minh kiến tạo đất nước phát triển bền vững.",
       "breakdown": {
         "concept": "Phương châm tiêu dùng thế hệ mới",
         "steps": "Thông thái, sống xanh, tự hào hàng Việt.",
         "socraticPrompt": "Phong cách tiêu dùng của thanh niên thế kỷ 21 là gì?"
-      }
+      },
+      "socraticPrompt": "Phong cách tiêu dùng của thanh niên thế kỷ 21 là gì?",
+      "distractorReasons": [
+        "Sai vì 'Chi tiêu hoang phí vô tội vạ' không phù hợp với định lý/quy tắc trọng tâm (Phương châm tiêu dùng thế hệ mới).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chuộng hàng ngoại xa xỉ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Sống ích kỷ không quan tâm môi trường' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Phương châm tiêu dùng thế hệ mới: Thông thái, sống xanh, tự hào hàng Việt."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

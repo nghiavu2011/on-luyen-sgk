@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Giá trị cốt lõi của sự siêng năng kiên trì (Bài 3, SGK GDCD 6, trang 16).",
         "steps": "Tài năng bẩm sinh chỉ là hạt mầm nhỏ; chính sự cần cù, kiên trì chăm bón bằng mồ hôi công sức qua năm tháng mới giúp hạt mầm đơm hoa kết trái rực rỡ.",
-        "trap": "Ảo tưởng rằng thiên tài sinh ra tự nhiên đã giỏi mà không cần học tập vất vả."
+        "trap": "Ảo tưởng rằng thiên tài sinh ra tự nhiên đã giỏi mà không cần học tập vất vả.",
+        "socraticPrompt": "Nếu một viên ngọc thô quý giá không được người thợ kiên nhẫn mài giũa tỉ mỉ thì nó có thể tỏa sáng lấp lánh được không?"
       },
       "socraticPrompt": "Nếu một viên ngọc thô quý giá không được người thợ kiên nhẫn mài giũa tỉ mỉ thì nó có thể tỏa sáng lấp lánh được không?",
       "distractorReasons": [
-        "Sai, phủ nhận vai trò của sự nỗ lực tự thân.",
-        "Sai, hiểu nghĩa đen cơ học ngô nghê.",
-        "Chính xác, chân lý muôn đời khẳng định sức mạnh quyết định của sự kiên trì khổ luyện.",
-        "Sai, lao động cần có mục đích và tư duy sáng tạo."
-      ]
+        "Sai vì phủ nhận vai trò của sự nỗ lực tự thân.",
+        "Sai vì hiểu nghĩa đen cơ học ngô nghê.",
+        "Đúng vì chân lý muôn đời khẳng định sức mạnh quyết định của sự kiên trì khổ luyện.",
+        "Sai vì lao động cần có mục đích và tư duy sáng tạo."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch03_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Tấm gương hiếu học vượt khó của học sinh vùng cao (Bài 3, SGK GDCD 6 & Tâm lý học sẻ chia).",
         "steps": "Khát vọng học tập kết hợp với đức tính kiên trì, chịu thương chịu khó đã biến những đứa trẻ nghèo vùng cao thành những tấm gương sáng ngời về nghị lực sống, xứng đáng được toàn xã hội trân trọng và tôn vinh.",
-        "trap": "Suy diễn thực dụng coi thường ý chí cao đẹp của học sinh nghèo."
+        "trap": "Suy diễn thực dụng coi thường ý chí cao đẹp của học sinh nghèo.",
+        "socraticPrompt": "Con chữ có ý nghĩa thiêng liêng như thế nào để một cậu bé sẵn sàng đi bộ 10km đường rừng mỗi ngày để đến lớp?"
       },
       "socraticPrompt": "Con chữ có ý nghĩa thiêng liêng như thế nào để một cậu bé sẵn sàng đi bộ 10km đường rừng mỗi ngày để đến lớp?",
       "distractorReasons": [
-        "Sai, xúc phạm ý chí tự thân cao đẹp của học sinh nghèo.",
-        "Sai, tầm thường hóa động lực học tập của bạn nhỏ.",
-        "Sai, mục đích đi học chữ thiêng liêng chứ không phải săn bắn.",
-        "Chính xác, bức chân dung nhân văn sâu sắc về nghị lực vượt khó kiên trì của học sinh Việt Nam."
-      ]
+        "Sai vì xúc phạm ý chí tự thân cao đẹp của học sinh nghèo.",
+        "Sai vì tầm thường hóa động lực học tập của bạn nhỏ.",
+        "Sai vì mục đích đi học chữ thiêng liêng chứ không phải săn bắn.",
+        "Đúng vì bức chân dung nhân văn sâu sắc về nghị lực vượt khó kiên trì của học sinh Việt Nam."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch03_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Phân biệt kiên trì và cố chấp bảo thủ (Bài 3, SGK GDCD 6, trang 16-17).",
         "steps": "Kiên trì luôn dựa trên nền tảng của LẼ PHẢI và MỤC TIÊU TỐT ĐẸP, có tư duy cởi mở điều chỉnh cách làm. Cố chấp là sự bướng bỉnh mù quáng bảo vệ cái sai.",
-        "trap": "Nhầm tưởng cứ bướng bỉnh giữ nguyên ý kiến sai lầm là kiên trì."
+        "trap": "Nhầm tưởng cứ bướng bỉnh giữ nguyên ý kiến sai lầm là kiên trì.",
+        "socraticPrompt": "Khi đi sai đường vào ngõ cụt, người kiên trì tìm đường đúng sẽ quay đầu lại hay cứ đâm đầu vào tường đá?"
       },
       "socraticPrompt": "Khi đi sai đường vào ngõ cụt, người kiên trì tìm đường đúng sẽ quay đầu lại hay cứ đâm đầu vào tường đá?",
       "distractorReasons": [
-        "Chính xác, phân định ranh giới đạo đức và nhận thức sâu sắc giữa kiên trì thông thái và bảo thủ mù quáng.",
-        "Sai, kiên trì hay cố chấp không phụ thuộc vào số lượng người làm việc.",
-        "Sai, chúng đối lập nhau hoàn toàn về bản chất giá trị đạo đức.",
-        "Sai, nhận định sai lệch không liên quan đến giàu nghèo vật chất."
-      ]
+        "Đúng vì phân định ranh giới đạo đức và nhận thức sâu sắc giữa kiên trì thông thái và bảo thủ mù quáng.",
+        "Sai vì kiên trì hay cố chấp không phụ thuộc vào số lượng người làm việc.",
+        "Sai vì chúng đối lập nhau hoàn toàn về bản chất giá trị đạo đức.",
+        "Sai vì nhận định sai lệch không liên quan đến giàu nghèo vật chất."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch03_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Truyền thống kiên trì bất khuất của dân tộc (Bài 3, SGK GDCD 6 & Lịch sử dân tộc).",
         "steps": "Lịch sử dựng nước và giữ nước của dân tộc Việt Nam là bản trường ca về đức tính kiên trì, nhẫn nại, quật cường vượt qua muôn trùng bão táp để bảo vệ non sông.",
-        "trap": "Tư tưởng dao động, sợ hãi trước khó khăn thử thách."
+        "trap": "Tư tưởng dao động, sợ hãi trước khó khăn thử thách.",
+        "socraticPrompt": "Nếu 10 năm nếm mật nằm gai của nghĩa quân Lam Sơn bị bỏ dở ở năm thứ 3 thì đất nước ta có giành lại được độc lập không?"
       },
       "socraticPrompt": "Nếu 10 năm nếm mật nằm gai của nghĩa quân Lam Sơn bị bỏ dở ở năm thứ 3 thì đất nước ta có giành lại được độc lập không?",
       "distractorReasons": [
-        "Sai, tư tưởng hèn nhát bán nước cầu vinh.",
-        "Chính xác, bài học lịch sử hào hùng hun đúc ý chí kiên định và lòng yêu nước cho thế hệ trẻ.",
-        "Sai, yếu tố con người và ý chí kiên định luôn giữ vai trò quyết định.",
-        "Sai, an phận thủ thường sẽ dẫn tới cảnh nô lệ lầm than."
-      ]
+        "Sai vì tư tưởng hèn nhát bán nước cầu vinh.",
+        "Đúng vì bài học lịch sử hào hùng hun đúc ý chí kiên định và lòng yêu nước cho thế hệ trẻ.",
+        "Sai vì yếu tố con người và ý chí kiên định luôn giữ vai trò quyết định.",
+        "Sai vì an phận thủ thường sẽ dẫn tới cảnh nô lệ lầm than."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch03_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Cơ chế tâm lý hình thành thói quen kiên trì (Bài 3, SGK GDCD 6 & Tâm lý học hành vi).",
         "steps": "Quy tắc 21 ngày hình thành thói quen: Bắt đầu từ hứng thú tự nhiên -> Ghi chép thu hoạch -> Tự khích lệ bản thân -> Biến nỗ lực có ý thức thành phản xạ thói quen tự nhiên.",
-        "trap": "Bị cám dỗ bởi video ngắn gây nghiện hoặc mua sách hình thức để khoe mẽ."
+        "trap": "Bị cám dỗ bởi video ngắn gây nghiện hoặc mua sách hình thức để khoe mẽ.",
+        "socraticPrompt": "Khi một hành động được lặp đi lặp lại kiên trì trong 21 ngày liên tục, bộ não sẽ hình thành điều gì?"
       },
       "socraticPrompt": "Khi một hành động được lặp đi lặp lại kiên trì trong 21 ngày liên tục, bộ não sẽ hình thành điều gì?",
       "distractorReasons": [
-        "Sai, video ngắn làm phân tán sự chú ý và triệt tiêu khả năng đọc sâu.",
-        "Sai, nước tăng lực có hại cho tim mạch của lứa tuổi học sinh.",
-        "Chính xác, phương pháp tâm lý học ứng dụng tuyệt vời để rèn luyện thói quen kiên trì đọc sách.",
-        "Sai, hình thức phù phiếm không đem lại tri thức thực tế."
-      ]
+        "Sai vì video ngắn làm phân tán sự chú ý và triệt tiêu khả năng đọc sâu.",
+        "Sai vì nước tăng lực có hại cho tim mạch của lứa tuổi học sinh.",
+        "Đúng vì phương pháp tâm lý học ứng dụng tuyệt vời để rèn luyện thói quen kiên trì đọc sách.",
+        "Sai vì hình thức phù phiếm không đem lại tri thức thực tế."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch03_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Kiên trì tu dưỡng đạo đức suốt đời (Bài 3, SGK GDCD 6, trang 16).",
         "steps": "Đạo đức nhân cách như viên ngọc cần mài giũa liên tục. Xây dựng nhân cách tốt cần sự kiên trì từng ngày, từng hành vi ứng xử nhỏ nhất.",
-        "trap": "Chủ quan nghĩ mình đã ngoan rồi nên không cần tiếp tục rèn luyện."
+        "trap": "Chủ quan nghĩ mình đã ngoan rồi nên không cần tiếp tục rèn luyện.",
+        "socraticPrompt": "Giữ cho chiếc áo trắng sạch sẽ cần cẩn thận suốt cả ngày, nhưng chỉ cần một giọt mực văng vào trong 1 giây là chiếc áo bị ố bẩn ra sao?"
       },
       "socraticPrompt": "Giữ cho chiếc áo trắng sạch sẽ cần cẩn thận suốt cả ngày, nhưng chỉ cần một giọt mực văng vào trong 1 giây là chiếc áo bị ố bẩn ra sao?",
       "distractorReasons": [
-        "Sai, đạo đức là kết quả của quá trình giáo dục và tự rèn luyện cả đời.",
-        "Sai, từ bỏ rèn luyện điều tốt là tự làm tha hóa bản thân.",
-        "Sai, bao biện cho lối sống buông thả bại hoại.",
-        "Chính xác, chân lý răn dạy sâu sắc về sự kiên định tu dưỡng đạo đức làm người."
-      ]
+        "Sai vì đạo đức là kết quả của quá trình giáo dục và tự rèn luyện cả đời.",
+        "Sai vì từ bỏ rèn luyện điều tốt là tự làm tha hóa bản thân.",
+        "Sai vì bao biện cho lối sống buông thả bại hoại.",
+        "Đúng vì chân lý răn dạy sâu sắc về sự kiên định tu dưỡng đạo đức làm người."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

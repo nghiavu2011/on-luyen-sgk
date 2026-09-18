@@ -32,7 +32,16 @@
           "0": "Sinh sản bằng phiến lá là đặc điểm của cây thuốc bỏng (Kalanchoe).",
           "3": "Rễ thở có ở cây ngập mặn (bần, vẹt), không phải khoai tây."
         }
-      }
+      },
+      "socraticPrompt": "Củ khoai tây thực chất là biến dạng của bộ phận nào (thân hay rễ) có chứa các mắt mầm chồi?",
+      "distractorReasons": [
+        "Sai vì 'Từ các kẽ gân của phiến lá già' không phù hợp với định lý/quy tắc trọng tâm (Khoai tây sinh sản sinh dưỡng bằng thân củ.).",
+        "Sai vì 'Từ đầu chóp của rễ cọc' không phù hợp với định lý/quy tắc trọng tâm (Khoai tây sinh sản sinh dưỡng bằng thân củ.).",
+        "Đúng vì theo Khoai tây sinh sản sinh dưỡng bằng thân củ.: Củ khoai tây là phần thân ngầm phình to tích lũy tinh bột (thân củ). Trên mặt củ có các mắt (chính là các chồi ngọn và chồi nách), khi gặp đất ẩm các mắt mầm nà.",
+        "Sai vì 'Từ các đoạn rễ thở mọc trồi lên khỏi mặt đất' không phù hợp với định lý/quy tắc trọng tâm (Khoai tây sinh sản sinh dưỡng bằng thân củ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch04-d1-q02",
@@ -56,7 +65,16 @@
           "1": "Trợ bào giúp dẫn đường cho ống phấn vào túi phôi rồi tiêu biến.",
           "2": "Tế bào đối cực nằm ở đáy túi phôi và sẽ thoái hóa sau khi thụ tinh."
         }
-      }
+      },
+      "socraticPrompt": "Cấu trúc nào ở tâm túi phôi chứa 2 nhân đơn bội hợp nhất tạo bộ NST 2n tiếp nhận tinh tử thứ hai?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Noãn cầu (tế bào trứng n)' (noãn cầu (kết hợp với noãn cầu tạo hợp tử 2n, không phải nội nhũ 3n)).",
+        "Sai vì 'Tế bào kèm (trợ bào n)' không phù hợp với định lý/quy tắc trọng tâm (Tinh tử 2 (n) + Nhân cực (2n) -> Tế bào nội nhũ tam bội (3n).).",
+        "Sai vì 'Tế bào đối cực (tế bào tam đối n)' không phù hợp với định lý/quy tắc trọng tâm (Tinh tử 2 (n) + Nhân cực (2n) -> Tế bào nội nhũ tam bội (3n).).",
+        "Đúng vì: Thụ tinh kép gồm 2 quá trình hợp nhất đồng thời: Tinh tử 1 (n) kết hợp với noãn cầu (n) tạo hợp tử (2n) phát triển thành phôi; Tinh tử 2 (n) kết hợp với nhân cự."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch04-d1-q03",
@@ -80,7 +98,16 @@
           "2": "Mọc chồi trên thành cơ thể là hình thức nảy chồi (Budding).",
           "3": "Trao đổi vật chất di truyền giữa hai cá thể là hình thức tiếp hợp hữu tính."
         }
-      }
+      },
+      "socraticPrompt": "Khi ong chúa đẻ trứng mà không cho tinh trùng thụ tinh, quả trứng đó sẽ phát triển như thế nào?",
+      "distractorReasons": [
+        "Đúng vì: Trinh sinh là một hình thức sinh sản vô tính đặc biệt ở động vật, trong đó tế bào trứng đơn bội (n) không cần thụ tinh với tinh trùng nhưng vẫn tiến hành nguyên.",
+        "Sai vì 'Cơ thể con phát triển trực tiếp từ một mảnh vụn đứt rời của cơ thể mẹ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cơ thể mẹ tự nảy một chồi con trên thành vách cơ thể' (trinh sinh với phân mảnh (sao biển) hoặc nảy chồi (thủy tức)).",
+        "Sai vì 'Hai cá thể đơn tính trao đổi vật chất di truyền cho nhau' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch04-d1-q04",
@@ -104,7 +131,16 @@
           "2": "Tế bào biểu mô ống dẫn tinh chỉ làm nhiệm vụ dẫn dịch.",
           "3": "Tuyến tiền liệt tiết dịch kiềm nuôi dưỡng tinh trùng trong tinh dịch."
         }
-      }
+      },
+      "socraticPrompt": "Tế bào nào nằm xen kẽ giữa các ống sinh tinh trong tinh hoàn chuyên tiết hormone sinh dục nam?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào Sertoli (tế bào nâng đỡ)' (tế bào Sertoli (Sertoli có chức năng nâng đỡ và nuôi dưỡng tinh trùng, không tiết testosterone)).",
+        "Đúng vì: Hormone LH do thùy trước tuyến yên tiết ra kích thích các tế bào kẽ (tế bào Leydig) nằm trong mô kẽ giữa các ống sinh tinh tổng hợp và tiết hormone Testosterone.",
+        "Sai vì 'Tế bào biểu mô ống dẫn tinh' không phù hợp với định lý/quy tắc trọng tâm (Tế bào kẽ Leydig nằm giữa các ống sinh tinh tiết testosterone dưới tác động của LH.).",
+        "Sai vì 'Tế bào tiền liệt tuyến' không phù hợp với định lý/quy tắc trọng tâm (Tế bào kẽ Leydig nằm giữa các ống sinh tinh tiết testosterone dưới tác động của LH.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch04-d1-q05",
@@ -128,7 +164,16 @@
           "1": "Thể vàng tồn tại ít nhất 10 - 14 ngày (nếu không có thai) hoặc nhiều tháng (nếu có thai).",
           "3": "Thể vàng ở lại buồng trứng, không di chuyển xuống tử cung."
         }
-      }
+      },
+      "socraticPrompt": "Cấu trúc màu vàng xuất hiện tại buồng trứng sau khi phóng noãn tiết ra hormone nào giúp giữ thai?",
+      "distractorReasons": [
+        "Sai vì 'Biến thành nang trứng mới và tiết ra hormone GnRH' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Tiêu biến hoàn toàn ngay lập tức mà không để lại dấu vết gì' trái ngược với kiến thức SGK.",
+        "Đúng vì: Dưới tác động của đỉnh hormone LH, trứng chín rụng khỏi nang. Các tế bào nang còn lại tại buồng trứng tăng sinh biến đổi thành Thể vàng (Corpus luteum). Thể vàn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Di chuyển xuống tử cung và bám vào thành tử cung tạo nhau thai' (cấu trúc thể vàng với phôi thai (thể vàng nằm lại ở buồng trứng, không đi xuống tử cung))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch04-d1-q06",
@@ -152,7 +197,16 @@
           "1": "Thuốc tránh thai chỉ ngăn rụng trứng bằng hormone, không ngăn được bệnh truyền nhiễm.",
           "2": "Tính ngày rụng trứng tỉ lệ thất bại rất cao và hoàn toàn không chống được bệnh STDs."
         }
-      }
+      },
+      "socraticPrompt": "Biện pháp tránh thai nào tạo màng chắn cơ học ngăn tiếp xúc dịch thể giữa hai cơ thể?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đặt dụng cụ tử cung (đặt vòng tránh thai)' (Nghĩ uống thuốc tránh thai hoặc đặt vòng cũng phòng ngừa được bệnh lây truyền qua đường tình dục.).",
+        "Sai vì 'Uống viên thuốc tránh thai hàng ngày' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tính ngày rụng trứng theo chu kì kinh nguyệt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Bao cao su (nam hoặc nữ) tạo nên hàng rào vật lí ngăn chặn hoàn toàn tinh trùng gặp trứng, đồng thời ngăn cản sự lây truyền của vi khuẩn, nấm và virus (như HIV."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

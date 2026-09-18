@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Bảo vệ thông tin cá nhân (Bài 9, SGK Tin học 6, trang 40-41).",
         "steps": "Thông tin cá nhân gắn liền với quyền riêng tư và an toàn của mỗi cá nhân (mật khẩu, địa chỉ nhà, số điện thoại).",
-        "trap": "Nhầm lẫn giữa thông tin cá nhân riêng tư với các kiến thức khoa học phổ quát."
+        "trap": "Nhầm lẫn giữa thông tin cá nhân riêng tư với các kiến thức khoa học phổ quát.",
+        "socraticPrompt": "Thông tin nào nếu bị lộ cho kẻ xấu có thể khiến kẻ gian tìm đến tận nhà hoặc xâm nhập vào tài khoản của em?"
       },
       "socraticPrompt": "Thông tin nào nếu bị lộ cho kẻ xấu có thể khiến kẻ gian tìm đến tận nhà hoặc xâm nhập vào tài khoản của em?",
       "distractorReasons": [
-        "Sai, thời khóa biểu khối là thông báo sinh hoạt chung của nhà trường.",
-        "Sai, thủ đô Hà Nội là kiến thức địa lý phổ biến toàn dân.",
-        "Chính xác, mật khẩu, địa chỉ nhà và số điện thoại là dữ liệu cá nhân nhạy cảm bắt buộc phải bảo mật.",
-        "Sai, công thức toán học là tri thức khoa học chung của nhân loại."
-      ]
+        "Sai vì thời khóa biểu khối là thông báo sinh hoạt chung của nhà trường.",
+        "Sai vì thủ đô Hà Nội là kiến thức địa lý phổ biến toàn dân.",
+        "Đúng vì mật khẩu, địa chỉ nhà và số điện thoại là dữ liệu cá nhân nhạy cảm bắt buộc phải bảo mật.",
+        "Sai vì công thức toán học là tri thức khoa học chung của nhân loại."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Quy tắc đặt mật khẩu mạnh (Bài 9, SGK Tin học 6, trang 41).",
         "steps": "Mật khẩu mạnh phải dài từ 8 ký tự trở lên, kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt (@, #, $...). 'MatKhau#2026@T' thỏa mãn đầy đủ các tiêu chuẩn này.",
-        "trap": "Đặt mật khẩu quá ngắn hoặc toàn số liên tiếp (123456) rất dễ bị bẻ khóa."
+        "trap": "Đặt mật khẩu quá ngắn hoặc toàn số liên tiếp (123456) rất dễ bị bẻ khóa.",
+        "socraticPrompt": "Mật khẩu có cả chữ hoa, chữ thường, số và ký hiệu đặc biệt thì kẻ xấu có dễ đoán ra hay không?"
       },
       "socraticPrompt": "Mật khẩu có cả chữ hoa, chữ thường, số và ký hiệu đặc biệt thì kẻ xấu có dễ đoán ra hay không?",
       "distractorReasons": [
-        "Sai, 123456 là mật khẩu yếu nhất thế giới, bị bẻ khóa trong 1 giây.",
-        "Chính xác, mật khẩu dài, đa dạng ký tự chữ hoa, chữ thường, số và ký tự đặc biệt.",
-        "Sai, mật khẩu yếu chỉ gồm chữ thường và năm sinh.",
-        "Sai, mật khẩu quá đơn giản gồm các chữ cái liên tiếp."
-      ]
+        "Sai vì 123456 là mật khẩu yếu nhất thế giới, bị bẻ khóa trong 1 giây.",
+        "Đúng vì mật khẩu dài, đa dạng ký tự chữ hoa, chữ thường, số và ký tự đặc biệt.",
+        "Sai vì mật khẩu yếu chỉ gồm chữ thường và năm sinh.",
+        "Sai vì mật khẩu quá đơn giản gồm các chữ cái liên tiếp."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch04_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Tác hại của virus máy tính (Bài 9, SGK Tin học 6, trang 39).",
         "steps": "Virus máy tính là phần mềm độc hại do kẻ xấu viết ra nhằm phá hoại hệ thống, xóa dữ liệu hoặc đánh cắp thông tin tài khoản người dùng.",
-        "trap": "Ảo tưởng virus có thể làm tăng hiệu năng phần cứng máy tính."
+        "trap": "Ảo tưởng virus có thể làm tăng hiệu năng phần cứng máy tính.",
+        "socraticPrompt": "Khi cơ thể bị nhiễm virus cúm thì em bị ốm, vậy máy tính bị nhiễm virus thì dữ liệu bên trong sẽ ra sao?"
       },
       "socraticPrompt": "Khi cơ thể bị nhiễm virus cúm thì em bị ốm, vậy máy tính bị nhiễm virus thì dữ liệu bên trong sẽ ra sao?",
       "distractorReasons": [
-        "Sai, virus gây xung đột phần mềm làm máy nóng và chậm hơn.",
-        "Sai, virus không thể can thiệp nâng cấp phần cứng vật lý màn hình.",
-        "Chính xác, virus gây thiệt hại nghiêm trọng cho hệ thống dữ liệu và bảo mật cá nhân.",
-        "Sai, virus không hỗ trợ in bài tập có ích cho học sinh."
-      ]
+        "Sai vì virus gây xung đột phần mềm làm máy nóng và chậm hơn.",
+        "Sai vì virus không thể can thiệp nâng cấp phần cứng vật lý màn hình.",
+        "Đúng vì virus gây thiệt hại nghiêm trọng cho hệ thống dữ liệu và bảo mật cá nhân.",
+        "Sai vì virus không hỗ trợ in bài tập có ích cho học sinh."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Phòng tránh nguy cơ bị dụ dỗ, bắt cóc qua mạng (Bài 9, SGK Tin học 6, trang 39-40).",
         "steps": "Hỏi thông tin lịch trình tan học và nhà vắng người là hành vi mờ ám có nguy cơ gây hại bắt cóc hoặc trộm cắp. Tuyệt đối im lặng, chặn nick và báo người lớn.",
-        "trap": "Ngây thơ tin tưởng người lạ và khai báo thời gian biểu cá nhân."
+        "trap": "Ngây thơ tin tưởng người lạ và khai báo thời gian biểu cá nhân.",
+        "socraticPrompt": "Tại sao kẻ lạ lại muốn biết chính xác giờ nào bố mẹ em không có ở nhà?"
       },
       "socraticPrompt": "Tại sao kẻ lạ lại muốn biết chính xác giờ nào bố mẹ em không có ở nhà?",
       "distractorReasons": [
-        "Sai, hành động vô cùng nguy hiểm tạo điều kiện cho kẻ xấu bắt cóc hoặc xâm hại.",
-        "Sai, không được phép tự ý gặp gỡ người lạ quen trên mạng xã hội.",
-        "Chính xác, đây là kỹ năng tự vệ số then chốt để bảo vệ tính mạng và tài sản gia đình.",
-        "Sai, rước nguy hiểm vào nhà khi không có người lớn bảo vệ."
-      ]
+        "Sai vì hành động vô cùng nguy hiểm tạo điều kiện cho kẻ xấu bắt cóc hoặc xâm hại.",
+        "Sai vì không được phép tự ý gặp gỡ người lạ quen trên mạng xã hội.",
+        "Đúng vì đây là kỹ năng tự vệ số then chốt để bảo vệ tính mạng và tài sản gia đình.",
+        "Sai vì rước nguy hiểm vào nhà khi không có người lớn bảo vệ."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Tôn trọng bản quyền tác giả (Bài 9, SGK Tin học 6, trang 42).",
         "steps": "Sử dụng sản phẩm trí tuệ của người khác phải ghi rõ nguồn trích dẫn và tên tác giả để tôn trọng quyền sở hữu trí tuệ.",
-        "trap": "Nhận vơ tác phẩm của người khác là của mình."
+        "trap": "Nhận vơ tác phẩm của người khác là của mình.",
+        "socraticPrompt": "Khi mượn đồ của bạn thì em phải xin phép, vậy khi mượn ảnh của người khác trên mạng em cần ghi chú điều gì?"
       },
       "socraticPrompt": "Khi mượn đồ của bạn thì em phải xin phép, vậy khi mượn ảnh của người khác trên mạng em cần ghi chú điều gì?",
       "distractorReasons": [
-        "Sai, đây là hành vi ăn cắp bản quyền và vi phạm pháp luật.",
-        "Sai, nói dối và giả mạo nguồn gốc tác phẩm.",
-        "Chính xác, trích dẫn nguồn và tác giả là chuẩn mực văn hóa học thuật bắt buộc.",
-        "Sai, kinh doanh trái phép tác phẩm của người khác."
-      ]
+        "Sai vì đây là hành vi ăn cắp bản quyền và vi phạm pháp luật.",
+        "Sai vì nói dối và giả mạo nguồn gốc tác phẩm.",
+        "Đúng vì trích dẫn nguồn và tác giả là chuẩn mực văn hóa học thuật bắt buộc.",
+        "Sai vì kinh doanh trái phép tác phẩm của người khác."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Lời khuyên sai về bảo vệ máy tính (Bài 9, SGK Tin học 6, trang 42).",
         "steps": "Tự ý mở tệp đính kèm từ thư lạ là hành động tiếp tay cho virus và mã độc xâm nhập vào máy tính. Đây là lời khuyên sai lầm.",
-        "trap": "Đọc không kỹ đề bài yêu cầu tìm 'lời khuyên SAI'."
+        "trap": "Đọc không kỹ đề bài yêu cầu tìm 'lời khuyên SAI'.",
+        "socraticPrompt": "Nếu một người lạ đưa cho em một chiếc hộp kín không rõ nguồn gốc, em có nên tự tiện mở ra ngay không?"
       },
       "socraticPrompt": "Nếu một người lạ đưa cho em một chiếc hộp kín không rõ nguồn gốc, em có nên tự tiện mở ra ngay không?",
       "distractorReasons": [
         "Sai vì đây là lời khuyên ĐÚNG giúp bảo vệ máy tính.",
         "Sai vì sao lưu dữ liệu là lời khuyên ĐÚNG.",
-        "Chính xác, đây là lời khuyên SAI theo bài tập trang 42 SGK Tin học 6.",
+        "Đúng vì đây là lời khuyên SAI theo bài tập trang 42 SGK Tin học 6.",
         "Sai vì đặt mật khẩu khóa máy khi rời đi là lời khuyên ĐÚNG."
-      ]
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Nguyên nhân giúp nền kinh tế Hoa Kỳ duy trì vị thế dẫn đầu thế giới là",
       "options": [
-        "Đi đầu trong đổi mới sáng tạo, khoa học công nghệ, thu hút nhân tài và thị trường tài chính phát triển",
         "Chỉ dựa vào xuất khẩu tài nguyên thô",
+        "Đi đầu trong đổi mới sáng tạo, khoa học công nghệ, thu hút nhân tài và thị trường tài chính phát triển",
         "Đóng cửa biên giới với người nhập cư",
         "Bỏ qua nghiên cứu khoa học"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Hệ sinh thái đổi mới sáng tạo mạnh mẽ thu hút chất xám toàn cầu.",
       "breakdown": {
         "concept": "Bí quyết kinh tế Mỹ",
         "steps": "Đổi mới sáng tạo và thu hút nhân tài.",
         "socraticPrompt": "Tại sao kinh tế Mỹ luôn đứng đầu thế giới?"
-      }
+      },
+      "socraticPrompt": "Tại sao kinh tế Mỹ luôn đứng đầu thế giới?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dựa vào xuất khẩu tài nguyên thô', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Bí quyết kinh tế Mỹ: Đổi mới sáng tạo và thu hút nhân tài.",
+        "Sai vì 'Đóng cửa biên giới với người nhập cư' không phù hợp với định lý/quy tắc trọng tâm (Bí quyết kinh tế Mỹ).",
+        "Sai vì 'Bỏ qua nghiên cứu khoa học' không phù hợp với định lý/quy tắc trọng tâm (Bí quyết kinh tế Mỹ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Bài học lớn nhất từ sự phát triển kinh tế của Nhật Bản cho Việt Nam là",
       "options": [
-        "Coi trọng nguồn lực con người, đầu tư chiều sâu cho giáo dục và làm chủ công nghệ cao",
-        "Khai thác tối đa tài nguyên thiên nhiên",
         "Dựa dẫm hoàn toàn vào viện trợ nước ngoài",
+        "Khai thác tối đa tài nguyên thiên nhiên",
+        "Coi trọng nguồn lực con người, đầu tư chiều sâu cho giáo dục và làm chủ công nghệ cao",
         "Không cần học tập kỹ năng công nghệ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Con người với tri thức và đạo đức là tài nguyên quý giá nhất của mọi quốc gia.",
       "breakdown": {
         "concept": "Bài học từ Nhật Bản",
         "steps": "Đầu tư cho con người và giáo dục.",
         "socraticPrompt": "Nhật Bản phát triển nhờ yếu tố nào?"
-      }
+      },
+      "socraticPrompt": "Nhật Bản phát triển nhờ yếu tố nào?",
+      "distractorReasons": [
+        "Sai vì 'Dựa dẫm hoàn toàn vào viện trợ nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Bài học từ Nhật Bản).",
+        "Sai vì 'Khai thác tối đa tài nguyên thiên nhiên' không phù hợp với định lý/quy tắc trọng tâm (Bài học từ Nhật Bản).",
+        "Đúng vì theo Bài học từ Nhật Bản: Đầu tư cho con người và giáo dục.",
+        "Sai vì phủ định sai bản chất: 'Không cần học tập kỹ năng công nghệ' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Thế mạnh nổi bật của nền kinh tế Liên bang Nga trên trường quốc tế là",
       "options": [
-        "Xuất khẩu năng lượng (dầu mỏ, khí đốt), luyện kim, vũ trụ và nông sản lúa mì",
+        "Du lịch biển đảo nhiệt đới",
         "Chỉ gia công dệt may giá rẻ",
         "Sản xuất lúa nước nhiệt đới",
-        "Du lịch biển đảo nhiệt đới"
+        "Xuất khẩu năng lượng (dầu mỏ, khí đốt), luyện kim, vũ trụ và nông sản lúa mì"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Cường quốc năng lượng và công nghiệp nặng hàng đầu thế giới.",
       "breakdown": {
         "concept": "Thế mạnh kinh tế Nga",
         "steps": "Năng lượng dầu khí và công nghệ vũ trụ.",
         "socraticPrompt": "Nga mạnh nhất ở lĩnh vực kinh tế nào?"
-      }
+      },
+      "socraticPrompt": "Nga mạnh nhất ở lĩnh vực kinh tế nào?",
+      "distractorReasons": [
+        "Sai vì 'Du lịch biển đảo nhiệt đới' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh kinh tế Nga).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gia công dệt may giá rẻ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Sản xuất lúa nước nhiệt đới' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh kinh tế Nga).",
+        "Đúng vì theo Thế mạnh kinh tế Nga: Năng lượng dầu khí và công nghệ vũ trụ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Tiêu chuẩn xuất khẩu sang Mỹ",
         "steps": "Chứng nhận FDA và xuất xứ minh bạch.",
         "socraticPrompt": "Bán hàng sang Mỹ cần điều kiện gì?"
-      }
+      },
+      "socraticPrompt": "Bán hàng sang Mỹ cần điều kiện gì?",
+      "distractorReasons": [
+        "Đúng vì theo Tiêu chuẩn xuất khẩu sang Mỹ: Chứng nhận FDA và xuất xứ minh bạch.",
+        "Sai vì 'Giảm chất lượng để bán rẻ' không phù hợp với định lý/quy tắc trọng tâm (Tiêu chuẩn xuất khẩu sang Mỹ).",
+        "Sai vì 'Gian lận nhãn mác xuất xứ' không phù hợp với định lý/quy tắc trọng tâm (Tiêu chuẩn xuất khẩu sang Mỹ).",
+        "Sai vì phủ định sai bản chất: 'Không cần kiểm định' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Vấn đề xã hội mà đất nước Nhật Bản đang phải đối mặt nghiêm trọng nhất hiện nay là",
       "options": [
-        "Già hóa dân số nhanh chóng, thiếu hụt lực lượng lao động trẻ",
+        "Người dân không muốn đi làm",
         "Dân số bùng nổ quá nhanh",
         "Tỉ lệ thất nghiệp 90%",
-        "Người dân không muốn đi làm"
+        "Già hóa dân số nhanh chóng, thiếu hụt lực lượng lao động trẻ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Nhật Bản có tuổi thọ trung bình cao và tỉ lệ sinh thấp nhất thế giới.",
       "breakdown": {
         "concept": "Già hóa dân số Nhật Bản",
         "steps": "Dân số già và thiếu lao động.",
         "socraticPrompt": "Nhật Bản gặp khó khăn xã hội gì lớn nhất?"
-      }
+      },
+      "socraticPrompt": "Nhật Bản gặp khó khăn xã hội gì lớn nhất?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Người dân không muốn đi làm' trái ngược với kiến thức SGK.",
+        "Sai vì 'Dân số bùng nổ quá nhanh' không phù hợp với định lý/quy tắc trọng tâm (Già hóa dân số Nhật Bản).",
+        "Sai vì 'Tỉ lệ thất nghiệp 90%' không phù hợp với định lý/quy tắc trọng tâm (Già hóa dân số Nhật Bản).",
+        "Đúng vì theo Già hóa dân số Nhật Bản: Dân số già và thiếu lao động."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Quan hệ Việt - Mỹ 2023",
         "steps": "Đối tác Chiến lược Toàn diện về công nghệ và kinh tế.",
         "socraticPrompt": "Nâng cấp quan hệ Việt - Mỹ đem lại lợi ích gì?"
-      }
+      },
+      "socraticPrompt": "Nâng cấp quan hệ Việt - Mỹ đem lại lợi ích gì?",
+      "distractorReasons": [
+        "Đúng vì theo Quan hệ Việt - Mỹ 2023: Đối tác Chiến lược Toàn diện về công nghệ và kinh tế.",
+        "Sai vì 'Từ bỏ quan hệ với các nước khác' không phù hợp với định lý/quy tắc trọng tâm (Quan hệ Việt - Mỹ 2023).",
+        "Sai vì 'Tham gia liên minh quân sự' không phù hợp với định lý/quy tắc trọng tâm (Quan hệ Việt - Mỹ 2023).",
+        "Sai vì 'Đóng cửa ngoại thương' không phù hợp với định lý/quy tắc trọng tâm (Quan hệ Việt - Mỹ 2023)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

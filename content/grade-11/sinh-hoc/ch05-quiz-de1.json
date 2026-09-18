@@ -32,7 +32,16 @@
           "2": "Quang hợp tiêu thụ ánh sáng chứ không phát ra ánh sáng.",
           "3": "Lực hút mạch gỗ do thoát hơi nước tạo ra, không phải lực ly tâm từ quang hợp."
         }
-      }
+      },
+      "socraticPrompt": "Đường glucose tạo ra từ pha tối quang hợp ở lá sẽ được chuyển đến các tế bào khác để làm gì?",
+      "distractorReasons": [
+        "Đúng vì: Quang hợp tại lục lạp tổng hợp nên các hợp chất hữu cơ (chủ yếu là đường glucose và sucrose). Các chất hữu cơ này được vận chuyển qua mạch rây đi khắp cơ thể th.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cung cấp ion khoáng Kali cho tế bào lông hút ở rễ' (giữa chất hữu cơ với ion khoáng hấp thu từ đất).",
+        "Sai vì 'Cung cấp ánh sáng Mặt Trời cho hoa nở vào ban đêm' không phù hợp với định lý/quy tắc trọng tâm (Quang hợp tổng hợp carbohydrate cung cấp cơ chất hô hấp và xây dựng tế bào.).",
+        "Sai vì 'Cung cấp lực hút ly tâm đẩy rễ ăn sâu vào lòng đất' không phù hợp với định lý/quy tắc trọng tâm (Quang hợp tổng hợp carbohydrate cung cấp cơ chất hô hấp và xây dựng tế bào.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch05-d1-q02",
@@ -56,7 +65,16 @@
           "2": "Hệ da bao bọc bảo vệ bề mặt và điều hòa thân nhiệt.",
           "3": "Hệ sinh dục duy trì nòi giống thế hệ sau."
         }
-      }
+      },
+      "socraticPrompt": "Chất dinh dưỡng từ ruột non và khí oxy từ phổi đến được ngón chân là nhờ dòng chảy của hệ cơ quan nào?",
+      "distractorReasons": [
+        "Sai vì 'Hệ vận động (xương và cơ vân)' không phù hợp với định lý/quy tắc trọng tâm (Hệ tuần hoàn làm nhiệm vụ vận chuyển máu mang oxy, dinh dưỡng, chất thải đi khắp cơ thể.).",
+        "Đúng vì: Hệ tuần hoàn với trung tâm là quả tim bơm máu qua mạng lưới mạch máu dày đặc len lỏi đến từng tế bào. Máu tiếp nhận chất dinh dưỡng từ ruột non (tiêu hóa) và O2.",
+        "Sai vì 'Hệ da và các tuyến mồ hôi' không phù hợp với định lý/quy tắc trọng tâm (Hệ tuần hoàn làm nhiệm vụ vận chuyển máu mang oxy, dinh dưỡng, chất thải đi khắp cơ thể.).",
+        "Sai vì 'Hệ sinh dục và tuyến sinh dục' không phù hợp với định lý/quy tắc trọng tâm (Hệ tuần hoàn làm nhiệm vụ vận chuyển máu mang oxy, dinh dưỡng, chất thải đi khắp cơ thể.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch05-d1-q03",
@@ -80,7 +98,16 @@
           "0": "Xương và cơ bắp là cơ quan đáp ứng vận động cơ học.",
           "3": "Bài tiết và sinh dục là các hệ cơ quan chuyên biệt."
         }
-      }
+      },
+      "socraticPrompt": "Cơ quan chỉ huy đầu não phát xung thần kinh và các tuyến tiết hormone vào máu thuộc về hai hệ nào?",
+      "distractorReasons": [
+        "Sai vì 'Hệ Xương và Hệ Cơ bắp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hệ Tiêu hóa và Hệ Hô hấp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Sự thống nhất và tự điều chỉnh của cơ thể động vật được thực hiện thông qua hai cơ chế chính: điều hòa thần kinh (do Hệ Thần kinh điều khiển qua các xung điện t.",
+        "Sai vì 'Hệ Bài tiết và Hệ Sinh dục' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch05-d1-q04",
@@ -104,7 +131,16 @@
           "2": "Chuyên gia địa chất nghiên cứu đất đá, quặng khoáng sản.",
           "1": "Lập trình viên phần mềm thuộc lĩnh vực công nghệ thông tin."
         }
-      }
+      },
+      "socraticPrompt": "Người thầy thuốc tại bệnh viện dùng kiến thức về tim mạch, huyết áp, miễn dịch để làm công việc gì?",
+      "distractorReasons": [
+        "Sai vì 'Kỹ sư lâm nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Bác sĩ và nhân viên y tế ứng dụng sinh lí học người trong thăm khám và điều trị bệnh.).",
+        "Sai vì 'Lập trình viên thiết kế trò chơi điện tử' không phù hợp với định lý/quy tắc trọng tâm (Bác sĩ và nhân viên y tế ứng dụng sinh lí học người trong thăm khám và điều trị bệnh.).",
+        "Sai vì 'Chuyên gia địa chất khoáng sản' không phù hợp với định lý/quy tắc trọng tâm (Bác sĩ và nhân viên y tế ứng dụng sinh lí học người trong thăm khám và điều trị bệnh.).",
+        "Đúng vì: Bác sĩ lâm sàng, điều dưỡng viên và các chuyên viên y tế sử dụng nền tảng sinh lí học người (hoạt động của tim mạch, hô hấp, tiêu hóa, hệ thần kinh, hệ miễn dịc."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch05-d1-q05",
@@ -128,7 +164,16 @@
           "2": "Khai thác bauxite thuộc công nghiệp khai khoáng luyện kim.",
           "3": "Sản xuất phụ gia nhựa thuộc công nghiệp hóa chất."
         }
-      }
+      },
+      "socraticPrompt": "Mô hình nông nghiệp thông minh trong nhà kính kiểm soát những yếu tố môi trường nào của cây rau?",
+      "distractorReasons": [
+        "Đúng vì: Nông nghiệp công nghệ cao ứng dụng sâu sắc kiến thức về quang hợp, trao đổi nước và dinh dưỡng khoáng: sử dụng hệ thống đèn LED quang phổ chuyên dụng, tự động b.",
+        "Sai vì 'Lắp ráp chip bán dẫn cho máy vi tính' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khai thác quặng bauxite tại các mỏ lộ thiên' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Sản xuất các loại phụ gia nhựa tổng hợp' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch05-d1-q06",
@@ -152,7 +197,16 @@
           "2": "Xăng dầu khai thác từ dầu mỏ thuộc công nghiệp hóa dầu truyền thống.",
           "3": "Thép chống rỉ thuộc ngành luyện kim."
         }
-      }
+      },
+      "socraticPrompt": "Những chế phẩm y học như vaccine thế hệ mới, insulin tái tổ hợp do ngành khoa học nào tạo ra?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Xi măng pooc-lăng dùng trong xây dựng cầu đường' (sản phẩm của công nghiệp vật liệu xây dựng hoặc hóa dầu).",
+        "Đúng vì: Công nghệ sinh học (Biotechnology) ứng dụng hệ thống sống của tế bào vi sinh vật, thực vật và động vật để sản xuất các chế phẩm giá trị: vaccine tái tổ hợp (như.",
+        "Sai vì 'Xăng sinh học E5 pha chế từ dầu mỏ hóa thạch nguyên chất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Các loại thép chống rỉ chế tạo vỏ tàu thủy' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

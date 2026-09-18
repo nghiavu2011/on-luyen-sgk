@@ -21,7 +21,16 @@
         "socraticPrompt": "Để nhìn thấy toàn bộ mặt trăng sáng, nửa được Mặt Trời chiếu rọi phải quay trọn vẹn về phía người nhìn trên Trái Đất đúng không?",
         "steps": "Trái Đất ở giữa -> nhìn thấy toàn bộ nửa sáng của Mặt Trăng -> Trăng Tròn.",
         "trap": "Khi Mặt Trăng ở giữa Mặt Trời và Trái Đất thì mặt tối quay về Trái Đất, ta không nhìn thấy trăng (Trăng Không Trăng / Trăng non đầu tháng)."
-      }
+      },
+      "socraticPrompt": "Để nhìn thấy toàn bộ mặt trăng sáng, nửa được Mặt Trời chiếu rọi phải quay trọn vẹn về phía người nhìn trên Trái Đất đúng không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mặt Trăng nằm giữa Mặt Trời và Trái Đất' (Khi Mặt Trăng ở giữa Mặt Trời và Trái Đất thì mặt tối quay về Trái Đất, ta không nhìn thấy trăng (Trăng Không Trăng / Trăng non đầu tháng).).",
+        "Sai vì 'Mặt Trăng bay ra khỏi Hệ Mặt Trời' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Trái Đất ở giữa -> nhìn thấy toàn bộ nửa sáng của Mặt Trăng -> Trăng Tròn.",
+        "Sai vì 'Mặt Trời bị Trái Đất che khuất hoàn toàn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c11_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Khí CO2 giữ nhiệt gây hiệu ứng gì khiến Sao Kim nóng hơn cả hành tinh ở gần Mặt Trời hơn nó?",
         "steps": "Bầu khí quyển CO2 dày đặc tạo hiệu ứng nhà kính khổng lồ làm Sao Kim nóng nhất.",
         "trap": "Thủy tinh không có bầu khí quyển giữ nhiệt nên ban đêm nhiệt độ tụt xuống -180 °C."
-      }
+      },
+      "socraticPrompt": "Khí CO2 giữ nhiệt gây hiệu ứng gì khiến Sao Kim nóng hơn cả hành tinh ở gần Mặt Trời hơn nó?",
+      "distractorReasons": [
+        "Sai vì 'Vì Sao Kim có nhiều núi lửa hoạt động phun trào liên tục' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì Sao Kim quay nhanh gấp 100 lần Thủy tinh' (Thủy tinh không có bầu khí quyển giữ nhiệt nên ban đêm nhiệt độ tụt xuống -180 °C.).",
+        "Sai vì 'Vì bề mặt Sao Kim được làm bằng than đá đang cháy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Bầu khí quyển CO2 dày đặc tạo hiệu ứng nhà kính khổng lồ làm Sao Kim nóng nhất."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c11_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Buổi trưa Mặt Trời ở đỉnh đầu thì bóng của em ở dưới chân dài hay ngắn nhất?",
         "steps": "Bóng cọc quay từ Tây sang Đông, ngắn nhất vào giữa trưa (nguyên lí đồng hồ Mặt Trời).",
         "trap": "Nhầm lẫn giữa buổi trưa (bóng ngắn nhất) và sáng sớm (bóng dài nhất)."
-      }
+      },
+      "socraticPrompt": "Buổi trưa Mặt Trời ở đỉnh đầu thì bóng của em ở dưới chân dài hay ngắn nhất?",
+      "distractorReasons": [
+        "Đúng vì: Bóng cọc quay từ Tây sang Đông, ngắn nhất vào giữa trưa (nguyên lí đồng hồ Mặt Trời).",
+        "Sai vì 'Bóng chiếc cọc luôn đứng yên một vị trí' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bóng chiếc cọc ngắn nhất vào buổi sáng và dài nhất vào buổi trưa' (giữa buổi trưa (bóng ngắn nhất) và sáng sớm (bóng dài nhất)).",
+        "Sai vì 'Bóng chiếc cọc hoàn toàn biến mất suốt cả ngày' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c11_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Trái Đất đứng thứ mấy trong chuỗi Thủy tinh, Kim tinh rồi đến Trái Đất?",
         "steps": "Hành tinh thứ 3 với cự li tối ưu duy trì nước lỏng và sự sống.",
         "trap": "Nếu gần hơn nước sẽ bốc hơi hết; xa hơn nước sẽ đóng băng vĩnh cửu."
-      }
+      },
+      "socraticPrompt": "Trái Đất đứng thứ mấy trong chuỗi Thủy tinh, Kim tinh rồi đến Trái Đất?",
+      "distractorReasons": [
+        "Sai vì 'Hành tinh thứ 1, nhận được nhiều nhiệt nhất để cây cối mọc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hành tinh thứ 3 với cự li tối ưu duy trì nước lỏng và sự sống.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hành tinh thứ 5, nằm giữa các tảng băng lạnh' (Nếu gần hơn nước sẽ bốc hơi hết; xa hơn nước sẽ đóng băng vĩnh cửu.).",
+        "Sai vì 'Hành tinh thứ 8 xa nhất tránh bị cháy' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c11_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Khoảng cách giữa các vì sao quá lớn, người ta dùng quãng đường ánh sáng bay trong 1 năm để đo gì?",
         "steps": "Năm ánh sáng là đơn vị đo khoảng cách thiên văn.",
         "trap": "Rất nhiều học sinh nhầm 'năm ánh sáng' là đơn vị đo thời gian."
-      }
+      },
+      "socraticPrompt": "Khoảng cách giữa các vì sao quá lớn, người ta dùng quãng đường ánh sáng bay trong 1 năm để đo gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đo thời gian Mặt Trời chiếu sáng trong một năm' (Rất nhiều học sinh nhầm 'năm ánh sáng' là đơn vị đo thời gian.).",
+        "Sai vì 'Đo độ sáng của ngôi sao' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Năm ánh sáng là đơn vị đo khoảng cách thiên văn.",
+        "Sai vì 'Đo khối lượng của thiên hà' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c11_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khi Trái Đất chắn đường truyền ánh sáng từ Mặt Trời tới Mặt Trăng thì bóng của ai sẽ phủ lên Mặt Trăng?",
         "steps": "Trái Đất nằm giữa -> bóng Trái Đất che Mặt Trăng -> Nguyệt thực.",
         "trap": "Nhật thực xảy ra ban ngày (Mặt Trăng ở giữa); Nguyệt thực xảy ra ban đêm ngày rằm (Trái Đất ở giữa)."
-      }
+      },
+      "socraticPrompt": "Khi Trái Đất chắn đường truyền ánh sáng từ Mặt Trời tới Mặt Trăng thì bóng của ai sẽ phủ lên Mặt Trăng?",
+      "distractorReasons": [
+        "Sai vì 'Khi mây đen che kín bầu trời mùa đông' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khi Mặt Trời nổ tung' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khi Mặt Trăng bay vào vùng bóng tối của Sao Kim' (Nhật thực xảy ra ban ngày (Mặt Trăng ở giữa); Nguyệt thực xảy ra ban đêm ngày rằm (Trái Đất ở giữa).).",
+        "Đúng vì: Trái Đất nằm giữa -> bóng Trái Đất che Mặt Trăng -> Nguyệt thực."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

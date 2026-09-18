@@ -24,7 +24,8 @@
           "Bước 2: Theo ngữ pháp tiếng Anh chuẩn mực, động từ nhận thức không dùng ở thì tiếp diễn.",
           "Bước 3: Câu B là câu sai ngữ pháp &rarr; Chọn B."
         ],
-        "trap": "Thấy từ 'now' nên nghĩ chia 'am understanding' là đúng."
+        "trap": "Thấy từ 'now' nên nghĩ chia 'am understanding' là đúng.",
+        "socraticPrompt": "Các động từ chỉ nhận thức như 'understand', 'know', 'love' có được chia ở thì tiếp diễn có đuôi -ing không?"
       },
       "socraticPrompt": "Các động từ chỉ nhận thức như 'understand', 'know', 'love' có được chia ở thì tiếp diễn có đuôi -ing không?",
       "distractorReasons": [
@@ -56,7 +57,8 @@
           "Bước 2: Tính từ tiếng Anh tương ứng là 'confident' (tự tin).",
           "Bước 3: Chọn phương án B."
         ],
-        "trap": "Nhầm 'confident' với 'curious' (tò mò, hiếu kì)."
+        "trap": "Nhầm 'confident' với 'curious' (tò mò, hiếu kì).",
+        "socraticPrompt": "Người không hề rụt rè khi đứng trên sân khấu lớn và luôn tin tưởng vào chính mình là người có phẩm chất gì?"
       },
       "socraticPrompt": "Người không hề rụt rè khi đứng trên sân khấu lớn và luôn tin tưởng vào chính mình là người có phẩm chất gì?",
       "distractorReasons": [
@@ -88,7 +90,8 @@
           "Bước 2: Cả hai vế đều diễn tả hành động đang tiếp diễn đồng thời &rarr; dùng thì Hiện tại tiếp diễn cho cả hai động từ.",
           "Bước 3: 'it is raining' và 'the children are reading'. Chọn B."
         ],
-        "trap": "Dùng thì hiện tại đơn cho chủ ngữ 'the children' trong khi ngữ cảnh đang miêu tả hành động cụ thể lúc trời mưa."
+        "trap": "Dùng thì hiện tại đơn cho chủ ngữ 'the children' trong khi ngữ cảnh đang miêu tả hành động cụ thể lúc trời mưa.",
+        "socraticPrompt": "Khi vẽ nên một khung cảnh: ngoài trời đang đổ mưa và trong nhà các bạn nhỏ đang chăm chú đọc sách, ta dùng thì nào cho cả 2 hành động?"
       },
       "socraticPrompt": "Khi vẽ nên một khung cảnh: ngoài trời đang đổ mưa và trong nhà các bạn nhỏ đang chăm chú đọc sách, ta dùng thì nào cho cả 2 hành động?",
       "distractorReasons": [
@@ -120,7 +123,8 @@
           "Bước 2: Quy tắc OSASCOMP: Kích thước/độ dài đứng trước màu sắc &rarr; 'long black'.",
           "Bước 3: 'hair' là danh từ không đếm được nên không dùng mạo từ 'a' &rarr; 'She has long black hair'."
         ],
-        "trap": "Đảo ngược màu sắc lên trước độ dài ('black long hair') hoặc thêm mạo từ 'a' trước danh từ không đếm được 'hair'."
+        "trap": "Đảo ngược màu sắc lên trước độ dài ('black long hair') hoặc thêm mạo từ 'a' trước danh từ không đếm được 'hair'.",
+        "socraticPrompt": "Khi tả mái tóc, tính từ chỉ độ dài (dài/ngắn) hay tính từ chỉ màu sắc (đen/vàng) sẽ đứng trước?"
       },
       "socraticPrompt": "Khi tả mái tóc, tính từ chỉ độ dài (dài/ngắn) hay tính từ chỉ màu sắc (đen/vàng) sẽ đứng trước?",
       "distractorReasons": [
@@ -152,7 +156,8 @@
           "Bước 2: Duy cũng 'sporty' và 'loves playing football'.",
           "Bước 3: Cả hai có chung sở thích bóng đá &rarr; Phong and Duy là 'sports buddies'."
         ],
-        "trap": "Chọn Lan trong khi Lan có sở thích tĩnh (reading books quietly)."
+        "trap": "Chọn Lan trong khi Lan có sở thích tĩnh (reading books quietly).",
+        "socraticPrompt": "Hai bạn nào trong đoạn văn trên có cùng đặc điểm 'sporty' và cùng thích chơi môn thể thao bóng đá?"
       },
       "socraticPrompt": "Hai bạn nào trong đoạn văn trên có cùng đặc điểm 'sporty' và cùng thích chơi môn thể thao bóng đá?",
       "distractorReasons": [
@@ -184,7 +189,8 @@
           "Bước 2: Cụm 'of young volunteers' là bổ ngữ giới từ, không quyết định số của động từ.",
           "Bước 3: Động từ số ít phải là 'is helping'. Lỗi sai nằm ở 'are helping'."
         ],
-        "trap": "Nhìn thấy danh từ số nhiều 'volunteers' đứng ngay trước to be tưởng chủ ngữ là số nhiều nên chọn 'are'."
+        "trap": "Nhìn thấy danh từ số nhiều 'volunteers' đứng ngay trước to be tưởng chủ ngữ là số nhiều nên chọn 'are'.",
+        "socraticPrompt": "Trong cụm 'The team of young volunteers', chủ ngữ chính là cả một đội nhóm ('The team' số ít) hay từng tình nguyện viên?"
       },
       "socraticPrompt": "Trong cụm 'The team of young volunteers', chủ ngữ chính là cả một đội nhóm ('The team' số ít) hay từng tình nguyện viên?",
       "distractorReasons": [

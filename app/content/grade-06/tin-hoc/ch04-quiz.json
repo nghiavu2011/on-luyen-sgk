@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Đạo đức và pháp luật về tính toàn vẹn dữ liệu (Bài 9, SGK Tin học 6, trang 41-42).",
         "steps": "Hệ thống điểm số là dữ liệu chính thức của nhà trường. Tự ý thay đổi điểm là hành vi gian lận học đường và vi phạm pháp luật an ninh mạng. Người học sinh chính trực phải kiên quyết ngăn cản hành vi sai trái.",
-        "trap": "Bị cám dỗ bởi điểm cao ảo hoặc nể nang bạn bè."
+        "trap": "Bị cám dỗ bởi điểm cao ảo hoặc nể nang bạn bè.",
+        "socraticPrompt": "Điểm số phản ánh đúng năng lực thật của em hay chỉ là con số ảo? Gian lận điểm có đem lại tri thức thật không?"
       },
       "socraticPrompt": "Điểm số phản ánh đúng năng lực thật của em hay chỉ là con số ảo? Gian lận điểm có đem lại tri thức thật không?",
       "distractorReasons": [
-        "Sai, đồng phạm tiếp tay cho hành vi gian lận và xâm nhập trái phép.",
-        "Sai, tham lam gian lận làm suy đồi nhân cách.",
-        "Chính xác, thể hiện bản lĩnh chính trực, trung thực và ý thức chấp hành pháp luật sâu sắc.",
-        "Sai, hành vi tống tiền là vi phạm hình sự đặc biệt nghiêm trọng."
-      ]
+        "Sai vì đồng phạm tiếp tay cho hành vi gian lận và xâm nhập trái phép.",
+        "Sai vì tham lam gian lận làm suy đồi nhân cách.",
+        "Đúng vì thể hiện bản lĩnh chính trực, trung thực và ý thức chấp hành pháp luật sâu sắc.",
+        "Sai vì hành vi tống tiền là vi phạm hình sự đặc biệt nghiêm trọng."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Nhận diện thủ đoạn lừa đảo Phishing (Bài 9, SGK Tin học 6, trang 39-40).",
         "steps": "Kẻ gian thường tạo tên miền gần giống (faceb00k thay chữ o bằng số 0) và giao diện sao chép y hệt để đánh lừa người dùng nhập mật khẩu nhằm chiếm đoạt tài khoản.",
-        "trap": "Chỉ nhìn giao diện quen mắt mà không kiểm tra thanh địa chỉ tên miền."
+        "trap": "Chỉ nhìn giao diện quen mắt mà không kiểm tra thanh địa chỉ tên miền.",
+        "socraticPrompt": "Hãy nhìn kỹ chữ 'faceb00k' trên thanh địa chỉ xem có gì khác với chữ 'facebook' bình thường không?"
       },
       "socraticPrompt": "Hãy nhìn kỹ chữ 'faceb00k' trên thanh địa chỉ xem có gì khác với chữ 'facebook' bình thường không?",
       "distractorReasons": [
-        "Sai, màu xanh là màu thương hiệu mà kẻ lừa đảo sao chép lại.",
-        "Sai, tốc độ tải trang không phải dấu hiệu nhận diện mã độc.",
-        "Chính xác, tên miền giả mạo chứa ký tự mạo danh và đuôi lạ là dấu hiệu vạch trần kẻ lừa đảo.",
-        "Sai, hình ảnh sắc nét do kẻ xấu tải về từ bản gốc."
-      ]
+        "Sai vì màu xanh là màu thương hiệu mà kẻ lừa đảo sao chép lại.",
+        "Sai vì tốc độ tải trang không phải dấu hiệu nhận diện mã độc.",
+        "Đúng vì tên miền giả mạo chứa ký tự mạo danh và đuôi lạ là dấu hiệu vạch trần kẻ lừa đảo.",
+        "Sai vì hình ảnh sắc nét do kẻ xấu tải về từ bản gốc."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Trách nhiệm xã hội khi chia sẻ thông tin (Bài 9, SGK Tin học 6, trang 40-42).",
         "steps": "Mô hình tư duy phản biện khi tiếp nhận tin tức số: Kiểm tra nguồn tin -> Xác minh tính trung thực -> Đánh giá hậu quả xã hội -> Quyết định có chia sẻ hay không.",
-        "trap": "Chạy theo tâm lý câu like, giật tít mà vô tình tiếp tay lan truyền tin giả (fake news)."
+        "trap": "Chạy theo tâm lý câu like, giật tít mà vô tình tiếp tay lan truyền tin giả (fake news).",
+        "socraticPrompt": "Nếu em chia sẻ một tin giả về dịch bệnh hay bắt cóc không có thật, người đọc sẽ cảm thấy như thế nào?"
       },
       "socraticPrompt": "Nếu em chia sẻ một tin giả về dịch bệnh hay bắt cóc không có thật, người đọc sẽ cảm thấy như thế nào?",
       "distractorReasons": [
-        "Sai, ham muốn câu like ảo không thể biện minh cho việc lan truyền thông tin sai lệch.",
-        "Sai, gây hoang mang dư luận là hành vi vi phạm pháp luật có thể bị phạt hành chính hoặc hình sự.",
-        "Chính xác, đây là quy tắc kiểm chứng thông tin tối quan trọng để xây dựng không gian mạng an toàn, lành mạnh.",
-        "Sai, mục đích vụ lợi cá nhân bất chấp hậu quả xã hội."
-      ]
+        "Sai vì ham muốn câu like ảo không thể biện minh cho việc lan truyền thông tin sai lệch.",
+        "Sai vì gây hoang mang dư luận là hành vi vi phạm pháp luật có thể bị phạt hành chính hoặc hình sự.",
+        "Đúng vì đây là quy tắc kiểm chứng thông tin tối quan trọng để xây dựng không gian mạng an toàn, lành mạnh.",
+        "Sai vì mục đích vụ lợi cá nhân bất chấp hậu quả xã hội."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Phòng chống nghiện Internet (Bài 9, SGK Tin học 6, trang 39-40).",
         "steps": "Sử dụng công nghệ có chừng mực, kết hợp rèn luyện thể chất và gắn kết đời thực giúp học sinh phát triển toàn diện cả thể lực, trí lực và kỹ năng xã hội.",
-        "trap": "Cực đoan bài trừ hoàn toàn công nghệ hoặc thả lỏng cho bản thân nghiện game thâu đêm."
+        "trap": "Cực đoan bài trừ hoàn toàn công nghệ hoặc thả lỏng cho bản thân nghiện game thâu đêm.",
+        "socraticPrompt": "Làm thế nào để vừa giỏi công nghệ mà mắt vẫn sáng, cơ thể vẫn khỏe mạnh dẻo dai?"
       },
       "socraticPrompt": "Làm thế nào để vừa giỏi công nghệ mà mắt vẫn sáng, cơ thể vẫn khỏe mạnh dẻo dai?",
       "distractorReasons": [
-        "Sai, phá hủy sức khỏe, suy kiệt thần kinh và hủy hoại tương lai.",
-        "Sai, cực đoan và lạc hậu trong thời đại chuyển đổi số.",
-        "Chính xác, lối sống cân bằng, thông minh giữa thế giới số và đời sống thực tế.",
-        "Sai, gây rối loạn tiêu hóa và thói quen xấu ảnh hưởng sức khỏe lâu dài."
-      ]
+        "Sai vì phá hủy sức khỏe, suy kiệt thần kinh và hủy hoại tương lai.",
+        "Sai vì cực đoan và lạc hậu trong thời đại chuyển đổi số.",
+        "Đúng vì lối sống cân bằng, thông minh giữa thế giới số và đời sống thực tế.",
+        "Sai vì gây rối loạn tiêu hóa và thói quen xấu ảnh hưởng sức khỏe lâu dài."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Bảo vệ bí mật đời tư của người khác (Bài 9, SGK Tin học 6, trang 40-41).",
         "steps": "Tự ý cung cấp dữ liệu cá nhân của người khác là vi phạm nghiêm trọng đạo đức và pháp luật, đẩy bạn bè vào nguy cơ bị lừa đảo hoặc buôn bán người. Phải từ chối và báo cho bạn cùng phụ huynh biết.",
-        "trap": "Bị mờ mắt vì lời hứa tiền bạc hoặc nghĩ rằng cung cấp thông tin giúp bạn là việc tốt."
+        "trap": "Bị mờ mắt vì lời hứa tiền bạc hoặc nghĩ rằng cung cấp thông tin giúp bạn là việc tốt.",
+        "socraticPrompt": "Nếu ai đó đem số điện thoại và địa chỉ nhà của em bán cho người lạ thì em sẽ cảm thấy thế nào?"
       },
       "socraticPrompt": "Nếu ai đó đem số điện thoại và địa chỉ nhà của em bán cho người lạ thì em sẽ cảm thấy thế nào?",
       "distractorReasons": [
-        "Sai, bán đứng quyền riêng tư và an toàn của bạn thân vì tiền là hành vi trái đạo đức.",
-        "Sai, tiếp tay cho kẻ xấu tiếp cận và gây hại cho tập thể lớp.",
-        "Sai, hành vi lừa dối tự đưa bản thân vào bẫy nguy hiểm khôn lường.",
-        "Chính xác, tôn trọng bạn bè và cảnh giác trước các thủ đoạn dụ dỗ nguy hiểm của tội phạm."
-      ]
+        "Sai vì bán đứng quyền riêng tư và an toàn của bạn thân vì tiền là hành vi trái đạo đức.",
+        "Sai vì tiếp tay cho kẻ xấu tiếp cận và gây hại cho tập thể lớp.",
+        "Sai vì hành vi lừa dối tự đưa bản thân vào bẫy nguy hiểm khôn lường.",
+        "Đúng vì tôn trọng bạn bè và cảnh giác trước các thủ đoạn dụ dỗ nguy hiểm của tội phạm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch04_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Nguy cơ từ mã độc tống tiền (Bài 9, SGK Tin học 6, trang 39).",
         "steps": "Mã độc tống tiền (Ransomware) là hiểm họa an ninh mạng hàng đầu. Biện pháp phòng ngừa sống còn là sao lưu dữ liệu (backup) định kỳ và cảnh giác trước các tệp lạ.",
-        "trap": "Nhầm mã độc với phần mềm tiện ích hay trò chơi."
+        "trap": "Nhầm mã độc với phần mềm tiện ích hay trò chơi.",
+        "socraticPrompt": "Khi dữ liệu bị kẻ xấu khóa lại đòi tiền chuộc, nếu em đã có một bản sao lưu cất trong ổ cứng rời ở nhà thì em có sợ bị mất dữ liệu không?"
       },
       "socraticPrompt": "Khi dữ liệu bị kẻ xấu khóa lại đòi tiền chuộc, nếu em đã có một bản sao lưu cất trong ổ cứng rời ở nhà thì em có sợ bị mất dữ liệu không?",
       "distractorReasons": [
-        "Sai, loa không có chức năng tiêu diệt mã độc máy tính.",
-        "Sai, phần mềm học tập chính thống không tống tiền người dùng.",
-        "Sai, mã độc không phải là trò chơi giải đố lành mạnh.",
-        "Chính xác, nhận diện đúng tên gọi Ransomware và chiến lược phòng thủ dữ liệu chủ động bằng sao lưu."
-      ]
+        "Sai vì loa không có chức năng tiêu diệt mã độc máy tính.",
+        "Sai vì phần mềm học tập chính thống không tống tiền người dùng.",
+        "Sai vì mã độc không phải là trò chơi giải đố lành mạnh.",
+        "Đúng vì nhận diện đúng tên gọi Ransomware và chiến lược phòng thủ dữ liệu chủ động bằng sao lưu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

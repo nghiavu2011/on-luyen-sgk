@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Khi đi phỏng vấn và chuẩn bị ký hợp đồng lao động, bạn Minh cần đọc kỹ nhất điều khoản nào?",
       "options": [
-        "Mức lương, thời giờ làm việc, bảo hiểm và điều kiện an toàn lao động",
         "Chỉ đọc tên giám đốc",
+        "Mức lương, thời giờ làm việc, bảo hiểm và điều kiện an toàn lao động",
         "Màu sắc logo công ty",
         "Số lượng nhân viên bảo vệ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Kiểm tra kỹ quyền lợi và nghĩa vụ hợp pháp để tránh bị thiệt thòi.",
       "breakdown": {
         "concept": "Kỹ năng đọc hợp đồng lao động",
         "steps": "Đọc kỹ lương, giờ làm, bảo hiểm.",
         "socraticPrompt": "Ký hợp đồng đi làm cần chú ý điều gì nhất?"
-      }
+      },
+      "socraticPrompt": "Ký hợp đồng đi làm cần chú ý điều gì nhất?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ đọc tên giám đốc', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Kỹ năng đọc hợp đồng lao động: Đọc kỹ lương, giờ làm, bảo hiểm.",
+        "Sai vì 'Màu sắc logo công ty' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng đọc hợp đồng lao động).",
+        "Sai vì 'Số lượng nhân viên bảo vệ' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng đọc hợp đồng lao động)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Một công ty ép công nhân làm thêm giờ quá quy định 40 giờ/tháng mà không trả tiền lương làm thêm giờ là",
       "options": [
-        "Hành vi vi phạm nghiêm trọng Bộ luật Lao động",
-        "Hành động hợp pháp vì công ty khó khăn",
         "Nghĩa vụ cống hiến không công",
+        "Hành động hợp pháp vì công ty khó khăn",
+        "Hành vi vi phạm nghiêm trọng Bộ luật Lao động",
         "Quy định bắt buộc của nhà nước"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Làm thêm giờ phải có sự đồng ý của người lao động và trả ít nhất 150%-300% lương.",
       "breakdown": {
         "concept": "Vi phạm giờ làm thêm",
         "steps": "Trái Bộ luật Lao động.",
         "socraticPrompt": "Bắt ép tăng ca không trả tiền lương là đúng hay sai?"
-      }
+      },
+      "socraticPrompt": "Bắt ép tăng ca không trả tiền lương là đúng hay sai?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Nghĩa vụ cống hiến không công' trái ngược với kiến thức SGK.",
+        "Sai vì 'Hành động hợp pháp vì công ty khó khăn' không phù hợp với định lý/quy tắc trọng tâm (Vi phạm giờ làm thêm).",
+        "Đúng vì theo Vi phạm giờ làm thêm: Trái Bộ luật Lao động.",
+        "Sai vì 'Quy định bắt buộc của nhà nước' không phù hợp với định lý/quy tắc trọng tâm (Vi phạm giờ làm thêm)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Để xây dựng thương hiệu cá nhân (Personal Branding) nổi bật trên thị trường việc làm, bạn trẻ nên",
       "options": [
-        "Xây dựng CV chuyên nghiệp, thể hiện dự án thực tế, trau dồi kỹ năng và tác phong uy tín",
+        "Chỉ nộp hồ sơ trống",
         "Làm giả bằng cấp, kinh nghiệm",
         "Nói xấu công ty cũ trên mạng",
-        "Chỉ nộp hồ sơ trống"
+        "Xây dựng CV chuyên nghiệp, thể hiện dự án thực tế, trau dồi kỹ năng và tác phong uy tín"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Xây dựng hồ sơ năng lực trung thực, chuyên nghiệp và có chiều sâu.",
       "breakdown": {
         "concept": "Thương hiệu cá nhân xin việc",
         "steps": "CV chuyên nghiệp, kỹ năng thực tế.",
         "socraticPrompt": "Làm sao để gây ấn tượng tốt với nhà tuyển dụng?"
-      }
+      },
+      "socraticPrompt": "Làm sao để gây ấn tượng tốt với nhà tuyển dụng?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ nộp hồ sơ trống', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Làm giả bằng cấp, kinh nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Thương hiệu cá nhân xin việc).",
+        "Sai vì 'Nói xấu công ty cũ trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Thương hiệu cá nhân xin việc).",
+        "Đúng vì theo Thương hiệu cá nhân xin việc: CV chuyên nghiệp, kỹ năng thực tế."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Ưu điểm nghề Freelancer",
         "steps": "Chủ động thời gian, tiếp cận toàn cầu.",
         "socraticPrompt": "Làm freelancer có lợi thế gì?"
-      }
+      },
+      "socraticPrompt": "Làm freelancer có lợi thế gì?",
+      "distractorReasons": [
+        "Đúng vì theo Ưu điểm nghề Freelancer: Chủ động thời gian, tiếp cận toàn cầu.",
+        "Sai vì phủ định sai bản chất: 'Không phải chịu bất kỳ trách nhiệm nào' trái ngược với kiến thức SGK.",
+        "Sai vì 'Thu nhập luôn ổn định vĩnh viễn' không phù hợp với định lý/quy tắc trọng tâm (Ưu điểm nghề Freelancer).",
+        "Sai vì 'Được đóng bảo hiểm miễn phí' không phù hợp với định lý/quy tắc trọng tâm (Ưu điểm nghề Freelancer)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Khi xảy ra tranh chấp lao động về việc bị sa thải trái pháp luật, người lao động có thể nhờ đến",
       "options": [
-        "Hòa giải viên lao động, Hội đồng trọng tài lao động hoặc Tòa án nhân dân",
+        "Im lặng chịu thiệt",
         "Thuê xã hội đen đến đe dọa",
         "Đập phá tài sản công ty",
-        "Im lặng chịu thiệt"
+        "Hòa giải viên lao động, Hội đồng trọng tài lao động hoặc Tòa án nhân dân"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Giải quyết tranh chấp lao động bằng con đường pháp lý hòa bình, minh bạch.",
       "breakdown": {
         "concept": "Giải quyết tranh chấp lao động",
         "steps": "Nhờ hòa giải viên hoặc Tòa án.",
         "socraticPrompt": "Bị đuổi việc vô lý thì kiện ở đâu?"
-      }
+      },
+      "socraticPrompt": "Bị đuổi việc vô lý thì kiện ở đâu?",
+      "distractorReasons": [
+        "Sai vì 'Im lặng chịu thiệt' không phù hợp với định lý/quy tắc trọng tâm (Giải quyết tranh chấp lao động).",
+        "Sai vì 'Thuê xã hội đen đến đe dọa' không phù hợp với định lý/quy tắc trọng tâm (Giải quyết tranh chấp lao động).",
+        "Sai vì 'Đập phá tài sản công ty' không phù hợp với định lý/quy tắc trọng tâm (Giải quyết tranh chấp lao động).",
+        "Đúng vì theo Giải quyết tranh chấp lao động: Nhờ hòa giải viên hoặc Tòa án."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Kỹ năng hướng nghiệp",
         "steps": "Hiểu mình và hiểu nhu cầu xã hội.",
         "socraticPrompt": "Chọn nghề tương lai nên dựa vào đâu?"
-      }
+      },
+      "socraticPrompt": "Chọn nghề tương lai nên dựa vào đâu?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ năng hướng nghiệp: Hiểu mình và hiểu nhu cầu xã hội.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chọn nghề chỉ vì tên gọi thời thượng', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bắt chước theo tất cả bạn bè' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng hướng nghiệp).",
+        "Sai vì 'Phó mặc cho số phận' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng hướng nghiệp)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

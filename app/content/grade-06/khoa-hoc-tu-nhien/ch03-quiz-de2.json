@@ -21,7 +21,16 @@
         "socraticPrompt": "Dội nước vào dầu sôi sẽ làm dầu bắn tung toé gây cháy lan, còn đậy kín nắp chảo sẽ ngăn chặn khí gì tiếp xúc?",
         "steps": "Tắt bếp -> đậy nắp vung để cách ly oxy -> đám cháy bị dập tắt an toàn.",
         "trap": "Dội nước vào dầu sôi là tai nạn kinh hoàng làm dầu bắn toé gây bỏng và cháy nhà."
-      }
+      },
+      "socraticPrompt": "Dội nước vào dầu sôi sẽ làm dầu bắn tung toé gây cháy lan, còn đậy kín nắp chảo sẽ ngăn chặn khí gì tiếp xúc?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng một ca nước lạnh dội thật mạnh vào chảo dầu' (Dội nước vào dầu sôi là tai nạn kinh hoàng làm dầu bắn toé gây bỏng và cháy nhà.).",
+        "Sai vì 'Thổi mạnh bằng miệng vào ngọn lửa' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tắt bếp -> đậy nắp vung để cách ly oxy -> đám cháy bị dập tắt an toàn.",
+        "Sai vì 'Bê chảo dầu đang cháy chạy ra ngoài sân' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c3_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Nếu oxygen tan nhiều trong nước thì khi sục vào nước nó có đẩy được nước ra ngoài không?",
         "steps": "Khí oxygen ít tan trong nước nên khi sục vào ống nghiệm nó sẽ đẩy nước ra ngoài và chiếm chỗ.",
         "trap": "Các khí tan tốt trong nước như amoniac hay hydro clorua không thể thu bằng phương pháp này."
-      }
+      },
+      "socraticPrompt": "Nếu oxygen tan nhiều trong nước thì khi sục vào nước nó có đẩy được nước ra ngoài không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì khí oxygen tan vô hạn trong nước' (Các khí tan tốt trong nước như amoniac hay hydro clorua không thể thu bằng phương pháp này.).",
+        "Sai vì 'Vì nước hút khí oxygen vào lòng nó' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì khí oxygen phản ứng với nước tạo bọt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Khí oxygen ít tan trong nước nên khi sục vào ống nghiệm nó sẽ đẩy nước ra ngoài và chiếm chỗ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c3_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Khi hết khí oxygen thì nến có cháy tiếp được không và mực nước dâng lên bao nhiêu phần cốc?",
         "steps": "Oxy bị tiêu hao (khoảng 1/5) -> nến tắt -> nước dâng lên khoảng 1/5 thể tích cốc.",
         "trap": "Nghĩ rằng toàn bộ không khí trong cốc bị đốt cháy hết (thực tế 78% nitrogen không cháy)."
-      }
+      },
+      "socraticPrompt": "Khi hết khí oxygen thì nến có cháy tiếp được không và mực nước dâng lên bao nhiêu phần cốc?",
+      "distractorReasons": [
+        "Đúng vì: Oxy bị tiêu hao (khoảng 1/5) -> nến tắt -> nước dâng lên khoảng 1/5 thể tích cốc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nến cháy mãi không bao giờ tắt' (Nghĩ rằng toàn bộ không khí trong cốc bị đốt cháy hết (thực tế 78% nitrogen không cháy).).",
+        "Sai vì 'Cốc thủy tinh bị vỡ nát ngay lập tức' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nến phát nổ sinh khói xanh' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c3_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Lớp sơn phủ bên ngoài có tác dụng bảo vệ ngăn kim loại tiếp xúc với chất khí nào trong không khí?",
         "steps": "Sơn tĩnh điện và bôi dầu mỡ ngăn cách hoàn toàn bề mặt kim loại với oxygen và độ ẩm.",
         "trap": "Rửa bằng nước muối càng làm kim loại bị ăn mòn rỉ sét nhanh hơn gấp bội."
-      }
+      },
+      "socraticPrompt": "Lớp sơn phủ bên ngoài có tác dụng bảo vệ ngăn kim loại tiếp xúc với chất khí nào trong không khí?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Rửa xe bằng nước muối mỗi ngày' (Rửa bằng nước muối càng làm kim loại bị ăn mòn rỉ sét nhanh hơn gấp bội.).",
+        "Đúng vì: Sơn tĩnh điện và bôi dầu mỡ ngăn cách hoàn toàn bề mặt kim loại với oxygen và độ ẩm.",
+        "Sai vì 'Dùng giấy ráp đánh sạch lớp sơn bảo vệ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để xe ngoài trời mưa nắng quanh năm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c3_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Vì oxygen chiếm 1/5 thể tích không khí nên lượng không khí cần thiết gấp mấy lần lượng oxygen?",
         "steps": "V_không_khí = 500 / 0,2 = 2500 lít.",
         "trap": "Lấy 500 nhân 20% ra 100 lít (sai hướng tính)."
-      }
+      },
+      "socraticPrompt": "Vì oxygen chiếm 1/5 thể tích không khí nên lượng không khí cần thiết gấp mấy lần lượng oxygen?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '100 lít' (Lấy 500 nhân 20% ra 100 lít (sai hướng tính).).",
+        "Sai vì '1000 lít' không phù hợp với định lý/quy tắc trọng tâm (Thể tích không khí = Thể tích oxygen / 20% = Thể tích oxygen · 5.).",
+        "Đúng vì: V_không_khí = 500 / 0,2 = 2500 lít.",
+        "Sai vì '5000 lít' không phù hợp với định lý/quy tắc trọng tâm (Thể tích không khí = Thể tích oxygen / 20% = Thể tích oxygen · 5.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c3_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khí thải công nghiệp chứa oxit của lưu huỳnh và nitơ khi gặp mưa sẽ tạo thành dung dịch gì?",
         "steps": "SO2 và NO2 kết hợp hơi nước tạo thành mưa axit phá huỷ mùa màng và di tích lịch sử.",
         "trap": "CO2 tạo mưa có tính axit rất yếu bình thường, nhưng SO2 và NO2 mới là tác nhân chính gây mưa axit độc hại."
-      }
+      },
+      "socraticPrompt": "Khí thải công nghiệp chứa oxit của lưu huỳnh và nitơ khi gặp mưa sẽ tạo thành dung dịch gì?",
+      "distractorReasons": [
+        "Sai vì 'Khí oxygen và nitrogen' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hơi nước tinh khiết' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khí argon và heli' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: SO2 và NO2 kết hợp hơi nước tạo thành mưa axit phá huỷ mùa màng và di tích lịch sử."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

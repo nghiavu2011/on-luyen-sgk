@@ -20,97 +20,151 @@
         "concept": "Số nước ĐNA",
         "steps": "11 quốc gia.",
         "socraticPrompt": "Đông Nam Á có bao nhiêu nước?"
-      }
+      },
+      "socraticPrompt": "Đông Nam Á có bao nhiêu nước?",
+      "distractorReasons": [
+        "Đúng vì theo Số nước ĐNA: 11 quốc gia.",
+        "Sai vì '10 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Số nước ĐNA).",
+        "Sai vì '8 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Số nước ĐNA).",
+        "Sai vì '15 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Số nước ĐNA)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Eo biển huyết mạch nối liền Ấn Độ Dương và Thái Bình Dương ở Đông Nam Á là",
       "options": [
-        "Eo biển Ma-lắc-ca",
         "Eo biển Bô-xpho",
+        "Eo biển Ma-lắc-ca",
         "Eo biển Bê-rinh",
         "Eo biển Gi-bran-ta"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Eo biển Malacca giữa bán đảo Mã Lai và đảo Sumatra.",
       "breakdown": {
         "concept": "Eo biển Malacca",
         "steps": "Eo biển Malacca.",
         "socraticPrompt": "Eo biển nào quan trọng nhất ĐNA?"
-      }
+      },
+      "socraticPrompt": "Eo biển nào quan trọng nhất ĐNA?",
+      "distractorReasons": [
+        "Sai vì 'Eo biển Bô-xpho' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Malacca).",
+        "Đúng vì theo Eo biển Malacca: Eo biển Malacca.",
+        "Sai vì 'Eo biển Bê-rinh' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Malacca).",
+        "Sai vì 'Eo biển Gi-bran-ta' không phù hợp với định lý/quy tắc trọng tâm (Eo biển Malacca)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Hai quốc gia xuất khẩu lúa gạo hàng đầu thế giới tại Đông Nam Á là",
       "options": [
-        "Việt Nam và Thái Lan",
-        "Lào và Bru-nây",
         "Xin-ga-po và Đông Ti-mo",
+        "Lào và Bru-nây",
+        "Việt Nam và Thái Lan",
         "Ma-lai-xi-a và Phi-líp-pin"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Việt Nam và Thái Lan là vựa gạo lớn của thế giới.",
       "breakdown": {
         "concept": "Xuất khẩu gạo",
         "steps": "Việt Nam và Thái Lan.",
         "socraticPrompt": "Hai nước xuất khẩu gạo lớn nhất ĐNA?"
-      }
+      },
+      "socraticPrompt": "Hai nước xuất khẩu gạo lớn nhất ĐNA?",
+      "distractorReasons": [
+        "Sai vì 'Xin-ga-po và Đông Ti-mo' không phù hợp với định lý/quy tắc trọng tâm (Xuất khẩu gạo).",
+        "Sai vì 'Lào và Bru-nây' không phù hợp với định lý/quy tắc trọng tâm (Xuất khẩu gạo).",
+        "Đúng vì theo Xuất khẩu gạo: Việt Nam và Thái Lan.",
+        "Sai vì 'Ma-lai-xi-a và Phi-líp-pin' không phù hợp với định lý/quy tắc trọng tâm (Xuất khẩu gạo)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Cộng đồng ASEAN chính thức được thành lập vào năm nào?",
       "options": [
-        "2015",
+        "2020",
         "1967",
         "1995",
-        "2020"
+        "2015"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Cộng đồng ASEAN ra đời ngày 31/12/2015.",
       "breakdown": {
         "concept": "Cộng đồng ASEAN 2015",
         "steps": "Năm 2015.",
         "socraticPrompt": "Cộng đồng ASEAN thành lập năm nào?"
-      }
+      },
+      "socraticPrompt": "Cộng đồng ASEAN thành lập năm nào?",
+      "distractorReasons": [
+        "Sai vì '2020' không phù hợp với định lý/quy tắc trọng tâm (Cộng đồng ASEAN 2015).",
+        "Sai vì '1967' không phù hợp với định lý/quy tắc trọng tâm (Cộng đồng ASEAN 2015).",
+        "Sai vì '1995' không phù hợp với định lý/quy tắc trọng tâm (Cộng đồng ASEAN 2015).",
+        "Đúng vì '2015' phản ánh chuẩn xác kiến thức SGK: Cộng đồng ASEAN 2015."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Đặc điểm khí hậu chung của phần lớn khu vực Đông Nam Á là",
       "options": [
-        "Khí hậu nhiệt đới gió mùa và nhiệt đới ẩm",
         "Khí hậu ôn đới lục địa khô",
+        "Khí hậu nhiệt đới gió mùa và nhiệt đới ẩm",
         "Khí hậu hoang mạc khô cằn",
         "Khí hậu hàn đới lạnh giá"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Nắng nóng, mưa nhiều, độ ẩm cao quanh năm.",
       "breakdown": {
         "concept": "Khí hậu Đông Nam Á",
         "steps": "Nhiệt đới gió mùa ẩm.",
         "socraticPrompt": "Khí hậu ĐNA có đặc điểm gì?"
-      }
+      },
+      "socraticPrompt": "Khí hậu ĐNA có đặc điểm gì?",
+      "distractorReasons": [
+        "Sai vì 'Khí hậu ôn đới lục địa khô' không phù hợp với định lý/quy tắc trọng tâm (Khí hậu Đông Nam Á).",
+        "Đúng vì theo Khí hậu Đông Nam Á: Nhiệt đới gió mùa ẩm.",
+        "Sai vì 'Khí hậu hoang mạc khô cằn' không phù hợp với định lý/quy tắc trọng tâm (Khí hậu Đông Nam Á).",
+        "Sai vì 'Khí hậu hàn đới lạnh giá' không phù hợp với định lý/quy tắc trọng tâm (Khí hậu Đông Nam Á)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Quốc gia nào ở Đông Nam Á có nền kinh tế phát triển và dịch vụ hàng hải số 1 khu vực?",
       "options": [
-        "Xin-ga-po",
-        "Lào",
         "Cam-pu-chia",
+        "Lào",
+        "Xin-ga-po",
         "Mi-an-ma"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Singapore là trung tâm tài chính, cảng biển và công nghệ cao hàng đầu thế giới.",
       "breakdown": {
         "concept": "Singapore",
         "steps": "Xin-ga-po.",
         "socraticPrompt": "Nước phát triển nhất ĐNA là nước nào?"
-      }
+      },
+      "socraticPrompt": "Nước phát triển nhất ĐNA là nước nào?",
+      "distractorReasons": [
+        "Sai vì 'Cam-pu-chia' không phù hợp với định lý/quy tắc trọng tâm (Singapore).",
+        "Sai vì 'Lào' không phù hợp với định lý/quy tắc trọng tâm (Singapore).",
+        "Đúng vì 'Xin-ga-po' phản ánh chuẩn xác kiến thức SGK: Singapore.",
+        "Sai vì 'Mi-an-ma' không phù hợp với định lý/quy tắc trọng tâm (Singapore)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

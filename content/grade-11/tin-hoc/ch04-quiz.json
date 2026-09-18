@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Mô hình mạng 5G và 6G tương lai tạo ra bước nhảy vọt nào cho nền kinh tế số?",
       "options": [
-        "Tốc độ siêu cao (hàng chục Gbps), độ trễ cực thấp (<1ms) mở đường cho xe tự hành, phẫu thuật từ xa và đô thị thông minh",
-        "Chỉ để xem video trên điện thoại nhanh hơn",
         "Thay thế hoàn toàn con người trong mọi việc",
+        "Chỉ để xem video trên điện thoại nhanh hơn",
+        "Tốc độ siêu cao (hàng chục Gbps), độ trễ cực thấp (<1ms) mở đường cho xe tự hành, phẫu thuật từ xa và đô thị thông minh",
         "Không khác gì mạng 3G cũ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Hạ tầng viễn thông 5G/6G là huyết mạch kết nối của cuộc Cách mạng công nghiệp 4.0.",
       "breakdown": {
         "concept": "Mạng 5G/6G và tương lai số",
         "steps": "Tốc độ Gbps, độ trễ cực thấp, xe tự hành và đô thị thông minh.",
         "socraticPrompt": "Mạng 5G/6G mang lại bước ngoặt gì cho xã hội?"
-      }
+      },
+      "socraticPrompt": "Mạng 5G/6G mang lại bước ngoặt gì cho xã hội?",
+      "distractorReasons": [
+        "Sai vì 'Thay thế hoàn toàn con người trong mọi việc' không phù hợp với định lý/quy tắc trọng tâm (Mạng 5G/6G và tương lai số).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ để xem video trên điện thoại nhanh hơn', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Mạng 5G/6G và tương lai số: Tốc độ Gbps, độ trễ cực thấp, xe tự hành và đô thị thông minh.",
+        "Sai vì phủ định sai bản chất: 'Không khác gì mạng 3G cũ' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Sự chuyển đổi từ IPv4 sang IPv6 trên quy mô quốc gia có tầm quan trọng chiến lược là",
       "options": [
-        "Bảo đảm đủ tài nguyên địa chỉ cho hàng tỷ thiết bị IoT kết nối Internet an toàn, bền vững",
+        "Không cần thiết",
         "Chỉ là sự thay đổi số đếm",
         "Gây lãng phí tài nguyên",
-        "Không cần thiết"
+        "Bảo đảm đủ tài nguyên địa chỉ cho hàng tỷ thiết bị IoT kết nối Internet an toàn, bền vững"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Việt Nam là một trong những quốc gia dẫn đầu thế giới về tỷ lệ chuyển đổi sang IPv6.",
       "breakdown": {
         "concept": "Chiến lược chuyển đổi IPv6",
         "steps": "Đảm bảo tài nguyên địa chỉ cho hàng tỷ thiết bị IoT.",
         "socraticPrompt": "Tại sao chuyển đổi sang IPv6 là bắt buộc?"
-      }
+      },
+      "socraticPrompt": "Tại sao chuyển đổi sang IPv6 là bắt buộc?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần thiết' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là sự thay đổi số đếm', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Gây lãng phí tài nguyên' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược chuyển đổi IPv6).",
+        "Đúng vì theo Chiến lược chuyển đổi IPv6: Đảm bảo tài nguyên địa chỉ cho hàng tỷ thiết bị IoT."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Nguyên lý Zero Trust",
         "steps": "Never trust, always verify.",
         "socraticPrompt": "Nguyên lý bảo mật Zero Trust là gì?"
-      }
+      },
+      "socraticPrompt": "Nguyên lý bảo mật Zero Trust là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Nguyên lý Zero Trust: Never trust, always verify.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tin tưởng tuyệt đối tất cả các thiết bị nội bộ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không cần đặt mật khẩu' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ bảo vệ cổng ngoài', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Nghẽn cổ chai mạng' (Network Bottleneck) xảy ra khi nào?",
       "options": [
-        "Lưu lượng dữ liệu vượt quá băng thông tối đa của một nút mạng hoặc đường truyền, gây chậm trễ toàn hệ thống",
         "Khi máy tính tắt nguồn",
+        "Lưu lượng dữ liệu vượt quá băng thông tối đa của một nút mạng hoặc đường truyền, gây chậm trễ toàn hệ thống",
         "Khi không có ai dùng mạng",
         "Khi cáp quang được bọc thép"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Tối ưu hóa kiến trúc mạng giúp giải tỏa các điểm nghẽn lưu lượng.",
       "breakdown": {
         "concept": "Nghẽn cổ chai mạng",
         "steps": "Dữ liệu vượt băng thông, gây chậm toàn mạng.",
         "socraticPrompt": "Nghẽn cổ chai trong mạng máy tính là hiện tượng gì?"
-      }
+      },
+      "socraticPrompt": "Nghẽn cổ chai trong mạng máy tính là hiện tượng gì?",
+      "distractorReasons": [
+        "Sai vì 'Khi máy tính tắt nguồn' không phù hợp với định lý/quy tắc trọng tâm (Nghẽn cổ chai mạng).",
+        "Đúng vì theo Nghẽn cổ chai mạng: Dữ liệu vượt băng thông, gây chậm toàn mạng.",
+        "Sai vì phủ định sai bản chất: 'Khi không có ai dùng mạng' trái ngược với kiến thức SGK.",
+        "Sai vì 'Khi cáp quang được bọc thép' không phù hợp với định lý/quy tắc trọng tâm (Nghẽn cổ chai mạng)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Huyết mạch cáp quang biển",
         "steps": "Truyền 95% dữ liệu quốc tế bằng sợi quang.",
         "socraticPrompt": "Tại sao sự cố đứt cáp quang biển lại làm mạng quốc tế bị chậm?"
-      }
+      },
+      "socraticPrompt": "Tại sao sự cố đứt cáp quang biển lại làm mạng quốc tế bị chậm?",
+      "distractorReasons": [
+        "Đúng vì theo Huyết mạch cáp quang biển: Truyền 95% dữ liệu quốc tế bằng sợi quang.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng để cấp điện cho các đảo', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có vai trò gì quan trọng' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ quân sự bí mật', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thế hệ trẻ Việt Nam đóng góp vào công cuộc xây dựng 'Quốc gia số' bắt đầu từ",
       "options": [
-        "Làm chủ tri thức mạng, học tập công nghệ viễn thông mới và sáng tạo các giải pháp IoT phục vụ nông nghiệp, y tế",
+        "Lãng phí thời gian vào mạng vô bổ",
         "Phụ thuộc hoàn toàn vào phần mềm ngoại",
         "Tránh né học hỏi khoa học kỹ thuật",
-        "Lãng phí thời gian vào mạng vô bổ"
+        "Làm chủ tri thức mạng, học tập công nghệ viễn thông mới và sáng tạo các giải pháp IoT phục vụ nông nghiệp, y tế"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Khát vọng đưa Việt Nam trở thành quốc gia công nghệ phát triển hàng đầu.",
       "breakdown": {
         "concept": "Kiến tạo Quốc gia số",
         "steps": "Làm chủ công nghệ mạng và sáng tạo giải pháp IoT.",
         "socraticPrompt": "Thanh niên Việt Nam làm gì để phát triển hạ tầng số quốc gia?"
-      }
+      },
+      "socraticPrompt": "Thanh niên Việt Nam làm gì để phát triển hạ tầng số quốc gia?",
+      "distractorReasons": [
+        "Sai vì 'Lãng phí thời gian vào mạng vô bổ' không phù hợp với định lý/quy tắc trọng tâm (Kiến tạo Quốc gia số).",
+        "Sai vì 'Phụ thuộc hoàn toàn vào phần mềm ngoại' không phù hợp với định lý/quy tắc trọng tâm (Kiến tạo Quốc gia số).",
+        "Sai vì 'Tránh né học hỏi khoa học kỹ thuật' không phù hợp với định lý/quy tắc trọng tâm (Kiến tạo Quốc gia số).",
+        "Đúng vì theo Kiến tạo Quốc gia số: Làm chủ công nghệ mạng và sáng tạo giải pháp IoT."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

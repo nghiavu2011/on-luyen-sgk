@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng cấu trúc văn bản thông tin.?",
+      "distractorReasons": [
+        "Sai vì 'Viết dưới dạng các câu thơ 7 chữ' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng cấu trúc văn bản thông tin.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sử dụng nhiều biện pháp nhân hóa và hư cấu kỳ ảo' (Văn bản thông tin không sử dụng yếu tố kỳ ảo hư cấu.).",
+        "Đúng vì theo Đặc trưng cấu trúc văn bản thông tin.: Cấu trúc phân tầng đề mục và số liệu giúp tối ưu hóa việc tiếp nhận tri thức khoa học.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gồm một đoạn văn dài không có tiêu đề', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng của dấu ngoặc kép.?",
+      "distractorReasons": [
+        "Sai vì 'Báo hiệu phần giải thích ngữ pháp' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của dấu ngoặc kép.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đánh dấu lời dẫn trực tiếp của một nhà khoa học' (Không phải lời dẫn trực tiếp hay tên tác phẩm.).",
+        "Sai vì 'Đánh dấu tên một cuốn tiểu thuyết nổi tiếng' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của dấu ngoặc kép.).",
+        "Đúng vì theo Công dụng của dấu ngoặc kép.: 'ngôi nhà chung' là hình ảnh ẩn dụ ví Trái Đất như một mái ấm gia đình chung của tất cả sinh vật."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được mục đích và chức năng của văn bản biên bản.?",
+      "distractorReasons": [
+        "Đúng vì theo Mục đích và chức năng của văn bản biên bản.: Biên bản có giá trị pháp lý làm căn cứ minh chứng cho những điều đã được thống nhất trong cuộc họp.",
+        "Sai vì 'Bày tỏ cảm xúc nhớ thương bạn bè' không phù hợp với định lý/quy tắc trọng tâm (Mục đích và chức năng của văn bản biên bản.).",
+        "Sai vì 'Kể lại một câu chuyện cổ tích hấp dẫn' không phù hợp với định lý/quy tắc trọng tâm (Mục đích và chức năng của văn bản biên bản.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Quảng cáo sản phẩm đồ dùng học tập' (Biên bản không dùng để bộc lộ cảm xúc chủ quan hay quảng cáo.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục chuẩn của biên bản hành chính.?",
+      "distractorReasons": [
+        "Sai vì '2 phần: Lời mở đầu và thơ ca' không phù hợp với định lý/quy tắc trọng tâm (Bố cục chuẩn của biên bản hành chính.).",
+        "Đúng vì theo Bố cục chuẩn của biên bản hành chính.: Thể thức 3 phần đảm bảo tính pháp lý: Mở đầu -> Nội dung thảo luận -> Chữ ký xác nhận của chủ tọa và thư ký.",
+        "Sai vì '1 phần duy nhất là danh sách điểm danh' không phù hợp với định lý/quy tắc trọng tâm (Bố cục chuẩn của biên bản hành chính.).",
+        "Sai vì '4 phần' không phù hợp với định lý/quy tắc trọng tâm (Bố cục chuẩn của biên bản hành chính.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phẩm chất và nguyên tắc ghi chép biên bản.?",
+      "distractorReasons": [
+        "Sai vì 'Phải viết bài thật dài trên 10 trang giấy' không phù hợp với định lý/quy tắc trọng tâm (Phẩm chất và nguyên tắc ghi chép biên bản.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phải viết chữ hoa mỹ bay bướm như thư pháp' (Thêm bớt ý kiến cá nhân là vi phạm đạo đức thư ký.).",
+        "Đúng vì theo Phẩm chất và nguyên tắc ghi chép biên bản.: Khách quan, trung thực là linh hồn của văn bản hành chính công vụ.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ ghi lại ý kiến của những người mình thích', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: ý thức về tính xác thực và đạo đức trích dẫn khoa học.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có giá trị gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Làm cho bài viết khó đọc hơn để thể hiện độ khó' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Ý thức về tính xác thực và đạo đức trích dẫn khoa học.).",
+        "Sai vì 'Để khoe khoang vốn hiểu biết uyên bác' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Ý thức về tính xác thực và đạo đức trích dẫn khoa học.).",
+        "Đúng vì: Thông tin không có nguồn kiểm chứng chỉ là tin đồn vô căn cứ; nguồn trích dẫn tạo nên giá trị học thuật."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

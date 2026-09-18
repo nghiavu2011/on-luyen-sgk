@@ -31,7 +31,16 @@
           "2": "Chất xúc tác chỉ làm tăng tốc độ đạt cân bằng, không làm chuyển dịch.",
           "3": "Tăng thể tích tương đương với việc giảm áp suất chung của hệ khí."
         }
-      }
+      },
+      "socraticPrompt": "Khi phản ứng tỏa nhiệt ($\\Delta_r H < 0$) và giảm số mol khí ($3 \\rightarrow 2$), muốn sang chiều thuận cần làm gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tăng nhiệt độ của hệ phản ứng và giảm áp suất chung của hệ' (dấu $\\Delta_r H < 0$ là thu nhiệt, hoặc nhầm chiều tăng áp suất chuyển dịch về nơi nhiều mol khí hơn).",
+        "Đúng vì: $\\Delta_r H < 0 \\Rightarrow$ giảm $T$ cân bằng dịch chiều thuận. Số mol khí giảm ($3 \\rightarrow 2$) $\\Rightarrow$ tăng $P$ dịch chiều thuận.",
+        "Sai vì 'Thêm chất xúc tác thích hợp vào bình phản ứng ở nhiệt độ cao' không phù hợp với định lý/quy tắc trọng tâm (Sự chuyển dịch cân bằng dưới tác động của nhiệt độ và áp suất).",
+        "Sai vì 'Tăng thể tích của bình phản ứng trong khi giữ nhiệt độ cố định' không phù hợp với định lý/quy tắc trọng tâm (Sự chuyển dịch cân bằng dưới tác động của nhiệt độ và áp suất)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch01-de02-q02",
@@ -55,7 +64,16 @@
           "2": "Tính sai số mol dẫn đến nồng độ ion hydroxide bị lệch 10 lần.",
           "3": "Nghĩ rằng lượng chất tan quá nhỏ thì dung dịch xem như trung tính."
         }
-      }
+      },
+      "socraticPrompt": "Em hãy tính số mol của NaOH, suy ra nồng độ $[OH^-]$, rồi tính $pOH$ và $pH$ theo công thức liên hệ.",
+      "distractorReasons": [
+        "Sai vì 'Giá trị $pH$ bằng 4 với môi trường acid rõ rệt' không phù hợp với định lý/quy tắc trọng tâm (Tính $pH$ của dung dịch base mạnh đơn chức).",
+        "Sai vì 'Giá trị $pH$ bằng 11 với nồng độ ion hydroxide lớn' không phù hợp với định lý/quy tắc trọng tâm (Tính $pH$ của dung dịch base mạnh đơn chức).",
+        "Đúng vì theo Tính $pH$ của dung dịch base mạnh đơn chức: $n_{NaOH} = \\frac{0,004}{40} = 10^{-4}\\text{ mol} \\Rightarrow [OH^-] = 10^{-4}\\text{ M} \\Rightarrow pOH = 4 \\Rightarrow pH = 14 - 4 = 10$.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giá trị $pH$ bằng 7 tương đương với nước cất trung tính' (Học sinh tính ra số mũ 4 và vội vàng kết luận $pH = 4$ mà quên đây là dung dịch kiềm.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch01-de02-q03",
@@ -79,7 +97,16 @@
           "1": "Đây không phải là phản ứng có sự thay đổi số oxi hoá của các nguyên tố.",
           "3": "Ion này trực tiếp tham gia cho nhận proton nên không thể trung tính."
         }
-      }
+      },
+      "socraticPrompt": "Hãy quan sát sự thay đổi của ion $HCO_3^-$ sau phản ứng, nó đã cho đi hay nhận thêm hạt $H^+$?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đóng vai trò là một base vì nó đã nhận proton từ nước' (Nhớ máy móc $HCO_3^-$ là base do thường gặp trong phản ứng với acid mạnh.).",
+        "Sai vì 'Đóng vai trò là chất oxi hoá do có nguyên tố carbon' không phù hợp với định lý/quy tắc trọng tâm (Tính lưỡng tính của ion hydrocarbonate ($HCO_3^-$)).",
+        "Sai vì phủ định sai bản chất: 'Đóng vai trò là chất trung tính không tham gia cho nhận' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Tính lưỡng tính của ion hydrocarbonate ($HCO_3^-$): $HCO_3^-$ nhường $H^+$ cho $H_2O$ để tạo thành $CO_3^{2-}$ và $H_3O^+$. Vậy $HCO_3^-$ là một acid."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch01-de02-q04",
@@ -103,7 +130,16 @@
           "1": "Bỏ qua hiện tượng nồng độ bị tăng vọt ngay tại thời điểm nén ống tiêm.",
           "2": "Tăng áp suất phải làm cân bằng dịch chuyển sang chiều giảm số mol khí."
         }
-      }
+      },
+      "socraticPrompt": "Khi giảm thể tích bình, nồng độ các chất khí biến đổi thế nào trước khi cân bằng phản ứng lại?",
+      "distractorReasons": [
+        "Đúng vì: Khi nén thể tích: nồng độ $[NO_2]$ tăng tức thì $\\rightarrow$ màu đậm lên. Sau đó áp suất tăng làm cân bằng dịch chuyển sang trái (chiều giảm mol khí, từ 2 về 1.",
+        "Sai vì 'Màu của hỗn hợp khí nhạt dần ngay lập tức và hoàn toàn mất màu' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt giữa tác động vật lý ban đầu và chiều chuyển dịch cân bằng).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cân bằng chuyển dịch sang chiều thuận làm tăng số mol các khí' (Chỉ nghĩ đến chiều chuyển dịch mà bỏ qua sự tăng nồng độ tức thì do thể tích bị thu hẹp.).",
+        "Sai vì 'Màu nâu đỏ đậm lên tức thì rồi sau đó tiếp tục đậm hơn nữa' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt giữa tác động vật lý ban đầu và chiều chuyển dịch cân bằng)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch01-de02-q05",
@@ -127,7 +163,16 @@
           "1": "Trong mạng tinh thể rắn, các ion bị giữ chặt ở nút mạng, không di chuyển.",
           "3": "Dung dịch đường phân li thành các phân tử trung hòa, không mang điện."
         }
-      }
+      },
+      "socraticPrompt": "Trong trạng thái nào thì các ion $Na^+$ và $Cl^-$ có thể chuyển động tự do để tải điện tích?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Nước cất tinh khiết đã qua lọc khử toàn bộ khoáng chất', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tinh thể muối ăn sodium chloride dạng rắn và khô ráo' (Nghĩ rằng muối rắn chứa ion sẵn thì sẽ dẫn điện tốt (muối rắn các ion bị khóa chặt trong tinh thể).).",
+        "Đúng vì: NaCl tan trong nước tạo ra các ion tự do chuyển động: $NaCl \\rightarrow Na^+ + Cl^-$, giúp tải dòng điện.",
+        "Sai vì 'Dung dịch đường glucose nồng độ cao trong nước cất sạch' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện để một vật thể dẫn điện (có hạt mang điện chuyển động tự do))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch01-de02-q06",
@@ -151,7 +196,16 @@
           "2": "Tính ngược tỉ số thể tích: $\\frac{0,1 \\cdot 10}{15} \\approx 0,067\\text{ M}$.",
           "3": "Tính nhầm số mol do không đổi đúng đơn vị thể tích sang lít."
         }
-      }
+      },
+      "socraticPrompt": "Tại điểm tương đương, số mol ion $H^+$ của acid phản ứng thế nào với số mol ion $OH^-$ của base?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch acid ban đầu có nồng độ đúng bằng $0,10\\text{ M}$' (Lấy nhầm thể tích hoặc chia ngược tỉ lệ thể tích giữa acid và base.).",
+        "Đúng vì: Phản ứng: $HCl + NaOH \\rightarrow NaCl + H_2O$. Ta có $n_{HCl} = n_{NaOH} \\Rightarrow C_A \\cdot V_A = C_B \\cdot V_B \\Rightarrow C_A = \\frac{0,1 \\cdot 15}{10} = .",
+        "Sai vì 'Dung dịch acid ban đầu có nồng độ đúng bằng $0,067\\text{ M}$' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc bảo toàn số mol tại điểm tương đương của chuẩn độ acid - base).",
+        "Sai vì 'Dung dịch acid ban đầu có nồng độ đúng bằng $0,20\\text{ M}$' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc bảo toàn số mol tại điểm tương đương của chuẩn độ acid - base)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

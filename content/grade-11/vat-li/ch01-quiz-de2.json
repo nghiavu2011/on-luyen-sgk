@@ -22,7 +22,16 @@
         "socraticPrompt": "30 dao động trong 15 giây thì 1 giây thực hiện được mấy dao động? Lấy kết quả nhân 2π?",
         "steps": "Tần số f = 30 / 15 = 2 Hz. Tần số góc: ω = 2πf = 2π · 2 = 4π rad/s.",
         "trap": "Nhầm f với T = 15/30 = 0,5s rồi quên nhân 2π."
-      }
+      },
+      "socraticPrompt": "30 dao động trong 15 giây thì 1 giây thực hiện được mấy dao động? Lấy kết quả nhân 2π?",
+      "distractorReasons": [
+        "Đúng vì: Tần số f = 30 / 15 = 2 Hz. Tần số góc: ω = 2πf = 2π · 2 = 4π rad/s.",
+        "Sai vì '2π rad/s' không phù hợp với định lý/quy tắc trọng tâm (Tần số f = N / t (số dao động chia thời gian). Tần số góc ω = 2πf.).",
+        "Sai vì 'π rad/s' không phù hợp với định lý/quy tắc trọng tâm (Tần số f = N / t (số dao động chia thời gian). Tần số góc ω = 2πf.).",
+        "Sai vì '2 rad/s' không phù hợp với định lý/quy tắc trọng tâm (Tần số f = N / t (số dao động chia thời gian). Tần số góc ω = 2πf.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c1_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Căn bậc hai của 10² - 6² = 100 - 36 = 64 là mấy? Nhân thêm ω = 10?",
         "steps": "|v| = ω · √(A² - x²) = 10 · √(10² - 6²) = 10 · √64 = 10 · 8 = 80 cm/s.",
         "trap": "Nhầm lấy |v| = ω(A - x) = 10 · 4 = 40 cm/s."
-      }
+      },
+      "socraticPrompt": "Căn bậc hai của 10² - 6² = 100 - 36 = 64 là mấy? Nhân thêm ω = 10?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '60 cm/s' (lấy |v| = ω(A - x) = 10 · 4 = 40 cm/s).",
+        "Sai vì '100 cm/s' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng hệ thức độc lập thời gian: A² = x² + v² / ω² => |v| = ω√(A² - x²).).",
+        "Đúng vì: |v| = ω · √(A² - x²) = 10 · √(10² - 6²) = 10 · √64 = 10 · 8 = 80 cm/s.",
+        "Sai vì '40 cm/s' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng hệ thức độc lập thời gian: A² = x² + v² / ω² => |v| = ω√(A² - x²).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c1_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Gia tốc cực đại bằng tần số góc ω nhân vận tốc cực đại v_max: 5π nhân 20π?",
         "steps": "Từ phương trình vận tốc: v_max = 20π cm/s và ω = 5π rad/s. Suy ra gia tốc cực đại: a_max = ω · v_max = 5π · 20π = 100π² cm/s² = 10 m/s² (nếu lấy π² ≈ 10).",
         "trap": "Lấy nhầm a_max = v_max = 20π."
-      }
+      },
+      "socraticPrompt": "Gia tốc cực đại bằng tần số góc ω nhân vận tốc cực đại v_max: 5π nhân 20π?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '20π cm/s²' (Lấy nhầm a_max = v_max = 20π.).",
+        "Đúng vì: Từ phương trình vận tốc: v_max = 20π cm/s và ω = 5π rad/s. Suy ra gia tốc cực đại: a_max = ω · v_max = 5π · 20π = 100π² cm/s² = 10 m/s² (nếu lấy π² ≈ 10).",
+        "Sai vì '4π cm/s²' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '50π² cm/s²' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c1_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Đi qua VTCB theo chiều dương thì véc tơ quay nằm ở nửa dưới đường tròn lượng giác, góc bằng bao nhiêu?",
         "steps": "Tại t = 0, x = A cos φ = 0 => cos φ = 0 => φ = ±π/2. Vì vật chuyển động theo chiều dương (v > 0) nên φ mang dấu âm: φ = -π/2.",
         "trap": "Nhầm chiều dương thì φ = +π/2."
-      }
+      },
+      "socraticPrompt": "Đi qua VTCB theo chiều dương thì véc tơ quay nằm ở nửa dưới đường tròn lượng giác, góc bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 'φ = 0' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'φ = π' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'φ = π/2' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tại t = 0, x = A cos φ = 0 => cos φ = 0 => φ = ±π/2. Vì vật chuyển động theo chiều dương (v > 0) nên φ mang dấu âm: φ = -π/2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c1_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Khi thế năng bằng một nửa cơ năng thì x bình phương bằng A bình chia 2, khai căn được gì?",
         "steps": "Ta có W = Wt + Wd = 2Wt. Do đó 1/2 k A² = 2 · (1/2 k x²) <=> x² = A² / 2 <=> x = ±A / √2 = ±A√2 / 2.",
         "trap": "Đoán vị trí chính giữa x = ±A/2 (tại đó thế năng chỉ bằng 1/4 cơ năng, động năng bằng 3 lần thế năng)."
-      }
+      },
+      "socraticPrompt": "Khi thế năng bằng một nửa cơ năng thì x bình phương bằng A bình chia 2, khai căn được gì?",
+      "distractorReasons": [
+        "Đúng vì: Ta có W = Wt + Wd = 2Wt. Do đó 1/2 k A² = 2 · (1/2 k x²) <=> x² = A² / 2 <=> x = ±A / √2 = ±A√2 / 2.",
+        "Sai vì 'x = ±A / 2' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'x = ±A√3 / 2' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'x = 0' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c1_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "A tăng lên 3 lần thì A bình phương tăng lên mấy lần?",
         "steps": "Vì cơ năng W = 1/2 k A² tỉ lệ thuận với A², nên khi biên độ tăng 3 lần (A' = 3A) thì cơ năng mới W' = 1/2 k (3A)² = 9 · (1/2 k A²) = 9W.",
         "trap": "Nhầm cơ năng tỉ lệ bậc nhất với A dẫn đến chọn tăng 3 lần."
-      }
+      },
+      "socraticPrompt": "A tăng lên 3 lần thì A bình phương tăng lên mấy lần?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tăng lên 3 lần' (cơ năng tỉ lệ bậc nhất với A dẫn đến chọn tăng 3 lần).",
+        "Sai vì 'Tăng lên 6 lần' không phù hợp với định lý/quy tắc trọng tâm (Cơ năng tỉ lệ thuận với bình phương biên độ dao động: W = 1/2 k A².).",
+        "Đúng vì: Vì cơ năng W = 1/2 k A² tỉ lệ thuận với A², nên khi biên độ tăng 3 lần (A' = 3A) thì cơ năng mới W' = 1/2 k (3A)² = 9 · (1/2 k A²) = 9W.",
+        "Sai vì phủ định sai bản chất: 'Không đổi' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -20,97 +20,151 @@
         "concept": "Mục tiêu CMTS",
         "steps": "Xóa bỏ phong kiến, phát triển TBCN.",
         "socraticPrompt": "Ai là giai cấp thúc đẩy cách mạng?"
-      }
+      },
+      "socraticPrompt": "Ai là giai cấp thúc đẩy cách mạng?",
+      "distractorReasons": [
+        "Đúng vì theo Mục tiêu CMTS: Xóa bỏ phong kiến, phát triển TBCN.",
+        "Sai vì 'Xóa bỏ hoàn toàn chế độ tư hữu tư nhân' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu CMTS).",
+        "Sai vì 'Thiết lập quyền thống trị của giai cấp nông dân' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu CMTS).",
+        "Sai vì 'Bảo vệ ngôi vua và giáo hội' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu CMTS)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Lực lượng giữ vai trò động lực chính trong các cuộc cách mạng tư sản là",
       "options": [
-        "Quần chúng nhân dân lao động",
         "Quý tộc phong kiến bảo thủ",
+        "Quần chúng nhân dân lao động",
         "Tăng lữ giáo hội",
         "Vua và triều đình"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Quần chúng nhân dân là lực lượng đông đảo và quyết định nhất.",
       "breakdown": {
         "concept": "Động lực CMTS",
         "steps": "Quần chúng nhân dân trực tiếp tham gia chiến đấu.",
         "socraticPrompt": "Lực lượng nào chiếm đa số trong xã hội?"
-      }
+      },
+      "socraticPrompt": "Lực lượng nào chiếm đa số trong xã hội?",
+      "distractorReasons": [
+        "Sai vì 'Quý tộc phong kiến bảo thủ' không phù hợp với định lý/quy tắc trọng tâm (Động lực CMTS).",
+        "Đúng vì theo Động lực CMTS: Quần chúng nhân dân trực tiếp tham gia chiến đấu.",
+        "Sai vì 'Tăng lữ giáo hội' không phù hợp với định lý/quy tắc trọng tâm (Động lực CMTS).",
+        "Sai vì 'Vua và triều đình' không phù hợp với định lý/quy tắc trọng tâm (Động lực CMTS)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Cuộc cách mạng tư sản triệt để nhất thời cận đại là",
       "options": [
-        "Cách mạng tư sản Pháp 1789",
-        "Cách mạng tư sản Anh 1642",
         "Cách mạng Hà Lan thế kỉ XVI",
+        "Cách mạng tư sản Anh 1642",
+        "Cách mạng tư sản Pháp 1789",
         "Chiến tranh giành độc lập Bắc Mỹ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Cách mạng Pháp xóa bỏ triệt để phong kiến và ban hành Tuyên ngôn Nhân quyền.",
       "breakdown": {
         "concept": "CMTS Pháp",
         "steps": "Đánh đổ hoàn toàn chế độ phong kiến.",
         "socraticPrompt": "Cuộc cách mạng nào có khẩu hiệu Tự do - Bình đẳng - Bác ái?"
-      }
+      },
+      "socraticPrompt": "Cuộc cách mạng nào có khẩu hiệu Tự do - Bình đẳng - Bác ái?",
+      "distractorReasons": [
+        "Sai vì 'Cách mạng Hà Lan thế kỉ XVI' không phù hợp với định lý/quy tắc trọng tâm (CMTS Pháp).",
+        "Sai vì 'Cách mạng tư sản Anh 1642' không phù hợp với định lý/quy tắc trọng tâm (CMTS Pháp).",
+        "Đúng vì theo CMTS Pháp: Đánh đổ hoàn toàn chế độ phong kiến.",
+        "Sai vì 'Chiến tranh giành độc lập Bắc Mỹ' không phù hợp với định lý/quy tắc trọng tâm (CMTS Pháp)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Tổ chức độc quyền là sự liên minh của các nhà tư bản nhằm",
       "options": [
-        "Chi phối sản xuất, thị trường và thu lợi nhuận độc quyền cao",
+        "Xóa bỏ kinh tế tư bản",
         "Bảo vệ quyền lợi công nhân",
         "Phân chia từ thiện cho người nghèo",
-        "Xóa bỏ kinh tế tư bản"
+        "Chi phối sản xuất, thị trường và thu lợi nhuận độc quyền cao"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Độc quyền nhằm khống chế thị trường để tối đa hóa lợi nhuận.",
       "breakdown": {
         "concept": "Tổ chức độc quyền",
         "steps": "Tập trung sản xuất tạo sức mạnh thâu tóm giá cả.",
         "socraticPrompt": "Tại sao các tập đoàn lại liên kết với nhau?"
-      }
+      },
+      "socraticPrompt": "Tại sao các tập đoàn lại liên kết với nhau?",
+      "distractorReasons": [
+        "Sai vì 'Xóa bỏ kinh tế tư bản' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức độc quyền).",
+        "Sai vì 'Bảo vệ quyền lợi công nhân' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức độc quyền).",
+        "Sai vì 'Phân chia từ thiện cho người nghèo' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức độc quyền).",
+        "Đúng vì theo Tổ chức độc quyền: Tập trung sản xuất tạo sức mạnh thâu tóm giá cả."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Đặc trưng nổi bật của chủ nghĩa đế quốc là",
       "options": [
-        "Xuất khẩu tư bản và phân chia thị trường thế giới",
         "Chỉ xuất khẩu hàng hóa nông sản",
+        "Xuất khẩu tư bản và phân chia thị trường thế giới",
         "Kinh tế tự cung tự cấp",
         "Không có sự can thiệp của tư bản tài chính"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Xuất khẩu tư bản là bản chất của chủ nghĩa đế quốc.",
       "breakdown": {
         "concept": "Chủ nghĩa đế quốc",
         "steps": "Đầu tư tư bản ra nước ngoài để bóc lột lợi nhuận cao.",
         "socraticPrompt": "Đặc trưng kinh tế cơ bản của chủ nghĩa đế quốc là gì?"
-      }
+      },
+      "socraticPrompt": "Đặc trưng kinh tế cơ bản của chủ nghĩa đế quốc là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ xuất khẩu hàng hóa nông sản', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Chủ nghĩa đế quốc: Đầu tư tư bản ra nước ngoài để bóc lột lợi nhuận cao.",
+        "Sai vì 'Kinh tế tự cung tự cấp' không phù hợp với định lý/quy tắc trọng tâm (Chủ nghĩa đế quốc).",
+        "Sai vì phủ định sai bản chất: 'Không có sự can thiệp của tư bản tài chính' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Triết học Ánh sáng thế kỉ XVIII tại Pháp chuẩn bị điều gì cho cách mạng?",
       "options": [
-        "Tiền đề tư tưởng tiến bộ soi đường cho quần chúng",
-        "Tiền đề vũ khí quân sự",
         "Căn cứ địa cách mạng",
+        "Tiền đề vũ khí quân sự",
+        "Tiền đề tư tưởng tiến bộ soi đường cho quần chúng",
         "Nguồn vốn tài chính cho triều đình"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Triết học Ánh sáng phê phán phong kiến và chuẩn bị tư tưởng.",
       "breakdown": {
         "concept": "Triết học Ánh sáng",
         "steps": "Khai sáng tư duy chính trị tiến bộ.",
         "socraticPrompt": "Tư tưởng của Montesquieu, Voltaire có vai trò gì?"
-      }
+      },
+      "socraticPrompt": "Tư tưởng của Montesquieu, Voltaire có vai trò gì?",
+      "distractorReasons": [
+        "Sai vì 'Căn cứ địa cách mạng' không phù hợp với định lý/quy tắc trọng tâm (Triết học Ánh sáng).",
+        "Sai vì 'Tiền đề vũ khí quân sự' không phù hợp với định lý/quy tắc trọng tâm (Triết học Ánh sáng).",
+        "Đúng vì theo Triết học Ánh sáng: Khai sáng tư duy chính trị tiến bộ.",
+        "Sai vì 'Nguồn vốn tài chính cho triều đình' không phù hợp với định lý/quy tắc trọng tâm (Triết học Ánh sáng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

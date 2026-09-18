@@ -22,7 +22,16 @@
         "socraticPrompt": "Công thức CnH2n+2 khi đốt cháy tạo n mol CO₂ và (n+1) mol H₂O. So sánh số mol hai sản phẩm?",
         "steps": "Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Vì n + 1 > n nên số mol H₂O luôn lớn hơn số mol CO₂.",
         "trap": "Nhầm với alkene (n_H₂O = n_CO₂) hoặc alkyne (n_H₂O < n_CO₂)."
-      }
+      },
+      "socraticPrompt": "Công thức CnH2n+2 khi đốt cháy tạo n mol CO₂ và (n+1) mol H₂O. So sánh số mol hai sản phẩm?",
+      "distractorReasons": [
+        "Đúng vì: Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Vì n + 1 > n nên số mol H₂O luôn lớn hơn số mol CO₂.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Alkene' (với alkene (n_H₂O = n_CO₂) hoặc alkyne (n_H₂O < n_CO₂)).",
+        "Sai vì 'Alkyne' không phù hợp với định lý/quy tắc trọng tâm (Đặc điểm phản ứng cháy của alkane: n_H₂O > n_CO₂ và n_alkane = n_H₂O - n_CO₂.).",
+        "Sai vì 'Arene' không phù hợp với định lý/quy tắc trọng tâm (Đặc điểm phản ứng cháy của alkane: n_H₂O > n_CO₂ và n_alkane = n_H₂O - n_CO₂.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c4_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Nguyên tử H cộng vào carbon mang nhiều H hơn (=CH₂ thành -CH₃), nguyên tử Cl cộng vào carbon mang ít H hơn (-CH=).",
         "steps": "Theo quy tắc Markovnikov: H cộng vào carbon số 1 (chứa 2H), Cl cộng vào carbon số 2 (chứa 1H) tạo thành sản phẩm chính là 2-chloropropane: CH₃-CH(Cl)-CH₃.",
         "trap": "Chọn 1-chloropropane (đây là sản phẩm phụ)."
-      }
+      },
+      "socraticPrompt": "Nguyên tử H cộng vào carbon mang nhiều H hơn (=CH₂ thành -CH₃), nguyên tử Cl cộng vào carbon mang ít H hơn (-CH=).",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1-chloropropane' (Chọn 1-chloropropane (đây là sản phẩm phụ).).",
+        "Sai vì '1,2-dichloropropane' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc cộng Markovnikov khi cộng HX vào alkene bất đối xứng.).",
+        "Đúng vì: Theo quy tắc Markovnikov: H cộng vào carbon số 1 (chứa 2H), Cl cộng vào carbon số 2 (chứa 1H) tạo thành sản phẩm chính là 2-chloropropane: CH₃-CH(Cl)-CH₃.",
+        "Sai vì 'Propyl chloride' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc cộng Markovnikov khi cộng HX vào alkene bất đối xứng.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c4_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Nhóm methyl (-CH₃) đẩy electron làm tăng mật độ điện tích âm ở những vị trí nào trên vòng?",
         "steps": "Nhóm -CH₃ là nhóm đẩy electron, hoạt hóa nhân thơm và định hướng các tác nhân thế electrophile ưu tiên tấn công vào vị trí ortho (o-) và para (p-).",
         "trap": "Nhầm với nhóm hút electron (như -NO₂, -COOH) vốn định hướng vào vị trí meta."
-      }
+      },
+      "socraticPrompt": "Nhóm methyl (-CH₃) đẩy electron làm tăng mật độ điện tích âm ở những vị trí nào trên vòng?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ vào vị trí meta' (với nhóm hút electron (như -NO₂, -COOH) vốn định hướng vào vị trí meta).",
+        "Đúng vì: Nhóm -CH₃ là nhóm đẩy electron, hoạt hóa nhân thơm và định hướng các tác nhân thế electrophile ưu tiên tấn công vào vị trí ortho (o-) và para (p-).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ vào vị trí para', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Ưu tiên vào vị trí meta và para' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc định hướng thế của nhóm alkyl đẩy electron trên vòng benzene.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c4_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Tên của polymer được hình thành bằng cách ghép từ 'Poly' phía trước tên của monomer tương ứng.",
         "steps": "Phương trình phản ứng trùng hợp: n CH₂=CH₂ → (-CH₂-CH₂-)n. Sản phẩm là Polyethylene (nhựa PE), được sử dụng rất phổ biến để sản xuất túi nylon, màng bọc thực phẩm.",
         "trap": "Nhầm với Polypropylene vốn được trùng hợp từ propylene."
-      }
+      },
+      "socraticPrompt": "Tên của polymer được hình thành bằng cách ghép từ 'Poly' phía trước tên của monomer tương ứng.",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Polypropylene (PP)' (với Polypropylene vốn được trùng hợp từ propylene).",
+        "Sai vì 'Polyvinyl chloride (PVC)' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng trùng hợp của alkene tạo polymer mạch dài.).",
+        "Sai vì 'Polystyrene (PS)' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng trùng hợp của alkene tạo polymer mạch dài.).",
+        "Đúng vì theo Phản ứng trùng hợp của alkene tạo polymer mạch dài.: Phương trình phản ứng trùng hợp: n CH₂=CH₂ → (-CH₂-CH₂-)n. Sản phẩm là Polyethylene (nhựa PE), được sử dụng rất phổ biến để sản xuất túi nylon, màng bọc thực ph."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c4_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Tỉ lệ mol phản ứng giữa C₂H₄ và Br₂ là 1 : 1. Khối lượng mol của phân tử Br₂ là 160 g/mol.",
         "steps": "Phương trình phản ứng: C₂H₄ + Br₂ → C₂H₄Br₂. Ta có n_Br₂ = n_C₂H₄ = 0.2 mol. Khối lượng bromine phản ứng là: m_Br₂ = 0.2 · 160 = 32.0 gam.",
         "trap": "Lấy khối lượng nguyên tử Br (80 g/mol) nhân 0.2 ra 16.0 gam mà quên phân tử bromine là Br₂."
-      }
+      },
+      "socraticPrompt": "Tỉ lệ mol phản ứng giữa C₂H₄ và Br₂ là 1 : 1. Khối lượng mol của phân tử Br₂ là 160 g/mol.",
+      "distractorReasons": [
+        "Sai vì '16.0 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính toán theo phương trình hoá học phản ứng cộng halogen của alkene.).",
+        "Sai vì '64.0 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính toán theo phương trình hoá học phản ứng cộng halogen của alkene.).",
+        "Đúng vì: Phương trình phản ứng: C₂H₄ + Br₂ → C₂H₄Br₂. Ta có n_Br₂ = n_C₂H₄ = 0.2 mol. Khối lượng bromine phản ứng là: m_Br₂ = 0.2 · 160 = 32.0 gam.",
+        "Sai vì '8.0 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính toán theo phương trình hoá học phản ứng cộng halogen của alkene.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c4_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "1 mol CnH2n+2 cần (3n+1)/2 mol O₂. Đặt tỉ số (3n+1)/2 = n_O₂ / n_alkane = 0.5 / 0.1 = 5 để tìm n?",
         "steps": "Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Số mol O₂ phản ứng = 0.1 · (3n+1)/2 = 0.5 suy ra (3n+1)/2 = 5, tức là 3n + 1 = 10 hay n = 3. Vậy CTPT của X là C₃H₈ (propane).",
         "trap": "Tính nhầm (3n+1)/2 = 5 thành 3n = 10 dẫn đến sai số."
-      }
+      },
+      "socraticPrompt": "1 mol CnH2n+2 cần (3n+1)/2 mol O₂. Đặt tỉ số (3n+1)/2 = n_O₂ / n_alkane = 0.5 / 0.1 = 5 để tìm n?",
+      "distractorReasons": [
+        "Đúng vì: Phương trình cháy: CnH2n+2 + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O. Số mol O₂ phản ứng = 0.1 · (3n+1)/2 = 0.5 suy ra (3n+1)/2 = 5, tức là 3n + 1 = 10 hay n = 3. Vậy C.",
+        "Sai vì 'C₂H₆' không phù hợp với định lý/quy tắc trọng tâm (Xác định CTPT alkane thông qua hệ số phương trình phản ứng cháy.).",
+        "Sai vì 'CH₄' không phù hợp với định lý/quy tắc trọng tâm (Xác định CTPT alkane thông qua hệ số phương trình phản ứng cháy.).",
+        "Sai vì 'C₄H₁₀' không phù hợp với định lý/quy tắc trọng tâm (Xác định CTPT alkane thông qua hệ số phương trình phản ứng cháy.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

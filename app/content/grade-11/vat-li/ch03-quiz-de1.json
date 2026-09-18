@@ -22,7 +22,16 @@
         "socraticPrompt": "Từ hệ thức E = U / d, hiệu điện thế đo bằng Vôn (V) chia khoảng cách đo bằng mét (m) thì đơn vị là gì?",
         "steps": "Đơn vị đo cường độ điện trường trong hệ SI là V/m.",
         "trap": "Nhầm đơn vị của điện thế (Vôn) hoặc điện tích (Culông)."
-      }
+      },
+      "socraticPrompt": "Từ hệ thức E = U / d, hiệu điện thế đo bằng Vôn (V) chia khoảng cách đo bằng mét (m) thì đơn vị là gì?",
+      "distractorReasons": [
+        "Sai vì 'Jun (J)' không phù hợp với định lý/quy tắc trọng tâm (Cường độ điện trường có đơn vị là Vôn trên mét (V/m) hoặc Niutơn trên culông (N/C).).",
+        "Đúng vì: Đơn vị đo cường độ điện trường trong hệ SI là V/m.",
+        "Sai vì 'Fara (F)' không phù hợp với định lý/quy tắc trọng tâm (Cường độ điện trường có đơn vị là Vôn trên mét (V/m) hoặc Niutơn trên culông (N/C).).",
+        "Sai vì 'Cu-lông (C)' không phù hợp với định lý/quy tắc trọng tâm (Cường độ điện trường có đơn vị là Vôn trên mét (V/m) hoặc Niutơn trên culông (N/C).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c3_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lực điện tác dụng lên điện tích thử dương đặt gần điện tích dương có hướng đẩy ra xa hay hút lại gần?",
         "steps": "Điện tích dương gây ra điện trường hướng ra xa nó, do đó đường sức là những tia thẳng xuất phát từ điện tích hướng ra vô cực.",
         "trap": "Nhầm đường sức từ (đường cong khép kín)."
-      }
+      },
+      "socraticPrompt": "Lực điện tác dụng lên điện tích thử dương đặt gần điện tích dương có hướng đẩy ra xa hay hút lại gần?",
+      "distractorReasons": [
+        "Sai vì 'Những đường tròn đồng tâm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Những đường thẳng hướng về phía điện tích' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Điện tích dương gây ra điện trường hướng ra xa nó, do đó đường sức là những tia thẳng xuất phát từ điện tích hướng ra vô cực.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Những đường cong khép kín' (đường sức từ (đường cong khép kín))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c3_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Khoảng cách r tăng gấp đôi (r' = 2r) thì r bình phương tăng lên mấy lần và lực F giảm mấy lần?",
         "steps": "Theo định luật Coulomb: F = k|q1q2|/r². Khi r tăng 2 lần thì mẫu số r² tăng 4 lần, do đó lực F giảm đi 4 lần.",
         "trap": "Quên bình phương khoảng cách dẫn đến chọn giảm 2 lần."
-      }
+      },
+      "socraticPrompt": "Khoảng cách r tăng gấp đôi (r' = 2r) thì r bình phương tăng lên mấy lần và lực F giảm mấy lần?",
+      "distractorReasons": [
+        "Sai vì 'Tăng lên 2 lần' không phù hợp với định lý/quy tắc trọng tâm (Lực Coulomb tỉ lệ nghịch với bình phương khoảng cách: F ~ 1 / r².).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giảm đi 2 lần' (Quên bình phương khoảng cách dẫn đến chọn giảm 2 lần.).",
+        "Sai vì 'Tăng lên 4 lần' không phù hợp với định lý/quy tắc trọng tâm (Lực Coulomb tỉ lệ nghịch với bình phương khoảng cách: F ~ 1 / r².).",
+        "Đúng vì: Theo định luật Coulomb: F = k|q1q2|/r². Khi r tăng 2 lần thì mẫu số r² tăng 4 lần, do đó lực F giảm đi 4 lần."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c3_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Tương tự như trọng lực trong cơ học, lực tĩnh điện có công phụ thuộc vào đường đi vòng vèo hay chỉ điểm đầu - cuối?",
         "steps": "Công của lực điện trường A = qEd chỉ phụ thuộc điểm đầu và điểm cuối, không phụ thuộc đường đi.",
         "trap": "Chọn vị trí điểm đầu và điểm cuối."
-      }
+      },
+      "socraticPrompt": "Tương tự như trọng lực trong cơ học, lực tĩnh điện có công phụ thuộc vào đường đi vòng vèo hay chỉ điểm đầu - cuối?",
+      "distractorReasons": [
+        "Đúng vì: Công của lực điện trường A = qEd chỉ phụ thuộc điểm đầu và điểm cuối, không phụ thuộc đường đi.",
+        "Sai vì 'Độ lớn của điện tích dịch chuyển' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vị trí của điểm đầu và điểm cuối' (Chọn vị trí điểm đầu và điểm cuối.).",
+        "Sai vì 'Cường độ của điện trường' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c3_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Tên nhà bác học Michael Faraday được lấy đặt cho đơn vị đo đại lượng nào của tụ điện?",
         "steps": "Điện dung C = Q / U có đơn vị đo chuẩn là Fara (F).",
         "trap": "Nhầm với Henri (đơn vị độ tự cảm của cuộn cảm)."
-      }
+      },
+      "socraticPrompt": "Tên nhà bác học Michael Faraday được lấy đặt cho đơn vị đo đại lượng nào của tụ điện?",
+      "distractorReasons": [
+        "Đúng vì theo Đơn vị đo điện dung C là Fara (kí hiệu: F).: Điện dung C = Q / U có đơn vị đo chuẩn là Fara (F).",
+        "Sai vì 'Ôm (Ω)' không phù hợp với định lý/quy tắc trọng tâm (Đơn vị đo điện dung C là Fara (kí hiệu: F).).",
+        "Sai vì 'Hen-ri (H)' không phù hợp với định lý/quy tắc trọng tâm (Đơn vị đo điện dung C là Fara (kí hiệu: F).).",
+        "Sai vì 'Oát (W)' không phù hợp với định lý/quy tắc trọng tâm (Đơn vị đo điện dung C là Fara (kí hiệu: F).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c3_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Hiệu điện thế bằng tích của cường độ điện trường với hình chiếu khoảng cách nào?",
         "steps": "Theo SGK Vật lí 11, giữa hai bản tụ điện phẳng có điện trường đều thì U = E · d.",
         "trap": "Nhầm U = E / d."
-      }
+      },
+      "socraticPrompt": "Hiệu điện thế bằng tích của cường độ điện trường với hình chiếu khoảng cách nào?",
+      "distractorReasons": [
+        "Sai vì 'U = E / d' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức liên hệ trong điện trường đều: U = E · d <=> E = U / d.).",
+        "Sai vì 'E = U · d' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức liên hệ trong điện trường đều: U = E · d <=> E = U / d.).",
+        "Đúng vì: Theo SGK Vật lí 11, giữa hai bản tụ điện phẳng có điện trường đều thì U = E · d.",
+        "Sai vì 'E = U / d²' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức liên hệ trong điện trường đều: U = E · d <=> E = U / d.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

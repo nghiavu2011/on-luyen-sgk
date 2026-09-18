@@ -21,7 +21,16 @@
         "socraticPrompt": "Sự kết hợp giữa sợi trợ lực và nhựa dẻo tạo nên vật liệu có độ bền như thế nào so với kim loại?",
         "steps": "Composite kết hợp ưu điểm dẻo dai chống rỉ của nhựa và độ chịu lực cao của sợi cốt.",
         "trap": "Compozit không phải là một chất đơn thuần mà là vật liệu tổ hợp nhân tạo."
-      }
+      },
+      "socraticPrompt": "Sự kết hợp giữa sợi trợ lực và nhựa dẻo tạo nên vật liệu có độ bền như thế nào so với kim loại?",
+      "distractorReasons": [
+        "Sai vì 'Dễ tan trong nước và nhẹ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dẫn điện tốt như đồng và mềm dẻo như bơ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Composite kết hợp ưu điểm dẻo dai chống rỉ của nhựa và độ chịu lực cao của sợi cốt.",
+        "Sai vì 'Làm hoàn toàn từ đất sét nung ở nhiệt độ thấp' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c4_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Than cháy thiếu oxy sinh ra khí độc không màu không mùi có tên là gì?",
         "steps": "C + O2 (thiếu) -> CO cực độc -> chiếm chỗ O2 trong máu gây ngạt não tử vong trong giấc ngủ.",
         "trap": "Khí CO hoàn toàn không có mùi, nạn nhân không cảm nhận được nên tử vong êm dịu rất nguy hiểm."
-      }
+      },
+      "socraticPrompt": "Than cháy thiếu oxy sinh ra khí độc không màu không mùi có tên là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do than bốc mùi thơm làm người ngủ mê mệt' (Khí CO hoàn toàn không có mùi, nạn nhân không cảm nhận được nên tử vong êm dịu rất nguy hiểm.).",
+        "Sai vì 'Do tro than bay vào mắt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Do nhiệt độ trong phòng tăng quá cao làm cháy da' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: C + O2 (thiếu) -> CO cực độc -> chiếm chỗ O2 trong máu gây ngạt não tử vong trong giấc ngủ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c4_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Một chiếc túi nilon chôn dưới đất mất bao nhiêu năm mới phân huỷ hoàn toàn?",
         "steps": "Nhựa mất hàng trăm năm phân huỷ, biến thành vi nhựa gây độc hại chuỗi thức ăn.",
         "trap": "Ô nhiễm trắng là thuật ngữ chỉ rác thải nhựa nói chung, không nhất thiết túi nhựa phải có màu trắng."
-      }
+      },
+      "socraticPrompt": "Một chiếc túi nilon chôn dưới đất mất bao nhiêu năm mới phân huỷ hoàn toàn?",
+      "distractorReasons": [
+        "Đúng vì: Nhựa mất hàng trăm năm phân huỷ, biến thành vi nhựa gây độc hại chuỗi thức ăn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì rác thải nhựa có màu trắng xóa' (Ô nhiễm trắng là thuật ngữ chỉ rác thải nhựa nói chung, không nhất thiết túi nhựa phải có màu trắng.).",
+        "Sai vì 'Vì nhựa dễ dàng bốc cháy trong nước' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì động vật biển thích ăn nhựa để lớn nhanh' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c4_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "An ninh năng lượng đòi hỏi nguồn cung cấp năng lượng phải như thế nào đối với mọi hoạt động sản xuất của đất nước?",
         "steps": "Cung ứng năng lượng ổn định, bền vững, đa dạng hoá nguồn điện sạch và sử dụng tiết kiệm.",
         "trap": "Phụ thuộc vào nhập khẩu hoặc độc tôn một nguồn hoá thạch sẽ gây rủi ro an ninh nghiêm trọng."
-      }
+      },
+      "socraticPrompt": "An ninh năng lượng đòi hỏi nguồn cung cấp năng lượng phải như thế nào đối với mọi hoạt động sản xuất của đất nước?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mua thật nhiều than đá và dầu mỏ từ nước ngoài cất vào kho dự trữ' (Phụ thuộc vào nhập khẩu hoặc độc tôn một nguồn hoá thạch sẽ gây rủi ro an ninh nghiêm trọng.).",
+        "Đúng vì: Cung ứng năng lượng ổn định, bền vững, đa dạng hoá nguồn điện sạch và sử dụng tiết kiệm.",
+        "Sai vì 'Cấm người dân sử dụng điện vào ban đêm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ sử dụng duy nhất một nguồn năng lượng than đá', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c4_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Các danh lam thắng cảnh như Tràng An, Hạ Long mang lại lợi ích bền vững nào lớn hơn việc nghiền đá làm xi măng?",
         "steps": "Bảo tồn di sản sinh thái và cảnh quan tự nhiên có giá trị bền vững lâu dài hơn việc khai thác cạn kiệt.",
         "trap": "Nghĩ rằng mọi núi đá vôi đều phải san phẳng để lấy xi măng."
-      }
+      },
+      "socraticPrompt": "Các danh lam thắng cảnh như Tràng An, Hạ Long mang lại lợi ích bền vững nào lớn hơn việc nghiền đá làm xi măng?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì đá vôi ở đó không có giá trị sản xuất xi măng' (Nghĩ rằng mọi núi đá vôi đều phải san phẳng để lấy xi măng.).",
+        "Sai vì phủ định sai bản chất: 'Vì thuốc nổ không nổ được trên núi đá' trái ngược với kiến thức SGK.",
+        "Đúng vì: Bảo tồn di sản sinh thái và cảnh quan tự nhiên có giá trị bền vững lâu dài hơn việc khai thác cạn kiệt.",
+        "Sai vì phủ định sai bản chất: 'Vì đá vôi ở đó quá mềm không xây dựng được' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c4_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Ủ phân gia súc trong hầm kín sinh ra khí gì dùng để đun bếp thay gas?",
         "steps": "Hầm biogas giải quyết ô nhiễm chuồng trại, tạo năng lượng sạch đun nấu và phân bón hữu cơ.",
         "trap": "Không xử lý mà xả thẳng ra kênh rạch gây ô nhiễm nguồn nước nghiêm trọng."
-      }
+      },
+      "socraticPrompt": "Ủ phân gia súc trong hầm kín sinh ra khí gì dùng để đun bếp thay gas?",
+      "distractorReasons": [
+        "Sai vì 'Biến phân chuồng thành than đá sau 2 ngày' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tạo ra dòng điện hạt nhân giá rẻ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm tăng lượng khí thải độc hại vào nguồn nước ngầm' (Không xử lý mà xả thẳng ra kênh rạch gây ô nhiễm nguồn nước nghiêm trọng.).",
+        "Đúng vì: Hầm biogas giải quyết ô nhiễm chuồng trại, tạo năng lượng sạch đun nấu và phân bón hữu cơ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

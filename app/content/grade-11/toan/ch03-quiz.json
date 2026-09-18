@@ -22,7 +22,16 @@
         "socraticPrompt": "Tử số là (n² + 4n) - n² = 4n. Dưới mẫu đưa n ra ngoài được n(√(1 + 4/n) + 1). Rút gọn n được bao nhiêu?",
         "steps": "L = lim [(n² + 4n) - n²] / [√(n² + 4n) + n] = lim 4n / [n(√(1 + 4/n) + 1)] = lim 4 / [√(1 + 4/n) + 1] = 4 / (1 + 1) = 2.",
         "trap": "Không nhân liên hợp mà đoán ngay bằng 0 hoặc 4."
-      }
+      },
+      "socraticPrompt": "Tử số là (n² + 4n) - n² = 4n. Dưới mẫu đưa n ra ngoài được n(√(1 + 4/n) + 1). Rút gọn n được bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '4' không phù hợp với định lý/quy tắc trọng tâm (Dạng ∞ - ∞, nhân lượng liên hợp: √(n² + 4n) + n.).",
+        "Đúng vì theo Dạng ∞ - ∞, nhân lượng liên hợp: √(n² + 4n) + n.: L = lim [(n² + 4n) - n²] / [√(n² + 4n) + n] = lim 4n / [n(√(1 + 4/n) + 1)] = lim 4 / [√(1 + 4/n) + 1] = 4 / (1 + 1) = 2.",
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Dạng ∞ - ∞, nhân lượng liên hợp: √(n² + 4n) + n.).",
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Dạng ∞ - ∞, nhân lượng liên hợp: √(n² + 4n) + n.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c3_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "S = u1 / (1 - q) = (6/10) / (1 - 1/10) = (6/10) / (9/10) rút gọn bằng bao nhiêu?",
         "steps": "Áp dụng tổng CSN lùi vô hạn: S = (6/10) / (1 - 1/10) = (6/10) / (9/10) = 6/9 = 2/3.",
         "trap": "Làm tròn thành 6/10 = 3/5."
-      }
+      },
+      "socraticPrompt": "S = u1 / (1 - q) = (6/10) / (1 - 1/10) = (6/10) / (9/10) rút gọn bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '6/10' (Làm tròn thành 6/10 = 3/5.).",
+        "Sai vì '3/5' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Áp dụng tổng CSN lùi vô hạn: S = (6/10) / (1 - 1/10) = (6/10) / (9/10) = 6/9 = 2/3.",
+        "Sai vì '6/99' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c3_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tính f(-1), f(0), f(2) để xem hàm số đổi dấu qua mấy khoảng con?",
         "steps": "Xét f(x) = x^5 - 3x - 1 liên tục trên R. Ta có: f(-1) = -1 + 3 - 1 = 1 > 0; f(0) = -1 < 0 => có ít nhất 1 nghiệm trong (-1; 0). Lại có f(2) = 32 - 6 - 1 = 25 > 0. Vì f(0) · f(2) = (-1) · 25 < 0 nên có thêm ít nhất 1 nghiệm trong (0; 2). Vậy phương trình có ít nhất 2 nghiệm trong (-1; 2).",
         "trap": "Chỉ xét hai đầu mút f(-1) = 1 và f(2) = 25 thấy cùng dấu dương vội kết luận không có nghiệm."
-      }
+      },
+      "socraticPrompt": "Tính f(-1), f(0), f(2) để xem hàm số đổi dấu qua mấy khoảng con?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ít nhất 1 nghiệm' (Chỉ xét hai đầu mút f(-1) = 1 và f(2) = 25 thấy cùng dấu dương vội kết luận không có nghiệm.).",
+        "Đúng vì: Xét f(x) = x^5 - 3x - 1 liên tục trên R. Ta có: f(-1) = -1 + 3 - 1 = 1 > 0; f(0) = -1 < 0 => có ít nhất 1 nghiệm trong (-1; 0). Lại có f(2) = 32 - 6 - 1 = 25 > .",
+        "Sai vì 'Vô nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Xét các khoảng nghiệm con: tìm các điểm xen kẽ để f(x) đổi dấu nhiều lần.).",
+        "Sai vì 'Đúng 5 nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Xét các khoảng nghiệm con: tìm các điểm xen kẽ để f(x) đổi dấu nhiều lần.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c3_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Khi x là số âm rất lớn, √(4x²) bằng -2x hay +2x?",
         "steps": "Với x < 0: √(4x² + 1) = √[x²(4 + 1/x²)] = |x|·√(4 + 1/x²) = -x·√(4 + 1/x²). Do đó L = lim_{x -> -∞} [-x·√(4 + 1/x²)] / [x(1 + 1/x)] = -√4 / 1 = -2.",
         "trap": "Quên trị tuyệt đối |x| = -x khi x -> -∞ dẫn đến tính ra L = +2."
-      }
+      },
+      "socraticPrompt": "Khi x là số âm rất lớn, √(4x²) bằng -2x hay +2x?",
+      "distractorReasons": [
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Khi x -> -∞, √(x²) = |x| = -x. Đưa x ra khỏi căn phải mang dấu trừ.).",
+        "Sai vì '4' không phù hợp với định lý/quy tắc trọng tâm (Khi x -> -∞, √(x²) = |x| = -x. Đưa x ra khỏi căn phải mang dấu trừ.).",
+        "Đúng vì: Với x < 0: √(4x² + 1) = √[x²(4 + 1/x²)] = |x|·√(4 + 1/x²) = -x·√(4 + 1/x²). Do đó L = lim_{x -> -∞} [-x·√(4 + 1/x²)] / [x(1 + 1/x)] = -√4 / 1 = -2.",
+        "Sai vì '-4' không phù hợp với định lý/quy tắc trọng tâm (Khi x -> -∞, √(x²) = |x| = -x. Đưa x ra khỏi căn phải mang dấu trừ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c3_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Tính giới hạn bên phải (x > 2) rồi cho bằng giá trị hàm số tại x = 2 (2a + 1)?",
         "steps": "Ta có lim_{x -> 2^+} f(x) = lim_{x -> 2^+} (x - 2)(x + 2)/(x - 2) = 4. Mặt khác f(2) = lim_{x -> 2^-} f(x) = 2a + 1. Để hàm số liên tục tại x = 2: 2a + 1 = 4 <=> 2a = 3 <=> a = 3/2.",
         "trap": "Tính sai lim = 2 dẫn đến 2a + 1 = 2 <=> a = 1/2."
-      }
+      },
+      "socraticPrompt": "Tính giới hạn bên phải (x > 2) rồi cho bằng giá trị hàm số tại x = 2 (2a + 1)?",
+      "distractorReasons": [
+        "Đúng vì: Ta có lim_{x -> 2^+} f(x) = lim_{x -> 2^+} (x - 2)(x + 2)/(x - 2) = 4. Mặt khác f(2) = lim_{x -> 2^-} f(x) = 2a + 1. Để hàm số liên tục tại x = 2: 2a + 1 = 4 <=.",
+        "Sai vì 'a = 2' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 2 khi lim_{x -> 2^+} f(x) = lim_{x -> 2^-} f(x) = f(2).).",
+        "Sai vì 'a = 1' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 2 khi lim_{x -> 2^+} f(x) = lim_{x -> 2^-} f(x) = f(2).).",
+        "Sai vì 'a = 5/2' không phù hợp với định lý/quy tắc trọng tâm (Hàm số liên tục tại x = 2 khi lim_{x -> 2^+} f(x) = lim_{x -> 2^-} f(x) = f(2).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c3_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Thay 3 vào f(x) và -2 vào g(x): 2·(3) - 3·(-2) bằng bao nhiêu?",
         "steps": "lim [2f(x) - 3g(x)] = 2·(3) - 3·(-2) = 6 + 6 = 12.",
         "trap": "Nhầm dấu trừ: 6 - 6 = 0."
-      }
+      },
+      "socraticPrompt": "Thay 3 vào f(x) và -2 vào g(x): 2·(3) - 3·(-2) bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Tính chất tuyến tính của giới hạn: lim [a·f(x) + b·g(x)] = a·lim f(x) + b·lim g(x).).",
+        "Sai vì '6' không phù hợp với định lý/quy tắc trọng tâm (Tính chất tuyến tính của giới hạn: lim [a·f(x) + b·g(x)] = a·lim f(x) + b·lim g(x).).",
+        "Sai vì '-12' không phù hợp với định lý/quy tắc trọng tâm (Tính chất tuyến tính của giới hạn: lim [a·f(x) + b·g(x)] = a·lim f(x) + b·lim g(x).).",
+        "Đúng vì: lim [2f(x) - 3g(x)] = 2·(3) - 3·(-2) = 6 + 6 = 12."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

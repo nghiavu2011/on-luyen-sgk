@@ -21,7 +21,16 @@
         "socraticPrompt": "Uống kháng sinh 2 ngày thấy đỡ rồi tự ý dừng thuốc làm các con vi khuẩn còn sót lại sẽ bị làm sao?",
         "steps": "Vi khuẩn sót lại thích nghi và truyền gen kháng thuốc cho thế hệ sau tạo siêu vi khuẩn kháng thuốc.",
         "trap": "Tiêm vắc-xin giúp tăng đề kháng, không gây kháng kháng sinh."
-      }
+      },
+      "socraticPrompt": "Uống kháng sinh 2 ngày thấy đỡ rồi tự ý dừng thuốc làm các con vi khuẩn còn sót lại sẽ bị làm sao?",
+      "distractorReasons": [
+        "Sai vì 'Tập thể dục thể thao quá nhiều' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiêm vắc-xin đầy đủ' (Tiêm vắc-xin giúp tăng đề kháng, không gây kháng kháng sinh.).",
+        "Đúng vì: Vi khuẩn sót lại thích nghi và truyền gen kháng thuốc cho thế hệ sau tạo siêu vi khuẩn kháng thuốc.",
+        "Sai vì 'Ăn nhiều rau xanh và uống nhiều nước cất' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c8_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Vắc-xin đóng vai trò như 'quân xanh' để cơ thể tập dượt tạo ra vũ khí phòng thủ gì?",
         "steps": "Kích thích tạo kháng thể và tế bào ghi nhớ miễn dịch bảo vệ cơ thể lâu dài.",
         "trap": "Vắc-xin không phải là thuốc kháng sinh diệt mầm bệnh trực tiếp."
-      }
+      },
+      "socraticPrompt": "Vắc-xin đóng vai trò như 'quân xanh' để cơ thể tập dượt tạo ra vũ khí phòng thủ gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vắc-xin trực tiếp dùng hoá chất tiêu diệt hết virus trong máu ngay lập tức' (Vắc-xin không phải là thuốc kháng sinh diệt mầm bệnh trực tiếp.).",
+        "Sai vì 'Vắc-xin làm tăng nhiệt độ cơ thể vĩnh viễn lên 40 °C' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vắc-xin bọc một lớp áo giáp sắt xung quanh tế bào phổi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Kích thích tạo kháng thể và tế bào ghi nhớ miễn dịch bảo vệ cơ thể lâu dài."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c8_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Hạt của cây thông nằm hở trên các vảy nón hay nằm kín bên trong một quả thịt?",
         "steps": "Chưa có bầu nhuỵ kín -> hạt nằm trần -> không có quả thật sự (chỉ có nón chứa hạt).",
         "trap": "Dân gian quen gọi 'quả thông' nhưng thực vật học xếp nó là nón (nón đực và nón cái)."
-      }
+      },
+      "socraticPrompt": "Hạt của cây thông nằm hở trên các vảy nón hay nằm kín bên trong một quả thịt?",
+      "distractorReasons": [
+        "Đúng vì: Chưa có bầu nhuỵ kín -> hạt nằm trần -> không có quả thật sự (chỉ có nón chứa hạt).",
+        "Sai vì phủ định sai bản chất: 'Vì cây thông không có hạt' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vì cây thông quá cao nên quả bị gió thổi rụng hết' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Vì cây thông chỉ sinh sản vô tính bằng rễ', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c8_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Mang hạt giống hoặc con thú quý hiếm về nuôi cấy trong ngân hàng gen hoặc sở thú gọi là bảo tồn tại chỗ hay chuyển chỗ?",
         "steps": "Bảo tồn ngoài sinh cảnh tự nhiên (ngân hàng giống, vườn thú) là bảo tồn chuyển chỗ.",
         "trap": "Vườn quốc gia là bảo tồn tại chỗ (In-situ)."
-      }
+      },
+      "socraticPrompt": "Mang hạt giống hoặc con thú quý hiếm về nuôi cấy trong ngân hàng gen hoặc sở thú gọi là bảo tồn tại chỗ hay chuyển chỗ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thành lập Vườn quốc gia Cúc Phương để bảo vệ rừng nguyên sinh tại chỗ' (Vườn quốc gia là bảo tồn tại chỗ (In-situ).).",
+        "Đúng vì: Bảo tồn ngoài sinh cảnh tự nhiên (ngân hàng giống, vườn thú) là bảo tồn chuyển chỗ.",
+        "Sai vì 'Thả động vật hoang dã về môi trường rừng tự nhiên vốn có của chúng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khoanh nuôi bảo vệ khu bảo tồn biển đảo Cù Lao Chàm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c8_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Độc tố trong lạc mốc có bị đun sôi 100 °C phá huỷ không và nó tấn công cơ quan nào trong cơ thể?",
         "steps": "Aflatoxin bền nhiệt tích luỹ gây độc gan và ung thư gan, tuyệt đối không ăn đồ mốc.",
         "trap": "Nấu chín hay rửa nước không thể loại bỏ được Aflatoxin."
-      }
+      },
+      "socraticPrompt": "Độc tố trong lạc mốc có bị đun sôi 100 °C phá huỷ không và nó tấn công cơ quan nào trong cơ thể?",
+      "distractorReasons": [
+        "Sai vì 'Làm sâu răng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Làm da đen sạm tạm thời' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Aflatoxin bền nhiệt tích luỹ gây độc gan và ung thư gan, tuyệt đối không ăn đồ mốc.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm đầy hơi nhẹ sau 1 giờ', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c8_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Lớp vỏ kitin và các khớp chân linh hoạt giúp côn trùng sống được ở những môi trường nào?",
         "steps": "Vỏ kitin bảo vệ + chân khớp linh hoạt + sinh sản cực nhanh giúp Chân khớp thống trị thế giới động vật.",
         "trap": "Chân khớp có bộ xương ngoài bằng kitin chứ không phải mềm nhũn."
-      }
+      },
+      "socraticPrompt": "Lớp vỏ kitin và các khớp chân linh hoạt giúp côn trùng sống được ở những môi trường nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cơ thể mềm nhũn không xương' (Chân khớp có bộ xương ngoài bằng kitin chứ không phải mềm nhũn.).",
+        "Sai vì 'Kích thước to lớn như khủng long' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ sống được dưới đáy biển sâu', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Vỏ kitin bảo vệ + chân khớp linh hoạt + sinh sản cực nhanh giúp Chân khớp thống trị thế giới động vật."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

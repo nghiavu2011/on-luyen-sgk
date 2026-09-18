@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác giả văn bản du kí cô tô.?",
+      "distractorReasons": [
+        "Đúng vì theo Tác giả văn bản du kí Cô Tô.: Nguyễn Tuân là bậc thầy tùy bút và ký với ngôn ngữ điêu luyện.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tô Hoài' (Không nhầm với Tô Hoài viết Dế Mèn.).",
+        "Sai vì 'Thạch Lam' không phù hợp với định lý/quy tắc trọng tâm (Tác giả văn bản du kí Cô Tô.).",
+        "Sai vì 'Nam Cao' không phù hợp với định lý/quy tắc trọng tâm (Tác giả văn bản du kí Cô Tô.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng thể loại ký và du kí.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tác phẩm tưởng tượng hoàn toàn về thế giới tương lai' (Du kí không phải là hư cấu viễn tưởng.).",
+        "Đúng vì theo Đặc trưng thể loại ký và du kí.: Du kí ghi lại chân thực hành trình trải nghiệm của tác giả tại vùng đất mới.",
+        "Sai vì 'Những bài hát dân ca truyền miệng' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng thể loại ký và du kí.).",
+        "Sai vì 'Văn bản quy phạm pháp luật' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng thể loại ký và du kí.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết nghệ thuật đặc sắc trong cô tô.?",
+      "distractorReasons": [
+        "Sai vì 'Một đốm lửa nhỏ le lói trong sương mù' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết nghệ thuật đặc sắc trong Cô Tô.).",
+        "Sai vì 'Một quả bóng bay khổng lồ rơi xuống biển' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết nghệ thuật đặc sắc trong Cô Tô.).",
+        "Đúng vì theo Chi tiết nghệ thuật đặc sắc trong Cô Tô.: Nguyễn Tuân so sánh mặt trời như lòng đỏ quả trứng đặt trên mâm bạc ngọc trai.",
+        "Sai vì phủ định sai bản chất: 'Một chiếc đĩa bay lơ lửng trên không trung' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân loại các hình thức ẩn dụ.?",
+      "distractorReasons": [
+        "Sai vì 'Chơi chữ' không phù hợp với định lý/quy tắc trọng tâm (Phân loại các hình thức ẩn dụ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhân hóa' (Không phải hoán dụ hay nhân hóa.).",
+        "Sai vì 'Nói quá' không phù hợp với định lý/quy tắc trọng tâm (Phân loại các hình thức ẩn dụ.).",
+        "Đúng vì theo Phân loại các hình thức ẩn dụ.: Bác Hồ được gọi là 'Người Cha' dựa trên nét tương đồng về tình yêu thương, sự chăm sóc con cháu."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích ý nghĩa cảnh sinh hoạt đời thường trong tác phẩm du kí.?",
+      "distractorReasons": [
+        "Đúng vì: Cảnh gánh nước quanh giếng thể hiện sức sống phục hồi mãnh liệt, tình làng nghĩa xóm ấm no sau thiên tai bão tố.",
+        "Sai vì 'Vì nước giếng ở đây uống vào sẽ chữa khỏi mọi bệnh tật' không phù hợp với định lý/quy tắc trọng tâm (Phân tích ý nghĩa cảnh sinh hoạt đời thường trong tác phẩm du kí.).",
+        "Sai vì phủ định sai bản chất: 'Vì người dân chài không phải ra khơi đánh cá nữa' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vì giếng nước được dát vàng rực rỡ' không phù hợp với định lý/quy tắc trọng tâm (Phân tích ý nghĩa cảnh sinh hoạt đời thường trong tác phẩm du kí.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: trách nhiệm công dân với môi trường và chủ quyền biển đảo.?",
+      "distractorReasons": [
+        "Sai vì 'Xây dựng thật nhiều khách sạn bê tông cốt thép ngay trong lòng hang động tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Trách nhiệm công dân với môi trường và chủ quyền biển đảo.).",
+        "Đúng vì: Bảo vệ môi trường sinh thái nguyên sơ và phát triển du lịch xanh bền vững.",
+        "Sai vì 'Khuyến khích săn bắt các loài chim én và san hô để làm đồ lưu niệm' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Trách nhiệm công dân với môi trường và chủ quyền biển đảo.).",
+        "Sai vì 'Hạn chế người Việt Nam đi tham quan cảnh đẹp trong nước' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Trách nhiệm công dân với môi trường và chủ quyền biển đảo.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

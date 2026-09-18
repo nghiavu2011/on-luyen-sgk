@@ -23,12 +23,15 @@
         "steps": "Uốn nếp nhô lên tạo núi cao uốn nếp + động đất dữ dội.",
         "trap": "Nhầm với kết quả của hai mảng tách xa nhau (tạo sống núi ngầm đại dương)."
       },
-      "distractorReasons": {
-        "A": "Sai, đáy biển mở rộng là kết quả khi hai mảng tách xa nhau.",
-        "B": "Đáp án chính xác theo cơ chế kiến tạo mảng SGK trang 130.",
-        "C": "Sai, mảng thạch quyển rất dày và rắn chắc.",
-        "D": "Sai, sự va chạm luôn đi kèm rung chuyển động đất dữ dội."
-      }
+      "distractorReasons": [
+        "Sai vì đáy biển mở rộng là kết quả khi hai mảng tách xa nhau.",
+        "Đúng vì ơ chế kiến tạo mảng SGK trang 130.",
+        "Sai vì mảng thạch quyển rất dày và rắn chắc.",
+        "Sai vì sự va chạm luôn đi kèm rung chuyển động đất dữ dội."
+      ],
+      "socraticPrompt": "Lấy hai mép của tấm thảm đẩy mạnh vào nhau thì phần giữa sẽ uốn cong nhô lên hay chìm xuống?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch08_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Quá trình hòa tan rửa lũa đá vôi tạo địa hình Karst độc nhất vô nhị.",
         "trap": "Nghĩ rằng hang động do con người đào đục để làm du lịch."
       },
-      "distractorReasons": {
-        "A": "Sai, đá vôi là đá trầm tích hữu cơ, không phải đá núi lửa.",
-        "B": "Sai, các hang động là kì quan thiên nhiên tạo tác qua hàng triệu năm.",
-        "C": "Sai, thiên thạch không tạo nên cấu trúc hang ngầm thạch nhũ.",
-        "D": "Đáp án đúng theo kiến thức địa mạo ngoại lực SGK trang 132."
-      }
+      "distractorReasons": [
+        "Sai vì đá vôi là đá trầm tích hữu cơ, không phải đá núi lửa.",
+        "Sai vì các hang động là kì quan thiên nhiên tạo tác qua hàng triệu năm.",
+        "Sai vì thiên thạch không tạo nên cấu trúc hang ngầm thạch nhũ.",
+        "Đúng vì kiến thức địa mạo ngoại lực SGK trang 132."
+      ],
+      "socraticPrompt": "Nước mưa chảy vào núi đá vôi lâu ngày có làm tan chảy đá tạo hang động không?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch08_d3_03",
@@ -75,12 +81,15 @@
         "steps": "Động đất dưới đáy biển -> Sóng thần kinh hoàng tàn phá dải ven bờ.",
         "trap": "Nhầm lẫn sóng thần với sóng do gió bão thông thường."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo cơ chế hiểm họa địa chất SGK trang 134.",
-        "B": "Sai, bão cát chỉ xảy ra trên đất liền khô cằn.",
-        "C": "Sai, mưa đá là hiện tượng khí tượng đối lưu không khí lạnh.",
-        "D": "Sai, lốc xoáy lửa không sinh ra từ đáy biển."
-      }
+      "distractorReasons": [
+        "Đúng vì ơ chế hiểm họa địa chất SGK trang 134.",
+        "Sai vì bão cát chỉ xảy ra trên đất liền khô cằn.",
+        "Sai vì mưa đá là hiện tượng khí tượng đối lưu không khí lạnh.",
+        "Sai vì lốc xoáy lửa không sinh ra từ đáy biển."
+      ],
+      "socraticPrompt": "Đáy biển bị nứt gãy rung chuyển mạnh sẽ hất tung cột nước biển tạo nên loại sóng khổng lồ nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch08_d3_04",
@@ -101,12 +110,15 @@
         "steps": "Hủy hoại cân bằng sinh thái, sạt lở đất và đầu độc nguồn nước.",
         "trap": "Chỉ nhìn thấy nguồn lợi kinh tế trước mắt mà bỏ qua hiểm họa môi trường lâu dài."
       },
-      "distractorReasons": {
-        "A": "Sai, khói bụi và nước thải làm ô nhiễm nặng nề.",
-        "B": "Sai, khoáng sản là tài nguyên không thể phục hồi.",
-        "C": "Đáp án đúng theo bài học bảo vệ tài nguyên tự nhiên SGK trang 138.",
-        "D": "Sai, đây là hiểm họa sinh thái đe dọa trực tiếp đời sống con người."
-      }
+      "distractorReasons": [
+        "Sai vì khói bụi và nước thải làm ô nhiễm nặng nề.",
+        "Sai vì khoáng sản là tài nguyên không thể phục hồi.",
+        "Đúng vì bài học bảo vệ tài nguyên tự nhiên SGK trang 138.",
+        "Sai vì đây là hiểm họa sinh thái đe dọa trực tiếp đời sống con người."
+      ],
+      "socraticPrompt": "Đào bới sườn núi để lấy quặng thì khi mưa lớn sườn núi có nguy cơ bị làm sao?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch08_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Đồng bằng duyên hải thấp -> đồi bát úp -> các dãy núi trùng điệp phía tây.",
         "trap": "Đảo lộn trật tự độ cao của các dạng địa hình."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là trường hợp cá biệt bờ biển đá dốc, không phải quy luật lát cắt phổ biến.",
-        "B": "Đáp án đúng theo bài thực hành đọc lát cắt địa hình SGK trang 140.",
-        "C": "Sai, địa hình luôn có sự phân bậc cao thấp rõ rệt.",
-        "D": "Sai, cao nguyên là địa hình trên cạn, dưới đáy biển gọi là bồn trũng."
-      }
+      "distractorReasons": [
+        "Sai vì đây là trường hợp cá biệt bờ biển đá dốc, không phải quy luật lát cắt phổ biến.",
+        "Đúng vì bài thực hành đọc lát cắt địa hình SGK trang 140.",
+        "Sai vì địa hình luôn có sự phân bậc cao thấp rõ rệt.",
+        "Sai vì cao nguyên là địa hình trên cạn, dưới đáy biển gọi là bồn trũng."
+      ],
+      "socraticPrompt": "Đi từ bờ biển lùi sâu vào nội địa nước ta, địa hình cao dần lên hay thấp xuống?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch08_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Kết hợp công nghệ chống rung lắc + cảnh báo sớm + giáo dục ý thức toàn dân.",
         "trap": "Tư tưởng cam chịu mê tín dị đoan hoặc bi quan tiêu cực."
       },
-      "distractorReasons": {
-        "A": "Sai, người Nhật kiên cường xây dựng đất nước trên chính quê hương mình.",
-        "B": "Sai, người Nhật dựa vào khoa học công nghệ và sự chuẩn bị kĩ lưỡng.",
-        "C": "Sai, cuộc sống sinh hoạt và làm việc vẫn diễn ra năng động, an toàn.",
-        "D": "Đáp án đúng theo bài học thích ứng thiên tai thực tiễn."
-      }
+      "distractorReasons": [
+        "Sai vì người Nhật kiên cường xây dựng đất nước trên chính quê hương mình.",
+        "Sai vì người Nhật dựa vào khoa học công nghệ và sự chuẩn bị kĩ lưỡng.",
+        "Sai vì cuộc sống sinh hoạt và làm việc vẫn diễn ra năng động, an toàn.",
+        "Đúng vì bài học thích ứng thiên tai thực tiễn."
+      ],
+      "socraticPrompt": "Nhật Bản làm gì với các tòa nhà cao tầng để khi động đất không bị sụp đổ?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

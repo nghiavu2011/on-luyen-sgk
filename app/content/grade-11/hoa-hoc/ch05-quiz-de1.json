@@ -22,7 +22,16 @@
         "socraticPrompt": "Để là alcohol, nhóm -OH phải gắn vào nguyên tử carbon mang liên kết đơn (no) hay liên kết đôi hoặc vòng thơm?",
         "steps": "Theo định nghĩa SGK: Alcohol là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon no.",
         "trap": "Nhầm nhóm -OH gắn trực tiếp vào vòng benzene (đó là hợp chất phenol, không phải alcohol)."
-      }
+      },
+      "socraticPrompt": "Để là alcohol, nhóm -OH phải gắn vào nguyên tử carbon mang liên kết đơn (no) hay liên kết đôi hoặc vòng thơm?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK: Alcohol là hợp chất hữu cơ có nhóm hydroxy (-OH) liên kết trực tiếp với nguyên tử carbon no.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vòng benzene' (nhóm -OH gắn trực tiếp vào vòng benzene (đó là hợp chất phenol, không phải alcohol)).",
+        "Sai vì 'Nguyên tử oxygen' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa chuẩn của alcohol theo SGK Hóa học 11.).",
+        "Sai vì phủ định sai bản chất: 'Nguyên tử carbon không no' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c5_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Chất nào có nhóm -OH gắn trực tiếp vào nguyên tử carbon của vòng benzene C6H5-?",
         "steps": "C6H5-OH có nhóm -OH gắn trực tiếp vào vòng benzene nên là phenol. C6H5-CH2-OH là alcohol thơm (benzyl alcohol).",
         "trap": "Nhầm C6H5-CH2-OH là phenol vì thấy có chứa vòng benzene C6H5-."
-      }
+      },
+      "socraticPrompt": "Chất nào có nhóm -OH gắn trực tiếp vào nguyên tử carbon của vòng benzene C6H5-?",
+      "distractorReasons": [
+        "Sai vì 'CH3-CH2-OH' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hợp chất phenol có nhóm -OH gắn trực tiếp vào vòng benzene.).",
+        "Đúng vì: C6H5-OH có nhóm -OH gắn trực tiếp vào vòng benzene nên là phenol. C6H5-CH2-OH là alcohol thơm (benzyl alcohol).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C6H5-CH2-OH' (C6H5-CH2-OH là phenol vì thấy có chứa vòng benzene C6H5).",
+        "Sai vì 'CH3-O-CH3' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hợp chất phenol có nhóm -OH gắn trực tiếp vào vòng benzene.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c5_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Mạch chính có 3 carbon là propan, nhóm -OH gắn ở vị trí carbon số mấy?",
         "steps": "Mạch carbon có 3 nguyên tử C (propan). Nhóm -OH đính ở nguyên tử carbon số 2. Tên thay thế là propan-2-ol.",
         "trap": "Nhầm đuôi -ol của alcohol với đuôi -one của ketone (propan-2-one)."
-      }
+      },
+      "socraticPrompt": "Mạch chính có 3 carbon là propan, nhóm -OH gắn ở vị trí carbon số mấy?",
+      "distractorReasons": [
+        "Sai vì 'Propan-1-ol' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc gọi tên thay thế alcohol: tên hydrocarbon mạch chính + vị trí nhóm -OH + ol.).",
+        "Sai vì 'Ethanol' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc gọi tên thay thế alcohol: tên hydrocarbon mạch chính + vị trí nhóm -OH + ol.).",
+        "Đúng vì: Mạch carbon có 3 nguyên tử C (propan). Nhóm -OH đính ở nguyên tử carbon số 2. Tên thay thế là propan-2-ol.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Propan-2-one' (đuôi -ol của alcohol với đuôi -one của ketone (propan-2-one))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c5_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Chất nào hòa tan được kết tủa Cu(OH)2 tạo dung dịch màu xanh lam thẫm đặc trưng?",
         "steps": "Glycerol là polyalcohol có 3 nhóm -OH liền kề nên hòa tan được Cu(OH)2 tạo phức chất xanh lam thẫm. Ethanol là alcohol đơn chức nên không có phản ứng này.",
         "trap": "Chọn kim loại Na vì cả hai chất đều tác dụng giải phóng khí H2 nên không phân biệt được."
-      }
+      },
+      "socraticPrompt": "Chất nào hòa tan được kết tủa Cu(OH)2 tạo dung dịch màu xanh lam thẫm đặc trưng?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kim loại Na' (Chọn kim loại Na vì cả hai chất đều tác dụng giải phóng khí H2 nên không phân biệt được.).",
+        "Sai vì 'Dung dịch quỳ tím' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tạo phức màu xanh lam thẫm của polyalcohol có các nhóm -OH liền kề.).",
+        "Sai vì 'Dung dịch AgNO3' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tạo phức màu xanh lam thẫm của polyalcohol có các nhóm -OH liền kề.).",
+        "Đúng vì: Glycerol là polyalcohol có 3 nhóm -OH liền kề nên hòa tan được Cu(OH)2 tạo phức chất xanh lam thẫm. Ethanol là alcohol đơn chức nên không có phản ứng này."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c5_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Nguyên tử Br gắn ở C2 ưu tiên tách cùng H ở carbon bên cạnh có bậc cao hơn là C3 hay C1?",
         "steps": "Theo quy tắc Zaitsev: Nguyên tử halogen Br ở C2 ưu tiên tách cùng H ở C3 (bậc 2, bậc cao hơn C1 bậc 1). Nối đôi hình thành giữa C2 và C3 tạo sản phẩm chính là but-2-ene.",
         "trap": "Chọn but-1-ene (đây là sản phẩm phụ) hoặc chọn butan-2-ol (sản phẩm của phản ứng thế trong nước)."
-      }
+      },
+      "socraticPrompt": "Nguyên tử Br gắn ở C2 ưu tiên tách cùng H ở carbon bên cạnh có bậc cao hơn là C3 hay C1?",
+      "distractorReasons": [
+        "Đúng vì: Theo quy tắc Zaitsev: Nguyên tử halogen Br ở C2 ưu tiên tách cùng H ở C3 (bậc 2, bậc cao hơn C1 bậc 1). Nối đôi hình thành giữa C2 và C3 tạo sản phẩm chính là b.",
+        "Sai vì 'Butan-2-ol' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng quy tắc tách Zaitsev đối với dẫn xuất halogen.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'But-1-ene' (Chọn but-1-ene (đây là sản phẩm phụ) hoặc chọn butan-2-ol (sản phẩm của phản ứng thế trong nước).).",
+        "Sai vì 'But-2-yne' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng quy tắc tách Zaitsev đối với dẫn xuất halogen.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c5_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Nước bromine làm phenol thế đồng thời 3 nguyên tử Br vào các vị trí 2, 4, 6 tạo kết tủa màu gì?",
         "steps": "Phenol phản ứng rất dễ dàng với nước bromine tạo kết tủa trắng 2,4,6-tribromophenol và làm mất màu nước bromine. Đây là phản ứng đặc trưng nhận biết phenol.",
         "trap": "Nghĩ rằng không có hiện tượng do nhầm phenol phản ứng khó khăn như benzene."
-      }
+      },
+      "socraticPrompt": "Nước bromine làm phenol thế đồng thời 3 nguyên tử Br vào các vị trí 2, 4, 6 tạo kết tủa màu gì?",
+      "distractorReasons": [
+        "Sai vì 'Có khí màu nâu đỏ bay lên' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng thế nhân thơm của phenol tạo kết tủa 2,4,6-tribromophenol màu trắng.).",
+        "Sai vì 'Dung dịch chuyển sang màu tím' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng thế nhân thơm của phenol tạo kết tủa 2,4,6-tribromophenol màu trắng.).",
+        "Đúng vì: Phenol phản ứng rất dễ dàng với nước bromine tạo kết tủa trắng 2,4,6-tribromophenol và làm mất màu nước bromine. Đây là phản ứng đặc trưng nhận biết phenol.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không có hiện tượng gì' (Nghĩ rằng không có hiện tượng do nhầm phenol phản ứng khó khăn như benzene.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

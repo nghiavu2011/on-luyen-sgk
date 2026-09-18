@@ -1,128 +1,205 @@
 {
   "chapterId": "ch07",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 7: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính nhanh, phương trình thập phân và bài toán thực tế.",
+  "title": "Toán 6 — Chương 7: Số thập phân: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c7_th_q1",
-      "difficulty": "easy",
+      "id": "t6_c7_d3_01",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính tỉ số phần trăm của hai số",
-      "question": "Tỉ số phần trăm của hai số 15 và 60 được tính chính xác là:",
+      "topic": "Toán thực tế - Mua hàng giảm giá (Sale off)",
+      "question": "Một đôi giày thể thao có giá niêm yết là 800.000 đồng. Nhân dịp Black Friday, cửa hàng giảm giá 25%. Ngoài ra, khách hàng thanh toán qua ví điện tử được giảm thêm 5% trên GIÁ ĐÃ GIẢM. Hỏi người mua phải trả bao nhiêu tiền cho đôi giày nếu thanh toán qua ví điện tử?",
       "options": [
-        "20%",
-        "25%",
-        "30%",
-        "40%"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Công thức tính tỉ số phần trăm của a và b: (a · 100 / b)%.",
-        "socraticPrompt": "Lập tỉ số 15/60, rút gọn phân số này thành 1/4 rồi đổi ra tỉ số phần trăm là bao nhiêu?",
-        "steps": "Tỉ số phần trăm của 15 và 60 là: (15 · 100 / 60)% = (1500 / 60)% = 25% (hoặc 15/60 = 1/4 = 0.25 = 25%).",
-        "trap": "Lấy 60 chia 15 được 4 rồi ghi 4% hoặc lấy 60 - 15 = 45%."
-      }
-    },
-    {
-      "id": "t6_c7_th_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tính nhanh giá trị biểu thức số thập phân",
-      "question": "Tính giá trị biểu thức sau bằng cách hợp lý nhất: B = 3.7 · 18.5 + 3.7 · 81.5?",
-      "options": [
-        "370",
-        "37",
-        "3700",
-        "350"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Vận dụng tính chất phân phối để tính nhẩm nhanh số thập phân.",
-        "socraticPrompt": "Thừa số chung của cả hai tích là 3.7. Khi đặt 3.7 ra ngoài thì tổng trong ngoặc 18.5 + 81.5 bằng bao nhiêu?",
-        "steps": "Đặt 3.7 ra ngoài ngoặc: B = 3.7 · (18.5 + 81.5) = 3.7 · 100 = 370.",
-        "trap": "Tính nhầm 3.7 · 100 = 37 (quên dịch chuyển 2 chữ số sang phải)."
-      }
-    },
-    {
-      "id": "t6_c7_th_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tìm ẩn x trong phương trình số thập phân",
-      "question": "Tìm số thực x thỏa mãn phương trình: 2.4 · x + 3.6 = -1.2?",
-      "options": [
-        "x = 2.0",
-        "x = -1.0",
-        "x = -2.0",
-        "x = 1.5"
+        "600.000 đồng",
+        "560.000 đồng",
+        "570.000 đồng",
+        "540.000 đồng"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Quy tắc chuyển vế đổi dấu và phép chia số thập phân có dấu.",
-        "socraticPrompt": "Chuyển +3.6 sang vế phải thành -3.6. Vế phải có giá trị là (-1.2) - 3.6 bằng bao nhiêu rồi chia cho 2.4?",
-        "steps": "Chuyển vế: 2.4 · x = -1.2 - 3.6 = -4.8. Tìm x: x = (-4.8) : 2.4 = -2.0.",
-        "trap": "Tính -1.2 - 3.6 thành +2.4 dẫn đến tìm ra x = 1.0 hoặc nhầm dấu thành x = +2.0."
-      }
+        "concept": "Giảm giá liên tiếp: Giá sau lần 1 = Giá gốc × (1 - 25%). Giá sau lần 2 = Giá lần 1 × (1 - 5%).",
+        "steps": [
+          "Bước 1: Giá giày sau khi giảm 25%: 800.000 × (1 - 0,25) = 800.000 × 0,75 = 600.000 đồng.",
+          "Bước 2: Giảm thêm 5% trên giá 600.000 đồng: 600.000 × 5% = 30.000 đồng.",
+          "Bước 3: Số tiền thực tế phải trả: 600.000 - 30.000 = 570.000 đồng."
+        ],
+        "trap": "Cộng gộp phần trăm giảm giá: 25% + 5% = 30% rồi lấy 800.000 × 70% = 560.000 đồng (sai vì 5% sau tính trên giá ĐÃ GIẢM chứ không tính trên giá gốc).",
+        "socraticPrompt": "Giảm 25% của 800.000 đồng thì giá còn lại là 600.000 đồng. Giảm thêm 5% của 600.000 đồng (tức giảm 30.000 đồng) thì còn lại bao nhiêu?"
+      },
+      "socraticPrompt": "Giảm 25% của 800.000 đồng thì giá còn lại là 600.000 đồng. Giảm thêm 5% của 600.000 đồng (tức giảm 30.000 đồng) thì còn lại bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 600.000 đồng mới chỉ là giá sau lần giảm đầu tiên, chưa trừ 5% thanh toán ví điện tử.",
+        "Sai vì cộng gộp 25% + 5% = 30% trên giá gốc (800.000 × 70% = 560.000 đ), vi phạm đề bài 'giảm thêm trên giá đã giảm'.",
+        "Đúng vì giá lần 1 là 600.000 đ, giảm thêm 5% của 600.000 đ (là 30.000 đ) nên số tiền phải trả là 570.000 đồng.",
+        "Sai vì tính nhầm mức giảm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c7_th_q4",
+      "id": "t6_c7_d3_02",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Bài toán mua bán giảm giá thực tế",
-      "question": "Một chiếc cặp học sinh có giá niêm yết là 350 000 đồng. Nhân dịp năm học mới, nhà sách giảm giá 20% cho sản phẩm này. Hỏi người mua phải trả bao nhiêu tiền?",
+      "topic": "Toán thực tế - Lãi suất tiền gửi ngân hàng",
+      "question": "Bác Bình gửi tiết kiệm 50.000.000 đồng vào ngân hàng với kì hạn một năm, lãi suất 6,5%/năm. Hết thời hạn một năm, bác Bình rút cả vốn lẫn lãi thì nhận được tất cả bao nhiêu tiền?",
       "options": [
-        "280 000 đồng",
-        "270 000 đồng",
-        "300 000 đồng",
-        "250 000 đồng"
+        "50.325.000 đồng",
+        "3.250.000 đồng",
+        "56.500.000 đồng",
+        "53.250.000 đồng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tổng tiền nhận = Tiền vốn ban đầu + Tiền lãi. Tiền lãi = Tiền vốn × Lãi suất.",
+        "steps": [
+          "Bước 1: Tiền lãi sau một năm: 50.000.000 × 6,5% = 50.000.000 × 0,065 = 3.250.000 đồng.",
+          "Bước 2: Tổng số tiền cả vốn lẫn lãi: 50.000.000 + 3.250.000 = 53.250.000 đồng."
+        ],
+        "trap": "Chỉ tính tiền lãi 3.250.000 đồng mà quên cộng với tiền vốn ban đầu, hoặc nhầm 6,5% thành 0,65 dẫn đến tính lãi 32.500.000 đ.",
+        "socraticPrompt": "Tiền lãi bác nhận được là 50 triệu nhân 6,5% = 3.250.000 đồng. Tổng số tiền cả gốc lẫn lãi bác rút về là bao nhiêu?"
+      },
+      "socraticPrompt": "Tiền lãi bác nhận được là 50 triệu nhân 6,5% = 3.250.000 đồng. Tổng số tiền cả gốc lẫn lãi bác rút về là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính sai dấu phẩy của phép nhân.",
+        "Sai vì 3.250.000 đồng mới chỉ là tiền lãi, chưa tính 50 triệu tiền vốn ban đầu.",
+        "Sai vì tính nhầm lãi suất 6,5% thành 6,5 triệu đồng.",
+        "Đúng vì tiền lãi là 3.250.000 đ, tổng tiền rút về là 50.000.000 + 3.250.000 = 53.250.000 đồng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c7_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Nồng độ phần trăm dung dịch muối",
+      "question": "Hòa tan 40 gam muối ăn vào 160 gam nước tinh khiết. Nồng độ phần trăm của dung dịch nước muối thu được là:",
+      "options": [
+        "20%",
+        "25%",
+        "40%",
+        "16%"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Ứng dụng tỉ số phần trăm tính tiền thực tế sau khi giảm giá.",
-        "socraticPrompt": "Giảm giá 20% nghĩa là người mua chỉ cần trả bao nhiêu phần trăm giá gốc? Hãy lấy 350 000 nhân với tỉ lệ đó?",
-        "steps": "Số tiền được giảm giá là: 350 000 · 20% = 70 000 đồng. Số tiền người mua phải trả là: 350 000 - 70 000 = 280 000 đồng (hoặc 350 000 · 80% = 280 000 đồng).",
-        "trap": "Tính ra số tiền giảm 70 000 đồng rồi nhầm lẫn chọn 70 000 thay vì số tiền phải trả."
-      }
+        "concept": "Nồng độ phần trăm C% = (Khối lượng chất tan : Khối lượng dung dịch) × 100%. Khối lượng dung dịch = Khối lượng chất tan + Khối lượng nước.",
+        "steps": [
+          "Bước 1: Khối lượng dung dịch nước muối: 40 + 160 = 200 gam.",
+          "Bước 2: Nồng độ phần trăm: C% = (40 : 200) × 100% = 0,2 × 100% = 20%."
+        ],
+        "trap": "Lấy khối lượng muối chia thẳng cho khối lượng nước: (40 : 160) × 100% = 25% (sai lầm kinh điển vì quên cộng muối vào khối lượng dung dịch).",
+        "socraticPrompt": "Khối lượng cả cốc nước muối sau khi hòa tan là 40 + 160 = 200 gam. Muối chiếm bao nhiêu phần trăm trong 200 gam đó?"
+      },
+      "socraticPrompt": "Khối lượng cả cốc nước muối sau khi hòa tan là 40 + 160 = 200 gam. Muối chiếm bao nhiêu phần trăm trong 200 gam đó?",
+      "distractorReasons": [
+        "Đúng vì khối lượng dung dịch là 40 + 160 = 200 g; nồng độ phần trăm là (40 / 200) × 100% = 20%.",
+        "Sai vì chỉ lấy muối chia cho nước (40 / 160 = 25%), quên tính tổng khối lượng cả dung dịch.",
+        "Sai vì lấy số 40 g gắn ký hiệu %.",
+        "Sai vì tính sai tỉ số."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c7_th_q5",
+      "id": "t6_c7_d3_04",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Bài toán lãi suất tiền gửi ngân hàng",
-      "question": "Bác An gửi tiết kiệm 60 000 000 đồng vào ngân hàng với lãi suất 6% một năm. Hỏi sau một năm, cả số tiền gốc và tiền lãi bác An nhận được là bao nhiêu?",
+      "topic": "Toán thực tế - Ước lượng chi phí đi chợ",
+      "question": "Mẹ nhờ An đi siêu thị mua 3 món hàng với giá tiền ghi trên hóa đơn lần lượt là: 89.500 đồng, 142.300 đồng và 68.900 đồng. Hãy ước lượng bằng cách làm tròn mỗi số đến hàng chục nghìn rồi tính tổng số tiền mẹ cần đưa cho An.",
       "options": [
-        "63 000 000 đồng",
-        "63 600 000 đồng",
-        "66 000 000 đồng",
-        "62 400 000 đồng"
+        "290.000 đồng",
+        "300.000 đồng",
+        "310.000 đồng",
+        "280.000 đồng"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Tính tiền lãi và tổng tiền nhận được sau kỳ hạn gửi tiết kiệm.",
-        "socraticPrompt": "Tiền lãi sau 1 năm là 6% của 60 triệu đồng. Sau khi tính được tiền lãi, em hãy cộng với số tiền gốc ban đầu?",
-        "steps": "Số tiền lãi sau 1 năm là: 60 000 000 · 6% = 60 000 000 · 6 / 100 = 3 600 000 đồng. Tổng số tiền gốc và lãi là: 60 000 000 + 3 600 000 = 63 600 000 đồng.",
-        "trap": "Tính nhầm 6% của 60 triệu thành 3 triệu hoặc 6 triệu rồi cộng vào."
-      }
+        "concept": "Làm tròn từng số đến hàng chục nghìn rồi cộng lại để ước lượng nhanh.",
+        "steps": [
+          "Bước 1: 89.500 đ: chữ số hàng chục nghìn là 8, sau là 9 ≥ 5 ⇒ làm tròn thành 90.000 đ.",
+          "Bước 2: 142.300 đ: chữ số hàng chục nghìn là 4, sau là 2 < 5 ⇒ làm tròn thành 140.000 đ.",
+          "Bước 3: 68.900 đ: chữ số hàng chục nghìn là 6, sau là 8 ≥ 5 ⇒ làm tròn thành 70.000 đ.",
+          "Bước 4: Tổng ước lượng: 90.000 + 140.000 + 70.000 = 300.000 đồng."
+        ],
+        "trap": "Làm tròn nhầm 142.300 thành 150.000 hoặc cộng nhẩm sai.",
+        "socraticPrompt": "89.500 gần với 90.000; 142.300 gần với 140.000; 68.900 gần với 70.000. Tổng ba số tròn chục nghìn đó bằng bao nhiêu?"
+      },
+      "socraticPrompt": "89.500 gần với 90.000; 142.300 gần với 140.000; 68.900 gần với 70.000. Tổng ba số tròn chục nghìn đó bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì làm tròn nhầm 89.500 thành 80.000 đ.",
+        "Đúng vì 90.000 + 140.000 + 70.000 = 300.000 đồng.",
+        "Sai vì làm tròn nhầm 142.300 thành 150.000 đ.",
+        "Sai vì làm tròn xuống tất cả các số."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c7_th_q6",
+      "id": "t6_c7_d3_05",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Ước lượng chi phí mua sắm thực tiễn",
-      "question": "Bạn Mai mua 4 quyển vở giá 11 800 đồng/quyển và 3 chiếc bút bi giá 4 900 đồng/chiếc. Bằng cách làm tròn giá tiền mỗi món hàng đến hàng nghìn gần nhất, tổng chi phí ước tính bạn Mai cần mang theo là:",
+      "topic": "Toán phần trăm - Bài toán hai chiều",
+      "question": "Một người bán một chiếc quạt điện được lãi 80.000 đồng, số tiền lãi này bằng 16% giá vốn ban đầu. Hỏi người đó đã bán chiếc quạt với giá bao nhiêu tiền?",
       "options": [
-        "65 000 đồng",
-        "63 000 đồng",
-        "60 000 đồng",
-        "58 000 đồng"
+        "580.000 đồng",
+        "500.000 đồng",
+        "420.000 đồng",
+        "600.000 đồng"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng ước lượng kết quả phép tính thông qua làm tròn số.",
-        "socraticPrompt": "Làm tròn 11 800 đồng đến hàng nghìn ta được số nào? Làm tròn 4 900 đồng đến hàng nghìn ta được số nào? Tính tổng tiền ước tính theo hai số đó?",
-        "steps": "Làm tròn 11 800 đến hàng nghìn: Chữ số hàng trăm là 8 ≥ 5 nên làm tròn thành 12 000 đồng. Làm tròn 4 900 đến hàng nghìn: Chữ số hàng trăm là 9 ≥ 5 nên làm tròn thành 5 000 đồng. Tổng chi phí ước tính là: 4 · 12 000 + 3 · 5 000 = 48 000 + 15 000 = 63 000 đồng.",
-        "trap": "Làm tròn xuống thành 11 000 và 4 000 đồng dẫn đến kết quả ước tính bị thiếu hụt so với thực tế."
-      }
+        "concept": "Giá bán = Giá vốn + Tiền lãi. Giá vốn = Tiền lãi : 16%.",
+        "steps": [
+          "Bước 1: Giá vốn chiếc quạt là: 80.000 : 16% = 80.000 : 0,16 = 500.000 đồng.",
+          "Bước 2: Giá bán chiếc quạt là: Giá vốn + Tiền lãi = 500.000 + 80.000 = 580.000 đồng."
+        ],
+        "trap": "Học sinh dừng lại ở giá vốn 500.000 đồng mà quên cộng tiền lãi để ra GIÁ BÁN.",
+        "socraticPrompt": "16% giá vốn là 80.000 đ thì giá vốn là 500.000 đ. Người đó bán có lãi 80.000 đ thì giá bán phải là bao nhiêu?"
+      },
+      "socraticPrompt": "16% giá vốn là 80.000 đ thì giá vốn là 500.000 đ. Người đó bán có lãi 80.000 đ thì giá bán phải là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì giá vốn là 80.000 : 16% = 500.000 đ; giá bán là 500.000 + 80.000 = 580.000 đồng.",
+        "Sai vì 500.000 đồng mới chỉ là giá vốn mua vào, chưa cộng tiền lãi để ra giá bán.",
+        "Sai vì lấy giá vốn trừ đi tiền lãi.",
+        "Sai vì tính nhầm giá vốn."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c7_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "So sánh phần trăm tăng giảm",
+      "question": "Giá một lít xăng tăng từ 20.000 đồng lên 25.000 đồng. Sau đó một tuần, giá xăng lại giảm từ 25.000 đồng xuống 20.000 đồng. Tỉ số phần trăm tăng giá trong lần 1 và tỉ số phần trăm giảm giá trong lần 2 lần lượt là:",
+      "options": [
+        "Tăng 20%, giảm 25%",
+        "Tăng 25%, giảm 25%",
+        "Tăng 20%, giảm 20%",
+        "Tăng 25%, giảm 20%"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Phần trăm tăng = (Độ tăng / Giá ban đầu) × 100%. Phần trăm giảm = (Độ giảm / Giá trước khi giảm) × 100%.",
+        "steps": [
+          "Bước 1: Lần 1 tăng 5.000 đ so với gốc 20.000 đ: Tỉ số phần trăm tăng = (5.000 / 20.000) × 100% = 25%.",
+          "Bước 2: Lần 2 giảm 5.000 đ so với mốc mới 25.000 đ: Tỉ số phần trăm giảm = (5.000 / 25.000) × 100% = 20%.",
+          "Bước 3: Kết luận: Tăng 25% nhưng chỉ giảm 20%."
+        ],
+        "trap": "Nghĩ rằng cùng thay đổi 5.000 đồng thì tỉ số phần trăm tăng và giảm phải bằng nhau (tăng 25% thì giảm 25%).",
+        "socraticPrompt": "5.000 chia cho 20.000 bằng 25%. Nhưng khi giảm thì lấy 5.000 chia cho giá mới 25.000 thì được bao nhiêu phần trăm?"
+      },
+      "socraticPrompt": "5.000 chia cho 20.000 bằng 25%. Nhưng khi giảm thì lấy 5.000 chia cho giá mới 25.000 thì được bao nhiêu phần trăm?",
+      "distractorReasons": [
+        "Sai vì đảo ngược hai tỉ lệ.",
+        "Sai vì giá mốc so sánh ở lần 2 là 25.000 đ chứ không phải 20.000 đ nên không thể giảm 25%.",
+        "Sai vì tính nhầm phần trăm tăng.",
+        "Đúng vì tăng 5.000 đ trên gốc 20.000 đ là 25%, nhưng giảm 5.000 đ trên mốc mới 25.000 đ chỉ là 20%."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

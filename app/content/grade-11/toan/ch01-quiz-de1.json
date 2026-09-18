@@ -22,7 +22,16 @@
         "socraticPrompt": "Lấy 60 nhân π chia cho 180 thì kết quả rút gọn bằng bao nhiêu?",
         "steps": "Ta có: 60° = 60 · π / 180 = π/3 rad.",
         "trap": "Nhầm 60° với 30° (π/6 rad)."
-      }
+      },
+      "socraticPrompt": "Lấy 60 nhân π chia cho 180 thì kết quả rút gọn bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì theo Công thức chuyển đổi từ độ sang radian: α = a° · π / 180°.: Ta có: 60° = 60 · π / 180 = π/3 rad.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'π/6 rad' (60° với 30° (π/6 rad)).",
+        "Sai vì 'π/4 rad' không phù hợp với định lý/quy tắc trọng tâm (Công thức chuyển đổi từ độ sang radian: α = a° · π / 180°.).",
+        "Sai vì '2π/3 rad' không phù hợp với định lý/quy tắc trọng tâm (Công thức chuyển đổi từ độ sang radian: α = a° · π / 180°.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c1_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Tổng bình phương của sin và cos của cùng một góc luôn bằng hằng số nào?",
         "steps": "Theo hệ thức lượng giác cơ bản trên đường tròn đơn vị: sin²α + cos²α = 1.",
         "trap": "Nhầm dấu trừ sin²α - cos²α = 1."
-      }
+      },
+      "socraticPrompt": "Tổng bình phương của sin và cos của cùng một góc luôn bằng hằng số nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'sin²α - cos²α = 1' (dấu trừ sin²α - cos²α = 1).",
+        "Đúng vì: Theo hệ thức lượng giác cơ bản trên đường tròn đơn vị: sin²α + cos²α = 1.",
+        "Sai vì 'tan α = cos α / sin α' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức lượng giác cơ bản sin²α + cos²α = 1 dựa trên định lí Pythagore.).",
+        "Sai vì '1 + tan²α = 1 / sin²α' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức lượng giác cơ bản sin²α + cos²α = 1 dựa trên định lí Pythagore.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c1_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "cos x = 0 tại những điểm nào trên đường tròn lượng giác?",
         "steps": "Hàm số y = tan x xác định <=> cos x ≠ 0 <=> x ≠ π/2 + kπ (k ∈ Z). Do đó D = R \\ {π/2 + kπ, k ∈ Z}.",
         "trap": "Nhầm điều kiện xác định của cot x (x ≠ kπ)."
-      }
+      },
+      "socraticPrompt": "cos x = 0 tại những điểm nào trên đường tròn lượng giác?",
+      "distractorReasons": [
+        "Sai vì 'D = R \\ {kπ, k ∈ Z}' không phù hợp với định lý/quy tắc trọng tâm (Hàm số tan x = sin x / cos x xác định khi cos x ≠ 0.).",
+        "Sai vì 'D = R' không phù hợp với định lý/quy tắc trọng tâm (Hàm số tan x = sin x / cos x xác định khi cos x ≠ 0.).",
+        "Đúng vì theo Hàm số tan x = sin x / cos x xác định khi cos x ≠ 0.: Hàm số y = tan x xác định <=> cos x ≠ 0 <=> x ≠ π/2 + kπ (k ∈ Z). Do đó D = R \\ {π/2 + kπ, k ∈ Z}.",
+        "Sai vì 'D = [-1; 1]' không phù hợp với định lý/quy tắc trọng tâm (Hàm số tan x = sin x / cos x xác định khi cos x ≠ 0.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c1_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Góc nào có sin bằng 1/2? Nhớ hai họ nghiệm bù nhau và có đuôi chu kì k2π nhé!",
         "steps": "sin x = 1/2 = sin(π/6) <=> x = π/6 + k2π hoặc x = π - π/6 + k2π = 5π/6 + k2π (k ∈ Z).",
         "trap": "Chọn đuôi kπ thay vì k2π hoặc nhầm họ nghiệm cos (±α)."
-      }
+      },
+      "socraticPrompt": "Góc nào có sin bằng 1/2? Nhớ hai họ nghiệm bù nhau và có đuôi chu kì k2π nhé!",
+      "distractorReasons": [
+        "Sai vì 'x = ±π/6 + k2π' không phù hợp với định lý/quy tắc trọng tâm (Công thức nghiệm của sin x = sin α: x = α + k2π hoặc x = π - α + k2π.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'x = π/3 + k2π hoặc x = 2π/3 + k2π' (Chọn đuôi kπ thay vì k2π hoặc nhầm họ nghiệm cos (±α).).",
+        "Sai vì 'x = π/6 + kπ hoặc x = 5π/6 + kπ' không phù hợp với định lý/quy tắc trọng tâm (Công thức nghiệm của sin x = sin α: x = α + k2π hoặc x = π - α + k2π.).",
+        "Đúng vì: sin x = 1/2 = sin(π/6) <=> x = π/6 + k2π hoặc x = π - π/6 + k2π = 5π/6 + k2π (k ∈ Z)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c1_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Giá trị lớn nhất của sin x bằng bao nhiêu? Thay giá trị đó vào biểu thức để tìm M?",
         "steps": "Với mọi x ∈ R, ta luôn có sin x ≤ 1. Nhân 3 cả hai vế: 3sin x ≤ 3. Trừ 2: 3sin x - 2 ≤ 3 - 2 = 1. Vậy giá trị lớn nhất là M = 1 (đạt được khi sin x = 1).",
         "trap": "Lấy luôn hệ số 3 làm giá trị lớn nhất (quên trừ đi 2)."
-      }
+      },
+      "socraticPrompt": "Giá trị lớn nhất của sin x bằng bao nhiêu? Thay giá trị đó vào biểu thức để tìm M?",
+      "distractorReasons": [
+        "Đúng vì theo Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.: Với mọi x ∈ R, ta luôn có sin x ≤ 1. Nhân 3 cả hai vế: 3sin x ≤ 3. Trừ 2: 3sin x - 2 ≤ 3 - 2 = 1. Vậy giá trị lớn nhất là M = 1 (đạt được khi sin x = 1).",
+        "Sai vì 'M = 3' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.).",
+        "Sai vì 'M = 5' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.).",
+        "Sai vì 'M = -1' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c1_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Trong góc phần tư thứ III (π < α < 3π/2), tung độ của điểm biểu diễn mang dấu gì?",
         "steps": "sin²α = 1 - cos²α = 1 - (-12/13)² = 1 - 144/169 = 25/169. Vì π < α < 3π/2 (góc phần tư III) nên sin α < 0. Do đó sin α = -5/13.",
         "trap": "Lấy nghiệm dương sin α = +5/13 do quên kiểm tra góc phần tư."
-      }
+      },
+      "socraticPrompt": "Trong góc phần tư thứ III (π < α < 3π/2), tung độ của điểm biểu diễn mang dấu gì?",
+      "distractorReasons": [
+        "Sai vì '5/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.).",
+        "Sai vì '12/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.).",
+        "Đúng vì: sin²α = 1 - cos²α = 1 - (-12/13)² = 1 - 144/169 = 25/169. Vì π < α < 3π/2 (góc phần tư III) nên sin α < 0. Do đó sin α = -5/13.",
+        "Sai vì '-1/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

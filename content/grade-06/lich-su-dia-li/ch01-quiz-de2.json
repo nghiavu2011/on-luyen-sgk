@@ -23,12 +23,15 @@
         "steps": "Năm có 3 chữ số: Lấy số trăm cộng 1: $9 + 1 = 10$ (thế kỉ X).",
         "trap": "Học sinh nhìn thấy đầu số 9 vội vàng kết luận là thế kỉ IX."
       },
-      "distractorReasons": {
-        "A": "Sai, thế kỉ IX kết thúc vào năm 900.",
-        "B": "Sai, thế kỉ VIII kết thúc vào năm 800.",
-        "C": "Đáp án đúng: năm 938 thuộc thế kỉ X (thế kỉ 10).",
-        "D": "Sai, thế kỉ XI bắt đầu từ năm 1001."
-      }
+      "distractorReasons": [
+        "Sai vì thế kỉ IX kết thúc vào năm 900.",
+        "Sai vì thế kỉ VIII kết thúc vào năm 800.",
+        "Đúng vì : năm 938 thuộc thế kỉ X (thế kỉ 10).",
+        "Sai vì thế kỉ XI bắt đầu từ năm 1001."
+      ],
+      "socraticPrompt": "Thế kỉ 1 từ năm 1-100, vậy năm 938 lấy chữ số hàng trăm là 9 cộng thêm mấy?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch01_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Khoảng cách = 208 + 2026 = 2234 năm.",
         "trap": "Lấy 2026 trừ đi 208 = 1818 năm (sai lầm do không để ý sự kiện xảy ra trước Công nguyên)."
       },
-      "distractorReasons": {
-        "A": "Sai, do làm phép trừ 2026 - 208.",
-        "B": "Sai, đây chỉ là năm hiện tại.",
-        "C": "Sai, do tính nhầm phép cộng.",
-        "D": "Đáp án đúng: 208 + 2026 = 2234 năm."
-      }
+      "distractorReasons": [
+        "Sai vì do làm phép trừ 2026 - 208.",
+        "Sai vì đây chỉ là năm hiện tại.",
+        "Sai vì do tính nhầm phép cộng.",
+        "Đúng vì : 208 + 2026 = 2234 năm."
+      ],
+      "socraticPrompt": "Từ năm 208 TCN đến năm 1 CN là bao nhiêu năm? Từ năm 1 CN đến 2026 là bao nhiêu năm?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch01_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Kết hợp cả 2 hình thức: hiện vật cụ thể bằng đá và chữ viết khắc trực tiếp trên đó.",
         "trap": "Chỉ chọn một trong hai yếu tố (chỉ chọn chữ viết hoặc chỉ chọn hiện vật)."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác và toàn diện nhất.",
-        "B": "Sai hoàn toàn vì bia đá có chữ viết khắc cụ thể, không phải truyền miệng.",
-        "C": "Sai, bia đá được dựng từ thế kỉ XV, không phải tranh ảnh hiện đại.",
-        "D": "Sai, bia tiến sĩ ghi danh khoa bảng chứ không phải bản đồ."
-      }
+      "distractorReasons": [
+        "Đúng vì và toàn diện nhất.",
+        "Sai hoàn toàn vì bia đá có chữ viết khắc cụ thể, không phải truyền miệng.",
+        "Sai vì bia đá được dựng từ thế kỉ XV, không phải tranh ảnh hiện đại.",
+        "Sai vì bia tiến sĩ ghi danh khoa bảng chứ không phải bản đồ."
+      ],
+      "socraticPrompt": "Tấm bia đá là vật thể hay lời kể? Chữ khắc trên đó là gì?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch01_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Tờ lịch song song giúp người dân tiện theo dõi cả công việc hành chính hiện đại lẫn phong tục truyền thống.",
         "trap": "Nghĩ rằng việc in hai loại lịch là do nhầm lẫn hoặc chưa thống nhất quy chuẩn."
       },
-      "distractorReasons": {
-        "A": "Sai, thực tế lịch in cả hai hệ ngày.",
-        "B": "Đáp án đúng theo bài học SGK trang 17.",
-        "C": "Sai, Việt Nam áp dụng Công lịch quốc tế rất chuẩn xác.",
-        "D": "Sai, cả nước đều sử dụng chung một quy chuẩn lịch pháp thống nhất."
-      }
+      "distractorReasons": [
+        "Sai vì thực tế lịch in cả hai hệ ngày.",
+        "Đúng vì bài học SGK trang 17.",
+        "Sai vì Việt Nam áp dụng Công lịch quốc tế rất chuẩn xác.",
+        "Sai vì cả nước đều sử dụng chung một quy chuẩn lịch pháp thống nhất."
+      ],
+      "socraticPrompt": "Tết Nguyên đán của dân tộc ta được đón theo ngày âm hay ngày dương?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch01_d2_05",
@@ -127,12 +139,15 @@
         "steps": "1000 năm chia cho 100 năm = 10 thế kỉ.",
         "trap": "Nhầm lẫn giữa thập kỉ (10 năm) và thế kỉ (100 năm)."
       },
-      "distractorReasons": {
-        "A": "Sai, 10 năm là thập kỉ.",
-        "B": "Sai, 100 thế kỉ tương đương 10 000 năm.",
-        "C": "Đáp án đúng theo định nghĩa chuẩn SGK trang 17.",
-        "D": "Sai, 1 thế kỉ chỉ có 100 năm chứ không phải 1 000 năm."
-      }
+      "distractorReasons": [
+        "Sai vì 10 năm là thập kỉ.",
+        "Sai vì 100 thế kỉ tương đương 10 000 năm.",
+        "Đúng vì ịnh nghĩa chuẩn SGK trang 17.",
+        "Sai vì 1 thế kỉ chỉ có 100 năm chứ không phải 1 000 năm."
+      ],
+      "socraticPrompt": "Tiền tố 'thế' ứng với 100 năm, 'thiên' trong Hán Việt nghĩa là gì? (Thiên = 1000).",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch01_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Đối chiếu, phê phán sử liệu là phương pháp cốt lõi của khoa học lịch sử.",
         "trap": "Nghĩ rằng chỉ cần một loại tư liệu là đủ hiểu hết toàn bộ lịch sử."
       },
-      "distractorReasons": {
-        "A": "Sai, sự đối chiếu giúp gạn lọc sai lệch chứ không làm mất giá trị tài liệu.",
-        "B": "Sai, sử sách của bên xâm lược thường mang định kiến hoặc che giấu thất bại.",
-        "C": "Sai, truyền thuyết vẫn giữ giá trị văn hóa tinh thần đặc sắc.",
-        "D": "Đáp án đúng theo nguyên lí phương pháp sử học SGK trang 15."
-      }
+      "distractorReasons": [
+        "Sai vì sự đối chiếu giúp gạn lọc sai lệch chứ không làm mất giá trị tài liệu.",
+        "Sai vì sử sách của bên xâm lược thường mang định kiến hoặc che giấu thất bại.",
+        "Sai vì truyền thuyết vẫn giữ giá trị văn hóa tinh thần đặc sắc.",
+        "Đúng vì uyên lí phương pháp sử học SGK trang 15."
+      ],
+      "socraticPrompt": "Nếu chỉ nghe lời kể từ một phía, sự việc có bị thiên lệch không?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

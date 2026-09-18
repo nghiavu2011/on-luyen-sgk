@@ -22,7 +22,16 @@
         "socraticPrompt": "Hai điểm gần nhau nhất dao động y hệt nhau (cùng pha) cách nhau đúng bằng độ dài của một gì?",
         "steps": "Theo định nghĩa bước sóng: λ là quãng đường sóng truyền trong 1 chu kì, hay khoảng cách giữa 2 điểm gần nhất trên phương truyền dao động cùng pha.",
         "trap": "Nhầm khoảng cách ngược pha là λ/2."
-      }
+      },
+      "socraticPrompt": "Hai điểm gần nhau nhất dao động y hệt nhau (cùng pha) cách nhau đúng bằng độ dài của một gì?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa bước sóng: λ là quãng đường sóng truyền trong 1 chu kì, hay khoảng cách giữa 2 điểm gần nhất trên phương truyền dao động cùng pha.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ngược pha' (khoảng cách ngược pha là λ/2).",
+        "Sai vì 'Vuông pha' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Có biên độ cực đại' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c2_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Môi trường nào hoàn toàn không có các nguyên tử, phân tử vật chất để tương tác dao động?",
         "steps": "Sóng cơ cần môi trường vật chất đàn hồi để truyền dao động. Trong chân không không có vật chất nên sóng cơ không truyền được.",
         "trap": "Nhầm với sóng điện từ (sóng điện từ truyền tốt trong chân không)."
-      }
+      },
+      "socraticPrompt": "Môi trường nào hoàn toàn không có các nguyên tử, phân tử vật chất để tương tác dao động?",
+      "distractorReasons": [
+        "Sai vì 'Chất lỏng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Sóng cơ cần môi trường vật chất đàn hồi để truyền dao động. Trong chân không không có vật chất nên sóng cơ không truyền được.",
+        "Sai vì 'Chất rắn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Chất khí' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c2_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Từ 'ngang' trong vật lí sóng cơ nghĩa là góc giữa phương dao động và phương truyền sóng bằng bao nhiêu độ?",
         "steps": "Sóng ngang có phương dao động vuông góc với phương truyền sóng (ví dụ sóng trên mặt nước).",
         "trap": "Nghĩ theo nghĩa đen là phương nằm ngang theo phương của mặt đất."
-      }
+      },
+      "socraticPrompt": "Từ 'ngang' trong vật lí sóng cơ nghĩa là góc giữa phương dao động và phương truyền sóng bằng bao nhiêu độ?",
+      "distractorReasons": [
+        "Sai vì 'Trùng với phương truyền sóng' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa sóng ngang: phương dao động vuông góc với phương truyền sóng.).",
+        "Sai vì 'Song song với phương truyền sóng' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa sóng ngang: phương dao động vuông góc với phương truyền sóng.).",
+        "Đúng vì: Sóng ngang có phương dao động vuông góc với phương truyền sóng (ví dụ sóng trên mặt nước).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Luôn nằm ngang theo mặt đất' (Nghĩ theo nghĩa đen là phương nằm ngang theo phương của mặt đất.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c2_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Một bó sóng hình bầu dục khép giữa hai nút sóng kề nhau có độ dài bằng bao nhiêu bước sóng?",
         "steps": "Hai nút sóng liên tiếp cách nhau một khoảng d = λ / 2.",
         "trap": "Nhầm với khoảng cách từ 1 nút đến 1 bụng liền kề là λ / 4."
-      }
+      },
+      "socraticPrompt": "Một bó sóng hình bầu dục khép giữa hai nút sóng kề nhau có độ dài bằng bao nhiêu bước sóng?",
+      "distractorReasons": [
+        "Sai vì 'Một bước sóng (λ)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Một phần tư bước sóng (λ / 4)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hai bước sóng (2λ)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hai nút sóng liên tiếp cách nhau một khoảng d = λ / 2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c2_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Để hai sóng tăng cường lẫn nhau cực đại, hai sóng tới phải cùng pha, tức hiệu quãng đường bằng nguyên lần gì?",
         "steps": "Theo SGK Vật lí 11, cực đại giao thoa hai nguồn đồng pha thoả mãn: d2 - d1 = kλ (k = 0, ±1, ±2...).",
         "trap": "Nhầm với cực tiểu giao thoa d2 - d1 = (k + 0,5)λ."
-      }
+      },
+      "socraticPrompt": "Để hai sóng tăng cường lẫn nhau cực đại, hai sóng tới phải cùng pha, tức hiệu quãng đường bằng nguyên lần gì?",
+      "distractorReasons": [
+        "Đúng vì: Theo SGK Vật lí 11, cực đại giao thoa hai nguồn đồng pha thoả mãn: d2 - d1 = kλ (k = 0, ±1, ±2...).",
+        "Sai vì 'd2 - d1 = (k + 0,5) · λ (với k ∈ Z)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'd2 - d1 = (2k + 1) · λ / 4 (với k ∈ Z)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'd2 - d1 = k · λ / 2 (với k ∈ Z)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c2_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Ánh sáng mặt trời chiếu qua không gian vũ trụ đến Trái Đất chứng minh sóng điện từ có đặc điểm gì?",
         "steps": "Sóng điện từ mang bản chất là sóng ngang và truyền được trong chân không cũng như các điện môi trong suốt.",
         "trap": "Nhầm tính chất với sóng cơ (sóng cơ là sóng dọc/ngang không truyền trong chân không)."
-      }
+      },
+      "socraticPrompt": "Ánh sáng mặt trời chiếu qua không gian vũ trụ đến Trái Đất chứng minh sóng điện từ có đặc điểm gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sóng điện từ là sóng dọc và không truyền được trong chân không' (tính chất với sóng cơ (sóng cơ là sóng dọc/ngang không truyền trong chân không)).",
+        "Đúng vì: Sóng điện từ mang bản chất là sóng ngang và truyền được trong chân không cũng như các điện môi trong suốt.",
+        "Sai vì 'Sóng điện từ có tốc độ truyền giảm dần từ khí sang lỏng sang rắn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Sóng điện từ chỉ lan truyền được trong dây dẫn điện kim loại', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

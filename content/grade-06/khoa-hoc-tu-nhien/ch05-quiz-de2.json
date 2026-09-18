@@ -21,7 +21,16 @@
         "socraticPrompt": "Hai chất lỏng tách thành 2 lớp, mở van phía dưới cho lớp nước ở dưới chảy ra trước ta dùng dụng cụ gì?",
         "steps": "Dùng phễu chiết thực hiện phương pháp chiết.",
         "trap": "Dầu và nước đều là chất lỏng nên giấy lọc không tách được."
-      }
+      },
+      "socraticPrompt": "Hai chất lỏng tách thành 2 lớp, mở van phía dưới cho lớp nước ở dưới chảy ra trước ta dùng dụng cụ gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng phễu lọc và giấy lọc' (Dầu và nước đều là chất lỏng nên giấy lọc không tách được.).",
+        "Sai vì 'Đun sôi hỗn hợp trên ngọn lửa đèn cồn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Dùng phễu chiết thực hiện phương pháp chiết.",
+        "Sai vì 'Dùng nam châm vĩnh cửu' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c5_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Nước đá lạnh làm đường tan nhanh hay chậm? Khuấy và nghiền nhỏ có tác dụng gì?",
         "steps": "Nghiền nhỏ hạt + nước ấm + khuấy đều giúp đường tan cực nhanh trước khi làm lạnh.",
         "trap": "Cho vào nước đá lạnh khiến đường rất khó tan."
-      }
+      },
+      "socraticPrompt": "Nước đá lạnh làm đường tan nhanh hay chậm? Khuấy và nghiền nhỏ có tác dụng gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bỏ đường nguyên hạt to vào nước đá lạnh rồi để yên không khuấy' (Cho vào nước đá lạnh khiến đường rất khó tan.).",
+        "Sai vì 'Đổ trực tiếp nước sôi 100 °C vào cốc nhựa chứa đá' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Cho nước cốt chanh vào trước rồi mới thả đường hạt vào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nghiền nhỏ hạt + nước ấm + khuấy đều giúp đường tan cực nhanh trước khi làm lạnh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c5_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Kim loại sắt có đặc tính vật lí đặc trưng nào với nam châm?",
         "steps": "Nam châm hút hết bột sắt tách ra khỏi cát trong tích tắc.",
         "trap": "Đổ nước vào thì cả cát và sắt đều chìm, không tách được."
-      }
+      },
+      "socraticPrompt": "Kim loại sắt có đặc tính vật lí đặc trưng nào với nam châm?",
+      "distractorReasons": [
+        "Đúng vì: Nam châm hút hết bột sắt tách ra khỏi cát trong tích tắc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đổ nước vào chậu cát rồi đun sôi' (Đổ nước vào thì cả cát và sắt đều chìm, không tách được.).",
+        "Sai vì 'Đem chậu cát đi nung ở 1000 °C' không phù hợp với định lý/quy tắc trọng tâm (Dựa vào tính chất từ: Sắt có từ tính bị nam châm hút, còn cát không bị hút.).",
+        "Sai vì 'Dùng phễu và giấy lọc cát' không phù hợp với định lý/quy tắc trọng tâm (Dựa vào tính chất từ: Sắt có từ tính bị nam châm hút, còn cát không bị hút.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c5_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Khi cốc nước đã 'no' muối và không thể hoà tan thêm hạt muối nào nữa thì gọi là dung dịch gì?",
         "steps": "Không thể hoà tan thêm chất tan -> dung dịch bão hoà.",
         "trap": "Dung dịch chưa bão hoà là dung dịch vẫn có thể hoà tan thêm chất tan."
-      }
+      },
+      "socraticPrompt": "Khi cốc nước đã 'no' muối và không thể hoà tan thêm hạt muối nào nữa thì gọi là dung dịch gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch chưa bão hoà' (Dung dịch chưa bão hoà là dung dịch vẫn có thể hoà tan thêm chất tan.).",
+        "Đúng vì: Không thể hoà tan thêm chất tan -> dung dịch bão hoà.",
+        "Sai vì 'Huyền phù lỏng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Chất tinh khiết' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c5_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Than củi hoạt tính xốp có khả năng giữ lại các chất gây mùi tanh và màu đục gọi là tính chất gì?",
         "steps": "Than hoạt tính hấp phụ chất độc, khử mùi tanh của nước ngầm.",
         "trap": "Cát giữ cặn bẩn cơ học; than hoạt tính khử mùi và hoá chất độc hại."
-      }
+      },
+      "socraticPrompt": "Than củi hoạt tính xốp có khả năng giữ lại các chất gây mùi tanh và màu đục gọi là tính chất gì?",
+      "distractorReasons": [
+        "Sai vì 'Làm tăng độ ngọt của nước' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiêu diệt toàn bộ khoáng chất' (Cát giữ cặn bẩn cơ học; than hoạt tính khử mùi và hoá chất độc hại.).",
+        "Đúng vì: Than hoạt tính hấp phụ chất độc, khử mùi tanh của nước ngầm.",
+        "Sai vì 'Làm đông đặc nước thành đá' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c5_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Đầu tiên phải hoà tan vào nước, sau đó lọc loại bỏ cái gì rồi mới đun cô cạn?",
         "steps": "Hoà tan -> Lọc lấy dung dịch -> Cô cạn thu tinh thể muối.",
         "trap": "Cô cạn trước khi lọc sẽ làm cát dính chặt vào muối không tách được."
-      }
+      },
+      "socraticPrompt": "Đầu tiên phải hoà tan vào nước, sau đó lọc loại bỏ cái gì rồi mới đun cô cạn?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cô cạn -> Lọc -> Hoà tan vào nước' (Cô cạn trước khi lọc sẽ làm cát dính chặt vào muối không tách được.).",
+        "Sai vì 'Gạn lấy cát -> Ép chặt muối' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dùng nam châm hút -> Đun sôi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hoà tan -> Lọc lấy dung dịch -> Cô cạn thu tinh thể muối."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

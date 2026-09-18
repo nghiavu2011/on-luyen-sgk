@@ -21,7 +21,16 @@
         "socraticPrompt": "Một cỗ máy không ăn than, không dùng điện, không đổ xăng có thể tự chạy làm việc mãi mãi được không?",
         "steps": "Vi phạm định luật bảo toàn năng lượng nên động cơ vĩnh cửu là điều không tưởng.",
         "trap": "Nghĩ rằng khoa học tương lai sẽ tạo được năng lượng từ con số không."
-      }
+      },
+      "socraticPrompt": "Một cỗ máy không ăn than, không dùng điện, không đổ xăng có thể tự chạy làm việc mãi mãi được không?",
+      "distractorReasons": [
+        "Sai vì 'Vì chưa có vật liệu sắt thép đủ cứng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì Trái Đất quay quá nhanh làm hỏng máy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Vi phạm định luật bảo toàn năng lượng nên động cơ vĩnh cửu là điều không tưởng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì các nhà khoa học không cho phép đăng kí bản quyền' (Nghĩ rằng khoa học tương lai sẽ tạo được năng lượng từ con số không.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c10_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Mỗi giờ tiết kiệm được 240 W. Trong 150 giờ thắp sáng cả tháng tiết kiệm được bao nhiêu Watt-giờ rồi đổi ra kWh?",
         "steps": "0,24 kW x 150 h = 36 kWh.",
         "trap": "Chỉ tính cho 1 bóng đèn (ra 7,2 kWh) hoặc quên đổi W sang kW."
-      }
+      },
+      "socraticPrompt": "Mỗi giờ tiết kiệm được 240 W. Trong 150 giờ thắp sáng cả tháng tiết kiệm được bao nhiêu Watt-giờ rồi đổi ra kWh?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '18 kWh' (Chỉ tính cho 1 bóng đèn (ra 7,2 kWh) hoặc quên đổi W sang kW.).",
+        "Sai vì '72 kWh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '7,2 kWh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: 0,24 kW x 150 h = 36 kWh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c10_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Khi tàu thả trôi tự do không động cơ, ma sát làm cơ năng tăng hay giảm? Đỉnh sau có thể cao hơn đỉnh trước được không?",
         "steps": "Ma sát làm hao hụt cơ năng -> đỉnh sau bắt buộc phải thấp hơn đỉnh trước.",
         "trap": "Nếu không có ma sát thì đỉnh sau có thể bằng đỉnh trước, nhưng thực tế luôn có ma sát."
-      }
+      },
+      "socraticPrompt": "Khi tàu thả trôi tự do không động cơ, ma sát làm cơ năng tăng hay giảm? Đỉnh sau có thể cao hơn đỉnh trước được không?",
+      "distractorReasons": [
+        "Đúng vì: Ma sát làm hao hụt cơ năng -> đỉnh sau bắt buộc phải thấp hơn đỉnh trước.",
+        "Sai vì 'Để người chơi ngắm cảnh được xa nhất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để tiết kiệm sắt thép làm đường ray' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để gió đẩy tàu chạy nhanh hơn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c10_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Khí hydro cháy kết hợp với oxy tạo ra hợp chất gì quen thuộc?",
         "steps": "Hydro phản ứng với Oxy sinh điện và chỉ thải ra hơi nước tinh khiết.",
         "trap": "Nhiên liệu hoá thạch thải CO2 và CO; pin hydro thải nước sạch."
-      }
+      },
+      "socraticPrompt": "Khí hydro cháy kết hợp với oxy tạo ra hợp chất gì quen thuộc?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí Carbon dioxide (CO2)' (Nhiên liệu hoá thạch thải CO2 và CO; pin hydro thải nước sạch.).",
+        "Đúng vì: Hydro phản ứng với Oxy sinh điện và chỉ thải ra hơi nước tinh khiết.",
+        "Sai vì 'Khí Sulfur dioxide (SO2)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khí Carbon monoxide (CO)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c10_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Nhiệt toả ra môi trường khi xe máy chạy có thể tự thu gom lại đổ vào bình xăng làm xe chạy tiếp được không?",
         "steps": "Năng lượng bị suy thoái thành nhiệt loãng vô ích -> cạn kiệt nguồn năng lượng sơ cấp hữu dụng.",
         "trap": "Năng lượng không hề bị mất số lượng, nhưng bị suy giảm phẩm chất sử dụng."
-      }
+      },
+      "socraticPrompt": "Nhiệt toả ra môi trường khi xe máy chạy có thể tự thu gom lại đổ vào bình xăng làm xe chạy tiếp được không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì năng lượng biến mất vào các lỗ đen vũ trụ' (Năng lượng không hề bị mất số lượng, nhưng bị suy giảm phẩm chất sử dụng.).",
+        "Sai vì 'Vì năng lượng mặt trời sắp tắt sau 10 năm nữa' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Năng lượng bị suy thoái thành nhiệt loãng vô ích -> cạn kiệt nguồn năng lượng sơ cấp hữu dụng.",
+        "Sai vì 'Vì các nhà máy điện ngừng hoạt động' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c10_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Giếng trời thông gió và tán cây xanh giúp làm gì cho ngôi nhà mùa hè?",
         "steps": "Thông gió tự nhiên + tường cách nhiệt giảm nhu cầu điều hoà làm mát.",
         "trap": "Kính hướng Tây hoặc sơn màu đen sẽ hấp thụ nhiệt khủng khiếp làm nhà nóng như lò lửa."
-      }
+      },
+      "socraticPrompt": "Giếng trời thông gió và tán cây xanh giúp làm gì cho ngôi nhà mùa hè?",
+      "distractorReasons": [
+        "Sai vì 'Lắp đặt thật nhiều kính trong suốt hướng chính Tây hứng nắng chiều' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Đóng kín toàn bộ cửa sổ suốt mùa hè', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sơn toàn bộ tường nhà bằng màu đen tuyền' (Kính hướng Tây hoặc sơn màu đen sẽ hấp thụ nhiệt khủng khiếp làm nhà nóng như lò lửa.).",
+        "Đúng vì: Thông gió tự nhiên + tường cách nhiệt giảm nhu cầu điều hoà làm mát."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -22,7 +22,16 @@
         "socraticPrompt": "Đường xà gồ trên mái không nằm trên sàn và song song với 1 đường trên sàn thì thoả mãn định lí nào?",
         "steps": "Áp dụng định lí: Nếu đường thẳng d không nằm trong mặt phẳng sàn (P) và song song với một đường thẳng nằm trên sàn thì d song song với sàn (P).",
         "trap": "Nghĩ rằng phải đo khoảng cách ở nhiều điểm mới kết luận được."
-      }
+      },
+      "socraticPrompt": "Đường xà gồ trên mái không nằm trên sàn và song song với 1 đường trên sàn thì thoả mãn định lí nào?",
+      "distractorReasons": [
+        "Sai vì 'Chưa đủ căn cứ vì cần đo góc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Áp dụng định lí: Nếu đường thẳng d không nằm trong mặt phẳng sàn (P) và song song với một đường thẳng nằm trên sàn thì d song song với sàn (P).",
+        "Sai vì 'd cắt sàn (P)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'd chéo với sàn (P)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c4_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lấy 1 điểm trên a rồi kẻ đường thẳng song song với b, có xác định được duy nhất 1 mặt phẳng không?",
         "steps": "Lấy một điểm M trên a. Qua M dựng đường thẳng b' // b. Hai đường thẳng cắt nhau a và b' xác định duy nhất một mặt phẳng (P). Khi đó (P) chứa a và (P) // b.",
         "trap": "Đoán là vô số mặt phẳng."
-      }
+      },
+      "socraticPrompt": "Lấy 1 điểm trên a rồi kẻ đường thẳng song song với b, có xác định được duy nhất 1 mặt phẳng không?",
+      "distractorReasons": [
+        "Sai vì '0' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vô số' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Lấy một điểm M trên a. Qua M dựng đường thẳng b' // b. Hai đường thẳng cắt nhau a và b' xác định duy nhất một mặt phẳng (P). Khi đó (P) chứa a và (P) // b.",
+        "Sai vì '2' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c4_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tứ diện đều có mặt ABC là tam giác đều. Cắt bởi mặt phẳng song song với tam giác đều thì được tam giác gì?",
         "steps": "Vì (α) // (ABC) nên thiết diện đồng dạng với tam giác ABC. Do tam giác ABC là tam giác đều nên thiết diện thu được cũng là tam giác đều.",
         "trap": "Nhầm thành hình thang do nhầm với thiết diện cắt 4 cạnh."
-      }
+      },
+      "socraticPrompt": "Tứ diện đều có mặt ABC là tam giác đều. Cắt bởi mặt phẳng song song với tam giác đều thì được tam giác gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hình thang' (thành hình thang do nhầm với thiết diện cắt 4 cạnh).",
+        "Sai vì 'Hình bình hành' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hình vuông' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Vì (α) // (ABC) nên thiết diện đồng dạng với tam giác ABC. Do tam giác ABC là tam giác đều nên thiết diện thu được cũng là tam giác đều."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c4_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Hai sàn nhà cùng song song với trần nhà thì hai sàn nhà đó có bao giờ chạm nhau không?",
         "steps": "Theo tính chất cơ bản SGK Toán 11: Nếu (P) // (R) và (Q) // (R) với (P) ≠ (Q) thì (P) // (Q).",
         "trap": "Quên giả thiết (P) và (Q) phân biệt dẫn đến chọn (P) trùng (Q)."
-      }
+      },
+      "socraticPrompt": "Hai sàn nhà cùng song song với trần nhà thì hai sàn nhà đó có bao giờ chạm nhau không?",
+      "distractorReasons": [
+        "Đúng vì: Theo tính chất cơ bản SGK Toán 11: Nếu (P) // (R) và (Q) // (R) với (P) ≠ (Q) thì (P) // (Q).",
+        "Sai vì '(P) cắt (Q)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '(P) vuông góc với (Q)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '(P) trùng với (Q)' (Quên giả thiết (P) và (Q) phân biệt dẫn đến chọn (P) trùng (Q).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c4_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Cái bóng của một chiếc gậy dưới nắng có luôn dài bằng đúng chiếc gậy đó không?",
         "steps": "Độ dài đoạn thẳng bị co giãn phụ thuộc vào góc nghiêng của phương chiếu, do đó phép chiếu song song không bảo toàn độ dài đoạn thẳng.",
         "trap": "Chọn tỉ số đoạn thẳng hoặc quan hệ song song (hai tính chất này luôn được bảo toàn)."
-      }
+      },
+      "socraticPrompt": "Cái bóng của một chiếc gậy dưới nắng có luôn dài bằng đúng chiếc gậy đó không?",
+      "distractorReasons": [
+        "Đúng vì: Độ dài đoạn thẳng bị co giãn phụ thuộc vào góc nghiêng của phương chiếu, do đó phép chiếu song song không bảo toàn độ dài đoạn thẳng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Quan hệ song song của hai đường thẳng' (Chọn tỉ số đoạn thẳng hoặc quan hệ song song (hai tính chất này luôn được bảo toàn).).",
+        "Sai vì 'Tỉ số độ dài hai đoạn thẳng nằm trên hai đường thẳng song song' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Thứ tự ba điểm thẳng hàng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c4_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Đếm số đỉnh (3 đỉnh trên + 3 đỉnh dưới) và số mặt (2 mặt đáy + 3 mặt bên)?",
         "steps": "Số đỉnh là 3 + 3 = 6 đỉnh. Số mặt là 2 đáy + 3 mặt bên = 5 mặt. Tổng số đỉnh và số mặt là 6 + 5 = 11.",
         "trap": "Nhầm số cạnh (9 cạnh) dẫn đến chọn 9."
-      }
+      },
+      "socraticPrompt": "Đếm số đỉnh (3 đỉnh trên + 3 đỉnh dưới) và số mặt (2 mặt đáy + 3 mặt bên)?",
+      "distractorReasons": [
+        "Sai vì '9' không phù hợp với định lý/quy tắc trọng tâm (Lăng trụ tam giác ABC.A'B'C' có 2 đáy tam giác và 3 mặt bên hình bình hành.).",
+        "Đúng vì: Số đỉnh là 3 + 3 = 6 đỉnh. Số mặt là 2 đáy + 3 mặt bên = 5 mặt. Tổng số đỉnh và số mặt là 6 + 5 = 11.",
+        "Sai vì '10' không phù hợp với định lý/quy tắc trọng tâm (Lăng trụ tam giác ABC.A'B'C' có 2 đáy tam giác và 3 mặt bên hình bình hành.).",
+        "Sai vì '12' không phù hợp với định lý/quy tắc trọng tâm (Lăng trụ tam giác ABC.A'B'C' có 2 đáy tam giác và 3 mặt bên hình bình hành.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

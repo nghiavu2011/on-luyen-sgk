@@ -1,114 +1,84 @@
 [
   {
-    "front": "Trọng tâm kiến thức Chương 1: Tập hợp các số tự nhiên là gì?",
-    "back": "Tập hợp, cách ghi số, thứ tự, lũy thừa với số mũ tự nhiên và thứ tự thực hiện phép tính.. Học sinh cần nắm chắc định nghĩa, quy tắc và công thức tính toán chuẩn mực.",
+    "id": "fc_t6_c1_01",
+    "front": "Ký hiệu nào thể hiện quan hệ phần tử x thuộc tập hợp A?",
+    "back": "x ∈ A (ví dụ: 3 ∈ N)",
     "tags": [
-      "Toán 6",
-      "ch01"
+      "Tap-hop",
+      "Ky-hieu"
     ]
   },
   {
-    "front": "Thứ tự thực hiện các phép tính trong biểu thức?",
-    "back": "1. Trong ngoặc trước, ngoài ngoặc sau: ( ) -> [ ] -> { }; 2. Phép tính: Lũy thừa -> Nhân & Chia -> Cộng & Trừ.",
+    "id": "fc_t6_c1_02",
+    "front": "Tập hợp N* khác tập hợp N ở điểm nào?",
+    "back": "N* là tập các số tự nhiên khác 0: N* = {1; 2; 3; ...}, còn N = {0; 1; 2; 3; ...}",
     "tags": [
-      "Toán 6",
-      "Quy tắc"
+      "So-tu-nhien"
     ]
   },
   {
-    "front": "Tính chất phân phối của phép nhân đối với phép cộng?",
-    "back": "$a \\cdot (b + c) = a \\cdot b + a \\cdot c$. Dùng để tính nhanh bằng cách đặt thừa số chung ra ngoài.",
+    "id": "fc_t6_c1_03",
+    "front": "Số La Mã XXIV có giá trị bằng bao nhiêu trong hệ thập phân?",
+    "back": "24 (XX = 20, IV = 4 → 20 + 4 = 24)",
     "tags": [
-      "Toán 6",
-      "Công thức"
+      "So-La-Ma"
     ]
   },
   {
-    "front": "Quy tắc chuyển vế trong bài toán tìm x?",
-    "back": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: '+' thành '-' và '-' thành '+'.",
+    "id": "fc_t6_c1_04",
+    "front": "Công thức nhân hai lũy thừa cùng cơ số a^m . a^n là gì?",
+    "back": "a^m . a^n = a^(m + n) (giữ nguyên cơ số, cộng số mũ)",
     "tags": [
-      "Toán 6",
-      "Đại số"
+      "Luy-thua"
     ]
   },
   {
-    "front": "Thế nào là Số nguyên tố và Hợp số?",
-    "back": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có 2 ước là 1 và chính nó. Hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước.",
+    "id": "fc_t6_c1_05",
+    "front": "Công thức chia hai lũy thừa cùng cơ số a^m : a^n (a ≠ 0, m ≥ n) là gì?",
+    "back": "a^m : a^n = a^(m - n) (giữ nguyên cơ số, trừ số mũ)",
     "tags": [
-      "Toán 6",
-      "Số học"
+      "Luy-thua"
     ]
   },
   {
-    "front": "Số 0 và số 1 có phải số nguyên tố không?",
-    "back": "KHÔNG. Số 0 và số 1 không phải là số nguyên tố và cũng không phải là hợp số. Số nguyên tố nhỏ nhất là số 2 (số nguyên tố chẵn duy nhất).",
+    "id": "fc_t6_c1_06",
+    "front": "Quy ước giá trị của a^0 (với a ≠ 0) bằng bao nhiêu?",
+    "back": "a^0 = 1 (ví dụ: 5^0 = 1, 2026^0 = 1)",
     "tags": [
-      "Toán 6",
-      "Bẫy sai"
+      "Luy-thua",
+      "Quy-uoc"
     ]
   },
   {
-    "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "Muốn cộng hai số nguyên cùng dấu, ta cộng hai giá trị tuyệt đối rồi đặt dấu chung trước kết quả. Ví dụ: (-3) + (-5) = -8.",
+    "id": "fc_t6_c1_07",
+    "front": "Thứ tự thực hiện các phép tính trong biểu thức không có dấu ngoặc là gì?",
+    "back": "Lũy thừa → Nhân và chia → Cộng và trừ",
     "tags": [
-      "Toán 6",
-      "Số nguyên"
+      "Thu-tu-phep-tinh"
     ]
   },
   {
-    "front": "Quy tắc nhân hai số nguyên khác dấu và cùng dấu?",
-    "back": "Cùng dấu nhân nhau ra DƯƠNG: (+) * (+) = (+), (-) * (-) = (+). Khác dấu nhân nhau ra ÂM: (+) * (-) = (-).",
+    "id": "fc_t6_c1_08",
+    "front": "Thứ tự ưu tiên xử lý các loại dấu ngoặc là gì?",
+    "back": "Ngoặc tròn ( ) → Ngoặc vuông [ ] → Ngoặc nhọn { }",
     "tags": [
-      "Toán 6",
-      "Quy tắc dấu"
+      "Thu-tu-phep-tinh"
     ]
   },
   {
-    "front": "Công thức tính chu vi và diện tích Hình vuông cạnh a?",
-    "back": "Chu vi $P = 4a$. Diện tích $S = a^2$.",
+    "id": "fc_t6_c1_09",
+    "front": "Điều kiện của số dư r trong phép chia a cho b (b > 0) là gì?",
+    "back": "0 ≤ r < b (số dư luôn không âm và nhỏ hơn số chia)",
     "tags": [
-      "Toán 6",
-      "Hình học"
+      "Phep-chia"
     ]
   },
   {
-    "front": "Công thức tính chu vi và diện tích Hình thoi hai đường chéo m, n?",
-    "back": "Chu vi $P = 4a$ (a là cạnh hình thoi). Diện tích $S = \\frac{1}{2} \\cdot m \\cdot n$ (nửa tích hai đường chéo).",
+    "id": "fc_t6_c1_10",
+    "front": "Tập hợp rỗng được ký hiệu là gì?",
+    "back": "Ký hiệu là ∅, là tập hợp không chứa bất kỳ phần tử nào.",
     "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình bình hành đáy a, chiều cao h?",
-    "back": "$S = a \\cdot h$ (đáy nhân với chiều cao tương ứng).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Công thức tính diện tích Hình thang hai đáy a, b, chiều cao h?",
-    "back": "$S = \\frac{(a + b) \\cdot h}{2}$ (tổng hai đáy nhân chiều cao chia đôi).",
-    "tags": [
-      "Toán 6",
-      "Hình học"
-    ]
-  },
-  {
-    "front": "Muốn cộng hoặc trừ hai phân số không cùng mẫu ta làm thế nào?",
-    "back": "1. Quy đồng mẫu số hai phân số (đưa về mẫu chung dương); 2. Cộng hoặc trừ các tử số và giữ nguyên mẫu số chung.",
-    "tags": [
-      "Toán 6",
-      "Phân số"
-    ]
-  },
-  {
-    "front": "Công thức tính Xác suất thực nghiệm của một sự kiện?",
-    "back": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện phép thử nghiệm).",
-    "tags": [
-      "Toán 6",
-      "Xác suất"
+      "Tap-hop"
     ]
   }
 ]

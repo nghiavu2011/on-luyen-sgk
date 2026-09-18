@@ -23,12 +23,15 @@
         "steps": "Đánh giá lịch sử toàn diện: vừa ghi nhận thành tựu kiến trúc kiệt xuất, vừa thấy nỗi đau khổ của người nô lệ xây cất.",
         "trap": "Tin vào các thuyết mê tín hoang đường về người ngoài hành tinh."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo cái nhìn sử học khách quan và nhân văn SGK trang 33.",
-        "B": "Sai, thời cổ đại chỉ có công cụ thủ công thô sơ.",
-        "C": "Sai, đây là sản phẩm lao động chân chính của con người.",
-        "D": "Sai, các công trình đều bằng đá nguyên khối hoặc gạch nung kiên cố."
-      }
+      "distractorReasons": [
+        "Đúng vì cái nhìn sử học khách quan và nhân văn SGK trang 33.",
+        "Sai vì thời cổ đại chỉ có công cụ thủ công thô sơ.",
+        "Sai vì đây là sản phẩm lao động chân chính của con người.",
+        "Sai vì các công trình đều bằng đá nguyên khối hoặc gạch nung kiên cố."
+      ],
+      "socraticPrompt": "Xây kim tự tháp cao hơn 140m bằng hàng triệu khối đá nặng hàng tấn cần trí tuệ và công sức như thế nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch03_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Tư tưởng bình đẳng chúng sinh thu hút đông đảo người nghèo và cả tầng lớp quý tộc tiến bộ.",
         "trap": "Nhầm tưởng Phật giáo là tôn giáo quân sự hoặc phân biệt chủng tộc."
       },
-      "distractorReasons": {
-        "A": "Sai, đạo Bà La Môn mới là tôn giáo bảo vệ phân chia đẳng cấp.",
-        "B": "Đáp án đúng theo bài học lịch sử tôn giáo Ấn Độ SGK trang 36.",
-        "C": "Sai, đạo Phật dạy buông bỏ của cải phù phiếm chứ không phát tiền bạc.",
-        "D": "Sai, đạo Phật là tôn giáo hòa bình, kiên quyết chống bạo lực và sát sinh."
-      }
+      "distractorReasons": [
+        "Sai vì đạo Bà La Môn mới là tôn giáo bảo vệ phân chia đẳng cấp.",
+        "Đúng vì bài học lịch sử tôn giáo Ấn Độ SGK trang 36.",
+        "Sai vì đạo Phật dạy buông bỏ của cải phù phiếm chứ không phát tiền bạc.",
+        "Sai vì đạo Phật là tôn giáo hòa bình, kiên quyết chống bạo lực và sát sinh."
+      ],
+      "socraticPrompt": "Giáo lí đạo Phật dạy về lòng từ bi và đối xử với mọi người như thế nào?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch03_d3_03",
@@ -75,12 +81,15 @@
         "steps": "Hệ cơ số 60 cổ xưa tồn tại vĩnh cửu trong phép đo thời gian và góc học đường.",
         "trap": "Nhầm với hệ mét thập phân (hệ cơ số 10) do người Pháp quy chuẩn sau này."
       },
-      "distractorReasons": {
-        "A": "Sai, mét là hệ thập phân (cơ số 10).",
-        "B": "Sai, tuần lễ có 7 ngày.",
-        "C": "Đáp án đúng theo thành tựu toán học SGK trang 32.",
-        "D": "Sai, kilôgam cũng thuộc hệ đo lường thập phân."
-      }
+      "distractorReasons": [
+        "Sai vì mét là hệ thập phân (cơ số 10).",
+        "Sai vì tuần lễ có 7 ngày.",
+        "Đúng vì ành tựu toán học SGK trang 32.",
+        "Sai vì kilôgam cũng thuộc hệ đo lường thập phân."
+      ],
+      "socraticPrompt": "Kim đồng hồ chạy 1 vòng qua bao nhiêu vạch giây và vạch phút?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch03_d3_04",
@@ -101,12 +110,15 @@
         "steps": "Yêu cầu thủy lợi gắn liền với nhu cầu quyền lực nhà nước tập trung.",
         "trap": "Cho rằng chế độ chuyên chế chỉ do tính cách cá nhân của các vị vua tạo ra."
       },
-      "distractorReasons": {
-        "A": "Sai, thời cổ đại chưa hề có các tổ chức hay luật pháp quốc tế chung.",
-        "B": "Sai, đây là định kiến chủ quan sai lầm.",
-        "C": "Sai, các đồng bằng phù sa phương Đông rất rộng lớn và màu mỡ.",
-        "D": "Đáp án đúng giải thích cội nguồn quy luật trị thủy SGK trang 30."
-      }
+      "distractorReasons": [
+        "Sai vì thời cổ đại chưa hề có các tổ chức hay luật pháp quốc tế chung.",
+        "Sai vì đây là định kiến chủ quan sai lầm.",
+        "Sai vì các đồng bằng phù sa phương Đông rất rộng lớn và màu mỡ.",
+        "Đúng vì iải thích cội nguồn quy luật trị thủy SGK trang 30."
+      ],
+      "socraticPrompt": "Đắp đê chống lũ trên sông Hồng hay sông Hoàng Hà cần một người chỉ huy tối cao hay phân tán tự do?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch03_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Phản ánh kĩ thuật xây dựng đỉnh cao nhưng cũng là biểu tượng của sự tàn bạo của chế độ chủ nô La Mã.",
         "trap": "Nhầm lẫn đấu trường với nhà thi đấu thể thao hòa bình như Ô-lim-píc của Hy Lạp."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 48.",
-        "B": "Sai, đây là nơi diễn ra các màn thi đấu chết chóc chứ không phải đàm phán hòa bình.",
-        "C": "Sai, đấu trường không dùng làm kho nông sản.",
-        "D": "Sai, đây không phải trường học đào tạo y khoa."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 48.",
+        "Sai vì đây là nơi diễn ra các màn thi đấu chết chóc chứ không phải đàm phán hòa bình.",
+        "Sai vì đấu trường không dùng làm kho nông sản.",
+        "Sai vì đây không phải trường học đào tạo y khoa."
+      ],
+      "socraticPrompt": "Các đấu sĩ giác đấu ở thành La Mã chiến đấu ở đâu?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch03_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Học tập, bảo tồn di sản và phát huy truyền thống kết nối với thời đại mới.",
         "trap": "Thái độ sùng bái một chiều hoặc ngược lại coi thường quá khứ."
       },
-      "distractorReasons": {
-        "A": "Sai, phủ nhận quá khứ là đánh mất cội nguồn trí tuệ.",
-        "B": "Đáp án đúng thể hiện phẩm chất và thái độ sống cao đẹp.",
-        "C": "Sai, cả phương Đông và phương Tây đều có những cống hiến vĩ đại ngang nhau.",
-        "D": "Sai, nền tảng chữ viết, toán học, lịch pháp ta dùng hôm nay đều từ thời cổ đại."
-      }
+      "distractorReasons": [
+        "Sai vì phủ nhận quá khứ là đánh mất cội nguồn trí tuệ.",
+        "Đúng vì ể hiện phẩm chất và thái độ sống cao đẹp.",
+        "Sai vì cả phương Đông và phương Tây đều có những cống hiến vĩ đại ngang nhau.",
+        "Sai vì nền tảng chữ viết, toán học, lịch pháp ta dùng hôm nay đều từ thời cổ đại."
+      ],
+      "socraticPrompt": "Chúng ta nên có thái độ như thế nào trước những di sản kì diệu mà tiền nhân để lại?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Bản chất của Nhà nước ta là 'Nhà nước của nhân dân, do nhân dân, vì nhân dân' thể hiện cao nhất qua",
       "options": [
-        "Quyền làm chủ trực tiếp và gián tiếp của nhân dân đối với vận mệnh quốc gia",
-        "Nhà nước ban phát quyền lợi cho dân",
         "Quyền lực tập trung vào một cá nhân",
+        "Nhà nước ban phát quyền lợi cho dân",
+        "Quyền làm chủ trực tiếp và gián tiếp của nhân dân đối với vận mệnh quốc gia",
         "Dân không có tiếng nói trong quản lý"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Nhân dân là chủ thể tối cao của quyền lực nhà nước.",
       "breakdown": {
         "concept": "Bản chất nhà nước của dân",
         "steps": "Nhân dân làm chủ đất nước.",
         "socraticPrompt": "Nhà nước của dân, do dân, vì dân là gì?"
-      }
+      },
+      "socraticPrompt": "Nhà nước của dân, do dân, vì dân là gì?",
+      "distractorReasons": [
+        "Sai vì 'Quyền lực tập trung vào một cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Bản chất nhà nước của dân).",
+        "Sai vì 'Nhà nước ban phát quyền lợi cho dân' không phù hợp với định lý/quy tắc trọng tâm (Bản chất nhà nước của dân).",
+        "Đúng vì theo Bản chất nhà nước của dân: Nhân dân làm chủ đất nước.",
+        "Sai vì phủ định sai bản chất: 'Dân không có tiếng nói trong quản lý' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Ý nghĩa của việc công khai, minh bạch các chính sách, dự án công trên cổng thông tin điện tử là",
       "options": [
-        "Tạo điều kiện để người dân giám sát quyền lực nhà nước, phòng ngừa tham nhũng tiêu cực",
+        "Không mang lại lợi ích gì",
         "Làm lộ bí mật doanh nghiệp",
         "Gây khó khăn cho cơ quan quản lý",
-        "Không mang lại lợi ích gì"
+        "Tạo điều kiện để người dân giám sát quyền lực nhà nước, phòng ngừa tham nhũng tiêu cực"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Minh bạch thông tin là thước đo của một chính quyền phục vụ và liêm chính.",
       "breakdown": {
         "concept": "Công khai minh bạch",
         "steps": "Để nhân dân kiểm tra, giám sát.",
         "socraticPrompt": "Tại sao cơ quan nhà nước phải công khai dự án?"
-      }
+      },
+      "socraticPrompt": "Tại sao cơ quan nhà nước phải công khai dự án?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không mang lại lợi ích gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Làm lộ bí mật doanh nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Công khai minh bạch).",
+        "Sai vì 'Gây khó khăn cho cơ quan quản lý' không phù hợp với định lý/quy tắc trọng tâm (Công khai minh bạch).",
+        "Đúng vì theo Công khai minh bạch: Để nhân dân kiểm tra, giám sát."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Trách nhiệm ngôn luận",
         "steps": "Góp ý xây dựng, đúng pháp luật.",
         "socraticPrompt": "Góp ý chính sách cần có thái độ thế nào?"
-      }
+      },
+      "socraticPrompt": "Góp ý chính sách cần có thái độ thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Trách nhiệm ngôn luận: Góp ý xây dựng, đúng pháp luật.",
+        "Sai vì 'Chửi bới xúc phạm cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm ngôn luận).",
+        "Sai vì 'Tung tin bịa đặt gây hoang mang' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm ngôn luận).",
+        "Sai vì 'Kêu gọi kích động bạo lực' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm ngôn luận)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Sự khác biệt căn bản giữa nền Dân chủ XHCN và các nền dân chủ trước đó trong lịch sử là",
       "options": [
-        "Bảo đảm quyền làm chủ thực sự của đa số quần chúng nhân dân lao động trên mọi lĩnh vực đời sống",
         "Chỉ phục vụ thiểu số giai cấp thống trị",
+        "Bảo đảm quyền làm chủ thực sự của đa số quần chúng nhân dân lao động trên mọi lĩnh vực đời sống",
         "Chỉ mang tính hình thức trên giấy tờ",
         "Xóa bỏ quyền con người"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Dân chủ XHCN là nền dân chủ rộng rãi nhất, thực chất nhất vì con người.",
       "breakdown": {
         "concept": "Ưu việt dân chủ XHCN",
         "steps": "Quyền làm chủ thực sự của đa số nhân dân.",
         "socraticPrompt": "Dân chủ XHCN ưu việt ở điểm nào?"
-      }
+      },
+      "socraticPrompt": "Dân chủ XHCN ưu việt ở điểm nào?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ thiểu số giai cấp thống trị', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Ưu việt dân chủ XHCN: Quyền làm chủ thực sự của đa số nhân dân.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ mang tính hình thức trên giấy tờ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Xóa bỏ quyền con người' không phù hợp với định lý/quy tắc trọng tâm (Ưu việt dân chủ XHCN)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Tâm thế cử tri trẻ",
         "steps": "Tự hào và trách nhiệm với tương lai đất nước.",
         "socraticPrompt": "Lần đầu đi bầu cử cần có tâm thế gì?"
-      }
+      },
+      "socraticPrompt": "Lần đầu đi bầu cử cần có tâm thế gì?",
+      "distractorReasons": [
+        "Đúng vì theo Tâm thế cử tri trẻ: Tự hào và trách nhiệm với tương lai đất nước.",
+        "Sai vì 'Coi đó là việc vô bổ' không phù hợp với định lý/quy tắc trọng tâm (Tâm thế cử tri trẻ).",
+        "Sai vì 'Bán phiếu bầu lấy tiền' không phù hợp với định lý/quy tắc trọng tâm (Tâm thế cử tri trẻ).",
+        "Sai vì 'Để người khác bầu thay' không phù hợp với định lý/quy tắc trọng tâm (Tâm thế cử tri trẻ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thông điệp về 'Dân chủ và Pháp cương' trong xã hội hiện đại là",
       "options": [
-        "Dân chủ phải đi đôi với kỷ cương, kỷ luật và thượng tôn pháp luật; dân chủ không đồng nghĩa với tự do vô chính phủ",
+        "Hai khái niệm đối lập nhau",
         "Dân chủ là muốn làm gì thì làm",
         "Kỷ cương triệt tiêu dân chủ",
-        "Hai khái niệm đối lập nhau"
+        "Dân chủ phải đi đôi với kỷ cương, kỷ luật và thượng tôn pháp luật; dân chủ không đồng nghĩa với tự do vô chính phủ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Dân chủ trong khuôn khổ pháp luật mới bảo đảm tự do và hạnh phúc bền vững cho mọi người.",
       "breakdown": {
         "concept": "Dân chủ đi đôi kỷ cương",
         "steps": "Dân chủ gắn liền với kỷ cương phép nước.",
         "socraticPrompt": "Mối quan hệ giữa dân chủ và kỷ cương là gì?"
-      }
+      },
+      "socraticPrompt": "Mối quan hệ giữa dân chủ và kỷ cương là gì?",
+      "distractorReasons": [
+        "Sai vì 'Hai khái niệm đối lập nhau' không phù hợp với định lý/quy tắc trọng tâm (Dân chủ đi đôi kỷ cương).",
+        "Sai vì 'Dân chủ là muốn làm gì thì làm' không phù hợp với định lý/quy tắc trọng tâm (Dân chủ đi đôi kỷ cương).",
+        "Sai vì 'Kỷ cương triệt tiêu dân chủ' không phù hợp với định lý/quy tắc trọng tâm (Dân chủ đi đôi kỷ cương).",
+        "Đúng vì theo Dân chủ đi đôi kỷ cương: Dân chủ gắn liền với kỷ cương phép nước."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

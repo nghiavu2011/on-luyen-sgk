@@ -23,12 +23,15 @@
         "steps": "Địa hình đồng bằng phù sa vs bờ biển vũng vịnh quyết định hướng đi kinh tế của hai khu vực.",
         "trap": "Nhầm lẫn giữa điều kiện địa lí nông nghiệp và kinh tế biển."
       },
-      "distractorReasons": {
-        "A": "Sai, phương Đông là nông nghiệp chứ không phải thủ công xuất khẩu.",
-        "B": "Đáp án đúng theo bài học tổng kết so sánh SGK.",
-        "C": "Sai, phương Đông vẫn có các chợ và thương cảng buôn bán.",
-        "D": "Sai, phương Tây vẫn trồng các cây lâu năm như nho, ô liu rất phát triển."
-      }
+      "distractorReasons": [
+        "Sai vì phương Đông là nông nghiệp chứ không phải thủ công xuất khẩu.",
+        "Đúng vì bài học tổng kết so sánh SGK.",
+        "Sai vì phương Đông vẫn có các chợ và thương cảng buôn bán.",
+        "Sai vì phương Tây vẫn trồng các cây lâu năm như nho, ô liu rất phát triển."
+      ],
+      "socraticPrompt": "Sông lớn mang lại nông nghiệp, vậy biển và hải cảng mang lại nghề gì?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch03_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Thể hiện trình độ lập pháp rất sớm của cư dân Lưỡng Hà thời cổ đại.",
         "trap": "Cho rằng luật cổ đại đã có tư tưởng xóa bỏ nô lệ bình quyền như thời nay."
       },
-      "distractorReasons": {
-        "A": "Sai, luật thời cổ đại bảo vệ chủ nô chứ không xóa bỏ nô lệ.",
-        "B": "Sai, luật bảo vệ quý tộc và người tự do có tài sản.",
-        "C": "Sai, đây là bộ luật dân sự - hình sự, không phải sách nông nghiệp.",
-        "D": "Đáp án đúng theo SGK trang 32."
-      }
+      "distractorReasons": [
+        "Sai vì luật thời cổ đại bảo vệ chủ nô chứ không xóa bỏ nô lệ.",
+        "Sai vì luật bảo vệ quý tộc và người tự do có tài sản.",
+        "Sai vì đây là bộ luật dân sự - hình sự, không phải sách nông nghiệp.",
+        "Đúng vì SGK trang 32."
+      ],
+      "socraticPrompt": "Bộ luật cổ nhất khắc trên phiến đá ba-dan nổi tiếng có giá trị gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch03_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Thiết lập trật tự kỷ cương phong kiến và gìn giữ luân thường đạo lí gia đình.",
         "trap": "Nhầm tư tưởng Nho giáo với tư tưởng tôn giáo tu hành thoát tục của Phật giáo."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 42.",
-        "B": "Sai, đi tu là đạo Phật hoặc ẩn dật của Đạo giáo.",
-        "C": "Sai, Nho giáo đề cao trung quân ái quốc, chống bạo loạn.",
-        "D": "Sai, Nho giáo chú trọng đạo đức xã hội chứ không phát triển vũ khí tàu chiến."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 42.",
+        "Sai vì đi tu là đạo Phật hoặc ẩn dật của Đạo giáo.",
+        "Sai vì Nho giáo đề cao trung quân ái quốc, chống bạo loạn.",
+        "Sai vì Nho giáo chú trọng đạo đức xã hội chứ không phát triển vũ khí tàu chiến."
+      ],
+      "socraticPrompt": "Khổng Tử dạy về chữ 'Nhân' và chữ 'Lễ' để con người sống như thế nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch03_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Hạn chế mang tính giai cấp sâu sắc của nền dân chủ cổ đại.",
         "trap": "Nghĩ rằng nền dân chủ thời đó đã hoàn hảo công bằng cho tất cả mọi người như ngày nay."
       },
-      "distractorReasons": {
-        "A": "Sai, A-ten duy trì nền dân chủ rực rỡ suốt nhiều thế kỉ.",
-        "B": "Sai, công dân nam tự do thảo luận rất sôi nổi ở đồi Pơ-ních.",
-        "C": "Đáp án chính xác theo đánh giá khoa học SGK trang 45.",
-        "D": "Sai, A-ten không có vua mà do Đại hội nhân dân và Hội đồng 500 người điều hành."
-      }
+      "distractorReasons": [
+        "Sai vì A-ten duy trì nền dân chủ rực rỡ suốt nhiều thế kỉ.",
+        "Sai vì công dân nam tự do thảo luận rất sôi nổi ở đồi Pơ-ních.",
+        "Đúng vì iá khoa học SGK trang 45.",
+        "Sai vì A-ten không có vua mà do Đại hội nhân dân và Hội đồng 500 người điều hành."
+      ],
+      "socraticPrompt": "Phụ nữ và nô lệ ở A-ten cổ đại có được đi bầu cử không?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch03_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Toán học và Vật lí học là những thành tựu rực rỡ của các nhà bác học Hy Lạp cổ đại.",
         "trap": "Nhầm lẫn với các ngành khoa học công nghệ của thế kỉ XX - XXI."
       },
-      "distractorReasons": {
-        "A": "Sai, công nghệ thông tin thuộc thời hiện đại.",
-        "B": "Đáp án đúng theo bảng thành tựu khoa học SGK trang 47.",
-        "C": "Sai, khai thác dầu mỏ chỉ phát triển từ thế kỉ XIX.",
-        "D": "Sai, trí tuệ nhân tạo là sản phẩm thời đại 4.0."
-      }
+      "distractorReasons": [
+        "Sai vì công nghệ thông tin thuộc thời hiện đại.",
+        "Đúng vì bảng thành tựu khoa học SGK trang 47.",
+        "Sai vì khai thác dầu mỏ chỉ phát triển từ thế kỉ XIX.",
+        "Sai vì trí tuệ nhân tạo là sản phẩm thời đại 4.0."
+      ],
+      "socraticPrompt": "Định lí Pi-ta-go trong tam giác vuông thuộc môn học nào?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch03_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Chữ Quốc ngữ dùng kí tự La-tinh kết hợp dấu thanh tiếng Việt.",
         "trap": "Cho rằng chữ La-tinh là chữ cổ đã biến mất khỏi cuộc sống hiện đại."
       },
-      "distractorReasons": {
-        "A": "Sai, chữ La-tinh đang được hàng tỉ người sử dụng mỗi ngày.",
-        "B": "Sai, đây là chữ viết thế tục thông dụng chứ không riêng gì nghi lễ tế tự.",
-        "C": "Sai, chữ La-tinh phát triển mạnh mẽ và phổ biến toàn cầu.",
-        "D": "Đáp án đúng thể hiện sự kế thừa văn minh nhân loại SGK trang 46."
-      }
+      "distractorReasons": [
+        "Sai vì chữ La-tinh đang được hàng tỉ người sử dụng mỗi ngày.",
+        "Sai vì đây là chữ viết thế tục thông dụng chứ không riêng gì nghi lễ tế tự.",
+        "Sai vì chữ La-tinh phát triển mạnh mẽ và phổ biến toàn cầu.",
+        "Đúng vì ể hiện sự kế thừa văn minh nhân loại SGK trang 46."
+      ],
+      "socraticPrompt": "Chữ tiếng Việt em đang đọc hàng ngày có dùng hệ chữ cái La-tinh không?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

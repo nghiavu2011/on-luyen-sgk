@@ -23,12 +23,15 @@
         "steps": "Chậm hơn 2 tiếng: $19 - 2 = 17\\text{ giờ}$.",
         "trap": "Cộng thêm 2 tiếng ($19 + 2 = 21\\text{ giờ}$) do nhầm lẫn hướng tính giờ."
       },
-      "distractorReasons": {
-        "A": "Sai lầm do làm phép cộng $19 + 2$.",
-        "B": "Đáp án đúng: $17\\text{ giờ}$.",
-        "C": "Sai, hai múi giờ khác nhau không thể cùng giờ.",
-        "D": "Sai, chênh lệch chỉ là 2 tiếng chứ không phải 4 tiếng."
-      }
+      "distractorReasons": [
+        "Sai lầm do làm phép cộng $19 + 2$.",
+        "Đúng vì : $17\\text{ giờ}$.",
+        "Sai vì hai múi giờ khác nhau không thể cùng giờ.",
+        "Sai vì chênh lệch chỉ là 2 tiếng chứ không phải 4 tiếng."
+      ],
+      "socraticPrompt": "Việt Nam (múi 7) chạy chậm hơn hay nhanh hơn Nhật Bản (múi 9)? Mấy tiếng?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch07_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Mùa trái ngược nhau: Bắc đông thì Nam hè (người dân Úc đón Giáng sinh giữa mùa hè nóng bức).",
         "trap": "Nghĩ rằng cả Trái Đất đều cùng chung một mùa đông lạnh vào tháng 12."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là sai lầm nghĩ cả hai nửa địa cầu cùng một mùa.",
-        "B": "Sai, mọi nơi đều có mùa theo quy luật góc chiếu sáng.",
-        "C": "Sai, tháng 12 là mùa hạ ở Bán cầu Nam.",
-        "D": "Đáp án đúng theo nguyên lí các mùa SGK trang 123."
-      }
+      "distractorReasons": [
+        "Sai vì đây là sai lầm nghĩ cả hai nửa địa cầu cùng một mùa.",
+        "Sai vì mọi nơi đều có mùa theo quy luật góc chiếu sáng.",
+        "Sai vì tháng 12 là mùa hạ ở Bán cầu Nam.",
+        "Đúng vì uyên lí các mùa SGK trang 123."
+      ],
+      "socraticPrompt": "Khi Bán cầu Bắc là mùa đông thì Bán cầu Nam là mùa gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch07_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Bắc bán cầu: lệch phải; Nam bán cầu: lệch trái.",
         "trap": "Nhầm quy tắc giữa Bán cầu Bắc (lệch phải) và Bán cầu Nam (lệch trái)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo định luật Cô-ri-ô-lít SGK trang 120.",
-        "B": "Sai, lệch trái là quy luật ở Bán cầu Nam.",
-        "C": "Sai, sự tự quay của Trái Đất luôn tạo ra lực làm lệch hướng.",
-        "D": "Sai, lực lệch phương ngang chứ không hất ngược vật thể."
-      }
+      "distractorReasons": [
+        "Đúng vì ịnh luật Cô-ri-ô-lít SGK trang 120.",
+        "Sai vì lệch trái là quy luật ở Bán cầu Nam.",
+        "Sai vì sự tự quay của Trái Đất luôn tạo ra lực làm lệch hướng.",
+        "Sai vì lực lệch phương ngang chứ không hất ngược vật thể."
+      ],
+      "socraticPrompt": "Ở Bán cầu Bắc, dòng sông hay viên đạn bị lệch về bên phải hay bên trái?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch07_d2_04",
@@ -101,12 +110,15 @@
         "steps": "$6 \\times 4 = 24\\text{ h} = 1\\text{ ngày}$ -> năm nhuận 366 ngày.",
         "trap": "Cho rằng đây là quy định tùy tiện của con người mà không có cơ sở thiên văn."
       },
-      "distractorReasons": {
-        "A": "Sai, năm nhuận dựa trên cơ sở đo đạc thiên văn chính xác.",
-        "B": "Sai, vận tốc quay của các hành tinh rất ổn định.",
-        "C": "Đáp án đúng theo giải thích khoa học SGK trang 122.",
-        "D": "Sai, trục Trái Đất nghiêng ổn định không hề đảo chiều sau 4 năm."
-      }
+      "distractorReasons": [
+        "Sai vì năm nhuận dựa trên cơ sở đo đạc thiên văn chính xác.",
+        "Sai vì vận tốc quay của các hành tinh rất ổn định.",
+        "Đúng vì iải thích khoa học SGK trang 122.",
+        "Sai vì trục Trái Đất nghiêng ổn định không hề đảo chiều sau 4 năm."
+      ],
+      "socraticPrompt": "6 giờ dư mỗi năm nhân với 4 năm bằng bao nhiêu giờ? Có bằng 1 ngày không?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch07_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Quy ước đường đổi ngày quốc tế SGK trang 120.",
         "trap": "Nhầm lẫn giữa tăng ngày và lùi ngày khi vượt đường kinh tuyến 180°."
       },
-      "distractorReasons": {
-        "A": "Sai, lùi ngày là khi đi từ Đông sang Tây.",
-        "B": "Đáp án đúng theo quy ước quốc tế về kinh tuyến 180°.",
-        "C": "Sai, nếu không đổi ngày sẽ bị sai lệch lịch pháp với các quốc gia sở tại.",
-        "D": "Sai, ở đây thay đổi ngày lịch chứ không đơn thuần là giờ trong ngày."
-      }
+      "distractorReasons": [
+        "Sai vì lùi ngày là khi đi từ Đông sang Tây.",
+        "Đúng vì quy ước quốc tế về kinh tuyến 180°.",
+        "Sai vì nếu không đổi ngày sẽ bị sai lệch lịch pháp với các quốc gia sở tại.",
+        "Sai vì ở đây thay đổi ngày lịch chứ không đơn thuần là giờ trong ngày."
+      ],
+      "socraticPrompt": "Vượt qua kinh tuyến 180 độ từ Tây sang Đông hay Đông sang Tây sẽ đổi ngày lịch như thế nào?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch07_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Hiện tượng ngày dài đêm ngắn ở vĩ độ cao vào mùa hạ.",
         "trap": "Tin vào lời đồn đèn điện hay hiện tượng phát quang kỳ quái."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là hiện tượng ánh sáng tự nhiên của vũ trụ.",
-        "B": "Sai, đây là ánh sáng tán xạ từ Mặt Trời chứ không phải do mây.",
-        "C": "Sai, không có hành tinh nào chiếu sáng như Mặt Trời.",
-        "D": "Đáp án đúng theo bài học ngày đêm dài ngắn theo vĩ độ SGK trang 124."
-      }
+      "distractorReasons": [
+        "Sai vì đây là hiện tượng ánh sáng tự nhiên của vũ trụ.",
+        "Sai vì đây là ánh sáng tán xạ từ Mặt Trời chứ không phải do mây.",
+        "Sai vì không có hành tinh nào chiếu sáng như Mặt Trời.",
+        "Đúng vì bài học ngày đêm dài ngắn theo vĩ độ SGK trang 124."
+      ],
+      "socraticPrompt": "Càng lên gần cực Bắc vào mùa hè thì ban ngày dài ra hay ngắn lại?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

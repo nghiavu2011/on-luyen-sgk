@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Triết lý vĩ đại của phong trào Phần mềm Nguồn Mở (FOSS) đã thúc đẩy nhân loại phát triển như thế nào?",
       "options": [
-        "Chia sẻ tri thức, dân chủ hóa công nghệ và tạo ra nền tảng cho Internet, AI và Cloud toàn cầu",
-        "Làm cho các lập trình viên bị nghèo đói",
         "Ngăn cấm phát triển thương mại",
+        "Làm cho các lập trình viên bị nghèo đói",
+        "Chia sẻ tri thức, dân chủ hóa công nghệ và tạo ra nền tảng cho Internet, AI và Cloud toàn cầu",
         "Khiến phần mềm kém chất lượng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Linux, Git, Python, Kubernetes... đều là nguồn mở kiến tạo nên nền tảng công nghệ thế giới.",
       "breakdown": {
         "concept": "Giá trị phần mềm nguồn mở",
         "steps": "Chia sẻ tri thức và thúc đẩy đổi mới sáng tạo.",
         "socraticPrompt": "Nguồn mở đã đóng góp gì cho sự phát triển của loài người?"
-      }
+      },
+      "socraticPrompt": "Nguồn mở đã đóng góp gì cho sự phát triển của loài người?",
+      "distractorReasons": [
+        "Sai vì 'Ngăn cấm phát triển thương mại' không phù hợp với định lý/quy tắc trọng tâm (Giá trị phần mềm nguồn mở).",
+        "Sai vì 'Làm cho các lập trình viên bị nghèo đói' không phù hợp với định lý/quy tắc trọng tâm (Giá trị phần mềm nguồn mở).",
+        "Đúng vì theo Giá trị phần mềm nguồn mở: Chia sẻ tri thức và thúc đẩy đổi mới sáng tạo.",
+        "Sai vì 'Khiến phần mềm kém chất lượng' không phù hợp với định lý/quy tắc trọng tâm (Giá trị phần mềm nguồn mở)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Khái niệm 'Chủ quyền số' (Digital Sovereignty) và 'Hạ tầng đám mây Make in Viet Nam' hướng tới",
       "options": [
-        "Tự chủ công nghệ, lưu trữ dữ liệu quốc gia trên hạ tầng máy chủ trong nước, bảo đảm an ninh quốc gia",
+        "Chỉ dùng điện thoại nội địa",
         "Cấm kết nối Internet quốc tế",
         "Ngừng sử dụng máy tính ngoại",
-        "Chỉ dùng điện thoại nội địa"
+        "Tự chủ công nghệ, lưu trữ dữ liệu quốc gia trên hạ tầng máy chủ trong nước, bảo đảm an ninh quốc gia"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Bảo vệ an ninh dữ liệu quốc gia trong không gian mạng toàn cầu.",
       "breakdown": {
         "concept": "Chủ quyền số quốc gia",
         "steps": "Tự chủ hạ tầng số và an toàn dữ liệu.",
         "socraticPrompt": "Tại sao Việt Nam cần làm chủ hạ tầng đám mây?"
-      }
+      },
+      "socraticPrompt": "Tại sao Việt Nam cần làm chủ hạ tầng đám mây?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng điện thoại nội địa', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Cấm kết nối Internet quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Chủ quyền số quốc gia).",
+        "Sai vì 'Ngừng sử dụng máy tính ngoại' không phù hợp với định lý/quy tắc trọng tâm (Chủ quyền số quốc gia).",
+        "Đúng vì theo Chủ quyền số quốc gia: Tự chủ hạ tầng số và an toàn dữ liệu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Công nghệ ảo hóa Container",
         "steps": "Cô lập môi trường, tối ưu hóa tài nguyên.",
         "socraticPrompt": "Docker và ảo hóa mang lại lợi ích gì?"
-      }
+      },
+      "socraticPrompt": "Docker và ảo hóa mang lại lợi ích gì?",
+      "distractorReasons": [
+        "Đúng vì theo Công nghệ ảo hóa Container: Cô lập môi trường, tối ưu hóa tài nguyên.",
+        "Sai vì 'Làm máy tính chạy chậm đi 10 lần' không phù hợp với định lý/quy tắc trọng tâm (Công nghệ ảo hóa Container).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ hiển thị đồ họa hoạt hình', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Xóa bỏ bộ nhớ RAM' không phù hợp với định lý/quy tắc trọng tâm (Công nghệ ảo hóa Container)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Nguy cơ 'Khóa chặt nhà cung cấp' (Vendor Lock-in) khi sử dụng dịch vụ đám mây độc quyền là",
       "options": [
-        "Khó khăn và tốn kém chi phí lớn khi muốn chuyển đổi dữ liệu sang nền tảng đám mây khác",
         "Dữ liệu bị xóa ngay lập tức",
+        "Khó khăn và tốn kém chi phí lớn khi muốn chuyển đổi dữ liệu sang nền tảng đám mây khác",
         "Không thể truy cập Internet",
         "Không có rủi ro nào"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Cần sử dụng các chuẩn mở để tránh bị phụ thuộc hoàn toàn vào một nhà cung cấp.",
       "breakdown": {
         "concept": "Nguy cơ Vendor Lock-in",
         "steps": "Phụ thuộc nền tảng, khó chuyển đổi dữ liệu.",
         "socraticPrompt": "Vendor lock-in trong điện toán đám mây là gì?"
-      }
+      },
+      "socraticPrompt": "Vendor lock-in trong điện toán đám mây là gì?",
+      "distractorReasons": [
+        "Sai vì 'Dữ liệu bị xóa ngay lập tức' không phù hợp với định lý/quy tắc trọng tâm (Nguy cơ Vendor Lock-in).",
+        "Đúng vì theo Nguy cơ Vendor Lock-in: Phụ thuộc nền tảng, khó chuyển đổi dữ liệu.",
+        "Sai vì phủ định sai bản chất: 'Không thể truy cập Internet' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có rủi ro nào' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Tuân thủ giấy phép nguồn mở",
         "steps": "Tôn trọng bản quyền và điều khoản giấy phép.",
         "socraticPrompt": "Dùng thư viện mã nguồn mở cần lưu ý điều gì?"
-      }
+      },
+      "socraticPrompt": "Dùng thư viện mã nguồn mở cần lưu ý điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Tuân thủ giấy phép nguồn mở: Tôn trọng bản quyền và điều khoản giấy phép.",
+        "Sai vì 'Tự ý xóa bản quyền của tác giả gốc' không phù hợp với định lý/quy tắc trọng tâm (Tuân thủ giấy phép nguồn mở).",
+        "Sai vì 'Bán lại thư viện và nhận là của mình' không phù hợp với định lý/quy tắc trọng tâm (Tuân thủ giấy phép nguồn mở).",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm giấy phép' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh hôm nay rèn luyện tư duy làm chủ công nghệ thay vì trở thành 'nô lệ công nghệ' bằng cách",
       "options": [
-        "Hiểu rõ nguyên lý hoạt động bên dưới của hệ điều hành, mạng và thuật toán, không chỉ dùng thụ động",
+        "Sợ hãi công nghệ mới",
         "Chỉ biết chơi game giải trí",
         "Lướt mạng xã hội vô thức",
-        "Sợ hãi công nghệ mới"
+        "Hiểu rõ nguyên lý hoạt động bên dưới của hệ điều hành, mạng và thuật toán, không chỉ dùng thụ động"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Chuyển dịch từ người tiêu dùng thụ động thành người kiến tạo công nghệ số.",
       "breakdown": {
         "concept": "Làm chủ công nghệ số",
         "steps": "Hiểu sâu nguyên lý, sáng tạo giải pháp.",
         "socraticPrompt": "Làm thế nào để trở thành người làm chủ công nghệ?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để trở thành người làm chủ công nghệ?",
+      "distractorReasons": [
+        "Sai vì 'Sợ hãi công nghệ mới' không phù hợp với định lý/quy tắc trọng tâm (Làm chủ công nghệ số).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ biết chơi game giải trí', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Lướt mạng xã hội vô thức' không phù hợp với định lý/quy tắc trọng tâm (Làm chủ công nghệ số).",
+        "Đúng vì theo Làm chủ công nghệ số: Hiểu sâu nguyên lý, sáng tạo giải pháp."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

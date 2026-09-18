@@ -22,7 +22,16 @@
         "socraticPrompt": "Mặt sàn là hình chiếu của mái tôn. Lấy 60 chia cho cos 30° = √3 / 2 bằng bao nhiêu?",
         "steps": "Mặt sàn là hình chiếu vuông góc của mái nhà trên mặt phẳng ngang. Ta có S_sàn = S_mái · cos 30° => S_mái = S_sàn / cos 30° = 60 / (√3 / 2) = 120 / √3 = 40√3 m² (xấp xỉ 69,28 m²).",
         "trap": "Lấy 60 nhân cos 30° = 30√3 m² (nhầm mái nhà thành hình chiếu của sàn)."
-      }
+      },
+      "socraticPrompt": "Mặt sàn là hình chiếu của mái tôn. Lấy 60 chia cho cos 30° = √3 / 2 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Mặt sàn là hình chiếu vuông góc của mái nhà trên mặt phẳng ngang. Ta có S_sàn = S_mái · cos 30° => S_mái = S_sàn / cos 30° = 60 / (√3 / 2) = 120 / √3 = 40√3 m² .",
+        "Sai vì '50 m²' không phù hợp với định lý/quy tắc trọng tâm (Công thức diện tích hình chiếu: S_chiếu = S · cos φ <=> S = S_chiếu / cos φ.).",
+        "Sai vì '120 m²' không phù hợp với định lý/quy tắc trọng tâm (Công thức diện tích hình chiếu: S_chiếu = S · cos φ <=> S = S_chiếu / cos φ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '30√3 m²' (Lấy 60 nhân cos 30° = 30√3 m² (nhầm mái nhà thành hình chiếu của sàn).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c8_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "1/h² = 1/9 + 1/9 + 1/9 = 3/9 = 1/3. h² = 3 thì h bằng bao nhiêu?",
         "steps": "Áp dụng hệ thức tứ diện vuông tại O: 1 / d² = 1 / OA² + 1 / OB² + 1 / OC² = 1/3² + 1/3² + 1/3² = 3/9 = 1/3. Suy ra d² = 3 => d = √3.",
         "trap": "Tính ra d = 3 hoặc 1."
-      }
+      },
+      "socraticPrompt": "1/h² = 1/9 + 1/9 + 1/9 = 3/9 = 1/3. h² = 3 thì h bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '1' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức lượng trong tứ diện vuông: 1 / h² = 1/OA² + 1/OB² + 1/OC².).",
+        "Đúng vì: Áp dụng hệ thức tứ diện vuông tại O: 1 / d² = 1 / OA² + 1 / OB² + 1 / OC² = 1/3² + 1/3² + 1/3² = 3/9 = 1/3. Suy ra d² = 3 => d = √3.",
+        "Sai vì '3√3' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức lượng trong tứ diện vuông: 1 / h² = 1/OA² + 1/OB² + 1/OC².).",
+        "Sai vì '3 / 2' không phù hợp với định lý/quy tắc trọng tâm (Hệ thức lượng trong tứ diện vuông: 1 / h² = 1/OA² + 1/OB² + 1/OC².)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c8_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Diện tích tam giác đều cạnh a là a²√3/4. Nhân chiều cao a được gì?",
         "steps": "Diện tích đáy tam giác đều: B = a²√3 / 4. Vì là lăng trụ đều nên cạnh bên là chiều cao: h = a. Thể tích: V = B · h = (a²√3 / 4) · a = a³√3 / 4.",
         "trap": "Nhầm công thức khối chóp chia 12: a³√3 / 12."
-      }
+      },
+      "socraticPrompt": "Diện tích tam giác đều cạnh a là a²√3/4. Nhân chiều cao a được gì?",
+      "distractorReasons": [
+        "Đúng vì: Diện tích đáy tam giác đều: B = a²√3 / 4. Vì là lăng trụ đều nên cạnh bên là chiều cao: h = a. Thể tích: V = B · h = (a²√3 / 4) · a = a³√3 / 4.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'a³√3 / 12' (công thức khối chóp chia 12: a³√3 / 12).",
+        "Sai vì 'a³ / 2' không phù hợp với định lý/quy tắc trọng tâm (Đáy là tam giác đều cạnh a có S = a²√3 / 4. Chiều cao lăng trụ h = a. Thể tích V = B · h.).",
+        "Sai vì 'a³√2 / 4' không phù hợp với định lý/quy tắc trọng tâm (Đáy là tam giác đều cạnh a có S = a²√3 / 4. Chiều cao lăng trụ h = a. Thể tích V = B · h.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c8_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Đường cao tam giác đều AM = a√3 / 2. SA cũng bằng a√3 / 2. Tam giác SAM vuông cân tại A thì góc SMA bằng mấy độ?",
         "steps": "Ta có: AM = a√3 / 2 (đường cao tam giác đều). SA = a√3 / 2 (giả thiết). Tam giác SAM vuông tại A có hai cạnh góc vuông SA = AM nên vuông cân tại A. Do đó góc SMA = 45°.",
         "trap": "Đoán góc 60° hoặc 30°."
-      }
+      },
+      "socraticPrompt": "Đường cao tam giác đều AM = a√3 / 2. SA cũng bằng a√3 / 2. Tam giác SAM vuông cân tại A thì góc SMA bằng mấy độ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '30°' (Đoán góc 60° hoặc 30°.).",
+        "Sai vì '60°' không phù hợp với định lý/quy tắc trọng tâm (Do tam giác đều nên AM ⊥ BC. Lại có SA ⊥ BC => BC ⊥ (SAM) => BC ⊥ SM. Góc cần tìm là SMA.).",
+        "Sai vì '90°' không phù hợp với định lý/quy tắc trọng tâm (Do tam giác đều nên AM ⊥ BC. Lại có SA ⊥ BC => BC ⊥ (SAM) => BC ⊥ SM. Góc cần tìm là SMA.).",
+        "Đúng vì: Ta có: AM = a√3 / 2 (đường cao tam giác đều). SA = a√3 / 2 (giả thiết). Tam giác SAM vuông tại A có hai cạnh góc vuông SA = AM nên vuông cân tại A. Do đó góc SM."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c8_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Cây cắm thẳng đứng trên cát, ánh sáng rọi thẳng từ trên xuống thì bóng của cây chỉ là một gì?",
         "steps": "Vì d ⊥ (P) tại giao điểm H nên mọi điểm M thuộc d đều có hình chiếu trùng với H. Vậy hình chiếu của d trên (P) là một điểm duy nhất H.",
         "trap": "Nhầm rằng hình chiếu của đường thẳng luôn luôn là một đường thẳng."
-      }
+      },
+      "socraticPrompt": "Cây cắm thẳng đứng trên cát, ánh sáng rọi thẳng từ trên xuống thì bóng của cây chỉ là một gì?",
+      "distractorReasons": [
+        "Sai vì 'Một đoạn thẳng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Một đường thẳng' (rằng hình chiếu của đường thẳng luôn luôn là một đường thẳng).",
+        "Đúng vì: Vì d ⊥ (P) tại giao điểm H nên mọi điểm M thuộc d đều có hình chiếu trùng với H. Vậy hình chiếu của d trên (P) là một điểm duy nhất H.",
+        "Sai vì 'Tập hợp rỗng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c8_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Vuông góc có nghĩa là tạo góc bao nhiêu độ?",
         "steps": "Theo định nghĩa SGK Toán 11, hai mặt phẳng gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°.",
         "trap": "Nhầm góc bù 180°."
-      }
+      },
+      "socraticPrompt": "Vuông góc có nghĩa là tạo góc bao nhiêu độ?",
+      "distractorReasons": [
+        "Sai vì '0°' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hai mặt phẳng vuông góc: góc giữa hai mặt phẳng bằng 90°.).",
+        "Sai vì '45°' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hai mặt phẳng vuông góc: góc giữa hai mặt phẳng bằng 90°.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '180°' (góc bù 180°).",
+        "Đúng vì: Theo định nghĩa SGK Toán 11, hai mặt phẳng gọi là vuông góc với nhau nếu góc giữa chúng bằng 90°."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

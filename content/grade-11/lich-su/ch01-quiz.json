@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Giá trị nhân văn vượt thời đại của các bản Tuyên ngôn thời cận đại đối với nhân loại là",
       "options": [
-        "Đặt nền móng cho quyền bình đẳng, quyền tự do và quyền sống thiêng liêng của con người",
-        "Bảo vệ quyền lợi riêng cho giới quý tộc phong kiến",
         "Hợp pháp hóa chế độ chiếm hữu nô lệ",
+        "Bảo vệ quyền lợi riêng cho giới quý tộc phong kiến",
+        "Đặt nền móng cho quyền bình đẳng, quyền tự do và quyền sống thiêng liêng của con người",
         "Phủ nhận vai trò của pháp luật và nhà nước"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Tư tưởng quyền con người trở thành nền tảng của luật pháp quốc tế.",
       "breakdown": {
         "concept": "Giá trị nhân văn",
         "steps": "Khẳng định quyền sống và tự do thiêng liêng.",
         "socraticPrompt": "Hai bản Tuyên ngôn đã đóng góp gì cho văn minh thế giới?"
-      }
+      },
+      "socraticPrompt": "Hai bản Tuyên ngôn đã đóng góp gì cho văn minh thế giới?",
+      "distractorReasons": [
+        "Sai vì 'Hợp pháp hóa chế độ chiếm hữu nô lệ' không phù hợp với định lý/quy tắc trọng tâm (Giá trị nhân văn).",
+        "Sai vì 'Bảo vệ quyền lợi riêng cho giới quý tộc phong kiến' không phù hợp với định lý/quy tắc trọng tâm (Giá trị nhân văn).",
+        "Đúng vì theo Giá trị nhân văn: Khẳng định quyền sống và tự do thiêng liêng.",
+        "Sai vì 'Phủ nhận vai trò của pháp luật và nhà nước' không phù hợp với định lý/quy tắc trọng tâm (Giá trị nhân văn)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Bài học rút ra từ các cuộc cách mạng tư sản về phát triển kinh tế đất nước hiện nay là",
       "options": [
-        "Tạo lập môi trường pháp lý minh bạch, bảo vệ quyền sở hữu và giải phóng sức sáng tạo",
+        "Chỉ phụ thuộc vào viện trợ nước ngoài",
         "Ngăn cấm hoàn toàn kinh tế tư nhân",
         "Duy trì độc quyền khép kín không cạnh tranh",
-        "Chỉ phụ thuộc vào viện trợ nước ngoài"
+        "Tạo lập môi trường pháp lý minh bạch, bảo vệ quyền sở hữu và giải phóng sức sáng tạo"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Thể chế pháp lý và giải phóng sức sản xuất là chìa khóa phát triển.",
       "breakdown": {
         "concept": "Bài học kinh tế",
         "steps": "Kinh tế thị trường có sự điều tiết của pháp luật.",
         "socraticPrompt": "Muốn kinh tế phát triển bền vững cần có điều kiện gì?"
-      }
+      },
+      "socraticPrompt": "Muốn kinh tế phát triển bền vững cần có điều kiện gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phụ thuộc vào viện trợ nước ngoài', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Ngăn cấm hoàn toàn kinh tế tư nhân' không phù hợp với định lý/quy tắc trọng tâm (Bài học kinh tế).",
+        "Sai vì phủ định sai bản chất: 'Duy trì độc quyền khép kín không cạnh tranh' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Bài học kinh tế: Kinh tế thị trường có sự điều tiết của pháp luật."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Bản chất thích nghi CNTB",
         "steps": "Dùng an sinh xã hội và công nghệ để giảm căng thẳng giai cấp.",
         "socraticPrompt": "Tại sao CNTB vẫn tồn tại và phát triển đến ngày nay?"
-      }
+      },
+      "socraticPrompt": "Tại sao CNTB vẫn tồn tại và phát triển đến ngày nay?",
+      "distractorReasons": [
+        "Đúng vì theo Bản chất thích nghi CNTB: Dùng an sinh xã hội và công nghệ để giảm căng thẳng giai cấp.",
+        "Sai vì 'Xóa bỏ hoàn toàn quan hệ bóc lột làm thuê' không phù hợp với định lý/quy tắc trọng tâm (Bản chất thích nghi CNTB).",
+        "Sai vì 'Chuyển thành chế độ xã hội chủ nghĩa' không phù hợp với định lý/quy tắc trọng tâm (Bản chất thích nghi CNTB).",
+        "Sai vì 'Tự nguyện giải thể các tập đoàn đa quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Bản chất thích nghi CNTB)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Nhận định nào phản ánh đúng tính chất giai cấp của các cuộc cách mạng tư sản?",
       "options": [
-        "Là cuộc cách mạng do tư sản lãnh đạo nhằm phục vụ lợi ích giai cấp tư sản là chủ yếu",
         "Là cuộc cách mạng đem lại toàn bộ chính quyền cho người lao động nghèo",
+        "Là cuộc cách mạng do tư sản lãnh đạo nhằm phục vụ lợi ích giai cấp tư sản là chủ yếu",
         "Là cuộc cách mạng bảo tồn vĩnh viễn quyền lực cho vua chúa phong kiến",
         "Là cuộc đấu tranh tôn giáo thuần túy"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Giai cấp tư sản nắm quyền lãnh đạo và thụ hưởng thành quả chính.",
       "breakdown": {
         "concept": "Tính chất giai cấp",
         "steps": "Tư sản thay thế phong kiến trở thành giai cấp thống trị.",
         "socraticPrompt": "Bản chất giai cấp của chính quyền mới sau CMTS là gì?"
-      }
+      },
+      "socraticPrompt": "Bản chất giai cấp của chính quyền mới sau CMTS là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Là cuộc cách mạng đem lại toàn bộ chính quyền cho người lao động nghèo', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Tính chất giai cấp: Tư sản thay thế phong kiến trở thành giai cấp thống trị.",
+        "Sai vì 'Là cuộc cách mạng bảo tồn vĩnh viễn quyền lực cho vua chúa phong kiến' không phù hợp với định lý/quy tắc trọng tâm (Tính chất giai cấp).",
+        "Sai vì 'Là cuộc đấu tranh tôn giáo thuần túy' không phù hợp với định lý/quy tắc trọng tâm (Tính chất giai cấp)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Vai trò Cách mạng công nghiệp",
         "steps": "Năng suất tăng vọt nhờ động cơ hơi nước và máy móc.",
         "socraticPrompt": "Yếu tố nào làm thay đổi diện mạo kinh tế thế giới thế kỷ 18-19?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào làm thay đổi diện mạo kinh tế thế giới thế kỷ 18-19?",
+      "distractorReasons": [
+        "Đúng vì theo Vai trò Cách mạng công nghiệp: Năng suất tăng vọt nhờ động cơ hơi nước và máy móc.",
+        "Sai vì 'Làm suy giảm sản lượng hàng hóa' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Cách mạng công nghiệp).",
+        "Sai vì 'Xóa bỏ các trung tâm đô thị công nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Cách mạng công nghiệp).",
+        "Sai vì 'Khiến nông nghiệp trở thành ngành duy nhất' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Cách mạng công nghiệp)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Để hội nhập kinh tế quốc tế thành công, bài học từ quá trình mở rộng thị trường của các nước phát triển là",
       "options": [
-        "Nâng cao năng lực cạnh tranh quốc gia, chủ động làm chủ công nghệ và chuỗi cung ứng",
+        "Bỏ qua các tiêu chuẩn bảo vệ môi trường",
         "Đóng cửa bảo hộ hoàn toàn",
         "Phụ thuộc vào xuất khẩu tài nguyên thô",
-        "Bỏ qua các tiêu chuẩn bảo vệ môi trường"
+        "Nâng cao năng lực cạnh tranh quốc gia, chủ động làm chủ công nghệ và chuỗi cung ứng"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Chủ động làm chủ công nghệ cao và hội nhập sâu rộng.",
       "breakdown": {
         "concept": "Bài học hội nhập",
         "steps": "Nâng cao chất lượng nguồn nhân lực và công nghệ.",
         "socraticPrompt": "Việt Nam cần làm gì trong sân chơi kinh tế toàn cầu?"
-      }
+      },
+      "socraticPrompt": "Việt Nam cần làm gì trong sân chơi kinh tế toàn cầu?",
+      "distractorReasons": [
+        "Sai vì 'Bỏ qua các tiêu chuẩn bảo vệ môi trường' không phù hợp với định lý/quy tắc trọng tâm (Bài học hội nhập).",
+        "Sai vì 'Đóng cửa bảo hộ hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Bài học hội nhập).",
+        "Sai vì 'Phụ thuộc vào xuất khẩu tài nguyên thô' không phù hợp với định lý/quy tắc trọng tâm (Bài học hội nhập).",
+        "Đúng vì theo Bài học hội nhập: Nâng cao chất lượng nguồn nhân lực và công nghệ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

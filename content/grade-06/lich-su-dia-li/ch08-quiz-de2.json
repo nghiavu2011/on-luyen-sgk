@@ -23,12 +23,15 @@
         "steps": "Các yếu tố khí quyển, thủy quyển tác động mài mòn đá = ngoại lực.",
         "trap": "Nhầm lẫn với nội lực nâng hạ vỏ đất."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 132.",
-        "B": "Sai, nội lực sinh ra động đất, núi lửa từ trong lòng đất.",
-        "C": "Sai, thiên thạch tạo hố va chạm lớn chứ không mài mòn từ từ.",
-        "D": "Sai, mảng kiến tạo chuyển động thuộc phạm trù nội lực."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 132.",
+        "Sai vì nội lực sinh ra động đất, núi lửa từ trong lòng đất.",
+        "Sai vì thiên thạch tạo hố va chạm lớn chứ không mài mòn từ từ.",
+        "Sai vì mảng kiến tạo chuyển động thuộc phạm trù nội lực."
+      ],
+      "socraticPrompt": "Nước chảy và gió thổi diễn ra ở trên mặt đất hay sâu hàng trăm km trong lòng đất?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch08_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Đất ba-dan + mặt bằng cao nguyên = thủ phủ cà phê, cao su của đất nước.",
         "trap": "Tây Nguyên không giáp biển nên không thể phát triển hải sản hay tàu biển."
       },
-      "distractorReasons": {
-        "A": "Sai, Tây Nguyên không có bờ biển.",
-        "B": "Sai, Tây Nguyên có khí hậu nhiệt đới nắng gió, không có băng tuyết.",
-        "C": "Đáp án đúng theo liên hệ thực tế SGK trang 136.",
-        "D": "Sai, rừng ngập mặn ở ven biển Nam Bộ."
-      }
+      "distractorReasons": [
+        "Sai vì Tây Nguyên không có bờ biển.",
+        "Sai vì Tây Nguyên có khí hậu nhiệt đới nắng gió, không có băng tuyết.",
+        "Đúng vì liên hệ thực tế SGK trang 136.",
+        "Sai vì rừng ngập mặn ở ven biển Nam Bộ."
+      ],
+      "socraticPrompt": "Cà phê và hồ tiêu của Việt Nam được trồng bạt ngàn ở vùng nào nước ta?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch08_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Trú ẩn dưới gầm bàn vững chắc là biện pháp cứu mạng hàng đầu.",
         "trap": "Hành động nhảy ban công hoặc chen lấn cầu thang gây chấn thương và tử vong nhanh nhất."
       },
-      "distractorReasons": {
-        "A": "Sai, xô đẩy ở cầu thang dẫn đến giẫm đạp thảm khốc.",
-        "B": "Đáp án chính xác theo cẩm nang kĩ năng sinh tồn động đất SGK trang 134.",
-        "C": "Sai, nhảy từ tầng 2 xuống đất cực kì nguy hiểm đến tính mạng.",
-        "D": "Sai, cửa kính sẽ vỡ vụn bắn vào người gây thương tích nặng."
-      }
+      "distractorReasons": [
+        "Sai vì xô đẩy ở cầu thang dẫn đến giẫm đạp thảm khốc.",
+        "Đúng vì ẩm nang kĩ năng sinh tồn động đất SGK trang 134.",
+        "Sai vì nhảy từ tầng 2 xuống đất cực kì nguy hiểm đến tính mạng.",
+        "Sai vì cửa kính sẽ vỡ vụn bắn vào người gây thương tích nặng."
+      ],
+      "socraticPrompt": "Khi động đất, cái gì dễ rơi từ trần nhà xuống đầu ta? Cần vật gì che chắn trên đầu?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch08_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Đá dung nham núi lửa cổ xưa phong hóa tạo thành đất ba-dan màu mỡ.",
         "trap": "Nghĩ rằng núi lửa chỉ thuần túy đem lại tác hại tiêu cực."
       },
-      "distractorReasons": {
-        "A": "Sai, núi lửa mang nhiệt lượng cực nóng chứ không tạo băng tuyết.",
-        "B": "Sai, bão cát sinh ra ở sa mạc khô hạn.",
-        "C": "Sai, núi lửa không làm sông ngòi biến thành nước biển mặn.",
-        "D": "Đáp án đúng theo phân tích hai mặt của tự nhiên SGK trang 134."
-      }
+      "distractorReasons": [
+        "Sai vì núi lửa mang nhiệt lượng cực nóng chứ không tạo băng tuyết.",
+        "Sai vì bão cát sinh ra ở sa mạc khô hạn.",
+        "Sai vì núi lửa không làm sông ngòi biến thành nước biển mặn.",
+        "Đúng vì ân tích hai mặt của tự nhiên SGK trang 134."
+      ],
+      "socraticPrompt": "Đất đỏ ba-dan ở Tây Nguyên được sinh ra từ loại đá mắc-ma của hiện tượng tự nhiên nào?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch08_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Không thể tái tạo -> bắt buộc phải khai thác tiết kiệm, hợp lí và tìm năng lượng tái tạo thay thế.",
         "trap": "Cho rằng than đá có thể nuôi trồng hay tự sinh sôi nhanh chóng."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo giáo dục môi trường SGK trang 138.",
-        "B": "Sai, khoáng sản chôn sâu trong lòng đất không bốc hơi theo mùa.",
-        "C": "Sai, khoáng sản là khoáng vật địa chất vô sinh, không phải sinh vật để trồng trọt.",
-        "D": "Sai, khoáng sản lưu trữ được lâu dài."
-      }
+      "distractorReasons": [
+        "Đúng vì iáo dục môi trường SGK trang 138.",
+        "Sai vì khoáng sản chôn sâu trong lòng đất không bốc hơi theo mùa.",
+        "Sai vì khoáng sản là khoáng vật địa chất vô sinh, không phải sinh vật để trồng trọt.",
+        "Sai vì khoáng sản lưu trữ được lâu dài."
+      ],
+      "socraticPrompt": "Một mỏ than mất bao nhiêu triệu năm để hình thành? Khai thác hết có trồng lại được không?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch08_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Phù sa sông ngòi là vật liệu chính kiến tạo nên các đồng bằng châu thổ phì nhiêu.",
         "trap": "Nhầm do cát sa mạc hay do núi lửa ngầm tạo nên."
       },
-      "distractorReasons": {
-        "A": "Sai, cát sa mạc chỉ tạo cồn cát hoang mạc cằn cỗi.",
-        "B": "Sai, núi lửa ngầm tạo đảo núi lửa chứ không tạo đồng bằng châu thổ.",
-        "C": "Đáp án đúng theo SGK trang 136.",
-        "D": "Sai, Việt Nam ở xứ nhiệt đới không có băng trôi."
-      }
+      "distractorReasons": [
+        "Sai vì cát sa mạc chỉ tạo cồn cát hoang mạc cằn cỗi.",
+        "Sai vì núi lửa ngầm tạo đảo núi lửa chứ không tạo đồng bằng châu thổ.",
+        "Đúng vì SGK trang 136.",
+        "Sai vì Việt Nam ở xứ nhiệt đới không có băng trôi."
+      ],
+      "socraticPrompt": "Hàng năm nước sông Hồng màu đỏ đục là do mang theo cái gì bồi đắp cho ruộng đồng?",
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

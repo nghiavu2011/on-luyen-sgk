@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Tuyên ngôn Độc lập năm 1945 của Chủ tịch Hồ Chí Minh trích dẫn: 'Tất cả mọi người sinh ra đều có quyền bình đẳng...' nhằm khẳng định",
       "options": [
-        "Quyền con người thiêng liêng và quyền tự quyết dân tộc bất khả xâm phạm của non sông Việt Nam",
-        "Chỉ là khẩu hiệu ngoại giao",
         "Sự sao chép hình thức",
+        "Chỉ là khẩu hiệu ngoại giao",
+        "Quyền con người thiêng liêng và quyền tự quyết dân tộc bất khả xâm phạm của non sông Việt Nam",
         "Không mang ý nghĩa pháp lý"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Tư tưởng bất hủ của Bác Hồ kết tinh giá trị tiến bộ của nhân loại về quyền bình đẳng con người.",
       "breakdown": {
         "concept": "Tuyên ngôn độc lập 1945",
         "steps": "Khẳng định quyền con người và quyền độc lập dân tộc.",
         "socraticPrompt": "Tuyên ngôn độc lập trích dẫn quyền bình đẳng để làm gì?"
-      }
+      },
+      "socraticPrompt": "Tuyên ngôn độc lập trích dẫn quyền bình đẳng để làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Sự sao chép hình thức' không phù hợp với định lý/quy tắc trọng tâm (Tuyên ngôn độc lập 1945).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là khẩu hiệu ngoại giao', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Tuyên ngôn độc lập 1945: Khẳng định quyền con người và quyền độc lập dân tộc.",
+        "Sai vì phủ định sai bản chất: 'Không mang ý nghĩa pháp lý' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Sự khác biệt căn bản giữa 'Bình đẳng cào bằng hình thức' và 'Bình đẳng thực chất' trong chính sách xã hội là",
       "options": [
-        "Bình đẳng thực chất tạo điều kiện công bằng để người yếu thế phát huy năng lực vươn lên phát triển",
+        "Bình đẳng thực chất xóa bỏ mọi quy luật",
         "Bình đẳng cào bằng chia đều mọi thứ bất kể đóng góp",
         "Hai khái niệm giống hệt nhau",
-        "Bình đẳng thực chất xóa bỏ mọi quy luật"
+        "Bình đẳng thực chất tạo điều kiện công bằng để người yếu thế phát huy năng lực vươn lên phát triển"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Chính sách nhân văn hướng tới sự công bằng thực chất và tiến bộ xã hội bền vững.",
       "breakdown": {
         "concept": "Bình đẳng thực chất",
         "steps": "Tạo cơ hội phát triển công bằng cho người yếu thế.",
         "socraticPrompt": "Thế nào là bình đẳng thực chất?"
-      }
+      },
+      "socraticPrompt": "Thế nào là bình đẳng thực chất?",
+      "distractorReasons": [
+        "Sai vì 'Bình đẳng thực chất xóa bỏ mọi quy luật' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng thực chất).",
+        "Sai vì 'Bình đẳng cào bằng chia đều mọi thứ bất kể đóng góp' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng thực chất).",
+        "Sai vì 'Hai khái niệm giống hệt nhau' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng thực chất).",
+        "Đúng vì theo Bình đẳng thực chất: Tạo cơ hội phát triển công bằng cho người yếu thế."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Vị thế phụ nữ Việt Nam",
         "steps": "Tiến bộ vượt bậc về bình đẳng giới chính trị.",
         "socraticPrompt": "Tỷ lệ nữ đại biểu Quốc hội cao chứng minh điều gì?"
-      }
+      },
+      "socraticPrompt": "Tỷ lệ nữ đại biểu Quốc hội cao chứng minh điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Vị thế phụ nữ Việt Nam: Tiến bộ vượt bậc về bình đẳng giới chính trị.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ mang tính hình thức', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Sự ngẫu nhiên may mắn' không phù hợp với định lý/quy tắc trọng tâm (Vị thế phụ nữ Việt Nam).",
+        "Sai vì 'Do thiếu ứng viên nam' không phù hợp với định lý/quy tắc trọng tâm (Vị thế phụ nữ Việt Nam)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Khối đại đoàn kết 54 dân tộc anh em được ví như một 'Bức tranh gấm hoa rực rỡ sắc màu' có ý nghĩa",
       "options": [
-        "Mỗi dân tộc giữ gìn bản sắc độc đáo nhưng hòa quyện trong một Tổ quốc Việt Nam thống nhất hùng cường",
         "Các dân tộc phải đồng hóa giống hệt nhau",
+        "Mỗi dân tộc giữ gìn bản sắc độc đáo nhưng hòa quyện trong một Tổ quốc Việt Nam thống nhất hùng cường",
         "Chia cắt đất nước thành từng vùng riêng",
         "Xóa bỏ ngôn ngữ tiếng mẹ đẻ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Đoàn kết dân tộc là cội nguồn sức mạnh làm nên mọi thắng lợi vẻ vang của dân tộc Việt.",
       "breakdown": {
         "concept": "Đại đoàn kết 54 dân tộc",
         "steps": "Đa dạng bản sắc trong một Tổ quốc thống nhất.",
         "socraticPrompt": "Khối đại đoàn kết 54 dân tộc có ý nghĩa gì?"
-      }
+      },
+      "socraticPrompt": "Khối đại đoàn kết 54 dân tộc có ý nghĩa gì?",
+      "distractorReasons": [
+        "Sai vì 'Các dân tộc phải đồng hóa giống hệt nhau' không phù hợp với định lý/quy tắc trọng tâm (Đại đoàn kết 54 dân tộc).",
+        "Đúng vì theo Đại đoàn kết 54 dân tộc: Đa dạng bản sắc trong một Tổ quốc thống nhất.",
+        "Sai vì 'Chia cắt đất nước thành từng vùng riêng' không phù hợp với định lý/quy tắc trọng tâm (Đại đoàn kết 54 dân tộc).",
+        "Sai vì 'Xóa bỏ ngôn ngữ tiếng mẹ đẻ' không phù hợp với định lý/quy tắc trọng tâm (Đại đoàn kết 54 dân tộc)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Bảo vệ tự do tôn giáo chân chính",
         "steps": "Bình an xã hội, chống lợi dụng tôn giáo.",
         "socraticPrompt": "Tại sao phải ngăn chặn hành vi lợi dụng tôn giáo?"
-      }
+      },
+      "socraticPrompt": "Tại sao phải ngăn chặn hành vi lợi dụng tôn giáo?",
+      "distractorReasons": [
+        "Đúng vì theo Bảo vệ tự do tôn giáo chân chính: Bình an xã hội, chống lợi dụng tôn giáo.",
+        "Sai vì 'Cấm đoán người dân đi chùa, đi nhà thờ' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ tự do tôn giáo chân chính).",
+        "Sai vì 'Bắt mọi người bỏ tôn giáo' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ tự do tôn giáo chân chính).",
+        "Sai vì 'Bao che cho tội phạm' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ tự do tôn giáo chân chính)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Khát vọng xây dựng một xã hội 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' đòi hỏi mỗi người trẻ",
       "options": [
-        "Thượng tôn pháp luật, sống nhân ái, đấu tranh chống bất công và cống hiến hết mình cho đất nước",
+        "Lợi dụng quan hệ để trục lợi",
         "Thờ ơ với xã hội",
         "Kỳ thị người nghèo khổ",
-        "Lợi dụng quan hệ để trục lợi"
+        "Thượng tôn pháp luật, sống nhân ái, đấu tranh chống bất công và cống hiến hết mình cho đất nước"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Sứ mệnh lịch sử của thế hệ trẻ kiến tạo tương lai rạng rỡ của nước nhà.",
       "breakdown": {
         "concept": "Sứ mệnh thanh niên",
         "steps": "Thượng tôn pháp luật, sống nhân ái, cống hiến.",
         "socraticPrompt": "Mục tiêu xây dựng xã hội công bằng đòi hỏi thanh niên làm gì?"
-      }
+      },
+      "socraticPrompt": "Mục tiêu xây dựng xã hội công bằng đòi hỏi thanh niên làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Lợi dụng quan hệ để trục lợi' không phù hợp với định lý/quy tắc trọng tâm (Sứ mệnh thanh niên).",
+        "Sai vì 'Thờ ơ với xã hội' không phù hợp với định lý/quy tắc trọng tâm (Sứ mệnh thanh niên).",
+        "Sai vì 'Kỳ thị người nghèo khổ' không phù hợp với định lý/quy tắc trọng tâm (Sứ mệnh thanh niên).",
+        "Đúng vì theo Sứ mệnh thanh niên: Thượng tôn pháp luật, sống nhân ái, cống hiến."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

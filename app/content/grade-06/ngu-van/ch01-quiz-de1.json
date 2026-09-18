@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được xuất xứ tác phẩm văn học trong sgk ngữ văn 6.?",
+      "distractorReasons": [
+        "Đúng vì theo Xuất xứ tác phẩm văn học trong SGK Ngữ văn 6.: Đoạn trích nằm ở chương 1 của tiểu thuyết đồng thoại 'Dế Mèn phiêu lưu kí'.",
+        "Sai vì 'O chuột' không phù hợp với định lý/quy tắc trọng tâm (Xuất xứ tác phẩm văn học trong SGK Ngữ văn 6.).",
+        "Sai vì 'Đất nước đứng lên' không phù hợp với định lý/quy tắc trọng tâm (Xuất xứ tác phẩm văn học trong SGK Ngữ văn 6.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vợ chồng A Phủ' (Vợ chồng A Phủ là tác phẩm của Tô Hoài nhưng dạy ở lớp 12.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu chi tiết bài thơ 'bắt nạt'.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hãy dùng bạo lực đánh trả kẻ bắt nạt' (Bài thơ kiên quyết phản đối bạo lực, không khuyên đánh trả bằng bạo lực.).",
+        "Đúng vì theo Đọc hiểu chi tiết bài thơ 'Bắt nạt'.: Tác giả khuyên kẻ bắt nạt ăn mù tạt để nếm vị cay nồng, thức tỉnh hành vi sai trái.",
+        "Sai vì 'Hãy khóc thật to để người lớn can thiệp' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết bài thơ 'Bắt nạt'.).",
+        "Sai vì 'Hãy im lặng chịu đựng để tránh rắc rối' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết bài thơ 'Bắt nạt'.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích tính cách nhân vật qua hành vi trong truyện đồng thoại.?",
+      "distractorReasons": [
+        "Sai vì 'Tự ti về ngoại hình gầy gò ốm yếu của mình' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tính cách nhân vật qua hành vi trong truyện đồng thoại.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chăm chỉ đào hang sâu và phòng thủ cẩn thận' (Đào hang sâu là hành động của Dế Choắt sau khi được Mèn khuyên nhưng chưa kịp làm.).",
+        "Đúng vì: Mèn tự hào đôi càng mẫm bóng, hung hăng thách thức chị Cốc dẫn đến cái chết oan uổng của bạn.",
+        "Sai vì 'Chủ động chia sẻ thức ăn cho Dế Choắt' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tính cách nhân vật qua hành vi trong truyện đồng thoại.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được triết lý về tình bạn trong 'hoàng tử bé'.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần gặp gỡ nói chuyện một lần là trở thành tri kỷ', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phải mua nhiều quà cáp và đồ chơi đắt tiền tặng bạn' (Tình bạn không thể mua bằng vật chất hay hình thành chớp nhoáng.).",
+        "Sai vì 'Phải bắt đối phương phục tùng mọi yêu cầu của mình' không phù hợp với định lý/quy tắc trọng tâm (Triết lý về tình bạn trong 'Hoàng tử bé'.).",
+        "Đúng vì theo Triết lý về tình bạn trong 'Hoàng tử bé'.: Cáo dặn Hoàng tử bé: Cần phải rất kiên nhẫn, mỗi ngày ngồi lại gần nhau hơn một chút vào cùng một giờ nhất định."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giá trị giáo dục nhân cách của tác phẩm tô hoài.?",
+      "distractorReasons": [
+        "Đúng vì theo Giá trị giáo dục nhân cách của tác phẩm Tô Hoài.: Nỗi đau mất bạn và bài học đường đời đầu tiên đã biến Mèn từ một kẻ ngỗ ngược thành một dũng sĩ biết bảo vệ kẻ yếu.",
+        "Sai vì phủ định sai bản chất: 'Khiến Mèn sợ hãi không dám ra khỏi hang bao giờ nữa' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Chứng minh loài dế không thể sống chung trong cùng một cánh đồng' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khiến Mèn ôm hận và tìm cách trả thù chị Cốc' (Mèn không tìm cách trả thù vì nhận ra lỗi lầm hoàn toàn do bản thân gây ra.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: so sánh liên văn bản cùng chủ đề.?",
+      "distractorReasons": [
+        "Sai vì 'Cùng miêu tả các trận chiến sinh tử trong thế giới côn trùng' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: So sánh liên văn bản cùng chủ đề.).",
+        "Đúng vì theo Vận dụng cao: So sánh liên văn bản cùng chủ đề.: Cả hai tác phẩm đều dạy bài học đạo đức: kẻ mạnh thực sự là kẻ biết nâng đỡ người khác chứ không phải kẻ ức hiếp người yếu.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cùng sử dụng thể thơ tự do 4 chữ' (Một bài là văn xuôi đồng thoại, một bài là thơ nên không thể giống nhau về thể loại.).",
+        "Sai vì 'Cùng khuyên trẻ em nên sống cô lập một mình' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: So sánh liên văn bản cùng chủ đề.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

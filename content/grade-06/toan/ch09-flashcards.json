@@ -1,86 +1,85 @@
-{
-  "chapterId": "ch09",
-  "title": "Chương 9: Dữ liệu và xác suất thực nghiệm",
-  "flashcards": [
-    {
-      "id": "fc_t6_c9_01",
-      "front": "Dữ liệu là gì và gồm những loại nào?",
-      "back": "Dữ liệu là các thông tin thu thập được, gồm dữ liệu số (số liệu: chiều cao, điểm số) và dữ liệu không phải là số (tên, màu sắc, sở thích).",
-      "category": "Khái niệm",
-      "example": "Điểm 9 là số liệu; xếp loại Giỏi là dữ liệu không là số.",
-      "mnemonic": "Dữ liệu gồm: số liệu (đo đếm) và định tính (chữ, hình)."
-    },
-    {
-      "id": "fc_t6_c9_02",
-      "front": "Tính hợp lý của dữ liệu có nghĩa là gì?",
-      "back": "Dữ liệu phải phù hợp với thực tế và quy định của bài toán (ví dụ: điểm thi từ 0 đến 10, số học sinh phải là số nguyên dương).",
-      "category": "Quy tắc",
-      "example": "Điểm thi 12 là không hợp lý vì thang điểm tối đa là 10.",
-      "mnemonic": "Dữ liệu chuẩn phải đúng định dạng và hợp quy luật."
-    },
-    {
-      "id": "fc_t6_c9_03",
-      "front": "Các phương pháp thu thập dữ liệu phổ biến là gì?",
-      "back": "Quan sát trực tiếp, làm thí nghiệm, lập phiếu hỏi khảo sát và thu thập từ nguồn có sẵn (sách, báo, internet).",
-      "category": "Phương pháp",
-      "example": "Khảo sát món ăn yêu thích bằng phiếu hỏi học sinh.",
-      "mnemonic": "Bốn cách thu thập: quan sát, thí nghiệm, phiếu hỏi, tra cứu."
-    },
-    {
-      "id": "fc_t6_c9_04",
-      "front": "Biểu đồ tranh là gì?",
-      "back": "Biểu đồ tranh sử dụng hình ảnh hoặc biểu tượng để biểu diễn dữ liệu thống kê, mỗi biểu tượng ứng với một số lượng đơn vị cụ thể.",
-      "category": "Khái niệm",
-      "example": "Mỗi hình ngôi sao đại diện cho 5 điểm tốt.",
-      "mnemonic": "Dùng hình ảnh vẽ tranh để biểu diễn số lượng."
-    },
-    {
-      "id": "fc_t6_c9_05",
-      "front": "Biểu đồ cột kép dùng để làm gì?",
-      "back": "Dùng để so sánh từng cặp số liệu của hai nhóm đối tượng cùng loại qua các tiêu chí thống kê.",
-      "category": "Khái niệm",
-      "example": "So sánh số học sinh nam và nữ của từng lớp trong khối 6.",
-      "mnemonic": "Hai cột ghép đôi: so sánh hai nhóm đối tượng song hành."
-    },
-    {
-      "id": "fc_t6_c9_06",
-      "front": "Sự kiện chắc chắn là gì?",
-      "back": "Là sự kiện luôn luôn xảy ra trong mọi lần thực nghiệm.",
-      "category": "Khái niệm",
-      "example": "Gieo xúc xắc 6 mặt, số chấm xuất hiện nhỏ hơn 7 là sự kiện chắc chắn.",
-      "mnemonic": "Chắc chắn là 100% luôn luôn xảy ra."
-    },
-    {
-      "id": "fc_t6_c9_07",
-      "front": "Sự kiện không thể là gì?",
-      "back": "Là sự kiện không bao giờ xảy ra trong bất kỳ lần thực nghiệm nào.",
-      "category": "Khái niệm",
-      "example": "Gieo xúc xắc 6 mặt, xuất hiện mặt 8 chấm là sự kiện không thể.",
-      "mnemonic": "Không thể là 0% không bao giờ xảy ra."
-    },
-    {
-      "id": "fc_t6_c9_08",
-      "front": "Sự kiện có thể là gì?",
-      "back": "Là sự kiện có thể xảy ra hoặc không xảy ra sau khi thực hiện phép thử.",
-      "category": "Khái niệm",
-      "example": "Gieo đồng xu xuất hiện mặt sấp là sự kiện có thể.",
-      "mnemonic": "Có thể xảy ra hoặc không: xác suất từ 0% đến 100%."
-    },
-    {
-      "id": "fc_t6_c9_09",
-      "front": "Công thức tính xác suất thực nghiệm của sự kiện E là gì?",
-      "back": "Xác suất thực nghiệm = (Số lần sự kiện E xảy ra) / (Tổng số lần thực nghiệm) = k / n.",
-      "category": "Công thức",
-      "example": "Tung đồng xu 20 lần được 12 lần sấp: P(sấp) = 12 / 20 = 60%.",
-      "mnemonic": "Số lần xảy ra chia tổng số lần thử: k chia n."
-    },
-    {
-      "id": "fc_t6_c9_10",
-      "front": "Mối quan hệ giữa xác suất thực nghiệm và số lần thử n là gì?",
-      "back": "Khi số lần thực nghiệm n càng lớn thì xác suất thực nghiệm càng tiến gần đến xác suất lý thuyết của sự kiện.",
-      "category": "Định lý",
-      "example": "Tung đồng xu càng nhiều nghìn lần thì tỉ lệ mặt sấp càng sát 50%.",
-      "mnemonic": "Càng thử nhiều, kết quả càng chuẩn xác."
-    }
-  ]
-}
+[
+  {
+    "id": "fc_t6_c9_01",
+    "front": "Dữ liệu dưới dạng số được gọi là gì?",
+    "back": "Được gọi là SỐ LIỆU (ví dụ: chiều cao, cân nặng, điểm số, nhiệt độ).",
+    "tags": [
+      "Du-lieu",
+      "Thong-ke"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_02",
+    "front": "Biểu đồ tranh thể hiện số liệu bằng cái gì?",
+    "back": "Bằng các BIỂU TƯỢNG hoặc HÌNH ẢNH (mỗi biểu tượng đại diện cho một số lượng cụ thể).",
+    "tags": [
+      "Bieu-do-tranh"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_03",
+    "front": "Biểu đồ cột kép thường được dùng để làm gì?",
+    "back": "Dùng để SO SÁNH trực quan từng cặp số liệu của hai đối tượng cùng loại theo thời gian hoặc danh mục.",
+    "tags": [
+      "Bieu-do-cot-kep"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_04",
+    "front": "Khi gieo một con xúc xắc 6 mặt, có tất cả bao nhiêu kết quả có thể xảy ra?",
+    "back": "Có 6 kết quả có thể xảy ra: xuất hiện mặt 1, 2, 3, 4, 5 hoặc 6 chấm.",
+    "tags": [
+      "Xac-suat",
+      "Xuc-xac"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_05",
+    "front": "Khi tung một đồng xu, có mấy kết quả có thể xảy ra?",
+    "back": "Có 2 kết quả có thể xảy ra: Mặt Sấp (S) hoặc Mặt Ngửa (N).",
+    "tags": [
+      "Xac-suat",
+      "Dong-xu"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_06",
+    "front": "Công thức tính xác suất thực nghiệm của một sự kiện là gì?",
+    "back": "P = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện thí nghiệm).",
+    "tags": [
+      "Cong-thuc-xac-suat"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_07",
+    "front": "Giá trị của xác suất thực nghiệm luôn nằm trong khoảng nào?",
+    "back": "Từ 0 đến 1 (tức là từ 0% đến 100%).",
+    "tags": [
+      "Xac-suat"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_08",
+    "front": "Nếu một sự kiện chắc chắn xảy ra thì xác suất của nó bằng bao nhiêu?",
+    "back": "Bằng 1 (hoặc 100%).",
+    "tags": [
+      "Xac-suat"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_09",
+    "front": "Nếu một sự kiện không thể nào xảy ra thì xác suất của nó bằng bao nhiêu?",
+    "back": "Bằng 0 (hoặc 0%).",
+    "tags": [
+      "Xac-suat"
+    ]
+  },
+  {
+    "id": "fc_t6_c9_10",
+    "front": "Khi số lần thực nghiệm càng lớn thì xác suất thực nghiệm của mặt Sấp khi tung đồng xu sẽ càng tiến gần đến giá trị nào?",
+    "back": "Tiến rất gần đến 1/2 (hay 0,5 hoặc 50%).",
+    "tags": [
+      "Quy-luat-so-lon"
+    ]
+  }
+]

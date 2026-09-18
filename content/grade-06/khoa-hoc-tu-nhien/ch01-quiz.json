@@ -21,7 +21,16 @@
         "socraticPrompt": "Một tờ giấy có 2 trang. 100 trang thì gồm bao nhiêu tờ giấy? Độ dày 1 tờ tính bằng tổng độ dày chia số tờ đúng không?",
         "steps": "100 trang tương ứng với 50 tờ giấy. Đo bề dày 50 tờ bằng thước (ví dụ được 5 mm), rồi chia cho 50 ra 0,1 mm/tờ.",
         "trap": "Nhầm số trang với số tờ (1 tờ = 2 trang sách)."
-      }
+      },
+      "socraticPrompt": "Một tờ giấy có 2 trang. 100 trang thì gồm bao nhiêu tờ giấy? Độ dày 1 tờ tính bằng tổng độ dày chia số tờ đúng không?",
+      "distractorReasons": [
+        "Đúng vì: 100 trang tương ứng với 50 tờ giấy. Đo bề dày 50 tờ bằng thước (ví dụ được 5 mm), rồi chia cho 50 ra 0,1 mm/tờ.",
+        "Sai vì 'Gấp đôi tờ giấy lại nhiều lần rồi dùng thước đo' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dùng kính lúp soi để ước lượng độ dày một tờ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đo độ dày của toàn bộ quyển sách kể cả bìa rồi chia cho tổng số trang' (số trang với số tờ (1 tờ = 2 trang sách))."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c1_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Nước sạch chảy liên tục giúp làm gì cho nồng độ hoá chất bám trên da?",
         "steps": "Xả nước liên tục ít nhất 15 phút giúp làm mát và trôi sạch axit, tuyệt đối không dùng hoá chất khác trung hoà vì toả nhiệt gây bỏng nặng hơn.",
         "trap": "Dùng kiềm để trung hoà sẽ gây phản ứng toả nhiệt làm bỏng da nghiêm trọng."
-      }
+      },
+      "socraticPrompt": "Nước sạch chảy liên tục giúp làm gì cho nồng độ hoá chất bám trên da?",
+      "distractorReasons": [
+        "Sai vì 'Dùng băng gạc quấn chặt vết thương rồi tiếp tục học' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Xả nước liên tục ít nhất 15 phút giúp làm mát và trôi sạch axit, tuyệt đối không dùng hoá chất khác trung hoà vì toả nhiệt gây bỏng nặng hơn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đổ dung dịch kiềm đậm đặc lên để trung hoà axit' (Dùng kiềm để trung hoà sẽ gây phản ứng toả nhiệt làm bỏng da nghiêm trọng.).",
+        "Sai vì 'Bôi kem đánh răng hoặc dầu ăn lên vùng da bị dính axit' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c1_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Lấy khối lượng m chia cho thể tích V ta được thương số bằng bao nhiêu?",
         "steps": "D = m / V = 54 / 20 = 2,7 g/cm³ (khối lượng riêng đặc trưng của đá vôi/khoáng vật).",
         "trap": "Lấy nhầm V chia m (20 / 54) hoặc nhân m với V."
-      }
+      },
+      "socraticPrompt": "Lấy khối lượng m chia cho thể tích V ta được thương số bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0,37 g/cm³' không phù hợp với định lý/quy tắc trọng tâm (Công thức khối lượng riêng: D = m / V (với m tính bằng gam, V tính bằng cm³).).",
+        "Sai vì '1,08 g/cm³' không phù hợp với định lý/quy tắc trọng tâm (Công thức khối lượng riêng: D = m / V (với m tính bằng gam, V tính bằng cm³).).",
+        "Đúng vì: D = m / V = 54 / 20 = 2,7 g/cm³ (khối lượng riêng đặc trưng của đá vôi/khoáng vật).",
+        "Sai vì '7,4 g/cm³' không phù hợp với định lý/quy tắc trọng tâm (Công thức khối lượng riêng: D = m / V (với m tính bằng gam, V tính bằng cm³).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c1_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Thay t = 25 vào biểu thức 25 + 273,15 ta nhận được kết quả nào?",
         "steps": "T = 25 + 273,15 = 298,15 K.",
         "trap": "Lấy 273,15 trừ 25 thay vì cộng."
-      }
+      },
+      "socraticPrompt": "Thay t = 25 vào biểu thức 25 + 273,15 ta nhận được kết quả nào?",
+      "distractorReasons": [
+        "Sai vì '248,15 K' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa độ Celsius và thang nhiệt tuyệt đối Kelvin: T(K) = t(°C) + 273,15.).",
+        "Sai vì '300 K' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa độ Celsius và thang nhiệt tuyệt đối Kelvin: T(K) = t(°C) + 273,15.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '273,15 K' (Lấy 273,15 trừ 25 thay vì cộng.).",
+        "Đúng vì: T = 25 + 273,15 = 298,15 K."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c1_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Đoạn đường chéo hoặc đường cong luôn dài hơn đoạn thẳng nối hai đầu mút đúng không?",
         "steps": "Thước dây bị chùng hoặc lệch góc dẫn đến số đo luôn lớn hơn chiều dài thật của cạnh bàn.",
         "trap": "Nghĩ rằng dùng thước dây mềm thì đặt thế nào cũng đúng."
-      }
+      },
+      "socraticPrompt": "Đoạn đường chéo hoặc đường cong luôn dài hơn đoạn thẳng nối hai đầu mút đúng không?",
+      "distractorReasons": [
+        "Đúng vì: Thước dây bị chùng hoặc lệch góc dẫn đến số đo luôn lớn hơn chiều dài thật của cạnh bàn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bạn Bình đặt đầu số 0 của thước trùng đúng với một đầu mép bàn' (Nghĩ rằng dùng thước dây mềm thì đặt thế nào cũng đúng.).",
+        "Sai vì 'Bạn Cường kéo căng thước dây song song với mép bàn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Bạn An đọc kết quả khi mắt nhìn vuông góc với vạch chia' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c1_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Nếu tế bào hoàn toàn trong suốt dưới ánh sáng mạnh của kính hiển vi, em làm cách nào để nhìn thấy đường viền và nhân?",
         "steps": "Nhuộm màu tế bào tạo độ tương phản giữa nhân, màng và tế bào chất, giúp việc soi kính hiển vi đạt độ rõ nét cao.",
         "trap": "Nhầm tưởng việc nhuộm màu là để bảo quản hoặc phóng to kích thước vật lí của tế bào."
-      }
+      },
+      "socraticPrompt": "Nếu tế bào hoàn toàn trong suốt dưới ánh sáng mạnh của kính hiển vi, em làm cách nào để nhìn thấy đường viền và nhân?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để tiêu diệt toàn bộ tế bào hành' (tưởng việc nhuộm màu là để bảo quản hoặc phóng to kích thước vật lí của tế bào).",
+        "Đúng vì: Nhuộm màu tế bào tạo độ tương phản giữa nhân, màng và tế bào chất, giúp việc soi kính hiển vi đạt độ rõ nét cao.",
+        "Sai vì 'Để làm tế bào phồng to gấp đôi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để hòa tan màng tế bào của vảy hành' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

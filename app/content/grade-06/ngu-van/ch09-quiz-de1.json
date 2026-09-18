@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu văn bản thông tin 'trái đất – cái nôi của sự sống'.?",
+      "distractorReasons": [
+        "Đúng vì: Ba điều kiện sống cốt lõi: Nước, khí quyển giàu oxy và vị trí nhiệt độ lý tưởng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì Trái Đất có kích thước lớn nhất trong vũ trụ' (Trái Đất không phải là hành tinh lớn nhất (Sao Mộc lớn nhất).).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Vì Trái Đất không bao giờ có động đất hay núi lửa', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Vì Trái Đất có nhiều mỏ kim cương' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu văn bản thông tin 'Trái Đất – cái nôi của sự sống'.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kiến thức về chiến dịch môi trường giờ trái đất.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cấm tất cả các phương tiện giao thông hoạt động trong một ngày' (Giờ Trái Đất không cấm Internet hay giao thông.).",
+        "Đúng vì theo Kiến thức về chiến dịch môi trường Giờ Trái Đất.: Hành động tắt đèn 60 phút nhằm nâng cao ý thức tiết kiệm năng lượng và chống biến đổi khí hậu.",
+        "Sai vì 'Tất cả mọi người phải đi ngủ lúc 6 giờ chiều' không phù hợp với định lý/quy tắc trọng tâm (Kiến thức về chiến dịch môi trường Giờ Trái Đất.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tắt toàn bộ hệ thống Internet toàn cầu', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích nguyên nhân đe dọa đa dạng sinh học.?",
+      "distractorReasons": [
+        "Sai vì 'Do các loài động vật tự chán sống' không phù hợp với định lý/quy tắc trọng tâm (Phân tích nguyên nhân đe dọa đa dạng sinh học.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do thiên thạch từ vũ trụ va chạm liên tục' (Thiên thạch va chạm là sự kiện cổ đại hàng triệu năm trước.).",
+        "Đúng vì theo Phân tích nguyên nhân đe dọa đa dạng sinh học.: Tác động tiêu cực của con người (phá rừng, biến đổi khí hậu, săn bắt thú quý) là nguyên nhân chủ yếu.",
+        "Sai vì 'Do sự già cỗi tự nhiên của Trái Đất' không phù hợp với định lý/quy tắc trọng tâm (Phân tích nguyên nhân đe dọa đa dạng sinh học.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được thuật ngữ sinh thái trong văn bản thông tin môi trường.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vết tích khảo cổ thời tiền sử' (Không hiểu nghĩa đen vật lý là dấu vết bước chân.).",
+        "Sai vì 'Dấu giày của con người để lại trên mặt đất' không phù hợp với định lý/quy tắc trọng tâm (Thuật ngữ sinh thái trong văn bản thông tin môi trường.).",
+        "Sai vì 'Số lượng cây xanh mà một người trồng được' không phù hợp với định lý/quy tắc trọng tâm (Thuật ngữ sinh thái trong văn bản thông tin môi trường.).",
+        "Đúng vì theo Thuật ngữ sinh thái trong văn bản thông tin môi trường.: 'Dấu chân sinh thái' đo lường áp lực mà con người đè nặng lên tài nguyên tự nhiên của hành tinh."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được quy luật cân bằng sinh thái và lưới thức ăn tự nhiên.?",
+      "distractorReasons": [
+        "Đúng vì theo Quy luật cân bằng sinh thái và lưới thức ăn tự nhiên.: Côn trùng thụ phấn cho cây, chim ăn sâu bọ; mất cân bằng dẫn đến bùng phát dịch bệnh và suy thoái rừng.",
+        "Sai vì phủ định sai bản chất: 'Vì con người không còn tiếng chim hót để nghe' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vì các loài thú lớn sẽ buồn bã mà chết theo' không phù hợp với định lý/quy tắc trọng tâm (Quy luật cân bằng sinh thái và lưới thức ăn tự nhiên.).",
+        "Sai vì 'Vì giá gỗ rừng sẽ giảm mạnh' không phù hợp với định lý/quy tắc trọng tâm (Quy luật cân bằng sinh thái và lưới thức ăn tự nhiên.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: khái niệm phát triển bền vững và đạo đức sinh thái.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khai thác cạn kiệt mọi mỏ dầu và khoáng sản để làm giàu nhanh chóng' (Khai thác cạn kiệt hay trốn chạy trách nhiệm là lối tư duy hủy diệt tương lai.).",
+        "Đúng vì: Con người chỉ là người quản lý tạm thời, có trách nhiệm bảo tồn Trái Đất cho các thế hệ mai sau.",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm đến môi trường vì con cháu sẽ tự phát minh công nghệ giải quyết' trái ngược với kiến thức SGK.",
+        "Sai vì 'Di cư sang hành tinh khác sinh sống' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Khái niệm phát triển bền vững và đạo đức sinh thái.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

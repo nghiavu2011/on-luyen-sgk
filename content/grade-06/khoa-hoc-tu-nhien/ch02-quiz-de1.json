@@ -21,7 +21,16 @@
         "socraticPrompt": "Rót 100 mL nước từ chai tròn sang cốc vuông, thể tích có đổi không và hình dạng có đổi không?",
         "steps": "Chất lỏng có thể tích xác định nhưng hình dạng phụ thuộc bình chứa.",
         "trap": "Nhầm với thể khí (không có cả thể tích lẫn hình dạng xác định)."
-      }
+      },
+      "socraticPrompt": "Rót 100 mL nước từ chai tròn sang cốc vuông, thể tích có đổi không và hình dạng có đổi không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Có hình dạng và thể tích xác định' (với thể khí (không có cả thể tích lẫn hình dạng xác định)).",
+        "Sai vì phủ định sai bản chất: 'Không có hình dạng và không có thể tích xác định' trái ngược với kiến thức SGK.",
+        "Đúng vì: Chất lỏng có thể tích xác định nhưng hình dạng phụ thuộc bình chứa.",
+        "Sai vì 'Dễ dàng bị nén lại rất nhiều' không phù hợp với định lý/quy tắc trọng tâm (Thể lỏng có thể tích cố định nhưng mang hình dạng của phần bình chứa nó, rất khó nén.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c2_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Cục nước đá để ngoài trời nóng chuyển thành nước nước thì gọi là hiện tượng gì?",
         "steps": "Rắn sang lỏng là sự nóng chảy.",
         "trap": "Đông đặc là quá trình ngược lại (lỏng sang rắn)."
-      }
+      },
+      "socraticPrompt": "Cục nước đá để ngoài trời nóng chuyển thành nước nước thì gọi là hiện tượng gì?",
+      "distractorReasons": [
+        "Sai vì 'Sự ngưng tụ' không phù hợp với định lý/quy tắc trọng tâm (Nóng chảy là sự biến đổi từ thể rắn sang thể lỏng khi nhận nhiệt.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sự đông đặc' (Đông đặc là quá trình ngược lại (lỏng sang rắn).).",
+        "Sai vì 'Sự bay hơi' không phù hợp với định lý/quy tắc trọng tâm (Nóng chảy là sự biến đổi từ thể rắn sang thể lỏng khi nhận nhiệt.).",
+        "Đúng vì: Rắn sang lỏng là sự nóng chảy."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c2_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Hiện tượng nào biến đổi tạo thành chất mới hoàn toàn?",
         "steps": "Cháy và gỉ sét tạo ra chất mới, đó là tính chất hoá học.",
         "trap": "Dẫn điện, màu sắc, nhiệt độ sôi là tính chất vật lí vì không biến chất."
-      }
+      },
+      "socraticPrompt": "Hiện tượng nào biến đổi tạo thành chất mới hoàn toàn?",
+      "distractorReasons": [
+        "Đúng vì: Cháy và gỉ sét tạo ra chất mới, đó là tính chất hoá học.",
+        "Sai vì 'Nhiệt độ nóng chảy, nhiệt độ sôi, khối lượng riêng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Màu sắc, mùi vị, tính tan trong nước' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tính dẫn điện, tính dẫn nhiệt, độ dẻo' (Dẫn điện, màu sắc, nhiệt độ sôi là tính chất vật lí vì không biến chất.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c2_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Đêm lạnh, hơi nước trong không khí gặp phiến lá lạnh sẽ biến thành những giọt nước li ti gọi là gì?",
         "steps": "Hơi nước biến thành giọt sương lỏng chính là sự ngưng tụ.",
         "trap": "Nhầm với sự bay hơi (lỏng sang hơi)."
-      }
+      },
+      "socraticPrompt": "Đêm lạnh, hơi nước trong không khí gặp phiến lá lạnh sẽ biến thành những giọt nước li ti gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Sự nóng chảy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hơi nước biến thành giọt sương lỏng chính là sự ngưng tụ.",
+        "Sai vì 'Sự đông đặc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Sự thăng hoa' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c2_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Các phân tử khí nằm thưa thớt nên khi ép pittông thì chúng sẽ bị dồn lại gần nhau đúng không?",
         "steps": "Chất khí dễ bị nén do khoảng cách giữa các phân tử khí rất rộng.",
         "trap": "Chất khí vẫn có khối lượng, không phải là không có khối lượng."
-      }
+      },
+      "socraticPrompt": "Các phân tử khí nằm thưa thớt nên khi ép pittông thì chúng sẽ bị dồn lại gần nhau đúng không?",
+      "distractorReasons": [
+        "Sai vì 'Vì chất khí có hình dạng xác định' không phù hợp với định lý/quy tắc trọng tâm (Chất khí dễ bị nén do khoảng cách giữa các hạt phân tử rất lớn so với kích thước hạt.).",
+        "Sai vì 'Vì chất khí nặng hơn chất rắn' không phù hợp với định lý/quy tắc trọng tâm (Chất khí dễ bị nén do khoảng cách giữa các hạt phân tử rất lớn so với kích thước hạt.).",
+        "Đúng vì: Chất khí dễ bị nén do khoảng cách giữa các phân tử khí rất rộng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì chất khí không có khối lượng' (Chất khí vẫn có khối lượng, không phải là không có khối lượng.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c2_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Trong quá trình chuyển thể của chất tinh khiết, nhiệt độ có tăng thêm khi đun tiếp không?",
         "steps": "Nhiệt độ sôi là 100 °C và không đổi trong lúc sôi.",
         "trap": "Lầm tưởng rằng cứ đun lửa to thì nước sôi sẽ lên 110 °C hay 120 °C."
-      }
+      },
+      "socraticPrompt": "Trong quá trình chuyển thể của chất tinh khiết, nhiệt độ có tăng thêm khi đun tiếp không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sôi ở 100 °C và nhiệt độ tiếp tục tăng cao' (Lầm tưởng rằng cứ đun lửa to thì nước sôi sẽ lên 110 °C hay 120 °C.).",
+        "Sai vì 'Sôi ở 0 °C và nhiệt độ giảm dần' không phù hợp với định lý/quy tắc trọng tâm (Nước tinh khiết sôi ở 100 °C (1 atm) và nhiệt độ không đổi trong suốt thời gian sôi.).",
+        "Sai vì 'Sôi ở 80 °C và nhiệt độ dao động liên tục' không phù hợp với định lý/quy tắc trọng tâm (Nước tinh khiết sôi ở 100 °C (1 atm) và nhiệt độ không đổi trong suốt thời gian sôi.).",
+        "Đúng vì: Nhiệt độ sôi là 100 °C và không đổi trong lúc sôi."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

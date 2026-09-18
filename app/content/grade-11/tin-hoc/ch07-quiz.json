@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Tuyên bố: 'Việt Nam quyết tâm trở thành Trung tâm Đổi mới sáng tạo và AI của khu vực Đông Nam Á' đặt ra kỳ vọng gì cho thế hệ trẻ?",
       "options": [
-        "Nắm bắt công nghệ lõi, tự chủ sáng tạo sản phẩm 'Make in Viet Nam' vươn tầm toàn cầu",
-        "Chỉ làm gia công phần mềm giá rẻ",
         "Nhập khẩu toàn bộ công nghệ nước ngoài",
+        "Chỉ làm gia công phần mềm giá rẻ",
+        "Nắm bắt công nghệ lõi, tự chủ sáng tạo sản phẩm 'Make in Viet Nam' vươn tầm toàn cầu",
         "Không cần quan tâm công nghệ cao"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Khát vọng đưa Việt Nam bứt phá trong kỷ nguyên kinh tế tri thức và công nghệ số.",
       "breakdown": {
         "concept": "Khát vọng công nghệ Việt Nam",
         "steps": "Làm chủ công nghệ lõi Make in Viet Nam.",
         "socraticPrompt": "Chiến lược AI quốc gia kỳ vọng gì ở thế hệ trẻ?"
-      }
+      },
+      "socraticPrompt": "Chiến lược AI quốc gia kỳ vọng gì ở thế hệ trẻ?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Nhập khẩu toàn bộ công nghệ nước ngoài', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm gia công phần mềm giá rẻ', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Khát vọng công nghệ Việt Nam: Làm chủ công nghệ lõi Make in Viet Nam.",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm công nghệ cao' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Thách thức lớn nhất về 'Đạo đức và Sự thiên lệch' (AI Bias) trong các mô hình học máy là",
       "options": [
-        "Nếu dữ liệu huấn luyện chứa định kiến xã hội, AI sẽ học và khuếch đại sự bất công đó trong các quyết định tự động",
+        "Không có ảnh hưởng gì",
         "Làm tốn điện năng máy chủ",
         "Làm máy tính nóng lên",
-        "Không có ảnh hưởng gì"
+        "Nếu dữ liệu huấn luyện chứa định kiến xã hội, AI sẽ học và khuếch đại sự bất công đó trong các quyết định tự động"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Cần phát triển Trí tuệ nhân tạo nhân văn, công bằng và có trách nhiệm xã hội.",
       "breakdown": {
         "concept": "Đạo đức AI và Bias",
         "steps": "Dữ liệu thiên lệch khiến AI quyết định bất công.",
         "socraticPrompt": "Thiên lệch dữ liệu (AI Bias) gây nguy hại gì?"
-      }
+      },
+      "socraticPrompt": "Thiên lệch dữ liệu (AI Bias) gây nguy hại gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có ảnh hưởng gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Làm tốn điện năng máy chủ' không phù hợp với định lý/quy tắc trọng tâm (Đạo đức AI và Bias).",
+        "Sai vì 'Làm máy tính nóng lên' không phù hợp với định lý/quy tắc trọng tâm (Đạo đức AI và Bias).",
+        "Đúng vì theo Đạo đức AI và Bias: Dữ liệu thiên lệch khiến AI quyết định bất công."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Hợp tác Con người và AI",
         "steps": "AI khuếch đại năng lực, con người làm chủ đạo đức.",
         "socraticPrompt": "Mối quan hệ đúng đắn giữa con người và AI là gì?"
-      }
+      },
+      "socraticPrompt": "Mối quan hệ đúng đắn giữa con người và AI là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Hợp tác Con người và AI: AI khuếch đại năng lực, con người làm chủ đạo đức.",
+        "Sai vì 'AI sẽ tiêu diệt và nô dịch loài người' không phù hợp với định lý/quy tắc trọng tâm (Hợp tác Con người và AI).",
+        "Sai vì 'Con người phụ thuộc mù quáng vào AI' không phù hợp với định lý/quy tắc trọng tâm (Hợp tác Con người và AI).",
+        "Sai vì 'AI hoàn toàn vô dụng' không phù hợp với định lý/quy tắc trọng tâm (Hợp tác Con người và AI)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Ảo giác AI' (AI Hallucination) khi mô hình ngôn ngữ tự tin bịa đặt thông tin sai sự thật nhắc nhở chúng ta",
       "options": [
-        "Luôn phải kiểm chứng nguồn gốc sự thật bằng tư duy phản biện, không được tin tưởng mù quáng vào AI",
         "AI không bao giờ sai sót",
+        "Luôn phải kiểm chứng nguồn gốc sự thật bằng tư duy phản biện, không được tin tưởng mù quáng vào AI",
         "Cấm tuyệt đối không dùng AI",
         "Tắt toàn bộ mạng Internet"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Cảnh giác với các sai sót ngẫu nhiên của mô hình xác suất thống kê.",
       "breakdown": {
         "concept": "Hiện tượng Ảo giác AI Hallucination",
         "steps": "Luôn kiểm chứng nguồn tin, không tin mù quáng.",
         "socraticPrompt": "Hiện tượng AI bịa đặt thông tin nhắc nhở ta điều gì?"
-      }
+      },
+      "socraticPrompt": "Hiện tượng AI bịa đặt thông tin nhắc nhở ta điều gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'AI không bao giờ sai sót', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Hiện tượng Ảo giác AI Hallucination: Luôn kiểm chứng nguồn tin, không tin mù quáng.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Cấm tuyệt đối không dùng AI', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tắt toàn bộ mạng Internet', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Ngành Công nghiệp Bán dẫn Chip",
         "steps": "Trái tim phần cứng cung cấp sức mạnh cho AI.",
         "socraticPrompt": "Vì sao ngành chip bán dẫn lại là ưu tiên chiến lược quốc gia?"
-      }
+      },
+      "socraticPrompt": "Vì sao ngành chip bán dẫn lại là ưu tiên chiến lược quốc gia?",
+      "distractorReasons": [
+        "Đúng vì theo Ngành Công nghiệp Bán dẫn Chip: Trái tim phần cứng cung cấp sức mạnh cho AI.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng để làm đồ chơi trẻ em', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không liên quan gì đến phần mềm' trái ngược với kiến thức SGK.",
+        "Sai vì 'Là ngành công nghiệp lạc hậu' không phù hợp với định lý/quy tắc trọng tâm (Ngành Công nghiệp Bán dẫn Chip)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thông điệp thiêng liêng gửi tới các kỹ sư công nghệ tương lai của non sông đất Việt:",
       "options": [
-        "'Dùng Trí tuệ và Đạo đức để phụng sự Tổ quốc, mang giải pháp công nghệ Việt Nam giải quyết các bài toán lớn của nhân loại'",
+        "Sống hưởng thụ ích kỷ",
         "Chỉ chăm chăm kiếm tiền bất chấp thủ đoạn",
         "Rời bỏ quê hương không bao giờ cống hiến",
-        "Sống hưởng thụ ích kỷ"
+        "'Dùng Trí tuệ và Đạo đức để phụng sự Tổ quốc, mang giải pháp công nghệ Việt Nam giải quyết các bài toán lớn của nhân loại'"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Khát vọng rạng danh non sông Việt Nam trên bản đồ công nghệ thế giới.",
       "breakdown": {
         "concept": "Sứ mệnh Kỹ sư Việt Nam",
         "steps": "Dùng trí tuệ và công nghệ phụng sự đất nước.",
         "socraticPrompt": "Sứ mệnh cao cả nhất của kỹ sư công nghệ Việt Nam là gì?"
-      }
+      },
+      "socraticPrompt": "Sứ mệnh cao cả nhất của kỹ sư công nghệ Việt Nam là gì?",
+      "distractorReasons": [
+        "Sai vì 'Sống hưởng thụ ích kỷ' không phù hợp với định lý/quy tắc trọng tâm (Sứ mệnh Kỹ sư Việt Nam).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chăm chăm kiếm tiền bất chấp thủ đoạn', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Rời bỏ quê hương không bao giờ cống hiến', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Sứ mệnh Kỹ sư Việt Nam: Dùng trí tuệ và công nghệ phụng sự đất nước."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

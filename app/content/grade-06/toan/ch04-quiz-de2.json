@@ -1,128 +1,204 @@
 {
   "chapterId": "ch04",
   "examId": "de2",
-  "title": "Toán 6 — Chương 4: Đề 2 — Tính chu vi và diện tích tứ giác",
-  "description": "Rèn luyện kỹ năng giải bài toán tính chu vi, diện tích hình thang cân, hình bình hành và hình vuông thực tế.",
+  "title": "Toán 6 — Chương 4: Một số hình phẳng trong thực tiễn: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c4_d2_q1",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Định nghĩa hình thang cân",
-      "question": "Hình thang cân là hình thang có đặc điểm then chốt nào sau đây?",
-      "options": [
-        "Hai góc kề một đáy bằng nhau",
-        "Hai cạnh bên song song với nhau",
-        "Hai đường chéo vuông góc với nhau",
-        "Bốn cạnh đều có độ dài bằng nhau"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Định nghĩa chuẩn về hình thang cân theo SGK Toán 6.",
-        "socraticPrompt": "Em hãy nhớ lại hình thang cân có hai góc kề một đáy như thế nào với nhau?",
-        "steps": "Hình thang cân là hình thang có hai góc kề một đáy bằng nhau (hoặc hai đường chéo bằng nhau).",
-        "trap": "Nhầm với hình bình hành (hai cạnh bên song song)."
-      }
-    },
-    {
-      "id": "t6_c4_d2_q2",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Công thức diện tích hình bình hành",
-      "question": "Công thức tính diện tích hình bình hành có độ dài cạnh đáy a và chiều cao tương ứng h là:",
-      "options": [
-        "S = a · h",
-        "S = ½ · a · h",
-        "S = 2 · (a + h)",
-        "S = a + h"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Công thức tính diện tích hình bình hành.",
-        "socraticPrompt": "Diện tích hình bình hành có cần chia đôi như hình tam giác không?",
-        "steps": "Diện tích hình bình hành bằng cạnh đáy nhân với chiều cao tương ứng: S = a · h.",
-        "trap": "Nhầm sang công thức diện tích tam giác (½ · a · h)."
-      }
-    },
-    {
-      "id": "t6_c4_d2_q3",
+      "id": "t6_c4_d2_01",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Diện tích hình thang cân",
-      "question": "Một thửa ruộng hình thang có độ dài hai đáy lần lượt là 12 m và 18 m, chiều cao là 8 m. Diện tích thửa ruộng đó bằng:",
+      "topic": "Tính diện tích hình chữ nhật",
+      "question": "Một mảnh vườn hình chữ nhật có chiều dài 25 m và chiều rộng 12 m. Diện tích của mảnh vườn đó là:",
       "options": [
-        "120 m²",
-        "240 m²",
-        "150 m²",
-        "96 m²"
+        "74 m^2",
+        "300 m^2",
+        "150 m^2",
+        "300 cm^2"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Áp dụng công thức tính diện tích hình thang: S = [(a + b) · h] / 2.",
-        "socraticPrompt": "Tổng hai đáy là bao nhiêu? Nhân tổng đó với chiều cao rồi chia đôi nhé.",
-        "steps": "Tổng hai đáy = 12 + 18 = 30 m. Diện tích = (30 × 8) / 2 = 240 / 2 = 120 m².",
-        "trap": "Quên chia 2 dẫn đến kết quả sai 240 m²."
-      }
+        "concept": "Diện tích hình chữ nhật: S = a × b.",
+        "steps": [
+          "Bước 1: Chiều dài a = 25 m, chiều rộng b = 12 m (đã cùng đơn vị đo mét).",
+          "Bước 2: S = 25 × 12 = 300 m^2."
+        ],
+        "trap": "Tính chu vi (25 + 12) × 2 = 74 m hoặc nhầm đơn vị cm^2.",
+        "socraticPrompt": "Muốn tính diện tích hình chữ nhật, ta lấy chiều dài nhân chiều rộng. 25 nhân 12 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Muốn tính diện tích hình chữ nhật, ta lấy chiều dài nhân chiều rộng. 25 nhân 12 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 74 m là chu vi (25 + 12) × 2, không phải diện tích.",
+        "Đúng vì S = 25 × 12 = 300 m^2.",
+        "Sai vì chia nhầm cho 2.",
+        "Sai vì đơn vị phải là m^2 chứ không phải cm^2."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c4_d2_q4",
+      "id": "t6_c4_d2_02",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Diện tích hình bình hành",
-      "question": "Một mảnh đất hình bình hành có cạnh đáy dài 20 m và chiều cao bằng một nửa cạnh đáy. Diện tích mảnh đất là:",
+      "topic": "Tính diện tích hình thoi",
+      "question": "Một tấm biển quảng cáo hình thoi có độ dài hai đường chéo lần lượt là 8 dm và 15 dm. Diện tích của tấm biển là:",
       "options": [
-        "200 m²",
-        "100 m²",
-        "400 m²",
-        "300 m²"
+        "120 dm^2",
+        "46 dm^2",
+        "60 dm^2",
+        "30 dm^2"
       ],
-      "correct": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tính chiều cao và áp dụng công thức diện tích hình bình hành.",
-        "socraticPrompt": "Chiều cao bằng một nửa cạnh đáy 20 m tức là bằng bao nhiêu mét? Sau đó lấy đáy nhân chiều cao.",
-        "steps": "Chiều cao h = 20 / 2 = 10 m. Diện tích S = 20 × 10 = 200 m².",
-        "trap": "Nhầm chia đôi diện tích thành 100 m²."
-      }
+        "concept": "Diện tích hình thoi: S = (m × n) / 2.",
+        "steps": [
+          "Bước 1: Hai đường chéo m = 8 dm, n = 15 dm.",
+          "Bước 2: Tích hai đường chéo: 8 × 15 = 120 dm^2.",
+          "Bước 3: Diện tích: S = 120 : 2 = 60 dm^2."
+        ],
+        "trap": "Quên chia cho 2, chọn 120 dm^2.",
+        "socraticPrompt": "Tích của 8 và 15 là 120. Công thức diện tích hình thoi yêu cầu lấy tích này chia cho mấy?"
+      },
+      "socraticPrompt": "Tích của 8 và 15 là 120. Công thức diện tích hình thoi yêu cầu lấy tích này chia cho mấy?",
+      "distractorReasons": [
+        "Sai vì quên chia 2 trong công thức diện tích hình thoi.",
+        "Sai vì tính nhầm (8 + 15) × 2 = 46.",
+        "Đúng vì S = (8 × 15) : 2 = 120 : 2 = 60 dm^2.",
+        "Sai vì chia nhầm cho 4."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c4_d2_q5",
-      "difficulty": "hard",
+      "id": "t6_c4_d2_03",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Chu vi và diện tích hình vuông",
-      "question": "Bác Ba dùng lưới thép dài 60 m rào vừa đủ xung quanh một khu đất hình vuông. Diện tích của khu đất hình vuông đó là:",
+      "topic": "Tính diện tích hình thang",
+      "question": "Một thửa ruộng hình thang có đáy lớn 40 m, đáy bé 25 m và chiều cao 20 m. Diện tích thửa ruộng đó là:",
       "options": [
-        "225 m²",
-        "900 m²",
-        "360 m²",
-        "150 m²"
+        "85 m^2",
+        "1300 m^2",
+        "400 m^2",
+        "650 m^2"
       ],
-      "correct": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tìm cạnh hình vuông từ chu vi, sau đó tính diện tích hình vuông.",
-        "socraticPrompt": "Hàng rào dài 60 m chính là chu vi hình vuông. Hình vuông có 4 cạnh bằng nhau, vậy mỗi cạnh dài bao nhiêu?",
-        "steps": "Bước 1: Cạnh hình vuông = 60 / 4 = 15 m. Bước 2: Diện tích hình vuông = 15 × 15 = 225 m².",
-        "trap": "Lấy 60 chia 2 rồi bình phương hoặc nhầm 60 × 60 = 3600."
-      }
+        "concept": "Diện tích hình thang: S = (a + b) × h / 2.",
+        "steps": [
+          "Bước 1: Tổng hai đáy: 40 + 25 = 65 m.",
+          "Bước 2: Nhân với chiều cao: 65 × 20 = 1300.",
+          "Bước 3: Chia cho 2: 1300 : 2 = 650 m^2."
+        ],
+        "trap": "Quên chia cho 2 chọn 1300 m^2.",
+        "socraticPrompt": "Đáy lớn cộng đáy bé là 40 + 25 = 65. Nhân chiều cao 20 rồi chia 2 thì bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Đáy lớn cộng đáy bé là 40 + 25 = 65. Nhân chiều cao 20 rồi chia 2 thì bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì cộng các kích thước lại.",
+        "Sai vì quên chia 2 trong công thức tính diện tích hình thang.",
+        "Sai vì chỉ lấy đáy lớn nhân chiều cao rồi chia 2.",
+        "Đúng vì S = (40 + 25) × 20 : 2 = 65 × 10 = 650 m^2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c4_d2_q6",
-      "difficulty": "expert",
+      "id": "t6_c4_d2_04",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Ứng dụng thực tế diện tích hình phẳng",
-      "question": "Một gian phòng có nền hình chữ nhật kích thước 6 m × 4 m. Người ta lát nền bằng các viên gạch hình vuông cạnh 40 cm. Cần ít nhất bao nhiêu viên gạch để lát kín nền phòng (bỏ qua khe vữa)?",
+      "topic": "Tính diện tích hình bình hành",
+      "question": "Một hình bình hành có độ dài cạnh đáy 18 cm và chiều cao tương ứng 15 cm. Diện tích của hình bình hành đó là:",
       "options": [
-        "150 viên",
-        "120 viên",
-        "180 viên",
-        "200 viên"
+        "270 cm^2",
+        "135 cm^2",
+        "66 cm^2",
+        "33 cm^2"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Đổi đơn vị đo đồng nhất và tính số lượng viên gạch lát nền.",
-        "socraticPrompt": "Em hãy đổi diện tích phòng và diện tích 1 viên gạch về cùng đơn vị cm² trước khi chia nhé.",
-        "steps": "Bước 1: Diện tích phòng = 6 m × 4 m = 24 m² = 240.000 cm². Bước 2: Diện tích 1 viên gạch = 40 × 40 = 1.600 cm². Bước 3: Số viên gạch = 240.000 / 1.600 = 150 viên.",
-        "trap": "Không đổi m² sang cm² hoặc đổi sai 1 m² = 100 cm² (đúng phải là 10.000 cm²)."
-      }
+        "concept": "Diện tích hình bình hành: S = a × h.",
+        "steps": [
+          "Bước 1: Xác định đáy a = 18 cm, chiều cao h = 15 cm.",
+          "Bước 2: Tính S = 18 × 15 = 270 cm^2."
+        ],
+        "trap": "Chia đôi kết quả thành 135 cm^2 (nhầm sang diện tích tam giác).",
+        "socraticPrompt": "Diện tích hình bình hành có cần chia đôi như tam giác không? Lấy 18 nhân 15 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Diện tích hình bình hành có cần chia đôi như tam giác không? Lấy 18 nhân 15 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì diện tích hình bình hành là S = a × h = 18 × 15 = 270 cm^2.",
+        "Sai vì nhầm sang công thức diện tích tam giác nên đem chia cho 2.",
+        "Sai vì tính chu vi (18 + 15) × 2 = 66.",
+        "Sai vì tính nửa chu vi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c4_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính chu vi hình thoi",
+      "question": "Một hình thoi có cạnh bằng 14 cm. Chu vi của hình thoi đó bằng:",
+      "options": [
+        "28 cm",
+        "42 cm",
+        "196 cm^2",
+        "56 cm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Hình thoi có 4 cạnh bằng nhau nên chu vi C = 4 × a.",
+        "steps": [
+          "Bước 1: Hình thoi có 4 cạnh đều bằng 14 cm.",
+          "Bước 2: Chu vi C = 14 × 4 = 56 cm."
+        ],
+        "trap": "Lấy 14 × 2 = 28 cm (nhầm 2 cạnh) hoặc lấy 14 × 14 = 196 (tính diện tích hình vuông).",
+        "socraticPrompt": "Hình thoi có mấy cạnh bằng nhau? Muốn tính tổng độ dài 4 cạnh đó thì lấy 14 nhân mấy?"
+      },
+      "socraticPrompt": "Hình thoi có mấy cạnh bằng nhau? Muốn tính tổng độ dài 4 cạnh đó thì lấy 14 nhân mấy?",
+      "distractorReasons": [
+        "Sai vì chỉ mới nhân 2 cạnh (14 × 2 = 28).",
+        "Sai vì nhân 3 cạnh (14 × 3 = 42).",
+        "Sai vì 196 cm^2 là bình phương cạnh, sai cả giá trị lẫn đơn vị đo độ dài.",
+        "Đúng vì hình thoi có 4 cạnh bằng nhau nên C = 4 × 14 = 56 cm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c4_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Đổi đơn vị trước khi tính diện tích",
+      "question": "Một tấm thảm hình chữ nhật có chiều dài 2 m và chiều rộng 150 cm. Diện tích của tấm thảm đó bằng:",
+      "options": [
+        "3 m^2",
+        "300 m^2",
+        "30 m^2",
+        "300 cm^2"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Quy tắc bắt buộc: Đổi về cùng một đơn vị đo trước khi tính diện tích.",
+        "steps": [
+          "Bước 1: Đổi 150 cm = 1,5 m (hoặc đổi 2 m = 200 cm).",
+          "Bước 2: Tính diện tích theo m^2: S = 2 × 1,5 = 3 m^2.",
+          "Bước 3: (Nếu tính theo cm^2: S = 200 × 150 = 30.000 cm^2 = 3 m^2)."
+        ],
+        "trap": "Không đổi đơn vị, lấy 2 × 150 = 300 m^2.",
+        "socraticPrompt": "Chiều dài đơn vị là mét, chiều rộng đơn vị là centimet. Muốn tính diện tích, ta phải đổi 150 cm ra mấy mét trước?"
+      },
+      "socraticPrompt": "Chiều dài đơn vị là mét, chiều rộng đơn vị là centimet. Muốn tính diện tích, ta phải đổi 150 cm ra mấy mét trước?",
+      "distractorReasons": [
+        "Đúng vì đổi 150 cm = 1,5 m; diện tích S = 2 × 1,5 = 3 m^2.",
+        "Sai vì không đổi đơn vị đo, lấy 2 nhân trực tiếp 150 thành 300 m^2 (sai nghiêm trọng).",
+        "Sai vì đổi sai đơn vị (150 cm thành 15 m).",
+        "Sai vì sai đơn vị diện tích."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

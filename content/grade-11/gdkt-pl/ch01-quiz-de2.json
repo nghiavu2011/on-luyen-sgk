@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Doanh nghiệp A đầu tư dây chuyền sản xuất tự động hóa, giúp giảm 30% giá thành và tăng gấp đôi sản lượng. Hành động của doanh nghiệp A là",
       "options": [
-        "Cạnh tranh lành mạnh dựa trên đổi mới công nghệ",
         "Cạnh tranh không lành mạnh",
+        "Cạnh tranh lành mạnh dựa trên đổi mới công nghệ",
         "Vi phạm quy định nhà nước",
         "Hành vi độc quyền phi pháp"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Đổi mới công nghệ để nâng cao năng lực cạnh tranh là bản chất tích cực của kinh tế thị trường.",
       "breakdown": {
         "concept": "Đổi mới công nghệ",
         "steps": "Cạnh tranh lành mạnh.",
         "socraticPrompt": "Đầu tư máy móc hiện đại là cạnh tranh gì?"
-      }
+      },
+      "socraticPrompt": "Đầu tư máy móc hiện đại là cạnh tranh gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Cạnh tranh không lành mạnh' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Đổi mới công nghệ: Cạnh tranh lành mạnh.",
+        "Sai vì 'Vi phạm quy định nhà nước' không phù hợp với định lý/quy tắc trọng tâm (Đổi mới công nghệ).",
+        "Sai vì 'Hành vi độc quyền phi pháp' không phù hợp với định lý/quy tắc trọng tâm (Đổi mới công nghệ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi phát hiện một cửa hàng bán sữa giả nhãn hiệu nổi tiếng, người tiêu dùng thông thái cần làm gì?",
       "options": [
-        "Báo ngay cho cơ quan Quản lý thị trường hoặc Hội bảo vệ quyền lợi người tiêu dùng",
-        "Im lặng và tiếp tục mua cho rẻ",
         "Quảng cáo giúp cửa hàng trên mạng",
+        "Im lặng và tiếp tục mua cho rẻ",
+        "Báo ngay cho cơ quan Quản lý thị trường hoặc Hội bảo vệ quyền lợi người tiêu dùng",
         "Tự mua hết sữa giả về dùng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Công dân có trách nhiệm phản ánh vi phạm bảo vệ sức khỏe cộng đồng.",
       "breakdown": {
         "concept": "Ứng xử người tiêu dùng",
         "steps": "Báo cơ quan Quản lý thị trường.",
         "socraticPrompt": "Thấy bán hàng giả thì làm gì?"
-      }
+      },
+      "socraticPrompt": "Thấy bán hàng giả thì làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Quảng cáo giúp cửa hàng trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Ứng xử người tiêu dùng).",
+        "Sai vì 'Im lặng và tiếp tục mua cho rẻ' không phù hợp với định lý/quy tắc trọng tâm (Ứng xử người tiêu dùng).",
+        "Đúng vì theo Ứng xử người tiêu dùng: Báo cơ quan Quản lý thị trường.",
+        "Sai vì 'Tự mua hết sữa giả về dùng' không phù hợp với định lý/quy tắc trọng tâm (Ứng xử người tiêu dùng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Chiến lược cạnh tranh bền vững nhất của một doanh nghiệp trong kỷ nguyên số là",
       "options": [
-        "Nâng cao chất lượng dịch vụ, trải nghiệm khách hàng và xây dựng văn hóa kinh doanh liêm chính",
+        "Sử dụng nguyên liệu phế thải độc hại",
         "Chỉ chăm chăm hạ bệ đối thủ",
         "Bán hàng gian lận trốn thuế",
-        "Sử dụng nguyên liệu phế thải độc hại"
+        "Nâng cao chất lượng dịch vụ, trải nghiệm khách hàng và xây dựng văn hóa kinh doanh liêm chính"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Chữ Tín và chất lượng thật là nền móng trường tồn của doanh nghiệp.",
       "breakdown": {
         "concept": "Chiến lược bền vững",
         "steps": "Chất lượng, chữ Tín và liêm chính.",
         "socraticPrompt": "Làm thế nào để doanh nghiệp phát triển bền vững?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để doanh nghiệp phát triển bền vững?",
+      "distractorReasons": [
+        "Sai vì 'Sử dụng nguyên liệu phế thải độc hại' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược bền vững).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chăm chăm hạ bệ đối thủ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bán hàng gian lận trốn thuế' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược bền vững).",
+        "Đúng vì theo Chiến lược bền vững: Chất lượng, chữ Tín và liêm chính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Thông đồng làm giá",
         "steps": "Thỏa thuận hạn chế cạnh tranh trái luật.",
         "socraticPrompt": "Bắt tay nhau tăng giá ép khách hàng là vi phạm gì?"
-      }
+      },
+      "socraticPrompt": "Bắt tay nhau tăng giá ép khách hàng là vi phạm gì?",
+      "distractorReasons": [
+        "Đúng vì theo Thông đồng làm giá: Thỏa thuận hạn chế cạnh tranh trái luật.",
+        "Sai vì 'Hành vi tương trợ hữu nghị' không phù hợp với định lý/quy tắc trọng tâm (Thông đồng làm giá).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Quyền tự do định giá tuyệt đối', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hoạt động từ thiện' không phù hợp với định lý/quy tắc trọng tâm (Thông đồng làm giá)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Ý nghĩa của việc bảo hộ nhãn hiệu và bằng sáng chế độc quyền là",
       "options": [
-        "Khuyến khích sáng tạo khoa học công nghệ và bảo vệ công sức của người phát minh",
+        "Tạo độc quyền vĩnh viễn không cạnh tranh",
         "Ngăn cấm người dân dùng công nghệ",
         "Làm suy thoái nền kinh tế",
-        "Tạo độc quyền vĩnh viễn không cạnh tranh"
+        "Khuyến khích sáng tạo khoa học công nghệ và bảo vệ công sức của người phát minh"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Bảo hộ sở hữu trí tuệ là động lực sống còn thúc đẩy nghiên cứu sáng chế.",
       "breakdown": {
         "concept": "Bảo hộ sở hữu trí tuệ",
         "steps": "Khuyến khích sáng tạo đổi mới.",
         "socraticPrompt": "Tại sao cần bảo hộ bằng sáng chế?"
-      }
+      },
+      "socraticPrompt": "Tại sao cần bảo hộ bằng sáng chế?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Tạo độc quyền vĩnh viễn không cạnh tranh' trái ngược với kiến thức SGK.",
+        "Sai vì 'Ngăn cấm người dân dùng công nghệ' không phù hợp với định lý/quy tắc trọng tâm (Bảo hộ sở hữu trí tuệ).",
+        "Sai vì 'Làm suy thoái nền kinh tế' không phù hợp với định lý/quy tắc trọng tâm (Bảo hộ sở hữu trí tuệ).",
+        "Đúng vì theo Bảo hộ sở hữu trí tuệ: Khuyến khích sáng tạo đổi mới."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Thói quen tiêu dùng thông thái",
         "steps": "Kiểm tra tem nhãn, nguồn gốc rõ ràng.",
         "socraticPrompt": "Học sinh mua hàng cần chú ý điều gì?"
-      }
+      },
+      "socraticPrompt": "Học sinh mua hàng cần chú ý điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Thói quen tiêu dùng thông thái: Kiểm tra tem nhãn, nguồn gốc rõ ràng.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ mua hàng rẻ nhất không rõ nguồn gốc', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Tin theo mọi lời quảng cáo thổi phồng trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Thói quen tiêu dùng thông thái).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Không bao giờ đọc hóa đơn', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

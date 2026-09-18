@@ -22,7 +22,16 @@
         "socraticPrompt": "Dung dịch formon là dung dịch bão hòa trong nước của aldehyde đơn giản nhất nào?",
         "steps": "Dung dịch chứa khoảng 37% - 40% formaldehyde (HCHO) trong nước được gọi là formon (hoặc formol), có tính sát trùng mạnh dùng để ngâm tiêu bản động thực vật.",
         "trap": "Nhầm sang acetaldehyde hoặc giấm ăn acetic acid."
-      }
+      },
+      "socraticPrompt": "Dung dịch formon là dung dịch bão hòa trong nước của aldehyde đơn giản nhất nào?",
+      "distractorReasons": [
+        "Sai vì 'Acetaldehyde (CH3CHO)' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng thực tế của formaldehyde trong dung dịch formon/formol.).",
+        "Đúng vì: Dung dịch chứa khoảng 37% - 40% formaldehyde (HCHO) trong nước được gọi là formon (hoặc formol), có tính sát trùng mạnh dùng để ngâm tiêu bản động thực vật.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Acetic acid (CH3COOH)' (sang acetaldehyde hoặc giấm ăn acetic acid).",
+        "Sai vì 'Acetone (CH3COCH3)' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng thực tế của formaldehyde trong dung dịch formon/formol.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c6_th_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Carboxylic acid có hai nguyên tử O giúp tạo được dạng liên kết hydrogen đặc biệt nào giữa hai phân tử?",
         "steps": "Cả hai chất có cùng khối lượng phân tử M = 60. Tuy nhiên, carboxylic acid tạo được liên kết hydrogen liên phân tử dạng phân tử kép (dimer) bền hơn nhiều so với liên kết hydrogen dạng chuỗi thẳng của alcohol.",
         "trap": "Nói propan-1-ol không tạo được liên kết hydrogen là sai (alcohol vẫn tạo được liên kết hydrogen nhưng yếu hơn dạng dimer)."
-      }
+      },
+      "socraticPrompt": "Carboxylic acid có hai nguyên tử O giúp tạo được dạng liên kết hydrogen đặc biệt nào giữa hai phân tử?",
+      "distractorReasons": [
+        "Sai vì 'Acetic acid có khối lượng phân tử lớn hơn propan-1-ol' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc liên kết hydrogen dạng dimer (phân tử kép) rất bền của carboxylic acid.).",
+        "Sai vì 'Liên kết C-H trong phân tử acetic acid phân cực hơn' không phù hợp với định lý/quy tắc trọng tâm (Cấu trúc liên kết hydrogen dạng dimer (phân tử kép) rất bền của carboxylic acid.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Propan-1-ol hoàn toàn không tạo được liên kết hydrogen' (Nói propan-1-ol không tạo được liên kết hydrogen là sai (alcohol vẫn tạo được liên kết hydrogen nhưng yếu hơn dạng dimer).).",
+        "Đúng vì: Cả hai chất có cùng khối lượng phân tử M = 60. Tuy nhiên, carboxylic acid tạo được liên kết hydrogen liên phân tử dạng phân tử kép (dimer) bền hơn nhiều so với ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c6_th_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "1 mol nhóm -CHO đơn chức thông thường giải phóng bao nhiêu mol Ag kim loại?",
         "steps": "Phương trình tổng quát: R-CHO + 2[Ag(NH3)2]OH -> R-COONH4 + 2Ag↓ + 3NH3 + H2O. Tỉ lệ mol n_Ag : n_aldehyde = 2 : 1. Với n_aldehyde = 0.1 mol thì n_Ag = 0.2 mol.",
         "trap": "Nhầm tỉ lệ 1:4 của HCHO (HCHO tạo ra 4Ag, các aldehyde đơn chức khác chỉ tạo 2Ag)."
-      }
+      },
+      "socraticPrompt": "1 mol nhóm -CHO đơn chức thông thường giải phóng bao nhiêu mol Ag kim loại?",
+      "distractorReasons": [
+        "Đúng vì: Phương trình tổng quát: R-CHO + 2[Ag(NH3)2]OH -> R-COONH4 + 2Ag↓ + 3NH3 + H2O. Tỉ lệ mol n_Ag : n_aldehyde = 2 : 1. Với n_aldehyde = 0.1 mol thì n_Ag = 0.2 mol.",
+        "Sai vì '0.1 mol' không phù hợp với định lý/quy tắc trọng tâm (Mỗi nhóm -CHO của aldehyde đơn chức (trừ HCHO) bị oxi hoá tạo ra 2 nguyên tử Ag.).",
+        "Sai vì '0.4 mol' không phù hợp với định lý/quy tắc trọng tâm (Mỗi nhóm -CHO của aldehyde đơn chức (trừ HCHO) bị oxi hoá tạo ra 2 nguyên tử Ag.).",
+        "Sai vì '0.05 mol' không phù hợp với định lý/quy tắc trọng tâm (Mỗi nhóm -CHO của aldehyde đơn chức (trừ HCHO) bị oxi hoá tạo ra 2 nguyên tử Ag.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c6_th_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Số mol acetic acid là 6 / 60 = 0.1 mol. Tính khối lượng ester theo lý thuyết rồi nhân hiệu suất 60%?",
         "steps": "Số mol acid: n = 6.0 / 60 = 0.1 mol. Khối lượng ester theo lý thuyết (H = 100%): m_lt = 0.1 · 88 = 8.8 gam. Khối lượng ester thực tế thu được với H = 60%: m_tt = 8.8 · 60% = 5.28 gam.",
         "trap": "Quên nhân hiệu suất 60% dẫn đến chọn đáp án 8.80 gam."
-      }
+      },
+      "socraticPrompt": "Số mol acetic acid là 6 / 60 = 0.1 mol. Tính khối lượng ester theo lý thuyết rồi nhân hiệu suất 60%?",
+      "distractorReasons": [
+        "Sai vì '8.80 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính khối lượng sản phẩm ester hoá có tính đến hiệu suất phản ứng: m_thực = n · M · H%.).",
+        "Sai vì '4.40 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính khối lượng sản phẩm ester hoá có tính đến hiệu suất phản ứng: m_thực = n · M · H%.).",
+        "Đúng vì: Số mol acid: n = 6.0 / 60 = 0.1 mol. Khối lượng ester theo lý thuyết (H = 100%): m_lt = 0.1 · 88 = 8.8 gam. Khối lượng ester thực tế thu được với H = 60%: m_tt .",
+        "Sai vì '3.52 gam' không phù hợp với định lý/quy tắc trọng tâm (Tính khối lượng sản phẩm ester hoá có tính đến hiệu suất phản ứng: m_thực = n · M · H%.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c6_th_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Lấy 200 gam dung dịch nhân với nồng độ 4.5 chia cho 100 bằng bao nhiêu?",
         "steps": "Khối lượng acetic acid có trong 200 gam giấm ăn là: m = (200 · 4.5) / 100 = 9.0 gam.",
         "trap": "Nhẩm 4.5% của 200 thành 4.5 gam (quên nhân đôi theo khối lượng 200 gam)."
-      }
+      },
+      "socraticPrompt": "Lấy 200 gam dung dịch nhân với nồng độ 4.5 chia cho 100 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '4.5 gam' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng công thức nồng độ phần trăm: m_chất_tan = (m_dung_dịch · C%) / 100.).",
+        "Đúng vì: Khối lượng acetic acid có trong 200 gam giấm ăn là: m = (200 · 4.5) / 100 = 9.0 gam.",
+        "Sai vì '18.0 gam' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng công thức nồng độ phần trăm: m_chất_tan = (m_dung_dịch · C%) / 100.).",
+        "Sai vì '90.0 gam' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng công thức nồng độ phần trăm: m_chất_tan = (m_dung_dịch · C%) / 100.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c6_th_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Acid đơn chức phản ứng CaCO3 sinh ra n_CO2 = n_acid / 2. Tìm n_acid rồi tính số nguyên tử C?",
         "steps": "Acid đơn chức phản ứng với CaCO3: 2RCOOH + CaCO3 -> (RCOO)2Ca + CO2↑ + H2O. Suy ra n_acid = 2 · n_CO2 = 2 · 0.15 = 0.3 mol. Đốt cháy sinh ra 0.3 mol CO2 nên số nguyên tử carbon: C = n_CO2 / n_acid = 0.3 / 0.3 = 1. Acid có 1 carbon là HCOOH (methanoic acid).",
         "trap": "Tính nhầm số C = 2 dẫn đến chọn CH3COOH."
-      }
+      },
+      "socraticPrompt": "Acid đơn chức phản ứng CaCO3 sinh ra n_CO2 = n_acid / 2. Tìm n_acid rồi tính số nguyên tử C?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'CH3COOH' (Tính nhầm số C = 2 dẫn đến chọn CH3COOH.).",
+        "Sai vì 'C3H7COOH' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'C2H5COOH' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Acid đơn chức phản ứng với CaCO3: 2RCOOH + CaCO3 -> (RCOO)2Ca + CO2↑ + H2O. Suy ra n_acid = 2 · n_CO2 = 2 · 0.15 = 0.3 mol. Đốt cháy sinh ra 0.3 mol CO2 nên số ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

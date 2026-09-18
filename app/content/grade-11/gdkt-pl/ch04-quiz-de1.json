@@ -20,97 +20,151 @@
         "concept": "Khái niệm Thị trường lao động",
         "steps": "Mua bán thuê mướn sức lao động.",
         "socraticPrompt": "Nơi tuyển dụng và tìm việc gọi là thị trường gì?"
-      }
+      },
+      "socraticPrompt": "Nơi tuyển dụng và tìm việc gọi là thị trường gì?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm Thị trường lao động: Mua bán thuê mướn sức lao động.",
+        "Sai vì 'Thị trường chứng khoán' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thị trường lao động).",
+        "Sai vì 'Thị trường bất động sản' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thị trường lao động).",
+        "Sai vì 'Thị trường tiền tệ' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thị trường lao động)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Văn bản thỏa thuận pháp lý giữa người lao động và người sử dụng lao động về việc làm và tiền lương là",
       "options": [
-        "Hợp đồng lao động",
         "Biên bản xử phạt",
+        "Hợp đồng lao động",
         "Sổ hộ khẩu",
         "Hóa đơn giá trị gia tăng"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Hợp đồng lao động là cơ sở pháp lý cao nhất ràng buộc quan hệ lao động.",
       "breakdown": {
         "concept": "Hợp đồng lao động",
         "steps": "Thỏa thuận việc làm có trả công.",
         "socraticPrompt": "Văn bản ký khi đi làm gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Văn bản ký khi đi làm gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Biên bản xử phạt' không phù hợp với định lý/quy tắc trọng tâm (Hợp đồng lao động).",
+        "Đúng vì theo Hợp đồng lao động: Thỏa thuận việc làm có trả công.",
+        "Sai vì 'Sổ hộ khẩu' không phù hợp với định lý/quy tắc trọng tâm (Hợp đồng lao động).",
+        "Sai vì 'Hóa đơn giá trị gia tăng' không phù hợp với định lý/quy tắc trọng tâm (Hợp đồng lao động)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Theo Bộ luật Lao động Việt Nam, độ tuổi lao động tối thiểu của người lao động thông thường là",
       "options": [
-        "Đủ 15 tuổi",
-        "Đủ 18 tuổi",
         "Đủ 21 tuổi",
+        "Đủ 18 tuổi",
+        "Đủ 15 tuổi",
         "Đủ 12 tuổi"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Điều 135 Bộ luật Lao động 2019 quy định độ tuổi tối thiểu là đủ 15 tuổi.",
       "breakdown": {
         "concept": "Độ tuổi lao động tối thiểu",
         "steps": "Đủ 15 tuổi.",
         "socraticPrompt": "Bao nhiêu tuổi được phép ký hợp đồng lao động?"
-      }
+      },
+      "socraticPrompt": "Bao nhiêu tuổi được phép ký hợp đồng lao động?",
+      "distractorReasons": [
+        "Sai vì 'Đủ 21 tuổi' không phù hợp với định lý/quy tắc trọng tâm (Độ tuổi lao động tối thiểu).",
+        "Sai vì 'Đủ 18 tuổi' không phù hợp với định lý/quy tắc trọng tâm (Độ tuổi lao động tối thiểu).",
+        "Đúng vì theo Độ tuổi lao động tối thiểu: Đủ 15 tuổi.",
+        "Sai vì 'Đủ 12 tuổi' không phù hợp với định lý/quy tắc trọng tâm (Độ tuổi lao động tối thiểu)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Xu hướng việc làm chủ đạo của nền kinh tế Việt Nam hiện nay là",
       "options": [
-        "Tăng tỷ trọng ngành dịch vụ, công nghệ thông tin và kinh tế số",
+        "Chỉ làm việc thủ công",
         "Tăng tỷ trọng nông nghiệp truyền thống",
         "Xóa bỏ hoàn toàn công nghiệp",
-        "Chỉ làm việc thủ công"
+        "Tăng tỷ trọng ngành dịch vụ, công nghệ thông tin và kinh tế số"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Hiện đại hóa và chuyển đổi số cơ cấu kinh tế.",
       "breakdown": {
         "concept": "Xu hướng việc làm",
         "steps": "Tăng ngành dịch vụ và công nghệ số.",
         "socraticPrompt": "Ngành nào đang tăng trưởng việc làm mạnh nhất?"
-      }
+      },
+      "socraticPrompt": "Ngành nào đang tăng trưởng việc làm mạnh nhất?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm việc thủ công', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Tăng tỷ trọng nông nghiệp truyền thống' không phù hợp với định lý/quy tắc trọng tâm (Xu hướng việc làm).",
+        "Sai vì 'Xóa bỏ hoàn toàn công nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Xu hướng việc làm).",
+        "Đúng vì theo Xu hướng việc làm: Tăng ngành dịch vụ và công nghệ số."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Ba trụ cột an sinh bảo hiểm bắt buộc mà công ty phải đóng cho người lao động gồm",
       "options": [
-        "BHXH, BHYT, BHTN",
         "Bảo hiểm xe máy, bảo hiểm cháy, bảo hiểm du lịch",
+        "BHXH, BHYT, BHTN",
         "Bảo hiểm trộm cắp, bảo hiểm điện thoại",
         "Bảo hiểm cây trồng"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Quy định bắt buộc về bảo hiểm xã hội, y tế, thất nghiệp theo luật.",
       "breakdown": {
         "concept": "Bảo hiểm bắt buộc",
         "steps": "BHXH + BHYT + BHTN.",
         "socraticPrompt": "3 loại bảo hiểm bắt buộc khi đi làm là gì?"
-      }
+      },
+      "socraticPrompt": "3 loại bảo hiểm bắt buộc khi đi làm là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bảo hiểm xe máy, bảo hiểm cháy, bảo hiểm du lịch' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm bắt buộc).",
+        "Đúng vì theo Bảo hiểm bắt buộc: BHXH + BHYT + BHTN.",
+        "Sai vì 'Bảo hiểm trộm cắp, bảo hiểm điện thoại' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm bắt buộc).",
+        "Sai vì 'Bảo hiểm cây trồng' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm bắt buộc)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Tổ chức đại diện bảo vệ quyền và lợi ích hợp pháp chính đáng của người lao động tại cơ sở là",
       "options": [
-        "Công đoàn cơ sở",
-        "Hội sinh vật cảnh",
         "Câu lạc bộ dưỡng sinh",
+        "Hội sinh vật cảnh",
+        "Công đoàn cơ sở",
         "Ban quản lý chợ"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Công đoàn là tổ chức chính trị - xã hội đại diện giai cấp công nhân và người lao động.",
       "breakdown": {
         "concept": "Tổ chức Công đoàn",
         "steps": "Bảo vệ quyền lợi người lao động.",
         "socraticPrompt": "Tổ chức nào bảo vệ công nhân tại công ty?"
-      }
+      },
+      "socraticPrompt": "Tổ chức nào bảo vệ công nhân tại công ty?",
+      "distractorReasons": [
+        "Sai vì 'Câu lạc bộ dưỡng sinh' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức Công đoàn).",
+        "Sai vì 'Hội sinh vật cảnh' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức Công đoàn).",
+        "Đúng vì theo Tổ chức Công đoàn: Bảo vệ quyền lợi người lao động.",
+        "Sai vì 'Ban quản lý chợ' không phù hợp với định lý/quy tắc trọng tâm (Tổ chức Công đoàn)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

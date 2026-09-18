@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Khi đi mua thực phẩm đóng hộp tại siêu thị, kỹ năng quan trọng số một người tiêu dùng cần làm là",
       "options": [
-        "Xem kỹ Hạn sử dụng (Exp/Date), thành phần dinh dưỡng và tem kiểm định an toàn",
         "Chỉ xem màu sắc bao bì",
+        "Xem kỹ Hạn sử dụng (Exp/Date), thành phần dinh dưỡng và tem kiểm định an toàn",
         "Mua hộp bị móp méo rỉ sét cho rẻ",
         "Không cần xem hạn dùng"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Kiểm tra hạn sử dụng và tem mác để bảo vệ tuyệt đối sức khỏe bản thân và gia đình.",
       "breakdown": {
         "concept": "Kỹ năng kiểm tra thực phẩm",
         "steps": "Đọc hạn sử dụng, thành phần tem mác.",
         "socraticPrompt": "Mua đồ hộp siêu thị cần xem gì đầu tiên?"
-      }
+      },
+      "socraticPrompt": "Mua đồ hộp siêu thị cần xem gì đầu tiên?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ xem màu sắc bao bì', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Kỹ năng kiểm tra thực phẩm: Đọc hạn sử dụng, thành phần tem mác.",
+        "Sai vì 'Mua hộp bị móp méo rỉ sét cho rẻ' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng kiểm tra thực phẩm).",
+        "Sai vì phủ định sai bản chất: 'Không cần xem hạn dùng' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi phát hiện một trang bán hàng online bán son môi giả gây dị ứng môi cho người mua, bạn Linh cần",
       "options": [
-        "Gửi khiếu nại lên Hội Bảo vệ quyền lợi người tiêu dùng và báo cáo tài khoản lừa đảo",
-        "Im lặng vứt thỏi son đi",
         "Khen ngợi shop để người khác mua cùng",
+        "Im lặng vứt thỏi son đi",
+        "Gửi khiếu nại lên Hội Bảo vệ quyền lợi người tiêu dùng và báo cáo tài khoản lừa đảo",
         "Bán lại son giả cho bạn thân"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Hành động có trách nhiệm ngăn chặn hàng giả bảo vệ cộng đồng.",
       "breakdown": {
         "concept": "Bảo vệ quyền lợi người mua",
         "steps": "Báo Hội Bảo vệ người tiêu dùng.",
         "socraticPrompt": "Mua phải son giả gây dị ứng thì làm gì?"
-      }
+      },
+      "socraticPrompt": "Mua phải son giả gây dị ứng thì làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Khen ngợi shop để người khác mua cùng' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi người mua).",
+        "Sai vì 'Im lặng vứt thỏi son đi' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi người mua).",
+        "Đúng vì theo Bảo vệ quyền lợi người mua: Báo Hội Bảo vệ người tiêu dùng.",
+        "Sai vì 'Bán lại son giả cho bạn thân' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi người mua)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Chiến lược chi tiêu cá nhân 'Quy tắc 6 chiếc lọ' hoặc '50/30/20' giúp người trẻ đạt được mục tiêu gì?",
       "options": [
-        "Cân đối giữa nhu cầu thiết yếu (50%), mong muốn cá nhân (30%) và tiết kiệm đầu tư (20%)",
+        "Vay nợ mua đồ hiệu",
         "Tiêu hết sạch tiền lương ngày đầu tháng",
         "Chỉ tiết kiệm không dám ăn uống",
-        "Vay nợ mua đồ hiệu"
+        "Cân đối giữa nhu cầu thiết yếu (50%), mong muốn cá nhân (30%) và tiết kiệm đầu tư (20%)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Kỹ năng quản trị tài chính cá nhân khoa học và kỷ luật.",
       "breakdown": {
         "concept": "Quy tắc tài chính 50/30/20",
         "steps": "Cân đối thiết yếu, mong muốn và tiết kiệm.",
         "socraticPrompt": "Quy tắc 50/30/20 giúp ích gì trong chi tiêu?"
-      }
+      },
+      "socraticPrompt": "Quy tắc 50/30/20 giúp ích gì trong chi tiêu?",
+      "distractorReasons": [
+        "Sai vì 'Vay nợ mua đồ hiệu' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc tài chính 50/30/20).",
+        "Sai vì 'Tiêu hết sạch tiền lương ngày đầu tháng' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc tài chính 50/30/20).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tiết kiệm không dám ăn uống', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Quy tắc tài chính 50/30/20: Cân đối thiết yếu, mong muốn và tiết kiệm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Thực hành tiêu dùng xanh",
         "steps": "Dùng bình cá nhân giảm rác nhựa.",
         "socraticPrompt": "Mang bình nước cá nhân đi mua nước có lợi gì?"
-      }
+      },
+      "socraticPrompt": "Mang bình nước cá nhân đi mua nước có lợi gì?",
+      "distractorReasons": [
+        "Đúng vì theo Thực hành tiêu dùng xanh: Dùng bình cá nhân giảm rác nhựa.",
+        "Sai vì 'Hành vi kỳ quặc lập dị' không phù hợp với định lý/quy tắc trọng tâm (Thực hành tiêu dùng xanh).",
+        "Sai vì 'Làm mất thời gian quán nước' không phù hợp với định lý/quy tắc trọng tâm (Thực hành tiêu dùng xanh).",
+        "Sai vì phủ định sai bản chất: 'Không có tác dụng gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Hiện tượng học sinh chạy đua đòi cha mẹ mua xe máy đắt tiền, điện thoại xịn nhất để 'bằng bạn bằng bè' phản ánh",
       "options": [
-        "Tâm lý đua đòi, tiêu dùng phô trương hình thức gây gánh nặng cho gia đình",
+        "Văn hóa tiêu dùng chuẩn mực",
         "Lòng hiếu thảo với cha mẹ",
         "Tài năng xuất chúng",
-        "Văn hóa tiêu dùng chuẩn mực"
+        "Tâm lý đua đòi, tiêu dùng phô trương hình thức gây gánh nặng cho gia đình"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Cần lên án lối sống phô trương ảo và xây dựng giá trị thực chất bên trong.",
       "breakdown": {
         "concept": "Chống tiêu dùng phô trương",
         "steps": "Tâm lý đua đòi, gánh nặng cha mẹ.",
         "socraticPrompt": "Đua đòi mua điện thoại đắt tiền là lối sống gì?"
-      }
+      },
+      "socraticPrompt": "Đua đòi mua điện thoại đắt tiền là lối sống gì?",
+      "distractorReasons": [
+        "Sai vì 'Văn hóa tiêu dùng chuẩn mực' không phù hợp với định lý/quy tắc trọng tâm (Chống tiêu dùng phô trương).",
+        "Sai vì 'Lòng hiếu thảo với cha mẹ' không phù hợp với định lý/quy tắc trọng tâm (Chống tiêu dùng phô trương).",
+        "Sai vì 'Tài năng xuất chúng' không phù hợp với định lý/quy tắc trọng tâm (Chống tiêu dùng phô trương).",
+        "Đúng vì theo Chống tiêu dùng phô trương: Tâm lý đua đòi, gánh nặng cha mẹ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Hội chợ sách cũ học đường",
         "steps": "Kéo dài vòng đời sách, tiết kiệm và sẻ chia.",
         "socraticPrompt": "Đổi sách cũ ở trường có ý nghĩa gì?"
-      }
+      },
+      "socraticPrompt": "Đổi sách cũ ở trường có ý nghĩa gì?",
+      "distractorReasons": [
+        "Đúng vì theo Hội chợ sách cũ học đường: Kéo dài vòng đời sách, tiết kiệm và sẻ chia.",
+        "Sai vì 'Làm xấu cảnh quan trường' không phù hợp với định lý/quy tắc trọng tâm (Hội chợ sách cũ học đường).",
+        "Sai vì 'Kinh doanh kiếm lời bất chính' không phù hợp với định lý/quy tắc trọng tâm (Hội chợ sách cũ học đường).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm mất thời gian', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -21,7 +21,16 @@
         "socraticPrompt": "Đơn vị đo khối lượng chuẩn viết tắt là kg mang tên đầy đủ là gì?",
         "steps": "Hệ thống chuẩn quy định kilôgam (kg) là đơn vị cơ bản. Gam, tạ, tấn là các ước số và bội số.",
         "trap": "Học sinh thường nhầm gam (g) là đơn vị cơ bản vì thấy phổ biến trên bao bì thực phẩm."
-      }
+      },
+      "socraticPrompt": "Đơn vị đo khối lượng chuẩn viết tắt là kg mang tên đầy đủ là gì?",
+      "distractorReasons": [
+        "Đúng vì: Hệ thống chuẩn quy định kilôgam (kg) là đơn vị cơ bản. Gam, tạ, tấn là các ước số và bội số.",
+        "Sai vì 'Gam (g)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tạ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tấn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c1_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Tế bào có kích thước hiển vi cực kì bé, kính lúp chỉ phóng to tối đa 20 lần thì dụng cụ nào giúp nhìn rõ?",
         "steps": "Tế bào vảy hành có kích thước vi mô chỉ quan sát được rõ ràng qua kính hiển vi quang học.",
         "trap": "Kính lúp chỉ phóng to vật thể nhỏ nhìn bằng mắt thường (như côn trùng), không quan sát được cấu trúc tế bào."
-      }
+      },
+      "socraticPrompt": "Tế bào có kích thước hiển vi cực kì bé, kính lúp chỉ phóng to tối đa 20 lần thì dụng cụ nào giúp nhìn rõ?",
+      "distractorReasons": [
+        "Sai vì 'Kính cận thị' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tế bào vảy hành có kích thước vi mô chỉ quan sát được rõ ràng qua kính hiển vi quang học.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kính lúp cầm tay' (Kính lúp chỉ phóng to vật thể nhỏ nhìn bằng mắt thường (như côn trùng), không quan sát được cấu trúc tế bào.).",
+        "Sai vì 'Kính râm chống chói' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c1_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Hai vạch chia liền kề nhau thể hiện khoảng cách nhỏ nhất mà thước có thể đọc trực tiếp được gọi là gì?",
         "steps": "Độ dài giữa hai vạch chia liên tiếp chính là độ chia nhỏ nhất (ĐCNN).",
         "trap": "Nhầm lẫn giữa giới hạn đo (GHĐ - số lớn nhất) và độ chia nhỏ nhất (ĐCNN)."
-      }
+      },
+      "socraticPrompt": "Hai vạch chia liền kề nhau thể hiện khoảng cách nhỏ nhất mà thước có thể đọc trực tiếp được gọi là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Độ dài lớn nhất ghi trên thước' (giữa giới hạn đo (GHĐ - số lớn nhất) và độ chia nhỏ nhất (ĐCNN)).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chiều dài của toàn bộ thanh thước kẻ', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Độ dài giữa hai vạch chia liên tiếp chính là độ chia nhỏ nhất (ĐCNN).",
+        "Sai vì 'Khoảng cách từ mép thước đến vạch số 0' không phù hợp với định lý/quy tắc trọng tâm (ĐCNN của dụng cụ đo là giá trị chênh lệch giữa hai vạch chia liên tiếp trên dụng cụ đó.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c1_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Ngọn lửa trực quan gợi nhớ đến nguy cơ cháy nổ nào?",
         "steps": "Hình ngọn lửa cảnh báo chất dễ cháy nổ, cần để xa nguồn nhiệt.",
         "trap": "Nhầm với biển chất ăn mòn (hình chất lỏng đổ vào tay và thanh kim loại)."
-      }
+      },
+      "socraticPrompt": "Ngọn lửa trực quan gợi nhớ đến nguy cơ cháy nổ nào?",
+      "distractorReasons": [
+        "Sai vì 'Chất độc sinh học' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chất ăn mòn kim loại' (với biển chất ăn mòn (hình chất lỏng đổ vào tay và thanh kim loại)).",
+        "Sai vì 'Chất phóng xạ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hình ngọn lửa cảnh báo chất dễ cháy nổ, cần để xa nguồn nhiệt."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c1_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Mốc bắt đầu điểm đông của nước trong đời sống hàng ngày của người Việt Nam là bao nhiêu độ C?",
         "steps": "Nước đá đang tan tương ứng với 0 °C; nước sôi tinh khiết là 100 °C.",
         "trap": "32 là nhiệt độ nước đá tan nhưng trong thang Fahrenheit (°F)."
-      }
+      },
+      "socraticPrompt": "Mốc bắt đầu điểm đông của nước trong đời sống hàng ngày của người Việt Nam là bao nhiêu độ C?",
+      "distractorReasons": [
+        "Đúng vì: Nước đá đang tan tương ứng với 0 °C; nước sôi tinh khiết là 100 °C.",
+        "Sai vì '100 °C' không phù hợp với định lý/quy tắc trọng tâm (Thang Celsius lấy nhiệt độ nước đá tinh khiết đang tan ở áp suất chuẩn làm mốc 0 °C.).",
+        "Sai vì '32 °C' không phù hợp với định lý/quy tắc trọng tâm (Thang Celsius lấy nhiệt độ nước đá tinh khiết đang tan ở áp suất chuẩn làm mốc 0 °C.).",
+        "Sai vì '37 °C' không phù hợp với định lý/quy tắc trọng tâm (Thang Celsius lấy nhiệt độ nước đá tinh khiết đang tan ở áp suất chuẩn làm mốc 0 °C.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c1_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khi tiếp xúc với hoá chất nguy hiểm, trang phục bảo vệ nào bảo đảm an toàn cho em?",
         "steps": "Đeo kính bảo hộ và găng tay giúp bảo vệ mắt và da khi thao tác với hoá chất nguy hiểm.",
         "trap": "Tuyệt đối không được nếm hoặc ngửi hoá chất lạ bằng mũi trực tiếp."
-      }
+      },
+      "socraticPrompt": "Khi tiếp xúc với hoá chất nguy hiểm, trang phục bảo vệ nào bảo đảm an toàn cho em?",
+      "distractorReasons": [
+        "Sai vì 'Nếm thử hoá chất dạng tinh thể màu trắng giống đường kính' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Đeo kính bảo hộ và găng tay giúp bảo vệ mắt và da khi thao tác với hoá chất nguy hiểm.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đổ trực tiếp hoá chất thừa xuống bồn rửa tay' (Tuyệt đối không được nếm hoặc ngửi hoá chất lạ bằng mũi trực tiếp.).",
+        "Sai vì 'Chạy nhảy và ăn quà vặt trong phòng thí nghiệm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

@@ -28,7 +28,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm cấu trúc thể thơ lục bát.?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm cấu trúc thể thơ lục bát.: Lục = 6 chữ, Bát = 8 chữ.",
+        "Sai vì 'Cả hai câu đều 7 tiếng' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm cấu trúc thể thơ lục bát.).",
+        "Sai vì 'Câu trên 4 tiếng, câu dưới 6 tiếng' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm cấu trúc thể thơ lục bát.).",
+        "Sai vì 'Câu trên 8 tiếng, câu dưới 6 tiếng' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm cấu trúc thể thơ lục bát.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -53,7 +61,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt từ đa nghĩa và từ đồng âm.?",
+      "distractorReasons": [
+        "Sai vì 'Từ 'đường' trong 'đường cát trắng' và 'đường đi'' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đa nghĩa và từ đồng âm.).",
+        "Đúng vì theo Phân biệt từ đa nghĩa và từ đồng âm.: 'Mũi thuyền' có mối liên hệ nghĩa trực tiếp với 'mũi người'.",
+        "Sai vì 'Từ 'bàn' trong 'cái bàn gỗ' và 'bàn bạc công việc'' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đa nghĩa và từ đồng âm.).",
+        "Sai vì 'Từ 'cổ' trong 'cổ áo' và 'cổ tích'' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ đa nghĩa và từ đồng âm.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -79,7 +95,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được luật bằng trắc thể thơ lục bát (nhất tam ngũ bất quản, nhị tứ lục phân minh).?",
+      "distractorReasons": [
+        "Sai vì 'Tất cả các tiếng chẵn đều là thanh Bằng' không phù hợp với định lý/quy tắc trọng tâm (Luật bằng trắc thể thơ lục bát (Nhất tam ngũ bất quản, nhị tứ lục phân minh).).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tất cả các tiếng chẵn đều là thanh Trắc' (Tiếng 4 luôn luôn là thanh Trắc (dấu sắc, huyền, hỏi, ngã, nặng - ở đây thanh Trắc gồm sắc, hỏi, ngã, nặng).).",
+        "Đúng vì: Tiếng 2(B) - 4(T) - 6(B) ở câu lục; 2(B) - 4(T) - 6(B) - 8(B) ở câu bát.",
+        "Sai vì 'Tiếng thứ 4 bắt buộc là thanh Bằng' không phù hợp với định lý/quy tắc trọng tâm (Luật bằng trắc thể thơ lục bát (Nhất tam ngũ bất quản, nhị tứ lục phân minh).)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -105,7 +129,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện từ đồng âm trong câu đố dân gian.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Là hai từ trái nghĩa' (Không nhầm sang từ đa nghĩa.).",
+        "Sai vì 'Là một từ đa nghĩa chuyển theo ẩn dụ' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện từ đồng âm trong câu đố dân gian.).",
+        "Sai vì 'Là hai từ đồng nghĩa hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện từ đồng âm trong câu đố dân gian.).",
+        "Đúng vì theo Nhận diện từ đồng âm trong câu đố dân gian.: Một từ là hoạt động đỗ xuống, một từ là thực phẩm ăn uống; nghĩa hoàn toàn không có nét chung."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -130,7 +162,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng làm thơ lục bát và các lỗi gieo vần.?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ năng làm thơ lục bát và các lỗi gieo vần.: Lạc vần khiến bài thơ đọc lên bị gượng gạo, mất đi âm điệu ngọt ngào vốn có của lục bát.",
+        "Sai vì 'Viết câu thơ quá ngắn' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng làm thơ lục bát và các lỗi gieo vần.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Viết hoa chữ cái đầu dòng' (Viết hoa đầu dòng là quy tắc chính tả, không phải lỗi.).",
+        "Sai vì 'Trích dẫn ca dao' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng làm thơ lục bát và các lỗi gieo vần.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -155,7 +195,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: ý nghĩa của phương thức chuyển nghĩa từ vựng.?",
+      "distractorReasons": [
+        "Sai vì 'Vì nó làm cho từ điển Tiếng Việt dày hơn' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Ý nghĩa của phương thức chuyển nghĩa từ vựng.).",
+        "Đúng vì theo Vận dụng cao: Ý nghĩa của phương thức chuyển nghĩa từ vựng.: Chuyển nghĩa theo ẩn dụ và hoán dụ phản ánh tư duy sáng tạo ngôn ngữ của dân tộc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì nó gây nhầm lẫn thú vị cho người học nước ngoài' (Tránh lối nhìn nhận phiến diện về sự nhầm lẫn ngôn ngữ.).",
+        "Sai vì 'Vì từ đa nghĩa giúp giảm bớt số lượng chữ cái' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Ý nghĩa của phương thức chuyển nghĩa từ vựng.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

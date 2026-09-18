@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Giá trị cốt lõi của 'Lao động tử tế và chuyên nghiệp' trong kỷ nguyên mới là",
       "options": [
-        "Thượng tôn đạo đức nghề nghiệp, tôn trọng khách hàng, không ngừng cải tiến và có trách nhiệm xã hội",
-        "Chỉ làm việc khi có người giám sát",
         "Tìm cách bớt xén giờ làm",
+        "Chỉ làm việc khi có người giám sát",
+        "Thượng tôn đạo đức nghề nghiệp, tôn trọng khách hàng, không ngừng cải tiến và có trách nhiệm xã hội",
         "Lợi dụng chức vụ trục lợi cá nhân"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Đạo đức và sự chuyên nghiệp là nền tảng xây dựng sự nghiệp vững bền.",
       "breakdown": {
         "concept": "Lao động chuyên nghiệp",
         "steps": "Tận tâm, chính trực và không ngừng đổi mới.",
         "socraticPrompt": "Thế nào là người lao động chuyên nghiệp?"
-      }
+      },
+      "socraticPrompt": "Thế nào là người lao động chuyên nghiệp?",
+      "distractorReasons": [
+        "Sai vì 'Tìm cách bớt xén giờ làm' không phù hợp với định lý/quy tắc trọng tâm (Lao động chuyên nghiệp).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm việc khi có người giám sát', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Lao động chuyên nghiệp: Tận tâm, chính trực và không ngừng đổi mới.",
+        "Sai vì 'Lợi dụng chức vụ trục lợi cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Lao động chuyên nghiệp)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Chuyển đổi số trong quản trị nguồn nhân lực (HR Tech) mang lại bước đột phá nào?",
       "options": [
-        "Tự động hóa tuyển dụng, đào tạo trực tuyến cá nhân hóa và đánh giá hiệu suất minh bạch bằng dữ liệu",
+        "Không có tác dụng gì",
         "Loại bỏ hoàn toàn yếu tố con người",
         "Gây khó khăn cho ứng viên",
-        "Không có tác dụng gì"
+        "Tự động hóa tuyển dụng, đào tạo trực tuyến cá nhân hóa và đánh giá hiệu suất minh bạch bằng dữ liệu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Ứng dụng công nghệ nâng cao hiệu quả kết nối cung cầu lao động.",
       "breakdown": {
         "concept": "HR Tech & Chuyển đổi số",
         "steps": "Tuyển dụng và đào tạo cá nhân hóa bằng dữ liệu.",
         "socraticPrompt": "Công nghệ số thay đổi tuyển dụng nhân sự thế nào?"
-      }
+      },
+      "socraticPrompt": "Công nghệ số thay đổi tuyển dụng nhân sự thế nào?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có tác dụng gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Loại bỏ hoàn toàn yếu tố con người' không phù hợp với định lý/quy tắc trọng tâm (HR Tech & Chuyển đổi số).",
+        "Sai vì 'Gây khó khăn cho ứng viên' không phù hợp với định lý/quy tắc trọng tâm (HR Tech & Chuyển đổi số).",
+        "Đúng vì theo HR Tech & Chuyển đổi số: Tuyển dụng và đào tạo cá nhân hóa bằng dữ liệu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Tôn vinh mọi nghề nghiệp",
         "steps": "Mọi lao động chân chính đều cao quý.",
         "socraticPrompt": "Thái độ đúng đắn đối với các ngành nghề trong xã hội là gì?"
-      }
+      },
+      "socraticPrompt": "Thái độ đúng đắn đối với các ngành nghề trong xã hội là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Tôn vinh mọi nghề nghiệp: Mọi lao động chân chính đều cao quý.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ nghề làm quan mới sang trọng', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Khinh thường người lao động tay chân' không phù hợp với định lý/quy tắc trọng tâm (Tôn vinh mọi nghề nghiệp).",
+        "Sai vì 'Nghề nào kiếm nhiều tiền phi pháp mới giỏi' không phù hợp với định lý/quy tắc trọng tâm (Tôn vinh mọi nghề nghiệp)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Chảy máu chất xám' (Brain Drain) đặt ra bài toán gì cho chính sách nhân tài của đất nước?",
       "options": [
-        "Cần xây dựng môi trường nghiên cứu đổi mới, đãi ngộ xứng đáng và trọng dụng hiền tài thực chất",
         "Cấm công dân đi du học nước ngoài",
+        "Cần xây dựng môi trường nghiên cứu đổi mới, đãi ngộ xứng đáng và trọng dụng hiền tài thực chất",
         "Không cần thu hút trí thức",
         "Đóng cửa giao lưu khoa học"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "'Hiền tài là nguyên khí quốc gia', cần môi trường để nhân tài cống hiến phụng sự Tổ quốc.",
       "breakdown": {
         "concept": "Thu hút và trọng dụng nhân tài",
         "steps": "Môi trường sáng tạo và đãi ngộ xứng đáng.",
         "socraticPrompt": "Làm sao để giữ chân người tài cho đất nước?"
-      }
+      },
+      "socraticPrompt": "Làm sao để giữ chân người tài cho đất nước?",
+      "distractorReasons": [
+        "Sai vì 'Cấm công dân đi du học nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Thu hút và trọng dụng nhân tài).",
+        "Đúng vì theo Thu hút và trọng dụng nhân tài: Môi trường sáng tạo và đãi ngộ xứng đáng.",
+        "Sai vì phủ định sai bản chất: 'Không cần thu hút trí thức' trái ngược với kiến thức SGK.",
+        "Sai vì 'Đóng cửa giao lưu khoa học' không phù hợp với định lý/quy tắc trọng tâm (Thu hút và trọng dụng nhân tài)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Năng suất xanh",
         "steps": "Tăng năng suất gắn với bảo vệ môi trường.",
         "socraticPrompt": "Thế nào là năng suất lao động xanh?"
-      }
+      },
+      "socraticPrompt": "Thế nào là năng suất lao động xanh?",
+      "distractorReasons": [
+        "Đúng vì theo Năng suất xanh: Tăng năng suất gắn với bảo vệ môi trường.",
+        "Sai vì 'Tăng sản lượng bằng cách tàn phá thiên nhiên' không phù hợp với định lý/quy tắc trọng tâm (Năng suất xanh).",
+        "Sai vì 'Xả thải bừa bãi để giảm chi phí' không phù hợp với định lý/quy tắc trọng tâm (Năng suất xanh).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Ngừng toàn bộ các nhà máy', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh hôm nay chuẩn bị hành trang bước vào thế giới phẳng bằng công thức",
       "options": [
-        "'Tâm trong - Trí sáng - Hoài bão lớn' + Kỹ năng số + Ngoại ngữ toàn cầu",
+        "Không học tập chỉ chơi game",
         "Tự ti, mặc cảm, khép kín",
         "Chỉ ỷ lại vào gia đình",
-        "Không học tập chỉ chơi game"
+        "'Tâm trong - Trí sáng - Hoài bão lớn' + Kỹ năng số + Ngoại ngữ toàn cầu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Hành trang công dân toàn cầu mang bản sắc dân tộc Việt Nam.",
       "breakdown": {
         "concept": "Hành trang công dân toàn cầu",
         "steps": "Tâm - Trí - Hoài bão + Công nghệ + Ngoại ngữ.",
         "socraticPrompt": "Thế hệ trẻ cần hành trang gì để hội nhập quốc tế?"
-      }
+      },
+      "socraticPrompt": "Thế hệ trẻ cần hành trang gì để hội nhập quốc tế?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Không học tập chỉ chơi game', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Tự ti, mặc cảm, khép kín' không phù hợp với định lý/quy tắc trọng tâm (Hành trang công dân toàn cầu).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ ỷ lại vào gia đình', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Hành trang công dân toàn cầu: Tâm - Trí - Hoài bão + Công nghệ + Ngoại ngữ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

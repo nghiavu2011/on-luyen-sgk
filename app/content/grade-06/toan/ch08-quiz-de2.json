@@ -1,128 +1,207 @@
 {
   "chapterId": "ch08",
   "examId": "de2",
-  "title": "Toán 6 — Chương 8: Đề 2 — Trung điểm đoạn thẳng & Số đo góc",
-  "description": "Bộ đề rèn luyện kỹ năng tính toán độ dài hình học, nhận biết trung điểm và phân loại các góc đặc biệt.",
+  "title": "Toán 6 — Chương 8: Những hình hình học cơ bản: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c8_d2_q1",
-      "difficulty": "easy",
+      "id": "t6_c8_d2_01",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Định nghĩa góc vuông",
-      "question": "Một góc có số đo đúng bằng 90° được gọi là loại góc nào sau đây?",
+      "topic": "Hệ thức cộng độ dài đoạn thẳng",
+      "question": "Cho điểm M nằm giữa hai điểm A và B. Biết AM = 3 cm và AB = 7 cm. Độ dài đoạn thẳng MB bằng:",
       "options": [
-        "Góc nhọn",
-        "Góc vuông",
-        "Góc tù",
-        "Góc bẹt"
+        "10 cm",
+        "4 cm",
+        "3,5 cm",
+        "21 cm"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Định nghĩa và tên gọi của góc vuông theo số đo.",
-        "socraticPrompt": "Góc có số đo đúng bằng 90 độ có tên gọi quen thuộc là gì trong hình học?",
-        "steps": "Theo định nghĩa SGK: Góc có số đo bằng 90° được gọi là góc vuông.",
-        "trap": "Nhầm góc 90° là góc nhọn hoặc góc bẹt."
-      }
+        "concept": "Vì M nằm giữa A và B nên AM + MB = AB ⇒ MB = AB - AM.",
+        "steps": [
+          "Bước 1: Viết hệ thức: AM + MB = AB.",
+          "Bước 2: Thay số: 3 + MB = 7.",
+          "Bước 3: MB = 7 - 3 = 4 cm."
+        ],
+        "trap": "Lấy 7 + 3 = 10 cm (quên mất AB là đoạn thẳng dài bao ngoài).",
+        "socraticPrompt": "M nằm giữa A và B, cả đoạn AB dài 7 cm. Phần AM đã chiếm 3 cm thì phần còn lại MB dài mấy cm?"
+      },
+      "socraticPrompt": "M nằm giữa A và B, cả đoạn AB dài 7 cm. Phần AM đã chiếm 3 cm thì phần còn lại MB dài mấy cm?",
+      "distractorReasons": [
+        "Sai vì lấy 7 + 3 = 10 cm (nhầm AB là một đoạn nhỏ).",
+        "Đúng vì MB = AB - AM = 7 - 3 = 4 cm.",
+        "Sai vì lấy 7 chia đôi thành 3,5 cm (chỉ đúng khi M là trung điểm).",
+        "Sai vì nhân hai kích thước."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c8_d2_q2",
-      "difficulty": "easy",
+      "id": "t6_c8_d2_02",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Định nghĩa góc tù",
-      "question": "Góc có số đo lớn hơn 90° và nhỏ hơn 180° được gọi là loại góc nào sau đây?",
+      "topic": "Kiểm tra điều kiện trung điểm",
+      "question": "Trên tia Ox lấy hai điểm A và B sao cho OA = 4 cm và OB = 8 cm. Khẳng định nào sau đây là ĐÚNG?",
       "options": [
-        "Góc nhọn",
-        "Góc bẹt",
-        "Góc tù",
-        "Góc vuông"
+        "Điểm O là trung điểm của đoạn thẳng AB",
+        "Điểm B là trung điểm của đoạn thẳng OA",
+        "Điểm A là trung điểm của đoạn thẳng OB",
+        "Điểm A không nằm giữa O và B"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Định nghĩa và khoảng số đo của góc tù.",
-        "socraticPrompt": "Góc lớn hơn góc vuông (90 độ) nhưng nhỏ hơn góc bẹt (180 độ) có tên gọi là gì?",
-        "steps": "Theo phân loại góc: Góc có số đo lớn hơn 90° và nhỏ hơn 180° được gọi là góc tù.",
-        "trap": "Nhầm góc tù với góc nhọn (nhỏ hơn 90°) hoặc góc bẹt (đúng 180°)."
-      }
-    },
-    {
-      "id": "t6_c8_d2_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Số đo góc bẹt",
-      "question": "Số đo của góc bẹt bằng bao nhiêu độ?",
-      "options": [
-        "90°",
-        "180°",
-        "360°",
-        "120°"
+        "concept": "Trên cùng một tia, điểm có khoảng cách nhỏ hơn nằm giữa gốc và điểm có khoảng cách lớn hơn.",
+        "steps": [
+          "Bước 1: Trên tia Ox có OA < OB (4 cm < 8 cm) nên điểm A nằm giữa O và B.",
+          "Bước 2: Suy ra OA + AB = OB ⇒ AB = 8 - 4 = 4 cm.",
+          "Bước 3: Vì A nằm giữa O, B và OA = AB = 4 cm nên A là trung điểm của đoạn thẳng OB."
+        ],
+        "trap": "Chọn B là trung điểm vì thấy số 8 lớn hơn.",
+        "socraticPrompt": "OA = 4 cm, OB = 8 cm. Đoạn AB dài bao nhiêu? Điểm A có nằm chính giữa đoạn OB không?"
+      },
+      "socraticPrompt": "OA = 4 cm, OB = 8 cm. Đoạn AB dài bao nhiêu? Điểm A có nằm chính giữa đoạn OB không?",
+      "distractorReasons": [
+        "Sai vì điểm O là gốc của tia, không nằm giữa A và B.",
+        "Sai vì điểm B nằm ngoài cùng (OB = 8 cm) không thể là trung điểm.",
+        "Đúng vì A nằm giữa O, B và OA = AB = 4 cm (bằng nửa OB).",
+        "Sai vì trên tia Ox có OA < OB nên A chắc chắn nằm giữa O và B."
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Định nghĩa góc bẹt và số đo của góc bẹt.",
-        "socraticPrompt": "Góc bẹt có hai cạnh là hai tia đối nhau tạo thành một đường thẳng, số đo của nó bằng bao nhiêu độ?",
-        "steps": "Góc bẹt là góc có hai cạnh là hai tia đối nhau. Số đo của góc bẹt luôn bằng 180°.",
-        "trap": "Nhầm với góc vuông (90°) hoặc góc trọn vòng tròn (360°)."
-      }
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c8_d2_q4",
+      "id": "t6_c8_d2_03",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Tính độ dài đoạn thẳng qua trung điểm",
-      "question": "Cho đoạn thẳng PQ = 12 cm. Điểm I nằm giữa P và Q sao cho PI = 4 cm. Điểm M là trung điểm của đoạn thẳng IQ. Độ dài của đoạn thẳng IM bằng bao nhiêu?",
+      "topic": "Tính số đường thẳng từ n điểm không thẳng hàng",
+      "question": "Cho 5 điểm phân biệt trong đó không có ba điểm nào thẳng hàng. Số đường thẳng vẽ được đi qua các cặp điểm là:",
       "options": [
-        "4 cm",
-        "8 cm",
-        "6 cm",
-        "2 cm"
+        "15 đường thẳng",
+        "20 đường thẳng",
+        "5 đường thẳng",
+        "10 đường thẳng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Công thức tính số đường thẳng từ n điểm không thẳng hàng: N = n × (n - 1) : 2.",
+        "steps": [
+          "Bước 1: Mỗi điểm nối với 4 điểm còn lại được 4 đường thẳng.",
+          "Bước 2: Có 5 điểm nên có 5 × 4 = 20 đường thẳng.",
+          "Bước 3: Vì mỗi đường thẳng được tính 2 lần (AB và BA) nên số đường thẳng thực tế là: 20 : 2 = 10 đường thẳng."
+        ],
+        "trap": "Quên chia cho 2 nên chọn 20 đường thẳng.",
+        "socraticPrompt": "Mỗi điểm nối với 4 điểm còn lại thì có 5 × 4 = 20. Đường thẳng AB và BA là cùng một đường, vậy cần chia cho mấy?"
+      },
+      "socraticPrompt": "Mỗi điểm nối với 4 điểm còn lại thì có 5 × 4 = 20. Đường thẳng AB và BA là cùng một đường, vậy cần chia cho mấy?",
+      "distractorReasons": [
+        "Sai vì tính nhầm công thức.",
+        "Sai vì quên chia cho 2 (đếm lặp mỗi đường 2 lần).",
+        "Sai vì chỉ tính số điểm.",
+        "Đúng vì số đường thẳng là 5 × (5 - 1) / 2 = 10 đường thẳng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c8_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Góc tạo bởi kim giờ và kim phút",
+      "question": "Vào lúc đúng 3 giờ, góc tạo bởi kim giờ và kim phút của đồng hồ có số đo bằng:",
+      "options": [
+        "90° (góc vuông)",
+        "60°",
+        "180° (góc bẹt)",
+        "120°"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tính độ dài đoạn thẳng trung gian rồi tính độ dài trung điểm.",
-        "socraticPrompt": "Tính đoạn IQ trước bằng cách lấy PQ trừ PI. M là trung điểm của IQ thì IM bằng IQ chia mấy?",
-        "steps": "Vì I nằm giữa P và Q nên PI + IQ = PQ, suy ra IQ = PQ - PI = 12 - 4 = 8 cm. Vì M là trung điểm của IQ nên IM = IQ / 2 = 8 / 2 = 4 cm.",
-        "trap": "Lấy luôn kết quả IQ = 8 cm mà quên chia 2 cho trung điểm M."
-      }
+        "concept": "Mặt đồng hồ chia thành 12 khoảng bằng nhau, mỗi khoảng ứng với 360° : 12 = 30°.",
+        "steps": [
+          "Bước 1: Lúc 3 giờ đúng, kim phút chỉ số 12, kim giờ chỉ số 3.",
+          "Bước 2: Khoảng cách giữa số 12 và số 3 gồm 3 khoảng nhỏ.",
+          "Bước 3: Góc tạo bởi hai kim là: 3 × 30° = 90° (góc vuông)."
+        ],
+        "trap": "Tính nhầm thành 60° hoặc 180°.",
+        "socraticPrompt": "Mặt đồng hồ có 12 giờ ứng với 360°. Mỗi giờ kim lệch 30°. Lúc 3 giờ kim phút ở số 12, kim giờ ở số 3 là cách nhau 3 giờ, vậy góc bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Mặt đồng hồ có 12 giờ ứng với 360°. Mỗi giờ kim lệch 30°. Lúc 3 giờ kim phút ở số 12, kim giờ ở số 3 là cách nhau 3 giờ, vậy góc bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì góc tạo bởi số 12 và số 3 là 3 × 30° = 90° (góc vuông).",
+        "Sai vì 60° là góc lúc 2 giờ đúng.",
+        "Sai vì 180° là góc lúc 6 giờ đúng.",
+        "Sai vì 120° là góc lúc 4 giờ đúng."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c8_d2_q5",
-      "difficulty": "hard",
+      "id": "t6_c8_d2_05",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Góc tạo bởi kim đồng hồ lúc 3 giờ",
-      "question": "Lúc 3 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ có số đo bằng bao nhiêu độ?",
+      "topic": "Điểm đối xứng trên tia đối",
+      "question": "Cho đoạn thẳng AB = 6 cm. Trên tia đối của tia AB lấy điểm C sao cho AC = 3 cm. Độ dài đoạn thẳng BC bằng:",
       "options": [
-        "60°",
-        "90°",
-        "120°",
-        "45°"
+        "18 cm",
+        "3 cm",
+        "6 cm",
+        "9 cm"
       ],
-      "correct": 1,
+      "correct": 3,
       "breakdown": {
-        "concept": "Ứng dụng số đo góc vào thực tế xác định góc kim đồng hồ.",
-        "socraticPrompt": "Mỗi khoảng giữa hai số liền nhau trên đồng hồ là 30 độ. Lúc 3 giờ đúng, hai kim cách nhau 3 khoảng số thì góc bằng bao nhiêu độ?",
-        "steps": "Mặt đồng hồ có 12 khoảng số tương ứng 360°. Mỗi khoảng giữa hai số là 360° : 12 = 30°. Lúc 3 giờ đúng, kim phút chỉ số 12, kim giờ chỉ số 3 (cách nhau 3 khoảng số). Góc tạo thành là: 3 · 30° = 90° (góc vuông).",
-        "trap": "Nhẩm sai 3 khoảng thành 60° hoặc 45°."
-      }
+        "concept": "Tia AC và tia AB là hai tia đối nhau nên điểm A nằm giữa hai điểm C và B.",
+        "steps": [
+          "Bước 1: Vì tia AC là tia đối của tia AB nên A nằm giữa C và B.",
+          "Bước 2: Do đó CB = CA + AB.",
+          "Bước 3: Thay số: CB = 3 + 6 = 9 cm."
+        ],
+        "trap": "Lấy 6 - 3 = 3 cm (nhầm điểm C nằm giữa A và B).",
+        "socraticPrompt": "Tia đối nghĩa là điểm C nằm về phía ngược lại của điểm A so với B. Điểm A nằm ở giữa C và B thì đoạn BC bằng tổng hay hiệu của hai đoạn?"
+      },
+      "socraticPrompt": "Tia đối nghĩa là điểm C nằm về phía ngược lại của điểm A so với B. Điểm A nằm ở giữa C và B thì đoạn BC bằng tổng hay hiệu của hai đoạn?",
+      "distractorReasons": [
+        "Sai vì nhân hai đoạn thẳng.",
+        "Sai vì lấy 6 - 3 = 3 cm (nhầm C nằm trên tia AB).",
+        "Sai vì giữ nguyên độ dài AB.",
+        "Đúng vì A nằm giữa C và B nên BC = CA + AB = 3 + 6 = 9 cm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c8_d2_q6",
-      "difficulty": "hard",
+      "id": "t6_c8_d2_06",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Góc tạo bởi kim đồng hồ lúc 6 giờ",
-      "question": "Lúc 6 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ là loại góc nào và có số đo bằng bao nhiêu?",
+      "topic": "Đếm số góc tạo bởi nhiều tia chung gốc",
+      "question": "Cho 4 tia chung gốc O phân biệt. Có tất cả bao nhiêu góc được tạo thành từ 4 tia đó?",
       "options": [
-        "Góc vuông có số đo 90°",
-        "Góc bẹt có số đo 180°",
-        "Góc tù có số đo 150°",
-        "Góc bẹt có số đo 360°"
+        "6 góc",
+        "4 góc",
+        "8 góc",
+        "12 góc"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Góc bẹt hình thành bởi hai tia đối nhau trên mặt đồng hồ.",
-        "socraticPrompt": "Lúc 6 giờ đúng, kim phút chỉ số 12 hướng thẳng lên trên, kim giờ chỉ số 6 hướng thẳng xuống dưới tạo thành hai tia đối nhau thì đó là góc gì?",
-        "steps": "Lúc 6 giờ đúng, kim phút chỉ số 12 và kim giờ chỉ số 6. Hai kim nằm trên cùng một đường thẳng và hướng về hai phía ngược nhau (hai tia đối nhau). Góc tạo thành là góc bẹt có số đo 180°.",
-        "trap": "Ghi nhận nhầm số đo là 360° (một vòng tròn) thay vì góc tạo bởi hai tia (180°)."
-      }
+        "concept": "Mỗi góc được tạo bởi 2 tia chung gốc. Số góc tạo bởi n tia chung gốc là n(n - 1) : 2.",
+        "steps": [
+          "Bước 1: Gọi 4 tia là Ox, Oy, Oz, Ot.",
+          "Bước 2: Mỗi tia kết hợp với 3 tia còn lại tạo thành 3 góc.",
+          "Bước 3: Có 4 tia nên có 4 × 3 = 12, chia đôi vì mỗi góc tính 2 lần: 12 : 2 = 6 góc."
+        ],
+        "trap": "Chỉ đếm 4 góc hoặc lấy 4 × 3 = 12 góc.",
+        "socraticPrompt": "Công thức tính số góc tạo bởi n tia chung gốc là n × (n - 1) / 2. Với n = 4 thì số góc là bao nhiêu?"
+      },
+      "socraticPrompt": "Công thức tính số góc tạo bởi n tia chung gốc là n × (n - 1) / 2. Với n = 4 thì số góc là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì số góc tạo thành là 4 × (4 - 1) / 2 = 6 góc.",
+        "Sai vì chỉ đếm 3 góc đơn và 1 góc bẹt mà bỏ sót các góc ghép.",
+        "Sai vì tính nhầm.",
+        "Sai vì quên chia cho 2 (tính lặp góc xOy và yOx)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

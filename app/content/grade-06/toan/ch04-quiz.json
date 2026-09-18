@@ -1,129 +1,207 @@
 {
   "chapterId": "ch04",
-  "examId": "quiz-g06-toan-ch04-tonghop",
-  "title": "Đề kiểm tra Chương IV: Một số hình phẳng trong thực tiễn",
-  "description": "Đề thi tổng hợp kiểm tra năng lực tư duy hình học và giải quyết vấn đề thực tiễn theo bộ SGK Kết nối tri thức (NXB Giáo dục Việt Nam 2026 - 2027).",
-  "grade": "06",
+  "examId": "tonghop",
+  "title": "Toán 6 — Chương 4: Một số hình phẳng trong thực tiễn: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c4_th_q1",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Nhận biết các loại tứ giác đặc biệt",
-      "question": "Tứ giác nào sau đây có hai đường chéo vừa bằng nhau vừa vuông góc với nhau tại trung điểm của mỗi đường?",
-      "options": [
-        "Hình vuông",
-        "Hình thoi",
-        "Hình chữ nhật",
-        "Hình bình hành"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Dấu hiệu nhận biết hình vuông qua tính chất hai đường chéo.",
-        "socraticPrompt": "Hình nào kết hợp cả tính chất của hình chữ nhật (đường chéo bằng nhau) và hình thoi (đường chéo vuông góc)?",
-        "steps": "Hình vuông có hai đường chéo vừa bằng nhau, vừa vuông góc và cắt nhau tại trung điểm mỗi đường.",
-        "trap": "Nhầm với hình thoi (đường chéo vuông góc nhưng không bằng nhau) hoặc hình chữ nhật (đường chéo bằng nhau nhưng không vuông góc)."
-      }
-    },
-    {
-      "id": "t6_c4_th_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tính chất lục giác đều",
-      "question": "Một hình lục giác đều được ghép lại từ 6 tam giác đều có cạnh 4 cm. Chu vi của hình lục giác đều này bằng:",
-      "options": [
-        "24 cm",
-        "18 cm",
-        "36 cm",
-        "30 cm"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Cấu tạo và chu vi của hình lục giác đều.",
-        "socraticPrompt": "Khi ghép 6 tam giác đều cạnh 4 cm lại thì đường viền ngoài của lục giác đều có bao nhiêu cạnh, mỗi cạnh dài bao nhiêu?",
-        "steps": "Đường viền ngoài của lục giác đều gồm 6 cạnh, mỗi cạnh chính là cạnh của tam giác đều bằng 4 cm. Chu vi = 6 × 4 = 24 cm.",
-        "trap": "Cộng cả các cạnh bên trong tam giác (lấy 6 × 3 = 18 cạnh nhân 4 = 72 cm)."
-      }
-    },
-    {
-      "id": "t6_c4_th_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Đường chéo hình thoi",
-      "question": "Một tấm bìa hình thoi có diện tích 48 cm². Biết độ dài một đường chéo là 8 cm, độ dài đường chéo còn lại là:",
-      "options": [
-        "12 cm",
-        "6 cm",
-        "16 cm",
-        "24 cm"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Tính độ dài đường chéo hình thoi từ diện tích.",
-        "socraticPrompt": "Diện tích S = (d₁ · d₂) / 2. Vậy tích hai đường chéo bằng 2 lần diện tích, tức là bao nhiêu?",
-        "steps": "Tích hai đường chéo = 48 × 2 = 96 cm². Đường chéo còn lại = 96 / 8 = 12 cm.",
-        "trap": "Quên nhân đôi diện tích, lấy luôn 48 / 8 = 6 cm."
-      }
-    },
-    {
-      "id": "t6_c4_th_q4",
+      "id": "t6_c4_d3_01",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Diện tích hình phẳng phức hợp",
-      "question": "Một mảnh đất gồm một hình chữ nhật kích thước 10 m × 6 m ghép với một tam giác vuông có hai cạnh góc vuông là 6 m và 4 m. Tổng diện tích mảnh đất là:",
+      "topic": "Toán thực tế - Lát nền nhà bằng gạch hình vuông",
+      "question": "Bác An muốn lát nền một căn phòng hình chữ nhật dài 8 m và rộng 6 m bằng các viên gạch hoa hình vuông cạnh 50 cm. Biết giá mỗi viên gạch là 35.000 đồng. Hỏi bác An cần chi bao nhiêu tiền mua gạch để vừa đủ lát kín phòng (bỏ qua diện tích mạch vữa)?",
       "options": [
-        "72 m²",
-        "84 m²",
-        "68 m²",
-        "96 m²"
+        "3.360.000 đồng",
+        "1.680.000 đồng",
+        "6.720.000 đồng",
+        "8.400.000 đồng"
       ],
-      "correct": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Phương pháp cộng diện tích các hình thành phần.",
-        "socraticPrompt": "Em hãy tính riêng diện tích hình chữ nhật và diện tích tam giác vuông rồi cộng lại với nhau.",
-        "steps": "Bước 1: Diện tích hình chữ nhật = 10 × 6 = 60 m². Bước 2: Diện tích tam giác vuông = (6 × 4) / 2 = 12 m². Bước 3: Tổng diện tích = 60 + 12 = 72 m².",
-        "trap": "Quên chia đôi diện tích tam giác vuông (lấy 6 × 4 = 24 m² dẫn đến kết quả 84 m²)."
-      }
+        "concept": "Số viên gạch = Diện tích căn phòng : Diện tích một viên gạch. Tổng tiền = Số viên gạch × Giá một viên.",
+        "steps": [
+          "Bước 1: Diện tích căn phòng: 8 × 6 = 48 m^2.",
+          "Bước 2: Đổi cạnh gạch 50 cm = 0,5 m. Diện tích 1 viên gạch: 0,5 × 0,5 = 0,25 m^2.",
+          "Bước 3: Số viên gạch cần dùng: 48 : 0,25 = 192 viên.",
+          "Bước 4: Tổng số tiền mua gạch: 192 × 35.000 = 6.720.000 đồng."
+        ],
+        "trap": "Quên bình phương cạnh gạch khi tính diện tích (lấy 48 : 0,5 = 96 viên) dẫn đến tính ra một nửa số tiền là 3.360.000 đồng.",
+        "socraticPrompt": "Diện tích phòng là 48 m^2. Mỗi mét vuông cần 4 viên gạch cạnh 50 cm. Vậy cả phòng cần bao nhiêu viên gạch? Nhân với 35.000 đồng ra bao nhiêu tiền?"
+      },
+      "socraticPrompt": "Diện tích phòng là 48 m^2. Mỗi mét vuông cần 4 viên gạch cạnh 50 cm. Vậy cả phòng cần bao nhiêu viên gạch? Nhân với 35.000 đồng ra bao nhiêu tiền?",
+      "distractorReasons": [
+        "Sai vì tính nhầm diện tích viên gạch là 0,5 m^2 thay vì 0,25 m^2 (tính ra 96 viên thay vì 192 viên).",
+        "Sai vì tính thiếu số viên gạch.",
+        "Đúng vì diện tích phòng là 48 m^2, diện tích mỗi viên gạch là 0,25 m^2; số gạch cần là 48 : 0,25 = 192 viên; chi phí: 192 × 35.000 = 6.720.000 đồng.",
+        "Sai vì tính nhầm số lượng gạch."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c4_th_q5",
+      "id": "t6_c4_d3_02",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Toán thực tế diện tích lối đi",
-      "question": "Người ta làm một lối đi rộng 1 m bao quanh một bể bơi hình chữ nhật có kích thước 12 m × 8 m. Diện tích của lối đi đó là:",
+      "topic": "Toán thực tế - Trồng hoa trên mảnh đất hình thoi",
+      "question": "Một bồn hoa có dạng hình thoi với hai đường chéo dài 6 m và 4 m. Người ta trồng hoa hồng trên toàn bộ bồn hoa, trung bình mỗi mét vuông trồng được 8 cây hoa. Tổng số cây hoa hồng trồng trên bồn hoa đó là:",
       "options": [
-        "44 m²",
-        "40 m²",
-        "48 m²",
-        "52 m²"
+        "80 cây",
+        "192 cây",
+        "48 cây",
+        "96 cây"
       ],
-      "correct": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tính diện tích phần lối đi bao quanh bằng phương pháp trừ diện tích.",
-        "socraticPrompt": "Khi làm lối đi rộng 1 m về cả hai phía thì chiều dài và chiều rộng của toàn bộ khu vực tăng thêm bao nhiêu mét?",
-        "steps": "Bước 1: Kích thước toàn bộ cả lối đi: Chiều dài = 12 + 1 + 1 = 14 m, Chiều rộng = 8 + 1 + 1 = 10 m. Bước 2: Tổng diện tích = 14 × 10 = 140 m². Bước 3: Diện tích bể bơi = 12 × 8 = 96 m². Bước 4: Diện tích lối đi = 140 - 96 = 44 m².",
-        "trap": "Chỉ cộng 1 m vào chiều dài và chiều rộng thay vì cộng cả 2 phía (+2 m)."
-      }
+        "concept": "Số cây hoa = Diện tích hình thoi × Số cây trên mỗi mét vuông.",
+        "steps": [
+          "Bước 1: Diện tích bồn hoa hình thoi: S = (6 × 4) : 2 = 12 m^2.",
+          "Bước 2: Tổng số cây hoa trồng được: 12 × 8 = 96 cây."
+        ],
+        "trap": "Tính diện tích hình thoi thành 6 × 4 = 24 m^2 (quên chia 2) dẫn đến tính ra 192 cây hoa.",
+        "socraticPrompt": "Diện tích hình thoi bằng tích hai đường chéo chia 2: (6 × 4) : 2 = 12 m^2. Mỗi mét vuông trồng 8 cây thì 12 mét vuông trồng bao nhiêu cây?"
+      },
+      "socraticPrompt": "Diện tích hình thoi bằng tích hai đường chéo chia 2: (6 × 4) : 2 = 12 m^2. Mỗi mét vuông trồng 8 cây thì 12 mét vuông trồng bao nhiêu cây?",
+      "distractorReasons": [
+        "Sai vì tính nhầm phép nhân 12 × 8.",
+        "Sai vì quên chia 2 trong diện tích hình thoi nên tính gấp đôi thành 192 cây.",
+        "Sai vì tính nhầm diện tích hình thoi thành 6 m^2.",
+        "Đúng vì diện tích bồn hoa là (6 × 4) / 2 = 12 m^2; số cây hoa là 12 × 8 = 96 cây."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c4_th_q6",
-      "difficulty": "expert",
+      "id": "t6_c4_d3_03",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Bài toán thực tế chu vi và diện tích cực trị",
-      "question": "Một mảnh đất hình chữ nhật có chu vi 100 m. Nếu giảm chiều dài đi 5 m và tăng chiều rộng thêm 5 m thì mảnh đất trở thành hình vuông. Diện tích ban đầu của mảnh đất là:",
+      "topic": "Toán thực tế - Làm hàng rào bao quanh mảnh vườn",
+      "question": "Một khu đất hình bình hành có độ dài một cạnh là 35 m và cạnh kia là 25 m. Người ta muốn làm hàng rào bao quanh khu đất đó, để lại một cổng ra vào rộng 3 m. Độ dài hàng rào cần làm là:",
       "options": [
-        "600 m²",
-        "625 m²",
-        "575 m²",
-        "525 m²"
+        "117 m",
+        "120 m",
+        "57 m",
+        "60 m"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Mối quan hệ giữa chu vi, cạnh hình vuông và diện tích hình chữ nhật.",
-        "socraticPrompt": "Nửa chu vi mảnh đất là bao nhiêu? Khi trở thành hình vuông thì cạnh hình vuông bằng nửa chu vi chia đôi.",
-        "steps": "Bước 1: Nửa chu vi = 100 / 2 = 50 m. Bước 2: Cạnh hình vuông sau khi biến đổi = 50 / 2 = 25 m. Bước 3: Chiều dài ban đầu = 25 + 5 = 30 m; Chiều rộng ban đầu = 25 - 5 = 20 m. Bước 4: Diện tích ban đầu = 30 × 20 = 600 m².",
-        "trap": "Lấy luôn diện tích hình vuông 25 × 25 = 625 m² thay vì diện tích ban đầu của hình chữ nhật."
-      }
+        "concept": "Độ dài hàng rào = Chu vi khu đất - Chiều rộng cổng ra vào.",
+        "steps": [
+          "Bước 1: Chu vi khu đất hình bình hành: C = (35 + 25) × 2 = 60 × 2 = 120 m.",
+          "Bước 2: Trừ đi lối đi của cổng: 120 - 3 = 117 m."
+        ],
+        "trap": "Quên trừ đi độ rộng của cổng ra vào (chọn 120 m).",
+        "socraticPrompt": "Chu vi hình bình hành có hai cạnh 35 m và 25 m là bao nhiêu? Hàng rào bao quanh nhưng chừa lại cổng 3 m thì lấy chu vi trừ đi mấy?"
+      },
+      "socraticPrompt": "Chu vi hình bình hành có hai cạnh 35 m và 25 m là bao nhiêu? Hàng rào bao quanh nhưng chừa lại cổng 3 m thì lấy chu vi trừ đi mấy?",
+      "distractorReasons": [
+        "Đúng vì chu vi là (35 + 25) × 2 = 120 m, độ dài hàng rào sau khi trừ cổng 3 m là 120 - 3 = 117 m.",
+        "Sai vì quên trừ đi 3 m của cổng ra vào.",
+        "Sai vì chỉ mới tính nửa chu vi rồi trừ 3 m.",
+        "Sai vì chỉ tính nửa chu vi mà không nhân 2."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c4_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Diện tích hình phức hợp (ghép hình)",
+      "question": "Một mảnh đất gồm một hình chữ nhật kích thước 15 m × 10 m và một hình tam giác vuông có hai cạnh góc vuông là 10 m và 8 m được ghép vào cạnh 10 m của hình chữ nhật. Diện tích của toàn bộ mảnh đất là:",
+      "options": [
+        "230 m^2",
+        "190 m^2",
+        "150 m^2",
+        "170 m^2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Diện tích hình phức hợp bằng tổng diện tích các hình thành phần ghép lại.",
+        "steps": [
+          "Bước 1: Diện tích hình chữ nhật: S1 = 15 × 10 = 150 m^2.",
+          "Bước 2: Diện tích hình tam giác vuông: S2 = (10 × 8) : 2 = 40 m^2.",
+          "Bước 3: Diện tích toàn bộ mảnh đất: S = S1 + S2 = 150 + 40 = 190 m^2."
+        ],
+        "trap": "Quên chia 2 khi tính diện tích tam giác vuông (lấy 10 × 8 = 80) dẫn đến 150 + 80 = 230 m^2.",
+        "socraticPrompt": "Mảnh đất gồm hình chữ nhật diện tích 150 m^2 và tam giác vuông diện tích (10 × 8) : 2 = 40 m^2. Tổng diện tích là bao nhiêu?"
+      },
+      "socraticPrompt": "Mảnh đất gồm hình chữ nhật diện tích 150 m^2 và tam giác vuông diện tích (10 × 8) : 2 = 40 m^2. Tổng diện tích là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì quên chia 2 diện tích tam giác vuông (lấy 150 + 80 = 230).",
+        "Đúng vì S = 15 × 10 + (10 × 8) / 2 = 150 + 40 = 190 m^2.",
+        "Sai vì chỉ mới tính diện tích hình chữ nhật mà quên tam giác.",
+        "Sai vì tính sai diện tích tam giác."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c4_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Biến đổi kích thước và tỉ lệ diện tích",
+      "question": "Nếu tăng chiều dài của một hình chữ nhật lên 3 lần và giảm chiều rộng đi 2 lần thì diện tích của hình chữ nhật đó thay đổi như thế nào?",
+      "options": [
+        "Tăng lên 1,5 lần",
+        "Tăng lên 6 lần",
+        "Giảm đi 1,5 lần",
+        "Không đổi"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Diện tích S = a × b. Khi a mới = 3a và b mới = b / 2 thì S mới = 3a × (b / 2) = 1,5 × (a × b) = 1,5 × S.",
+        "steps": [
+          "Bước 1: Diện tích ban đầu: S = a × b.",
+          "Bước 2: Kích thước mới: a' = 3a và b' = b / 2.",
+          "Bước 3: Diện tích mới: S' = a' × b' = 3a × (b / 2) = (3 / 2) × (a × b) = 1,5 × S.",
+          "Bước 4: Vậy diện tích tăng lên 1,5 lần."
+        ],
+        "trap": "Lấy 3 nhân 2 thành tăng 6 lần hoặc nghĩ tăng giảm bù trừ thành không đổi.",
+        "socraticPrompt": "Dài gấp 3 lần thì diện tích gấp 3. Rộng giảm 2 lần thì diện tích chia 2. Lấy 3 chia 2 thì diện tích gấp mấy lần?"
+      },
+      "socraticPrompt": "Dài gấp 3 lần thì diện tích gấp 3. Rộng giảm 2 lần thì diện tích chia 2. Lấy 3 chia 2 thì diện tích gấp mấy lần?",
+      "distractorReasons": [
+        "Đúng vì S_mới = (3a) × (b / 2) = 1,5 × (a × b) = 1,5 S (diện tích tăng 1,5 lần).",
+        "Sai vì nhân cả hai hệ số 3 × 2 = 6 thay vì lấy 3 chia 2.",
+        "Sai vì 3 > 2 nên diện tích phải tăng chứ không thể giảm.",
+        "Sai vì 3 lần và 2 lần không triệt tiêu nhau."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c4_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Tính sản lượng thu hoạch trên ruộng hình thang",
+      "question": "Một thửa ruộng hình thang có hai đáy dài 80 m và 60 m, chiều cao 40 m. Trung bình cứ 100 m^2 ruộng thu hoạch được 70 kg thóc. Hỏi trên cả thửa ruộng đó thu hoạch được bao nhiêu tấn thóc?",
+      "options": [
+        "19,6 tấn",
+        "1960 tấn",
+        "3,92 tấn",
+        "1,96 tấn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Sản lượng thóc = (Diện tích thửa ruộng : 100) × 70 (kg), sau đó đổi từ kg sang tấn (1 tấn = 1000 kg).",
+        "steps": [
+          "Bước 1: Diện tích thửa ruộng hình thang: S = (80 + 60) × 40 : 2 = 140 × 20 = 2800 m^2.",
+          "Bước 2: Số kg thóc thu hoạch được: (2800 : 100) × 70 = 28 × 70 = 1960 kg.",
+          "Bước 3: Đổi đơn vị sang tấn: 1960 kg = 1,96 tấn."
+        ],
+        "trap": "Quên đổi từ kg sang tấn (chọn 1960) hoặc quên chia đôi trong công thức hình thang.",
+        "socraticPrompt": "Diện tích thửa ruộng là bao nhiêu m^2? Thu hoạch được 1960 kg thóc. Đổi 1960 kg ra tấn bằng cách chia cho 1000 thì được bao nhiêu?"
+      },
+      "socraticPrompt": "Diện tích thửa ruộng là bao nhiêu m^2? Thu hoạch được 1960 kg thóc. Đổi 1960 kg ra tấn bằng cách chia cho 1000 thì được bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì đổi sai đơn vị (chia 100 thay vì chia 1000).",
+        "Sai vì 1960 là đơn vị kilôgam (kg), chưa đổi sang tấn theo yêu cầu đề bài.",
+        "Sai vì quên chia đôi diện tích hình thang (tính thành 5600 m^2).",
+        "Đúng vì S = 2800 m^2; sản lượng thóc là 28 × 70 = 1960 kg = 1,96 tấn."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

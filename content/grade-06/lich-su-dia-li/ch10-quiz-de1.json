@@ -23,12 +23,15 @@
         "steps": "$100\\% - 97,5\\% = 2,5\\%$ nước ngọt.",
         "trap": "Nhầm tưởng nước ngọt dồi dào chiếm tỉ lệ lớn (nhầm với tỉ lệ 71% diện tích bề mặt Trái Đất là nước)."
       },
-      "distractorReasons": {
-        "A": "Sai, 97,5% là tỉ lệ của nước mặn đại dương.",
-        "B": "Đáp án chính xác theo biểu đồ tài nguyên nước SGK trang 156.",
-        "C": "Sai, nước ngọt không chiếm tới một nửa.",
-        "D": "Sai tỉ lệ số liệu."
-      }
+      "distractorReasons": [
+        "Sai vì 97,5% là tỉ lệ của nước mặn đại dương.",
+        "Đúng vì biểu đồ tài nguyên nước SGK trang 156.",
+        "Sai vì nước ngọt không chiếm tới một nửa.",
+        "Sai tỉ lệ số liệu."
+      ],
+      "socraticPrompt": "Nước mặn biển đại dương chiếm 97,5% thì nước ngọt còn lại mấy %?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch10_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Gió là nguyên nhân chính sinh ra sóng biển thông thường.",
         "trap": "Nhầm sức hút của Mặt Trăng (Mặt Trăng sinh ra thủy triều, không phải sóng biển do gió)."
       },
-      "distractorReasons": {
-        "A": "Sai, sức hút Mặt Trăng sinh ra hiện tượng thủy triều.",
-        "B": "Sai, nhiệt độ không trực tiếp tạo ra chuyển động sóng cơ học.",
-        "C": "Sai, sinh vật biển không thể tạo sóng trên quy mô đại dương.",
-        "D": "Đáp án đúng theo SGK trang 163."
-      }
+      "distractorReasons": [
+        "Sai vì sức hút Mặt Trăng sinh ra hiện tượng thủy triều.",
+        "Sai vì nhiệt độ không trực tiếp tạo ra chuyển động sóng cơ học.",
+        "Sai vì sinh vật biển không thể tạo sóng trên quy mô đại dương.",
+        "Đúng vì SGK trang 163."
+      ],
+      "socraticPrompt": "Khi không có gió thì mặt biển phẳng lặng, khi có gió lớn thì mặt nước biển nổi lên cái gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch10_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Sức hút Mặt Trăng (chính) và Mặt Trời (phụ) sinh ra thủy triều.",
         "trap": "Nhầm sang gió bão (gió bão sinh ra sóng hoặc nước dâng do bão)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 164.",
-        "B": "Sai, gió chỉ sinh ra sóng biển.",
-        "C": "Sai, núi lửa đáy biển sinh ra đá mắc-ma hoặc sóng thần cục bộ.",
-        "D": "Sai, nước sông đổ ra biển duy trì độ muối chứ không tạo chu kì thủy triều."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 164.",
+        "Sai vì gió chỉ sinh ra sóng biển.",
+        "Sai vì núi lửa đáy biển sinh ra đá mắc-ma hoặc sóng thần cục bộ.",
+        "Sai vì nước sông đổ ra biển duy trì độ muối chứ không tạo chu kì thủy triều."
+      ],
+      "socraticPrompt": "Thủy triều thay đổi theo ngày tuần trăng là do sức hút của thiên thể nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch10_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Độ muối trung bình toàn cầu = 35‰.",
         "trap": "Nhầm đơn vị phần trăm (%) với phần nghìn (‰)."
       },
-      "distractorReasons": {
-        "A": "Sai, 5‰ là nước lợ nhạt.",
-        "B": "Sai, 100‰ là độ muối ở các hồ muối cực mặn.",
-        "C": "Đáp án chính xác theo SGK trang 163.",
-        "D": "Sai, mức muối quá cao không có trong đại dương tự nhiên."
-      }
+      "distractorReasons": [
+        "Sai vì 5‰ là nước lợ nhạt.",
+        "Sai vì 100‰ là độ muối ở các hồ muối cực mặn.",
+        "Đúng vì SGK trang 163.",
+        "Sai vì mức muối quá cao không có trong đại dương tự nhiên."
+      ],
+      "socraticPrompt": "1 lít nước biển nấu cạn cho khoảng 35 gam muối thì độ muối là bao nhiêu phần nghìn?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch10_d1_05",
@@ -127,12 +139,15 @@
         "steps": "Độ phì = khả năng cung cấp dinh dưỡng cho cây.",
         "trap": "Nhầm độ phì với độ ẩm đơn thuần."
       },
-      "distractorReasons": {
-        "A": "Sai, độ ẩm chỉ đo lượng nước chứa trong đất.",
-        "B": "Đáp án đúng theo định nghĩa thổ nhưỡng SGK trang 168.",
-        "C": "Sai, độ dốc là yếu tố địa hình nghiêng.",
-        "D": "Sai, độ cứng là tính chất cơ học."
-      }
+      "distractorReasons": [
+        "Sai vì độ ẩm chỉ đo lượng nước chứa trong đất.",
+        "Đúng vì ịnh nghĩa thổ nhưỡng SGK trang 168.",
+        "Sai vì độ dốc là yếu tố địa hình nghiêng.",
+        "Sai vì độ cứng là tính chất cơ học."
+      ],
+      "socraticPrompt": "Mảnh đất màu mỡ trồng cây tốt tươi trong nông nghiệp gọi là đất có cái gì cao?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch10_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Phụ lưu = cấp nước; Chi lưu = thoát nước.",
         "trap": "Nhầm lẫn giữa phụ lưu (nhận nước vào) và chi lưu (chia nước tỏa ra biển)."
       },
-      "distractorReasons": {
-        "A": "Sai, chi lưu làm nhiệm vụ chia nước, thoát nước ra biển.",
-        "B": "Sai, thác nước là đoạn sông dốc nước đổ đứng.",
-        "C": "Sai, cửa sông là nơi sông đổ ra biển.",
-        "D": "Đáp án đúng theo cấu trúc hệ thống sông SGK trang 158."
-      }
+      "distractorReasons": [
+        "Sai vì chi lưu làm nhiệm vụ chia nước, thoát nước ra biển.",
+        "Sai vì thác nước là đoạn sông dốc nước đổ đứng.",
+        "Sai vì cửa sông là nơi sông đổ ra biển.",
+        "Đúng vì cấu trúc hệ thống sông SGK trang 158."
+      ],
+      "socraticPrompt": "Dòng sông nhánh gom nước cung cấp (phụ giúp) cho dòng chính gọi là gì?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

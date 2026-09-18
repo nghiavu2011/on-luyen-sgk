@@ -23,12 +23,15 @@
         "steps": "Đặc trưng nổi bật: giao lưu văn hóa hòa bình, tự nguyện tiếp thu có chọn lọc.",
         "trap": "Nhầm lẫn với con đường xâm lược đồng hóa bằng quân sự như phong kiến phương Bắc đối với Việt Nam."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo đánh giá lịch sử SGK trang 56.",
-        "B": "Sai, các triều đại Ấn Độ cổ không tiến hành chiến tranh xâm lược Đông Nam Á.",
-        "C": "Sai, La Mã không cai trị khu vực Đông Nam Á.",
-        "D": "Sai, giao lưu văn hóa là hoạt động thương mại tôn giáo tự nguyện."
-      }
+      "distractorReasons": [
+        "Đúng vì iá lịch sử SGK trang 56.",
+        "Sai vì các triều đại Ấn Độ cổ không tiến hành chiến tranh xâm lược Đông Nam Á.",
+        "Sai vì La Mã không cai trị khu vực Đông Nam Á.",
+        "Sai vì giao lưu văn hóa là hoạt động thương mại tôn giáo tự nguyện."
+      ],
+      "socraticPrompt": "Người Ấn Độ đến Đông Nam Á để bán hàng và dạy đạo hay để đem quân đánh chiếm?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch04_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Vị trí địa bàn thuận lợi của Phù Nam trên hải trình Ấn Độ Dương - Thái Bình Dương.",
         "trap": "Hiểu sai lầm thành Phù Nam đem quân đi xâm lược các nước xa xôi."
       },
-      "distractorReasons": {
-        "A": "Sai, Phù Nam là tiểu quốc Đông Nam Á, không thể xâm lược La Mã cách vạn dặm.",
-        "B": "Sai, đồ thủ công mỹ nghệ và kim hoàn bản địa Óc Eo rất tinh xảo.",
-        "C": "Đáp án đúng theo chứng cứ khảo cổ học SGK trang 53.",
-        "D": "Sai, đây là sản phẩm giao lưu mậu dịch hàng hải hợp pháp thường xuyên."
-      }
+      "distractorReasons": [
+        "Sai vì Phù Nam là tiểu quốc Đông Nam Á, không thể xâm lược La Mã cách vạn dặm.",
+        "Sai vì đồ thủ công mỹ nghệ và kim hoàn bản địa Óc Eo rất tinh xảo.",
+        "Đúng vì chứng cứ khảo cổ học SGK trang 53.",
+        "Sai vì đây là sản phẩm giao lưu mậu dịch hàng hải hợp pháp thường xuyên."
+      ],
+      "socraticPrompt": "Hàng hóa từ khắp các đế quốc lớn quy tụ về Óc Eo cho thấy điều gì về hoạt động thương mại?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch04_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Bản địa hóa các yếu tố văn hóa Ấn Độ và Trung Hoa thành nét đặc sắc Đông Nam Á.",
         "trap": "Nghĩ rằng các nước Đông Nam Á bị 'Ấn Độ hóa' hay 'Hán hóa' hoàn toàn mất gốc."
       },
-      "distractorReasons": {
-        "A": "Sai, cư dân luôn lồng ghép yếu tố dân gian bản địa.",
-        "B": "Đáp án đúng theo bài học SGK trang 58.",
-        "C": "Sai, phong tục truyền thống dân tộc vẫn được bảo tồn mãnh liệt.",
-        "D": "Sai, Đông Nam Á rất cởi mở giao lưu với thế giới bên ngoài."
-      }
+      "distractorReasons": [
+        "Sai vì cư dân luôn lồng ghép yếu tố dân gian bản địa.",
+        "Đúng vì bài học SGK trang 58.",
+        "Sai vì phong tục truyền thống dân tộc vẫn được bảo tồn mãnh liệt.",
+        "Sai vì Đông Nam Á rất cởi mở giao lưu với thế giới bên ngoài."
+      ],
+      "socraticPrompt": "Khi học cái mới của người khác, ta nên học có chọn lọc hay bắt chước mù quáng?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch04_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Chân Lạp -> thời kì Ăng-co phát triển rực rỡ -> đất nước Cam-pu-chia hiện đại.",
         "trap": "Nhầm với Lào (đất nước Triệu Voi - Lan Xang hình thành muộn hơn vào thế kỉ XIV)."
       },
-      "distractorReasons": {
-        "A": "Sai, đất nước Lào gắn với vương quốc Lan Xang thế kỉ XIV.",
-        "B": "Sai, Ma-lai-xi-a ở bán đảo Mã Lai.",
-        "C": "Sai, Phi-líp-pin là quần đảo riêng biệt ở Thái Bình Dương.",
-        "D": "Đáp án đúng theo SGK trang 54."
-      }
+      "distractorReasons": [
+        "Sai vì đất nước Lào gắn với vương quốc Lan Xang thế kỉ XIV.",
+        "Sai vì Ma-lai-xi-a ở bán đảo Mã Lai.",
+        "Sai vì Phi-líp-pin là quần đảo riêng biệt ở Thái Bình Dương.",
+        "Đúng vì SGK trang 54."
+      ],
+      "socraticPrompt": "Vương quốc gắn liền với người Khơ-me và Biển Hồ là nước nào?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch04_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Đỉnh cao của kĩ thuật nung gạch và nghệ thuật điêu khắc Chăm-pa cổ đại.",
         "trap": "Nghĩ rằng tháp được xây bằng bê tông sơn đỏ."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo di sản văn hóa Chăm-pa SGK trang 57.",
-        "B": "Sai, thời cổ đại chưa hề có bê tông cốt thép.",
-        "C": "Sai, tháp Chăm là kiến trúc gạch đá kiên cố, không phải nhà gỗ.",
-        "D": "Sai, miền Trung nhiệt đới không có băng đá."
-      }
+      "distractorReasons": [
+        "Đúng vì di sản văn hóa Chăm-pa SGK trang 57.",
+        "Sai vì thời cổ đại chưa hề có bê tông cốt thép.",
+        "Sai vì tháp Chăm là kiến trúc gạch đá kiên cố, không phải nhà gỗ.",
+        "Sai vì miền Trung nhiệt đới không có băng đá."
+      ],
+      "socraticPrompt": "Tháp Chăm có màu đỏ gạch hay màu gỗ? Các viên gạch có thấy hồ vữa xi măng không?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch04_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Khẳng định vị thế và bản lĩnh tự chủ của các quốc gia Đông Nam Á.",
         "trap": "Coi thường lịch sử Đông Nam Á là vùng phụ thuộc hay lạc hậu."
       },
-      "distractorReasons": {
-        "A": "Sai, phương Tây thời đó chưa hề thống trị được Đông Nam Á.",
-        "B": "Sai, thương cảng Óc Eo và Sri Vi-giay-a cực kì tấp nập thuyền buôn quốc tế.",
-        "C": "Đáp án đúng khẳng định giá trị lịch sử toàn khu vực SGK.",
-        "D": "Sai, cư dân có nền nông nghiệp lúa nước rực rỡ và sáng tạo chữ viết riêng."
-      }
+      "distractorReasons": [
+        "Sai vì phương Tây thời đó chưa hề thống trị được Đông Nam Á.",
+        "Sai vì thương cảng Óc Eo và Sri Vi-giay-a cực kì tấp nập thuyền buôn quốc tế.",
+        "Đúng vì khẳng định giá trị lịch sử toàn khu vực SGK.",
+        "Sai vì cư dân có nền nông nghiệp lúa nước rực rỡ và sáng tạo chữ viết riêng."
+      ],
+      "socraticPrompt": "Văn minh Đông Nam Á có phong phú, năng động và độc lập không?",
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

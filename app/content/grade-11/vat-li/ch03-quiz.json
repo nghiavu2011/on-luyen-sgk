@@ -22,7 +22,16 @@
         "socraticPrompt": "Khi một vật chuyển động thẳng đều theo phương ngang và chuyển động nhanh dần đều theo phương thẳng đứng thì quỹ đạo là đường gì?",
         "steps": "Theo phương Ox: x = v0 · t. Theo phương Oy: y = 1/2 · a · t² = 1/2 · (eE / m) · t² = 1/2 · (eE / m) · (x / v0)². Đây là phương trình parabol y = a x².",
         "trap": "Nhầm sang đường tròn (đường tròn xảy ra khi hạt chuyển động trong từ trường đều)."
-      }
+      },
+      "socraticPrompt": "Khi một vật chuyển động thẳng đều theo phương ngang và chuyển động nhanh dần đều theo phương thẳng đứng thì quỹ đạo là đường gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đường tròn' (sang đường tròn (đường tròn xảy ra khi hạt chuyển động trong từ trường đều)).",
+        "Sai vì 'Đường cong hyperbol' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Đường thẳng xiên' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Theo phương Ox: x = v0 · t. Theo phương Oy: y = 1/2 · a · t² = 1/2 · (eE / m) · t² = 1/2 · (eE / m) · (x / v0)². Đây là phương trình parabol y = a x²."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c3_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "2 nhân 360 = 720. Chia cho 3000 bình phương (9 · 10⁶) bằng bao nhiêu Fara? Đổi sang µF?",
         "steps": "C = 2W / U² = (2 · 360) / 3000² = 720 / (9 · 10⁶) = 80 · 10⁻⁶ F = 80 µF.",
         "trap": "Quên nhân 2 ở công thức tính C dẫn đến tính ra 40 µF."
-      }
+      },
+      "socraticPrompt": "2 nhân 360 = 720. Chia cho 3000 bình phương (9 · 10⁶) bằng bao nhiêu Fara? Đổi sang µF?",
+      "distractorReasons": [
+        "Sai vì '40 µF' không phù hợp với định lý/quy tắc trọng tâm (Công thức năng lượng: W = 1/2 · C · U² => C = 2W / U².).",
+        "Đúng vì theo Công thức năng lượng: W = 1/2 · C · U² => C = 2W / U².: C = 2W / U² = (2 · 360) / 3000² = 720 / (9 · 10⁶) = 80 · 10⁻⁶ F = 80 µF.",
+        "Sai vì '120 µF' không phù hợp với định lý/quy tắc trọng tâm (Công thức năng lượng: W = 1/2 · C · U² => C = 2W / U².).",
+        "Sai vì '24 µF' không phù hợp với định lý/quy tắc trọng tâm (Công thức năng lượng: W = 1/2 · C · U² => C = 2W / U².)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c3_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "ε nằm ở mẫu số của công thức Coulomb F = k|q1q2|/(ε r²), điều đó thể hiện điều gì?",
         "steps": "Hằng số điện môi ε ≥ 1 đặc trưng cho tính cách điện của môi trường, làm giảm lực tương tác tĩnh điện đi ε lần so với chân không.",
         "trap": "Nhầm là làm tăng lực tương tác lên ε lần."
-      }
+      },
+      "socraticPrompt": "ε nằm ở mẫu số của công thức Coulomb F = k|q1q2|/(ε r²), điều đó thể hiện điều gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Lực tương tác tĩnh điện trong môi trường đó lớn hơn trong chân không bao nhiêu lần' (là làm tăng lực tương tác lên ε lần).",
+        "Sai vì 'Điện tích tối đa mà môi trường có thể chứa được' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hằng số điện môi ε ≥ 1 đặc trưng cho tính cách điện của môi trường, làm giảm lực tương tác tĩnh điện đi ε lần so với chân không.",
+        "Sai vì 'Vận tốc ánh sáng trong môi trường đó' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c3_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Lực điện sinh công làm tăng động năng của electron. Lấy điện tích e nhân U = 100 V?",
         "steps": "Theo định lí động năng: Wđ - 0 = A_điện = q · U = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J (tương đương 100 eV).",
         "trap": "Lấy 100 J (quên nhân độ lớn điện tích electron e)."
-      }
+      },
+      "socraticPrompt": "Lực điện sinh công làm tăng động năng của electron. Lấy điện tích e nhân U = 100 V?",
+      "distractorReasons": [
+        "Đúng vì: Theo định lí động năng: Wđ - 0 = A_điện = q · U = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J (tương đương 100 eV).",
+        "Sai vì '1,6 · 10⁻¹⁹ J' không phù hợp với định lý/quy tắc trọng tâm (Định lí động năng: Wđ = A = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J = 100 eV.).",
+        "Sai vì '3,2 · 10⁻¹⁷ J' không phù hợp với định lý/quy tắc trọng tâm (Định lí động năng: Wđ = A = e · U = 1,6 · 10⁻¹⁹ · 100 = 1,6 · 10⁻¹⁷ J = 100 eV.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '100 J' (Lấy 100 J (quên nhân độ lớn điện tích electron e).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c3_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "d giảm 2 lần thì C = εS / (4πkd) tăng hay giảm? U giữ nguyên thì Q = CU thay đổi theo C thế nào?",
         "steps": "Khi d giảm 2 lần thì C tăng 2 lần. Vì nối với nguồn nên U = const, suy ra Q = C · U tăng 2 lần.",
         "trap": "Nhầm trường hợp ngắt tụ khỏi nguồn (khi ngắt khỏi nguồn thì Q mới không đổi)."
-      }
+      },
+      "socraticPrompt": "d giảm 2 lần thì C = εS / (4πkd) tăng hay giảm? U giữ nguyên thì Q = CU thay đổi theo C thế nào?",
+      "distractorReasons": [
+        "Sai vì 'C giảm 2 lần, Q giảm 2 lần' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Khi d giảm 2 lần thì C tăng 2 lần. Vì nối với nguồn nên U = const, suy ra Q = C · U tăng 2 lần.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C tăng 2 lần, Q không đổi' (trường hợp ngắt tụ khỏi nguồn (khi ngắt khỏi nguồn thì Q mới không đổi)).",
+        "Sai vì phủ định sai bản chất: 'C không đổi, Q tăng 2 lần' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c3_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Giống như vật rơi tự do theo chiều trọng lực, thế năng trọng trường giảm thì điện tích dương trôi theo chiều điện trường thế năng ra sao?",
         "steps": "Lực điện tác dụng lên điện tích dương cùng chiều đường sức E. Khi di chuyển cùng chiều đường sức, lực điện sinh công dương, làm thế năng tĩnh điện của điện tích giảm đi.",
         "trap": "Đoán thế năng tăng lên do nhầm với điện tích âm."
-      }
+      },
+      "socraticPrompt": "Giống như vật rơi tự do theo chiều trọng lực, thế năng trọng trường giảm thì điện tích dương trôi theo chiều điện trường thế năng ra sao?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không đổi' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tăng lên' (Đoán thế năng tăng lên do nhầm với điện tích âm.).",
+        "Sai vì 'Bằng 0' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Lực điện tác dụng lên điện tích dương cùng chiều đường sức E. Khi di chuyển cùng chiều đường sức, lực điện sinh công dương, làm thế năng tĩnh điện của điện tích."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

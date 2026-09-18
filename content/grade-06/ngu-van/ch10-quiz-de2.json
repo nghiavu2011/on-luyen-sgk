@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được quy chuẩn trích dẫn trực tiếp trong văn bản.?",
+      "distractorReasons": [
+        "Đúng vì theo Quy chuẩn trích dẫn trực tiếp trong văn bản.: Trích dẫn nguyên văn bắt buộc đặt trong ngoặc kép để phân biệt với lời của người viết.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đặt trong dấu ngoặc đơn ()' (Ngoặc đơn dùng cho phần chú thích bổ sung.).",
+        "Sai vì 'Đặt trong dấu ngoặc nhọn {}' không phù hợp với định lý/quy tắc trọng tâm (Quy chuẩn trích dẫn trực tiếp trong văn bản.).",
+        "Sai vì phủ định sai bản chất: 'Không cần đặt trong dấu gì' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm hành vi đạo văn (plagiarism).?",
+      "distractorReasons": [
+        "Sai vì 'Mượn sách của thư viện đọc rồi trả đúng hẹn' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm hành vi đạo văn (Plagiarism).).",
+        "Đúng vì theo Khái niệm hành vi đạo văn (Plagiarism).: Chiếm đoạt chất xám của người khác làm của mình là hành vi gian lận học thuật.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trích dẫn một câu thơ và ghi rõ tên tác giả' (Trích dẫn có ghi nguồn là hành vi hoàn toàn hợp pháp và văn minh.).",
+        "Sai vì 'Giới thiệu cuốn sách yêu thích cho bạn bè' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm hành vi đạo văn (Plagiarism).)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục bài viết book review trong sgk ngữ văn 6.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1 phần tóm tắt duy nhất' (Thiếu phần đánh giá và bài học thì bài viết chỉ là bản tóm tắt thô sơ.).",
+        "Sai vì '2 phần: Bảng giá sách và ảnh bìa' không phù hợp với định lý/quy tắc trọng tâm (Bố cục bài viết Book Review trong SGK Ngữ văn 6.).",
+        "Đúng vì theo Bố cục bài viết Book Review trong SGK Ngữ văn 6.: Bố cục 3 phần kết hợp giữa thông tin xuất bản, tóm tắt cốt truyện và đánh giá chủ quan thuyết phục.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gồm các câu thơ cảm thán', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt trích dẫn trực tiếp và gián tiếp.?",
+      "distractorReasons": [
+        "Sai vì 'Hai hình thức này hoàn toàn giống nhau' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt trích dẫn trực tiếp và gián tiếp.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trích dẫn gián tiếp không cần ghi tên tác giả' (Trích dẫn gián tiếp vẫn phải ghi nguồn, nếu không sẽ mắc lỗi đạo ý tưởng.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Trích dẫn trực tiếp chỉ dùng cho thơ', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Phân biệt trích dẫn trực tiếp và gián tiếp.: Cả hai hình thức đều bắt buộc ghi rõ nguồn để tôn trọng quyền tác giả."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng nói và nghe, thuyết trình trước đám đông.?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ năng nói và nghe, thuyết trình trước đám đông.: Ngôn ngữ cơ thể và giao tiếp mắt chiếm hơn 50% hiệu quả thuyết phục của bài nói.",
+        "Sai vì 'Đứng quay lưng lại lớp và nhìn chằm chằm vào màn hình máy tính' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng nói và nghe, thuyết trình trước đám đông.).",
+        "Sai vì 'Nói thật nhanh và thật nhỏ để kết thúc sớm' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng nói và nghe, thuyết trình trước đám đông.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đọc nguyên xi từ một mẩu giấy viết sẵn không ngẩng đầu lên' (Đọc vẹt từ giấy làm bài thuyết trình trở nên buồn ngủ, tẻ nhạt.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nhận thức đạo đức về sở hữu trí tuệ và nền kinh tế tri thức.?",
+      "distractorReasons": [
+        "Sai vì 'Vì sách thật có bìa cứng hơn sách lậu' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nhận thức đạo đức về sở hữu trí tuệ và nền kinh tế tri thức.).",
+        "Đúng vì: Bảo vệ bản quyền nuôi dưỡng động lực sáng tạo của giới trí thức, ngăn chặn nạn sách lậu phá hoại nền xuất bản.",
+        "Sai vì 'Vì đọc sách thật sẽ giúp học sinh thông minh hơn sách photo' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nhận thức đạo đức về sở hữu trí tuệ và nền kinh tế tri thức.).",
+        "Sai vì 'Để khoe khoang mình có tiền mua sách đắt' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nhận thức đạo đức về sở hữu trí tuệ và nền kinh tế tri thức.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

@@ -21,7 +21,16 @@
         "socraticPrompt": "Giới nào chỉ chứa vi khuẩn đơn bào nhân sơ?",
         "steps": "Giới Khởi sinh gồm sinh vật nhân sơ; 4 giới còn lại là nhân thực.",
         "trap": "Giới Nguyên sinh là nhân thực (trùng roi, trùng giày)."
-      }
+      },
+      "socraticPrompt": "Giới nào chỉ chứa vi khuẩn đơn bào nhân sơ?",
+      "distractorReasons": [
+        "Sai vì 'Giới Nấm' không phù hợp với định lý/quy tắc trọng tâm (Giới Khởi sinh (Monera) gồm các loài vi khuẩn mang tế bào nhân sơ chưa có màng nhân.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giới Nguyên sinh' (Giới Nguyên sinh là nhân thực (trùng roi, trùng giày).).",
+        "Đúng vì: Giới Khởi sinh gồm sinh vật nhân sơ; 4 giới còn lại là nhân thực.",
+        "Sai vì 'Giới Thực vật' không phù hợp với định lý/quy tắc trọng tâm (Giới Khởi sinh (Monera) gồm các loài vi khuẩn mang tế bào nhân sơ chưa có màng nhân.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c8_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Virus có màng tế bào và tế bào chất không hay chỉ là cấu trúc chưa có tế bào?",
         "steps": "Virus chưa có cấu tạo tế bào, kí sinh nội bào bắt buộc.",
         "trap": "Nhầm virus với vi khuẩn (vi khuẩn có cấu tạo tế bào nhân sơ)."
-      }
+      },
+      "socraticPrompt": "Virus có màng tế bào và tế bào chất không hay chỉ là cấu trúc chưa có tế bào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Có màng tế bào, tế bào chất và nhân hoàn chỉnh' (virus với vi khuẩn (vi khuẩn có cấu tạo tế bào nhân sơ)).",
+        "Sai vì 'Có khả năng tự quang hợp như cây xanh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Là sinh vật đa bào kích thước khổng lồ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Virus chưa có cấu tạo tế bào, kí sinh nội bào bắt buộc."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c8_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Cây có hoa và hạt nằm trong quả bảo vệ gọi là ngành hạt gì?",
         "steps": "Hạt kín là ngành thực vật có hoa tiến hoá cao nhất.",
         "trap": "Hạt trần (cây thông) hạt nằm lộ trên nón, chưa có hoa và quả thật sự."
-      }
+      },
+      "socraticPrompt": "Cây có hoa và hạt nằm trong quả bảo vệ gọi là ngành hạt gì?",
+      "distractorReasons": [
+        "Đúng vì: Hạt kín là ngành thực vật có hoa tiến hoá cao nhất.",
+        "Sai vì 'Ngành Dương xỉ' không phù hợp với định lý/quy tắc trọng tâm (Ngành Hạt kín (thực vật có hoa) là ngành đa dạng và tiến hoá nhất hành tinh hiện nay.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ngành Hạt trần' (Hạt trần (cây thông) hạt nằm lộ trên nón, chưa có hoa và quả thật sự.).",
+        "Sai vì 'Ngành Rêu' không phù hợp với định lý/quy tắc trọng tâm (Ngành Hạt kín (thực vật có hoa) là ngành đa dạng và tiến hoá nhất hành tinh hiện nay.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c8_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Con non mới đẻ của chó, mèo, người bú chất dinh dưỡng gì từ mẹ?",
         "steps": "Đẻ con và nuôi con bằng sữa mẹ là đặc trưng của lớp Thú.",
         "trap": "Chim đẻ trứng; cá thở bằng mang."
-      }
+      },
+      "socraticPrompt": "Con non mới đẻ của chó, mèo, người bú chất dinh dưỡng gì từ mẹ?",
+      "distractorReasons": [
+        "Sai vì 'Biết bay lượn trên bầu trời' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Đẻ con và nuôi con bằng sữa mẹ là đặc trưng của lớp Thú.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sống hoàn toàn dưới nước và thở bằng mang' (Chim đẻ trứng; cá thở bằng mang.).",
+        "Sai vì 'Đẻ trứng có vỏ đá vôi' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c8_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Bánh mì nở phồng xốp thơm ngon là nhờ hoạt động của loại vi nấm nào?",
         "steps": "Nấm men dùng lên men bánh mì, bia rượu.",
         "trap": "Nấm mốc sinh độc tố Aflatoxin có hại, nấm men mới làm bánh mì."
-      }
+      },
+      "socraticPrompt": "Bánh mì nở phồng xốp thơm ngon là nhờ hoạt động của loại vi nấm nào?",
+      "distractorReasons": [
+        "Sai vì 'Làm gạch xây dựng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Sản xuất phân bón hoá học' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nấm men dùng lên men bánh mì, bia rượu.",
+        "Sai vì 'Chế tạo lõi dây điện' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c8_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Bệnh nào do trực khuẩn gây ra và chữa khỏi bằng phác đồ kháng sinh dài ngày?",
         "steps": "Bệnh lao do vi khuẩn gây nên và chữa được bằng kháng sinh.",
         "trap": "Sốt xuất huyết do virus Dengue truyền qua muỗi vằn, không chữa bằng kháng sinh."
-      }
+      },
+      "socraticPrompt": "Bệnh nào do trực khuẩn gây ra và chữa khỏi bằng phác đồ kháng sinh dài ngày?",
+      "distractorReasons": [
+        "Sai vì 'Bệnh dại do chó cắn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Bệnh cảm cúm mùa' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bệnh sốt xuất huyết Dengue' (Sốt xuất huyết do virus Dengue truyền qua muỗi vằn, không chữa bằng kháng sinh.).",
+        "Đúng vì: Bệnh lao do vi khuẩn gây nên và chữa được bằng kháng sinh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

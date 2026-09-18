@@ -21,7 +21,16 @@
         "socraticPrompt": "Khí nào chiếm gần 4/5 (khoảng 78%) bầu khí quyển của chúng ta?",
         "steps": "Nitrogen chiếm 78%, Oxygen chiếm 21%, còn lại 1% là các khí khác.",
         "trap": "Học sinh thường chọn nhầm oxygen vì oxygen cần thiết nhất cho con người hít thở."
-      }
+      },
+      "socraticPrompt": "Khí nào chiếm gần 4/5 (khoảng 78%) bầu khí quyển của chúng ta?",
+      "distractorReasons": [
+        "Đúng vì: Nitrogen chiếm 78%, Oxygen chiếm 21%, còn lại 1% là các khí khác.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí Oxygen' (Học sinh thường chọn nhầm oxygen vì oxygen cần thiết nhất cho con người hít thở.).",
+        "Sai vì 'Khí Carbon dioxide' không phù hợp với định lý/quy tắc trọng tâm (Khí nitrogen (N2) chiếm tỉ lệ lớn nhất trong không khí, khoảng 78% thể tích.).",
+        "Sai vì 'Khí Argon' không phù hợp với định lý/quy tắc trọng tâm (Khí nitrogen (N2) chiếm tỉ lệ lớn nhất trong không khí, khoảng 78% thể tích.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c3_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Không khí chứa 21% oxygen ta có nhìn thấy màu hay ngửi thấy mùi của nó không?",
         "steps": "Oxygen là khí không màu, không mùi, ít tan trong nước.",
         "trap": "Khí màu vàng lục mùi hắc là clo (Cl2), không phải oxygen."
-      }
+      },
+      "socraticPrompt": "Không khí chứa 21% oxygen ta có nhìn thấy màu hay ngửi thấy mùi của nó không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chất khí màu vàng lục, mùi hắc nồng' (Khí màu vàng lục mùi hắc là clo (Cl2), không phải oxygen.).",
+        "Đúng vì: Oxygen là khí không màu, không mùi, ít tan trong nước.",
+        "Sai vì phủ định sai bản chất: 'Chất lỏng màu xanh, nhẹ hơn không khí' trái ngược với kiến thức SGK.",
+        "Sai vì 'Chất khí có mùi thơm hoa quả và tan vô hạn trong nước' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c3_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Thợ lặn xuống sâu dưới nước cần thở khí gì chứa trong bình nén?",
         "steps": "Khí oxygen trong bình nén giúp cung cấp khí thở duy trì sự sống.",
         "trap": "Oxygen duy trì sự cháy chứ bản thân nó không phải là chất đốt/nhiên liệu."
-      }
+      },
+      "socraticPrompt": "Thợ lặn xuống sâu dưới nước cần thở khí gì chứa trong bình nén?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng làm chất diệt cỏ trên đồng ruộng' (Oxygen duy trì sự cháy chứ bản thân nó không phải là chất đốt/nhiên liệu.).",
+        "Sai vì 'Dùng làm nhiên liệu đốt chạy xe máy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Khí oxygen trong bình nén giúp cung cấp khí thở duy trì sự sống.",
+        "Sai vì 'Bơm vào bóng bay để bóng bay lơ lửng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c3_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Tỉ lệ thể tích oxygen trong không khí là bao nhiêu phần trăm?",
         "steps": "Oxygen chiếm khoảng 21% thể tích không khí.",
         "trap": "78% là nitrogen, 1% là các khí khác."
-      }
+      },
+      "socraticPrompt": "Tỉ lệ thể tích oxygen trong không khí là bao nhiêu phần trăm?",
+      "distractorReasons": [
+        "Sai vì '1%' không phù hợp với định lý/quy tắc trọng tâm (Khí oxygen chiếm khoảng 21% thể tích không khí (xấp xỉ 1/5 thể tích bầu khí quyển).).",
+        "Sai vì '50%' không phù hợp với định lý/quy tắc trọng tâm (Khí oxygen chiếm khoảng 21% thể tích không khí (xấp xỉ 1/5 thể tích bầu khí quyển).).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '78%' (78% là nitrogen, 1% là các khí khác.).",
+        "Đúng vì: Oxygen chiếm khoảng 21% thể tích không khí."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c3_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Hành động xanh nào giúp làm sạch không khí và giảm khí thải nhà kính?",
         "steps": "Trồng cây xanh và đi xe bus/xe điện giúp giảm thiểu ô nhiễm không khí.",
         "trap": "Đốt rác làm phát sinh khí độc dioxin cực kì nguy hại."
-      }
+      },
+      "socraticPrompt": "Hành động xanh nào giúp làm sạch không khí và giảm khí thải nhà kính?",
+      "distractorReasons": [
+        "Đúng vì: Trồng cây xanh và đi xe bus/xe điện giúp giảm thiểu ô nhiễm không khí.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đốt rác thải nhựa ngoài trời' (Đốt rác làm phát sinh khí độc dioxin cực kì nguy hại.).",
+        "Sai vì 'Chặt phá rừng phòng hộ làm nương rẫy' không phù hợp với định lý/quy tắc trọng tâm (Cây xanh quang hợp hấp thụ CO2 và nhả O2, đồng thời giữ bụi bẩn giúp thanh lọc không khí.).",
+        "Sai vì 'Xả khí thải công nghiệp chưa qua xử lí ra khí quyển' không phù hợp với định lý/quy tắc trọng tâm (Cây xanh quang hợp hấp thụ CO2 và nhả O2, đồng thời giữ bụi bẩn giúp thanh lọc không khí.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c3_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khí nào có khả năng làm tàn đóm đỏ bùng cháy sáng trở lại?",
         "steps": "Que đóm tàn đỏ tiếp xúc với khí oxygen sẽ bùng cháy ngay lập tức.",
         "trap": "Khí nitrogen hay carbon dioxide sẽ làm que đóm tắt phụt."
-      }
+      },
+      "socraticPrompt": "Khí nào có khả năng làm tàn đóm đỏ bùng cháy sáng trở lại?",
+      "distractorReasons": [
+        "Sai vì 'Nhỏ dung dịch nước chanh vào ống nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Khí oxygen duy trì sự cháy mạnh mẽ nên làm que đóm tàn đỏ bùng cháy thành ngọn lửa.).",
+        "Đúng vì: Que đóm tàn đỏ tiếp xúc với khí oxygen sẽ bùng cháy ngay lập tức.",
+        "Sai vì 'Đưa mẩu quỳ tím khô vào ống nghiệm' không phù hợp với định lý/quy tắc trọng tâm (Khí oxygen duy trì sự cháy mạnh mẽ nên làm que đóm tàn đỏ bùng cháy thành ngọn lửa.).",
+        "Sai vì 'Dùng nam châm hút' không phù hợp với định lý/quy tắc trọng tâm (Khí oxygen duy trì sự cháy mạnh mẽ nên làm que đóm tàn đỏ bùng cháy thành ngọn lửa.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

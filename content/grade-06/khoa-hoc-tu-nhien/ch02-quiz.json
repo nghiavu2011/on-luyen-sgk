@@ -21,7 +21,16 @@
         "socraticPrompt": "Nước từ ao hồ biển bốc lên biến thành mây thế nào rồi quay lại mặt đất ra sao?",
         "steps": "Bay hơi dưới nhiệt mặt trời -> ngưng tụ thành hạt nhỏ tạo mây -> hạt nước lớn rơi thành mưa -> tuần hoàn.",
         "trap": "Nước không hề bị mất đi vĩnh viễn mà bảo toàn theo chu trình khép kín."
-      }
+      },
+      "socraticPrompt": "Nước từ ao hồ biển bốc lên biến thành mây thế nào rồi quay lại mặt đất ra sao?",
+      "distractorReasons": [
+        "Sai vì 'Nước mưa rơi -> đông đặc thành băng tuyết -> thấm hết vào lòng đất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước mặt trời đốt cháy -> biến mất vĩnh viễn vào vũ trụ' (Nước không hề bị mất đi vĩnh viễn mà bảo toàn theo chu trình khép kín.).",
+        "Đúng vì: Bay hơi dưới nhiệt mặt trời -> ngưng tụ thành hạt nhỏ tạo mây -> hạt nước lớn rơi thành mưa -> tuần hoàn.",
+        "Sai vì 'Mây bay hơi tạo thành nước sông -> chảy ngược lên trời' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c2_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Đoạn đồ thị nhiệt độ nằm ngang ở 80 °C trong 4 phút tương ứng với trạng thái chất đang làm gì?",
         "steps": "80 °C là nhiệt độ nóng chảy của chất này, trong thời gian nóng chảy nhiệt độ giữ nguyên.",
         "trap": "Nghĩ rằng nhiệt độ không đổi là do nguồn nhiệt bị tắt hoặc nhiệt kế hỏng."
-      }
+      },
+      "socraticPrompt": "Đoạn đồ thị nhiệt độ nằm ngang ở 80 °C trong 4 phút tương ứng với trạng thái chất đang làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Chất này bị phân hủy ở 80 °C' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '80 °C là nhiệt độ sôi của chất lỏng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhiệt kế bị hỏng trong khoảng thời gian từ phút 4 đến phút 8' (Nghĩ rằng nhiệt độ không đổi là do nguồn nhiệt bị tắt hoặc nhiệt kế hỏng.).",
+        "Đúng vì: 80 °C là nhiệt độ nóng chảy của chất này, trong thời gian nóng chảy nhiệt độ giữ nguyên."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c2_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Để hoa quả khô giòn không bị teo tóp mất chất, nước đá đóng băng cần biến thẳng thành hơi như thế nào?",
         "steps": "Đông lạnh rồi hút chân không để đá thăng hoa trực tiếp thành hơi nước.",
         "trap": "Sấy nhiệt thông thường làm thực phẩm co ngót và mất vitamin."
-      }
+      },
+      "socraticPrompt": "Để hoa quả khô giòn không bị teo tóp mất chất, nước đá đóng băng cần biến thẳng thành hơi như thế nào?",
+      "distractorReasons": [
+        "Đúng vì: Đông lạnh rồi hút chân không để đá thăng hoa trực tiếp thành hơi nước.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đun sôi thực phẩm trong dầu ăn ở 200 °C' (Sấy nhiệt thông thường làm thực phẩm co ngót và mất vitamin.).",
+        "Sai vì 'Ngâm thực phẩm vào dung dịch muối đậm đặc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Phơi thực phẩm ngoài nắng gắt trong 30 ngày' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c2_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Nước sôi ở 88 °C cung cấp ít nhiệt hơn nước sôi 100 °C, do đó thức ăn chín nhanh hay chậm hơn?",
         "steps": "Áp suất trên núi thấp -> nhiệt độ sôi của nước < 100 °C -> nhiệt độ cung cấp cho thức ăn thấp hơn -> lâu chín.",
         "trap": "Nhầm tưởng nước mau sôi thì thức ăn sẽ chín nhanh hơn."
-      }
+      },
+      "socraticPrompt": "Nước sôi ở 88 °C cung cấp ít nhiệt hơn nước sôi 100 °C, do đó thức ăn chín nhanh hay chậm hơn?",
+      "distractorReasons": [
+        "Sai vì 'Trên núi cao thịt cứng hơn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Áp suất trên núi thấp -> nhiệt độ sôi của nước < 100 °C -> nhiệt độ cung cấp cho thức ăn thấp hơn -> lâu chín.",
+        "Sai vì 'Lửa trên núi cao bị thiếu oxygen nên lạnh hơn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước trên núi có nhiệt độ đông đặc cao hơn' (tưởng nước mau sôi thì thức ăn sẽ chín nhanh hơn)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c2_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Để các hạt cồn bứt ra thể hơi, chúng phải lấy nhiệt từ đâu?",
         "steps": "Cồn bay hơi thu nhiệt lượng từ da tay, tạo cảm giác mát lạnh tức thì.",
         "trap": "Nghĩ rằng bản thân cồn có nhiệt độ âm sẵn."
-      }
+      },
+      "socraticPrompt": "Để các hạt cồn bứt ra thể hơi, chúng phải lấy nhiệt từ đâu?",
+      "distractorReasons": [
+        "Sai vì 'Cồn ngấm vào da làm đông đặc các tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cồn phản ứng hoá học toả nhiệt âm với da' (Nghĩ rằng bản thân cồn có nhiệt độ âm sẵn.).",
+        "Đúng vì: Cồn bay hơi thu nhiệt lượng từ da tay, tạo cảm giác mát lạnh tức thì.",
+        "Sai vì phủ định sai bản chất: 'Không khí xung quanh bị cồn làm đóng băng' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c2_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Áp suất cao trong nồi kín làm nhiệt độ nước sôi tăng lên hay giảm đi?",
         "steps": "Áp suất cao -> nhiệt độ sôi của nước tăng lên khoảng 120 °C -> thức ăn nhận nhiệt lượng lớn mau nhừ.",
         "trap": "Nghĩ rằng nồi áp suất truyền nhiệt nhanh bằng chất xúc tác chứ không phải do áp suất đẩy nhiệt độ sôi."
-      }
+      },
+      "socraticPrompt": "Áp suất cao trong nồi kín làm nhiệt độ nước sôi tăng lên hay giảm đi?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nồi áp suất làm giảm nhiệt độ sôi của nước' (Nghĩ rằng nồi áp suất truyền nhiệt nhanh bằng chất xúc tác chứ không phải do áp suất đẩy nhiệt độ sôi.).",
+        "Sai vì 'Thành nồi làm bằng chất xúc tác hoá học đặc biệt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nồi áp suất phát ra tia hồng ngoại làm chín thức ăn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Áp suất cao -> nhiệt độ sôi của nước tăng lên khoảng 120 °C -> thức ăn nhận nhiệt lượng lớn mau nhừ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

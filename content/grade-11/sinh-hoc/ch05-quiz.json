@@ -32,7 +32,16 @@
           "2": "Hệ thống thủy canh nhà kín hạn chế tối đa sâu bệnh, không dùng thuốc trừ sâu độc hại.",
           "3": "Nhiệt độ 50 °C làm biến tính enzyme và phá hủy cấu trúc protein tế bào."
         }
-      }
+      },
+      "socraticPrompt": "Hệ thống thủy canh cần cung cấp những yếu tố nào cho lá quang hợp và cho rễ hô hấp hút khoáng?",
+      "distractorReasons": [
+        "Đúng vì: Trồng rau thủy canh khép kín đòi hỏi sự hiểu biết sâu sắc về mối liên hệ giữa các quá trình sinh lí: 1. Ở lá: Cung cấp ánh sáng LED quang phổ xanh - đỏ tối ưu c.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần tắt hết đèn chiếu sáng và ngâm ngập rễ trong nước cất tinh khiết', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phun thuốc trừ sâu hóa học thật đậm đặc mỗi ngày vào bể nước dinh dưỡng' (Quên sục khí oxy vào dung dịch thủy canh làm rễ bị ngạt thở thối rễ chết cây.).",
+        "Sai vì 'Tăng nhiệt độ phòng kín lên 50 °C để kích thích enzyme phân giải chất hữu cơ' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch05-th-q02",
@@ -56,7 +65,16 @@
           "2": "Kĩ thuật đúng tránh làm gãy dập xương sườn nạn nhân.",
           "3": "Nạn nhân ngừng tuần hoàn cần cấp cứu y tế chuyên sâu, không thể đứng dậy đi lại ngay."
         }
-      }
+      },
+      "socraticPrompt": "Tế bào vỏ não sẽ bị tổn thương vĩnh viễn không thể phục hồi sau bao nhiêu phút thiếu máu nuôi dưỡng?",
+      "distractorReasons": [
+        "Sai vì 'Để làm ấm cơ thể nạn nhân bằng ma sát cơ học' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Vỏ não là cơ quan nhạy cảm nhất với tình trạng thiếu oxy, nếu tim ngừng đập não không được tưới máu quá 4 - 6 phút thì các tế bào thần kinh sẽ bắt đầu hoại tử k.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để đẩy toàn bộ xương sườn của nạn nhân lún sâu vào trong khoang ngực' (Nghĩ ép tim để làm nạn nhân tỉnh ngay (CPR duy trì sự sống của não chờ cấp cứu chuyên sâu).).",
+        "Sai vì 'Để ép nạn nhân thức dậy và đứng lên đi lại ngay lập tức' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch05-th-q03",
@@ -80,7 +98,16 @@
           "1": "Mạch máu của vận động viên rất phát triển, đàn hồi tốt và tăng sinh nhiều mao mạch.",
           "3": "Phổi chỉ trao đổi khí, tủy xương mới là cơ quan sinh máu."
         }
-      }
+      },
+      "socraticPrompt": "Khi cơ tim khỏe hơn và mỗi nhịp co bóp bơm được lượng máu gấp rưỡi người thường thì số lần đập trong 1 phút có cần đập nhiều không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do tim của vận động viên bị suy yếu nên không thể đập nhanh được' (nhịp tim chậm của vận động viên với bệnh lí nhịp tim chậm do suy nút xoang nhĩ).",
+        "Sai vì 'Do mạch máu của vận động viên bị teo nhỏ lại nên cần ít máu hơn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Luyện tập thể lực bền bỉ làm cơ tâm thất phì đại sinh lí, buồng tim giãn nở tốt giúp thể tích tâm thu (lượng máu tống ra trong một nhát bóp) tăng từ 70 ml lên t.",
+        "Sai vì 'Do phổi của vận động viên tự sản xuất được máu thay thế cho tim' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch05-th-q04",
@@ -104,7 +131,16 @@
           "2": "One Health không phải tên một loại thuốc đơn lẻ.",
           "1": "Nuôi nhốt động vật hoang dã phá hủy cân bằng sinh thái tự nhiên."
         }
-      }
+      },
+      "socraticPrompt": "Khi môi trường bị ô nhiễm và dịch bệnh bùng phát ở gia súc hoang dã thì con người có thể hoàn toàn an toàn không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ cần chăm lo sức khỏe cho riêng con người mà không cần quan tâm đến động vật hay môi trường' (Cách tiếp cận hạn hẹp coi y học người tách biệt độc lập với thú y và sinh thái học.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Đưa toàn bộ động vật hoang dã vào nuôi nhốt trong nhà kính', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Mỗi người chỉ nên uống duy nhất một viên thuốc trị bách bệnh trong suốt cuộc đời', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Cách tiếp cận 'Một Sức Khỏe' (One Health) nhận thức rằng sức khỏe con người gắn liền không thể tách rời với sức khỏe của các loài động vật và hệ sinh thái chung."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch05-th-q05",
@@ -128,7 +164,16 @@
           "2": "Cơ bắp bắt buộc phải tiêu tốn ATP khi co cơ vận động.",
           "3": "Mồ hôi tự nhiên vốn đã trong suốt, không phụ thuộc vào loại nước uống."
         }
-      }
+      },
+      "socraticPrompt": "Khi ra mồ hôi có vị mặn tức là cơ thể đã mất đi những ion khoáng chất gì?",
+      "distractorReasons": [
+        "Đúng vì: Khi vận động mạnh ra mồ hôi nhiều, cơ thể mất đi một lượng lớn nước cùng các ion điện giải quan trọng (Na+, K+, Cl-). Nếu chỉ uống lượng lớn nước lọc tinh khiết.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì nước lọc tinh khiết có chứa nhiều độc tố gây hại cho cơ bắp' (Cho rằng 'uống nước tinh khiết càng nhiều càng tốt' khi vận động nặng.).",
+        "Sai vì phủ định sai bản chất: 'Để kích thích cơ bắp không cần tiêu tốn năng lượng mà vẫn chạy nhanh' trái ngược với kiến thức SGK.",
+        "Sai vì 'Để biến đổi màu sắc mồ hôi thành màu trắng trong suốt' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch05-th-q06",
@@ -152,7 +197,16 @@
           "2": "Mọi thử nghiệm thuốc bắt buộc phải thử nghiệm tiền lâm sàng trên động vật và mô tế bào trước khi thử trên người.",
           "3": "Xâm phạm quyền riêng tư và bí mật đời tư di truyền của con người."
         }
-      }
+      },
+      "socraticPrompt": "Trong nghiên cứu chỉnh sửa gene hoặc thử nghiệm thuốc trên người, giá trị đạo đức cốt lõi nào phải được đặt lên trên hết?",
+      "distractorReasons": [
+        "Sai vì 'Bất chấp mọi hậu quả và rủi ro để đạt được lợi nhuận kinh tế tối đa cho công ty' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Đạo đức sinh học (Bioethics) là hệ thống các nguyên tắc đạo đức chỉ dẫn các hoạt động nghiên cứu y sinh học và công nghệ gen. Bốn nguyên tắc trụ cột gồm: 1. Tôn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thử nghiệm mọi loại hóa chất độc hại mới trực tiếp lên cơ thể người trước khi thử trên động vật' (Thương mại hóa nghiên cứu y sinh bỏ qua an toàn tính mạng con người.).",
+        "Sai vì 'Bán bí mật dữ liệu bộ gene di truyền của bệnh nhân cho các công ty quảng cáo' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

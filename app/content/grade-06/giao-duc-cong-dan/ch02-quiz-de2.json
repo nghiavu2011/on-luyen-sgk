@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Xử lý tình huống từ thiện trung thực (Bài 2, SGK GDCD 6, trang 13).",
         "steps": "Tiền ủng hộ từ thiện mang ý nghĩa sẻ chia thiêng liêng. Bớt xén tiền từ thiện để ăn chơi là hành vi vừa thiếu trung thực, vừa vô cảm trước sự khó khăn của bạn bè.",
-        "trap": "Bị bạn bè cám dỗ bởi đồ ăn vặt và trò chơi ảo."
+        "trap": "Bị bạn bè cám dỗ bởi đồ ăn vặt và trò chơi ảo.",
+        "socraticPrompt": "Số tiền 50 000đ đó có thể giúp một bạn học sinh nghèo mua được bao nhiêu cuốn vở để viết bài?"
       },
       "socraticPrompt": "Số tiền 50 000đ đó có thể giúp một bạn học sinh nghèo mua được bao nhiêu cuốn vở để viết bài?",
       "distractorReasons": [
-        "Sai, hành vi lừa dối cha mẹ và cướp đi cơ hội được giúp đỡ của bạn nghèo.",
-        "Sai, thái độ bực dọc ích kỷ đi ngược lại tinh thần tương thân tương ái.",
-        "Sai, thỏa hiệp với sự gian dối là thiếu liêm chính.",
-        "Chính xác, thể hiện bản lĩnh chính trực, tấm lòng nhân ái và sự kiên định trước cám dỗ."
-      ]
+        "Sai vì hành vi lừa dối cha mẹ và cướp đi cơ hội được giúp đỡ của bạn nghèo.",
+        "Sai vì thái độ bực dọc ích kỷ đi ngược lại tinh thần tương thân tương ái.",
+        "Sai vì thỏa hiệp với sự gian dối là thiếu liêm chính.",
+        "Đúng vì thể hiện bản lĩnh chính trực, tấm lòng nhân ái và sự kiên định trước cám dỗ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch02_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Tâm lý học nâng đỡ người khuyết tật (Bài 2, SGK GDCD 6, trang 11-13 & Nhà tâm lý học xã hội).",
         "steps": "Người khuyết tật khao khát được đối xử bình đẳng và tôn trọng như người bình thường. Giúp đỡ chân thành bằng hành động thiết thực, không dùng từ ngữ gây tổn thương và không thương hại kệch cỡm.",
-        "trap": "Bộc lộ sự thương hại ồn ào khiến người khuyết tật cảm thấy mặc cảm dị biệt."
+        "trap": "Bộc lộ sự thương hại ồn ào khiến người khuyết tật cảm thấy mặc cảm dị biệt.",
+        "socraticPrompt": "Người bạn khiếm thị muốn được các bạn coi là một thành viên bình đẳng của lớp hay là đối tượng đáng thương hại?"
       },
       "socraticPrompt": "Người bạn khiếm thị muốn được các bạn coi là một thành viên bình đẳng của lớp hay là đối tượng đáng thương hại?",
       "distractorReasons": [
-        "Chính xác, đỉnh cao của sự tinh tế, yêu thương nhân ái và bảo vệ trọn vẹn lòng tự tôn của người yếu thế.",
-        "Sai, đào sâu vào khiếm khuyết thể xác làm tổn thương tâm hồn bạn.",
-        "Sai, hành vi kỳ thị xa lánh tàn nhẫn.",
-        "Sai, can thiệp thô bạo không tôn trọng quyền tự chủ của người bạn."
-      ]
+        "Đúng vì đỉnh cao của sự tinh tế, yêu thương nhân ái và bảo vệ trọn vẹn lòng tự tôn của người yếu thế.",
+        "Sai vì đào sâu vào khiếm khuyết thể xác làm tổn thương tâm hồn bạn.",
+        "Sai vì hành vi kỳ thị xa lánh tàn nhẫn.",
+        "Sai vì can thiệp thô bạo không tôn trọng quyền tự chủ của người bạn."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch02_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Lòng bao dung tha thứ trong yêu thương (Bài 2, SGK GDCD 6, trang 11).",
         "steps": "Tình yêu thương con người gắn liền với lòng khoan dung. Khi người khác vô ý mắc lỗi và đã biết nhận lỗi, sự tha thứ sẽ xóa tan hiềm khích và làm tình bạn thêm bền chặt.",
-        "trap": "Để cơn giận lấn át lý trí, trả thù bằng bạo lực."
+        "trap": "Để cơn giận lấn át lý trí, trả thù bằng bạo lực.",
+        "socraticPrompt": "Nếu em lỡ tay làm rơi đồ của bạn và đã xin lỗi, em mong nhận được một lời tha thứ nhẹ nhàng hay một trận đòn trả thù?"
       },
       "socraticPrompt": "Nếu em lỡ tay làm rơi đồ của bạn và đã xin lỗi, em mong nhận được một lời tha thứ nhẹ nhàng hay một trận đòn trả thù?",
       "distractorReasons": [
-        "Sai, hành vi kích động làm trầm trọng hóa mâu thuẫn.",
-        "Chính xác, vẻ đẹp của sự vị tha, bao dung giúp hóa giải lỗi lầm bằng tình người ấm áp.",
-        "Sai, dùng bạo lực trả thù là vi phạm đạo đức và pháp luật.",
-        "Sai, hành vi phá hoại tài sản của bạn để thỏa mãn cơn tức tối hẹp hòi."
-      ]
+        "Sai vì hành vi kích động làm trầm trọng hóa mâu thuẫn.",
+        "Đúng vì vẻ đẹp của sự vị tha, bao dung giúp hóa giải lỗi lầm bằng tình người ấm áp.",
+        "Sai vì dùng bạo lực trả thù là vi phạm đạo đức và pháp luật.",
+        "Sai vì hành vi phá hoại tài sản của bạn để thỏa mãn cơn tức tối hẹp hòi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch02_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Đùm bọc người già neo đơn (Bài 2, SGK GDCD 6, trang 13).",
         "steps": "Người già neo đơn rất thiếu thốn tình cảm gia đình. Sự quan tâm, giúp đỡ việc vặt và những lời thăm hỏi ân cần của trẻ nhỏ là liều thuốc bổ tinh thần vô giá cho các cụ.",
-        "trap": "Nghịch ngợm ác ý quấy phá người già yếu."
+        "trap": "Nghịch ngợm ác ý quấy phá người già yếu.",
+        "socraticPrompt": "Một người già sống cô đơn một mình sợ nhất điều gì? Tiếng cười nói ấm áp của con trẻ có xua tan nỗi cô đơn không?"
       },
       "socraticPrompt": "Một người già sống cô đơn một mình sợ nhất điều gì? Tiếng cười nói ấm áp của con trẻ có xua tan nỗi cô đơn không?",
       "distractorReasons": [
-        "Sai, nghịch ác gây hoảng loạn tinh thần người già yếu.",
-        "Sai, hành vi trộm cắp phạm pháp và bất nhân.",
-        "Chính xác, nghĩa cử hiếu nghĩa nhân văn cao đẹp của bạn nhỏ theo bài tập SGK GDCD 6 trang 13.",
-        "Sai, vô cảm và xua đuổi người yếu thế trong xã hội."
-      ]
+        "Sai vì nghịch ác gây hoảng loạn tinh thần người già yếu.",
+        "Sai vì hành vi trộm cắp phạm pháp và bất nhân.",
+        "Đúng vì nghĩa cử hiếu nghĩa nhân văn cao đẹp của bạn nhỏ theo bài tập SGK GDCD 6 trang 13.",
+        "Sai vì vô cảm và xua đuổi người yếu thế trong xã hội."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch02_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Tình yêu thương con người không phân biệt dân tộc, vùng miền (Bài 2, SGK GDCD 6, trang 11-12 & Tâm lý học xã hội).",
         "steps": "Tình yêu thương con người vượt qua mọi ranh giới dân tộc, màu da. Giúp đỡ bạn hòa nhập và trân trọng bản sắc văn hóa của bạn là biểu hiện của học sinh văn minh.",
-        "trap": "Kỳ thị vùng miền, nhại giọng gây tổn thương tâm lý sâu sắc cho bạn mới."
+        "trap": "Kỳ thị vùng miền, nhại giọng gây tổn thương tâm lý sâu sắc cho bạn mới.",
+        "socraticPrompt": "Nước ta có 54 dân tộc anh em cùng chung một mái nhà Việt Nam, sự đa dạng trang phục và ngôn ngữ có làm đất nước ta thêm giàu đẹp không?"
       },
       "socraticPrompt": "Nước ta có 54 dân tộc anh em cùng chung một mái nhà Việt Nam, sự đa dạng trang phục và ngôn ngữ có làm đất nước ta thêm giàu đẹp không?",
       "distractorReasons": [
-        "Sai, hành vi phân biệt đối xử và bạo lực tinh thần học đường.",
-        "Sai, ép buộc xóa bỏ bản sắc văn hóa dân tộc là sai trái.",
-        "Sai, cô lập bạn là hành vi vi phạm đạo đức nghiêm trọng.",
-        "Chính xác, thể hiện tinh thần đại đoàn kết dân tộc và tình yêu thương ấm áp của bạn bè."
-      ]
+        "Sai vì hành vi phân biệt đối xử và bạo lực tinh thần học đường.",
+        "Sai vì ép buộc xóa bỏ bản sắc văn hóa dân tộc là sai trái.",
+        "Sai vì cô lập bạn là hành vi vi phạm đạo đức nghiêm trọng.",
+        "Đúng vì thể hiện tinh thần đại đoàn kết dân tộc và tình yêu thương ấm áp của bạn bè."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch02_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Cứu giúp người gặp nạn (Bài 2, SGK GDCD 6, trang 10-12).",
         "steps": "Tình mạng con người là vô giá. Khi thấy người gặp nạn, hành động nhân đạo cấp thiết là gọi trợ giúp y tế khẩn cấp 115 và phối hợp sơ cứu kịp thời.",
-        "trap": "Sợ liên lụy nên bỏ mặc hoặc quay phim vô cảm."
+        "trap": "Sợ liên lụy nên bỏ mặc hoặc quay phim vô cảm.",
+        "socraticPrompt": "Trong lúc ranh giới giữa sự sống và cái chết chỉ tính bằng phút, tiếng hô hoán gọi xe cấp cứu của em có thể cứu sống một mạng người không?"
       },
       "socraticPrompt": "Trong lúc ranh giới giữa sự sống và cái chết chỉ tính bằng phút, tiếng hô hoán gọi xe cấp cứu của em có thể cứu sống một mạng người không?",
       "distractorReasons": [
-        "Chính xác, hành động dũng cảm, trách nhiệm và đầy ắp tính nhân đạo.",
-        "Sai, vô cảm tàn nhẫn trước sinh mạng con người.",
-        "Sai, sợ hãi vô lý dẫn đến bỏ mặc người chết trong cơn hoạn nạn.",
-        "Sai, hành vi hôi của tội lỗi và vi phạm hình sự đặc biệt nghiêm trọng."
-      ]
+        "Đúng vì hành động dũng cảm, trách nhiệm và đầy ắp tính nhân đạo.",
+        "Sai vì vô cảm tàn nhẫn trước sinh mạng con người.",
+        "Sai vì sợ hãi vô lý dẫn đến bỏ mặc người chết trong cơn hoạn nạn.",
+        "Sai vì hành vi hôi của tội lỗi và vi phạm hình sự đặc biệt nghiêm trọng."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

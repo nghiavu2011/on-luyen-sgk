@@ -1,116 +1,208 @@
 {
   "chapterId": "ch01",
   "examId": "de2",
-  "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 2: Kỹ năng & Tính toán",
-  "description": "Rèn luyện kỹ năng tính toán chính xác, biến đổi biểu thức và giải toán thực tiễn.",
+  "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "q01",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Kỹ năng tính toán cơ bản nhất cần thành thạo trong Chương 1: Tập hợp các số tự nhiên là gì?",
-      "options": [
-        "Thực hiện thành thạo các phép tính số học và hình học đúng quy tắc trong Chương 1: Tập hợp các số tự nhiên",
-        "Vẽ tranh minh họa trừu tượng",
-        "Đo độ dài bằng mắt thường không dùng thước",
-        "Đếm số bằng cách gõ tay lên bàn"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Kỹ năng tính toán số học chuẩn SGK.",
-        "steps": "Áp dụng đúng thuật toán cộng, trừ, nhân, chia và đổi đơn vị đo lường.",
-        "trap": "Tính ẩu và quên kiểm tra lại kết quả."
-      }
-    },
-    {
-      "id": "q02",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "question": "Khi thực hiện phép tính có chứa dấu ngoặc, thứ tự ưu tiên xử lý đúng là:",
-      "options": [
-        "Ngoặc tròn ( ) -> Ngoặc vuông [ ] -> Ngoặc nhọn { }",
-        "Ngoặc nhọn { } -> Ngoặc vuông [ ] -> Ngoặc tròn ( )",
-        "Tính từ ngoài vào trong bất kể loại ngoặc",
-        "Bỏ hết dấu ngoặc rồi tính từ trái sang phải"
-      ],
-      "answer": 0,
-      "breakdown": {
-        "concept": "Thứ tự ưu tiên các loại dấu ngoặc.",
-        "steps": "Tính giá trị trong ngoặc tròn trước, sau đó đến ngoặc vuông, cuối cùng là ngoặc nhọn.",
-        "trap": "Làm ngược thứ tự dẫn đến tính sai kết quả toàn bài."
-      }
-    },
-    {
-      "id": "q03",
+      "id": "t6_c1_d2_01",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Để tìm số chưa biết $x$ trong bài toán tìm $x$, nguyên tắc cơ bản là gì?",
+      "topic": "Viết tập hợp bằng liệt kê",
+      "question": "Cho tập hợp B = {x ∈ N | 5 < x ≤ 9}. Tập hợp B gồm các phần tử nào sau đây?",
       "options": [
-        "Coi cụm chứa $x$ là một thành phần chưa biết (số hạng, số trừ, thừa số...) và áp dụng quy tắc tìm thành phần đó",
-        "Đoán một số bất kỳ thay vào",
-        "Lấy tất cả các số trong biểu thức cộng lại",
-        "Chuyển $x$ sang vế phải mà không đổi dấu"
+        "{5; 6; 7; 8; 9}",
+        "{6; 7; 8; 9}",
+        "{5; 6; 7; 8}",
+        "{6; 7; 8}"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Phương pháp giải bài toán tìm x ở bậc THCS.",
-        "steps": "Xác định vai trò của x -> Biến đổi từng bước cô lập x về một vế.",
-        "trap": "Nhầm quy tắc chuyển vế đổi dấu hoặc nhầm số chia với số bị chia."
-      }
+        "concept": "Dấu so sánh ngặt (<) không lấy giá trị biên, dấu nhỏ hơn hoặc bằng (≤) có lấy giá trị biên.",
+        "steps": [
+          "Bước 1: Điều kiện x > 5 nghĩa là các số lớn hơn 5, bắt đầu từ 6 (không lấy 5).",
+          "Bước 2: Điều kiện x ≤ 9 nghĩa là lấy đến 9 (có lấy số 9).",
+          "Bước 3: Liệt kê các số tự nhiên thỏa mãn: 6, 7, 8, 9."
+        ],
+        "trap": "Lấy cả số 5 do không để ý dấu < ngặt nghèo.",
+        "socraticPrompt": "Điều kiện x > 5 có cho phép lấy số 5 không? Còn x ≤ 9 thì có lấy số 9 không?"
+      },
+      "socraticPrompt": "Điều kiện x > 5 có cho phép lấy số 5 không? Còn x ≤ 9 thì có lấy số 9 không?",
+      "distractorReasons": [
+        "Sai vì điều kiện là 5 < x chứ không phải 5 ≤ x nên không được chứa phần tử 5.",
+        "Đúng vì x lớn hơn 5 (bắt đầu từ 6) và nhỏ hơn hoặc bằng 9 (lấy đến 9).",
+        "Sai vì vừa lấy thừa số 5 vừa bỏ sót số 9.",
+        "Sai vì bỏ sót số 9 (điều kiện là x ≤ 9 nên số 9 thỏa mãn)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "q04",
+      "id": "t6_c1_d2_02",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Khi giải bài toán tính chu vi hoặc diện tích hình phẳng trong thực tế, điều quan trọng nhất trước khi tính là:",
+      "topic": "Tính nhanh hợp lý",
+      "question": "Giá trị của biểu thức 47 × 68 + 47 × 32 bằng bao nhiêu?",
       "options": [
-        "Đưa tất cả các kích thước về cùng một đơn vị đo lường (ví dụ cùng là mét hoặc cùng là centimét)",
-        "Vẽ hình thật to chiếm hết trang giấy",
-        "Tô màu sặc sỡ lên các cạnh",
-        "Tính chu vi trước rồi nhân đôi lên làm diện tích"
+        "470",
+        "3200",
+        "4700",
+        "4732"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Quy tắc đồng nhất đơn vị đo lường trong hình học thực tiễn.",
-        "steps": "Kiểm tra đơn vị đo của các cạnh -> Đổi về cùng đơn vị -> Thay vào công thức.",
-        "trap": "Không đồng nhất đơn vị (mét nhân centimét) dẫn đến sai số nghiêm trọng."
-      }
+        "concept": "Tính chất phân phối của phép nhân đối với phép cộng: a × b + a × c = a × (b + c).",
+        "steps": [
+          "Bước 1: Đặt thừa số chung 47 ra ngoài: 47 × (68 + 32).",
+          "Bước 2: Tính tổng trong ngoặc: 68 + 32 = 100.",
+          "Bước 3: Nhân với 100: 47 × 100 = 4700."
+        ],
+        "trap": "Cộng nhầm 68 + 32 = 10 dẫn đến kết quả 470 hoặc nhân thủ công dễ sai sót.",
+        "socraticPrompt": "Hai tích đều có chung thừa số 47, nếu đặt 47 ra ngoài thì trong ngoặc còn lại tổng của hai số nào? Tổng đó bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Hai tích đều có chung thừa số 47, nếu đặt 47 ra ngoài thì trong ngoặc còn lại tổng của hai số nào? Tổng đó bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính nhầm 68 + 32 thành 10 thay vì 100.",
+        "Sai vì tính sai thừa số chung.",
+        "Đúng vì 47 × (68 + 32) = 47 × 100 = 4700.",
+        "Sai vì ghép số cơ học 47 và 32 chứ không thực hiện phép tính."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
+      "id": "t6_c1_d2_03",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "Kỹ thuật tính nhanh bằng cách đặt thừa số chung (tính chất phân phối của phép nhân đối với phép cộng) có dạng tổng quát là:",
+      "topic": "Chia hai lũy thừa cùng cơ số",
+      "question": "Giá trị của biểu thức 7^5 : 7^3 + 2^3 × 2 bằng bao nhiêu?",
       "options": [
-        "$a \\cdot b + a \\cdot c = a \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a + b + c$",
-        "$a \\cdot b + a \\cdot c = (a + a) \\cdot (b + c)$",
-        "$a \\cdot b + a \\cdot c = a \\cdot b \\cdot c$"
+        "33",
+        "49",
+        "72",
+        "65"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tính chất phân phối của phép nhân đối với phép cộng.",
-        "steps": "Nhận diện thừa số chung 'a' -> Đưa a ra ngoài dấu ngoặc -> Tính tổng trong ngoặc.",
-        "trap": "Hay quên số 1 khi thừa số chung đứng một mình: a * b + a = a * (b + 1)."
-      }
+        "concept": "Áp dụng chia lũy thừa a^m : a^n = a^(m-n) và nhân lũy thừa a^m . a = a^(m+1).",
+        "steps": [
+          "Bước 1: 7^5 : 7^3 = 7^(5 - 3) = 7^2 = 49.",
+          "Bước 2: 2^3 × 2 = 2^(3 + 1) = 2^4 = 16.",
+          "Bước 3: Cộng hai kết quả: 49 + 16 = 65."
+        ],
+        "trap": "Tính 2^3 × 2 = 6 × 2 = 12 hoặc tính nhầm 7^2 = 14.",
+        "socraticPrompt": "7^5 chia 7^3 bằng 7 mũ mấy? Giá trị là bao nhiêu? 2^3 nhân 2 bằng 2 mũ mấy?"
+      },
+      "socraticPrompt": "7^5 chia 7^3 bằng 7 mũ mấy? Giá trị là bao nhiêu? 2^3 nhân 2 bằng 2 mũ mấy?",
+      "distractorReasons": [
+        "Sai vì tính 7^2 = 14 (lấy 7 × 2) dẫn đến 14 + 16 = 30 rồi cộng sai.",
+        "Sai vì chỉ mới tính 7^5 : 7^3 = 49 mà quên cộng với 2^3 × 2.",
+        "Sai vì tính nhầm số mũ của 2^3 × 2 thành 2^3 = 8 rồi tính sai.",
+        "Đúng vì 7^2 + 2^4 = 49 + 16 = 65."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c1_d2_04",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "question": "★ Trong các bài toán tối ưu thực tế (ví dụ: tìm kích thước mảnh đất để tốn ít hàng rào nhất, hoặc tính chi phí thấp nhất), học sinh cần vận dụng:",
+      "topic": "Tìm x trong phép chia có dư",
+      "question": "Một số tự nhiên x khi chia cho 12 được thương là 8 và số dư là 5. Giá trị của x là:",
       "options": [
-        "Kỹ năng lập bảng thử chọn hoặc vận dụng bất đẳng thức đại số hình học để so sánh tìm giá trị nhỏ nhất / lớn nhất",
-        "Chọn con số lớn nhất có trong đề bài",
-        "Chọn con số nhỏ nhất có trong đề bài",
-        "Bỏ qua không làm vì không có công thức cố định"
+        "101",
+        "96",
+        "91",
+        "105"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Công thức phép chia có dư: Số bị chia = Số chia × Thương + Số dư (a = b × q + r).",
+        "steps": [
+          "Bước 1: Áp dụng công thức: x = 12 × 8 + 5.",
+          "Bước 2: Tính tích 12 × 8 = 96.",
+          "Bước 3: Cộng số dư: 96 + 5 = 101."
+        ],
+        "trap": "Quên cộng số dư (chỉ tính 12 × 8 = 96) hoặc trừ số dư (96 - 5 = 91).",
+        "socraticPrompt": "Muốn tìm số bị chia trong phép chia có dư, ta lấy số chia nhân thương rồi làm gì với số dư?"
+      },
+      "socraticPrompt": "Muốn tìm số bị chia trong phép chia có dư, ta lấy số chia nhân thương rồi làm gì với số dư?",
+      "distractorReasons": [
+        "Đúng vì x = 12 × 8 + 5 = 96 + 5 = 101.",
+        "Sai vì mới tính 12 × 8 = 96 mà quên cộng số dư 5.",
+        "Sai vì lấy 96 trừ đi số dư 5 thay vì cộng vào.",
+        "Sai vì tính nhầm 12 × 8 = 100 rồi cộng 5."
       ],
       "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c1_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hiện phép tính có ngoặc",
+      "question": "Giá trị của biểu thức 50 - [30 - (6 - 2)^2] bằng:",
+      "options": [
+        "24",
+        "4",
+        "46",
+        "36"
+      ],
+      "correct": 3,
       "breakdown": {
-        "concept": "Vận dụng cao: Bài toán tối ưu hóa trong toán học thực tiễn.",
-        "steps": "Mô hình hóa chi phí thành hàm số biến x -> Thử chọn có quy luật để tìm phương án tối ưu.",
-        "trap": "Đoán mò không có căn cứ logic."
-      }
+        "concept": "Quy tắc tính trong ngoặc tròn trước, đến lũy thừa, rồi đến ngoặc vuông.",
+        "steps": [
+          "Bước 1: Trong ngoặc tròn: 6 - 2 = 4.",
+          "Bước 2: Lũy thừa: 4^2 = 16.",
+          "Bước 3: Trong ngoặc vuông: 30 - 16 = 14.",
+          "Bước 4: Phép trừ ngoài: 50 - 14 = 36."
+        ],
+        "trap": "Tính 4^2 = 8 (nhầm 4 × 2) dẫn đến 30 - 8 = 22 rồi 50 - 22 = 28.",
+        "socraticPrompt": "Tính 6 - 2 = 4. Vậy 4 bình phương (4^2) bằng 16. Trong ngoặc vuông lấy 30 - 16 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Tính 6 - 2 = 4. Vậy 4 bình phương (4^2) bằng 16. Trong ngoặc vuông lấy 30 - 16 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì nhầm 50 - 30 + 16 rồi tính sai dấu.",
+        "Sai vì nhầm lẫn dấu và thứ tự tính trong ngoặc vuông.",
+        "Sai vì tính 30 - 16 = 4 dẫn đến 50 - 4 = 46.",
+        "Đúng vì 50 - [30 - 16] = 50 - 14 = 36."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c1_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm số tự nhiên x",
+      "question": "Tìm số tự nhiên x biết: 3 × (x - 4) + 12 = 33.",
+      "options": [
+        "11",
+        "9",
+        "7",
+        "15"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải bài toán tìm x bằng cách coi cụm chứa x là thành phần chưa biết của phép cộng, phép nhân.",
+        "steps": [
+          "Bước 1: Coi 3 × (x - 4) là số hạng chưa biết: 3 × (x - 4) = 33 - 12 = 21.",
+          "Bước 2: Coi (x - 4) là thừa số chưa biết: x - 4 = 21 : 3 = 7.",
+          "Bước 3: Coi x là số bị trừ: x = 7 + 4 = 11."
+        ],
+        "trap": "Chuyển vế tính nhầm x = 7 - 4 = 3 hoặc tính 33 - 12 sai.",
+        "socraticPrompt": "3 nhân (x - 4) bằng 33 trừ 12 = 21. Vậy (x - 4) bằng 21 chia 3 = 7. Số nào trừ 4 bằng 7?"
+      },
+      "socraticPrompt": "3 nhân (x - 4) bằng 33 trừ 12 = 21. Vậy (x - 4) bằng 21 chia 3 = 7. Số nào trừ 4 bằng 7?",
+      "distractorReasons": [
+        "Đúng vì 3(x - 4) = 21 ⇒ x - 4 = 7 ⇒ x = 7 + 4 = 11.",
+        "Sai vì tính sai bước chuyển vế (lấy 7 + 2).",
+        "Sai vì 7 mới chỉ là giá trị của cụm (x - 4), chưa cộng thêm 4 để tìm x.",
+        "Sai vì tính nhầm 33 + 12 rồi chia 3."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

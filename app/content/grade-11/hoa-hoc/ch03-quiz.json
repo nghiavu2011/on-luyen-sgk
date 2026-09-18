@@ -22,7 +22,16 @@
         "socraticPrompt": "Carbon và các phi kim như H, O, N liên kết với nhau bằng cách dùng chung electron thì gọi là liên kết gì?",
         "steps": "Các nguyên tử trong phân tử hợp chất hữu cơ chủ yếu là các phi kim, chúng liên kết với nhau bằng các cặp electron dùng chung (liên kết cộng hoá trị phân cực hoặc không phân cực).",
         "trap": "Nhầm liên kết ion vốn chỉ chiếm ưu thế trong các muối vô cơ."
-      }
+      },
+      "socraticPrompt": "Carbon và các phi kim như H, O, N liên kết với nhau bằng cách dùng chung electron thì gọi là liên kết gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Liên kết ion' (liên kết ion vốn chỉ chiếm ưu thế trong các muối vô cơ).",
+        "Sai vì 'Liên kết kim loại' không phù hợp với định lý/quy tắc trọng tâm (Đặc điểm cấu tạo phân tử hợp chất hữu cơ.).",
+        "Đúng vì theo Đặc điểm cấu tạo phân tử hợp chất hữu cơ.: Các nguyên tử trong phân tử hợp chất hữu cơ chủ yếu là các phi kim, chúng liên kết với nhau bằng các cặp electron dùng chung (liên kết cộng hoá trị phân cực hoặ.",
+        "Sai vì 'Liên kết cho nhận' không phù hợp với định lý/quy tắc trọng tâm (Đặc điểm cấu tạo phân tử hợp chất hữu cơ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c3_th_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Hòa tan chất rắn trong dung môi nóng, khi làm lạnh thì độ tan giảm xuống làm chất rắn tách ra dưới dạng tinh thể.",
         "steps": "Phương pháp kết tinh dựa trên sự khác nhau về độ tan của chất rắn ở nhiệt độ cao và nhiệt độ thấp: chất tan nhiều ở nhiệt độ cao, khi làm nguội dung dịch bão hòa thì chất sẽ kết tinh tách ra.",
         "trap": "Nhầm với nguyên tắc chưng cất (dựa vào nhiệt độ sôi)."
-      }
+      },
+      "socraticPrompt": "Hòa tan chất rắn trong dung môi nóng, khi làm lạnh thì độ tan giảm xuống làm chất rắn tách ra dưới dạng tinh thể.",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhiệt độ sôi khác nhau của các chất' (với nguyên tắc chưng cất (dựa vào nhiệt độ sôi)).",
+        "Sai vì 'Màu sắc khác nhau của các tinh thể' không phù hợp với định lý/quy tắc trọng tâm (Cơ sở khoa học của phương pháp kết tinh lại chất rắn.).",
+        "Sai vì 'Khối lượng riêng khác nhau của các chất' không phù hợp với định lý/quy tắc trọng tâm (Cơ sở khoa học của phương pháp kết tinh lại chất rắn.).",
+        "Đúng vì theo Cơ sở khoa học của phương pháp kết tinh lại chất rắn.: Phương pháp kết tinh dựa trên sự khác nhau về độ tan của chất rắn ở nhiệt độ cao và nhiệt độ thấp: chất tan nhiều ở nhiệt độ cao, khi làm nguội dung dịch bão hò."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c3_th_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Các nguyên tử C có thể nối dài thành chuỗi thẳng, có nhánh rẽ hoặc khép kín thành vòng.",
         "steps": "Thuyết cấu tạo hoá học khẳng định: các nguyên tử carbon có khả năng liên kết trực tiếp với nhau tạo thành mạch carbon hở (không phân nhánh, có phân nhánh) hoặc mạch vòng khép kín.",
         "trap": "Nghĩ rằng carbon chỉ tạo được mạch thẳng."
-      }
+      },
+      "socraticPrompt": "Các nguyên tử C có thể nối dài thành chuỗi thẳng, có nhánh rẽ hoặc khép kín thành vòng.",
+      "distractorReasons": [
+        "Đúng vì: Thuyết cấu tạo hoá học khẳng định: các nguyên tử carbon có khả năng liên kết trực tiếp với nhau tạo thành mạch carbon hở (không phân nhánh, có phân nhánh) hoặc .",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ tạo được mạch thẳng không phân nhánh' (Nghĩ rằng carbon chỉ tạo được mạch thẳng.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tạo được mạch vòng khép kín', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tạo được mạch nhánh phân cực', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c3_th_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Tính mol C từ CO₂, mol H từ H₂O, kiểm tra m_O = m_X - m_C - m_H, rồi đối chiếu với M_X = 11.5 · 4 = 46 g/mol.",
         "steps": "n_C = 4.4 / 44 = 0.1 mol (m_C = 1.2 g); n_H = 2 · (2.7 / 18) = 0.3 mol (m_H = 0.3 g). m_O = 2.3 - (1.2 + 0.3) = 0.8 g suy ra n_O = 0.8 / 16 = 0.05 mol. Tỉ lệ n_C : n_H : n_O = 0.1 : 0.3 : 0.05 = 2 : 6 : 1. CTPT có dạng (C₂H₆O)n. M_X = 11.5 · 4 = 46 g/mol, suy ra 46·n = 46 => n = 1. CTPT là C₂H₆O.",
         "trap": "Quên nhân khối lượng mol của He là 4 (lấy tỉ khối với H₂ là 2) hoặc bỏ qua việc tính khối lượng oxi."
-      }
+      },
+      "socraticPrompt": "Tính mol C từ CO₂, mol H từ H₂O, kiểm tra m_O = m_X - m_C - m_H, rồi đối chiếu với M_X = 11.5 · 4 = 46 g/mol.",
+      "distractorReasons": [
+        "Sai vì 'C₂H₄O₂' không phù hợp với định lý/quy tắc trọng tâm (Giải bài toán lập công thức phân tử hợp chất hữu cơ từ sản phẩm cháy và tỉ khối hơi.).",
+        "Đúng vì: n_C = 4.4 / 44 = 0.1 mol (m_C = 1.2 g); n_H = 2 · (2.7 / 18) = 0.3 mol (m_H = 0.3 g). m_O = 2.3 - (1.2 + 0.3) = 0.8 g suy ra n_O = 0.8 / 16 = 0.05 mol. Tỉ lệ n_.",
+        "Sai vì 'C₃H₈O' không phù hợp với định lý/quy tắc trọng tâm (Giải bài toán lập công thức phân tử hợp chất hữu cơ từ sản phẩm cháy và tỉ khối hơi.).",
+        "Sai vì 'CH₄O' không phù hợp với định lý/quy tắc trọng tâm (Giải bài toán lập công thức phân tử hợp chất hữu cơ từ sản phẩm cháy và tỉ khối hơi.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c3_th_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Dải hấp thụ mạnh và tù (rộng) ở vùng 3200 - 3600 cm⁻¹ là dấu hiệu nhận biết nhóm chức chứa oxygen nào?",
         "steps": "Vùng 3200 - 3650 cm⁻¹ với đỉnh hấp thụ rộng, mạnh là tín hiệu đặc trưng của dao động co giãn liên kết O-H (có liên kết hydrogen liên phân tử) trong alcohol hoặc phenol.",
         "trap": "Nhầm với liên kết C=O vốn có đỉnh hẹp, rất nhọn ở vùng 1680 - 1750 cm⁻¹."
-      }
+      },
+      "socraticPrompt": "Dải hấp thụ mạnh và tù (rộng) ở vùng 3200 - 3600 cm⁻¹ là dấu hiệu nhận biết nhóm chức chứa oxygen nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Liên kết C=O trong nhóm carbonyl' (với liên kết C=O vốn có đỉnh hẹp, rất nhọn ở vùng 1680 - 1750 cm⁻¹).",
+        "Sai vì 'Liên kết C-H trong alkane' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng vùng hấp thụ hồng ngoại (IR) của nhóm hydroxyl (-OH).).",
+        "Sai vì 'Liên kết C=C trong alkene' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng vùng hấp thụ hồng ngoại (IR) của nhóm hydroxyl (-OH).).",
+        "Đúng vì: Vùng 3200 - 3650 cm⁻¹ với đỉnh hấp thụ rộng, mạnh là tín hiệu đặc trưng của dao động co giãn liên kết O-H (có liên kết hydrogen liên phân tử) trong alcohol hoặc."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c3_th_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Alcohol có 2 đồng phân vị trí nhóm -OH (bậc 1 và bậc 2). Ether có mấy cách chia mạch carbon quanh nguyên tử O?",
         "steps": "C₃H₈O có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-OH (propan-1-ol); 2) CH₃-CH(OH)-CH₃ (propan-2-ol); 3) CH₃-O-CH₂-CH₃ (ethyl methyl ether).",
         "trap": "Chỉ đếm 2 đồng phân alcohol mà quên đồng phân ether."
-      }
+      },
+      "socraticPrompt": "Alcohol có 2 đồng phân vị trí nhóm -OH (bậc 1 và bậc 2). Ether có mấy cách chia mạch carbon quanh nguyên tử O?",
+      "distractorReasons": [
+        "Đúng vì: C₃H₈O có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-OH (propan-1-ol); 2) CH₃-CH(OH)-CH₃ (propan-2-ol); 3) CH₃-O-CH₂-CH₃ (ethyl methyl ether).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 đồng phân' (Chỉ đếm 2 đồng phân alcohol mà quên đồng phân ether.).",
+        "Sai vì '4 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Viết toàn bộ đồng phân cấu tạo (alcohol và ether) của C₃H₈O.).",
+        "Sai vì '5 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Viết toàn bộ đồng phân cấu tạo (alcohol và ether) của C₃H₈O.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

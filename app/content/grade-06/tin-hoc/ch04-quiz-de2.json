@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm bắt nạt qua mạng (Bài 9, SGK Tin học 6, trang 39).",
         "steps": "Bắt nạt qua mạng là hành vi dùng công nghệ để đe dọa, xúc phạm danh dự, cô lập hay làm nhục người khác khiến nạn nhân tổn thương tâm lý sâu sắc.",
-        "trap": "Nghĩ rằng trêu chọc chế ảnh bạn bè trên mạng chỉ là trò đùa vô hại."
+        "trap": "Nghĩ rằng trêu chọc chế ảnh bạn bè trên mạng chỉ là trò đùa vô hại.",
+        "socraticPrompt": "Hành động nào làm cho bạn mình cảm thấy xấu hổ, buồn bã và sợ hãi khi lên mạng xã hội?"
       },
       "socraticPrompt": "Hành động nào làm cho bạn mình cảm thấy xấu hổ, buồn bã và sợ hãi khi lên mạng xã hội?",
       "distractorReasons": [
-        "Sai, chúc mừng bạn là hành vi thân thiện, nhân ái.",
-        "Sai, giúp đỡ bạn học tập là nghĩa cử tốt đẹp.",
-        "Chính xác, đây là hành vi bắt nạt qua mạng gây tổn hại tâm lý nặng nề cho bạn bè.",
-        "Sai, thảo luận học tập là hoạt động bổ ích."
-      ]
+        "Sai vì chúc mừng bạn là hành vi thân thiện, nhân ái.",
+        "Sai vì giúp đỡ bạn học tập là nghĩa cử tốt đẹp.",
+        "Đúng vì đây là hành vi bắt nạt qua mạng gây tổn hại tâm lý nặng nề cho bạn bè.",
+        "Sai vì thảo luận học tập là hoạt động bổ ích."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Chia sẻ thông tin an toàn (Bài 9, SGK Tin học 6, trang 40-41).",
         "steps": "Thông báo nhà vắng người nhiều ngày trên mạng xã hội là 'chỉ đường cho kẻ trộm' đột nhập phá khóa. Cần giữ kín lịch trình và chỉ đăng ảnh khi đã về nhà an toàn.",
-        "trap": "Thói quen thích khoe khoang lịch trình du lịch ngay trong lúc đang vắng nhà."
+        "trap": "Thói quen thích khoe khoang lịch trình du lịch ngay trong lúc đang vắng nhà.",
+        "socraticPrompt": "Nếu kẻ trộm đọc được bài viết khoe cả nhà em đi vắng 2 tuần thì điều gì có thể xảy ra với ngôi nhà?"
       },
       "socraticPrompt": "Nếu kẻ trộm đọc được bài viết khoe cả nhà em đi vắng 2 tuần thì điều gì có thể xảy ra với ngôi nhà?",
       "distractorReasons": [
-        "Sai, hành vi vô tình tiếp tay cho kẻ trộm lên kế hoạch đột nhập trộm cắp.",
-        "Sai, livestream báo vắng nhà là cực kỳ nguy hiểm.",
-        "Chính xác, đây là quy tắc bảo vệ an toàn tài sản và an ninh gia đình thời đại số.",
-        "Sai, phát tán định vị nhà riêng làm lộ bí mật riêng tư."
-      ]
+        "Sai vì hành vi vô tình tiếp tay cho kẻ trộm lên kế hoạch đột nhập trộm cắp.",
+        "Sai vì livestream báo vắng nhà là cực kỳ nguy hiểm.",
+        "Đúng vì đây là quy tắc bảo vệ an toàn tài sản và an ninh gia đình thời đại số.",
+        "Sai vì phát tán định vị nhà riêng làm lộ bí mật riêng tư."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Ứng phó sự cố tài khoản bị xâm nhập (Bài 9, SGK Tin học 6, trang 41-42).",
         "steps": "Khi tài khoản tự gửi tin nhắn lạ nghĩa là tài khoản đã bị kẻ gian chiếm quyền kiểm soát (hack). Việc cấp bách nhất là đổi mật khẩu ngay và đăng xuất từ xa khỏi các phiên khác.",
-        "trap": "Chần chừ không đổi mật khẩu khiến kẻ xấu tiếp tục mạo danh lừa đảo người thân."
+        "trap": "Chần chừ không đổi mật khẩu khiến kẻ xấu tiếp tục mạo danh lừa đảo người thân.",
+        "socraticPrompt": "Để lấy lại quyền làm chủ ngôi nhà khi kẻ trộm đã sao chép được chìa khóa cũ, em phải làm gì với ổ khóa?"
       },
       "socraticPrompt": "Để lấy lại quyền làm chủ ngôi nhà khi kẻ trộm đã sao chép được chìa khóa cũ, em phải làm gì với ổ khóa?",
       "distractorReasons": [
-        "Chính xác, đổi mật khẩu mạnh mới lập tức cắt đứt quyền truy cập trái phép của kẻ gian.",
-        "Sai, để mặc cho kẻ xấu mạo danh lừa gạt người thân và bạn bè.",
-        "Sai, đập chuột máy tính không giải quyết được vấn đề mật khẩu tài khoản.",
-        "Sai, thờ ơ dẫn đến hậu quả nghiêm trọng về uy tín và pháp lý."
-      ]
+        "Đúng vì đổi mật khẩu mạnh mới lập tức cắt đứt quyền truy cập trái phép của kẻ gian.",
+        "Sai vì để mặc cho kẻ xấu mạo danh lừa gạt người thân và bạn bè.",
+        "Sai vì đập chuột máy tính không giải quyết được vấn đề mật khẩu tài khoản.",
+        "Sai vì thờ ơ dẫn đến hậu quả nghiêm trọng về uy tín và pháp lý."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch04_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Pháp luật và đạo đức trong môi trường số (Bài 9, SGK Tin học 6, trang 41).",
         "steps": "Quyền bí mật đời tư được Hiến pháp và pháp luật (Luật An ninh mạng) bảo vệ. Đọc trộm hoặc xâm nhập tài khoản của người khác là hành vi vi phạm pháp luật nghiêm trọng.",
-        "trap": "Xem nhẹ quyền riêng tư của bạn bè, coi đó là trò đùa tò mò thông thường."
+        "trap": "Xem nhẹ quyền riêng tư của bạn bè, coi đó là trò đùa tò mò thông thường.",
+        "socraticPrompt": "Em có muốn ai đó tự tiện mở xem hết những tin nhắn tâm sự riêng tư của mình không?"
       },
       "socraticPrompt": "Em có muốn ai đó tự tiện mở xem hết những tin nhắn tâm sự riêng tư của mình không?",
       "distractorReasons": [
-        "Sai, pháp luật nghiêm cấm hành vi xâm phạm bí mật thư tín.",
-        "Sai, đây là thói xấu đáng phê phán, không thể là nét đẹp văn hóa.",
-        "Chính xác, xâm phạm đời tư là hành vi sai trái cả về mặt đạo đức và quy định pháp luật.",
-        "Sai, gây tổn thương danh dự và xâm hại quyền lợi hợp pháp của người khác."
-      ]
+        "Sai vì pháp luật nghiêm cấm hành vi xâm phạm bí mật thư tín.",
+        "Sai vì đây là thói xấu đáng phê phán, không thể là nét đẹp văn hóa.",
+        "Đúng vì xâm phạm đời tư là hành vi sai trái cả về mặt đạo đức và quy định pháp luật.",
+        "Sai vì gây tổn thương danh dự và xâm hại quyền lợi hợp pháp của người khác."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Ứng phó khi bị đe dọa, bắt nạt trực tuyến (Bài 9, SGK Tin học 6, trang 40).",
         "steps": "Quy trình ứng phó chuẩn: Không đối đầu cãi vã -> Chụp ảnh làm bằng chứng pháp lý -> Báo ngay cho người lớn đáng tin cậy (bố mẹ, thầy cô) để được bảo vệ và xử lý kẻ bắt nạt.",
-        "trap": "Giữ im lặng chịu đựng một mình dẫn đến khủng hoảng tâm lý nghiêm trọng."
+        "trap": "Giữ im lặng chịu đựng một mình dẫn đến khủng hoảng tâm lý nghiêm trọng.",
+        "socraticPrompt": "Ai là chỗ dựa vững chắc nhất sẵn sàng lắng nghe và bảo vệ em trước các mối nguy hiểm ngoài xã hội?"
       },
       "socraticPrompt": "Ai là chỗ dựa vững chắc nhất sẵn sàng lắng nghe và bảo vệ em trước các mối nguy hiểm ngoài xã hội?",
       "distractorReasons": [
-        "Sai, im lặng chịu đựng sẽ khiến kẻ xấu càng lấn tới và gây trầm cảm nguy hiểm.",
-        "Sai, đáp trả bằng bạo lực ngôn từ chỉ làm xung đột leo thang và vi phạm quy tắc ứng xử.",
-        "Chính xác, lưu bằng chứng và tìm kiếm sự hỗ trợ từ người lớn là phương pháp an toàn và dũng cảm nhất.",
-        "Sai, hành vi bồng bột gây nguy hiểm tính mạng bản thân và nỗi đau cho gia đình."
-      ]
+        "Sai vì im lặng chịu đựng sẽ khiến kẻ xấu càng lấn tới và gây trầm cảm nguy hiểm.",
+        "Sai vì đáp trả bằng bạo lực ngôn từ chỉ làm xung đột leo thang và vi phạm quy tắc ứng xử.",
+        "Đúng vì lưu bằng chứng và tìm kiếm sự hỗ trợ từ người lớn là phương pháp an toàn và dũng cảm nhất.",
+        "Sai vì hành vi bồng bột gây nguy hiểm tính mạng bản thân và nỗi đau cho gia đình."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch04_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Văn hóa ứng xử trên môi trường số (Bài 9, SGK Tin học 6, trang 42).",
         "steps": "Môi trường số văn minh đòi hỏi người tham gia phải biết lắng nghe, tranh luận dựa trên lý lẽ và bằng chứng khoa học, tôn trọng người đối thoại mà không công kích cá nhân.",
-        "trap": "Hiếu thắng, biến tranh luận học thuật thành cãi vã thù hằn cá nhân."
+        "trap": "Hiếu thắng, biến tranh luận học thuật thành cãi vã thù hằn cá nhân.",
+        "socraticPrompt": "Khi nói chuyện ngoài đời cũng như trên mạng, lời nói lịch sự và nhã nhặn mang lại lợi ích gì cho mối quan hệ bạn bè?"
       },
       "socraticPrompt": "Khi nói chuyện ngoài đời cũng như trên mạng, lời nói lịch sự và nhã nhặn mang lại lợi ích gì cho mối quan hệ bạn bè?",
       "distractorReasons": [
-        "Sai, hành vi thô lỗ, thiếu tôn trọng người khác.",
-        "Sai, vi phạm nghiêm trọng đạo đức và xúc phạm danh dự người khác.",
-        "Chính xác, đây là biểu hiện của người học sinh có văn hóa số và trí tuệ cảm xúc cao.",
-        "Sai, kích động bạo lực mạng là hành vi xấu xí đáng lên án."
-      ]
+        "Sai vì hành vi thô lỗ, thiếu tôn trọng người khác.",
+        "Sai vì vi phạm nghiêm trọng đạo đức và xúc phạm danh dự người khác.",
+        "Đúng vì đây là biểu hiện của người học sinh có văn hóa số và trí tuệ cảm xúc cao.",
+        "Sai vì kích động bạo lực mạng là hành vi xấu xí đáng lên án."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

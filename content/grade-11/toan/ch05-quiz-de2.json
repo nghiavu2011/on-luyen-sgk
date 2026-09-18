@@ -22,7 +22,16 @@
         "socraticPrompt": "Tính giá trị đại diện từng nhóm: (0+4)/2=2, (4+8)/2=6, (8+12)/2=10. Nhân với tần số rồi chia tổng số mẫu n = 10?",
         "steps": "Giá trị đại diện: c1 = 2, c2 = 6, c3 = 10. Tổng cỡ mẫu n = 2 + 5 + 3 = 10. Ta có: x̄ = (2·2 + 5·6 + 3·10) / 10 = (4 + 30 + 30) / 10 = 64 / 10 = 6,4.",
         "trap": "Lấy trung bình cộng các giá trị đại diện (2 + 6 + 10)/3 = 6 mà quên nhân với tần số."
-      }
+      },
+      "socraticPrompt": "Tính giá trị đại diện từng nhóm: (0+4)/2=2, (4+8)/2=6, (8+12)/2=10. Nhân với tần số rồi chia tổng số mẫu n = 10?",
+      "distractorReasons": [
+        "Đúng vì theo Công thức tính số trung bình: x̄ = ∑(mi · ci) / n.: Giá trị đại diện: c1 = 2, c2 = 6, c3 = 10. Tổng cỡ mẫu n = 2 + 5 + 3 = 10. Ta có: x̄ = (2·2 + 5·6 + 3·10) / 10 = (4 + 30 + 30) / 10 = 64 / 10 = 6,4.",
+        "Sai vì '6,0' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính số trung bình: x̄ = ∑(mi · ci) / n.).",
+        "Sai vì '7,2' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính số trung bình: x̄ = ∑(mi · ci) / n.).",
+        "Sai vì '5,8' không phù hợp với định lý/quy tắc trọng tâm (Công thức tính số trung bình: x̄ = ∑(mi · ci) / n.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c5_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "n = 20 => n/2 = 10. Nhóm chứa trung vị là [20; 30) có C = 6, mp = 8, h = 10. Thay vào công thức ra bao nhiêu?",
         "steps": "n/2 = 10. Nhóm chứa trung vị là [20; 30) vì nhóm 1 có 6 < 10, nhóm 2 tích luỹ 6 + 8 = 14 ≥ 10. Khi đó ap = 20, C = 6, mp = 8, h = 10. Me = 20 + [(10 - 6)/8] · 10 = 20 + (4/8) · 10 = 20 + 5 = 25.",
         "trap": "Tính nhầm (10 - 6)/8 = 0,2 và ra 22."
-      }
+      },
+      "socraticPrompt": "n = 20 => n/2 = 10. Nhóm chứa trung vị là [20; 30) có C = 6, mp = 8, h = 10. Thay vào công thức ra bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '22' không phù hợp với định lý/quy tắc trọng tâm (Công thức trung vị: Me = ap + [(n/2 - C) / mp] · h.).",
+        "Đúng vì theo Công thức trung vị: Me = ap + [(n/2 - C) / mp] · h.: n/2 = 10. Nhóm chứa trung vị là [20; 30) vì nhóm 1 có 6 < 10, nhóm 2 tích luỹ 6 + 8 = 14 ≥ 10. Khi đó ap = 20, C = 6, mp = 8, h = 10. Me = 20 + [(10 - 6)/8] · 1.",
+        "Sai vì '28' không phù hợp với định lý/quy tắc trọng tâm (Công thức trung vị: Me = ap + [(n/2 - C) / mp] · h.).",
+        "Sai vì '24' không phù hợp với định lý/quy tắc trọng tâm (Công thức trung vị: Me = ap + [(n/2 - C) / mp] · h.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c5_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Nhóm chứa mốt là [20; 30) có mj = 10, mj-1 = 4, mj+1 = 6. Hiệu trên là 6, mẫu là 6 + 4 = 10?",
         "steps": "Nhóm chứa mốt là [20; 30) với aj = 20, h = 10. Ta có mj = 10, mj-1 = 4, mj+1 = 6. Suy ra: Mo = 20 + [(10 - 4) / ((10 - 4) + (10 - 6))] · 10 = 20 + [6 / (6 + 4)] · 10 = 20 + (6/10) · 10 = 20 + 6 = 26.",
         "trap": "Lấy luôn giá trị đại diện (20 + 30)/2 = 25 làm Mốt."
-      }
+      },
+      "socraticPrompt": "Nhóm chứa mốt là [20; 30) có mj = 10, mj-1 = 4, mj+1 = 6. Hiệu trên là 6, mẫu là 6 + 4 = 10?",
+      "distractorReasons": [
+        "Sai vì '28' không phù hợp với định lý/quy tắc trọng tâm (Công thức Mốt: Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h.).",
+        "Sai vì '24' không phù hợp với định lý/quy tắc trọng tâm (Công thức Mốt: Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h.).",
+        "Sai vì '25' không phù hợp với định lý/quy tắc trọng tâm (Công thức Mốt: Mo = aj + [(mj - mj-1) / ((mj - mj-1) + (mj - mj+1))] · h.).",
+        "Đúng vì: Nhóm chứa mốt là [20; 30) với aj = 20, h = 10. Ta có mj = 10, mj-1 = 4, mj+1 = 6. Suy ra: Mo = 20 + [(10 - 4) / ((10 - 4) + (10 - 6))] · 10 = 20 + [6 / (6 + 4)]."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c5_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "n/4 = 40/4 = 10. Nhóm chứa Q1 là nhóm [10; 20) có C = 5, mp = 15, h = 10. Tính Q1?",
         "steps": "n/4 = 10. Nhóm 1 có 5 < 10. Nhóm 2 tích luỹ 5 + 15 = 20 ≥ 10 nên nhóm chứa Q1 là [10; 20). Ta có ap = 10, C = 5, mp = 15, h = 10. Q1 = 10 + [(10 - 5)/15] · 10 = 10 + (5/15) · 10 = 10 + 10/3 ≈ 13,33.",
         "trap": "Lấy nhầm n/2 thay vì n/4 hoặc tính nhầm 5/15 = 0,5."
-      }
+      },
+      "socraticPrompt": "n/4 = 40/4 = 10. Nhóm chứa Q1 là nhóm [10; 20) có C = 5, mp = 15, h = 10. Tính Q1?",
+      "distractorReasons": [
+        "Sai vì '15,0' không phù hợp với định lý/quy tắc trọng tâm (Tứ phân vị thứ nhất Q1 ứng với ngưỡng n/4. Công thức: Q1 = ap + [(n/4 - C)/mp] · h.).",
+        "Sai vì '12,5' không phù hợp với định lý/quy tắc trọng tâm (Tứ phân vị thứ nhất Q1 ứng với ngưỡng n/4. Công thức: Q1 = ap + [(n/4 - C)/mp] · h.).",
+        "Đúng vì: n/4 = 10. Nhóm 1 có 5 < 10. Nhóm 2 tích luỹ 5 + 15 = 20 ≥ 10 nên nhóm chứa Q1 là [10; 20). Ta có ap = 10, C = 5, mp = 15, h = 10. Q1 = 10 + [(10 - 5)/15] · 10 =.",
+        "Sai vì '10,0' không phù hợp với định lý/quy tắc trọng tâm (Tứ phân vị thứ nhất Q1 ứng với ngưỡng n/4. Công thức: Q1 = ap + [(n/4 - C)/mp] · h.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c5_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Lấy Q3 = 26 trừ đi Q1 = 14 được kết quả là bao nhiêu?",
         "steps": "∆Q = Q3 - Q1 = 26 - 14 = 12.",
         "trap": "Lấy trung bình cộng (14 + 26)/2 = 20."
-      }
+      },
+      "socraticPrompt": "Lấy Q3 = 26 trừ đi Q1 = 14 được kết quả là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '20' không phù hợp với định lý/quy tắc trọng tâm (Khoảng tứ phân vị là hiệu số giữa tứ phân vị thứ ba và thứ nhất: ∆Q = Q3 - Q1.).",
+        "Đúng vì: ∆Q = Q3 - Q1 = 26 - 14 = 12.",
+        "Sai vì '40' không phù hợp với định lý/quy tắc trọng tâm (Khoảng tứ phân vị là hiệu số giữa tứ phân vị thứ ba và thứ nhất: ∆Q = Q3 - Q1.).",
+        "Sai vì '6' không phù hợp với định lý/quy tắc trọng tâm (Khoảng tứ phân vị là hiệu số giữa tứ phân vị thứ ba và thứ nhất: ∆Q = Q3 - Q1.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c5_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Giá trị đại diện các nhóm là 15, 25, 35. Tổng số liệu là 10 + x. Lập phương trình theo x̄ = 26?",
         "steps": "Giá trị đại diện: c1 = 15, c2 = 25, c3 = 35. Cỡ mẫu n = 4 + x + 6 = 10 + x. Tổng tích: 4·15 + 25x + 6·35 = 60 + 25x + 210 = 270 + 25x. Ta có: (270 + 25x)/(10 + x) = 26 <=> 270 + 25x = 260 + 26x <=> 26x - 25x = 270 - 260 <=> x = 10... Ồ kiểm tra lại: 270 - 260 = 10. Suy ra x = 10... Khoan, nếu x = 5: (270 + 125)/15 = 395/15 = 26,33. Khi x = 10: (270 + 250)/20 = 520/20 = 26 đúng!",
         "trap": "Nhầm x = 5 do tính nhẩm 270 - 260 = 5."
-      }
+      },
+      "socraticPrompt": "Giá trị đại diện các nhóm là 15, 25, 35. Tổng số liệu là 10 + x. Lập phương trình theo x̄ = 26?",
+      "distractorReasons": [
+        "Sai vì '8' không phù hợp với định lý/quy tắc trọng tâm (Lập phương trình ẩn x dựa vào công thức số trung bình x̄ = ∑(mi·ci) / n.).",
+        "Đúng vì: Giá trị đại diện: c1 = 15, c2 = 25, c3 = 35. Cỡ mẫu n = 4 + x + 6 = 10 + x. Tổng tích: 4·15 + 25x + 6·35 = 60 + 25x + 210 = 270 + 25x. Ta có: (270 + 25x)/(10 + .",
+        "Sai vì '5' không phù hợp với định lý/quy tắc trọng tâm (Lập phương trình ẩn x dựa vào công thức số trung bình x̄ = ∑(mi·ci) / n.).",
+        "Sai vì '6' không phù hợp với định lý/quy tắc trọng tâm (Lập phương trình ẩn x dựa vào công thức số trung bình x̄ = ∑(mi·ci) / n.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

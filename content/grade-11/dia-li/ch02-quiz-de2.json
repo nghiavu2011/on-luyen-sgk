@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Hậu quả của đô thị hóa tự phát ở Mỹ La-tinh là",
       "options": [
-        "Hình thành khu ổ chuột, thất nghiệp và tệ nạn xã hội",
         "Làm giàu cho nông thôn",
+        "Hình thành khu ổ chuột, thất nghiệp và tệ nạn xã hội",
         "Xóa bỏ ô nhiễm",
         "Không có ảnh hưởng gì"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Đô thị hóa không gắn với công nghiệp hóa gây gánh nặng an sinh lớn.",
       "breakdown": {
         "concept": "Hệ quả đô thị hóa tự phát",
         "steps": "Khu ổ chuột và thất nghiệp.",
         "socraticPrompt": "Hậu quả của đô thị hóa tự phát là gì?"
-      }
+      },
+      "socraticPrompt": "Hậu quả của đô thị hóa tự phát là gì?",
+      "distractorReasons": [
+        "Sai vì 'Làm giàu cho nông thôn' không phù hợp với định lý/quy tắc trọng tâm (Hệ quả đô thị hóa tự phát).",
+        "Đúng vì theo Hệ quả đô thị hóa tự phát: Khu ổ chuột và thất nghiệp.",
+        "Sai vì 'Xóa bỏ ô nhiễm' không phù hợp với định lý/quy tắc trọng tâm (Hệ quả đô thị hóa tự phát).",
+        "Sai vì phủ định sai bản chất: 'Không có ảnh hưởng gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Điểm yếu của nền kinh tế nhiều nước Mỹ La-tinh là",
       "options": [
-        "Phụ thuộc vào xuất khẩu tài nguyên thô và nợ nước ngoài cao",
-        "Tự cấp tự túc hoàn toàn",
         "Không giao thương",
+        "Tự cấp tự túc hoàn toàn",
+        "Phụ thuộc vào xuất khẩu tài nguyên thô và nợ nước ngoài cao",
         "Đồng tiền quá mạnh"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Dễ bị tổn thương khi giá hàng hóa thế giới biến động.",
       "breakdown": {
         "concept": "Điểm yếu kinh tế Mỹ La-tinh",
         "steps": "Xuất khẩu thô và nợ công.",
         "socraticPrompt": "Tại sao kinh tế Mỹ La-tinh dễ khủng hoảng?"
-      }
+      },
+      "socraticPrompt": "Tại sao kinh tế Mỹ La-tinh dễ khủng hoảng?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không giao thương' trái ngược với kiến thức SGK.",
+        "Sai vì 'Tự cấp tự túc hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Điểm yếu kinh tế Mỹ La-tinh).",
+        "Đúng vì theo Điểm yếu kinh tế Mỹ La-tinh: Xuất khẩu thô và nợ công.",
+        "Sai vì 'Đồng tiền quá mạnh' không phù hợp với định lý/quy tắc trọng tâm (Điểm yếu kinh tế Mỹ La-tinh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Bảo vệ rừng Amazon là giải pháp quan trọng nhằm",
       "options": [
-        "Bảo tồn đa dạng sinh học và giảm nhẹ biến đổi khí hậu toàn cầu",
+        "Không có tác dụng gì",
         "Mở rộng đất chăn nuôi bò",
         "Khai thác tối đa gỗ bán",
-        "Không có tác dụng gì"
+        "Bảo tồn đa dạng sinh học và giảm nhẹ biến đổi khí hậu toàn cầu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Amazon lưu giữ lượng carbon khổng lồ của khí quyển.",
       "breakdown": {
         "concept": "Bảo vệ rừng Amazon",
         "steps": "Chống biến đổi khí hậu toàn cầu.",
         "socraticPrompt": "Tại sao phải bảo vệ rừng Amazon?"
-      }
+      },
+      "socraticPrompt": "Tại sao phải bảo vệ rừng Amazon?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có tác dụng gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Mở rộng đất chăn nuôi bò' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ rừng Amazon).",
+        "Sai vì 'Khai thác tối đa gỗ bán' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ rừng Amazon).",
+        "Đúng vì theo Bảo vệ rừng Amazon: Chống biến đổi khí hậu toàn cầu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Thế mạnh nông nghiệp nhiệt đới",
         "steps": "Đất màu mỡ + khí hậu nhiệt đới.",
         "socraticPrompt": "Yếu tố nào giúp nông nghiệp Mỹ La-tinh phát triển?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào giúp nông nghiệp Mỹ La-tinh phát triển?",
+      "distractorReasons": [
+        "Đúng vì theo Thế mạnh nông nghiệp nhiệt đới: Đất màu mỡ + khí hậu nhiệt đới.",
+        "Sai vì 'Băng tuyết bao phủ' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh nông nghiệp nhiệt đới).",
+        "Sai vì 'Sa mạc khô hạn' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh nông nghiệp nhiệt đới).",
+        "Sai vì 'Thiếu đất trồng' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh nông nghiệp nhiệt đới)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Mục đích thành lập khối MERCOSUR là",
       "options": [
-        "Tự do thương mại và liên kết kinh tế giữa các nước Nam Mỹ",
+        "Xóa bỏ độc lập quốc gia",
         "Tấn công quân sự nước khác",
         "Cấm buôn bán với thế giới",
-        "Xóa bỏ độc lập quốc gia"
+        "Tự do thương mại và liên kết kinh tế giữa các nước Nam Mỹ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Thúc đẩy thị trường chung và sức mạnh đàm phán quốc tế.",
       "breakdown": {
         "concept": "Mục tiêu MERCOSUR",
         "steps": "Tự do thương mại khu vực.",
         "socraticPrompt": "MERCOSUR thành lập làm gì?"
-      }
+      },
+      "socraticPrompt": "MERCOSUR thành lập làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Xóa bỏ độc lập quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu MERCOSUR).",
+        "Sai vì 'Tấn công quân sự nước khác' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu MERCOSUR).",
+        "Sai vì 'Cấm buôn bán với thế giới' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu MERCOSUR).",
+        "Đúng vì theo Mục tiêu MERCOSUR: Tự do thương mại khu vực."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Phân bố dân cư",
         "steps": "Tập trung ven biển và đồng bằng.",
         "socraticPrompt": "Dân cư Mỹ La-tinh sống ở đâu đông nhất?"
-      }
+      },
+      "socraticPrompt": "Dân cư Mỹ La-tinh sống ở đâu đông nhất?",
+      "distractorReasons": [
+        "Đúng vì theo Phân bố dân cư: Tập trung ven biển và đồng bằng.",
+        "Sai vì 'Sâu trong rừng rậm Amazon' không phù hợp với định lý/quy tắc trọng tâm (Phân bố dân cư).",
+        "Sai vì 'Trên đỉnh núi Andes tuyết phủ' không phù hợp với định lý/quy tắc trọng tâm (Phân bố dân cư).",
+        "Sai vì 'Vùng cực Nam lạnh giá' không phù hợp với định lý/quy tắc trọng tâm (Phân bố dân cư)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

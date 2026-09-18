@@ -22,7 +22,16 @@
         "socraticPrompt": "Lấy 0,6 + 0,4 = 1,0 rồi trừ đi phần giao 0,2 thì còn lại bao nhiêu?",
         "steps": "P(A ∪ B) = P(A) + P(B) - P(AB) = 0,6 + 0,4 - 0,2 = 0,8.",
         "trap": "Chỉ lấy 0,6 + 0,4 = 1,0 mà quên trừ P(AB)."
-      }
+      },
+      "socraticPrompt": "Lấy 0,6 + 0,4 = 1,0 rồi trừ đi phần giao 0,2 thì còn lại bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '1,0' không phù hợp với định lý/quy tắc trọng tâm (Công thức cộng tổng quát: P(A ∪ B) = P(A) + P(B) - P(AB).).",
+        "Đúng vì theo Công thức cộng tổng quát: P(A ∪ B) = P(A) + P(B) - P(AB).: P(A ∪ B) = P(A) + P(B) - P(AB) = 0,6 + 0,4 - 0,2 = 0,8.",
+        "Sai vì '0,24' không phù hợp với định lý/quy tắc trọng tâm (Công thức cộng tổng quát: P(A ∪ B) = P(A) + P(B) - P(AB).).",
+        "Sai vì '0,48' không phù hợp với định lý/quy tắc trọng tâm (Công thức cộng tổng quát: P(A ∪ B) = P(A) + P(B) - P(AB).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c9_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Nhân hai xác suất độc lập lại với nhau: 0,8 nhân 0,9 bằng bao nhiêu?",
         "steps": "Ta có: P(AB) = P(A) · P(B) = 0,8 · 0,9 = 0,72.",
         "trap": "Lấy trung bình cộng (0,8 + 0,9)/2 = 0,85."
-      }
+      },
+      "socraticPrompt": "Nhân hai xác suất độc lập lại với nhau: 0,8 nhân 0,9 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Ta có: P(AB) = P(A) · P(B) = 0,8 · 0,9 = 0,72.",
+        "Sai vì '0,85' không phù hợp với định lý/quy tắc trọng tâm (Do hai người bắn độc lập nên xác suất cả hai cùng trúng là P(AB) = P(A) · P(B).).",
+        "Sai vì '0,98' không phù hợp với định lý/quy tắc trọng tâm (Do hai người bắn độc lập nên xác suất cả hai cùng trúng là P(AB) = P(A) · P(B).).",
+        "Sai vì '0,17' không phù hợp với định lý/quy tắc trọng tâm (Do hai người bắn độc lập nên xác suất cả hai cùng trúng là P(AB) = P(A) · P(B).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c9_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "A trúng B trượt: 0,7 · 0,4 = 0,28. A trượt B trúng: 0,3 · 0,6 = 0,18. Cộng hai trường hợp?",
         "steps": "TH1: A trúng, B trượt: P1 = 0,7 · (1 - 0,6) = 0,7 · 0,4 = 0,28. TH2: A trượt, B trúng: P2 = (1 - 0,7) · 0,6 = 0,3 · 0,6 = 0,18. Do hai TH xung khắc nên P = P1 + P2 = 0,28 + 0,18 = 0,46.",
         "trap": "Chỉ tính 1 trường hợp ra 0,28 hoặc nhầm sang cả hai cùng trúng 0,42."
-      }
+      },
+      "socraticPrompt": "A trúng B trượt: 0,7 · 0,4 = 0,28. A trượt B trúng: 0,3 · 0,6 = 0,18. Cộng hai trường hợp?",
+      "distractorReasons": [
+        "Sai vì '0,42' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '0,88' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: TH1: A trúng, B trượt: P1 = 0,7 · (1 - 0,6) = 0,7 · 0,4 = 0,28. TH2: A trượt, B trúng: P2 = (1 - 0,7) · 0,6 = 0,3 · 0,6 = 0,18. Do hai TH xung khắc nên P = P1 +.",
+        "Sai vì '0,12' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c9_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Xác suất cả 3 đồng đều sấp là (1/2)³ = 1/8. Lấy 1 trừ 1/8?",
         "steps": "Xác suất cả 3 mặt đều sấp là (1/2) · (1/2) · (1/2) = 1/8. Xác suất có ít nhất 1 mặt ngửa là: P = 1 - 1/8 = 7/8.",
         "trap": "Nhầm tính biến cố đối 1/8 là kết quả cuối cùng."
-      }
+      },
+      "socraticPrompt": "Xác suất cả 3 đồng đều sấp là (1/2)³ = 1/8. Lấy 1 trừ 1/8?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1/8' (tính biến cố đối 1/8 là kết quả cuối cùng).",
+        "Sai vì '3/8' không phù hợp với định lý/quy tắc trọng tâm (Biến cố đối của 'có ít nhất 1 mặt ngửa' là 'cả 3 đồng xu đều xuất hiện mặt sấp'.).",
+        "Sai vì '1/2' không phù hợp với định lý/quy tắc trọng tâm (Biến cố đối của 'có ít nhất 1 mặt ngửa' là 'cả 3 đồng xu đều xuất hiện mặt sấp'.).",
+        "Đúng vì: Xác suất cả 3 mặt đều sấp là (1/2) · (1/2) · (1/2) = 1/8. Xác suất có ít nhất 1 mặt ngửa là: P = 1 - 1/8 = 7/8."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c9_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Tính P(A) · P(B) = 0,5 · 0,6 = 0,3. Có bằng đúng P(AB) không?",
         "steps": "Ta có P(A) · P(B) = 0,5 · 0,6 = 0,3 = P(AB). Vậy A và B là hai biến cố độc lập.",
         "trap": "Nhầm rằng P(AB) > 0 nên không độc lập."
-      }
+      },
+      "socraticPrompt": "Tính P(A) · P(B) = 0,5 · 0,6 = 0,3. Có bằng đúng P(AB) không?",
+      "distractorReasons": [
+        "Đúng vì theo Kiểm tra điều kiện độc lập: P(AB) = P(A) · P(B).: Ta có P(A) · P(B) = 0,5 · 0,6 = 0,3 = P(AB). Vậy A và B là hai biến cố độc lập.",
+        "Sai vì 'A và B xung khắc với nhau' không phù hợp với định lý/quy tắc trọng tâm (Kiểm tra điều kiện độc lập: P(AB) = P(A) · P(B).).",
+        "Sai vì 'A và B là hai biến cố đối nhau' không phù hợp với định lý/quy tắc trọng tâm (Kiểm tra điều kiện độc lập: P(AB) = P(A) · P(B).).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'A và B không độc lập' (rằng P(AB) > 0 nên không độc lập)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c9_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Mỗi lần rút xác suất là 2/5. Nhân hai lần lại với nhau bằng bao nhiêu?",
         "steps": "Vì có hoàn lại nên hai lần rút độc lập: P(Lần 1 đỏ) = 4/10 = 2/5. P(Lần 2 đỏ) = 4/10 = 2/5. Xác suất cả hai lần đỏ: P = 2/5 · 2/5 = 4/25.",
         "trap": "Nhầm sang rút KHÔNG hoàn lại: (4/10) · (3/9) = 2/15."
-      }
+      },
+      "socraticPrompt": "Mỗi lần rút xác suất là 2/5. Nhân hai lần lại với nhau bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '2/15' (sang rút KHÔNG hoàn lại: (4/10) · (3/9) = 2/15).",
+        "Sai vì '4/10' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '16/45' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Vì có hoàn lại nên hai lần rút độc lập: P(Lần 1 đỏ) = 4/10 = 2/5. P(Lần 2 đỏ) = 4/10 = 2/5. Xác suất cả hai lần đỏ: P = 2/5 · 2/5 = 4/25."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

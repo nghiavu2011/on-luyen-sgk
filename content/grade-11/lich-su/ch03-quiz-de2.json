@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Chính sách 'ngoại giao cây tre' của Thái Lan thời cận đại nhằm mục đích",
       "options": [
-        "Lợi dụng mâu thuẫn giữa Anh và Pháp để giữ vững độc lập chủ quyền",
         "Liên minh quân sự chống lại các nước láng giềng",
+        "Lợi dụng mâu thuẫn giữa Anh và Pháp để giữ vững độc lập chủ quyền",
         "Bán rẻ tài nguyên cho phương Tây",
         "Đóng cửa biên giới khép kín"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Mềm dẻo uốn mình theo chiều gió nhưng gốc rễ vững chắc để tự chủ.",
       "breakdown": {
         "concept": "Ngoại giao Xiêm",
         "steps": "Tận dụng vị thế nước đệm giữa Anh và Pháp.",
         "socraticPrompt": "Chính sách ngoại giao của vua Rama V là gì?"
-      }
+      },
+      "socraticPrompt": "Chính sách ngoại giao của vua Rama V là gì?",
+      "distractorReasons": [
+        "Sai vì 'Liên minh quân sự chống lại các nước láng giềng' không phù hợp với định lý/quy tắc trọng tâm (Ngoại giao Xiêm).",
+        "Đúng vì theo Ngoại giao Xiêm: Tận dụng vị thế nước đệm giữa Anh và Pháp.",
+        "Sai vì 'Bán rẻ tài nguyên cho phương Tây' không phù hợp với định lý/quy tắc trọng tâm (Ngoại giao Xiêm).",
+        "Sai vì 'Đóng cửa biên giới khép kín' không phù hợp với định lý/quy tắc trọng tâm (Ngoại giao Xiêm)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Điểm khác biệt trong phong trào đấu tranh ở Đông Nam Á sau 1945 so với trước 1945 là",
       "options": [
-        "Có sự tham gia lãnh đạo của giai cấp vô sản và phong trào giải phóng dân tộc gắn với CNXH",
-        "Chỉ do quý tộc phong kiến lãnh đạo",
         "Không sử dụng bạo lực cách mạng",
+        "Chỉ do quý tộc phong kiến lãnh đạo",
+        "Có sự tham gia lãnh đạo của giai cấp vô sản và phong trào giải phóng dân tộc gắn với CNXH",
         "Được thực dân phương Tây tự nguyện trao trả độc lập"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Giai cấp vô sản lớn mạnh lãnh đạo cách mạng thắng lợi ở nhiều nước.",
       "breakdown": {
         "concept": "Phong trào sau 1945",
         "steps": "Khuynh hướng vô sản giữ vai trò quyết định.",
         "socraticPrompt": "Điểm mới trong phong trào sau 1945 là gì?"
-      }
+      },
+      "socraticPrompt": "Điểm mới trong phong trào sau 1945 là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không sử dụng bạo lực cách mạng' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ do quý tộc phong kiến lãnh đạo', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Phong trào sau 1945: Khuynh hướng vô sản giữ vai trò quyết định.",
+        "Sai vì 'Được thực dân phương Tây tự nguyện trao trả độc lập' không phù hợp với định lý/quy tắc trọng tâm (Phong trào sau 1945)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Nguyên tắc hoạt động cốt lõi của ASEAN là",
       "options": [
-        "Đồng thuận, không can thiệp vào công việc nội bộ và tôn trọng chủ quyền của nhau",
+        "Can thiệp vũ trang vào các nước thành viên",
         "Bỏ phiếu theo đa số áp đảo",
         "Thiết lập liên minh quân sự chung",
-        "Can thiệp vũ trang vào các nước thành viên"
+        "Đồng thuận, không can thiệp vào công việc nội bộ và tôn trọng chủ quyền của nhau"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Nguyên tắc đồng thuận và tôn trọng chủ quyền là nét đặc thù của Phương cách ASEAN.",
       "breakdown": {
         "concept": "Nguyên tắc ASEAN",
         "steps": "Đồng thuận và không can thiệp nội bộ.",
         "socraticPrompt": "Phương cách ASEAN (ASEAN Way) dựa trên điều gì?"
-      }
+      },
+      "socraticPrompt": "Phương cách ASEAN (ASEAN Way) dựa trên điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Can thiệp vũ trang vào các nước thành viên' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc ASEAN).",
+        "Sai vì 'Bỏ phiếu theo đa số áp đảo' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc ASEAN).",
+        "Sai vì 'Thiết lập liên minh quân sự chung' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc ASEAN).",
+        "Đúng vì theo Nguyên tắc ASEAN: Đồng thuận và không can thiệp nội bộ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Ý nghĩa VN gia nhập ASEAN",
         "steps": "Hội nhập và nâng cao uy tín quốc tế.",
         "socraticPrompt": "Gia nhập ASEAN đem lại lợi ích gì cho nước ta?"
-      }
+      },
+      "socraticPrompt": "Gia nhập ASEAN đem lại lợi ích gì cho nước ta?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa VN gia nhập ASEAN: Hội nhập và nâng cao uy tín quốc tế.",
+        "Sai vì 'Làm suy yếu tổ chức ASEAN' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa VN gia nhập ASEAN).",
+        "Sai vì 'Chấm dứt quan hệ thương mại với các nước ngoài khu vực' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa VN gia nhập ASEAN).",
+        "Sai vì 'Từ bỏ chủ quyền biên giới' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa VN gia nhập ASEAN)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Vì sao Đông Nam Á luôn là mục tiêu nhòm ngó của các cường quốc thực dân phương Tây?",
       "options": [
-        "Vị trí địa chính trị chiến lược, giàu tài nguyên khoáng sản, nông sản và thị trường tiêu thụ rộng lớn",
+        "Không có giá trị thương mại đường biển",
         "Khu vực có khí hậu lạnh giá quanh năm",
         "Không có dân cư sinh sống",
-        "Không có giá trị thương mại đường biển"
+        "Vị trí địa chính trị chiến lược, giàu tài nguyên khoáng sản, nông sản và thị trường tiêu thụ rộng lớn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Ngã tư đường hàng hải quốc tế kết nối Ấn Độ Dương và Thái Bình Dương.",
       "breakdown": {
         "concept": "Vị trí chiến lược Đông Nam Á",
         "steps": "Giàu tài nguyên và là cầu nối hàng hải quốc tế.",
         "socraticPrompt": "Tại sao phương Tây lại thèm khát Đông Nam Á?"
-      }
+      },
+      "socraticPrompt": "Tại sao phương Tây lại thèm khát Đông Nam Á?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có giá trị thương mại đường biển' trái ngược với kiến thức SGK.",
+        "Sai vì 'Khu vực có khí hậu lạnh giá quanh năm' không phù hợp với định lý/quy tắc trọng tâm (Vị trí chiến lược Đông Nam Á).",
+        "Sai vì phủ định sai bản chất: 'Không có dân cư sinh sống' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Vị trí chiến lược Đông Nam Á: Giàu tài nguyên và là cầu nối hàng hải quốc tế."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Bài học chớp thời cơ",
         "steps": "Đoàn kết toàn dân + chớp thời cơ.",
         "socraticPrompt": "Yếu tố nào làm nên thắng lợi tháng 8/1945?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào làm nên thắng lợi tháng 8/1945?",
+      "distractorReasons": [
+        "Đúng vì theo Bài học chớp thời cơ: Đoàn kết toàn dân + chớp thời cơ.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chờ đợi sự giúp đỡ bên ngoài', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Nhượng bộ vô điều kiện cho kẻ thù' không phù hợp với định lý/quy tắc trọng tâm (Bài học chớp thời cơ).",
+        "Sai vì 'Phân hóa các tầng lớp xã hội' không phù hợp với định lý/quy tắc trọng tâm (Bài học chớp thời cơ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Ứng dụng mạng máy tính trong thực tế (Bài 4 & 5, SGK Tin học 6, trang 18-20).",
         "steps": "Kết hợp mạng có dây làm trục chính kết nối các tầng với các điểm phát Wi-Fi giúp thiết bị di chuyển linh hoạt, đồng thời cài đặt chia sẻ máy in mạng giải quyết triệt để bài toán chi phí và thẩm mỹ.",
-        "trap": "Các phương án tốn kém lãng phí hoặc phản khoa học công nghệ."
+        "trap": "Các phương án tốn kém lãng phí hoặc phản khoa học công nghệ.",
+        "socraticPrompt": "Làm thế nào để vừa di chuyển laptop tự do mà vẫn kết nối in ấn được với máy in ở tầng trệt mà không phải đục tường đi dây khắp nơi?"
       },
       "socraticPrompt": "Làm thế nào để vừa di chuyển laptop tự do mà vẫn kết nối in ấn được với máy in ở tầng trệt mà không phải đục tường đi dây khắp nơi?",
       "distractorReasons": [
-        "Sai, phương pháp thủ công lạc hậu, tốn thời gian công sức.",
-        "Chính xác, mô hình mạng kết hợp không dây (Wi-Fi) và chia sẻ thiết bị qua mạng LAN là giải pháp chuẩn hiện đại và tối ưu chi phí.",
-        "Sai, phương án phi lý và gây mất an toàn kỹ thuật.",
-        "Sai, gây lãng phí ngân sách trường học gấp hàng chục lần."
-      ]
+        "Sai vì phương pháp thủ công lạc hậu, tốn thời gian công sức.",
+        "Đúng vì mô hình mạng kết hợp không dây (Wi-Fi) và chia sẻ thiết bị qua mạng LAN là giải pháp chuẩn hiện đại và tối ưu chi phí.",
+        "Sai vì phương án phi lý và gây mất an toàn kỹ thuật.",
+        "Sai vì gây lãng phí ngân sách trường học gấp hàng chục lần."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch02_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Kết nối có dây và xử lý sự cố mạng cơ bản (Bài 4, SGK Tin học 6, trang 19).",
         "steps": "Nguyên nhân sự cố rất rõ ràng: dây cáp mạng bị tuột ra khỏi cổng mạng trên máy tính. Hành động kỹ thuật chuẩn là cắm chặt lại đầu jack RJ45 vào cổng mạng.",
-        "trap": "Vội vàng gọi tổng đài báo hỏng đường cáp ngoài phố trong khi lỗi do tiếp xúc vật lý tại phòng."
+        "trap": "Vội vàng gọi tổng đài báo hỏng đường cáp ngoài phố trong khi lỗi do tiếp xúc vật lý tại phòng.",
+        "socraticPrompt": "Khi dây mạng bị lỏng tuột ra ngoài, việc đầu tiên cần làm để thiết bị có thể tiếp nhận lại tín hiệu là gì?"
       },
       "socraticPrompt": "Khi dây mạng bị lỏng tuột ra ngoài, việc đầu tiên cần làm để thiết bị có thể tiếp nhận lại tín hiệu là gì?",
       "distractorReasons": [
-        "Chính xác, thao tác cắm chặt lại đầu cáp mạng vào cổng mạng LAN là xử lý đúng nguyên nhân tiếp xúc vật lý.",
-        "Sai, cắt dây sẽ làm hỏng cấu trúc các sợi đồng xoắn đôi bên trong.",
-        "Sai, chưa cần thiết vì đường truyền từ nhà mạng đến Router vẫn đang có tín hiệu bình thường.",
-        "Sai, hành động phá hoại làm vỡ hỏng màn hình máy tính."
-      ]
+        "Đúng vì thao tác cắm chặt lại đầu cáp mạng vào cổng mạng LAN là xử lý đúng nguyên nhân tiếp xúc vật lý.",
+        "Sai vì cắt dây sẽ làm hỏng cấu trúc các sợi đồng xoắn đôi bên trong.",
+        "Sai vì chưa cần thiết vì đường truyền từ nhà mạng đến Router vẫn đang có tín hiệu bình thường.",
+        "Sai vì hành động phá hoại làm vỡ hỏng màn hình máy tính."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch02_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Văn hóa ứng xử trên môi trường số (Bài 5, SGK Tin học 6, trang 23).",
         "steps": "Học sinh văn minh khi dùng Internet phải biết tôn trọng bản thân và cộng đồng, nói năng chuẩn mực, kiểm chứng thông tin trước khi chia sẻ.",
-        "trap": "Nghĩ rằng trên mạng là thế giới ảo ẩn danh nên có thể tự do phát ngôn bất chấp đạo đức và pháp luật."
+        "trap": "Nghĩ rằng trên mạng là thế giới ảo ẩn danh nên có thể tự do phát ngôn bất chấp đạo đức và pháp luật.",
+        "socraticPrompt": "Một người học sinh ngoan, có ý thức khi bình luận trên không gian mạng cần giữ thái độ như thế nào?"
       },
       "socraticPrompt": "Một người học sinh ngoan, có ý thức khi bình luận trên không gian mạng cần giữ thái độ như thế nào?",
       "distractorReasons": [
-        "Sai, phát tán thông tin độc hại vi phạm đạo đức và pháp luật.",
-        "Chính xác, đây là tiêu chuẩn ứng xử văn hóa số văn minh, lành mạnh theo định hướng giáo dục.",
-        "Sai, đây là hành vi bạo lực ngôn từ trên mạng đáng lên án.",
-        "Sai, hành vi xâm phạm quyền riêng tư và gây mất an toàn cho bạn bè."
-      ]
+        "Sai vì phát tán thông tin độc hại vi phạm đạo đức và pháp luật.",
+        "Đúng vì đây là tiêu chuẩn ứng xử văn hóa số văn minh, lành mạnh theo định hướng giáo dục.",
+        "Sai vì đây là hành vi bạo lực ngôn từ trên mạng đáng lên án.",
+        "Sai vì hành vi xâm phạm quyền riêng tư và gây mất an toàn cho bạn bè."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch02_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Quy chuẩn kết nối Internet (Bài 5, SGK Tin học 6, trang 21-22).",
         "steps": "Mọi máy tính trên thế giới dù khác nhà sản xuất, khác hệ điều hành đều có thể giao tiếp với nhau nhờ cùng tuân thủ bộ giao thức mạng chuẩn chung toàn cầu (TCP/IP).",
-        "trap": "Nghĩ rằng cần phải có một sợi dây vật lý nối thẳng tắp giữa hai máy tính cá nhân."
+        "trap": "Nghĩ rằng cần phải có một sợi dây vật lý nối thẳng tắp giữa hai máy tính cá nhân.",
+        "socraticPrompt": "Muốn hai người khác tiếng nói hiểu nhau cần có quy ước chung, vậy hai máy tính khác hãng muốn trao đổi dữ liệu cần tuân theo điều gì?"
       },
       "socraticPrompt": "Muốn hai người khác tiếng nói hiểu nhau cần có quy ước chung, vậy hai máy tính khác hãng muốn trao đổi dữ liệu cần tuân theo điều gì?",
       "distractorReasons": [
-        "Sai, mạng máy tính truyền tín hiệu dữ liệu số, không phụ thuộc vào điện áp lưới điện quốc gia.",
-        "Chính xác, các máy tính toàn cầu giao tiếp được nhờ cùng sử dụng các bộ giao thức mạng (protocol) thống nhất.",
-        "Sai, ngôn ngữ con người không ảnh hưởng đến khả năng truyền dữ liệu của phần cứng mạng.",
-        "Sai, kết nối đi qua hàng ngàn trạm định tuyến và cáp quang biển trung gian, không nối thẳng đơn lẻ."
-      ]
+        "Sai vì mạng máy tính truyền tín hiệu dữ liệu số, không phụ thuộc vào điện áp lưới điện quốc gia.",
+        "Đúng vì các máy tính toàn cầu giao tiếp được nhờ cùng sử dụng các bộ giao thức mạng (protocol) thống nhất.",
+        "Sai vì ngôn ngữ con người không ảnh hưởng đến khả năng truyền dữ liệu của phần cứng mạng.",
+        "Sai vì kết nối đi qua hàng ngàn trạm định tuyến và cáp quang biển trung gian, không nối thẳng đơn lẻ."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch02_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Mô hình mạng gia đình (Bài 4, SGK Tin học 6, trang 18-20).",
         "steps": "Modem Wi-Fi là thiết bị kết nối trung tâm vừa nhận tín hiệu từ đường cáp quang nhà mạng, vừa phát sóng Wi-Fi/cấp cổng mạng cho toàn bộ các thiết bị đầu cuối trong nhà.",
-        "trap": "Nhầm thiết bị hiển thị to lớn (Smart TV) với thiết bị điều phối mạng trung tâm."
+        "trap": "Nhầm thiết bị hiển thị to lớn (Smart TV) với thiết bị điều phối mạng trung tâm.",
+        "socraticPrompt": "Thiết bị nào trong nhà cắm trực tiếp vào đường dây cáp viễn thông và phát sóng cho cả nhà cùng dùng?"
       },
       "socraticPrompt": "Thiết bị nào trong nhà cắm trực tiếp vào đường dây cáp viễn thông và phát sóng cho cả nhà cùng dùng?",
       "distractorReasons": [
-        "Sai, Smart TV chỉ là thiết bị đầu cuối thu nhận tín hiệu để phát phim.",
-        "Chính xác, Modem Wi-Fi là thiết bị kết nối trung tâm điều phối mạng của toàn bộ gia đình.",
-        "Sai, máy tính xách tay chỉ là thiết bị đầu cuối của người dùng.",
-        "Sai, điện thoại di động là thiết bị đầu cuối cá nhân."
-      ]
+        "Sai vì Smart TV chỉ là thiết bị đầu cuối thu nhận tín hiệu để phát phim.",
+        "Đúng vì Modem Wi-Fi là thiết bị kết nối trung tâm điều phối mạng của toàn bộ gia đình.",
+        "Sai vì máy tính xách tay chỉ là thiết bị đầu cuối của người dùng.",
+        "Sai vì điện thoại di động là thiết bị đầu cuối cá nhân."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch02_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Quy trình ứng dụng Internet trong học tập (Bài 5, SGK Tin học 6, trang 23).",
         "steps": "Khai thác thông tin học tập đúng phương pháp khoa học: Xác định chủ đề -> Tra cứu từ nguồn uy tín -> Phân tích, tổng hợp -> Trình bày và ghi rõ nguồn gốc tài liệu.",
-        "trap": "Hành vi đạo văn, sao chép nguyên văn trên mạng mà không chịu suy nghĩ và xử lý thông tin."
+        "trap": "Hành vi đạo văn, sao chép nguyên văn trên mạng mà không chịu suy nghĩ và xử lý thông tin.",
+        "socraticPrompt": "Để có một bài thuyết trình hay, các em cần làm gì với các bài viết tìm thấy trên mạng trước khi đưa vào bài của mình?"
       },
       "socraticPrompt": "Để có một bài thuyết trình hay, các em cần làm gì với các bài viết tìm thấy trên mạng trước khi đưa vào bài của mình?",
       "distractorReasons": [
-        "Sai, bài báo cáo cần có nội dung khoa học đầy đủ chứ không thể chỉ nộp 1 bức ảnh.",
-        "Chính xác, đây là quy trình học tập tích cực, rèn luyện năng lực tự học và phẩm chất trung thực khoa học.",
-        "Sai, hành vi sao chép không trích dẫn là vi phạm liêm chính học thuật và bản quyền.",
-        "Sai, lãng phí thời gian học tập vào việc giải trí không đúng lúc."
-      ]
+        "Sai vì bài báo cáo cần có nội dung khoa học đầy đủ chứ không thể chỉ nộp 1 bức ảnh.",
+        "Đúng vì đây là quy trình học tập tích cực, rèn luyện năng lực tự học và phẩm chất trung thực khoa học.",
+        "Sai vì hành vi sao chép không trích dẫn là vi phạm liêm chính học thuật và bản quyền.",
+        "Sai vì lãng phí thời gian học tập vào việc giải trí không đúng lúc."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

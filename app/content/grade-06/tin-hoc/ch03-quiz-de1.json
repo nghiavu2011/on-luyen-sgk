@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm World Wide Web (Bài 6, SGK Tin học 6, trang 24).",
         "steps": "WWW là mạng thông tin toàn cầu lưu trữ các trang web liên kết với nhau bằng siêu văn bản trên nền tảng Internet.",
-        "trap": "Nhầm lẫn WWW với dây cáp hoặc phần cứng."
+        "trap": "Nhầm lẫn WWW với dây cáp hoặc phần cứng.",
+        "socraticPrompt": "WWW là viết tắt của cụm từ tiếng Anh nào và nó dùng để liên kết cái gì lại với nhau?"
       },
       "socraticPrompt": "WWW là viết tắt của cụm từ tiếng Anh nào và nó dùng để liên kết cái gì lại với nhau?",
       "distractorReasons": [
-        "Chính xác theo định nghĩa chuẩn SGK Tin học 6 trang 24.",
-        "Sai, WWW không phải là trò chơi.",
-        "Sai, dây cáp mạng là thiết bị kết nối phần cứng vật lý.",
-        "Sai, quạt tản nhiệt là phần cứng làm mát thùng máy."
-      ]
+        "Đúng vì định nghĩa chuẩn SGK Tin học 6 trang 24.",
+        "Sai vì WWW không phải là trò chơi.",
+        "Sai vì dây cáp mạng là thiết bị kết nối phần cứng vật lý.",
+        "Sai vì quạt tản nhiệt là phần cứng làm mát thùng máy."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch03_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Trình duyệt web (Bài 6, SGK Tin học 6, trang 25).",
         "steps": "Google Chrome là phần mềm trình duyệt web giúp truy cập và hiển thị các website trên Internet.",
-        "trap": "Nhầm trình duyệt web với các tiện ích đồ họa hay máy tính bỏ túi."
+        "trap": "Nhầm trình duyệt web với các tiện ích đồ họa hay máy tính bỏ túi.",
+        "socraticPrompt": "Biểu tượng hình tròn có 3 màu đỏ, vàng, lục và tâm màu lam trên máy tính có tên là gì và dùng để làm gì?"
       },
       "socraticPrompt": "Biểu tượng hình tròn có 3 màu đỏ, vàng, lục và tâm màu lam trên máy tính có tên là gì và dùng để làm gì?",
       "distractorReasons": [
-        "Sai, Calculator chỉ để tính toán cộng trừ nhân chia số học.",
-        "Chính xác, Google Chrome là trình duyệt web hàng đầu hiện nay.",
-        "Sai, Paint là ứng dụng đồ họa vẽ tranh đơn giản.",
-        "Sai, Windows Media Player là phần mềm nghe nhạc và xem video offline."
-      ]
+        "Sai vì Calculator chỉ để tính toán cộng trừ nhân chia số học.",
+        "Đúng vì Google Chrome là trình duyệt web hàng đầu hiện nay.",
+        "Sai vì Paint là ứng dụng đồ họa vẽ tranh đơn giản.",
+        "Sai vì Windows Media Player là phần mềm nghe nhạc và xem video offline."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch03_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Chức năng máy tìm kiếm (Bài 7, SGK Tin học 6, trang 29).",
         "steps": "Máy tìm kiếm giúp người dùng tìm thấy các bài viết, hình ảnh, tài liệu liên quan đến từ khóa họ gõ vào.",
-        "trap": "Nghĩ máy tìm kiếm là thiết bị cơ khí lau dọn vật lý."
+        "trap": "Nghĩ máy tìm kiếm là thiết bị cơ khí lau dọn vật lý.",
+        "socraticPrompt": "Khi em vào trang google.com và gõ một câu hỏi, mục đích của em là gì?"
       },
       "socraticPrompt": "Khi em vào trang google.com và gõ một câu hỏi, mục đích của em là gì?",
       "distractorReasons": [
-        "Sai, máy tìm kiếm là phần mềm, không thể lau bụi phần cứng.",
-        "Chính xác, máy tìm kiếm tra cứu thông tin theo từ khóa trên Web.",
-        "Sai, hành vi trộm cắp phạm pháp, không phải chức năng máy tìm kiếm.",
-        "Sai, đây không phải là chức năng của máy tìm kiếm thông tin."
-      ]
+        "Sai vì máy tìm kiếm là phần mềm, không thể lau bụi phần cứng.",
+        "Đúng vì máy tìm kiếm tra cứu thông tin theo từ khóa trên Web.",
+        "Sai vì hành vi trộm cắp phạm pháp, không phải chức năng máy tìm kiếm.",
+        "Sai vì đây không phải là chức năng của máy tìm kiếm thông tin."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch03_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Cấu trúc địa chỉ email (Bài 8, SGK Tin học 6, trang 34).",
         "steps": "Địa chỉ email luôn có cấu trúc: <tên đăng nhập>@<tên máy chủ> (ví dụ: nguyenvanan@gmail.com). Ký hiệu '@' là dấu hiệu nhận diện bắt buộc.",
-        "trap": "Chọn nhầm ký hiệu đặc biệt khác như # hay %."
+        "trap": "Chọn nhầm ký hiệu đặc biệt khác như # hay %.",
+        "socraticPrompt": "Ký tự có hình chữ 'a' nằm cuộn tròn bên trong một vòng xoáy có tên là gì?"
       },
       "socraticPrompt": "Ký tự có hình chữ 'a' nằm cuộn tròn bên trong một vòng xoáy có tên là gì?",
       "distractorReasons": [
-        "Sai, dấu thăng dùng cho hashtag trên mạng xã hội.",
-        "Sai, dấu chấm than là dấu câu biểu cảm.",
-        "Chính xác, ký hiệu '@' là quy ước quốc tế bắt buộc trong địa chỉ thư điện tử.",
-        "Sai, dấu phần trăm dùng cho tỷ lệ toán học."
-      ]
+        "Sai vì dấu thăng dùng cho hashtag trên mạng xã hội.",
+        "Sai vì dấu chấm than là dấu câu biểu cảm.",
+        "Đúng vì ký hiệu '@' là quy ước quốc tế bắt buộc trong địa chỉ thư điện tử.",
+        "Sai vì dấu phần trăm dùng cho tỷ lệ toán học."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch03_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Trang chủ website (Bài 6, SGK Tin học 6, trang 24).",
         "steps": "Trang đầu tiên xuất hiện khi truy cập vào một website là Trang chủ (Homepage), chứa tổng quan liên kết đến toàn bộ nội dung của website đó.",
-        "trap": "Nhầm trang chủ với các trang quảng cáo bật lên."
+        "trap": "Nhầm trang chủ với các trang quảng cáo bật lên.",
+        "socraticPrompt": "Khi bước vào một ngôi nhà, cánh cửa chính dẫn vào phòng khách đầu tiên được ví như trang nào của website?"
       },
       "socraticPrompt": "Khi bước vào một ngôi nhà, cánh cửa chính dẫn vào phòng khách đầu tiên được ví như trang nào của website?",
       "distractorReasons": [
-        "Sai, không có khái niệm trang kết thúc trong cấu trúc web.",
-        "Sai, quảng cáo chỉ là nội dung phụ nếu website có cài đặt.",
-        "Sai, trang rác không phải là trang chính của website.",
-        "Chính xác, Trang chủ (Homepage) là bộ mặt đầu tiên của website."
-      ]
+        "Sai vì không có khái niệm trang kết thúc trong cấu trúc web.",
+        "Sai vì quảng cáo chỉ là nội dung phụ nếu website có cài đặt.",
+        "Sai vì trang rác không phải là trang chính của website.",
+        "Đúng vì Trang chủ (Homepage) là bộ mặt đầu tiên của website."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch03_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Ưu điểm của email (Bài 8, SGK Tin học 6, trang 34).",
         "steps": "Email truyền dữ liệu số qua mạng Internet nên thời gian chỉ mất vài giây, gửi được cho nhiều người cùng lúc với chi phí gần như bằng 0.",
-        "trap": "Nghĩ email có thể vận chuyển đồ vật vật lý như bưu kiện hoa quả."
+        "trap": "Nghĩ email có thể vận chuyển đồ vật vật lý như bưu kiện hoa quả.",
+        "socraticPrompt": "Một bức thư gửi qua đường bưu điện mất vài ngày mới đến nơi, còn bức thư điện tử mất bao lâu để đến hộp thư bạn em?"
       },
       "socraticPrompt": "Một bức thư gửi qua đường bưu điện mất vài ngày mới đến nơi, còn bức thư điện tử mất bao lâu để đến hộp thư bạn em?",
       "distractorReasons": [
-        "Chính xác, ưu thế vượt trội về tốc độ tức thời và chi phí là lý do email phổ biến toàn cầu.",
-        "Sai, thư điện tử chỉ truyền tải dữ liệu số, không vận chuyển đồ vật vật lý.",
-        "Sai, cả hai bên đều bắt buộc phải có tài khoản email và thiết bị kết nối mạng.",
-        "Sai, hòm thư điện tử vẫn có thể nhận phải thư rác nếu không cảnh giác."
-      ]
+        "Đúng vì ưu thế vượt trội về tốc độ tức thời và chi phí là lý do email phổ biến toàn cầu.",
+        "Sai vì thư điện tử chỉ truyền tải dữ liệu số, không vận chuyển đồ vật vật lý.",
+        "Sai vì cả hai bên đều bắt buộc phải có tài khoản email và thiết bị kết nối mạng.",
+        "Sai vì hòm thư điện tử vẫn có thể nhận phải thư rác nếu không cảnh giác."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

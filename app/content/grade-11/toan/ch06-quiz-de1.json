@@ -22,7 +22,16 @@
         "socraticPrompt": "27 là 3 mũ mấy? 3 mũ 3 bằng bao nhiêu?",
         "steps": "Ta có 27 = 3³. Do đó log_3 27 = log_3(3³) = 3.",
         "trap": "Lấy 27 chia 3 = 9."
-      }
+      },
+      "socraticPrompt": "27 là 3 mũ mấy? 3 mũ 3 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '9' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa lôgarit: log_a(a^α) = α.).",
+        "Đúng vì theo Định nghĩa lôgarit: log_a(a^α) = α.: Ta có 27 = 3³. Do đó log_3 27 = log_3(3³) = 3.",
+        "Sai vì '1/3' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa lôgarit: log_a(a^α) = α.).",
+        "Sai vì '81' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa lôgarit: log_a(a^α) = α.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c6_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Số mũ x có thể nhận giá trị âm, 0 hay dương được không?",
         "steps": "Hàm số mũ y = 2^x có nghĩa với mọi x thuộc R. Vậy tập xác định D = R.",
         "trap": "Nhầm với tập giá trị (0; +∞) hoặc nhầm với tập xác định của hàm logarit."
-      }
+      },
+      "socraticPrompt": "Số mũ x có thể nhận giá trị âm, 0 hay dương được không?",
+      "distractorReasons": [
+        "Sai vì '(0; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x (a > 0, a ≠ 1) xác định với mọi số thực x ∈ R.).",
+        "Sai vì '[0; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x (a > 0, a ≠ 1) xác định với mọi số thực x ∈ R.).",
+        "Đúng vì: Hàm số mũ y = 2^x có nghĩa với mọi x thuộc R. Vậy tập xác định D = R.",
+        "Sai vì 'R \\ {0}' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x (a > 0, a ≠ 1) xác định với mọi số thực x ∈ R.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c6_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Lôgarit có xác định tại x = 0 hoặc x âm không?",
         "steps": "Điều kiện xác định của y = log_2 x là x > 0. Do đó D = (0; +∞).",
         "trap": "Lấy cả dấu ngoặc vuông [0; +∞) vì nhầm log xác định tại 0."
-      }
+      },
+      "socraticPrompt": "Lôgarit có xác định tại x = 0 hoặc x âm không?",
+      "distractorReasons": [
+        "Đúng vì: Điều kiện xác định của y = log_2 x là x > 0. Do đó D = (0; +∞).",
+        "Sai vì 'D = [0; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Biểu thức dưới dấu lôgarit luôn phải dương nghiêm ngặt: x > 0.).",
+        "Sai vì 'D = R' không phù hợp với định lý/quy tắc trọng tâm (Biểu thức dưới dấu lôgarit luôn phải dương nghiêm ngặt: x > 0.).",
+        "Sai vì 'D = R \\ {0}' không phù hợp với định lý/quy tắc trọng tâm (Biểu thức dưới dấu lôgarit luôn phải dương nghiêm ngặt: x > 0.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c6_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Logarit biến phép nhân hai số thành phép tính gì của hai logarit?",
         "steps": "Theo SGK Toán 11, logarit của một tích bằng tổng các logarit: ln(ab) = ln a + ln b.",
         "trap": "Nhầm ln(ab) = ln a · ln b hoặc ln(a + b) = ln a + ln b."
-      }
+      },
+      "socraticPrompt": "Logarit biến phép nhân hai số thành phép tính gì của hai logarit?",
+      "distractorReasons": [
+        "Sai vì 'ln(ab) = ln a · ln b' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc logarit của một tích: ln(ab) = ln a + ln b với mọi a, b > 0.).",
+        "Sai vì 'ln(a + b) = ln a + ln b' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc logarit của một tích: ln(ab) = ln a + ln b với mọi a, b > 0.).",
+        "Sai vì 'ln(ab) = ln a / ln b' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc logarit của một tích: ln(ab) = ln a + ln b với mọi a, b > 0.).",
+        "Đúng vì: Theo SGK Toán 11, logarit của một tích bằng tổng các logarit: ln(ab) = ln a + ln b."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c6_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Trong các cơ số e, 1/3, 2 thì cơ số nào nhỏ hơn 1?",
         "steps": "Hàm số y = (1/3)^x có cơ số a = 1/3 thoả mãn 0 < a < 1 nên nghịch biến trên R.",
         "trap": "Nhầm e ≈ 2,718 là bé hơn 1."
-      }
+      },
+      "socraticPrompt": "Trong các cơ số e, 1/3, 2 thì cơ số nào nhỏ hơn 1?",
+      "distractorReasons": [
+        "Sai vì 'y = e^x' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x nghịch biến khi và chỉ khi 0 < a < 1.).",
+        "Đúng vì theo Hàm số mũ y = a^x nghịch biến khi và chỉ khi 0 < a < 1.: Hàm số y = (1/3)^x có cơ số a = 1/3 thoả mãn 0 < a < 1 nên nghịch biến trên R.",
+        "Sai vì 'y = 2^x' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x nghịch biến khi và chỉ khi 0 < a < 1.).",
+        "Sai vì 'y = log_2 x' không phù hợp với định lý/quy tắc trọng tâm (Hàm số mũ y = a^x nghịch biến khi và chỉ khi 0 < a < 1.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c6_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "2^(-3) bằng 1 chia cho 2 mũ 3. 2 mũ 3 bằng bao nhiêu?",
         "steps": "Ta có: 2^(-3) = 1 / (2³) = 1 / 8.",
         "trap": "Nhầm 2 · (-3) = -6 hoặc đổi dấu thành -8."
-      }
+      },
+      "socraticPrompt": "2^(-3) bằng 1 chia cho 2 mũ 3. 2 mũ 3 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '-6' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa luỹ thừa số mũ nguyên âm: a^(-n) = 1 / a^n.).",
+        "Sai vì '-8' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa luỹ thừa số mũ nguyên âm: a^(-n) = 1 / a^n.).",
+        "Đúng vì theo Định nghĩa luỹ thừa số mũ nguyên âm: a^(-n) = 1 / a^n.: Ta có: 2^(-3) = 1 / (2³) = 1 / 8.",
+        "Sai vì '1/6' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa luỹ thừa số mũ nguyên âm: a^(-n) = 1 / a^n.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

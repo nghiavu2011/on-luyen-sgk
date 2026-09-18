@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vị trí điểm nhìn của tác giả trong 'cô tô'.?",
+      "distractorReasons": [
+        "Đúng vì theo Vị trí điểm nhìn của tác giả trong 'Cô Tô'.: Nguyễn Tuân dậy từ canh tư, trèo lên mỏm đá đầu sư ngắm bình minh trên biển.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trong khoang tàu đánh cá của ngư dân' (Không phải quan sát từ trong đất liền hay trên tàu thủy.).",
+        "Sai vì 'Từ trên máy bay trực thăng' không phù hợp với định lý/quy tắc trọng tâm (Vị trí điểm nhìn của tác giả trong 'Cô Tô'.).",
+        "Sai vì 'Từ một ngọn hải đăng bỏ hoang' không phù hợp với định lý/quy tắc trọng tâm (Vị trí điểm nhìn của tác giả trong 'Cô Tô'.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -53,7 +61,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vị trí địa lý của hang én trong sgk ngữ văn 6.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tỉnh Ninh Bình' (Ninh Bình nổi tiếng với Tràng An; Hà Giang nổi tiếng với cao nguyên đá.).",
+        "Đúng vì theo Vị trí địa lý của Hang Én trong SGK Ngữ văn 6.: Hang Én là hang động lớn thứ 3 thế giới thuộc vùng núi đá vôi Phong Nha Kẻ Bàng, Quảng Bình.",
+        "Sai vì 'Tỉnh Hà Giang' không phù hợp với định lý/quy tắc trọng tâm (Vị trí địa lý của Hang Én trong SGK Ngữ văn 6.).",
+        "Sai vì 'Tỉnh Lâm Đồng' không phù hợp với định lý/quy tắc trọng tâm (Vị trí địa lý của Hang Én trong SGK Ngữ văn 6.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được hình ảnh biểu tượng trong 'cửu long giang ta ơi'.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Một sợi chỉ bạc mong manh vắt qua rừng thẳm' (Dải lụa bạch hay sợi chỉ bạc là hình ảnh tả dòng suối miền núi.).",
+        "Sai vì 'Một dải lụa bạch uốn lượn ven sườn đồi' không phù hợp với định lý/quy tắc trọng tâm (Hình ảnh biểu tượng trong 'Cửu Long Giang ta ơi'.).",
+        "Đúng vì theo Hình ảnh biểu tượng trong 'Cửu Long Giang ta ơi'.: Cửu Long nghĩa là chín con rồng, biểu tượng cho dòng sông cuồn cuộn sức sống nuôi dưỡng đất Phương Nam.",
+        "Sai vì 'Một chiếc cầu vồng bảy sắc sau cơn mưa' không phù hợp với định lý/quy tắc trọng tâm (Hình ảnh biểu tượng trong 'Cửu Long Giang ta ơi'.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng phong cách ký nguyễn tuân.?",
+      "distractorReasons": [
+        "Sai vì 'Sử dụng lối văn trào phúng châm biếm' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng phong cách ký Nguyễn Tuân.).",
+        "Sai vì 'Kể lại chi tiết diễn biến các trận đánh lịch sử' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng phong cách ký Nguyễn Tuân.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng nhiều số liệu thống kê địa chất khoa học' (Ký của Nguyễn Tuân không khô khan như báo cáo khoa học.).",
+        "Đúng vì theo Đặc trưng phong cách ký Nguyễn Tuân.: Nguyễn Tuân là bậc thầy tiếng Việt với những liên tưởng thị giác tráng lệ như bức tranh sơn dầu khổng lồ."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chiều sâu cảm xúc của thể loại du ký.?",
+      "distractorReasons": [
+        "Đúng vì theo Chiều sâu cảm xúc của thể loại du ký.: Hang Én đưa con người về trạng thái nguyên sơ, gột rửa những ồn ào bụi bặm của đời sống công nghiệp.",
+        "Sai vì 'Sợ hãi muốn tìm lối thoát chạy ra ngoài ngay lập tức' không phù hợp với định lý/quy tắc trọng tâm (Chiều sâu cảm xúc của thể loại du ký.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Thấy nhàm chán vì trong hang chỉ có bóng tối và dơi', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Muốn phá vỡ các thạch nhũ mang về làm quà' (Không chọn các thái độ tiêu cực hoặc hành vi phá hoại di sản.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: trách nhiệm công dân đối với chủ quyền biển đảo tổ quốc.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần đi du lịch chụp ảnh sống ảo khoe bạn bè', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Bảo vệ biển đảo bắt đầu từ việc hiểu biết, yêu quý và gìn giữ môi trường biển của đất nước.",
+        "Sai vì 'Khai thác tối đa san hô để bán cho khách nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Trách nhiệm công dân đối với chủ quyền biển đảo Tổ quốc.).",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm vì đã có lực lượng hải quân lo' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

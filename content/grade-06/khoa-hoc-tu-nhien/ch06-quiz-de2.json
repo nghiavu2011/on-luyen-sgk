@@ -21,7 +21,16 @@
         "socraticPrompt": "Tế bào động vật có thành xenlulozo cứng và lục lạp xanh không?",
         "steps": "Thành xenlulozo và lục lạp chỉ có ở tế bào thực vật.",
         "trap": "Cả tế bào thực vật và động vật đều có nhân hoàn chỉnh và màng tế bào."
-      }
+      },
+      "socraticPrompt": "Tế bào động vật có thành xenlulozo cứng và lục lạp xanh không?",
+      "distractorReasons": [
+        "Đúng vì: Thành xenlulozo và lục lạp chỉ có ở tế bào thực vật.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào có nhân hoàn chỉnh' (Cả tế bào thực vật và động vật đều có nhân hoàn chỉnh và màng tế bào.).",
+        "Sai vì 'Tế bào có màng tế bào mỏng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tế bào có chất tế bào trong suốt' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c6_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Vết thương liền sẹo được là nhờ tế bào da thực hiện quá trình gì để sinh thêm tế bào mới?",
         "steps": "Sự phân chia liên tục của các tế bào biểu bì lành tạo ra tế bào mới trám kín vết xước.",
         "trap": "Tế bào hồng cầu không thể biến đổi thành tế bào da."
-      }
+      },
+      "socraticPrompt": "Vết thương liền sẹo được là nhờ tế bào da thực hiện quá trình gì để sinh thêm tế bào mới?",
+      "distractorReasons": [
+        "Sai vì 'Do tế bào xương dài ra' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Sự phân chia liên tục của các tế bào biểu bì lành tạo ra tế bào mới trám kín vết xước.",
+        "Sai vì 'Do vi khuẩn xâm nhập vào vết thương tạo da mới' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do tế bào máu đông lại biến thành tế bào da' (Tế bào hồng cầu không thể biến đổi thành tế bào da.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c6_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "1 tế bào phân chia 4 lần tạo 2⁴ = 16 tế bào. Vậy 3 tế bào ban đầu sẽ tạo ra bao nhiêu?",
         "steps": "3 · 2⁴ = 3 · 16 = 48 tế bào con.",
         "trap": "Chỉ tính cho 1 tế bào (ra 16) hoặc nhân 3 x 4 = 12."
-      }
+      },
+      "socraticPrompt": "1 tế bào phân chia 4 lần tạo 2⁴ = 16 tế bào. Vậy 3 tế bào ban đầu sẽ tạo ra bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '12 tế bào' (Chỉ tính cho 1 tế bào (ra 16) hoặc nhân 3 x 4 = 12.).",
+        "Sai vì '64 tế bào' không phù hợp với định lý/quy tắc trọng tâm (Số tế bào con = Số tế bào mẹ ban đầu · 2^n = 3 · 2⁴ = 3 · 16 = 48 tế bào con.).",
+        "Đúng vì: 3 · 2⁴ = 3 · 16 = 48 tế bào con.",
+        "Sai vì '24 tế bào' không phù hợp với định lý/quy tắc trọng tâm (Số tế bào con = Số tế bào mẹ ban đầu · 2^n = 3 · 2⁴ = 3 · 16 = 48 tế bào con.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c6_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Dây điện dài dùng để truyền tín hiệu, sợi trục thần kinh dài phân nhánh giúp truyền gì?",
         "steps": "Các sợi thần kinh kéo dài giúp tiếp nhận và truyền xung thần kinh cực nhanh.",
         "trap": "Co dãn là chức năng của tế bào cơ; bơi trong máu là hồng cầu/bạch cầu."
-      }
+      },
+      "socraticPrompt": "Dây điện dài dùng để truyền tín hiệu, sợi trục thần kinh dài phân nhánh giúp truyền gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bơi lội tự do trong mạch máu' (Co dãn là chức năng của tế bào cơ; bơi trong máu là hồng cầu/bạch cầu.).",
+        "Sai vì 'Co dãn để tạo lực chuyển động xương khớp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dự trữ mỡ cho cơ thể' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Các sợi thần kinh kéo dài giúp tiếp nhận và truyền xung thần kinh cực nhanh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c6_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Bộ não trung tâm (nhân) phải nhân đôi và phân chia về 2 cực trước hay tế bào chất phân chia trước?",
         "steps": "Phân chia nhân -> Phân chia chất tế bào -> Tạo vách ngăn chia đôi.",
         "trap": "Nếu phân chia chất tế bào trước thì một tế bào con có thể không nhận được nhân di truyền."
-      }
+      },
+      "socraticPrompt": "Bộ não trung tâm (nhân) phải nhân đôi và phân chia về 2 cực trước hay tế bào chất phân chia trước?",
+      "distractorReasons": [
+        "Đúng vì: Phân chia nhân -> Phân chia chất tế bào -> Tạo vách ngăn chia đôi.",
+        "Sai vì 'Phân chia màng tế bào -> Phân chia nhân -> Phân chia chất tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Tế bào tự đứt đôi ngẫu nhiên không theo quy luật' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phân chia chất tế bào trước -> Phân chia nhân sau' (Nếu phân chia chất tế bào trước thì một tế bào con có thể không nhận được nhân di truyền.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c6_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Bào quan có màu xanh lục đặc trưng của lá cây chuyển động quanh dòng tế bào chất là gì?",
         "steps": "Các hạt màu xanh lục chính là lục lạp đang thực hiện chức năng quang hợp.",
         "trap": "Nhân tế bào không có màu xanh lục (nhân trong suốt chỉ thấy màu khi nhuộm)."
-      }
+      },
+      "socraticPrompt": "Bào quan có màu xanh lục đặc trưng của lá cây chuyển động quanh dòng tế bào chất là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhân tế bào' (Nhân tế bào không có màu xanh lục (nhân trong suốt chỉ thấy màu khi nhuộm).).",
+        "Đúng vì: Các hạt màu xanh lục chính là lục lạp đang thực hiện chức năng quang hợp.",
+        "Sai vì phủ định sai bản chất: 'Không bào lớn' trái ngược với kiến thức SGK.",
+        "Sai vì 'Màng tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

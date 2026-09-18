@@ -21,7 +21,16 @@
         "socraticPrompt": "Tinh dầu bốc hơi cùng nước khi đun sôi, khi làm lạnh ngưng tụ thì tinh dầu nổi lên hay chìm xuống?",
         "steps": "Đun sôi lôi cuốn tinh dầu -> ngưng tụ làm lạnh -> chiết tách lớp tinh dầu nổi ở trên.",
         "trap": "Tinh dầu không tan trong nước nên không dùng phương pháp cô cạn thông thường."
-      }
+      },
+      "socraticPrompt": "Tinh dầu bốc hơi cùng nước khi đun sôi, khi làm lạnh ngưng tụ thì tinh dầu nổi lên hay chìm xuống?",
+      "distractorReasons": [
+        "Đúng vì: Đun sôi lôi cuốn tinh dầu -> ngưng tụ làm lạnh -> chiết tách lớp tinh dầu nổi ở trên.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tinh dầu hoà tan hoàn toàn trong nước ở nhiệt độ phòng' (Tinh dầu không tan trong nước nên không dùng phương pháp cô cạn thông thường.).",
+        "Sai vì 'Dùng nam châm hút tinh dầu' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nghiền nát vỏ cây rồi lọc qua giấy lọc thông thường' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c5_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Khi đun sôi nước máy, chỉ có nước bốc hơi hay cả muối khoáng và cặn đá vôi cũng bốc hơi theo?",
         "steps": "Nước bốc hơi ở 100 °C -> làm lạnh ngưng tụ -> tách hoàn toàn tạp chất rắn ở lại.",
         "trap": "Giấy lọc vi sinh không tách được các ion muối khoáng hoà tan như phương pháp chưng cất."
-      }
+      },
+      "socraticPrompt": "Khi đun sôi nước máy, chỉ có nước bốc hơi hay cả muối khoáng và cặn đá vôi cũng bốc hơi theo?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì máy chưng cất lọc nước qua hàng triệu lớp giấy lọc' (Giấy lọc vi sinh không tách được các ion muối khoáng hoà tan như phương pháp chưng cất.).",
+        "Đúng vì: Nước bốc hơi ở 100 °C -> làm lạnh ngưng tụ -> tách hoàn toàn tạp chất rắn ở lại.",
+        "Sai vì 'Vì nước cất được pha thêm cồn tiệt trùng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì nước được chiếu tia X phá huỷ mọi phân tử' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c5_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Hạt keo phèn chua làm gì với các hạt đất sét nhỏ li ti lơ lửng trong nước đục?",
         "steps": "Keo tụ phù sa lắng xuống đáy giúp làm trong nước đục.",
         "trap": "Phèn chua chỉ làm trong nước (vật lí/keo tụ) chứ không có tính sát trùng; phải dùng Cloramin B hoặc đun sôi mới diệt khuẩn."
-      }
+      },
+      "socraticPrompt": "Hạt keo phèn chua làm gì với các hạt đất sét nhỏ li ti lơ lửng trong nước đục?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiêu diệt hoàn toàn vi khuẩn gây bệnh trong nước' (Phèn chua chỉ làm trong nước (vật lí/keo tụ) chứ không có tính sát trùng; phải dùng Cloramin B hoặc đun sôi mới diệt khuẩn.).",
+        "Sai vì 'Làm nước có vị ngọt thanh dễ uống' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Keo tụ phù sa lắng xuống đáy giúp làm trong nước đục.",
+        "Sai vì 'Biến nước lũ thành nước khoáng thiên nhiên' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c5_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Dầu mỏ nổi hay chìm trong nước biển? Phao nổi trên mặt nước chặn được lớp dầu không?",
         "steps": "Nhẹ hơn nước + không tan -> nổi trên mặt nước -> dùng phao quây hút tách dầu.",
         "trap": "Nếu dầu tan trong nước thì không thể dùng phao quây cơ học để xử lý."
-      }
+      },
+      "socraticPrompt": "Dầu mỏ nổi hay chìm trong nước biển? Phao nổi trên mặt nước chặn được lớp dầu không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dầu mỏ tan vô hạn trong nước biển' (Nếu dầu tan trong nước thì không thể dùng phao quây cơ học để xử lý.).",
+        "Sai vì 'Dầu mỏ phản ứng sinh bọt khí với muối biển' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dầu mỏ nặng hơn nước biển chìm xuống đáy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nhẹ hơn nước + không tan -> nổi trên mặt nước -> dùng phao quây hút tách dầu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c5_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Nước nóng hoà tan được nhiều đường hơn nước lạnh rất nhiều chứng tỏ điều gì về độ tan?",
         "steps": "Nhiệt độ tăng làm độ tan của đường tăng lên vượt bậc.",
         "trap": "Một số ít chất như khí gas thì độ tan giảm khi nhiệt độ tăng, nhưng với đường là chất rắn thì tăng."
-      }
+      },
+      "socraticPrompt": "Nước nóng hoà tan được nhiều đường hơn nước lạnh rất nhiều chứng tỏ điều gì về độ tan?",
+      "distractorReasons": [
+        "Đúng vì: Nhiệt độ tăng làm độ tan của đường tăng lên vượt bậc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhiệt độ không ảnh hưởng đến độ tan của chất rắn' (Một số ít chất như khí gas thì độ tan giảm khi nhiệt độ tăng, nhưng với đường là chất rắn thì tăng.).",
+        "Sai vì 'Đường ở 60 °C bị phân huỷ thành khí bay đi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nước ở 60 °C biến thành chất khác' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c5_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khi thả vào nước: gỗ thế nào, cát thế nào, muối thế nào?",
         "steps": "Cho vào nước: Vớt vụn gỗ nổi -> Lọc tách cát chìm -> Cô cạn nước muối thu muối sạch.",
         "trap": "Không chất nào có từ tính nên không thể dùng nam châm."
-      }
+      },
+      "socraticPrompt": "Khi thả vào nước: gỗ thế nào, cát thế nào, muối thế nào?",
+      "distractorReasons": [
+        "Sai vì 'Đun nóng ở 500 °C đốt cháy hết' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Cho vào nước: Vớt vụn gỗ nổi -> Lọc tách cát chìm -> Cô cạn nước muối thu muối sạch.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng nam châm hút cát -> gạn lấy muối' (Không chất nào có từ tính nên không thể dùng nam châm.).",
+        "Sai vì 'Dùng quạt thổi bay cả cát và muối' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

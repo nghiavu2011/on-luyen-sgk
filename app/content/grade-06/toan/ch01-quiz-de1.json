@@ -3,115 +3,202 @@
   "examId": "de1",
   "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 1: Khái niệm & Nhận biết",
   "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "q01",
+      "id": "t6_c1_d1_01",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khái niệm hoặc định nghĩa cơ bản nào sau đây là ĐÚNG trong Chương 1: Tập hợp các số tự nhiên?",
+      "topic": "Ký hiệu tập hợp",
+      "question": "Cho tập hợp A = {2; 4; 6; 8}. Khẳng định nào sau đây là ĐÚNG?",
       "options": [
-        "Khái niệm và quy tắc chuẩn mực được quy định trong SGK Toán 6 về Chương 1: Tập hợp các số tự nhiên",
-        "Tất cả các số tự nhiên đều nhỏ hơn 0",
-        "Một số chia hết cho 2 thì chữ số tận cùng bắt buộc phải là 3",
-        "Hình vuông có 4 cạnh không bằng nhau"
+        "4 ∈ A",
+        "5 ∈ A",
+        "2 ∉ A",
+        "{6} ∈ A"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phần tử x thuộc tập A ký hiệu là x ∈ A.",
+        "steps": [
+          "Bước 1: Quan sát tập A gồm các số 2, 4, 6, 8.",
+          "Bước 2: Số 4 nằm trong tập A nên 4 ∈ A là khẳng định đúng.",
+          "Bước 3: Loại các phương án sai (5 không thuộc A, 2 có thuộc A, {6} là tập con chứ không phải phần tử)."
+        ],
+        "trap": "Nhầm lẫn giữa phần tử (4 ∈ A) và tập hợp con ({4} ⊂ A).",
+        "socraticPrompt": "Số 4 có mặt trong danh sách các phần tử của tập hợp A hay không? Ký hiệu thuộc viết như thế nào?"
+      },
+      "socraticPrompt": "Số 4 có mặt trong danh sách các phần tử của tập hợp A hay không? Ký hiệu thuộc viết như thế nào?",
+      "distractorReasons": [
+        "Đúng vì 4 là một phần tử có mặt trong tập hợp A = {2; 4; 6; 8}.",
+        "Sai vì số 5 không nằm trong tập A (viết đúng là 5 ∉ A).",
+        "Sai vì số 2 có mặt trong tập A nên 2 ∈ A chứ không phải 2 ∉ A.",
+        "Sai vì {6} là một tập hợp con của A, không dùng ký hiệu phần tử ∈ mà phải dùng ⊂."
       ],
       "answer": 0,
-      "breakdown": {
-        "concept": "Định nghĩa chuẩn mực trong Chương 1: Tập hợp các số tự nhiên.",
-        "steps": "Học sinh cần nắm vững lý thuyết và các tính chất cơ bản được đóng khung trong SGK.",
-        "trap": "Các phương án gây nhiễu đưa ra các mệnh đề toán học sai hiển nhiên."
-      }
+      "correctIndex": 0
     },
     {
-      "id": "q02",
+      "id": "t6_c1_d1_02",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Ký hiệu toán học nào sau đây được dùng đúng quy ước trong chương trình Toán 6?",
+      "topic": "Tập hợp số tự nhiên",
+      "question": "Tập hợp N* bao gồm những số nào sau đây?",
       "options": [
-        "Ký hiệu thuộc",
-        "Dấu lớn hơn viết ngược thành dấu bằng",
-        "Ký hiệu số nguyên âm viết trước dấu gạch chéo",
-        "Ký hiệu góc viết dưới dạng hình tròn đặc"
+        "Các số tự nhiên nhỏ hơn 10",
+        "Tất cả các số tự nhiên khác 0: {1; 2; 3; 4; ...}",
+        "Các số tự nhiên chẵn lớn hơn 0",
+        "Toàn bộ các số tự nhiên bao gồm cả số 0: {0; 1; 2; 3; ...}"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Quy ước ký hiệu toán học quốc tế và SGK.",
-        "steps": "Ghi nhớ chính xác cách viết và ý nghĩa của các ký hiệu tập hợp, số học.",
-        "trap": "Nhầm lẫn giữa quan hệ phần tử với tập hợp (∈) và quan hệ tập hợp con (⊂).",
-        "calculation": "∈), không thuộc (∉), tập hợp con (⊂"
-      }
+        "concept": "Ký hiệu N* là tập hợp các số tự nhiên khác 0 (N* = {1; 2; 3; ...}).",
+        "steps": [
+          "Bước 1: Nhớ lại định nghĩa tập hợp N (có số 0) và N* (không có số 0).",
+          "Bước 2: Chọn phương án tập các số tự nhiên khác 0."
+        ],
+        "trap": "Quên rằng dấu sao (*) biểu thị việc loại bỏ phần tử số 0.",
+        "socraticPrompt": "Dấu hoa thị (*) trong ký hiệu N* có ý nghĩa loại trừ số nào khỏi tập hợp số tự nhiên?"
+      },
+      "socraticPrompt": "Dấu hoa thị (*) trong ký hiệu N* có ý nghĩa loại trừ số nào khỏi tập hợp số tự nhiên?",
+      "distractorReasons": [
+        "Sai vì N* là tập hợp vô hạn các số tự nhiên khác 0, không bị giới hạn nhỏ hơn 10.",
+        "Đúng vì N* biểu thị tập hợp các số tự nhiên khác 0 bắt đầu từ 1, 2, 3...",
+        "Sai vì N* bao gồm cả số chẵn và số lẻ khác 0.",
+        "Sai vì tập hợp có số 0 là tập N thông thường, không có dấu sao."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "q03",
-      "difficulty": "medium",
+      "id": "t6_c1_d1_03",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Tính chất giao hoán và kết hợp của phép tính giúp ta làm điều gì?",
+      "topic": "Chữ số La Mã",
+      "question": "Số La Mã XXVII biểu thị số nào trong hệ thập phân?",
       "options": [
-        "Đổi chỗ và nhóm các số hạng / thừa số một cách hợp lý để tính nhanh và thuận tiện nhất",
-        "Làm cho kết quả phép tính thay đổi tùy ý",
-        "Chỉ áp dụng được cho số 0 và số 1",
-        "Chỉ áp dụng được khi làm bài tập hình học"
+        "17",
+        "23",
+        "27",
+        "32"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tính chất của các phép toán đại số.",
-        "steps": "Giao hoán: a + b = b + a; Kết hợp: (a + b) + c = a + (b + c). Áp dụng để tính nhẩm nhanh.",
-        "trap": "Phép trừ và phép chia không có tính chất giao hoán."
-      }
+        "concept": "Giá trị chữ số La Mã: X = 10, V = 5, I = 1. Khi ghép theo thứ tự giảm dần thì cộng giá trị lại.",
+        "steps": [
+          "Bước 1: Phân tích XXVII = X + X + V + I + I.",
+          "Bước 2: Thay số: 10 + 10 + 5 + 1 + 1 = 27."
+        ],
+        "trap": "Nhầm lẫn giữa VII (7) và VIII (8) hoặc tính nhầm số X.",
+        "socraticPrompt": "Mỗi chữ X biểu thị 10, vậy XX là 20. Chữ V là 5 và II là 2. Tổng giá trị của chúng là bao nhiêu?"
+      },
+      "socraticPrompt": "Mỗi chữ X biểu thị 10, vậy XX là 20. Chữ V là 5 và II là 2. Tổng giá trị của chúng là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 17 viết là XVII (chỉ có một chữ X).",
+        "Sai vì 23 viết là XXIII.",
+        "Đúng vì XX = 20, VII = 7, tổng lại bằng 27.",
+        "Sai vì 32 viết là XXXII (phải có ba chữ X)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "q04",
-      "difficulty": "medium",
+      "id": "t6_c1_d1_04",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Khi đọc một đề toán thực tiễn thuộc chủ đề này, thao tác tư duy đầu tiên học sinh cần làm là gì?",
+      "topic": "Nhân hai lũy thừa cùng cơ số",
+      "question": "Kết quả của phép tính nhân 2^3 × 2^4 được viết dưới dạng một lũy thừa là:",
       "options": [
-        "Xác định đại lượng đã cho, đại lượng cần tìm và mô hình hóa bài toán thành biểu thức toán học",
-        "Lấy bừa các con số trong đề nhân lại với nhau",
-        "Đoán mò đáp số mà không cần lập luận",
-        "Bỏ qua phần đơn vị đo lường"
+        "4^7",
+        "2^12",
+        "4^12",
+        "2^7"
       ],
-      "answer": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Phương pháp giải toán có lời văn theo định hướng phát triển năng lực.",
-        "steps": "Đọc kỹ đề -> Tóm tắt -> Thiết lập biểu thức -> Tính toán -> Đổi đơn vị và kết luận.",
-        "trap": "Không đọc kỹ đề dễ dẫn đến làm sai yêu cầu câu hỏi."
-      }
+        "concept": "Quy tắc nhân hai lũy thừa cùng cơ số: a^m × a^n = a^(m + n).",
+        "steps": [
+          "Bước 1: Xác định cơ số chung là 2.",
+          "Bước 2: Giữ nguyên cơ số 2 và cộng hai số mũ: 3 + 4 = 7.",
+          "Bước 3: Viết kết quả là 2^7."
+        ],
+        "trap": "Nhân cả cơ số thành 4 hoặc nhân hai số mũ 3 × 4 = 12.",
+        "socraticPrompt": "Khi nhân hai lũy thừa có cùng cơ số, ta làm gì với cơ số và làm gì với số mũ?"
+      },
+      "socraticPrompt": "Khi nhân hai lũy thừa có cùng cơ số, ta làm gì với cơ số và làm gì với số mũ?",
+      "distractorReasons": [
+        "Sai vì cơ số phải giữ nguyên là 2, không được lấy 2 nhân 2 thành 4.",
+        "Sai vì số mũ phải cộng lại (3 + 4 = 7) chứ không phải nhân số mũ (3 × 4 = 12).",
+        "Sai vì vừa nhân cơ số vừa nhân số mũ, sai hoàn toàn bản chất lũy thừa.",
+        "Đúng vì theo quy tắc a^m . a^n = a^(m+n), giữ nguyên cơ số 2 và lấy 3 + 4 = 7."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "q05",
-      "difficulty": "hard",
+      "id": "t6_c1_d1_05",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "Quy tắc nào sau đây đòi hỏi học sinh phải cực kỳ cẩn thận về dấu và thứ tự?",
+      "topic": "Quy ước lũy thừa",
+      "question": "Với số tự nhiên a khác 0, giá trị của a^0 theo quy ước toán học bằng:",
       "options": [
-        "Quy tắc dấu ngoặc và thứ tự thực hiện: trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ",
-        "Cộng trừ trước rồi mới tính lũy thừa sau",
-        "Bỏ ngoặc có dấu trừ đằng trước mà giữ nguyên dấu các số hạng",
-        "Tự ý đổi dấu các số hạng khi chưa có dấu ngoặc"
+        "0",
+        "1",
+        "a",
+        "Không xác định"
       ],
-      "answer": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Thứ tự thực hiện phép tính và quy tắc dấu ngoặc.",
-        "steps": "Khi bỏ dấu ngoặc có dấu '-' đằng trước: '+' thành '-', '-' thành '+'.",
-        "trap": "Học sinh hay quên đổi dấu các số hạng đứng sau trong ngoặc."
-      }
+        "concept": "Mọi số tự nhiên khác 0 khi nâng lên lũy thừa bậc 0 đều bằng 1 (a^0 = 1 với a ≠ 0).",
+        "steps": [
+          "Bước 1: Ghi nhớ quy ước toán học cơ bản: a^1 = a và a^0 = 1 (a ≠ 0).",
+          "Bước 2: Chọn đáp án 1."
+        ],
+        "trap": "Tưởng số mũ bằng 0 thì giá trị phép tính bằng 0.",
+        "socraticPrompt": "Xét phép chia hai lũy thừa bằng nhau a^n : a^n = a^(n - n) = a^0. Mà một số chia cho chính nó thì bằng mấy?"
+      },
+      "socraticPrompt": "Xét phép chia hai lũy thừa bằng nhau a^n : a^n = a^(n - n) = a^0. Mà một số chia cho chính nó thì bằng mấy?",
+      "distractorReasons": [
+        "Sai vì học sinh hay nhầm lẫn có số 0 ở số mũ thì tích bằng 0.",
+        "Đúng vì theo quy ước lũy thừa toán học và bản chất phép chia a^n : a^n, ta có a^0 = 1.",
+        "Sai vì a^1 mới bằng a, còn a^0 = 1.",
+        "Sai vì chỉ có 0^0 là không xác định, còn khi a ≠ 0 thì a^0 luôn bằng 1."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "q06",
-      "difficulty": "expert",
+      "id": "t6_c1_d1_06",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "question": "★ Nhận định nào sau đây thể hiện tư duy khái quát hóa toán học ở mức độ cao?",
+      "topic": "Thứ tự thực hiện phép tính",
+      "question": "Trong một biểu thức không có dấu ngoặc và chỉ gồm các phép tính cộng, trừ, nhân, chia, lũy thừa, thứ tự ưu tiên đúng là:",
       "options": [
-        "Biết chứng minh tính chất tổng quát bằng chữ (đại số) thay vì chỉ thử nghiệm vài trường hợp số cụ thể",
-        "Học thuộc lòng đáp án của 10 bài toán mẫu",
-        "Chỉ bấm máy tính bỏ túi mà không hiểu bản chất thuật toán",
-        "Khẳng định một định lý đúng chỉ vì thấy một ví dụ đúng"
+        "Cộng, trừ → Nhân, chia → Lũy thừa",
+        "Nhân, chia → Lũy thừa → Cộng, trừ",
+        "Lũy thừa → Nhân, chia → Cộng, trừ",
+        "Tính từ trái sang phải bất kể phép tính gì"
       ],
-      "answer": 0,
+      "correct": 2,
       "breakdown": {
-        "concept": "Tư duy suy luận logic và chứng minh toán học.",
-        "steps": "Một ví dụ không đủ để chứng minh một mệnh đề luôn đúng, nhưng một phản ví dụ đủ để bác bỏ mệnh đề sai.",
-        "trap": "Tránh ngụy biện suy diễn vội vã từ trường hợp cá biệt."
-      }
+        "concept": "Thứ tự chuẩn khi không có ngoặc: Lũy thừa thực hiện trước, sau đó đến nhân và chia, cuối cùng là cộng và trừ.",
+        "steps": [
+          "Bước 1: Ưu tiên bậc cao nhất là lũy thừa.",
+          "Bước 2: Ưu tiên bậc nhì là nhân và chia.",
+          "Bước 3: Ưu tiên cuối cùng là cộng và trừ."
+        ],
+        "trap": "Tính máy móc từ trái sang phải mà không tuân thủ thứ tự ưu tiên phép toán.",
+        "socraticPrompt": "Giữa phép lũy thừa, phép nhân và phép cộng, phép tính nào có độ ưu tiên cao nhất cần làm trước?"
+      },
+      "socraticPrompt": "Giữa phép lũy thừa, phép nhân và phép cộng, phép tính nào có độ ưu tiên cao nhất cần làm trước?",
+      "distractorReasons": [
+        "Sai vì làm ngược hoàn toàn thứ tự ưu tiên chuẩn mực.",
+        "Sai vì lũy thừa phải được tính trước nhân chia.",
+        "Đúng vì SGK Toán 6 quy định rõ: Lũy thừa → Nhân và chia → Cộng và trừ.",
+        "Sai vì chỉ tính từ trái sang phải khi các phép toán có cùng cấp ưu tiên (chỉ toàn nhân chia hoặc chỉ toàn cộng trừ)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

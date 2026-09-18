@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Ý nghĩa nhân văn của cuộc sống vị tha (Bài 2, SGK GDCD 6, trang 12).",
         "steps": "Cuộc sống chỉ thực sự có ý nghĩa khi con người biết sống vì người khác, biết yêu thương và cống hiến giá trị tốt đẹp cho xã hội.",
-        "trap": "Hiểu nghĩa đen hạn hẹp về tuổi thọ sinh học."
+        "trap": "Hiểu nghĩa đen hạn hẹp về tuổi thọ sinh học.",
+        "socraticPrompt": "Một người sống trăm tuổi nhưng chỉ ích kỷ lo cho riêng mình, với một người sống chan hòa yêu thương giúp đỡ muôn người, ai để lại tiếng thơm muôn đời?"
       },
       "socraticPrompt": "Một người sống trăm tuổi nhưng chỉ ích kỷ lo cho riêng mình, với một người sống chan hòa yêu thương giúp đỡ muôn người, ai để lại tiếng thơm muôn đời?",
       "distractorReasons": [
-        "Sai, hiểu sai hoàn toàn ý niệm triết học của câu danh ngôn.",
-        "Chính xác, khẳng định chân lý cao đẹp về tình yêu thương là cội nguồn của phẩm giá con người.",
-        "Sai, người nghèo tiền bạc vẫn có thể giàu có về lòng trắc ẩn và sự giúp đỡ tinh thần.",
-        "Sai, sức khỏe là vốn quý để con người tiếp tục cống hiến tình yêu thương."
-      ]
+        "Sai vì hiểu sai hoàn toàn ý niệm triết học của câu danh ngôn.",
+        "Đúng vì khẳng định chân lý cao đẹp về tình yêu thương là cội nguồn của phẩm giá con người.",
+        "Sai vì người nghèo tiền bạc vẫn có thể giàu có về lòng trắc ẩn và sự giúp đỡ tinh thần.",
+        "Sai vì sức khỏe là vốn quý để con người tiếp tục cống hiến tình yêu thương."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch02_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Phương pháp thiện nguyện nhân văn bảo vệ tự tôn trẻ nghèo (Bài 2, SGK GDCD 6 & Chuyên gia tâm lý trẻ em).",
         "steps": "Trẻ em nghèo rất nhạy cảm và dễ tổn thương trước ánh nhìn thương hại. Trao quà kín đáo, trang trọng bằng tình bạn chân thành giúp các em cảm nhận được sự ấm áp mà không bị mặc cảm bêu tên trước đám đông.",
-        "trap": "Tổ chức rình rang hình thức để chụp ảnh báo cáo mà vô tình làm tổn thương sâu sắc đứa trẻ."
+        "trap": "Tổ chức rình rang hình thức để chụp ảnh báo cáo mà vô tình làm tổn thương sâu sắc đứa trẻ.",
+        "socraticPrompt": "Nếu là một học sinh nghèo, em muốn nhận món quà trong vòng tay ấm áp của cô giáo và bạn bè hay bị đưa lên sân khấu trước nghìn người để mọi người chỉ trỏ?"
       },
       "socraticPrompt": "Nếu là một học sinh nghèo, em muốn nhận món quà trong vòng tay ấm áp của cô giáo và bạn bè hay bị đưa lên sân khấu trước nghìn người để mọi người chỉ trỏ?",
       "distractorReasons": [
-        "Sai, hình thức phản giáo dục, làm nhục và khắc sâu vết thương tâm lý tự ti của trẻ em nghèo.",
-        "Sai, hành vi vô lễ và thiếu văn hóa.",
-        "Chính xác, giải pháp tràn đầy lòng nhân ái tinh tế, đúng chuẩn mực sư phạm và tâm lý học xã hội bảo vệ người yếu thế.",
-        "Sai, xâm phạm quyền riêng tư và làm tổn hại danh dự của học sinh nghèo."
-      ]
+        "Sai vì hình thức phản giáo dục, làm nhục và khắc sâu vết thương tâm lý tự ti của trẻ em nghèo.",
+        "Sai vì hành vi vô lễ và thiếu văn hóa.",
+        "Đúng vì giải pháp tràn đầy lòng nhân ái tinh tế, đúng chuẩn mực sư phạm và tâm lý học xã hội bảo vệ người yếu thế.",
+        "Sai vì xâm phạm quyền riêng tư và làm tổn hại danh dự của học sinh nghèo."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch02_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Nghĩa đồng bào và sức mạnh tình người trong hoạn nạn (Bài 2, SGK GDCD 6, trang 10-11).",
         "steps": "Trong gian khó hiểm nguy, tinh thần 'tương thân tương ái' của dân tộc Việt Nam lại bừng sáng, kết nối triệu con tim đùm bọc lẫn nhau vượt qua thiên tai dịch bệnh.",
-        "trap": "Nhìn nhận sai lệch bản chất của nghĩa cử đồng bào thành hoạt động thương mại."
+        "trap": "Nhìn nhận sai lệch bản chất của nghĩa cử đồng bào thành hoạt động thương mại.",
+        "socraticPrompt": "Hai chữ 'Đồng bào' có nghĩa là gì? Tại sao người Việt Nam dù ở đâu cũng coi nhau như anh em cùng sinh ra từ một bọc trăm trứng?"
       },
       "socraticPrompt": "Hai chữ 'Đồng bào' có nghĩa là gì? Tại sao người Việt Nam dù ở đâu cũng coi nhau như anh em cùng sinh ra từ một bọc trăm trứng?",
       "distractorReasons": [
-        "Sai, rất nhiều người còn khó khăn nhưng vẫn sẵn sàng nhường cơm sẻ áo.",
-        "Sai, xuất phát từ mệnh lệnh trái tim tự nguyện của nhân dân.",
-        "Sai, các mô hình 0 đồng hoàn toàn miễn phí vì nghĩa tình cộng đồng.",
-        "Chính xác, tôn vinh truyền thống nhân ái vĩ đại và sức mạnh cội nguồn của khối đại đoàn kết dân tộc."
-      ]
+        "Sai vì rất nhiều người còn khó khăn nhưng vẫn sẵn sàng nhường cơm sẻ áo.",
+        "Sai vì xuất phát từ mệnh lệnh trái tim tự nguyện của nhân dân.",
+        "Sai vì các mô hình 0 đồng hoàn toàn miễn phí vì nghĩa tình cộng đồng.",
+        "Đúng vì tôn vinh truyền thống nhân ái vĩ đại và sức mạnh cội nguồn của khối đại đoàn kết dân tộc."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch02_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Lòng dũng cảm bảo vệ bạn bè trước cái ác (Bài 2, SGK GDCD 6, trang 11-13).",
         "steps": "Yêu thương con người không thể đi liền với sự hèn nhát im lặng trước bạo lực. Cách hành xử thông minh, dũng cảm là tìm đến sự can thiệp của thầy cô và nhà trường để bảo vệ nạn nhân an toàn.",
-        "trap": "Im lặng vô cảm vì sợ hãi hoặc manh động dùng bạo lực giải quyết bạo lực."
+        "trap": "Im lặng vô cảm vì sợ hãi hoặc manh động dùng bạo lực giải quyết bạo lực.",
+        "socraticPrompt": "Sự im lặng của người tốt trước hành vi xấu sẽ khiến những kẻ bắt nạt càng lấn tới hay tự động dừng lại?"
       },
       "socraticPrompt": "Sự im lặng của người tốt trước hành vi xấu sẽ khiến những kẻ bắt nạt càng lấn tới hay tự động dừng lại?",
       "distractorReasons": [
-        "Chính xác, giải pháp dũng cảm, mưu trí, bảo vệ bạn bè bằng sức mạnh của kỷ luật và pháp luật nhà trường.",
-        "Sai, hành động liều lĩnh thiếu kiểm soát có thể gây nguy hiểm cho bản thân.",
-        "Sai, sự im lặng tiếp tay cho cái ác lộng hành.",
-        "Sai, tước đoạt quyền học tập chính đáng của bạn là sai lầm."
-      ]
+        "Đúng vì giải pháp dũng cảm, mưu trí, bảo vệ bạn bè bằng sức mạnh của kỷ luật và pháp luật nhà trường.",
+        "Sai vì hành động liều lĩnh thiếu kiểm soát có thể gây nguy hiểm cho bản thân.",
+        "Sai vì sự im lặng tiếp tay cho cái ác lộng hành.",
+        "Sai vì tước đoạt quyền học tập chính đáng của bạn là sai lầm."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch02_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Lòng trắc ẩn mở rộng với muôn loài và môi trường sống (Bài 2, SGK GDCD 6, trang 12-13).",
         "steps": "Lòng nhân ái đích thực không chỉ giới hạn giữa người với người mà còn mở rộng thành tình yêu thiên nhiên, sự trắc ẩn với động vật và ý thức bảo vệ ngôi nhà chung Trái Đất.",
-        "trap": "Quan niệm hẹp hòi xem con người có quyền thống trị hủy diệt muôn loài."
+        "trap": "Quan niệm hẹp hòi xem con người có quyền thống trị hủy diệt muôn loài.",
+        "socraticPrompt": "Một đứa trẻ có trái tim biết yêu thương đàn chim nhỏ ríu rít chuyền cành thì khi lớn lên có dễ trở thành người độc ác tàn nhẫn không?"
       },
       "socraticPrompt": "Một đứa trẻ có trái tim biết yêu thương đàn chim nhỏ ríu rít chuyền cành thì khi lớn lên có dễ trở thành người độc ác tàn nhẫn không?",
       "distractorReasons": [
-        "Sai, hành vi tàn phá sinh thái đe dọa tương lai nhân loại.",
-        "Chính xác, tư duy nhân sinh quan tiến bộ gắn kết tình yêu thương nhân loại với sự sống hòa hợp cùng Mẹ Thiên Nhiên.",
-        "Sai, hành vi tàn nhẫn hủy diệt đa dạng sinh học.",
-        "Sai, hủy hoại nguồn nước sinh hoạt gây hại cho cộng đồng."
-      ]
+        "Sai vì hành vi tàn phá sinh thái đe dọa tương lai nhân loại.",
+        "Đúng vì tư duy nhân sinh quan tiến bộ gắn kết tình yêu thương nhân loại với sự sống hòa hợp cùng Mẹ Thiên Nhiên.",
+        "Sai vì hành vi tàn nhẫn hủy diệt đa dạng sinh học.",
+        "Sai vì hủy hoại nguồn nước sinh hoạt gây hại cho cộng đồng."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch02_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Chữa lành tâm lý bằng tình bạn chân thành (Bài 2, SGK GDCD 6 & Chuyên gia tâm lý học).",
         "steps": "Vỏ bọc lầm lì của đứa trẻ tổn thương chỉ có thể tan chảy bằng sự chân thành, ấm áp và kiên nhẫn dài lâu của tình bạn vị tha, không đòi hỏi trả ơn.",
-        "trap": "Mất kiên nhẫn bỏ cuộc hoặc can thiệp thô bạo bằng mệnh lệnh kỷ luật."
+        "trap": "Mất kiên nhẫn bỏ cuộc hoặc can thiệp thô bạo bằng mệnh lệnh kỷ luật.",
+        "socraticPrompt": "Nắng ấm của tình bạn chân thành có thể làm tan chảy tảng băng mặc cảm cô độc trong lòng Mai hay không?"
       },
       "socraticPrompt": "Nắng ấm của tình bạn chân thành có thể làm tan chảy tảng băng mặc cảm cô độc trong lòng Mai hay không?",
       "distractorReasons": [
-        "Sai, thờ ơ bỏ mặc đẩy bạn vào vòng xoáy trầm cảm nặng hơn.",
-        "Sai, áp đặt cảm xúc một cách vô lý và phản tác dụng.",
-        "Chính xác, phương pháp cảm hóa và nâng đỡ tâm lý học đường tuyệt vời nhất bằng tình yêu thương thuần khiết.",
-        "Sai, làm lộ chuyện buồn riêng tư gây tổn thương nặng nề thêm cho bạn."
-      ]
+        "Sai vì thờ ơ bỏ mặc đẩy bạn vào vòng xoáy trầm cảm nặng hơn.",
+        "Sai vì áp đặt cảm xúc một cách vô lý và phản tác dụng.",
+        "Đúng vì phương pháp cảm hóa và nâng đỡ tâm lý học đường tuyệt vời nhất bằng tình yêu thương thuần khiết.",
+        "Sai vì làm lộ chuyện buồn riêng tư gây tổn thương nặng nề thêm cho bạn."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

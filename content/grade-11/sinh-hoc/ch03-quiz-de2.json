@@ -32,7 +32,16 @@
           "1": "Ethylene làm rụng lá và lão hóa mô, ức chế tái sinh mô tế bào.",
           "3": "ABA ức chế phân chia tế bào làm mô sẹo ngừng sinh trưởng."
         }
-      }
+      },
+      "socraticPrompt": "Hormone Cytokinin có vai trò kích thích chồi bên hay kích thích ra rễ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tỉ lệ Auxin / Cytokinin rất cao (nhiều Auxin, ít Cytokinin)' (Học sinh hay nhớ nhầm ngược: nghĩ Auxin kích thích ra chồi và Cytokinin kích thích ra rễ.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ sử dụng duy nhất hormone Ethylene mà không dùng Auxin hay Cytokinin', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Trong nuôi cấy mô in vitro: Khi tỉ lệ Auxin và Cytokinin cân bằng -> tế bào chỉ phân chia vô tổ chức tạo mô sẹo (callus). Khi tăng tỉ lệ Cytokinin cao hơn Auxin.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ bổ sung nồng độ acid abscisic (ABA) thật cao để mô sẹo ngủ nghỉ', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch03-d2-q02",
@@ -56,7 +65,16 @@
           "2": "Biến thái thành ếch tí hon xảy ra khi nòng nọc bị tiêm quá sớm lượng lớn thyroxine.",
           "1": "Rụng đuôi và mọc chân cần có nồng độ cao thyroxine kích hoạt."
         }
-      }
+      },
+      "socraticPrompt": "Tuyến giáp tiết ra hormone nào điều hòa sự rụng đuôi và mọc chi ở nòng nọc?",
+      "distractorReasons": [
+        "Sai vì 'Nòng nọc sẽ chết ngay lập tức sau vài giờ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nòng nọc lập tức rụng đuôi và mọc 4 chân ngay sau khi cắt tuyến giáp' (Nghĩ rằng cắt tuyến giáp làm nòng nọc chết ngay hoặc biến thái nhanh bất thường.).",
+        "Sai vì 'Nòng nọc sẽ biến thái thành ếch tí hon có kích thước cực kì bé' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tuyến giáp tiết ra thyroxine - hormone chịu trách nhiệm kích hoạt quá trình tiêu biến mang và đuôi, kích thích phát triển phổi và 4 chi ở nòng nọc để chuyển thà."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch03-d2-q03",
@@ -80,7 +98,16 @@
           "2": "Juvenile không phải thuốc diệt tằm mà giúp tằm lớn khỏe hơn.",
           "3": "Juvenile ngăn cản biến thái nên làm chậm bướm ngài nở, không làm nở sớm."
         }
-      }
+      },
+      "socraticPrompt": "Hormone Juvenile giữ cho sâu ở trạng thái nào, và sâu ăn thêm lá dâu sẽ giúp tuyến tơ ra sao?",
+      "distractorReasons": [
+        "Đúng vì: Hormone Juvenile có tác dụng ức chế sự hoá nhộng, giữ sâu tằm ở giai đoạn ấu trùng. Phun chất tương tự Juvenile ở sâu tuổi cuối làm kéo dài thời gian sâu ăn dâu.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm cho tằm ngừng ăn và lập tức nhả tơ đóng kén ngay trong ngày' (Nghĩ thuốc kích thích nhả tơ sớm (kích thích nhả tơ sớm dùng ecdysone).).",
+        "Sai vì 'Diệt trừ bớt các con tằm yếu ớt trong nong tằm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Làm cho bướm ngài nở ra sớm hơn để kịp lấy trứng giống' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch03-d2-q04",
@@ -104,7 +131,16 @@
           "2": "Bấm ngọn nhằm thu hoạch chồi cành bên chứ không phải mục đích nuôi rễ.",
           "3": "Bấm ngọn ngăn cây cao lên, kích thích cây xòe rộng sang hai bên."
         }
-      }
+      },
+      "socraticPrompt": "Khi cắt bỏ chồi ngọn nơi sản xuất auxin thì các chồi nách ở thân sẽ phản ứng như thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do Ethylene chi phối; bấm ngọn để kích thích cây trút bớt lá già' (Nghĩ bấm ngọn làm cây còi cọc ngừng sinh trưởng (thực tế cây phân nhánh rậm rạp hơn nhiều).).",
+        "Đúng vì: Chồi đỉnh là nơi tổng hợp chính của Auxin (IAA). Dòng auxin vận chuyển xuống phía dưới với nồng độ cao ức chế sự phân chia tế bào ở các chồi nách (ưu thế ngọn).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Do Gibberellin sinh ra ở rễ; bấm ngọn để dồn toàn bộ dinh dưỡng nuôi bộ rễ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Do Cytokinin từ lá; bấm ngọn giúp thân cây cao vút lên nhanh chóng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch03-d2-q05",
@@ -128,7 +164,16 @@
           "1": "Bệnh lùn do thiếu GH lúc nhỏ, không phải do thừa GH.",
           "3": "Bướu cổ lồi mắt là bệnh Basedow do cường tuyến giáp, không liên quan trực tiếp đến GH."
         }
-      }
+      },
+      "socraticPrompt": "Ở người trưởng thành, các đĩa sụn tiếp hợp ở đầu xương dài còn khả năng phân chia để dài ra nữa không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bệnh khổng lồ (chiều cao toàn thân tiếp tục tăng lên tới 2,5 - 3 mét)' (với bệnh khổng lồ (bệnh khổng lồ chỉ xảy ra khi thừa GH ở TRẺ EM trước khi sụn tiếp hợp đóng)).",
+        "Sai vì 'Bệnh lùn tuyến yên do xương bị tiêu biến' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Ở người trưởng thành, các đĩa sụn tăng trưởng ở đầu xương dài đã bị canxi hoá (cốt hoá hoàn toàn) nên chiều cao cơ thể không thể tăng thêm. Khi GH tiết ra quá n.",
+        "Sai vì 'Bệnh bướu cổ lồi mắt do thừa iodine' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch03-d2-q06",
@@ -152,7 +197,16 @@
           "2": "Mùa thu khô hanh tạo ra dải gỗ màu sẫm (gỗ muộn).",
           "1": "Mỗi năm chỉ có 1 chu kì tạo 1 vòng năm (gồm 1 sáng + 1 sẫm)."
         }
-      }
+      },
+      "socraticPrompt": "Trong một chu kì năm, mùa nào tế bào gỗ phân chia mạnh tạo mạch to thành mỏng sáng màu?",
+      "distractorReasons": [
+        "Sai vì 'Cây 30 tuổi; dải sáng hình thành vào mùa đông lạnh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cây 7,5 tuổi; mỗi năm sinh ra 4 dải gỗ sáng sẫm' (Cộng gộp 15 + 15 = 30 tuổi (nhầm mỗi dải là một năm riêng biệt).).",
+        "Sai vì 'Cây 15 tuổi; dải sáng hình thành vào mùa thu khô hanh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Mỗi năm tầng sinh mạch tạo ra một vòng gỗ năm gồm 2 dải: một dải gỗ sớm (hình thành vào mùa xuân, tế bào sinh trưởng mạnh, mạch ống to, thành mỏng nên có màu sá."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

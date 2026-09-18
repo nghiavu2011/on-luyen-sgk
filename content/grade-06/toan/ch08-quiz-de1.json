@@ -1,128 +1,208 @@
 {
   "chapterId": "ch08",
   "examId": "de1",
-  "title": "Toán 6 — Chương 8: Đề 1 — Điểm, đường thẳng, tia & Đoạn thẳng",
-  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết quan hệ hình học cơ bản giữa điểm, đường thẳng, tia và đoạn thẳng.",
+  "title": "Toán 6 — Chương 8: Những hình hình học cơ bản: Đề 1: Khái niệm & Nhận biết",
+  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c8_d1_q1",
+      "id": "t6_c8_d1_01",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Đường thẳng qua hai điểm",
-      "question": "Có bao nhiêu đường thẳng đi qua hai điểm phân biệt A và B cho trước?",
+      "topic": "Điểm và đường thẳng",
+      "question": "Qua hai điểm phân biệt A và B, ta vẽ được:",
       "options": [
-        "Có đúng 1 đường thẳng",
-        "Có vô số đường thẳng",
-        "Có đúng 2 đường thẳng",
-        "Không có đường thẳng nào"
+        "Duy nhất một đường thẳng",
+        "Hai đường thẳng",
+        "Vô số đường thẳng",
+        "Không vẽ được đường thẳng nào"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tiên đề cơ bản về đường thẳng đi qua hai điểm phân biệt.",
-        "socraticPrompt": "Qua hai điểm phân biệt, em có thể đặt thước thẳng để kẻ được mấy đường thẳng duy nhất?",
-        "steps": "Theo tiên đề hình học: Qua hai điểm phân biệt cho trước, có một và chỉ một đường thẳng đi qua chúng.",
-        "trap": "Nhầm với việc qua một điểm duy nhất thì có vô số đường thẳng."
-      }
+        "concept": "Tiên đề hình học cơ bản: Có một và chỉ một đường thẳng đi qua hai điểm phân biệt cho trước.",
+        "steps": [
+          "Bước 1: Đặt thước đi qua hai điểm A và B.",
+          "Bước 2: Vạch một đường thẳng theo mép thước.",
+          "Bước 3: Đường thẳng này là duy nhất, không thể có đường thẳng thứ hai đi qua cả A và B."
+        ],
+        "trap": "Nhầm với trường hợp chỉ có 1 điểm (qua 1 điểm vẽ được vô số đường thẳng).",
+        "socraticPrompt": "Nếu chỉ có 1 điểm thì vẽ được vô số đường thẳng. Nhưng khi đã cố định 2 điểm phân biệt thì có mấy đường thẳng đi qua cả hai điểm đó?"
+      },
+      "socraticPrompt": "Nếu chỉ có 1 điểm thì vẽ được vô số đường thẳng. Nhưng khi đã cố định 2 điểm phân biệt thì có mấy đường thẳng đi qua cả hai điểm đó?",
+      "distractorReasons": [
+        "Đúng vì qua hai điểm phân biệt chỉ vẽ được một và chỉ một đường thẳng duy nhất.",
+        "Sai vì không thể có 2 đường thẳng khác nhau cùng đi qua 2 điểm phân biệt.",
+        "Sai vì vô số đường thẳng là trường hợp đi qua 1 điểm duy nhất.",
+        "Sai vì luôn luôn vẽ được một đường thẳng đi qua hai điểm bất kỳ."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c8_d1_q2",
+      "id": "t6_c8_d1_02",
       "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Điểm nằm giữa hai điểm",
-      "question": "Cho ba điểm thẳng hàng A, B, C sao cho điểm B nằm giữa hai điểm A và C. Khẳng định nào sau đây là ĐÚNG?",
+      "topic": "Số đo góc vuông",
+      "question": "Góc vuông là góc có số đo bằng:",
       "options": [
-        "AB + AC = BC",
-        "AB + BC = AC",
-        "AC + BC = AB",
-        "AB = BC = AC"
+        "60°",
+        "90°",
+        "180°",
+        "120°"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Hệ thức độ dài khi một điểm nằm giữa hai điểm.",
-        "socraticPrompt": "Khi B nằm giữa A và C, độ dài đoạn thẳng lớn AC bằng tổng của hai đoạn thẳng nhỏ nào?",
-        "steps": "Khi điểm B nằm giữa hai điểm A và C thì độ dài toàn phần AC bằng tổng hai phần: AB + BC = AC.",
-        "trap": "Nhầm lẫn vị trí điểm nằm giữa dẫn đến viết sai hệ thức cộng độ dài."
-      }
+        "concept": "Theo định nghĩa SGK Toán 6: Góc có số đo bằng 90° là góc vuông.",
+        "steps": [
+          "Bước 1: Góc nhọn < 90°.",
+          "Bước 2: Góc vuông = 90°.",
+          "Bước 3: Góc tù: 90° < góc < 180°.",
+          "Bước 4: Góc bẹt = 180°."
+        ],
+        "trap": "Nhầm góc vuông 90° với góc bẹt 180°.",
+        "socraticPrompt": "Góc của chiếc ê-ke vuông có số đo bằng bao nhiêu độ?"
+      },
+      "socraticPrompt": "Góc của chiếc ê-ke vuông có số đo bằng bao nhiêu độ?",
+      "distractorReasons": [
+        "Sai vì 60° là góc nhọn (ví dụ góc tam giác đều).",
+        "Đúng vì góc vuông có số đo chính xác bằng 90°.",
+        "Sai vì 180° là góc bẹt.",
+        "Sai vì 120° là góc tù."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c8_d1_q3",
-      "difficulty": "medium",
+      "id": "t6_c8_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc điểm trung điểm của đoạn thẳng",
+      "question": "Điểm M là trung điểm của đoạn thẳng AB có độ dài 10 cm. Độ dài đoạn thẳng AM bằng:",
+      "options": [
+        "20 cm",
+        "10 cm",
+        "5 cm",
+        "2,5 cm"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "M là trung điểm của AB thì M nằm giữa A, B và MA = MB = AB : 2.",
+        "steps": [
+          "Bước 1: Áp dụng tính chất trung điểm: AM = AB : 2.",
+          "Bước 2: Thay số: AM = 10 : 2 = 5 cm."
+        ],
+        "trap": "Nhân đôi đoạn thẳng thành 20 cm hoặc giữ nguyên 10 cm.",
+        "socraticPrompt": "Trung điểm chia đoạn thẳng thành hai nửa bằng nhau. Cả đoạn dài 10 cm thì một nửa dài bao nhiêu?"
+      },
+      "socraticPrompt": "Trung điểm chia đoạn thẳng thành hai nửa bằng nhau. Cả đoạn dài 10 cm thì một nửa dài bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì lấy 10 × 2 = 20 cm.",
+        "Sai vì 10 cm là độ dài của cả đoạn thẳng AB.",
+        "Đúng vì trung điểm chia đôi đoạn thẳng: AM = 10 / 2 = 5 cm.",
+        "Sai vì chia 4 thay vì chia 2."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c8_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Phân loại góc",
+      "question": "Góc có số đo 135° là loại góc nào sau đây?",
+      "options": [
+        "Góc bẹt",
+        "Góc nhọn",
+        "Góc vuông",
+        "Góc tù"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Góc lớn hơn 90° và nhỏ hơn 180° là góc tù.",
+        "steps": [
+          "Bước 1: So sánh 135° với 90°: 135° > 90°.",
+          "Bước 2: So sánh 135° với 180°: 135° < 180°.",
+          "Bước 3: Vì 90° < 135° < 180° nên góc đó là góc tù."
+        ],
+        "trap": "Nhầm góc nhọn (nhỏ hơn 90°) hoặc góc bẹt (bằng 180°).",
+        "socraticPrompt": "135° lớn hơn 90° và nhỏ hơn 180°. Góc như vậy mang tên gọi là góc gì?"
+      },
+      "socraticPrompt": "135° lớn hơn 90° và nhỏ hơn 180°. Góc như vậy mang tên gọi là góc gì?",
+      "distractorReasons": [
+        "Sai vì góc bẹt phải bằng đúng 180°.",
+        "Sai vì góc nhọn phải có số đo nhỏ hơn 90°.",
+        "Sai vì góc vuông phải bằng đúng 90°.",
+        "Đúng vì 90° < 135° < 180° theo định nghĩa là góc tù."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c8_d1_05",
+      "difficulty": "easy",
       "type": "multiple_choice",
       "topic": "Hai tia đối nhau",
-      "question": "Cho hai tia Ox và Oy là hai tia đối nhau. Lấy điểm A thuộc tia Ox, điểm B thuộc tia Oy (A, B khác O). Điểm nào nằm giữa hai điểm còn lại?",
+      "question": "Hai tia Ox và Oy là hai tia đối nhau thì góc xOy là:",
       "options": [
-        "Điểm A nằm giữa O và B",
-        "Điểm B nằm giữa A và O",
-        "Điểm O nằm giữa A và B",
-        "Không có điểm nào nằm giữa"
-      ],
-      "correct": 2,
-      "breakdown": {
-        "concept": "Đặc điểm vị trí điểm trên hai tia đối nhau.",
-        "socraticPrompt": "Vì Ox và Oy là hai tia đối nhau chung gốc O, điểm A nằm bên tia Ox còn B nằm bên tia Oy thì điểm O nằm ở đâu?",
-        "steps": "Hai tia Ox và Oy đối nhau nên tạo thành đường thẳng xy. Điểm A thuộc Ox và B thuộc Oy nằm về hai phía so với điểm O, do đó điểm O nằm giữa hai điểm A và B.",
-        "trap": "Nhầm vị trí của điểm O sang bên ngoài đoạn thẳng AB."
-      }
-    },
-    {
-      "id": "t6_c8_d1_q4",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Trung điểm của đoạn thẳng",
-      "question": "Cho đoạn thẳng AB có độ dài 10 cm. Điểm M là trung điểm của đoạn thẳng AB. Độ dài của đoạn thẳng AM bằng bao nhiêu?",
-      "options": [
-        "4 cm",
-        "6 cm",
-        "5 cm",
-        "10 cm"
-      ],
-      "correct": 2,
-      "breakdown": {
-        "concept": "Tính chất trung điểm của đoạn thẳng: MA = MB = AB / 2.",
-        "socraticPrompt": "Trung điểm chia đoạn thẳng thành hai phần bằng nhau, vậy AM bằng đoạn thẳng AB chia cho mấy?",
-        "steps": "Vì M là trung điểm của đoạn thẳng AB nên AM = MB = AB / 2 = 10 / 2 = 5 cm.",
-        "trap": "Nhầm trung điểm là chia 3 hoặc nhân đôi độ dài."
-      }
-    },
-    {
-      "id": "t6_c8_d1_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Tính độ dài đoạn thẳng trên tia",
-      "question": "Trên tia Ox, lấy hai điểm A và B sao cho OA = 3 cm và OB = 8 cm. Độ dài đoạn thẳng AB bằng bao nhiêu?",
-      "options": [
-        "5 cm",
-        "11 cm",
-        "4 cm",
-        "6 cm"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Tính độ dài đoạn thẳng khi biết vị trí hai điểm trên cùng một tia.",
-        "socraticPrompt": "Trên cùng tia Ox, OA = 3 cm nhỏ hơn OB = 8 cm nên điểm nào nằm giữa? Đoạn AB bằng đoạn nào trừ đoạn nào?",
-        "steps": "Vì hai điểm A và B cùng thuộc tia Ox và OA < OB (3 cm < 8 cm) nên điểm A nằm giữa hai điểm O và B. Ta có: OA + AB = OB, suy ra AB = OB - OA = 8 - 3 = 5 cm.",
-        "trap": "Lấy OA + OB = 3 + 8 = 11 cm (nhầm sang trường hợp hai điểm thuộc hai tia đối nhau)."
-      }
-    },
-    {
-      "id": "t6_c8_d1_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Số đường thẳng nối từng cặp điểm",
-      "question": "Cho trước 5 điểm phân biệt, trong đó không có ba điểm nào thẳng hàng. Qua từng cặp hai điểm vẽ một đường thẳng. Hỏi vẽ được tất cả bao nhiêu đường thẳng?",
-      "options": [
-        "20 đường thẳng",
-        "10 đường thẳng",
-        "15 đường thẳng",
-        "5 đường thẳng"
+        "Góc vuông (90°)",
+        "Góc bẹt (180°)",
+        "Góc nhọn",
+        "Góc không"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Công thức tính số đường thẳng từ n điểm không thẳng hàng: n(n - 1) / 2.",
-        "socraticPrompt": "Mỗi điểm trong 5 điểm nối với 4 điểm còn lại được bao nhiêu lượt? Mỗi đường thẳng được tính mấy lần?",
-        "steps": "Số đường thẳng vẽ được là: 5 · (5 - 1) / 2 = (5 · 4) / 2 = 20 / 2 = 10 đường thẳng.",
-        "trap": "Lấy 5 · 4 = 20 đường thẳng do quên chia 2 (vì đường thẳng AB trùng với đường thẳng BA)."
-      }
+        "concept": "Hai tia đối nhau chung gốc tạo thành một đường thẳng, góc tạo bởi chúng là góc bẹt có số đo 180°.",
+        "steps": [
+          "Bước 1: Ox và Oy là hai tia đối nhau nên chúng tạo thành đường thẳng xy.",
+          "Bước 2: Góc xOy có hai cạnh là hai tia đối nhau nên là góc bẹt.",
+          "Bước 3: Số đo của góc bẹt bằng 180°."
+        ],
+        "trap": "Nhầm sang hai tia vuông góc (tạo góc vuông 90°).",
+        "socraticPrompt": "Hai tia đối nhau tạo thành một đường thẳng thẳng tắp. Góc tạo bởi hai tia đó là góc gì và bằng bao nhiêu độ?"
+      },
+      "socraticPrompt": "Hai tia đối nhau tạo thành một đường thẳng thẳng tắp. Góc tạo bởi hai tia đó là góc gì và bằng bao nhiêu độ?",
+      "distractorReasons": [
+        "Sai vì góc vuông hình thành khi hai tia vuông góc nhau.",
+        "Đúng vì hai tia đối nhau tạo thành góc bẹt có số đo bằng 180°.",
+        "Sai vì góc nhọn nhỏ hơn 90°.",
+        "Sai vì góc không có hai cạnh trùng nhau."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c8_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đếm số đoạn thẳng",
+      "question": "Cho 3 điểm A, B, C không thẳng hàng. Có bao nhiêu đoạn thẳng nối từng cặp điểm trong ba điểm đó?",
+      "options": [
+        "4 đoạn thẳng",
+        "2 đoạn thẳng",
+        "3 đoạn thẳng",
+        "6 đoạn thẳng"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Cứ 2 điểm nối được 1 đoạn thẳng. Số đoạn thẳng từ n điểm là n(n - 1) : 2.",
+        "steps": [
+          "Bước 1: Nối A với B được đoạn thẳng AB.",
+          "Bước 2: Nối B với C được đoạn thẳng BC.",
+          "Bước 3: Nối C với A được đoạn thẳng CA.",
+          "Bước 4: Có tất cả 3 đoạn thẳng (tạo thành tam giác ABC)."
+        ],
+        "trap": "Đếm lặp AB và BA thành 6 đoạn thẳng.",
+        "socraticPrompt": "Ba điểm tạo thành 3 đỉnh của một tam giác. Tam giác đó có mấy cạnh (đoạn thẳng)?"
+      },
+      "socraticPrompt": "Ba điểm tạo thành 3 đỉnh của một tam giác. Tam giác đó có mấy cạnh (đoạn thẳng)?",
+      "distractorReasons": [
+        "Sai vì thừa số đoạn thẳng.",
+        "Sai vì bỏ sót 1 đoạn thẳng.",
+        "Đúng vì có đúng 3 đoạn thẳng là AB, BC, CA.",
+        "Sai vì đếm lặp cả chiều ngược (AB và BA là cùng một đoạn thẳng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

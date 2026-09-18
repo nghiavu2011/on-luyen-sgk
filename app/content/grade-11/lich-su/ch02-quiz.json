@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Giá trị thời đại của Cách mạng tháng Mười Nga đối với cách mạng Việt Nam là",
       "options": [
-        "Mở ra con đường cứu nước giải phóng dân tộc theo quỹ đạo cách mạng vô sản",
-        "Cung cấp toàn bộ ngân sách kháng chiến",
         "Bắt buộc rập khuôn mô hình Xô viết",
+        "Cung cấp toàn bộ ngân sách kháng chiến",
+        "Mở ra con đường cứu nước giải phóng dân tộc theo quỹ đạo cách mạng vô sản",
         "Triệt tiêu văn hóa truyền thống"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Nguyễn Ái Quốc đã vận dụng sáng tạo chủ nghĩa Mác - Lênin vào thực tiễn Việt Nam.",
       "breakdown": {
         "concept": "Giá trị CM T10 với VN",
         "steps": "Độc lập dân tộc gắn liền với CNXH.",
         "socraticPrompt": "Con đường cứu nước Bác Hồ lựa chọn là gì?"
-      }
+      },
+      "socraticPrompt": "Con đường cứu nước Bác Hồ lựa chọn là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bắt buộc rập khuôn mô hình Xô viết' không phù hợp với định lý/quy tắc trọng tâm (Giá trị CM T10 với VN).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Cung cấp toàn bộ ngân sách kháng chiến', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Giá trị CM T10 với VN: Độc lập dân tộc gắn liền với CNXH.",
+        "Sai vì 'Triệt tiêu văn hóa truyền thống' không phù hợp với định lý/quy tắc trọng tâm (Giá trị CM T10 với VN)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Sự khác biệt mang tính quyết định giữa Đổi mới ở Việt Nam và Cải tổ ở Liên Xô là",
       "options": [
-        "Việt Nam giữ vững ổn định chính trị để đổi mới kinh tế, Liên Xô buông lỏng chính trị gây hỗn loạn",
+        "Cả hai nước đều thất bại",
         "Việt Nam xóa bỏ toàn bộ kinh tế tư nhân",
         "Liên Xô chỉ đổi mới nông nghiệp",
-        "Cả hai nước đều thất bại"
+        "Việt Nam giữ vững ổn định chính trị để đổi mới kinh tế, Liên Xô buông lỏng chính trị gây hỗn loạn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Ổn định chính trị là tiền đề then chốt cho phát triển kinh tế bền vững.",
       "breakdown": {
         "concept": "So sánh Đổi mới - Cải tổ",
         "steps": "Giữ vững định hướng và vai trò lãnh đạo.",
         "socraticPrompt": "Tại sao Việt Nam đổi mới thành công còn Liên Xô sụp đổ?"
-      }
+      },
+      "socraticPrompt": "Tại sao Việt Nam đổi mới thành công còn Liên Xô sụp đổ?",
+      "distractorReasons": [
+        "Sai vì 'Cả hai nước đều thất bại' không phù hợp với định lý/quy tắc trọng tâm (So sánh Đổi mới - Cải tổ).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Việt Nam xóa bỏ toàn bộ kinh tế tư nhân', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Liên Xô chỉ đổi mới nông nghiệp', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo So sánh Đổi mới - Cải tổ: Giữ vững định hướng và vai trò lãnh đạo."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Trách nhiệm học sinh",
         "steps": "Tự giác học tập, rèn đức luyện tài.",
         "socraticPrompt": "Học sinh cần làm gì để xây dựng đất nước?"
-      }
+      },
+      "socraticPrompt": "Học sinh cần làm gì để xây dựng đất nước?",
+      "distractorReasons": [
+        "Đúng vì theo Trách nhiệm học sinh: Tự giác học tập, rèn đức luyện tài.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ sống hưởng thụ cá nhân', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Thờ ơ với xã hội' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm học sinh).",
+        "Sai vì 'Tiếp tay cho các quan điểm sai trái' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm học sinh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Ý nghĩa của quan điểm 'Dân là gốc' trong phát triển bền vững là",
       "options": [
-        "Mọi chủ trương đều phải lấy hạnh phúc, ấm no của nhân dân làm mục tiêu cao nhất",
         "Chỉ phục vụ lợi ích quan chức",
+        "Mọi chủ trương đều phải lấy hạnh phúc, ấm no của nhân dân làm mục tiêu cao nhất",
         "Dân chỉ có nghĩa vụ đóng thuế",
         "Không cần lắng nghe ý kiến người dân"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Dân là chủ thể sáng tạo lịch sử, phục vụ nhân dân là tôn chỉ của Đảng.",
       "breakdown": {
         "concept": "Dân là gốc",
         "steps": "Ý Đảng hợp lòng Dân.",
         "socraticPrompt": "Tại sao phải luôn đặt lợi ích của nhân dân lên trên hết?"
-      }
+      },
+      "socraticPrompt": "Tại sao phải luôn đặt lợi ích của nhân dân lên trên hết?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ lợi ích quan chức', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Dân là gốc: Ý Đảng hợp lòng Dân.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Dân chỉ có nghĩa vụ đóng thuế', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không cần lắng nghe ý kiến người dân' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Động lực 2045",
         "steps": "Chuyển đổi số và khoa học công nghệ.",
         "socraticPrompt": "Yếu tố nào đưa Việt Nam phát triển ngang tầm các cường quốc?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào đưa Việt Nam phát triển ngang tầm các cường quốc?",
+      "distractorReasons": [
+        "Đúng vì theo Động lực 2045: Chuyển đổi số và khoa học công nghệ.",
+        "Sai vì 'Khai thác cạn kiệt tài nguyên thiên nhiên' không phù hợp với định lý/quy tắc trọng tâm (Động lực 2045).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ vay vốn nước ngoài', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Ngăn chặn du nhập công nghệ tiên tiến' không phù hợp với định lý/quy tắc trọng tâm (Động lực 2045)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Sự tồn tại và phát triển của các nước XHCN ngày nay chứng minh",
       "options": [
-        "CNXH có sức sống mãnh liệt, không ngừng tự đổi mới và hoàn thiện để đáp ứng thời đại",
+        "Không cần phát triển khoa học công nghệ",
         "CNXH đã hoàn toàn kết thúc",
         "Kinh tế bao cấp là tương lai",
-        "Không cần phát triển khoa học công nghệ"
+        "CNXH có sức sống mãnh liệt, không ngừng tự đổi mới và hoàn thiện để đáp ứng thời đại"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "CNXH đang chứng minh tính ưu việt qua các mô hình đổi mới năng động.",
       "breakdown": {
         "concept": "Sức sống CNXH",
         "steps": "Khả năng thích ứng và đổi mới của CNXH.",
         "socraticPrompt": "Thành tựu của các nước XHCN hiện nay nói lên điều gì?"
-      }
+      },
+      "socraticPrompt": "Thành tựu của các nước XHCN hiện nay nói lên điều gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần phát triển khoa học công nghệ' trái ngược với kiến thức SGK.",
+        "Sai vì 'CNXH đã hoàn toàn kết thúc' không phù hợp với định lý/quy tắc trọng tâm (Sức sống CNXH).",
+        "Sai vì 'Kinh tế bao cấp là tương lai' không phù hợp với định lý/quy tắc trọng tâm (Sức sống CNXH).",
+        "Đúng vì theo Sức sống CNXH: Khả năng thích ứng và đổi mới của CNXH."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

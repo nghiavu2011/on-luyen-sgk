@@ -1,128 +1,213 @@
 {
   "chapterId": "ch08",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 8: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính toán đoạn thẳng phức tạp, tia đối và ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 8: Những hình hình học cơ bản: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c8_th_q1",
-      "difficulty": "easy",
+      "id": "t6_c8_d3_01",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Khẳng định về quan hệ giữa các tia",
-      "question": "Cho điểm M nằm giữa hai điểm E và F. Khẳng định nào sau đây là SAI?",
+      "topic": "Toán thực tế - Trồng cây thẳng hàng cách đều",
+      "question": "Người ta muốn trồng một hàng cây xanh dọc theo một đoạn đường thẳng dài 120 m. Cây nọ cách cây kia 6 m và ở cả hai đầu đoạn đường đều có trồng cây. Hỏi cần tất cả bao nhiêu cây xanh?",
       "options": [
-        "Hai tia ME và MF là hai tia đối nhau",
-        "Hai tia EM và EF là hai tia trùng nhau",
-        "Hai tia ME và MF là hai tia trùng nhau",
-        "Độ dài đoạn thẳng EF = EM + MF"
+        "19 cây",
+        "20 cây",
+        "21 cây",
+        "22 cây"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Phân biệt hai tia đối nhau và hai tia trùng nhau.",
-        "socraticPrompt": "Điểm M nằm giữa E và F thì tia ME hướng về điểm E còn tia MF hướng về điểm F, hai tia này đối nhau hay trùng nhau?",
-        "steps": "Vì M nằm giữa E và F nên hai tia ME và MF chung gốc M và kéo dài về hai phía ngược nhau, do đó chúng là hai tia đối nhau. Khẳng định chúng là hai tia trùng nhau là SAI.",
-        "trap": "Nhầm lẫn giữa hai tia đối nhau và hai tia trùng nhau."
-      }
+        "concept": "Bài toán trồng cây ở cả hai đầu đường: Số cây = Số khoảng cách + 1 = (Độ dài đường : Khoảng cách) + 1.",
+        "steps": [
+          "Bước 1: Số khoảng cách giữa các cây: 120 : 6 = 20 khoảng cách.",
+          "Bước 2: Vì trồng cây ở cả hai đầu đường nên số cây nhiều hơn số khoảng cách là 1 cây.",
+          "Bước 3: Số cây cần trồng là: 20 + 1 = 21 cây."
+        ],
+        "trap": "Chỉ lấy 120 : 6 = 20 cây mà quên cộng thêm 1 cây ở đầu mút.",
+        "socraticPrompt": "120 mét chia làm các đoạn 6 mét thì có 20 đoạn. Có 20 đoạn thẳng nối tiếp nhau thì có bao nhiêu điểm mút (cây) nếu trồng ở cả hai đầu?"
+      },
+      "socraticPrompt": "120 mét chia làm các đoạn 6 mét thì có 20 đoạn. Có 20 đoạn thẳng nối tiếp nhau thì có bao nhiêu điểm mút (cây) nếu trồng ở cả hai đầu?",
+      "distractorReasons": [
+        "Sai vì lấy số khoảng cách trừ đi 1.",
+        "Sai vì quên cộng thêm 1 cây ở đầu mút đường (120 / 6 = 20 mới chỉ là số khoảng cách).",
+        "Đúng vì số cây = 120 / 6 + 1 = 20 + 1 = 21 cây.",
+        "Sai vì cộng nhầm 2 cây."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c8_th_q2",
-      "difficulty": "medium",
+      "id": "t6_c8_d3_02",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính độ dài đoạn thẳng qua hai trung điểm liên tiếp",
-      "question": "Cho đoạn thẳng AB = 16 cm. Điểm C là trung điểm của AB, điểm D là trung điểm của AC. Độ dài của đoạn thẳng CD bằng bao nhiêu?",
+      "topic": "Tính độ dài đoạn thẳng qua hai trung điểm",
+      "question": "Cho đoạn thẳng AB = 16 cm. Điểm M nằm giữa A và B. Gọi I là trung điểm của đoạn thẳng AM và K là trung điểm của đoạn thẳng MB. Độ dài đoạn thẳng IK bằng:",
       "options": [
+        "Không xác định được vì phụ thuộc vị trí điểm M",
         "4 cm",
-        "8 cm",
-        "6 cm",
-        "2 cm"
+        "10 cm",
+        "8 cm"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "IK = IM + MK = AM / 2 + MB / 2 = (AM + MB) / 2 = AB / 2.",
+        "steps": [
+          "Bước 1: Vì I là trung điểm AM nên IM = AM : 2.",
+          "Bước 2: Vì K là trung điểm MB nên MK = MB : 2.",
+          "Bước 3: Vì M nằm giữa A, B và I, K là các trung điểm nên M nằm giữa I và K.",
+          "Bước 4: IK = IM + MK = (AM + MB) : 2 = AB : 2 = 16 : 2 = 8 cm."
+        ],
+        "trap": "Nghĩ rằng phải biết vị trí chính xác của điểm M mới tính được IK.",
+        "socraticPrompt": "IM bằng nửa AM, MK bằng nửa MB. Vậy IK = IM + MK bằng một nửa của tổng AM + MB. Tổng AM + MB bằng bao nhiêu?"
+      },
+      "socraticPrompt": "IM bằng nửa AM, MK bằng nửa MB. Vậy IK = IM + MK bằng một nửa của tổng AM + MB. Tổng AM + MB bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tổng AM + MB luôn bằng AB nên khoảng cách IK luôn cố định bằng nửa AB.",
+        "Sai vì lấy 16 chia 4 = 4 cm.",
+        "Sai vì chọn bừa một giá trị.",
+        "Đúng vì IK = (AM + MB) / 2 = AB / 2 = 16 / 2 = 8 cm, không phụ thuộc vào vị trí của M trên đoạn AB."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c8_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đếm số đường thẳng có điểm thẳng hàng",
+      "question": "Cho 10 điểm phân biệt trong đó có đúng 4 điểm thẳng hàng, ngoài ra không có ba điểm nào khác thẳng hàng. Số đường thẳng vẽ được đi qua các cặp điểm là:",
+      "options": [
+        "40 đường thẳng",
+        "45 đường thẳng",
+        "39 đường thẳng",
+        "42 đường thẳng"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Áp dụng định nghĩa trung điểm liên tiếp hai lần.",
-        "socraticPrompt": "C là trung điểm của AB thì AC bằng bao nhiêu? D là trung điểm của AC thì CD bằng AC chia mấy?",
-        "steps": "Vì C là trung điểm AB nên AC = CB = AB / 2 = 16 / 2 = 8 cm. Vì D là trung điểm AC nên AD = CD = AC / 2 = 8 / 2 = 4 cm.",
-        "trap": "Dừng lại ở bước tính AC = 8 cm mà quên tính tiếp CD."
-      }
-    },
-    {
-      "id": "t6_c8_th_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Nhận biết góc nhọn",
-      "question": "Góc xOy có số đo bằng 65°. Hỏi góc xOy thuộc loại góc nào sau đây?",
-      "options": [
-        "Góc tù",
-        "Góc vuông",
-        "Góc nhọn",
-        "Góc bẹt"
+        "concept": "Số đường thẳng = Tổng số đường thẳng nếu không có điểm thẳng hàng - Số đường thẳng bị giảm do 4 điểm thẳng hàng + 1 đường thẳng chung.",
+        "steps": [
+          "Bước 1: Nếu không có 3 điểm nào thẳng hàng thì vẽ được: 10 × 9 : 2 = 45 đường thẳng.",
+          "Bước 2: Với 4 điểm không thẳng hàng thì vẽ được 4 × 3 : 2 = 6 đường thẳng.",
+          "Bước 3: Nhưng 4 điểm này thẳng hàng nên 6 đường thẳng đó trùng nhau thành đúng 1 đường thẳng duy nhất.",
+          "Bước 4: Số đường thẳng thực tế là: 45 - 6 + 1 = 40 đường thẳng."
+        ],
+        "trap": "Lấy 45 - 6 = 39 (quên không cộng lại 1 đường thẳng đi qua chính 4 điểm đó).",
+        "socraticPrompt": "10 điểm tạo 45 đường. 4 điểm thẳng hàng thay vì tạo 6 đường thì chỉ tạo 1 đường (bị giảm đi 5 đường). Vậy còn lại bao nhiêu đường thẳng?"
+      },
+      "socraticPrompt": "10 điểm tạo 45 đường. 4 điểm thẳng hàng thay vì tạo 6 đường thì chỉ tạo 1 đường (bị giảm đi 5 đường). Vậy còn lại bao nhiêu đường thẳng?",
+      "distractorReasons": [
+        "Đúng vì số đường thẳng là 45 - [4 × 3 / 2] + 1 = 45 - 6 + 1 = 40 đường thẳng.",
+        "Sai vì tính như khi không có điểm nào thẳng hàng (45 đường).",
+        "Sai vì lấy 45 - 6 = 39 (quên cộng lại chính đường thẳng đi qua 4 điểm đó).",
+        "Sai vì tính nhầm số đường thẳng bị trừ."
       ],
-      "correct": 2,
-      "breakdown": {
-        "concept": "Nhận dạng góc nhọn có số đo từ 0° đến 90°.",
-        "socraticPrompt": "Góc 65 độ lớn hơn 0 độ và nhỏ hơn 90 độ thì theo định nghĩa đó là góc gì?",
-        "steps": "Vì 0° < 65° < 90° nên góc xOy là góc nhọn.",
-        "trap": "Nhầm với góc vuông (90°) hoặc góc tù (lớn hơn 90°)."
-      }
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c8_th_q4",
+      "id": "t6_c8_d3_04",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Đếm số đoạn thẳng trên một đường thẳng",
-      "question": "Trên một đường thẳng lấy 4 điểm phân biệt A, B, C, D. Có tất cả bao nhiêu đoạn thẳng có hai đầu mút là hai trong bốn điểm đó?",
+      "topic": "Góc tạo bởi hai kim đồng hồ lúc 3 giờ 30 phút",
+      "question": "Vào lúc 3 giờ 30 phút, góc tạo bởi kim giờ và kim phút của đồng hồ có số đo bằng:",
       "options": [
-        "4 đoạn thẳng",
-        "6 đoạn thẳng",
-        "8 đoạn thẳng",
-        "12 đoạn thẳng"
+        "90°",
+        "75°",
+        "85°",
+        "60°"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Công thức tính số đoạn thẳng từ n điểm: n(n - 1) / 2.",
-        "socraticPrompt": "Liệt kê các đoạn thẳng: AB, AC, AD, BC, BD, CD. Có tổng cộng bao nhiêu đoạn thẳng tất cả?",
-        "steps": "Số đoạn thẳng được tạo thành từ 4 điểm là: 4 · (4 - 1) / 2 = (4 · 3) / 2 = 6 đoạn thẳng (cụ thể gồm: AB, AC, AD, BC, BD, CD).",
-        "trap": "Chỉ đếm các đoạn thẳng kề nhau (AB, BC, CD) thành 3 hoặc 4 đoạn mà quên các đoạn lớn."
-      }
-    },
-    {
-      "id": "t6_c8_th_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Tính độ dài điểm trên tia đối",
-      "question": "Cho đoạn thẳng AB = 8 cm. Trên tia đối của tia AB lấy điểm M sao cho AM = 3 cm. Độ dài của đoạn thẳng MB bằng bao nhiêu?",
-      "options": [
-        "5 cm",
-        "11 cm",
-        "14 cm",
-        "6 cm"
+        "concept": "Trong 30 phút, kim phút quay được 180° (đến số 6). Kim giờ quay được một nửa khoảng giữa số 3 và số 4 (30° : 2 = 15°).",
+        "steps": [
+          "Bước 1: Lúc 3 giờ 30, kim phút chỉ đúng số 6.",
+          "Bước 2: Kim giờ đã đi qua số 3 được một nửa giờ: 30° × (30 / 60) = 15° (nằm ở vị trí 3,5).",
+          "Bước 3: Khoảng cách giữa vị trí 3,5 và vị trí 6 là: 6 - 3,5 = 2,5 khoảng giờ.",
+          "Bước 4: Góc giữa hai kim là: 2,5 × 30° = 75°."
+        ],
+        "trap": "Tưởng kim giờ vẫn chỉ đúng số 3 nên lấy 3 khoảng × 30° = 90° (sai vì kim giờ đã di chuyển được nửa đường tới số 4).",
+        "socraticPrompt": "Lúc 3 giờ 30 phút, kim giờ có đứng yên ở số 3 không? Nó đã đi được nửa đường giữa số 3 và số 4. Khoảng cách từ vị trí đó đến số 6 là 2 khoảng rưỡi, bằng bao nhiêu độ?"
+      },
+      "socraticPrompt": "Lúc 3 giờ 30 phút, kim giờ có đứng yên ở số 3 không? Nó đã đi được nửa đường giữa số 3 và số 4. Khoảng cách từ vị trí đó đến số 6 là 2 khoảng rưỡi, bằng bao nhiêu độ?",
+      "distractorReasons": [
+        "Sai vì tưởng kim giờ đứng yên ở số 3 tạo góc vuông 90°.",
+        "Đúng vì kim giờ đã đi được 15° về phía số 4, góc giữa hai kim là (3 × 30°) - 15° = 90° - 15° = 75°.",
+        "Sai vì tính nhầm kim giờ đi được 5°.",
+        "Sai vì tính thành 2 khoảng giờ (2 × 30° = 60°)."
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Xác định vị trí điểm và cộng độ dài trên tia đối.",
-        "socraticPrompt": "Điểm M nằm trên tia đối của tia AB nên tia AM và tia AB là hai tia đối nhau. Điểm nào nằm giữa M và B?",
-        "steps": "Vì điểm M nằm trên tia đối của tia AB nên điểm A nằm giữa hai điểm M và B. Ta có hệ thức: MA + AB = MB. Suy ra: MB = 3 + 8 = 11 cm.",
-        "trap": "Lấy 8 - 3 = 5 cm do nhầm điểm M nằm trên tia AB thay vì tia đối của tia AB."
-      }
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c8_th_q6",
+      "id": "t6_c8_d3_05",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính số đo góc kim đồng hồ lúc 5 giờ",
-      "question": "Lúc 5 giờ đúng, góc tạo bởi kim giờ và kim phút của chiếc đồng hồ có số đo bằng bao nhiêu độ?",
+      "topic": "Điểm trên tia và so sánh đoạn thẳng",
+      "question": "Trên tia Ox, lấy hai điểm A và B sao cho OA = 3 cm và OB = 6 cm. Lấy điểm C trên tia đối của tia Ox sao cho OC = 3 cm. Khẳng định nào sau đây là SAI?",
       "options": [
-        "150°",
-        "120°",
-        "160°",
-        "140°"
+        "Điểm O là trung điểm của đoạn thẳng AB",
+        "Điểm A là trung điểm của đoạn thẳng OB",
+        "Điểm O là trung điểm của đoạn thẳng CA",
+        "Đoạn thẳng CB có độ dài bằng 9 cm"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tính số đo góc giữa hai kim đồng hồ trong thực tế.",
-        "socraticPrompt": "Mỗi khoảng giờ trên mặt đồng hồ ứng với góc 30 độ. Lúc 5 giờ đúng, hai kim cách nhau đúng 5 khoảng giờ, góc tạo thành bằng bao nhiêu?",
-        "steps": "Mỗi khoảng giữa hai số liên tiếp trên mặt đồng hồ tương ứng với góc 360° : 12 = 30°. Lúc 5 giờ đúng, kim phút chỉ số 12 và kim giờ chỉ số 5 (cách nhau 5 khoảng giờ). Số đo góc tạo bởi hai kim là: 5 · 30° = 150°.",
-        "trap": "Tính nhầm 5 · 30° = 120° hoặc 160°."
-      }
+        "concept": "Xác định vị trí các điểm trên trục tia và kiểm tra từng tính chất trung điểm.",
+        "steps": [
+          "Bước 1: A nằm giữa O và B (vì OA = 3 < OB = 6) và OA = AB = 3 cm ⇒ A là trung điểm của OB (khẳng định B đúng).",
+          "Bước 2: C thuộc tia đối của Ox nên O nằm giữa C và A; OC = OA = 3 cm ⇒ O là trung điểm của CA (khẳng định C đúng).",
+          "Bước 3: CB = CO + OB = 3 + 6 = 9 cm (khẳng định D đúng).",
+          "Bước 4: O là gốc tia, A và B cùng nằm về một phía của O nên O không nằm giữa A và B ⇒ O KHÔNG THỂ là trung điểm của AB (khẳng định A sai)."
+        ],
+        "trap": "Học sinh không đọc kỹ đề bài yêu cầu tìm khẳng định SAI.",
+        "socraticPrompt": "Điểm O có nằm giữa A và B không? Nếu không nằm giữa thì O có thể là trung điểm của AB được không?"
+      },
+      "socraticPrompt": "Điểm O có nằm giữa A và B không? Nếu không nằm giữa thì O có thể là trung điểm của AB được không?",
+      "distractorReasons": [
+        "Đúng (vì khẳng định A là SAI): Điểm O không nằm giữa A và B nên không thể là trung điểm của AB.",
+        "Sai vì khẳng định B là đúng (OA = AB = 3 cm).",
+        "Sai vì khẳng định C là đúng (O nằm giữa C và A, OC = OA = 3 cm).",
+        "Sai vì khẳng định D là đúng (CB = 3 + 6 = 9 cm)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c8_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Đếm số góc nhọn và góc tù trên hình vẽ",
+      "question": "Cho góc bẹt xOy. Vẽ thêm hai tia Om và On nằm trong góc xOy sao cho góc xOm = 45° và góc yOn = 45°. Có tất cả bao nhiêu góc nhọn trên hình vẽ?",
+      "options": [
+        "1 góc nhọn",
+        "4 góc nhọn",
+        "3 góc nhọn",
+        "2 góc nhọn"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Góc nhọn có số đo lớn hơn 0° và nhỏ hơn 90°.",
+        "steps": [
+          "Bước 1: Góc xOm = 45° (< 90°) là góc nhọn (góc thứ 1).",
+          "Bước 2: Góc yOn = 45° (< 90°) là góc nhọn (góc thứ 2).",
+          "Bước 3: Góc mOn ở giữa = 180° - 45° - 45° = 90° (đây là GÓC VUÔNG, không phải góc nhọn).",
+          "Bước 4: Góc xOn = 45° + 90° = 135° (góc tù); góc yOm = 45° + 90° = 135° (góc tù); góc xOy = 180° (góc bẹt).",
+          "Bước 5: Vậy chỉ có đúng 2 góc nhọn là góc xOm và góc yOn."
+        ],
+        "trap": "Học sinh tính góc mOn = 90° rồi đếm nhầm góc vuông thành góc nhọn (chọn 3 góc).",
+        "socraticPrompt": "Góc ở giữa mOn bằng 180° - 45° - 45° = 90°. Góc 90° là góc gì? Có được tính vào số góc nhọn không?"
+      },
+      "socraticPrompt": "Góc ở giữa mOn bằng 180° - 45° - 45° = 90°. Góc 90° là góc gì? Có được tính vào số góc nhọn không?",
+      "distractorReasons": [
+        "Sai vì bỏ sót một trong hai góc 45°.",
+        "Sai vì đếm thừa các góc không phải góc nhọn.",
+        "Sai vì đếm nhầm góc vuông mOn (90°) vào số góc nhọn (góc nhọn phải nhỏ hơn 90°).",
+        "Đúng vì chỉ có đúng 2 góc nhọn là góc xOm = 45° và góc yOn = 45° (góc mOn = 90° là góc vuông chứ không phải góc nhọn)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

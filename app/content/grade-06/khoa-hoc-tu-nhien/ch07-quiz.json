@@ -21,7 +21,16 @@
         "socraticPrompt": "Một người làm hết mọi việc từ may áo đến đóng gạch hiệu quả hơn hay mỗi người làm một nghề chuyên sâu hiệu quả hơn?",
         "steps": "Chuyên hoá tế bào tạo năng suất sinh học cao và khả năng thích nghi môi trường rộng lớn.",
         "trap": "Đa bào vẫn bị vi khuẩn và virus tấn công bình thường."
-      }
+      },
+      "socraticPrompt": "Một người làm hết mọi việc từ may áo đến đóng gạch hiệu quả hơn hay mỗi người làm một nghề chuyên sâu hiệu quả hơn?",
+      "distractorReasons": [
+        "Đúng vì: Chuyên hoá tế bào tạo năng suất sinh học cao và khả năng thích nghi môi trường rộng lớn.",
+        "Sai vì 'Cơ thể đa bào có số lượng cá thể nhiều hơn vi khuẩn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cơ thể đa bào không bao giờ bị vi khuẩn gây bệnh tấn công' (Đa bào vẫn bị vi khuẩn và virus tấn công bình thường.).",
+        "Sai vì phủ định sai bản chất: 'Cơ thể đa bào không cần hấp thụ chất dinh dưỡng' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c7_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Máu chảy qua thận để lọc độc, nếu độc tố không được lọc mà đi khắp cơ thể thì các cơ quan khác có bị nhiễm độc không?",
         "steps": "Thận suy -> chất độc tồn lưu trong máu -> phá huỷ tim mạch và các mô toàn thân.",
         "trap": "Nghĩ rằng bệnh thận chỉ gói gọn ở đường tiết niệu."
-      }
+      },
+      "socraticPrompt": "Máu chảy qua thận để lọc độc, nếu độc tố không được lọc mà đi khắp cơ thể thì các cơ quan khác có bị nhiễm độc không?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Thận là nơi sản xuất toàn bộ thức ăn của cơ thể', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Thận suy -> chất độc tồn lưu trong máu -> phá huỷ tim mạch và các mô toàn thân.",
+        "Sai vì 'Các cơ quan khác ghen tị với quả thận' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bệnh suy thận không liên quan đến tim mạch' (Nghĩ rằng bệnh thận chỉ gói gọn ở đường tiết niệu.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c7_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Mô phân sinh đỉnh ở đầu ngọn làm cây dài ra; cắt bỏ nó đi thì chồi ở nách lá sẽ phát triển như thế nào?",
         "steps": "Bấm ngọn kích thích chồi nách phát triển đâm nhánh nhiều nhánh quả.",
         "trap": "Bấm ngọn đúng kĩ thuật giúp tăng năng suất chứ không làm chết cây."
-      }
+      },
+      "socraticPrompt": "Mô phân sinh đỉnh ở đầu ngọn làm cây dài ra; cắt bỏ nó đi thì chồi ở nách lá sẽ phát triển như thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì ngọn cây làm cay mắt rễ cây' (Bấm ngọn đúng kĩ thuật giúp tăng năng suất chứ không làm chết cây.).",
+        "Sai vì 'Vì cây bị tổn thương sẽ chết ngay' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Bấm ngọn kích thích chồi nách phát triển đâm nhánh nhiều nhánh quả.",
+        "Sai vì phủ định sai bản chất: 'Vì rễ cây không hút được nước nữa' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c7_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Nhiều tế bào đơn bào gom lại sống chung bơi cùng nhau là bước đệm tiến hoá lên sinh vật gì?",
         "steps": "Volvox là cầu nối tiến hoá từ thế giới đơn bào sang thế giới đa bào.",
         "trap": "Volvox không phải là động vật có xương sống."
-      }
+      },
+      "socraticPrompt": "Nhiều tế bào đơn bào gom lại sống chung bơi cùng nhau là bước đệm tiến hoá lên sinh vật gì?",
+      "distractorReasons": [
+        "Sai vì 'Giữa virus và vi khuẩn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giữa động vật có xương sống và không xương sống' (Volvox không phải là động vật có xương sống.).",
+        "Sai vì 'Giữa thực vật và nấm mốc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Volvox là cầu nối tiến hoá từ thế giới đơn bào sang thế giới đa bào."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c7_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Hệ thần kinh phối hợp với mạch máu và tuyến mồ hôi để giữ thân nhiệt con người luôn ổn định ở mức bao nhiêu?",
         "steps": "Cơ thể tự điều hoà nhiệt độ giữ ổn định khoảng 37 °C nhờ sự phối hợp nhịp nhàng các hệ cơ quan.",
         "trap": "Run giật khi rét là phản xạ co cơ tự nhiên sinh nhiệt sưởi ấm, không phải bệnh co giật."
-      }
+      },
+      "socraticPrompt": "Hệ thần kinh phối hợp với mạch máu và tuyến mồ hôi để giữ thân nhiệt con người luôn ổn định ở mức bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Cơ thể tự điều hoà nhiệt độ giữ ổn định khoảng 37 °C nhờ sự phối hợp nhịp nhàng các hệ cơ quan.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cơ thể phản ứng hoàn toàn ngẫu nhiên' (Run giật khi rét là phản xạ co cơ tự nhiên sinh nhiệt sưởi ấm, không phải bệnh co giật.).",
+        "Sai vì 'Hệ cơ quan bị rối loạn chức năng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Cơ thể đang bị mất kiểm soát' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c7_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Tế bào gốc chưa được phân công nhiệm vụ cụ thể có khả năng biến thành tế bào cơ tim hoặc da mới không?",
         "steps": "Tế bào gốc chưa biệt hoá -> có thể phân hoá thành mọi tế bào chuyên biệt tái tạo cơ quan tổn thương.",
         "trap": "Tế bào chuyên biệt (như hồng cầu, nơ-ron già) không thể tự biến thành tế bào khác, chỉ có tế bào gốc mới làm được."
-      }
+      },
+      "socraticPrompt": "Tế bào gốc chưa được phân công nhiệm vụ cụ thể có khả năng biến thành tế bào cơ tim hoặc da mới không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào gốc có thể biến thành thuốc kháng sinh dạng bột' (Tế bào chuyên biệt (như hồng cầu, nơ-ron già) không thể tự biến thành tế bào khác, chỉ có tế bào gốc mới làm được.).",
+        "Đúng vì: Tế bào gốc chưa biệt hoá -> có thể phân hoá thành mọi tế bào chuyên biệt tái tạo cơ quan tổn thương.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tế bào gốc tiêu diệt toàn bộ tế bào trong cơ thể người', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tế bào gốc chỉ tồn tại ở các loài bò sát', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

@@ -24,7 +24,8 @@
           "Bước 2: Suy luận mức độ tần suất: Hành động chơi bóng đá sẽ không bao giờ xảy ra.",
           "Bước 3: Chọn 'never'."
         ],
-        "trap": "Chọn trạng từ tần suất cao (always/often) do chỉ nhìn vào vế sau mà bỏ qua ngữ cảnh phủ định phía trước."
+        "trap": "Chọn trạng từ tần suất cao (always/often) do chỉ nhìn vào vế sau mà bỏ qua ngữ cảnh phủ định phía trước.",
+        "socraticPrompt": "Khi một người cực kì ghét một môn thể thao, mức độ thường xuyên người đó chơi môn đó là bao nhiêu phần trăm?"
       },
       "socraticPrompt": "Khi một người cực kì ghét một môn thể thao, mức độ thường xuyên người đó chơi môn đó là bao nhiêu phần trăm?",
       "distractorReasons": [
@@ -56,7 +57,8 @@
           "Bước 2: Toàn bộ cụm 'Every student in our class' là chủ ngữ số ít.",
           "Bước 3: Động từ 'wear' phải chia số ít thành 'wears'. Chọn đáp án B."
         ],
-        "trap": "Thấy cụm 'in our class' hoặc từ 'Every' tưởng là số nhiều nên để động từ nguyên mẫu."
+        "trap": "Thấy cụm 'in our class' hoặc từ 'Every' tưởng là số nhiều nên để động từ nguyên mẫu.",
+        "socraticPrompt": "Sau từ 'Every' là danh từ số ít hay số nhiều, và động từ theo sau được chia ở dạng số ít hay số nhiều?"
       },
       "socraticPrompt": "Sau từ 'Every' là danh từ số ít hay số nhiều, và động từ theo sau được chia ở dạng số ít hay số nhiều?",
       "distractorReasons": [
@@ -88,7 +90,8 @@
           "Bước 2: Cụm từ 'in English' (bằng tiếng Anh) là ngôn ngữ toàn cầu kết nối học sinh quốc tế.",
           "Bước 3: Chọn 'English'."
         ],
-        "trap": "Chọn 'history' hoặc 'uniform' do không hiểu cấu trúc 'learn all subjects in [language]'."
+        "trap": "Chọn 'history' hoặc 'uniform' do không hiểu cấu trúc 'learn all subjects in [language]'.",
+        "socraticPrompt": "Khi học sinh đến từ nhiều nước khác nhau học chung một trường quốc tế, họ dùng ngôn ngữ chung nào để học tập?"
       },
       "socraticPrompt": "Khi học sinh đến từ nhiều nước khác nhau học chung một trường quốc tế, họ dùng ngôn ngữ chung nào để học tập?",
       "distractorReasons": [
@@ -120,7 +123,8 @@
           "Bước 2: Động từ chính chỉ hành động 'làm gì' là 'do' ở dạng nguyên thể.",
           "Bước 3: Cặp từ đúng là 'does / do'. Chọn đáp án A."
         ],
-        "trap": "Bị rối giữa trợ động từ 'does' và động từ chính 'do', dẫn đến chọn 'does / does'."
+        "trap": "Bị rối giữa trợ động từ 'does' và động từ chính 'do', dẫn đến chọn 'does / does'.",
+        "socraticPrompt": "Trong câu hỏi hiện tại đơn: từ đầu tiên là trợ động từ và từ thứ hai là động từ chính nguyên thể, cặp từ nào thỏa mãn?"
       },
       "socraticPrompt": "Trong câu hỏi hiện tại đơn: từ đầu tiên là trợ động từ và từ thứ hai là động từ chính nguyên thể, cặp từ nào thỏa mãn?",
       "distractorReasons": [
@@ -152,7 +156,8 @@
           "Bước 2: Đếm số ngày: Thứ Hai, Ba, Tư, Năm, Sáu = 5 ngày.",
           "Bước 3: 5 ngày = 'five days'. Chọn đáp án B."
         ],
-        "trap": "Đếm nhầm cả thứ Bảy và Chủ nhật thành 7 ngày hoặc đếm sót ngày."
+        "trap": "Đếm nhầm cả thứ Bảy và Chủ nhật thành 7 ngày hoặc đếm sót ngày.",
+        "socraticPrompt": "Một tuần học bắt đầu từ thứ Hai và kết thúc vào thứ Sáu thì gồm tổng cộng bao nhiêu ngày học?"
       },
       "socraticPrompt": "Một tuần học bắt đầu từ thứ Hai và kết thúc vào thứ Sáu thì gồm tổng cộng bao nhiêu ngày học?",
       "distractorReasons": [
@@ -184,7 +189,8 @@
           "Bước 2: Kiểm tra động từ 'study': chưa được chia ngôi số ít.",
           "Bước 3: Động từ đúng phải là 'studies'. Vậy từ sai là 'study'."
         ],
-        "trap": "Không để ý quy tắc biến đổi 'y' thành 'ies' sau phụ âm ở thì hiện tại đơn."
+        "trap": "Không để ý quy tắc biến đổi 'y' thành 'ies' sau phụ âm ở thì hiện tại đơn.",
+        "socraticPrompt": "Khi chủ ngữ là 'She', động từ 'study' cần được chia lại thành từ nào mới đúng ngữ pháp?"
       },
       "socraticPrompt": "Khi chủ ngữ là 'She', động từ 'study' cần được chia lại thành từ nào mới đúng ngữ pháp?",
       "distractorReasons": [

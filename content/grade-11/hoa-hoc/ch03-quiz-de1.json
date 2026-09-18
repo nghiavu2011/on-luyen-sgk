@@ -22,7 +22,16 @@
         "socraticPrompt": "Em hãy nhớ lại hợp chất nào của carbon không phải là hợp chất vô cơ như muối carbonate hay khí oxide?",
         "steps": "Hợp chất hữu cơ là hợp chất của carbon (loại trừ CO, CO₂, muối carbonate, cyanide, carbide). Ethanol C₂H₅OH là alcohol hữu cơ.",
         "trap": "Nhầm CaCO₃, CO₂, NaCN là hợp chất hữu cơ vì chứa nguyên tố carbon."
-      }
+      },
+      "socraticPrompt": "Em hãy nhớ lại hợp chất nào của carbon không phải là hợp chất vô cơ như muối carbonate hay khí oxide?",
+      "distractorReasons": [
+        "Đúng vì: Hợp chất hữu cơ là hợp chất của carbon (loại trừ CO, CO₂, muối carbonate, cyanide, carbide). Ethanol C₂H₅OH là alcohol hữu cơ.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'CaCO₃ (đá vôi)' (CaCO₃, CO₂, NaCN là hợp chất hữu cơ vì chứa nguyên tố carbon).",
+        "Sai vì 'CO₂ (khí carbonic)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'NaCN (sodium cyanide)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c3_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Hai chất lỏng tách thành hai lớp riêng biệt trong bình thì dùng dụng cụ phễu gì để tách?",
         "steps": "Dầu ăn và nước không tan lẫn, tách thành hai lớp riêng biệt. Phương pháp tối ưu để tách là phương pháp chiết bằng phễu chiết.",
         "trap": "Chọn chưng cất gây tốn kém năng lượng không cần thiết."
-      }
+      },
+      "socraticPrompt": "Hai chất lỏng tách thành hai lớp riêng biệt trong bình thì dùng dụng cụ phễu gì để tách?",
+      "distractorReasons": [
+        "Sai vì 'Phương pháp kết tinh' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc của phương pháp chiết dựa trên sự không trộn lẫn của hai chất lỏng.).",
+        "Đúng vì: Dầu ăn và nước không tan lẫn, tách thành hai lớp riêng biệt. Phương pháp tối ưu để tách là phương pháp chiết bằng phễu chiết.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phương pháp chưng cất' (Chọn chưng cất gây tốn kém năng lượng không cần thiết.).",
+        "Sai vì 'Phương pháp sắc kí cột' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc của phương pháp chiết dựa trên sự không trộn lẫn của hai chất lỏng.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c3_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Nguyên tử carbon có 4 electron ở lớp ngoài cùng, trong hợp chất hữu cơ nó luôn tạo 4 liên kết cộng hoá trị.",
         "steps": "Theo thuyết cấu tạo hoá học của Butlerov, trong tất cả các hợp chất hữu cơ, nguyên tử carbon luôn luôn có hoá trị IV.",
         "trap": "Nhầm với hợp chất vô cơ CO trong đó carbon thể hiện số oxi hoá +2."
-      }
+      },
+      "socraticPrompt": "Nguyên tử carbon có 4 electron ở lớp ngoài cùng, trong hợp chất hữu cơ nó luôn tạo 4 liên kết cộng hoá trị.",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hoá trị II' (với hợp chất vô cơ CO trong đó carbon thể hiện số oxi hoá +2).",
+        "Sai vì 'Hoá trị I' không phù hợp với định lý/quy tắc trọng tâm (Luận điểm cơ bản của thuyết cấu tạo hoá học về hoá trị của carbon.).",
+        "Đúng vì: Theo thuyết cấu tạo hoá học của Butlerov, trong tất cả các hợp chất hữu cơ, nguyên tử carbon luôn luôn có hoá trị IV.",
+        "Sai vì 'Hoá trị III' không phù hợp với định lý/quy tắc trọng tâm (Luận điểm cơ bản của thuyết cấu tạo hoá học về hoá trị của carbon.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c3_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Dãy đồng đẳng alkane có công thức chung CnH2n+2, cặp chất nào cùng công thức chung này?",
         "steps": "CH₄ (methane) và C₃H₈ (propane) đều là alkane no mạch hở có công thức chung CnH2n+2, phân tử hơn kém nhau 2 nhóm -CH₂-, nên là đồng đẳng của nhau.",
         "trap": "Nhầm C₂H₅OH và CH₃-O-CH₃ là đồng đẳng (đây là cặp đồng phân nhóm chức)."
-      }
+      },
+      "socraticPrompt": "Dãy đồng đẳng alkane có công thức chung CnH2n+2, cặp chất nào cùng công thức chung này?",
+      "distractorReasons": [
+        "Sai vì 'CH₄ và C₂H₄' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa đồng đẳng: cùng loại cấu tạo và hơn kém nhau một hay nhiều nhóm -CH₂-.).",
+        "Sai vì 'C₂H₄ và C₂H₂' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa đồng đẳng: cùng loại cấu tạo và hơn kém nhau một hay nhiều nhóm -CH₂-.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C₂H₅OH và CH₃-O-CH₃' (C₂H₅OH và CH₃-O-CH₃ là đồng đẳng (đây là cặp đồng phân nhóm chức)).",
+        "Đúng vì: CH₄ (methane) và C₃H₈ (propane) đều là alkane no mạch hở có công thức chung CnH2n+2, phân tử hơn kém nhau 2 nhóm -CH₂-, nên là đồng đẳng của nhau."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c3_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Với 4 nguyên tử carbon, em có thể xếp thành mạch thẳng mấy carbon và mạch nhánh mấy carbon?",
         "steps": "C₄H₁₀ có 2 đồng phân cấu tạo: 1) Mạch không nhánh: CH₃-CH₂-CH₂-CH₃ (butane); 2) Mạch phân nhánh: CH₃-CH(CH₃)-CH₃ (2-methylpropane hay isobutane).",
         "trap": "Đếm lặp mạch bẻ góc hoặc quên đồng phân mạch nhánh."
-      }
+      },
+      "socraticPrompt": "Với 4 nguyên tử carbon, em có thể xếp thành mạch thẳng mấy carbon và mạch nhánh mấy carbon?",
+      "distractorReasons": [
+        "Đúng vì theo Viết đồng phân mạch carbon của alkane C₄H₁₀.: C₄H₁₀ có 2 đồng phân cấu tạo: 1) Mạch không nhánh: CH₃-CH₂-CH₂-CH₃ (butane); 2) Mạch phân nhánh: CH₃-CH(CH₃)-CH₃ (2-methylpropane hay isobutane).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '3 đồng phân' (Đếm lặp mạch bẻ góc hoặc quên đồng phân mạch nhánh.).",
+        "Sai vì '4 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Viết đồng phân mạch carbon của alkane C₄H₁₀.).",
+        "Sai vì '1 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Viết đồng phân mạch carbon của alkane C₄H₁₀.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c3_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Lấy %C / 12, %H / 1 và %O / 16 rồi rút gọn về tỉ lệ số nguyên tối giản.",
         "steps": "Tỉ lệ n_C : n_H : n_O = (40 / 12) : (6.7 / 1) : (53.3 / 16) = 3.33 : 6.70 : 3.33 = 1 : 2 : 1. Vậy công thức đơn giản nhất là CH₂O.",
         "trap": "Chọn C₂H₄O₂ vì nhầm công thức phân tử acetic acid với công thức đơn giản nhất (chưa tối giản)."
-      }
+      },
+      "socraticPrompt": "Lấy %C / 12, %H / 1 và %O / 16 rồi rút gọn về tỉ lệ số nguyên tối giản.",
+      "distractorReasons": [
+        "Sai vì 'C₂H₄O' không phù hợp với định lý/quy tắc trọng tâm (Lập tỉ lệ mol các nguyên tố C : H : O từ phần trăm khối lượng.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C₂H₄O₂' (Chọn C₂H₄O₂ vì nhầm công thức phân tử acetic acid với công thức đơn giản nhất (chưa tối giản).).",
+        "Đúng vì: Tỉ lệ n_C : n_H : n_O = (40 / 12) : (6.7 / 1) : (53.3 / 16) = 3.33 : 6.70 : 3.33 = 1 : 2 : 1. Vậy công thức đơn giản nhất là CH₂O.",
+        "Sai vì 'C₃H₆O' không phù hợp với định lý/quy tắc trọng tâm (Lập tỉ lệ mol các nguyên tố C : H : O từ phần trăm khối lượng.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

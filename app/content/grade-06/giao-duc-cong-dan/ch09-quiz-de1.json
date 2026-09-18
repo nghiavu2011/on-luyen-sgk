@@ -24,7 +24,8 @@
           "Bước 2: Phân biệt công dân với người nước ngoài cư trú tạm thời hoặc khái niệm dân tộc sinh học.",
           "Bước 3: Chọn phương án B."
         ],
-        "trap": "Nhầm lẫn công dân với cư dân (người sống trong một địa hạt bất kể mang quốc tịch nào)."
+        "trap": "Nhầm lẫn công dân với cư dân (người sống trong một địa hạt bất kể mang quốc tịch nào).",
+        "socraticPrompt": "Căn cứ pháp lí nào chứng minh một người thuộc về một đất nước độc lập có chủ quyền?"
       },
       "socraticPrompt": "Căn cứ pháp lí nào chứng minh một người thuộc về một đất nước độc lập có chủ quyền?",
       "distractorReasons": [
@@ -32,7 +33,9 @@
         "Sai vì người nước ngoài cư trú tạm thời (khách du lịch, chuyên gia) không phải là công dân nước đó.",
         "Sai vì trong một quốc gia công dân có thể thuộc nhiều thành phần dân tộc, màu da khác nhau.",
         "Sai vì trẻ em dưới 18 tuổi vẫn là công dân có đầy đủ quốc tịch và quyền công dân."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch09_d1_02",
@@ -54,7 +57,8 @@
           "Bước 2: Quốc tịch tạo nên mối liên hệ pháp lí bền vững giữa cá nhân và nhà nước.",
           "Bước 3: Chọn phương án B: Quốc tịch."
         ],
-        "trap": "Nhầm quốc tịch với dân tộc hoặc nơi cư trú tạm thời."
+        "trap": "Nhầm quốc tịch với dân tộc hoặc nơi cư trú tạm thời.",
+        "socraticPrompt": "Mỗi khi đi du lịch nước ngoài, cuốn hộ chiếu ghi nhận điều gì quan trọng nhất về mặt pháp lí của em?"
       },
       "socraticPrompt": "Mỗi khi đi du lịch nước ngoài, cuốn hộ chiếu ghi nhận điều gì quan trọng nhất về mặt pháp lí của em?",
       "distractorReasons": [
@@ -62,7 +66,9 @@
         "Đúng vì quốc tịch là căn cứ pháp lí duy nhất xác định tư cách công dân một nước.",
         "Sai vì nghề nghiệp thay đổi linh hoạt, không liên quan đến quốc tịch.",
         "Sai vì công dân được quyền tự do tín ngưỡng tôn giáo, không phân biệt quốc tịch."
-      ]
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch09_d1_03",
@@ -84,7 +90,8 @@
           "Bước 2: Chỉ người có quốc tịch Việt Nam mới là công dân Việt Nam.",
           "Bước 3: Chọn phương án B."
         ],
-        "trap": "Căn cứ vào cảm xúc, tài sản hoặc khả năng nói tiếng Việt thay vì văn bản pháp lí."
+        "trap": "Căn cứ vào cảm xúc, tài sản hoặc khả năng nói tiếng Việt thay vì văn bản pháp lí.",
+        "socraticPrompt": "Một người nước ngoài học tiếng Việt rất giỏi nhưng chưa nhập quốc tịch Việt Nam thì có phải là công dân Việt Nam không?"
       },
       "socraticPrompt": "Một người nước ngoài học tiếng Việt rất giỏi nhưng chưa nhập quốc tịch Việt Nam thì có phải là công dân Việt Nam không?",
       "distractorReasons": [
@@ -92,7 +99,9 @@
         "Sai vì người nước ngoài vẫn có thể sở hữu tài sản tại Việt Nam theo luật định.",
         "Đúng vì Luật Quốc tịch quy định người mang quốc tịch Việt Nam là công dân Việt Nam.",
         "Sai vì yêu thích văn hóa chỉ là tình cảm cá nhân, không có giá trị pháp lí về quyền công dân."
-      ]
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch09_d1_04",
@@ -114,7 +123,8 @@
           "Bước 2: Cả cha và mẹ là công dân Việt Nam thì con sinh ra ở bất cứ đâu đều đương nhiên mang quốc tịch Việt Nam (nguyên tắc huyết thống).",
           "Bước 3: Chọn đáp án B."
         ],
-        "trap": "Nghĩ rằng sinh ở nước ngoài thì lập tức mất quốc tịch Việt Nam."
+        "trap": "Nghĩ rằng sinh ở nước ngoài thì lập tức mất quốc tịch Việt Nam.",
+        "socraticPrompt": "Khi cả bố và mẹ em đều là người Việt Nam, dù em sinh ra ở trong nước hay nước ngoài thì dòng máu và quốc tịch của em là gì?"
       },
       "socraticPrompt": "Khi cả bố và mẹ em đều là người Việt Nam, dù em sinh ra ở trong nước hay nước ngoài thì dòng máu và quốc tịch của em là gì?",
       "distractorReasons": [
@@ -122,7 +132,9 @@
         "Sai vì việc cấp khai sinh thuộc thẩm quyền cơ quan hộ tịch, không cần tòa án xét xử.",
         "Sai vì pháp luật Việt Nam ưu tiên nguyên tắc huyết thống của cha mẹ.",
         "Đúng theo quy định tại Điều 15 Luật Quốc tịch Việt Nam."
-      ]
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch09_d1_05",
@@ -144,7 +156,8 @@
           "Bước 2: Giấy khai sinh và Hộ chiếu là những giấy tờ ghi rõ mục 'Quốc tịch: Việt Nam'.",
           "Bước 3: Chọn phương án B."
         ],
-        "trap": "Nhầm giấy tờ nội bộ của trường học với văn bản pháp lí quốc gia."
+        "trap": "Nhầm giấy tờ nội bộ của trường học với văn bản pháp lí quốc gia.",
+        "socraticPrompt": "Trên tờ Giấy khai sinh của em có dòng chữ nào ghi nhận mối quan hệ công dân của em với Nhà nước?"
       },
       "socraticPrompt": "Trên tờ Giấy khai sinh của em có dòng chữ nào ghi nhận mối quan hệ công dân của em với Nhà nước?",
       "distractorReasons": [
@@ -152,7 +165,9 @@
         "Sai vì thẻ học sinh chỉ có giá trị nhận diện trong phạm vi nhà trường.",
         "Sai vì sổ liên lạc chỉ phản ánh kết quả học tập giữa trường và gia đình.",
         "Sai vì thẻ thư viện chỉ là giấy tờ dịch vụ văn hóa đọc."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch09_d1_06",
@@ -174,7 +189,8 @@
           "Bước 2: Quy định nhân đạo nhằm đảm bảo mọi đứa trẻ sinh ra và lớn lên trên đất nước Việt Nam đều có sự bảo hộ của Nhà nước.",
           "Bước 3: Chọn đáp án B."
         ],
-        "trap": "Cho rằng không rõ cha mẹ thì không được nhà nước công nhận quốc tịch."
+        "trap": "Cho rằng không rõ cha mẹ thì không được nhà nước công nhận quốc tịch.",
+        "socraticPrompt": "Nhà nước Việt Nam cấp quốc tịch cho trẻ sơ sinh bị bỏ rơi thể hiện chính sách nhân đạo gì đối với trẻ em?"
       },
       "socraticPrompt": "Nhà nước Việt Nam cấp quốc tịch cho trẻ sơ sinh bị bỏ rơi thể hiện chính sách nhân đạo gì đối với trẻ em?",
       "distractorReasons": [
@@ -182,7 +198,9 @@
         "Đúng theo quy định rõ ràng tại Điều 18 Luật Quốc tịch Việt Nam.",
         "Sai vì Liên hợp quốc không trực tiếp nuôi dưỡng cá nhân trẻ em bị bỏ rơi.",
         "Sai vì đứa trẻ cần được pháp luật bảo hộ ngay lập tức để làm thủ tục khai sinh và chăm sóc y tế."
-      ]
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

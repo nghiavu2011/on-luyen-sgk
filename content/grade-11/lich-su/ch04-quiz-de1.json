@@ -20,97 +20,151 @@
         "concept": "Bạch Đằng 938",
         "steps": "Ngô Quyền mở ra kỷ nguyên độc lập.",
         "socraticPrompt": "Trận đánh nào kết thúc thời kỳ Bắc thuộc?"
-      }
+      },
+      "socraticPrompt": "Trận đánh nào kết thúc thời kỳ Bắc thuộc?",
+      "distractorReasons": [
+        "Đúng vì theo Bạch Đằng 938: Ngô Quyền mở ra kỷ nguyên độc lập.",
+        "Sai vì 'Chiến thắng Rạch Gầm - Xoài Mút 1785' không phù hợp với định lý/quy tắc trọng tâm (Bạch Đằng 938).",
+        "Sai vì 'Chiến thắng Như Nguyệt 1077' không phù hợp với định lý/quy tắc trọng tâm (Bạch Đằng 938).",
+        "Sai vì 'Chiến thắng Chi Lăng 1427' không phù hợp với định lý/quy tắc trọng tâm (Bạch Đằng 938)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Bài thơ thần 'Nam quốc sơn hà' gắn liền với tên tuổi của vị anh hùng dân tộc nào?",
       "options": [
-        "Lý Thường Kiệt",
         "Trần Hưng Đạo",
+        "Lý Thường Kiệt",
         "Quang Trung",
         "Lê Lợi"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Lý Thường Kiệt đọc thơ thần bên phòng tuyến sông Như Nguyệt năm 1077.",
       "breakdown": {
         "concept": "Nam quốc sơn hà",
         "steps": "Lý Thường Kiệt trên sông Như Nguyệt.",
         "socraticPrompt": "Ai là tác giả bài thơ Nam quốc sơn hà?"
-      }
+      },
+      "socraticPrompt": "Ai là tác giả bài thơ Nam quốc sơn hà?",
+      "distractorReasons": [
+        "Sai vì 'Trần Hưng Đạo' không phù hợp với định lý/quy tắc trọng tâm (Nam quốc sơn hà).",
+        "Đúng vì theo Nam quốc sơn hà: Lý Thường Kiệt trên sông Như Nguyệt.",
+        "Sai vì 'Quang Trung' không phù hợp với định lý/quy tắc trọng tâm (Nam quốc sơn hà).",
+        "Sai vì 'Lê Lợi' không phù hợp với định lý/quy tắc trọng tâm (Nam quốc sơn hà)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Hội nghị Diên Hồng do vua Trần triệu tập năm 1284 quy tụ tầng lớp nào để bàn kế đánh giặc?",
       "options": [
-        "Các vị bô lão đại diện cho nhân dân cả nước",
-        "Các thương gia nước ngoài",
         "Tướng lĩnh tù binh giặc",
+        "Các thương gia nước ngoài",
+        "Các vị bô lão đại diện cho nhân dân cả nước",
         "Tăng lữ các nước lân bang"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Hội nghị Diên Hồng thể hiện sự đồng lòng quyết chiến của toàn dân tộc.",
       "breakdown": {
         "concept": "Hội nghị Diên Hồng",
         "steps": "Các bô lão đồng thanh hô 'Đánh!'.",
         "socraticPrompt": "Vua Trần mời ai dự Hội nghị Diên Hồng?"
-      }
+      },
+      "socraticPrompt": "Vua Trần mời ai dự Hội nghị Diên Hồng?",
+      "distractorReasons": [
+        "Sai vì 'Tướng lĩnh tù binh giặc' không phù hợp với định lý/quy tắc trọng tâm (Hội nghị Diên Hồng).",
+        "Sai vì 'Các thương gia nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Hội nghị Diên Hồng).",
+        "Đúng vì theo Hội nghị Diên Hồng: Các bô lão đồng thanh hô 'Đánh!'.",
+        "Sai vì 'Tăng lữ các nước lân bang' không phù hợp với định lý/quy tắc trọng tâm (Hội nghị Diên Hồng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Vị tướng kiệt xuất chỉ huy đại phá 29 vạn quân Thanh mùa xuân Kỷ Dậu 1789 là",
       "options": [
-        "Quang Trung (Nguyễn Huệ)",
+        "Đinh Bộ Lĩnh",
         "Trần Thủ Độ",
         "Lê Thánh Tông",
-        "Đinh Bộ Lĩnh"
+        "Quang Trung (Nguyễn Huệ)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Quang Trung thần tốc tiến quân đại phá đồn Ngọc Hồi - Đống Đa mùng 5 Tết Kỷ Dậu.",
       "breakdown": {
         "concept": "Quang Trung 1789",
         "steps": "Hoàng đế Quang Trung đại phá quân Thanh.",
         "socraticPrompt": "Vị vua nào áo vải cờ đào đánh tan quân Thanh?"
-      }
+      },
+      "socraticPrompt": "Vị vua nào áo vải cờ đào đánh tan quân Thanh?",
+      "distractorReasons": [
+        "Sai vì 'Đinh Bộ Lĩnh' không phù hợp với định lý/quy tắc trọng tâm (Quang Trung 1789).",
+        "Sai vì 'Trần Thủ Độ' không phù hợp với định lý/quy tắc trọng tâm (Quang Trung 1789).",
+        "Sai vì 'Lê Thánh Tông' không phù hợp với định lý/quy tắc trọng tâm (Quang Trung 1789).",
+        "Đúng vì theo Quang Trung 1789: Hoàng đế Quang Trung đại phá quân Thanh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Tư tưởng quân sự 'Đem đại nghĩa để thắng hung tàn, lấy chí nhân để thay cường bạo' được đúc kết trong tác phẩm nào?",
       "options": [
-        "Bình Ngô đại cáo (Nguyễn Trãi)",
         "Hịch tướng sĩ (Trần Quốc Tuấn)",
+        "Bình Ngô đại cáo (Nguyễn Trãi)",
         "Chiếu dời đô (Lý Công Uẩn)",
         "Quân trung từ mệnh tập"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Bình Ngô đại cáo khẳng định ngọn cờ chính nghĩa nhân đạo của dân tộc.",
       "breakdown": {
         "concept": "Bình Ngô đại cáo",
         "steps": "Tuyên ngôn độc lập thế kỷ 15.",
         "socraticPrompt": "Câu nói nổi tiếng trên nằm trong tác phẩm nào?"
-      }
+      },
+      "socraticPrompt": "Câu nói nổi tiếng trên nằm trong tác phẩm nào?",
+      "distractorReasons": [
+        "Sai vì 'Hịch tướng sĩ (Trần Quốc Tuấn)' không phù hợp với định lý/quy tắc trọng tâm (Bình Ngô đại cáo).",
+        "Đúng vì theo Bình Ngô đại cáo: Tuyên ngôn độc lập thế kỷ 15.",
+        "Sai vì 'Chiếu dời đô (Lý Công Uẩn)' không phù hợp với định lý/quy tắc trọng tâm (Bình Ngô đại cáo).",
+        "Sai vì 'Quân trung từ mệnh tập' không phù hợp với định lý/quy tắc trọng tâm (Bình Ngô đại cáo)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Kế sách 'Vườn không nhà trống' được quân dân nhà Trần áp dụng nhằm",
       "options": [
-        "Triệt tiêu nguồn tiếp tế lương thảo khiến giặc rơi vào khốn đốn, suy kiệt",
-        "Nhượng đất đai vĩnh viễn cho giặc",
         "Rút lui đầu hàng kẻ thù",
+        "Nhượng đất đai vĩnh viễn cho giặc",
+        "Triệt tiêu nguồn tiếp tế lương thảo khiến giặc rơi vào khốn đốn, suy kiệt",
         "Chờ viện trợ từ bên ngoài"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Quân dân nhà Trần sơ tán của cải khiến giặc không có lương ăn.",
       "breakdown": {
         "concept": "Vườn không nhà trống",
         "steps": "Cắt đứt nguồn lương thực của giặc.",
         "socraticPrompt": "Tác dụng của kế vườn không nhà trống là gì?"
-      }
+      },
+      "socraticPrompt": "Tác dụng của kế vườn không nhà trống là gì?",
+      "distractorReasons": [
+        "Sai vì 'Rút lui đầu hàng kẻ thù' không phù hợp với định lý/quy tắc trọng tâm (Vườn không nhà trống).",
+        "Sai vì 'Nhượng đất đai vĩnh viễn cho giặc' không phù hợp với định lý/quy tắc trọng tâm (Vườn không nhà trống).",
+        "Đúng vì theo Vườn không nhà trống: Cắt đứt nguồn lương thực của giặc.",
+        "Sai vì 'Chờ viện trợ từ bên ngoài' không phù hợp với định lý/quy tắc trọng tâm (Vườn không nhà trống)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

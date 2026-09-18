@@ -21,7 +21,16 @@
         "socraticPrompt": "Nếu tế bào quá khổng lồ, chất dinh dưỡng từ màng có thể khuếch tán kịp vào tận tâm tế bào được không?",
         "steps": "Kích thước nhỏ -> tỉ lệ S/V lớn -> trao đổi chất và duy trì sự sống tối ưu.",
         "trap": "Lầm tưởng tế bào càng to càng mạnh khoẻ."
-      }
+      },
+      "socraticPrompt": "Nếu tế bào quá khổng lồ, chất dinh dưỡng từ màng có thể khuếch tán kịp vào tận tâm tế bào được không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì Trái Đất không đủ chất dinh dưỡng cho tế bào to' (Lầm tưởng tế bào càng to càng mạnh khoẻ.).",
+        "Sai vì 'Vì nếu to thì tế bào sẽ bị ánh sáng mặt trời đốt cháy' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Kích thước nhỏ -> tỉ lệ S/V lớn -> trao đổi chất và duy trì sự sống tối ưu.",
+        "Sai vì phủ định sai bản chất: 'Vì kính hiển vi không nhìn được tế bào to' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c6_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Tế bào người có thành tế bào giống vi khuẩn và thực vật không?",
         "steps": "Người không có thành tế bào -> thuốc diệt thành tế bào không gây hại cho người.",
         "trap": "Nghĩ rằng thuốc tác động bừa bãi lên mọi tế bào."
-      }
+      },
+      "socraticPrompt": "Tế bào người có thành tế bào giống vi khuẩn và thực vật không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì tế bào người có khả năng kháng thuốc tuyệt đối' (Nghĩ rằng thuốc tác động bừa bãi lên mọi tế bào.).",
+        "Sai vì 'Vì tế bào người hấp thụ penicillin làm thức ăn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì thuốc kháng sinh tự biết phân biệt người tốt kẻ xấu' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Người không có thành tế bào -> thuốc diệt thành tế bào không gây hại cho người."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c6_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Khi tế bào phân chia điên cuồng mất kiểm soát sẽ tạo thành khối thịt thừa gọi là gì?",
         "steps": "Phân chia mất kiểm soát hình thành khối u ác tính (ung thư).",
         "trap": "Cảm cúm do virus gây ra, không phải do phân chia mất kiểm soát."
-      }
+      },
+      "socraticPrompt": "Khi tế bào phân chia điên cuồng mất kiểm soát sẽ tạo thành khối thịt thừa gọi là gì?",
+      "distractorReasons": [
+        "Đúng vì: Phân chia mất kiểm soát hình thành khối u ác tính (ung thư).",
+        "Sai vì 'Bệnh loãng xương' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Bệnh cận thị học đường' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bệnh cảm cúm thông thường' (Cảm cúm do virus gây ra, không phải do phân chia mất kiểm soát.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c6_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Túi chứa đầy nước bên trong tế bào thực vật tạo sức căng cho tế bào là gì?",
         "steps": "Không bào no nước tạo áp suất trương giúp cây tươi đứng thẳng; mất nước làm cây héo rũ.",
         "trap": "Lục lạp làm nhiệm vụ quang hợp, không tích trữ dịch trương nước như không bào."
-      }
+      },
+      "socraticPrompt": "Túi chứa đầy nước bên trong tế bào thực vật tạo sức căng cho tế bào là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Lục lạp' (Lục lạp làm nhiệm vụ quang hợp, không tích trữ dịch trương nước như không bào.).",
+        "Đúng vì: Không bào no nước tạo áp suất trương giúp cây tươi đứng thẳng; mất nước làm cây héo rũ.",
+        "Sai vì 'Nhân tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Màng nhân' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c6_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "2 giờ chia làm mấy khoảng 30 phút? Lấy 100 nhân 2 mũ mấy?",
         "steps": "n = 4 lần phân chia -> N = 100 · 16 = 1600 con vi khuẩn.",
         "trap": "Lấy 100 x 4 x 2 = 800 (sai công thức luỹ thừa)."
-      }
+      },
+      "socraticPrompt": "2 giờ chia làm mấy khoảng 30 phút? Lấy 100 nhân 2 mũ mấy?",
+      "distractorReasons": [
+        "Sai vì '400 con' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '800 con' (Lấy 100 x 4 x 2 = 800 (sai công thức luỹ thừa).).",
+        "Đúng vì: n = 4 lần phân chia -> N = 100 · 16 = 1600 con vi khuẩn.",
+        "Sai vì '3200 con' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c6_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Nước bên trong tế bào sẽ đi ra ngoài môi trường mặn hay đi vào? Màng tế bào co lại hay phồng lên?",
         "steps": "Mất nước -> màng tế bào co rúm tách khỏi thành tế bào (co nguyên sinh).",
         "trap": "Thành tế bào cứng cáp vẫn giữ nguyên khung ngoài, chỉ có màng sinh chất bên trong bị co lại."
-      }
+      },
+      "socraticPrompt": "Nước bên trong tế bào sẽ đi ra ngoài môi trường mặn hay đi vào? Màng tế bào co lại hay phồng lên?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào trương phồng to lên và nổ tung' (Thành tế bào cứng cáp vẫn giữ nguyên khung ngoài, chỉ có màng sinh chất bên trong bị co lại.).",
+        "Sai vì 'Nhân tế bào tự phân chia ngay lập tức' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Lục lạp biến thành màu đỏ rực' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Mất nước -> màng tế bào co rúm tách khỏi thành tế bào (co nguyên sinh)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

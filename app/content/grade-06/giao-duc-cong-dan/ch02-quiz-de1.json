@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm yêu thương con người (Bài 2, SGK GDCD 6, trang 10).",
         "steps": "Yêu thương con người là sự rung động trắc ẩn từ trái tim, thể hiện qua hành động quan tâm, chăm sóc, chia sẻ khó khăn với mọi người.",
-        "trap": "Nhầm lẫn với thói vị kỷ hoặc dùng tiền bạc thống trị."
+        "trap": "Nhầm lẫn với thói vị kỷ hoặc dùng tiền bạc thống trị.",
+        "socraticPrompt": "Khi thấy một em nhỏ bị ngã trầy đầu gối đang khóc, hành động chạy lại đỡ em dậy và lau nước mắt cho em xuất phát từ tình cảm gì?"
       },
       "socraticPrompt": "Khi thấy một em nhỏ bị ngã trầy đầu gối đang khóc, hành động chạy lại đỡ em dậy và lau nước mắt cho em xuất phát từ tình cảm gì?",
       "distractorReasons": [
-        "Sai, đây là chủ nghĩa cá nhân ích kỷ hẹp hòi.",
-        "Chính xác theo định nghĩa chuẩn SGK GDCD 6 trang 10.",
-        "Sai, đây là thói đố kỵ đáng chê trách.",
-        "Sai, đây là hành vi trịch thượng khinh rẻ con người."
-      ]
+        "Sai vì đây là chủ nghĩa cá nhân ích kỷ hẹp hòi.",
+        "Đúng vì định nghĩa chuẩn SGK GDCD 6 trang 10.",
+        "Sai vì đây là thói đố kỵ đáng chê trách.",
+        "Sai vì đây là hành vi trịch thượng khinh rẻ con người."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch02_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Yêu thương trong gia đình (Bài 2, SGK GDCD 6, trang 11).",
         "steps": "Gia đình là cái nôi nuôi dưỡng lòng nhân ái. Yêu thương gia đình biểu hiện qua sự chăm sóc, nhường nhịn và hiếu thảo.",
-        "trap": "Thói vòi vĩnh ích kỷ của trẻ con được nuông chiều."
+        "trap": "Thói vòi vĩnh ích kỷ của trẻ con được nuông chiều.",
+        "socraticPrompt": "Khi trong nhà có người bị ốm, hành động nấu cháo hay bưng nước uống thể hiện điều gì?"
       },
       "socraticPrompt": "Khi trong nhà có người bị ốm, hành động nấu cháo hay bưng nước uống thể hiện điều gì?",
       "distractorReasons": [
-        "Sai, ích kỷ và bất hiếu với người thân.",
-        "Sai, thói hư tật xấu làm khổ cha mẹ.",
-        "Chính xác, biểu hiện hiếu thảo, đùm bọc chuẩn mực trong gia đình.",
-        "Sai, hành vi trộm cắp phạm pháp và tổn hại lòng tin gia đình."
-      ]
+        "Sai vì ích kỷ và bất hiếu với người thân.",
+        "Sai vì thói hư tật xấu làm khổ cha mẹ.",
+        "Đúng vì biểu hiện hiếu thảo, đùm bọc chuẩn mực trong gia đình.",
+        "Sai vì hành vi trộm cắp phạm pháp và tổn hại lòng tin gia đình."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch02_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Ca dao tục ngữ về yêu thương con người (Bài 2, SGK GDCD 6, trang 13).",
         "steps": "'Thương người như thể thương thân' khuyên chúng ta yêu thương người khác như chính bản thân mình.",
-        "trap": "Các câu tục ngữ phê phán thói ích kỷ cá nhân (Đèn nhà ai, Thân ai nấy lo)."
+        "trap": "Các câu tục ngữ phê phán thói ích kỷ cá nhân (Đèn nhà ai, Thân ai nấy lo).",
+        "socraticPrompt": "Câu tục ngữ nào dạy chúng ta coi nỗi đau của người khác giống như nỗi đau của chính cơ thể mình?"
       },
       "socraticPrompt": "Câu tục ngữ nào dạy chúng ta coi nỗi đau của người khác giống như nỗi đau của chính cơ thể mình?",
       "distractorReasons": [
-        "Sai, câu này phê phán thói sống ích kỷ khép kín không quan tâm chòm xóm.",
-        "Sai, phản ánh lối sống vô cảm chia rẽ.",
-        "Sai, phê phán thói khôn lỏi trục lợi.",
-        "Chính xác, đây là viên ngọc quý trong kho tàng đạo lý nhân ái của dân tộc Việt Nam."
-      ]
+        "Sai vì câu này phê phán thói sống ích kỷ khép kín không quan tâm chòm xóm.",
+        "Sai vì phản ánh lối sống vô cảm chia rẽ.",
+        "Sai vì phê phán thói khôn lỏi trục lợi.",
+        "Đúng vì đây là viên ngọc quý trong kho tàng đạo lý nhân ái của dân tộc Việt Nam."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch02_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Hành vi vô cảm, độc ác trái với yêu thương (Bài 2, SGK GDCD 6, trang 12).",
         "steps": "Thờ ơ, cổ vũ bạo lực và đăng video bạo lực học đường là hành vi vô cảm cực kỳ tàn nhẫn, đi ngược lại đạo lý làm người.",
-        "trap": "Nghĩ rằng quay video để đăng mạng câu view là việc bình thường."
+        "trap": "Nghĩ rằng quay video để đăng mạng câu view là việc bình thường.",
+        "socraticPrompt": "Khi thấy bạn gặp nguy hiểm đau đớn, người có lòng nhân ái sẽ làm gì thay vì đứng cầm điện thoại quay phim?"
       },
       "socraticPrompt": "Khi thấy bạn gặp nguy hiểm đau đớn, người có lòng nhân ái sẽ làm gì thay vì đứng cầm điện thoại quay phim?",
       "distractorReasons": [
-        "Chính xác, biểu hiện của sự vô cảm tàn nhẫn và tiếp tay cho cái ác.",
+        "Đúng vì biểu hiện của sự vô cảm tàn nhẫn và tiếp tay cho cái ác.",
         "Sai vì nhường ghế là hành động văn minh, tử tế.",
         "Sai vì tặng sách vở là nghĩa cử tương thân tương ái đẹp đẽ.",
         "Sai vì bao dung là đức tính cao thượng của lòng yêu thương."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch02_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Nghệ thuật từ thiện bảo vệ lòng tự tôn (Bài 2, SGK GDCD 6, trang 13 & Kỹ năng sống nhân ái).",
         "steps": "'Của cho không bằng cách cho'. Tình yêu thương chân thành đòi hỏi sự tinh tế: đồ đạc phải sạch sẽ, nguyên vẹn và trao đi với thái độ trân trọng, tuyệt đối tránh làm tổn thương lòng tự trọng của người nhận.",
-        "trap": "Xem từ thiện như việc dọn rác thải gia đình hoặc công cụ đánh bóng tên tuổi."
+        "trap": "Xem từ thiện như việc dọn rác thải gia đình hoặc công cụ đánh bóng tên tuổi.",
+        "socraticPrompt": "Em cảm thấy thế nào nếu ai đó tặng em một món đồ rách nát kèm thái độ khinh khỉnh?"
       },
       "socraticPrompt": "Em cảm thấy thế nào nếu ai đó tặng em một món đồ rách nát kèm thái độ khinh khỉnh?",
       "distractorReasons": [
-        "Sai, xúc phạm người nhận và coi thường giá trị con người.",
-        "Chính xác, thể hiện văn hóa cho đi tinh tế, đầy ắp lòng nhân ái và bảo vệ phẩm giá người nghèo.",
-        "Sai, hành vi vô lễ, trịch thượng đáng lên án.",
-        "Sai, lợi dụng sự khó khăn của người khác để trục lợi danh tiếng cá nhân."
-      ]
+        "Sai vì xúc phạm người nhận và coi thường giá trị con người.",
+        "Đúng vì thể hiện văn hóa cho đi tinh tế, đầy ắp lòng nhân ái và bảo vệ phẩm giá người nghèo.",
+        "Sai vì hành vi vô lễ, trịch thượng đáng lên án.",
+        "Sai vì lợi dụng sự khó khăn của người khác để trục lợi danh tiếng cá nhân."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch02_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Giá trị của yêu thương con người (Bài 2, SGK GDCD 6, trang 12).",
         "steps": "Gieo hạt mầm yêu thương sẽ gặt hái quả ngọt hạnh phúc. Người sống nhân hậu luôn có tâm hồn bình an và sự yêu kính của cộng đồng.",
-        "trap": "Suy nghĩ thiển cận rằng cho đi là mất mát."
+        "trap": "Suy nghĩ thiển cận rằng cho đi là mất mát.",
+        "socraticPrompt": "Khi em nở nụ cười và giúp đỡ một cụ già qua đường, trong lòng em cảm thấy ấm áp hay buồn rầu?"
       },
       "socraticPrompt": "Khi em nở nụ cười và giúp đỡ một cụ già qua đường, trong lòng em cảm thấy ấm áp hay buồn rầu?",
       "distractorReasons": [
-        "Sai, người tốt luôn được xã hội tôn vinh và trân quý.",
-        "Sai, sự sẻ chia làm giàu có thêm vẻ đẹp tâm hồn.",
-        "Chính xác, đây là giá trị nhân văn cao đẹp nhất mà lòng yêu thương đem lại.",
-        "Sai, tình yêu thương là giá trị được pháp luật và đạo đức khuyến khích."
-      ]
+        "Sai vì người tốt luôn được xã hội tôn vinh và trân quý.",
+        "Sai vì sự sẻ chia làm giàu có thêm vẻ đẹp tâm hồn.",
+        "Đúng vì đây là giá trị nhân văn cao đẹp nhất mà lòng yêu thương đem lại.",
+        "Sai vì tình yêu thương là giá trị được pháp luật và đạo đức khuyến khích."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

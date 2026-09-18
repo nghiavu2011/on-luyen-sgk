@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ca dao địa danh và lòng tự hào non sông.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đường vô xứ Huế quanh quanh / Non xanh nước biếc như tranh họa đồ' (Trấn Vũ, Kiếm Hồ là danh thắng Hà Nội; Xứ Huế thuộc miền Trung.).",
+        "Sai vì 'Gió đưa cành trúc la đà / Tiếng chuông Trấn Vũ canh gà Thọ Xương' không phù hợp với định lý/quy tắc trọng tâm (Ca dao địa danh và lòng tự hào non sông.).",
+        "Đúng vì theo Ca dao địa danh và lòng tự hào non sông.: Tháp Mười gắn với hoa sen ngát hương của miền Tây Nam Bộ.",
+        "Sai vì 'Rủ nhau xem cảnh Kiếm Hồ / Xem cầu Thê Húc, xem chùa Ngọc Sơn' không phù hợp với định lý/quy tắc trọng tâm (Ca dao địa danh và lòng tự hào non sông.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác giả văn bản cây tre việt nam.?",
+      "distractorReasons": [
+        "Sai vì 'Nhà văn Tô Hoài' không phù hợp với định lý/quy tắc trọng tâm (Tác giả văn bản Cây tre Việt Nam.).",
+        "Sai vì 'Nhà thơ Tố Hữu' không phù hợp với định lý/quy tắc trọng tâm (Tác giả văn bản Cây tre Việt Nam.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhà văn Nguyễn Tuân' (Nguyễn Tuân viết Cô Tô, Tô Hoài viết Dế Mèn.).",
+        "Đúng vì theo Tác giả văn bản Cây tre Việt Nam.: Thép Mới (Hà Văn Lộc) viết bài ký thuyết minh cho bộ phim tài liệu cùng tên của điện ảnh Ba Lan năm 1955."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu ý nghĩa bài thơ 'chuyện cổ nước mình'.?",
+      "distractorReasons": [
+        "Đúng vì theo Đọc hiểu ý nghĩa bài thơ 'Chuyện cổ nước mình'.: 'Nhận mặt ông cha' là nhận ra vẻ đẹp nhân hậu, thông minh, yêu nước của người xưa qua truyện cổ.",
+        "Sai vì phủ định sai bản chất: 'Chuyện cổ tích đã quá cũ kỹ không còn giá trị' trái ngược với kiến thức SGK.",
+        "Sai vì 'Con sông đã bị cạn kiệt nước' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu ý nghĩa bài thơ 'Chuyện cổ nước mình'.).",
+        "Sai vì phủ định sai bản chất: 'Khoảng cách địa lý khiến con cháu không nhớ quê hương' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được sự gắn bó thủy chung trọn đời giữa cây tre và đời sống người nông dân.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ dùng làm củi đun nấu cơm hàng ngày' (Không thu hẹp công dụng tre thành củi đốt hay đồ chơi.).",
+        "Đúng vì: Tre là người bạn đồng hành thủy chung, chứng kiến toàn bộ vòng đời của người Việt.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng để làm hàng rào ngăn thú dữ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng để làm đồ lưu niệm xuất khẩu', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích biểu tượng văn hóa của cây tre.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tính cách thích sống cô độc một mình' (Tre mọc thành lũy tượng trưng đoàn kết, không bao giờ cô độc.).",
+        "Sai vì 'Sự mềm yếu dễ bị khuất phục trước sức mạnh' không phù hợp với định lý/quy tắc trọng tâm (Phân tích biểu tượng văn hóa của cây tre.).",
+        "Đúng vì theo Phân tích biểu tượng văn hóa của cây tre.: Măng mọc thẳng không chịu cong, sống nơi đất cằn cỗi tượng trưng cho ý chí kiên trung và đức tính cần cù chịu khó.",
+        "Sai vì 'Sự phô trương vẻ đẹp bên ngoài' không phù hợp với định lý/quy tắc trọng tâm (Phân tích biểu tượng văn hóa của cây tre.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nhận định giá trị trường tồn của biểu tượng văn hóa truyền thống.?",
+      "distractorReasons": [
+        "Sai vì 'Vì nhà nước cấm sử dụng các vật liệu khác' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nhận định giá trị trường tồn của biểu tượng văn hóa truyền thống.).",
+        "Sai vì phủ định sai bản chất: 'Vì tre có giá thành đắt đỏ hơn thép không gỉ' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Vì người Việt Nam không biết cách sản xuất bê tông' trái ngược với kiến thức SGK.",
+        "Đúng vì: Giá trị vật chất có thể thay đổi nhưng biểu tượng tinh thần và cốt cách dân tộc thì trường tồn cùng lịch sử."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

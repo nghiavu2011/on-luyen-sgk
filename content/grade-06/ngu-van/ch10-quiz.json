@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa của phương pháp ghi nhật ký đọc sách.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để chép lại từng chữ của cả cuốn sách từ đầu đến cuối' (Không nhầm với việc sao chép cơ học.).",
+        "Sai vì 'Để nộp lấy điểm rồi vứt đi ngay sau đó' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa của phương pháp ghi nhật ký đọc sách.).",
+        "Đúng vì theo Ý nghĩa của phương pháp ghi nhật ký đọc sách.: Nhật ký đọc sách là công cụ đối thoại giữa người đọc và tác phẩm, giúp phát triển tư duy cá nhân.",
+        "Sai vì phủ định sai bản chất: 'Để che mắt cha mẹ không cho biết mình đang làm gì' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng thuyết trình giới thiệu sách học đường.?",
+      "distractorReasons": [
+        "Sai vì 'Số điện thoại của nhà in' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng thuyết trình giới thiệu sách học đường.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giá tiền in ở bìa sau của sách' (Giá tiền hay nhà in là thông tin thứ yếu.).",
+        "Sai vì 'Tên người bán sách ở cửa hàng' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng thuyết trình giới thiệu sách học đường.).",
+        "Đúng vì theo Kỹ năng thuyết trình giới thiệu sách học đường.: Tên sách và tác giả là danh tính cốt lõi của tác phẩm cần giới thiệu rõ ràng đầu tiên."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng đọc hiểu chủ động theo định hướng phát triển năng lực.?",
+      "distractorReasons": [
+        "Đúng vì: Đọc chủ động là quá trình tư duy tương tác hai chiều giữa người đọc và văn bản.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Người đọc chỉ lướt mắt qua các con chữ mà không hề suy nghĩ gì' (Đọc thụ động là đọc vẹt không đọng lại tri thức.).",
+        "Sai vì phủ định sai bản chất: 'Người đọc bật nhạc ầm ĩ để không nghe thấy tiếng sách' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ đọc tranh vẽ mà bỏ qua toàn bộ phần lời văn', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tự ý photo lậu toàn bộ cuốn sách rồi đem bán kiếm tiền' (Sử dụng sách lậu là vi phạm pháp luật sở hữu trí tuệ.).",
+        "Đúng vì theo Đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.: Tôn trọng tác quyền là ủng hộ tác giả tiếp tục sáng tạo tri thức cho xã hội.",
+        "Sai vì 'Cắt xé các trang sách trong thư viện trường mang về nhà' không phù hợp với định lý/quy tắc trọng tâm (Đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.).",
+        "Sai vì 'Tải các bản sách scan lậu trái phép trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Đạo đức học đường và ý thức bảo vệ quyền sở hữu trí tuệ.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.?",
+      "distractorReasons": [
+        "Sai vì 'Tự bịa ra một kết cục hoàn toàn mới theo ý mình rồi nhận là của tác giả' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.).",
+        "Sai vì 'Sao chép nguyên xi chương đầu và chương cuối của sách' không phù hợp với định lý/quy tắc trọng tâm (Kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.).",
+        "Đúng vì theo Kỹ năng viết tóm tắt văn bản thông tin và tác phẩm tự sự.: Tóm tắt phải bảo đảm tính trung thực với nguyên bản nhưng cô đọng, súc tích.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ đếm số từ mà không quan tâm đến nội dung' (Không được xuyên tạc nội dung sách gốc.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tầm quan trọng của văn hóa đọc đối với sự trưởng thành của con người.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đọc sách chỉ tốn kém thời gian chơi game giải trí' (Tránh các quan điểm lệch lạc bài xích văn hóa đọc.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Sách chỉ làm mắt ta bị cận thị và không có tác dụng gì cho công việc sau này', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ những ai không có điện thoại thông minh mới phải tìm đến sách', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Sách vừa cung cấp tri thức khoa học vừa là người thầy uốn nắn nhân cách và mở rộng tầm nhìn cuộc sống."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

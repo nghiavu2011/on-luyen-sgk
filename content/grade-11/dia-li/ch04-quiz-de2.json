@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Lợi thế lớn nhất của dân số Đông Nam Á đối với phát triển kinh tế là",
       "options": [
-        "Cơ cấu dân số vàng, nguồn lao động dồi dào, trẻ và thị trường tiêu thụ rộng lớn",
         "Dân số già cần nhiều viện dưỡng lão",
+        "Cơ cấu dân số vàng, nguồn lao động dồi dào, trẻ và thị trường tiêu thụ rộng lớn",
         "Tỉ lệ thất nghiệp 100%",
         "Không có lao động phổ thông"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Thu hút mạnh vốn FDI nhờ chi phí nhân công cạnh tranh và thị trường tiêu thụ gần 700 triệu dân.",
       "breakdown": {
         "concept": "Cơ cấu dân số vàng",
         "steps": "Lao động dồi dào, trẻ, năng động.",
         "socraticPrompt": "Lợi thế dân số của ĐNA là gì?"
-      }
+      },
+      "socraticPrompt": "Lợi thế dân số của ĐNA là gì?",
+      "distractorReasons": [
+        "Sai vì 'Dân số già cần nhiều viện dưỡng lão' không phù hợp với định lý/quy tắc trọng tâm (Cơ cấu dân số vàng).",
+        "Đúng vì theo Cơ cấu dân số vàng: Lao động dồi dào, trẻ, năng động.",
+        "Sai vì 'Tỉ lệ thất nghiệp 100%' không phù hợp với định lý/quy tắc trọng tâm (Cơ cấu dân số vàng).",
+        "Sai vì phủ định sai bản chất: 'Không có lao động phổ thông' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Mục tiêu xây dựng Cộng đồng Kinh tế ASEAN (AEC) là",
       "options": [
-        "Tạo ra một thị trường chung và cơ sở sản xuất đơn nhất, lưu chuyển tự do hàng hóa, dịch vụ, đầu tư và lao động có tay nghề",
-        "Cấm buôn bán giữa các nước thành viên",
         "Áp thuế xuất nhập khẩu 100%",
+        "Cấm buôn bán giữa các nước thành viên",
+        "Tạo ra một thị trường chung và cơ sở sản xuất đơn nhất, lưu chuyển tự do hàng hóa, dịch vụ, đầu tư và lao động có tay nghề",
         "Chia rẽ nền kinh tế khu vực"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Biến ASEAN thành không gian kinh tế cạnh tranh năng động toàn cầu.",
       "breakdown": {
         "concept": "Mục tiêu AEC",
         "steps": "Thị trường chung và cơ sở sản xuất thống nhất.",
         "socraticPrompt": "Cộng đồng kinh tế AEC nhằm mục đích gì?"
-      }
+      },
+      "socraticPrompt": "Cộng đồng kinh tế AEC nhằm mục đích gì?",
+      "distractorReasons": [
+        "Sai vì 'Áp thuế xuất nhập khẩu 100%' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu AEC).",
+        "Sai vì 'Cấm buôn bán giữa các nước thành viên' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu AEC).",
+        "Đúng vì theo Mục tiêu AEC: Thị trường chung và cơ sở sản xuất thống nhất.",
+        "Sai vì 'Chia rẽ nền kinh tế khu vực' không phù hợp với định lý/quy tắc trọng tâm (Mục tiêu AEC)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Nguyên nhân giúp ngành du lịch Đông Nam Á phát triển mạnh mẽ và thu hút hàng chục triệu du khách quốc tế là",
       "options": [
-        "Tài nguyên du lịch biển đảo rực rỡ, di sản văn hóa độc đáo và lòng hiếu khách",
+        "Không có bãi biển",
         "Khí hậu băng tuyết quanh năm",
         "Giá cả đắt đỏ nhất thế giới",
-        "Không có bãi biển"
+        "Tài nguyên du lịch biển đảo rực rỡ, di sản văn hóa độc đáo và lòng hiếu khách"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Bãi biển nhiệt đới đẹp, ẩm thực phong phú và nền văn hóa đa dạng.",
       "breakdown": {
         "concept": "Thế mạnh du lịch ĐNA",
         "steps": "Biển đảo nhiệt đới + Di sản văn hóa.",
         "socraticPrompt": "Vì sao du lịch ĐNA hấp dẫn du khách thế giới?"
-      }
+      },
+      "socraticPrompt": "Vì sao du lịch ĐNA hấp dẫn du khách thế giới?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có bãi biển' trái ngược với kiến thức SGK.",
+        "Sai vì 'Khí hậu băng tuyết quanh năm' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh du lịch ĐNA).",
+        "Sai vì 'Giá cả đắt đỏ nhất thế giới' không phù hợp với định lý/quy tắc trọng tâm (Thế mạnh du lịch ĐNA).",
+        "Đúng vì theo Thế mạnh du lịch ĐNA: Biển đảo nhiệt đới + Di sản văn hóa."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Vành đai lửa Thái Bình Dương",
         "steps": "Động đất, núi lửa, sóng thần.",
         "socraticPrompt": "Indonesia và Philippines hay gặp thiên tai gì?"
-      }
+      },
+      "socraticPrompt": "Indonesia và Philippines hay gặp thiên tai gì?",
+      "distractorReasons": [
+        "Đúng vì theo Vành đai lửa Thái Bình Dương: Động đất, núi lửa, sóng thần.",
+        "Sai vì 'Bão tuyết lạnh giá' không phù hợp với định lý/quy tắc trọng tâm (Vành đai lửa Thái Bình Dương).",
+        "Sai vì 'Hạn hán vĩnh cửu' không phù hợp với định lý/quy tắc trọng tâm (Vành đai lửa Thái Bình Dương).",
+        "Sai vì 'Mưa đá khổng lồ' không phù hợp với định lý/quy tắc trọng tâm (Vành đai lửa Thái Bình Dương)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Giải pháp để các nước xuất khẩu gạo Đông Nam Á nâng cao giá trị gia tăng là",
       "options": [
-        "Đầu tư nghiên cứu giống lúa chất lượng cao (ST25, Jasmine), chế biến sâu và xây dựng thương hiệu gạo quốc tế",
+        "Bỏ hoang đồng ruộng",
         "Chỉ xuất khẩu gạo phẩm cấp thấp thô",
         "Bán phá giá triệt tiêu lẫn nhau",
-        "Bỏ hoang đồng ruộng"
+        "Đầu tư nghiên cứu giống lúa chất lượng cao (ST25, Jasmine), chế biến sâu và xây dựng thương hiệu gạo quốc tế"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Gạo ngon đoạt giải thế giới mang lại giá trị kinh tế gấp nhiều lần.",
       "breakdown": {
         "concept": "Nâng cao giá trị lúa gạo",
         "steps": "Giống lúa chất lượng cao + chế biến sâu.",
         "socraticPrompt": "Làm thế nào để hạt gạo Việt Nam có giá trị cao?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để hạt gạo Việt Nam có giá trị cao?",
+      "distractorReasons": [
+        "Sai vì 'Bỏ hoang đồng ruộng' không phù hợp với định lý/quy tắc trọng tâm (Nâng cao giá trị lúa gạo).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ xuất khẩu gạo phẩm cấp thấp thô', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bán phá giá triệt tiêu lẫn nhau' không phù hợp với định lý/quy tắc trọng tâm (Nâng cao giá trị lúa gạo).",
+        "Đúng vì theo Nâng cao giá trị lúa gạo: Giống lúa chất lượng cao + chế biến sâu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Chuyển dịch công nghiệp ĐNA",
         "steps": "Sang điện tử, bán dẫn, công nghệ cao.",
         "socraticPrompt": "Công nghiệp ĐNA đang chuyển dịch ra sao?"
-      }
+      },
+      "socraticPrompt": "Công nghiệp ĐNA đang chuyển dịch ra sao?",
+      "distractorReasons": [
+        "Đúng vì theo Chuyển dịch công nghiệp ĐNA: Sang điện tử, bán dẫn, công nghệ cao.",
+        "Sai vì 'Từ công nghệ cao sang khai thác thủ công' không phù hợp với định lý/quy tắc trọng tâm (Chuyển dịch công nghiệp ĐNA).",
+        "Sai vì 'Đóng cửa tất cả các nhà máy' không phù hợp với định lý/quy tắc trọng tâm (Chuyển dịch công nghiệp ĐNA).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ sản xuất nông cụ thô sơ', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

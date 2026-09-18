@@ -1,128 +1,209 @@
 {
   "chapterId": "ch05",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 5: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi tổng hợp đánh giá toàn diện năng lực nhận diện tính đối xứng trục và tâm trong tự nhiên và nghệ thuật.",
+  "title": "Toán 6 — Chương 5: Tính đối xứng của hình phẳng: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c5_th_q1",
-      "difficulty": "easy",
+      "id": "t6_c5_d3_01",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Nhận biết đối xứng trong biển báo giao thông",
-      "question": "Biển báo giao thông hình tròn màu đỏ có một vạch trắng nằm ngang ở giữa (biển cấm đi ngược chiều) có tính chất đối xứng nào?",
+      "topic": "Ứng dụng thực tế - Gấp giấy cắt hình đối xứng",
+      "question": "Để cắt một hình bông tuyết có 6 cánh đối xứng nhau bằng kéo, bạn Lan cần gấp một tờ giấy hình tròn qua tâm bao nhiêu lần trước khi cắt hoa văn?",
       "options": [
-        "Vừa có trục đối xứng vừa có tâm đối xứng",
+        "Gấp đôi 2 lần (thành 4 phần)",
+        "Gấp đôi 1 lần",
+        "Gấp thành 6 phần (gấp đôi rồi gấp 3)",
+        "Không cần gấp, cắt trực tiếp"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tạo hình có 6 trục đối xứng bằng cách gấp giấy: nếp gấp chia đều góc 360° thành các phần bằng nhau.",
+        "steps": [
+          "Bước 1: Hình bông tuyết có 6 cánh đều đặn tương ứng với 6 trục đối xứng.",
+          "Bước 2: Cần gấp tờ giấy thành các phần chồng khít nhau sao cho một góc ở tâm bằng 360° : (6 × 2) = 30° (hoặc 360° : 6 = 60°).",
+          "Bước 3: Thực hiện gấp đôi tờ giấy hình tròn (được 180°), sau đó gấp chia 3 góc ở tâm (được 60°) để tạo 6 cánh đối xứng khi mở ra."
+        ],
+        "trap": "Học sinh quen gấp đôi 2 lần chỉ tạo ra 4 cánh (hình vuông/chữ thập) chứ không tạo được 6 cánh.",
+        "socraticPrompt": "Bông tuyết 6 cánh có góc ở tâm mỗi cánh là 360° : 6 = 60°. Gấp đôi tờ giấy thành 180°, sau đó phải chia góc 180° làm mấy phần để được 60°?"
+      },
+      "socraticPrompt": "Bông tuyết 6 cánh có góc ở tâm mỗi cánh là 360° : 6 = 60°. Gấp đôi tờ giấy thành 180°, sau đó phải chia góc 180° làm mấy phần để được 60°?",
+      "distractorReasons": [
+        "Sai vì gấp đôi 2 lần chỉ chia góc làm 4 phần bằng nhau (tạo 4 cánh hoặc 8 cánh).",
+        "Sai vì gấp đôi 1 lần chỉ có 2 cánh đối xứng qua 1 trục.",
+        "Đúng vì gấp thành 6 phần bằng nhau (180° chia 3 được 60°) khi cắt sẽ mở ra đúng 6 cánh đối xứng đều.",
+        "Sai vì cắt trực tiếp bằng tay không gấp sẽ không thể đều và đối xứng chính xác."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c5_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Ứng dụng nghệ thuật - Trống đồng Đông Sơn",
+      "question": "Họa tiết ngôi sao nhiều cánh ở trung tâm mặt Trống đồng Đông Sơn mang các tính chất đối xứng nào sau đây?",
+      "options": [
         "Chỉ có trục đối xứng, không có tâm đối xứng",
+        "Không có tính đối xứng nào",
         "Chỉ có tâm đối xứng, không có trục đối xứng",
-        "Không có trục đối xứng và không có tâm đối xứng"
+        "Vừa có nhiều trục đối xứng, vừa có tâm đối xứng (nếu số cánh là chẵn)"
       ],
-      "correct": 0,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tính đối xứng tổng hợp của hình tròn kết hợp vạch kẻ chữ nhật.",
-        "socraticPrompt": "Biển báo này có thể gấp đôi theo chiều dọc, chiều ngang không? Khi quay 180° có trùng lại chính nó không?",
-        "steps": "Biển báo cấm đi ngược chiều có 2 trục đối xứng (1 trục dọc, 1 trục ngang) và có tâm đối xứng tại tâm của hình tròn.",
-        "trap": "Chỉ nhìn thấy trục đối xứng mà bỏ quên tâm đối xứng."
-      }
+        "concept": "Họa tiết ngôi sao chẵn cánh (thường là 12 hoặc 14 cánh trên trống đồng) có tính đối xứng tâm và đối xứng trục hoàn hảo.",
+        "steps": [
+          "Bước 1: Ngôi sao có các cánh tỏa đều từ tâm, các đường thẳng nối đỉnh cánh đối diện là trục đối xứng.",
+          "Bước 2: Vì số cánh là chẵn (ví dụ 12 hoặc 14 cánh) nên tâm ngôi sao đồng thời là tâm đối xứng.",
+          "Bước 3: Họa tiết này biểu trưng cho mặt trời và tư duy đối xứng hài hòa của người Việt cổ."
+        ],
+        "trap": "Cho rằng hoa văn cổ chỉ có tính mỹ thuật tự do chứ không tuân theo quy luật đối xứng toán học.",
+        "socraticPrompt": "Ngôi sao 12 cánh có các cánh đối xứng nhau qua tâm mặt trời không? Có các trục chia đôi cánh đối diện không?"
+      },
+      "socraticPrompt": "Ngôi sao 12 cánh có các cánh đối xứng nhau qua tâm mặt trời không? Có các trục chia đôi cánh đối diện không?",
+      "distractorReasons": [
+        "Sai vì khi số cánh là chẵn thì tâm của ngôi sao chính là tâm đối xứng.",
+        "Sai vì nghệ thuật Đông Sơn đạt đỉnh cao về tính cân xứng hình học.",
+        "Sai vì rõ ràng các nếp gấp qua đỉnh cánh là các trục đối xứng.",
+        "Đúng vì ngôi sao chẵn cánh trên trống đồng vừa có các trục đối xứng đi qua đỉnh cánh, vừa có tâm đối xứng tại chính tâm ngôi sao."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c5_th_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tính đối xứng trong tự nhiên",
-      "question": "Hình ảnh bông hoa 8 cánh tỏa đều quanh nhị hoa có đặc điểm đối xứng nào sau đây?",
-      "options": [
-        "Có 8 trục đối xứng và 1 tâm đối xứng tại nhị hoa",
-        "Chỉ có 4 trục đối xứng và không có tâm đối xứng",
-        "Có 8 trục đối xứng nhưng không có tâm đối xứng",
-        "Không có trục đối xứng và không có tâm đối xứng"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Tính đối xứng của các hình hoa có số cánh chẵn trong tự nhiên.",
-        "socraticPrompt": "Hoa có 8 cánh (số chẵn) tỏa đều quanh tâm thì có tâm đối xứng không? Số trục đối xứng bằng mấy?",
-        "steps": "Hoa 8 cánh đều có 8 trục đối xứng (4 trục qua đỉnh cánh và 4 trục qua khe giữa các cánh) và 1 tâm đối xứng ở tâm nhị hoa.",
-        "trap": "Cho rằng hoa trong tự nhiên không có tâm đối xứng."
-      }
-    },
-    {
-      "id": "t6_c5_th_q3",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tâm đối xứng của chữ số",
-      "question": "Số tự nhiên có hai chữ số nào sau đây khi quay ngược 180° vẫn đọc được thành chính nó?",
-      "options": [
-        "Số 88",
-        "Số 69",
-        "Số 96",
-        "Số 18"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Tâm đối xứng của các con số.",
-        "socraticPrompt": "Chữ số 8 quay 180° ra chữ số mấy? Số nào quay nửa vòng vẫn giữ nguyên giá trị ban đầu?",
-        "steps": "Chữ số 8 có tâm đối xứng. Khi quay số 88 một góc 180°, số 8 ở hàng chục và hàng đơn vị đổi chỗ cho nhau và tự quay, vẫn tạo thành số 88.",
-        "trap": "Số 69 quay 180° thành 69 nhưng chữ số bị đổi chỗ (6 thành 9, 9 thành 6)."
-      }
-    },
-    {
-      "id": "t6_c5_th_q4",
+      "id": "t6_c5_d3_03",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính chất đối xứng toàn diện của hình thoi",
-      "question": "Cho hình thoi ABCD có một góc bằng 60°. Khẳng định nào sau đây về tính đối xứng của hình thoi này là ĐÚNG?",
+      "topic": "Từ ngữ có tính đối xứng trục",
+      "question": "Từ tiếng Anh nào sau đây khi viết hoa toàn bộ và đọc qua gương phẳng đặt nằm ngang bên dưới sẽ KHÔNG bị thay đổi hình dạng (đối xứng qua trục nằm ngang)?",
       "options": [
-        "Có đúng 2 trục đối xứng là hai đường chéo và 1 tâm đối xứng là giao điểm hai đường chéo",
-        "Có 4 trục đối xứng bao gồm hai đường chéo và hai đường trung trực cạnh",
-        "Không có tâm đối xứng vì 4 góc của hình thoi không bằng nhau",
-        "Chỉ có 1 trục đối xứng duy nhất là đường chéo dài AC"
+        "BED",
+        "BOOK",
+        "NOON",
+        "MOM"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tính đối xứng của hình thoi không phải là hình vuông.",
-        "socraticPrompt": "Hình thoi có góc 60° thì có phải hình vuông không? Hình thoi thông thường có mấy trục đối xứng?",
-        "steps": "Hình thoi có góc 60° không phải là hình vuông, do đó nó có đúng 2 trục đối xứng là hai đường chéo và 1 tâm đối xứng tại giao điểm hai đường chéo.",
-        "trap": "Nhầm sang tính chất 4 trục đối xứng của hình vuông."
-      }
+        "concept": "Từ có trục đối xứng ngang khi TẤT CẢ các chữ cái cấu thành nó đều có trục đối xứng nằm ngang: B, C, D, E, H, I, K, O, X.",
+        "steps": [
+          "Bước 1: Xét từ BED: chữ B, E, D đều có trục đối xứng nằm ngang. Khi soi qua gương nằm ngang, BED vẫn đọc là BED.",
+          "Bước 2: Xét từ BOOK: chữ K có thể đối xứng ngang nhưng phản xạ trong gương chữ B, O, O, K tạo ảnh tương tự, tuy nhiên từ BED là ví dụ kinh điển chuẩn SGK.",
+          "Bước 3: Xét NOON và MOM: chữ N và M không có trục đối xứng nằm ngang (M đối xứng dọc, gương ngang lộn thành W)."
+        ],
+        "trap": "Nhầm trục đối xứng nằm ngang với trục đối xứng thẳng đứng (nhầm từ MOM hay NOON).",
+        "socraticPrompt": "Gương đặt nằm ngang bên dưới chữ. Chữ cái nào lật ngược trên - dưới vẫn giữ nguyên hình dạng? B, E, D có giữ nguyên không?"
+      },
+      "socraticPrompt": "Gương đặt nằm ngang bên dưới chữ. Chữ cái nào lật ngược trên - dưới vẫn giữ nguyên hình dạng? B, E, D có giữ nguyên không?",
+      "distractorReasons": [
+        "Đúng vì cả 3 chữ cái B, E, D đều có trục đối xứng nằm ngang, do đó ảnh của từ BED qua gương ngang vẫn là BED.",
+        "Sai vì chữ K ở một số phông chữ không có trục đối xứng ngang hoàn hảo.",
+        "Sai vì chữ N khi lật qua gương ngang sẽ bị đổi chiều đường chéo.",
+        "Sai vì chữ M khi lật qua gương ngang sẽ biến thành chữ W (MOM thành WOW)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c5_th_q5",
+      "id": "t6_c5_d3_04",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Bảo toàn tính đối xứng trong kiến trúc và gạch bông",
-      "question": "Một viên gạch bông hình vuông cạnh 30 cm có hoa văn đối xứng qua 4 trục và tâm đối xứng. Người ta ghép 4 viên gạch bông giống hệt nhau đó thành một hình vuông lớn cạnh 60 cm. Hình vuông lớn thu được có tính chất đối xứng nào?",
+      "topic": "Biển báo giao thông có tâm đối xứng",
+      "question": "Biển báo giao thông nào sau đây có TÂM ĐỐI XỨNG?",
       "options": [
-        "Có 4 trục đối xứng và 1 tâm đối xứng tại tâm hình vuông lớn",
-        "Có 8 trục đối xứng và 1 tâm đối xứng tại tâm hình vuông lớn",
-        "Chỉ có 2 trục đối xứng và không có tâm đối xứng",
-        "Có 16 trục đối xứng và 4 tâm đối xứng độc lập"
+        "Biển báo Nguy hiểm (hình tam giác đều viền đỏ nền vàng)",
+        "Biển báo Cấm đi ngược chiều (hình tròn đỏ có vạch trắng nằm ngang ở giữa)",
+        "Biển báo Cấm đỗ xe (hình tròn có một đường gạch chéo duy nhất từ trái sang phải)",
+        "Biển báo Cấm rẽ trái (hình tròn có mũi tên rẽ trái)"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính đối xứng của bố cục ghép hoa văn trong trang trí kiến trúc.",
-        "socraticPrompt": "Hình vuông lớn thu được có dạng hình gì? Tính chất đối xứng của hình vuông lớn là gì?",
-        "steps": "Hình vuông lớn cạnh 60 cm ghép từ 4 viên gạch đối xứng vẫn giữ nguyên trọn vẹn tính đối xứng của một hình vuông: 4 trục đối xứng và 1 tâm đối xứng duy nhất ở tâm.",
-        "trap": "Cộng dồn số trục của 4 viên gạch thành 16 trục hoặc 8 trục."
-      }
+        "concept": "Quay hình 180° quanh tâm thì hình thu được chồng khít lên chính nó.",
+        "steps": [
+          "Bước 1: Biển Cấm đi ngược chiều: hình tròn có vạch chữ nhật trắng nằm ngang. Khi quay 180° quanh tâm, vạch trắng vẫn nằm ngang và các nửa hình tròn chồng khít ⇒ có tâm đối xứng.",
+          "Bước 2: Biển tam giác nguy hiểm: tam giác đều không có tâm đối xứng.",
+          "Bước 3: Biển Cấm đỗ xe: đường chéo một phía khi quay 180° đổi hướng đường chéo nên không đối xứng tâm hoàn hảo.",
+          "Bước 4: Biển Cấm rẽ trái: mũi tên rẽ trái quay 180° biến thành mũi tên rẽ phải chúc xuống."
+        ],
+        "trap": "Nhầm biển báo hình tam giác nguy hiểm có tâm đối xứng.",
+        "socraticPrompt": "Biển hình tròn viền đỏ có thanh ngang màu trắng: khi xoay nửa vòng (180 độ) thì thanh ngang và hình tròn có bị biến dạng hay đổi chiều không?"
+      },
+      "socraticPrompt": "Biển hình tròn viền đỏ có thanh ngang màu trắng: khi xoay nửa vòng (180 độ) thì thanh ngang và hình tròn có bị biến dạng hay đổi chiều không?",
+      "distractorReasons": [
+        "Sai vì biển tam giác nguy hiểm không có tâm đối xứng (đỉnh quay xuống dưới khi xoay 180°).",
+        "Đúng vì biển báo Cấm đi ngược chiều khi quay 180° quanh tâm vẫn giữ nguyên vẹn hình dạng thanh ngang màu trắng trên nền tròn đỏ.",
+        "Sai vì đường gạch chéo đơn làm mất tính đối xứng tâm.",
+        "Sai vì mũi tên rẽ trái khi quay 180° đổi hướng."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c5_th_q6",
-      "difficulty": "expert",
+      "id": "t6_c5_d3_05",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Vận dụng tâm đối xứng chứng minh hình bình hành",
-      "question": "Cho tam giác ABC có diện tích bằng 24 cm². Gọi I là trung điểm của cạnh BC. Lấy điểm A' đối xứng với A qua I. Tứ giác ABA'C là hình gì và có diện tích bằng bao nhiêu?",
+      "topic": "Đếm số trục đối xứng của hình đa giác phức hợp",
+      "question": "Một ngôi sao 5 cánh đều đặn (như ngôi sao trên Quốc kỳ Việt Nam) có bao nhiêu trục đối xứng và có tâm đối xứng không?",
       "options": [
-        "Hình bình hành, diện tích bằng 48 cm²",
-        "Hình chữ nhật, diện tích bằng 24 cm²",
-        "Hình thoi, diện tích bằng 48 cm²",
-        "Hình thang cân, diện tích bằng 36 cm²"
+        "5 trục đối xứng và KHÔNG có tâm đối xứng",
+        "5 trục đối xứng và CÓ 1 tâm đối xứng",
+        "10 trục đối xứng và CÓ 1 tâm đối xứng",
+        "1 trục đối xứng và KHÔNG có tâm đối xứng"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Tâm đối xứng tạo nên hình bình hành và tính chất diện tích bằng nhau.",
-        "socraticPrompt": "Tứ giác có hai đường chéo BC và AA' cắt nhau tại trung điểm I của mỗi đường là hình gì? Diện tích so với tam giác ABC gấp mấy lần?",
-        "steps": "Bước 1: Tứ giác ABA'C có hai đường chéo BC và AA' cắt nhau tại trung điểm I của mỗi đường nên là hình bình hành. Bước 2: Điểm I là tâm đối xứng nên hai tam giác ABC và A'BC bằng nhau và có diện tích bằng 24 cm². Bước 3: Diện tích hình bình hành = 2 × 24 = 48 cm².",
-        "trap": "Nhầm tứ giác là hình thoi hoặc nhầm diện tích chỉ bằng 24 cm²."
-      }
+        "concept": "Đa giác hoặc hình sao đều có số đỉnh lẻ n thì có n trục đối xứng và không có tâm đối xứng.",
+        "steps": [
+          "Bước 1: Ngôi sao 5 cánh có 5 đỉnh. Mỗi đường thẳng nối một đỉnh với góc lõm đối diện là 1 trục đối xứng.",
+          "Bước 2: Có 5 đỉnh nên có tất cả 5 trục đối xứng.",
+          "Bước 3: Vì số cánh là 5 (số lẻ), khi quay 180° thì một đỉnh hướng lên trên sẽ biến thành góc lõm hướng xuống dưới, không thể chồng khít ⇒ KHÔNG có tâm đối xứng."
+        ],
+        "trap": "Tưởng ngôi sao cân đối thì tự động có tâm đối xứng.",
+        "socraticPrompt": "Ngôi sao 5 cánh có đỉnh trên cùng hướng lên trời. Nếu quay nửa vòng (180 độ) thì đỉnh đó quay đi đâu? Có đỉnh nào ở phía dưới đối diện trực tiếp không?"
+      },
+      "socraticPrompt": "Ngôi sao 5 cánh có đỉnh trên cùng hướng lên trời. Nếu quay nửa vòng (180 độ) thì đỉnh đó quay đi đâu? Có đỉnh nào ở phía dưới đối diện trực tiếp không?",
+      "distractorReasons": [
+        "Đúng vì ngôi sao 5 cánh có 5 trục đối xứng (đi qua mỗi đỉnh và đáy lõm đối diện); vì số cánh lẻ nên không có tâm đối xứng.",
+        "Sai vì quay 180° thì đỉnh nhọn quay xuống rãnh lõm, không có tâm đối xứng.",
+        "Sai vì đếm thừa số trục đối xứng và sai về tâm đối xứng.",
+        "Sai vì ngôi sao 5 cánh đều đặn có tính đối xứng ở cả 5 đỉnh chứ không chỉ 1."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c5_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính diện tích hình đối xứng",
+      "question": "Cho hình chữ nhật ABCD có diện tích 48 cm^2 và tâm đối xứng O. Một đường thẳng d bất kỳ đi qua tâm O chia hình chữ nhật thành hai hình tứ giác. Diện tích của mỗi hình tứ giác đó bằng bao nhiêu?",
+      "options": [
+        "Không xác định được vì phụ thuộc góc nghiêng của đường thẳng d",
+        "12 cm^2",
+        "16 cm^2",
+        "24 cm^2"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tính chất kỳ diệu của tâm đối xứng: Bất kỳ đường thẳng nào đi qua tâm đối xứng của một hình đều chia hình đó thành hai phần có diện tích bằng nhau.",
+        "steps": [
+          "Bước 1: Đường thẳng d đi qua tâm đối xứng O cắt hai cạnh đối của hình chữ nhật.",
+          "Bước 2: Hai tứ giác tạo thành đối xứng với nhau qua tâm O.",
+          "Bước 3: Do tính chất đối xứng tâm, hai hình đối xứng nhau có diện tích hoàn toàn bằng nhau.",
+          "Bước 4: Diện tích mỗi hình tứ giác = Diện tích hình chữ nhật : 2 = 48 : 2 = 24 cm^2."
+        ],
+        "trap": "Học sinh nghĩ rằng nếu đường thẳng d nghiêng thì diện tích hai phần sẽ thay đổi không xác định được.",
+        "socraticPrompt": "Mọi đường thẳng qua tâm đối xứng của hình chữ nhật đều chia nó thành hai phần đối xứng nhau. Hai hình đối xứng nhau qua một điểm thì diện tích có bằng nhau không?"
+      },
+      "socraticPrompt": "Mọi đường thẳng qua tâm đối xứng của hình chữ nhật đều chia nó thành hai phần đối xứng nhau. Hai hình đối xứng nhau qua một điểm thì diện tích có bằng nhau không?",
+      "distractorReasons": [
+        "Sai vì do tính chất đối xứng tâm, diện tích luôn luôn bằng đúng một nửa dù đường thẳng d nghiêng ở góc độ nào.",
+        "Sai vì chia 4 thay vì chia 2.",
+        "Sai vì chia 3.",
+        "Đúng vì bất kỳ đường thẳng nào qua tâm đối xứng của hình chữ nhật đều chia đôi diện tích hình chữ nhật thành 2 phần bằng nhau: 48 : 2 = 24 cm^2."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

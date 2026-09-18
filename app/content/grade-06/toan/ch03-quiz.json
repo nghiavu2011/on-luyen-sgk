@@ -1,158 +1,210 @@
 {
-  "examId": "toan-06-ch03-tonghop",
-  "grade": "06",
-  "subject": "toan",
-  "chapter": "ch03",
-  "chapterTitle": "Số nguyên",
-  "title": "Toán 6 — Chương 3: Số nguyên (Đề 3: Đánh giá Năng lực Tổng hợp)",
-  "description": "Đề thi phân hóa kiểm tra tư duy tổng hợp số nguyên, bài toán thực tiễn độ sâu và tài chính.",
-  "examCode": "103",
-  "mode": "exam",
-  "durationMinutes": 15,
+  "chapterId": "ch03",
+  "examId": "tonghop",
+  "title": "Toán 6 — Chương 3: Số nguyên: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "toan-06-ch03-th-q01",
-      "difficulty": "van-dung",
-      "topic": "Tính tổng dãy số nguyên trong khoảng",
-      "question": "Cho số nguyên $x$ thỏa mãn: $-4 \\le x < 3$. Tổng tất cả các giá trị nguyên của $x$ là:",
+      "id": "t6_c3_d3_01",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Biến thiên nhiệt độ",
+      "question": "Vào buổi sáng, nhiệt độ ở thủ đô Moskva là -8°C. Đến trưa, nhiệt độ tăng thêm 5°C. Đến đêm, nhiệt độ lại giảm đi 4°C so với buổi trưa. Nhiệt độ ở Moskva vào ban đêm là:",
       "options": [
-        "Tổng tất cả các giá trị của x có kết quả bằng âm 7",
-        "Tổng tất cả các giá trị của x có kết quả bằng âm 4",
-        "Tổng tất cả các giá trị của x có kết quả bằng 0",
-        "Tổng tất cả các giá trị của x có kết quả bằng âm 9"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Liệt kê và tính tổng các số nguyên trong một khoảng cho trước",
-        "socraticPrompt": "Dấu $\\le$ có lấy số $-4$, còn dấu $<$ có lấy số 3 không? Liệt kê tất cả các số.",
-        "calculation": "Các số thỏa mãn: $\\{-4; -3; -2; -1; 0; 1; 2\\}$. Tổng: $[(-2)+2] + [(-1)+1] + 0 + (-4) + (-3) = -4 - 3 = -7$.",
-        "trap": "Lấy cả số 3 vào tổng do nhầm dấu $<$ thành $\\le$.",
-        "distractorReasons": {
-          "1": "Nếu lấy cả số 3 thì tổng là $-7 + 3 = -4$ (sai vì dấu < không lấy 3).",
-          "2": "Nghĩ rằng các số âm và dương triệt tiêu hết cho nhau về 0.",
-          "3": "Bỏ sót số 2 hoặc tính sai phép cộng âm."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch03-th-q02",
-      "difficulty": "van-dung",
-      "topic": "Bài toán thực tế độ sâu tàu ngầm",
-      "question": "Một tàu ngầm đang ở độ sâu 40 m (kí hiệu $-40\\text{ m}$). Tàu lặn sâu thêm 25 m rồi nổi lên 15 m. Vị trí hiện tại của tàu là:",
-      "options": [
-        "Tàu ngầm đang ở độ cao âm 80 mét so với mặt biển",
-        "Tàu ngầm đang ở độ cao âm 50 mét so với mặt biển",
-        "Tàu ngầm đang ở độ cao âm 30 mét so với mặt biển",
-        "Tàu ngầm đang ở độ cao âm 65 mét so với mặt biển"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Mô hình hóa bài toán thực tế chuyển động theo phương thẳng đứng bằng số nguyên",
-        "socraticPrompt": "Lặn sâu thêm tương ứng với phép trừ (hoặc cộng số âm), nổi lên tương ứng với phép cộng số dương.",
-        "calculation": "Vị trí tàu ngầm: $(-40) - 25 + 15 = -65 + 15 = -50\\text{ m}$. Tức tàu đang ở độ sâu 50 m dưới mực nước biển.",
-        "trap": "Nhầm lẫn chiều lặn sâu là cộng thêm số dương.",
-        "distractorReasons": {
-          "0": "Tính nhầm phép cộng trừ các đại lượng.",
-          "2": "Lấy $-40 + 25 - 15 = -30\\text{ m}$ hiểu ngược quy ước lặn và nổi.",
-          "3": "Quên không tính lượt nổi lên 15 m."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch03-th-q03",
-      "difficulty": "thong-hieu",
-      "topic": "Tính giá trị tích nhiều số nguyên",
-      "question": "Tính giá trị của tích nhiều số nguyên: $B = (-5) \\times 13 \\times (-2) \\times (-4)$:",
-      "options": [
-        "Giá trị của biểu thức B tính được bằng dương 520",
-        "Giá trị của biểu thức B tính được bằng âm 260",
-        "Giá trị của biểu thức B tính được bằng âm 520",
-        "Giá trị của biểu thức B tính được bằng dương 260"
+        "-17°C",
+        "-1°C",
+        "-7°C",
+        "-3°C"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Xác định dấu của tích và phối hợp tính nhanh hợp lý",
-        "socraticPrompt": "Đếm xem tích có bao nhiêu thừa số nguyên âm? Số lượng này là chẵn hay lẻ?",
-        "calculation": "Tích có 3 thừa số âm (lẻ) nên kết quả mang dấu âm '-'. Kết hợp: $[(-5) \\times (-2)] = 10$. Tích: $10 \\times [13 \\times (-4)] = 10 \\times (-52) = -520$.",
-        "trap": "Xác định sai dấu thành $+520$ do tưởng có nhiều dấu trừ thì thành dấu cộng.",
-        "distractorReasons": {
-          "0": "Nhầm dấu của tích 3 thừa số âm thành dấu dương.",
-          "1": "Tính thiếu một thừa số dẫn đến ra 260.",
-          "3": "Sai cả dấu lẫn tính thiếu thừa số."
-        }
-      }
+        "concept": "Toán thực tế số nguyên: 'Tăng thêm' ứng với phép cộng (+), 'giảm đi' ứng với phép trừ (-).",
+        "steps": [
+          "Bước 1: Nhiệt độ ban đầu: -8°C.",
+          "Bước 2: Nhiệt độ buổi trưa sau khi tăng 5°C: (-8) + 5 = -3°C.",
+          "Bước 3: Nhiệt độ ban đêm sau khi giảm 4°C: (-3) - 4 = (-3) + (-4) = -7°C."
+        ],
+        "trap": "Học sinh tính nhầm (-3) - 4 = +1°C hoặc (-8) + 5 - 4 = -17°C do nhầm dấu.",
+        "socraticPrompt": "-8 tăng 5 độ thì thành âm mấy độ? Từ âm đó giảm tiếp 4 độ nữa thì nhiệt độ sẽ thành bao nhiêu?"
+      },
+      "socraticPrompt": "-8 tăng 5 độ thì thành âm mấy độ? Từ âm đó giảm tiếp 4 độ nữa thì nhiệt độ sẽ thành bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì nhầm dấu phép tính thành (-8) - 5 - 4 = -17°C.",
+        "Sai vì tính nhầm (-3) + 4 = 1 hoặc -1°C.",
+        "Đúng vì nhiệt độ ban đêm là: (-8) + 5 - 4 = -3 - 4 = -7°C.",
+        "Sai vì -3°C mới chỉ là nhiệt độ vào buổi trưa, chưa tính độ giảm ban đêm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "toan-06-ch03-th-q04",
-      "difficulty": "van-dung-cao",
-      "topic": "Tìm điều kiện để phân số nhận giá trị nguyên",
-      "question": "Tìm tập hợp tất cả các số nguyên $n$ để phân số $\\frac{5}{n - 2}$ nhận giá trị là một số nguyên:",
+      "id": "t6_c3_d3_02",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Độ sâu và khoảng cách",
+      "question": "Một tàu ngầm đang hoạt động ở độ sâu 120 m dưới mực nước biển (được biểu diễn là -120 m). Tàu nổi lên 45 m, sau đó lại lặn xuống thêm 25 m. Vị trí mới của tàu ngầm so với mực nước biển là:",
       "options": [
-        "Số n nhận một trong các giá trị {1; 3; 5; 7}",
-        "Số n nhận một trong các giá trị {-5; -1; 1; 5}",
-        "Số n nhận một trong các giá trị {2; 4; 6; 8}",
-        "Số n nhận một trong các giá trị {-3; 1; 3; 7}"
+        "-95 m",
+        "-140 m",
+        "-190 m",
+        "-100 m"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Ứng dụng quan hệ chia hết trong Z để tìm biến số",
-        "socraticPrompt": "Để phân số nhận giá trị nguyên thì mẫu số $(n - 2)$ phải là gì của tử số 5?",
-        "calculation": "Để $\\frac{5}{n - 2} \\in \\mathbb{Z} \\Rightarrow (n - 2) \\in Ư(5) = \\{-5; -1; 1; 5\\}$.\n• $n - 2 = -5 \\Rightarrow n = -3$\n• $n - 2 = -1 \\Rightarrow n = 1$\n• $n - 2 = 1 \\Rightarrow n = 3$\n• $n - 2 = 5 \\Rightarrow n = 7$.\nVậy $n \\in \\{-3; 1; 3; 7\\}$.",
-        "trap": "Dừng lại ở tập ước $\\{-5; -1; 1; 5\\}$ mà quên cộng thêm 2 để tìm $n$.",
-        "distractorReasons": {
-          "0": "Chỉ lấy các ước dương trong $\\mathbb{N}$.",
-          "1": "Đây mới chỉ là các giá trị của $(n - 2)$, chưa phải của $n$.",
-          "2": "Tập các số chẵn không làm mẫu chia hết cho 5."
-        }
-      }
+        "concept": "Nổi lên ứng với số dương (+), lặn sâu xuống ứng với số âm (-).",
+        "steps": [
+          "Bước 1: Vị trí ban đầu: -120 m.",
+          "Bước 2: Tàu nổi lên 45 m: (-120) + 45 = -75 m.",
+          "Bước 3: Tàu lặn xuống thêm 25 m: (-75) - 25 = (-75) + (-25) = -100 m.",
+          "Bước 4: Vị trí mới là ở độ sâu 100 m dưới mực nước biển (-100 m)."
+        ],
+        "trap": "Lấy 120 + 45 + 25 = 190 m hoặc nhầm dấu khi tàu nổi lên.",
+        "socraticPrompt": "Đang ở -120 m, khi nổi lên 45 m thì vị trí là -120 + 45 = -75 m. Khi lặn xuống thêm 25 m thì lấy -75 trừ 25 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Đang ở -120 m, khi nổi lên 45 m thì vị trí là -120 + 45 = -75 m. Khi lặn xuống thêm 25 m thì lấy -75 trừ 25 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính nhầm phép trừ -75 - 25.",
+        "Sai vì tính nhầm dấu khi nổi lên thành (-120) - 45 + 25 = -140 m.",
+        "Sai vì cộng dồn tất cả các khoảng cách mà không quan tâm chiều chuyển động.",
+        "Đúng vì vị trí của tàu ngầm là: (-120) + 45 - 25 = -75 - 25 = -100 m."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "toan-06-ch03-th-q05",
-      "difficulty": "van-dung",
-      "topic": "Bài toán tài chính kinh doanh",
-      "question": "Một cửa hàng tháng đầu lỗ 25 triệu đồng ($-25$), tháng hai lãi 40 triệu ($+40$), tháng ba lỗ 12 triệu ($-12$). Sau 3 tháng kết quả là:",
+      "id": "t6_c3_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính tổng dãy số nguyên có quy luật đan dấu",
+      "question": "Giá trị của tổng S = 1 - 2 + 3 - 4 + 5 - 6 + ... + 99 - 100 bằng:",
       "options": [
-        "Doanh nghiệp bị thua lỗ tất cả 3 triệu đồng",
-        "Doanh nghiệp thu được tiền lãi là 3 triệu đồng",
-        "Doanh nghiệp thu được tiền lãi là 15 triệu đồng",
-        "Doanh nghiệp hoàn toàn hòa vốn với kết quả 0 đồng"
+        "-50",
+        "50",
+        "-100",
+        "0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Nhóm các số hạng thành từng cặp có tổng không đổi: (1 - 2) + (3 - 4) + ...",
+        "steps": [
+          "Bước 1: Dãy có 100 số hạng. Ghép thành 50 cặp: (1 - 2) + (3 - 4) + (5 - 6) + ... + (99 - 100).",
+          "Bước 2: Mỗi cặp đều có giá trị bằng: 1 - 2 = -1; 3 - 4 = -1...",
+          "Bước 3: Có tất cả 50 cặp nên tổng S = (-1) × 50 = -50."
+        ],
+        "trap": "Tính ra +50 vì quên dấu trừ ở các số chẵn lớn hơn.",
+        "socraticPrompt": "Mỗi cặp số (1 - 2), (3 - 4)... đều có kết quả bằng mấy? Có bao nhiêu cặp như thế?"
+      },
+      "socraticPrompt": "Mỗi cặp số (1 - 2), (3 - 4)... đều có kết quả bằng mấy? Có bao nhiêu cặp như thế?",
+      "distractorReasons": [
+        "Đúng vì S gồm 50 cặp, mỗi cặp có giá trị là -1 nên tổng bằng 50 × (-1) = -50.",
+        "Sai vì quên mất số trừ lớn hơn số bị trừ trong mỗi cặp nên giá trị mỗi cặp phải là -1 chứ không phải +1.",
+        "Sai vì lấy nhầm số hạng cuối cùng -100.",
+        "Sai vì tưởng các số triệt tiêu nhau hết."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c3_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tìm số nguyên n để biểu thức chia hết",
+      "question": "Có bao nhiêu số nguyên n để phân số 5 / (n - 2) có giá trị là một số nguyên?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "1"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Ứng dụng số nguyên âm và dương giải bài toán tài chính",
-        "socraticPrompt": "Quy ước: lãi mang dấu '+', lỗ mang dấu '-'. Hãy cộng tất cả các kết quả lại.",
-        "calculation": "Tổng kết quả tài chính: $(-25) + (+40) + (-12) = 15 + (-12) = +3$ triệu đồng. Kết quả dương nên cửa hàng có lãi 3 triệu đồng.",
-        "trap": "Tính nhầm $-25 + 40 = -15$ dẫn đến ra lỗ 27 triệu.",
-        "distractorReasons": {
-          "0": "Tính sai dấu của tổng thành $-3$ triệu đồng.",
-          "2": "Quên tính tháng thứ ba bị lỗ 12 triệu.",
-          "3": "Nghĩ rằng kinh doanh vừa lãi vừa lỗ thì hòa vốn."
-        }
-      }
+        "concept": "Phân số có giá trị nguyên khi và chỉ khi mẫu số là ước của tử số: (n - 2) ∈ Ư(5).",
+        "steps": [
+          "Bước 1: Để 5 / (n - 2) ∈ Z thì (n - 2) phải là ước của 5.",
+          "Bước 2: Tập các ước nguyên của 5 là: Ư(5) = {1; -1; 5; -5}.",
+          "Bước 3: Lập bảng tìm n: n - 2 = 1 ⇒ n = 3; n - 2 = -1 ⇒ n = 1; n - 2 = 5 ⇒ n = 7; n - 2 = -5 ⇒ n = -3.",
+          "Bước 4: Có tất cả 4 giá trị nguyên của n thỏa mãn."
+        ],
+        "trap": "Chỉ lấy ước dương {1; 5} nên kết luận có 2 giá trị.",
+        "socraticPrompt": "Số 5 có các ước nguyên nào (nhớ kể cả số âm)? Ứng với mỗi ước của 5 thì có bao nhiêu giá trị của n?"
+      },
+      "socraticPrompt": "Số 5 có các ước nguyên nào (nhớ kể cả số âm)? Ứng với mỗi ước của 5 thì có bao nhiêu giá trị của n?",
+      "distractorReasons": [
+        "Sai vì chỉ mới xét các ước nguyên dương {1; 5} của 5, quên ước âm {-1; -5}.",
+        "Đúng vì 5 chia hết cho 4 ước nguyên {±1; ±5}, tương ứng ta tìm được 4 giá trị nguyên của n là {3; 1; 7; -3}.",
+        "Sai vì 5 là số nguyên tố chỉ có 4 ước nguyên.",
+        "Sai vì đếm thiếu."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch03-th-q06",
-      "difficulty": "van-dung-cao",
-      "topic": "Tư duy tính chất số nguyên",
-      "question": "Cho hai số nguyên $a$ và $b$ thỏa mãn tích $a \\cdot b < 0$ và tổng $a + b < 0$. Khẳng định nào sau đây chắc chắn ĐÚNG?",
+      "id": "t6_c3_d3_05",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Lũy thừa với cơ số âm",
+      "question": "So sánh hai giá trị: A = (-3)^4 và B = -3^4, khẳng định nào sau đây là ĐÚNG?",
       "options": [
-        "Cả hai số a và b đều là hai số nguyên âm khác nhau",
-        "Hai số a và b là hai số đối nhau có tổng bằng 0",
-        "Hai số a và b khác dấu và số âm có phần tự nhiên lớn hơn",
-        "Hai số a và b cùng mang dấu dương và có tích lớn hơn 0"
+        "A = 81 và B = -81 nên A > B",
+        "A = B vì đều có cơ số 3 và số mũ 4",
+        "A = -81 và B = 81 nên A < B",
+        "A = -12 và B = -12"
       ],
-      "correct": 2,
+      "correct": 0,
       "breakdown": {
-        "concept": "Lập luận tư duy dấu và phần tự nhiên của hai số nguyên",
-        "socraticPrompt": "Tích nhỏ hơn 0 chứng tỏ hai số thế nào? Tổng nhỏ hơn 0 chứng tỏ số nào có phần tự nhiên lớn hơn?",
-        "calculation": "1) $a \\cdot b < 0 \\Rightarrow a$ và $b$ là hai số nguyên trái dấu (một dương, một âm). 2) $a + b < 0 \\Rightarrow$ khi cộng hai số khác dấu, kết quả mang dấu của số có phần tự nhiên lớn hơn. Vì tổng mang dấu âm nên số âm có phần tự nhiên lớn hơn số dương.",
-        "trap": "Nghĩ rằng cả hai số đều âm (nhưng hai số âm nhân nhau lại ra số dương).",
-        "distractorReasons": {
-          "0": "Nếu cả hai cùng âm thì tích $a \\cdot b > 0$, mâu thuẫn giả thiết.",
-          "1": "Nếu đối nhau thì tổng $a + b = 0$, mâu thuẫn giả thiết $a + b < 0$.",
-          "3": "Nếu cùng dương thì tích $a \\cdot b > 0$ và tổng $a + b > 0$."
-        }
-      }
+        "concept": "Phân biệt (-a)^n (lũy thừa của số âm) và -a^n (số đối của lũy thừa a^n).",
+        "steps": [
+          "Bước 1: A = (-3)^4 = (-3) × (-3) × (-3) × (-3) = +81 (lũy thừa bậc chẵn của số âm là số dương).",
+          "Bước 2: B = -3^4 = -(3 × 3 × 3 × 3) = -81 (dấu trừ ở ngoài lũy thừa).",
+          "Bước 3: Vì 81 > -81 nên A > B."
+        ],
+        "trap": "Tưởng (-3)^4 và -3^4 là cùng một phép tính nên cho rằng A = B.",
+        "socraticPrompt": "Dấu ngoặc ở (-3)^4 có tác dụng gì? Cơ số của A là -3, còn ở B thì dấu trừ nằm ngoài hay trong lũy thừa?"
+      },
+      "socraticPrompt": "Dấu ngoặc ở (-3)^4 có tác dụng gì? Cơ số của A là -3, còn ở B thì dấu trừ nằm ngoài hay trong lũy thừa?",
+      "distractorReasons": [
+        "Đúng vì (-3)^4 = +81 (bậc chẵn nên dương) còn -3^4 = -(3^4) = -81, do đó A > B.",
+        "Sai vì (-3)^4 có cơ số là -3, còn -3^4 là số đối của 3^4, hai giá trị hoàn toàn khác nhau.",
+        "Sai vì tính nhầm dấu của cả hai biểu thức.",
+        "Sai vì nhầm lũy thừa thành phép nhân 3 × 4 = 12."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c3_d3_06",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Toán thực tế - Lợi nhuận kinh doanh",
+      "question": "Một cửa hàng kinh doanh trong 4 tháng đầu năm có kết quả như sau: Tháng 1 lãi 15 triệu đồng, Tháng 2 lỗ 8 triệu đồng, Tháng 3 lỗ 12 triệu đồng, Tháng 4 lãi 20 triệu đồng. Sau 4 tháng, tổng kết cửa hàng lãi hay lỗ bao nhiêu triệu đồng?",
+      "options": [
+        "Lỗ 15 triệu đồng",
+        "Lỗ 5 triệu đồng",
+        "Lãi 35 triệu đồng",
+        "Lãi 15 triệu đồng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Quy ước: Số tiền lãi biểu diễn bằng số dương (+), số tiền lỗ biểu diễn bằng số âm (-).",
+        "steps": [
+          "Bước 1: Biểu diễn kết quả 4 tháng bằng phép cộng số nguyên: 15 + (-8) + (-12) + 20.",
+          "Bước 2: Nhóm số dương với số dương, số âm với số âm: (15 + 20) + [(-8) + (-12)].",
+          "Bước 3: Tính toán: 35 + (-20) = 15 triệu đồng.",
+          "Bước 4: Vì kết quả là số dương (+15) nên cửa hàng LÃI 15 triệu đồng."
+        ],
+        "trap": "Tính ra 15 nhưng kết luận nhầm là LỖ 15 triệu đồng.",
+        "socraticPrompt": "Tổng tiền lãi là 15 + 20 = 35 triệu. Tổng tiền lỗ là 8 + 12 = 20 triệu. Tiền lãi nhiều hơn tiền lỗ bao nhiêu triệu?"
+      },
+      "socraticPrompt": "Tổng tiền lãi là 15 + 20 = 35 triệu. Tổng tiền lỗ là 8 + 12 = 20 triệu. Tiền lãi nhiều hơn tiền lỗ bao nhiêu triệu?",
+      "distractorReasons": [
+        "Sai vì tổng kết quả là +15 (dương) tức là lãi chứ không phải lỗ.",
+        "Sai vì tính nhầm phép cộng trừ.",
+        "Sai vì 35 triệu mới chỉ là tổng lãi của tháng 1 và tháng 4, chưa trừ đi các tháng lỗ.",
+        "Đúng vì tổng lợi nhuận là 15 - 8 - 12 + 20 = +15 triệu đồng (cửa hàng lãi 15 triệu đồng)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm biện pháp điệp từ, điệp ngữ.?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm biện pháp điệp từ, điệp ngữ.: Điệp ngữ lặp lại yếu tố ngôn ngữ nhằm mục đích tu từ biểu cảm.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sử dụng từ ngữ trái ngược hoàn toàn về nghĩa' (Tránh nhầm với lỗi lặp từ vô nghĩa.).",
+        "Sai vì 'Thay thế danh từ bằng đại từ xưng hô' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm biện pháp điệp từ, điệp ngữ.).",
+        "Sai vì 'Gán thuộc tính con người cho đồ vật' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm biện pháp điệp từ, điệp ngữ.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đại từ và chức năng liên kết thay thế.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Danh từ riêng' (Không nhầm đại từ với danh từ.).",
+        "Đúng vì theo Đại từ và chức năng liên kết thay thế.: 'Em' là đại từ ngôi thứ ba thay thế cho 'Kiều Phương' để tránh lặp từ.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Động từ chỉ hoạt động', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Trợ từ nhấn mạnh' không phù hợp với định lý/quy tắc trọng tâm (Đại từ và chức năng liên kết thay thế.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tác dụng tu từ của điệp ngữ trong thơ.?",
+      "distractorReasons": [
+        "Sai vì 'Báo hiệu trời sắp chuyển sang ban đêm' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng tu từ của điệp ngữ trong thơ.).",
+        "Sai vì 'Kể tên tất cả các loại cây cỏ có trong rừng' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng tu từ của điệp ngữ trong thơ.).",
+        "Đúng vì theo Tác dụng tu từ của điệp ngữ trong thơ.: Điệp từ tạo nhịp thơ dồn dập, khẳng định vũ trụ tràn ngập sắc màu sinh ra là vì tình thương trẻ em.",
+        "Sai vì 'Thể hiện sự nghèo nàn của cảnh sắc' không phù hợp với định lý/quy tắc trọng tâm (Tác dụng tu từ của điệp ngữ trong thơ.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được yêu cầu kỹ năng viết câu mở đoạn.?",
+      "distractorReasons": [
+        "Sai vì 'Liệt kê số lượng chữ cái có trong bài thơ' không phù hợp với định lý/quy tắc trọng tâm (Yêu cầu kỹ năng viết câu mở đoạn.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần viết chữ 'Bài thơ rất hay' rồi xuống dòng', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Kể lại toàn bộ cốt truyện từ đầu đến cuối', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Yêu cầu kỹ năng viết câu mở đoạn.: Mở đoạn phải có đủ: Tên tác phẩm + Tác giả + Khái quát cảm xúc chính."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vai trò của ngôi kể thứ nhất trong truyện ngắn tâm lý.?",
+      "distractorReasons": [
+        "Đúng vì theo Vai trò của ngôi kể thứ nhất trong truyện ngắn tâm lý.: Ngôi 'tôi' tạo điểm nhìn nội tâm chân thật, độc giả cùng đồng hành với sự thức tỉnh của nhân vật.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm cho người đọc tưởng rằng câu chuyện là 100% sự thật của tác giả ngoài đời' (Nhân vật 'tôi' trong văn học là hình tượng nghệ thuật, không đồng nhất với nhà văn ngoài đời.).",
+        "Sai vì phủ định sai bản chất: 'Để người kể chuyện không cần phải viết lời thoại cho nhân vật khác' trái ngược với kiến thức SGK.",
+        "Sai vì 'Giúp câu chuyện có kết thúc vui vẻ hơn' không phù hợp với định lý/quy tắc trọng tâm (Vai trò của ngôi kể thứ nhất trong truyện ngắn tâm lý.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: phân biệt tu từ ngữ âm và lỗi diễn đạt văn bản.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Điệp ngữ chỉ dùng trong thơ, lỗi lặp từ chỉ xuất hiện trong văn xuôi' (Cả thơ và văn xuôi đều có thể dùng điệp ngữ hoặc mắc lỗi lặp từ.).",
+        "Đúng vì: Tính thẩm mỹ và chủ đích biểu đạt là ranh giới giữa sáng tạo tu từ và lỗi nghèo từ ngữ.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Lỗi lặp từ luôn luôn bị điểm 0', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có sự khác biệt nào' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

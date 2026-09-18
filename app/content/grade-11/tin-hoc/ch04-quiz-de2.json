@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Khi gõ địa chỉ `192.168.1.1` vào trình duyệt web, người dùng thường đang truy cập vào",
       "options": [
-        "Trang quản trị cấu hình Router / Modem mạng của gia đình",
         "Trang tìm kiếm Google",
+        "Trang quản trị cấu hình Router / Modem mạng của gia đình",
         "Hòm thư điện tử cá nhân",
         "Trang mạng xã hội Facebook"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "192.168.1.1 là địa chỉ IP cổng mặc định (Default Gateway) của Router gia đình.",
       "breakdown": {
         "concept": "Truy cập Router mạng",
         "steps": "Trang quản trị Router mạng gia đình.",
         "socraticPrompt": "Gõ 192.168.1.1 vào web để làm gì?"
-      }
+      },
+      "socraticPrompt": "Gõ 192.168.1.1 vào web để làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Trang tìm kiếm Google' không phù hợp với định lý/quy tắc trọng tâm (Truy cập Router mạng).",
+        "Đúng vì theo Truy cập Router mạng: Trang quản trị Router mạng gia đình.",
+        "Sai vì 'Hòm thư điện tử cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Truy cập Router mạng).",
+        "Sai vì 'Trang mạng xã hội Facebook' không phù hợp với định lý/quy tắc trọng tâm (Truy cập Router mạng)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi mạng Internet nhà bạn bị chậm hoặc không vào được web dù biểu tượng Wi-Fi vẫn đầy vạch, thao tác xử lý ban đầu đơn giản nhất là",
       "options": [
-        "Khởi động lại (Restart/Reboot) Router Wi-Fi bằng cách rút nguồn điện chờ 30 giây rồi cắm lại",
-        "Đập vỡ Router mua cái mới",
         "Cài lại toàn bộ hệ điều hành máy tính",
+        "Đập vỡ Router mua cái mới",
+        "Khởi động lại (Restart/Reboot) Router Wi-Fi bằng cách rút nguồn điện chờ 30 giây rồi cắm lại",
         "Cắt dây mạng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Khởi động lại Router giúp giải phóng bộ nhớ đệm và cấp lại địa chỉ IP.",
       "breakdown": {
         "concept": "Khắc phục sự cố mạng gia đình",
         "steps": "Khởi động lại Router Wi-Fi.",
         "socraticPrompt": "Mạng Wi-Fi bị đơ xử lý ban đầu thế nào?"
-      }
+      },
+      "socraticPrompt": "Mạng Wi-Fi bị đơ xử lý ban đầu thế nào?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Cài lại toàn bộ hệ điều hành máy tính', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Đập vỡ Router mua cái mới' không phù hợp với định lý/quy tắc trọng tâm (Khắc phục sự cố mạng gia đình).",
+        "Đúng vì theo Khắc phục sự cố mạng gia đình: Khởi động lại Router Wi-Fi.",
+        "Sai vì 'Cắt dây mạng' không phù hợp với định lý/quy tắc trọng tâm (Khắc phục sự cố mạng gia đình)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Để tăng cường bảo mật cho mạng Wi-Fi gia đình tránh bị hàng xóm dùng trộm, bạn nên",
       "options": [
-        "Đặt mật khẩu chuẩn WPA2/WPA3 phức tạp và đổi mật khẩu quản trị Router mặc định",
+        "Ghi mật khẩu dán trước cửa nhà",
         "Mở Wi-Fi công khai không đặt pass",
         "Đặt mật khẩu là 12345678",
-        "Ghi mật khẩu dán trước cửa nhà"
+        "Đặt mật khẩu chuẩn WPA2/WPA3 phức tạp và đổi mật khẩu quản trị Router mặc định"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Bảo mật Wi-Fi bằng chuẩn mã hóa mạnh WPA2/WPA3-Personal.",
       "breakdown": {
         "concept": "Bảo mật Wi-Fi gia đình",
         "steps": "Đặt mật khẩu WPA2/WPA3 phức tạp.",
         "socraticPrompt": "Làm sao để bảo vệ Wi-Fi gia đình không bị dùng chùa?"
-      }
+      },
+      "socraticPrompt": "Làm sao để bảo vệ Wi-Fi gia đình không bị dùng chùa?",
+      "distractorReasons": [
+        "Sai vì 'Ghi mật khẩu dán trước cửa nhà' không phù hợp với định lý/quy tắc trọng tâm (Bảo mật Wi-Fi gia đình).",
+        "Sai vì phủ định sai bản chất: 'Mở Wi-Fi công khai không đặt pass' trái ngược với kiến thức SGK.",
+        "Sai vì 'Đặt mật khẩu là 12345678' không phù hợp với định lý/quy tắc trọng tâm (Bảo mật Wi-Fi gia đình).",
+        "Đúng vì theo Bảo mật Wi-Fi gia đình: Đặt mật khẩu WPA2/WPA3 phức tạp."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Ứng dụng IoT thực tế",
         "steps": "Cảm biến tưới cây tự động qua smartphone.",
         "socraticPrompt": "Ví dụ nào là ứng dụng IoT trong đời sống?"
-      }
+      },
+      "socraticPrompt": "Ví dụ nào là ứng dụng IoT trong đời sống?",
+      "distractorReasons": [
+        "Đúng vì theo Ứng dụng IoT thực tế: Cảm biến tưới cây tự động qua smartphone.",
+        "Sai vì 'Văn bản in trên giấy A4' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng IoT thực tế).",
+        "Sai vì 'Chiếc đồng hồ cơ lên dây cót' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng IoT thực tế).",
+        "Sai vì 'Bình gốm sứ' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng IoT thực tế)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Khi thực hiện lệnh `ping google.com` trong Command Prompt (cmd) và nhận được kết quả `Reply from... time=15ms`, điều này chứng tỏ",
       "options": [
-        "Máy tính đang kết nối Internet thông suốt tới máy chủ Google với độ trễ 15 mili-giây",
+        "Bộ nhớ RAM đã bị đầy",
         "Máy tính bị nhiễm virus",
         "Không có mạng Internet",
-        "Bộ nhớ RAM đã bị đầy"
+        "Máy tính đang kết nối Internet thông suốt tới máy chủ Google với độ trễ 15 mili-giây"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Lệnh ping kiểm tra kết nối mạng và độ trễ (latency).",
       "breakdown": {
         "concept": "Lệnh ping mạng",
         "steps": "Kết nối thông suốt, độ trễ 15ms.",
         "socraticPrompt": "Lệnh ping google.com cho biết điều gì?"
-      }
+      },
+      "socraticPrompt": "Lệnh ping google.com cho biết điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Bộ nhớ RAM đã bị đầy' không phù hợp với định lý/quy tắc trọng tâm (Lệnh ping mạng).",
+        "Sai vì 'Máy tính bị nhiễm virus' không phù hợp với định lý/quy tắc trọng tâm (Lệnh ping mạng).",
+        "Sai vì phủ định sai bản chất: 'Không có mạng Internet' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Lệnh ping mạng: Kết nối thông suốt, độ trễ 15ms."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Hiểu biết mạng máy tính",
         "steps": "Tự làm chủ thiết bị và hiểu nền tảng số.",
         "socraticPrompt": "Học về mạng máy tính giúp ích gì cho học sinh?"
-      }
+      },
+      "socraticPrompt": "Học về mạng máy tính giúp ích gì cho học sinh?",
+      "distractorReasons": [
+        "Đúng vì theo Hiểu biết mạng máy tính: Tự làm chủ thiết bị và hiểu nền tảng số.",
+        "Sai vì 'Để trở thành tin tặc phá hoại' không phù hợp với định lý/quy tắc trọng tâm (Hiểu biết mạng máy tính).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ để chơi game online', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có lợi ích gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

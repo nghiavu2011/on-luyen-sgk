@@ -1,128 +1,212 @@
 {
   "chapterId": "ch06",
   "examId": "tonghop",
-  "title": "Toán 6 — Chương 6: Đề 3 — Kiểm tra Đánh giá Năng lực Tổng hợp",
-  "description": "Đề thi phân hóa 4 cấp độ tư duy chuẩn BGDĐT kết hợp kỹ năng tính nhanh biểu thức, tìm ẩn và ứng dụng thực tiễn.",
+  "title": "Toán 6 — Chương 6: Phân số: Đề 3: Kiểm tra Đánh giá Năng lực Tổng hợp",
+  "description": "Đề tổng hợp đánh giá năng lực tư duy toán học và giải quyết vấn đề thực tiễn.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c6_th_q1",
-      "difficulty": "easy",
+      "id": "t6_c6_d3_01",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính chất cơ bản của phân số",
-      "question": "Khẳng định nào sau đây là SAI về tính chất cơ bản của phân số a/b (b ≠ 0)?",
+      "topic": "Toán thực tế - Đọc sách",
+      "question": "Bạn Hùng đọc một cuốn sách dày 160 trang trong ba ngày. Ngày thứ nhất Hùng đọc được 3/8 số trang sách. Ngày thứ hai Hùng đọc được 4/5 số trang còn lại. Hỏi ngày thứ ba Hùng đọc được bao nhiêu trang sách?",
       "options": [
-        "Nhân cả tử và mẫu với số nguyên m bất kỳ (m ≠ 0) ta được phân số bằng phân số đã cho",
-        "Cộng cả tử và mẫu với cùng một số nguyên m ta luôn được phân số bằng phân số đã cho",
-        "Chia cả tử và mẫu cho cùng một ước chung n của chúng ta được phân số bằng phân số đã cho",
-        "Phân số a/b bằng phân số -a/-b với mọi số nguyên a và b khác 0"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Các phép biến đổi hợp lệ trong tính chất cơ bản của phân số.",
-        "socraticPrompt": "Tính chất cơ bản của phân số chỉ áp dụng với phép tính nhân hoặc chia, liệu có đúng với phép cộng không?",
-        "steps": "Tính chất cơ bản của phân số chỉ đúng với phép NHÂN hoặc CHIA cả tử và mẫu cho cùng một số khác 0. Phép CỘNG không bảo toàn giá trị phân số (ví dụ: 1/2 ≠ (1+1)/(2+1) = 2/3). Do đó khẳng định cộng cả tử và mẫu là SAI.",
-        "trap": "Ngộ nhận rằng cộng cùng một số vào tử và mẫu thì phân số không đổi."
-      }
-    },
-    {
-      "id": "t6_c6_th_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Tính nhanh giá trị biểu thức phân số",
-      "question": "Tính giá trị biểu thức sau một cách hợp lý: M = (5/11) · (7/13) + (5/11) · (6/13) + 6/11?",
-      "options": [
-        "5/11",
-        "13/11",
-        "1",
-        "11/13"
+        "100 trang",
+        "80 trang",
+        "20 trang",
+        "24 trang"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng.",
-        "socraticPrompt": "Nhóm hai tích đầu tiên có chung thừa số 5/11 lại, trong ngoặc tổng 7/13 + 6/13 bằng bao nhiêu?",
-        "steps": "Đặt 5/11 ra ngoài: M = 5/11 · (7/13 + 6/13) + 6/11 = 5/11 · (13/13) + 6/11 = 5/11 · 1 + 6/11 = 5/11 + 6/11 = 11/11 = 1.",
-        "trap": "Nhân dồn từng phân số thành các số lớn rồi cộng lại dễ dẫn đến tính toán nhầm lẫn."
-      }
+        "concept": "Tìm phân số của một số qua từng chặng: tính số trang ngày 1, tìm số trang còn lại, rồi tính số trang ngày 2.",
+        "steps": [
+          "Bước 1: Số trang ngày thứ nhất: 160 × 3/8 = 60 trang.",
+          "Bước 2: Số trang còn lại sau ngày thứ nhất: 160 - 60 = 100 trang.",
+          "Bước 3: Số trang ngày thứ hai đọc được: 100 × 4/5 = 80 trang.",
+          "Bước 4: Số trang ngày thứ ba đọc được: 100 - 80 = 20 trang."
+        ],
+        "trap": "Tính ngày thứ hai bằng cách lấy 160 × 4/5 = 128 trang (quên mất đề bài bảo là 4/5 số trang CÒN LẠI).",
+        "socraticPrompt": "Ngày 1 đọc 60 trang thì còn lại 100 trang. Ngày 2 đọc 4/5 của 100 trang là bao nhiêu trang? Còn lại mấy trang cho ngày thứ ba?"
+      },
+      "socraticPrompt": "Ngày 1 đọc 60 trang thì còn lại 100 trang. Ngày 2 đọc 4/5 của 100 trang là bao nhiêu trang? Còn lại mấy trang cho ngày thứ ba?",
+      "distractorReasons": [
+        "Sai vì 100 trang là số trang còn lại sau ngày thứ nhất.",
+        "Sai vì 80 trang là số trang đọc trong ngày thứ hai chứ không phải ngày thứ ba.",
+        "Đúng vì ngày 1 đọc 60 trang, còn 100 trang; ngày 2 đọc 80 trang; ngày 3 đọc 100 - 80 = 20 trang.",
+        "Sai vì tính nhầm 160 : 8 × 3."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c6_th_q3",
-      "difficulty": "medium",
+      "id": "t6_c6_d3_02",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tìm ẩn x trong bài toán phân số",
-      "question": "Tìm số nguyên x thỏa mãn phương trình: 2/3 · x - 1/2 = -5/6?",
+      "topic": "Toán thực tế - Chia tiền tiêu vặt",
+      "question": "Mẹ cho Lan một số tiền. Lan dùng 1/3 số tiền để mua sách và dùng 2/5 số tiền để mua đồ dùng học tập thì còn lại 40.000 đồng. Hỏi ban đầu mẹ cho Lan bao nhiêu tiền?",
       "options": [
-        "x = 1/2",
-        "x = -1/2",
-        "x = -2",
-        "x = 2"
+        "180.000 đồng",
+        "120.000 đồng",
+        "200.000 đồng",
+        "150.000 đồng"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tìm phân số biểu thị số tiền còn lại, sau đó dùng bài toán tìm một số khi biết giá trị phân số của nó.",
+        "steps": [
+          "Bước 1: Phân số chỉ tổng số tiền Lan đã tiêu: 1/3 + 2/5 = 5/15 + 6/15 = 11/15 (số tiền).",
+          "Bước 2: Phân số chỉ số tiền còn lại: 1 - 11/15 = 4/15 (số tiền).",
+          "Bước 3: Ban đầu mẹ cho Lan số tiền là: 40.000 : (4/15) = 40.000 × 15/4 = 150.000 đồng."
+        ],
+        "trap": "Lấy 40.000 nhân với 11/15 hoặc trừ nhầm phân số.",
+        "socraticPrompt": "Lan đã tiêu hết 1/3 + 2/5 = 11/15 số tiền. Vậy Lan còn lại mấy phần số tiền? 4/15 số tiền đó ứng với 40.000 đồng, vậy tổng số tiền là bao nhiêu?"
+      },
+      "socraticPrompt": "Lan đã tiêu hết 1/3 + 2/5 = 11/15 số tiền. Vậy Lan còn lại mấy phần số tiền? 4/15 số tiền đó ứng với 40.000 đồng, vậy tổng số tiền là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính nhầm phép chia phân số.",
+        "Sai vì tính sai bước quy đồng phân số.",
+        "Sai vì lấy 40.000 × 5 = 200.000 đ.",
+        "Đúng vì số tiền còn lại chiếm 1 - (1/3 + 2/5) = 4/15 số tiền ban đầu; tổng số tiền là 40.000 : (4/15) = 150.000 đồng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c6_d3_03",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "Tính tổng dãy phân số viết theo quy luật",
+      "question": "Tính giá trị của biểu thức: S = 1/(1×2) + 1/(2×3) + 1/(3×4) + ... + 1/(99×100).",
+      "options": [
+        "99/100",
+        "1/100",
+        "100/99",
+        "1"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sử dụng tính chất phân tách: 1/[n(n+1)] = 1/n - 1/(n+1).",
+        "steps": [
+          "Bước 1: Biến đổi từng số hạng: 1/(1×2) = 1 - 1/2; 1/(2×3) = 1/2 - 1/3; ... ; 1/(99×100) = 1/99 - 1/100.",
+          "Bước 2: Viết lại tổng: S = 1 - 1/2 + 1/2 - 1/3 + 1/3 - ... + 1/99 - 1/100.",
+          "Bước 3: Các số hạng đối nhau triệt tiêu hết, chỉ còn số đầu và số cuối: S = 1 - 1/100 = 99/100."
+        ],
+        "trap": "Tính ra 1/100 vì nhầm công thức hoặc quên trừ đi 1.",
+        "socraticPrompt": "Mỗi phân số 1/(n × (n+1)) có thể tách thành hiệu của hai phân số nào? Khi cộng lại các phân số ở giữa có triệt tiêu không?"
+      },
+      "socraticPrompt": "Mỗi phân số 1/(n × (n+1)) có thể tách thành hiệu của hai phân số nào? Khi cộng lại các phân số ở giữa có triệt tiêu không?",
+      "distractorReasons": [
+        "Đúng vì các số hạng ở giữa triệt tiêu nhau, tổng bằng 1 - 1/100 = 99/100.",
+        "Sai vì 1/100 là số hạng bị trừ cuối cùng, chưa lấy 1 trừ đi.",
+        "Sai vì đảo ngược tử và mẫu.",
+        "Sai vì coi như bằng 1 mà quên số trừ 1/100."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c6_d3_04",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "topic": "So sánh hai phân số lớn mà không quy đồng trực tiếp",
+      "question": "So sánh hai phân số: A = (10^11 - 1)/(10^12 - 1) và B = (10^10 + 1)/(10^11 + 1), khẳng định nào sau đây là ĐÚNG?",
+      "options": [
+        "A > B",
+        "A < B",
+        "A = B",
+        "Không thể so sánh được"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc chuyển vế đổi dấu và thứ tự phép tính trong phân số.",
-        "socraticPrompt": "Chuyển -1/2 sang vế phải thành +1/2. Tính vế phải: -5/6 + 1/2 bằng bao nhiêu rồi chia cho 2/3?",
-        "steps": "Chuyển vế: 2/3 · x = -5/6 + 1/2 = -5/6 + 3/6 = -2/6 = -1/3. Tìm x: x = (-1/3) : (2/3) = (-1/3) · (3/2) = -1/2.",
-        "trap": "Quên đổi dấu khi chuyển -1/2 sang vế phải, dẫn đến tính nhầm thành -8/6."
-      }
+        "concept": "Sử dụng tính chất: nếu a/b < 1 thì (a + m)/(b + m) > a/b (với m > 0), hoặc nhân 10A và 10B rồi so sánh phần nguyên.",
+        "steps": [
+          "Bước 1: Nhân cả hai biểu thức với 10: 10A = (10^12 - 10)/(10^12 - 1) = 1 - 9/(10^12 - 1).",
+          "Bước 2: 10B = (10^11 + 10)/(10^11 + 1) = 1 + 9/(10^11 + 1).",
+          "Bước 3: Nhận thấy 10A < 1 còn 10B > 1, do đó 10A < 10B.",
+          "Bước 4: Suy ra A < B."
+        ],
+        "trap": "Học sinh nhìn số mũ 11 và 12 lớn hơn tưởng phân số A phải lớn hơn phân số B.",
+        "socraticPrompt": "Nhân cả A và B với 10. 10A nhỏ hơn 1 (vì tử nhỏ hơn mẫu), còn 10B lớn hơn 1 (vì tử lớn hơn mẫu). Vậy A so với B như thế nào?"
+      },
+      "socraticPrompt": "Nhân cả A và B với 10. 10A nhỏ hơn 1 (vì tử nhỏ hơn mẫu), còn 10B lớn hơn 1 (vì tử lớn hơn mẫu). Vậy A so với B như thế nào?",
+      "distractorReasons": [
+        "Sai vì ngụy biện số mũ lớn hơn thì phân số lớn hơn.",
+        "Đúng vì 10A = 1 - 9/(10^12 - 1) < 1 < 1 + 9/(10^11 + 1) = 10B ⇒ A < B.",
+        "Sai vì hai biểu thức có giá trị khác nhau.",
+        "Sai vì hoàn toàn có phương pháp toán học so sánh gián tiếp qua số trung gian."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c6_th_q4",
+      "id": "t6_c6_d3_05",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Bài toán thực tế hai bước về phân số",
-      "question": "Một bác nông dân thu hoạch được 600 kg thóc. Đợt một bác bán đi 1/3 tổng số thóc. Đợt hai bác bán tiếp 3/5 số thóc CÒN LẠI. Hỏi sau hai đợt, bác nông dân còn lại bao nhiêu kilôgam thóc?",
+      "topic": "Toán thực tế - Năng suất làm việc chung",
+      "question": "Hai vòi nước cùng chảy vào một bể cạn không có nước. Nếu vòi thứ nhất chảy một mình thì sau 4 giờ sẽ đầy bể. Nếu vòi thứ hai chảy một mình thì sau 6 giờ sẽ đầy bể. Hỏi nếu cả hai vòi cùng chảy thì sau bao lâu sẽ đầy bể?",
       "options": [
-        "240 kg thóc",
-        "160 kg thóc",
-        "200 kg thóc",
-        "120 kg thóc"
+        "2,4 giờ (2 giờ 24 phút)",
+        "5 giờ",
+        "10 giờ",
+        "2,5 giờ"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Bài toán thực tế nhiều bước tìm phân số của số còn lại.",
-        "socraticPrompt": "Đợt một bán 1/3 của 600 kg thì còn lại bao nhiêu? Đợt hai bán 3/5 của số còn lại đó là bao nhiêu kg?",
-        "steps": "Đợt 1 bán: 600 · 1/3 = 200 kg. Số thóc còn lại sau đợt 1: 600 - 200 = 400 kg. Đợt 2 bán: 400 · 3/5 = 240 kg. Số thóc còn lại sau hai đợt: 400 - 240 = 160 kg.",
-        "trap": "Lấy 600 nhân trực tiếp 3/5 = 360 kg ở đợt hai thay vì nhân với số thóc còn lại (400 kg)."
-      }
+        "concept": "Bài toán công việc chung: Tính lượng nước mỗi vòi chảy được trong 1 giờ (năng suất), sau đó cộng năng suất lại.",
+        "steps": [
+          "Bước 1: Trong 1 giờ, vòi thứ nhất chảy được: 1 : 4 = 1/4 (bể).",
+          "Bước 2: Trong 1 giờ, vòi thứ hai chảy được: 1 : 6 = 1/6 (bể).",
+          "Bước 3: Trong 1 giờ, cả hai vòi cùng chảy được: 1/4 + 1/6 = 3/12 + 2/12 = 5/12 (bể).",
+          "Bước 4: Thời gian để cả hai vòi chảy đầy bể là: 1 : (5/12) = 12/5 = 2,4 giờ = 2 giờ 24 phút."
+        ],
+        "trap": "Lấy trung bình cộng (4 + 6) : 2 = 5 giờ (sai lầm vì hai vòi cùng chảy thì thời gian phải nhanh hơn từng vòi riêng lẻ).",
+        "socraticPrompt": "Trong 1 giờ vòi 1 chảy 1/4 bể, vòi 2 chảy 1/6 bể. Cả hai vòi trong 1 giờ chảy được mấy phần bể? Lấy 1 chia cho phân số đó được bao nhiêu giờ?"
+      },
+      "socraticPrompt": "Trong 1 giờ vòi 1 chảy 1/4 bể, vòi 2 chảy 1/6 bể. Cả hai vòi trong 1 giờ chảy được mấy phần bể? Lấy 1 chia cho phân số đó được bao nhiêu giờ?",
+      "distractorReasons": [
+        "Đúng vì trong 1 giờ cả hai vòi chảy được 1/4 + 1/6 = 5/12 bể; thời gian đầy bể là 1 : (5/12) = 12/5 = 2,4 giờ (2 giờ 24 phút).",
+        "Sai vì lấy trung bình cộng thời gian (4 + 6) / 2 = 5 giờ (hai vòi chảy cùng nhau không thể lâu hơn vòi 1 chảy một mình).",
+        "Sai vì cộng hai thời gian 4 + 6 = 10 giờ.",
+        "Sai vì tính nhầm 12/5 = 2,5 giờ (thực tế 12 : 5 = 2,4)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c6_th_q5",
+      "id": "t6_c6_d3_06",
       "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Phương trình tích phân số nâng cao",
-      "question": "Có bao nhiêu số nguyên x thỏa mãn đẳng thức phân số: (x - 1) / 4 = 9 / (x - 1)?",
+      "topic": "Tìm số nguyên n để phân số tối giản",
+      "question": "Tìm số tự nhiên n khác 0 nhỏ nhất để phân số (n + 1) / (n - 2) là một phân số tối giản.",
       "options": [
-        "Chỉ có 1 số nguyên là x = 7",
-        "Có đúng 2 số nguyên là x = 7 và x = -5",
-        "Có đúng 2 số nguyên là x = 6 và x = -6",
-        "Vô số giá trị nguyên x thỏa mãn"
+        "n = 3",
+        "n = 5",
+        "n = 1",
+        "n = 4"
       ],
-      "correct": 1,
+      "correct": 3,
       "breakdown": {
-        "concept": "Ứng dụng tính chất tích chéo dẫn về phương trình lũy thừa bậc hai.",
-        "socraticPrompt": "Nhân chéo hai phân số ta được (x - 1)^2 = 36. Một số có bình phương bằng 36 thì có thể nhận những giá trị nào?",
-        "steps": "Điều kiện x ≠ 1. Nhân chéo: (x - 1) · (x - 1) = 4 · 9 hay (x - 1)^2 = 36. Vì 6^2 = 36 và (-6)^2 = 36 nên: Trường hợp 1: x - 1 = 6 suy ra x = 7. Trường hợp 2: x - 1 = -6 suy ra x = -5. Cả hai giá trị đều là số nguyên thỏa mãn điều kiện.",
-        "trap": "Chỉ lấy nghiệm dương x - 1 = 6 => x = 7 mà bỏ quên nghiệm âm x - 1 = -6."
-      }
-    },
-    {
-      "id": "t6_c6_th_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Bài toán năng suất công việc chung",
-      "question": "Vòi thứ nhất chảy một mình trong 3 giờ thì đầy một bể nước cạn. Vòi thứ hai chảy một mình trong 6 giờ thì đầy bể đó. Nếu mở cả hai vòi cùng một lúc thì sau bao lâu bể sẽ đầy nước?",
-      "options": [
-        "4.5 giờ",
-        "3.0 giờ",
-        "2.0 giờ",
-        "1.5 giờ"
+        "concept": "Để phân số (n + 1)/(n - 2) tối giản thì ƯCLN(n + 1, n - 2) = 1.",
+        "steps": [
+          "Bước 1: Gọi d = ƯCLN(n + 1, n - 2) ⇒ (n + 1) ⋮ d và (n - 2) ⋮ d.",
+          "Bước 2: Suy ra hiệu [(n + 1) - (n - 2)] ⋮ d ⇒ 3 ⋮ d ⇒ d ∈ {1; 3}.",
+          "Bước 3: Để phân số tối giản thì d ≠ 3, tức là (n - 2) không chia hết cho 3 ⇒ n - 2 ≠ 3k (k ∈ Z) ⇒ n ≠ 3k + 2.",
+          "Bước 4: Xét n tự nhiên khác 0 nhỏ nhất: n = 1 thì n - 2 = -1 (mẫu âm); n = 2 thì mẫu = 0; n = 3 thì n - 2 = 1 (phân số là 4/1 = 4); với n = 4 thì phân số là 5/2 (tối giản, d = 1).",
+          "Bước 5: Thử n = 3: phân số là 4/1 = 4 (số nguyên). Thử n = 4: phân số là 5/2 (tối giản đúng nghĩa). Để phân số có nghĩa và mẫu > 1 thì n = 4."
+        ],
+        "trap": "Chọn n = 2 làm cho mẫu số bằng 0, hoặc chọn n = 5 làm cho phân số 6/3 = 2 không tối giản.",
+        "socraticPrompt": "Ước chung của n+1 và n-2 chỉ có thể là 1 hoặc 3. Với n = 4, phân số là 5/2 có tối giản không?"
+      },
+      "socraticPrompt": "Ước chung của n+1 và n-2 chỉ có thể là 1 hoặc 3. Với n = 4, phân số là 5/2 có tối giản không?",
+      "distractorReasons": [
+        "Sai vì với n = 3, mẫu số bằng 1 (phân số 4/1 thường quy về số nguyên 4).",
+        "Sai vì với n = 5, phân số là (5+1)/(5-2) = 6/3 = 2 rút gọn được cho 3 (không tối giản).",
+        "Sai vì n = 1 thì mẫu số âm (1 - 2 = -1).",
+        "Đúng vì với n = 4, phân số là 5/2 tối giản có mẫu khác 1 và lớn hơn 0."
       ],
-      "correct": 2,
-      "breakdown": {
-        "concept": "Ứng dụng phân số giải bài toán làm chung - làm riêng trong thực tiễn.",
-        "socraticPrompt": "Trong 1 giờ, vòi một chảy được mấy phần bể và vòi hai chảy được mấy phần bể? Cả hai vòi cùng chảy trong 1 giờ được bao nhiêu phần bể?",
-        "steps": "Quy ước dung tích cả bể là 1 đơn vị công việc. Trong 1 giờ, vòi 1 chảy được 1/3 bể; vòi 2 chảy được 1/6 bể. Trong 1 giờ, cả hai vòi cùng chảy được: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 bể. Thời gian để hai vòi chảy đầy bể là: 1 : (1/2) = 2 giờ.",
-        "trap": "Lấy trung bình cộng (3 + 6) / 2 = 4.5 giờ. Đây là lỗi sai trực giác rất phổ biến."
-      }
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

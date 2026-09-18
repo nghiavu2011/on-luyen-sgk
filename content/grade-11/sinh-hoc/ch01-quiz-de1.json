@@ -32,7 +32,16 @@
           "2": "Quang hợp tích luỹ quang năng vào liên kết hoá học của carbohydrate chứ không giải phóng ATP cho hoạt động sống toàn cơ thể.",
           "3": "Khử nitrate là quá trình đồng hoá cần cung cấp năng lượng và chất khử."
         }
-      }
+      },
+      "socraticPrompt": "Quá trình nào biến đổi chất hữu cơ phức tạp thành chất đơn giản kèm theo sự giải phóng năng lượng?",
+      "distractorReasons": [
+        "Đúng vì: Hô hấp tế bào là quá trình phân giải chất hữu cơ (chủ yếu là glucose) giải phóng năng lượng tích luỹ trong phân tử ATP cung cấp cho mọi hoạt động sống.",
+        "Sai vì 'Tổng hợp glycogen từ các phân tử glucose' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Quá trình quang hợp hấp thu năng lượng ánh sáng' (quang hợp là tạo năng lượng cho cơ thể dùng ngay (quang hợp tích lũy năng lượng vào chất hữu cơ, chưa dùng trực tiếp được)).",
+        "Sai vì 'Quá trình khử nitrate thành ammonium ở rễ cây' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch01-d1-q02",
@@ -56,7 +65,16 @@
           "2": "Đai Caspary chỉ đóng vai trò hàng rào cơ học buộc dòng chất đi qua tế bào chất chọn lọc chứ không có enzyme tiêu huỷ.",
           "3": "Đai Caspary không tham gia tạo lực đẩy áp suất rễ và mạch gỗ vận chuyển nhựa nguyên chứ không phải nhựa luyện."
         }
-      }
+      },
+      "socraticPrompt": "Khi dòng nước đi theo thành tế bào đến lớp nội bì, cấu trúc nào chặn lại để tế bào thực hiện chọn lọc chất?",
+      "distractorReasons": [
+        "Sai vì 'Tăng diện tích tiếp xúc giữa tế bào lông hút và hạt đất' không phù hợp với định lý/quy tắc trọng tâm (Đai Caspary tẩm suberin không thấm nước nằm ở nội bì, chặn con đường gian bào.).",
+        "Đúng vì: Đai Caspary nằm ở thành các tế bào nội bì, có tính không thấm nước giúp chặn dòng vận chuyển gian bào, buộc nước và ion khoáng phải đi qua màng sinh chất và tế .",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tiêu huỷ hoàn toàn các chất độc hại trước khi vào mạch gỗ' (Nghĩ rằng đai Caspary cản trở hoàn toàn không cho nước vào cây hoặc có khả năng tiêu hủy độc chất như lysosome.).",
+        "Sai vì 'Tạo áp suất rễ đẩy dòng nhựa luyện đi lên các cành cây trên cao' không phù hợp với định lý/quy tắc trọng tâm (Đai Caspary tẩm suberin không thấm nước nằm ở nội bì, chặn con đường gian bào.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch01-d1-q03",
@@ -80,7 +98,16 @@
           "0": "Glucose là sản phẩm của quang hợp chứ không phải chất tham gia tạo O2.",
           "3": "RuBP là chất nhận CO2 trong chu trình Calvin."
         }
-      }
+      },
+      "socraticPrompt": "Trong pha sáng, electron bù cho diệp lục lấy từ việc bẻ gãy phân tử nào và sinh ra khí gì?",
+      "distractorReasons": [
+        "Sai vì 'Phân tử đường glucose ($C_6H_{12}O_6$) bị phân giải' không phù hợp với định lý/quy tắc trọng tâm (Quang phân li nước tại xoang tilacoid: 2 H2O -> 4 H+ + 4 e- + O2.).",
+        "Sai vì 'Khí carbon dioxide ($CO_2$) trong pha tối' không phù hợp với định lý/quy tắc trọng tâm (Quang phân li nước tại xoang tilacoid: 2 H2O -> 4 H+ + 4 e- + O2.).",
+        "Đúng vì: Thí nghiệm dùng đồng vị phóng xạ 18O đã chứng minh toàn bộ khí O2 sinh ra trong quang hợp đều bắt nguồn từ phản ứng quang phân li H2O ở màng tilacoid trong pha .",
+        "Sai vì 'Phân tử Ribulose 1,5-bisphosphate ($RuBP$)' không phù hợp với định lý/quy tắc trọng tâm (Quang phân li nước tại xoang tilacoid: 2 H2O -> 4 H+ + 4 e- + O2.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch01-d1-q04",
@@ -104,7 +131,16 @@
           "1": "Dạ tổ ong giúp đưa thức ăn ngược lên miệng để nhai lại.",
           "2": "Dạ lá sách có chức năng ép và tái hấp thu bớt nước từ thức ăn."
         }
-      }
+      },
+      "socraticPrompt": "Trong 4 ngăn dạ dày của bò, ngăn nào có tuyến tiêu hoá tiết enzyme acid phân giải protein?",
+      "distractorReasons": [
+        "Sai vì 'Dạ cỏ' không phù hợp với định lý/quy tắc trọng tâm (Dạ múi khế có tuyến dịch vị tiết enzyme pepsin và HCl như dạ dày người.).",
+        "Sai vì 'Dạ tổ ong' không phù hợp với định lý/quy tắc trọng tâm (Dạ múi khế có tuyến dịch vị tiết enzyme pepsin và HCl như dạ dày người.).",
+        "Sai vì 'Dạ lá sách' không phù hợp với định lý/quy tắc trọng tâm (Dạ múi khế có tuyến dịch vị tiết enzyme pepsin và HCl như dạ dày người.).",
+        "Đúng vì: Dạ múi khế là dạ dày thực sự của động vật nhai lại, có các tuyến tiết dịch vị chứa enzyme pepsin và acid HCl để tiêu hoá hóa học protein của thức ăn và sinh khố."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch01-d1-q05",
@@ -128,7 +164,16 @@
           "2": "Mạng Purkinje là chặng cuối cùng nhận xung để kích hoạt tâm thất co.",
           "3": "Xung từ nút xoang nhĩ phải đến nút nhĩ thất trước khi truyền vào bó His."
         }
-      }
+      },
+      "socraticPrompt": "Nút nào nằm ở tâm nhĩ phải đóng vai trò chủ nhịp phát xung đầu tiên cho quả tim?",
+      "distractorReasons": [
+        "Đúng vì: Nút xoang nhĩ tự động phát xung điện -> lan truyền ra cơ tâm nhĩ và đến nút nhĩ thất -> truyền qua bó His -> toả vào mạng Purkinje lan truyền khắp cơ tâm thất g.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nút nhĩ thất -> Nút xoang nhĩ -> Bó His -> Mạng Purkinje' (Đảo vị trí giữa nút nhĩ thất và bó His.).",
+        "Sai vì 'Mạng Purkinje -> Bó His -> Nút nhĩ thất -> Nút xoang nhĩ' không phù hợp với định lý/quy tắc trọng tâm (Tính tự động của tim điều khiển bởi hệ dẫn truyền tim phát xung nhịp nhàng.).",
+        "Sai vì 'Nút xoang nhĩ -> Bó His -> Nút nhĩ thất -> Mạng Purkinje' không phù hợp với định lý/quy tắc trọng tâm (Tính tự động của tim điều khiển bởi hệ dẫn truyền tim phát xung nhịp nhàng.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch01-d1-q06",
@@ -152,7 +197,16 @@
           "2": "Đại thực bào thực hiện thực bào và trình diện kháng nguyên.",
           "3": "Lympho T độc trực tiếp tấn công và làm tan tế bào nhiễm bằng perforin và granzyme."
         }
-      }
+      },
+      "socraticPrompt": "Tế bào lympho B phân chia và biệt hoá thành dạng tế bào nào để phóng thích lượng lớn phân tử kháng thể?",
+      "distractorReasons": [
+        "Sai vì 'Tế bào lympho T hỗ trợ (Th)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Khi được hoạt hoá, tế bào lympho B nhân dòng tạo ra tế bào nhớ và tương bào (plasma cell). Tương bào là tế bào chuyên biệt trực tiếp tiết hàng ngàn phân tử khán.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào đại thực bào (Macrophage)' (tế bào T hỗ trợ hoặc đại thực bào trực tiếp tiết kháng thể).",
+        "Sai vì 'Tế bào lympho T độc (Tc)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

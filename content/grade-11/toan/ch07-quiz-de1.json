@@ -22,7 +22,16 @@
         "socraticPrompt": "Hạ số mũ 4 xuống phía trước, số mũ trên đầu giảm đi 1 đơn vị còn mấy?",
         "steps": "Áp dụng công thức (x⁴)' = 4 · x^(4-1) = 4x³.",
         "trap": "Quên số mũ 4 hoặc nhầm đạo hàm thành x³."
-      }
+      },
+      "socraticPrompt": "Hạ số mũ 4 xuống phía trước, số mũ trên đầu giảm đi 1 đơn vị còn mấy?",
+      "distractorReasons": [
+        "Đúng vì theo Công thức đạo hàm luỹ thừa: (x^n)' = n · x^(n-1).: Áp dụng công thức (x⁴)' = 4 · x^(4-1) = 4x³.",
+        "Sai vì 'y' = x³' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm luỹ thừa: (x^n)' = n · x^(n-1).).",
+        "Sai vì 'y' = 4x' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm luỹ thừa: (x^n)' = n · x^(n-1).).",
+        "Sai vì 'y' = 3x⁴' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm luỹ thừa: (x^n)' = n · x^(n-1).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c7_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Đạo hàm của sin ra cos dương hay âm?",
         "steps": "Theo SGK Toán 11, ta có: (sin x)' = cos x.",
         "trap": "Nhầm dấu trừ: (cos x)' = -sin x, còn (sin x)' là +cos x."
-      }
+      },
+      "socraticPrompt": "Đạo hàm của sin ra cos dương hay âm?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '-cos x' (dấu trừ: (cos x)' = -sin x, còn (sin x)' là +cos x).",
+        "Đúng vì: Theo SGK Toán 11, ta có: (sin x)' = cos x.",
+        "Sai vì '-sin x' không phù hợp với định lý/quy tắc trọng tâm (Công thức cơ bản trong bảng đạo hàm: (sin x)' = cos x.).",
+        "Sai vì '1 / cos²x' không phù hợp với định lý/quy tắc trọng tâm (Công thức cơ bản trong bảng đạo hàm: (sin x)' = cos x.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c7_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tiếp tuyến có hệ số góc bằng giá trị của hàm số hay giá trị của đạo hàm?",
         "steps": "Theo định nghĩa SGK, hệ số góc của tiếp tuyến tại x0 là k = f'(x0).",
         "trap": "Nhầm k = f(x0) là giá trị hàm số."
-      }
+      },
+      "socraticPrompt": "Tiếp tuyến có hệ số góc bằng giá trị của hàm số hay giá trị của đạo hàm?",
+      "distractorReasons": [
+        "Sai vì 'k = f(x0)' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hình học: Hệ số góc của tiếp tuyến tại điểm có hoành độ x0 bằng f'(x0).).",
+        "Sai vì 'k = y0 / x0' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hình học: Hệ số góc của tiếp tuyến tại điểm có hoành độ x0 bằng f'(x0).).",
+        "Đúng vì: Theo định nghĩa SGK, hệ số góc của tiếp tuyến tại x0 là k = f'(x0).",
+        "Sai vì 'k = -1 / f'(x0)' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hình học: Hệ số góc của tiếp tuyến tại điểm có hoành độ x0 bằng f'(x0).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c7_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Hằng số không thay đổi theo biến x, tốc độ biến thiên của nó bằng bao nhiêu?",
         "steps": "Hằng số có số gia ∆y = 5 - 5 = 0, do đó đạo hàm y' = 0.",
         "trap": "Nhầm y' = 1 hoặc y' = 5."
-      }
+      },
+      "socraticPrompt": "Hằng số không thay đổi theo biến x, tốc độ biến thiên của nó bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 'y' = 5' không phù hợp với định lý/quy tắc trọng tâm (Đạo hàm của hàm số không đổi (hằng số) luôn bằng 0: (c)' = 0.).",
+        "Sai vì 'y' = 1' không phù hợp với định lý/quy tắc trọng tâm (Đạo hàm của hàm số không đổi (hằng số) luôn bằng 0: (c)' = 0.).",
+        "Sai vì 'y' = 5x' không phù hợp với định lý/quy tắc trọng tâm (Đạo hàm của hàm số không đổi (hằng số) luôn bằng 0: (c)' = 0.).",
+        "Đúng vì: Hằng số có số gia ∆y = 5 - 5 = 0, do đó đạo hàm y' = 0."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c7_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "√x là x^(1/2). Lấy 1/2 nhân x^(-1/2) ta được phân số nào?",
         "steps": "(√x)' = [x^(1/2)]' = (1/2) · x^(-1/2) = 1 / (2√x).",
         "trap": "Quên hệ số 2 dưới mẫu dẫn đến 1/√x."
-      }
+      },
+      "socraticPrompt": "√x là x^(1/2). Lấy 1/2 nhân x^(-1/2) ta được phân số nào?",
+      "distractorReasons": [
+        "Đúng vì theo Công thức đạo hàm căn bậc hai cơ bản: (√x)' = 1 / (2√x).: (√x)' = [x^(1/2)]' = (1/2) · x^(-1/2) = 1 / (2√x).",
+        "Sai vì 'y' = 1 / √x' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm căn bậc hai cơ bản: (√x)' = 1 / (2√x).).",
+        "Sai vì 'y' = 2√x' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm căn bậc hai cơ bản: (√x)' = 1 / (2√x).).",
+        "Sai vì 'y' = 1 / (x√x)' không phù hợp với định lý/quy tắc trọng tâm (Công thức đạo hàm căn bậc hai cơ bản: (√x)' = 1 / (2√x).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c7_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Hàm số duy nhất nào có tốc độ tăng trưởng bằng đúng giá trị hiện tại của nó?",
         "steps": "Theo bảng đạo hàm chuẩn SGK: (e^x)' = e^x.",
         "trap": "Áp dụng sai công thức luỹ thừa (x^n)' thành x · e^(x-1)."
-      }
+      },
+      "socraticPrompt": "Hàm số duy nhất nào có tốc độ tăng trưởng bằng đúng giá trị hiện tại của nó?",
+      "distractorReasons": [
+        "Sai vì 'y' = x · e^(x-1)' không phù hợp với định lý/quy tắc trọng tâm (Hàm số e^x có đạo hàm đặc biệt bằng chính nó: (e^x)' = e^x.).",
+        "Đúng vì: Theo bảng đạo hàm chuẩn SGK: (e^x)' = e^x.",
+        "Sai vì 'y' = e^x · ln e' không phù hợp với định lý/quy tắc trọng tâm (Hàm số e^x có đạo hàm đặc biệt bằng chính nó: (e^x)' = e^x.).",
+        "Sai vì 'y' = 1 / e^x' không phù hợp với định lý/quy tắc trọng tâm (Hàm số e^x có đạo hàm đặc biệt bằng chính nó: (e^x)' = e^x.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

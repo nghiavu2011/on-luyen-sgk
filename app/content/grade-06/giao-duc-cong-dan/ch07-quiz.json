@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Tâm lý học sinh tồn trong tình huống hiểm nghèo (Bài 7, SGK GDCD 6 & Chuyên gia tâm lý học).",
         "steps": "Sự hoảng loạn (panic) là kẻ giết người số 1 trong tai nạn thảm họa. Bình tĩnh hít thở sâu giúp giải phóng vỏ não khỏi trạng thái đóng băng, kích hoạt tư duy giải quyết vấn đề.",
-        "trap": "Nhầm lẫn sự bình tĩnh sáng suốt với sự thụ động buông xuôi."
+        "trap": "Nhầm lẫn sự bình tĩnh sáng suốt với sự thụ động buông xuôi.",
+        "socraticPrompt": "Trong một rạp hát bị cháy, những người chen lấn giẫm đạp lên nhau do hoảng loạn hay người bình tĩnh tìm lối thoát hiểm thang bộ có cơ hội sống cao hơn?"
       },
       "socraticPrompt": "Trong một rạp hát bị cháy, những người chen lấn giẫm đạp lên nhau do hoảng loạn hay người bình tĩnh tìm lối thoát hiểm thang bộ có cơ hội sống cao hơn?",
       "distractorReasons": [
-        "Sai, bình tĩnh để hành động thông minh chứ không phải ngồi im thụ động.",
-        "Sai, chấp nhận số phận là sự đầu hàng, buông xuôi.",
-        "Chính xác, phân tích tâm lý học thần kinh sâu sắc về bản chất của bản năng sinh tồn con người trước thảm họa.",
-        "Sai, mục tiêu sinh tồn là bảo vệ mạng sống chứ không phải biểu diễn sĩ diện."
-      ]
+        "Sai vì bình tĩnh để hành động thông minh chứ không phải ngồi im thụ động.",
+        "Sai vì chấp nhận số phận là sự đầu hàng, buông xuôi.",
+        "Đúng vì phân tích tâm lý học thần kinh sâu sắc về bản chất của bản năng sinh tồn con người trước thảm họa.",
+        "Sai vì mục tiêu sinh tồn là bảo vệ mạng sống chứ không phải biểu diễn sĩ diện."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch07_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Quy tắc 3 bước chống xâm hại tình dục trẻ em (Bài 7, SGK GDCD 6 & Chuyên gia tâm lý trẻ em).",
         "steps": "Quy tắc No - Go - Tell (Nói Không - Bỏ chạy - Kể lại ngay). Nạn nhân không bao giờ có lỗi; kẻ xâm hại là tội phạm nguy hiểm cần bị pháp luật trừng trị.",
-        "trap": "Mặc cảm tội lỗi hoặc sợ hãi lời đe dọa của kẻ xấu mà im lặng chịu đựng."
+        "trap": "Mặc cảm tội lỗi hoặc sợ hãi lời đe dọa của kẻ xấu mà im lặng chịu đựng.",
+        "socraticPrompt": "Nếu một người xấu làm tổn thương cơ thể em, em là nạn nhân vô tội hay là người có lỗi? Ai là người phải bị trừng phạt trước pháp luật?"
       },
       "socraticPrompt": "Nếu một người xấu làm tổn thương cơ thể em, em là nạn nhân vô tội hay là người có lỗi? Ai là người phải bị trừng phạt trước pháp luật?",
       "distractorReasons": [
-        "Sai, im lặng là tự đẩy mình vào vòng nguy hiểm bị xâm hại tái diễn.",
-        "Sai, tuyệt đối không được tự đổ lỗi cho bản thân khi mình là nạn nhân.",
-        "Sai, tiếp tay cho tội phạm ấu dâm nguy hiểm.",
-        "Chính xác, quy trình tự vệ chuẩn xác toàn cầu của trẻ em: Nói Không - Chạy trốn - Báo người lớn (Tổng đài 111)."
-      ]
+        "Sai vì im lặng là tự đẩy mình vào vòng nguy hiểm bị xâm hại tái diễn.",
+        "Sai vì tuyệt đối không được tự đổ lỗi cho bản thân khi mình là nạn nhân.",
+        "Sai vì tiếp tay cho tội phạm ấu dâm nguy hiểm.",
+        "Đúng vì quy trình tự vệ chuẩn xác toàn cầu của trẻ em: Nói Không - Chạy trốn - Báo người lớn (Tổng đài 111)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch07_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Chủ động chuẩn bị phòng ngừa hiểm họa gia đình (Bài 7, SGK GDCD 6, trang 34-35).",
         "steps": "'Phòng cháy hơn chữa cháy'. Sự chuẩn bị chu đáo về phương án thoát hiểm kép và túi cứu hộ khẩn cấp giúp gia đình tự cứu mình trong những khoảnh khắc sinh tử.",
-        "trap": "Tâm lý chủ quan cho rằng tai nạn chỉ xảy ra với người khác, làm chuồng cọp bít kín lối thoát hiểm."
+        "trap": "Tâm lý chủ quan cho rằng tai nạn chỉ xảy ra với người khác, làm chuồng cọp bít kín lối thoát hiểm.",
+        "socraticPrompt": "Khi ngọn lửa bao trùm cửa chính, chiếc cửa thoát hiểm thứ hai mở ra ban công có ý nghĩa như thế nào đối với sự sống của cả nhà?"
       },
       "socraticPrompt": "Khi ngọn lửa bao trùm cửa chính, chiếc cửa thoát hiểm thứ hai mở ra ban công có ý nghĩa như thế nào đối với sự sống của cả nhà?",
       "distractorReasons": [
-        "Chính xác, biện pháp phòng vệ thảm họa chủ động, văn minh và khoa học của mọi gia đình thời đại mới.",
-        "Sai, 'chuồng cọp' không có cửa thoát hiểm biến ngôi nhà thành chiếc bẫy chết người khi cháy.",
-        "Sai, pháo hoa là chất gây cháy nổ nguy hiểm nghiêm cấm tích trữ.",
-        "Sai, tâm lý chủ quan coi thường sinh mạng."
-      ]
+        "Đúng vì biện pháp phòng vệ thảm họa chủ động, văn minh và khoa học của mọi gia đình thời đại mới.",
+        "Sai vì 'chuồng cọp' không có cửa thoát hiểm biến ngôi nhà thành chiếc bẫy chết người khi cháy.",
+        "Sai vì pháo hoa là chất gây cháy nổ nguy hiểm nghiêm cấm tích trữ.",
+        "Sai vì tâm lý chủ quan coi thường sinh mạng."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch07_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Ứng phó với lốc xoáy và gió giật sập (Bài 7, SGK GDCD 6, trang 33-35).",
         "steps": "Gió lốc cuốn tung mái nhà và quăng các mảnh vỡ sắc nhọn (tôn, kính, gạch đá). Nơi trú ẩn an toàn là gầm bàn gỗ kiên cố, che chắn kín phần đầu não để chống vật rơi đè bẹp.",
-        "trap": "Trèo lên giữ mái tôn (bị gió cuốn bay cùng mái tôn tử vong) hoặc đứng gần cửa kính vỡ."
+        "trap": "Trèo lên giữ mái tôn (bị gió cuốn bay cùng mái tôn tử vong) hoặc đứng gần cửa kính vỡ.",
+        "socraticPrompt": "Khi mái tôn bị lốc xoáy xé toạc cuốn lên trời, chiếc bàn gỗ dày có che chở cho cơ thể em khỏi các mảnh ngói rơi xuống không?"
       },
       "socraticPrompt": "Khi mái tôn bị lốc xoáy xé toạc cuốn lên trời, chiếc bàn gỗ dày có che chở cho cơ thể em khỏi các mảnh ngói rơi xuống không?",
       "distractorReasons": [
-        "Sai, hành động nguy hiểm bị gió cuốn bay tử vong ngay lập tức.",
-        "Chính xác, quy tắc trú ẩn sinh tồn chuẩn xác khi xảy ra lốc xoáy hoặc sập đổ công trình.",
-        "Sai, kính vỡ do áp suất gió sẽ găm vào người gây thương tích nghiêm trọng.",
-        "Sai, đứng ngoài sân bị các vật thể bay va đập chết người."
-      ]
+        "Sai vì hành động nguy hiểm bị gió cuốn bay tử vong ngay lập tức.",
+        "Đúng vì quy tắc trú ẩn sinh tồn chuẩn xác khi xảy ra lốc xoáy hoặc sập đổ công trình.",
+        "Sai vì kính vỡ do áp suất gió sẽ găm vào người gây thương tích nghiêm trọng.",
+        "Sai vì đứng ngoài sân bị các vật thể bay va đập chết người."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch07_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Trách nhiệm lan tỏa kỹ năng an toàn cộng đồng (Bài 7, SGK GDCD 6, trang 35).",
         "steps": "Mỗi học sinh là một tuyên truyền viên nhỏ tuổi. Lan tỏa kỹ năng sinh tồn và phòng tránh tai nạn thương tích giúp bảo vệ an toàn cho cả trường học và xóm làng.",
-        "trap": "Nghịch dại bấm chuông báo động giả làm hỗn loạn an ninh trật tự."
+        "trap": "Nghịch dại bấm chuông báo động giả làm hỗn loạn an ninh trật tự.",
+        "socraticPrompt": "Khi em nhắc nhở em gái mình không được nghịch bao diêm trong bếp, em đã góp phần bảo vệ ngôi nhà mình khỏi nguy cơ gì?"
       },
       "socraticPrompt": "Khi em nhắc nhở em gái mình không được nghịch bao diêm trong bếp, em đã góp phần bảo vệ ngôi nhà mình khỏi nguy cơ gì?",
       "distractorReasons": [
-        "Sai, ích kỷ làm giảm sức mạnh phòng vệ của tập thể.",
-        "Sai, báo cháy giả là hành vi vi phạm pháp luật bị xử phạt nghiêm khắc.",
-        "Chính xác, phát huy vai trò tích cực, trách nhiệm và đầy nhiệt huyết của người đội viên thiếu niên.",
-        "Sai, rủ bạn tắm sông là hành vi mạo hiểm tính mạng đáng lên án."
-      ]
+        "Sai vì ích kỷ làm giảm sức mạnh phòng vệ của tập thể.",
+        "Sai vì báo cháy giả là hành vi vi phạm pháp luật bị xử phạt nghiêm khắc.",
+        "Đúng vì phát huy vai trò tích cực, trách nhiệm và đầy nhiệt huyết của người đội viên thiếu niên.",
+        "Sai vì rủ bạn tắm sông là hành vi mạo hiểm tính mạng đáng lên án."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch07_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Bảo vệ sinh mạng trước tội phạm bạo lực có hung khí (Bài 7, SGK GDCD 6 & Chuyên gia an ninh).",
         "steps": "Quy tắc tối thượng: 'Của đi thay người, tính mạng là vô giá'. Trẻ nhỏ không được đối đầu trực diện với tội phạm có hung khí. Phải ẩn nấp an toàn, bí mật phát tín hiệu cầu cứu.",
-        "trap": "Tiếc của hoặc ảo tưởng phim ảnh xông ra đánh nhau với kẻ cướp có hung khí."
+        "trap": "Tiếc của hoặc ảo tưởng phim ảnh xông ra đánh nhau với kẻ cướp có hung khí.",
+        "socraticPrompt": "Tiền bạc mất đi có thể làm lại được, nhưng tính mạng của con trẻ mất đi thì bố mẹ có thể tìm lại được không?"
       },
       "socraticPrompt": "Tiền bạc mất đi có thể làm lại được, nhưng tính mạng của con trẻ mất đi thì bố mẹ có thể tìm lại được không?",
       "distractorReasons": [
-        "Sai, hành động liều lĩnh dẫn đến bị tội phạm sát hại thương tâm.",
-        "Sai, hành động hoảng loạn thỏa hiệp thiếu tỉnh táo.",
-        "Sai, làm kẻ trộm hoảng sợ sẽ kích hoạt phản xạ giết người diệt khẩu của hắn.",
-        "Chính xác, nguyên tắc sinh tồn vàng trong phòng chống tội phạm đột nhập: Bảo vệ an toàn sinh mạng là ưu tiên số 1."
-      ]
+        "Sai vì hành động liều lĩnh dẫn đến bị tội phạm sát hại thương tâm.",
+        "Sai vì hành động hoảng loạn thỏa hiệp thiếu tỉnh táo.",
+        "Sai vì làm kẻ trộm hoảng sợ sẽ kích hoạt phản xạ giết người diệt khẩu của hắn.",
+        "Đúng vì nguyên tắc sinh tồn vàng trong phòng chống tội phạm đột nhập: Bảo vệ an toàn sinh mạng là ưu tiên số 1."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

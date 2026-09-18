@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Khẳng định nào phản ánh chân lý lịch sử không thể chối cãi về chủ quyền biển đảo của Việt Nam?",
       "options": [
-        "Việt Nam có đầy đủ bằng chứng lịch sử và căn cứ pháp lý khẳng định chủ quyền đối với quần đảo Hoàng Sa và Trường Sa",
-        "Hoàng Sa và Trường Sa là vùng biển vô chủ chưa ai quản lý",
         "Chủ quyền chỉ mới được tuyên bố gần đây",
+        "Hoàng Sa và Trường Sa là vùng biển vô chủ chưa ai quản lý",
+        "Việt Nam có đầy đủ bằng chứng lịch sử và căn cứ pháp lý khẳng định chủ quyền đối với quần đảo Hoàng Sa và Trường Sa",
         "Việt Nam không có bất kỳ văn bản hành chính nào"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Hệ thống bằng chứng lịch sử đồ sộ, phong phú và liên tục từ thế kỉ XVII đến nay.",
       "breakdown": {
         "concept": "Chân lý lịch sử chủ quyền biển đảo",
         "steps": "Đầy đủ bằng chứng lịch sử và căn cứ pháp lý quốc tế.",
         "socraticPrompt": "Cơ sở khẳng định chủ quyền của Việt Nam là gì?"
-      }
+      },
+      "socraticPrompt": "Cơ sở khẳng định chủ quyền của Việt Nam là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chủ quyền chỉ mới được tuyên bố gần đây', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hoàng Sa và Trường Sa là vùng biển vô chủ chưa ai quản lý' không phù hợp với định lý/quy tắc trọng tâm (Chân lý lịch sử chủ quyền biển đảo).",
+        "Đúng vì theo Chân lý lịch sử chủ quyền biển đảo: Đầy đủ bằng chứng lịch sử và căn cứ pháp lý quốc tế.",
+        "Sai vì phủ định sai bản chất: 'Việt Nam không có bất kỳ văn bản hành chính nào' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Chiến lược phát triển bền vững kinh tế biển Việt Nam đến năm 2030, tầm nhìn 2045 đặt mục tiêu",
       "options": [
-        "Đưa Việt Nam trở thành quốc gia biển mạnh, phát triển kinh tế biển gắn liền với bảo vệ an ninh quốc phòng",
+        "Cấm hoàn toàn các hoạt động du lịch biển",
         "Chỉ tập trung vào khai thác cạn kiệt cá ven bờ",
         "Bỏ hoang các vùng biển đảo tiền tiêu",
-        "Cấm hoàn toàn các hoạt động du lịch biển"
+        "Đưa Việt Nam trở thành quốc gia biển mạnh, phát triển kinh tế biển gắn liền với bảo vệ an ninh quốc phòng"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Phát triển các ngành kinh tế biển công nghệ cao, bảo tồn sinh thái và củng cố thế trận quốc phòng toàn dân trên biển.",
       "breakdown": {
         "concept": "Chiến lược kinh tế biển 2030",
         "steps": "Việt Nam phải trở thành quốc gia biển mạnh.",
         "socraticPrompt": "Mục tiêu chiến lược kinh tế biển của nước ta là gì?"
-      }
+      },
+      "socraticPrompt": "Mục tiêu chiến lược kinh tế biển của nước ta là gì?",
+      "distractorReasons": [
+        "Sai vì 'Cấm hoàn toàn các hoạt động du lịch biển' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược kinh tế biển 2030).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tập trung vào khai thác cạn kiệt cá ven bờ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bỏ hoang các vùng biển đảo tiền tiêu' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược kinh tế biển 2030).",
+        "Đúng vì theo Chiến lược kinh tế biển 2030: Việt Nam phải trở thành quốc gia biển mạnh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Tự do hàng hải Biển Đông",
         "steps": "Bảo đảm tuyến hàng hải huyết mạch toàn cầu an toàn.",
         "socraticPrompt": "Tại sao thế giới quan tâm sâu sắc tới hòa bình ở Biển Đông?"
-      }
+      },
+      "socraticPrompt": "Tại sao thế giới quan tâm sâu sắc tới hòa bình ở Biển Đông?",
+      "distractorReasons": [
+        "Đúng vì theo Tự do hàng hải Biển Đông: Bảo đảm tuyến hàng hải huyết mạch toàn cầu an toàn.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ riêng lợi ích một quốc gia', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không liên quan đến an ninh thế giới' trái ngược với kiến thức SGK.",
+        "Sai vì 'Làm suy thoái kinh tế thương mại quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Tự do hàng hải Biển Đông)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hình ảnh 'Ngọn cờ Tổ quốc phấp phới trên đảo Trường Sa' nhắc nhở mỗi công dân Việt Nam điều gì?",
       "options": [
-        "Chủ quyền biển đảo thiêng liêng là bất khả xâm phạm, được xây đắp bằng mồ hôi và xương máu của các thế hệ cha anh",
         "Đó chỉ là một hòn đảo xa xôi",
+        "Chủ quyền biển đảo thiêng liêng là bất khả xâm phạm, được xây đắp bằng mồ hôi và xương máu của các thế hệ cha anh",
         "Không cần quan tâm đến người lính đảo",
         "Chỉ là một điểm đến du lịch đơn thuần"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Mỗi đảo chìm, đảo nổi là cột mốc chủ quyền sống của Tổ quốc giữa trùng khơi.",
       "breakdown": {
         "concept": "Ý nghĩa biểu tượng cờ đỏ Trường Sa",
         "steps": "Chủ quyền thiêng liêng bất khả xâm phạm.",
         "socraticPrompt": "Hình ảnh Trường Sa khơi gợi tình cảm gì trong lòng mỗi người?"
-      }
+      },
+      "socraticPrompt": "Hình ảnh Trường Sa khơi gợi tình cảm gì trong lòng mỗi người?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Đó chỉ là một hòn đảo xa xôi', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Ý nghĩa biểu tượng cờ đỏ Trường Sa: Chủ quyền thiêng liêng bất khả xâm phạm.",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm đến người lính đảo' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là một điểm đến du lịch đơn thuần', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Sức mạnh dân tộc & thời đại",
         "steps": "Khối đại đoàn kết + Luật pháp quốc tế UNCLOS.",
         "socraticPrompt": "Làm thế nào để bảo vệ chủ quyền biển đảo một cách vững chắc?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để bảo vệ chủ quyền biển đảo một cách vững chắc?",
+      "distractorReasons": [
+        "Đúng vì theo Sức mạnh dân tộc & thời đại: Khối đại đoàn kết + Luật pháp quốc tế UNCLOS.",
+        "Sai vì phủ định sai bản chất: 'Đơn độc tác chiến không cần quốc tế' trái ngược với kiến thức SGK.",
+        "Sai vì 'Nhượng bộ chủ quyền lãnh thổ' không phù hợp với định lý/quy tắc trọng tâm (Sức mạnh dân tộc & thời đại).",
+        "Sai vì 'Sử dụng vũ lực bất chấp luật pháp' không phù hợp với định lý/quy tắc trọng tâm (Sức mạnh dân tộc & thời đại)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thông điệp sâu sắc nhất gửi gắm tới thế hệ trẻ hôm nay về Biển Đông là",
       "options": [
-        "Giữ gìn từng tấc đất, từng sải biển mà tổ tiên để lại là mệnh lệnh từ trái tim của triệu triệu người con đất Việt",
+        "Quên đi truyền thống hào hùng của cha ông",
         "Thờ ơ coi biển đảo là việc của người khác",
         "Chỉ chạy theo lợi ích vật chất trước mắt",
-        "Quên đi truyền thống hào hùng của cha ông"
+        "Giữ gìn từng tấc đất, từng sải biển mà tổ tiên để lại là mệnh lệnh từ trái tim của triệu triệu người con đất Việt"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Biển Đông trong tim ta, Tổ quốc trường tồn ngàn đời.",
       "breakdown": {
         "concept": "Mệnh lệnh từ trái tim",
         "steps": "Quyết tâm giữ vững biển đảo quê hương.",
         "socraticPrompt": "Trách nhiệm lớn nhất của thế hệ trẻ với Biển Đông là gì?"
-      }
+      },
+      "socraticPrompt": "Trách nhiệm lớn nhất của thế hệ trẻ với Biển Đông là gì?",
+      "distractorReasons": [
+        "Sai vì 'Quên đi truyền thống hào hùng của cha ông' không phù hợp với định lý/quy tắc trọng tâm (Mệnh lệnh từ trái tim).",
+        "Sai vì 'Thờ ơ coi biển đảo là việc của người khác' không phù hợp với định lý/quy tắc trọng tâm (Mệnh lệnh từ trái tim).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chạy theo lợi ích vật chất trước mắt', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Mệnh lệnh từ trái tim: Quyết tâm giữ vững biển đảo quê hương."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

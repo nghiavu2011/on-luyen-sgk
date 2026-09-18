@@ -22,7 +22,16 @@
         "socraticPrompt": "Dầu mỏ chứa nhiều hydrocarbon tan lẫn vào nhau có nhiệt độ sôi khác nhau thì dùng phương pháp nhiệt gì?",
         "steps": "Các hydrocarbon trong dầu mỏ có nhiệt độ sôi tăng dần theo chiều tăng khối lượng mol. Chưng cất phân đoạn là phương pháp chuẩn để tách dầu mỏ thành các phân đoạn nhiên liệu.",
         "trap": "Nhầm với phương pháp chiết hay kết tinh vốn không áp dụng cho hỗn hợp đồng thể này."
-      }
+      },
+      "socraticPrompt": "Dầu mỏ chứa nhiều hydrocarbon tan lẫn vào nhau có nhiệt độ sôi khác nhau thì dùng phương pháp nhiệt gì?",
+      "distractorReasons": [
+        "Sai vì 'Phương pháp chiết lỏng' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng chưng cất phân đoạn tách hỗn hợp lỏng dựa vào sự khác biệt nhiệt độ sôi.).",
+        "Đúng vì: Các hydrocarbon trong dầu mỏ có nhiệt độ sôi tăng dần theo chiều tăng khối lượng mol. Chưng cất phân đoạn là phương pháp chuẩn để tách dầu mỏ thành các phân đoạ.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phương pháp kết tinh lại' (với phương pháp chiết hay kết tinh vốn không áp dụng cho hỗn hợp đồng thể này).",
+        "Sai vì 'Phương pháp sắc kí cột' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng chưng cất phân đoạn tách hỗn hợp lỏng dựa vào sự khác biệt nhiệt độ sôi.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c3_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Khí làm đục nước vôi trong là khí gì, và hơi ẩm biến CuSO₄ khan màu trắng thành màu xanh là chất gì?",
         "steps": "Khí CO₂ tạo kết tủa CaCO₃ với Ca(OH)₂ chứng minh có nguyên tố C. Hơi H₂O kết hợp với CuSO₄ khan tạo tinh thể CuSO₄·5H₂O màu xanh chứng minh có nguyên tố H.",
         "trap": "Nhầm lẫn O có trong hợp chất hữu cơ với O lấy từ chất oxi hoá CuO."
-      }
+      },
+      "socraticPrompt": "Khí làm đục nước vôi trong là khí gì, và hơi ẩm biến CuSO₄ khan màu trắng thành màu xanh là chất gì?",
+      "distractorReasons": [
+        "Sai vì 'Nguyên tố N và H' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp phân tích định tính nguyên tố C và H bằng CuO.).",
+        "Sai vì 'Nguyên tố C và O' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp phân tích định tính nguyên tố C và H bằng CuO.).",
+        "Đúng vì theo Phương pháp phân tích định tính nguyên tố C và H bằng CuO.: Khí CO₂ tạo kết tủa CaCO₃ với Ca(OH)₂ chứng minh có nguyên tố C. Hơi H₂O kết hợp với CuSO₄ khan tạo tinh thể CuSO₄·5H₂O màu xanh chứng minh có nguyên tố H.",
+        "Sai vì 'Nguyên tố H và O' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp phân tích định tính nguyên tố C và H bằng CuO.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c3_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Với 1 nguyên tử O và 2 C no, O có thể liên kết với H (alcohol) hoặc nằm giữa hai gốc carbon (ether).",
         "steps": "C₂H₆O có 2 đồng phân cấu tạo: 1) CH₃-CH₂-OH (ethyl alcohol, nhóm chức -OH); 2) CH₃-O-CH₃ (dimethyl ether, nhóm ether -O-).",
         "trap": "Chỉ nghĩ đến cồn C₂H₅OH mà quên mất dimethyl ether."
-      }
+      },
+      "socraticPrompt": "Với 1 nguyên tử O và 2 C no, O có thể liên kết với H (alcohol) hoặc nằm giữa hai gốc carbon (ether).",
+      "distractorReasons": [
+        "Sai vì '1 công thức' không phù hợp với định lý/quy tắc trọng tâm (Đồng phân nhóm chức giữa alcohol và ether của C₂H₆O.).",
+        "Sai vì '4 công thức' không phù hợp với định lý/quy tắc trọng tâm (Đồng phân nhóm chức giữa alcohol và ether của C₂H₆O.).",
+        "Sai vì '3 công thức' không phù hợp với định lý/quy tắc trọng tâm (Đồng phân nhóm chức giữa alcohol và ether của C₂H₆O.).",
+        "Đúng vì theo Đồng phân nhóm chức giữa alcohol và ether của C₂H₆O.: C₂H₆O có 2 đồng phân cấu tạo: 1) CH₃-CH₂-OH (ethyl alcohol, nhóm chức -OH); 2) CH₃-O-CH₃ (dimethyl ether, nhóm ether -O-)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c3_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Khối lượng mol của nhóm (C₂H₅O) là bao nhiêu, và lấy 90 chia cho số đó để tìm hệ số n?",
         "steps": "Ta có CTPT là (C₂H₅O)n. Khối lượng mol phân tử M = (12·2 + 5·1 + 16)·n = 45·n = 90 suy ra n = 2. Vậy CTPT là C₄H₁₀O₂.",
         "trap": "Tính sai phân tử khối của C₂H₅O thành 46 hoặc 44 dẫn đến tìm sai n."
-      }
+      },
+      "socraticPrompt": "Khối lượng mol của nhóm (C₂H₅O) là bao nhiêu, và lấy 90 chia cho số đó để tìm hệ số n?",
+      "distractorReasons": [
+        "Đúng vì: Ta có CTPT là (C₂H₅O)n. Khối lượng mol phân tử M = (12·2 + 5·1 + 16)·n = 45·n = 90 suy ra n = 2. Vậy CTPT là C₄H₁₀O₂.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C₂H₅O' (Tính sai phân tử khối của C₂H₅O thành 46 hoặc 44 dẫn đến tìm sai n.).",
+        "Sai vì 'C₃H₆O₃' không phù hợp với định lý/quy tắc trọng tâm (Xác định CTPT từ công thức đơn giản nhất và phân tử khối qua phổ khối lượng MS.).",
+        "Sai vì 'C₆H₁₅O₃' không phù hợp với định lý/quy tắc trọng tâm (Xác định CTPT từ công thức đơn giản nhất và phân tử khối qua phổ khối lượng MS.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c3_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Acetic acid có công thức C₂H₄O₂, khối lượng mol phân tử là 60 g/mol. Có 2 nguyên tử C nặng bao nhiêu?",
         "steps": "CTPT của acetic acid là C₂H₄O₂, M = 12·2 + 1·4 + 16·2 = 60 g/mol. %C = (24 / 60) · 100% = 40.0%.",
         "trap": "Chỉ tính 1 nguyên tử C (12 / 60 = 20%) do nhìn vào nhóm COOH mà quên nhóm CH₃."
-      }
+      },
+      "socraticPrompt": "Acetic acid có công thức C₂H₄O₂, khối lượng mol phân tử là 60 g/mol. Có 2 nguyên tử C nặng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '30.0%' không phù hợp với định lý/quy tắc trọng tâm (Tính thành phần phần trăm theo khối lượng của nguyên tố trong hợp chất.).",
+        "Sai vì '50.0%' không phù hợp với định lý/quy tắc trọng tâm (Tính thành phần phần trăm theo khối lượng của nguyên tố trong hợp chất.).",
+        "Đúng vì: CTPT của acetic acid là C₂H₄O₂, M = 12·2 + 1·4 + 16·2 = 60 g/mol. %C = (24 / 60) · 100% = 40.0%.",
+        "Sai vì '20.0%' không phù hợp với định lý/quy tắc trọng tâm (Tính thành phần phần trăm theo khối lượng của nguyên tố trong hợp chất.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c3_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Mạch thẳng 5C, mạch chính 4C có 1 nhánh methyl, và mạch chính 3C có 2 nhánh methyl.",
         "steps": "C₅H₁₂ có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-CH₂-CH₃ (pentane); 2) CH₃-CH(CH₃)-CH₂-CH₃ (2-methylbutane hay isopentane); 3) C(CH₃)₄ (2,2-dimethylpropane hay neopentane).",
         "trap": "Vẽ mạch 4C có nhánh ở vị trí số 3 rồi đếm trùng với nhánh ở vị trí số 2."
-      }
+      },
+      "socraticPrompt": "Mạch thẳng 5C, mạch chính 4C có 1 nhánh methyl, và mạch chính 3C có 2 nhánh methyl.",
+      "distractorReasons": [
+        "Sai vì '2 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Xác định số lượng đồng phân cấu tạo mạch carbon của C₅H₁₂.).",
+        "Đúng vì theo Xác định số lượng đồng phân cấu tạo mạch carbon của C₅H₁₂.: C₅H₁₂ có 3 đồng phân cấu tạo: 1) CH₃-CH₂-CH₂-CH₂-CH₃ (pentane); 2) CH₃-CH(CH₃)-CH₂-CH₃ (2-methylbutane hay isopentane); 3) C(CH₃)₄ (2,2-dimethylpropane hay neop.",
+        "Sai vì '4 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Xác định số lượng đồng phân cấu tạo mạch carbon của C₅H₁₂.).",
+        "Sai vì '5 đồng phân' không phù hợp với định lý/quy tắc trọng tâm (Xác định số lượng đồng phân cấu tạo mạch carbon của C₅H₁₂.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

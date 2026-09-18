@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Kỹ năng xử lý khi bị cháy trên người (Bài 7, SGK GDCD 6, trang 32 & Kỹ năng PCCC).",
         "steps": "Quy tắc Stop, Drop and Roll: Chạy sẽ cung cấp thêm oxy khiến ngọn lửa bùng to hơn. Phải nằm úp xuống đất, lăn qua lăn lại để triệt tiêu nguồn oxy dập tắt lửa, tay che bảo vệ mắt và mặt.",
-        "trap": "Phản xạ tự nhiên bỏ chạy thục mạng khiến ngọn lửa bốc cháy dữ dội thiêu rụi toàn thân."
+        "trap": "Phản xạ tự nhiên bỏ chạy thục mạng khiến ngọn lửa bốc cháy dữ dội thiêu rụi toàn thân.",
+        "socraticPrompt": "Gió thổi vào đống lửa thì lửa sẽ cháy to hơn hay tắt đi? Chạy thục mạng tạo ra gió có làm lửa cháy dữ dội hơn không?"
       },
       "socraticPrompt": "Gió thổi vào đống lửa thì lửa sẽ cháy to hơn hay tắt đi? Chạy thục mạng tạo ra gió có làm lửa cháy dữ dội hơn không?",
       "distractorReasons": [
-        "Chính xác, quy tắc cứu nạn vàng toàn cầu giúp dập tắt lửa trên quần áo trong vài giây.",
+        "Đúng vì quy tắc cứu nạn vàng toàn cầu giúp dập tắt lửa trên quần áo trong vài giây.",
         "Sai lầm chết người, chạy làm ngọn lửa bùng phát nhanh gấp 10 lần thiêu cháy đường thở.",
-        "Sai, bình xăng phát nổ gây tử vong ngay lập tức.",
-        "Sai, nilon nóng chảy dính chặt vào da gây bỏng sâu hoại tử."
-      ]
+        "Sai vì bình xăng phát nổ gây tử vong ngay lập tức.",
+        "Sai vì nilon nóng chảy dính chặt vào da gây bỏng sâu hoại tử."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch07_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Kỹ năng thoát hiểm chống bắt cóc mạo danh người thân (Bài 7, SGK GDCD 6 & Chuyên gia tự vệ trẻ em).",
         "steps": "Tội phạm bắt cóc thường vờ làm phụ huynh đang phạt con để người xung quanh không can thiệp. Trẻ phải phát tín hiệu rõ ràng phủ nhận mối quan hệ 'HẮN KHÔNG PHẢI BỐ CHÁU' và tạo vật cản níu giữ người đi đường.",
-        "trap": "Chỉ khóc lóc mà không nói rõ 'đây là kẻ bắt cóc' khiến mọi người lầm tưởng là chuyện gia đình."
+        "trap": "Chỉ khóc lóc mà không nói rõ 'đây là kẻ bắt cóc' khiến mọi người lầm tưởng là chuyện gia đình.",
+        "socraticPrompt": "Nếu em chỉ khóc, người lạ đi qua sẽ nghĩ gì? Câu nói nào làm cho mọi người xung quanh lập tức xông vào giữ kẻ bắt cóc lại?"
       },
       "socraticPrompt": "Nếu em chỉ khóc, người lạ đi qua sẽ nghĩ gì? Câu nói nào làm cho mọi người xung quanh lập tức xông vào giữ kẻ bắt cóc lại?",
       "distractorReasons": [
-        "Sai, im lặng là tự nộp mạng vào tay tội phạm buôn người nguy hiểm.",
-        "Chính xác, kỹ năng tự vệ sống còn, đập tan màn kịch mạo danh của kẻ bắt cóc để kích hoạt phản xạ bảo vệ của cộng đồng.",
-        "Sai, kẻ bắt cóc tàn ác không bao giờ động lòng trước lời xin xỏ.",
-        "Sai, đi theo kẻ xấu sẽ vĩnh viễn không thể tìm lại cha mẹ."
-      ]
+        "Sai vì im lặng là tự nộp mạng vào tay tội phạm buôn người nguy hiểm.",
+        "Đúng vì kỹ năng tự vệ sống còn, đập tan màn kịch mạo danh của kẻ bắt cóc để kích hoạt phản xạ bảo vệ của cộng đồng.",
+        "Sai vì kẻ bắt cóc tàn ác không bao giờ động lòng trước lời xin xỏ.",
+        "Sai vì đi theo kẻ xấu sẽ vĩnh viễn không thể tìm lại cha mẹ."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch07_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Dấu hiệu cảnh báo lũ quét sạt lở đất (Bài 7, SGK GDCD 6, trang 34).",
         "steps": "Mưa dầm lâu ngày làm bở đất; nước suối đục ngầu và tiếng gầm rú là báo hiệu bùn đất đá từ đỉnh núi đang ầm ầm đổ xuống. Cần chạy lên cao ngay lập tức.",
-        "trap": "Chủ quan khi thấy dòng nước lũ nhỏ ban đầu mà không nhận ra lũ ống sắp ập tới."
+        "trap": "Chủ quan khi thấy dòng nước lũ nhỏ ban đầu mà không nhận ra lũ ống sắp ập tới.",
+        "socraticPrompt": "Tiếng gầm rền rĩ từ trên núi vọng xuống báo hiệu điều gì khủng khiếp đang lao xuống bản làng?"
       },
       "socraticPrompt": "Tiếng gầm rền rĩ từ trên núi vọng xuống báo hiệu điều gì khủng khiếp đang lao xuống bản làng?",
       "distractorReasons": [
-        "Sai, thời tiết khô ráo không gây lũ quét.",
-        "Sai, chim én là dấu hiệu mùa xuân ấm áp.",
-        "Chính xác, dấu hiệu sinh tồn nhận biết hiểm họa thiên tai miền núi để kịp thời sơ tán tính mạng.",
-        "Sai, hiện tượng cạn giếng thường liên quan đến hạn hán hoặc địa chất ngầm."
-      ]
+        "Sai vì thời tiết khô ráo không gây lũ quét.",
+        "Sai vì chim én là dấu hiệu mùa xuân ấm áp.",
+        "Đúng vì dấu hiệu sinh tồn nhận biết hiểm họa thiên tai miền núi để kịp thời sơ tán tính mạng.",
+        "Sai vì hiện tượng cạn giếng thường liên quan đến hạn hán hoặc địa chất ngầm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch07_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Nguyên tắc an toàn trước dòng nước lũ (Bài 7, SGK GDCD 6, trang 34).",
         "steps": "Nước lũ chảy xiết có lực cuốn khổng lồ, chỉ cần ngập trên đầu gối là đủ cuốn trôi cả người lớn và xe máy. Tuyệt đối không băng qua ngầm tràn mùa lũ.",
-        "trap": "Tâm lý chủ quan cậy sức hoặc nôn nóng về nhà dẫn đến bị lũ cuốn tử vong."
+        "trap": "Tâm lý chủ quan cậy sức hoặc nôn nóng về nhà dẫn đến bị lũ cuốn tử vong.",
+        "socraticPrompt": "Dòng nước lũ đục ngầu cuồn cuộn có thể cuốn phăng một chiếc ô tô tải, liệu mấy đứa trẻ nắm tay có trụ nổi không?"
       },
       "socraticPrompt": "Dòng nước lũ đục ngầu cuồn cuộn có thể cuốn phăng một chiếc ô tô tải, liệu mấy đứa trẻ nắm tay có trụ nổi không?",
       "distractorReasons": [
         "Sai lầm chết người đã cướp đi sinh mạng của rất nhiều học sinh mùa bão lũ.",
-        "Sai, bơi trong dòng lũ xiết đầy đất đá cây đổ là hành động tự sát.",
-        "Sai, hành vi dại dột làm mất tài sản và nguy hiểm tính mạng.",
-        "Chính xác, quyết định sáng suốt, bản lĩnh và tôn trọng nguyên tắc bảo toàn sinh mạng số 1."
-      ]
+        "Sai vì bơi trong dòng lũ xiết đầy đất đá cây đổ là hành động tự sát.",
+        "Sai vì hành vi dại dột làm mất tài sản và nguy hiểm tính mạng.",
+        "Đúng vì quyết định sáng suốt, bản lĩnh và tôn trọng nguyên tắc bảo toàn sinh mạng số 1."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch07_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Xử lý sự cố rò rỉ khí gas chống cháy nổ (Bài 7, SGK GDCD 6 & Kỹ năng an toàn gia đình).",
         "steps": "Khí gas rò rỉ gặp tia lửa điện li ti (từ công tắc điện hay quẹt diêm) sẽ kích nổ kinh hoàng ngay lập tức. Phải mở cửa tự nhiên, không phát sinh tia lửa điện, khóa van gas và thoát ra ngoài.",
-        "trap": "Bật đèn hoặc bật quạt để xua mùi gas dẫn đến phát nổ cả căn nhà."
+        "trap": "Bật đèn hoặc bật quạt để xua mùi gas dẫn đến phát nổ cả căn nhà.",
+        "socraticPrompt": "Khi bật công tắc điện có phát ra một tia lửa điện nhỏ xíu không nhìn thấy không? Khí gas gặp tia lửa đó sẽ xảy ra hiện tượng gì?"
       },
       "socraticPrompt": "Khi bật công tắc điện có phát ra một tia lửa điện nhỏ xíu không nhìn thấy không? Khí gas gặp tia lửa đó sẽ xảy ra hiện tượng gì?",
       "distractorReasons": [
-        "Chính xác, quy trình xử lý rò rỉ gas tiêu chuẩn quốc tế bảo đảm an toàn sinh mạng tuyệt đối.",
+        "Đúng vì quy trình xử lý rò rỉ gas tiêu chuẩn quốc tế bảo đảm an toàn sinh mạng tuyệt đối.",
         "Sai lầm chết người, tia lửa từ công tắc hoặc diêm sẽ kích hoạt vụ nổ phá hủy toàn bộ căn nhà.",
-        "Sai, mô-tơ máy sấy tóc phát ra tia lửa điện gây nổ lập tức.",
-        "Sai, đóng kín cửa làm ngạt khí gas dẫn đến ngộ độc tử vong."
-      ]
+        "Sai vì mô-tơ máy sấy tóc phát ra tia lửa điện gây nổ lập tức.",
+        "Sai vì đóng kín cửa làm ngạt khí gas dẫn đến ngộ độc tử vong."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch07_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Kỹ năng sinh tồn khi bị lạc (Bài 7, SGK GDCD 6 & Kỹ năng sống).",
         "steps": "Quy tắc STOP (Stop, Think, Observe, Plan): Đứng yên tại chỗ giúp đoàn tìm kiếm dễ dàng định vị. Chạy loạn sẽ làm mất sức, mất dấu vết và rơi vào vực sâu nguy hiểm.",
-        "trap": "Hoảng loạn chạy lung tung hoặc ăn nấm độc trong rừng."
+        "trap": "Hoảng loạn chạy lung tung hoặc ăn nấm độc trong rừng.",
+        "socraticPrompt": "Khi một người bị lạc đứng yên một chỗ, đội cứu hộ tìm kiếm dễ hơn hay người đó cứ di chuyển liên tục trong rừng?"
       },
       "socraticPrompt": "Khi một người bị lạc đứng yên một chỗ, đội cứu hộ tìm kiếm dễ hơn hay người đó cứ di chuyển liên tục trong rừng?",
       "distractorReasons": [
-        "Sai, hoảng loạn kiệt sức và dễ rơi xuống khe vực tử vong.",
-        "Chính xác, nguyên tắc sinh tồn quốc tế giúp người lạc được cứu hộ an toàn trong thời gian ngắn nhất.",
-        "Sai, nấm sặc sỡ trong rừng chứa độc tố chết người cực mạnh.",
-        "Sai, nước bẩn chứa vi khuẩn gây tiêu chảy mất nước nguy kịch."
-      ]
+        "Sai vì hoảng loạn kiệt sức và dễ rơi xuống khe vực tử vong.",
+        "Đúng vì nguyên tắc sinh tồn quốc tế giúp người lạc được cứu hộ an toàn trong thời gian ngắn nhất.",
+        "Sai vì nấm sặc sỡ trong rừng chứa độc tố chết người cực mạnh.",
+        "Sai vì nước bẩn chứa vi khuẩn gây tiêu chảy mất nước nguy kịch."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

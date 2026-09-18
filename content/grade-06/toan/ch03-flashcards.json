@@ -1,92 +1,83 @@
 [
   {
-    "id": "fc-toan6-ch03-01",
-    "front": "Tập hợp số nguyên $\\mathbb{Z}$ gồm những phần tử nào?",
-    "back": "Gồm các số nguyên âm, số 0 và các số nguyên dương: $\\mathbb{Z} = \\{...; -3; -2; -1; 0; 1; 2; 3; ...\\}$. Số 0 không là số nguyên dương, cũng không là số nguyên âm.",
+    "id": "fc_t6_c3_01",
+    "front": "Tập hợp số nguyên Z bao gồm các thành phần nào?",
+    "back": "Gồm các số nguyên âm, số 0 và các số nguyên dương: Z = {..., -2, -1, 0, 1, 2, ...}",
     "tags": [
-      "Khái niệm",
-      "Tập hợp Z"
+      "So-nguyen",
+      "Dinh-nghia"
     ]
   },
   {
-    "id": "fc-toan6-ch03-02",
-    "front": "Số đối của số nguyên $a$ là gì?",
-    "back": "Số đối của $a$ là $-a$. Hai số đối nhau có tổng bằng 0 ($a + (-a) = 0$). Trên trục số, hai số đối nhau nằm về hai phía so với gốc 0 và cách đều gốc 0. Số đối của 0 là 0.",
+    "id": "fc_t6_c3_02",
+    "front": "Số đối của số nguyên a là gì? Số đối của 0 là gì?",
+    "back": "Số đối của a là -a. Số đối của 0 là chính nó (0).",
     "tags": [
-      "Khái niệm",
-      "Số đối"
+      "So-doi"
     ]
   },
   {
-    "id": "fc-toan6-ch03-03",
-    "front": "Quy tắc so sánh hai số nguyên âm?",
-    "back": "Trong hai số nguyên âm, số nào có khoảng cách đến gốc 0 lớn hơn (phần tự nhiên lớn hơn) thì số đó NHỎ HƠN. Ví dụ: $-8 < -5$ vì $8 > 5$.",
+    "id": "fc_t6_c3_03",
+    "front": "Quy tắc so sánh hai số nguyên âm là gì?",
+    "back": "Trong hai số nguyên âm, số nào có phần số tự nhiên lớn hơn thì số đó NHỎ HƠN (ví dụ: -8 < -5 vì 8 > 5).",
     "tags": [
-      "Quy tắc",
-      "So sánh số âm"
+      "So-sanh"
     ]
   },
   {
-    "id": "fc-toan6-ch03-04",
-    "front": "Quy tắc cộng hai số nguyên cùng dấu?",
-    "back": "• Cộng hai số dương: như cộng số tự nhiên.\n• Cộng hai số âm: cộng hai phần tự nhiên rồi đặt dấu '-' trước kết quả: $(-a) + (-b) = -(a + b)$.",
+    "id": "fc_t6_c3_04",
+    "front": "Quy tắc cộng hai số nguyên âm là gì?",
+    "back": "Cộng hai phần số tự nhiên của chúng rồi đặt dấu trừ (-) trước kết quả: (-a) + (-b) = -(a + b).",
     "tags": [
-      "Quy tắc",
-      "Cộng cùng dấu"
+      "Phep-cong"
     ]
   },
   {
-    "id": "fc-toan6-ch03-05",
-    "front": "Quy tắc cộng hai số nguyên khác dấu?",
-    "back": "• Hai số đối nhau có tổng bằng 0.\n• Muốn cộng hai số khác dấu: lấy phần tự nhiên lớn trừ phần tự nhiên bé, rồi đặt dấu của số có phần tự nhiên lớn hơn trước hiệu tìm được.",
+    "id": "fc_t6_c3_05",
+    "front": "Quy tắc cộng hai số nguyên khác dấu không đối nhau là gì?",
+    "back": "Lấy số lớn hơn trừ số bé hơn (phần số tự nhiên) rồi đặt dấu của số có phần tự nhiên lớn hơn trước kết quả.",
     "tags": [
-      "Quy tắc",
-      "Cộng khác dấu"
+      "Phep-cong"
     ]
   },
   {
-    "id": "fc-toan6-ch03-06",
-    "front": "Quy tắc phép trừ số nguyên?",
-    "back": "Muốn trừ số nguyên $a$ cho số nguyên $b$, ta cộng $a$ với số đối của $b$:\n$a - b = a + (-b)$.\nĐặc biệt: $a - (-b) = a + b$.",
+    "id": "fc_t6_c3_06",
+    "front": "Muốn trừ số nguyên a cho số nguyên b ta làm thế nào?",
+    "back": "Lấy a cộng với số đối của b: a - b = a + (-b).",
     "tags": [
-      "Quy tắc",
-      "Trừ số nguyên"
+      "Phep-tru"
     ]
   },
   {
-    "id": "fc-toan6-ch03-07",
-    "front": "Quy tắc bỏ dấu ngoặc?",
-    "back": "• Đằng trước có dấu '+': GIỮ NGUYÊN dấu các số hạng trong ngoặc.\n• Đằng trước có dấu '-': ĐỔI DẤU tất cả các số hạng trong ngoặc ('+' thành '-', '-' thành '+').",
+    "id": "fc_t6_c3_07",
+    "front": "Quy tắc bỏ dấu ngoặc khi có dấu trừ (-) đứng trước là gì?",
+    "back": "Phải ĐỔI DẤU tất cả các số hạng trong ngoặc: dấu '+' đổi thành '-', dấu '-' đổi thành '+'.",
     "tags": [
-      "Quy tắc",
-      "Dấu ngoặc"
+      "Dau-ngoac"
     ]
   },
   {
-    "id": "fc-toan6-ch03-08",
-    "front": "Quy tắc nhân hai số nguyên về dấu?",
-    "back": "• Cùng dấu nhân nhau ra DƯƠNG (+): $(+) \\times (+) = (+)$ và $(-) \\times (-) = (+)$.\n• Khác dấu nhân nhau ra ÂM (-): $(+) \\times (-) = (-)$ và $(-) \\times (+) = (-)$.",
+    "id": "fc_t6_c3_08",
+    "front": "Tích của hai số nguyên cùng dấu mang dấu gì? Tích hai số khác dấu mang dấu gì?",
+    "back": "Cùng dấu ra DƯƠNG (+), khác dấu ra ÂM (-).",
     "tags": [
-      "Quy tắc",
-      "Nhân số nguyên"
+      "Phep-nhan"
     ]
   },
   {
-    "id": "fc-toan6-ch03-09",
-    "front": "Dấu của tích chứa nhiều thừa số nguyên âm?",
-    "back": "• Chứa số CHẴN thừa số nguyên âm $\\rightarrow$ tích mang dấu DƯƠNG (+).\n• Chứa số LẺ thừa số nguyên âm $\\rightarrow$ tích mang dấu ÂM (-).",
+    "id": "fc_t6_c3_09",
+    "front": "Tích của một số lẻ các thừa số nguyên âm mang dấu gì?",
+    "back": "Mang dấu ÂM (-). (Nếu số thừa số nguyên âm là chẵn thì tích mang dấu DƯƠNG).",
     "tags": [
-      "Tính chất",
-      "Tích nhiều số"
+      "Phep-nhan"
     ]
   },
   {
-    "id": "fc-toan6-ch03-10",
-    "front": "Ước và bội trong tập hợp số nguyên $\\mathbb{Z}$?",
-    "back": "Nếu $a = b \\cdot q$ ($b \\ne 0$) thì $a$ chia hết cho $b$. Khi đó $b$ là ước của $a$, và $a$ là bội của $b$. Nếu $d$ là ước của $a$ thì $-d$ cũng là ước của $a$ (các ước luôn đi theo từng cặp số đối).",
+    "id": "fc_t6_c3_10",
+    "front": "Nếu b là một ước của số nguyên a thì -b có phải là ước của a không?",
+    "back": "Có. Ước của một số nguyên luôn xuất hiện theo từng cặp số đối nhau: ±b.",
     "tags": [
-      "Khái niệm",
-      "Ước và bội trong Z"
+      "Uoc-va-boi"
     ]
   }
 ]

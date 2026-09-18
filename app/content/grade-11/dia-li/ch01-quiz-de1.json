@@ -20,97 +20,151 @@
         "concept": "Trụ cột HDI",
         "steps": "Sức khỏe + Giáo dục + Thu nhập.",
         "socraticPrompt": "HDI đo những yếu tố nào?"
-      }
+      },
+      "socraticPrompt": "HDI đo những yếu tố nào?",
+      "distractorReasons": [
+        "Đúng vì theo Trụ cột HDI: Sức khỏe + Giáo dục + Thu nhập.",
+        "Sai vì 'Diện tích, Dân số và Khoáng sản' không phù hợp với định lý/quy tắc trọng tâm (Trụ cột HDI).",
+        "Sai vì 'Số lượng ô tô, xe máy và tivi' không phù hợp với định lý/quy tắc trọng tâm (Trụ cột HDI).",
+        "Sai vì 'Quy mô quân sự' không phù hợp với định lý/quy tắc trọng tâm (Trụ cột HDI)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Nhóm nước đang phát triển thường có đặc điểm nổi bật là",
       "options": [
-        "Tỉ trọng công nghiệp và dịch vụ đang tăng dần",
         "Nông nghiệp chiếm 100% GDP",
+        "Tỉ trọng công nghiệp và dịch vụ đang tăng dần",
         "Dịch vụ chiếm 99%",
         "Không tham gia ngoại thương"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Đẩy mạnh chuyển dịch cơ cấu theo hướng CNH - HĐH.",
       "breakdown": {
         "concept": "Đang phát triển",
         "steps": "Tăng tỉ trọng công nghiệp - dịch vụ.",
         "socraticPrompt": "Cơ cấu kinh tế nước đang phát triển thay đổi ra sao?"
-      }
+      },
+      "socraticPrompt": "Cơ cấu kinh tế nước đang phát triển thay đổi ra sao?",
+      "distractorReasons": [
+        "Sai vì 'Nông nghiệp chiếm 100% GDP' không phù hợp với định lý/quy tắc trọng tâm (Đang phát triển).",
+        "Đúng vì theo Đang phát triển: Tăng tỉ trọng công nghiệp - dịch vụ.",
+        "Sai vì 'Dịch vụ chiếm 99%' không phù hợp với định lý/quy tắc trọng tâm (Đang phát triển).",
+        "Sai vì phủ định sai bản chất: 'Không tham gia ngoại thương' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Động lực chủ yếu thúc đẩy toàn cầu hóa kinh tế là",
       "options": [
-        "Cách mạng khoa học - công nghệ và kinh tế tri thức",
-        "Sự suy giảm dân số",
         "Đóng cửa biên giới",
+        "Sự suy giảm dân số",
+        "Cách mạng khoa học - công nghệ và kinh tế tri thức",
         "Chiến tranh vũ trang"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Khoa học công nghệ và viễn thông internet làm phẳng thế giới.",
       "breakdown": {
         "concept": "Động lực toàn cầu hóa",
         "steps": "Công nghệ và thông tin liên lạc.",
         "socraticPrompt": "Yếu tố nào kết nối thế giới?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào kết nối thế giới?",
+      "distractorReasons": [
+        "Sai vì 'Đóng cửa biên giới' không phù hợp với định lý/quy tắc trọng tâm (Động lực toàn cầu hóa).",
+        "Sai vì 'Sự suy giảm dân số' không phù hợp với định lý/quy tắc trọng tâm (Động lực toàn cầu hóa).",
+        "Đúng vì theo Động lực toàn cầu hóa: Công nghệ và thông tin liên lạc.",
+        "Sai vì 'Chiến tranh vũ trang' không phù hợp với định lý/quy tắc trọng tâm (Động lực toàn cầu hóa)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Tổ chức liên kết kinh tế khu vực có mức độ hội nhập sâu rộng nhất hiện nay là",
       "options": [
-        "Liên minh Châu Âu (EU)",
+        "APEC",
         "ASEAN",
         "MERCOSUR",
-        "APEC"
+        "Liên minh Châu Âu (EU)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "EU dùng đồng tiền chung Euro và thị trường chung duy nhất.",
       "breakdown": {
         "concept": "EU",
         "steps": "Liên minh Châu Âu.",
         "socraticPrompt": "Khối nào dùng tiền Euro?"
-      }
+      },
+      "socraticPrompt": "Khối nào dùng tiền Euro?",
+      "distractorReasons": [
+        "Sai vì 'APEC' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'ASEAN' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'MERCOSUR' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì theo EU: Liên minh Châu Âu."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Vấn đề nào sau đây thuộc an ninh phi truyền thống?",
       "options": [
-        "Biến đổi khí hậu và an ninh lương thực",
         "Tranh chấp quyền thừa kế",
+        "Biến đổi khí hậu và an ninh lương thực",
         "Chiến tranh cổ điển",
         "Bầu cử nội bộ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "An ninh phi truyền thống là các hiểm họa phi quân sự xuyên biên giới.",
       "breakdown": {
         "concept": "An ninh phi truyền thống",
         "steps": "Biến đổi khí hậu, dịch bệnh.",
         "socraticPrompt": "Vấn đề nào đe dọa toàn cầu phi quân sự?"
-      }
+      },
+      "socraticPrompt": "Vấn đề nào đe dọa toàn cầu phi quân sự?",
+      "distractorReasons": [
+        "Sai vì 'Tranh chấp quyền thừa kế' không phù hợp với định lý/quy tắc trọng tâm (An ninh phi truyền thống).",
+        "Đúng vì theo An ninh phi truyền thống: Biến đổi khí hậu, dịch bệnh.",
+        "Sai vì 'Chiến tranh cổ điển' không phù hợp với định lý/quy tắc trọng tâm (An ninh phi truyền thống).",
+        "Sai vì 'Bầu cử nội bộ' không phù hợp với định lý/quy tắc trọng tâm (An ninh phi truyền thống)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Trụ sở WTO đặt tại quốc gia nào?",
       "options": [
-        "Thụy Sĩ (Geneva)",
-        "Hoa Kỳ",
         "Anh",
+        "Hoa Kỳ",
+        "Thụy Sĩ (Geneva)",
         "Pháp"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "WTO đặt tại Geneva, Thụy Sĩ.",
       "breakdown": {
         "concept": "Trụ sở WTO",
         "steps": "Geneva - Thụy Sĩ.",
         "socraticPrompt": "WTO ở nước nào?"
-      }
+      },
+      "socraticPrompt": "WTO ở nước nào?",
+      "distractorReasons": [
+        "Sai vì 'Anh' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở WTO).",
+        "Sai vì 'Hoa Kỳ' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở WTO).",
+        "Đúng vì theo Trụ sở WTO: Geneva - Thụy Sĩ.",
+        "Sai vì 'Pháp' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở WTO)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -1,86 +1,83 @@
-{
-  "chapterId": "ch07",
-  "title": "Chương 7: Số thập phân",
-  "flashcards": [
-    {
-      "id": "fc_t6_c7_01",
-      "front": "Phân số thập phân là gì?",
-      "back": "Phân số thập phân là phân số mà mẫu số là lũy thừa của 10 (như 10, 100, 1000,...).",
-      "category": "Khái niệm",
-      "example": "-7/100, 35/10 là các phân số thập phân.",
-      "mnemonic": "Mẫu là lũy thừa của 10: 10, 100, 1000..."
-    },
-    {
-      "id": "fc_t6_c7_02",
-      "front": "Cấu tạo của một số thập phân gồm những phần nào?",
-      "back": "Gồm phần nguyên (đứng trước dấu phẩy) và phần thập phân (đứng sau dấu phẩy).",
-      "category": "Khái niệm",
-      "example": "-25.48 có phần nguyên là -25, phần thập phân là 48.",
-      "mnemonic": "Trước phẩy là nguyên, sau phẩy là thập phân."
-    },
-    {
-      "id": "fc_t6_c7_03",
-      "front": "Tên các hàng sau dấu phẩy từ trái sang phải là gì?",
-      "back": "Hàng thứ nhất là hàng phần mười, hàng thứ hai là hàng phần trăm, hàng thứ ba là hàng phần nghìn.",
-      "category": "Khái niệm",
-      "example": "Trong số 0.357: 3 ở hàng phần mười, 5 ở hàng phần trăm, 7 ở hàng phần nghìn.",
-      "mnemonic": "Sau phẩy: phần mười, phần trăm, phần nghìn."
-    },
-    {
-      "id": "fc_t6_c7_04",
-      "front": "Quy tắc so sánh hai số thập phân âm là gì?",
-      "back": "Trong hai số thập phân âm, số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn.",
-      "category": "Quy tắc",
-      "example": "-4.25 < -4.2 vì |-4.25| = 4.25 > 4.2 = |-4.2|.",
-      "mnemonic": "Số âm so sánh: tuyệt đối lớn hơn thì lại nhỏ hơn."
-    },
-    {
-      "id": "fc_t6_c7_05",
-      "front": "Quy tắc nhân hai số thập phân là gì?",
-      "back": "Nhân như hai số tự nhiên, đếm tổng số chữ số thập phân ở cả hai thừa số rồi dùng dấu phẩy tách ở tích bấy nhiêu chữ số.",
-      "category": "Kỹ năng",
-      "example": "1.2 · 0.3: lấy 12 · 3 = 36, có tổng 2 chữ số thập phân nên tích là 0.36.",
-      "mnemonic": "Nhân như số tự nhiên, cộng chữ số thập phân để đặt phẩy."
-    },
-    {
-      "id": "fc_t6_c7_06",
-      "front": "Quy tắc làm tròn số thập phân đến một hàng cho trước là gì?",
-      "back": "Nếu chữ số ngay bên phải nhỏ hơn 5 thì giữ nguyên; nếu từ 5 trở lên thì cộng 1 vào chữ số hàng làm tròn.",
-      "category": "Quy tắc",
-      "example": "3.46 làm tròn hàng phần mười là 3.5 (vì 6 ≥ 5).",
-      "mnemonic": "Dưới 5 giữ nguyên, từ 5 cộng thêm 1."
-    },
-    {
-      "id": "fc_t6_c7_07",
-      "front": "Tỉ số của hai số a và b (b ≠ 0) là gì?",
-      "back": "Thương trong phép chia số a cho số b được gọi là tỉ số của a và b, ký hiệu là a/b hoặc a : b.",
-      "category": "Khái niệm",
-      "example": "Tỉ số của 3 m và 5 m là 3/5.",
-      "mnemonic": "Tỉ số là thương: a chia cho b (cùng đơn vị đo)."
-    },
-    {
-      "id": "fc_t6_c7_08",
-      "front": "Công thức tính tỉ số phần trăm của hai số a và b là gì?",
-      "back": "Ta lấy (a · 100 / b) rồi viết thêm ký hiệu % vào bên phải kết quả.",
-      "category": "Công thức",
-      "example": "Tỉ số phần trăm của 3 và 4 là (3 · 100 / 4)% = 75%.",
-      "mnemonic": "Nhân 100 chia b, thêm ký hiệu phần trăm."
-    },
-    {
-      "id": "fc_t6_c7_09",
-      "front": "Muốn tìm p% của một số a ta làm như thế nào?",
-      "back": "Ta lấy số a nhân với p rồi chia cho 100: Giá trị = a · p / 100 = a · (p/100).",
-      "category": "Phương pháp",
-      "example": "Tìm 20% của 80: lấy 80 · 20 / 100 = 16.",
-      "mnemonic": "Tìm phần trăm CỦA một số: lấy số đó NHÂN với phần trăm."
-    },
-    {
-      "id": "fc_t6_c7_10",
-      "front": "Muốn tìm một số khi biết p% của nó bằng b ta làm như thế nào?",
-      "back": "Ta lấy số b chia cho p% tức là lấy (b · 100) / p.",
-      "category": "Phương pháp",
-      "example": "Tìm số x biết 25% của x bằng 10: x = 10 : 25% = 10 · 100 / 25 = 40.",
-      "mnemonic": "Tìm số KHI BIẾT phần trăm: lấy giá trị CHIA cho phần trăm."
-    }
-  ]
-}
+[
+  {
+    "id": "fc_t6_c7_01",
+    "front": "Số đối của số thập phân a là gì? Số đối của -3,75 là gì?",
+    "back": "Số đối của a là -a. Số đối của -3,75 là +3,75 (3,75).",
+    "tags": [
+      "So-doi",
+      "So-thap-phan"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_02",
+    "front": "Quy tắc so sánh hai số thập phân âm là gì?",
+    "back": "Trong hai số thập phân âm, số nào có phần số tự nhiên lớn hơn thì số đó NHỎ HƠN (ví dụ: -4,5 < -4,2).",
+    "tags": [
+      "So-sanh"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_03",
+    "front": "Khi nhân hai số thập phân, làm thế nào để xác định số chữ số ở phần thập phân của tích?",
+    "back": "Đếm tổng số chữ số ở phần thập phân của CẢ HAI thừa số, rồi dùng dấu phẩy tách ở tích bấy nhiêu chữ số kể từ phải sang trái.",
+    "tags": [
+      "Phep-nhan"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_04",
+    "front": "Quy tắc làm tròn số thập phân khi chữ số ngay sau hàng làm tròn lớn hơn hoặc bằng 5 là gì?",
+    "back": "Cộng thêm 1 vào chữ số của hàng làm tròn (và bỏ đi các chữ số phía sau phần thập phân).",
+    "tags": [
+      "Lam-tron"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_05",
+    "front": "Quy tắc làm tròn số thập phân khi chữ số ngay sau hàng làm tròn nhỏ hơn 5 là gì?",
+    "back": "GIỮ NGUYÊN chữ số của hàng làm tròn (và bỏ đi các chữ số phía sau phần thập phân).",
+    "tags": [
+      "Lam-tron"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_06",
+    "front": "Muốn tìm tỉ số phần trăm của hai số a và b ta làm thế nào?",
+    "back": "Lấy (a : b) × 100 rồi viết thêm ký hiệu % vào bên phải kết quả: (a / b) × 100%.",
+    "tags": [
+      "Ti-so-phan-tram"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_07",
+    "front": "Công thức tìm p% của số a cho trước là gì?",
+    "back": "Lấy a × p : 100 (hoặc a × 0,p).",
+    "tags": [
+      "Ti-so-phan-tram"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_08",
+    "front": "Công thức tìm một số biết p% của nó bằng b là gì?",
+    "back": "Lấy b : (p / 100) = b × 100 : p.",
+    "tags": [
+      "Ti-so-phan-tram"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_09",
+    "front": "Phân số 3/4 đổi ra số thập phân và tỉ số phần trăm bằng bao nhiêu?",
+    "back": "3/4 = 0,75 = 75%.",
+    "tags": [
+      "Doi-phan-so"
+    ]
+  },
+  {
+    "id": "fc_t6_c7_10",
+    "front": "Phân số 1/5 đổi ra số thập phân và tỉ số phần trăm bằng bao nhiêu?",
+    "back": "1/5 = 0,2 = 20%.",
+    "tags": [
+      "Doi-phan-so"
+    ]
+  }
+]

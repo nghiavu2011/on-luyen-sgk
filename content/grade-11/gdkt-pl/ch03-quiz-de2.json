@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Để ứng phó với lạm phát giá cả thực phẩm tăng 15%, gia đình bạn Lan nên",
       "options": [
-        "Lập kế hoạch chi tiêu hợp lý, cắt giảm chi phí xa xỉ không thiết yếu và tránh lãng phí thức ăn",
         "Vay nặng lãi để mua sắm tích trữ",
+        "Lập kế hoạch chi tiêu hợp lý, cắt giảm chi phí xa xỉ không thiết yếu và tránh lãng phí thức ăn",
         "Bỏ bữa không ăn uống",
         "Đòi tăng tiền tiêu vặt gấp 5 lần"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Kỹ năng quản lý tài chính gia đình thích ứng linh hoạt với bão giá.",
       "breakdown": {
         "concept": "Thích ứng lạm phát",
         "steps": "Tiết kiệm, cắt giảm chi tiêu xa xỉ.",
         "socraticPrompt": "Gia đình nên làm gì khi vật giá leo thang?"
-      }
+      },
+      "socraticPrompt": "Gia đình nên làm gì khi vật giá leo thang?",
+      "distractorReasons": [
+        "Sai vì 'Vay nặng lãi để mua sắm tích trữ' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng lạm phát).",
+        "Đúng vì theo Thích ứng lạm phát: Tiết kiệm, cắt giảm chi tiêu xa xỉ.",
+        "Sai vì phủ định sai bản chất: 'Bỏ bữa không ăn uống' trái ngược với kiến thức SGK.",
+        "Sai vì 'Đòi tăng tiền tiêu vặt gấp 5 lần' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng lạm phát)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi một kỹ sư phần mềm chủ động xin nghỉ việc ở công ty cũ để tìm công ty mới có đãi ngộ tốt hơn trong 2 tuần, đây là dạng",
       "options": [
-        "Thất nghiệp tạm thời (ma sát)",
-        "Thất nghiệp chu kỳ",
         "Thất nghiệp bắt buộc",
+        "Thất nghiệp chu kỳ",
+        "Thất nghiệp tạm thời (ma sát)",
         "Mất khả năng lao động"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Thời gian chuyển dịch giữa các công việc trong thị trường lao động.",
       "breakdown": {
         "concept": "Thất nghiệp ma sát",
         "steps": "Nghỉ việc tạm thời tìm chỗ tốt hơn.",
         "socraticPrompt": "Tự nghỉ việc tìm chỗ mới là thất nghiệp gì?"
-      }
+      },
+      "socraticPrompt": "Tự nghỉ việc tìm chỗ mới là thất nghiệp gì?",
+      "distractorReasons": [
+        "Sai vì 'Thất nghiệp bắt buộc' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp ma sát).",
+        "Sai vì 'Thất nghiệp chu kỳ' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp ma sát).",
+        "Đúng vì theo Thất nghiệp ma sát: Nghỉ việc tạm thời tìm chỗ tốt hơn.",
+        "Sai vì 'Mất khả năng lao động' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp ma sát)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Giải pháp hiệu quả nhất để người lao động bị mất việc do nhà máy đóng cửa sớm tìm lại việc làm là",
       "options": [
-        "Tham gia các khóa đào tạo lại nghề ngắn hạn và đăng ký tại Trung tâm Dịch vụ việc làm",
+        "Tham gia cờ bạc online",
         "Ở nhà than vãn trách móc xã hội",
         "Chờ tiền trợ cấp vĩnh viễn",
-        "Tham gia cờ bạc online"
+        "Tham gia các khóa đào tạo lại nghề ngắn hạn và đăng ký tại Trung tâm Dịch vụ việc làm"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Học nghề mới đáp ứng nhu cầu thị trường để tái hòa nhập lực lượng lao động.",
       "breakdown": {
         "concept": "Tái đào tạo nghề",
         "steps": "Học nghề mới, kết nối việc làm.",
         "socraticPrompt": "Bị mất việc nhà máy thì nên làm gì?"
-      }
+      },
+      "socraticPrompt": "Bị mất việc nhà máy thì nên làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Tham gia cờ bạc online' không phù hợp với định lý/quy tắc trọng tâm (Tái đào tạo nghề).",
+        "Sai vì 'Ở nhà than vãn trách móc xã hội' không phù hợp với định lý/quy tắc trọng tâm (Tái đào tạo nghề).",
+        "Sai vì 'Chờ tiền trợ cấp vĩnh viễn' không phù hợp với định lý/quy tắc trọng tâm (Tái đào tạo nghề).",
+        "Đúng vì theo Tái đào tạo nghề: Học nghề mới, kết nối việc làm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Tung tin đồn ngân hàng",
         "steps": "Vi phạm hình sự, xử lý nghiêm.",
         "socraticPrompt": "Đồn nhảm ngân hàng phá sản bị phạt thế nào?"
-      }
+      },
+      "socraticPrompt": "Đồn nhảm ngân hàng phá sản bị phạt thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Tung tin đồn ngân hàng: Vi phạm hình sự, xử lý nghiêm.",
+        "Sai vì 'Khen thưởng vì cung cấp tin tức' không phù hợp với định lý/quy tắc trọng tâm (Tung tin đồn ngân hàng).",
+        "Sai vì 'Coi là quyền tự do bình thường' không phù hợp với định lý/quy tắc trọng tâm (Tung tin đồn ngân hàng).",
+        "Sai vì phủ định sai bản chất: 'Không ai quản lý' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Chính phủ tung gói hỗ trợ lãi suất vay vốn cho doanh nghiệp vừa và nhỏ vượt qua khó khăn nhằm mục tiêu",
       "options": [
-        "Phục hồi sản xuất kinh doanh và duy trì việc làm cho hàng triệu người lao động",
+        "Triệt tiêu doanh nghiệp",
         "Làm tăng lạm phát vô tổ chức",
         "Bao cấp vô điều kiện",
-        "Triệt tiêu doanh nghiệp"
+        "Phục hồi sản xuất kinh doanh và duy trì việc làm cho hàng triệu người lao động"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Chính sách tài khóa hỗ trợ nền kinh tế giữ vững công ăn việc làm.",
       "breakdown": {
         "concept": "Gói hỗ trợ doanh nghiệp",
         "steps": "Duy trì sản xuất, giữ việc làm.",
         "socraticPrompt": "Nhà nước hỗ trợ vốn cho công ty để làm gì?"
-      }
+      },
+      "socraticPrompt": "Nhà nước hỗ trợ vốn cho công ty để làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Triệt tiêu doanh nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Gói hỗ trợ doanh nghiệp).",
+        "Sai vì 'Làm tăng lạm phát vô tổ chức' không phù hợp với định lý/quy tắc trọng tâm (Gói hỗ trợ doanh nghiệp).",
+        "Sai vì 'Bao cấp vô điều kiện' không phù hợp với định lý/quy tắc trọng tâm (Gói hỗ trợ doanh nghiệp).",
+        "Đúng vì theo Gói hỗ trợ doanh nghiệp: Duy trì sản xuất, giữ việc làm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Trang bị kỹ năng tương lai",
         "steps": "Học ngoại ngữ, tin học, kỹ năng mềm.",
         "socraticPrompt": "Học sinh cần chuẩn bị gì để sau này dễ xin việc?"
-      }
+      },
+      "socraticPrompt": "Học sinh cần chuẩn bị gì để sau này dễ xin việc?",
+      "distractorReasons": [
+        "Đúng vì theo Trang bị kỹ năng tương lai: Học ngoại ngữ, tin học, kỹ năng mềm.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ học thuộc lòng máy móc', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không tham gia hoạt động xã hội' trái ngược với kiến thức SGK.",
+        "Sai vì 'Ỷ lại hoàn toàn vào gia đình' không phù hợp với định lý/quy tắc trọng tâm (Trang bị kỹ năng tương lai)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

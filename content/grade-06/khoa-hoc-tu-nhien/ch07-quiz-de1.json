@@ -21,7 +21,16 @@
         "socraticPrompt": "Sinh vật hiển vi nào chỉ gồm một tế bào có roi bơi di chuyển trong giọt nước?",
         "steps": "Trùng roi xanh là sinh vật đơn bào.",
         "trap": "Cây ngô, thỏ, giun đất là cơ thể đa bào gồm hàng triệu tế bào."
-      }
+      },
+      "socraticPrompt": "Sinh vật hiển vi nào chỉ gồm một tế bào có roi bơi di chuyển trong giọt nước?",
+      "distractorReasons": [
+        "Đúng vì: Trùng roi xanh là sinh vật đơn bào.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cây ngô' (Cây ngô, thỏ, giun đất là cơ thể đa bào gồm hàng triệu tế bào.).",
+        "Sai vì 'Con thỏ' không phù hợp với định lý/quy tắc trọng tâm (Trùng roi xanh có cơ thể chỉ cấu tạo từ một tế bào duy nhất thực hiện mọi chức năng sống.).",
+        "Sai vì 'Con giun đất' không phù hợp với định lý/quy tắc trọng tâm (Trùng roi xanh có cơ thể chỉ cấu tạo từ một tế bào duy nhất thực hiện mọi chức năng sống.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c7_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Nhóm các tế bào giống nhau về hình dạng và phối hợp cùng làm một nhiệm vụ gọi là gì?",
         "steps": "Mô là tập hợp tế bào cùng cấu tạo và chức năng.",
         "trap": "Tập hợp các cơ quan gọi là hệ cơ quan."
-      }
+      },
+      "socraticPrompt": "Nhóm các tế bào giống nhau về hình dạng và phối hợp cùng làm một nhiệm vụ gọi là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tập hợp các cơ quan khác nhau' (Tập hợp các cơ quan gọi là hệ cơ quan.).",
+        "Đúng vì: Mô là tập hợp tế bào cùng cấu tạo và chức năng.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Toàn bộ chất lỏng bên trong tế bào', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Một loại vi khuẩn sống kí sinh' không phù hợp với định lý/quy tắc trọng tâm (Mô là tập hợp các tế bào có cấu trúc và chức năng tương tự nhau (như mô cơ, mô biểu bì).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c7_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Bắt đầu từ đơn vị nhỏ nhất là tế bào, sau đó tạo thành mô, rồi đến gì?",
         "steps": "Tế bào -> Mô -> Cơ quan -> Hệ cơ quan -> Cơ thể.",
         "trap": "Nhớ đừng đảo ngược mô với cơ quan."
-      }
+      },
+      "socraticPrompt": "Bắt đầu từ đơn vị nhỏ nhất là tế bào, sau đó tạo thành mô, rồi đến gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cơ thể -> Hệ cơ quan -> Cơ quan -> Mô -> Tế bào' (Nhớ đừng đảo ngược mô với cơ quan.).",
+        "Sai vì 'Mô -> Tế bào -> Hệ cơ quan -> Cơ quan -> Cơ thể' không phù hợp với định lý/quy tắc trọng tâm (5 cấp độ từ nhỏ đến lớn: Tế bào ➔ Mô ➔ Cơ quan ➔ Hệ cơ quan ➔ Cơ thể.).",
+        "Đúng vì: Tế bào -> Mô -> Cơ quan -> Hệ cơ quan -> Cơ thể.",
+        "Sai vì 'Tế bào -> Cơ quan -> Mô -> Hệ cơ quan -> Cơ thể' không phù hợp với định lý/quy tắc trọng tâm (5 cấp độ từ nhỏ đến lớn: Tế bào ➔ Mô ➔ Cơ quan ➔ Hệ cơ quan ➔ Cơ thể.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c7_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Lá, thân, rễ làm nhiệm vụ nuôi dưỡng cơ thể cây được xếp vào nhóm cơ quan nào?",
         "steps": "Lá cây là cơ quan sinh dưỡng; hoa quả hạt là cơ quan sinh sản.",
         "trap": "Hoa và quả là cơ quan sinh sản, duy trì nòi giống."
-      }
+      },
+      "socraticPrompt": "Lá, thân, rễ làm nhiệm vụ nuôi dưỡng cơ thể cây được xếp vào nhóm cơ quan nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bông hoa' (Hoa và quả là cơ quan sinh sản, duy trì nòi giống.).",
+        "Sai vì 'Quả cam' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hạt đỗ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Lá cây là cơ quan sinh dưỡng; hoa quả hạt là cơ quan sinh sản."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c7_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Tim, phổi, dạ dày, não bộ được xếp ở cấp độ tổ chức nào?",
         "steps": "Dạ dày là một cơ quan thuộc hệ tiêu hoá.",
         "trap": "Hệ hô hấp là hệ cơ quan; tế bào là cấp độ nhỏ nhất."
-      }
+      },
+      "socraticPrompt": "Tim, phổi, dạ dày, não bộ được xếp ở cấp độ tổ chức nào?",
+      "distractorReasons": [
+        "Đúng vì: Dạ dày là một cơ quan thuộc hệ tiêu hoá.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào biểu bì niêm mạc' (Hệ hô hấp là hệ cơ quan; tế bào là cấp độ nhỏ nhất.).",
+        "Sai vì 'Mô liên kết' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Hệ hô hấp' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c7_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Tim co bóp đẩy máu chảy trong các mạch máu thuộc hệ nào?",
         "steps": "Hệ tuần hoàn thực hiện vận chuyển máu và các chất.",
         "trap": "Hệ hô hấp trao đổi khí ở phổi; hệ tuần hoàn mới là hệ thống vận chuyển máu đến từng tế bào."
-      }
+      },
+      "socraticPrompt": "Tim co bóp đẩy máu chảy trong các mạch máu thuộc hệ nào?",
+      "distractorReasons": [
+        "Sai vì 'Hệ thần kinh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hệ tuần hoàn thực hiện vận chuyển máu và các chất.",
+        "Sai vì 'Hệ tiêu hoá' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hệ vận động' (Hệ hô hấp trao đổi khí ở phổi; hệ tuần hoàn mới là hệ thống vận chuyển máu đến từng tế bào.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

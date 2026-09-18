@@ -20,97 +20,151 @@
         "concept": "Luật An ninh mạng",
         "steps": "Luật An ninh mạng 2018.",
         "socraticPrompt": "Luật nào quy định an ninh không gian mạng?"
-      }
+      },
+      "socraticPrompt": "Luật nào quy định an ninh không gian mạng?",
+      "distractorReasons": [
+        "Đúng vì theo Luật An ninh mạng: Luật An ninh mạng 2018.",
+        "Sai vì 'Luật Du lịch' không phù hợp với định lý/quy tắc trọng tâm (Luật An ninh mạng).",
+        "Sai vì 'Luật Khoáng sản' không phù hợp với định lý/quy tắc trọng tâm (Luật An ninh mạng).",
+        "Sai vì 'Luật Xây dựng' không phù hợp với định lý/quy tắc trọng tâm (Luật An ninh mạng)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Hành vi sử dụng phần mềm bẻ khóa (crack) không trả tiền bản quyền là vi phạm",
       "options": [
-        "Luật Sở hữu trí tuệ",
         "Luật Nghĩa vụ quân sự",
+        "Luật Sở hữu trí tuệ",
         "Luật Hôn nhân gia đình",
         "Luật Đất đai"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Xâm phạm quyền tác giả đối với chương trình máy tính.",
       "breakdown": {
         "concept": "Bản quyền phần mềm",
         "steps": "Vi phạm Luật Sở hữu trí tuệ.",
         "socraticPrompt": "Dùng phần mềm crack là vi phạm luật gì?"
-      }
+      },
+      "socraticPrompt": "Dùng phần mềm crack là vi phạm luật gì?",
+      "distractorReasons": [
+        "Sai vì 'Luật Nghĩa vụ quân sự' không phù hợp với định lý/quy tắc trọng tâm (Bản quyền phần mềm).",
+        "Đúng vì theo Bản quyền phần mềm: Vi phạm Luật Sở hữu trí tuệ.",
+        "Sai vì 'Luật Hôn nhân gia đình' không phù hợp với định lý/quy tắc trọng tâm (Bản quyền phần mềm).",
+        "Sai vì 'Luật Đất đai' không phù hợp với định lý/quy tắc trọng tâm (Bản quyền phần mềm)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Phương thức bảo mật yêu cầu người dùng nhập thêm mã OTP gửi về điện thoại sau khi gõ mật khẩu được gọi là",
       "options": [
-        "Xác thực 2 yếu tố (2FA)",
-        "Mã hóa một chiều",
         "Đăng nhập một lần (SSO)",
+        "Mã hóa một chiều",
+        "Xác thực 2 yếu tố (2FA)",
         "Tường lửa phần cứng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Khái niệm Two-Factor Authentication (2FA).",
       "breakdown": {
         "concept": "Xác thực 2 yếu tố 2FA",
         "steps": "Mật khẩu + Mã OTP điện thoại.",
         "socraticPrompt": "Bảo mật bằng mật khẩu và mã OTP gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Bảo mật bằng mật khẩu và mã OTP gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Đăng nhập một lần (SSO)' không phù hợp với định lý/quy tắc trọng tâm (Xác thực 2 yếu tố 2FA).",
+        "Sai vì 'Mã hóa một chiều' không phù hợp với định lý/quy tắc trọng tâm (Xác thực 2 yếu tố 2FA).",
+        "Đúng vì theo Xác thực 2 yếu tố 2FA: Mật khẩu + Mã OTP điện thoại.",
+        "Sai vì 'Tường lửa phần cứng' không phù hợp với định lý/quy tắc trọng tâm (Xác thực 2 yếu tố 2FA)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hình thức lừa đảo gửi email hoặc tin nhắn giả mạo ngân hàng nhằm đánh cắp mật khẩu tài khoản gọi là",
       "options": [
-        "Tấn công Phishing (Lừa đảo mạo danh)",
+        "Nhiễm virus Macro",
         "Tấn công từ chối dịch vụ (DDoS)",
         "Quét cổng mạng (Port Scanning)",
-        "Nhiễm virus Macro"
+        "Tấn công Phishing (Lừa đảo mạo danh)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Phishing là thủ đoạn lừa đảo giả mạo đường link phổ biến.",
       "breakdown": {
         "concept": "Tấn công Phishing",
         "steps": "Giả mạo ngân hàng đánh cắp thông tin.",
         "socraticPrompt": "Lừa đảo gửi link ngân hàng giả gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Lừa đảo gửi link ngân hàng giả gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Nhiễm virus Macro' không phù hợp với định lý/quy tắc trọng tâm (Tấn công Phishing).",
+        "Sai vì 'Tấn công từ chối dịch vụ (DDoS)' không phù hợp với định lý/quy tắc trọng tâm (Tấn công Phishing).",
+        "Sai vì 'Quét cổng mạng (Port Scanning)' không phù hợp với định lý/quy tắc trọng tâm (Tấn công Phishing).",
+        "Đúng vì theo Tấn công Phishing: Giả mạo ngân hàng đánh cắp thông tin."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Dữ liệu nào sau đây thuộc nhóm 'Dữ liệu cá nhân cơ bản' cần được bảo vệ cẩn mật?",
       "options": [
-        "Họ tên, ngày sinh, số CCCD, số điện thoại, tài khoản ngân hàng",
         "Tên thủ đô của các nước",
+        "Họ tên, ngày sinh, số CCCD, số điện thoại, tài khoản ngân hàng",
         "Bảng cửu chương toán học",
         "Màu sắc của lá cây"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Dữ liệu cá nhân gắn liền với danh tính công dân.",
       "breakdown": {
         "concept": "Dữ liệu cá nhân",
         "steps": "Số CCCD, số điện thoại, tài khoản ngân hàng.",
         "socraticPrompt": "Thông tin nào là dữ liệu cá nhân?"
-      }
+      },
+      "socraticPrompt": "Thông tin nào là dữ liệu cá nhân?",
+      "distractorReasons": [
+        "Sai vì 'Tên thủ đô của các nước' không phù hợp với định lý/quy tắc trọng tâm (Dữ liệu cá nhân).",
+        "Đúng vì theo Dữ liệu cá nhân: Số CCCD, số điện thoại, tài khoản ngân hàng.",
+        "Sai vì 'Bảng cửu chương toán học' không phù hợp với định lý/quy tắc trọng tâm (Dữ liệu cá nhân).",
+        "Sai vì 'Màu sắc của lá cây' không phù hợp với định lý/quy tắc trọng tâm (Dữ liệu cá nhân)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Hành vi sử dụng mạng xã hội để thóa mạ, lan truyền hình ảnh nhạy cảm bôi nhọ danh dự bạn học được gọi là",
       "options": [
-        "Bạo lực mạng (Cyberbullying)",
-        "Giao lưu văn hóa",
         "Trò chơi giải trí",
+        "Giao lưu văn hóa",
+        "Bạo lực mạng (Cyberbullying)",
         "Kỹ năng phản biện"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Bạo lực mạng gây tổn thương tâm lý nghiêm trọng cho nạn nhân.",
       "breakdown": {
         "concept": "Bạo lực mạng Cyberbullying",
         "steps": "Xúc phạm bôi nhọ người khác trên mạng.",
         "socraticPrompt": "Bắt nạt chửi bới bạn trên mạng gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Bắt nạt chửi bới bạn trên mạng gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Trò chơi giải trí' không phù hợp với định lý/quy tắc trọng tâm (Bạo lực mạng Cyberbullying).",
+        "Sai vì 'Giao lưu văn hóa' không phù hợp với định lý/quy tắc trọng tâm (Bạo lực mạng Cyberbullying).",
+        "Đúng vì theo Bạo lực mạng Cyberbullying: Xúc phạm bôi nhọ người khác trên mạng.",
+        "Sai vì 'Kỹ năng phản biện' không phù hợp với định lý/quy tắc trọng tâm (Bạo lực mạng Cyberbullying)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -4,178 +4,228 @@
   "lessons": [
     {
       "id": "l01",
-      "title": "Bài 18: Tam giác đều. Hình vuông. Hình lục giác đều",
+      "title": "Bài 18: Tam giác đều. Hình vuông. Lục giác đều",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Nhận biết được tam giác đều, hình vuông, hình lục giác đều qua các đặc điểm về cạnh, góc, đường chéo.",
-        "Mô tả được các yếu tố cơ bản và vẽ được tam giác đều, hình vuông bằng thước và compa.",
-        "Nhận biết được hình ảnh tam giác đều, hình vuông, lục giác đều trong thiên nhiên, đời sống và nghệ thuật."
+        "Mô tả được các yếu tố cơ bản (cạnh, góc, đường chéo) của tam giác đều, hình vuông, lục giác đều",
+        "Vẽ được tam giác đều, hình vuông bằng thước và compa"
       ],
       "concepts": [
         {
           "term": "Tam giác đều",
-          "definition": "Hình có 3 cạnh bằng nhau và 3 góc bằng nhau. Mỗi góc của tam giác đều có số đo bằng 60°.",
-          "notation": "Tam giác ABC đều: AB = BC = CA và góc A = góc B = góc C = 60°.",
-          "note": "Tam giác đều có 3 trục đối xứng."
+          "definition": "Hình có 3 cạnh bằng nhau và 3 góc bằng nhau, mỗi góc bằng 60°.",
+          "notation": "AB = BC = CA; A = B = C = 60°",
+          "note": "Có 3 trục đối xứng."
         },
         {
           "term": "Hình vuông",
-          "definition": "Tứ giác có 4 cạnh bằng nhau và 4 góc vuông. Hai đường chéo bằng nhau, vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường.",
-          "notation": "Hình vuông ABCD: AB = BC = CD = DA, góc A = B = C = D = 90°, AC = BD, AC ⊥ BD tại trung điểm O.",
-          "note": "Hình vuông vừa là hình chữ nhật đặc biệt, vừa là hình thoi đặc biệt."
+          "definition": "Hình có 4 cạnh bằng nhau và 4 góc vuông (90°). Hai đường chéo bằng nhau, vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường.",
+          "notation": "4 cạnh bằng nhau, 4 góc vuông",
+          "note": "Có 4 trục đối xứng và 1 tâm đối xứng."
         },
         {
-          "term": "Hình lục giác đều",
-          "definition": "Hình có 6 cạnh bằng nhau, 6 góc bằng nhau. Ba đường chéo chính bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
-          "notation": "Ghép từ 6 tam giác đều có chung đỉnh tâm O.",
-          "note": "Độ dài đường chéo chính gấp đôi độ dài cạnh của lục giác đều."
+          "term": "Lục giác đều",
+          "definition": "Hình có 6 cạnh bằng nhau, 6 góc bằng nhau, 3 đường chéo chính bằng nhau và cắt nhau tại một điểm.",
+          "notation": "Ghép bởi 6 tam giác đều bằng nhau",
+          "note": "Có 6 trục đối xứng và 1 tâm đối xứng."
         }
       ],
       "rules": [
         {
-          "statement": "Đặc điểm nhận dạng lục giác đều",
-          "meaning": "Lục giác đều có 6 cạnh bằng nhau, 6 đỉnh và 3 đường chéo chính bằng nhau cắt nhau tại tâm đối xứng."
+          "statement": "Tam giác đều: 3 cạnh bằng nhau, 3 góc bằng 60°",
+          "meaning": "Đặc trưng tam giác đều"
+        },
+        {
+          "statement": "Hình vuông: 4 cạnh bằng nhau, 4 góc vuông, 2 đường chéo vuông góc",
+          "meaning": "Đặc trưng hình vuông"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Cho hình lục giác đều ABCDEF có tâm O và cạnh bằng 4 cm. Tính độ dài đường chéo chính AD và chu vi lục giác đều?",
+          "prompt": "Cho lục giác đều ABCDEF có độ dài một cạnh bằng 5 cm. Tính chu vi của lục giác đều và độ dài đường chéo chính AD.",
           "steps": [
-            "Bước 1: Lục giác đều ABCDEF gồm 6 tam giác đều ghép lại tại tâm O, nên OA = OD = AB = 4 cm.",
-            "Bước 2: Đường chéo chính AD = OA + OD = 4 + 4 = 8 cm (gấp đôi cạnh).",
-            "Bước 3: Chu vi hình lục giác đều bằng tổng 6 cạnh: C = 6 × 4 = 24 cm."
+            "Bước 1: Lục giác đều có 6 cạnh bằng nhau nên chu vi C = 6 × 5 = 30 cm.",
+            "Bước 2: Lục giác đều ghép bởi 6 tam giác đều cạnh 5 cm chung đỉnh O (tâm).",
+            "Bước 3: Đường chéo chính AD = OA + OD = 5 + 5 = 10 cm."
           ],
-          "answer": "Đường chéo chính AD = 8 cm; Chu vi = 24 cm."
+          "answer": "Chu vi = 30 cm; Đường chéo chính AD = 10 cm"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Nhầm tưởng hình lục giác bất kỳ có 6 cạnh thì 3 đường chéo chính cũng bằng nhau.",
-          "why": "Chỉ có lục giác ĐỀU (6 cạnh bằng nhau và 6 góc bằng nhau) thì các đường chéo chính mới bằng nhau và cắt nhau tại trung điểm."
+          "mistake": "Nhầm góc của tam giác đều bằng 90°",
+          "why": "Tổng 3 góc trong tam giác là 180°, chia đều cho 3 góc là 60° mỗi góc."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 18: Tam giác đều. Hình vuông. Lục giác đều</strong>, bao gồm các khái niệm then chốt: Tam giác đều, Hình vuông, Lục giác đều. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Tam giác đều: 3 cạnh bằng nhau, 3 góc bằng 60°: Đặc trưng tam giác đều",
+        "Hình vuông: 4 cạnh bằng nhau, 4 góc vuông, 2 đường chéo vuông góc: Đặc trưng hình vuông"
+      ],
+      "examples": [
+        {
+          "problem": "Cho lục giác đều ABCDEF có độ dài một cạnh bằng 5 cm. Tính chu vi của lục giác đều và độ dài đường chéo chính AD.",
+          "solution": "Bước 1: Lục giác đều có 6 cạnh bằng nhau nên chu vi C = 6 × 5 = 30 cm. | Bước 2: Lục giác đều ghép bởi 6 tam giác đều cạnh 5 cm chung đỉnh O (tâm). | Bước 3: Đường chéo chính AD = OA + OD = 5 + 5 = 10 cm. => Đáp số: Chu vi = 30 cm; Đường chéo chính AD = 10 cm"
         }
       ]
     },
     {
       "id": "l02",
       "title": "Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Mô tả được các đặc điểm về cạnh, góc, đường chéo của hình chữ nhật, hình thoi, hình bình hành, hình thang cân.",
-        "Phân biệt được sự khác nhau và mối liên hệ giữa các hình tứ giác này.",
-        "Vẽ được hình chữ nhật, hình thoi, hình bình hành bằng các dụng cụ học tập."
+        "Mô tả được các đặc điểm về cạnh, góc, đường chéo của hình chữ nhật, hình thoi, hình bình hành, hình thang cân",
+        "Phân biệt các hình thông qua các tính chất đặc trưng"
       ],
       "concepts": [
         {
           "term": "Hình chữ nhật",
-          "definition": "Tứ giác có 4 góc vuông, các cạnh đối song song và bằng nhau, hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
-          "notation": "ABCD có 4 góc vuông: AB // CD, AD // BC, AB = CD, AD = BC, AC = BD.",
-          "note": "Hai đường chéo hình chữ nhật không nhất thiết phải vuông góc với nhau."
+          "definition": "Có 4 góc vuông; các cạnh đối song song và bằng nhau; hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+          "notation": "a: chiều dài, b: chiều rộng",
+          "note": "Có 2 trục đối xứng và 1 tâm đối xứng."
         },
         {
           "term": "Hình thoi",
-          "definition": "Tứ giác có 4 cạnh bằng nhau, các cạnh đối song song, các góc đối bằng nhau, hai đường chéo vuông góc với nhau tại trung điểm mỗi đường.",
-          "notation": "ABCD có AB = BC = CD = DA, AC ⊥ BD tại trung điểm O.",
-          "note": "Hai đường chéo hình thoi là các đường phân giác của các góc."
+          "definition": "Có 4 cạnh bằng nhau; các cạnh đối song song; các góc đối bằng nhau; hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường.",
+          "notation": "AB = BC = CD = DA; AC ⊥ BD",
+          "note": "Hai đường chéo của hình thoi là hai trục đối xứng của hình."
         },
         {
           "term": "Hình bình hành",
-          "definition": "Tứ giác có các cạnh đối song song và bằng nhau, các góc đối bằng nhau, hai đường chéo cắt nhau tại trung điểm mỗi đường.",
-          "notation": "AB // CD, AD // BC, AB = CD, AD = BC.",
-          "note": "Hình chữ nhật và hình thoi là các trường hợp đặc biệt của hình bình hành."
+          "definition": "Có các cạnh đối song song và bằng nhau; các góc đối bằng nhau; hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+          "notation": "AB // CD, AB = CD; AD // BC, AD = BC",
+          "note": "Không có trục đối xứng (trừ trường hợp đặc biệt), có 1 tâm đối xứng."
         },
         {
           "term": "Hình thang cân",
-          "definition": "Hình thang có hai cạnh đáy song song, hai cạnh bên bằng nhau, hai góc kề một đáy bằng nhau, hai đường chéo bằng nhau.",
-          "notation": "AB // CD (đáy), AD = BC (cạnh bên), AC = BD (đường chéo).",
-          "note": "Nếu hai cạnh bên song song thì hình thang cân trở thành hình chữ nhật."
+          "definition": "Hình thang có hai góc kề một đáy bằng nhau; hai cạnh bên bằng nhau; hai đường chéo bằng nhau.",
+          "notation": "AB // CD; AD = BC; AC = BD",
+          "note": "Có 1 trục đối xứng đi qua trung điểm hai đáy."
         }
       ],
       "rules": [
         {
-          "statement": "Đặc điểm đường chéo",
-          "meaning": "Hình chữ nhật: 2 đường chéo bằng nhau. Hình thoi: 2 đường chéo vuông góc. Hình vuông: vừa bằng nhau vừa vuông góc."
+          "statement": "Hình thoi: 4 cạnh bằng nhau, 2 đường chéo vuông góc",
+          "meaning": "Đặc trưng hình thoi"
+        },
+        {
+          "statement": "Hình chữ nhật: 4 góc vuông, 2 đường chéo bằng nhau",
+          "meaning": "Đặc trưng hình chữ nhật"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Cho hình thoi MNPQ có hai đường chéo MP = 10 cm và NQ = 24 cm cắt nhau tại O. Tính độ dài đoạn thẳng OM và ON?",
+          "prompt": "Cho hình thoi MNPQ có hai đường chéo MP = 8 cm và NQ = 6 cm cắt nhau tại O. Tính độ dài đoạn thẳng OM và ON.",
           "steps": [
-            "Bước 1: Trong hình thoi, hai đường chéo vuông góc và cắt nhau tại trung điểm của mỗi đường.",
-            "Bước 2: Do đó O là trung điểm của MP, suy ra OM = MP / 2 = 10 / 2 = 5 cm.",
-            "Bước 3: O là trung điểm của NQ, suy ra ON = NQ / 2 = 24 / 2 = 12 cm."
+            "Bước 1: Trong hình thoi, hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+            "Bước 2: O là trung điểm của MP nên OM = MP : 2 = 8 : 2 = 4 cm.",
+            "Bước 3: O là trung điểm của NQ nên ON = NQ : 2 = 6 : 2 = 3 cm."
           ],
-          "answer": "OM = 5 cm, ON = 12 cm."
+          "answer": "OM = 4 cm; ON = 3 cm"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Nghĩ rằng hình bình hành có hai đường chéo bằng nhau.",
-          "why": "Hình bình hành nói chung có 2 đường chéo khác nhau; khi 2 đường chéo bằng nhau thì nó trở thành hình chữ nhật."
+          "mistake": "Cho rằng hình bình hành có hai đường chéo bằng nhau",
+          "why": "Chỉ có hình chữ nhật và hình vuông mới có hai đường chéo bằng nhau. Hình bình hành nói chung hai đường chéo có độ dài khác nhau."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân</strong>, bao gồm các khái niệm then chốt: Hình chữ nhật, Hình thoi, Hình bình hành, Hình thang cân. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Hình thoi: 4 cạnh bằng nhau, 2 đường chéo vuông góc: Đặc trưng hình thoi",
+        "Hình chữ nhật: 4 góc vuông, 2 đường chéo bằng nhau: Đặc trưng hình chữ nhật"
+      ],
+      "examples": [
+        {
+          "problem": "Cho hình thoi MNPQ có hai đường chéo MP = 8 cm và NQ = 6 cm cắt nhau tại O. Tính độ dài đoạn thẳng OM và ON.",
+          "solution": "Bước 1: Trong hình thoi, hai đường chéo cắt nhau tại trung điểm của mỗi đường. | Bước 2: O là trung điểm của MP nên OM = MP : 2 = 8 : 2 = 4 cm. | Bước 3: O là trung điểm của NQ nên ON = NQ : 2 = 6 : 2 = 3 cm. => Đáp số: OM = 4 cm; ON = 3 cm"
         }
       ]
     },
     {
       "id": "l03",
-      "title": "Bài 20: Chu vi và diện tích của một số hình phẳng trong thực tiễn",
+      "title": "Bài 20: Chu vi và diện tích của một số tứ giác đã học",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Ghi nhớ và vận dụng thành thạo các công thức tính chu vi, diện tích của hình chữ nhật, hình vuông, hình bình hành, hình thoi, hình thang cân.",
-        "Giải quyết được các bài toán thực tiễn liên quan đến tính chi phí lát gạch, trồng cỏ, làm hàng rào.",
-        "Biết cách chia một hình phức tạp thành các hình quen thuộc để tính diện tích."
+        "Ghi nhớ và áp dụng chính xác công thức tính chu vi và diện tích hình vuông, hình chữ nhật, hình thang, hình bình hành, hình thoi",
+        "Giải quyết các bài toán tính toán diện tích trong thực tiễn (nền nhà, mảnh vườn, cánh đồng)"
       ],
       "concepts": [
         {
-          "term": "Chu vi và diện tích hình vuông",
-          "definition": "Chu vi C = 4a. Diện tích S = a² (với a là độ dài cạnh).",
-          "notation": "C = 4a; S = a²",
-          "note": "Cùng chu vi thì hình vuông có diện tích lớn hơn hình chữ nhật."
+          "term": "Chu vi và diện tích hình chữ nhật",
+          "definition": "Chu vi C = (a + b) × 2; Diện tích S = a × b (cùng đơn vị đo).",
+          "notation": "C = 2(a + b); S = a × b",
+          "note": "Bắt buộc đổi về cùng một đơn vị đo trước khi tính."
         },
         {
-          "term": "Chu vi và diện tích hình chữ nhật",
-          "definition": "Chu vi C = 2(a + b). Diện tích S = a · b (với a, b là chiều dài và chiều rộng).",
-          "notation": "C = 2(a + b); S = a · b",
-          "note": "Cần chú ý đổi về cùng đơn vị đo trước khi tính."
+          "term": "Chu vi và diện tích hình vuông",
+          "definition": "Chu vi C = 4 × a; Diện tích S = a × a = a^2.",
+          "notation": "C = 4a; S = a^2",
+          "note": "a là độ dài cạnh hình vuông."
         },
         {
           "term": "Diện tích hình bình hành",
-          "definition": "Diện tích bằng tích của cạnh đáy nhân với chiều cao tương ứng: S = a · h.",
-          "notation": "S = a · h (a là độ dài đáy, h là chiều cao)",
-          "note": "Chu vi C = 2(a + b) với a, b là độ dài hai cạnh kề."
+          "definition": "Diện tích bằng tích của một cạnh với chiều cao tương ứng: S = a × h.",
+          "notation": "S = a × h",
+          "note": "h là khoảng cách vuông góc giữa hai đáy."
         },
         {
           "term": "Diện tích hình thoi",
-          "definition": "Diện tích hình thoi bằng nửa tích độ dài hai đường chéo: S = ½ · d₁ · d₂.",
-          "notation": "S = (d₁ · d₂) / 2; Chu vi C = 4a",
-          "note": "Cũng có thể tính diện tích hình thoi như hình bình hành: S = a · h."
+          "definition": "Diện tích bằng nửa tích độ dài hai đường chéo: S = (m × n) / 2.",
+          "notation": "S = 1/2 × m × n",
+          "note": "m, n là độ dài hai đường chéo."
         },
         {
           "term": "Diện tích hình thang",
-          "definition": "Diện tích bằng nửa tích của tổng hai đáy nhân với chiều cao: S = ½ · (a + b) · h.",
-          "notation": "S = [(a + b) · h] / 2 (a, b là đáy lớn và đáy nhỏ, h là chiều cao)",
-          "note": "Đáy lớn đáy nhỏ ta đem cộng vào, nhân với chiều cao, chia đôi lấy nửa thế nào cũng ra."
+          "definition": "Diện tích bằng nửa tích của tổng hai đáy với chiều cao: S = (a + b) × h / 2.",
+          "notation": "S = (a + b) × h / 2",
+          "note": "Tổng hai đáy nhân chiều cao chia đôi."
         }
       ],
       "rules": [
         {
-          "statement": "Quy tắc đơn vị đo lường",
-          "meaning": "Khi tính diện tích và chu vi, bắt buộc tất cả các kích thước đo phải chuyển đổi về cùng một đơn vị đo (ví dụ cùng là mét hoặc cùng là centimét)."
+          "statement": "Hình thoi: S = 1/2 × m × n",
+          "meaning": "Nửa tích hai đường chéo"
+        },
+        {
+          "statement": "Hình thang: S = (a + b) × h / 2",
+          "meaning": "Tổng hai đáy nhân chiều cao chia 2"
+        },
+        {
+          "statement": "Hình bình hành: S = a × h",
+          "meaning": "Cạnh đáy nhân chiều cao"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Một bồn hoa hình thoi có độ dài hai đường chéo là 6 m và 4 m. Tính diện tích của bồn hoa đó?",
+          "prompt": "Một mảnh vườn hình thoi có độ dài hai đường chéo lần lượt là 12 m và 15 m. Tính diện tích mảnh vườn đó.",
           "steps": [
-            "Bước 1: Xác định công thức diện tích hình thoi: S = ½ · d₁ · d₂.",
-            "Bước 2: Thay số: d₁ = 6 m, d₂ = 4 m.",
-            "Bước 3: Tính toán: S = (6 × 4) / 2 = 24 / 2 = 12 m²."
+            "Bước 1: Xác định độ dài hai đường chéo: m = 12 m, n = 15 m.",
+            "Bước 2: Áp dụng công thức diện tích hình thoi: S = (m × n) : 2.",
+            "Bước 3: Thay số: S = (12 × 15) : 2 = 180 : 2 = 90 m^2."
           ],
-          "answer": "Diện tích bồn hoa hình thoi là 12 m²."
+          "answer": "90 m^2"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Tính diện tích hình thoi bằng cách nhân hai đường chéo mà quên chia 2: S = d₁ · d₂ = 24 m².",
-          "why": "Hình thoi chỉ chiếm một nửa diện tích của hình chữ nhật ngoại tiếp nó, nên bắt buộc phải chia 2: S = (d₁ · d₂) / 2."
+          "mistake": "Tính diện tích hình thoi bằng tích hai đường chéo mà quên chia 2",
+          "why": "Diện tích hình thoi là MỘT NỬA tích hai đường chéo, phải chia cho 2."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 20: Chu vi và diện tích của một số tứ giác đã học</strong>, bao gồm các khái niệm then chốt: Chu vi và diện tích hình chữ nhật, Chu vi và diện tích hình vuông, Diện tích hình bình hành, Diện tích hình thoi, Diện tích hình thang. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Hình thoi: S = 1/2 × m × n: Nửa tích hai đường chéo",
+        "Hình thang: S = (a + b) × h / 2: Tổng hai đáy nhân chiều cao chia 2",
+        "Hình bình hành: S = a × h: Cạnh đáy nhân chiều cao"
+      ],
+      "examples": [
+        {
+          "problem": "Một mảnh vườn hình thoi có độ dài hai đường chéo lần lượt là 12 m và 15 m. Tính diện tích mảnh vườn đó.",
+          "solution": "Bước 1: Xác định độ dài hai đường chéo: m = 12 m, n = 15 m. | Bước 2: Áp dụng công thức diện tích hình thoi: S = (m × n) : 2. | Bước 3: Thay số: S = (12 × 15) : 2 = 180 : 2 = 90 m^2. => Đáp số: 90 m^2"
         }
       ]
     }

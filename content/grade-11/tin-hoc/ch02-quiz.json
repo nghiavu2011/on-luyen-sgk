@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Trong thế giới 'Bùng nổ thông tin và Nhiễu loạn dữ liệu' (Infodemic), năng lực cốt lõi nhất của công dân số là",
       "options": [
-        "Tư duy phản biện (Critical Thinking), năng lực kiểm chứng nguồn tin và phân tích dữ liệu",
-        "Khả năng đọc nhanh mà không suy nghĩ",
         "Tin vào tất cả những gì thuật toán gợi ý",
+        "Khả năng đọc nhanh mà không suy nghĩ",
+        "Tư duy phản biện (Critical Thinking), năng lực kiểm chứng nguồn tin và phân tích dữ liệu",
         "Không sử dụng mạng Internet"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Tư duy phản biện là bộ lọc thông minh bảo vệ tâm trí con người trước ma trận thông tin số.",
       "breakdown": {
         "concept": "Năng lực công dân số",
         "steps": "Tư duy phản biện và kiểm chứng nguồn tin.",
         "socraticPrompt": "Kỹ năng quan trọng nhất trong thời đại bão thông tin là gì?"
-      }
+      },
+      "socraticPrompt": "Kỹ năng quan trọng nhất trong thời đại bão thông tin là gì?",
+      "distractorReasons": [
+        "Sai vì 'Tin vào tất cả những gì thuật toán gợi ý' không phù hợp với định lý/quy tắc trọng tâm (Năng lực công dân số).",
+        "Sai vì phủ định sai bản chất: 'Khả năng đọc nhanh mà không suy nghĩ' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Năng lực công dân số: Tư duy phản biện và kiểm chứng nguồn tin.",
+        "Sai vì phủ định sai bản chất: 'Không sử dụng mạng Internet' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Thuật toán 'Bong bóng lọc' (Filter Bubble) và 'Buồng phản hồi thông tin' (Echo Chamber) trên mạng xã hội gây ra nguy cơ",
       "options": [
-        "Khiến người dùng chỉ tiếp xúc với thông tin cùng quan điểm, gây định kiến thiên lệch và cực đoan",
+        "Không có ảnh hưởng gì",
         "Làm cho máy tính bị hỏng màn hình",
         "Giúp con người có cái nhìn toàn diện khách quan",
-        "Không có ảnh hưởng gì"
+        "Khiến người dùng chỉ tiếp xúc với thông tin cùng quan điểm, gây định kiến thiên lệch và cực đoan"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Thuật toán giữ chân người dùng vô tình tạo ra sự chia rẽ và thiên kiến nhận thức.",
       "breakdown": {
         "concept": "Tác hại Filter Bubble",
         "steps": "Tạo thiên kiến nhận thức và cô lập quan điểm.",
         "socraticPrompt": "Thuật toán mạng xã hội tạo ra buồng thông tin gây hại gì?"
-      }
+      },
+      "socraticPrompt": "Thuật toán mạng xã hội tạo ra buồng thông tin gây hại gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có ảnh hưởng gì' trái ngược với kiến thức SGK.",
+        "Sai vì 'Làm cho máy tính bị hỏng màn hình' không phù hợp với định lý/quy tắc trọng tâm (Tác hại Filter Bubble).",
+        "Sai vì 'Giúp con người có cái nhìn toàn diện khách quan' không phù hợp với định lý/quy tắc trọng tâm (Tác hại Filter Bubble).",
+        "Đúng vì theo Tác hại Filter Bubble: Tạo thiên kiến nhận thức và cô lập quan điểm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Cơ sở dữ liệu quốc gia về dân cư",
         "steps": "Quản trị số quốc gia, phục vụ nhân dân.",
         "socraticPrompt": "Đề án 06 về dữ liệu dân cư mang lại lợi ích gì?"
-      }
+      },
+      "socraticPrompt": "Đề án 06 về dữ liệu dân cư mang lại lợi ích gì?",
+      "distractorReasons": [
+        "Đúng vì theo Cơ sở dữ liệu quốc gia về dân cư: Quản trị số quốc gia, phục vụ nhân dân.",
+        "Sai vì 'Làm lộ bí mật của người dân' không phù hợp với định lý/quy tắc trọng tâm (Cơ sở dữ liệu quốc gia về dân cư).",
+        "Sai vì 'Tăng thêm giấy tờ thủ công' không phù hợp với định lý/quy tắc trọng tâm (Cơ sở dữ liệu quốc gia về dân cư).",
+        "Sai vì phủ định sai bản chất: 'Không mang lại hiệu quả' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Nguyên tắc 'Liêm chính học thuật' (Academic Integrity) khi tìm kiếm và sử dụng tài liệu nghiên cứu trên mạng là",
       "options": [
-        "Tôn trọng bản quyền tác giả, trích dẫn rõ nguồn gốc và không sao chép văn bản (Plagiarism)",
         "Sao chép nguyên văn và ghi tên mình",
+        "Tôn trọng bản quyền tác giả, trích dẫn rõ nguồn gốc và không sao chép văn bản (Plagiarism)",
         "Sử dụng AI viết hộ toàn bộ không chỉnh sửa",
         "Mua bán luận văn trên mạng"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Đạo đức nghiên cứu khoa học và nhân cách của người học.",
       "breakdown": {
         "concept": "Liêm chính học thuật",
         "steps": "Trích dẫn nguồn gốc rõ ràng, không đạo văn.",
         "socraticPrompt": "Liêm chính học thuật trong nghiên cứu đòi hỏi điều gì?"
-      }
+      },
+      "socraticPrompt": "Liêm chính học thuật trong nghiên cứu đòi hỏi điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Sao chép nguyên văn và ghi tên mình' không phù hợp với định lý/quy tắc trọng tâm (Liêm chính học thuật).",
+        "Đúng vì theo Liêm chính học thuật: Trích dẫn nguồn gốc rõ ràng, không đạo văn.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Sử dụng AI viết hộ toàn bộ không chỉnh sửa', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Mua bán luận văn trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Liêm chính học thuật)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Vệ sinh tinh thần số",
         "steps": "Lọc thông tin tích cực, cân bằng đời sống thực.",
         "socraticPrompt": "Làm sao để không bị kiệt quệ tinh thần vì mạng xã hội?"
-      }
+      },
+      "socraticPrompt": "Làm sao để không bị kiệt quệ tinh thần vì mạng xã hội?",
+      "distractorReasons": [
+        "Đúng vì theo Vệ sinh tinh thần số: Lọc thông tin tích cực, cân bằng đời sống thực.",
+        "Sai vì 'Dành 24/24 giờ dán mắt vào màn hình' không phù hợp với định lý/quy tắc trọng tâm (Vệ sinh tinh thần số).",
+        "Sai vì 'Đọc mọi tin rác giật gân để giải trí' không phù hợp với định lý/quy tắc trọng tâm (Vệ sinh tinh thần số).",
+        "Sai vì 'Cách ly hoàn toàn khỏi xã hội' không phù hợp với định lý/quy tắc trọng tâm (Vệ sinh tinh thần số)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh hôm nay chuẩn bị trở thành những 'Nhà phân tích dữ liệu tương lai' thông qua việc",
       "options": [
-        "Rèn luyện tư duy logic, học cách tổ chức cơ sở dữ liệu và vận dụng toán học vào xử lý dữ liệu",
+        "Không tìm hiểu công nghệ",
         "Học thuộc lòng thụ động",
         "Tránh xa các môn khoa học tự nhiên",
-        "Không tìm hiểu công nghệ"
+        "Rèn luyện tư duy logic, học cách tổ chức cơ sở dữ liệu và vận dụng toán học vào xử lý dữ liệu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Dữ liệu là dầu mỏ mới của thế kỷ 21, làm chủ dữ liệu là làm chủ tương lai.",
       "breakdown": {
         "concept": "Tư duy phân tích dữ liệu",
         "steps": "Tư duy logic, quản trị dữ liệu và thuật toán.",
         "socraticPrompt": "Học sinh cần rèn luyện gì để làm chủ dữ liệu số?"
-      }
+      },
+      "socraticPrompt": "Học sinh cần rèn luyện gì để làm chủ dữ liệu số?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không tìm hiểu công nghệ' trái ngược với kiến thức SGK.",
+        "Sai vì 'Học thuộc lòng thụ động' không phù hợp với định lý/quy tắc trọng tâm (Tư duy phân tích dữ liệu).",
+        "Sai vì 'Tránh xa các môn khoa học tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Tư duy phân tích dữ liệu).",
+        "Đúng vì theo Tư duy phân tích dữ liệu: Tư duy logic, quản trị dữ liệu và thuật toán."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

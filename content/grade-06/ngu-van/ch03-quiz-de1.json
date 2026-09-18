@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được trình tự các mộng tưởng của cô bé bán diêm.?",
+      "distractorReasons": [
+        "Đúng vì theo Trình tự các mộng tưởng của cô bé bán diêm.: Mỗi que diêm đáp ứng ước mơ cấp bách: được ấm -> được ăn -> được đón giao thừa -> được yêu thương.",
+        "Sai vì 'Một ngôi nhà bằng vàng -> Đôi cánh thiên thần -> Chiếc xe kéo' không phù hợp với định lý/quy tắc trọng tâm (Trình tự các mộng tưởng của cô bé bán diêm.).",
+        "Sai vì 'Quần áo ấm -> Đồ chơi điện tử -> Bánh ngọt sinh nhật' không phù hợp với định lý/quy tắc trọng tâm (Trình tự các mộng tưởng của cô bé bán diêm.).",
+        "Sai vì 'Một lớp học mới -> Người mẹ kính yêu -> Các bạn cùng lớp' không phù hợp với định lý/quy tắc trọng tâm (Trình tự các mộng tưởng của cô bé bán diêm.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết hoàn cảnh nhân vật cái hiên.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đang nô đùa chạy nhảy vui vẻ với chiếc áo len mới' (Hiên rất nghèo, không có áo mới như các bạn khác.).",
+        "Đúng vì theo Chi tiết hoàn cảnh nhân vật cái Hiên.: Con gái bác mò cua nghèo khổ không có áo ấm giữa cơn gió lạnh đầu mùa.",
+        "Sai vì 'Được mẹ dắt đi mua sắm quần áo tết ở chợ huyện' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết hoàn cảnh nhân vật cái Hiên.).",
+        "Sai vì 'Ngồi ấm áp bên bếp lửa hồng' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết hoàn cảnh nhân vật cái Hiên.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa cái chết bi tráng của cô bé bán diêm.?",
+      "distractorReasons": [
+        "Sai vì 'Mọi người dân trong thành phố rất vui mừng khi thấy em' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa cái chết bi tráng của cô bé bán diêm.).",
+        "Sai vì 'Em bé đang giả vờ ngủ để trêu chọc mọi người' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa cái chết bi tráng của cô bé bán diêm.).",
+        "Đúng vì theo Ý nghĩa cái chết bi tráng của cô bé bán diêm.: Nụ cười thể hiện cái chết thanh thản trong thế giới mộng tưởng, đối lập với sự thờ ơ lạnh lùng của người qua đường.",
+        "Sai vì phủ định sai bản chất: 'Em bé không hề cảm thấy lạnh giá' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tâm lý hồn nhiên của trẻ thơ trong truyện thạch lam.?",
+      "distractorReasons": [
+        "Sai vì 'Sợ bác Hiên mang áo đi bán lấy tiền' không phù hợp với định lý/quy tắc trọng tâm (Tâm lý hồn nhiên của trẻ thơ trong truyện Thạch Lam.).",
+        "Sai vì 'Sợ cái Hiên sẽ làm rách chiếc áo bông' không phù hợp với định lý/quy tắc trọng tâm (Tâm lý hồn nhiên của trẻ thơ trong truyện Thạch Lam.).",
+        "Sai vì 'Sợ bị các bạn trong xóm cười chê' không phù hợp với định lý/quy tắc trọng tâm (Tâm lý hồn nhiên của trẻ thơ trong truyện Thạch Lam.).",
+        "Đúng vì theo Tâm lý hồn nhiên của trẻ thơ trong truyện Thạch Lam.: Hành động cho áo xuất phát từ tấm lòng tốt bột phát, sau đó trẻ con sợ bị người lớn mắng phạt."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa nhân văn của bài thơ 'con chào mào'.?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa nhân văn của bài thơ 'Con chào mào'.: Yêu thiên nhiên không phải là giam cầm chim vào lồng mà là mở rộng lòng mình để hòa nhập với tiếng hót tự do.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì con chim không chịu hót và quá hung dữ' (Không giải thích theo hướng kinh tế hay nuôi chim thông thường.).",
+        "Sai vì phủ định sai bản chất: 'Vì tác giả không đủ tiền mua hạt cho chim ăn' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vì con chim bị ốm' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa nhân văn của bài thơ 'Con chào mào'.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học về lòng nhân ái và văn hóa thiện nguyện.?",
+      "distractorReasons": [
+        "Sai vì 'Muốn khoe khoang sự giàu có của gia đình mình trước làng xóm' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Bài học về lòng nhân ái và văn hóa thiện nguyện.).",
+        "Đúng vì: Mẹ Sơn cho vay tiền kín đáo, vừa giúp được em bé có áo ấm vừa giữ thể diện cho bác mò cua nghèo.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Muốn bắt gia đình bác Hiên phải làm người hầu nợ nần' (Ban phát kèm thái độ khinh miệt sẽ làm tổn thương sâu sắc người yếu thế.).",
+        "Sai vì 'Muốn được ghi nhận thành tích từ thiện' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Bài học về lòng nhân ái và văn hóa thiện nguyện.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

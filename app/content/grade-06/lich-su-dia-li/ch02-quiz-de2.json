@@ -23,12 +23,15 @@
         "steps": "Hộp sọ lớn, trán nhô cao, loại bỏ dần các dấu tích vượn trên mặt và cơ thể.",
         "trap": "Nhầm lẫn Người tối cổ đã hoàn thiện cơ thể giống người hiện đại."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo bảng đối chiếu SGK trang 18.",
-        "B": "Sai, Người tinh khôn đã rụng lớp lông dày của vượn cổ.",
-        "C": "Sai, Người tinh khôn đi hoàn toàn bằng 2 chân.",
-        "D": "Sai, xương hàm nhô ra trước là đặc điểm vượn của Người tối cổ."
-      }
+      "distractorReasons": [
+        "Đúng vì bảng đối chiếu SGK trang 18.",
+        "Sai vì Người tinh khôn đã rụng lớp lông dày của vượn cổ.",
+        "Sai vì Người tinh khôn đi hoàn toàn bằng 2 chân.",
+        "Sai vì xương hàm nhô ra trước là đặc điểm vượn của Người tối cổ."
+      ],
+      "socraticPrompt": "Thể tích não của người hiện đại so với tổ tiên tối cổ lớn hơn hay nhỏ hơn?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch02_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Trồng trọt và thuần dưỡng thú hoang biến con người từ nô lệ của thiên nhiên thành chủ thể sản xuất.",
         "trap": "Nhầm bè mảng hay đào hang là chuyển biến kinh tế cơ bản."
       },
-      "distractorReasons": {
-        "A": "Sai, tìm thức ăn có sẵn vẫn là kinh tế chiếm đoạt (hái lượm).",
-        "B": "Đáp án đúng theo SGK trang 22.",
-        "C": "Sai, bè mảng chỉ là phương tiện di chuyển.",
-        "D": "Sai, đào hang chỉ là biện pháp cư trú."
-      }
+      "distractorReasons": [
+        "Sai vì tìm thức ăn có sẵn vẫn là kinh tế chiếm đoạt (hái lượm).",
+        "Đúng vì SGK trang 22.",
+        "Sai vì bè mảng chỉ là phương tiện di chuyển.",
+        "Sai vì đào hang chỉ là biện pháp cư trú."
+      ],
+      "socraticPrompt": "Hành động nào giúp con người không lo bị đói khi thú rừng cạn kiệt?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch02_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Khi sản phẩm dư thừa bị chiếm đoạt thành tài sản riêng, sự bình đẳng tan vỡ.",
         "trap": "Đổ lỗi cho thiên tai hoặc chiến tranh là nguyên nhân chính."
       },
-      "distractorReasons": {
-        "A": "Sai, năng suất lao động thực tế tăng vọt nhờ công cụ kim khí.",
-        "B": "Sai, chiến tranh là hệ quả của tranh đoạt tài sản, không phải nguyên nhân sâu xa ban đầu.",
-        "C": "Đáp án đúng theo chuỗi quy luật lịch sử SGK trang 25.",
-        "D": "Sai, xã hội luôn tiến lên phía trước chứ không thụt lùi."
-      }
+      "distractorReasons": [
+        "Sai vì năng suất lao động thực tế tăng vọt nhờ công cụ kim khí.",
+        "Sai vì chiến tranh là hệ quả của tranh đoạt tài sản, không phải nguyên nhân sâu xa ban đầu.",
+        "Đúng vì chuỗi quy luật lịch sử SGK trang 25.",
+        "Sai vì xã hội luôn tiến lên phía trước chứ không thụt lùi."
+      ],
+      "socraticPrompt": "Khi ai cũng có phần như nhau thì có giàu nghèo không? Khi nào mới xuất hiện kẻ giàu người nghèo?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch02_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Phùng Nguyên (sơ kì đồng thau) -> Đồng Đậu (trung kì) -> Gò Mun (hậu kì) -> Đông Sơn (đỉnh cao thời đại đồ đồng và sơ kì đồ sắt).",
         "trap": "Nhầm văn hóa Đông Sơn (Đông Sơn là giai đoạn phát triển đỉnh cao, không phải mở đầu)."
       },
-      "distractorReasons": {
-        "A": "Sai, Đông Sơn là giai đoạn đỉnh cao của thời đại kim khí.",
-        "B": "Sai, Sa Huỳnh phát triển ở khu vực miền Trung.",
-        "C": "Sai, Hòa Bình thuộc thời đại đồ đá mới.",
-        "D": "Đáp án đúng theo sơ đồ tiến trình lịch sử Việt Nam SGK trang 26."
-      }
+      "distractorReasons": [
+        "Sai vì Đông Sơn là giai đoạn đỉnh cao của thời đại kim khí.",
+        "Sai vì Sa Huỳnh phát triển ở khu vực miền Trung.",
+        "Sai vì Hòa Bình thuộc thời đại đồ đá mới.",
+        "Đúng vì sơ đồ tiến trình lịch sử Việt Nam SGK trang 26."
+      ],
+      "socraticPrompt": "Trình tự: Phùng Nguyên -> Đồng Đậu -> Gò Mun -> Đông Sơn. Nền văn hóa nào đứng đầu chuỗi?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch02_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Quy mô: Bầy người -> Thị tộc -> Bộ lạc.",
         "trap": "Nghĩ rằng thị tộc lớn hơn bộ lạc."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo định nghĩa tổ chức xã hội SGK trang 21.",
-        "B": "Sai, bộ lạc mới là tổ chức lớn bao hàm nhiều thị tộc.",
-        "C": "Sai, quy mô và cơ cấu quản lí của thị tộc và bộ lạc rất khác nhau.",
-        "D": "Sai, các thị tộc trong cùng một bộ lạc có chung phong tục tập quán và ngôn ngữ."
-      }
+      "distractorReasons": [
+        "Đúng vì ịnh nghĩa tổ chức xã hội SGK trang 21.",
+        "Sai vì bộ lạc mới là tổ chức lớn bao hàm nhiều thị tộc.",
+        "Sai vì quy mô và cơ cấu quản lí của thị tộc và bộ lạc rất khác nhau.",
+        "Sai vì các thị tộc trong cùng một bộ lạc có chung phong tục tập quán và ngôn ngữ."
+      ],
+      "socraticPrompt": "Nhiều thị tộc kết hợp lại với nhau tạo thành tổ chức gì?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch02_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Vai trò kinh tế quyết định vị thế xã hội: đàn ông đóng vai trò chủ lực -> hình thành gia đình phụ hệ.",
         "trap": "Nghĩ rằng nhà nước ban hành luật, trong khi thời kì này nhà nước chưa hề ra đời."
       },
-      "distractorReasons": {
-        "A": "Sai, người đàn ông làm các công việc nặng nhọc nhất.",
-        "B": "Đáp án đúng theo phân tích lịch sử SGK trang 25.",
-        "C": "Sai, phụ nữ vẫn lao động dệt vải, làm gốm và chăm sóc gia đình.",
-        "D": "Sai, đây là thời kì tiền nhà nước, chưa có luật pháp thành văn."
-      }
+      "distractorReasons": [
+        "Sai vì người đàn ông làm các công việc nặng nhọc nhất.",
+        "Đúng vì ân tích lịch sử SGK trang 25.",
+        "Sai vì phụ nữ vẫn lao động dệt vải, làm gốm và chăm sóc gia đình.",
+        "Sai vì đây là thời kì tiền nhà nước, chưa có luật pháp thành văn."
+      ],
+      "socraticPrompt": "Nghề rèn sắt, đúc đồng và cày ruộng bằng trâu bò cần sức vóc của ai?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

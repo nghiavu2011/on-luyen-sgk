@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Vai trò của Cộng đồng ASEAN hiện nay đối với việc duy trì hòa bình và an ninh ở Biển Đông là",
       "options": [
-        "Giữ vai trò trung tâm, thúc đẩy thực hiện DOC và sớm hoàn tất Bộ quy tắc ứng xử COC hiệu lực, hiệu quả",
-        "Đứng ngoài không can dự",
         "Ủng hộ các hành vi đơn phương dùng vũ lực",
+        "Đứng ngoài không can dự",
+        "Giữ vai trò trung tâm, thúc đẩy thực hiện DOC và sớm hoàn tất Bộ quy tắc ứng xử COC hiệu lực, hiệu quả",
         "Kêu gọi can thiệp quân sự nước ngoài"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "ASEAN đóng vai trò trung tâm duy trì trật tự dựa trên luật pháp quốc tế (UNCLOS 1982).",
       "breakdown": {
         "concept": "Vai trò ASEAN ở Biển Đông",
         "steps": "Thúc đẩy DOC và xây dựng COC.",
         "socraticPrompt": "ASEAN làm gì để bảo vệ hòa bình Biển Đông?"
-      }
+      },
+      "socraticPrompt": "ASEAN làm gì để bảo vệ hòa bình Biển Đông?",
+      "distractorReasons": [
+        "Sai vì 'Ủng hộ các hành vi đơn phương dùng vũ lực' không phù hợp với định lý/quy tắc trọng tâm (Vai trò ASEAN ở Biển Đông).",
+        "Sai vì phủ định sai bản chất: 'Đứng ngoài không can dự' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Vai trò ASEAN ở Biển Đông: Thúc đẩy DOC và xây dựng COC.",
+        "Sai vì 'Kêu gọi can thiệp quân sự nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Vai trò ASEAN ở Biển Đông)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Sự chuyển biến từ 'Đông Nam Á thuộc địa' sang 'Cộng đồng ASEAN đoàn kết, tự cường' khẳng định",
       "options": [
-        "Khát vọng hòa bình, tự chủ và sức vươn lên mạnh mẽ của các dân tộc Đông Nam Á",
+        "Sự thất bại của quá trình liên kết khu vực",
         "Sự phụ thuộc ngày càng lớn vào bên ngoài",
         "Sự phân rã của các quốc gia trong khu vực",
-        "Sự thất bại của quá trình liên kết khu vực"
+        "Khát vọng hòa bình, tự chủ và sức vươn lên mạnh mẽ của các dân tộc Đông Nam Á"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Từ đối đầu chuyển sang đối thoại và hợp tác toàn diện.",
       "breakdown": {
         "concept": "Biến chuyển lịch sử ĐNA",
         "steps": "Đoàn kết, tự cường và phát triển thịnh vượng.",
         "socraticPrompt": "Ý nghĩa lịch sử của tiến trình hình thành ASEAN là gì?"
-      }
+      },
+      "socraticPrompt": "Ý nghĩa lịch sử của tiến trình hình thành ASEAN là gì?",
+      "distractorReasons": [
+        "Sai vì 'Sự thất bại của quá trình liên kết khu vực' không phù hợp với định lý/quy tắc trọng tâm (Biến chuyển lịch sử ĐNA).",
+        "Sai vì 'Sự phụ thuộc ngày càng lớn vào bên ngoài' không phù hợp với định lý/quy tắc trọng tâm (Biến chuyển lịch sử ĐNA).",
+        "Sai vì 'Sự phân rã của các quốc gia trong khu vực' không phù hợp với định lý/quy tắc trọng tâm (Biến chuyển lịch sử ĐNA).",
+        "Đúng vì theo Biến chuyển lịch sử ĐNA: Đoàn kết, tự cường và phát triển thịnh vượng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Đóng góp của Việt Nam",
         "steps": "Xây dựng Cộng đồng ASEAN vững mạnh.",
         "socraticPrompt": "Việt Nam đóng vai trò gì trong ngôi nhà chung ASEAN?"
-      }
+      },
+      "socraticPrompt": "Việt Nam đóng vai trò gì trong ngôi nhà chung ASEAN?",
+      "distractorReasons": [
+        "Đúng vì theo Đóng góp của Việt Nam: Xây dựng Cộng đồng ASEAN vững mạnh.",
+        "Sai vì 'Ngăn cản các sáng kiến kinh tế chung' không phù hợp với định lý/quy tắc trọng tâm (Đóng góp của Việt Nam).",
+        "Sai vì 'Đơn phương quyết định chính sách của cả khối' không phù hợp với định lý/quy tắc trọng tâm (Đóng góp của Việt Nam).",
+        "Sai vì 'Từ chối tham gia các diễn đàn an ninh khu vực' không phù hợp với định lý/quy tắc trọng tâm (Đóng góp của Việt Nam)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Mối quan hệ giữa Việt Nam và các nước láng giềng Đông Dương (Lào, Campuchia) có ý nghĩa sống còn vì",
       "options": [
-        "Lịch sử kề vai sát cánh chống kẻ thù chung và không gian an ninh - phát triển gắn bó mật thiết",
         "Chỉ có quan hệ kinh tế đơn thuần",
+        "Lịch sử kề vai sát cánh chống kẻ thù chung và không gian an ninh - phát triển gắn bó mật thiết",
         "Không có liên hệ về địa lý",
         "Cạnh tranh thuộc địa lẫn nhau"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Tình đoàn kết hữu nghị đặc biệt Việt Nam - Lào - Campuchia là tài sản vô giá.",
       "breakdown": {
         "concept": "Đoàn kết Đông Dương",
         "steps": "Gắn bó keo sơn, kề vai sát cánh.",
         "socraticPrompt": "Tại sao tình đoàn kết 3 nước Đông Dương lại đặc biệt quan trọng?"
-      }
+      },
+      "socraticPrompt": "Tại sao tình đoàn kết 3 nước Đông Dương lại đặc biệt quan trọng?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ có quan hệ kinh tế đơn thuần', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Đoàn kết Đông Dương: Gắn bó keo sơn, kề vai sát cánh.",
+        "Sai vì phủ định sai bản chất: 'Không có liên hệ về địa lý' trái ngược với kiến thức SGK.",
+        "Sai vì 'Cạnh tranh thuộc địa lẫn nhau' không phù hợp với định lý/quy tắc trọng tâm (Đoàn kết Đông Dương)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Thách thức tương lai ASEAN",
         "steps": "Chuyển đổi số và ứng phó biến đổi khí hậu.",
         "socraticPrompt": "Vấn đề cấp bách của ASEAN hiện nay là gì?"
-      }
+      },
+      "socraticPrompt": "Vấn đề cấp bách của ASEAN hiện nay là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Thách thức tương lai ASEAN: Chuyển đổi số và ứng phó biến đổi khí hậu.",
+        "Sai vì 'Quay lại mô hình kinh tế nông nghiệp thô sơ' không phù hợp với định lý/quy tắc trọng tâm (Thách thức tương lai ASEAN).",
+        "Sai vì 'Tách rời khỏi thương mại toàn cầu' không phù hợp với định lý/quy tắc trọng tâm (Thách thức tương lai ASEAN).",
+        "Sai vì 'Ngăn chặn internet và viễn thông' không phù hợp với định lý/quy tắc trọng tâm (Thách thức tương lai ASEAN)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh Việt Nam cần chuẩn bị hành trang gì để tự tin trở thành công dân toàn cầu trong Cộng đồng ASEAN?",
       "options": [
-        "Thành thạo ngoại ngữ, tinh thông công nghệ, am hiểu văn hóa khu vực và gìn giữ bản sắc dân tộc",
+        "Không cần trau dồi kỹ năng mềm",
         "Quên đi lịch sử nước nhà",
         "Chỉ tập trung vào trò chơi trực tuyến",
-        "Không cần trau dồi kỹ năng mềm"
+        "Thành thạo ngoại ngữ, tinh thông công nghệ, am hiểu văn hóa khu vực và gìn giữ bản sắc dân tộc"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Hòa nhập nhưng không hòa tan, tự hào cống hiến vì đất nước.",
       "breakdown": {
         "concept": "Hành trang công dân ASEAN",
         "steps": "Ngoại ngữ, công nghệ và bản lĩnh văn hóa.",
         "socraticPrompt": "Làm thế nào để học sinh Việt Nam vươn tầm khu vực?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để học sinh Việt Nam vươn tầm khu vực?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần trau dồi kỹ năng mềm' trái ngược với kiến thức SGK.",
+        "Sai vì 'Quên đi lịch sử nước nhà' không phù hợp với định lý/quy tắc trọng tâm (Hành trang công dân ASEAN).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tập trung vào trò chơi trực tuyến', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Hành trang công dân ASEAN: Ngoại ngữ, công nghệ và bản lĩnh văn hóa."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

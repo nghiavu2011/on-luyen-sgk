@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm thành phần trạng ngữ.?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm thành phần trạng ngữ.: Trạng ngữ là thành phần phụ có thể đứng đầu, giữa hoặc cuối câu, thường ngăn cách bằng dấu phẩy.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thành phần bắt buộc cấu tạo nên nòng cốt câu cùng vị ngữ' (Chủ ngữ và vị ngữ mới là thành phần chính bắt buộc.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Bộ phận đứng sau động từ chỉ đối tượng tiếp nhận', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Từ dùng để cảm thán' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm thành phần trạng ngữ.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân loại các loại trạng ngữ.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trạng ngữ chỉ nguyên nhân' (Trạng ngữ chỉ nguyên nhân thường bắt đầu bằng 'Vì, Do, Nhờ'.).",
+        "Đúng vì theo Phân loại các loại trạng ngữ.: 'Để...' trả lời cho câu hỏi 'Nhằm mục đích gì?' -> Trạng ngữ chỉ mục đích.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Trạng ngữ chỉ nơi chốn', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Trạng ngữ chỉ thời gian', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa thành ngữ phản ánh truyền thống lịch sử.?",
+      "distractorReasons": [
+        "Sai vì 'Được voi đòi tiên' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa thành ngữ phản ánh truyền thống lịch sử.).",
+        "Sai vì 'Nước đến chân mới nhảy' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa thành ngữ phản ánh truyền thống lịch sử.).",
+        "Đúng vì theo Ý nghĩa thành ngữ phản ánh truyền thống lịch sử.: 'Uống nước nhớ nguồn' là đạo lý cốt lõi của ngày Giỗ Tổ Hùng Vương và Lễ hội Đền Gióng.",
+        "Sai vì 'Cháy nhà ra mặt chuột' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa thành ngữ phản ánh truyền thống lịch sử.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -104,7 +128,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được trình tự thuật lại sự việc trong văn thuyết minh.?",
+      "distractorReasons": [
+        "Sai vì 'Liệt kê bảng giá vé tham quan' không phù hợp với định lý/quy tắc trọng tâm (Trình tự thuật lại sự việc trong văn thuyết minh.).",
+        "Sai vì 'Kể từ kết thúc rồi mới quay lại chuẩn bị' không phù hợp với định lý/quy tắc trọng tâm (Trình tự thuật lại sự việc trong văn thuyết minh.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ miêu tả cảnh ăn uống', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Trình tự thuật lại sự việc trong văn thuyết minh.: Trình tự thời gian kết hợp không gian giúp người đọc hình dung trọn vẹn diễn biến lễ hội."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -129,7 +161,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vị trí và chức năng liên kết của trạng ngữ.?",
+      "distractorReasons": [
+        "Đúng vì theo Vị trí và chức năng liên kết của trạng ngữ.: Trạng ngữ đầu câu tạo 'điểm tựa bối cảnh' giúp toàn bộ thông tin phía sau trở nên rõ ràng, gắn kết.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm cho người đọc không thể tìm ra chủ ngữ của câu' (Trạng ngữ không làm mất chủ ngữ nếu viết đúng dấu phẩy ngăn cách.).",
+        "Sai vì 'Để làm câu văn giống hệt ngữ pháp tiếng nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Vị trí và chức năng liên kết của trạng ngữ.).",
+        "Sai vì phủ định sai bản chất: 'Không có tác dụng gì đặc biệt' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -154,7 +194,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kết hợp miêu tả và biểu cảm trong văn thuyết minh sự kiện.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chép lại toàn bộ tài liệu lịch sử của ban tổ chức từ đầu đến cuối', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Cảm xúc tự hào dân tộc và hình ảnh sống động của con người làm bài văn truyền cảm hứng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thêm vào những tình tiết ma quái không có thật' (Bịa đặt tình tiết sai sự thật là điều cấm kỵ trong thuyết minh.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ đưa các bức ảnh chụp mà không cần viết lời văn', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

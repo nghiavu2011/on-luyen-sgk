@@ -1,128 +1,209 @@
 {
   "chapterId": "ch06",
   "examId": "de1",
-  "title": "Toán 6 — Chương 6: Đề 1 — Khái niệm & So sánh phân số",
-  "description": "Bộ đề trắc nghiệm kiểm tra khả năng nhận biết định nghĩa phân số, tính chất cơ bản và kỹ năng so sánh phân số.",
+  "title": "Toán 6 — Chương 6: Phân số: Đề 1: Khái niệm & Nhận biết",
+  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c6_d1_q1",
+      "id": "t6_c6_d1_01",
       "difficulty": "easy",
       "type": "multiple_choice",
       "topic": "Định nghĩa phân số",
-      "question": "Trong các cách viết sau đây, cách viết nào cho ta một phân số?",
+      "question": "Trong các cách viết sau, cách viết nào cho ta một phân số?",
       "options": [
-        "-5/8",
-        "4.2/7",
-        "6/0",
-        "3.5/2.1"
+        "-3/5",
+        "4,5/7",
+        "2/0",
+        "√2/3"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa phân số trong tập hợp số nguyên.",
-        "socraticPrompt": "Em hãy nhớ lại điều kiện về tử số và mẫu số của phân số a/b: cả hai phải thuộc tập hợp nào và mẫu số phải khác bao nhiêu?",
-        "steps": "Phân số a/b yêu cầu tử a và mẫu b là các số nguyên (Z) và mẫu b khác 0. Do đó -5/8 là phân số đúng.",
-        "trap": "Nhầm số thập phân 4.2 hoặc 3.5 là số nguyên, hoặc quên điều kiện mẫu số phải khác 0."
-      }
+        "concept": "Phân số có dạng a/b với a, b ∈ Z và b ≠ 0.",
+        "steps": [
+          "Bước 1: Xét -3/5: tử số -3 ∈ Z, mẫu số 5 ∈ Z và 5 ≠ 0 ⇒ là phân số.",
+          "Bước 2: Xét 4,5/7: tử số là số thập phân không thuộc Z.",
+          "Bước 3: Xét 2/0: mẫu số bằng 0 không hợp lệ.",
+          "Bước 4: Xét √2/3: tử số không thuộc Z."
+        ],
+        "trap": "Chọn 2/0 vì quên điều kiện mẫu số phải khác 0.",
+        "socraticPrompt": "Tử và mẫu của phân số phải là số gì? Mẫu số có được phép bằng 0 không?"
+      },
+      "socraticPrompt": "Tử và mẫu của phân số phải là số gì? Mẫu số có được phép bằng 0 không?",
+      "distractorReasons": [
+        "Đúng vì -3 và 5 đều là các số nguyên và mẫu số 5 khác 0.",
+        "Sai vì tử số 4,5 là số thập phân chứ không phải số nguyên.",
+        "Sai vì mẫu số bằng 0 không xác định.",
+        "Sai vì tử số √2 không phải số nguyên."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c6_d1_q2",
+      "id": "t6_c6_d1_02",
       "difficulty": "easy",
       "type": "multiple_choice",
       "topic": "Hai phân số bằng nhau",
-      "question": "Cặp phân số nào sau đây là hai phân số bằng nhau?",
+      "question": "Cặp phân số nào sau đây BẰNG NHAU?",
       "options": [
-        "2/5 và 3/7",
-        "-3/4 và 6/-8",
-        "-1/3 và 1/3",
-        "5/6 và 6/5"
+        "1/2 và 2/3",
+        "-2/3 và 6/-9",
+        "-3/4 và 3/4",
+        "2/5 và 5/2"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Điều kiện để hai phân số bằng nhau qua tích chéo.",
-        "socraticPrompt": "Hai phân số a/b và c/d bằng nhau khi tích chéo a · d và b · c có mối quan hệ như thế nào?",
-        "steps": "Xét cặp -3/4 và 6/-8: Ta có (-3) · (-8) = 24 và 4 · 6 = 24. Vì 24 = 24 nên -3/4 = 6/-8.",
-        "trap": "Nhầm dấu âm ở mẫu là phân số khác, thực chất 6/(-8) = -6/8 = -3/4."
-      }
+        "concept": "a/b = c/d khi tích chéo a × d = b × c.",
+        "steps": [
+          "Bước 1: Xét (-2) × (-9) = 18 và 3 × 6 = 18.",
+          "Bước 2: Vì 18 = 18 nên -2/3 = 6/-9.",
+          "Bước 3: Các cặp còn lại tích chéo đều không bằng nhau."
+        ],
+        "trap": "Nghĩ -2/3 và 6/-9 khác dấu nhau (thực ra cả hai đều là số âm).",
+        "socraticPrompt": "Lấy (-2) nhân (-9) bằng mấy? Lấy 3 nhân 6 bằng mấy? Hai tích chéo có bằng nhau không?"
+      },
+      "socraticPrompt": "Lấy (-2) nhân (-9) bằng mấy? Lấy 3 nhân 6 bằng mấy? Hai tích chéo có bằng nhau không?",
+      "distractorReasons": [
+        "Sai vì 1 × 3 = 3 ≠ 2 × 2 = 4.",
+        "Đúng vì tích chéo (-2) × (-9) = 18 = 3 × 6.",
+        "Sai vì hai phân số đối dấu nhau (-3/4 là số âm còn 3/4 là số dương).",
+        "Sai vì hai phân số nghịch đảo nhau, 2 × 2 = 4 ≠ 5 × 5 = 25."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c6_d1_q3",
-      "difficulty": "medium",
+      "id": "t6_c6_d1_03",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Tìm số nguyên x trong phân số",
-      "question": "Tìm số nguyên x thỏa mãn đẳng thức phân số: x / 6 = -10 / 4?",
+      "topic": "Phân số tối giản",
+      "question": "Phân số nào sau đây là phân số TỐI GIẢN?",
       "options": [
-        "x = 15",
-        "x = -12",
-        "x = -15",
-        "x = -20"
+        "4/6",
+        "5/15",
+        "7/9",
+        "9/12"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Áp dụng định nghĩa hai phân số bằng nhau để tìm ẩn x.",
-        "socraticPrompt": "Từ đẳng thức x/b = c/d, em hãy nhân chéo để tìm tích x · d bằng bao nhiêu, sau đó chia cho d?",
-        "steps": "Áp dụng tích chéo: x · 4 = 6 · (-10) = -60. Suy ra x = -60 : 4 = -15.",
-        "trap": "Tính sai dấu âm thành dương (+15) hoặc nhân chia nhầm hệ số."
-      }
+        "concept": "Phân số tối giản có tử và mẫu nguyên tố cùng nhau (ƯCLN = 1).",
+        "steps": [
+          "Bước 1: 4/6 rút gọn cho 2 được 2/3.",
+          "Bước 2: 5/15 rút gọn cho 5 được 1/3.",
+          "Bước 3: 7/9 có ƯCLN(7, 9) = 1 nên là phân số tối giản.",
+          "Bước 4: 9/12 rút gọn cho 3 được 3/4."
+        ],
+        "trap": "Tưởng 9 là hợp số nên 7/9 chưa tối giản (quên rằng 7 và 9 không có ước chung nào khác 1).",
+        "socraticPrompt": "7 và 9 có ước chung nào khác 1 không? Nếu không có thì phân số 7/9 đã tối giản chưa?"
+      },
+      "socraticPrompt": "7 và 9 có ước chung nào khác 1 không? Nếu không có thì phân số 7/9 đã tối giản chưa?",
+      "distractorReasons": [
+        "Sai vì 4/6 chia được cả tử và mẫu cho 2.",
+        "Sai vì 5/15 chia được cả tử và mẫu cho 5.",
+        "Đúng vì ƯCLN(7, 9) = 1 nên 7/9 không thể rút gọn được nữa.",
+        "Sai vì 9/12 chia được cả tử và mẫu cho 3."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c6_d1_q4",
-      "difficulty": "medium",
+      "id": "t6_c6_d1_04",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Rút gọn phân số tối giản",
-      "question": "Rút gọn phân số -28 / 42 về phân số tối giản ta được kết quả là:",
+      "topic": "Cộng hai phân số cùng mẫu",
+      "question": "Kết quả của phép tính (-3)/7 + 5/7 là:",
       "options": [
-        "-14/21",
-        "-4/6",
-        "2/3",
-        "-2/3"
+        "2/14",
+        "-2/7",
+        "8/7",
+        "2/7"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Rút gọn phân số bằng cách chia cho ước chung lớn nhất.",
-        "socraticPrompt": "Ước chung lớn nhất của 28 và 42 là bao nhiêu, và đừng quên giữ nguyên dấu âm của tử số nhé?",
-        "steps": "Ta tìm ƯCLN(28, 42) = 14. Chia cả tử và mẫu cho 14: (-28 : 14) / (42 : 14) = -2/3. Phân số -2/3 có ƯCLN(2, 3) = 1 nên là tối giản.",
-        "trap": "Chọn -14/21 hoặc -4/6 vì chưa rút gọn hết (chưa tối giản), hoặc làm mất dấu âm."
-      }
-    },
-    {
-      "id": "t6_c6_d1_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "So sánh hai phân số",
-      "question": "Khẳng định so sánh nào sau đây là ĐÚNG giữa hai phân số -7/12 và -5/8?",
-      "options": [
-        "-7/12 > -5/8",
-        "-7/12 < -5/8",
-        "-7/12 = -5/8",
-        "-7/12 ≤ -3/4"
+        "concept": "Cộng hai phân số cùng mẫu: giữ nguyên mẫu số, cộng các tử số: (-3 + 5)/7 = 2/7.",
+        "steps": [
+          "Bước 1: Hai phân số đã có cùng mẫu số là 7.",
+          "Bước 2: Giữ nguyên mẫu 7, cộng tử số: (-3) + 5 = 2.",
+          "Bước 3: Kết quả là 2/7."
+        ],
+        "trap": "Cộng cả mẫu với mẫu thành 2/14.",
+        "socraticPrompt": "Hai phân số cùng mẫu 7, giữ nguyên mẫu số. Lấy -3 cộng 5 bằng mấy?"
+      },
+      "socraticPrompt": "Hai phân số cùng mẫu 7, giữ nguyên mẫu số. Lấy -3 cộng 5 bằng mấy?",
+      "distractorReasons": [
+        "Sai vì cộng cả hai mẫu số 7 + 7 = 14 (sai quy tắc cộng phân số).",
+        "Sai vì tính nhầm (-3) + 5 = -2.",
+        "Sai vì nhầm dấu lấy 3 + 5 = 8.",
+        "Đúng vì (-3)/7 + 5/7 = (-3 + 5)/7 = 2/7."
       ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Quy đồng mẫu số dương để so sánh hai phân số âm.",
-        "socraticPrompt": "Mẫu số chung nhỏ nhất của 12 và 8 là 24. Khi quy đồng, tử số của hai phân số là những số âm nào?",
-        "steps": "Mẫu chung là 24. Ta có: -7/12 = -14/24 và -5/8 = -15/24. Vì -14 > -15 nên -14/24 > -15/24, tức là -7/12 > -5/8.",
-        "trap": "Thấy 15 > 14 liền kết luận -15 > -14 (quên tính chất số âm: -14 nằm bên phải -15 trên trục số)."
-      }
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c6_d1_q6",
-      "difficulty": "hard",
+      "id": "t6_c6_d1_05",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Hỗn số dương",
-      "question": "Viết hỗn số 4 3/5 dưới dạng phân số, sau đó tìm số đối của phân số đó:",
+      "topic": "Phân số nghịch đảo",
+      "question": "Phân số nghịch đảo của phân số -4/9 là:",
       "options": [
-        "23/5 và số đối là 5/23",
-        "-23/5 và số đối là 23/5",
-        "23/5 và số đối là -23/5",
-        "17/5 và số đối là -17/5"
+        "4/9",
+        "-9/4",
+        "9/-4",
+        "9/4"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân số nghịch đảo của a/b là b/a. Chuẩn viết mẫu dương là -9/4.",
+        "steps": [
+          "Bước 1: Nghịch đảo đảo ngược tử và mẫu: 9/(-4).",
+          "Bước 2: Đưa về dạng mẫu dương: -9/4.",
+          "Bước 3: Thử lại: (-4/9) × (-9/4) = 1 (đúng)."
+        ],
+        "trap": "Nhầm số nghịch đảo với số đối (đổi dấu thành 4/9).",
+        "socraticPrompt": "Phân số nghịch đảo khi nhân với phân số ban đầu phải bằng 1. (-4/9) nhân với số nào thì bằng 1?"
+      },
+      "socraticPrompt": "Phân số nghịch đảo khi nhân với phân số ban đầu phải bằng 1. (-4/9) nhân với số nào thì bằng 1?",
+      "distractorReasons": [
+        "Sai vì 4/9 là số đối, không phải phân số nghịch đảo.",
+        "Đúng vì (-4/9) × (-9/4) = 1 và phân số có mẫu dương chuẩn mực.",
+        "Sai vì phân số nên viết dưới dạng chuẩn mẫu số dương (-9/4).",
+        "Sai vì 9/4 nhân với -4/9 bằng -1 chứ không bằng 1."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c6_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tìm giá trị phân số của một số",
+      "question": "3/4 của 60 bằng bao nhiêu?",
+      "options": [
+        "15",
+        "80",
+        "45",
+        "20"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Đổi hỗn số dương ra phân số và xác định số đối.",
-        "socraticPrompt": "Để đổi hỗn số 4 3/5 ra phân số, ta lấy phần nguyên nhân mẫu cộng tử được bao nhiêu? Số đối của một phân số dương mang dấu gì?",
-        "steps": "Hỗn số 4 3/5 = (4 · 5 + 3)/5 = 23/5. Số đối của phân số 23/5 là -23/5.",
-        "trap": "Nhầm số đối với số nghịch đảo (chọn 5/23), hoặc tính nhầm tử số thành 17."
-      }
+        "concept": "Muốn tìm m/n của số b, ta lấy b × m/n.",
+        "steps": [
+          "Bước 1: Phép tính: 60 × 3/4.",
+          "Bước 2: Tính nhẩm: 60 : 4 = 15; sau đó lấy 15 × 3 = 45.",
+          "Bước 3: Kết quả bằng 45."
+        ],
+        "trap": "Lấy 60 chia 3/4 = 80 (nhầm sang bài toán tìm số khi biết phân số).",
+        "socraticPrompt": "60 chia làm 4 phần thì mỗi phần là 15. Lấy 3 phần như thế thì bằng bao nhiêu?"
+      },
+      "socraticPrompt": "60 chia làm 4 phần thì mỗi phần là 15. Lấy 3 phần như thế thì bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì mới chỉ tính 1/4 của 60 (60 : 4 = 15), chưa nhân với 3.",
+        "Sai vì lấy 60 : (3/4) = 80 (áp dụng nhầm bài toán ngược).",
+        "Đúng vì 60 × 3/4 = (60 : 4) × 3 = 15 × 3 = 45.",
+        "Sai vì tính nhầm 60 : 3 = 20."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

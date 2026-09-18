@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu chi tiết mở đầu bài thơ 'chuyện cổ tích về loài người'.?",
+      "distractorReasons": [
+        "Sai vì 'Mặt trời' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết mở đầu bài thơ 'Chuyện cổ tích về loài người'.).",
+        "Sai vì 'Người lớn' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết mở đầu bài thơ 'Chuyện cổ tích về loài người'.).",
+        "Đúng vì: Hai câu thơ đầu viết rõ: 'Trời sinh ra trước nhất / Chỉ toàn là trẻ con'.",
+        "Sai vì 'Cây cối và biển cả' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu chi tiết mở đầu bài thơ 'Chuyện cổ tích về loài người'.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết các biện pháp tu từ trong thơ ca.?",
+      "distractorReasons": [
+        "Sai vì 'Nói quá và Chơi chữ' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết các biện pháp tu từ trong thơ ca.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hoán dụ và Đảo ngữ' (Phương án hoán dụ hoặc đảo ngữ không phù hợp với cấu trúc câu này.).",
+        "Sai vì 'Liệt kê và Chêm xen' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết các biện pháp tu từ trong thơ ca.).",
+        "Đúng vì theo Nhận biết các biện pháp tu từ trong thơ ca.: Từ so sánh 'là' kết hợp với hình ảnh ẩn dụ 'sóng' (em bé hiếu động) và 'bến bờ' (mẹ chở che vỗ về)."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu tư tưởng tình mẫu tử trong tác phẩm của r. tagore.?",
+      "distractorReasons": [
+        "Đúng vì theo Đọc hiểu tư tưởng tình mẫu tử trong tác phẩm của R. Tagore.: Lời từ chối chứa chan tình thương: 'Làm sao mình có thể rời mẹ mà đi được?' Tình mẫu tử lớn hơn mọi cám dỗ kỳ ảo bên ngoài.",
+        "Sai vì 'Vì em sợ độ cao trên trời và sợ sóng biển sâu nguy hiểm' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu tư tưởng tình mẫu tử trong tác phẩm của R. Tagore.).",
+        "Sai vì 'Vì những người trên mây đòi tiền công đi lại quá đắt' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu tư tưởng tình mẫu tử trong tác phẩm của R. Tagore.).",
+        "Sai vì phủ định sai bản chất: 'Vì em bé không biết đường bay lên bầu trời' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích diễn biến tâm lý nhân vật người anh trong 'bức tranh của em gái tôi'.?",
+      "distractorReasons": [
+        "Sai vì 'Tức giận vì em gái vẽ mình xấu hơn ngoài đời thực' không phù hợp với định lý/quy tắc trọng tâm (Phân tích diễn biến tâm lý nhân vật người anh trong 'Bức tranh của em gái tôi'.).",
+        "Đúng vì: Ba trạng thái tâm lý liên tiếp: Ngỡ ngàng (bất ngờ trước tài năng) ➔ Hãnh diện (tự hào về em) ➔ Xấu hổ (nhận ra sự đố kị của mình).",
+        "Sai vì 'Vui mừng vì sắp được bán bức tranh lấy thật nhiều tiền' không phù hợp với định lý/quy tắc trọng tâm (Phân tích diễn biến tâm lý nhân vật người anh trong 'Bức tranh của em gái tôi'.).",
+        "Sai vì 'Thản nhiên vì đã biết trước kết quả cuộc thi từ trước' không phù hợp với định lý/quy tắc trọng tâm (Phân tích diễn biến tâm lý nhân vật người anh trong 'Bức tranh của em gái tôi'.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đánh giá tư tưởng nhân văn sâu sắc của tác phẩm tạ duy anh.?",
+      "distractorReasons": [
+        "Sai vì 'Người anh nhận ra mẹ thương em gái hơn thương mình' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tư tưởng nhân văn sâu sắc của tác phẩm Tạ Duy Anh.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chứng minh Kiều Phương có kỹ thuật pha màu giỏi nhất thế giới' (Tránh các phương án suy diễn vật chất hoặc đố kị cá nhân.).",
+        "Đúng vì theo Đánh giá tư tưởng nhân văn sâu sắc của tác phẩm Tạ Duy Anh.: Lòng nhân ái của Kiều Phương là chiếc gương soi giúp người anh soi thấu khuyết điểm và tự gột rửa lòng đố kị.",
+        "Sai vì 'Người anh muốn Kiều Phương tiếp tục vẽ thêm tranh chân dung cho mình' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tư tưởng nhân văn sâu sắc của tác phẩm Tạ Duy Anh.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học kỹ năng sống và giáo dục cảm xúc từ văn học.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Yêu cầu thầy cô giáo không được khen ngợi bạn nữa' (Không dung túng các thái độ tiêu cực, ghen ghét bạn bè.).",
+        "Sai vì 'Tìm cách xa lánh và nói xấu điểm yếu của bạn trước mặt người khác' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Bài học kỹ năng sống và giáo dục cảm xúc từ văn học.).",
+        "Sai vì 'Bỏ bê học tập vì cho rằng mình sinh ra kém may mắn hơn người khác' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Bài học kỹ năng sống và giáo dục cảm xúc từ văn học.).",
+        "Đúng vì: Đố kị là tâm lý tự nhiên nhưng cần được kiểm soát và hóa giải bằng lòng bao dung, sự tự tin và tinh thần cầu tiến."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

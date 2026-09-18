@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện từ đơn trong câu.?",
+      "distractorReasons": [
+        "Sai vì 'nhát dao' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện từ đơn trong câu.).",
+        "Sai vì 'ngọn cỏ' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện từ đơn trong câu.).",
+        "Đúng vì theo Nhận diện từ đơn trong câu.: 'cỏ' chỉ gồm một tiếng mang nghĩa hoàn chỉnh.",
+        "Sai vì 'rạp xuống' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện từ đơn trong câu.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận biết từ láy trong tiếng việt.?",
+      "distractorReasons": [
+        "Sai vì 'chân núi, mặt trời, mặt đất, ruộng đồng' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết từ láy trong Tiếng Việt.).",
+        "Sai vì 'áo quần, sách vở, bàn ghế, xe đạp' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết từ láy trong Tiếng Việt.).",
+        "Sai vì 'dế mèn, dế trũi, chị cốc, chim cắt' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết từ láy trong Tiếng Việt.).",
+        "Đúng vì theo Nhận biết từ láy trong Tiếng Việt.: Các từ lặp âm/vần: phanh phách, gầy gò, hung hăng, ngoàm ngoạp."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được các phương pháp giải nghĩa của từ.?",
+      "distractorReasons": [
+        "Đúng vì theo Các phương pháp giải nghĩa của từ.: Cáo giải thích 'cảm hóa' bằng cách phân tích bản chất hiện tượng: tạo lập các mối dây gắn kết cần thiết.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giải thích bằng cách dùng một từ đồng nghĩa hoàn toàn' (Không có từ đồng nghĩa nào thay thế trọn vẹn khái niệm triết học này.).",
+        "Sai vì 'Giải thích bằng cách dùng một từ trái nghĩa' không phù hợp với định lý/quy tắc trọng tâm (Các phương pháp giải nghĩa của từ.).",
+        "Sai vì 'Giải thích bằng cách tra cứu phiên âm tiếng nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Các phương pháp giải nghĩa của từ.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được quy chuẩn đoạn văn nghị luận biểu cảm trong sgk ngữ văn 6.?",
+      "distractorReasons": [
+        "Sai vì '2 phần: Phần kể chuyện và phần tóm tắt' không phù hợp với định lý/quy tắc trọng tâm (Quy chuẩn đoạn văn nghị luận biểu cảm trong SGK Ngữ văn 6.).",
+        "Đúng vì theo Quy chuẩn đoạn văn nghị luận biểu cảm trong SGK Ngữ văn 6.: Đoạn văn hoàn chỉnh phải có câu mở đoạn, các câu thân đoạn phát triển ý và câu kết đoạn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '4 phần: Mở bài, Thân bài, Kết bài và Phụ lục' (Tránh nhầm lẫn giữa bố cục 'đoạn văn' (Mở đoạn) và bố cục 'bài văn' (Mở bài).).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ gồm 1 câu duy nhất không phân tách', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích tác dụng gợi hình gợi cảm của từ láy.?",
+      "distractorReasons": [
+        "Sai vì 'Cho thấy ngọn cỏ làm bằng kim loại cứng' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tác dụng gợi hình gợi cảm của từ láy.).",
+        "Sai vì 'Chứng tỏ Dế Mèn đang bị thương nặng ở chân' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tác dụng gợi hình gợi cảm của từ láy.).",
+        "Đúng vì theo Phân tích tác dụng gợi hình gợi cảm của từ láy.: 'Phanh phách' là từ tượng thanh mô phỏng sức bật mạnh mẽ của cơ bắp, thể hiện sinh động ngoại hình dũng mãnh.",
+        "Sai vì 'Báo hiệu trời sắp đổ mưa bão lớn' không phù hợp với định lý/quy tắc trọng tâm (Phân tích tác dụng gợi hình gợi cảm của từ láy.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: rèn luyện kỹ năng viết đoạn văn biểu cảm chuẩn mực.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Viết câu mở đoạn giới thiệu rõ tên tác giả và bài thơ' (Trích dẫn thơ và giới thiệu tác giả là yêu cầu bắt buộc, không phải lỗi.).",
+        "Sai vì 'Sử dụng quá nhiều từ ngữ biểu cảm chân thành' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Rèn luyện kỹ năng viết đoạn văn biểu cảm chuẩn mực.).",
+        "Sai vì 'Trích dẫn câu thơ tâm đắc vào đoạn văn' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Rèn luyện kỹ năng viết đoạn văn biểu cảm chuẩn mực.).",
+        "Đúng vì: Lỗi điển hình của học sinh lớp 6 là 'diễn xuôi thơ' thành văn xuôi kể chuyện, đánh mất chất cảm xúc thơ."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

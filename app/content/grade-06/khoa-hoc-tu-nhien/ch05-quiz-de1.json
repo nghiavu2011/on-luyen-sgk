@@ -21,7 +21,16 @@
         "socraticPrompt": "Nước dùng trong tiêm truyền y tế đã qua chưng cất loại bỏ hết tạp chất gọi là nước gì?",
         "steps": "Nước cất là chất tinh khiết; các loại nước khác là hỗn hợp.",
         "trap": "Nước khoáng có nhiều muối khoáng hoà tan nên là hỗn hợp."
-      }
+      },
+      "socraticPrompt": "Nước dùng trong tiêm truyền y tế đã qua chưng cất loại bỏ hết tạp chất gọi là nước gì?",
+      "distractorReasons": [
+        "Đúng vì: Nước cất là chất tinh khiết; các loại nước khác là hỗn hợp.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước khoáng đóng chai' (Nước khoáng có nhiều muối khoáng hoà tan nên là hỗn hợp.).",
+        "Sai vì 'Nước biển' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nước chanh đường' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c5_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Đường tan hoàn toàn vào nước có còn nhìn thấy hạt đường riêng lẻ không?",
         "steps": "Nước đường là dung dịch hỗn hợp đồng nhất.",
         "trap": "Dầu ăn và nước tạo thành 2 lớp riêng biệt, là hỗn hợp không đồng nhất."
-      }
+      },
+      "socraticPrompt": "Đường tan hoàn toàn vào nước có còn nhìn thấy hạt đường riêng lẻ không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dầu ăn trộn với nước' (Dầu ăn và nước tạo thành 2 lớp riêng biệt, là hỗn hợp không đồng nhất.).",
+        "Đúng vì: Nước đường là dung dịch hỗn hợp đồng nhất.",
+        "Sai vì 'Bột sắn dây khuấy trong nước lạnh' không phù hợp với định lý/quy tắc trọng tâm (Hỗn hợp đồng nhất là hỗn hợp không xuất hiện ranh giới phân cách giữa các thành phần.).",
+        "Sai vì 'Cát trộn lẫn với sỏi' không phù hợp với định lý/quy tắc trọng tâm (Hỗn hợp đồng nhất là hỗn hợp không xuất hiện ranh giới phân cách giữa các thành phần.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c5_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Nước phù sa có các hạt hạt phù sa rắn lơ lửng trong nước gọi là gì?",
         "steps": "Hạt chất rắn lơ lửng trong chất lỏng là huyền phù.",
         "trap": "Hai chất lỏng không tan vào nhau là nhũ tương."
-      }
+      },
+      "socraticPrompt": "Nước phù sa có các hạt hạt phù sa rắn lơ lửng trong nước gọi là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hai chất lỏng không tan vào nhau' (Hai chất lỏng không tan vào nhau là nhũ tương.).",
+        "Sai vì 'Chất rắn tan hoàn toàn trong chất lỏng' không phù hợp với định lý/quy tắc trọng tâm (Huyền phù gồm các hạt chất rắn lơ lửng phân tán trong chất lỏng (như nước phù sa, bùn).).",
+        "Đúng vì: Hạt chất rắn lơ lửng trong chất lỏng là huyền phù.",
+        "Sai vì 'Hai chất khí trộn lẫn vào nhau' không phù hợp với định lý/quy tắc trọng tâm (Huyền phù gồm các hạt chất rắn lơ lửng phân tán trong chất lỏng (như nước phù sa, bùn).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c5_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Pha cà phê phin người ta dùng màng lọc để giữ lại cái gì?",
         "steps": "Lọc dùng tách chất rắn không tan khỏi chất lỏng.",
         "trap": "Cô cạn dùng tách chất rắn hoà tan."
-      }
+      },
+      "socraticPrompt": "Pha cà phê phin người ta dùng màng lọc để giữ lại cái gì?",
+      "distractorReasons": [
+        "Sai vì 'Phương pháp chưng cất' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp lọc dùng giấy lọc giữ lại hạt chất rắn không tan và cho chất lỏng chảy qua.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phương pháp cô cạn' (Cô cạn dùng tách chất rắn hoà tan.).",
+        "Sai vì 'Phương pháp chiết' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp lọc dùng giấy lọc giữ lại hạt chất rắn không tan và cho chất lỏng chảy qua.).",
+        "Đúng vì: Lọc dùng tách chất rắn không tan khỏi chất lỏng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c5_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Sữa chứa các giọt mỡ lỏng li ti phân tán trong nước sữa gọi là gì?",
         "steps": "Sữa tươi, sốt mayonnaise là nhũ tương.",
         "trap": "Nước muối sinh lí là dung dịch đồng nhất."
-      }
+      },
+      "socraticPrompt": "Sữa chứa các giọt mỡ lỏng li ti phân tán trong nước sữa gọi là gì?",
+      "distractorReasons": [
+        "Đúng vì: Sữa tươi, sốt mayonnaise là nhũ tương.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước muối sinh lí 0,9%' (Nước muối sinh lí là dung dịch đồng nhất.).",
+        "Sai vì 'Nước đường mía' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Không khí sạch' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c5_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Muối tan hoàn toàn trong nước, đổ qua giấy lọc muối có bị giữ lại không? Đun nóng nước bốc hơi thì còn lại gì?",
         "steps": "Đun cô cạn làm bay hơi nước thu được muối ăn.",
         "trap": "Giấy lọc không giữ được muối tan, nước muối chảy qua giấy lọc bình thường."
-      }
+      },
+      "socraticPrompt": "Muối tan hoàn toàn trong nước, đổ qua giấy lọc muối có bị giữ lại không? Đun nóng nước bốc hơi thì còn lại gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phương pháp lọc qua phễu' (Giấy lọc không giữ được muối tan, nước muối chảy qua giấy lọc bình thường.).",
+        "Đúng vì: Đun cô cạn làm bay hơi nước thu được muối ăn.",
+        "Sai vì 'Phương pháp dùng nam châm hút' không phù hợp với định lý/quy tắc trọng tâm (Đun nóng làm nước bay hơi hết, muối ăn không bay hơi sẽ kết tinh đọng lại ở đáy bát sứ.).",
+        "Sai vì 'Phương pháp chiết bằng phễu chiết' không phù hợp với định lý/quy tắc trọng tâm (Đun nóng làm nước bay hơi hết, muối ăn không bay hơi sẽ kết tinh đọng lại ở đáy bát sứ.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

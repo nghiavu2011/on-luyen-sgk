@@ -20,97 +20,151 @@
         "concept": "Khái niệm Lạm phát",
         "steps": "Mức giá chung tăng liên tục.",
         "socraticPrompt": "Tình trạng giá cả tăng liên tục gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Tình trạng giá cả tăng liên tục gọi là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm Lạm phát: Mức giá chung tăng liên tục.",
+        "Sai vì 'Thất nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Lạm phát).",
+        "Sai vì 'Tăng trưởng GDP' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Lạm phát).",
+        "Sai vì 'Thặng dư thương mại' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Lạm phát)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Mức độ lạm phát được coi là 'Lạm phát vừa phải' khi chỉ số giá tiêu dùng tăng ở mức",
       "options": [
-        "Dưới 10%/năm",
         "Từ 100% đến 200%/năm",
+        "Dưới 10%/năm",
         "Trên 1000%/năm",
         "Bằng 0%"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Lạm phát dưới 10% là mức lạm phát một con số, an toàn cho nền kinh tế.",
       "breakdown": {
         "concept": "Lạm phát vừa phải",
         "steps": "Dưới 10% một năm.",
         "socraticPrompt": "Lạm phát dưới 10% gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Lạm phát dưới 10% gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Từ 100% đến 200%/năm' không phù hợp với định lý/quy tắc trọng tâm (Lạm phát vừa phải).",
+        "Đúng vì theo Lạm phát vừa phải: Dưới 10% một năm.",
+        "Sai vì 'Trên 1000%/năm' không phù hợp với định lý/quy tắc trọng tâm (Lạm phát vừa phải).",
+        "Sai vì 'Bằng 0%' không phù hợp với định lý/quy tắc trọng tâm (Lạm phát vừa phải)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Người trong độ tuổi lao động, có khả năng lao động, đang tích cực tìm kiếm việc làm nhưng chưa có việc được gọi là",
       "options": [
-        "Người thất nghiệp",
-        "Người về hưu",
         "Học sinh tiểu học",
+        "Người về hưu",
+        "Người thất nghiệp",
         "Người tàn tật nặng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Tiêu chuẩn xác định người thất nghiệp theo quy chuẩn Tổ chức Lao động Quốc tế (ILO).",
       "breakdown": {
         "concept": "Khái niệm Thất nghiệp",
         "steps": "Có khả năng, muốn làm nhưng chưa có việc.",
         "socraticPrompt": "Người muốn làm việc nhưng chưa có việc gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Người muốn làm việc nhưng chưa có việc gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Học sinh tiểu học' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thất nghiệp).",
+        "Sai vì 'Người về hưu' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thất nghiệp).",
+        "Đúng vì theo Khái niệm Thất nghiệp: Có khả năng, muốn làm nhưng chưa có việc.",
+        "Sai vì 'Người tàn tật nặng' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Thất nghiệp)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Một trong những hậu quả tiêu cực trực tiếp của lạm phát phi mã đối với đời sống người dân là",
       "options": [
-        "Làm giảm sức mua thực tế của tiền lương và tiền tiết kiệm",
+        "Giúp người nghèo giàu lên nhanh chóng",
         "Làm tiền tiết kiệm sinh lời gấp đôi",
         "Làm giá mọi thứ rẻ như cho",
-        "Giúp người nghèo giàu lên nhanh chóng"
+        "Làm giảm sức mua thực tế của tiền lương và tiền tiết kiệm"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Lạm phát bào mòn thu nhập thực tế của người lao động.",
       "breakdown": {
         "concept": "Hậu quả lạm phát",
         "steps": "Giảm sức mua của đồng tiền.",
         "socraticPrompt": "Lạm phát làm tiền lương bị sao?"
-      }
+      },
+      "socraticPrompt": "Lạm phát làm tiền lương bị sao?",
+      "distractorReasons": [
+        "Sai vì 'Giúp người nghèo giàu lên nhanh chóng' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả lạm phát).",
+        "Sai vì 'Làm tiền tiết kiệm sinh lời gấp đôi' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả lạm phát).",
+        "Sai vì 'Làm giá mọi thứ rẻ như cho' không phù hợp với định lý/quy tắc trọng tâm (Hậu quả lạm phát).",
+        "Đúng vì theo Hậu quả lạm phát: Giảm sức mua của đồng tiền."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Thất nghiệp xảy ra khi máy móc công nghệ tự động hóa thay thế công nhân may thủ công thuộc loại",
       "options": [
-        "Thất nghiệp cơ cấu",
         "Thất nghiệp mùa vụ",
+        "Thất nghiệp cơ cấu",
         "Thất nghiệp ma sát",
         "Thất nghiệp tự nguyện"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Chuyển dịch cơ cấu công nghệ dẫn đến thay đổi yêu cầu kỹ năng lao động.",
       "breakdown": {
         "concept": "Thất nghiệp cơ cấu",
         "steps": "Thay đổi công nghệ, kỹ năng lỗi thời.",
         "socraticPrompt": "Máy móc thay người gọi là thất nghiệp gì?"
-      }
+      },
+      "socraticPrompt": "Máy móc thay người gọi là thất nghiệp gì?",
+      "distractorReasons": [
+        "Sai vì 'Thất nghiệp mùa vụ' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp cơ cấu).",
+        "Đúng vì theo Thất nghiệp cơ cấu: Thay đổi công nghệ, kỹ năng lỗi thời.",
+        "Sai vì 'Thất nghiệp ma sát' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp cơ cấu).",
+        "Sai vì 'Thất nghiệp tự nguyện' không phù hợp với định lý/quy tắc trọng tâm (Thất nghiệp cơ cấu)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Quỹ an sinh xã hội chi trả trợ cấp hàng tháng cho người lao động khi bị mất việc làm là",
       "options": [
-        "Bảo hiểm thất nghiệp",
-        "Bảo hiểm xe máy",
         "Bảo hiểm cháy nổ",
+        "Bảo hiểm xe máy",
+        "Bảo hiểm thất nghiệp",
         "Bảo hiểm du lịch"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Chính sách Bảo hiểm thất nghiệp theo Luật Việc làm.",
       "breakdown": {
         "concept": "Bảo hiểm thất nghiệp",
         "steps": "Trợ cấp khi mất việc làm.",
         "socraticPrompt": "Bảo hiểm nào trả tiền khi mất việc?"
-      }
+      },
+      "socraticPrompt": "Bảo hiểm nào trả tiền khi mất việc?",
+      "distractorReasons": [
+        "Sai vì 'Bảo hiểm cháy nổ' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm thất nghiệp).",
+        "Sai vì 'Bảo hiểm xe máy' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm thất nghiệp).",
+        "Đúng vì theo Bảo hiểm thất nghiệp: Trợ cấp khi mất việc làm.",
+        "Sai vì 'Bảo hiểm du lịch' không phù hợp với định lý/quy tắc trọng tâm (Bảo hiểm thất nghiệp)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

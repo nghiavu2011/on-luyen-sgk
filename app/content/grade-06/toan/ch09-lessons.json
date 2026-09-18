@@ -5,194 +5,292 @@
     {
       "id": "l01",
       "title": "Bài 36: Dữ liệu và thu thập dữ liệu",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Hiểu khái niệm dữ liệu và phân biệt dữ liệu là số (số liệu) với dữ liệu không phải là số.",
-        "Đánh giá được tính hợp lý của dữ liệu thu thập được trong các tình huống thực tế.",
-        "Nắm vững các phương pháp thu thập dữ liệu phổ biến: quan sát, làm thí nghiệm, phiếu hỏi khảo sát."
+        "Nhận biết được dữ liệu (số liệu, từ ngữ, hình ảnh) và tính hợp lý của dữ liệu",
+        "Biết cách thu thập, phân loại và tổ chức dữ liệu theo các tiêu chí cho trước"
       ],
       "concepts": [
         {
           "term": "Dữ liệu",
-          "definition": "Các thông tin thu thập được như chữ số, chữ cái, hình ảnh, âm thanh... được gọi là dữ liệu.",
-          "notation": "Dữ liệu số (số liệu) và dữ liệu không là số",
-          "note": "Ví dụ: chiều cao học sinh là số liệu; màu sắc yêu thích là dữ liệu không là số."
-        },
-        {
-          "term": "Tính hợp lý của dữ liệu",
-          "definition": "Dữ liệu thống kê phải phù hợp với quy luật thực tế và giới hạn cho phép của bài toán.",
-          "notation": "Ví dụ: điểm kiểm tra thuộc [0; 10], số người phải là số tự nhiên",
-          "note": "Nếu dữ liệu vượt khỏi phạm vi hợp lý thì kết quả thống kê sẽ bị sai lệch."
+          "definition": "Các thông tin thu thập được như số liệu, chữ, hình ảnh... gọi là dữ liệu. Dữ liệu dưới dạng số gọi là số liệu.",
+          "notation": "Dữ liệu thống kê",
+          "note": "Dữ liệu cần đảm bảo tính hợp lý và đại diện."
         },
         {
           "term": "Thu thập dữ liệu",
-          "definition": "Có nhiều cách để thu thập dữ liệu như quan sát trực tiếp, lập phiếu hỏi khảo sát, làm thí nghiệm hoặc tìm kiếm từ internet, sách báo.",
-          "notation": "Phiếu điều tra, bảng kiểm đếm",
-          "note": "Cần chọn phương pháp thu thập phù hợp với đối tượng khảo sát."
+          "definition": "Có thể thu thập dữ liệu bằng nhiều cách: quan sát trực tiếp, làm thí nghiệm, phỏng vấn, khảo sát qua phiếu câu hỏi.",
+          "notation": "Bảng kiểm đếm, phiếu khảo sát",
+          "note": "Cần kiểm tra tính chính xác và loại bỏ các dữ liệu vô lý."
         }
       ],
       "rules": [
         {
-          "statement": "Quy tắc kiểm tra tính hợp lý",
-          "meaning": "Dữ liệu số phải đúng định dạng, nằm trong khoảng giá trị có thể xảy ra và tổng các thành phần phải bằng tổng thể ban đầu."
+          "statement": "Dữ liệu dạng số gọi là số liệu",
+          "meaning": "Phân loại dữ liệu"
+        },
+        {
+          "statement": "Dữ liệu phải có tính hợp lý và logic trong thực tế",
+          "meaning": "Tính hợp lý của dữ liệu"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Trong một bảng thống kê điểm thi học kỳ môn Toán của tổ 1 gồm các số: 7, 8, 9, 12, 6, 8.5. Giá trị nào trong dãy là không hợp lý và vì sao?",
+          "prompt": "Bạn Nam khảo sát điểm kiểm tra Toán của 5 bạn trong tổ thu được dãy số liệu: 8; 9; 12; 7; 10. Dãy số liệu này có điểm nào không hợp lý?",
           "steps": [
-            "Bước 1: Nhận xét thang điểm môn Toán theo quy định của Bộ Giáo dục và Đào tạo là thang điểm 10 (từ 0 đến 10).",
-            "Bước 2: So sánh từng giá trị: các số 7, 8, 9, 6, 8.5 đều thuộc khoảng [0; 10].",
-            "Bước 3: Giá trị 12 vượt quá điểm tối đa 10 nên là giá trị không hợp lý trong bảng thống kê."
+            "Bước 1: Thang điểm kiểm tra chuẩn ở Việt Nam là thang điểm 10 (từ 0 đến 10).",
+            "Bước 2: Trong dãy số liệu xuất hiện điểm 12 lớn hơn 10.",
+            "Bước 3: Điểm 12 là số liệu không hợp lý do vượt quá thang điểm tối đa."
           ],
-          "answer": "Số 12 là không hợp lý vì thang điểm tối đa là 10."
+          "answer": "Số liệu 12 là không hợp lý vì thang điểm tối đa là 10"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Cho rằng số thập phân 8.5 là không hợp lý vì nghĩ điểm thi chỉ được là số nguyên.",
-          "why": "Điểm thi theo quy chế hiện hành có thể lấy điểm thập phân làm tròn đến 0.5 hoặc 0.1."
+          "mistake": "Cho rằng dữ liệu bắt buộc phải là các con số",
+          "why": "Dữ liệu có thể là văn bản (ví dụ tên các môn thể thao yêu thích: bóng đá, bơi lội) hoặc hình ảnh."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 36: Dữ liệu và thu thập dữ liệu</strong>, bao gồm các khái niệm then chốt: Dữ liệu, Thu thập dữ liệu. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Dữ liệu dạng số gọi là số liệu: Phân loại dữ liệu",
+        "Dữ liệu phải có tính hợp lý và logic trong thực tế: Tính hợp lý của dữ liệu"
+      ],
+      "examples": [
+        {
+          "problem": "Bạn Nam khảo sát điểm kiểm tra Toán của 5 bạn trong tổ thu được dãy số liệu: 8; 9; 12; 7; 10. Dãy số liệu này có điểm nào không hợp lý?",
+          "solution": "Bước 1: Thang điểm kiểm tra chuẩn ở Việt Nam là thang điểm 10 (từ 0 đến 10). | Bước 2: Trong dãy số liệu xuất hiện điểm 12 lớn hơn 10. | Bước 3: Điểm 12 là số liệu không hợp lý do vượt quá thang điểm tối đa. => Đáp số: Số liệu 12 là không hợp lý vì thang điểm tối đa là 10"
         }
       ]
     },
     {
       "id": "l02",
-      "title": "Bài 37: Bảng dữ liệu và Biểu đồ tranh",
+      "title": "Bài 37: Bảng số liệu và biểu đồ tranh",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Biết cách lập và đọc bảng số liệu thống kê ban đầu.",
-        "Hiểu cấu tạo biểu đồ tranh và ý nghĩa của mỗi biểu tượng quy ước.",
-        "Đọc, phân tích thông tin và trả lời các câu hỏi từ biểu đồ tranh."
+        "Đọc và mô tả được các dữ liệu trên bảng số liệu và biểu đồ tranh",
+        "Biết quy ước giá trị của một biểu tượng trong biểu đồ tranh để tính toán tổng số lượng"
       ],
       "concepts": [
         {
-          "term": "Bảng thống kê",
-          "definition": "Bảng gồm các hàng và cột để tổ chức, sắp xếp dữ liệu một cách trực quan, khoa học.",
-          "notation": "Các cột: Đối tượng, Kiểm đếm, Số lượng",
-          "note": "Bảng thống kê giúp người đọc dễ dàng so sánh các số liệu."
-        },
-        {
           "term": "Biểu đồ tranh",
-          "definition": "Biểu đồ sử dụng các hình ảnh hoặc biểu tượng để biểu diễn dữ liệu thống kê.",
-          "notation": "Mỗi biểu tượng đại diện cho một số lượng đơn vị cụ thể",
-          "note": "Ví dụ: 1 ngôi sao biểu diễn 5 học sinh; nửa ngôi sao biểu diễn 2.5 học sinh."
+          "definition": "Biểu đồ sử dụng các biểu tượng hoặc hình ảnh để thể hiện dữ liệu.",
+          "notation": "Biểu tượng 🌟 = 10 học sinh,  nửa 🌟 = 5 học sinh",
+          "note": "Luôn luôn đọc kỹ chú thích quy ước giá trị của mỗi biểu tượng ở cuối biểu đồ."
         }
       ],
       "rules": [
         {
-          "statement": "Quy tắc đọc biểu đồ tranh",
-          "meaning": "Số lượng thực tế của đối tượng bằng số lượng biểu tượng nhân với giá trị quy ước của một biểu tượng."
+          "statement": "Số lượng = Số biểu tượng × Giá trị của một biểu tượng",
+          "meaning": "Cách tính số lượng trong biểu đồ tranh"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Trên biểu đồ tranh, một biểu tượng bông hoa 🌸 đại diện cho 6 bông hoa điểm tốt. Nếu bạn Lan có 5 biểu tượng bông hoa thì bạn Lan nhận được bao nhiêu bông hoa điểm tốt?",
+          "prompt": "Trong một biểu đồ tranh, biểu tượng 🚗 quy ước ứng với 5 chiếc ô tô. Hàng chỉ ngày thứ Bảy có 6 biểu tượng 🚗. Hỏi ngày thứ Bảy có bao nhiêu ô tô?",
           "steps": [
-            "Bước 1: Xác định giá trị quy ước: Mỗi biểu tượng 🌸 = 6 bông hoa điểm tốt.",
-            "Bước 2: Đếm số lượng biểu tượng của bạn Lan: có 5 biểu tượng 🌸.",
-            "Bước 3: Tính số lượng thực tế: 5 · 6 = 30 bông hoa điểm tốt."
+            "Bước 1: Xác định giá trị 1 biểu tượng: 1 🚗 = 5 ô tô.",
+            "Bước 2: Số biểu tượng là 6.",
+            "Bước 3: Tổng số ô tô ngày thứ Bảy: 6 × 5 = 30 chiếc ô tô."
           ],
-          "answer": "Bạn Lan nhận được 30 bông hoa điểm tốt."
+          "answer": "30 chiếc ô tô"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Chỉ đếm số biểu tượng (trả lời 5 bông) mà quên nhân với giá trị quy ước (6 bông/biểu tượng).",
-          "why": "Phải luôn chú ý dòng chú thích ở chân biểu đồ tranh để nhân đúng hệ số quy ước."
+          "mistake": "Chỉ đếm số hình ảnh mà quên nhân với quy ước giá trị của biểu tượng",
+          "why": "Mỗi biểu tượng thường đại diện cho một số lượng lớn (5, 10, 50...) chứ không phải chỉ 1 đơn vị."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 37: Bảng số liệu và biểu đồ tranh</strong>, bao gồm các khái niệm then chốt: Biểu đồ tranh. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Số lượng = Số biểu tượng × Giá trị của một biểu tượng: Cách tính số lượng trong biểu đồ tranh"
+      ],
+      "examples": [
+        {
+          "problem": "Trong một biểu đồ tranh, biểu tượng 🚗 quy ước ứng với 5 chiếc ô tô. Hàng chỉ ngày thứ Bảy có 6 biểu tượng 🚗. Hỏi ngày thứ Bảy có bao nhiêu ô tô?",
+          "solution": "Bước 1: Xác định giá trị 1 biểu tượng: 1 🚗 = 5 ô tô. | Bước 2: Số biểu tượng là 6. | Bước 3: Tổng số ô tô ngày thứ Bảy: 6 × 5 = 30 chiếc ô tô. => Đáp số: 30 chiếc ô tô"
         }
       ]
     },
     {
       "id": "l03",
-      "title": "Bài 38: Biểu đồ cột và Biểu đồ cột kép",
+      "title": "Bài 38: Biểu đồ cột và biểu đồ cột kép",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Biết cách đọc và phân tích dữ liệu từ biểu đồ cột đơn.",
-        "Hiểu cấu trúc biểu đồ cột kép và cách so sánh hai nhóm dữ liệu cùng loại.",
-        "Nhận xét xu hướng và đưa ra kết luận từ biểu đồ cột kép."
+        "Đọc và rút ra thông tin so sánh từ biểu đồ cột đơn và biểu đồ cột kép",
+        "Biết cách so sánh hai đối tượng dữ liệu trong cùng một nhóm thông qua biểu đồ cột kép"
       ],
       "concepts": [
         {
           "term": "Biểu đồ cột",
-          "definition": "Biểu đồ gồm các cột hình chữ nhật có chiều rộng bằng nhau và chiều cao biểu diễn số liệu của từng đối tượng.",
-          "notation": "Trục ngang: tên đối tượng; Trục dọc: số lượng",
-          "note": "Khoảng cách giữa các cột nên được giữ đều nhau."
+          "definition": "Biểu đồ dùng các cột hình chữ nhật có chiều rộng bằng nhau để biểu diễn số liệu. Chiều cao của cột biểu thị số lượng.",
+          "notation": "Trục ngang: danh mục; Trục đứng: số lượng",
+          "note": "Khoảng cách giữa các cột phải đều nhau."
         },
         {
           "term": "Biểu đồ cột kép",
-          "definition": "Biểu đồ ghép hai cột cạnh nhau cho mỗi đối tượng để so sánh hai nhóm số liệu của cùng các đối tượng đó.",
-          "notation": "Hai cột có hai màu sắc hoặc họa tiết khác nhau",
-          "note": "Thường dùng so sánh số học sinh nam - nữ, so sánh số liệu hai học kỳ."
+          "definition": "Dùng để so sánh từng cặp số liệu của hai đối tượng cùng loại (ví dụ: so sánh điểm Toán của nam và nữ trong các tổ).",
+          "notation": "Hai cột liền kề có màu khác nhau",
+          "note": "Phải có bảng chú giải quy ước màu sắc cho từng đối tượng."
         }
       ],
       "rules": [
         {
-          "statement": "Quy tắc so sánh trên biểu đồ cột kép",
-          "meaning": "Cột nào cao hơn thì số liệu của nhóm đó lớn hơn. Chênh lệch độ cao phản ánh sự chênh lệch số lượng thực tế."
+          "statement": "Chiều cao của cột tỉ lệ thuận với số lượng dữ liệu",
+          "meaning": "Đặc trưng biểu đồ cột"
+        },
+        {
+          "statement": "Biểu đồ cột kép dùng để so sánh trực quan hai đối tượng",
+          "meaning": "Ứng dụng biểu đồ cột kép"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Một biểu đồ cột kép biểu diễn số học sinh Giỏi của lớp 6A trong Học kỳ 1 là 14 bạn, Học kỳ 2 là 22 bạn. Hỏi số học sinh Giỏi Học kỳ 2 tăng bao nhiêu phần trăm so với Học kỳ 1 (làm tròn đến hàng phần mười)?",
+          "prompt": "Một biểu đồ cột kép so sánh số học sinh Giỏi kì 1 và kì 2 của lớp 6A: kì 1 cột cao ứng với số 15, kì 2 cột cao ứng với số 22. Hỏi số học sinh Giỏi kì 2 tăng bao nhiêu bạn so với kì 1?",
           "steps": [
-            "Bước 1: Số học sinh Giỏi tăng thêm là: 22 - 14 = 8 bạn.",
-            "Bước 2: Tỉ số phần trăm tăng thêm so với Học kỳ 1 là: (8 · 100 / 14)% ≈ 57.14%.",
-            "Bước 3: Làm tròn đến hàng phần mười ta được: 57.1%."
+            "Bước 1: Đọc số liệu: Kì 1 có 15 học sinh Giỏi; Kì 2 có 22 học sinh Giỏi.",
+            "Bước 2: Số học sinh Giỏi tăng thêm: 22 - 15 = 7 bạn."
           ],
-          "answer": "Tăng thêm 8 bạn, tương ứng tăng 57.1%."
+          "answer": "Tăng thêm 7 học sinh Giỏi"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Lấy số tăng thêm chia cho số liệu Học kỳ 2 (chia 22) thay vì chia cho số liệu gốc Học kỳ 1 (chia 14).",
-          "why": "Khi tính tỉ lệ tăng trưởng, mẫu số luôn là số liệu ban đầu trước khi tăng (ở đây là Học kỳ 1)."
+          "mistake": "Nhìn nhầm màu cột giữa hai đối tượng trong biểu đồ cột kép",
+          "why": "Cần đối chiếu kỹ với bảng chú giải màu sắc ở góc biểu đồ."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 38: Biểu đồ cột và biểu đồ cột kép</strong>, bao gồm các khái niệm then chốt: Biểu đồ cột, Biểu đồ cột kép. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Chiều cao của cột tỉ lệ thuận với số lượng dữ liệu: Đặc trưng biểu đồ cột",
+        "Biểu đồ cột kép dùng để so sánh trực quan hai đối tượng: Ứng dụng biểu đồ cột kép"
+      ],
+      "examples": [
+        {
+          "problem": "Một biểu đồ cột kép so sánh số học sinh Giỏi kì 1 và kì 2 của lớp 6A: kì 1 cột cao ứng với số 15, kì 2 cột cao ứng với số 22. Hỏi số học sinh Giỏi kì 2 tăng bao nhiêu bạn so với kì 1?",
+          "solution": "Bước 1: Đọc số liệu: Kì 1 có 15 học sinh Giỏi; Kì 2 có 22 học sinh Giỏi. | Bước 2: Số học sinh Giỏi tăng thêm: 22 - 15 = 7 bạn. => Đáp số: Tăng thêm 7 học sinh Giỏi"
         }
       ]
     },
     {
       "id": "l04",
-      "title": "Bài 39: Khả năng xảy ra của một sự kiện và Xác suất thực nghiệm",
+      "title": "Bài 39: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm",
+      "durationMinutes": 15,
       "hasRealContent": true,
       "objectives": [
-        "Phân biệt được ba loại sự kiện: sự kiện chắc chắn, sự kiện không thể và sự kiện có thể.",
-        "Nắm vững định nghĩa và công thức tính xác suất thực nghiệm của một sự kiện.",
-        "Vận dụng tính xác suất thực nghiệm qua các hoạt động gieo đồng xu, tung xúc xắc."
+        "Liệt kê được tất cả các kết quả có thể xảy ra của một trò chơi hoặc thí nghiệm đơn giản",
+        "Nhận biết sự kiện xảy ra hoặc không xảy ra sau khi thực hiện phép thử"
       ],
       "concepts": [
         {
-          "term": "Phân loại sự kiện",
-          "definition": "Sự kiện chắc chắn luôn xảy ra. Sự kiện không thể không bao giờ xảy ra. Sự kiện có thể là sự kiện có thể xảy ra hoặc không xảy ra.",
-          "notation": "Chắc chắn (P = 1), Không thể (P = 0), Có thể (0 < P < 1)",
-          "note": "Gieo con xúc xắc 6 mặt: mặt xuất hiện có số chấm nhỏ hơn 7 là sự kiện chắc chắn."
+          "term": "Kết quả có thể",
+          "definition": "Tất cả các khả năng có thể xuất hiện khi thực hiện một thí nghiệm hoặc trò chơi.",
+          "notation": "Tung đồng xu: {Sấp; Ngửa}; Gieo xúc xắc: {1; 2; 3; 4; 5; 6}",
+          "note": "Không thể dự đoán chính xác kết quả nào sẽ xảy ra trước khi thực hiện."
         },
         {
-          "term": "Xác suất thực nghiệm",
-          "definition": "Khi thực hiện một phép thử lặp lại n lần, nếu sự kiện E xuất hiện k lần thì tỉ số k / n được gọi là xác suất thực nghiệm của sự kiện E.",
-          "notation": "P(E) = k / n (với 0 ≤ k ≤ n)",
-          "note": "Xác suất thực nghiệm luôn là một số từ 0 đến 1 (từ 0% đến 100%)."
+          "term": "Sự kiện",
+          "definition": "Một sự việc có thể xảy ra hoặc không xảy ra trong một phép thử.",
+          "notation": "Sự kiện A: 'Xuất hiện mặt sấp'",
+          "note": "Sự kiện xảy ra khi kết quả của phép thử thỏa mãn điều kiện của sự kiện đó."
         }
       ],
       "rules": [
         {
-          "statement": "Định luật số lớn",
-          "meaning": "Khi số lần thực nghiệm n càng lớn thì xác suất thực nghiệm k/n càng tiến gần và dao động xung quanh xác suất lý thuyết của sự kiện đó."
+          "statement": "Tung 1 đồng xu có đúng 2 kết quả có thể: Sấp (S) hoặc Ngửa (N)",
+          "meaning": "Không gian mẫu đồng xu"
+        },
+        {
+          "statement": "Gieo 1 xúc xắc có đúng 6 kết quả có thể: 1, 2, 3, 4, 5, 6 chấm",
+          "meaning": "Không gian mẫu xúc xắc"
         }
       ],
       "workedExamples": [
         {
-          "prompt": "Gieo một đồng xu 40 lần thấy có 24 lần xuất hiện mặt sấp. Tính xác suất thực nghiệm xuất hiện: a) Mặt sấp; b) Mặt ngửa?",
+          "prompt": "Gieo một con xúc xắc 6 mặt một lần. Liệt kê các kết quả để sự kiện 'Số chấm xuất hiện là số lẻ' xảy ra.",
           "steps": [
-            "Bước 1: Tổng số lần gieo n = 40 lần.",
-            "Bước 2: Số lần xuất hiện mặt sấp là k1 = 24 lần. Xác suất thực nghiệm xuất hiện mặt sấp là: P(S) = 24 / 40 = 3/5 = 0.6 = 60%.",
-            "Bước 3: Số lần xuất hiện mặt ngửa là k2 = 40 - 24 = 16 lần. Xác suất thực nghiệm xuất hiện mặt ngửa là: P(N) = 16 / 40 = 2/5 = 0.4 = 40%."
+            "Bước 1: Các kết quả có thể của xúc xắc là: 1, 2, 3, 4, 5, 6.",
+            "Bước 2: Các số lẻ trong các kết quả trên là: 1, 3, 5.",
+            "Bước 3: Sự kiện xảy ra khi số chấm xuất hiện là một trong ba kết quả: 1, 3 hoặc 5."
           ],
-          "answer": "Mặt sấp là 60%; Mặt ngửa là 40%."
+          "answer": "1; 3; 5 chấm"
         }
       ],
       "commonMistakes": [
         {
-          "mistake": "Lấy số lần xuất hiện mặt sấp chia cho số lần xuất hiện mặt ngửa (24 / 16) thay vì chia cho tổng số lần gieo (24 / 40).",
-          "why": "Mẫu số của xác suất thực nghiệm luôn luôn là TỔNG SỐ LẦN THỰC NGHIỆM n."
+          "mistake": "Nghĩ rằng có thể có kết quả 0 chấm khi gieo xúc xắc",
+          "why": "Xúc xắc chuẩn gồm các mặt từ 1 chấm đến 6 chấm."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 39: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm</strong>, bao gồm các khái niệm then chốt: Kết quả có thể, Sự kiện. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Tung 1 đồng xu có đúng 2 kết quả có thể: Sấp (S) hoặc Ngửa (N): Không gian mẫu đồng xu",
+        "Gieo 1 xúc xắc có đúng 6 kết quả có thể: 1, 2, 3, 4, 5, 6 chấm: Không gian mẫu xúc xắc"
+      ],
+      "examples": [
+        {
+          "problem": "Gieo một con xúc xắc 6 mặt một lần. Liệt kê các kết quả để sự kiện 'Số chấm xuất hiện là số lẻ' xảy ra.",
+          "solution": "Bước 1: Các kết quả có thể của xúc xắc là: 1, 2, 3, 4, 5, 6. | Bước 2: Các số lẻ trong các kết quả trên là: 1, 3, 5. | Bước 3: Sự kiện xảy ra khi số chấm xuất hiện là một trong ba kết quả: 1, 3 hoặc 5. => Đáp số: 1; 3; 5 chấm"
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 40: Xác suất thực nghiệm",
+      "durationMinutes": 15,
+      "hasRealContent": true,
+      "objectives": [
+        "Hiểu khái niệm xác suất thực nghiệm của một sự kiện: Tỉ số giữa số lần sự kiện xảy ra và tổng số lần thực hiện thí nghiệm",
+        "Tính được xác suất thực nghiệm từ bảng kết quả thí nghiệm và dự đoán số lần xuất hiện trong tương lai"
+      ],
+      "concepts": [
+        {
+          "term": "Xác suất thực nghiệm",
+          "definition": "Xác suất thực nghiệm xuất hiện sự kiện A khi thực hiện n lần thí nghiệm là: P(A) = k / n, trong đó k là số lần sự kiện A xảy ra.",
+          "notation": "P = k / n (k: số lần xảy ra, n: tổng số lần thử)",
+          "note": "Xác suất thực nghiệm luôn nằm trong đoạn từ 0 đến 1 (từ 0% đến 100%)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Xác suất thực nghiệm = Số lần sự kiện xảy ra / Tổng số lần thực hiện",
+          "meaning": "Công thức xác suất thực nghiệm"
+        },
+        {
+          "statement": "0 ≤ P ≤ 1 (hoặc 0% ≤ P ≤ 100%)",
+          "meaning": "Khoảng giá trị của xác suất"
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Sấp. Tính xác suất thực nghiệm của sự kiện 'Mặt Sấp xuất hiện'.",
+          "steps": [
+            "Bước 1: Xác định tổng số lần tung n = 20.",
+            "Bước 2: Số lần mặt Sấp xuất hiện k = 12.",
+            "Bước 3: Xác suất thực nghiệm: P = k / n = 12 / 20 = 3/5 = 0,6 = 60%."
+          ],
+          "answer": "12/20 = 3/5 = 60%"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy tổng số lần tung chia cho số lần xuất hiện: 20 / 12",
+          "why": "Xác suất thực nghiệm bắt buộc phải lấy số lần xảy ra chia cho TỔNG SỐ LẦN, kết quả luôn ≤ 1."
+        }
+      ],
+      "summary": "<p>Bài học cung cấp kiến thức trọng tâm về <strong>Bài 40: Xác suất thực nghiệm</strong>, bao gồm các khái niệm then chốt: Xác suất thực nghiệm. Giúp học sinh nắm vững định nghĩa, công thức và phương pháp giải toán chuẩn SGK.</p>",
+      "keyPoints": [
+        "Xác suất thực nghiệm = Số lần sự kiện xảy ra / Tổng số lần thực hiện: Công thức xác suất thực nghiệm",
+        "0 ≤ P ≤ 1 (hoặc 0% ≤ P ≤ 100%): Khoảng giá trị của xác suất"
+      ],
+      "examples": [
+        {
+          "problem": "Tung một đồng xu 20 lần thấy có 12 lần xuất hiện mặt Sấp. Tính xác suất thực nghiệm của sự kiện 'Mặt Sấp xuất hiện'.",
+          "solution": "Bước 1: Xác định tổng số lần tung n = 20. | Bước 2: Số lần mặt Sấp xuất hiện k = 12. | Bước 3: Xác suất thực nghiệm: P = k / n = 12 / 20 = 3/5 = 0,6 = 60%. => Đáp số: 12/20 = 3/5 = 60%"
         }
       ]
     }

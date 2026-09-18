@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Thông điệp đạo đức kinh doanh sâu sắc: 'Thương trường không phải là chiến trường triệt hạ, mà là sân chơi kiến tạo giá trị' khẳng định",
       "options": [
-        "Cạnh tranh lành mạnh hướng tới sự cùng phát triển và phụng sự xã hội",
-        "Phải dùng mọi thủ đoạn để tiêu diệt đối thủ",
         "Không cần tuân thủ pháp luật",
+        "Phải dùng mọi thủ đoạn để tiêu diệt đối thủ",
+        "Cạnh tranh lành mạnh hướng tới sự cùng phát triển và phụng sự xã hội",
         "Kinh doanh không cần đạo đức"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Đạo đức kinh doanh là linh hồn của nền kinh tế thị trường nhân văn.",
       "breakdown": {
         "concept": "Đạo đức kinh doanh",
         "steps": "Cạnh tranh kiến tạo giá trị cho xã hội.",
         "socraticPrompt": "Bản chất nhân văn của cạnh tranh là gì?"
-      }
+      },
+      "socraticPrompt": "Bản chất nhân văn của cạnh tranh là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần tuân thủ pháp luật' trái ngược với kiến thức SGK.",
+        "Sai vì 'Phải dùng mọi thủ đoạn để tiêu diệt đối thủ' không phù hợp với định lý/quy tắc trọng tâm (Đạo đức kinh doanh).",
+        "Đúng vì theo Đạo đức kinh doanh: Cạnh tranh kiến tạo giá trị cho xã hội.",
+        "Sai vì phủ định sai bản chất: 'Kinh doanh không cần đạo đức' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Vai trò của Nhà nước pháp quyền XHCN trong việc kiến tạo môi trường cạnh tranh là",
       "options": [
-        "Hoàn thiện thể chế pháp luật, xử lý nghiêm minh gian lận thương mại và bảo vệ quyền lợi người tiêu dùng",
+        "Cấm các doanh nghiệp tư nhân hoạt động",
         "Trực tiếp định giá mọi gói kẹo trên thị trường",
         "Bao che cho doanh nghiệp làm hàng giả",
-        "Cấm các doanh nghiệp tư nhân hoạt động"
+        "Hoàn thiện thể chế pháp luật, xử lý nghiêm minh gian lận thương mại và bảo vệ quyền lợi người tiêu dùng"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Nhà nước giữ vai trò trọng tài kiến tạo môi trường kinh doanh minh bạch, bình đẳng.",
       "breakdown": {
         "concept": "Vai trò kiến tạo của Nhà nước",
         "steps": "Môi trường cạnh tranh minh bạch, công bằng.",
         "socraticPrompt": "Nhà nước làm gì để bảo vệ thị trường lành mạnh?"
-      }
+      },
+      "socraticPrompt": "Nhà nước làm gì để bảo vệ thị trường lành mạnh?",
+      "distractorReasons": [
+        "Sai vì 'Cấm các doanh nghiệp tư nhân hoạt động' không phù hợp với định lý/quy tắc trọng tâm (Vai trò kiến tạo của Nhà nước).",
+        "Sai vì 'Trực tiếp định giá mọi gói kẹo trên thị trường' không phù hợp với định lý/quy tắc trọng tâm (Vai trò kiến tạo của Nhà nước).",
+        "Sai vì 'Bao che cho doanh nghiệp làm hàng giả' không phù hợp với định lý/quy tắc trọng tâm (Vai trò kiến tạo của Nhà nước).",
+        "Đúng vì theo Vai trò kiến tạo của Nhà nước: Môi trường cạnh tranh minh bạch, công bằng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Ý nghĩa hàng Việt",
         "steps": "Nâng cao chất lượng chinh phục người tiêu dùng.",
         "socraticPrompt": "Hàng Việt Nam chinh phục thị trường bằng cách nào?"
-      }
+      },
+      "socraticPrompt": "Hàng Việt Nam chinh phục thị trường bằng cách nào?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa hàng Việt: Nâng cao chất lượng chinh phục người tiêu dùng.",
+        "Sai vì 'Bắt buộc người dân mua hàng kém chất lượng' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hàng Việt).",
+        "Sai vì 'Đóng cửa biên giới cấm hàng ngoại' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hàng Việt).",
+        "Sai vì 'Bỏ qua tiêu chuẩn chất lượng' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa hàng Việt)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Chiến tranh giá cả' (bán phá giá dưới giá thành) gây ra tác hại gì cho nền kinh tế?",
       "options": [
-        "Triệt tiêu các doanh nghiệp vừa và nhỏ, dẫn tới độc quyền và ép giá người tiêu dùng về sau",
         "Làm cho nền kinh tế thịnh vượng mãi mãi",
+        "Triệt tiêu các doanh nghiệp vừa và nhỏ, dẫn tới độc quyền và ép giá người tiêu dùng về sau",
         "Giúp tất cả các doanh nghiệp cùng giàu có",
         "Không có tác hại nào"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Bán phá giá là thủ đoạn bất chính thâu tóm thị trường để thiết lập độc quyền.",
       "breakdown": {
         "concept": "Tác hại bán phá giá",
         "steps": "Triệt tiêu đối thủ để hình thành độc quyền.",
         "socraticPrompt": "Tại sao bán phá giá bị pháp luật cấm?"
-      }
+      },
+      "socraticPrompt": "Tại sao bán phá giá bị pháp luật cấm?",
+      "distractorReasons": [
+        "Sai vì 'Làm cho nền kinh tế thịnh vượng mãi mãi' không phù hợp với định lý/quy tắc trọng tâm (Tác hại bán phá giá).",
+        "Đúng vì theo Tác hại bán phá giá: Triệt tiêu đối thủ để hình thành độc quyền.",
+        "Sai vì 'Giúp tất cả các doanh nghiệp cùng giàu có' không phù hợp với định lý/quy tắc trọng tâm (Tác hại bán phá giá).",
+        "Sai vì phủ định sai bản chất: 'Không có tác hại nào' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Trách nhiệm khởi nghiệp trẻ",
         "steps": "Kinh doanh liêm chính, phụng sự xã hội.",
         "socraticPrompt": "Thế hệ trẻ cần chuẩn bị tư duy kinh doanh như thế nào?"
-      }
+      },
+      "socraticPrompt": "Thế hệ trẻ cần chuẩn bị tư duy kinh doanh như thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Trách nhiệm khởi nghiệp trẻ: Kinh doanh liêm chính, phụng sự xã hội.",
+        "Sai vì 'Tìm mọi kẽ hở để trốn thuế' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm khởi nghiệp trẻ).",
+        "Sai vì 'Lừa dối khách hàng để làm giàu nhanh' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm khởi nghiệp trẻ).",
+        "Sai vì 'Sản xuất hàng độc hại' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm khởi nghiệp trẻ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Đánh giá đúng đắn nhất về mối quan hệ giữa Cạnh tranh và Hợp tác trong nền kinh tế số là",
       "options": [
-        "Cạnh tranh để hoàn thiện mình, Hợp tác (Co-opetition) để cùng mở rộng thị trường và tạo ra hệ sinh thái giá trị lớn hơn",
+        "Hợp tác là dấu hiệu của sự yếu kém",
         "Chỉ có đối đầu một mất một còn",
         "Không thể có sự hợp tác giữa các đối thủ",
-        "Hợp tác là dấu hiệu của sự yếu kém"
+        "Cạnh tranh để hoàn thiện mình, Hợp tác (Co-opetition) để cùng mở rộng thị trường và tạo ra hệ sinh thái giá trị lớn hơn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Mô hình vừa cạnh tranh vừa hợp tác là xu thế phát triển tất yếu của thế giới số.",
       "breakdown": {
         "concept": "Cạnh tranh và hợp tác",
         "steps": "Vừa cạnh tranh vừa hợp tác cùng phát triển.",
         "socraticPrompt": "Xu thế hợp tác giữa các đối thủ trong kỷ nguyên số là gì?"
-      }
+      },
+      "socraticPrompt": "Xu thế hợp tác giữa các đối thủ trong kỷ nguyên số là gì?",
+      "distractorReasons": [
+        "Sai vì 'Hợp tác là dấu hiệu của sự yếu kém' không phù hợp với định lý/quy tắc trọng tâm (Cạnh tranh và hợp tác).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ có đối đầu một mất một còn', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không thể có sự hợp tác giữa các đối thủ' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Cạnh tranh và hợp tác: Vừa cạnh tranh vừa hợp tác cùng phát triển."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

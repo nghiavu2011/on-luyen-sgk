@@ -21,7 +21,16 @@
         "socraticPrompt": "Lấy khối lượng 25 nhân với 10 ta được kết quả bao nhiêu Niutơn?",
         "steps": "P = 10 · 25 = 250 N.",
         "trap": "Nhầm đơn vị 25 kg sang 25 N."
-      }
+      },
+      "socraticPrompt": "Lấy khối lượng 25 nhân với 10 ta được kết quả bao nhiêu Niutơn?",
+      "distractorReasons": [
+        "Sai vì '2,5 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng công thức P = 10 · m = 10 · 25 = 250 N.).",
+        "Sai vì '25 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng công thức P = 10 · m = 10 · 25 = 250 N.).",
+        "Đúng vì theo Áp dụng công thức P = 10 · m = 10 · 25 = 250 N.: P = 10 · 25 = 250 N.",
+        "Sai vì '2500 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng công thức P = 10 · m = 10 · 25 = 250 N.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c9_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Quả bóng đổi hướng bay và bị móp méo khi chạm găng tay thể hiện hai tác dụng nào của lực?",
         "steps": "Đổi hướng chuyển động và biến dạng đàn hồi.",
         "trap": "Khối lượng quả bóng luôn không đổi."
-      }
+      },
+      "socraticPrompt": "Quả bóng đổi hướng bay và bị móp méo khi chạm găng tay thể hiện hai tác dụng nào của lực?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm biến dạng quả bóng', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm quả bóng tăng khối lượng lên gấp đôi' (Khối lượng quả bóng luôn không đổi.).",
+        "Sai vì 'Làm quả bóng biến mất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Đổi hướng chuyển động và biến dạng đàn hồi."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c9_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Đi trên băng trơn bóng không có ma sát ta có đi lại bình thường được không?",
         "steps": "Lực ma sát nghỉ giữ đế giày bám mặt đường không bị trượt lùi.",
         "trap": "Nghĩ rằng ma sát chỉ cản trở, thực tế ma sát nghỉ là lực đẩy giúp ta bước đi."
-      }
+      },
+      "socraticPrompt": "Đi trên băng trơn bóng không có ma sát ta có đi lại bình thường được không?",
+      "distractorReasons": [
+        "Đúng vì: Lực ma sát nghỉ giữ đế giày bám mặt đường không bị trượt lùi.",
+        "Sai vì 'Trọng lực' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Lực cản của không khí' (Nghĩ rằng ma sát chỉ cản trở, thực tế ma sát nghỉ là lực đẩy giúp ta bước đi.).",
+        "Sai vì 'Lực từ của Trái Đất' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c9_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Lấy trọng lượng P chia cho 10 ta tìm được khối lượng m bằng bao nhiêu kg?",
         "steps": "m = 3,5 / 10 = 0,35 kg = 350 gam.",
         "trap": "Nhân 3,5 với 10 ra 35 kg (sai hướng biến đổi)."
-      }
+      },
+      "socraticPrompt": "Lấy trọng lượng P chia cho 10 ta tìm được khối lượng m bằng bao nhiêu kg?",
+      "distractorReasons": [
+        "Sai vì '35 kg' không phù hợp với định lý/quy tắc trọng tâm (Từ P = 10 · m suy ra m = P / 10 = 3,5 / 10 = 0,35 kg = 350 g.).",
+        "Đúng vì: m = 3,5 / 10 = 0,35 kg = 350 gam.",
+        "Sai vì '3,5 kg' không phù hợp với định lý/quy tắc trọng tâm (Từ P = 10 · m suy ra m = P / 10 = 3,5 / 10 = 0,35 kg = 350 g.).",
+        "Sai vì '350 kg' không phù hợp với định lý/quy tắc trọng tâm (Từ P = 10 · m suy ra m = P / 10 = 3,5 / 10 = 0,35 kg = 350 g.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c9_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Mũi tên nhọn bay xé gió ít cản hơn tấm bảng phẳng đúng không?",
         "steps": "Dáng khí động học giảm lực cản không khí và nước, giúp tăng tốc tiết kiệm nhiên liệu.",
         "trap": "Mặt phẳng vuông góc sẽ chịu lực cản lớn nhất."
-      }
+      },
+      "socraticPrompt": "Mũi tên nhọn bay xé gió ít cản hơn tấm bảng phẳng đúng không?",
+      "distractorReasons": [
+        "Sai vì 'Để đẹp mắt và dễ sơn vẽ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để tăng trọng lượng của phương tiện' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Dáng khí động học giảm lực cản không khí và nước, giúp tăng tốc tiết kiệm nhiên liệu.",
+        "Sai vì 'Để chở được nhiều người hơn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c9_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Mỗi cm biểu diễn 10 N thì 40 N cần vẽ đoạn thẳng dài mấy cm?",
         "steps": "40 / 10 = 4 cm.",
         "trap": "Vẽ nguyên 40 cm quá dài tràn trang giấy."
-      }
+      },
+      "socraticPrompt": "Mỗi cm biểu diễn 10 N thì 40 N cần vẽ đoạn thẳng dài mấy cm?",
+      "distractorReasons": [
+        "Sai vì '1 cm' không phù hợp với định lý/quy tắc trọng tâm (Chiều dài mũi tên = Độ lớn lực / Tỉ xích = 40 N / (10 N/cm) = 4 cm.).",
+        "Sai vì '2 cm' không phù hợp với định lý/quy tắc trọng tâm (Chiều dài mũi tên = Độ lớn lực / Tỉ xích = 40 N / (10 N/cm) = 4 cm.).",
+        "Sai vì '40 cm' không phù hợp với định lý/quy tắc trọng tâm (Chiều dài mũi tên = Độ lớn lực / Tỉ xích = 40 N / (10 N/cm) = 4 cm.).",
+        "Đúng vì: 40 / 10 = 4 cm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -20,97 +20,151 @@
         "concept": "Ý tưởng kinh doanh",
         "steps": "Sáng tạo sản phẩm dịch vụ sinh lời.",
         "socraticPrompt": "Ý tưởng kinh doanh là gì?"
-      }
+      },
+      "socraticPrompt": "Ý tưởng kinh doanh là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Ý tưởng kinh doanh: Sáng tạo sản phẩm dịch vụ sinh lời.",
+        "Sai vì 'Chiến lược quân sự' không phù hợp với định lý/quy tắc trọng tâm (Ý tưởng kinh doanh).",
+        "Sai vì 'Kế hoạch từ thiện' không phù hợp với định lý/quy tắc trọng tâm (Ý tưởng kinh doanh).",
+        "Sai vì 'Quy trình hành chính' không phù hợp với định lý/quy tắc trọng tâm (Ý tưởng kinh doanh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Nguyên tắc cốt lõi số một trong đạo đức kinh doanh tạo nên sự trường tồn của thương hiệu là",
       "options": [
-        "Chữ Tín và sự trung thực",
         "Lừa dối khách hàng khéo léo",
+        "Chữ Tín và sự trung thực",
         "Trốn thuế triệt để",
         "Chèn ép nhân viên"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Chữ Tín là sinh mệnh của doanh nghiệp trong thương trường.",
       "breakdown": {
         "concept": "Chữ Tín kinh doanh",
         "steps": "Trung thực và giữ lời hứa.",
         "socraticPrompt": "Yếu tố quan trọng nhất trong đạo đức kinh doanh là gì?"
-      }
+      },
+      "socraticPrompt": "Yếu tố quan trọng nhất trong đạo đức kinh doanh là gì?",
+      "distractorReasons": [
+        "Sai vì 'Lừa dối khách hàng khéo léo' không phù hợp với định lý/quy tắc trọng tâm (Chữ Tín kinh doanh).",
+        "Đúng vì theo Chữ Tín kinh doanh: Trung thực và giữ lời hứa.",
+        "Sai vì 'Trốn thuế triệt để' không phù hợp với định lý/quy tắc trọng tâm (Chữ Tín kinh doanh).",
+        "Sai vì 'Chèn ép nhân viên' không phù hợp với định lý/quy tắc trọng tâm (Chữ Tín kinh doanh)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Tập hợp các chuẩn mực đạo đức điều chỉnh hành vi ứng xử của các doanh nghiệp trong sản xuất kinh doanh gọi là",
       "options": [
-        "Đạo đức kinh doanh",
-        "Quy chế thi đua",
         "Nghị định xử phạt",
+        "Quy chế thi đua",
+        "Đạo đức kinh doanh",
         "Điều lệ thể thao"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Khái niệm đạo đức kinh doanh trong nền kinh tế thị trường.",
       "breakdown": {
         "concept": "Khái niệm Đạo đức kinh doanh",
         "steps": "Chuẩn mực hành vi kinh doanh.",
         "socraticPrompt": "Đạo đức kinh doanh là gì?"
-      }
+      },
+      "socraticPrompt": "Đạo đức kinh doanh là gì?",
+      "distractorReasons": [
+        "Sai vì 'Nghị định xử phạt' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Đạo đức kinh doanh).",
+        "Sai vì 'Quy chế thi đua' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Đạo đức kinh doanh).",
+        "Đúng vì theo Khái niệm Đạo đức kinh doanh: Chuẩn mực hành vi kinh doanh.",
+        "Sai vì 'Điều lệ thể thao' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Đạo đức kinh doanh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hành vi xả nước thải độc hại chưa qua xử lý ra sông suối của một nhà máy là biểu hiện của",
       "options": [
-        "Vi phạm pháp luật bảo vệ môi trường và vô đạo đức kinh doanh",
+        "Sáng kiến sản xuất",
         "Tiết kiệm chi phí thông minh",
         "Bảo vệ môi trường",
-        "Sáng kiến sản xuất"
+        "Vi phạm pháp luật bảo vệ môi trường và vô đạo đức kinh doanh"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Xả thải độc hại là hành vi tội ác với môi trường và vi phạm đạo đức kinh doanh nghiêm trọng.",
       "breakdown": {
         "concept": "Xả thải độc hại",
         "steps": "Vi phạm luật và đạo đức kinh doanh.",
         "socraticPrompt": "Xả trộm nước thải độc hại là hành vi gì?"
-      }
+      },
+      "socraticPrompt": "Xả trộm nước thải độc hại là hành vi gì?",
+      "distractorReasons": [
+        "Sai vì 'Sáng kiến sản xuất' không phù hợp với định lý/quy tắc trọng tâm (Xả thải độc hại).",
+        "Sai vì 'Tiết kiệm chi phí thông minh' không phù hợp với định lý/quy tắc trọng tâm (Xả thải độc hại).",
+        "Sai vì 'Bảo vệ môi trường' không phù hợp với định lý/quy tắc trọng tâm (Xả thải độc hại).",
+        "Đúng vì theo Xả thải độc hại: Vi phạm luật và đạo đức kinh doanh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Khái niệm CSR (Corporate Social Responsibility) trong quản trị doanh nghiệp hiện đại có nghĩa là",
       "options": [
-        "Trách nhiệm xã hội của doanh nghiệp",
         "Báo cáo doanh thu tối đa",
+        "Trách nhiệm xã hội của doanh nghiệp",
         "Chiến lược quảng cáo truyền thông",
         "Hệ thống kế toán thuế"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "CSR là cam kết phát triển bền vững phụng sự cộng đồng.",
       "breakdown": {
         "concept": "Khái niệm CSR",
         "steps": "Trách nhiệm xã hội của doanh nghiệp.",
         "socraticPrompt": "CSR viết tắt của từ gì trong kinh doanh?"
-      }
+      },
+      "socraticPrompt": "CSR viết tắt của từ gì trong kinh doanh?",
+      "distractorReasons": [
+        "Sai vì 'Báo cáo doanh thu tối đa' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm CSR).",
+        "Đúng vì theo Khái niệm CSR: Trách nhiệm xã hội của doanh nghiệp.",
+        "Sai vì 'Chiến lược quảng cáo truyền thông' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm CSR).",
+        "Sai vì 'Hệ thống kế toán thuế' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm CSR)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Người kinh doanh biết lắng nghe góp ý của khách hàng và khắc phục sự cố sản phẩm kịp thời là thể hiện",
       "options": [
-        "Thái độ cầu thị và tôn trọng quyền lợi khách hàng",
-        "Sự yếu kém hèn nhát",
         "Không có nguyên tắc",
+        "Sự yếu kém hèn nhát",
+        "Thái độ cầu thị và tôn trọng quyền lợi khách hàng",
         "Hành vi lãng phí"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Phụng sự khách hàng tận tâm là biểu hiện văn hóa kinh doanh văn minh.",
       "breakdown": {
         "concept": "Tôn trọng khách hàng",
         "steps": "Cầu thị, khắc phục sự cố kịp thời.",
         "socraticPrompt": "Khách hàng chê sản phẩm thì người bán nên làm gì?"
-      }
+      },
+      "socraticPrompt": "Khách hàng chê sản phẩm thì người bán nên làm gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có nguyên tắc' trái ngược với kiến thức SGK.",
+        "Sai vì 'Sự yếu kém hèn nhát' không phù hợp với định lý/quy tắc trọng tâm (Tôn trọng khách hàng).",
+        "Đúng vì theo Tôn trọng khách hàng: Cầu thị, khắc phục sự cố kịp thời.",
+        "Sai vì 'Hành vi lãng phí' không phù hợp với định lý/quy tắc trọng tâm (Tôn trọng khách hàng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

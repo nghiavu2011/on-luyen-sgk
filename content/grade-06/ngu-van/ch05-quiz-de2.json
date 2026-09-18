@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được định nghĩa biện pháp tu từ ẩn dụ trong tiếng việt 6.?",
+      "distractorReasons": [
+        "Sai vì 'Nói quá sự thật để gây ấn tượng mạnh' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa biện pháp tu từ ẩn dụ trong Tiếng Việt 6.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Gán hành động của con người cho con vật' (Gán hành động người cho vật là nhân hóa.).",
+        "Đúng vì theo Định nghĩa biện pháp tu từ ẩn dụ trong Tiếng Việt 6.: Ẩn dụ bản chất là so sánh ngầm dựa trên mối quan hệ tương đồng giữa hai đối tượng A và B.",
+        "Sai vì 'Lặp lại từ ngữ liên tiếp trong câu' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa biện pháp tu từ ẩn dụ trong Tiếng Việt 6.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện biện pháp nhân hóa.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hoán dụ' (Không nhầm với ẩn dụ hay hoán dụ.).",
+        "Sai vì 'Chơi chữ' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện biện pháp nhân hóa.).",
+        "Sai vì 'Điệp ngữ' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện biện pháp nhân hóa.).",
+        "Đúng vì theo Nhận diện biện pháp nhân hóa.: 'chao lượn chào đón' gán hành động và tâm lý chủ động của con người cho cánh buồm."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được giải mã hình ảnh ẩn dụ trong tác phẩm văn học.?",
+      "distractorReasons": [
+        "Đúng vì theo Giải mã hình ảnh ẩn dụ trong tác phẩm văn học.: 'Mâm bạc' là nét tương đồng về hình dáng phẳng tròn và sắc sáng lấp lánh của mặt biển Đông lúc bình minh.",
+        "Sai vì 'Chiếc đĩa bằng kim loại bạc thật của nhà vua' không phù hợp với định lý/quy tắc trọng tâm (Giải mã hình ảnh ẩn dụ trong tác phẩm văn học.).",
+        "Sai vì 'Mặt trăng rằm tháng giêng' không phù hợp với định lý/quy tắc trọng tâm (Giải mã hình ảnh ẩn dụ trong tác phẩm văn học.).",
+        "Sai vì 'Bầu trời u ám trước cơn giông' không phù hợp với định lý/quy tắc trọng tâm (Giải mã hình ảnh ẩn dụ trong tác phẩm văn học.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bố cục bài văn miêu tả cảnh sinh hoạt.?",
+      "distractorReasons": [
+        "Sai vì '2 phần: Liệt kê đồ vật và tóm tắt' không phù hợp với định lý/quy tắc trọng tâm (Bố cục bài văn miêu tả cảnh sinh hoạt.).",
+        "Đúng vì theo Bố cục bài văn miêu tả cảnh sinh hoạt.: Bài văn hoàn chỉnh bắt buộc có Mở bài - Thân bài - Kết bài theo trình tự logic.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ gồm một đoạn văn miêu tả không chia tách' (Tránh nhầm bố cục bài văn với một đoạn văn đơn lẻ.).",
+        "Sai vì 'Phần ghi âm và phần hình ảnh' không phù hợp với định lý/quy tắc trọng tâm (Bố cục bài văn miêu tả cảnh sinh hoạt.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -129,7 +161,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt bản chất của ẩn dụ và hoán dụ.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Ẩn dụ chỉ xuất hiện trong thơ cổ điển', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Ẩn dụ chỉ dùng cho đồ vật, hoán dụ chỉ dùng cho con người', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Phân biệt bản chất của ẩn dụ và hoán dụ.: Tương đồng (giống nét mặt, màu sắc, tính chất) -> Ẩn dụ. Tương cận (áo chàm - người Việt Bắc, bàn tay - sức lao động) -> Hoán dụ.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không có cách nào phân biệt được' (Cả hai đều là biện pháp thay tên gọi nhưng khác biệt cơ chế tư duy liên tưởng.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -154,7 +194,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: nghệ thuật kết hợp cảnh và người trong văn miêu tả.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không đưa bất kỳ nhân vật con người nào vào bài viết' (Thiếu con người bài văn sẽ trở thành văn tả cảnh tĩnh vật.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tập trung miêu tả thật nhiều đồ đạc cố định một chỗ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Viết thật nhiều câu văn giải thích lý thuyết ngữ pháp' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Nghệ thuật kết hợp cảnh và người trong văn miêu tả.).",
+        "Đúng vì: Con người và âm thanh lao động là linh hồn của bức tranh sinh hoạt, làm cho cảnh sống động, ấm áp."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm sự thật (Bài 4, SGK GDCD 6, trang 21).",
         "steps": "Sự thật tồn tại khách quan ngoài ý muốn chủ quan, phản ánh chân thực những gì đã và đang diễn ra trong cuộc sống hiện thực.",
-        "trap": "Nhầm sự thật với ảo tưởng hoặc tin đồn vô căn cứ."
+        "trap": "Nhầm sự thật với ảo tưởng hoặc tin đồn vô căn cứ.",
+        "socraticPrompt": "Mặt trời mọc ở hướng Đông mỗi buổi sáng có phải là một điều có thật hiển nhiên trong thực tế không?"
       },
       "socraticPrompt": "Mặt trời mọc ở hướng Đông mỗi buổi sáng có phải là một điều có thật hiển nhiên trong thực tế không?",
       "distractorReasons": [
-        "Sai, giấc mơ là ảo giác tiềm thức.",
-        "Sai, lời nịnh nọt là sự dối trá vụ lợi.",
-        "Sai, tin đồn mạng xã hội đa phần là tin giả, chưa kiểm chứng.",
-        "Chính xác theo định nghĩa chuẩn SGK GDCD 6 trang 21."
-      ]
+        "Sai vì giấc mơ là ảo giác tiềm thức.",
+        "Sai vì lời nịnh nọt là sự dối trá vụ lợi.",
+        "Sai vì tin đồn mạng xã hội đa phần là tin giả, chưa kiểm chứng.",
+        "Đúng vì định nghĩa chuẩn SGK GDCD 6 trang 21."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch04_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Khái niệm tôn trọng sự thật (Bài 4, SGK GDCD 6, trang 18-20).",
         "steps": "Tôn trọng sự thật đòi hỏi con người đứng về phía lẽ phải, nói đúng sự thật và dũng cảm bảo vệ công lý.",
-        "trap": "Nhầm tôn trọng sự thật với sự a dua theo kẻ quyền thế hoặc bao che bạn bè."
+        "trap": "Nhầm tôn trọng sự thật với sự a dua theo kẻ quyền thế hoặc bao che bạn bè.",
+        "socraticPrompt": "Một người nhìn thấy bạn trộm đồ mà dũng cảm nói sự thật cho cô giáo thì người đó đang bảo vệ điều gì?"
       },
       "socraticPrompt": "Một người nhìn thấy bạn trộm đồ mà dũng cảm nói sự thật cho cô giáo thì người đó đang bảo vệ điều gì?",
       "distractorReasons": [
-        "Chính xác, định nghĩa chuẩn về phẩm chất tôn trọng sự thật.",
-        "Sai, a dua bợ đỡ quyền thế là thói hèn nhát.",
-        "Sai, im lặng bao che là tiếp tay cho điều xấu.",
-        "Sai, nói dối làm vừa lòng là thói xảo trá."
-      ]
+        "Đúng vì định nghĩa chuẩn về phẩm chất tôn trọng sự thật.",
+        "Sai vì a dua bợ đỡ quyền thế là thói hèn nhát.",
+        "Sai vì im lặng bao che là tiếp tay cho điều xấu.",
+        "Sai vì nói dối làm vừa lòng là thói xảo trá."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch04_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Biểu hiện tôn trọng sự thật (Bài 4, SGK GDCD 6, trang 19-21).",
         "steps": "Dám nhận khuyết điểm do mình gây ra là biểu hiện rõ nét nhất của người trung thực, có lòng tự trọng và tôn trọng sự thật.",
-        "trap": "Sợ bị mắng nên nói dối đổ lỗi cho vật nuôi hoặc người khác."
+        "trap": "Sợ bị mắng nên nói dối đổ lỗi cho vật nuôi hoặc người khác.",
+        "socraticPrompt": "Khi làm sai điều gì, việc dũng cảm đứng ra nhận trách nhiệm thể hiện bản lĩnh gì của người học sinh?"
       },
       "socraticPrompt": "Khi làm sai điều gì, việc dũng cảm đứng ra nhận trách nhiệm thể hiện bản lĩnh gì của người học sinh?",
       "distractorReasons": [
-        "Sai, đổ vấy cho người khác là hành vi dối trá, hèn hạ.",
-        "Chính xác, hành vi trung thực dũng cảm đáng khen ngợi.",
-        "Sai, gian lận thành tích là sự giả dối đáng lên án.",
-        "Sai, đặt điều nói xấu là bôi nhọ bịa đặt sai sự thật."
-      ]
+        "Sai vì đổ vấy cho người khác là hành vi dối trá, hèn hạ.",
+        "Đúng vì hành vi trung thực dũng cảm đáng khen ngợi.",
+        "Sai vì gian lận thành tích là sự giả dối đáng lên án.",
+        "Sai vì đặt điều nói xấu là bôi nhọ bịa đặt sai sự thật."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch04_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Ý nghĩa của tôn trọng sự thật (Bài 4, SGK GDCD 6, trang 20).",
         "steps": "Người nói thật không bao giờ phải lo nhớ lại lời nói dối trước đó. Tâm hồn họ luôn thanh thản, ngay thẳng và có được chữ Tín thiêng liêng.",
-        "trap": "Nghĩ rằng nói thật mất lòng sẽ mất hết bạn bè."
+        "trap": "Nghĩ rằng nói thật mất lòng sẽ mất hết bạn bè.",
+        "socraticPrompt": "Khi em nói dối một điều, em có phải liên tục lo sợ bị lộ tẩy không? Nói thật mang lại cho tâm trạng cảm giác gì?"
       },
       "socraticPrompt": "Khi em nói dối một điều, em có phải liên tục lo sợ bị lộ tẩy không? Nói thật mang lại cho tâm trạng cảm giác gì?",
       "distractorReasons": [
-        "Sai, người nói dối mới sống trong lo âu sợ hãi.",
-        "Sai, bạn bè tốt luôn trân trọng những người bạn thật thà.",
-        "Chính xác, giá trị nhân văn cao quý của sự trung thực tôn trọng chân lý.",
-        "Sai, xã hội luôn bảo vệ và tôn vinh người trung thực."
-      ]
+        "Sai vì người nói dối mới sống trong lo âu sợ hãi.",
+        "Sai vì bạn bè tốt luôn trân trọng những người bạn thật thà.",
+        "Đúng vì giá trị nhân văn cao quý của sự trung thực tôn trọng chân lý.",
+        "Sai vì xã hội luôn bảo vệ và tôn vinh người trung thực."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch04_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Hành vi gian dối trái với sự thật (Bài 4, SGK GDCD 6, trang 19).",
         "steps": "Quay cóp trong thi cử là hành vi gian lận trắng trợn, phản ánh kết quả học tập giả tạo, vi phạm nghiêm trọng tính trung thực.",
-        "trap": "Coi gian lận thi cử là 'mẹo vặt' bình thường của học sinh."
+        "trap": "Coi gian lận thi cử là 'mẹo vặt' bình thường của học sinh.",
+        "socraticPrompt": "Điểm số đạt được bằng quay cóp có phản ánh đúng kiến thức thực sự trong đầu em hay không?"
       },
       "socraticPrompt": "Điểm số đạt được bằng quay cóp có phản ánh đúng kiến thức thực sự trong đầu em hay không?",
       "distractorReasons": [
         "Sai vì tự làm bài là biểu hiện trung thực đúng đắn.",
         "Sai vì bảo vệ người vô tội là đứng về phía lẽ phải.",
         "Sai vì góp ý chân thành là tôn trọng sự thật.",
-        "Chính xác, quay cóp gian lận là hành vi dối trá vi phạm đạo đức học đường."
-      ]
+        "Đúng vì quay cóp gian lận là hành vi dối trá vi phạm đạo đức học đường."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch04_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Tục ngữ về tôn trọng sự thật (Bài 4, SGK GDCD 6, trang 22).",
         "steps": "'Cây ngay không sợ chết đứng' khẳng định người sống ngay thẳng, làm đúng sự thật thì không bao giờ sợ bị vu oan giáng họa hay sợ bất kỳ thế lực xấu nào.",
-        "trap": "Câu 'Gió chiều nào theo chiều ấy' là phê phán kẻ cơ hội lá mặt lá trái."
+        "trap": "Câu 'Gió chiều nào theo chiều ấy' là phê phán kẻ cơ hội lá mặt lá trái.",
+        "socraticPrompt": "Một cái cây mọc thẳng tắp thì dù có gió bão thổi qua nó có sợ bị nghiêng đổ dễ dàng không?"
       },
       "socraticPrompt": "Một cái cây mọc thẳng tắp thì dù có gió bão thổi qua nó có sợ bị nghiêng đổ dễ dàng không?",
       "distractorReasons": [
-        "Chính xác, biểu tượng văn hóa về lòng trung thực, ngay thẳng, không sợ hiểm nguy.",
-        "Sai, phê phán kẻ cơ hội lật lọng không có lập trường.",
-        "Sai, ca ngợi chữ tín giữ lời hứa.",
-        "Sai, đề cao sự thật thà nhưng câu 'Cây ngay không sợ chết đứng' thể hiện rõ dũng khí bảo vệ sự thật hơn."
-      ]
+        "Đúng vì biểu tượng văn hóa về lòng trung thực, ngay thẳng, không sợ hiểm nguy.",
+        "Sai vì phê phán kẻ cơ hội lật lọng không có lập trường.",
+        "Sai vì ca ngợi chữ tín giữ lời hứa.",
+        "Sai vì đề cao sự thật thà nhưng câu 'Cây ngay không sợ chết đứng' thể hiện rõ dũng khí bảo vệ sự thật hơn."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

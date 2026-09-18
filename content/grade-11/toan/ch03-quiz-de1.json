@@ -22,7 +22,16 @@
         "socraticPrompt": "Khi mẫu số n tăng đến vô tận thì phân số 1/n sẽ tiến sát về giá trị nào?",
         "steps": "Theo tính chất giới hạn cơ bản: lim (1/n) = 0.",
         "trap": "Nhầm lim = 1 hoặc nhầm với giới hạn vô cực."
-      }
+      },
+      "socraticPrompt": "Khi mẫu số n tăng đến vô tận thì phân số 1/n sẽ tiến sát về giá trị nào?",
+      "distractorReasons": [
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Định lí cơ bản: lim (1 / n^k) = 0 với mọi số thực k > 0.).",
+        "Sai vì '1' không phù hợp với định lý/quy tắc trọng tâm (Định lí cơ bản: lim (1 / n^k) = 0 với mọi số thực k > 0.).",
+        "Đúng vì: Theo tính chất giới hạn cơ bản: lim (1/n) = 0.",
+        "Sai vì '-∞' không phù hợp với định lý/quy tắc trọng tâm (Định lí cơ bản: lim (1 / n^k) = 0 với mọi số thực k > 0.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c3_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Vì |q| < 1 nên q^n tiến về 0, biểu thức u1(1 - q^n)/(1 - q) còn lại gì?",
         "steps": "Khi n -> +∞, do |q| < 1 nên q^n -> 0. Do đó S = u1 · (1 - 0) / (1 - q) = u1 / (1 - q).",
         "trap": "Nhầm thứ tự phép trừ ở mẫu u1 / (q - 1)."
-      }
+      },
+      "socraticPrompt": "Vì |q| < 1 nên q^n tiến về 0, biểu thức u1(1 - q^n)/(1 - q) còn lại gì?",
+      "distractorReasons": [
+        "Đúng vì: Khi n -> +∞, do |q| < 1 nên q^n -> 0. Do đó S = u1 · (1 - 0) / (1 - q) = u1 / (1 - q).",
+        "Sai vì 'S = u1 / (q - 1)' không phù hợp với định lý/quy tắc trọng tâm (Tổng cấp số nhân lùi vô hạn: S = lim Sn = u1 / (1 - q) với |q| < 1.).",
+        "Sai vì 'S = u1(1 - q)' không phù hợp với định lý/quy tắc trọng tâm (Tổng cấp số nhân lùi vô hạn: S = lim Sn = u1 / (1 - q) với |q| < 1.).",
+        "Sai vì 'S = u1 / (1 + q)' không phù hợp với định lý/quy tắc trọng tâm (Tổng cấp số nhân lùi vô hạn: S = lim Sn = u1 / (1 - q) với |q| < 1.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c3_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Thay trực tiếp x = 1 vào biểu thức bậc hai ta được kết quả bao nhiêu?",
         "steps": "Thay x = 1: lim_{x -> 1} (2x² - 3x + 5) = 2(1)² - 3(1) + 5 = 2 - 3 + 5 = 4.",
         "trap": "Tính nhầm 2 - 3 + 5 = 0 do trừ sai dấu."
-      }
+      },
+      "socraticPrompt": "Thay trực tiếp x = 1 vào biểu thức bậc hai ta được kết quả bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Hàm đa thức xác định trên R nên giới hạn tại x0 bằng chính f(x0).).",
+        "Đúng vì: Thay x = 1: lim_{x -> 1} (2x² - 3x + 5) = 2(1)² - 3(1) + 5 = 2 - 3 + 5 = 4.",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Hàm đa thức xác định trên R nên giới hạn tại x0 bằng chính f(x0).).",
+        "Sai vì '5' không phù hợp với định lý/quy tắc trọng tâm (Hàm đa thức xác định trên R nên giới hạn tại x0 bằng chính f(x0).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c3_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Để đồ thị không bị đứt gãy tại x0, giá trị giới hạn khi x đến gần x0 phải bằng cái gì?",
         "steps": "Theo SGK, f(x) liên tục tại x0 khi và chỉ khi lim_{x -> x0} f(x) = f(x0).",
         "trap": "Chỉ chọn điều kiện cần (hàm xác định hoặc có giới hạn) nhưng chưa đủ sự bằng nhau."
-      }
+      },
+      "socraticPrompt": "Để đồ thị không bị đứt gãy tại x0, giá trị giới hạn khi x đến gần x0 phải bằng cái gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'f(x) xác định tại x0' (Chỉ chọn điều kiện cần (hàm xác định hoặc có giới hạn) nhưng chưa đủ sự bằng nhau.).",
+        "Sai vì 'Tồn tại lim_{x -> x0} f(x)' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hàm số liên tục tại điểm: lim_{x -> x0} f(x) = f(x0).).",
+        "Sai vì 'f(x0) = 0' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa hàm số liên tục tại điểm: lim_{x -> x0} f(x) = f(x0).).",
+        "Đúng vì: Theo SGK, f(x) liên tục tại x0 khi và chỉ khi lim_{x -> x0} f(x) = f(x0)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c3_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Chia cả tử và mẫu cho n, các số hạng 1/n và 4/n sẽ tiến về đâu?",
         "steps": "Chia cả tử và mẫu cho n: lim (2 + 1/n) / (3 - 4/n) = (2 + 0) / (3 - 0) = 2/3.",
         "trap": "Lấy nhầm hệ số tự do 1/(-4) = -1/4."
-      }
+      },
+      "socraticPrompt": "Chia cả tử và mẫu cho n, các số hạng 1/n và 4/n sẽ tiến về đâu?",
+      "distractorReasons": [
+        "Đúng vì: Chia cả tử và mẫu cho n: lim (2 + 1/n) / (3 - 4/n) = (2 + 0) / (3 - 0) = 2/3.",
+        "Sai vì '1/3' không phù hợp với định lý/quy tắc trọng tâm (Bậc tử bằng bậc mẫu, giới hạn bằng tỉ số hai hệ số của bậc cao nhất.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '-1/4' (Lấy nhầm hệ số tự do 1/(-4) = -1/4.).",
+        "Sai vì '+∞' không phù hợp với định lý/quy tắc trọng tâm (Bậc tử bằng bậc mẫu, giới hạn bằng tỉ số hai hệ số của bậc cao nhất.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c3_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Mẫu số x - 3 triệt tiêu tại giá trị nào? Tập xác định của hàm số là gì?",
         "steps": "Hàm số xác định khi x ≠ 3, tức là D = (-∞; 3) ∪ (3; +∞). Do đó hàm số liên tục trên các khoảng (-∞; 3) và (3; +∞).",
         "trap": "Chọn liên tục trên toàn R vì quên điểm gián đoạn x = 3."
-      }
+      },
+      "socraticPrompt": "Mẫu số x - 3 triệt tiêu tại giá trị nào? Tập xác định của hàm số là gì?",
+      "distractorReasons": [
+        "Sai vì 'R' không phù hợp với định lý/quy tắc trọng tâm (Hàm phân thức hữu tỉ liên tục trên từng khoảng xác định của nó.).",
+        "Đúng vì: Hàm số xác định khi x ≠ 3, tức là D = (-∞; 3) ∪ (3; +∞). Do đó hàm số liên tục trên các khoảng (-∞; 3) và (3; +∞).",
+        "Sai vì '[3; +∞)' không phù hợp với định lý/quy tắc trọng tâm (Hàm phân thức hữu tỉ liên tục trên từng khoảng xác định của nó.).",
+        "Sai vì '(-∞; -1)' không phù hợp với định lý/quy tắc trọng tâm (Hàm phân thức hữu tỉ liên tục trên từng khoảng xác định của nó.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

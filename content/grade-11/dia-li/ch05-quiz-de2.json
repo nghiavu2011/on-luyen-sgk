@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Nguyên nhân khiến Tây Nam Á trở thành điểm nóng xung đột địa chính trị kéo dài là",
       "options": [
-        "Tranh chấp tài nguyên dầu mỏ, vị trí chiến lược, nguồn nước và xung đột sắc tộc - tôn giáo",
         "Do cạnh tranh về diện tích rừng",
+        "Tranh chấp tài nguyên dầu mỏ, vị trí chiến lược, nguồn nước và xung đột sắc tộc - tôn giáo",
         "Do tranh chấp các mỏ băng tuyết",
         "Do không có tài nguyên nào"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Sự can thiệp của các cường quốc và mâu thuẫn nội tại tôn giáo, sắc tộc.",
       "breakdown": {
         "concept": "Điểm nóng Tây Nam Á",
         "steps": "Dầu mỏ + Vị trí chiến lược + Tôn giáo.",
         "socraticPrompt": "Tại sao Tây Nam Á thường xuyên xảy ra xung đột?"
-      }
+      },
+      "socraticPrompt": "Tại sao Tây Nam Á thường xuyên xảy ra xung đột?",
+      "distractorReasons": [
+        "Sai vì 'Do cạnh tranh về diện tích rừng' không phù hợp với định lý/quy tắc trọng tâm (Điểm nóng Tây Nam Á).",
+        "Đúng vì theo Điểm nóng Tây Nam Á: Dầu mỏ + Vị trí chiến lược + Tôn giáo.",
+        "Sai vì 'Do tranh chấp các mỏ băng tuyết' không phù hợp với định lý/quy tắc trọng tâm (Điểm nóng Tây Nam Á).",
+        "Sai vì phủ định sai bản chất: 'Do không có tài nguyên nào' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Để giải quyết tình trạng khan hiếm nước ngọt, các quốc gia vùng Vịnh đã áp dụng giải pháp công nghệ nào?",
       "options": [
-        "Xây dựng các nhà máy lọc nước biển quy mô lớn và công nghệ tưới tiết kiệm nước",
-        "Chờ mưa rơi tự nhiên",
         "Khai thác hết nước ngầm không bù đắp",
+        "Chờ mưa rơi tự nhiên",
+        "Xây dựng các nhà máy lọc nước biển quy mô lớn và công nghệ tưới tiết kiệm nước",
         "Nhập khẩu nước đóng chai 100% cho tưới tiêu"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Công nghệ khử mặn nước biển bằng năng lượng mặt trời là cứu cánh của vùng Vịnh.",
       "breakdown": {
         "concept": "Giải pháp nước ngọt vùng Vịnh",
         "steps": "Khử mặn nước biển + Tưới nhỏ giọt.",
         "socraticPrompt": "Các nước sa mạc lấy nước ngọt ở đâu?"
-      }
+      },
+      "socraticPrompt": "Các nước sa mạc lấy nước ngọt ở đâu?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Khai thác hết nước ngầm không bù đắp' trái ngược với kiến thức SGK.",
+        "Sai vì 'Chờ mưa rơi tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp nước ngọt vùng Vịnh).",
+        "Đúng vì theo Giải pháp nước ngọt vùng Vịnh: Khử mặn nước biển + Tưới nhỏ giọt.",
+        "Sai vì 'Nhập khẩu nước đóng chai 100% cho tưới tiêu' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp nước ngọt vùng Vịnh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Chiến lược 'Tầm nhìn 2030' của Ả Rập Xê Út và UAE nhằm mục đích chuyển dịch kinh tế như thế nào?",
       "options": [
-        "Giảm phụ thuộc vào dầu mỏ, phát triển năng lượng xanh, du lịch, tài chính và công nghệ cao",
+        "Quay lại mô hình du mục thuần túy",
         "Tăng khai thác dầu gấp 10 lần",
         "Đóng cửa không đón du khách",
-        "Quay lại mô hình du mục thuần túy"
+        "Giảm phụ thuộc vào dầu mỏ, phát triển năng lượng xanh, du lịch, tài chính và công nghệ cao"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Đa dạng hóa nền kinh tế để chuẩn bị cho kỷ nguyên hậu dầu mỏ.",
       "breakdown": {
         "concept": "Chiến lược đa dạng hóa kinh tế",
         "steps": "Phát triển du lịch, tài chính, công nghệ cao.",
         "socraticPrompt": "Tại sao các nước vùng Vịnh xây siêu đô thị Dubai, NEOM?"
-      }
+      },
+      "socraticPrompt": "Tại sao các nước vùng Vịnh xây siêu đô thị Dubai, NEOM?",
+      "distractorReasons": [
+        "Sai vì 'Quay lại mô hình du mục thuần túy' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược đa dạng hóa kinh tế).",
+        "Sai vì 'Tăng khai thác dầu gấp 10 lần' không phù hợp với định lý/quy tắc trọng tâm (Chiến lược đa dạng hóa kinh tế).",
+        "Sai vì phủ định sai bản chất: 'Đóng cửa không đón du khách' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Chiến lược đa dạng hóa kinh tế: Phát triển du lịch, tài chính, công nghệ cao."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Nông nghiệp công nghệ cao Israel",
         "steps": "Khoa học công nghệ chinh phục sa mạc.",
         "socraticPrompt": "Bài học nông nghiệp từ Israel là gì?"
-      }
+      },
+      "socraticPrompt": "Bài học nông nghiệp từ Israel là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Nông nghiệp công nghệ cao Israel: Khoa học công nghệ chinh phục sa mạc.",
+        "Sai vì phủ định sai bản chất: 'Không thể trồng cây trên sa mạc' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Nông nghiệp chỉ dựa vào may rủi thời tiết', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Sa mạc không thể sản xuất lương thực' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Tác động của giá dầu mỏ thế giới biến động đối với các nước Tây Nam Á là",
       "options": [
-        "Ảnh hưởng trực tiếp đến nguồn thu ngân sách quốc gia và tốc độ tăng trưởng kinh tế",
+        "Làm thay đổi nhiệt độ khí hậu",
         "Không có bất kỳ tác động nào",
         "Chỉ ảnh hưởng đến ngành đánh cá",
-        "Làm thay đổi nhiệt độ khí hậu"
+        "Ảnh hưởng trực tiếp đến nguồn thu ngân sách quốc gia và tốc độ tăng trưởng kinh tế"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Khi giá dầu giảm sâu, nguồn thu ngân sách bị thâm hụt nặng nề.",
       "breakdown": {
         "concept": "Tác động giá dầu",
         "steps": "Ảnh hưởng trực tiếp ngân sách quốc gia.",
         "socraticPrompt": "Giá dầu tăng giảm ảnh hưởng gì tới các nước Tây Nam Á?"
-      }
+      },
+      "socraticPrompt": "Giá dầu tăng giảm ảnh hưởng gì tới các nước Tây Nam Á?",
+      "distractorReasons": [
+        "Sai vì 'Làm thay đổi nhiệt độ khí hậu' không phù hợp với định lý/quy tắc trọng tâm (Tác động giá dầu).",
+        "Sai vì phủ định sai bản chất: 'Không có bất kỳ tác động nào' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ ảnh hưởng đến ngành đánh cá', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Tác động giá dầu: Ảnh hưởng trực tiếp ngân sách quốc gia."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Năng lượng mặt trời Tây Nam Á",
         "steps": "Nguồn năng lượng mặt trời khổng lồ.",
         "socraticPrompt": "Năng lượng xanh nào dồi dào nhất ở sa mạc Tây Nam Á?"
-      }
+      },
+      "socraticPrompt": "Năng lượng xanh nào dồi dào nhất ở sa mạc Tây Nam Á?",
+      "distractorReasons": [
+        "Đúng vì theo Năng lượng mặt trời Tây Nam Á: Nguồn năng lượng mặt trời khổng lồ.",
+        "Sai vì 'Năng lượng thủy triều' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng mặt trời Tây Nam Á).",
+        "Sai vì 'Năng lượng địa nhiệt băng giá' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng mặt trời Tây Nam Á).",
+        "Sai vì 'Thủy điện sông lớn' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng mặt trời Tây Nam Á)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

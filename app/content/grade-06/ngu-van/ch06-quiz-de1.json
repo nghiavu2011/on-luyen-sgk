@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được sự ra đời và dấu hiệu kỳ lạ của người anh hùng.?",
+      "distractorReasons": [
+        "Sai vì 'Biết cưỡi ngựa bắn cung' không phù hợp với định lý/quy tắc trọng tâm (Sự ra đời và dấu hiệu kỳ lạ của người anh hùng.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Biết đọc sách từ khi mới sinh' (Không nhầm với các nhân vật thần đồng biết nói từ sơ sinh.).",
+        "Đúng vì theo Sự ra đời và dấu hiệu kỳ lạ của người anh hùng.: Gióng nằm im nhưng khi nghe tiếng gọi non sông thì cất tiếng nói đầu tiên đòi đi đánh giặc.",
+        "Sai vì 'Suốt ngày ca hát' không phù hợp với định lý/quy tắc trọng tâm (Sự ra đời và dấu hiệu kỳ lạ của người anh hùng.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhân vật lịch sử gắn với truyền thuyết hồ gươm.?",
+      "distractorReasons": [
+        "Sai vì 'Tướng quân Nguyễn Trãi' không phù hợp với định lý/quy tắc trọng tâm (Nhân vật lịch sử gắn với truyền thuyết Hồ Gươm.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chủ tướng Lê Lai' (Lê Lai là người liều mình cứu chúa thời kỳ trước đó.).",
+        "Sai vì 'Thầy giáo Chu Văn An' không phù hợp với định lý/quy tắc trọng tâm (Nhân vật lịch sử gắn với truyền thuyết Hồ Gươm.).",
+        "Đúng vì theo Nhân vật lịch sử gắn với truyền thuyết Hồ Gươm.: Sau khi đánh tan quân Minh, vua Lê Thái Tổ ngự thuyền rồng trên hồ Tả Vọng và trao trả gươm thần."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng chi tiết hoang đường kỳ ảo trong truyền thuyết.?",
+      "distractorReasons": [
+        "Đúng vì theo Đặc trưng chi tiết hoang đường kỳ ảo trong truyền thuyết.: Kỳ ảo hóa nguồn gốc để tôn vinh sự vĩ đại của người anh hùng dân tộc.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là chi tiết ngẫu nhiên không có ý nghĩa gì', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để chứng minh khoa học thời xưa' (Không giải thích theo tư duy y học hiện đại.).",
+        "Sai vì 'Thể hiện mẹ Gióng là một vị thần tiên' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng chi tiết hoang đường kỳ ảo trong truyền thuyết.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ bình nguyên.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bàn tay mẹ có phép thuật biến ra vàng bạc' (Bàn tay mẹ là biểu tượng của tình thương, không phải phép thần thông.).",
+        "Đúng vì theo Đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ Bình Nguyên.: 'Bàn tay mẹ chắn mưa sa / Bàn tay mẹ kéo góc trời xa gần' – biểu tượng cho sự hy sinh vô bờ bến của người mẹ.",
+        "Sai vì 'Bàn tay mẹ có sức mạnh nhấc bổng quả núi' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ Bình Nguyên.).",
+        "Sai vì 'Bàn tay mẹ dùng để may thêu đồ trang sức' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu biểu tượng 'bàn tay mẹ' trong thơ Bình Nguyên.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa biểu tượng chi tiết gióng bay về trời.?",
+      "distractorReasons": [
+        "Sai vì 'Vì Gióng sợ bị người khác làm phiền' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa biểu tượng chi tiết Gióng bay về trời.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì Gióng giận nhà vua không thăng chức tước cho mình' (Gióng hoàn toàn không màng quan tước hay tư lợi cá nhân.).",
+        "Đúng vì theo Ý nghĩa biểu tượng chi tiết Gióng bay về trời.: Nhân dân bất tử hóa người anh hùng; Gióng về trời để sống mãi trong tâm thức dân tộc.",
+        "Sai vì 'Vì ngựa sắt bị hết cỏ ăn' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa biểu tượng chi tiết Gióng bay về trời.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.?",
+      "distractorReasons": [
+        "Sai vì 'Nhắc nhở vua chúa phải luôn giữ vũ khí bên mình' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.).",
+        "Sai vì 'Khuyên nhân dân nên đúc thật nhiều vũ khí cất giữ' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.).",
+        "Sai vì 'Khẳng định loài rùa biển rất thích ăn kiếm sắt' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Tư tưởng triết lý chính nghĩa và hòa bình của dân tộc.).",
+        "Đúng vì: 'Thuận Thiên' = Lòng dân là ý trời; 'Hoàn Kiếm' = trả vũ khí, khép lại chiến tranh để xây dựng cuộc sống thái bình."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

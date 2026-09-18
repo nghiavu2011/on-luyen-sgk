@@ -23,12 +23,15 @@
         "steps": "3 vòng thành kết hợp hào nước sâu và lũy đất cao tạo pháo đài bất khả xâm phạm.",
         "trap": "Nhầm rằng thành được xây hoàn toàn bằng đá tảng."
       },
-      "distractorReasons": {
-        "A": "Sai, thành đắp bằng đất sét và đá cuội, gồm 3 vòng chứ không phải 1.",
-        "B": "Sai, thành đắp bằng đất sét pha gạch đá chứ không phải thành gỗ 5 vòng.",
-        "C": "Đáp án đúng theo SGK trang 63.",
-        "D": "Sai, thành có hệ thống tường lũy đất đồ sộ cao từ 4 đến 10 mét."
-      }
+      "distractorReasons": [
+        "Sai vì thành đắp bằng đất sét và đá cuội, gồm 3 vòng chứ không phải 1.",
+        "Sai vì thành đắp bằng đất sét pha gạch đá chứ không phải thành gỗ 5 vòng.",
+        "Đúng vì SGK trang 63.",
+        "Sai vì thành có hệ thống tường lũy đất đồ sộ cao từ 4 đến 10 mét."
+      ],
+      "socraticPrompt": "Cổ Loa có tên gọi khác là Loa Thành vì có hình xoáy giống vật gì? Gồm mấy vòng thành?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch05_d2_02",
@@ -49,12 +52,15 @@
         "steps": "Họ Hùng = các Vua Hùng. Dựng lại nghiệp xưa = khôi phục độc lập dân tộc.",
         "trap": "Hiểu hạn hẹp chỉ là việc đền ơn trả nợ cá nhân cho chồng là Thi Sách."
       },
-      "distractorReasons": {
-        "A": "Sai, cuộc khởi nghĩa dựa trên sức mạnh tự lực tự cường của toàn dân.",
-        "B": "Sai, đây là mục tiêu chính trị cứu nước vĩ đại, không phải tìm đồ cổ.",
-        "C": "Sai, cuộc chiến vì độc lập tự do chứ không phải xây cất lăng tẩm.",
-        "D": "Đáp án đúng thể hiện ý chí quật cường của Hai Bà Trưng SGK trang 71."
-      }
+      "distractorReasons": [
+        "Sai vì cuộc khởi nghĩa dựa trên sức mạnh tự lực tự cường của toàn dân.",
+        "Sai vì đây là mục tiêu chính trị cứu nước vĩ đại, không phải tìm đồ cổ.",
+        "Sai vì cuộc chiến vì độc lập tự do chứ không phải xây cất lăng tẩm.",
+        "Đúng vì ể hiện ý chí quật cường của Hai Bà Trưng SGK trang 71."
+      ],
+      "socraticPrompt": "Họ Hùng là ai trong lịch sử nước ta? Nghiệp xưa họ Hùng là gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch05_d2_03",
@@ -75,12 +81,15 @@
         "steps": "Thể hiện khí phách quật khởi chống ngoại xâm phi thường.",
         "trap": "Hiểu sai theo nghĩa đen tầm thường là đi câu cá ngoài biển."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo SGK trang 73.",
-        "B": "Sai, 'chém cá kình' là ẩn dụ cho việc đánh đuổi kẻ thù xâm lược hung bạo.",
-        "C": "Sai, đây là ý chí cứu nước vĩ đại, không phải đổi nghề nghiệp.",
-        "D": "Sai, Bà Triệu vô cùng dũng cảm cưỡi voi lãnh đạo quân dân nghênh chiến."
-      }
+      "distractorReasons": [
+        "Đúng vì SGK trang 73.",
+        "Sai vì 'chém cá kình' là ẩn dụ cho việc đánh đuổi kẻ thù xâm lược hung bạo.",
+        "Sai vì đây là ý chí cứu nước vĩ đại, không phải đổi nghề nghiệp.",
+        "Sai vì Bà Triệu vô cùng dũng cảm cưỡi voi lãnh đạo quân dân nghênh chiến."
+      ],
+      "socraticPrompt": "Hình ảnh 'cưỡi gió mạnh, đạp sóng dữ, chém cá kình' biểu tượng cho điều gì?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch05_d2_04",
@@ -101,12 +110,15 @@
         "steps": "Đầm Dạ Trạch là căn cứ địa du kích tiêu biểu đầu tiên trong lịch sử chống ngoại xâm.",
         "trap": "Nhầm lẫn với các vùng rừng núi xa xôi Tây Bắc."
       },
-      "distractorReasons": {
-        "A": "Sai, đỉnh Phan-xi-păng quá cao hiểm trở không thể làm căn cứ thủy quân.",
-        "B": "Đáp án chính xác theo SGK trang 75.",
-        "C": "Sai, căn cứ nằm ở châu thổ sông Hồng chứ không phải ngoài vịnh.",
-        "D": "Sai, Cà Mau thời kì đó không thuộc địa bàn tác chiến của nhà Tiền Lý."
-      }
+      "distractorReasons": [
+        "Sai vì đỉnh Phan-xi-păng quá cao hiểm trở không thể làm căn cứ thủy quân.",
+        "Đúng vì SGK trang 75.",
+        "Sai vì căn cứ nằm ở châu thổ sông Hồng chứ không phải ngoài vịnh.",
+        "Sai vì Cà Mau thời kì đó không thuộc địa bàn tác chiến của nhà Tiền Lý."
+      ],
+      "socraticPrompt": "Vị tướng được tôn là Dạ Trạch Vương (Vua Đầm Lầy) đóng căn cứ ở đâu?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch05_d2_05",
@@ -127,12 +139,15 @@
         "steps": "Sự kết hợp hoàn hảo giữa địa hình hiểm trở, hiện tượng thủy triều và lòng dũng cảm của toàn dân.",
         "trap": "Thời kì này chưa hề có súng thần công (súng xuất hiện vào thời nhà Hồ thế kỉ XV)."
       },
-      "distractorReasons": {
-        "A": "Sai, súng đạn chưa hề xuất hiện vào thế kỉ X.",
-        "B": "Sai, Ngô Quyền hoàn toàn tự lực dựa vào sức mạnh đại đoàn kết dân tộc.",
-        "C": "Đáp án đúng theo phân tích nghệ thuật quân sự SGK trang 84.",
-        "D": "Sai, dân tộc ta chiến đấu bằng mưu lược quân sự chính nghĩa, không dùng chất độc."
-      }
+      "distractorReasons": [
+        "Sai vì súng đạn chưa hề xuất hiện vào thế kỉ X.",
+        "Sai vì Ngô Quyền hoàn toàn tự lực dựa vào sức mạnh đại đoàn kết dân tộc.",
+        "Đúng vì ân tích nghệ thuật quân sự SGK trang 84.",
+        "Sai vì dân tộc ta chiến đấu bằng mưu lược quân sự chính nghĩa, không dùng chất độc."
+      ],
+      "socraticPrompt": "Ngô Quyền dùng bãi cọc nhọn kết hợp với hiện tượng thiên nhiên nào ở cửa sông?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch05_d2_06",
@@ -153,12 +168,15 @@
         "steps": "Gia đình và làng xóm cổ truyền là cái nôi bảo tồn bản sắc văn hóa dân tộc bất diệt.",
         "trap": "Nghĩ rằng chính quyền đô hộ buông lỏng việc đồng hóa (thực tế chúng áp đặt rất hà khắc)."
       },
-      "distractorReasons": {
-        "A": "Sai, chúng mở trường dạy chữ Hán nhằm mục đích đồng hóa dân ta.",
-        "B": "Sai, người Việt cư trú trù phú ở khắp vùng đồng bằng và trung du màu mỡ.",
-        "C": "Sai, thời kì Bắc thuộc kéo dài đằng đẵng hơn một nghìn năm (hơn 10 thế kỉ).",
-        "D": "Đáp án đúng theo bài học đấu tranh bảo tồn văn hóa dân tộc SGK trang 78."
-      }
+      "distractorReasons": [
+        "Sai vì chúng mở trường dạy chữ Hán nhằm mục đích đồng hóa dân ta.",
+        "Sai vì người Việt cư trú trù phú ở khắp vùng đồng bằng và trung du màu mỡ.",
+        "Sai vì thời kì Bắc thuộc kéo dài đằng đẵng hơn một nghìn năm (hơn 10 thế kỉ).",
+        "Đúng vì bài học đấu tranh bảo tồn văn hóa dân tộc SGK trang 78."
+      ],
+      "socraticPrompt": "Nơi nào đã che chở, nuôi dưỡng tiếng nói và phong tục của người Việt suốt ngàn năm Bắc thuộc?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

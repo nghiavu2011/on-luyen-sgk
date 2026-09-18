@@ -21,7 +21,16 @@
         "socraticPrompt": "Khí trơ chiếm 78% không khí, không phản ứng với dầu mỡ giúp thực phẩm không bị ôi khét là khí gì?",
         "steps": "Bơm khí nitrogen thay thế oxygen để ngăn quá trình oxy hoá dầu mỡ làm ôi thiu bánh.",
         "trap": "Nếu bơm oxygen thì chất béo trong khoai tây chiên sẽ bị oxy hoá ôi thiu rất nhanh."
-      }
+      },
+      "socraticPrompt": "Khí trơ chiếm 78% không khí, không phản ứng với dầu mỡ giúp thực phẩm không bị ôi khét là khí gì?",
+      "distractorReasons": [
+        "Đúng vì: Bơm khí nitrogen thay thế oxygen để ngăn quá trình oxy hoá dầu mỡ làm ôi thiu bánh.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí Oxygen tinh khiết' (Nếu bơm oxygen thì chất béo trong khoai tây chiên sẽ bị oxy hoá ôi thiu rất nhanh.).",
+        "Sai vì 'Khí Clo độc hại' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khí Hydrogen dễ nổ' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c3_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Magie cháy có khả năng giật lấy nguyên tử oxy ngay trong phân tử CO2 không?",
         "steps": "Mg khử CO2 ở nhiệt độ cao làm ngọn lửa bùng mạnh hơn và sinh khí độc.",
         "trap": "Cứ tưởng bình CO2 dập được mọi đám cháy thông thường, nhưng với kim loại kiềm/kiềm thổ thì cấm kị."
-      }
+      },
+      "socraticPrompt": "Magie cháy có khả năng giật lấy nguyên tử oxy ngay trong phân tử CO2 không?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Vì khí CO2 nặng hơn không khí' trái ngược với kiến thức SGK.",
+        "Đúng vì: Mg khử CO2 ở nhiệt độ cao làm ngọn lửa bùng mạnh hơn và sinh khí độc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì bình CO2 quá lạnh làm hỏng kim loại' (Cứ tưởng bình CO2 dập được mọi đám cháy thông thường, nhưng với kim loại kiềm/kiềm thổ thì cấm kị.).",
+        "Sai vì 'Vì CO2 là chất dễ cháy' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c3_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Nếu nến tắt ngay khi vừa chạm đáy giếng chứng tỏ điều gì về nồng độ khí oxygen ở đó?",
         "steps": "Nến tắt hoặc sinh vật khó thở chứng tỏ đáy giếng thiếu oxy hoặc có khí độc, người không được xuống ngay mà phải thông gió trước.",
         "trap": "Hành vi mê tín dị đoan là sai lệch; đây là phương pháp kiểm nghiệm sinh thái thực tiễn."
-      }
+      },
+      "socraticPrompt": "Nếu nến tắt ngay khi vừa chạm đáy giếng chứng tỏ điều gì về nồng độ khí oxygen ở đó?",
+      "distractorReasons": [
+        "Sai vì 'Để cúng thần giếng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Để đuổi bớt côn trùng dưới giếng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nến tắt hoặc sinh vật khó thở chứng tỏ đáy giếng thiếu oxy hoặc có khí độc, người không được xuống ngay mà phải thông gió trước.",
+        "Sai vì phủ định sai bản chất: 'Để làm ấm không khí dưới giếng' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c3_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Khí thải từ động cơ ô tô, xe máy và nhà máy nhiệt điện sinh ra nhiều nhất là khí gì?",
         "steps": "Khí CO2 sinh ra từ sự đốt cháy nhiên liệu là thủ phạm số 1 gây hiệu ứng nhà kính.",
         "trap": "Oxygen và Nitrogen không giữ bức xạ hồng ngoại nên không gây hiệu ứng nhà kính."
-      }
+      },
+      "socraticPrompt": "Khí thải từ động cơ ô tô, xe máy và nhà máy nhiệt điện sinh ra nhiều nhất là khí gì?",
+      "distractorReasons": [
+        "Sai vì 'Khí Argon (Ar)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí Nitrogen (N2)' (Oxygen và Nitrogen không giữ bức xạ hồng ngoại nên không gây hiệu ứng nhà kính.).",
+        "Sai vì 'Khí Oxygen (O2)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Khí CO2 sinh ra từ sự đốt cháy nhiên liệu là thủ phạm số 1 gây hiệu ứng nhà kính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c3_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Nước dâng lên chiếm đúng 1/5 khoảng trống chuông sau khi cháy hết oxy, vậy oxy chiếm bao nhiêu phần không khí?",
         "steps": "Mực nước dâng 1/5 chứng minh khí oxygen chiếm xấp xỉ 20% - 21% thể tích không khí.",
         "trap": "Lầm tưởng photpho tác dụng với cả khí nitrogen."
-      }
+      },
+      "socraticPrompt": "Nước dâng lên chiếm đúng 1/5 khoảng trống chuông sau khi cháy hết oxy, vậy oxy chiếm bao nhiêu phần không khí?",
+      "distractorReasons": [
+        "Đúng vì: Mực nước dâng 1/5 chứng minh khí oxygen chiếm xấp xỉ 20% - 21% thể tích không khí.",
+        "Sai vì phủ định sai bản chất: 'Không khí gồm 100% khí oxygen' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước phản ứng với photpho tạo thành chất khí' (Lầm tưởng photpho tác dụng với cả khí nitrogen.).",
+        "Sai vì phủ định sai bản chất: 'Photpho hút hết không khí vào bên trong nó' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c3_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Khi không có ánh mặt trời, cây xanh có quang hợp được không? Chúng hô hấp hít khí gì và thải khí gì?",
         "steps": "Không quang hợp -> chỉ hô hấp -> lấy O2 và nhả CO2 -> thiếu oxy cho người ngủ.",
         "trap": "Ban ngày cây quang hợp nhả O2 nên để cây trong phòng làm việc rất tốt, nhưng ban đêm thì ngược lại."
-      }
+      },
+      "socraticPrompt": "Khi không có ánh mặt trời, cây xanh có quang hợp được không? Chúng hô hấp hít khí gì và thải khí gì?",
+      "distractorReasons": [
+        "Sai vì 'Vì cây cảnh ban đêm thu hút ma quỷ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Không quang hợp -> chỉ hô hấp -> lấy O2 và nhả CO2 -> thiếu oxy cho người ngủ.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì ban đêm cây sẽ toả nhiệt làm phòng quá nóng' (Ban ngày cây quang hợp nhả O2 nên để cây trong phòng làm việc rất tốt, nhưng ban đêm thì ngược lại.).",
+        "Sai vì 'Vì cây cảnh ban đêm sẽ tiêu thụ hết nước uống trong phòng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

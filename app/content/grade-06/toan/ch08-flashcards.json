@@ -1,86 +1,82 @@
-{
-  "chapterId": "ch08",
-  "title": "Chương 8: Những hình hình học cơ bản",
-  "flashcards": [
-    {
-      "id": "fc_t6_c8_01",
-      "front": "Qua hai điểm phân biệt có bao nhiêu đường thẳng?",
-      "back": "Có một và chỉ một đường thẳng đi qua hai điểm phân biệt cho trước.",
-      "category": "Tiên đề",
-      "example": "Qua hai điểm A và B phân biệt, chỉ vẽ được duy nhất đường thẳng AB.",
-      "mnemonic": "Hai điểm phân biệt: một và chỉ một đường thẳng."
-    },
-    {
-      "id": "fc_t6_c8_02",
-      "front": "Thế nào là ba điểm thẳng hàng?",
-      "back": "Ba điểm cùng thuộc một đường thẳng thì thẳng hàng. Không cùng thuộc đường thẳng nào thì không thẳng hàng.",
-      "category": "Khái niệm",
-      "example": "A, B, C cùng nằm trên đường thẳng d thì A, B, C thẳng hàng.",
-      "mnemonic": "Cùng nằm trên một đường: thẳng hàng."
-    },
-    {
-      "id": "fc_t6_c8_03",
-      "front": "Tia gốc O là hình như thế nào?",
-      "back": "Tia gốc O là hình gồm điểm O và một phần đường thẳng bị chia ra bởi điểm O.",
-      "category": "Khái niệm",
-      "example": "Tia Ox có gốc O, bị chặn ở O và kéo dài vô tận về phía x.",
-      "mnemonic": "Tia có một gốc chặn, một đầu kéo dài mãi."
-    },
-    {
-      "id": "fc_t6_c8_04",
-      "front": "Thế nào là hai tia đối nhau?",
-      "back": "Hai tia chung gốc và tạo thành một đường thẳng được gọi là hai tia đối nhau.",
-      "category": "Khái niệm",
-      "example": "Nếu O nằm giữa A và B thì tia OA và tia OB là hai tia đối nhau.",
-      "mnemonic": "Chung một gốc, thẳng một đường, ngược hai hướng: đối nhau."
-    },
-    {
-      "id": "fc_t6_c8_05",
-      "front": "Đoạn thẳng AB là hình như thế nào?",
-      "back": "Đoạn thẳng AB là hình gồm điểm A, điểm B và tất cả các điểm nằm giữa A và B.",
-      "category": "Khái niệm",
-      "example": "Đoạn thẳng AB bị chặn ở cả hai đầu A và B.",
-      "mnemonic": "Đoạn thẳng có hai đầu mút chặn lại."
-    },
-    {
-      "id": "fc_t6_c8_06",
-      "front": "Khi nào ta có hệ thức AM + MB = AB?",
-      "back": "Khi và chỉ khi điểm M nằm giữa hai điểm A và B.",
-      "category": "Định lý",
-      "example": "Nếu M nằm giữa A và B thì AM + MB = AB.",
-      "mnemonic": "Nằm giữa thì tổng hai đoạn con bằng đoạn lớn."
-    },
-    {
-      "id": "fc_t6_c8_07",
-      "front": "Thế nào là trung điểm của đoạn thẳng AB?",
-      "back": "Trung điểm M của đoạn thẳng AB là điểm nằm giữa A, B và cách đều hai điểm A, B (MA = MB = AB / 2).",
-      "category": "Khái niệm",
-      "example": "Nếu AB = 8 cm thì trung điểm M cách mỗi đầu 4 cm.",
-      "mnemonic": "Trung điểm: vừa nằm giữa, vừa cách đều hai đầu."
-    },
-    {
-      "id": "fc_t6_c8_08",
-      "front": "Góc là hình như thế nào?",
-      "back": "Góc là hình gồm hai tia chung gốc. Gốc chung gọi là đỉnh, hai tia gọi là hai cạnh của góc.",
-      "category": "Khái niệm",
-      "example": "Góc xOy có đỉnh là O, hai cạnh là tia Ox và tia Oy.",
-      "mnemonic": "Góc gồm đỉnh chung và hai cạnh xuất phát từ đỉnh."
-    },
-    {
-      "id": "fc_t6_c8_09",
-      "front": "Góc nhọn, góc vuông, góc tù, góc bẹt có số đo như thế nào?",
-      "back": "Góc nhọn: 0° < α < 90°; Góc vuông: α = 90°; Góc tù: 90° < α < 180°; Góc bẹt: α = 180°.",
-      "category": "Phân loại",
-      "example": "Góc 45° là góc nhọn, 90° là góc vuông, 120° là góc tù, 180° là góc bẹt.",
-      "mnemonic": "Nhọn < 90° = Vuông < Tù < 180° = Bẹt."
-    },
-    {
-      "id": "fc_t6_c8_10",
-      "front": "Công thức tính số đường thẳng tạo bởi n điểm phân biệt (không có 3 điểm thẳng hàng) là gì?",
-      "back": "Số đường thẳng = n · (n - 1) / 2.",
-      "category": "Công thức",
-      "example": "Với 5 điểm: số đường thẳng = 5 · 4 / 2 = 10 đường thẳng.",
-      "mnemonic": "n nhân (n trừ 1) chia 2."
-    }
-  ]
-}
+[
+  {
+    "id": "fc_t6_c8_01",
+    "front": "Có bao nhiêu đường thẳng đi qua hai điểm phân biệt cho trước?",
+    "back": "Có một và CHỈ MỘT đường thẳng duy nhất đi qua hai điểm phân biệt.",
+    "tags": [
+      "Duong-thang"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_02",
+    "front": "Trong ba điểm thẳng hàng, có bao nhiêu điểm nằm giữa hai điểm còn lại?",
+    "back": "Có một và CHỈ MỘT điểm nằm giữa hai điểm còn lại.",
+    "tags": [
+      "Thang-hang"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_03",
+    "front": "Thế nào là hai tia đối nhau?",
+    "back": "Là hai tia chung gốc và cùng tạo thành một đường thẳng (tạo thành góc bẹt 180°).",
+    "tags": [
+      "Tia"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_04",
+    "front": "Điều kiện để điểm M nằm giữa hai điểm A và B theo độ dài là gì?",
+    "back": "AM + MB = AB.",
+    "tags": [
+      "Doan-thang"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_05",
+    "front": "Trung điểm của đoạn thẳng AB là điểm thỏa mãn những điều kiện nào?",
+    "back": "Điểm M nằm giữa A, B và cách đều A, B: MA = MB = AB / 2.",
+    "tags": [
+      "Trung-diem"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_06",
+    "front": "Góc nhọn có số đo trong khoảng nào?",
+    "back": "Lớn hơn 0° và nhỏ hơn 90° (0° < góc nhọn < 90°).",
+    "tags": [
+      "Goc"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_07",
+    "front": "Góc vuông có số đo bằng bao nhiêu độ?",
+    "back": "Bằng đúng 90°.",
+    "tags": [
+      "Goc"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_08",
+    "front": "Góc tù có số đo trong khoảng nào?",
+    "back": "Lớn hơn 90° và nhỏ hơn 180° (90° < góc tù < 180°).",
+    "tags": [
+      "Goc"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_09",
+    "front": "Góc bẹt có số đo bằng bao nhiêu độ và hai cạnh của nó có quan hệ gì?",
+    "back": "Bằng 180°, hai cạnh của góc bẹt là hai tia đối nhau.",
+    "tags": [
+      "Goc-bet"
+    ]
+  },
+  {
+    "id": "fc_t6_c8_10",
+    "front": "Cho n điểm phân biệt trong đó không có 3 điểm nào thẳng hàng, số đường thẳng tạo thành là bao nhiêu?",
+    "back": "Công thức: n × (n - 1) / 2.",
+    "tags": [
+      "Cong-thuc-hinh-hoc"
+    ]
+  }
+]

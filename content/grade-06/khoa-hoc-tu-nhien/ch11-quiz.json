@@ -21,7 +21,16 @@
         "socraticPrompt": "Khoảng cách Trái Đất đến Mặt Trời thay đổi rất ít, yếu tố trục Trái Đất nghiêng làm góc chiếu của tia nắng thay đổi như thế nào?",
         "steps": "Trục nghiêng 23,5 độ kết hợp quay quanh Mặt Trời sinh ra các mùa trong năm.",
         "trap": "Nhiều người lầm tưởng mùa hè Trái Đất ở gần Mặt Trời hơn mùa đông (thực tế tháng 7 Trái Đất ở điểm viễn nhật xa Mặt Trời nhất mà Bắc bán cầu vẫn là mùa hè)."
-      }
+      },
+      "socraticPrompt": "Khoảng cách Trái Đất đến Mặt Trời thay đổi rất ít, yếu tố trục Trái Đất nghiêng làm góc chiếu của tia nắng thay đổi như thế nào?",
+      "distractorReasons": [
+        "Đúng vì: Trục nghiêng 23,5 độ kết hợp quay quanh Mặt Trời sinh ra các mùa trong năm.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do mùa hè Trái Đất tiến lại gần Mặt Trời hơn mùa đông' (Nhiều người lầm tưởng mùa hè Trái Đất ở gần Mặt Trời hơn mùa đông (thực tế tháng 7 Trái Đất ở điểm viễn nhật xa Mặt Trời nhất mà Bắc bán cầu vẫn là mùa hè).).",
+        "Sai vì phủ định sai bản chất: 'Do Mặt Trời tỏa nhiệt không đều theo từng tháng' trái ngược với kiến thức SGK.",
+        "Sai vì 'Do khoảng cách Mặt Trăng thay đổi' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c11_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Vừa đi vòng quanh bạn vừa tự xoay người sao cho mặt luôn nhìn thẳng vào bạn thì chu kì tự xoay và chu kì quay quanh bạn có bằng nhau không?",
         "steps": "Chu kì tự quay = Chu kì quay quanh Trái Đất (27,3 ngày) -> chỉ một mặt hướng về Trái Đất.",
         "trap": "Mặt Trăng vẫn tự quay quanh trục của nó chứ không phải đứng yên."
-      }
+      },
+      "socraticPrompt": "Vừa đi vòng quanh bạn vừa tự xoay người sao cho mặt luôn nhìn thẳng vào bạn thì chu kì tự xoay và chu kì quay quanh bạn có bằng nhau không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do Mặt Trăng không hề tự quay quanh mình nó' (Mặt Trăng vẫn tự quay quanh trục của nó chứ không phải đứng yên.).",
+        "Đúng vì: Chu kì tự quay = Chu kì quay quanh Trái Đất (27,3 ngày) -> chỉ một mặt hướng về Trái Đất.",
+        "Sai vì 'Do nửa kia của Mặt Trăng trong suốt như thuỷ tinh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Do Trái Đất che kín mặt kia của Mặt Trăng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c11_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Lấy 150 triệu chia cho 300 nghìn ta được 500 giây. 500 giây đổi ra phút là bao nhiêu phút?",
         "steps": "500 giây = 8 phút 20 giây.",
         "trap": "Nhầm tưởng ánh sáng truyền tức thời (0 giây) hoặc nhầm 500 giây là 5 phút."
-      }
+      },
+      "socraticPrompt": "Lấy 150 triệu chia cho 300 nghìn ta được 500 giây. 500 giây đổi ra phút là bao nhiêu phút?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '8 giây' (tưởng ánh sáng truyền tức thời (0 giây) hoặc nhầm 500 giây là 5 phút).",
+        "Sai vì '8 giờ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: 500 giây = 8 phút 20 giây.",
+        "Sai vì '1 ngày đêm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c11_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Khi cực Bắc chúc thẳng về phía Mặt Trời thì dù Trái Đất tự xoay tròn, cực Bắc có bao giờ chui vào bóng tối không?",
         "steps": "Trục nghiêng 23,5 độ khiến vùng cực luân phiên có 6 tháng ngày liên tục và 6 tháng đêm liên tục.",
         "trap": "Không liên quan đến giả thuyết Trái Đất phẳng."
-      }
+      },
+      "socraticPrompt": "Khi cực Bắc chúc thẳng về phía Mặt Trời thì dù Trái Đất tự xoay tròn, cực Bắc có bao giờ chui vào bóng tối không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Trái Đất là một mặt phẳng đĩa dẹt' (Không liên quan đến giả thuyết Trái Đất phẳng.).",
+        "Sai vì 'Bắc Cực bị Mặt Trăng hút chặt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Mặt Trời ngừng quay trong 6 tháng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Trục nghiêng 23,5 độ khiến vùng cực luân phiên có 6 tháng ngày liên tục và 6 tháng đêm liên tục."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c11_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Trái Đất và Sao Hỏa có bề mặt đất đá rắn ta đứng lên được, còn Sao Mộc Sao Thổ chủ yếu là khối khí gì?",
         "steps": "Hành tinh trong: đá rắn, nhỏ, nặng; Hành tinh ngoài: khí khổng lồ, nhẹ.",
         "trap": "Sao Thổ có khối lượng riêng nhỏ hơn cả nước (nếu có chậu nước đủ to thì Sao Thổ sẽ nổi)."
-      }
+      },
+      "socraticPrompt": "Trái Đất và Sao Hỏa có bề mặt đất đá rắn ta đứng lên được, còn Sao Mộc Sao Thổ chủ yếu là khối khí gì?",
+      "distractorReasons": [
+        "Đúng vì: Hành tinh trong: đá rắn, nhỏ, nặng; Hành tinh ngoài: khí khổng lồ, nhẹ.",
+        "Sai vì 'Nhóm vòng trong làm bằng vàng, nhóm vòng ngoài làm bằng bạc' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nhóm ngoài quay quanh Mặt Trăng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Nhóm trong không có lực hấp dẫn' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c11_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Dung môi sống thiết yếu nhất cho mọi tế bào sinh vật từ vi khuẩn đến con người là chất lỏng nào?",
         "steps": "Nước ở thể lỏng và phân tử hữu cơ carbon là dấu hiệu vàng chỉ điểm sự sống.",
         "trap": "Băng đá vĩnh cửu không cho phép phản ứng trao đổi chất linh hoạt như nước thể lỏng."
-      }
+      },
+      "socraticPrompt": "Dung môi sống thiết yếu nhất cho mọi tế bào sinh vật từ vi khuẩn đến con người là chất lỏng nào?",
+      "distractorReasons": [
+        "Sai vì 'Tìm vàng và kim cương nguyên khối' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nước ở thể lỏng và phân tử hữu cơ carbon là dấu hiệu vàng chỉ điểm sự sống.",
+        "Sai vì 'Tìm các toà nhà bê tông cổ đại' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Tìm củi khô để nhóm lửa' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

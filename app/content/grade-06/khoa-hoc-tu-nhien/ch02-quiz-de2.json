@@ -21,7 +21,16 @@
         "socraticPrompt": "Nhiệt độ cao, gió mạnh và mặt tiếp xúc lớn sẽ thúc đẩy nước bốc hơi nhanh hay chậm?",
         "steps": "Nắng (nhiệt cao), gió mạnh và căng rộng quần áo (diện tích mặt thoáng lớn) giúp nước bay hơi nhanh nhất.",
         "trap": "Gấp gọn làm giảm diện tích mặt thoáng khiến quần áo lâu khô và ẩm mốc."
-      }
+      },
+      "socraticPrompt": "Nhiệt độ cao, gió mạnh và mặt tiếp xúc lớn sẽ thúc đẩy nước bốc hơi nhanh hay chậm?",
+      "distractorReasons": [
+        "Đúng vì: Nắng (nhiệt cao), gió mạnh và căng rộng quần áo (diện tích mặt thoáng lớn) giúp nước bay hơi nhanh nhất.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Gấp gọn quần áo lại rồi để trong phòng kín tối' (Gấp gọn làm giảm diện tích mặt thoáng khiến quần áo lâu khô và ẩm mốc.).",
+        "Sai vì 'Ngâm quần áo trong chậu nước lạnh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Treo quần áo sát nhau trong góc khuất gió' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c2_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Thành cốc làm lạnh lớp không khí xung quanh nó, hơi nước trong không khí gặp lạnh sẽ xảy ra quá trình chuyển thể nào?",
         "steps": "Hơi nước trong không khí ngưng tụ trên bề mặt lạnh của thành cốc.",
         "trap": "Nhiều người nghĩ nước từ trong cốc thấm qua thành kính ra ngoài."
-      }
+      },
+      "socraticPrompt": "Thành cốc làm lạnh lớp không khí xung quanh nó, hơi nước trong không khí gặp lạnh sẽ xảy ra quá trình chuyển thể nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nước đá bên trong cốc thấm xuyên qua thành thủy tinh ra ngoài' (Nhiều người nghĩ nước từ trong cốc thấm qua thành kính ra ngoài.).",
+        "Đúng vì: Hơi nước trong không khí ngưng tụ trên bề mặt lạnh của thành cốc.",
+        "Sai vì 'Thủy tinh tự tiết ra chất lỏng khi gặp lạnh' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nước đá bốc hơi rồi rơi trở lại quanh đáy cốc' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c2_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Hiện tượng nào biến chất ban đầu thành một chất hoàn toàn mới không còn giữ tính chất cũ?",
         "steps": "Sắt biến thành gỉ sắt là phản ứng hoá học sinh chất mới.",
         "trap": "Hòa tan đường chỉ là biến đổi vật lí (cô cạn nước lại thu được đường)."
-      }
+      },
+      "socraticPrompt": "Hiện tượng nào biến chất ban đầu thành một chất hoàn toàn mới không còn giữ tính chất cũ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hòa tan đường vào nước được nước đường ngọt' (Hòa tan đường chỉ là biến đổi vật lí (cô cạn nước lại thu được đường).).",
+        "Sai vì 'Nước lỏng bay hơi tạo thành mây' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Sắt biến thành gỉ sắt là phản ứng hoá học sinh chất mới.",
+        "Sai vì 'Bẻ cong một đoạn dây thép' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c2_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Nước nóng lên có tăng thể tích không và bọt khí sôi có làm dâng mực nước không?",
         "steps": "Nước nở vì nhiệt và trào bọt khi sôi, gây nguy hiểm nếu đổ quá đầy.",
         "trap": "Nước không làm nổ ấm hở nắp."
-      }
+      },
+      "socraticPrompt": "Nước nóng lên có tăng thể tích không và bọt khí sôi có làm dâng mực nước không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì nước sẽ lâu sôi hơn' (Nước không làm nổ ấm hở nắp.).",
+        "Sai vì 'Vì làm giảm độ tinh khiết của nước uống' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì ấm sẽ bị nổ tung ngay lập tức' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nước nở vì nhiệt và trào bọt khi sôi, gây nguy hiểm nếu đổ quá đầy."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c2_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Mùi thơm bay xa được là nhờ các hạt phân tử hương chuyển động như thế nào?",
         "steps": "Các phân tử khí/hơi luôn chuyển động hỗn loạn không ngừng và khuếch tán tự do.",
         "trap": "Tưởng rằng không khí có lực hút chọn lọc."
-      }
+      },
+      "socraticPrompt": "Mùi thơm bay xa được là nhờ các hạt phân tử hương chuyển động như thế nào?",
+      "distractorReasons": [
+        "Đúng vì: Các phân tử khí/hơi luôn chuyển động hỗn loạn không ngừng và khuếch tán tự do.",
+        "Sai vì 'Các phân tử nước hoa đứng yên tại chỗ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nước hoa có tính dẫn điện tốt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không khí hút nước hoa về phía con người' (Tưởng rằng không khí có lực hút chọn lọc.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c2_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Nắng làm nước biến đi đâu để lại những hạt muối trắng trên đồng?",
         "steps": "Nước bay hơi vào không khí để lại muối ăn kết tinh.",
         "trap": "Nhầm với sự đông đặc (làm lạnh)."
-      }
+      },
+      "socraticPrompt": "Nắng làm nước biến đi đâu để lại những hạt muối trắng trên đồng?",
+      "distractorReasons": [
+        "Sai vì 'Sự nóng chảy của muối' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nước bay hơi vào không khí để lại muối ăn kết tinh.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sự đông đặc của nước biển' (với sự đông đặc (làm lạnh)).",
+        "Sai vì 'Sự ngưng tụ của nước muối' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

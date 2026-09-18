@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Nguyên nhân nội tại dẫn đến sự sụp đổ của Liên Xô năm 1991 là",
       "options": [
-        "Chậm đổi mới mô hình tập trung quan liêu bao cấp và phạm sai lầm trong cải tổ",
         "Sự bao vây cấm vận của nước ngoài",
+        "Chậm đổi mới mô hình tập trung quan liêu bao cấp và phạm sai lầm trong cải tổ",
         "Sự thiếu hụt lao động",
         "Khủng hoảng dầu mỏ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Mô hình bao cấp làm nền kinh tế trì trệ, cải tổ sai lầm làm mất quyền lãnh đạo của Đảng.",
       "breakdown": {
         "concept": "Nguyên nhân sụp đổ Liên Xô",
         "steps": "Kinh tế trì trệ và sai lầm chính trị.",
         "socraticPrompt": "Yếu tố quyết định bên trong làm Liên Xô tan rã là gì?"
-      }
+      },
+      "socraticPrompt": "Yếu tố quyết định bên trong làm Liên Xô tan rã là gì?",
+      "distractorReasons": [
+        "Sai vì 'Sự bao vây cấm vận của nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân sụp đổ Liên Xô).",
+        "Đúng vì theo Nguyên nhân sụp đổ Liên Xô: Kinh tế trì trệ và sai lầm chính trị.",
+        "Sai vì 'Sự thiếu hụt lao động' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân sụp đổ Liên Xô).",
+        "Sai vì 'Khủng hoảng dầu mỏ' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân sụp đổ Liên Xô)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Điểm chung trong công cuộc đổi mới ở Việt Nam và Trung Quốc là",
       "options": [
-        "Giữ vững sự lãnh đạo của Đảng Cộng sản và xây dựng kinh tế thị trường định hướng XHCN",
-        "Tư nhân hóa toàn bộ đất đai",
         "Xóa bỏ khu vực kinh tế nhà nước",
+        "Tư nhân hóa toàn bộ đất đai",
+        "Giữ vững sự lãnh đạo của Đảng Cộng sản và xây dựng kinh tế thị trường định hướng XHCN",
         "Đóng cửa biên giới quốc gia"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Cả hai nước đều kiên định mục tiêu XHCN và vai trò của Đảng.",
       "breakdown": {
         "concept": "Điểm chung Đổi mới VN - TQ",
         "steps": "Đảng lãnh đạo + Kinh tế thị trường năng động.",
         "socraticPrompt": "Nguyên tắc cốt lõi giúp VN và TQ thành công là gì?"
-      }
+      },
+      "socraticPrompt": "Nguyên tắc cốt lõi giúp VN và TQ thành công là gì?",
+      "distractorReasons": [
+        "Sai vì 'Xóa bỏ khu vực kinh tế nhà nước' không phù hợp với định lý/quy tắc trọng tâm (Điểm chung Đổi mới VN - TQ).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tư nhân hóa toàn bộ đất đai', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Điểm chung Đổi mới VN - TQ: Đảng lãnh đạo + Kinh tế thị trường năng động.",
+        "Sai vì 'Đóng cửa biên giới quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Điểm chung Đổi mới VN - TQ)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Thành tựu của Việt Nam sau Đổi mới khẳng định điều gì?",
       "options": [
-        "Đường lối đổi mới đất nước đi lên CNXH là hoàn toàn đúng đắn",
+        "Kinh tế thị trường không hiệu quả",
         "Nên quay lại thời kỳ bao cấp",
         "Nên từ bỏ hội nhập quốc tế",
-        "Kinh tế thị trường không hiệu quả"
+        "Đường lối đổi mới đất nước đi lên CNXH là hoàn toàn đúng đắn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Đời sống nhân dân nâng cao, vị thế đất nước không ngừng lớn mạnh.",
       "breakdown": {
         "concept": "Ý nghĩa Đổi mới VN",
         "steps": "Khẳng định đường lối đúng đắn của Đảng.",
         "socraticPrompt": "Thành tựu kinh tế Việt Nam chứng minh điều gì?"
-      }
+      },
+      "socraticPrompt": "Thành tựu kinh tế Việt Nam chứng minh điều gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Kinh tế thị trường không hiệu quả' trái ngược với kiến thức SGK.",
+        "Sai vì 'Nên quay lại thời kỳ bao cấp' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa Đổi mới VN).",
+        "Sai vì 'Nên từ bỏ hội nhập quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa Đổi mới VN).",
+        "Đúng vì theo Ý nghĩa Đổi mới VN: Khẳng định đường lối đúng đắn của Đảng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Vai trò Liên Xô CTTG II",
         "steps": "Tiêu diệt phát xít Đức và quân phiệt Nhật.",
         "socraticPrompt": "Ai là lực lượng chính tiêu diệt phát xít Đức?"
-      }
+      },
+      "socraticPrompt": "Ai là lực lượng chính tiêu diệt phát xít Đức?",
+      "distractorReasons": [
+        "Đúng vì theo Vai trò Liên Xô CTTG II: Tiêu diệt phát xít Đức và quân phiệt Nhật.",
+        "Sai vì 'Đứng ngoài cuộc chiến' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Liên Xô CTTG II).",
+        "Sai vì 'Hỗ trợ tài chính đơn thuần' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Liên Xô CTTG II).",
+        "Sai vì 'Liên minh với phe Trục' không phù hợp với định lý/quy tắc trọng tâm (Vai trò Liên Xô CTTG II)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Đặc trưng tiến bộ của kinh tế thị trường định hướng XHCN ở Việt Nam là",
       "options": [
-        "Gắn tăng trưởng kinh tế với tiến bộ và công bằng xã hội ngay trong từng bước phát triển",
+        "Chỉ phục vụ lợi ích giới tài phiệt",
         "Hy sinh công bằng xã hội để chạy theo lợi nhuận tối đa",
         "Phát triển bất chấp ô nhiễm môi trường",
-        "Chỉ phục vụ lợi ích giới tài phiệt"
+        "Gắn tăng trưởng kinh tế với tiến bộ và công bằng xã hội ngay trong từng bước phát triển"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Không hy sinh tiến bộ và công bằng xã hội để chạy theo tăng trưởng kinh tế đơn thuần.",
       "breakdown": {
         "concept": "Bản chất nhân văn KTTT XHCN",
         "steps": "Tăng trưởng gắn liền an sinh xã hội.",
         "socraticPrompt": "Điểm ưu việt trong mô hình kinh tế nước ta là gì?"
-      }
+      },
+      "socraticPrompt": "Điểm ưu việt trong mô hình kinh tế nước ta là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ lợi ích giới tài phiệt', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hy sinh công bằng xã hội để chạy theo lợi nhuận tối đa' không phù hợp với định lý/quy tắc trọng tâm (Bản chất nhân văn KTTT XHCN).",
+        "Sai vì 'Phát triển bất chấp ô nhiễm môi trường' không phù hợp với định lý/quy tắc trọng tâm (Bản chất nhân văn KTTT XHCN).",
+        "Đúng vì theo Bản chất nhân văn KTTT XHCN: Tăng trưởng gắn liền an sinh xã hội."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Bài học cán bộ",
         "steps": "Xây dựng Đảng trong sạch, vững mạnh.",
         "socraticPrompt": "Yếu tố nào quyết định chất lượng lãnh đạo của Đảng?"
-      }
+      },
+      "socraticPrompt": "Yếu tố nào quyết định chất lượng lãnh đạo của Đảng?",
+      "distractorReasons": [
+        "Đúng vì theo Bài học cán bộ: Xây dựng Đảng trong sạch, vững mạnh.",
+        "Sai vì 'Bỏ qua rèn luyện đạo đức' không phù hợp với định lý/quy tắc trọng tâm (Bài học cán bộ).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chọn người thân quen', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không cần kiểm tra giám sát' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

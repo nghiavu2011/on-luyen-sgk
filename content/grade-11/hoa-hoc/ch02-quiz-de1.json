@@ -31,7 +31,16 @@
           "2": "Liên kết ba của nitrogen cực kì bền vững chứ không kém bền.",
           "3": "Đơn chất phi kim tồn tại dạng phân tử cộng hóa trị, không phải ion."
         }
-      }
+      },
+      "socraticPrompt": "Hai nguyên tử nitrogen dùng chung bao nhiêu đôi electron để đạt cấu hình bền?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Chứa các liên kết ion phân tử tự do trong không gian' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chứa hai liên kết đôi phân cực mạnh giữa hai nguyên tử' (Học sinh nhầm với liên kết đôi của oxygen hoặc liên kết đơn của halogen.).",
+        "Sai vì 'Chứa một liên kết đơn cộng hóa trị rất kém bền vững' không phù hợp với định lý/quy tắc trọng tâm (Cấu tạo phân tử và năng lượng liên kết của nitrogen).",
+        "Đúng vì theo Cấu tạo phân tử và năng lượng liên kết của nitrogen: Phân tử nitrogen có cấu tạo $:N \\equiv N:$ với liên kết ba có năng lượng liên kết lớn ($945\\text{ kJ/mol}$), rất bền."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch02-de01-q02",
@@ -55,7 +64,16 @@
           "2": "Khí không mùi và ít tan là nitrogen ($N_2$).",
           "3": "Ammonia là chất khí ở điều kiện thường, không phải chất lỏng sánh."
         }
-      }
+      },
+      "socraticPrompt": "Mùi đặc trưng của nước tiểu để lâu ngày do khí nào bay lên, và khí đó tan thế nào trong nước?",
+      "distractorReasons": [
+        "Đúng vì theo Tính chất vật lí và khả năng tan của ammonia: Ammonia là chất khí không màu, mùi khai nồng, tan rất nhiều trong nước (1 lít nước hòa tan khoảng 800 lít $NH_3$).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Là chất khí màu vàng lục có mùi hắc rất độc và nguy hiểm' (mùi khai của ammonia với mùi hắc của khí sulfur dioxide).",
+        "Sai vì phủ định sai bản chất: 'Là chất khí không màu không mùi và hoàn toàn không tan trong nước' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Là chất lỏng sánh không màu và có khối lượng riêng rất lớn' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch02-de01-q03",
@@ -79,7 +97,16 @@
           "1": "Khí $N_2$ thường sinh ra khi dùng kim loại khử mạnh như $Mg, Zn$.",
           "3": "Khí $H_2S$ là sản phẩm khử của hợp chất chứa sulfur."
         }
-      }
+      },
+      "socraticPrompt": "Khi dùng acid nitric đậm đặc phản ứng với kim loại, sản phẩm khử khí sinh ra có màu gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí không màu hóa nâu trong không khí ($NO$)' (sản phẩm của acid đặc ($NO_2$) với sản phẩm của acid loãng ($NO$)).",
+        "Đúng vì theo Sản phẩm khử của dung dịch acid nitric đặc: Phản ứng: $Cu + 4HNO_3\\text{ đặc} \\xrightarrow{t^o} Cu(NO_3)_2 + 2NO_2\\uparrow + 2H_2O$. Khí $NO_2$ có màu nâu đỏ.",
+        "Sai vì phủ định sai bản chất: 'Khí không màu không mùi nhẹ hơn không khí ($N_2$)' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Khí không màu có mùi trứng thối nặng ($H_2S$)' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch02-de01-q04",
@@ -103,7 +130,16 @@
           "1": "Nhiễm phóng xạ là sự cố hạt nhân, không phải hiện tượng phú dưỡng.",
           "2": "Ô nhiễm nhiệt chỉ làm giảm lượng oxy hòa tan chứ không tạo dinh dưỡng dư thừa."
         }
-      }
+      },
+      "socraticPrompt": "Tảo trong ao hồ phát triển bùng nổ khi nguồn nước bị thừa những chất dinh dưỡng phân bón nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do nguồn nước bị nhiễm quá nhiều ion kim loại nặng độc hại' (phú dưỡng với ô nhiễm kim loại nặng hoặc ô nhiễm nhiệt).",
+        "Sai vì 'Do nồng độ chất phóng xạ trong lòng hồ bị rò rỉ quá mức' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân gây ra hiện tượng phú dưỡng).",
+        "Đúng vì theo Nguyên nhân gây ra hiện tượng phú dưỡng: Hiện tượng phú dưỡng là sự tích tụ lượng lớn các chất dinh dưỡng chứa nitrogen và phosphorus từ phân bón, nước thải sinh hoạt.",
+        "Sai vì 'Do nhiệt độ của nguồn nước bị tăng cao bởi các nhà máy' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân gây ra hiện tượng phú dưỡng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch02-de01-q05",
@@ -127,7 +163,16 @@
           "2": "Sai vì $SO_2$ cũng có thể giảm số oxi hoá xuống $0$ nên có tính oxi hoá.",
           "3": "Sai vì $SO_2$ là một oxide acid hoạt động hoá học tốt."
         }
-      }
+      },
+      "socraticPrompt": "Nguyên tố sulfur trong $SO_2$ có số oxi hoá là $+4$, số này có thể tăng lên $+6$ hoặc giảm xuống $0$ được không?",
+      "distractorReasons": [
+        "Đúng vì theo Số oxi hoá trung gian của nguyên tố sulfur trong $SO_2$: Trong $SO_2$, nguyên tố sulfur có số oxi hoá $+4$ (trung gian giữa $-2, 0$ và $+6$). Do đó $SO_2$ vừa có tính khử vừa có tính oxi hoá.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ thể hiện duy nhất tính oxi hoá mạnh trong môi trường' (Chỉ nhớ $SO_2$ làm mất màu thuốc tím (tính khử) mà quên nó có thể tác dụng $H_2S$ (tính oxi hoá).).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ thể hiện duy nhất tính khử đặc trưng trong dung dịch', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hoàn toàn trơ về mặt hoá học ở mọi điều kiện nhiệt độ' không phù hợp với định lý/quy tắc trọng tâm (Số oxi hoá trung gian của nguyên tố sulfur trong $SO_2$)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch02-de01-q06",
@@ -151,7 +196,16 @@
           "1": "Rót cùng lúc khó kiểm soát và dễ gây quá nhiệt cục bộ.",
           "3": "Đun sôi nước trước sẽ càng làm tăng nguy cơ nổ nhiệt nguy hiểm."
         }
-      }
+      },
+      "socraticPrompt": "Acid sulfuric đặc nặng hơn nước và tỏa nhiệt rất mạnh khi tan, ta phải rót chất nào vào chất nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Rót nhanh một lượng lớn nước sạch vào cốc chứa acid đặc' (Rót nước vào acid sẽ làm nước sôi cục bộ bắn giọt acid ra ngoài gây bỏng nặng.).",
+        "Sai vì 'Rót từ từ acid đặc và nước cùng một lúc vào cốc thủy tinh' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc an toàn phòng thí nghiệm khi pha loãng acid đặc).",
+        "Sai vì 'Đun sôi nước trước khi đổ acid sulfuric đặc vào bình nón' không phù hợp với định lý/quy tắc trọng tâm (Nguyên tắc an toàn phòng thí nghiệm khi pha loãng acid đặc).",
+        "Đúng vì theo Nguyên tắc an toàn phòng thí nghiệm khi pha loãng acid đặc: Quy tắc an toàn bất biến: Rót từ từ acid đặc vào nước và khuấy đều. Không bao giờ làm ngược lại."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

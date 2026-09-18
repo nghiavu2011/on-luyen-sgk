@@ -22,7 +22,16 @@
         "socraticPrompt": "Lấy hệ số của biến thời gian t chia cho hệ số của biến toạ độ x bằng bao nhiêu?",
         "steps": "Công thức nhanh tính tốc độ truyền sóng: v = (hệ số của t) / (hệ số của x) = 20π / 4π = 5 m/s.",
         "trap": "Lấy 20π nhân 4π = 80π²."
-      }
+      },
+      "socraticPrompt": "Lấy hệ số của biến thời gian t chia cho hệ số của biến toạ độ x bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '20 m/s' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Công thức nhanh tính tốc độ truyền sóng: v = (hệ số của t) / (hệ số của x) = 20π / 4π = 5 m/s.",
+        "Sai vì '4 m/s' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '80 m/s' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c2_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "v = 4 m/s = 400 cm/s. Bước sóng λ = 400 / 20 = 20 cm. 2π · 15 / 20 bằng mấy?",
         "steps": "Bước sóng: λ = v / f = 4 / 20 = 0,2 m = 20 cm. Độ lệch pha: ∆φ = 2πd / λ = 2π · 15 / 20 = 30π / 20 = 1,5π = 3π / 2 rad.",
         "trap": "Quên đổi mét sang xentimét khi tính d / λ."
-      }
+      },
+      "socraticPrompt": "v = 4 m/s = 400 cm/s. Bước sóng λ = 400 / 20 = 20 cm. 2π · 15 / 20 bằng mấy?",
+      "distractorReasons": [
+        "Sai vì 'π / 2 rad' không phù hợp với định lý/quy tắc trọng tâm (Bước sóng λ = v / f. Độ lệch pha ∆φ = 2πd / λ.).",
+        "Sai vì 'π rad' không phù hợp với định lý/quy tắc trọng tâm (Bước sóng λ = v / f. Độ lệch pha ∆φ = 2πd / λ.).",
+        "Đúng vì theo Bước sóng λ = v / f. Độ lệch pha ∆φ = 2πd / λ.: Bước sóng: λ = v / f = 4 / 20 = 0,2 m = 20 cm. Độ lệch pha: ∆φ = 2πd / λ = 2π · 15 / 20 = 30π / 20 = 1,5π = 3π / 2 rad.",
+        "Sai vì '2π rad' không phù hợp với định lý/quy tắc trọng tâm (Bước sóng λ = v / f. Độ lệch pha ∆φ = 2πd / λ.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c2_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Có bao nhiêu số nguyên k nằm giữa -3,75 và +3,75?",
         "steps": "Ta có: -15 / 4 < k < 15 / 4 <=> -3,75 < k < 3,75. Do k nguyên nên k ∈ {-3, -2, -1, 0, 1, 2, 3}. Có 7 giá trị thoả mãn.",
         "trap": "Lấy k = ±4 hoặc đếm thiếu k = 0."
-      }
+      },
+      "socraticPrompt": "Có bao nhiêu số nguyên k nằm giữa -3,75 và +3,75?",
+      "distractorReasons": [
+        "Sai vì '6' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện cực đại: -AB < kλ < AB <=> -15 < 4k < 15 <=> -3,75 < k < 3,75.).",
+        "Đúng vì: Ta có: -15 / 4 < k < 15 / 4 <=> -3,75 < k < 3,75. Do k nguyên nên k ∈ {-3, -2, -1, 0, 1, 2, 3}. Có 7 giá trị thoả mãn.",
+        "Sai vì '8' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện cực đại: -AB < kλ < AB <=> -15 < 4k < 15 <=> -3,75 < k < 3,75.).",
+        "Sai vì '9' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện cực đại: -AB < kλ < AB <=> -15 < 4k < 15 <=> -3,75 < k < 3,75.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c2_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "k = 2 bụng sóng, 1 m = 2 · (λ / 2) thì λ bằng bao nhiêu?",
         "steps": "Áp dụng l = k · (λ / 2) với k = 2 bụng: 1 = 2 · (λ / 2) => λ = 1 m.",
         "trap": "Nhầm k = 2 là số nửa bước sóng nên lấy 1 / 2 = 0,5 m."
-      }
+      },
+      "socraticPrompt": "k = 2 bụng sóng, 1 m = 2 · (λ / 2) thì λ bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0,5 m' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện sóng dừng 2 đầu cố định: l = k · λ / 2. Có 2 bụng nên k = 2.).",
+        "Sai vì '2 m' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện sóng dừng 2 đầu cố định: l = k · λ / 2. Có 2 bụng nên k = 2.).",
+        "Sai vì '0,25 m' không phù hợp với định lý/quy tắc trọng tâm (Điều kiện sóng dừng 2 đầu cố định: l = k · λ / 2. Có 2 bụng nên k = 2.).",
+        "Đúng vì: Áp dụng l = k · (λ / 2) với k = 2 bụng: 1 = 2 · (λ / 2) => λ = 1 m."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c2_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Lấy 3 · 10⁸ m/s chia cho 300 m thì ra bao nhiêu Hz?",
         "steps": "Ta có: f = c / λ = (3 · 10⁸) / 300 = 10⁶ Hz = 1 MHz.",
         "trap": "Chia nhầm luỹ thừa 10⁶ thành 100 kHz hoặc 10 MHz."
-      }
+      },
+      "socraticPrompt": "Lấy 3 · 10⁸ m/s chia cho 300 m thì ra bao nhiêu Hz?",
+      "distractorReasons": [
+        "Đúng vì: Ta có: f = c / λ = (3 · 10⁸) / 300 = 10⁶ Hz = 1 MHz.",
+        "Sai vì '10 MHz' không phù hợp với định lý/quy tắc trọng tâm (Tốc độ sóng điện từ trong chân không c = 3 · 10⁸ m/s. Tần số f = c / λ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '100 kHz' (Chia nhầm luỹ thừa 10⁶ thành 100 kHz hoặc 10 MHz.).",
+        "Sai vì '3 MHz' không phù hợp với định lý/quy tắc trọng tâm (Tốc độ sóng điện từ trong chân không c = 3 · 10⁸ m/s. Tần số f = c / λ.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c2_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Chiều dài l = 45 cm = 0,45 m. Bước sóng âm cơ bản λ = 4 · 0,45 = 1,8 m. Tần số f = v / λ = 360 / 1,8?",
         "steps": "Với âm cơ bản k = 0: l = λ / 4 => λ = 4l = 4 · 0,45 = 1,8 m. Tần số âm nhỏ nhất: f_min = v / λ = 360 / 1,8 = 200 Hz.",
         "trap": "Nhầm công thức hai đầu cố định l = λ / 2 dẫn đến f = 400 Hz."
-      }
+      },
+      "socraticPrompt": "Chiều dài l = 45 cm = 0,45 m. Bước sóng âm cơ bản λ = 4 · 0,45 = 1,8 m. Tần số f = v / λ = 360 / 1,8?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '400 Hz' (công thức hai đầu cố định l = λ / 2 dẫn đến f = 400 Hz).",
+        "Sai vì '800 Hz' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Với âm cơ bản k = 0: l = λ / 4 => λ = 4l = 4 · 0,45 = 1,8 m. Tần số âm nhỏ nhất: f_min = v / λ = 360 / 1,8 = 200 Hz.",
+        "Sai vì '100 Hz' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

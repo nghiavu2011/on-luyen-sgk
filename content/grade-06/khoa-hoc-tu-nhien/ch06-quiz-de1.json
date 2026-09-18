@@ -21,7 +21,16 @@
         "socraticPrompt": "Mọi cơ thể sinh vật từ cây cỏ đến động vật đều được tạo nên từ những 'viên gạch' sống nào?",
         "steps": "Tế bào là đơn vị cấu trúc và chức năng của mọi sinh vật sống.",
         "trap": "Nguyên tử là đơn vị cấu tạo hoá học của vật chất nói chung, không phải đơn vị sống."
-      }
+      },
+      "socraticPrompt": "Mọi cơ thể sinh vật từ cây cỏ đến động vật đều được tạo nên từ những 'viên gạch' sống nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nguyên tử' (Nguyên tử là đơn vị cấu tạo hoá học của vật chất nói chung, không phải đơn vị sống.).",
+        "Sai vì 'Phân tử' không phù hợp với định lý/quy tắc trọng tâm (Tế bào là đơn vị cơ sở nhỏ nhất có đầy đủ các đặc trưng sống cơ bản của mọi sinh vật.).",
+        "Đúng vì: Tế bào là đơn vị cấu trúc và chức năng của mọi sinh vật sống.",
+        "Sai vì 'Mô' không phù hợp với định lý/quy tắc trọng tâm (Tế bào là đơn vị cơ sở nhỏ nhất có đầy đủ các đặc trưng sống cơ bản của mọi sinh vật.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c6_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Tế bào nhân sơ và nhân thực đều bắt buộc phải có 3 bộ phận cốt lõi nào?",
         "steps": "3 thành phần cơ bản: Màng tế bào, Chất tế bào và Nhân (hoặc vùng nhân).",
         "trap": "Thành tế bào và lục lạp chỉ có ở tế bào thực vật, không phải mọi tế bào."
-      }
+      },
+      "socraticPrompt": "Tế bào nhân sơ và nhân thực đều bắt buộc phải có 3 bộ phận cốt lõi nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thành tế bào, lục lạp và không bào' (Thành tế bào và lục lạp chỉ có ở tế bào thực vật, không phải mọi tế bào.).",
+        "Sai vì 'Nhân, lục lạp và ti thể' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vỏ protein, lông và roi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: 3 thành phần cơ bản: Màng tế bào, Chất tế bào và Nhân (hoặc vùng nhân)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c6_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Bộ phận nào chứa DNA di truyền và chỉ huy toàn bộ hoạt động của tế bào?",
         "steps": "Nhân tế bào là trung tâm chỉ huy hoạt động sống.",
         "trap": "Màng tế bào chỉ là lớp vỏ bao bọc kiểm soát chất ra vào."
-      }
+      },
+      "socraticPrompt": "Bộ phận nào chứa DNA di truyền và chỉ huy toàn bộ hoạt động của tế bào?",
+      "distractorReasons": [
+        "Đúng vì: Nhân tế bào là trung tâm chỉ huy hoạt động sống.",
+        "Sai vì 'Lục lạp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Màng tế bào' (Màng tế bào chỉ là lớp vỏ bao bọc kiểm soát chất ra vào.).",
+        "Sai vì 'Chất tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c6_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Chữ 'sơ' trong nhân sơ chỉ trạng thái cấu trúc của nhân đã hoàn thiện có màng bọc chưa?",
         "steps": "Nhân sơ chưa có màng nhân (chỉ có vùng nhân chứa DNA trần).",
         "trap": "Tế bào nhân sơ vẫn có màng tế bào và màng sinh chất bình thường."
-      }
+      },
+      "socraticPrompt": "Chữ 'sơ' trong nhân sơ chỉ trạng thái cấu trúc của nhân đã hoàn thiện có màng bọc chưa?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không có màng tế bào' (Tế bào nhân sơ vẫn có màng tế bào và màng sinh chất bình thường.).",
+        "Đúng vì: Nhân sơ chưa có màng nhân (chỉ có vùng nhân chứa DNA trần).",
+        "Sai vì phủ định sai bản chất: 'Không có khả năng sinh sản' trái ngược với kiến thức SGK.",
+        "Sai vì 'Có kích thước lớn gấp trăm lần tế bào nhân thực' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c6_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Bào quan màu xanh lá cây ở tế bào lá có tên là gì?",
         "steps": "Lục lạp là bào quan thực hiện chức năng quang hợp.",
         "trap": "Không bào chứa dịch tế bào, không chứa diệp lục quang hợp."
-      }
+      },
+      "socraticPrompt": "Bào quan màu xanh lá cây ở tế bào lá có tên là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Không bào' (Không bào chứa dịch tế bào, không chứa diệp lục quang hợp.).",
+        "Sai vì 'Ti thể' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Lục lạp là bào quan thực hiện chức năng quang hợp.",
+        "Sai vì 'Riboxom' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c6_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Lần 1 tạo ra 2 tế bào, lần 2 mỗi tế bào đó lại phân chia thành 2 tế bào nữa thì tổng cộng là mấy?",
         "steps": "1 -> 2 -> 4 tế bào con.",
         "trap": "Nhầm 2 lần phân chia là 2 x 3 = 6."
-      }
+      },
+      "socraticPrompt": "Lần 1 tạo ra 2 tế bào, lần 2 mỗi tế bào đó lại phân chia thành 2 tế bào nữa thì tổng cộng là mấy?",
+      "distractorReasons": [
+        "Sai vì '2 tế bào con' không phù hợp với định lý/quy tắc trọng tâm (Công thức số tế bào con sau n lần phân chia: N = 2^n = 2² = 4 tế bào con.).",
+        "Sai vì '8 tế bào con' không phù hợp với định lý/quy tắc trọng tâm (Công thức số tế bào con sau n lần phân chia: N = 2^n = 2² = 4 tế bào con.).",
+        "Sai vì '6 tế bào con' không phù hợp với định lý/quy tắc trọng tâm (Công thức số tế bào con sau n lần phân chia: N = 2^n = 2² = 4 tế bào con.).",
+        "Đúng vì: 1 -> 2 -> 4 tế bào con."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

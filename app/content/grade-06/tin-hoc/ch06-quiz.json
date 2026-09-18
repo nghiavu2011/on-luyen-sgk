@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Mô phỏng chạy từng bước thuật toán rẽ nhánh (Bài 16 & 17, SGK Tin học 6, trang 69-75).",
         "steps": "Với a = 12, b = 25: Điều kiện '12 > 25' nhận giá trị SAI. Nhánh Sai được kích hoạt: Max nhận giá trị b (25). Xuất kết quả Max = 25.",
-        "trap": "Nhầm điều kiện 12 > 25 là đúng hoặc cộng bừa hai số."
+        "trap": "Nhầm điều kiện 12 > 25 là đúng hoặc cộng bừa hai số.",
+        "socraticPrompt": "So sánh 12 và 25, số nào lớn hơn? Khẳng định '12 lớn hơn 25' là Đúng hay Sai?"
       },
       "socraticPrompt": "So sánh 12 và 25, số nào lớn hơn? Khẳng định '12 lớn hơn 25' là Đúng hay Sai?",
       "distractorReasons": [
-        "Sai, đây là thuật toán tìm số lớn nhất chứ không phải tính tổng.",
-        "Sai, 12 không lớn hơn 25 nên nhánh Đúng không được chạy.",
-        "Sai, thuật toán xử lý mọi cặp số đầu vào hợp lệ mà không bị lỗi.",
-        "Chính xác, mô phỏng đúng từng bước rẽ nhánh và đưa ra kết quả Max chuẩn xác."
-      ]
+        "Sai vì đây là thuật toán tìm số lớn nhất chứ không phải tính tổng.",
+        "Sai vì 12 không lớn hơn 25 nên nhánh Đúng không được chạy.",
+        "Sai vì thuật toán xử lý mọi cặp số đầu vào hợp lệ mà không bị lỗi.",
+        "Đúng vì mô phỏng đúng từng bước rẽ nhánh và đưa ra kết quả Max chuẩn xác."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Lỗi vòng lặp vô tận (Bài 16 & 17, SGK Tin học 6, trang 70-74).",
         "steps": "Điều kiện dừng lặp là i = 10. Nhưng do biến i không bao giờ được tăng giá trị (mãi mãi bằng 1), điều kiện dừng không bao giờ đạt được, dẫn đến lỗi lặp vô tận (infinite loop).",
-        "trap": "Nghĩ máy tính tự động tăng giá trị của biến đếm mà không cần lệnh lập trình."
+        "trap": "Nghĩ máy tính tự động tăng giá trị của biến đếm mà không cần lệnh lập trình.",
+        "socraticPrompt": "Nếu không có ai tăng số bước đi của em thì số bước của em có tự lớn lên được không?"
       },
       "socraticPrompt": "Nếu không có ai tăng số bước đi của em thì số bước của em có tự lớn lên được không?",
       "distractorReasons": [
-        "Sai, vòng lặp không dừng mà chạy liên tục không dứt.",
-        "Sai, màu sắc nhân vật không tự đổi nếu không có khối lệnh Looks.",
-        "Sai, máy tính chỉ làm theo lệnh, không tự tăng giá trị nếu không được lập trình.",
-        "Chính xác, phân tích sâu sắc nguyên nhân kinh điển của lỗi vòng lặp vô tận trong khoa học máy tính."
-      ]
+        "Sai vì vòng lặp không dừng mà chạy liên tục không dứt.",
+        "Sai vì màu sắc nhân vật không tự đổi nếu không có khối lệnh Looks.",
+        "Sai vì máy tính chỉ làm theo lệnh, không tự tăng giá trị nếu không được lập trình.",
+        "Đúng vì phân tích sâu sắc nguyên nhân kinh điển của lỗi vòng lặp vô tận trong khoa học máy tính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Kết hợp các cấu trúc điều khiển (Bài 16, SGK Tin học 6, trang 71).",
         "steps": "Hành động gọi tên lặp lại 40 lần cho 40 học sinh (cấu trúc lặp). Với mỗi học sinh: nếu trả lời Có thì đánh tích (v), ngược lại đánh vắng (x) (cấu trúc rẽ nhánh dạng đủ).",
-        "trap": "Chỉ nhìn thấy hành động gọi tên mà không nhận ra bước rẽ nhánh đánh dấu tích hay vắng."
+        "trap": "Chỉ nhìn thấy hành động gọi tên mà không nhận ra bước rẽ nhánh đánh dấu tích hay vắng.",
+        "socraticPrompt": "Có mấy học sinh được gọi tên và việc kiểm tra bạn đó có mặt hay không chia làm mấy trường hợp?"
       },
       "socraticPrompt": "Có mấy học sinh được gọi tên và việc kiểm tra bạn đó có mặt hay không chia làm mấy trường hợp?",
       "distractorReasons": [
-        "Sai, việc kiểm tra từng học sinh có điều kiện rẽ nhánh và lặp lại 40 lần.",
-        "Sai, thiếu mất vòng lặp 40 lần và dạng đủ có cả trường hợp vắng.",
-        "Sai, mọi hoạt động có quy trình đều được mô tả bằng các cấu trúc điều khiển.",
-        "Chính xác, phân tích bài toán thực tế kết hợp nhuần nhuyễn cả cấu trúc lặp và rẽ nhánh dạng đủ."
-      ]
+        "Sai vì việc kiểm tra từng học sinh có điều kiện rẽ nhánh và lặp lại 40 lần.",
+        "Sai vì thiếu mất vòng lặp 40 lần và dạng đủ có cả trường hợp vắng.",
+        "Sai vì mọi hoạt động có quy trình đều được mô tả bằng các cấu trúc điều khiển.",
+        "Đúng vì phân tích bài toán thực tế kết hợp nhuần nhuyễn cả cấu trúc lặp và rẽ nhánh dạng đủ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Thuật toán tính tiền bán thiệp (Bài 17, SGK Tin học 6, trang 73-74).",
         "steps": "Nếu mua dưới 5 tấm: Tien = N * 15 000. Nếu mua từ 5 tấm trở lên: Tien = (N * 15 000) - 10 000 (được giảm 10k).",
-        "trap": "Nhầm dấu điều kiện hoặc trừ 10 000 cho mọi trường hợp."
+        "trap": "Nhầm dấu điều kiện hoặc trừ 10 000 cho mọi trường hợp.",
+        "socraticPrompt": "Khách mua 6 tấm thiệp thì số tiền gốc là 90 000đ, sau khi giảm 10 000đ thì còn bao nhiêu?"
       },
       "socraticPrompt": "Khách mua 6 tấm thiệp thì số tiền gốc là 90 000đ, sau khi giảm 10 000đ thì còn bao nhiêu?",
       "distractorReasons": [
-        "Sai, tính tiền phải làm phép nhân chứ không phải phép chia.",
-        "Sai, cộng thêm 10 000 là tính đắt hơn chứ không phải giảm giá.",
-        "Sai, giá tiền phụ thuộc vào số lượng N chứ không cố định 10k hay 15k.",
-        "Chính xác, mô tả thuật toán rẽ nhánh chuẩn xác theo bài toán dự án SGK Tin học 6 trang 74."
-      ]
+        "Sai vì tính tiền phải làm phép nhân chứ không phải phép chia.",
+        "Sai vì cộng thêm 10 000 là tính đắt hơn chứ không phải giảm giá.",
+        "Sai vì giá tiền phụ thuộc vào số lượng N chứ không cố định 10k hay 15k.",
+        "Đúng vì mô tả thuật toán rẽ nhánh chuẩn xác theo bài toán dự án SGK Tin học 6 trang 74."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Mối quan hệ giữa thuật toán và chương trình (Bài 17, SGK Tin học 6, trang 72-73).",
         "steps": "Thuật toán là bản thiết kế trí tuệ; chương trình máy tính là sản phẩm xây dựng cụ thể từ bản thiết kế đó để máy vi tính thi hành.",
-        "trap": "Nhầm tưởng chương trình máy tính tự có mà không cần thuật toán định hướng từ trước."
+        "trap": "Nhầm tưởng chương trình máy tính tự có mà không cần thuật toán định hướng từ trước.",
+        "socraticPrompt": "Người kiến trúc sư vẽ bản vẽ thiết kế ngôi nhà trước, hay người thợ xây đặt từng viên gạch trước?"
       },
       "socraticPrompt": "Người kiến trúc sư vẽ bản vẽ thiết kế ngôi nhà trước, hay người thợ xây đặt từng viên gạch trước?",
       "distractorReasons": [
-        "Sai, thuật toán và chương trình là phần mềm và tư duy trí tuệ, không phải phần cứng vật lý.",
-        "Sai, thuật toán là linh hồn của mọi phần mềm và ứng dụng tin học trên thế giới.",
-        "Sai, con người phải tư duy thuật toán trước rồi mới lập trình thành chương trình.",
-        "Chính xác, định nghĩa chuẩn về mối quan hệ nền tảng giữa thuật toán và chương trình trong khoa học máy tính."
-      ]
+        "Sai vì thuật toán và chương trình là phần mềm và tư duy trí tuệ, không phải phần cứng vật lý.",
+        "Sai vì thuật toán là linh hồn của mọi phần mềm và ứng dụng tin học trên thế giới.",
+        "Sai vì con người phải tư duy thuật toán trước rồi mới lập trình thành chương trình.",
+        "Đúng vì định nghĩa chuẩn về mối quan hệ nền tảng giữa thuật toán và chương trình trong khoa học máy tính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Thuật toán tính điểm trung bình (Bài 15, SGK Tin học 6, trang 67).",
         "steps": "Quy trình tuần tự chuẩn: Phải có dữ liệu vào (Nhập điểm) -> Tiến hành tính toán (Cộng tổng rồi chia 3) -> Xuất kết quả (Thông báo ĐTB).",
-        "trap": "Tính toán trước khi có dữ liệu đầu vào hoặc dùng sai phép toán (nhân thay vì cộng)."
+        "trap": "Tính toán trước khi có dữ liệu đầu vào hoặc dùng sai phép toán (nhân thay vì cộng).",
+        "socraticPrompt": "Trước khi tính trung bình cộng ba môn, em cần phải biết điểm của những môn nào trước tiên?"
       },
       "socraticPrompt": "Trước khi tính trung bình cộng ba môn, em cần phải biết điểm của những môn nào trước tiên?",
       "distractorReasons": [
         "Sai vì chưa nhập điểm đã vội tính toán là vi phạm logic trình tự.",
         "Sai vì công thức tính trung bình cộng là cộng các số hạng rồi chia cho số số hạng, không phải phép nhân.",
         "Sai vì chưa có kết quả đã thông báo.",
-        "Chính xác, các bước thực hiện tuần tự khoa học từ Input -> Xử lý tính toán -> Output."
-      ]
+        "Đúng vì các bước thực hiện tuần tự khoa học từ Input -> Xử lý tính toán -> Output."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

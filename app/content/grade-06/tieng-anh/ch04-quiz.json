@@ -24,7 +24,8 @@
           "Bước 2: 'cheaper' = 'cost less' (chi phí thấp hơn).",
           "Bước 3: Phương án đúng là 'Things in Vy's neighbourhood cost less than in downtown.'"
         ],
-        "trap": "Đọc lướt không chú ý cụm 'no cinema' lại chọn câu có nhiều rạp chiếu phim."
+        "trap": "Đọc lướt không chú ý cụm 'no cinema' lại chọn câu có nhiều rạp chiếu phim.",
+        "socraticPrompt": "Từ 'cheaper' (rẻ hơn) tương đương với cụm từ nào nói về giá cả?"
       },
       "socraticPrompt": "Từ 'cheaper' (rẻ hơn) tương đương với cụm từ nào nói về giá cả?",
       "distractorReasons": [
@@ -56,7 +57,8 @@
           "Bước 2: Ngược lại có nghĩa là: 'Tàu điện ngầm chạy nhanh hơn xe buýt.'",
           "Bước 3: Dạng so sánh hơn của fast là faster. Câu đúng: 'The metro train is faster than the public bus.'"
         ],
-        "trap": "Chọn câu giữ nguyên đối tượng nhưng đổi tính từ sai lệch logic."
+        "trap": "Chọn câu giữ nguyên đối tượng nhưng đổi tính từ sai lệch logic.",
+        "socraticPrompt": "Nếu xe buýt chạy chậm hơn tàu điện ngầm thì tàu điện ngầm sẽ như thế nào so với xe buýt?"
       },
       "socraticPrompt": "Nếu xe buýt chạy chậm hơn tàu điện ngầm thì tàu điện ngầm sẽ như thế nào so với xe buýt?",
       "distractorReasons": [
@@ -88,7 +90,8 @@
           "Bước 2: Ta có thể thêm 'much' để nhấn mạnh (much busier), nhưng không được dùng 'more busier'.",
           "Bước 3: Cụm 'more busier' là lỗi sai ngữ pháp nghiêm trọng."
         ],
-        "trap": "Tưởng rằng 'much' bị sai nhưng thực chất 'much' đứng trước tính từ so sánh hơn là đúng ngữ pháp."
+        "trap": "Tưởng rằng 'much' bị sai nhưng thực chất 'much' đứng trước tính từ so sánh hơn là đúng ngữ pháp.",
+        "socraticPrompt": "Đã có đuôi '-ier' trong 'busier' rồi thì có được để chữ 'more' đằng trước nữa không?"
       },
       "socraticPrompt": "Đã có đuôi '-ier' trong 'busier' rồi thì có được để chữ 'more' đằng trước nữa không?",
       "distractorReasons": [
@@ -120,7 +123,8 @@
           "Bước 2: Nguyên nhân là lòng đường quá hẹp.",
           "Bước 3: Tính từ mang nghĩa hẹp là 'narrow'."
         ],
-        "trap": "Chọn 'wide' (rộng rãi) hoặc 'spacious' (thênh thang) là ngược nghĩa thực tế."
+        "trap": "Chọn 'wide' (rộng rãi) hoặc 'spacious' (thênh thang) là ngược nghĩa thực tế.",
+        "socraticPrompt": "Đường phố như thế nào thì xe ô tô to lớn không thể chui lọt được?"
       },
       "socraticPrompt": "Đường phố như thế nào thì xe ô tô to lớn không thể chui lọt được?",
       "distractorReasons": [
@@ -152,7 +156,8 @@
           "Bước 2: Phương án A đáp ứng đầy đủ các mốc chỉ dẫn phương hướng mạch lạc và lịch sự.",
           "Bước 3: Các phương án còn lại hoặc tối nghĩa hoặc thiếu lịch sự."
         ],
-        "trap": "Chọn câu trả lời cộc lốc mang tính văn nói tùy tiện."
+        "trap": "Chọn câu trả lời cộc lốc mang tính văn nói tùy tiện.",
+        "socraticPrompt": "Mẫu câu chỉ đường nào sử dụng các mốc tuần tự: đi thẳng, rẽ ở ngã rẽ thứ hai, đối diện công viên?"
       },
       "socraticPrompt": "Mẫu câu chỉ đường nào sử dụng các mốc tuần tự: đi thẳng, rẽ ở ngã rẽ thứ hai, đối diện công viên?",
       "distractorReasons": [
@@ -184,7 +189,8 @@
           "Bước 2: 'friendly' có 2 âm tiết kết thúc bằng 'y', đổi 'y' thành 'i' thêm 'er' -> 'friendlier'.",
           "Bước 3: Chọn 'friendlier'."
         ],
-        "trap": "Dùng 'more friendlier' (sai lỗi double comparative)."
+        "trap": "Dùng 'more friendlier' (sai lỗi double comparative).",
+        "socraticPrompt": "Dạng so sánh hơn đúng chuẩn của tính từ 'friendly' là gì?"
       },
       "socraticPrompt": "Dạng so sánh hơn đúng chuẩn của tính từ 'friendly' là gì?",
       "distractorReasons": [

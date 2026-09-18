@@ -20,97 +20,151 @@
         "concept": "Hồ Quý Ly phát hành tiền giấy",
         "steps": "Tiền giấy Thông bảo hội sao.",
         "socraticPrompt": "Ai là người đầu tiên in tiền giấy ở Việt Nam?"
-      }
+      },
+      "socraticPrompt": "Ai là người đầu tiên in tiền giấy ở Việt Nam?",
+      "distractorReasons": [
+        "Đúng vì theo Hồ Quý Ly phát hành tiền giấy: Tiền giấy Thông bảo hội sao.",
+        "Sai vì 'Trần Dụ Tông' không phù hợp với định lý/quy tắc trọng tâm (Hồ Quý Ly phát hành tiền giấy).",
+        "Sai vì 'Lê Lợi' không phù hợp với định lý/quy tắc trọng tâm (Hồ Quý Ly phát hành tiền giấy).",
+        "Sai vì 'Nguyễn Ánh' không phù hợp với định lý/quy tắc trọng tâm (Hồ Quý Ly phát hành tiền giấy)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Bộ luật 'Quốc triều hình luật' (Luật Hồng Đức) được ban hành dưới triều vua nào?",
       "options": [
-        "Lê Thánh Tông",
         "Lý Thái Tổ",
+        "Lê Thánh Tông",
         "Trần Nhân Tông",
         "Gia Long"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Vua Lê Thánh Tông hoàn thiện bộ luật Hồng Đức rực rỡ.",
       "breakdown": {
         "concept": "Luật Hồng Đức",
         "steps": "Lê Thánh Tông thế kỷ 15.",
         "socraticPrompt": "Bộ luật Hồng Đức của ai?"
-      }
+      },
+      "socraticPrompt": "Bộ luật Hồng Đức của ai?",
+      "distractorReasons": [
+        "Sai vì 'Lý Thái Tổ' không phù hợp với định lý/quy tắc trọng tâm (Luật Hồng Đức).",
+        "Đúng vì theo Luật Hồng Đức: Lê Thánh Tông thế kỷ 15.",
+        "Sai vì 'Trần Nhân Tông' không phù hợp với định lý/quy tắc trọng tâm (Luật Hồng Đức).",
+        "Sai vì 'Gia Long' không phù hợp với định lý/quy tắc trọng tâm (Luật Hồng Đức)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Cuộc cải cách hành chính của vua Minh Mạng đã chia cả nước thành",
       "options": [
-        "30 tỉnh và 1 phủ Thừa Thiên",
-        "13 đạo thừa tuyên",
         "24 lộ phủ",
+        "13 đạo thừa tuyên",
+        "30 tỉnh và 1 phủ Thừa Thiên",
         "3 miền Bắc - Trung - Nam"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Minh Mạng chia cả nước thành 30 tỉnh và phủ Thừa Thiên thống nhất.",
       "breakdown": {
         "concept": "Cải cách Minh Mạng",
         "steps": "30 tỉnh và 1 phủ Thừa Thiên.",
         "socraticPrompt": "Minh Mạng chia nước ta thành bao nhiêu tỉnh?"
-      }
+      },
+      "socraticPrompt": "Minh Mạng chia nước ta thành bao nhiêu tỉnh?",
+      "distractorReasons": [
+        "Sai vì '24 lộ phủ' không phù hợp với định lý/quy tắc trọng tâm (Cải cách Minh Mạng).",
+        "Sai vì '13 đạo thừa tuyên' không phù hợp với định lý/quy tắc trọng tâm (Cải cách Minh Mạng).",
+        "Đúng vì theo Cải cách Minh Mạng: 30 tỉnh và 1 phủ Thừa Thiên.",
+        "Sai vì '3 miền Bắc - Trung - Nam' không phù hợp với định lý/quy tắc trọng tâm (Cải cách Minh Mạng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Chính sách Hạn nô của Hồ Quý Ly nhằm mục đích",
       "options": [
-        "Hạn chế số lượng nô tỳ của quý tộc để chuyển thành dân chịu thuế cho triều đình",
+        "Bán nô tỳ ra nước ngoài",
         "Tăng cường chế độ chiếm hữu nô lệ",
         "Bắt toàn bộ nông dân làm nô tỳ",
-        "Bán nô tỳ ra nước ngoài"
+        "Hạn chế số lượng nô tỳ của quý tộc để chuyển thành dân chịu thuế cho triều đình"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Hạn chế quyền lực kinh tế của tầng lớp quý tộc phong kiến cũ.",
       "breakdown": {
         "concept": "Chính sách Hạn nô",
         "steps": "Chuyển nô tỳ thành người nộp thuế cho nhà nước.",
         "socraticPrompt": "Mục đích của hạn nô là gì?"
-      }
+      },
+      "socraticPrompt": "Mục đích của hạn nô là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bán nô tỳ ra nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Chính sách Hạn nô).",
+        "Sai vì 'Tăng cường chế độ chiếm hữu nô lệ' không phù hợp với định lý/quy tắc trọng tâm (Chính sách Hạn nô).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Bắt toàn bộ nông dân làm nô tỳ', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Chính sách Hạn nô: Chuyển nô tỳ thành người nộp thuế cho nhà nước."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Đỉnh cao phát triển thịnh trị của chế độ phong kiến Đại Việt gắn liền với thời kỳ nào?",
       "options": [
-        "Thời kỳ Lê sơ (triều vua Lê Thánh Tông)",
         "Thời kỳ Tiền Lê",
+        "Thời kỳ Lê sơ (triều vua Lê Thánh Tông)",
         "Thời kỳ nhà Đinh",
         "Thời kỳ cuối nhà Trần"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Thời kỳ Hồng Đức là thời kỳ thịnh trị rực rỡ nhất về kinh tế, văn hóa, quân sự.",
       "breakdown": {
         "concept": "Thời Lê sơ thịnh trị",
         "steps": "Vua Lê Thánh Tông thế kỷ 15.",
         "socraticPrompt": "Triều đại phong kiến nào phát triển rực rỡ nhất?"
-      }
+      },
+      "socraticPrompt": "Triều đại phong kiến nào phát triển rực rỡ nhất?",
+      "distractorReasons": [
+        "Sai vì 'Thời kỳ Tiền Lê' không phù hợp với định lý/quy tắc trọng tâm (Thời Lê sơ thịnh trị).",
+        "Đúng vì theo Thời Lê sơ thịnh trị: Vua Lê Thánh Tông thế kỷ 15.",
+        "Sai vì 'Thời kỳ nhà Đinh' không phù hợp với định lý/quy tắc trọng tâm (Thời Lê sơ thịnh trị).",
+        "Sai vì 'Thời kỳ cuối nhà Trần' không phù hợp với định lý/quy tắc trọng tâm (Thời Lê sơ thịnh trị)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Bản đồ Hồng Đức được vẽ dưới thời Lê Thánh Tông có ý nghĩa gì?",
       "options": [
-        "Khẳng định chủ quyền cương vực lãnh thổ thiêng liêng của Đại Việt",
-        "Bản đồ thương mại châu Âu",
         "Bản đồ chỉ dẫn cho giặc ngoại xâm",
+        "Bản đồ thương mại châu Âu",
+        "Khẳng định chủ quyền cương vực lãnh thổ thiêng liêng của Đại Việt",
         "Bản đồ thời tiết đơn thuần"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Bản đồ Hồng Đức là tấm bản đồ địa lý toàn quốc đầu tiên xác lập chủ quyền biên cương.",
       "breakdown": {
         "concept": "Bản đồ Hồng Đức",
         "steps": "Xác lập cương vực lãnh thổ quốc gia.",
         "socraticPrompt": "Bản đồ Hồng Đức có ý nghĩa gì?"
-      }
+      },
+      "socraticPrompt": "Bản đồ Hồng Đức có ý nghĩa gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Bản đồ chỉ dẫn cho giặc ngoại xâm', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bản đồ thương mại châu Âu' không phù hợp với định lý/quy tắc trọng tâm (Bản đồ Hồng Đức).",
+        "Đúng vì theo Bản đồ Hồng Đức: Xác lập cương vực lãnh thổ quốc gia.",
+        "Sai vì 'Bản đồ thời tiết đơn thuần' không phù hợp với định lý/quy tắc trọng tâm (Bản đồ Hồng Đức)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -1,128 +1,207 @@
 {
   "chapterId": "ch09",
   "examId": "de2",
-  "title": "Toán 6 — Chương 9: Đề 2 — Biểu đồ cột kép & Xác suất thực nghiệm",
-  "description": "Bộ đề rèn luyện kỹ năng đọc biểu đồ cột kép và tính xác suất thực nghiệm trong các thí nghiệm ngẫu nhiên.",
+  "title": "Toán 6 — Chương 9: Dữ liệu và xác suất thực nghiệm: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c9_d2_q1",
-      "difficulty": "easy",
+      "id": "t6_c9_d2_01",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Nhận biết sự kiện chắc chắn",
-      "question": "Khi gieo một đồng xu cân đối và đồng chất, sự kiện nào sau đây là sự kiện chắc chắn?",
+      "topic": "Tính xác suất thực nghiệm tung đồng xu",
+      "question": "Bạn Mai tung một đồng xu 50 lần và ghi lại kết quả: có 28 lần xuất hiện mặt Ngửa. Xác suất thực nghiệm của sự kiện 'Mặt Sấp xuất hiện' là:",
       "options": [
-        "Mặt xuất hiện là mặt sấp hoặc mặt ngửa",
-        "Mặt xuất hiện chắc chắn là mặt sấp",
-        "Mặt xuất hiện chắc chắn là mặt ngửa",
-        "Đồng xu đứng thăng bằng trên cạnh"
+        "56% (hoặc 14/25)",
+        "44% (hoặc 11/25)",
+        "28%",
+        "50%"
       ],
-      "correct": 0,
+      "correct": 1,
       "breakdown": {
-        "concept": "Định nghĩa sự kiện chắc chắn luôn luôn xảy ra.",
-        "socraticPrompt": "Đồng xu chỉ có hai mặt là mặt sấp và mặt ngửa, vậy khi rơi xuống mặt xuất hiện luôn là mặt nào?",
-        "steps": "Vì một đồng xu chỉ có hai mặt sấp và ngửa nên biến cố 'Mặt xuất hiện là mặt sấp hoặc mặt ngửa' luôn luôn xảy ra, đây là sự kiện chắc chắn.",
-        "trap": "Khẳng định chắc chắn ra mặt sấp hoặc chắc chắn ra mặt ngửa là sai vì kết quả mỗi lần gieo là ngẫu nhiên."
-      }
+        "concept": "Số lần xuất hiện mặt Sấp = Tổng số lần - Số lần xuất hiện mặt Ngửa. Xác suất = Số lần Sấp / Tổng số lần.",
+        "steps": [
+          "Bước 1: Số lần mặt Sấp xuất hiện: 50 - 28 = 22 lần.",
+          "Bước 2: Xác suất thực nghiệm mặt Sấp: 22 / 50 = 44 / 100 = 44% = 11/25."
+        ],
+        "trap": "Lấy luôn số lần mặt Ngửa (28 lần) để tính xác suất mặt Sấp thành 28 / 50 = 56%.",
+        "socraticPrompt": "Đề bài hỏi xác suất mặt SẤP. Tung 50 lần mà có 28 lần mặt Ngửa thì có bao nhiêu lần mặt Sấp? 22 chia 50 bằng bao nhiêu phần trăm?"
+      },
+      "socraticPrompt": "Đề bài hỏi xác suất mặt SẤP. Tung 50 lần mà có 28 lần mặt Ngửa thì có bao nhiêu lần mặt Sấp? 22 chia 50 bằng bao nhiêu phần trăm?",
+      "distractorReasons": [
+        "Sai vì 56% (28 / 50) là xác suất thực nghiệm của mặt NGỬA chứ không phải mặt Sấp.",
+        "Đúng vì số lần mặt Sấp là 50 - 28 = 22 lần; xác suất là 22 / 50 = 44%.",
+        "Sai vì lấy số lần chia cho 100.",
+        "Sai vì đoán mò 50% theo lý thuyết mà không tính theo số liệu thực nghiệm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c9_d2_q2",
-      "difficulty": "easy",
+      "id": "t6_c9_d2_02",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Nhận biết sự kiện không thể",
-      "question": "Gieo một con xúc xắc 6 mặt (số chấm từ 1 đến 6). Sự kiện nào sau đây là sự kiện không thể?",
+      "topic": "Tính xác suất thực nghiệm gieo xúc xắc",
+      "question": "Gieo một con xúc xắc 30 lần liên tiếp, thấy có 6 lần xuất hiện mặt 5 chấm. Xác suất thực nghiệm của sự kiện 'Xuất hiện mặt 5 chấm' là:",
       "options": [
-        "Xuất hiện mặt có số chấm là số chẵn",
-        "Xuất hiện mặt có số chấm là số lẻ",
-        "Xuất hiện mặt có 7 chấm",
-        "Xuất hiện mặt có 6 chấm"
+        "5/30",
+        "1/6",
+        "1/5 (hoặc 20%)",
+        "6/5"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Định nghĩa sự kiện không thể không bao giờ xảy ra.",
-        "socraticPrompt": "Con xúc xắc tiêu chuẩn có các mặt mang những số chấm nào? Liệu có mặt 7 chấm không?",
-        "steps": "Con xúc xắc 6 mặt chỉ có số chấm từ 1 đến 6, không có mặt nào 7 chấm. Do đó sự kiện 'Xuất hiện mặt có 7 chấm' không bao giờ xảy ra (sự kiện không thể).",
-        "trap": "Nhầm sự kiện không thể với sự kiện có thể."
-      }
+        "concept": "Xác suất thực nghiệm = Số lần mặt 5 chấm xuất hiện / Tổng số lần gieo = 6 / 30 = 1/5 = 20%.",
+        "steps": [
+          "Bước 1: Số lần xuất hiện mặt 5 chấm là 6.",
+          "Bước 2: Tổng số lần gieo xúc xắc là 30.",
+          "Bước 3: Xác suất thực nghiệm = 6 / 30 = 1/5 = 20%."
+        ],
+        "trap": "Chọn 1/6 theo lý thuyết xác suất cổ điển (vì xúc xắc có 6 mặt) thay vì tính theo số liệu thực nghiệm.",
+        "socraticPrompt": "Thực nghiệm gieo 30 lần thấy mặt 5 chấm ra 6 lần. Tỉ số giữa 6 và 30 rút gọn bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Thực nghiệm gieo 30 lần thấy mặt 5 chấm ra 6 lần. Tỉ số giữa 6 và 30 rút gọn bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì lấy số chấm 5 chia 30.",
+        "Sai vì 1/6 là xác suất lý thuyết, đề bài yêu cầu tính xác suất THỰC NGHIỆM từ số liệu thử.",
+        "Đúng vì theo thực nghiệm xác suất là 6 / 30 = 1/5 = 20%.",
+        "Sai vì lấy số lần chia ngược."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "t6_c9_d2_q3",
+      "id": "t6_c9_d2_03",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Tính xác suất thực nghiệm gieo đồng xu",
-      "question": "Gieo một đồng xu 50 lần thấy có 28 lần xuất hiện mặt sấp. Xác suất thực nghiệm xuất hiện mặt sấp là bao nhiêu?",
+      "topic": "Tính tổng số liệu từ biểu đồ tranh",
+      "question": "Biểu đồ tranh thống kê số cây trồng được của 4 lớp khối 6, mỗi biểu tượng 🌳 ứng với 8 cây, nửa biểu tượng 🌳 ứng với 4 cây. Lớp 6A có 3 biểu tượng 🌳 và một nửa biểu tượng. Lớp 6A đã trồng được bao nhiêu cây?",
       "options": [
-        "56%",
-        "44%",
-        "50%",
-        "28%"
+        "30 cây",
+        "24 cây",
+        "32 cây",
+        "28 cây"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tổng số cây = (Số biểu tượng nguyên × Giá trị nguyên) + (Nửa biểu tượng × Giá trị nửa).",
+        "steps": [
+          "Bước 1: 3 biểu tượng nguyên trồng được: 3 × 8 = 24 cây.",
+          "Bước 2: Một nửa biểu tượng trồng được: 4 cây.",
+          "Bước 3: Tổng số cây lớp 6A trồng được: 24 + 4 = 28 cây."
+        ],
+        "trap": "Quên không cộng nửa biểu tượng (chỉ tính 3 × 8 = 24 cây) hoặc cộng nhầm nửa biểu tượng thành 8 : 4 = 2.",
+        "socraticPrompt": "3 cái cây nguyên là 3 × 8 = 24 cây. Nửa cái cây là 4 cây. 24 cộng 4 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "3 cái cây nguyên là 3 × 8 = 24 cây. Nửa cái cây là 4 cây. 24 cộng 4 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính nhầm phép cộng.",
+        "Sai vì quên cộng thêm nửa biểu tượng (chỉ tính 3 × 8 = 24 cây).",
+        "Sai vì tính nhầm thành 4 biểu tượng nguyên (4 × 8 = 32 cây).",
+        "Đúng vì lớp 6A trồng được: 3 × 8 + 4 = 24 + 4 = 28 cây."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c9_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh số liệu từ biểu đồ cột",
+      "question": "Một biểu đồ cột thể hiện số học sinh chọn môn thể thao yêu thích của khối 6: Bóng đá có 80 bạn, Cầu lông có 65 bạn, Bơi lội có 55 bạn, Bóng rổ có 40 bạn. Môn thể thao được nhiều học sinh yêu thích nhất nhiều hơn môn ít nhất là bao nhiêu bạn?",
+      "options": [
+        "40 bạn",
+        "25 bạn",
+        "15 bạn",
+        "35 bạn"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Công thức tính xác suất thực nghiệm: P = k / n.",
-        "socraticPrompt": "Lấy số lần xuất hiện mặt sấp (28) chia cho tổng số lần gieo (50) rồi đổi ra phần trăm?",
-        "steps": "Xác suất thực nghiệm xuất hiện mặt sấp là: P = 28 / 50 = (28 · 2) / (50 · 2) = 56 / 100 = 56%.",
-        "trap": "Chọn 28% vì nhầm số lần xuất hiện là tỉ số phần trăm."
-      }
+        "concept": "Xác định giá trị lớn nhất và nhỏ nhất trên biểu đồ rồi tính hiệu số.",
+        "steps": [
+          "Bước 1: Môn được yêu thích nhất là Bóng đá: 80 bạn.",
+          "Bước 2: Môn được yêu thích ít nhất là Bóng rổ: 40 bạn.",
+          "Bước 3: Hiệu số giữa hai môn: 80 - 40 = 40 bạn."
+        ],
+        "trap": "Lấy bóng đá trừ cầu lông (80 - 65 = 15) hoặc trừ bơi lội.",
+        "socraticPrompt": "Môn cao nhất có 80 bạn, môn thấp nhất có 40 bạn. Lấy 80 trừ 40 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Môn cao nhất có 80 bạn, môn thấp nhất có 40 bạn. Lấy 80 trừ 40 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì môn nhiều nhất (Bóng đá: 80) trừ môn ít nhất (Bóng rổ: 40) bằng 40 bạn.",
+        "Sai vì lấy Bóng đá (80) trừ Bơi lội (55) được 25 bạn.",
+        "Sai vì lấy Bóng đá (80) trừ Cầu lông (65) được 15 bạn.",
+        "Sai vì tính nhầm."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c9_d2_q4",
+      "id": "t6_c9_d2_05",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Đọc biểu đồ cột kép",
-      "question": "Biểu đồ cột kép biểu diễn số học sinh Giỏi của lớp 6A: Học kỳ 1 có 15 học sinh, Học kỳ 2 có 21 học sinh. Số học sinh Giỏi Học kỳ 2 tăng thêm bao nhiêu học sinh so với Học kỳ 1?",
+      "topic": "Liệt kê kết quả thuận lợi cho sự kiện",
+      "question": "Một hộp kín chứa 10 quả bóng có kích thước giống nhau được đánh số từ 1 đến 10. Rút ngẫu nhiên một quả bóng. Có bao nhiêu kết quả có thể để sự kiện 'Quả bóng rút được mang số nguyên tố' xảy ra?",
       "options": [
-        "6 học sinh",
-        "8 học sinh",
-        "5 học sinh",
-        "7 học sinh"
+        "6 kết quả",
+        "5 kết quả",
+        "3 kết quả",
+        "4 kết quả"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Tìm các số nguyên tố trong tập hợp {1; 2; 3; 4; 5; 6; 7; 8; 9; 10}.",
+        "steps": [
+          "Bước 1: Các số từ 1 đến 10.",
+          "Bước 2: Các số nguyên tố là: 2, 3, 5, 7.",
+          "Bước 3: Có tất cả 4 số nguyên tố.",
+          "Bước 4: Vậy có đúng 4 kết quả để sự kiện xảy ra."
+        ],
+        "trap": "Đếm số 1 là số nguyên tố thành 5 kết quả, hoặc đếm cả số 9 thành 6 kết quả.",
+        "socraticPrompt": "Trong các số từ 1 đến 10, số 1 có phải số nguyên tố không? Các số nguyên tố là những số nào?"
+      },
+      "socraticPrompt": "Trong các số từ 1 đến 10, số 1 có phải số nguyên tố không? Các số nguyên tố là những số nào?",
+      "distractorReasons": [
+        "Sai vì đếm cả hợp số 9.",
+        "Sai vì nhầm số 1 hoặc số 9 là số nguyên tố thành 5 kết quả.",
+        "Sai vì bỏ sót số 2 (số nguyên tố chẵn duy nhất).",
+        "Đúng vì có 4 số nguyên tố là {2; 3; 5; 7}."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c9_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xác suất thực nghiệm bắn cung",
+      "question": "Một xạ thủ bắn 40 phát đạn vào bia thấy có 34 phát trúng vòng 10 điểm. Xác suất thực nghiệm của sự kiện 'Xạ thủ bắn trúng vòng 10 điểm' là:",
+      "options": [
+        "85% (hoặc 17/20)",
+        "75%",
+        "80%",
+        "34%"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Kỹ năng so sánh và tính độ chênh lệch số liệu từ biểu đồ cột kép.",
-        "socraticPrompt": "Lấy số học sinh Giỏi Học kỳ 2 trừ đi số học sinh Giỏi Học kỳ 1: 21 trừ 15 bằng bao nhiêu?",
-        "steps": "Số học sinh Giỏi Học kỳ 2 tăng thêm so với Học kỳ 1 là: 21 - 15 = 6 học sinh.",
-        "trap": "Tính nhầm phép trừ 21 - 15 thành 5 hoặc 7."
-      }
-    },
-    {
-      "id": "t6_c9_d2_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Xác suất thực nghiệm quay vòng quay",
-      "question": "Quay một đĩa tròn có 4 phần bằng nhau ghi các số 1, 2, 3, 4 tổng cộng 40 lần. Mũi tên dừng lại ở ô số 2 đúng 14 lần. Xác suất thực nghiệm để mũi tên dừng lại ở ô số 2 là bao nhiêu?",
-      "options": [
-        "25%",
-        "35%",
-        "30%",
-        "40%"
+        "concept": "Xác suất thực nghiệm P = 34 / 40 = 17 / 20 = 85%.",
+        "steps": [
+          "Bước 1: Số phát trúng là 34, tổng số phát bắn là 40.",
+          "Bước 2: Tỉ số: 34 / 40 = 17 / 20.",
+          "Bước 3: Đổi sang phần trăm: (17 × 5) / (20 × 5) = 85 / 100 = 85%."
+        ],
+        "trap": "Lấy 34 gắn luôn ký hiệu % thành 34%.",
+        "socraticPrompt": "Rút gọn 34/40 bằng cách chia cả tử và mẫu cho 2 được 17/20. 17/20 nhân với 100% bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Rút gọn 34/40 bằng cách chia cả tử và mẫu cho 2 được 17/20. 17/20 nhân với 100% bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì 34 / 40 = 17 / 20 = 0,85 = 85%.",
+        "Sai vì tính nhầm 30/40 = 75%.",
+        "Sai vì tính nhầm 32/40 = 80%.",
+        "Sai vì lấy số phát trúng 34 gắn thêm % mà không chia cho tổng số phát bắn 40."
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Tính xác suất thực nghiệm của sự kiện dừng ở một ô cụ thể.",
-        "socraticPrompt": "Số lần dừng ở ô số 2 là 14 lần trên tổng số 40 lần quay. Hãy tính thương 14 / 40 rồi đổi ra phần trăm?",
-        "steps": "Xác suất thực nghiệm là: P = 14 / 40 = 7 / 20 = (7 · 5) / (20 · 5) = 35 / 100 = 35%.",
-        "trap": "Lấy 1/4 = 25% (đây là xác suất lý thuyết chứ không phải xác suất thực nghiệm theo số liệu đề bài)."
-      }
-    },
-    {
-      "id": "t6_c9_d2_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Xác suất thực nghiệm sự kiện hợp",
-      "question": "Gieo một con xúc xắc 6 mặt 50 lần. Kết quả cho thấy: mặt 1 chấm xuất hiện 8 lần, mặt 2 chấm xuất hiện 10 lần, mặt 3 chấm xuất hiện 7 lần, các mặt còn lại xuất hiện 25 lần. Xác suất thực nghiệm để xuất hiện mặt có số chấm nhỏ hơn 4 là bao nhiêu?",
-      "options": [
-        "40%",
-        "50%",
-        "45%",
-        "60%"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Xác suất thực nghiệm của sự kiện gồm nhiều biến cố thành phần.",
-        "socraticPrompt": "Số chấm nhỏ hơn 4 gồm những mặt nào? Cộng số lần xuất hiện của các mặt đó lại rồi chia cho 50?",
-        "steps": "Số chấm nhỏ hơn 4 gồm các mặt: 1 chấm, 2 chấm và 3 chấm. Tổng số lần xuất hiện của các mặt này là: 8 + 10 + 7 = 25 lần. Xác suất thực nghiệm là: P = 25 / 50 = 1/2 = 50%.",
-        "trap": "Cộng cả mặt 4 chấm vào làm tăng số lần xuất hiện lên quá 25."
-      }
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Chiến lược quốc gia phát triển ngành công nghiệp Bán dẫn của Việt Nam có thể học hỏi điều gì từ Thung lũng Silicon (Mỹ) và Nhật Bản?",
       "options": [
-        "Xây dựng hệ sinh thái liên kết chặt chẽ giữa Đại học - Viện nghiên cứu - Doanh nghiệp công nghệ và chính sách ưu đãi nhân tài",
-        "Chỉ nhập khẩu thiết bị cũ",
         "Không đào tạo kỹ sư công nghệ",
+        "Chỉ nhập khẩu thiết bị cũ",
+        "Xây dựng hệ sinh thái liên kết chặt chẽ giữa Đại học - Viện nghiên cứu - Doanh nghiệp công nghệ và chính sách ưu đãi nhân tài",
         "Chỉ làm gia công lắp ráp thô"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Đào tạo 50.000 kỹ sư bán dẫn và kiến tạo môi trường đổi mới sáng tạo đột phá.",
       "breakdown": {
         "concept": "Bài học phát triển bán dẫn",
         "steps": "Hệ sinh thái Đổi mới sáng tạo và đào tạo kỹ sư.",
         "socraticPrompt": "Làm thế nào để Việt Nam làm chủ ngành công nghiệp bán dẫn?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để Việt Nam làm chủ ngành công nghiệp bán dẫn?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không đào tạo kỹ sư công nghệ' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ nhập khẩu thiết bị cũ', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Bài học phát triển bán dẫn: Hệ sinh thái Đổi mới sáng tạo và đào tạo kỹ sư.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm gia công lắp ráp thô', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Tinh thần 'Văn hóa Kaizen' (cải tiến liên tục) và tính kỷ luật của người Nhật Bản gửi gắm thông điệp gì tới học sinh?",
       "options": [
-        "Không ngừng học tập, tự hoàn thiện bản thân mỗi ngày từ những việc nhỏ nhất và kiên trì theo đuổi mục tiêu",
+        "Lười biếng ỷ lại",
         "Chấp nhận sự yếu kém",
         "Thỏa mãn với những gì đang có",
-        "Lười biếng ỷ lại"
+        "Không ngừng học tập, tự hoàn thiện bản thân mỗi ngày từ những việc nhỏ nhất và kiên trì theo đuổi mục tiêu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Tiến bộ 1% mỗi ngày sẽ tạo nên sự thay đổi vĩ đại trong tương lai.",
       "breakdown": {
         "concept": "Tinh thần Kaizen",
         "steps": "Cải tiến liên tục và kỷ luật tự giác.",
         "socraticPrompt": "Kaizen mang lại bài học gì cho việc học tập?"
-      }
+      },
+      "socraticPrompt": "Kaizen mang lại bài học gì cho việc học tập?",
+      "distractorReasons": [
+        "Sai vì 'Lười biếng ỷ lại' không phù hợp với định lý/quy tắc trọng tâm (Tinh thần Kaizen).",
+        "Sai vì 'Chấp nhận sự yếu kém' không phù hợp với định lý/quy tắc trọng tâm (Tinh thần Kaizen).",
+        "Sai vì 'Thỏa mãn với những gì đang có' không phù hợp với định lý/quy tắc trọng tâm (Tinh thần Kaizen).",
+        "Đúng vì theo Tinh thần Kaizen: Cải tiến liên tục và kỷ luật tự giác."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Chìa khóa thịnh vượng quốc gia",
         "steps": "Giáo dục + Công nghệ + Thể chế minh bạch.",
         "socraticPrompt": "Đâu là mẫu số chung làm nên sức mạnh của các cường quốc?"
-      }
+      },
+      "socraticPrompt": "Đâu là mẫu số chung làm nên sức mạnh của các cường quốc?",
+      "distractorReasons": [
+        "Đúng vì theo Chìa khóa thịnh vượng quốc gia: Giáo dục + Công nghệ + Thể chế minh bạch.",
+        "Sai vì 'Chờ đợi sự ban phát của thiên nhiên' không phù hợp với định lý/quy tắc trọng tâm (Chìa khóa thịnh vượng quốc gia).",
+        "Sai vì 'Sao chép mù quáng mô hình nước khác' không phù hợp với định lý/quy tắc trọng tâm (Chìa khóa thịnh vượng quốc gia).",
+        "Sai vì 'Xem nhẹ vai trò của giáo dục' không phù hợp với định lý/quy tắc trọng tâm (Chìa khóa thịnh vượng quốc gia)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Cơ hội cho lao động trẻ Việt Nam tại thị trường Nhật Bản hiện nay là",
       "options": [
-        "Học tập kỹ năng công nghệ cao, tác phong làm việc chuyên nghiệp để trở về xây dựng quê hương",
         "Chỉ làm việc tay chân đơn thuần",
+        "Học tập kỹ năng công nghệ cao, tác phong làm việc chuyên nghiệp để trở về xây dựng quê hương",
         "Bỏ qua việc học tiếng Nhật",
         "Không tuân thủ pháp luật sở tại"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Tiếp thu kỹ năng công nghiệp tiên tiến và văn hóa kỷ luật chuẩn mực của Nhật Bản.",
       "breakdown": {
         "concept": "Cơ hội lao động tại Nhật",
         "steps": "Học tập công nghệ và tác phong chuyên nghiệp.",
         "socraticPrompt": "Thế hệ trẻ sang Nhật Bản cần học hỏi điều gì nhất?"
-      }
+      },
+      "socraticPrompt": "Thế hệ trẻ sang Nhật Bản cần học hỏi điều gì nhất?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ làm việc tay chân đơn thuần', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Cơ hội lao động tại Nhật: Học tập công nghệ và tác phong chuyên nghiệp.",
+        "Sai vì 'Bỏ qua việc học tiếng Nhật' không phù hợp với định lý/quy tắc trọng tâm (Cơ hội lao động tại Nhật).",
+        "Sai vì phủ định sai bản chất: 'Không tuân thủ pháp luật sở tại' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Bản chất kinh tế tri thức",
         "steps": "Tri thức và dữ liệu là tài sản quý giá nhất.",
         "socraticPrompt": "Kinh tế tri thức khác kinh tế truyền thống ở điểm nào?"
-      }
+      },
+      "socraticPrompt": "Kinh tế tri thức khác kinh tế truyền thống ở điểm nào?",
+      "distractorReasons": [
+        "Đúng vì theo Bản chất kinh tế tri thức: Tri thức và dữ liệu là tài sản quý giá nhất.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dựa vào cơ bắp và lao động chân tay', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Khai thác tối đa tài nguyên than đá' không phù hợp với định lý/quy tắc trọng tâm (Bản chất kinh tế tri thức).",
+        "Sai vì 'Loại bỏ máy tính khỏi đời sống' không phù hợp với định lý/quy tắc trọng tâm (Bản chất kinh tế tri thức)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Khát vọng xây dựng một 'Việt Nam hùng cường, thịnh vượng vào năm 2045' đòi hỏi mỗi học sinh hôm nay phải",
       "options": [
-        "Rèn đức, luyện tài, làm chủ tri thức khoa học công nghệ và hun đúc tinh thần tự hào dân tộc",
+        "Sợ hãi trước các thách thức",
         "Thờ ơ với vận mệnh đất nước",
         "Sống ích kỷ, an phận thủ thường",
-        "Sợ hãi trước các thách thức"
+        "Rèn đức, luyện tài, làm chủ tri thức khoa học công nghệ và hun đúc tinh thần tự hào dân tộc"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Thế hệ học sinh hôm nay chính là những người sẽ hiện thực hóa ước mơ Việt Nam 2045.",
       "breakdown": {
         "concept": "Khát vọng Việt Nam 2045",
         "steps": "Tự hào dân tộc, làm chủ tri thức và cống hiến.",
         "socraticPrompt": "Sứ mệnh của thế hệ học sinh Việt Nam hôm nay là gì?"
-      }
+      },
+      "socraticPrompt": "Sứ mệnh của thế hệ học sinh Việt Nam hôm nay là gì?",
+      "distractorReasons": [
+        "Sai vì 'Sợ hãi trước các thách thức' không phù hợp với định lý/quy tắc trọng tâm (Khát vọng Việt Nam 2045).",
+        "Sai vì 'Thờ ơ với vận mệnh đất nước' không phù hợp với định lý/quy tắc trọng tâm (Khát vọng Việt Nam 2045).",
+        "Sai vì 'Sống ích kỷ, an phận thủ thường' không phù hợp với định lý/quy tắc trọng tâm (Khát vọng Việt Nam 2045).",
+        "Đúng vì theo Khát vọng Việt Nam 2045: Tự hào dân tộc, làm chủ tri thức và cống hiến."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

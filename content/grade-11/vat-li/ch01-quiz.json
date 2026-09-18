@@ -22,7 +22,16 @@
         "socraticPrompt": "Khoảng cách giữa 2 mối nối là L = 12,5 m. Để thời gian qua 1 thanh ray đúng bằng T0 = 1,5 s thì vận tốc v = L / T0 bằng mấy?",
         "steps": "Điều kiện cộng hưởng: T_ngoại_lực = T0 <=> L / v = T0 => v = L / T0 = 12,5 / 1,5 = 8,33 m/s = 30 km/h.",
         "trap": "Lấy v = L · T0 = 12,5 · 1,5 = 18,75 m/s."
-      }
+      },
+      "socraticPrompt": "Khoảng cách giữa 2 mối nối là L = 12,5 m. Để thời gian qua 1 thanh ray đúng bằng T0 = 1,5 s thì vận tốc v = L / T0 bằng mấy?",
+      "distractorReasons": [
+        "Sai vì '30 km/h' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Điều kiện cộng hưởng: T_ngoại_lực = T0 <=> L / v = T0 => v = L / T0 = 12,5 / 1,5 = 8,33 m/s = 30 km/h.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '12,5 m/s' (Lấy v = L · T0 = 12,5 · 1,5 = 18,75 m/s.).",
+        "Sai vì '18,75 m/s' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Một dao động toàn phần đi từ biên này sang biên kia rồi quay lại thì quãng đường gấp mấy lần biên độ?",
         "steps": "Trong 1 chu kì, vật thực hiện trọn vẹn 1 dao động toàn phần (đi từ biên âm sang biên dương là 2A, rồi quay lại biên âm là 2A). Tổng quãng đường luôn luôn bằng S = 4A.",
         "trap": "Nhầm quãng đường bằng độ dài quỹ đạo (2A)."
-      }
+      },
+      "socraticPrompt": "Một dao động toàn phần đi từ biên này sang biên kia rồi quay lại thì quãng đường gấp mấy lần biên độ?",
+      "distractorReasons": [
+        "Sai vì '2A' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'A' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Trong 1 chu kì, vật thực hiện trọn vẹn 1 dao động toàn phần (đi từ biên âm sang biên dương là 2A, rồi quay lại biên âm là 2A). Tổng quãng đường luôn luôn bằng S.",
+        "Sai vì 'πA' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Khi li độ có sin và cos thì động năng có sin bình phương. Hạ bậc sin²(ωt) làm tần số tăng lên mấy lần?",
         "steps": "Hạ bậc: sin²(ωt) = (1 - cos 2ωt) / 2. Do đó tần số góc tăng gấp đôi thành 2ω, tương ứng tần số dao động của động năng và thế năng là f' = 2f = 2 · 5 = 10 Hz.",
         "trap": "Nghĩ rằng tần số giữ nguyên f' = f = 5 Hz hoặc nhầm f' = f/2."
-      }
+      },
+      "socraticPrompt": "Khi li độ có sin và cos thì động năng có sin bình phương. Hạ bậc sin²(ωt) làm tần số tăng lên mấy lần?",
+      "distractorReasons": [
+        "Sai vì '5 Hz' không phù hợp với định lý/quy tắc trọng tâm (Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi tần số li độ: f' = 2f.).",
+        "Sai vì '2,5 Hz' không phù hợp với định lý/quy tắc trọng tâm (Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi tần số li độ: f' = 2f.).",
+        "Sai vì '20 Hz' không phù hợp với định lý/quy tắc trọng tâm (Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi tần số li độ: f' = 2f.).",
+        "Đúng vì: Hạ bậc: sin²(ωt) = (1 - cos 2ωt) / 2. Do đó tần số góc tăng gấp đôi thành 2ω, tương ứng tần số dao động của động năng và thế năng là f' = 2f = 2 · 5 = 10 Hz."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "ω = 10 rad/s, A = 4 cm = 0,04 m. Lấy 10² nhân 0,04 bằng bao nhiêu m/s²?",
         "steps": "Tại biên |x| = A = 4 cm = 0,04 m. Độ lớn gia tốc: a_max = ω²A = 10² · 0,04 = 100 · 0,04 = 4 m/s² (tương đương 400 cm/s²).",
         "trap": "Tính ra 400 nhưng nhầm đơn vị cm/s² với m/s² dẫn đến chọn 400 m/s²."
-      }
+      },
+      "socraticPrompt": "ω = 10 rad/s, A = 4 cm = 0,04 m. Lấy 10² nhân 0,04 bằng bao nhiêu m/s²?",
+      "distractorReasons": [
+        "Đúng vì theo Tại vị trí biên, độ lớn gia tốc đạt cực đại: a_max = ω²A.: Tại biên |x| = A = 4 cm = 0,04 m. Độ lớn gia tốc: a_max = ω²A = 10² · 0,04 = 100 · 0,04 = 4 m/s² (tương đương 400 cm/s²).",
+        "Sai vì '40 cm/s²' không phù hợp với định lý/quy tắc trọng tâm (Tại vị trí biên, độ lớn gia tốc đạt cực đại: a_max = ω²A.).",
+        "Sai vì '0' không phù hợp với định lý/quy tắc trọng tâm (Tại vị trí biên, độ lớn gia tốc đạt cực đại: a_max = ω²A.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '400 m/s²' (Tính ra 400 nhưng nhầm đơn vị cm/s² với m/s² dẫn đến chọn 400 m/s².)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Góc quét là π/6. Một vòng tròn là 2π tương ứng thời gian T. π/6 ứng với một phần mấy của T?",
         "steps": "Thời gian ngắn nhất: ∆t = ∆α / ω = (π/6) / (2π / T) = T / 12.",
         "trap": "Đoán tỉ lệ đều x = A/2 là T/2 chia đôi bằng T/4 hoặc T/8."
-      }
+      },
+      "socraticPrompt": "Góc quét là π/6. Một vòng tròn là 2π tương ứng thời gian T. π/6 ứng với một phần mấy của T?",
+      "distractorReasons": [
+        "Sai vì 'T / 4' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'T / 6' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Thời gian ngắn nhất: ∆t = ∆α / ω = (π/6) / (2π / T) = T / 12.",
+        "Sai vì 'T / 8' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Khi đi qua ổ gà, thiết bị nào cần dập tắt rung lắc càng nhanh càng tốt để xe êm ái?",
         "steps": "Bộ giảm xóc (pít-tông dầu) hấp thụ năng lượng chấn động và biến thành nhiệt năng, giúp triệt tiêu dao động nhanh chóng.",
         "trap": "Đồng hồ quả lắc cần duy trì dao động không tắt."
-      }
+      },
+      "socraticPrompt": "Khi đi qua ổ gà, thiết bị nào cần dập tắt rung lắc càng nhanh càng tốt để xe êm ái?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đồng hồ quả lắc' (Đồng hồ quả lắc cần duy trì dao động không tắt.).",
+        "Đúng vì: Bộ giảm xóc (pít-tông dầu) hấp thụ năng lượng chấn động và biến thành nhiệt năng, giúp triệt tiêu dao động nhanh chóng.",
+        "Sai vì 'Máy đầm rung bê tông' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Dây đàn ghita đang rung' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

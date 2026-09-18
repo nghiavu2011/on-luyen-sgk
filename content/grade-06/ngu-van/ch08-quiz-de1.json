@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhan đề và xuất phát điểm của văn bản nghị luận.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Con nhà tông không giống lông cũng giống cánh' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Học thầy không tày học bạn' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Nhan đề và xuất phát điểm của văn bản nghị luận.: 'Xem người ta kìa!' là lời trách móc yêu thương phổ biến của cha mẹ khi muốn con noi gương bạn.",
+        "Sai vì 'Trứng đòi khôn hơn vịt' không phù hợp với định lý/quy tắc trọng tâm (Nhan đề và xuất phát điểm của văn bản nghị luận.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -53,7 +61,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được luận điểm cốt lõi của 'hai loại khác biệt'.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sự khác biệt giữa người giàu và người nghèo' (Không thu hẹp khác biệt thành hình thức sinh học cơ thể.).",
+        "Sai vì 'Sự khác biệt về chiều cao và cân nặng' không phù hợp với định lý/quy tắc trọng tâm (Luận điểm cốt lõi của 'Hai loại khác biệt'.).",
+        "Sai vì 'Sự khác biệt về quê quán và giọng nói' không phù hợp với định lý/quy tắc trọng tâm (Luận điểm cốt lõi của 'Hai loại khác biệt'.).",
+        "Đúng vì theo Luận điểm cốt lõi của 'Hai loại khác biệt'.: Tác giả phân biệt rạch ròi giữa hành vi cố tình làm trò quái dị và giá trị cống hiến thực chất."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng tôn trọng bản sắc cá nhân.?",
+      "distractorReasons": [
+        "Đúng vì theo Tư tưởng tôn trọng bản sắc cá nhân.: Sự đa dạng tạo nên vẻ đẹp của thế giới; mỗi người cần tự hào về nét độc đáo của mình.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì xã hội không có trường học nào dạy chung một giáo trình' (Lập luận mang tính triết lý nhân văn, không đơn thuần là số liệu y học.).",
+        "Sai vì phủ định sai bản chất: 'Vì con người không ai muốn chơi chung với nhau' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Vì khoa học đã chứng minh ADN không bao giờ trùng khớp', không đúng với quy luật thực tế và SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu văn bản đọc mở rộng bài 8.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cậu bé bị mất bài tập về nhà' (Ni-cô-la không bị mất bài mà gặp khó khăn trong việc chọn bạn thân.).",
+        "Đúng vì theo Đọc hiểu văn bản đọc mở rộng bài 8.: Tình huống hài hước trẻ thơ khi viết bài tập làm văn về tình bạn trong lớp học.",
+        "Sai vì 'Cậu bé bị cô giáo phạt vì viết chữ xấu' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu văn bản đọc mở rộng bài 8.).",
+        "Sai vì phủ định sai bản chất: 'Cậu bé không biết viết chữ cái' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư duy biện chứng về cá nhân và xã hội.?",
+      "distractorReasons": [
+        "Sai vì 'Cá nhân luôn đối đầu và đứng trên mọi quy tắc của xã hội' không phù hợp với định lý/quy tắc trọng tâm (Tư duy biện chứng về cá nhân và xã hội.).",
+        "Sai vì 'Muốn hòa đồng thì phải từ bỏ hoàn toàn sở thích cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Tư duy biện chứng về cá nhân và xã hội.).",
+        "Đúng vì theo Tư duy biện chứng về cá nhân và xã hội.: Cá tính lành mạnh giúp tập thể phát triển; tập thể vững mạnh là môi trường nâng đỡ cá nhân.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ cần sống cho riêng mình, không quan tâm đến người xung quanh' (Tránh hai thái cực: độc đoán vị kỷ hoặc đánh mất chính mình.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.?",
+      "distractorReasons": [
+        "Sai vì 'Tuyệt vọng và buông xuôi việc học hành' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.).",
+        "Sai vì 'Tức giận cãi lại và bỏ bữa ăn' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.).",
+        "Sai vì 'Ghen ghét và tìm cách bêu xấu bạn 'con nhà người ta' trước lớp' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Kỹ năng quản lý cảm xúc và giao tiếp thấu cảm với cha mẹ.).",
+        "Đúng vì: Biến áp lực so sánh thành động lực học hỏi và biết cách đối thoại tôn trọng với gia đình."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

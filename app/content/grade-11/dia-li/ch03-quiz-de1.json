@@ -20,97 +20,151 @@
         "concept": "Thành viên EU",
         "steps": "27 nước thành viên.",
         "socraticPrompt": "EU có bao nhiêu nước?"
-      }
+      },
+      "socraticPrompt": "EU có bao nhiêu nước?",
+      "distractorReasons": [
+        "Đúng vì theo Thành viên EU: 27 nước thành viên.",
+        "Sai vì '10 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Thành viên EU).",
+        "Sai vì '50 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Thành viên EU).",
+        "Sai vì '193 quốc gia' không phù hợp với định lý/quy tắc trọng tâm (Thành viên EU)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Đồng tiền chung được đưa vào lưu hành chính thức trong khu vực Eurozone của EU là",
       "options": [
-        "Euro (€)",
         "Đô la Mỹ ($)",
+        "Euro (€)",
         "Bảng Anh (£)",
         "Yên Nhật (¥)"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Đồng Euro là đồng tiền chung của khu vực sử dụng đồng Euro.",
       "breakdown": {
         "concept": "Đồng Euro",
         "steps": "Đồng tiền chung Euro.",
         "socraticPrompt": "Tiền tệ chung của EU là gì?"
-      }
+      },
+      "socraticPrompt": "Tiền tệ chung của EU là gì?",
+      "distractorReasons": [
+        "Sai vì 'Đô la Mỹ ($)' không phù hợp với định lý/quy tắc trọng tâm (Đồng Euro).",
+        "Đúng vì theo Đồng Euro: Đồng tiền chung Euro.",
+        "Sai vì 'Bảng Anh (£)' không phù hợp với định lý/quy tắc trọng tâm (Đồng Euro).",
+        "Sai vì 'Yên Nhật (¥)' không phù hợp với định lý/quy tắc trọng tâm (Đồng Euro)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Bốn quyền tự do lưu thông cơ bản trong Thị trường chung EU bao gồm",
       "options": [
-        "Hàng hóa, Dịch vụ, Con người và Tiền vốn",
-        "Vũ khí, Ma túy, Đất đai và Binh lính",
         "Nhà tù, Cảnh sát, Tòa án và Thuế",
+        "Vũ khí, Ma túy, Đất đai và Binh lính",
+        "Hàng hóa, Dịch vụ, Con người và Tiền vốn",
         "Tôn giáo, Sắc tộc, Đảng phái và Báo chí"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "4 tự do lưu thông tạo nên thị trường nội khối thống nhất khổng lồ.",
       "breakdown": {
         "concept": "4 quyền tự do EU",
         "steps": "Hàng hóa, dịch vụ, con người, tiền vốn.",
         "socraticPrompt": "Thị trường chung EU có 4 quyền tự do nào?"
-      }
+      },
+      "socraticPrompt": "Thị trường chung EU có 4 quyền tự do nào?",
+      "distractorReasons": [
+        "Sai vì 'Nhà tù, Cảnh sát, Tòa án và Thuế' không phù hợp với định lý/quy tắc trọng tâm (4 quyền tự do EU).",
+        "Sai vì 'Vũ khí, Ma túy, Đất đai và Binh lính' không phù hợp với định lý/quy tắc trọng tâm (4 quyền tự do EU).",
+        "Đúng vì theo 4 quyền tự do EU: Hàng hóa, dịch vụ, con người, tiền vốn.",
+        "Sai vì 'Tôn giáo, Sắc tộc, Đảng phái và Báo chí' không phù hợp với định lý/quy tắc trọng tâm (4 quyền tự do EU)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hiệp ước Schengen trong EU quy định điều gì?",
       "options": [
-        "Xóa bỏ kiểm soát biên giới nội bộ, cho phép tự do đi lại giữa các nước tham gia",
+        "Cấm buôn bán với thế giới",
         "Thành lập quân đội chung tấn công châu Á",
         "Bắt buộc học tiếng Pháp",
-        "Cấm buôn bán với thế giới"
+        "Xóa bỏ kiểm soát biên giới nội bộ, cho phép tự do đi lại giữa các nước tham gia"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Không cần kiểm tra hộ chiếu tại biên giới giữa các nước Schengen.",
       "breakdown": {
         "concept": "Hiệp ước Schengen",
         "steps": "Tự do đi lại nội khối.",
         "socraticPrompt": "Hiệp ước Schengen cho phép điều gì?"
-      }
+      },
+      "socraticPrompt": "Hiệp ước Schengen cho phép điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Cấm buôn bán với thế giới' không phù hợp với định lý/quy tắc trọng tâm (Hiệp ước Schengen).",
+        "Sai vì 'Thành lập quân đội chung tấn công châu Á' không phù hợp với định lý/quy tắc trọng tâm (Hiệp ước Schengen).",
+        "Sai vì 'Bắt buộc học tiếng Pháp' không phù hợp với định lý/quy tắc trọng tâm (Hiệp ước Schengen).",
+        "Đúng vì theo Hiệp ước Schengen: Tự do đi lại nội khối."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Hiệp định Thương mại tự do giữa Việt Nam và Liên minh Châu Âu có tên viết tắt là",
       "options": [
-        "EVFTA",
         "CPTPP",
+        "EVFTA",
         "RCEP",
         "NAFTA"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "EVFTA (EU - Vietnam Free Trade Agreement).",
       "breakdown": {
         "concept": "EVFTA",
         "steps": "Hiệp định EVFTA.",
         "socraticPrompt": "Hiệp định thương mại VN - EU tên là gì?"
-      }
+      },
+      "socraticPrompt": "Hiệp định thương mại VN - EU tên là gì?",
+      "distractorReasons": [
+        "Sai vì 'CPTPP' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì theo EVFTA: Hiệp định EVFTA.",
+        "Sai vì 'RCEP' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'NAFTA' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Trụ sở chính của Ủy ban Châu Âu đặt tại thành phố nào?",
       "options": [
-        "Bruxelles (Bỉ)",
-        "Luân Đôn (Anh)",
         "Béc-lin (Đức)",
+        "Luân Đôn (Anh)",
+        "Bruxelles (Bỉ)",
         "Rô-ma (Ý)"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Bruxelles được coi là thủ đô hành chính của EU.",
       "breakdown": {
         "concept": "Trụ sở EU",
         "steps": "Bruxelles - Bỉ.",
         "socraticPrompt": "Trụ sở EU ở đâu?"
-      }
+      },
+      "socraticPrompt": "Trụ sở EU ở đâu?",
+      "distractorReasons": [
+        "Sai vì 'Béc-lin (Đức)' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở EU).",
+        "Sai vì 'Luân Đôn (Anh)' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở EU).",
+        "Đúng vì theo Trụ sở EU: Bruxelles - Bỉ.",
+        "Sai vì 'Rô-ma (Ý)' không phù hợp với định lý/quy tắc trọng tâm (Trụ sở EU)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

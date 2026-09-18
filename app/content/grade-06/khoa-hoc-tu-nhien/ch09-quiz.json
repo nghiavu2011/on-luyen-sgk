@@ -21,7 +21,16 @@
         "socraticPrompt": "Khối lượng có bị giảm đi khi lên Mặt Trăng không? Trọng lượng bằng 900 N chia 6 bằng bao nhiêu?",
         "steps": "Khối lượng giữ nguyên 90 kg; trọng lượng P = 900 / 6 = 150 N.",
         "trap": "Nhiều học sinh lầm tưởng khối lượng cũng bị chia 6 thành 15 kg."
-      }
+      },
+      "socraticPrompt": "Khối lượng có bị giảm đi khi lên Mặt Trăng không? Trọng lượng bằng 900 N chia 6 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Khối lượng giữ nguyên 90 kg; trọng lượng P = 900 / 6 = 150 N.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khối lượng 15 kg và trọng lượng 150 N' (Nhiều học sinh lầm tưởng khối lượng cũng bị chia 6 thành 15 kg.).",
+        "Sai vì 'Khối lượng 90 kg và trọng lượng 900 N' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Khối lượng 15 kg và trọng lượng 900 N' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c9_d3_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Nước đá nhẹ hơn nước lỏng nổi lên, lực đẩy chất lỏng hướng lên cân bằng với lực hút nào?",
         "steps": "Lực đẩy Ac-si-met cân bằng với trọng lực tạo trạng thái nổi cân bằng 9/10 phần chìm.",
         "trap": "Tảng băng vẫn chịu trọng lực bình thường chứ không mất trọng lực."
-      }
+      },
+      "socraticPrompt": "Nước đá nhẹ hơn nước lỏng nổi lên, lực đẩy chất lỏng hướng lên cân bằng với lực hút nào?",
+      "distractorReasons": [
+        "Sai vì 'Tảng băng bị cá voi đội lên' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Lực đẩy Ac-si-met cân bằng với trọng lực tạo trạng thái nổi cân bằng 9/10 phần chìm.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Băng trôi không chịu tác dụng của trọng lực' (Tảng băng vẫn chịu trọng lực bình thường chứ không mất trọng lực.).",
+        "Sai vì 'Do gió thổi nhấc bổng tảng băng lên' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c9_d3_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Đường trơn xe bị trượt xa hơn khi phanh, muốn không đâm vào xe trước thì phải giữ cự li xa hơn hay gần hơn?",
         "steps": "Giảm tốc độ + Tăng khoảng cách an toàn chống trơn trượt mất lái.",
         "trap": "Phanh gấp trên đường trơn sẽ làm bó cứng phanh gây trượt quay xe lật đổ."
-      }
+      },
+      "socraticPrompt": "Đường trơn xe bị trượt xa hơn khi phanh, muốn không đâm vào xe trước thì phải giữ cự li xa hơn hay gần hơn?",
+      "distractorReasons": [
+        "Sai vì 'Tăng tốc độ chạy thật nhanh để vượt qua đoạn ướt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phanh gấp liên tục' (Phanh gấp trên đường trơn sẽ làm bó cứng phanh gây trượt quay xe lật đổ.).",
+        "Đúng vì: Giảm tốc độ + Tăng khoảng cách an toàn chống trơn trượt mất lái.",
+        "Sai vì 'Tắt hết đèn xe' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c9_d3_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Tàu bay lơ lửng không chạm đường ray thì có còn ma sát giữa bánh xe với thanh ray không?",
         "steps": "Lực từ nâng bổng tàu -> triệt tiêu ma sát đường ray -> đạt vận tốc siêu cao.",
         "trap": "Tàu vẫn chịu lực hút Trái Đất và lực cản không khí, không thể triệt tiêu trọng lực."
-      }
+      },
+      "socraticPrompt": "Tàu bay lơ lửng không chạm đường ray thì có còn ma sát giữa bánh xe với thanh ray không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Triệt tiêu hoàn toàn lực hút của Trái Đất' (Tàu vẫn chịu lực hút Trái Đất và lực cản không khí, không thể triệt tiêu trọng lực.).",
+        "Sai vì phủ định sai bản chất: 'Tàu không có khối lượng' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Tạo ra chân không xung quanh tàu' trái ngược với kiến thức SGK.",
+        "Đúng vì: Lực từ nâng bổng tàu -> triệt tiêu ma sát đường ray -> đạt vận tốc siêu cao."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c9_d3_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "100 g dãn 2 cm thì 300 g dãn mấy cm? Lấy chiều dài ban đầu 12 cộng độ dãn mới ra bao nhiêu?",
         "steps": "Δl' = 6 cm -> l = 12 + 6 = 18 cm.",
         "trap": "Chỉ lấy 14 + 2 = 16 cm (quên tính tổng 300 g)."
-      }
+      },
+      "socraticPrompt": "100 g dãn 2 cm thì 300 g dãn mấy cm? Lấy chiều dài ban đầu 12 cộng độ dãn mới ra bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Δl' = 6 cm -> l = 12 + 6 = 18 cm.",
+        "Sai vì '16 cm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '20 cm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '15 cm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c9_d3_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Lực cản không khí của vòm dù hướng lên cân bằng với trọng lực hướng xuống làm chuyển động của người rơi như thế nào?",
         "steps": "Lực cản vòm dù cân bằng với trọng lực -> rơi đều với vận tốc an toàn khoảng 5 m/s.",
         "trap": "Trọng lực không hề mất đi mà được cân bằng bởi lực cản không khí."
-      }
+      },
+      "socraticPrompt": "Lực cản không khí của vòm dù hướng lên cân bằng với trọng lực hướng xuống làm chuyển động của người rơi như thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì trọng lực bị biến mất hoàn toàn khi bung dù' (Trọng lực không hề mất đi mà được cân bằng bởi lực cản không khí.).",
+        "Đúng vì: Lực cản vòm dù cân bằng với trọng lực -> rơi đều với vận tốc an toàn khoảng 5 m/s.",
+        "Sai vì 'Vì gió thổi người bay ngược lên trời' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì dù được làm bằng kim loại nhẹ' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

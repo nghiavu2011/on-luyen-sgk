@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Khi nhận được tin nhắn Facebook từ tài khoản của bạn thân nhắn tin: 'Tao đang kẹt tiền, chuyển gấp vào số tài khoản lạ này 2 triệu', bạn cần",
       "options": [
-        "Gọi điện thoại trực tiếp để kiểm tra xem tài khoản bạn mình có bị hack hay không",
         "Chuyển tiền ngay vì tin tưởng bạn bè",
+        "Gọi điện thoại trực tiếp để kiểm tra xem tài khoản bạn mình có bị hack hay không",
         "Gửi tiếp mật khẩu tài khoản của mình",
         "Chuyển gấp 5 triệu"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Cảnh giác với tài khoản bị chiếm đoạt (hack nick) để lừa đảo vay tiền.",
       "breakdown": {
         "concept": "Phòng ngừa chiếm đoạt tài khoản",
         "steps": "Gọi điện thoại xác minh trực tiếp.",
         "socraticPrompt": "Bạn thân nhắn tin mượn tiền qua Facebook lạ thì làm gì?"
-      }
+      },
+      "socraticPrompt": "Bạn thân nhắn tin mượn tiền qua Facebook lạ thì làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Chuyển tiền ngay vì tin tưởng bạn bè' không phù hợp với định lý/quy tắc trọng tâm (Phòng ngừa chiếm đoạt tài khoản).",
+        "Đúng vì theo Phòng ngừa chiếm đoạt tài khoản: Gọi điện thoại xác minh trực tiếp.",
+        "Sai vì 'Gửi tiếp mật khẩu tài khoản của mình' không phù hợp với định lý/quy tắc trọng tâm (Phòng ngừa chiếm đoạt tài khoản).",
+        "Sai vì 'Chuyển gấp 5 triệu' không phù hợp với định lý/quy tắc trọng tâm (Phòng ngừa chiếm đoạt tài khoản)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Để tạo một mật khẩu mạnh và an toàn cho tài khoản học tập và email, bạn nên",
       "options": [
-        "Kết hợp chữ hoa, chữ thường, số, ký tự đặc biệt (@#$) và dài từ 12 ký tự trở lên",
-        "Dùng ngày tháng năm sinh hoặc số điện thoại của mình",
         "Dùng mật khẩu '123456' hoặc 'password'",
+        "Dùng ngày tháng năm sinh hoặc số điện thoại của mình",
+        "Kết hợp chữ hoa, chữ thường, số, ký tự đặc biệt (@#$) và dài từ 12 ký tự trở lên",
         "Dùng tên của chính mình"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Mật khẩu phức tạp chống lại các cuộc tấn công Brute-Force và Dictionary attack.",
       "breakdown": {
         "concept": "Tạo mật khẩu mạnh",
         "steps": "Chữ hoa + thường + số + ký tự đặc biệt, >=12 ký tự.",
         "socraticPrompt": "Mật khẩu an toàn nhất có đặc điểm gì?"
-      }
+      },
+      "socraticPrompt": "Mật khẩu an toàn nhất có đặc điểm gì?",
+      "distractorReasons": [
+        "Sai vì 'Dùng mật khẩu '123456' hoặc 'password'' không phù hợp với định lý/quy tắc trọng tâm (Tạo mật khẩu mạnh).",
+        "Sai vì 'Dùng ngày tháng năm sinh hoặc số điện thoại của mình' không phù hợp với định lý/quy tắc trọng tâm (Tạo mật khẩu mạnh).",
+        "Đúng vì theo Tạo mật khẩu mạnh: Chữ hoa + thường + số + ký tự đặc biệt, >=12 ký tự.",
+        "Sai vì 'Dùng tên của chính mình' không phù hợp với định lý/quy tắc trọng tâm (Tạo mật khẩu mạnh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Khi làm slide thuyết trình môn học, để sử dụng hình ảnh minh họa trên Internet đúng luật bản quyền, bạn cần",
       "options": [
-        "Tìm ảnh có giấy phép Creative Commons (miễn phí sử dụng) và ghi chú nguồn gốc tác giả",
+        "Sao chép toàn bộ bài của người khác",
         "Tải ảnh có đóng dấu bản quyền mờ (watermark) về tự ý xóa watermark",
         "Nhận ảnh đó là do mình tự vẽ",
-        "Sao chép toàn bộ bài của người khác"
+        "Tìm ảnh có giấy phép Creative Commons (miễn phí sử dụng) và ghi chú nguồn gốc tác giả"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Tôn trọng bản quyền tác giả và liêm chính trong học tập.",
       "breakdown": {
         "concept": "Sử dụng tài nguyên đúng bản quyền",
         "steps": "Chọn ảnh Creative Commons và ghi nguồn.",
         "socraticPrompt": "Lấy ảnh trên mạng làm slide thế nào cho đúng luật?"
-      }
+      },
+      "socraticPrompt": "Lấy ảnh trên mạng làm slide thế nào cho đúng luật?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Sao chép toàn bộ bài của người khác', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Tải ảnh có đóng dấu bản quyền mờ (watermark) về tự ý xóa watermark' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng tài nguyên đúng bản quyền).",
+        "Sai vì 'Nhận ảnh đó là do mình tự vẽ' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng tài nguyên đúng bản quyền).",
+        "Đúng vì theo Sử dụng tài nguyên đúng bản quyền: Chọn ảnh Creative Commons và ghi nguồn."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Chống bạo lực học đường trên mạng",
         "steps": "Vi phạm Luật An ninh mạng, xử lý kỷ luật nặng.",
         "socraticPrompt": "Lập nhóm kín nói xấu bạn là đúng hay sai?"
-      }
+      },
+      "socraticPrompt": "Lập nhóm kín nói xấu bạn là đúng hay sai?",
+      "distractorReasons": [
+        "Đúng vì theo Chống bạo lực học đường trên mạng: Vi phạm Luật An ninh mạng, xử lý kỷ luật nặng.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là đùa vui không có gì to tát', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Được pháp luật bảo vệ quyền tự do' không phù hợp với định lý/quy tắc trọng tâm (Chống bạo lực học đường trên mạng).",
+        "Sai vì 'Đáng khen ngợi' không phù hợp với định lý/quy tắc trọng tâm (Chống bạo lực học đường trên mạng)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Khi kết nối vào mạng Wi-Fi công cộng miễn phí tại quán cà phê, bạn KHÔNG NÊN thực hiện thao tác nào?",
       "options": [
-        "Đăng nhập tài khoản ngân hàng để chuyển số tiền lớn hoặc nhập thông tin thẻ tín dụng",
+        "Tra cứu từ điển",
         "Đọc tin tức báo điện tử",
         "Xem video bài giảng",
-        "Tra cứu từ điển"
+        "Đăng nhập tài khoản ngân hàng để chuyển số tiền lớn hoặc nhập thông tin thẻ tín dụng"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Wi-Fi công cộng không mã hóa dễ bị tin tặc nghe lén dữ liệu (Man-in-the-Middle).",
       "breakdown": {
         "concept": "An toàn Wi-Fi công cộng",
         "steps": "Không giao dịch tài chính qua Wi-Fi công cộng.",
         "socraticPrompt": "Dùng Wi-Fi quán nước công cộng không nên làm gì?"
-      }
+      },
+      "socraticPrompt": "Dùng Wi-Fi quán nước công cộng không nên làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Tra cứu từ điển' không phù hợp với định lý/quy tắc trọng tâm (An toàn Wi-Fi công cộng).",
+        "Sai vì 'Đọc tin tức báo điện tử' không phù hợp với định lý/quy tắc trọng tâm (An toàn Wi-Fi công cộng).",
+        "Sai vì 'Xem video bài giảng' không phù hợp với định lý/quy tắc trọng tâm (An toàn Wi-Fi công cộng).",
+        "Đúng vì theo An toàn Wi-Fi công cộng: Không giao dịch tài chính qua Wi-Fi công cộng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Văn hóa ứng xử mạng xã hội",
         "steps": "Lịch sự, tôn trọng, lan tỏa điều tích cực.",
         "socraticPrompt": "Học sinh ứng xử văn minh trên mạng như thế nào?"
-      }
+      },
+      "socraticPrompt": "Học sinh ứng xử văn minh trên mạng như thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Văn hóa ứng xử mạng xã hội: Lịch sự, tôn trọng, lan tỏa điều tích cực.",
+        "Sai vì 'Tham gia 'bão comment' xúc phạm người khác' không phù hợp với định lý/quy tắc trọng tâm (Văn hóa ứng xử mạng xã hội).",
+        "Sai vì 'Lan truyền tin đồn thất thiệt' không phù hợp với định lý/quy tắc trọng tâm (Văn hóa ứng xử mạng xã hội).",
+        "Sai vì 'Dùng nick ảo để chửi bới' không phù hợp với định lý/quy tắc trọng tâm (Văn hóa ứng xử mạng xã hội)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

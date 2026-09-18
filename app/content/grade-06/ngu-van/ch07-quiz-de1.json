@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được hoàn cảnh xuất thân của nhân vật thạch sanh.?",
+      "distractorReasons": [
+        "Đúng vì theo Hoàn cảnh xuất thân của nhân vật Thạch Sanh.: Thạch Sanh mồ côi cha mẹ nghèo khổ, tài sản duy nhất chỉ có lưỡi búa kiếm củi độ nhật.",
+        "Sai vì 'Một cung tên vàng dát ngọc' không phù hợp với định lý/quy tắc trọng tâm (Hoàn cảnh xuất thân của nhân vật Thạch Sanh.).",
+        "Sai vì 'Một thanh gươm báu sáng lóa' không phù hợp với định lý/quy tắc trọng tâm (Hoàn cảnh xuất thân của nhân vật Thạch Sanh.).",
+        "Sai vì 'Một túi tiền vàng' không phù hợp với định lý/quy tắc trọng tâm (Hoàn cảnh xuất thân của nhân vật Thạch Sanh.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được câu thần chú / câu nói then chốt trong cây khế.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Túi mười hai gang' (Túi 12 gang là do lòng tham của người anh tự ý may.).",
+        "Đúng vì theo Câu thần chú / câu nói then chốt trong Cây khế.: 'Ăn một quả, trả cục vàng, may túi ba gang, mang đi mà đựng'.",
+        "Sai vì 'Túi một gang nhỏ bé' không phù hợp với định lý/quy tắc trọng tâm (Câu thần chú / câu nói then chốt trong Cây khế.).",
+        "Sai vì 'Túi to bằng cả con voi' không phù hợp với định lý/quy tắc trọng tâm (Câu thần chú / câu nói then chốt trong Cây khế.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu truyện cổ tích nước ngoài trong sgk.?",
+      "distractorReasons": [
+        "Sai vì 'Bị đày ra hoang đảo một mình' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu truyện cổ tích nước ngoài trong SGK.).",
+        "Sai vì 'Bị giam cầm trong tháp tối suốt đời' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu truyện cổ tích nước ngoài trong SGK.).",
+        "Đúng vì theo Đọc hiểu truyện cổ tích nước ngoài trong SGK.: Vua chích chòe cải trang thành người hát rong để giúp công chúa thấu hiểu nỗi nhọc nhằn của người lao động và rèn luyện đức tính khiêm nhường.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bị biến thành một con chim chích chòe' (Công chúa không bị biến thành chim mà người chồng có cằm nhọn như mỏ chim.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.?",
+      "distractorReasons": [
+        "Sai vì 'Mâu thuẫn giữa thầy và trò' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Xung đột giữa các vương quốc phong kiến tranh giành đất đai' (Không hiểu truyện cổ tích theo hướng chiến tranh quân sự đơn thuần.).",
+        "Sai vì 'Xung đột về tôn giáo thời cổ đại' không phù hợp với định lý/quy tắc trọng tâm (Đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.).",
+        "Đúng vì theo Đặc trưng xung đột thiện - ác trong truyện cổ tích thần kỳ.: Thạch Sanh đại diện cho người lao động hiền lành; mẹ con Lý Thông đại diện cho giai cấp bóc lột xảo quyệt."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa nghệ thuật của biểu tượng tiếng đàn thạch sanh.?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa nghệ thuật của biểu tượng tiếng đàn Thạch Sanh.: Tiếng đàn công lý vượt qua mọi bức tường ngục tối, đem lại sự thật và tình yêu.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là bài nhạc du dương để ru lính gác ngủ', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để Thạch Sanh biểu diễn tài nghệ bán vé kiếm tiền' (Tiếng đàn mang ý nghĩa biểu tượng tâm linh và công lý xã hội.).",
+        "Sai vì 'Để thu hút chim chóc bay vào ngục' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa nghệ thuật của biểu tượng tiếng đàn Thạch Sanh.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: triết lý nhân quả và ước mơ công lý của truyện cổ tích.?",
+      "distractorReasons": [
+        "Sai vì 'Do số phận ngẫu nhiên xui xẻo' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Triết lý nhân quả và ước mơ công lý của truyện cổ tích.).",
+        "Đúng vì: Nhân dân luôn tin tưởng vào cái kết có hậu: người hiền gặp lành, kẻ gian ác sẽ bị trừng trị thích đáng.",
+        "Sai vì 'Do thời tiết mưa bão thất thường' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Triết lý nhân quả và ước mơ công lý của truyện cổ tích.).",
+        "Sai vì phủ định sai bản chất: 'Để chứng minh công lý không tồn tại' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

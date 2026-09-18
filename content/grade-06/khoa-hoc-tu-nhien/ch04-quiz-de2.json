@@ -21,7 +21,16 @@
         "socraticPrompt": "Thiếu khí gì làm gas cháy không hết sinh muội đen? Mở cửa gió sẽ hút thêm khí gì?",
         "steps": "Mở rộng cửa gió để cấp đủ không khí (oxygen) -> gas cháy hoàn toàn thành CO2 và H2O toả nhiệt cực đại, ngọn lửa xanh sạch.",
         "trap": "Khép cửa gió sẽ càng làm thiếu oxy trầm trọng hơn."
-      }
+      },
+      "socraticPrompt": "Thiếu khí gì làm gas cháy không hết sinh muội đen? Mở cửa gió sẽ hút thêm khí gì?",
+      "distractorReasons": [
+        "Đúng vì: Mở rộng cửa gió để cấp đủ không khí (oxygen) -> gas cháy hoàn toàn thành CO2 và H2O toả nhiệt cực đại, ngọn lửa xanh sạch.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khép nhỏ cửa gió lại hơn nữa' (Khép cửa gió sẽ càng làm thiếu oxy trầm trọng hơn.).",
+        "Sai vì 'Tắt bếp và đổ thêm nước vào bình gas' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Đậy kín toàn bộ mặt bếp', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c4_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Chất dùng để làm ra đồ vật gọi là vật liệu, đồ vật hoàn chỉnh gọi là vật thể.",
         "steps": "Gỗ (vật liệu) -> làm nên Chiếc bàn (vật thể).",
         "trap": "Câu đầu tiên bị đảo ngược thứ tự (vật thể trước vật liệu sau)."
-      }
+      },
+      "socraticPrompt": "Chất dùng để làm ra đồ vật gọi là vật liệu, đồ vật hoàn chỉnh gọi là vật thể.",
+      "distractorReasons": [
+        "Sai vì 'Chiếc thìa nhôm — Kim loại nhôm' không phù hợp với định lý/quy tắc trọng tâm (Gỗ tự nhiên là vật liệu; Chiếc bàn học là vật thể nhân tạo được chế tạo từ vật liệu gỗ.).",
+        "Đúng vì: Gỗ (vật liệu) -> làm nên Chiếc bàn (vật thể).",
+        "Sai vì 'Kim loại sắt — Kim loại đồng' không phù hợp với định lý/quy tắc trọng tâm (Gỗ tự nhiên là vật liệu; Chiếc bàn học là vật thể nhân tạo được chế tạo từ vật liệu gỗ.).",
+        "Sai vì 'Chiếc cặp sách — Cuốn vở học sinh' không phù hợp với định lý/quy tắc trọng tâm (Gỗ tự nhiên là vật liệu; Chiếc bàn học là vật thể nhân tạo được chế tạo từ vật liệu gỗ.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c4_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Chai nước khoáng dùng một lần gặp nước sôi sẽ bị sun queo và thôi nhiễm hoá chất độc hại đúng không?",
         "steps": "Không dùng chai PET đựng nước nóng vì giải phóng chất độc hại gây ung thư.",
         "trap": "Cứ nghĩ nhựa nào cũng chịu được nhiệt độ sôi."
-      }
+      },
+      "socraticPrompt": "Chai nước khoáng dùng một lần gặp nước sôi sẽ bị sun queo và thôi nhiễm hoá chất độc hại đúng không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng hộp nhựa chuyên dụng chịu nhiệt cho lò vi sóng theo hướng dẫn' (Cứ nghĩ nhựa nào cũng chịu được nhiệt độ sôi.).",
+        "Sai vì 'Rửa sạch hộp nhựa đựng thức ăn bằng xà phòng sau khi dùng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Không dùng chai PET đựng nước nóng vì giải phóng chất độc hại gây ung thư.",
+        "Sai vì 'Phân loại rác thải nhựa để tái chế' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c4_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Kim loại sẽ phản ứng bị axit ăn mòn, còn thủy tinh có bị axit thông thường hoà tan không?",
         "steps": "Thủy tinh trơ hoá học và trong suốt nên là vật liệu lý tưởng cho phòng thí nghiệm.",
         "trap": "Axit HF ăn mòn được thủy tinh nhưng đó là trường hợp đặc biệt không dùng trong hoá phổ thông."
-      }
+      },
+      "socraticPrompt": "Kim loại sẽ phản ứng bị axit ăn mòn, còn thủy tinh có bị axit thông thường hoà tan không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì thủy tinh nhẹ hơn kim loại' (Axit HF ăn mòn được thủy tinh nhưng đó là trường hợp đặc biệt không dùng trong hoá phổ thông.).",
+        "Sai vì 'Vì thủy tinh rẻ tiền hơn đất sét' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Vì thủy tinh dẫn điện rất tốt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Thủy tinh trơ hoá học và trong suốt nên là vật liệu lý tưởng cho phòng thí nghiệm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c4_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Chữ E trong E5 là viết tắt của cồn gì sản xuất từ tinh bột ngô sắn?",
         "steps": "E5 = 5% Ethanol + 95% xăng truyền thống.",
         "trap": "Tuyệt đối không có nước pha vào xăng."
-      }
+      },
+      "socraticPrompt": "Chữ E trong E5 là viết tắt của cồn gì sản xuất từ tinh bột ngô sắn?",
+      "distractorReasons": [
+        "Đúng vì: E5 = 5% Ethanol + 95% xăng truyền thống.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '5% nước tinh khiết và 95% xăng khoáng' (Tuyệt đối không có nước pha vào xăng.).",
+        "Sai vì '50% dầu diesel và 50% cồn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '5% chì và 95% dầu hoả' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c4_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Hút hết cát dưới lòng sông thì đất hai bên bờ kè đê có giữ vững được không?",
         "steps": "Khai thác cát trái phép gây sạt lở bờ sông và đe dọa an toàn đê điều mùa lũ.",
         "trap": "Cát sông là nguyên liệu xây dựng quan trọng nhưng phải được khai thác có quy hoạch nghiêm ngặt."
-      }
+      },
+      "socraticPrompt": "Hút hết cát dưới lòng sông thì đất hai bên bờ kè đê có giữ vững được không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm nước sông ngọt hơn' (Cát sông là nguyên liệu xây dựng quan trọng nhưng phải được khai thác có quy hoạch nghiêm ngặt.).",
+        "Đúng vì: Khai thác cát trái phép gây sạt lở bờ sông và đe dọa an toàn đê điều mùa lũ.",
+        "Sai vì 'Làm tăng số lượng cá tôm trong lòng sông' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Làm đáy sông phẳng đẹp hơn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

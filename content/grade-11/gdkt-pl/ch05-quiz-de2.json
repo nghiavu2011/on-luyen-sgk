@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Bạn An nhận thấy học sinh trong trường thường quên mang dụng cụ học tập và có nhu cầu thuê ô che mưa. An nảy ra ý tưởng mở dịch vụ 'Tủ đồ tiện ích học đường'. Ý tưởng của An xuất phát từ",
       "options": [
-        "Việc phát hiện nhu cầu thực tế chưa được đáp ứng của khách hàng xung quanh",
         "Sao chép ý tưởng nước ngoài",
+        "Việc phát hiện nhu cầu thực tế chưa được đáp ứng của khách hàng xung quanh",
         "Lời xui bảo ngẫu nhiên",
         "Sự bắt buộc của nhà trường"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Ý tưởng kinh doanh thành công nhất luôn bắt đầu từ việc giải quyết nỗi đau của khách hàng.",
       "breakdown": {
         "concept": "Nguồn gốc ý tưởng kinh doanh",
         "steps": "Giải quyết nhu cầu thực tế của khách hàng.",
         "socraticPrompt": "Ý tưởng tủ đồ tiện ích học đường bắt nguồn từ đâu?"
-      }
+      },
+      "socraticPrompt": "Ý tưởng tủ đồ tiện ích học đường bắt nguồn từ đâu?",
+      "distractorReasons": [
+        "Sai vì 'Sao chép ý tưởng nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc ý tưởng kinh doanh).",
+        "Đúng vì theo Nguồn gốc ý tưởng kinh doanh: Giải quyết nhu cầu thực tế của khách hàng.",
+        "Sai vì 'Lời xui bảo ngẫu nhiên' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc ý tưởng kinh doanh).",
+        "Sai vì 'Sự bắt buộc của nhà trường' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc ý tưởng kinh doanh)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi sản phẩm bánh ngọt của tiệm bánh Bị lỗi mẻ bánh do lò nướng hỏng, chủ tiệm nên xử lý như thế nào đúng đạo đức kinh doanh?",
       "options": [
-        "Tiêu hủy mẻ bánh lỗi, xin lỗi khách hàng và hoàn tiền hoặc đổi bánh mới thơm ngon",
-        "Vẫn đem bán giảm giá lừa khách",
         "Đóng gói bán cho trẻ em",
+        "Vẫn đem bán giảm giá lừa khách",
+        "Tiêu hủy mẻ bánh lỗi, xin lỗi khách hàng và hoàn tiền hoặc đổi bánh mới thơm ngon",
         "Đổ lỗi cho khách hàng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Bảo vệ an toàn sức khỏe khách hàng và giữ trọn chữ Tín thương hiệu.",
       "breakdown": {
         "concept": "Xử lý sự cố sản phẩm",
         "steps": "Tiêu hủy hàng lỗi, xin lỗi và đổi mới.",
         "socraticPrompt": "Bánh bị hỏng mẻ nướng chủ quán nên làm gì?"
-      }
+      },
+      "socraticPrompt": "Bánh bị hỏng mẻ nướng chủ quán nên làm gì?",
+      "distractorReasons": [
+        "Sai vì 'Đóng gói bán cho trẻ em' không phù hợp với định lý/quy tắc trọng tâm (Xử lý sự cố sản phẩm).",
+        "Sai vì 'Vẫn đem bán giảm giá lừa khách' không phù hợp với định lý/quy tắc trọng tâm (Xử lý sự cố sản phẩm).",
+        "Đúng vì theo Xử lý sự cố sản phẩm: Tiêu hủy hàng lỗi, xin lỗi và đổi mới.",
+        "Sai vì 'Đổ lỗi cho khách hàng' không phù hợp với định lý/quy tắc trọng tâm (Xử lý sự cố sản phẩm)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Để kiểm tra tính khả thi của một ý tưởng kinh doanh trước khi đổ vốn lớn, người khởi nghiệp nên",
       "options": [
-        "Làm sản phẩm mẫu thử nghiệm (MVP) và khảo sát phản hồi từ nhóm khách hàng mục tiêu",
+        "Không cần khảo sát",
         "Vay ngân hàng số tiền lớn xây nhà máy ngay",
         "Chỉ hỏi người nhà khen ngợi",
-        "Không cần khảo sát"
+        "Làm sản phẩm mẫu thử nghiệm (MVP) và khảo sát phản hồi từ nhóm khách hàng mục tiêu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Phương pháp khởi nghiệp tinh gọn (Lean Startup) giảm thiểu rủi ro.",
       "breakdown": {
         "concept": "Thử nghiệm MVP",
         "steps": "Làm sản phẩm mẫu và khảo sát khách hàng.",
         "socraticPrompt": "Trước khi kinh doanh lớn cần làm gì trước?"
-      }
+      },
+      "socraticPrompt": "Trước khi kinh doanh lớn cần làm gì trước?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần khảo sát' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vay ngân hàng số tiền lớn xây nhà máy ngay' không phù hợp với định lý/quy tắc trọng tâm (Thử nghiệm MVP).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ hỏi người nhà khen ngợi', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Thử nghiệm MVP: Làm sản phẩm mẫu và khảo sát khách hàng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Lên án thực phẩm bẩn",
         "steps": "Đầu độc cộng đồng, vi phạm pháp luật nặng.",
         "socraticPrompt": "Tẩy trắng thịt ôi thiu bằng hóa chất bị phạt thế nào?"
-      }
+      },
+      "socraticPrompt": "Tẩy trắng thịt ôi thiu bằng hóa chất bị phạt thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Lên án thực phẩm bẩn: Đầu độc cộng đồng, vi phạm pháp luật nặng.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ là mẹo vặt kinh doanh nhỏ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Giúp thịt trông ngon mắt hơn' không phù hợp với định lý/quy tắc trọng tâm (Lên án thực phẩm bẩn).",
+        "Sai vì phủ định sai bản chất: 'Không gây hại gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Một doanh nghiệp trích 5% lợi nhuận hàng năm để xây thư viện và trao học bổng cho học sinh nghèo vùng cao thể hiện",
       "options": [
-        "Trách nhiệm xã hội và lan tỏa giá trị nhân văn cao đẹp",
+        "Bắt buộc theo luật",
         "Chiêu trò khoe mẽ lãng phí",
         "Hành vi trốn tránh nghĩa vụ",
-        "Bắt buộc theo luật"
+        "Trách nhiệm xã hội và lan tỏa giá trị nhân văn cao đẹp"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Kinh doanh gắn liền với phụng sự cộng đồng và phát triển bền vững.",
       "breakdown": {
         "concept": "Lan tỏa giá trị nhân văn",
         "steps": "Thực hiện trách nhiệm xã hội CSR.",
         "socraticPrompt": "Doanh nghiệp xây trường cho trẻ vùng cao thể hiện điều gì?"
-      }
+      },
+      "socraticPrompt": "Doanh nghiệp xây trường cho trẻ vùng cao thể hiện điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Bắt buộc theo luật' không phù hợp với định lý/quy tắc trọng tâm (Lan tỏa giá trị nhân văn).",
+        "Sai vì 'Chiêu trò khoe mẽ lãng phí' không phù hợp với định lý/quy tắc trọng tâm (Lan tỏa giá trị nhân văn).",
+        "Sai vì 'Hành vi trốn tránh nghĩa vụ' không phù hợp với định lý/quy tắc trọng tâm (Lan tỏa giá trị nhân văn).",
+        "Đúng vì theo Lan tỏa giá trị nhân văn: Thực hiện trách nhiệm xã hội CSR."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Trải nghiệm kinh doanh trẻ",
         "steps": "Quản lý thu chi, giữ uy tín, không bỏ học.",
         "socraticPrompt": "Học sinh bán đồ handmade cần lưu ý điều gì?"
-      }
+      },
+      "socraticPrompt": "Học sinh bán đồ handmade cần lưu ý điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Trải nghiệm kinh doanh trẻ: Quản lý thu chi, giữ uy tín, không bỏ học.",
+        "Sai vì 'Bỏ học để kiếm tiền' không phù hợp với định lý/quy tắc trọng tâm (Trải nghiệm kinh doanh trẻ).",
+        "Sai vì 'Lừa dối người mua để lời nhiều' không phù hợp với định lý/quy tắc trọng tâm (Trải nghiệm kinh doanh trẻ).",
+        "Sai vì 'Lấy trộm tiền của bố mẹ' không phù hợp với định lý/quy tắc trọng tâm (Trải nghiệm kinh doanh trẻ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

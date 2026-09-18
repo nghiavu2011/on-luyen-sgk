@@ -1,157 +1,207 @@
 {
-  "examId": "toan-06-ch03-de01",
-  "grade": "06",
-  "subject": "toan",
-  "chapter": "ch03",
-  "chapterTitle": "Số nguyên",
-  "title": "Toán 6 — Chương 3: Số nguyên (Đề 1: Khái niệm & Nhận biết)",
-  "description": "Kiểm tra nhận biết về tập hợp Z, số đối, so sánh số nguyên và quy tắc dấu ngoặc.",
-  "examCode": "101",
-  "mode": "practice",
+  "chapterId": "ch03",
+  "examId": "de1",
+  "title": "Toán 6 — Chương 3: Số nguyên: Đề 1: Khái niệm & Nhận biết",
+  "description": "Kiểm tra định nghĩa, công thức cơ bản và nhận diện đúng các đối tượng toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "toan-06-ch03-de01-q01",
-      "difficulty": "nhan-biet",
-      "topic": "Tập hợp các số nguyên Z",
-      "question": "Tập hợp $\\mathbb{Z}$ các số nguyên bao gồm các thành phần nào sau đây?",
+      "id": "t6_c3_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Số đối của số nguyên",
+      "question": "Số đối của số nguyên -8 là:",
       "options": [
-        "Gồm các số nguyên âm, số 0 và các số nguyên dương",
-        "Chỉ gồm các số tự nhiên lớn hơn 0 trong dãy số",
-        "Chỉ gồm các số nguyên âm có dấu trừ đặt phía trước",
-        "Gồm toàn bộ các số phân số và số thập phân dương"
+        "8",
+        "-8",
+        "1/8",
+        "0"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Định nghĩa tập hợp số nguyên Z",
-        "socraticPrompt": "Tập hợp số nguyên được mở rộng từ tập hợp số tự nhiên bằng cách thêm vào những số nào?",
-        "calculation": "Tập hợp số nguyên $\\mathbb{Z}$ gồm các số nguyên âm, số 0 và các số nguyên dương.",
-        "trap": "Học sinh quên số 0 hoặc nhầm tập số nguyên có chứa cả phân số.",
-        "distractorReasons": {
-          "1": "Đây chỉ là tập hợp số nguyên dương (hay $\\mathbb{N}^*$).",
-          "2": "Đây chỉ là phần các số nguyên âm, thiếu số 0 và số dương.",
-          "3": "Phân số và số thập phân không thuộc tập hợp số nguyên $\\mathbb{Z}$."
-        }
-      }
+        "concept": "Hai số đối nhau có tổng bằng 0 và đối xứng nhau qua điểm gốc 0 trên trục số.",
+        "steps": [
+          "Bước 1: Số đối của -a là a.",
+          "Bước 2: Vậy số đối của -8 là -(-8) = 8."
+        ],
+        "trap": "Nhầm số đối với số nghịch đảo (1/8) hoặc giữ nguyên dấu.",
+        "socraticPrompt": "Trên trục số, điểm nào cách điểm 0 một khoảng 8 đơn vị về phía chiều dương?"
+      },
+      "socraticPrompt": "Trên trục số, điểm nào cách điểm 0 một khoảng 8 đơn vị về phía chiều dương?",
+      "distractorReasons": [
+        "Đúng vì số đối của -8 là 8 (vì -8 + 8 = 0).",
+        "Sai vì -8 là chính nó, không phải số đối.",
+        "Sai vì 1/8 là số nghịch đảo, không phải số đối.",
+        "Sai vì 0 là số đối của chính nó."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "toan-06-ch03-de01-q02",
-      "difficulty": "nhan-biet",
-      "topic": "Số đối của một số nguyên",
-      "question": "Số đối của số nguyên $-15$ là số nào sau đây?",
+      "id": "t6_c3_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "So sánh số nguyên âm",
+      "question": "Khẳng định so sánh nào sau đây là ĐÚNG?",
       "options": [
-        "Số đối của âm 15 là số âm 30",
-        "Số đối của âm 15 là số dương 15",
-        "Số đối của âm 15 là số dương 1",
-        "Số đối của âm 15 là số không 0"
+        "-15 > -9",
+        "-10 < -3",
+        "-7 < -12",
+        "-5 > 0"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Khái niệm số đối của một số nguyên",
-        "socraticPrompt": "Số đối của một số âm là số có cùng khoảng cách đến gốc 0 nhưng nằm ở chiều ngược lại.",
-        "calculation": "Số đối của $-a$ là $a$. Vậy số đối của $-15$ là $+15$ (hoặc 15).",
-        "trap": "Nhầm số đối với phép nhân đôi hoặc nhầm số đối của mọi số là 0.",
-        "distractorReasons": {
-          "0": "Nhầm lẫn giữa tìm số đối và nhân đôi số âm.",
-          "2": "Số 1 không liên quan đến số đối của 15.",
-          "3": "Chỉ có số 0 mới có số đối bằng chính nó là 0."
-        }
-      }
+        "concept": "Trên trục số nằm ngang, số ở bên trái luôn nhỏ hơn số ở bên phải. Với hai số nguyên âm, số có phần tự nhiên lớn hơn thì nhỏ hơn.",
+        "steps": [
+          "Bước 1: Xét -15 và -9: vì 15 > 9 nên -15 < -9 (phương án A sai).",
+          "Bước 2: Xét -7 và -12: vì 7 < 12 nên -7 > -12 (phương án B sai).",
+          "Bước 3: Xét -10 và -3: vì 10 > 3 nên -10 < -3 (phương án C đúng).",
+          "Bước 4: Xét -5 và 0: số âm luôn nhỏ hơn 0 (phương án D sai)."
+        ],
+        "trap": "Học sinh quen thói quen so sánh số tự nhiên thấy 10 > 3 tưởng -10 > -3.",
+        "socraticPrompt": "Nhiệt độ -10°C lạnh hơn hay ấm hơn nhiệt độ -3°C? Điểm nào nằm xa hơn về bên trái trục số?"
+      },
+      "socraticPrompt": "Nhiệt độ -10°C lạnh hơn hay ấm hơn nhiệt độ -3°C? Điểm nào nằm xa hơn về bên trái trục số?",
+      "distractorReasons": [
+        "Sai vì -15 nằm xa điểm 0 về bên trái hơn -9 nên -15 < -9.",
+        "Đúng vì 10 > 3 nên trên trục số -10 nằm ở bên trái -3, do đó -10 < -3.",
+        "Sai vì -7 nằm bên phải -12 trên trục số nên -7 > -12.",
+        "Sai vì mọi số nguyên âm đều nhỏ hơn 0."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch03-de01-q03",
-      "difficulty": "nhan-biet",
-      "topic": "So sánh hai số nguyên",
-      "question": "Khi so sánh hai số nguyên âm $-8$ và $-5$, khẳng định nào sau đây là ĐÚNG?",
+      "id": "t6_c3_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy tắc cộng hai số nguyên âm",
+      "question": "Kết quả của phép tính (-15) + (-25) bằng:",
       "options": [
-        "Số âm 8 lớn hơn số âm 5 vì có giá trị 8 lớn hơn 5",
-        "Hai số âm 8 và âm 5 có giá trị bằng nhau trên trục",
-        "Số âm 8 nhỏ hơn số âm 5 vì nằm xa gốc 0 hơn về bên trái",
-        "Số âm 8 không thể so sánh được với số âm 5 trong tập Z"
+        "40",
+        "-10",
+        "-40",
+        "10"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Quy tắc so sánh hai số nguyên âm",
-        "socraticPrompt": "Trên trục số nằm ngang, điểm nào nằm xa hơn về phía bên trái gốc 0?",
-        "calculation": "Trên trục số, điểm $-8$ nằm bên trái điểm $-5$ nên $-8 < -5$. Trong hai số âm, số có phần tự nhiên lớn hơn thì nhỏ hơn.",
-        "trap": "Áp dụng thói quen so sánh số tự nhiên $8 > 5$ dẫn đến kết luận sai $-8 > -5$.",
-        "distractorReasons": {
-          "0": "Sai lầm phổ biến do lấy thói quen so sánh số dương áp dụng vào số âm.",
-          "1": "Hai số nguyên khác nhau không thể có cùng giá trị.",
-          "3": "Mọi số nguyên đều so sánh được với nhau trên trục số."
-        }
-      }
+        "concept": "Quy tắc cộng hai số nguyên âm: (-a) + (-b) = -(a + b).",
+        "steps": [
+          "Bước 1: Cộng hai phần tự nhiên: 15 + 25 = 40.",
+          "Bước 2: Đặt dấu trừ đằng trước kết quả: -40."
+        ],
+        "trap": "Nhầm sang quy tắc nhân 'âm nhân âm ra dương' thành +40.",
+        "socraticPrompt": "Nợ 15 nghìn đồng, nợ thêm 25 nghìn đồng thì tổng cộng nợ bao nhiêu tiền?"
+      },
+      "socraticPrompt": "Nợ 15 nghìn đồng, nợ thêm 25 nghìn đồng thì tổng cộng nợ bao nhiêu tiền?",
+      "distractorReasons": [
+        "Sai vì nhầm lẫn quy tắc nhân hai số âm thành số dương.",
+        "Sai vì lấy 25 trừ 15 thay vì cộng hai số cùng dấu.",
+        "Đúng vì tổng của hai số nguyên âm luôn là một số nguyên âm: -(15 + 25) = -40.",
+        "Sai vì tính sai và nhầm dấu."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "toan-06-ch03-de01-q04",
-      "difficulty": "nhan-biet",
-      "topic": "Quy tắc dấu của tích",
-      "question": "Khẳng định nào sau đây về quy tắc nhân hai số nguyên cùng dấu là ĐÚNG?",
+      "id": "t6_c3_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy tắc dấu ngoặc",
+      "question": "Khi bỏ dấu ngoặc trong biểu thức -(a - b + c), ta được kết quả là:",
       "options": [
-        "Tích của hai số nguyên âm luôn luôn là một số âm bé",
-        "Tích của hai số nguyên cùng dấu luôn luôn có giá trị 0",
-        "Tích của hai số nguyên khác dấu luôn luôn là số dương",
-        "Tích của hai số nguyên cùng dấu luôn luôn là số dương"
+        "-a - b + c",
+        "a + b - c",
+        "-a - b - c",
+        "-a + b - c"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Quy tắc xác định dấu của phép nhân số nguyên",
-        "socraticPrompt": "Âm nhân âm ra dấu gì, dương nhân dương ra dấu gì?",
-        "calculation": "Quy tắc SGK: $(-) \\times (-) = (+)$ và $(+) \\times (+) = (+)$. Do đó tích của hai số nguyên cùng dấu luôn luôn là số dương.",
-        "trap": "Nhớ nhầm cộng hai số âm ra số âm sang phép nhân hai số âm.",
-        "distractorReasons": {
-          "0": "Nhầm quy tắc phép cộng hai số âm sang phép nhân.",
-          "1": "Tích chỉ bằng 0 khi có ít nhất một thừa số bằng 0.",
-          "2": "Tích của hai số nguyên khác dấu luôn luôn là số âm."
-        }
-      }
+        "concept": "Khi trước ngoặc có dấu '-', ta phải đổi dấu tất cả các số hạng trong ngoặc: '+' đổi thành '-', '-' đổi thành '+'.",
+        "steps": [
+          "Bước 1: Số hạng a (dấu +) đổi thành -a.",
+          "Bước 2: Số hạng -b (dấu -) đổi thành +b.",
+          "Bước 3: Số hạng +c (dấu +) đổi thành -c.",
+          "Bước 4: Kết quả là: -a + b - c."
+        ],
+        "trap": "Chỉ đổi dấu số hạng đầu tiên mà quên đổi dấu các số hạng phía sau.",
+        "socraticPrompt": "Quy tắc bỏ ngoặc có dấu trừ đằng trước yêu cầu ta làm gì với dấu của TẤT CẢ các số hạng bên trong?"
+      },
+      "socraticPrompt": "Quy tắc bỏ ngoặc có dấu trừ đằng trước yêu cầu ta làm gì với dấu của TẤT CẢ các số hạng bên trong?",
+      "distractorReasons": [
+        "Sai vì quên đổi dấu của -b thành +b.",
+        "Sai vì quên đổi dấu số hạng a đầu tiên.",
+        "Sai vì đổi sai dấu của -b.",
+        "Đúng vì dấu trừ trước ngoặc làm đổi dấu tất cả các số hạng: a thành -a, -b thành +b, +c thành -c."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "toan-06-ch03-de01-q05",
-      "difficulty": "nhan-biet",
-      "topic": "Quy tắc dấu ngoặc",
-      "question": "Khi bỏ dấu ngoặc có dấu trừ $(-)$ đằng trước, ta phải thực hiện thao tác gì?",
+      "id": "t6_c3_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhân hai số nguyên cùng dấu âm",
+      "question": "Kết quả của phép nhân (-6) × (-7) là:",
       "options": [
-        "Giữ nguyên dấu của toàn bộ các số hạng nằm trong ngoặc",
-        "Đổi dấu của toàn bộ các số hạng nằm ở bên trong ngoặc",
-        "Chỉ đổi dấu duy nhất của số hạng đầu tiên trong ngoặc",
-        "Chuyển toàn bộ các số hạng mang dấu âm thành số dương"
+        "-42",
+        "42",
+        "-13",
+        "13"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc phá dấu ngoặc có dấu trừ đằng trước",
-        "socraticPrompt": "Dấu trừ đằng trước dấu ngoặc làm thay đổi dấu của các số hạng bên trong như thế nào?",
-        "calculation": "Quy tắc SGK: Khi bỏ dấu ngoặc có dấu '-' đằng trước, ta phải đổi dấu tất cả các số hạng trong ngoặc: '+' thành '-' và '-' thành '+'.",
-        "trap": "Chỉ đổi dấu số đầu tiên mà quên đổi dấu các số hạng còn lại trong ngoặc.",
-        "distractorReasons": {
-          "0": "Giữ nguyên dấu là quy tắc khi đằng trước có dấu cộng (+).",
-          "2": "Phải đổi dấu tất cả các số hạng, không chỉ số đầu tiên.",
-          "3": "Số mang dấu dương cũng phải đổi thành dấu âm."
-        }
-      }
+        "concept": "Quy tắc nhân hai số nguyên cùng dấu: Tích của hai số nguyên âm là một số nguyên dương: (-a) × (-b) = a × b.",
+        "steps": [
+          "Bước 1: Xác định dấu của tích: âm nhân âm ra dương (+).",
+          "Bước 2: Nhân hai phần số tự nhiên: 6 × 7 = 42.",
+          "Bước 3: Kết quả là 42."
+        ],
+        "trap": "Nghĩ hai số âm nhân nhau phải ra số âm (-42) hoặc nhầm sang phép cộng.",
+        "socraticPrompt": "Hai số nguyên cùng dấu âm khi nhân với nhau sẽ cho kết quả mang dấu gì?"
+      },
+      "socraticPrompt": "Hai số nguyên cùng dấu âm khi nhân với nhau sẽ cho kết quả mang dấu gì?",
+      "distractorReasons": [
+        "Sai vì nhân hai số nguyên cùng dấu âm cho kết quả dương chứ không phải âm.",
+        "Đúng vì theo quy tắc nhân hai số nguyên cùng dấu: (-6) × (-7) = +(6 × 7) = 42.",
+        "Sai vì nhầm sang phép cộng (-6) + (-7) = -13.",
+        "Sai vì nhầm sang phép cộng rồi đổi dấu."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch03-de01-q06",
-      "difficulty": "nhan-biet",
-      "topic": "Ứng dụng thực tế của số nguyên",
-      "question": "Nhiệt độ ban ngày tại Sa Pa là $3^oC$, đến đêm giảm đi $5^oC$. Nhiệt độ ban đêm tại Sa Pa là:",
+      "id": "t6_c3_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Ước của số nguyên",
+      "question": "Số nguyên -4 có tất cả bao nhiêu ước nguyên?",
       "options": [
-        "Nhiệt độ ban đêm tại Sa Pa đo được là 2 độ C",
-        "Nhiệt độ ban đêm tại Sa Pa đo được là 8 độ C",
-        "Nhiệt độ ban đêm tại Sa Pa đo được là âm 2 độ C",
-        "Nhiệt độ ban đêm tại Sa Pa đo được là âm 5 độ C"
+        "3",
+        "4",
+        "6",
+        "8"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Ứng dụng số nguyên biểu thị sự thay đổi nhiệt độ",
-        "socraticPrompt": "Nhiệt độ 3 độ C mà giảm đi 5 độ C thì ta thực hiện phép tính gì?",
-        "calculation": "Nhiệt độ ban đêm: $3 - 5 = 3 + (-5) = -2^oC$.",
-        "trap": "Lấy số lớn trừ số bé $5 - 3 = 2^oC$ mà quên dấu âm khi nhiệt độ giảm qua mức 0 độ.",
-        "distractorReasons": {
-          "0": "Lấy nhầm $5 - 3 = 2^oC$ bỏ qua ý nghĩa giảm nhiệt độ.",
-          "1": "Cộng hai nhiệt độ lại $3 + 5 = 8^oC$.",
-          "3": "Lấy nguyên độ giảm mà quên nhiệt độ ban đầu là $3^oC$."
-        }
-      }
+        "concept": "Ước của số nguyên bao gồm cả các ước dương và các ước âm đối xứng nhau.",
+        "steps": [
+          "Bước 1: Các ước nguyên dương của 4 là: 1, 2, 4 (có 3 ước).",
+          "Bước 2: Lấy thêm các số đối của chúng: -1, -2, -4 (có thêm 3 ước).",
+          "Bước 3: Tập hợp các ước của -4 là: Ư(-4) = {±1; ±2; ±4}, có tất cả 6 ước."
+        ],
+        "trap": "Chỉ đếm các ước dương (1, 2, 4) được 3 ước.",
+        "socraticPrompt": "Trong tập số nguyên Z, ngoài các ước dương 1, 2, 4 thì còn các ước âm nào chia hết cho -4?"
+      },
+      "socraticPrompt": "Trong tập số nguyên Z, ngoài các ước dương 1, 2, 4 thì còn các ước âm nào chia hết cho -4?",
+      "distractorReasons": [
+        "Sai vì chỉ mới đếm các ước nguyên dương {1; 2; 4}, quên các ước âm.",
+        "Sai vì đếm sai số lượng ước.",
+        "Đúng vì các ước nguyên của -4 là {1; -1; 2; -2; 4; -4}, có tất cả 6 số.",
+        "Sai vì thừa số lượng ước."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

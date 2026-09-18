@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "So sánh sơ đồ tư duy thủ công và kỹ thuật số (Bài 10, SGK Tin học 6, trang 44-46).",
         "steps": "Cả hai cách đều có giá trị. Phần mềm mang lại sức mạnh công nghệ vượt bậc về tính chỉnh sửa, cộng tác nhóm trực tuyến và lưu trữ bền vững.",
-        "trap": "Cực đoan phủ nhận vẽ tay hoặc phủ nhận phần mềm máy tính."
+        "trap": "Cực đoan phủ nhận vẽ tay hoặc phủ nhận phần mềm máy tính.",
+        "socraticPrompt": "Khi vẽ trên giấy nếu muốn đổi vị trí một nhánh lớn thì phải vẽ lại từ đầu, còn trên phần mềm em chỉ cần làm gì?"
       },
       "socraticPrompt": "Khi vẽ trên giấy nếu muốn đổi vị trí một nhánh lớn thì phải vẽ lại từ đầu, còn trên phần mềm em chỉ cần làm gì?",
       "distractorReasons": [
-        "Sai, đánh giá phiến diện phủ nhận sức mạnh công nghệ.",
-        "Sai, các phần mềm sơ đồ tư duy chạy mượt mà trên máy tính học đường bình thường.",
-        "Sai, phần mềm chỉ là công cụ hỗ trợ tư duy, học sinh phải tự học.",
-        "Chính xác, phản ánh đầy đủ ưu điểm đặc thù của cả hai phương thức theo đúng tinh thần giáo dục hiện đại."
-      ]
+        "Sai vì đánh giá phiến diện phủ nhận sức mạnh công nghệ.",
+        "Sai vì các phần mềm sơ đồ tư duy chạy mượt mà trên máy tính học đường bình thường.",
+        "Sai vì phần mềm chỉ là công cụ hỗ trợ tư duy, học sinh phải tự học.",
+        "Đúng vì phản ánh đầy đủ ưu điểm đặc thù của cả hai phương thức theo đúng tinh thần giáo dục hiện đại."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch05_d3_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Cơ chế bẫy tìm kiếm chuỗi con vs từ nguyên vẹn (Bài 13, SGK Tin học 6, trang 60).",
         "steps": "Khi tìm chuỗi 'anh', nếu không tích chọn 'Find whole words only' thì máy tính sẽ thay thế cả phần 'anh' trong 'tranh' -> 'trem', 'thành' -> 'thềm'. Cần bật tùy chọn tìm từ độc lập nguyên vẹn.",
-        "trap": "Đổ lỗi cho virus hoặc bàn phím thay vì hiểu cơ chế so khớp chuỗi của thuật toán tìm kiếm."
+        "trap": "Đổ lỗi cho virus hoặc bàn phím thay vì hiểu cơ chế so khớp chuỗi của thuật toán tìm kiếm.",
+        "socraticPrompt": "Từ 'tranh' có chứa 3 chữ cái 'a-n-h' bên trong nó hay không?"
       },
       "socraticPrompt": "Từ 'tranh' có chứa 3 chữ cái 'a-n-h' bên trong nó hay không?",
       "distractorReasons": [
-        "Sai, đây là lỗi thao tác do không hiểu quy tắc so khớp chuỗi ký tự.",
-        "Sai, kẹt phím Enter không gây ra việc thay thế ký tự có chọn lọc như vậy.",
-        "Sai, phông chữ không tự ý hoán đổi ký tự văn bản.",
-        "Chính xác, giải thích thấu đáo bản chất thuật toán tìm kiếm chuỗi con và cách khắc phục chuyên nghiệp."
-      ]
+        "Sai vì đây là lỗi thao tác do không hiểu quy tắc so khớp chuỗi ký tự.",
+        "Sai vì kẹt phím Enter không gây ra việc thay thế ký tự có chọn lọc như vậy.",
+        "Sai vì phông chữ không tự ý hoán đổi ký tự văn bản.",
+        "Đúng vì giải thích thấu đáo bản chất thuật toán tìm kiếm chuỗi con và cách khắc phục chuyên nghiệp."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch05_d3_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Định dạng trang theo phân vùng Section Break (Bài 11 & 14, SGK Tin học 6, trang 51).",
         "steps": "Sử dụng Section Break cho phép chia tài liệu thành nhiều vùng độc lập, nhờ đó trang bảng biểu có thể xoay ngang (Landscape) trong khi các trang văn bản khác vẫn giữ nguyên hướng đứng (Portrait).",
-        "trap": "Nghĩ rằng Word chỉ xoay được toàn bộ tài liệu cùng một hướng."
+        "trap": "Nghĩ rằng Word chỉ xoay được toàn bộ tài liệu cùng một hướng.",
+        "socraticPrompt": "Để một căn phòng trong nhà có màu sơn khác các phòng khác, người ta dùng vách ngăn; vậy trong Word công cụ 'ngắt phân vùng' có tên là gì?"
       },
       "socraticPrompt": "Để một căn phòng trong nhà có màu sơn khác các phòng khác, người ta dùng vách ngăn; vậy trong Word công cụ 'ngắt phân vùng' có tên là gì?",
       "distractorReasons": [
-        "Chính xác, đây là kỹ năng định dạng trang nâng cao cực kỳ hữu ích trong thực tế.",
-        "Sai, phương pháp thủ công phá hỏng sự nguyên vẹn của văn bản điện tử.",
-        "Sai, làm mất dữ liệu thông tin cần trình bày.",
-        "Sai, Word hoàn toàn hỗ trợ định dạng hướng trang riêng biệt cho từng Section."
-      ]
+        "Đúng vì đây là kỹ năng định dạng trang nâng cao cực kỳ hữu ích trong thực tế.",
+        "Sai vì phương pháp thủ công phá hỏng sự nguyên vẹn của văn bản điện tử.",
+        "Sai vì làm mất dữ liệu thông tin cần trình bày.",
+        "Sai vì Word hoàn toàn hỗ trợ định dạng hướng trang riêng biệt cho từng Section."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch05_d3_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Bản chất dữ liệu bảng (Bài 12, SGK Tin học 6, trang 54-55).",
         "steps": "Trong cấu trúc bảng dữ liệu, mỗi Cột biểu thị một trường thông tin (thuộc tính), còn mỗi Hàng (dòng) là một bản ghi đầy đủ về một đối tượng cụ thể (ở đây là một học sinh).",
-        "trap": "Nhầm lẫn ý nghĩa giữa Hàng (bản ghi đối tượng) và Cột (thuộc tính dữ liệu)."
+        "trap": "Nhầm lẫn ý nghĩa giữa Hàng (bản ghi đối tượng) và Cột (thuộc tính dữ liệu).",
+        "socraticPrompt": "Khi đọc ngang một hàng từ trái sang phải, em đọc được đầy đủ thông tin của mấy bạn học sinh?"
       },
       "socraticPrompt": "Khi đọc ngang một hàng từ trái sang phải, em đọc được đầy đủ thông tin của mấy bạn học sinh?",
       "distractorReasons": [
-        "Sai, thuộc tính chung được biểu thị bởi Cột (Column).",
-        "Sai, bảng đen là vật dụng phòng học, không liên quan đến cấu trúc dữ liệu.",
-        "Sai, bảng này chỉ quản lý danh sách học sinh chứ không phải danh mục môn học.",
-        "Chính xác, mỗi hàng là một bản ghi dữ liệu trọn vẹn của một cá nhân học sinh."
-      ]
+        "Sai vì thuộc tính chung được biểu thị bởi Cột (Column).",
+        "Sai vì bảng đen là vật dụng phòng học, không liên quan đến cấu trúc dữ liệu.",
+        "Sai vì bảng này chỉ quản lý danh sách học sinh chứ không phải danh mục môn học.",
+        "Đúng vì mỗi hàng là một bản ghi dữ liệu trọn vẹn của một cá nhân học sinh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch05_d3_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Nguyên tắc thiết kế sơ đồ tư duy hiệu quả (Bài 10, SGK Tin học 6, trang 45).",
         "steps": "Sơ đồ tư duy chỉ sử dụng 'Từ khóa' (Keywords). Việc chép nguyên văn cả đoạn văn dài sẽ biến sơ đồ thành một mớ chữ hỗn độn, phá vỡ tính trực quan của sơ đồ.",
-        "trap": "Thói quen chép nguyên văn cả câu dài vào các nhánh sơ đồ."
+        "trap": "Thói quen chép nguyên văn cả câu dài vào các nhánh sơ đồ.",
+        "socraticPrompt": "Sơ đồ tư duy hoạt động dựa trên từ khóa hay dựa trên cả đoạn văn bản dài dòng?"
       },
       "socraticPrompt": "Sơ đồ tư duy hoạt động dựa trên từ khóa hay dựa trên cả đoạn văn bản dài dòng?",
       "distractorReasons": [
         "Sai vì dùng từ khóa ngắn gọn là nguyên tắc ĐÚNG nên làm.",
         "Sai vì dùng màu sắc phân biệt nhánh là nguyên tắc ĐÚNG.",
-        "Chính xác, chép đoạn văn dài là sai lầm phổ biến NÊN TRÁNH khi làm sơ đồ tư duy.",
+        "Đúng vì chép đoạn văn dài là sai lầm phổ biến NÊN TRÁNH khi làm sơ đồ tư duy.",
         "Sai vì chèn biểu tượng hình ảnh trực quan là điều ĐƯỢC KHUYẾN KHÍCH."
-      ]
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch05_d3_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Tiêu chuẩn trình bày văn bản chuyên nghiệp (Bài 11 & 14, SGK Tin học 6, trang 50-63).",
         "steps": "Một văn bản đẹp và chuẩn mực cần: Tính đồng nhất về phông chữ, phân cấp cỡ chữ rõ ràng, căn lề Justify ngay ngắn, bố cục hình ảnh hài hòa và không lạm dụng màu sắc sặc sỡ.",
-        "trap": "Nhầm tưởng dùng càng nhiều phông chữ và màu sắc sặc sỡ thì bài viết càng đẹp."
+        "trap": "Nhầm tưởng dùng càng nhiều phông chữ và màu sắc sặc sỡ thì bài viết càng đẹp.",
+        "socraticPrompt": "Một cuốn sách văn học được trình bày sạch đẹp, trang nhã trông như thế nào?"
       },
       "socraticPrompt": "Một cuốn sách văn học được trình bày sạch đẹp, trang nhã trông như thế nào?",
       "distractorReasons": [
-        "Sai, lạm dụng quá nhiều phông chữ và màu sắc gây rối mắt và thiếu nghiêm túc.",
-        "Sai, chữ đè lên ảnh làm mất nội dung cả hai đối tượng.",
-        "Sai, viết hoa toàn bộ không dấu câu gây khó đọc và vi phạm ngữ pháp tiếng Việt.",
-        "Chính xác, tiêu chuẩn vàng của kỹ thuật trình bày văn bản in ấn và học thuật."
-      ]
+        "Sai vì lạm dụng quá nhiều phông chữ và màu sắc gây rối mắt và thiếu nghiêm túc.",
+        "Sai vì chữ đè lên ảnh làm mất nội dung cả hai đối tượng.",
+        "Sai vì viết hoa toàn bộ không dấu câu gây khó đọc và vi phạm ngữ pháp tiếng Việt.",
+        "Đúng vì tiêu chuẩn vàng của kỹ thuật trình bày văn bản in ấn và học thuật."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

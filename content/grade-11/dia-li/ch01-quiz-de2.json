@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Thách thức lớn nhất của Việt Nam khi tham gia toàn cầu hóa là",
       "options": [
-        "Sức ép cạnh tranh gay gắt từ các tập đoàn quốc tế",
         "Không mua được hàng ngoại",
+        "Sức ép cạnh tranh gay gắt từ các tập đoàn quốc tế",
         "Không có internet",
         "Dân số giảm"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Cạnh tranh khốc liệt đòi hỏi nâng cao chất lượng sản phẩm và năng suất lao động.",
       "breakdown": {
         "concept": "Thách thức hội nhập",
         "steps": "Cạnh tranh gay gắt.",
         "socraticPrompt": "Thách thức lớn nhất khi mở cửa là gì?"
-      }
+      },
+      "socraticPrompt": "Thách thức lớn nhất khi mở cửa là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không mua được hàng ngoại' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Thách thức hội nhập: Cạnh tranh gay gắt.",
+        "Sai vì phủ định sai bản chất: 'Không có internet' trái ngược với kiến thức SGK.",
+        "Sai vì 'Dân số giảm' không phù hợp với định lý/quy tắc trọng tâm (Thách thức hội nhập)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Giải pháp thích ứng biến đổi khí hậu cho đồng bằng sông Cửu Long là",
       "options": [
-        "Chuyển đổi mô hình nông nghiệp thích ứng mặn ngọt, phát triển kinh tế xanh",
-        "Chặt phá rừng phòng hộ",
         "Tăng dùng phân hóa học",
+        "Chặt phá rừng phòng hộ",
+        "Chuyển đổi mô hình nông nghiệp thích ứng mặn ngọt, phát triển kinh tế xanh",
         "Đắp đập ngăn toàn bộ biển"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Thuận thiên thích ứng với hạn mặn bằng giống cây trồng chịu mặn.",
       "breakdown": {
         "concept": "Thích ứng ĐBSCL",
         "steps": "Nông nghiệp tuần hoàn, thuận thiên.",
         "socraticPrompt": "Làm thế nào để ĐBSCL sống chung với hạn mặn?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để ĐBSCL sống chung với hạn mặn?",
+      "distractorReasons": [
+        "Sai vì 'Tăng dùng phân hóa học' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng ĐBSCL).",
+        "Sai vì 'Chặt phá rừng phòng hộ' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng ĐBSCL).",
+        "Đúng vì theo Thích ứng ĐBSCL: Nông nghiệp tuần hoàn, thuận thiên.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Đắp đập ngăn toàn bộ biển', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Nguyên nhân gây khủng hoảng an ninh nguồn nước sông Mê Kông là",
       "options": [
-        "Hệ thống đập thủy điện thượng nguồn giữ nước và phù sa",
+        "Không ai dùng nước",
         "Mưa giảm bằng 0",
         "Nước biển bốc hơi hết",
-        "Không ai dùng nước"
+        "Hệ thống đập thủy điện thượng nguồn giữ nước và phù sa"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Thủy điện thượng nguồn làm đảo lộn dòng chảy tự nhiên.",
       "breakdown": {
         "concept": "An ninh nguồn nước Mê Kông",
         "steps": "Tác động của đập thủy điện.",
         "socraticPrompt": "Tại sao sông Mê Kông cạn kiệt phù sa?"
-      }
+      },
+      "socraticPrompt": "Tại sao sông Mê Kông cạn kiệt phù sa?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không ai dùng nước' trái ngược với kiến thức SGK.",
+        "Sai vì 'Mưa giảm bằng 0' không phù hợp với định lý/quy tắc trọng tâm (An ninh nguồn nước Mê Kông).",
+        "Sai vì 'Nước biển bốc hơi hết' không phù hợp với định lý/quy tắc trọng tâm (An ninh nguồn nước Mê Kông).",
+        "Đúng vì theo An ninh nguồn nước Mê Kông: Tác động của đập thủy điện."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Toàn cầu hóa tài chính",
         "steps": "Giao dịch điện tử toàn cầu.",
         "socraticPrompt": "Đặc điểm của thị trường tài chính quốc tế là gì?"
-      }
+      },
+      "socraticPrompt": "Đặc điểm của thị trường tài chính quốc tế là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Toàn cầu hóa tài chính: Giao dịch điện tử toàn cầu.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng tiền mặt trong nước', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Cấm ngân hàng nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Toàn cầu hóa tài chính).",
+        "Sai vì phủ định sai bản chất: 'Không có sàn chứng khoán' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Cách nhanh nhất để nước đang phát triển bắt kịp thế giới là",
       "options": [
-        "Đầu tư mạnh cho giáo dục và khoa học công nghệ",
+        "Đóng cửa biên giới",
         "Vay nợ tiêu dùng",
         "Khai thác cạn khoáng sản thô",
-        "Đóng cửa biên giới"
+        "Đầu tư mạnh cho giáo dục và khoa học công nghệ"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Khoa học công nghệ và đổi mới sáng tạo là đòn bẩy phát triển.",
       "breakdown": {
         "concept": "Rút ngắn khoảng cách",
         "steps": "Giáo dục và công nghệ cao.",
         "socraticPrompt": "Chìa khóa bứt phá của nước đang phát triển là gì?"
-      }
+      },
+      "socraticPrompt": "Chìa khóa bứt phá của nước đang phát triển là gì?",
+      "distractorReasons": [
+        "Sai vì 'Đóng cửa biên giới' không phù hợp với định lý/quy tắc trọng tâm (Rút ngắn khoảng cách).",
+        "Sai vì 'Vay nợ tiêu dùng' không phù hợp với định lý/quy tắc trọng tâm (Rút ngắn khoảng cách).",
+        "Sai vì 'Khai thác cạn khoáng sản thô' không phù hợp với định lý/quy tắc trọng tâm (Rút ngắn khoảng cách).",
+        "Đúng vì theo Rút ngắn khoảng cách: Giáo dục và công nghệ cao."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Nguồn gốc TNCs",
         "steps": "Xuất phát từ các nước phát triển.",
         "socraticPrompt": "Các công ty đa quốc gia hàng đầu đến từ đâu?"
-      }
+      },
+      "socraticPrompt": "Các công ty đa quốc gia hàng đầu đến từ đâu?",
+      "distractorReasons": [
+        "Đúng vì theo Nguồn gốc TNCs: Xuất phát từ các nước phát triển.",
+        "Sai vì 'Khu vực Nam Cực' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc TNCs).",
+        "Sai vì 'Sa mạc Sahara' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc TNCs).",
+        "Sai vì 'Các đảo nhỏ Thái Bình Dương' không phù hợp với định lý/quy tắc trọng tâm (Nguồn gốc TNCs)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -22,7 +22,16 @@
         "socraticPrompt": "9 chia cho (8 + 1) bằng bao nhiêu?",
         "steps": "I = E / (R + r) = 9 / (8 + 1) = 9 / 9 = 1 A.",
         "trap": "Lấy 9 chia 8 = 1,125 A (quên điện trở trong r = 1 Ω)."
-      }
+      },
+      "socraticPrompt": "9 chia cho (8 + 1) bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1,125 A' (Lấy 9 chia 8 = 1,125 A (quên điện trở trong r = 1 Ω).).",
+        "Đúng vì theo Áp dụng định luật Ohm toàn mạch: I = E / (R + r).: I = E / (R + r) = 9 / (8 + 1) = 9 / 9 = 1 A.",
+        "Sai vì '9 A' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng định luật Ohm toàn mạch: I = E / (R + r).).",
+        "Sai vì '0,5 A' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng định luật Ohm toàn mạch: I = E / (R + r).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lấy suất điện động 6 V trừ đi độ giảm thế trong nguồn I · r = 2 · 0,5?",
         "steps": "U = E - I · r = 6 - (2 · 0,5) = 6 - 1 = 5 V.",
         "trap": "Cộng thêm E + Ir = 7 V hoặc giữ nguyên 6 V."
-      }
+      },
+      "socraticPrompt": "Lấy suất điện động 6 V trừ đi độ giảm thế trong nguồn I · r = 2 · 0,5?",
+      "distractorReasons": [
+        "Sai vì '6 V' không phù hợp với định lý/quy tắc trọng tâm (Hiệu điện thế giữa hai cực nguồn: U = E - I · r.).",
+        "Sai vì '7 V' không phù hợp với định lý/quy tắc trọng tâm (Hiệu điện thế giữa hai cực nguồn: U = E - I · r.).",
+        "Đúng vì theo Hiệu điện thế giữa hai cực nguồn: U = E - I · r.: U = E - I · r = 6 - (2 · 0,5) = 6 - 1 = 5 V.",
+        "Sai vì '4 V' không phù hợp với định lý/quy tắc trọng tâm (Hiệu điện thế giữa hai cực nguồn: U = E - I · r.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c4_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Lấy điện trở ngoài 8 chia cho tổng điện trở (8 + 2) = 10 nhân 100%?",
         "steps": "H = R_N / (R_N + r) = 8 / (8 + 2) = 8 / 10 = 0,8 = 80%.",
         "trap": "Lấy 2 / 8 = 25% rồi trừ ra 75%."
-      }
+      },
+      "socraticPrompt": "Lấy điện trở ngoài 8 chia cho tổng điện trở (8 + 2) = 10 nhân 100%?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '75%' (Lấy 2 / 8 = 25% rồi trừ ra 75%.).",
+        "Đúng vì theo Hiệu suất nguồn điện: H = R_N / (R_N + r) = U_N / E.: H = R_N / (R_N + r) = 8 / (8 + 2) = 8 / 10 = 0,8 = 80%.",
+        "Sai vì '85%' không phù hợp với định lý/quy tắc trọng tâm (Hiệu suất nguồn điện: H = R_N / (R_N + r) = U_N / E.).",
+        "Sai vì '66,7%' không phù hợp với định lý/quy tắc trọng tâm (Hiệu suất nguồn điện: H = R_N / (R_N + r) = U_N / E.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "R = 100 Ω, I² = 4, t = 600 s. Lấy 100 nhân 4 nhân 600 bằng bao nhiêu Joules?",
         "steps": "Đổi t = 10 phút = 600 s. Nhiệt lượng: Q = R · I² · t = 100 · 2² · 600 = 100 · 4 · 600 = 240.000 J = 240 kJ.",
         "trap": "Không đổi phút ra giây, lấy 100 · 4 · 10 = 4000 J = 4 kJ."
-      }
+      },
+      "socraticPrompt": "R = 100 Ω, I² = 4, t = 600 s. Lấy 100 nhân 4 nhân 600 bằng bao nhiêu Joules?",
+      "distractorReasons": [
+        "Đúng vì: Đổi t = 10 phút = 600 s. Nhiệt lượng: Q = R · I² · t = 100 · 2² · 600 = 100 · 4 · 600 = 240.000 J = 240 kJ.",
+        "Sai vì '40 kJ' không phù hợp với định lý/quy tắc trọng tâm (Định luật Joule - Lenz: Q = R · I² · t. Lưu ý đổi 10 phút = 600 s.).",
+        "Sai vì '4 kJ' không phù hợp với định lý/quy tắc trọng tâm (Định luật Joule - Lenz: Q = R · I² · t. Lưu ý đổi 10 phút = 600 s.).",
+        "Sai vì '24 kJ' không phù hợp với định lý/quy tắc trọng tâm (Định luật Joule - Lenz: Q = R · I² · t. Lưu ý đổi 10 phút = 600 s.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c4_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "12 chia cho 0,04 bằng bao nhiêu?",
         "steps": "I_max = E / r = 12 / 0,04 = 300 A. Dòng điện 300 A này sinh nhiệt cực lớn có thể làm nổ bình ắc quy trong tích tắc.",
         "trap": "Chia nhầm 12 / 0,04 = 30 A."
-      }
+      },
+      "socraticPrompt": "12 chia cho 0,04 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '30 A' không phù hợp với định lý/quy tắc trọng tâm (Cường độ dòng điện đoản mạch: I_max = E / r.).",
+        "Đúng vì theo Cường độ dòng điện đoản mạch: I_max = E / r.: I_max = E / r = 12 / 0,04 = 300 A. Dòng điện 300 A này sinh nhiệt cực lớn có thể làm nổ bình ắc quy trong tích tắc.",
+        "Sai vì '120 A' không phù hợp với định lý/quy tắc trọng tâm (Cường độ dòng điện đoản mạch: I_max = E / r.).",
+        "Sai vì '48 A' không phù hợp với định lý/quy tắc trọng tâm (Cường độ dòng điện đoản mạch: I_max = E / r.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Dung lượng 4 Ah chia cho cường độ dòng 0,5 A bằng mấy giờ?",
         "steps": "Dung lượng pin q = 4000 mAh = 4 Ah. Thời gian sử dụng: t = q / I = 4 Ah / 0,5 A = 8 giờ.",
         "trap": "Lấy 4000 / 0,5 = 8000 giờ hoặc nhầm đơn vị."
-      }
+      },
+      "socraticPrompt": "Dung lượng 4 Ah chia cho cường độ dòng 0,5 A bằng mấy giờ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 giờ' (Lấy 4000 / 0,5 = 8000 giờ hoặc nhầm đơn vị.).",
+        "Sai vì '4 giờ' không phù hợp với định lý/quy tắc trọng tâm (Dung lượng pin q = I · t => t = q / I. 4000 mAh = 4 Ah.).",
+        "Đúng vì theo Dung lượng pin q = I · t => t = q / I. 4000 mAh = 4 Ah.: Dung lượng pin q = 4000 mAh = 4 Ah. Thời gian sử dụng: t = q / I = 4 Ah / 0,5 A = 8 giờ.",
+        "Sai vì '10 giờ' không phù hợp với định lý/quy tắc trọng tâm (Dung lượng pin q = I · t => t = q / I. 4000 mAh = 4 Ah.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -22,7 +22,16 @@
         "socraticPrompt": "Kim loại Na phản ứng với nguyên tử H linh động trong nhóm -OH giải phóng khí gì?",
         "steps": "Phương trình: 2C2H5OH + 2Na -> 2C2H5ONa + H2↑. Mẩu Na tan dần và có bọt khí hydrogen không màu thoát ra.",
         "trap": "Nhầm Na không phản ứng với cồn hoặc tạo kết tủa."
-      }
+      },
+      "socraticPrompt": "Kim loại Na phản ứng với nguyên tử H linh động trong nhóm -OH giải phóng khí gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Xuất hiện kết tủa màu đen' (Na không phản ứng với cồn hoặc tạo kết tủa).",
+        "Đúng vì: Phương trình: 2C2H5OH + 2Na -> 2C2H5ONa + H2↑. Mẩu Na tan dần và có bọt khí hydrogen không màu thoát ra.",
+        "Sai vì 'Dung dịch chuyển sang màu hồng' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng thế nguyên tử H trong nhóm -OH của alcohol bởi kim loại kiềm.).",
+        "Sai vì phủ định sai bản chất: 'Kim loại Na chìm xuống đáy không tan' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c5_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Ở 170°C có H2SO4 đặc xúc tác, một phân tử ethanol tách 1 phân tử H2O tạo thành hydrocarbon không no nào?",
         "steps": "Phương trình: C2H5OH -> C2H4 + H2O (H2SO4 đặc, 170°C). Khí sinh ra là ethylene (C2H4).",
         "trap": "Nhầm với phản ứng ở 140°C tạo diethyl ether (C2H5-O-C2H5)."
-      }
+      },
+      "socraticPrompt": "Ở 170°C có H2SO4 đặc xúc tác, một phân tử ethanol tách 1 phân tử H2O tạo thành hydrocarbon không no nào?",
+      "distractorReasons": [
+        "Sai vì 'Dimethyl ether' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tách nước tạo alkene của alcohol ở 170°C.).",
+        "Sai vì 'Khí methane' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tách nước tạo alkene của alcohol ở 170°C.).",
+        "Đúng vì theo Phản ứng tách nước tạo alkene của alcohol ở 170°C.: Phương trình: C2H5OH -> C2H4 + H2O (H2SO4 đặc, 170°C). Khí sinh ra là ethylene (C2H4).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Diethyl ether' (với phản ứng ở 140°C tạo diethyl ether (C2H5-O-C2H5))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c5_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Propan-2-ol là alcohol bậc mấy, và alcohol bậc 2 khi bị oxi hoá bởi CuO đun nóng sẽ tạo ra chất gì?",
         "steps": "Propan-2-ol là alcohol bậc 2: CH3-CH(OH)-CH3. Khi bị oxi hoá bởi CuO nung nóng, nhóm -CH(OH)- chuyển thành nhóm >C=O của ketone (acetone CH3-CO-CH3).",
         "trap": "Chọn aldehyde (chỉ alcohol bậc 1 oxi hoá mới tạo aldehyde)."
-      }
+      },
+      "socraticPrompt": "Propan-2-ol là alcohol bậc mấy, và alcohol bậc 2 khi bị oxi hoá bởi CuO đun nóng sẽ tạo ra chất gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Aldehyde' (Chọn aldehyde (chỉ alcohol bậc 1 oxi hoá mới tạo aldehyde).).",
+        "Sai vì 'Alkene' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc oxi hoá không hoàn toàn: alcohol bậc 2 bị oxi hoá thành ketone.).",
+        "Sai vì 'Carboxylic acid' không phù hợp với định lý/quy tắc trọng tâm (Quy tắc oxi hoá không hoàn toàn: alcohol bậc 2 bị oxi hoá thành ketone.).",
+        "Đúng vì: Propan-2-ol là alcohol bậc 2: CH3-CH(OH)-CH3. Khi bị oxi hoá bởi CuO nung nóng, nhóm -CH(OH)- chuyển thành nhóm >C=O của ketone (acetone CH3-CO-CH3)."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c5_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Chất nào có liên kết hydrogen liên phân tử bền thì có nhiệt độ sôi cao nhất? Chất không phân cực nào sôi thấp nhất?",
         "steps": "Hydrocarbon C2H6 không phân cực có nhiệt độ sôi thấp nhất. Dẫn xuất halogen C2H5Cl phân cực có nhiệt độ sôi trung bình. Alcohol C2H5OH tạo liên kết hydrogen liên phân tử nên có nhiệt độ sôi cao nhất.",
         "trap": "Nghĩ rằng C2H5Cl có khối lượng phân tử lớn hơn nên sôi cao hơn C2H5OH (bỏ qua liên kết hydrogen)."
-      }
+      },
+      "socraticPrompt": "Chất nào có liên kết hydrogen liên phân tử bền thì có nhiệt độ sôi cao nhất? Chất không phân cực nào sôi thấp nhất?",
+      "distractorReasons": [
+        "Đúng vì: Hydrocarbon C2H6 không phân cực có nhiệt độ sôi thấp nhất. Dẫn xuất halogen C2H5Cl phân cực có nhiệt độ sôi trung bình. Alcohol C2H5OH tạo liên kết hydrogen liê.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'C2H5OH < C2H5Cl < C2H6' (Nghĩ rằng C2H5Cl có khối lượng phân tử lớn hơn nên sôi cao hơn C2H5OH (bỏ qua liên kết hydrogen).).",
+        "Sai vì 'C2H6 < C2H5OH < C2H5Cl' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của liên kết hydrogen và độ phân cực đến nhiệt độ sôi.).",
+        "Sai vì 'C2H5Cl < C2H6 < C2H5OH' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của liên kết hydrogen và độ phân cực đến nhiệt độ sôi.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c5_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Alcohol đơn chức phản ứng giải phóng 0.05 mol H2 thì số mol alcohol là bao nhiêu? Khối lượng mol M = m / n bằng bao nhiêu?",
         "steps": "Phương trình: 2R-OH + 2Na -> 2R-ONa + H2. Số mol alcohol = 2 · n_H2 = 2 · 0.05 = 0.1 mol. Khối lượng mol M = 4.6 / 0.1 = 46 g/mol. Công thức phân tử phù hợp là C2H5OH (ethanol).",
         "trap": "Quên nhân 2 số mol H2 (lấy n_alcohol = 0.05 mol) dẫn đến tính M = 92."
-      }
+      },
+      "socraticPrompt": "Alcohol đơn chức phản ứng giải phóng 0.05 mol H2 thì số mol alcohol là bao nhiêu? Khối lượng mol M = m / n bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 'CH3OH' không phù hợp với định lý/quy tắc trọng tâm (Bài toán kim loại kiềm tác dụng với alcohol đơn chức: n_alcohol = 2 · n_H2.).",
+        "Sai vì 'C3H7OH' không phù hợp với định lý/quy tắc trọng tâm (Bài toán kim loại kiềm tác dụng với alcohol đơn chức: n_alcohol = 2 · n_H2.).",
+        "Đúng vì: Phương trình: 2R-OH + 2Na -> 2R-ONa + H2. Số mol alcohol = 2 · n_H2 = 2 · 0.05 = 0.1 mol. Khối lượng mol M = 4.6 / 0.1 = 46 g/mol. Công thức phân tử phù hợp là .",
+        "Sai vì 'C4H9OH' không phù hợp với định lý/quy tắc trọng tâm (Bài toán kim loại kiềm tác dụng với alcohol đơn chức: n_alcohol = 2 · n_H2.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c5_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Carbonic acid H2CO3 đẩy phenol ra khỏi muối phenolate, phenol ít tan trong nước lạnh tạo hiện tượng gì?",
         "steps": "Phương trình: C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3. Phenol (C6H5OH) được giải phóng ít tan trong nước lạnh nên tách ra làm dung dịch vẩn đục.",
         "trap": "Nghĩ rằng tạo kết tủa màu vàng (nhầm với phản ứng của acid picric)."
-      }
+      },
+      "socraticPrompt": "Carbonic acid H2CO3 đẩy phenol ra khỏi muối phenolate, phenol ít tan trong nước lạnh tạo hiện tượng gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Dung dịch vẫn trong suốt không đổi' trái ngược với kiến thức SGK.",
+        "Đúng vì: Phương trình: C6H5ONa + CO2 + H2O -> C6H5OH + NaHCO3. Phenol (C6H5OH) được giải phóng ít tan trong nước lạnh nên tách ra làm dung dịch vẩn đục.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Có kết tủa màu vàng xuất hiện' (Nghĩ rằng tạo kết tủa màu vàng (nhầm với phản ứng của acid picric).).",
+        "Sai vì 'Có khí mùi hắc thoát ra ngoài' không phù hợp với định lý/quy tắc trọng tâm (Tính acid của phenol yếu hơn carbonic acid H2CO3 nên bị đẩy ra khỏi muối.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

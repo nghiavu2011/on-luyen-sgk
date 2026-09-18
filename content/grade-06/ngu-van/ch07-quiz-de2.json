@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng của dấu chấm lửng trong văn tự sự.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Báo hiệu lời nói trực tiếp của nhân vật' (Lời trực tiếp dùng dấu ngoặc kép hoặc gạch đầu dòng.).",
+        "Sai vì 'Đánh dấu câu hỏi cần trả lời' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của dấu chấm lửng trong văn tự sự.).",
+        "Đúng vì theo Công dụng của dấu chấm lửng trong văn tự sự.: Dấu ba chấm tạo nhịp điệu hồi hộp, nghẹt thở cho chuỗi hành động chiến đấu kịch tính.",
+        "Sai vì 'Kết thúc đoạn văn miêu tả' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của dấu chấm lửng trong văn tự sự.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -53,7 +61,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được thành ngữ và bài học truyện cổ tích.?",
+      "distractorReasons": [
+        "Sai vì 'Đi một ngày đàng học một sàng khôn' không phù hợp với định lý/quy tắc trọng tâm (Thành ngữ và bài học truyện cổ tích.).",
+        "Sai vì 'Ăn ốc nói mò' không phù hợp với định lý/quy tắc trọng tâm (Thành ngữ và bài học truyện cổ tích.).",
+        "Sai vì 'Đầu voi đuôi chuột' không phù hợp với định lý/quy tắc trọng tâm (Thành ngữ và bài học truyện cổ tích.).",
+        "Đúng vì theo Thành ngữ và bài học truyện cổ tích.: 'Tham thì thâm' phê phán lòng tham không đáy dẫn đến hậu quả tai hại khôn lường."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -78,7 +94,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được kỹ thuật đóng vai nhân vật kể chuyện tự sự.?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ thuật đóng vai nhân vật kể chuyện tự sự.: Nhất quán ngôi kể thứ nhất và hóa thân vào thế giới tâm lý nhân vật để kể chuyện sinh động.",
+        "Sai vì 'Lúc xưng 'tôi', lúc xưng 'anh ấy' tùy thích' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật đóng vai nhân vật kể chuyện tự sự.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tự ý thay đổi kết thúc câu chuyện thành phim trinh thám' (Thay đổi ngôi kể lộn xộn là lỗi nặng nhất trong kiểu bài này.).",
+        "Sai vì phủ định sai bản chất: 'Không được kể lại cốt truyện cổ tích' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -103,7 +127,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được các công dụng chuẩn mực của dấu chấm lửng.?",
+      "distractorReasons": [
+        "Sai vì 'Biểu thị bộ phận liệt kê chưa hết' không phù hợp với định lý/quy tắc trọng tâm (Các công dụng chuẩn mực của dấu chấm lửng.).",
+        "Đúng vì theo Các công dụng chuẩn mực của dấu chấm lửng.: Kết thúc câu cầu khiến dùng dấu chấm than (!), không dùng dấu chấm lửng.",
+        "Sai vì 'Thể hiện lời nói ngập ngừng, xúc động nghẹn ngào' không phù hợp với định lý/quy tắc trọng tâm (Các công dụng chuẩn mực của dấu chấm lửng.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm giãn nhịp câu văn chuẩn bị cho từ ngữ bất ngờ' (Ba phương án còn lại đều là công dụng chuẩn của dấu chấm lửng.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -128,7 +160,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khắc họa chiều sâu nội tâm khi đóng vai nhân vật phản diện.?",
+      "distractorReasons": [
+        "Sai vì 'Ước gì mình may chiếc túi hai mươi gang to hơn' không phù hợp với định lý/quy tắc trọng tâm (Khắc họa chiều sâu nội tâm khi đóng vai nhân vật phản diện.).",
+        "Sai vì phủ định sai bản chất: 'Tức giận vì con chim không chở thêm vàng cho mình' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Khắc họa chiều sâu nội tâm khi đóng vai nhân vật phản diện.: Sự thức tỉnh muộn màng trước cái chết làm nổi bật giá trị nhân quả cảnh tỉnh của câu chuyện.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mong muốn chim quay lại cứu để tiếp tục đi lấy vàng' (Không để nhân vật tiếp tục ngoan cố tham lam trước cái chết.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -153,7 +193,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: năng lực sáng tạo văn học của học sinh thcs.?",
+      "distractorReasons": [
+        "Sai vì 'Để biến truyện cổ tích thành một vở kịch hài hước vô nghĩa' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Năng lực sáng tạo văn học của học sinh THCS.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giúp người viết không cần phải học thuộc bài' (Sáng tạo phải tôn trọng bản chất cốt lõi của câu chuyện dân gian.).",
+        "Sai vì 'Giúp bài văn ngắn hơn và đỡ tốn mực' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Năng lực sáng tạo văn học của học sinh THCS.).",
+        "Đúng vì theo Vận dụng cao: Năng lực sáng tạo văn học của học sinh THCS.: Hóa thân nhân vật đòi hỏi năng lực thấu cảm tâm lý và kỹ năng sáng tạo văn học đa chiều."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

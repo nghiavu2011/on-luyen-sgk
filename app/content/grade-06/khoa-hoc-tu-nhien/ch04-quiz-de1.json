@@ -21,7 +21,16 @@
         "socraticPrompt": "Vật liệu làm săm lốp xe có khả năng đàn hồi co giãn linh hoạt là gì?",
         "steps": "Cao su có tính đàn hồi cao và không thấm nước.",
         "trap": "Thủy tinh mới giòn dễ vỡ; kim loại mới dẫn điện tốt."
-      }
+      },
+      "socraticPrompt": "Vật liệu làm săm lốp xe có khả năng đàn hồi co giãn linh hoạt là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tính dẫn điện rất tốt' (Thủy tinh mới giòn dễ vỡ; kim loại mới dẫn điện tốt.).",
+        "Sai vì 'Tính giòn, dễ vỡ vụn khi va chạm nhẹ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Cao su có tính đàn hồi cao và không thấm nước.",
+        "Sai vì 'Tính trong suốt cho ánh sáng đi qua hoàn toàn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c4_d1_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Than đá và củi tồn tại ở thể gì?",
         "steps": "Than đá, than củi, củi gỗ thuộc nhiên liệu rắn.",
         "trap": "Xăng dầu là nhiên liệu lỏng; gas là nhiên liệu khí."
-      }
+      },
+      "socraticPrompt": "Than đá và củi tồn tại ở thể gì?",
+      "distractorReasons": [
+        "Sai vì 'Xăng, dầu diesel, cồn y tế' không phù hợp với định lý/quy tắc trọng tâm (Nhiên liệu rắn tồn tại ở thể rắn ở nhiệt độ thường như than đá, than bùn, củi gỗ, rơm rạ.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khí gas (LPG), khí biogas, khí thiên nhiên' (Xăng dầu là nhiên liệu lỏng; gas là nhiên liệu khí.).",
+        "Sai vì 'Dầu hoả, khí methan, củi khô' không phù hợp với định lý/quy tắc trọng tâm (Nhiên liệu rắn tồn tại ở thể rắn ở nhiệt độ thường như than đá, than bùn, củi gỗ, rơm rạ.).",
+        "Đúng vì: Than đá, than củi, củi gỗ thuộc nhiên liệu rắn."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c4_d1_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Các nhà máy xi măng thường xây gần các dãy núi nào?",
         "steps": "Đá vôi là nguyên liệu chính sản xuất vôi và xi măng.",
         "trap": "Cát thạch anh dùng sản xuất thủy tinh."
-      }
+      },
+      "socraticPrompt": "Các nhà máy xi măng thường xây gần các dãy núi nào?",
+      "distractorReasons": [
+        "Đúng vì: Đá vôi là nguyên liệu chính sản xuất vôi và xi măng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cát thạch anh' (Cát thạch anh dùng sản xuất thủy tinh.).",
+        "Sai vì 'Quặng bauxite' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Than chì' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c4_d1_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Dây điện gia đình bên trong lõi làm bằng chất gì để dẫn điện?",
         "steps": "Kim loại dẫn điện và dẫn nhiệt tốt nhất.",
         "trap": "Nhựa, gỗ, thủy tinh là các vật liệu cách điện."
-      }
+      },
+      "socraticPrompt": "Dây điện gia đình bên trong lõi làm bằng chất gì để dẫn điện?",
+      "distractorReasons": [
+        "Sai vì 'Chất dẻo (nhựa PVC)' không phù hợp với định lý/quy tắc trọng tâm (Kim loại có các electron tự do nên dẫn điện và dẫn nhiệt rất tốt.).",
+        "Đúng vì: Kim loại dẫn điện và dẫn nhiệt tốt nhất.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thủy tinh' (Nhựa, gỗ, thủy tinh là các vật liệu cách điện.).",
+        "Sai vì 'Gỗ khô' không phù hợp với định lý/quy tắc trọng tâm (Kim loại có các electron tự do nên dẫn điện và dẫn nhiệt rất tốt.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c4_d1_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Recycle dịch sang tiếng Việt trong xử lý rác là gì?",
         "steps": "Recycle là tái chế phế liệu thành sản phẩm mới.",
         "trap": "Reuse là tái sử dụng; Reduce là giảm thiểu."
-      }
+      },
+      "socraticPrompt": "Recycle dịch sang tiếng Việt trong xử lý rác là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giảm thiểu rác thải' (Reuse là tái sử dụng; Reduce là giảm thiểu.).",
+        "Sai vì 'Tái sử dụng nhiều lần' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Recycle là tái chế phế liệu thành sản phẩm mới.",
+        "Sai vì 'Chôn lấp rác' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c4_d1_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Nắng và gió có bao giờ bị con người dùng cạn kiệt không?",
         "steps": "Năng lượng mặt trời và gió là năng lượng tái tạo sạch.",
         "trap": "Than đá và dầu mỏ là năng lượng hoá thạch không thể tái tạo."
-      }
+      },
+      "socraticPrompt": "Nắng và gió có bao giờ bị con người dùng cạn kiệt không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Năng lượng từ than đá' (Than đá và dầu mỏ là năng lượng hoá thạch không thể tái tạo.).",
+        "Sai vì 'Năng lượng từ khí tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng mặt trời và gió là tài nguyên tái tạo vô tận, không phát thải khí nhà kính.).",
+        "Sai vì 'Năng lượng từ dầu mỏ' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng mặt trời và gió là tài nguyên tái tạo vô tận, không phát thải khí nhà kính.).",
+        "Đúng vì: Năng lượng mặt trời và gió là năng lượng tái tạo sạch."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

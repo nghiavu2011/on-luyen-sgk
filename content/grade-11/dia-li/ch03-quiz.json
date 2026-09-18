@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Bài học lớn nhất từ mô hình hội nhập thành công của EU cho Cộng đồng ASEAN là",
       "options": [
-        "Xây dựng thể chế pháp lý chặt chẽ, mở rộng các quyền tự do lưu thông và đồng thuận nội khối",
-        "Bắt buộc tất cả các nước phải dùng chung một ngôn ngữ",
         "Xóa bỏ chủ quyền từng quốc gia thành viên",
+        "Bắt buộc tất cả các nước phải dùng chung một ngôn ngữ",
+        "Xây dựng thể chế pháp lý chặt chẽ, mở rộng các quyền tự do lưu thông và đồng thuận nội khối",
         "Tách rời khỏi thương mại toàn cầu"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Hội nhập kinh tế dựa trên luật chơi minh bạch và gắn kết trách nhiệm chung.",
       "breakdown": {
         "concept": "Bài học từ EU cho ASEAN",
         "steps": "Thể chế pháp lý và liên kết thị trường nội khối.",
         "socraticPrompt": "ASEAN học hỏi được gì từ EU?"
-      }
+      },
+      "socraticPrompt": "ASEAN học hỏi được gì từ EU?",
+      "distractorReasons": [
+        "Sai vì 'Xóa bỏ chủ quyền từng quốc gia thành viên' không phù hợp với định lý/quy tắc trọng tâm (Bài học từ EU cho ASEAN).",
+        "Sai vì 'Bắt buộc tất cả các nước phải dùng chung một ngôn ngữ' không phù hợp với định lý/quy tắc trọng tâm (Bài học từ EU cho ASEAN).",
+        "Đúng vì theo Bài học từ EU cho ASEAN: Thể chế pháp lý và liên kết thị trường nội khối.",
+        "Sai vì 'Tách rời khỏi thương mại toàn cầu' không phù hợp với định lý/quy tắc trọng tâm (Bài học từ EU cho ASEAN)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Chiến lược 'Thỏa thuận Xanh Châu Âu' (European Green Deal) đặt ra yêu cầu gì đối với hàng hóa xuất khẩu thế giới?",
       "options": [
-        "Phải sản xuất phát thải thấp, có chứng nhận nguồn gốc bền vững và không gây phá rừng",
+        "Tăng cường dùng hóa chất độc hại",
         "Không cần quan tâm đến môi trường",
         "Chỉ cần giá bán rẻ nhất",
-        "Tăng cường dùng hóa chất độc hại"
+        "Phải sản xuất phát thải thấp, có chứng nhận nguồn gốc bền vững và không gây phá rừng"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Tiêu chuẩn xanh là tấm vé bắt buộc để tham gia chuỗi giá trị châu Âu.",
       "breakdown": {
         "concept": "Thỏa thuận Xanh EU",
         "steps": "Tiêu chuẩn phát thải thấp và chuỗi cung ứng xanh.",
         "socraticPrompt": "EU yêu cầu gì về môi trường đối với hàng nhập khẩu?"
-      }
+      },
+      "socraticPrompt": "EU yêu cầu gì về môi trường đối với hàng nhập khẩu?",
+      "distractorReasons": [
+        "Sai vì 'Tăng cường dùng hóa chất độc hại' không phù hợp với định lý/quy tắc trọng tâm (Thỏa thuận Xanh EU).",
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm đến môi trường' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần giá bán rẻ nhất', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Thỏa thuận Xanh EU: Tiêu chuẩn phát thải thấp và chuỗi cung ứng xanh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Giải pháp tận dụng EVFTA",
         "steps": "Minh bạch xuất xứ và tiêu chuẩn xanh ESG.",
         "socraticPrompt": "Làm thế nào để doanh nghiệp Việt Nam thắng lớn tại EU?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để doanh nghiệp Việt Nam thắng lớn tại EU?",
+      "distractorReasons": [
+        "Đúng vì theo Giải pháp tận dụng EVFTA: Minh bạch xuất xứ và tiêu chuẩn xanh ESG.",
+        "Sai vì 'Giảm chất lượng sản phẩm' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp tận dụng EVFTA).",
+        "Sai vì 'Gian lận xuất xứ hàng hóa' không phù hợp với định lý/quy tắc trọng tâm (Giải pháp tận dụng EVFTA).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ xuất khẩu tài nguyên thô', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng Brexit (Anh rời EU) phản ánh bài học về",
       "options": [
-        "Sự phức tạp trong cân bằng giữa chủ quyền quốc gia và mức độ cam kết hội nhập liên bang",
         "EU đã sụp đổ hoàn toàn",
+        "Sự phức tạp trong cân bằng giữa chủ quyền quốc gia và mức độ cam kết hội nhập liên bang",
         "Thương mại tự do không còn giá trị",
         "Không nước nào muốn hợp tác quốc tế"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Hội nhập đòi hỏi sự hài hòa bền vững giữa lợi ích quốc gia và lợi ích cộng đồng.",
       "breakdown": {
         "concept": "Bài học Brexit",
         "steps": "Cân bằng lợi ích quốc gia và liên kết khối.",
         "socraticPrompt": "Brexit nói lên điều gì về tiến trình hội nhập?"
-      }
+      },
+      "socraticPrompt": "Brexit nói lên điều gì về tiến trình hội nhập?",
+      "distractorReasons": [
+        "Sai vì 'EU đã sụp đổ hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Bài học Brexit).",
+        "Đúng vì theo Bài học Brexit: Cân bằng lợi ích quốc gia và liên kết khối.",
+        "Sai vì phủ định sai bản chất: 'Thương mại tự do không còn giá trị' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không nước nào muốn hợp tác quốc tế' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Vai trò tiên phong khí hậu của EU",
         "steps": "Dẫn dắt chuyển đổi xanh toàn cầu.",
         "socraticPrompt": "EU đóng vai trò gì trong ứng phó biến đổi khí hậu?"
-      }
+      },
+      "socraticPrompt": "EU đóng vai trò gì trong ứng phó biến đổi khí hậu?",
+      "distractorReasons": [
+        "Đúng vì theo Vai trò tiên phong khí hậu của EU: Dẫn dắt chuyển đổi xanh toàn cầu.",
+        "Sai vì 'Từ chối tham gia Thỏa thuận Paris' không phù hợp với định lý/quy tắc trọng tâm (Vai trò tiên phong khí hậu của EU).",
+        "Sai vì 'Khuyến khích đốt than đá' không phù hợp với định lý/quy tắc trọng tâm (Vai trò tiên phong khí hậu của EU).",
+        "Sai vì phủ định sai bản chất: 'Không hợp tác với các nước đang phát triển' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Thông điệp về sự hợp tác quốc tế từ mô hình EU là",
       "options": [
-        "Từ những quốc gia từng đối đầu tàn khốc trong chiến tranh, hòa bình và thịnh vượng chỉ có thể đạt được qua đối thoại, liên kết và chia sẻ lợi ích",
+        "Không thể có sự đoàn kết giữa các dân tộc",
         "Chiến tranh là con đường duy nhất",
         "Các nước lớn luôn nuốt chửng nước nhỏ",
-        "Không thể có sự đoàn kết giữa các dân tộc"
+        "Từ những quốc gia từng đối đầu tàn khốc trong chiến tranh, hòa bình và thịnh vượng chỉ có thể đạt được qua đối thoại, liên kết và chia sẻ lợi ích"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Hòa bình và phồn vinh được kiến tạo bằng hợp tác và tôn trọng lẫn nhau.",
       "breakdown": {
         "concept": "Thông điệp hòa bình EU",
         "steps": "Khép lại quá khứ, kiến tạo tương lai hòa bình.",
         "socraticPrompt": "Giá trị lớn nhất mà mô hình EU mang lại cho nhân loại là gì?"
-      }
+      },
+      "socraticPrompt": "Giá trị lớn nhất mà mô hình EU mang lại cho nhân loại là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không thể có sự đoàn kết giữa các dân tộc' trái ngược với kiến thức SGK.",
+        "Sai vì 'Chiến tranh là con đường duy nhất' không phù hợp với định lý/quy tắc trọng tâm (Thông điệp hòa bình EU).",
+        "Sai vì 'Các nước lớn luôn nuốt chửng nước nhỏ' không phù hợp với định lý/quy tắc trọng tâm (Thông điệp hòa bình EU).",
+        "Đúng vì theo Thông điệp hòa bình EU: Khép lại quá khứ, kiến tạo tương lai hòa bình."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

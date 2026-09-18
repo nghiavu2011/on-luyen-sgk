@@ -22,7 +22,16 @@
         "socraticPrompt": "Cảm biến 1 hỏng: 1 - 0,95 = 0,05. Cảm biến 2 hỏng: 1 - 0,90 = 0,10. Tích xác suất cả 2 cùng hỏng là bao nhiêu?",
         "steps": "Xác suất cảm biến 1 hỏng là 0,05. Xác suất cảm biến 2 hỏng là 0,10. Xác suất cả hai cùng hỏng là 0,05 · 0,10 = 0,005. Xác suất hệ thống phát chuông: P = 1 - 0,005 = 0,995 (99,5%).",
         "trap": "Tính P(cả 2 cùng báo) = 0,95 · 0,90 = 0,855."
-      }
+      },
+      "socraticPrompt": "Cảm biến 1 hỏng: 1 - 0,95 = 0,05. Cảm biến 2 hỏng: 1 - 0,90 = 0,10. Tích xác suất cả 2 cùng hỏng là bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '0,855' (Tính P(cả 2 cùng báo) = 0,95 · 0,90 = 0,855.).",
+        "Đúng vì: Xác suất cảm biến 1 hỏng là 0,05. Xác suất cảm biến 2 hỏng là 0,10. Xác suất cả hai cùng hỏng là 0,05 · 0,10 = 0,005. Xác suất hệ thống phát chuông: P = 1 - 0,0.",
+        "Sai vì '0,925' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '0,975' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c9_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Xác suất Toán không giỏi là 1 - 0,7 = 0,3. Anh không giỏi là 1 - 0,8 = 0,2. Nhân lại?",
         "steps": "P(Toán không giỏi) = 1 - 0,7 = 0,3. P(Anh không giỏi) = 1 - 0,8 = 0,2. Vì hai môn thi độc lập nên xác suất cả hai đều không giỏi là: P = 0,3 · 0,2 = 0,06 (6%).",
         "trap": "Lấy 1 - (0,7 · 0,8) = 0,44."
-      }
+      },
+      "socraticPrompt": "Xác suất Toán không giỏi là 1 - 0,7 = 0,3. Anh không giỏi là 1 - 0,8 = 0,2. Nhân lại?",
+      "distractorReasons": [
+        "Đúng vì: P(Toán không giỏi) = 1 - 0,7 = 0,3. P(Anh không giỏi) = 1 - 0,8 = 0,2. Vì hai môn thi độc lập nên xác suất cả hai đều không giỏi là: P = 0,3 · 0,2 = 0,06 (6%).",
+        "Sai vì '0,56' không phù hợp với định lý/quy tắc trọng tâm (Không đạt giỏi cả hai môn = (Toán không giỏi) VÀ (Anh không giỏi).).",
+        "Sai vì '0,14' không phù hợp với định lý/quy tắc trọng tâm (Không đạt giỏi cả hai môn = (Toán không giỏi) VÀ (Anh không giỏi).).",
+        "Sai vì '0,24' không phù hợp với định lý/quy tắc trọng tâm (Không đạt giỏi cả hai môn = (Toán không giỏi) VÀ (Anh không giỏi).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c9_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Xác suất cả 2 lần đều sai là 0,1 nhân 0,1 = 0,01. Lấy 1 trừ 0,01?",
         "steps": "Xác suất một lần sai là 1 - 0,9 = 0,1. Xác suất cả 2 lần đều sai: 0,1 · 0,1 = 0,01. Xác suất có ít nhất một lần chính xác: P = 1 - 0,01 = 0,99.",
         "trap": "Chọn 0,81 (xác suất cả hai lần đều đúng)."
-      }
+      },
+      "socraticPrompt": "Xác suất cả 2 lần đều sai là 0,1 nhân 0,1 = 0,01. Lấy 1 trừ 0,01?",
+      "distractorReasons": [
+        "Sai vì '0,81' không phù hợp với định lý/quy tắc trọng tâm (Dùng biến cố đối: cả hai lần xét nghiệm đều sai. P(sai) = 1 - 0,9 = 0,1.).",
+        "Đúng vì: Xác suất một lần sai là 1 - 0,9 = 0,1. Xác suất cả 2 lần đều sai: 0,1 · 0,1 = 0,01. Xác suất có ít nhất một lần chính xác: P = 1 - 0,01 = 0,99.",
+        "Sai vì '0,90' không phù hợp với định lý/quy tắc trọng tâm (Dùng biến cố đối: cả hai lần xét nghiệm đều sai. P(sai) = 1 - 0,9 = 0,1.).",
+        "Sai vì '0,95' không phù hợp với định lý/quy tắc trọng tâm (Dùng biến cố đối: cả hai lần xét nghiệm đều sai. P(sai) = 1 - 0,9 = 0,1.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c9_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "25 + 20 - 10 = 35. 35/40 rút gọn phân số tối giản là bao nhiêu?",
         "steps": "Ta có n(A ∪ B) = 25 + 20 - 10 = 35 em. Xác suất: P = 35 / 40 = 7/8 (0,875).",
         "trap": "Quên trừ 10 em thích cả hai môn dẫn đến (25+20)/40 = 45/40 > 1."
-      }
+      },
+      "socraticPrompt": "25 + 20 - 10 = 35. 35/40 rút gọn phân số tối giản là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: Ta có n(A ∪ B) = 25 + 20 - 10 = 35 em. Xác suất: P = 35 / 40 = 7/8 (0,875).",
+        "Sai vì '35/40' không phù hợp với định lý/quy tắc trọng tâm (Số học sinh thích ít nhất một môn: n(A ∪ B) = n(A) + n(B) - n(AB).).",
+        "Sai vì '3/4' không phù hợp với định lý/quy tắc trọng tâm (Số học sinh thích ít nhất một môn: n(A ∪ B) = n(A) + n(B) - n(AB).).",
+        "Sai vì '1/4' không phù hợp với định lý/quy tắc trọng tâm (Số học sinh thích ít nhất một môn: n(A ∪ B) = n(A) + n(B) - n(AB).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c9_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Lấy 0,95 nhân 0,92 được kết quả là bao nhiêu?",
         "steps": "Vì hai linh kiện mắc nối tiếp và độc lập nên mạch hoạt động khi cả A và B cùng tốt: P = 0,95 · 0,92 = 0,874.",
         "trap": "Nhầm sang mạch song song (lấy 1 - 0,05 · 0,08 = 0,996)."
-      }
+      },
+      "socraticPrompt": "Lấy 0,95 nhân 0,92 được kết quả là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0,95' không phù hợp với định lý/quy tắc trọng tâm (Mắc nối tiếp nên cần cả hai cùng tốt: P(mạch tốt) = P(A tốt) · P(B tốt).).",
+        "Sai vì '0,92' không phù hợp với định lý/quy tắc trọng tâm (Mắc nối tiếp nên cần cả hai cùng tốt: P(mạch tốt) = P(A tốt) · P(B tốt).).",
+        "Đúng vì: Vì hai linh kiện mắc nối tiếp và độc lập nên mạch hoạt động khi cả A và B cùng tốt: P = 0,95 · 0,92 = 0,874.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '0,996' (sang mạch song song (lấy 1 - 0,05 · 0,08 = 0,996))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c9_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Biến cố luôn luôn xảy ra 100% thì gọi là gì?",
         "steps": "Theo SGK, biến cố có xác suất bằng 1 là biến cố chắc chắn (kí hiệu Ω). Biến cố có xác suất bằng 0 là biến cố không thể (∅).",
         "trap": "Nhầm với biến cố ngẫu nhiên (có xác suất 0 < P < 1)."
-      }
+      },
+      "socraticPrompt": "Biến cố luôn luôn xảy ra 100% thì gọi là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Biến cố ngẫu nhiên' (với biến cố ngẫu nhiên (có xác suất 0 < P < 1)).",
+        "Sai vì phủ định sai bản chất: 'Biến cố không thể' trái ngược với kiến thức SGK.",
+        "Đúng vì: Theo SGK, biến cố có xác suất bằng 1 là biến cố chắc chắn (kí hiệu Ω). Biến cố có xác suất bằng 0 là biến cố không thể (∅).",
+        "Sai vì 'Biến cố độc lập' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa: Biến cố chắc chắn luôn xảy ra trong mọi phép thử và có xác suất bằng 1.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

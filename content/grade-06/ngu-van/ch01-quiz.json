@@ -27,7 +27,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm truyện đồng thoại.?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm truyện đồng thoại.: Nhân vật là động vật/côn trùng mang tâm lý con người.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ kể về các vị thần có phép thuật siêu nhiên trong thần thoại', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Ghi chép chính xác 100% các sự kiện có thật trong lịch sử dân tộc' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm truyện đồng thoại.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Văn bản thông tin cung cấp số liệu khoa học' (Không nhầm với thần thoại hay văn bản thông tin.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -52,7 +60,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân biệt từ ghép và từ láy.?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'phanh phách, phành phạch' (Phanh phách hay hung hăng là từ láy.).",
+        "Đúng vì theo Phân biệt từ ghép và từ láy.: 'mẫm bóng' và 'nhọn hoắt' ghép từ các tiếng có nghĩa độc lập.",
+        "Sai vì 'hung hăng, hống hách' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ ghép và từ láy.).",
+        "Sai vì 'dế mèn, dế trũi' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt từ ghép và từ láy.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -77,7 +93,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích vẻ đẹp nhân cách dế choắt.?",
+      "distractorReasons": [
+        "Sai vì 'Vì Choắt muốn Dế Mèn đền tiền thuốc men cho mình' không phù hợp với định lý/quy tắc trọng tâm (Phân tích vẻ đẹp nhân cách Dế Choắt.).",
+        "Sai vì 'Vì Choắt sợ chị Cốc sẽ quay lại mổ tiếp' không phù hợp với định lý/quy tắc trọng tâm (Phân tích vẻ đẹp nhân cách Dế Choắt.).",
+        "Đúng vì theo Phân tích vẻ đẹp nhân cách Dế Choắt.: Lời trăn trối là sự tha thứ cao thượng và bài học cảnh tỉnh sâu sắc.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì Choắt không biết chính Dế Mèn đã trêu chị Cốc' (Choắt biết rõ Dế Mèn trêu Cốc vì chính mắt Choắt chứng kiến Mèn hát trêu.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -102,7 +126,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được triết lý nhân sinh của saint-exupéry.?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ nên kết bạn với những người giàu có', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mắt người không thể nhìn thấy vật thể trong bóng tối' (Tránh hiểu nghĩa vật lý thông thường.).",
+        "Sai vì phủ định sai bản chất: 'Không nên tin tưởng bất kỳ người bạn nào ngoài đời' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Triết lý nhân sinh của Saint-Exupéry.: 'Trái tim' là biểu tượng của tình cảm và trực giác chân thành."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -127,7 +159,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng nhân văn của bài thơ 'bắt nạt'.?",
+      "distractorReasons": [
+        "Đúng vì theo Tư tưởng nhân văn của bài thơ 'Bắt nạt'.: 'Bắt nạt là rất hôi / Đừng bắt nạt bạn ơi'. Bắt nạt làm xói mòn nhân cách của chính kẻ đi bắt nạt.",
+        "Sai vì 'Làm rách quần áo đồng phục của học sinh' không phù hợp với định lý/quy tắc trọng tâm (Tư tưởng nhân văn của bài thơ 'Bắt nạt'.).",
+        "Sai vì 'Làm mất trật tự trong giờ ra chơi' không phù hợp với định lý/quy tắc trọng tâm (Tư tưởng nhân văn của bài thơ 'Bắt nạt'.).",
+        "Sai vì 'Làm giảm doanh thu của căng tin trường học' không phù hợp với định lý/quy tắc trọng tâm (Tư tưởng nhân văn của bài thơ 'Bắt nạt'.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -152,7 +192,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học kỹ năng sống và đạo đức học đường.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Tìm cách đổ lỗi cho người khác để không bị thầy cô phạt' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Vận dụng cao: Bài học kỹ năng sống và đạo đức học đường.: Học cách chịu trách nhiệm trước mọi hành vi của bản thân như Dế Mèn đứng lặng trước mộ Choắt.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bỏ trốn khỏi trường học để trốn tránh trách nhiệm' (Đổ lỗi hay trốn tránh là hành vi hèn nhát.).",
+        "Sai vì phủ định sai bản chất: 'Lấy tiền mua quà đút lót để bạn không nói cho bố mẹ biết' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Chính sách ưu tiên cộng điểm thi đại học cho học sinh là người dân tộc thiểu số vùng cao có mục đích gì?",
       "options": [
-        "Tạo điều kiện rút ngắn khoảng cách chênh lệch vùng miền, thực hiện bình đẳng thực chất về giáo dục",
         "Gây bất công cho học sinh thành phố",
+        "Tạo điều kiện rút ngắn khoảng cách chênh lệch vùng miền, thực hiện bình đẳng thực chất về giáo dục",
         "Phân biệt đối xử vùng miền",
         "Xóa bỏ tiêu chuẩn thi"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Bình đẳng thực chất đòi hỏi Nhà nước có chính sách hỗ trợ nâng cao đời sống các vùng khó khăn.",
       "breakdown": {
         "concept": "Chính sách ưu tiên vùng cao",
         "steps": "Rút ngắn khoảng cách, bình đẳng thực chất.",
         "socraticPrompt": "Cộng điểm thi cho học sinh vùng cao có ý nghĩa gì?"
-      }
+      },
+      "socraticPrompt": "Cộng điểm thi cho học sinh vùng cao có ý nghĩa gì?",
+      "distractorReasons": [
+        "Sai vì 'Gây bất công cho học sinh thành phố' không phù hợp với định lý/quy tắc trọng tâm (Chính sách ưu tiên vùng cao).",
+        "Đúng vì theo Chính sách ưu tiên vùng cao: Rút ngắn khoảng cách, bình đẳng thực chất.",
+        "Sai vì 'Phân biệt đối xử vùng miền' không phù hợp với định lý/quy tắc trọng tâm (Chính sách ưu tiên vùng cao).",
+        "Sai vì 'Xóa bỏ tiêu chuẩn thi' không phù hợp với định lý/quy tắc trọng tâm (Chính sách ưu tiên vùng cao)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Một công ty đăng tin tuyển dụng vị trí lập trình viên với yêu cầu: 'Chỉ tuyển nam giới, từ chối ứng viên nữ dù có cùng trình độ'. Hành vi của công ty này là",
       "options": [
-        "Hành vi phân biệt đối xử về giới trong lao động trái Luật Bình đẳng giới",
-        "Quyền tự do tuyệt đối của công ty",
         "Đúng quy định pháp luật",
+        "Quyền tự do tuyệt đối của công ty",
+        "Hành vi phân biệt đối xử về giới trong lao động trái Luật Bình đẳng giới",
         "Hành vi đáng khen ngợi"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Pháp luật nghiêm cấm phân biệt đối xử về giới trong tuyển dụng và trả lương.",
       "breakdown": {
         "concept": "Phân biệt giới trong tuyển dụng",
         "steps": "Trái Luật Bình đẳng giới.",
         "socraticPrompt": "Chỉ tuyển nam từ chối nữ dù giỏi như nhau là đúng hay sai?"
-      }
+      },
+      "socraticPrompt": "Chỉ tuyển nam từ chối nữ dù giỏi như nhau là đúng hay sai?",
+      "distractorReasons": [
+        "Sai vì 'Đúng quy định pháp luật' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt giới trong tuyển dụng).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Quyền tự do tuyệt đối của công ty', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Phân biệt giới trong tuyển dụng: Trái Luật Bình đẳng giới.",
+        "Sai vì 'Hành vi đáng khen ngợi' không phù hợp với định lý/quy tắc trọng tâm (Phân biệt giới trong tuyển dụng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Ông X là giám đốc một sở và anh Y là lái xe cùng đi uống rượu bia rồi điều khiển ô tô. Khi bị CSGT kiểm tra, cả hai đều bị lập biên bản tước bằng lái và phạt tiền như nhau. Điều này thể hiện",
       "options": [
-        "Sự bình đẳng của công dân về trách nhiệm pháp lý trước pháp luật",
+        "Tính ngẫu nhiên của luật",
         "Sự thiên vị cho cấp dưới",
         "Sự phạt oan cho giám đốc",
-        "Tính ngẫu nhiên của luật"
+        "Sự bình đẳng của công dân về trách nhiệm pháp lý trước pháp luật"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Mọi công dân khi vi phạm luật giao thông đều chịu chế tài xử phạt bình đẳng theo Nghị định 100.",
       "breakdown": {
         "concept": "Bình đẳng trách nhiệm pháp lý",
         "steps": "Xử phạt nghiêm minh không phân biệt chức vụ.",
         "socraticPrompt": "Giám đốc và lái xe cùng bị phạt nồng độ cồn thể hiện điều gì?"
-      }
+      },
+      "socraticPrompt": "Giám đốc và lái xe cùng bị phạt nồng độ cồn thể hiện điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Tính ngẫu nhiên của luật' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng trách nhiệm pháp lý).",
+        "Sai vì 'Sự thiên vị cho cấp dưới' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng trách nhiệm pháp lý).",
+        "Sai vì 'Sự phạt oan cho giám đốc' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng trách nhiệm pháp lý).",
+        "Đúng vì theo Bình đẳng trách nhiệm pháp lý: Xử phạt nghiêm minh không phân biệt chức vụ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Ứng xử văn minh học đường",
         "steps": "Chào đón, giúp đỡ và tôn trọng bạn bè.",
         "socraticPrompt": "Lớp có bạn dân tộc thiểu số thì nên đối xử thế nào?"
-      }
+      },
+      "socraticPrompt": "Lớp có bạn dân tộc thiểu số thì nên đối xử thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Ứng xử văn minh học đường: Chào đón, giúp đỡ và tôn trọng bạn bè.",
+        "Sai vì 'Tẩy chay, trêu chọc trang phục truyền thống của bạn' không phù hợp với định lý/quy tắc trọng tâm (Ứng xử văn minh học đường).",
+        "Sai vì phủ định sai bản chất: 'Xa lánh không chơi cùng' trái ngược với kiến thức SGK.",
+        "Sai vì 'Bắt nạt bạn' không phù hợp với định lý/quy tắc trọng tâm (Ứng xử văn minh học đường)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Một người đàn ông bắt vợ phải nghỉ việc ở nhà phục vụ gia đình và tự ý bán mảnh đất là tài sản chung của hai vợ chồng mà không hỏi ý kiến vợ là",
       "options": [
-        "Xâm phạm nghiêm trọng quyền bình đẳng của phụ nữ trong gia đình và Luật Hôn nhân gia đình",
+        "Được pháp luật bảo vệ",
         "Thể hiện bản lĩnh trụ cột gia đình",
         "Quyền của người kiếm nhiều tiền",
-        "Được pháp luật bảo vệ"
+        "Xâm phạm nghiêm trọng quyền bình đẳng của phụ nữ trong gia đình và Luật Hôn nhân gia đình"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Tài sản chung vợ chồng phải có sự đồng thuận của cả hai bên theo quy định.",
       "breakdown": {
         "concept": "Bảo vệ quyền lợi phụ nữ",
         "steps": "Vi phạm quyền bình đẳng vợ chồng.",
         "socraticPrompt": "Chồng tự ý bán đất chung không hỏi vợ là đúng hay sai?"
-      }
+      },
+      "socraticPrompt": "Chồng tự ý bán đất chung không hỏi vợ là đúng hay sai?",
+      "distractorReasons": [
+        "Sai vì 'Được pháp luật bảo vệ' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi phụ nữ).",
+        "Sai vì 'Thể hiện bản lĩnh trụ cột gia đình' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi phụ nữ).",
+        "Sai vì 'Quyền của người kiếm nhiều tiền' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ quyền lợi phụ nữ).",
+        "Đúng vì theo Bảo vệ quyền lợi phụ nữ: Vi phạm quyền bình đẳng vợ chồng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Thực hành bình đẳng học sinh",
         "steps": "Tôn trọng bạn bè, chia sẻ công việc công bằng.",
         "socraticPrompt": "Học sinh thể hiện sự bình đẳng trong lớp bằng cách nào?"
-      }
+      },
+      "socraticPrompt": "Học sinh thể hiện sự bình đẳng trong lớp bằng cách nào?",
+      "distractorReasons": [
+        "Đúng vì theo Thực hành bình đẳng học sinh: Tôn trọng bạn bè, chia sẻ công việc công bằng.",
+        "Sai vì 'Tranh giành quyền phát biểu một mình' không phù hợp với định lý/quy tắc trọng tâm (Thực hành bình đẳng học sinh).",
+        "Sai vì 'Bắt các bạn nữ làm hết việc nặng' không phù hợp với định lý/quy tắc trọng tâm (Thực hành bình đẳng học sinh).",
+        "Sai vì 'Phân biệt giàu nghèo' không phù hợp với định lý/quy tắc trọng tâm (Thực hành bình đẳng học sinh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

@@ -24,7 +24,8 @@
           "Bước 2: Đây là hành vi xâm phạm nghiêm trọng chỗ ở của công dân, vi phạm pháp luật hình sự và dân sự.",
           "Bước 3: Chọn đáp án B."
         ],
-        "trap": "Nghĩ rằng khi bị mất đồ thì mình có quyền tự ý vào nhà người khác để khám xét."
+        "trap": "Nghĩ rằng khi bị mất đồ thì mình có quyền tự ý vào nhà người khác để khám xét.",
+        "socraticPrompt": "Chỉ những cơ quan có thẩm quyền nào và có lệnh bằng văn bản mới được phép khám xét chỗ ở theo luật định?"
       },
       "socraticPrompt": "Chỉ những cơ quan có thẩm quyền nào và có lệnh bằng văn bản mới được phép khám xét chỗ ở theo luật định?",
       "distractorReasons": [
@@ -32,7 +33,9 @@
         "Sai vì tình huống không diễn ra trong quan hệ lao động.",
         "Sai vì đây là hành vi gây rối, không thuộc phạm trù hội họp hợp pháp.",
         "Đúng vì hành vi tự ý xông vào lục soát nhà ở vi phạm trắng trợn Điều 22 Hiến pháp 2013."
-      ]
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch10_d2_02",
@@ -54,7 +57,8 @@
           "Bước 2: Hành vi này gây tổn hại nghiêm trọng tinh thần và danh dự của bạn.",
           "Bước 3: Chọn đáp án B: Vi phạm quyền được bảo hộ về danh dự và nhân phẩm."
         ],
-        "trap": "Ngụy biện bắt nạt trên mạng thành 'quyền tự do ngôn luận' hay 'trò đùa vô hại'."
+        "trap": "Ngụy biện bắt nạt trên mạng thành 'quyền tự do ngôn luận' hay 'trò đùa vô hại'.",
+        "socraticPrompt": "Tự do ngôn luận có bao gồm việc được quyền đặt điều, bôi nhọ và chà đạp nhân phẩm người khác không?"
       },
       "socraticPrompt": "Tự do ngôn luận có bao gồm việc được quyền đặt điều, bôi nhọ và chà đạp nhân phẩm người khác không?",
       "distractorReasons": [
@@ -62,7 +66,9 @@
         "Sai vì bắt nạt gây chấn thương tâm lí nặng nề cho nạn nhân, tuyệt đối không phải trò đùa.",
         "Sai vì vu khống bôi nhọ không phải là sáng tạo nghệ thuật mà là hành vi vi phạm pháp luật.",
         "Sai vì quyền tự do ngôn luận phải nằm trong khuôn khổ pháp luật và đạo đức."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch10_d2_03",
@@ -84,7 +90,8 @@
           "Bước 2: Học sinh không tự ý hành động liều lĩnh xô xát, mà cần báo ngay cơ quan công an để can thiệp kịp thời.",
           "Bước 3: Chọn đáp án B."
         ],
-        "trap": "Hành động manh động tự phát gây nguy hiểm đến tính mạng của bản thân học sinh."
+        "trap": "Hành động manh động tự phát gây nguy hiểm đến tính mạng của bản thân học sinh.",
+        "socraticPrompt": "Bảo vệ môi trường bằng cách tố giác vi phạm tới cơ quan chức năng có phải là hành vi của một công dân có trách nhiệm?"
       },
       "socraticPrompt": "Bảo vệ môi trường bằng cách tố giác vi phạm tới cơ quan chức năng có phải là hành vi của một công dân có trách nhiệm?",
       "distractorReasons": [
@@ -92,7 +99,9 @@
         "Đúng vì đây là cách xử lí thông minh, dũng cảm và đúng thẩm quyền pháp luật.",
         "Sai vì thái độ vô cảm làm môi trường sống chung bị hủy hoại nghiêm trọng.",
         "Sai vì chất thải độc hại tiếp xúc trực tiếp sẽ gây bỏng và ngộ độc cấp tính."
-      ]
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch10_d2_04",
@@ -114,7 +123,8 @@
           "Bước 2: Giới hạn của quyền tự do chính là sự tôn trọng quyền của tha nhân.",
           "Bước 3: Chọn phương án B."
         ],
-        "trap": "Hiểu nghĩa đen theo khoảng cách vật lí."
+        "trap": "Hiểu nghĩa đen theo khoảng cách vật lí.",
+        "socraticPrompt": "Nếu ai cũng tự cho mình quyền mở nhạc inh ỏi trong đêm thì quyền được ngủ ngon của người hàng xóm sẽ ra sao?"
       },
       "socraticPrompt": "Nếu ai cũng tự cho mình quyền mở nhạc inh ỏi trong đêm thì quyền được ngủ ngon của người hàng xóm sẽ ra sao?",
       "distractorReasons": [
@@ -122,7 +132,9 @@
         "Sai vì đây không phải quy định giãn cách y tế mà là triết lí quyền con người.",
         "Đúng vì phản ánh trọn vẹn giới hạn đạo đức và pháp lí của việc thực thi quyền tự do công dân.",
         "Sai vì quyền công dân bình đẳng đối với tất cả mọi người, không phụ thuộc ngoại hình."
-      ]
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch10_d2_05",
@@ -144,7 +156,8 @@
           "Bước 2: Kì thị, trêu chọc tôn giáo là hành vi vi phạm đạo đức và pháp luật.",
           "Bước 3: Ứng xử văn minh: tôn trọng sự khác biệt và giữ gìn tình bạn trong sáng."
         ],
-        "trap": "Áp đặt thói quen sinh hoạt của mình lên người khác và kì thị tín ngưỡng."
+        "trap": "Áp đặt thói quen sinh hoạt của mình lên người khác và kì thị tín ngưỡng.",
+        "socraticPrompt": "Tôn trọng niềm tin tôn giáo hợp pháp của người khác có phải là biểu hiện của sự khoan dung và bình đẳng công dân?"
       },
       "socraticPrompt": "Tôn trọng niềm tin tôn giáo hợp pháp của người khác có phải là biểu hiện của sự khoan dung và bình đẳng công dân?",
       "distractorReasons": [
@@ -152,7 +165,9 @@
         "Sai vì kì thị, phân biệt đối xử phá vỡ khối đoàn kết lớp học.",
         "Sai vì nhà trường tôn trọng quyền tự do tín ngưỡng của mọi học sinh.",
         "Đúng vì thể hiện sự tôn trọng quyền hiến định và tinh thần đoàn kết thân ái giữa các dân tộc tôn giáo."
-      ]
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch10_d2_06",
@@ -174,7 +189,8 @@
           "Bước 2: Nghĩa vụ thiết thực nhất: Học tập, rèn luyện đạo đức, giữ gìn trật tự và bảo vệ tài sản công.",
           "Bước 3: Chọn đáp án B."
         ],
-        "trap": "Nghĩ rằng chưa đủ 18 tuổi thì không phải thực hiện bất kì nghĩa vụ công dân nào."
+        "trap": "Nghĩ rằng chưa đủ 18 tuổi thì không phải thực hiện bất kì nghĩa vụ công dân nào.",
+        "socraticPrompt": "Mỗi tiết học chăm chú nghe giảng và giữ gìn bàn ghế lớp học có phải là cách em đóng góp cho Tổ quốc?"
       },
       "socraticPrompt": "Mỗi tiết học chăm chú nghe giảng và giữ gìn bàn ghế lớp học có phải là cách em đóng góp cho Tổ quốc?",
       "distractorReasons": [
@@ -182,7 +198,9 @@
         "Sai vì lười biếng ỷ lại là biểu hiện của lối sống vô trách nhiệm.",
         "Sai vì lạm dụng lao động trẻ em là hành vi vi phạm quyền trẻ em.",
         "Sai vì kích động biểu tình là hành vi vi phạm an ninh trật tự xã hội."
-      ]
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

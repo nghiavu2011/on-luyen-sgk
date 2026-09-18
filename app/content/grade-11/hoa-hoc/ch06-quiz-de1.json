@@ -22,7 +22,16 @@
         "socraticPrompt": "Nhóm chức gồm nhóm carbonyl (>C=O) kết hợp trực tiếp với nhóm hydroxy (-OH) có tên gọi là gì?",
         "steps": "Carboxylic acid là hợp chất hữu cơ có nhóm carboxyl (-COOH) liên kết trực tiếp với nguyên tử carbon hoặc hydrogen.",
         "trap": "Nhầm nhóm -COOH với nhóm hydroxy (-OH) của alcohol hoặc nhóm carbonyl (>C=O) của ketone."
-      }
+      },
+      "socraticPrompt": "Nhóm chức gồm nhóm carbonyl (>C=O) kết hợp trực tiếp với nhóm hydroxy (-OH) có tên gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Nhóm amino (-NH2)' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa nhóm chức carboxyl (-COOH) của carboxylic acid.).",
+        "Sai vì 'Nhóm hydroxy (-OH)' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa nhóm chức carboxyl (-COOH) của carboxylic acid.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhóm carbonyl (>C=O)' (nhóm -COOH với nhóm hydroxy (-OH) của alcohol hoặc nhóm carbonyl (>C=O) của ketone).",
+        "Đúng vì theo Định nghĩa nhóm chức carboxyl (-COOH) của carboxylic acid.: Carboxylic acid là hợp chất hữu cơ có nhóm carboxyl (-COOH) liên kết trực tiếp với nguyên tử carbon hoặc hydrogen."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c6_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Chất nào có nhóm chức -CHO ở đầu mạch carbon?",
         "steps": "CH3-CHO (ethanal hay acetaldehyde) có nhóm chức -CHO nên là hợp chất aldehyde. CH3COOH là acid, CH3COCH3 là ketone, C2H5OH là alcohol.",
         "trap": "Nhầm lẫn giữa đuôi -CHO của aldehyde và đuôi -COOH của acid."
-      }
+      },
+      "socraticPrompt": "Chất nào có nhóm chức -CHO ở đầu mạch carbon?",
+      "distractorReasons": [
+        "Đúng vì theo Cấu tạo nhóm chức aldehyde (-CHO).: CH3-CHO (ethanal hay acetaldehyde) có nhóm chức -CHO nên là hợp chất aldehyde. CH3COOH là acid, CH3COCH3 là ketone, C2H5OH là alcohol.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'CH3-COOH' (giữa đuôi -CHO của aldehyde và đuôi -COOH của acid).",
+        "Sai vì 'CH3-CO-CH3' không phù hợp với định lý/quy tắc trọng tâm (Cấu tạo nhóm chức aldehyde (-CHO).).",
+        "Sai vì 'CH3-CH2-OH' không phù hợp với định lý/quy tắc trọng tâm (Cấu tạo nhóm chức aldehyde (-CHO).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c6_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Aldehyde 1 carbon có nguồn gốc từ acid formic thường được gọi là gì?",
         "steps": "HCHO có tên thay thế là methanal và tên thông thường rất quen thuộc là formaldehyde (hoặc aldehyde formic).",
         "trap": "Nhầm formaldehyde với acid formic (HCOOH) hoặc acetaldehyde (CH3CHO)."
-      }
+      },
+      "socraticPrompt": "Aldehyde 1 carbon có nguồn gốc từ acid formic thường được gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Acetaldehyde' không phù hợp với định lý/quy tắc trọng tâm (Danh pháp thông thường của HCHO là formaldehyde (dung dịch nước gọi là formol/formon).).",
+        "Đúng vì: HCHO có tên thay thế là methanal và tên thông thường rất quen thuộc là formaldehyde (hoặc aldehyde formic).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Formic acid' (formaldehyde với acid formic (HCOOH) hoặc acetaldehyde (CH3CHO)).",
+        "Sai vì 'Acetone' không phù hợp với định lý/quy tắc trọng tâm (Danh pháp thông thường của HCHO là formaldehyde (dung dịch nước gọi là formol/formon).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c6_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Thuốc thử Tollens oxi hoá nhóm -CHO và giải phóng kim loại bạc tạo hiện tượng gì?",
         "steps": "Phương trình: CH3CHO + 2[Ag(NH3)2]OH -> CH3COONH4 + 2Ag↓ + 3NH3 + H2O. Kim loại bạc sinh ra sáng bóng bám vào thành ống nghiệm giống như một chiếc gương (phản ứng tráng bạc).",
         "trap": "Nhầm với hiện tượng tạo kết tủa đỏ gạch Cu2O khi phản ứng với Cu(OH)2 trong kiềm."
-      }
+      },
+      "socraticPrompt": "Thuốc thử Tollens oxi hoá nhóm -CHO và giải phóng kim loại bạc tạo hiện tượng gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Xuất hiện kết tủa đỏ gạch' (với hiện tượng tạo kết tủa đỏ gạch Cu2O khi phản ứng với Cu(OH)2 trong kiềm).",
+        "Sai vì 'Dung dịch chuyển sang màu xanh lam' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tráng bạc của aldehyde tạo kết tủa kim loại bạc Ag.).",
+        "Đúng vì: Phương trình: CH3CHO + 2[Ag(NH3)2]OH -> CH3COONH4 + 2Ag↓ + 3NH3 + H2O. Kim loại bạc sinh ra sáng bóng bám vào thành ống nghiệm giống như một chiếc gương (phản ứ.",
+        "Sai vì 'Có khí màu nâu đỏ bay lên' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tráng bạc của aldehyde tạo kết tủa kim loại bạc Ag.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c6_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Hợp chất nào chứa nhóm CH3- liên kết trực tiếp với nhóm carbonyl >C=O?",
         "steps": "Hợp chất tham gia phản ứng tạo iodoform phải có nhóm CH3-C(=O)- hoặc CH3-CH(OH)-. Trong các chất trên, acetone (CH3-CO-CH3) chứa nhóm CH3-CO- nên tạo kết tủa vàng nhạt CHI3.",
         "trap": "Nghĩ HCHO có phản ứng iodoform (HCHO không có nhóm CH3- nên không tham gia)."
-      }
+      },
+      "socraticPrompt": "Hợp chất nào chứa nhóm CH3- liên kết trực tiếp với nhóm carbonyl >C=O?",
+      "distractorReasons": [
+        "Đúng vì: Hợp chất tham gia phản ứng tạo iodoform phải có nhóm CH3-C(=O)- hoặc CH3-CH(OH)-. Trong các chất trên, acetone (CH3-CO-CH3) chứa nhóm CH3-CO- nên tạo kết tủa và.",
+        "Sai vì 'Benzaldehyde (C6H5CHO)' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng iodoform đặc trưng cho hợp chất có nhóm methyl carbonyl CH3-CO-.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Formaldehyde (HCHO)' (Nghĩ HCHO có phản ứng iodoform (HCHO không có nhóm CH3- nên không tham gia).).",
+        "Sai vì 'Methanol (CH3OH)' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng iodoform đặc trưng cho hợp chất có nhóm methyl carbonyl CH3-CO-.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c6_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Carboxylic acid tạo liên kết hydrogen dạng dimer bền hơn alcohol nên sôi cao hơn. Hydrocarbon không phân cực thì sôi thế nào?",
         "steps": "Hydrocarbon C2H6 không phân cực có nhiệt độ sôi thấp nhất (-89°C). Dẫn xuất C2H5Cl phân cực (12°C). Alcohol C2H5OH có liên kết hydrogen liên phân tử (78.3°C). Carboxylic acid CH3COOH tạo liên kết hydrogen dạng dimer bền nhất (118°C).",
         "trap": "Nghĩ alcohol sôi cao nhất do quên rằng carboxylic acid tạo liên kết hydrogen dạng dimer bền hơn nhiều."
-      }
+      },
+      "socraticPrompt": "Carboxylic acid tạo liên kết hydrogen dạng dimer bền hơn alcohol nên sôi cao hơn. Hydrocarbon không phân cực thì sôi thế nào?",
+      "distractorReasons": [
+        "Sai vì 'C2H6 < C2H5OH < C2H5Cl < CH3COOH' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của liên kết hydrogen dạng dimer và độ phân cực đến nhiệt độ sôi.).",
+        "Sai vì 'C2H5Cl < C2H6 < C2H5OH < CH3COOH' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của liên kết hydrogen dạng dimer và độ phân cực đến nhiệt độ sôi.).",
+        "Sai vì 'CH3COOH < C2H5OH < C2H5Cl < C2H6' không phù hợp với định lý/quy tắc trọng tâm (Ảnh hưởng của liên kết hydrogen dạng dimer và độ phân cực đến nhiệt độ sôi.).",
+        "Đúng vì: Hydrocarbon C2H6 không phân cực có nhiệt độ sôi thấp nhất (-89°C). Dẫn xuất C2H5Cl phân cực (12°C). Alcohol C2H5OH có liên kết hydrogen liên phân tử (78.3°C). C."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

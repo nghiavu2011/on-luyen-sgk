@@ -20,97 +20,151 @@
         "concept": "Kinh tế Hoa Kỳ",
         "steps": "Hoa Kỳ số 1 thế giới.",
         "socraticPrompt": "Nước nào có GDP lớn nhất thế giới?"
-      }
+      },
+      "socraticPrompt": "Nước nào có GDP lớn nhất thế giới?",
+      "distractorReasons": [
+        "Đúng vì theo Kinh tế Hoa Kỳ: Hoa Kỳ số 1 thế giới.",
+        "Sai vì 'Liên bang Nga' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế Hoa Kỳ).",
+        "Sai vì 'Ấn Độ' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế Hoa Kỳ).",
+        "Sai vì 'Bra-xin' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế Hoa Kỳ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Trung tâm công nghệ cao nổi tiếng thế giới 'Thung lũng Silicon' nằm ở bang nào của Hoa Kỳ?",
       "options": [
-        "Bang Ca-li-pho-ni-a (California)",
         "Bang Niu Oóc",
+        "Bang Ca-li-pho-ni-a (California)",
         "Bang Tếch-dớt",
         "Bang A-la-xca"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Thung lũng Silicon nằm ở vịnh San Francisco, bang California.",
       "breakdown": {
         "concept": "Silicon Valley",
         "steps": "Bang California.",
         "socraticPrompt": "Thung lũng Silicon ở bang nào của Mỹ?"
-      }
+      },
+      "socraticPrompt": "Thung lũng Silicon ở bang nào của Mỹ?",
+      "distractorReasons": [
+        "Sai vì 'Bang Niu Oóc' không phù hợp với định lý/quy tắc trọng tâm (Silicon Valley).",
+        "Đúng vì theo Silicon Valley: Bang California.",
+        "Sai vì 'Bang Tếch-dớt' không phù hợp với định lý/quy tắc trọng tâm (Silicon Valley).",
+        "Sai vì 'Bang A-la-xca' không phù hợp với định lý/quy tắc trọng tâm (Silicon Valley)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Quốc gia có diện tích lãnh thổ rộng lớn nhất thế giới là",
       "options": [
-        "Liên bang Nga",
-        "Hoa Kỳ",
         "Nhật Bản",
+        "Hoa Kỳ",
+        "Liên bang Nga",
         "Đức"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Liên bang Nga có diện tích hơn 17 triệu km² trải dài từ Đông Âu sang Bắc Á.",
       "breakdown": {
         "concept": "Diện tích lớn nhất thế giới",
         "steps": "Liên bang Nga.",
         "socraticPrompt": "Nước nào rộng nhất thế giới?"
-      }
+      },
+      "socraticPrompt": "Nước nào rộng nhất thế giới?",
+      "distractorReasons": [
+        "Sai vì 'Nhật Bản' không phù hợp với định lý/quy tắc trọng tâm (Diện tích lớn nhất thế giới).",
+        "Sai vì 'Hoa Kỳ' không phù hợp với định lý/quy tắc trọng tâm (Diện tích lớn nhất thế giới).",
+        "Đúng vì theo Diện tích lớn nhất thế giới: Liên bang Nga.",
+        "Sai vì 'Đức' không phù hợp với định lý/quy tắc trọng tâm (Diện tích lớn nhất thế giới)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Đặc điểm tự nhiên nổi bật của đất nước Nhật Bản là",
       "options": [
-        "Quần đảo nhiều đồi núi, nghèo khoáng sản, nhiều động đất núi lửa",
+        "Khí hậu nhiệt đới nắng nóng",
         "Đồng bằng phù sa chiếm 90%",
         "Giàu có dầu mỏ bậc nhất thế giới",
-        "Khí hậu nhiệt đới nắng nóng"
+        "Quần đảo nhiều đồi núi, nghèo khoáng sản, nhiều động đất núi lửa"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Nhật Bản là quốc gia quần đảo nằm trên vành đai lửa Thái Bình Dương.",
       "breakdown": {
         "concept": "Tự nhiên Nhật Bản",
         "steps": "Nghèo khoáng sản, nhiều động đất.",
         "socraticPrompt": "Nhật Bản có đặc điểm tự nhiên gì?"
-      }
+      },
+      "socraticPrompt": "Nhật Bản có đặc điểm tự nhiên gì?",
+      "distractorReasons": [
+        "Sai vì 'Khí hậu nhiệt đới nắng nóng' không phù hợp với định lý/quy tắc trọng tâm (Tự nhiên Nhật Bản).",
+        "Sai vì 'Đồng bằng phù sa chiếm 90%' không phù hợp với định lý/quy tắc trọng tâm (Tự nhiên Nhật Bản).",
+        "Sai vì 'Giàu có dầu mỏ bậc nhất thế giới' không phù hợp với định lý/quy tắc trọng tâm (Tự nhiên Nhật Bản).",
+        "Đúng vì theo Tự nhiên Nhật Bản: Nghèo khoáng sản, nhiều động đất."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Ngành công nghiệp nào sau đây là thế mạnh nổi trội hàng đầu thế giới của Nhật Bản?",
       "options": [
-        "Chế tạo ô tô, thiết bị điện tử và robot thông minh",
         "Khai thác than đá thô",
+        "Chế tạo ô tô, thiết bị điện tử và robot thông minh",
         "Khai thác dầu mỏ tự nhiên",
         "Công nghiệp dệt thủ công"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Toyota, Honda, Sony, Panasonic, Fanuc là các thương hiệu công nghệ đỉnh cao.",
       "breakdown": {
         "concept": "Công nghiệp Nhật Bản",
         "steps": "Ô tô, điện tử, robot.",
         "socraticPrompt": "Nhật Bản nổi tiếng về ngành công nghiệp nào?"
-      }
+      },
+      "socraticPrompt": "Nhật Bản nổi tiếng về ngành công nghiệp nào?",
+      "distractorReasons": [
+        "Sai vì 'Khai thác than đá thô' không phù hợp với định lý/quy tắc trọng tâm (Công nghiệp Nhật Bản).",
+        "Đúng vì theo Công nghiệp Nhật Bản: Ô tô, điện tử, robot.",
+        "Sai vì 'Khai thác dầu mỏ tự nhiên' không phù hợp với định lý/quy tắc trọng tâm (Công nghiệp Nhật Bản).",
+        "Sai vì 'Công nghiệp dệt thủ công' không phù hợp với định lý/quy tắc trọng tâm (Công nghiệp Nhật Bản)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Thị trường nhập khẩu hàng hóa lớn nhất của Việt Nam hiện nay là",
       "options": [
-        "Hoa Kỳ",
-        "Nga",
         "Ai Cập",
+        "Nga",
+        "Hoa Kỳ",
         "Chi-lê"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Hoa Kỳ là đối tác thương mại xuất khẩu lớn nhất của Việt Nam.",
       "breakdown": {
         "concept": "Thương mại Việt - Mỹ",
         "steps": "Hoa Kỳ.",
         "socraticPrompt": "Việt Nam xuất khẩu nhiều nhất sang nước nào?"
-      }
+      },
+      "socraticPrompt": "Việt Nam xuất khẩu nhiều nhất sang nước nào?",
+      "distractorReasons": [
+        "Sai vì 'Ai Cập' không phù hợp với định lý/quy tắc trọng tâm (Thương mại Việt - Mỹ).",
+        "Sai vì 'Nga' không phù hợp với định lý/quy tắc trọng tâm (Thương mại Việt - Mỹ).",
+        "Đúng vì 'Hoa Kỳ' phản ánh chuẩn xác kiến thức SGK: Thương mại Việt - Mỹ.",
+        "Sai vì 'Chi-lê' không phù hợp với định lý/quy tắc trọng tâm (Thương mại Việt - Mỹ)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

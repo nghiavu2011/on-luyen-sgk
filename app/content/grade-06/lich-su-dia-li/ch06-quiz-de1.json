@@ -23,12 +23,15 @@
         "steps": "Quy ước quốc tế tại hội nghị kinh tuyến năm 1884 chọn Grin-uýt làm kinh tuyến gốc.",
         "trap": "Nhầm đài thiên văn Pa-ri hay Oa-sinh-tơn."
       },
-      "distractorReasons": {
-        "A": "Sai, đài thiên văn Pa-ri từng được Pháp đề xuất nhưng không được chọn.",
-        "B": "Đáp án chính xác theo SGK trang 102.",
-        "C": "Sai, Oa-sinh-tơn không phải nơi đặt kinh tuyến 0.",
-        "D": "Sai, Bắc Kinh nằm ở múi giờ số 8 kinh tuyến đông."
-      }
+      "distractorReasons": [
+        "Sai vì đài thiên văn Pa-ri từng được Pháp đề xuất nhưng không được chọn.",
+        "Đúng vì SGK trang 102.",
+        "Sai vì Oa-sinh-tơn không phải nơi đặt kinh tuyến 0.",
+        "Sai vì Bắc Kinh nằm ở múi giờ số 8 kinh tuyến đông."
+      ],
+      "socraticPrompt": "Kinh tuyến số 0 đi qua đài thiên văn nào ở nước Anh?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch06_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Xích đạo = vĩ tuyến gốc $0^\\circ$.",
         "trap": "Nhầm chí tuyến Bắc ($23^\\circ27'\\text{B}$) hoặc vòng cực ($66^\\circ33'$)."
       },
-      "distractorReasons": {
-        "A": "Sai, kinh tuyến không phải là đường Xích đạo.",
-        "B": "Sai, chí tuyến Bắc ở vĩ độ $23^\\circ27'\\text{B}$.",
-        "C": "Sai, vòng cực Nam ở vĩ độ $66^\\circ33'\\text{N}$.",
-        "D": "Đáp án đúng theo SGK trang 102."
-      }
+      "distractorReasons": [
+        "Sai vì kinh tuyến không phải là đường Xích đạo.",
+        "Sai vì chí tuyến Bắc ở vĩ độ $23^\\circ27'\\text{B}$.",
+        "Sai vì vòng cực Nam ở vĩ độ $66^\\circ33'\\text{N}$.",
+        "Đúng vì SGK trang 102."
+      ],
+      "socraticPrompt": "Đường tròn vĩ tuyến đi ngang qua điểm giữa chia đôi Trái Đất thành 2 nửa Bắc - Nam tên là gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch06_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Cặp (Vĩ độ, Kinh độ) chỉ vị trí duy nhất của một điểm trên Trái Đất.",
         "trap": "Nhầm toạ độ với độ cao hay nhiệt độ khí hậu."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo định nghĩa SGK trang 103.",
-        "B": "Sai, đây là các yếu tố khí tượng.",
-        "C": "Sai, độ cao và hướng gió là yếu tố địa hình - khí hậu.",
-        "D": "Sai, dân số thuộc địa lí nhân văn."
-      }
+      "distractorReasons": [
+        "Đúng vì ịnh nghĩa SGK trang 103.",
+        "Sai vì đây là các yếu tố khí tượng.",
+        "Sai vì độ cao và hướng gió là yếu tố địa hình - khí hậu.",
+        "Sai vì dân số thuộc địa lí nhân văn."
+      ],
+      "socraticPrompt": "Xác định vị trí trên bản đồ ta cần biết hai đường nào cắt nhau?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch06_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Phía trên là hướng Bắc, phía dưới là hướng Nam.",
         "trap": "Nhầm phía trên là hướng Nam hoặc hướng Đông."
       },
-      "distractorReasons": {
-        "A": "Sai, phía dưới mép bản đồ chỉ hướng Nam.",
-        "B": "Sai, bên phải chỉ hướng Đông.",
-        "C": "Đáp án đúng theo SGK trang 104.",
-        "D": "Sai, bên trái chỉ hướng Tây."
-      }
+      "distractorReasons": [
+        "Sai vì phía dưới mép bản đồ chỉ hướng Nam.",
+        "Sai vì bên phải chỉ hướng Đông.",
+        "Đúng vì SGK trang 104.",
+        "Sai vì bên trái chỉ hướng Tây."
+      ],
+      "socraticPrompt": "Nhìn thẳng vào bản đồ, hướng Bắc ở phía trên hay phía dưới?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch06_d1_05",
@@ -127,12 +139,15 @@
         "steps": "Cho biết hình ảnh trên bản đồ đã được thu nhỏ bao nhiêu lần so với thực tế.",
         "trap": "Nhầm tỉ lệ với mật độ dân số hay nhiệt độ."
       },
-      "distractorReasons": {
-        "A": "Sai, số dân do mật độ dân số thể hiện.",
-        "B": "Đáp án chính xác theo SGK trang 106.",
-        "C": "Sai, nhiệt độ do biểu đồ khí hậu thể hiện.",
-        "D": "Sai, độ sâu do đường đẳng sâu biểu thị."
-      }
+      "distractorReasons": [
+        "Sai vì số dân do mật độ dân số thể hiện.",
+        "Đúng vì SGK trang 106.",
+        "Sai vì nhiệt độ do biểu đồ khí hậu thể hiện.",
+        "Sai vì độ sâu do đường đẳng sâu biểu thị."
+      ],
+      "socraticPrompt": "Tỉ lệ $1 : 100.000$ có ý nghĩa gì về mặt khoảng cách?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch06_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Được vẽ bằng một chấm tròn, biểu tượng máy bay hoặc ô vuông tại tọa độ cụ thể = kí hiệu điểm.",
         "trap": "Nhầm sang kí hiệu diện tích (dành cho vùng đầm lầy, rừng rậm)."
       },
-      "distractorReasons": {
-        "A": "Sai, kí hiệu diện tích dùng cho rừng, hồ nước lớn.",
-        "B": "Sai, kí hiệu chuyển động là các mũi tên chỉ hướng gió, dòng biển.",
-        "C": "Sai, kí hiệu đường dùng cho sông, đường sắt, biên giới.",
-        "D": "Đáp án đúng theo bảng phân loại SGK trang 109."
-      }
+      "distractorReasons": [
+        "Sai vì kí hiệu diện tích dùng cho rừng, hồ nước lớn.",
+        "Sai vì kí hiệu chuyển động là các mũi tên chỉ hướng gió, dòng biển.",
+        "Sai vì kí hiệu đường dùng cho sông, đường sắt, biên giới.",
+        "Đúng vì bảng phân loại SGK trang 109."
+      ],
+      "socraticPrompt": "Sân bay hay mỏ than chiếm một diện tích lớn cả tỉnh hay chỉ định vị tại một điểm cụ thể?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

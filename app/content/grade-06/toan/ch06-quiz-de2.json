@@ -1,128 +1,208 @@
 {
   "chapterId": "ch06",
   "examId": "de2",
-  "title": "Toán 6 — Chương 6: Đề 2 — 4 Phép tính & Hai bài toán phân số",
-  "description": "Bộ đề rèn luyện kỹ năng cộng, trừ, nhân, chia phân số và giải hai bài toán thực tế về phân số.",
+  "title": "Toán 6 — Chương 6: Phân số: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c6_d2_q1",
-      "difficulty": "easy",
+      "id": "t6_c6_d2_01",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Phép cộng phân số",
-      "question": "Tính kết quả phép cộng hai phân số cùng mẫu: 5/13 + (-8/13)?",
+      "topic": "Cộng hai phân số khác mẫu",
+      "question": "Tính giá trị của biểu thức: 5/12 + (-3)/8.",
       "options": [
-        "3/13",
-        "-3/13",
-        "-13/13",
-        "13/26"
+        "2/20",
+        "1/24",
+        "-1/24",
+        "19/24"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc cộng hai phân số có cùng mẫu số.",
-        "socraticPrompt": "Khi hai phân số đã có cùng mẫu số 13, ta chỉ việc thực hiện phép cộng giữa hai tử số: 5 + (-8) bằng bao nhiêu?",
-        "steps": "Áp dụng quy tắc cộng cùng mẫu: 5/13 + (-8/13) = [5 + (-8)] / 13 = -3/13.",
-        "trap": "Cộng nhầm hai mẫu số thành 26, hoặc tính 5 + (-8) thành +3."
-      }
-    },
-    {
-      "id": "t6_c6_d2_q2",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Phép trừ phân số khác mẫu",
-      "question": "Tính hiệu hai phân số: 5/6 - 1/4?",
-      "options": [
-        "4/2",
-        "7/12",
-        "1/12",
-        "2/3"
+        "concept": "Quy đồng mẫu chung BCNN(12, 8) = 24 rồi thực hiện cộng tử.",
+        "steps": [
+          "Bước 1: BCNN(12, 8) = 24. Thừa số phụ: 24 : 12 = 2; 24 : 8 = 3.",
+          "Bước 2: Quy đồng: 5/12 = 10/24; (-3)/8 = -9/24.",
+          "Bước 3: Cộng hai tử số: (10 + (-9)) / 24 = 1/24."
+        ],
+        "trap": "Cộng tử với tử (5 - 3 = 2) và mẫu với mẫu (12 + 8 = 20) thành 2/20.",
+        "socraticPrompt": "Mẫu chung nhỏ nhất của 12 và 8 là 24. Quy đồng 5/12 thành mấy phần 24? -3/8 thành mấy phần 24?"
+      },
+      "socraticPrompt": "Mẫu chung nhỏ nhất của 12 và 8 là 24. Quy đồng 5/12 thành mấy phần 24? -3/8 thành mấy phần 24?",
+      "distractorReasons": [
+        "Sai vì cộng tử với tử và mẫu với mẫu (5-3)/(12+8) = 2/20 (sai bản chất phân số).",
+        "Đúng vì 10/24 + (-9)/24 = 1/24.",
+        "Sai vì nhầm dấu lấy -10 + 9 = -1.",
+        "Sai vì nhầm dấu lấy 10 + 9 = 19."
       ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Trừ hai phân số khác mẫu bằng cách quy đồng.",
-        "socraticPrompt": "Mẫu chung nhỏ nhất của 6 và 4 là bao nhiêu? Sau khi quy đồng, tử số mới của hai phân số là gì?",
-        "steps": "Mẫu chung BCNN(6, 4) = 12. Quy đồng: 5/6 = 10/12; 1/4 = 3/12. Thực hiện trừ tử số: 10/12 - 3/12 = 7/12.",
-        "trap": "Lấy tử trừ tử mẫu trừ mẫu: (5-1)/(6-4) = 4/2 = 2."
-      }
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c6_d2_q3",
+      "id": "t6_c6_d2_02",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Phép nhân phân số và rút gọn",
-      "question": "Tính tích của hai phân số: (-6/25) · (15/8)?",
+      "topic": "Nhân phân số có rút gọn",
+      "question": "Giá trị của biểu thức (-5/9) × (18/-25) bằng:",
       "options": [
-        "-9/20",
-        "9/20",
-        "-3/10",
-        "-18/50"
+        "10/45",
+        "-2/5",
+        "2/5",
+        "-10/45"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tích của hai số âm là số dương. Rút gọn chéo trước khi nhân.",
+        "steps": [
+          "Bước 1: Cả hai phân số đều là số âm nên tích mang dấu dương (+).",
+          "Bước 2: Rút gọn chéo 5 với 25 được 1 và 5.",
+          "Bước 3: Rút gọn chéo 18 với 9 được 2 và 1.",
+          "Bước 4: Tích là (1 × 2) / (1 × 5) = 2/5."
+        ],
+        "trap": "Nhầm dấu cho rằng kết quả mang dấu âm (-2/5).",
+        "socraticPrompt": "Tích của hai số âm mang dấu gì? Rút gọn 18 cho 9 và 5 cho 25 thì phân số còn lại là bao nhiêu?"
+      },
+      "socraticPrompt": "Tích của hai số âm mang dấu gì? Rút gọn 18 cho 9 và 5 cho 25 thì phân số còn lại là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì chưa rút gọn phân số về tối giản.",
+        "Sai vì nhầm dấu thành số âm.",
+        "Đúng vì âm nhân âm ra dương, và [5 × 18] / [9 × 25] rút gọn thành 2/5.",
+        "Sai vì vừa nhầm dấu vừa chưa tối giản."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c6_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm x trong phép chia phân số",
+      "question": "Tìm x biết: x : 3/5 = -10/9.",
+      "options": [
+        "x = -6/25",
+        "x = 2/3",
+        "x = -50/27",
+        "x = -2/3"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "x là số bị chia nên x = Thương × Số chia: x = (-10/9) × 3/5.",
+        "steps": [
+          "Bước 1: x = (-10/9) × (3/5).",
+          "Bước 2: Rút gọn chéo: -10 với 5 được -2; 3 với 9 được 3.",
+          "Bước 3: x = (-2 × 1) / (3 × 1) = -2/3."
+        ],
+        "trap": "Lấy thương chia cho số chia: (-10/9) : (3/5) = -50/27.",
+        "socraticPrompt": "Muốn tìm số bị chia x, ta lấy thương nhân với số chia hay chia cho số chia?"
+      },
+      "socraticPrompt": "Muốn tìm số bị chia x, ta lấy thương nhân với số chia hay chia cho số chia?",
+      "distractorReasons": [
+        "Sai vì lấy số chia chia cho thương.",
+        "Sai vì nhầm dấu thành số dương.",
+        "Sai vì thực hiện phép chia (-10/9) : (3/5) = -50/27 thay vì nhân.",
+        "Đúng vì x = (-10/9) × (3/5) = -30/45 = -2/3."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c6_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm một số biết giá trị phân số của nó",
+      "question": "Biết 2/5 khối lượng của một bao gạo là 18 kg. Cả bao gạo đó nặng bao nhiêu kilôgam?",
+      "options": [
+        "45 kg",
+        "7,2 kg",
+        "36 kg",
+        "90 kg"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Nhân hai phân số và triệt tiêu các ước chung.",
-        "socraticPrompt": "Trước khi nhân, hãy rút gọn 6 với 8 (chia cho 2) và 15 với 25 (chia cho 5) để việc tính toán nhẹ nhàng hơn nhé?",
-        "steps": "Ta có (-6 · 15) / (25 · 8). Rút gọn chia tử và mẫu cho 2 và 5: (-3 · 3) / (5 · 4) = -9/20.",
-        "trap": "Tính sai dấu âm ra dương, hoặc quên rút gọn triệt để."
-      }
+        "concept": "Tìm một số biết 2/5 của nó là 18: ta lấy 18 : 2/5.",
+        "steps": [
+          "Bước 1: Phép tính tìm khối lượng cả bao: 18 : (2/5).",
+          "Bước 2: Nhân nghịch đảo: 18 × 5/2 = (18 : 2) × 5 = 9 × 5 = 45 kg."
+        ],
+        "trap": "Lấy 18 × 2/5 = 7,2 kg (nhầm sang bài toán tìm phân số của một số).",
+        "socraticPrompt": "2 phần có giá trị là 18 kg, vậy 1 phần là 9 kg. Cả bao gồm 5 phần thì nặng bao nhiêu kg?"
+      },
+      "socraticPrompt": "2 phần có giá trị là 18 kg, vậy 1 phần là 9 kg. Cả bao gồm 5 phần thì nặng bao nhiêu kg?",
+      "distractorReasons": [
+        "Đúng vì khối lượng bao gạo là 18 : (2/5) = 18 × 5/2 = 45 kg.",
+        "Sai vì lấy 18 × 2/5 = 7,2 kg (nhầm sang tính 2/5 của 18).",
+        "Sai vì lấy 18 × 2 = 36 kg.",
+        "Sai vì tính nhầm phép chia."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "t6_c6_d2_q4",
+      "id": "t6_c6_d2_05",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Số nghịch đảo và phép chia",
-      "question": "Số nghịch đảo của phân số -7/9 là số nào, và tính (-7/9) : (-14/27)?",
+      "topic": "Hỗn số",
+      "question": "Chuyển hỗn số 3 và 2/5 (3 2/5) sang dạng phân số ta được:",
       "options": [
-        "7/9 và kết quả chia là 2/3",
-        "-9/7 và kết quả chia là -2/3",
-        "-9/7 và kết quả chia là 3/2",
-        "9/7 và kết quả chia là 3/2"
+        "15/5",
+        "11/5",
+        "6/5",
+        "17/5"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
-        "concept": "Định nghĩa số nghịch đảo và phép chia phân số.",
-        "socraticPrompt": "Số nghịch đảo của a/b là b/a (giữ nguyên dấu). Khi chia hai số cùng dấu âm, kết quả mang dấu gì?",
-        "steps": "Số nghịch đảo của -7/9 là -9/7. Phép chia: (-7/9) : (-14/27) = (-7/9) · (-27/14) = (7 · 27) / (9 · 14) = (1 · 3) / (1 · 2) = 3/2.",
-        "trap": "Nhầm số nghịch đảo đổi dấu thành số đối 7/9, hoặc tính thương ra số âm."
-      }
+        "concept": "Cách đổi hỗn số sang phân số: Tử số = Phần nguyên × Mẫu số + Tử số của phần phân số. Giữ nguyên mẫu số.",
+        "steps": [
+          "Bước 1: Tử số mới = 3 × 5 + 2 = 15 + 2 = 17.",
+          "Bước 2: Giữ nguyên mẫu số là 5.",
+          "Bước 3: Phân số thu được là 17/5."
+        ],
+        "trap": "Lấy 3 + 2 = 5 rồi đặt lên mẫu thành 5/5, hoặc lấy 3 × 2 + 5 = 11/5.",
+        "socraticPrompt": "Lấy phần nguyên là 3 nhân mẫu số 5 được 15, cộng thêm tử số 2 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Lấy phần nguyên là 3 nhân mẫu số 5 được 15, cộng thêm tử số 2 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì quên cộng phần tử số 2 (chỉ lấy 3 × 5 = 15).",
+        "Sai vì tính nhầm 3 × 2 + 5 = 11.",
+        "Sai vì lấy 3 × 2 = 6 trên tử.",
+        "Đúng vì 3 2/5 = (3 × 5 + 2) / 5 = 17/5."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "t6_c6_d2_q5",
-      "difficulty": "hard",
+      "id": "t6_c6_d2_06",
+      "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Tìm giá trị phân số của một số",
-      "question": "Một lớp học có 45 học sinh. Trong đợt kiểm tra có 2/5 số học sinh đạt điểm Giỏi, 1/3 số học sinh đạt điểm Khá, còn lại là Trung bình. Lớp đó có bao nhiêu học sinh đạt điểm Trung bình?",
+      "topic": "So sánh hai phân số",
+      "question": "Sắp xếp các phân số sau theo thứ tự từ bé đến lớn: -3/4; 0; 1/2; -5/6.",
       "options": [
-        "15 học sinh",
-        "12 học sinh",
-        "18 học sinh",
-        "9 học sinh"
+        "-5/6 < -3/4 < 0 < 1/2",
+        "-3/4 < -5/6 < 0 < 1/2",
+        "0 < -3/4 < -5/6 < 1/2",
+        "-5/6 < 0 < -3/4 < 1/2"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Bài toán tìm giá trị phân số của một số cho trước.",
-        "socraticPrompt": "Hãy tính lần lượt số học sinh Giỏi và Khá bằng cách nhân 45 với từng phân số, rồi lấy 45 trừ đi tổng của chúng?",
-        "steps": "Số HS Giỏi: 45 · 2/5 = 18 học sinh. Số HS Khá: 45 · 1/3 = 15 học sinh. Số HS Trung bình: 45 - (18 + 15) = 45 - 33 = 12 học sinh.",
-        "trap": "Cộng 18 + 15 = 33 rồi chọn luôn 33 (không đọc kỹ câu hỏi hỏi số học sinh Trung bình)."
-      }
-    },
-    {
-      "id": "t6_c6_d2_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Tìm một số biết giá trị phân số của nó",
-      "question": "Biết rằng 3/4 khối lượng của một quả dưa hấu nặng 2.7 kg. Hỏi cả quả dưa hấu đó nặng bao nhiêu kilôgam?",
-      "options": [
-        "3.2 kg",
-        "3.8 kg",
-        "3.6 kg",
-        "4.0 kg"
+        "concept": "Phân số âm < 0 < phân số dương. Quy đồng hai phân số âm về cùng mẫu 12 để so sánh.",
+        "steps": [
+          "Bước 1: Phân số dương là 1/2 > 0.",
+          "Bước 2: Quy đồng hai phân số âm về mẫu 12: -3/4 = -9/12; -5/6 = -10/12.",
+          "Bước 3: Vì -10 < -9 nên -10/12 < -9/12, tức là -5/6 < -3/4.",
+          "Bước 4: Thứ tự từ bé đến lớn là: -5/6 < -3/4 < 0 < 1/2."
+        ],
+        "trap": "Thấy 5/6 > 3/4 nên vội nghĩ -3/4 < -5/6 (quên rằng với số âm thì số có phần tự nhiên lớn hơn lại nhỏ hơn).",
+        "socraticPrompt": "Quy đồng -3/4 và -5/6 về mẫu 12: được -9/12 và -10/12. Số âm nào nhỏ hơn?"
+      },
+      "socraticPrompt": "Quy đồng -3/4 và -5/6 về mẫu 12: được -9/12 và -10/12. Số âm nào nhỏ hơn?",
+      "distractorReasons": [
+        "Đúng vì -10/12 < -9/12 < 0 < 6/12 (tức là -5/6 < -3/4 < 0 < 1/2).",
+        "Sai vì so sánh sai hai phân số âm (-5/6 nhỏ hơn -3/4).",
+        "Sai vì số 0 phải lớn hơn các phân số âm.",
+        "Sai vì xếp sai vị trí số 0."
       ],
-      "correct": 2,
-      "breakdown": {
-        "concept": "Bài toán tìm một số biết giá trị phân số của nó.",
-        "socraticPrompt": "Khi biết 3/4 của quả dưa bằng 2.7 kg, muốn tìm khối lượng cả quả dưa ta thực hiện phép chia 2.7 cho phân số nào?",
-        "steps": "Khối lượng cả quả dưa hấu là: 2.7 : (3/4) = 2.7 · 4 / 3 = 10.8 / 3 = 3.6 kg.",
-        "trap": "Lấy 2.7 nhân 3/4 được 2.025 kg (nhầm sang bài toán tìm phân số của một số)."
-      }
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

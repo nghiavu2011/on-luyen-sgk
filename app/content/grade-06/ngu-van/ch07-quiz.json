@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được bản chất và chức năng của truyện cổ tích thần kỳ.?",
+      "distractorReasons": [
+        "Đúng vì theo Bản chất và chức năng của truyện cổ tích thần kỳ.: Cổ tích là tiếng nói công lý của tầng lớp bình dân chịu nhiều áp bức bất công.",
+        "Sai vì 'Ước mơ có tàu vũ trụ bay lên các hành tinh xa xôi' không phù hợp với định lý/quy tắc trọng tâm (Bản chất và chức năng của truyện cổ tích thần kỳ.).",
+        "Sai vì 'Ước mơ trở thành bạo chúa thống trị muôn loài' không phù hợp với định lý/quy tắc trọng tâm (Bản chất và chức năng của truyện cổ tích thần kỳ.).",
+        "Sai vì phủ định sai bản chất: 'Ước mơ không cần lao động mà vẫn có tiền bạc cướp bóc' trái ngược với kiến thức SGK."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được công dụng của các dấu câu trong tiếng việt lớp 6.?",
+      "distractorReasons": [
+        "Sai vì 'Dùng để kết thúc một câu nghi vấn' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của các dấu câu trong Tiếng Việt lớp 6.).",
+        "Đúng vì theo Công dụng của các dấu câu trong Tiếng Việt lớp 6.: Dấu chấm lửng biểu thị sự ngập ngừng, bỏ lửng hoặc phần liệt kê còn dài.",
+        "Sai vì 'Dùng để ngăn cách chủ ngữ với vị ngữ' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của các dấu câu trong Tiếng Việt lớp 6.).",
+        "Sai vì 'Dùng để trích dẫn nguyên văn lời bài hát' không phù hợp với định lý/quy tắc trọng tâm (Công dụng của các dấu câu trong Tiếng Việt lớp 6.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được chi tiết nghệ thuật biểu tượng trong truyện thạch sanh.?",
+      "distractorReasons": [
+        "Sai vì 'Ngựa thần phun lửa và cung tên vàng' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết nghệ thuật biểu tượng trong truyện Thạch Sanh.).",
+        "Sai vì 'Thanh gươm báu và áo giáp sắt' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết nghệ thuật biểu tượng trong truyện Thạch Sanh.).",
+        "Đúng vì theo Chi tiết nghệ thuật biểu tượng trong truyện Thạch Sanh.: Tiếng đàn hòa bình làm quân giặc bủn rủn chân tay xin hàng; niêu cơm thần thết đãi quân giặc no nê.",
+        "Sai vì 'Chiếc nón tàng hình và đôi hài vạn dặm' không phù hợp với định lý/quy tắc trọng tâm (Chi tiết nghệ thuật biểu tượng trong truyện Thạch Sanh.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được đọc hiểu bài học nhân quả trong truyện ngụ ngôn / cổ tích cây khế.?",
+      "distractorReasons": [
+        "Sai vì 'Do người anh bị cướp biển tấn công' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu bài học nhân quả trong truyện ngụ ngôn / cổ tích Cây khế.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do chim phượng hoàng lừa gạt người anh' (Chim phượng hoàng là sứ giả công lý, không phải kẻ lừa gạt.).",
+        "Sai vì 'Do người em đầu độc người anh' không phù hợp với định lý/quy tắc trọng tâm (Đọc hiểu bài học nhân quả trong truyện ngụ ngôn / cổ tích Cây khế.).",
+        "Đúng vì: Lòng tham quá mức làm con người mất hết tỉnh táo, tự chuốc lấy tai họa."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được phân tích giá trị nhân văn của biểu tượng niêu cơm thần.?",
+      "distractorReasons": [
+        "Đúng vì theo Phân tích giá trị nhân văn của biểu tượng niêu cơm thần.: Niêu cơm thần ăn không bao giờ cạn là biểu tượng của tình người rộng mở, hóa giải hận thù bằng tình thương và sự no ấm.",
+        "Sai vì 'Chứng minh Thạch Sanh là một đầu bếp nấu ăn giỏi nhất triều đình' không phù hợp với định lý/quy tắc trọng tâm (Phân tích giá trị nhân văn của biểu tượng niêu cơm thần.).",
+        "Sai vì 'Để khoe khoang phép thuật trước vua các nước' không phù hợp với định lý/quy tắc trọng tâm (Phân tích giá trị nhân văn của biểu tượng niêu cơm thần.).",
+        "Sai vì 'Để mở quán ăn kiếm lời nuôi quân' không phù hợp với định lý/quy tắc trọng tâm (Phân tích giá trị nhân văn của biểu tượng niêu cơm thần.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.?",
+      "distractorReasons": [
+        "Sai vì 'Một con ngựa đau cả tàu bỏ cỏ' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.).",
+        "Đúng vì: Cả hai truyện đều có kết cục: người hiền lành (Thạch Sanh, người em) được hạnh phúc; kẻ gian ác, tham lam (Lý Thông, người anh) bị trừng phạt đích đáng.",
+        "Sai vì 'Thuốc đắng dã tật, sự thật mất lòng' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.).",
+        "Sai vì 'Đói cho sạch, rách cho thơm' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Khái quát triết lý đạo đức nhân sinh từ văn học cổ tích.)."
+      ],
+      "correctIndex": 1
     }
   ],
   "grade": "06",

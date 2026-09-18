@@ -22,7 +22,16 @@
         "socraticPrompt": "Lấy (20 + 30) chia cho 2 thì bằng bao nhiêu?",
         "steps": "Ta có c = (20 + 30) / 2 = 50 / 2 = 25.",
         "trap": "Chọn đầu mút trái 20 hoặc đầu mút phải 30 hoặc lấy hiệu 30 - 20 = 10."
-      }
+      },
+      "socraticPrompt": "Lấy (20 + 30) chia cho 2 thì bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '20' không phù hợp với định lý/quy tắc trọng tâm (Giá trị đại diện của nhóm [a; b) là trung bình cộng hai đầu mút: c = (a + b) / 2.).",
+        "Đúng vì: Ta có c = (20 + 30) / 2 = 50 / 2 = 25.",
+        "Sai vì '30' không phù hợp với định lý/quy tắc trọng tâm (Giá trị đại diện của nhóm [a; b) là trung bình cộng hai đầu mút: c = (a + b) / 2.).",
+        "Sai vì '10' không phù hợp với định lý/quy tắc trọng tâm (Giá trị đại diện của nhóm [a; b) là trung bình cộng hai đầu mút: c = (a + b) / 2.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c5_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Lấy 165 trừ đi 150 thì khoảng cách bằng bao nhiêu?",
         "steps": "Độ dài nhóm là: h = 165 - 150 = 15.",
         "trap": "Nhầm công thức tính giá trị đại diện ra 157,5."
-      }
+      },
+      "socraticPrompt": "Lấy 165 trừ đi 150 thì khoảng cách bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '157,5' (công thức tính giá trị đại diện ra 157,5).",
+        "Sai vì '165' không phù hợp với định lý/quy tắc trọng tâm (Độ dài nhóm [a; b) là hiệu số giữa đầu mút phải và đầu mút trái: h = b - a.).",
+        "Đúng vì: Độ dài nhóm là: h = 165 - 150 = 15.",
+        "Sai vì '315' không phù hợp với định lý/quy tắc trọng tâm (Độ dài nhóm [a; b) là hiệu số giữa đầu mút phải và đầu mút trái: h = b - a.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c5_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Cộng tất cả 5 tần số lại với nhau: 5 + 12 + 18 + 10 + 5 = ?",
         "steps": "Cỡ mẫu n = 5 + 12 + 18 + 10 + 5 = 50.",
         "trap": "Cộng thiếu nhóm hoặc nhầm số lượng nhóm (5 nhóm) với cỡ mẫu."
-      }
+      },
+      "socraticPrompt": "Cộng tất cả 5 tần số lại với nhau: 5 + 12 + 18 + 10 + 5 = ?",
+      "distractorReasons": [
+        "Đúng vì theo Cỡ mẫu n là tổng của tất cả các tần số: n = ∑ mi.: Cỡ mẫu n = 5 + 12 + 18 + 10 + 5 = 50.",
+        "Sai vì '45' không phù hợp với định lý/quy tắc trọng tâm (Cỡ mẫu n là tổng của tất cả các tần số: n = ∑ mi.).",
+        "Sai vì '40' không phù hợp với định lý/quy tắc trọng tâm (Cỡ mẫu n là tổng của tất cả các tần số: n = ∑ mi.).",
+        "Sai vì '5' không phù hợp với định lý/quy tắc trọng tâm (Cỡ mẫu n là tổng của tất cả các tần số: n = ∑ mi.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c5_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Trong các tần số 4, 15, 28, 11, 2 thì số nào lớn nhất?",
         "steps": "Tần số lớn nhất là 28, tương ứng với Nhóm 3. Do đó nhóm chứa mốt là Nhóm 3.",
         "trap": "Nhầm nhóm chứa mốt với nhóm ở chính giữa vị trí bảng."
-      }
+      },
+      "socraticPrompt": "Trong các tần số 4, 15, 28, 11, 2 thì số nào lớn nhất?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhóm 2' (nhóm chứa mốt với nhóm ở chính giữa vị trí bảng).",
+        "Sai vì 'Nhóm 4' không phù hợp với định lý/quy tắc trọng tâm (Nhóm chứa mốt là nhóm có tần số xuất hiện lớn nhất trong bảng phân bố.).",
+        "Sai vì 'Nhóm 1' không phù hợp với định lý/quy tắc trọng tâm (Nhóm chứa mốt là nhóm có tần số xuất hiện lớn nhất trong bảng phân bố.).",
+        "Đúng vì: Tần số lớn nhất là 28, tương ứng với Nhóm 3. Do đó nhóm chứa mốt là Nhóm 3."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c5_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Với n = 60 thì n/2 = 30. Tần số tích luỹ của nhóm nào đầu tiên vượt qua 30?",
         "steps": "Ta có n/2 = 60/2 = 30. Nhóm 2 có Cf = 24 < 30. Nhóm 3 có Cf = 42 ≥ 30. Vậy nhóm chứa trung vị là Nhóm 3.",
         "trap": "Chọn Nhóm 2 vì thấy 24 gần 30 nhất nhưng chưa đạt ngưỡng."
-      }
+      },
+      "socraticPrompt": "Với n = 60 thì n/2 = 30. Tần số tích luỹ của nhóm nào đầu tiên vượt qua 30?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhóm 2' (Chọn Nhóm 2 vì thấy 24 gần 30 nhất nhưng chưa đạt ngưỡng.).",
+        "Đúng vì: Ta có n/2 = 60/2 = 30. Nhóm 2 có Cf = 24 < 30. Nhóm 3 có Cf = 42 ≥ 30. Vậy nhóm chứa trung vị là Nhóm 3.",
+        "Sai vì 'Nhóm 4' không phù hợp với định lý/quy tắc trọng tâm (Nhóm chứa trung vị là nhóm đầu tiên có tần số tích luỹ Cf ≥ n/2.).",
+        "Sai vì 'Nhóm 1' không phù hợp với định lý/quy tắc trọng tâm (Nhóm chứa trung vị là nhóm đầu tiên có tần số tích luỹ Cf ≥ n/2.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c5_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Số trung bình là trung tâm đại diện hay là đo độ tản mác?",
         "steps": "Theo SGK Toán 11, số trung bình đo xu thế trung tâm của mẫu số liệu, thể hiện giá trị trung bình đại diện cho mẫu.",
         "trap": "Nhầm với Mốt (xuất hiện nhiều nhất) hoặc phương sai (độ phân tán)."
-      }
+      },
+      "socraticPrompt": "Số trung bình là trung tâm đại diện hay là đo độ tản mác?",
+      "distractorReasons": [
+        "Sai vì 'Độ phân tán của dữ liệu' không phù hợp với định lý/quy tắc trọng tâm (Số trung bình là số đặc trưng đo xu thế trung tâm của tập số liệu.).",
+        "Sai vì 'Giá trị lớn nhất của mẫu' không phù hợp với định lý/quy tắc trọng tâm (Số trung bình là số đặc trưng đo xu thế trung tâm của tập số liệu.).",
+        "Đúng vì: Theo SGK Toán 11, số trung bình đo xu thế trung tâm của mẫu số liệu, thể hiện giá trị trung bình đại diện cho mẫu.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giá trị xuất hiện nhiều lần nhất' (với Mốt (xuất hiện nhiều nhất) hoặc phương sai (độ phân tán))."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

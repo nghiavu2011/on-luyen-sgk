@@ -21,7 +21,16 @@
         "socraticPrompt": "Nước tích trên đập cao có thế năng gì? Chảy xuống dốc biến thành động năng làm quay cái gì để ra điện?",
         "steps": "Thế năng nước -> Động năng tuabin -> Điện năng.",
         "trap": "Thuỷ điện không đốt nhiên liệu nên không có hoá năng hay nhiệt năng."
-      }
+      },
+      "socraticPrompt": "Nước tích trên đập cao có thế năng gì? Chảy xuống dốc biến thành động năng làm quay cái gì để ra điện?",
+      "distractorReasons": [
+        "Đúng vì: Thế năng nước -> Động năng tuabin -> Điện năng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hoá năng -> Quang năng -> Điện năng' (Thuỷ điện không đốt nhiên liệu nên không có hoá năng hay nhiệt năng.).",
+        "Sai vì 'Năng lượng hạt nhân -> Nhiệt năng -> Điện năng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Điện năng -> Cơ năng -> Thế năng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c10_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Lấy năng lượng có ích là 9 chia cho tổng năng lượng tiêu thụ là 10 rồi nhân 100% ta được bao nhiêu?",
         "steps": "H = (9 / 10) · 100% = 90%.",
         "trap": "Lấy 1 / 10 = 10% là phần trăm hao phí chứ không phải hiệu suất."
-      }
+      },
+      "socraticPrompt": "Lấy năng lượng có ích là 9 chia cho tổng năng lượng tiêu thụ là 10 rồi nhân 100% ta được bao nhiêu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '10%' (Lấy 1 / 10 = 10% là phần trăm hao phí chứ không phải hiệu suất.).",
+        "Đúng vì: H = (9 / 10) · 100% = 90%.",
+        "Sai vì '50%' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '100%' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c10_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Ống xả xe máy nóng bỏng tay và tiếng nổ ồn ào có giúp xe chạy nhanh hơn không?",
         "steps": "Nhiệt nóng máy và âm thanh tiếng nổ là năng lượng hao phí.",
         "trap": "Động năng xe chạy là năng lượng có ích mục đích chính."
-      }
+      },
+      "socraticPrompt": "Ống xả xe máy nóng bỏng tay và tiếng nổ ồn ào có giúp xe chạy nhanh hơn không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Động năng của xe di chuyển tiến về phía trước' (Động năng xe chạy là năng lượng có ích mục đích chính.).",
+        "Sai vì 'Quang năng của đèn pha chiếu sáng đường ban đêm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nhiệt nóng máy và âm thanh tiếng nổ là năng lượng hao phí.",
+        "Sai vì 'Cả động năng và quang năng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c10_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Bóng chạm sàn bị móp lõm tích trữ thế năng gì trước khi nảy ngược lên?",
         "steps": "Thế năng rơi thành động năng, chạm sàn thành thế năng đàn hồi rồi đẩy bóng nảy lên.",
         "trap": "Sau nhiều lần nảy bóng dừng lại vì một phần cơ năng chuyển thành nhiệt làm ấm quả bóng và sàn."
-      }
+      },
+      "socraticPrompt": "Bóng chạm sàn bị móp lõm tích trữ thế năng gì trước khi nảy ngược lên?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Toàn bộ biến thành quang năng chớp sáng', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chuyển thành năng lượng hạt nhân' (Sau nhiều lần nảy bóng dừng lại vì một phần cơ năng chuyển thành nhiệt làm ấm quả bóng và sàn.).",
+        "Sai vì phủ định sai bản chất: 'Biến mất vĩnh viễn không còn dấu vết' trái ngược với kiến thức SGK.",
+        "Đúng vì: Thế năng rơi thành động năng, chạm sàn thành thế năng đàn hồi rồi đẩy bóng nảy lên."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c10_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Biểu tượng 5 ngôi sao xanh trên đồ điện gia dụng báo hiệu mức độ tiết kiệm điện như thế nào?",
         "steps": "5 sao là cấp độ tiết kiệm điện năng tối ưu nhất.",
         "trap": "Nghĩ rằng số sao chỉ độ bền hay đánh giá của khách hàng."
-      }
+      },
+      "socraticPrompt": "Biểu tượng 5 ngôi sao xanh trên đồ điện gia dụng báo hiệu mức độ tiết kiệm điện như thế nào?",
+      "distractorReasons": [
+        "Đúng vì: 5 sao là cấp độ tiết kiệm điện năng tối ưu nhất.",
+        "Sai vì 'Thiết bị đắt tiền nhất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Thiết bị chạy ồn nhất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Thiết bị có trọng lượng nặng nhất' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c10_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Ánh sáng mặt trời được lá cây biến đổi thành dạng năng lượng hoá học nào cất trong củ khoai, hạt gạo?",
         "steps": "Quang năng mặt trời biến thành hoá năng chất hữu cơ.",
         "trap": "Quang hợp không sinh ra dòng điện hay nhiệt lượng để thắp sáng."
-      }
+      },
+      "socraticPrompt": "Ánh sáng mặt trời được lá cây biến đổi thành dạng năng lượng hoá học nào cất trong củ khoai, hạt gạo?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nhiệt năng chuyển thành điện năng' (Quang hợp không sinh ra dòng điện hay nhiệt lượng để thắp sáng.).",
+        "Đúng vì: Quang năng mặt trời biến thành hoá năng chất hữu cơ.",
+        "Sai vì 'Cơ năng chuyển thành nhiệt năng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Điện năng chuyển thành thế năng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

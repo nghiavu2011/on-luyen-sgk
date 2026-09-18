@@ -20,97 +20,151 @@
         "concept": "Rừng Amazon",
         "steps": "Lá phổi xanh.",
         "socraticPrompt": "Tên gọi biểu tượng của rừng Amazon là gì?"
-      }
+      },
+      "socraticPrompt": "Tên gọi biểu tượng của rừng Amazon là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Rừng Amazon: Lá phổi xanh.",
+        "Sai vì 'Rốn dầu thế giới' không phù hợp với định lý/quy tắc trọng tâm (Rừng Amazon).",
+        "Sai vì 'Nóc nhà thế giới' không phù hợp với định lý/quy tắc trọng tâm (Rừng Amazon).",
+        "Sai vì 'Sa mạc lớn nhất' không phù hợp với định lý/quy tắc trọng tâm (Rừng Amazon)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Mỹ La-tinh nằm hoàn toàn ở bán cầu nào?",
       "options": [
-        "Tây bán cầu",
         "Đông bán cầu",
+        "Tây bán cầu",
         "Bắc cực",
         "Nam cực"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Nằm ở phía Tây kinh tuyến gốc.",
       "breakdown": {
         "concept": "Vị trí Mỹ La-tinh",
         "steps": "Tây bán cầu.",
         "socraticPrompt": "Mỹ La-tinh ở bán cầu nào?"
-      }
+      },
+      "socraticPrompt": "Mỹ La-tinh ở bán cầu nào?",
+      "distractorReasons": [
+        "Sai vì 'Đông bán cầu' không phù hợp với định lý/quy tắc trọng tâm (Vị trí Mỹ La-tinh).",
+        "Đúng vì theo Vị trí Mỹ La-tinh: Tây bán cầu.",
+        "Sai vì 'Bắc cực' không phù hợp với định lý/quy tắc trọng tâm (Vị trí Mỹ La-tinh).",
+        "Sai vì 'Nam cực' không phù hợp với định lý/quy tắc trọng tâm (Vị trí Mỹ La-tinh)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Dãy núi Andes nằm ở phía nào của Nam Mỹ?",
       "options": [
-        "Phía Tây",
-        "Phía Đông",
         "Phía Bắc",
+        "Phía Đông",
+        "Phía Tây",
         "Trung tâm"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Chạy dọc sườn Tây ven biển Thái Bình Dương.",
       "breakdown": {
         "concept": "Dãy Andes",
         "steps": "Phía Tây Nam Mỹ.",
         "socraticPrompt": "Dãy Andes ở đâu?"
-      }
+      },
+      "socraticPrompt": "Dãy Andes ở đâu?",
+      "distractorReasons": [
+        "Sai vì 'Phía Bắc' không phù hợp với định lý/quy tắc trọng tâm (Dãy Andes).",
+        "Sai vì 'Phía Đông' không phù hợp với định lý/quy tắc trọng tâm (Dãy Andes).",
+        "Đúng vì theo Dãy Andes: Phía Tây Nam Mỹ.",
+        "Sai vì 'Trung tâm' không phù hợp với định lý/quy tắc trọng tâm (Dãy Andes)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Hiện tượng đô thị hóa ở Mỹ La-tinh chủ yếu mang tính chất",
       "options": [
-        "Đô thị hóa tự phát",
+        "Không có đô thị",
         "Đô thị hóa hoàn hảo",
         "Đô thị hóa nông thôn",
-        "Không có đô thị"
+        "Đô thị hóa tự phát"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Người nghèo di cư tự do ra thành phố tạo nên đô thị hóa tự phát.",
       "breakdown": {
         "concept": "Đô thị hóa tự phát",
         "steps": "Tỉ lệ cao nhưng tự phát.",
         "socraticPrompt": "Tính chất đô thị hóa Mỹ La-tinh là gì?"
-      }
+      },
+      "socraticPrompt": "Tính chất đô thị hóa Mỹ La-tinh là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không có đô thị' trái ngược với kiến thức SGK.",
+        "Sai vì 'Đô thị hóa hoàn hảo' không phù hợp với định lý/quy tắc trọng tâm (Đô thị hóa tự phát).",
+        "Sai vì 'Đô thị hóa nông thôn' không phù hợp với định lý/quy tắc trọng tâm (Đô thị hóa tự phát).",
+        "Đúng vì theo Đô thị hóa tự phát: Tỉ lệ cao nhưng tự phát."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Ba nền kinh tế lớn nhất Mỹ La-tinh là",
       "options": [
-        "Bra-xin, Mê-hi-cô, Ác-hen-ti-na",
         "Cuba, Haiti, Bolivia",
+        "Bra-xin, Mê-hi-cô, Ác-hen-ti-na",
         "Chile, Peru, Ecuador",
         "Panama, Uruguay, Paraguay"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Bra-xin, Mê-hi-cô, Ác-hen-ti-na chiếm đa số GDP khu vực.",
       "breakdown": {
         "concept": "Top 3 kinh tế",
         "steps": "Bra-xin, Mê-hi-cô, Ác-hen-ti-na.",
         "socraticPrompt": "Ba nước kinh tế lớn nhất Mỹ La-tinh?"
-      }
+      },
+      "socraticPrompt": "Ba nước kinh tế lớn nhất Mỹ La-tinh?",
+      "distractorReasons": [
+        "Sai vì 'Cuba, Haiti, Bolivia' không phù hợp với định lý/quy tắc trọng tâm (Top 3 kinh tế).",
+        "Đúng vì theo Top 3 kinh tế: Bra-xin, Mê-hi-cô, Ác-hen-ti-na.",
+        "Sai vì 'Chile, Peru, Ecuador' không phù hợp với định lý/quy tắc trọng tâm (Top 3 kinh tế).",
+        "Sai vì 'Panama, Uruguay, Paraguay' không phù hợp với định lý/quy tắc trọng tâm (Top 3 kinh tế)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Kênh đào Panama nối hai đại dương nào?",
       "options": [
-        "Đại Tây Dương và Thái Bình Dương",
-        "Ấn Độ Dương và Bắc Băng Dương",
         "Thái Bình Dương và Ấn Độ Dương",
+        "Ấn Độ Dương và Bắc Băng Dương",
+        "Đại Tây Dương và Thái Bình Dương",
         "Baltic và Địa Trung Hải"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Nối liền Đại Tây Dương và Thái Bình Dương qua eo đất Trung Mỹ.",
       "breakdown": {
         "concept": "Kênh Panama",
         "steps": "Đại Tây Dương & Thái Bình Dương.",
         "socraticPrompt": "Kênh Panama nối 2 đại dương nào?"
-      }
+      },
+      "socraticPrompt": "Kênh Panama nối 2 đại dương nào?",
+      "distractorReasons": [
+        "Sai vì 'Thái Bình Dương và Ấn Độ Dương' không phù hợp với định lý/quy tắc trọng tâm (Kênh Panama).",
+        "Sai vì 'Ấn Độ Dương và Bắc Băng Dương' không phù hợp với định lý/quy tắc trọng tâm (Kênh Panama).",
+        "Đúng vì theo Kênh Panama: Đại Tây Dương & Thái Bình Dương.",
+        "Sai vì 'Baltic và Địa Trung Hải' không phù hợp với định lý/quy tắc trọng tâm (Kênh Panama)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

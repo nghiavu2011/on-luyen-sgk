@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Triết lý kinh doanh bất hủ: 'Lợi nhuận chỉ là thước đo của việc bạn phụng sự xã hội tốt đến mức nào' khẳng định",
       "options": [
-        "Bản chất chân chính của kinh doanh là tạo ra giá trị hữu ích cho con người và cuộc sống",
-        "Mục đích duy nhất là vơ vét tiền bằng mọi cách",
         "Không cần quan tâm đến lợi nhuận",
+        "Mục đích duy nhất là vơ vét tiền bằng mọi cách",
+        "Bản chất chân chính của kinh doanh là tạo ra giá trị hữu ích cho con người và cuộc sống",
         "Kinh doanh là trò chơi lừa đảo"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Tư tưởng kinh doanh phụng sự kiến tạo một xã hội thịnh vượng nhân văn.",
       "breakdown": {
         "concept": "Triết lý kinh doanh phụng sự",
         "steps": "Tạo ra giá trị hữu ích phụng sự con người.",
         "socraticPrompt": "Ý nghĩa cao cả nhất của người làm kinh doanh là gì?"
-      }
+      },
+      "socraticPrompt": "Ý nghĩa cao cả nhất của người làm kinh doanh là gì?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Không cần quan tâm đến lợi nhuận' trái ngược với kiến thức SGK.",
+        "Sai vì 'Mục đích duy nhất là vơ vét tiền bằng mọi cách' không phù hợp với định lý/quy tắc trọng tâm (Triết lý kinh doanh phụng sự).",
+        "Đúng vì theo Triết lý kinh doanh phụng sự: Tạo ra giá trị hữu ích phụng sự con người.",
+        "Sai vì 'Kinh doanh là trò chơi lừa đảo' không phù hợp với định lý/quy tắc trọng tâm (Triết lý kinh doanh phụng sự)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Khái niệm ESG (Môi trường - Xã hội - Quản trị minh bạch) đang trở thành tiêu chuẩn vàng toàn cầu đòi hỏi doanh nghiệp",
       "options": [
-        "Phát triển kinh tế gắn liền với bảo vệ môi trường sinh thái, an sinh xã hội và quản trị liêm chính",
+        "Che giấu thông tin tài chính",
         "Chỉ tối đa hóa lợi nhuận tài chính",
         "Bỏ qua các tiêu chuẩn khí thải",
-        "Che giấu thông tin tài chính"
+        "Phát triển kinh tế gắn liền với bảo vệ môi trường sinh thái, an sinh xã hội và quản trị liêm chính"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Bộ tiêu chuẩn ESG định hình làn sóng đầu tư xanh và phát triển bền vững toàn cầu.",
       "breakdown": {
         "concept": "Tiêu chuẩn ESG",
         "steps": "Môi trường + Xã hội + Quản trị liêm chính.",
         "socraticPrompt": "ESG là viết tắt và tiêu chuẩn về cái gì?"
-      }
+      },
+      "socraticPrompt": "ESG là viết tắt và tiêu chuẩn về cái gì?",
+      "distractorReasons": [
+        "Sai vì 'Che giấu thông tin tài chính' không phù hợp với định lý/quy tắc trọng tâm (Tiêu chuẩn ESG).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tối đa hóa lợi nhuận tài chính', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bỏ qua các tiêu chuẩn khí thải' không phù hợp với định lý/quy tắc trọng tâm (Tiêu chuẩn ESG).",
+        "Đúng vì theo Tiêu chuẩn ESG: Môi trường + Xã hội + Quản trị liêm chính."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Doanh nghiệp xã hội nhân văn",
         "steps": "Tự chủ kinh doanh giúp đỡ người yếu thế.",
         "socraticPrompt": "Doanh nghiệp xã hội mang lại giá trị gì cho cộng đồng?"
-      }
+      },
+      "socraticPrompt": "Doanh nghiệp xã hội mang lại giá trị gì cho cộng đồng?",
+      "distractorReasons": [
+        "Đúng vì theo Doanh nghiệp xã hội nhân văn: Tự chủ kinh doanh giúp đỡ người yếu thế.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ trông chờ tiền từ thiện nhà nước', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Hoạt động phi pháp' không phù hợp với định lý/quy tắc trọng tâm (Doanh nghiệp xã hội nhân văn).",
+        "Sai vì 'Ép người khuyết tật lao động nặng' không phù hợp với định lý/quy tắc trọng tâm (Doanh nghiệp xã hội nhân văn)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng 'Tẩy xanh' (Greenwashing - quảng cáo là sản phẩm xanh nhưng thực tế gây ô nhiễm) là",
       "options": [
-        "Hành vi gian dối lừa đảo người tiêu dùng và báng bổ các giá trị đạo đức bền vững",
         "Chiến lược marketing xuất sắc",
+        "Hành vi gian dối lừa đảo người tiêu dùng và báng bổ các giá trị đạo đức bền vững",
         "Hành động bảo vệ thiên nhiên",
         "Được pháp luật khuyến khích"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Đạo đức kinh doanh đòi hỏi sự trung thực từ bản chất chứ không phải vỏ bọc giả tạo.",
       "breakdown": {
         "concept": "Chống tẩy xanh Greenwashing",
         "steps": "Lừa dối người tiêu dùng về sản phẩm xanh.",
         "socraticPrompt": "Greenwashing (tẩy xanh) là hành vi gì?"
-      }
+      },
+      "socraticPrompt": "Greenwashing (tẩy xanh) là hành vi gì?",
+      "distractorReasons": [
+        "Sai vì 'Chiến lược marketing xuất sắc' không phù hợp với định lý/quy tắc trọng tâm (Chống tẩy xanh Greenwashing).",
+        "Đúng vì theo Chống tẩy xanh Greenwashing: Lừa dối người tiêu dùng về sản phẩm xanh.",
+        "Sai vì 'Hành động bảo vệ thiên nhiên' không phù hợp với định lý/quy tắc trọng tâm (Chống tẩy xanh Greenwashing).",
+        "Sai vì 'Được pháp luật khuyến khích' không phù hợp với định lý/quy tắc trọng tâm (Chống tẩy xanh Greenwashing)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Vươn tầm thương hiệu Việt",
         "steps": "Chất lượng, sáng tạo và chữ Tín vững chắc.",
         "socraticPrompt": "Làm sao để sản phẩm Việt Nam chinh phục thế giới?"
-      }
+      },
+      "socraticPrompt": "Làm sao để sản phẩm Việt Nam chinh phục thế giới?",
+      "distractorReasons": [
+        "Đúng vì theo Vươn tầm thương hiệu Việt: Chất lượng, sáng tạo và chữ Tín vững chắc.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dựa vào giá rẻ gia công', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bắt chước sao chép mẫu mã' không phù hợp với định lý/quy tắc trọng tâm (Vươn tầm thương hiệu Việt).",
+        "Sai vì 'Gian lận nguồn gốc xuất xứ' không phù hợp với định lý/quy tắc trọng tâm (Vươn tầm thương hiệu Việt)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Bài học sâu sắc nhất về Đạo làm người trong Đạo làm giàu mà thế hệ trẻ cần khắc cốt ghi tâm là",
       "options": [
-        "'Tâm sinh Tài, Đức sinh Lộc' - Làm giàu chân chính bằng trí tuệ, sự tử tế và lòng biết ơn",
+        "Coi thường người nghèo khổ",
         "Làm giàu bằng mọi thủ đoạn bất chính",
         "Chỉ bo bo giữ tiền cho riêng mình",
-        "Coi thường người nghèo khổ"
+        "'Tâm sinh Tài, Đức sinh Lộc' - Làm giàu chân chính bằng trí tuệ, sự tử tế và lòng biết ơn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Đạo đức là gốc rễ của tài năng và sự phồn vinh trường tồn.",
       "breakdown": {
         "concept": "Đạo làm giàu chân chính",
         "steps": "Làm giàu bằng trí tuệ và sự tử tế.",
         "socraticPrompt": "Gốc rễ của sự giàu có bền vững là gì?"
-      }
+      },
+      "socraticPrompt": "Gốc rễ của sự giàu có bền vững là gì?",
+      "distractorReasons": [
+        "Sai vì 'Coi thường người nghèo khổ' không phù hợp với định lý/quy tắc trọng tâm (Đạo làm giàu chân chính).",
+        "Sai vì 'Làm giàu bằng mọi thủ đoạn bất chính' không phù hợp với định lý/quy tắc trọng tâm (Đạo làm giàu chân chính).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ bo bo giữ tiền cho riêng mình', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Đạo làm giàu chân chính: Làm giàu bằng trí tuệ và sự tử tế."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

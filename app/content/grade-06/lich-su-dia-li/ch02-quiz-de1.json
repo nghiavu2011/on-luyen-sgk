@@ -23,12 +23,15 @@
         "steps": "Tiến hóa đi từ thấp đến cao: Vượn người -> Người tối cổ -> Người tinh khôn.",
         "trap": "Nhầm lẫn trật tự giữa Vượn người và Người tối cổ."
       },
-      "distractorReasons": {
-        "A": "Sai, Vượn người xuất hiện trước Người tối cổ.",
-        "B": "Đáp án chính xác theo sơ đồ SGK trang 18.",
-        "C": "Sai, đây là trật tự đảo ngược.",
-        "D": "Sai, khỉ đột là nhánh linh trưởng khác chứ không tiến hóa thành người."
-      }
+      "distractorReasons": [
+        "Sai vì Vượn người xuất hiện trước Người tối cổ.",
+        "Đúng vì sơ đồ SGK trang 18.",
+        "Sai vì đây là trật tự đảo ngược.",
+        "Sai vì khỉ đột là nhánh linh trưởng khác chứ không tiến hóa thành người."
+      ],
+      "socraticPrompt": "Dạng người đầu tiên đã hoàn toàn biết đi đứng bằng 2 chân nhưng còn mang nhiều nốt vượn là dạng nào?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch02_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Hang Thẩm Khuyên, Thẩm Hai (Lạng Sơn) là bằng chứng hóa thạch trực tiếp sớm nhất tại Việt Nam.",
         "trap": "Nhầm với hang Con Moong (thuộc thời kì Người tinh khôn)."
       },
-      "distractorReasons": {
-        "A": "Sai, hang Con Moong tìm thấy dấu vết Người tinh khôn thời đồ đá mới.",
-        "B": "Sai, Óc Eo thuộc vương quốc cổ Phù Nam thế kỉ I - VII.",
-        "C": "Sai, Phùng Nguyên là di chỉ thời đại kim khí (đồng thau).",
-        "D": "Đáp án đúng theo SGK trang 19."
-      }
+      "distractorReasons": [
+        "Sai vì hang Con Moong tìm thấy dấu vết Người tinh khôn thời đồ đá mới.",
+        "Sai vì Óc Eo thuộc vương quốc cổ Phù Nam thế kỉ I - VII.",
+        "Sai vì Phùng Nguyên là di chỉ thời đại kim khí (đồng thau).",
+        "Đúng vì SGK trang 19."
+      ],
+      "socraticPrompt": "Hang động nổi tiếng ở miền núi phía Bắc giáp biên giới tìm thấy răng người vượn?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch02_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Từ bầy người tiến lên thị tộc là bước tiến lớn về mặt tổ chức xã hội.",
         "trap": "Nhầm với bầy người nguyên thủy (chưa có tổ chức gia đình huyết thống rõ ràng)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo định nghĩa SGK trang 21.",
-        "B": "Sai, làng xã xuất hiện muộn hơn khi có nông nghiệp định cư.",
-        "C": "Sai, bầy người sống tự nhiên chưa gắn kết chặt chẽ theo huyết tộc.",
-        "D": "Sai, thời thị tộc nguyên thủy ban đầu theo chế độ mẫu hệ."
-      }
+      "distractorReasons": [
+        "Đúng vì ịnh nghĩa SGK trang 21.",
+        "Sai vì làng xã xuất hiện muộn hơn khi có nông nghiệp định cư.",
+        "Sai vì bầy người sống tự nhiên chưa gắn kết chặt chẽ theo huyết tộc.",
+        "Sai vì thời thị tộc nguyên thủy ban đầu theo chế độ mẫu hệ."
+      ],
+      "socraticPrompt": "Nhóm người cùng huyết thống, tôn vinh người mẹ trong gia đình gọi là gì?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch02_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Lửa cải thiện hệ tiêu hóa, giúp não bộ phát triển và bảo vệ con người an toàn trước dã thú.",
         "trap": "Cung tên hay đồ gốm xuất hiện muộn hơn nhiều vào thời kì Người tinh khôn."
       },
-      "distractorReasons": {
-        "A": "Sai, cung tên xuất hiện ở thời Người tinh khôn.",
-        "B": "Sai, đồ gốm xuất hiện thời đồ đá mới.",
-        "C": "Đáp án đúng theo SGK trang 20.",
-        "D": "Sai, bánh xe xuất hiện ở thời đại văn minh cổ đại."
-      }
+      "distractorReasons": [
+        "Sai vì cung tên xuất hiện ở thời Người tinh khôn.",
+        "Sai vì đồ gốm xuất hiện thời đồ đá mới.",
+        "Đúng vì SGK trang 20.",
+        "Sai vì bánh xe xuất hiện ở thời đại văn minh cổ đại."
+      ],
+      "socraticPrompt": "Yếu tố nào giúp con người không bị rét buốt trong mùa đông băng giá và ăn thức ăn chín?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch02_d1_05",
@@ -127,12 +139,15 @@
         "steps": "Thứ tự xuất hiện kim loại: Đồng đỏ -> Đồng thau -> Sắt.",
         "trap": "Nhầm lẫn sắt là kim loại đầu tiên vì thấy ngày nay sắt rất phổ biến."
       },
-      "distractorReasons": {
-        "A": "Sai, sắt có nhiệt độ nóng chảy rất cao, xuất hiện muộn nhất (thiên niên kỉ I TCN).",
-        "B": "Đáp án chính xác theo SGK trang 24.",
-        "C": "Sai, đồng thau là hợp kim của đồng và thiếc, ra đời sau đồng đỏ.",
-        "D": "Sai, nhôm chỉ được sản xuất công nghiệp vào thời cận - hiện đại."
-      }
+      "distractorReasons": [
+        "Sai vì sắt có nhiệt độ nóng chảy rất cao, xuất hiện muộn nhất (thiên niên kỉ I TCN).",
+        "Đúng vì SGK trang 24.",
+        "Sai vì đồng thau là hợp kim của đồng và thiếc, ra đời sau đồng đỏ.",
+        "Sai vì nhôm chỉ được sản xuất công nghiệp vào thời cận - hiện đại."
+      ],
+      "socraticPrompt": "Kim loại màu đỏ, mềm dẻo, dễ rèn được tìm thấy sớm nhất?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch02_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Quan niệm người chết sang thế giới bên kia vẫn cần săn bắt, làm lụng như trên dương thế.",
         "trap": "Nghĩ theo lối suy nghĩ đơn thuần là muốn giấu đồ hoặc bỏ đi."
       },
-      "distractorReasons": {
-        "A": "Sai, đồ trang sức và công cụ đá mài thời đó cực kì quý giá.",
-        "B": "Sai, đây là nghi lễ tâm linh chứ không phải hành vi cất giấu.",
-        "C": "Sai, không phải tiêu hủy mà là cung cấp vật dụng cho linh hồn.",
-        "D": "Đáp án đúng theo bài học đời sống tinh thần SGK trang 23."
-      }
+      "distractorReasons": [
+        "Sai vì đồ trang sức và công cụ đá mài thời đó cực kì quý giá.",
+        "Sai vì đây là nghi lễ tâm linh chứ không phải hành vi cất giấu.",
+        "Sai vì không phải tiêu hủy mà là cung cấp vật dụng cho linh hồn.",
+        "Đúng vì bài học đời sống tinh thần SGK trang 23."
+      ],
+      "socraticPrompt": "Tại sao người xưa lại chôn đồ dùng xuống mộ cùng thi thể người mất?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

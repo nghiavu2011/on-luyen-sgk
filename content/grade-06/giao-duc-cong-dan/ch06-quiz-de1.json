@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm tự nhận thức bản thân (Bài 6, SGK GDCD 6, trang 29).",
         "steps": "Tự nhận thức bản thân là năng lực thấu hiểu chính mình một cách khách quan, biết rõ ưu - khuyết điểm và cảm xúc của mình.",
-        "trap": "Nhầm với thói tự cao hoặc việc chấp nhận mọi lời phán xét bên ngoài mà không có chính kiến."
+        "trap": "Nhầm với thói tự cao hoặc việc chấp nhận mọi lời phán xét bên ngoài mà không có chính kiến.",
+        "socraticPrompt": "Khi một người biết rõ mình giỏi môn gì và chưa giỏi môn gì để lên kế hoạch ôn tập, người đó có năng lực gì?"
       },
       "socraticPrompt": "Khi một người biết rõ mình giỏi môn gì và chưa giỏi môn gì để lên kế hoạch ôn tập, người đó có năng lực gì?",
       "distractorReasons": [
-        "Sai, đây là thói tự phụ ảo tưởng bệnh hoạn.",
-        "Chính xác theo định nghĩa chuẩn SGK GDCD 6 trang 29.",
-        "Sai, soi gương chỉ là chăm sóc vẻ ngoài thể xác.",
-        "Sai, tiếp nhận thụ động không có chọn lọc là thiếu năng lực tự đánh giá."
-      ]
+        "Sai vì đây là thói tự phụ ảo tưởng bệnh hoạn.",
+        "Đúng vì định nghĩa chuẩn SGK GDCD 6 trang 29.",
+        "Sai vì soi gương chỉ là chăm sóc vẻ ngoài thể xác.",
+        "Sai vì tiếp nhận thụ động không có chọn lọc là thiếu năng lực tự đánh giá."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch06_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Ý nghĩa tự nhận thức (Bài 6, SGK GDCD 6, trang 28).",
         "steps": "Hiểu mình là bước đầu tiên để làm chủ bản thân và thành công trong cuộc đời; giúp cân bằng tâm lý và phát triển toàn diện.",
-        "trap": "Nghĩ rằng biết điểm yếu sẽ làm mình tự ti, yếu đuối."
+        "trap": "Nghĩ rằng biết điểm yếu sẽ làm mình tự ti, yếu đuối.",
+        "socraticPrompt": "Người xưa có câu 'Biết người biết ta, trăm trận trăm thắng', vế 'biết ta' chính là nói về năng lực gì?"
       },
       "socraticPrompt": "Người xưa có câu 'Biết người biết ta, trăm trận trăm thắng', vế 'biết ta' chính là nói về năng lực gì?",
       "distractorReasons": [
-        "Sai, nhận thức đúng giúp triệt tiêu sự tự ti để sống tự tin hơn.",
-        "Sai, người hiểu mình luôn sống khiêm tốn và tôn trọng người khác.",
-        "Chính xác, giá trị định hướng sống cốt lõi của tự nhận thức bản thân.",
-        "Sai, nhận thức bản thân thôi thúc con người không ngừng học tập vươn lên."
-      ]
+        "Sai vì nhận thức đúng giúp triệt tiêu sự tự ti để sống tự tin hơn.",
+        "Sai vì người hiểu mình luôn sống khiêm tốn và tôn trọng người khác.",
+        "Đúng vì giá trị định hướng sống cốt lõi của tự nhận thức bản thân.",
+        "Sai vì nhận thức bản thân thôi thúc con người không ngừng học tập vươn lên."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch06_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Bài học từ ngụ ngôn chim đại bàng (Bài 6, SGK GDCD 6, trang 28).",
         "steps": "Đại bàng có đôi cánh dũng mãnh nhưng vì ngộ nhận mình là gà nên đã sống cuộc đời tầm thường. Con người nếu không tự đánh giá đúng tiềm năng sẽ đánh mất cơ hội tỏa sáng.",
-        "trap": "Hiểu câu chuyện theo nghĩa đen sinh học về loài chim."
+        "trap": "Hiểu câu chuyện theo nghĩa đen sinh học về loài chim.",
+        "socraticPrompt": "Điều gì đã ngăn cản chú đại bàng bay lên bầu trời rộng lớn: đôi cánh của chú hay niềm tin sai lầm trong suy nghĩ của chú?"
       },
       "socraticPrompt": "Điều gì đã ngăn cản chú đại bàng bay lên bầu trời rộng lớn: đôi cánh của chú hay niềm tin sai lầm trong suy nghĩ của chú?",
       "distractorReasons": [
-        "Sai, chấp nhận tầm thường làm lãng phí tiềm năng to lớn.",
-        "Sai, không liên quan đến bài học đạo đức của câu chuyện.",
-        "Sai, đại bàng là chúa tể bầu trời với khả năng bay lượn tuyệt vời.",
-        "Chính xác, thông điệp triết lý thức tỉnh sâu sắc về sức mạnh của việc khám phá và đánh thức tiềm năng bản thân."
-      ]
+        "Sai vì chấp nhận tầm thường làm lãng phí tiềm năng to lớn.",
+        "Sai vì không liên quan đến bài học đạo đức của câu chuyện.",
+        "Sai vì đại bàng là chúa tể bầu trời với khả năng bay lượn tuyệt vời.",
+        "Đúng vì thông điệp triết lý thức tỉnh sâu sắc về sức mạnh của việc khám phá và đánh thức tiềm năng bản thân."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch06_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Phương pháp tự nhận thức bản thân (Bài 6, SGK GDCD 6, trang 28-30).",
         "steps": "Tự nhận thức là quá trình phối hợp giữa nội quan (tự suy ngẫm) và ngoại quan (lắng nghe phản hồi khách quan từ cộng đồng qua hoạt động thực tiễn).",
-        "trap": "Mê tín dị đoan hoặc bắt chước mù quáng người khác."
+        "trap": "Mê tín dị đoan hoặc bắt chước mù quáng người khác.",
+        "socraticPrompt": "Những hoạt động tập thể như cắm trại, văn nghệ, thể thao giúp em khám phá ra những tài lẻ nào của mình?"
       },
       "socraticPrompt": "Những hoạt động tập thể như cắm trại, văn nghệ, thể thao giúp em khám phá ra những tài lẻ nào của mình?",
       "distractorReasons": [
-        "Chính xác, con đường khoa học và toàn diện nhất để thấu hiểu bản thân.",
-        "Sai, cô lập bản thân làm mất đi tấm gương phản chiếu từ xã hội.",
-        "Sai, mê tín dị đoan làm sai lệch nhận thức lý tính.",
-        "Sai, sao chép mù quáng làm đánh mất bản sắc riêng độc đáo của mình."
-      ]
+        "Đúng vì con đường khoa học và toàn diện nhất để thấu hiểu bản thân.",
+        "Sai vì cô lập bản thân làm mất đi tấm gương phản chiếu từ xã hội.",
+        "Sai vì mê tín dị đoan làm sai lệch nhận thức lý tính.",
+        "Sai vì sao chép mù quáng làm đánh mất bản sắc riêng độc đáo của mình."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch06_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Biểu hiện thiếu tự tin do chưa hiểu bản thân (Bài 6, SGK GDCD 6, trang 30).",
         "steps": "Tự ti, mặc cảm, sợ hãi định kiến và tự dán nhãn tiêu cực 'mình vô tích sự' là biểu hiện điển hình của việc chưa biết cách tự nhận thức và chưa có lòng tự tin lành mạnh.",
-        "trap": "Nhầm sự tự ti, rụt rè với tính khiêm tốn."
+        "trap": "Nhầm sự tự ti, rụt rè với tính khiêm tốn.",
+        "socraticPrompt": "Sợ hãi không dám thử sức có giúp em biết được mình có thực sự hát hay hay không?"
       },
       "socraticPrompt": "Sợ hãi không dám thử sức có giúp em biết được mình có thực sự hát hay hay không?",
       "distractorReasons": [
         "Sai vì đây là nhận thức đúng và nỗ lực khắc phục hạn chế.",
-        "Chính xác, đây là tình huống 1 trong bài tập SGK GDCD 6 trang 30 chỉ ra sai lầm tự ti.",
+        "Đúng vì đây là tình huống 1 trong bài tập SGK GDCD 6 trang 30 chỉ ra sai lầm tự ti.",
         "Sai vì chủ động hỏi bài là thái độ học tập tích cực.",
         "Sai vì phát huy năng khiếu vẽ là nhận thức đúng đắn."
-      ]
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch06_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Tôn trọng sự đa dạng nhân cách (Bài 6, SGK GDCD 6, trang 29).",
         "steps": "Mỗi con người là một cá thể độc nhất vô nhị. Người biết tự nhận thức bản thân sẽ thấu hiểu sâu sắc rằng người khác cũng có giá trị độc đáo riêng cần được tôn trọng.",
-        "trap": "Thói quen đồng hóa áp đặt sở thích cá nhân lên người khác."
+        "trap": "Thói quen đồng hóa áp đặt sở thích cá nhân lên người khác.",
+        "socraticPrompt": "Một vườn hoa đẹp là nhờ có muôn sắc hoa rực rỡ hay chỉ nên có một loài hoa duy nhất?"
       },
       "socraticPrompt": "Một vườn hoa đẹp là nhờ có muôn sắc hoa rực rỡ hay chỉ nên có một loài hoa duy nhất?",
       "distractorReasons": [
-        "Sai, hành vi hẹp hòi phân biệt đối xử.",
-        "Sai, áp đặt vô lý phá vỡ tự do cá nhân.",
-        "Chính xác, biểu hiện của con người có trí tuệ cảm xúc cao và văn hóa ứng xử nhân văn.",
-        "Sai, kỳ thị ngoại hình (body shaming) là hành vi xấu đáng lên án."
-      ]
+        "Sai vì hành vi hẹp hòi phân biệt đối xử.",
+        "Sai vì áp đặt vô lý phá vỡ tự do cá nhân.",
+        "Đúng vì biểu hiện của con người có trí tuệ cảm xúc cao và văn hóa ứng xử nhân văn.",
+        "Sai vì kỳ thị ngoại hình (body shaming) là hành vi xấu đáng lên án."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

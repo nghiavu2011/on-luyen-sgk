@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Theo luật pháp quốc tế, việc thụ đắc lãnh thổ của Việt Nam đối với Hoàng Sa và Trường Sa hoàn toàn hợp pháp vì",
       "options": [
-        "Việt Nam là nhà nước đầu tiên chiếm hữu hòa bình, thực thi chủ quyền liên tục và công khai từ thời kỳ vô chủ",
         "Do các nước phương Tây chuyển giao lại",
+        "Việt Nam là nhà nước đầu tiên chiếm hữu hòa bình, thực thi chủ quyền liên tục và công khai từ thời kỳ vô chủ",
         "Do chiến tranh xâm chiếm vũ lực",
         "Do mua bán thương mại"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Nguyên tắc chiếm hữu thực sự đối với vùng đất vô chủ (Terra nullius) được thực hiện liên tục.",
       "breakdown": {
         "concept": "Căn cứ pháp lý thụ đắc lãnh thổ",
         "steps": "Chiếm hữu hòa bình, liên tục và hợp pháp.",
         "socraticPrompt": "Tại sao chủ quyền của VN ở Hoàng Sa, Trường Sa vững chắc?"
-      }
+      },
+      "socraticPrompt": "Tại sao chủ quyền của VN ở Hoàng Sa, Trường Sa vững chắc?",
+      "distractorReasons": [
+        "Sai vì 'Do các nước phương Tây chuyển giao lại' không phù hợp với định lý/quy tắc trọng tâm (Căn cứ pháp lý thụ đắc lãnh thổ).",
+        "Đúng vì theo Căn cứ pháp lý thụ đắc lãnh thổ: Chiếm hữu hòa bình, liên tục và hợp pháp.",
+        "Sai vì 'Do chiến tranh xâm chiếm vũ lực' không phù hợp với định lý/quy tắc trọng tâm (Căn cứ pháp lý thụ đắc lãnh thổ).",
+        "Sai vì 'Do mua bán thương mại' không phù hợp với định lý/quy tắc trọng tâm (Căn cứ pháp lý thụ đắc lãnh thổ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Châu bản triều Nguyễn là di sản tư liệu thế giới có giá trị pháp lý đặc biệt vì",
       "options": [
-        "Là các văn bản hành chính gốc có bút tích phê chuẩn của vua triều Nguyễn về việc quản lý Hoàng Sa và Trường Sa",
-        "Là các câu chuyện truyền thuyết dân gian",
         "Là sách báo nước ngoài viết lại",
+        "Là các câu chuyện truyền thuyết dân gian",
+        "Là các văn bản hành chính gốc có bút tích phê chuẩn của vua triều Nguyễn về việc quản lý Hoàng Sa và Trường Sa",
         "Là các bức thư cá nhân không có dấu mộc"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Châu bản là tài liệu gốc chính thống có giá trị chứng cứ lịch sử và pháp lý cao nhất.",
       "breakdown": {
         "concept": "Giá trị Châu bản triều Nguyễn",
         "steps": "Văn bản hành chính nhà nước có châu phê của Hoàng đế.",
         "socraticPrompt": "Tại sao Châu bản triều Nguyễn có giá trị chứng cứ cao nhất?"
-      }
+      },
+      "socraticPrompt": "Tại sao Châu bản triều Nguyễn có giá trị chứng cứ cao nhất?",
+      "distractorReasons": [
+        "Sai vì 'Là sách báo nước ngoài viết lại' không phù hợp với định lý/quy tắc trọng tâm (Giá trị Châu bản triều Nguyễn).",
+        "Sai vì 'Là các câu chuyện truyền thuyết dân gian' không phù hợp với định lý/quy tắc trọng tâm (Giá trị Châu bản triều Nguyễn).",
+        "Đúng vì theo Giá trị Châu bản triều Nguyễn: Văn bản hành chính nhà nước có châu phê của Hoàng đế.",
+        "Sai vì phủ định sai bản chất: 'Là các bức thư cá nhân không có dấu mộc' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Theo UNCLOS 1982, Vùng đặc quyền kinh tế (EEZ) của quốc gia ven biển có chiều rộng là",
       "options": [
-        "200 hải lý tính từ đường cơ sở",
+        "350 hải lý không giới hạn",
         "12 hải lý tính từ đường cơ sở",
         "24 hải lý tính từ mép bờ biển",
-        "350 hải lý không giới hạn"
+        "200 hải lý tính từ đường cơ sở"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Vùng đặc quyền kinh tế rộng 200 hải lý, quốc gia có quyền chủ quyền và quyền tài phán.",
       "breakdown": {
         "concept": "Vùng đặc quyền kinh tế 200 hải lý",
         "steps": "200 hải lý từ đường cơ sở.",
         "socraticPrompt": "Chiều rộng của EEZ theo luật biển là bao nhiêu?"
-      }
+      },
+      "socraticPrompt": "Chiều rộng của EEZ theo luật biển là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: '350 hải lý không giới hạn' trái ngược với kiến thức SGK.",
+        "Sai vì '12 hải lý tính từ đường cơ sở' không phù hợp với định lý/quy tắc trọng tâm (Vùng đặc quyền kinh tế 200 hải lý).",
+        "Sai vì '24 hải lý tính từ mép bờ biển' không phù hợp với định lý/quy tắc trọng tâm (Vùng đặc quyền kinh tế 200 hải lý).",
+        "Đúng vì theo Vùng đặc quyền kinh tế 200 hải lý: 200 hải lý từ đường cơ sở."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Chủ trương hòa bình của Việt Nam",
         "steps": "Biện pháp hòa bình + UNCLOS 1982.",
         "socraticPrompt": "Việt Nam chủ trương giải quyết tranh chấp Biển Đông như thế nào?"
-      }
+      },
+      "socraticPrompt": "Việt Nam chủ trương giải quyết tranh chấp Biển Đông như thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Chủ trương hòa bình của Việt Nam: Biện pháp hòa bình + UNCLOS 1982.",
+        "Sai vì 'Sử dụng vũ lực hoặc đe dọa sử dụng vũ lực' không phù hợp với định lý/quy tắc trọng tâm (Chủ trương hòa bình của Việt Nam).",
+        "Sai vì 'Đơn phương thay đổi hiện trạng trên biển' không phù hợp với định lý/quy tắc trọng tâm (Chủ trương hòa bình của Việt Nam).",
+        "Sai vì 'Từ bỏ chủ quyền lãnh thổ' không phù hợp với định lý/quy tắc trọng tâm (Chủ trương hòa bình của Việt Nam)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Tầm quan trọng của việc xây dựng Bộ quy tắc ứng xử ở Biển Đông (COC) hiệu lực và thực chất là",
       "options": [
-        "Tạo khuôn khổ pháp lý ràng buộc ngăn ngừa xung đột, duy trì hòa bình và an ninh hàng hải",
+        "Xóa bỏ Công ước UNCLOS 1982",
         "Cho phép các cường quốc chia thuộc địa",
         "Hạn chế quyền tự do hàng hải quốc tế",
-        "Xóa bỏ Công ước UNCLOS 1982"
+        "Tạo khuôn khổ pháp lý ràng buộc ngăn ngừa xung đột, duy trì hòa bình và an ninh hàng hải"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "COC nhằm xây dựng lòng tin chiến lược và ngăn chặn các hành vi leo thang căng thẳng.",
       "breakdown": {
         "concept": "Ý nghĩa của COC",
         "steps": "Ngăn ngừa xung đột và duy trì ổn định.",
         "socraticPrompt": "Mục đích xây dựng COC giữa ASEAN và Trung Quốc là gì?"
-      }
+      },
+      "socraticPrompt": "Mục đích xây dựng COC giữa ASEAN và Trung Quốc là gì?",
+      "distractorReasons": [
+        "Sai vì 'Xóa bỏ Công ước UNCLOS 1982' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa của COC).",
+        "Sai vì 'Cho phép các cường quốc chia thuộc địa' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa của COC).",
+        "Sai vì 'Hạn chế quyền tự do hàng hải quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa của COC).",
+        "Đúng vì theo Ý nghĩa của COC: Ngăn ngừa xung đột và duy trì ổn định."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Hành động thiết thực của học sinh",
         "steps": "Hiểu luật, lan tỏa tư liệu chuẩn và học giỏi.",
         "socraticPrompt": "Học sinh bảo vệ biển đảo bằng cách nào?"
-      }
+      },
+      "socraticPrompt": "Học sinh bảo vệ biển đảo bằng cách nào?",
+      "distractorReasons": [
+        "Đúng vì theo Hành động thiết thực của học sinh: Hiểu luật, lan tỏa tư liệu chuẩn và học giỏi.",
+        "Sai vì 'Chia sẻ các thông tin kích động bạo lực sai sự thật trên mạng' không phù hợp với định lý/quy tắc trọng tâm (Hành động thiết thực của học sinh).",
+        "Sai vì phủ định sai bản chất: 'Thờ ơ không quan tâm đến chủ quyền biên giới' trái ngược với kiến thức SGK.",
+        "Sai vì 'Vi phạm pháp luật hàng hải' không phù hợp với định lý/quy tắc trọng tâm (Hành động thiết thực của học sinh)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

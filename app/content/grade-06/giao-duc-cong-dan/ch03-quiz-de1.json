@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm siêng năng (Bài 3, SGK GDCD 6, trang 16).",
         "steps": "Siêng năng gắn liền với sự cần cù, tự giác và tính kỷ luật làm việc thường xuyên, không ngại khó khăn.",
-        "trap": "Nhầm làm việc theo cảm hứng nhất thời với tính siêng năng bền bỉ."
+        "trap": "Nhầm làm việc theo cảm hứng nhất thời với tính siêng năng bền bỉ.",
+        "socraticPrompt": "Một người ngày nào cũng thức dậy tập thể dục và học bài đều đặn, không quản mưa nắng được gọi là người như thế nào?"
       },
       "socraticPrompt": "Một người ngày nào cũng thức dậy tập thể dục và học bài đều đặn, không quản mưa nắng được gọi là người như thế nào?",
       "distractorReasons": [
-        "Sai, làm tùy hứng là thiếu tính kỷ luật và kiên định.",
-        "Sai, đây là biểu hiện của sự lười biếng và ỷ lại.",
-        "Chính xác theo định nghĩa chuẩn SGK GDCD 6 trang 16.",
-        "Sai, gian lận học tập và dựa dẫm vào tiền bạc."
-      ]
+        "Sai vì làm tùy hứng là thiếu tính kỷ luật và kiên định.",
+        "Sai vì đây là biểu hiện của sự lười biếng và ỷ lại.",
+        "Đúng vì định nghĩa chuẩn SGK GDCD 6 trang 16.",
+        "Sai vì gian lận học tập và dựa dẫm vào tiền bạc."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch03_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Khái niệm kiên trì (Bài 3, SGK GDCD 6, trang 16).",
         "steps": "Kiên trì là ý chí sắt đá, quyết tâm vượt qua mọi chướng ngại vật để theo đuổi mục tiêu đến cùng.",
-        "trap": "Nhầm lẫn giữa kiên trì vượt khó với tính bảo thủ, cố chấp sai lầm."
+        "trap": "Nhầm lẫn giữa kiên trì vượt khó với tính bảo thủ, cố chấp sai lầm.",
+        "socraticPrompt": "Khi gặp một bài toán hình học hóc búa, em quyết tâm ngồi suy nghĩ vẽ lại hình nhiều lần cho đến khi tìm ra đáp án, đức tính đó là gì?"
       },
       "socraticPrompt": "Khi gặp một bài toán hình học hóc búa, em quyết tâm ngồi suy nghĩ vẽ lại hình nhiều lần cho đến khi tìm ra đáp án, đức tính đó là gì?",
       "distractorReasons": [
-        "Sai, hấp tấp làm ẩu là cẩu thả, trái với kiên trì.",
-        "Sai, bỏ chạy là sự hèn nhát, thiếu nghị lực.",
-        "Sai, cố chấp bảo thủ là thói xấu, không phải kiên trì lành mạnh.",
-        "Chính xác, định nghĩa chuẩn mực về đức tính kiên trì."
-      ]
+        "Sai vì hấp tấp làm ẩu là cẩu thả, trái với kiên trì.",
+        "Sai vì bỏ chạy là sự hèn nhát, thiếu nghị lực.",
+        "Sai vì cố chấp bảo thủ là thói xấu, không phải kiên trì lành mạnh.",
+        "Đúng vì định nghĩa chuẩn mực về đức tính kiên trì."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "gdcd6_ch03_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Tục ngữ về siêng năng kiên trì (Bài 3, SGK GDCD 6, trang 14-16).",
         "steps": "'Có công mài sắt, có ngày nên kim' khẳng định dù việc khó như mài thanh sắt lớn thành chiếc kim khâu nhỏ xíu, nếu kiên trì bền bỉ làm mỗi ngày thì nhất định sẽ thành công.",
-        "trap": "Các câu tục ngữ phê phán thói lười biếng, chậm chạp (Há miệng chờ sung, Nước đến chân mới nhảy)."
+        "trap": "Các câu tục ngữ phê phán thói lười biếng, chậm chạp (Há miệng chờ sung, Nước đến chân mới nhảy).",
+        "socraticPrompt": "Hình ảnh thanh sắt to lớn mài thành chiếc kim nhỏ bé dạy cho chúng ta bài học gì về sự kiên nhẫn?"
       },
       "socraticPrompt": "Hình ảnh thanh sắt to lớn mài thành chiếc kim nhỏ bé dạy cho chúng ta bài học gì về sự kiên nhẫn?",
       "distractorReasons": [
-        "Chính xác, biểu tượng văn hóa kinh điển về lòng kiên trì của dân tộc.",
-        "Sai, phê phán kẻ lười biếng trông chờ vào may rủi.",
-        "Sai, phê phán thói quen chần chừ, trì hoãn thiếu tự giác.",
-        "Sai, phê phán thói tham lam không tập trung mục tiêu."
-      ]
+        "Đúng vì biểu tượng văn hóa kinh điển về lòng kiên trì của dân tộc.",
+        "Sai vì phê phán kẻ lười biếng trông chờ vào may rủi.",
+        "Sai vì phê phán thói quen chần chừ, trì hoãn thiếu tự giác.",
+        "Sai vì phê phán thói tham lam không tập trung mục tiêu."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "gdcd6_ch03_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Siêng năng trong học tập (Bài 3, SGK GDCD 6, trang 14-15).",
         "steps": "Học sinh siêng năng, kiên trì luôn chủ động sắp xếp việc học, không quản ngại bài khó và kiên trì rèn luyện tư duy độc lập.",
-        "trap": "Chép bài bạn để đối phó hoặc học lệch, học lười."
+        "trap": "Chép bài bạn để đối phó hoặc học lệch, học lười.",
+        "socraticPrompt": "Một học sinh giỏi thật sự dành thời gian tự mình suy nghĩ giải bài hay đi chép đáp án của người khác?"
       },
       "socraticPrompt": "Một học sinh giỏi thật sự dành thời gian tự mình suy nghĩ giải bài hay đi chép đáp án của người khác?",
       "distractorReasons": [
-        "Sai, học lệch không rèn luyện được phẩm chất toàn diện.",
-        "Chính xác, biểu hiện chuẩn mực của người học sinh chăm ngoan, có ý chí tiến thủ.",
-        "Sai, gian lận đối phó và làm suy đồi nhân cách.",
-        "Sai, thiếu tập trung và không có tính tự giác."
-      ]
+        "Sai vì học lệch không rèn luyện được phẩm chất toàn diện.",
+        "Đúng vì biểu hiện chuẩn mực của người học sinh chăm ngoan, có ý chí tiến thủ.",
+        "Sai vì gian lận đối phó và làm suy đồi nhân cách.",
+        "Sai vì thiếu tập trung và không có tính tự giác."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "gdcd6_ch03_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Ý nghĩa của siêng năng, kiên trì (Bài 3, SGK GDCD 6, trang 16).",
         "steps": "Sự bền bỉ, cần mẫn biến gian khổ thành bàn đạp thành công, mang lại tri thức sâu rộng và uy tín vững chắc trong xã hội.",
-        "trap": "Suy nghĩ lệch lạc rằng người chăm học sẽ bị cô lập."
+        "trap": "Suy nghĩ lệch lạc rằng người chăm học sẽ bị cô lập.",
+        "socraticPrompt": "Một bác thợ rèn kiên nhẫn đập từng nhát búa sẽ tạo ra được thanh kiếm sắc bén như thế nào?"
       },
       "socraticPrompt": "Một bác thợ rèn kiên nhẫn đập từng nhát búa sẽ tạo ra được thanh kiếm sắc bén như thế nào?",
       "distractorReasons": [
-        "Sai, kiên trì mang lại niềm tin và quả ngọt chiến thắng.",
-        "Sai, người chăm chỉ luôn là tấm gương được bạn bè yêu mến.",
-        "Chính xác, ý nghĩa cốt lõi của phẩm chất siêng năng kiên trì.",
-        "Sai, con người luôn cần sự hỗ trợ, tương tác cộng đồng."
-      ]
+        "Sai vì kiên trì mang lại niềm tin và quả ngọt chiến thắng.",
+        "Sai vì người chăm chỉ luôn là tấm gương được bạn bè yêu mến.",
+        "Đúng vì ý nghĩa cốt lõi của phẩm chất siêng năng kiên trì.",
+        "Sai vì con người luôn cần sự hỗ trợ, tương tác cộng đồng."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "gdcd6_ch03_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Thói xấu trái với kiên trì (Bài 3, SGK GDCD 6, trang 15).",
         "steps": "'Cả thèm chóng chán' là lúc đầu thì hào hứng thích thú, nhưng hễ gặp khó khăn một chút là chán nản bỏ cuộc ngay lập tức.",
-        "trap": "Các cụm từ ca ngợi đức tính tốt đẹp (Chí công vô tư, Cần cù)."
+        "trap": "Các cụm từ ca ngợi đức tính tốt đẹp (Chí công vô tư, Cần cù).",
+        "socraticPrompt": "Khi một người vừa bắt đầu học đàn được 2 ngày đã bỏ không học nữa vì đau tay thì người đó có tính gì?"
       },
       "socraticPrompt": "Khi một người vừa bắt đầu học đàn được 2 ngày đã bỏ không học nữa vì đau tay thì người đó có tính gì?",
       "distractorReasons": [
-        "Sai, phẩm chất công bằng chính trực.",
-        "Sai, câu tục ngữ ca ngợi đức tính cần cù siêng năng.",
-        "Sai, tinh thần sẻ chia hoạn nạn.",
-        "Chính xác, biểu hiện điển hình của sự thiếu kiên trì, nông nổi."
-      ]
+        "Sai vì phẩm chất công bằng chính trực.",
+        "Sai vì câu tục ngữ ca ngợi đức tính cần cù siêng năng.",
+        "Sai vì tinh thần sẻ chia hoạn nạn.",
+        "Đúng vì biểu hiện điển hình của sự thiếu kiên trì, nông nổi."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

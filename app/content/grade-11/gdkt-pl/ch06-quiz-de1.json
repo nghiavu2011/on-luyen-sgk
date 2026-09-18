@@ -20,97 +20,151 @@
         "concept": "Khái niệm Văn hóa tiêu dùng",
         "steps": "Giá trị và chuẩn mực tiêu dùng.",
         "socraticPrompt": "Văn hóa tiêu dùng là gì?"
-      }
+      },
+      "socraticPrompt": "Văn hóa tiêu dùng là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm Văn hóa tiêu dùng: Giá trị và chuẩn mực tiêu dùng.",
+        "Sai vì 'Lạm phát tiêu dùng' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Văn hóa tiêu dùng).",
+        "Sai vì 'Cán cân thương mại' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Văn hóa tiêu dùng).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ số chứng khoán', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Lối sống tiêu dùng ưu tiên sử dụng sản phẩm thân thiện môi trường, tái chế và giảm rác thải nhựa gọi là",
       "options": [
-        "Tiêu dùng xanh",
         "Tiêu dùng hoang phí",
+        "Tiêu dùng xanh",
         "Tiêu dùng cổ hủ",
         "Tiêu dùng cực đoan"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Khái niệm tiêu dùng xanh hướng tới sự phát triển bền vững.",
       "breakdown": {
         "concept": "Tiêu dùng xanh",
         "steps": "Thân thiện môi trường, giảm rác thải.",
         "socraticPrompt": "Tiêu dùng bảo vệ môi trường gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Tiêu dùng bảo vệ môi trường gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Tiêu dùng hoang phí' không phù hợp với định lý/quy tắc trọng tâm (Tiêu dùng xanh).",
+        "Đúng vì theo Tiêu dùng xanh: Thân thiện môi trường, giảm rác thải.",
+        "Sai vì 'Tiêu dùng cổ hủ' không phù hợp với định lý/quy tắc trọng tâm (Tiêu dùng xanh).",
+        "Sai vì 'Tiêu dùng cực đoan' không phù hợp với định lý/quy tắc trọng tâm (Tiêu dùng xanh)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Cuộc vận động mang ý nghĩa sâu sắc cổ vũ tinh thần tự hào dân tộc trong mua sắm của nhân dân ta là",
       "options": [
-        "Người Việt Nam ưu tiên dùng hàng Việt Nam",
-        "Chỉ dùng hàng nhập khẩu ngoại",
         "Tẩy chay mọi sản phẩm",
+        "Chỉ dùng hàng nhập khẩu ngoại",
+        "Người Việt Nam ưu tiên dùng hàng Việt Nam",
         "Mua sắm không cần xem giá"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Cuộc vận động lớn khơi dậy tinh thần yêu nước và kích cầu nội địa.",
       "breakdown": {
         "concept": "Hàng Việt Nam",
         "steps": "Ưu tiên dùng hàng Việt Nam.",
         "socraticPrompt": "Cuộc vận động ủng hộ hàng trong nước tên là gì?"
-      }
+      },
+      "socraticPrompt": "Cuộc vận động ủng hộ hàng trong nước tên là gì?",
+      "distractorReasons": [
+        "Sai vì 'Tẩy chay mọi sản phẩm' không phù hợp với định lý/quy tắc trọng tâm (Hàng Việt Nam).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ dùng hàng nhập khẩu ngoại', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Hàng Việt Nam: Ưu tiên dùng hàng Việt Nam.",
+        "Sai vì phủ định sai bản chất: 'Mua sắm không cần xem giá' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Một trong những quyền cơ bản của người tiêu dùng được pháp luật bảo vệ là",
       "options": [
-        "Quyền được bảo đảm an toàn tính mạng, sức khỏe khi sử dụng hàng hóa",
+        "Quyền ép người bán lỗ vốn",
         "Quyền được lấy hàng miễn phí không trả tiền",
         "Quyền phá hoại cửa hàng",
-        "Quyền ép người bán lỗ vốn"
+        "Quyền được bảo đảm an toàn tính mạng, sức khỏe khi sử dụng hàng hóa"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Quyền được an toàn là quyền tối cao của người tiêu dùng theo Luật.",
       "breakdown": {
         "concept": "Quyền an toàn của NTD",
         "steps": "Bảo đảm an toàn tính mạng sức khỏe.",
         "socraticPrompt": "Người mua hàng có quyền gì quan trọng nhất?"
-      }
+      },
+      "socraticPrompt": "Người mua hàng có quyền gì quan trọng nhất?",
+      "distractorReasons": [
+        "Sai vì 'Quyền ép người bán lỗ vốn' không phù hợp với định lý/quy tắc trọng tâm (Quyền an toàn của NTD).",
+        "Sai vì phủ định sai bản chất: 'Quyền được lấy hàng miễn phí không trả tiền' trái ngược với kiến thức SGK.",
+        "Sai vì 'Quyền phá hoại cửa hàng' không phù hợp với định lý/quy tắc trọng tâm (Quyền an toàn của NTD).",
+        "Đúng vì theo Quyền an toàn của NTD: Bảo đảm an toàn tính mạng sức khỏe."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Hành vi mua sắm bốc đồng theo cảm xúc nhất thời, mua những món đồ đắt tiền không bao giờ dùng tới là",
       "options": [
-        "Tiêu dùng lãng phí, thiếu kiểm soát",
         "Tiêu dùng thông minh",
+        "Tiêu dùng lãng phí, thiếu kiểm soát",
         "Đầu tư tài chính khôn ngoan",
         "Tiết kiệm tiền bạc"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Hành vi mua sắm bốc đồng gây hao tổn tài chính cá nhân.",
       "breakdown": {
         "concept": "Mua sắm bốc đồng",
         "steps": "Lãng phí và thiếu kiểm soát.",
         "socraticPrompt": "Mua đồ đắt tiền không dùng là hành vi gì?"
-      }
+      },
+      "socraticPrompt": "Mua đồ đắt tiền không dùng là hành vi gì?",
+      "distractorReasons": [
+        "Sai vì 'Tiêu dùng thông minh' không phù hợp với định lý/quy tắc trọng tâm (Mua sắm bốc đồng).",
+        "Đúng vì theo Mua sắm bốc đồng: Lãng phí và thiếu kiểm soát.",
+        "Sai vì 'Đầu tư tài chính khôn ngoan' không phù hợp với định lý/quy tắc trọng tâm (Mua sắm bốc đồng).",
+        "Sai vì 'Tiết kiệm tiền bạc' không phù hợp với định lý/quy tắc trọng tâm (Mua sắm bốc đồng)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Hành động tắt vòi nước khi đánh răng, tắt đèn khi ra khỏi phòng thể hiện nét đẹp văn hóa",
       "options": [
-        "Tiết kiệm tài nguyên và bảo vệ môi trường",
-        "Bủn xỉn ki bo",
         "Sợ bị phạt tiền",
+        "Bủn xỉn ki bo",
+        "Tiết kiệm tài nguyên và bảo vệ môi trường",
         "Không liên quan gì"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Tiết kiệm năng lượng là biểu hiện của người có văn hóa tiêu dùng văn minh.",
       "breakdown": {
         "concept": "Tiết kiệm năng lượng",
         "steps": "Tiết kiệm tài nguyên cho xã hội.",
         "socraticPrompt": "Tắt điện khi ra ngoài thể hiện điều gì?"
-      }
+      },
+      "socraticPrompt": "Tắt điện khi ra ngoài thể hiện điều gì?",
+      "distractorReasons": [
+        "Sai vì 'Sợ bị phạt tiền' không phù hợp với định lý/quy tắc trọng tâm (Tiết kiệm năng lượng).",
+        "Sai vì 'Bủn xỉn ki bo' không phù hợp với định lý/quy tắc trọng tâm (Tiết kiệm năng lượng).",
+        "Đúng vì theo Tiết kiệm năng lượng: Tiết kiệm tài nguyên cho xã hội.",
+        "Sai vì phủ định sai bản chất: 'Không liên quan gì' trái ngược với kiến thức SGK."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

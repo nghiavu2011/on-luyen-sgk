@@ -22,7 +22,16 @@
         "socraticPrompt": "10 cm = 0,1 m => r² = 0,01. 9 · 10⁹ · 10⁻¹² / 0,01 bằng bao nhiêu?",
         "steps": "F = (9 · 10⁹ · 10⁻⁶ · 10⁻⁶) / (0,1)² = (9 · 10⁻³) / 0,01 = 0,9 N.",
         "trap": "Quên bình phương khoảng cách (0,1) lấy 9 · 10⁻³ / 0,1 = 0,09 N."
-      }
+      },
+      "socraticPrompt": "10 cm = 0,1 m => r² = 0,01. 9 · 10⁹ · 10⁻¹² / 0,01 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì: F = (9 · 10⁹ · 10⁻⁶ · 10⁻⁶) / (0,1)² = (9 · 10⁻³) / 0,01 = 0,9 N.",
+        "Sai vì '9 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng định luật Coulomb: F = k · |q1 · q2| / r² với r = 0,1 m.).",
+        "Sai vì '0,09 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng định luật Coulomb: F = k · |q1 · q2| / r² với r = 0,1 m.).",
+        "Sai vì '90 N' không phù hợp với định lý/quy tắc trọng tâm (Áp dụng định luật Coulomb: F = k · |q1 · q2| / r² với r = 0,1 m.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c3_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "100 V chia cho 0,02 m thì ra kết quả là bao nhiêu V/m?",
         "steps": "Đổi d = 2 cm = 0,02 m. Cường độ điện trường: E = U / d = 100 / 0,02 = 5000 V/m.",
         "trap": "Không đổi đơn vị d, lấy 100 / 2 = 50 V/m."
-      }
+      },
+      "socraticPrompt": "100 V chia cho 0,02 m thì ra kết quả là bao nhiêu V/m?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '50 V/m' (Không đổi đơn vị d, lấy 100 / 2 = 50 V/m.).",
+        "Sai vì '200 V/m' không phù hợp với định lý/quy tắc trọng tâm (Công thức điện trường đều: E = U / d với d = 2 cm = 0,02 m.).",
+        "Đúng vì theo Công thức điện trường đều: E = U / d với d = 2 cm = 0,02 m.: Đổi d = 2 cm = 0,02 m. Cường độ điện trường: E = U / d = 100 / 0,02 = 5000 V/m.",
+        "Sai vì '2000 V/m' không phù hợp với định lý/quy tắc trọng tâm (Công thức điện trường đều: E = U / d với d = 2 cm = 0,02 m.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c3_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Lấy q = 2 · 10⁻⁶ nhân với U = 200 V thì được bao nhiêu Joules?",
         "steps": "A = q · U_MN = (2 · 10⁻⁶) · 200 = 400 · 10⁻⁶ J = 4 · 10⁻⁴ J.",
         "trap": "Lấy U chia q hoặc tính nhầm luỹ thừa mười."
-      }
+      },
+      "socraticPrompt": "Lấy q = 2 · 10⁻⁶ nhân với U = 200 V thì được bao nhiêu Joules?",
+      "distractorReasons": [
+        "Đúng vì theo Công của lực điện trường: A = q · U_MN.: A = q · U_MN = (2 · 10⁻⁶) · 200 = 400 · 10⁻⁶ J = 4 · 10⁻⁴ J.",
+        "Sai vì '10⁻⁴ J' không phù hợp với định lý/quy tắc trọng tâm (Công của lực điện trường: A = q · U_MN.).",
+        "Sai vì '4 · 10⁻² J' không phù hợp với định lý/quy tắc trọng tâm (Công của lực điện trường: A = q · U_MN.).",
+        "Sai vì '2 · 10⁻⁴ J' không phù hợp với định lý/quy tắc trọng tâm (Công của lực điện trường: A = q · U_MN.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c3_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Lấy (+6) cộng (-2) rồi chia đôi bằng bao nhiêu?",
         "steps": "q' = (q1 + q2) / 2 = (+6 - 2) / 2 = +4 / 2 = +2 µC.",
         "trap": "Quên chia 2 ra +4 µC hoặc quên dấu âm lấy (6+2)/2 = 4 µC."
-      }
+      },
+      "socraticPrompt": "Lấy (+6) cộng (-2) rồi chia đôi bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '+4 µC' không phù hợp với định lý/quy tắc trọng tâm (Khi tiếp xúc, điện tích chia đều cho hai quả cầu giống nhau: q' = (q1 + q2) / 2.).",
+        "Sai vì '-2 µC' không phù hợp với định lý/quy tắc trọng tâm (Khi tiếp xúc, điện tích chia đều cho hai quả cầu giống nhau: q' = (q1 + q2) / 2.).",
+        "Đúng vì: q' = (q1 + q2) / 2 = (+6 - 2) / 2 = +4 / 2 = +2 µC.",
+        "Sai vì '+1 µC' không phù hợp với định lý/quy tắc trọng tâm (Khi tiếp xúc, điện tích chia đều cho hai quả cầu giống nhau: q' = (q1 + q2) / 2.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c3_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "C = 100 · 10⁻⁶ F, U² = 400. 1/2 nhân 10⁻⁴ nhân 400 bằng bao nhiêu?",
         "steps": "W = 1/2 · C · U² = 1/2 · (100 · 10⁻⁶) · 20² = 1/2 · 10⁻⁴ · 400 = 0,02 J.",
         "trap": "Quên hệ số 1/2 tính ra 0,04 J hoặc quên bình phương U."
-      }
+      },
+      "socraticPrompt": "C = 100 · 10⁻⁶ F, U² = 400. 1/2 nhân 10⁻⁴ nhân 400 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '0,01 J' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng điện trường: W = 1/2 · C · U².).",
+        "Sai vì '0,04 J' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng điện trường: W = 1/2 · C · U².).",
+        "Đúng vì theo Năng lượng điện trường: W = 1/2 · C · U².: W = 1/2 · C · U² = 1/2 · (100 · 10⁻⁶) · 20² = 1/2 · 10⁻⁴ · 400 = 0,02 J.",
+        "Sai vì '0,2 J' không phù hợp với định lý/quy tắc trọng tâm (Năng lượng điện trường: W = 1/2 · C · U².)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c3_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "r1 + r2 = d và r2 = 2r1 thì r1 bằng mấy phần của d?",
         "steps": "Để E = 0 thì E1 và E2 cùng phương ngược chiều và cùng độ lớn. Do q1, q2 cùng dương nên M nằm giữa A và B. E1 = E2 <=> q / r1² = 4q / r2² => r2 / r1 = 2 => r2 = 2r1. Lại có r1 + r2 = d => 3r1 = d => r1 = d / 3.",
         "trap": "Nhầm r1 = 2d / 3 (đây là khoảng cách từ B đến M)."
-      }
+      },
+      "socraticPrompt": "r1 + r2 = d và r2 = 2r1 thì r1 bằng mấy phần của d?",
+      "distractorReasons": [
+        "Đúng vì: Để E = 0 thì E1 và E2 cùng phương ngược chiều và cùng độ lớn. Do q1, q2 cùng dương nên M nằm giữa A và B. E1 = E2 <=> q / r1² = 4q / r2² => r2 / r1 = 2 => r2 = .",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thuộc đoạn AB, cách A một khoảng d / 2' (r1 = 2d / 3 (đây là khoảng cách từ B đến M)).",
+        "Sai vì 'Thuộc đoạn AB, cách A một khoảng 2d / 3' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nằm ngoài đoạn AB, về phía A' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

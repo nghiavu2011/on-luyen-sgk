@@ -22,7 +22,16 @@
         "socraticPrompt": "Từ 'không đổi' nghĩa là những yếu tố nào của dòng điện (hướng và độ lớn) giữ nguyên?",
         "steps": "Theo SGK Vật lí 11, dòng điện không đổi có chiều không đổi và cường độ I = const.",
         "trap": "Nhầm với dòng điện một chiều (dòng một chiều chỉ cần chiều không đổi, cường độ có thể biến thiên)."
-      }
+      },
+      "socraticPrompt": "Từ 'không đổi' nghĩa là những yếu tố nào của dòng điện (hướng và độ lớn) giữ nguyên?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cường độ thay đổi theo thời gian nhưng chiều không đổi' (với dòng điện một chiều (dòng một chiều chỉ cần chiều không đổi, cường độ có thể biến thiên)).",
+        "Đúng vì: Theo SGK Vật lí 11, dòng điện không đổi có chiều không đổi và cường độ I = const.",
+        "Sai vì 'Chiều biến thiên tuần hoàn theo thời gian' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Điện lượng chuyển qua tiết diện dây luôn bằng 0' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Cục pin con thỏ thường ghi 1,5V. Chữ 'V' đó là đơn vị của đại lượng nào của pin?",
         "steps": "Suất điện động đặc trưng cho khả năng sinh công của nguồn điện, có cùng đơn vị với hiệu điện thế là Vôn (V).",
         "trap": "Nhầm Ampe (đơn vị cường độ dòng điện)."
-      }
+      },
+      "socraticPrompt": "Cục pin con thỏ thường ghi 1,5V. Chữ 'V' đó là đơn vị của đại lượng nào của pin?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ampe (A)' (Ampe (đơn vị cường độ dòng điện)).",
+        "Sai vì 'Jun (J)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Suất điện động đặc trưng cho khả năng sinh công của nguồn điện, có cùng đơn vị với hiệu điện thế là Vôn (V).",
+        "Sai vì 'Oát (W)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c4_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Khi chập hai đầu dây điện trực tiếp vào nhau mà không qua thiết bị tiêu thụ điện nào thì điện trở mạch ngoài bằng mấy?",
         "steps": "Khi R_N ≈ 0, hai cực bị nối tắt, dòng điện qua nguồn đạt giá trị cực đại I_max = E / r gây ra hiện tượng đoản mạch.",
         "trap": "Nhầm với mạch hở (mạch hở thì I = 0)."
-      }
+      },
+      "socraticPrompt": "Khi chập hai đầu dây điện trực tiếp vào nhau mà không qua thiết bị tiêu thụ điện nào thì điện trở mạch ngoài bằng mấy?",
+      "distractorReasons": [
+        "Sai vì 'Nối hai cực của nguồn điện bằng dây dẫn có điện trở rất lớn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Nối hai cực của nguồn điện bằng một điện trở ngoài R_N = r' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Mạch ngoài bị hở, không có dòng điện' (với mạch hở (mạch hở thì I = 0)).",
+        "Đúng vì: Khi R_N ≈ 0, hai cực bị nối tắt, dòng điện qua nguồn đạt giá trị cực đại I_max = E / r gây ra hiện tượng đoản mạch."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c4_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Cường độ dòng điện bằng suất điện động chia cho điện trở toàn phần (mạch ngoài cộng trong nguồn)?",
         "steps": "Theo SGK, cường độ dòng điện trong mạch kín tỉ lệ thuận với suất điện động và tỉ lệ nghịch với điện trở toàn phần: I = E / (R_N + r).",
         "trap": "Bỏ quên điện trở trong r dẫn đến I = E / R_N."
-      }
+      },
+      "socraticPrompt": "Cường độ dòng điện bằng suất điện động chia cho điện trở toàn phần (mạch ngoài cộng trong nguồn)?",
+      "distractorReasons": [
+        "Đúng vì: Theo SGK, cường độ dòng điện trong mạch kín tỉ lệ thuận với suất điện động và tỉ lệ nghịch với điện trở toàn phần: I = E / (R_N + r).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'I = E / R_N' (Bỏ quên điện trở trong r dẫn đến I = E / R_N.).",
+        "Sai vì 'I = (R_N + r) / E' không phù hợp với định lý/quy tắc trọng tâm (Định luật Ohm cho toàn mạch: I = E / (R_N + r).).",
+        "Sai vì 'I = E / r' không phù hợp với định lý/quy tắc trọng tâm (Định luật Ohm cho toàn mạch: I = E / (R_N + r).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c4_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "1 kW bằng 1000 W, 1 giờ có 3600 giây. Lấy 1000 nhân 3600 bằng mấy?",
         "steps": "1 kWh = 1000 W · 3600 s = 3.600.000 J = 3,6 · 10⁶ J.",
         "trap": "Chỉ lấy 1000 W hoặc 3600 s."
-      }
+      },
+      "socraticPrompt": "1 kW bằng 1000 W, 1 giờ có 3600 giây. Lấy 1000 nhân 3600 bằng mấy?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1000 J' (Chỉ lấy 1000 W hoặc 3600 s.).",
+        "Đúng vì: 1 kWh = 1000 W · 3600 s = 3.600.000 J = 3,6 · 10⁶ J.",
+        "Sai vì '3600 J' không phù hợp với định lý/quy tắc trọng tâm (1 kWh = 1 kW · 1 h = 1000 W · 3600 s = 3.600.000 J = 3,6 · 10⁶ J.).",
+        "Sai vì '3,6 · 10⁵ J' không phù hợp với định lý/quy tắc trọng tâm (1 kWh = 1 kW · 1 h = 1000 W · 3600 s = 3.600.000 J = 3,6 · 10⁶ J.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Định luật Joule - Lenz: Nhiệt lượng Q = R · I² · t, chia cho thời gian t thì công suất P bằng gì?",
         "steps": "P = Q / t = (R · I² · t) / t = R · I².",
         "trap": "Nhầm P = R · I (quên bình phương I) hoặc P = R² · I."
-      }
+      },
+      "socraticPrompt": "Định luật Joule - Lenz: Nhiệt lượng Q = R · I² · t, chia cho thời gian t thì công suất P bằng gì?",
+      "distractorReasons": [
+        "Sai vì 'P = R · I' không phù hợp với định lý/quy tắc trọng tâm (Công suất toả nhiệt theo định luật Joule - Lenz: P = R · I².).",
+        "Sai vì 'P = R² · I' không phù hợp với định lý/quy tắc trọng tâm (Công suất toả nhiệt theo định luật Joule - Lenz: P = R · I².).",
+        "Đúng vì: P = Q / t = (R · I² · t) / t = R · I².",
+        "Sai vì 'P = R / I²' không phù hợp với định lý/quy tắc trọng tâm (Công suất toả nhiệt theo định luật Joule - Lenz: P = R · I².)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

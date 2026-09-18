@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Xác định Input và Output (Bài 15, SGK Tin học 6, trang 67).",
         "steps": "Input là thông tin đã cho ban đầu (a và b). Output là kết quả mong muốn tìm kiếm (diện tích S = a * b).",
-        "trap": "Đảo ngược giữa Input (dữ liệu vào) và Output (kết quả ra)."
+        "trap": "Đảo ngược giữa Input (dữ liệu vào) và Output (kết quả ra).",
+        "socraticPrompt": "Đề bài cho biết trước số đo của những cạnh nào và yêu cầu em tính ra cái gì?"
       },
       "socraticPrompt": "Đề bài cho biết trước số đo của những cạnh nào và yêu cầu em tính ra cái gì?",
       "distractorReasons": [
-        "Chính xác, Input là hai cạnh a, b và Output là diện tích S cần tính.",
-        "Sai, đảo ngược vai trò giữa dữ liệu ban đầu và kết quả.",
-        "Sai, đề bài không cho chu vi và không hỏi về màu sắc.",
-        "Sai, chiều rộng b là dữ liệu đã cho chứ không phải kết quả đầu ra."
-      ]
+        "Đúng vì Input là hai cạnh a, b và Output là diện tích S cần tính.",
+        "Sai vì đảo ngược vai trò giữa dữ liệu ban đầu và kết quả.",
+        "Sai vì đề bài không cho chu vi và không hỏi về màu sắc.",
+        "Sai vì chiều rộng b là dữ liệu đã cho chứ không phải kết quả đầu ra."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch06_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Cấu trúc rẽ nhánh dạng đủ (Bài 16, SGK Tin học 6, trang 69).",
         "steps": "Dạng đủ luôn có cấu trúc: Nếu <Điều kiện> Đúng thì làm <Hành động 1>, Ngược lại thì làm <Hành động 2>.",
-        "trap": "Nhầm với dạng thiếu (chỉ có vế Đúng) hoặc cấu trúc tuần tự/lặp."
+        "trap": "Nhầm với dạng thiếu (chỉ có vế Đúng) hoặc cấu trúc tuần tự/lặp.",
+        "socraticPrompt": "Phương án nào có cả hai nhánh xử lý: một nhánh khi điều kiện thỏa mãn và một nhánh 'ngược lại' khi không thỏa mãn?"
       },
       "socraticPrompt": "Phương án nào có cả hai nhánh xử lý: một nhánh khi điều kiện thỏa mãn và một nhánh 'ngược lại' khi không thỏa mãn?",
       "distractorReasons": [
-        "Sai, đây là cấu trúc tuần tự từng câu.",
-        "Sai, đây là rẽ nhánh dạng thiếu (chỉ nói khi đói thì uống sữa, không nói nếu không đói thì làm gì).",
-        "Sai, đây là cấu trúc lặp 5 lần.",
-        "Chính xác, có đầy đủ hai nhánh: 'nếu từ 8.0 trở lên thì Tốt' và 'ngược lại thì Đạt'."
-      ]
+        "Sai vì đây là cấu trúc tuần tự từng câu.",
+        "Sai vì đây là rẽ nhánh dạng thiếu (chỉ nói khi đói thì uống sữa, không nói nếu không đói thì làm gì).",
+        "Sai vì đây là cấu trúc lặp 5 lần.",
+        "Đúng vì có đầy đủ hai nhánh: 'nếu từ 8.0 trở lên thì Tốt' và 'ngược lại thì Đạt'."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch06_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Vai trò của mũi tên trong sơ đồ khối (Bài 15, SGK Tin học 6, trang 66).",
         "steps": "Mũi tên có hướng xác định, chỉ rõ tuần tự bước đi tiếp theo. Khẳng định nói mũi tên 'chỉ để kết nối mà không có ý nghĩa thứ tự' là hoàn toàn SAI.",
-        "trap": "Đọc không kỹ yêu cầu tìm 'câu SAI'."
+        "trap": "Đọc không kỹ yêu cầu tìm 'câu SAI'.",
+        "socraticPrompt": "Nếu mũi tên chỉ từ hình chữ nhật A sang hình chữ nhật B, điều đó có bắt buộc em phải làm bước A trước bước B hay không?"
       },
       "socraticPrompt": "Nếu mũi tên chỉ từ hình chữ nhật A sang hình chữ nhật B, điều đó có bắt buộc em phải làm bước A trước bước B hay không?",
       "distractorReasons": [
         "Sai vì câu này ĐÚNG: mũi tên chỉ hướng đi.",
         "Sai vì câu này ĐÚNG: mũi tên chỉ bước tiếp theo.",
-        "Chính xác, đây là câu phát biểu SAI theo bài tập trang 66 SGK Tin học 6.",
+        "Đúng vì đây là câu phát biểu SAI theo bài tập trang 66 SGK Tin học 6.",
         "Sai vì câu này ĐÚNG: thể hiện thứ tự trước sau."
-      ]
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch06_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Điều kiện dừng lặp (Bài 16, SGK Tin học 6, trang 70).",
         "steps": "Hành động lặp là 'di chuyển 10 bước'. Điều kiện kết thúc kiểm tra: 'chạm vào cạnh biên'. Khi điều kiện này xảy ra, vòng lặp chấm dứt.",
-        "trap": "Nhầm bước di chuyển (10 bước) với điều kiện dừng."
+        "trap": "Nhầm bước di chuyển (10 bước) với điều kiện dừng.",
+        "socraticPrompt": "Sự kiện nào xuất hiện khiến chú mèo phải dừng chân lại không được đi tiếp?"
       },
       "socraticPrompt": "Sự kiện nào xuất hiện khiến chú mèo phải dừng chân lại không được đi tiếp?",
       "distractorReasons": [
-        "Chính xác, chạm cạnh biên sân khấu là điều kiện dừng lặp theo bài tập Hình 6.10 SGK trang 70.",
-        "Sai, sau 10 bước đầu chú mèo vẫn tiếp tục lặp lại các bước kế tiếp.",
-        "Sai, Scratch chạy ngoại tuyến không phụ thuộc Internet.",
-        "Sai, câu trả lời đùa vui không có căn cứ khoa học."
-      ]
+        "Đúng vì chạm cạnh biên sân khấu là điều kiện dừng lặp theo bài tập Hình 6.10 SGK trang 70.",
+        "Sai vì sau 10 bước đầu chú mèo vẫn tiếp tục lặp lại các bước kế tiếp.",
+        "Sai vì Scratch chạy ngoại tuyến không phụ thuộc Internet.",
+        "Sai vì câu trả lời đùa vui không có căn cứ khoa học."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch06_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Chương trình tính tổng trong Scratch (Bài 17, SGK Tin học 6, trang 73).",
         "steps": "Phép toán: tong = a + b = 7 + 8 = 15. Kết quả biến tong xuất ra là 15.",
-        "trap": "Nhầm phép cộng (+) với phép nhân (*) = 56 hoặc ghép chuỗi = 78."
+        "trap": "Nhầm phép cộng (+) với phép nhân (*) = 56 hoặc ghép chuỗi = 78.",
+        "socraticPrompt": "Tổng của hai số 7 và 8 bằng bao nhiêu?"
       },
       "socraticPrompt": "Tổng của hai số 7 và 8 bằng bao nhiêu?",
       "distractorReasons": [
-        "Chính xác, 7 + 8 = 15.",
-        "Sai, 56 là kết quả của phép nhân 7 * 8.",
-        "Sai, 78 là kết quả ghép chuỗi ký tự '7' và '8'.",
-        "Sai, 1 là hiệu số 8 - 7."
-      ]
+        "Đúng vì 7 + 8 = 15.",
+        "Sai vì 56 là kết quả của phép nhân 7 * 8.",
+        "Sai vì 78 là kết quả ghép chuỗi ký tự '7' và '8'.",
+        "Sai vì 1 là hiệu số 8 - 7."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch06_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Tính trình tự của thuật toán (Bài 15, SGK Tin học 6, trang 64-65).",
         "steps": "Thuật toán đòi hỏi tính xác định và đúng trình tự từng bước. Đảo lộn các bước sẽ phá vỡ logic khiến đầu ra không đạt được mục tiêu.",
-        "trap": "Nghĩ các bước trong thuật toán có thể làm tùy hứng không theo thứ tự."
+        "trap": "Nghĩ các bước trong thuật toán có thể làm tùy hứng không theo thứ tự.",
+        "socraticPrompt": "Khi nấu cơm, nếu em bấm nút nấu trước rồi mới đổ gạo và nước vào nồi sau thì có nấu được cơm chín không?"
       },
       "socraticPrompt": "Khi nấu cơm, nếu em bấm nút nấu trước rồi mới đổ gạo và nước vào nồi sau thì có nấu được cơm chín không?",
       "distractorReasons": [
-        "Sai, làm sai quy trình không thể ra sản phẩm đẹp.",
-        "Sai, điều hoang đường không có trong thực tế.",
-        "Sai, việc gấp giấy thủ công không can thiệp vào phần cứng máy tính.",
-        "Chính xác, tính tuần tự là đặc tính sống còn của thuật toán."
-      ]
+        "Sai vì làm sai quy trình không thể ra sản phẩm đẹp.",
+        "Sai vì điều hoang đường không có trong thực tế.",
+        "Sai vì việc gấp giấy thủ công không can thiệp vào phần cứng máy tính.",
+        "Đúng vì tính tuần tự là đặc tính sống còn của thuật toán."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

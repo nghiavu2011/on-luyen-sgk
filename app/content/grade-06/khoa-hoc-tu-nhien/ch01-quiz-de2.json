@@ -21,7 +21,16 @@
         "socraticPrompt": "Mực nước dâng thêm bao nhiêu mililít khi thả vật rắn vào? Đổi mL sang cm³ như thế nào?",
         "steps": "V = 85 - 60 = 25 mL = 25 cm³.",
         "trap": "Lấy nhầm 85 + 60 = 145 mL hoặc quên 1 mL = 1 cm³."
-      }
+      },
+      "socraticPrompt": "Mực nước dâng thêm bao nhiêu mililít khi thả vật rắn vào? Đổi mL sang cm³ như thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '145 mL' (Lấy nhầm 85 + 60 = 145 mL hoặc quên 1 mL = 1 cm³.).",
+        "Sai vì '60 cm³' không phù hợp với định lý/quy tắc trọng tâm (Thể tích vật rắn không thấm nước: V = V2 - V1, và 1 mL = 1 cm³.).",
+        "Đúng vì: V = 85 - 60 = 25 mL = 25 cm³.",
+        "Sai vì '85 cm³' không phù hợp với định lý/quy tắc trọng tâm (Thể tích vật rắn không thấm nước: V = V2 - V1, và 1 mL = 1 cm³.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c1_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Vì ĐCNN là 0,2 cm nên chữ số thập phân cuối cùng phải chia hết cho 0,2 (ví dụ: ,0; ,2; ,4; ,6; ,8).",
         "steps": "Chỉ có 15,4 cm có phần thập phân là bội của 0,2. Số 15,3 cm hay 15,45 cm không phù hợp ĐCNN 0,2 cm.",
         "trap": "Học sinh thường ghi theo ước lượng mắt vượt quá khả năng của ĐCNN."
-      }
+      },
+      "socraticPrompt": "Vì ĐCNN là 0,2 cm nên chữ số thập phân cuối cùng phải chia hết cho 0,2 (ví dụ: ,0; ,2; ,4; ,6; ,8).",
+      "distractorReasons": [
+        "Sai vì '15,3 cm' không phù hợp với định lý/quy tắc trọng tâm (Kết quả đo phải được ghi theo bội số của độ chia nhỏ nhất (ĐCNN).).",
+        "Sai vì '15,42 cm' không phù hợp với định lý/quy tắc trọng tâm (Kết quả đo phải được ghi theo bội số của độ chia nhỏ nhất (ĐCNN).).",
+        "Sai vì '15,45 cm' không phù hợp với định lý/quy tắc trọng tâm (Kết quả đo phải được ghi theo bội số của độ chia nhỏ nhất (ĐCNN).).",
+        "Đúng vì: Chỉ có 15,4 cm có phần thập phân là bội của 0,2. Số 15,3 cm hay 15,45 cm không phù hợp ĐCNN 0,2 cm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c1_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Nếu không vẩy mà thân nhiệt trước đó lưu ở 38 °C thì người sau có thân nhiệt 36,5 °C có đo được đúng không?",
         "steps": "Cần vẩy để thủy ngân tụt xuống dưới vạch 35 °C, sẵn sàng tiếp nhận nhiệt độ mới của người cần đo.",
         "trap": "Nhiệt kế điện tử thì bấm nút reset chứ không vẩy; nhiệt kế thủy ngân mới cần vẩy."
-      }
+      },
+      "socraticPrompt": "Nếu không vẩy mà thân nhiệt trước đó lưu ở 38 °C thì người sau có thân nhiệt 36,5 °C có đo được đúng không?",
+      "distractorReasons": [
+        "Đúng vì: Cần vẩy để thủy ngân tụt xuống dưới vạch 35 °C, sẵn sàng tiếp nhận nhiệt độ mới của người cần đo.",
+        "Sai vì 'Để làm sạch lớp thủy tinh bên ngoài nhiệt kế' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để làm tăng nhiệt độ của thủy ngân trong bầu' (Nhiệt kế điện tử thì bấm nút reset chứ không vẩy; nhiệt kế thủy ngân mới cần vẩy.).",
+        "Sai vì 'Để làm vỡ bọt khí trong ống quản' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c1_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Chạy cự li ngắn 100m diễn ra trong khoảng 13 - 18 giây, dụng cụ nào phản ứng nhanh và có số chia nhỏ nhất?",
         "steps": "Đồng hồ bấm giây điện tử đo chuẩn xác khoảng thời gian ngắn có ĐCNN 0,01s.",
         "trap": "Đồng hồ để bàn hoặc treo tường có độ trễ lớn và ĐCNN chỉ là 1 giây."
-      }
+      },
+      "socraticPrompt": "Chạy cự li ngắn 100m diễn ra trong khoảng 13 - 18 giây, dụng cụ nào phản ứng nhanh và có số chia nhỏ nhất?",
+      "distractorReasons": [
+        "Sai vì 'Đồng hồ cát' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Đồng hồ bấm giây điện tử đo chuẩn xác khoảng thời gian ngắn có ĐCNN 0,01s.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đồng hồ treo tường quả lắc' (Đồng hồ để bàn hoặc treo tường có độ trễ lớn và ĐCNN chỉ là 1 giây.).",
+        "Sai vì 'Đồng hồ để bàn có kim giây' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c1_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Muốn hình ảnh hiển vi từ mờ trở nên cực kì sắc nét, ta điều chỉnh nút vặn nào?",
         "steps": "Sau khi thấy ảnh sơ bộ bằng ốc to, xoay ốc vi cấp nhẹ nhàng để lấy nét tối ưu.",
         "trap": "Xoay ốc to quá nhanh có thể làm vỡ lam kính (tiêu bản)."
-      }
+      },
+      "socraticPrompt": "Muốn hình ảnh hiển vi từ mờ trở nên cực kì sắc nét, ta điều chỉnh nút vặn nào?",
+      "distractorReasons": [
+        "Sai vì 'Tháo thị kính ra lau bằng khăn ướt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng tay đẩy mạnh tiêu bản trên bàn kính' (Xoay ốc to quá nhanh có thể làm vỡ lam kính (tiêu bản).).",
+        "Đúng vì: Sau khi thấy ảnh sơ bộ bằng ốc to, xoay ốc vi cấp nhẹ nhàng để lấy nét tối ưu.",
+        "Sai vì 'Tắt nguồn sáng của đèn gương chiếu' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c1_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Đáy cốc tiếp xúc với nguồn nhiệt nóng hơn nước bên trong, bầu nhiệt kế chạm đáy sẽ gây ra sai lệch gì?",
         "steps": "Nhúng ngập bầu nhiệt kế lơ lửng trong chất lỏng, đợi cột nhiệt ổn định rồi đọc ngay khi bầu vẫn ở trong nước.",
         "trap": "Nhiệt kế rượu/thủy ngân thông thường (không phải nhiệt kế y tế) nếu rút ra không khí sẽ tụt ngay lập tức."
-      }
+      },
+      "socraticPrompt": "Đáy cốc tiếp xúc với nguồn nhiệt nóng hơn nước bên trong, bầu nhiệt kế chạm đáy sẽ gây ra sai lệch gì?",
+      "distractorReasons": [
+        "Sai vì 'Chạm bầu nhiệt kế sát đáy cốc đang đun' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Cầm tay trực tiếp vào bầu nhiệt kế khi nhúng vào nước' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Rút ngay nhiệt kế ra ngoài không khí rồi mới đọc số chỉ' (Nhiệt kế rượu/thủy ngân thông thường (không phải nhiệt kế y tế) nếu rút ra không khí sẽ tụt ngay lập tức.).",
+        "Đúng vì: Nhúng ngập bầu nhiệt kế lơ lửng trong chất lỏng, đợi cột nhiệt ổn định rồi đọc ngay khi bầu vẫn ở trong nước."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

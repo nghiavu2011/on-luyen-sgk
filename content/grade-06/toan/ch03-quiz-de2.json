@@ -1,157 +1,206 @@
 {
-  "examId": "toan-06-ch03-de02",
-  "grade": "06",
-  "subject": "toan",
-  "chapter": "ch03",
-  "chapterTitle": "Số nguyên",
-  "title": "Toán 6 — Chương 3: Số nguyên (Đề 2: Kỹ năng tính toán & Thực hành)",
-  "description": "Rèn luyện kỹ năng cộng trừ nhân chia số nguyên, bỏ dấu ngoặc và tìm x.",
-  "examCode": "102",
-  "mode": "practice",
+  "chapterId": "ch03",
+  "examId": "de2",
+  "title": "Toán 6 — Chương 3: Số nguyên: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "toan-06-ch03-de02-q01",
-      "difficulty": "thong-hieu",
+      "id": "t6_c3_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
       "topic": "Cộng hai số nguyên khác dấu",
-      "question": "Kết quả của phép tính: $(-25) + 17$ có giá trị bằng bao nhiêu?",
+      "question": "Tính giá trị của biểu thức: (-38) + 50.",
       "options": [
-        "Kết quả của phép tính nhận giá trị bằng âm 8",
-        "Kết quả của phép tính nhận giá trị bằng dương 8",
-        "Kết quả của phép tính nhận giá trị bằng âm 42",
-        "Kết quả của phép tính nhận giá trị bằng dương 42"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Quy tắc cộng hai số nguyên khác dấu",
-        "socraticPrompt": "Lấy phần tự nhiên lớn trừ phần tự nhiên bé, rồi đặt dấu của số có phần tự nhiên lớn hơn.",
-        "calculation": "$|-25| = 25 > 17$. Hiệu hai phần tự nhiên: $25 - 17 = 8$. Vì số $-25$ mang dấu âm nên kết quả là $-8$.",
-        "trap": "Đặt nhầm dấu dương thành $+8$ hoặc cộng gộp thành 42.",
-        "distractorReasons": {
-          "1": "Quên đặt dấu của số có phần tự nhiên lớn hơn.",
-          "2": "Cộng hai phần tự nhiên $25 + 17 = 42$ rồi đặt dấu âm.",
-          "3": "Cộng hai phần tự nhiên và đặt dấu dương."
-        }
-      }
-    },
-    {
-      "id": "toan-06-ch03-de02-q02",
-      "difficulty": "thong-hieu",
-      "topic": "Phép trừ số nguyên",
-      "question": "Thực hiện phép tính: $12 - (-18)$, ta được kết quả là:",
-      "options": [
-        "Kết quả phép tính có giá trị bằng âm 6",
-        "Kết quả phép tính có giá trị bằng dương 30",
-        "Kết quả phép tính có giá trị bằng âm 30",
-        "Kết quả phép tính có giá trị bằng dương 6"
+        "-12",
+        "12",
+        "88",
+        "-88"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc trừ hai số nguyên: trừ cho số âm thành cộng số dương",
-        "socraticPrompt": "Số đối của số âm 18 là gì? Hãy chuyển phép trừ thành phép cộng.",
-        "calculation": "$12 - (-18) = 12 + 18 = 30$.",
-        "trap": "Nhầm trừ số âm thành trừ bình thường: $12 - 18 = -6$.",
-        "distractorReasons": {
-          "0": "Nhầm dấu trừ thành $12 - 18 = -6$.",
-          "2": "Tính ra 30 nhưng lại đặt dấu trừ thành $-30$.",
-          "3": "Lấy $18 - 12 = 6$ sai quy tắc."
-        }
-      }
+        "concept": "Cộng hai số nguyên khác dấu: lấy số có phần tự nhiên lớn hơn trừ số bé hơn rồi mang dấu của số lớn hơn.",
+        "steps": [
+          "Bước 1: So sánh phần tự nhiên: 50 > 38.",
+          "Bước 2: Lấy 50 - 38 = 12.",
+          "Bước 3: Vì 50 mang dấu dương (+) nên kết quả là +12."
+        ],
+        "trap": "Đặt dấu âm trước kết quả thành -12 hoặc cộng dồn 38 + 50 = 88.",
+        "socraticPrompt": "Số 50 và số -38, số nào có giá trị tuyệt đối lớn hơn? Mang dấu của số nào?"
+      },
+      "socraticPrompt": "Số 50 và số -38, số nào có giá trị tuyệt đối lớn hơn? Mang dấu của số nào?",
+      "distractorReasons": [
+        "Sai vì đặt nhầm dấu âm cho kết quả trong khi 50 > 38 mang dấu dương.",
+        "Đúng vì (-38) + 50 = 50 - 38 = 12.",
+        "Sai vì cộng dồn 38 + 50 = 88 thay vì trừ nhau.",
+        "Sai vì cộng dồn rồi mang dấu âm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "toan-06-ch03-de02-q03",
-      "difficulty": "thong-hieu",
-      "topic": "Phép nhân số nguyên",
-      "question": "Kết quả của tích hai số nguyên: $(-6) \\times (-5)$ là:",
+      "id": "t6_c3_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hiện phép trừ số nguyên",
+      "question": "Giá trị của biểu thức 18 - (-32) bằng:",
       "options": [
-        "Giá trị của tích tính được bằng số âm 30",
-        "Giá trị của tích tính được bằng số âm 11",
-        "Giá trị của tích tính được bằng số dương 30",
-        "Giá trị của tích tính được bằng số dương 11"
+        "-14",
+        "14",
+        "50",
+        "-50"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Quy tắc nhân hai số nguyên cùng dấu âm",
-        "socraticPrompt": "Hai số nguyên cùng dấu âm nhân với nhau sẽ cho kết quả mang dấu gì?",
-        "calculation": "$(-6) \\times (-5) = 6 \\times 5 = 30$.",
-        "trap": "Nhầm âm nhân âm ra âm thành $-30$ hoặc nhầm sang phép cộng $(-6) + (-5) = -11$.",
-        "distractorReasons": {
-          "0": "Nhầm quy tắc dấu của phép nhân.",
-          "1": "Nhầm phép nhân thành phép cộng hai số âm.",
-          "3": "Lấy tổng hai số rồi đổi dấu."
-        }
-      }
+        "concept": "Trừ cho số âm tương đương với cộng với số đối của nó: a - (-b) = a + b.",
+        "steps": [
+          "Bước 1: Chuyển phép trừ thành phép cộng với số đối: 18 - (-32) = 18 + 32.",
+          "Bước 2: Tính tổng: 18 + 32 = 50."
+        ],
+        "trap": "Nghĩ rằng có dấu trừ thì lấy 32 - 18 = 14 hoặc -14.",
+        "socraticPrompt": "Trừ đi một số âm thì dấu biến đổi như thế nào? 18 - (-32) chuyển thành 18 cộng mấy?"
+      },
+      "socraticPrompt": "Trừ đi một số âm thì dấu biến đổi như thế nào? 18 - (-32) chuyển thành 18 cộng mấy?",
+      "distractorReasons": [
+        "Sai vì nhầm lẫn dấu và thực hiện phép trừ 18 - 32 = -14.",
+        "Sai vì lấy 32 - 18 = 14 do nhầm dấu.",
+        "Đúng vì 18 - (-32) = 18 + 32 = 50.",
+        "Sai vì tính ra 50 rồi lại thêm dấu trừ."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
-      "id": "toan-06-ch03-de02-q04",
-      "difficulty": "thong-hieu",
-      "topic": "Bỏ dấu ngoặc tính nhanh",
-      "question": "Bỏ dấu ngoặc rồi tính giá trị của biểu thức: $A = (125 - 45) - (125 - 45 + 18)$:",
+      "id": "t6_c3_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính hợp lý với quy tắc dấu ngoặc",
+      "question": "Tính nhanh giá trị của biểu thức: M = (125 - 67) - (125 - 167).",
       "options": [
-        "Giá trị rút gọn cuối cùng nhận kết quả bằng 18",
-        "Giá trị rút gọn cuối cùng nhận kết quả bằng 0",
-        "Giá trị rút gọn cuối cùng nhận kết quả bằng âm 36",
-        "Giá trị rút gọn cuối cùng nhận kết quả bằng âm 18"
+        "0",
+        "-100",
+        "234",
+        "100"
       ],
       "correct": 3,
       "breakdown": {
-        "concept": "Vận dụng quy tắc dấu ngoặc để triệt tiêu các số hạng giống nhau",
-        "socraticPrompt": "Hãy bỏ dấu ngoặc thứ hai có dấu trừ phía trước, các dấu bên trong biến đổi thế nào?",
-        "calculation": "$A = 125 - 45 - 125 + 45 - 18 = (125 - 125) + (-45 + 45) - 18 = 0 + 0 - 18 = -18$.",
-        "trap": "Quên đổi dấu số 18 khi phá ngoặc có dấu trừ, dẫn đến kết quả $+18$.",
-        "distractorReasons": {
-          "0": "Quên đổi dấu số hạng cuối cùng trong ngoặc.",
-          "1": "Nghĩ rằng hai cụm trong ngoặc giống hệt nhau triệt tiêu hết.",
-          "2": "Tính nhầm $-18 - 18 = -36$."
-        }
-      }
+        "concept": "Bỏ dấu ngoặc có dấu trừ phía trước để xuất hiện các số đối nhau triệt tiêu.",
+        "steps": [
+          "Bước 1: Bỏ dấu ngoặc: M = 125 - 67 - 125 + 167.",
+          "Bước 2: Nhóm các số hạng: (125 - 125) + (167 - 67).",
+          "Bước 3: M = 0 + 100 = 100."
+        ],
+        "trap": "Quên đổi dấu số -167 thành +167 dẫn đến -67 - 167 = -234.",
+        "socraticPrompt": "Khi phá ngoặc thứ hai -(125 - 167), số -167 sẽ đổi thành dấu gì? 125 trừ 125 bằng mấy?"
+      },
+      "socraticPrompt": "Khi phá ngoặc thứ hai -(125 - 167), số -167 sẽ đổi thành dấu gì? 125 trừ 125 bằng mấy?",
+      "distractorReasons": [
+        "Sai vì tính nhầm triệt tiêu hết.",
+        "Sai vì nhầm dấu lấy 67 - 167 = -100.",
+        "Sai vì quên đổi dấu trong ngoặc thứ hai thành -67 - 167 = -234.",
+        "Đúng vì M = 125 - 67 - 125 + 167 = (125 - 125) + (167 - 67) = 100."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
-      "id": "toan-06-ch03-de02-q05",
-      "difficulty": "thong-hieu",
-      "topic": "Tìm x trong tập Z",
-      "question": "Tìm số nguyên $x$ thỏa mãn đẳng thức: $x + (-7) = -15$:",
+      "id": "t6_c3_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm số nguyên x",
+      "question": "Tìm số nguyên x biết: 25 - x = 40.",
       "options": [
-        "Số nguyên x cần tìm nhận giá trị bằng dương 8",
-        "Số nguyên x cần tìm nhận giá trị bằng âm 8",
-        "Số nguyên x cần tìm nhận giá trị bằng âm 22",
-        "Số nguyên x cần tìm nhận giá trị bằng dương 22"
+        "x = -15",
+        "x = 15",
+        "x = 65",
+        "x = -65"
       ],
-      "correct": 1,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tìm số hạng chưa biết trong phép cộng số nguyên",
-        "socraticPrompt": "Muốn tìm số hạng chưa biết $x$, ta lấy tổng trừ đi số hạng đã biết.",
-        "calculation": "$x = -15 - (-7) = -15 + 7 = -8$.",
-        "trap": "Chuyển vế nhưng quên đổi dấu: $-15 + (-7) = -22$.",
-        "distractorReasons": {
-          "0": "Tính sai dấu của kết quả thành $+8$.",
-          "2": "Chuyển vế không đổi dấu dẫn đến $-15 - 7 = -22$.",
-          "3": "Cộng hai phần tự nhiên rồi đặt dấu dương."
-        }
-      }
+        "concept": "Trong phép trừ, số trừ = số bị trừ - hiệu: x = 25 - 40.",
+        "steps": [
+          "Bước 1: x là số trừ nên x = 25 - 40.",
+          "Bước 2: 25 - 40 = 25 + (-40) = -(40 - 25) = -15.",
+          "Bước 3: Kết luận x = -15."
+        ],
+        "trap": "Lấy 40 - 25 = 15 (quên mất số bị trừ nhỏ hơn hiệu nên kết quả phải âm).",
+        "socraticPrompt": "25 trừ đi x bằng 40. Muốn từ 25 mà tăng lên 40 thì ta phải trừ đi một số âm hay số dương?"
+      },
+      "socraticPrompt": "25 trừ đi x bằng 40. Muốn từ 25 mà tăng lên 40 thì ta phải trừ đi một số âm hay số dương?",
+      "distractorReasons": [
+        "Đúng vì x = 25 - 40 = -15 (thử lại: 25 - (-15) = 25 + 15 = 40).",
+        "Sai vì nếu x = 15 thì 25 - 15 = 10 (không bằng 40).",
+        "Sai vì lấy 25 + 40 = 65 do chuyển vế sai quy tắc.",
+        "Sai vì tính nhầm sang -65."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
-      "id": "toan-06-ch03-de02-q06",
-      "difficulty": "thong-hieu",
-      "topic": "Ước và bội trong Z",
-      "question": "Tập hợp tất cả các ước nguyên của số 4 trong tập số nguyên $\\mathbb{Z}$ là:",
+      "id": "t6_c3_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tính giá trị tích nhiều số nguyên",
+      "question": "Tính giá trị của tích: P = (-2) × (-5) × (-4) × 25.",
       "options": [
-        "Tập hợp các ước gồm: {1; 2; 4} là các số tự nhiên",
-        "Tập hợp các ước gồm: {-4; -2; -1} là các số âm",
-        "Tập hợp các ước gồm: {-4; -2; -1; 1; 2; 4}",
-        "Tập hợp các ước gồm: {-4; -3; -2; -1; 1; 2; 4}"
+        "1000",
+        "500",
+        "-500",
+        "-1000"
       ],
-      "correct": 2,
+      "correct": 3,
       "breakdown": {
-        "concept": "Tập hợp các ước trong tập số nguyên Z (gồm cả ước âm và ước dương)",
-        "socraticPrompt": "Nếu d là ước của 4 thì -d có phải là ước của 4 không?",
-        "calculation": "Các ước tự nhiên của 4 là 1, 2, 4. Trong tập $\\mathbb{Z}$, lấy thêm các số đối: $Ư(4) = \\{-4; -2; -1; 1; 2; 4\\}$.",
-        "trap": "Chỉ liệt kê các ước dương như trong tập số tự nhiên $\\mathbb{N}$.",
-        "distractorReasons": {
-          "0": "Đây chỉ là các ước trong $\\mathbb{N}$, thiếu các ước nguyên âm.",
-          "1": "Thiếu toàn bộ các ước nguyên dương.",
-          "3": "Thừa số $-3$ (số 4 không chia hết cho 3)."
-        }
-      }
+        "concept": "Xác định dấu của tích trước: có 3 thừa số âm (số lẻ) nên tích mang dấu âm. Sau đó nhóm hợp lý.",
+        "steps": [
+          "Bước 1: Tích có 3 thừa số nguyên âm là -2, -5, -4 nên kết quả mang dấu âm (-).",
+          "Bước 2: Nhóm các cặp số tròn chục, tròn trăm: [(-2) × (-5)] × [(-4) × 25].",
+          "Bước 3: [10] × [-100] = -1000."
+        ],
+        "trap": "Đếm nhầm số thừa số âm dẫn đến kết luận tích mang dấu dương (+1000).",
+        "socraticPrompt": "Có bao nhiêu số âm trong tích P? Số lượng số âm là chẵn hay lẻ? Vậy tích mang dấu gì?"
+      },
+      "socraticPrompt": "Có bao nhiêu số âm trong tích P? Số lượng số âm là chẵn hay lẻ? Vậy tích mang dấu gì?",
+      "distractorReasons": [
+        "Sai vì tích có 3 thừa số âm (lẻ thừa số âm) nên kết quả phải mang dấu âm.",
+        "Sai vì vừa nhầm dấu vừa tính sai số.",
+        "Sai vì tính nhầm tích các giá trị.",
+        "Đúng vì P = [(-2) × (-5)] × [(-4) × 25] = 10 × (-100) = -1000."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c3_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm x thỏa mãn tích bằng 0",
+      "question": "Tìm tất cả các số nguyên x thỏa mãn: (x + 3) × (x - 7) = 0.",
+      "options": [
+        "x ∈ {-3; 7}",
+        "x ∈ {3; -7}",
+        "x ∈ {-3; -7}",
+        "x ∈ {3; 7}"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tích của hai thừa số bằng 0 khi và chỉ khi ít nhất một trong hai thừa số bằng 0: A × B = 0 ⇔ A = 0 hoặc B = 0.",
+        "steps": [
+          "Bước 1: Trường hợp 1: x + 3 = 0 ⇒ x = -3.",
+          "Bước 2: Trường hợp 2: x - 7 = 0 ⇒ x = 7.",
+          "Bước 3: Vậy x ∈ {-3; 7}."
+        ],
+        "trap": "Đổi nhầm dấu nghiệm: x + 3 = 0 lại lấy x = 3, hoặc x - 7 = 0 lại lấy x = -7.",
+        "socraticPrompt": "Nếu x + 3 = 0 thì x bằng mấy? Nếu x - 7 = 0 thì x bằng mấy?"
+      },
+      "socraticPrompt": "Nếu x + 3 = 0 thì x bằng mấy? Nếu x - 7 = 0 thì x bằng mấy?",
+      "distractorReasons": [
+        "Đúng vì x + 3 = 0 ⇒ x = -3 và x - 7 = 0 ⇒ x = 7.",
+        "Sai vì đổi dấu ngược: giải x + 3 = 0 ra 3 và x - 7 = 0 ra -7.",
+        "Sai vì nhầm cả hai nghiệm đều âm.",
+        "Sai vì nhầm cả hai nghiệm đều dương."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

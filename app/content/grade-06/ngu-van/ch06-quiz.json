@@ -25,7 +25,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được khái niệm thể loại truyền thuyết dân gian.?",
+      "distractorReasons": [
+        "Sai vì 'Những câu đố vui dân gian có vần điệu' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm thể loại truyền thuyết dân gian.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ kể về các loài vật biết nói tiếng người', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Khái niệm thể loại truyền thuyết dân gian.: Truyền thuyết có cốt lõi lịch sử kết hợp chi tiết tưởng tượng kỳ ảo.",
+        "Sai vì 'Những bài thơ ngắn 4 câu lục bát' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm thể loại truyền thuyết dân gian.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q02",
@@ -50,7 +58,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được nhận diện thành phần trạng ngữ trong câu.?",
+      "distractorReasons": [
+        "Sai vì 'Khởi ngữ' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện thành phần trạng ngữ trong câu.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chủ ngữ của câu' (Không nhầm thành chủ ngữ.).",
+        "Sai vì 'Vị ngữ của câu' không phù hợp với định lý/quy tắc trọng tâm (Nhận diện thành phần trạng ngữ trong câu.).",
+        "Đúng vì theo Nhận diện thành phần trạng ngữ trong câu.: 'Vào thời Hùng Vương thứ sáu' chỉ mốc thời gian, đứng trước chủ ngữ và ngăn cách bằng dấu phẩy."
+      ],
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -75,7 +91,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 0
+      "correct": 0,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được ý nghĩa biểu tượng của chi tiết nhân dân nuôi gióng.?",
+      "distractorReasons": [
+        "Đúng vì theo Ý nghĩa biểu tượng của chi tiết nhân dân nuôi Gióng.: Sức mạnh đánh giặc cứu nước không phải của riêng cá nhân nào mà là sức mạnh kết tinh từ toàn dân.",
+        "Sai vì 'Nhà mẹ Gióng quá giàu có nên nuôi tiệc cả làng' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa biểu tượng của chi tiết nhân dân nuôi Gióng.).",
+        "Sai vì 'Gióng muốn ép buộc dân làng phải phục vụ mình' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa biểu tượng của chi tiết nhân dân nuôi Gióng.).",
+        "Sai vì 'Dân làng muốn trút bỏ gánh nặng lương thực' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa biểu tượng của chi tiết nhân dân nuôi Gióng.)."
+      ],
+      "correctIndex": 0
     },
     {
       "id": "q04",
@@ -100,7 +124,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 1
+      "correct": 1,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được tư tưởng hòa bình trong sự tích hồ gươm.?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Vua không còn cần thanh gươm vì đã có vũ khí hiện đại hơn' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Tư tưởng hòa bình trong Sự tích Hồ Gươm.: Thanh gươm dùng để trừ bạo khi có giặc; khi đất nước thái bình, gươm trả lại để nhân dân yên ổn làm ăn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Rùa thần đòi lại vì vua Lê Lợi làm hỏng gươm' (Tránh các suy diễn vụ lợi đời thường.).",
+        "Sai vì 'Nhà vua sợ bị người khác cướp mất bảo kiếm' không phù hợp với định lý/quy tắc trọng tâm (Tư tưởng hòa bình trong Sự tích Hồ Gươm.)."
+      ],
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -125,7 +157,15 @@
           "3": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 2
+      "correct": 2,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được mối liên hệ giữa truyền thuyết và các di tích văn hóa lịch sử thực tế.?",
+      "distractorReasons": [
+        "Sai vì 'Đền Hùng ở tỉnh Cà Mau' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa truyền thuyết và các di tích văn hóa lịch sử thực tế.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Di tích Tháp Rùa ở giữa hồ Tây' (địa danh Tháp Rùa hay Thành Cổ Loa).",
+        "Đúng vì: Truyền thuyết giải thích nguồn gốc tre đằng ngà và tục mở hội làng Gióng đền Sóc.",
+        "Sai vì 'Thành Cổ Loa hình tròn ốc ở vùng núi Tây Bắc' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa truyền thuyết và các di tích văn hóa lịch sử thực tế.)."
+      ],
+      "correctIndex": 2
     },
     {
       "id": "q06",
@@ -150,7 +190,15 @@
           "2": "Không chính xác theo văn bản hoặc sai quy tắc tiếng Việt trong SGK."
         }
       },
-      "correct": 3
+      "correct": 3,
+      "socraticPrompt": "Dựa vào chi tiết nào trong văn bản hoặc quy tắc ngữ pháp nào để em xác định được vận dụng cao: bài học đạo lý 'uống nước nhớ nguồn' cho thế hệ trẻ.?",
+      "distractorReasons": [
+        "Sai vì 'Đòi hỏi được hưởng đặc quyền miễn học tập' không phù hợp với định lý/quy tắc trọng tâm (Vận dụng cao: Bài học đạo lý 'Uống nước nhớ nguồn' cho thế hệ trẻ.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần thắp hương một lần vào ngày tết rồi lãng quên', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ học thuộc lòng các sự kiện chiến tranh mà không cần nỗ lực rèn luyện bản thân', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Lòng biết ơn đích thực thể hiện bằng hành động tu dưỡng bản thân và tri ân cụ thể."
+      ],
+      "correctIndex": 3
     }
   ],
   "grade": "06",

@@ -20,97 +20,151 @@
         "concept": "Khái niệm Bình đẳng trước pháp luật",
         "steps": "Bình đẳng về quyền và nghĩa vụ.",
         "socraticPrompt": "Mọi công dân đều bình đẳng trước điều gì?"
-      }
+      },
+      "socraticPrompt": "Mọi công dân đều bình đẳng trước điều gì?",
+      "distractorReasons": [
+        "Đúng vì theo Khái niệm Bình đẳng trước pháp luật: Bình đẳng về quyền và nghĩa vụ.",
+        "Sai vì 'Chế độ đặc quyền đặc lợi' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Bình đẳng trước pháp luật).",
+        "Sai vì 'Sự phân chia giai cấp' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Bình đẳng trước pháp luật).",
+        "Sai vì 'Quyền tự do vô hạn' không phù hợp với định lý/quy tắc trọng tâm (Khái niệm Bình đẳng trước pháp luật)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Nguyên tắc xử lý tội phạm thể hiện tính bình đẳng về trách nhiệm pháp lý là",
       "options": [
-        "Mọi hành vi vi phạm đều bị xử lý nghiêm minh, không có vùng cấm, không có ngoại lệ",
         "Người giàu được miễn phạt",
+        "Mọi hành vi vi phạm đều bị xử lý nghiêm minh, không có vùng cấm, không có ngoại lệ",
         "Cán bộ không bị xử lý",
         "Người có chức vụ chỉ phê bình"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Nguyên tắc thượng tôn pháp luật trong Nhà nước pháp quyền XHCN.",
       "breakdown": {
         "concept": "Trách nhiệm pháp lý bình đẳng",
         "steps": "Không có vùng cấm, không có ngoại lệ.",
         "socraticPrompt": "Nguyên tắc xử lý vi phạm pháp luật là gì?"
-      }
+      },
+      "socraticPrompt": "Nguyên tắc xử lý vi phạm pháp luật là gì?",
+      "distractorReasons": [
+        "Sai vì 'Người giàu được miễn phạt' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm pháp lý bình đẳng).",
+        "Đúng vì theo Trách nhiệm pháp lý bình đẳng: Không có vùng cấm, không có ngoại lệ.",
+        "Sai vì phủ định sai bản chất: 'Cán bộ không bị xử lý' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Người có chức vụ chỉ phê bình', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Quy định nam và nữ có cơ hội ngang nhau trong việc học tập, nghiên cứu và ứng cử đại biểu thể hiện",
       "options": [
-        "Quyền bình đẳng giới",
-        "Sự ưu tiên cho phụ nữ",
         "Quyền gia trưởng",
+        "Sự ưu tiên cho phụ nữ",
+        "Quyền bình đẳng giới",
         "Bất bình đẳng giới"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Khái niệm bình đẳng giới trong đời sống chính trị và giáo dục.",
       "breakdown": {
         "concept": "Bình đẳng giới",
         "steps": "Nam nữ bình đẳng trong mọi lĩnh vực.",
         "socraticPrompt": "Nam nữ có cơ hội ngang nhau gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Nam nữ có cơ hội ngang nhau gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Quyền gia trưởng' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng giới).",
+        "Sai vì 'Sự ưu tiên cho phụ nữ' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng giới).",
+        "Đúng vì theo Bình đẳng giới: Nam nữ bình đẳng trong mọi lĩnh vực.",
+        "Sai vì 'Bất bình đẳng giới' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng giới)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Các dân tộc cùng sinh sống trên lãnh thổ Việt Nam đều có đại biểu trong Quốc hội thể hiện quyền bình đẳng về",
       "options": [
-        "Chính trị",
+        "Quân sự",
         "Tôn giáo",
         "Ngoại giao",
-        "Quân sự"
+        "Chính trị"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Quyền tham gia quản lý nhà nước và xã hội của các dân tộc thiểu số.",
       "breakdown": {
         "concept": "Bình đẳng chính trị dân tộc",
         "steps": "Bình đẳng trong Quốc hội.",
         "socraticPrompt": "Đại biểu các dân tộc trong Quốc hội thể hiện bình đẳng gì?"
-      }
+      },
+      "socraticPrompt": "Đại biểu các dân tộc trong Quốc hội thể hiện bình đẳng gì?",
+      "distractorReasons": [
+        "Sai vì 'Quân sự' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng chính trị dân tộc).",
+        "Sai vì 'Tôn giáo' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng chính trị dân tộc).",
+        "Sai vì 'Ngoại giao' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng chính trị dân tộc).",
+        "Đúng vì theo Bình đẳng chính trị dân tộc: Bình đẳng trong Quốc hội."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Hành vi phân biệt đối xử, xúc phạm người thuộc dân tộc thiểu số là hành vi",
       "options": [
-        "Vi phạm Hiến pháp và pháp luật bị nghiêm cấm",
         "Hành vi hài hước vô hại",
+        "Vi phạm Hiến pháp và pháp luật bị nghiêm cấm",
         "Quyền tự do cá nhân",
         "Được pháp luật bảo vệ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Nghiêm cấm mọi hành vi kỳ thị, chia rẽ khối đại đoàn kết toàn dân tộc.",
       "breakdown": {
         "concept": "Nghiêm cấm kỳ thị dân tộc",
         "steps": "Vi phạm pháp luật nghiêm trọng.",
         "socraticPrompt": "Kỳ thị dân tộc thiểu số là hành vi gì?"
-      }
+      },
+      "socraticPrompt": "Kỳ thị dân tộc thiểu số là hành vi gì?",
+      "distractorReasons": [
+        "Sai vì 'Hành vi hài hước vô hại' không phù hợp với định lý/quy tắc trọng tâm (Nghiêm cấm kỳ thị dân tộc).",
+        "Đúng vì theo Nghiêm cấm kỳ thị dân tộc: Vi phạm pháp luật nghiêm trọng.",
+        "Sai vì 'Quyền tự do cá nhân' không phù hợp với định lý/quy tắc trọng tâm (Nghiêm cấm kỳ thị dân tộc).",
+        "Sai vì 'Được pháp luật bảo vệ' không phù hợp với định lý/quy tắc trọng tâm (Nghiêm cấm kỳ thị dân tộc)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Trong gia đình, vợ và chồng có quyền và nghĩa vụ ngang nhau trong việc quản lý tài sản chung và nuôi dạy con cái thể hiện",
       "options": [
-        "Bình đẳng trong quan hệ hôn nhân và gia đình",
-        "Quyền uy tuyệt đối của người chồng",
         "Chế độ mẫu hệ tuyệt đối",
+        "Quyền uy tuyệt đối của người chồng",
+        "Bình đẳng trong quan hệ hôn nhân và gia đình",
         "Sự tranh giành quyền lực"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Luật Hôn nhân và Gia đình khẳng định vợ chồng bình đẳng về mọi mặt.",
       "breakdown": {
         "concept": "Bình đẳng vợ chồng",
         "steps": "Quyền và nghĩa vụ ngang nhau trong gia đình.",
         "socraticPrompt": "Vợ chồng bình đẳng trong nuôi dạy con là bình đẳng gì?"
-      }
+      },
+      "socraticPrompt": "Vợ chồng bình đẳng trong nuôi dạy con là bình đẳng gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chế độ mẫu hệ tuyệt đối', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Quyền uy tuyệt đối của người chồng', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Bình đẳng vợ chồng: Quyền và nghĩa vụ ngang nhau trong gia đình.",
+        "Sai vì 'Sự tranh giành quyền lực' không phù hợp với định lý/quy tắc trọng tâm (Bình đẳng vợ chồng)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

@@ -32,7 +32,16 @@
           "1": "Vi khuẩn xâm nhập sẽ làm thối vết cắt khiến cành chết.",
           "3": "Cành chiết cần giữ lá xanh để tiếp tục quang hợp tạo chất hữu cơ nuôi rễ non."
         }
-      }
+      },
+      "socraticPrompt": "Mạch rây nằm ở phần vỏ hay phần gỗ, và khi cắt đứt mạch rây thì chất dinh dưỡng từ lá sẽ tích tụ ở đâu?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cắt đứt hoàn toàn mạch gỗ để ngăn không cho nước đi lên lá' (tưởng bóc vỏ là cắt đứt mạch gỗ (nếu cắt đứt mạch gỗ cành sẽ chết khô vì không có nước)).",
+        "Sai vì 'Tạo vết thương để vi khuẩn xâm nhập vào phân giải bớt chất gỗ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Ở thân cây gỗ, hệ thống mạch rây (phloem) nằm ở lớp vỏ sát tầng sinh trụ. Khi bóc một khoanh vỏ và cạo sạch tượng tầng, ta đã cắt đứt con đường vận chuyển đường.",
+        "Sai vì 'Làm cho cành chiết nhanh chóng rụng hết lá để tiết kiệm nước' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch04-th-q02",
@@ -56,7 +65,16 @@
           "2": "Tỉ lệ tử vong và tai biến sản khoa ở vị thành niên cao gấp 2-3 lần phụ nữ trưởng thành.",
           "1": "Không liên quan đến tuyển sinh đại học mà ngược lại gây gián đoạn việc học hành."
         }
-      }
+      },
+      "socraticPrompt": "Bộ xương và tâm lí của lứa tuổi học sinh dưới 18 tuổi đã thực sự sẵn sàng cho gánh nặng mang thai và làm mẹ chưa?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Giúp cơ thể phát triển hoàn thiện chiều cao nhanh hơn người bình thường' (Nghĩ có kinh nguyệt là cơ thể đã hoàn toàn sẵn sàng và an toàn để sinh nở như phụ nữ trưởng thành.).",
+        "Sai vì 'Làm tăng khả năng trúng tuyển vào các trường đại học lớn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Không có bất kì nguy cơ nào vì cơ thể vị thành niên có sức đề kháng cao nhất' trái ngược với kiến thức SGK.",
+        "Đúng vì: Ở tuổi vị thành niên, khung chậu chưa nở rộng tối đa, hệ thống sinh dục và cơ thể chưa hoàn thiện về mặt thể chất dẫn đến nguy cơ đẻ khó, chuyển dạ kéo dài, rác."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch04-th-q03",
@@ -80,7 +98,16 @@
           "1": "Cồn 90 độ làm đông vón và biến tính protein giết chết tế bào tức thì.",
           "3": "Nhiệt độ 100 °C phá hủy hoàn toàn cấu trúc protein và ADN của giao tử."
         }
-      }
+      },
+      "socraticPrompt": "Ở nhiệt độ âm bao nhiêu độ C thì mọi phản ứng sinh hóa bên trong tế bào tinh trùng và noãn hoàn toàn đóng băng ngưng trệ mà không bị phá hủy cấu trúc?",
+      "distractorReasons": [
+        "Đúng vì: Giao tử (tinh trùng, noãn) và phôi được xử lí bằng các chất bảo vệ màng tế bào chống đông đá (như DMSO, glycerol) và hạ nhiệt độ nhanh chóng xuống -196 °C trong.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bảo quản trong dung dịch cồn 90 độ để tiệt trùng tuyệt đối' (bảo quản ở tủ lạnh thông thường (-4 đến -20 °C tinh thể nước đá sẽ phá vỡ màng tế bào làm chết giao tử)).",
+        "Sai vì 'Bảo quản trong tủ đông ngăn đá gia đình ở nhiệt độ -4 °C' không phù hợp với định lý/quy tắc trọng tâm (Bảo quản tế bào sinh dục bằng công nghệ đông miên lạnh sâu trong Nitơ lỏng (-196 °C).).",
+        "Sai vì 'Sấy khô ở nhiệt độ 100 °C rồi đóng túi hút chân không' không phù hợp với định lý/quy tắc trọng tâm (Bảo quản tế bào sinh dục bằng công nghệ đông miên lạnh sâu trong Nitơ lỏng (-196 °C).)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch04-th-q04",
@@ -104,7 +131,16 @@
           "2": "Bệnh dịch làm tàn phá mùa màng, giảm năng suất nghiêm trọng chứ không thể tăng vọt.",
           "3": "Biến đổi thành loài mới đòi hỏi quá trình tiến hóa phân kì qua hàng triệu năm."
         }
-      }
+      },
+      "socraticPrompt": "Nếu tất cả các cây trong vườn đều mang bộ gene giống hệt nhau thì khả năng kháng một mầm bệnh mới của chúng có khác nhau không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Cây con sẽ tự động chuyển hóa thành cây sinh sản hữu tính để kháng bệnh' (Tưởng cây sinh sản vô tính luôn khỏe mạnh và kháng bệnh tốt hơn cây hữu tính.).",
+        "Đúng vì: Sinh sản sinh dưỡng (vô tính) chỉ dựa trên phân bào nguyên phân, tạo ra thế hệ con là các dòng vô tính (clone) có kiểu gene hoàn toàn giống nhau và giống hệt câ.",
+        "Sai vì 'Năng suất cây trồng sẽ tự động tăng vọt gấp đôi để bù đắp thiệt hại' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Cây trồng sẽ biến đổi thành một loài cỏ dại mới thích nghi với nấm' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch04-th-q05",
@@ -128,7 +164,16 @@
           "1": "Testosterone ngấm trực tiếp vào mao mạch máu ở mô kẽ, không đi qua ống dẫn tinh nên không bị suy giảm.",
           "3": "Giọng nói và đặc điểm sinh dục thứ cấp phụ thuộc testosterone nên giữ nguyên phong độ nam tính."
         }
-      }
+      },
+      "socraticPrompt": "Tinh dịch bao gồm tinh trùng và dịch tiết của những tuyến nào? Cắt ống dẫn tinh có ngăn tuyến tiền liệt tiết dịch không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Người nam không còn khả năng xuất tinh dịch khi quan hệ tình dục' (thắt ống dẫn tinh là 'thiến' làm mất tinh hoàn hay mất khả năng xuất tinh dịch).",
+        "Sai vì 'Làm suy giảm nghiêm trọng lượng hormone testosterone làm teo teo cơ bắp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Tinh dịch bình thường có hơn 95% thể tích là dịch tiết do túi tinh, tuyến tiền liệt và tuyến hành niệu đạo sản xuất; tinh trùng chỉ chiếm dưới 5% thể tích. Khi .",
+        "Sai vì 'Khiến người nam bị thay đổi giọng nói thành giọng nữ thanh nhọn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch04-th-q06",
@@ -152,7 +197,16 @@
           "2": "PGD là kĩ thuật chẩn đoán phát hiện, không can thiệp sửa đổi bộ gene của phôi.",
           "1": "Mục tiêu là chọn lọc phôi đơn khỏe mạnh, không kích thích song sinh bất thường."
         }
-      }
+      },
+      "socraticPrompt": "Làm thế nào để hai vợ chồng cùng mang gene lặn Thalassemia chắc chắn sinh con không bị thiếu máu tán huyết nặng?",
+      "distractorReasons": [
+        "Sai vì 'Giúp chữa khỏi bệnh tan máu bẩm sinh hoàn toàn cho cả bố và mẹ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Kích thích phôi tự nhân đôi thành nhiều cặp song sinh cùng trứng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Làm cho phôi thai tự sửa chữa các đột biến gene bị lỗi trong ADN' (kĩ thuật chọn lọc phôi khỏe mạnh với liệu pháp sửa đổi gene chữa bệnh cho bố mẹ).",
+        "Đúng vì: Khi cả hai vợ chồng đều mang gene lặn bệnh tan máu bẩm sinh (Thalassemia), xác suất sinh con bị bệnh thể nặng lên tới 25%. Kĩ thuật PGT (Preimplantation Genetic."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

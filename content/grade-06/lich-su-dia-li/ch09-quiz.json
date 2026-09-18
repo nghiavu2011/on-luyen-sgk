@@ -23,12 +23,15 @@
         "steps": "Gia tăng phát thải khí $CO_2$ do con người là nguyên nhân cốt lõi.",
         "trap": "Hiểu sai theo nghĩa đen là do xây nhà trồng rau bằng kính."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo cơ chế khoa học khí quyển SGK trang 152.",
-        "B": "Sai, khoảng cách giữa Trái Đất và Mặt Trời ổn định theo quỹ đạo elip.",
-        "C": "Sai, 'nhà kính' ở đây là hình ảnh so sánh khoa học chứ không phải nhà kính nông nghiệp.",
-        "D": "Sai, nhiệt lòng đất bị chặn bởi lớp vỏ đá dày."
-      }
+      "distractorReasons": [
+        "Đúng vì cơ chế khoa học khí quyển SGK trang 152.",
+        "Sai vì khoảng cách giữa Trái Đất và Mặt Trời ổn định theo quỹ đạo elip.",
+        "Sai vì 'nhà kính' ở đây là hình ảnh so sánh khoa học chứ không phải nhà kính nông nghiệp.",
+        "Sai vì nhiệt lòng đất bị chặn bởi lớp vỏ đá dày."
+      ],
+      "socraticPrompt": "Khí nào thải ra từ khói xe và nhà máy giữ nhiệt làm Trái Đất ấm lên?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch09_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Năng lượng xanh + Trồng rừng là 2 trụ cột giảm phát thải carbon toàn cầu.",
         "trap": "Tiếp tục tư duy phụ thuộc vào nhiên liệu hóa thạch gây ô nhiễm."
       },
-      "distractorReasons": {
-        "A": "Sai, đốt than đá làm tăng nghiêm trọng khí $CO_2$.",
-        "B": "Sai, phá rừng làm mất bể chứa carbon tự nhiên.",
-        "C": "Đáp án đúng theo định hướng hành động xanh toàn cầu SGK trang 153.",
-        "D": "Sai, xả trộm khí thải là hành vi vi phạm pháp luật môi trường."
-      }
+      "distractorReasons": [
+        "Sai vì đốt than đá làm tăng nghiêm trọng khí $CO_2$.",
+        "Sai vì phá rừng làm mất bể chứa carbon tự nhiên.",
+        "Đúng vì ịnh hướng hành động xanh toàn cầu SGK trang 153.",
+        "Sai vì xả trộm khí thải là hành vi vi phạm pháp luật môi trường."
+      ],
+      "socraticPrompt": "Thay vì đốt than sinh khói độc, con người nên khai thác nguồn năng lượng sạch nào từ thiên nhiên?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch09_d3_03",
@@ -75,12 +81,15 @@
         "steps": "Quy luật đai cao nhiệt độ: địa hình núi cao quyết định tính chất mát mẻ của Sa Pa, Đà Lạt.",
         "trap": "Nhầm Sa Pa ở gần cực Bắc hoặc sát biển."
       },
-      "distractorReasons": {
-        "A": "Sai, Sa Pa nằm sâu trong đất liền miền núi phía Bắc.",
-        "B": "Đáp án đúng theo quy luật đai cao khí hậu SGK.",
-        "C": "Sai, Sa Pa ở vĩ độ nhiệt đới Bán cầu Bắc ($22^\\circ\\text{B}$).",
-        "D": "Sai, Sa Pa vẫn nhận bức xạ Mặt Trời bình thường."
-      }
+      "distractorReasons": [
+        "Sai vì Sa Pa nằm sâu trong đất liền miền núi phía Bắc.",
+        "Đúng vì quy luật đai cao khí hậu SGK.",
+        "Sai vì Sa Pa ở vĩ độ nhiệt đới Bán cầu Bắc ($22^\\circ\\text{B}$).",
+        "Sai vì Sa Pa vẫn nhận bức xạ Mặt Trời bình thường."
+      ],
+      "socraticPrompt": "Sa Pa nằm trên núi cao 1500m, tại sao núi cao lại mát mẻ?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch09_d3_04",
@@ -101,12 +110,15 @@
         "steps": "Sườn đón gió: ẩm, mưa nhiều; Sườn khuất gió: khô, nóng (hiệu ứng phơn).",
         "trap": "Nghĩ rằng mưa phân bố đều cả hai sườn của dãy núi."
       },
-      "distractorReasons": {
-        "A": "Sai, sườn khuất gió bị khô nóng chứ không mưa đá.",
-        "B": "Sai, sườn đón gió là nơi mưa lớn nhất.",
-        "C": "Sai, địa hình chắn gió tạo sự đối lập sâu sắc về lượng mưa.",
-        "D": "Đáp án chính xác theo quy luật mưa địa hình SGK trang 148."
-      }
+      "distractorReasons": [
+        "Sai vì sườn khuất gió bị khô nóng chứ không mưa đá.",
+        "Sai vì sườn đón gió là nơi mưa lớn nhất.",
+        "Sai vì địa hình chắn gió tạo sự đối lập sâu sắc về lượng mưa.",
+        "Đúng vì quy luật mưa địa hình SGK trang 148."
+      ],
+      "socraticPrompt": "Không khí ẩm gặp sườn núi bị đẩy lên cao sẽ lạnh đi hay nóng lên? Lạnh đi thì sinh ra gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch09_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Hành động nhỏ, ý nghĩa lớn: xe đạp + cây xanh + tiết kiệm điện.",
         "trap": "Hành vi đốt rác nhựa gây ô nhiễm không khí nặng nề bởi khí dioxin độc hại."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng thể hiện hành vi công dân gương mẫu.",
-        "B": "Sai, đốt rác nhựa sinh ra khí độc nguy hại tới sức khỏe hô hấp.",
-        "C": "Sai, hóa chất chứa CFC phá hủy tầng ôzôn.",
-        "D": "Sai, lãng phí điện năng gián tiếp làm tăng phát thải khí nhà kính."
-      }
+      "distractorReasons": [
+        "Đúng vì ể hiện hành vi công dân gương mẫu.",
+        "Sai vì đốt rác nhựa sinh ra khí độc nguy hại tới sức khỏe hô hấp.",
+        "Sai vì hóa chất chứa CFC phá hủy tầng ôzôn.",
+        "Sai vì lãng phí điện năng gián tiếp làm tăng phát thải khí nhà kính."
+      ],
+      "socraticPrompt": "Đi xe đạp và trồng cây có giúp giảm ô nhiễm không khí và tiết kiệm năng lượng không?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch09_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Cảnh báo khẩn cấp về khủng hoảng khí hậu toàn cầu.",
         "trap": "Tin vào các tin đồn ngày tận thế hoang đường phản khoa học."
       },
-      "distractorReasons": {
-        "A": "Sai, quỹ đạo Mặt Trăng ổn định nhờ lực hấp dẫn vũ trụ.",
-        "B": "Sai, Trái Đất vẫn tự quay đều đặn quanh trục.",
-        "C": "Đáp án đúng theo thông điệp giáo dục môi trường SGK trang 152.",
-        "D": "Sai, nhiệt độ tăng cao làm tan băng chứ không đóng băng mùa hè."
-      }
+      "distractorReasons": [
+        "Sai vì quỹ đạo Mặt Trăng ổn định nhờ lực hấp dẫn vũ trụ.",
+        "Sai vì Trái Đất vẫn tự quay đều đặn quanh trục.",
+        "Đúng vì ông điệp giáo dục môi trường SGK trang 152.",
+        "Sai vì nhiệt độ tăng cao làm tan băng chứ không đóng băng mùa hè."
+      ],
+      "socraticPrompt": "Thời tiết ngày càng thất thường nắng bão dị thường báo động điều gì?",
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

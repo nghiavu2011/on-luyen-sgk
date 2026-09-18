@@ -21,7 +21,16 @@
         "socraticPrompt": "Cá chép có mang sống hoàn toàn dưới nước khác biệt rõ nhất với 3 con vật còn lại ở đặc điểm môi trường và cơ quan hô hấp nào?",
         "steps": "Thở bằng mang ở nước vs Thở bằng phổi ở cạn giúp tách ngay cá chép.",
         "trap": "Có cánh chỉ tách được chim bồ câu."
-      }
+      },
+      "socraticPrompt": "Cá chép có mang sống hoàn toàn dưới nước khác biệt rõ nhất với 3 con vật còn lại ở đặc điểm môi trường và cơ quan hô hấp nào?",
+      "distractorReasons": [
+        "Đúng vì: Thở bằng mang ở nước vs Thở bằng phổi ở cạn giúp tách ngay cá chép.",
+        "Sai vì phủ định sai bản chất: 'Có lông mao / Không có lông mao' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Có cánh / Không có cánh' (Có cánh chỉ tách được chim bồ câu.).",
+        "Sai vì 'Đẻ con / Đẻ trứng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c8_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Kháng sinh có diệt được virus không? Uống kháng sinh bừa bãi dẫn đến hiểm hoạ gì?",
         "steps": "Kháng sinh vô tác dụng với virus, lạm dụng gây nguy cơ vi khuẩn kháng thuốc toàn cầu.",
         "trap": "Cứ sốt là uống kháng sinh là sai lầm phổ biến nhất trong đời sống."
-      }
+      },
+      "socraticPrompt": "Kháng sinh có diệt được virus không? Uống kháng sinh bừa bãi dẫn đến hiểm hoạ gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Rất hợp lí vì kháng sinh chữa được mọi loại bệnh sốt' (Cứ sốt là uống kháng sinh là sai lầm phổ biến nhất trong đời sống.).",
+        "Đúng vì: Kháng sinh vô tác dụng với virus, lạm dụng gây nguy cơ vi khuẩn kháng thuốc toàn cầu.",
+        "Sai vì 'Hợp lí vì kháng sinh tiêu diệt tế bào virus' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì phủ định sai bản chất: 'Không hợp lí vì kháng sinh làm virus phân chia nhanh hơn' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c8_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Nấm hoang dã có bao gốc phình to và vòng cổ nấm thường là nấm gì?",
         "steps": "Tuyệt đối không hái ăn nấm hoang dã lạ trong rừng.",
         "trap": "Nếm thử một lượng nhỏ cũng đủ gây suy gan cấp tử vong."
-      }
+      },
+      "socraticPrompt": "Nấm hoang dã có bao gốc phình to và vòng cổ nấm thường là nấm gì?",
+      "distractorReasons": [
+        "Sai vì 'Hái về nấu canh nấm ăn thử vì nấm đẹp chắc chắn ngon bổ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Nếm thử một miếng nhỏ xem có ngọt không' (Nếm thử một lượng nhỏ cũng đủ gây suy gan cấp tử vong.).",
+        "Đúng vì: Tuyệt đối không hái ăn nấm hoang dã lạ trong rừng.",
+        "Sai vì 'Mang về phơi khô làm trà uống' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c8_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Rêu đã có ống mạch gỗ dẫn nước lên cao như cây thân gỗ to chưa?",
         "steps": "Chưa có mạch dẫn + rễ giả -> không dẫn nước lên cao -> cơ thể nhỏ bé ở nơi ẩm ướt.",
         "trap": "Rêu đã là cơ thể đa bào và có diệp lục quang hợp bình thường."
-      }
+      },
+      "socraticPrompt": "Rêu đã có ống mạch gỗ dẫn nước lên cao như cây thân gỗ to chưa?",
+      "distractorReasons": [
+        "Sai vì 'Vì rêu sợ ánh nắng mặt trời đốt cháy rễ củ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì rêu không có chất diệp lục' (Rêu đã là cơ thể đa bào và có diệp lục quang hợp bình thường.).",
+        "Sai vì 'Vì rêu là sinh vật đơn bào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Chưa có mạch dẫn + rễ giả -> không dẫn nước lên cao -> cơ thể nhỏ bé ở nơi ẩm ướt."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c8_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Dơi có đẻ trứng như chim không? Cá heo có đẻ con và cho con bú sữa không?",
         "steps": "Đẻ con và nuôi con bằng sữa mẹ -> cả dơi và cá heo đều thuộc lớp Thú.",
         "trap": "Nhầm dơi là chim (vì có cánh bay) và cá heo là cá (vì bơi dưới nước)."
-      }
+      },
+      "socraticPrompt": "Dơi có đẻ trứng như chim không? Cá heo có đẻ con và cho con bú sữa không?",
+      "distractorReasons": [
+        "Đúng vì: Đẻ con và nuôi con bằng sữa mẹ -> cả dơi và cá heo đều thuộc lớp Thú.",
+        "Sai vì 'Lớp Bò sát' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Lớp Chim và Lớp Cá' (dơi là chim (vì có cánh bay) và cá heo là cá (vì bơi dưới nước)).",
+        "Sai vì 'Lớp Lưỡng cư' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c8_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Vi khuẩn có lợi trong sữa chua và ruột non giúp cơ thể tiêu hoá và tạo ra vitamin gì?",
         "steps": "Hỗ trợ tiêu hoá, tổng hợp vitamin và cạnh tranh bảo vệ ruột khỏi hại khuẩn.",
         "trap": "Nghĩ rằng mọi vi khuẩn đều có hại gây bệnh."
-      }
+      },
+      "socraticPrompt": "Vi khuẩn có lợi trong sữa chua và ruột non giúp cơ thể tiêu hoá và tạo ra vitamin gì?",
+      "distractorReasons": [
+        "Sai vì 'Làm tăng huyết áp' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hỗ trợ tiêu hoá, tổng hợp vitamin và cạnh tranh bảo vệ ruột khỏi hại khuẩn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Ăn hết mọi thức ăn làm người gầy yếu' (Nghĩ rằng mọi vi khuẩn đều có hại gây bệnh.).",
+        "Sai vì 'Biến ruột già thành nước muối' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

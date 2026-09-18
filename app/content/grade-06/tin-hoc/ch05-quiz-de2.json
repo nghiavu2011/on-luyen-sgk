@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Căn lề đều hai bên Justify (Bài 11, SGK Tin học 6, trang 50).",
         "steps": "Lệnh Justify (Ctrl+J) tự động điều chỉnh khoảng cách giữa các từ để cả mép trái và mép phải của đoạn văn đều thẳng hàng, tạo cảm giác chuyên nghiệp như sách in.",
-        "trap": "Mặc định dùng căn lề trái (Ctrl+L) khiến mép phải bị lởm chởm so le."
+        "trap": "Mặc định dùng căn lề trái (Ctrl+L) khiến mép phải bị lởm chởm so le.",
+        "socraticPrompt": "Kiểu căn lề nào trong các trang sách giáo khoa in khiến cả hai mép trang giấy đều thẳng đều tăm tắp?"
       },
       "socraticPrompt": "Kiểu căn lề nào trong các trang sách giáo khoa in khiến cả hai mép trang giấy đều thẳng đều tăm tắp?",
       "distractorReasons": [
-        "Sai, căn lề trái làm mép bên phải bị nham nhở không đều.",
-        "Sai, căn giữa chỉ dùng cho tiêu đề chính bài học.",
-        "Sai, căn lề phải chỉ dùng cho dòng ký tên góc dưới.",
-        "Chính xác, căn đều hai bên (Justify) là chuẩn trình bày văn bản trang trọng."
-      ]
+        "Sai vì căn lề trái làm mép bên phải bị nham nhở không đều.",
+        "Sai vì căn giữa chỉ dùng cho tiêu đề chính bài học.",
+        "Sai vì căn lề phải chỉ dùng cho dòng ký tên góc dưới.",
+        "Đúng vì căn đều hai bên (Justify) là chuẩn trình bày văn bản trang trọng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch05_d2_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Sử dụng công cụ thay thế (Bài 13, SGK Tin học 6, trang 60-61).",
         "steps": "Replace: Thay thế từng từ đơn lẻ tại vị trí đang chọn. Replace All: Thay thế đồng loạt tất cả mọi từ trùng khớp trong toàn bộ tệp.",
-        "trap": "Nhầm tưởng hai nút lệnh này hoàn toàn giống nhau."
+        "trap": "Nhầm tưởng hai nút lệnh này hoàn toàn giống nhau.",
+        "socraticPrompt": "Nếu em muốn sửa tất cả 100 lỗi chính tả trong bài chỉ bằng 1 lần bấm chuột, em sẽ chọn nút nào?"
       },
       "socraticPrompt": "Nếu em muốn sửa tất cả 100 lỗi chính tả trong bài chỉ bằng 1 lần bấm chuột, em sẽ chọn nút nào?",
       "distractorReasons": [
-        "Chính xác, phân biệt rõ cơ chế thay thế từng bước kiểm soát và thay thế tự động toàn bộ.",
-        "Sai, không nút nào dùng để vẽ hình ảnh.",
-        "Sai, chúng có phạm vi tác động khác nhau hoàn toàn.",
-        "Sai, cả hai nút đều là thao tác soạn thảo trên phần mềm Word."
-      ]
+        "Đúng vì phân biệt rõ cơ chế thay thế từng bước kiểm soát và thay thế tự động toàn bộ.",
+        "Sai vì không nút nào dùng để vẽ hình ảnh.",
+        "Sai vì chúng có phạm vi tác động khác nhau hoàn toàn.",
+        "Sai vì cả hai nút đều là thao tác soạn thảo trên phần mềm Word."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch05_d2_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "Lợi ích học tập của sơ đồ tư duy (Bài 10, SGK Tin học 6, trang 44).",
         "steps": "Sơ đồ tư duy kích hoạt cả hai bán cầu não nhờ sự phối hợp giữa từ khóa logic và hình ảnh màu sắc trực quan, giúp việc tổng hợp và ghi nhớ bài học nhanh hơn nhiều lần.",
-        "trap": "Nghĩ vẽ sơ đồ tư duy chỉ để lười chép bài mà không cần hiểu kiến thức."
+        "trap": "Nghĩ vẽ sơ đồ tư duy chỉ để lười chép bài mà không cần hiểu kiến thức.",
+        "socraticPrompt": "Tại sao một bức tranh sơ đồ có nhiều màu sắc và nhánh lại dễ nhớ hơn một trang vở toàn chữ màu đen đặc?"
       },
       "socraticPrompt": "Tại sao một bức tranh sơ đồ có nhiều màu sắc và nhánh lại dễ nhớ hơn một trang vở toàn chữ màu đen đặc?",
       "distractorReasons": [
-        "Sai, mục đích của sơ đồ tư duy là hiệu quả nhận thức chứ không phải tiết kiệm mực.",
-        "Sai, điểm số phụ thuộc vào năng lực làm bài kiểm tra thực tế.",
-        "Sai, vẽ sơ đồ tư duy đòi hỏi học sinh phải suy nghĩ chắt lọc từ khóa cốt lõi.",
-        "Chính xác, đây là giá trị sư phạm cốt lõi của sơ đồ tư duy đối với học sinh."
-      ]
+        "Sai vì mục đích của sơ đồ tư duy là hiệu quả nhận thức chứ không phải tiết kiệm mực.",
+        "Sai vì điểm số phụ thuộc vào năng lực làm bài kiểm tra thực tế.",
+        "Sai vì vẽ sơ đồ tư duy đòi hỏi học sinh phải suy nghĩ chắt lọc từ khóa cốt lõi.",
+        "Đúng vì đây là giá trị sư phạm cốt lõi của sơ đồ tư duy đối với học sinh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch05_d2_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Định dạng hình ảnh Wrap Text (Bài 11, SGK Tin học 6, trang 52).",
         "steps": "Mặc định ảnh mới chèn ở chế độ 'In Line with Text' (như một ký tự chữ nên khó kéo tự do). Chuyển Wrap Text sang dạng 'Square' hoặc 'Tight' giúp ảnh di chuyển tự do giữa các dòng chữ.",
-        "trap": "Nghĩ rằng phần mềm bị đơ nên khởi động lại máy tính."
+        "trap": "Nghĩ rằng phần mềm bị đơ nên khởi động lại máy tính.",
+        "socraticPrompt": "Thuộc tính nào trên thanh định dạng ảnh có biểu tượng chú chó và các dòng văn bản bao quanh?"
       },
       "socraticPrompt": "Thuộc tính nào trên thanh định dạng ảnh có biểu tượng chú chó và các dòng văn bản bao quanh?",
       "distractorReasons": [
-        "Chính xác, thay đổi Wrap Text là thao tác kỹ thuật chuẩn để giải phóng vị trí ảnh trong Word.",
-        "Sai, tăng cỡ chữ không làm thay đổi thuộc tính cố định vị trí của ảnh.",
-        "Sai, in ra giấy không giải quyết được việc bố cục trên màn hình.",
-        "Sai, khởi động lại máy không thay đổi định dạng ngắt dòng của tệp."
-      ]
+        "Đúng vì thay đổi Wrap Text là thao tác kỹ thuật chuẩn để giải phóng vị trí ảnh trong Word.",
+        "Sai vì tăng cỡ chữ không làm thay đổi thuộc tính cố định vị trí của ảnh.",
+        "Sai vì in ra giấy không giải quyết được việc bố cục trên màn hình.",
+        "Sai vì khởi động lại máy không thay đổi định dạng ngắt dòng của tệp."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch05_d2_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Ứng dụng gộp ô tạo tiêu đề bảng (Bài 12, SGK Tin học 6, trang 56).",
         "steps": "Gộp 5 ô hàng 1 thành 1 ô duy nhất bằng Merge Cells, sau đó căn lề giữa (Ctrl+E) là chuẩn kỹ năng soạn thảo bảng chuyên nghiệp.",
-        "trap": "Dùng phím Space để căn thủ công khiến tiêu đề bị xô lệch khi đổi phông chữ."
+        "trap": "Dùng phím Space để căn thủ công khiến tiêu đề bị xô lệch khi đổi phông chữ.",
+        "socraticPrompt": "Làm thế nào để biến 5 ô nhỏ trên cùng thành một ô dài duy nhất trước khi căn chữ ra chính giữa?"
       },
       "socraticPrompt": "Làm thế nào để biến 5 ô nhỏ trên cùng thành một ô dài duy nhất trước khi căn chữ ra chính giữa?",
       "distractorReasons": [
-        "Chính xác, đây là quy trình thao tác chuẩn xác và khoa học nhất trong Word.",
-        "Sai, dùng phím cách (Space) là thói quen xấu làm hỏng định dạng khi in.",
-        "Sai, xóa cột sẽ làm mất cấu trúc các hàng dữ liệu bên dưới.",
-        "Sai, bảng biểu là dữ liệu văn bản trực quan, không thể đổi thành âm thanh."
-      ]
+        "Đúng vì đây là quy trình thao tác chuẩn xác và khoa học nhất trong Word.",
+        "Sai vì dùng phím cách (Space) là thói quen xấu làm hỏng định dạng khi in.",
+        "Sai vì xóa cột sẽ làm mất cấu trúc các hàng dữ liệu bên dưới.",
+        "Sai vì bảng biểu là dữ liệu văn bản trực quan, không thể đổi thành âm thanh."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch05_d2_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Quy trình hoàn thiện văn bản tổng hợp (Bài 14, SGK Tin học 6, trang 62-63).",
         "steps": "Quy trình sản phẩm hoàn chỉnh: Lên dàn ý và gõ nội dung thô -> Định dạng chữ, đoạn, trang -> Trang trí ảnh và bảng -> Soát lỗi chính tả bằng Find/Replace -> Trang bìa và xuất bản in ấn.",
-        "trap": "Thực hiện lộn xộn in ấn trước khi soạn thảo."
+        "trap": "Thực hiện lộn xộn in ấn trước khi soạn thảo.",
+        "socraticPrompt": "Để xây dựng một ngôi nhà, em cần đổ móng dựng khung trước hay sơn tường trang trí trước?"
       },
       "socraticPrompt": "Để xây dựng một ngôi nhà, em cần đổ móng dựng khung trước hay sơn tường trang trí trước?",
       "distractorReasons": [
         "Sai trình tự logic thực tế, không thể in giấy trắng trước khi gõ chữ.",
-        "Sai, thiếu nội dung thông tin bài viết và tình cảm học trò.",
-        "Sai, sản phẩm sổ lưu niệm cốt lõi ở nội dung kỷ niệm của cả tập thể.",
-        "Chính xác, quy trình chuẩn mực giúp sản phẩm đạt chất lượng cao và tiết kiệm thời gian."
-      ]
+        "Sai vì thiếu nội dung thông tin bài viết và tình cảm học trò.",
+        "Sai vì sản phẩm sổ lưu niệm cốt lõi ở nội dung kỷ niệm của cả tập thể.",
+        "Đúng vì quy trình chuẩn mực giúp sản phẩm đạt chất lượng cao và tiết kiệm thời gian."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

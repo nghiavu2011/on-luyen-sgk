@@ -23,12 +23,15 @@
         "steps": "Hội tụ đầy đủ: vị trí, nước thể lỏng, khí quyển chứa oxy.",
         "trap": "Nhầm sang các hành tinh nóng nhất (Sao Kim) hoặc to nhất (Sao Mộc)."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác và toàn diện nhất SGK trang 116.",
-        "B": "Sai, Sao Kim nóng nhất, Sao Mộc to nhất nhưng không có sự sống.",
-        "C": "Sai, nếu không có ánh sáng Mặt Trời thì thực vật không quang hợp được.",
-        "D": "Sai, lớp vỏ Trái Đất là silicat và khoáng vật đất đá."
-      }
+      "distractorReasons": [
+        "Đúng vì và toàn diện nhất SGK trang 116.",
+        "Sai vì Sao Kim nóng nhất, Sao Mộc to nhất nhưng không có sự sống.",
+        "Sai vì nếu không có ánh sáng Mặt Trời thì thực vật không quang hợp được.",
+        "Sai vì lớp vỏ Trái Đất là silicat và khoáng vật đất đá."
+      ],
+      "socraticPrompt": "Sự sống cần không khí gì để thở, chất gì để uống và nhiệt độ như thế nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch07_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Mất trục nghiêng = mất hiện tượng bốn mùa và mất hiện tượng ngày đêm dài ngắn theo mùa.",
         "trap": "Tưởng tượng cực đoan thành Trái Đất bốc cháy hoặc đóng băng hoàn toàn."
       },
-      "distractorReasons": {
-        "A": "Sai, năng lượng Mặt Trời nhận được về tổng thể không đổi.",
-        "B": "Đáp án đúng theo lập luận tư duy địa lí khoa học.",
-        "C": "Sai, Trái Đất tự quay thì Mặt Trời vẫn mọc lặn bình thường.",
-        "D": "Sai, vùng nhiệt đới vẫn ấm áp, chỉ là không có sự biến đổi theo mùa."
-      }
+      "distractorReasons": [
+        "Sai vì năng lượng Mặt Trời nhận được về tổng thể không đổi.",
+        "Đúng vì lập luận tư duy địa lí khoa học.",
+        "Sai vì Trái Đất tự quay thì Mặt Trời vẫn mọc lặn bình thường.",
+        "Sai vì vùng nhiệt đới vẫn ấm áp, chỉ là không có sự biến đổi theo mùa."
+      ],
+      "socraticPrompt": "Cái gì tạo ra bốn mùa? Nếu góc chiếu quanh năm không đổi thì có sinh ra mùa hè và mùa đông không?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch07_d3_03",
@@ -75,12 +81,15 @@
         "steps": "Dồn về bên phải -> bờ phải bị xói mòn mạnh hơn.",
         "trap": "Nhầm bờ trái bị lở (bờ trái là ở Bán cầu Nam)."
       },
-      "distractorReasons": {
-        "A": "Sai, thực tế hai bờ sông Hồng có địa hình bên lở bên bồi rõ rệt.",
-        "B": "Sai, bờ trái là quy luật đối với các dòng sông ở Bán cầu Nam.",
-        "C": "Đáp án đúng theo bài học lực Cô-ri-ô-lít và thực tế địa mạo sông ngòi SGK trang 120.",
-        "D": "Sai, dòng nước tác động mạnh vào bờ chắn."
-      }
+      "distractorReasons": [
+        "Sai vì thực tế hai bờ sông Hồng có địa hình bên lở bên bồi rõ rệt.",
+        "Sai vì bờ trái là quy luật đối với các dòng sông ở Bán cầu Nam.",
+        "Đúng vì bài học lực Cô-ri-ô-lít và thực tế địa mạo sông ngòi SGK trang 120.",
+        "Sai vì dòng nước tác động mạnh vào bờ chắn."
+      ],
+      "socraticPrompt": "Đứng xuôi theo dòng sông chảy ở Bán cầu Bắc, nước dồn về bên tay nào của em?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch07_d3_04",
@@ -101,12 +110,15 @@
         "steps": "$8\\text{h} - 7\\text{h} = 1\\text{h sáng}$; $1\\text{h} + 12\\text{h} = 13\\text{h}$ ngày 10/10.",
         "trap": "Lấy $8 + 12 = 20\\text{h}$ rồi quên trừ chênh lệch 7 tiếng múi giờ."
       },
-      "distractorReasons": {
-        "A": "Sai, giờ hạ cánh không thể trùng với giờ cất cánh.",
-        "B": "Sai, 20 giờ là giờ Hà Nội lúc hạ cánh.",
-        "C": "Sai, do tính nhầm làm phép cộng múi giờ.",
-        "D": "Đáp án chính xác qua 2 bước tính giờ bay."
-      }
+      "distractorReasons": [
+        "Sai vì giờ hạ cánh không thể trùng với giờ cất cánh.",
+        "Sai vì 20 giờ là giờ Hà Nội lúc hạ cánh.",
+        "Sai vì do tính nhầm làm phép cộng múi giờ.",
+        "Đúng vì qua 2 bước tính giờ bay."
+      ],
+      "socraticPrompt": "Khi ở Hà Nội 8h sáng thì ở Anh là mấy giờ? Bay mất 12 tiếng thì cộng thêm 12 vào mấy giờ?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch07_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Kinh nghiệm nông nghiệp kết tinh từ quan sát thiên văn và chuyển động biểu kiến của Mặt Trời.",
         "trap": "Coi câu tục ngữ chỉ là chuyện cười dân gian."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo bài học địa lí và đời sống SGK trang 124.",
-        "B": "Sai, câu ca dao phản ánh thời gian biểu tự nhiên để người dân sắp xếp công việc đồng áng.",
-        "C": "Sai, câu nói mang tính thậm xưng ước lệ chứ không phải ngày chỉ có 1 giờ.",
-        "D": "Sai, câu tục ngữ có cơ sở khoa học thiên văn rất chính xác."
-      }
+      "distractorReasons": [
+        "Đúng vì bài học địa lí và đời sống SGK trang 124.",
+        "Sai vì câu ca dao phản ánh thời gian biểu tự nhiên để người dân sắp xếp công việc đồng áng.",
+        "Sai vì câu nói mang tính thậm xưng ước lệ chứ không phải ngày chỉ có 1 giờ.",
+        "Sai vì câu tục ngữ có cơ sở khoa học thiên văn rất chính xác."
+      ],
+      "socraticPrompt": "Câu ca dao nói về hiện tượng ngày dài đêm ngắn hay đêm dài ngày ngắn ở mùa nào?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch07_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Ý thức sống xanh, bảo vệ hành tinh xanh duy nhất của chúng ta.",
         "trap": "Ý nghĩ viển vông chuyển sang hành tinh khác sống thay vì bảo vệ Trái Đất."
       },
-      "distractorReasons": {
-        "A": "Sai, hiện nay loài người chưa thể di cư sinh sống trên hành tinh nào khác.",
-        "B": "Đáp án đúng thể hiện đạo đức công dân toàn cầu xanh.",
-        "C": "Sai, hành vi phá hoại hệ sinh thái nguồn nước.",
-        "D": "Sai, chặt phá rừng làm tăng biến đổi khí hậu và lũ lụt."
-      }
+      "distractorReasons": [
+        "Sai vì hiện nay loài người chưa thể di cư sinh sống trên hành tinh nào khác.",
+        "Đúng vì ể hiện đạo đức công dân toàn cầu xanh.",
+        "Sai vì hành vi phá hoại hệ sinh thái nguồn nước.",
+        "Sai vì chặt phá rừng làm tăng biến đổi khí hậu và lũ lụt."
+      ],
+      "socraticPrompt": "Hành động nào giúp giảm khí thải nhà kính và giữ sạch môi trường xung quanh em?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

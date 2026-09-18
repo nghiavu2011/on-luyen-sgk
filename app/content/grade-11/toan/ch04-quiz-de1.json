@@ -22,7 +22,16 @@
         "socraticPrompt": "Ba điểm tạo thành một tam giác thì có bao nhiêu mặt phẳng chứa trọn tam giác đó?",
         "steps": "Theo tính chất thừa nhận của hình học không gian, qua 3 điểm phân biệt không thẳng hàng có duy nhất 1 mặt phẳng.",
         "trap": "Nhầm với trường hợp 3 điểm thẳng hàng (có vô số mặt phẳng)."
-      }
+      },
+      "socraticPrompt": "Ba điểm tạo thành một tam giác thì có bao nhiêu mặt phẳng chứa trọn tam giác đó?",
+      "distractorReasons": [
+        "Sai vì 'Vô số' không phù hợp với định lý/quy tắc trọng tâm (Tiên đề thừa nhận: Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng.).",
+        "Đúng vì: Theo tính chất thừa nhận của hình học không gian, qua 3 điểm phân biệt không thẳng hàng có duy nhất 1 mặt phẳng.",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Tiên đề thừa nhận: Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng.).",
+        "Sai vì '3' không phù hợp với định lý/quy tắc trọng tâm (Tiên đề thừa nhận: Có một và chỉ một mặt phẳng đi qua ba điểm không thẳng hàng.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c4_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Hai đường không cùng nằm trên một mặt phẳng thì có song song được không?",
         "steps": "Theo định nghĩa, hai đường thẳng không đồng phẳng và không cắt nhau là hai đường thẳng chéo nhau.",
         "trap": "Nhầm rằng không có điểm chung thì luôn song song."
-      }
+      },
+      "socraticPrompt": "Hai đường không cùng nằm trên một mặt phẳng thì có song song được không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Song song' (rằng không có điểm chung thì luôn song song).",
+        "Sai vì 'Trùng nhau' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Theo định nghĩa, hai đường thẳng không đồng phẳng và không cắt nhau là hai đường thẳng chéo nhau.",
+        "Sai vì 'Cắt nhau' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "t11_c4_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Song song theo hình học có nghĩa là chúng có chạm vào nhau điểm nào không?",
         "steps": "Đường thẳng và mặt phẳng gọi là song song nếu chúng không có điểm chung nào.",
         "trap": "Nhầm với d nằm trong mặt phẳng."
-      }
+      },
+      "socraticPrompt": "Song song theo hình học có nghĩa là chúng có chạm vào nhau điểm nào không?",
+      "distractorReasons": [
+        "Sai vì 'd và (α) có đúng một điểm chung' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa đường thẳng song song với mặt phẳng: d // (α) <=> d ∩ (α) = ∅.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'd nằm hoàn toàn trong (α)' (với d nằm trong mặt phẳng).",
+        "Sai vì 'd cắt (α) tại một điểm' không phù hợp với định lý/quy tắc trọng tâm (Định nghĩa đường thẳng song song với mặt phẳng: d // (α) <=> d ∩ (α) = ∅.).",
+        "Đúng vì: Đường thẳng và mặt phẳng gọi là song song nếu chúng không có điểm chung nào."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c4_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Hãy đếm các cạnh xuất phát từ đỉnh A (AB, AC, AD) và các cạnh đáy (BC, CD, DB).",
         "steps": "Các cạnh của tứ diện ABCD gồm: AB, AC, AD, BC, BD, CD. Tổng cộng có 6 cạnh.",
         "trap": "Nhầm số mặt (4 mặt) hoặc số đỉnh (4 đỉnh) với số cạnh."
-      }
+      },
+      "socraticPrompt": "Hãy đếm các cạnh xuất phát từ đỉnh A (AB, AC, AD) và các cạnh đáy (BC, CD, DB).",
+      "distractorReasons": [
+        "Đúng vì: Các cạnh của tứ diện ABCD gồm: AB, AC, AD, BC, BD, CD. Tổng cộng có 6 cạnh.",
+        "Sai vì '4' không phù hợp với định lý/quy tắc trọng tâm (Tứ diện ABCD có 4 đỉnh: A, B, C, D. Số cạnh nối từng cặp 2 đỉnh là C(4,2) = 6 cạnh.).",
+        "Sai vì '8' không phù hợp với định lý/quy tắc trọng tâm (Tứ diện ABCD có 4 đỉnh: A, B, C, D. Số cạnh nối từng cặp 2 đỉnh là C(4,2) = 6 cạnh.).",
+        "Sai vì '12' không phù hợp với định lý/quy tắc trọng tâm (Tứ diện ABCD có 4 đỉnh: A, B, C, D. Số cạnh nối từng cặp 2 đỉnh là C(4,2) = 6 cạnh.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c4_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Nếu hai đường thẳng a và b song song với nhau thì hai mặt phẳng có thể cắt nhau không?",
         "steps": "Nếu (α) chứa hai đường thẳng CẮT NHAU cùng song song với (β) thì (α) // (β).",
         "trap": "Quên điều kiện hai đường thẳng phải 'cắt nhau'."
-      }
+      },
+      "socraticPrompt": "Nếu hai đường thẳng a và b song song với nhau thì hai mặt phẳng có thể cắt nhau không?",
+      "distractorReasons": [
+        "Sai vì 'a // (β) và b // (β), với a và b song song nhau' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nếu (α) chứa hai đường thẳng CẮT NHAU cùng song song với (β) thì (α) // (β).",
+        "Sai vì 'a ⊂ (β) và b ⊂ (β)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'a // b và cùng nằm ngoài (β)' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c4_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Đáy là hình bình hành, các mặt bên của lăng trụ là hình gì?",
         "steps": "Theo định nghĩa SGK Toán 11, hình hộp có cả 6 mặt đều là các hình bình hành.",
         "trap": "Nhầm hình hộp tổng quát với hình hộp chữ nhật."
-      }
+      },
+      "socraticPrompt": "Đáy là hình bình hành, các mặt bên của lăng trụ là hình gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hình chữ nhật' (hình hộp tổng quát với hình hộp chữ nhật).",
+        "Sai vì 'Hình thoi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Theo định nghĩa SGK Toán 11, hình hộp có cả 6 mặt đều là các hình bình hành.",
+        "Sai vì 'Hình thang' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

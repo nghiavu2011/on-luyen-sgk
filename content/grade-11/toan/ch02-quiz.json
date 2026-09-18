@@ -22,7 +22,16 @@
         "socraticPrompt": "Số tiền sau mỗi năm tăng gấp 1,06 lần. Sau 3 năm nhân với 1,06^3?",
         "steps": "Số tiền sau 3 năm: A = 100 · (1 + 0,06)^3 = 100 · 1,191016 = 119,1016 triệu đồng ≈ 119 triệu đồng.",
         "trap": "Tính nhầm theo lãi đơn: 100 + 3 · 6 = 118 triệu đồng."
-      }
+      },
+      "socraticPrompt": "Số tiền sau mỗi năm tăng gấp 1,06 lần. Sau 3 năm nhân với 1,06^3?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '118 triệu đồng' (Tính nhầm theo lãi đơn: 100 + 3 · 6 = 118 triệu đồng.).",
+        "Đúng vì: Số tiền sau 3 năm: A = 100 · (1 + 0,06)^3 = 100 · 1,191016 = 119,1016 triệu đồng ≈ 119 triệu đồng.",
+        "Sai vì '126 triệu đồng' không phù hợp với định lý/quy tắc trọng tâm (Công thức lãi kép: A = P · (1 + r)^n, đây chính là số hạng của một cấp số nhân.).",
+        "Sai vì '116 triệu đồng' không phù hợp với định lý/quy tắc trọng tâm (Công thức lãi kép: A = P · (1 + r)^n, đây chính là số hạng của một cấp số nhân.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Tính u1 = S1 và u2 = S2 - S1, rồi tìm d = u2 - u1?",
         "steps": "Ta có: u1 = S1 = 2(1)² + 3(1) = 5. S2 = 2(2)² + 3(2) = 14 => u2 = S2 - S1 = 14 - 5 = 9. Công sai d = u2 - u1 = 9 - 5 = 4.",
         "trap": "Nhầm d là hệ số của n² (d = 2) hoặc hệ số của n (d = 3)."
-      }
+      },
+      "socraticPrompt": "Tính u1 = S1 và u2 = S2 - S1, rồi tìm d = u2 - u1?",
+      "distractorReasons": [
+        "Sai vì '3' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa Sn và un: u1 = S1; un = Sn - Sn-1 (với n ≥ 2).).",
+        "Sai vì '2' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa Sn và un: u1 = S1; un = Sn - Sn-1 (với n ≥ 2).).",
+        "Sai vì '5' không phù hợp với định lý/quy tắc trọng tâm (Mối liên hệ giữa Sn và un: u1 = S1; un = Sn - Sn-1 (với n ≥ 2).).",
+        "Đúng vì: Ta có: u1 = S1 = 2(1)² + 3(1) = 5. S2 = 2(2)² + 3(2) = 14 => u2 = S2 - S1 = 14 - 5 = 9. Công sai d = u2 - u1 = 9 - 5 = 4."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "t11_c2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Tổng các số từ 1 đến 15 là bao nhiêu? Lấy 15 nhân 16 chia 2 nhé!",
         "steps": "Số lượng ống từ trên xuống: 1, 2, 3, ..., 15. Đây là CSC có u1 = 1, u15 = 15, số số hạng n = 15. Tổng S = 15 · (1 + 15) / 2 = 15 · 8 = 120 ống.",
         "trap": "Lấy 15 · 15 = 225 hoặc nhân nhầm số hạng."
-      }
+      },
+      "socraticPrompt": "Tổng các số từ 1 đến 15 là bao nhiêu? Lấy 15 nhân 16 chia 2 nhé!",
+      "distractorReasons": [
+        "Đúng vì: Số lượng ống từ trên xuống: 1, 2, 3, ..., 15. Đây là CSC có u1 = 1, u15 = 15, số số hạng n = 15. Tổng S = 15 · (1 + 15) / 2 = 15 · 8 = 120 ống.",
+        "Sai vì '105 ống' không phù hợp với định lý/quy tắc trọng tâm (Tổng các số tự nhiên từ 1 đến n theo công thức CSC: Sn = n(n + 1)/2.).",
+        "Sai vì '135 ống' không phù hợp với định lý/quy tắc trọng tâm (Tổng các số tự nhiên từ 1 đến n theo công thức CSC: Sn = n(n + 1)/2.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '225 ống' (Lấy 15 · 15 = 225 hoặc nhân nhầm số hạng.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Cộng 1 vào hai vế: un+1 + 1 = 2(un + 1). Dãy (un + 1) là cấp số nhân có công bội bằng bao nhiêu?",
         "steps": "Đặt vn = un + 1 => v1 = u1 + 1 = 2. Phương trình truy hồi trở thành: vn+1 = 2vn. Do đó (vn) là cấp số nhân có v1 = 2, công bội q = 2 => vn = 2 · 2^(n-1) = 2^n. Suy ra un = vn - 1 = 2^n - 1.",
         "trap": "Thử nghiệm n = 1 thấy 2^1 - 1 = 1 đúng, nhưng nếu đoán un = 2n - 1 thì n = 2 sai vì u2 = 2(1)+1 = 3 (cả hai đều bằng 3) nhưng n = 3: u3 = 2(3)+1 = 7, còn 2(3)-1 = 5."
-      }
+      },
+      "socraticPrompt": "Cộng 1 vào hai vế: un+1 + 1 = 2(un + 1). Dãy (un + 1) là cấp số nhân có công bội bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì 'un = 2^(n-1)' không phù hợp với định lý/quy tắc trọng tâm (Biến đổi un+1 + 1 = 2(un + 1) để đưa về cấp số nhân phụ vn = un + 1.).",
+        "Đúng vì: Đặt vn = un + 1 => v1 = u1 + 1 = 2. Phương trình truy hồi trở thành: vn+1 = 2vn. Do đó (vn) là cấp số nhân có v1 = 2, công bội q = 2 => vn = 2 · 2^(n-1) = 2^n. .",
+        "Sai vì 'un = 2^(n+1) - 3' không phù hợp với định lý/quy tắc trọng tâm (Biến đổi un+1 + 1 = 2(un + 1) để đưa về cấp số nhân phụ vn = un + 1.).",
+        "Sai vì 'un = 2n - 1' không phù hợp với định lý/quy tắc trọng tâm (Biến đổi un+1 + 1 = 2(un + 1) để đưa về cấp số nhân phụ vn = un + 1.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Phương trình 4xq = x + 3xq² chia hai vế cho x ≠ 0 thì nghiệm q bằng bao nhiêu (với q ≠ 1)?",
         "steps": "Do x, 2y, 3z là CSC nên 2·(2y) = x + 3z <=> 4xq = x + 3xq² <=> 3q² - 4q + 1 = 0. Phương trình có hai nghiệm q = 1 hoặc q = 1/3. Vì giả thiết q ≠ 1 nên q = 1/3.",
         "trap": "Quên loại nghiệm q = 1 hoặc giải sai dấu phương trình bậc hai."
-      }
+      },
+      "socraticPrompt": "Phương trình 4xq = x + 3xq² chia hai vế cho x ≠ 0 thì nghiệm q bằng bao nhiêu (với q ≠ 1)?",
+      "distractorReasons": [
+        "Đúng vì: Do x, 2y, 3z là CSC nên 2·(2y) = x + 3z <=> 4xq = x + 3xq² <=> 3q² - 4q + 1 = 0. Phương trình có hai nghiệm q = 1 hoặc q = 1/3. Vì giả thiết q ≠ 1 nên q = 1/3.",
+        "Sai vì 'q = 3' không phù hợp với định lý/quy tắc trọng tâm (Biểu diễn y = xq, z = xq² vào điều kiện của cấp số cộng: 2(2y) = x + 3z.).",
+        "Sai vì 'q = 2/3' không phù hợp với định lý/quy tắc trọng tâm (Biểu diễn y = xq, z = xq² vào điều kiện của cấp số cộng: 2(2y) = x + 3z.).",
+        "Sai vì 'q = 1/2' không phù hợp với định lý/quy tắc trọng tâm (Biểu diễn y = xq, z = xq² vào điều kiện của cấp số cộng: 2(2y) = x + 3z.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "t11_c2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Trong cấp số cộng, tổng hai số hạng cách đều hai đầu mút luôn như thế nào với nhau?",
         "steps": "Ta có: u2 + u4 = (u1 + d) + (u5 - d) = u1 + u5 = 26.",
         "trap": "Nghĩ rằng u2 + u4 bị lệch chỉ số nên chia đôi ra 13."
-      }
+      },
+      "socraticPrompt": "Trong cấp số cộng, tổng hai số hạng cách đều hai đầu mút luôn như thế nào với nhau?",
+      "distractorReasons": [
+        "Sai vì '13' không phù hợp với định lý/quy tắc trọng tâm (Tính chất đối xứng của cấp số cộng: uk + un-k+1 không đổi (u1 + u5 = u2 + u4 = 2u3).).",
+        "Sai vì '52' không phù hợp với định lý/quy tắc trọng tâm (Tính chất đối xứng của cấp số cộng: uk + un-k+1 không đổi (u1 + u5 = u2 + u4 = 2u3).).",
+        "Đúng vì: Ta có: u2 + u4 = (u1 + d) + (u5 - d) = u1 + u5 = 26.",
+        "Sai vì '20' không phù hợp với định lý/quy tắc trọng tâm (Tính chất đối xứng của cấp số cộng: uk + un-k+1 không đổi (u1 + u5 = u2 + u4 = 2u3).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

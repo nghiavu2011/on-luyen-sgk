@@ -22,7 +22,16 @@
         "socraticPrompt": "Đại lượng nhân với thời gian t bên trong hàm cosin gọi là gì và có đơn vị đo góc trên thời gian?",
         "steps": "Theo SGK Vật lí 11, ω là tần số góc của dao động, đơn vị chuẩn là rad/s.",
         "trap": "Nhầm ω với pha ban đầu φ (rad) hoặc tần số f (Hz)."
-      }
+      },
+      "socraticPrompt": "Đại lượng nhân với thời gian t bên trong hàm cosin gọi là gì và có đơn vị đo góc trên thời gian?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Pha ban đầu, đơn vị rad' (ω với pha ban đầu φ (rad) hoặc tần số f (Hz)).",
+        "Đúng vì: Theo SGK Vật lí 11, ω là tần số góc của dao động, đơn vị chuẩn là rad/s.",
+        "Sai vì 'Chu kì, đơn vị giây (s)' không phù hợp với định lý/quy tắc trọng tâm (Trong phương trình li độ, ω là tần số góc với đơn vị đo là radian trên giây (rad/s).).",
+        "Sai vì 'Biên độ, đơn vị cm' không phù hợp với định lý/quy tắc trọng tâm (Trong phương trình li độ, ω là tần số góc với đơn vị đo là radian trên giây (rad/s).)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c1_d1_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Khi vật đi qua điểm chính giữa (VTCB) thì lò xo không bị biến dạng, toàn bộ thế năng chuyển thành động năng nên vận tốc thế nào?",
         "steps": "Tại VTCB x = 0, áp dụng hệ thức độc lập A² = x² + v²/ω² => |v| = ωA đạt cực đại.",
         "trap": "Nhầm vị trí biên là nơi có vận tốc cực đại (ở biên vận tốc bằng 0)."
-      }
+      },
+      "socraticPrompt": "Khi vật đi qua điểm chính giữa (VTCB) thì lò xo không bị biến dạng, toàn bộ thế năng chuyển thành động năng nên vận tốc thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vị trí biên dương' (vị trí biên là nơi có vận tốc cực đại (ở biên vận tốc bằng 0)).",
+        "Sai vì 'Vị trí biên âm' không phù hợp với định lý/quy tắc trọng tâm (Tốc độ cực đại v_max = ωA đạt được khi vật đi qua vị trí cân bằng (x = 0).).",
+        "Đúng vì: Tại VTCB x = 0, áp dụng hệ thức độc lập A² = x² + v²/ω² => |v| = ωA đạt cực đại.",
+        "Sai vì 'Vị trí có li độ x = A / 2' không phù hợp với định lý/quy tắc trọng tâm (Tốc độ cực đại v_max = ωA đạt được khi vật đi qua vị trí cân bằng (x = 0).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c1_d1_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Dấu trừ trong công thức a = -ω²x thể hiện mối liên hệ pha gì giữa gia tốc và li độ?",
         "steps": "Ta có a = -ω²x, dấu trừ biểu thị gia tốc ngược pha (lệch pha π) so với li độ.",
         "trap": "Nhầm mối quan hệ vuông pha π/2 của vận tốc."
-      }
+      },
+      "socraticPrompt": "Dấu trừ trong công thức a = -ω²x thể hiện mối liên hệ pha gì giữa gia tốc và li độ?",
+      "distractorReasons": [
+        "Sai vì 'Cùng pha với li độ' không phù hợp với định lý/quy tắc trọng tâm (Công thức gia tốc: a = -ω²x = ω²A cos(ωt + φ + π). Gia tốc ngược pha với li độ.).",
+        "Đúng vì: Ta có a = -ω²x, dấu trừ biểu thị gia tốc ngược pha (lệch pha π) so với li độ.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vuông pha trễ hơn li độ góc π/2' (mối quan hệ vuông pha π/2 của vận tốc).",
+        "Sai vì 'Sớm pha hơn li độ góc π/2' không phù hợp với định lý/quy tắc trọng tâm (Công thức gia tốc: a = -ω²x = ω²A cos(ωt + φ + π). Gia tốc ngược pha với li độ.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c1_d1_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Vật đi từ biên âm x = -A đến biên dương x = +A thì tổng quãng đường đoạn thẳng đó dài bao nhiêu?",
         "steps": "Độ dài quỹ đạo L = 2A = 2 · 4 = 8 cm.",
         "trap": "Lấy luôn L = A = 4 cm hoặc nhầm quãng đường trong 1 chu kì (4A = 16 cm)."
-      }
+      },
+      "socraticPrompt": "Vật đi từ biên âm x = -A đến biên dương x = +A thì tổng quãng đường đoạn thẳng đó dài bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '4 cm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '16 cm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì '2 cm' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Độ dài quỹ đạo L = 2A = 2 · 4 = 8 cm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "vl11_c1_d1_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Khi có lực cản môi trường làm tiêu hao năng lượng, đại lượng nào của dao động sẽ vơi dần theo thời gian?",
         "steps": "Lực cản môi trường sinh công âm tiêu hao cơ năng, làm cho cơ năng và biên độ dao động giảm dần đến khi dừng hẳn.",
         "trap": "Cho rằng chu kì giảm dần (chu kì của dao động tắt dần xấp xỉ không đổi nếu lực cản nhỏ)."
-      }
+      },
+      "socraticPrompt": "Khi có lực cản môi trường làm tiêu hao năng lượng, đại lượng nào của dao động sẽ vơi dần theo thời gian?",
+      "distractorReasons": [
+        "Đúng vì: Lực cản môi trường sinh công âm tiêu hao cơ năng, làm cho cơ năng và biên độ dao động giảm dần đến khi dừng hẳn.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chu kì dao động giảm dần theo thời gian' (Cho rằng chu kì giảm dần (chu kì của dao động tắt dần xấp xỉ không đổi nếu lực cản nhỏ).).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Vận tốc luôn luôn bằng 0', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Biên độ không đổi nhưng thế năng giảm dần' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c1_d1_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Cả tần số góc ω và biên độ A đều ở bậc mấy trong công thức cơ năng?",
         "steps": "Theo SGK Vật lí 11, cơ năng W = 1/2 · k · A² = 1/2 · m · ω² · A².",
         "trap": "Quên bình phương ở ω hoặc ở A."
-      }
+      },
+      "socraticPrompt": "Cả tần số góc ω và biên độ A đều ở bậc mấy trong công thức cơ năng?",
+      "distractorReasons": [
+        "Sai vì 'W = 1/2 · m · ω · A²' không phù hợp với định lý/quy tắc trọng tâm (Công thức cơ năng trong dao động điều hoà: W = 1/2 · m · ω² · A².).",
+        "Đúng vì: Theo SGK Vật lí 11, cơ năng W = 1/2 · k · A² = 1/2 · m · ω² · A².",
+        "Sai vì 'W = m · ω² · A' không phù hợp với định lý/quy tắc trọng tâm (Công thức cơ năng trong dao động điều hoà: W = 1/2 · m · ω² · A².).",
+        "Sai vì 'W = 1/2 · m · ω² · A' không phù hợp với định lý/quy tắc trọng tâm (Công thức cơ năng trong dao động điều hoà: W = 1/2 · m · ω² · A².)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

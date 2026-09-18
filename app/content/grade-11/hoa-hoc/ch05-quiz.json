@@ -22,7 +22,16 @@
         "socraticPrompt": "Chất chỉ thị thông dụng nhất để phát hiện dung dịch acid làm đổi sang màu đỏ là gì?",
         "steps": "Phenol có tính acid yếu hơn cả carbonic acid H2CO3 nên không đủ mạnh để làm đổi màu dung dịch quỳ tím thành đỏ.",
         "trap": "Cứ nghĩ hợp chất có tính acid thì đương nhiên phải làm quỳ tím hóa đỏ."
-      }
+      },
+      "socraticPrompt": "Chất chỉ thị thông dụng nhất để phát hiện dung dịch acid làm đổi sang màu đỏ là gì?",
+      "distractorReasons": [
+        "Sai vì 'Dung dịch phenolphtalein' không phù hợp với định lý/quy tắc trọng tâm (Tính acid của phenol quá yếu (Ka ≈ 10^-10) nên không làm đổi màu quỳ tím.).",
+        "Sai vì 'Dung dịch bromothymol blue' không phù hợp với định lý/quy tắc trọng tâm (Tính acid của phenol quá yếu (Ka ≈ 10^-10) nên không làm đổi màu quỳ tím.).",
+        "Đúng vì: Phenol có tính acid yếu hơn cả carbonic acid H2CO3 nên không đủ mạnh để làm đổi màu dung dịch quỳ tím thành đỏ.",
+        "Sai vì 'Dung dịch methyl da cam' không phù hợp với định lý/quy tắc trọng tâm (Tính acid của phenol quá yếu (Ka ≈ 10^-10) nên không làm đổi màu quỳ tím.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c5_th_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Nhóm -OH của ethanol có nguyên tử H linh động tạo được loại liên kết gì đặc biệt giữa các phân tử?",
         "steps": "Hai chất có cùng khối lượng phân tử (M = 46). Tuy nhiên, phân tử ethanol có nhóm -OH tạo được liên kết hydrogen liên phân tử bền vững, đòi hỏi cung cấp nhiều năng lượng hơn để phá vỡ khi sôi.",
         "trap": "Nghĩ rằng khối lượng phân tử khác nhau (trong khi cả hai đều là đồng phân có M = 46)."
-      }
+      },
+      "socraticPrompt": "Nhóm -OH của ethanol có nguyên tử H linh động tạo được loại liên kết gì đặc biệt giữa các phân tử?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khối lượng phân tử của ethanol lớn hơn dimethyl ether' (Nghĩ rằng khối lượng phân tử khác nhau (trong khi cả hai đều là đồng phân có M = 46).).",
+        "Sai vì 'Độ âm điện của nguyên tử carbon trong ethanol lớn hơn' không phù hợp với định lý/quy tắc trọng tâm (Vai trò quyết định của liên kết hydrogen liên phân tử đối với nhiệt độ sôi của alcohol.).",
+        "Sai vì 'Ethanol có liên kết cộng hoá trị bền vững hơn dimethyl ether' không phù hợp với định lý/quy tắc trọng tâm (Vai trò quyết định của liên kết hydrogen liên phân tử đối với nhiệt độ sôi của alcohol.).",
+        "Đúng vì: Hai chất có cùng khối lượng phân tử (M = 46). Tuy nhiên, phân tử ethanol có nhóm -OH tạo được liên kết hydrogen liên phân tử bền vững, đòi hỏi cung cấp nhiều nă."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c5_th_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Mỗi alcohol tự tách nước với chính nó tạo 1 ether, và hai alcohol tách nước với nhau tạo thêm 1 ether nữa. Tổng cộng có mấy ether?",
         "steps": "Có 3 ether thu được gồm: CH3-O-CH3 (từ 2 phân tử methanol), C2H5-O-C2H5 (từ 2 phân tử ethanol), và CH3-O-C2H5 (từ 1 methanol và 1 ethanol).",
         "trap": "Quên hai phản ứng tự tách nước của từng alcohol, chỉ tính phản ứng chéo ra 1 ether."
-      }
+      },
+      "socraticPrompt": "Mỗi alcohol tự tách nước với chính nó tạo 1 ether, và hai alcohol tách nước với nhau tạo thêm 1 ether nữa. Tổng cộng có mấy ether?",
+      "distractorReasons": [
+        "Đúng vì: Có 3 ether thu được gồm: CH3-O-CH3 (từ 2 phân tử methanol), C2H5-O-C2H5 (từ 2 phân tử ethanol), và CH3-O-C2H5 (từ 1 methanol và 1 ethanol).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '2 ether' (Quên hai phản ứng tự tách nước của từng alcohol, chỉ tính phản ứng chéo ra 1 ether.).",
+        "Sai vì '4 ether' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tách nước tạo ether liên phân tử từ hỗn hợp hai alcohol.).",
+        "Sai vì '1 ether' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng tách nước tạo ether liên phân tử từ hỗn hợp hai alcohol.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c5_th_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Thuốc thử nào nhận biết polyalcohol có nhóm -OH kề, và thuốc thử nào tạo kết tủa trắng với phenol?",
         "steps": "Bước 1: Dùng Cu(OH)2 nhận biết được glycerol (tạo dung dịch xanh lam thẫm). Bước 2: Dùng nước bromine nhận biết được phenol (xuất hiện kết tủa trắng 2,4,6-tribromophenol). Mẫu còn lại không có hiện tượng là ethanol.",
         "trap": "Dùng Na không phân biệt được vì cả 3 chất đều giải phóng H2."
-      }
+      },
+      "socraticPrompt": "Thuốc thử nào nhận biết polyalcohol có nhóm -OH kề, và thuốc thử nào tạo kết tủa trắng với phenol?",
+      "distractorReasons": [
+        "Sai vì 'Dung dịch NaOH và quỳ tím' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết glycerol bằng Cu(OH)2 và nhận biết phenol bằng nước bromine.).",
+        "Đúng vì: Bước 1: Dùng Cu(OH)2 nhận biết được glycerol (tạo dung dịch xanh lam thẫm). Bước 2: Dùng nước bromine nhận biết được phenol (xuất hiện kết tủa trắng 2,4,6-tribr.",
+        "Sai vì 'Kim loại Na và dung dịch kiềm' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết glycerol bằng Cu(OH)2 và nhận biết phenol bằng nước bromine.).",
+        "Sai vì 'Dung dịch AgNO3 và nước vôi trong' không phù hợp với định lý/quy tắc trọng tâm (Nhận biết glycerol bằng Cu(OH)2 và nhận biết phenol bằng nước bromine.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c5_th_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Số mol phenol là 9.4 / 94 = 0.1 mol. Tỉ lệ mol giữa phenol và kết tủa 2,4,6-tribromophenol là 1:1, khối lượng kết tủa bằng bao nhiêu?",
         "steps": "Số mol phenol: n = 9.4 / 94 = 0.1 mol. Phương trình: C6H5OH + 3Br2 -> C6H2Br3OH↓ + 3HBr. Số mol kết tủa = n_phenol = 0.1 mol. Khối lượng kết tủa thu được = 0.1 · 331 = 33.1 gam.",
         "trap": "Tính sai khối lượng mol của kết tủa hoặc nhân nhầm tỉ lệ 3 lần."
-      }
+      },
+      "socraticPrompt": "Số mol phenol là 9.4 / 94 = 0.1 mol. Tỉ lệ mol giữa phenol và kết tủa 2,4,6-tribromophenol là 1:1, khối lượng kết tủa bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì '66.2 gam' không phù hợp với định lý/quy tắc trọng tâm (Bài toán tính khối lượng kết tủa theo phương trình phản ứng thế của phenol.).",
+        "Sai vì '23.7 gam' không phù hợp với định lý/quy tắc trọng tâm (Bài toán tính khối lượng kết tủa theo phương trình phản ứng thế của phenol.).",
+        "Sai vì '16.55 gam' không phù hợp với định lý/quy tắc trọng tâm (Bài toán tính khối lượng kết tủa theo phương trình phản ứng thế của phenol.).",
+        "Đúng vì: Số mol phenol: n = 9.4 / 94 = 0.1 mol. Phương trình: C6H5OH + 3Br2 -> C6H2Br3OH↓ + 3HBr. Số mol kết tủa = n_phenol = 0.1 mol. Khối lượng kết tủa thu được = 0.1 ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c5_th_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Tính thể tích ethanol nguyên chất bằng cách lấy 500 mL nhân 70%, sau đó nhân với khối lượng riêng 0.8 g/mL?",
         "steps": "Thể tích ethanol nguyên chất: V = (500 · 70) / 100 = 350 mL. Khối lượng ethanol nguyên chất: m = V · D = 350 · 0.8 = 280 gam.",
         "trap": "Nhầm thể tích 350 mL thành khối lượng 350 gam (quên nhân với khối lượng riêng D = 0.8 g/mL)."
-      }
+      },
+      "socraticPrompt": "Tính thể tích ethanol nguyên chất bằng cách lấy 500 mL nhân 70%, sau đó nhân với khối lượng riêng 0.8 g/mL?",
+      "distractorReasons": [
+        "Đúng vì: Thể tích ethanol nguyên chất: V = (500 · 70) / 100 = 350 mL. Khối lượng ethanol nguyên chất: m = V · D = 350 · 0.8 = 280 gam.",
+        "Sai do bẫy thường gặp: Nhầm lẫn '350 gam' (thể tích 350 mL thành khối lượng 350 gam (quên nhân với khối lượng riêng D = 0.8 g/mL)).",
+        "Sai vì '400 gam' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng công thức tính độ cồn: V_rượu = (V_dung_dịch · Độ_cồn) / 100 và m = V · D.).",
+        "Sai vì '224 gam' không phù hợp với định lý/quy tắc trọng tâm (Ứng dụng công thức tính độ cồn: V_rượu = (V_dung_dịch · Độ_cồn) / 100 và m = V · D.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

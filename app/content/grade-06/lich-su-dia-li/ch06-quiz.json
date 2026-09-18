@@ -23,12 +23,15 @@
         "steps": "Tỉ lệ lớn hơn = chi tiết hơn = quan sát được ngõ ngách đường đi.",
         "trap": "Nghĩ rằng phóng to là làm giảm tỉ lệ."
       },
-      "distractorReasons": {
-        "A": "Sai, thu nhỏ (zoom out) mới là giảm tỉ lệ để nhìn bao quát.",
-        "B": "Sai, vị trí kinh tuyến gốc là bất biến trên toàn thế giới.",
-        "C": "Đáp án đúng thể hiện sự liên hệ thực tiễn công nghệ số SGK trang 111.",
-        "D": "Sai, phóng to không làm tắt GPS."
-      }
+      "distractorReasons": [
+        "Sai vì thu nhỏ (zoom out) mới là giảm tỉ lệ để nhìn bao quát.",
+        "Sai vì vị trí kinh tuyến gốc là bất biến trên toàn thế giới.",
+        "Đúng vì ể hiện sự liên hệ thực tiễn công nghệ số SGK trang 111.",
+        "Sai vì phóng to không làm tắt GPS."
+      ],
+      "socraticPrompt": "Phóng to bản đồ trên màn hình giúp ta nhìn thấy chi tiết hơn hay ít chi tiết hơn?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch06_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Khoảng cách giữa các đường đồng mức tỉ lệ nghịch với độ dốc địa hình.",
         "trap": "Nhầm rằng đường gần nhau là địa hình bằng phẳng."
       },
-      "distractorReasons": {
-        "A": "Sai, địa hình bằng phẳng các đường đồng mức sẽ thưa thớt xa nhau.",
-        "B": "Sai, độ cao dưới 0m là vùng trũng ngập nước.",
-        "C": "Sai, bãi cát ven biển bằng phẳng có đường đồng mức rất thưa.",
-        "D": "Đáp án đúng theo bài thực hành đọc bản đồ địa hình SGK trang 112."
-      }
+      "distractorReasons": [
+        "Sai vì địa hình bằng phẳng các đường đồng mức sẽ thưa thớt xa nhau.",
+        "Sai vì độ cao dưới 0m là vùng trũng ngập nước.",
+        "Sai vì bãi cát ven biển bằng phẳng có đường đồng mức rất thưa.",
+        "Đúng vì bài thực hành đọc bản đồ địa hình SGK trang 112."
+      ],
+      "socraticPrompt": "Leo lên một sườn núi dốc đứng thì cứ đi một đoạn ngắn độ cao đã tăng vọt hay tăng chậm?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch06_d3_03",
@@ -75,12 +81,15 @@
         "steps": "$S = 3\\text{ km}$, $t = 3 / 50 = 0,06\\text{ h} = 3,6\\text{ phút}$.",
         "trap": "Tính sai đơn vị khoảng cách thực tế thành 30 km hoặc 300 km."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác qua hai bước tính toán khoa học.",
-        "B": "Sai, do tính nhầm khoảng cách thành 25 km.",
-        "C": "Sai, do tính nhầm khoảng cách thành 50 km.",
-        "D": "Sai, do chia nhầm đơn vị thời gian."
-      }
+      "distractorReasons": [
+        "Đúng vì qua hai bước tính toán khoa học.",
+        "Sai vì do tính nhầm khoảng cách thành 25 km.",
+        "Sai vì do tính nhầm khoảng cách thành 50 km.",
+        "Sai vì do chia nhầm đơn vị thời gian."
+      ],
+      "socraticPrompt": "Khoảng cách thực tế là mấy km? Lấy quãng đường chia vận tốc bằng bao nhiêu giờ?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch06_d3_04",
@@ -101,12 +110,15 @@
         "steps": "Rèn luyện tư duy địa lí thực tế, ghi nhớ mốc định hướng quan trọng.",
         "trap": "Nghĩ rằng lược đồ trí nhớ đòi hỏi máy đo đạc chuẩn xác tuyệt đối như bản đồ đo đạc trắc địa."
       },
-      "distractorReasons": {
-        "A": "Sai, lược đồ trí nhớ chỉ cần phác họa trực quan, không cần đo đạc trắc địa tỉ mỉ.",
-        "B": "Đáp án đúng theo bài học Lược đồ trí nhớ SGK trang 113.",
-        "C": "Sai, đây là bài tập kĩ năng địa lí thực hành chứ không riêng gì môn mĩ thuật.",
-        "D": "Sai, ảnh vệ tinh có chức năng chuyên môn khác."
-      }
+      "distractorReasons": [
+        "Sai vì lược đồ trí nhớ chỉ cần phác họa trực quan, không cần đo đạc trắc địa tỉ mỉ.",
+        "Đúng vì bài học Lược đồ trí nhớ SGK trang 113.",
+        "Sai vì đây là bài tập kĩ năng địa lí thực hành chứ không riêng gì môn mĩ thuật.",
+        "Sai vì ảnh vệ tinh có chức năng chuyên môn khác."
+      ],
+      "socraticPrompt": "Vẽ lược đồ đường đi từ nhà đến trường giúp ích gì cho khả năng tìm đường của em?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch06_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Phương pháp phương vị Mặt Trời và bóng cọc là kĩ năng sinh tồn cơ bản SGK trang 125.",
         "trap": "Chạy lung tung theo hướng gió đổi chiều liên tục trong rừng."
       },
-      "distractorReasons": {
-        "A": "Sai, mưa rào không giúp xác định phương hướng.",
-        "B": "Sai, gió rừng đổi hướng liên tục sẽ làm lạc sâu hơn.",
-        "C": "Đáp án chính xác theo kĩ năng xác định phương hướng thực tế SGK trang 125.",
-        "D": "Sai, chim có thể bay tán loạn khắp mọi hướng."
-      }
+      "distractorReasons": [
+        "Sai vì mưa rào không giúp xác định phương hướng.",
+        "Sai vì gió rừng đổi hướng liên tục sẽ làm lạc sâu hơn.",
+        "Đúng vì kĩ năng xác định phương hướng thực tế SGK trang 125.",
+        "Sai vì chim có thể bay tán loạn khắp mọi hướng."
+      ],
+      "socraticPrompt": "Mặt Trời mọc hướng nào và lặn hướng nào? Đứng quay mặt về đâu thì biết hướng Bắc?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch06_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Khẳng định chủ quyền quốc gia bất khả xâm phạm trên trường quốc tế.",
         "trap": "Coi nhẹ bản đồ chỉ là hình vẽ thông thường."
       },
-      "distractorReasons": {
-        "A": "Sai, bản đồ là tài liệu pháp lí quốc gia, không phải hình trang trí.",
-        "B": "Sai, phục vụ toàn diện cho quản lí nhà nước, giáo dục và quốc phòng.",
-        "C": "Sai, bản đồ có giá trị pháp lí rất cao trong tranh chấp quốc tế.",
-        "D": "Đáp án đúng thể hiện lòng yêu nước và trách nhiệm công dân sâu sắc."
-      }
+      "distractorReasons": [
+        "Sai vì bản đồ là tài liệu pháp lí quốc gia, không phải hình trang trí.",
+        "Sai vì phục vụ toàn diện cho quản lí nhà nước, giáo dục và quốc phòng.",
+        "Sai vì bản đồ có giá trị pháp lí rất cao trong tranh chấp quốc tế.",
+        "Đúng vì ể hiện lòng yêu nước và trách nhiệm công dân sâu sắc."
+      ],
+      "socraticPrompt": "Bản đồ chuẩn mực của Việt Nam luôn phải có hai quần đảo nào ngoài biển Đông?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

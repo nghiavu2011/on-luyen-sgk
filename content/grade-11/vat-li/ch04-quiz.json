@@ -22,7 +22,16 @@
         "socraticPrompt": "Theo bất đẳng thức Cauchy giữa √R và r/√R, dấu bằng xảy ra khi nào?",
         "steps": "Biểu thức công suất: P = E² / (√R + r/√R)². Dưới mẫu số áp dụng BĐT Cauchy: √R + r/√R ≥ 2√r. Dấu '=' xảy ra khi √R = r/√R <=> R = r. Khi đó P_max = E² / (4r).",
         "trap": "Đoán R = 0 hoặc R vô cùng lớn."
-      }
+      },
+      "socraticPrompt": "Theo bất đẳng thức Cauchy giữa √R và r/√R, dấu bằng xảy ra khi nào?",
+      "distractorReasons": [
+        "Sai vì 'R = r / 2' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'R = 2r' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Biểu thức công suất: P = E² / (√R + r/√R)². Dưới mẫu số áp dụng BĐT Cauchy: √R + r/√R ≥ 2√r. Dấu '=' xảy ra khi √R = r/√R <=> R = r. Khi đó P_max = E² / (4r).",
+        "Sai vì 'R = 0' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c4_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "20 W + 80 W = 100 W = 0,1 kW. Mỗi ngày 5 giờ, 30 ngày là 150 giờ. 0,1 nhân 150 bằng bao nhiêu?",
         "steps": "Tổng công suất: P = 20 + 80 = 100 W = 0,1 kW. Tổng số giờ dùng trong 30 ngày: t = 5 · 30 = 150 giờ. Tổng điện năng tiêu thụ: A = P · t = 0,1 · 150 = 15 kWh (15 số điện).",
         "trap": "Quên đổi Watt sang kW lấy 100 · 150 = 15000."
-      }
+      },
+      "socraticPrompt": "20 W + 80 W = 100 W = 0,1 kW. Mỗi ngày 5 giờ, 30 ngày là 150 giờ. 0,1 nhân 150 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì theo Tổng công suất P = P1 + P2. Điện năng A = P · t.: Tổng công suất: P = 20 + 80 = 100 W = 0,1 kW. Tổng số giờ dùng trong 30 ngày: t = 5 · 30 = 150 giờ. Tổng điện năng tiêu thụ: A = P · t = 0,1 · 150 = 15 kWh (15 .",
+        "Sai vì '30 kWh' không phù hợp với định lý/quy tắc trọng tâm (Tổng công suất P = P1 + P2. Điện năng A = P · t.).",
+        "Sai vì '10 kWh' không phù hợp với định lý/quy tắc trọng tâm (Tổng công suất P = P1 + P2. Điện năng A = P · t.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn '150 kWh' (Quên đổi Watt sang kW lấy 100 · 150 = 15000.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "vl11_c4_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "3 pin mắc nối tiếp thì suất điện động gấp mấy lần và điện trở trong gấp mấy lần?",
         "steps": "Bộ nguồn gồm 3 pin mắc nối tiếp: E_b = 3 · E0 = 3 · 1,5 = 4,5 V. Điện trở trong bộ nguồn: r_b = 3 · r0 = 3 · 0,2 = 0,6 Ω.",
         "trap": "Nhầm công thức mắc song song (E_b = E0)."
-      }
+      },
+      "socraticPrompt": "3 pin mắc nối tiếp thì suất điện động gấp mấy lần và điện trở trong gấp mấy lần?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'E_b = 1,5 V; r_b = 0,6 Ω' (công thức mắc song song (E_b = E0)).",
+        "Sai vì 'E_b = 4,5 V; r_b = 0,2 Ω' không phù hợp với định lý/quy tắc trọng tâm (Khi n nguồn giống nhau mắc nối tiếp: E_b = n · E0 và r_b = n · r0.).",
+        "Đúng vì: Bộ nguồn gồm 3 pin mắc nối tiếp: E_b = 3 · E0 = 3 · 1,5 = 4,5 V. Điện trở trong bộ nguồn: r_b = 3 · r0 = 3 · 0,2 = 0,6 Ω.",
+        "Sai vì 'E_b = 3,0 V; r_b = 0,4 Ω' không phù hợp với định lý/quy tắc trọng tâm (Khi n nguồn giống nhau mắc nối tiếp: E_b = n · E0 và r_b = n · r0.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "vl11_c4_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Mắc đúng 220V thì công suất tiêu thụ bằng đúng con số định mức ghi trên vỏ đèn không?",
         "steps": "Khi U = U_đm = 220 V thì P = P_đm = 100 W. Dòng điện khi đó là I = P/U = 100/220 ≈ 0,45 A; Điện trở R = U²/P = 220²/100 = 484 Ω.",
         "trap": "Đoán điện trở là 220 Ω hoặc dòng điện 1 A."
-      }
+      },
+      "socraticPrompt": "Mắc đúng 220V thì công suất tiêu thụ bằng đúng con số định mức ghi trên vỏ đèn không?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Điện trở của bóng đèn là 220 Ω' (Đoán điện trở là 220 Ω hoặc dòng điện 1 A.).",
+        "Đúng vì: Khi U = U_đm = 220 V thì P = P_đm = 100 W. Dòng điện khi đó là I = P/U = 100/220 ≈ 0,45 A; Điện trở R = U²/P = 220²/100 = 484 Ω.",
+        "Sai vì 'Cường độ dòng điện qua bóng đèn là 1 A' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Bóng đèn toả nhiệt lượng 220 J mỗi giây' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "Năng lượng nguồn tạo ra phân bố đi đâu: một phần ra mạch ngoài và phần còn lại làm nóng cục pin?",
         "steps": "A_ng = E · I · t = (U_N + I · r) · I · t = U_N · I · t + r · I² · t = A_N + Q_r.",
         "trap": "Nhầm dấu trừ thành A_ng = A_N - Q_r."
-      }
+      },
+      "socraticPrompt": "Năng lượng nguồn tạo ra phân bố đi đâu: một phần ra mạch ngoài và phần còn lại làm nóng cục pin?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'A_ng = A_N - Q_r' (dấu trừ thành A_ng = A_N - Q_r).",
+        "Đúng vì: A_ng = E · I · t = (U_N + I · r) · I · t = U_N · I · t + r · I² · t = A_N + Q_r.",
+        "Sai vì 'A_N = A_ng + Q_r' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'A_ng = Q_r - A_N' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "vl11_c4_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Thiết bị nào trong hộp điện tổng sẽ tự động 'nhảy' cụp xuống khi có sự cố chập điện?",
         "steps": "Aptomat có rơle nhiệt và điện từ tự động ngắt mạch tức thì khi xảy ra ngắn mạch, ngăn ngừa cháy nổ đường dây điện.",
         "trap": "Chọn vôn kế (chỉ để đo) hoặc biến trở."
-      }
+      },
+      "socraticPrompt": "Thiết bị nào trong hộp điện tổng sẽ tự động 'nhảy' cụp xuống khi có sự cố chập điện?",
+      "distractorReasons": [
+        "Sai vì 'Vôn kế' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Biến trở con chạy' (Chọn vôn kế (chỉ để đo) hoặc biến trở.).",
+        "Sai vì 'Tụ điện bù công suất' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Aptomat có rơle nhiệt và điện từ tự động ngắt mạch tức thì khi xảy ra ngắn mạch, ngăn ngừa cháy nổ đường dây điện."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

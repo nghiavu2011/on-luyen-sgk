@@ -22,7 +22,16 @@
         "socraticPrompt": "Dung dịch có tính acid làm giấy quỳ tím chuyển sang màu gì?",
         "steps": "Acetic acid phân li một phần trong nước giải phóng ion H+: CH3COOH <=> CH3COO- + H+. Do đó dung dịch làm quỳ tím chuyển sang màu đỏ (hoặc hồng).",
         "trap": "Nhầm sang màu xanh của dung dịch kiềm bazơ."
-      }
+      },
+      "socraticPrompt": "Dung dịch có tính acid làm giấy quỳ tím chuyển sang màu gì?",
+      "distractorReasons": [
+        "Đúng vì: Acetic acid phân li một phần trong nước giải phóng ion H+: CH3COOH <=> CH3COO- + H+. Do đó dung dịch làm quỳ tím chuyển sang màu đỏ (hoặc hồng).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Màu xanh' (sang màu xanh của dung dịch kiềm bazơ).",
+        "Sai vì phủ định sai bản chất: 'Màu tím không đổi' trái ngược với kiến thức SGK.",
+        "Sai vì 'Màu vàng' không phù hợp với định lý/quy tắc trọng tâm (Tính acid của carboxylic acid làm đổi màu chất chỉ thị quỳ tím.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "h11_c6_d2_q2",
@@ -42,7 +51,16 @@
         "socraticPrompt": "Kẽm có hoá trị II, muối zinc acetate có công thức là gì và khí giải phóng là khí gì?",
         "steps": "Phương trình phản ứng: 2CH3COOH + Zn -> (CH3COO)2Zn + H2↑. Kẽm có hoá trị II nên muối tạo thành là zinc acetate (CH3COO)2Zn và khí hydrogen.",
         "trap": "Nhầm muối có hoá trị I (CH3COOZn) hoặc nhầm khí sinh ra là CO2."
-      }
+      },
+      "socraticPrompt": "Kẽm có hoá trị II, muối zinc acetate có công thức là gì và khí giải phóng là khí gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '(CH3COO)2Zn và khí CO2' (muối có hoá trị I (CH3COOZn) hoặc nhầm khí sinh ra là CO2).",
+        "Sai vì 'CH3COOZn và khí H2' không phù hợp với định lý/quy tắc trọng tâm (Carboxylic acid tác dụng với kim loại đứng trước hydrogen tạo muối và khí H2.).",
+        "Đúng vì: Phương trình phản ứng: 2CH3COOH + Zn -> (CH3COO)2Zn + H2↑. Kẽm có hoá trị II nên muối tạo thành là zinc acetate (CH3COO)2Zn và khí hydrogen.",
+        "Sai vì 'ZnO và khí H2' không phù hợp với định lý/quy tắc trọng tâm (Carboxylic acid tác dụng với kim loại đứng trước hydrogen tạo muối và khí H2.)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c6_d2_q3",
@@ -62,7 +80,16 @@
         "socraticPrompt": "Phản ứng giữa carboxylic acid và alcohol có đặc điểm gì về chiều phản ứng và tên gọi?",
         "steps": "Phương trình: CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O (H2SO4 đặc, t°). Đây là phản ứng ester hoá và có tính chất thuận nghịch (hai chiều).",
         "trap": "Nghĩ đây là phản ứng một chiều hoàn toàn."
-      }
+      },
+      "socraticPrompt": "Phản ứng giữa carboxylic acid và alcohol có đặc điểm gì về chiều phản ứng và tên gọi?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phản ứng trung hòa một chiều' (Nghĩ đây là phản ứng một chiều hoàn toàn.).",
+        "Đúng vì: Phương trình: CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O (H2SO4 đặc, t°). Đây là phản ứng ester hoá và có tính chất thuận nghịch (hai chiều).",
+        "Sai vì 'Phản ứng thế halogen' không phù hợp với định lý/quy tắc trọng tâm (Bản chất của phản ứng ester hoá là phản ứng thuận nghịch giữa acid và alcohol.).",
+        "Sai vì 'Phản ứng trùng hợp' không phù hợp với định lý/quy tắc trọng tâm (Bản chất của phản ứng ester hoá là phản ứng thuận nghịch giữa acid và alcohol.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "h11_c6_d2_q4",
@@ -82,7 +109,16 @@
         "socraticPrompt": "Chất nào tác dụng được với dung dịch chứa phức bạc để tạo kết tủa bạc sáng bóng?",
         "steps": "Acetaldehyde (CH3CHO) có phản ứng tráng bạc với thuốc thử Tollens [Ag(NH3)2]OH tạo lớp bạc sáng bóng. Acetone (ketone) không có phản ứng này.",
         "trap": "Dùng kim loại Na (cả aldehyde và ketone đều không phản ứng với Na)."
-      }
+      },
+      "socraticPrompt": "Chất nào tác dụng được với dung dịch chứa phức bạc để tạo kết tủa bạc sáng bóng?",
+      "distractorReasons": [
+        "Sai vì 'Dung dịch quỳ tím' không phù hợp với định lý/quy tắc trọng tâm (Dùng thuốc thử Tollens nhận biết aldehyde nhờ phản ứng tráng bạc mà ketone không có.).",
+        "Sai vì 'Dung dịch NaCl' không phù hợp với định lý/quy tắc trọng tâm (Dùng thuốc thử Tollens nhận biết aldehyde nhờ phản ứng tráng bạc mà ketone không có.).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Kim loại Na' (Dùng kim loại Na (cả aldehyde và ketone đều không phản ứng với Na).).",
+        "Đúng vì: Acetaldehyde (CH3CHO) có phản ứng tráng bạc với thuốc thử Tollens [Ag(NH3)2]OH tạo lớp bạc sáng bóng. Acetone (ketone) không có phản ứng này."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "h11_c6_d2_q5",
@@ -102,7 +138,16 @@
         "socraticPrompt": "1 mol ethanal phản ứng vừa đủ với mấy mol H2? Thể tích ở điều kiện chuẩn (1 bar, 25°C) tính thế nào?",
         "steps": "Phương trình: CH3CHO + H2 -> CH3CH2OH (xúc tác Ni, t°). Tỉ lệ mol là 1:1 nên n_H2 = n_ethanal = 0.1 mol. Thể tích khí H2 theo chuẩn mới: V = 0.1 · 24.79 = 2.479 lít.",
         "trap": "Dùng điều kiện tiêu chuẩn cũ (22.4 L/mol) tính ra 2.24 lít."
-      }
+      },
+      "socraticPrompt": "1 mol ethanal phản ứng vừa đủ với mấy mol H2? Thể tích ở điều kiện chuẩn (1 bar, 25°C) tính thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn '1.2395 lít' (Dùng điều kiện tiêu chuẩn cũ (22.4 L/mol) tính ra 2.24 lít.).",
+        "Sai vì '4.958 lít' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng cộng H2 vào nhóm carbonyl: CH3CHO + H2 -> CH3CH2OH (tỉ lệ mol 1:1).).",
+        "Đúng vì: Phương trình: CH3CHO + H2 -> CH3CH2OH (xúc tác Ni, t°). Tỉ lệ mol là 1:1 nên n_H2 = n_ethanal = 0.1 mol. Thể tích khí H2 theo chuẩn mới: V = 0.1 · 24.79 = 2.479.",
+        "Sai vì '22.4 lít' không phù hợp với định lý/quy tắc trọng tâm (Phản ứng cộng H2 vào nhóm carbonyl: CH3CHO + H2 -> CH3CH2OH (tỉ lệ mol 1:1).)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "h11_c6_d2_q6",
@@ -122,7 +167,16 @@
         "socraticPrompt": "Acid tác dụng với muối carbonate hoặc hydrogencarbonate sinh ra khí gì quen thuộc?",
         "steps": "Phương trình: CH3COOH + NaHCO3 -> CH3COONa + CO2↑ + H2O. Khí CO2 thoát ra tạo bọt khí sủi tăm trong dung dịch.",
         "trap": "Nghĩ rằng acid hữu cơ quá yếu không phản ứng được với muối carbonate."
-      }
+      },
+      "socraticPrompt": "Acid tác dụng với muối carbonate hoặc hydrogencarbonate sinh ra khí gì quen thuộc?",
+      "distractorReasons": [
+        "Đúng vì: Phương trình: CH3COOH + NaHCO3 -> CH3COONa + CO2↑ + H2O. Khí CO2 thoát ra tạo bọt khí sủi tăm trong dung dịch.",
+        "Sai vì 'Xuất hiện kết tủa màu trắng sữa' không phù hợp với định lý/quy tắc trọng tâm (Acetic acid mạnh hơn carbonic acid nên phản ứng với NaHCO3 giải phóng khí CO2.).",
+        "Sai vì 'Dung dịch chuyển sang màu đỏ tím' không phù hợp với định lý/quy tắc trọng tâm (Acetic acid mạnh hơn carbonic acid nên phản ứng với NaHCO3 giải phóng khí CO2.).",
+        "Sai vì phủ định sai bản chất: 'Không có hiện tượng gì xảy ra' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

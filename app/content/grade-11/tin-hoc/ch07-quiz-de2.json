@@ -8,55 +8,82 @@
       "id": "q01",
       "question": "Bạn Đức rất thích giải các bài toán logic, tìm thuật toán tối ưu và tò mò về cách các ứng dụng hoạt động bên dưới. Đức phù hợp với ngành nghề nào nhất?",
       "options": [
-        "Kỹ sư Khoa học máy tính / Kỹ sư Phần mềm",
         "Chuyên viên trang điểm",
+        "Kỹ sư Khoa học máy tính / Kỹ sư Phần mềm",
         "Đầu bếp ẩm thực",
         "Phi công"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "medium",
       "explanation": "Tư duy toán học và giải thuật là nền tảng vàng của ngành Khoa học máy tính.",
       "breakdown": {
         "concept": "Hướng nghiệp Khoa học máy tính",
         "steps": "Kỹ sư Phần mềm / Khoa học máy tính.",
         "socraticPrompt": "Thích thuật toán và logic nên chọn nghề gì?"
-      }
+      },
+      "socraticPrompt": "Thích thuật toán và logic nên chọn nghề gì?",
+      "distractorReasons": [
+        "Sai vì 'Chuyên viên trang điểm' không phù hợp với định lý/quy tắc trọng tâm (Hướng nghiệp Khoa học máy tính).",
+        "Đúng vì theo Hướng nghiệp Khoa học máy tính: Kỹ sư Phần mềm / Khoa học máy tính.",
+        "Sai vì 'Đầu bếp ẩm thực' không phù hợp với định lý/quy tắc trọng tâm (Hướng nghiệp Khoa học máy tính).",
+        "Sai vì 'Phi công' không phù hợp với định lý/quy tắc trọng tâm (Hướng nghiệp Khoa học máy tính)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q02",
       "question": "Khi sử dụng các công cụ AI (như ChatGPT, Claude, Gemini) hỗ trợ làm bài tập, thái độ đúng đắn của học sinh là",
       "options": [
-        "Sử dụng AI như một trợ lý thông minh để gợi ý ý tưởng, sau đó tự mình nghiên cứu, kiểm chứng và hoàn thiện bài",
-        "Chép nguyên văn câu trả lời của AI nộp cho thầy cô",
         "Tin tuyệt đối vào mọi câu trả lời của AI không cần kiểm tra",
+        "Chép nguyên văn câu trả lời của AI nộp cho thầy cô",
+        "Sử dụng AI như một trợ lý thông minh để gợi ý ý tưởng, sau đó tự mình nghiên cứu, kiểm chứng và hoàn thiện bài",
         "Sợ hãi cấm đoán hoàn toàn"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "medium",
       "explanation": "Sử dụng AI có trách nhiệm, liêm chính và nâng cao hiệu suất học tập.",
       "breakdown": {
         "concept": "Sử dụng AI học tập thông minh",
         "steps": "Dùng AI gợi ý ý tưởng và tự kiểm chứng.",
         "socraticPrompt": "Học sinh dùng ChatGPT làm bài tập thế nào cho đúng?"
-      }
+      },
+      "socraticPrompt": "Học sinh dùng ChatGPT làm bài tập thế nào cho đúng?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tin tuyệt đối vào mọi câu trả lời của AI không cần kiểm tra', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Chép nguyên văn câu trả lời của AI nộp cho thầy cô' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng AI học tập thông minh).",
+        "Đúng vì theo Sử dụng AI học tập thông minh: Dùng AI gợi ý ý tưởng và tự kiểm chứng.",
+        "Sai vì 'Sợ hãi cấm đoán hoàn toàn' không phù hợp với định lý/quy tắc trọng tâm (Sử dụng AI học tập thông minh)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q03",
       "question": "Để chuẩn bị hành trang thi vào các trường đại học đào tạo ngành Công nghệ thông tin hàng đầu, học sinh cấp 3 cần tập trung vào",
       "options": [
-        "Học giỏi Toán, Tin học, Tiếng Anh và tham gia các dự án lập trình thực tế",
+        "Học vẹt lý thuyết",
         "Chỉ chơi game kiếm tiền ảo",
         "Bỏ bê các môn học",
-        "Học vẹt lý thuyết"
+        "Học giỏi Toán, Tin học, Tiếng Anh và tham gia các dự án lập trình thực tế"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "Kiềng 3 chân: Toán học + Tin học/Lập trình + Tiếng Anh.",
       "breakdown": {
         "concept": "Hành trang vào đại học CNTT",
         "steps": "Giỏi Toán, Tin học, Tiếng Anh và thực hành.",
         "socraticPrompt": "Thi ngành CNTT cần học tốt những môn gì?"
-      }
+      },
+      "socraticPrompt": "Thi ngành CNTT cần học tốt những môn gì?",
+      "distractorReasons": [
+        "Sai vì 'Học vẹt lý thuyết' không phù hợp với định lý/quy tắc trọng tâm (Hành trang vào đại học CNTT).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chơi game kiếm tiền ảo', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Bỏ bê các môn học' không phù hợp với định lý/quy tắc trọng tâm (Hành trang vào đại học CNTT).",
+        "Đúng vì theo Hành trang vào đại học CNTT: Giỏi Toán, Tin học, Tiếng Anh và thực hành."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q04",
@@ -74,25 +101,43 @@
         "concept": "Lựa chọn ngôn ngữ học lập trình",
         "steps": "Bắt đầu với Python.",
         "socraticPrompt": "Học lập trình từ đầu nên chọn ngôn ngữ nào?"
-      }
+      },
+      "socraticPrompt": "Học lập trình từ đầu nên chọn ngôn ngữ nào?",
+      "distractorReasons": [
+        "Đúng vì theo Lựa chọn ngôn ngữ học lập trình: Bắt đầu với Python.",
+        "Sai vì 'Assembly (hợp ngữ)' không phù hợp với định lý/quy tắc trọng tâm (Lựa chọn ngôn ngữ học lập trình).",
+        "Sai vì 'Machine Code (mã máy nhị phân)' không phù hợp với định lý/quy tắc trọng tâm (Lựa chọn ngôn ngữ học lập trình).",
+        "Sai vì 'Cobol' không phù hợp với định lý/quy tắc trọng tâm (Lựa chọn ngôn ngữ học lập trình)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q05",
       "question": "Hiện tượng AI thay thế một số công việc thủ công, lặp đi lặp lại nhắc nhở người lao động tương lai điều gì?",
       "options": [
-        "Phải không ngừng nâng cao năng lực sáng tạo, tư duy phản biện và khả năng thích ứng linh hoạt",
+        "Phá hủy máy tính",
         "Ngừng học tập vì máy móc làm hết",
         "Bi quan chán nản",
-        "Phá hủy máy tính"
+        "Phải không ngừng nâng cao năng lực sáng tạo, tư duy phản biện và khả năng thích ứng linh hoạt"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "medium",
       "explanation": "AI không thay thế con người, nhưng người biết dùng AI sẽ thay thế người không biết dùng.",
       "breakdown": {
         "concept": "Thích ứng với AI",
         "steps": "Nâng cao sáng tạo, tư duy phản biện.",
         "socraticPrompt": "AI phát triển thì con người cần nâng cao kỹ năng gì?"
-      }
+      },
+      "socraticPrompt": "AI phát triển thì con người cần nâng cao kỹ năng gì?",
+      "distractorReasons": [
+        "Sai vì 'Phá hủy máy tính' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng với AI).",
+        "Sai vì 'Ngừng học tập vì máy móc làm hết' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng với AI).",
+        "Sai vì 'Bi quan chán nản' không phù hợp với định lý/quy tắc trọng tâm (Thích ứng với AI).",
+        "Đúng vì theo Thích ứng với AI: Nâng cao sáng tạo, tư duy phản biện."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q06",
@@ -110,7 +155,16 @@
         "concept": "Kỹ thuật Prompt Engineering",
         "steps": "Viết câu lệnh chuẩn xác, có ngữ cảnh cho AI.",
         "socraticPrompt": "Prompt Engineering là kỹ năng gì?"
-      }
+      },
+      "socraticPrompt": "Prompt Engineering là kỹ năng gì?",
+      "distractorReasons": [
+        "Đúng vì theo Kỹ thuật Prompt Engineering: Viết câu lệnh chuẩn xác, có ngữ cảnh cho AI.",
+        "Sai vì 'Kỹ năng sửa chữa phần cứng máy tính' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Prompt Engineering).",
+        "Sai vì 'Kỹ năng gõ bàn phím 10 ngón' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Prompt Engineering).",
+        "Sai vì 'Kỹ năng nối dây mạng' không phù hợp với định lý/quy tắc trọng tâm (Kỹ thuật Prompt Engineering)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

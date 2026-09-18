@@ -23,12 +23,15 @@
         "steps": "Ph. Ăng-ghen khẳng định: 'Lao động là nhân tố quyết định trực tiếp biến vượn thành người'.",
         "trap": "Cho rằng chỉ do khí hậu lạnh ấm quyết định sự tiến hóa sinh học tự nhiên."
       },
-      "distractorReasons": {
-        "A": "Sai, khí hậu chỉ là điều kiện môi trường bên ngoài.",
-        "B": "Sai, thú dữ là mối đe dọa chứ không phải động lực tiến hóa ý thức.",
-        "C": "Đáp án đúng theo quan điểm khoa học SGK trang 18.",
-        "D": "Sai, di cư chỉ mở rộng địa bàn sinh sống."
-      }
+      "distractorReasons": [
+        "Sai vì khí hậu chỉ là điều kiện môi trường bên ngoài.",
+        "Sai vì thú dữ là mối đe dọa chứ không phải động lực tiến hóa ý thức.",
+        "Đúng vì quan điểm khoa học SGK trang 18.",
+        "Sai vì di cư chỉ mở rộng địa bàn sinh sống."
+      ],
+      "socraticPrompt": "Cái gì làm cho đôi tay khéo léo và bộ não ngày càng suy nghĩ linh hoạt?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch02_d3_02",
@@ -49,12 +52,15 @@
         "steps": "Đồ đồng vượt trội về độ cứng, độ sắc, độ dẻo dai và khả năng tái chế khi bị mẻ.",
         "trap": "Nghĩ rằng đá cứng hơn đồng nên rìu đá tốt hơn."
       },
-      "distractorReasons": {
-        "A": "Sai, rìu đá ghè đẽo rất thô và dễ vỡ khi va đập mạnh.",
-        "B": "Sai, rìu đá Núi Đọ thuộc thời Người tối cổ, chưa có nhà nước.",
-        "C": "Sai, công nghệ đúc đồng phức tạp hơn nghìn lần ghè đá.",
-        "D": "Đáp án đúng phản ánh quy luật phát triển lực lượng sản xuất."
-      }
+      "distractorReasons": [
+        "Sai vì rìu đá ghè đẽo rất thô và dễ vỡ khi va đập mạnh.",
+        "Sai vì rìu đá Núi Đọ thuộc thời Người tối cổ, chưa có nhà nước.",
+        "Sai vì công nghệ đúc đồng phức tạp hơn nghìn lần ghè đá.",
+        "Đúng vì ản ánh quy luật phát triển lực lượng sản xuất."
+      ],
+      "socraticPrompt": "Đồ đồng đúc bằng khuôn so với hòn đá ghè vỡ mặt nào tinh xảo và sắc bén hơn?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch02_d3_03",
@@ -75,12 +81,15 @@
         "steps": "Chuỗi quan hệ nhân quả duy vật lịch sử SGK trang 25.",
         "trap": "Xếp nhà nước ra đời trước khi có công cụ kim khí hoặc tư hữu."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo toàn bộ chuỗi nhân quả SGK.",
-        "B": "Sai, nhà nước là sản phẩm ra đời sau khi xã hội đã phân hóa giàu nghèo.",
-        "C": "Sai, trật tự các giai đoạn bị đảo lộn hoàn toàn.",
-        "D": "Sai, năng suất lao động tăng chứ không giảm."
-      }
+      "distractorReasons": [
+        "Đúng vì àn bộ chuỗi nhân quả SGK.",
+        "Sai vì nhà nước là sản phẩm ra đời sau khi xã hội đã phân hóa giàu nghèo.",
+        "Sai vì trật tự các giai đoạn bị đảo lộn hoàn toàn.",
+        "Sai vì năng suất lao động tăng chứ không giảm."
+      ],
+      "socraticPrompt": "Cái gì có trước: công cụ kim khí hay nhà nước?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch02_d3_04",
@@ -101,12 +110,15 @@
         "steps": "Khẳng định Đông Nam Á là cái nôi tiến hóa loài người độc lập và phát triển sớm.",
         "trap": "Nghĩ rằng phát hiện chỉ mang tính chất địa phương bình thường."
       },
-      "distractorReasons": {
-        "A": "Sai, châu Phi cũng là cái nôi phát hiện di cốt vượn người sớm.",
-        "B": "Đáp án đúng theo tài liệu nghiên cứu cập nhật SGK Lịch sử 6 trang 19.",
-        "C": "Sai, quan điểm ăn chay không liên quan đến công cụ rìu đá An Khê.",
-        "D": "Sai, công cụ đá luôn ra đời trước đồ gốm."
-      }
+      "distractorReasons": [
+        "Sai vì châu Phi cũng là cái nôi phát hiện di cốt vượn người sớm.",
+        "Đúng vì ài liệu nghiên cứu cập nhật SGK Lịch sử 6 trang 19.",
+        "Sai vì quan điểm ăn chay không liên quan đến công cụ rìu đá An Khê.",
+        "Sai vì công cụ đá luôn ra đời trước đồ gốm."
+      ],
+      "socraticPrompt": "Di chỉ An Khê khẳng định vị thế khảo cổ của Việt Nam như thế nào trên bản đồ thế giới?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch02_d3_05",
@@ -127,12 +139,15 @@
         "steps": "Gắn liền giữa nghệ thuật tạo hình sơ khai và tín ngưỡng sùng bái tự nhiên.",
         "trap": "Đem quan niệm hiện đại (trang trí du lịch) áp đặt vào người nguyên thủy."
       },
-      "distractorReasons": {
-        "A": "Sai, thời nguyên thủy chưa có khái niệm du lịch.",
-        "B": "Sai, thời kì này hoàn toàn chưa có chữ viết hay thi cử.",
-        "C": "Đáp án đúng theo bài học đời sống tinh thần SGK trang 23.",
-        "D": "Sai, đây là di tích khảo cổ đích thực thuộc văn hóa Hòa Bình có niên đại hàng vạn năm."
-      }
+      "distractorReasons": [
+        "Sai vì thời nguyên thủy chưa có khái niệm du lịch.",
+        "Sai vì thời kì này hoàn toàn chưa có chữ viết hay thi cử.",
+        "Đúng vì bài học đời sống tinh thần SGK trang 23.",
+        "Sai vì đây là di tích khảo cổ đích thực thuộc văn hóa Hòa Bình có niên đại hàng vạn năm."
+      ],
+      "socraticPrompt": "Người nguyên thủy vẽ thú dữ có phải để chuẩn bị cho chuyến đi săn may mắn không?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch02_d3_06",
@@ -153,12 +168,15 @@
         "steps": "Bảo vệ nguyên vẹn để các nhà khảo cổ có thể đo đạc chính xác niên đại của các tầng đất.",
         "trap": "Nghĩ rằng nhặt một vài vỏ ốc hay mảnh đá đem về làm kỉ niệm là vô hại."
       },
-      "distractorReasons": {
-        "A": "Sai, đây là hành vi xâm hại di chỉ và buôn bán trái phép cổ vật.",
-        "B": "Sai, khắc chữ phá hủy vách đá di sản.",
-        "C": "Sai, nhiệt độ của lửa sẽ làm biến chất hóa học và sai lệch kết quả đo niên đại carbon phóng xạ.",
-        "D": "Đáp án đúng thể hiện ý thức công dân gương mẫu."
-      }
+      "distractorReasons": [
+        "Sai vì đây là hành vi xâm hại di chỉ và buôn bán trái phép cổ vật.",
+        "Sai vì khắc chữ phá hủy vách đá di sản.",
+        "Sai vì nhiệt độ của lửa sẽ làm biến chất hóa học và sai lệch kết quả đo niên đại carbon phóng xạ.",
+        "Đúng vì ể hiện ý thức công dân gương mẫu."
+      ],
+      "socraticPrompt": "Lấy hiện vật về nhà hoặc đốt lửa trên tầng đất khảo cổ có làm hỏng bằng chứng lịch sử không?",
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

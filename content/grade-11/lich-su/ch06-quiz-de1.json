@@ -20,97 +20,151 @@
         "concept": "Đội Hoàng Sa",
         "steps": "Đội Hoàng Sa khai thác và bảo vệ đảo.",
         "socraticPrompt": "Đội dân binh nào ra đảo Hoàng Sa thời chúa Nguyễn?"
-      }
+      },
+      "socraticPrompt": "Đội dân binh nào ra đảo Hoàng Sa thời chúa Nguyễn?",
+      "distractorReasons": [
+        "Đúng vì theo Đội Hoàng Sa: Đội Hoàng Sa khai thác và bảo vệ đảo.",
+        "Sai vì 'Đội Cần Vương' không phù hợp với định lý/quy tắc trọng tâm (Đội Hoàng Sa).",
+        "Sai vì 'Đội Việt Nam Tuyên truyền' không phù hợp với định lý/quy tắc trọng tâm (Đội Hoàng Sa).",
+        "Sai vì 'Đội Du kích Ba Tơ' không phù hợp với định lý/quy tắc trọng tâm (Đội Hoàng Sa)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Bản đồ cổ thời vua Minh Mạng (1838) ghi rõ 'Hoàng Sa, Vạn lý Trường Sa' thuộc lãnh thổ nước ta là",
       "options": [
-        "Đại Nam nhất thống toàn đồ",
         "Bản đồ Hồng Đức",
+        "Đại Nam nhất thống toàn đồ",
         "An Nam đồ chí",
         "Bản đồ Alexandre de Rhodes"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Đại Nam nhất thống toàn đồ vẽ năm 1838 ghi nhận Hoàng Sa và Vạn lý Trường Sa.",
       "breakdown": {
         "concept": "Đại Nam nhất thống toàn đồ",
         "steps": "Vẽ năm 1838 thời vua Minh Mạng.",
         "socraticPrompt": "Tên bản đồ vẽ thời Minh Mạng năm 1838 là gì?"
-      }
+      },
+      "socraticPrompt": "Tên bản đồ vẽ thời Minh Mạng năm 1838 là gì?",
+      "distractorReasons": [
+        "Sai vì 'Bản đồ Hồng Đức' không phù hợp với định lý/quy tắc trọng tâm (Đại Nam nhất thống toàn đồ).",
+        "Đúng vì theo Đại Nam nhất thống toàn đồ: Vẽ năm 1838 thời vua Minh Mạng.",
+        "Sai vì 'An Nam đồ chí' không phù hợp với định lý/quy tắc trọng tâm (Đại Nam nhất thống toàn đồ).",
+        "Sai vì 'Bản đồ Alexandre de Rhodes' không phù hợp với định lý/quy tắc trọng tâm (Đại Nam nhất thống toàn đồ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Lễ hội văn hóa truyền thống tri ân những người lính ra bảo vệ Hoàng Sa được tổ chức tại",
       "options": [
-        "Đảo Lý Sơn (Quảng Ngãi)",
-        "Đảo Cát Bà (Hải Phòng)",
         "Đảo Phú Quốc (Kiên Giang)",
+        "Đảo Cát Bà (Hải Phòng)",
+        "Đảo Lý Sơn (Quảng Ngãi)",
         "Đảo Côn Đảo (Bà Rịa - Vũng Tàu)"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Lễ khao lề thế lính Hoàng Sa diễn ra hàng năm tại huyện đảo Lý Sơn.",
       "breakdown": {
         "concept": "Lễ khao lề thế lính",
         "steps": "Tổ chức tại đảo Lý Sơn - Quảng Ngãi.",
         "socraticPrompt": "Lễ khao lề thế lính Hoàng Sa ở đâu?"
-      }
+      },
+      "socraticPrompt": "Lễ khao lề thế lính Hoàng Sa ở đâu?",
+      "distractorReasons": [
+        "Sai vì 'Đảo Phú Quốc (Kiên Giang)' không phù hợp với định lý/quy tắc trọng tâm (Lễ khao lề thế lính).",
+        "Sai vì 'Đảo Cát Bà (Hải Phòng)' không phù hợp với định lý/quy tắc trọng tâm (Lễ khao lề thế lính).",
+        "Đúng vì theo Lễ khao lề thế lính: Tổ chức tại đảo Lý Sơn - Quảng Ngãi.",
+        "Sai vì 'Đảo Côn Đảo (Bà Rịa - Vũng Tàu)' không phù hợp với định lý/quy tắc trọng tâm (Lễ khao lề thế lính)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Công ước của Liên Hợp Quốc về Luật Biển năm 1982 thường được viết tắt là",
       "options": [
-        "UNCLOS 1982",
+        "APEC",
         "UNESCO",
         "WTO",
-        "APEC"
+        "UNCLOS 1982"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "UNCLOS (United Nations Convention on the Law of the Sea 1982).",
       "breakdown": {
         "concept": "UNCLOS 1982",
         "steps": "Công ước Luật Biển Liên Hợp Quốc.",
         "socraticPrompt": "Viết tắt của Công ước Luật Biển 1982 là gì?"
-      }
+      },
+      "socraticPrompt": "Viết tắt của Công ước Luật Biển 1982 là gì?",
+      "distractorReasons": [
+        "Sai vì 'APEC' không phù hợp với định lý/quy tắc trọng tâm (UNCLOS 1982).",
+        "Sai vì 'UNESCO' không phù hợp với định lý/quy tắc trọng tâm (UNCLOS 1982).",
+        "Sai vì 'WTO' không phù hợp với định lý/quy tắc trọng tâm (UNCLOS 1982).",
+        "Đúng vì theo UNCLOS 1982: Công ước Luật Biển Liên Hợp Quốc."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam thông qua Luật Biển Việt Nam vào năm nào?",
       "options": [
-        "2012",
         "1995",
+        "2012",
         "2000",
         "2020"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Luật Biển Việt Nam được thông qua ngày 21/6/2012.",
       "breakdown": {
         "concept": "Luật Biển Việt Nam",
         "steps": "Năm 2012.",
         "socraticPrompt": "Luật Biển Việt Nam ban hành năm nào?"
-      }
+      },
+      "socraticPrompt": "Luật Biển Việt Nam ban hành năm nào?",
+      "distractorReasons": [
+        "Sai vì '1995' không phù hợp với định lý/quy tắc trọng tâm (Luật Biển Việt Nam).",
+        "Đúng vì '2012' phản ánh chuẩn xác kiến thức SGK: Luật Biển Việt Nam.",
+        "Sai vì '2000' không phù hợp với định lý/quy tắc trọng tâm (Luật Biển Việt Nam).",
+        "Sai vì '2020' không phù hợp với định lý/quy tắc trọng tâm (Luật Biển Việt Nam)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Vùng biển thuộc chủ quyền tuyệt đối của quốc gia ven biển, có quy chế pháp lý như lãnh thổ trên đất liền là",
       "options": [
-        "Nội thủy",
-        "Vùng đặc quyền kinh tế",
         "Vùng biển quốc tế",
+        "Vùng đặc quyền kinh tế",
+        "Nội thủy",
         "Thềm lục địa mở rộng"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Nội thủy là vùng nước phía bên trong đường cơ sở, thuộc chủ quyền hoàn toàn và tuyệt đối.",
       "breakdown": {
         "concept": "Vùng nội thủy",
         "steps": "Chủ quyền tuyệt đối như đất liền.",
         "socraticPrompt": "Vùng biển nào có quy chế như đất liền?"
-      }
+      },
+      "socraticPrompt": "Vùng biển nào có quy chế như đất liền?",
+      "distractorReasons": [
+        "Sai vì 'Vùng biển quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Vùng nội thủy).",
+        "Sai vì 'Vùng đặc quyền kinh tế' không phù hợp với định lý/quy tắc trọng tâm (Vùng nội thủy).",
+        "Đúng vì theo Vùng nội thủy: Chủ quyền tuyệt đối như đất liền.",
+        "Sai vì 'Thềm lục địa mở rộng' không phù hợp với định lý/quy tắc trọng tâm (Vùng nội thủy)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

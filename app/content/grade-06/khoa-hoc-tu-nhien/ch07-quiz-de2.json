@@ -21,7 +21,16 @@
         "socraticPrompt": "Rễ cây hút nước ngầm, ống dẫn nào dẫn nước từ dưới rễ vọt lên đỉnh ngọn cây?",
         "steps": "Mạch gỗ dẫn nước và khoáng từ rễ lên lá.",
         "trap": "Mạch rây mới dẫn chất hữu cơ từ lá đi xuống rễ."
-      }
+      },
+      "socraticPrompt": "Rễ cây hút nước ngầm, ống dẫn nào dẫn nước từ dưới rễ vọt lên đỉnh ngọn cây?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vận chuyển chất hữu cơ từ lá xuống rễ' (Mạch rây mới dẫn chất hữu cơ từ lá đi xuống rễ.).",
+        "Sai vì 'Bảo vệ bề mặt ngoài của lá' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Mạch gỗ dẫn nước và khoáng từ rễ lên lá.",
+        "Sai vì 'Thực hiện quang hợp chế tạo đường' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c7_d2_02",
@@ -41,7 +50,16 @@
         "socraticPrompt": "Rễ, thân, lá được gọi là các cấp độ gì của cây xanh?",
         "steps": "Chiếc lá bưởi là cấp độ Cơ quan.",
         "trap": "Mô giậu là cấp độ Mô; cây bưởi là cấp độ Cơ thể."
-      }
+      },
+      "socraticPrompt": "Rễ, thân, lá được gọi là các cấp độ gì của cây xanh?",
+      "distractorReasons": [
+        "Sai vì 'Tế bào thịt lá' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Mô giậu' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Toàn bộ cây bưởi' (Mô giậu là cấp độ Mô; cây bưởi là cấp độ Cơ thể.).",
+        "Đúng vì: Chiếc lá bưởi là cấp độ Cơ quan."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q_khtn6_c7_d2_03",
@@ -61,7 +79,16 @@
         "socraticPrompt": "Trùng giày có tự bơi lội bắt mồi, tiêu hoá thức ăn trong không bào và tự phân chia sinh sản được không?",
         "steps": "Dù chỉ là một tế bào, nó tự vận hành trọn vẹn mọi hoạt động sống như một cơ thể hoàn chỉnh.",
         "trap": "Nó không có tim gan mà dùng các bào quan chuyên biệt nội bào."
-      }
+      },
+      "socraticPrompt": "Trùng giày có tự bơi lội bắt mồi, tiêu hoá thức ăn trong không bào và tự phân chia sinh sản được không?",
+      "distractorReasons": [
+        "Đúng vì: Dù chỉ là một tế bào, nó tự vận hành trọn vẹn mọi hoạt động sống như một cơ thể hoàn chỉnh.",
+        "Sai vì 'Vì nó có thể biến hình thành động vật lớn' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì nó có nhiều cơ quan như tim, gan' (Nó không có tim gan mà dùng các bào quan chuyên biệt nội bào.).",
+        "Sai vì 'Vì nó có xương sống bên trong' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q_khtn6_c7_d2_04",
@@ -81,7 +108,16 @@
         "socraticPrompt": "Khi em gập cánh tay lại, bắp tay nổi lên co lại đó là hoạt động gì của mô cơ?",
         "steps": "Co và dãn tạo lực chuyển động cơ học.",
         "trap": "Dẫn truyền xung điện là chức năng của mô thần kinh."
-      }
+      },
+      "socraticPrompt": "Khi em gập cánh tay lại, bắp tay nổi lên co lại đó là hoạt động gì của mô cơ?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dẫn truyền luồng xung điện' (Dẫn truyền xung điện là chức năng của mô thần kinh.).",
+        "Đúng vì: Co và dãn tạo lực chuyển động cơ học.",
+        "Sai vì 'Lưu trữ dịch tế bào ngọt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Bảo vệ da chống thấm nước' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q_khtn6_c7_d2_05",
@@ -101,7 +137,16 @@
         "socraticPrompt": "Khi cơ bắp hoạt động mạnh, tim và phổi có làm việc tăng cường để cung cấp oxy và năng lượng cho cơ không?",
         "steps": "Các hệ cơ quan phối hợp đồng bộ, nhịp nhàng duy trì cân bằng nội môi cơ thể.",
         "trap": "Nghĩ rằng nhịp tim đập nhanh khi tập thể dục là triệu chứng bệnh lí."
-      }
+      },
+      "socraticPrompt": "Khi cơ bắp hoạt động mạnh, tim và phổi có làm việc tăng cường để cung cấp oxy và năng lượng cho cơ không?",
+      "distractorReasons": [
+        "Sai vì phủ định sai bản chất: 'Các cơ quan trong cơ thể hoạt động hoàn toàn độc lập và không liên quan gì tới nhau' trái ngược với kiến thức SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Học sinh đang bị bệnh đau tim nguy kịch' (Nghĩ rằng nhịp tim đập nhanh khi tập thể dục là triệu chứng bệnh lí.).",
+        "Đúng vì: Các hệ cơ quan phối hợp đồng bộ, nhịp nhàng duy trì cân bằng nội môi cơ thể.",
+        "Sai vì 'Hệ tiêu hoá đang ngừng hoạt động vĩnh viễn' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q_khtn6_c7_d2_06",
@@ -121,7 +166,16 @@
         "socraticPrompt": "Lớp da ngoài cùng của em và lớp vỏ ngoài của lá cây có vai trò gì giống nhau?",
         "steps": "Nằm ngoài cùng, che chở bảo vệ cơ thể.",
         "trap": "Biểu bì động vật không có lục lạp nên không quang hợp."
-      }
+      },
+      "socraticPrompt": "Lớp da ngoài cùng của em và lớp vỏ ngoài của lá cây có vai trò gì giống nhau?",
+      "distractorReasons": [
+        "Sai vì 'Đều chứa tủy sống và não bộ' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đều có khả năng quang hợp chế tạo tinh bột' (Biểu bì động vật không có lục lạp nên không quang hợp.).",
+        "Sai vì 'Đều có khả năng co bóp bơm máu' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Nằm ngoài cùng, che chở bảo vệ cơ thể."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

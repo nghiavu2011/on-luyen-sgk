@@ -20,97 +20,151 @@
         "concept": "Lược đồ ERD",
         "steps": "Biểu diễn thực thể và mối quan hệ.",
         "socraticPrompt": "Sơ đồ thiết kế CSDL gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Sơ đồ thiết kế CSDL gọi là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Lược đồ ERD: Biểu diễn thực thể và mối quan hệ.",
+        "Sai vì 'Biểu đồ tròn' không phù hợp với định lý/quy tắc trọng tâm (Lược đồ ERD).",
+        "Sai vì 'Sơ đồ mạch điện' không phù hợp với định lý/quy tắc trọng tâm (Lược đồ ERD).",
+        "Sai vì 'Bản đồ tư duy' không phù hợp với định lý/quy tắc trọng tâm (Lược đồ ERD)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Quá trình phân tích và tổ chức lại các bảng để giảm dư thừa dữ liệu và tránh lỗi bất thường được gọi là",
       "options": [
-        "Chuẩn hóa dữ liệu (Data Normalization)",
         "Nén dữ liệu",
+        "Chuẩn hóa dữ liệu (Data Normalization)",
         "Mã hóa dữ liệu",
         "Xóa dữ liệu"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Khái niệm Chuẩn hóa dữ liệu.",
       "breakdown": {
         "concept": "Chuẩn hóa dữ liệu",
         "steps": "Giảm dư thừa, tối ưu hóa bảng.",
         "socraticPrompt": "Quá trình tối ưu hóa bảng CSDL gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Quá trình tối ưu hóa bảng CSDL gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Nén dữ liệu' không phù hợp với định lý/quy tắc trọng tâm (Chuẩn hóa dữ liệu).",
+        "Đúng vì theo Chuẩn hóa dữ liệu: Giảm dư thừa, tối ưu hóa bảng.",
+        "Sai vì 'Mã hóa dữ liệu' không phù hợp với định lý/quy tắc trọng tâm (Chuẩn hóa dữ liệu).",
+        "Sai vì 'Xóa dữ liệu' không phù hợp với định lý/quy tắc trọng tâm (Chuẩn hóa dữ liệu)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Dạng chuẩn nào yêu cầu tất cả các thuộc tính của bảng đều phải có giá trị nguyên tố (đơn trị)?",
       "options": [
-        "Dạng chuẩn 1 (1NF)",
-        "Dạng chuẩn 2 (2NF)",
         "Dạng chuẩn 3 (3NF)",
+        "Dạng chuẩn 2 (2NF)",
+        "Dạng chuẩn 1 (1NF)",
         "Dạng chuẩn Boyce-Codd"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "1NF (First Normal Form) đòi hỏi giá trị đơn nhất (Atomic).",
       "breakdown": {
         "concept": "Dạng chuẩn 1NF",
         "steps": "Giá trị nguyên tố đơn trị.",
         "socraticPrompt": "Dạng chuẩn 1NF yêu cầu gì?"
-      }
+      },
+      "socraticPrompt": "Dạng chuẩn 1NF yêu cầu gì?",
+      "distractorReasons": [
+        "Sai vì 'Dạng chuẩn 3 (3NF)' không phù hợp với định lý/quy tắc trọng tâm (Dạng chuẩn 1NF).",
+        "Sai vì 'Dạng chuẩn 2 (2NF)' không phù hợp với định lý/quy tắc trọng tâm (Dạng chuẩn 1NF).",
+        "Đúng vì theo Dạng chuẩn 1NF: Giá trị nguyên tố đơn trị.",
+        "Sai vì 'Dạng chuẩn Boyce-Codd' không phù hợp với định lý/quy tắc trọng tâm (Dạng chuẩn 1NF)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Phép nối bảng trong SQL chỉ lấy các bản ghi thỏa mãn điều kiện khớp ở cả 2 bảng là",
       "options": [
-        "INNER JOIN",
+        "FULL JOIN",
         "OUTER JOIN",
         "CROSS JOIN",
-        "FULL JOIN"
+        "INNER JOIN"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "INNER JOIN là phép nối trong phổ biến nhất.",
       "breakdown": {
         "concept": "Phép nối INNER JOIN",
         "steps": "Khớp dữ liệu ở cả 2 bảng.",
         "socraticPrompt": "Phép nối lấy dữ liệu chung giữa 2 bảng là gì?"
-      }
+      },
+      "socraticPrompt": "Phép nối lấy dữ liệu chung giữa 2 bảng là gì?",
+      "distractorReasons": [
+        "Sai vì 'FULL JOIN' không phù hợp với định lý/quy tắc trọng tâm (Phép nối INNER JOIN).",
+        "Sai vì 'OUTER JOIN' không phù hợp với định lý/quy tắc trọng tâm (Phép nối INNER JOIN).",
+        "Sai vì 'CROSS JOIN' không phù hợp với định lý/quy tắc trọng tâm (Phép nối INNER JOIN).",
+        "Đúng vì theo Phép nối INNER JOIN: Khớp dữ liệu ở cả 2 bảng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Mối quan hệ giữa bảng `Khoa` và bảng `SinhVien` trong trường đại học là mối quan hệ loại",
       "options": [
-        "Một - Nhiều (1 - N)",
         "Một - Một (1 - 1)",
+        "Một - Nhiều (1 - N)",
         "Nhiều - Nhiều (N - N)",
         "Không có quan hệ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Một khoa có nhiều sinh viên, mỗi sinh viên thuộc một khoa duy nhất.",
       "breakdown": {
         "concept": "Quan hệ 1 - N",
         "steps": "Một Khoa có nhiều Sinh viên.",
         "socraticPrompt": "Quan hệ Khoa và Sinh viên là loại gì?"
-      }
+      },
+      "socraticPrompt": "Quan hệ Khoa và Sinh viên là loại gì?",
+      "distractorReasons": [
+        "Sai vì 'Một - Một (1 - 1)' không phù hợp với định lý/quy tắc trọng tâm (Quan hệ 1 - N).",
+        "Đúng vì theo Quan hệ 1 - N: Một Khoa có nhiều Sinh viên.",
+        "Sai vì 'Nhiều - Nhiều (N - N)' không phù hợp với định lý/quy tắc trọng tâm (Quan hệ 1 - N).",
+        "Sai vì phủ định sai bản chất: 'Không có quan hệ' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Hàm tổng hợp SQL dùng để tính giá trị trung bình của một cột số là",
       "options": [
-        "AVG()",
-        "SUM()",
         "COUNT()",
+        "SUM()",
+        "AVG()",
         "TOTAL()"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Hàm AVG() tính trung bình cộng (Average).",
       "breakdown": {
         "concept": "Hàm AVG SQL",
         "steps": "AVG() tính điểm trung bình.",
         "socraticPrompt": "Hàm tính trung bình trong SQL là gì?"
-      }
+      },
+      "socraticPrompt": "Hàm tính trung bình trong SQL là gì?",
+      "distractorReasons": [
+        "Sai vì 'COUNT()' không phù hợp với định lý/quy tắc trọng tâm (Hàm AVG SQL).",
+        "Sai vì 'SUM()' không phù hợp với định lý/quy tắc trọng tâm (Hàm AVG SQL).",
+        "Đúng vì theo Hàm AVG SQL: AVG() tính điểm trung bình.",
+        "Sai vì 'TOTAL()' không phù hợp với định lý/quy tắc trọng tâm (Hàm AVG SQL)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }

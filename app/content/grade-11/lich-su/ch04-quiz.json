@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Quy luật lịch sử xuyên suốt trong hàng nghìn năm dựng nước và giữ nước của dân tộc Việt Nam là",
       "options": [
-        "Dựng nước luôn đi đôi với giữ nước, giữ nước từ khi nước chưa nguy",
-        "Chỉ lo phát triển kinh tế, bỏ qua quốc phòng",
         "Chỉ lo quân sự, bỏ bê đời sống nhân dân",
+        "Chỉ lo phát triển kinh tế, bỏ qua quốc phòng",
+        "Dựng nước luôn đi đôi với giữ nước, giữ nước từ khi nước chưa nguy",
         "Phụ thuộc vào bảo hộ quân sự nước ngoài"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Chủ động bảo vệ Tổ quốc từ sớm, từ xa, giữ nước từ khi nước chưa nguy.",
       "breakdown": {
         "concept": "Quy luật dựng nước & giữ nước",
         "steps": "Dựng nước đi đôi với giữ nước.",
         "socraticPrompt": "Quy luật tồn tại và phát triển của dân tộc ta là gì?"
-      }
+      },
+      "socraticPrompt": "Quy luật tồn tại và phát triển của dân tộc ta là gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ lo quân sự, bỏ bê đời sống nhân dân', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ lo phát triển kinh tế, bỏ qua quốc phòng', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Quy luật dựng nước & giữ nước: Dựng nước đi đôi với giữ nước.",
+        "Sai vì 'Phụ thuộc vào bảo hộ quân sự nước ngoài' không phù hợp với định lý/quy tắc trọng tâm (Quy luật dựng nước & giữ nước)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Nghệ thuật 'Chiến tranh nhân dân' của Việt Nam có nguồn gốc sâu xa từ",
       "options": [
-        "Truyền thống 'Cả nước chung sức đánh giặc', 'Trăm họ là binh' trong lịch sử",
+        "Tư tưởng phân chia giai cấp phong kiến",
         "Các học thuyết quân sự đánh thuê phương Tây",
         "Việc mua sắm vũ khí ngoại quốc",
-        "Tư tưởng phân chia giai cấp phong kiến"
+        "Truyền thống 'Cả nước chung sức đánh giặc', 'Trăm họ là binh' trong lịch sử"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Mỗi người dân là một chiến sĩ, mỗi làng xóm là một pháo đài đánh giặc.",
       "breakdown": {
         "concept": "Cội nguồn chiến tranh nhân dân",
         "steps": "Toàn dân đánh giặc, toàn diện.",
         "socraticPrompt": "Chiến tranh nhân dân bắt nguồn từ truyền thống nào?"
-      }
+      },
+      "socraticPrompt": "Chiến tranh nhân dân bắt nguồn từ truyền thống nào?",
+      "distractorReasons": [
+        "Sai vì 'Tư tưởng phân chia giai cấp phong kiến' không phù hợp với định lý/quy tắc trọng tâm (Cội nguồn chiến tranh nhân dân).",
+        "Sai vì 'Các học thuyết quân sự đánh thuê phương Tây' không phù hợp với định lý/quy tắc trọng tâm (Cội nguồn chiến tranh nhân dân).",
+        "Sai vì 'Việc mua sắm vũ khí ngoại quốc' không phù hợp với định lý/quy tắc trọng tâm (Cội nguồn chiến tranh nhân dân).",
+        "Đúng vì theo Cội nguồn chiến tranh nhân dân: Toàn dân đánh giặc, toàn diện."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Bảo vệ Tổ quốc từ sớm từ xa",
         "steps": "Nền quốc phòng toàn dân và an ninh nhân dân.",
         "socraticPrompt": "Chủ trương quốc phòng hiện nay của nước ta là gì?"
-      }
+      },
+      "socraticPrompt": "Chủ trương quốc phòng hiện nay của nước ta là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Bảo vệ Tổ quốc từ sớm từ xa: Nền quốc phòng toàn dân và an ninh nhân dân.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ trông cậy vào vũ khí hiện đại', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Liên minh quân sự để tấn công nước khác' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ Tổ quốc từ sớm từ xa).",
+        "Sai vì 'Cắt giảm ngân sách an ninh quốc phòng' không phù hợp với định lý/quy tắc trọng tâm (Bảo vệ Tổ quốc từ sớm từ xa)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Giá trị to lớn của tinh thần 'Hòa hiếu nhân nghĩa' trong đối ngoại của ông cha ta sau khi đánh thắng giặc là",
       "options": [
-        "Cấp thuyền ngựa cho tàn quân giặc về nước, dập tắt mầm mống chiến tranh, giữ gìn hòa bình lâu dài",
         "Truy sát đến cùng để trả thù",
+        "Cấp thuyền ngựa cho tàn quân giặc về nước, dập tắt mầm mống chiến tranh, giữ gìn hòa bình lâu dài",
         "Cắt đất cầu hòa hèn nhát",
         "Bắt toàn bộ tù binh làm nô lệ suốt đời"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Lê Lợi - Nguyễn Trãi cấp 500 chiến thuyền, hàng nghìn cỗ ngựa cho quân Minh rút về nước trong danh dự.",
       "breakdown": {
         "concept": "Truyền thống hòa hiếu",
         "steps": "Nhân nghĩa, khép lại quá khứ hướng tới hòa bình.",
         "socraticPrompt": "Tinh thần nhân đạo của dân tộc ta thể hiện qua hành động nào?"
-      }
+      },
+      "socraticPrompt": "Tinh thần nhân đạo của dân tộc ta thể hiện qua hành động nào?",
+      "distractorReasons": [
+        "Sai vì 'Truy sát đến cùng để trả thù' không phù hợp với định lý/quy tắc trọng tâm (Truyền thống hòa hiếu).",
+        "Đúng vì theo Truyền thống hòa hiếu: Nhân nghĩa, khép lại quá khứ hướng tới hòa bình.",
+        "Sai vì 'Cắt đất cầu hòa hèn nhát' không phù hợp với định lý/quy tắc trọng tâm (Truyền thống hòa hiếu).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Bắt toàn bộ tù binh làm nô lệ suốt đời', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Trách nhiệm bảo vệ Tổ quốc",
         "steps": "Sẵn sàng bảo vệ chủ quyền biên cương hải đảo.",
         "socraticPrompt": "Học sinh cần thể hiện lòng yêu nước như thế nào?"
-      }
+      },
+      "socraticPrompt": "Học sinh cần thể hiện lòng yêu nước như thế nào?",
+      "distractorReasons": [
+        "Đúng vì theo Trách nhiệm bảo vệ Tổ quốc: Sẵn sàng bảo vệ chủ quyền biên cương hải đảo.",
+        "Sai vì 'Trốn tránh nghĩa vụ công dân' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm bảo vệ Tổ quốc).",
+        "Sai vì 'Bỏ mặc nhiệm vụ quốc phòng cho quân đội' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm bảo vệ Tổ quốc).",
+        "Sai vì 'Lan truyền thông tin bịa đặt chia rẽ dân tộc' không phù hợp với định lý/quy tắc trọng tâm (Trách nhiệm bảo vệ Tổ quốc)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Câu nói bất hủ của Bác Hồ: 'Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước' nhắc nhở chúng ta điều gì?",
       "options": [
-        "Trách nhiệm kế tục và phát huy truyền thống yêu nước hào hùng của tổ tiên để bảo vệ vững chắc non sông",
+        "Chỉ cần phát triển du lịch đền Hùng",
         "Chỉ cần ghi nhớ công lao trong quá khứ",
         "Không cần xây dựng quân đội chính quy",
-        "Chỉ cần phát triển du lịch đền Hùng"
+        "Trách nhiệm kế tục và phát huy truyền thống yêu nước hào hùng của tổ tiên để bảo vệ vững chắc non sông"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Lời căn dặn thiêng liêng khắc sâu trong tâm khảm mỗi người con đất Việt.",
       "breakdown": {
         "concept": "Lời dạy của Bác Hồ",
         "steps": "Dựng nước và giữ nước là nhiệm vụ thiêng liêng.",
         "socraticPrompt": "Lời Bác dạy tại Đền Hùng có ý nghĩa gì?"
-      }
+      },
+      "socraticPrompt": "Lời Bác dạy tại Đền Hùng có ý nghĩa gì?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần phát triển du lịch đền Hùng', không đúng với quy luật thực tế và SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần ghi nhớ công lao trong quá khứ', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không cần xây dựng quân đội chính quy' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Lời dạy của Bác Hồ: Dựng nước và giữ nước là nhiệm vụ thiêng liêng."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

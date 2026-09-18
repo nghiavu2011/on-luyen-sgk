@@ -32,7 +32,16 @@
           "2": "Nhân với tỉ lệ 1 mol chất khí bằng 24,79 nhưng tính sai số mol thành 0,1 mol.",
           "3": "Lấy hệ số mol electron chia nhầm cho 2."
         }
-      }
+      },
+      "socraticPrompt": "Em hãy tính số mol của Cu, viết phương trình bảo toàn electron hoặc phương trình phân tử để tìm số mol NO.",
+      "distractorReasons": [
+        "Sai vì 'Thể tích khí NO thu được bằng 1,48 lít khí' không phù hợp với định lý/quy tắc trọng tâm (Định lượng phản ứng oxi hoá khử của kim loại với acid nitric).",
+        "Đúng vì: $n_{Cu} = \\frac{3,84}{64} = 0,06\\text{ mol}$. Phương trình: $3Cu + 8HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO\\uparrow + 4H_2O$. Suy ra $n_{NO} = \\frac{2}{3} n_{Cu} = .",
+        "Sai vì 'Thể tích khí NO thu được bằng 2,47 lít khí' không phù hợp với định lý/quy tắc trọng tâm (Định lượng phản ứng oxi hoá khử của kim loại với acid nitric).",
+        "Sai vì 'Thể tích khí NO thu được bằng 0,74 lít khí' không phù hợp với định lý/quy tắc trọng tâm (Định lượng phản ứng oxi hoá khử của kim loại với acid nitric)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch02-th-q02",
@@ -56,7 +65,16 @@
           "2": "Nước vôi tạo kết tủa thạch cao $CaSO_4$ không thu được acid thương phẩm.",
           "3": "Dùng kiềm sẽ trung hòa mất acid, không có ý nghĩa sản xuất."
         }
-      }
+      },
+      "socraticPrompt": "Tại sao người ta không dùng nước trực tiếp để hấp thụ $SO_3$ mà phải dùng $H_2SO_4$ đặc?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng nước cất tinh khiết để tạo ra dung dịch loãng' (Học sinh nghĩ đơn giản $SO_3 + H_2O \\rightarrow H_2SO_4$ nên chọn dùng nước tinh khiết.).",
+        "Sai vì 'Dùng dung dịch kiềm sodium hydroxide đậm đặc nóng' không phù hợp với định lý/quy tắc trọng tâm (Quy trình công nghệ hấp thụ khí $SO_3$ trong sản xuất $H_2SO_4$).",
+        "Sai vì 'Dùng dung dịch nước vôi trong để tạo kết tủa trắng' không phù hợp với định lý/quy tắc trọng tâm (Quy trình công nghệ hấp thụ khí $SO_3$ trong sản xuất $H_2SO_4$).",
+        "Đúng vì: Người ta dùng dung dịch $H_2SO_4$ đặc $98\\%$ để hấp thụ $SO_3$ tạo thành oleum ($H_2SO_4 \\cdot nSO_3$). Nếu dùng nước, phản ứng tỏa nhiệt dữ dội làm nước sôi tạ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch02-th-q03",
@@ -80,7 +98,16 @@
           "1": "Khí $HCl$ và $H_3PO_4$ không phải nguồn khí thải phổ biến trong khí quyển.",
           "3": "Acid flohiđric chỉ xuất hiện ở các sự cố nhà máy hóa chất cá biệt."
         }
-      }
+      },
+      "socraticPrompt": "Các khí thải công nghiệp $SO_2$ và $NO_x$ khi gặp oxy và nước mưa sẽ chuyển hóa thành những acid nào?",
+      "distractorReasons": [
+        "Đúng vì theo Nguyên nhân và thành phần hóa học chính của mưa acid: Khí thải $SO_2$ và $NO_x$ bị oxi hoá bởi oxy không khí có xúc tác bụi kim loại tạo $H_2SO_4$ và $HNO_3$. Đây là hai tác nhân chính gây ra mưa acid ($pH < 5,6$).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Acid clohiđric ($HCl$) và acid photphoric ($H_3PO_4$)' (Nghĩ rằng chỉ có khí $CO_2$ hòa tan (nước mưa bình thường chứa $CO_2$ chỉ có $pH \\approx 5,6$, chưa đạt mức mưa acid).).",
+        "Sai vì 'Acid carbonic ($H_2CO_3$) và acid acetic ($CH_3COOH$)' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân và thành phần hóa học chính của mưa acid).",
+        "Sai vì 'Acid flohiđric ($HF$) và acid fomic hữu cơ ($HCOOH$)' không phù hợp với định lý/quy tắc trọng tâm (Nguyên nhân và thành phần hóa học chính của mưa acid)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch02-th-q04",
@@ -104,7 +131,16 @@
           "1": "Chỉ tạo $Na_2SO_3$ khi tỉ lệ $T \\ge 2$.",
           "2": "Đây không phải phản ứng tạo gốc sulfate $SO_4^{2-}$ hay giải phóng $H_2$."
         }
-      }
+      },
+      "socraticPrompt": "Em hãy tính tỉ số $T = n_{NaOH} / n_{SO_2}$ rồi so sánh với các mốc 1 và 2.",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ thu được một muối acid duy nhất là NaHSO3' (Học sinh chỉ nhớ 1 phương trình tạo $Na_2SO_3$ mà quên trường hợp tạo hỗn hợp hai muối.).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ thu được một muối trung hòa duy nhất Na2SO3', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Tỉ số $T = \\frac{n_{NaOH}}{n_{SO_2}} = \\frac{0,15}{0,1} = 1,5$. Vì $1 < T < 2$ nên phản ứng tạo ra đồng thời cả hai muối: muối acid $NaHSO_3$ và muối trung hòa .",
+        "Sai vì 'Thu được muối Na2SO4 và khí hydro sục bọt nhanh' không phù hợp với định lý/quy tắc trọng tâm (Xác định sản phẩm phản ứng giữa $SO_2$ và dung dịch kiềm dựa vào tỉ lệ mol)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch02-th-q05",
@@ -128,7 +164,16 @@
           "2": "$NH_4Cl$ là phân đạm clorua, gây chua đất và hại vi sinh vật.",
           "3": "$KNO_3$ là phân kali nitrate (cung cấp cả K và N)."
         }
-      }
+      },
+      "socraticPrompt": "Phân đạm urê là phân đạm có hàm lượng dinh dưỡng nitrogen cao nhất, công thức phân tử là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Phân bón đạm ammonium nitrate ($NH_4NO_3$ dạng hạt)' (phân urê với các loại phân đạm vô cơ khác như đạm 2 lá ($NH_4NO_3$)).",
+        "Đúng vì theo Công thức và đặc điểm của phân đạm urê: Phân urê có công thức là $(NH_2)_2CO$, chứa khoảng $46\\%$ nitrogen, là loại phân đạm tốt và phổ biến nhất.",
+        "Sai vì 'Phân bón đạm ammonium chloride có công thức $NH_4Cl$' không phù hợp với định lý/quy tắc trọng tâm (Công thức và đặc điểm của phân đạm urê).",
+        "Sai vì 'Phân bón kali nitrate có công thức hóa học là $KNO_3$' không phù hợp với định lý/quy tắc trọng tâm (Công thức và đặc điểm của phân đạm urê)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch02-th-q06",
@@ -152,7 +197,16 @@
           "1": "Kẽm và Chì vẫn phản ứng bình thường trong acid đặc.",
           "3": "Magie và Canxi phản ứng rất mãnh liệt tỏa nhiều nhiệt."
         }
-      }
+      },
+      "socraticPrompt": "Kim loại nào được dùng để làm bồn chứa vận chuyển acid sulfuric và acid nitric đặc nguội?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Đồng ($Cu$) và Bạc ($Ag$) trơ trong acid nguội' (các kim loại đứng sau hydro như Cu, Ag (chúng vẫn tan trong acid đặc nguội giải phóng khí)).",
+        "Sai vì 'Kẽm ($Zn$) và Chì ($Pb$) trơ trong acid nguội' không phù hợp với định lý/quy tắc trọng tâm (Hiện tượng thụ động hóa của nhôm và sắt trong acid đặc nguội).",
+        "Sai vì 'Magie ($Mg$) và Canxi ($Ca$) trơ trong acid nguội' không phù hợp với định lý/quy tắc trọng tâm (Hiện tượng thụ động hóa của nhôm và sắt trong acid đặc nguội).",
+        "Đúng vì: Nhôm ($Al$) và Sắt ($Fe$) (cùng với $Cr$) bị thụ động hóa trong $HNO_3$ đặc nguội và $H_2SO_4$ đặc nguội do tạo ra màng oxide mỏng nhưng rất bền vững, ngăn khôn."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

@@ -31,7 +31,16 @@
           "2": "Acid $HCl$ không tạo hiện tượng nhận biết rõ ràng với $NH_4^+$.",
           "3": "Nước vôi để hở ngoài không khí sẽ bị đục do hấp thụ khí $CO_2$ gây nhiễu."
         }
-      }
+      },
+      "socraticPrompt": "Khi đun nóng muối ammonium với dung dịch base kiềm, khí nào thoát ra làm đổi màu quỳ tím ẩm?",
+      "distractorReasons": [
+        "Đúng vì theo Phương pháp nhận biết ion ammonium bằng phản ứng hóa học: Phản ứng: $NH_4^+ + OH^- \\xrightarrow{t^o} NH_3\\uparrow + H_2O$. Khí $NH_3$ làm quỳ tím ẩm hóa xanh.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch muối ăn $NaCl$ và giấy lọc thấm nước cất tinh khiết' (Dùng quỳ tím khô sẽ không nhận biết được vì chất khí $NH_3$ cần nước để điện li tạo $OH^-$.).",
+        "Sai vì 'Dung dịch acid clohiđric loãng $HCl$ và ngọn lửa đèn cồn đỏ' không phù hợp với định lý/quy tắc trọng tâm (Phương pháp nhận biết ion ammonium bằng phản ứng hóa học).",
+        "Sai vì phủ định sai bản chất: 'Dung dịch nước vôi trong $Ca(OH)_2$ không đậy nút bình tam giác' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "hoahoc-11-ch02-de02-q02",
@@ -55,7 +64,16 @@
           "2": "Sai vì ở phản ứng 1 số oxi hoá của S tăng lên $+4$.",
           "3": "Sai vì ở phản ứng 2 số oxi hoá của S giảm xuống $-2$."
         }
-      }
+      },
+      "socraticPrompt": "Hãy xác định số oxi hoá của S trước và sau phản ứng trong $SO_2$ và $FeS$.",
+      "distractorReasons": [
+        "Sai vì 'Sulfur là chất oxi hoá ở phản ứng 1 và là chất khử ở phản ứng 2' không phù hợp với định lý/quy tắc trọng tâm (Xác định sự thay đổi số oxi hoá của đơn chất sulfur).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Sulfur đều đóng vai trò là chất oxi hoá mạnh trong cả 2 phản ứng' (Nhớ máy móc phi kim luôn là chất oxi hoá mà quên S tác dụng với phi kim mạnh hơn ($O_2$) sẽ đóng vai trò chất khử.).",
+        "Đúng vì theo Xác định sự thay đổi số oxi hoá của đơn chất sulfur: Ở (1): $S^0 \\rightarrow S^{+4} + 4e \\Rightarrow$ S là chất khử. Ở (2): $S^0 + 2e \\rightarrow S^{-2} \\Rightarrow$ S là chất oxi hoá.",
+        "Sai vì 'Sulfur đều đóng vai trò là chất khử điển hình trong cả 2 phản ứng' không phù hợp với định lý/quy tắc trọng tâm (Xác định sự thay đổi số oxi hoá của đơn chất sulfur)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch02-de02-q03",
@@ -79,7 +97,16 @@
           "1": "Kiềm đặc có tính ăn mòn da và phản ứng trung hòa tỏa nhiệt gây bỏng thêm.",
           "3": "Băng kín khi chưa rửa sạch sẽ làm acid tiếp tục ăn sâu hủy hoại mô thịt."
         }
-      }
+      },
+      "socraticPrompt": "Để pha loãng nhanh chóng và cuốn trôi lượng acid dư thừa trên da, ta cần dùng lượng nước như thế nào?",
+      "distractorReasons": [
+        "Sai vì 'Bôi ngay kem đánh răng hoặc mỡ trăn trực tiếp lên vùng da bỏng' không phù hợp với định lý/quy tắc trọng tâm (Quy trình sơ cứu y tế đối với tai nạn bỏng hóa chất acid).",
+        "Đúng vì theo Quy trình sơ cứu y tế đối với tai nạn bỏng hóa chất acid: Rửa ngay dưới vòi nước chảy liên tục trong ít nhất 15 phút để dòng nước cuốn trôi acid và giải nhiệt nhanh chóng.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dùng dung dịch kiềm đậm đặc để trung hòa hoàn toàn lượng acid' (Dùng dung dịch base đặc để trung hòa sẽ sinh nhiệt mạnh gây bỏng kép trầm trọng hơn.).",
+        "Sai vì phủ định sai bản chất: 'Băng kín vết bỏng bằng bông gạc khô và không được cho dính nước' trái ngược với kiến thức SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "hoahoc-11-ch02-de02-q04",
@@ -103,7 +130,16 @@
           "1": "Kim loại có tính khử mạnh như Mg có thể khử $N^{+5}$ xuống $N^{-3}$ trong $NH_4NO_3$.",
           "2": "Khí $NO$ là sản phẩm khử thông thường của $HNO_3$ loãng."
         }
-      }
+      },
+      "socraticPrompt": "Trong $HNO_3$, ion $H^+$ hay ion $NO_3^-$ có tính oxi hoá mạnh hơn trong phản ứng với kim loại?",
+      "distractorReasons": [
+        "Sai vì 'Muối magnesium nitrate tan trong nước ($Mg(NO_3)_2$)' không phù hợp với định lý/quy tắc trọng tâm (Bản chất tính oxi hoá cực mạnh của ion nitrate trong môi trường acid).",
+        "Sai vì 'Muối ammonium nitrate trong dung dịch ($NH_4NO_3$)' không phù hợp với định lý/quy tắc trọng tâm (Bản chất tính oxi hoá cực mạnh của ion nitrate trong môi trường acid).",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Hợp chất khí nitrogen monoxide không màu ($NO$)' (Áp dụng thói quen kim loại tác dụng với acid loãng sinh khí $H_2$ như đối với $HCl, H_2SO_4$ loãng.).",
+        "Đúng vì: Trong $HNO_3$, $N^{+5}$ có tính oxi hoá mạnh hơn $H^+$ nên bị khử về các trạng thái số oxi hoá thấp hơn ($+4, +2, +1, 0, -3$). Phản ứng không giải phóng khí $H_."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "hoahoc-11-ch02-de02-q05",
@@ -127,7 +163,16 @@
           "2": "$P_2O_5$ là oxide acid sẽ phản ứng mãnh liệt với base ammonia.",
           "3": "Acid $HCl$ phản ứng ngay với $NH_3$ tạo khói trắng muối $NH_4Cl$."
         }
-      }
+      },
+      "socraticPrompt": "Ammonia là một base, nó sẽ phản ứng với những chất hút nước có tính acid như thế nào?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Dung dịch acid sulfuric đặc có tính hút nước mạnh' (Chỉ nghĩ tới $H_2SO_4$ đặc là chất hút ẩm tốt nhất mà quên mất phản ứng tạo muối $(NH_4)_2SO_4$.).",
+        "Sai vì 'Chất bột phosphorus pentoxide dạng khan ($P_2O_5$)' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: $NH_3$ có tính base, do đó không thể dùng các chất làm khô mang tính acid như $H_2SO_4$ đặc hay $P_2O_5$ vì sẽ xảy ra phản ứng. Vôi sống $CaO$ mang tính base nê.",
+        "Sai vì 'Dung dịch acid clohiđric đậm đặc trong bình kín' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "hoahoc-11-ch02-de02-q06",
@@ -151,7 +196,16 @@
           "1": "Acid sulfuric đặc là chất lỏng khó bay hơi nhất trong các acid thông thường.",
           "3": "Không phải phản ứng tẩy màu mà là phản ứng biến chất hữu cơ thành than."
         }
-      }
+      },
+      "socraticPrompt": "Khối màu đen là carbon tạo ra do acid chiếm nước, sau đó carbon bị acid oxi hoá sinh ra những khí gì?",
+      "distractorReasons": [
+        "Đúng vì theo Tính háo nước và tính oxi hoá mạnh của acid sulfuric đặc: Giai đoạn 1: $H_2SO_4$ đặc chiếm nước: $C_{12}H_{22}O_{11} \\rightarrow 12C + 11H_2O$. Giai đoạn 2: Oxi hoá carbon: $C + 2H_2SO_4\\text{ đặc} \\rightarrow CO_2\\upa.",
+        "Sai vì 'Tính chất bay hơi nhanh cuốn theo các phân tử chất rắn' không phù hợp với định lý/quy tắc trọng tâm (Tính háo nước và tính oxi hoá mạnh của acid sulfuric đặc).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Tính chất acid mạnh hòa tan toàn bộ các liên kết cacbon', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tính chất tẩy màu hữu cơ do giải phóng nhiệt độ cao' (Chỉ giải thích được tính háo nước mà không giải thích được vì sao khối carbon đen lại sủi bọt dâng trào.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

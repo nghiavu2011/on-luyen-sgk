@@ -32,7 +32,16 @@
           "2": "Auxin tập trung phía tối chứ không phải phía sáng.",
           "3": "Chỉ khi chiếu sáng đều từ trên xuống thì auxin mới phân bố đều và cây mọc thẳng."
         }
-      }
+      },
+      "socraticPrompt": "Khi ngọn cây cong về phía có sáng, mặt nào của ngọn cây đang sinh trưởng dài ra nhanh hơn?",
+      "distractorReasons": [
+        "Đúng vì: Ánh sáng chiếu từ một bên gây ra sự vận chuyển phân cực của auxin từ phía được chiếu sáng sang phía bị che tối. Nồng độ auxin phía tối cao hơn kích thích các tế.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Auxin bị ánh sáng phá huỷ hoàn toàn nên cây ngừng sinh trưởng' (tưởng auxin tập trung ở phía có ánh sáng hoặc ánh sáng phá hủy auxin hoàn toàn).",
+        "Sai vì 'Auxin tập trung nhiều ở phía được chiếu sáng kích thích tế bào dãn dài đẩy cây uốn tránh xa ánh sáng' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Auxin phân bố đều ở cả hai phía làm cây mọc thẳng đứng vuông góc với tia sáng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch02-d2-q02",
@@ -56,7 +65,16 @@
           "2": "Xung thần kinh được tái tạo thành điện thế hoạt động mới ở màng sau chứ không bị biến mất.",
           "3": "Enzyme ở khe synapse (acetylcholinesterase) chỉ phân giải acetylcholine dư thừa, không tiêu hủy xung điện."
         }
-      }
+      },
+      "socraticPrompt": "Thành phần túi chứa chất dẫn truyền và thụ thể tiếp nhận nằm ở những vị trí nào của synapse?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì màng sau luôn tích điện âm hơn màng trước nên đẩy xung điện quay ngược lại' (Nghĩ dòng xung điện trong synapse chạy như dòng điện vật lí trong dây dẫn (có thể chạy 2 chiều).).",
+        "Đúng vì: Ở synapse hoá học, chất trung gian hoá học (như acetylcholine) chỉ được tổng hợp và đóng gói trong các bóng/túi ở cúc màng trước. Khi xung điện đến, chất trung .",
+        "Sai vì 'Vì xung thần kinh bị tiêu hao hoàn toàn năng lượng ngay khi đi qua khe synapse' không phù hợp với định lý/quy tắc trọng tâm (Tính bất đối xứng cấu trúc của synapse hóa học quyết định tính truyền tin một chiều.).",
+        "Sai vì 'Vì khe synapse chứa enzyme tiêu huỷ xung thần kinh nếu nó quay ngược lại' không phù hợp với định lý/quy tắc trọng tâm (Tính bất đối xứng cấu trúc của synapse hóa học quyết định tính truyền tin một chiều.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch02-d2-q03",
@@ -80,7 +98,16 @@
           "1": "Bơm Na-K vẫn hoạt động để tiêu thụ ATP duy trì gradient nồng độ ion.",
           "3": "Ion Ca2+ đi vào ở chùy synapse, không đóng vai trò chính trong pha tái phân cực của sợi trục."
         }
-      }
+      },
+      "socraticPrompt": "Sau khi màng bị đảo cực (+35 mV), ion dương nào sẽ tràn ra ngoài để trả lại điện thế âm bên trong màng?",
+      "distractorReasons": [
+        "Sai vì 'Cổng Na+ mở rộng làm Na+ ùa vào trong tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Bơm Na+-K+ ngừng hoạt động hoàn toàn' (tái phân cực là do bơm Na-K bơm Na ra ngoài (bơm Na-K hoạt động sau đó để hồi phục lại nồng độ ion ban đầu)).",
+        "Đúng vì: Khi điện thế màng đạt cực đại (+35 mV), cổng Na+ đóng lại nhanh chóng. Đồng thời, các cổng K+ nhạy cảm điện thế mở rộng, ion K+ có nồng độ cao trong tế bào ào ạ.",
+        "Sai vì 'Ion Ca2+ ùa vào trong tế bào thay thế ion K+' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch02-d2-q04",
@@ -104,7 +131,16 @@
           "1": "Bao myelin có tính cách điện, không phải dẫn điện.",
           "2": "Bao myelin là cấu trúc màng lipid của tế bào Schwann, không tự sinh ATP đẩy xung."
         }
-      }
+      },
+      "socraticPrompt": "Chất myelin có tính dẫn điện hay cách điện, và ion Na+ chỉ có thể ra vào sợi trục ở những vị trí hở nào?",
+      "distractorReasons": [
+        "Sai vì 'Vì xung thần kinh lan truyền liên tục từ điểm này sang điểm kế tiếp dọc theo sợi trục' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì bao myelin dẫn điện cực kì tốt làm tăng tốc độ dòng điện' (Tưởng bao myelin dẫn điện tốt như dây đồng bọc bên ngoài sợi thần kinh.).",
+        "Sai vì 'Vì bao myelin tự sản xuất thêm các phân tử ATP để đẩy xung thần kinh đi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Bao myelin có bản chất là lipid cách điện hoàn toàn, các kênh ion Na+ và K+ chỉ tập trung với mật độ cao tại các đoạn hở giữa các bao myelin gọi là eo Ranvier. ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch02-d2-q05",
@@ -128,7 +164,16 @@
           "2": "Ở Skinner, chuột phải chủ động tìm tòi và gạt đòn bẩy thì mới có thức ăn.",
           "3": "Cả hai đều là các hình thức học tập rút kinh nghiệm tạo tập tính học được, không phải bẩm sinh hay in vết."
         }
-      }
+      },
+      "socraticPrompt": "Trong hai thí nghiệm, con vật nào phải tự mình thực hiện một thao tác cơ học để nhận được thức ăn?",
+      "distractorReasons": [
+        "Đúng vì: Điều kiện hoá đáp ứng (Paplov): Con vật phản ứng thụ động trước kích thích kết hợp (chuông + thức ăn -> tiết nước bọt). Điều kiện hoá hành động (Skinner): Con v.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Thí nghiệm của Paplov là điều kiện hoá hành động, Skinner là điều kiện hoá đáp ứng' (Đảo tên gọi giữa Paplov (đáp ứng) và Skinner (hành động/thử và sai).).",
+        "Sai vì phủ định sai bản chất: 'Ở thí nghiệm của Skinner con vật hoàn toàn thụ động không cần thực hiện bất kì hành động nào' trái ngược với kiến thức SGK.",
+        "Sai vì 'Thí nghiệm của Paplov hình thành tập tính bẩm sinh, còn thí nghiệm của Skinner hình thành tập tính in vết' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch02-d2-q06",
@@ -152,7 +197,16 @@
           "2": "Va chạm cơ học nhẹ lạnh cũng gây cụp lá, không liên quan đến nhiệt độ đông vón.",
           "3": "Lá chỉ cụp tạm thời rồi mở lại sau 15-20 phút, không hề bị rụng hay tiết chất độc."
         }
-      }
+      },
+      "socraticPrompt": "Thể gối ở gốc cuống lá cây trinh nữ xẹp xuống là do tế bào hút thêm nước hay mất nước đột ngột?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tế bào ở mặt dưới của cuống lá tăng sinh phân chia với tốc độ cực nhanh' (Tưởng tế bào phân chia hoặc sinh trưởng (ứng động này diễn ra trong 0,1s nên không thể là do sinh trưởng phân chia tế bào).).",
+        "Đúng vì: Ở cuống lá và gốc lá chét cây trinh nữ có cấu trúc gọi là thể gối. Khi có kích thích cơ học va chạm, sóng kích thích truyền đi làm các kênh ion K+ ở màng tế bào.",
+        "Sai vì 'Nhiệt độ ngón tay làm đông vón chất nguyên sinh trong tế bào lá cây' không phù hợp với định lý/quy tắc trọng tâm (Ứng động không sinh trưởng do biến đổi nhanh sức trương nước ở các tế bào thể gối.).",
+        "Sai vì 'Cây trinh nữ tiết ra chất độc làm rụng lá để tránh kẻ thù' không phù hợp với định lý/quy tắc trọng tâm (Ứng động không sinh trưởng do biến đổi nhanh sức trương nước ở các tế bào thể gối.)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

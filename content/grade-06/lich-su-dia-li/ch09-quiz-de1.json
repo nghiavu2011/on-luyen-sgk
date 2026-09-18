@@ -23,12 +23,15 @@
         "steps": "Khí Nitơ là thành phần khí chiếm thể tích áp đảo nhất trong khí quyển.",
         "trap": "Nhầm khí Ô-xi là nhiều nhất vì ô-xi duy trì sự hô hấp."
       },
-      "distractorReasons": {
-        "A": "Đáp án chính xác theo biểu đồ thành phần không khí SGK trang 142.",
-        "B": "Sai, Ô-xi chỉ chiếm khoảng 21%.",
-        "C": "Sai, $CO_2$ chiếm tỉ lệ rất nhỏ (dưới 0,04%).",
-        "D": "Sai, hơi nước chiếm chưa đầy 1% thể tích không khí."
-      }
+      "distractorReasons": [
+        "Đúng vì biểu đồ thành phần không khí SGK trang 142.",
+        "Sai vì Ô-xi chỉ chiếm khoảng 21%.",
+        "Sai vì $CO_2$ chiếm tỉ lệ rất nhỏ (dưới 0,04%).",
+        "Sai vì hơi nước chiếm chưa đầy 1% thể tích không khí."
+      ],
+      "socraticPrompt": "Khí nào chiếm gần 4/5 (khoảng 78%) thể tích bầu khí quyển?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch09_d1_02",
@@ -49,12 +52,15 @@
         "steps": "Tầng đối lưu là cái nôi sinh ra mọi hiện tượng thời tiết khí tượng.",
         "trap": "Nhầm sang tầng bình lưu (nơi máy bay dân dụng bay đường dài vì không khí yên tĩnh, không mây mưa)."
       },
-      "distractorReasons": {
-        "A": "Sai, tầng bình lưu không khí rất khô và yên tĩnh, không có mây mưa bão tố.",
-        "B": "Đáp án đúng theo SGK trang 143.",
-        "C": "Sai, tầng ion cực kì loãng ở độ cao hàng trăm km.",
-        "D": "Sai, ngoài vũ trụ là chân không."
-      }
+      "distractorReasons": [
+        "Sai vì tầng bình lưu không khí rất khô và yên tĩnh, không có mây mưa bão tố.",
+        "Đúng vì SGK trang 143.",
+        "Sai vì tầng ion cực kì loãng ở độ cao hàng trăm km.",
+        "Sai vì ngoài vũ trụ là chân không."
+      ],
+      "socraticPrompt": "Mưa và bão xuất hiện ở tầng không khí sát mặt đất hay trên cao tít?",
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "lsdl6_ch09_d1_03",
@@ -75,12 +81,15 @@
         "steps": "Hấp thụ tia cực tím (UV) -> bảo vệ sự sống trên Trái Đất.",
         "trap": "Nghĩ rằng tầng ôzôn tạo ra nước mưa hay hút bụi."
       },
-      "distractorReasons": {
-        "A": "Sai, nước ngọt do chu trình tuần hoàn nước cung cấp.",
-        "B": "Sai, bụi bẩn phân bố chủ yếu ở tầng đối lưu sát mặt đất.",
-        "C": "Đáp án đúng theo SGK trang 143.",
-        "D": "Sai, ôzôn không liên quan đến sự di chuyển của các đai áp và gió."
-      }
+      "distractorReasons": [
+        "Sai vì nước ngọt do chu trình tuần hoàn nước cung cấp.",
+        "Sai vì bụi bẩn phân bố chủ yếu ở tầng đối lưu sát mặt đất.",
+        "Đúng vì SGK trang 143.",
+        "Sai vì ôzôn không liên quan đến sự di chuyển của các đai áp và gió."
+      ],
+      "socraticPrompt": "Tầng ôzôn giúp lọc bỏ loại tia sáng mắt thường không nhìn thấy gây hại cho da là tia gì?",
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "lsdl6_ch09_d1_04",
@@ -101,12 +110,15 @@
         "steps": "Gió = sự chuyển động của không khí từ áp cao về áp thấp.",
         "trap": "Nhầm gió với chuyển động của mây (mây chỉ là hơi nước bị gió cuốn đi)."
       },
-      "distractorReasons": {
-        "A": "Sai, mây di chuyển theo luồng gió chứ mây không phải là gió.",
-        "B": "Sai, đá rơi là hiện tượng trượt lở địa mạo.",
-        "C": "Sai, bốc hơi nước là hiện tượng chuyển thể của nước.",
-        "D": "Đáp án đúng theo định nghĩa SGK trang 144."
-      }
+      "distractorReasons": [
+        "Sai vì mây di chuyển theo luồng gió chứ mây không phải là gió.",
+        "Sai vì đá rơi là hiện tượng trượt lở địa mạo.",
+        "Sai vì bốc hơi nước là hiện tượng chuyển thể của nước.",
+        "Đúng vì ịnh nghĩa SGK trang 144."
+      ],
+      "socraticPrompt": "Không khí chuyển động từ nơi áp cao sang nơi áp thấp gọi là gì?",
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "lsdl6_ch09_d1_05",
@@ -127,12 +139,15 @@
         "steps": "$1 + 2 + 2 = 5$ đới khí hậu chính trên toàn cầu.",
         "trap": "Nhầm thành 3 đới (chỉ nhớ tên nóng, ôn hòa, lạnh mà quên mỗi nửa cầu đều có đới ôn hòa và đới lạnh riêng)."
       },
-      "distractorReasons": {
-        "A": "Đáp án đúng theo sơ đồ phân bố các đới khí hậu SGK trang 151.",
-        "B": "Sai số lượng đới.",
-        "C": "Sai, quên tính hai đới ôn hòa và hai đới lạnh ở hai bán cầu.",
-        "D": "Sai, 7 là số lượng mảng kiến tạo lớn."
-      }
+      "distractorReasons": [
+        "Đúng vì sơ đồ phân bố các đới khí hậu SGK trang 151.",
+        "Sai số lượng đới.",
+        "Sai vì quên tính hai đới ôn hòa và hai đới lạnh ở hai bán cầu.",
+        "Sai vì 7 là số lượng mảng kiến tạo lớn."
+      ],
+      "socraticPrompt": "1 đới nóng cộng 2 đới ôn hòa cộng 2 đới lạnh bằng mấy đới?",
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "lsdl6_ch09_d1_06",
@@ -153,12 +168,15 @@
         "steps": "Nội chí tuyến = Đới nóng (nhiệt đới).",
         "trap": "Nghĩ rằng miền Bắc có mùa đông lạnh nên thuộc đới ôn hòa (thực chất chỉ là sắc thái gió mùa trong đới nóng)."
       },
-      "distractorReasons": {
-        "A": "Sai, đới lạnh ở vùng gần cực Bắc Băng Dương.",
-        "B": "Đáp án đúng theo vị trí địa lí Việt Nam SGK trang 151.",
-        "C": "Sai, đới ôn hòa ở các nước châu Âu, Bắc Mỹ.",
-        "D": "Sai, Việt Nam không thuộc vùng cực."
-      }
+      "distractorReasons": [
+        "Sai vì đới lạnh ở vùng gần cực Bắc Băng Dương.",
+        "Đúng vì vị trí địa lí Việt Nam SGK trang 151.",
+        "Sai vì đới ôn hòa ở các nước châu Âu, Bắc Mỹ.",
+        "Sai vì Việt Nam không thuộc vùng cực."
+      ],
+      "socraticPrompt": "Nước ta có nhiệt độ trung bình năm cao, nắng nhiều, trồng được lúa nước quanh năm thuộc đới gì?",
+      "answer": 1,
+      "correctIndex": 1
     }
   ]
 }

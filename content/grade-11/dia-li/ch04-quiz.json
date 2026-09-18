@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Tầm quan trọng của việc giữ vững 'Đoàn kết và vai trò trung tâm của ASEAN' trong cấu trúc an ninh khu vực là",
       "options": [
-        "Bảo đảm ASEAN không bị chia rẽ bởi sự cạnh tranh giữa các nước lớn, duy trì hòa bình và tự chủ chiến lược",
-        "Phụ thuộc vào sự chi phối của một cường quốc duy nhất",
         "Giải thể tổ chức ASEAN",
+        "Phụ thuộc vào sự chi phối của một cường quốc duy nhất",
+        "Bảo đảm ASEAN không bị chia rẽ bởi sự cạnh tranh giữa các nước lớn, duy trì hòa bình và tự chủ chiến lược",
         "Tách rời khỏi các đối tác quốc tế"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Vai trò trung tâm giúp ASEAN dẫn dắt các cơ chế hợp tác khu vực (ARF, EAS, ADMM+).",
       "breakdown": {
         "concept": "Vai trò trung tâm của ASEAN",
         "steps": "Tự chủ chiến lược và duy trì hòa bình.",
         "socraticPrompt": "Tại sao sự đoàn kết của ASEAN có ý nghĩa sống còn?"
-      }
+      },
+      "socraticPrompt": "Tại sao sự đoàn kết của ASEAN có ý nghĩa sống còn?",
+      "distractorReasons": [
+        "Sai vì 'Giải thể tổ chức ASEAN' không phù hợp với định lý/quy tắc trọng tâm (Vai trò trung tâm của ASEAN).",
+        "Sai vì 'Phụ thuộc vào sự chi phối của một cường quốc duy nhất' không phù hợp với định lý/quy tắc trọng tâm (Vai trò trung tâm của ASEAN).",
+        "Đúng vì theo Vai trò trung tâm của ASEAN: Tự chủ chiến lược và duy trì hòa bình.",
+        "Sai vì 'Tách rời khỏi các đối tác quốc tế' không phù hợp với định lý/quy tắc trọng tâm (Vai trò trung tâm của ASEAN)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Tác động của cuộc Cách mạng công nghiệp 4.0 đối với thị trường lao động Đông Nam Á là",
       "options": [
-        "Đòi hỏi cấp bách phải đào tạo lại kỹ năng số và nâng cao tay nghề để không bị thay thế bởi robot tự động hóa",
+        "Tất cả mọi người đều mất việc làm",
         "Lao động thủ công không cần học hỏi",
         "Không có tác động gì",
-        "Tất cả mọi người đều mất việc làm"
+        "Đòi hỏi cấp bách phải đào tạo lại kỹ năng số và nâng cao tay nghề để không bị thay thế bởi robot tự động hóa"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Nâng cấp kỹ năng nghề nghiệp là chìa khóa thích ứng tương lai việc làm.",
       "breakdown": {
         "concept": "Tác động CMCN 4.0 với lao động",
         "steps": "Chuyển đổi số và đào tạo kỹ năng mới.",
         "socraticPrompt": "Người lao động ĐNA cần làm gì trước làn sóng tự động hóa?"
-      }
+      },
+      "socraticPrompt": "Người lao động ĐNA cần làm gì trước làn sóng tự động hóa?",
+      "distractorReasons": [
+        "Sai vì 'Tất cả mọi người đều mất việc làm' không phù hợp với định lý/quy tắc trọng tâm (Tác động CMCN 4.0 với lao động).",
+        "Sai vì phủ định sai bản chất: 'Lao động thủ công không cần học hỏi' trái ngược với kiến thức SGK.",
+        "Sai vì phủ định sai bản chất: 'Không có tác động gì' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Tác động CMCN 4.0 với lao động: Chuyển đổi số và đào tạo kỹ năng mới."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Hợp tác sông Mê Kông",
         "steps": "Chia sẻ dữ liệu và bảo vệ sinh thái bền vững.",
         "socraticPrompt": "Làm thế nào để bảo vệ dòng sông Mê Kông?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để bảo vệ dòng sông Mê Kông?",
+      "distractorReasons": [
+        "Đúng vì theo Hợp tác sông Mê Kông: Chia sẻ dữ liệu và bảo vệ sinh thái bền vững.",
+        "Sai vì phủ định sai bản chất: 'Xây dựng đập tùy tiện không thông báo' trái ngược với kiến thức SGK.",
+        "Sai vì 'Ngăn chặn dòng chảy về hạ lưu' không phù hợp với định lý/quy tắc trọng tâm (Hợp tác sông Mê Kông).",
+        "Sai vì 'Khai thác cạn kiệt nguồn nước' không phù hợp với định lý/quy tắc trọng tâm (Hợp tác sông Mê Kông)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Vị thế chiến lược của Việt Nam trong Cộng đồng ASEAN là",
       "options": [
-        "Cầu nối vững chắc giữa Đông Nam Á lục địa và hải đảo, cửa ngõ hướng biển của Hành lang kinh tế Đông - Tây",
         "Quốc gia nằm biệt lập ngoài đại dương",
+        "Cầu nối vững chắc giữa Đông Nam Á lục địa và hải đảo, cửa ngõ hướng biển của Hành lang kinh tế Đông - Tây",
         "Không có vai trò kết nối",
         "Chỉ tham gia danh nghĩa"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Vị trí địa chính trị đắc địa và đóng góp chủ động, trách nhiệm vào mọi quyết sách của khối.",
       "breakdown": {
         "concept": "Vị thế chiến lược của Việt Nam",
         "steps": "Cầu nối địa kinh tế và trung tâm năng động.",
         "socraticPrompt": "Việt Nam có vai trò địa lý gì trong ASEAN?"
-      }
+      },
+      "socraticPrompt": "Việt Nam có vai trò địa lý gì trong ASEAN?",
+      "distractorReasons": [
+        "Sai vì 'Quốc gia nằm biệt lập ngoài đại dương' không phù hợp với định lý/quy tắc trọng tâm (Vị thế chiến lược của Việt Nam).",
+        "Đúng vì theo Vị thế chiến lược của Việt Nam: Cầu nối địa kinh tế và trung tâm năng động.",
+        "Sai vì phủ định sai bản chất: 'Không có vai trò kết nối' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ tham gia danh nghĩa', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "Kinh tế biển xanh ASEAN",
         "steps": "Chống đánh bắt IUU + bảo vệ rạn san hô.",
         "socraticPrompt": "Vấn đề cấp bách cần giải quyết trên biển Đông Nam Á là gì?"
-      }
+      },
+      "socraticPrompt": "Vấn đề cấp bách cần giải quyết trên biển Đông Nam Á là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Kinh tế biển xanh ASEAN: Chống đánh bắt IUU + bảo vệ rạn san hô.",
+        "Sai vì 'Đẩy mạnh đánh bắt tận diệt' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế biển xanh ASEAN).",
+        "Sai vì 'Xả rác thải tự do ra biển' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế biển xanh ASEAN).",
+        "Sai vì 'Cấm tàu thuyền qua lại' không phù hợp với định lý/quy tắc trọng tâm (Kinh tế biển xanh ASEAN)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Khẩu hiệu của ASEAN: 'Một tầm nhìn, Một bản sắc, Một cộng đồng' truyền cảm hứng gì cho thế hệ trẻ?",
       "options": [
-        "Tinh thần đoàn kết, sẻ chia, cùng chung tay xây dựng ngôi nhà chung Đông Nam Á hòa bình và phồn vinh",
+        "Thờ ơ với các nước láng giềng",
         "Sự ích kỷ dân tộc cực đoan",
         "Sự phân biệt đối xử văn hóa",
-        "Thờ ơ với các nước láng giềng"
+        "Tinh thần đoàn kết, sẻ chia, cùng chung tay xây dựng ngôi nhà chung Đông Nam Á hòa bình và phồn vinh"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Gắn kết triệu trái tim vì một Đông Nam Á tự cường, thịnh vượng.",
       "breakdown": {
         "concept": "Tầm nhìn ASEAN",
         "steps": "Đoàn kết, tự cường, phồn vinh.",
         "socraticPrompt": "Ý nghĩa khẩu hiệu của ASEAN là gì?"
-      }
+      },
+      "socraticPrompt": "Ý nghĩa khẩu hiệu của ASEAN là gì?",
+      "distractorReasons": [
+        "Sai vì 'Thờ ơ với các nước láng giềng' không phù hợp với định lý/quy tắc trọng tâm (Tầm nhìn ASEAN).",
+        "Sai vì 'Sự ích kỷ dân tộc cực đoan' không phù hợp với định lý/quy tắc trọng tâm (Tầm nhìn ASEAN).",
+        "Sai vì 'Sự phân biệt đối xử văn hóa' không phù hợp với định lý/quy tắc trọng tâm (Tầm nhìn ASEAN).",
+        "Đúng vì theo Tầm nhìn ASEAN: Đoàn kết, tự cường, phồn vinh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

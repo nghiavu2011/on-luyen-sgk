@@ -32,7 +32,16 @@
           "1": "Nước chỉ ngập ở rễ, tán lá trên cao vẫn nhận ánh sáng bình thường.",
           "3": "Hô hấp sáng chỉ diễn ra ở lá trong điều kiện giàu O2 và ánh sáng mạnh, không xảy ra ở rễ ngập úng."
         }
-      }
+      },
+      "socraticPrompt": "Tế bào rễ cây cần khí gì từ các khe đất để hô hấp tạo năng lượng ATP cho việc hút nước và khoáng?",
+      "distractorReasons": [
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Vì rễ cây hút quá nhiều nước làm vỡ toàn bộ các tế bào lá cây', không đúng với quy luật thực tế và SGK.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Vì nước ngập làm trôi mất toàn bộ ánh sáng Mặt Trời của cây' (Học sinh ngạc nhiên 'tại sao cây ở trong nước ngập mà lại bị chết vì thiếu nước?'.).",
+        "Đúng vì: Khi đất bị úng ngập, nước choán hết các khe hở chứa không khí trong đất làm rễ cây bị thiếu oxy trầm trọng. Tế bào rễ phải chuyển sang lên men kị khí sinh ra ac.",
+        "Sai vì 'Vì ngập nước kích thích cây hô hấp sáng cực mạnh thiêu rụi tế bào' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch05-d2-q02",
@@ -56,7 +65,16 @@
           "2": "Vi khuẩn không bị say sóng bởi dòng máu lưu thông.",
           "1": "Đây là phản ứng điều hòa sinh lí chủ động và chính xác của hệ thần kinh, không phải bị tê liệt."
         }
-      }
+      },
+      "socraticPrompt": "Khi thân nhiệt tăng thêm 1 độ C, tốc độ các phản ứng sinh hóa chuyển hóa trong tế bào tăng hay giảm?",
+      "distractorReasons": [
+        "Sai vì 'Để làm giảm nhanh khối lượng cơ thể' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Do hệ thần kinh trung ương bị phá hủy hoàn toàn nên mất khả năng kiểm soát nhịp đập' (Nghĩ sốt làm tim đập nhanh là dấu hiệu tim bị tổn thương do vi khuẩn cắn phá.).",
+        "Sai vì 'Để làm cho vi khuẩn trong máu bị say sóng và chết rụi' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Theo quy luật sinh học, khi thân nhiệt tăng cao do sốt, tốc độ các phản ứng trao đổi chất trong tế bào tăng mạnh kéo theo nhu cầu tiêu thụ oxy và giải phóng khí."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "11-sh-ch05-d2-q03",
@@ -80,7 +98,16 @@
           "2": "Thận bình thường tái hấp thu 100% glucose, chỉ thải đường khi đường huyết vượt ngưỡng thận (> 10 mmol/L) như ở bệnh đái tháo đường.",
           "3": "Thyroxine không ức chế hấp thu dinh dưỡng tại ruột."
         }
-      }
+      },
+      "socraticPrompt": "Khi lượng đường trong máu dư thừa sau bữa ăn, tuyến tụy sẽ tiết hormone gì để cất giữ đường vào gan và cơ?",
+      "distractorReasons": [
+        "Đúng vì: Khi glucose máu tăng cao sau ăn, tế bào beta của đảo Langerhans ở tuyến tụy cảm ứng và tiết ngay hormone Insulin vào máu. Insulin gắn lên các thụ thể ở màng tế .",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Tuyến tụy tiết nhiều Glucagon để kích thích gan biến glycogen thành glucose' (tác dụng của Insulin (làm giảm đường huyết) với Glucagon (làm tăng đường huyết)).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Thận lập tức lọc và thải bỏ toàn bộ lượng đường trong máu qua nước tiểu', không đúng với quy luật thực tế và SGK.",
+        "Sai vì 'Tuyến giáp tiết thyroxine làm ngừng hẳn việc hấp thu chất dinh dưỡng ở ruột non' không phù hợp với định lý/quy tắc trọng tâm (Insulin (tế bào beta đảo tụy) hạ đường huyết; Glucagon (tế bào alpha) tăng đường huyết.)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "11-sh-ch05-d2-q04",
@@ -104,7 +131,16 @@
           "2": "Thắp đèn ức chế ra hoa chứ không làm hoa nở ngay trong đêm.",
           "3": "Màu sắc hoa do gene quyết định, không đổi màu nhờ ánh sáng đèn."
         }
-      }
+      },
+      "socraticPrompt": "Muốn giữ cho hoa cúc không nở sớm vào đầu mùa đông để đợi đến Tết bán được giá cao, người làm vườn can thiệp vào yếu tố nào?",
+      "distractorReasons": [
+        "Sai vì 'Để sưởi ấm cho hoa cúc khỏi bị sâu bọ cắn phá' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hoa cúc là thực vật ngày ngắn, ra hoa khi thời gian ban đêm dài liên tục vượt quá độ dài tới hạn. Vào mùa thu đông đêm tự nhiên rất dài, nếu không can thiệp thì.",
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Để kích thích hoa cúc nở ngay lập tức trong đêm' (Nghĩ thắp đèn là để kích thích hoa nở sớm (thực chất là để hoãn hoa nở sớm).).",
+        "Sai vì 'Để làm cho cánh hoa cúc chuyển sang màu đỏ rực rỡ' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "11-sh-ch05-d2-q05",
@@ -128,7 +164,16 @@
           "1": "Công việc y sinh đòi hỏi sự khéo léo tỉ mỉ vi lượng chứ không phải sức mạnh cơ bắp nặng nhọc.",
           "3": "Hùng biện bán hàng thuộc kĩ năng thương mại tiếp thị, không thuộc nghiên cứu y sinh."
         }
-      }
+      },
+      "socraticPrompt": "Khi làm việc với các mẫu máu, tế bào và DNA của người bệnh, người làm xét nghiệm cần đức tính gì quan trọng nhất?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Khả năng học vẹt kiến thức mà không cần hiểu bản chất cơ chế' (phẩm chất kinh doanh buôn bán sang nghiên cứu khoa học hàn lâm).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ cần có sức khỏe cơ bắp thật tốt để khiêng vác dụng cụ thí nghiệm', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì: Ngành Y sinh học và xét nghiệm gene liên quan trực tiếp đến sức khỏe và tính mạng con người. Người làm nghề đòi hỏi phải có tư duy khoa học sắc bén để phân tích.",
+        "Sai vì 'Kĩ năng hùng biện chèo kéo khách hàng mua thực phẩm chức năng' là phương án nhiễu, không phản ánh đúng câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "11-sh-ch05-d2-q06",
@@ -152,7 +197,16 @@
           "2": "Mục tiêu là cung cấp thực phẩm an toàn với giá cả hợp lí cho người dân.",
           "1": "Bác sĩ thú y làm việc trên động vật, không thay thế bác sĩ điều trị cho bệnh nhân người."
         }
-      }
+      },
+      "socraticPrompt": "Nếu gia súc bị lạm dụng kháng sinh hoặc nhiễm virus nguy hiểm thì người ăn phải thịt đó sẽ chịu hậu quả gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn 'Chỉ bảo vệ động vật chứ hoàn toàn không có liên hệ gì đến sức khỏe con người' (Nghĩ thú y chỉ là chữa bệnh cho vật nuôi cưng trong nhà.).",
+        "Sai vì 'Thay thế hoàn toàn vai trò của các bác sĩ điều trị tại bệnh viện người' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Sai vì 'Làm tăng giá thành thịt cá ngoài chợ để hạn chế người dân ăn thịt' là phương án nhiễu, không phản ánh đúng câu hỏi.",
+        "Đúng vì: Hơn 70% các bệnh truyền nhiễm nguy hiểm mới nổi ở người có nguồn gốc lây truyền từ động vật (như cúm H5N1, dịch tả lợn châu Phi, virus dại, liên cầu khuẩn). Bác."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

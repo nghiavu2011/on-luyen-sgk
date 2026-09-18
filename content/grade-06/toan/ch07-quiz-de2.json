@@ -1,128 +1,207 @@
 {
   "chapterId": "ch07",
   "examId": "de2",
-  "title": "Toán 6 — Chương 7: Đề 2 — Phép tính & Tỉ số phần trăm",
-  "description": "Bộ đề rèn luyện kỹ năng thực hiện 4 phép tính với số thập phân và giải các bài toán về tỉ số phần trăm.",
+  "title": "Toán 6 — Chương 7: Số thập phân: Đề 2: Kỹ năng & Vận dụng",
+  "description": "Rèn luyện kỹ năng giải bài tập, tính toán và suy luận logic toán học.",
+  "totalQuestions": 6,
   "questions": [
     {
-      "id": "t6_c7_d2_q1",
-      "difficulty": "easy",
-      "type": "multiple_choice",
-      "topic": "Phép cộng hai số thập phân âm",
-      "question": "Tính kết quả của phép tính: (-4.5) + (-2.3)?",
-      "options": [
-        "-6.8",
-        "6.8",
-        "-2.2",
-        "-6.2"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Quy tắc cộng hai số thập phân có cùng dấu âm.",
-        "socraticPrompt": "Muốn cộng hai số âm, ta cộng hai giá trị tuyệt đối của chúng rồi đặt dấu gì trước kết quả?",
-        "steps": "Áp dụng quy tắc cộng hai số cùng dấu âm: (-4.5) + (-2.3) = -(4.5 + 2.3) = -6.8.",
-        "trap": "Tính nhầm ra số dương (+6.8) hoặc thực hiện phép trừ 4.5 - 2.3."
-      }
-    },
-    {
-      "id": "t6_c7_d2_q2",
+      "id": "t6_c7_d2_01",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Phép trừ số thập phân với số âm",
-      "question": "Tính giá trị của phép tính: 15.8 - (-4.2)?",
+      "topic": "Phép nhân số thập phân có dấu âm",
+      "question": "Kết quả của phép tính (-0,25) × (-0,4) bằng:",
       "options": [
-        "11.6",
-        "20.0",
-        "-20.0",
-        "19.0"
+        "-0,1",
+        "0,1",
+        "0,01",
+        "-1"
       ],
       "correct": 1,
       "breakdown": {
-        "concept": "Quy tắc trừ cho một số âm là cộng với số đối của nó.",
-        "socraticPrompt": "Trừ cho số âm (-4.2) chuyển thành phép cộng với số dương nào? 15.8 cộng với số đó bằng bao nhiêu?",
-        "steps": "Biến đổi phép trừ: 15.8 - (-4.2) = 15.8 + 4.2 = 20.0 = 20.",
-        "trap": "Lấy 15.8 trừ đi 4.2 được 11.6 do quên quy tắc đổi dấu trừ của số âm."
-      }
+        "concept": "Nhân hai số cùng dấu âm cho kết quả dương. Đếm tổng số chữ số thập phân.",
+        "steps": [
+          "Bước 1: Hai số cùng dấu âm nên tích mang dấu dương (+).",
+          "Bước 2: Lấy 25 × 4 = 100.",
+          "Bước 3: Có 2 + 1 = 3 chữ số ở phần thập phân.",
+          "Bước 4: Đặt dấu phẩy: 0,100 = 0,1."
+        ],
+        "trap": "Nhầm dấu thành số âm (-0,1) hoặc đếm sai số chữ số 0 thành 0,01.",
+        "socraticPrompt": "25 nhân 4 bằng 100. 0,25 có 2 chữ số thập phân, 0,4 có 1 chữ số thập phân. Lấy 3 chữ số thập phân của 100 thì được bao nhiêu?"
+      },
+      "socraticPrompt": "25 nhân 4 bằng 100. 0,25 có 2 chữ số thập phân, 0,4 có 1 chữ số thập phân. Lấy 3 chữ số thập phân của 100 thì được bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì nhầm dấu thành số âm.",
+        "Đúng vì âm nhân âm ra dương, 25 × 4 = 100 với 3 chữ số thập phân là 0,100 = 0,1.",
+        "Sai vì đếm thừa chữ số 0 thành 0,01.",
+        "Sai vì đặt sai dấu phẩy."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
-      "id": "t6_c7_d2_q3",
+      "id": "t6_c7_d2_02",
       "difficulty": "medium",
       "type": "multiple_choice",
-      "topic": "Phép nhân số thập phân khác dấu",
-      "question": "Tính kết quả phép nhân: (-2.5) · 0.04?",
+      "topic": "Tính giá trị biểu thức số thập phân hợp lý",
+      "question": "Tính giá trị biểu thức: B = 14,5 × 3,7 + 14,5 × 6,3.",
       "options": [
-        "0.1",
-        "-0.1",
-        "-0.01",
-        "-1.0"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Nhân hai số thập phân khác dấu và quy tắc đếm chữ số thập phân.",
-        "socraticPrompt": "Nhân hai số tự nhiên 25 và 4 được 100. Có tổng cộng bao nhiêu chữ số ở phần thập phân cần tách ra?",
-        "steps": "Nhân khác dấu cho kết quả âm. Tính 25 · 4 = 100. Vì 2.5 có 1 chữ số thập phân và 0.04 có 2 chữ số thập phân (tổng là 3), ta tách 3 chữ số: 0.100 = 0.1. Vậy (-2.5) · 0.04 = -0.1.",
-        "trap": "Đếm sai số chữ số thập phân thành -0.01 hoặc quên dấu âm thành +0.1."
-      }
-    },
-    {
-      "id": "t6_c7_d2_q4",
-      "difficulty": "medium",
-      "type": "multiple_choice",
-      "topic": "Phép chia hai số thập phân cùng dấu âm",
-      "question": "Tính kết quả phép chia: (-14.4) : (-1.2)?",
-      "options": [
-        "-12",
-        "12",
-        "1.2",
-        "-1.2"
-      ],
-      "correct": 1,
-      "breakdown": {
-        "concept": "Chia hai số thập phân cùng dấu âm cho kết quả dương.",
-        "socraticPrompt": "Hai số cùng dấu âm chia cho nhau sẽ ra kết quả mang dấu gì? Dời dấu phẩy ở cả hai số 1 chữ số ta được phép chia tự nhiên nào?",
-        "steps": "Hai số âm chia cho nhau ra kết quả dương. Dời dấu phẩy một hàng sang phải: 14.4 : 1.2 = 144 : 12 = 12. Vậy (-14.4) : (-1.2) = 12.",
-        "trap": "Đặt nhầm dấu âm thành -12, hoặc chia nhầm dấu phẩy thành 1.2."
-      }
-    },
-    {
-      "id": "t6_c7_d2_q5",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Tìm giá trị phần trăm của một số",
-      "question": "Tìm 25% của số 160 ta được kết quả là:",
-      "options": [
-        "40",
-        "35",
-        "45",
-        "64"
-      ],
-      "correct": 0,
-      "breakdown": {
-        "concept": "Phương pháp tính p% của một số cho trước.",
-        "socraticPrompt": "25% tương ứng với phân số 25/100 hay 1/4. Hãy lấy 160 nhân với 1/4 hoặc lấy 160 nhân 25 rồi chia 100?",
-        "steps": "Giá trị cần tìm là: 160 · 25% = 160 · 25 / 100 = 4000 / 100 = 40 (hoặc 160 : 4 = 40).",
-        "trap": "Lấy 160 chia cho 25 được 6.4 rồi nhân 10 nhầm thành 64."
-      }
-    },
-    {
-      "id": "t6_c7_d2_q6",
-      "difficulty": "hard",
-      "type": "multiple_choice",
-      "topic": "Tìm một số khi biết giá trị phần trăm",
-      "question": "Biết rằng 30% giá tiền của một chiếc áo khoác là 120 000 đồng. Giá tiền ban đầu của chiếc áo khoác đó là bao nhiêu?",
-      "options": [
-        "360 000 đồng",
-        "300 000 đồng",
-        "400 000 đồng",
-        "450 000 đồng"
+        "1450",
+        "14,5",
+        "145",
+        "100"
       ],
       "correct": 2,
       "breakdown": {
-        "concept": "Bài toán tìm một số khi biết p% của nó bằng b.",
-        "socraticPrompt": "Khi biết 30% giá tiền là 120 000 đồng, muốn tìm giá tiền ban đầu (100%) ta lấy 120 000 chia cho 30% hay nhân?",
-        "steps": "Giá tiền ban đầu của chiếc áo khoác là: 120 000 : 30% = 120 000 : (30/100) = 120 000 · 100 / 30 = 400 000 đồng.",
-        "trap": "Lấy 120 000 nhân với 30% được 36 000 đồng rồi cộng vào thành 156 000 đồng hoặc lấy 120 000 · 3 = 360 000 đồng."
-      }
+        "concept": "Áp dụng tính chất phân phối: a × b + a × c = a × (b + c).",
+        "steps": [
+          "Bước 1: Đặt thừa số chung 14,5: B = 14,5 × (3,7 + 6,3).",
+          "Bước 2: Tính tổng trong ngoặc: 3,7 + 6,3 = 10.",
+          "Bước 3: B = 14,5 × 10 = 145."
+        ],
+        "trap": "Tính nhầm 3,7 + 6,3 = 1 hoặc nhân nhầm số 0.",
+        "socraticPrompt": "3,7 cộng 6,3 bằng đúng 10. Lấy 14,5 nhân với 10 thì dấu phẩy dịch sang phải mấy chữ số?"
+      },
+      "socraticPrompt": "3,7 cộng 6,3 bằng đúng 10. Lấy 14,5 nhân với 10 thì dấu phẩy dịch sang phải mấy chữ số?",
+      "distractorReasons": [
+        "Sai vì nhân thêm một số 0 thừa thành 1450.",
+        "Sai vì tính nhầm tổng trong ngoặc bằng 1.",
+        "Đúng vì B = 14,5 × (3,7 + 6,3) = 14,5 × 10 = 145.",
+        "Sai vì lấy 10 × 10 = 100."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c7_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm một số biết tỉ số phần trăm của nó",
+      "question": "Tìm một số biết 25% của số đó bằng 75.",
+      "options": [
+        "150",
+        "18,75",
+        "187,5",
+        "300"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Muốn tìm số đó, ta lấy 75 : 25% = 75 : (25/100) = 75 × 4 = 300.",
+        "steps": [
+          "Bước 1: Đổi 25% = 1/4 (hoặc 0,25).",
+          "Bước 2: Số cần tìm là: 75 : (1/4) = 75 × 4 = 300."
+        ],
+        "trap": "Lấy 75 × 25% = 18,75 (nhầm sang bài toán thuận tính phần trăm của 75).",
+        "socraticPrompt": "25% tức là một phần tư (1/4). Nếu một phần tư của số đó là 75 thì cả số đó bằng 75 nhân mấy?"
+      },
+      "socraticPrompt": "25% tức là một phần tư (1/4). Nếu một phần tư của số đó là 75 thì cả số đó bằng 75 nhân mấy?",
+      "distractorReasons": [
+        "Sai vì lấy 75 × 2 = 150 (chỉ mới là 50%).",
+        "Sai vì lấy 75 × 25% = 18,75 (nhầm bài toán tìm 25% của 75).",
+        "Sai vì tính nhầm dấu phẩy.",
+        "Đúng vì số đó là 75 : 25% = 75 : 0,25 = 300."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c7_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Làm tròn số thập phân âm",
+      "question": "Làm tròn số thập phân âm -6,785 đến hàng phần mười ta được:",
+      "options": [
+        "-6,8",
+        "-6,7",
+        "-6,78",
+        "-7,0"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Làm tròn số âm tương tự như số dương rồi thêm dấu trừ: 6,785 làm tròn đến hàng phần mười là 6,8 nên -6,785 thành -6,8.",
+        "steps": [
+          "Bước 1: Chữ số hàng phần mười là 7.",
+          "Bước 2: Chữ số ngay sau nó là 8 (≥ 5) nên cộng 1 vào 7 thành 8.",
+          "Bước 3: Giữ nguyên dấu âm đằng trước: -6,8."
+        ],
+        "trap": "Học sinh quên cộng 1 chọn -6,7 hoặc làm tròn đến hàng đơn vị thành -7,0.",
+        "socraticPrompt": "Chữ số sau số 7 là số 8 ≥ 5. Ta cộng thêm 1 vào số 7 thành số mấy? Đừng quên dấu trừ đằng trước!"
+      },
+      "socraticPrompt": "Chữ số sau số 7 là số 8 ≥ 5. Ta cộng thêm 1 vào số 7 thành số mấy? Đừng quên dấu trừ đằng trước!",
+      "distractorReasons": [
+        "Đúng vì chữ số sau hàng phần mười là 8 ≥ 5 nên làm tròn thành -6,8.",
+        "Sai vì quên cộng 1 vào hàng phần mười.",
+        "Sai vì -6,78 là làm tròn đến hàng phần trăm chứ không phải hàng phần mười.",
+        "Sai vì làm tròn đến hàng đơn vị."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c7_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Chia số thập phân cho số thập phân",
+      "question": "Giá trị của phép chia (-7,5) : (-0,15) bằng:",
+      "options": [
+        "0,5",
+        "-50",
+        "5",
+        "50"
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Chia hai số cùng dấu âm cho kết quả dương. Dịch chuyển dấu phẩy: 7,5 : 0,15 = 750 : 15 = 50.",
+        "steps": [
+          "Bước 1: Âm chia âm ra dương (+).",
+          "Bước 2: Dịch dấu phẩy ở cả số bị chia và số chia sang phải 2 chữ số: 7,5 thành 750, 0,15 thành 15.",
+          "Bước 3: Thực hiện phép chia: 750 : 15 = 50."
+        ],
+        "trap": "Dịch dấu phẩy sai thành 75 : 15 = 5 hoặc nhầm dấu thành -50.",
+        "socraticPrompt": "Số chia 0,15 có 2 chữ số thập phân. Nhân cả số bị chia và số chia với 100 thì được phép chia nào? 750 chia 15 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "Số chia 0,15 có 2 chữ số thập phân. Nhân cả số bị chia và số chia với 100 thì được phép chia nào? 750 chia 15 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì tính nhầm thương.",
+        "Sai vì nhầm dấu thành số âm.",
+        "Sai vì dịch nhầm dấu phẩy thành 75 : 15 = 5.",
+        "Đúng vì (-7,5) : (-0,15) = 750 : 15 = 50."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "t6_c7_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Tìm x với phép tính số thập phân",
+      "question": "Tìm số thập phân x biết: 3,5 × x - 1,2 = 5,8.",
+      "options": [
+        "x = 2",
+        "x = 1,3",
+        "x = 2,5",
+        "x = -2"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán tìm x: 3,5x = 5,8 + 1,2 = 7,0 ⇒ x = 7,0 : 3,5 = 2.",
+        "steps": [
+          "Bước 1: Coi 3,5x là số bị trừ: 3,5 × x = 5,8 + 1,2 = 7.",
+          "Bước 2: x là thừa số chưa biết: x = 7 : 3,5 = 2.",
+          "Bước 3: Kết luận x = 2."
+        ],
+        "trap": "Lấy 5,8 - 1,2 = 4,6 rồi chia 3,5.",
+        "socraticPrompt": "5,8 cộng 1,2 bằng đúng 7. 7 chia cho 3,5 bằng bao nhiêu?"
+      },
+      "socraticPrompt": "5,8 cộng 1,2 bằng đúng 7. 7 chia cho 3,5 bằng bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì 3,5x = 5,8 + 1,2 = 7 ⇒ x = 7 / 3,5 = 2.",
+        "Sai vì lấy 5,8 - 1,2 = 4,6 rồi chia 3,5.",
+        "Sai vì tính sai thương.",
+        "Sai vì nhầm dấu."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

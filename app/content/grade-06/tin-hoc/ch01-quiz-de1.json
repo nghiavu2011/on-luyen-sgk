@@ -20,15 +20,18 @@
       "breakdown": {
         "concept": "Khái niệm thông tin (Bài 1, SGK Tin học 6, trang 6).",
         "steps": "Thông tin mang lại sự hiểu biết cho con người về sự vật, hiện tượng xung quanh cũng như về bản thân.",
-        "trap": "Dễ nhầm thông tin với các thiết bị phần cứng hoặc chỉ là các con số thuần túy."
+        "trap": "Dễ nhầm thông tin với các thiết bị phần cứng hoặc chỉ là các con số thuần túy.",
+        "socraticPrompt": "Khi em nghe thấy tiếng còi xe cấp cứu đang hú trên đường, em hiểu được điều gì và sự hiểu biết đó được gọi là gì?"
       },
       "socraticPrompt": "Khi em nghe thấy tiếng còi xe cấp cứu đang hú trên đường, em hiểu được điều gì và sự hiểu biết đó được gọi là gì?",
       "distractorReasons": [
-        "Chính xác theo định nghĩa chuẩn SGK Tin học 6 trang 6.",
-        "Sai, đây là phần cứng hoặc thiết bị kết nối mạng vật lý.",
-        "Sai, các con số chỉ là một dạng dữ liệu đơn thuần.",
-        "Sai, sóng vô tuyến chỉ là phương tiện truyền dẫn tín hiệu vật lý."
-      ]
+        "Đúng vì định nghĩa chuẩn SGK Tin học 6 trang 6.",
+        "Sai vì đây là phần cứng hoặc thiết bị kết nối mạng vật lý.",
+        "Sai vì các con số chỉ là một dạng dữ liệu đơn thuần.",
+        "Sai vì sóng vô tuyến chỉ là phương tiện truyền dẫn tín hiệu vật lý."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "th6_ch01_d1_02",
@@ -46,15 +49,18 @@
       "breakdown": {
         "concept": "Vật mang tin (Bài 1, SGK Tin học 6, trang 6).",
         "steps": "Vật mang tin là vật chứa đựng, lưu giữ dữ liệu. Cuốn sách in chữ và hình ảnh chính là vật mang tin.",
-        "trap": "Nhầm lẫn bất kỳ đồ vật nào không chứa dữ liệu cũng là vật mang tin."
+        "trap": "Nhầm lẫn bất kỳ đồ vật nào không chứa dữ liệu cũng là vật mang tin.",
+        "socraticPrompt": "Đồ vật nào có khả năng chứa đựng các chữ viết, hình vẽ hoặc ký hiệu để người khác nhìn vào tiếp nhận được nội dung?"
       },
       "socraticPrompt": "Đồ vật nào có khả năng chứa đựng các chữ viết, hình vẽ hoặc ký hiệu để người khác nhìn vào tiếp nhận được nội dung?",
       "distractorReasons": [
-        "Sai, bóng đèn tắt không chứa dữ liệu ghi nhận nào.",
-        "Chính xác, sách in chứa các dữ liệu văn bản và hình ảnh mang lại thông tin bài học.",
-        "Sai, sợi dây điện trơn không chứa nội dung hay dữ liệu lưu trữ.",
-        "Sai, thanh kim loại trơn không mang bất kỳ ký hiệu hay dữ liệu nào."
-      ]
+        "Sai vì bóng đèn tắt không chứa dữ liệu ghi nhận nào.",
+        "Đúng vì sách in chứa các dữ liệu văn bản và hình ảnh mang lại thông tin bài học.",
+        "Sai vì sợi dây điện trơn không chứa nội dung hay dữ liệu lưu trữ.",
+        "Sai vì thanh kim loại trơn không mang bất kỳ ký hiệu hay dữ liệu nào."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch01_d1_03",
@@ -72,15 +78,18 @@
       "breakdown": {
         "concept": "4 hoạt động xử lý thông tin (Bài 2, SGK Tin học 6, trang 10).",
         "steps": "Con người tiếp nhận tín hiệu từ giác quan (thu nhận) -> não ghi nhớ (lưu trữ) -> não phân tích suy luận (xử lý) -> phát tín hiệu hành động hoặc chia sẻ (truyền).",
-        "trap": "Xáo trộn thứ tự giữa thu nhận và xử lý."
+        "trap": "Xáo trộn thứ tự giữa thu nhận và xử lý.",
+        "socraticPrompt": "Trước khi bộ não của em có thể phân tích một bài toán, mắt em cần làm gì trước tiên với đề bài?"
       },
       "socraticPrompt": "Trước khi bộ não của em có thể phân tích một bài toán, mắt em cần làm gì trước tiên với đề bài?",
       "distractorReasons": [
         "Sai trình tự logic, không thể lưu trữ hay truyền trước khi thu nhận.",
-        "Chính xác, chuẩn sơ đồ 4 bước theo Hình 1.1 SGK Tin học 6 trang 10.",
-        "Sai, truyền thông tin là khâu đầu ra cuối cùng chứ không thể bắt đầu trước.",
-        "Sai, các bước này không đại diện cho 4 hoạt động xử lý thông tin cơ bản."
-      ]
+        "Đúng vì chuẩn sơ đồ 4 bước theo Hình 1.1 SGK Tin học 6 trang 10.",
+        "Sai vì truyền thông tin là khâu đầu ra cuối cùng chứ không thể bắt đầu trước.",
+        "Sai vì các bước này không đại diện cho 4 hoạt động xử lý thông tin cơ bản."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "th6_ch01_d1_04",
@@ -98,15 +107,18 @@
       "breakdown": {
         "concept": "Bộ xử lý máy tính (Bài 2, SGK Tin học 6, trang 11).",
         "steps": "CPU (Central Processing Unit) là bộ não của máy tính, đóng vai trò xử lý thông tin bằng cách thực thi các chương trình.",
-        "trap": "Nhầm lẫn thiết bị thu nhận (chuột, phím) hoặc thiết bị xuất (màn hình) với bộ xử lý."
+        "trap": "Nhầm lẫn thiết bị thu nhận (chuột, phím) hoặc thiết bị xuất (màn hình) với bộ xử lý.",
+        "socraticPrompt": "Bộ phận nào được ví như 'bộ não' điều khiển và tính toán toàn bộ hoạt động bên trong máy vi tính?"
       },
       "socraticPrompt": "Bộ phận nào được ví như 'bộ não' điều khiển và tính toán toàn bộ hoạt động bên trong máy vi tính?",
       "distractorReasons": [
-        "Sai, đây là các thiết bị vào dùng để thu nhận thông tin.",
-        "Sai, đây là các thiết bị ra dùng để xuất/truyền thông tin.",
-        "Chính xác, CPU là bộ xử lý thực thi chương trình tính toán của máy tính.",
-        "Sai, bàn di chuột là phụ kiện ngoài, vỏ máy chỉ có tác dụng bảo vệ phần cứng."
-      ]
+        "Sai vì đây là các thiết bị vào dùng để thu nhận thông tin.",
+        "Sai vì đây là các thiết bị ra dùng để xuất/truyền thông tin.",
+        "Đúng vì CPU là bộ xử lý thực thi chương trình tính toán của máy tính.",
+        "Sai vì bàn di chuột là phụ kiện ngoài, vỏ máy chỉ có tác dụng bảo vệ phần cứng."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "th6_ch01_d1_05",
@@ -124,15 +136,18 @@
       "breakdown": {
         "concept": "Đơn vị Bit (Bài 3, SGK Tin học 6, trang 15).",
         "steps": "Bit là đơn vị đo nhỏ nhất trong lưu trữ thông tin, chỉ nhận giá trị 0 hoặc 1.",
-        "trap": "Rất nhiều học sinh chọn nhầm Byte vì nghĩ Byte là đơn vị ký tự."
+        "trap": "Rất nhiều học sinh chọn nhầm Byte vì nghĩ Byte là đơn vị ký tự.",
+        "socraticPrompt": "Ký hiệu chỉ nhận một trong hai giá trị 0 hoặc 1 có tên gọi là gì?"
       },
       "socraticPrompt": "Ký hiệu chỉ nhận một trong hai giá trị 0 hoặc 1 có tên gọi là gì?",
       "distractorReasons": [
-        "Sai, 1 Byte = 8 bit nên Byte lớn hơn bit.",
-        "Sai, 1 Kilobyte = 1024 Byte nên lớn hơn bit rất nhiều.",
-        "Sai, Megabyte là đơn vị lớn (khoảng một triệu byte).",
-        "Chính xác, Bit là đơn vị đo nhỏ nhất trong lưu trữ thông tin theo chuẩn SGK."
-      ]
+        "Sai vì 1 Byte = 8 bit nên Byte lớn hơn bit.",
+        "Sai vì 1 Kilobyte = 1024 Byte nên lớn hơn bit rất nhiều.",
+        "Sai vì Megabyte là đơn vị lớn (khoảng một triệu byte).",
+        "Đúng vì Bit là đơn vị đo nhỏ nhất trong lưu trữ thông tin theo chuẩn SGK."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "th6_ch01_d1_06",
@@ -150,15 +165,18 @@
       "breakdown": {
         "concept": "Quy đổi Byte sang bit (Bài 3, SGK Tin học 6, trang 15).",
         "steps": "Theo định nghĩa chuẩn: 1 Byte = 8 bit.",
-        "trap": "Nhầm lẫn với số 1024 (là bội số khi đổi từ KB sang Byte)."
+        "trap": "Nhầm lẫn với số 1024 (là bội số khi đổi từ KB sang Byte).",
+        "socraticPrompt": "Một ký tự chuẩn tiếng Anh thông thường cần một tổ hợp gồm bao nhiêu bit 0 và 1 để mã hoá?"
       },
       "socraticPrompt": "Một ký tự chuẩn tiếng Anh thông thường cần một tổ hợp gồm bao nhiêu bit 0 và 1 để mã hoá?",
       "distractorReasons": [
-        "Chính xác, 1 Byte = 8 bit theo quy chuẩn quốc tế và SGK.",
-        "Sai, hệ nhị phân trong kiến trúc máy tính không ghép theo nhóm 10 bit.",
-        "Sai, 1024 là hệ số đổi giữa KB và Byte, không phải Byte và bit.",
-        "Sai, 16 bit bằng 2 Byte (1 từ máy thế hệ cũ)."
-      ]
+        "Đúng vì 1 Byte = 8 bit theo quy chuẩn quốc tế và SGK.",
+        "Sai vì hệ nhị phân trong kiến trúc máy tính không ghép theo nhóm 10 bit.",
+        "Sai vì 1024 là hệ số đổi giữa KB và Byte, không phải Byte và bit.",
+        "Sai vì 16 bit bằng 2 Byte (1 từ máy thế hệ cũ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }

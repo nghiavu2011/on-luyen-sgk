@@ -8,37 +8,55 @@
       "id": "q01",
       "question": "Phương châm đối ngoại 'Việt Nam là bạn, là đối tác tin cậy' nhằm mục tiêu",
       "options": [
-        "Bảo vệ lợi ích quốc gia - dân tộc, giữ vững môi trường hòa bình để phát triển",
-        "Liên minh chống nước khác",
         "Phụ thuộc vào nước lớn",
+        "Liên minh chống nước khác",
+        "Bảo vệ lợi ích quốc gia - dân tộc, giữ vững môi trường hòa bình để phát triển",
         "Cô lập với thế giới"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "hard",
       "explanation": "Đa phương hóa, đa dạng hóa đối ngoại vì lợi ích tối cao của đất nước.",
       "breakdown": {
         "concept": "Đường lối đối ngoại",
         "steps": "Hòa bình, hợp tác và phát triển.",
         "socraticPrompt": "Mục tiêu tối thượng của chính sách đối ngoại Việt Nam là gì?"
-      }
+      },
+      "socraticPrompt": "Mục tiêu tối thượng của chính sách đối ngoại Việt Nam là gì?",
+      "distractorReasons": [
+        "Sai vì 'Phụ thuộc vào nước lớn' không phù hợp với định lý/quy tắc trọng tâm (Đường lối đối ngoại).",
+        "Sai vì 'Liên minh chống nước khác' không phù hợp với định lý/quy tắc trọng tâm (Đường lối đối ngoại).",
+        "Đúng vì theo Đường lối đối ngoại: Hòa bình, hợp tác và phát triển.",
+        "Sai vì 'Cô lập với thế giới' không phù hợp với định lý/quy tắc trọng tâm (Đường lối đối ngoại)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q02",
       "question": "Cam kết Net Zero 2050 của Việt Nam thể hiện",
       "options": [
-        "Trách nhiệm của Việt Nam cùng cộng đồng quốc tế chống biến đổi khí hậu",
+        "Từ bỏ phát triển công nghiệp",
         "Hình thức tuyên truyền",
         "Việt Nam không cần dùng năng lượng",
-        "Từ bỏ phát triển công nghiệp"
+        "Trách nhiệm của Việt Nam cùng cộng đồng quốc tế chống biến đổi khí hậu"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Hành động thực chất chuyển đổi xanh nền kinh tế.",
       "breakdown": {
         "concept": "Ý nghĩa Net Zero",
         "steps": "Cam kết quốc tế có trách nhiệm.",
         "socraticPrompt": "Tại sao Việt Nam cam kết Net Zero 2050?"
-      }
+      },
+      "socraticPrompt": "Tại sao Việt Nam cam kết Net Zero 2050?",
+      "distractorReasons": [
+        "Sai vì 'Từ bỏ phát triển công nghiệp' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa Net Zero).",
+        "Sai vì 'Hình thức tuyên truyền' không phù hợp với định lý/quy tắc trọng tâm (Ý nghĩa Net Zero).",
+        "Sai vì phủ định sai bản chất: 'Việt Nam không cần dùng năng lượng' trái ngược với kiến thức SGK.",
+        "Đúng vì theo Ý nghĩa Net Zero: Cam kết quốc tế có trách nhiệm."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q03",
@@ -56,25 +74,43 @@
         "concept": "Bản sắc văn hóa",
         "steps": "Hòa nhập không hòa tan.",
         "socraticPrompt": "Làm thế nào để hội nhập mà giữ được hồn cốt dân tộc?"
-      }
+      },
+      "socraticPrompt": "Làm thế nào để hội nhập mà giữ được hồn cốt dân tộc?",
+      "distractorReasons": [
+        "Đúng vì theo Bản sắc văn hóa: Hòa nhập không hòa tan.",
+        "Sai vì 'Đồng hóa hoàn toàn theo phương Tây' không phù hợp với định lý/quy tắc trọng tâm (Bản sắc văn hóa).",
+        "Sai vì 'Từ chối mọi yếu tố tiến bộ' không phù hợp với định lý/quy tắc trọng tâm (Bản sắc văn hóa).",
+        "Sai vì phủ định sai bản chất: 'Không học ngoại ngữ' trái ngược với kiến thức SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q04",
       "question": "Hiện tượng chảy máu chất xám đòi hỏi quốc gia phải",
       "options": [
-        "Tạo môi trường làm việc sáng tạo, trọng dụng và đãi ngộ xứng đáng nhân tài",
         "Cấm xuất cảnh",
+        "Tạo môi trường làm việc sáng tạo, trọng dụng và đãi ngộ xứng đáng nhân tài",
         "Không mở trường đại học",
         "Phủ nhận vai trò trí thức"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "hard",
       "explanation": "Chính sách thu hút nhân tài là cốt lõi của cạnh tranh quốc gia.",
       "breakdown": {
         "concept": "Thu hút nhân tài",
         "steps": "Đãi ngộ và môi trường cống hiến.",
         "socraticPrompt": "Làm sao để giữ chân người tài cho đất nước?"
-      }
+      },
+      "socraticPrompt": "Làm sao để giữ chân người tài cho đất nước?",
+      "distractorReasons": [
+        "Sai vì 'Cấm xuất cảnh' không phù hợp với định lý/quy tắc trọng tâm (Thu hút nhân tài).",
+        "Đúng vì theo Thu hút nhân tài: Đãi ngộ và môi trường cống hiến.",
+        "Sai vì phủ định sai bản chất: 'Không mở trường đại học' trái ngược với kiến thức SGK.",
+        "Sai vì 'Phủ nhận vai trò trí thức' không phù hợp với định lý/quy tắc trọng tâm (Thu hút nhân tài)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q05",
@@ -92,25 +128,43 @@
         "concept": "An ninh lương thực",
         "steps": "Ổn định xã hội và tự chủ chiến lược.",
         "socraticPrompt": "Vì sao an ninh lương thực là vấn đề chiến lược?"
-      }
+      },
+      "socraticPrompt": "Vì sao an ninh lương thực là vấn đề chiến lược?",
+      "distractorReasons": [
+        "Đúng vì theo An ninh lương thực: Ổn định xã hội và tự chủ chiến lược.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ để giải quyết nhu cầu ngắn hạn', không đúng với quy luật thực tế và SGK.",
+        "Sai vì phủ định sai bản chất: 'Không quan trọng trong thời đại số' trái ngược với kiến thức SGK.",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ phục vụ buôn bán nhỏ', không đúng với quy luật thực tế và SGK."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q06",
       "question": "Học sinh thế hệ mới cần chuẩn bị gì cho kỷ nguyên toàn cầu?",
       "options": [
-        "Trí tuệ, ngoại ngữ, công nghệ và lòng yêu nước nồng nàn",
+        "Thờ ơ với tương lai",
         "Lối sống thụ động",
         "Chỉ chơi game online",
-        "Thờ ơ với tương lai"
+        "Trí tuệ, ngoại ngữ, công nghệ và lòng yêu nước nồng nàn"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "hard",
       "explanation": "Tự tin bước ra thế giới với bản lĩnh và trí tuệ Việt Nam.",
       "breakdown": {
         "concept": "Hành trang thế hệ trẻ",
         "steps": "Ngoại ngữ, công nghệ, lòng yêu nước.",
         "socraticPrompt": "Phẩm chất cốt lõi của công dân toàn cầu Việt Nam là gì?"
-      }
+      },
+      "socraticPrompt": "Phẩm chất cốt lõi của công dân toàn cầu Việt Nam là gì?",
+      "distractorReasons": [
+        "Sai vì 'Thờ ơ với tương lai' không phù hợp với định lý/quy tắc trọng tâm (Hành trang thế hệ trẻ).",
+        "Sai vì 'Lối sống thụ động' không phù hợp với định lý/quy tắc trọng tâm (Hành trang thế hệ trẻ).",
+        "Sai vì mệnh đề mang tính tuyệt đối hóa 'Chỉ chơi game online', không đúng với quy luật thực tế và SGK.",
+        "Đúng vì theo Hành trang thế hệ trẻ: Ngoại ngữ, công nghệ, lòng yêu nước."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     }
   ]
 }

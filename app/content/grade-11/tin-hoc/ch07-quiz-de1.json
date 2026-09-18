@@ -20,97 +20,151 @@
         "concept": "Trí tuệ nhân tạo AI",
         "steps": "Mô phỏng trí tuệ con người.",
         "socraticPrompt": "Khái niệm trí tuệ nhân tạo là gì?"
-      }
+      },
+      "socraticPrompt": "Khái niệm trí tuệ nhân tạo là gì?",
+      "distractorReasons": [
+        "Đúng vì theo Trí tuệ nhân tạo AI: Mô phỏng trí tuệ con người.",
+        "Sai vì 'Bộ lưu điện UPS' không phù hợp với định lý/quy tắc trọng tâm (Trí tuệ nhân tạo AI).",
+        "Sai vì 'Màn hình cảm ứng' không phù hợp với định lý/quy tắc trọng tâm (Trí tuệ nhân tạo AI).",
+        "Sai vì 'Cáp mạng quang' không phù hợp với định lý/quy tắc trọng tâm (Trí tuệ nhân tạo AI)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
     },
     {
       "id": "q02",
       "question": "Lĩnh vực AI giúp máy tính có thể đọc hiểu, dịch thuật và sinh văn bản tiếng người như ChatGPT gọi là",
       "options": [
-        "Xử lý ngôn ngữ tự nhiên (NLP)",
         "Thị giác máy tính",
+        "Xử lý ngôn ngữ tự nhiên (NLP)",
         "Đồ họa vi tính",
         "Âm học công trình"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "NLP (Natural Language Processing) là nhánh xử lý ngôn ngữ.",
       "breakdown": {
         "concept": "Xử lý ngôn ngữ tự nhiên NLP",
         "steps": "NLP xử lý văn bản và giọng nói.",
         "socraticPrompt": "Công nghệ giúp máy hiểu tiếng người là gì?"
-      }
+      },
+      "socraticPrompt": "Công nghệ giúp máy hiểu tiếng người là gì?",
+      "distractorReasons": [
+        "Sai vì 'Thị giác máy tính' không phù hợp với định lý/quy tắc trọng tâm (Xử lý ngôn ngữ tự nhiên NLP).",
+        "Đúng vì theo Xử lý ngôn ngữ tự nhiên NLP: NLP xử lý văn bản và giọng nói.",
+        "Sai vì 'Đồ họa vi tính' không phù hợp với định lý/quy tắc trọng tâm (Xử lý ngôn ngữ tự nhiên NLP).",
+        "Sai vì 'Âm học công trình' không phù hợp với định lý/quy tắc trọng tâm (Xử lý ngôn ngữ tự nhiên NLP)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q03",
       "question": "Chuyên gia làm nhiệm vụ bảo vệ hệ thống máy chủ, dữ liệu của tổ chức khỏi sự xâm nhập của tin tặc gọi là",
       "options": [
-        "Chuyên viên An toàn thông tin (Cybersecurity)",
-        "Nhân viên thủ kho",
         "Họa sĩ vẽ tranh",
+        "Nhân viên thủ kho",
+        "Chuyên viên An toàn thông tin (Cybersecurity)",
         "Thợ cơ khí"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Nghề nghiệp An toàn thông tin mạng.",
       "breakdown": {
         "concept": "Nghề An toàn thông tin",
         "steps": "Cybersecurity bảo vệ hệ thống mạng.",
         "socraticPrompt": "Người bảo vệ hệ thống chống tin tặc gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Người bảo vệ hệ thống chống tin tặc gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Họa sĩ vẽ tranh' không phù hợp với định lý/quy tắc trọng tâm (Nghề An toàn thông tin).",
+        "Sai vì 'Nhân viên thủ kho' không phù hợp với định lý/quy tắc trọng tâm (Nghề An toàn thông tin).",
+        "Đúng vì theo Nghề An toàn thông tin: Cybersecurity bảo vệ hệ thống mạng.",
+        "Sai vì 'Thợ cơ khí' không phù hợp với định lý/quy tắc trọng tâm (Nghề An toàn thông tin)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     },
     {
       "id": "q04",
       "question": "Công nghệ giúp ô tô tự lái nhận biết biển báo giao thông và người đi bộ thuộc nhánh nào của AI?",
       "options": [
-        "Thị giác máy tính (Computer Vision)",
+        "Thiết kế thời trang",
         "Xử lý âm thanh",
         "Kế toán tài chính",
-        "Thiết kế thời trang"
+        "Thị giác máy tính (Computer Vision)"
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": "easy",
       "explanation": "Computer Vision giúp máy tính nhận diện và phân tích hình ảnh video.",
       "breakdown": {
         "concept": "Thị giác máy tính",
         "steps": "Computer Vision nhận diện hình ảnh.",
         "socraticPrompt": "Công nghệ xe tự lái nhìn đường gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Công nghệ xe tự lái nhìn đường gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Thiết kế thời trang' không phù hợp với định lý/quy tắc trọng tâm (Thị giác máy tính).",
+        "Sai vì 'Xử lý âm thanh' không phù hợp với định lý/quy tắc trọng tâm (Thị giác máy tính).",
+        "Sai vì 'Kế toán tài chính' không phù hợp với định lý/quy tắc trọng tâm (Thị giác máy tính).",
+        "Đúng vì theo Thị giác máy tính: Computer Vision nhận diện hình ảnh."
+      ],
+      "answer": 3,
+      "correctIndex": 3
     },
     {
       "id": "q05",
       "question": "Ngoại ngữ nào là ngôn ngữ quốc tế bắt buộc phải thành thạo đối với người làm trong ngành CNTT?",
       "options": [
-        "Tiếng Anh",
         "Tiếng Latin cổ",
+        "Tiếng Anh",
         "Tiếng Esperanto",
         "Tiếng Thổ Nhĩ Kỳ"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "explanation": "Tiếng Anh là ngôn ngữ chuẩn của mọi tài liệu công nghệ và mã nguồn.",
       "breakdown": {
         "concept": "Tiếng Anh trong CNTT",
         "steps": "Tiếng Anh là bắt buộc.",
         "socraticPrompt": "Học công nghệ thông tin cần giỏi tiếng gì nhất?"
-      }
+      },
+      "socraticPrompt": "Học công nghệ thông tin cần giỏi tiếng gì nhất?",
+      "distractorReasons": [
+        "Sai vì 'Tiếng Latin cổ' không phù hợp với định lý/quy tắc trọng tâm (Tiếng Anh trong CNTT).",
+        "Đúng vì theo Tiếng Anh trong CNTT: Tiếng Anh là bắt buộc.",
+        "Sai vì 'Tiếng Esperanto' không phù hợp với định lý/quy tắc trọng tâm (Tiếng Anh trong CNTT).",
+        "Sai vì 'Tiếng Thổ Nhĩ Kỳ' không phù hợp với định lý/quy tắc trọng tâm (Tiếng Anh trong CNTT)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "q06",
       "question": "Vị trí lập trình viên phụ trách giao diện trực quan và trải nghiệm người dùng trên website gọi là",
       "options": [
-        "Frontend Developer",
-        "Backend Developer",
         "Database Administrator",
+        "Backend Developer",
+        "Frontend Developer",
         "DevOps Engineer"
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": "easy",
       "explanation": "Frontend xây dựng giao diện hiển thị cho người dùng.",
       "breakdown": {
         "concept": "Lập trình Frontend",
         "steps": "Frontend phụ trách giao diện.",
         "socraticPrompt": "Lập trình viên làm giao diện web gọi là gì?"
-      }
+      },
+      "socraticPrompt": "Lập trình viên làm giao diện web gọi là gì?",
+      "distractorReasons": [
+        "Sai vì 'Database Administrator' không phù hợp với định lý/quy tắc trọng tâm (Lập trình Frontend).",
+        "Sai vì 'Backend Developer' không phù hợp với định lý/quy tắc trọng tâm (Lập trình Frontend).",
+        "Đúng vì theo Lập trình Frontend: Frontend phụ trách giao diện.",
+        "Sai vì 'DevOps Engineer' không phù hợp với định lý/quy tắc trọng tâm (Lập trình Frontend)."
+      ],
+      "answer": 2,
+      "correctIndex": 2
     }
   ]
 }
