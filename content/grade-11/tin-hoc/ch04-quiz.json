@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong bảng 'HOC_SINH', trường nào sau đây thích hợp nhất để chọn làm KHOÁ CHÍNH (Primary Key)?",
-    "options": [
-      "A. HoTen",
-      "B. NgaySinh",
-      "C. MaHocSinh (hoặc SoCCCD)",
-      "D. DiaChi"
-    ],
-    "answer": 2,
-    "explanation": "📌 Tiêu chí chọn khoá chính: Giá trị phải duy nhất không trùng lặp giữa các học sinh. Mã học sinh là trường định danh chuẩn nhất.\n💡 Họ tên và ngày sinh có thể trùng nhau.\n⚠️ Nguyên tắc vàng trong thiết kế CSDL."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "chapterTitle": "Chủ đề 4: Mạng máy tính và Internet",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Mô hình mạng 5G và 6G tương lai tạo ra bước nhảy vọt nào cho nền kinh tế số?",
+      "options": [
+        "Tốc độ siêu cao (hàng chục Gbps), độ trễ cực thấp (<1ms) mở đường cho xe tự hành, phẫu thuật từ xa và đô thị thông minh",
+        "Chỉ để xem video trên điện thoại nhanh hơn",
+        "Thay thế hoàn toàn con người trong mọi việc",
+        "Không khác gì mạng 3G cũ"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Hạ tầng viễn thông 5G/6G là huyết mạch kết nối của cuộc Cách mạng công nghiệp 4.0.",
+      "breakdown": {
+        "concept": "Mạng 5G/6G và tương lai số",
+        "steps": "Tốc độ Gbps, độ trễ cực thấp, xe tự hành và đô thị thông minh.",
+        "socraticPrompt": "Mạng 5G/6G mang lại bước ngoặt gì cho xã hội?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Sự chuyển đổi từ IPv4 sang IPv6 trên quy mô quốc gia có tầm quan trọng chiến lược là",
+      "options": [
+        "Bảo đảm đủ tài nguyên địa chỉ cho hàng tỷ thiết bị IoT kết nối Internet an toàn, bền vững",
+        "Chỉ là sự thay đổi số đếm",
+        "Gây lãng phí tài nguyên",
+        "Không cần thiết"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Việt Nam là một trong những quốc gia dẫn đầu thế giới về tỷ lệ chuyển đổi sang IPv6.",
+      "breakdown": {
+        "concept": "Chiến lược chuyển đổi IPv6",
+        "steps": "Đảm bảo tài nguyên địa chỉ cho hàng tỷ thiết bị IoT.",
+        "socraticPrompt": "Tại sao chuyển đổi sang IPv6 là bắt buộc?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Kiến trúc mạng 'Không tin cậy' (Zero Trust Architecture) tuân theo nguyên lý cốt lõi nào?",
+      "options": [
+        "'Không bao giờ tin tưởng, luôn luôn xác thực' mọi truy cập dù ở bên trong hay bên ngoài mạng",
+        "Tin tưởng tuyệt đối tất cả các thiết bị nội bộ",
+        "Không cần đặt mật khẩu",
+        "Chỉ bảo vệ cổng ngoài"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Tiêu chuẩn bảo mật hiện đại nhất bảo vệ hệ thống trước các cuộc tấn công tinh vi.",
+      "breakdown": {
+        "concept": "Nguyên lý Zero Trust",
+        "steps": "Never trust, always verify.",
+        "socraticPrompt": "Nguyên lý bảo mật Zero Trust là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Hiện tượng 'Nghẽn cổ chai mạng' (Network Bottleneck) xảy ra khi nào?",
+      "options": [
+        "Lưu lượng dữ liệu vượt quá băng thông tối đa của một nút mạng hoặc đường truyền, gây chậm trễ toàn hệ thống",
+        "Khi máy tính tắt nguồn",
+        "Khi không có ai dùng mạng",
+        "Khi cáp quang được bọc thép"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Tối ưu hóa kiến trúc mạng giúp giải tỏa các điểm nghẽn lưu lượng.",
+      "breakdown": {
+        "concept": "Nghẽn cổ chai mạng",
+        "steps": "Dữ liệu vượt băng thông, gây chậm toàn mạng.",
+        "socraticPrompt": "Nghẽn cổ chai trong mạng máy tính là hiện tượng gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Tuyến cáp quang biển quốc tế (như AAG, APG, AAE-1) là huyết mạch của Internet vì",
+      "options": [
+        "Truyền tải hơn 95% lưu lượng dữ liệu xuyên lục địa giữa Việt Nam và thế giới với tốc độ ánh sáng",
+        "Chỉ dùng để cấp điện cho các đảo",
+        "Không có vai trò gì quan trọng",
+        "Chỉ phục vụ quân sự bí mật"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Hạ tầng cáp quang biển là xương sống kết nối toàn cầu của mạng Internet.",
+      "breakdown": {
+        "concept": "Huyết mạch cáp quang biển",
+        "steps": "Truyền 95% dữ liệu quốc tế bằng sợi quang.",
+        "socraticPrompt": "Tại sao sự cố đứt cáp quang biển lại làm mạng quốc tế bị chậm?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Thế hệ trẻ Việt Nam đóng góp vào công cuộc xây dựng 'Quốc gia số' bắt đầu từ",
+      "options": [
+        "Làm chủ tri thức mạng, học tập công nghệ viễn thông mới và sáng tạo các giải pháp IoT phục vụ nông nghiệp, y tế",
+        "Phụ thuộc hoàn toàn vào phần mềm ngoại",
+        "Tránh né học hỏi khoa học kỹ thuật",
+        "Lãng phí thời gian vào mạng vô bổ"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Khát vọng đưa Việt Nam trở thành quốc gia công nghệ phát triển hàng đầu.",
+      "breakdown": {
+        "concept": "Kiến tạo Quốc gia số",
+        "steps": "Làm chủ công nghệ mạng và sáng tạo giải pháp IoT.",
+        "socraticPrompt": "Thanh niên Việt Nam làm gì để phát triển hạ tầng số quốc gia?"
+      }
+    }
+  ]
+}

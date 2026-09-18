@@ -1,32 +1,25 @@
-[
-  {
-    "id": "l06",
-    "title": "Bài 6: Khái niệm Cơ sở dữ liệu và Hệ quản trị CSDL",
-    "summary": "<ul><li><b>Mục tiêu bài học:</b> Tiếp thu trọn vẹn kiến thức, kĩ năng và tư tưởng cốt lõi của Bài 6: Khái niệm Cơ sở dữ liệu và Hệ quản trị CSDL.</li><li><b>Vận dụng:</b> Rèn luyện kĩ năng phân tích, tổng hợp và giải quyết các vấn đề thi cử và thực tế.</li></ul>",
-    "keyPoints": [
-      "Nội dung trọng tâm của Bài 6: Khái niệm Cơ sở dữ liệu và Hệ quản trị CSDL.",
-      "Phương pháp tư duy, liên hệ thực tiễn đời sống và xã hội."
-    ],
-    "examples": [
-      {
-        "problem": "Phân tích một khía cạnh hoặc hiện tượng tiêu biểu trong bài Bài 6: Khái niệm Cơ sở dữ liệu và Hệ quản trị CSDL.",
-        "solution": "Vận dụng kiến thức khoa học đã học để lập luận chặt chẽ, dẫn chứng xác thực và rút ra bài học sâu sắc."
-      }
-    ]
-  },
-  {
-    "id": "l07",
-    "title": "Bài 7: Mô hình CSDL quan hệ, bảng, khoá chính và khoá ngoại",
-    "summary": "<ul><li><b>Mục tiêu bài học:</b> Tiếp thu trọn vẹn kiến thức, kĩ năng và tư tưởng cốt lõi của Bài 7: Mô hình CSDL quan hệ, bảng, khoá chính và khoá ngoại.</li><li><b>Vận dụng:</b> Rèn luyện kĩ năng phân tích, tổng hợp và giải quyết các vấn đề thi cử và thực tế.</li></ul>",
-    "keyPoints": [
-      "Nội dung trọng tâm của Bài 7: Mô hình CSDL quan hệ, bảng, khoá chính và khoá ngoại.",
-      "Phương pháp tư duy, liên hệ thực tiễn đời sống và xã hội."
-    ],
-    "examples": [
-      {
-        "problem": "Phân tích một khía cạnh hoặc hiện tượng tiêu biểu trong bài Bài 7: Mô hình CSDL quan hệ, bảng, khoá chính và khoá ngoại.",
-        "solution": "Vận dụng kiến thức khoa học đã học để lập luận chặt chẽ, dẫn chứng xác thực và rút ra bài học sâu sắc."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Mạng máy tính và Internet",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 7 & 8: Giao thức mạng và Thiết bị kết nối",
+      "summary": "Mạng máy tính là tập hợp các máy tính được kết nối với nhau để truyền tải dữ liệu và chia sẻ tài nguyên. Bộ giao thức TCP/IP là chuẩn truyền thông nền tảng của mạng Internet toàn cầu.",
+      "keyPoints": [
+        "Mô hình mạng: Mô hình Khách - Chủ (Client - Server) và Mô hình Ngang hàng (Peer-to-Peer / P2P).",
+        "Bộ giao thức TCP/IP: Giao thức IP (định tuyến gói tin dựa trên địa chỉ IP), Giao thức TCP (bảo đảm truyền dữ liệu tin cậy, không mất mát).",
+        "Địa chỉ IP: IPv4 (32 bit, vd: 192.168.1.1) và IPv6 (128 bit, không gian địa chỉ khổng lồ).",
+        "Thiết bị mạng: Switch (chuyển mạch trong mạng LAN), Router (định tuyến giữa các mạng khác nhau), Access Point (phát sóng Wi-Fi), Modem (chuyển đổi tín hiệu quang/số).",
+        "Internet of Things (IoT): Mạng lưới vạn vật kết nối Internet (nhà thông minh Smart Home, xe tự hành, nông nghiệp thông minh)."
+      ],
+      "examples": [
+        {
+          "problem": "Thiết bị nào có nhiệm vụ kết nối mạng gia đình với nhà cung cấp dịch vụ Internet (ISP) và định tuyến dữ liệu ra toàn cầu?",
+          "solution": "Router (Bộ định tuyến) kết hợp Modem quang."
+        }
+      ],
+      "hasRealContent": true
+    }
+  ]
+}

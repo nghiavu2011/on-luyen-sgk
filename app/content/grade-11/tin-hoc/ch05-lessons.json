@@ -1,32 +1,24 @@
-[
-  {
-    "id": "l08",
-    "title": "Bài 8: Ngôn ngữ SQL và câu lệnh SELECT trích xuất dữ liệu",
-    "summary": "<ul><li><b>Mục tiêu bài học:</b> Tiếp thu trọn vẹn kiến thức, kĩ năng và tư tưởng cốt lõi của Bài 8: Ngôn ngữ SQL và câu lệnh SELECT trích xuất dữ liệu.</li><li><b>Vận dụng:</b> Rèn luyện kĩ năng phân tích, tổng hợp và giải quyết các vấn đề thi cử và thực tế.</li></ul>",
-    "keyPoints": [
-      "Nội dung trọng tâm của Bài 8: Ngôn ngữ SQL và câu lệnh SELECT trích xuất dữ liệu.",
-      "Phương pháp tư duy, liên hệ thực tiễn đời sống và xã hội."
-    ],
-    "examples": [
-      {
-        "problem": "Phân tích một khía cạnh hoặc hiện tượng tiêu biểu trong bài Bài 8: Ngôn ngữ SQL và câu lệnh SELECT trích xuất dữ liệu.",
-        "solution": "Vận dụng kiến thức khoa học đã học để lập luận chặt chẽ, dẫn chứng xác thực và rút ra bài học sâu sắc."
-      }
-    ]
-  },
-  {
-    "id": "l09",
-    "title": "Bài 9: Các thao tác cập nhật dữ liệu với INSERT, UPDATE, DELETE",
-    "summary": "<ul><li><b>Mục tiêu bài học:</b> Tiếp thu trọn vẹn kiến thức, kĩ năng và tư tưởng cốt lõi của Bài 9: Các thao tác cập nhật dữ liệu với INSERT, UPDATE, DELETE.</li><li><b>Vận dụng:</b> Rèn luyện kĩ năng phân tích, tổng hợp và giải quyết các vấn đề thi cử và thực tế.</li></ul>",
-    "keyPoints": [
-      "Nội dung trọng tâm của Bài 9: Các thao tác cập nhật dữ liệu với INSERT, UPDATE, DELETE.",
-      "Phương pháp tư duy, liên hệ thực tiễn đời sống và xã hội."
-    ],
-    "examples": [
-      {
-        "problem": "Phân tích một khía cạnh hoặc hiện tượng tiêu biểu trong bài Bài 9: Các thao tác cập nhật dữ liệu với INSERT, UPDATE, DELETE.",
-        "solution": "Vận dụng kiến thức khoa học đã học để lập luận chặt chẽ, dẫn chứng xác thực và rút ra bài học sâu sắc."
-      }
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Hệ cơ sở dữ liệu quan hệ & Ngôn ngữ SQL",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 9 & 10: Cơ sở dữ liệu quan hệ & Truy vấn SQL",
+      "summary": "Cơ sở dữ liệu (Database) là tập hợp dữ liệu có cấu trúc được lưu trữ trên máy tính nhằm phục vụ nhu cầu khai thác thông tin của nhiều người dùng. Hệ quản trị CSDL quan hệ (RDBMS) quản lý dữ liệu dưới dạng các bảng (Tables).",
+      "keyPoints": [
+        "Các khái niệm cốt lõi: Bảng (Table/Quan hệ), Bản ghi (Record/Hàng), Trường (Field/Cột), Kiểu dữ liệu (Data Type).",
+        "Khóa chính (Primary Key): Một hoặc tập hợp các trường dùng để xác định duy nhất mỗi bản ghi trong bảng, không được rỗng (NOT NULL) và không trùng lặp.",
+        "Khóa ngoại (Foreign Key): Trường trong một bảng liên kết tới khóa chính của bảng khác để tạo mối quan hệ giữa các bảng.",
+        "Ngôn ngữ SQL căn bản: `SELECT` (chọn cột), `FROM` (chọn bảng), `WHERE` (điều kiện lọc), `ORDER BY` (sắp xếp), `INSERT INTO` (thêm bản ghi), `UPDATE` (cập nhật), `DELETE` (xóa bản ghi)."
+      ],
+      "examples": [
+        {
+          "problem": "Viết câu lệnh SQL lấy họ tên và điểm toán của các học sinh có điểm toán từ 8.0 trở lên trong bảng `HocSinh`?",
+          "solution": "Câu lệnh: `SELECT HoTen, DiemToan FROM HocSinh WHERE DiemToan >= 8.0;`"
+        }
+      ],
+      "hasRealContent": true
+    }
+  ]
+}

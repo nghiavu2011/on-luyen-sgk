@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Điều kiện tiên quyết để có thể áp dụng thuật toán tìm kiếm nhị phân trên một mảng là:",
-    "options": [
-      "A. Mảng có số phần tử là số chẵn",
-      "B. Các phần tử trong mảng đã được sắp xếp theo thứ tự tăng hoặc giảm",
-      "C. Mảng chỉ chứa các số nguyên dương",
-      "D. Mảng có độ dài dưới 10 phần tử"
-    ],
-    "answer": 1,
-    "explanation": "📌 Nguyên lí tìm kiếm nhị phân: Mảng phải được sắp xếp để mỗi lần so sánh có thể loại bỏ được một nửa số phần tử còn lại.\n💡 Nếu mảng lộn xộn phải dùng tìm kiếm tuần tự $O(n)$.\n⚠️ Thuật toán tìm kiếm kinh điển."
-  }
-]
+{
+  "chapterId": "ch06",
+  "examId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+  "chapterTitle": "Chủ đề 6: Thiết kế và tối ưu hóa Cơ sở dữ liệu",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Cho 2 bảng `HocSinh(MaHS, HoTen, MaLop)` và `Lop(MaLop, TenLop)`. Để hiển thị HoTen cùng TenLop tương ứng, câu lệnh SQL đúng là",
+      "options": [
+        "SELECT HocSinh.HoTen, Lop.TenLop FROM HocSinh INNER JOIN Lop ON HocSinh.MaLop = Lop.MaLop;",
+        "SELECT * FROM HocSinh, Lop;",
+        "JOIN HocSinh AND Lop WHERE MaLop = MaLop;",
+        "MERGE HocSinh WITH Lop;"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cú pháp JOIN chuẩn: SELECT Cot FROM Bang1 INNER JOIN Bang2 ON Bang1.Khoa = Bang2.Khoa;",
+      "breakdown": {
+        "concept": "Truy vấn JOIN hai bảng",
+        "steps": "INNER JOIN trên khóa ngoại MaLop.",
+        "socraticPrompt": "Làm sao nối bảng Học sinh và bảng Lớp?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khi thiết kế bảng `DonHang`, nếu ta lưu trực tiếp Tên Khách Hàng, Địa Chỉ, Số Điện Thoại vào mỗi đơn hàng thì sẽ dẫn tới",
+      "options": [
+        "Dư thừa dữ liệu và khó cập nhật khi khách hàng đổi số điện thoại",
+        "Hệ thống chạy nhanh hơn gấp đôi",
+        "Tiết kiệm bộ nhớ",
+        "Không có nhược điểm nào"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cần tách bảng `KhachHang` riêng và bảng `DonHang` riêng để chuẩn hóa 3NF.",
+      "breakdown": {
+        "concept": "Tác hại dư thừa dữ liệu",
+        "steps": "Gây dư thừa, khó sửa đổi đồng bộ.",
+        "socraticPrompt": "Lưu chung thông tin khách vào đơn hàng bị lỗi gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để tính tổng doanh thu bán hàng của từng nhân viên từ bảng `HoaDon` và chỉ hiển thị những nhân viên có tổng doanh thu > 50 triệu, ta dùng",
+      "options": [
+        "GROUP BY MaNV HAVING SUM(ThanhTien) > 50000000",
+        "WHERE SUM(ThanhTien) > 50000000",
+        "ORDER BY ThanhTien > 50000000",
+        "SELECT SUM > 50000000"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Lọc điều kiện trên hàm tổng hợp SUM bắt buộc dùng mệnh đề HAVING sau GROUP BY.",
+      "breakdown": {
+        "concept": "Mệnh đề GROUP BY và HAVING",
+        "steps": "GROUP BY MaNV HAVING SUM > 50tr.",
+        "socraticPrompt": "Lọc điều kiện tổng doanh thu nhân viên dùng từ khóa gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Trong mô hình quan hệ Nhiều - Nhiều (N - N) giữa `HocSinh` và `MonHoc`, giải pháp thiết kế chuẩn là",
+      "options": [
+        "Tạo thêm một Bảng Trung Gian (vd: `KetQuaHocTap`) chứa MaHS và MaMon",
+        "Ghi danh sách tất cả môn học vào một ô trong bảng HocSinh",
+        "Xóa bỏ môn học",
+        "Tạo 100 cột môn học"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Phân rã quan hệ N-N thành hai quan hệ 1-N thông qua bảng liên kết trung gian.",
+      "breakdown": {
+        "concept": "Xử lý quan hệ Nhiều - Nhiều",
+        "steps": "Tạo bảng trung gian liên kết.",
+        "socraticPrompt": "Giải quyết quan hệ Nhiều - Nhiều trong CSDL bằng cách nào?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Khi thực hiện xóa một lớp học trong bảng `Lop` mà trong bảng `HocSinh` vẫn còn học sinh thuộc lớp đó, chế độ `ON DELETE RESTRICT` sẽ",
+      "options": [
+        "Ngăn cấm việc xóa để bảo vệ tính toàn vẹn tham chiếu của dữ liệu",
+        "Tự động xóa luôn toàn bộ học sinh",
+        "Xóa ngẫu nhiên một vài học sinh",
+        "Tự động đổi tên học sinh"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "ON DELETE RESTRICT bảo vệ dữ liệu con không bị mồ côi (Orphaned Records).",
+      "breakdown": {
+        "concept": "Ràng buộc ON DELETE RESTRICT",
+        "steps": "Ngăn xóa bảo vệ dữ liệu toàn vẹn.",
+        "socraticPrompt": "Xóa lớp khi còn học sinh thì hệ thống làm gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Kỹ năng phân tích thiết kế CSDL giúp học sinh rèn luyện năng lực tư duy gì?",
+      "options": [
+        "Tư duy trừu tượng hóa, mô hình hóa dữ liệu và tổ chức thông tin logic",
+        "Khả năng nói nhanh",
+        "Kỹ năng vẽ tranh hoạt hình",
+        "Kỹ năng ghi nhớ máy móc"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Năng lực mô hình hóa thế giới thực vào thế giới máy tính khoa học.",
+      "breakdown": {
+        "concept": "Năng lực tư duy mô hình hóa",
+        "steps": "Tư duy logic, cấu trúc và mô hình hóa.",
+        "socraticPrompt": "Học thiết kế CSDL rèn luyện tư duy gì?"
+      }
+    }
+  ]
+}

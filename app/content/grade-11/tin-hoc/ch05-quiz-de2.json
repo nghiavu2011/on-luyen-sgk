@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong ngôn ngữ SQL, câu lệnh nào dùng để lấy dữ liệu từ bảng ra hiển thị?",
-    "options": [
-      "A. INSERT",
-      "B. UPDATE",
-      "C. SELECT",
-      "D. DROP"
-    ],
-    "answer": 2,
-    "explanation": "📌 Cú pháp SQL: SELECT là câu lệnh truy vấn trích xuất dữ liệu cốt lõi.\n💡 SELECT * FROM SinhVien;\n⚠️ Lệnh phổ biến nhất trong quản trị dữ liệu."
-  }
-]
+{
+  "chapterId": "ch05",
+  "examId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+  "chapterTitle": "Chủ đề 5: Hệ cơ sở dữ liệu quan hệ & Ngôn ngữ SQL",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Cho bảng `HocSinh(MaHS, HoTen, Lop, DiemTB)`. Câu lệnh SQL nào lấy danh sách tất cả học sinh lớp '11A1' có điểm trung bình từ 8.0 trở lên?",
+      "options": [
+        "SELECT * FROM HocSinh WHERE Lop = '11A1' AND DiemTB >= 8.0;",
+        "SELECT ALL FROM HocSinh IF Lop = 11A1;",
+        "GET * FROM HocSinh WITH Lop = '11A1';",
+        "FIND HocSinh WHERE Lop = '11A1';"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cú pháp chuẩn SQL: SELECT * FROM TenBang WHERE DieuKien1 AND DieuKien2;",
+      "breakdown": {
+        "concept": "Truy vấn SQL lọc điều kiện",
+        "steps": "SELECT * FROM HocSinh WHERE Lop = '11A1' AND DiemTB >= 8.0;",
+        "socraticPrompt": "Câu lệnh SQL lấy học sinh giỏi lớp 11A1 là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khi thiết kế bảng `NhanVien`, trường nào sau đây thích hợp nhất để làm Khóa chính (Primary Key)?",
+      "options": [
+        "SoCCCD (Số Căn cước công dân)",
+        "HoTen (Họ và tên)",
+        "QueQuan (Quê quán)",
+        "NamSinh (Năm sinh)"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Số CCCD là duy nhất cho mỗi công dân, không bị trùng lặp.",
+      "breakdown": {
+        "concept": "Chọn Khóa chính",
+        "steps": "Số CCCD duy nhất không trùng lặp.",
+        "socraticPrompt": "Trường nào thích hợp làm khóa chính cho nhân viên?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để thêm một học sinh mới vào bảng `HocSinh` có mã 'HS09', họ tên 'Nguyễn Văn An', lớp '11A2', câu lệnh SQL đúng là",
+      "options": [
+        "INSERT INTO HocSinh (MaHS, HoTen, Lop) VALUES ('HS09', 'Nguyễn Văn An', '11A2');",
+        "ADD INTO HocSinh ('HS09', 'Nguyễn Văn An', '11A2');",
+        "UPDATE HocSinh SET MaHS = 'HS09';",
+        "CREATE ROW INTO HocSinh ('HS09', 'Nguyễn Văn An');"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cú pháp chuẩn INSERT INTO TenBang (Cot) VALUES (GiaTri);",
+      "breakdown": {
+        "concept": "Lệnh INSERT INTO",
+        "steps": "INSERT INTO HocSinh VALUES (...);",
+        "socraticPrompt": "Câu lệnh thêm hàng mới trong SQL là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Câu lệnh SQL `UPDATE Sach SET GiaBan = GiaBan * 0.9 WHERE NamXB < 2020;` thực hiện công việc gì?",
+      "options": [
+        "Giảm giá 10% cho tất cả các cuốn sách xuất bản trước năm 2020",
+        "Tăng giá sách lên 90%",
+        "Xóa tất cả các cuốn sách cũ",
+        "Đổi tên sách xuất bản trước năm 2020"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Lệnh UPDATE cập nhật giá trị trường GiaBan giảm còn 90% (giảm 10%).",
+      "breakdown": {
+        "concept": "Lệnh UPDATE SQL",
+        "steps": "Giảm 10% giá sách xuất bản trước 2020.",
+        "socraticPrompt": "Lệnh UPDATE GiaBan * 0.9 có ý nghĩa gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Điều gì sẽ xảy ra nếu ta cố tình thêm một bản ghi có Khóa chính trùng với một bản ghi đã tồn tại trong bảng?",
+      "options": [
+        "Hệ quản trị CSDL sẽ báo lỗi vi phạm ràng buộc Khóa chính (Primary Key Constraint Error) và từ chối thêm",
+        "Hệ thống tự động xóa bản ghi cũ",
+        "Máy tính bị tắt đột ngột",
+        "Dữ liệu được gộp chung lại"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Khóa chính bảo đảm tính duy nhất tuyệt đối (Entity Integrity).",
+      "breakdown": {
+        "concept": "Ràng buộc Khóa chính",
+        "steps": "Báo lỗi trùng khóa chính và từ chối thêm.",
+        "socraticPrompt": "Nhập trùng khóa chính thì hệ thống làm gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh ứng dụng CSDL và SQL để làm dự án học tập nào thiết thực nhất?",
+      "options": [
+        "Xây dựng phần mềm quản lý thư viện sách trường học hoặc quản lý điểm lớp học",
+        "Vẽ tranh minh họa",
+        "Gõ văn bản đơn giản",
+        "Chơi game"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Ứng dụng CSDL quản lý thông tin trường học trực quan, hữu ích.",
+      "breakdown": {
+        "concept": "Ứng dụng CSDL học đường",
+        "steps": "Phần mềm quản lý thư viện hoặc quản lý điểm.",
+        "socraticPrompt": "CSDL ứng dụng vào dự án nào ở trường học?"
+      }
+    }
+  ]
+}

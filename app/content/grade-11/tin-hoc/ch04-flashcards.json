@@ -1,18 +1,70 @@
-[
-  {
-    "front": "Khoá chính (Primary Key) trong bảng quan hệ là gì?",
-    "back": "Là một hoặc nhiều trường có giá trị duy nhất xác định một bản ghi (hàng) trong bảng, không được phép trùng lặp và không được để trống (NULL).",
-    "tags": [
-      "Khoá chính",
-      "CSDL"
-    ]
-  },
-  {
-    "front": "Khoá ngoại (Foreign Key) dùng để làm gì?",
-    "back": "Dùng để thiết lập mối liên kết giữa các bảng và đảm bảo tính toàn vẹn tham chiếu của dữ liệu.",
-    "tags": [
-      "Khoá ngoại",
-      "Liên kết"
-    ]
-  }
-]
+{
+  "chapterId": "ch04",
+  "title": "Flashcards Chủ đề 4: Mạng máy tính và Internet",
+  "flashcards": [
+    {
+      "front": "Bộ giao thức nền tảng của mạng Internet toàn cầu?",
+      "back": "TCP/IP (Transmission Control Protocol / Internet Protocol).",
+      "tags": [
+        "TCP/IP",
+        "Giao thức"
+      ]
+    },
+    {
+      "front": "Địa chỉ IPv4 có độ dài bao nhiêu bit?",
+      "back": "32 bit (gồm 4 byte cách nhau bởi dấu chấm, vd: 192.168.1.1).",
+      "tags": [
+        "IPv4",
+        "32 bit"
+      ]
+    },
+    {
+      "front": "Địa chỉ IPv6 ra đời để giải quyết vấn đề gì?",
+      "back": "Giải quyết tình trạng cạn kiệt địa chỉ của IPv4, có độ dài 128 bit.",
+      "tags": [
+        "IPv6",
+        "128 bit"
+      ]
+    },
+    {
+      "front": "Thiết bị Router (Bộ định tuyến) làm nhiệm vụ gì?",
+      "back": "Định tuyến và chuyển tiếp các gói tin giữa các mạng máy tính khác nhau.",
+      "tags": [
+        "Router",
+        "Định tuyến"
+      ]
+    },
+    {
+      "front": "Thiết bị Switch (Bộ chuyển mạch) làm nhiệm vụ gì?",
+      "back": "Kết nối các thiết bị trong cùng một mạng cục bộ (LAN) dựa trên địa chỉ MAC.",
+      "tags": [
+        "Switch",
+        "LAN"
+      ]
+    },
+    {
+      "front": "Hệ thống phân giải tên miền (DNS) có chức năng gì?",
+      "back": "Chuyển đổi tên miền dễ nhớ (vd: google.com) thành địa chỉ IP tương ứng (vd: 142.250.190.46).",
+      "tags": [
+        "DNS",
+        "Phân giải tên miền"
+      ]
+    },
+    {
+      "front": "Internet of Things (IoT) là gì?",
+      "back": "Mạng lưới kết nối các thiết bị thông minh qua Internet để tự động thu thập và trao đổi dữ liệu.",
+      "tags": [
+        "IoT",
+        "Vạn vật kết nối"
+      ]
+    },
+    {
+      "front": "Dải địa chỉ IP nội bộ (Private IP) phổ biến trong gia đình?",
+      "back": "192.168.x.x (vd: 192.168.1.1) hoặc 10.x.x.x.",
+      "tags": [
+        "Private IP",
+        "Mạng nội bộ"
+      ]
+    }
+  ]
+}

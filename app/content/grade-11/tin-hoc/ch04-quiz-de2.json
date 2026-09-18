@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong bảng 'HOC_SINH', trường nào sau đây thích hợp nhất để chọn làm KHOÁ CHÍNH (Primary Key)?",
-    "options": [
-      "A. HoTen",
-      "B. NgaySinh",
-      "C. MaHocSinh (hoặc SoCCCD)",
-      "D. DiaChi"
-    ],
-    "answer": 2,
-    "explanation": "📌 Tiêu chí chọn khoá chính: Giá trị phải duy nhất không trùng lặp giữa các học sinh. Mã học sinh là trường định danh chuẩn nhất.\n💡 Họ tên và ngày sinh có thể trùng nhau.\n⚠️ Nguyên tắc vàng trong thiết kế CSDL."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+  "chapterTitle": "Chủ đề 4: Mạng máy tính và Internet",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Khi gõ địa chỉ `192.168.1.1` vào trình duyệt web, người dùng thường đang truy cập vào",
+      "options": [
+        "Trang quản trị cấu hình Router / Modem mạng của gia đình",
+        "Trang tìm kiếm Google",
+        "Hòm thư điện tử cá nhân",
+        "Trang mạng xã hội Facebook"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "192.168.1.1 là địa chỉ IP cổng mặc định (Default Gateway) của Router gia đình.",
+      "breakdown": {
+        "concept": "Truy cập Router mạng",
+        "steps": "Trang quản trị Router mạng gia đình.",
+        "socraticPrompt": "Gõ 192.168.1.1 vào web để làm gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khi mạng Internet nhà bạn bị chậm hoặc không vào được web dù biểu tượng Wi-Fi vẫn đầy vạch, thao tác xử lý ban đầu đơn giản nhất là",
+      "options": [
+        "Khởi động lại (Restart/Reboot) Router Wi-Fi bằng cách rút nguồn điện chờ 30 giây rồi cắm lại",
+        "Đập vỡ Router mua cái mới",
+        "Cài lại toàn bộ hệ điều hành máy tính",
+        "Cắt dây mạng"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Khởi động lại Router giúp giải phóng bộ nhớ đệm và cấp lại địa chỉ IP.",
+      "breakdown": {
+        "concept": "Khắc phục sự cố mạng gia đình",
+        "steps": "Khởi động lại Router Wi-Fi.",
+        "socraticPrompt": "Mạng Wi-Fi bị đơ xử lý ban đầu thế nào?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để tăng cường bảo mật cho mạng Wi-Fi gia đình tránh bị hàng xóm dùng trộm, bạn nên",
+      "options": [
+        "Đặt mật khẩu chuẩn WPA2/WPA3 phức tạp và đổi mật khẩu quản trị Router mặc định",
+        "Mở Wi-Fi công khai không đặt pass",
+        "Đặt mật khẩu là 12345678",
+        "Ghi mật khẩu dán trước cửa nhà"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Bảo mật Wi-Fi bằng chuẩn mã hóa mạnh WPA2/WPA3-Personal.",
+      "breakdown": {
+        "concept": "Bảo mật Wi-Fi gia đình",
+        "steps": "Đặt mật khẩu WPA2/WPA3 phức tạp.",
+        "socraticPrompt": "Làm sao để bảo vệ Wi-Fi gia đình không bị dùng chùa?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Ứng dụng thực tế nào sau đây là ví dụ điển hình của công nghệ IoT (Internet vạn vật)?",
+      "options": [
+        "Hệ thống tưới nước tự động dựa trên cảm biến độ ẩm đất kết nối điều khiển qua điện thoại",
+        "Văn bản in trên giấy A4",
+        "Chiếc đồng hồ cơ lên dây cót",
+        "Bình gốm sứ"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "IoT kết hợp cảm biến, vi điều khiển và kết nối Internet.",
+      "breakdown": {
+        "concept": "Ứng dụng IoT thực tế",
+        "steps": "Cảm biến tưới cây tự động qua smartphone.",
+        "socraticPrompt": "Ví dụ nào là ứng dụng IoT trong đời sống?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Khi thực hiện lệnh `ping google.com` trong Command Prompt (cmd) và nhận được kết quả `Reply from... time=15ms`, điều này chứng tỏ",
+      "options": [
+        "Máy tính đang kết nối Internet thông suốt tới máy chủ Google với độ trễ 15 mili-giây",
+        "Máy tính bị nhiễm virus",
+        "Không có mạng Internet",
+        "Bộ nhớ RAM đã bị đầy"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Lệnh ping kiểm tra kết nối mạng và độ trễ (latency).",
+      "breakdown": {
+        "concept": "Lệnh ping mạng",
+        "steps": "Kết nối thông suốt, độ trễ 15ms.",
+        "socraticPrompt": "Lệnh ping google.com cho biết điều gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh hiểu về nguyên lý mạng máy tính để làm gì?",
+      "options": [
+        "Tự cấu hình mạng học tập, bảo vệ thiết bị cá nhân và hiểu nền tảng của kinh tế số",
+        "Để trở thành tin tặc phá hoại",
+        "Chỉ để chơi game online",
+        "Không có lợi ích gì"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Kiến thức mạng máy tính là nền tảng cốt lõi của công nghệ thông tin.",
+      "breakdown": {
+        "concept": "Hiểu biết mạng máy tính",
+        "steps": "Tự làm chủ thiết bị và hiểu nền tảng số.",
+        "socraticPrompt": "Học về mạng máy tính giúp ích gì cho học sinh?"
+      }
+    }
+  ]
+}

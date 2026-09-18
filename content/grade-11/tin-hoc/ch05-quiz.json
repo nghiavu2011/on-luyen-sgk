@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch05_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Trong ngôn ngữ SQL, câu lệnh nào dùng để lấy dữ liệu từ bảng ra hiển thị?",
-    "options": [
-      "A. INSERT",
-      "B. UPDATE",
-      "C. SELECT",
-      "D. DROP"
-    ],
-    "answer": 2,
-    "explanation": "📌 Cú pháp SQL: SELECT là câu lệnh truy vấn trích xuất dữ liệu cốt lõi.\n💡 SELECT * FROM SinhVien;\n⚠️ Lệnh phổ biến nhất trong quản trị dữ liệu."
-  }
-]
+{
+  "chapterId": "ch05",
+  "examId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "chapterTitle": "Chủ đề 5: Hệ cơ sở dữ liệu quan hệ & Ngôn ngữ SQL",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Bốn tính chất vàng ACID của một Hệ thống Giao dịch CSDL (Transaction) bao gồm",
+      "options": [
+        "Atomicity (Nguyên tử), Consistency (Nhất quán), Isolation (Cô lập), Durability (Bền vững)",
+        "Accuracy, Cloud, Internet, Data",
+        "Auto, Cache, Index, Delete",
+        "Access, Code, Input, Display"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Bộ tiêu chuẩn ACID bảo đảm an toàn dữ liệu tuyệt đối trong các hệ thống ngân hàng, tài chính.",
+      "breakdown": {
+        "concept": "Tính chất ACID trong CSDL",
+        "steps": "Atomicity, Consistency, Isolation, Durability.",
+        "socraticPrompt": "Bốn tính chất ACID trong giao dịch CSDL là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Mối liên kết giữa Khóa chính và Khóa ngoại (Primary Key - Foreign Key) bảo đảm tính toàn vẹn nào của CSDL?",
+      "options": [
+        "Tính toàn vẹn tham chiếu (Referential Integrity)",
+        "Tính toàn vẹn phần cứng",
+        "Tính toàn vẹn mạng",
+        "Tính ngẫu nhiên của dữ liệu"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Bảo đảm không có khóa ngoại nào trỏ tới một bản ghi không tồn tại.",
+      "breakdown": {
+        "concept": "Toàn vẹn tham chiếu",
+        "steps": "Referential Integrity.",
+        "socraticPrompt": "Khóa chính và khóa ngoại bảo đảm toàn vẹn gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Kỹ thuật đánh Chỉ mục (Index) trên các cột thường xuyên tìm kiếm trong CSDL lớn mang lại lợi ích gì?",
+      "options": [
+        "Tăng tốc độ truy vấn dữ liệu từ hàng triệu bản ghi trong tích tắc",
+        "Làm giảm dung lượng đĩa cứng",
+        "Làm đẹp giao diện người dùng",
+        "Tự động sửa lỗi chính tả"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Chỉ mục B-Tree giúp tìm kiếm theo logarit thay vì quét toàn bộ bảng (Full Table Scan).",
+      "breakdown": {
+        "concept": "Kỹ thuật đánh Index",
+        "steps": "Tăng tốc độ tìm kiếm vượt bậc.",
+        "socraticPrompt": "Đánh Index trong cơ sở dữ liệu có tác dụng gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Kỹ thuật tấn công 'SQL Injection' (Tiêm mã SQL) khai thác lỗ hổng nào của ứng dụng?",
+      "options": [
+        "Khai thác việc không kiểm tra kỹ dữ liệu nhập từ người dùng để chèn mã lệnh SQL độc hại đánh cắp dữ liệu",
+        "Cắt đứt dây mạng",
+        "Tấn công quá nhiệt CPU",
+        "Gửi virus qua email"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Lỗ hổng bảo mật web kinh điển, phòng chống bằng cách dùng Prepared Statements / Parameterized Queries.",
+      "breakdown": {
+        "concept": "Lỗ hổng SQL Injection",
+        "steps": "Chèn mã SQL độc hại qua ô nhập liệu.",
+        "socraticPrompt": "SQL Injection là kiểu tấn công gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Sự khác biệt cốt lõi giữa CSDL quan hệ (SQL) và CSDL phi quan hệ (NoSQL như MongoDB, Redis) là",
+      "options": [
+        "SQL có cấu trúc bảng chặt chẽ, NoSQL linh hoạt với dữ liệu phi cấu trúc, phân tán quy mô siêu lớn",
+        "SQL không dùng được trên máy tính",
+        "NoSQL chỉ dùng để ghi nhớ văn bản",
+        "Hai hệ thống giống hệt nhau"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Lựa chọn kiến trúc CSDL phù hợp với từng bài toán kinh doanh.",
+      "breakdown": {
+        "concept": "So sánh SQL và NoSQL",
+        "steps": "SQL chặt chẽ có cấu trúc, NoSQL linh hoạt quy mô lớn.",
+        "socraticPrompt": "SQL và NoSQL khác nhau ở điểm nào?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh thành thạo tư duy CSDL và SQL mở ra cơ hội nghề nghiệp tương lai nào?",
+      "options": [
+        "Kỹ sư dữ liệu (Data Engineer), Chuyên viên phân tích dữ liệu (Data Analyst), Kỹ sư phần mềm (Backend Developer)",
+        "Chỉ làm thợ sửa máy in",
+        "Chỉ làm nhân viên đánh máy",
+        "Không có việc làm"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Ngành dữ liệu là một trong những ngành nghề có nhu cầu tuyển dụng và thu nhập cao nhất kỷ nguyên số.",
+      "breakdown": {
+        "concept": "Nghề nghiệp ngành Dữ liệu",
+        "steps": "Data Engineer, Data Analyst, Backend Developer.",
+        "socraticPrompt": "Học giỏi CSDL và SQL sau này làm nghề gì?"
+      }
+    }
+  ]
+}

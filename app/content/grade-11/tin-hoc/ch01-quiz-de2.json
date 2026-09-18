@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở phổ biến trên thiết bị di động thông minh?",
-    "options": [
-      "A. iOS",
-      "B. Windows 11",
-      "C. Android",
-      "D. macOS"
-    ],
-    "answer": 2,
-    "explanation": "📌 Mã nguồn mở: Android (phát triển dựa trên nhân Linux) là hệ điều hành nguồn mở phổ biến nhất trên smartphone.\n💡 iOS và Windows là phần mềm thương mại đóng mã nguồn.\n⚠️ Phân biệt nguồn mở và mã nguồn đóng."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+  "chapterTitle": "Chủ đề 1: Máy tính và xã hội tri thức (Hệ điều hành & Phần mềm)",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Khi làm việc nhóm dự án Tin học, nhóm bạn Nam nên dùng công cụ nào để cùng soạn thảo tài liệu báo cáo thời gian thực?",
+      "options": [
+        "Google Docs / OneDrive Word Online",
+        "Gửi USB qua lại",
+        "In ra giấy rồi viết bút chì",
+        "Chụp ảnh gửi qua tin nhắn"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Google Docs / OneDrive hỗ trợ đồng chỉnh sửa thời gian thực tiện lợi.",
+      "breakdown": {
+        "concept": "Làm việc cộng tác đám mây",
+        "steps": "Google Docs hoặc Word Online.",
+        "socraticPrompt": "Công cụ nào giúp cùng soạn văn bản trực tuyến?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Một trường học muốn tiết kiệm chi phí bản quyền phần mềm văn phòng cho 500 máy tính nên chọn giải pháp nào?",
+      "options": [
+        "Cài đặt bộ phần mềm nguồn mở LibreOffice hoặc WPS Office miễn phí",
+        "Dùng phần mềm crack bẻ khóa lậu",
+        "Không cho học sinh thực hành",
+        "Mua đĩa lậu ngoài chợ"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Sử dụng phần mềm nguồn mở vừa miễn phí hợp pháp vừa an toàn bảo mật.",
+      "breakdown": {
+        "concept": "Giải pháp phần mềm nguồn mở",
+        "steps": "Cài LibreOffice nguồn mở miễn phí.",
+        "socraticPrompt": "Trường học tiết kiệm tiền bản quyền phần mềm bằng cách nào?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để bảo vệ dữ liệu học tập quan trọng trên máy tính cá nhân không bị mất khi ổ cứng bị hỏng đột ngột, bạn cần",
+      "options": [
+        "Bật tính năng tự động đồng bộ hóa lên đám mây (Google Drive / OneDrive) và sao lưu định kỳ",
+        "Chỉ lưu trên một thư mục Desktop",
+        "Không bao giờ tắt máy",
+        "Ghi nhớ trong đầu"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Sao lưu dữ liệu định kỳ trên đám mây (Backup 3-2-1).",
+      "breakdown": {
+        "concept": "Sao lưu dữ liệu an toàn",
+        "steps": "Đồng bộ lên đám mây định kỳ.",
+        "socraticPrompt": "Làm sao để không mất tài liệu khi máy hỏng?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Khi cài đặt một phần mềm từ Internet, hành động nào tiềm ẩn rủi ro lây nhiễm mã độc cao nhất?",
+      "options": [
+        "Tải file cài đặt .exe bẻ khóa (crack) từ các trang web lạ không rõ nguồn gốc",
+        "Tải từ trang chủ chính thức của nhà phát triển",
+        "Tải từ Microsoft Store / App Store",
+        "Kiểm tra mã băm SHA256 trước khi cài"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Phần mềm crack thường bị chèn trojan, virus và phần mềm gián điệp.",
+      "breakdown": {
+        "concept": "Rủi ro cài đặt phần mềm crack",
+        "steps": "Tải file bẻ khóa từ web lạ nguy hiểm.",
+        "socraticPrompt": "Cài phần mềm nào dễ bị dính virus nhất?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Khi phân quyền chia sẻ một thư mục tài liệu nhóm trên Google Drive, để các bạn chỉ được đọc mà không chỉnh sửa nhầm dữ liệu, ta chọn quyền",
+      "options": [
+        "Viewer (Người xem)",
+        "Editor (Người chỉnh sửa)",
+        "Owner (Chủ sở hữu)",
+        "Admin (Quản trị viên)"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Phân quyền Viewer để bảo vệ tính toàn vẹn của dữ liệu chia sẻ.",
+      "breakdown": {
+        "concept": "Phân quyền chia sẻ đám mây",
+        "steps": "Chọn quyền Viewer (Người xem).",
+        "socraticPrompt": "Chia sẻ file chỉ cho đọc thì chọn quyền gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh muốn học lập trình Python chuyên nghiệp nên lựa chọn môi trường phát triển (IDE) nguồn mở nào?",
+      "options": [
+        "VS Code (Visual Studio Code) hoặc PyCharm Community",
+        "Notepad của Windows",
+        "Phần mềm Paint",
+        "Microsoft PowerPoint"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "VS Code là trình soạn thảo mã nguồn mở mạnh mẽ, phổ biến hàng đầu.",
+      "breakdown": {
+        "concept": "Công cụ lập trình IDE",
+        "steps": "VS Code hoặc PyCharm.",
+        "socraticPrompt": "Phần mềm nào tốt nhất để viết code Python?"
+      }
+    }
+  ]
+}

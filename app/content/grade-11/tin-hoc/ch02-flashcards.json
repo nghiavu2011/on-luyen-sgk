@@ -1,18 +1,70 @@
-[
-  {
-    "front": "Địa chỉ IP là gì?",
-    "back": "Là dãy số định danh duy nhất cho mỗi thiết bị tham gia kết nối vào mạng (IPv4 gồm 4 byte, IPv6 gồm 16 byte).",
-    "tags": [
-      "Địa chỉ IP",
-      "Mạng"
-    ]
-  },
-  {
-    "front": "Hệ thống phân giải tên miền (DNS) có vai trò gì?",
-    "back": "Dịch chuyển tên miền dễ nhớ (như google.com) sang địa chỉ IP dạng số mà máy tính hiểu được.",
-    "tags": [
-      "DNS",
-      "Tên miền"
-    ]
-  }
-]
+{
+  "chapterId": "ch02",
+  "title": "Flashcards Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "flashcards": [
+    {
+      "front": "Toán tử Google để tìm kiếm chính xác cụm từ?",
+      "back": "Đặt cụm từ trong dấu ngoặc kép: \"cụm từ chính xác\".",
+      "tags": [
+        "Toán tử Google",
+        "Ngoặc kép"
+      ]
+    },
+    {
+      "front": "Toán tử giới hạn tìm kiếm trong một tên miền cụ thể?",
+      "back": "Sử dụng cú pháp: site:domain (vd: site:gov.vn).",
+      "tags": [
+        "site:",
+        "Tìm kiếm"
+      ]
+    },
+    {
+      "front": "Toán tử tìm kiếm theo định dạng tệp tin (PDF, DOCX, PPTX)?",
+      "back": "Sử dụng cú pháp: filetype:ext (vd: filetype:pdf).",
+      "tags": [
+        "filetype:",
+        "Định dạng file"
+      ]
+    },
+    {
+      "front": "Toán tử loại trừ các kết quả chứa một từ khóa?",
+      "back": "Dấu trừ (-) đặt liền trước từ cần loại trừ (vd: virus -covid).",
+      "tags": [
+        "Toán tử trừ",
+        "Loại trừ"
+      ]
+    },
+    {
+      "front": "Tiêu chí quan trọng nhất khi đánh giá độ tin cậy của một bài viết mạng?",
+      "back": "Tác giả uy tín, tổ chức xuất bản chính thống và nguồn dữ liệu kiểm chứng rõ ràng.",
+      "tags": [
+        "Độ tin cậy",
+        "Kiểm chứng"
+      ]
+    },
+    {
+      "front": "Deepfake là gì?",
+      "back": "Công nghệ AI sử dụng mạng nơ-ron để giả mạo khuôn mặt và giọng nói của người thật trong video/âm thanh.",
+      "tags": [
+        "Deepfake",
+        "AI giả mạo"
+      ]
+    },
+    {
+      "front": "Nguyên tắc đặt tên tệp dữ liệu khoa học?",
+      "back": "Ngắn gọn, rõ nghĩa, không dấu tiếng Việt lạ, có ngày tháng và phiên bản (version).",
+      "tags": [
+        "Đặt tên tệp",
+        "Khoa học"
+      ]
+    },
+    {
+      "front": "Khi gặp một thông tin gây hoang mang trên Facebook/TikTok, bước đầu tiên cần làm?",
+      "back": "Kiểm chứng chéo thông tin trên các báo chí chính thống của Nhà nước trước khi tin hoặc chia sẻ.",
+      "tags": [
+        "Chống tin giả",
+        "Kiểm chứng"
+      ]
+    }
+  ]
+}

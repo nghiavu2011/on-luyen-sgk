@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dịch vụ mạng có nhiệm vụ chuyển đổi tên miền dạng chữ (ví dụ: dantri.com.vn) sang địa chỉ số IP tương ứng là:",
-    "options": [
-      "A. FTP",
-      "B. DNS",
-      "C. DHCP",
-      "D. SMTP"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm mạng: DNS = Domain Name System (Hệ thống phân giải tên miền).\n💡 Giống như danh bạ điện thoại tra số từ tên người.\n⚠️ Giao thức cốt lõi của Internet."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "chapterTitle": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Trong thế giới 'Bùng nổ thông tin và Nhiễu loạn dữ liệu' (Infodemic), năng lực cốt lõi nhất của công dân số là",
+      "options": [
+        "Tư duy phản biện (Critical Thinking), năng lực kiểm chứng nguồn tin và phân tích dữ liệu",
+        "Khả năng đọc nhanh mà không suy nghĩ",
+        "Tin vào tất cả những gì thuật toán gợi ý",
+        "Không sử dụng mạng Internet"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Tư duy phản biện là bộ lọc thông minh bảo vệ tâm trí con người trước ma trận thông tin số.",
+      "breakdown": {
+        "concept": "Năng lực công dân số",
+        "steps": "Tư duy phản biện và kiểm chứng nguồn tin.",
+        "socraticPrompt": "Kỹ năng quan trọng nhất trong thời đại bão thông tin là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Thuật toán 'Bong bóng lọc' (Filter Bubble) và 'Buồng phản hồi thông tin' (Echo Chamber) trên mạng xã hội gây ra nguy cơ",
+      "options": [
+        "Khiến người dùng chỉ tiếp xúc với thông tin cùng quan điểm, gây định kiến thiên lệch và cực đoan",
+        "Làm cho máy tính bị hỏng màn hình",
+        "Giúp con người có cái nhìn toàn diện khách quan",
+        "Không có ảnh hưởng gì"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Thuật toán giữ chân người dùng vô tình tạo ra sự chia rẽ và thiên kiến nhận thức.",
+      "breakdown": {
+        "concept": "Tác hại Filter Bubble",
+        "steps": "Tạo thiên kiến nhận thức và cô lập quan điểm.",
+        "socraticPrompt": "Thuật toán mạng xã hội tạo ra buồng thông tin gây hại gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Ý nghĩa của việc xây dựng 'Cơ sở dữ liệu Quốc gia về Dân cư' (Đề án 06) của Chính phủ Việt Nam là",
+      "options": [
+        "Chuyển đổi số toàn diện quản trị quốc gia, đơn giản hóa thủ tục hành chính và phục vụ người dân tốt hơn",
+        "Làm lộ bí mật của người dân",
+        "Tăng thêm giấy tờ thủ công",
+        "Không mang lại hiệu quả"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Xương sống của Chính phủ điện tử và Kinh tế số quốc gia.",
+      "breakdown": {
+        "concept": "Cơ sở dữ liệu quốc gia về dân cư",
+        "steps": "Quản trị số quốc gia, phục vụ nhân dân.",
+        "socraticPrompt": "Đề án 06 về dữ liệu dân cư mang lại lợi ích gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Nguyên tắc 'Liêm chính học thuật' (Academic Integrity) khi tìm kiếm và sử dụng tài liệu nghiên cứu trên mạng là",
+      "options": [
+        "Tôn trọng bản quyền tác giả, trích dẫn rõ nguồn gốc và không sao chép văn bản (Plagiarism)",
+        "Sao chép nguyên văn và ghi tên mình",
+        "Sử dụng AI viết hộ toàn bộ không chỉnh sửa",
+        "Mua bán luận văn trên mạng"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Đạo đức nghiên cứu khoa học và nhân cách của người học.",
+      "breakdown": {
+        "concept": "Liêm chính học thuật",
+        "steps": "Trích dẫn nguồn gốc rõ ràng, không đạo văn.",
+        "socraticPrompt": "Liêm chính học thuật trong nghiên cứu đòi hỏi điều gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Thông điệp về 'Vệ sinh tinh thần số' (Digital Detox & Mental Hygiene) khuyên chúng ta",
+      "options": [
+        "Biết chọn lọc thông tin tích cực, giới hạn thời gian mạng xã hội và dành thời gian cho đời sống thực",
+        "Dành 24/24 giờ dán mắt vào màn hình",
+        "Đọc mọi tin rác giật gân để giải trí",
+        "Cách ly hoàn toàn khỏi xã hội"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Cân bằng giữa thế giới số và cuộc sống thực tại để có tâm trí khỏe mạnh.",
+      "breakdown": {
+        "concept": "Vệ sinh tinh thần số",
+        "steps": "Lọc thông tin tích cực, cân bằng đời sống thực.",
+        "socraticPrompt": "Làm sao để không bị kiệt quệ tinh thần vì mạng xã hội?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh hôm nay chuẩn bị trở thành những 'Nhà phân tích dữ liệu tương lai' thông qua việc",
+      "options": [
+        "Rèn luyện tư duy logic, học cách tổ chức cơ sở dữ liệu và vận dụng toán học vào xử lý dữ liệu",
+        "Học thuộc lòng thụ động",
+        "Tránh xa các môn khoa học tự nhiên",
+        "Không tìm hiểu công nghệ"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Dữ liệu là dầu mỏ mới của thế kỷ 21, làm chủ dữ liệu là làm chủ tương lai.",
+      "breakdown": {
+        "concept": "Tư duy phân tích dữ liệu",
+        "steps": "Tư duy logic, quản trị dữ liệu và thuật toán.",
+        "socraticPrompt": "Học sinh cần rèn luyện gì để làm chủ dữ liệu số?"
+      }
+    }
+  ]
+}

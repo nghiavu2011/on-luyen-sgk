@@ -62,12 +62,29 @@
     font-family: var(--ol-font);
 }
 
+html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
 body {
     background-color: var(--ol-bg);
     color: var(--ol-text-body);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     padding-bottom: 3rem;
+}
+
+/* Hardware-accelerated smooth transitions & rendering optimization */
+.ol-card-box, .thcs-stat-card, .thpt-stat-card, .ol-btn-primary, .ol-btn-cta, .ol-btn-outline {
+    transform: translateZ(0);
+    will-change: transform, box-shadow;
+}
+
+.ol-chapter-card, #chapter-list .ol-card-box {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 160px;
 }
 
 /* ================= TOP NAVBAR (ZERO WRAP & POLISHED) ================= */

@@ -1,16 +1,116 @@
-[
-  {
-    "id": "gdkt11_ch04_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Văn bản thoả thuận giữa người lao động và người sử dụng lao động về việc làm, quyền và nghĩa vụ hai bên được gọi là:",
-    "options": [
-      "A. Hợp đồng kinh tế",
-      "B. Hợp đồng lao động",
-      "C. Cam kết dân sự",
-      "D. Giấy giới thiệu"
-    ],
-    "answer": 1,
-    "explanation": "📌 Bộ luật Lao động: Hợp đồng lao động là cơ sở pháp lý ràng buộc quyền lợi và trách nhiệm giữa người làm công và chủ doanh nghiệp.\n💡 Bảo vệ quyền lợi hợp pháp của người lao động.\n⚠️ Khái niệm pháp lí căn bản."
-  }
-]
+{
+  "chapterId": "ch04",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 3: Thị trường lao động & Việc làm",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Thị trường mà ở đó người lao động bán sức lao động và người sử dụng lao động thuê mướn lao động được gọi là",
+      "options": [
+        "Thị trường lao động",
+        "Thị trường chứng khoán",
+        "Thị trường bất động sản",
+        "Thị trường tiền tệ"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm thị trường lao động trong kinh tế học.",
+      "breakdown": {
+        "concept": "Khái niệm Thị trường lao động",
+        "steps": "Mua bán thuê mướn sức lao động.",
+        "socraticPrompt": "Nơi tuyển dụng và tìm việc gọi là thị trường gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Văn bản thỏa thuận pháp lý giữa người lao động và người sử dụng lao động về việc làm và tiền lương là",
+      "options": [
+        "Hợp đồng lao động",
+        "Biên bản xử phạt",
+        "Sổ hộ khẩu",
+        "Hóa đơn giá trị gia tăng"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Hợp đồng lao động là cơ sở pháp lý cao nhất ràng buộc quan hệ lao động.",
+      "breakdown": {
+        "concept": "Hợp đồng lao động",
+        "steps": "Thỏa thuận việc làm có trả công.",
+        "socraticPrompt": "Văn bản ký khi đi làm gọi là gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Theo Bộ luật Lao động Việt Nam, độ tuổi lao động tối thiểu của người lao động thông thường là",
+      "options": [
+        "Đủ 15 tuổi",
+        "Đủ 18 tuổi",
+        "Đủ 21 tuổi",
+        "Đủ 12 tuổi"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Điều 135 Bộ luật Lao động 2019 quy định độ tuổi tối thiểu là đủ 15 tuổi.",
+      "breakdown": {
+        "concept": "Độ tuổi lao động tối thiểu",
+        "steps": "Đủ 15 tuổi.",
+        "socraticPrompt": "Bao nhiêu tuổi được phép ký hợp đồng lao động?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Xu hướng việc làm chủ đạo của nền kinh tế Việt Nam hiện nay là",
+      "options": [
+        "Tăng tỷ trọng ngành dịch vụ, công nghệ thông tin và kinh tế số",
+        "Tăng tỷ trọng nông nghiệp truyền thống",
+        "Xóa bỏ hoàn toàn công nghiệp",
+        "Chỉ làm việc thủ công"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Hiện đại hóa và chuyển đổi số cơ cấu kinh tế.",
+      "breakdown": {
+        "concept": "Xu hướng việc làm",
+        "steps": "Tăng ngành dịch vụ và công nghệ số.",
+        "socraticPrompt": "Ngành nào đang tăng trưởng việc làm mạnh nhất?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Ba trụ cột an sinh bảo hiểm bắt buộc mà công ty phải đóng cho người lao động gồm",
+      "options": [
+        "BHXH, BHYT, BHTN",
+        "Bảo hiểm xe máy, bảo hiểm cháy, bảo hiểm du lịch",
+        "Bảo hiểm trộm cắp, bảo hiểm điện thoại",
+        "Bảo hiểm cây trồng"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Quy định bắt buộc về bảo hiểm xã hội, y tế, thất nghiệp theo luật.",
+      "breakdown": {
+        "concept": "Bảo hiểm bắt buộc",
+        "steps": "BHXH + BHYT + BHTN.",
+        "socraticPrompt": "3 loại bảo hiểm bắt buộc khi đi làm là gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Tổ chức đại diện bảo vệ quyền và lợi ích hợp pháp chính đáng của người lao động tại cơ sở là",
+      "options": [
+        "Công đoàn cơ sở",
+        "Hội sinh vật cảnh",
+        "Câu lạc bộ dưỡng sinh",
+        "Ban quản lý chợ"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Công đoàn là tổ chức chính trị - xã hội đại diện giai cấp công nhân và người lao động.",
+      "breakdown": {
+        "concept": "Tổ chức Công đoàn",
+        "steps": "Bảo vệ quyền lợi người lao động.",
+        "socraticPrompt": "Tổ chức nào bảo vệ công nhân tại công ty?"
+      }
+    }
+  ]
+}

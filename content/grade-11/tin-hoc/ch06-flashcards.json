@@ -1,18 +1,70 @@
-[
-  {
-    "front": "Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search)?",
-    "back": "$O(\\log n)$. Yêu cầu danh sách mảng phải được sắp xếp theo thứ tự trước khi tìm.",
-    "tags": [
-      "Binary Search",
-      "Thuật toán"
-    ]
-  },
-  {
-    "front": "Hàm đệ quy (Recursion) là gì?",
-    "back": "Là hàm tự gọi lại chính nó trong quá trình thực thi, bắt buộc phải có điều kiện dừng (base case) để tránh lặp vô tận.",
-    "tags": [
-      "Đệ quy",
-      "Hàm"
-    ]
-  }
-]
+{
+  "chapterId": "ch06",
+  "title": "Flashcards Chủ đề 6: Thiết kế và tối ưu hóa Cơ sở dữ liệu",
+  "flashcards": [
+    {
+      "front": "Mô hình ERD (Entity-Relationship Diagram) là gì?",
+      "back": "Sơ đồ biểu diễn trực quan các thực thể, thuộc tính và mối quan hệ giữa chúng trong CSDL.",
+      "tags": [
+        "ERD",
+        "Thiết kế"
+      ]
+    },
+    {
+      "front": "Dạng chuẩn 1 (1NF) yêu cầu điều gì?",
+      "back": "Mỗi trường trong bảng chỉ chứa một giá trị nguyên tố (đơn trị), không chứa mảng hay tập hợp.",
+      "tags": [
+        "1NF",
+        "Chuẩn hóa"
+      ]
+    },
+    {
+      "front": "Dạng chuẩn 3 (3NF) giải quyết vấn đề gì?",
+      "back": "Loại bỏ phụ thuộc bắc cầu giữa các thuộc tính không khóa tới khóa chính.",
+      "tags": [
+        "3NF",
+        "Bắc cầu"
+      ]
+    },
+    {
+      "front": "Mục đích của việc Chuẩn hóa dữ liệu (Normalization)?",
+      "back": "Giảm thiểu dư thừa dữ liệu và tránh các lỗi bất thường khi thêm, sửa, xóa.",
+      "tags": [
+        "Normalization",
+        "Mục đích"
+      ]
+    },
+    {
+      "front": "Mối quan hệ 1 - N (Một - Nhiều) giữa Lớp học và Học sinh?",
+      "back": "Một Lớp có nhiều Học sinh, mỗi Học sinh chỉ thuộc về một Lớp duy nhất.",
+      "tags": [
+        "Quan hệ 1-N",
+        "Lớp - Học sinh"
+      ]
+    },
+    {
+      "front": "Phép nối INNER JOIN trong SQL có ý nghĩa gì?",
+      "back": "Chỉ trả về các hàng có giá trị khớp nhau ở cả hai bảng được nối.",
+      "tags": [
+        "INNER JOIN",
+        "Nối bảng"
+      ]
+    },
+    {
+      "front": "Mệnh đề GROUP BY trong SQL dùng để làm gì?",
+      "back": "Nhóm các hàng có cùng giá trị lại để thực hiện các hàm tổng hợp (COUNT, SUM, AVG...).",
+      "tags": [
+        "GROUP BY",
+        "Gom nhóm"
+      ]
+    },
+    {
+      "front": "Mệnh đề HAVING khác mệnh đề WHERE ở điểm nào?",
+      "back": "HAVING lọc điều kiện trên các hàm tổng hợp của nhóm (sau GROUP BY), WHERE lọc trên từng hàng đơn lẻ.",
+      "tags": [
+        "HAVING",
+        "WHERE"
+      ]
+    }
+  ]
+}

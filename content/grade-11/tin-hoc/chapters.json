@@ -5,217 +5,232 @@
   "chapters": [
     {
       "id": "ch01",
-      "title": "Chủ đề 1: Máy tính và xã hội tri thức",
-      "description": "Hệ điều hành máy tính và thiết bị di động; Phần mềm nguồn mở (Open Source) và phần mềm thương mại; Lưu trữ đám mây.",
+      "title": "Chủ đề 1: Máy tính và xã hội tri thức (Hệ điều hành & Phần mềm)",
+      "description": "Hệ điều hành máy tính và thiết bị di động; phần mềm nguồn đóng, phần mềm nguồn mở; lưu trữ và chia sẻ dữ liệu trên đám mây.",
+      "hasRealContent": true,
       "lessons": [
         {
           "id": "l01",
-          "title": "Bài 1: Hệ điều hành máy tính và thiết bị di động"
-        },
-        {
-          "id": "l02",
-          "title": "Bài 2: Phần mềm nguồn mở và phần mềm thương mại"
+          "title": "Bài 1 & 2: Hệ điều hành và Phần mềm ứng dụng",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch02",
-      "title": "Chủ đề 2: Mạng máy tính & An ninh mạng",
-      "description": "Giao thức TCP/IP; Địa chỉ IP và Domain; Thiết bị mạng; Các nguy cơ an ninh mạng và biện pháp phòng chống.",
+      "title": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+      "description": "Kỹ thuật tìm kiếm thông tin nâng cao; đánh giá độ tin cậy của thông tin số; khai thác và chia sẻ tài nguyên thông tin an toàn, hiệu quả.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l03",
-          "title": "Bài 3: Giao thức mạng TCP/IP và hệ thống tên miền DNS"
-        },
-        {
-          "id": "l04",
-          "title": "Bài 4: An toàn và an ninh thông tin trong môi trường mạng"
+          "id": "l01",
+          "title": "Bài 3 & 4: Tìm kiếm & Đánh giá thông tin trên Internet",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch03",
-      "title": "Chủ đề 3: Đạo đức & Pháp luật môi trường số",
-      "description": "Luật An ninh mạng; Quyền tác giả và giấy phép Creative Commons; Ứng xử chuẩn mực trên không gian mạng.",
+      "title": "Chủ đề 3: Đạo đức, pháp luật và văn hóa trong môi trường số",
+      "description": "Bản quyền phần mềm và sở hữu trí tuệ số; Luật An ninh mạng; bảo vệ dữ liệu cá nhân; văn hóa ứng xử và trách nhiệm trong môi trường số.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l05",
-          "title": "Bài 5: Đạo đức, pháp luật và văn hoá trong môi trường số"
+          "id": "l01",
+          "title": "Bài 5 & 6: Văn hóa và Pháp luật trong không gian mạng",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch04",
-      "title": "Chủ đề 4: Cơ sở dữ liệu (CSDL) quan hệ",
-      "description": "Khái niệm CSDL và Hệ QT CSDL; Mô hình dữ liệu quan hệ; Bảng, khoá chính (Primary Key), khoá ngoại (Foreign Key).",
+      "title": "Chủ đề 4: Mạng máy tính và Internet",
+      "description": "Kiến trúc mạng máy tính, mô hình client-server; bộ giao thức TCP/IP; địa chỉ IP và Subnet; các thiết bị mạng; dịch vụ Internet và vạn vật kết nối IoT.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l06",
-          "title": "Bài 6: Khái niệm Cơ sở dữ liệu và Hệ quản trị CSDL"
-        },
-        {
-          "id": "l07",
-          "title": "Bài 7: Mô hình CSDL quan hệ, bảng, khoá chính và khoá ngoại"
+          "id": "l01",
+          "title": "Bài 7 & 8: Giao thức mạng và Thiết bị kết nối",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch05",
-      "title": "Chủ đề 5: Ngôn ngữ truy vấn dữ liệu SQL",
-      "description": "Lệnh truy vấn SELECT, lọc dữ liệu WHERE, sắp xếp ORDER BY, nhóm GROUP BY; Các lệnh thêm, sửa, xoá (INSERT, UPDATE, DELETE).",
+      "title": "Chủ đề 5: Hệ cơ sở dữ liệu quan hệ & Ngôn ngữ SQL",
+      "description": "Khái niệm CSDL và Hệ quản trị CSDL (DBMS); mô hình dữ liệu quan hệ, bảng, bản ghi, trường, khóa chính (Primary Key), khóa ngoại (Foreign Key); ngôn ngữ truy vấn SQL căn bản.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l08",
-          "title": "Bài 8: Ngôn ngữ SQL và câu lệnh SELECT trích xuất dữ liệu"
-        },
-        {
-          "id": "l09",
-          "title": "Bài 9: Các thao tác cập nhật dữ liệu với INSERT, UPDATE, DELETE"
+          "id": "l01",
+          "title": "Bài 9 & 10: Cơ sở dữ liệu quan hệ & Truy vấn SQL",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch06",
-      "title": "Chủ đề 6: Lập trình và Giải quyết bài toán",
-      "description": "Kỹ thuật lập trình mảng, hàm, đệ quy, xâu kí tự và giải thuật sắp xếp, tìm kiếm (Python/C++).",
+      "title": "Chủ đề 6: Thiết kế và tối ưu hóa Cơ sở dữ liệu",
+      "description": "Quy trình thiết kế CSDL; lược đồ thực thể - liên kết (ERD); chuẩn hóa dữ liệu (1NF, 2NF, 3NF); liên kết bảng JOIN và tạo biểu mẫu báo cáo.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l10",
-          "title": "Bài 10: Xử lí xâu kí tự và danh sách trong ngôn ngữ lập trình bậc cao"
-        },
-        {
-          "id": "l11",
-          "title": "Bài 11: Thuật toán tìm kiếm nhị phân và sắp xếp"
+          "id": "l01",
+          "title": "Bài 11 & 12: Thiết kế lược đồ và Chuẩn hóa CSDL",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     },
     {
       "id": "ch07",
-      "title": "Chủ đề 7: Nghề nghiệp trong lĩnh vực Tin học",
-      "description": "Các nhóm ngành nghề CNTT (Lập trình viên, Chuyên gia an ninh mạng, Kĩ sư dữ liệu, Trí tuệ nhân tạo).",
+      "title": "Chủ đề 7: Hướng nghiệp với Tin học & Trí tuệ nhân tạo (AI)",
+      "description": "Các ngành nghề trong lĩnh vực CNTT; xu hướng phát triển của Trí tuệ nhân tạo (AI), Học máy (Machine Learning) và Khoa học dữ liệu; định hướng nghề nghiệp tương lai cho học sinh.",
+      "hasRealContent": true,
       "lessons": [
         {
-          "id": "l12",
-          "title": "Bài 12: Xu hướng phát triển và các ngành nghề trong lĩnh vực công nghệ thông tin"
+          "id": "l01",
+          "title": "Bài 13 & 14: Nghề nghiệp CNTT và Xu hướng Trí tuệ nhân tạo",
+          "hasRealContent": true
         }
       ],
       "quizzes": [
         {
           "id": "de1",
-          "title": "📖 Đề 1: Khái niệm & Nhận biết",
-          "questionCount": 1
+          "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+          "badge": "Nhận biết",
+          "questionCount": 6
         },
         {
           "id": "de2",
-          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
-          "questionCount": 1
+          "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+          "badge": "Kỹ năng",
+          "questionCount": 6
         },
         {
           "id": "tonghop",
           "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
-          "questionCount": 1
+          "badge": "Vận dụng",
+          "questionCount": 6
         }
       ]
     }

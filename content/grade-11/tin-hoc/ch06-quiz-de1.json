@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Điều kiện tiên quyết để có thể áp dụng thuật toán tìm kiếm nhị phân trên một mảng là:",
-    "options": [
-      "A. Mảng có số phần tử là số chẵn",
-      "B. Các phần tử trong mảng đã được sắp xếp theo thứ tự tăng hoặc giảm",
-      "C. Mảng chỉ chứa các số nguyên dương",
-      "D. Mảng có độ dài dưới 10 phần tử"
-    ],
-    "answer": 1,
-    "explanation": "📌 Nguyên lí tìm kiếm nhị phân: Mảng phải được sắp xếp để mỗi lần so sánh có thể loại bỏ được một nửa số phần tử còn lại.\n💡 Nếu mảng lộn xộn phải dùng tìm kiếm tuần tự $O(n)$.\n⚠️ Thuật toán tìm kiếm kinh điển."
-  }
-]
+{
+  "chapterId": "ch06",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 6: Thiết kế và tối ưu hóa Cơ sở dữ liệu",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Sơ đồ trực quan biểu diễn các thực thể và mối liên kết giữa chúng trong thiết kế CSDL gọi là",
+      "options": [
+        "Lược đồ ERD (Entity-Relationship Diagram)",
+        "Biểu đồ tròn",
+        "Sơ đồ mạch điện",
+        "Bản đồ tư duy"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm lược đồ ERD trong thiết kế hệ thống CSDL.",
+      "breakdown": {
+        "concept": "Lược đồ ERD",
+        "steps": "Biểu diễn thực thể và mối quan hệ.",
+        "socraticPrompt": "Sơ đồ thiết kế CSDL gọi là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Quá trình phân tích và tổ chức lại các bảng để giảm dư thừa dữ liệu và tránh lỗi bất thường được gọi là",
+      "options": [
+        "Chuẩn hóa dữ liệu (Data Normalization)",
+        "Nén dữ liệu",
+        "Mã hóa dữ liệu",
+        "Xóa dữ liệu"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Chuẩn hóa dữ liệu.",
+      "breakdown": {
+        "concept": "Chuẩn hóa dữ liệu",
+        "steps": "Giảm dư thừa, tối ưu hóa bảng.",
+        "socraticPrompt": "Quá trình tối ưu hóa bảng CSDL gọi là gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Dạng chuẩn nào yêu cầu tất cả các thuộc tính của bảng đều phải có giá trị nguyên tố (đơn trị)?",
+      "options": [
+        "Dạng chuẩn 1 (1NF)",
+        "Dạng chuẩn 2 (2NF)",
+        "Dạng chuẩn 3 (3NF)",
+        "Dạng chuẩn Boyce-Codd"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "1NF (First Normal Form) đòi hỏi giá trị đơn nhất (Atomic).",
+      "breakdown": {
+        "concept": "Dạng chuẩn 1NF",
+        "steps": "Giá trị nguyên tố đơn trị.",
+        "socraticPrompt": "Dạng chuẩn 1NF yêu cầu gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Phép nối bảng trong SQL chỉ lấy các bản ghi thỏa mãn điều kiện khớp ở cả 2 bảng là",
+      "options": [
+        "INNER JOIN",
+        "OUTER JOIN",
+        "CROSS JOIN",
+        "FULL JOIN"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "INNER JOIN là phép nối trong phổ biến nhất.",
+      "breakdown": {
+        "concept": "Phép nối INNER JOIN",
+        "steps": "Khớp dữ liệu ở cả 2 bảng.",
+        "socraticPrompt": "Phép nối lấy dữ liệu chung giữa 2 bảng là gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Mối quan hệ giữa bảng `Khoa` và bảng `SinhVien` trong trường đại học là mối quan hệ loại",
+      "options": [
+        "Một - Nhiều (1 - N)",
+        "Một - Một (1 - 1)",
+        "Nhiều - Nhiều (N - N)",
+        "Không có quan hệ"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Một khoa có nhiều sinh viên, mỗi sinh viên thuộc một khoa duy nhất.",
+      "breakdown": {
+        "concept": "Quan hệ 1 - N",
+        "steps": "Một Khoa có nhiều Sinh viên.",
+        "socraticPrompt": "Quan hệ Khoa và Sinh viên là loại gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Hàm tổng hợp SQL dùng để tính giá trị trung bình của một cột số là",
+      "options": [
+        "AVG()",
+        "SUM()",
+        "COUNT()",
+        "TOTAL()"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Hàm AVG() tính trung bình cộng (Average).",
+      "breakdown": {
+        "concept": "Hàm AVG SQL",
+        "steps": "AVG() tính điểm trung bình.",
+        "socraticPrompt": "Hàm tính trung bình trong SQL là gì?"
+      }
+    }
+  ]
+}

@@ -178,19 +178,44 @@ console.log(
     "color: #334155; font-size: 11px;"
 );
 
-// 4. Universal Content Fetcher (Works seamlessly in all deployment environments)
+// 4. Universal Content Fetcher with high-speed in-memory & working-path caching
+const _smartFetchCache = new Map();
+let _smartBasePrefix = null;
+
 async function smartFetch(path) {
     const clean = path.replace(/^(\.\.\/|\.\/)/, '');
-    const candidates = [
-        clean,
-        `./${clean}`,
-        `../${clean}`,
-        `/${clean}`
-    ];
-    for (const url of candidates) {
+    
+    // 1. Instantaneous in-memory cache hit
+    if (_smartFetchCache.has(clean)) {
+        const cachedData = _smartFetchCache.get(clean);
+        return new Response(JSON.stringify(cachedData), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' }
+        });
+    }
+
+    // 2. Candidates prioritizing learned prefix
+    const prefixes = _smartBasePrefix !== null 
+        ? [_smartBasePrefix, '', './', '../', '/'] 
+        : ['', './', '../', '/'];
+        
+    const uniqueCandidates = [...new Set(prefixes.map(p => p ? `${p}${clean}` : clean))];
+
+    for (const url of uniqueCandidates) {
         try {
             const res = await fetch(url);
-            if (res.ok) return res;
+            if (res.ok) {
+                const prefix = url.substring(0, url.length - clean.length);
+                _smartBasePrefix = prefix;
+                
+                try {
+                    const cloned = res.clone();
+                    const data = await cloned.json();
+                    _smartFetchCache.set(clean, data);
+                } catch (e) {}
+                
+                return res;
+            }
         } catch (e) {}
     }
     return fetch(path);

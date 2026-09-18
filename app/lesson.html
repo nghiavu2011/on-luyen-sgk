@@ -253,16 +253,16 @@
             </div>
         </div>
 
-        <!-- 3 TAB CHẾ ĐỘ THEO CHIẾC ĐIỆN THOẠI MOCKUP THCS.PNG -->
+        <!-- 3 TAB CHẾ ĐỘ -->
         <div class="thcs-mode-tabs">
-            <button class="thcs-mode-tab active" onclick="switchThcsTab('lesson')">
+            <button class="thcs-mode-tab active" id="tab-btn-lesson" onclick="switchThcsTab('lesson')">
                 <span>📖</span> <span>Bài học</span>
             </button>
-            <button class="thcs-mode-tab" id="practice-tab-btn" onclick="goToPractice()">
+            <button class="thcs-mode-tab" id="tab-btn-quiz" onclick="goToPractice()">
                 <span>✍️</span> <span>Luyện tập</span>
             </button>
-            <button class="thcs-mode-tab" onclick="switchThcsTab('notes')">
-                <span>📝</span> <span>Ghi chú</span>
+            <button class="thcs-mode-tab" id="tab-btn-flashcard" onclick="goToFlashcards()">
+                <span>🎴</span> <span>Thẻ ghi nhớ</span>
             </button>
         </div>
 
@@ -293,14 +293,19 @@
                 </div>
 
                 <!-- CTA Next Practice Button -->
-                <div class="ol-card-box" style="margin-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+                <div class="ol-card-box" style="margin-top: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
                     <button class="ol-btn-outline" onclick="history.back()">⬅ Quay lại</button>
                     <button id="btn-mark-read" class="ol-btn-primary" onclick="markAsRead()" style="background: #059669; font-size: 0.9rem;">
                         Đánh dấu đã đọc
                     </button>
-                    <a id="practice-link-bottom" href="#" class="ol-btn-cta" style="background: #0284c7; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3); text-decoration: none;">
-                        Làm bài luyện tập ➔
-                    </a>
+                    <div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+                        <a id="flashcard-link-bottom" href="#" class="ol-btn-outline" style="border-color: #0284c7; color: #0284c7; text-decoration: none; font-weight: 700; font-size: 0.9rem;">
+                            🎴 Thẻ ghi nhớ
+                        </a>
+                        <a id="practice-link-bottom" href="#" class="ol-btn-cta" style="background: #0284c7; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3); text-decoration: none;">
+                            Làm bài luyện tập ➔
+                        </a>
+                    </div>
                 </div>
 
             </div>
@@ -441,10 +446,13 @@
             if (phoneSubEl) phoneSubEl.textContent = `${subName} – Lớp ${grade}`;
 
             const practiceUrl = `quiz.html?grade=${grade}&subject=${subject}&chapter=${chapter}`;
+            const flashcardUrl = `flashcard.html?grade=${grade}&subject=${subject}&chapter=${chapter}`;
             const topPracEl = document.getElementById('practice-link-top');
             if (topPracEl) topPracEl.href = practiceUrl;
             const btmPracEl = document.getElementById('practice-link-bottom');
             if (btmPracEl) btmPracEl.href = practiceUrl;
+            const btmFcEl = document.getElementById('flashcard-link-bottom');
+            if (btmFcEl) btmFcEl.href = flashcardUrl;
             const ctaPracEl = document.getElementById('practice-link-cta');
             if (ctaPracEl) ctaPracEl.href = practiceUrl;
 
@@ -734,8 +742,25 @@
             window.location.href = `quiz.html?grade=${g}&subject=${s}&chapter=${c}`;
         }
 
+        function goToFlashcards() {
+            const g = params.grade || '06';
+            const s = params.subject || 'toan';
+            const c = params.chapter || 'ch01';
+            window.location.href = `flashcard.html?grade=${g}&subject=${s}&chapter=${c}`;
+        }
+
+        function setMode(mode) {
+            if (mode === 'quiz' || mode === 'practice') goToPractice();
+            else if (mode === 'flashcard' || mode === 'card') goToFlashcards();
+            else if (mode === 'lesson') switchThcsTab('lesson');
+        }
+
         function switchThcsTab(tab) {
-            // Tab chuyển đổi nội dung
+            if (tab === 'quiz' || tab === 'practice') {
+                goToPractice();
+            } else if (tab === 'flashcard' || tab === 'flashcards') {
+                goToFlashcards();
+            }
         }
 
         function renderKaTeX() {

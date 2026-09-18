@@ -1,16 +1,116 @@
-[
-  {
-    "id": "gdkt11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Khi sản lượng nông sản được mùa thu hoạch ồ ạt dẫn đến Cung vượt quá xa Cầu của thị trường thì giá cả nông sản thường có xu hướng:",
-    "options": [
-      "A. Tăng vọt lên rất cao",
-      "B. Giảm xuống",
-      "C. Không thay đổi",
-      "D. Bị biến mất"
-    ],
-    "answer": 1,
-    "explanation": "📌 Quy luật cung - cầu: Khi lượng cung thừa thãi vượt nhu cầu thì người bán phải hạ giá để kích thích sức mua.\n💡 Hiện tượng 'được mùa mất giá'.\n⚠️ Bài học kinh tế thị trường thực tiễn."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 1: Cung, cầu trong nền kinh tế thị trường",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Khối lượng hàng hóa, dịch vụ mà người mua có khả năng và sẵn sàng mua ở các mức giá khác nhau được gọi là",
+      "options": [
+        "Cầu",
+        "Cung",
+        "Lạm phát",
+        "Thuế"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Cầu trong kinh tế học.",
+      "breakdown": {
+        "concept": "Khái niệm Cầu",
+        "steps": "Khả năng và sẵn sàng mua.",
+        "socraticPrompt": "Khái niệm cầu là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khi lượng cung lớn hơn lượng cầu trên thị trường, giá cả hàng hóa thường có xu hướng",
+      "options": [
+        "Giảm xuống",
+        "Tăng vọt",
+        "Không đổi",
+        "Bằng 0"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Cung vượt cầu dẫn đến dư thừa, người bán phải giảm giá để xả hàng.",
+      "breakdown": {
+        "concept": "Cung > Cầu",
+        "steps": "Giá giảm.",
+        "socraticPrompt": "Cung nhiều hơn cầu thì giá thế nào?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Khối lượng hàng hóa, dịch vụ mà các nhà sản xuất sẵn sàng cung cấp ra thị trường ở các mức giá gọi là",
+      "options": [
+        "Cung",
+        "Cầu",
+        "Doanh thu",
+        "Chi phí"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Cung trong kinh tế học.",
+      "breakdown": {
+        "concept": "Khái niệm Cung",
+        "steps": "Sẵn sàng cung cấp ra thị trường.",
+        "socraticPrompt": "Khái niệm cung là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Khi giá cả của một mặt hàng tăng cao, các nhà sản xuất thường có phản ứng",
+      "options": [
+        "Mở rộng quy mô sản xuất để tăng lượng cung",
+        "Ngừng sản xuất hoàn toàn",
+        "Tiêu hủy hàng hóa",
+        "Bán lỗ vốn"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Giá cao đem lại lợi nhuận biên lớn, kích thích mở rộng sản xuất.",
+      "breakdown": {
+        "concept": "Quy luật cung",
+        "steps": "Giá tăng -> Cung tăng.",
+        "socraticPrompt": "Giá tăng thì người bán làm gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Điểm gặp nhau giữa đường Cung và đường Cầu trên đồ thị kinh tế xác định",
+      "options": [
+        "Giá cả cân bằng và sản lượng cân bằng",
+        "Mức lạm phát tối đa",
+        "Chi phí sản xuất tối thiểu",
+        "Số tiền đóng thuế"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Giao điểm cung cầu là trạng thái cân bằng thị trường.",
+      "breakdown": {
+        "concept": "Cân bằng thị trường",
+        "steps": "Giá và sản lượng cân bằng.",
+        "socraticPrompt": "Giao điểm cung cầu là gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Yếu tố nào sau đây KHÔNG ảnh hưởng trực tiếp đến Cầu của người tiêu dùng?",
+      "options": [
+        "Thời tiết và mùa vụ",
+        "Thu nhập của người tiêu dùng",
+        "Giá cả hàng hóa thay thế",
+        "Màu sơn của trụ sở bộ Tài chính"
+      ],
+      "correct": 3,
+      "difficulty": "easy",
+      "explanation": "Màu sơn trụ sở không liên quan đến hành vi mua sắm của người dân.",
+      "breakdown": {
+        "concept": "Nhân tố ảnh hưởng Cầu",
+        "steps": "Thu nhập, giá cả, thị hiếu.",
+        "socraticPrompt": "Yếu tố nào không ảnh hưởng cầu?"
+      }
+    }
+  ]
+}

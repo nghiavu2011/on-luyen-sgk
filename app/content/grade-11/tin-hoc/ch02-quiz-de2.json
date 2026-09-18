@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dịch vụ mạng có nhiệm vụ chuyển đổi tên miền dạng chữ (ví dụ: dantri.com.vn) sang địa chỉ số IP tương ứng là:",
-    "options": [
-      "A. FTP",
-      "B. DNS",
-      "C. DHCP",
-      "D. SMTP"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm mạng: DNS = Domain Name System (Hệ thống phân giải tên miền).\n💡 Giống như danh bạ điện thoại tra số từ tên người.\n⚠️ Giao thức cốt lõi của Internet."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "✍️ Đề 2: Kỹ năng & Vận dụng Thực tế",
+  "chapterTitle": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Bạn Hùng muốn tìm bài báo khoa học về 'Biến đổi khí hậu' nhưng KHÔNG muốn kết quả chứa từ 'du lịch'. Cú pháp đúng là",
+      "options": [
+        "\"Biến đổi khí hậu\" -\"du lịch\"",
+        "\"Biến đổi khí hậu\" + \"du lịch\"",
+        "Biến đổi khí hậu NOT du lịch",
+        "Biến đổi khí hậu without du lịch"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Toán tử trừ (-) loại bỏ các kết quả chứa từ khóa phía sau.",
+      "breakdown": {
+        "concept": "Toán tử loại trừ",
+        "steps": "\"Biến đổi khí hậu\" -\"du lịch\".",
+        "socraticPrompt": "Muốn tìm A mà bỏ B thì gõ thế nào?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khi đọc được tin giật gân 'Ngày mai toàn quốc được nghỉ học vì bão lớn' trên một fanpage lạ không có dấu tick xanh, bạn cần",
+      "options": [
+        "Vào trang web của Bộ GD&ĐT hoặc Cổng thông tin Chính phủ để kiểm chứng sự thật",
+        "Chia sẻ ngay lên trang cá nhân và thông báo cho cả lớp",
+        "Nghỉ học ngay lập tức",
+        "Chửi bới trên mạng"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Kiểm chứng thông tin từ cơ quan chính thống trước khi tin tưởng.",
+      "breakdown": {
+        "concept": "Xác minh thông tin giả mạo",
+        "steps": "Kiểm chứng trên báo chí chính thống.",
+        "socraticPrompt": "Đọc tin giật gân trên mạng xã hội thì làm gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để tổ chức cây thư mục lưu trữ bài học lớp 11 trên máy tính một cách ngăn nắp, cách phân chia tối ưu nhất là",
+      "options": [
+        "Thư mục 'Lop11' -> Thư mục con từng Môn học -> Thư mục con từng Học kỳ/Chương",
+        "Lưu tất cả vào thư mục Download",
+        "Lưu lẫn lộn ngoài màn hình Desktop",
+        "Mỗi bài tạo một thư mục ngoài ổ C:"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cấu trúc thư mục phân cấp rõ ràng theo năm học và môn học.",
+      "breakdown": {
+        "concept": "Tổ chức thư mục khoa học",
+        "steps": "Phân cấp: Năm học -> Môn -> Chương.",
+        "socraticPrompt": "Cách sắp xếp tài liệu học tập trong máy tính tối ưu?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Khi nhận được một video cuộc gọi từ người thân nhờ chuyển tiền gấp nhưng giọng nói ngắt quãng, hình ảnh mờ giật bất thường, bạn nên",
+      "options": [
+        "Gọi điện thoại trực tiếp qua số viễn thông truyền thống để xác nhận người thân",
+        "Chuyển tiền ngay lập tức vì sợ người thân gặp nạn",
+        "Vay mượn thêm tiền gửi cho đối tượng",
+        "Chuyển mã OTP ngân hàng cho họ"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Cảnh giác với thủ đoạn lừa đảo Deepfake công nghệ cao giả mạo người thân.",
+      "breakdown": {
+        "concept": "Phòng chống lừa đảo Deepfake",
+        "steps": "Gọi điện thoại thông thường xác thực trực tiếp.",
+        "socraticPrompt": "Thấy video người thân gọi mượn tiền lạ thì làm gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Để tìm kiếm các bài viết có tiêu đề chứa chính xác chữ 'Lịch sử lớp 11' trên Google, ta dùng cú pháp",
+      "options": [
+        "intitle:\"Lịch sử lớp 11\"",
+        "title=\"Lịch sử lớp 11\"",
+        "inbody:\"Lịch sử lớp 11\"",
+        "allinurl:\"Lịch sử lớp 11\""
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Toán tử `intitle:` lọc các trang có từ khóa nằm trong tiêu đề bài viết.",
+      "breakdown": {
+        "concept": "Toán tử intitle",
+        "steps": "intitle:\"từ khóa\".",
+        "socraticPrompt": "Toán tử tìm trong tiêu đề bài viết là gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh sử dụng công cụ tìm kiếm phục vụ học tập một cách thông minh bằng cách",
+      "options": [
+        "Sử dụng toán tử tìm kiếm, tổng hợp từ nhiều nguồn uy tín và ghi rõ trích dẫn tác giả",
+        "Chép nguyên văn trang đầu tiên dán vào bài nộp",
+        "Chỉ tìm kiếm trên TikTok",
+        "Không kiểm tra nội dung"
+      ],
+      "correct": 0,
+      "difficulty": "medium",
+      "explanation": "Kỹ năng tra cứu, tổng hợp và tôn trọng liêm chính học thuật.",
+      "breakdown": {
+        "concept": "Khai thác thông tin học thuật",
+        "steps": "Tìm kiếm nâng cao, kiểm chứng và trích dẫn.",
+        "socraticPrompt": "Tra cứu tài liệu làm bài tập như thế nào cho chuẩn?"
+      }
+    }
+  ]
+}

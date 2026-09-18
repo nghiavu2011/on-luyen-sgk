@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở phổ biến trên thiết bị di động thông minh?",
-    "options": [
-      "A. iOS",
-      "B. Windows 11",
-      "C. Android",
-      "D. macOS"
-    ],
-    "answer": 2,
-    "explanation": "📌 Mã nguồn mở: Android (phát triển dựa trên nhân Linux) là hệ điều hành nguồn mở phổ biến nhất trên smartphone.\n💡 iOS và Windows là phần mềm thương mại đóng mã nguồn.\n⚠️ Phân biệt nguồn mở và mã nguồn đóng."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 1: Máy tính và xã hội tri thức (Hệ điều hành & Phần mềm)",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Phần mềm hệ thống giữ vai trò quản lý tài nguyên phần cứng và cung cấp môi trường chạy cho các ứng dụng là",
+      "options": [
+        "Hệ điều hành (Operating System)",
+        "Trình duyệt Web",
+        "Phần mềm bảng tính Excel",
+        "Trình phát video"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Hệ điều hành cơ bản.",
+      "breakdown": {
+        "concept": "Hệ điều hành",
+        "steps": "Quản lý phần cứng và ứng dụng.",
+        "socraticPrompt": "Phần mềm quản lý phần cứng máy tính là gì?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở?",
+      "options": [
+        "Linux Ubuntu",
+        "Microsoft Windows 11",
+        "Apple macOS",
+        "Apple iOS"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Linux là đại diện tiêu biểu của phần mềm mã nguồn mở.",
+      "breakdown": {
+        "concept": "Hệ điều hành nguồn mở",
+        "steps": "Linux Ubuntu là mã nguồn mở.",
+        "socraticPrompt": "Hệ điều hành nào là nguồn mở?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Phần mềm mà người dùng được phép xem mã nguồn, tự do chỉnh sửa và phát triển tiếp được gọi là",
+      "options": [
+        "Phần mềm nguồn mở (Open Source)",
+        "Phần mềm thương mại đóng gói",
+        "Phần mềm độc hại (Malware)",
+        "Phần mềm gián điệp"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Open Source Software.",
+      "breakdown": {
+        "concept": "Phần mềm nguồn mở",
+        "steps": "Được xem và sửa mã nguồn.",
+        "socraticPrompt": "Phần mềm cho phép xem sửa mã nguồn gọi là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Hệ điều hành dành cho thiết bị di động thông minh phổ biến nhất hiện nay là",
+      "options": [
+        "Android và iOS",
+        "MS-DOS và CP/M",
+        "Windows 95",
+        "UNIX System V"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Android và iOS thống trị thị trường smartphone.",
+      "breakdown": {
+        "concept": "HĐH di động",
+        "steps": "Android và iOS.",
+        "socraticPrompt": "Hai hệ điều hành điện thoại phổ biến là gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Dịch vụ cho phép lưu trữ tệp và chia sẻ tài liệu qua mạng Internet được gọi là",
+      "options": [
+        "Lưu trữ đám mây (Cloud Storage)",
+        "Bộ nhớ ROM",
+        "Bộ nhớ đệm Cache",
+        "Thẻ SIM điện thoại"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Dịch vụ đám mây như Google Drive, OneDrive, Dropbox.",
+      "breakdown": {
+        "concept": "Lưu trữ đám mây",
+        "steps": "Lưu trữ trên Internet.",
+        "socraticPrompt": "Lưu trữ dữ liệu trên mạng gọi là gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Giao diện dòng lệnh mà người dùng gõ câu lệnh để điều khiển máy tính được viết tắt là",
+      "options": [
+        "CLI (Command Line Interface)",
+        "GUI (Graphical User Interface)",
+        "VUI (Voice User Interface)",
+        "API (Application Programming Interface)"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "CLI là giao diện dòng lệnh truyền thống (Terminal / Command Prompt).",
+      "breakdown": {
+        "concept": "Giao diện dòng lệnh",
+        "steps": "CLI (Command Line Interface).",
+        "socraticPrompt": "Giao diện gõ lệnh viết tắt là gì?"
+      }
+    }
+  ]
+}

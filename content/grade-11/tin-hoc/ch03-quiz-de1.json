@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch03_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hành vi nào sau đây vi phạm nghiêm trọng Luật An ninh mạng?",
-    "options": [
-      "A. Đăng tải bài giảng học tập lên website trường",
-      "B. Tung tin đồn thất thiệt gây hoang mang dư luận để câu view câu like",
-      "C. Sử dụng mật khẩu 2 lớp bảo vệ tài khoản",
-      "D. Học lập trình trực tuyến"
-    ],
-    "answer": 1,
-    "explanation": "📌 Pháp luật số: Đưa tin sai sự thật bị xử phạt hành chính hoặc truy cứu trách nhiệm hình sự theo Luật An ninh mạng.\n💡 Môi trường ảo nhưng chế tài xử phạt là thật.\n⚠️ Trách nhiệm của mỗi công dân mạng."
-  }
-]
+{
+  "chapterId": "ch03",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 3: Đạo đức, pháp luật và văn hóa trong môi trường số",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Văn bản luật cao nhất của Việt Nam quy định về việc bảo vệ an toàn thông tin và phòng chống tội phạm trên không gian mạng là",
+      "options": [
+        "Luật An ninh mạng năm 2018",
+        "Luật Du lịch",
+        "Luật Khoáng sản",
+        "Luật Xây dựng"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Luật An ninh mạng được Quốc hội thông qua năm 2018.",
+      "breakdown": {
+        "concept": "Luật An ninh mạng",
+        "steps": "Luật An ninh mạng 2018.",
+        "socraticPrompt": "Luật nào quy định an ninh không gian mạng?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Hành vi sử dụng phần mềm bẻ khóa (crack) không trả tiền bản quyền là vi phạm",
+      "options": [
+        "Luật Sở hữu trí tuệ",
+        "Luật Nghĩa vụ quân sự",
+        "Luật Hôn nhân gia đình",
+        "Luật Đất đai"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Xâm phạm quyền tác giả đối với chương trình máy tính.",
+      "breakdown": {
+        "concept": "Bản quyền phần mềm",
+        "steps": "Vi phạm Luật Sở hữu trí tuệ.",
+        "socraticPrompt": "Dùng phần mềm crack là vi phạm luật gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Phương thức bảo mật yêu cầu người dùng nhập thêm mã OTP gửi về điện thoại sau khi gõ mật khẩu được gọi là",
+      "options": [
+        "Xác thực 2 yếu tố (2FA)",
+        "Mã hóa một chiều",
+        "Đăng nhập một lần (SSO)",
+        "Tường lửa phần cứng"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm Two-Factor Authentication (2FA).",
+      "breakdown": {
+        "concept": "Xác thực 2 yếu tố 2FA",
+        "steps": "Mật khẩu + Mã OTP điện thoại.",
+        "socraticPrompt": "Bảo mật bằng mật khẩu và mã OTP gọi là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Hình thức lừa đảo gửi email hoặc tin nhắn giả mạo ngân hàng nhằm đánh cắp mật khẩu tài khoản gọi là",
+      "options": [
+        "Tấn công Phishing (Lừa đảo mạo danh)",
+        "Tấn công từ chối dịch vụ (DDoS)",
+        "Quét cổng mạng (Port Scanning)",
+        "Nhiễm virus Macro"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Phishing là thủ đoạn lừa đảo giả mạo đường link phổ biến.",
+      "breakdown": {
+        "concept": "Tấn công Phishing",
+        "steps": "Giả mạo ngân hàng đánh cắp thông tin.",
+        "socraticPrompt": "Lừa đảo gửi link ngân hàng giả gọi là gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Dữ liệu nào sau đây thuộc nhóm 'Dữ liệu cá nhân cơ bản' cần được bảo vệ cẩn mật?",
+      "options": [
+        "Họ tên, ngày sinh, số CCCD, số điện thoại, tài khoản ngân hàng",
+        "Tên thủ đô của các nước",
+        "Bảng cửu chương toán học",
+        "Màu sắc của lá cây"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Dữ liệu cá nhân gắn liền với danh tính công dân.",
+      "breakdown": {
+        "concept": "Dữ liệu cá nhân",
+        "steps": "Số CCCD, số điện thoại, tài khoản ngân hàng.",
+        "socraticPrompt": "Thông tin nào là dữ liệu cá nhân?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Hành vi sử dụng mạng xã hội để thóa mạ, lan truyền hình ảnh nhạy cảm bôi nhọ danh dự bạn học được gọi là",
+      "options": [
+        "Bạo lực mạng (Cyberbullying)",
+        "Giao lưu văn hóa",
+        "Trò chơi giải trí",
+        "Kỹ năng phản biện"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Bạo lực mạng gây tổn thương tâm lý nghiêm trọng cho nạn nhân.",
+      "breakdown": {
+        "concept": "Bạo lực mạng Cyberbullying",
+        "steps": "Xúc phạm bôi nhọ người khác trên mạng.",
+        "socraticPrompt": "Bắt nạt chửi bới bạn trên mạng gọi là gì?"
+      }
+    }
+  ]
+}

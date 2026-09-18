@@ -1,26 +1,70 @@
-[
-  {
-    "front": "Cấu trúc cơ bản của câu lệnh truy vấn SELECT trong SQL?",
-    "back": "SELECT [các cột] FROM [tên bảng] WHERE [điều kiện] ORDER BY [cột sắp xếp];",
-    "tags": [
-      "SQL",
-      "SELECT"
-    ]
-  },
-  {
-    "front": "Mệnh đề WHERE trong SQL dùng để làm gì?",
-    "back": "Lọc các hàng bản ghi thoả mãn một điều kiện xác định.",
-    "tags": [
-      "WHERE",
-      "Lọc dữ liệu"
-    ]
-  },
-  {
-    "front": "Lệnh UPDATE trong SQL dùng để làm gì?",
-    "back": "Cập nhật thay đổi giá trị của các trường dữ liệu đang có trong bảng: UPDATE [bảng] SET [cột=giá trị mới] WHERE [điều kiện];",
-    "tags": [
-      "UPDATE",
-      "Cập nhật"
-    ]
-  }
-]
+{
+  "chapterId": "ch05",
+  "title": "Flashcards Chủ đề 5: Hệ cơ sở dữ liệu quan hệ & Ngôn ngữ SQL",
+  "flashcards": [
+    {
+      "front": "Cơ sở dữ liệu (Database) là gì?",
+      "back": "Tập hợp các dữ liệu có cấu trúc, có liên quan với nhau được lưu trữ trên máy tính.",
+      "tags": [
+        "CSDL",
+        "Khái niệm"
+      ]
+    },
+    {
+      "front": "Hệ quản trị CSDL (DBMS) là gì?",
+      "back": "Phần mềm cung cấp môi trường tạo lập, lưu trữ, cập nhật và khai thác CSDL (vd: MySQL, SQL Server).",
+      "tags": [
+        "DBMS",
+        "Hệ quản trị"
+      ]
+    },
+    {
+      "front": "Khóa chính (Primary Key) có đặc điểm bắt buộc nào?",
+      "back": "Giá trị duy nhất (Unique) xác định mỗi bản ghi và không được để trống (NOT NULL).",
+      "tags": [
+        "Khóa chính",
+        "Primary Key"
+      ]
+    },
+    {
+      "front": "Khóa ngoại (Foreign Key) dùng để làm gì?",
+      "back": "Tạo mối liên kết tham chiếu giữa bảng con tới khóa chính của bảng cha.",
+      "tags": [
+        "Khóa ngoại",
+        "Liên kết bảng"
+      ]
+    },
+    {
+      "front": "Từ khóa SQL dùng để trích xuất dữ liệu từ bảng?",
+      "back": "SELECT ... FROM ... WHERE ...",
+      "tags": [
+        "SQL",
+        "SELECT"
+      ]
+    },
+    {
+      "front": "Mệnh đề SQL dùng để lọc dữ liệu theo điều kiện?",
+      "back": "Mệnh đề WHERE (vd: WHERE Tuoi >= 16).",
+      "tags": [
+        "WHERE",
+        "Lọc dữ liệu"
+      ]
+    },
+    {
+      "front": "Mệnh đề SQL dùng để sắp xếp kết quả tăng/giảm dần?",
+      "back": "ORDER BY Cot ASC (tăng dần) hoặc DESC (giảm dần).",
+      "tags": [
+        "ORDER BY",
+        "Sắp xếp"
+      ]
+    },
+    {
+      "front": "Câu lệnh SQL dùng để thêm một hàng dữ liệu mới vào bảng?",
+      "back": "INSERT INTO TenBang (Cot1, Cot2) VALUES (GiaTri1, GiaTri2);",
+      "tags": [
+        "INSERT INTO",
+        "Thêm dữ liệu"
+      ]
+    }
+  ]
+}

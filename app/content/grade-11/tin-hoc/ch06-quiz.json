@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch06_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Điều kiện tiên quyết để có thể áp dụng thuật toán tìm kiếm nhị phân trên một mảng là:",
-    "options": [
-      "A. Mảng có số phần tử là số chẵn",
-      "B. Các phần tử trong mảng đã được sắp xếp theo thứ tự tăng hoặc giảm",
-      "C. Mảng chỉ chứa các số nguyên dương",
-      "D. Mảng có độ dài dưới 10 phần tử"
-    ],
-    "answer": 1,
-    "explanation": "📌 Nguyên lí tìm kiếm nhị phân: Mảng phải được sắp xếp để mỗi lần so sánh có thể loại bỏ được một nửa số phần tử còn lại.\n💡 Nếu mảng lộn xộn phải dùng tìm kiếm tuần tự $O(n)$.\n⚠️ Thuật toán tìm kiếm kinh điển."
-  }
-]
+{
+  "chapterId": "ch06",
+  "examId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "chapterTitle": "Chủ đề 6: Thiết kế và tối ưu hóa Cơ sở dữ liệu",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Nghịch lý 'Phi chuẩn hóa' (Denormalization) trong các hệ thống dữ liệu lớn (Big Data / Data Warehouse) được áp dụng khi nào?",
+      "options": [
+        "Chấp nhận dư thừa dữ liệu có kiểm soát để giảm bớt số lượng phép JOIN, tối ưu hóa tốc độ đọc báo cáo",
+        "Khi lập trình viên lười biếng",
+        "Khi hệ thống bị lỗi",
+        "Khi không biết chuẩn hóa"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Đánh đổi giữa không gian lưu trữ và tốc độ truy vấn trong kiến trúc dữ liệu hiện đại.",
+      "breakdown": {
+        "concept": "Kỹ thuật Denormalization",
+        "steps": "Chấp nhận dư thừa để tăng tốc đọc dữ liệu lớn.",
+        "socraticPrompt": "Tại sao đôi khi người ta lại cố tình phi chuẩn hóa CSDL?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khái niệm 'Khóa tự nhiên' (Natural Key) và 'Khóa đại diện' (Surrogate Key như Auto-Increment ID / UUID) khác nhau ở chỗ",
+      "options": [
+        "Khóa tự nhiên bắt nguồn từ dữ liệu thực (vd: CCCD), Khóa đại diện là số tự tăng hoặc mã ngẫu nhiên sinh tự động",
+        "Khóa đại diện luôn là chữ cái",
+        "Khóa tự nhiên không dùng được",
+        "Hai khái niệm giống nhau"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Sử dụng Surrogate Key (ID tự tăng/UUID) giúp hệ thống linh hoạt và không bị ảnh hưởng khi dữ liệu nghiệp vụ thay đổi.",
+      "breakdown": {
+        "concept": "Surrogate Key vs Natural Key",
+        "steps": "Surrogate Key là ID tự tăng, độc lập dữ liệu nghiệp vụ.",
+        "socraticPrompt": "Khóa tự tăng (ID) khác số CCCD như thế nào?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Giải pháp 'Phân vùng dữ liệu' (Database Partitioning / Sharding) giải quyết bài toán gì?",
+      "options": [
+        "Chia nhỏ một bảng dữ liệu hàng trăm triệu bản ghi ra nhiều ổ đĩa hoặc máy chủ để tăng tốc độ xử lý",
+        "Xóa bớt dữ liệu cũ",
+        "Nén ảnh đại diện",
+        "Giảm bớt bộ nhớ RAM"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Kiến trúc mở rộng ngang (Horizontal Scaling) cho các siêu ứng dụng toàn cầu như Facebook, Shopee.",
+      "breakdown": {
+        "concept": "Kỹ thuật Sharding Partitioning",
+        "steps": "Chia nhỏ bảng khổng lồ ra nhiều máy chủ.",
+        "socraticPrompt": "Database Sharding giải quyết vấn đề gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Vai trò của 'Lược đồ hình sao' (Star Schema) và 'Lược đồ bông tuyết' (Snowflake Schema) trong hệ thống Data Warehouse là",
+      "options": [
+        "Tối ưu hóa cấu trúc bảng sự kiện (Fact) và bảng chiều (Dimension) phục vụ phân tích dữ liệu kinh doanh thông minh (BI)",
+        "Dùng để thiết kế đồ họa game",
+        "Dùng để nén file nhạc",
+        "Không có tác dụng gì"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Nền tảng của Business Intelligence và phân tích dữ liệu doanh nghiệp.",
+      "breakdown": {
+        "concept": "Star Schema trong Data Warehouse",
+        "steps": "Cấu trúc Fact và Dimension phân tích kinh doanh BI.",
+        "socraticPrompt": "Lược đồ hình sao (Star Schema) dùng để làm gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Hiện tượng 'Khóa chết' (Deadlock) trong quản trị giao dịch CSDL đồng thời xảy ra khi nào?",
+      "options": [
+        "Hai hay nhiều giao dịch cùng chờ đợi tài nguyên mà đối phương đang chiếm giữ, dẫn đến tắc nghẽn vĩnh viễn",
+        "Khi mất kết nối Internet",
+        "Khi ổ cứng bị đầy",
+        "Khi máy chủ bị ngắt điện"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Hệ quản trị CSDL có cơ chế phát hiện Deadlock và chủ động hủy một giao dịch để giải phóng.",
+      "breakdown": {
+        "concept": "Hiện tượng Deadlock",
+        "steps": "Các giao dịch chờ đợi lẫn nhau gây nghẽn.",
+        "socraticPrompt": "Hiện tượng khóa chết (Deadlock) trong CSDL là gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh hôm nay vận dụng kiến thức thiết kế CSDL để xây dựng giải pháp số tương lai với tâm thế",
+      "options": [
+        "Tỉ mỉ, chuẩn xác, đặt trải nghiệm người dùng và an toàn dữ liệu lên hàng đầu",
+        "Làm qua loa đại khái",
+        "Không kiểm tra lỗi",
+        "Bỏ qua các nguyên tắc khoa học"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Tác phong chuyên nghiệp của kỹ sư công nghệ tương lai.",
+      "breakdown": {
+        "concept": "Tác phong kỹ sư phần mềm",
+        "steps": "Tỉ mỉ, chuẩn xác, coi trọng an toàn dữ liệu.",
+        "socraticPrompt": "Tâm thế của người thiết kế CSDL chuyên nghiệp là gì?"
+      }
+    }
+  ]
+}

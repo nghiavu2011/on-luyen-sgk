@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch01_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Hệ điều hành nào sau đây là hệ điều hành mã nguồn mở phổ biến trên thiết bị di động thông minh?",
-    "options": [
-      "A. iOS",
-      "B. Windows 11",
-      "C. Android",
-      "D. macOS"
-    ],
-    "answer": 2,
-    "explanation": "📌 Mã nguồn mở: Android (phát triển dựa trên nhân Linux) là hệ điều hành nguồn mở phổ biến nhất trên smartphone.\n💡 iOS và Windows là phần mềm thương mại đóng mã nguồn.\n⚠️ Phân biệt nguồn mở và mã nguồn đóng."
-  }
-]
+{
+  "chapterId": "ch01",
+  "examId": "tonghop",
+  "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+  "chapterTitle": "Chủ đề 1: Máy tính và xã hội tri thức (Hệ điều hành & Phần mềm)",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Triết lý vĩ đại của phong trào Phần mềm Nguồn Mở (FOSS) đã thúc đẩy nhân loại phát triển như thế nào?",
+      "options": [
+        "Chia sẻ tri thức, dân chủ hóa công nghệ và tạo ra nền tảng cho Internet, AI và Cloud toàn cầu",
+        "Làm cho các lập trình viên bị nghèo đói",
+        "Ngăn cấm phát triển thương mại",
+        "Khiến phần mềm kém chất lượng"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Linux, Git, Python, Kubernetes... đều là nguồn mở kiến tạo nên nền tảng công nghệ thế giới.",
+      "breakdown": {
+        "concept": "Giá trị phần mềm nguồn mở",
+        "steps": "Chia sẻ tri thức và thúc đẩy đổi mới sáng tạo.",
+        "socraticPrompt": "Nguồn mở đã đóng góp gì cho sự phát triển của loài người?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Khái niệm 'Chủ quyền số' (Digital Sovereignty) và 'Hạ tầng đám mây Make in Viet Nam' hướng tới",
+      "options": [
+        "Tự chủ công nghệ, lưu trữ dữ liệu quốc gia trên hạ tầng máy chủ trong nước, bảo đảm an ninh quốc gia",
+        "Cấm kết nối Internet quốc tế",
+        "Ngừng sử dụng máy tính ngoại",
+        "Chỉ dùng điện thoại nội địa"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Bảo vệ an ninh dữ liệu quốc gia trong không gian mạng toàn cầu.",
+      "breakdown": {
+        "concept": "Chủ quyền số quốc gia",
+        "steps": "Tự chủ hạ tầng số và an toàn dữ liệu.",
+        "socraticPrompt": "Tại sao Việt Nam cần làm chủ hạ tầng đám mây?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Kiến trúc ảo hóa (Virtualization) và Container (Docker/Kubernetes) trong hệ điều hành hiện đại mang lại đột phá gì?",
+      "options": [
+        "Cho phép chạy nhiều môi trường ứng dụng cô lập trên cùng một phần cứng, tối ưu hóa tài nguyên cực đại",
+        "Làm máy tính chạy chậm đi 10 lần",
+        "Chỉ hiển thị đồ họa hoạt hình",
+        "Xóa bỏ bộ nhớ RAM"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Công nghệ ảo hóa và container là nền tảng cốt lõi của điện toán đám mây hiện đại.",
+      "breakdown": {
+        "concept": "Công nghệ ảo hóa Container",
+        "steps": "Cô lập môi trường, tối ưu hóa tài nguyên.",
+        "socraticPrompt": "Docker và ảo hóa mang lại lợi ích gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Nguy cơ 'Khóa chặt nhà cung cấp' (Vendor Lock-in) khi sử dụng dịch vụ đám mây độc quyền là",
+      "options": [
+        "Khó khăn và tốn kém chi phí lớn khi muốn chuyển đổi dữ liệu sang nền tảng đám mây khác",
+        "Dữ liệu bị xóa ngay lập tức",
+        "Không thể truy cập Internet",
+        "Không có rủi ro nào"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Cần sử dụng các chuẩn mở để tránh bị phụ thuộc hoàn toàn vào một nhà cung cấp.",
+      "breakdown": {
+        "concept": "Nguy cơ Vendor Lock-in",
+        "steps": "Phụ thuộc nền tảng, khó chuyển đổi dữ liệu.",
+        "socraticPrompt": "Vendor lock-in trong điện toán đám mây là gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Trách nhiệm của lập trình viên khi sử dụng thư viện mã nguồn mở trong sản phẩm thương mại là",
+      "options": [
+        "Tuân thủ nghiêm ngặt các điều khoản giấy phép mã nguồn (như dẫn nguồn, mở mã theo GPL nếu có)",
+        "Tự ý xóa bản quyền của tác giả gốc",
+        "Bán lại thư viện và nhận là của mình",
+        "Không cần quan tâm giấy phép"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Đạo đức nghề nghiệp và tuân thủ bản quyền sở hữu trí tuệ số.",
+      "breakdown": {
+        "concept": "Tuân thủ giấy phép nguồn mở",
+        "steps": "Tôn trọng bản quyền và điều khoản giấy phép.",
+        "socraticPrompt": "Dùng thư viện mã nguồn mở cần lưu ý điều gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Học sinh hôm nay rèn luyện tư duy làm chủ công nghệ thay vì trở thành 'nô lệ công nghệ' bằng cách",
+      "options": [
+        "Hiểu rõ nguyên lý hoạt động bên dưới của hệ điều hành, mạng và thuật toán, không chỉ dùng thụ động",
+        "Chỉ biết chơi game giải trí",
+        "Lướt mạng xã hội vô thức",
+        "Sợ hãi công nghệ mới"
+      ],
+      "correct": 0,
+      "difficulty": "hard",
+      "explanation": "Chuyển dịch từ người tiêu dùng thụ động thành người kiến tạo công nghệ số.",
+      "breakdown": {
+        "concept": "Làm chủ công nghệ số",
+        "steps": "Hiểu sâu nguyên lý, sáng tạo giải pháp.",
+        "socraticPrompt": "Làm thế nào để trở thành người làm chủ công nghệ?"
+      }
+    }
+  ]
+}

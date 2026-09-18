@@ -1,16 +1,116 @@
-[
-  {
-    "id": "th11_ch02_d1_q1",
-    "type": "multiple_choice",
-    "difficulty": "easy",
-    "question": "Dịch vụ mạng có nhiệm vụ chuyển đổi tên miền dạng chữ (ví dụ: dantri.com.vn) sang địa chỉ số IP tương ứng là:",
-    "options": [
-      "A. FTP",
-      "B. DNS",
-      "C. DHCP",
-      "D. SMTP"
-    ],
-    "answer": 1,
-    "explanation": "📌 Khái niệm mạng: DNS = Domain Name System (Hệ thống phân giải tên miền).\n💡 Giống như danh bạ điện thoại tra số từ tên người.\n⚠️ Giao thức cốt lõi của Internet."
-  }
-]
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "title": "📖 Đề 1: Nhận biết & Khái niệm Cốt lõi",
+  "chapterTitle": "Chủ đề 2: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Để tìm kiếm chính xác một cụm từ trên Google mà không bị phân tách các từ, ta đặt cụm từ trong",
+      "options": [
+        "Dấu ngoặc kép \" \"",
+        "Dấu ngoặc đơn ( )",
+        "Dấu gạch dưới _ _",
+        "Dấu sao * *"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Toán tử dấu ngoặc kép tìm kiếm cụm từ nguyên văn.",
+      "breakdown": {
+        "concept": "Tìm kiếm cụm từ chính xác",
+        "steps": "Dấu ngoặc kép \" \".",
+        "socraticPrompt": "Dấu nào dùng để tìm kiếm chính xác cụm từ?"
+      }
+    },
+    {
+      "id": "q02",
+      "question": "Cú pháp nào sau đây dùng để tìm kiếm tài liệu định dạng PDF trên Google?",
+      "options": [
+        "filetype:pdf",
+        "format=pdf",
+        "type:pdf",
+        "ext.pdf"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Toán tử filetype: dùng để lọc loại tệp.",
+      "breakdown": {
+        "concept": "Toán tử filetype",
+        "steps": "filetype:pdf.",
+        "socraticPrompt": "Toán tử tìm file PDF là gì?"
+      }
+    },
+    {
+      "id": "q03",
+      "question": "Để giới hạn phạm vi tìm kiếm thông tin chỉ trong các website có tên miền `.edu.vn`, ta dùng cú pháp",
+      "options": [
+        "site:edu.vn",
+        "in:edu.vn",
+        "domain=edu.vn",
+        "web:edu.vn"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Toán tử site: giới hạn tìm kiếm trong trang web hoặc tên miền cụ thể.",
+      "breakdown": {
+        "concept": "Toán tử site:",
+        "steps": "site:edu.vn.",
+        "socraticPrompt": "Toán tử tìm trong trang giáo dục là gì?"
+      }
+    },
+    {
+      "id": "q04",
+      "question": "Hiện tượng sử dụng trí tuệ nhân tạo để ghép mặt và làm giả giọng nói của người khác trong video gọi là",
+      "options": [
+        "Deepfake",
+        "Photoshop",
+        "Livestream",
+        "Podcast"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Khái niệm công nghệ Deepfake.",
+      "breakdown": {
+        "concept": "Khái niệm Deepfake",
+        "steps": "AI làm giả mặt và giọng nói.",
+        "socraticPrompt": "Công nghệ ghép mặt giả giọng gọi là gì?"
+      }
+    },
+    {
+      "id": "q05",
+      "question": "Tên miền website nào sau đây thường là nguồn thông tin chính thống đáng tin cậy nhất của cơ quan nhà nước Việt Nam?",
+      "options": [
+        ".gov.vn",
+        ".xyz",
+        ".cc",
+        ".biz"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Đuôi tên miền .gov.vn dành riêng cho các cơ quan chính phủ Việt Nam.",
+      "breakdown": {
+        "concept": "Tên miền chính phủ",
+        "steps": ".gov.vn.",
+        "socraticPrompt": "Tên miền của cơ quan nhà nước có đuôi gì?"
+      }
+    },
+    {
+      "id": "q06",
+      "question": "Cách đặt tên file nào sau đây là khoa học và dễ quản lý nhất?",
+      "options": [
+        "2026_TinHoc11_DeCuong_v1.docx",
+        "tailieu1.docx",
+        "chua_dat_ten(1)(1).docx",
+        "aaa.docx"
+      ],
+      "correct": 0,
+      "difficulty": "easy",
+      "explanation": "Đặt tên có thời gian, chủ đề và phiên bản rõ ràng.",
+      "breakdown": {
+        "concept": "Đặt tên tệp khoa học",
+        "steps": "Có ngày tháng, chủ đề, phiên bản.",
+        "socraticPrompt": "Cách đặt tên file nào chuẩn nhất?"
+      }
+    }
+  ]
+}
