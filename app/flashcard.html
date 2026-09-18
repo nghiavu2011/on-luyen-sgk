@@ -373,9 +373,13 @@
 
         async function init() {
             params = getUrlParams();
-            if (!params.grade) params.grade = '11';
-            if (!params.subject) params.subject = 'vat-li';
-            if (!params.chapter) params.chapter = 'ch01';
+            params.grade = String(params.grade || '11').padStart(2, '0');
+            params.subject = params.subject || 'vat-li';
+            if (!params.chapter) {
+                params.chapter = 'ch01';
+            } else if (!String(params.chapter).startsWith('ch')) {
+                params.chapter = 'ch' + String(params.chapter).padStart(2, '0');
+            }
 
             if (params.tab && ['lesson', 'quiz', 'flashcard'].includes(params.tab)) {
                 activeTab = params.tab;
@@ -395,46 +399,63 @@
                 if (lEl) lEl.innerHTML = `🎖️ Lv. ${lvl}`;
             }
 
-            // Subject Info & Breadcrumb
-            let subName = params.subject;
+            // Set link ban đầu
+            const subjectLink = `subject.html?grade=${params.grade}&subject=${params.subject}`;
+            const bcSub = document.getElementById('bc-subject');
+            if (bcSub) {
+                bcSub.href = subjectLink;
+                bcSub.textContent = `${params.subject} ${params.grade}`;
+            }
+            const navSub = document.getElementById('nav-subject-link');
+            if (navSub) navSub.href = subjectLink;
+
+            // 1. TẢI FLASHCARD NGAY LẬP TỨC (Ưu tiên số 1, hiển thị ngay không đợi dữ liệu khác)
+            await loadFlashcardData();
+            setStudyTab(activeTab);
+
+            // 2. Tải nền bất đồng bộ (Subject info, Lessons, Quizzes) không làm nghẽn UI
+            loadBackgroundData();
+        }
+
+        async function loadBackgroundData() {
+            // Subject Info
             try {
                 const subRes = await smartFetch(`content/grade-${params.grade}/subjects.json`);
                 if (subRes.ok) {
                     const subData = await subRes.json();
                     const currentSub = subData.subjects.find(s => s.id === params.subject);
-                    if (currentSub) subName = currentSub.name;
+                    if (currentSub) {
+                        const bcSub = document.getElementById('bc-subject');
+                        if (bcSub) bcSub.textContent = `${currentSub.name} ${params.grade}`;
+                        document.title = `${currentSub.name} ${params.grade} · Ghi nhớ & Luyện tập — 📖 Ôn luyện`;
+                    }
                 }
             } catch(e) {}
 
-            const subjectLink = `subject.html?grade=${params.grade}&subject=${params.subject}`;
-            document.getElementById('bc-subject').href = subjectLink;
-            document.getElementById('bc-subject').textContent = `${subName} ${params.grade}`;
-            document.getElementById('nav-subject-link').href = subjectLink;
-            document.title = `${subName} ${params.grade} · Ghi nhớ & Luyện tập — 📖 Ôn luyện`;
-
-            // Load Chapter Lessons
+            // Chapter Lessons
             try {
                 const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-lessons.json`);
-                if (!res.ok) throw new Error();
-                const data = await res.json();
-                lessons = data.lessons || [];
+                if (res.ok) {
+                    const data = await res.json();
+                    lessons = data.lessons || [];
 
-                const chapterTitle = data.title || 'Chương 1';
-                document.getElementById('bc-chapter').textContent = chapterTitle;
-                document.getElementById('lesson-chapter-tag').textContent = chapterTitle;
-                document.getElementById('sidebar-subject-title').textContent = `${chapterTitle}`;
+                    const chapterTitle = data.title || `Chương ${params.chapter}`;
+                    const bcCh = document.getElementById('bc-chapter');
+                    if (bcCh) bcCh.textContent = chapterTitle;
+                    const lTag = document.getElementById('lesson-chapter-tag');
+                    if (lTag) lTag.textContent = chapterTitle;
+                    const sbTitle = document.getElementById('sidebar-subject-title');
+                    if (sbTitle) sbTitle.textContent = chapterTitle;
+
+                    renderSidebarLessons();
+                    renderLessonContent();
+                }
             } catch (e) {
                 lessons = [];
             }
 
-            renderSidebarLessons();
-            renderLessonContent();
-
-            // Load Quiz & Flashcard
+            // Pre-load Quiz Data in background
             loadQuizData();
-            await loadFlashcardData();
-
-            setStudyTab(activeTab);
         }
 
         function setStudyTab(tabName) {
@@ -448,22 +469,30 @@
             if (tabBtn) tabBtn.classList.add('active');
             if (panel) panel.classList.add('active');
 
-            if (tabName === 'quiz' && questions.length > 0) renderQuestion();
-            else if (tabName === 'flashcard' && cards.length > 0) renderCard();
+            if (tabName === 'quiz') {
+                if (questions.length > 0) renderQuestion();
+                else document.getElementById('quiz-card-container').innerHTML = '<div class="ol-card-box text-center" style="padding: 2.5rem 1.5rem;"><div style="font-size: 2rem; margin-bottom: 0.5rem;">✍️</div><div style="font-weight: 700; color: #1e293b;">Đang chuẩn bị đề trắc nghiệm...</div></div>';
+            } else if (tabName === 'flashcard') {
+                renderCard();
+            } else if (tabName === 'lesson') {
+                if (lessons.length > 0) renderLessonContent();
+            }
 
-            renderKaTeX();
-            window.scrollTo({ top: 140, behavior: 'smooth' });
+            renderKaTeX(panel);
         }
 
         function renderSidebarLessons() {
             const listEl = document.getElementById('sidebar-lessons-list');
+            if (!listEl) return;
             listEl.innerHTML = '';
             const total = lessons.length;
             const current = currentLessonIdx + 1;
             const pct = Math.round((current / (total || 1)) * 100);
 
-            document.getElementById('chapter-progress-stat').textContent = `${current}/${total} bài · ${pct}%`;
-            document.getElementById('sidebar-progress-bar').style.width = `${pct}%`;
+            const statEl = document.getElementById('chapter-progress-stat');
+            if (statEl) statEl.textContent = `${current}/${total} bài · ${pct}%`;
+            const barEl = document.getElementById('sidebar-progress-bar');
+            if (barEl) barEl.style.width = `${pct}%`;
 
             lessons.forEach((l, idx) => {
                 const li = document.createElement('li');
@@ -704,36 +733,52 @@
 
         // FLASHCARD LOGIC
         async function loadFlashcardData() {
-            try {
-                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-flashcards.json`);
-                if (!res.ok) throw new Error();
-                const data = await res.json();
-                cards = Array.isArray(data) ? data : (data.cards || data.flashcards || []);
-            } catch (e) {
-                cards = [];
+            const candidates = [
+                `content/grade-${params.grade}/${params.subject}/${params.chapter}-flashcards.json`,
+                `content/grade-${params.grade}/${params.subject}/${params.chapter}-flashcard.json`
+            ];
+            cards = [];
+            for (const path of candidates) {
+                try {
+                    const res = await smartFetch(path);
+                    if (res.ok) {
+                        const data = await res.json();
+                        cards = Array.isArray(data) ? data : (data.cards || data.flashcards || []);
+                        if (cards.length > 0) break;
+                    }
+                } catch (e) {}
             }
         }
 
         function renderCard() {
-            if (cards.length === 0) {
-                document.getElementById('fc-text-front').textContent = 'Chưa có thẻ ghi nhớ cho bài này.';
-                document.getElementById('fc-controls').style.display = 'none';
+            const cardFrontEl = document.getElementById('fc-text-front');
+            const cardBackEl = document.getElementById('fc-text-back');
+            const controlsEl = document.getElementById('fc-controls');
+            const counterEl = document.getElementById('fc-counter');
+            const tagsEl = document.getElementById('fc-tags-container');
+
+            if (!cards || cards.length === 0) {
+                if (cardFrontEl) cardFrontEl.textContent = 'Chưa có thẻ ghi nhớ cho bài này.';
+                if (cardBackEl) cardBackEl.textContent = '';
+                if (controlsEl) controlsEl.style.display = 'none';
+                if (counterEl) counterEl.textContent = 'Thẻ 0 / 0';
+                if (tagsEl) tagsEl.innerHTML = '';
                 return;
             }
 
+            if (controlsEl) controlsEl.style.display = 'flex';
             isCardFlipped = false;
             const cardEl = document.getElementById('active-fc-card');
-            cardEl.classList.remove('is-flipped');
+            if (cardEl) cardEl.classList.remove('is-flipped');
 
+            if (currentCardIdx >= cards.length) currentCardIdx = 0;
             const c = cards[currentCardIdx];
-            document.getElementById('fc-text-front').textContent = c.front || '';
-            document.getElementById('fc-text-back').textContent = c.back || '';
+            if (cardFrontEl) cardFrontEl.textContent = c.front || '';
+            if (cardBackEl) cardBackEl.textContent = c.back || '';
 
             // Update Counter & Tags
-            const counterEl = document.getElementById('fc-counter');
             if (counterEl) counterEl.textContent = `Thẻ ${currentCardIdx + 1} / ${cards.length}`;
 
-            const tagsEl = document.getElementById('fc-tags-container');
             if (tagsEl) {
                 tagsEl.innerHTML = (c.tags || []).map(t => `<span class="ol-badge-tag ol-badge-blue" style="font-size: 0.72rem; padding: 0.2rem 0.5rem;">${t}</span>`).join(' ');
             }
@@ -744,7 +789,8 @@
             const backLbl = document.getElementById('fc-back-label');
             if (backLbl) backLbl.textContent = isLit ? '💡 BÀI HỌC / PHÂN TÍCH CHI TIẾT 💡' : '💡 ĐỊNH NGHĨA / Ý NGHĨA 💡';
 
-            renderKaTeX();
+            // Targeted fast KaTeX render
+            renderKaTeX(cardEl);
         }
 
         function prevCard() {
@@ -785,16 +831,17 @@
             renderCard();
         }
 
-        function renderKaTeX() {
+        function renderKaTeX(targetEl) {
             if (window.renderMathInElement) {
-                renderMathInElement(document.body, {
+                const root = targetEl || document.getElementById('active-fc-card') || document.body;
+                renderMathInElement(root, {
                     delimiters: [
                         {left: '$$', right: '$$', display: true},
                         {left: '$', right: '$', display: false}
                     ],
                     throwOnError: false
                 });
-                document.querySelectorAll('.katex').forEach(el => {
+                root.querySelectorAll('.katex').forEach(el => {
                     if (!el.getAttribute('aria-label')) {
                         const annotation = el.querySelector('annotation');
                         const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();
@@ -803,6 +850,7 @@
                     }
                 });
             }
+        }
         // Pronunciation & TTS for Flashcard (Ponytail: standard Web Speech API)
         function getPronunciationText(text) {
             if (!text) return '';
