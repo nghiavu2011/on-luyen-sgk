@@ -512,6 +512,8 @@
         let timerSeconds = 45 * 60;
         let timerInterval;
         let params = {};
+        let isExamSubmitted = false;
+        let currentReviewFilter = 'all';
 
         function formatOptionText(text) {
             if (!text) return '';
@@ -629,18 +631,35 @@
                     metaEl.innerHTML = `Chế độ: <strong>DeepTutor Remediation</strong> · Số lượng: <strong>${questions.length} câu</strong> · Mục tiêu: Làm chủ 100%`;
                 }
             } else {
-                // Dynamic Fetch Quiz Data
+                // Dynamic Fetch Quiz Data with robust candidate fallbacks
                 try {
-                    let quizFileName = `${chapter}-quiz.json`;
+                    const candidates = [];
                     if (params.exam && params.exam !== 'tonghop') {
-                        quizFileName = `${chapter}-quiz-${params.exam}.json`;
+                        candidates.push(`${chapter}-quiz-${params.exam}.json`);
                     }
-                    let res = await smartFetch(`content/grade-${grade}/${subject}/${quizFileName}`);
-                    if (!res.ok && params.exam) {
-                        res = await smartFetch(`content/grade-${grade}/${subject}/${chapter}-quiz.json`);
+                    candidates.push(
+                        `${chapter}-quiz.json`,
+                        `${chapter}-quiz-de1.json`,
+                        `${chapter}-quiz-de2.json`,
+                        `${chapter}-quiz-tonghop.json`,
+                        `${chapter}-quizzes.json`
+                    );
+
+                    let data = null;
+                    for (const cName of candidates) {
+                        try {
+                            const res = await smartFetch(`content/grade-${grade}/${subject}/${cName}`);
+                            if (res.ok) {
+                                const json = await res.json();
+                                if (json && (Array.isArray(json) ? json.length > 0 : (Array.isArray(json.questions) && json.questions.length > 0))) {
+                                    data = json;
+                                    break;
+                                }
+                            }
+                        } catch(errCandidate) {}
                     }
-                    if (!res.ok) throw new Error('Cannot fetch quiz');
-                    const data = await res.json();
+
+                    if (!data) throw new Error('Cannot fetch quiz');
                     let rawList = [];
                     if (Array.isArray(data)) {
                         rawList = data;
@@ -1165,8 +1184,16 @@
 
         function speakQuestion() {
             const q = questions[currentIdx];
-            if (window.DeepTutor && q) {
-                DeepTutor.speak(q.question);
+            if (!q) return;
+            const isEng = (params.subject === 'tieng-anh');
+            if (window.DeepTutor) {
+                DeepTutor.speak(q.question, isEng ? 'en-US' : 'vi-VN');
+            } else if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const clean = q.question.replace(/\$+/g, '');
+                const u = new SpeechSynthesisUtterance(clean);
+                u.lang = isEng ? 'en-US' : 'vi-VN';
+                window.speechSynthesis.speak(u);
             }
         }
 

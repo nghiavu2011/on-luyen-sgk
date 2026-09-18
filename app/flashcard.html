@@ -140,14 +140,20 @@
 
                         <div class="ol-fc-card-scene" onclick="flipCurrentCard()">
                             <div class="ol-fc-card" id="active-fc-card">
-                                <div class="ol-fc-face" id="fc-face-front">
+                                <div class="ol-fc-face" id="fc-face-front" style="position: relative;">
+                                    <button type="button" class="ol-btn-icon fc-audio-btn" title="Nghe phát âm (Phím S)" onclick="event.stopPropagation(); speakFlashcard('front');" style="position: absolute; top: 1rem; right: 1rem; background: rgba(2, 132, 199, 0.1); border: 1px solid rgba(2, 132, 199, 0.3); border-radius: 50%; width: 42px; height: 42px; font-size: 1.25rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: transform 0.15s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                                        🔊
+                                    </button>
                                     <div id="fc-front-label" style="font-size: 0.8rem; font-weight: 700; color: var(--ol-primary); text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
                                         ✦ CÂU HỎI / KHÁI NIỆM ✦
                                     </div>
                                     <div class="ol-fc-title" id="fc-text-front">Đang tải thẻ...</div>
                                     <div class="ol-fc-sub">Nhấp để lật mặt sau ↻</div>
                                 </div>
-                                <div class="ol-fc-face ol-fc-face--back" id="fc-face-back">
+                                <div class="ol-fc-face ol-fc-face--back" id="fc-face-back" style="position: relative;">
+                                    <button type="button" class="ol-btn-icon fc-audio-btn" title="Nghe phát âm (Phím S)" onclick="event.stopPropagation(); speakFlashcard('back');" style="position: absolute; top: 1rem; right: 1rem; background: rgba(21, 128, 61, 0.1); border: 1px solid rgba(21, 128, 61, 0.3); border-radius: 50%; width: 42px; height: 42px; font-size: 1.25rem; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: transform 0.15s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                                        🔊
+                                    </button>
                                     <div id="fc-back-label" style="font-size: 0.8rem; font-weight: 700; color: #15803d; text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
                                         💡 ĐỊNH NGHĨA / PHÂN TÍCH CHI TIẾT 💡
                                     </div>
@@ -158,16 +164,19 @@
                         </div>
 
                         <div class="ol-fc-controls" id="fc-controls" style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
-                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="prevCard()">
+                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="prevCard()" title="Phím tắt: Mũi tên trái">
                                 ⬅ Thẻ trước
                             </button>
-                            <button class="ol-btn-secondary" style="border-color: #fed7aa; color: #c2410c; background: #fff7ed; padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="rateCard(false)">
+                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem; color: #4338ca; border-color: #c7d2fe; background: #eef2ff;" onclick="speakFlashcard(isCardFlipped ? 'back' : 'front')" title="Phím tắt: S">
+                                🔊 Phát âm (S)
+                            </button>
+                            <button class="ol-btn-secondary" style="border-color: #fed7aa; color: #c2410c; background: #fff7ed; padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="rateCard(false)" title="Phím tắt: 1 hoặc X">
                                 ❌ Cần ôn lại
                             </button>
-                            <button class="ol-btn-cta" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 0.75rem 1.75rem; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);" onclick="rateCard(true)">
+                            <button class="ol-btn-cta" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 0.75rem 1.75rem; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);" onclick="rateCard(true)" title="Phím tắt: 2 hoặc Z">
                                 ✔ Đã ghi nhớ (+1 XP)
                             </button>
-                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="nextCardDirect()">
+                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="nextCardDirect()" title="Phím tắt: Mũi tên phải">
                                 Thẻ sau ➡
                             </button>
                         </div>
@@ -532,13 +541,35 @@
 
         // QUIZ LOGIC
         async function loadQuizData() {
-            try {
-                const res = await smartFetch(`content/grade-${params.grade}/${params.subject}/${params.chapter}-quiz.json`);
-                if (!res.ok) throw new Error();
-                const data = await res.json();
-                questions = data.questions || [];
-            } catch (e) {
-                questions = [];
+            const grade = params.grade || '11';
+            const subject = params.subject || 'vat-li';
+            const chapter = params.chapter || 'ch01';
+            const candidates = [];
+            if (params.exam && params.exam !== 'tonghop') {
+                candidates.push(`${chapter}-quiz-${params.exam}.json`);
+            }
+            candidates.push(
+                `${chapter}-quiz.json`,
+                `${chapter}-quiz-de1.json`,
+                `${chapter}-quiz-de2.json`,
+                `${chapter}-quiz-tonghop.json`,
+                `${chapter}-quizzes.json`
+            );
+
+            for (const cName of candidates) {
+                try {
+                    const res = await smartFetch(`content/grade-${grade}/${subject}/${cName}`);
+                    if (res.ok) {
+                        const data = await res.json();
+                        if (Array.isArray(data) && data.length > 0) {
+                            questions = data;
+                            break;
+                        } else if (data && Array.isArray(data.questions) && data.questions.length > 0) {
+                            questions = data.questions;
+                            break;
+                        }
+                    }
+                } catch (e) {}
             }
         }
 
@@ -772,6 +803,101 @@
                     }
                 });
             }
+        // Pronunciation & TTS for Flashcard (Ponytail: standard Web Speech API)
+        function getPronunciationText(text) {
+            if (!text) return '';
+            // Strip phonetic slashes like /ˈkælkjuleɪtə(r)/ or [...]
+            let clean = text.replace(/\/.*?\/[gimsuy]*/g, '').trim();
+            // Remove leading bullet characters or numbers
+            clean = clean.replace(/^[\s\*\-\•\✦\–\d\.\)]+/, '').trim();
+            return clean;
+        }
+
+        function speakFlashcard(side = 'front') {
+            if (!('speechSynthesis' in window)) {
+                alert('Trình duyệt của bạn chưa hỗ trợ tính năng phát âm Web Speech API.');
+                return;
+            }
+            if (cards.length === 0) return;
+            const c = cards[currentCardIdx];
+            if (!c) return;
+
+            const isEnglish = (params.subject === 'tieng-anh');
+            let textToSpeak = '';
+            let lang = isEnglish ? 'en-US' : 'vi-VN';
+
+            if (isEnglish) {
+                if (side === 'back') {
+                    // Try extracting English example sentence from back text
+                    const rawBack = c.back || '';
+                    const exMatch = rawBack.match(/(?:Ví dụ|Example|Eg|e\.g\.)\s*:\s*([^.\n]+[.!?]?)/i);
+                    if (exMatch && exMatch[1]) {
+                        textToSpeak = exMatch[1].trim();
+                    } else {
+                        textToSpeak = getPronunciationText(c.front);
+                    }
+                } else {
+                    textToSpeak = getPronunciationText(c.front);
+                }
+            } else {
+                const raw = (side === 'back' ? c.back : c.front) || '';
+                textToSpeak = raw.replace(/\$+/g, '').replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1 phần $2');
+                lang = 'vi-VN';
+            }
+
+            if (!textToSpeak) return;
+
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(textToSpeak);
+            utterance.lang = lang;
+            utterance.rate = isEnglish ? 0.9 : 0.95;
+
+            try {
+                const voices = window.speechSynthesis.getVoices();
+                if (isEnglish && voices && voices.length > 0) {
+                    const enVoice = voices.find(v => (v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('US') || v.name.includes('UK')))) || voices.find(v => v.lang.startsWith('en'));
+                    if (enVoice) utterance.voice = enVoice;
+                } else if (!isEnglish && voices && voices.length > 0) {
+                    const viVoice = voices.find(v => v.lang.startsWith('vi'));
+                    if (viVoice) utterance.voice = viVoice;
+                }
+            } catch(e) {}
+
+            window.speechSynthesis.speak(utterance);
+        }
+
+        // Global Keyboard Navigation for Flashcards
+        document.addEventListener('keydown', (e) => {
+            if (activeTab !== 'flashcard') return;
+            // Ignore if user is typing in an input
+            if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+
+            if (e.code === 'Space' || e.key === 'Enter') {
+                e.preventDefault();
+                flipCurrentCard();
+            } else if (e.code === 'ArrowLeft') {
+                e.preventDefault();
+                prevCard();
+            } else if (e.code === 'ArrowRight') {
+                e.preventDefault();
+                nextCardDirect();
+            } else if (e.key === 's' || e.key === 'S' || e.key === 'a' || e.key === 'A') {
+                e.preventDefault();
+                speakFlashcard(isCardFlipped ? 'back' : 'front');
+            } else if (e.key === '1' || e.key === 'x' || e.key === 'X') {
+                e.preventDefault();
+                rateCard(false);
+            } else if (e.key === '2' || e.key === 'z' || e.key === 'Z') {
+                e.preventDefault();
+                rateCard(true);
+            }
+        });
+
+        // Preload voices
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window && window.speechSynthesis.onvoiceschanged !== undefined) {
+            window.speechSynthesis.onvoiceschanged = () => {
+                window.speechSynthesis.getVoices();
+            };
         }
 
         init();

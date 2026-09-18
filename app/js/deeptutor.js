@@ -328,15 +328,27 @@ const DeepTutor = (function() {
         draw();
     }
 
-    // Native Web Speech API (Giọng đọc sư phạm)
-    function speak(text) {
-        if (!('speechSynthesis' in window)) return;
+    // Native Web Speech API (Giọng đọc sư phạm đa ngôn ngữ)
+    function speak(text, lang = 'vi-VN') {
+        if (!('speechSynthesis' in window) || !text) return;
         window.speechSynthesis.cancel();
         // Làm sạch mã latex trước khi đọc
         const clean = text.replace(/\$+/g, '').replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1 phần $2');
         const utterance = new SpeechSynthesisUtterance(clean);
-        utterance.lang = 'vi-VN';
-        utterance.rate = 0.95;
+        utterance.lang = lang;
+        utterance.rate = lang.startsWith('en') ? 0.9 : 0.95;
+
+        try {
+            const voices = window.speechSynthesis.getVoices();
+            if (lang.startsWith('en') && voices && voices.length > 0) {
+                const enVoice = voices.find(v => (v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('US') || v.name.includes('UK')))) || voices.find(v => v.lang.startsWith('en'));
+                if (enVoice) utterance.voice = enVoice;
+            } else if (lang.startsWith('vi') && voices && voices.length > 0) {
+                const viVoice = voices.find(v => v.lang.startsWith('vi'));
+                if (viVoice) utterance.voice = viVoice;
+            }
+        } catch(e) {}
+
         window.speechSynthesis.speak(utterance);
     }
 

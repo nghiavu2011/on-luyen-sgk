@@ -576,8 +576,9 @@
             const l = lessons[currentLessonIdx];
             document.getElementById('lesson-title').textContent = l.title || 'Bài học SGK';
 
-            // P0-2a: Che bài học chưa có nội dung thật (hasRealContent !== true)
-            if (l.hasRealContent !== true) {
+            // P0-2a: Che bài học chưa có nội dung thật
+            const hasReal = (l.hasRealContent === true) || Boolean(l.summary || l.keyPoints || l.content || l.theory || l.body || l.sections || l.concepts || l.objectives || (l.examples && l.examples.length));
+            if (!hasReal) {
                 bodyEl.innerHTML = `
                     <div class="ol-card-box text-center" style="padding: 3.5rem 2rem; background: white; border: 1.5px dashed #cbd5e1; border-radius: 16px;">
                         <div style="font-size: 3rem; margin-bottom: 0.75rem;">✍️</div>
@@ -606,6 +607,17 @@
             if (btnMark) btnMark.style.display = 'inline-block';
 
             let html = '';
+
+            // 0. Khái niệm / Tóm tắt trọng tâm (Summary / Overview)
+            if (l.summary) {
+                html += `
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem;">
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>📋</span> Khái niệm & Tóm tắt trọng tâm SGK
+                        </h3>
+                        <div style="font-size: 0.96rem; line-height: 1.75; color: #1e293b;">${l.summary}</div>
+                    </div>`;
+            }
 
             // 1. Mục tiêu bài học (Objectives)
             if (l.objectives && l.objectives.length) {
@@ -641,7 +653,7 @@
                     </div>`;
             }
 
-            // 3. Quy tắc & Tính chất (Rules)
+            // 3. Quy tắc & Tính chất (Rules / KeyPoints)
             if (l.rules && l.rules.length) {
                 html += `
                     <div class="ol-card-box" style="margin-bottom: 1.25rem;">
@@ -660,9 +672,24 @@
                             `).join('')}
                         </div>
                     </div>`;
+            } else if (l.keyPoints && l.keyPoints.length) {
+                html += `
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem;">
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>🔑</span> Quy tắc & Công thức cốt lõi
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            ${l.keyPoints.map(kp => `
+                                <div style="display: flex; align-items: baseline; gap: 0.6rem; background: #fffdf5; border: 1px solid #fef3c7; border-radius: 8px; padding: 0.75rem 1rem;">
+                                    <span style="font-weight: 800; color: #d97706; font-size: 1rem;">✦</span>
+                                    <div style="color: #1e293b; font-size: 0.95rem; font-weight: 600;">${kp}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>`;
             }
 
-            // 4. Ví dụ mẫu từng bước (Worked Examples)
+            // 4. Ví dụ mẫu từng bước (Worked Examples / Examples)
             if (l.workedExamples && l.workedExamples.length) {
                 html += `
                     <div class="ol-card-box" style="margin-bottom: 1.25rem;">
@@ -685,6 +712,29 @@
                                     </div>
                                 </div>
                             `).join('')}
+                        </div>
+                    </div>`;
+            } else if (l.examples && l.examples.length) {
+                html += `
+                    <div class="ol-card-box" style="margin-bottom: 1.25rem;">
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.4rem;">
+                            <span>📝</span> Ví dụ minh họa có lời giải chi tiết
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 1rem;">
+                            ${l.examples.map((ex, i) => {
+                                const prob = ex.problem || ex.question || ex.prompt || '';
+                                const sol = (ex.solution || ex.answer || '').replace(/\n/g, '<br>');
+                                return `
+                                    <div style="border: 1.5px solid #bae6fd; border-radius: 12px; padding: 1.15rem; background: #f0f9ff;">
+                                        <div style="font-weight: 800; color: #0284c7; font-size: 0.95rem; margin-bottom: 0.35rem;">Ví dụ ${i + 1}:</div>
+                                        <div style="font-size: 1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.75rem;">${prob}</div>
+                                        <div style="background: white; border-radius: 8px; padding: 0.85rem; border: 1px solid #e0f2fe;">
+                                            <strong style="color: #15803d; font-size: 0.85rem; display: block; margin-bottom: 0.4rem;">💡 BƯỚC GIẢI CHI TIẾT:</strong>
+                                            <div style="font-size: 0.92rem; color: #334155; line-height: 1.6;">${sol}</div>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
                         </div>
                     </div>`;
             }
