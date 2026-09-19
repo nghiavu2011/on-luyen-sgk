@@ -120,35 +120,68 @@ async function sha256(text) {
     return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
-// B. Parent PIN Verification (Robust & Fail-safe)
+// B. FNV-1a Synchronous Hash helper (Nguồn sự thật dùng chung cho PIN phụ huynh)
+function hashLocalPin(str) {
+    let h = 0x811c9dc5;
+    for (let i = 0; i < str.length; i++) {
+        h ^= str.charCodeAt(i);
+        h = Math.imul(h, 0x01000193);
+    }
+    return 'lpin_' + (h >>> 0).toString(16);
+}
+window.hashLocalPin = hashLocalPin;
+
+// Dọn dẹp khóa plaintext cũ nếu còn tồn tại trong localStorage (Ponytail Security)
+try {
+    localStorage.removeItem('sgk_parent_pin_raw');
+} catch (e) {}
+
+// C. Parent PIN Verification (Robust, Non-bypassable)
 async function verifyParentPin(pinInput) {
     const pin = (pinInput || '').trim();
-    if (pin === '1234') return true; // Fail-safe default
-    
-    const savedPin = localStorage.getItem('sgk_parent_pin_raw');
-    if (savedPin && pin === savedPin) return true;
+    if (!pin) return false;
+
+    const p = window.getProgress ? window.getProgress() : null;
+    const isCustomPin = p && p.parentPin && !p.parentPin.isDefault && p.parentPin.hash;
+
+    // Chưa đặt PIN riêng: chấp nhận PIN mặc định 1234
+    if (!isCustomPin) {
+        return pin === '1234';
+    }
+
+    // Đã đặt PIN riêng: CẤM tuyệt đối bypass 1234, chỉ chấp nhận hash hợp lệ
+    const targetHash = p.parentPin.hash;
+    if (hashLocalPin(pin) === targetHash) return true;
 
     try {
         if (window.crypto && window.crypto.subtle) {
             const inputHash = await sha256(pin);
-            const savedHash = localStorage.getItem(PIN_HASH_KEY) || DEFAULT_PIN_HASH;
-            if (inputHash === savedHash) return true;
+            if (inputHash === targetHash) return true;
         }
-    } catch (e) {
-        console.warn('Crypto subtle not available, fallback to raw check');
-    }
+    } catch (e) {}
+
     return false;
 }
 
 async function setParentPin(newPin) {
     const cleanPin = (newPin || '').trim();
-    localStorage.setItem('sgk_parent_pin_raw', cleanPin);
+    if (!cleanPin) return;
+
     try {
-        if (window.crypto && window.crypto.subtle) {
-            const newHash = await sha256(cleanPin);
-            localStorage.setItem(PIN_HASH_KEY, newHash);
-        }
+        localStorage.removeItem('sgk_parent_pin_raw');
     } catch (e) {}
+
+    const hash = hashLocalPin(cleanPin);
+    const p = window.getProgress ? window.getProgress() : { version: 2 };
+    p.parentPin = {
+        hash: hash,
+        isDefault: false
+    };
+    if (window.saveProgress) {
+        window.saveProgress(p);
+    } else {
+        localStorage.setItem(STATE_KEY, JSON.stringify(p));
+    }
 }
 
 // C. Frame Buster (Chống nhúng iframe trái phép)
@@ -203,7 +236,11 @@ async function smartFetch(path) {
 
     for (const url of uniqueCandidates) {
         try {
-            const res = await fetch(url);
+            const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+            const timeoutId = controller ? setTimeout(() => controller.abort(), 5000) : null;
+            const fetchOpts = controller ? { signal: controller.signal } : {};
+            const res = await fetch(url, fetchOpts);
+            if (timeoutId) clearTimeout(timeoutId);
             if (res.ok) {
                 const prefix = url.substring(0, url.length - clean.length);
                 _smartBasePrefix = prefix;

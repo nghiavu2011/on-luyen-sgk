@@ -270,14 +270,15 @@
         let failedAttempts = 0;
         let lockUntil = 0;
 
-        function hashLocalPin(str) {
+        const hashLocalPin = window.hashLocalPin || function(str) {
             let h = 0x811c9dc5;
             for (let i = 0; i < str.length; i++) {
                 h ^= str.charCodeAt(i);
                 h = Math.imul(h, 0x01000193);
             }
             return 'lpin_' + (h >>> 0).toString(16);
-        }
+        };
+        try { localStorage.removeItem('sgk_parent_pin_raw'); } catch(e) {}
 
         function isPinWeak(pin) {
             if (!pin || pin.length < 4 || pin.length > 6 || !/^\d+$/.test(pin)) return true;

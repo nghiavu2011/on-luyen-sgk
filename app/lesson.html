@@ -758,7 +758,7 @@
             }
 
             bodyEl.innerHTML = html;
-            renderKaTeX();
+            renderKaTeX(bodyEl);
         }
 
         // P0-2b: Bỏ XP cho hành vi đọc - chỉ ghi nhận trạng thái
@@ -813,16 +813,17 @@
             }
         }
 
-        function renderKaTeX() {
+        function renderKaTeX(targetEl) {
             if (window.renderMathInElement) {
-                renderMathInElement(document.body, {
+                const root = targetEl || document.getElementById('lesson-body') || document.body;
+                renderMathInElement(root, {
                     delimiters: [
                         {left: '$$', right: '$$', display: true},
                         {left: '$', right: '$', display: false}
                     ],
                     throwOnError: false
                 });
-                document.querySelectorAll('.katex').forEach(el => {
+                root.querySelectorAll('.katex').forEach(el => {
                     if (!el.getAttribute('aria-label')) {
                         const annotation = el.querySelector('annotation');
                         const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();

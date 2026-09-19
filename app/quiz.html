@@ -538,14 +538,14 @@
             const userInfoEl = document.getElementById('user-info-text');
             if (userInfoEl) userInfoEl.textContent = `${ctx.nickname} (Lớp ${ctx.grade})`;
 
-            // P2-4: Bảng màu cấp học theo getContext().level
-            const level = ctx.level || (gNum >= 10 ? 'c3' : (gNum <= 5 ? 'c1' : 'c2'));
+            // P2-4: Bảng màu cấp học theo getContext().levelId
+            const levelKey = ctx.levelId || (ctx.level && ctx.level.id) || (gNum >= 10 ? 'c3' : (gNum <= 5 ? 'c1' : 'c2'));
             const LEVEL_PALETTE = {
                 c1: { primary: '#ea580c', lightBg: '#fff7ed', border: '#fed7aa' },
                 c2: { primary: '#0284c7', lightBg: '#f0f9ff', border: '#bae6fd' },
                 c3: { primary: '#059669', lightBg: '#f0fdf4', border: '#bbf7d0' }
             };
-            const pal = LEVEL_PALETTE[level] || LEVEL_PALETTE.c2;
+            const pal = LEVEL_PALETTE[levelKey] || LEVEL_PALETTE.c2;
             document.documentElement.style.setProperty('--thpt-emerald', pal.primary);
             document.documentElement.style.setProperty('--ol-primary', pal.primary);
             
@@ -936,7 +936,7 @@
                 </div>
             `;
 
-            renderKaTeX();
+            renderKaTeX(document.getElementById('question-container'));
         }
 
         function chooseOption(displayIdx) {
@@ -977,7 +977,7 @@
                 </div>
                 ${breakdownHtml}
             `;
-            renderKaTeX();
+            renderKaTeX(expBox);
             } else {
                 expBox.style.display = 'none';
             }
@@ -1176,7 +1176,7 @@
                     }
                 }
                 box.style.display = 'block';
-                renderKaTeX();
+                renderKaTeX(box);
             } else {
                 box.style.display = 'none';
             }
@@ -1391,7 +1391,7 @@
             });
 
             applyReviewFilter();
-            renderKaTeX();
+            renderKaTeX(document.getElementById('result-screen'));
         }
 
         function setReviewFilter(filter) {
@@ -1467,16 +1467,17 @@
             }, 2000);
         }
 
-        function renderKaTeX() {
+        function renderKaTeX(targetEl) {
             if (window.renderMathInElement) {
-                renderMathInElement(document.body, {
+                const root = targetEl || document.getElementById('question-container') || document.body;
+                renderMathInElement(root, {
                     delimiters: [
                         {left: '$$', right: '$$', display: true},
                         {left: '$', right: '$', display: false}
                     ],
                     throwOnError: false
                 });
-                document.querySelectorAll('.katex').forEach(el => {
+                root.querySelectorAll('.katex').forEach(el => {
                     if (!el.getAttribute('aria-label')) {
                         const annotation = el.querySelector('annotation');
                         const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();
