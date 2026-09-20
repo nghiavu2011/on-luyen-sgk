@@ -389,6 +389,7 @@
     <script src="js/context.js"></script>
     <script src="js/stats.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/security-protect.js"></script>
     <script>
         let lessons = [];
         let currentLessonIdx = 0;
@@ -396,9 +397,12 @@
 
         async function init() {
             params = getUrlParams();
-            const grade = params.grade || '06';
-            const subject = params.subject || 'toan';
-            const chapter = params.chapter || 'ch01';
+            const grade = (typeof sanitizeGrade === 'function') ? sanitizeGrade(params.grade) : (params.grade || '06');
+            const subject = (typeof sanitizeSubject === 'function') ? sanitizeSubject(params.subject) : (params.subject || 'toan');
+            const chapter = (typeof sanitizeParam === 'function') ? sanitizeParam(params.chapter, 'ch01') : (params.chapter || 'ch01');
+            params.grade = grade;
+            params.subject = subject;
+            params.chapter = chapter;
 
             const gNum = parseInt(grade, 10);
             const isTHPT = (gNum >= 10);

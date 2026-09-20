@@ -22,14 +22,25 @@ const LEVEL_META = {
 function getContext() {
   const params = new URLSearchParams(window.location.search);
   
-  let grade = params.get('grade') || localStorage.getItem('sgk_selected_grade') || '06';
+  let rawGrade = params.get('grade') || localStorage.getItem('sgk_selected_grade') || '06';
+  let grade = String(rawGrade).replace(/[^0-9]/g, '');
+  if (!grade || parseInt(grade, 10) < 1 || parseInt(grade, 10) > 12) grade = '06';
   if (grade.length === 1) grade = '0' + grade; // chuẩn hóa 6 -> 06
   
-  const subject = params.get('subject') || localStorage.getItem('sgk_selected_subject') || 'toan';
-  const chapter = params.get('chapter') || 'ch01';
-  const lesson = params.get('lesson') || 'l01';
-  const exam = params.get('exam') || '';
-  const mode = params.get('mode') || (exam ? 'exam' : 'practice');
+  let rawSubject = params.get('subject') || localStorage.getItem('sgk_selected_subject') || 'toan';
+  let subject = String(rawSubject).toLowerCase().replace(/[^a-z0-9_-]/g, '') || 'toan';
+
+  let rawChapter = params.get('chapter') || 'ch01';
+  let chapter = String(rawChapter).replace(/[^a-z0-9_-]/gi, '') || 'ch01';
+
+  let rawLesson = params.get('lesson') || 'l01';
+  let lesson = String(rawLesson).replace(/[^a-z0-9_-]/gi, '') || 'l01';
+
+  let rawExam = params.get('exam') || '';
+  let exam = String(rawExam).replace(/[^a-z0-9_-]/gi, '');
+
+  let rawMode = params.get('mode') || (exam ? 'exam' : 'practice');
+  let mode = String(rawMode).replace(/[^a-z0-9_-]/gi, '') || 'practice';
   
   const levelId = LEVEL_BY_GRADE[grade] || 'c2';
   const level = LEVEL_META[levelId];

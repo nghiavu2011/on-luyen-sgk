@@ -4,10 +4,49 @@ var PIN_HASH_KEY = window.PIN_HASH_KEY || 'sgk_parent_pin_hash';
 // Default SHA-256 hash for PIN '1234'
 var DEFAULT_PIN_HASH = window.DEFAULT_PIN_HASH || '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4';
 
+// 0. XSS Prevention & Sanitization Helpers (Alibaba OCR Standards)
+function escapeHTML(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+window.escapeHTML = escapeHTML;
+
+function sanitizeGrade(grade) {
+    if (!grade) return '06';
+    const clean = String(grade).replace(/[^0-9]/g, '');
+    const num = parseInt(clean, 10);
+    if (isNaN(num) || num < 1 || num > 12) return '06';
+    return String(num).padStart(2, '0');
+}
+window.sanitizeGrade = sanitizeGrade;
+
+function sanitizeSubject(subject) {
+    if (!subject) return 'toan';
+    const clean = String(subject).toLowerCase().replace(/[^a-z0-9_-]/g, '');
+    return clean || 'toan';
+}
+window.sanitizeSubject = sanitizeSubject;
+
+function sanitizeParam(val, fallback) {
+    if (fallback === undefined) fallback = '';
+    if (val === null || val === undefined) return fallback;
+    return String(val).replace(/[<>"'&]/g, '').trim();
+}
+window.sanitizeParam = sanitizeParam;
+
 // 1. URL Params Helper
 function getUrlParams() {
     const params = new URLSearchParams(window.location.search);
-    return Object.fromEntries(params.entries());
+    const result = {};
+    for (const [key, value] of params.entries()) {
+        result[key] = sanitizeParam(value);
+    }
+    return result;
 }
 
 // 2. State Management

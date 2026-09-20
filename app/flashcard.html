@@ -357,6 +357,7 @@
     <script src="js/context.js"></script>
     <script src="js/stats.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/security-protect.js"></script>
     <script>
         let params = {};
         let lessons = [];
@@ -376,8 +377,8 @@
 
         async function init() {
             params = getUrlParams();
-            params.grade = String(params.grade || '11').padStart(2, '0');
-            params.subject = params.subject || 'vat-li';
+            params.grade = (typeof sanitizeGrade === 'function') ? sanitizeGrade(params.grade || '11') : String(params.grade || '11').padStart(2, '0');
+            params.subject = (typeof sanitizeSubject === 'function') ? sanitizeSubject(params.subject || 'vat-li') : (params.subject || 'vat-li');
             if (!params.chapter) {
                 params.chapter = 'ch01';
             } else if (!String(params.chapter).startsWith('ch')) {

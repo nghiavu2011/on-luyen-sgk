@@ -2322,4 +2322,52 @@ textarea:focus-visible,
     font-weight: 400;
 }
 
+/* ==========================================================
+   CONTENT PROTECTION & ANTI-COPY SUITE (N&Mstudio Education)
+   ========================================================== */
+body, 
+.ol-container, 
+body,
+.thpt-container, 
+.thcs-container, 
+.thpt-exam-grid, 
+.thpt-question-body, 
+.thpt-opt-btn, 
+.ol-card-box, 
+.ol-fc-card-scene, 
+.ol-fc-face, 
+.thcs-layout-grid, 
+.review-card {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+}
+
+/* Cho phép bôi đen chọn chữ trong các ô nhập liệu của học sinh */
+input, 
+textarea, 
+[contenteditable="true"] {
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+}
+
+/* Chống kéo thả hình ảnh */
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    user-drag: none;
+}
+
+/* Chống in ấn và xuất PDF trái phép */
+@media print {
+    html, body {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
 
