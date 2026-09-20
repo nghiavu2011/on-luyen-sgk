@@ -19,6 +19,39 @@
       }
     }
     </script>
+    <style>
+        .star-filter-btn {
+            border: 1px solid #cbd5e1;
+            background: #f8fafc;
+            color: #475569;
+            padding: 0.4rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .star-filter-btn:hover {
+            border-color: #94a3b8;
+            background: #f1f5f9;
+        }
+        .star-filter-btn.active {
+            background: #059669;
+            color: white;
+            border-color: #059669;
+            box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
+        }
+        .quiz-star-card {
+            transition: all 0.2s ease;
+        }
+        .quiz-star-card.dimmed {
+            opacity: 0.25;
+            transform: scale(0.97);
+        }
+    </style>
 </head>
 <body>
 
@@ -100,6 +133,24 @@
                 <a id="sub-dt-remediate-btn" href="#" class="ol-btn-primary" style="background: #dc2626; text-decoration: none; font-size: 0.82rem; padding: 0.45rem 0.9rem; display: none;">
                     📕 Luyện tập câu sai (0)
                 </a>
+            </div>
+        </div>
+
+        <!-- Star Difficulty Filter Bar -->
+        <div id="star-filter-bar" style="background: white; border: 1.5px solid #e2e8f0; border-radius: 14px; padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.85rem; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span style="font-size: 1.2rem;">⭐</span>
+                <div>
+                    <strong style="color: #0f172a; font-size: 0.92rem;">Phân loại cấp độ đề thi:</strong>
+                    <div style="font-size: 0.78rem; color: #64748b;">Chọn mức độ thử thách phù hợp với mục tiêu của em</div>
+                </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.45rem;" id="star-filter-buttons">
+                <button type="button" class="star-filter-btn active" data-star="all" onclick="filterQuizzesByStar('all')">🎯 Tất cả đề</button>
+                <button type="button" class="star-filter-btn" data-star="star1" onclick="filterQuizzesByStar('star1')">⭐ 1 Sao (Cơ bản)</button>
+                <button type="button" class="star-filter-btn" data-star="star2" onclick="filterQuizzesByStar('star2')">⭐⭐ 2 Sao (Khá)</button>
+                <button type="button" class="star-filter-btn" data-star="star3" onclick="filterQuizzesByStar('star3')">⭐⭐⭐ 3 Sao (Giỏi)</button>
+                <button type="button" class="star-filter-btn" data-star="star4" onclick="filterQuizzesByStar('star4')">⭐⭐⭐⭐ 4 Sao (9-10)</button>
             </div>
         </div>
 
@@ -352,19 +403,51 @@
 
                         ${isRealChapter && (ch.quizzes && ch.quizzes.length > 0) ? `
                             <div style="background: #f8fafc; border-radius: var(--ol-radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; border: 1px solid var(--ol-border);">
-                                <div style="font-size: 0.8rem; font-weight: 700; color: #475569; text-transform: uppercase; margin-bottom: 0.4rem; display: flex; align-items: center; justify-content: space-between;">
-                                    <span>✍️ Các đề ôn luyện chuyên sâu:</span>
-                                    <span style="font-size: 0.75rem; color: #0284c7; font-weight: 800;">${ch.quizzes.length} đề phân hóa</span>
+                                <div style="font-size: 0.8rem; font-weight: 700; color: #475569; text-transform: uppercase; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between;">
+                                    <span>✍️ Các đề ôn luyện phân hóa theo sao:</span>
+                                    <span style="font-size: 0.75rem; color: #059669; font-weight: 800;">${ch.quizzes.length} cấp độ phân hóa</span>
                                 </div>
-                                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                                <div style="display: flex; flex-wrap: wrap; gap: 0.55rem;">
                                     ${ch.quizzes.map((qz, qIdx) => {
-                                        const quizMode = (qz.id === 'tonghop') ? 'exam' : 'practice';
+                                        let starKey = 'star1';
+                                        let starBadge = '⭐ 1 Sao · Nhận biết';
+                                        let starBorder = '#bfdbfe';
+                                        let starBg = '#eff6ff';
+                                        let starColor = '#1e40af';
+                                        let starIcon = '🌱';
+
+                                        if (qz.id === 'de2' || qIdx === 1) {
+                                            starKey = 'star2';
+                                            starBadge = '⭐⭐ 2 Sao · Thông hiểu';
+                                            starBorder = '#fed7aa';
+                                            starBg = '#fff7ed';
+                                            starColor = '#c2410c';
+                                            starIcon = '🔍';
+                                        } else if (qz.id === 'tonghop' || qz.id === 'de3' || qIdx === 2) {
+                                            starKey = 'star3';
+                                            starBadge = '⭐⭐⭐ 3 Sao · Vận dụng';
+                                            starBorder = '#bbf7d0';
+                                            starBg = '#f0fdf4';
+                                            starColor = '#15803d';
+                                            starIcon = '⚡';
+                                        } else if (qz.id === 'de4' || qIdx >= 3) {
+                                            starKey = 'star4';
+                                            starBadge = '⭐⭐⭐⭐ 4 Sao · Thử thách 9-10';
+                                            starBorder = '#fde68a';
+                                            starBg = '#fefce8';
+                                            starColor = '#b45309';
+                                            starIcon = '👑';
+                                        }
+
+                                        const quizMode = (qz.id === 'tonghop' || qz.id === 'de4') ? 'exam' : 'practice';
                                         return `
                                         <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=${qz.id}&mode=${quizMode}"
-                                           style="text-decoration: none; font-size: 0.85rem; font-weight: 700; color: #1e293b; background: white; padding: 0.4rem 0.85rem; border-radius: 6px; border: 1px solid #cbd5e1; display: inline-flex; align-items: center; gap: 0.4rem; box-shadow: 0 1px 2px rgba(0,0,0,0.04); transition: all 0.15s;">
-                                            <span style="font-size: 0.9rem;">${qIdx === 0 ? '📖' : (qIdx === 1 ? '✍️' : '🏆')}</span>
+                                           class="quiz-star-card"
+                                           data-star="${starKey}"
+                                           style="text-decoration: none; font-size: 0.85rem; font-weight: 700; color: #1e293b; background: white; padding: 0.45rem 0.85rem; border-radius: 8px; border: 1.5px solid ${starBorder}; display: inline-flex; align-items: center; gap: 0.45rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04); transition: all 0.2s;">
+                                            <span style="font-size: 0.95rem;">${starIcon}</span>
                                             <span>${qz.title}</span>
-                                            <span class="ol-badge-tag ${qIdx === 2 ? 'ol-badge-orange' : 'ol-badge-blue'}" style="font-size: 0.7rem; padding: 0.15rem 0.45rem;">${qz.badge || 'Luyện tập'}</span>
+                                            <span class="ol-badge-tag" style="background: ${starBg}; color: ${starColor}; font-size: 0.72rem; font-weight: 800; border: 1px solid ${starBorder}; padding: 0.15rem 0.5rem; border-radius: 6px;">${starBadge}</span>
                                         </a>
                                     `;
                                     }).join('')}
@@ -421,6 +504,25 @@
                         <a href="index.html" class="ol-btn-back" style="margin-top: 1rem;">Quay lại trang chủ</a>
                     </div>`;
             }
+        }
+
+        let currentStarFilter = 'all';
+        function filterQuizzesByStar(starKey) {
+            currentStarFilter = starKey;
+            document.querySelectorAll('.star-filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-star') === starKey);
+            });
+
+            document.querySelectorAll('.quiz-star-card').forEach(card => {
+                const cardStar = card.getAttribute('data-star');
+                if (starKey === 'all' || cardStar === starKey) {
+                    card.classList.remove('dimmed');
+                    card.style.display = 'inline-flex';
+                } else {
+                    card.classList.add('dimmed');
+                    card.style.display = 'none';
+                }
+            });
         }
 
         init();

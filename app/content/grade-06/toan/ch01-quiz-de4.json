@@ -1,0 +1,217 @@
+{
+  "chapterId": "ch01",
+  "examId": "de4",
+  "title": "Toán 6 — Chương 1: Tập hợp các số tự nhiên: Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+  "description": "Bộ câu hỏi vận dụng cao 4 sao: Tính chất chia hết, chữ số tận cùng, nguyên lý Dirichlet và bài toán tối ưu thực tiễn.",
+  "difficulty": "expert",
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": "t6_c1_d4_01",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Chữ số tận cùng của tổng dãy lũy thừa",
+      "question": "Cho tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{2024}$. Chữ số tận cùng của tổng $S$ là:",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Chu kỳ chữ số tận cùng của lũy thừa cơ số 2 là nhóm 4 số: 2, 4, 8, 6. Tổng của một chu kỳ 4 số: 2 + 4 + 8 + 6 = 20 có tận cùng là 0.",
+        "steps": [
+          "Bước 1: Tổng S có 2024 số hạng, số mũ từ 1 đến 2024.",
+          "Bước 2: Vì 2024 chia hết cho 4 (2024 = 506 × 4) nên có thể chia S thành 506 nhóm, mỗi nhóm gồm 4 số hạng liên tiếp.",
+          "Bước 3: Mỗi nhóm 4 số hạng liên tiếp luôn có tổng các chữ số tận cùng là 2 + 4 + 8 + 6 = 20 (tận cùng bằng 0).",
+          "Bước 4: Tổng của 506 số đều có chữ số tận cùng là 0 chắc chắn có chữ số tận cùng là 0."
+        ],
+        "trap": "Học sinh tính chữ số tận cùng của số hạng cuối cùng $2^{2024}$ (tận cùng là 6) rồi chọn 6 mà quên đây là tổng của dãy.",
+        "socraticPrompt": "Lũy thừa của 2 có chữ số tận cùng lặp lại theo chu kỳ mấy số? Tổng của 4 chữ số tận cùng trong một chu kỳ là bao nhiêu?"
+      },
+      "socraticPrompt": "Lũy thừa của 2 có chữ số tận cùng lặp lại theo chu kỳ mấy số? Tổng của 4 chữ số tận cùng trong một chu kỳ là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì tổng gồm 506 nhóm 4 số hạng, mỗi nhóm có tổng tận cùng bằng 0 nên cả tổng có tận cùng là 0.",
+        "Sai vì nhầm chữ số tận cùng của số hạng đầu tiên 2^1.",
+        "Sai vì nhầm lẫn khi cộng dồn các số dư chữ số tận cùng.",
+        "Sai vì nhầm chữ số tận cùng của số hạng cuối 2^{2024} (tận cùng là 6) với chữ số tận cùng của cả tổng S."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c1_d4_02",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Tìm số tự nhiên thỏa mãn phép chia hết",
+      "question": "Tìm tất cả các số tự nhiên $n$ sao cho biểu thức $(3n + 16)$ chia hết cho $(n + 2)$.",
+      "options": [
+        "n ∈ {0; 3; 8}",
+        "n ∈ {1; 2; 5; 10}",
+        "n ∈ {0; 1; 3; 8}",
+        "n ∈ {2; 5; 10}"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Tách tử số theo mẫu số: $3n + 16 = 3(n + 2) + 10$. Để phép chia hết xảy ra thì 10 phải chia hết cho $(n + 2)$.",
+        "steps": [
+          "Bước 1: Ta biến đổi $3n + 16 = 3(n + 2) + 10$.",
+          "Bước 2: Vì $3(n + 2)$ luôn chia hết cho $n + 2$, nên để $(3n + 16) \\,\\vdots\\, (n + 2)$ thì $10 \\,\\vdots\\, (n + 2)$, tức là $(n + 2) \\in Ư(10)$.",
+          "Bước 3: Tập các ước của 10 là $\\{1; 2; 5; 10\\}$.",
+          "Bước 4: Do $n$ là số tự nhiên ($n \\ge 0$) nên $n + 2 \\ge 2$. Do đó $n + 2 \\in \\{2; 5; 10\\}$.",
+          "Bước 5: Giải ra ta được $n \\in \\{0; 3; 8\\}$."
+        ],
+        "trap": "Lấy cả ước $n + 2 = 1 \\implies n = -1$ (loại vì n là số tự nhiên) hoặc nhầm $n$ với $n + 2$.",
+        "socraticPrompt": "Khi tách $3n + 16 = 3(n + 2) + 10$, điều kiện để biểu thức chia hết cho $n + 2$ là gì? Giá trị nhỏ nhất của $n + 2$ khi $n$ là số tự nhiên là bao nhiêu?"
+      },
+      "socraticPrompt": "Khi tách $3n + 16 = 3(n + 2) + 10$, điều kiện để biểu thức chia hết cho $n + 2$ là gì? Giá trị nhỏ nhất của $n + 2$ khi $n$ là số tự nhiên là bao nhiêu?",
+      "distractorReasons": [
+        "Đúng vì $n + 2 \\in \\{2; 5; 10\\} \\implies n \\in \\{0; 3; 8\\}$ đều là số tự nhiên hợp lệ.",
+        "Sai vì đây là các ước của 10, tức là các giá trị của $n + 2$ chứ chưa trừ đi 2 để tìm $n$.",
+        "Sai vì số $n = 1$ cho $3(1) + 16 = 19$, không chia hết cho $1 + 2 = 3$.",
+        "Sai vì đây là giá trị của $n + 2$ chứ không phải giá trị của $n$."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t6_c1_d4_03",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "So sánh hai lũy thừa lớn bằng số trung gian",
+      "question": "So sánh hai lũy thừa $A = 2^{300}$ và $B = 3^{200}$, khẳng định nào sau đây là ĐÚNG?",
+      "options": [
+        "A = B",
+        "A < B",
+        "A > B",
+        "Không so sánh được vì khác cả cơ số lẫn số mũ"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Đưa hai lũy thừa về cùng số mũ bằng quy tắc lũy thừa của lũy thừa: $a^{m \\cdot n} = (a^m)^n$.",
+        "steps": [
+          "Bước 1: Nhận thấy ƯCLN(300, 200) = 100, ta đưa cả hai lũy thừa về số mũ 100.",
+          "Bước 2: Biến đổi $A = 2^{300} = 2^{3 \\times 100} = (2^3)^{100} = 8^{100}$.",
+          "Bước 3: Biến đổi $B = 3^{200} = 3^{2 \\times 100} = (3^2)^{100} = 9^{100}$.",
+          "Bước 4: Vì $8 < 9$ nên $8^{100} < 9^{100}$, suy ra $A < B$."
+        ],
+        "trap": "Học sinh nhìn thấy cơ số 2 có số mũ 300 lớn hơn nên vội kết luận $A > B$.",
+        "socraticPrompt": "Có thể đưa số mũ 300 và 200 về cùng một số mũ chung nào? Sau khi đưa về cùng số mũ thì cơ số nào lớn hơn?"
+      },
+      "socraticPrompt": "Có thể đưa số mũ 300 và 200 về cùng một số mũ chung nào? Sau khi đưa về cùng số mũ thì cơ số nào lớn hơn?",
+      "distractorReasons": [
+        "Sai vì $8^{100} \\ne 9^{100}$.",
+        "Đúng vì $A = 8^{100}$ và $B = 9^{100}$, vì $8 < 9$ nên $A < B$.",
+        "Sai vì ngộ nhận số mũ 300 lớn hơn 200 mà không tính đến cơ số $2^3 = 8 < 3^2 = 9$.",
+        "Sai vì hoàn toàn so sánh được bằng cách đưa về cùng số mũ 100."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c1_d4_04",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Dấu hiệu chia hết kết hợp nhiều số",
+      "question": "Tìm các chữ số $a$ và $b$ để số $\\overline{1a83b}$ chia hết cho cả ba số 2, 5 và 9.",
+      "options": [
+        "a = 0, b = 6",
+        "a = 6, b = 0",
+        "a = 6, b = 5",
+        "a = 5, b = 0"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng bằng 0. Số chia hết cho 9 phải có tổng các chữ số chia hết cho 9.",
+        "steps": [
+          "Bước 1: Để số $\\overline{1a83b}$ chia hết cho cả 2 và 5 thì chữ số tận cùng bắt buộc $b = 0$.",
+          "Bước 2: Thay $b = 0$ ta được số $\\overline{1a830}$.",
+          "Bước 3: Tổng các chữ số là $1 + a + 8 + 3 + 0 = 12 + a$.",
+          "Bước 4: Để số chia hết cho 9 thì $(12 + a) \\,\\vdots\\, 9$. Vì $a$ là chữ số ($0 \\le a \\le 9$) nên $a = 6$ (vì $12 + 6 = 18 \\,\\vdots\\, 9$).",
+          "Bước 5: Vậy $a = 6, b = 0$."
+        ],
+        "trap": "Nhầm vị trí giữa $a$ và $b$, hoặc chọn $b = 5$ (khi đó không chia hết cho 2).",
+        "socraticPrompt": "Một số vừa chia hết cho 2 vừa chia hết cho 5 thì chữ số tận cùng $b$ phải là bao nhiêu? Khi đó tổng các chữ số bằng bao nhiêu để chia hết cho 9?"
+      },
+      "socraticPrompt": "Một số vừa chia hết cho 2 vừa chia hết cho 5 thì chữ số tận cùng $b$ phải là bao nhiêu? Khi đó tổng các chữ số bằng bao nhiêu để chia hết cho 9?",
+      "distractorReasons": [
+        "Sai vì nhầm lẫn vị trí giữa $a$ và $b$ (nếu $b = 6$ thì số không chia hết cho 5).",
+        "Đúng vì $b = 0$ giúp chia hết cho cả 2 và 5, và $a = 6$ cho tổng các chữ số là 18 chia hết cho 9.",
+        "Sai vì $b = 5$ thì số là số lẻ, không chia hết cho 2.",
+        "Sai vì nếu $a = 5$ thì tổng các chữ số là $12 + 5 = 17$, không chia hết cho 9."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t6_c1_d4_05",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Bài toán thực tế ứng dụng ƯCLN",
+      "question": "Một nền nhà hình chữ nhật có chiều dài 840 cm và chiều rộng 600 cm. Người ta muốn lát kín nền nhà bằng các viên gạch men hình vuông cùng kích thước mà không viên gạch nào bị cắt vụn. Độ dài cạnh viên gạch lớn nhất có thể lát là:",
+      "options": [
+        "60 cm",
+        "100 cm",
+        "120 cm",
+        "240 cm"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Để lát kín mà không cần cắt gạch, cạnh của viên gạch hình vuông phải là ước chung của chiều dài và chiều rộng. Để cạnh lớn nhất, nó chính là ƯCLN của hai kích thước.",
+        "steps": [
+          "Bước 1: Gọi độ dài cạnh viên gạch hình vuông là $a$ (cm).",
+          "Bước 2: Để lát kín không cắt gạch thì $840 \\,\\vdots\\, a$ và $600 \\,\\vdots\\, a$, do đó $a \\in ƯC(840, 600)$.",
+          "Bước 3: Vì $a$ lớn nhất nên $a = \\text{ƯCLN}(840, 600)$.",
+          "Bước 4: Phân tích ra thừa số nguyên tố: $840 = 2^3 \\times 3 \\times 5 \\times 7$ và $600 = 2^3 \\times 3 \\times 5^2$.",
+          "Bước 5: $\\text{ƯCLN}(840, 600) = 2^3 \\times 3 \\times 5 = 8 \\times 3 \\times 5 = 120\\text{ cm}$."
+        ],
+        "trap": "Tính sai thừa số nguyên tố chung hoặc chọn 60 cm (là một ước chung nhưng chưa phải lớn nhất).",
+        "socraticPrompt": "Để các viên gạch vuông vừa khít chiều dài và chiều rộng mà không bị cắt, cạnh viên gạch có quan hệ gì với 840 và 600? Khi cạnh lớn nhất thì nó là gì?"
+      },
+      "socraticPrompt": "Để các viên gạch vuông vừa khít chiều dài và chiều rộng mà không bị cắt, cạnh viên gạch có quan hệ gì với 840 và 600? Khi cạnh lớn nhất thì nó là gì?",
+      "distractorReasons": [
+        "Sai vì 60 cm là một ước chung nhưng chưa phải là ước chung lớn nhất.",
+        "Sai vì 840 không chia hết cho 100.",
+        "Đúng vì $\\text{ƯCLN}(840, 600) = 120\\text{ cm}$ là kích thước lớn nhất thỏa mãn.",
+        "Sai vì 600 không chia hết cho 240."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t6_c1_d4_06",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Nguyên lý Dirichlet và bài toán số dư",
+      "question": "Cho tập hợp $M$ gồm 11 số tự nhiên bất kỳ. Khẳng định nào sau đây luôn luôn ĐÚNG?",
+      "options": [
+        "Trong tập M luôn có ít nhất một số chia hết cho 11",
+        "Trong tập M luôn có ít nhất 2 số có cùng chữ số hàng chục",
+        "Luôn chọn được ít nhất 2 số trong M có hiệu chia hết cho 10",
+        "Tổng của 11 số trong M luôn là một số chẵn"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nguyên lý Dirichlet (nguyên lý chuồng và bồ câu): Nếu có $n + 1$ con bồ câu nhốt vào $n$ cái chuồng thì luôn có ít nhất một cái chuồng chứa từ 2 con bồ câu trở lên.",
+        "steps": [
+          "Bước 1: Khi chia một số tự nhiên cho 10, chỉ có 10 khả năng về số dư: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 (tương ứng với 10 cái chuồng).",
+          "Bước 2: Trong tập $M$ có 11 số tự nhiên (11 con bồ câu).",
+          "Bước 3: Theo nguyên lý Dirichlet, khi phân phối 11 số vào 10 loại số dư, chắc chắn có ít nhất 2 số có cùng số dư khi chia cho 10.",
+          "Bước 4: Hai số có cùng số dư khi chia cho 10 thì hiệu của chúng chắc chắn chia hết cho 10."
+        ],
+        "trap": "Ngộ nhận rằng có 11 số thì phải có số chia hết cho 11 (sai, ví dụ lấy 11 số đều bằng 1).",
+        "socraticPrompt": "Khi chia một số cho 10 thì có bao nhiêu số dư có thể xảy ra? Nếu có 11 số thì theo nguyên lý Dirichlet điều gì chắc chắn xảy ra với các số dư?"
+      },
+      "socraticPrompt": "Khi chia một số cho 10 thì có bao nhiêu số dư có thể xảy ra? Nếu có 11 số thì theo nguyên lý Dirichlet điều gì chắc chắn xảy ra với các số dư?",
+      "distractorReasons": [
+        "Sai vì nếu chọn 11 số đều là 1 thì không có số nào chia hết cho 11.",
+        "Sai vì chữ số hàng chục có thể chọn tùy ý khác nhau (ví dụ: 10, 20, 30, ... 110).",
+        "Đúng theo nguyên lý Dirichlet: có 10 loại số dư khi chia cho 10 mà có 11 số, nên luôn có ít nhất 2 số cùng số dư, hiệu của chúng chia hết cho 10.",
+        "Sai vì nếu chọn 11 số lẻ thì tổng của 11 số lẻ là một số lẻ."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    }
+  ]
+}

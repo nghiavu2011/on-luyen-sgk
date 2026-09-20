@@ -1,0 +1,220 @@
+{
+  "chapterId": "ch01",
+  "examId": "de4",
+  "title": "Toán 11 — Chương 1: Hàm số lượng giác & Phương trình lượng giác: Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+  "description": "Đề thi phân loại học sinh giỏi 4 sao: Cực trị lượng giác, phương trình lượng giác chứa tham số, phương pháp miền giá trị và mô hình dao động thực tiễn.",
+  "difficulty": "expert",
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": "t11_c1_d4_01",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Giá trị lớn nhất và nhỏ nhất của hàm số lượng giác",
+      "question": "Giá trị lớn nhất $M$ của hàm số $y = \\sin^4 x + \\cos^4 x + \\sin x \\cos x$ là:",
+      "options": [
+        "M = 1",
+        "M = 9/8",
+        "M = 5/4",
+        "M = 3/2"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Biến đổi lượng giác: $\\sin^4 x + \\cos^4 x = 1 - 2\\sin^2 x \\cos^2 x = 1 - \\frac{1}{2}\\sin^2 2x$ và $\\sin x \\cos x = \\frac{1}{2}\\sin 2x$. Đặt ẩn phụ $t = \\sin 2x \\in [-1; 1]$.",
+        "steps": [
+          "Bước 1: Biến đổi hàm số: $y = 1 - \\frac{1}{2}\\sin^2 2x + \\frac{1}{2}\\sin 2x$.",
+          "Bước 2: Đặt $t = \\sin 2x$, với $t \\in [-1; 1]$. Khi đó hàm số trở thành $f(t) = -\\frac{1}{2}t^2 + \\frac{1}{2}t + 1$.",
+          "Bước 3: Tọa độ đỉnh của parabol là $t = -\\frac{b}{2a} = -\\frac{1/2}{2(-1/2)} = \\frac{1}{2} \\in [-1; 1]$.",
+          "Bước 4: Giá trị tại đỉnh: $f\\left(\\frac{1}{2}\\right) = -\\frac{1}{2}\\left(\\frac{1}{4}\\right) + \\frac{1}{2}\\left(\\frac{1}{2}\\right) + 1 = -\\frac{1}{8} + \\frac{1}{4} + 1 = \\frac{9}{8}$.",
+          "Bước 5: So sánh với hai biên: $f(-1) = 0$ và $f(1) = 1$. Vậy giá trị lớn nhất là $M = \\frac{9}{8}$."
+        ],
+        "trap": "Học sinh ngộ nhận giá trị lớn nhất đạt được khi $\\sin 2x = 1 \\implies M = 1$, bỏ qua điểm cực trị của tam thức bậc hai tại $t = 1/2$.",
+        "socraticPrompt": "Khi đưa về tam thức bậc hai theo biến $t = \\sin 2x$, đỉnh của parabol nằm ở giá trị nào của $t$? Giá trị hàm số tại đó là bao nhiêu?"
+      },
+      "socraticPrompt": "Khi đưa về tam thức bậc hai theo biến $t = \\sin 2x$, đỉnh của parabol nằm ở giá trị nào của $t$? Giá trị hàm số tại đó là bao nhiêu?",
+      "distractorReasons": [
+        "Sai vì $M = 1$ là giá trị tại biên $t = 1$, chưa phải là đỉnh parabol $t = 1/2$.",
+        "Đúng vì tại $t = \\sin 2x = 1/2$, hàm số đạt giá trị cực đại $M = 9/8$.",
+        "Sai vì tính nhầm hệ số khi biến đổi hằng đẳng thức.",
+        "Sai vì ngộ nhận $\\sin^4 x + \\cos^4 x$ đạt max bằng 1 và $\\sin x \\cos x$ đạt max bằng 1/2 cùng một lúc (hai giá trị không đạt đồng thời)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t11_c1_d4_02",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Đếm số nghiệm phương trình lượng giác trên đoạn",
+      "question": "Số nghiệm của phương trình $\\cos 2x - 3\\cos x + 2 = 0$ trên đoạn $[0; 4\\pi]$ là:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Sử dụng công thức nhân đôi $\\cos 2x = 2\\cos^2 x - 1$ để đưa về phương trình bậc hai theo $\\cos x$.",
+        "steps": [
+          "Bước 1: Phương trình $\\iff (2\\cos^2 x - 1) - 3\\cos x + 2 = 0 \\iff 2\\cos^2 x - 3\\cos x + 1 = 0$.",
+          "Bước 2: Giải phương trình bậc hai ta được $\\cos x = 1$ hoặc $\\cos x = \\frac{1}{2}$.",
+          "Bước 3: Với $\\cos x = 1 \\iff x = k2\\pi$. Trên $[0; 4\\pi]$ có 3 nghiệm: $x \\in \\{0; 2\\pi; 4\\pi\\}$.",
+          "Bước 4: Với $\\cos x = \\frac{1}{2} \\iff x = \\pm \\frac{\\pi}{3} + k2\\pi$. Trên $[0; 4\\pi]$ có 4 nghiệm: $\\frac{\\pi}{3}, \\frac{5\\pi}{3}, \\frac{7\\pi}{3}, \\frac{11\\pi}{3}$.",
+          "Bước 5: Tổng số nghiệm trên đoạn $[0; 4\\pi]$ là $3 + 4 = 7$ nghiệm (không có nghiệm trùng)."
+        ],
+        "trap": "Quên lấy nghiệm ở hai đầu mút $x = 0$ hoặc $x = 4\\pi$, hoặc đếm sót các nghiệm âm sau khi cộng chu kỳ $2\\pi$.",
+        "socraticPrompt": "Phương trình bậc hai theo $\\cos x$ cho những giá trị nào? Với mỗi giá trị đó, trên đoạn $[0; 4\\pi]$ (tương ứng 2 vòng tròn lượng giác) có bao nhiêu điểm ngọn?"
+      },
+      "socraticPrompt": "Phương trình bậc hai theo $\\cos x$ cho những giá trị nào? Với mỗi giá trị đó, trên đoạn $[0; 4\\pi]$ (tương ứng 2 vòng tròn lượng giác) có bao nhiêu điểm ngọn?",
+      "distractorReasons": [
+        "Sai vì đếm sót 2 nghiệm của họ nghiệm $\\cos x = 1/2$.",
+        "Sai vì quên lấy nghiệm tại biên $x = 0$ hoặc $x = 4\\pi$.",
+        "Đúng vì họ nghiệm $\\cos x = 1$ có 3 nghiệm và họ $\\cos x = 1/2$ có 4 nghiệm, tổng cộng 7 nghiệm.",
+        "Sai vì tính thừa một nghiệm lặp."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "t11_c1_d4_03",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Điều kiện có nghiệm của phương trình lượng giác bậc nhất",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình $\\sin x + \\sqrt{3}\\cos x = 2m - 1$ có nghiệm.",
+      "options": [
+        "-1/2 ≤ m ≤ 3/2",
+        "-1 ≤ m ≤ 2",
+        "m ≤ -1/2 hoặc m ≥ 3/2",
+        "-3/2 ≤ m ≤ 1/2"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phương trình dạng $a\\sin x + b\\cos x = c$ có nghiệm khi và chỉ khi $a^2 + b^2 \\ge c^2$.",
+        "steps": [
+          "Bước 1: Xác định các hệ số: $a = 1, b = \\sqrt{3}, c = 2m - 1$.",
+          "Bước 2: Điều kiện để phương trình có nghiệm: $a^2 + b^2 \\ge c^2 \\iff 1^2 + (\\sqrt{3})^2 \\ge (2m - 1)^2$.",
+          "Bước 3: Rút gọn: $1 + 3 \\ge (2m - 1)^2 \\iff 4 \\ge (2m - 1)^2$.",
+          "Bước 4: Khai căn bất đẳng thức: $-2 \\le 2m - 1 \\le 2$.",
+          "Bước 5: Giải bất phương trình kép: $-1 \\le 2m \\le 3 \\iff -\\frac{1}{2} \\le m \\le \\frac{3}{2}$."
+        ],
+        "trap": "Quên không bình phương vế phải $c^2$ hoặc giải sai bất phương trình chứa dấu trị tuyệt đối $|2m - 1| \\le 2$.",
+        "socraticPrompt": "Điều kiện có nghiệm của phương trình $a\\sin x + b\\cos x = c$ là gì? Áp dụng vào đây thì bất phương trình theo $m$ là gì?"
+      },
+      "socraticPrompt": "Điều kiện có nghiệm của phương trình $a\\sin x + b\\cos x = c$ là gì? Áp dụng vào đây thì bất phương trình theo $m$ là gì?",
+      "distractorReasons": [
+        "Đúng vì $a^2 + b^2 = 4 \\ge (2m - 1)^2 \\iff -1/2 \\le m \\le 3/2$.",
+        "Sai vì nhầm $(2m - 1)^2 \\le 9$.",
+        "Sai vì giải ngược dấu bất đẳng thức (đây là điều kiện vô nghiệm).",
+        "Sai vì sai dấu khi chuyển vế $-1$ qua hai vế."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t11_c1_d4_04",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Giải phương trình lượng giác bằng biến đổi tích",
+      "question": "Tập nghiệm của phương trình $\\sin x + \\cos x = \\sqrt{2}\\sin 5x$ là:",
+      "options": [
+        "x = π/16 + kπ/2 và x = π/8 + kπ/3 (k ∈ Z)",
+        "x = π/24 + kπ/2 và x = π/12 + kπ/3 (k ∈ Z)",
+        "x = π/16 + kπ và x = π/8 + k2π/3 (k ∈ Z)",
+        "x = π/8 + kπ/2 (k ∈ Z)"
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Sử dụng công thức cộng: $\\sin x + \\cos x = \\sqrt{2}\\sin\\left(x + \\frac{\\pi}{4}\\right)$.",
+        "steps": [
+          "Bước 1: Phương trình $\\iff \\sqrt{2}\\sin\\left(x + \\frac{\\pi}{4}\\right) = \\sqrt{2}\\sin 5x \\iff \\sin 5x = \\sin\\left(x + \\frac{\\pi}{4}\\right)$.",
+          "Bước 2: Trường hợp 1: $5x = x + \\frac{\\pi}{4} + k2\\pi \\iff 4x = \\frac{\\pi}{4} + k2\\pi \\iff x = \\frac{\\pi}{16} + \\frac{k\\pi}{2}$ ($k \\in \\mathbb{Z}$).",
+          "Bước 3: Trường hợp 2: $5x = \\pi - \\left(x + \\frac{\\pi}{4}\\right) + k2\\pi \\iff 6x = \\frac{3\\pi}{4} + k2\\pi \\iff x = \\frac{\\pi}{8} + \\frac{k\\pi}{3}$ ($k \\in \\mathbb{Z}$).",
+          "Bước 4: Hợp hai họ nghiệm ta được tập nghiệm hoàn chỉnh."
+        ],
+        "trap": "Học sinh chỉ giải trường hợp $5x = x + \\pi/4$ mà quên trường hợp góc bù $5x = \\pi - (x + \\pi/4)$.",
+        "socraticPrompt": "Công thức $\\sin A = \\sin B$ dẫn tới hai họ nghiệm nào? Nhớ kiểm tra trường hợp góc bù!"
+      },
+      "socraticPrompt": "Công thức $\\sin A = \\sin B$ dẫn tới hai họ nghiệm nào? Nhớ kiểm tra trường hợp góc bù!",
+      "distractorReasons": [
+        "Đúng vì giải đầy đủ 2 họ nghiệm $x = \\pi/16 + k\\pi/2$ và $x = \\pi/8 + k\\pi/3$.",
+        "Sai vì chia nhầm hệ số góc $4x$ và $6x$.",
+        "Sai vì nhầm chu kỳ $k2\\pi$ khi chia cho 4 thành $k\\pi$.",
+        "Sai vì bỏ sót hoàn toàn họ nghiệm thứ hai."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "t11_c1_d4_05",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Bài toán thực tế mô hình dao động điều hòa",
+      "question": "Một vật dao động điều hòa theo phương trình $x = 6\\cos\\left(4\\pi t - \\frac{\\pi}{3}\\right)\\text{ cm}$ ($t$ đo bằng giây). Thời điểm $t > 0$ đầu tiên vật đi qua vị trí có li độ $x = -3\\text{ cm}$ theo chiều âm của trục tọa độ là:",
+      "options": [
+        "t = 1/6 s",
+        "t = 1/4 s",
+        "t = 5/12 s",
+        "t = 7/12 s"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Mối liên hệ giữa dao động điều hòa và đường tròn lượng giác: $x = A\\cos \\Phi$. Vận tốc $v = -\\omega A \\sin \\Phi < 0$ khi vật chuyển động theo chiều âm, tương ứng pha dao động $\\Phi \\in (0; \\pi)$.",
+        "steps": [
+          "Bước 1: Li độ $x = -3\\text{ cm} \\implies \\cos\\left(4\\pi t - \\frac{\\pi}{3}\\right) = -\\frac{3}{6} = -\\frac{1}{2}$.",
+          "Bước 2: Vì vật chuyển động theo chiều âm nên $\\sin\\left(4\\pi t - \\frac{\\pi}{3}\\right) > 0$. Do đó pha dao động phải ở nửa trên đường tròn: $4\\pi t - \\frac{\\pi}{3} = \\frac{2\\pi}{3} + k2\\pi$.",
+          "Bước 3: Biến đổi: $4\\pi t = \\frac{2\\pi}{3} + \\frac{\\pi}{3} + k2\\pi = \\pi + k2\\pi$.",
+          "Bước 4: Rút gọn: $t = \\frac{1}{4} + \\frac{k}{2}$ ($k \\in \\mathbb{Z}$).",
+          "Bước 5: Với $t > 0$ nhỏ nhất, ta chọn $k = 0 \\implies t = \\frac{1}{4}\\text{ s}$."
+        ],
+        "trap": "Chọn pha dao động $-2\\pi/3$ (tương ứng chiều dương) dẫn đến tìm sai thời điểm.",
+        "socraticPrompt": "Khi vật chuyển động theo chiều âm thì $\\sin$ của pha dao động mang dấu gì? Điểm ngọn của pha trên đường tròn nằm ở góc phần tư nào?"
+      },
+      "socraticPrompt": "Khi vật chuyển động theo chiều âm thì $\\sin$ của pha dao động mang dấu gì? Điểm ngọn của pha trên đường tròn nằm ở góc phần tư nào?",
+      "distractorReasons": [
+        "Sai vì nhầm pha ban đầu.",
+        "Đúng vì pha dao động $4\\pi t - \\pi/3 = 2\\pi/3 \\implies 4\\pi t = \\pi \\implies t = 1/4\\text{ s}$.",
+        "Sai vì đây là thời điểm vật đi qua theo chiều dương (pha $-2\\pi/3$).",
+        "Sai vì lấy $k = 1$ thay vì giá trị $k = 0$ đầu tiên."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "t11_c1_d4_06",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Phương pháp miền giá trị tìm tập giá trị hàm số lượng giác",
+      "question": "Tìm tập giá trị $T$ của hàm số $y = \\frac{2\\sin x + \\cos x + 1}{\\sin x - 2\\cos x + 3}$.",
+      "options": [
+        "T = [-1; 2]",
+        "T = [-1/2; 2]",
+        "T = [0; 2]",
+        "T = [-1/2; 3/2]"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng phương pháp miền giá trị: Quy đồng mẫu số và chuyển về phương trình bậc nhất đối với $\\sin x$ và $\\cos x$, sau đó sử dụng điều kiện có nghiệm $a^2 + b^2 \\ge c^2$.",
+        "steps": [
+          "Bước 1: Nhận xét mẫu số: $\\sin x - 2\\cos x + 3 > 0$ với mọi $x$ vì $|\\sin x - 2\\cos x| \\le \\sqrt{1^2 + (-2)^2} = \\sqrt{5} < 3$. Do đó tập xác định là $\\mathbb{R}$.",
+          "Bước 2: Quy đồng: $y(\\sin x - 2\\cos x + 3) = 2\\sin x + \\cos x + 1 \\iff (y - 2)\\sin x - (2y + 1)\\cos x = 1 - 3y$.",
+          "Bước 3: Phương trình ẩn $x$ có nghiệm $\\iff (y - 2)^2 + (2y + 1)^2 \\ge (1 - 3y)^2$.",
+          "Bước 4: Khai triển: $(y^2 - 4y + 4) + (4y^2 + 4y + 1) \\ge 1 - 6y + 9y^2 \\iff 5y^2 + 5 \\ge 9y^2 - 6y + 1$.",
+          "Bước 5: Chuyển vế: $4y^2 - 6y - 4 \\le 0 \\iff 2y^2 - 3y - 2 \\le 0 \\iff -\\frac{1}{2} \\le y \\le 2$.",
+          "Bước 6: Vậy tập giá trị là $T = \\left[-\\frac{1}{2}; 2\\right]$."
+        ],
+        "trap": "Quên kiểm tra mẫu số có khác 0 không hoặc khai triển sai hằng đẳng thức $(2y + 1)^2$.",
+        "socraticPrompt": "Khi coi $y$ là tham số, phương trình theo $\\sin x$ và $\\cos x$ có dạng gì? Điều kiện để phương trình đó có nghiệm là gì?"
+      },
+      "socraticPrompt": "Khi coi $y$ là tham số, phương trình theo $\\sin x$ và $\\cos x$ có dạng gì? Điều kiện để phương trình đó có nghiệm là gì?",
+      "distractorReasons": [
+        "Sai vì giải nhầm nghiệm của tam thức bậc hai.",
+        "Đúng vì bất phương trình $2y^2 - 3y - 2 \\le 0$ có nghiệm $-1/2 \\le y \\le 2$.",
+        "Sai vì bỏ qua phần giá trị âm của $y$ khi $\\sin x$ âm.",
+        "Sai vì tính nhầm hệ số tự do $5 - 1 = 4$."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}
