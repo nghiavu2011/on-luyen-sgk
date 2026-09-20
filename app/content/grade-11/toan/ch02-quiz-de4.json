@@ -1,0 +1,214 @@
+{
+  "chapterId": "ch02",
+  "examId": "de4",
+  "title": "Toán học 11 — Chương 2: Dãy số. Cấp số cộng & Cấp số nhân: Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+  "description": "Bộ câu hỏi vận dụng cao 4 sao: Phân loại học sinh giỏi, bẫy tư duy đa tầng và vận dụng giải quyết vấn đề thực tiễn chuyên sâu.",
+  "difficulty": "expert",
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": "g11_toan_ch02_d4_01",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Dãy số và các tính chất - Biện luận tham số nâng cao",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình liên quan đến kiến thức 'Dãy số và các tính chất' có đúng 2 nghiệm phân biệt thuộc đoạn $[0; \\pi]$:",
+      "options": [
+        "m ∈ (-1; 1)",
+        "m ∈ [0; 1)",
+        "m ∈ (-1; 0) ∪ (0; 1)",
+        "m ∈ [-1; 1]"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng đồ thị hàm số và phép đặt ẩn phụ $t$, quy bài toán về tương giao giữa đường thẳng $y = m$ và đồ thị trên miền xác định.",
+        "steps": [
+          "Bước 1: Đặt ẩn phụ $t = f(x)$ phù hợp với kiến thức {lesson_title}, xác định miền giá trị của $t$ khi $x \\in [0; \\pi]$.",
+          "Bước 2: Khảo sát số nghiệm $x$ tương ứng với mỗi giá trị của $t$.",
+          "Bước 3: Lập bảng biến thiên của hàm số $g(t)$ và vẽ đường thẳng $y = m$.",
+          "Bước 4: Đối chiếu điều kiện có đúng 2 nghiệm phân biệt để suy ra $m \\in [0; 1)$."
+        ],
+        "trap": "Quên loại các điểm mút làm cho nghiệm kép hoặc không xét sự tương ứng 1-1 giữa $t$ và $x$.",
+        "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?"
+      },
+      "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?",
+      "distractorReasons": [
+        "Sai vì khoảng (-1; 1) chứa cả các giá trị cho 4 nghiệm hoặc vô nghiệm.",
+        "Đúng vì với m thuộc [0; 1), mỗi giá trị t cho đúng 2 giá trị x phân biệt trên [0; pi].",
+        "Sai vì loại bỏ điểm m = 0 vốn là giá trị hợp lệ.",
+        "Sai vì lấy cả các điểm biên m = -1 hoặc m = 1 làm cho phương trình chỉ có 1 nghiệm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g11_toan_ch02_d4_02",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Cấp số cộng (CSC) - Bài toán tối ưu thực tiễn",
+      "question": "Một mô hình thực tế ứng dụng kiến thức 'Cấp số cộng (CSC)' có hàm mục tiêu $f(x) = \\frac{x^2 + 4}{x}$ với $x > 0$. Giá trị nhỏ nhất của hàm số này đạt được tại $x$ bằng:",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = 4",
+        "x = \\sqrt{2}"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Áp dụng bất đẳng thức Cauchy (AM-GM) cho hai số dương: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 4$. Dấu bằng xảy ra khi $x = \\frac{4}{x}$.",
+        "steps": [
+          "Bước 1: Ta biến đổi hàm số: $f(x) = x + \\frac{4}{x}$.",
+          "Bước 2: Vì $x > 0$ nên $\\frac{4}{x} > 0$, áp dụng bất đẳng thức Cauchy:",
+          "Bước 3: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 2 \\cdot 2 = 4$.",
+          "Bước 4: Dấu đẳng thức xảy ra $\\iff x = \\frac{4}{x} \\iff x^2 = 4 \\iff x = 2$ (do $x > 0$)."
+        ],
+        "trap": "Nhầm lẫn giá trị nhỏ nhất của hàm số (bằng 4) với giá trị của $x$ tại đó hàm số đạt cực tiểu (bằng 2).",
+        "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?"
+      },
+      "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?",
+      "distractorReasons": [
+        "Sai vì tại x = 1, f(1) = 5 chưa phải là giá trị nhỏ nhất.",
+        "Đúng vì theo bất đẳng thức Cauchy, x = 4/x => x = 2 thì f(x) đạt GTNN là 4.",
+        "Sai vì nhầm giá trị của f(x) nhỏ nhất (là 4) với giá trị của biến x.",
+        "Sai vì tính nhầm nghiệm của x^2 = 4."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g11_toan_ch02_d4_03",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Cấp số nhân (CSN) - Biện luận tham số nâng cao",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình liên quan đến kiến thức 'Cấp số nhân (CSN)' có đúng 2 nghiệm phân biệt thuộc đoạn $[0; \\pi]$:",
+      "options": [
+        "m ∈ (-1; 1)",
+        "m ∈ [0; 1)",
+        "m ∈ (-1; 0) ∪ (0; 1)",
+        "m ∈ [-1; 1]"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng đồ thị hàm số và phép đặt ẩn phụ $t$, quy bài toán về tương giao giữa đường thẳng $y = m$ và đồ thị trên miền xác định.",
+        "steps": [
+          "Bước 1: Đặt ẩn phụ $t = f(x)$ phù hợp với kiến thức {lesson_title}, xác định miền giá trị của $t$ khi $x \\in [0; \\pi]$.",
+          "Bước 2: Khảo sát số nghiệm $x$ tương ứng với mỗi giá trị của $t$.",
+          "Bước 3: Lập bảng biến thiên của hàm số $g(t)$ và vẽ đường thẳng $y = m$.",
+          "Bước 4: Đối chiếu điều kiện có đúng 2 nghiệm phân biệt để suy ra $m \\in [0; 1)$."
+        ],
+        "trap": "Quên loại các điểm mút làm cho nghiệm kép hoặc không xét sự tương ứng 1-1 giữa $t$ và $x$.",
+        "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?"
+      },
+      "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?",
+      "distractorReasons": [
+        "Sai vì khoảng (-1; 1) chứa cả các giá trị cho 4 nghiệm hoặc vô nghiệm.",
+        "Đúng vì với m thuộc [0; 1), mỗi giá trị t cho đúng 2 giá trị x phân biệt trên [0; pi].",
+        "Sai vì loại bỏ điểm m = 0 vốn là giá trị hợp lệ.",
+        "Sai vì lấy cả các điểm biên m = -1 hoặc m = 1 làm cho phương trình chỉ có 1 nghiệm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g11_toan_ch02_d4_04",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Dãy số và các tính chất - Bài toán tối ưu thực tiễn",
+      "question": "Một mô hình thực tế ứng dụng kiến thức 'Dãy số và các tính chất' có hàm mục tiêu $f(x) = \\frac{x^2 + 4}{x}$ với $x > 0$. Giá trị nhỏ nhất của hàm số này đạt được tại $x$ bằng:",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = 4",
+        "x = \\sqrt{2}"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Áp dụng bất đẳng thức Cauchy (AM-GM) cho hai số dương: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 4$. Dấu bằng xảy ra khi $x = \\frac{4}{x}$.",
+        "steps": [
+          "Bước 1: Ta biến đổi hàm số: $f(x) = x + \\frac{4}{x}$.",
+          "Bước 2: Vì $x > 0$ nên $\\frac{4}{x} > 0$, áp dụng bất đẳng thức Cauchy:",
+          "Bước 3: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 2 \\cdot 2 = 4$.",
+          "Bước 4: Dấu đẳng thức xảy ra $\\iff x = \\frac{4}{x} \\iff x^2 = 4 \\iff x = 2$ (do $x > 0$)."
+        ],
+        "trap": "Nhầm lẫn giá trị nhỏ nhất của hàm số (bằng 4) với giá trị của $x$ tại đó hàm số đạt cực tiểu (bằng 2).",
+        "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?"
+      },
+      "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?",
+      "distractorReasons": [
+        "Sai vì tại x = 1, f(1) = 5 chưa phải là giá trị nhỏ nhất.",
+        "Đúng vì theo bất đẳng thức Cauchy, x = 4/x => x = 2 thì f(x) đạt GTNN là 4.",
+        "Sai vì nhầm giá trị của f(x) nhỏ nhất (là 4) với giá trị của biến x.",
+        "Sai vì tính nhầm nghiệm của x^2 = 4."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g11_toan_ch02_d4_05",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Cấp số cộng (CSC) - Biện luận tham số nâng cao",
+      "question": "Tìm tất cả các giá trị thực của tham số $m$ để phương trình liên quan đến kiến thức 'Cấp số cộng (CSC)' có đúng 2 nghiệm phân biệt thuộc đoạn $[0; \\pi]$:",
+      "options": [
+        "m ∈ (-1; 1)",
+        "m ∈ [0; 1)",
+        "m ∈ (-1; 0) ∪ (0; 1)",
+        "m ∈ [-1; 1]"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Sử dụng đồ thị hàm số và phép đặt ẩn phụ $t$, quy bài toán về tương giao giữa đường thẳng $y = m$ và đồ thị trên miền xác định.",
+        "steps": [
+          "Bước 1: Đặt ẩn phụ $t = f(x)$ phù hợp với kiến thức {lesson_title}, xác định miền giá trị của $t$ khi $x \\in [0; \\pi]$.",
+          "Bước 2: Khảo sát số nghiệm $x$ tương ứng với mỗi giá trị của $t$.",
+          "Bước 3: Lập bảng biến thiên của hàm số $g(t)$ và vẽ đường thẳng $y = m$.",
+          "Bước 4: Đối chiếu điều kiện có đúng 2 nghiệm phân biệt để suy ra $m \\in [0; 1)$."
+        ],
+        "trap": "Quên loại các điểm mút làm cho nghiệm kép hoặc không xét sự tương ứng 1-1 giữa $t$ và $x$.",
+        "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?"
+      },
+      "socraticPrompt": "Khi đổi biến sang $t$, một giá trị $t$ sinh ra mấy giá trị $x$ trên đoạn $[0; \\pi]$? Điểm biên có sinh ra 2 nghiệm không?",
+      "distractorReasons": [
+        "Sai vì khoảng (-1; 1) chứa cả các giá trị cho 4 nghiệm hoặc vô nghiệm.",
+        "Đúng vì với m thuộc [0; 1), mỗi giá trị t cho đúng 2 giá trị x phân biệt trên [0; pi].",
+        "Sai vì loại bỏ điểm m = 0 vốn là giá trị hợp lệ.",
+        "Sai vì lấy cả các điểm biên m = -1 hoặc m = 1 làm cho phương trình chỉ có 1 nghiệm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g11_toan_ch02_d4_06",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán 11 Chuyên sâu: Cấp số nhân (CSN) - Bài toán tối ưu thực tiễn",
+      "question": "Một mô hình thực tế ứng dụng kiến thức 'Cấp số nhân (CSN)' có hàm mục tiêu $f(x) = \\frac{x^2 + 4}{x}$ với $x > 0$. Giá trị nhỏ nhất của hàm số này đạt được tại $x$ bằng:",
+      "options": [
+        "x = 1",
+        "x = 2",
+        "x = 4",
+        "x = \\sqrt{2}"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Áp dụng bất đẳng thức Cauchy (AM-GM) cho hai số dương: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 4$. Dấu bằng xảy ra khi $x = \\frac{4}{x}$.",
+        "steps": [
+          "Bước 1: Ta biến đổi hàm số: $f(x) = x + \\frac{4}{x}$.",
+          "Bước 2: Vì $x > 0$ nên $\\frac{4}{x} > 0$, áp dụng bất đẳng thức Cauchy:",
+          "Bước 3: $x + \\frac{4}{x} \\ge 2\\sqrt{x \\cdot \\frac{4}{x}} = 2 \\cdot 2 = 4$.",
+          "Bước 4: Dấu đẳng thức xảy ra $\\iff x = \\frac{4}{x} \\iff x^2 = 4 \\iff x = 2$ (do $x > 0$)."
+        ],
+        "trap": "Nhầm lẫn giá trị nhỏ nhất của hàm số (bằng 4) với giá trị của $x$ tại đó hàm số đạt cực tiểu (bằng 2).",
+        "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?"
+      },
+      "socraticPrompt": "Bất đẳng thức Cauchy cho hai số dương có điều kiện dấu bằng xảy ra là gì? Đề bài đang hỏi giá trị của $x$ hay giá trị của $f(x)$?",
+      "distractorReasons": [
+        "Sai vì tại x = 1, f(1) = 5 chưa phải là giá trị nhỏ nhất.",
+        "Đúng vì theo bất đẳng thức Cauchy, x = 4/x => x = 2 thì f(x) đạt GTNN là 4.",
+        "Sai vì nhầm giá trị của f(x) nhỏ nhất (là 4) với giá trị của biến x.",
+        "Sai vì tính nhầm nghiệm của x^2 = 4."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

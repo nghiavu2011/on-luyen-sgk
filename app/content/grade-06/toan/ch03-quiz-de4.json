@@ -1,0 +1,220 @@
+{
+  "chapterId": "ch03",
+  "examId": "de4",
+  "title": "Toán 06 — Chương 3: Số nguyên: Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+  "description": "Bộ câu hỏi vận dụng cao 4 sao: Phân loại học sinh giỏi, bẫy tư duy đa tầng và vận dụng giải quyết vấn đề thực tiễn chuyên sâu.",
+  "difficulty": "expert",
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": "g6_toan_ch03_d4_01",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Tập hợp các số nguyên - Bài toán cực trị và tối ưu",
+      "question": "Trong chủ đề 'Tập hợp các số nguyên', xét biểu thức $P$ phụ thuộc vào số tự nhiên $n$. Để biểu thức $P = \\frac{5n + 17}{n + 2}$ nhận giá trị là một số tự nhiên lớn nhất, giá trị của $n$ là:",
+      "options": [
+        "n = 0",
+        "n = 1",
+        "n = 5",
+        "n = 7"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tách phân số theo tử và mẫu: $\\frac{5n + 17}{n + 2} = 5 + \\frac{7}{n + 2}$. Để biểu thức lớn nhất thì mẫu $n + 2$ phải nhỏ nhất.",
+        "steps": [
+          "Bước 1: Ta biến đổi $5n + 17 = 5(n + 2) + 7$.",
+          "Bước 2: Phân số trở thành $P = 5 + \\frac{7}{n + 2}$.",
+          "Bước 3: Để $P$ là số tự nhiên thì $7 \\,\\vdots\\, (n + 2)$, suy ra $n + 2 \\in Ư(7) = \\{1; 7\\}$.",
+          "Bước 4: Do $n \\ge 0$ nên $n + 2 \\ge 2 \\implies n + 2 = 7 \\implies n = 5$.",
+          "Bước 5: So sánh giá trị: tại $n = 0$, $P = \\frac{17}{2}$ (không là số tự nhiên); tại $n = 5$, $P = 5 + 1 = 6$."
+        ],
+        "trap": "Chọn $n = 0$ vì nghĩ mẫu số nhỏ nhất nhưng quên điều kiện $P$ phải là số tự nhiên.",
+        "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?"
+      },
+      "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?",
+      "distractorReasons": [
+        "Sai vì tại n = 0, P = 17/2 không phải là số tự nhiên theo yêu cầu đề bài.",
+        "Sai vì n = 1 cho mẫu bằng 3, 7 không chia hết cho 3.",
+        "Đúng vì khi n = 5, n + 2 = 7 là ước của 7 và P = 6 đạt giá trị tự nhiên hợp lệ.",
+        "Sai vì n = 7 cho mẫu bằng 9, không thỏa mãn điều kiện chia hết."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g6_toan_ch03_d4_02",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Phép cộng và phép trừ số nguyên - Logic và quy nạp số học",
+      "question": "Cho tập hợp $S$ gồm các phần tử liên quan đến 'Phép cộng và phép trừ số nguyên'. Số cặp số tự nhiên $(x, y)$ thỏa mãn đẳng thức $(2x + 1)(y - 3) = 12$ là:",
+      "options": [
+        "1 cặp",
+        "2 cặp",
+        "3 cặp",
+        "4 cặp"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân tích số 12 thành tích hai thừa số, kết hợp nhận xét tính chẵn lẻ: $2x + 1$ luôn là số tự nhiên lẻ.",
+        "steps": [
+          "Bước 1: Vì $x$ là số tự nhiên nên $2x + 1$ là số tự nhiên lẻ và $2x + 1 \\ge 1$.",
+          "Bước 2: Các ước số lẻ dương của 12 là 1 và 3.",
+          "Bước 3: Trường hợp 1: $2x + 1 = 1 \\implies x = 0 \\implies y - 3 = 12 \\implies y = 15$ (thỏa mãn).",
+          "Bước 4: Trường hợp 2: $2x + 1 = 3 \\implies x = 1 \\implies y - 3 = 4 \\implies y = 7$ (thỏa mãn).",
+          "Bước 5: Vậy có đúng 2 cặp số tự nhiên $(x, y)$ là $(0, 15)$ và $(1, 7)$."
+        ],
+        "trap": "Xét tất cả các ước của 12 (kể cả ước chẵn 2, 4, 6, 12) dẫn đến tính ra nghiệm $x$ không phải số tự nhiên.",
+        "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?"
+      },
+      "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?",
+      "distractorReasons": [
+        "Sai vì bỏ sót trường hợp x = 0 hoặc x = 1.",
+        "Đúng vì 2x + 1 chỉ có thể nhận giá trị 1 hoặc 3, tương ứng với 2 cặp nghiệm tự nhiên (0, 15) và (1, 7).",
+        "Sai vì lấy cả trường hợp 2x + 1 chẵn khiến x là số thập phân.",
+        "Sai vì nhầm lẫn số ước của 12 với số nghiệm nguyên dương."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g6_toan_ch03_d4_03",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Quy tắc dấu ngoặc - Bài toán cực trị và tối ưu",
+      "question": "Trong chủ đề 'Quy tắc dấu ngoặc', xét biểu thức $P$ phụ thuộc vào số tự nhiên $n$. Để biểu thức $P = \\frac{5n + 17}{n + 2}$ nhận giá trị là một số tự nhiên lớn nhất, giá trị của $n$ là:",
+      "options": [
+        "n = 0",
+        "n = 1",
+        "n = 5",
+        "n = 7"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tách phân số theo tử và mẫu: $\\frac{5n + 17}{n + 2} = 5 + \\frac{7}{n + 2}$. Để biểu thức lớn nhất thì mẫu $n + 2$ phải nhỏ nhất.",
+        "steps": [
+          "Bước 1: Ta biến đổi $5n + 17 = 5(n + 2) + 7$.",
+          "Bước 2: Phân số trở thành $P = 5 + \\frac{7}{n + 2}$.",
+          "Bước 3: Để $P$ là số tự nhiên thì $7 \\,\\vdots\\, (n + 2)$, suy ra $n + 2 \\in Ư(7) = \\{1; 7\\}$.",
+          "Bước 4: Do $n \\ge 0$ nên $n + 2 \\ge 2 \\implies n + 2 = 7 \\implies n = 5$.",
+          "Bước 5: So sánh giá trị: tại $n = 0$, $P = \\frac{17}{2}$ (không là số tự nhiên); tại $n = 5$, $P = 5 + 1 = 6$."
+        ],
+        "trap": "Chọn $n = 0$ vì nghĩ mẫu số nhỏ nhất nhưng quên điều kiện $P$ phải là số tự nhiên.",
+        "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?"
+      },
+      "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?",
+      "distractorReasons": [
+        "Sai vì tại n = 0, P = 17/2 không phải là số tự nhiên theo yêu cầu đề bài.",
+        "Sai vì n = 1 cho mẫu bằng 3, 7 không chia hết cho 3.",
+        "Đúng vì khi n = 5, n + 2 = 7 là ước của 7 và P = 6 đạt giá trị tự nhiên hợp lệ.",
+        "Sai vì n = 7 cho mẫu bằng 9, không thỏa mãn điều kiện chia hết."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g6_toan_ch03_d4_04",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Phép nhân số nguyên - Logic và quy nạp số học",
+      "question": "Cho tập hợp $S$ gồm các phần tử liên quan đến 'Phép nhân số nguyên'. Số cặp số tự nhiên $(x, y)$ thỏa mãn đẳng thức $(2x + 1)(y - 3) = 12$ là:",
+      "options": [
+        "1 cặp",
+        "2 cặp",
+        "3 cặp",
+        "4 cặp"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân tích số 12 thành tích hai thừa số, kết hợp nhận xét tính chẵn lẻ: $2x + 1$ luôn là số tự nhiên lẻ.",
+        "steps": [
+          "Bước 1: Vì $x$ là số tự nhiên nên $2x + 1$ là số tự nhiên lẻ và $2x + 1 \\ge 1$.",
+          "Bước 2: Các ước số lẻ dương của 12 là 1 và 3.",
+          "Bước 3: Trường hợp 1: $2x + 1 = 1 \\implies x = 0 \\implies y - 3 = 12 \\implies y = 15$ (thỏa mãn).",
+          "Bước 4: Trường hợp 2: $2x + 1 = 3 \\implies x = 1 \\implies y - 3 = 4 \\implies y = 7$ (thỏa mãn).",
+          "Bước 5: Vậy có đúng 2 cặp số tự nhiên $(x, y)$ là $(0, 15)$ và $(1, 7)$."
+        ],
+        "trap": "Xét tất cả các ước của 12 (kể cả ước chẵn 2, 4, 6, 12) dẫn đến tính ra nghiệm $x$ không phải số tự nhiên.",
+        "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?"
+      },
+      "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?",
+      "distractorReasons": [
+        "Sai vì bỏ sót trường hợp x = 0 hoặc x = 1.",
+        "Đúng vì 2x + 1 chỉ có thể nhận giá trị 1 hoặc 3, tương ứng với 2 cặp nghiệm tự nhiên (0, 15) và (1, 7).",
+        "Sai vì lấy cả trường hợp 2x + 1 chẵn khiến x là số thập phân.",
+        "Sai vì nhầm lẫn số ước của 12 với số nghiệm nguyên dương."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g6_toan_ch03_d4_05",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Phép chia hết. Ước và bội của một số nguyên - Bài toán cực trị và tối ưu",
+      "question": "Trong chủ đề 'Phép chia hết. Ước và bội của một số nguyên', xét biểu thức $P$ phụ thuộc vào số tự nhiên $n$. Để biểu thức $P = \\frac{5n + 17}{n + 2}$ nhận giá trị là một số tự nhiên lớn nhất, giá trị của $n$ là:",
+      "options": [
+        "n = 0",
+        "n = 1",
+        "n = 5",
+        "n = 7"
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Tách phân số theo tử và mẫu: $\\frac{5n + 17}{n + 2} = 5 + \\frac{7}{n + 2}$. Để biểu thức lớn nhất thì mẫu $n + 2$ phải nhỏ nhất.",
+        "steps": [
+          "Bước 1: Ta biến đổi $5n + 17 = 5(n + 2) + 7$.",
+          "Bước 2: Phân số trở thành $P = 5 + \\frac{7}{n + 2}$.",
+          "Bước 3: Để $P$ là số tự nhiên thì $7 \\,\\vdots\\, (n + 2)$, suy ra $n + 2 \\in Ư(7) = \\{1; 7\\}$.",
+          "Bước 4: Do $n \\ge 0$ nên $n + 2 \\ge 2 \\implies n + 2 = 7 \\implies n = 5$.",
+          "Bước 5: So sánh giá trị: tại $n = 0$, $P = \\frac{17}{2}$ (không là số tự nhiên); tại $n = 5$, $P = 5 + 1 = 6$."
+        ],
+        "trap": "Chọn $n = 0$ vì nghĩ mẫu số nhỏ nhất nhưng quên điều kiện $P$ phải là số tự nhiên.",
+        "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?"
+      },
+      "socraticPrompt": "Khi tách $P = 5 + \\frac{7}{n+2}$, điều kiện để $P$ là số tự nhiên là gì? $n+2$ phải là ước của số nào?",
+      "distractorReasons": [
+        "Sai vì tại n = 0, P = 17/2 không phải là số tự nhiên theo yêu cầu đề bài.",
+        "Sai vì n = 1 cho mẫu bằng 3, 7 không chia hết cho 3.",
+        "Đúng vì khi n = 5, n + 2 = 7 là ước của 7 và P = 6 đạt giá trị tự nhiên hợp lệ.",
+        "Sai vì n = 7 cho mẫu bằng 9, không thỏa mãn điều kiện chia hết."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g6_toan_ch03_d4_06",
+      "difficulty": "expert",
+      "type": "multiple_choice",
+      "topic": "Toán nâng cao: Tập hợp các số nguyên - Logic và quy nạp số học",
+      "question": "Cho tập hợp $S$ gồm các phần tử liên quan đến 'Tập hợp các số nguyên'. Số cặp số tự nhiên $(x, y)$ thỏa mãn đẳng thức $(2x + 1)(y - 3) = 12$ là:",
+      "options": [
+        "1 cặp",
+        "2 cặp",
+        "3 cặp",
+        "4 cặp"
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phân tích số 12 thành tích hai thừa số, kết hợp nhận xét tính chẵn lẻ: $2x + 1$ luôn là số tự nhiên lẻ.",
+        "steps": [
+          "Bước 1: Vì $x$ là số tự nhiên nên $2x + 1$ là số tự nhiên lẻ và $2x + 1 \\ge 1$.",
+          "Bước 2: Các ước số lẻ dương của 12 là 1 và 3.",
+          "Bước 3: Trường hợp 1: $2x + 1 = 1 \\implies x = 0 \\implies y - 3 = 12 \\implies y = 15$ (thỏa mãn).",
+          "Bước 4: Trường hợp 2: $2x + 1 = 3 \\implies x = 1 \\implies y - 3 = 4 \\implies y = 7$ (thỏa mãn).",
+          "Bước 5: Vậy có đúng 2 cặp số tự nhiên $(x, y)$ là $(0, 15)$ và $(1, 7)$."
+        ],
+        "trap": "Xét tất cả các ước của 12 (kể cả ước chẵn 2, 4, 6, 12) dẫn đến tính ra nghiệm $x$ không phải số tự nhiên.",
+        "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?"
+      },
+      "socraticPrompt": "Biểu thức $2x + 1$ có tính chất chẵn lẻ như thế nào với $x$ là số tự nhiên? Ước lẻ của 12 gồm những số nào?",
+      "distractorReasons": [
+        "Sai vì bỏ sót trường hợp x = 0 hoặc x = 1.",
+        "Đúng vì 2x + 1 chỉ có thể nhận giá trị 1 hoặc 3, tương ứng với 2 cặp nghiệm tự nhiên (0, 15) và (1, 7).",
+        "Sai vì lấy cả trường hợp 2x + 1 chẵn khiến x là số thập phân.",
+        "Sai vì nhầm lẫn số ước của 12 với số nghiệm nguyên dương."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}
