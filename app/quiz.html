@@ -719,10 +719,36 @@
                         document.title = `${subName} ${grade} — Luyện đề | Ôn luyện`;
                     }
 
+                    // Chuẩn hóa 4 mức độ phân hóa & thời gian theo chuẩn sư phạm BGDĐT
+                    const examKey = (params.exam || 'tonghop').toLowerCase();
+                    let examDurationMinutes = 40;
+                    let starBadgeHtml = '<span class="ol-badge-tag" style="background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; font-weight:800;">⭐⭐⭐ 3 Sao · Vận dụng</span>';
+                    let targetScore = 'Mục tiêu: 8–9 điểm · Tổng hợp kiến thức & Thực tiễn';
+
+                    if (examKey === 'de1' || examKey === 'star1') {
+                        examDurationMinutes = 15;
+                        starBadgeHtml = '<span class="ol-badge-tag" style="background:#eff6ff; color:#1e40af; border:1px solid #bfdbfe; font-weight:800;">⭐ 1 Sao · Nhận biết</span>';
+                        targetScore = 'Mục tiêu: 5–6 điểm · Lý thuyết & Khái niệm cốt lõi SGK';
+                    } else if (examKey === 'de2' || examKey === 'star2') {
+                        examDurationMinutes = 25;
+                        starBadgeHtml = '<span class="ol-badge-tag" style="background:#fff7ed; color:#c2410c; border:1px solid #fed7aa; font-weight:800;">⭐⭐ 2 Sao · Thông hiểu</span>';
+                        targetScore = 'Mục tiêu: 7–8 điểm · Kỹ năng biến đổi & Giải phương trình';
+                    } else if (examKey === 'tonghop' || examKey === 'de3' || examKey === 'star3') {
+                        examDurationMinutes = 40;
+                        starBadgeHtml = '<span class="ol-badge-tag" style="background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; font-weight:800;">⭐⭐⭐ 3 Sao · Vận dụng</span>';
+                        targetScore = 'Mục tiêu: 8–9 điểm · Tổng hợp kiến thức & Thực tiễn';
+                    } else if (examKey === 'de4' || examKey === 'star4') {
+                        examDurationMinutes = 50;
+                        starBadgeHtml = '<span class="ol-badge-tag" style="background:#fefce8; color:#b45309; border:1px solid #fde68a; font-weight:800;">⭐⭐⭐⭐ 4 Sao · Vận dụng cao</span>';
+                        targetScore = 'Mục tiêu: 9–10 điểm · Thử thách thủ khoa & ĐGNL';
+                    }
+
+                    timerSeconds = examDurationMinutes * 60;
+
                     const metaEl = document.getElementById('exam-meta');
                     if (metaEl) {
                         const examCode = params.exam ? String(params.exam).toUpperCase() : '101';
-                        metaEl.innerHTML = `Mã đề: <strong>${escapeHTML(examCode)}</strong> · Số lượng: <strong>${questions.length} câu</strong> · ${escapeHTML(data.description || 'Hình thức: Trắc nghiệm khách quan 4 mức độ')}`;
+                        metaEl.innerHTML = `Mã đề: <strong>${escapeHTML(examCode)}</strong> · ${starBadgeHtml} · <strong>${targetScore}</strong> · Thời gian: <strong>${examDurationMinutes} phút</strong> · Số lượng: <strong>${questions.length} câu</strong>`;
                     }
                 } catch (e) {
                     questions = [];
@@ -792,9 +818,18 @@
                 }
             });
 
+            // Thiết lập hiển thị ban đầu của đồng hồ đếm ngược
+            const initM = Math.floor(timerSeconds / 60);
+            const initS = timerSeconds % 60;
+            const initialTimeStr = `${String(initM).padStart(2, '0')}:${String(initS).padStart(2, '0')}`;
+            const tBoxInit = document.getElementById('timer-text');
+            if (tBoxInit) tBoxInit.textContent = initialTimeStr;
+            const mTimerInit = document.getElementById('mobile-timer-text');
+            if (mTimerInit) mTimerInit.textContent = initialTimeStr;
+
             renderMatrix();
             renderQuestion();
-            const currentMode = params.mode || (params.exam === 'tonghop' ? 'exam' : 'practice');
+            const currentMode = params.mode || 'exam';
             if (currentMode === 'exam') {
                 startTimer();
             } else {

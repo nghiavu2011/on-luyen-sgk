@@ -16,25 +16,33 @@
           "term": "Góc lượng giác",
           "definition": "Quy ước chiều quay ngược chiều kim đồng hồ là chiều dương (+), cùng chiều kim đồng hồ là chiều âm (-). Đơn vị đo là độ (°) hoặc radian (rad) với π rad = 180°.",
           "notation": "α (rad) = a° · π / 180",
-          "note": "1 rad ≈ 57°17'45''."
+          "note": "1 rad ≈ 57°17'45''. Góc lượng giác có thể nhận giá trị âm hoặc lớn hơn 360°.",
+          "example": "Khi kim đồng hồ quay từ vị trí 12h đến 3h, kim quay cùng chiều kim đồng hồ góc 90°, số đo là -90° (hay -π/2 rad). Nếu một chiếc nan hoa xe đạp quay 2 vòng rồi quay thêm 30° ngược chiều kim đồng hồ, số đo góc lượng giác là 2 · 360° + 30° = +750°.",
+          "essence": "Góc hình học lớp 6–9 chỉ nằm trong [0°; 180°]. Góc lượng giác có dấu (+/-) để biểu thị hướng quay và có độ lớn vô hạn để đếm số vòng quay thực tế trong chuyển động tròn vật lý và kỹ thuật."
         },
         {
           "term": "Đường tròn lượng giác",
           "definition": "Đường tròn định hướng có tâm là gốc toạ độ O, bán kính R = 1, điểm gốc A(1; 0).",
           "notation": "Trục hoành Ox là trục cosin, trục tung Oy là trục sin",
-          "note": "-1 ≤ sin α ≤ 1 và -1 ≤ cos α ≤ 1 với mọi góc lượng giác α."
+          "note": "-1 ≤ sin α ≤ 1 và -1 ≤ cos α ≤ 1 với mọi góc lượng giác α.",
+          "example": "Điểm A(1; 0) ứng với góc 0 rad => cos 0 = 1, sin 0 = 0. Điểm cực bắc B(0; 1) ứng với góc π/2 => cos(π/2) = 0, sin(π/2) = 1. Điểm A'(-1; 0) ứng với góc π => cos π = -1, sin π = 0.",
+          "essence": "Đường tròn lượng giác chuyển hóa sin, cos từ 'tỉ số cạnh tam giác vuông' thành tọa độ (x, y) của một điểm chuyển động. Hoành độ x chính là cos, tung độ y chính là sin."
         },
         {
           "term": "Hệ thức lượng giác cơ bản",
           "definition": "Các đẳng thức liên hệ giữa sin, cos, tan, cot của cùng một góc lượng giác.",
           "notation": "sin²α + cos²α = 1; tan α = sin α / cos α; 1 + tan²α = 1 / cos²α",
-          "note": "tan α · cot α = 1 (với sin α ≠ 0, cos α ≠ 0)."
+          "note": "tan α · cot α = 1 (với sin α ≠ 0, cos α ≠ 0).",
+          "example": "Với α = 30° = π/6: sin 30° = 1/2 và cos 30° = √3/2. Kiểm tra: sin²30° + cos²30° = (1/2)² + (√3/2)² = 1/4 + 3/4 = 1 (luôn đúng với mọi góc).",
+          "essence": "Hệ thức sin²α + cos²α = 1 thực chất chính là Định lý Pythagore x² + y² = R² = 1 áp dụng cho tam giác vuông tạo bởi hình chiếu điểm biểu diễn xuống hai trục tọa độ."
         }
       ],
       "rules": [
         {
-          "statement": "Quan hệ giữa các góc đặc biệt",
-          "meaning": "Cos đối, sin bù, phụ chéo, khác pi tan và cot (Cos(-α) = cos α; sin(π - α) = sin α; sin(π/2 - α) = cos α; tan(α + π) = tan α)."
+          "statement": "Quan hệ giữa các góc đặc biệt (Cos đối, Sin bù, Phụ chéo, Khác pi Tan)",
+          "meaning": "Cos(-α) = cos α; sin(π - α) = sin α; sin(π/2 - α) = cos α; tan(α + π) = tan α.",
+          "example": "cos(-60°) = cos 60° = 1/2 (Cos đối). sin(150°) = sin(180° - 30°) = sin 30° = 1/2 (Sin bù). sin 60° = cos(90° - 60°) = cos 30° = √3/2 (Phụ chéo).",
+          "essence": "Hai góc đối nhau đối xứng qua trục Ox nên có cùng hoành độ cos. Hai góc bù nhau đối xứng qua trục Oy nên có cùng tung độ sin."
         }
       ],
       "workedExamples": [
@@ -69,19 +77,25 @@
           "term": "Công thức cộng",
           "definition": "cos(a ± b) = cos a cos b ∓ sin a sin b; sin(a ± b) = sin a cos b ± cos a sin b.",
           "notation": "tan(a + b) = (tan a + tan b) / (1 - tan a tan b)",
-          "note": "Nhớ: sin thì sin cos cos sin, cos thì cos cos sin sin dấu trừ."
+          "note": "Nhớ câu thần chú: sin thì sin cos cos sin, cos thì cos cos sin sin dấu trừ.",
+          "example": "Tính chính xác cos 75° không cần máy tính: cos 75° = cos(45° + 30°) = cos 45° cos 30° - sin 45° sin 30° = (√2/2)(√3/2) - (√2/2)(1/2) = (√6 - √2)/4.",
+          "essence": "Lưu ý sống còn: cos(a + b) KHÔNG BẰNG cos a + cos b! Hàm lượng giác không có tính chất phân phối. Dấu của cos bị nghịch đảo (cộng thành trừ)."
         },
         {
-          "term": "Công thức nhân đôi",
+          "term": "Công thức nhân đôi & Hạ bậc",
           "definition": "sin 2a = 2 sin a cos a; cos 2a = cos²a - sin²a = 2cos²a - 1 = 1 - 2sin²a.",
-          "notation": "tan 2a = 2tan a / (1 - tan²a)",
-          "note": "Công thức hạ bậc: cos²a = (1 + cos 2a) / 2; sin²a = (1 - cos 2a) / 2."
+          "notation": "Hạ bậc: cos²a = (1 + cos 2a)/2; sin²a = (1 - cos 2a)/2",
+          "note": "Muốn giảm số mũ (hạ bậc) thì góc phải nhân đôi.",
+          "example": "Kiểm chứng với a = 30°: sin(2a) = sin 60° = √3/2. Vế phải: 2 sin 30° cos 30° = 2(1/2)(√3/2) = √3/2. Hai vế khớp nhau tuyệt đối. Ngược lại, 2 sin 30° = 2(1/2) = 1 ≠ √3/2.",
+          "essence": "Công thức nhân đôi thực chất là công thức cộng khi thay b = a. Công thức hạ bậc là chiếc chìa khóa vạn năng để khử số mũ bậc 2 khi giải phương trình lượng giác và tính tích phân."
         }
       ],
       "rules": [
         {
           "statement": "Công thức biến đổi tích thành tổng",
-          "meaning": "cos a cos b = ½[cos(a - b) + cos(a + b)]; sin a sin b = ½[cos(a - b) - cos(a + b)]; sin a cos b = ½[sin(a - b) + sin(a + b)]."
+          "meaning": "cos a cos b = ½[cos(a - b) + cos(a + b)]; sin a sin b = ½[cos(a - b) - cos(a + b)]; sin a cos b = ½[sin(a - b) + sin(a + b)].",
+          "example": "Tính tích P = cos 75° cos 15°: Áp dụng công thức: P = ½[cos(75° - 15°) + cos(75° + 15°)] = ½[cos 60° + cos 90°] = ½[1/2 + 0] = 1/4.",
+          "essence": "Trong tích sin a sin b có dấu trừ: ½[cos(a - b) - cos(a + b)], hãy cẩn thận kẻo quên dấu trừ này."
         }
       ],
       "workedExamples": [
@@ -115,19 +129,25 @@
           "term": "Hàm số y = sin x và y = cos x",
           "definition": "Đều có tập xác định D = R và tập giá trị [-1; 1]. Hàm sin x là hàm số lẻ, tuần hoàn với chu kì T = 2π. Hàm cos x là hàm số chẵn, tuần hoàn với chu kì T = 2π.",
           "notation": "y = sin x (lẻ, chu kì 2π); y = cos x (chẵn, chu kì 2π)",
-          "note": "Đồ thị của cả hai hàm số là đường hình sin lượn sóng."
+          "note": "Đồ thị của cả hai hàm số là đường hình sin lượn sóng.",
+          "example": "Mực nước thủy triều tại một cảng biển dao động theo thời gian t (giờ) theo công thức: h(t) = 3 cos(πt/6) + 5 (mét). Mực nước cao nhất là khi cos = 1 => h_max = 3(1) + 5 = 8m. Mực nước thấp nhất là khi cos = -1 => h_min = 3(-1) + 5 = 2m.",
+          "essence": "Hàm sin x và cos x mô tả các hiện tượng lặp đi lặp lại tuần hoàn trong tự nhiên: sóng âm, dòng điện xoay chiều, nhịp tim, chuyển động con lắc, chuyển động đu quay."
         },
         {
           "term": "Hàm số y = tan x và y = cot x",
           "definition": "Hàm tan x có TXĐ D = R \\ {π/2 + kπ, k ∈ Z}. Hàm cot x có TXĐ D = R \\ {kπ, k ∈ Z}. Cả hai đều là hàm số lẻ, tuần hoàn với chu kì T = π.",
           "notation": "T = π (chu kì của hàm tan và cot)",
-          "note": "Hàm số y = tan x luôn đồng biến trên mỗi khoảng xác định của nó."
+          "note": "Hàm số y = tan x luôn đồng biến trên mỗi khoảng xác định của nó.",
+          "example": "Hàm số y = tan x không xác định tại các điểm x = ..., -π/2, π/2, 3π/2... vì tại đó cos x = 0 (mẫu số bằng 0). Đồ thị có các đường tiệm cận đứng tại các giá trị này.",
+          "essence": "Chu kỳ của tan và cot chỉ là π (chứ không phải 2π như sin/cos) vì cứ sau nửa vòng tròn lượng giác (quay 180°), hướng đường thẳng qua tâm lặp lại hoàn toàn."
         }
       ],
       "rules": [
         {
-          "statement": "Chu kì của hàm số hợp",
-          "meaning": "Hàm số y = sin(ωx + φ) và y = cos(ωx + φ) tuần hoàn với chu kì T = 2π / |ω|. Hàm y = tan(ωx + φ) tuần hoàn với chu kì T = π / |ω|."
+          "statement": "Chu kì của hàm số hợp (y = sin(ωx + φ), y = cos(ωx + φ))",
+          "meaning": "Hàm số y = sin(ωx + φ) và y = cos(ωx + φ) tuần hoàn với chu kì T = 2π / |ω|. Hàm y = tan(ωx + φ) tuần hoàn với chu kì T = π / |ω|.",
+          "example": "Hàm số y = sin(2x) có chu kỳ T = 2π/2 = π. Hàm số y = cos(x/3) có chu kỳ T = 2π/(1/3) = 6π.",
+          "essence": "Hệ số ω càng lớn thì tần số dao động càng nhanh, đồ thị bị nén lại theo phương ngang, thời gian hoàn thành 1 chu kỳ bị co ngắn lại theo tỷ lệ nghịch."
         }
       ],
       "workedExamples": [
@@ -161,19 +181,25 @@
           "term": "Phương trình sin x = m và cos x = m",
           "definition": "Có nghiệm khi và chỉ khi |m| ≤ 1. sin x = sin α <=> x = α + k2π hoặc x = π - α + k2π. cos x = cos α <=> x = ±α + k2π (k ∈ Z).",
           "notation": "sin x = sin α <=> x = α + k2π hoặc x = π - α + k2π",
-          "note": "Nếu |m| > 1 thì phương trình vô nghiệm."
+          "note": "Nếu |m| > 1 thì phương trình vô nghiệm ngay lập tức.",
+          "example": "Phương trình sin x = 2 vô nghiệm vì 2 > 1. Phương trình sin x = 1/2 = sin(π/6) có 2 họ nghiệm: x = π/6 + k2π và họ nghiệm bù x = π - π/6 + k2π = 5π/6 + k2π (k ∈ Z).",
+          "essence": "Trên đường tròn lượng giác, một đường nằm ngang y = m (với |m| ≤ 1) luôn cắt đường tròn tại đúng 2 điểm đối xứng qua trục Oy, do đó nghiệm của sin luôn có 2 nhánh bù nhau."
         },
         {
           "term": "Phương trình tan x = m và cot x = m",
           "definition": "Luôn có nghiệm với mọi giá trị thực m. tan x = tan α <=> x = α + kπ; cot x = cot α <=> x = α + kπ (k ∈ Z).",
           "notation": "tan x = tan α <=> x = α + kπ",
-          "note": "Chu kì của tan và cot chỉ là kπ (không phải k2π)."
+          "note": "Chu kì của tan và cot chỉ là đuôi kπ (không phải k2π).",
+          "example": "Phương trình tan x = 1 = tan(π/4) có nghiệm duy nhất là x = π/4 + kπ (k ∈ Z). Phương trình tan x = √3 = tan(π/3) có nghiệm x = π/3 + kπ.",
+          "essence": "Vì tập giá trị của tan x là R (từ -vô cùng đến +vô cùng) nên với bất kỳ số thực m nào phương trình cũng luôn có nghiệm, và hai điểm ngọn đối xứng nhau qua tâm O nên chỉ cần cộng đuôi kπ."
         }
       ],
       "rules": [
         {
           "statement": "Các trường hợp nghiệm đặc biệt",
-          "meaning": "sin x = 0 <=> x = kπ; sin x = 1 <=> x = π/2 + k2π; sin x = -1 <=> x = -π/2 + k2π. cos x = 0 <=> x = π/2 + kπ; cos x = 1 <=> x = k2π; cos x = -1 <=> x = π + k2π."
+          "meaning": "sin x = 0 <=> x = kπ; sin x = 1 <=> x = π/2 + k2π; sin x = -1 <=> x = -π/2 + k2π. cos x = 0 <=> x = π/2 + kπ; cos x = 1 <=> x = k2π; cos x = -1 <=> x = π + k2π.",
+          "example": "Giải nhanh cos x = 0: x = π/2 + kπ (chỉ có 1 họ nghiệm gộp 2 điểm cực bắc và cực nam trên đường tròn).",
+          "essence": "Khi m = 0, đường thẳng đi qua gốc tọa độ nên cắt đường tròn tại 2 điểm cách nhau đúng nửa vòng tròn π (đuôi kπ). Khi m = ±1, đường thẳng tiếp xúc với đường tròn tại 1 điểm duy nhất (đuôi k2π)."
         }
       ],
       "workedExamples": [

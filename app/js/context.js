@@ -81,8 +81,66 @@ function setNickname(name) {
   } catch (e) {}
 }
 
+// ==========================================
+// THPT LEARNING TRACKS / COMBINATIONS (GDPT 2018)
+// ==========================================
+const PRESET_TRACKS = [
+  { id: 'all', name: 'Tất cả môn học', icon: '🌟', desc: 'Toàn bộ 10 môn THPT', subjects: [] },
+  { id: 'a00', name: 'Khối A00 (Toán - Lí - Hóa)', icon: '⚡', desc: 'Kỹ thuật, Công nghệ, Bách Khoa', subjects: ['toan', 'vat-li', 'hoa-hoc'] },
+  { id: 'a01', name: 'Khối A01 (Toán - Lí - Anh)', icon: '🔭', desc: 'CNTT, Kinh tế, Ngoại thương', subjects: ['toan', 'vat-li', 'tieng-anh'] },
+  { id: 'b00', name: 'Khối B00 (Toán - Hóa - Sinh)', icon: '🧬', desc: 'Y - Dược, Sinh học, Nông nghiệp', subjects: ['toan', 'hoa-hoc', 'sinh-hoc'] },
+  { id: 'c00', name: 'Khối C00 (Văn - Sử - Địa)', icon: '🏛️', desc: 'Khoa học Xã hội, Luật, Báo chí', subjects: ['ngu-van', 'lich-su', 'dia-li'] },
+  { id: 'd01', name: 'Khối D01 (Toán - Văn - Anh)', icon: '💼', desc: 'Kinh tế, Quản trị, Ngôn ngữ', subjects: ['toan', 'ngu-van', 'tieng-anh'] },
+  { id: 'd07', name: 'Khối D07 (Toán - Hóa - Anh)', icon: '🧪', desc: 'Kỹ thuật Hóa học, Môi trường', subjects: ['toan', 'hoa-hoc', 'tieng-anh'] },
+  { id: 'tech', name: 'Kỹ thuật & Số hóa', icon: '💻', desc: 'Toán, Vật lí, Tin học', subjects: ['toan', 'vat-li', 'tin-hoc'] },
+  { id: 'custom', name: 'Tự chọn môn theo trường', icon: '✏️', desc: 'Tích chọn đúng 4-5 môn em học ở lớp', subjects: [] }
+];
+
+function getPresetTracks() {
+  return PRESET_TRACKS;
+}
+
+function getSelectedTrack() {
+  try {
+    const raw = localStorage.getItem('sgk_selected_track');
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && parsed.id) return parsed;
+    }
+  } catch (e) {}
+  return { id: 'all', name: 'Tất cả môn học', icon: '🌟', subjects: [], onlyTrack: false };
+}
+
+function setSelectedTrack(trackId, customSubjects, onlyTrack) {
+  if (customSubjects === undefined) customSubjects = [];
+  if (onlyTrack === undefined) onlyTrack = false;
+  const track = PRESET_TRACKS.find(t => t.id === trackId) || PRESET_TRACKS[0];
+  const payload = {
+    id: track.id,
+    name: track.name,
+    icon: track.icon,
+    subjects: (track.id === 'custom') ? customSubjects : track.subjects,
+    onlyTrack: Boolean(onlyTrack)
+  };
+  try {
+    localStorage.setItem('sgk_selected_track', JSON.stringify(payload));
+  } catch (e) {}
+  return payload;
+}
+
+function isSubjectInSelectedTrack(subjectId) {
+  const track = getSelectedTrack();
+  if (track.id === 'all' || !track.subjects || track.subjects.length === 0) return true;
+  return track.subjects.includes(subjectId);
+}
+
 // Expose to window for vanilla HTML scripts
 window.LEVEL_BY_GRADE = LEVEL_BY_GRADE;
 window.LEVEL_META = LEVEL_META;
 window.getContext = getContext;
 window.setNickname = setNickname;
+window.PRESET_TRACKS = PRESET_TRACKS;
+window.getPresetTracks = getPresetTracks;
+window.getSelectedTrack = getSelectedTrack;
+window.setSelectedTrack = setSelectedTrack;
+window.isSubjectInSelectedTrack = isSubjectInSelectedTrack;

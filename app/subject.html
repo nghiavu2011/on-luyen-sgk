@@ -414,7 +414,7 @@
                                 <div style="display: flex; flex-wrap: wrap; gap: 0.55rem;">
                                     ${ch.quizzes.map((qz, qIdx) => {
                                         let starKey = 'star1';
-                                        let starBadge = '⭐ 1 Sao · Nhận biết';
+                                        let starBadge = '⭐ 1 Sao · Nhận biết (15p)';
                                         let starBorder = '#bfdbfe';
                                         let starBg = '#eff6ff';
                                         let starColor = '#1e40af';
@@ -422,28 +422,28 @@
 
                                         if (qz.id === 'de2' || qIdx === 1) {
                                             starKey = 'star2';
-                                            starBadge = '⭐⭐ 2 Sao · Thông hiểu';
+                                            starBadge = '⭐⭐ 2 Sao · Thông hiểu (25p)';
                                             starBorder = '#fed7aa';
                                             starBg = '#fff7ed';
                                             starColor = '#c2410c';
                                             starIcon = '🔍';
                                         } else if (qz.id === 'tonghop' || qz.id === 'de3' || qIdx === 2) {
                                             starKey = 'star3';
-                                            starBadge = '⭐⭐⭐ 3 Sao · Vận dụng';
+                                            starBadge = '⭐⭐⭐ 3 Sao · Vận dụng (40p)';
                                             starBorder = '#bbf7d0';
                                             starBg = '#f0fdf4';
                                             starColor = '#15803d';
                                             starIcon = '⚡';
                                         } else if (qz.id === 'de4' || qIdx >= 3) {
                                             starKey = 'star4';
-                                            starBadge = '⭐⭐⭐⭐ 4 Sao · Thử thách 9-10';
+                                            starBadge = '⭐⭐⭐⭐ 4 Sao · Thử thách 9-10 (50p)';
                                             starBorder = '#fde68a';
                                             starBg = '#fefce8';
                                             starColor = '#b45309';
                                             starIcon = '👑';
                                         }
 
-                                        const quizMode = (qz.id === 'tonghop' || qz.id === 'de4') ? 'exam' : 'practice';
+                                        const quizMode = 'exam';
                                         return `
                                         <a href="quiz.html?grade=${params.grade}&subject=${params.subject}&chapter=${ch.id}&exam=${qz.id}&mode=${quizMode}"
                                            class="quiz-star-card"

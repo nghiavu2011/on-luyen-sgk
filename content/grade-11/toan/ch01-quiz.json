@@ -6,32 +6,32 @@
   "questions": [
     {
       "id": "t11_c1_th_q1",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "type": "multiple_choice",
-      "topic": "Tính chẵn lẻ của hàm số lượng giác",
-      "question": "Trong các hàm số sau đây, hàm số nào là hàm số chẵn trên tập xác định của nó?",
+      "topic": "Ứng dụng mô hình đu quay thực tiễn",
+      "question": "Chiều cao h (mét) so với mặt đất của một cabin trên vòng đu quay tại thời điểm t phút kể từ khi bắt đầu quay được mô hình hóa bởi hàm số: h(t) = 30 - 25cos(πt / 5). Thời điểm đầu tiên mà cabin đạt độ cao lớn nhất là:",
       "options": [
-        "y = sin x",
-        "y = tan x",
-        "y = cos x",
-        "y = cot x"
+        "t = 2.5 phút",
+        "t = 5 phút",
+        "t = 10 phút",
+        "t = 1.25 phút"
       ],
-      "correct": 2,
+      "correct": 1,
       "breakdown": {
-        "concept": "Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.",
-        "socraticPrompt": "Hàm số lượng giác nào có tính chất cos(-x) = cos x?",
-        "steps": "Ta có cos(-x) = cos x với mọi x ∈ R, do đó y = cos x là hàm số chẵn. Các hàm y = sin x, y = tan x, y = cot x đều là hàm số lẻ.",
-        "trap": "Nhầm hàm số sin x là hàm chẵn."
+        "concept": "Giá trị lớn nhất của hàm số dạng h(t) = A - B cos(ωt) (với B > 0) đạt được khi cos(ωt) = -1.",
+        "socraticPrompt": "Để h(t) = 30 - 25cos(πt / 5) lớn nhất thì giá trị cos(πt / 5) phải bằng bao nhiêu giữa 1 và -1?",
+        "steps": "Vì -1 ≤ cos(πt / 5) ≤ 1 nên -25 ≤ -25cos(πt / 5) ≤ 25 => h(t) ≤ 30 + 25 = 55 mét. Độ cao cực đại 55 mét đạt được khi cos(πt / 5) = -1 <=> πt / 5 = π + k2π <=> t = 5 + 10k (k ∈ Z). Thời điểm đầu tiên kể từ lúc bắt đầu quay (t > 0) ứng với k = 0 là t = 5 phút.",
+        "trap": "Học sinh chọn cos = 1 dẫn đến h nhỏ nhất (30 - 25 = 5 mét) tại t = 0 hoặc t = 10."
       },
-      "socraticPrompt": "Hàm số lượng giác nào có tính chất cos(-x) = cos x?",
+      "socraticPrompt": "Để h(t) = 30 - 25cos(πt / 5) lớn nhất thì giá trị cos(πt / 5) phải bằng bao nhiêu giữa 1 và -1?",
       "distractorReasons": [
-        "Sai do bẫy thường gặp: Nhầm lẫn 'y = sin x' (hàm số sin x là hàm chẵn).",
-        "Sai vì 'y = tan x' không phù hợp với định lý/quy tắc trọng tâm (Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.).",
-        "Đúng vì: Ta có cos(-x) = cos x với mọi x ∈ R, do đó y = cos x là hàm số chẵn. Các hàm y = sin x, y = tan x, y = cot x đều là hàm số lẻ.",
-        "Sai vì 'y = cot x' không phù hợp với định lý/quy tắc trọng tâm (Tính chẵn lẻ: f(-x) = f(x) là hàm chẵn, f(-x) = -f(x) là hàm lẻ.)."
+        "Sai do nhầm lẫn thời điểm cabin ở độ cao trung bình h = 30m (khi cos = 0).",
+        "Đúng vì tại t = 5 phút, cos(π) = -1 => h(5) = 30 - 25(-1) = 55 mét (độ cao cực đại).",
+        "Sai vì t = 10 phút là thời điểm hoàn thành 1 chu kỳ quay trọn vẹn và cabin ở vị trí thấp nhất (5m).",
+        "Sai do tính nhầm một phần tư chu kì dao động."
       ],
-      "answer": 2,
-      "correctIndex": 2
+      "answer": 1,
+      "correctIndex": 1
     },
     {
       "id": "t11_c1_th_q2",

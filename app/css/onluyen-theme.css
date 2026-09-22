@@ -2370,4 +2370,67 @@ img {
     }
 }
 
+/* ================= THPT TRACK COMBINATION SELECTOR ================= */
+.ol-track-box {
+    background: #ffffff;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+.ol-track-chips-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.85rem 0 1rem 0;
+}
+.ol-track-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.95rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    background: #f8fafc;
+    color: #334155;
+    border: 1.5px solid #cbd5e1;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+}
+.ol-track-chip:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+    transform: translateY(-1px);
+}
+.ol-track-chip.active {
+    background: #0284c7;
+    color: #ffffff;
+    border-color: #0284c7;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+}
+.ol-subject-card.is-track-subject {
+    border-color: #0284c7 !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%) !important;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.12) !important;
+}
+.ol-track-pill {
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 0.2rem 0.55rem;
+    border-radius: 6px;
+    border: 1px solid #bfdbfe;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+.ol-track-dimmed {
+    opacity: 0.45;
+    filter: grayscale(0.6);
+}
+
 

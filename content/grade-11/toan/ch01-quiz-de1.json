@@ -122,61 +122,61 @@
     },
     {
       "id": "t11_c1_d1_q5",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Giá trị lớn nhất của hàm lượng giác",
-      "question": "Giá trị lớn nhất M của hàm số y = 3sin x - 2 bằng bao nhiêu?",
+      "topic": "Chu kì của hàm số lượng giác cơ bản",
+      "question": "Chu kì tuần hoàn T của hàm số lượng giác cơ bản y = cos x bằng bao nhiêu?",
       "options": [
-        "M = 1",
-        "M = 3",
-        "M = 5",
-        "M = -1"
+        "T = 2π",
+        "T = π",
+        "T = π/2",
+        "T = 4π"
       ],
       "correct": 0,
       "breakdown": {
-        "concept": "Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.",
-        "socraticPrompt": "Giá trị lớn nhất của sin x bằng bao nhiêu? Thay giá trị đó vào biểu thức để tìm M?",
-        "steps": "Với mọi x ∈ R, ta luôn có sin x ≤ 1. Nhân 3 cả hai vế: 3sin x ≤ 3. Trừ 2: 3sin x - 2 ≤ 3 - 2 = 1. Vậy giá trị lớn nhất là M = 1 (đạt được khi sin x = 1).",
-        "trap": "Lấy luôn hệ số 3 làm giá trị lớn nhất (quên trừ đi 2)."
+        "concept": "Hàm số y = cos x và y = sin x là các hàm số tuần hoàn với chu kì cơ sở T = 2π.",
+        "socraticPrompt": "Sau bao nhiêu radian trên đường tròn lượng giác thì giá trị cos x lặp lại giá trị ban đầu?",
+        "steps": "Theo định nghĩa SGK Toán 11, hàm số y = cos x tuần hoàn với chu kì T = 2π.",
+        "trap": "Nhầm chu kì 2π của hàm cos x với chu kì π của hàm tan x và cot x."
       },
-      "socraticPrompt": "Giá trị lớn nhất của sin x bằng bao nhiêu? Thay giá trị đó vào biểu thức để tìm M?",
+      "socraticPrompt": "Sau bao nhiêu radian trên đường tròn lượng giác thì giá trị cos x lặp lại giá trị ban đầu?",
       "distractorReasons": [
-        "Đúng vì theo Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.: Với mọi x ∈ R, ta luôn có sin x ≤ 1. Nhân 3 cả hai vế: 3sin x ≤ 3. Trừ 2: 3sin x - 2 ≤ 3 - 2 = 1. Vậy giá trị lớn nhất là M = 1 (đạt được khi sin x = 1).",
-        "Sai vì 'M = 3' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.).",
-        "Sai vì 'M = 5' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.).",
-        "Sai vì 'M = -1' không phù hợp với định lý/quy tắc trọng tâm (Đánh giá tập giá trị dựa trên tính chất -1 ≤ sin x ≤ 1.)."
+        "Đúng vì hàm số y = cos x tuần hoàn với chu kì cơ sở T = 2π.",
+        "Sai do nhầm lẫn với chu kì của hàm số y = tan x hoặc y = cot x (T = π).",
+        "Sai vì T = π/2 là một phần tư chu kì, chưa hoàn thành một vòng tuần hoàn.",
+        "Sai vì 4π là bội chu kì, không phải chu kì cơ sở nhỏ nhất."
       ],
       "answer": 0,
       "correctIndex": 0
     },
     {
       "id": "t11_c1_d1_q6",
-      "difficulty": "hard",
+      "difficulty": "easy",
       "type": "multiple_choice",
-      "topic": "Tính giá trị lượng giác khi biết góc",
-      "question": "Cho góc α thỏa mãn cos α = -12/13 và π < α < 3π/2. Giá trị của sin α bằng bao nhiêu?",
+      "topic": "Tập giá trị của hàm số lượng giác",
+      "question": "Tập giá trị của hàm số lượng giác y = sin x là đoạn nào sau đây?",
       "options": [
-        "5/13",
-        "12/13",
-        "-5/13",
-        "-1/13"
+        "[-1; 1]",
+        "(-∞; +∞)",
+        "[0; 1]",
+        "[-2; 2]"
       ],
-      "correct": 2,
+      "correct": 0,
       "breakdown": {
-        "concept": "Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.",
-        "socraticPrompt": "Trong góc phần tư thứ III (π < α < 3π/2), tung độ của điểm biểu diễn mang dấu gì?",
-        "steps": "sin²α = 1 - cos²α = 1 - (-12/13)² = 1 - 144/169 = 25/169. Vì π < α < 3π/2 (góc phần tư III) nên sin α < 0. Do đó sin α = -5/13.",
-        "trap": "Lấy nghiệm dương sin α = +5/13 do quên kiểm tra góc phần tư."
+        "concept": "Với mọi điểm M trên đường tròn lượng giác, tung độ của M luôn nằm trong đoạn [-1; 1]. Do đó -1 ≤ sin x ≤ 1.",
+        "socraticPrompt": "Tung độ của các điểm trên đường tròn đơn vị có thể vượt ra ngoài phạm vi từ -1 đến 1 được không?",
+        "steps": "Với mọi x ∈ R, ta luôn có -1 ≤ sin x ≤ 1. Vậy tập giá trị của hàm số y = sin x là đoạn [-1; 1].",
+        "trap": "Nhầm tập xác định R của hàm số sin x với tập giá trị [-1; 1]."
       },
-      "socraticPrompt": "Trong góc phần tư thứ III (π < α < 3π/2), tung độ của điểm biểu diễn mang dấu gì?",
+      "socraticPrompt": "Tung độ của các điểm trên đường tròn đơn vị có thể vượt ra ngoài phạm vi từ -1 đến 1 được không?",
       "distractorReasons": [
-        "Sai vì '5/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.).",
-        "Sai vì '12/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.).",
-        "Đúng vì: sin²α = 1 - cos²α = 1 - (-12/13)² = 1 - 144/169 = 25/169. Vì π < α < 3π/2 (góc phần tư III) nên sin α < 0. Do đó sin α = -5/13.",
-        "Sai vì '-1/13' không phù hợp với định lý/quy tắc trọng tâm (Tính sin α từ cos α qua hệ thức sin²α + cos²α = 1 và dấu góc phần tư III.)."
+        "Đúng vì với mọi x ∈ R, giá trị sin x luôn thuộc đoạn [-1; 1].",
+        "Sai do nhầm lẫn giữa tập giá trị với tập xác định D = R.",
+        "Sai vì sin x nhận cả các giá trị âm khi góc thuộc nửa dưới đường tròn lượng giác.",
+        "Sai vì bán kính đường tròn đơn vị chỉ bằng 1 nên sin x không thể đạt giá trị ngoài [-1; 1]."
       ],
-      "answer": 2,
-      "correctIndex": 2
+      "answer": 0,
+      "correctIndex": 0
     }
   ]
 }
