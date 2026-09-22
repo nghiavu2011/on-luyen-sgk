@@ -489,19 +489,21 @@
             const listEl = document.getElementById('sidebar-lessons-list');
             if (!listEl) return;
             listEl.innerHTML = '';
+            
+            const p = window.getProgress ? window.getProgress() : null;
             const total = lessons.length;
-            const current = currentLessonIdx + 1;
-            const pct = Math.round((current / (total || 1)) * 100);
+            const readLessonsCount = lessons.filter(l => p && p.lessonsRead && p.lessonsRead.includes(`${params.grade}/${params.subject}/${params.chapter}/${l.id}`)).length;
+            const pct = total > 0 ? Math.round((readLessonsCount / total) * 100) : 0;
 
             const statEl = document.getElementById('chapter-progress-stat');
-            if (statEl) statEl.textContent = `${current}/${total} bài · ${pct}%`;
+            if (statEl) statEl.textContent = `${readLessonsCount}/${total} bài · ${pct}%`;
             const barEl = document.getElementById('sidebar-progress-bar');
             if (barEl) barEl.style.width = `${pct}%`;
 
             lessons.forEach((l, idx) => {
                 const li = document.createElement('li');
                 const isActive = (idx === currentLessonIdx);
-                const isPassed = (idx < currentLessonIdx);
+                const isPassed = Boolean(p && p.lessonsRead && p.lessonsRead.includes(`${params.grade}/${params.subject}/${params.chapter}/${l.id}`));
 
                 li.innerHTML = `
                     <a href="javascript:void(0)" onclick="selectLesson(${idx})" class="ol-chapter-lesson-item ${isActive ? 'active' : ''}">
@@ -509,7 +511,7 @@
                             <span style="width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; ${isActive ? 'background: var(--ol-primary); color: white;' : (isPassed ? 'background: #dcfce7; color: #15803d;' : 'background: #f1f5f9; color: #64748b;')}">
                                 ${isPassed ? '✔' : (idx + 1)}
                             </span>
-                            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${l.title}</span>
+                            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHTML(l.title)}</span>
                         </div>
                     </a>
                 `;
@@ -570,7 +572,22 @@
 
         function prevLesson() { if (currentLessonIdx > 0) selectLesson(currentLessonIdx - 1); }
         function nextLesson() { if (currentLessonIdx < lessons.length - 1) selectLesson(currentLessonIdx + 1); }
-        function markCompleted() { addXP(10); alert('🎉 Em đã hoàn thành bài học và được cộng +10 XP!'); }
+        function markCompleted() {
+            const p = window.getProgress ? window.getProgress() : { version: 2 };
+            const g = params.grade || '11';
+            const s = params.subject || 'vat-li';
+            const c = params.chapter || 'ch01';
+            const targetLessonId = (lessons[currentLessonIdx] ? lessons[currentLessonIdx].id : 'l01');
+            const lessonKey = `${g}/${s}/${c}/${targetLessonId}`;
+
+            if (!p.lessonsRead) p.lessonsRead = [];
+            if (!p.lessonsRead.includes(lessonKey)) {
+                p.lessonsRead.push(lessonKey);
+                if (window.saveProgress) window.saveProgress(p);
+            }
+            renderSidebarLessons();
+            alert('🎉 Em đã hoàn thành bài học này!');
+        }
 
         // QUIZ LOGIC
         async function loadQuizData() {

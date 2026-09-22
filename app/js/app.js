@@ -49,14 +49,21 @@ function getUrlParams() {
     return result;
 }
 
-// 2. State Management
+// 2. State Management (Ủy quyền thống nhất cho stats.js v2 - Single Source of Truth)
 function getState() {
+    if (typeof window.getProgress === 'function') {
+        return window.getProgress();
+    }
     const defaultState = {
+        version: 2,
         xp: 0,
-        streak: 0,
-        lastLogin: null,
-        completedLessons: [],
-        quizScores: {}
+        streak: { days: 1, lastActiveDate: null },
+        gradedCount: 0,
+        correctCount: 0,
+        mistakes: [],
+        attempts: [],
+        lessonsRead: [],
+        parentPin: { hash: null, isDefault: true }
     };
     try {
         const stored = localStorage.getItem(STATE_KEY);
@@ -67,37 +74,34 @@ function getState() {
 }
 
 function saveState(state) {
-    localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    if (typeof window.saveProgress === 'function') {
+        return window.saveProgress(state);
+    }
+    try {
+        localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    } catch (e) {}
 }
 
 function addXP(amount) {
+    if (typeof window.addXP === 'function' && window.addXP !== addXP) {
+        return window.addXP(amount);
+    }
     const state = getState();
-    state.xp += amount;
+    state.xp = (state.xp || 0) + (amount || 0);
     saveState(state);
     updateStats();
 }
 
 function updateStats() {
+    if (typeof window.updateUIStats === 'function') {
+        return window.updateUIStats();
+    }
     const state = getState();
     const xpEl = document.getElementById('xp-count');
     const streakEl = document.getElementById('streak-count');
-    
-    // Streak logic
-    const today = new Date().toDateString();
-    if (state.lastLogin !== today) {
-        if (state.lastLogin === new Date(Date.now() - 86400000).toDateString()) {
-            state.streak += 1;
-        } else if (state.lastLogin) {
-            state.streak = 1;
-        } else {
-            state.streak = 1;
-        }
-        state.lastLogin = today;
-        saveState(state);
-    }
-    
-    if (xpEl) xpEl.innerText = state.xp;
-    if (streakEl) streakEl.innerText = state.streak;
+    const streakDays = (state.streak && typeof state.streak.days === 'number') ? state.streak.days : (typeof state.streak === 'number' ? state.streak : 1);
+    if (xpEl) xpEl.innerText = (state.xp || 0).toLocaleString('vi-VN');
+    if (streakEl) streakEl.innerText = streakDays;
 }
 
 // 3. EXPORT & IMPORT PROGRESS (JSON BACKUP)
@@ -223,25 +227,8 @@ async function setParentPin(newPin) {
     }
 }
 
-// C. Frame Buster (Chống nhúng iframe trái phép)
-try {
-    if (window.self !== window.top) {
-        window.top.location = window.self.location;
-    }
-} catch (e) {
-    // Cross-origin iframe blocked
-}
+// C. Frame Buster & Copy Protection đã được tập trung hóa chuyên nghiệp trong js/security-protect.js
 
-// D. Copy Protection with Attribution Watermark
-document.addEventListener('copy', (event) => {
-    const selection = window.getSelection();
-    if (!selection || selection.toString().length < 40) return;
-    
-    // Attach educational non-profit attribution
-    const watermark = "\n\n[Trích xuất từ Ứng dụng Ôn Luyện SGK 2026-2027 • Tự học cùng DeepTutor Socratic AI]";
-    event.clipboardData.setData('text/plain', selection.toString() + watermark);
-    event.preventDefault();
-});
 
 // E. Console Copyright Notice
 console.log(

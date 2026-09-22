@@ -350,7 +350,7 @@
             loadParentData();
         }
 
-        function checkPin() {
+        async function checkPin() {
             const now = Date.now();
             if (now < lockUntil) {
                 const waitSec = Math.ceil((lockUntil - now) / 1000);
@@ -361,11 +361,14 @@
             const pinInputEl = document.getElementById('pin-input');
             const pin = (pinInputEl ? pinInputEl.value : '').trim();
 
-            const p = window.getProgress ? window.getProgress() : null;
-            const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
-
-            const inputHash = hashLocalPin(pin);
-            const isValid = (targetHash && inputHash === targetHash);
+            let isValid = false;
+            if (typeof verifyParentPin === 'function') {
+                isValid = await verifyParentPin(pin);
+            } else {
+                const p = window.getProgress ? window.getProgress() : null;
+                const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
+                isValid = (targetHash && hashLocalPin(pin) === targetHash);
+            }
 
             if (isValid) {
                 failedAttempts = 0;
@@ -548,21 +551,27 @@
             if (pinInp) pinInp.value = '';
         }
 
-        function promptChangePin() {
+        async function promptChangePin() {
             const oldPin = prompt("Nhập mã PIN hiện tại của bạn:");
             if (!oldPin) return;
 
-            const p = window.getProgress ? window.getProgress() : null;
-            const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
+            let isOldValid = false;
+            if (typeof verifyParentPin === 'function') {
+                isOldValid = await verifyParentPin(oldPin);
+            } else {
+                const p = window.getProgress ? window.getProgress() : null;
+                const targetHash = (p && p.parentPin) ? p.parentPin.hash : null;
+                isOldValid = (hashLocalPin(oldPin) === targetHash);
+            }
 
-            if (hashLocalPin(oldPin) !== targetHash) {
+            if (!isOldValid) {
                 alert("Mã PIN hiện tại không chính xác!");
                 return;
             }
 
             const newPin = prompt("Nhập mã PIN mới (4 đến 6 chữ số, không dùng mã dễ đoán):");
             if (!newPin || isPinWeak(newPin)) {
-                alert("Mã PIN mới không hợp lệ hoặc quá dễ đoán!");
+                alert("Mã PIN mới không hợp lệ hoặc quá dễ đoán (tối thiểu 4 số, không dùng số trùng hoặc dãy liên tiếp)!");
                 return;
             }
 
@@ -572,11 +581,16 @@
                 return;
             }
 
-            p.parentPin = {
-                hash: hashLocalPin(newPin),
-                isDefault: false
-            };
-            if (window.saveProgress) window.saveProgress(p);
+            if (typeof setParentPin === 'function') {
+                await setParentPin(newPin);
+            } else {
+                const p = window.getProgress ? window.getProgress() : { version: 2 };
+                p.parentPin = {
+                    hash: hashLocalPin(newPin),
+                    isDefault: false
+                };
+                if (window.saveProgress) window.saveProgress(p);
+            }
             alert("Đã đổi mã PIN thành công và lưu khoá truy cập cục bộ trên thiết bị này!");
         }
 

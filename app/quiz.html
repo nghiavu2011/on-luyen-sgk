@@ -540,6 +540,7 @@
         let attemptSeed = Date.now();
         let userAnswers = {}; // { 0: 2, 1: 0, ... }
         let timerSeconds = 45 * 60;
+        let initialExamSeconds = 45 * 60;
         let timerInterval;
         let params = {};
         let isExamSubmitted = false;
@@ -744,6 +745,7 @@
                     }
 
                     timerSeconds = examDurationMinutes * 60;
+                    initialExamSeconds = timerSeconds;
 
                     const metaEl = document.getElementById('exam-meta');
                     if (metaEl) {
@@ -1224,20 +1226,27 @@
                     isCorrect: isCorr
                 });
 
+                const examCodeStr = params.exam || 'tonghop';
+                const fullExamId = `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}-${examCodeStr}`;
+
                 if (window.recordQuestionResult) {
                     window.recordQuestionResult(q, userChoice, isCorr, {
                         grade: params.grade || '06',
                         subject: params.subject || 'toan',
                         chapter: params.chapter || 'ch01',
-                        examId: `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}`
+                        examId: fullExamId
                     });
                 }
             });
 
+            const examCodeStr = params.exam || 'tonghop';
+            const fullExamId = `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}-${examCodeStr}`;
+            const elapsedSec = Math.max(0, initialExamSeconds - timerSeconds);
+
             if (window.recordExamAttempt) {
                 window.recordExamAttempt({
-                    examId: `${params.subject || 'toan'}-${params.grade || '06'}-${params.chapter || 'ch01'}`,
-                    startedAt: new Date(Date.now() - (45 * 60 - timerSeconds) * 1000).toISOString(),
+                    examId: fullExamId,
+                    startedAt: new Date(Date.now() - elapsedSec * 1000).toISOString(),
                     submittedAt: new Date().toISOString(),
                     seed: attemptSeed,
                     score: { correct, total, scale10: parseFloat(points.toFixed(1)) },

@@ -475,8 +475,9 @@
             }
         }
 
-        function selectLevel(levelKey) {
+        function selectLevel(levelKey, preferredGrade = null) {
             currentLevel = levelKey;
+            try { localStorage.setItem('sgk_selected_level', levelKey); } catch(e){}
             const lvl = LEVEL_DATA[levelKey];
 
             // Highlight active level card
@@ -536,8 +537,13 @@
             if (gDesc) gDesc.textContent = (levelKey === 'c1') ? 'Lộ trình bám sát chương trình Tiểu học, phù hợp với từng độ tuổi' : 'Lộ trình bám sát bộ sách Kết nối tri thức, phù hợp với từng độ tuổi';
             if (sTitle) sTitle.innerHTML = (levelKey === 'c1') ? '<span>🎨</span> Chọn môn học yêu thích' : '<span>📚</span> Học theo môn học';
 
-            // Mặc định chọn lớp đầu tiên của cấp đó (nếu là c2 thì chọn 06, c3 thì chọn 11)
-            selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : lvl.grades[0].id);
+            // Mặc định chọn lớp đầu tiên của cấp đó nếu không có preferredGrade
+            if (preferredGrade && lvl.grades && lvl.grades.some(g => g.id === preferredGrade)) {
+                selectedGrade = preferredGrade;
+            } else {
+                selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : lvl.grades[0].id);
+            }
+            try { localStorage.setItem('sgk_selected_grade', selectedGrade); } catch(e){}
             
             renderGrades();
             renderTrackSelector();
@@ -579,6 +585,7 @@
 
         function selectGrade(gradeId, shouldScroll = false) {
             selectedGrade = gradeId;
+            try { localStorage.setItem('sgk_selected_grade', gradeId); } catch(e){}
             renderGrades();
             renderTrackSelector();
             renderSubjects();
@@ -935,8 +942,16 @@
             }).join('');
         }
 
-        // Khởi tạo
-        selectLevel('c2');
+        // Khởi tạo thông minh theo URL Params và LocalStorage
+        const ctxOnLoad = (typeof getContext === 'function') ? getContext() : {};
+        const urlParamsOnLoad = (typeof getUrlParams === 'function') ? getUrlParams() : {};
+        const savedLevel = localStorage.getItem('sgk_selected_level');
+        const savedGrade = localStorage.getItem('sgk_selected_grade');
+
+        const initialLevel = urlParamsOnLoad.level || (ctxOnLoad.levelId) || savedLevel || 'c2';
+        const initialGrade = urlParamsOnLoad.grade || ctxOnLoad.grade || savedGrade || null;
+
+        selectLevel(initialLevel, initialGrade);
 
         function refreshDeepTutorUI() {
             const mistakes = window.getMistakes ? window.getMistakes() : (window.DeepTutor ? DeepTutor.getMistakeBank() : []);

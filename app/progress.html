@@ -240,9 +240,11 @@
     <script src="js/security-protect.js"></script>
     <script>
         function loadProgress() {
-            const state = getState();
-            document.getElementById('prog-xp').textContent = state.xp || 0;
-            document.getElementById('prog-streak').textContent = `${state.streak || 1} ngày`;
+            const state = (typeof window.getProgress === 'function') ? window.getProgress() : getState();
+            document.getElementById('prog-xp').textContent = (state.xp || 0).toLocaleString('vi-VN');
+            
+            const streakDays = (state.streak && typeof state.streak.days === 'number') ? state.streak.days : (typeof state.streak === 'number' ? state.streak : 1);
+            document.getElementById('prog-streak').textContent = `${streakDays} ngày`;
 
             const level = Math.floor((state.xp || 0) / 50) + 1;
             document.getElementById('prog-level').textContent = `Cấp ${level}`;
@@ -295,20 +297,38 @@
             }
 
             const container = document.getElementById('subject-progress');
-            if (state.completedLessons && state.completedLessons.length > 0) {
+            const completedList = (state.lessonsRead && state.lessonsRead.length > 0) 
+                ? state.lessonsRead 
+                : (state.completedLessons || []);
+
+            if (completedList.length > 0) {
                 container.innerHTML = `
                     <div style="display: flex; flex-direction: column; gap: 0.6rem;">
-                        ${state.completedLessons.map(k => {
+                        ${completedList.map(k => {
                             const parts = k.split('/');
+                            const gradePart = parts[0] || '';
+                            const subPart = (parts[1] || '').toUpperCase();
+                            const chPart = parts[2] || '';
+                            const lPart = parts[3] || '';
                             return `
                                 <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem; background: var(--ol-bg); border-radius: var(--ol-radius-sm); border: 1px solid var(--ol-border);">
                                     <div style="font-weight: 600; color: var(--ol-text-title); font-size: 0.92rem;">
-                                        📘 Lớp ${parts[0]} · ${parts[1].toUpperCase()} · ${parts[2]} (${parts[3]})
+                                        📘 Lớp ${escapeHTML(gradePart)} · ${escapeHTML(subPart)} · ${escapeHTML(chPart)} (${escapeHTML(lPart)})
                                     </div>
                                     <span class="ol-badge-tag ol-badge-emerald" style="margin: 0;">✔ Đã hoàn thành</span>
                                 </div>
                             `;
                         }).join('')}
+                    </div>
+                `;
+            } else {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 2rem 1rem; background: var(--ol-bg); border-radius: 10px; border: 1px dashed var(--ol-border); color: #64748b;">
+                        <span style="font-size: 1.8rem; display: block; margin-bottom: 0.5rem;">📖</span>
+                        <div>Chưa có bài học nào được đánh dấu hoàn thành.</div>
+                        <a href="index.html#subjects" class="ol-btn-primary" style="margin-top: 0.75rem; text-decoration: none; display: inline-block; font-size: 0.85rem; padding: 0.4rem 0.9rem;">
+                            Bắt đầu học ngay ➔
+                        </a>
                     </div>
                 `;
             }
