@@ -1830,6 +1830,7 @@
         function renderQuestion() {
             if (questions.length === 0) return;
             const q = questions[currentIdx];
+            const isEng = (params.subject === 'tieng-anh');
             const letters = ['A', 'B', 'C', 'D'];
 
             let diffBadge = '<span class="ol-badge-tag" style="background:#eff6ff; color:#1d4ed8; font-weight:700; border:1px solid #bfdbfe;">⭐ 1 Sao · Nhận biết (+2 XP)</span>';
@@ -1915,9 +1916,11 @@
                         <button type="button" class="ol-btn-outline" style="font-size: 0.85rem; padding: 0.35rem 0.8rem; border-radius: 20px; display: inline-flex; align-items: center; gap: 0.35rem; color: #4338ca; border-color: #c7d2fe; background: #eef2ff;" onclick="toggleSocraticHints()">
                             💡 Xem gợi ý 3 bậc
                         </button>
-                        <button type="button" class="ol-btn-outline" style="font-size: 0.85rem; padding: 0.35rem 0.8rem; border-radius: 20px; display: inline-flex; align-items: center; gap: 0.35rem; color: #475569; border-color: #cbd5e1; background: #f8fafc;" onclick="speakQuestion()">
-                            🔊 Đọc câu hỏi
+                        ${isEng ? `
+                        <button type="button" class="ol-btn-outline" style="font-size: 0.85rem; padding: 0.35rem 0.8rem; border-radius: 20px; display: inline-flex; align-items: center; gap: 0.35rem; color: #475569; border-color: #cbd5e1; background: #f8fafc;" onclick="speakQuestion()" title="Nghe phát âm câu hỏi tiếng Anh">
+                            🔊 Nghe phát âm
                         </button>
+                        ` : ''}
                         ${q.wrongCount ? `<span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.78rem; font-weight: 700;">⚠️ Đã từng làm sai (${q.wrongCount} lần)</span>` : ''}
                         ${params.mode === 'mistakes' || params.mode === 'remediation' ? `<span style="background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.78rem; font-weight: 700;">🎯 Chế độ Luyện bù đắp</span>` : ''}
                     </div>
@@ -2532,13 +2535,25 @@
             const q = questions[currentIdx];
             if (!q) return;
             const isEng = (params.subject === 'tieng-anh');
+            if (!isEng) {
+                // Chỉ hỗ trợ phát âm câu hỏi cho môn Tiếng Anh
+                return;
+            }
             if (window.DeepTutor) {
-                DeepTutor.speak(q.question, isEng ? 'en-US' : 'vi-VN');
+                DeepTutor.speak(q.question, 'en-US');
             } else if ('speechSynthesis' in window) {
                 window.speechSynthesis.cancel();
-                const clean = q.question.replace(/\$+/g, '');
+                const clean = q.question.replace(/\$+/g, '').replace(/\[\/?(b|i|u|strong|em)\]/gi, '').trim();
                 const u = new SpeechSynthesisUtterance(clean);
-                u.lang = isEng ? 'en-US' : 'vi-VN';
+                u.lang = 'en-US';
+                u.rate = 0.9;
+                try {
+                    const voices = window.speechSynthesis.getVoices();
+                    if (voices && voices.length > 0) {
+                        const enVoice = voices.find(v => (v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('US') || v.name.includes('UK')))) || voices.find(v => v.lang.startsWith('en'));
+                        if (enVoice) u.voice = enVoice;
+                    }
+                } catch(e) {}
                 window.speechSynthesis.speak(u);
             }
         }

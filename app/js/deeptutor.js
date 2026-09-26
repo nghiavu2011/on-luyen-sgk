@@ -344,10 +344,23 @@ const DeepTutor = (function() {
         draw();
     }
 
-    // Native Web Speech API (Giọng đọc sư phạm đa ngôn ngữ)
-    function speak(text, lang = 'vi-VN') {
+    // Native Web Speech API (Chỉ kích hoạt phát âm tiếng Anh chuẩn bản ngữ; bảo vệ trải nghiệm phát âm)
+    function speak(text, lang = 'en-US') {
         if (!('speechSynthesis' in window) || !text) return;
         window.speechSynthesis.cancel();
+
+        const voices = (window.speechSynthesis.getVoices && window.speechSynthesis.getVoices()) || [];
+
+        // Nếu yêu cầu đọc tiếng Việt mà thiết bị không có voice tiếng Việt bản địa (như hầu hết Windows),
+        // tuyệt đối KHÔNG fallback sang voice tiếng Anh vì sẽ phát âm ngọng kiểu 'người Tây nói tiếng Việt'
+        if (lang.startsWith('vi')) {
+            const viVoice = voices.find(v => v.lang && (v.lang.startsWith('vi') || v.lang.includes('vi-VN')));
+            if (!viVoice) {
+                console.warn('[DeepTutor] Bỏ qua đọc tiếng Việt vì thiết bị không có giọng đọc tiếng Việt bản địa (tránh phát âm lỗi người Tây).');
+                return;
+            }
+        }
+
         // Làm sạch mã latex & biểu thức toán học trước khi đọc
         let clean = text.replace(/\$+/g, '')
             .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1 phần $2')
@@ -359,18 +372,20 @@ const DeepTutor = (function() {
             .replace(/\\mathbb\{R\}/g, 'tập số thực R')
             .replace(/\\leq/g, 'nhỏ hơn hoặc bằng')
             .replace(/\\geq/g, 'lớn hơn hoặc bằng')
-            .replace(/\\neq/g, 'khác');
+            .replace(/\\neq/g, 'khác')
+            .replace(/\[\/?(b|i|u|strong|em)\]/gi, '')
+            .trim();
+
         const utterance = new SpeechSynthesisUtterance(clean);
         utterance.lang = lang;
         utterance.rate = lang.startsWith('en') ? 0.9 : 0.95;
 
         try {
-            const voices = window.speechSynthesis.getVoices();
-            if (lang.startsWith('en') && voices && voices.length > 0) {
-                const enVoice = voices.find(v => (v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('US') || v.name.includes('UK')))) || voices.find(v => v.lang.startsWith('en'));
+            if (lang.startsWith('en') && voices.length > 0) {
+                const enVoice = voices.find(v => (v.lang.startsWith('en') && (v.name.includes('Natural') || v.name.includes('Google') || v.name.includes('US') || v.name.includes('UK') || v.name.includes('Samantha') || v.name.includes('Daniel')))) || voices.find(v => v.lang.startsWith('en'));
                 if (enVoice) utterance.voice = enVoice;
-            } else if (lang.startsWith('vi') && voices && voices.length > 0) {
-                const viVoice = voices.find(v => v.lang.startsWith('vi'));
+            } else if (lang.startsWith('vi') && voices.length > 0) {
+                const viVoice = voices.find(v => v.lang && (v.lang.startsWith('vi') || v.lang.includes('vi-VN')));
                 if (viVoice) utterance.voice = viVoice;
             }
         } catch(e) {}
