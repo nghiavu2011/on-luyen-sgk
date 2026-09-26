@@ -1793,7 +1793,8 @@ body {
 .ol-fc-card-scene {
     perspective: 1000px;
     width: 100%;
-    height: 340px;
+    min-height: 420px;
+    height: 460px;
     margin: 1.5rem 0;
     cursor: pointer;
 }
@@ -1812,6 +1813,8 @@ body {
 
 .ol-fc-face {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
@@ -1822,9 +1825,8 @@ body {
     box-shadow: var(--ol-shadow-lg);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem;
+    padding: 1.75rem 2rem;
+    box-sizing: border-box;
 }
 
 .ol-fc-face--back {
@@ -1834,10 +1836,74 @@ body {
 }
 
 .ol-fc-title {
-    font-size: 1.45rem;
+    font-size: clamp(1.1rem, 2.2vw, 1.45rem);
     font-weight: 800;
     color: var(--ol-text-title);
     line-height: 1.5;
+}
+
+.ol-fc-back-body {
+    width: 100%;
+    font-size: 1.02rem;
+    line-height: 1.65;
+    color: #1e293b;
+    text-align: left;
+}
+
+.fc-callout-core {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0f172a;
+    line-height: 1.6;
+    margin-bottom: 0.85rem;
+}
+
+.fc-callout-example {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #1e40af;
+    text-align: left;
+}
+
+.fc-callout-insight {
+    background: #f0fdf4;
+    border-left: 4px solid #22c55e;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #166534;
+    text-align: left;
+}
+
+.fc-callout-warning {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #92400e;
+    text-align: left;
+}
+
+.fc-callout-solution {
+    background: #f8fafc;
+    border-left: 4px solid #64748b;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #334155;
+    text-align: left;
 }
 
 .ol-fc-sub {

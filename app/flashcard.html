@@ -143,43 +143,50 @@
 
                         <div class="ol-fc-card-scene" onclick="flipCurrentCard()">
                             <div class="ol-fc-card" id="active-fc-card">
-                                <div class="ol-fc-face" id="fc-face-front" style="position: relative;">
+                                <div class="ol-fc-face" id="fc-face-front">
                                     <button type="button" class="ol-btn-icon fc-audio-btn" id="fc-audio-front-btn" title="Nghe phát âm tiếng Anh (Phím S)" onclick="event.stopPropagation(); speakFlashcard('front');" style="position: absolute; top: 1rem; right: 1rem; background: rgba(2, 132, 199, 0.1); border: 1px solid rgba(2, 132, 199, 0.3); border-radius: 50%; width: 42px; height: 42px; font-size: 1.25rem; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 10; transition: transform 0.15s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                                         🔊
                                     </button>
-                                    <div id="fc-front-label" style="font-size: 0.8rem; font-weight: 700; color: var(--ol-primary); text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
+                                    <div id="fc-front-label" style="font-size: 0.8rem; font-weight: 700; color: var(--ol-primary); text-transform: uppercase; margin-bottom: 0.75rem; letter-spacing: 0.5px; flex-shrink: 0;">
                                         ✦ CÂU HỎI / KHÁI NIỆM ✦
                                     </div>
-                                    <div class="ol-fc-title" id="fc-text-front">Đang tải thẻ...</div>
-                                    <div class="ol-fc-sub">Nhấp để lật mặt sau ↻</div>
+                                    <div style="flex: 1; display: flex; align-items: center; justify-content: center; width: 100%; margin: auto 0; overflow-y: auto;">
+                                        <div class="ol-fc-title" id="fc-text-front" style="width: 100%; text-align: center;">Đang tải thẻ...</div>
+                                    </div>
+                                    <div class="ol-fc-sub" style="flex-shrink: 0; margin-top: 0.75rem;">Nhấp để lật mặt sau ↻</div>
                                 </div>
-                                <div class="ol-fc-face ol-fc-face--back" id="fc-face-back" style="position: relative;">
+                                <div class="ol-fc-face ol-fc-face--back" id="fc-face-back">
                                     <button type="button" class="ol-btn-icon fc-audio-btn" id="fc-audio-back-btn" title="Nghe phát âm tiếng Anh (Phím S)" onclick="event.stopPropagation(); speakFlashcard('back');" style="position: absolute; top: 1rem; right: 1rem; background: rgba(21, 128, 61, 0.1); border: 1px solid rgba(21, 128, 61, 0.3); border-radius: 50%; width: 42px; height: 42px; font-size: 1.25rem; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 10; transition: transform 0.15s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
                                         🔊
                                     </button>
-                                    <div id="fc-back-label" style="font-size: 0.8rem; font-weight: 700; color: #15803d; text-transform: uppercase; margin-bottom: 1rem; letter-spacing: 0.5px;">
+                                    <div id="fc-back-label" style="font-size: 0.8rem; font-weight: 700; color: #15803d; text-transform: uppercase; margin-bottom: 0.75rem; letter-spacing: 0.5px; flex-shrink: 0;">
                                         💡 ĐỊNH NGHĨA / PHÂN TÍCH CHI TIẾT 💡
                                     </div>
-                                    <div class="ol-fc-title" id="fc-text-back" style="font-size: 1.15rem; line-height: 1.6;">Nội dung mặt sau</div>
-                                    <div class="ol-fc-sub">Nhấp để lật lại ↺</div>
+                                    <div style="flex: 1; width: 100%; margin: auto 0; overflow-y: auto; padding: 0.25rem 0.35rem;" id="fc-back-scroll-container">
+                                        <div class="ol-fc-back-body" id="fc-text-back" style="width: 100%; font-size: 1.05rem; line-height: 1.65; color: #1e293b; text-align: left;">Nội dung mặt sau</div>
+                                    </div>
+                                    <div class="ol-fc-sub" style="flex-shrink: 0; margin-top: 0.75rem;">Nhấp để lật lại ↺</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="ol-fc-controls" id="fc-controls" style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem;">
-                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="prevCard()" title="Phím tắt: Mũi tên trái">
+                        <div class="ol-fc-controls" id="fc-controls" style="display: flex; gap: 0.65rem; justify-content: center; flex-wrap: wrap; margin-top: 1.25rem;">
+                            <button class="ol-btn-outline" style="padding: 0.65rem 1.15rem; font-size: 0.88rem;" onclick="prevCard()" title="Phím tắt: Mũi tên trái">
                                 ⬅ Thẻ trước
                             </button>
-                            <button class="ol-btn-outline" id="fc-speak-toolbar-btn" style="padding: 0.75rem 1.25rem; font-size: 0.9rem; color: #4338ca; border-color: #c7d2fe; background: #eef2ff; display: none;" onclick="speakFlashcard(isCardFlipped ? 'back' : 'front')" title="Phím tắt: S">
+                            <button class="ol-btn-outline" style="padding: 0.65rem 1.15rem; font-size: 0.88rem; color: #0284c7; border-color: #bae6fd; background: #f0f9ff;" onclick="flipCurrentCard()" title="Phím tắt: Space hoặc Enter">
+                                🔄 Lật thẻ
+                            </button>
+                            <button class="ol-btn-outline" id="fc-speak-toolbar-btn" style="padding: 0.65rem 1.15rem; font-size: 0.88rem; color: #4338ca; border-color: #c7d2fe; background: #eef2ff; display: none;" onclick="speakFlashcard(isCardFlipped ? 'back' : 'front')" title="Phím tắt: S">
                                 🔊 Phát âm (S)
                             </button>
-                            <button class="ol-btn-secondary" style="border-color: #fed7aa; color: #c2410c; background: #fff7ed; padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="rateCard(false)" title="Phím tắt: 1 hoặc X">
+                            <button class="ol-btn-secondary" style="border-color: #fed7aa; color: #c2410c; background: #fff7ed; padding: 0.65rem 1.35rem; font-size: 0.9rem;" onclick="rateCard(false)" title="Phím tắt: 1 hoặc X">
                                 ❌ Cần ôn lại
                             </button>
-                            <button class="ol-btn-cta" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 0.75rem 1.75rem; font-size: 0.95rem; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);" onclick="rateCard(true)" title="Phím tắt: 2 hoặc Z">
+                            <button class="ol-btn-cta" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 0.65rem 1.5rem; font-size: 0.9rem; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25);" onclick="rateCard(true)" title="Phím tắt: 2 hoặc Z">
                                 ✔ Đã ghi nhớ (+1 XP)
                             </button>
-                            <button class="ol-btn-outline" style="padding: 0.75rem 1.25rem; font-size: 0.9rem;" onclick="nextCardDirect()" title="Phím tắt: Mũi tên phải">
+                            <button class="ol-btn-outline" style="padding: 0.65rem 1.15rem; font-size: 0.88rem;" onclick="nextCardDirect()" title="Phím tắt: Mũi tên phải">
                                 Thẻ sau ➡
                             </button>
                         </div>
@@ -771,6 +778,70 @@
             }
         }
 
+        function formatFlashcardBack(raw) {
+            if (!raw) return '';
+            // Escape HTML cơ bản để bảo mật chống XSS nhưng giữ ký tự an toàn cho KaTeX ($ / \ &)
+            const escapeMathSafe = (str) => {
+                return String(str).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            };
+
+            const lines = raw.split(/\n+/);
+            let html = '';
+            let currentBlock = [];
+            let currentType = 'core'; // 'core', 'example', 'insight', 'warning', 'solution'
+
+            const flushBlock = () => {
+                if (currentBlock.length === 0) return;
+                const content = currentBlock.join('<br>');
+                if (currentType === 'example') {
+                    html += `<div class="fc-callout-example">${content}</div>`;
+                } else if (currentType === 'insight') {
+                    html += `<div class="fc-callout-insight">${content}</div>`;
+                } else if (currentType === 'warning') {
+                    html += `<div class="fc-callout-warning">${content}</div>`;
+                } else if (currentType === 'solution') {
+                    html += `<div class="fc-callout-solution">${content}</div>`;
+                } else {
+                    html += `<div class="fc-callout-core">${content}</div>`;
+                }
+                currentBlock = [];
+            };
+
+            for (let line of lines) {
+                line = line.trim();
+                if (!line) continue;
+
+                const escaped = escapeMathSafe(line);
+
+                if (/^(?:💡|📝)\s*(?:Ví dụ|Example|Eg|e\.g\.)\s*:/i.test(line)) {
+                    flushBlock();
+                    currentType = 'example';
+                    const colonIdx = escaped.indexOf(':');
+                    currentBlock.push(`<strong>${escaped.slice(0, colonIdx + 1)}</strong> ${escaped.slice(colonIdx + 1)}`);
+                } else if (/^(?:🌱\s*Bản chất|🔑\s*Ý nghĩa|👉\s*Kết luận)\s*:/i.test(line)) {
+                    flushBlock();
+                    currentType = 'insight';
+                    const colonIdx = escaped.indexOf(':');
+                    currentBlock.push(`<strong>${escaped.slice(0, colonIdx + 1)}</strong> ${escaped.slice(colonIdx + 1)}`);
+                } else if (/^(?:❌\s*Lỗi sai|⚠️\s*Bẫy sai|💡\s*Nguyên nhân & Khắc phục)\s*:/i.test(line)) {
+                    flushBlock();
+                    currentType = 'warning';
+                    const colonIdx = escaped.indexOf(':');
+                    currentBlock.push(`<strong>${escaped.slice(0, colonIdx + 1)}</strong> ${escaped.slice(colonIdx + 1)}`);
+                } else if (/^(?:Các bước giải chi tiết|Bước \d+)\s*:/i.test(line)) {
+                    if (currentType !== 'solution') {
+                        flushBlock();
+                        currentType = 'solution';
+                    }
+                    currentBlock.push(escaped);
+                } else {
+                    currentBlock.push(escaped);
+                }
+            }
+            flushBlock();
+            return html;
+        }
+
         function renderCard() {
             const cardFrontEl = document.getElementById('fc-text-front');
             const cardBackEl = document.getElementById('fc-text-back');
@@ -795,7 +866,11 @@
             if (currentCardIdx >= cards.length) currentCardIdx = 0;
             const c = cards[currentCardIdx];
             if (cardFrontEl) cardFrontEl.textContent = c.front || '';
-            if (cardBackEl) cardBackEl.textContent = c.back || '';
+            if (cardBackEl) {
+                cardBackEl.innerHTML = formatFlashcardBack(c.back || '');
+            }
+            const backScrollEl = document.getElementById('fc-back-scroll-container');
+            if (backScrollEl) backScrollEl.scrollTop = 0;
 
             // Update Counter & Tags
             if (counterEl) counterEl.textContent = `Thẻ ${currentCardIdx + 1} / ${cards.length}`;
