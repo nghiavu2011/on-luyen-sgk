@@ -1,0 +1,102 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Hệ thức lượng trong tam giác",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Giá trị lượng giác của góc từ 0° đến 180°",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Giá trị lượng giác của góc từ 0° đến 180°.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định lí Côsin",
+          "definition": "Trong tam giác ABC: a² = b² + c² - 2bc · cos A.",
+          "example": "Cho tam giác ABC có b = 5, c = 8, góc A = 60°. a² = 5² + 8² - 2·5·8·cos 60° = 25 + 64 - 40 = 49 => a = 7.",
+          "essence": "Định lí Côsin là sự mở rộng hoàn hảo của Định lý Pythagore cho tam giác không vuông. Khi A = 90°, cos 90° = 0 trở về a² = b² + c²."
+        },
+        {
+          "term": "Định lí Sin",
+          "definition": "a / sin A = b / sin B = c / sin C = 2R (với R là bán kính đường tròn ngoại tiếp).",
+          "example": "Nếu cạnh a = 6 và góc A = 30° thì 2R = 6 / sin 30° = 12 => R = 6.",
+          "essence": "Định lí Sin liên hệ trực tiếp giữa góc đối diện, cạnh tương ứng và kích thước đường tròn ngoại tiếp bao quanh tam giác."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính diện tích tam giác",
+          "meaning": "S = 1/2 a·h_a = 1/2 ab·sin C = abc / (4R) = p·r = √(p(p-a)(p-b)(p-c)) (công thức Heron).",
+          "example": "Tam giác có 3 cạnh 3, 4, 5 có nửa chu vi p = 6 => S = √(6·3·2·1) = 6.",
+          "essence": "Tùy thuộc dữ kiện đầu vào (2 cạnh 1 góc kẹp, 3 cạnh, hay bán kính R/r) mà chọn công thức tính diện tích ngắn nhất."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC có a = 8, b = 10 và góc C = 60°. Tính cạnh c và diện tích S của tam giác.",
+          "steps": [
+            "Bước 1: Áp dụng định lí Côsin: c² = a² + b² - 2ab·cos C = 8² + 10² - 2·8·10·cos 60° = 64 + 100 - 80 = 84 => c = 2√21.",
+            "Bước 2: Tính diện tích: S = 1/2 · a · b · sin C = 1/2 · 8 · 10 · sin 60° = 40 · (√3/2) = 20√3."
+          ],
+          "answer": "c = 2√21 và S = 20√3."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm dấu trừ thành dấu cộng trong định lí Côsin: viết a² = b² + c² + 2bc·cos A.",
+          "why": "Khi góc A nhọn thì cos A > 0, cạnh a đối diện phải ngắn đi nên mang dấu trừ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Hệ thức lượng trong tam giác và giải tam giác",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Hệ thức lượng trong tam giác và giải tam giác.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định lí Côsin",
+          "definition": "Trong tam giác ABC: a² = b² + c² - 2bc · cos A.",
+          "example": "Cho tam giác ABC có b = 5, c = 8, góc A = 60°. a² = 5² + 8² - 2·5·8·cos 60° = 25 + 64 - 40 = 49 => a = 7.",
+          "essence": "Định lí Côsin là sự mở rộng hoàn hảo của Định lý Pythagore cho tam giác không vuông. Khi A = 90°, cos 90° = 0 trở về a² = b² + c²."
+        },
+        {
+          "term": "Định lí Sin",
+          "definition": "a / sin A = b / sin B = c / sin C = 2R (với R là bán kính đường tròn ngoại tiếp).",
+          "example": "Nếu cạnh a = 6 và góc A = 30° thì 2R = 6 / sin 30° = 12 => R = 6.",
+          "essence": "Định lí Sin liên hệ trực tiếp giữa góc đối diện, cạnh tương ứng và kích thước đường tròn ngoại tiếp bao quanh tam giác."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính diện tích tam giác",
+          "meaning": "S = 1/2 a·h_a = 1/2 ab·sin C = abc / (4R) = p·r = √(p(p-a)(p-b)(p-c)) (công thức Heron).",
+          "example": "Tam giác có 3 cạnh 3, 4, 5 có nửa chu vi p = 6 => S = √(6·3·2·1) = 6.",
+          "essence": "Tùy thuộc dữ kiện đầu vào (2 cạnh 1 góc kẹp, 3 cạnh, hay bán kính R/r) mà chọn công thức tính diện tích ngắn nhất."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC có a = 8, b = 10 và góc C = 60°. Tính cạnh c và diện tích S của tam giác.",
+          "steps": [
+            "Bước 1: Áp dụng định lí Côsin: c² = a² + b² - 2ab·cos C = 8² + 10² - 2·8·10·cos 60° = 64 + 100 - 80 = 84 => c = 2√21.",
+            "Bước 2: Tính diện tích: S = 1/2 · a · b · sin C = 1/2 · 8 · 10 · sin 60° = 40 · (√3/2) = 20√3."
+          ],
+          "answer": "c = 2√21 và S = 20√3."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm dấu trừ thành dấu cộng trong định lí Côsin: viết a² = b² + c² + 2bc·cos A.",
+          "why": "Khi góc A nhọn thì cos A > 0, cạnh a đối diện phải ngắn đi nên mang dấu trừ."
+        }
+      ]
+    }
+  ]
+}

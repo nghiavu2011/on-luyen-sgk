@@ -440,9 +440,9 @@
                 heroTitle: "Học đúng hướng.<br>Bứt phá tương lai.",
                 heroDesc: "Nền tảng ôn luyện dành riêng cho học sinh THPT với lộ trình cá nhân hóa, ngân hàng đề thi thử bám sát bộ SGK Kết nối tri thức 2026–2027 chuẩn cấu trúc mới, giúp bạn bứt phá điểm số và hiện thực hóa ước mơ đại học.",
                 heroStats: [
-                    { val: "213+", lbl: "Đề thi Lớp 11" },
-                    { val: "1.278+", lbl: "Câu trắc nghiệm Lớp 11" },
-                    { val: "100%", lbl: "Trọn bộ 10 môn SGK" }
+                    { val: "525+", lbl: "Đề thi THPT (Lớp 10 & 11)" },
+                    { val: "3.150+", lbl: "Câu trắc nghiệm chuẩn hóa" },
+                    { val: "100%", lbl: "Trọn bộ 10 môn SGK 2026–2027" }
                 ],
                 sticker: "Phiên bản tốt hơn của chính mình bắt đầu từ hôm nay! ✨",
                 grades: [
@@ -602,7 +602,7 @@
             const lvl = LEVEL_DATA[currentLevel];
             
             container.innerHTML = lvl.grades.map(g => {
-                const isReady = (g.id === '06' || g.id === '11');
+                const isReady = (g.id === '06' || g.id === '10' || g.id === '11');
                 const badgeHtml = isReady 
                     ? `<span style="background:#10b981; color:white; font-size:0.68rem; padding:0.15rem 0.5rem; border-radius:12px; font-weight:800; margin-left:0.35rem; display:inline-flex; align-items:center; gap:0.2rem;">✨ Sẵn sàng học</span>`
                     : `<span style="background:#f1f5f9; color:#64748b; font-size:0.68rem; padding:0.15rem 0.45rem; border-radius:12px; font-weight:600; margin-left:0.35rem; border:1px solid #cbd5e1;">⏳ Đang số hóa SGK</span>`;
@@ -658,6 +658,50 @@
                             </div>
                         </div>
                     `;
+                } else if (selectedGrade === '10') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">🎉</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 10 — Hoàn thành 100% trọn bộ 10 môn học thuật theo chuẩn SGK Kết nối tri thức 2026–2027!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 78 chương/bài: Toán (9 ch), Ngữ Văn (9 bài), Tiếng Anh (10 units), Vật lí (7 ch), Hóa học (7 ch), Sinh học (5 ch), Tin học (6 ch), Lịch sử (6 ch), Địa lí (10 ch), GDKT & PL (9 bài) với 312 đề thi phân hóa 4 sao, 1.872 câu trắc nghiệm giải thích 3 bước sư phạm và 624 flashcards.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=10&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    📐 Toán 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    📖 Ngữ Văn 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🇬🇧 Tiếng Anh 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=vat-li" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    ⚡ Vật lí 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=hoa-hoc" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧪 Hóa 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=sinh-hoc" class="ol-btn-primary" style="background:#16a34a; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧬 Sinh 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=tin-hoc" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    💻 Tin học 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=lich-su" class="ol-btn-primary" style="background:#b91c1c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🏛️ Lịch sử 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=dia-li" class="ol-btn-primary" style="background:#4d7c0f; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🌍 Địa lí 10 ➔
+                                </a>
+                                <a href="subject.html?grade=10&subject=gdkt-pl" class="ol-btn-primary" style="background:#9333ea; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    ⚖️ GDKT & PL 10 ➔
+                                </a>
+                            </div>
+                        </div>
+                    `;
                 } else if (selectedGrade === '11') {
                     noticeEl.innerHTML = `
                         <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
@@ -697,11 +741,11 @@
                                 <span style="font-size:1.6rem;">⏳</span>
                                 <div>
                                     <strong style="font-size:1rem; color:#92400e;">Dữ liệu Lớp ${selectedGrade} đang trong tiến trình số hóa OCR tự động!</strong>
-                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#b45309;">Để trải nghiệm trọn vẹn mọi tính năng luyện đề và Gia sư DeepTutor, bạn hãy bấm chuyển sang <strong>Lớp 6</strong> hoặc <strong>Lớp 11</strong> nhé!</p>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#b45309;">Để trải nghiệm trọn vẹn mọi tính năng luyện đề và Gia sư DeepTutor, bạn hãy bấm chuyển sang <strong>Lớp 6</strong>, <strong>Lớp 10</strong> hoặc <strong>Lớp 11</strong> nhé!</p>
                                 </div>
                             </div>
-                            <button type="button" class="ol-btn-outline" onclick="selectGrade('06', true)" style="background:white; border-color:#d97706; color:#b45309; padding:0.55rem 1.1rem; font-size:0.85rem; font-weight:800; border-radius:10px; cursor:pointer; white-space:nowrap;">
-                                Chuyển sang Lớp 6 ➔
+                            <button type="button" class="ol-btn-outline" onclick="selectGrade('10', true)" style="background:white; border-color:#d97706; color:#b45309; padding:0.55rem 1.1rem; font-size:0.85rem; font-weight:800; border-radius:10px; cursor:pointer; white-space:nowrap;">
+                                Chuyển sang Lớp 10 ➔
                             </button>
                         </div>
                     `;
@@ -902,6 +946,17 @@
                     else if (s.id === 'giao-duc-cong-dan') { isReady = true; readyNote = '12/12 bài • 36 đề'; }
                     else if (s.id === 'tieng-anh') { isReady = true; readyNote = '12/12 units • 36 đề'; }
                     else if (s.id === 'cong-nghe') { isReady = true; readyNote = '4/4 chương • 12 đề'; }
+                } else if (selectedGrade === '10') {
+                    if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 36 đề'; }
+                    else if (s.id === 'ngu-van') { isReady = true; readyNote = '9/9 bài • 36 đề'; }
+                    else if (s.id === 'tieng-anh') { isReady = true; readyNote = '10/10 units • 40 đề'; }
+                    else if (s.id === 'vat-li') { isReady = true; readyNote = '7/7 chương • 28 đề'; }
+                    else if (s.id === 'hoa-hoc') { isReady = true; readyNote = '7/7 chương • 28 đề'; }
+                    else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '5/5 chương • 20 đề'; }
+                    else if (s.id === 'tin-hoc') { isReady = true; readyNote = '6/6 chủ đề • 24 đề'; }
+                    else if (s.id === 'lich-su') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'dia-li') { isReady = true; readyNote = '10/10 chương • 40 đề'; }
+                    else if (s.id === 'gdkt-pl') { isReady = true; readyNote = '9/9 bài • 36 đề'; }
                 } else if (selectedGrade === '11') {
                     if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 27 đề'; }
                     else if (s.id === 'ngu-van') { isReady = true; readyNote = '9/9 bài • 27 đề'; }
@@ -910,6 +965,12 @@
                     else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '5/5 chương • 15 đề'; }
                     else if (s.id === 'tieng-anh') { isReady = true; readyNote = '10/10 units • 30 đề'; }
                 }
+
+                const g10Chapters = {
+                    'toan': 9, 'vat-li': 7, 'hoa-hoc': 7, 'sinh-hoc': 5, 'tin-hoc': 6,
+                    'ngu-van': 9, 'tieng-anh': 10, 'lich-su': 6, 'dia-li': 10, 'gdkt-pl': 9
+                };
+                const displayChapters = (selectedGrade === '10' && g10Chapters[s.id]) ? g10Chapters[s.id] : s.chapters;
 
                 const isInTrack = isTHPT && activeTrack.id !== 'all' && activeTrack.subjects && activeTrack.subjects.includes(s.id);
                 const isDimmed = isTHPT && activeTrack.id !== 'all' && !activeTrack.onlyTrack && activeTrack.subjects && !activeTrack.subjects.includes(s.id);
@@ -926,7 +987,7 @@
                                     <h4 class="ol-subject-card-title">${s.name}</h4>
                                     ${isInTrack ? `<span class="ol-track-pill">🎯 Tổ hợp</span>` : ''}
                                 </div>
-                                <span class="ol-subject-card-meta">${s.chapters} chương/bài • Chuẩn SGK mới</span>
+                                <span class="ol-subject-card-meta">${displayChapters} chương/bài • Chuẩn SGK mới</span>
                             </div>
                         </div>
                         <div class="ol-subject-card-footer">

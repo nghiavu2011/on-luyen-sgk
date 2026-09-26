@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Số gần đúng và các số đặc trưng đo xu thế trung tâm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Số gần đúng và các số đặc trưng đo xu thế trung tâm.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Trung vị (Median - Me)",
+          "definition": "Là giá trị đứng ở chính giữa mẫu số liệu sau khi đã được xếp theo thứ tự không giảm.",
+          "example": "Mẫu số liệu 2, 4, 7, 8, 10 có trung vị là 7. Mẫu 2, 4, 6, 8 có trung vị là (4+6)/2 = 5.",
+          "essence": "Trung vị không bị ảnh hưởng bởi các giá trị bất thường (quá lớn hoặc quá bé) như số trung bình."
+        },
+        {
+          "term": "Độ lệch chuẩn (s)",
+          "definition": "Là căn bậc hai của phương sai: s = √s².",
+          "example": "Nếu điểm thi của lớp A có s = 0.5 và lớp B có s = 2.1 thì lớp A có học lực đồng đều hơn nhiều so với lớp B.",
+          "essence": "Độ lệch chuẩn đo lường mức độ biến động hoặc độ phân tán của các số liệu xung quanh giá trị trung bình."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tứ phân vị Q1, Q2, Q3",
+          "meaning": "Q2 là trung vị của toàn bộ mẫu. Q1 là trung vị của nửa dưới, Q3 là trung vị của nửa trên. Khoảng tứ phân vị ΔQ = Q3 - Q1.",
+          "example": "Khoảng tứ phân vị chứa 50% số liệu tập trung ở vùng giữa, loại bỏ ảnh hưởng của số liệu đột biến ở hai đầu.",
+          "essence": "Tứ phân vị chia tập dữ liệu thành 4 phần bằng nhau về số lượng quan sát."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẫu số liệu điểm kiểm tra: 5, 6, 7, 7, 8, 9, 10. Tìm số trung bình và trung vị.",
+          "steps": [
+            "Bước 1: Tính số trung bình: x̄ = (5 + 6 + 7 + 7 + 8 + 9 + 10) / 7 = 52 / 7 ≈ 7.43.",
+            "Bước 2: Mẫu gồm n = 7 số đã sắp xếp, giá trị chính giữa ở vị trí thứ 4 là số 7.",
+            "Bước 3: Kết luận: Trung vị Me = 7."
+          ],
+          "answer": "Số trung bình x̄ ≈ 7.43 và trung vị Me = 7."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Tìm trung vị khi chưa sắp xếp dãy số liệu theo thứ tự tăng dần.",
+          "why": "Định nghĩa trung vị bắt buộc dữ liệu phải được sắp thứ tự trước khi lấy phần tử ở giữa."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Các số đặc trưng đo độ phân tán",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Các số đặc trưng đo độ phân tán.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Trung vị (Median - Me)",
+          "definition": "Là giá trị đứng ở chính giữa mẫu số liệu sau khi đã được xếp theo thứ tự không giảm.",
+          "example": "Mẫu số liệu 2, 4, 7, 8, 10 có trung vị là 7. Mẫu 2, 4, 6, 8 có trung vị là (4+6)/2 = 5.",
+          "essence": "Trung vị không bị ảnh hưởng bởi các giá trị bất thường (quá lớn hoặc quá bé) như số trung bình."
+        },
+        {
+          "term": "Độ lệch chuẩn (s)",
+          "definition": "Là căn bậc hai của phương sai: s = √s².",
+          "example": "Nếu điểm thi của lớp A có s = 0.5 và lớp B có s = 2.1 thì lớp A có học lực đồng đều hơn nhiều so với lớp B.",
+          "essence": "Độ lệch chuẩn đo lường mức độ biến động hoặc độ phân tán của các số liệu xung quanh giá trị trung bình."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tứ phân vị Q1, Q2, Q3",
+          "meaning": "Q2 là trung vị của toàn bộ mẫu. Q1 là trung vị của nửa dưới, Q3 là trung vị của nửa trên. Khoảng tứ phân vị ΔQ = Q3 - Q1.",
+          "example": "Khoảng tứ phân vị chứa 50% số liệu tập trung ở vùng giữa, loại bỏ ảnh hưởng của số liệu đột biến ở hai đầu.",
+          "essence": "Tứ phân vị chia tập dữ liệu thành 4 phần bằng nhau về số lượng quan sát."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẫu số liệu điểm kiểm tra: 5, 6, 7, 7, 8, 9, 10. Tìm số trung bình và trung vị.",
+          "steps": [
+            "Bước 1: Tính số trung bình: x̄ = (5 + 6 + 7 + 7 + 8 + 9 + 10) / 7 = 52 / 7 ≈ 7.43.",
+            "Bước 2: Mẫu gồm n = 7 số đã sắp xếp, giá trị chính giữa ở vị trí thứ 4 là số 7.",
+            "Bước 3: Kết luận: Trung vị Me = 7."
+          ],
+          "answer": "Số trung bình x̄ ≈ 7.43 và trung vị Me = 7."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Tìm trung vị khi chưa sắp xếp dãy số liệu theo thứ tự tăng dần.",
+          "why": "Định nghĩa trung vị bắt buộc dữ liệu phải được sắp thứ tự trước khi lấy phần tử ở giữa."
+        }
+      ]
+    }
+  ]
+}

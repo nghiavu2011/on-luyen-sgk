@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Định lí Côsin' trong Chương 3: Hệ thức lượng trong tam giác được định nghĩa như thế nào?",
+    "back": "Trong tam giác ABC: a² = b² + c² - 2bc · cos A.\n\n💡 Ví dụ: Cho tam giác ABC có b = 5, c = 8, góc A = 60°. a² = 5² + 8² - 2·5·8·cos 60° = 25 + 64 - 40 = 49 => a = 7.\n🌱 Bản chất: Định lí Côsin là sự mở rộng hoàn hảo của Định lý Pythagore cho tam giác không vuông. Khi A = 90°, cos 90° = 0 trở về a² = b² + c².",
+    "tags": [
+      "toan",
+      "ch03",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Định lí Sin' trong Chương 3: Hệ thức lượng trong tam giác được định nghĩa như thế nào?",
+    "back": "a / sin A = b / sin B = c / sin C = 2R (với R là bán kính đường tròn ngoại tiếp).\n\n💡 Ví dụ: Nếu cạnh a = 6 và góc A = 30° thì 2R = 6 / sin 30° = 12 => R = 6.\n🌱 Bản chất: Định lí Sin liên hệ trực tiếp giữa góc đối diện, cạnh tương ứng và kích thước đường tròn ngoại tiếp bao quanh tam giác.",
+    "tags": [
+      "toan",
+      "ch03",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Công thức tính diện tích tam giác'?",
+    "back": "S = 1/2 a·h_a = 1/2 ab·sin C = abc / (4R) = p·r = √(p(p-a)(p-b)(p-c)) (công thức Heron).\n\n📝 Ví dụ: Tam giác có 3 cạnh 3, 4, 5 có nửa chu vi p = 6 => S = √(6·3·2·1) = 6.\n🔑 Ý nghĩa: Tùy thuộc dữ kiện đầu vào (2 cạnh 1 góc kẹp, 3 cạnh, hay bán kính R/r) mà chọn công thức tính diện tích ngắn nhất.",
+    "tags": [
+      "toan",
+      "ch03",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Cho tam giác ABC có a = 8, b = 10 và góc C = 60°. Tính cạnh c và diện tích S của tam giác.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Áp dụng định lí Côsin: c² = a² + b² - 2ab·cos C = 8² + 10² - 2·8·10·cos 60° = 64 + 100 - 80 = 84 => c = 2√21.\nBước 2: Tính diện tích: S = 1/2 · a · b · sin C = 1/2 · 8 · 10 · sin 60° = 40 · (√3/2) = 20√3.\n\n👉 Kết luận: c = 2√21 và S = 20√3.",
+    "tags": [
+      "toan",
+      "ch03",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Nhầm dấu trừ thành dấu cộng trong định lí Côsin: viết a² = b² + c² + 2bc·cos A.?",
+    "back": "❌ Lỗi sai: Nhầm dấu trừ thành dấu cộng trong định lí Côsin: viết a² = b² + c² + 2bc·cos A.\n\n💡 Nguyên nhân & Khắc phục: Khi góc A nhọn thì cos A > 0, cạnh a đối diện phải ngắn đi nên mang dấu trừ.",
+    "tags": [
+      "toan",
+      "ch03",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 3: Hệ thức lượng trong tam giác?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch03",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 3: Hệ thức lượng trong tam giác?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch03",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 3: Hệ thức lượng trong tam giác?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch03",
+      "on-tap"
+    ]
+  }
+]

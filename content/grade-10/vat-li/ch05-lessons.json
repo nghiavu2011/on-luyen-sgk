@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Động lượng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Động lượng và định luật bảo toàn động lượng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Động lượng và định luật bảo toàn động lượng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Động lượng (p)",
+          "definition": "Là một đại lượng vectơ đo bằng tích của khối lượng và vận tốc của vật: p = m·v.",
+          "example": "Một xe tải 10 tấn chạy với vận tốc 10 m/s có động lượng p = 10000 · 10 = 100.000 kg·m/s, lớn hơn rất nhiều một ô tô con 1 tấn chạy cùng vận tốc.",
+          "essence": "Động lượng đo khả năng truyền chuyển động của một vật khi tương tác va chạm với các vật khác."
+        },
+        {
+          "term": "Định luật bảo toàn động lượng",
+          "definition": "Tổng động lượng của một hệ kín (không chịu ngoại lực tác dụng hoặc tổng ngoại lực triệt tiêu) là một đại lượng vectơ bảo toàn: p_trước = p_sau.",
+          "example": "Tên lửa phụt khí phản lực về phía sau với vận tốc lớn để đẩy thân tên lửa tiến về phía trước.",
+          "essence": "Định luật bảo toàn động lượng là hệ quả trực tiếp từ định luật III Newton trong hệ tương tác cô lập."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Va chạm mềm",
+          "meaning": "Sau va chạm hai vật dính vào nhau và chuyển động cùng vận tốc V: m1·v1 + m2·v2 = (m1 + m2)·V.",
+          "example": "Viên đạn bắn cắm vào bao cát treo lơ lửng, sau đó cả hai cùng dao động với vận tốc V.",
+          "essence": "Trong va chạm mềm, động lượng được bảo toàn nhưng động năng bị hao hụt một phần thành nhiệt năng biến dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khẩu súng khối lượng M = 4kg chứa viên đạn m = 20g (0.02kg). Khi bắn, viên đạn bay ra khỏi nòng với vận tốc v = 600 m/s. Tính vận tốc giật lùi V của súng.",
+          "steps": [
+            "Bước 1: Hệ súng và đạn là hệ kín trước và ngay sau khi bắn. Trước khi bắn, hệ đứng yên nên tổng động lượng p_trước = 0.",
+            "Bước 2: Sau khi bắn, đạn có động lượng m·v, súng có động lượng M·V. Theo định luật bảo toàn động lượng: M·V + m·v = 0.",
+            "Bước 3: Suy ra V = - (m·v) / M = - (0.02 · 600) / 4 = - 12 / 4 = -3 m/s."
+          ],
+          "answer": "Súng giật lùi với vận tốc 3 m/s ngược chiều chuyển động của viên đạn."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Bỏ qua tính vectơ của động lượng khi áp dụng định luật bảo toàn: cộng đại số vô hướng độ lớn hai vận tốc ngược chiều.",
+          "why": "Động lượng là đại lượng vectơ, cần chiếu lên một trục tọa độ xác định để mang đúng dấu âm/dương."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thực hành va chạm đàn hồi và chuyển động phản lực",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thực hành va chạm đàn hồi và chuyển động phản lực.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Động lượng (p)",
+          "definition": "Là một đại lượng vectơ đo bằng tích của khối lượng và vận tốc của vật: p = m·v.",
+          "example": "Một xe tải 10 tấn chạy với vận tốc 10 m/s có động lượng p = 10000 · 10 = 100.000 kg·m/s, lớn hơn rất nhiều một ô tô con 1 tấn chạy cùng vận tốc.",
+          "essence": "Động lượng đo khả năng truyền chuyển động của một vật khi tương tác va chạm với các vật khác."
+        },
+        {
+          "term": "Định luật bảo toàn động lượng",
+          "definition": "Tổng động lượng của một hệ kín (không chịu ngoại lực tác dụng hoặc tổng ngoại lực triệt tiêu) là một đại lượng vectơ bảo toàn: p_trước = p_sau.",
+          "example": "Tên lửa phụt khí phản lực về phía sau với vận tốc lớn để đẩy thân tên lửa tiến về phía trước.",
+          "essence": "Định luật bảo toàn động lượng là hệ quả trực tiếp từ định luật III Newton trong hệ tương tác cô lập."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Va chạm mềm",
+          "meaning": "Sau va chạm hai vật dính vào nhau và chuyển động cùng vận tốc V: m1·v1 + m2·v2 = (m1 + m2)·V.",
+          "example": "Viên đạn bắn cắm vào bao cát treo lơ lửng, sau đó cả hai cùng dao động với vận tốc V.",
+          "essence": "Trong va chạm mềm, động lượng được bảo toàn nhưng động năng bị hao hụt một phần thành nhiệt năng biến dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khẩu súng khối lượng M = 4kg chứa viên đạn m = 20g (0.02kg). Khi bắn, viên đạn bay ra khỏi nòng với vận tốc v = 600 m/s. Tính vận tốc giật lùi V của súng.",
+          "steps": [
+            "Bước 1: Hệ súng và đạn là hệ kín trước và ngay sau khi bắn. Trước khi bắn, hệ đứng yên nên tổng động lượng p_trước = 0.",
+            "Bước 2: Sau khi bắn, đạn có động lượng m·v, súng có động lượng M·V. Theo định luật bảo toàn động lượng: M·V + m·v = 0.",
+            "Bước 3: Suy ra V = - (m·v) / M = - (0.02 · 600) / 4 = - 12 / 4 = -3 m/s."
+          ],
+          "answer": "Súng giật lùi với vận tốc 3 m/s ngược chiều chuyển động của viên đạn."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Bỏ qua tính vectơ của động lượng khi áp dụng định luật bảo toàn: cộng đại số vô hướng độ lớn hai vận tốc ngược chiều.",
+          "why": "Động lượng là đại lượng vectơ, cần chiếu lên một trục tọa độ xác định để mang đúng dấu âm/dương."
+        }
+      ]
+    }
+  ]
+}

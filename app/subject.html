@@ -139,6 +139,51 @@
             </div>
         </div>
 
+        <!-- Smart Exam Matrix Generator (LearnUP-inspired) -->
+        <div id="smart-matrix-exam-card" style="background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #eff6ff 100%); border: 1.5px solid #a7f3d0; border-radius: 16px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(5, 150, 105, 0.08);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+                <div style="display: flex; align-items: center; gap: 0.85rem;">
+                    <div style="width: 48px; height: 48px; border-radius: 12px; background: #059669; color: white; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; box-shadow: 0 4px 10px rgba(5, 150, 105, 0.3); flex-shrink: 0;">
+                        🎲
+                    </div>
+                    <div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                            <strong style="color: #065f46; font-size: 1.1rem;">Phòng Thi Thử Tự Động (Smart Exam Matrix)</strong>
+                            <span class="ol-badge-tag" style="background: #d1fae5; color: #047857; font-size: 0.72rem; font-weight: 800; border: 1px solid #6ee7b7;">Chuẩn Ma trận BGD</span>
+                        </div>
+                        <p style="margin: 0.25rem 0 0 0; font-size: 0.85rem; color: #047857;">
+                            Hệ thống tự động quét ngân hàng câu hỏi, bốc ngẫu nhiên theo ma trận: <strong>40% Nhận biết · 30% Thông hiểu · 20% Vận dụng · 10% Vận dụng cao</strong>. Đề thi làm mới mỗi lần thi!
+                        </p>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; background: white; padding: 0.4rem 0.85rem; border-radius: 30px; border: 1.5px solid #cbd5e1; font-size: 0.85rem; color: #334155; font-weight: 700; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                    <input type="checkbox" id="matrix-strict-mode-cb" style="accent-color: #059669; cursor: pointer; width: 17px; height: 17px;">
+                    <label for="matrix-strict-mode-cb" style="cursor: pointer; user-select: none;">🎯 Chế độ Thi Thật (Strict Focus)</label>
+                </div>
+            </div>
+
+            <!-- Quick Exam Buttons -->
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+                <button type="button" onclick="startMatrixExam(15, 10)" class="ol-btn-primary" style="background: #059669; border: none; font-size: 0.88rem; padding: 0.6rem 1.15rem; border-radius: 10px; display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25); font-weight: 700;">
+                    <span>⚡</span>
+                    <span>Đề 15 phút (10 câu)</span>
+                    <span style="font-size: 0.72rem; opacity: 0.9; background: rgba(0,0,0,0.2); padding: 0.15rem 0.45rem; border-radius: 6px;">Kiểm tra nhanh</span>
+                </button>
+
+                <button type="button" onclick="startMatrixExam(45, 25)" class="ol-btn-primary" style="background: #0284c7; border: none; font-size: 0.88rem; padding: 0.6rem 1.15rem; border-radius: 10px; display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25); font-weight: 700;">
+                    <span>📝</span>
+                    <span>Đề 45 phút (25 câu)</span>
+                    <span style="font-size: 0.72rem; opacity: 0.9; background: rgba(0,0,0,0.2); padding: 0.15rem 0.45rem; border-radius: 6px;">1 Tiết định kỳ</span>
+                </button>
+
+                <button type="button" onclick="startMatrixExam(90, 40)" class="ol-btn-primary" style="background: #7c3aed; border: none; font-size: 0.88rem; padding: 0.6rem 1.15rem; border-radius: 10px; display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; box-shadow: 0 2px 6px rgba(124, 58, 237, 0.25); font-weight: 700;">
+                    <span>🏆</span>
+                    <span>Đề 90 phút (40 câu)</span>
+                    <span style="font-size: 0.72rem; opacity: 0.9; background: rgba(0,0,0,0.2); padding: 0.15rem 0.45rem; border-radius: 6px;">Thi Học kỳ / ĐGNL</span>
+                </button>
+            </div>
+        </div>
+
         <!-- Star Difficulty Filter Bar -->
         <div id="star-filter-bar" style="background: white; border: 1.5px solid #e2e8f0; border-radius: 14px; padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.85rem; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
             <div style="display: flex; align-items: center; gap: 0.6rem;">
@@ -264,25 +309,39 @@
             document.title = `${subjectName} Lớp ${params.grade} — 📖 Ôn luyện SGK`;
 
             
-            // DeepTutor Subject Status Hook (P0-4b: Nguồn sự thật duy nhất getMistakes)
+            // DeepTutor Subject Status Hook (P0-4b: Nguồn sự thật duy nhất getMistakes + L2 Gaps)
             if (window.getMistakes || window.DeepTutor) {
                 const mistakes = window.getMistakes ? window.getMistakes(params.grade, params.subject) : DeepTutor.getMistakeBank(params.grade, params.subject);
-                const mastery = DeepTutor.getMasteryProfile()[params.subject] || { level: '🌱 Tập sự', total: 0, correct: 0 };
+                const mastery = (window.DeepTutor && DeepTutor.getMasteryProfile()[params.subject]) || { level: '🌱 Tập sự', total: 0, correct: 0 };
                 
                 const statusEl = document.getElementById('sub-dt-status');
                 const masteryEl = document.getElementById('sub-dt-mastery');
                 const remBtn = document.getElementById('sub-dt-remediate-btn');
                 
-                if (masteryEl) masteryEl.textContent = `L3: ${mastery.level}`;
+                if (masteryEl) {
+                    masteryEl.textContent = `L3: ${mastery.level} (${mastery.correct || 0}/${mastery.total || 0} câu)`;
+                }
+
                 if (mistakes.length > 0) {
-                    if (statusEl) statusEl.innerHTML = `Em có <strong style="color:#b91c1c;">${mistakes.length} câu sai</strong> cần khắc phục trong Sổ tay câu sai.`;
+                    // Trích xuất chủ đề hay sai nhất và bẫy tương ứng
+                    const topicMap = {};
+                    mistakes.forEach(m => {
+                        const top = m.topic || (m.breakdown && m.breakdown.concept) || 'Chủ đề rèn luyện';
+                        if (!topicMap[top]) topicMap[top] = { topic: top, count: 0, trap: (m.breakdown && m.breakdown.trap) || '' };
+                        topicMap[top].count += (m.wrongCount || 1);
+                    });
+                    const topGap = Object.values(topicMap).sort((a, b) => b.count - a.count)[0];
+
+                    if (statusEl) {
+                        statusEl.innerHTML = `Em có <strong style="color:#b91c1c;">${mistakes.length} câu sai</strong> trong Sổ tay câu sai. ${topGap ? `<span style="color:#7e22ce;">Cần lưu ý: <strong>${topGap.topic}</strong> (sai ${topGap.count} lần)${topGap.trap ? ` · <em>Bẫy: ${topGap.trap}</em>` : ''}</span>` : ''}`;
+                    }
                     if (remBtn) {
                         remBtn.style.display = 'inline-block';
                         remBtn.href = `quiz.html?mode=mistakes&grade=${params.grade}&subject=${params.subject}`;
                         remBtn.innerHTML = `📕 Luyện ${mistakes.length} câu sai`;
                     }
                 } else {
-                    if (statusEl) statusEl.innerHTML = `Chưa có câu sai nào cần sửa. Em đang nắm rất vững chương trình!`;
+                    if (statusEl) statusEl.innerHTML = `Chưa có câu sai nào cần sửa. Em đang nắm rất vững chương trình môn học này!`;
                     if (remBtn) remBtn.style.display = 'none';
                 }
             }
@@ -322,7 +381,7 @@
                                 <div>
                                     <strong style="color: #92400e; font-size: 0.95rem;">Môn ${escapeHTML(subjectName)} đang trong quy trình số hóa OCR & Biên soạn SGK</strong>
                                     <p style="margin: 0.2rem 0 0 0; font-size: 0.85rem; color: #b45309;">
-                                         Ngân hàng bài giảng và đề thi đang được số hóa. Để luyện đề ngay, em có thể vào môn <strong>Toán 6</strong> (9 chương), <strong>Toán 11</strong> (9 chương) hoặc <strong>Hóa học 11</strong> (6 chương) nhé!
+                                         Ngân hàng bài giảng và đề thi đang được số hóa. Để luyện đề ngay, em có thể vào môn <strong>Toán 10</strong> (9 chương), <strong>Toán 6</strong> (9 chương) hoặc <strong>Toán 11</strong> (9 chương) nhé!
                                     </p>
                                 </div>
                             </div>
@@ -527,6 +586,14 @@
                     card.style.display = 'none';
                 }
             });
+        }
+
+        function startMatrixExam(duration, count) {
+            const rawParams = (typeof getUrlParams === 'function') ? getUrlParams() : Object.fromEntries(new URLSearchParams(window.location.search).entries());
+            const grade = rawParams.grade || '06';
+            const subject = rawParams.subject || 'toan';
+            const isStrict = document.getElementById('matrix-strict-mode-cb')?.checked ? 1 : 0;
+            window.location.href = `quiz.html?grade=${grade}&subject=${subject}&mode=matrix&duration=${duration}&count=${count}&strict=${isStrict}`;
         }
 
         init();

@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Chuyển động tròn",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tốc độ góc, chu kỳ và tần số chuyển động tròn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tốc độ góc, chu kỳ và tần số chuyển động tròn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Gia tốc hướng tâm (a_ht)",
+          "definition": "Đặc trưng cho sự biến đổi về hướng của vectơ vận tốc trong chuyển động tròn: a_ht = v² / r = ω² · r.",
+          "example": "Một vật chuyển động tròn đều dù tốc độ v không đổi nhưng hướng vectơ vận tốc luôn thay đổi nên vẫn có gia tốc hướng tâm.",
+          "essence": "Gia tốc hướng tâm luôn vuông góc với vận tốc tức thời và hướng về tâm đường tròn quỹ đạo."
+        },
+        {
+          "term": "Lực hướng tâm",
+          "definition": "Là hợp lực của các lực tác dụng lên vật chuyển động tròn đều gây ra gia tốc hướng tâm: F_ht = m · a_ht = m·v² / r.",
+          "example": "Lực hấp dẫn của Trái Đất đóng vai trò lực hướng tâm giữ cho vệ tinh nhân tạo quay xung quanh Trái Đất.",
+          "essence": "Lực hướng tâm không phải là một loại lực mới trong tự nhiên, mà là tên gọi theo vai trò hình học của hợp lực."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối liên hệ giữa tốc độ dài và tốc độ góc",
+          "meaning": "v = ω · r; T = 2π / ω; f = 1 / T = ω / 2π.",
+          "example": "Kim phút đồng hồ quay 1 vòng trong 1 giờ (3600s) => tốc độ góc ω = 2π / 3600 rad/s.",
+          "essence": "Mọi điểm trên cùng một vật rắn quay có cùng tốc độ góc ω, nhưng điểm ở càng xa tâm (r lớn) có tốc độ dài v càng lớn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vệ tinh khối lượng m = 500kg bay vòng quanh Trái Đất trên quỹ đạo tròn bán kính r = 7000 km với tốc độ v = 7.5 km/s (7500 m/s). Tính độ lớn lực hấp dẫn đóng vai trò lực hướng tâm tác dụng lên vệ tinh.",
+          "steps": [
+            "Bước 1: Đổi đơn vị chuẩn SI: r = 7000 km = 7.000.000 m = 7 · 10^6 m; v = 7500 m/s; m = 500 kg.",
+            "Bước 2: Tính gia tốc hướng tâm: a_ht = v² / r = 7500² / (7 · 10^6) = 56.25 · 10^6 / 7 · 10^6 ≈ 8.036 m/s².",
+            "Bước 3: Lực hướng tâm: F_ht = m · a_ht = 500 · 8.036 ≈ 4.018 N."
+          ],
+          "answer": "Lực hướng tâm tác dụng lên vệ tinh là khoảng 4.018 N."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi đơn vị km sang m và km/h sang m/s trước khi tính gia tốc hướng tâm.",
+          "why": "Công thức F_ht = m·v²/r yêu cầu vận tốc tính bằng m/s và bán kính tính bằng mét (m)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Gia tốc hướng tâm và lực hướng tâm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Gia tốc hướng tâm và lực hướng tâm.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Gia tốc hướng tâm (a_ht)",
+          "definition": "Đặc trưng cho sự biến đổi về hướng của vectơ vận tốc trong chuyển động tròn: a_ht = v² / r = ω² · r.",
+          "example": "Một vật chuyển động tròn đều dù tốc độ v không đổi nhưng hướng vectơ vận tốc luôn thay đổi nên vẫn có gia tốc hướng tâm.",
+          "essence": "Gia tốc hướng tâm luôn vuông góc với vận tốc tức thời và hướng về tâm đường tròn quỹ đạo."
+        },
+        {
+          "term": "Lực hướng tâm",
+          "definition": "Là hợp lực của các lực tác dụng lên vật chuyển động tròn đều gây ra gia tốc hướng tâm: F_ht = m · a_ht = m·v² / r.",
+          "example": "Lực hấp dẫn của Trái Đất đóng vai trò lực hướng tâm giữ cho vệ tinh nhân tạo quay xung quanh Trái Đất.",
+          "essence": "Lực hướng tâm không phải là một loại lực mới trong tự nhiên, mà là tên gọi theo vai trò hình học của hợp lực."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối liên hệ giữa tốc độ dài và tốc độ góc",
+          "meaning": "v = ω · r; T = 2π / ω; f = 1 / T = ω / 2π.",
+          "example": "Kim phút đồng hồ quay 1 vòng trong 1 giờ (3600s) => tốc độ góc ω = 2π / 3600 rad/s.",
+          "essence": "Mọi điểm trên cùng một vật rắn quay có cùng tốc độ góc ω, nhưng điểm ở càng xa tâm (r lớn) có tốc độ dài v càng lớn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vệ tinh khối lượng m = 500kg bay vòng quanh Trái Đất trên quỹ đạo tròn bán kính r = 7000 km với tốc độ v = 7.5 km/s (7500 m/s). Tính độ lớn lực hấp dẫn đóng vai trò lực hướng tâm tác dụng lên vệ tinh.",
+          "steps": [
+            "Bước 1: Đổi đơn vị chuẩn SI: r = 7000 km = 7.000.000 m = 7 · 10^6 m; v = 7500 m/s; m = 500 kg.",
+            "Bước 2: Tính gia tốc hướng tâm: a_ht = v² / r = 7500² / (7 · 10^6) = 56.25 · 10^6 / 7 · 10^6 ≈ 8.036 m/s².",
+            "Bước 3: Lực hướng tâm: F_ht = m · a_ht = 500 · 8.036 ≈ 4.018 N."
+          ],
+          "answer": "Lực hướng tâm tác dụng lên vệ tinh là khoảng 4.018 N."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi đơn vị km sang m và km/h sang m/s trước khi tính gia tốc hướng tâm.",
+          "why": "Công thức F_ht = m·v²/r yêu cầu vận tốc tính bằng m/s và bán kính tính bằng mét (m)."
+        }
+      ]
+    }
+  ]
+}

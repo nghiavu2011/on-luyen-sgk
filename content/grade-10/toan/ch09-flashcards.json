@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Xác suất cổ điển' trong Chương 9: Tính xác suất theo định nghĩa cổ điển được định nghĩa như thế nào?",
+    "back": "P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số kết quả có thể xảy ra của không gian mẫu.\n\n💡 Ví dụ: Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2.\n🌱 Bản chất: Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả năng xảy ra như nhau.",
+    "tags": [
+      "toan",
+      "ch09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Biến cố đối' trong Chương 9: Tính xác suất theo định nghĩa cổ điển được định nghĩa như thế nào?",
+    "back": "Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A).\n\n💡 Ví dụ: Xác suất bắn trượt là 0.2 thì xác suất bắn trúng là 1 - 0.2 = 0.8.\n🌱 Bản chất: Dùng biến cố đối khi bài toán yêu cầu 'có ít nhất một' để tránh phải chia nhiều trường hợp phức tạp.",
+    "tags": [
+      "toan",
+      "ch09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Khoảng giá trị của xác suất'?",
+    "back": "0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1.\n\n📝 Ví dụ: Nếu tính ra xác suất > 1 hoặc < 0 thì chắc chắn các bước đếm trước đó đã bị sai.\n🔑 Ý nghĩa: Tỉ số đo cơ hội luôn dao động từ hoàn toàn không thể (0%) đến chắc chắn tuyệt đối (100%).",
+    "tags": [
+      "toan",
+      "ch09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện bằng 7.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Không gian mẫu: n(Ω) = 6 · 6 = 36.\nBước 2: Các kết quả thuận lợi để tổng bằng 7: A = {(1;6), (2;5), (3;4), (4;3), (5;2), (6;1)} => n(A) = 6.\nBước 3: Xác suất: P(A) = 6 / 36 = 1/6.\n\n👉 Kết luận: Xác suất cần tìm là 1/6.",
+    "tags": [
+      "toan",
+      "ch09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác nhau.?",
+    "back": "❌ Lỗi sai: Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác nhau.\n\n💡 Nguyên nhân & Khắc phục: Hai con xúc xắc là hai thực thể phân biệt, xuất hiện (1 ở con 1, 6 ở con 2) khác với (6 ở con 1, 1 ở con 2).",
+    "tags": [
+      "toan",
+      "ch09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 9: Tính xác suất theo định nghĩa cổ điển?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 9: Tính xác suất theo định nghĩa cổ điển?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 9: Tính xác suất theo định nghĩa cổ điển?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch09",
+      "on-tap"
+    ]
+  }
+]

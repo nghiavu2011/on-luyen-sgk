@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Chỉnh hợp và Tổ hợp' trong Chương 8: Đại số tổ hợp được định nghĩa như thế nào?",
+    "back": "Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm mà không quan tâm thứ tự.\n\n💡 Ví dụ: Chọn 3 bạn làm Lớp trưởng, Bí thư, Lớp phó dùng chỉnh hợp A(40, 3). Chọn 3 bạn đi trực nhật dùng tổ hợp C(40, 3).\n🌱 Bản chất: Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm.",
+    "tags": [
+      "toan",
+      "ch08",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Nhị thức Newton' trong Chương 8: Đại số tổ hợp được định nghĩa như thế nào?",
+    "back": "(a + b)⁴ = a⁴ + 4a³b + 6a²b² + 4ab³ + b⁴. (a + b)⁵ = a⁵ + 5a⁴b + 10a³b² + 10a²b³ + 5ab⁴ + b⁵.\n\n💡 Ví dụ: Khai triển (x + 2)⁴ = x⁴ + 4·x³·2 + 6·x²·2² + 4·x·2³ + 2⁴ = x⁴ + 8x³ + 24x² + 32x + 16.\n🌱 Bản chất: Các hệ số của nhị thức Newton tương ứng với các số trên hàng của Tam giác Pascal.",
+    "tags": [
+      "toan",
+      "ch08",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc cộng và Quy tắc nhân'?",
+    "back": "Các phương án độc lập thay thế nhau => dùng Quy tắc CỘNG. Các công đoạn nối tiếp nhau để hoàn thành công việc => dùng Quy tắc NHÂN.\n\n📝 Ví dụ: Đi từ Hà Nội đến Đà Nẵng bằng máy bay (3 chuyến) hoặc tàu hỏa (2 chuyến) => 3 + 2 = 5 cách. Đi từ A qua B đến C: từ A đến B có 3 đường, từ B đến C có 4 đường => 3 · 4 = 12 cách.\n🔑 Ý nghĩa: Quy tắc cộng là phép hợp các tập hợp rời nhau. Quy tắc nhân là tích Descartes.",
+    "tags": [
+      "toan",
+      "ch08",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Có bao nhiêu cách chọn một ban cán sự gồm 1 bí thư và 2 ủy viên từ một chi đoàn gồm 20 đoàn viên?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách.\nBước 2: Sau khi chọn bí thư, còn 19 bạn. Chọn 2 ủy viên không phân biệt chức vụ: có C(19, 2) = (19 · 18) / 2 = 171 cách.\nBước 3: Áp dụng quy tắc nhân cho 2 công đoạn: 20 · 171 = 3.420 cách.\n\n👉 Kết luận: Có 3.420 cách chọn.",
+    "tags": [
+      "toan",
+      "ch08",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Dùng chỉnh hợp A(n, k) thay vì tổ hợp C(n, k) khi chọn nhóm người không phân công chức vụ.?",
+    "back": "❌ Lỗi sai: Dùng chỉnh hợp A(n, k) thay vì tổ hợp C(n, k) khi chọn nhóm người không phân công chức vụ.\n\n💡 Nguyên nhân & Khắc phục: Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả mới.",
+    "tags": [
+      "toan",
+      "ch08",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 8: Đại số tổ hợp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 8: Đại số tổ hợp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 8: Đại số tổ hợp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch08",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "front": "Khái niệm 'Đồ họa Vector và Bitmap (Raster)' trong Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape được định nghĩa như thế nào?",
+    "back": "Đồ họa Bitmap tạo bởi lưới điểm ảnh (pixel), khi phóng to bị vỡ hạt (nhòe). Đồ họa Vector tạo bởi các công thức toán học (đường cong Bézier), có thể phóng to vô hạn mà không bao giờ bị vỡ nét.\n\n💡 Ví dụ: Ảnh chụp máy ảnh là ảnh Bitmap (.png, .jpg). Logo thương hiệu, icon thiết kế trên Inkscape là ảnh Vector (.svg).\n🌱 Bản chất: Ảnh Vector lưu trữ công thức hình học chứ không lưu trữ màu từng điểm ảnh, do đó dung lượng nhẹ và độ sắc nét tuyệt đối ở mọi kích thước.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Đường cong Bézier trong Inkscape'?",
+    "back": "Đường cong được điều khiển bởi các điểm neo (node) và các tay nắm điều khiển (handle) xác định độ cong và hướng uốn lượn.\n\n📝 Ví dụ: Dùng công cụ Bézier Tool (Shift + F6) để vẽ lại logo hoặc hình vẽ tự do phức tạp.\n🔑 Ý nghĩa: Điều chỉnh tay nắm điều khiển thay đổi đạo hàm và độ cong của đường đồ thị.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Tại sao các nhà thiết kế luôn sử dụng đồ họa vector để vẽ logo doanh nghiệp?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Logo cần được in trên nhiều kích thước khác nhau: từ chiếc card visit nhỏ xíu đến tấm biển quảng cáo ngoài trời khổng lồ.\nBước 2: Đồ họa vector có thể co giãn kích thước tùy ý mà các đường nét và màu sắc vẫn giữ nguyên độ sắc nét hoàn hảo.\nBước 3: Dễ dàng chỉnh sửa từng đường nét, màu sắc và xuất ra các định dạng khác nhau.\n\n👉 Kết luận: Vì ảnh vector phóng to vô hạn không vỡ nét và linh hoạt trong in ấn đa kích cỡ.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Lưu file thiết kế vector sang đuôi JPG để sau này tiếp tục sửa.?",
+    "back": "❌ Lỗi sai: Lưu file thiết kế vector sang đuôi JPG để sau này tiếp tục sửa.\n\n💡 Nguyên nhân & Khắc phục: Khi lưu sang JPG/PNG, file đã bị rasterize thành ảnh bitmap, các layer và đường cong vector không thể sửa riêng lẻ được nữa.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "front": "Khái niệm 'Sai số phép đo' trong Chương 1: Mở đầu & Phép đo sai số được định nghĩa như thế nào?",
+    "back": "Bao gồm sai số hệ thống (do dụng cụ, điểm 0 bị lệch) và sai số ngẫu nhiên (do thao tác, điều kiện môi trường).\n\n💡 Ví dụ: Dùng thước chia đến mm đo chiều dài cuốn sách: sai số dụng cụ thường lấy bằng nửa độ chia nhỏ nhất (0.5 mm).\n🌱 Bản chất: Mọi kết quả đo đạc thực nghiệm vật lý đều chỉ mang tính gần đúng, luôn kèm theo một khoảng bất định sai số.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Cách viết kết quả đo'?",
+    "back": "A = Ā ± ΔA, trong đó Ā là giá trị trung bình qua nhiều lần đo, ΔA là sai số tuyệt đối.\n\n📝 Ví dụ: Chiều dài bàn học l = (1.200 ± 0.005) m.\n🔑 Ý nghĩa: Con số đo biểu diễn một khoảng tin cậy [Ā - ΔA; Ā + ΔA] chứ không phải một giá trị số học tuyệt đối duy nhất.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Đo 5 lần thời gian rơi của một vật được các giá trị: 0.40s, 0.42s, 0.39s, 0.41s, 0.38s. Tính thời gian trung bình và sai số tuyệt đối trung bình.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Tính thời gian trung bình: t̄ = (0.40 + 0.42 + 0.39 + 0.41 + 0.38) / 5 = 2.00 / 5 = 0.40 s.\nBước 2: Tính sai số từng lần: |0.40-0.40|=0; |0.42-0.40|=0.02; |0.39-0.40|=0.01; |0.41-0.40|=0.01; |0.38-0.40|=0.02.\nBước 3: Sai số ngẫu nhiên tuyệt đối trung bình: Δt̄ = (0 + 0.02 + 0.01 + 0.01 + 0.02) / 5 = 0.012 s ≈ 0.01 s.\n\n👉 Kết luận: t̄ = 0.40 s và Δt̄ = 0.01 s. Kết quả: t = (0.40 ± 0.01) s.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Viết số chữ số có nghĩa của sai số nhiều hơn số chữ số có nghĩa của giá trị trung bình.?",
+    "back": "❌ Lỗi sai: Viết số chữ số có nghĩa của sai số nhiều hơn số chữ số có nghĩa của giá trị trung bình.\n\n💡 Nguyên nhân & Khắc phục: Phần thập phân của giá trị trung bình phải được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chương 1: Mở đầu & Phép đo sai số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 1: Mở đầu & Phép đo sai số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 1: Mở đầu & Phép đo sai số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 1: Mở đầu & Phép đo sai số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch01",
+      "on-tap"
+    ]
+  }
+]

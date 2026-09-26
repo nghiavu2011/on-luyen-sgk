@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch09",
+  "title": "Chương 9: Tính xác suất theo định nghĩa cổ điển",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Biến cố và định nghĩa cổ điển của xác suất",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Biến cố và định nghĩa cổ điển của xác suất.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Xác suất cổ điển",
+          "definition": "P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số kết quả có thể xảy ra của không gian mẫu.",
+          "example": "Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2.",
+          "essence": "Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả năng xảy ra như nhau."
+        },
+        {
+          "term": "Biến cố đối",
+          "definition": "Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A).",
+          "example": "Xác suất bắn trượt là 0.2 thì xác suất bắn trúng là 1 - 0.2 = 0.8.",
+          "essence": "Dùng biến cố đối khi bài toán yêu cầu 'có ít nhất một' để tránh phải chia nhiều trường hợp phức tạp."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Khoảng giá trị của xác suất",
+          "meaning": "0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1.",
+          "example": "Nếu tính ra xác suất > 1 hoặc < 0 thì chắc chắn các bước đếm trước đó đã bị sai.",
+          "essence": "Tỉ số đo cơ hội luôn dao động từ hoàn toàn không thể (0%) đến chắc chắn tuyệt đối (100%)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện bằng 7.",
+          "steps": [
+            "Bước 1: Không gian mẫu: n(Ω) = 6 · 6 = 36.",
+            "Bước 2: Các kết quả thuận lợi để tổng bằng 7: A = {(1;6), (2;5), (3;4), (4;3), (5;2), (6;1)} => n(A) = 6.",
+            "Bước 3: Xác suất: P(A) = 6 / 36 = 1/6."
+          ],
+          "answer": "Xác suất cần tìm là 1/6."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác nhau.",
+          "why": "Hai con xúc xắc là hai thực thể phân biệt, xuất hiện (1 ở con 1, 6 ở con 2) khác với (6 ở con 1, 1 ở con 2)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tính chất và thực hành tính xác suất",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tính chất và thực hành tính xác suất.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Xác suất cổ điển",
+          "definition": "P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số kết quả có thể xảy ra của không gian mẫu.",
+          "example": "Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2.",
+          "essence": "Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả năng xảy ra như nhau."
+        },
+        {
+          "term": "Biến cố đối",
+          "definition": "Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A).",
+          "example": "Xác suất bắn trượt là 0.2 thì xác suất bắn trúng là 1 - 0.2 = 0.8.",
+          "essence": "Dùng biến cố đối khi bài toán yêu cầu 'có ít nhất một' để tránh phải chia nhiều trường hợp phức tạp."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Khoảng giá trị của xác suất",
+          "meaning": "0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1.",
+          "example": "Nếu tính ra xác suất > 1 hoặc < 0 thì chắc chắn các bước đếm trước đó đã bị sai.",
+          "essence": "Tỉ số đo cơ hội luôn dao động từ hoàn toàn không thể (0%) đến chắc chắn tuyệt đối (100%)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gieo đồng thời hai con xúc xắc cân đối. Tính xác suất để tổng số chấm xuất hiện bằng 7.",
+          "steps": [
+            "Bước 1: Không gian mẫu: n(Ω) = 6 · 6 = 36.",
+            "Bước 2: Các kết quả thuận lợi để tổng bằng 7: A = {(1;6), (2;5), (3;4), (4;3), (5;2), (6;1)} => n(A) = 6.",
+            "Bước 3: Xác suất: P(A) = 6 / 36 = 1/6."
+          ],
+          "answer": "Xác suất cần tìm là 1/6."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác nhau.",
+          "why": "Hai con xúc xắc là hai thực thể phân biệt, xuất hiện (1 ở con 1, 6 ở con 2) khác với (6 ở con 1, 1 ở con 2)."
+        }
+      ]
+    }
+  ]
+}

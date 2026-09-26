@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "title": "Tin học 10 — Chủ đề 2: Mạng máy tính và Internet: Đề 1 — Khái niệm & Nhận biết (15 phút)",
+  "description": "Đề thi kiểm tra nhận biết khái niệm cơ bản, định nghĩa và công thức cốt lõi của Chủ đề 2: Mạng máy tính và Internet.",
+  "questions": [
+    {
+      "id": "tin-hoc_ch02_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Địa chỉ IP",
+      "question": "Theo chương trình SGK, khẳng định nào sau đây là ĐÚNG khi nói về 'Địa chỉ IP'?",
+      "options": [
+        "Địa chỉ IP Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và t...",
+        "Địa chỉ IP luôn là một đại lượng không xác định trong thực tế.",
+        "Địa chỉ IP chỉ áp dụng được trong các trường hợp ngoại lệ.",
+        "Địa chỉ IP hoàn toàn đồng nhất với các khái niệm ngược lại."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn xác của Địa chỉ IP.",
+        "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Địa chỉ IP trong SGK?",
+        "steps": "Theo định nghĩa SGK: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "trap": "Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ."
+      },
+      "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Địa chỉ IP trong SGK?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "Sai do bẫy thường gặp: Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ.",
+        "Sai vì phương án 'Địa chỉ IP chỉ áp dụng được trong các trường hợp ngoại lệ.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Địa chỉ IP.",
+        "Sai vì phương án 'Địa chỉ IP hoàn toàn đồng nhất với các khái niệm ngược lại.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Địa chỉ IP."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Mô hình Client - Server (Khách - Chủ)",
+      "question": "Quy tắc/định lí nào sau đây thể hiện đúng nội dung của 'Mô hình Client - Server (Khách - Chủ)'?",
+      "options": [
+        "Quy tắc này không có giá trị áp dụng thực tiễn.",
+        "Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu...",
+        "Chỉ áp dụng khi giá trị các đại lượng đều bằng 0.",
+        "Tất cả các đại lượng đều tỉ lệ nghịch với nhau."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nội dung quy tắc Mô hình Client - Server (Khách - Chủ).",
+        "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+        "steps": "Phát biểu chuẩn: Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response)..",
+        "trap": "Ghi nhớ sai hướng của mối quan hệ đại lượng."
+      },
+      "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy tắc này không có giá trị áp dụng thực tiễn.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Mô hình Client - Server (Khách - Chủ).",
+        "Đúng vì: Phát biểu chuẩn: Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response)..",
+        "Sai do bẫy thường gặp: Ghi nhớ sai hướng của mối quan hệ đại lượng.",
+        "Sai vì phương án 'Tất cả các đại lượng đều tỉ lệ nghịch với nhau.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Mô hình Client - Server (Khách - Chủ)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "tin-hoc_ch02_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Địa chỉ IP",
+      "question": "Khái niệm 'Địa chỉ IP' được hiểu chính xác nhất là:",
+      "options": [
+        "Một đại lượng chỉ mang tính lí thuyết không thể đo lường.",
+        "Một kết quả ngẫu nhiên không có quy luật chi phối.",
+        "Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và t...",
+        "Khái niệm chỉ xuất hiện ở các lớp học nâng cao."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bản chất của Địa chỉ IP.",
+        "socraticPrompt": "Ý nghĩa khoa học của Địa chỉ IP là gì?",
+        "steps": "Theo định nghĩa: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "trap": "Xem nhẹ vai trò nền tảng của khái niệm."
+      },
+      "socraticPrompt": "Ý nghĩa khoa học của Địa chỉ IP là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một đại lượng chỉ mang tính lí thuyết không thể đo lường.' không phù hợp với quy tắc/định lí: Bản chất của Địa chỉ IP.",
+        "Sai vì phương án 'Một kết quả ngẫu nhiên không có quy luật chi phối.' không phù hợp với quy tắc/định lí: Bản chất của Địa chỉ IP.",
+        "Đúng vì: Theo định nghĩa: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "Sai do bẫy thường gặp: Xem nhẹ vai trò nền tảng của khái niệm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "tin-hoc_ch02_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết bẫy sai",
+      "question": "Khi tìm hiểu về Chủ đề 2: Mạng máy tính và Internet, sai lầm nào sau đây học sinh CẦN TRÁNH?",
+      "options": [
+        "Tìm hiểu kĩ định nghĩa và điều kiện áp dụng.",
+        "Luyện tập các ví dụ minh họa từng bước.",
+        "Đọc kĩ phần bản chất trực giác của bài học.",
+        "Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Các lỗi nhận thức thường gặp trong Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+        "steps": "Lưu ý trọng tâm: Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet..",
+        "trap": "Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau"
+      },
+      "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau",
+        "Sai vì phương án 'Luyện tập các ví dụ minh họa từng bước.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chủ đề 2: Mạng máy tính và Internet.",
+        "Sai vì phương án 'Đọc kĩ phần bản chất trực giác của bài học.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chủ đề 2: Mạng máy tính và Internet.",
+        "Đúng vì: Lưu ý trọng tâm: Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "tin-hoc_ch02_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc tính bản chất",
+      "question": "Bản chất cốt lõi của Địa chỉ IP là gì?",
+      "options": [
+        "Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng t...",
+        "Chỉ nhằm mục đích kiểm tra trí nhớ học sinh.",
+        "Không có mối liên hệ với các bài học trước đó.",
+        "Hoàn toàn do trực giác suy đoán mà không cần cơ sở."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất trực giác của Địa chỉ IP.",
+        "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+        "steps": "Bản chất: Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu..",
+        "trap": "Học vẹt công thức mà không hiểu bản chất sâu xa."
+      },
+      "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+      "distractorReasons": [
+        "Đúng vì: Bản chất: Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu..",
+        "Sai do bẫy thường gặp: Học vẹt công thức mà không hiểu bản chất sâu xa.",
+        "Sai vì phương án 'Không có mối liên hệ với các bài học trước đó.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Địa chỉ IP.",
+        "Sai vì phương án 'Hoàn toàn do trực giác suy đoán mà không cần cơ sở.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Địa chỉ IP."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Áp dụng cơ bản",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng nhất 'Địa chỉ IP'?",
+      "options": [
+        "Áp dụng vào trường hợp hoàn toàn không có dữ kiện.",
+        "IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở rộng không gian ...",
+        "Áp dụng ngược lại điều kiện quy định.",
+        "Trường hợp không tuân theo quy luật tự nhiên."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ví dụ thực tế của Địa chỉ IP.",
+        "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+        "steps": "Ví dụ tiêu biểu: IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở rộng không gian địa chỉ..",
+        "trap": "Nhầm lẫn giữa các tình huống thực tiễn khác nhau."
+      },
+      "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Áp dụng vào trường hợp hoàn toàn không có dữ kiện.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Địa chỉ IP.",
+        "Đúng vì: Ví dụ tiêu biểu: IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở rộng không gian địa chỉ..",
+        "Sai do bẫy thường gặp: Nhầm lẫn giữa các tình huống thực tiễn khác nhau.",
+        "Sai vì phương án 'Trường hợp không tuân theo quy luật tự nhiên.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Địa chỉ IP."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

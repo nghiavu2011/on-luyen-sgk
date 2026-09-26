@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Độ dịch chuyển (d)' trong Chương 2: Động học được định nghĩa như thế nào?",
+    "back": "Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo.\n\n💡 Ví dụ: Vận động viên bơi một vòng bể 50m rồi quay lại điểm xuất phát: quãng đường s = 100m, nhưng độ dịch chuyển d = 0m.\n🌱 Bản chất: Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Gia tốc (a)' trong Chương 2: Động học được định nghĩa như thế nào?",
+    "back": "Đại lượng vectơ đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian: a = Δv / Δt.\n\n💡 Ví dụ: Ô tô tăng tốc từ 0 đến 20 m/s trong 5 giây có gia tốc trung bình a = (20 - 0) / 5 = 4 m/s².\n🌱 Bản chất: Gia tốc không đo vật đi nhanh hay chậm mà đo vật tăng tốc hoặc giảm tốc nhanh đến mức nào.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Hệ phương trình chuyển động thẳng biến đổi đều'?",
+    "back": "v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian).\n\n📝 Ví dụ: Xe hãm phanh với a = -2 m/s² từ vận tốc v0 = 10 m/s: quãng đường đi được đến khi dừng (v=0) là (0² - 10²) / (2·(-2)) = 25m.\n🔑 Ý nghĩa: Công thức độc lập thời gian v² - v0² = 2ad thực chất chính là biểu thức của định lí động năng trong cơ học.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gian rơi và vận tốc ngay trước khi chạm đất.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s².\nBước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s.\nBước 3: Vận tốc chạm đất: v = g·t = 10 · 2 = 20 m/s (hoặc v = √(2gh) = √(2·10·20) = 20 m/s).\n\n👉 Kết luận: Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra lớn hơn vận tốc ban đầu.?",
+    "back": "❌ Lỗi sai: Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra lớn hơn vận tốc ban đầu.\n\n💡 Nguyên nhân & Khắc phục: Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 2: Động học?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 2: Động học?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 2: Động học?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  }
+]

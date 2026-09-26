@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch09",
+  "examId": "de1",
+  "title": "Toán học 10 — Chương 9: Tính xác suất theo định nghĩa cổ điển: Đề 1 — Khái niệm & Nhận biết (15 phút)",
+  "description": "Đề thi kiểm tra nhận biết khái niệm cơ bản, định nghĩa và công thức cốt lõi của Chương 9: Tính xác suất theo định nghĩa cổ điển.",
+  "questions": [
+    {
+      "id": "toan_ch09_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Xác suất cổ điển",
+      "question": "Theo chương trình SGK, khẳng định nào sau đây là ĐÚNG khi nói về 'Xác suất cổ điển'?",
+      "options": [
+        "Xác suất cổ điển P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số k...",
+        "Xác suất cổ điển luôn là một đại lượng không xác định trong thực tế.",
+        "Xác suất cổ điển chỉ áp dụng được trong các trường hợp ngoại lệ.",
+        "Xác suất cổ điển hoàn toàn đồng nhất với các khái niệm ngược lại."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn xác của Xác suất cổ điển.",
+        "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Xác suất cổ điển trong SGK?",
+        "steps": "Theo định nghĩa SGK: P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số kết quả có thể xảy ra của không.",
+        "trap": "Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ."
+      },
+      "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Xác suất cổ điển trong SGK?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK: P(A) = n(A) / n(Ω), trong đó n(A) là số kết quả thuận lợi cho biến cố A, n(Ω) là tổng số kết quả có thể xảy ra của không.",
+        "Sai do bẫy thường gặp: Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ.",
+        "Sai vì phương án 'Xác suất cổ điển chỉ áp dụng được trong các trường hợp ngoại lệ.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Xác suất cổ điển.",
+        "Sai vì phương án 'Xác suất cổ điển hoàn toàn đồng nhất với các khái niệm ngược lại.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Xác suất cổ điển."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch09_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Khoảng giá trị của xác suất",
+      "question": "Quy tắc/định lí nào sau đây thể hiện đúng nội dung của 'Khoảng giá trị của xác suất'?",
+      "options": [
+        "Quy tắc này không có giá trị áp dụng thực tiễn.",
+        "0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1....",
+        "Chỉ áp dụng khi giá trị các đại lượng đều bằng 0.",
+        "Tất cả các đại lượng đều tỉ lệ nghịch với nhau."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nội dung quy tắc Khoảng giá trị của xác suất.",
+        "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+        "steps": "Phát biểu chuẩn: 0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1..",
+        "trap": "Ghi nhớ sai hướng của mối quan hệ đại lượng."
+      },
+      "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy tắc này không có giá trị áp dụng thực tiễn.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Khoảng giá trị của xác suất.",
+        "Đúng vì: Phát biểu chuẩn: 0 ≤ P(A) ≤ 1. Biến cố không thể P(∅) = 0. Biến cố chắc chắn P(Ω) = 1..",
+        "Sai do bẫy thường gặp: Ghi nhớ sai hướng của mối quan hệ đại lượng.",
+        "Sai vì phương án 'Tất cả các đại lượng đều tỉ lệ nghịch với nhau.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Khoảng giá trị của xác suất."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "toan_ch09_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Biến cố đối",
+      "question": "Khái niệm 'Biến cố đối' được hiểu chính xác nhất là:",
+      "options": [
+        "Một đại lượng chỉ mang tính lí thuyết không thể đo lường.",
+        "Một kết quả ngẫu nhiên không có quy luật chi phối.",
+        "Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A)....",
+        "Khái niệm chỉ xuất hiện ở các lớp học nâng cao."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bản chất của Biến cố đối.",
+        "socraticPrompt": "Ý nghĩa khoa học của Biến cố đối là gì?",
+        "steps": "Theo định nghĩa: Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A)..",
+        "trap": "Xem nhẹ vai trò nền tảng của khái niệm."
+      },
+      "socraticPrompt": "Ý nghĩa khoa học của Biến cố đối là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một đại lượng chỉ mang tính lí thuyết không thể đo lường.' không phù hợp với quy tắc/định lí: Bản chất của Biến cố đối.",
+        "Sai vì phương án 'Một kết quả ngẫu nhiên không có quy luật chi phối.' không phù hợp với quy tắc/định lí: Bản chất của Biến cố đối.",
+        "Đúng vì: Theo định nghĩa: Biến cố đối của A là Ā = Ω \\ A. P(Ā) = 1 - P(A)..",
+        "Sai do bẫy thường gặp: Xem nhẹ vai trò nền tảng của khái niệm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch09_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết bẫy sai",
+      "question": "Khi tìm hiểu về Chương 9: Tính xác suất theo định nghĩa cổ điển, sai lầm nào sau đây học sinh CẦN TRÁNH?",
+      "options": [
+        "Tìm hiểu kĩ định nghĩa và điều kiện áp dụng.",
+        "Luyện tập các ví dụ minh họa từng bước.",
+        "Đọc kĩ phần bản chất trực giác của bài học.",
+        "Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác nhau...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Các lỗi nhận thức thường gặp trong Chương 9: Tính xác suất theo định nghĩa cổ điển.",
+        "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+        "steps": "Lưu ý trọng tâm: Hai con xúc xắc là hai thực thể phân biệt, xuất hiện (1 ở con 1, 6 ở con 2) khác với (6 ở con 1, 1 ở con 2)..",
+        "trap": "Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác n"
+      },
+      "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Coi cặp (1; 6) và (6; 1) là một kết quả duy nhất khi gieo hai con xúc xắc khác n",
+        "Sai vì phương án 'Luyện tập các ví dụ minh họa từng bước.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chương 9: Tính xác suất theo định nghĩa cổ điển.",
+        "Sai vì phương án 'Đọc kĩ phần bản chất trực giác của bài học.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chương 9: Tính xác suất theo định nghĩa cổ điển.",
+        "Đúng vì: Lưu ý trọng tâm: Hai con xúc xắc là hai thực thể phân biệt, xuất hiện (1 ở con 1, 6 ở con 2) khác với (6 ở con 1, 1 ở con 2).."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "toan_ch09_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc tính bản chất",
+      "question": "Bản chất cốt lõi của Xác suất cổ điển là gì?",
+      "options": [
+        "Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả nă...",
+        "Chỉ nhằm mục đích kiểm tra trí nhớ học sinh.",
+        "Không có mối liên hệ với các bài học trước đó.",
+        "Hoàn toàn do trực giác suy đoán mà không cần cơ sở."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất trực giác của Xác suất cổ điển.",
+        "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+        "steps": "Bản chất: Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả năng xảy ra như nhau..",
+        "trap": "Học vẹt công thức mà không hiểu bản chất sâu xa."
+      },
+      "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+      "distractorReasons": [
+        "Đúng vì: Bản chất: Xác suất là tỉ số đo lường cơ hội xảy ra của biến cố trên giả định các kết quả sơ cấp có khả năng xảy ra như nhau..",
+        "Sai do bẫy thường gặp: Học vẹt công thức mà không hiểu bản chất sâu xa.",
+        "Sai vì phương án 'Không có mối liên hệ với các bài học trước đó.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Xác suất cổ điển.",
+        "Sai vì phương án 'Hoàn toàn do trực giác suy đoán mà không cần cơ sở.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Xác suất cổ điển."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch09_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Áp dụng cơ bản",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng nhất 'Xác suất cổ điển'?",
+      "options": [
+        "Áp dụng vào trường hợp hoàn toàn không có dữ kiện.",
+        "Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2....",
+        "Áp dụng ngược lại điều kiện quy định.",
+        "Trường hợp không tuân theo quy luật tự nhiên."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ví dụ thực tế của Xác suất cổ điển.",
+        "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+        "steps": "Ví dụ tiêu biểu: Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2..",
+        "trap": "Nhầm lẫn giữa các tình huống thực tiễn khác nhau."
+      },
+      "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Áp dụng vào trường hợp hoàn toàn không có dữ kiện.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Xác suất cổ điển.",
+        "Đúng vì: Ví dụ tiêu biểu: Gieo con xúc xắc 6 mặt cân đối. Biến cố xuất hiện mặt chẵn A = {2; 4; 6} có P(A) = 3 / 6 = 1/2..",
+        "Sai do bẫy thường gặp: Nhầm lẫn giữa các tình huống thực tiễn khác nhau.",
+        "Sai vì phương án 'Trường hợp không tuân theo quy luật tự nhiên.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Xác suất cổ điển."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

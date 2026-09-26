@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Mở đầu & Phép đo sai số",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Làm quen với Vật lí và an toàn phòng thí nghiệm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Làm quen với Vật lí và an toàn phòng thí nghiệm.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Sai số phép đo",
+          "definition": "Bao gồm sai số hệ thống (do dụng cụ, điểm 0 bị lệch) và sai số ngẫu nhiên (do thao tác, điều kiện môi trường).",
+          "example": "Dùng thước chia đến mm đo chiều dài cuốn sách: sai số dụng cụ thường lấy bằng nửa độ chia nhỏ nhất (0.5 mm).",
+          "essence": "Mọi kết quả đo đạc thực nghiệm vật lý đều chỉ mang tính gần đúng, luôn kèm theo một khoảng bất định sai số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cách viết kết quả đo",
+          "meaning": "A = Ā ± ΔA, trong đó Ā là giá trị trung bình qua nhiều lần đo, ΔA là sai số tuyệt đối.",
+          "example": "Chiều dài bàn học l = (1.200 ± 0.005) m.",
+          "essence": "Con số đo biểu diễn một khoảng tin cậy [Ā - ΔA; Ā + ΔA] chứ không phải một giá trị số học tuyệt đối duy nhất."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đo 5 lần thời gian rơi của một vật được các giá trị: 0.40s, 0.42s, 0.39s, 0.41s, 0.38s. Tính thời gian trung bình và sai số tuyệt đối trung bình.",
+          "steps": [
+            "Bước 1: Tính thời gian trung bình: t̄ = (0.40 + 0.42 + 0.39 + 0.41 + 0.38) / 5 = 2.00 / 5 = 0.40 s.",
+            "Bước 2: Tính sai số từng lần: |0.40-0.40|=0; |0.42-0.40|=0.02; |0.39-0.40|=0.01; |0.41-0.40|=0.01; |0.38-0.40|=0.02.",
+            "Bước 3: Sai số ngẫu nhiên tuyệt đối trung bình: Δt̄ = (0 + 0.02 + 0.01 + 0.01 + 0.02) / 5 = 0.012 s ≈ 0.01 s."
+          ],
+          "answer": "t̄ = 0.40 s và Δt̄ = 0.01 s. Kết quả: t = (0.40 ± 0.01) s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết số chữ số có nghĩa của sai số nhiều hơn số chữ số có nghĩa của giá trị trung bình.",
+          "why": "Phần thập phân của giá trị trung bình phải được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thực hành đo sai số trong phép đo đại lượng vật lí",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thực hành đo sai số trong phép đo đại lượng vật lí.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Sai số phép đo",
+          "definition": "Bao gồm sai số hệ thống (do dụng cụ, điểm 0 bị lệch) và sai số ngẫu nhiên (do thao tác, điều kiện môi trường).",
+          "example": "Dùng thước chia đến mm đo chiều dài cuốn sách: sai số dụng cụ thường lấy bằng nửa độ chia nhỏ nhất (0.5 mm).",
+          "essence": "Mọi kết quả đo đạc thực nghiệm vật lý đều chỉ mang tính gần đúng, luôn kèm theo một khoảng bất định sai số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cách viết kết quả đo",
+          "meaning": "A = Ā ± ΔA, trong đó Ā là giá trị trung bình qua nhiều lần đo, ΔA là sai số tuyệt đối.",
+          "example": "Chiều dài bàn học l = (1.200 ± 0.005) m.",
+          "essence": "Con số đo biểu diễn một khoảng tin cậy [Ā - ΔA; Ā + ΔA] chứ không phải một giá trị số học tuyệt đối duy nhất."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đo 5 lần thời gian rơi của một vật được các giá trị: 0.40s, 0.42s, 0.39s, 0.41s, 0.38s. Tính thời gian trung bình và sai số tuyệt đối trung bình.",
+          "steps": [
+            "Bước 1: Tính thời gian trung bình: t̄ = (0.40 + 0.42 + 0.39 + 0.41 + 0.38) / 5 = 2.00 / 5 = 0.40 s.",
+            "Bước 2: Tính sai số từng lần: |0.40-0.40|=0; |0.42-0.40|=0.02; |0.39-0.40|=0.01; |0.41-0.40|=0.01; |0.38-0.40|=0.02.",
+            "Bước 3: Sai số ngẫu nhiên tuyệt đối trung bình: Δt̄ = (0 + 0.02 + 0.01 + 0.01 + 0.02) / 5 = 0.012 s ≈ 0.01 s."
+          ],
+          "answer": "t̄ = 0.40 s và Δt̄ = 0.01 s. Kết quả: t = (0.40 ± 0.01) s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết số chữ số có nghĩa của sai số nhiều hơn số chữ số có nghĩa của giá trị trung bình.",
+          "why": "Phần thập phân của giá trị trung bình phải được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối."
+        }
+      ]
+    }
+  ]
+}

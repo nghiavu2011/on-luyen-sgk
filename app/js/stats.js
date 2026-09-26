@@ -281,6 +281,21 @@ function recordQuestionResult(q, chosenDisplayIdx, isCorrect, meta = {}) {
   }
 
   saveProgress(p);
+
+  // Đồng bộ với 3 tầng trí nhớ DeepTutor (L1 Trace, L2 Gaps, L3 Mastery) nếu engine DeepTutor có mặt
+  if (window.DeepTutor && typeof window.DeepTutor.recordAttempt === 'function') {
+    try {
+      window.DeepTutor.recordAttempt(q, origChosen, isCorrect, {
+        grade: String(grade).padStart(2, '0'),
+        subject: subject,
+        chapter: chapter,
+        examId: examId
+      });
+    } catch (e) {
+      console.warn('DeepTutor memory sync warning:', e);
+    }
+  }
+
   return { cleared };
 }
 

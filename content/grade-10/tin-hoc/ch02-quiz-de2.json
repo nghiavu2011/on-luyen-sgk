@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Tin học 10 — Chủ đề 2: Mạng máy tính và Internet: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chủ đề 2: Mạng máy tính và Internet.",
+  "questions": [
+    {
+      "id": "tin-hoc_ch02_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chủ đề 2: Mạng máy tính và Internet, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Mô hình Client - Server (Khách - Chủ).",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Mô hình Client - Server (Khách - Chủ).",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response)..",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response)..",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Mô hình Client - Server (Khách - Chủ).",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Mô hình Client - Server (Khách - Chủ)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Điện toán đám mây mang lại những lợi ích vượt trội nào so với lưu trữ cục bộ trên ổ cứng t...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "tin-hoc_ch02_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Địa chỉ IP và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Địa chỉ IP được xác định chặt chẽ bởi: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Địa chỉ IP với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Địa chỉ IP với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Địa chỉ IP với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu..",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "tin-hoc_ch02_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở r...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến t..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Địa chỉ IP.",
+        "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Địa chỉ IP.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Địa chỉ IP.",
+        "Đúng vì: Lí giải: Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "tin-hoc_ch02_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Điện toán đám mây mang lại những lợi ích vượt trội nào so với lưu trữ cục bộ trên ổ c...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Truy cập linh hoạt, sao lưu an toàn và cộng tác thời gian thực..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+        "steps": "Các bước: Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet. -> Bước 2: Dữ liệu được sao lưu dự phòng tự động, giảm thiểu rủi ro mất mát khi hỏng thiết bị phần cứng. => Truy cập linh hoạt, sao lưu an toàn và cộng tác thời gian thực..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet. -> Bước 2: Dữ liệu được sao lưu dự phòng tự động, giảm thiểu rủi ro mất mát khi hỏng thiết bị phần cứng. => Truy cập linh hoạt, sao lưu an toàn và cộng tác thời gian thực..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chủ đề 2: Mạng máy tính và Internet.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau....'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin ch...",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet.",
+        "Đúng vì: Biện pháp: Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

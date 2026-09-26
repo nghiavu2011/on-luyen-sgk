@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch01",
+  "title": "Chủ đề 1: Máy tính và Xã hội tri thức",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Thông tin và dữ liệu số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Thông tin và dữ liệu số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bit và Byte",
+          "definition": "Bit (Binary Digit) là đơn vị nhỏ nhất để đo lượng thông tin, chỉ nhận một trong hai giá trị 0 hoặc 1. 1 Byte = 8 bit.",
+          "example": "Kí tự 'A' trong bảng mã ASCII được biểu diễn bằng 1 byte là 01000001 (giá trị thập phân 65).",
+          "essence": "Mọi loại dữ liệu (văn bản, âm thanh, hình ảnh, video) khi nạp vào máy tính đều được số hóa thành các dãy bit nhị phân 0 và 1."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đơn vị đo dung lượng thông tin",
+          "meaning": "1 KB = 1024 Bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB (lũy thừa của 2: 2¹⁰ = 1024).",
+          "example": "Một bức ảnh chụp điện thoại dung lượng 4 MB = 4 · 1024 KB = 4.096 KB.",
+          "essence": "Cơ số 2 là ngôn ngữ phần cứng của mạch bán dẫn đóng (0) và mở (1)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đổi số nhị phân 10110_2 sang hệ thập phân (hệ cơ số 10).",
+          "steps": [
+            "Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰):",
+            "Bước 2: 1·2⁴ + 0·2³ + 1·2² + 1·2¹ + 0·2⁰.",
+            "Bước 3: Tính toán: 16 + 0 + 4 + 2 + 0 = 22."
+          ],
+          "answer": "10110_2 = 22_10."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy 1 KB = 1000 Bytes trong tính toán bộ nhớ máy tính.",
+          "why": "Trong cấu trúc bộ nhớ máy tính chuẩn, các tiền tố nhị phân tính theo lũy thừa của 2 (2¹⁰ = 1024)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Biểu diễn thông tin trong máy tính",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Biểu diễn thông tin trong máy tính.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bit và Byte",
+          "definition": "Bit (Binary Digit) là đơn vị nhỏ nhất để đo lượng thông tin, chỉ nhận một trong hai giá trị 0 hoặc 1. 1 Byte = 8 bit.",
+          "example": "Kí tự 'A' trong bảng mã ASCII được biểu diễn bằng 1 byte là 01000001 (giá trị thập phân 65).",
+          "essence": "Mọi loại dữ liệu (văn bản, âm thanh, hình ảnh, video) khi nạp vào máy tính đều được số hóa thành các dãy bit nhị phân 0 và 1."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đơn vị đo dung lượng thông tin",
+          "meaning": "1 KB = 1024 Bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB (lũy thừa của 2: 2¹⁰ = 1024).",
+          "example": "Một bức ảnh chụp điện thoại dung lượng 4 MB = 4 · 1024 KB = 4.096 KB.",
+          "essence": "Cơ số 2 là ngôn ngữ phần cứng của mạch bán dẫn đóng (0) và mở (1)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đổi số nhị phân 10110_2 sang hệ thập phân (hệ cơ số 10).",
+          "steps": [
+            "Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰):",
+            "Bước 2: 1·2⁴ + 0·2³ + 1·2² + 1·2¹ + 0·2⁰.",
+            "Bước 3: Tính toán: 16 + 0 + 4 + 2 + 0 = 22."
+          ],
+          "answer": "10110_2 = 22_10."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy 1 KB = 1000 Bytes trong tính toán bộ nhớ máy tính.",
+          "why": "Trong cấu trúc bộ nhớ máy tính chuẩn, các tiền tố nhị phân tính theo lũy thừa của 2 (2¹⁰ = 1024)."
+        }
+      ]
+    }
+  ]
+}

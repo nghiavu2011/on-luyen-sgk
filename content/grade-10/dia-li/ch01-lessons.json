@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Sử dụng bản đồ",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Một số phương pháp biểu hiện các đối tượng địa lí trên bản đồ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Một số phương pháp biểu hiện các đối tượng địa lí trên bản đồ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bản đồ và Hệ thống định vị toàn cầu (GPS)",
+          "definition": "Bản đồ là hình ảnh thu nhỏ tương đối chính xác của bề mặt Trái Đất lên mặt phẳng. GPS là hệ thống vệ tinh cung cấp tọa độ vị trí không gian chính xác tại mọi thời điểm.",
+          "example": "Ứng dụng gọi xe công nghệ hoặc chỉ đường Google Maps sử dụng GPS để xác định vị trí và lộ trình di chuyển tối ưu.",
+          "essence": "Số hóa không gian địa lý phục vụ quản lý giao thông, cứu nạn cứu hộ và quy hoạch phát triển đô thị."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương pháp kí hiệu trên bản đồ",
+          "meaning": "Dùng kí hiệu hình học, chữ hoặc tượng hình đặt chính xác tại vị trí tọa độ của đối tượng để biểu thị vị trí, chất lượng và số lượng đối tượng.",
+          "example": "Kí hiệu hình tròn màu đen biểu thị mỏ than, tam giác đen biểu thị mỏ sắt.",
+          "essence": "Mã hóa trực quan các thông tin phân bố địa lý không gian."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trên bản đồ tỉ lệ 1 : 200.000, khoảng cách giữa hai thành phố đo được là 5 cm. Tính khoảng cách thực tế ngoài thực địa theo km.",
+          "steps": [
+            "Bước 1: Tỉ lệ 1 : 200.000 có nghĩa là 1 cm trên bản đồ tương ứng 200.000 cm ngoài thực địa.",
+            "Bước 2: Khoảng cách thực tế: d = 5 cm · 200.000 = 1.000.000 cm.",
+            "Bước 3: Đổi đơn vị: 1.000.000 cm = 10.000 m = 10 km."
+          ],
+          "answer": "Khoảng cách thực tế là 10 km."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn khi đổi đơn vị từ cm sang km (chia nhầm cho 1.000 thay vì 100.000).",
+          "why": "1 km = 1.000 m = 100.000 cm."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Sử dụng bản đồ trong học tập và đời sống",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Sử dụng bản đồ trong học tập và đời sống.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bản đồ và Hệ thống định vị toàn cầu (GPS)",
+          "definition": "Bản đồ là hình ảnh thu nhỏ tương đối chính xác của bề mặt Trái Đất lên mặt phẳng. GPS là hệ thống vệ tinh cung cấp tọa độ vị trí không gian chính xác tại mọi thời điểm.",
+          "example": "Ứng dụng gọi xe công nghệ hoặc chỉ đường Google Maps sử dụng GPS để xác định vị trí và lộ trình di chuyển tối ưu.",
+          "essence": "Số hóa không gian địa lý phục vụ quản lý giao thông, cứu nạn cứu hộ và quy hoạch phát triển đô thị."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương pháp kí hiệu trên bản đồ",
+          "meaning": "Dùng kí hiệu hình học, chữ hoặc tượng hình đặt chính xác tại vị trí tọa độ của đối tượng để biểu thị vị trí, chất lượng và số lượng đối tượng.",
+          "example": "Kí hiệu hình tròn màu đen biểu thị mỏ than, tam giác đen biểu thị mỏ sắt.",
+          "essence": "Mã hóa trực quan các thông tin phân bố địa lý không gian."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trên bản đồ tỉ lệ 1 : 200.000, khoảng cách giữa hai thành phố đo được là 5 cm. Tính khoảng cách thực tế ngoài thực địa theo km.",
+          "steps": [
+            "Bước 1: Tỉ lệ 1 : 200.000 có nghĩa là 1 cm trên bản đồ tương ứng 200.000 cm ngoài thực địa.",
+            "Bước 2: Khoảng cách thực tế: d = 5 cm · 200.000 = 1.000.000 cm.",
+            "Bước 3: Đổi đơn vị: 1.000.000 cm = 10.000 m = 10 km."
+          ],
+          "answer": "Khoảng cách thực tế là 10 km."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn khi đổi đơn vị từ cm sang km (chia nhầm cho 1.000 thay vì 100.000).",
+          "why": "1 km = 1.000 m = 100.000 cm."
+        }
+      ]
+    }
+  ]
+}

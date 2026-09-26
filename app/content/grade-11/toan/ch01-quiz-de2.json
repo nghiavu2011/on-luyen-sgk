@@ -177,6 +177,84 @@
       ],
       "answer": 1,
       "correctIndex": 1
+    },
+    {
+      "id": "t11_c1_d2_tf01",
+      "difficulty": "van-dung",
+      "type": "true_false_group",
+      "topic": "Hàm số lượng giác và tính chất",
+      "question": "Cho hàm số $y = f(x) = 2\\sin\\left(2x - \\frac{\\pi}{3}\\right) + 1$. Xét tính đúng hay sai của các mệnh đề sau:",
+      "subQuestions": [
+        {
+          "id": "a",
+          "statement": "Tập xác định của hàm số là $D = \\mathbb{R}$.",
+          "correct": true,
+          "explanation": "Hàm số $\\sin(u)$ xác định với mọi $u \\in \\mathbb{R}$, do đó tập xác định $D = \\mathbb{R}$ là Đúng."
+        },
+        {
+          "id": "b",
+          "statement": "Giá trị lớn nhất của hàm số bằng 3 và giá trị nhỏ nhất của hàm số bằng -1.",
+          "correct": true,
+          "explanation": "Vì $-1 \\le \\sin\\left(2x - \\frac{\\pi}{3}\\right) \\le 1$ nên $-2 + 1 \\le y \\le 2 + 1 \\Leftrightarrow -1 \\le y \\le 3$. Mệnh đề Đúng."
+        },
+        {
+          "id": "c",
+          "statement": "Hàm số tuần hoàn với chu kì $T = 2\\pi$.",
+          "correct": false,
+          "explanation": "Hàm số $y = \\sin(\\omega x + \\varphi)$ có chu kì $T = \\frac{2\\pi}{|\\omega|} = \\frac{2\\pi}{2} = \\pi$. Do đó chu kì $T = 2\\pi$ là Sai."
+        },
+        {
+          "id": "d",
+          "statement": "Đồ thị hàm số đi qua điểm $M\\left(\\frac{\\pi}{4}; 1 + \\sqrt{3}\\right)$.",
+          "correct": false,
+          "explanation": "Tại $x = \\frac{\\pi}{4}$, $y = 2\\sin\\left(\\frac{\\pi}{2} - \\frac{\\pi}{3}\\right) + 1 = 2\\sin\\left(\\frac{\\pi}{6}\\right) + 1 = 2\\cdot \\frac{1}{2} + 1 = 2 \\ne 1 + \\sqrt{3}$. Mệnh đề Sai."
+        }
+      ],
+      "breakdown": {
+        "concept": "Tập xác định, tập giá trị, chu kì và điểm thuộc đồ thị của hàm lượng giác",
+        "socraticPrompt": "Xem lại công thức chu kì T = 2π / |ω| và tập giá trị [-1; 1] của hàm sin.",
+        "steps": "1. Tập xác định R. 2. Min = -1, Max = 3. 3. Chu kì T = π. 4. Thay tọa độ điểm M kiểm tra y.",
+        "trap": "Nhầm chu kì của sin(2x) là 2π thay vì π."
+      }
+    },
+    {
+      "id": "t11_c1_d2_tf02",
+      "difficulty": "van-dung-cao",
+      "type": "true_false_group",
+      "topic": "Phương trình lượng giác chứa tham số m",
+      "question": "Cho phương trình $\\cos(2x) - (2m+1)\\cos(x) + m + 1 = 0$ với $m$ là tham số thực. Xét tính đúng hoặc sai của các mệnh đề sau:",
+      "subQuestions": [
+        {
+          "id": "a",
+          "statement": "Bằng phép đặt $t = \\cos(x)$ ($-1 \\le t \\le 1$), phương trình trở thành $2t^2 - (2m+1)t + m = 0$.",
+          "correct": true,
+          "explanation": "Ta có $\\cos(2x) = 2\\cos^2(x) - 1 = 2t^2 - 1$. Thay vào phương trình: $2t^2 - 1 - (2m+1)t + m + 1 = 0 \\Leftrightarrow 2t^2 - (2m+1)t + m = 0$. Mệnh đề Đúng."
+        },
+        {
+          "id": "b",
+          "statement": "Phương trình bậc hai theo $t$ luôn có một nghiệm cố định $t_1 = \\frac{1}{2}$.",
+          "correct": true,
+          "explanation": "Phương trình $2t^2 - 2mt - t + m = 0 \\Leftrightarrow 2t(t - m) - (t - m) = 0 \\Leftrightarrow (2t - 1)(t - m) = 0$. Nghiệm cố định là $t = 1/2$. Mệnh đề Đúng."
+        },
+        {
+          "id": "c",
+          "statement": "Khi $m = 2$, phương trình đã cho có đúng 2 nghiệm phân biệt trong đoạn $[0; \\pi]$.",
+          "correct": false,
+          "explanation": "Với $m = 2$, nghiệm $t = m = 2 > 1$ (loại). Chỉ còn $t = \\cos(x) = 1/2 \\Rightarrow x = \\pi/3 \\in [0; \\pi]$. Vậy chỉ có 1 nghiệm duy nhất trong $[0; \\pi]$. Mệnh đề Sai."
+        },
+        {
+          "id": "d",
+          "statement": "Để phương trình có nghiệm $x \\in \\mathbb{R}$, điều kiện cần và đủ là $-1 \\le m \\le 1$.",
+          "correct": false,
+          "explanation": "Do luôn có nghiệm cố định $t = 1/2 \\in [-1; 1]$, phương trình luôn có nghiệm $\\cos(x) = 1/2$ với mọi giá trị của tham số $m \\in \\mathbb{R}$. Do đó điều kiện $-1 \\le m \\le 1$ là Sai."
+        }
+      ],
+      "breakdown": {
+        "concept": "Biến đổi công thức nhân đôi đưa về phương trình tích chứa tham số",
+        "socraticPrompt": "Nhẩm nghiệm của phương trình 2t² - (2m+1)t + m = 0 xem có tách nhân tử (2t - 1)(t - m) = 0 được không?",
+        "steps": "1. Công thức nhân đôi cos 2x = 2cos²x - 1. 2. Phân tích nhân tử (2t-1)(t-m)=0. 3. Nhận thấy t=1/2 luôn thỏa mãn nên luôn có nghiệm với mọi m.",
+        "trap": "Nghĩ rằng phương trình chỉ có nghiệm khi -1 <= m <= 1 mà quên mất nghiệm cố định t = 1/2."
+      }
     }
   ]
 }

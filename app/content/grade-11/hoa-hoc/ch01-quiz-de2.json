@@ -206,6 +206,45 @@
       ],
       "answer": 1,
       "correctIndex": 1
+    },
+    {
+      "id": "hoahoc-11-ch01-de02-tf01",
+      "difficulty": "van-dung",
+      "type": "true_false_group",
+      "topic": "Cân bằng hóa học và nguyên lý Le Chatelier",
+      "question": "Cho cân bằng hóa học trong bình kín: $N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ có $\\Delta_r H_{298}^0 = -92\\text{ kJ}$. Xét tính đúng hoặc sai của các phát biểu sau:",
+      "subQuestions": [
+        {
+          "id": "a",
+          "statement": "Phản ứng thuận là phản ứng tỏa nhiệt.",
+          "correct": true,
+          "explanation": "Do $\\Delta_r H_{298}^0 = -92\\text{ kJ} < 0$, nên phản ứng thuận tỏa nhiệt. Mệnh đề Đúng."
+        },
+        {
+          "id": "b",
+          "statement": "Khi tăng nhiệt độ của bình phản ứng, cân bằng chuyển dịch theo chiều thuận.",
+          "correct": false,
+          "explanation": "Theo nguyên lý Le Chatelier, khi tăng nhiệt độ, cân bằng chuyển dịch theo chiều thu nhiệt (chiều phản ứng nghịch). Mệnh đề Sai."
+        },
+        {
+          "id": "c",
+          "statement": "Khi tăng áp suất chung của hệ bằng cách giảm thể tích bình, hiệu suất tổng hợp $NH_3$ tăng lên.",
+          "correct": true,
+          "explanation": "Phía chất tham gia có 4 mol khí, phía sản phẩm có 2 mol khí. Tăng áp suất làm cân bằng dịch chuyển sang chiều giảm số mol khí (chiều thuận), do đó tăng hiệu suất tạo $NH_3$. Mệnh đề Đúng."
+        },
+        {
+          "id": "d",
+          "statement": "Thêm chất xúc tác bột sắt ($Fe$) làm tăng nồng độ của $NH_3$ ở trạng thái cân bằng.",
+          "correct": false,
+          "explanation": "Chất xúc tác chỉ làm tăng tốc độ phản ứng thuận và nghịch như nhau để hệ nhanh đạt trạng thái cân bằng, không làm chuyển dịch cân bằng và không làm thay đổi nồng độ các chất ở trạng thái cân bằng. Mệnh đề Sai."
+        }
+      ],
+      "breakdown": {
+        "concept": "Nguyên lý Le Chatelier tác động bởi nhiệt độ, áp suất và vai trò xúc tác",
+        "socraticPrompt": "Xem lại ảnh hưởng của xúc tác: xúc tác có làm chuyển dịch cân bằng không?",
+        "steps": "1. ΔH < 0: Tỏa nhiệt. 2. Tăng T dịch chiều nghịch. 3. Tăng P dịch chiều thuận (4 mol -> 2 mol). 4. Xúc tác không dịch chuyển cân bằng.",
+        "trap": "Nhầm tưởng chất xúc tác làm tăng nồng độ sản phẩm ở cân bằng."
+      }
     }
   ]
 }

@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch08",
+  "examId": "de2",
+  "title": "Toán học 10 — Chương 8: Đại số tổ hợp: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chương 8: Đại số tổ hợp.",
+  "questions": [
+    {
+      "id": "toan_ch08_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chương 8: Đại số tổ hợp, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Quy tắc cộng và Quy tắc nhân.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Quy tắc cộng và Quy tắc nhân.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Các phương án độc lập thay thế nhau => dùng Quy tắc CỘNG. Các công đoạn nối tiếp nhau để hoàn thành công việc => dùng Qu.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Các phương án độc lập thay thế nhau => dùng Quy tắc CỘNG. Các công đoạn nối tiếp nhau để hoàn thành công việc => dùng Qu.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc cộng và Quy tắc nhân.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc cộng và Quy tắc nhân."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch08_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Có bao nhiêu cách chọn một ban cán sự gồm 1 bí thư và 2 ủy viên từ một chi đoàn gồm 20 đoà...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chương 8: Đại số tổ hợp.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 8: Đại số tổ hợp.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 8: Đại số tổ hợp."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "toan_ch08_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Chỉnh hợp và Tổ hợp và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Chỉnh hợp và Tổ hợp được xác định chặt chẽ bởi: Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm m...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Chỉnh hợp và Tổ hợp với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm mà không quan tâm thứ tự..",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Chỉnh hợp và Tổ hợp với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Chỉnh hợp và Tổ hợp với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm mà không quan tâm thứ tự..",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch08_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Chọn 3 bạn làm Lớp trưởng, Bí thư, Lớp phó dùng chỉnh hợp A(40, 3). Chọn 3 bạn đ...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Chỉnh hợp và Tổ hợp.",
+        "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Chỉnh hợp và Tổ hợp.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Chỉnh hợp và Tổ hợp.",
+        "Đúng vì: Lí giải: Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "toan_ch08_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Có bao nhiêu cách chọn một ban cán sự gồm 1 bí thư và 2 ủy viên từ một chi đoàn gồm 2...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Có 3.420 cách chọn..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK Chương 8: Đại số tổ hợp.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+        "steps": "Các bước: Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách. -> Bước 2: Sau khi chọn bí thư, còn 19 bạn. Chọn 2 ủy viên không phân biệt chức vụ: có C(19, 2) = (19 · 18) / 2 = 171 cách. => Có 3.420 cách chọn..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách. -> Bước 2: Sau khi chọn bí thư, còn 19 bạn. Chọn 2 ủy viên không phân biệt chức vụ: có C(19, 2) = (19 · 18) / 2 = 171 cách. => Có 3.420 cách chọn..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chương 8: Đại số tổ hợp.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chương 8: Đại số tổ hợp."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch08_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Dùng chỉnh hợp A(n, k) thay vì tổ hợp C(n, k) khi chọn nhóm người không phân công chứ...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả...",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chương 8: Đại số tổ hợp.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả mới..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 8: Đại số tổ hợp.",
+        "Đúng vì: Biện pháp: Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả mới..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 8: Đại số tổ hợp."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

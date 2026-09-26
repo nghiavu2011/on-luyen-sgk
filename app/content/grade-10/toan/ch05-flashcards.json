@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Trung vị (Median - Me)' trong Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm được định nghĩa như thế nào?",
+    "back": "Là giá trị đứng ở chính giữa mẫu số liệu sau khi đã được xếp theo thứ tự không giảm.\n\n💡 Ví dụ: Mẫu số liệu 2, 4, 7, 8, 10 có trung vị là 7. Mẫu 2, 4, 6, 8 có trung vị là (4+6)/2 = 5.\n🌱 Bản chất: Trung vị không bị ảnh hưởng bởi các giá trị bất thường (quá lớn hoặc quá bé) như số trung bình.",
+    "tags": [
+      "toan",
+      "ch05",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Độ lệch chuẩn (s)' trong Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm được định nghĩa như thế nào?",
+    "back": "Là căn bậc hai của phương sai: s = √s².\n\n💡 Ví dụ: Nếu điểm thi của lớp A có s = 0.5 và lớp B có s = 2.1 thì lớp A có học lực đồng đều hơn nhiều so với lớp B.\n🌱 Bản chất: Độ lệch chuẩn đo lường mức độ biến động hoặc độ phân tán của các số liệu xung quanh giá trị trung bình.",
+    "tags": [
+      "toan",
+      "ch05",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Tứ phân vị Q1, Q2, Q3'?",
+    "back": "Q2 là trung vị của toàn bộ mẫu. Q1 là trung vị của nửa dưới, Q3 là trung vị của nửa trên. Khoảng tứ phân vị ΔQ = Q3 - Q1.\n\n📝 Ví dụ: Khoảng tứ phân vị chứa 50% số liệu tập trung ở vùng giữa, loại bỏ ảnh hưởng của số liệu đột biến ở hai đầu.\n🔑 Ý nghĩa: Tứ phân vị chia tập dữ liệu thành 4 phần bằng nhau về số lượng quan sát.",
+    "tags": [
+      "toan",
+      "ch05",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Cho mẫu số liệu điểm kiểm tra: 5, 6, 7, 7, 8, 9, 10. Tìm số trung bình và trung vị.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Tính số trung bình: x̄ = (5 + 6 + 7 + 7 + 8 + 9 + 10) / 7 = 52 / 7 ≈ 7.43.\nBước 2: Mẫu gồm n = 7 số đã sắp xếp, giá trị chính giữa ở vị trí thứ 4 là số 7.\nBước 3: Kết luận: Trung vị Me = 7.\n\n👉 Kết luận: Số trung bình x̄ ≈ 7.43 và trung vị Me = 7.",
+    "tags": [
+      "toan",
+      "ch05",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Tìm trung vị khi chưa sắp xếp dãy số liệu theo thứ tự tăng dần.?",
+    "back": "❌ Lỗi sai: Tìm trung vị khi chưa sắp xếp dãy số liệu theo thứ tự tăng dần.\n\n💡 Nguyên nhân & Khắc phục: Định nghĩa trung vị bắt buộc dữ liệu phải được sắp thứ tự trước khi lấy phần tử ở giữa.",
+    "tags": [
+      "toan",
+      "ch05",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch05",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch05",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 5: Các số đặc trưng của mẫu số liệu không ghép nhóm?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch05",
+      "on-tap"
+    ]
+  }
+]

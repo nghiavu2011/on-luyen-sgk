@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch08",
+  "title": "Chương 8: Đại số tổ hợp",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Quy tắc đếm, hoán vị, chỉnh hợp và tổ hợp",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Quy tắc đếm, hoán vị, chỉnh hợp và tổ hợp.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Chỉnh hợp và Tổ hợp",
+          "definition": "Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm mà không quan tâm thứ tự.",
+          "example": "Chọn 3 bạn làm Lớp trưởng, Bí thư, Lớp phó dùng chỉnh hợp A(40, 3). Chọn 3 bạn đi trực nhật dùng tổ hợp C(40, 3).",
+          "essence": "Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm."
+        },
+        {
+          "term": "Nhị thức Newton",
+          "definition": "(a + b)⁴ = a⁴ + 4a³b + 6a²b² + 4ab³ + b⁴. (a + b)⁵ = a⁵ + 5a⁴b + 10a³b² + 10a²b³ + 5ab⁴ + b⁵.",
+          "example": "Khai triển (x + 2)⁴ = x⁴ + 4·x³·2 + 6·x²·2² + 4·x·2³ + 2⁴ = x⁴ + 8x³ + 24x² + 32x + 16.",
+          "essence": "Các hệ số của nhị thức Newton tương ứng với các số trên hàng của Tam giác Pascal."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc cộng và Quy tắc nhân",
+          "meaning": "Các phương án độc lập thay thế nhau => dùng Quy tắc CỘNG. Các công đoạn nối tiếp nhau để hoàn thành công việc => dùng Quy tắc NHÂN.",
+          "example": "Đi từ Hà Nội đến Đà Nẵng bằng máy bay (3 chuyến) hoặc tàu hỏa (2 chuyến) => 3 + 2 = 5 cách. Đi từ A qua B đến C: từ A đến B có 3 đường, từ B đến C có 4 đường => 3 · 4 = 12 cách.",
+          "essence": "Quy tắc cộng là phép hợp các tập hợp rời nhau. Quy tắc nhân là tích Descartes."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Có bao nhiêu cách chọn một ban cán sự gồm 1 bí thư và 2 ủy viên từ một chi đoàn gồm 20 đoàn viên?",
+          "steps": [
+            "Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách.",
+            "Bước 2: Sau khi chọn bí thư, còn 19 bạn. Chọn 2 ủy viên không phân biệt chức vụ: có C(19, 2) = (19 · 18) / 2 = 171 cách.",
+            "Bước 3: Áp dụng quy tắc nhân cho 2 công đoạn: 20 · 171 = 3.420 cách."
+          ],
+          "answer": "Có 3.420 cách chọn."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng chỉnh hợp A(n, k) thay vì tổ hợp C(n, k) khi chọn nhóm người không phân công chức vụ.",
+          "why": "Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả mới."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Nhị thức Newton",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Nhị thức Newton.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Chỉnh hợp và Tổ hợp",
+          "definition": "Chỉnh hợp A(n, k) có phân biệt thứ tự sắp xếp. Tổ hợp C(n, k) chỉ chọn ra nhóm mà không quan tâm thứ tự.",
+          "example": "Chọn 3 bạn làm Lớp trưởng, Bí thư, Lớp phó dùng chỉnh hợp A(40, 3). Chọn 3 bạn đi trực nhật dùng tổ hợp C(40, 3).",
+          "essence": "Chỉnh hợp = Chọn + Xếp thứ tự. Tổ hợp = Chỉ chọn nhóm."
+        },
+        {
+          "term": "Nhị thức Newton",
+          "definition": "(a + b)⁴ = a⁴ + 4a³b + 6a²b² + 4ab³ + b⁴. (a + b)⁵ = a⁵ + 5a⁴b + 10a³b² + 10a²b³ + 5ab⁴ + b⁵.",
+          "example": "Khai triển (x + 2)⁴ = x⁴ + 4·x³·2 + 6·x²·2² + 4·x·2³ + 2⁴ = x⁴ + 8x³ + 24x² + 32x + 16.",
+          "essence": "Các hệ số của nhị thức Newton tương ứng với các số trên hàng của Tam giác Pascal."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc cộng và Quy tắc nhân",
+          "meaning": "Các phương án độc lập thay thế nhau => dùng Quy tắc CỘNG. Các công đoạn nối tiếp nhau để hoàn thành công việc => dùng Quy tắc NHÂN.",
+          "example": "Đi từ Hà Nội đến Đà Nẵng bằng máy bay (3 chuyến) hoặc tàu hỏa (2 chuyến) => 3 + 2 = 5 cách. Đi từ A qua B đến C: từ A đến B có 3 đường, từ B đến C có 4 đường => 3 · 4 = 12 cách.",
+          "essence": "Quy tắc cộng là phép hợp các tập hợp rời nhau. Quy tắc nhân là tích Descartes."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Có bao nhiêu cách chọn một ban cán sự gồm 1 bí thư và 2 ủy viên từ một chi đoàn gồm 20 đoàn viên?",
+          "steps": [
+            "Bước 1: Chọn 1 bí thư từ 20 bạn: có C(20, 1) = 20 cách.",
+            "Bước 2: Sau khi chọn bí thư, còn 19 bạn. Chọn 2 ủy viên không phân biệt chức vụ: có C(19, 2) = (19 · 18) / 2 = 171 cách.",
+            "Bước 3: Áp dụng quy tắc nhân cho 2 công đoạn: 20 · 171 = 3.420 cách."
+          ],
+          "answer": "Có 3.420 cách chọn."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng chỉnh hợp A(n, k) thay vì tổ hợp C(n, k) khi chọn nhóm người không phân công chức vụ.",
+          "why": "Khi không quan tâm thứ tự phân vai, hoán vị các thành viên trong nhóm không tạo ra kết quả mới."
+        }
+      ]
+    }
+  ]
+}

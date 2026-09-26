@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch07",
+  "title": "Chương 7: Biến dạng của vật rắn & Áp suất chất lỏng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Biến dạng của vật rắn và Định luật Hooke",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Biến dạng của vật rắn và Định luật Hooke.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định luật Hooke (Húc)",
+          "definition": "Trong giới hạn đàn hồi, độ lớn lực đàn hồi của lò xo tỉ lệ thuận với độ biến dạng của lò xo: F_dh = k · |Δl|.",
+          "example": "Treo quả cân 100g (P = 1N) vào lò xo làm lò xo giãn 2cm: độ cứng k = F / Δl = 1 / 0.02 = 50 N/m.",
+          "essence": "Lực đàn hồi có xu hướng kéo vật trở về hình dạng và kích thước ban đầu khi chưa bị ngoại lực tác dụng."
+        },
+        {
+          "term": "Lực đẩy Archimedes (Ác-si-mét)",
+          "definition": "F_A = d · V = ρ · g · V, trong đó ρ là khối lượng riêng chất lỏng, V là thể tích phần vật chìm trong chất lỏng.",
+          "example": "Tàu thủy bằng thép nặng hàng nghìn tấn vẫn nổi được trên mặt nước vì thể tích chìm tạo ra lực đẩy Archimedes bằng đúng trọng lượng tàu.",
+          "essence": "Lực đẩy Archimedes có độ lớn bằng đúng trọng lượng của khối chất lỏng bị vật chiếm chỗ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện vật nổi, lơ lửng, chìm",
+          "meaning": "Nếu d_vật < d_chất lỏng: vật nổi. Nếu d_vật = d_chất lỏng: vật lơ lửng. Nếu d_vật > d_chất lỏng: vật chìm xuống đáy.",
+          "example": "Khối gỗ có khối lượng riêng 700 kg/m³ nhỏ hơn nước (1000 kg/m³) nên nổi trên mặt nước.",
+          "essence": "So sánh trọng lực kéo xuống (P = d_vật · V) với lực đẩy Archimedes cực đại nâng lên (F_A = d_lỏng · V)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Treo một vật nặng vào lò xo có độ cứng k = 100 N/m làm lò xo giãn ra một đoạn Δl = 5 cm. Lấy g = 10 m/s². Tính khối lượng m của vật nặng.",
+          "steps": [
+            "Bước 1: Đổi đơn vị độ giãn: Δl = 5 cm = 0.05 m.",
+            "Bước 2: Khi cân bằng, lực đàn hồi cân bằng với trọng lực của vật: F_dh = P <=> k · Δl = m · g.",
+            "Bước 3: Suy ra m = (k · Δl) / g = (100 · 0.05) / 10 = 5 / 10 = 0.5 kg = 500g."
+          ],
+          "answer": "Khối lượng của vật nặng là m = 0.5 kg."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn chiều dài lò xo l với độ biến dạng Δl = |l - l0|.",
+          "why": "Lực đàn hồi phụ thuộc vào độ biến dạng (khoảng co hoặc giãn so với chiều dài tự nhiên l0), không phụ thuộc tổng chiều dài l."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Áp suất chất lỏng và lực đẩy Archimedes",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Áp suất chất lỏng và lực đẩy Archimedes.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định luật Hooke (Húc)",
+          "definition": "Trong giới hạn đàn hồi, độ lớn lực đàn hồi của lò xo tỉ lệ thuận với độ biến dạng của lò xo: F_dh = k · |Δl|.",
+          "example": "Treo quả cân 100g (P = 1N) vào lò xo làm lò xo giãn 2cm: độ cứng k = F / Δl = 1 / 0.02 = 50 N/m.",
+          "essence": "Lực đàn hồi có xu hướng kéo vật trở về hình dạng và kích thước ban đầu khi chưa bị ngoại lực tác dụng."
+        },
+        {
+          "term": "Lực đẩy Archimedes (Ác-si-mét)",
+          "definition": "F_A = d · V = ρ · g · V, trong đó ρ là khối lượng riêng chất lỏng, V là thể tích phần vật chìm trong chất lỏng.",
+          "example": "Tàu thủy bằng thép nặng hàng nghìn tấn vẫn nổi được trên mặt nước vì thể tích chìm tạo ra lực đẩy Archimedes bằng đúng trọng lượng tàu.",
+          "essence": "Lực đẩy Archimedes có độ lớn bằng đúng trọng lượng của khối chất lỏng bị vật chiếm chỗ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện vật nổi, lơ lửng, chìm",
+          "meaning": "Nếu d_vật < d_chất lỏng: vật nổi. Nếu d_vật = d_chất lỏng: vật lơ lửng. Nếu d_vật > d_chất lỏng: vật chìm xuống đáy.",
+          "example": "Khối gỗ có khối lượng riêng 700 kg/m³ nhỏ hơn nước (1000 kg/m³) nên nổi trên mặt nước.",
+          "essence": "So sánh trọng lực kéo xuống (P = d_vật · V) với lực đẩy Archimedes cực đại nâng lên (F_A = d_lỏng · V)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Treo một vật nặng vào lò xo có độ cứng k = 100 N/m làm lò xo giãn ra một đoạn Δl = 5 cm. Lấy g = 10 m/s². Tính khối lượng m của vật nặng.",
+          "steps": [
+            "Bước 1: Đổi đơn vị độ giãn: Δl = 5 cm = 0.05 m.",
+            "Bước 2: Khi cân bằng, lực đàn hồi cân bằng với trọng lực của vật: F_dh = P <=> k · Δl = m · g.",
+            "Bước 3: Suy ra m = (k · Δl) / g = (100 · 0.05) / 10 = 5 / 10 = 0.5 kg = 500g."
+          ],
+          "answer": "Khối lượng của vật nặng là m = 0.5 kg."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn chiều dài lò xo l với độ biến dạng Δl = |l - l0|.",
+          "why": "Lực đàn hồi phụ thuộc vào độ biến dạng (khoảng co hoặc giãn so với chiều dài tự nhiên l0), không phụ thuộc tổng chiều dài l."
+        }
+      ]
+    }
+  ]
+}

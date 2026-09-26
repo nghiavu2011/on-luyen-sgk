@@ -1,0 +1,94 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Phản ứng oxi hóa - khử",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm phản ứng oxi hóa - khử và số oxi hóa",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm phản ứng oxi hóa - khử và số oxi hóa.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khử và Chất oxi hóa",
+          "definition": "Chất khử là chất nhường electron (số oxi hóa tăng sau phản ứng). Chất oxi hóa là chất nhận electron (số oxi hóa giảm sau phản ứng). Thần chú: 'Khử cho, O nhận'.",
+          "example": "Trong phản ứng Zn + 2HCl -> ZnCl2 + H2: Zn nhường 2e (chất khử, Zn⁰ -> Zn⁺²), ion H⁺ nhận e (chất oxi hóa, 2H⁺ + 2e -> H2⁰).",
+          "essence": "Bản chất của phản ứng oxi hóa - khử là sự chuyển dịch electron giữa các chất phản ứng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc thăng bằng electron",
+          "meaning": "Tổng số electron do chất khử nhường bằng tổng số electron do chất oxi hóa nhận: Σ e nhường = Σ e nhận.",
+          "example": "Nhôm nhường 3e, oxi nhận 4e (2O + 4e -> 2O²⁻) => nhân hệ số 4 cho Al và 3 cho O2 để tổng electron trao đổi là 12e.",
+          "essence": "Bảo toàn điện tích: electron không tự sinh ra và không tự mất đi trong phản ứng hóa học."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cân bằng phản ứng oxi hóa - khử sau bằng phương pháp thăng bằng electron: Fe + HNO3 -> Fe(NO3)3 + NO + H2O.",
+          "steps": [
+            "Bước 1: Xác định sự thay đổi số oxi hóa: Fe⁰ -> Fe⁺³ + 3e (quá trình oxi hóa); N⁺⁵ + 3e -> N⁺² (quá trình khử).",
+            "Bước 2: Tìm hệ số: 1 · (Fe -> Fe⁺³ + 3e) và 1 · (N⁺⁵ + 3e -> N⁺²).",
+            "Bước 3: Đặt hệ số vào phương trình: 1 Fe và 1 NO. Đếm nitơ bên phải: 3 (trong Fe(NO3)3) + 1 (trong NO) = 4 N => hệ số HNO3 là 4.",
+            "Bước 4: Cân bằng H: 4 HNO3 => 2 H2O. Kiểm tra số nguyên tử O: 4·3 = 12 = 3·3 + 1 + 2 (chuẩn)."
+          ],
+          "answer": "Fe + 4HNO3 -> Fe(NO3)3 + NO + 2H2O."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa 'quá trình oxi hóa' và 'chất oxi hóa'.",
+          "why": "Chất khử trải qua quá trình OXI HÓA (nhường e); chất oxi hóa trải qua quá trình KHỬ (nhận e)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Cân bằng phản ứng oxi hóa - khử bằng phương pháp thăng bằng electron",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Cân bằng phản ứng oxi hóa - khử bằng phương pháp thăng bằng electron.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khử và Chất oxi hóa",
+          "definition": "Chất khử là chất nhường electron (số oxi hóa tăng sau phản ứng). Chất oxi hóa là chất nhận electron (số oxi hóa giảm sau phản ứng). Thần chú: 'Khử cho, O nhận'.",
+          "example": "Trong phản ứng Zn + 2HCl -> ZnCl2 + H2: Zn nhường 2e (chất khử, Zn⁰ -> Zn⁺²), ion H⁺ nhận e (chất oxi hóa, 2H⁺ + 2e -> H2⁰).",
+          "essence": "Bản chất của phản ứng oxi hóa - khử là sự chuyển dịch electron giữa các chất phản ứng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc thăng bằng electron",
+          "meaning": "Tổng số electron do chất khử nhường bằng tổng số electron do chất oxi hóa nhận: Σ e nhường = Σ e nhận.",
+          "example": "Nhôm nhường 3e, oxi nhận 4e (2O + 4e -> 2O²⁻) => nhân hệ số 4 cho Al và 3 cho O2 để tổng electron trao đổi là 12e.",
+          "essence": "Bảo toàn điện tích: electron không tự sinh ra và không tự mất đi trong phản ứng hóa học."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cân bằng phản ứng oxi hóa - khử sau bằng phương pháp thăng bằng electron: Fe + HNO3 -> Fe(NO3)3 + NO + H2O.",
+          "steps": [
+            "Bước 1: Xác định sự thay đổi số oxi hóa: Fe⁰ -> Fe⁺³ + 3e (quá trình oxi hóa); N⁺⁵ + 3e -> N⁺² (quá trình khử).",
+            "Bước 2: Tìm hệ số: 1 · (Fe -> Fe⁺³ + 3e) và 1 · (N⁺⁵ + 3e -> N⁺²).",
+            "Bước 3: Đặt hệ số vào phương trình: 1 Fe và 1 NO. Đếm nitơ bên phải: 3 (trong Fe(NO3)3) + 1 (trong NO) = 4 N => hệ số HNO3 là 4.",
+            "Bước 4: Cân bằng H: 4 HNO3 => 2 H2O. Kiểm tra số nguyên tử O: 4·3 = 12 = 3·3 + 1 + 2 (chuẩn)."
+          ],
+          "answer": "Fe + 4HNO3 -> Fe(NO3)3 + NO + 2H2O."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa 'quá trình oxi hóa' và 'chất oxi hóa'.",
+          "why": "Chất khử trải qua quá trình OXI HÓA (nhường e); chất oxi hóa trải qua quá trình KHỬ (nhận e)."
+        }
+      ]
+    }
+  ]
+}

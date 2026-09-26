@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Biến và Kiểu dữ liệu trong Python' trong Chủ đề 5: Lập trình Python cơ bản được định nghĩa như thế nào?",
+    "back": "Biến là vùng nhớ dùng để lưu trữ dữ liệu. Python tự động nhận diện kiểu dữ liệu: int (số nguyên), float (số thực), str (xâu ký tự), bool (đúng/sai).\n\n💡 Ví dụ: x = 10 (int), pi = 3.14 (float), name = 'Nam' (str), is_passed = True (bool).\n🌱 Bản chất: Python là ngôn ngữ định kiểu động (dynamic typing), không cần khai báo kiểu trước khi gán giá trị.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Thụt đầu dòng (Indentation) trong Python' trong Chủ đề 5: Lập trình Python cơ bản được định nghĩa như thế nào?",
+    "back": "Python sử dụng khoảng trắng thụt lề (thường là 4 dấu cách) để xác định các khối lệnh (code block) thay cho cặp dấu ngoặc nhọn { } trong C/C++ hay Java.\n\n💡 Ví dụ: if x > 0:\n    print('Số dương')\nelse:\n    print('Không dương')\n🌱 Bản chất: Cưỡng chế viết code sạch sẽ, thẳng hàng, tăng tối đa khả năng đọc hiểu của mã nguồn.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Hàm range(start, stop, step) trong vòng lặp for'?",
+    "back": "Tạo dãy số nguyên từ start đến stop - 1 với bước nhảy step. Mặc định start = 0, step = 1.\n\n📝 Ví dụ: range(1, 6) sinh ra dãy các số 1, 2, 3, 4, 5 (không bao gồm số 6).\n🔑 Ý nghĩa: Nguyên tắc nửa mở [start; stop) là chuẩn phổ quát trong chỉ số mảng và vòng lặp khoa học máy tính.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Viết đoạn mã Python tính tổng các số chẵn từ 1 đến n (với n nhập từ bàn phím).'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Nhập số nguyên n: n = int(input())\nBước 2: Khởi tạo biến tổng s = 0.\nBước 3: Dùng vòng lặp for duyệt từ 2 đến n với bước nhảy 2: for i in range(2, n + 1, 2): s += i\nBước 4: In kết quả ra màn hình: print(s)\n\n👉 Kết luận: s = sum(i for i in range(2, n + 1, 2))",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Lỗi IndentationError do thụt lề không đều (chỗ dùng Tab, chỗ dùng dấu cách Space).?",
+    "back": "❌ Lỗi sai: Lỗi IndentationError do thụt lề không đều (chỗ dùng Tab, chỗ dùng dấu cách Space).\n\n💡 Nguyên nhân & Khắc phục: Python bắt buộc các dòng trong cùng một khối lệnh phải có số lượng khoảng trắng thụt vào hoàn toàn bằng nhau.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 5: Lập trình Python cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 5: Lập trình Python cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 5: Lập trình Python cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch05",
+      "on-tap"
+    ]
+  }
+]

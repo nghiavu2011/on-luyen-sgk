@@ -1,0 +1,153 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Động học",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Độ dịch chuyển và vận tốc",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Độ dịch chuyển và vận tốc.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Độ dịch chuyển (d)",
+          "definition": "Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo.",
+          "example": "Vận động viên bơi một vòng bể 50m rồi quay lại điểm xuất phát: quãng đường s = 100m, nhưng độ dịch chuyển d = 0m.",
+          "essence": "Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0."
+        },
+        {
+          "term": "Gia tốc (a)",
+          "definition": "Đại lượng vectơ đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian: a = Δv / Δt.",
+          "example": "Ô tô tăng tốc từ 0 đến 20 m/s trong 5 giây có gia tốc trung bình a = (20 - 0) / 5 = 4 m/s².",
+          "essence": "Gia tốc không đo vật đi nhanh hay chậm mà đo vật tăng tốc hoặc giảm tốc nhanh đến mức nào."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ phương trình chuyển động thẳng biến đổi đều",
+          "meaning": "v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian).",
+          "example": "Xe hãm phanh với a = -2 m/s² từ vận tốc v0 = 10 m/s: quãng đường đi được đến khi dừng (v=0) là (0² - 10²) / (2·(-2)) = 25m.",
+          "essence": "Công thức độc lập thời gian v² - v0² = 2ad thực chất chính là biểu thức của định lí động năng trong cơ học."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gian rơi và vận tốc ngay trước khi chạm đất.",
+          "steps": [
+            "Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s².",
+            "Bước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s.",
+            "Bước 3: Vận tốc chạm đất: v = g·t = 10 · 2 = 20 m/s (hoặc v = √(2gh) = √(2·10·20) = 20 m/s)."
+          ],
+          "answer": "Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra lớn hơn vận tốc ban đầu.",
+          "why": "Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Chuyển động thẳng biến đổi đều và rơi tự do",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Chuyển động thẳng biến đổi đều và rơi tự do.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Độ dịch chuyển (d)",
+          "definition": "Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo.",
+          "example": "Vận động viên bơi một vòng bể 50m rồi quay lại điểm xuất phát: quãng đường s = 100m, nhưng độ dịch chuyển d = 0m.",
+          "essence": "Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0."
+        },
+        {
+          "term": "Gia tốc (a)",
+          "definition": "Đại lượng vectơ đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian: a = Δv / Δt.",
+          "example": "Ô tô tăng tốc từ 0 đến 20 m/s trong 5 giây có gia tốc trung bình a = (20 - 0) / 5 = 4 m/s².",
+          "essence": "Gia tốc không đo vật đi nhanh hay chậm mà đo vật tăng tốc hoặc giảm tốc nhanh đến mức nào."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ phương trình chuyển động thẳng biến đổi đều",
+          "meaning": "v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian).",
+          "example": "Xe hãm phanh với a = -2 m/s² từ vận tốc v0 = 10 m/s: quãng đường đi được đến khi dừng (v=0) là (0² - 10²) / (2·(-2)) = 25m.",
+          "essence": "Công thức độc lập thời gian v² - v0² = 2ad thực chất chính là biểu thức của định lí động năng trong cơ học."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gian rơi và vận tốc ngay trước khi chạm đất.",
+          "steps": [
+            "Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s².",
+            "Bước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s.",
+            "Bước 3: Vận tốc chạm đất: v = g·t = 10 · 2 = 20 m/s (hoặc v = √(2gh) = √(2·10·20) = 20 m/s)."
+          ],
+          "answer": "Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra lớn hơn vận tốc ban đầu.",
+          "why": "Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Chuyển động ném ngang và ném xiên",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Chuyển động ném ngang và ném xiên.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Độ dịch chuyển (d)",
+          "definition": "Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo.",
+          "example": "Vận động viên bơi một vòng bể 50m rồi quay lại điểm xuất phát: quãng đường s = 100m, nhưng độ dịch chuyển d = 0m.",
+          "essence": "Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0."
+        },
+        {
+          "term": "Gia tốc (a)",
+          "definition": "Đại lượng vectơ đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian: a = Δv / Δt.",
+          "example": "Ô tô tăng tốc từ 0 đến 20 m/s trong 5 giây có gia tốc trung bình a = (20 - 0) / 5 = 4 m/s².",
+          "essence": "Gia tốc không đo vật đi nhanh hay chậm mà đo vật tăng tốc hoặc giảm tốc nhanh đến mức nào."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ phương trình chuyển động thẳng biến đổi đều",
+          "meaning": "v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian).",
+          "example": "Xe hãm phanh với a = -2 m/s² từ vận tốc v0 = 10 m/s: quãng đường đi được đến khi dừng (v=0) là (0² - 10²) / (2·(-2)) = 25m.",
+          "essence": "Công thức độc lập thời gian v² - v0² = 2ad thực chất chính là biểu thức của định lí động năng trong cơ học."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gian rơi và vận tốc ngay trước khi chạm đất.",
+          "steps": [
+            "Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s².",
+            "Bước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s.",
+            "Bước 3: Vận tốc chạm đất: v = g·t = 10 · 2 = 20 m/s (hoặc v = √(2gh) = √(2·10·20) = 20 m/s)."
+          ],
+          "answer": "Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra lớn hơn vận tốc ban đầu.",
+          "why": "Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "chapterId": "ch05",
+  "title": "Chủ đề 5: Lập trình Python cơ bản",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khởi động với Python, Biến và Kiểu dữ liệu",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khởi động với Python, Biến và Kiểu dữ liệu.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến và Kiểu dữ liệu trong Python",
+          "definition": "Biến là vùng nhớ dùng để lưu trữ dữ liệu. Python tự động nhận diện kiểu dữ liệu: int (số nguyên), float (số thực), str (xâu ký tự), bool (đúng/sai).",
+          "example": "x = 10 (int), pi = 3.14 (float), name = 'Nam' (str), is_passed = True (bool).",
+          "essence": "Python là ngôn ngữ định kiểu động (dynamic typing), không cần khai báo kiểu trước khi gán giá trị."
+        },
+        {
+          "term": "Thụt đầu dòng (Indentation) trong Python",
+          "definition": "Python sử dụng khoảng trắng thụt lề (thường là 4 dấu cách) để xác định các khối lệnh (code block) thay cho cặp dấu ngoặc nhọn { } trong C/C++ hay Java.",
+          "example": "if x > 0:\n    print('Số dương')\nelse:\n    print('Không dương')",
+          "essence": "Cưỡng chế viết code sạch sẽ, thẳng hàng, tăng tối đa khả năng đọc hiểu của mã nguồn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hàm range(start, stop, step) trong vòng lặp for",
+          "meaning": "Tạo dãy số nguyên từ start đến stop - 1 với bước nhảy step. Mặc định start = 0, step = 1.",
+          "example": "range(1, 6) sinh ra dãy các số 1, 2, 3, 4, 5 (không bao gồm số 6).",
+          "essence": "Nguyên tắc nửa mở [start; stop) là chuẩn phổ quát trong chỉ số mảng và vòng lặp khoa học máy tính."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết đoạn mã Python tính tổng các số chẵn từ 1 đến n (với n nhập từ bàn phím).",
+          "steps": [
+            "Bước 1: Nhập số nguyên n: n = int(input())",
+            "Bước 2: Khởi tạo biến tổng s = 0.",
+            "Bước 3: Dùng vòng lặp for duyệt từ 2 đến n với bước nhảy 2: for i in range(2, n + 1, 2): s += i",
+            "Bước 4: In kết quả ra màn hình: print(s)"
+          ],
+          "answer": "s = sum(i for i in range(2, n + 1, 2))"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lỗi IndentationError do thụt lề không đều (chỗ dùng Tab, chỗ dùng dấu cách Space).",
+          "why": "Python bắt buộc các dòng trong cùng một khối lệnh phải có số lượng khoảng trắng thụt vào hoàn toàn bằng nhau."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Cấu trúc điều khiển: Rẽ nhánh và Vòng lặp",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Cấu trúc điều khiển: Rẽ nhánh và Vòng lặp.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến và Kiểu dữ liệu trong Python",
+          "definition": "Biến là vùng nhớ dùng để lưu trữ dữ liệu. Python tự động nhận diện kiểu dữ liệu: int (số nguyên), float (số thực), str (xâu ký tự), bool (đúng/sai).",
+          "example": "x = 10 (int), pi = 3.14 (float), name = 'Nam' (str), is_passed = True (bool).",
+          "essence": "Python là ngôn ngữ định kiểu động (dynamic typing), không cần khai báo kiểu trước khi gán giá trị."
+        },
+        {
+          "term": "Thụt đầu dòng (Indentation) trong Python",
+          "definition": "Python sử dụng khoảng trắng thụt lề (thường là 4 dấu cách) để xác định các khối lệnh (code block) thay cho cặp dấu ngoặc nhọn { } trong C/C++ hay Java.",
+          "example": "if x > 0:\n    print('Số dương')\nelse:\n    print('Không dương')",
+          "essence": "Cưỡng chế viết code sạch sẽ, thẳng hàng, tăng tối đa khả năng đọc hiểu của mã nguồn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hàm range(start, stop, step) trong vòng lặp for",
+          "meaning": "Tạo dãy số nguyên từ start đến stop - 1 với bước nhảy step. Mặc định start = 0, step = 1.",
+          "example": "range(1, 6) sinh ra dãy các số 1, 2, 3, 4, 5 (không bao gồm số 6).",
+          "essence": "Nguyên tắc nửa mở [start; stop) là chuẩn phổ quát trong chỉ số mảng và vòng lặp khoa học máy tính."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết đoạn mã Python tính tổng các số chẵn từ 1 đến n (với n nhập từ bàn phím).",
+          "steps": [
+            "Bước 1: Nhập số nguyên n: n = int(input())",
+            "Bước 2: Khởi tạo biến tổng s = 0.",
+            "Bước 3: Dùng vòng lặp for duyệt từ 2 đến n với bước nhảy 2: for i in range(2, n + 1, 2): s += i",
+            "Bước 4: In kết quả ra màn hình: print(s)"
+          ],
+          "answer": "s = sum(i for i in range(2, n + 1, 2))"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lỗi IndentationError do thụt lề không đều (chỗ dùng Tab, chỗ dùng dấu cách Space).",
+          "why": "Python bắt buộc các dòng trong cùng một khối lệnh phải có số lượng khoảng trắng thụt vào hoàn toàn bằng nhau."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Danh sách (List), Xâu ký tự (String) và Hàm (Function)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Danh sách (List), Xâu ký tự (String) và Hàm (Function).",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến và Kiểu dữ liệu trong Python",
+          "definition": "Biến là vùng nhớ dùng để lưu trữ dữ liệu. Python tự động nhận diện kiểu dữ liệu: int (số nguyên), float (số thực), str (xâu ký tự), bool (đúng/sai).",
+          "example": "x = 10 (int), pi = 3.14 (float), name = 'Nam' (str), is_passed = True (bool).",
+          "essence": "Python là ngôn ngữ định kiểu động (dynamic typing), không cần khai báo kiểu trước khi gán giá trị."
+        },
+        {
+          "term": "Thụt đầu dòng (Indentation) trong Python",
+          "definition": "Python sử dụng khoảng trắng thụt lề (thường là 4 dấu cách) để xác định các khối lệnh (code block) thay cho cặp dấu ngoặc nhọn { } trong C/C++ hay Java.",
+          "example": "if x > 0:\n    print('Số dương')\nelse:\n    print('Không dương')",
+          "essence": "Cưỡng chế viết code sạch sẽ, thẳng hàng, tăng tối đa khả năng đọc hiểu của mã nguồn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hàm range(start, stop, step) trong vòng lặp for",
+          "meaning": "Tạo dãy số nguyên từ start đến stop - 1 với bước nhảy step. Mặc định start = 0, step = 1.",
+          "example": "range(1, 6) sinh ra dãy các số 1, 2, 3, 4, 5 (không bao gồm số 6).",
+          "essence": "Nguyên tắc nửa mở [start; stop) là chuẩn phổ quát trong chỉ số mảng và vòng lặp khoa học máy tính."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết đoạn mã Python tính tổng các số chẵn từ 1 đến n (với n nhập từ bàn phím).",
+          "steps": [
+            "Bước 1: Nhập số nguyên n: n = int(input())",
+            "Bước 2: Khởi tạo biến tổng s = 0.",
+            "Bước 3: Dùng vòng lặp for duyệt từ 2 đến n với bước nhảy 2: for i in range(2, n + 1, 2): s += i",
+            "Bước 4: In kết quả ra màn hình: print(s)"
+          ],
+          "answer": "s = sum(i for i in range(2, n + 1, 2))"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lỗi IndentationError do thụt lề không đều (chỗ dùng Tab, chỗ dùng dấu cách Space).",
+          "why": "Python bắt buộc các dòng trong cùng một khối lệnh phải có số lượng khoảng trắng thụt vào hoàn toàn bằng nhau."
+        }
+      ]
+    }
+  ]
+}

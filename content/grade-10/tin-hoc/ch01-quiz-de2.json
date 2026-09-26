@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch01",
+  "examId": "de2",
+  "title": "Tin học 10 — Chủ đề 1: Máy tính và Xã hội tri thức: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chủ đề 1: Máy tính và Xã hội tri thức.",
+  "questions": [
+    {
+      "id": "tin-hoc_ch01_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chủ đề 1: Máy tính và Xã hội tri thức, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Đơn vị đo dung lượng thông tin.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Đơn vị đo dung lượng thông tin.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: 1 KB = 1024 Bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB (lũy thừa của 2: 2¹⁰ = 1024)..",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: 1 KB = 1024 Bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB (lũy thừa của 2: 2¹⁰ = 1024)..",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Đơn vị đo dung lượng thông tin.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Đơn vị đo dung lượng thông tin."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch01_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Đổi số nhị phân 10110_2 sang hệ thập phân (hệ cơ số 10)....'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰):.",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰):.",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰):.",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 1: Máy tính và Xã hội tri thức."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "tin-hoc_ch01_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Bit và Byte và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Bit và Byte được xác định chặt chẽ bởi: Bit (Binary Digit) là đơn vị nhỏ nhất để đo lượng thông tin, chỉ nhận một trong ...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Bit và Byte với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Bit (Binary Digit) là đơn vị nhỏ nhất để đo lượng thông tin, chỉ nhận một trong hai giá trị 0 hoặc 1. 1 Byte = 8 bit..",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Bit và Byte với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Bit và Byte với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Bit (Binary Digit) là đơn vị nhỏ nhất để đo lượng thông tin, chỉ nhận một trong hai giá trị 0 hoặc 1. 1 Byte = 8 bit..",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "tin-hoc_ch01_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Kí tự 'A' trong bảng mã ASCII được biểu diễn bằng 1 byte là 01000001 (giá trị th...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Mọi loại dữ liệu (văn bản, âm thanh, hình ảnh, video) khi nạp vào máy tính đều được s..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Bit và Byte.",
+        "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Mọi loại dữ liệu (văn bản, âm thanh, hình ảnh, video) khi nạp vào máy tính đều được số hóa thành các dãy bit nhị phân 0 .",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Bit và Byte.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Bit và Byte.",
+        "Đúng vì: Lí giải: Mọi loại dữ liệu (văn bản, âm thanh, hình ảnh, video) khi nạp vào máy tính đều được số hóa thành các dãy bit nhị phân 0 ."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "tin-hoc_ch01_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Đổi số nhị phân 10110_2 sang hệ thập phân (hệ cơ số 10)....'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "10110_2 = 22_10..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+        "steps": "Các bước: Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰): -> Bước 2: 1·2⁴ + 0·2³ + 1·2² + 1·2¹ + 0·2⁰. => 10110_2 = 22_10..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Viết số nhị phân theo lũy thừa của 2 từ phải sang trái (bắt đầu từ 2⁰): -> Bước 2: 1·2⁴ + 0·2³ + 1·2² + 1·2¹ + 0·2⁰. => 10110_2 = 22_10..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chủ đề 1: Máy tính và Xã hội tri thức."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch01_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Lấy 1 KB = 1000 Bytes trong tính toán bộ nhớ máy tính....'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Trong cấu trúc bộ nhớ máy tính chuẩn, các tiền tố nhị phân tính theo lũy thừa của 2 (2¹⁰ =...",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Trong cấu trúc bộ nhớ máy tính chuẩn, các tiền tố nhị phân tính theo lũy thừa của 2 (2¹⁰ = 1024)..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 1: Máy tính và Xã hội tri thức.",
+        "Đúng vì: Biện pháp: Trong cấu trúc bộ nhớ máy tính chuẩn, các tiền tố nhị phân tính theo lũy thừa của 2 (2¹⁰ = 1024)..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 1: Máy tính và Xã hội tri thức."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

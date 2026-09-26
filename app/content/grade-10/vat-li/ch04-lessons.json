@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Năng lượng, Công, Công suất",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Công cơ học, công suất và hiệu suất",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Công cơ học, công suất và hiệu suất.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Công cơ học (A)",
+          "definition": "A = F · s · cos α, trong đó F là lực, s là độ dịch chuyển, α là góc giữa vectơ lực và vectơ độ dịch chuyển.",
+          "example": "Kéo xe dịch chuyển 10m bằng lực 50N nghiêng 60° so với phương ngang: A = 50 · 10 · cos 60° = 250 J.",
+          "essence": "Khi α = 90° (lực vuông góc quỹ đạo), công A = 0 (lực không sinh công, ví dụ lực hướng tâm hoặc trọng lực khi vật trượt ngang)."
+        },
+        {
+          "term": "Cơ năng",
+          "definition": "Tổng động năng W_d = 1/2 m·v² và thế năng trọng trường W_t = m·g·h: W = W_d + W_t.",
+          "example": "Tại đỉnh con dốc, vật có thế năng cực đại và động năng bằng 0. Khi trượt xuống chân dốc, toàn bộ thế năng chuyển hóa thành động năng.",
+          "essence": "Trong hệ kín chỉ chịu tác dụng của trọng lực hoặc lực đàn hồi (lực thế), cơ năng được bảo toàn tuyệt đối."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật bảo toàn cơ năng",
+          "meaning": "Khi vật chuyển động trong trọng trường chỉ chịu tác dụng của trọng lực, cơ năng là hằng số: W1 = W2 <=> 1/2 m·v1² + m·g·h1 = 1/2 m·v2² + m·g·h2.",
+          "example": "Tàu lượn siêu tốc đổi thế năng tại đỉnh dốc thành động năng lao nhanh xuống thung lũng dốc.",
+          "essence": "Năng lượng không tự sinh ra cũng không tự mất đi, nó chỉ chuyển hóa giữa động năng và thế năng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vật m = 0.5kg được ném thẳng đứng lên cao từ mặt đất với vận tốc đầu v0 = 10 m/s. Lấy g = 10 m/s². Bỏ qua lực cản không khí. Tính độ cao cực đại mà vật đạt được.",
+          "steps": [
+            "Bước 1: Chọn mốc thế năng tại mặt đất (h = 0). Cơ năng tại vị trí ném: W1 = 1/2 m·v0² + 0 = 1/2 · 0.5 · 10² = 25 J.",
+            "Bước 2: Tại độ cao cực đại h_max, vận tốc v = 0 nên động năng bằng 0. Cơ năng: W2 = m·g·h_max = 0.5 · 10 · h_max = 5 · h_max.",
+            "Bước 3: Do cơ năng bảo toàn: W2 = W1 => 5 · h_max = 25 => h_max = 5m."
+          ],
+          "answer": "Độ cao cực đại h_max = 5m."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng định luật bảo toàn cơ năng khi có lực ma sát mà không trừ công hao phí của lực ma sát.",
+          "why": "Khi có lực ma sát (lực không thế), cơ năng không bảo toàn: W2 - W1 = A_ms."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Động năng, thế năng và định luật bảo toàn cơ năng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Động năng, thế năng và định luật bảo toàn cơ năng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Công cơ học (A)",
+          "definition": "A = F · s · cos α, trong đó F là lực, s là độ dịch chuyển, α là góc giữa vectơ lực và vectơ độ dịch chuyển.",
+          "example": "Kéo xe dịch chuyển 10m bằng lực 50N nghiêng 60° so với phương ngang: A = 50 · 10 · cos 60° = 250 J.",
+          "essence": "Khi α = 90° (lực vuông góc quỹ đạo), công A = 0 (lực không sinh công, ví dụ lực hướng tâm hoặc trọng lực khi vật trượt ngang)."
+        },
+        {
+          "term": "Cơ năng",
+          "definition": "Tổng động năng W_d = 1/2 m·v² và thế năng trọng trường W_t = m·g·h: W = W_d + W_t.",
+          "example": "Tại đỉnh con dốc, vật có thế năng cực đại và động năng bằng 0. Khi trượt xuống chân dốc, toàn bộ thế năng chuyển hóa thành động năng.",
+          "essence": "Trong hệ kín chỉ chịu tác dụng của trọng lực hoặc lực đàn hồi (lực thế), cơ năng được bảo toàn tuyệt đối."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật bảo toàn cơ năng",
+          "meaning": "Khi vật chuyển động trong trọng trường chỉ chịu tác dụng của trọng lực, cơ năng là hằng số: W1 = W2 <=> 1/2 m·v1² + m·g·h1 = 1/2 m·v2² + m·g·h2.",
+          "example": "Tàu lượn siêu tốc đổi thế năng tại đỉnh dốc thành động năng lao nhanh xuống thung lũng dốc.",
+          "essence": "Năng lượng không tự sinh ra cũng không tự mất đi, nó chỉ chuyển hóa giữa động năng và thế năng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một vật m = 0.5kg được ném thẳng đứng lên cao từ mặt đất với vận tốc đầu v0 = 10 m/s. Lấy g = 10 m/s². Bỏ qua lực cản không khí. Tính độ cao cực đại mà vật đạt được.",
+          "steps": [
+            "Bước 1: Chọn mốc thế năng tại mặt đất (h = 0). Cơ năng tại vị trí ném: W1 = 1/2 m·v0² + 0 = 1/2 · 0.5 · 10² = 25 J.",
+            "Bước 2: Tại độ cao cực đại h_max, vận tốc v = 0 nên động năng bằng 0. Cơ năng: W2 = m·g·h_max = 0.5 · 10 · h_max = 5 · h_max.",
+            "Bước 3: Do cơ năng bảo toàn: W2 = W1 => 5 · h_max = 25 => h_max = 5m."
+          ],
+          "answer": "Độ cao cực đại h_max = 5m."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng định luật bảo toàn cơ năng khi có lực ma sát mà không trừ công hao phí của lực ma sát.",
+          "why": "Khi có lực ma sát (lực không thế), cơ năng không bảo toàn: W2 - W1 = A_ms."
+        }
+      ]
+    }
+  ]
+}

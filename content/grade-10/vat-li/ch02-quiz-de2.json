@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Vật lí 10 — Chương 2: Động học: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chương 2: Động học.",
+  "questions": [
+    {
+      "id": "vat-li_ch02_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chương 2: Động học, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Hệ phương trình chuyển động thẳng biến đổi đều.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Hệ phương trình chuyển động thẳng biến đổi đều.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian)..",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: v = v0 + at; d = v0·t + 1/2 a·t²; v² - v0² = 2ad (công thức độc lập thời gian)..",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Hệ phương trình chuyển động thẳng biến đổi đều.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Hệ phương trình chuyển động thẳng biến đổi đều."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "vat-li_ch02_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gian rơi...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s²..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chương 2: Động học.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s²..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 2: Động học.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s²..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 2: Động học."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "vat-li_ch02_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Độ dịch chuyển (d) và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Độ dịch chuyển (d) được xác định chặt chẽ bởi: Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s ...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Độ dịch chuyển (d) với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo..",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Độ dịch chuyển (d) với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Độ dịch chuyển (d) với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Là một đại lượng vectơ nối từ vị trí đầu đến vị trí cuối của vật. Quãng đường s là chiều dài quỹ đạo..",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "vat-li_ch02_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Vận động viên bơi một vòng bể 50m rồi quay lại điểm xuất phát: quãng đường s = 1...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Độ dịch chuyển (d).",
+        "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0.",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất vật lý/toán học/xã hội đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Độ dịch chuyển (d).",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Độ dịch chuyển (d).",
+        "Đúng vì: Lí giải: Quãng đường không bao giờ âm và luôn tăng theo thời gian, trong khi độ dịch chuyển là vectơ có thể dương, âm hoặc bằng 0."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "vat-li_ch02_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Thả rơi tự do một hòn sỏi từ độ cao h = 20m xuống đất, lấy g = 10 m/s². Tính thời gia...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK Chương 2: Động học.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+        "steps": "Các bước: Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s². -> Bước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s. => Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Rơi tự do là chuyển động thẳng nhanh dần đều với v0 = 0 và a = g = 10 m/s². -> Bước 2: Áp dụng công thức h = 1/2 g·t² => t = √(2h / g) = √(2·20 / 10) = √4 = 2 s. => Thời gian rơi t = 2s, vận tốc chạm đất v = 20 m/s..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chương 2: Động học.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK Chương 2: Động học."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "vat-li_ch02_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Quên dấu của gia tốc trong chuyển động chậm dần đều: lấy a dương làm vận tốc tính ra ...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0....",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chương 2: Động học.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 2: Động học.",
+        "Đúng vì: Biện pháp: Khi vật chuyển động chậm dần đều, vectơ gia tốc a ngược chiều vận tốc v, do đó a · v < 0..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 2: Động học."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

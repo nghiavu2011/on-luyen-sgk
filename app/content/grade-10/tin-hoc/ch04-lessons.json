@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Ứng dụng tin học: Thiết kế đồ họa Inkscape",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Làm quen với phần mềm đồ họa vector Inkscape",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Làm quen với phần mềm đồ họa vector Inkscape.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đồ họa Vector và Bitmap (Raster)",
+          "definition": "Đồ họa Bitmap tạo bởi lưới điểm ảnh (pixel), khi phóng to bị vỡ hạt (nhòe). Đồ họa Vector tạo bởi các công thức toán học (đường cong Bézier), có thể phóng to vô hạn mà không bao giờ bị vỡ nét.",
+          "example": "Ảnh chụp máy ảnh là ảnh Bitmap (.png, .jpg). Logo thương hiệu, icon thiết kế trên Inkscape là ảnh Vector (.svg).",
+          "essence": "Ảnh Vector lưu trữ công thức hình học chứ không lưu trữ màu từng điểm ảnh, do đó dung lượng nhẹ và độ sắc nét tuyệt đối ở mọi kích thước."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đường cong Bézier trong Inkscape",
+          "meaning": "Đường cong được điều khiển bởi các điểm neo (node) và các tay nắm điều khiển (handle) xác định độ cong và hướng uốn lượn.",
+          "example": "Dùng công cụ Bézier Tool (Shift + F6) để vẽ lại logo hoặc hình vẽ tự do phức tạp.",
+          "essence": "Điều chỉnh tay nắm điều khiển thay đổi đạo hàm và độ cong của đường đồ thị."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao các nhà thiết kế luôn sử dụng đồ họa vector để vẽ logo doanh nghiệp?",
+          "steps": [
+            "Bước 1: Logo cần được in trên nhiều kích thước khác nhau: từ chiếc card visit nhỏ xíu đến tấm biển quảng cáo ngoài trời khổng lồ.",
+            "Bước 2: Đồ họa vector có thể co giãn kích thước tùy ý mà các đường nét và màu sắc vẫn giữ nguyên độ sắc nét hoàn hảo.",
+            "Bước 3: Dễ dàng chỉnh sửa từng đường nét, màu sắc và xuất ra các định dạng khác nhau."
+          ],
+          "answer": "Vì ảnh vector phóng to vô hạn không vỡ nét và linh hoạt trong in ấn đa kích cỡ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lưu file thiết kế vector sang đuôi JPG để sau này tiếp tục sửa.",
+          "why": "Khi lưu sang JPG/PNG, file đã bị rasterize thành ảnh bitmap, các layer và đường cong vector không thể sửa riêng lẻ được nữa."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Các thao tác vẽ và chỉnh sửa đối tượng đồ họa",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Các thao tác vẽ và chỉnh sửa đối tượng đồ họa.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đồ họa Vector và Bitmap (Raster)",
+          "definition": "Đồ họa Bitmap tạo bởi lưới điểm ảnh (pixel), khi phóng to bị vỡ hạt (nhòe). Đồ họa Vector tạo bởi các công thức toán học (đường cong Bézier), có thể phóng to vô hạn mà không bao giờ bị vỡ nét.",
+          "example": "Ảnh chụp máy ảnh là ảnh Bitmap (.png, .jpg). Logo thương hiệu, icon thiết kế trên Inkscape là ảnh Vector (.svg).",
+          "essence": "Ảnh Vector lưu trữ công thức hình học chứ không lưu trữ màu từng điểm ảnh, do đó dung lượng nhẹ và độ sắc nét tuyệt đối ở mọi kích thước."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đường cong Bézier trong Inkscape",
+          "meaning": "Đường cong được điều khiển bởi các điểm neo (node) và các tay nắm điều khiển (handle) xác định độ cong và hướng uốn lượn.",
+          "example": "Dùng công cụ Bézier Tool (Shift + F6) để vẽ lại logo hoặc hình vẽ tự do phức tạp.",
+          "essence": "Điều chỉnh tay nắm điều khiển thay đổi đạo hàm và độ cong của đường đồ thị."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tại sao các nhà thiết kế luôn sử dụng đồ họa vector để vẽ logo doanh nghiệp?",
+          "steps": [
+            "Bước 1: Logo cần được in trên nhiều kích thước khác nhau: từ chiếc card visit nhỏ xíu đến tấm biển quảng cáo ngoài trời khổng lồ.",
+            "Bước 2: Đồ họa vector có thể co giãn kích thước tùy ý mà các đường nét và màu sắc vẫn giữ nguyên độ sắc nét hoàn hảo.",
+            "Bước 3: Dễ dàng chỉnh sửa từng đường nét, màu sắc và xuất ra các định dạng khác nhau."
+          ],
+          "answer": "Vì ảnh vector phóng to vô hạn không vỡ nét và linh hoạt trong in ấn đa kích cỡ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lưu file thiết kế vector sang đuôi JPG để sau này tiếp tục sửa.",
+          "why": "Khi lưu sang JPG/PNG, file đã bị rasterize thành ảnh bitmap, các layer và đường cong vector không thể sửa riêng lẻ được nữa."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Vectơ",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm vectơ và các phép toán vectơ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm vectơ và các phép toán vectơ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Vectơ",
+          "definition": "Là một đoạn thẳng có hướng (có điểm đầu và điểm cuối xác định). Kí hiệu vectơ AB hoặc vectơ a.",
+          "example": "Vectơ vận tốc v biểu thị cả tốc độ (độ dài) và hướng di chuyển của xe máy trên đường.",
+          "essence": "Vectơ kết hợp lượng đại số (độ lớn) và lượng hình học (phương chiều) thành một thực thể duy nhất."
+        },
+        {
+          "term": "Tích vô hướng của hai vectơ",
+          "definition": "vectơ a · vectơ b = |a| · |b| · cos(a, b).",
+          "example": "Nếu |a| = 3, |b| = 4 và góc giữa chúng bằng 60° thì a · b = 3 · 4 · cos 60° = 6.",
+          "essence": "Tích vô hướng đo mức độ 'cùng hướng' của 2 vectơ. Nếu hai vectơ vuông góc nhau thì tích vô hướng bằng 0."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc hình bình hành và quy tắc 3 điểm",
+          "meaning": "Quy tắc 3 điểm: AB + BC = AC. Quy tắc hình bình hành: nếu ABCD là hình bình hành thì AB + AD = AC.",
+          "example": "Tổng hợp hai lực kéo cùng tác dụng vào một điểm vật thể tuân theo đường chéo hình bình hành tạo bởi hai lực.",
+          "essence": "Quy tắc nối đuôi (tam giác) và quy tắc chung gốc (hình bình hành) là hai cách nhìn tương đương về tổng vectơ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trong mặt phẳng tọa độ Oxy, cho u = (2; -3) và v = (4; 1). Tính tích vô hướng u · v và góc giữa u và v.",
+          "steps": [
+            "Bước 1: Tính tích vô hướng theo tọa độ: u · v = 2·4 + (-3)·1 = 8 - 3 = 5.",
+            "Bước 2: Tính độ dài: |u| = √(2² + (-3)²) = √13; |v| = √(4² + 1²) = √17.",
+            "Bước 3: Tính cosin: cos(u, v) = (u · v) / (|u| · |v|) = 5 / (√13 · √17) = 5 / √221 ≈ 0.336 => góc ≈ 70°20'."
+          ],
+          "answer": "u · v = 5 và góc (u, v) ≈ 70°20'."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tích vô hướng của 2 vectơ ra kết quả là một vectơ.",
+          "why": "Tích vô hướng cho kết quả là một con SỐ (vô hướng), không phải là vectơ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tọa độ vectơ và tích vô hướng của hai vectơ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tọa độ vectơ và tích vô hướng của hai vectơ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Vectơ",
+          "definition": "Là một đoạn thẳng có hướng (có điểm đầu và điểm cuối xác định). Kí hiệu vectơ AB hoặc vectơ a.",
+          "example": "Vectơ vận tốc v biểu thị cả tốc độ (độ dài) và hướng di chuyển của xe máy trên đường.",
+          "essence": "Vectơ kết hợp lượng đại số (độ lớn) và lượng hình học (phương chiều) thành một thực thể duy nhất."
+        },
+        {
+          "term": "Tích vô hướng của hai vectơ",
+          "definition": "vectơ a · vectơ b = |a| · |b| · cos(a, b).",
+          "example": "Nếu |a| = 3, |b| = 4 và góc giữa chúng bằng 60° thì a · b = 3 · 4 · cos 60° = 6.",
+          "essence": "Tích vô hướng đo mức độ 'cùng hướng' của 2 vectơ. Nếu hai vectơ vuông góc nhau thì tích vô hướng bằng 0."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc hình bình hành và quy tắc 3 điểm",
+          "meaning": "Quy tắc 3 điểm: AB + BC = AC. Quy tắc hình bình hành: nếu ABCD là hình bình hành thì AB + AD = AC.",
+          "example": "Tổng hợp hai lực kéo cùng tác dụng vào một điểm vật thể tuân theo đường chéo hình bình hành tạo bởi hai lực.",
+          "essence": "Quy tắc nối đuôi (tam giác) và quy tắc chung gốc (hình bình hành) là hai cách nhìn tương đương về tổng vectơ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trong mặt phẳng tọa độ Oxy, cho u = (2; -3) và v = (4; 1). Tính tích vô hướng u · v và góc giữa u và v.",
+          "steps": [
+            "Bước 1: Tính tích vô hướng theo tọa độ: u · v = 2·4 + (-3)·1 = 8 - 3 = 5.",
+            "Bước 2: Tính độ dài: |u| = √(2² + (-3)²) = √13; |v| = √(4² + 1²) = √17.",
+            "Bước 3: Tính cosin: cos(u, v) = (u · v) / (|u| · |v|) = 5 / (√13 · √17) = 5 / √221 ≈ 0.336 => góc ≈ 70°20'."
+          ],
+          "answer": "u · v = 5 và góc (u, v) ≈ 70°20'."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tích vô hướng của 2 vectơ ra kết quả là một vectơ.",
+          "why": "Tích vô hướng cho kết quả là một con SỐ (vô hướng), không phải là vectơ."
+        }
+      ]
+    }
+  ]
+}

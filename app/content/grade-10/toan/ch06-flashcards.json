@@ -1,0 +1,79 @@
+[
+  {
+    "front": "Khái niệm 'Hàm số bậc hai' trong Chương 6: Hàm số, Đồ thị và Ứng dụng được định nghĩa như thế nào?",
+    "back": "Hàm số cho bởi công thức y = ax² + bx + c (a ≠ 0). Đồ thị là một parabol có đỉnh I(-b/(2a); -Δ/(4a)), trục đối xứng x = -b/(2a).\n\n💡 Ví dụ: y = x² - 4x + 3 có đỉnh I(2; -1), trục đối xứng x = 2, bề lõm quay lên trên do a = 1 > 0.\n🌱 Bản chất: Parabol bậc hai mô tả quỹ đạo chuyển động ném xiên trong trọng trường và các bài toán tối ưu diện tích, chi phí.",
+    "tags": [
+      "toan",
+      "ch06",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Định lí về dấu của tam thức bậc hai' trong Chương 6: Hàm số, Đồ thị và Ứng dụng được định nghĩa như thế nào?",
+    "back": "Nếu Δ < 0 thì f(x) luôn cùng dấu với hệ số a với mọi x. Nếu Δ = 0 thì f(x) cùng dấu với a với mọi x ≠ -b/(2a). Nếu Δ > 0 thì 'trong trái, ngoài cùng'.\n\n💡 Ví dụ: x² - 3x + 2 có 2 nghiệm 1 và 2, a = 1 > 0 nên x² - 3x + 2 < 0 khi 1 < x < 2 (trong trái).\n🌱 Bản chất: Dấu của tam thức bậc hai phản ánh vị trí tương đối của parabol so với trục hoành Ox.",
+    "tags": [
+      "toan",
+      "ch06",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc 'Trong trái ngoài cùng''?",
+    "back": "Khi tam thức bậc hai có hai nghiệm phân biệt x1 < x2, f(x) trái dấu với a trong khoảng (x1; x2) và cùng dấu với a ngoài đoạn [x1; x2].\n\n📝 Ví dụ: -x² + 5x - 6 = 0 có nghiệm 2 và 3, a = -1 < 0 => dương trong (2; 3), âm ngoài [2; 3].\n🔑 Ý nghĩa: Đồ thị parabol cắt trục hoành tại 2 điểm chia parabol thành phần nằm trên và phần nằm dưới trục hoành.",
+    "tags": [
+      "toan",
+      "ch06",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Giải bất phương trình: 2x² - 5x + 2 ≤ 0.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Xét tam thức f(x) = 2x² - 5x + 2 có a = 2 > 0.\nBước 2: Tìm nghiệm phương trình 2x² - 5x + 2 = 0: x1 = 1/2, x2 = 2.\nBước 3: Do a > 0 và cần lấy dấu âm (≤ 0), theo quy tắc 'trong trái', ta lấy nghiệm trong khoảng hai nghiệm: 1/2 ≤ x ≤ 2.\n\n👉 Kết luận: Tập nghiệm là S = [1/2; 2].",
+    "tags": [
+      "toan",
+      "ch06",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên đảo chiều bất phương trình khi chia cho hệ số âm.?",
+    "back": "❌ Lỗi sai: Quên đảo chiều bất phương trình khi chia cho hệ số âm.\n\n💡 Nguyên nhân & Khắc phục: Khi nhân hoặc chia hai vế của bất đẳng thức cho số âm, bất đẳng thức phải đổi chiều.",
+    "tags": [
+      "toan",
+      "ch06",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 6: Hàm số, Đồ thị và Ứng dụng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch06",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 6: Hàm số, Đồ thị và Ứng dụng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch06",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 6: Hàm số, Đồ thị và Ứng dụng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch06",
+      "on-tap"
+    ]
+  }
+]

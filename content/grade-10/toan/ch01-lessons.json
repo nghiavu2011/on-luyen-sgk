@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Mệnh đề và Tập hợp",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Mệnh đề và các mệnh đề liên quan",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Mệnh đề và các mệnh đề liên quan.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Mệnh đề toán học",
+          "definition": "Là một khẳng định khẳng định tính đúng hoặc sai, không thể vừa đúng vừa sai.",
+          "example": "'Số 2 là số nguyên tố chẵn duy nhất' là mệnh đề đúng. '3 + 5 = 10' là mệnh đề sai.",
+          "essence": "Mệnh đề là viên gạch nền móng xây dựng nên logic toán học. Mọi định lý đều là mệnh đề đúng được chứng minh."
+        },
+        {
+          "term": "Phép toán trên tập hợp",
+          "definition": "Giao A ∩ B là các phần tử thuộc cả A và B. Hợp A ∪ B là các phần tử thuộc A hoặc B. Hiệu A \\ B là các phần tử thuộc A nhưng không thuộc B.",
+          "example": "Cho A = {1; 2; 3}, B = {3; 4}. A ∩ B = {3}, A ∪ B = {1; 2; 3; 4}, A \\ B = {1; 2}.",
+          "essence": "Các phép toán tập hợp tương ứng với các phép toán logic: Giao tương ứng với 'VÀ' (AND), Hợp tương ứng với 'HOẶC' (OR)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc phủ định mệnh đề chứa ký hiệu ∀ và ∃",
+          "meaning": "Phủ định của '∀x ∈ X, P(x)' là '∃x ∈ X, ¬P(x)'. Phủ định của '∃x ∈ X, P(x)' là '∀x ∈ X, ¬P(x)'.",
+          "example": "Phủ định của 'Mọi số thực bình phương đều không âm' là 'Có ít nhất một số thực bình phương bị âm'.",
+          "essence": "Để bác bỏ một khẳng định 'cho tất cả', ta chỉ cần chỉ ra duy nhất MỘT phản ví dụ tồn tại."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hai tập hợp A = [-2; 3) và B = [1; 5]. Xác định A ∩ B và A ∪ B?",
+          "steps": [
+            "Bước 1: Biểu diễn khoảng A = [-2; 3) và đoạn B = [1; 5] trên cùng một trục số.",
+            "Bước 2: Tìm phần chung của hai tập hợp: các số vừa thuộc [-2; 3) vừa thuộc [1; 5] là [1; 3).",
+            "Bước 3: Tìm phần hợp nhất: từ điểm mút trái nhỏ nhất -2 đến mút phải lớn nhất 5 là [-2; 5]."
+          ],
+          "answer": "A ∩ B = [1; 3) và A ∪ B = [-2; 5]."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy nhầm ngoặc vuông thành ngoặc tròn tại điểm mút khi lấy hợp hoặc giao.",
+          "why": "Cần kiểm tra kỹ xem điểm mút có thuộc cả hai tập hợp (với giao) hay thuộc ít nhất một tập hợp (với hợp) không."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tập hợp và các phép toán trên tập hợp",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tập hợp và các phép toán trên tập hợp.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Mệnh đề toán học",
+          "definition": "Là một khẳng định khẳng định tính đúng hoặc sai, không thể vừa đúng vừa sai.",
+          "example": "'Số 2 là số nguyên tố chẵn duy nhất' là mệnh đề đúng. '3 + 5 = 10' là mệnh đề sai.",
+          "essence": "Mệnh đề là viên gạch nền móng xây dựng nên logic toán học. Mọi định lý đều là mệnh đề đúng được chứng minh."
+        },
+        {
+          "term": "Phép toán trên tập hợp",
+          "definition": "Giao A ∩ B là các phần tử thuộc cả A và B. Hợp A ∪ B là các phần tử thuộc A hoặc B. Hiệu A \\ B là các phần tử thuộc A nhưng không thuộc B.",
+          "example": "Cho A = {1; 2; 3}, B = {3; 4}. A ∩ B = {3}, A ∪ B = {1; 2; 3; 4}, A \\ B = {1; 2}.",
+          "essence": "Các phép toán tập hợp tương ứng với các phép toán logic: Giao tương ứng với 'VÀ' (AND), Hợp tương ứng với 'HOẶC' (OR)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc phủ định mệnh đề chứa ký hiệu ∀ và ∃",
+          "meaning": "Phủ định của '∀x ∈ X, P(x)' là '∃x ∈ X, ¬P(x)'. Phủ định của '∃x ∈ X, P(x)' là '∀x ∈ X, ¬P(x)'.",
+          "example": "Phủ định của 'Mọi số thực bình phương đều không âm' là 'Có ít nhất một số thực bình phương bị âm'.",
+          "essence": "Để bác bỏ một khẳng định 'cho tất cả', ta chỉ cần chỉ ra duy nhất MỘT phản ví dụ tồn tại."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho hai tập hợp A = [-2; 3) và B = [1; 5]. Xác định A ∩ B và A ∪ B?",
+          "steps": [
+            "Bước 1: Biểu diễn khoảng A = [-2; 3) và đoạn B = [1; 5] trên cùng một trục số.",
+            "Bước 2: Tìm phần chung của hai tập hợp: các số vừa thuộc [-2; 3) vừa thuộc [1; 5] là [1; 3).",
+            "Bước 3: Tìm phần hợp nhất: từ điểm mút trái nhỏ nhất -2 đến mút phải lớn nhất 5 là [-2; 5]."
+          ],
+          "answer": "A ∩ B = [1; 3) và A ∪ B = [-2; 5]."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy nhầm ngoặc vuông thành ngoặc tròn tại điểm mút khi lấy hợp hoặc giao.",
+          "why": "Cần kiểm tra kỹ xem điểm mút có thuộc cả hai tập hợp (với giao) hay thuộc ít nhất một tập hợp (với hợp) không."
+        }
+      ]
+    }
+  ]
+}

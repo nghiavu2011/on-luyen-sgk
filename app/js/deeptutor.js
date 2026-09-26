@@ -71,6 +71,11 @@ const DeepTutor = (function() {
     // 2. MISTAKE NOTEBOOK & REMEDIATION
     // ==========================================
     function _updateMistakeBank(question, userAnsIdx, isCorrect, context) {
+        // Nếu stats.js đã xử lý Single Source of Truth qua recordQuestionResult thì không ghi đè trùng lặp
+        if (window.recordQuestionResult) {
+            return;
+        }
+
         let mistakes = _readJSON(KEY_MISTAKES, []);
         const qId = question.id || question.question;
 
@@ -219,20 +224,33 @@ const DeepTutor = (function() {
         const hints = [];
 
         // Bậc 1: Định vị khái niệm
-        if (concept) {
-            hints.push({
-                step: 1,
-                title: '🎯 Bậc 1: Định vị khái niệm',
-                content: `Câu hỏi này liên quan đến: <strong>${concept}</strong>. Em hãy nhớ lại định nghĩa hoặc tính chất cơ bản nhất của phần này.`
-            });
-        }
+        hints.push({
+            step: 1,
+            title: '🎯 Bậc 1: Định vị khái niệm',
+            content: concept 
+                ? `Câu hỏi này liên quan đến: <strong>${concept}</strong>. Em hãy nhớ lại định nghĩa hoặc tính chất cơ bản nhất của phần này.`
+                : `Hãy xác định chủ đề và từ khóa cốt lõi của câu hỏi để liên hệ với bài học tương ứng trong SGK.`
+        });
 
-        // Bậc 2: Câu hỏi gợi mở tư duy (chỉ hiện khi có socraticPrompt, tuyệt đối không trích đáp án khẳng định)
+        // Bậc 2: Câu hỏi gợi mở tư duy (ưu tiên socraticPrompt, nếu chưa có tạo câu hỏi phản tư theo độ khó)
         if (socraticPrompt) {
             hints.push({
                 step: 2,
                 title: '💡 Bậc 2: Câu hỏi gợi mở tư duy',
                 content: socraticPrompt
+            });
+        } else {
+            const diff = (question.difficulty || 'nhan-biet').toLowerCase();
+            let dynamicPrompt = 'Em hãy đối chiếu các dữ kiện cho trong đề bài và loại trừ các phương án mâu thuẫn.';
+            if (diff === 'van-dung' || diff === 'hard' || diff === 'van-dung-cao' || diff === 'expert') {
+                dynamicPrompt = 'Để giải bài này, em hãy chia bài toán thành 2 bước: 1) Xác định công thức/mối liên hệ chính, 2) Thay số hoặc biện luận điều kiện biên.';
+            } else if (diff === 'thong-hieu' || diff === 'medium') {
+                dynamicPrompt = 'Em hãy phân tích xem câu hỏi đang kiểm tra tính chất hay công thức biến đổi nào? Đâu là mối liên hệ giữa các đại lượng đã cho?';
+            }
+            hints.push({
+                step: 2,
+                title: '💡 Bậc 2: Câu hỏi gợi mở tư duy',
+                content: dynamicPrompt
             });
         }
 
@@ -243,13 +261,11 @@ const DeepTutor = (function() {
                 title: '⚠️ Bậc 3: Cảnh báo bẫy sai',
                 content: `Học sinh thường hay nhầm ở điểm này: <em>"${trap}"</em>. Em có đang mắc phải bẫy này không?`
             });
-        }
-
-        if (hints.length === 0) {
+        } else {
             hints.push({
-                step: 1,
-                title: '💡 Gợi ý tư duy',
-                content: 'Em hãy đọc kỹ lại dữ kiện trong đề bài, phân tích từng phương án và loại trừ các phương án vô lý.'
+                step: 3,
+                title: '⚠️ Bậc 3: Kiểm tra cẩn thận',
+                content: 'Hãy đọc kỹ yêu cầu (chú ý từ khóa: <em>"đúng"</em>, <em>"sai"</em>, <em>"không đúng"</em> hoặc đơn vị đo) trước khi chọn đáp án cuối cùng.'
             });
         }
 
@@ -332,8 +348,18 @@ const DeepTutor = (function() {
     function speak(text, lang = 'vi-VN') {
         if (!('speechSynthesis' in window) || !text) return;
         window.speechSynthesis.cancel();
-        // Làm sạch mã latex trước khi đọc
-        const clean = text.replace(/\$+/g, '').replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1 phần $2');
+        // Làm sạch mã latex & biểu thức toán học trước khi đọc
+        let clean = text.replace(/\$+/g, '')
+            .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '$1 phần $2')
+            .replace(/\\sqrt\{([^}]+)\}/g, 'căn bậc hai của $1')
+            .replace(/\\sin/g, 'sin')
+            .replace(/\\cos/g, 'cốt')
+            .replace(/\\tan/g, 'tang')
+            .replace(/\\pi/g, 'pi')
+            .replace(/\\mathbb\{R\}/g, 'tập số thực R')
+            .replace(/\\leq/g, 'nhỏ hơn hoặc bằng')
+            .replace(/\\geq/g, 'lớn hơn hoặc bằng')
+            .replace(/\\neq/g, 'khác');
         const utterance = new SpeechSynthesisUtterance(clean);
         utterance.lang = lang;
         utterance.rate = lang.startsWith('en') ? 0.9 : 0.95;

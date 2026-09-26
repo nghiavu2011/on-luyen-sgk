@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch02",
+  "title": "Chủ đề 2: Mạng máy tính và Internet",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Mạng máy tính trong cuộc sống hiện đại",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Mạng máy tính trong cuộc sống hiện đại.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Địa chỉ IP",
+          "definition": "Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu.",
+          "example": "IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở rộng không gian địa chỉ.",
+          "essence": "Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mô hình Client - Server (Khách - Chủ)",
+          "meaning": "Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response).",
+          "example": "Trình duyệt web của học sinh (Client) gửi yêu cầu xem bài giảng lên máy chủ Vercel (Server).",
+          "essence": "Phân chia vai trò rõ ràng giữa thiết bị sử dụng dịch vụ và hệ thống cung cấp dữ liệu tập trung."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Điện toán đám mây mang lại những lợi ích vượt trội nào so với lưu trữ cục bộ trên ổ cứng truyền thống?",
+          "steps": [
+            "Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet.",
+            "Bước 2: Dữ liệu được sao lưu dự phòng tự động, giảm thiểu rủi ro mất mát khi hỏng thiết bị phần cứng.",
+            "Bước 3: Dễ dàng chia sẻ và cộng tác làm việc theo thời gian thực (ví dụ Google Docs, Drive)."
+          ],
+          "answer": "Truy cập linh hoạt, sao lưu an toàn và cộng tác thời gian thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau.",
+          "why": "Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Điện toán đám mây và Internet kết nối vạn vật (IoT)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Điện toán đám mây và Internet kết nối vạn vật (IoT).",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Địa chỉ IP",
+          "definition": "Là địa chỉ định danh duy nhất của mỗi thiết bị kết nối vào mạng máy tính để giao tiếp và trao đổi dữ liệu.",
+          "example": "IPv4 gồm 4 nhóm số cách nhau dấu chấm: 192.168.1.1; IPv6 sử dụng 128 bit để mở rộng không gian địa chỉ.",
+          "essence": "Địa chỉ IP giống như số nhà bưu điện giúp các gói tin gửi đi biết chính xác nơi đến trên mạng toàn cầu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mô hình Client - Server (Khách - Chủ)",
+          "meaning": "Máy khách (Client) gửi yêu cầu (request); Máy chủ (Server) tiếp nhận, xử lí và phản hồi dữ liệu (response).",
+          "example": "Trình duyệt web của học sinh (Client) gửi yêu cầu xem bài giảng lên máy chủ Vercel (Server).",
+          "essence": "Phân chia vai trò rõ ràng giữa thiết bị sử dụng dịch vụ và hệ thống cung cấp dữ liệu tập trung."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Điện toán đám mây mang lại những lợi ích vượt trội nào so với lưu trữ cục bộ trên ổ cứng truyền thống?",
+          "steps": [
+            "Bước 1: Khả năng truy cập mọi lúc mọi nơi từ bất kỳ thiết bị nào có kết nối mạng Internet.",
+            "Bước 2: Dữ liệu được sao lưu dự phòng tự động, giảm thiểu rủi ro mất mát khi hỏng thiết bị phần cứng.",
+            "Bước 3: Dễ dàng chia sẻ và cộng tác làm việc theo thời gian thực (ví dụ Google Docs, Drive)."
+          ],
+          "answer": "Truy cập linh hoạt, sao lưu an toàn và cộng tác thời gian thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng Internet và World Wide Web (WWW) là một khái niệm hoàn toàn trùng nhau.",
+          "why": "Internet là mạng lưới hạ tầng kết nối các máy tính vật lý; WWW là một dịch vụ thông tin chạy trên nền Internet."
+        }
+      ]
+    }
+  ]
+}
