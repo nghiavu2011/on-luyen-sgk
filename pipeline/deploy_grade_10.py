@@ -39,6 +39,7 @@ sys.path.insert(0, str(PIPELINE_DIR))
 
 import data_g10_stem
 import data_g10_humanities
+import data_g10_applied
 
 BASE_DIR = PIPELINE_DIR.parent
 CONTENT_DIR = BASE_DIR / "content" / "grade-10"
@@ -47,6 +48,7 @@ APP_CONTENT_DIR = BASE_DIR / "app" / "content" / "grade-10"
 ALL_SUBJECTS = {}
 ALL_SUBJECTS.update(data_g10_stem.STEM_SUBJECTS)
 ALL_SUBJECTS.update(data_g10_humanities.HUMANITIES_SUBJECTS)
+ALL_SUBJECTS.update(data_g10_applied.APPLIED_SUBJECTS)
 
 def make_quiz_question(q_id, difficulty, topic, question, options, correct_idx, concept, socratic, steps, trap):
     """Tạo 1 câu hỏi trắc nghiệm chuẩn pedagogical sư phạm theo skill teaching-deck."""

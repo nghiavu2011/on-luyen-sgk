@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Vẽ kỹ thuật và Biểu diễn vật thể",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Phương pháp hình chiếu vuông góc và hình cắt",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Phương pháp hình chiếu vuông góc và hình cắt.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hình chiếu vuông góc",
+          "definition": "Là hình biểu diễn nhận được từ phép chiếu vuông góc các điểm của vật thể lên mặt phẳng hình chiếu (hình chiếu đứng, hình chiếu bằng, hình chiếu cạnh).",
+          "example": "Khi nhìn thẳng từ trước vào khối lập phương có khoét rãnh, hình chiếu đứng cho biết chiều dài và chiều cao cùng vị trí rãnh khoét.",
+          "essence": "Biến không gian 3 chiều của vật thể thực thành các mặt phẳng 2 chiều chính xác tuyệt đối để chế tạo chuẩn xác."
+        },
+        {
+          "term": "Hình cắt và Mặt cắt",
+          "definition": "Hình cắt là hình biểu diễn phần vật thể còn lại sau khi tưởng tượng dùng mặt phẳng cắt cắt bỏ phần vật thể ở giữa người quan sát và mặt phẳng cắt.",
+          "example": "Cắt đôi một ống lót kim loại để quan sát rõ bậc ren trong và lỗ trụ rỗng mà các đường nét đứt thông thường khó diễn tả rõ ràng.",
+          "essence": "Hình cắt giúp người thợ nhìn thấu cấu trúc rỗng bên trong chi tiết mà không bị nhầm lẫn giữa các đường bao khuất."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc bố trí các hình chiếu vuông góc trên bản vẽ kỹ thuật",
+          "meaning": "Hình chiếu bằng đặt ngay phía dưới hình chiếu đứng; Hình chiếu cạnh đặt ngay bên phải hình chiếu đứng theo phương chiếu góc thứ nhất.",
+          "example": "Kích thước chiều rộng của vật thể phải gióng thẳng hàng chính xác tuyệt đối giữa hình chiếu bằng và hình chiếu cạnh thông qua đường gióng 45 độ.",
+          "essence": "Sự thống nhất vị trí gióng hình đảm bảo ngôn ngữ kỹ thuật được hiểu đồng nhất trên toàn cầu mà không cần chú thích chữ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Nêu các bước lập bản vẽ hình chiếu vuông góc của một giá chữ L có lỗ trụ đứng.",
+          "steps": [
+            "Bước 1: Chọn hướng chiếu chính (từ trước) phản ánh rõ nhất hình dạng giá chữ L làm hình chiếu đứng.",
+            "Bước 2: Gióng từ trên xuống để vẽ hình chiếu bằng, thể hiện chiều rộng và vị trí tâm lỗ tròn bằng nét gạch chấm mảnh.",
+            "Bước 3: Gióng sang phải để vẽ hình chiếu cạnh, dùng nét đứt mảnh biểu diễn đường biên của lỗ rỗng bị khuất."
+          ],
+          "answer": "Bản vẽ hoàn chỉnh gồm 3 hình chiếu gióng thẳng hàng, có đầy đủ đường kích thước và khung tên tiêu chuẩn TCVN."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng sai nét vẽ: Vẽ đường bao khuất bằng nét liền đậm thay vì nét đứt mảnh.",
+          "why": "Nét liền đậm chỉ dành cho đường bao thấy. Mọi cạnh khuất bên trong bắt buộc phải vẽ bằng nét đứt mảnh (độ dày khoảng 1/2 nét đậm)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Hình chiếu trục đo và bản vẽ cơ khí",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Hình chiếu trục đo và bản vẽ cơ khí.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hình chiếu vuông góc",
+          "definition": "Là hình biểu diễn nhận được từ phép chiếu vuông góc các điểm của vật thể lên mặt phẳng hình chiếu (hình chiếu đứng, hình chiếu bằng, hình chiếu cạnh).",
+          "example": "Khi nhìn thẳng từ trước vào khối lập phương có khoét rãnh, hình chiếu đứng cho biết chiều dài và chiều cao cùng vị trí rãnh khoét.",
+          "essence": "Biến không gian 3 chiều của vật thể thực thành các mặt phẳng 2 chiều chính xác tuyệt đối để chế tạo chuẩn xác."
+        },
+        {
+          "term": "Hình cắt và Mặt cắt",
+          "definition": "Hình cắt là hình biểu diễn phần vật thể còn lại sau khi tưởng tượng dùng mặt phẳng cắt cắt bỏ phần vật thể ở giữa người quan sát và mặt phẳng cắt.",
+          "example": "Cắt đôi một ống lót kim loại để quan sát rõ bậc ren trong và lỗ trụ rỗng mà các đường nét đứt thông thường khó diễn tả rõ ràng.",
+          "essence": "Hình cắt giúp người thợ nhìn thấu cấu trúc rỗng bên trong chi tiết mà không bị nhầm lẫn giữa các đường bao khuất."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc bố trí các hình chiếu vuông góc trên bản vẽ kỹ thuật",
+          "meaning": "Hình chiếu bằng đặt ngay phía dưới hình chiếu đứng; Hình chiếu cạnh đặt ngay bên phải hình chiếu đứng theo phương chiếu góc thứ nhất.",
+          "example": "Kích thước chiều rộng của vật thể phải gióng thẳng hàng chính xác tuyệt đối giữa hình chiếu bằng và hình chiếu cạnh thông qua đường gióng 45 độ.",
+          "essence": "Sự thống nhất vị trí gióng hình đảm bảo ngôn ngữ kỹ thuật được hiểu đồng nhất trên toàn cầu mà không cần chú thích chữ."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Nêu các bước lập bản vẽ hình chiếu vuông góc của một giá chữ L có lỗ trụ đứng.",
+          "steps": [
+            "Bước 1: Chọn hướng chiếu chính (từ trước) phản ánh rõ nhất hình dạng giá chữ L làm hình chiếu đứng.",
+            "Bước 2: Gióng từ trên xuống để vẽ hình chiếu bằng, thể hiện chiều rộng và vị trí tâm lỗ tròn bằng nét gạch chấm mảnh.",
+            "Bước 3: Gióng sang phải để vẽ hình chiếu cạnh, dùng nét đứt mảnh biểu diễn đường biên của lỗ rỗng bị khuất."
+          ],
+          "answer": "Bản vẽ hoàn chỉnh gồm 3 hình chiếu gióng thẳng hàng, có đầy đủ đường kích thước và khung tên tiêu chuẩn TCVN."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Dùng sai nét vẽ: Vẽ đường bao khuất bằng nét liền đậm thay vì nét đứt mảnh.",
+          "why": "Nét liền đậm chỉ dành cho đường bao thấy. Mọi cạnh khuất bên trong bắt buộc phải vẽ bằng nét đứt mảnh (độ dày khoảng 1/2 nét đậm)."
+        }
+      ]
+    }
+  ]
+}

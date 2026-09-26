@@ -1,0 +1,96 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Thiết kế kỹ thuật và Sáng chế",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Quy trình thiết kế kỹ thuật và giải quyết vấn đề",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Quy trình thiết kế kỹ thuật và giải quyết vấn đề.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Quy trình thiết kế kỹ thuật",
+          "definition": "Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến đánh giá và hoàn thiện sản phẩm.",
+          "example": "Thiết kế giá đỡ điện thoại thông minh: Khảo sát góc nhìn người dùng -> Phác thảo bản vẽ -> Cắt laser mô hình gỗ thử nghiệm -> Điều chỉnh độ nghiêng vững chắc.",
+          "essence": "Thiết kế kỹ thuật là cầu nối biến ý tưởng sáng tạo trên giấy thành sản phẩm hữu hình phục vụ đời sống một cách tối ưu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc thử nghiệm lặp (Iteration Principle)",
+          "meaning": "Nếu sản phẩm thử nghiệm chưa đạt các tiêu chí đặt ra ban đầu, bắt buộc phải quay lại bước đề xuất giải pháp hoặc chỉnh sửa thiết kế chi tiết.",
+          "example": "Một robot dò đường bị lật khi rẽ gấp đòi hỏi hạ thấp trọng tâm và viết lại thuật toán phanh trước khi sản xuất hàng loạt.",
+          "essence": "Thất bại trong thử nghiệm là nguồn dữ liệu quý giá nhất để tối ưu hóa thiết kế kỹ thuật."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Xác định 5 bước cơ bản của quy trình thiết kế giá để sách treo tường tiết kiệm không gian.",
+          "steps": [
+            "Bước 1: Xác định yêu cầu: Giá sách chịu lực 15kg, gắn tường không rung lắc, tận dụng góc chết của phòng học.",
+            "Bước 2: Tìm kiếm giải pháp: Khảo sát mẫu giá nan gỗ, khung sắt tam giác chịu lực.",
+            "Bước 3: Thiết kế chi tiết: Vẽ bản vẽ 2D/3D kích thước 800x250x300mm, tính toán độ võng.",
+            "Bước 4: Chế tạo mẫu thử: Lắp ghép gỗ ép và bắt vít nở vào tường thử tải.",
+            "Bước 5: Thử nghiệm & Đánh giá: Đặt 20 cuốn sách kiểm tra độ cong vênh và hoàn thiện lớp sơn chống ẩm."
+          ],
+          "answer": "Hoàn thành sản phẩm đạt chuẩn an toàn, thẩm mỹ và công năng sử dụng theo đúng 5 bước thiết kế kỹ thuật."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Bắt tay vào gia công chế tạo ngay mà không qua bước phác thảo bản vẽ và tính toán độ bền.",
+          "why": "Thiếu bản vẽ kỹ thuật sẽ dẫn đến sai lệch kích thước, hao phí vật liệu và kết cấu không đảm bảo an toàn chịu lực."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tư duy sáng tạo và thực hành dự án thiết kế",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tư duy sáng tạo và thực hành dự án thiết kế.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Quy trình thiết kế kỹ thuật",
+          "definition": "Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến đánh giá và hoàn thiện sản phẩm.",
+          "example": "Thiết kế giá đỡ điện thoại thông minh: Khảo sát góc nhìn người dùng -> Phác thảo bản vẽ -> Cắt laser mô hình gỗ thử nghiệm -> Điều chỉnh độ nghiêng vững chắc.",
+          "essence": "Thiết kế kỹ thuật là cầu nối biến ý tưởng sáng tạo trên giấy thành sản phẩm hữu hình phục vụ đời sống một cách tối ưu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc thử nghiệm lặp (Iteration Principle)",
+          "meaning": "Nếu sản phẩm thử nghiệm chưa đạt các tiêu chí đặt ra ban đầu, bắt buộc phải quay lại bước đề xuất giải pháp hoặc chỉnh sửa thiết kế chi tiết.",
+          "example": "Một robot dò đường bị lật khi rẽ gấp đòi hỏi hạ thấp trọng tâm và viết lại thuật toán phanh trước khi sản xuất hàng loạt.",
+          "essence": "Thất bại trong thử nghiệm là nguồn dữ liệu quý giá nhất để tối ưu hóa thiết kế kỹ thuật."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Xác định 5 bước cơ bản của quy trình thiết kế giá để sách treo tường tiết kiệm không gian.",
+          "steps": [
+            "Bước 1: Xác định yêu cầu: Giá sách chịu lực 15kg, gắn tường không rung lắc, tận dụng góc chết của phòng học.",
+            "Bước 2: Tìm kiếm giải pháp: Khảo sát mẫu giá nan gỗ, khung sắt tam giác chịu lực.",
+            "Bước 3: Thiết kế chi tiết: Vẽ bản vẽ 2D/3D kích thước 800x250x300mm, tính toán độ võng.",
+            "Bước 4: Chế tạo mẫu thử: Lắp ghép gỗ ép và bắt vít nở vào tường thử tải.",
+            "Bước 5: Thử nghiệm & Đánh giá: Đặt 20 cuốn sách kiểm tra độ cong vênh và hoàn thiện lớp sơn chống ẩm."
+          ],
+          "answer": "Hoàn thành sản phẩm đạt chuẩn an toàn, thẩm mỹ và công năng sử dụng theo đúng 5 bước thiết kế kỹ thuật."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Bắt tay vào gia công chế tạo ngay mà không qua bước phác thảo bản vẽ và tính toán độ bền.",
+          "why": "Thiếu bản vẽ kỹ thuật sẽ dẫn đến sai lệch kích thước, hao phí vật liệu và kết cấu không đảm bảo an toàn chịu lực."
+        }
+      ]
+    }
+  ]
+}

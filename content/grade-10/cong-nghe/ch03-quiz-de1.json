@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch03",
+  "examId": "de1",
+  "title": "Công nghệ 10 — Chương 3: Thiết kế kỹ thuật và Sáng chế: Đề 1 — Khái niệm & Nhận biết (15 phút)",
+  "description": "Đề thi kiểm tra nhận biết khái niệm cơ bản, định nghĩa và công thức cốt lõi của Chương 3: Thiết kế kỹ thuật và Sáng chế.",
+  "questions": [
+    {
+      "id": "cong-nghe_ch03_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy trình thiết kế kỹ thuật",
+      "question": "Theo chương trình SGK, khẳng định nào sau đây là ĐÚNG khi nói về 'Quy trình thiết kế kỹ thuật'?",
+      "options": [
+        "Quy trình thiết kế kỹ thuật Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiế...",
+        "Quy trình thiết kế kỹ thuật luôn là một đại lượng không xác định trong thực tế.",
+        "Quy trình thiết kế kỹ thuật chỉ áp dụng được trong các trường hợp ngoại lệ.",
+        "Quy trình thiết kế kỹ thuật hoàn toàn đồng nhất với các khái niệm ngược lại."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn xác của Quy trình thiết kế kỹ thuật.",
+        "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Quy trình thiết kế kỹ thuật trong SGK?",
+        "steps": "Theo định nghĩa SGK: Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến .",
+        "trap": "Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ."
+      },
+      "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Quy trình thiết kế kỹ thuật trong SGK?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK: Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến .",
+        "Sai do bẫy thường gặp: Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ.",
+        "Sai vì phương án 'Quy trình thiết kế kỹ thuật chỉ áp dụng được trong các trường hợp ngoại lệ.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Quy trình thiết kế kỹ thuật.",
+        "Sai vì phương án 'Quy trình thiết kế kỹ thuật hoàn toàn đồng nhất với các khái niệm ngược lại.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Quy trình thiết kế kỹ thuật."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "cong-nghe_ch03_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nguyên tắc thử nghiệm lặp (Iteration Principle)",
+      "question": "Quy tắc/định lí nào sau đây thể hiện đúng nội dung của 'Nguyên tắc thử nghiệm lặp (Iteration Principle)'?",
+      "options": [
+        "Quy tắc này không có giá trị áp dụng thực tiễn.",
+        "Nếu sản phẩm thử nghiệm chưa đạt các tiêu chí đặt ra ban đầu, bắt buộc phải quay lại bước đề xu...",
+        "Chỉ áp dụng khi giá trị các đại lượng đều bằng 0.",
+        "Tất cả các đại lượng đều tỉ lệ nghịch với nhau."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nội dung quy tắc Nguyên tắc thử nghiệm lặp (Iteration Principle).",
+        "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+        "steps": "Phát biểu chuẩn: Nếu sản phẩm thử nghiệm chưa đạt các tiêu chí đặt ra ban đầu, bắt buộc phải quay lại bước đề xuất giải pháp hoặc chỉnh s.",
+        "trap": "Ghi nhớ sai hướng của mối quan hệ đại lượng."
+      },
+      "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy tắc này không có giá trị áp dụng thực tiễn.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Nguyên tắc thử nghiệm lặp (Iteration Principle).",
+        "Đúng vì: Phát biểu chuẩn: Nếu sản phẩm thử nghiệm chưa đạt các tiêu chí đặt ra ban đầu, bắt buộc phải quay lại bước đề xuất giải pháp hoặc chỉnh s.",
+        "Sai do bẫy thường gặp: Ghi nhớ sai hướng của mối quan hệ đại lượng.",
+        "Sai vì phương án 'Tất cả các đại lượng đều tỉ lệ nghịch với nhau.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Nguyên tắc thử nghiệm lặp (Iteration Principle)."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "cong-nghe_ch03_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy trình thiết kế kỹ thuật",
+      "question": "Khái niệm 'Quy trình thiết kế kỹ thuật' được hiểu chính xác nhất là:",
+      "options": [
+        "Một đại lượng chỉ mang tính lí thuyết không thể đo lường.",
+        "Một kết quả ngẫu nhiên không có quy luật chi phối.",
+        "Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiế...",
+        "Khái niệm chỉ xuất hiện ở các lớp học nâng cao."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bản chất của Quy trình thiết kế kỹ thuật.",
+        "socraticPrompt": "Ý nghĩa khoa học của Quy trình thiết kế kỹ thuật là gì?",
+        "steps": "Theo định nghĩa: Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến .",
+        "trap": "Xem nhẹ vai trò nền tảng của khái niệm."
+      },
+      "socraticPrompt": "Ý nghĩa khoa học của Quy trình thiết kế kỹ thuật là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một đại lượng chỉ mang tính lí thuyết không thể đo lường.' không phù hợp với quy tắc/định lí: Bản chất của Quy trình thiết kế kỹ thuật.",
+        "Sai vì phương án 'Một kết quả ngẫu nhiên không có quy luật chi phối.' không phù hợp với quy tắc/định lí: Bản chất của Quy trình thiết kế kỹ thuật.",
+        "Đúng vì: Theo định nghĩa: Là chuỗi các hoạt động có hệ thống từ xác định vấn đề, đề xuất giải pháp, thiết kế chi tiết, chế tạo thử nghiệm cho đến .",
+        "Sai do bẫy thường gặp: Xem nhẹ vai trò nền tảng của khái niệm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "cong-nghe_ch03_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết bẫy sai",
+      "question": "Khi tìm hiểu về Chương 3: Thiết kế kỹ thuật và Sáng chế, sai lầm nào sau đây học sinh CẦN TRÁNH?",
+      "options": [
+        "Tìm hiểu kĩ định nghĩa và điều kiện áp dụng.",
+        "Luyện tập các ví dụ minh họa từng bước.",
+        "Đọc kĩ phần bản chất trực giác của bài học.",
+        "Bắt tay vào gia công chế tạo ngay mà không qua bước phác thảo bản vẽ và tính toán độ bền...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Các lỗi nhận thức thường gặp trong Chương 3: Thiết kế kỹ thuật và Sáng chế.",
+        "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+        "steps": "Lưu ý trọng tâm: Thiếu bản vẽ kỹ thuật sẽ dẫn đến sai lệch kích thước, hao phí vật liệu và kết cấu không đảm bảo an toàn chịu lực..",
+        "trap": "Bắt tay vào gia công chế tạo ngay mà không qua bước phác thảo bản vẽ và tính toá"
+      },
+      "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Bắt tay vào gia công chế tạo ngay mà không qua bước phác thảo bản vẽ và tính toá",
+        "Sai vì phương án 'Luyện tập các ví dụ minh họa từng bước.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chương 3: Thiết kế kỹ thuật và Sáng chế.",
+        "Sai vì phương án 'Đọc kĩ phần bản chất trực giác của bài học.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chương 3: Thiết kế kỹ thuật và Sáng chế.",
+        "Đúng vì: Lưu ý trọng tâm: Thiếu bản vẽ kỹ thuật sẽ dẫn đến sai lệch kích thước, hao phí vật liệu và kết cấu không đảm bảo an toàn chịu lực.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "cong-nghe_ch03_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc tính bản chất",
+      "question": "Bản chất cốt lõi của Quy trình thiết kế kỹ thuật là gì?",
+      "options": [
+        "Thiết kế kỹ thuật là cầu nối biến ý tưởng sáng tạo trên giấy thành sản phẩm hữu hình phục vụ đờ...",
+        "Chỉ nhằm mục đích kiểm tra trí nhớ học sinh.",
+        "Không có mối liên hệ với các bài học trước đó.",
+        "Hoàn toàn do trực giác suy đoán mà không cần cơ sở."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất trực giác của Quy trình thiết kế kỹ thuật.",
+        "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+        "steps": "Bản chất: Thiết kế kỹ thuật là cầu nối biến ý tưởng sáng tạo trên giấy thành sản phẩm hữu hình phục vụ đời sống một cách tối ưu..",
+        "trap": "Học vẹt công thức mà không hiểu bản chất sâu xa."
+      },
+      "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+      "distractorReasons": [
+        "Đúng vì: Bản chất: Thiết kế kỹ thuật là cầu nối biến ý tưởng sáng tạo trên giấy thành sản phẩm hữu hình phục vụ đời sống một cách tối ưu..",
+        "Sai do bẫy thường gặp: Học vẹt công thức mà không hiểu bản chất sâu xa.",
+        "Sai vì phương án 'Không có mối liên hệ với các bài học trước đó.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Quy trình thiết kế kỹ thuật.",
+        "Sai vì phương án 'Hoàn toàn do trực giác suy đoán mà không cần cơ sở.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Quy trình thiết kế kỹ thuật."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "cong-nghe_ch03_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Áp dụng cơ bản",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng nhất 'Quy trình thiết kế kỹ thuật'?",
+      "options": [
+        "Áp dụng vào trường hợp hoàn toàn không có dữ kiện.",
+        "Thiết kế giá đỡ điện thoại thông minh: Khảo sát góc nhìn người dùng -> Phác thảo bản vẽ -> Cắt ...",
+        "Áp dụng ngược lại điều kiện quy định.",
+        "Trường hợp không tuân theo quy luật tự nhiên."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ví dụ thực tế của Quy trình thiết kế kỹ thuật.",
+        "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+        "steps": "Ví dụ tiêu biểu: Thiết kế giá đỡ điện thoại thông minh: Khảo sát góc nhìn người dùng -> Phác thảo bản vẽ -> Cắt laser mô hình gỗ thử nghi.",
+        "trap": "Nhầm lẫn giữa các tình huống thực tiễn khác nhau."
+      },
+      "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Áp dụng vào trường hợp hoàn toàn không có dữ kiện.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Quy trình thiết kế kỹ thuật.",
+        "Đúng vì: Ví dụ tiêu biểu: Thiết kế giá đỡ điện thoại thông minh: Khảo sát góc nhìn người dùng -> Phác thảo bản vẽ -> Cắt laser mô hình gỗ thử nghi.",
+        "Sai do bẫy thường gặp: Nhầm lẫn giữa các tình huống thực tiễn khác nhau.",
+        "Sai vì phương án 'Trường hợp không tuân theo quy luật tự nhiên.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Quy trình thiết kế kỹ thuật."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}
