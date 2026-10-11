@@ -1,0 +1,606 @@
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Thiết kế trang web với HTML và CSS",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 7: HTML và cấu trúc trang web",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 7: HTML và cấu trúc trang web.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 8: Định dạng văn bản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 8: Định dạng văn bản.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 9: Tạo danh sách, bảng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 9: Tạo danh sách, bảng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 10: Tạo liên kết",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 10: Tạo liên kết.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 11: Chèn tệp tin đa phương tiện và khung nội tuyến",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 11: Chèn tệp tin đa phương tiện và khung nội tuyến.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "title": "Bài 12: Tạo biểu mẫu",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 12: Tạo biểu mẫu.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "title": "Bài 13: Khái niệm, vai trò của CSS",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 13: Khái niệm, vai trò của CSS.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l08",
+      "title": "Bài 14: Định dạng văn bản bằng CSS",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 14: Định dạng văn bản bằng CSS.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l09",
+      "title": "Bài 15: Tạo màu cho chữ và nền",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 15: Tạo màu cho chữ và nền.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "title": "Bài 16: Định dạng khung",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 16: Định dạng khung.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "title": "Bài 17: Các mức ưu tiên của bộ chọn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 17: Các mức ưu tiên của bộ chọn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "title": "Bài 18: Thực hành tổng hợp thiết kế trang web",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 18: Thực hành tổng hợp thiết kế trang web.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "HTML (HyperText Markup Language)",
+          "definition": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).",
+          "example": "<h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.",
+          "essence": "HTML là khung xương chịu lực quy định nội dung của trang web."
+        },
+        {
+          "term": "CSS và Mô hình hộp (CSS Box Model)",
+          "definition": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).",
+          "example": "p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.",
+          "essence": "Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Độ ưu tiên của bộ chọn CSS (Specificity)",
+          "meaning": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.",
+          "example": "<div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.",
+          "essence": "Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).",
+          "steps": [
+            "Bước 1: Sử dụng thẻ <table> để mở bảng.",
+            "Bước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.",
+            "Bước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.",
+            "Bước 4: Đóng các thẻ theo đúng thứ tự."
+          ],
+          "answer": "<table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).",
+          "why": "Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>)."
+        }
+      ]
+    }
+  ]
+}

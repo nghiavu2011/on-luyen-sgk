@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch02",
+  "examId": "de2",
+  "title": "Tin học 12 — Chủ đề 2: Mạng máy tính và Internet: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chủ đề 2: Mạng máy tính và Internet.",
+  "questions": [
+    {
+      "id": "tin-hoc_ch02_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chủ đề 2: Mạng máy tính và Internet, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Cấu trúc địa chỉ IPv4.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Cấu trúc địa chỉ IPv4.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Địa chỉ IPv4 gồm 32 bit nhị phân, biểu diễn thành 4 số thập phân từ 0 đến 255 ngăn cách nhau bởi dấu chấm (dotted decima.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Địa chỉ IPv4 gồm 32 bit nhị phân, biểu diễn thành 4 số thập phân từ 0 đến 255 ngăn cách nhau bởi dấu chấm (dotted decima.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Cấu trúc địa chỉ IPv4.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Cấu trúc địa chỉ IPv4."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Cho biết dải địa chỉ IP riêng (Private IP) thông dụng trong mạng LAN gia đình và giải thíc...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình)..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình)..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình)..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "tin-hoc_ch02_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Bộ định tuyến (Router) và Bộ chuyển mạch (Switch) và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Bộ định tuyến (Router) và Bộ chuyển mạch (Switch) được xác định chặt chẽ bởi: Switch hoạt động ở tầng liên kết dữ liệu (Data Link), kết nối các thiết bị trong...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Bộ định tuyến (Router) và Bộ chuyển mạch (Switch) với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Switch hoạt động ở tầng liên kết dữ liệu (Data Link), kết nối các thiết bị trong cùng một mạng LAN nội bộ bằng địa chỉ M.",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Bộ định tuyến (Router) và Bộ chuyển mạch (Switch) với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Bộ định tuyến (Router) và Bộ chuyển mạch (Switch) với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Switch hoạt động ở tầng liên kết dữ liệu (Data Link), kết nối các thiết bị trong cùng một mạng LAN nội bộ bằng địa chỉ M.",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "tin-hoc_ch02_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Switch kết nối các máy tính trong phòng thực hành tin học; Router kết nối toàn b...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Switch mở rộng phạm vi kết nối nội bộ, còn Router định hướng đường truyền dữ liệu xuy..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Bộ định tuyến (Router) và Bộ chuyển mạch (Switch).",
+        "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Switch mở rộng phạm vi kết nối nội bộ, còn Router định hướng đường truyền dữ liệu xuyên biên giới mạng..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Bộ định tuyến (Router) và Bộ chuyển mạch (Switch).",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Bộ định tuyến (Router) và Bộ chuyển mạch (Switch).",
+        "Đúng vì: Lí giải: Switch mở rộng phạm vi kết nối nội bộ, còn Router định hướng đường truyền dữ liệu xuyên biên giới mạng.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "tin-hoc_ch02_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Cho biết dải địa chỉ IP riêng (Private IP) thông dụng trong mạng LAN gia đình và giải...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Dải IP riêng phổ biến là 192.168.x.x; NAT giúp chia sẻ một IP công cộng cho nhiều thiết bị nội bộ và bảo vệ an ninh mạng..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK 12 Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+        "steps": "Các bước: Bước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình). -> Bước 2: Vai trò của NAT: Công nghệ biên dịch cho phép nhiều thiết bị dùng IP riêng trong mạng LAN cùng chia sẻ một địa chỉ IP công cộng (Public IP) duy nhất để truy cập Internet. => Dải IP riêng phổ biến là 192.168.x.x; NAT giúp chia sẻ một IP công cộng cho nhiều thiết bị nội bộ và bảo vệ an ninh mạng..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình). -> Bước 2: Vai trò của NAT: Công nghệ biên dịch cho phép nhiều thiết bị dùng IP riêng trong mạng LAN cùng chia sẻ một địa chỉ IP công cộng (Public IP) duy nhất để truy cập Internet. => Dải IP riêng phổ biến là 192.168.x.x; NAT giúp chia sẻ một IP công cộng cho nhiều thiết bị nội bộ và bảo vệ an ninh mạng..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chủ đề 2: Mạng máy tính và Internet.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch02_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Nhầm lẫn giữa địa chỉ IP (địa chỉ logic thay đổi theo mạng) và địa chỉ MAC (địa chỉ v...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Địa chỉ MAC do nhà sản xuất gán cứng; khi chuyển sang mạng khác, địa chỉ IP thay đổi nhưng...",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Địa chỉ MAC do nhà sản xuất gán cứng; khi chuyển sang mạng khác, địa chỉ IP thay đổi nhưng MAC vẫn giữ nguyên..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet.",
+        "Đúng vì: Biện pháp: Địa chỉ MAC do nhà sản xuất gán cứng; khi chuyển sang mạng khác, địa chỉ IP thay đổi nhưng MAC vẫn giữ nguyên..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 2: Mạng máy tính và Internet."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

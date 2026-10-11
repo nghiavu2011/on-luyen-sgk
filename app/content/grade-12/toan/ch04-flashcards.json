@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_toa_ch04_01",
+    "front": "Khái niệm 'Nguyên hàm của hàm số' trong Chương 4: Nguyên hàm và Tích phân được định nghĩa như thế nào?",
+    "back": "Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu là ∫ f(x)dx = F(x) + C (C là hằng số).\n\n💡 Ví dụ: ∫ x² dx = x³/3 + C vì (x³/3 + C)' = 3x²/3 = x²; ∫ e^x dx = e^x + C.\n🌱 Bản chất: Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên.",
+    "tags": [
+      "toan",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_02",
+    "front": "Khái niệm 'Công thức Newton - Leibniz' trong Chương 4: Nguyên hàm và Tích phân được định nghĩa như thế nào?",
+    "back": "Tích phân từ a đến b của f(x) bằng hiệu số nguyên hàm tại hai mút: ∫_a^b f(x)dx = F(b) - F(a) = F(x)|_a^b.\n\n💡 Ví dụ: ∫_0^2 2x dx = x²|_0^2 = 2² - 0² = 4.\n🌱 Bản chất: Cầu nối vĩ đại giữa giải tích vi phân và tích phân, biến bài toán tính tổng vô hạn các diện tích vô cùng bé thành việc lấy hiệu của hàm nguyên hàm.",
+    "tags": [
+      "toan",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_03",
+    "front": "Phát biểu quy tắc / định lí: 'Ứng dụng hình học tính thể tích khối tròn xoay'?",
+    "back": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b quanh trục Ox là V = π · ∫_a^b [f(x)]² dx.\n\n📝 Ví dụ: Quay hình phẳng giới hạn bởi y = √x, x = 0, x = 4 quanh Ox ta có V = π · ∫_0^4 (√x)² dx = π · ∫_0^4 x dx = π · (x²/2)|_0^4 = 8π.\n🔑 Ý nghĩa: Khối tròn xoay được cắt thành các lát đĩa tròn vô cùng mỏng có diện tích π·r² = π·[f(x)]² và tích phân cộng dồn các đĩa này lại.",
+    "tags": [
+      "toan",
+      "ch04",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_04",
+    "front": "Phương pháp giải bài toán: 'Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoành Ox.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2.\nBước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx.\nBước 3: Tìm nguyên hàm: F(x) = 4x - x³/3.\nBước 4: Thay cận: S = [4·2 - 8/3] - [4·(-2) - (-8)/3] = [8 - 8/3] - [-8 + 8/3] = 16/3 - (-16/3) = 32/3.\n\n👉 Kết luận: Diện tích hình phẳng S = 32/3 (đơn vị diện tích).",
+    "tags": [
+      "toan",
+      "ch04",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_05",
+    "front": "Bẫy sai lầm cần tránh: Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π∫ [f(x)]² dx.?",
+    "back": "❌ Lỗi sai: Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π∫ [f(x)]² dx.\n\n💡 Nguyên nhân & Khắc phục: Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π.",
+    "tags": [
+      "toan",
+      "ch04",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 4: Nguyên hàm và Tích phân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 4: Nguyên hàm và Tích phân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch04_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 4: Nguyên hàm và Tích phân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch04",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_vat_ch03_01",
+    "front": "Khái niệm 'Cảm ứng từ và Lực từ' trong Chương 3: Từ trường được định nghĩa như thế nào?",
+    "back": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.\n\n💡 Ví dụ: Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.\n🌱 Bản chất: Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_02",
+    "front": "Khái niệm 'Từ thông và Hiện tượng cảm ứng điện từ' trong Chương 3: Từ trường được định nghĩa như thế nào?",
+    "back": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.\n\n💡 Ví dụ: Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.\n🌱 Bản chất: Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_03",
+    "front": "Phát biểu quy tắc / định lí: 'Định luật cảm ứng điện từ Faraday và Định luật Lenz'?",
+    "back": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.\n\n📝 Ví dụ: Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.\n🔑 Ý nghĩa: Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_04",
+    "front": "Phương pháp giải bài toán: 'Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.\nBước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.\nBước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.\nBước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V.\n\n👉 Kết luận: Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_05",
+    "front": "Bẫy sai lầm cần tránh: Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.?",
+    "back": "❌ Lỗi sai: Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.\n\n💡 Nguyên nhân & Khắc phục: Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 3: Từ trường?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 3: Từ trường?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch03_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 3: Từ trường?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch03",
+      "on-tap"
+    ]
+  }
+]

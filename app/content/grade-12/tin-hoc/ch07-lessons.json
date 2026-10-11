@@ -1,0 +1,312 @@
+{
+  "chapterId": "ch07",
+  "title": "Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 25: Làm quen với Học máy",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 25: Làm quen với Học máy.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 26: Làm quen với Khoa học dữ liệu",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 26: Làm quen với Khoa học dữ liệu.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 27: Máy tính và Khoa học dữ liệu",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 27: Máy tính và Khoa học dữ liệu.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 28: Thực hành trải nghiệm trích rút thông tin và tri thức",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 28: Thực hành trải nghiệm trích rút thông tin và tri thức.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 29: Mô phỏng trong giải quyết vấn đề",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 29: Mô phỏng trong giải quyết vấn đề.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "title": "Bài 30: Ứng dụng mô phỏng trong giáo dục",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 30: Ứng dụng mô phỏng trong giáo dục.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Học máy (Machine Learning) và Các dạng học máy",
+          "definition": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).",
+          "example": "Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.",
+          "essence": "Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn."
+        },
+        {
+          "term": "Mô phỏng máy tính (Computer Simulation)",
+          "definition": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.",
+          "example": "Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.",
+          "essence": "Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy trình chuẩn trong Khoa học dữ liệu",
+          "meaning": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.",
+          "example": "Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.",
+          "essence": "Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?",
+          "steps": [
+            "Bước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.",
+            "Bước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).",
+            "Bước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].",
+            "Bước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.",
+            "Bước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế."
+          ],
+          "answer": "Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.",
+          "why": "Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ."
+        }
+      ]
+    }
+  ]
+}

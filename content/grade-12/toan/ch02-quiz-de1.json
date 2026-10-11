@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch02",
+  "examId": "de1",
+  "title": "Toán học 12 — Chương 2: Toạ độ của vectơ trong không gian: Đề 1 — Khái niệm & Nhận biết (15 phút)",
+  "description": "Đề thi kiểm tra nhận biết khái niệm cơ bản, định nghĩa và công thức cốt lõi của Chương 2: Toạ độ của vectơ trong không gian.",
+  "questions": [
+    {
+      "id": "toan_ch02_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hệ toạ độ Oxyz trong không gian",
+      "question": "Theo chương trình SGK Lớp 12, khẳng định nào sau đây là ĐÚNG khi nói về 'Hệ toạ độ Oxyz trong không gian'?",
+      "options": [
+        "Hệ toạ độ Oxyz trong không gian Gồm 3 trục Ox, Oy, Oz vuông góc với nhau từng đôi một tại gốc O. Mỗi điểm M được xác định ...",
+        "Hệ toạ độ Oxyz trong không gian luôn là một đại lượng không xác định trong thực tế.",
+        "Hệ toạ độ Oxyz trong không gian chỉ áp dụng được trong các trường hợp ngoại lệ.",
+        "Hệ toạ độ Oxyz trong không gian hoàn toàn đồng nhất với các khái niệm ngược lại."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn xác của Hệ toạ độ Oxyz trong không gian.",
+        "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Hệ toạ độ Oxyz trong không gian trong SGK 12?",
+        "steps": "Theo định nghĩa SGK 12: Gồm 3 trục Ox, Oy, Oz vuông góc với nhau từng đôi một tại gốc O. Mỗi điểm M được xác định duy nhất bởi bộ ba số (x; y; z.",
+        "trap": "Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ."
+      },
+      "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Hệ toạ độ Oxyz trong không gian trong SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK 12: Gồm 3 trục Ox, Oy, Oz vuông góc với nhau từng đôi một tại gốc O. Mỗi điểm M được xác định duy nhất bởi bộ ba số (x; y; z.",
+        "Sai do bẫy thường gặp: Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ.",
+        "Sai vì phương án 'Hệ toạ độ Oxyz trong không gian chỉ áp dụng được trong các trường hợp ngoại lệ.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Hệ toạ độ Oxyz trong không gian.",
+        "Sai vì phương án 'Hệ toạ độ Oxyz trong không gian hoàn toàn đồng nhất với các khái niệm ngược lại.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Hệ toạ độ Oxyz trong không gian."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch02_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Công thức độ dài vectơ và khoảng cách giữa hai điểm",
+      "question": "Quy tắc/định lí nào sau đây thể hiện đúng nội dung của 'Công thức độ dài vectơ và khoảng cách giữa hai điểm'?",
+      "options": [
+        "Quy tắc này không có giá trị áp dụng thực tiễn.",
+        "Độ dài vectơ u = (x; y; z) là |u| = √(x² + y² + z²). Khoảng cách giữa A(x_A; y_A; z_A) và B(x_B...",
+        "Chỉ áp dụng khi giá trị các đại lượng đều bằng 0.",
+        "Tất cả các đại lượng đều tỉ lệ nghịch với nhau."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nội dung quy tắc Công thức độ dài vectơ và khoảng cách giữa hai điểm.",
+        "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+        "steps": "Phát biểu chuẩn: Độ dài vectơ u = (x; y; z) là |u| = √(x² + y² + z²). Khoảng cách giữa A(x_A; y_A; z_A) và B(x_B; y_B; z_B) là AB = √[(x_.",
+        "trap": "Ghi nhớ sai hướng của mối quan hệ đại lượng."
+      },
+      "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy tắc này không có giá trị áp dụng thực tiễn.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Công thức độ dài vectơ và khoảng cách giữa hai điểm.",
+        "Đúng vì: Phát biểu chuẩn: Độ dài vectơ u = (x; y; z) là |u| = √(x² + y² + z²). Khoảng cách giữa A(x_A; y_A; z_A) và B(x_B; y_B; z_B) là AB = √[(x_.",
+        "Sai do bẫy thường gặp: Ghi nhớ sai hướng của mối quan hệ đại lượng.",
+        "Sai vì phương án 'Tất cả các đại lượng đều tỉ lệ nghịch với nhau.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Công thức độ dài vectơ và khoảng cách giữa hai điểm."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "toan_ch02_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Tích vô hướng của hai vectơ trong không gian",
+      "question": "Khái niệm 'Tích vô hướng của hai vectơ trong không gian' được hiểu chính xác nhất là:",
+      "options": [
+        "Một đại lượng chỉ mang tính lí thuyết không thể đo lường.",
+        "Một kết quả ngẫu nhiên không có quy luật chi phối.",
+        "Cho u = (x₁; y₁; z₁) và v = (x₂; y₂; z₂). Tích vô hướng u · v = x₁x₂ + y₁y₂ + z₁z₂ = |u| ·...",
+        "Khái niệm chỉ xuất hiện ở các lớp học nâng cao."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn của Tích vô hướng của hai vectơ trong không gian.",
+        "socraticPrompt": "Bản chất cốt lõi của Tích vô hướng của hai vectơ trong không gian được thể hiện qua dấu hiệu nào?",
+        "steps": "Định nghĩa SGK 12: Cho u = (x₁; y₁; z₁) và v = (x₂; y₂; z₂). Tích vô hướng u · v = x₁x₂ + y₁y₂ + z₁z₂ = |u| · |v| · cos(u, v)..",
+        "trap": "Bỏ qua điều kiện xác định của khái niệm."
+      },
+      "socraticPrompt": "Bản chất cốt lõi của Tích vô hướng của hai vectơ trong không gian được thể hiện qua dấu hiệu nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một đại lượng chỉ mang tính lí thuyết không thể đo lường.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn của Tích vô hướng của hai vectơ trong không gian.",
+        "Sai vì phương án 'Một kết quả ngẫu nhiên không có quy luật chi phối.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn của Tích vô hướng của hai vectơ trong không gian.",
+        "Đúng vì: Định nghĩa SGK 12: Cho u = (x₁; y₁; z₁) và v = (x₂; y₂; z₂). Tích vô hướng u · v = x₁x₂ + y₁y₂ + z₁z₂ = |u| · |v| · cos(u, v)..",
+        "Sai do bẫy thường gặp: Bỏ qua điều kiện xác định của khái niệm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch02_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận diện dấu hiệu",
+      "question": "Khi tìm hiểu về Chương 2: Toạ độ của vectơ trong không gian, phát biểu nào sau đây là SAI?",
+      "options": [
+        "Quy luật Công thức độ dài vectơ và khoảng cách giữa hai điểm có cơ sở khoa học vững chắc.",
+        "Khái niệm Hệ toạ độ Oxyz trong không gian gắn liền mật thiết với thực tiễn.",
+        "Tích vô hướng của hai vectơ trong không gian hoàn toàn không tuân theo bất kì quy luật tự nhiên nào.",
+        "Cần nắm vững bản chất để tránh nhầm lẫn: Lấy toạ độ vectơ ngược thứ tự: lấy toạ độ điểm đầu trừ toạ đ..."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Nhận diện các khẳng định sai về Chương 2: Toạ độ của vectơ trong không gian.",
+        "socraticPrompt": "Đọc kĩ các phương án, phương án nào phủ nhận quy luật khoa học?",
+        "steps": "Khoa học luôn tuân theo các quy luật khách quan được xác định chặt chẽ.",
+        "trap": "Không chú ý từ phủ định 'SAI' trong câu hỏi."
+      },
+      "socraticPrompt": "Đọc kĩ các phương án, phương án nào phủ nhận quy luật khoa học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy luật Công thức độ dài vectơ và khoảng cách giữa hai điểm có cơ sở khoa học vững chắc.' không phù hợp với quy tắc/định lí: Nhận diện các khẳng định sai về Chương 2: Toạ độ của vectơ trong không gian.",
+        "Sai vì phương án 'Khái niệm Hệ toạ độ Oxyz trong không gian gắn liền mật thiết với thực tiễn.' không phù hợp với quy tắc/định lí: Nhận diện các khẳng định sai về Chương 2: Toạ độ của vectơ trong không gian.",
+        "Đúng vì: Khoa học luôn tuân theo các quy luật khách quan được xác định chặt chẽ.",
+        "Sai do bẫy thường gặp: Không chú ý từ phủ định 'SAI' trong câu hỏi."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch02_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Bản chất khái niệm",
+      "question": "Ý nghĩa then chốt nhất của 'Hệ toạ độ Oxyz trong không gian' trong chương trình Lớp 12 là gì?",
+      "options": [
+        "Hệ tọa độ Oxyz đại số hóa hình học không gian 3 chiều, chuyển bài toán chứng minh hình học...",
+        "Chỉ để hoàn thành điểm số lí thuyết kiểm tra định kỳ.",
+        "Không có bất kì liên hệ nào với các môn học khác.",
+        "Luôn mang lại cùng một kết quả với mọi đối tượng nghiên cứu."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất trực giác của Hệ toạ độ Oxyz trong không gian.",
+        "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy trong SGK 12?",
+        "steps": "Bản chất: Hệ tọa độ Oxyz đại số hóa hình học không gian 3 chiều, chuyển bài toán chứng minh hình học thuần túy thành các phép tính.",
+        "trap": "Học vẹt công thức mà không hiểu bản chất sâu xa."
+      },
+      "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy trong SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Bản chất: Hệ tọa độ Oxyz đại số hóa hình học không gian 3 chiều, chuyển bài toán chứng minh hình học thuần túy thành các phép tính.",
+        "Sai do bẫy thường gặp: Học vẹt công thức mà không hiểu bản chất sâu xa.",
+        "Sai vì phương án 'Không có bất kì liên hệ nào với các môn học khác.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Hệ toạ độ Oxyz trong không gian.",
+        "Sai vì phương án 'Luôn mang lại cùng một kết quả với mọi đối tượng nghiên cứu.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Hệ toạ độ Oxyz trong không gian."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch02_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Áp dụng cơ bản",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng nhất 'Hệ toạ độ Oxyz trong không gian'?",
+      "options": [
+        "Áp dụng vào trường hợp hoàn toàn không có dữ kiện.",
+        "Gốc tọa độ O(0; 0; 0), điểm nằm trên trục Ox có toạ độ (x; 0; 0), điểm thuộc mặt phẳng (Oxy) có...",
+        "Áp dụng ngược lại điều kiện quy định.",
+        "Trường hợp không tuân theo quy luật tự nhiên."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ví dụ thực tế của Hệ toạ độ Oxyz trong không gian.",
+        "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+        "steps": "Ví dụ tiêu biểu: Gốc tọa độ O(0; 0; 0), điểm nằm trên trục Ox có toạ độ (x; 0; 0), điểm thuộc mặt phẳng (Oxy) có toạ độ (x; y; 0)..",
+        "trap": "Nhầm lẫn giữa các tình huống thực tiễn khác nhau."
+      },
+      "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Áp dụng vào trường hợp hoàn toàn không có dữ kiện.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Hệ toạ độ Oxyz trong không gian.",
+        "Đúng vì: Ví dụ tiêu biểu: Gốc tọa độ O(0; 0; 0), điểm nằm trên trục Ox có toạ độ (x; 0; 0), điểm thuộc mặt phẳng (Oxy) có toạ độ (x; y; 0)..",
+        "Sai do bẫy thường gặp: Nhầm lẫn giữa các tình huống thực tiễn khác nhau.",
+        "Sai vì phương án 'Trường hợp không tuân theo quy luật tự nhiên.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Hệ toạ độ Oxyz trong không gian."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

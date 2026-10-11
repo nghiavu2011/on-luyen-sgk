@@ -1,0 +1,256 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Khí lí tưởng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Mô hình động học phân tử chất khí",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Mô hình động học phân tử chất khí.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khí lí tưởng",
+          "definition": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.",
+          "example": "Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.",
+          "essence": "Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô."
+        },
+        {
+          "term": "Nhiệt độ tuyệt đối (Thang Kelvin)",
+          "definition": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.",
+          "example": "Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.",
+          "essence": "Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)",
+          "meaning": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.",
+          "example": "Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).",
+          "essence": "Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?",
+          "steps": [
+            "Bước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.",
+            "Bước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.",
+            "Bước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).",
+            "Bước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm."
+          ],
+          "answer": "Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).",
+          "why": "Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Định luật Boyle",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Định luật Boyle.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khí lí tưởng",
+          "definition": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.",
+          "example": "Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.",
+          "essence": "Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô."
+        },
+        {
+          "term": "Nhiệt độ tuyệt đối (Thang Kelvin)",
+          "definition": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.",
+          "example": "Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.",
+          "essence": "Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)",
+          "meaning": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.",
+          "example": "Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).",
+          "essence": "Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?",
+          "steps": [
+            "Bước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.",
+            "Bước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.",
+            "Bước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).",
+            "Bước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm."
+          ],
+          "answer": "Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).",
+          "why": "Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Định luật Charles",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Định luật Charles.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khí lí tưởng",
+          "definition": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.",
+          "example": "Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.",
+          "essence": "Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô."
+        },
+        {
+          "term": "Nhiệt độ tuyệt đối (Thang Kelvin)",
+          "definition": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.",
+          "example": "Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.",
+          "essence": "Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)",
+          "meaning": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.",
+          "example": "Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).",
+          "essence": "Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?",
+          "steps": [
+            "Bước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.",
+            "Bước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.",
+            "Bước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).",
+            "Bước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm."
+          ],
+          "answer": "Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).",
+          "why": "Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Phương trình trạng thái của khí lí tưởng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 4: Phương trình trạng thái của khí lí tưởng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khí lí tưởng",
+          "definition": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.",
+          "example": "Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.",
+          "essence": "Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô."
+        },
+        {
+          "term": "Nhiệt độ tuyệt đối (Thang Kelvin)",
+          "definition": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.",
+          "example": "Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.",
+          "essence": "Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)",
+          "meaning": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.",
+          "example": "Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).",
+          "essence": "Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?",
+          "steps": [
+            "Bước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.",
+            "Bước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.",
+            "Bước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).",
+            "Bước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm."
+          ],
+          "answer": "Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).",
+          "why": "Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Áp suất khí theo mô hình động học phân tử",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 5: Áp suất khí theo mô hình động học phân tử.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Chất khí lí tưởng",
+          "definition": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.",
+          "example": "Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.",
+          "essence": "Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô."
+        },
+        {
+          "term": "Nhiệt độ tuyệt đối (Thang Kelvin)",
+          "definition": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.",
+          "example": "Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.",
+          "essence": "Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)",
+          "meaning": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.",
+          "example": "Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).",
+          "essence": "Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?",
+          "steps": [
+            "Bước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.",
+            "Bước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.",
+            "Bước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).",
+            "Bước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm."
+          ],
+          "answer": "Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).",
+          "why": "Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin."
+        }
+      ]
+    }
+  ]
+}

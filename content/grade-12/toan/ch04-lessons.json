@@ -1,0 +1,156 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Nguyên hàm và Tích phân",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Nguyên hàm và bảng nguyên hàm cơ bản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Nguyên hàm và bảng nguyên hàm cơ bản.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Nguyên hàm của hàm số",
+          "definition": "Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu là ∫ f(x)dx = F(x) + C (C là hằng số).",
+          "example": "∫ x² dx = x³/3 + C vì (x³/3 + C)' = 3x²/3 = x²; ∫ e^x dx = e^x + C.",
+          "essence": "Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên."
+        },
+        {
+          "term": "Công thức Newton - Leibniz",
+          "definition": "Tích phân từ a đến b của f(x) bằng hiệu số nguyên hàm tại hai mút: ∫_a^b f(x)dx = F(b) - F(a) = F(x)|_a^b.",
+          "example": "∫_0^2 2x dx = x²|_0^2 = 2² - 0² = 4.",
+          "essence": "Cầu nối vĩ đại giữa giải tích vi phân và tích phân, biến bài toán tính tổng vô hạn các diện tích vô cùng bé thành việc lấy hiệu của hàm nguyên hàm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ứng dụng hình học tính thể tích khối tròn xoay",
+          "meaning": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b quanh trục Ox là V = π · ∫_a^b [f(x)]² dx.",
+          "example": "Quay hình phẳng giới hạn bởi y = √x, x = 0, x = 4 quanh Ox ta có V = π · ∫_0^4 (√x)² dx = π · ∫_0^4 x dx = π · (x²/2)|_0^4 = 8π.",
+          "essence": "Khối tròn xoay được cắt thành các lát đĩa tròn vô cùng mỏng có diện tích π·r² = π·[f(x)]² và tích phân cộng dồn các đĩa này lại."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoành Ox.",
+          "steps": [
+            "Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2.",
+            "Bước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx.",
+            "Bước 3: Tìm nguyên hàm: F(x) = 4x - x³/3.",
+            "Bước 4: Thay cận: S = [4·2 - 8/3] - [4·(-2) - (-8)/3] = [8 - 8/3] - [-8 + 8/3] = 16/3 - (-16/3) = 32/3."
+          ],
+          "answer": "Diện tích hình phẳng S = 32/3 (đơn vị diện tích)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π∫ [f(x)]² dx.",
+          "why": "Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tích phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tích phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Nguyên hàm của hàm số",
+          "definition": "Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu là ∫ f(x)dx = F(x) + C (C là hằng số).",
+          "example": "∫ x² dx = x³/3 + C vì (x³/3 + C)' = 3x²/3 = x²; ∫ e^x dx = e^x + C.",
+          "essence": "Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên."
+        },
+        {
+          "term": "Công thức Newton - Leibniz",
+          "definition": "Tích phân từ a đến b của f(x) bằng hiệu số nguyên hàm tại hai mút: ∫_a^b f(x)dx = F(b) - F(a) = F(x)|_a^b.",
+          "example": "∫_0^2 2x dx = x²|_0^2 = 2² - 0² = 4.",
+          "essence": "Cầu nối vĩ đại giữa giải tích vi phân và tích phân, biến bài toán tính tổng vô hạn các diện tích vô cùng bé thành việc lấy hiệu của hàm nguyên hàm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ứng dụng hình học tính thể tích khối tròn xoay",
+          "meaning": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b quanh trục Ox là V = π · ∫_a^b [f(x)]² dx.",
+          "example": "Quay hình phẳng giới hạn bởi y = √x, x = 0, x = 4 quanh Ox ta có V = π · ∫_0^4 (√x)² dx = π · ∫_0^4 x dx = π · (x²/2)|_0^4 = 8π.",
+          "essence": "Khối tròn xoay được cắt thành các lát đĩa tròn vô cùng mỏng có diện tích π·r² = π·[f(x)]² và tích phân cộng dồn các đĩa này lại."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoành Ox.",
+          "steps": [
+            "Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2.",
+            "Bước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx.",
+            "Bước 3: Tìm nguyên hàm: F(x) = 4x - x³/3.",
+            "Bước 4: Thay cận: S = [4·2 - 8/3] - [4·(-2) - (-8)/3] = [8 - 8/3] - [-8 + 8/3] = 16/3 - (-16/3) = 32/3."
+          ],
+          "answer": "Diện tích hình phẳng S = 32/3 (đơn vị diện tích)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π∫ [f(x)]² dx.",
+          "why": "Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Ứng dụng hình học của tích phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Ứng dụng hình học của tích phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Nguyên hàm của hàm số",
+          "definition": "Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu là ∫ f(x)dx = F(x) + C (C là hằng số).",
+          "example": "∫ x² dx = x³/3 + C vì (x³/3 + C)' = 3x²/3 = x²; ∫ e^x dx = e^x + C.",
+          "essence": "Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên."
+        },
+        {
+          "term": "Công thức Newton - Leibniz",
+          "definition": "Tích phân từ a đến b của f(x) bằng hiệu số nguyên hàm tại hai mút: ∫_a^b f(x)dx = F(b) - F(a) = F(x)|_a^b.",
+          "example": "∫_0^2 2x dx = x²|_0^2 = 2² - 0² = 4.",
+          "essence": "Cầu nối vĩ đại giữa giải tích vi phân và tích phân, biến bài toán tính tổng vô hạn các diện tích vô cùng bé thành việc lấy hiệu của hàm nguyên hàm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Ứng dụng hình học tính thể tích khối tròn xoay",
+          "meaning": "Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b quanh trục Ox là V = π · ∫_a^b [f(x)]² dx.",
+          "example": "Quay hình phẳng giới hạn bởi y = √x, x = 0, x = 4 quanh Ox ta có V = π · ∫_0^4 (√x)² dx = π · ∫_0^4 x dx = π · (x²/2)|_0^4 = 8π.",
+          "essence": "Khối tròn xoay được cắt thành các lát đĩa tròn vô cùng mỏng có diện tích π·r² = π·[f(x)]² và tích phân cộng dồn các đĩa này lại."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoành Ox.",
+          "steps": [
+            "Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2.",
+            "Bước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx.",
+            "Bước 3: Tìm nguyên hàm: F(x) = 4x - x³/3.",
+            "Bước 4: Thay cận: S = [4·2 - 8/3] - [4·(-2) - (-8)/3] = [8 - 8/3] - [-8 + 8/3] = 16/3 - (-16/3) = 32/3."
+          ],
+          "answer": "Diện tích hình phẳng S = 32/3 (đơn vị diện tích)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π∫ [f(x)]² dx.",
+          "why": "Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π."
+        }
+      ]
+    }
+  ]
+}

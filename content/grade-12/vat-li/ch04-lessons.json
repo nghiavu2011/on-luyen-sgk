@@ -1,0 +1,206 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Vật lí hạt nhân",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Cấu trúc hạt nhân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Cấu trúc hạt nhân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Độ hụt khối và Năng lượng liên kết hạt nhân",
+          "definition": "Độ hụt khối Δm = [Z·m_p + (A - Z)·m_n] - m_hn > 0. Năng lượng liên kết: E_lk = Δm · c². Năng lượng liên kết riêng E_lkr = E_lk / A đặc trưng cho độ bền vững của hạt nhân (hạt nhân có số khối 50 < A < 80 bền vững nhất).",
+          "example": "Hạt nhân Sắt ⁵⁶Fe có năng lượng liên kết riêng lớn nhất xấp xỉ 8.8 MeV/nucleon nên là một trong những hạt nhân bền vững nhất trong tự nhiên.",
+          "essence": "Khối lượng của hạt nhân luôn nhỏ hơn tổng khối lượng của các nucleon tự do tạo nên nó; phần khối lượng hụt đi chuyển hóa thành năng lượng liên kết gắn kết các nucleon."
+        },
+        {
+          "term": "Định luật phóng xạ và Chu kỳ bán rã",
+          "definition": "Phóng xạ là quá trình tự phân rã tự phát của hạt nhân không bền vững phát ra các tia phóng xạ. Số hạt nhân còn lại sau thời gian t tuân theo định luật: N(t) = N₀ · 2^(-t/T) = N₀ · e^(-λt) với T là chu kỳ bán rã.",
+          "example": "Đồng vị phóng xạ Iod-131 có chu kỳ bán rã T = 8 ngày. Sau 24 ngày (3 chu kỳ), lượng phóng xạ còn lại là (1/2)³ = 1/8 so với ban đầu.",
+          "essence": "Quá trình phóng xạ mang tính xác suất thống kê lượng tử ngẫu nhiên, không phụ thuộc vào các điều kiện hóa học hay nhiệt độ, áp suất bên ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các định luật bảo toàn trong phản ứng hạt nhân",
+          "meaning": "Trong mọi phản ứng hạt nhân luôn tuân thủ 4 định luật bảo toàn: Bảo toàn điện tích (Z), Bảo toàn số khối (A hay số nucleon), Bảo toàn động lượng và Bảo toàn năng lượng toàn phần (không có định luật bảo toàn khối lượng nghỉ).",
+          "example": "Trong phản ứng: ¹⁰₅B + n → ⁷₃Li + ⁴₂He, tổng số khối hai vế: 10 + 1 = 7 + 4 = 11; tổng điện tích: 5 + 0 = 3 + 2 = 5.",
+          "essence": "Số lượng các proton và neutron không bị mất đi mà chỉ được tái sắp xếp lại tạo ra cấu trúc hạt nhân mới."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đồng vị Cacbon ¹⁴C có chu kỳ bán rã T = 5730 năm. Phân tích một mẫu gỗ cổ thấy lượng ¹⁴C còn lại bằng 25% lượng ¹⁴C có trong mẫu gỗ tươi cùng loại. Xác định tuổi của mẫu gỗ cổ?",
+          "steps": [
+            "Bước 1: Áp dụng định luật phóng xạ: N(t) / N₀ = 2^(-t/T).",
+            "Bước 2: Theo đề bài, tỉ lệ còn lại là 25% = 1/4 = 2^(-2).",
+            "Bước 3: Suy ra: 2^(-t/T) = 2^(-2) ⇔ t/T = 2 ⇔ t = 2 · T.",
+            "Bước 4: Thay T = 5730 năm: t = 2 · 5730 = 11460 năm."
+          ],
+          "answer": "Tuổi của mẫu gỗ cổ là 11.460 năm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.",
+          "why": "Khối lượng nghỉ KHÔNG bảo toàn; độ chênh lệch khối lượng nghỉ ΔM = M_trước - M_sau chuyển hóa thành năng lượng tỏa ra hoặc thu vào theo hệ thức E = ΔM·c²."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phản ứng hạt nhân và Năng lượng liên kết",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phản ứng hạt nhân và Năng lượng liên kết.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Độ hụt khối và Năng lượng liên kết hạt nhân",
+          "definition": "Độ hụt khối Δm = [Z·m_p + (A - Z)·m_n] - m_hn > 0. Năng lượng liên kết: E_lk = Δm · c². Năng lượng liên kết riêng E_lkr = E_lk / A đặc trưng cho độ bền vững của hạt nhân (hạt nhân có số khối 50 < A < 80 bền vững nhất).",
+          "example": "Hạt nhân Sắt ⁵⁶Fe có năng lượng liên kết riêng lớn nhất xấp xỉ 8.8 MeV/nucleon nên là một trong những hạt nhân bền vững nhất trong tự nhiên.",
+          "essence": "Khối lượng của hạt nhân luôn nhỏ hơn tổng khối lượng của các nucleon tự do tạo nên nó; phần khối lượng hụt đi chuyển hóa thành năng lượng liên kết gắn kết các nucleon."
+        },
+        {
+          "term": "Định luật phóng xạ và Chu kỳ bán rã",
+          "definition": "Phóng xạ là quá trình tự phân rã tự phát của hạt nhân không bền vững phát ra các tia phóng xạ. Số hạt nhân còn lại sau thời gian t tuân theo định luật: N(t) = N₀ · 2^(-t/T) = N₀ · e^(-λt) với T là chu kỳ bán rã.",
+          "example": "Đồng vị phóng xạ Iod-131 có chu kỳ bán rã T = 8 ngày. Sau 24 ngày (3 chu kỳ), lượng phóng xạ còn lại là (1/2)³ = 1/8 so với ban đầu.",
+          "essence": "Quá trình phóng xạ mang tính xác suất thống kê lượng tử ngẫu nhiên, không phụ thuộc vào các điều kiện hóa học hay nhiệt độ, áp suất bên ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các định luật bảo toàn trong phản ứng hạt nhân",
+          "meaning": "Trong mọi phản ứng hạt nhân luôn tuân thủ 4 định luật bảo toàn: Bảo toàn điện tích (Z), Bảo toàn số khối (A hay số nucleon), Bảo toàn động lượng và Bảo toàn năng lượng toàn phần (không có định luật bảo toàn khối lượng nghỉ).",
+          "example": "Trong phản ứng: ¹⁰₅B + n → ⁷₃Li + ⁴₂He, tổng số khối hai vế: 10 + 1 = 7 + 4 = 11; tổng điện tích: 5 + 0 = 3 + 2 = 5.",
+          "essence": "Số lượng các proton và neutron không bị mất đi mà chỉ được tái sắp xếp lại tạo ra cấu trúc hạt nhân mới."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đồng vị Cacbon ¹⁴C có chu kỳ bán rã T = 5730 năm. Phân tích một mẫu gỗ cổ thấy lượng ¹⁴C còn lại bằng 25% lượng ¹⁴C có trong mẫu gỗ tươi cùng loại. Xác định tuổi của mẫu gỗ cổ?",
+          "steps": [
+            "Bước 1: Áp dụng định luật phóng xạ: N(t) / N₀ = 2^(-t/T).",
+            "Bước 2: Theo đề bài, tỉ lệ còn lại là 25% = 1/4 = 2^(-2).",
+            "Bước 3: Suy ra: 2^(-t/T) = 2^(-2) ⇔ t/T = 2 ⇔ t = 2 · T.",
+            "Bước 4: Thay T = 5730 năm: t = 2 · 5730 = 11460 năm."
+          ],
+          "answer": "Tuổi của mẫu gỗ cổ là 11.460 năm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.",
+          "why": "Khối lượng nghỉ KHÔNG bảo toàn; độ chênh lệch khối lượng nghỉ ΔM = M_trước - M_sau chuyển hóa thành năng lượng tỏa ra hoặc thu vào theo hệ thức E = ΔM·c²."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Hiện tượng phóng xạ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Hiện tượng phóng xạ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Độ hụt khối và Năng lượng liên kết hạt nhân",
+          "definition": "Độ hụt khối Δm = [Z·m_p + (A - Z)·m_n] - m_hn > 0. Năng lượng liên kết: E_lk = Δm · c². Năng lượng liên kết riêng E_lkr = E_lk / A đặc trưng cho độ bền vững của hạt nhân (hạt nhân có số khối 50 < A < 80 bền vững nhất).",
+          "example": "Hạt nhân Sắt ⁵⁶Fe có năng lượng liên kết riêng lớn nhất xấp xỉ 8.8 MeV/nucleon nên là một trong những hạt nhân bền vững nhất trong tự nhiên.",
+          "essence": "Khối lượng của hạt nhân luôn nhỏ hơn tổng khối lượng của các nucleon tự do tạo nên nó; phần khối lượng hụt đi chuyển hóa thành năng lượng liên kết gắn kết các nucleon."
+        },
+        {
+          "term": "Định luật phóng xạ và Chu kỳ bán rã",
+          "definition": "Phóng xạ là quá trình tự phân rã tự phát của hạt nhân không bền vững phát ra các tia phóng xạ. Số hạt nhân còn lại sau thời gian t tuân theo định luật: N(t) = N₀ · 2^(-t/T) = N₀ · e^(-λt) với T là chu kỳ bán rã.",
+          "example": "Đồng vị phóng xạ Iod-131 có chu kỳ bán rã T = 8 ngày. Sau 24 ngày (3 chu kỳ), lượng phóng xạ còn lại là (1/2)³ = 1/8 so với ban đầu.",
+          "essence": "Quá trình phóng xạ mang tính xác suất thống kê lượng tử ngẫu nhiên, không phụ thuộc vào các điều kiện hóa học hay nhiệt độ, áp suất bên ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các định luật bảo toàn trong phản ứng hạt nhân",
+          "meaning": "Trong mọi phản ứng hạt nhân luôn tuân thủ 4 định luật bảo toàn: Bảo toàn điện tích (Z), Bảo toàn số khối (A hay số nucleon), Bảo toàn động lượng và Bảo toàn năng lượng toàn phần (không có định luật bảo toàn khối lượng nghỉ).",
+          "example": "Trong phản ứng: ¹⁰₅B + n → ⁷₃Li + ⁴₂He, tổng số khối hai vế: 10 + 1 = 7 + 4 = 11; tổng điện tích: 5 + 0 = 3 + 2 = 5.",
+          "essence": "Số lượng các proton và neutron không bị mất đi mà chỉ được tái sắp xếp lại tạo ra cấu trúc hạt nhân mới."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đồng vị Cacbon ¹⁴C có chu kỳ bán rã T = 5730 năm. Phân tích một mẫu gỗ cổ thấy lượng ¹⁴C còn lại bằng 25% lượng ¹⁴C có trong mẫu gỗ tươi cùng loại. Xác định tuổi của mẫu gỗ cổ?",
+          "steps": [
+            "Bước 1: Áp dụng định luật phóng xạ: N(t) / N₀ = 2^(-t/T).",
+            "Bước 2: Theo đề bài, tỉ lệ còn lại là 25% = 1/4 = 2^(-2).",
+            "Bước 3: Suy ra: 2^(-t/T) = 2^(-2) ⇔ t/T = 2 ⇔ t = 2 · T.",
+            "Bước 4: Thay T = 5730 năm: t = 2 · 5730 = 11460 năm."
+          ],
+          "answer": "Tuổi của mẫu gỗ cổ là 11.460 năm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.",
+          "why": "Khối lượng nghỉ KHÔNG bảo toàn; độ chênh lệch khối lượng nghỉ ΔM = M_trước - M_sau chuyển hóa thành năng lượng tỏa ra hoặc thu vào theo hệ thức E = ΔM·c²."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Công nghiệp hạt nhân và An toàn bức xạ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 4: Công nghiệp hạt nhân và An toàn bức xạ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Độ hụt khối và Năng lượng liên kết hạt nhân",
+          "definition": "Độ hụt khối Δm = [Z·m_p + (A - Z)·m_n] - m_hn > 0. Năng lượng liên kết: E_lk = Δm · c². Năng lượng liên kết riêng E_lkr = E_lk / A đặc trưng cho độ bền vững của hạt nhân (hạt nhân có số khối 50 < A < 80 bền vững nhất).",
+          "example": "Hạt nhân Sắt ⁵⁶Fe có năng lượng liên kết riêng lớn nhất xấp xỉ 8.8 MeV/nucleon nên là một trong những hạt nhân bền vững nhất trong tự nhiên.",
+          "essence": "Khối lượng của hạt nhân luôn nhỏ hơn tổng khối lượng của các nucleon tự do tạo nên nó; phần khối lượng hụt đi chuyển hóa thành năng lượng liên kết gắn kết các nucleon."
+        },
+        {
+          "term": "Định luật phóng xạ và Chu kỳ bán rã",
+          "definition": "Phóng xạ là quá trình tự phân rã tự phát của hạt nhân không bền vững phát ra các tia phóng xạ. Số hạt nhân còn lại sau thời gian t tuân theo định luật: N(t) = N₀ · 2^(-t/T) = N₀ · e^(-λt) với T là chu kỳ bán rã.",
+          "example": "Đồng vị phóng xạ Iod-131 có chu kỳ bán rã T = 8 ngày. Sau 24 ngày (3 chu kỳ), lượng phóng xạ còn lại là (1/2)³ = 1/8 so với ban đầu.",
+          "essence": "Quá trình phóng xạ mang tính xác suất thống kê lượng tử ngẫu nhiên, không phụ thuộc vào các điều kiện hóa học hay nhiệt độ, áp suất bên ngoài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các định luật bảo toàn trong phản ứng hạt nhân",
+          "meaning": "Trong mọi phản ứng hạt nhân luôn tuân thủ 4 định luật bảo toàn: Bảo toàn điện tích (Z), Bảo toàn số khối (A hay số nucleon), Bảo toàn động lượng và Bảo toàn năng lượng toàn phần (không có định luật bảo toàn khối lượng nghỉ).",
+          "example": "Trong phản ứng: ¹⁰₅B + n → ⁷₃Li + ⁴₂He, tổng số khối hai vế: 10 + 1 = 7 + 4 = 11; tổng điện tích: 5 + 0 = 3 + 2 = 5.",
+          "essence": "Số lượng các proton và neutron không bị mất đi mà chỉ được tái sắp xếp lại tạo ra cấu trúc hạt nhân mới."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Đồng vị Cacbon ¹⁴C có chu kỳ bán rã T = 5730 năm. Phân tích một mẫu gỗ cổ thấy lượng ¹⁴C còn lại bằng 25% lượng ¹⁴C có trong mẫu gỗ tươi cùng loại. Xác định tuổi của mẫu gỗ cổ?",
+          "steps": [
+            "Bước 1: Áp dụng định luật phóng xạ: N(t) / N₀ = 2^(-t/T).",
+            "Bước 2: Theo đề bài, tỉ lệ còn lại là 25% = 1/4 = 2^(-2).",
+            "Bước 3: Suy ra: 2^(-t/T) = 2^(-2) ⇔ t/T = 2 ⇔ t = 2 · T.",
+            "Bước 4: Thay T = 5730 năm: t = 2 · 5730 = 11460 năm."
+          ],
+          "answer": "Tuổi của mẫu gỗ cổ là 11.460 năm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.",
+          "why": "Khối lượng nghỉ KHÔNG bảo toàn; độ chênh lệch khối lượng nghỉ ΔM = M_trước - M_sau chuyển hóa thành năng lượng tỏa ra hoặc thu vào theo hệ thức E = ΔM·c²."
+        }
+      ]
+    }
+  ]
+}

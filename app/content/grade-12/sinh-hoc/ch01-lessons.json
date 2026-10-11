@@ -1,0 +1,256 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Di truyền phân tử và Di truyền nhiễm sắc thể",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Gen, mã di truyền và quá trình nhân đôi DNA",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Gen, mã di truyền và quá trình nhân đôi DNA.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mã di truyền và Đặc điểm của mã di truyền",
+          "definition": "Mã di truyền là mã bộ ba: cứ 3 nucleotide liền kề trên mARN mã hóa cho 1 axit amin. Có 4 đặc điểm: Tính liên tục (đọc từ 1 điểm xác định không gối lên nhau), Tính phổ biến (hầu hết sinh vật dùng chung), Tính đặc hiệu (1 bộ ba chỉ mã hóa 1 axit amin) và Tính thoái hóa (nhiều bộ ba cùng mã hóa 1 axit amin).",
+          "example": "Mã mở đầu 5'-AUG-3' quy định axit amin Methionine ở sinh vật nhân thực; 3 mã kết thúc: 5'-UAA-3', 5'-UAG-3', 5'-UGA-3'.",
+          "essence": "Mã hóa thông tin cấu trúc protein từ trình tự nucleotide trong axit nucleic."
+        },
+        {
+          "term": "Mô hình Operon Lac ở vi khuẩn E. coli",
+          "definition": "Là cụm các gen cấu trúc có liên quan về chức năng được điều hòa bởi một vùng chỉ huy operator (O) duy nhất. Gồm: Vùng khởi động P, vùng chỉ huy O và các gen cấu trúc Z, Y, A quy định enzyme phân giải lactose.",
+          "example": "Khi môi trường có lactose: Lactose liên kết với protein ức chế làm nó biến đổi cấu hình không gắn được vào O, ARN polymerase bám vào P tiến hành phiên mã tạo enzyme.",
+          "essence": "Tiết kiệm năng lượng cho tế bào: chỉ tổng hợp protein khi môi trường có cơ chất cần chuyển hóa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc bán bảo tồn và bổ sung trong nhân đôi DNA",
+          "meaning": "Trong mỗi phân tử DNA con tạo thành có 1 mạch cũ của DNA mẹ và 1 mạch mới được tổng hợp theo nguyên tắc bổ sung: A liên kết với T bằng 2 liên kết hydro, G liên kết với C bằng 3 liên kết hydro.",
+          "example": "Từ 1 phân tử DNA mẹ ban đầu mang phóng xạ ¹⁵N, sau 3 thế hệ nhân đôi trong môi trường ¹⁴N thu được 8 phân tử DNA con, trong đó có đúng 2 phân tử mang phóng xạ lai ¹⁴N-¹⁵N.",
+          "essence": "Đảm bảo thông tin di truyền được truyền đạt chính xác nguyên vẹn qua các thế hệ tế bào và cá thể."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử DNA ở sinh vật nhân sơ có chiều dài 4080 Å và có 3120 liên kết hydro. Tính số lượng từng loại nucleotide (A, T, G, C) của phân tử DNA này?",
+          "steps": [
+            "Bước 1: Tổng số nucleotide của DNA: N = (2 · L) / 3.4 = (2 · 4080) / 3.4 = 2400 nucleotide.",
+            "Bước 2: Hệ phương trình: (1) 2A + 2G = 2400 (do A = T và G = C); (2) 2A + 3G = 3120 (tổng liên kết H).",
+            "Bước 3: Lấy phương trình (2) trừ phương trình (1): G = 3120 - 2400 = 720 nucleotide.",
+            "Bước 4: Thay G vào (1): 2A = 2400 - 2·720 = 2400 - 1440 = 960 ⇒ A = 480 nucleotide."
+          ],
+          "answer": "A = T = 480 nucleotide; G = C = 720 nucleotide."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chiều của mạch tổng hợp: ARN polymerase di chuyển dọc theo mạch khuôn theo chiều 3' → 5' nhưng tổng hợp mạch mới theo chiều 5' → 3'.",
+          "why": "Enzyme polymer hóa chỉ có thể kéo dài đầu 3'-OH tự do của chuỗi nucleotide mới."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phiên mã và Dịch mã",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phiên mã và Dịch mã.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mã di truyền và Đặc điểm của mã di truyền",
+          "definition": "Mã di truyền là mã bộ ba: cứ 3 nucleotide liền kề trên mARN mã hóa cho 1 axit amin. Có 4 đặc điểm: Tính liên tục (đọc từ 1 điểm xác định không gối lên nhau), Tính phổ biến (hầu hết sinh vật dùng chung), Tính đặc hiệu (1 bộ ba chỉ mã hóa 1 axit amin) và Tính thoái hóa (nhiều bộ ba cùng mã hóa 1 axit amin).",
+          "example": "Mã mở đầu 5'-AUG-3' quy định axit amin Methionine ở sinh vật nhân thực; 3 mã kết thúc: 5'-UAA-3', 5'-UAG-3', 5'-UGA-3'.",
+          "essence": "Mã hóa thông tin cấu trúc protein từ trình tự nucleotide trong axit nucleic."
+        },
+        {
+          "term": "Mô hình Operon Lac ở vi khuẩn E. coli",
+          "definition": "Là cụm các gen cấu trúc có liên quan về chức năng được điều hòa bởi một vùng chỉ huy operator (O) duy nhất. Gồm: Vùng khởi động P, vùng chỉ huy O và các gen cấu trúc Z, Y, A quy định enzyme phân giải lactose.",
+          "example": "Khi môi trường có lactose: Lactose liên kết với protein ức chế làm nó biến đổi cấu hình không gắn được vào O, ARN polymerase bám vào P tiến hành phiên mã tạo enzyme.",
+          "essence": "Tiết kiệm năng lượng cho tế bào: chỉ tổng hợp protein khi môi trường có cơ chất cần chuyển hóa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc bán bảo tồn và bổ sung trong nhân đôi DNA",
+          "meaning": "Trong mỗi phân tử DNA con tạo thành có 1 mạch cũ của DNA mẹ và 1 mạch mới được tổng hợp theo nguyên tắc bổ sung: A liên kết với T bằng 2 liên kết hydro, G liên kết với C bằng 3 liên kết hydro.",
+          "example": "Từ 1 phân tử DNA mẹ ban đầu mang phóng xạ ¹⁵N, sau 3 thế hệ nhân đôi trong môi trường ¹⁴N thu được 8 phân tử DNA con, trong đó có đúng 2 phân tử mang phóng xạ lai ¹⁴N-¹⁵N.",
+          "essence": "Đảm bảo thông tin di truyền được truyền đạt chính xác nguyên vẹn qua các thế hệ tế bào và cá thể."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử DNA ở sinh vật nhân sơ có chiều dài 4080 Å và có 3120 liên kết hydro. Tính số lượng từng loại nucleotide (A, T, G, C) của phân tử DNA này?",
+          "steps": [
+            "Bước 1: Tổng số nucleotide của DNA: N = (2 · L) / 3.4 = (2 · 4080) / 3.4 = 2400 nucleotide.",
+            "Bước 2: Hệ phương trình: (1) 2A + 2G = 2400 (do A = T và G = C); (2) 2A + 3G = 3120 (tổng liên kết H).",
+            "Bước 3: Lấy phương trình (2) trừ phương trình (1): G = 3120 - 2400 = 720 nucleotide.",
+            "Bước 4: Thay G vào (1): 2A = 2400 - 2·720 = 2400 - 1440 = 960 ⇒ A = 480 nucleotide."
+          ],
+          "answer": "A = T = 480 nucleotide; G = C = 720 nucleotide."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chiều của mạch tổng hợp: ARN polymerase di chuyển dọc theo mạch khuôn theo chiều 3' → 5' nhưng tổng hợp mạch mới theo chiều 5' → 3'.",
+          "why": "Enzyme polymer hóa chỉ có thể kéo dài đầu 3'-OH tự do của chuỗi nucleotide mới."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Điều hòa biểu hiện gen",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Điều hòa biểu hiện gen.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mã di truyền và Đặc điểm của mã di truyền",
+          "definition": "Mã di truyền là mã bộ ba: cứ 3 nucleotide liền kề trên mARN mã hóa cho 1 axit amin. Có 4 đặc điểm: Tính liên tục (đọc từ 1 điểm xác định không gối lên nhau), Tính phổ biến (hầu hết sinh vật dùng chung), Tính đặc hiệu (1 bộ ba chỉ mã hóa 1 axit amin) và Tính thoái hóa (nhiều bộ ba cùng mã hóa 1 axit amin).",
+          "example": "Mã mở đầu 5'-AUG-3' quy định axit amin Methionine ở sinh vật nhân thực; 3 mã kết thúc: 5'-UAA-3', 5'-UAG-3', 5'-UGA-3'.",
+          "essence": "Mã hóa thông tin cấu trúc protein từ trình tự nucleotide trong axit nucleic."
+        },
+        {
+          "term": "Mô hình Operon Lac ở vi khuẩn E. coli",
+          "definition": "Là cụm các gen cấu trúc có liên quan về chức năng được điều hòa bởi một vùng chỉ huy operator (O) duy nhất. Gồm: Vùng khởi động P, vùng chỉ huy O và các gen cấu trúc Z, Y, A quy định enzyme phân giải lactose.",
+          "example": "Khi môi trường có lactose: Lactose liên kết với protein ức chế làm nó biến đổi cấu hình không gắn được vào O, ARN polymerase bám vào P tiến hành phiên mã tạo enzyme.",
+          "essence": "Tiết kiệm năng lượng cho tế bào: chỉ tổng hợp protein khi môi trường có cơ chất cần chuyển hóa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc bán bảo tồn và bổ sung trong nhân đôi DNA",
+          "meaning": "Trong mỗi phân tử DNA con tạo thành có 1 mạch cũ của DNA mẹ và 1 mạch mới được tổng hợp theo nguyên tắc bổ sung: A liên kết với T bằng 2 liên kết hydro, G liên kết với C bằng 3 liên kết hydro.",
+          "example": "Từ 1 phân tử DNA mẹ ban đầu mang phóng xạ ¹⁵N, sau 3 thế hệ nhân đôi trong môi trường ¹⁴N thu được 8 phân tử DNA con, trong đó có đúng 2 phân tử mang phóng xạ lai ¹⁴N-¹⁵N.",
+          "essence": "Đảm bảo thông tin di truyền được truyền đạt chính xác nguyên vẹn qua các thế hệ tế bào và cá thể."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử DNA ở sinh vật nhân sơ có chiều dài 4080 Å và có 3120 liên kết hydro. Tính số lượng từng loại nucleotide (A, T, G, C) của phân tử DNA này?",
+          "steps": [
+            "Bước 1: Tổng số nucleotide của DNA: N = (2 · L) / 3.4 = (2 · 4080) / 3.4 = 2400 nucleotide.",
+            "Bước 2: Hệ phương trình: (1) 2A + 2G = 2400 (do A = T và G = C); (2) 2A + 3G = 3120 (tổng liên kết H).",
+            "Bước 3: Lấy phương trình (2) trừ phương trình (1): G = 3120 - 2400 = 720 nucleotide.",
+            "Bước 4: Thay G vào (1): 2A = 2400 - 2·720 = 2400 - 1440 = 960 ⇒ A = 480 nucleotide."
+          ],
+          "answer": "A = T = 480 nucleotide; G = C = 720 nucleotide."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chiều của mạch tổng hợp: ARN polymerase di chuyển dọc theo mạch khuôn theo chiều 3' → 5' nhưng tổng hợp mạch mới theo chiều 5' → 3'.",
+          "why": "Enzyme polymer hóa chỉ có thể kéo dài đầu 3'-OH tự do của chuỗi nucleotide mới."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Đột biến gen",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 4: Đột biến gen.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mã di truyền và Đặc điểm của mã di truyền",
+          "definition": "Mã di truyền là mã bộ ba: cứ 3 nucleotide liền kề trên mARN mã hóa cho 1 axit amin. Có 4 đặc điểm: Tính liên tục (đọc từ 1 điểm xác định không gối lên nhau), Tính phổ biến (hầu hết sinh vật dùng chung), Tính đặc hiệu (1 bộ ba chỉ mã hóa 1 axit amin) và Tính thoái hóa (nhiều bộ ba cùng mã hóa 1 axit amin).",
+          "example": "Mã mở đầu 5'-AUG-3' quy định axit amin Methionine ở sinh vật nhân thực; 3 mã kết thúc: 5'-UAA-3', 5'-UAG-3', 5'-UGA-3'.",
+          "essence": "Mã hóa thông tin cấu trúc protein từ trình tự nucleotide trong axit nucleic."
+        },
+        {
+          "term": "Mô hình Operon Lac ở vi khuẩn E. coli",
+          "definition": "Là cụm các gen cấu trúc có liên quan về chức năng được điều hòa bởi một vùng chỉ huy operator (O) duy nhất. Gồm: Vùng khởi động P, vùng chỉ huy O và các gen cấu trúc Z, Y, A quy định enzyme phân giải lactose.",
+          "example": "Khi môi trường có lactose: Lactose liên kết với protein ức chế làm nó biến đổi cấu hình không gắn được vào O, ARN polymerase bám vào P tiến hành phiên mã tạo enzyme.",
+          "essence": "Tiết kiệm năng lượng cho tế bào: chỉ tổng hợp protein khi môi trường có cơ chất cần chuyển hóa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc bán bảo tồn và bổ sung trong nhân đôi DNA",
+          "meaning": "Trong mỗi phân tử DNA con tạo thành có 1 mạch cũ của DNA mẹ và 1 mạch mới được tổng hợp theo nguyên tắc bổ sung: A liên kết với T bằng 2 liên kết hydro, G liên kết với C bằng 3 liên kết hydro.",
+          "example": "Từ 1 phân tử DNA mẹ ban đầu mang phóng xạ ¹⁵N, sau 3 thế hệ nhân đôi trong môi trường ¹⁴N thu được 8 phân tử DNA con, trong đó có đúng 2 phân tử mang phóng xạ lai ¹⁴N-¹⁵N.",
+          "essence": "Đảm bảo thông tin di truyền được truyền đạt chính xác nguyên vẹn qua các thế hệ tế bào và cá thể."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử DNA ở sinh vật nhân sơ có chiều dài 4080 Å và có 3120 liên kết hydro. Tính số lượng từng loại nucleotide (A, T, G, C) của phân tử DNA này?",
+          "steps": [
+            "Bước 1: Tổng số nucleotide của DNA: N = (2 · L) / 3.4 = (2 · 4080) / 3.4 = 2400 nucleotide.",
+            "Bước 2: Hệ phương trình: (1) 2A + 2G = 2400 (do A = T và G = C); (2) 2A + 3G = 3120 (tổng liên kết H).",
+            "Bước 3: Lấy phương trình (2) trừ phương trình (1): G = 3120 - 2400 = 720 nucleotide.",
+            "Bước 4: Thay G vào (1): 2A = 2400 - 2·720 = 2400 - 1440 = 960 ⇒ A = 480 nucleotide."
+          ],
+          "answer": "A = T = 480 nucleotide; G = C = 720 nucleotide."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chiều của mạch tổng hợp: ARN polymerase di chuyển dọc theo mạch khuôn theo chiều 3' → 5' nhưng tổng hợp mạch mới theo chiều 5' → 3'.",
+          "why": "Enzyme polymer hóa chỉ có thể kéo dài đầu 3'-OH tự do của chuỗi nucleotide mới."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Nhiễm sắc thể và đột biến nhiễm sắc thể",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 5: Nhiễm sắc thể và đột biến nhiễm sắc thể.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mã di truyền và Đặc điểm của mã di truyền",
+          "definition": "Mã di truyền là mã bộ ba: cứ 3 nucleotide liền kề trên mARN mã hóa cho 1 axit amin. Có 4 đặc điểm: Tính liên tục (đọc từ 1 điểm xác định không gối lên nhau), Tính phổ biến (hầu hết sinh vật dùng chung), Tính đặc hiệu (1 bộ ba chỉ mã hóa 1 axit amin) và Tính thoái hóa (nhiều bộ ba cùng mã hóa 1 axit amin).",
+          "example": "Mã mở đầu 5'-AUG-3' quy định axit amin Methionine ở sinh vật nhân thực; 3 mã kết thúc: 5'-UAA-3', 5'-UAG-3', 5'-UGA-3'.",
+          "essence": "Mã hóa thông tin cấu trúc protein từ trình tự nucleotide trong axit nucleic."
+        },
+        {
+          "term": "Mô hình Operon Lac ở vi khuẩn E. coli",
+          "definition": "Là cụm các gen cấu trúc có liên quan về chức năng được điều hòa bởi một vùng chỉ huy operator (O) duy nhất. Gồm: Vùng khởi động P, vùng chỉ huy O và các gen cấu trúc Z, Y, A quy định enzyme phân giải lactose.",
+          "example": "Khi môi trường có lactose: Lactose liên kết với protein ức chế làm nó biến đổi cấu hình không gắn được vào O, ARN polymerase bám vào P tiến hành phiên mã tạo enzyme.",
+          "essence": "Tiết kiệm năng lượng cho tế bào: chỉ tổng hợp protein khi môi trường có cơ chất cần chuyển hóa."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Nguyên tắc bán bảo tồn và bổ sung trong nhân đôi DNA",
+          "meaning": "Trong mỗi phân tử DNA con tạo thành có 1 mạch cũ của DNA mẹ và 1 mạch mới được tổng hợp theo nguyên tắc bổ sung: A liên kết với T bằng 2 liên kết hydro, G liên kết với C bằng 3 liên kết hydro.",
+          "example": "Từ 1 phân tử DNA mẹ ban đầu mang phóng xạ ¹⁵N, sau 3 thế hệ nhân đôi trong môi trường ¹⁴N thu được 8 phân tử DNA con, trong đó có đúng 2 phân tử mang phóng xạ lai ¹⁴N-¹⁵N.",
+          "essence": "Đảm bảo thông tin di truyền được truyền đạt chính xác nguyên vẹn qua các thế hệ tế bào và cá thể."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử DNA ở sinh vật nhân sơ có chiều dài 4080 Å và có 3120 liên kết hydro. Tính số lượng từng loại nucleotide (A, T, G, C) của phân tử DNA này?",
+          "steps": [
+            "Bước 1: Tổng số nucleotide của DNA: N = (2 · L) / 3.4 = (2 · 4080) / 3.4 = 2400 nucleotide.",
+            "Bước 2: Hệ phương trình: (1) 2A + 2G = 2400 (do A = T và G = C); (2) 2A + 3G = 3120 (tổng liên kết H).",
+            "Bước 3: Lấy phương trình (2) trừ phương trình (1): G = 3120 - 2400 = 720 nucleotide.",
+            "Bước 4: Thay G vào (1): 2A = 2400 - 2·720 = 2400 - 1440 = 960 ⇒ A = 480 nucleotide."
+          ],
+          "answer": "A = T = 480 nucleotide; G = C = 720 nucleotide."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên chiều của mạch tổng hợp: ARN polymerase di chuyển dọc theo mạch khuôn theo chiều 3' → 5' nhưng tổng hợp mạch mới theo chiều 5' → 3'.",
+          "why": "Enzyme polymer hóa chỉ có thể kéo dài đầu 3'-OH tự do của chuỗi nucleotide mới."
+        }
+      ]
+    }
+  ]
+}

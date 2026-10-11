@@ -1,0 +1,256 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tính đơn điệu và cực trị của hàm số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tính đơn điệu và cực trị của hàm số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Tính đơn điệu của hàm số",
+          "definition": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.",
+          "example": "Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).",
+          "essence": "Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số."
+        },
+        {
+          "term": "Đường tiệm cận của đồ thị hàm số",
+          "definition": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.",
+          "example": "Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).",
+          "essence": "Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lý điều kiện cần và đủ của cực trị hàm số",
+          "meaning": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.",
+          "example": "Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.",
+          "essence": "Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.",
+          "steps": [
+            "Bước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).",
+            "Bước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).",
+            "Bước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).",
+            "Bước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m²."
+          ],
+          "answer": "Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.",
+          "why": "Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Giá trị lớn nhất và giá trị nhỏ nhất của hàm số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Tính đơn điệu của hàm số",
+          "definition": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.",
+          "example": "Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).",
+          "essence": "Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số."
+        },
+        {
+          "term": "Đường tiệm cận của đồ thị hàm số",
+          "definition": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.",
+          "example": "Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).",
+          "essence": "Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lý điều kiện cần và đủ của cực trị hàm số",
+          "meaning": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.",
+          "example": "Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.",
+          "essence": "Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.",
+          "steps": [
+            "Bước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).",
+            "Bước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).",
+            "Bước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).",
+            "Bước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m²."
+          ],
+          "answer": "Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.",
+          "why": "Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Đường tiệm cận của đồ thị hàm số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Đường tiệm cận của đồ thị hàm số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Tính đơn điệu của hàm số",
+          "definition": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.",
+          "example": "Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).",
+          "essence": "Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số."
+        },
+        {
+          "term": "Đường tiệm cận của đồ thị hàm số",
+          "definition": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.",
+          "example": "Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).",
+          "essence": "Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lý điều kiện cần và đủ của cực trị hàm số",
+          "meaning": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.",
+          "example": "Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.",
+          "essence": "Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.",
+          "steps": [
+            "Bước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).",
+            "Bước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).",
+            "Bước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).",
+            "Bước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m²."
+          ],
+          "answer": "Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.",
+          "why": "Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Khảo sát sự biến thiên và vẽ đồ thị của hàm số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 4: Khảo sát sự biến thiên và vẽ đồ thị của hàm số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Tính đơn điệu của hàm số",
+          "definition": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.",
+          "example": "Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).",
+          "essence": "Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số."
+        },
+        {
+          "term": "Đường tiệm cận của đồ thị hàm số",
+          "definition": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.",
+          "example": "Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).",
+          "essence": "Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lý điều kiện cần và đủ của cực trị hàm số",
+          "meaning": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.",
+          "example": "Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.",
+          "essence": "Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.",
+          "steps": [
+            "Bước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).",
+            "Bước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).",
+            "Bước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).",
+            "Bước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m²."
+          ],
+          "answer": "Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.",
+          "why": "Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 5: Ứng dụng đạo hàm để giải quyết một số vấn đề thực tiễn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Tính đơn điệu của hàm số",
+          "definition": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.",
+          "example": "Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).",
+          "essence": "Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số."
+        },
+        {
+          "term": "Đường tiệm cận của đồ thị hàm số",
+          "definition": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.",
+          "example": "Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).",
+          "essence": "Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lý điều kiện cần và đủ của cực trị hàm số",
+          "meaning": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.",
+          "example": "Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.",
+          "essence": "Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.",
+          "steps": [
+            "Bước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).",
+            "Bước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).",
+            "Bước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).",
+            "Bước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m²."
+          ],
+          "answer": "Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m²."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.",
+          "why": "Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị."
+        }
+      ]
+    }
+  ]
+}

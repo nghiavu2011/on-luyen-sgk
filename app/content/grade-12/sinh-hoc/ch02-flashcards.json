@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_sin_ch02_01",
+    "front": "Khái niệm 'Tần số alen và Cấu trúc di truyền của quần thể' trong Chương 2: Di truyền quần thể và Di truyền học người được định nghĩa như thế nào?",
+    "back": "Vốn gen của quần thể đặc trưng bởi tần số các alen và tần số các kiểu gen. Với gen có 2 alen A và a: Tần số alen p(A) = x + y/2; q(a) = z + y/2 với cấu trúc x AA + y Aa + z aa = 1 (p + q = 1).\n\n💡 Ví dụ: Quần thể có cấu trúc 0.36 AA : 0.48 Aa : 0.16 aa có tần số alen p(A) = 0.36 + 0.24 = 0.6 và q(a) = 0.4.\n🌱 Bản chất: Quần thể là đơn vị tiến hóa cơ sở, sự biến đổi tần số alen qua các thế hệ phản ánh tiến trình tiến hóa.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_02",
+    "front": "Khái niệm 'Định luật Hardy – Weinberg về cân bằng di truyền' trong Chương 2: Di truyền quần thể và Di truyền học người được định nghĩa như thế nào?",
+    "back": "Trong một quần thể ngẫu phối kích thước lớn, không có đột biến, không có di - nhập gen và không có chọn lọc tự nhiên thì tần số alen và thành phần kiểu gen duy trì không đổi qua các thế hệ: p² AA + 2pq Aa + q² aa = 1.\n\n💡 Ví dụ: Nếu p = 0.7 và q = 0.3 thì ở trạng thái cân bằng: 0.49 AA + 0.42 Aa + 0.09 aa = 1.\n🌱 Bản chất: Giải thích tại sao trong tự nhiên các đột biến lặn có hại vẫn tồn tại ổn định trong quần thể dưới dạng dị hợp tử.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_03",
+    "front": "Phát biểu quy tắc / định lí: 'Đặc điểm di truyền của quần thể tự thụ phấn qua các thế hệ'?",
+    "back": "Qua các thế hệ tự thụ phấn hoặc giao phối cận huyết: Tỉ lệ kiểu gen dị hợp tử giảm dần đi một nửa sau mỗi thế hệ: Tỉ lệ Aa = (1/2)ⁿ; tỉ lệ đồng hợp tử tăng dần.\n\n📝 Ví dụ: Từ 100% Aa ban đầu, sau 3 thế hệ tự thụ: tỉ lệ Aa = (1/2)³ = 1/8 (12.5%), tỉ lệ đồng hợp AA = aa = (1 - 1/8) / 2 = 7/16 (43.75%).\n🔑 Ý nghĩa: Tự phối làm phân hóa quần thể thành các dòng thuần chủng, dễ làm bộc lộ các gen lặn có hại dẫn đến thoái hóa giống.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_04",
+    "front": "Phương pháp giải bài toán: 'Một quần thể người ở trạng thái cân bằng di truyền có 9% số người mắc bệnh bạch tạng (do gen lặn a nằm trên NST thường quy định). Tính tỉ lệ phần trăm người bình thường mang gen gây bệnh (kiểu gen Aa) trong quần thể?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Quần thể cân bằng nên tỉ lệ người bạch tạng aa = q² = 0.09 ⇒ Tần số alen q(a) = √0.09 = 0.3.\nBước 2: Tần số alen A: p(A) = 1 - q = 1 - 0.3 = 0.7.\nBước 3: Tỉ lệ người bình thường mang gen gây bệnh (Aa): 2pq = 2 · 0.7 · 0.3 = 0.42 = 42%.\n\n👉 Kết luận: Tỉ lệ người bình thường mang gen bệnh (Aa) trong quần thể là 42%.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_05",
+    "front": "Bẫy sai lầm cần tránh: Lấy luôn tỉ lệ người bệnh (0.09) làm tần số alen q.?",
+    "back": "❌ Lỗi sai: Lấy luôn tỉ lệ người bệnh (0.09) làm tần số alen q.\n\n💡 Nguyên nhân & Khắc phục: Tỉ lệ kiểu hình lặn aa bằng q bình phương (q²); muốn tìm tần số alen q phải lấy căn bậc hai của tỉ lệ kiểu hình lặn.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 2: Di truyền quần thể và Di truyền học người?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 2: Di truyền quần thể và Di truyền học người?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_sin_ch02_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 2: Di truyền quần thể và Di truyền học người?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "sinh-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  }
+]

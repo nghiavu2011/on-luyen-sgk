@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_tin_ch07_01",
+    "front": "Khái niệm 'Học máy (Machine Learning) và Các dạng học máy' trong Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng được định nghĩa như thế nào?",
+    "back": "Là nhánh của AI cho phép máy tính tự học hỏi và nâng cao hiệu năng thực hiện nhiệm vụ từ dữ liệu mà không cần lập trình tường minh từng quy tắc. Gồm 3 nhóm chính: Học có giám sát (Supervised), Học không giám sát (Unsupervised) và Học tăng cường (Reinforcement Learning).\n\n💡 Ví dụ: Học có giám sát: Huấn luyện mô hình nhận diện ảnh chó/mèo bằng hàng vạn bức ảnh đã được dán nhãn sẵn trước đó.\n🌱 Bản chất: Tìm kiếm các hàm số xấp xỉ mô phỏng mối tương quan phức tạp ẩn giấu trong tập dữ liệu mẫu lớn.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_02",
+    "front": "Khái niệm 'Mô phỏng máy tính (Computer Simulation)' trong Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng được định nghĩa như thế nào?",
+    "back": "Là việc sử dụng chương trình máy tính để mô phỏng hành vi của một hệ thống thực tế hoặc hệ thống giả định theo thời gian bằng các mô hình toán học và vật lý.\n\n💡 Ví dụ: Mô phỏng đường đi của bão nhiệt đới; mô phỏng va chạm ô tô thử nghiệm độ an toàn túi khí mà không cần phá hủy xe thật.\n🌱 Bản chất: Giúp con người nghiên cứu những hiện tượng quá nguy hiểm, quá tốn kém hoặc diễn ra quá nhanh/quá chậm trong thực tế.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_03",
+    "front": "Phát biểu quy tắc / định lí: 'Quy trình chuẩn trong Khoa học dữ liệu'?",
+    "back": "Gồm 5 bước tuần hoàn: (1) Xác định bài toán mục tiêu -> (2) Thu thập dữ liệu -> (3) Làm sạch và tiền xử lý dữ liệu -> (4) Khám phá và xây dựng mô hình phân tích -> (5) Trực quan hóa và diễn giải kết quả hỗ trợ ra quyết định.\n\n📝 Ví dụ: Phân tích xu hướng học tập của học sinh dựa trên dữ liệu làm bài kiểm tra trực tuyến để đề xuất lộ trình ôn tập cá nhân hóa.\n🔑 Ý nghĩa: Dữ liệu chất lượng (Garbage In - Garbage Out): khâu làm sạch và tiền xử lý quyết định đến 80% thành công của mô hình phân tích.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_04",
+    "front": "Phương pháp giải bài toán: 'Một trường học muốn áp dụng Học máy để dự đoán nguy cơ học sinh bị hổng kiến thức môn Toán. Hãy đề xuất các bước thu thập dữ liệu và huấn luyện mô hình?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Thu thập dữ liệu quá khứ: Điểm kiểm tra định kỳ, thời gian tự học, số lượng câu trắc nghiệm làm sai theo từng chuyên đề của các khóa trước.\nBước 2: Gán nhãn dữ liệu: Nhãn 1 (Cần phụ đạo/Hổng kiến thức), Nhãn 0 (Đạt chuẩn).\nBước 3: Tiền xử lý dữ liệu: Loại bỏ giá trị khuyết thiếu, chuẩn hóa thang điểm về cùng thang đo [0; 1].\nBước 4: Huấn luyện mô hình: Sử dụng thuật toán phân loại (như Decision Tree hoặc Logistic Regression) trên 80% tập dữ liệu huấn luyện.\nBước 5: Đánh giá: Thử nghiệm trên 20% tập dữ liệu kiểm tra để đo độ chính xác (Accuracy, F1-score) trước khi đưa vào ứng dụng thực tế.\n\n👉 Kết luận: Quy trình gồm thu thập dữ liệu bài thi -> làm sạch và gán nhãn -> huấn luyện thuật toán phân loại -> đánh giá và tích hợp cảnh báo sớm.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_05",
+    "front": "Bẫy sai lầm cần tránh: Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.?",
+    "back": "❌ Lỗi sai: Hiện tượng Quá khớp (Overfitting) trong huấn luyện mô hình học máy.\n\n💡 Nguyên nhân & Khắc phục: Mô hình học thuộc lòng quá kỹ dữ liệu huấn luyện (độ chính xác 100%) nhưng dự đoán rất kém khi gặp dữ liệu thực tế mới lạ.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch07_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 7: Học máy, Khoa học dữ liệu và Mô phỏng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch07",
+      "on-tap"
+    ]
+  }
+]

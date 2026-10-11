@@ -899,7 +899,7 @@
             const lvl = LEVEL_DATA[currentLevel];
             
             container.innerHTML = lvl.grades.map(g => {
-                const isReady = (g.id === '06' || g.id === '10' || g.id === '11');
+                const isReady = (g.id === '06' || g.id === '10' || g.id === '11' || g.id === '12');
                 const badgeHtml = isReady 
                     ? `<span style="background:#10b981; color:white; font-size:0.68rem; padding:0.15rem 0.5rem; border-radius:12px; font-weight:800; margin-left:0.35rem; display:inline-flex; align-items:center; gap:0.2rem;">✨ Sẵn sàng học</span>`
                     : `<span style="background:#f1f5f9; color:#64748b; font-size:0.68rem; padding:0.15rem 0.45rem; border-radius:12px; font-weight:600; margin-left:0.35rem; border:1px solid #cbd5e1;">⏳ Đang số hóa SGK</span>`;
@@ -1031,6 +1031,35 @@
                                 <a href="subject.html?grade=11&subject=sinh-hoc" class="ol-btn-primary" style="background:#16a34a; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
                                     🧬 Sinh 11 ➔
                                 </a>
+                } else if (selectedGrade === '12') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">🎯</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 12 — Trọn bộ 13 môn học bứt phá Tốt nghiệp THPT & Đại học 2026–2027!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 78 chương/bài với 312 đề thi chuẩn 4 cấp độ (1.872 câu hỏi sư phạm phân hóa), 624 thẻ flashcards ghi nhớ công thức trọng tâm và tóm tắt kiến thức SGK Kết nối tri thức.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=12&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🔢 Toán 12 ➔
+                                </a>
+                                <a href="subject.html?grade=12&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    📖 Ngữ Văn 12 ➔
+                                </a>
+                                <a href="subject.html?grade=12&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🇬🇧 Tiếng Anh 12 ➔
+                                </a>
+                                <a href="subject.html?grade=12&subject=vat-li" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    ⚡ Vật lí 12 ➔
+                                </a>
+                                <a href="subject.html?grade=12&subject=hoa-hoc" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧪 Hóa 12 ➔
+                                </a>
+                                <a href="subject.html?grade=12&subject=sinh-hoc" class="ol-btn-primary" style="background:#16a34a; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
+                                    🧬 Sinh 12 ➔
+                                </a>
                             </div>
                         </div>
                     `;
@@ -1119,7 +1148,7 @@
 
                 <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 0.6rem 0.85rem; font-size: 0.84rem; color: #475569;">
                     <div>
-                        <strong>Đang chọn:</strong> <span style="color: #0284c7; font-weight: 700;">${activeTrack.icon || '🌟'} ${activeTrack.name}</span>
+                        <strong>Đang chọn:</strong> <span style="color: #0284c7; font-weight: 700;">${activeTrack.icon || '🌟'} ${activeTrack.name || 'Tất cả môn học'}</span>
                         ${activeTrack.subjects && activeTrack.subjects.length > 0 ? ` · Gồm: <strong>${activeTrack.subjects.map(s => getSubjectNameById(s)).join(', ')}</strong>` : ' · Hiển thị toàn bộ các môn'}
                     </div>
                     ${activeTrack.id === 'custom' ? `
@@ -1264,6 +1293,20 @@
                     else if (s.id === 'hoa-hoc') { isReady = true; readyNote = '6/6 chương • 18 đề'; }
                     else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '5/5 chương • 15 đề'; }
                     else if (s.id === 'tieng-anh') { isReady = true; readyNote = '10/10 units • 30 đề'; }
+                } else if (selectedGrade === '12') {
+                    if (s.id === 'toan') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'vat-li') { isReady = true; readyNote = '4/4 chương • 16 đề'; }
+                    else if (s.id === 'hoa-hoc') { isReady = true; readyNote = '8/8 chương • 32 đề'; }
+                    else if (s.id === 'sinh-hoc') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'tin-hoc') { isReady = true; readyNote = '7/7 chủ đề • 28 đề'; }
+                    else if (s.id === 'ngu-van') { isReady = true; readyNote = '9/9 bài • 36 đề'; }
+                    else if (s.id === 'tieng-anh') { isReady = true; readyNote = '10/10 units • 40 đề'; }
+                    else if (s.id === 'lich-su') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'dia-li') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'gdkt-pl') { isReady = true; readyNote = '6/6 bài • 24 đề'; }
+                    else if (s.id === 'cong-nghe') { isReady = true; readyNote = '4/4 chương • 16 đề'; }
+                    else if (s.id === 'mi-thuat') { isReady = true; readyNote = '3/3 chủ đề • 12 đề'; }
+                    else if (s.id === 'giao-duc-the-chat') { isReady = true; readyNote = '3/3 chủ đề • 12 đề'; }
                 }
 
                 const g10Chapters = {

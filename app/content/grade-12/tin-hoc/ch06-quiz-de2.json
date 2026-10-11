@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch06",
+  "examId": "de2",
+  "title": "Tin học 12 — Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+  "questions": [
+    {
+      "id": "tin-hoc_ch06_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Quy tắc thiết kế mạng LAN phân tầng (Hierarchical Network Model).",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Quy tắc thiết kế mạng LAN phân tầng (Hierarchical Network Model).",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Một mạng doanh nghiệp đạt chuẩn nên phân chia làm 3 tầng chức năng: Tầng lõi (Core layer - chuyển mạch siêu tốc), Tầng p.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Một mạng doanh nghiệp đạt chuẩn nên phân chia làm 3 tầng chức năng: Tầng lõi (Core layer - chuyển mạch siêu tốc), Tầng p.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc thiết kế mạng LAN phân tầng (Hierarchical Network Model).",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc thiết kế mạng LAN phân tầng (Hierarchical Network Model)."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch06_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Lập kế hoạch thiết kế mạng LAN cho phòng học Tin học gồm 40 máy tính học sinh và 1 máy giá...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "tin-hoc_ch06_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Cáp quang (Fiber Optic Cable) và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Cáp quang (Fiber Optic Cable) được xác định chặt chẽ bởi: Đường truyền truyền dẫn tín hiệu bằng xung ánh sáng qua sợi thủy tinh hoặc nhựa ...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Cáp quang (Fiber Optic Cable) với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Đường truyền truyền dẫn tín hiệu bằng xung ánh sáng qua sợi thủy tinh hoặc nhựa trong suốt dựa trên hiện tượng phản xạ t.",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Cáp quang (Fiber Optic Cable) với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Cáp quang (Fiber Optic Cable) với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Đường truyền truyền dẫn tín hiệu bằng xung ánh sáng qua sợi thủy tinh hoặc nhựa trong suốt dựa trên hiện tượng phản xạ t.",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "tin-hoc_ch06_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Tuyến cáp quang biển kết nối mạng Internet giữa Việt Nam và quốc tế....'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Môi trường truyền dẫn tốc độ cao là xương sống của hạ tầng viễn thông hiện đại...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Cáp quang (Fiber Optic Cable).",
+        "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Môi trường truyền dẫn tốc độ cao là xương sống của hạ tầng viễn thông hiện đại..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Cáp quang (Fiber Optic Cable).",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Cáp quang (Fiber Optic Cable).",
+        "Đúng vì: Lí giải: Môi trường truyền dẫn tốc độ cao là xương sống của hạ tầng viễn thông hiện đại.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "tin-hoc_ch06_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Lập kế hoạch thiết kế mạng LAN cho phòng học Tin học gồm 40 máy tính học sinh và 1 má...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Giải pháp tối ưu: Mô hình hình sao sử dụng Switch 48 port Gigabit và cáp mạng Cat6 kết nối về phòng điều khiển trung tâm..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK 12 Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+        "steps": "Các bước: Bước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp. -> Bước 2: Chọn thiết bị chuyển mạch: Sử dụng 1 Switch 48 cổng Gigabit (hoặc 2 Switch 24 cổng xếp tầng) có hỗ trợ tốc độ 1000 Mbps. => Giải pháp tối ưu: Mô hình hình sao sử dụng Switch 48 port Gigabit và cáp mạng Cat6 kết nối về phòng điều khiển trung tâm..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp. -> Bước 2: Chọn thiết bị chuyển mạch: Sử dụng 1 Switch 48 cổng Gigabit (hoặc 2 Switch 24 cổng xếp tầng) có hỗ trợ tốc độ 1000 Mbps. => Giải pháp tối ưu: Mô hình hình sao sử dụng Switch 48 port Gigabit và cáp mạng Cat6 kết nối về phòng điều khiển trung tâm..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "tin-hoc_ch06_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Bố trí chiều dài dây cáp mạng xoắn đôi (UTP) vượt quá giới hạn 100 mét mà không có th...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Tín hiệu điện bị suy hao và biến dạng nghiêm trọng sau cự ly 100m, dẫn đến mất kết nối hoặ...",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Tín hiệu điện bị suy hao và biến dạng nghiêm trọng sau cự ly 100m, dẫn đến mất kết nối hoặc tốc độ truyền chập chờn..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính.",
+        "Đúng vì: Biện pháp: Tín hiệu điện bị suy hao và biến dạng nghiêm trọng sau cự ly 100m, dẫn đến mất kết nối hoặc tốc độ truyền chập chờn..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

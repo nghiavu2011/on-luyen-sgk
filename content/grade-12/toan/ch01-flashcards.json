@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_toa_ch01_01",
+    "front": "Khái niệm 'Tính đơn điệu của hàm số' trong Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số được định nghĩa như thế nào?",
+    "back": "Cho hàm số y = f(x) có đạo hàm trên khoảng K. Nếu f'(x) ≥ 0 với mọi x thuộc K (dấu bằng chỉ xảy ra tại hữu hạn điểm) thì hàm số đồng biến trên K. Nếu f'(x) ≤ 0 với mọi x thuộc K thì hàm số nghịch biến trên K.\n\n💡 Ví dụ: Xét y = x³ - 3x + 1 có y' = 3x² - 3 = 3(x - 1)(x + 1). Hàm số đồng biến trên (-∞; -1) và (1; +∞), nghịch biến trên (-1; 1).\n🌱 Bản chất: Dấu của đạo hàm bậc nhất f'(x) quyết định trực tiếp chiều biến thiên dốc lên hay dốc xuống của đồ thị hàm số.",
+    "tags": [
+      "toan",
+      "ch01",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_02",
+    "front": "Khái niệm 'Đường tiệm cận của đồ thị hàm số' trong Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số được định nghĩa như thế nào?",
+    "back": "Đường thẳng y = y₀ là tiệm cận ngang nếu lim_{x→+∞} f(x) = y₀ hoặc lim_{x→-∞} f(x) = y₀. Đường thẳng x = x₀ là tiệm cận đứng nếu ít nhất một trong các giới hạn một bên khi x tiến về x₀ bằng vô cực (±∞). Đường thẳng y = ax + b (a ≠ 0) là tiệm cận xiên nếu lim_{x→±∞} [f(x) - (ax + b)] = 0.\n\n💡 Ví dụ: Đồ thị hàm số y = (2x + 1)/(x - 1) có tiệm cận đứng là x = 1 (mẫu bằng 0) và tiệm cận ngang là y = 2 (tỉ số hệ số bậc cao nhất).\n🌱 Bản chất: Tiệm cận mô tả xu thế tiệm cận không giới hạn của quỹ đạo đồ thị khi các biến số tiến ra xa vô tận hoặc chạm vào điểm gián đoạn.",
+    "tags": [
+      "toan",
+      "ch01",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_03",
+    "front": "Phát biểu quy tắc / định lí: 'Định lý điều kiện cần và đủ của cực trị hàm số'?",
+    "back": "Nếu f'(x₀) = 0 (hoặc f'(x₀) không xác định) và f'(x) đổi dấu từ dương sang âm khi qua x₀ thì x₀ là điểm cực đại. Nếu f'(x) đổi dấu từ âm sang dương khi qua x₀ thì x₀ là điểm cực tiểu.\n\n📝 Ví dụ: Xét f(x) = x² - 4x + 5 có f'(x) = 2x - 4 = 0 ⇔ x = 2. Khi x qua 2, f'(x) đổi dấu từ âm sang dương, nên x = 2 là điểm cực tiểu với y_CT = 1.\n🔑 Ý nghĩa: Cực trị là điểm đảo chiều của xu thế biến thiên, đòi hỏi đạo hàm phải thực sự đổi dấu qua điểm tới hạn.",
+    "tags": [
+      "toan",
+      "ch01",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_04",
+    "front": "Phương pháp giải bài toán: 'Một người nông dân có 120 mét rào lưới thép muốn rào một khu vườn hình chữ nhật sát một bờ sông thẳng (không cần rào bờ sông). Tìm kích thước khu vườn để diện tích rào được là lớn nhất.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Gọi x (m) là chiều rộng của khu vườn vuông góc với bờ sông (0 < x < 60). Khi đó chiều dài song song với bờ sông là 120 - 2x (m).\nBước 2: Diện tích khu vườn là S(x) = x(120 - 2x) = 120x - 2x² (m²).\nBước 3: Lấy đạo hàm S'(x) = 120 - 4x. Cho S'(x) = 0 ⇔ x = 30 (nhận vì thuộc khoảng (0; 60)).\nBước 4: Vì S''(x) = -4 < 0 nên tại x = 30 diện tích đạt cực đại: S_max = S(30) = 30 · 60 = 1800 m².\n\n👉 Kết luận: Kích thước tối ưu: chiều rộng 30 m, chiều dài 60 m; diện tích cực đại đạt 1800 m².",
+    "tags": [
+      "toan",
+      "ch01",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_05",
+    "front": "Bẫy sai lầm cần tránh: Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.?",
+    "back": "❌ Lỗi sai: Kết luận x₀ là điểm cực trị chỉ vì f'(x₀) = 0 mà không kiểm tra f'(x) có đổi dấu qua x₀ hay không.\n\n💡 Nguyên nhân & Khắc phục: Điển hình hàm số y = x³ có y' = 3x² = 0 tại x = 0 nhưng y' ≥ 0 với mọi x nên đồ thị luôn đồng biến và không có cực trị.",
+    "tags": [
+      "toan",
+      "ch01",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch01",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch01",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_toa_ch01_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị của hàm số?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "toan",
+      "ch01",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "Toán học 12 — Chương 4: Nguyên hàm và Tích phân: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chương 4: Nguyên hàm và Tích phân.",
+  "questions": [
+    {
+      "id": "toan_ch04_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chương 4: Nguyên hàm và Tích phân, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Ứng dụng hình học tính thể tích khối tròn xoay.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Ứng dụng hình học tính thể tích khối tròn xoay.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b qua.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Thể tích khối tròn xoay tạo thành khi quay hình phẳng giới hạn bởi y = f(x), trục Ox và hai đường thẳng x = a, x = b qua.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Ứng dụng hình học tính thể tích khối tròn xoay.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Ứng dụng hình học tính thể tích khối tròn xoay."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch04_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoành Ox....'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chương 4: Nguyên hàm và Tích phân.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 4: Nguyên hàm và Tích phân.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 4: Nguyên hàm và Tích phân."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "toan_ch04_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Nguyên hàm của hàm số và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Nguyên hàm của hàm số được xác định chặt chẽ bởi: Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x th...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Nguyên hàm của hàm số với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu .",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Nguyên hàm của hàm số với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Nguyên hàm của hàm số với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Hàm số F(x) được gọi là nguyên hàm của f(x) trên K nếu F'(x) = f(x) với mọi x thuộc K. Họ tất cả các nguyên hàm ký hiệu .",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch04_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: '∫ x² dx = x³/3 + C vì (x³/3 + C)' = 3x²/3 = x²; ∫ e^x dx = e^x + C....'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc t..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Nguyên hàm của hàm số.",
+        "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Nguyên hàm của hàm số.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Nguyên hàm của hàm số.",
+        "Đúng vì: Lí giải: Nguyên hàm là phép toán ngược lại với phép lấy đạo hàm, khôi phục lại đại lượng gốc từ tốc độ biến thiên.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "toan_ch04_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Tính diện tích hình phẳng giới hạn bởi đồ thị hàm số parabol y = -x² + 4 và trục hoàn...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Diện tích hình phẳng S = 32/3 (đơn vị diện tích)..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK 12 Chương 4: Nguyên hàm và Tích phân.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+        "steps": "Các bước: Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2. -> Bước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx. => Diện tích hình phẳng S = 32/3 (đơn vị diện tích)..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Tìm hoành độ giao điểm: Giải -x² + 4 = 0 ⇔ x² = 4 ⇔ x = -2 hoặc x = 2. -> Bước 2: Thiết lập tích phân diện tích: S = ∫_{-2}^2 |-x² + 4| dx. Vì trên [-2; 2], -x² + 4 ≥ 0 nên S = ∫_{-2}^2 (4 - x²) dx. => Diện tích hình phẳng S = 32/3 (đơn vị diện tích)..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chương 4: Nguyên hàm và Tích phân.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chương 4: Nguyên hàm và Tích phân."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch04_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Quên nhân hằng số π khi tính thể tích khối tròn xoay: viết V = ∫ [f(x)]² dx thay vì π...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π....",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chương 4: Nguyên hàm và Tích phân.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 4: Nguyên hàm và Tích phân.",
+        "Đúng vì: Biện pháp: Lát cắt của khối tròn xoay là hình tròn có diện tích π·r², bắt buộc phải có hệ số π..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 4: Nguyên hàm và Tích phân."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

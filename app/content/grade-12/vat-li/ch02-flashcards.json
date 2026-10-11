@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_vat_ch02_01",
+    "front": "Khái niệm 'Chất khí lí tưởng' trong Chương 2: Khí lí tưởng được định nghĩa như thế nào?",
+    "back": "Là chất khí giả định trong đó các phân tử khí được coi là những chất điểm không có kích thước và chỉ tương tác với nhau khi va chạm đàn hồi hoàn toàn.\n\n💡 Ví dụ: Không khí ở điều kiện nhiệt độ phòng và áp suất khí quyển thông thường tuân theo gần đúng mô hình khí lí tưởng.\n🌱 Bản chất: Mô hình hóa lý tưởng đơn giản hóa các phép toán nhiệt động lực học trong khi vẫn giữ nguyên bản chất vật lý vĩ mô.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_02",
+    "front": "Khái niệm 'Nhiệt độ tuyệt đối (Thang Kelvin)' trong Chương 2: Khí lí tưởng được định nghĩa như thế nào?",
+    "back": "Nhiệt độ đo trong thang Kelvin có gốc T = 0 K (độ không tuyệt đối, tại đó chuyển động nhiệt của các phân tử hoàn toàn dừng lại). Liên hệ: T(K) = t(°C) + 273.15.\n\n💡 Ví dụ: Nhiệt độ phòng 27 °C tương ứng với T = 27 + 273 = 300 K.\n🌱 Bản chất: Nhiệt độ tuyệt đối tỉ lệ thuận với động năng tịnh tiến trung bình của các phân tử khí: E_đ = (3/2)·k·T.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_03",
+    "front": "Phát biểu quy tắc / định lí: 'Phương trình trạng thái của khí lí tưởng (Clapeyron - Mendeleev)'?",
+    "back": "Đối với một lượng khí xác định: (p · V) / T = hằng số, hay p·V = n·R·T = (m/M)·R·T, trong đó R ≈ 8.31 J/(mol·K) là hằng số khí lí tưởng.\n\n📝 Ví dụ: Khi nén đẳng nhiệt (T = hằng số), nếu thể tích giảm một nửa thì áp suất khí tăng gấp đôi (Định luật Boyle p₁V₁ = p₂V₂).\n🔑 Ý nghĩa: Thống nhất ba thông số trạng thái vĩ mô: Áp suất p, Thể tích V và Nhiệt độ tuyệt đối T của một lượng khí.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_04",
+    "front": "Phương pháp giải bài toán: 'Một khối khí lí tưởng có thể tích 10 lít ở áp suất 1 atm và nhiệt độ 27 °C. Nén khối khí đến thể tích 5 lít ở nhiệt độ 127 °C. Tính áp suất của khối khí sau khi nén?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Trạng thái 1: p₁ = 1 atm; V₁ = 10 l; T₁ = 27 + 273 = 300 K.\nBước 2: Trạng thái 2: V₂ = 5 l; T₂ = 127 + 273 = 400 K; p₂ = ?.\nBước 3: Áp dụng phương trình trạng thái: (p₁·V₁)/T₁ = (p₂·V₂)/T₂ ⇒ p₂ = (p₁·V₁·T₂) / (V₂·T₁).\nBước 4: Thay số: p₂ = (1 · 10 · 400) / (5 · 300) = 4000 / 1500 = 8/3 ≈ 2.67 atm.\n\n👉 Kết luận: Áp suất của khối khí sau khi nén là p₂ = 8/3 atm ≈ 2.67 atm.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_05",
+    "front": "Bẫy sai lầm cần tránh: Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).?",
+    "back": "❌ Lỗi sai: Sử dụng trực tiếp nhiệt độ độ Celsius t (°C) vào phương trình trạng thái thay vì nhiệt độ tuyệt đối T (K).\n\n💡 Nguyên nhân & Khắc phục: Các định luật khí lí tưởng chỉ có quan hệ tỉ lệ thuận tuyến tính khi tính theo thang đo nhiệt độ tuyệt đối Kelvin.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 2: Khí lí tưởng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 2: Khí lí tưởng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch02_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 2: Khí lí tưởng?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch02",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Pin điện và Điện phân",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Thế điện cực chuẩn và Pin điện hóa",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Thế điện cực chuẩn và Pin điện hóa.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Pin điện hóa Galvani (Zn - Cu)",
+          "definition": "Thiết bị biến đổi hóa năng thành điện năng nhờ phản ứng oxi hóa - khử tự phát. Tại cực âm (anode) xảy ra quá trình oxi hóa kim loại hoạt động mạnh hơn (Zn → Zn²⁺ + 2e). Tại cực dương (cathode) xảy ra quá trình khử (Cu²⁺ + 2e → Cu).",
+          "example": "Sức điện động chuẩn của pin Zn-Cu: E°_pin = E°(Cu²⁺/Cu) - E°(Zn²⁺/Zn) = 0.34 - (-0.76) = 1.10 V.",
+          "essence": "Dòng electron chạy từ cực âm sang cực dương ở mạch ngoài tạo ra dòng điện liên tục."
+        },
+        {
+          "term": "Hiện tượng điện phân",
+          "definition": "Là quá trình oxi hóa - khử xảy ra trên bề mặt các điện cực dưới tác dụng của dòng điện một chiều đi qua chất điện li nóng chảy hoặc dung dịch chất điện li.",
+          "example": "Điện phân dung dịch NaCl có màng ngăn sinh ra NaOH, khí Cl₂ ở anode và khí H₂ ở cathode.",
+          "essence": "Cưỡng bức các phản ứng oxi hóa - khử không tự phát xảy ra bằng cách cung cấp năng lượng điện trường."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Thứ tự phóng điện tại các điện cực khi điện phân dung dịch",
+          "meaning": "Tại cathode (cực âm): Cation có tính oxi hóa mạnh hơn phóng điện trước (kim loại từ Al trở về trước không bị khử trong nước mà H₂O phóng điện sinh H₂). Tại anode (cực dương): Anion có tính khử mạnh hơn phóng điện trước (anion chứa oxi như SO₄²⁻, NO₃⁻ không bị oxi hóa mà H₂O phóng điện sinh O₂).",
+          "example": "Điện phân dung dịch CuSO₄ với điện cực trơ: Cu²⁺ bị khử tại cathode tạo Cu; H₂O bị oxi hóa tại anode tạo O₂ và ion H⁺ (dung dịch mang tính axit).",
+          "essence": "Mức năng lượng điện cực quyết định thứ tự ưu tiên nhận hoặc nhường electron."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Điện phân hoàn toàn 200 ml dung dịch Cu(NO₃)₂ 0.5M với điện cực trơ. Tính thể tích khí O₂ (đktc) thoát ra ở anode?",
+          "steps": [
+            "Bước 1: Số mol Cu(NO₃)₂: n = 0.2 · 0.5 = 0.1 mol ⇒ n_Cu²⁺ = 0.1 mol.",
+            "Bước 2: Phản ứng tại cathode: Cu²⁺ + 2e → Cu (số mol e trao đổi: n_e = 0.1 · 2 = 0.2 mol).",
+            "Bước 3: Phản ứng tại anode: 2H₂O → 4H⁺ + O₂ + 4e. Theo bảo toàn e: n_O₂ = n_e / 4 = 0.2 / 4 = 0.05 mol.",
+            "Bước 4: Thể tích khí O₂ ở đktc: V = 0.05 · 22.4 = 1.12 lít (hoặc 0.05 · 24.79 = 1.2395 lít theo chuẩn 25 °C, 1 bar)."
+          ],
+          "answer": "Thể tích O₂ thoát ra là 1.12 lít (đktc) tương ứng 1.24 lít (đkc)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tên cực: Trong pin điện hóa cực âm là Anode, nhưng trong bình điện phân cực âm là Cathode.",
+          "why": "Quy ước chuẩn thế giới: Anode luôn là nơi xảy ra quá trình oxi hóa (nhường e), Cathode luôn là nơi xảy ra quá trình khử (nhận e)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Điện phân dung dịch và ứng dụng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Điện phân dung dịch và ứng dụng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Pin điện hóa Galvani (Zn - Cu)",
+          "definition": "Thiết bị biến đổi hóa năng thành điện năng nhờ phản ứng oxi hóa - khử tự phát. Tại cực âm (anode) xảy ra quá trình oxi hóa kim loại hoạt động mạnh hơn (Zn → Zn²⁺ + 2e). Tại cực dương (cathode) xảy ra quá trình khử (Cu²⁺ + 2e → Cu).",
+          "example": "Sức điện động chuẩn của pin Zn-Cu: E°_pin = E°(Cu²⁺/Cu) - E°(Zn²⁺/Zn) = 0.34 - (-0.76) = 1.10 V.",
+          "essence": "Dòng electron chạy từ cực âm sang cực dương ở mạch ngoài tạo ra dòng điện liên tục."
+        },
+        {
+          "term": "Hiện tượng điện phân",
+          "definition": "Là quá trình oxi hóa - khử xảy ra trên bề mặt các điện cực dưới tác dụng của dòng điện một chiều đi qua chất điện li nóng chảy hoặc dung dịch chất điện li.",
+          "example": "Điện phân dung dịch NaCl có màng ngăn sinh ra NaOH, khí Cl₂ ở anode và khí H₂ ở cathode.",
+          "essence": "Cưỡng bức các phản ứng oxi hóa - khử không tự phát xảy ra bằng cách cung cấp năng lượng điện trường."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Thứ tự phóng điện tại các điện cực khi điện phân dung dịch",
+          "meaning": "Tại cathode (cực âm): Cation có tính oxi hóa mạnh hơn phóng điện trước (kim loại từ Al trở về trước không bị khử trong nước mà H₂O phóng điện sinh H₂). Tại anode (cực dương): Anion có tính khử mạnh hơn phóng điện trước (anion chứa oxi như SO₄²⁻, NO₃⁻ không bị oxi hóa mà H₂O phóng điện sinh O₂).",
+          "example": "Điện phân dung dịch CuSO₄ với điện cực trơ: Cu²⁺ bị khử tại cathode tạo Cu; H₂O bị oxi hóa tại anode tạo O₂ và ion H⁺ (dung dịch mang tính axit).",
+          "essence": "Mức năng lượng điện cực quyết định thứ tự ưu tiên nhận hoặc nhường electron."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Điện phân hoàn toàn 200 ml dung dịch Cu(NO₃)₂ 0.5M với điện cực trơ. Tính thể tích khí O₂ (đktc) thoát ra ở anode?",
+          "steps": [
+            "Bước 1: Số mol Cu(NO₃)₂: n = 0.2 · 0.5 = 0.1 mol ⇒ n_Cu²⁺ = 0.1 mol.",
+            "Bước 2: Phản ứng tại cathode: Cu²⁺ + 2e → Cu (số mol e trao đổi: n_e = 0.1 · 2 = 0.2 mol).",
+            "Bước 3: Phản ứng tại anode: 2H₂O → 4H⁺ + O₂ + 4e. Theo bảo toàn e: n_O₂ = n_e / 4 = 0.2 / 4 = 0.05 mol.",
+            "Bước 4: Thể tích khí O₂ ở đktc: V = 0.05 · 22.4 = 1.12 lít (hoặc 0.05 · 24.79 = 1.2395 lít theo chuẩn 25 °C, 1 bar)."
+          ],
+          "answer": "Thể tích O₂ thoát ra là 1.12 lít (đktc) tương ứng 1.24 lít (đkc)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm tên cực: Trong pin điện hóa cực âm là Anode, nhưng trong bình điện phân cực âm là Cathode.",
+          "why": "Quy ước chuẩn thế giới: Anode luôn là nơi xảy ra quá trình oxi hóa (nhường e), Cathode luôn là nơi xảy ra quá trình khử (nhận e)."
+        }
+      ]
+    }
+  ]
+}

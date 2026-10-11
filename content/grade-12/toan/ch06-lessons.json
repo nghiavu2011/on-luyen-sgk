@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Xác suất có điều kiện",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Xác suất có điều kiện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Xác suất có điều kiện.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Xác suất có điều kiện",
+          "definition": "Xác suất của biến cố A khi biết biến cố B đã xảy ra (với P(B) > 0) ký hiệu là P(A|B), tính bởi công thức: P(A|B) = P(A ∩ B) / P(B).",
+          "example": "Gieo con xúc xắc 6 mặt. Biết rằng số chấm xuất hiện là số chẵn (B = {2, 4, 6}). Xác suất số chấm lớn hơn 3 (A = {4, 5, 6}) là P(A|B) = 2/3 (các kết quả {4, 6}).",
+          "essence": "Thông tin phụ B làm thu hẹp không gian mẫu ban đầu Ω xuống còn không gian con B."
+        },
+        {
+          "term": "Công thức Bayes",
+          "definition": "Cho hệ đầy đủ các biến cố B₁, B₂,..., B_n và biến cố A. Khi biến cố A đã xảy ra, xác suất có điều kiện của B_k là P(B_k|A) = [P(B_k) · P(A|B_k)] / ∑ [P(B_i) · P(A|B_i)].",
+          "example": "Cập nhật xác suất một người thực sự mắc bệnh sau khi nhận kết quả xét nghiệm dương tính dựa trên tỷ lệ mắc bệnh nền trong cộng đồng.",
+          "essence": "Công thức Bayes cập nhật niềm tin xác suất tiền nghiệm thành xác suất hậu nghiệm khi có thêm bằng chứng thực tế quan sát được."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức xác suất toàn phần",
+          "meaning": "Nếu {B₁, B₂,..., B_n} là một nhóm biến cố xung khắc từng đôi và hợp thành biến cố chắc chắn (hệ đầy đủ), thì với mọi biến cố A: P(A) = ∑ P(B_i) · P(A|B_i).",
+          "example": "Tỷ lệ sản phẩm hỏng của toàn nhà máy bằng tổng xác suất sản phẩm do từng phân xưởng sản xuất nhân với tỷ lệ phế phẩm tương ứng của phân xưởng đó.",
+          "essence": "Phân rã một biến cố phức tạp thành tổng các kịch bản bộ phận độc lập để tính toán đơn giản hóa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Có hai hộp bi: Hộp 1 có 3 bi trắng và 2 bi đen; Hộp 2 có 4 bi trắng và 1 bi đen. Chọn ngẫu nhiên một hộp rồi rút ngẫu nhiên 1 viên bi. Tính xác suất để viên bi rút ra là màu trắng?",
+          "steps": [
+            "Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ.",
+            "Bước 2: Gọi A là biến cố rút được bi trắng. Xác suất có điều kiện: P(A|B₁) = 3/5 = 0.6; P(A|B₂) = 4/5 = 0.8.",
+            "Bước 3: Áp dụng công thức xác suất toàn phần: P(A) = P(B₁)·P(A|B₁) + P(B₂)·P(A|B₂) = 0.5·0.6 + 0.5·0.8 = 0.3 + 0.4 = 0.7."
+          ],
+          "answer": "Xác suất rút được bi màu trắng là P(A) = 0.7 (70%)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa P(A|B) (xác suất của A khi biết B) và P(B|A) (xác suất của B khi biết A).",
+          "why": "Hai xác suất này hoàn toàn khác nhau về bản chất và chỉ bằng nhau khi P(A) = P(B)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Công thức xác suất toàn phần và công thức Bayes",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Công thức xác suất toàn phần và công thức Bayes.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Xác suất có điều kiện",
+          "definition": "Xác suất của biến cố A khi biết biến cố B đã xảy ra (với P(B) > 0) ký hiệu là P(A|B), tính bởi công thức: P(A|B) = P(A ∩ B) / P(B).",
+          "example": "Gieo con xúc xắc 6 mặt. Biết rằng số chấm xuất hiện là số chẵn (B = {2, 4, 6}). Xác suất số chấm lớn hơn 3 (A = {4, 5, 6}) là P(A|B) = 2/3 (các kết quả {4, 6}).",
+          "essence": "Thông tin phụ B làm thu hẹp không gian mẫu ban đầu Ω xuống còn không gian con B."
+        },
+        {
+          "term": "Công thức Bayes",
+          "definition": "Cho hệ đầy đủ các biến cố B₁, B₂,..., B_n và biến cố A. Khi biến cố A đã xảy ra, xác suất có điều kiện của B_k là P(B_k|A) = [P(B_k) · P(A|B_k)] / ∑ [P(B_i) · P(A|B_i)].",
+          "example": "Cập nhật xác suất một người thực sự mắc bệnh sau khi nhận kết quả xét nghiệm dương tính dựa trên tỷ lệ mắc bệnh nền trong cộng đồng.",
+          "essence": "Công thức Bayes cập nhật niềm tin xác suất tiền nghiệm thành xác suất hậu nghiệm khi có thêm bằng chứng thực tế quan sát được."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức xác suất toàn phần",
+          "meaning": "Nếu {B₁, B₂,..., B_n} là một nhóm biến cố xung khắc từng đôi và hợp thành biến cố chắc chắn (hệ đầy đủ), thì với mọi biến cố A: P(A) = ∑ P(B_i) · P(A|B_i).",
+          "example": "Tỷ lệ sản phẩm hỏng của toàn nhà máy bằng tổng xác suất sản phẩm do từng phân xưởng sản xuất nhân với tỷ lệ phế phẩm tương ứng của phân xưởng đó.",
+          "essence": "Phân rã một biến cố phức tạp thành tổng các kịch bản bộ phận độc lập để tính toán đơn giản hóa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Có hai hộp bi: Hộp 1 có 3 bi trắng và 2 bi đen; Hộp 2 có 4 bi trắng và 1 bi đen. Chọn ngẫu nhiên một hộp rồi rút ngẫu nhiên 1 viên bi. Tính xác suất để viên bi rút ra là màu trắng?",
+          "steps": [
+            "Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ.",
+            "Bước 2: Gọi A là biến cố rút được bi trắng. Xác suất có điều kiện: P(A|B₁) = 3/5 = 0.6; P(A|B₂) = 4/5 = 0.8.",
+            "Bước 3: Áp dụng công thức xác suất toàn phần: P(A) = P(B₁)·P(A|B₁) + P(B₂)·P(A|B₂) = 0.5·0.6 + 0.5·0.8 = 0.3 + 0.4 = 0.7."
+          ],
+          "answer": "Xác suất rút được bi màu trắng là P(A) = 0.7 (70%)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa P(A|B) (xác suất của A khi biết B) và P(B|A) (xác suất của B khi biết A).",
+          "why": "Hai xác suất này hoàn toàn khác nhau về bản chất và chỉ bằng nhau khi P(A) = P(B)."
+        }
+      ]
+    }
+  ]
+}

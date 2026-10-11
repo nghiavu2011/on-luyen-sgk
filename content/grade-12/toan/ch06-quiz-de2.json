@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch06",
+  "examId": "de2",
+  "title": "Toán học 12 — Chương 6: Xác suất có điều kiện: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chương 6: Xác suất có điều kiện.",
+  "questions": [
+    {
+      "id": "toan_ch06_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chương 6: Xác suất có điều kiện, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Công thức xác suất toàn phần.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Công thức xác suất toàn phần.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Nếu {B₁, B₂,..., B_n} là một nhóm biến cố xung khắc từng đôi và hợp thành biến cố chắc chắn (hệ đầy đủ), thì với mọi biế.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Nếu {B₁, B₂,..., B_n} là một nhóm biến cố xung khắc từng đôi và hợp thành biến cố chắc chắn (hệ đầy đủ), thì với mọi biế.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Công thức xác suất toàn phần.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Công thức xác suất toàn phần."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch06_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Có hai hộp bi: Hộp 1 có 3 bi trắng và 2 bi đen; Hộp 2 có 4 bi trắng và 1 bi đen. Chọn ngẫu...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chương 6: Xác suất có điều kiện.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 6: Xác suất có điều kiện.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 6: Xác suất có điều kiện."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "toan_ch06_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Xác suất có điều kiện và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Xác suất có điều kiện được xác định chặt chẽ bởi: Xác suất của biến cố A khi biết biến cố B đã xảy ra (với P(B) > 0) ký hiệu là P(...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Xác suất có điều kiện với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Xác suất của biến cố A khi biết biến cố B đã xảy ra (với P(B) > 0) ký hiệu là P(A|B), tính bởi công thức: P(A|B) = P(A ∩.",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Xác suất có điều kiện với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Xác suất có điều kiện với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Xác suất của biến cố A khi biết biến cố B đã xảy ra (với P(B) > 0) ký hiệu là P(A|B), tính bởi công thức: P(A|B) = P(A ∩.",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "toan_ch06_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Gieo con xúc xắc 6 mặt. Biết rằng số chấm xuất hiện là số chẵn (B = {2, 4, 6}). ...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Thông tin phụ B làm thu hẹp không gian mẫu ban đầu Ω xuống còn không gian con B...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Xác suất có điều kiện.",
+        "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+        "steps": "Lí giải: Thông tin phụ B làm thu hẹp không gian mẫu ban đầu Ω xuống còn không gian con B..",
+        "trap": "Đưa ra các lí do cảm tính bề ngoài."
+      },
+      "socraticPrompt": "Bản chất khoa học đằng sau hiện tượng này là gì?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Đưa ra các lí do cảm tính bề ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Xác suất có điều kiện.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Xác suất có điều kiện.",
+        "Đúng vì: Lí giải: Thông tin phụ B làm thu hẹp không gian mẫu ban đầu Ω xuống còn không gian con B.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "toan_ch06_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Thực hành tính toán / biến đổi",
+      "question": "Cho tình huống: 'Có hai hộp bi: Hộp 1 có 3 bi trắng và 2 bi đen; Hộp 2 có 4 bi trắng và 1 bi đen. Chọn...'. Kết luận nào sau đây là CHÍNH XÁC?",
+      "options": [
+        "Xác suất rút được bi màu trắng là P(A) = 0.7 (70%)..",
+        "Không thể xác định được kết quả do thiếu dữ kiện.",
+        "Kết quả luôn bằng 0 trong mọi điều kiện.",
+        "Kết quả là một số âm bất hợp lí."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Giải toán theo chuẩn SGK 12 Chương 6: Xác suất có điều kiện.",
+        "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+        "steps": "Các bước: Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ. -> Bước 2: Gọi A là biến cố rút được bi trắng. Xác suất có điều kiện: P(A|B₁) = 3/5 = 0.6; P(A|B₂) = 4/5 = 0.8. => Xác suất rút được bi màu trắng là P(A) = 0.7 (70%)..",
+        "trap": "Sai sót trong các bước biến đổi trung gian."
+      },
+      "socraticPrompt": "Thực hiện các bước giải toán theo hướng dẫn SGK 12?",
+      "distractorReasons": [
+        "Đúng vì: Các bước: Bước 1: Gọi B₁ là biến cố chọn Hộp 1, B₂ là biến cố chọn Hộp 2. Ta có P(B₁) = P(B₂) = 0.5. Hệ {B₁, B₂} là hệ đầy đủ. -> Bước 2: Gọi A là biến cố rút được bi trắng. Xác suất có điều kiện: P(A|B₁) = 3/5 = 0.6; P(A|B₂) = 4/5 = 0.8. => Xác suất rút được bi màu trắng là P(A) = 0.7 (70%)..",
+        "Sai do bẫy thường gặp: Sai sót trong các bước biến đổi trung gian.",
+        "Sai vì phương án 'Kết quả luôn bằng 0 trong mọi điều kiện.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chương 6: Xác suất có điều kiện.",
+        "Sai vì phương án 'Kết quả là một số âm bất hợp lí.' không phù hợp với quy tắc/định lí: Giải toán theo chuẩn SGK 12 Chương 6: Xác suất có điều kiện."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "toan_ch06_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Nhận diện bẫy tư duy",
+      "question": "Một học sinh mắc sai lầm: 'Nhầm lẫn giữa P(A|B) (xác suất của A khi biết B) và P(B|A) (xác suất của B khi biết A...'. Để khắc phục, học sinh đó cần:",
+      "options": [
+        "Bỏ qua không cần làm các bài tập dạng này nữa.",
+        "Nắm vững nguyên nhân: Hai xác suất này hoàn toàn khác nhau về bản chất và chỉ bằng nhau khi P(A) = P(B)....",
+        "Chỉ cần học thuộc đáp án trắc nghiệm.",
+        "Chọn ngẫu nhiên một phương án bất kì."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Khắc phục bẫy sai trong Chương 6: Xác suất có điều kiện.",
+        "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+        "steps": "Biện pháp: Hai xác suất này hoàn toàn khác nhau về bản chất và chỉ bằng nhau khi P(A) = P(B)..",
+        "trap": "Tiếp tục lặp lại thói quen tư duy sai lầm cũ."
+      },
+      "socraticPrompt": "Tại sao lại dễ nhầm lẫn và cần chú ý điều gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua không cần làm các bài tập dạng này nữa.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 6: Xác suất có điều kiện.",
+        "Đúng vì: Biện pháp: Hai xác suất này hoàn toàn khác nhau về bản chất và chỉ bằng nhau khi P(A) = P(B)..",
+        "Sai do bẫy thường gặp: Tiếp tục lặp lại thói quen tư duy sai lầm cũ.",
+        "Sai vì phương án 'Chọn ngẫu nhiên một phương án bất kì.' không phù hợp với quy tắc/định lí: Khắc phục bẫy sai trong Chương 6: Xác suất có điều kiện."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

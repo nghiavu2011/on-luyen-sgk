@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khoảng biến thiên và khoảng tứ phân vị của mẫu số liệu ghép nhóm.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mẫu số liệu ghép nhóm",
+          "definition": "Là mẫu số liệu được chia thành các nhóm liên tiếp dạng [a_i; a_{i+1}) cùng với tần số m_i tương ứng với mỗi nhóm.",
+          "example": "Thống kê chiều cao 100 học sinh lớp 12: nhóm [150; 155) có 12 em, nhóm [155; 160) có 28 em, nhóm [160; 165) có 35 em...",
+          "essence": "Ghép nhóm giúp thu gọn lượng dữ liệu quan sát lớn thành các khoảng đặc trưng dễ tính toán và trực quan hóa phân bố."
+        },
+        {
+          "term": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+          "definition": "Phương sai s² = (1/n) · ∑ m_i · (c_i - x̄)², trong đó c_i là giá trị đại diện (trung điểm) của nhóm thứ i, x̄ là số trung bình, n là kích thước mẫu. Độ lệch chuẩn s = √(s²).",
+          "example": "Độ lệch chuẩn điểm thi môn Toán của lớp A là s = 0.8 điểm (điểm đều), trong khi lớp B là s = 1.8 điểm (điểm phân tán mạnh, học lực không đều).",
+          "essence": "Độ lệch chuẩn đo lường mức độ phân tán của các số liệu xung quanh giá trị trung bình; độ lệch chuẩn càng nhỏ thì tập dữ liệu càng ổn định và đồng đều."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính giá trị đại diện của nhóm ghép nhóm",
+          "meaning": "Giá trị đại diện của nhóm [a_i; a_{i+1}) là trung bình cộng hai đầu mút: c_i = (a_i + a_{i+1}) / 2.",
+          "example": "Nhóm [20; 30) có giá trị đại diện là c = (20 + 30) / 2 = 25.",
+          "essence": "Giá trị đại diện thay thế cho toàn bộ các cá thể trong khoảng đó để tính toán số trung bình và phương sai."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẫu số liệu ghép nhóm về thời gian tự học (giờ/tuần) của 20 học sinh: [5; 10): 4 học sinh; [10; 15): 10 học sinh; [15; 20): 6 học sinh. Tính số trung bình x̄ và phương sai s²?",
+          "steps": [
+            "Bước 1: Xác định giá trị đại diện: c₁ = 7.5; c₂ = 12.5; c₃ = 17.5. Kích thước mẫu n = 4 + 10 + 6 = 20.",
+            "Bước 2: Tính số trung bình: x̄ = (4·7.5 + 10·12.5 + 6·17.5) / 20 = (30 + 125 + 105) / 20 = 260 / 20 = 13 giờ.",
+            "Bước 3: Tính phương sai: s² = [4·(7.5 - 13)² + 10·(12.5 - 13)² + 6·(17.5 - 13)²] / 20 = [4·30.25 + 10·0.25 + 6·20.25] / 20 = [121 + 2.5 + 121.5] / 20 = 245 / 20 = 12.25."
+          ],
+          "answer": "Số trung bình x̄ = 13 giờ; phương sai s² = 12.25; độ lệch chuẩn s = 3.5 giờ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy nhầm độ dài khoảng thay vì trung điểm làm giá trị đại diện c_i.",
+          "why": "Giá trị đại diện là trung bình cộng hai mút (a + b)/2, không phải độ dài khoảng h = b - a."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Mẫu số liệu ghép nhóm",
+          "definition": "Là mẫu số liệu được chia thành các nhóm liên tiếp dạng [a_i; a_{i+1}) cùng với tần số m_i tương ứng với mỗi nhóm.",
+          "example": "Thống kê chiều cao 100 học sinh lớp 12: nhóm [150; 155) có 12 em, nhóm [155; 160) có 28 em, nhóm [160; 165) có 35 em...",
+          "essence": "Ghép nhóm giúp thu gọn lượng dữ liệu quan sát lớn thành các khoảng đặc trưng dễ tính toán và trực quan hóa phân bố."
+        },
+        {
+          "term": "Phương sai và độ lệch chuẩn của mẫu số liệu ghép nhóm",
+          "definition": "Phương sai s² = (1/n) · ∑ m_i · (c_i - x̄)², trong đó c_i là giá trị đại diện (trung điểm) của nhóm thứ i, x̄ là số trung bình, n là kích thước mẫu. Độ lệch chuẩn s = √(s²).",
+          "example": "Độ lệch chuẩn điểm thi môn Toán của lớp A là s = 0.8 điểm (điểm đều), trong khi lớp B là s = 1.8 điểm (điểm phân tán mạnh, học lực không đều).",
+          "essence": "Độ lệch chuẩn đo lường mức độ phân tán của các số liệu xung quanh giá trị trung bình; độ lệch chuẩn càng nhỏ thì tập dữ liệu càng ổn định và đồng đều."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính giá trị đại diện của nhóm ghép nhóm",
+          "meaning": "Giá trị đại diện của nhóm [a_i; a_{i+1}) là trung bình cộng hai đầu mút: c_i = (a_i + a_{i+1}) / 2.",
+          "example": "Nhóm [20; 30) có giá trị đại diện là c = (20 + 30) / 2 = 25.",
+          "essence": "Giá trị đại diện thay thế cho toàn bộ các cá thể trong khoảng đó để tính toán số trung bình và phương sai."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho mẫu số liệu ghép nhóm về thời gian tự học (giờ/tuần) của 20 học sinh: [5; 10): 4 học sinh; [10; 15): 10 học sinh; [15; 20): 6 học sinh. Tính số trung bình x̄ và phương sai s²?",
+          "steps": [
+            "Bước 1: Xác định giá trị đại diện: c₁ = 7.5; c₂ = 12.5; c₃ = 17.5. Kích thước mẫu n = 4 + 10 + 6 = 20.",
+            "Bước 2: Tính số trung bình: x̄ = (4·7.5 + 10·12.5 + 6·17.5) / 20 = (30 + 125 + 105) / 20 = 260 / 20 = 13 giờ.",
+            "Bước 3: Tính phương sai: s² = [4·(7.5 - 13)² + 10·(12.5 - 13)² + 6·(17.5 - 13)²] / 20 = [4·30.25 + 10·0.25 + 6·20.25] / 20 = [121 + 2.5 + 121.5] / 20 = 245 / 20 = 12.25."
+          ],
+          "answer": "Số trung bình x̄ = 13 giờ; phương sai s² = 12.25; độ lệch chuẩn s = 3.5 giờ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy nhầm độ dài khoảng thay vì trung điểm làm giá trị đại diện c_i.",
+          "why": "Giá trị đại diện là trung bình cộng hai mút (a + b)/2, không phải độ dài khoảng h = b - a."
+        }
+      ]
+    }
+  ]
+}

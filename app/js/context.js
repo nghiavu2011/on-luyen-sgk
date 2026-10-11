@@ -105,7 +105,17 @@ function getSelectedTrack() {
     const raw = localStorage.getItem('sgk_selected_track');
     if (raw) {
       const parsed = JSON.parse(raw);
-      if (parsed && parsed.id) return parsed;
+      if (parsed && parsed.id) {
+        const found = PRESET_TRACKS.find(t => t.id === parsed.id);
+        if (found) {
+          parsed.name = parsed.name || found.name;
+          parsed.icon = parsed.icon || found.icon;
+          if (parsed.id !== 'custom' && (!parsed.subjects || parsed.subjects.length === 0)) {
+            parsed.subjects = found.subjects;
+          }
+        }
+        return parsed;
+      }
     }
   } catch (e) {}
   return { id: 'all', name: 'Tất cả môn học', icon: '🌟', subjects: [], onlyTrack: false };

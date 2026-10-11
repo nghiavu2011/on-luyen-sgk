@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_tin_ch06_01",
+    "front": "Khái niệm 'Cáp quang (Fiber Optic Cable)' trong Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính được định nghĩa như thế nào?",
+    "back": "Đường truyền truyền dẫn tín hiệu bằng xung ánh sáng qua sợi thủy tinh hoặc nhựa trong suốt dựa trên hiện tượng phản xạ toàn phần. Ưu điểm: băng thông siêu lớn, cự ly truyền xa hàng chục km và hoàn toàn không bị nhiễu điện từ.\n\n💡 Ví dụ: Tuyến cáp quang biển kết nối mạng Internet giữa Việt Nam và quốc tế.\n🌱 Bản chất: Môi trường truyền dẫn tốc độ cao là xương sống của hạ tầng viễn thông hiện đại.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_02",
+    "front": "Khái niệm 'Cấu trúc liên kết mạng (Network Topology)' trong Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính được định nghĩa như thế nào?",
+    "back": "Cách bố trí hình học các máy tính và thiết bị kết nối trong mạng LAN. Các dạng phổ biến: Hình sao (Star - dùng Switch trung tâm), Hình vòng (Ring), Dạng trục (Bus) và Dạng lưới (Mesh).\n\n💡 Ví dụ: Mạng LAN hình sao là tiêu chuẩn thống trị hiện nay vì một máy bị đứt dây cáp không làm ảnh hưởng đến các máy còn lại.\n🌱 Bản chất: Lựa chọn cấu trúc liên kết quyết định độ tin cậy, chi phí lắp đặt và khả năng mở rộng của hệ thống mạng.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_03",
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc thiết kế mạng LAN phân tầng (Hierarchical Network Model)'?",
+    "back": "Một mạng doanh nghiệp đạt chuẩn nên phân chia làm 3 tầng chức năng: Tầng lõi (Core layer - chuyển mạch siêu tốc), Tầng phân phối (Distribution layer - định tuyến và kiểm soát bảo mật) và Tầng truy cập (Access layer - kết nối trực tiếp máy người dùng).\n\n📝 Ví dụ: Tầng truy cập đặt các Switch kết nối máy tính học sinh; Tầng phân phối kết nối các khối nhà; Tầng lõi đặt tại phòng trung tâm dữ liệu nhà trường.\n🔑 Ý nghĩa: Phân tầng giúp dễ quản lý, dễ khoanh vùng sự cố và mở rộng mạng linh hoạt.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_04",
+    "front": "Phương pháp giải bài toán: 'Lập kế hoạch thiết kế mạng LAN cho phòng học Tin học gồm 40 máy tính học sinh và 1 máy giáo viên. Hãy chọn thiết bị kết nối và cấu trúc liên kết tối ưu nhất?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Chọn cấu trúc liên kết: Cấu trúc hình sao (Star Topology) vì tính ổn định cao và dễ phát hiện lỗi đứt cáp.\nBước 2: Chọn thiết bị chuyển mạch: Sử dụng 1 Switch 48 cổng Gigabit (hoặc 2 Switch 24 cổng xếp tầng) có hỗ trợ tốc độ 1000 Mbps.\nBước 3: Chọn môi trường truyền: Cáp mạng xoắn đôi Cat6 chuẩn kết nối RJ-45 (chiều dài mỗi đoạn dây không quá 100m).\nBước 4: Cấu hình: Cài đặt cấp phát địa chỉ IP tự động (DHCP) cùng dải mạng 192.168.10.x để các máy dễ dàng chia sẻ bài giảng.\n\n👉 Kết luận: Giải pháp tối ưu: Mô hình hình sao sử dụng Switch 48 port Gigabit và cáp mạng Cat6 kết nối về phòng điều khiển trung tâm.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_05",
+    "front": "Bẫy sai lầm cần tránh: Bố trí chiều dài dây cáp mạng xoắn đôi (UTP) vượt quá giới hạn 100 mét mà không có thiết bị khuếch đại lặp (Repeater/Switch).?",
+    "back": "❌ Lỗi sai: Bố trí chiều dài dây cáp mạng xoắn đôi (UTP) vượt quá giới hạn 100 mét mà không có thiết bị khuếch đại lặp (Repeater/Switch).\n\n💡 Nguyên nhân & Khắc phục: Tín hiệu điện bị suy hao và biến dạng nghiêm trọng sau cự ly 100m, dẫn đến mất kết nối hoặc tốc độ truyền chập chờn.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch06_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 6: Thiết bị mạng và Thiết kế mạng máy tính?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch06",
+      "on-tap"
+    ]
+  }
+]

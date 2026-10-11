@@ -1,0 +1,256 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Từ trường",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Từ trường và cảm ứng từ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Từ trường và cảm ứng từ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm ứng từ và Lực từ",
+          "definition": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.",
+          "example": "Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.",
+          "essence": "Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện."
+        },
+        {
+          "term": "Từ thông và Hiện tượng cảm ứng điện từ",
+          "definition": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.",
+          "example": "Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.",
+          "essence": "Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật cảm ứng điện từ Faraday và Định luật Lenz",
+          "meaning": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.",
+          "example": "Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.",
+          "essence": "Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?",
+          "steps": [
+            "Bước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.",
+            "Bước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.",
+            "Bước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.",
+            "Bước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V."
+          ],
+          "answer": "Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.",
+          "why": "Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Lực từ tác dụng lên dây dẫn mang dòng điện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Lực từ tác dụng lên dây dẫn mang dòng điện.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm ứng từ và Lực từ",
+          "definition": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.",
+          "example": "Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.",
+          "essence": "Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện."
+        },
+        {
+          "term": "Từ thông và Hiện tượng cảm ứng điện từ",
+          "definition": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.",
+          "example": "Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.",
+          "essence": "Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật cảm ứng điện từ Faraday và Định luật Lenz",
+          "meaning": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.",
+          "example": "Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.",
+          "essence": "Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?",
+          "steps": [
+            "Bước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.",
+            "Bước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.",
+            "Bước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.",
+            "Bước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V."
+          ],
+          "answer": "Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.",
+          "why": "Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Từ thông và Hiện tượng cảm ứng điện từ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Từ thông và Hiện tượng cảm ứng điện từ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm ứng từ và Lực từ",
+          "definition": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.",
+          "example": "Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.",
+          "essence": "Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện."
+        },
+        {
+          "term": "Từ thông và Hiện tượng cảm ứng điện từ",
+          "definition": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.",
+          "example": "Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.",
+          "essence": "Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật cảm ứng điện từ Faraday và Định luật Lenz",
+          "meaning": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.",
+          "example": "Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.",
+          "essence": "Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?",
+          "steps": [
+            "Bước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.",
+            "Bước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.",
+            "Bước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.",
+            "Bước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V."
+          ],
+          "answer": "Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.",
+          "why": "Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α."
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "title": "Bài 4: Máy phát điện xoay chiều",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 4: Máy phát điện xoay chiều.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm ứng từ và Lực từ",
+          "definition": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.",
+          "example": "Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.",
+          "essence": "Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện."
+        },
+        {
+          "term": "Từ thông và Hiện tượng cảm ứng điện từ",
+          "definition": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.",
+          "example": "Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.",
+          "essence": "Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật cảm ứng điện từ Faraday và Định luật Lenz",
+          "meaning": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.",
+          "example": "Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.",
+          "essence": "Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?",
+          "steps": [
+            "Bước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.",
+            "Bước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.",
+            "Bước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.",
+            "Bước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V."
+          ],
+          "answer": "Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.",
+          "why": "Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α."
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "title": "Bài 5: Điện từ trường và Sóng điện từ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 5: Điện từ trường và Sóng điện từ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK 12.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn ôn thi THPT & ĐGNL."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm ứng từ và Lực từ",
+          "definition": "Cảm ứng từ B là đại lượng vectơ đặc trưng cho từ trường về mặt tác dụng lực. Lực từ tác dụng lên đoạn dây dẫn có chiều dài L mang dòng điện I đặt trong từ trường đều B: F = I · L · B · sin α (α = (L, B)). Hướng lực xác định theo quy tắc bàn tay trái.",
+          "example": "Đoạn dây 0.2 m mang dòng điện 5 A đặt vuông góc với từ trường B = 0.1 T chịu lực từ F = 5 · 0.2 · 0.1 · sin 90° = 0.1 N.",
+          "essence": "Từ trường tác dụng lực lên các hạt mang điện chuyển động và dây dẫn mang dòng điện, tạo nền tảng cho động cơ điện."
+        },
+        {
+          "term": "Từ thông và Hiện tượng cảm ứng điện từ",
+          "definition": "Từ thông qua diện tích S là Φ = B · S · cos θ (θ là góc giữa vectơ B và vectơ pháp tuyến n). Khi từ thông biến thiên theo thời gian thì trong mạch kín xuất hiện dòng điện cảm ứng.",
+          "example": "Khi đưa nam châm lại gần cuộn dây, từ trường qua cuộn dây tăng làm xuất hiện dòng điện cảm ứng trong cuộn dây làm lệch kim điện kế.",
+          "essence": "Biến đổi năng lượng từ cơ năng sang điện năng thông qua sự biến thiên của từ thông qua mạch dẫn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định luật cảm ứng điện từ Faraday và Định luật Lenz",
+          "meaning": "Suất điện động cảm ứng có độ lớn tỉ lệ thuận với tốc độ biến thiên của từ thông qua mạch: e_c = -dΦ/dt. Định luật Lenz: Dòng điện cảm ứng xuất hiện có chiều sao cho từ trường do nó sinh ra có tác dụng chống lại sự biến thiên của từ thông sinh ra nó.",
+          "example": "Khi nam châm tiến vào cuộn dây (từ thông tăng), cuộn dây sinh ra từ trường ngược chiều để đẩy nam châm ra xa.",
+          "essence": "Tính bảo toàn năng lượng trong hiện tượng điện từ: chống lại sự biến đổi gây ra nó."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khung dây phẳng có diện tích S = 100 cm² gồm 200 vòng dây đặt vuông góc với các đường sức từ của từ trường đều B = 0.05 T. Trong khoảng thời gian 0.02 giây, từ trường giảm đều về 0. Tính suất điện động cảm ứng xuất hiện trong khung?",
+          "steps": [
+            "Bước 1: Diện tích S = 100 cm² = 0.01 m². Vì khung vuông góc đường sức từ nên góc θ = 0°, cos θ = 1.",
+            "Bước 2: Từ thông ban đầu qua 200 vòng dây: Φ₁ = N·B₁·S = 200 · 0.05 · 0.01 = 0.1 Wb.",
+            "Bước 3: Từ thông lúc sau: Φ₂ = 0. Độ biến thiên: ΔΦ = 0 - 0.1 = -0.1 Wb.",
+            "Bước 4: Suất điện động cảm ứng: |e_c| = |ΔΦ / Δt| = |-0.1 / 0.02| = 5 V."
+          ],
+          "answer": "Suất điện động cảm ứng sinh ra trong khung dây có độ lớn bằng 5 V."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm góc θ giữa vectơ B và vectơ pháp tuyến n với góc giữa vectơ B và mặt phẳng khung dây.",
+          "why": "Nếu đề cho góc giữa B và mặt phẳng khung là α thì góc θ trong công thức từ thông phải là θ = 90° - α."
+        }
+      ]
+    }
+  ]
+}

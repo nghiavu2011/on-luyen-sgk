@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_tin_ch04_01",
+    "front": "Khái niệm 'HTML (HyperText Markup Language)' trong Chủ đề 4: Thiết kế trang web với HTML và CSS được định nghĩa như thế nào?",
+    "back": "Là ngôn ngữ đánh dấu siêu văn bản định nghĩa cấu trúc cơ bản của trang web bằng các thẻ (tags) lồng nhau. Cấu trúc chuẩn gồm: <!DOCTYPE html>, <html>, <head> (chứa tiêu đề và metadata) và <body> (chứa nội dung hiển thị).\n\n💡 Ví dụ: <h1>Tiêu đề chính</h1>, <p>Đoạn văn</p>, <a href='https://example.com'>Liên kết</a>, <img src='logo.png' alt='Logo'>.\n🌱 Bản chất: HTML là khung xương chịu lực quy định nội dung của trang web.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_02",
+    "front": "Khái niệm 'CSS và Mô hình hộp (CSS Box Model)' trong Chủ đề 4: Thiết kế trang web với HTML và CSS được định nghĩa như thế nào?",
+    "back": "CSS (Cascading Style Sheets) quy định cách hiển thị trực quan thẩm mĩ của các phần tử HTML. Mô hình hộp gồm 4 lớp từ trong ra ngoài: Nội dung (Content) -> Đệm (Padding) -> Viền (Border) -> Lề ngoài (Margin).\n\n💡 Ví dụ: p { padding: 10px; border: 1px solid #ccc; margin: 15px; }.\n🌱 Bản chất: Tách bạch nội dung (HTML) khỏi phần trình bày trang trí giao diện (CSS) giúp dễ bảo trì và tối ưu trải nghiệm người dùng.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_03",
+    "front": "Phát biểu quy tắc / định lí: 'Độ ưu tiên của bộ chọn CSS (Specificity)'?",
+    "back": "Khi có nhiều luật CSS xung đột áp dụng cho cùng một phần tử, độ ưu tiên tăng dần theo thứ tự: Bộ chọn thẻ (Type selector) < Bộ chọn lớp (Class selector .class) < Bộ chọn mã định danh (ID selector #id) < Kiểu nội dòng (Inline style). Thuộc tính có !important sẽ ghi đè tất cả.\n\n📝 Ví dụ: <div id='main' class='box' style='color: green;'>: Màu xanh lá cây của style nội dòng sẽ được áp dụng thay vì CSS external.\n🔑 Ý nghĩa: Hệ thống phân cấp chặt chẽ đảm bảo giải quyết mọi mâu thuẫn phong cách định dạng.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_04",
+    "front": "Phương pháp giải bài toán: 'Viết mã HTML tạo một bảng thông tin gồm 2 cột: 'Môn học' và 'Điểm số', gồm 2 dòng dữ liệu cho Toán (9.5) và Tin học (10.0).'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Sử dụng thẻ <table> để mở bảng.\nBước 2: Tạo hàng tiêu đề bằng thẻ <tr> và các ô tiêu đề <th>.\nBước 3: Tạo các hàng dữ liệu tiếp theo bằng <tr> và các ô nội dung <td>.\nBước 4: Đóng các thẻ theo đúng thứ tự.\n\n👉 Kết luận: <table border='1'><tr><th>Môn học</th><th>Điểm số</th></tr><tr><td>Toán</td><td>9.5</td></tr><tr><td>Tin học</td><td>10.0</td></tr></table>",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_05",
+    "front": "Bẫy sai lầm cần tránh: Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).?",
+    "back": "❌ Lỗi sai: Quên thẻ đóng hoặc đóng sai thứ tự các cặp thẻ lồng nhau trong HTML (ví dụ: <b><i>Nội dung</b></i>).\n\n💡 Nguyên nhân & Khắc phục: Các thẻ phải tuân thủ nguyên tắc lồng nhau: thẻ nào mở sau cùng thì phải đóng trước tiên (<b><i>Nội dung</i></b>).",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 4: Thiết kế trang web với HTML và CSS?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 4: Thiết kế trang web với HTML và CSS?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch04_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 4: Thiết kế trang web với HTML và CSS?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "on-tap"
+    ]
+  }
+]

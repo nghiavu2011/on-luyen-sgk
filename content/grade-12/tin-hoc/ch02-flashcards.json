@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_tin_ch02_01",
+    "front": "Khái niệm 'Bộ định tuyến (Router) và Bộ chuyển mạch (Switch)' trong Chủ đề 2: Mạng máy tính và Internet được định nghĩa như thế nào?",
+    "back": "Switch hoạt động ở tầng liên kết dữ liệu (Data Link), kết nối các thiết bị trong cùng một mạng LAN nội bộ bằng địa chỉ MAC. Router hoạt động ở tầng mạng (Network), định tuyến các gói tin giữa các mạng khác nhau bằng địa chỉ IP.\n\n💡 Ví dụ: Switch kết nối các máy tính trong phòng thực hành tin học; Router kết nối toàn bộ mạng trường học với nhà cung cấp dịch vụ Internet (ISP).\n🌱 Bản chất: Switch mở rộng phạm vi kết nối nội bộ, còn Router định hướng đường truyền dữ liệu xuyên biên giới mạng.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_02",
+    "front": "Khái niệm 'Bộ giao thức TCP/IP' trong Chủ đề 2: Mạng máy tính và Internet được định nghĩa như thế nào?",
+    "back": "Là bộ quy tắc truyền thông chuẩn trên Internet. IP (Internet Protocol) chịu trách nhiệm đánh địa chỉ và chuyển phát gói tin đến đúng đích. TCP (Transmission Control Protocol) đảm bảo truyền dữ liệu tin cậy, không mất gói tin và đúng thứ tự.\n\n💡 Ví dụ: Khi tải tệp tin, TCP tự động kiểm tra mã kiểm lỗi và yêu cầu gửi lại các gói tin bị mất trên đường truyền.\n🌱 Bản chất: Ngôn ngữ chung cho phép hàng tỉ máy tính có phần cứng và hệ điều hành khác nhau giao tiếp đồng bộ với nhau.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_03",
+    "front": "Phát biểu quy tắc / định lí: 'Cấu trúc địa chỉ IPv4'?",
+    "back": "Địa chỉ IPv4 gồm 32 bit nhị phân, biểu diễn thành 4 số thập phân từ 0 đến 255 ngăn cách nhau bởi dấu chấm (dotted decimal notation), chia thành phần định danh mạng (NetID) và phần định danh máy (HostID) nhờ Subnet Mask.\n\n📝 Ví dụ: Địa chỉ 192.168.1.1 với Subnet Mask 255.255.255.0 có NetID là 192.168.1.0 và HostID là 1.\n🔑 Ý nghĩa: Hệ thống định danh duy nhất cho từng giao diện mạng trong không gian địa chỉ toàn cầu.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_04",
+    "front": "Phương pháp giải bài toán: 'Cho biết dải địa chỉ IP riêng (Private IP) thông dụng trong mạng LAN gia đình và giải thích vai trò của NAT (Network Address Translation)?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Các dải IP riêng chuẩn: Lớp A: 10.0.0.0/8; Lớp B: 172.16.0.0/12; Lớp C: 192.168.0.0/16 (phổ biến nhất cho gia đình).\nBước 2: Vai trò của NAT: Công nghệ biên dịch cho phép nhiều thiết bị dùng IP riêng trong mạng LAN cùng chia sẻ một địa chỉ IP công cộng (Public IP) duy nhất để truy cập Internet.\nBước 3: Lợi ích: Tiết kiệm không gian địa chỉ IPv4 toàn cầu và tăng cường bảo mật cho các thiết bị nội bộ.\n\n👉 Kết luận: Dải IP riêng phổ biến là 192.168.x.x; NAT giúp chia sẻ một IP công cộng cho nhiều thiết bị nội bộ và bảo vệ an ninh mạng.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_05",
+    "front": "Bẫy sai lầm cần tránh: Nhầm lẫn giữa địa chỉ IP (địa chỉ logic thay đổi theo mạng) và địa chỉ MAC (địa chỉ vật lý cố định ghi trong chip card mạng).?",
+    "back": "❌ Lỗi sai: Nhầm lẫn giữa địa chỉ IP (địa chỉ logic thay đổi theo mạng) và địa chỉ MAC (địa chỉ vật lý cố định ghi trong chip card mạng).\n\n💡 Nguyên nhân & Khắc phục: Địa chỉ MAC do nhà sản xuất gán cứng; khi chuyển sang mạng khác, địa chỉ IP thay đổi nhưng MAC vẫn giữ nguyên.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 2: Mạng máy tính và Internet?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 2: Mạng máy tính và Internet?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_tin_ch02_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 2: Mạng máy tính và Internet?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "tin-hoc",
+      "ch02",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fc_vat_ch04_01",
+    "front": "Khái niệm 'Độ hụt khối và Năng lượng liên kết hạt nhân' trong Chương 4: Vật lí hạt nhân được định nghĩa như thế nào?",
+    "back": "Độ hụt khối Δm = [Z·m_p + (A - Z)·m_n] - m_hn > 0. Năng lượng liên kết: E_lk = Δm · c². Năng lượng liên kết riêng E_lkr = E_lk / A đặc trưng cho độ bền vững của hạt nhân (hạt nhân có số khối 50 < A < 80 bền vững nhất).\n\n💡 Ví dụ: Hạt nhân Sắt ⁵⁶Fe có năng lượng liên kết riêng lớn nhất xấp xỉ 8.8 MeV/nucleon nên là một trong những hạt nhân bền vững nhất trong tự nhiên.\n🌱 Bản chất: Khối lượng của hạt nhân luôn nhỏ hơn tổng khối lượng của các nucleon tự do tạo nên nó; phần khối lượng hụt đi chuyển hóa thành năng lượng liên kết gắn kết các nucleon.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_02",
+    "front": "Khái niệm 'Định luật phóng xạ và Chu kỳ bán rã' trong Chương 4: Vật lí hạt nhân được định nghĩa như thế nào?",
+    "back": "Phóng xạ là quá trình tự phân rã tự phát của hạt nhân không bền vững phát ra các tia phóng xạ. Số hạt nhân còn lại sau thời gian t tuân theo định luật: N(t) = N₀ · 2^(-t/T) = N₀ · e^(-λt) với T là chu kỳ bán rã.\n\n💡 Ví dụ: Đồng vị phóng xạ Iod-131 có chu kỳ bán rã T = 8 ngày. Sau 24 ngày (3 chu kỳ), lượng phóng xạ còn lại là (1/2)³ = 1/8 so với ban đầu.\n🌱 Bản chất: Quá trình phóng xạ mang tính xác suất thống kê lượng tử ngẫu nhiên, không phụ thuộc vào các điều kiện hóa học hay nhiệt độ, áp suất bên ngoài.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_03",
+    "front": "Phát biểu quy tắc / định lí: 'Các định luật bảo toàn trong phản ứng hạt nhân'?",
+    "back": "Trong mọi phản ứng hạt nhân luôn tuân thủ 4 định luật bảo toàn: Bảo toàn điện tích (Z), Bảo toàn số khối (A hay số nucleon), Bảo toàn động lượng và Bảo toàn năng lượng toàn phần (không có định luật bảo toàn khối lượng nghỉ).\n\n📝 Ví dụ: Trong phản ứng: ¹⁰₅B + n → ⁷₃Li + ⁴₂He, tổng số khối hai vế: 10 + 1 = 7 + 4 = 11; tổng điện tích: 5 + 0 = 3 + 2 = 5.\n🔑 Ý nghĩa: Số lượng các proton và neutron không bị mất đi mà chỉ được tái sắp xếp lại tạo ra cấu trúc hạt nhân mới.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_04",
+    "front": "Phương pháp giải bài toán: 'Đồng vị Cacbon ¹⁴C có chu kỳ bán rã T = 5730 năm. Phân tích một mẫu gỗ cổ thấy lượng ¹⁴C còn lại bằng 25% lượng ¹⁴C có trong mẫu gỗ tươi cùng loại. Xác định tuổi của mẫu gỗ cổ?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Áp dụng định luật phóng xạ: N(t) / N₀ = 2^(-t/T).\nBước 2: Theo đề bài, tỉ lệ còn lại là 25% = 1/4 = 2^(-2).\nBước 3: Suy ra: 2^(-t/T) = 2^(-2) ⇔ t/T = 2 ⇔ t = 2 · T.\nBước 4: Thay T = 5730 năm: t = 2 · 5730 = 11460 năm.\n\n👉 Kết luận: Tuổi của mẫu gỗ cổ là 11.460 năm.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_05",
+    "front": "Bẫy sai lầm cần tránh: Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.?",
+    "back": "❌ Lỗi sai: Cho rằng khối lượng được bảo toàn trong phản ứng hạt nhân: tổng khối lượng trước phản ứng bằng tổng khối lượng sau phản ứng.\n\n💡 Nguyên nhân & Khắc phục: Khối lượng nghỉ KHÔNG bảo toàn; độ chênh lệch khối lượng nghỉ ΔM = M_trước - M_sau chuyển hóa thành năng lượng tỏa ra hoặc thu vào theo hệ thức E = ΔM·c².",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_06",
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 4: Vật lí hạt nhân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_07",
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 4: Vật lí hạt nhân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "on-tap"
+    ]
+  },
+  {
+    "id": "fc_vat_ch04_08",
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 4: Vật lí hạt nhân?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK 12 để đạt điểm tối đa trong kỳ thi Tốt nghiệp THPT & ĐGNL.",
+    "tags": [
+      "vat-li",
+      "ch04",
+      "on-tap"
+    ]
+  }
+]
