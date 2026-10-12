@@ -1,17 +1,31 @@
-# Ignore heavy data and local processing
+# Ignore heavy data, zip archives, and raw PDF files
+*.zip
+*.ZIP
+*.rar
+*.RAR
+*.7z
+*.7Z
+*.pdf
+*.PDF
+**/*.zip
+**/*.ZIP
+**/*.pdf
+**/*.PDF
+
+# Folders
 Data/
 Data/**
 **/Data/**
 data/
 data/**
 **/data/**
-*.pdf
-*.PDF
+
 pipeline/
 pipeline/**
 **/pipeline/**
 pipeline/ocr_cache/
 pipeline/ocr_cache/**
+
 docs/
 docs/**
 tools/
@@ -22,6 +36,8 @@ scratch/
 scratch/**
 bai tho ngay xua/
 demo giao dien/
+
+# System & Temp
 *.exe
 *.log
 *.bak
