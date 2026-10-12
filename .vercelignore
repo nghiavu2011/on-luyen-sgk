@@ -1,7 +1,17 @@
+# Ignore heavy data and local processing
 Data/
 Data/**
+**/Data/**
+data/
+data/**
+**/data/**
+*.pdf
+*.PDF
 pipeline/
 pipeline/**
+**/pipeline/**
+pipeline/ocr_cache/
+pipeline/ocr_cache/**
 docs/
 docs/**
 tools/
@@ -10,9 +20,13 @@ R1/
 R1/**
 scratch/
 scratch/**
+bai tho ngay xua/
+demo giao dien/
 *.exe
 *.log
 *.bak
 .venv/
 env/
 __pycache__/
+.git/
+.agent/
