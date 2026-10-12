@@ -1,0 +1,86 @@
+[
+  {
+    "front": "Khái niệm 'Biến số (Variable)' trong Chủ đề 3: Lập trình Thuật toán cơ bản được định nghĩa như thế nào?",
+    "back": "Là một vùng nhớ được đặt tên trong bộ nhớ máy tính dùng để lưu trữ giá trị và giá trị này có thể thay đổi được trong quá trình thực hiện chương trình.\n\n💡 Ví dụ: Trong Python: diem_so = 8.5; sau đó tăng thêm điểm thưởng: diem_so = diem_so + 1.\n🌱 Bản chất: Biến là viên gạch cơ bản nhất để chương trình ghi nhớ và thao tác dữ liệu linh hoạt.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc hoạt động của cấu trúc rẽ nhánh if - else'?",
+    "back": "Nếu điều kiện đúng (True) thì thực hiện khối lệnh 1; ngược lại nếu điều kiện sai (False) thì thực hiện khối lệnh 2.\n\n📝 Ví dụ: if diem >= 8: print('Xếp loại Giỏi') else: print('Cần cố gắng thêm').\n🔑 Ý nghĩa: Giúp chương trình có khả năng tự động đưa ra quyết định thông minh dựa trên dữ liệu đầu vào.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Viết đoạn mã giải thuật tính tổng các số tự nhiên chẵn từ 1 đến 10.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Khởi tạo biến tổng tong = 0.\nBước 2: Sử dụng vòng lặp duyệt qua các số chẵn: for i in range(2, 11, 2): tong = tong + i.\nBước 3: In kết quả ra màn hình: print('Tổng chẵn là:', tong) => Kết quả là 2 + 4 + 6 + 8 + 10 = 30.\n\n👉 Kết luận: Tổng các số chẵn từ 1 đến 10 là 30.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Lập trình vòng lặp vô tận (Infinite Loop) do quên câu lệnh tăng biến đếm.?",
+    "back": "❌ Lỗi sai: Lập trình vòng lặp vô tận (Infinite Loop) do quên câu lệnh tăng biến đếm.\n\n💡 Nguyên nhân & Khắc phục: Nếu điều kiện lặp luôn đúng và không bao giờ thay đổi, chương trình sẽ chạy mãi mãi làm treo máy tính.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chủ đề 3: Lập trình Thuật toán cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 3: Lập trình Thuật toán cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 3: Lập trình Thuật toán cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 3: Lập trình Thuật toán cơ bản?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-08",
+      "on-tap"
+    ]
+  }
+]

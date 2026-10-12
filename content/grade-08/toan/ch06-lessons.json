@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Tam giác đồng dạng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Định nghĩa hai tam giác đồng dạng và trường hợp c-c-c, c-g-c",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Định nghĩa hai tam giác đồng dạng và trường hợp c-c-c, c-g-c.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hai tam giác đồng dạng",
+          "definition": "Tam giác A'B'C' gọi là đồng dạng với tam giác ABC nếu: Các góc tương ứng bằng nhau (A'=A, B'=B, C'=C) và các cạnh tương ứng tỉ lệ: A'B'/AB = B'C'/BC = C'A'/CA = k (k là tỉ số đồng dạng).",
+          "example": "Một bức ảnh thu nhỏ tỉ lệ 1:2 có hình dạng giống hệt cảnh vật thực tế nhưng kích thước bằng một nửa.",
+          "essence": "Đồng dạng là sự bảo toàn về hình dạng góc mà không nhất thiết phải bằng nhau về kích thước độ dài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trường hợp đồng dạng góc - góc (g-g)",
+          "meaning": "Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "example": "Tam giác ABC và tam giác A'B'C' có góc A = góc A' và góc B = góc B' => tam giác A'B'C' đồng dạng với tam giác ABC.",
+          "essence": "Đây là trường hợp đồng dạng phổ biến và dễ chứng minh nhất trong hình học THCS."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một cái cây cao đổ bóng dài 8m trên mặt đất. Cùng thời điểm đó, một cọc tiêu cao 2m cắm thẳng đứng đổ bóng dài 1,6m. Tính chiều cao của cây.",
+          "steps": [
+            "Bước 1: Do các tia nắng mặt trời song song nên góc tạo bởi tia nắng với mặt đất là như nhau.",
+            "Bước 2: Hai tam giác vuông tạo bởi (cây, bóng cây) và (cọc, bóng cọc) đồng dạng theo trường hợp g-g.",
+            "Bước 3: Lập tỉ số đồng dạng: h_cây / h_cọc = bóng_cây / bóng_cọc => h_cây / 2 = 8 / 1,6 => h_cây = (8 * 2) / 1,6 = 10m."
+          ],
+          "answer": "Chiều cao của cây là 10 mét."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết sai thứ tự đỉnh tương ứng khi kí hiệu hai tam giác đồng dạng.",
+          "why": "Kí hiệu tam giác A'B'C' đồng dạng với tam giác ABC đòi hỏi đỉnh A' tương ứng với A, B' với B, C' với C. Nếu viết lộn xộn sẽ dẫn đến việc lập sai các tỉ số cạnh."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Trường hợp đồng dạng g-g và tam giác vuông đồng dạng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Trường hợp đồng dạng g-g và tam giác vuông đồng dạng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hai tam giác đồng dạng",
+          "definition": "Tam giác A'B'C' gọi là đồng dạng với tam giác ABC nếu: Các góc tương ứng bằng nhau (A'=A, B'=B, C'=C) và các cạnh tương ứng tỉ lệ: A'B'/AB = B'C'/BC = C'A'/CA = k (k là tỉ số đồng dạng).",
+          "example": "Một bức ảnh thu nhỏ tỉ lệ 1:2 có hình dạng giống hệt cảnh vật thực tế nhưng kích thước bằng một nửa.",
+          "essence": "Đồng dạng là sự bảo toàn về hình dạng góc mà không nhất thiết phải bằng nhau về kích thước độ dài."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trường hợp đồng dạng góc - góc (g-g)",
+          "meaning": "Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "example": "Tam giác ABC và tam giác A'B'C' có góc A = góc A' và góc B = góc B' => tam giác A'B'C' đồng dạng với tam giác ABC.",
+          "essence": "Đây là trường hợp đồng dạng phổ biến và dễ chứng minh nhất trong hình học THCS."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một cái cây cao đổ bóng dài 8m trên mặt đất. Cùng thời điểm đó, một cọc tiêu cao 2m cắm thẳng đứng đổ bóng dài 1,6m. Tính chiều cao của cây.",
+          "steps": [
+            "Bước 1: Do các tia nắng mặt trời song song nên góc tạo bởi tia nắng với mặt đất là như nhau.",
+            "Bước 2: Hai tam giác vuông tạo bởi (cây, bóng cây) và (cọc, bóng cọc) đồng dạng theo trường hợp g-g.",
+            "Bước 3: Lập tỉ số đồng dạng: h_cây / h_cọc = bóng_cây / bóng_cọc => h_cây / 2 = 8 / 1,6 => h_cây = (8 * 2) / 1,6 = 10m."
+          ],
+          "answer": "Chiều cao của cây là 10 mét."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết sai thứ tự đỉnh tương ứng khi kí hiệu hai tam giác đồng dạng.",
+          "why": "Kí hiệu tam giác A'B'C' đồng dạng với tam giác ABC đòi hỏi đỉnh A' tương ứng với A, B' với B, C' với C. Nếu viết lộn xộn sẽ dẫn đến việc lập sai các tỉ số cạnh."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Thu thập và Biểu diễn dữ liệu",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Thu thập và phân loại dữ liệu thống kê",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Thu thập và phân loại dữ liệu thống kê.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biểu đồ hình quạt tròn",
+          "definition": "Là biểu đồ dùng hình tròn được chia thành các hình quạt để biểu diễn tỉ lệ phần trăm của từng loại số liệu so với toàn thể.",
+          "example": "Biểu diễn cơ cấu học lực lớp 7A: Giỏi 40%, Khá 35%, Đạt 25% trên một hình tròn 360 độ.",
+          "essence": "Hình quạt tròn giúp người xem so sánh trực quan quy mô thành phần trong tổng thể 100%."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối quan hệ giữa phần trăm và số đo góc ở tâm hình quạt tròn",
+          "meaning": "1% tương ứng với góc ở tâm 3,6 độ (360 độ / 100). Muốn vẽ hình quạt biểu diễn p%, góc ở tâm là p * 3,6 độ.",
+          "example": "Dữ liệu 25% tương ứng với góc ở tâm bằng 25 * 3,6 = 90 độ (một phần tư hình tròn).",
+          "essence": "Quy đổi tỉ lệ phần trăm thành góc hình học đảm bảo độ chính xác của biểu đồ thống kê."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một nhóm học sinh có 40 bạn gồm: 16 bạn thích bóng đá, 12 bạn thích cầu lông, 8 bạn thích bơi lội, 4 bạn thích cờ vua. Tính tỉ lệ phần trăm bạn thích bóng đá.",
+          "steps": [
+            "Bước 1: Xác định tổng số học sinh là 40 bạn.",
+            "Bước 2: Lấy số bạn thích bóng đá chia cho tổng số: 16 / 40 = 0,4.",
+            "Bước 3: Nhân với 100%: 0,4 * 100% = 40%."
+          ],
+          "answer": "Tỉ lệ thích bóng đá là 40%."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Tổng các phần trăm trong biểu đồ hình quạt tròn không bằng 100%.",
+          "why": "Toàn bộ hình tròn tượng trưng cho 100% dữ liệu khảo sát; tổng các thành phần phải luôn luôn bằng 100%."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Biểu đồ đoạn thẳng và biểu đồ hình quạt tròn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Biểu đồ đoạn thẳng và biểu đồ hình quạt tròn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biểu đồ hình quạt tròn",
+          "definition": "Là biểu đồ dùng hình tròn được chia thành các hình quạt để biểu diễn tỉ lệ phần trăm của từng loại số liệu so với toàn thể.",
+          "example": "Biểu diễn cơ cấu học lực lớp 7A: Giỏi 40%, Khá 35%, Đạt 25% trên một hình tròn 360 độ.",
+          "essence": "Hình quạt tròn giúp người xem so sánh trực quan quy mô thành phần trong tổng thể 100%."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối quan hệ giữa phần trăm và số đo góc ở tâm hình quạt tròn",
+          "meaning": "1% tương ứng với góc ở tâm 3,6 độ (360 độ / 100). Muốn vẽ hình quạt biểu diễn p%, góc ở tâm là p * 3,6 độ.",
+          "example": "Dữ liệu 25% tương ứng với góc ở tâm bằng 25 * 3,6 = 90 độ (một phần tư hình tròn).",
+          "essence": "Quy đổi tỉ lệ phần trăm thành góc hình học đảm bảo độ chính xác của biểu đồ thống kê."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một nhóm học sinh có 40 bạn gồm: 16 bạn thích bóng đá, 12 bạn thích cầu lông, 8 bạn thích bơi lội, 4 bạn thích cờ vua. Tính tỉ lệ phần trăm bạn thích bóng đá.",
+          "steps": [
+            "Bước 1: Xác định tổng số học sinh là 40 bạn.",
+            "Bước 2: Lấy số bạn thích bóng đá chia cho tổng số: 16 / 40 = 0,4.",
+            "Bước 3: Nhân với 100%: 0,4 * 100% = 40%."
+          ],
+          "answer": "Tỉ lệ thích bóng đá là 40%."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Tổng các phần trăm trong biểu đồ hình quạt tròn không bằng 100%.",
+          "why": "Toàn bộ hình tròn tượng trưng cho 100% dữ liệu khảo sát; tổng các thành phần phải luôn luôn bằng 100%."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "chapterId": "ch02",
+  "title": "Chủ đề 2: Tổ chức lưu trữ và Chia sẻ tài nguyên trên Điện toán đám mây",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Lưu trữ và đồng bộ dữ liệu trên đám mây",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Lưu trữ và đồng bộ dữ liệu trên đám mây.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Điện toán đám mây (Cloud Computing)",
+          "definition": "Mô hình cung cấp tài nguyên điện toán (máy chủ, dung lượng lưu trữ, phần mềm) qua Internet theo yêu cầu của người dùng mà không cần cài đặt phần cứng cồng kềnh tại chỗ.",
+          "example": "Lưu file trên Google Drive giúp truy cập tài liệu từ mọi thiết bị điện thoại, máy tính bảng hay laptop ở bất kì đâu có Internet.",
+          "essence": "Đồng bộ hóa tức thời, sao lưu tự động và khả năng phục hồi dữ liệu vượt trội."
+        },
+        {
+          "term": "Phân quyền chia sẻ tài liệu trực tuyến",
+          "definition": "Các mức quyền hạn khi chia sẻ tệp tin: 1) Người xem (Viewer). 2) Người nhận xét (Commenter). 3) Người chỉnh sửa (Editor).",
+          "example": "Khi nộp bài tập nhóm cho giáo viên, nên phân quyền 'Người nhận xét' hoặc 'Người xem' để tránh vô tình bị sửa đổi nội dung.",
+          "essence": "Quản trị quyền truy cập chặt chẽ bảo vệ tính toàn vẹn của dữ liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc sao lưu dữ liệu 3-2-1",
+          "meaning": "Lưu giữ ít nhất 3 bản sao dữ liệu, trên 2 loại phương tiện lưu trữ khác nhau, và ít nhất 1 bản sao được lưu trữ ở nơi khác (trên đám mây).",
+          "example": "File khóa luận lưu trên máy tính cá nhân, 1 bản trên USB và 1 bản trên Google Drive.",
+          "essence": "Chiến lược an toàn tuyệt đối chống lại nguy cơ hỏng ổ cứng hay nhiễm mã độc tống tiền (ransomware)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trình bày các bước tạo thư mục chung trên Google Drive để 4 bạn trong tổ cùng soạn thảo bài báo cáo thuyết trình môn Khoa học tự nhiên.",
+          "steps": [
+            "Bước 1: Đăng nhập Google Drive, bấm 'Mới' -> chọn 'Thư mục mới', đặt tên 'Bao cao KHTN 9 To 1'.",
+            "Bước 2: Nhấp chuột phải vào thư mục, chọn 'Chia sẻ' (Share).",
+            "Bước 3: Nhập địa chỉ email của 3 bạn trong tổ, thiết lập quyền 'Người chỉnh sửa' (Editor) và bấm Gửi.",
+            "Bước 4: Tạo tệp Google Trang trình bày (Slides) bên trong thư mục để cả nhóm cùng thiết kế đồng thời."
+          ],
+          "answer": "Thư mục dùng chung được thiết lập với quyền chỉnh sửa giúp cả nhóm làm việc cộng tác thời gian thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chia sẻ tệp với quyền 'Bất kì ai có đường liên kết đều có thể chỉnh sửa' mà không giới hạn quyền truy cập.",
+          "why": "Bất kì ai nhận được link đều có thể xóa hoặc sửa hỏng tài liệu của nhóm."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Hợp tác làm việc nhóm trực tuyến hiệu quả",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Hợp tác làm việc nhóm trực tuyến hiệu quả.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Điện toán đám mây (Cloud Computing)",
+          "definition": "Mô hình cung cấp tài nguyên điện toán (máy chủ, dung lượng lưu trữ, phần mềm) qua Internet theo yêu cầu của người dùng mà không cần cài đặt phần cứng cồng kềnh tại chỗ.",
+          "example": "Lưu file trên Google Drive giúp truy cập tài liệu từ mọi thiết bị điện thoại, máy tính bảng hay laptop ở bất kì đâu có Internet.",
+          "essence": "Đồng bộ hóa tức thời, sao lưu tự động và khả năng phục hồi dữ liệu vượt trội."
+        },
+        {
+          "term": "Phân quyền chia sẻ tài liệu trực tuyến",
+          "definition": "Các mức quyền hạn khi chia sẻ tệp tin: 1) Người xem (Viewer). 2) Người nhận xét (Commenter). 3) Người chỉnh sửa (Editor).",
+          "example": "Khi nộp bài tập nhóm cho giáo viên, nên phân quyền 'Người nhận xét' hoặc 'Người xem' để tránh vô tình bị sửa đổi nội dung.",
+          "essence": "Quản trị quyền truy cập chặt chẽ bảo vệ tính toàn vẹn của dữ liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc sao lưu dữ liệu 3-2-1",
+          "meaning": "Lưu giữ ít nhất 3 bản sao dữ liệu, trên 2 loại phương tiện lưu trữ khác nhau, và ít nhất 1 bản sao được lưu trữ ở nơi khác (trên đám mây).",
+          "example": "File khóa luận lưu trên máy tính cá nhân, 1 bản trên USB và 1 bản trên Google Drive.",
+          "essence": "Chiến lược an toàn tuyệt đối chống lại nguy cơ hỏng ổ cứng hay nhiễm mã độc tống tiền (ransomware)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Trình bày các bước tạo thư mục chung trên Google Drive để 4 bạn trong tổ cùng soạn thảo bài báo cáo thuyết trình môn Khoa học tự nhiên.",
+          "steps": [
+            "Bước 1: Đăng nhập Google Drive, bấm 'Mới' -> chọn 'Thư mục mới', đặt tên 'Bao cao KHTN 9 To 1'.",
+            "Bước 2: Nhấp chuột phải vào thư mục, chọn 'Chia sẻ' (Share).",
+            "Bước 3: Nhập địa chỉ email của 3 bạn trong tổ, thiết lập quyền 'Người chỉnh sửa' (Editor) và bấm Gửi.",
+            "Bước 4: Tạo tệp Google Trang trình bày (Slides) bên trong thư mục để cả nhóm cùng thiết kế đồng thời."
+          ],
+          "answer": "Thư mục dùng chung được thiết lập với quyền chỉnh sửa giúp cả nhóm làm việc cộng tác thời gian thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Chia sẻ tệp với quyền 'Bất kì ai có đường liên kết đều có thể chỉnh sửa' mà không giới hạn quyền truy cập.",
+          "why": "Bất kì ai nhận được link đều có thể xóa hoặc sửa hỏng tài liệu của nhóm."
+        }
+      ]
+    }
+  ]
+}

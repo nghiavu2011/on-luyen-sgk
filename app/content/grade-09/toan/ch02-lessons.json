@@ -1,0 +1,108 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Công thức nghiệm và công thức nghiệm thu gọn của phương trình bậc hai",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Công thức nghiệm và công thức nghiệm thu gọn của phương trình bậc hai.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biệt thức Delta (Δ)",
+          "definition": "Với phương trình ax^2 + bx + c = 0 (a ≠ 0), biệt thức Delta được tính bởi công thức: Δ = b^2 - 4ac.",
+          "example": "Phương trình x^2 - 5x + 6 = 0 có a = 1, b = -5, c = 6 => Δ = (-5)^2 - 4*1*6 = 25 - 24 = 1 > 0.",
+          "essence": "Dấu của Δ quyết định số nghiệm thực: Δ > 0 phương trình có 2 nghiệm phân biệt; Δ = 0 có nghiệm kép; Δ < 0 vô nghiệm."
+        },
+        {
+          "term": "Hệ thức Viète",
+          "definition": "Nếu phương trình ax^2 + bx + c = 0 (a ≠ 0) có hai nghiệm x1, x2 thì: x1 + x2 = -b/a và x1 * x2 = c/a.",
+          "example": "Phương trình x^2 - 7x + 12 = 0 có S = x1 + x2 = 7 và P = x1 * x2 = 12 => Hai nghiệm là x1 = 3, x2 = 4.",
+          "essence": "Định lí Viète cho phép tính tổng và tích nghiệm mà không cần giải phương trình, đồng thời lập phương trình khi biết hai nghiệm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc tìm hai số biết tổng S và tích P",
+          "meaning": "Nếu hai số có tổng bằng S và tích bằng P thì hai số đó là nghiệm của phương trình: X^2 - SX + P = 0. Điều kiện để có hai số là S^2 - 4P ≥ 0.",
+          "example": "Tìm hai số có tổng S = 9 và tích P = 20: Phương trình X^2 - 9X + 20 = 0 có hai nghiệm X = 4 và X = 5.",
+          "essence": "Chuyển bài toán tìm hai số về giải phương trình bậc hai một ẩn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho phương trình x^2 - 2(m - 1)x + m^2 - 3 = 0. Tìm m để phương trình có hai nghiệm x1, x2 thỏa mãn: x1^2 + x2^2 = 10.",
+          "steps": [
+            "Bước 1: Tính Δ' = (m - 1)^2 - (m^2 - 3) = m^2 - 2m + 1 - m^2 + 3 = 4 - 2m. Để có hai nghiệm: Δ' ≥ 0 <=> 4 - 2m ≥ 0 <=> m ≤ 2.",
+            "Bước 2: Theo Viète: x1 + x2 = 2(m - 1) và x1 * x2 = m^2 - 3.",
+            "Bước 3: Biến đổi biểu thức: x1^2 + x2^2 = (x1 + x2)^2 - 2x1*x2 = 4(m - 1)^2 - 2(m^2 - 3) = 4(m^2 - 2m + 1) - 2m^2 + 6 = 2m^2 - 8m + 10.",
+            "Bước 4: Cho 2m^2 - 8m + 10 = 10 <=> 2m^2 - 8m = 0 <=> 2m(m - 4) = 0 <=> m = 0 hoặc m = 4.",
+            "Bước 5: Đối chiếu điều kiện m ≤ 2, ta nhận m = 0 và loại m = 4."
+          ],
+          "answer": "Giá trị cần tìm là m = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đối chiếu điều kiện tồn tại hai nghiệm (Δ ≥ 0 hoặc Δ' ≥ 0) sau khi tìm ra giá trị tham số m.",
+          "why": "Nếu Δ < 0 thì phương trình không có nghiệm thực, các hệ thức Viète trở nên vô nghĩa trên tập số thực."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Định lí Viète và các ứng dụng giải toán",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Định lí Viète và các ứng dụng giải toán.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biệt thức Delta (Δ)",
+          "definition": "Với phương trình ax^2 + bx + c = 0 (a ≠ 0), biệt thức Delta được tính bởi công thức: Δ = b^2 - 4ac.",
+          "example": "Phương trình x^2 - 5x + 6 = 0 có a = 1, b = -5, c = 6 => Δ = (-5)^2 - 4*1*6 = 25 - 24 = 1 > 0.",
+          "essence": "Dấu của Δ quyết định số nghiệm thực: Δ > 0 phương trình có 2 nghiệm phân biệt; Δ = 0 có nghiệm kép; Δ < 0 vô nghiệm."
+        },
+        {
+          "term": "Hệ thức Viète",
+          "definition": "Nếu phương trình ax^2 + bx + c = 0 (a ≠ 0) có hai nghiệm x1, x2 thì: x1 + x2 = -b/a và x1 * x2 = c/a.",
+          "example": "Phương trình x^2 - 7x + 12 = 0 có S = x1 + x2 = 7 và P = x1 * x2 = 12 => Hai nghiệm là x1 = 3, x2 = 4.",
+          "essence": "Định lí Viète cho phép tính tổng và tích nghiệm mà không cần giải phương trình, đồng thời lập phương trình khi biết hai nghiệm."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc tìm hai số biết tổng S và tích P",
+          "meaning": "Nếu hai số có tổng bằng S và tích bằng P thì hai số đó là nghiệm của phương trình: X^2 - SX + P = 0. Điều kiện để có hai số là S^2 - 4P ≥ 0.",
+          "example": "Tìm hai số có tổng S = 9 và tích P = 20: Phương trình X^2 - 9X + 20 = 0 có hai nghiệm X = 4 và X = 5.",
+          "essence": "Chuyển bài toán tìm hai số về giải phương trình bậc hai một ẩn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho phương trình x^2 - 2(m - 1)x + m^2 - 3 = 0. Tìm m để phương trình có hai nghiệm x1, x2 thỏa mãn: x1^2 + x2^2 = 10.",
+          "steps": [
+            "Bước 1: Tính Δ' = (m - 1)^2 - (m^2 - 3) = m^2 - 2m + 1 - m^2 + 3 = 4 - 2m. Để có hai nghiệm: Δ' ≥ 0 <=> 4 - 2m ≥ 0 <=> m ≤ 2.",
+            "Bước 2: Theo Viète: x1 + x2 = 2(m - 1) và x1 * x2 = m^2 - 3.",
+            "Bước 3: Biến đổi biểu thức: x1^2 + x2^2 = (x1 + x2)^2 - 2x1*x2 = 4(m - 1)^2 - 2(m^2 - 3) = 4(m^2 - 2m + 1) - 2m^2 + 6 = 2m^2 - 8m + 10.",
+            "Bước 4: Cho 2m^2 - 8m + 10 = 10 <=> 2m^2 - 8m = 0 <=> 2m(m - 4) = 0 <=> m = 0 hoặc m = 4.",
+            "Bước 5: Đối chiếu điều kiện m ≤ 2, ta nhận m = 0 và loại m = 4."
+          ],
+          "answer": "Giá trị cần tìm là m = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đối chiếu điều kiện tồn tại hai nghiệm (Δ ≥ 0 hoặc Δ' ≥ 0) sau khi tìm ra giá trị tham số m.",
+          "why": "Nếu Δ < 0 thì phương trình không có nghiệm thực, các hệ thức Viète trở nên vô nghĩa trên tập số thực."
+        }
+      ]
+    }
+  ]
+}

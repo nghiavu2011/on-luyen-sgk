@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Bản vẽ Kỹ thuật cơ khí",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tiêu chuẩn bản vẽ và hình chiếu các khối hình học",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tiêu chuẩn bản vẽ và hình chiếu các khối hình học.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bản vẽ chi tiết",
+          "definition": "Là tài liệu kỹ thuật thể hiện đầy đủ hình dạng, kích thước, yêu cầu kỹ thuật và vật liệu của một chi tiết máy đơn lẻ dùng để chế tạo và kiểm tra.",
+          "example": "Bản vẽ chế tạo bu lông, đai ốc, trục truyền động máy tiện.",
+          "essence": "Bản vẽ chi tiết là bản thiết kế hướng dẫn trực tiếp cho người thợ gia công trên máy công cụ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trình tự 4 bước đọc bản vẽ chi tiết chuẩn kỹ thuật",
+          "meaning": "Bước 1: Đọc khung tên (tên chi tiết, vật liệu, tỉ lệ) -> Bước 2: Đọc hình biểu diễn (tên các hình chiếu, hình cắt) -> Bước 3: Đọc kích thước (kích thước chung và chi tiết) -> Bước 4: Đọc yêu cầu kỹ thuật và tổng hợp.",
+          "example": "Tuân thủ đúng trình tự giúp không bỏ sót thông tin kích thước dung sai quan trọng của chi tiết máy.",
+          "essence": "Đọc bản vẽ có phương pháp đảm bảo độ chính xác tuyệt đối trong sản xuất công nghiệp."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Nêu ý nghĩa của con số ghi tỉ lệ 1:2 và 2:1 trên khung tên bản vẽ kỹ thuật.",
+          "steps": [
+            "Bước 1: Tỉ lệ 1:2 là tỉ lệ thu nhỏ: Kích thước hình vẽ trên giấy bằng một nửa kích thước thực tế của chi tiết ngoài đời.",
+            "Bước 2: Tỉ lệ 2:1 là tỉ lệ phóng to: Kích thước hình vẽ trên giấy gấp đôi kích thước thực tế (thường dùng cho chi tiết đồng hồ, vi mạch nhỏ).",
+            "Bước 3: Lưu ý: Dù vẽ theo tỉ lệ nào thì con số kích thước ghi trên bản vẽ LUÔN LÀ KÍCH THƯỚC THỰC của vật thể."
+          ],
+          "answer": "1:2 là thu nhỏ, 2:1 là phóng to; số đo kích thước ghi trên bản vẽ luôn là giá trị thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thước đo trực tiếp trên giấy rồi coi đó là kích thước thực của chi tiết khi vẽ theo tỉ lệ phóng to/thu nhỏ.",
+          "why": "Phải căn cứ vào con số kích thước được ghi bằng số trên đường gióng kích thước, không được đo trực tiếp bằng thước dây trên hình vẽ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Đọc bản vẽ chi tiết và bản vẽ lắp đơn giản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Đọc bản vẽ chi tiết và bản vẽ lắp đơn giản.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Bản vẽ chi tiết",
+          "definition": "Là tài liệu kỹ thuật thể hiện đầy đủ hình dạng, kích thước, yêu cầu kỹ thuật và vật liệu của một chi tiết máy đơn lẻ dùng để chế tạo và kiểm tra.",
+          "example": "Bản vẽ chế tạo bu lông, đai ốc, trục truyền động máy tiện.",
+          "essence": "Bản vẽ chi tiết là bản thiết kế hướng dẫn trực tiếp cho người thợ gia công trên máy công cụ."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trình tự 4 bước đọc bản vẽ chi tiết chuẩn kỹ thuật",
+          "meaning": "Bước 1: Đọc khung tên (tên chi tiết, vật liệu, tỉ lệ) -> Bước 2: Đọc hình biểu diễn (tên các hình chiếu, hình cắt) -> Bước 3: Đọc kích thước (kích thước chung và chi tiết) -> Bước 4: Đọc yêu cầu kỹ thuật và tổng hợp.",
+          "example": "Tuân thủ đúng trình tự giúp không bỏ sót thông tin kích thước dung sai quan trọng của chi tiết máy.",
+          "essence": "Đọc bản vẽ có phương pháp đảm bảo độ chính xác tuyệt đối trong sản xuất công nghiệp."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Nêu ý nghĩa của con số ghi tỉ lệ 1:2 và 2:1 trên khung tên bản vẽ kỹ thuật.",
+          "steps": [
+            "Bước 1: Tỉ lệ 1:2 là tỉ lệ thu nhỏ: Kích thước hình vẽ trên giấy bằng một nửa kích thước thực tế của chi tiết ngoài đời.",
+            "Bước 2: Tỉ lệ 2:1 là tỉ lệ phóng to: Kích thước hình vẽ trên giấy gấp đôi kích thước thực tế (thường dùng cho chi tiết đồng hồ, vi mạch nhỏ).",
+            "Bước 3: Lưu ý: Dù vẽ theo tỉ lệ nào thì con số kích thước ghi trên bản vẽ LUÔN LÀ KÍCH THƯỚC THỰC của vật thể."
+          ],
+          "answer": "1:2 là thu nhỏ, 2:1 là phóng to; số đo kích thước ghi trên bản vẽ luôn là giá trị thực."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thước đo trực tiếp trên giấy rồi coi đó là kích thước thực của chi tiết khi vẽ theo tỉ lệ phóng to/thu nhỏ.",
+          "why": "Phải căn cứ vào con số kích thước được ghi bằng số trên đường gióng kích thước, không được đo trực tiếp bằng thước dây trên hình vẽ."
+        }
+      ]
+    }
+  ]
+}

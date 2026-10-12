@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Tứ giác và Các tứ giác đặc biệt",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tứ giác, hình thang cân và hình bình hành",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tứ giác, hình thang cân và hình bình hành.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hình bình hành",
+          "definition": "Là tứ giác có các cạnh đối song song. Trong hình bình hành: Các cạnh đối bằng nhau, các góc đối bằng nhau, hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+          "example": "Tứ giác ABCD có AB // CD và AD // BC là hình bình hành.",
+          "essence": "Hình bình hành có tâm đối xứng là giao điểm của hai đường chéo."
+        },
+        {
+          "term": "Hình thoi",
+          "definition": "Là tứ giác có bốn cạnh bằng nhau. Hai đường chéo của hình thoi vuông góc với nhau và là các đường phân giác của các góc của hình thoi.",
+          "example": "Hình bình hành có hai cạnh kề bằng nhau (AB = BC) thì trở thành hình thoi.",
+          "essence": "Hình thoi có hai trục đối xứng là hai đường chéo vuông góc."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Dấu hiệu nhận biết hình vuông",
+          "meaning": "Hình chữ nhật có hai cạnh kề bằng nhau (hoặc hai đường chéo vuông góc) là hình vuông. Hình thoi có một góc vuông (hoặc hai đường chéo bằng nhau) là hình vuông.",
+          "example": "Hình vuông hội tụ đầy đủ tất cả các tính chất tuyệt vời của cả hình chữ nhật và hình thoi.",
+          "essence": "Hình vuông là đỉnh cao của sự hoàn hảo và đối xứng trong hình học phẳng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC vuông tại A, đường trung tuyến AM. Gọi D là điểm đối xứng với A qua M. Chứng minh tứ giác ABDC là hình chữ nhật.",
+          "steps": [
+            "Bước 1: Do M là trung điểm của BC (giả thiết) và M là trung điểm của AD (tính chất đối xứng) nên tứ giác ABDC có hai đường chéo cắt nhau tại trung điểm mỗi đường => ABDC là hình bình hành.",
+            "Bước 2: Hình bình hành ABDC có góc BAC = 90 độ (tam giác ABC vuông tại A).",
+            "Bước 3: Hình bình hành có một góc vuông là hình chữ nhật => ABDC là hình chữ nhật."
+          ],
+          "answer": "ABDC là hình chữ nhật."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận tứ giác là hình thoi khi chỉ biết hai đường chéo vuông góc với nhau.",
+          "why": "Hai đường chéo vuông góc chỉ tạo thành hình thoi khi chúng CẮT NHAU TẠI TRUNG ĐIỂM của mỗi đường (tức là hình bình hành có hai đường chéo vuông góc)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Hình chữ nhật, hình thoi và hình vuông",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Hình chữ nhật, hình thoi và hình vuông.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hình bình hành",
+          "definition": "Là tứ giác có các cạnh đối song song. Trong hình bình hành: Các cạnh đối bằng nhau, các góc đối bằng nhau, hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+          "example": "Tứ giác ABCD có AB // CD và AD // BC là hình bình hành.",
+          "essence": "Hình bình hành có tâm đối xứng là giao điểm của hai đường chéo."
+        },
+        {
+          "term": "Hình thoi",
+          "definition": "Là tứ giác có bốn cạnh bằng nhau. Hai đường chéo của hình thoi vuông góc với nhau và là các đường phân giác của các góc của hình thoi.",
+          "example": "Hình bình hành có hai cạnh kề bằng nhau (AB = BC) thì trở thành hình thoi.",
+          "essence": "Hình thoi có hai trục đối xứng là hai đường chéo vuông góc."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Dấu hiệu nhận biết hình vuông",
+          "meaning": "Hình chữ nhật có hai cạnh kề bằng nhau (hoặc hai đường chéo vuông góc) là hình vuông. Hình thoi có một góc vuông (hoặc hai đường chéo bằng nhau) là hình vuông.",
+          "example": "Hình vuông hội tụ đầy đủ tất cả các tính chất tuyệt vời của cả hình chữ nhật và hình thoi.",
+          "essence": "Hình vuông là đỉnh cao của sự hoàn hảo và đối xứng trong hình học phẳng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC vuông tại A, đường trung tuyến AM. Gọi D là điểm đối xứng với A qua M. Chứng minh tứ giác ABDC là hình chữ nhật.",
+          "steps": [
+            "Bước 1: Do M là trung điểm của BC (giả thiết) và M là trung điểm của AD (tính chất đối xứng) nên tứ giác ABDC có hai đường chéo cắt nhau tại trung điểm mỗi đường => ABDC là hình bình hành.",
+            "Bước 2: Hình bình hành ABDC có góc BAC = 90 độ (tam giác ABC vuông tại A).",
+            "Bước 3: Hình bình hành có một góc vuông là hình chữ nhật => ABDC là hình chữ nhật."
+          ],
+          "answer": "ABDC là hình chữ nhật."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Kết luận tứ giác là hình thoi khi chỉ biết hai đường chéo vuông góc với nhau.",
+          "why": "Hai đường chéo vuông góc chỉ tạo thành hình thoi khi chúng CẮT NHAU TẠI TRUNG ĐIỂM của mỗi đường (tức là hình bình hành có hai đường chéo vuông góc)."
+        }
+      ]
+    }
+  ]
+}

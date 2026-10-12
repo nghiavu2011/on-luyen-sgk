@@ -1,0 +1,106 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: An toàn Điện và Tiết kiệm Năng lượng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: An toàn điện và xử lí sự cố điện giật",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: An toàn điện và xử lí sự cố điện giật.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Aptomat chống giật (ELCB/RCCB)",
+          "definition": "Thiết bị bảo vệ tự động ngắt nguồn điện trong thời gian phần nghìn giây khi phát hiện dòng điện rò rỉ ra vỏ kim loại của thiết bị hoặc qua cơ thể người xuống đất vượt quá 30 mA.",
+          "example": "Lắp ELCB riêng cho bình nóng lạnh và máy giặt để ngăn ngừa sự cố rò điện gây nguy hiểm tính mạng trong phòng tắm ẩm ướt.",
+          "essence": "Cứu mạng sống con người trước các rủi ro hở điện mà cầu chì thông thường không thể ngắt được."
+        },
+        {
+          "term": "Công nghệ Inverter (Biến tần tiết kiệm điện)",
+          "definition": "Công nghệ điều khiển tần số dòng điện để thay đổi tốc độ quay của máy nén linh hoạt theo nhiệt độ phòng thay vì liên tục bật/tắt toàn bộ động cơ.",
+          "example": "Điều hòa nhiệt độ Inverter giúp tiết kiệm từ 30% đến 50% điện năng tiêu thụ so với điều hòa truyền thống.",
+          "essence": "Vận hành êm ái, kéo dài tuổi thọ thiết bị và giảm thiểu chi phí tiền điện hàng tháng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các bước sơ cứu người bị điện giật",
+          "meaning": "Bước 1: Nhanh chóng ngắt cầu dao hoặc aptomat tổng. Bước 2: Dùng vật cách điện khô (gậy gỗ, thanh nhựa) gạt dây điện ra khỏi người nạn nhân (tuyệt đối không chạm tay trực tiếp). Bước 3: Đưa nạn nhân ra nơi thoáng khí và thực hiện hà hơi thổi ngạt, ép tim ngoài lồng ngực nếu ngừng thở.",
+          "example": "Bình tĩnh xử lí và gọi cấp cứu y tế 115 ngay lập tức.",
+          "essence": "Thời gian vàng sơ cứu trong vòng 3 phút đầu quyết định sự sống còn của nạn nhân."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gia đình em sử dụng 4 bóng đèn LED 15W thắp sáng 6 giờ mỗi ngày. Tính lượng điện năng tiêu thụ trong 1 tháng (30 ngày) và số tiền tiết kiệm được so với việc dùng bóng đèn sợi đốt 60W (giá điện trung bình 2.500 đồng/kWh).",
+          "steps": [
+            "Bước 1: Điện năng đèn LED trong 30 ngày: A_LED = 4 * 15 * 6 * 30 = 10.800 Wh = 10,8 kWh.",
+            "Bước 2: Điện năng đèn sợi đốt trong 30 ngày: A_soidot = 4 * 60 * 6 * 30 = 43.200 Wh = 43,2 kWh.",
+            "Bước 3: Lượng điện năng tiết kiệm được: delta A = 43,2 - 10,8 = 32,4 kWh.",
+            "Bước 4: Số tiền tiết kiệm được trong tháng: 32,4 * 2.500 = 81.000 đồng."
+          ],
+          "answer": "Tiết kiệm được 32,4 kWh điện và giảm được 81.000 đồng tiền điện mỗi tháng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lao vào dùng tay không kéo người bị điện giật ra khỏi nguồn điện.",
+          "why": "Dòng điện sẽ truyền ngay lập tức qua cơ thể nạn nhân sang người cứu hộ khiến cả hai cùng bị điện giật."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tiết kiệm năng lượng điện và bảo vệ môi trường",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tiết kiệm năng lượng điện và bảo vệ môi trường.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Aptomat chống giật (ELCB/RCCB)",
+          "definition": "Thiết bị bảo vệ tự động ngắt nguồn điện trong thời gian phần nghìn giây khi phát hiện dòng điện rò rỉ ra vỏ kim loại của thiết bị hoặc qua cơ thể người xuống đất vượt quá 30 mA.",
+          "example": "Lắp ELCB riêng cho bình nóng lạnh và máy giặt để ngăn ngừa sự cố rò điện gây nguy hiểm tính mạng trong phòng tắm ẩm ướt.",
+          "essence": "Cứu mạng sống con người trước các rủi ro hở điện mà cầu chì thông thường không thể ngắt được."
+        },
+        {
+          "term": "Công nghệ Inverter (Biến tần tiết kiệm điện)",
+          "definition": "Công nghệ điều khiển tần số dòng điện để thay đổi tốc độ quay của máy nén linh hoạt theo nhiệt độ phòng thay vì liên tục bật/tắt toàn bộ động cơ.",
+          "example": "Điều hòa nhiệt độ Inverter giúp tiết kiệm từ 30% đến 50% điện năng tiêu thụ so với điều hòa truyền thống.",
+          "essence": "Vận hành êm ái, kéo dài tuổi thọ thiết bị và giảm thiểu chi phí tiền điện hàng tháng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Các bước sơ cứu người bị điện giật",
+          "meaning": "Bước 1: Nhanh chóng ngắt cầu dao hoặc aptomat tổng. Bước 2: Dùng vật cách điện khô (gậy gỗ, thanh nhựa) gạt dây điện ra khỏi người nạn nhân (tuyệt đối không chạm tay trực tiếp). Bước 3: Đưa nạn nhân ra nơi thoáng khí và thực hiện hà hơi thổi ngạt, ép tim ngoài lồng ngực nếu ngừng thở.",
+          "example": "Bình tĩnh xử lí và gọi cấp cứu y tế 115 ngay lập tức.",
+          "essence": "Thời gian vàng sơ cứu trong vòng 3 phút đầu quyết định sự sống còn của nạn nhân."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Gia đình em sử dụng 4 bóng đèn LED 15W thắp sáng 6 giờ mỗi ngày. Tính lượng điện năng tiêu thụ trong 1 tháng (30 ngày) và số tiền tiết kiệm được so với việc dùng bóng đèn sợi đốt 60W (giá điện trung bình 2.500 đồng/kWh).",
+          "steps": [
+            "Bước 1: Điện năng đèn LED trong 30 ngày: A_LED = 4 * 15 * 6 * 30 = 10.800 Wh = 10,8 kWh.",
+            "Bước 2: Điện năng đèn sợi đốt trong 30 ngày: A_soidot = 4 * 60 * 6 * 30 = 43.200 Wh = 43,2 kWh.",
+            "Bước 3: Lượng điện năng tiết kiệm được: delta A = 43,2 - 10,8 = 32,4 kWh.",
+            "Bước 4: Số tiền tiết kiệm được trong tháng: 32,4 * 2.500 = 81.000 đồng."
+          ],
+          "answer": "Tiết kiệm được 32,4 kWh điện và giảm được 81.000 đồng tiền điện mỗi tháng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lao vào dùng tay không kéo người bị điện giật ra khỏi nguồn điện.",
+          "why": "Dòng điện sẽ truyền ngay lập tức qua cơ thể nạn nhân sang người cứu hộ khiến cả hai cùng bị điện giật."
+        }
+      ]
+    }
+  ]
+}

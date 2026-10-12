@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Tam giác bằng nhau",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tổng ba góc và trường hợp bằng nhau c-c-c, c-g-c",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tổng ba góc và trường hợp bằng nhau c-c-c, c-g-c.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tam giác cân",
+          "definition": "Là tam giác có hai cạnh bằng nhau. Hai góc ở đáy của tam giác cân thì bằng nhau.",
+          "example": "Tam giác ABC có AB = AC là tam giác cân tại A; khi đó góc B = góc C.",
+          "essence": "Tam giác cân sở hữu tính chất đối xứng trục qua đường phân giác của góc ở đỉnh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lí tổng ba góc trong một tam giác",
+          "meaning": "Tổng số đo ba góc trong một tam giác luôn bằng 180 độ.",
+          "example": "Tam giác ABC có góc A = 80 độ, góc B = 60 độ thì góc C = 180 - (80 + 60) = 40 độ.",
+          "essence": "Định lí này xuất phát từ tiên đề Euclid về đường thẳng song song qua đỉnh tam giác."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC cân tại A có góc A = 50 độ. Tính số đo góc B và góc C ở đáy.",
+          "steps": [
+            "Bước 1: Do tam giác ABC cân tại A nên góc B = góc C.",
+            "Bước 2: Tổng ba góc: góc A + góc B + góc C = 180 độ => 2 * góc B = 180 độ - góc A.",
+            "Bước 3: Thay số: 2 * góc B = 180 - 50 = 130 độ => góc B = góc C = 65 độ."
+          ],
+          "answer": "Góc B = góc C = 65 độ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng trường hợp c-g-c khi góc không xen giữa hai cạnh bằng nhau.",
+          "why": "Để hai tam giác bằng nhau theo c-g-c, góc bằng nhau bắt buộc phải là góc xen giữa hai cặp cạnh tương ứng bằng nhau."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Trường hợp bằng nhau g-c-g và tính chất tam giác cân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Trường hợp bằng nhau g-c-g và tính chất tam giác cân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tam giác cân",
+          "definition": "Là tam giác có hai cạnh bằng nhau. Hai góc ở đáy của tam giác cân thì bằng nhau.",
+          "example": "Tam giác ABC có AB = AC là tam giác cân tại A; khi đó góc B = góc C.",
+          "essence": "Tam giác cân sở hữu tính chất đối xứng trục qua đường phân giác của góc ở đỉnh."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lí tổng ba góc trong một tam giác",
+          "meaning": "Tổng số đo ba góc trong một tam giác luôn bằng 180 độ.",
+          "example": "Tam giác ABC có góc A = 80 độ, góc B = 60 độ thì góc C = 180 - (80 + 60) = 40 độ.",
+          "essence": "Định lí này xuất phát từ tiên đề Euclid về đường thẳng song song qua đỉnh tam giác."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC cân tại A có góc A = 50 độ. Tính số đo góc B và góc C ở đáy.",
+          "steps": [
+            "Bước 1: Do tam giác ABC cân tại A nên góc B = góc C.",
+            "Bước 2: Tổng ba góc: góc A + góc B + góc C = 180 độ => 2 * góc B = 180 độ - góc A.",
+            "Bước 3: Thay số: 2 * góc B = 180 - 50 = 130 độ => góc B = góc C = 65 độ."
+          ],
+          "answer": "Góc B = góc C = 65 độ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng trường hợp c-g-c khi góc không xen giữa hai cạnh bằng nhau.",
+          "why": "Để hai tam giác bằng nhau theo c-g-c, góc bằng nhau bắt buộc phải là góc xen giữa hai cặp cạnh tương ứng bằng nhau."
+        }
+      ]
+    }
+  ]
+}

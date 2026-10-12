@@ -1,0 +1,106 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Căn bậc hai và Căn bậc ba",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Căn bậc hai số học và hằng đẳng thức căn(A^2) = |A|",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Căn bậc hai số học và hằng đẳng thức căn(A^2) = |A|.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Căn bậc hai số học",
+          "definition": "Với số dương a, số căn(a) được gọi là căn bậc hai số học của a. Số 0 có căn bậc hai số học là 0.",
+          "example": "Căn bậc hai số học của 25 là 5 (vì 5 ≥ 0 và 5^2 = 25). Chú ý: số 25 có hai căn bậc hai là 5 và -5.",
+          "essence": "Kí hiệu căn(a) luôn chỉ giá trị không âm (căn bậc hai số học)."
+        },
+        {
+          "term": "Hằng đẳng thức căn(A^2) = |A|",
+          "definition": "Với mọi biểu thức A, ta có căn(A^2) = |A| = A (nếu A ≥ 0) hoặc -A (nếu A < 0).",
+          "example": "căn((1 - căn(3))^2) = |1 - căn(3)| = căn(3) - 1 (vì 1 < căn(3)).",
+          "essence": "Tuyệt đối không được bỏ dấu căn mà quên lấy dấu giá trị tuyệt đối khi chưa biết dấu của A."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trục căn thức ở mẫu",
+          "meaning": "Nhân cả tử và mẫu với biểu thức liên hợp để làm mất căn thức ở mẫu số: 1 / (căn(a) - căn(b)) = (căn(a) + căn(b)) / (a - b) với a, b ≥ 0, a ≠ b.",
+          "example": "1 / (căn(3) - 1) = (căn(3) + 1) / ((căn(3) - 1)(căn(3) + 1)) = (căn(3) + 1) / 2.",
+          "essence": "Ứng dụng hằng đẳng thức hiệu hai bình phương (A - B)(A + B) = A^2 - B^2 để khử dấu căn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn biểu thức P = [ (căn(x)/(căn(x) - 2)) - (4/(x - 2căn(x))) ] : (1/(căn(x) - 2)) với x > 0, x ≠ 4.",
+          "steps": [
+            "Bước 1: Nhận xét mẫu số: x - 2căn(x) = căn(x)*(căn(x) - 2). Mẫu thức chung là căn(x)*(căn(x) - 2).",
+            "Bước 2: Quy đồng trong ngoặc: [ căn(x)*căn(x) - 4 ] / [ căn(x)*(căn(x) - 2) ] = (x - 4) / [ căn(x)*(căn(x) - 2) ].",
+            "Bước 3: Phân tích tử số x - 4 = (căn(x) - 2)*(căn(x) + 2). Biểu thức trong ngoặc thành: (căn(x) + 2) / căn(x).",
+            "Bước 4: Thực hiện phép chia: [ (căn(x) + 2) / căn(x) ] * (căn(x) - 2) = (x - 4) / căn(x)."
+          ],
+          "answer": "P = (x - 4) / căn(x)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết căn((2 - căn(5))^2) = 2 - căn(5).",
+          "why": "Vì 2 < căn(5) nên 2 - căn(5) < 0, trong khi căn bậc hai luôn là số không âm. Kết quả đúng phải là |2 - căn(5)| = căn(5) - 2."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Các phép biến đổi đơn giản biểu thức chứa căn thức bậc hai",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Các phép biến đổi đơn giản biểu thức chứa căn thức bậc hai.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Căn bậc hai số học",
+          "definition": "Với số dương a, số căn(a) được gọi là căn bậc hai số học của a. Số 0 có căn bậc hai số học là 0.",
+          "example": "Căn bậc hai số học của 25 là 5 (vì 5 ≥ 0 và 5^2 = 25). Chú ý: số 25 có hai căn bậc hai là 5 và -5.",
+          "essence": "Kí hiệu căn(a) luôn chỉ giá trị không âm (căn bậc hai số học)."
+        },
+        {
+          "term": "Hằng đẳng thức căn(A^2) = |A|",
+          "definition": "Với mọi biểu thức A, ta có căn(A^2) = |A| = A (nếu A ≥ 0) hoặc -A (nếu A < 0).",
+          "example": "căn((1 - căn(3))^2) = |1 - căn(3)| = căn(3) - 1 (vì 1 < căn(3)).",
+          "essence": "Tuyệt đối không được bỏ dấu căn mà quên lấy dấu giá trị tuyệt đối khi chưa biết dấu của A."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Trục căn thức ở mẫu",
+          "meaning": "Nhân cả tử và mẫu với biểu thức liên hợp để làm mất căn thức ở mẫu số: 1 / (căn(a) - căn(b)) = (căn(a) + căn(b)) / (a - b) với a, b ≥ 0, a ≠ b.",
+          "example": "1 / (căn(3) - 1) = (căn(3) + 1) / ((căn(3) - 1)(căn(3) + 1)) = (căn(3) + 1) / 2.",
+          "essence": "Ứng dụng hằng đẳng thức hiệu hai bình phương (A - B)(A + B) = A^2 - B^2 để khử dấu căn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn biểu thức P = [ (căn(x)/(căn(x) - 2)) - (4/(x - 2căn(x))) ] : (1/(căn(x) - 2)) với x > 0, x ≠ 4.",
+          "steps": [
+            "Bước 1: Nhận xét mẫu số: x - 2căn(x) = căn(x)*(căn(x) - 2). Mẫu thức chung là căn(x)*(căn(x) - 2).",
+            "Bước 2: Quy đồng trong ngoặc: [ căn(x)*căn(x) - 4 ] / [ căn(x)*(căn(x) - 2) ] = (x - 4) / [ căn(x)*(căn(x) - 2) ].",
+            "Bước 3: Phân tích tử số x - 4 = (căn(x) - 2)*(căn(x) + 2). Biểu thức trong ngoặc thành: (căn(x) + 2) / căn(x).",
+            "Bước 4: Thực hiện phép chia: [ (căn(x) + 2) / căn(x) ] * (căn(x) - 2) = (x - 4) / căn(x)."
+          ],
+          "answer": "P = (x - 4) / căn(x)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết căn((2 - căn(5))^2) = 2 - căn(5).",
+          "why": "Vì 2 < căn(5) nên 2 - căn(5) < 0, trong khi căn bậc hai luôn là số không âm. Kết quả đúng phải là |2 - căn(5)| = căn(5) - 2."
+        }
+      ]
+    }
+  ]
+}

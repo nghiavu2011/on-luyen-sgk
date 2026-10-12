@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Hằng đẳng thức đáng nhớ và Ứng dụng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Bảy hằng đẳng thức đáng nhớ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Bảy hằng đẳng thức đáng nhớ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hiệu hai bình phương",
+          "definition": "A^2 - B^2 = (A - B)(A + B). Hiệu hai bình phương của hai biểu thức bằng tích của hiệu với tổng của chúng.",
+          "example": "x^2 - 9 = (x - 3)(x + 3); 101^2 - 1 = (101 - 1)(101 + 1) = 100 * 102 = 10200.",
+          "essence": "Hằng đẳng thức giúp biến đổi hiệu thành tích, là công cụ then chốt để phân tích nhân tử và giải phương trình."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Bình phương của một tổng và một hiệu",
+          "meaning": "(A + B)^2 = A^2 + 2AB + B^2 và (A - B)^2 = A^2 - 2AB + B^2.",
+          "example": "(2x + 3y)^2 = 4x^2 + 12xy + 9y^2.",
+          "essence": "Luôn có số hạng kép 2AB ở giữa; thiếu 2AB là lỗi sai kinh điển nhất của học sinh."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Phân tích đa thức sau thành nhân tử: M = x^2 - 4y^2 + 4x + 4.",
+          "steps": [
+            "Bước 1: Nhóm các hạng tử tạo thành hằng đẳng thức: M = (x^2 + 4x + 4) - 4y^2.",
+            "Bước 2: Biến đổi ngoặc thứ nhất: (x + 2)^2 - (2y)^2.",
+            "Bước 3: Áp dụng hằng đẳng thức hiệu hai bình phương: M = (x + 2 - 2y)(x + 2 + 2y)."
+          ],
+          "answer": "M = (x - 2y + 2)(x + 2y + 2)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết (A + B)^2 = A^2 + B^2 (quên số hạng 2AB).",
+          "why": "(A + B)^2 = (A + B)(A + B) = A^2 + AB + BA + B^2 = A^2 + 2AB + B^2."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phân tích đa thức thành nhân tử và ứng dụng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phân tích đa thức thành nhân tử và ứng dụng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hiệu hai bình phương",
+          "definition": "A^2 - B^2 = (A - B)(A + B). Hiệu hai bình phương của hai biểu thức bằng tích của hiệu với tổng của chúng.",
+          "example": "x^2 - 9 = (x - 3)(x + 3); 101^2 - 1 = (101 - 1)(101 + 1) = 100 * 102 = 10200.",
+          "essence": "Hằng đẳng thức giúp biến đổi hiệu thành tích, là công cụ then chốt để phân tích nhân tử và giải phương trình."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Bình phương của một tổng và một hiệu",
+          "meaning": "(A + B)^2 = A^2 + 2AB + B^2 và (A - B)^2 = A^2 - 2AB + B^2.",
+          "example": "(2x + 3y)^2 = 4x^2 + 12xy + 9y^2.",
+          "essence": "Luôn có số hạng kép 2AB ở giữa; thiếu 2AB là lỗi sai kinh điển nhất của học sinh."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Phân tích đa thức sau thành nhân tử: M = x^2 - 4y^2 + 4x + 4.",
+          "steps": [
+            "Bước 1: Nhóm các hạng tử tạo thành hằng đẳng thức: M = (x^2 + 4x + 4) - 4y^2.",
+            "Bước 2: Biến đổi ngoặc thứ nhất: (x + 2)^2 - (2y)^2.",
+            "Bước 3: Áp dụng hằng đẳng thức hiệu hai bình phương: M = (x + 2 - 2y)(x + 2 + 2y)."
+          ],
+          "answer": "M = (x - 2y + 2)(x + 2y + 2)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết (A + B)^2 = A^2 + B^2 (quên số hạng 2AB).",
+          "why": "(A + B)^2 = (A + B)(A + B) = A^2 + AB + BA + B^2 = A^2 + 2AB + B^2."
+        }
+      ]
+    }
+  ]
+}

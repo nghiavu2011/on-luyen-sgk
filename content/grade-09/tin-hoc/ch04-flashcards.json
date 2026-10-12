@@ -1,0 +1,87 @@
+[
+  {
+    "front": "Khái niệm 'Hàm tính toán có điều kiện COUNTIF và SUMIF' trong Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề được định nghĩa như thế nào?",
+    "back": "COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range): Tính tổng các ô thỏa mãn tiêu chuẩn.\n\n💡 Ví dụ: =COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp.\n🌱 Bản chất: Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Trực quan hóa dữ liệu (Data Visualization)' trong Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề được định nghĩa như thế nào?",
+    "back": "Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu đồ tròn (thể hiện cơ cấu %), biểu đồ đường (thể hiện xu hướng biến thiên theo thời gian).\n\n💡 Ví dụ: Dùng biểu đồ đường để theo dõi diễn biến nhiệt độ trung bình các tháng trong năm tại Hà Nội.\n🌱 Bản chất: Một hình ảnh trực quan truyền tải thông điệp nhanh gấp hàng chục lần một bảng tính dày đặc số liệu.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc chọn loại biểu đồ phù hợp trong Excel'?",
+    "back": "Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Column chart); Xu hướng tăng giảm qua các năm -> Biểu đồ đường (Line chart).\n\n📝 Ví dụ: Biểu diễn cơ cấu 3 khu vực kinh tế dùng biểu đồ tròn tỉ lệ %.\n🔑 Ý nghĩa: Chọn sai loại biểu đồ làm sai lệch nhận thức của người xem về bản chất dữ liệu.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Viết công thức Excel để tính tổng tiền bán hàng của nhân viên có tên 'Nguyễn Nam' trong bảng tính có cột Tên (B2:B20) và cột Thành tiền (D2:D20).'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Xác định hàm cần dùng: tính tổng theo điều kiện là hàm SUMIF.\nBước 2: Vùng điều kiện là cột Tên nhân viên: B2:B20.\nBước 3: Tiêu chuẩn điều kiện là: 'Nguyễn Nam'.\nBước 4: Vùng tính tổng là cột Thành tiền: D2:D20.\nBước 5: Lắp ghép công thức: =SUMIF(B2:B20, 'Nguyễn Nam', D2:D20).\n\n👉 Kết luận: Công thức là: =SUMIF(B2:B20, \"Nguyễn Nam\", D2:D20)",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so sánh: =COUNTIF(A1:A10, >=5).?",
+    "back": "❌ Lỗi sai: Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so sánh: =COUNTIF(A1:A10, >=5).\n\n💡 Nguyên nhân & Khắc phục: Excel sẽ báo lỗi cú pháp; phải viết là =COUNTIF(A1:A10, \">=5\").",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "front": "Khái niệm 'Thuật toán tìm kiếm nhị phân' trong Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp được định nghĩa như thế nào?",
+    "back": "Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh giá trị cần tìm với phần tử ở giữa, loại bỏ một nửa danh sách không chứa phần tử sau mỗi bước.\n\n💡 Ví dụ: Tìm từ trong cuốn từ điển dày: Mở trang chính giữa, so sánh chữ cái đầu để quyết định tìm tiếp ở nửa trước hay nửa sau.\n🌱 Bản chất: Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Điều kiện tiên quyết áp dụng tìm kiếm nhị phân'?",
+    "back": "Thuật toán tìm kiếm nhị phân CHỈ ÁP DỤNG ĐƯỢC khi dãy dữ liệu đầu vào đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần.\n\n📝 Ví dụ: Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xếp lại trước.\n🔑 Ý nghĩa: Quy luật thứ tự là chìa khóa để biết chắc chắn phần tử cần tìm nằm ở nửa bên trái hay nửa bên phải.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Cho dãy số tăng dần: [2, 5, 8, 12, 16, 23, 38]. Mô tả các bước tìm số 16 bằng thuật toán tìm kiếm nhị phân.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38].\nBước 2: Phần tử ở giữa nửa phải là 23. So sánh: 16 < 23 nên bỏ nửa phải [23, 38], xét phần tử bên trái là 16.\nBước 3: So sánh: 16 = 16. Tìm thấy phần tử tại vị trí 5 sau 2 lần so sánh.\n\n👉 Kết luận: Tìm thấy số 16 tại vị trí thứ 5 sau 2 bước lặp.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xếp thứ tự.?",
+    "back": "❌ Lỗi sai: Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xếp thứ tự.\n\n💡 Nguyên nhân & Khắc phục: Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần tử cần tìm.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch04",
+      "grade-07",
+      "on-tap"
+    ]
+  }
+]

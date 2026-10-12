@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Di truyền học Mendel, ADN và Đột biến",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Di truyền học Mendel và cấu trúc của ADN",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Di truyền học Mendel và cấu trúc của ADN.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Quy luật phân li của Mendel",
+          "definition": "Trong quá trình phát sinh giao tử, mỗi nhân tố di truyền (allele) trong cặp phân li về một giao tử và giữ nguyên bản chất như ở cơ thể thuần chủng P.",
+          "example": "Lai đậu Hà Lan hạt vàng (AA) với hạt xanh (aa) thu được F1 toàn hạt vàng (Aa); cho F1 tự thụ phấn được F2 tỉ lệ 3 hạt vàng : 1 hạt xanh.",
+          "essence": "Tính trạng trội lấn át tính trạng lặn ở trạng thái dị hợp tử (Aa)."
+        },
+        {
+          "term": "Nguyên tắc bổ sung trong phân tử ADN",
+          "definition": "Các nucleotide trên hai mạch đơn liên kết với nhau bằng liên kết hydrogen theo nguyên tắc: A liên kết với T bằng 2 liên kết, G liên kết với C bằng 3 liên kết.",
+          "example": "Nếu một mạch có trình tự - A - T - G - C - thì mạch bổ sung tương ứng là - T - A - C - G -.",
+          "essence": "Nguyên tắc bổ sung đảm bảo sự nhân đôi ADN chính xác tuyệt đối từ tế bào mẹ sang tế bào con."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ quả của nguyên tắc bổ sung trong phân tử ADN",
+          "meaning": "Trong phân tử ADN mạch kép: A = T và G = C. Suy ra tổng số nucleotide N = 2A + 2G = 2T + 2C và chiều dài L = (N / 2) * 3,4 Å.",
+          "example": "Một đoạn ADN có 3000 nucleotide thì chiều dài của đoạn ADN đó là L = (3000 / 2) * 3,4 = 5100 Å.",
+          "essence": "Mỗi chu kì xoắn của ADN gồm 10 cặp nucleotide, dài 34 Å và có đường kính 20 Å."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử ADN mạch kép có 2400 nucleotide, trong đó số nucleotide loại Adenine (A) chiếm 20% tổng số nucleotide. Tính số nucleotide mỗi loại và số liên kết hydrogen của phân tử ADN này.",
+          "steps": [
+            "Bước 1: Tính số nucleotide loại A: A = T = 2400 * 20% = 480 nucleotide.",
+            "Bước 2: Tính số nucleotide loại G: Tổng %A + %G = 50% => %G = 30%. Do đó G = C = 2400 * 30% = 720 nucleotide.",
+            "Bước 3: Tính số liên kết hydrogen: H = 2A + 3G = 2 * 480 + 3 * 720 = 960 + 2160 = 3120 liên kết."
+          ],
+          "answer": "A = T = 480; G = C = 720; Số liên kết hydrogen H = 3120."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa đột biến gene (biến đổi trong cấu trúc của gene tại 1 hoặc vài cặp nu) với đột biến nhiễm sắc thể (biến đổi số lượng/cấu trúc NST).",
+          "why": "Đột biến gene ở cấp độ phân tử, còn đột biến nhiễm sắc thể ở cấp độ tế bào có thể quan sát được dưới kính hiển vi."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Đột biến gene và đột biến nhiễm sắc thể",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Đột biến gene và đột biến nhiễm sắc thể.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Quy luật phân li của Mendel",
+          "definition": "Trong quá trình phát sinh giao tử, mỗi nhân tố di truyền (allele) trong cặp phân li về một giao tử và giữ nguyên bản chất như ở cơ thể thuần chủng P.",
+          "example": "Lai đậu Hà Lan hạt vàng (AA) với hạt xanh (aa) thu được F1 toàn hạt vàng (Aa); cho F1 tự thụ phấn được F2 tỉ lệ 3 hạt vàng : 1 hạt xanh.",
+          "essence": "Tính trạng trội lấn át tính trạng lặn ở trạng thái dị hợp tử (Aa)."
+        },
+        {
+          "term": "Nguyên tắc bổ sung trong phân tử ADN",
+          "definition": "Các nucleotide trên hai mạch đơn liên kết với nhau bằng liên kết hydrogen theo nguyên tắc: A liên kết với T bằng 2 liên kết, G liên kết với C bằng 3 liên kết.",
+          "example": "Nếu một mạch có trình tự - A - T - G - C - thì mạch bổ sung tương ứng là - T - A - C - G -.",
+          "essence": "Nguyên tắc bổ sung đảm bảo sự nhân đôi ADN chính xác tuyệt đối từ tế bào mẹ sang tế bào con."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ quả của nguyên tắc bổ sung trong phân tử ADN",
+          "meaning": "Trong phân tử ADN mạch kép: A = T và G = C. Suy ra tổng số nucleotide N = 2A + 2G = 2T + 2C và chiều dài L = (N / 2) * 3,4 Å.",
+          "example": "Một đoạn ADN có 3000 nucleotide thì chiều dài của đoạn ADN đó là L = (3000 / 2) * 3,4 = 5100 Å.",
+          "essence": "Mỗi chu kì xoắn của ADN gồm 10 cặp nucleotide, dài 34 Å và có đường kính 20 Å."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một phân tử ADN mạch kép có 2400 nucleotide, trong đó số nucleotide loại Adenine (A) chiếm 20% tổng số nucleotide. Tính số nucleotide mỗi loại và số liên kết hydrogen của phân tử ADN này.",
+          "steps": [
+            "Bước 1: Tính số nucleotide loại A: A = T = 2400 * 20% = 480 nucleotide.",
+            "Bước 2: Tính số nucleotide loại G: Tổng %A + %G = 50% => %G = 30%. Do đó G = C = 2400 * 30% = 720 nucleotide.",
+            "Bước 3: Tính số liên kết hydrogen: H = 2A + 3G = 2 * 480 + 3 * 720 = 960 + 2160 = 3120 liên kết."
+          ],
+          "answer": "A = T = 480; G = C = 720; Số liên kết hydrogen H = 3120."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa đột biến gene (biến đổi trong cấu trúc của gene tại 1 hoặc vài cặp nu) với đột biến nhiễm sắc thể (biến đổi số lượng/cấu trúc NST).",
+          "why": "Đột biến gene ở cấp độ phân tử, còn đột biến nhiễm sắc thể ở cấp độ tế bào có thể quan sát được dưới kính hiển vi."
+        }
+      ]
+    }
+  ]
+}

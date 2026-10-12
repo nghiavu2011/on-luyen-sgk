@@ -1,0 +1,270 @@
+{
+  "subjectId": "toan",
+  "subjectName": "Toán học",
+  "grade": 9,
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn",
+      "description": "Phương trình bậc nhất hai ẩn, hệ hai phương trình bậc nhất hai ẩn, phương pháp thế, phương pháp cộng đại số, giải bài toán bằng cách lập hệ phương trình.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Phương pháp thế và phương pháp cộng đại số",
+          "hasRealContent": true
+        },
+        {
+          "id": "l03",
+          "title": "Bài 3: Giải bài toán bằng cách lập hệ phương trình",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "ch02",
+      "title": "Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète",
+      "description": "Phương trình bậc hai một ẩn, biệt thức Delta và Delta', định lí Viète và ứng dụng tìm hai số biết tổng và tích, phân loại nghiệm.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Công thức nghiệm và công thức nghiệm thu gọn của phương trình bậc hai",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Định lí Viète và các ứng dụng giải toán",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "ch03",
+      "title": "Chương 3: Căn bậc hai và Căn bậc ba",
+      "description": "Căn bậc hai số học, hằng đẳng thức căn(A^2) = |A|, liên hệ giữa phép nhân/chia và phép khai phương, biến đổi đơn giản và rút gọn biểu thức chứa căn.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Căn bậc hai số học và hằng đẳng thức căn(A^2) = |A|",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Các phép biến đổi đơn giản biểu thức chứa căn thức bậc hai",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "ch04",
+      "title": "Chương 4: Hệ thức lượng trong tam giác vuông",
+      "description": "Hệ thức về cạnh và đường cao trong tam giác vuông, tỉ số lượng giác của góc nhọn (sin, cos, tan, cot), hệ thức về cạnh và góc, giải tam giác vuông.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Một số hệ thức về cạnh và đường cao trong tam giác vuông",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Tỉ số lượng giác của góc nhọn và ứng dụng thực tế",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "ch05",
+      "title": "Chương 5: Đường tròn và Góc với đường tròn",
+      "description": "Đường kính và dây cung, tiếp tuyến của đường tròn, góc ở tâm, góc nội tiếp, góc tạo bởi tia tiếp tuyến và dây cung, tứ giác nội tiếp đường tròn.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Đường kính, dây cung và dấu hiệu nhận biết tiếp tuyến",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Góc nội tiếp và định lí tứ giác nội tiếp đường tròn",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    },
+    {
+      "id": "ch06",
+      "title": "Chương 6: Hình trụ, Hình nón, Hình cầu",
+      "description": "Hình dạng, diện tích xung quanh, diện tích toàn phần và thể tích của hình trụ, hình nón, hình cầu; các bài toán ứng dụng hình không gian thực tế.",
+      "lessons": [
+        {
+          "id": "l01",
+          "title": "Bài 1: Hình trụ và Hình nón: Diện tích và thể tích",
+          "hasRealContent": true
+        },
+        {
+          "id": "l02",
+          "title": "Bài 2: Hình cầu: Diện tích mặt cầu và thể tích hình cầu",
+          "hasRealContent": true
+        }
+      ],
+      "quizzes": [
+        {
+          "id": "de1",
+          "title": "📖 Đề 1: Khái niệm & Nhận biết",
+          "questionCount": 6
+        },
+        {
+          "id": "de2",
+          "title": "✍️ Đề 2: Kỹ năng & Thực hành",
+          "questionCount": 6
+        },
+        {
+          "id": "tonghop",
+          "title": "🏆 Đề 3: Đánh giá Năng lực Tổng hợp",
+          "questionCount": 6
+        },
+        {
+          "id": "de4",
+          "title": "👑 Đề 4: Thử thách Chuyên sâu Điểm 9-10",
+          "badge": "Thử thách ★★★★",
+          "count": 6,
+          "questionCount": 6,
+          "difficulty": "expert"
+        }
+      ],
+      "hasRealContent": true
+    }
+  ]
+}

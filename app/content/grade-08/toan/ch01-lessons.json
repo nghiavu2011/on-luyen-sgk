@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Đa thức nhiều biến",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Đơn thức và đa thức nhiều biến",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Đơn thức và đa thức nhiều biến.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đơn thức thu gọn",
+          "definition": "Là đơn thức chỉ gồm tích của một số với các biến, mà mỗi biến đã được nâng lên lũy thừa với số mũ nguyên dương và chỉ viết một lần.",
+          "example": "-3x^2y^3z là đơn thức thu gọn; hệ số là -3, phần biến là x^2y^3z, bậc là 2 + 3 + 1 = 6.",
+          "essence": "Thu gọn đơn thức giúp việc tính toán và so sánh hạng tử đồng dạng trở nên rõ ràng, chuẩn xác."
+        },
+        {
+          "term": "Hai đơn thức đồng dạng",
+          "definition": "Là hai đơn thức có hệ số khác 0 và có cùng phần biến.",
+          "example": "2x^2y và -5x^2y là hai đơn thức đồng dạng; chúng có thể cộng trừ trực tiếp: 2x^2y - 5x^2y = -3x^2y.",
+          "essence": "Chỉ những đơn thức đồng dạng mới có thể gộp chung lại với nhau bằng cách cộng trừ phần hệ số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhân đơn thức với đa thức",
+          "meaning": "Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức đó với từng hạng tử của đa thức rồi cộng các tích với nhau: A(B + C) = AB + AC.",
+          "example": "2x(x^2 - 3y) = 2x*x^2 - 2x*3y = 2x^3 - 6xy.",
+          "essence": "Phép nhân phân phối trên phép cộng bảo toàn giá trị đại số của biểu thức."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn biểu thức: P = 3xy(x - 2y) - 2x(y^2 - 3xy).",
+          "steps": [
+            "Bước 1: Khai triển tích thứ nhất: 3xy*x - 3xy*2y = 3x^2y - 6xy^2.",
+            "Bước 2: Khai triển tích thứ hai: -2x*y^2 - 2x*(-3xy) = -2xy^2 + 6x^2y.",
+            "Bước 3: Nhóm các hạng tử đồng dạng: (3x^2y + 6x^2y) + (-6xy^2 - 2xy^2) = 9x^2y - 8xy^2."
+          ],
+          "answer": "P = 9x^2y - 8xy^2"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ -2x*(y - 3) = -2xy - 6x.",
+          "why": "-2x * (-3) phải bằng +6x; quy tắc nhân hai số âm cho ra số dương."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Các phép tính với đa thức nhiều biến",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Các phép tính với đa thức nhiều biến.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đơn thức thu gọn",
+          "definition": "Là đơn thức chỉ gồm tích của một số với các biến, mà mỗi biến đã được nâng lên lũy thừa với số mũ nguyên dương và chỉ viết một lần.",
+          "example": "-3x^2y^3z là đơn thức thu gọn; hệ số là -3, phần biến là x^2y^3z, bậc là 2 + 3 + 1 = 6.",
+          "essence": "Thu gọn đơn thức giúp việc tính toán và so sánh hạng tử đồng dạng trở nên rõ ràng, chuẩn xác."
+        },
+        {
+          "term": "Hai đơn thức đồng dạng",
+          "definition": "Là hai đơn thức có hệ số khác 0 và có cùng phần biến.",
+          "example": "2x^2y và -5x^2y là hai đơn thức đồng dạng; chúng có thể cộng trừ trực tiếp: 2x^2y - 5x^2y = -3x^2y.",
+          "essence": "Chỉ những đơn thức đồng dạng mới có thể gộp chung lại với nhau bằng cách cộng trừ phần hệ số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhân đơn thức với đa thức",
+          "meaning": "Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức đó với từng hạng tử của đa thức rồi cộng các tích với nhau: A(B + C) = AB + AC.",
+          "example": "2x(x^2 - 3y) = 2x*x^2 - 2x*3y = 2x^3 - 6xy.",
+          "essence": "Phép nhân phân phối trên phép cộng bảo toàn giá trị đại số của biểu thức."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn biểu thức: P = 3xy(x - 2y) - 2x(y^2 - 3xy).",
+          "steps": [
+            "Bước 1: Khai triển tích thứ nhất: 3xy*x - 3xy*2y = 3x^2y - 6xy^2.",
+            "Bước 2: Khai triển tích thứ hai: -2x*y^2 - 2x*(-3xy) = -2xy^2 + 6x^2y.",
+            "Bước 3: Nhóm các hạng tử đồng dạng: (3x^2y + 6x^2y) + (-6xy^2 - 2xy^2) = 9x^2y - 8xy^2."
+          ],
+          "answer": "P = 9x^2y - 8xy^2"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ -2x*(y - 3) = -2xy - 6x.",
+          "why": "-2x * (-3) phải bằng +6x; quy tắc nhân hai số âm cho ra số dương."
+        }
+      ]
+    }
+  ]
+}

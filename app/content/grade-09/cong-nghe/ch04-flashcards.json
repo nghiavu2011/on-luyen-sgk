@@ -1,0 +1,87 @@
+[
+  {
+    "front": "Khái niệm 'Hệ thống Smart Home (Ngôi nhà thông minh)' trong Chương 4: Nhà thông minh (Smart Home) và Nông nghiệp Công nghệ cao được định nghĩa như thế nào?",
+    "back": "Ngôi nhà được trang bị hệ thống điều khiển tự động hoặc bán tự động cho các thiết bị điện (chiếu sáng, rèm cửa, điều hòa, an ninh) kết nối qua mạng Internet.\n\n💡 Ví dụ: Hệ thống đèn hành lang tự động bật sáng khi cảm biến hồng ngoại phát hiện có người bước vào và tự tắt sau 30 giây.\n🌱 Bản chất: Tối ưu hóa sự tiện nghi, an toàn và tiết kiệm năng lượng tối đa cho gia chủ.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Hệ thống tưới nhỏ giọt tự động (Drip Irrigation)' trong Chương 4: Nhà thông minh (Smart Home) và Nông nghiệp Công nghệ cao được định nghĩa như thế nào?",
+    "back": "Hệ thống cung cấp nước và phân bón trực tiếp đến từng gốc rễ cây trồng với liều lượng chính xác thông qua mạng lưới ống dẫn và đầu tưới nhỏ giọt kiểm soát bằng van điện từ.\n\n💡 Ví dụ: Hệ thống nhà màng trồng dưa lưới công nghệ cao tại Đà Lạt điều khiển tưới dựa trên dữ liệu cảm biến độ ẩm đất.\n🌱 Bản chất: Tiết kiệm từ 50% đến 70% lượng nước tưới so với phương pháp tưới rãnh truyền thống và tăng năng suất cây trồng.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Cơ chế hoạt động của hệ thống an ninh nhà thông minh'?",
+    "back": "Cảm biến cửa mở/cảm biến chuyển động -> Bộ điều khiển trung tâm (Gateway) -> Kích hoạt còi hú báo động -> Gửi thông báo khẩn cấp tức thời về điện thoại của chủ nhà.\n\n📝 Ví dụ: Camera AI nhận diện khuôn mặt người lạ và cảnh báo đột nhập trái phép.\n🔑 Ý nghĩa: Bảo vệ tài sản và sự an toàn của các thành viên trong gia đình 24/7.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Thiết kế một mô hình tự động hóa đơn giản: Khi độ ẩm đất trong chậu cây cảnh xuống dưới 40%, máy bơm mini sẽ tự động bật để tưới nước, và khi độ ẩm đạt 70% thì máy bơm sẽ tự ngắt.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Các thiết bị cần dùng: Cảm biến độ ẩm đất, vi điều khiển (như Arduino hoặc ESP32), module rơ-le (Relay), máy bơm nước mini 12V.\nBước 2: Nguyên lí hoạt động: Cảm biến đo độ ẩm đất gửi tín hiệu liên tục về vi điều khiển.\nBước 3: Thuật toán điều khiển: Nếu độ ẩm < 40%, gửi tín hiệu đóng rơ-le để cấp điện cho máy bơm hoạt động. Nếu độ ẩm >= 70%, gửi tín hiệu ngắt rơ-le để dừng bơm.\nBước 4: Ứng dụng: Giúp cây trồng luôn đủ ẩm dù chủ nhà đi công tác vắng nhà nhiều ngày.\n\n👉 Kết luận: Mô hình IoT nông nghiệp thông minh khép kín kiểm soát độ ẩm đất hoàn toàn tự động.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Nghĩ rằng nhà thông minh bắt buộc phải đập phá xây lại toàn bộ ngôi nhà cũ.?",
+    "back": "❌ Lỗi sai: Nghĩ rằng nhà thông minh bắt buộc phải đập phá xây lại toàn bộ ngôi nhà cũ.\n\n💡 Nguyên nhân & Khắc phục: Hiện nay các thiết bị thông minh sử dụng sóng không dây (Zigbee, Wi-Fi) có thể lắp đặt thay thế trực tiếp vào các đế âm tường cũ mà không cần can thiệp kết cấu nhà.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 4: Nhà thông minh (Smart Home) và Nông nghiệp Công nghệ cao?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 4: Nhà thông minh (Smart Home) và Nông nghiệp Công nghệ cao?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 4: Nhà thông minh (Smart Home) và Nông nghiệp Công nghệ cao?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-09",
+      "on-tap"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Tốc độ và Đồ thị quãng đường - thời gian",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Tốc độ chuyển động và thiết bị đo tốc độ",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Tốc độ chuyển động và thiết bị đo tốc độ.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tốc độ chuyển động",
+          "definition": "Là đại lượng đặc trưng cho sự nhanh hay chậm của chuyển động, được tính bằng quãng đường đi được trong một đơn vị thời gian: v = s / t.",
+          "example": "Một xe máy đi được quãng đường 90 km trong 2 giờ thì tốc độ là v = 90 / 2 = 45 km/h.",
+          "essence": "Tốc độ cho biết mức độ thay đổi vị trí của vật trong không gian theo thời gian."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đổi đơn vị tốc độ chuẩn giữa m/s và km/h",
+          "meaning": "1 m/s = 3,6 km/h. Muốn đổi từ m/s sang km/h ta nhân với 3,6; ngược lại từ km/h sang m/s ta chia cho 3,6.",
+          "example": "Vận động viên chạy 10 m/s tương đương với tốc độ 10 * 3,6 = 36 km/h.",
+          "essence": "Xuất phát từ 1 km = 1000m và 1 giờ = 3600 giây."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một ô tô chạy từ Hà Nội đến Hải Phòng trên quãng đường dài 108 km hết 1 giờ 30 phút. Tính tốc độ của ô tô theo đơn vị km/h và m/s.",
+          "steps": [
+            "Bước 1: Đổi thời gian: 1 giờ 30 phút = 1,5 giờ.",
+            "Bước 2: Tính tốc độ: v = s / t = 108 / 1,5 = 72 km/h.",
+            "Bước 3: Đổi sang m/s: v = 72 / 3,6 = 20 m/s."
+          ],
+          "answer": "Tốc độ ô tô là 72 km/h (hay 20 m/s)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy trực tiếp 108 chia cho 1,3 khi đổi 1 giờ 30 phút.",
+          "why": "30 phút là nửa giờ (0,5 giờ), không phải 0,3 giờ. 1 giờ 30 phút bắt buộc phải đổi thành 1,5 giờ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Đồ thị quãng đường - thời gian",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Đồ thị quãng đường - thời gian.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tốc độ chuyển động",
+          "definition": "Là đại lượng đặc trưng cho sự nhanh hay chậm của chuyển động, được tính bằng quãng đường đi được trong một đơn vị thời gian: v = s / t.",
+          "example": "Một xe máy đi được quãng đường 90 km trong 2 giờ thì tốc độ là v = 90 / 2 = 45 km/h.",
+          "essence": "Tốc độ cho biết mức độ thay đổi vị trí của vật trong không gian theo thời gian."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Đổi đơn vị tốc độ chuẩn giữa m/s và km/h",
+          "meaning": "1 m/s = 3,6 km/h. Muốn đổi từ m/s sang km/h ta nhân với 3,6; ngược lại từ km/h sang m/s ta chia cho 3,6.",
+          "example": "Vận động viên chạy 10 m/s tương đương với tốc độ 10 * 3,6 = 36 km/h.",
+          "essence": "Xuất phát từ 1 km = 1000m và 1 giờ = 3600 giây."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một ô tô chạy từ Hà Nội đến Hải Phòng trên quãng đường dài 108 km hết 1 giờ 30 phút. Tính tốc độ của ô tô theo đơn vị km/h và m/s.",
+          "steps": [
+            "Bước 1: Đổi thời gian: 1 giờ 30 phút = 1,5 giờ.",
+            "Bước 2: Tính tốc độ: v = s / t = 108 / 1,5 = 72 km/h.",
+            "Bước 3: Đổi sang m/s: v = 72 / 3,6 = 20 m/s."
+          ],
+          "answer": "Tốc độ ô tô là 72 km/h (hay 20 m/s)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy trực tiếp 108 chia cho 1,3 khi đổi 1 giờ 30 phút.",
+          "why": "30 phút là nửa giờ (0,5 giờ), không phải 0,3 giờ. 1 giờ 30 phút bắt buộc phải đổi thành 1,5 giờ."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Khối lượng riêng và Áp suất",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khối lượng riêng và phương pháp đo khối lượng riêng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khối lượng riêng và phương pháp đo khối lượng riêng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Lực đẩy Archimedes",
+          "definition": "Một vật nhúng trong chất lỏng bị chất lỏng tác dụng một lực đẩy hướng thẳng đứng từ dưới lên trên, có độ lớn bằng trọng lượng của phần chất lỏng bị vật chiếm chỗ: F_A = d * V.",
+          "example": "Một khúc gỗ nổi trên mặt nước hay tàu thủy bằng thép chở hàng vạn tấn nổi được trên biển nhờ lực đẩy Archimedes cân bằng với trọng lượng tàu.",
+          "essence": "Vật chìm hay nổi phụ thuộc vào sự so sánh giữa khối lượng riêng của vật và khối lượng riêng của chất lỏng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính áp suất cơ học",
+          "meaning": "Áp suất là độ lớn của áp lực trên một đơn vị diện tích bị ép: p = F / S. Muốn tăng áp suất, ta tăng lực F hoặc giảm diện tích S.",
+          "example": "Lưỡi dao được mài thật sắc (giảm diện tích tiếp xúc S) để tạo áp suất lớn giúp cắt thái dễ dàng.",
+          "essence": "Áp suất đặc trưng cho tác dụng gây biến dạng của lực lên bề mặt tiếp xúc."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối sắt có thể tích 0,002 m3 được nhúng chìm hoàn toàn trong nước. Cho trọng lượng riêng của nước là d = 10.000 N/m3. Tính lực đẩy Archimedes tác dụng lên khối sắt.",
+          "steps": [
+            "Bước 1: Do vật chìm hoàn toàn nên thể tích phần chất lỏng bị chiếm chỗ chính bằng thể tích vật: V = 0,002 m3.",
+            "Bước 2: Áp dụng công thức lực đẩy Archimedes: F_A = d * V.",
+            "Bước 3: Thay số: F_A = 10.000 * 0,002 = 20 N."
+          ],
+          "answer": "Lực đẩy Archimedes là 20 Newton."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thể tích của toàn bộ vật nhân với d khi vật chỉ chìm một phần trong nước.",
+          "why": "Lực đẩy Archimedes chỉ tính trên THỂ TÍCH PHẦN VẬT CHÌM TRONG CHẤT LỎNG (phần chiếm chỗ), không tính phần nổi trên không khí."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Áp suất, áp suất chất lỏng và lực đẩy Archimedes",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Áp suất, áp suất chất lỏng và lực đẩy Archimedes.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Lực đẩy Archimedes",
+          "definition": "Một vật nhúng trong chất lỏng bị chất lỏng tác dụng một lực đẩy hướng thẳng đứng từ dưới lên trên, có độ lớn bằng trọng lượng của phần chất lỏng bị vật chiếm chỗ: F_A = d * V.",
+          "example": "Một khúc gỗ nổi trên mặt nước hay tàu thủy bằng thép chở hàng vạn tấn nổi được trên biển nhờ lực đẩy Archimedes cân bằng với trọng lượng tàu.",
+          "essence": "Vật chìm hay nổi phụ thuộc vào sự so sánh giữa khối lượng riêng của vật và khối lượng riêng của chất lỏng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính áp suất cơ học",
+          "meaning": "Áp suất là độ lớn của áp lực trên một đơn vị diện tích bị ép: p = F / S. Muốn tăng áp suất, ta tăng lực F hoặc giảm diện tích S.",
+          "example": "Lưỡi dao được mài thật sắc (giảm diện tích tiếp xúc S) để tạo áp suất lớn giúp cắt thái dễ dàng.",
+          "essence": "Áp suất đặc trưng cho tác dụng gây biến dạng của lực lên bề mặt tiếp xúc."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một khối sắt có thể tích 0,002 m3 được nhúng chìm hoàn toàn trong nước. Cho trọng lượng riêng của nước là d = 10.000 N/m3. Tính lực đẩy Archimedes tác dụng lên khối sắt.",
+          "steps": [
+            "Bước 1: Do vật chìm hoàn toàn nên thể tích phần chất lỏng bị chiếm chỗ chính bằng thể tích vật: V = 0,002 m3.",
+            "Bước 2: Áp dụng công thức lực đẩy Archimedes: F_A = d * V.",
+            "Bước 3: Thay số: F_A = 10.000 * 0,002 = 20 N."
+          ],
+          "answer": "Lực đẩy Archimedes là 20 Newton."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thể tích của toàn bộ vật nhân với d khi vật chỉ chìm một phần trong nước.",
+          "why": "Lực đẩy Archimedes chỉ tính trên THỂ TÍCH PHẦN VẬT CHÌM TRONG CHẤT LỎNG (phần chiếm chỗ), không tính phần nổi trên không khí."
+        }
+      ]
+    }
+  ]
+}

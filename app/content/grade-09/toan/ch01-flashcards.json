@@ -1,0 +1,87 @@
+[
+  {
+    "front": "Khái niệm 'Hệ hai phương trình bậc nhất hai ẩn' trong Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn được định nghĩa như thế nào?",
+    "back": "Là hệ phương trình có dạng { ax + by = c; a'x + b'y = c' }, trong đó a, b không đồng thời bằng 0 và a', b' không đồng thời bằng 0.\n\n💡 Ví dụ: Hệ { 2x + y = 5; x - y = 1 } có nghiệm duy nhất là cặp số (x; y) = (2; 1).\n🌱 Bản chất: Mỗi phương trình bậc nhất hai ẩn biểu diễn một đường thẳng trên mặt phẳng tọa độ; nghiệm của hệ tương ứng với tọa độ giao điểm của hai đường thẳng.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Nghiệm của hệ phương trình' trong Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn được định nghĩa như thế nào?",
+    "back": "Cặp số (x0; y0) đồng thời thỏa mãn cả hai phương trình của hệ được gọi là nghiệm của hệ phương trình.\n\n💡 Ví dụ: Với cặp (2; 1): 2*(2) + 1 = 5 (đúng) và 2 - 1 = 1 (đúng), do đó (2; 1) là nghiệm của hệ.\n🌱 Bản chất: Hệ có thể có nghiệm duy nhất (hai đường cắt nhau), vô nghiệm (hai đường song song), hoặc vô số nghiệm (hai đường trùng nhau).",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc giải hệ bằng phương pháp cộng đại số'?",
+    "back": "Nhân hai vế của mỗi phương trình với hệ số thích hợp để hệ số của cùng một ẩn bằng nhau hoặc đối nhau, rồi cộng hoặc trừ từng vế hai phương trình để triệt tiêu ẩn đó.\n\n📝 Ví dụ: Với { 2x + 3y = 7; 2x - y = 3 }, lấy phương trình (1) trừ (2) ta được: 4y = 4 => y = 1, thế vào tìm x = 2.\n🔑 Ý nghĩa: Mục tiêu tối thượng là khử đi một ẩn để quy về phương trình bậc nhất một ẩn dễ giải.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Giải bài toán bằng cách lập hệ phương trình: Hai tổ sản xuất cùng làm thì sau 12 giờ hoàn thành công việc. Nếu tổ 1 làm 4 giờ rồi tổ 2 làm tiếp 10 giờ thì được 7/12 công việc. Hỏi mỗi tổ làm một mình mất bao lâu?'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Gọi thời gian tổ 1 làm một mình xong việc là x (giờ), tổ 2 là y (giờ) với điều kiện x, y > 12.\nBước 2: Trong 1 giờ, tổ 1 làm được 1/x công việc, tổ 2 làm được 1/y công việc. Hai tổ cùng làm 12 giờ xong nên: 1/x + 1/y = 1/12.\nBước 3: Tổ 1 làm 4 giờ và tổ 2 làm 10 giờ được: 4/x + 10/y = 7/12.\nBước 4: Đặt u = 1/x, v = 1/y, ta có hệ: { u + v = 1/12; 4u + 10v = 7/12 }. Giải hệ tìm được u = 1/20, v = 1/30.\nBước 5: Suy ra x = 20 (thỏa mãn) và y = 30 (thỏa mãn).\n\n👉 Kết luận: Tổ 1 làm một mình hết 20 giờ, tổ 2 làm một mình hết 30 giờ.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên đặt điều kiện cho ẩn số (x, y > 12) hoặc quên đổi đơn vị thời gian trước khi lập phương trình.?",
+    "back": "❌ Lỗi sai: Quên đặt điều kiện cho ẩn số (x, y > 12) hoặc quên đổi đơn vị thời gian trước khi lập phương trình.\n\n💡 Nguyên nhân & Khắc phục: Bài toán năng suất yêu cầu ẩn số phải dương và công suất một giờ là nghịch đảo của thời gian hoàn thành.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch01",
+      "grade-09",
+      "on-tap"
+    ]
+  }
+]

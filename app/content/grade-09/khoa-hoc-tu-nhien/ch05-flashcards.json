@@ -1,0 +1,87 @@
+[
+  {
+    "front": "Khái niệm 'Dòng điện cảm ứng' trong Chương 5: Cảm ứng điện từ và Dòng điện xoay chiều được định nghĩa như thế nào?",
+    "back": "Dòng điện xuất hiện trong cuộn dây dẫn kín khi số đường sức từ xuyên qua tiết diện S của cuộn dây biến thiên (tăng hoặc giảm).\n\n💡 Ví dụ: Đưa thanh nam châm lại gần hoặc rút ra xa cuộn dây kín làm kim điện kế lệch khỏi vạch số 0.\n🌱 Bản chất: Bản chất là sự chuyển hóa từ cơ năng thành điện năng trong máy phát điện xoay chiều.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Máy biến thế (Máy biến áp)' trong Chương 5: Cảm ứng điện từ và Dòng điện xoay chiều được định nghĩa như thế nào?",
+    "back": "Thiết bị dùng để biến đổi hiệu điện thế xoay chiều mà không làm thay đổi tần số: U1 / U2 = N1 / N2.\n\n💡 Ví dụ: Nếu số vòng dây cuộn thứ cấp N2 gấp 10 lần cuộn sơ cấp N1 thì hiệu điện thế U2 tăng 10 lần (máy tăng thế).\n🌱 Bản chất: Muốn giảm hao phí do tỏa nhiệt trên đường dây truyền tải thì giải pháp hiệu quả nhất là tăng hiệu điện thế U ở đầu nguồn.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Công thức công suất hao phí do tỏa nhiệt trên đường dây'?",
+    "back": "P_hp = R * P^2 / U^2. Công suất hao phí tỉ lệ nghịch với bình phương hiệu điện thế giữa hai đầu dây tải.\n\n📝 Ví dụ: Khi tăng hiệu điện thế U lên 10 lần thì hao phí nhiệt P_hp giảm đi 10^2 = 100 lần.\n🔑 Ý nghĩa: Đó là lí do người ta phải dùng đường dây siêu cao áp 500 kV để truyền tải điện năng Bắc - Nam.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Cần truyền tải một công suất điện P = 100 kW trên đường dây tải điện có điện trở R = 10 ôm. Tính công suất hao phí trên đường dây khi truyền tải ở hiệu điện thế U1 = 10 000 V và khi tăng lên U2 = 20 000 V.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Đổi đơn vị: P = 100 kW = 100 000 W.\nBước 2: Hao phí ở U1 = 10 000 V: P_hp1 = 10 * (100 000)^2 / (10 000)^2 = 10 * 10^10 / 10^8 = 1 000 W = 1 kW.\nBước 3: Hao phí ở U2 = 20 000 V: P_hp2 = 10 * (100 000)^2 / (20 000)^2 = 10 * 10^10 / (4 * 10^8) = 250 W = 0,25 kW.\nBước 4: So sánh: Khi U tăng 2 lần thì P_hp giảm 4 lần (từ 1 kW xuống 0,25 kW).\n\n👉 Kết luận: Hao phí lần lượt là 1000 W và 250 W.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Nghĩ rằng máy biến thế có thể làm việc được với dòng điện một chiều không đổi (DC từ pin/ắc quy).?",
+    "back": "❌ Lỗi sai: Nghĩ rằng máy biến thế có thể làm việc được với dòng điện một chiều không đổi (DC từ pin/ắc quy).\n\n💡 Nguyên nhân & Khắc phục: Dòng điện không đổi tạo ra từ trường không đổi nên không có sự biến thiên từ thông, do đó không sinh ra dòng điện cảm ứng ở cuộn thứ cấp.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 5: Cảm ứng điện từ và Dòng điện xoay chiều?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 5: Cảm ứng điện từ và Dòng điện xoay chiều?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 5: Cảm ứng điện từ và Dòng điện xoay chiều?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "khoa-hoc-tu-nhien",
+      "ch05",
+      "grade-09",
+      "on-tap"
+    ]
+  }
+]

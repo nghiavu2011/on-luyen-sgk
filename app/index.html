@@ -958,9 +958,9 @@
                 heroTitle: "Học đúng hướng.<br>Vững vàng hôm nay. Tự tin ngày mai.",
                 heroDesc: "Hệ thống đề ôn tập bám sát bộ SGK Kết nối tri thức với cuộc sống của NXB Giáo dục Việt Nam năm học 2026 – 2027, giúp học sinh nắm vững kiến thức, rèn luyện kỹ năng và tự tin chinh phục mọi kỳ kiểm tra.",
                 heroStats: [
-                    { val: "222+", lbl: "Đề ôn tập Lớp 6" },
-                    { val: "1.332+", lbl: "Câu trắc nghiệm 3 bước" },
-                    { val: "100%", lbl: "Chuẩn SGK Lớp 6" }
+                    { val: "702+", lbl: "Đề ôn tập THCS (Lớp 6 - 9)" },
+                    { val: "4.212+", lbl: "Câu trắc nghiệm 3 bước" },
+                    { val: "100%", lbl: "Chuẩn SGK THCS 2026–2027" }
                 ],
                 sticker: "Hôm nay nỗ lực hơn • Ngày mai tự tin hơn! ☀️",
                 grades: [
@@ -1206,10 +1206,10 @@
             const s3v = document.getElementById('stat-val-3');
             const s3l = document.getElementById('stat-lbl-3');
 
-            if (s1v) s1v.textContent = '351+';
-            if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa';
-            if (s2v) s2v.textContent = '2.106+';
-            if (s2l) s2l.textContent = 'Câu hỏi trắc nghiệm';
+            if (s1v) s1v.textContent = '1.558+';
+            if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa (Lớp 6 - 12)';
+            if (s2v) s2v.textContent = '9.348+';
+            if (s2l) s2l.textContent = 'Câu hỏi trắc nghiệm 3 bước';
             if (s3v) s3v.textContent = '100%';
             if (s3l) s3l.textContent = 'Chuẩn SGK 2026 – 2027';
 
@@ -1235,7 +1235,7 @@
             const lvl = LEVEL_DATA[currentLevel];
             
             container.innerHTML = lvl.grades.map(g => {
-                const isReady = (g.id === '06' || g.id === '10' || g.id === '11' || g.id === '12');
+                const isReady = true; // Trọn bộ 7 khối lớp (06, 07, 08, 09, 10, 11, 12) đều đã hoàn thành 100%
                 const badgeHtml = isReady 
                     ? `<span style="background:#10b981; color:white; font-size:0.68rem; padding:0.15rem 0.5rem; border-radius:12px; font-weight:800; margin-left:0.35rem; display:inline-flex; align-items:center; gap:0.2rem;">✨ Sẵn sàng học</span>`
                     : `<span style="background:#f1f5f9; color:#64748b; font-size:0.68rem; padding:0.15rem 0.45rem; border-radius:12px; font-weight:600; margin-left:0.35rem; border:1px solid #cbd5e1;">⏳ Đang số hóa SGK</span>`;
@@ -1264,30 +1264,80 @@
                                 </div>
                             </div>
                             <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                                <a href="subject.html?grade=06&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🔢 Toán 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🇬🇧 Tiếng Anh 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🔬 KHTN 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    📖 Ngữ văn 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🌍 Sử-Địa 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    💻 Tin học 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    🏛️ GDCD 6 ➔
-                                </a>
-                                <a href="subject.html?grade=06&subject=cong-nghe" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">
-                                    ⚙️ Công nghệ 6 ➔
-                                </a>
+                                <a href="subject.html?grade=06&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔢 Toán 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🇬🇧 Tiếng Anh 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔬 KHTN 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">📖 Ngữ văn 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🌍 Sử-Địa 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">💻 Tin học 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🏛️ GDCD 6 ➔</a>
+                                <a href="subject.html?grade=06&subject=cong-nghe" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">⚙️ Công nghệ 6 ➔</a>
+                            </div>
+                        </div>
+                    `;
+                } else if (selectedGrade === '07') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">🌿</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 7 — Hoàn thành 100% trọn bộ 8 môn học thuật theo chuẩn SGK Kết nối tri thức 2026–2027!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 40 chương/bài với 160 đề thi phân hóa 4 sao (960 câu hỏi giải thích 3 bước sư phạm), 320 thẻ flashcards ghi nhớ chủ động cho Toán, KHTN, Ngữ Văn, Tiếng Anh, Sử-Địa, Tin học, GDCD, Công nghệ.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=07&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔢 Toán 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🇬🇧 Tiếng Anh 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔬 KHTN 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">📖 Ngữ văn 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🌍 Sử-Địa 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">💻 Tin học 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🏛️ GDCD 7 ➔</a>
+                                <a href="subject.html?grade=07&subject=cong-nghe" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">⚙️ Công nghệ 7 ➔</a>
+                            </div>
+                        </div>
+                    `;
+                } else if (selectedGrade === '08') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">⚡</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 8 — Hoàn thành 100% trọn bộ 8 môn học thuật theo chuẩn SGK Kết nối tri thức 2026–2027!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 40 chương/bài với 160 đề thi phân hóa 4 sao (960 câu hỏi giải thích 3 bước sư phạm), 320 thẻ flashcards ghi nhớ chủ động cho Toán, KHTN, Ngữ Văn, Tiếng Anh, Sử-Địa, Tin học, GDCD, Công nghệ.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=08&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔢 Toán 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🇬🇧 Tiếng Anh 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔬 KHTN 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">📖 Ngữ văn 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🌍 Sử-Địa 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">💻 Tin học 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🏛️ GDCD 8 ➔</a>
+                                <a href="subject.html?grade=08&subject=cong-nghe" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">⚙️ Công nghệ 8 ➔</a>
+                            </div>
+                        </div>
+                    `;
+                } else if (selectedGrade === '09') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">🎯</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 9 — Hoàn thành 100% trọn bộ 8 môn bứt phá Ôn thi Tuyển sinh vào Lớp 10 THPT!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 40 chương/bài với 160 đề thi chuẩn cấu trúc tuyển sinh (960 câu hỏi trắc nghiệm giải thích 3 bước), 320 thẻ flashcards ghi nhớ công thức trọng tâm và kỹ năng làm bài thi điểm 8+.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=09&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔢 Toán 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=ngu-van" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">📖 Ngữ văn 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🇬🇧 Tiếng Anh 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=khoa-hoc-tu-nhien" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔬 KHTN 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🌍 Sử-Địa 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">💻 Tin học 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=giao-duc-cong-dan" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🏛️ GDCD 9 ➔</a>
+                                <a href="subject.html?grade=09&subject=cong-nghe" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">⚙️ Công nghệ 9 ➔</a>
                             </div>
                         </div>
                     `;

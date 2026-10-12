@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Định lí Thalès trong Tam giác",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Định lí Thalès thuận, đảo và hệ quả",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Định lí Thalès thuận, đảo và hệ quả.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định lí Thalès",
+          "definition": "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ.",
+          "example": "Trong tam giác ABC, nếu DE // BC (D thuộc AB, E thuộc AC) thì AD/AB = AE/AC và AD/DB = AE/EC.",
+          "essence": "Song song chuyển hóa thành tỉ lệ thức độ dài giữa các đoạn thẳng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất đường phân giác trong tam giác",
+          "meaning": "Trong tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề hai đoạn ấy: DB / DC = AB / AC.",
+          "example": "Tam giác ABC có AD là phân giác góc A. Nếu AB = 4 cm, AC = 6 cm thì DB / DC = 4 / 6 = 2/3.",
+          "essence": "Tỉ lệ góc chia đôi tạo ra tỉ lệ cạnh tương ứng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Phân giác AD cắt BC tại D. Biết BD = 3 cm, tính độ dài đoạn thẳng DC và BC.",
+          "steps": [
+            "Bước 1: Áp dụng tính chất đường phân giác: DB / DC = AB / AC.",
+            "Bước 2: Thay số: 3 / DC = 6 / 9 = 2 / 3 => DC = (3 * 3) / 2 = 4,5 cm.",
+            "Bước 3: Tính BC = BD + DC = 3 + 4,5 = 7,5 cm."
+          ],
+          "answer": "DC = 4,5 cm; BC = 7,5 cm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lập sai tỉ số cạnh: Viết DB/DC = AC/AB thay vì AB/AC.",
+          "why": "Đoạn nào kề với cạnh nào thì phải tương ứng: DB kề với AB, DC kề với AC nên DB/DC = AB/AC."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tính chất đường phân giác của tam giác",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tính chất đường phân giác của tam giác.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Định lí Thalès",
+          "definition": "Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ.",
+          "example": "Trong tam giác ABC, nếu DE // BC (D thuộc AB, E thuộc AC) thì AD/AB = AE/AC và AD/DB = AE/EC.",
+          "essence": "Song song chuyển hóa thành tỉ lệ thức độ dài giữa các đoạn thẳng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Tính chất đường phân giác trong tam giác",
+          "meaning": "Trong tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề hai đoạn ấy: DB / DC = AB / AC.",
+          "example": "Tam giác ABC có AD là phân giác góc A. Nếu AB = 4 cm, AC = 6 cm thì DB / DC = 4 / 6 = 2/3.",
+          "essence": "Tỉ lệ góc chia đôi tạo ra tỉ lệ cạnh tương ứng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC có AB = 6 cm, AC = 9 cm. Phân giác AD cắt BC tại D. Biết BD = 3 cm, tính độ dài đoạn thẳng DC và BC.",
+          "steps": [
+            "Bước 1: Áp dụng tính chất đường phân giác: DB / DC = AB / AC.",
+            "Bước 2: Thay số: 3 / DC = 6 / 9 = 2 / 3 => DC = (3 * 3) / 2 = 4,5 cm.",
+            "Bước 3: Tính BC = BD + DC = 3 + 4,5 = 7,5 cm."
+          ],
+          "answer": "DC = 4,5 cm; BC = 7,5 cm."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lập sai tỉ số cạnh: Viết DB/DC = AC/AB thay vì AB/AC.",
+          "why": "Đoạn nào kề với cạnh nào thì phải tương ứng: DB kề với AB, DC kề với AC nên DB/DC = AB/AC."
+        }
+      ]
+    }
+  ]
+}

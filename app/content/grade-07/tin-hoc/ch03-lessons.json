@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch03",
+  "title": "Chủ đề 3: Bảng tính điện tử (Spreadsheet)",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Làm quen với giao diện và nhập dữ liệu bảng tính",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Làm quen với giao diện và nhập dữ liệu bảng tính.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Địa chỉ ô tính (Cell Address)",
+          "definition": "Được xác định bởi tên cột kết hợp với tên hàng mà ô đó nằm tại vị trí giao nhau.",
+          "example": "Ô C5 là ô nằm ở giao điểm của cột C và hàng 5.",
+          "essence": "Địa chỉ ô cho phép thiết lập các công thức tự động cập nhật khi dữ liệu thay đổi."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc bắt đầu công thức trong bảng tính",
+          "meaning": "Mọi công thức hoặc hàm tính toán trong bảng tính đều bắt buộc phải bắt đầu bằng dấu bằng '='.",
+          "example": "=SUM(A1:A10) hoặc =B2 * C2.",
+          "essence": "Dấu '=' báo hiệu cho phần mềm biết đây là một phép toán cần xử lý chứ không phải văn bản thuần túy."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết công thức tính điểm trung bình môn của học sinh có điểm Toán ở ô C3, Văn ở ô D3, Anh ở ô E3.",
+          "steps": [
+            "Bước 1: Sử dụng hàm AVERAGE tính trung bình cộng.",
+            "Bước 2: Xác định vùng dữ liệu từ C3 đến E3 (kí hiệu là C3:E3).",
+            "Bước 3: Viết công thức hoàn chỉnh: =AVERAGE(C3:E3)."
+          ],
+          "answer": "=AVERAGE(C3:E3) hoặc =(C3+D3+E3)/3"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dấu '=' ở đầu công thức, khiến phần mềm chỉ hiển thị dòng chữ SUM(A1:A5) mà không tính ra kết quả.",
+          "why": "Nếu thiếu dấu bằng, ô tính sẽ coi đó là chuỗi ký tự văn bản thông thường."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Sử dụng công thức và các hàm thống kê cơ bản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Sử dụng công thức và các hàm thống kê cơ bản.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Địa chỉ ô tính (Cell Address)",
+          "definition": "Được xác định bởi tên cột kết hợp với tên hàng mà ô đó nằm tại vị trí giao nhau.",
+          "example": "Ô C5 là ô nằm ở giao điểm của cột C và hàng 5.",
+          "essence": "Địa chỉ ô cho phép thiết lập các công thức tự động cập nhật khi dữ liệu thay đổi."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc bắt đầu công thức trong bảng tính",
+          "meaning": "Mọi công thức hoặc hàm tính toán trong bảng tính đều bắt buộc phải bắt đầu bằng dấu bằng '='.",
+          "example": "=SUM(A1:A10) hoặc =B2 * C2.",
+          "essence": "Dấu '=' báo hiệu cho phần mềm biết đây là một phép toán cần xử lý chứ không phải văn bản thuần túy."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết công thức tính điểm trung bình môn của học sinh có điểm Toán ở ô C3, Văn ở ô D3, Anh ở ô E3.",
+          "steps": [
+            "Bước 1: Sử dụng hàm AVERAGE tính trung bình cộng.",
+            "Bước 2: Xác định vùng dữ liệu từ C3 đến E3 (kí hiệu là C3:E3).",
+            "Bước 3: Viết công thức hoàn chỉnh: =AVERAGE(C3:E3)."
+          ],
+          "answer": "=AVERAGE(C3:E3) hoặc =(C3+D3+E3)/3"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên dấu '=' ở đầu công thức, khiến phần mềm chỉ hiển thị dòng chữ SUM(A1:A5) mà không tính ra kết quả.",
+          "why": "Nếu thiếu dấu bằng, ô tính sẽ coi đó là chuỗi ký tự văn bản thông thường."
+        }
+      ]
+    }
+  ]
+}

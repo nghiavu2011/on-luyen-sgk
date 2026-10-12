@@ -1,0 +1,94 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Phân thức đại số",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm và tính chất cơ bản của phân thức đại số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm và tính chất cơ bản của phân thức đại số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Phân thức đại số",
+          "definition": "Là một biểu thức có dạng A/B, trong đó A và B là những đa thức và B là đa thức khác đa thức 0. A gọi là tử thức, B gọi là mẫu thức.",
+          "example": "(2x + 1) / (x - 3) là một phân thức đại số với điều kiện xác định x khác 3.",
+          "essence": "Phân thức đại số là sự mở rộng của khái niệm phân số sang các biểu thức chứa biến."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện xác định của phân thức đại số",
+          "meaning": "Phân thức A/B chỉ có nghĩa (xác định) khi mẫu thức B khác 0: B != 0.",
+          "example": "Phân thức 1 / (x^2 - 4) xác định khi x^2 - 4 != 0 <=> x != 2 và x != -2.",
+          "essence": "Phép chia cho 0 là không xác định trong toán học; mẫu thức triệt tiêu làm biểu thức vô nghĩa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn phân thức: Q = (x^2 - 9) / (2x + 6).",
+          "steps": [
+            "Bước 1: Tìm điều kiện xác định: 2x + 6 != 0 <=> x != -3.",
+            "Bước 2: Phân tích tử thức thành nhân tử: x^2 - 9 = (x - 3)(x + 3).",
+            "Bước 3: Phân tích mẫu thức: 2x + 6 = 2(x + 3).",
+            "Bước 4: Chia cả tử và mẫu cho nhân tử chung (x + 3): Q = (x - 3) / 2."
+          ],
+          "answer": "Q = (x - 3) / 2 với x != -3."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Rút gọn phân thức mà quên tìm điều kiện xác định của mẫu thức.",
+          "why": "Việc rút gọn làm mất nhân tử ở mẫu có thể dẫn đến việc nhận nhầm các giá trị làm mẫu bằng 0 là nghiệm hợp lệ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Các phép toán cộng, trừ, nhân, chia phân thức đại số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Các phép toán cộng, trừ, nhân, chia phân thức đại số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Phân thức đại số",
+          "definition": "Là một biểu thức có dạng A/B, trong đó A và B là những đa thức và B là đa thức khác đa thức 0. A gọi là tử thức, B gọi là mẫu thức.",
+          "example": "(2x + 1) / (x - 3) là một phân thức đại số với điều kiện xác định x khác 3.",
+          "essence": "Phân thức đại số là sự mở rộng của khái niệm phân số sang các biểu thức chứa biến."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện xác định của phân thức đại số",
+          "meaning": "Phân thức A/B chỉ có nghĩa (xác định) khi mẫu thức B khác 0: B != 0.",
+          "example": "Phân thức 1 / (x^2 - 4) xác định khi x^2 - 4 != 0 <=> x != 2 và x != -2.",
+          "essence": "Phép chia cho 0 là không xác định trong toán học; mẫu thức triệt tiêu làm biểu thức vô nghĩa."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Rút gọn phân thức: Q = (x^2 - 9) / (2x + 6).",
+          "steps": [
+            "Bước 1: Tìm điều kiện xác định: 2x + 6 != 0 <=> x != -3.",
+            "Bước 2: Phân tích tử thức thành nhân tử: x^2 - 9 = (x - 3)(x + 3).",
+            "Bước 3: Phân tích mẫu thức: 2x + 6 = 2(x + 3).",
+            "Bước 4: Chia cả tử và mẫu cho nhân tử chung (x + 3): Q = (x - 3) / 2."
+          ],
+          "answer": "Q = (x - 3) / 2 với x != -3."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Rút gọn phân thức mà quên tìm điều kiện xác định của mẫu thức.",
+          "why": "Việc rút gọn làm mất nhân tử ở mẫu có thể dẫn đến việc nhận nhầm các giá trị làm mẫu bằng 0 là nghiệm hợp lệ."
+        }
+      ]
+    }
+  ]
+}

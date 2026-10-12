@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch04",
+  "examId": "de1",
+  "title": "Tin học Lớp 9 — Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề: Đề 1 — Khái niệm & Nhận biết (15 phút)",
+  "description": "Đề thi kiểm tra nhận biết khái niệm cơ bản, định nghĩa và công thức cốt lõi của Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề.",
+  "questions": [
+    {
+      "id": "g09_tin-hoc_ch04_d1_01",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Hàm tính toán có điều kiện COUNTIF và SUMIF",
+      "question": "Theo chương trình SGK Tin học Lớp 9, khẳng định nào sau đây là ĐÚNG khi nói về 'Hàm tính toán có điều kiện COUNTIF và SUMIF'?",
+      "options": [
+        "Hàm tính toán có điều kiện COUNTIF và SUMIF COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range):...",
+        "Hàm tính toán có điều kiện COUNTIF và SUMIF luôn là một đại lượng không xác định trong thực tế.",
+        "Hàm tính toán có điều kiện COUNTIF và SUMIF chỉ áp dụng được trong các trường hợp ngoại lệ.",
+        "Hàm tính toán có điều kiện COUNTIF và SUMIF hoàn toàn đồng nhất với các khái niệm ngược lại."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Định nghĩa chuẩn xác của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Hàm tính toán có điều kiện COUNTIF và SUMIF trong SGK?",
+        "steps": "Theo định nghĩa SGK: COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range): Tính tổng các ô thỏa mãn tiêu.",
+        "trap": "Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ."
+      },
+      "socraticPrompt": "Hãy nhớ lại định nghĩa cơ bản của Hàm tính toán có điều kiện COUNTIF và SUMIF trong SGK?",
+      "distractorReasons": [
+        "Đúng vì: Theo định nghĩa SGK: COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range): Tính tổng các ô thỏa mãn tiêu.",
+        "Sai do bẫy thường gặp: Nhầm lẫn định nghĩa cơ bản với các tính chất phụ trợ.",
+        "Sai vì phương án 'Hàm tính toán có điều kiện COUNTIF và SUMIF chỉ áp dụng được trong các trường hợp ngoại lệ.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "Sai vì phương án 'Hàm tính toán có điều kiện COUNTIF và SUMIF hoàn toàn đồng nhất với các khái niệm ngược lại.' không phù hợp với quy tắc/định lí: Định nghĩa chuẩn xác của Hàm tính toán có điều kiện COUNTIF và SUMIF."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g09_tin-hoc_ch04_d1_02",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Quy tắc chọn loại biểu đồ phù hợp trong Excel",
+      "question": "Quy tắc/định lí nào sau đây thể hiện đúng nội dung của 'Quy tắc chọn loại biểu đồ phù hợp trong Excel'?",
+      "options": [
+        "Quy tắc này không có giá trị áp dụng thực tiễn.",
+        "Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Colum...",
+        "Chỉ áp dụng khi giá trị các đại lượng đều bằng 0.",
+        "Tất cả các đại lượng đều tỉ lệ nghịch với nhau."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Nội dung quy tắc Quy tắc chọn loại biểu đồ phù hợp trong Excel.",
+        "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+        "steps": "Phát biểu chuẩn: Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Column chart); Xu hướng tăng g.",
+        "trap": "Ghi nhớ sai hướng của mối quan hệ đại lượng."
+      },
+      "socraticPrompt": "Quy tắc này phát biểu mối quan hệ giữa các đại lượng như thế nào?",
+      "distractorReasons": [
+        "Sai vì phương án 'Quy tắc này không có giá trị áp dụng thực tiễn.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Quy tắc chọn loại biểu đồ phù hợp trong Excel.",
+        "Đúng vì: Phát biểu chuẩn: Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Column chart); Xu hướng tăng g.",
+        "Sai do bẫy thường gặp: Ghi nhớ sai hướng của mối quan hệ đại lượng.",
+        "Sai vì phương án 'Tất cả các đại lượng đều tỉ lệ nghịch với nhau.' không phù hợp với quy tắc/định lí: Nội dung quy tắc Quy tắc chọn loại biểu đồ phù hợp trong Excel."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g09_tin-hoc_ch04_d1_03",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Trực quan hóa dữ liệu (Data Visualization)",
+      "question": "Khái niệm 'Trực quan hóa dữ liệu (Data Visualization)' được hiểu chính xác nhất là:",
+      "options": [
+        "Một đại lượng chỉ mang tính lí thuyết không thể đo lường.",
+        "Một kết quả ngẫu nhiên không có quy luật chi phối.",
+        "Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu...",
+        "Khái niệm chỉ xuất hiện ở các lớp học nâng cao."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Bản chất của Trực quan hóa dữ liệu (Data Visualization).",
+        "socraticPrompt": "Ý nghĩa khoa học của Trực quan hóa dữ liệu (Data Visualization) là gì?",
+        "steps": "Theo định nghĩa: Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu đồ tròn (thể hiện cơ cấu %), .",
+        "trap": "Xem nhẹ vai trò nền tảng của khái niệm."
+      },
+      "socraticPrompt": "Ý nghĩa khoa học của Trực quan hóa dữ liệu (Data Visualization) là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một đại lượng chỉ mang tính lí thuyết không thể đo lường.' không phù hợp với quy tắc/định lí: Bản chất của Trực quan hóa dữ liệu (Data Visualization).",
+        "Sai vì phương án 'Một kết quả ngẫu nhiên không có quy luật chi phối.' không phù hợp với quy tắc/định lí: Bản chất của Trực quan hóa dữ liệu (Data Visualization).",
+        "Đúng vì: Theo định nghĩa: Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu đồ tròn (thể hiện cơ cấu %), .",
+        "Sai do bẫy thường gặp: Xem nhẹ vai trò nền tảng của khái niệm."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g09_tin-hoc_ch04_d1_04",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Nhận biết bẫy sai",
+      "question": "Khi tìm hiểu về Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề, sai lầm nào sau đây học sinh CẦN TRÁNH?",
+      "options": [
+        "Tìm hiểu kĩ định nghĩa và điều kiện áp dụng.",
+        "Luyện tập các ví dụ minh họa từng bước.",
+        "Đọc kĩ phần bản chất trực giác của bài học.",
+        "Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so sánh: =COUNTIF(A..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Các lỗi nhận thức thường gặp trong Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề.",
+        "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+        "steps": "Lưu ý trọng tâm: Excel sẽ báo lỗi cú pháp; phải viết là =COUNTIF(A1:A10, \">=5\")..",
+        "trap": "Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so s"
+      },
+      "socraticPrompt": "Điều gì dễ gây ngộ nhận khi tiếp cận bài học này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so s",
+        "Sai vì phương án 'Luyện tập các ví dụ minh họa từng bước.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề.",
+        "Sai vì phương án 'Đọc kĩ phần bản chất trực giác của bài học.' không phù hợp với quy tắc/định lí: Các lỗi nhận thức thường gặp trong Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề.",
+        "Đúng vì: Lưu ý trọng tâm: Excel sẽ báo lỗi cú pháp; phải viết là =COUNTIF(A1:A10, \">=5\").."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "g09_tin-hoc_ch04_d1_05",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Đặc tính bản chất",
+      "question": "Bản chất cốt lõi của Hàm tính toán có điều kiện COUNTIF và SUMIF là gì?",
+      "options": [
+        "Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công....",
+        "Chỉ nhằm mục đích kiểm tra trí nhớ học sinh.",
+        "Không có mối liên hệ với các bài học trước đó.",
+        "Hoàn toàn do trực giác suy đoán mà không cần cơ sở."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Bản chất trực giác của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+        "steps": "Bản chất: Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công..",
+        "trap": "Học vẹt công thức mà không hiểu bản chất sâu xa."
+      },
+      "socraticPrompt": "Tại sao khái niệm này lại được xây dựng như vậy?",
+      "distractorReasons": [
+        "Đúng vì: Bản chất: Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công..",
+        "Sai do bẫy thường gặp: Học vẹt công thức mà không hiểu bản chất sâu xa.",
+        "Sai vì phương án 'Không có mối liên hệ với các bài học trước đó.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "Sai vì phương án 'Hoàn toàn do trực giác suy đoán mà không cần cơ sở.' không phù hợp với quy tắc/định lí: Bản chất trực giác của Hàm tính toán có điều kiện COUNTIF và SUMIF."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g09_tin-hoc_ch04_d1_06",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "topic": "Áp dụng cơ bản",
+      "question": "Trong các trường hợp sau, trường hợp nào thể hiện đúng nhất 'Hàm tính toán có điều kiện COUNTIF và SUMIF'?",
+      "options": [
+        "Áp dụng vào trường hợp hoàn toàn không có dữ kiện.",
+        "=COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp....",
+        "Áp dụng ngược lại điều kiện quy định.",
+        "Trường hợp không tuân theo quy luật tự nhiên."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ví dụ thực tế của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+        "steps": "Ví dụ tiêu biểu: =COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp..",
+        "trap": "Nhầm lẫn giữa các tình huống thực tiễn khác nhau."
+      },
+      "socraticPrompt": "Tình huống thực tiễn nào minh họa cho bài học?",
+      "distractorReasons": [
+        "Sai vì phương án 'Áp dụng vào trường hợp hoàn toàn không có dữ kiện.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Hàm tính toán có điều kiện COUNTIF và SUMIF.",
+        "Đúng vì: Ví dụ tiêu biểu: =COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp..",
+        "Sai do bẫy thường gặp: Nhầm lẫn giữa các tình huống thực tiễn khác nhau.",
+        "Sai vì phương án 'Trường hợp không tuân theo quy luật tự nhiên.' không phù hợp với quy tắc/định lí: Ví dụ thực tế của Hàm tính toán có điều kiện COUNTIF và SUMIF."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

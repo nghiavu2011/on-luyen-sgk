@@ -1,0 +1,86 @@
+[
+  {
+    "front": "Khái niệm 'Cảm biến quang (LDR - Quang điện trở)' trong Chương 4: Mạch điện điều khiển và Công nghệ thông minh được định nghĩa như thế nào?",
+    "back": "Là linh kiện điện tử có giá trị điện trở thay đổi theo cường độ ánh sáng chiếu vào: Khi trời sáng điện trở giảm mạnh, khi trời tối điện trở tăng rất cao.\n\n💡 Ví dụ: Đèn đường thông minh tự động bật sáng khi trời tối và tự động tắt khi trời sáng nhờ cảm biến quang LDR.\n🌱 Bản chất: Chuyển hóa tín hiệu quang học của môi trường thành tín hiệu điện để mạch vi xử lý điều khiển cơ cấu chấp hành.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Cấu trúc 3 khối của một mạch điện điều khiển tự động'?",
+    "back": "Khối cảm biến (thu nhận tín hiệu môi trường) -> Khối xử lý tín hiệu (so sánh và khuếch đại dòng điện) -> Khối chấp hành (rơ-le, bóng đèn, còi báo, động cơ).\n\n📝 Ví dụ: Cảm biến hồng ngoại phát hiện người đến -> Mạch kích mở transistor -> Rơ-le bật sáng bóng đèn cầu thang.\n🔑 Ý nghĩa: Nguyên lý tự động hóa khép kín: Cảm nhận -> Quyết định -> Hành động.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Mô tả nguyên lý hoạt động của mạch đèn báo cháy tự động sử dụng cảm biến nhiệt độ.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Khi nhiệt độ phòng tăng cao đột ngột (do có đám cháy), cảm biến nhiệt độ (Thermistor) giảm điện trở nhanh chóng.\nBước 2: Điện áp đưa vào chân điều khiển của transistor tăng lên vượt ngưỡng mở mạch.\nBước 3: Transistor dẫn dòng kích hoạt rơ-le đóng tiếp điểm cấp điện cho còi hú và đèn chớp báo động người dân sơ tán.\n\n👉 Kết luận: Nhiệt độ cao làm giảm điện trở cảm biến -> Kích mở transistor -> Còi báo động hú cảnh báo cháy.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Cắm ngược cực tính dương (+) và âm (-) của linh kiện bán dẫn như diode hoặc LED.?",
+    "back": "❌ Lỗi sai: Cắm ngược cực tính dương (+) và âm (-) của linh kiện bán dẫn như diode hoặc LED.\n\n💡 Nguyên nhân & Khắc phục: Diode và LED chỉ cho dòng điện đi qua theo một chiều duy nhất (từ Anode sang Cathode); cắm ngược cực đèn sẽ không sáng hoặc có thể bị đánh thủng cháy hỏng.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chương 4: Mạch điện điều khiển và Công nghệ thông minh?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 4: Mạch điện điều khiển và Công nghệ thông minh?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 4: Mạch điện điều khiển và Công nghệ thông minh?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 4: Mạch điện điều khiển và Công nghệ thông minh?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "cong-nghe",
+      "ch04",
+      "grade-08",
+      "on-tap"
+    ]
+  }
+]

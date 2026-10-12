@@ -1,0 +1,108 @@
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Phân tích Dữ liệu với Bảng tính và Giải quyết Vấn đề",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Sử dụng các hàm tính toán có điều kiện trong bảng tính điện tử",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Sử dụng các hàm tính toán có điều kiện trong bảng tính điện tử.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hàm tính toán có điều kiện COUNTIF và SUMIF",
+          "definition": "COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range): Tính tổng các ô thỏa mãn tiêu chuẩn.",
+          "example": "=COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp.",
+          "essence": "Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công."
+        },
+        {
+          "term": "Trực quan hóa dữ liệu (Data Visualization)",
+          "definition": "Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu đồ tròn (thể hiện cơ cấu %), biểu đồ đường (thể hiện xu hướng biến thiên theo thời gian).",
+          "example": "Dùng biểu đồ đường để theo dõi diễn biến nhiệt độ trung bình các tháng trong năm tại Hà Nội.",
+          "essence": "Một hình ảnh trực quan truyền tải thông điệp nhanh gấp hàng chục lần một bảng tính dày đặc số liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc chọn loại biểu đồ phù hợp trong Excel",
+          "meaning": "Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Column chart); Xu hướng tăng giảm qua các năm -> Biểu đồ đường (Line chart).",
+          "example": "Biểu diễn cơ cấu 3 khu vực kinh tế dùng biểu đồ tròn tỉ lệ %.",
+          "essence": "Chọn sai loại biểu đồ làm sai lệch nhận thức của người xem về bản chất dữ liệu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết công thức Excel để tính tổng tiền bán hàng của nhân viên có tên 'Nguyễn Nam' trong bảng tính có cột Tên (B2:B20) và cột Thành tiền (D2:D20).",
+          "steps": [
+            "Bước 1: Xác định hàm cần dùng: tính tổng theo điều kiện là hàm SUMIF.",
+            "Bước 2: Vùng điều kiện là cột Tên nhân viên: B2:B20.",
+            "Bước 3: Tiêu chuẩn điều kiện là: 'Nguyễn Nam'.",
+            "Bước 4: Vùng tính tổng là cột Thành tiền: D2:D20.",
+            "Bước 5: Lắp ghép công thức: =SUMIF(B2:B20, 'Nguyễn Nam', D2:D20)."
+          ],
+          "answer": "Công thức là: =SUMIF(B2:B20, \"Nguyễn Nam\", D2:D20)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so sánh: =COUNTIF(A1:A10, >=5).",
+          "why": "Excel sẽ báo lỗi cú pháp; phải viết là =COUNTIF(A1:A10, \">=5\")."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tạo biểu đồ trực quan hóa dữ liệu và tư duy thuật toán",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tạo biểu đồ trực quan hóa dữ liệu và tư duy thuật toán.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hàm tính toán có điều kiện COUNTIF và SUMIF",
+          "definition": "COUNTIF(range, criteria): Đếm số ô thỏa mãn tiêu chuẩn. SUMIF(range, criteria, sum_range): Tính tổng các ô thỏa mãn tiêu chuẩn.",
+          "example": "=COUNTIF(C2:C40, '>=8.0') đếm số học sinh đạt điểm giỏi từ 8.0 trở lên trong danh sách lớp.",
+          "essence": "Tự động hóa trích xuất thông tin định lượng từ tập dữ liệu lớn mà không cần đếm thủ công."
+        },
+        {
+          "term": "Trực quan hóa dữ liệu (Data Visualization)",
+          "definition": "Chuyển đổi số liệu dạng bảng thành biểu đồ trực quan: biểu đồ cột (so sánh số lượng), biểu đồ tròn (thể hiện cơ cấu %), biểu đồ đường (thể hiện xu hướng biến thiên theo thời gian).",
+          "example": "Dùng biểu đồ đường để theo dõi diễn biến nhiệt độ trung bình các tháng trong năm tại Hà Nội.",
+          "essence": "Một hình ảnh trực quan truyền tải thông điệp nhanh gấp hàng chục lần một bảng tính dày đặc số liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc chọn loại biểu đồ phù hợp trong Excel",
+          "meaning": "Cơ cấu thành phần -> Biểu đồ hình tròn (Pie chart); So sánh các đối tượng -> Biểu đồ cột (Column chart); Xu hướng tăng giảm qua các năm -> Biểu đồ đường (Line chart).",
+          "example": "Biểu diễn cơ cấu 3 khu vực kinh tế dùng biểu đồ tròn tỉ lệ %.",
+          "essence": "Chọn sai loại biểu đồ làm sai lệch nhận thức của người xem về bản chất dữ liệu."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết công thức Excel để tính tổng tiền bán hàng của nhân viên có tên 'Nguyễn Nam' trong bảng tính có cột Tên (B2:B20) và cột Thành tiền (D2:D20).",
+          "steps": [
+            "Bước 1: Xác định hàm cần dùng: tính tổng theo điều kiện là hàm SUMIF.",
+            "Bước 2: Vùng điều kiện là cột Tên nhân viên: B2:B20.",
+            "Bước 3: Tiêu chuẩn điều kiện là: 'Nguyễn Nam'.",
+            "Bước 4: Vùng tính tổng là cột Thành tiền: D2:D20.",
+            "Bước 5: Lắp ghép công thức: =SUMIF(B2:B20, 'Nguyễn Nam', D2:D20)."
+          ],
+          "answer": "Công thức là: =SUMIF(B2:B20, \"Nguyễn Nam\", D2:D20)"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đặt dấu ngoặc kép quanh tiêu chuẩn điều kiện dạng chuỗi hoặc biểu thức so sánh: =COUNTIF(A1:A10, >=5).",
+          "why": "Excel sẽ báo lỗi cú pháp; phải viết là =COUNTIF(A1:A10, \">=5\")."
+        }
+      ]
+    }
+  ]
+}

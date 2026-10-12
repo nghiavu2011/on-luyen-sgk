@@ -1,0 +1,87 @@
+[
+  {
+    "front": "Khái niệm 'Biệt thức Delta (Δ)' trong Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète được định nghĩa như thế nào?",
+    "back": "Với phương trình ax^2 + bx + c = 0 (a ≠ 0), biệt thức Delta được tính bởi công thức: Δ = b^2 - 4ac.\n\n💡 Ví dụ: Phương trình x^2 - 5x + 6 = 0 có a = 1, b = -5, c = 6 => Δ = (-5)^2 - 4*1*6 = 25 - 24 = 1 > 0.\n🌱 Bản chất: Dấu của Δ quyết định số nghiệm thực: Δ > 0 phương trình có 2 nghiệm phân biệt; Δ = 0 có nghiệm kép; Δ < 0 vô nghiệm.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Khái niệm 'Hệ thức Viète' trong Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète được định nghĩa như thế nào?",
+    "back": "Nếu phương trình ax^2 + bx + c = 0 (a ≠ 0) có hai nghiệm x1, x2 thì: x1 + x2 = -b/a và x1 * x2 = c/a.\n\n💡 Ví dụ: Phương trình x^2 - 7x + 12 = 0 có S = x1 + x2 = 7 và P = x1 * x2 = 12 => Hai nghiệm là x1 = 3, x2 = 4.\n🌱 Bản chất: Định lí Viète cho phép tính tổng và tích nghiệm mà không cần giải phương trình, đồng thời lập phương trình khi biết hai nghiệm.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc tìm hai số biết tổng S và tích P'?",
+    "back": "Nếu hai số có tổng bằng S và tích bằng P thì hai số đó là nghiệm của phương trình: X^2 - SX + P = 0. Điều kiện để có hai số là S^2 - 4P ≥ 0.\n\n📝 Ví dụ: Tìm hai số có tổng S = 9 và tích P = 20: Phương trình X^2 - 9X + 20 = 0 có hai nghiệm X = 4 và X = 5.\n🔑 Ý nghĩa: Chuyển bài toán tìm hai số về giải phương trình bậc hai một ẩn.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Cho phương trình x^2 - 2(m - 1)x + m^2 - 3 = 0. Tìm m để phương trình có hai nghiệm x1, x2 thỏa mãn: x1^2 + x2^2 = 10.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Tính Δ' = (m - 1)^2 - (m^2 - 3) = m^2 - 2m + 1 - m^2 + 3 = 4 - 2m. Để có hai nghiệm: Δ' ≥ 0 <=> 4 - 2m ≥ 0 <=> m ≤ 2.\nBước 2: Theo Viète: x1 + x2 = 2(m - 1) và x1 * x2 = m^2 - 3.\nBước 3: Biến đổi biểu thức: x1^2 + x2^2 = (x1 + x2)^2 - 2x1*x2 = 4(m - 1)^2 - 2(m^2 - 3) = 4(m^2 - 2m + 1) - 2m^2 + 6 = 2m^2 - 8m + 10.\nBước 4: Cho 2m^2 - 8m + 10 = 10 <=> 2m^2 - 8m = 0 <=> 2m(m - 4) = 0 <=> m = 0 hoặc m = 4.\nBước 5: Đối chiếu điều kiện m ≤ 2, ta nhận m = 0 và loại m = 4.\n\n👉 Kết luận: Giá trị cần tìm là m = 0.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên đối chiếu điều kiện tồn tại hai nghiệm (Δ ≥ 0 hoặc Δ' ≥ 0) sau khi tìm ra giá trị tham số m.?",
+    "back": "❌ Lỗi sai: Quên đối chiếu điều kiện tồn tại hai nghiệm (Δ ≥ 0 hoặc Δ' ≥ 0) sau khi tìm ra giá trị tham số m.\n\n💡 Nguyên nhân & Khắc phục: Nếu Δ < 0 thì phương trình không có nghiệm thực, các hệ thức Viète trở nên vô nghĩa trên tập số thực.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chương 2: Phương trình bậc hai một ẩn và Hệ thức Viète?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "toan",
+      "ch02",
+      "grade-09",
+      "on-tap"
+    ]
+  }
+]

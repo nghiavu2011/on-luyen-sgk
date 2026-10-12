@@ -1,0 +1,86 @@
+[
+  {
+    "front": "Khái niệm 'Địa chỉ ô tính (Cell Address)' trong Chủ đề 3: Bảng tính điện tử (Spreadsheet) được định nghĩa như thế nào?",
+    "back": "Được xác định bởi tên cột kết hợp với tên hàng mà ô đó nằm tại vị trí giao nhau.\n\n💡 Ví dụ: Ô C5 là ô nằm ở giao điểm của cột C và hàng 5.\n🌱 Bản chất: Địa chỉ ô cho phép thiết lập các công thức tự động cập nhật khi dữ liệu thay đổi.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "khai-niem",
+      "dinh-nghia"
+    ]
+  },
+  {
+    "front": "Phát biểu quy tắc / định lí: 'Quy tắc bắt đầu công thức trong bảng tính'?",
+    "back": "Mọi công thức hoặc hàm tính toán trong bảng tính đều bắt buộc phải bắt đầu bằng dấu bằng '='.\n\n📝 Ví dụ: =SUM(A1:A10) hoặc =B2 * C2.\n🔑 Ý nghĩa: Dấu '=' báo hiệu cho phần mềm biết đây là một phép toán cần xử lý chứ không phải văn bản thuần túy.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "quy-tac",
+      "dinh-li"
+    ]
+  },
+  {
+    "front": "Phương pháp giải bài toán: 'Viết công thức tính điểm trung bình môn của học sinh có điểm Toán ở ô C3, Văn ở ô D3, Anh ở ô E3.'?",
+    "back": "Các bước giải chi tiết:\nBước 1: Sử dụng hàm AVERAGE tính trung bình cộng.\nBước 2: Xác định vùng dữ liệu từ C3 đến E3 (kí hiệu là C3:E3).\nBước 3: Viết công thức hoàn chỉnh: =AVERAGE(C3:E3).\n\n👉 Kết luận: =AVERAGE(C3:E3) hoặc =(C3+D3+E3)/3",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "bai-tap",
+      "phuong-phap"
+    ]
+  },
+  {
+    "front": "Bẫy sai lầm cần tránh: Quên dấu '=' ở đầu công thức, khiến phần mềm chỉ hiển thị dòng chữ SUM(A1:A5) mà không tính ra kết quả.?",
+    "back": "❌ Lỗi sai: Quên dấu '=' ở đầu công thức, khiến phần mềm chỉ hiển thị dòng chữ SUM(A1:A5) mà không tính ra kết quả.\n\n💡 Nguyên nhân & Khắc phục: Nếu thiếu dấu bằng, ô tính sẽ coi đó là chuỗi ký tự văn bản thông thường.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "bay-sai",
+      "luu-y"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #5 của Chủ đề 3: Bảng tính điện tử (Spreadsheet)?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #6 của Chủ đề 3: Bảng tính điện tử (Spreadsheet)?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #7 của Chủ đề 3: Bảng tính điện tử (Spreadsheet)?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "on-tap"
+    ]
+  },
+  {
+    "front": "Câu hỏi ôn tập cốt lõi #8 của Chủ đề 3: Bảng tính điện tử (Spreadsheet)?",
+    "back": "Nắm vững các công thức, định lý và ví dụ minh họa SGK để đạt điểm tối đa trong các kì kiểm tra.",
+    "tags": [
+      "tin-hoc",
+      "ch03",
+      "grade-07",
+      "on-tap"
+    ]
+  }
+]

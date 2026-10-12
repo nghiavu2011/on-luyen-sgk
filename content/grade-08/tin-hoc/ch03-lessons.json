@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch03",
+  "title": "Chủ đề 3: Lập trình Thuật toán cơ bản",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm biến, kiểu dữ liệu và biểu thức điều kiện",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm biến, kiểu dữ liệu và biểu thức điều kiện.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến số (Variable)",
+          "definition": "Là một vùng nhớ được đặt tên trong bộ nhớ máy tính dùng để lưu trữ giá trị và giá trị này có thể thay đổi được trong quá trình thực hiện chương trình.",
+          "example": "Trong Python: diem_so = 8.5; sau đó tăng thêm điểm thưởng: diem_so = diem_so + 1.",
+          "essence": "Biến là viên gạch cơ bản nhất để chương trình ghi nhớ và thao tác dữ liệu linh hoạt."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc hoạt động của cấu trúc rẽ nhánh if - else",
+          "meaning": "Nếu điều kiện đúng (True) thì thực hiện khối lệnh 1; ngược lại nếu điều kiện sai (False) thì thực hiện khối lệnh 2.",
+          "example": "if diem >= 8: print('Xếp loại Giỏi') else: print('Cần cố gắng thêm').",
+          "essence": "Giúp chương trình có khả năng tự động đưa ra quyết định thông minh dựa trên dữ liệu đầu vào."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết đoạn mã giải thuật tính tổng các số tự nhiên chẵn từ 1 đến 10.",
+          "steps": [
+            "Bước 1: Khởi tạo biến tổng tong = 0.",
+            "Bước 2: Sử dụng vòng lặp duyệt qua các số chẵn: for i in range(2, 11, 2): tong = tong + i.",
+            "Bước 3: In kết quả ra màn hình: print('Tổng chẵn là:', tong) => Kết quả là 2 + 4 + 6 + 8 + 10 = 30."
+          ],
+          "answer": "Tổng các số chẵn từ 1 đến 10 là 30."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lập trình vòng lặp vô tận (Infinite Loop) do quên câu lệnh tăng biến đếm.",
+          "why": "Nếu điều kiện lặp luôn đúng và không bao giờ thay đổi, chương trình sẽ chạy mãi mãi làm treo máy tính."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Cấu trúc rẽ nhánh if - else và vòng lặp trong lập trình",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Cấu trúc rẽ nhánh if - else và vòng lặp trong lập trình.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Biến số (Variable)",
+          "definition": "Là một vùng nhớ được đặt tên trong bộ nhớ máy tính dùng để lưu trữ giá trị và giá trị này có thể thay đổi được trong quá trình thực hiện chương trình.",
+          "example": "Trong Python: diem_so = 8.5; sau đó tăng thêm điểm thưởng: diem_so = diem_so + 1.",
+          "essence": "Biến là viên gạch cơ bản nhất để chương trình ghi nhớ và thao tác dữ liệu linh hoạt."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc hoạt động của cấu trúc rẽ nhánh if - else",
+          "meaning": "Nếu điều kiện đúng (True) thì thực hiện khối lệnh 1; ngược lại nếu điều kiện sai (False) thì thực hiện khối lệnh 2.",
+          "example": "if diem >= 8: print('Xếp loại Giỏi') else: print('Cần cố gắng thêm').",
+          "essence": "Giúp chương trình có khả năng tự động đưa ra quyết định thông minh dựa trên dữ liệu đầu vào."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết đoạn mã giải thuật tính tổng các số tự nhiên chẵn từ 1 đến 10.",
+          "steps": [
+            "Bước 1: Khởi tạo biến tổng tong = 0.",
+            "Bước 2: Sử dụng vòng lặp duyệt qua các số chẵn: for i in range(2, 11, 2): tong = tong + i.",
+            "Bước 3: In kết quả ra màn hình: print('Tổng chẵn là:', tong) => Kết quả là 2 + 4 + 6 + 8 + 10 = 30."
+          ],
+          "answer": "Tổng các số chẵn từ 1 đến 10 là 30."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lập trình vòng lặp vô tận (Infinite Loop) do quên câu lệnh tăng biến đếm.",
+          "why": "Nếu điều kiện lặp luôn đúng và không bao giờ thay đổi, chương trình sẽ chạy mãi mãi làm treo máy tính."
+        }
+      ]
+    }
+  ]
+}

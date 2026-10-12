@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Mạch điện điều khiển và Công nghệ thông minh",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Cấu trúc mạch điện điều khiển và các linh kiện cảm biến",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Cấu trúc mạch điện điều khiển và các linh kiện cảm biến.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm biến quang (LDR - Quang điện trở)",
+          "definition": "Là linh kiện điện tử có giá trị điện trở thay đổi theo cường độ ánh sáng chiếu vào: Khi trời sáng điện trở giảm mạnh, khi trời tối điện trở tăng rất cao.",
+          "example": "Đèn đường thông minh tự động bật sáng khi trời tối và tự động tắt khi trời sáng nhờ cảm biến quang LDR.",
+          "essence": "Chuyển hóa tín hiệu quang học của môi trường thành tín hiệu điện để mạch vi xử lý điều khiển cơ cấu chấp hành."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cấu trúc 3 khối của một mạch điện điều khiển tự động",
+          "meaning": "Khối cảm biến (thu nhận tín hiệu môi trường) -> Khối xử lý tín hiệu (so sánh và khuếch đại dòng điện) -> Khối chấp hành (rơ-le, bóng đèn, còi báo, động cơ).",
+          "example": "Cảm biến hồng ngoại phát hiện người đến -> Mạch kích mở transistor -> Rơ-le bật sáng bóng đèn cầu thang.",
+          "essence": "Nguyên lý tự động hóa khép kín: Cảm nhận -> Quyết định -> Hành động."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Mô tả nguyên lý hoạt động của mạch đèn báo cháy tự động sử dụng cảm biến nhiệt độ.",
+          "steps": [
+            "Bước 1: Khi nhiệt độ phòng tăng cao đột ngột (do có đám cháy), cảm biến nhiệt độ (Thermistor) giảm điện trở nhanh chóng.",
+            "Bước 2: Điện áp đưa vào chân điều khiển của transistor tăng lên vượt ngưỡng mở mạch.",
+            "Bước 3: Transistor dẫn dòng kích hoạt rơ-le đóng tiếp điểm cấp điện cho còi hú và đèn chớp báo động người dân sơ tán."
+          ],
+          "answer": "Nhiệt độ cao làm giảm điện trở cảm biến -> Kích mở transistor -> Còi báo động hú cảnh báo cháy."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cắm ngược cực tính dương (+) và âm (-) của linh kiện bán dẫn như diode hoặc LED.",
+          "why": "Diode và LED chỉ cho dòng điện đi qua theo một chiều duy nhất (từ Anode sang Cathode); cắm ngược cực đèn sẽ không sáng hoặc có thể bị đánh thủng cháy hỏng."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thực hành lắp ráp mạch điện điều khiển tự động đơn giản",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thực hành lắp ráp mạch điện điều khiển tự động đơn giản.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Cảm biến quang (LDR - Quang điện trở)",
+          "definition": "Là linh kiện điện tử có giá trị điện trở thay đổi theo cường độ ánh sáng chiếu vào: Khi trời sáng điện trở giảm mạnh, khi trời tối điện trở tăng rất cao.",
+          "example": "Đèn đường thông minh tự động bật sáng khi trời tối và tự động tắt khi trời sáng nhờ cảm biến quang LDR.",
+          "essence": "Chuyển hóa tín hiệu quang học của môi trường thành tín hiệu điện để mạch vi xử lý điều khiển cơ cấu chấp hành."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Cấu trúc 3 khối của một mạch điện điều khiển tự động",
+          "meaning": "Khối cảm biến (thu nhận tín hiệu môi trường) -> Khối xử lý tín hiệu (so sánh và khuếch đại dòng điện) -> Khối chấp hành (rơ-le, bóng đèn, còi báo, động cơ).",
+          "example": "Cảm biến hồng ngoại phát hiện người đến -> Mạch kích mở transistor -> Rơ-le bật sáng bóng đèn cầu thang.",
+          "essence": "Nguyên lý tự động hóa khép kín: Cảm nhận -> Quyết định -> Hành động."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Mô tả nguyên lý hoạt động của mạch đèn báo cháy tự động sử dụng cảm biến nhiệt độ.",
+          "steps": [
+            "Bước 1: Khi nhiệt độ phòng tăng cao đột ngột (do có đám cháy), cảm biến nhiệt độ (Thermistor) giảm điện trở nhanh chóng.",
+            "Bước 2: Điện áp đưa vào chân điều khiển của transistor tăng lên vượt ngưỡng mở mạch.",
+            "Bước 3: Transistor dẫn dòng kích hoạt rơ-le đóng tiếp điểm cấp điện cho còi hú và đèn chớp báo động người dân sơ tán."
+          ],
+          "answer": "Nhiệt độ cao làm giảm điện trở cảm biến -> Kích mở transistor -> Còi báo động hú cảnh báo cháy."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Cắm ngược cực tính dương (+) và âm (-) của linh kiện bán dẫn như diode hoặc LED.",
+          "why": "Diode và LED chỉ cho dòng điện đi qua theo một chiều duy nhất (từ Anode sang Cathode); cắm ngược cực đèn sẽ không sáng hoặc có thể bị đánh thủng cháy hỏng."
+        }
+      ]
+    }
+  ]
+}

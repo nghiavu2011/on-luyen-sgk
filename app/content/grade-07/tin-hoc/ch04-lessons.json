@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch04",
+  "title": "Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Thuật toán tìm kiếm tuần tự và tìm kiếm nhị phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Thuật toán tìm kiếm tuần tự và tìm kiếm nhị phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thuật toán tìm kiếm nhị phân",
+          "definition": "Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh giá trị cần tìm với phần tử ở giữa, loại bỏ một nửa danh sách không chứa phần tử sau mỗi bước.",
+          "example": "Tìm từ trong cuốn từ điển dày: Mở trang chính giữa, so sánh chữ cái đầu để quyết định tìm tiếp ở nửa trước hay nửa sau.",
+          "essence": "Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện tiên quyết áp dụng tìm kiếm nhị phân",
+          "meaning": "Thuật toán tìm kiếm nhị phân CHỈ ÁP DỤNG ĐƯỢC khi dãy dữ liệu đầu vào đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần.",
+          "example": "Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xếp lại trước.",
+          "essence": "Quy luật thứ tự là chìa khóa để biết chắc chắn phần tử cần tìm nằm ở nửa bên trái hay nửa bên phải."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho dãy số tăng dần: [2, 5, 8, 12, 16, 23, 38]. Mô tả các bước tìm số 16 bằng thuật toán tìm kiếm nhị phân.",
+          "steps": [
+            "Bước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38].",
+            "Bước 2: Phần tử ở giữa nửa phải là 23. So sánh: 16 < 23 nên bỏ nửa phải [23, 38], xét phần tử bên trái là 16.",
+            "Bước 3: So sánh: 16 = 16. Tìm thấy phần tử tại vị trí 5 sau 2 lần so sánh."
+          ],
+          "answer": "Tìm thấy số 16 tại vị trí thứ 5 sau 2 bước lặp."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xếp thứ tự.",
+          "why": "Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần tử cần tìm."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thuật toán sắp xếp nổi bọt và sắp xếp chọn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thuật toán sắp xếp nổi bọt và sắp xếp chọn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thuật toán tìm kiếm nhị phân",
+          "definition": "Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh giá trị cần tìm với phần tử ở giữa, loại bỏ một nửa danh sách không chứa phần tử sau mỗi bước.",
+          "example": "Tìm từ trong cuốn từ điển dày: Mở trang chính giữa, so sánh chữ cái đầu để quyết định tìm tiếp ở nửa trước hay nửa sau.",
+          "essence": "Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Điều kiện tiên quyết áp dụng tìm kiếm nhị phân",
+          "meaning": "Thuật toán tìm kiếm nhị phân CHỈ ÁP DỤNG ĐƯỢC khi dãy dữ liệu đầu vào đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần.",
+          "example": "Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xếp lại trước.",
+          "essence": "Quy luật thứ tự là chìa khóa để biết chắc chắn phần tử cần tìm nằm ở nửa bên trái hay nửa bên phải."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho dãy số tăng dần: [2, 5, 8, 12, 16, 23, 38]. Mô tả các bước tìm số 16 bằng thuật toán tìm kiếm nhị phân.",
+          "steps": [
+            "Bước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38].",
+            "Bước 2: Phần tử ở giữa nửa phải là 23. So sánh: 16 < 23 nên bỏ nửa phải [23, 38], xét phần tử bên trái là 16.",
+            "Bước 3: So sánh: 16 = 16. Tìm thấy phần tử tại vị trí 5 sau 2 lần so sánh."
+          ],
+          "answer": "Tìm thấy số 16 tại vị trí thứ 5 sau 2 bước lặp."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xếp thứ tự.",
+          "why": "Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần tử cần tìm."
+        }
+      ]
+    }
+  ]
+}

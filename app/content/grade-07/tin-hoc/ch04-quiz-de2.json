@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch04",
+  "examId": "de2",
+  "title": "Tin học Lớp 7 — Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp.",
+  "questions": [
+    {
+      "id": "g07_tin-hoc_ch04_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Điều kiện tiên quyết áp dụng tìm kiếm nhị phân.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Điều kiện tiên quyết áp dụng tìm kiếm nhị phân.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Thuật toán tìm kiếm nhị phân CHỈ ÁP DỤNG ĐƯỢC khi dãy dữ liệu đầu vào đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Thuật toán tìm kiếm nhị phân CHỈ ÁP DỤNG ĐƯỢC khi dãy dữ liệu đầu vào đã được sắp xếp theo thứ tự tăng dần hoặc giảm dần.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Điều kiện tiên quyết áp dụng tìm kiếm nhị phân.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Điều kiện tiên quyết áp dụng tìm kiếm nhị phân."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g07_tin-hoc_ch04_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Cho dãy số tăng dần: [2, 5, 8, 12, 16, 23, 38]. Mô tả các bước tìm số 16 bằng thuật toán t...'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38]..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38]..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Phần tử ở giữa dãy là 12 (vị trí 4). So sánh: 16 > 12 nên bỏ nửa trái [2, 5, 8, 12], xét nửa phải [16, 23, 38]..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chủ đề 4: Thuật toán tìm kiếm và Sắp xếp."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g07_tin-hoc_ch04_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Thuật toán tìm kiếm nhị phân và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Thuật toán tìm kiếm nhị phân được xác định chặt chẽ bởi: Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Thuật toán tìm kiếm nhị phân với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh giá trị cần tìm với phần tử ở giữa, loạ.",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Thuật toán tìm kiếm nhị phân với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Thuật toán tìm kiếm nhị phân với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Là thuật toán tìm kiếm trên danh sách ĐÃ ĐƯỢC SẮP XẾP bằng cách liên tục so sánh giá trị cần tìm với phần tử ở giữa, loạ.",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g07_tin-hoc_ch04_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: 'Tìm từ trong cuốn từ điển dày: Mở trang chính giữa, so sánh chữ cái đầu để quyết...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp...."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Thuật toán tìm kiếm nhị phân.",
+        "socraticPrompt": "Cơ chế nào dẫn đến kết quả này?",
+        "steps": "Giải thích: Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp..",
+        "trap": "Nhầm lẫn nguyên nhân bên trong với hiện tượng bên ngoài."
+      },
+      "socraticPrompt": "Cơ chế nào dẫn đến kết quả này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn nguyên nhân bên trong với hiện tượng bên ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Thuật toán tìm kiếm nhị phân.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Thuật toán tìm kiếm nhị phân.",
+        "Đúng vì: Giải thích: Tốc độ tìm kiếm cực nhanh, giảm một nửa không gian tìm kiếm sau mỗi lần lặp.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "g07_tin-hoc_ch04_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xử lí sai sót",
+      "question": "Nếu một bạn học sinh mắc phải lỗi 'Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xếp thứ tự....', lời khuyên sửa sai hiệu quả nhất là gì?",
+      "options": [
+        "Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần...",
+        "Bỏ qua không cần quan tâm đến lỗi này.",
+        "Học thuộc lòng mà không cần hiểu lí do sai.",
+        "Đổi sang làm dạng bài khác dễ hơn."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phương pháp khắc phục lỗi Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xế.",
+        "socraticPrompt": "Nguyên nhân cốt lõi của lỗi này và cách sửa là gì?",
+        "steps": "Khắc phục: Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần tử cần tìm..",
+        "trap": "Không chịu tìm hiểu nguyên nhân gốc rễ dẫn đến lỗi sai."
+      },
+      "socraticPrompt": "Nguyên nhân cốt lõi của lỗi này và cách sửa là gì?",
+      "distractorReasons": [
+        "Đúng vì: Khắc phục: Khi danh sách chưa có thứ tự, việc bỏ qua một nửa danh sách sẽ dẫn đến nguy cơ bỏ sót phần tử cần tìm..",
+        "Sai do bẫy thường gặp: Không chịu tìm hiểu nguyên nhân gốc rễ dẫn đến lỗi sai.",
+        "Sai vì phương án 'Học thuộc lòng mà không cần hiểu lí do sai.' không phù hợp với quy tắc/định lí: Phương pháp khắc phục lỗi Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xế.",
+        "Sai vì phương án 'Đổi sang làm dạng bài khác dễ hơn.' không phù hợp với quy tắc/định lí: Phương pháp khắc phục lỗi Áp dụng tìm kiếm nhị phân cho một danh sách chưa được sắp xế."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g07_tin-hoc_ch04_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vận dụng công thức",
+      "question": "Khi áp dụng 'Điều kiện tiên quyết áp dụng tìm kiếm nhị phân' vào bài toán thực tiễn, kết quả đạt được thể hiện điều gì?",
+      "options": [
+        "Một sai số không thể kiểm soát được.",
+        "Tính đúng đắn và quy luật nhất quán: Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xế...",
+        "Chỉ có ý nghĩa về mặt hình thức mà không có ứng dụng.",
+        "Kết quả luôn trái ngược với dự đoán ban đầu."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ý nghĩa thực tiễn của Điều kiện tiên quyết áp dụng tìm kiếm nhị phân.",
+        "socraticPrompt": "Kết quả này chứng minh điều gì trong thực tế?",
+        "steps": "Thực nghiệm: Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xếp lại trước..",
+        "trap": "Xem nhẹ tính ứng dụng thực tiễn của quy tắc."
+      },
+      "socraticPrompt": "Kết quả này chứng minh điều gì trong thực tế?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một sai số không thể kiểm soát được.' không phù hợp với quy tắc/định lí: Ý nghĩa thực tiễn của Điều kiện tiên quyết áp dụng tìm kiếm nhị phân.",
+        "Đúng vì: Thực nghiệm: Nếu dãy số lộn xộn (7, 2, 9, 1), bắt buộc phải dùng tìm kiếm tuần tự hoặc sắp xếp lại trước..",
+        "Sai do bẫy thường gặp: Xem nhẹ tính ứng dụng thực tiễn của quy tắc.",
+        "Sai vì phương án 'Kết quả luôn trái ngược với dự đoán ban đầu.' không phù hợp với quy tắc/định lí: Ý nghĩa thực tiễn của Điều kiện tiên quyết áp dụng tìm kiếm nhị phân."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

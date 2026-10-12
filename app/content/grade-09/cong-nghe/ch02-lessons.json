@@ -1,0 +1,108 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Thiết kế và Lắp đặt Mạch điện Gia đình",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Sơ đồ nguyên lí và sơ đồ lắp đặt mạch điện dân dụng",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Sơ đồ nguyên lí và sơ đồ lắp đặt mạch điện dân dụng.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Sơ đồ nguyên lí và Sơ đồ lắp đặt",
+          "definition": "Sơ đồ nguyên lí: Nêu lên mối liên hệ về điện giữa các phần tử mà không phụ thuộc vị trí đặt thực tế. Sơ đồ lắp đặt: Biểu thị rõ vị trí lắp đặt cụ thể của các thiết bị và đường đi của dây dẫn trong phòng.",
+          "example": "Khi thi công đấu dây thực tế trong gia đình, người thợ điện bắt buộc phải dựa vào sơ đồ lắp đặt.",
+          "essence": "Từ sơ đồ nguyên lí tiến hành thiết kế sơ đồ lắp đặt trước khi thi công đường dây."
+        },
+        {
+          "term": "Mạch điện cầu thang (Hai công tắc 3 cực điều khiển 1 đèn)",
+          "definition": "Mạch điện sử dụng hai công tắc ba cực đặt ở tầng 1 và tầng 2 để có thể bật/tắt cùng một bóng đèn cầu thang từ cả hai vị trí khác nhau.",
+          "example": "Bật đèn ở tầng 1 để đi lên tầng 2, sau đó tắt đèn bằng công tắc ở tầng 2 mà không cần quay lại tầng 1.",
+          "essence": "Đem lại sự tiện nghi và tiết kiệm điện năng cho các công trình nhà nhiều tầng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc lắp đặt cầu chì và công tắc an toàn",
+          "meaning": "Cầu chì và công tắc bắt buộc phải được lắp trên dây pha (dây nóng L), tuyệt đối không lắp trên dây trung tính (dây nguội N).",
+          "example": "Khi ngắt công tắc để thay bóng đèn, điện áp pha không còn truyền đến đui đèn, tránh nguy cơ bị điện giật.",
+          "essence": "Quy chuẩn an toàn điện dân dụng sống còn cho thợ điện và người sử dụng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Vẽ quy trình các bước thực hành lắp đặt mạch điện bảng điện gia đình gồm 1 cầu chì, 1 công tắc điều khiển 1 bóng đèn sợi đốt.",
+          "steps": [
+            "Bước 1: Vạch dấu vị trí các thiết bị trên bảng điện và vị trí bóng đèn trên bảng thực hành.",
+            "Bước 2: Khoan lỗ bảng điện để luồn dây và bắt vít cố định thiết bị.",
+            "Bước 3: Nối dây mạch điện: Nối dây nguồn pha (L) qua cầu chì -> vào công tắc -> vào một cực của bóng đèn; Cực còn lại của bóng đèn nối về dây trung tính (N).",
+            "Bước 4: Bắt vít cố định các thiết bị vào bảng điện và lắp bóng đèn vào đui.",
+            "Bước 5: Kiểm tra thông mạch bằng đồng hồ vạn năng trước khi đóng nguồn điện thử nghiệm."
+          ],
+          "answer": "Quy trình 5 bước đảm bảo an toàn tuyệt đối và đúng tiêu chuẩn kĩ thuật điện."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lắp công tắc vào dây nguội (dây trung tính N) thay vì dây nóng (dây pha L).",
+          "why": "Khi tắt công tắc đèn vẫn tắt nhưng đui đèn vẫn mang điện thế 220V nguy hiểm; chạm vào đui đèn sẽ bị giật điện ngay lập tức."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thực hành lắp đặt mạch điện một công tắc điều khiển một đèn và mạch hai công tắc ba cực",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thực hành lắp đặt mạch điện một công tắc điều khiển một đèn và mạch hai công tắc ba cực.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Sơ đồ nguyên lí và Sơ đồ lắp đặt",
+          "definition": "Sơ đồ nguyên lí: Nêu lên mối liên hệ về điện giữa các phần tử mà không phụ thuộc vị trí đặt thực tế. Sơ đồ lắp đặt: Biểu thị rõ vị trí lắp đặt cụ thể của các thiết bị và đường đi của dây dẫn trong phòng.",
+          "example": "Khi thi công đấu dây thực tế trong gia đình, người thợ điện bắt buộc phải dựa vào sơ đồ lắp đặt.",
+          "essence": "Từ sơ đồ nguyên lí tiến hành thiết kế sơ đồ lắp đặt trước khi thi công đường dây."
+        },
+        {
+          "term": "Mạch điện cầu thang (Hai công tắc 3 cực điều khiển 1 đèn)",
+          "definition": "Mạch điện sử dụng hai công tắc ba cực đặt ở tầng 1 và tầng 2 để có thể bật/tắt cùng một bóng đèn cầu thang từ cả hai vị trí khác nhau.",
+          "example": "Bật đèn ở tầng 1 để đi lên tầng 2, sau đó tắt đèn bằng công tắc ở tầng 2 mà không cần quay lại tầng 1.",
+          "essence": "Đem lại sự tiện nghi và tiết kiệm điện năng cho các công trình nhà nhiều tầng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc lắp đặt cầu chì và công tắc an toàn",
+          "meaning": "Cầu chì và công tắc bắt buộc phải được lắp trên dây pha (dây nóng L), tuyệt đối không lắp trên dây trung tính (dây nguội N).",
+          "example": "Khi ngắt công tắc để thay bóng đèn, điện áp pha không còn truyền đến đui đèn, tránh nguy cơ bị điện giật.",
+          "essence": "Quy chuẩn an toàn điện dân dụng sống còn cho thợ điện và người sử dụng."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Vẽ quy trình các bước thực hành lắp đặt mạch điện bảng điện gia đình gồm 1 cầu chì, 1 công tắc điều khiển 1 bóng đèn sợi đốt.",
+          "steps": [
+            "Bước 1: Vạch dấu vị trí các thiết bị trên bảng điện và vị trí bóng đèn trên bảng thực hành.",
+            "Bước 2: Khoan lỗ bảng điện để luồn dây và bắt vít cố định thiết bị.",
+            "Bước 3: Nối dây mạch điện: Nối dây nguồn pha (L) qua cầu chì -> vào công tắc -> vào một cực của bóng đèn; Cực còn lại của bóng đèn nối về dây trung tính (N).",
+            "Bước 4: Bắt vít cố định các thiết bị vào bảng điện và lắp bóng đèn vào đui.",
+            "Bước 5: Kiểm tra thông mạch bằng đồng hồ vạn năng trước khi đóng nguồn điện thử nghiệm."
+          ],
+          "answer": "Quy trình 5 bước đảm bảo an toàn tuyệt đối và đúng tiêu chuẩn kĩ thuật điện."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lắp công tắc vào dây nguội (dây trung tính N) thay vì dây nóng (dây pha L).",
+          "why": "Khi tắt công tắc đèn vẫn tắt nhưng đui đèn vẫn mang điện thế 220V nguy hiểm; chạm vào đui đèn sẽ bị giật điện ngay lập tức."
+        }
+      ]
+    }
+  ]
+}

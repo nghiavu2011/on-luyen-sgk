@@ -1,0 +1,182 @@
+{
+  "chapterId": "ch01",
+  "examId": "de2",
+  "title": "Toán học Lớp 8 — Chương 1: Đa thức nhiều biến: Đề 2 — Kỹ năng & Thông hiểu (25 phút)",
+  "description": "Đề thi đánh giá mức độ thông hiểu, phân tích mối quan hệ và biến đổi trung gian của Chương 1: Đa thức nhiều biến.",
+  "questions": [
+    {
+      "id": "g08_toan_ch01_d2_01",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Hiểu và suy luận",
+      "question": "Dựa trên các quy tắc của Chương 1: Đa thức nhiều biến, nếu một đại lượng thay đổi thì kết quả sẽ biến đổi như thế nào?",
+      "options": [
+        "Biến đổi phù hợp theo đúng mối quan hệ quy định tại: Quy tắc nhân đơn thức với đa thức.",
+        "Không có bất kì sự thay đổi nào xảy ra.",
+        "Luôn tăng lên vô hạn bất kể điều kiện ban đầu.",
+        "Luôn giảm về 0 mà không phụ thuộc vào hệ số."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Mối quan hệ biến thiên trong Quy tắc nhân đơn thức với đa thức.",
+        "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+        "steps": "Suy luận logic: Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức đó với từng hạng tử của đa thức rồi cộng các tích với nhau: A(B.",
+        "trap": "Nghĩ rằng các đại lượng biến thiên độc lập với nhau."
+      },
+      "socraticPrompt": "Hãy phân tích sự liên hệ nhân quả giữa các đại lượng?",
+      "distractorReasons": [
+        "Đúng vì: Suy luận logic: Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức đó với từng hạng tử của đa thức rồi cộng các tích với nhau: A(B.",
+        "Sai do bẫy thường gặp: Nghĩ rằng các đại lượng biến thiên độc lập với nhau.",
+        "Sai vì phương án 'Luôn tăng lên vô hạn bất kể điều kiện ban đầu.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc nhân đơn thức với đa thức.",
+        "Sai vì phương án 'Luôn giảm về 0 mà không phụ thuộc vào hệ số.' không phù hợp với quy tắc/định lí: Mối quan hệ biến thiên trong Quy tắc nhân đơn thức với đa thức."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g08_toan_ch01_d2_02",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Phân tích tình huống",
+      "question": "Xét bài toán: 'Rút gọn biểu thức: P = 3xy(x - 2y) - 2x(y^2 - 3xy)....'. Bước giải đầu tiên cần làm là gì?",
+      "options": [
+        "Bỏ qua giả thiết và chọn ngay kết luận bất kì.",
+        "Bước 1: Khai triển tích thứ nhất: 3xy*x - 3xy*2y = 3x^2y - 6xy^2..",
+        "Áp dụng ngay kết quả cuối cùng mà không biến đổi.",
+        "Thay đổi số liệu đề bài để dễ tính hơn."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Phương pháp tiếp cận bài toán Chương 1: Đa thức nhiều biến.",
+        "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+        "steps": "Trình tự giải quyết: Bước 1: Khai triển tích thứ nhất: 3xy*x - 3xy*2y = 3x^2y - 6xy^2..",
+        "trap": "Vội vàng tính toán mà chưa phân tích đề bài."
+      },
+      "socraticPrompt": "Để giải quyết bài toán này, bước khởi đầu là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Bỏ qua giả thiết và chọn ngay kết luận bất kì.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 1: Đa thức nhiều biến.",
+        "Đúng vì: Trình tự giải quyết: Bước 1: Khai triển tích thứ nhất: 3xy*x - 3xy*2y = 3x^2y - 6xy^2..",
+        "Sai do bẫy thường gặp: Vội vàng tính toán mà chưa phân tích đề bài.",
+        "Sai vì phương án 'Thay đổi số liệu đề bài để dễ tính hơn.' không phù hợp với quy tắc/định lí: Phương pháp tiếp cận bài toán Chương 1: Đa thức nhiều biến."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    },
+    {
+      "id": "g08_toan_ch01_d2_03",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "So sánh đối chiếu",
+      "question": "Điểm khác biệt căn bản giữa Đơn thức thu gọn và các khái niệm liên quan là:",
+      "options": [
+        "Không có bất kì điểm khác biệt nào đáng kể.",
+        "Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.",
+        "Đơn thức thu gọn được xác định chặt chẽ bởi: Là đơn thức chỉ gồm tích của một số với các biến, mà mỗi biến đã được nâng lên l...",
+        "Một bên luôn đúng còn một bên luôn sai trong mọi trường hợp."
+      ],
+      "correct": 2,
+      "breakdown": {
+        "concept": "Phân biệt Đơn thức thu gọn với các khái niệm lân cận.",
+        "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+        "steps": "Đối chiếu: Là đơn thức chỉ gồm tích của một số với các biến, mà mỗi biến đã được nâng lên lũy thừa với số mũ nguyên dương và chỉ vi.",
+        "trap": "Đánh đồng các khái niệm có vẻ tương tự nhau."
+      },
+      "socraticPrompt": "Dấu hiệu đặc trưng riêng biệt của khái niệm này là gì?",
+      "distractorReasons": [
+        "Sai vì phương án 'Không có bất kì điểm khác biệt nào đáng kể.' không phù hợp với quy tắc/định lí: Phân biệt Đơn thức thu gọn với các khái niệm lân cận.",
+        "Sai vì phương án 'Chỉ khác nhau về tên gọi trong các bộ SGK khác nhau.' không phù hợp với quy tắc/định lí: Phân biệt Đơn thức thu gọn với các khái niệm lân cận.",
+        "Đúng vì: Đối chiếu: Là đơn thức chỉ gồm tích của một số với các biến, mà mỗi biến đã được nâng lên lũy thừa với số mũ nguyên dương và chỉ vi.",
+        "Sai do bẫy thường gặp: Đánh đồng các khái niệm có vẻ tương tự nhau."
+      ],
+      "answer": 2,
+      "correctIndex": 2
+    },
+    {
+      "id": "g08_toan_ch01_d2_04",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Giải thích hiện tượng",
+      "question": "Tại sao trong thực tế: '-3x^2y^3z là đơn thức thu gọn; hệ số là -3, phần biến là x^2y^3z, bậc là 2 + 3 +...'?",
+      "options": [
+        "Do sự ngẫu nhiên không có giải thích khoa học.",
+        "Do quy định chủ quan của các nhà khoa học.",
+        "Vì không còn phương án nào khác khả thi hơn.",
+        "Vì điều này phản ánh đúng bản chất: Thu gọn đơn thức giúp việc tính toán và so sánh hạng tử đồng dạng trở nên rõ ràng, ch..."
+      ],
+      "correct": 3,
+      "breakdown": {
+        "concept": "Giải thích cơ chế vận hành của Đơn thức thu gọn.",
+        "socraticPrompt": "Cơ chế nào dẫn đến kết quả này?",
+        "steps": "Giải thích: Thu gọn đơn thức giúp việc tính toán và so sánh hạng tử đồng dạng trở nên rõ ràng, chuẩn xác..",
+        "trap": "Nhầm lẫn nguyên nhân bên trong với hiện tượng bên ngoài."
+      },
+      "socraticPrompt": "Cơ chế nào dẫn đến kết quả này?",
+      "distractorReasons": [
+        "Sai do bẫy thường gặp: Nhầm lẫn nguyên nhân bên trong với hiện tượng bên ngoài.",
+        "Sai vì phương án 'Do quy định chủ quan của các nhà khoa học.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Đơn thức thu gọn.",
+        "Sai vì phương án 'Vì không còn phương án nào khác khả thi hơn.' không phù hợp với quy tắc/định lí: Giải thích cơ chế vận hành của Đơn thức thu gọn.",
+        "Đúng vì: Giải thích: Thu gọn đơn thức giúp việc tính toán và so sánh hạng tử đồng dạng trở nên rõ ràng, chuẩn xác.."
+      ],
+      "answer": 3,
+      "correctIndex": 3
+    },
+    {
+      "id": "g08_toan_ch01_d2_05",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Xử lí sai sót",
+      "question": "Nếu một bạn học sinh mắc phải lỗi 'Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ -2x*(y - 3) = ...', lời khuyên sửa sai hiệu quả nhất là gì?",
+      "options": [
+        "-2x * (-3) phải bằng +6x; quy tắc nhân hai số âm cho ra số dương....",
+        "Bỏ qua không cần quan tâm đến lỗi này.",
+        "Học thuộc lòng mà không cần hiểu lí do sai.",
+        "Đổi sang làm dạng bài khác dễ hơn."
+      ],
+      "correct": 0,
+      "breakdown": {
+        "concept": "Phương pháp khắc phục lỗi Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ.",
+        "socraticPrompt": "Nguyên nhân cốt lõi của lỗi này và cách sửa là gì?",
+        "steps": "Khắc phục: -2x * (-3) phải bằng +6x; quy tắc nhân hai số âm cho ra số dương..",
+        "trap": "Không chịu tìm hiểu nguyên nhân gốc rễ dẫn đến lỗi sai."
+      },
+      "socraticPrompt": "Nguyên nhân cốt lõi của lỗi này và cách sửa là gì?",
+      "distractorReasons": [
+        "Đúng vì: Khắc phục: -2x * (-3) phải bằng +6x; quy tắc nhân hai số âm cho ra số dương..",
+        "Sai do bẫy thường gặp: Không chịu tìm hiểu nguyên nhân gốc rễ dẫn đến lỗi sai.",
+        "Sai vì phương án 'Học thuộc lòng mà không cần hiểu lí do sai.' không phù hợp với quy tắc/định lí: Phương pháp khắc phục lỗi Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ.",
+        "Sai vì phương án 'Đổi sang làm dạng bài khác dễ hơn.' không phù hợp với quy tắc/định lí: Phương pháp khắc phục lỗi Quên đổi dấu khi nhân đơn thức có dấu trừ vào đa thức: ví dụ."
+      ],
+      "answer": 0,
+      "correctIndex": 0
+    },
+    {
+      "id": "g08_toan_ch01_d2_06",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "topic": "Vận dụng công thức",
+      "question": "Khi áp dụng 'Quy tắc nhân đơn thức với đa thức' vào bài toán thực tiễn, kết quả đạt được thể hiện điều gì?",
+      "options": [
+        "Một sai số không thể kiểm soát được.",
+        "Tính đúng đắn và quy luật nhất quán: 2x(x^2 - 3y) = 2x*x^2 - 2x*3y = 2x^3 - 6xy....",
+        "Chỉ có ý nghĩa về mặt hình thức mà không có ứng dụng.",
+        "Kết quả luôn trái ngược với dự đoán ban đầu."
+      ],
+      "correct": 1,
+      "breakdown": {
+        "concept": "Ý nghĩa thực tiễn của Quy tắc nhân đơn thức với đa thức.",
+        "socraticPrompt": "Kết quả này chứng minh điều gì trong thực tế?",
+        "steps": "Thực nghiệm: 2x(x^2 - 3y) = 2x*x^2 - 2x*3y = 2x^3 - 6xy..",
+        "trap": "Xem nhẹ tính ứng dụng thực tiễn của quy tắc."
+      },
+      "socraticPrompt": "Kết quả này chứng minh điều gì trong thực tế?",
+      "distractorReasons": [
+        "Sai vì phương án 'Một sai số không thể kiểm soát được.' không phù hợp với quy tắc/định lí: Ý nghĩa thực tiễn của Quy tắc nhân đơn thức với đa thức.",
+        "Đúng vì: Thực nghiệm: 2x(x^2 - 3y) = 2x*x^2 - 2x*3y = 2x^3 - 6xy..",
+        "Sai do bẫy thường gặp: Xem nhẹ tính ứng dụng thực tiễn của quy tắc.",
+        "Sai vì phương án 'Kết quả luôn trái ngược với dự đoán ban đầu.' không phù hợp với quy tắc/định lí: Ý nghĩa thực tiễn của Quy tắc nhân đơn thức với đa thức."
+      ],
+      "answer": 1,
+      "correctIndex": 1
+    }
+  ]
+}

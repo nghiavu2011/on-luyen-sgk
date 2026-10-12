@@ -1,0 +1,106 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Đường tròn và Góc với đường tròn",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Đường kính, dây cung và dấu hiệu nhận biết tiếp tuyến",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Đường kính, dây cung và dấu hiệu nhận biết tiếp tuyến.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Góc nội tiếp đường tròn",
+          "definition": "Là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó. Số đo góc nội tiếp bằng nửa số đo cung bị chắn.",
+          "example": "Góc nội tiếp chắn nửa đường tròn luôn là góc vuông (90°).",
+          "essence": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung hoặc chắn hai cung bằng nhau thì bằng nhau."
+        },
+        {
+          "term": "Tứ giác nội tiếp",
+          "definition": "Là tứ giác có bốn đỉnh cùng nằm trên một đường tròn. Dấu hiệu: Tứ giác có tổng hai góc đối diện bằng 180°, hoặc hai đỉnh kề cùng nhìn một cạnh dưới hai góc bằng nhau.",
+          "example": "Tứ giác ABCD có góc A + góc C = 180° thì ABCD nội tiếp được trong một đường tròn.",
+          "essence": "Tứ giác nội tiếp là chìa khóa vàng để chứng minh các góc bằng nhau, các điểm thẳng hàng và đường thẳng vuông góc trong hình học phẳng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lí hai tiếp tuyến cắt nhau",
+          "meaning": "Nếu hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó cách đều hai tiếp điểm; tia nối điểm đó với tâm là tia phân giác của góc tạo bởi hai tiếp tuyến.",
+          "example": "Từ điểm M ngoài (O) kẻ tiếp tuyến MA, MB: MA = MB, tia MO là phân giác góc AMB và OM là trung trực đoạn AB.",
+          "essence": "Tính chất đối xứng gương hoàn hảo của hình tròn quanh trục nối từ tâm tới điểm ngoài."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC nhọn nội tiếp đường tròn (O), các đường cao AD, BE cắt nhau tại H. Chứng minh tứ giác CDHE nội tiếp.",
+          "steps": [
+            "Bước 1: Xét tứ giác CDHE có AD là đường cao => AD vuông góc BC => góc HDC = 90°.",
+            "Bước 2: Có BE là đường cao => BE vuông góc AC => góc HEC = 90°.",
+            "Bước 3: Xét tổng hai góc đối diện: góc HDC + góc HEC = 90° + 90° = 180°.",
+            "Bước 4: Suy ra tứ giác CDHE nội tiếp đường tròn đường kính CH."
+          ],
+          "answer": "Tứ giác CDHE nội tiếp đường tròn (đường kính HC)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn dấu hiệu 'hai góc đối bằng nhau' thay vì 'tổng hai góc đối bằng 180°'.",
+          "why": "Hai góc đối bằng nhau là dấu hiệu của hình bình hành, trong khi tứ giác nội tiếp yêu cầu tổng hai góc đối bù nhau (180°)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Góc nội tiếp và định lí tứ giác nội tiếp đường tròn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Góc nội tiếp và định lí tứ giác nội tiếp đường tròn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Góc nội tiếp đường tròn",
+          "definition": "Là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó. Số đo góc nội tiếp bằng nửa số đo cung bị chắn.",
+          "example": "Góc nội tiếp chắn nửa đường tròn luôn là góc vuông (90°).",
+          "essence": "Trong một đường tròn, các góc nội tiếp cùng chắn một cung hoặc chắn hai cung bằng nhau thì bằng nhau."
+        },
+        {
+          "term": "Tứ giác nội tiếp",
+          "definition": "Là tứ giác có bốn đỉnh cùng nằm trên một đường tròn. Dấu hiệu: Tứ giác có tổng hai góc đối diện bằng 180°, hoặc hai đỉnh kề cùng nhìn một cạnh dưới hai góc bằng nhau.",
+          "example": "Tứ giác ABCD có góc A + góc C = 180° thì ABCD nội tiếp được trong một đường tròn.",
+          "essence": "Tứ giác nội tiếp là chìa khóa vàng để chứng minh các góc bằng nhau, các điểm thẳng hàng và đường thẳng vuông góc trong hình học phẳng."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định lí hai tiếp tuyến cắt nhau",
+          "meaning": "Nếu hai tiếp tuyến của một đường tròn cắt nhau tại một điểm thì điểm đó cách đều hai tiếp điểm; tia nối điểm đó với tâm là tia phân giác của góc tạo bởi hai tiếp tuyến.",
+          "example": "Từ điểm M ngoài (O) kẻ tiếp tuyến MA, MB: MA = MB, tia MO là phân giác góc AMB và OM là trung trực đoạn AB.",
+          "essence": "Tính chất đối xứng gương hoàn hảo của hình tròn quanh trục nối từ tâm tới điểm ngoài."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Cho tam giác ABC nhọn nội tiếp đường tròn (O), các đường cao AD, BE cắt nhau tại H. Chứng minh tứ giác CDHE nội tiếp.",
+          "steps": [
+            "Bước 1: Xét tứ giác CDHE có AD là đường cao => AD vuông góc BC => góc HDC = 90°.",
+            "Bước 2: Có BE là đường cao => BE vuông góc AC => góc HEC = 90°.",
+            "Bước 3: Xét tổng hai góc đối diện: góc HDC + góc HEC = 90° + 90° = 180°.",
+            "Bước 4: Suy ra tứ giác CDHE nội tiếp đường tròn đường kính CH."
+          ],
+          "answer": "Tứ giác CDHE nội tiếp đường tròn (đường kính HC)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn dấu hiệu 'hai góc đối bằng nhau' thay vì 'tổng hai góc đối bằng 180°'.",
+          "why": "Hai góc đối bằng nhau là dấu hiệu của hình bình hành, trong khi tứ giác nội tiếp yêu cầu tổng hai góc đối bù nhau (180°)."
+        }
+      ]
+    }
+  ]
+}

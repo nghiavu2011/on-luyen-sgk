@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Hệ thức lượng trong tam giác vuông",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Một số hệ thức về cạnh và đường cao trong tam giác vuông",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Một số hệ thức về cạnh và đường cao trong tam giác vuông.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hệ thức đường cao và hình chiếu",
+          "definition": "Trong tam giác vuông ABC vuông tại A, đường cao AH: h^2 = b'*c' (AH^2 = BH*CH) và a*h = b*c (BC*AH = AB*AC).",
+          "example": "Nếu BH = 4 cm, CH = 9 cm thì AH^2 = 4*9 = 36 => AH = 6 cm.",
+          "essence": "Mối liên hệ giữa các cạnh góc vuông, cạnh huyền và hình chiếu giúp tính toán nhanh khoảng cách mà không cần dựng hình phức tạp."
+        },
+        {
+          "term": "Tỉ số lượng giác góc nhọn",
+          "definition": "sin = đối/huyền, cos = kề/huyền, tan = đối/kề, cot = kề/đối. Góc phụ nhau: sin(α) = cos(90° - α), tan(α) = cot(90° - α).",
+          "example": "Tam giác vuông có góc 30°: sin 30° = 1/2, cos 30° = căn(3)/2, tan 30° = 1/căn(3).",
+          "essence": "Tỉ số lượng giác chỉ phụ thuộc vào độ lớn của góc mà không phụ thuộc vào kích thước của tam giác vuông."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ thức cơ bản giữa sin và cos",
+          "meaning": "Với mọi góc nhọn α, luôn có: sin^2(α) + cos^2(α) = 1 và tan(α) = sin(α) / cos(α).",
+          "example": "Nếu biết sin α = 0,6 thì cos^2 α = 1 - 0,6^2 = 0,64 => cos α = 0,8 và tan α = 0,6/0,8 = 0,75.",
+          "essence": "Hệ quả trực tiếp từ định lí Pythagore trên tam giác vuông chuẩn hóa có cạnh huyền bằng 1."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một cột cờ cao h đổ bóng trên mặt đất dài 12 m. Góc tạo bởi tia nắng mặt trời và mặt đất là 35°. Tính chiều cao của cột cờ (làm tròn đến chữ số thập phân thứ nhất).",
+          "steps": [
+            "Bước 1: Gọi AB là chiều cao cột cờ, BC là chiều dài bóng = 12 m, góc BCA = 35°.",
+            "Bước 2: Trong tam giác vuông ABC tại B: tan(C) = AB / BC => AB = BC * tan(C).",
+            "Bước 3: Thay số: AB = 12 * tan(35°) ≈ 12 * 0,7002 = 8,402 m."
+          ],
+          "answer": "Chiều cao cột cờ khoảng 8,4 mét."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa sin (đối/huyền) và cos (kề/huyền) khi lập tỉ số trong bài toán ứng dụng thực tế.",
+          "why": "Cần vẽ phác tam giác vuông và xác định rõ góc quan sát cùng cạnh đối, cạnh kề tương ứng."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tỉ số lượng giác của góc nhọn và ứng dụng thực tế",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tỉ số lượng giác của góc nhọn và ứng dụng thực tế.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hệ thức đường cao và hình chiếu",
+          "definition": "Trong tam giác vuông ABC vuông tại A, đường cao AH: h^2 = b'*c' (AH^2 = BH*CH) và a*h = b*c (BC*AH = AB*AC).",
+          "example": "Nếu BH = 4 cm, CH = 9 cm thì AH^2 = 4*9 = 36 => AH = 6 cm.",
+          "essence": "Mối liên hệ giữa các cạnh góc vuông, cạnh huyền và hình chiếu giúp tính toán nhanh khoảng cách mà không cần dựng hình phức tạp."
+        },
+        {
+          "term": "Tỉ số lượng giác góc nhọn",
+          "definition": "sin = đối/huyền, cos = kề/huyền, tan = đối/kề, cot = kề/đối. Góc phụ nhau: sin(α) = cos(90° - α), tan(α) = cot(90° - α).",
+          "example": "Tam giác vuông có góc 30°: sin 30° = 1/2, cos 30° = căn(3)/2, tan 30° = 1/căn(3).",
+          "essence": "Tỉ số lượng giác chỉ phụ thuộc vào độ lớn của góc mà không phụ thuộc vào kích thước của tam giác vuông."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Hệ thức cơ bản giữa sin và cos",
+          "meaning": "Với mọi góc nhọn α, luôn có: sin^2(α) + cos^2(α) = 1 và tan(α) = sin(α) / cos(α).",
+          "example": "Nếu biết sin α = 0,6 thì cos^2 α = 1 - 0,6^2 = 0,64 => cos α = 0,8 và tan α = 0,6/0,8 = 0,75.",
+          "essence": "Hệ quả trực tiếp từ định lí Pythagore trên tam giác vuông chuẩn hóa có cạnh huyền bằng 1."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một cột cờ cao h đổ bóng trên mặt đất dài 12 m. Góc tạo bởi tia nắng mặt trời và mặt đất là 35°. Tính chiều cao của cột cờ (làm tròn đến chữ số thập phân thứ nhất).",
+          "steps": [
+            "Bước 1: Gọi AB là chiều cao cột cờ, BC là chiều dài bóng = 12 m, góc BCA = 35°.",
+            "Bước 2: Trong tam giác vuông ABC tại B: tan(C) = AB / BC => AB = BC * tan(C).",
+            "Bước 3: Thay số: AB = 12 * tan(35°) ≈ 12 * 0,7002 = 8,402 m."
+          ],
+          "answer": "Chiều cao cột cờ khoảng 8,4 mét."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn giữa sin (đối/huyền) và cos (kề/huyền) khi lập tỉ số trong bài toán ứng dụng thực tế.",
+          "why": "Cần vẽ phác tam giác vuông và xác định rõ góc quan sát cùng cạnh đối, cạnh kề tương ứng."
+        }
+      ]
+    }
+  ]
+}

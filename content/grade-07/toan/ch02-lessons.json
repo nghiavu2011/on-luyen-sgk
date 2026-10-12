@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Số thực và Căn bậc hai số học",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Số vô tỉ và căn bậc hai số học",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Số vô tỉ và căn bậc hai số học.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Căn bậc hai số học",
+          "definition": "Căn bậc hai số học của số a không âm là số x không âm sao cho x bình phương bằng a. Kí hiệu là căn bậc hai của a.",
+          "example": "Căn bậc hai số học của 25 là 5 (vì 5 >= 0 và 5^2 = 25); căn bậc hai của 0 là 0.",
+          "essence": "Căn bậc hai số học luôn là một giá trị không âm: căn(a) >= 0 với mọi a >= 0."
+        },
+        {
+          "term": "Số vô tỉ",
+          "definition": "Là số viết được dưới dạng số thập phân vô hạn không tuần hoàn. Tập hợp các số vô tỉ kí hiệu là I.",
+          "example": "Số pi = 3,14159265...; căn(2) = 1,41421356... đều là các số vô tỉ.",
+          "essence": "Số vô tỉ lấp đầy những 'khoảng trống' trên trục số mà các số hữu tỉ không thể biểu diễn được."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định nghĩa giá trị tuyệt đối của số thực",
+          "meaning": "|x| = x nếu x >= 0 và |x| = -x nếu x < 0. Giá trị tuyệt đối của mọi số thực luôn không âm.",
+          "example": "|-3,5| = 3,5; |pi| = pi; |0| = 0.",
+          "essence": "Giá trị tuyệt đối biểu thị khoảng cách hình học từ điểm biểu diễn số x đến điểm gốc 0 trên trục số."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tìm x biết: |x - 1,5| = 2,5.",
+          "steps": [
+            "Bước 1: Chia hai trường hợp do tính chất giá trị tuyệt đối: x - 1,5 = 2,5 hoặc x - 1,5 = -2,5.",
+            "Bước 2: Trường hợp 1: x = 2,5 + 1,5 = 4.",
+            "Bước 3: Trường hợp 2: x = -2,5 + 1,5 = -1."
+          ],
+          "answer": "x thuộc {4; -1}"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết căn(a^2) = a mà không xét điều kiện dấu của a.",
+          "why": "Đúng ra căn(a^2) = |a|. Nếu a âm, ví dụ a = -3 thì căn((-3)^2) = căn(9) = 3 = |-3|, không thể bằng -3."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tập hợp số thực và giá trị tuyệt đối",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tập hợp số thực và giá trị tuyệt đối.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Căn bậc hai số học",
+          "definition": "Căn bậc hai số học của số a không âm là số x không âm sao cho x bình phương bằng a. Kí hiệu là căn bậc hai của a.",
+          "example": "Căn bậc hai số học của 25 là 5 (vì 5 >= 0 và 5^2 = 25); căn bậc hai của 0 là 0.",
+          "essence": "Căn bậc hai số học luôn là một giá trị không âm: căn(a) >= 0 với mọi a >= 0."
+        },
+        {
+          "term": "Số vô tỉ",
+          "definition": "Là số viết được dưới dạng số thập phân vô hạn không tuần hoàn. Tập hợp các số vô tỉ kí hiệu là I.",
+          "example": "Số pi = 3,14159265...; căn(2) = 1,41421356... đều là các số vô tỉ.",
+          "essence": "Số vô tỉ lấp đầy những 'khoảng trống' trên trục số mà các số hữu tỉ không thể biểu diễn được."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Định nghĩa giá trị tuyệt đối của số thực",
+          "meaning": "|x| = x nếu x >= 0 và |x| = -x nếu x < 0. Giá trị tuyệt đối của mọi số thực luôn không âm.",
+          "example": "|-3,5| = 3,5; |pi| = pi; |0| = 0.",
+          "essence": "Giá trị tuyệt đối biểu thị khoảng cách hình học từ điểm biểu diễn số x đến điểm gốc 0 trên trục số."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tìm x biết: |x - 1,5| = 2,5.",
+          "steps": [
+            "Bước 1: Chia hai trường hợp do tính chất giá trị tuyệt đối: x - 1,5 = 2,5 hoặc x - 1,5 = -2,5.",
+            "Bước 2: Trường hợp 1: x = 2,5 + 1,5 = 4.",
+            "Bước 3: Trường hợp 2: x = -2,5 + 1,5 = -1."
+          ],
+          "answer": "x thuộc {4; -1}"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Viết căn(a^2) = a mà không xét điều kiện dấu của a.",
+          "why": "Đúng ra căn(a^2) = |a|. Nếu a âm, ví dụ a = -3 thì căn((-3)^2) = căn(9) = 3 = |-3|, không thể bằng -3."
+        }
+      ]
+    }
+  ]
+}

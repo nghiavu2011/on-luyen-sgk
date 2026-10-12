@@ -1,0 +1,159 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Phương trình và Hệ hai phương trình bậc nhất hai ẩn",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hệ hai phương trình bậc nhất hai ẩn",
+          "definition": "Là hệ phương trình có dạng { ax + by = c; a'x + b'y = c' }, trong đó a, b không đồng thời bằng 0 và a', b' không đồng thời bằng 0.",
+          "example": "Hệ { 2x + y = 5; x - y = 1 } có nghiệm duy nhất là cặp số (x; y) = (2; 1).",
+          "essence": "Mỗi phương trình bậc nhất hai ẩn biểu diễn một đường thẳng trên mặt phẳng tọa độ; nghiệm của hệ tương ứng với tọa độ giao điểm của hai đường thẳng."
+        },
+        {
+          "term": "Nghiệm của hệ phương trình",
+          "definition": "Cặp số (x0; y0) đồng thời thỏa mãn cả hai phương trình của hệ được gọi là nghiệm của hệ phương trình.",
+          "example": "Với cặp (2; 1): 2*(2) + 1 = 5 (đúng) và 2 - 1 = 1 (đúng), do đó (2; 1) là nghiệm của hệ.",
+          "essence": "Hệ có thể có nghiệm duy nhất (hai đường cắt nhau), vô nghiệm (hai đường song song), hoặc vô số nghiệm (hai đường trùng nhau)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc giải hệ bằng phương pháp cộng đại số",
+          "meaning": "Nhân hai vế của mỗi phương trình với hệ số thích hợp để hệ số của cùng một ẩn bằng nhau hoặc đối nhau, rồi cộng hoặc trừ từng vế hai phương trình để triệt tiêu ẩn đó.",
+          "example": "Với { 2x + 3y = 7; 2x - y = 3 }, lấy phương trình (1) trừ (2) ta được: 4y = 4 => y = 1, thế vào tìm x = 2.",
+          "essence": "Mục tiêu tối thượng là khử đi một ẩn để quy về phương trình bậc nhất một ẩn dễ giải."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Giải bài toán bằng cách lập hệ phương trình: Hai tổ sản xuất cùng làm thì sau 12 giờ hoàn thành công việc. Nếu tổ 1 làm 4 giờ rồi tổ 2 làm tiếp 10 giờ thì được 7/12 công việc. Hỏi mỗi tổ làm một mình mất bao lâu?",
+          "steps": [
+            "Bước 1: Gọi thời gian tổ 1 làm một mình xong việc là x (giờ), tổ 2 là y (giờ) với điều kiện x, y > 12.",
+            "Bước 2: Trong 1 giờ, tổ 1 làm được 1/x công việc, tổ 2 làm được 1/y công việc. Hai tổ cùng làm 12 giờ xong nên: 1/x + 1/y = 1/12.",
+            "Bước 3: Tổ 1 làm 4 giờ và tổ 2 làm 10 giờ được: 4/x + 10/y = 7/12.",
+            "Bước 4: Đặt u = 1/x, v = 1/y, ta có hệ: { u + v = 1/12; 4u + 10v = 7/12 }. Giải hệ tìm được u = 1/20, v = 1/30.",
+            "Bước 5: Suy ra x = 20 (thỏa mãn) và y = 30 (thỏa mãn)."
+          ],
+          "answer": "Tổ 1 làm một mình hết 20 giờ, tổ 2 làm một mình hết 30 giờ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đặt điều kiện cho ẩn số (x, y > 12) hoặc quên đổi đơn vị thời gian trước khi lập phương trình.",
+          "why": "Bài toán năng suất yêu cầu ẩn số phải dương và công suất một giờ là nghịch đảo của thời gian hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phương pháp thế và phương pháp cộng đại số",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phương pháp thế và phương pháp cộng đại số.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hệ hai phương trình bậc nhất hai ẩn",
+          "definition": "Là hệ phương trình có dạng { ax + by = c; a'x + b'y = c' }, trong đó a, b không đồng thời bằng 0 và a', b' không đồng thời bằng 0.",
+          "example": "Hệ { 2x + y = 5; x - y = 1 } có nghiệm duy nhất là cặp số (x; y) = (2; 1).",
+          "essence": "Mỗi phương trình bậc nhất hai ẩn biểu diễn một đường thẳng trên mặt phẳng tọa độ; nghiệm của hệ tương ứng với tọa độ giao điểm của hai đường thẳng."
+        },
+        {
+          "term": "Nghiệm của hệ phương trình",
+          "definition": "Cặp số (x0; y0) đồng thời thỏa mãn cả hai phương trình của hệ được gọi là nghiệm của hệ phương trình.",
+          "example": "Với cặp (2; 1): 2*(2) + 1 = 5 (đúng) và 2 - 1 = 1 (đúng), do đó (2; 1) là nghiệm của hệ.",
+          "essence": "Hệ có thể có nghiệm duy nhất (hai đường cắt nhau), vô nghiệm (hai đường song song), hoặc vô số nghiệm (hai đường trùng nhau)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc giải hệ bằng phương pháp cộng đại số",
+          "meaning": "Nhân hai vế của mỗi phương trình với hệ số thích hợp để hệ số của cùng một ẩn bằng nhau hoặc đối nhau, rồi cộng hoặc trừ từng vế hai phương trình để triệt tiêu ẩn đó.",
+          "example": "Với { 2x + 3y = 7; 2x - y = 3 }, lấy phương trình (1) trừ (2) ta được: 4y = 4 => y = 1, thế vào tìm x = 2.",
+          "essence": "Mục tiêu tối thượng là khử đi một ẩn để quy về phương trình bậc nhất một ẩn dễ giải."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Giải bài toán bằng cách lập hệ phương trình: Hai tổ sản xuất cùng làm thì sau 12 giờ hoàn thành công việc. Nếu tổ 1 làm 4 giờ rồi tổ 2 làm tiếp 10 giờ thì được 7/12 công việc. Hỏi mỗi tổ làm một mình mất bao lâu?",
+          "steps": [
+            "Bước 1: Gọi thời gian tổ 1 làm một mình xong việc là x (giờ), tổ 2 là y (giờ) với điều kiện x, y > 12.",
+            "Bước 2: Trong 1 giờ, tổ 1 làm được 1/x công việc, tổ 2 làm được 1/y công việc. Hai tổ cùng làm 12 giờ xong nên: 1/x + 1/y = 1/12.",
+            "Bước 3: Tổ 1 làm 4 giờ và tổ 2 làm 10 giờ được: 4/x + 10/y = 7/12.",
+            "Bước 4: Đặt u = 1/x, v = 1/y, ta có hệ: { u + v = 1/12; 4u + 10v = 7/12 }. Giải hệ tìm được u = 1/20, v = 1/30.",
+            "Bước 5: Suy ra x = 20 (thỏa mãn) và y = 30 (thỏa mãn)."
+          ],
+          "answer": "Tổ 1 làm một mình hết 20 giờ, tổ 2 làm một mình hết 30 giờ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đặt điều kiện cho ẩn số (x, y > 12) hoặc quên đổi đơn vị thời gian trước khi lập phương trình.",
+          "why": "Bài toán năng suất yêu cầu ẩn số phải dương và công suất một giờ là nghịch đảo của thời gian hoàn thành."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Giải bài toán bằng cách lập hệ phương trình",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Giải bài toán bằng cách lập hệ phương trình.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Hệ hai phương trình bậc nhất hai ẩn",
+          "definition": "Là hệ phương trình có dạng { ax + by = c; a'x + b'y = c' }, trong đó a, b không đồng thời bằng 0 và a', b' không đồng thời bằng 0.",
+          "example": "Hệ { 2x + y = 5; x - y = 1 } có nghiệm duy nhất là cặp số (x; y) = (2; 1).",
+          "essence": "Mỗi phương trình bậc nhất hai ẩn biểu diễn một đường thẳng trên mặt phẳng tọa độ; nghiệm của hệ tương ứng với tọa độ giao điểm của hai đường thẳng."
+        },
+        {
+          "term": "Nghiệm của hệ phương trình",
+          "definition": "Cặp số (x0; y0) đồng thời thỏa mãn cả hai phương trình của hệ được gọi là nghiệm của hệ phương trình.",
+          "example": "Với cặp (2; 1): 2*(2) + 1 = 5 (đúng) và 2 - 1 = 1 (đúng), do đó (2; 1) là nghiệm của hệ.",
+          "essence": "Hệ có thể có nghiệm duy nhất (hai đường cắt nhau), vô nghiệm (hai đường song song), hoặc vô số nghiệm (hai đường trùng nhau)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc giải hệ bằng phương pháp cộng đại số",
+          "meaning": "Nhân hai vế của mỗi phương trình với hệ số thích hợp để hệ số của cùng một ẩn bằng nhau hoặc đối nhau, rồi cộng hoặc trừ từng vế hai phương trình để triệt tiêu ẩn đó.",
+          "example": "Với { 2x + 3y = 7; 2x - y = 3 }, lấy phương trình (1) trừ (2) ta được: 4y = 4 => y = 1, thế vào tìm x = 2.",
+          "essence": "Mục tiêu tối thượng là khử đi một ẩn để quy về phương trình bậc nhất một ẩn dễ giải."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Giải bài toán bằng cách lập hệ phương trình: Hai tổ sản xuất cùng làm thì sau 12 giờ hoàn thành công việc. Nếu tổ 1 làm 4 giờ rồi tổ 2 làm tiếp 10 giờ thì được 7/12 công việc. Hỏi mỗi tổ làm một mình mất bao lâu?",
+          "steps": [
+            "Bước 1: Gọi thời gian tổ 1 làm một mình xong việc là x (giờ), tổ 2 là y (giờ) với điều kiện x, y > 12.",
+            "Bước 2: Trong 1 giờ, tổ 1 làm được 1/x công việc, tổ 2 làm được 1/y công việc. Hai tổ cùng làm 12 giờ xong nên: 1/x + 1/y = 1/12.",
+            "Bước 3: Tổ 1 làm 4 giờ và tổ 2 làm 10 giờ được: 4/x + 10/y = 7/12.",
+            "Bước 4: Đặt u = 1/x, v = 1/y, ta có hệ: { u + v = 1/12; 4u + 10v = 7/12 }. Giải hệ tìm được u = 1/20, v = 1/30.",
+            "Bước 5: Suy ra x = 20 (thỏa mãn) và y = 30 (thỏa mãn)."
+          ],
+          "answer": "Tổ 1 làm một mình hết 20 giờ, tổ 2 làm một mình hết 30 giờ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên đặt điều kiện cho ẩn số (x, y > 12) hoặc quên đổi đơn vị thời gian trước khi lập phương trình.",
+          "why": "Bài toán năng suất yêu cầu ẩn số phải dương và công suất một giờ là nghịch đảo của thời gian hoàn thành."
+        }
+      ]
+    }
+  ]
+}
