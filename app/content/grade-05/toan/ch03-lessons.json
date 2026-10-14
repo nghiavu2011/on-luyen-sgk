@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch03",
+  "title": "Chương 3: Tỉ số phần trăm và Ứng dụng",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Khái niệm tỉ số phần trăm và cách tính",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Khái niệm tỉ số phần trăm và cách tính.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tỉ số phần trăm (%)",
+          "definition": "Là tỉ số giữa hai số được viết dưới dạng phân số có mẫu số là 100 và dùng kí hiệu % thay cho /100.",
+          "example": "3/5 = 60/100 = 60%; 0,25 = 25%.",
+          "essence": "Tỉ số phần trăm cho biết một bộ phận chiếm bao nhiêu phần nếu toàn thể được chia đều thành 100 phần bằng nhau."
+        },
+        {
+          "term": "Ba dạng toán cơ bản về tỉ số phần trăm",
+          "definition": "Dạng 1: Tìm tỉ số phần trăm của a và b (lấy a chia b rồi nhân 100%). Dạng 2: Tìm a% của số B (lấy B nhân a rồi chia 100). Dạng 3: Tìm một số khi biết a% của nó là B (lấy B chia a rồi nhân 100).",
+          "example": "Tìm 20% của 80 kg: 80 * 20 : 100 = 16 kg.",
+          "essence": "Phân biệt rõ bài toán 'tìm phần trăm của một số' hay 'tìm số khi biết phần trăm'."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc tìm tỉ số phần trăm của hai số a và b",
+          "meaning": "Bước 1: Tìm thương của a và b. Bước 2: Nhân thương đó với 100 và viết thêm kí hiệu % vào bên phải kết quả.",
+          "example": "Lớp 5A có 40 học sinh, trong đó có 24 học sinh nữ. Tỉ số phần trăm học sinh nữ là: 24 : 40 = 0,6 = 60%.",
+          "essence": "Lấy thương số thập phân nhân nhẩm 100 rồi đính kèm kí hiệu %."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một chiếc cặp học sinh có giá niêm yết là 250.000 đồng. Nhân dịp năm học mới, cửa hàng giảm giá 15%. Hỏi người mua phải trả bao nhiêu tiền?",
+          "steps": [
+            "Bước 1: Tính số tiền được giảm giá: 250.000 * 15 : 100 = 37.500 (đồng).",
+            "Bước 2: Tính số tiền thực tế phải trả: 250.000 - 37.500 = 212.500 (đồng).",
+            "Bước 3 (Cách 2): Giá sau giảm chiếm: 100% - 15% = 85%. Tiền phải trả: 250.000 * 85 : 100 = 212.500 (đồng)."
+          ],
+          "answer": "Người mua phải trả 212.500 đồng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên không chia cho 100 khi tính '15% của 250.000', mà lấy luôn 250.000 * 15 ra con số khổng lồ.",
+          "why": "Kí hiệu % có nghĩa là chia cho 100 (15% = 15/100 = 0,15)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Giải toán về tỉ số phần trăm (3 dạng toán cơ bản)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Giải toán về tỉ số phần trăm (3 dạng toán cơ bản).",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Tỉ số phần trăm (%)",
+          "definition": "Là tỉ số giữa hai số được viết dưới dạng phân số có mẫu số là 100 và dùng kí hiệu % thay cho /100.",
+          "example": "3/5 = 60/100 = 60%; 0,25 = 25%.",
+          "essence": "Tỉ số phần trăm cho biết một bộ phận chiếm bao nhiêu phần nếu toàn thể được chia đều thành 100 phần bằng nhau."
+        },
+        {
+          "term": "Ba dạng toán cơ bản về tỉ số phần trăm",
+          "definition": "Dạng 1: Tìm tỉ số phần trăm của a và b (lấy a chia b rồi nhân 100%). Dạng 2: Tìm a% của số B (lấy B nhân a rồi chia 100). Dạng 3: Tìm một số khi biết a% của nó là B (lấy B chia a rồi nhân 100).",
+          "example": "Tìm 20% của 80 kg: 80 * 20 : 100 = 16 kg.",
+          "essence": "Phân biệt rõ bài toán 'tìm phần trăm của một số' hay 'tìm số khi biết phần trăm'."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc tìm tỉ số phần trăm của hai số a và b",
+          "meaning": "Bước 1: Tìm thương của a và b. Bước 2: Nhân thương đó với 100 và viết thêm kí hiệu % vào bên phải kết quả.",
+          "example": "Lớp 5A có 40 học sinh, trong đó có 24 học sinh nữ. Tỉ số phần trăm học sinh nữ là: 24 : 40 = 0,6 = 60%.",
+          "essence": "Lấy thương số thập phân nhân nhẩm 100 rồi đính kèm kí hiệu %."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một chiếc cặp học sinh có giá niêm yết là 250.000 đồng. Nhân dịp năm học mới, cửa hàng giảm giá 15%. Hỏi người mua phải trả bao nhiêu tiền?",
+          "steps": [
+            "Bước 1: Tính số tiền được giảm giá: 250.000 * 15 : 100 = 37.500 (đồng).",
+            "Bước 2: Tính số tiền thực tế phải trả: 250.000 - 37.500 = 212.500 (đồng).",
+            "Bước 3 (Cách 2): Giá sau giảm chiếm: 100% - 15% = 85%. Tiền phải trả: 250.000 * 85 : 100 = 212.500 (đồng)."
+          ],
+          "answer": "Người mua phải trả 212.500 đồng."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Quên không chia cho 100 khi tính '15% của 250.000', mà lấy luôn 250.000 * 15 ra con số khổng lồ.",
+          "why": "Kí hiệu % có nghĩa là chia cho 100 (15% = 15/100 = 0,15)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch05",
+  "title": "Chương 5: Hình học không gian: Hình hộp chữ nhật và Hình lập phương",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật & hình lập phương",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật & hình lập phương.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thể tích hình hộp chữ nhật và hình lập phương",
+          "definition": "Hình hộp chữ nhật: V = a * b * c (dài nhân rộng nhân cao). Hình lập phương: V = a * a * a (cạnh nhân cạnh nhân cạnh).",
+          "example": "Bể cá dài 80 cm, rộng 50 cm, cao 40 cm có thể tích V = 80 * 50 * 40 = 160.000 cm^3 = 160 dm^3 = 160 lít.",
+          "essence": "Thể tích đo lượng không gian mà vật thể chiếm chỗ; 1 dm^3 chứa đúng 1 lít nước."
+        },
+        {
+          "term": "Mối liên hệ giữa các đơn vị đo thể tích",
+          "definition": "Mỗi đơn vị đo thể tích gấp 1000 lần đơn vị bé hơn liền sau: 1 m^3 = 1000 dm^3 = 1.000.000 cm^3. Đặc biệt: 1 dm^3 = 1 lít.",
+          "example": "0,5 m^3 = 500 dm^3 = 500 lít nước.",
+          "essence": "Khác với đơn vị diện tích (gấp 100 lần), đơn vị thể tích trong hệ thập phân gấp kém nhau 1000 lần (3 chữ số 0)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức diện tích xung quanh hình hộp chữ nhật",
+          "meaning": "Diện tích xung quanh bằng chu vi đáy nhân với chiều cao (cùng một đơn vị đo): Sxq = (a + b) * 2 * c.",
+          "example": "Thùng cát tông dài 6 dm, rộng 4 dm, cao 5 dm có Sxq = (6 + 4) * 2 * 5 = 100 dm^2.",
+          "essence": "Mở bốn mặt bên của hình hộp chữ nhật ra ta được một hình chữ nhật lớn có chiều dài là chu vi đáy."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một bể nước dạng hình hộp chữ nhật có kích thước bên trong lòng bể: chiều dài 2 m, chiều rộng 1,5 m, chiều cao 1,2 m. Hiện bể đang chứa 60% thể tích nước. Hỏi trong bể có bao nhiêu lít nước?",
+          "steps": [
+            "Bước 1: Tính thể tích toàn phần của bể: V = 2 * 1,5 * 1,2 = 3,6 (m^3).",
+            "Bước 2: Đổi sang đơn vị lít (dm^3): 3,6 m^3 = 3.600 dm^3 = 3.600 lít.",
+            "Bước 3: Lượng nước thực tế đang có trong bể: 3.600 * 60 : 100 = 2.160 (lít)."
+          ],
+          "answer": "Trong bể có 2.160 lít nước."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Đổi 1 m^3 = 100 dm^3 thay vì 1000 dm^3.",
+          "why": "Vì 1 m = 10 dm nên 1 m^3 = 10 * 10 * 10 = 1000 dm^3."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Thể tích và các đơn vị đo thể tích (xăng-ti-mét khối, đề-xi-mét khối, mét khối)",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Thể tích và các đơn vị đo thể tích (xăng-ti-mét khối, đề-xi-mét khối, mét khối).",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thể tích hình hộp chữ nhật và hình lập phương",
+          "definition": "Hình hộp chữ nhật: V = a * b * c (dài nhân rộng nhân cao). Hình lập phương: V = a * a * a (cạnh nhân cạnh nhân cạnh).",
+          "example": "Bể cá dài 80 cm, rộng 50 cm, cao 40 cm có thể tích V = 80 * 50 * 40 = 160.000 cm^3 = 160 dm^3 = 160 lít.",
+          "essence": "Thể tích đo lượng không gian mà vật thể chiếm chỗ; 1 dm^3 chứa đúng 1 lít nước."
+        },
+        {
+          "term": "Mối liên hệ giữa các đơn vị đo thể tích",
+          "definition": "Mỗi đơn vị đo thể tích gấp 1000 lần đơn vị bé hơn liền sau: 1 m^3 = 1000 dm^3 = 1.000.000 cm^3. Đặc biệt: 1 dm^3 = 1 lít.",
+          "example": "0,5 m^3 = 500 dm^3 = 500 lít nước.",
+          "essence": "Khác với đơn vị diện tích (gấp 100 lần), đơn vị thể tích trong hệ thập phân gấp kém nhau 1000 lần (3 chữ số 0)."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức diện tích xung quanh hình hộp chữ nhật",
+          "meaning": "Diện tích xung quanh bằng chu vi đáy nhân với chiều cao (cùng một đơn vị đo): Sxq = (a + b) * 2 * c.",
+          "example": "Thùng cát tông dài 6 dm, rộng 4 dm, cao 5 dm có Sxq = (6 + 4) * 2 * 5 = 100 dm^2.",
+          "essence": "Mở bốn mặt bên của hình hộp chữ nhật ra ta được một hình chữ nhật lớn có chiều dài là chu vi đáy."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một bể nước dạng hình hộp chữ nhật có kích thước bên trong lòng bể: chiều dài 2 m, chiều rộng 1,5 m, chiều cao 1,2 m. Hiện bể đang chứa 60% thể tích nước. Hỏi trong bể có bao nhiêu lít nước?",
+          "steps": [
+            "Bước 1: Tính thể tích toàn phần của bể: V = 2 * 1,5 * 1,2 = 3,6 (m^3).",
+            "Bước 2: Đổi sang đơn vị lít (dm^3): 3,6 m^3 = 3.600 dm^3 = 3.600 lít.",
+            "Bước 3: Lượng nước thực tế đang có trong bể: 3.600 * 60 : 100 = 2.160 (lít)."
+          ],
+          "answer": "Trong bể có 2.160 lít nước."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Đổi 1 m^3 = 100 dm^3 thay vì 1000 dm^3.",
+          "why": "Vì 1 m = 10 dm nên 1 m^3 = 10 * 10 * 10 = 1000 dm^3."
+        }
+      ]
+    }
+  ]
+}

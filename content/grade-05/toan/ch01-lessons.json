@@ -1,0 +1,153 @@
+{
+  "chapterId": "ch01",
+  "title": "Chương 1: Phân số và Số thập phân",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Ôn tập phân số và phân số thập phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Ôn tập phân số và phân số thập phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Số thập phân",
+          "definition": "Mỗi số thập phân gồm hai phần: phần nguyên và phần thập phân, chúng được phân cách nhau bởi dấu phẩy. Những chữ số ở bên trái dấu phẩy thuộc về phần nguyên, những chữ số ở bên phải dấu phẩy thuộc về phần thập phân.",
+          "example": "Trong số 35,48: phần nguyên là 35 (gồm 3 chục và 5 đơn vị), phần thập phân là 48 (gồm 4 phần mười và 8 phần trăm).",
+          "essence": "Số thập phân là một cách viết gọn gàng của phân số thập phân giúp việc đo lường và tính toán trong đời sống tiện lợi hơn rất nhiều."
+        },
+        {
+          "term": "Phân số thập phân",
+          "definition": "Là các phân số có mẫu số là 10; 100; 1000; ...",
+          "example": "3/10 = 0,3; 15/100 = 0,15; 275/1000 = 0,275.",
+          "essence": "Mọi phân số có mẫu số chia hết cho 2 hoặc 5 đều có thể quy đồng về phân số thập phân."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh hai số thập phân",
+          "meaning": "So sánh phần nguyên trước: số nào có phần nguyên lớn hơn thì số đó lớn hơn. Nếu phần nguyên bằng nhau, so sánh lần lượt các hàng ở phần thập phân từ trái sang phải: hàng phần mười, hàng phần trăm, hàng phần nghìn,...",
+          "example": "So sánh 8,5 và 8,49: phần nguyên đều là 8; so sánh hàng phần mười có 5 > 4 nên 8,5 > 8,49.",
+          "essence": "Tuyệt đối không đếm số lượng chữ số ở phần thập phân để kết luận số nào lớn hơn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết số thích hợp vào chỗ chấm: 3 m 45 cm = ... m và so sánh 4,75 với 4,705.",
+          "steps": [
+            "Bước 1: Đổi 45 cm = 45/100 m = 0,45 m.",
+            "Bước 2: Vậy 3 m 45 cm = 3 + 0,45 = 3,45 m.",
+            "Bước 3: So sánh 4,75 và 4,705: phần nguyên đều là 4; hàng phần mười đều là 7; hàng phần trăm có 5 > 0, do đó 4,75 > 4,705."
+          ],
+          "answer": "3 m 45 cm = 3,45 m và 4,75 > 4,705"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng 8,49 lớn hơn 8,5 vì số 49 trông 'dài hơn' và 'nhiều hơn' số 5.",
+          "why": "Ở phần thập phân, 8,5 chính là 8,50; so sánh 50 phần trăm với 49 phần trăm thì rõ ràng 8,50 lớn hơn 8,49."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Khái niệm số thập phân và hàng của số thập phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Khái niệm số thập phân và hàng của số thập phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Số thập phân",
+          "definition": "Mỗi số thập phân gồm hai phần: phần nguyên và phần thập phân, chúng được phân cách nhau bởi dấu phẩy. Những chữ số ở bên trái dấu phẩy thuộc về phần nguyên, những chữ số ở bên phải dấu phẩy thuộc về phần thập phân.",
+          "example": "Trong số 35,48: phần nguyên là 35 (gồm 3 chục và 5 đơn vị), phần thập phân là 48 (gồm 4 phần mười và 8 phần trăm).",
+          "essence": "Số thập phân là một cách viết gọn gàng của phân số thập phân giúp việc đo lường và tính toán trong đời sống tiện lợi hơn rất nhiều."
+        },
+        {
+          "term": "Phân số thập phân",
+          "definition": "Là các phân số có mẫu số là 10; 100; 1000; ...",
+          "example": "3/10 = 0,3; 15/100 = 0,15; 275/1000 = 0,275.",
+          "essence": "Mọi phân số có mẫu số chia hết cho 2 hoặc 5 đều có thể quy đồng về phân số thập phân."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh hai số thập phân",
+          "meaning": "So sánh phần nguyên trước: số nào có phần nguyên lớn hơn thì số đó lớn hơn. Nếu phần nguyên bằng nhau, so sánh lần lượt các hàng ở phần thập phân từ trái sang phải: hàng phần mười, hàng phần trăm, hàng phần nghìn,...",
+          "example": "So sánh 8,5 và 8,49: phần nguyên đều là 8; so sánh hàng phần mười có 5 > 4 nên 8,5 > 8,49.",
+          "essence": "Tuyệt đối không đếm số lượng chữ số ở phần thập phân để kết luận số nào lớn hơn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết số thích hợp vào chỗ chấm: 3 m 45 cm = ... m và so sánh 4,75 với 4,705.",
+          "steps": [
+            "Bước 1: Đổi 45 cm = 45/100 m = 0,45 m.",
+            "Bước 2: Vậy 3 m 45 cm = 3 + 0,45 = 3,45 m.",
+            "Bước 3: So sánh 4,75 và 4,705: phần nguyên đều là 4; hàng phần mười đều là 7; hàng phần trăm có 5 > 0, do đó 4,75 > 4,705."
+          ],
+          "answer": "3 m 45 cm = 3,45 m và 4,75 > 4,705"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng 8,49 lớn hơn 8,5 vì số 49 trông 'dài hơn' và 'nhiều hơn' số 5.",
+          "why": "Ở phần thập phân, 8,5 chính là 8,50; so sánh 50 phần trăm với 49 phần trăm thì rõ ràng 8,50 lớn hơn 8,49."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: So sánh và viết các số thập phân theo thứ tự",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: So sánh và viết các số thập phân theo thứ tự.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Số thập phân",
+          "definition": "Mỗi số thập phân gồm hai phần: phần nguyên và phần thập phân, chúng được phân cách nhau bởi dấu phẩy. Những chữ số ở bên trái dấu phẩy thuộc về phần nguyên, những chữ số ở bên phải dấu phẩy thuộc về phần thập phân.",
+          "example": "Trong số 35,48: phần nguyên là 35 (gồm 3 chục và 5 đơn vị), phần thập phân là 48 (gồm 4 phần mười và 8 phần trăm).",
+          "essence": "Số thập phân là một cách viết gọn gàng của phân số thập phân giúp việc đo lường và tính toán trong đời sống tiện lợi hơn rất nhiều."
+        },
+        {
+          "term": "Phân số thập phân",
+          "definition": "Là các phân số có mẫu số là 10; 100; 1000; ...",
+          "example": "3/10 = 0,3; 15/100 = 0,15; 275/1000 = 0,275.",
+          "essence": "Mọi phân số có mẫu số chia hết cho 2 hoặc 5 đều có thể quy đồng về phân số thập phân."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc so sánh hai số thập phân",
+          "meaning": "So sánh phần nguyên trước: số nào có phần nguyên lớn hơn thì số đó lớn hơn. Nếu phần nguyên bằng nhau, so sánh lần lượt các hàng ở phần thập phân từ trái sang phải: hàng phần mười, hàng phần trăm, hàng phần nghìn,...",
+          "example": "So sánh 8,5 và 8,49: phần nguyên đều là 8; so sánh hàng phần mười có 5 > 4 nên 8,5 > 8,49.",
+          "essence": "Tuyệt đối không đếm số lượng chữ số ở phần thập phân để kết luận số nào lớn hơn."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Viết số thích hợp vào chỗ chấm: 3 m 45 cm = ... m và so sánh 4,75 với 4,705.",
+          "steps": [
+            "Bước 1: Đổi 45 cm = 45/100 m = 0,45 m.",
+            "Bước 2: Vậy 3 m 45 cm = 3 + 0,45 = 3,45 m.",
+            "Bước 3: So sánh 4,75 và 4,705: phần nguyên đều là 4; hàng phần mười đều là 7; hàng phần trăm có 5 > 0, do đó 4,75 > 4,705."
+          ],
+          "answer": "3 m 45 cm = 3,45 m và 4,75 > 4,705"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nghĩ rằng 8,49 lớn hơn 8,5 vì số 49 trông 'dài hơn' và 'nhiều hơn' số 5.",
+          "why": "Ở phần thập phân, 8,5 chính là 8,50; so sánh 50 phần trăm với 49 phần trăm thì rõ ràng 8,50 lớn hơn 8,49."
+        }
+      ]
+    }
+  ]
+}

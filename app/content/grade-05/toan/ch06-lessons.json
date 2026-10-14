@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch06",
+  "title": "Chương 6: Số đo thời gian và Toán chuyển động đều",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Cộng, trừ, nhân, chia số đo thời gian",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Cộng, trừ, nhân, chia số đo thời gian.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Vận tốc trong chuyển động đều",
+          "definition": "Vận tốc là quãng đường đi được trong một đơn vị thời gian: v = s : t (đơn vị thông dụng: km/giờ hoặc m/giây).",
+          "example": "Một ô tô đi được quãng đường 120 km trong 2 giờ thì vận tốc của ô tô là v = 120 : 2 = 60 km/giờ.",
+          "essence": "Vận tốc cho biết mức độ chuyển động nhanh hay chậm của một vật thể."
+        },
+        {
+          "term": "Chuyển động ngược chiều gặp nhau",
+          "definition": "Hai chuyển động khởi hành cùng lúc và đi ngược chiều về phía nhau để gặp nhau: Thời gian gặp nhau = Quãng đường ban đầu chia cho Tổng hai vận tốc: t = s : (v1 + v2).",
+          "example": "Hai xe cách nhau 180 km, xe 1 đi 50 km/h, xe 2 đi 40 km/h: thời gian gặp nhau t = 180 : (50 + 40) = 2 giờ.",
+          "essence": "Mỗi giờ hai xe cùng tiến gần nhau một khoảng bằng tổng hai vận tốc."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối quan hệ giữa s, v và t",
+          "meaning": "s = v * t (quãng đường = vận tốc * thời gian); v = s : t (vận tốc = quãng đường : thời gian); t = s : v (thời gian = quãng đường : vận tốc).",
+          "example": "Một người đi xe đạp với vận tốc 12 km/h trong 2,5 giờ thì đi được: s = 12 * 2,5 = 30 km.",
+          "essence": "Phải luôn thống nhất đơn vị đo: nếu vận tốc là km/h thì thời gian phải là GIỜ và quãng đường là KM."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Quãng đường AB dài 150 km. Một ô tô đi từ A đến B với vận tốc 60 km/giờ, cùng lúc đó một xe máy đi từ B về A với vận tốc 40 km/giờ. Hỏi sau bao lâu hai xe gặp nhau và điểm gặp cách A bao nhiêu km?",
+          "steps": [
+            "Bước 1: Tính tổng vận tốc của hai xe: 60 + 40 = 100 (km/giờ).",
+            "Bước 2: Thời gian để hai xe gặp nhau: 150 : 100 = 1,5 (giờ) = 1 giờ 30 phút.",
+            "Bước 3: Điểm gặp nhau cách A chính là quãng đường ô tô đã đi: 60 * 1,5 = 90 (km)."
+          ],
+          "answer": "Hai xe gặp nhau sau 1,5 giờ tại điểm cách A 90 km."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thời gian 1 giờ 30 phút viết thành 1,3 giờ để nhân với vận tốc.",
+          "why": "1 giờ 30 phút = 1 và 30/60 giờ = 1,5 giờ chứ không phải 1,3 giờ."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Vận tốc, quãng đường, thời gian và bài toán chuyển động đều",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Vận tốc, quãng đường, thời gian và bài toán chuyển động đều.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Vận tốc trong chuyển động đều",
+          "definition": "Vận tốc là quãng đường đi được trong một đơn vị thời gian: v = s : t (đơn vị thông dụng: km/giờ hoặc m/giây).",
+          "example": "Một ô tô đi được quãng đường 120 km trong 2 giờ thì vận tốc của ô tô là v = 120 : 2 = 60 km/giờ.",
+          "essence": "Vận tốc cho biết mức độ chuyển động nhanh hay chậm của một vật thể."
+        },
+        {
+          "term": "Chuyển động ngược chiều gặp nhau",
+          "definition": "Hai chuyển động khởi hành cùng lúc và đi ngược chiều về phía nhau để gặp nhau: Thời gian gặp nhau = Quãng đường ban đầu chia cho Tổng hai vận tốc: t = s : (v1 + v2).",
+          "example": "Hai xe cách nhau 180 km, xe 1 đi 50 km/h, xe 2 đi 40 km/h: thời gian gặp nhau t = 180 : (50 + 40) = 2 giờ.",
+          "essence": "Mỗi giờ hai xe cùng tiến gần nhau một khoảng bằng tổng hai vận tốc."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Mối quan hệ giữa s, v và t",
+          "meaning": "s = v * t (quãng đường = vận tốc * thời gian); v = s : t (vận tốc = quãng đường : thời gian); t = s : v (thời gian = quãng đường : vận tốc).",
+          "example": "Một người đi xe đạp với vận tốc 12 km/h trong 2,5 giờ thì đi được: s = 12 * 2,5 = 30 km.",
+          "essence": "Phải luôn thống nhất đơn vị đo: nếu vận tốc là km/h thì thời gian phải là GIỜ và quãng đường là KM."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Quãng đường AB dài 150 km. Một ô tô đi từ A đến B với vận tốc 60 km/giờ, cùng lúc đó một xe máy đi từ B về A với vận tốc 40 km/giờ. Hỏi sau bao lâu hai xe gặp nhau và điểm gặp cách A bao nhiêu km?",
+          "steps": [
+            "Bước 1: Tính tổng vận tốc của hai xe: 60 + 40 = 100 (km/giờ).",
+            "Bước 2: Thời gian để hai xe gặp nhau: 150 : 100 = 1,5 (giờ) = 1 giờ 30 phút.",
+            "Bước 3: Điểm gặp nhau cách A chính là quãng đường ô tô đã đi: 60 * 1,5 = 90 (km)."
+          ],
+          "answer": "Hai xe gặp nhau sau 1,5 giờ tại điểm cách A 90 km."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Lấy thời gian 1 giờ 30 phút viết thành 1,3 giờ để nhân với vận tốc.",
+          "why": "1 giờ 30 phút = 1 và 30/60 giờ = 1,5 giờ chứ không phải 1,3 giờ."
+        }
+      ]
+    }
+  ]
+}

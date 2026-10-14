@@ -927,25 +927,27 @@
                 heroTitle: "Học vui mỗi ngày.<br>Vững vàng tương lai.",
                 heroDesc: "Khơi gợi niềm vui học tập với bài giảng sinh động, hình ảnh ngộ nghĩnh và lộ trình bám sát bộ SGK Kết nối tri thức của NXB Giáo dục Việt Nam (Năm học 2026 – 2027).",
                 heroStats: [
-                    { val: "5", lbl: "Khối lớp (Lớp 1 – 5)" },
-                    { val: "34+", lbl: "Phân môn học SGK" },
-                    { val: "100%", lbl: "SGK Kết nối tri thức" }
+                    { val: "156+", lbl: "Đề ôn tập Lớp 5" },
+                    { val: "936+", lbl: "Câu trắc nghiệm 3 bước" },
+                    { val: "100%", lbl: "SGK Kết nối tri thức Lớp 5" }
                 ],
-                sticker: "Học vui • Học giỏi • Lớn lên nhé! 💖",
+                sticker: "Học vui • Học giỏi • Tự tin vào Lớp 6! 🎓",
                 grades: [
                     { id: "01", name: "Lớp 1", desc: "Khám phá thế giới mới", icon: "🌱" },
                     { id: "02", name: "Lớp 2", desc: "Vững vàng hơn mỗi ngày", icon: "⭐" },
                     { id: "03", name: "Lớp 3", desc: "Học sâu hiểu rộng", icon: "🌿" },
                     { id: "04", name: "Lớp 4", desc: "Tự tin chinh phục", icon: "🚀" },
-                    { id: "05", name: "Lớp 5", desc: "Sẵn sàng vươn xa", icon: "🎓" }
+                    { id: "05", name: "Lớp 5", desc: "Sẵn sàng vươn xa • Vào lớp 6", icon: "🎓" }
                 ],
                 subjects: [
-                    { id: "tieng-viet", name: "Tiếng Việt", icon: "📖", chapters: 10 },
-                    { id: "toan", name: "Toán", icon: "🔢", chapters: 12 },
-                    { id: "tu-nhien-xa-hoi", name: "Tự nhiên & Xã hội", icon: "🌿", chapters: 8 },
-                    { id: "dao-duc", name: "Đạo đức", icon: "🧡", chapters: 8 },
-                    { id: "am-nhac", name: "Âm nhạc", icon: "🎵", chapters: 4 },
-                    { id: "mi-thuat", name: "Mĩ thuật", icon: "🎨", chapters: 4 }
+                    { id: "toan", name: "Toán", icon: "🔢", chapters: 6 },
+                    { id: "tieng-viet", name: "Tiếng Việt", icon: "📖", chapters: 5 },
+                    { id: "tieng-anh", name: "Tiếng Anh", icon: "🇬🇧", chapters: 6 },
+                    { id: "khoa-hoc", name: "Khoa học", icon: "🔬", chapters: 5 },
+                    { id: "lich-su-dia-li", name: "Lịch sử & Địa lí", icon: "🌍", chapters: 5 },
+                    { id: "tin-hoc", name: "Tin học", icon: "💻", chapters: 4 },
+                    { id: "dao-duc", name: "Đạo đức", icon: "🧡", chapters: 4 },
+                    { id: "cong-nghe", name: "Công nghệ", icon: "⚙️", chapters: 4 }
                 ]
             },
             c2: {
@@ -1025,15 +1027,11 @@
 
         function handleLevelClick(event, levelKey) {
             if (event) event.preventDefault();
-            const targetGrade = (levelKey === 'c3') ? '10' : ((levelKey === 'c2') ? '06' : '01');
+            const targetGrade = (levelKey === 'c3') ? '10' : ((levelKey === 'c2') ? '06' : '05');
             selectLevel(levelKey, targetGrade);
-            if (levelKey === 'c1') {
-                openNotifyModal('Cấp Tiểu học (Lớp 1 - 5)');
-            } else {
-                const subSec = document.getElementById('subjects');
-                if (subSec) {
-                    subSec.scrollIntoView({ behavior: 'smooth' });
-                }
+            const subSec = document.getElementById('subjects');
+            if (subSec) {
+                subSec.scrollIntoView({ behavior: 'smooth' });
             }
         }
 
@@ -1174,7 +1172,7 @@
             if (preferredGrade && lvl.grades && lvl.grades.some(g => g.id === preferredGrade)) {
                 selectedGrade = preferredGrade;
             } else {
-                selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : lvl.grades[0].id);
+                selectedGrade = (levelKey === 'c2') ? '06' : ((levelKey === 'c3') ? '11' : ((levelKey === 'c1') ? '05' : lvl.grades[0].id));
             }
             try { localStorage.setItem('sgk_selected_grade', selectedGrade); } catch(e){}
             
@@ -1206,9 +1204,9 @@
             const s3v = document.getElementById('stat-val-3');
             const s3l = document.getElementById('stat-lbl-3');
 
-            if (s1v) s1v.textContent = '1.558+';
-            if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa (Lớp 6 - 12)';
-            if (s2v) s2v.textContent = '9.348+';
+            if (s1v) s1v.textContent = '1.714+';
+            if (s1l) s1l.textContent = 'Đề ôn luyện chuẩn hóa (Lớp 5 - 12)';
+            if (s2v) s2v.textContent = '10.284+';
             if (s2l) s2l.textContent = 'Câu hỏi trắc nghiệm 3 bước';
             if (s3v) s3v.textContent = '100%';
             if (s3l) s3l.textContent = 'Chuẩn SGK 2026 – 2027';
@@ -1235,7 +1233,7 @@
             const lvl = LEVEL_DATA[currentLevel];
             
             container.innerHTML = lvl.grades.map(g => {
-                const isReady = true; // Trọn bộ 7 khối lớp (06, 07, 08, 09, 10, 11, 12) đều đã hoàn thành 100%
+                const isReady = (g.id === '05' || g.id === '06' || g.id === '07' || g.id === '08' || g.id === '09' || g.id === '10' || g.id === '11' || g.id === '12');
                 const badgeHtml = isReady 
                     ? `<span style="background:#10b981; color:white; font-size:0.68rem; padding:0.15rem 0.5rem; border-radius:12px; font-weight:800; margin-left:0.35rem; display:inline-flex; align-items:center; gap:0.2rem;">✨ Sẵn sàng học</span>`
                     : `<span style="background:#f1f5f9; color:#64748b; font-size:0.68rem; padding:0.15rem 0.45rem; border-radius:12px; font-weight:600; margin-left:0.35rem; border:1px solid #cbd5e1;">⏳ Đang số hóa SGK</span>`;
@@ -1253,7 +1251,29 @@
             // Cập nhật thông báo trạng thái lớp kèm CTA hành động
             const noticeEl = document.getElementById('grade-status-notice');
             if (noticeEl) {
-                if (selectedGrade === '06') {
+                if (selectedGrade === '05') {
+                    noticeEl.innerHTML = `
+                        <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
+                            <div style="display:flex; align-items:center; gap:0.75rem;">
+                                <span style="font-size:1.6rem;">🎓</span>
+                                <div>
+                                    <strong style="font-size:1rem; color:#065f46;">Lớp 5 — Hoàn thành 100% trọn bộ 8 môn học: Toán, Tiếng Việt, Tiếng Anh, Khoa học, Sử-Địa, Tin học, Đạo đức, Công nghệ!</strong>
+                                    <p style="margin:0.25rem 0 0 0; font-size:0.85rem; color:#047857;">Trọn bộ 39 chương/chủ điểm với 156 đề thi phân hóa 4 cấp độ (936 câu hỏi giải thích 3 bước sư phạm), 312 thẻ flashcards Active Recall sẵn sàng chuyển cấp vào Lớp 6 bám sát SGK Kết nối tri thức 2026–2027.</p>
+                                </div>
+                            </div>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <a href="subject.html?grade=05&subject=toan" class="ol-btn-primary" style="background:#059669; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔢 Toán 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=tieng-viet" class="ol-btn-primary" style="background:#b45309; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">📖 Tiếng Việt 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=tieng-anh" class="ol-btn-primary" style="background:#0284c7; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🇬🇧 Tiếng Anh 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=khoa-hoc" class="ol-btn-primary" style="background:#0d9488; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🔬 Khoa học 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=lich-su-dia-li" class="ol-btn-primary" style="background:#4f46e5; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🌍 Sử-Địa 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=tin-hoc" class="ol-btn-primary" style="background:#0891b2; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">💻 Tin học 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=dao-duc" class="ol-btn-primary" style="background:#ea580c; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">🧡 Đạo đức 5 ➔</a>
+                                <a href="subject.html?grade=05&subject=cong-nghe" class="ol-btn-primary" style="background:#7c3aed; text-decoration:none; padding:0.55rem 0.9rem; font-size:0.84rem; font-weight:800; border-radius:10px; display:inline-flex; align-items:center; gap:0.3rem; white-space:nowrap;">⚙️ Công nghệ 5 ➔</a>
+                            </div>
+                        </div>
+                    `;
+                } else if (selectedGrade === '06') {
                     noticeEl.innerHTML = `
                         <div style="background:#ecfdf5; border:1.5px solid #a7f3d0; border-radius:14px; padding:1rem 1.25rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; color:#065f46;">
                             <div style="display:flex; align-items:center; gap:0.75rem;">
@@ -1486,7 +1506,14 @@
                 'khoa-hoc-tu-nhien': 'KHTN',
                 'lich-su-dia-li': 'Sử - Địa',
                 'giao-duc-cong-dan': 'GDCD',
-                'cong-nghe': 'Công nghệ'
+                'cong-nghe': 'Công nghệ',
+                'tieng-viet': 'Tiếng Việt',
+                'khoa-hoc': 'Khoa học',
+                'dao-duc': 'Đạo đức',
+                'am-nhac': 'Âm nhạc',
+                'mi-thuat': 'Mĩ thuật',
+                'giao-duc-the-chat': 'GDTC',
+                'hdtn-huong-nghiep': 'HĐTN'
             };
             return map[id] || id;
         }
@@ -1655,7 +1682,16 @@
                 
                 let isReady = false;
                 let readyNote = '';
-                if (selectedGrade === '06') {
+                if (selectedGrade === '05') {
+                    if (s.id === 'toan') { isReady = true; readyNote = '6/6 chương • 24 đề'; }
+                    else if (s.id === 'tieng-viet') { isReady = true; readyNote = '5/5 chủ điểm • 20 đề'; }
+                    else if (s.id === 'tieng-anh') { isReady = true; readyNote = '6/6 units • 24 đề'; }
+                    else if (s.id === 'khoa-hoc') { isReady = true; readyNote = '5/5 chủ đề • 20 đề'; }
+                    else if (s.id === 'lich-su-dia-li') { isReady = true; readyNote = '5/5 chủ đề • 20 đề'; }
+                    else if (s.id === 'tin-hoc') { isReady = true; readyNote = '4/4 chủ đề • 16 đề'; }
+                    else if (s.id === 'dao-duc') { isReady = true; readyNote = '4/4 bài • 16 đề'; }
+                    else if (s.id === 'cong-nghe') { isReady = true; readyNote = '4/4 chương • 16 đề'; }
+                } else if (selectedGrade === '06') {
                     if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 27 đề'; }
                     else if (s.id === 'khoa-hoc-tu-nhien') { isReady = true; readyNote = '11/11 chủ đề • 33 đề'; }
                     else if (s.id === 'ngu-van') { isReady = true; readyNote = '10/10 bài • 30 đề'; }
@@ -1664,6 +1700,9 @@
                     else if (s.id === 'giao-duc-cong-dan') { isReady = true; readyNote = '12/12 bài • 36 đề'; }
                     else if (s.id === 'tieng-anh') { isReady = true; readyNote = '12/12 units • 36 đề'; }
                     else if (s.id === 'cong-nghe') { isReady = true; readyNote = '4/4 chương • 12 đề'; }
+                } else if (selectedGrade === '07' || selectedGrade === '08' || selectedGrade === '09') {
+                    isReady = true;
+                    readyNote = `${s.chapters}/${s.chapters} chương/bài • ${s.chapters * 4} đề`;
                 } else if (selectedGrade === '10') {
                     if (s.id === 'toan') { isReady = true; readyNote = '9/9 chương • 36 đề'; }
                     else if (s.id === 'ngu-van') { isReady = true; readyNote = '9/9 bài • 36 đề'; }

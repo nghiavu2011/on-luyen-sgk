@@ -5,7 +5,7 @@ from pathlib import Path
 base = Path('.')
 for folder in ['content', 'app/content']:
     count = 0
-    for grade in ['grade-07', 'grade-08', 'grade-09']:
+    for grade in ['grade-05', 'grade-06', 'grade-07', 'grade-08', 'grade-09', 'grade-10', 'grade-11', 'grade-12']:
         gdir = base / folder / grade
         assert gdir.exists(), f'{gdir} does not exist'
         with open(gdir / 'subjects.json', encoding='utf-8') as f:

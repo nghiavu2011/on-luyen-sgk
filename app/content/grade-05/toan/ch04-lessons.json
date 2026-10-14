@@ -1,0 +1,104 @@
+{
+  "chapterId": "ch04",
+  "title": "Chương 4: Hình học phẳng: Tam giác, Hình thang, Hình tròn",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Diện tích hình tam giác và diện tích hình thang",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Diện tích hình tam giác và diện tích hình thang.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Diện tích hình tam giác",
+          "definition": "Diện tích hình tam giác bằng độ dài đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = (a * h) / 2.",
+          "example": "Tam giác có đáy a = 8 cm, chiều cao h = 5 cm có diện tích S = (8 * 5) / 2 = 20 cm^2.",
+          "essence": "Tam giác bằng một nửa hình chữ nhật hoặc hình bình hành có cùng đáy và chiều cao tương ứng."
+        },
+        {
+          "term": "Chu vi và diện tích hình tròn",
+          "definition": "Chu vi C = d * 3,14 = r * 2 * 3,14. Diện tích S = r * r * 3,14 (r là bán kính, d là đường kính).",
+          "example": "Hình tròn có bán kính r = 3 cm thì chu vi C = 3 * 2 * 3,14 = 18,84 cm; diện tích S = 3 * 3 * 3,14 = 28,26 cm^2.",
+          "essence": "Số 3,14 là giá trị xấp xỉ của số Pi (π), thể hiện tỉ số giữa chu vi và đường kính của mọi hình tròn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính diện tích hình thang",
+          "meaning": "Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = ((a + b) * h) / 2.",
+          "example": "'Muốn tính diện tích hình thang / Đáy lớn đáy bé ta mang cộng vào / Cộng vào nhân với chiều cao / Chia đôi lấy nửa thế nào cũng ra'.",
+          "essence": "Ghép hai hình thang bằng nhau sẽ tạo thành một hình bình hành có đáy bằng (đáy lớn + đáy bé)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một thửa ruộng hình thang có đáy lớn 120 m, đáy bé bằng 2/3 đáy lớn, chiều cao bằng 40 m. Tính diện tích thửa ruộng đó ra mét vuông và héc-ta (ha).",
+          "steps": [
+            "Bước 1: Tính đáy bé thửa ruộng: 120 * 2/3 = 80 (m).",
+            "Bước 2: Tính diện tích hình thang: S = (120 + 80) * 40 / 2 = 200 * 20 = 4.000 (m^2).",
+            "Bước 3: Đổi đơn vị sang héc-ta: 1 ha = 10.000 m^2 => 4.000 m^2 = 0,4 ha."
+          ],
+          "answer": "Diện tích thửa ruộng là 4.000 m^2 (bằng 0,4 ha)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi tính diện tích hình tròn lại lấy 'r * 2 * 3,14' thay vì 'r * r * 3,14'.",
+          "why": "r * 2 * 3,14 là công thức tính CHU VI, còn DIỆN TÍCH bắt buộc phải là bán kính nhân với bán kính (r * r * 3,14)."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Chu vi và diện tích hình tròn",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Chu vi và diện tích hình tròn.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Diện tích hình tam giác",
+          "definition": "Diện tích hình tam giác bằng độ dài đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = (a * h) / 2.",
+          "example": "Tam giác có đáy a = 8 cm, chiều cao h = 5 cm có diện tích S = (8 * 5) / 2 = 20 cm^2.",
+          "essence": "Tam giác bằng một nửa hình chữ nhật hoặc hình bình hành có cùng đáy và chiều cao tương ứng."
+        },
+        {
+          "term": "Chu vi và diện tích hình tròn",
+          "definition": "Chu vi C = d * 3,14 = r * 2 * 3,14. Diện tích S = r * r * 3,14 (r là bán kính, d là đường kính).",
+          "example": "Hình tròn có bán kính r = 3 cm thì chu vi C = 3 * 2 * 3,14 = 18,84 cm; diện tích S = 3 * 3 * 3,14 = 28,26 cm^2.",
+          "essence": "Số 3,14 là giá trị xấp xỉ của số Pi (π), thể hiện tỉ số giữa chu vi và đường kính của mọi hình tròn."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Công thức tính diện tích hình thang",
+          "meaning": "Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = ((a + b) * h) / 2.",
+          "example": "'Muốn tính diện tích hình thang / Đáy lớn đáy bé ta mang cộng vào / Cộng vào nhân với chiều cao / Chia đôi lấy nửa thế nào cũng ra'.",
+          "essence": "Ghép hai hình thang bằng nhau sẽ tạo thành một hình bình hành có đáy bằng (đáy lớn + đáy bé)."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Một thửa ruộng hình thang có đáy lớn 120 m, đáy bé bằng 2/3 đáy lớn, chiều cao bằng 40 m. Tính diện tích thửa ruộng đó ra mét vuông và héc-ta (ha).",
+          "steps": [
+            "Bước 1: Tính đáy bé thửa ruộng: 120 * 2/3 = 80 (m).",
+            "Bước 2: Tính diện tích hình thang: S = (120 + 80) * 40 / 2 = 200 * 20 = 4.000 (m^2).",
+            "Bước 3: Đổi đơn vị sang héc-ta: 1 ha = 10.000 m^2 => 4.000 m^2 = 0,4 ha."
+          ],
+          "answer": "Diện tích thửa ruộng là 4.000 m^2 (bằng 0,4 ha)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi tính diện tích hình tròn lại lấy 'r * 2 * 3,14' thay vì 'r * r * 3,14'.",
+          "why": "r * 2 * 3,14 là công thức tính CHU VI, còn DIỆN TÍCH bắt buộc phải là bán kính nhân với bán kính (r * r * 3,14)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "chapterId": "ch01",
+  "title": "Chủ đề 1: Máy tính và Em: Khám phá Thế giới số",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Phần cứng, phần mềm và các thiết bị vào - ra",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Phần cứng, phần mềm và các thiết bị vào - ra.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thiết bị Vào và Thiết bị Ra",
+          "definition": "Thiết bị vào (Input): tiếp nhận thông tin từ người dùng đưa vào máy tính (bàn phím, chuột, micro, máy quét). Thiết bị ra (Output): xuất thông tin từ máy tính ra cho con người hiểu (màn hình, loa, máy in, máy chiếu).",
+          "example": "Gõ phím chữ 'A' (thiết bị vào) -> màn hình hiển thị chữ 'A' (thiết bị ra).",
+          "essence": "Luồng thông tin: Vào -> Bộ xử lí CPU -> Ra."
+        },
+        {
+          "term": "Cây thư mục (Folder Tree)",
+          "definition": "Cách sắp xếp các tệp dữ liệu vào từng thư mục mẹ và thư mục con phân cấp theo môn học hoặc theo năm để dễ tìm kiếm và quản lí.",
+          "example": "Thư mục 'HOC TAP LOP 5' chứa các thư mục con: 'Toan', 'Tieng Viet', 'Tin hoc', 'Ve'.",
+          "essence": "Sắp xếp gọn gàng ngăn nắp giúp tiết kiệm thời gian tìm kiếm tài liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc đặt tên tệp và thư mục an toàn",
+          "meaning": "Nên đặt tên ngắn gọn, rõ nghĩa, không dấu tiếng Việt có khoảng trắng kì lạ, tránh dùng các kí tự đặc biệt cấm: / \\ : * ? \" < > |.",
+          "example": "Dat ten dung: Bai_tap_Toan_Lop5.docx thay vi Bai???***.docx.",
+          "essence": "Giúp hệ điều hành không bị lỗi đường dẫn khi sao chép hoặc gửi qua email."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Em hãy phân loại các thiết bị sau vào hai nhóm Thiết bị Vào và Thiết bị Ra: Bàn phím, Tai nghe, Máy in, Chuột, Máy chiếu, Micro.",
+          "steps": [
+            "Bước 1: Thiết bị Vào: Bàn phím (nhập văn bản), Chuột (điều khiển con trỏ), Micro (thu âm thanh).",
+            "Bước 2: Thiết bị Ra: Tai nghe (phát âm thanh), Máy in (in trang giấy), Máy chiếu (chiếu hình ảnh lên màn lớn)."
+          ],
+          "answer": "Vào: Bàn phím, Chuột, Micro. Ra: Tai nghe, Máy in, Máy chiếu."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn màn hình máy tính thông thường là thiết bị vào.",
+          "why": "Màn hình thông thường chỉ hiển thị hình ảnh ra (thiết bị ra). Trừ trường hợp màn hình cảm ứng điện thoại/iPad vừa là thiết bị vào vừa là thiết bị ra."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Tổ chức cây thư mục và lưu trữ tệp tin khoa học",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Tổ chức cây thư mục và lưu trữ tệp tin khoa học.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Thiết bị Vào và Thiết bị Ra",
+          "definition": "Thiết bị vào (Input): tiếp nhận thông tin từ người dùng đưa vào máy tính (bàn phím, chuột, micro, máy quét). Thiết bị ra (Output): xuất thông tin từ máy tính ra cho con người hiểu (màn hình, loa, máy in, máy chiếu).",
+          "example": "Gõ phím chữ 'A' (thiết bị vào) -> màn hình hiển thị chữ 'A' (thiết bị ra).",
+          "essence": "Luồng thông tin: Vào -> Bộ xử lí CPU -> Ra."
+        },
+        {
+          "term": "Cây thư mục (Folder Tree)",
+          "definition": "Cách sắp xếp các tệp dữ liệu vào từng thư mục mẹ và thư mục con phân cấp theo môn học hoặc theo năm để dễ tìm kiếm và quản lí.",
+          "example": "Thư mục 'HOC TAP LOP 5' chứa các thư mục con: 'Toan', 'Tieng Viet', 'Tin hoc', 'Ve'.",
+          "essence": "Sắp xếp gọn gàng ngăn nắp giúp tiết kiệm thời gian tìm kiếm tài liệu."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc đặt tên tệp và thư mục an toàn",
+          "meaning": "Nên đặt tên ngắn gọn, rõ nghĩa, không dấu tiếng Việt có khoảng trắng kì lạ, tránh dùng các kí tự đặc biệt cấm: / \\ : * ? \" < > |.",
+          "example": "Dat ten dung: Bai_tap_Toan_Lop5.docx thay vi Bai???***.docx.",
+          "essence": "Giúp hệ điều hành không bị lỗi đường dẫn khi sao chép hoặc gửi qua email."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Em hãy phân loại các thiết bị sau vào hai nhóm Thiết bị Vào và Thiết bị Ra: Bàn phím, Tai nghe, Máy in, Chuột, Máy chiếu, Micro.",
+          "steps": [
+            "Bước 1: Thiết bị Vào: Bàn phím (nhập văn bản), Chuột (điều khiển con trỏ), Micro (thu âm thanh).",
+            "Bước 2: Thiết bị Ra: Tai nghe (phát âm thanh), Máy in (in trang giấy), Máy chiếu (chiếu hình ảnh lên màn lớn)."
+          ],
+          "answer": "Vào: Bàn phím, Chuột, Micro. Ra: Tai nghe, Máy in, Máy chiếu."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Nhầm lẫn màn hình máy tính thông thường là thiết bị vào.",
+          "why": "Màn hình thông thường chỉ hiển thị hình ảnh ra (thiết bị ra). Trừ trường hợp màn hình cảm ứng điện thoại/iPad vừa là thiết bị vào vừa là thiết bị ra."
+        }
+      ]
+    }
+  ]
+}

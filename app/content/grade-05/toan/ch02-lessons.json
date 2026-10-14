@@ -1,0 +1,156 @@
+{
+  "chapterId": "ch02",
+  "title": "Chương 2: Các phép tính với Số thập phân",
+  "lessons": [
+    {
+      "id": "l01",
+      "title": "Bài 1: Phép cộng và phép trừ số thập phân",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 1: Phép cộng và phép trừ số thập phân.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đặt tính cộng và trừ số thập phân",
+          "definition": "Viết số hạng này dưới số hạng kia sao cho các chữ số ở cùng một hàng đặt thẳng cột với nhau (đặc biệt các dấu phẩy phải thẳng cột một hàng dọc). Cộng/trừ như đối với số tự nhiên rồi viết dấu phẩy ở kết quả thẳng cột với các dấu phẩy phía trên.",
+          "example": "45,8 + 6,25 = 52,05 (đặt dấu phẩy của 45,8 và 6,25 thẳng hàng dọc).",
+          "essence": "Thẳng cột dấu phẩy là quy tắc vàng sống còn để không bị cộng nhầm hàng chục với hàng phần mười."
+        },
+        {
+          "term": "Vị trí dấu phẩy trong phép nhân số thập phân",
+          "definition": "Đếm xem trong phần thập phân của cả hai thừa số có tất cả bao nhiêu chữ số rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.",
+          "example": "1,25 * 0,4: thừa số 1,25 có 2 chữ số thập phân, thừa số 0,4 có 1 chữ số thập phân => tổng cộng có 3 chữ số thập phân. 125 * 4 = 500 => Tích là 0,500 = 0,5.",
+          "essence": "Số chữ số thập phân của tích bằng tổng số chữ số thập phân của các thừa số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhân nhẩm và chia nhẩm đặc biệt",
+          "meaning": "Nhân với 10; 100; 1000 chuyển dấu phẩy sang phải 1, 2, 3 chữ số. Nhân với 0,1; 0,01 chuyển dấu phẩy sang trái 1, 2 chữ số (tương đương chia cho 10, 100).",
+          "example": "4,35 * 10 = 43,5; 4,35 * 0,1 = 0,435; 18,6 : 0,1 = 186.",
+          "essence": "Nhân với 0,1 tương đương chia cho 10; chia cho 0,1 tương đương nhân với 10."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức bằng cách thuận tiện nhất: A = 3,45 * 8,7 + 3,45 * 1,3.",
+          "steps": [
+            "Bước 1: Nhận thấy cả hai tích đều có thừa số chung là 3,45.",
+            "Bước 2: Áp dụng tính chất phân phối của phép nhân đối với phép cộng: A = 3,45 * (8,7 + 1,3).",
+            "Bước 3: Tính trong ngoặc: 8,7 + 1,3 = 10,0 = 10.",
+            "Bước 4: Thực hiện phép nhân nhẩm: 3,45 * 10 = 34,5."
+          ],
+          "answer": "A = 34,5"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi đặt tính 25,4 - 3,18 viết thành 25,4 - 3,18 rồi hạ 8 xuống thành đuôi 8 thay vì lấy 0 trừ 8 bằng 2 nhớ 1.",
+          "why": "Phải hiểu 25,4 chính là 25,40. Khi trừ phải lấy 10 trừ 8 được 2, nhớ 1 vào 1 thành 2; 4 trừ 2 được 2."
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "title": "Bài 2: Phép nhân số thập phân và nhân nhẩm với 10, 100, 0,1, 0,01",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 2: Phép nhân số thập phân và nhân nhẩm với 10, 100, 0,1, 0,01.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đặt tính cộng và trừ số thập phân",
+          "definition": "Viết số hạng này dưới số hạng kia sao cho các chữ số ở cùng một hàng đặt thẳng cột với nhau (đặc biệt các dấu phẩy phải thẳng cột một hàng dọc). Cộng/trừ như đối với số tự nhiên rồi viết dấu phẩy ở kết quả thẳng cột với các dấu phẩy phía trên.",
+          "example": "45,8 + 6,25 = 52,05 (đặt dấu phẩy của 45,8 và 6,25 thẳng hàng dọc).",
+          "essence": "Thẳng cột dấu phẩy là quy tắc vàng sống còn để không bị cộng nhầm hàng chục với hàng phần mười."
+        },
+        {
+          "term": "Vị trí dấu phẩy trong phép nhân số thập phân",
+          "definition": "Đếm xem trong phần thập phân của cả hai thừa số có tất cả bao nhiêu chữ số rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.",
+          "example": "1,25 * 0,4: thừa số 1,25 có 2 chữ số thập phân, thừa số 0,4 có 1 chữ số thập phân => tổng cộng có 3 chữ số thập phân. 125 * 4 = 500 => Tích là 0,500 = 0,5.",
+          "essence": "Số chữ số thập phân của tích bằng tổng số chữ số thập phân của các thừa số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhân nhẩm và chia nhẩm đặc biệt",
+          "meaning": "Nhân với 10; 100; 1000 chuyển dấu phẩy sang phải 1, 2, 3 chữ số. Nhân với 0,1; 0,01 chuyển dấu phẩy sang trái 1, 2 chữ số (tương đương chia cho 10, 100).",
+          "example": "4,35 * 10 = 43,5; 4,35 * 0,1 = 0,435; 18,6 : 0,1 = 186.",
+          "essence": "Nhân với 0,1 tương đương chia cho 10; chia cho 0,1 tương đương nhân với 10."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức bằng cách thuận tiện nhất: A = 3,45 * 8,7 + 3,45 * 1,3.",
+          "steps": [
+            "Bước 1: Nhận thấy cả hai tích đều có thừa số chung là 3,45.",
+            "Bước 2: Áp dụng tính chất phân phối của phép nhân đối với phép cộng: A = 3,45 * (8,7 + 1,3).",
+            "Bước 3: Tính trong ngoặc: 8,7 + 1,3 = 10,0 = 10.",
+            "Bước 4: Thực hiện phép nhân nhẩm: 3,45 * 10 = 34,5."
+          ],
+          "answer": "A = 34,5"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi đặt tính 25,4 - 3,18 viết thành 25,4 - 3,18 rồi hạ 8 xuống thành đuôi 8 thay vì lấy 0 trừ 8 bằng 2 nhớ 1.",
+          "why": "Phải hiểu 25,4 chính là 25,40. Khi trừ phải lấy 10 trừ 8 được 2, nhớ 1 vào 1 thành 2; 4 trừ 2 được 2."
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "title": "Bài 3: Phép chia số thập phân và chia cho 0,1, 0,01",
+      "hasRealContent": true,
+      "objectives": [
+        "Nắm vững các khái niệm và định nghĩa cốt lõi của Bài 3: Phép chia số thập phân và chia cho 0,1, 0,01.",
+        "Hiểu và áp dụng thành thạo các quy tắc và công thức trong SGK Lớp 5.",
+        "Rèn luyện kỹ năng phân tích và giải quyết các bài toán/tình huống thực tiễn."
+      ],
+      "concepts": [
+        {
+          "term": "Đặt tính cộng và trừ số thập phân",
+          "definition": "Viết số hạng này dưới số hạng kia sao cho các chữ số ở cùng một hàng đặt thẳng cột với nhau (đặc biệt các dấu phẩy phải thẳng cột một hàng dọc). Cộng/trừ như đối với số tự nhiên rồi viết dấu phẩy ở kết quả thẳng cột với các dấu phẩy phía trên.",
+          "example": "45,8 + 6,25 = 52,05 (đặt dấu phẩy của 45,8 và 6,25 thẳng hàng dọc).",
+          "essence": "Thẳng cột dấu phẩy là quy tắc vàng sống còn để không bị cộng nhầm hàng chục với hàng phần mười."
+        },
+        {
+          "term": "Vị trí dấu phẩy trong phép nhân số thập phân",
+          "definition": "Đếm xem trong phần thập phân của cả hai thừa số có tất cả bao nhiêu chữ số rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.",
+          "example": "1,25 * 0,4: thừa số 1,25 có 2 chữ số thập phân, thừa số 0,4 có 1 chữ số thập phân => tổng cộng có 3 chữ số thập phân. 125 * 4 = 500 => Tích là 0,500 = 0,5.",
+          "essence": "Số chữ số thập phân của tích bằng tổng số chữ số thập phân của các thừa số."
+        }
+      ],
+      "rules": [
+        {
+          "statement": "Quy tắc nhân nhẩm và chia nhẩm đặc biệt",
+          "meaning": "Nhân với 10; 100; 1000 chuyển dấu phẩy sang phải 1, 2, 3 chữ số. Nhân với 0,1; 0,01 chuyển dấu phẩy sang trái 1, 2 chữ số (tương đương chia cho 10, 100).",
+          "example": "4,35 * 10 = 43,5; 4,35 * 0,1 = 0,435; 18,6 : 0,1 = 186.",
+          "essence": "Nhân với 0,1 tương đương chia cho 10; chia cho 0,1 tương đương nhân với 10."
+        }
+      ],
+      "workedExamples": [
+        {
+          "prompt": "Tính giá trị biểu thức bằng cách thuận tiện nhất: A = 3,45 * 8,7 + 3,45 * 1,3.",
+          "steps": [
+            "Bước 1: Nhận thấy cả hai tích đều có thừa số chung là 3,45.",
+            "Bước 2: Áp dụng tính chất phân phối của phép nhân đối với phép cộng: A = 3,45 * (8,7 + 1,3).",
+            "Bước 3: Tính trong ngoặc: 8,7 + 1,3 = 10,0 = 10.",
+            "Bước 4: Thực hiện phép nhân nhẩm: 3,45 * 10 = 34,5."
+          ],
+          "answer": "A = 34,5"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "Khi đặt tính 25,4 - 3,18 viết thành 25,4 - 3,18 rồi hạ 8 xuống thành đuôi 8 thay vì lấy 0 trừ 8 bằng 2 nhớ 1.",
+          "why": "Phải hiểu 25,4 chính là 25,40. Khi trừ phải lấy 10 trừ 8 được 2, nhớ 1 vào 1 thành 2; 4 trừ 2 được 2."
+        }
+      ]
+    }
+  ]
+}
