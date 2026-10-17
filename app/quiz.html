@@ -775,8 +775,9 @@
         let lastExamRecord = null;
 
         function formatOptionText(text) {
-            if (!text) return '';
-            return String(text).replace(/^[A-D][\.\:\)\s\-–]\s*/i, '');
+            if (text === null || text === undefined) return '';
+            const str = String(text).replace(/^[A-D][\.\:\)\s\-–]\s*/i, '');
+            return str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
         }
 
         // ==========================================
@@ -2960,21 +2961,32 @@
         function renderKaTeX(targetEl) {
             if (window.renderMathInElement) {
                 const root = targetEl || document.getElementById('question-render-box') || document.body;
-                renderMathInElement(root, {
-                    delimiters: [
-                        {left: '$$', right: '$$', display: true},
-                        {left: '$', right: '$', display: false}
-                    ],
-                    throwOnError: false
-                });
-                root.querySelectorAll('.katex').forEach(el => {
-                    if (!el.getAttribute('aria-label')) {
-                        const annotation = el.querySelector('annotation');
-                        const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();
-                        el.setAttribute('aria-label', 'Công thức toán học: ' + mathText);
-                        el.setAttribute('role', 'math');
+                try {
+                    renderMathInElement(root, {
+                        delimiters: [
+                            {left: '$$', right: '$$', display: true},
+                            {left: '$', right: '$', display: false}
+                        ],
+                        throwOnError: false
+                    });
+                    root.querySelectorAll('.katex').forEach(el => {
+                        if (!el.getAttribute('aria-label')) {
+                            const annotation = el.querySelector('annotation');
+                            const mathText = (annotation && annotation.textContent) ? annotation.textContent.trim() : el.textContent.trim();
+                            el.setAttribute('aria-label', 'Công thức toán học: ' + mathText);
+                            el.setAttribute('role', 'math');
+                        }
+                    });
+                } catch(e) {}
+            } else if (!window._katexRetryBoundQuiz) {
+                window._katexRetryBoundQuiz = true;
+                const checkInterval = setInterval(() => {
+                    if (window.renderMathInElement) {
+                        clearInterval(checkInterval);
+                        renderKaTeX(targetEl);
                     }
-                });
+                }, 100);
+                setTimeout(() => clearInterval(checkInterval), 5000);
             }
         }
 
